@@ -1,0 +1,19 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Large local caches (raw API responses can be regenerated from result IDs / reruns;
+# extracted + processed datasets and demo artifacts stay trackable on purpose)
+data/cache/

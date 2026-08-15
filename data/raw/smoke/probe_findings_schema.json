@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["eligible", "exclusion_reason", "findings"],
+  "properties": {
+    "eligible": { "type": "boolean" },
+    "exclusion_reason": { "type": ["string", "null"] },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["intervention", "comparator", "outcome_name", "effect_direction", "evidence_quote"],
+        "properties": {
+          "intervention": { "type": ["string", "null"] },
+          "comparator": { "type": ["string", "null"] },
+          "dose_raw": { "type": ["string", "null"] },
+          "population": { "type": ["string", "null"] },
+          "outcome_name": { "type": ["string", "null"] },
+          "timepoint_raw": { "type": ["string", "null"] },
+          "effect_direction": { "type": "string", "enum": ["increase", "decrease", "no_effect", "mixed", "unclear"] },
+          "sample_size": { "type": ["integer", "null"] },
+          "evidence_quote": { "type": ["string", "null"] },
+          "evidence_lines": { "type": ["array", "null"], "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}
