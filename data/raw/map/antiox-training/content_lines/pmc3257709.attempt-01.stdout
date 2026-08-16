@@ -1,0 +1,801 @@
+L1: Reexamination of a Meta-Analysis of the Effect of Antioxidant Supplementation on Mortality and Health in Randomized Trials
+L2: Nutrients (2010)
+L3: Hans K. Biesalski, Tilman Grune, Jana Tinz, Iris Zöllner, Jeffrey B. Blumberg
+L4: 1  Department of Biological Chemistry and Nutritional Science, University of Hohenheim, Garbenstrasse 28, D-70593 Stuttgart, Germany; Email:  jana.tinz@uni-hohenheim.de
+L5: 2  Department of Nutritional Toxicology, Friedrich Schiller University Jena, Dornburger Strasse 24, D-07743 Jena, Germany; Email:  tilman.grune@uni-jena.de
+L6: 3  Department of Epidemiology, Baden-Wuerttemberg State Health Office, Nordbahnhofstr. 135, D-70191 Stuttgart, Germany; Email:  Iris.Zoellner@rps.bwl.de
+L7: 4  Jean Mayer USDA Human Nutrition Research Center on Aging, Tufts University, Boston, MA 02111, USA; Email:  jeffrey.blumberg@tufts.edu
+L8: A recent meta-analysis of selected randomized clinical trials (RCTs), in which population groups of differing ages and health status were supplemented with various doses of β-carotene, vitamin A, and/or vitamin E, found that these interventions increased all-cause mortality. However, this meta-analysis did not consider the rationale of the constituent RCTs for antioxidant supplementation, none of which included mortality as a primary outcome. As the rationale for these trials was to test the hypothesis of a potential benefit of antioxidant supplementation, an alternative approach to a systematic evaluation of these RCTs would be to evaluate this outcome relative to the putative risk of greater total mortality. Thus, we examined these data based on the primary outcome of the 66 RCTs included in the meta-analysis via a decision analysis to identify whether the results provided a positive ( i.e. , benefit), null or negative ( i.e. , harm) outcome. Our evaluation indicated that of these RCTs, 24 had a positive outcome, 39 had a null outcome, and 3 had a negative outcome. We further categorized these interventions as primary (risk reduction in healthy populations) or secondary (slowing pathogenesis or preventing recurrent events and/or cause-specific mortality) prevention or therapeutic (treatment to improve quality of life, limit complications, and/or provide rehabilitation) studies, and determined positive outcomes in 8 of 20 primary prevention studies, 10 of 34 secondary prevention studies, and 6 out of 16 therapeutic studies. Seven of the eight RCTs with a positive outcome in primary prevention included participants in a population where malnutrition is frequently described. These results suggest that analyses of potential risks from antioxidant supplementation should be placed in the context of a benefit/risk ratio.
+L9: Article
+L10: antioxidants; supplementation; mortality; benefit/risk; meta-analysis
+L11: 1. Introduction
+L12: Several research approaches, particularly observational studies, suggest that diets rich in antioxidant nutrients, particularly vitamins C and E, β-carotene, and selenium, and/or supplements containing one or more of these nutrients are associated with a reduction in the risk of several age-related chronic diseases, including some forms of cancer, cardiovascular, eye, and neurodegenerative diseases, e.g., references [ 1 , 2 , 3 , 4 , 5 , 6 , 7 ]. These relatively consistent results stimulated the initiation of several large scale, randomized clinical trials (RCTs), including the Nutrition Intervention Trials (NIT)[ 8 ]; Alpha-Tocopherol, Beta-Carotene Cancer Prevention (ATBC) study [ 9 ]; Gruppo Italiano per lo Studio della Sopravvivenza nell’Infarto miocardico-Prevenzione trial [ 10 ]; Heart Outcomes Prevention Study (HOPE) and Heart Outcomes Prevention Evaluation-The Ongoing Outcomes (HOPE-TOO)[ 11 , 12 ]; Supplementation in Vitamins and Mineral Antioxidants (SU.VI.MAX) study [ 13 ]; Women’s Health Study (WHS)[ 14 ]; Physicians’ Health Study (PHS) and Physicians’ Health Study II (PHS-II)[ 15 , 16 ]; Age-Related Eye Disease Study (AREDS)[ 17 , 18 ]; and Selenium and Vitamin E Cancer Prevention Trial (SELECT)[ 19 ]. The overall results of most of these RCTs have been presented as equivocal or null.
+L13: These RCTs were mostly designed to test the efficacy of antioxidant supplementation in the primary or secondary prevention of cancer and/or cardiovascular disease. Due largely to issues of cost and statistical power, most of these RCTs have tested only one or two antioxidant nutrients and, thus, may not have fully benefited from the dynamic interrelationships between these nutrient and other dietary and endogenous components of the antioxidant defense network. Importantly, none of these studies employed inclusion criteria such as low antioxidant nutrient intake or status and/or elevated biomarkers of oxidative stress, or determined outcome measures as to whether these parameters were affected by the intervention, elements necessary to testing the hypothesis that the putative benefit derived from these nutrients is due to their antioxidant actions [ 20 , 21 ].
+L14: The limitations of RCTs in testing the efficacy and safety of nutrients are not often fully appreciated. The RCT research approach was developed for drugs, where interventions are designed to cure a disease, not produced by their absence; nutrients prevent dysfunction that would result from their inadequate intake. Further, drug effects are generally intended to be acute, large, and with a specific target for action, while nutrient effects are typically chronic, modest, and polyvalent in scope. In addition, drug effects can be tested against a non-exposed (placebo) contrast group, whereas it is impossible and/or unethical to attempt a zero intake group for nutrients [ 22 ]. Nonetheless, RCTs are currently considered the “gold standard” for evaluating dietary interventions and, thus, receive the attention of most meta-analyses on this topic.
+L15: In addition to using RCTs to test the potential health benefits of antioxidant supplements, meta-analyses may also provide an approach to determining their safety. Although specific adverse events have been reported for most nutrients, as reflected in established Tolerable Upper Intake Levels [ 23 ], all-cause or total mortality has sometimes utilized as a global indicator of safety in meta-analyses of RCTs [ 24 , 25 , 26 ]. In their meta-analysis, Bjelakovic  et al.  [ 27 , 28 ] concluded that vitamins A and E and β-carotene were associated with an increased risk of all-cause mortality with a relative risk (95% confidence interval) of 1.16 (1.10–1.24), 1.04 (1.01–1.07), and 1.07 (1.02–1.11), respectively. This report was based on 66 RCTs utilizing >1000 participants and excluded any study absent a report of mortality (747 articles) or considered by the authors to be of low methodologic quality (21 articles). The results from the RCTs selected by Bjelakovic  et al.  [ 27 ] may not be readily extrapolated to all other studies with low power due to too few subjects. Thus, we have selected a power-independent approach to reevaluate this meta-analysis with respect to its primary outcome of total mortality as well as examining their impact on the efficacy of the intervention.
+L16: 2. Methods
+L17: We focus here on the primary endpoints of these RCTs. These data were extracted from all but two of the studies used in the Bjelakovic  et al.  [ 27 ] meta-analysis. The report by Chandra [ 29 ] (reference no. 39) has been excluded because of documented deficiencies in the integrity of data [ 30 ]. The article by Bonelli [ 31 ] (reference no. 57) has been excluded because a copy of this publication could not be obtained. The remaining 66 studies were reviewed and classified into three groups with separate analyses conducted for studies with primary prevention, secondary prevention, and therapeutic efficacy as their primary goal. Studies of primary prevention are defined as interventions in generally healthy people intended to reduce the risk of a disease or disability. Secondary prevention actions described here involve dietary interventions (nutrient supplementation) in a diagnosed group to slow the pathogenesis of the disease and/or prevent recurrent events or cause-specific mortality. Studies of therapeutic efficacy are directed to improving the quality of life, limiting complications, and/or providing rehabilitation to a patient group. Importantly, the therapeutic efficacy of dietary supplements is always tested concurrently with established standards of care, often including polypharmacy regimens, as withdrawing these other treatments would be unethical.
+L18: All the studies were independently classified by the authors and rated with regard to the primary study goal as: positive or goal achieved (+1), null outcome (0) or adverse effect (−1). Differences in classification or rating between the authors were documented and discussions held to resolve the conflicts until unanimous agreement was reached. The percentage of studies with positive results in the three groups of studies was compared using a χ 2  test for homogeneity [ 32 ].
+L19: 3. Results
+L20: Efficacy of Antioxidant Interventions
+L21: Study outcomes were listed with regard to their design as primary or secondary prevention or therapy. When studies were reported to have more than one study outcome both were listed. Overall, 24 of 66 RCTs (36%) reported a positive outcome of the intervention indicating a benefit of antioxidant supplementation. Studies testing the effect of primary prevention by antioxidants showed positive outcomes in 8 of 21 studies (38%) while a single study reported a negative outcome. Reports from secondary prevention RCTs showed positive outcomes in 10 of 29 studies (34%) while 2 obtained negative outcomes. In studies directed to therapeutic outcomes, 6 of 16 RCTs (38%) achieved positive results. No significant difference (p = 0.78) was observed in secondary prevention trials regarding outcome compared with other studies. Most of these RCTs (60%) found neither benefit nor harm from the antioxidant supplement related to their primary goal ( Table 1  and  Table 2 ).
+L22: Table 1 Study outcome (intervention effects of antioxidant trials) with respect to primary goal and study type.
+L23: Seven of the eight RCTs with a positive outcome in primary prevention included participants in a population where malnutrition is frequently described [ 8 , 13 , 33 , 34 , 35 , 36 , 37 ]. For example, five of these studies were conducted in the elderly, a population often described as at risk of micronutrient deficiencies [ 33 , 34 , 35 , 36 , 37 ]. The positive outcome in the SU.VI.MAX study of Hercberg  et al.  [ 13 ] was obtained only in males who, compared to the female participants, presented with a lower baseline status of antioxidants during enrolment into the study. The participants in the Nutrition Intervention Trials were residents of Linxian, China, an area with a high prevalence of malnutrition [ 8 ].
+L24: Table 2 Studies of Bjelakovic  et al.  [ 27 ] and their outcome with respect to the study type.
+L25: 4. Discussion
+L26: Assessing the primary goal ( i.e. , the determination of benefit) of the RCTs analyzed by Bjelakovic  et al.  [ 27 ] places their conclusion about the risk of mortality in a context relevant to the consideration of using antioxidant supplements in health promotion and therapeutic treatments. Clearly, increases in disease-specific or all-cause mortality are never objectives of intervention studies but, when observed, are a reason to stop the protocol early. Nonetheless, it is worth noting that the risk of mortality in any RCTs of nutrients will be substantially dependent upon the nature of the cohort, including parameters such as advanced age, severe disease status, toxicity of drug treatments,  etc . Importantly, in our analysis, we did not evaluate as positive, null or adverse the outcomes of the 405 studies excluded from the Bjelakovic  et al.  [ 27 ] study because no death occurred. This is a limitation to our study as it does not provide a full assessment of the potential benefits versus the risk of total mortality from antioxidant supplementation.
+L27: With regard to the efficacy of antioxidant supplementation in the RCTs included in the meta-analysis by Bjelakovic  et al.  [ 27 ], we find that the benefit of the intervention was statistically significant principally in those populations generally characterized at risk for micronutrient deficiencies, including those of vitamins C and E, selenium, and beta-carotene as well as other nutrients such as zinc that contribute to the antioxidant defense network. This relationship may suggest that dietary supplementation for the prevention or treatment of chronic diseases is likely to be most effective in those with inadequate intakes, though absent overt deficiency syndromes. Further, this relationship also suggests there is a threshold nutrient status above which additional intake via supplementation might provide no further benefit. However, the threshold for adequate intake of any nutrient is recognized as dependent on an individual’s specific requirements as affected by parameters such as age, sex, health status, and nutrigenomic factors such as polymorphisms. The contribution of polymorphisms to antioxidant defenses can be illustrated by the manganese-dependent superoxide dismutase polymorphism associated with a lower risk of prostate cancer in the presence of high intakes of selenium to optimize glutathione peroxidase activity [ 91 ].
+L28: Critical to the validity of a meta-analysis is the statistical accounting for study variability, particularly when information from multiple RCTs is combined, including the requirement for considering model uncertainty and trial effect. For example, Berry  et al.  [ 92 ] employed a Bayesian hierarchical meta-analytic method rather than the frequentist approach to synthesize results from the RCTs of vitamin E supplementation used by Bjelakovic  et al.  [ 27 ] and Miller  et al.  [ 26 ] and concluded that vitamin E intake is unlikely to affect mortality regardless of dose. Other criticisms of the Bjelakovic  et al.  [ 27 ] meta-analysis have been noted, such as including small RCTs with few deaths; attributing deaths occurring after only a few months of antioxidant treatment; combining different nutrients in different forms with a large range of doses in a wide variety of population groups with varying health status; misclassifying some studies as being of high risk of bias; and basing the conclusion about antioxidant-specific effects on models that excluded selenium trials. However, no study before has considered evaluating the same studies selected by Bjelakovic  et al.  [ 27 ] for their benefits.
+L29: Our approach to considering overall beneficial outcomes of the RCTs selected by Bjelakovic  et al.  [ 27 ] provides a balancing perspective to their meta-analysis focused exclusively on the risk of all-cause mortality. It is worthwhile noting limitations associated with the use of meta-analyses of total mortality as an indication of harm without determining the cause of death. Bjelakovic  et al.  [ 26 ] did not investigate cause-specific mortality and thus could not eliminate those that lack any biological plausibility to antioxidant (or pro-oxidant) toxicity such as accidental deaths and homicides.
+L30: It should be noted that we did not include in our evaluation benefits found only in subgroups from the RCTs selected by Bjelakovic  et al.  [ 27 ]. For examples, we judged the WHS to have an overall null outcome among its 39,876 women >45 years of age receiving a 600 IU vitamin E supplement every other day for 10 years despite the observation by Lee  et al.  [ 14 ] of a significant reduction in the relative risk (RR) of the primary outcome of myocardial infarction, cardiovascular death or stroke among women >65 years of age (RR = 0.74; 95% Confidence Interval [CI]: 0.59–0.93; P = 0.009). Similarly, we judged the Vitamin E Atherosclerosis Study (VEAPS) to have a null effect (P = 0.08) on its primary trial endpoint of the rate of change in right distal common carotid artery intima-media thickness in 332 healthy men and women ≥40 years receiving 400 IU vitamin E for three years despite the observation by Hodis  et al.  [ 67 ] of significantly reduced concentrations of circulating oxidized low density lipoprotein (LDL) and increased resistance of LDL to oxidation, both biomarkers of cardiovascular disease risk. While such subgroup analyses typically lack the statistical power from which to draw definitive conclusions, these results do suggest that further RCTs are warranted to test the potential benefit of the intervention in that population.
+L31: As the relative number of positive outcomes evaluated in our analysis was based only on those studies analyzed by Bjelakovic  et al.  [ 27 ], it is possible we have underestimated the proportion of studies demonstrating benefit. For example, Bjelakovic  et al.  [ 27 ] selected the mortality data only from the AREDS study [ 18 ] report examining the effect of a combination antioxidant supplement on the development of cataracts and vision loss which had a null outcome ( Table 2 ). However, the same mortality data, albeit provided in more detail, is available from the AREDS study [ 17 ] report examining the effect of the same supplement on age-related macular degeneration and vision loss in which a significant positive outcome was achieved. Further, in evaluating the positive, null and adverse outcomes of this set of studies, we did not take advantage of follow-up reports published after publication of the Bjelakovic  et al.  [ 27 ] article. For example, Watters  et al.  [ 93 ] recently examined prospectively the serum antioxidant status in men diagnosed with prostate cancer during the ATBC Study of 29,133 Finish smokers and in their 20 years follow-up found improved survival among the men with higher serum α-tocopherol at baseline (Hazard Ratio [HR] = 0.67; 95% CI: 0.45–1.00; P = 0.03), especially among cases who had received the vitamin E supplement and who were in the highest quintile of α-tocopherol at baseline (HR = 0.51; 95% CI: 0.20–0.90; P = 0.04) and at the 3-year follow-up measurement (HR = 0.26; 95% CI, 0.09–0.71; P = 0.02). Thus, a review including follow-up of earlier RCTs and new RCTs, e.g., of the SELECT [ 19 ] would offer a more comprehensive consideration of the benefit in relation to a potential (mortality) risk of antioxidant supplementation than provided here.
+L32: As noted above, the outcome of human studies on dietary antioxidants will depend on the initial status of the antioxidant defense network and oxidative stress in each subject, the dose(s) of the nutrient(s), and the concentration threshold for action of each nutrient. One of the major challenges in conducting RCTs to test the efficacy and safety of antioxidants (and other nutrients) as dietary supplements in reducing the risk of chronic disease, especially in primary prevention, is the need for very long durations of the intervention as we lack validated intermediary biomarkers of these conditions. The RCT conducted by Milman  et al.  [ 94 ] demonstrating the reduction of cardiovascular events (myocardial infarct, cardiovascular death, and stroke) by 400 IU/d vitamin E in type 2 diabetics with a haptoglobin 2-2 genotype but not other alleles suggests as well the need to consider nutrient/gene interactions in the study design. Total deaths within a single study or as part of a meta-analysis may be a utilized as one measure of the toxicity of a chronic intervention; however, collection of specific mortality data is essential as RCTs of dietary supplements cannot otherwise establish either biological plausibility or causality due to the inability to determine the response to discontinuation and the response to rechallenge.
+L33: The operational definition of dietary antioxidants provided by the U.S. Institute of Medicine states that these nutrients significantly decrease the adverse effects of reactive species, such as reactive oxygen and nitrogen species, on normal physiological function in humans [ 95 ]. These adverse effects are essentially described as oxidatively modified products of DNA, lipids, and protein such as 8-hydroxy-2’-deoxyguanosine, F 2 α -isoprostanes, and protein carbonyls, respectively. However, the efficacy of different antioxidants in achieving this effect is critically dependent on a variety of factors, including the baseline value of these biomarkers and the dose and duration of treatment. While lowering these biomarkers has been associated in many experimental and observational studies with a reduced risk of some age-related pathologies and chronic diseases, no evidence appears available to suggest they are correlated with premature mortality. Importantly, the classification of vitamins C and E, carotenoids, flavonoids and related polyphenols as dietary antioxidants fails suggest their other various mechanisms of action, including anti-inflammation, induction of phase 2 detoxification enzymes, and modulation of redox sensitive signal transduction and gene expression. Thus, new studies of the clinical efficacy and safety of antioxidants as dietary supplements must consider appropriate forms and doses of the ingredients, a duration relevant to the pathogenesis and/or progression of the disease, and the biologically relevant molecular targets in populations most likely to respond in a fashion providing a high benefit/risk ratio.
+L34: 1. Enstrom J.E. Kanim L.E. Klein M.A. 
+L35:            Vitamin C intake and mortality among a sample of the United States population 
+L36:            Epidemiology 
+L37:            1992 
+L38:            3 
+L39:            194 
+L40:            202 
+L41:          1591317
+L42: 2. Knekt P. Ritz J. Pereira M.A. O'Reilly E.J. Augustsson K. Fraser G.E. Goldbourt U. Heitmann B.L. Hallmans G. Liu S. 
+L43:            Antioxidant vitamins and coronary heart disease risk: A pooled analysis of 9 cohorts 
+L44:            Am. J. Clin. Nutr. 
+L45:            2004 
+L46:            80 
+L47:            1508 
+L48:            1520 
+L49:            15585762
+L50: 3. Kushi L.H. Folsom A.R. Prineas R.J. Mink P.J. Wu Y. Bostick R.M. 
+L51:            Dietary antioxidant vitamins and death from coronary heart disease in postmenopausal women 
+L52:            N. Engl. J. Med. 
+L53:            1996 
+L54:            334 
+L55:            1156 
+L56:            1162 
+L57:          8602181
+L58: 4. Losonczy K.G. Harris T.B. Havlik R.J. 
+L59:            Vitamin E and vitamin C supplement use and risk of all-cause and coronary heart disease mortality in older persons: The Established Populations for Epidemiologic Studies of the Elderly 
+L60:            Am. J. Clin. Nutr. 
+L61:            1996 
+L62:            64 
+L63:            190 
+L64:            196 
+L65:          8694019
+L66: 5. Rimm E.B. Stampfer M.J. Ascherio A. Giovannucci E. Colditz G.A. Willett W.C. 
+L67:            Vitamin E consumption and the risk of coronary heart disease in men 
+L68:            N. Engl. J. Med. 
+L69:            1993 
+L70:            328 
+L71:            1450 
+L72:            1456 
+L73:          8479464
+L74: 6. Stampfer M.J. Hennekens C.H. Manson J.E. Colditz G.A. Rosner B. Willett W.C. 
+L75:            Vitamin E consumption and the risk of coronary disease in women 
+L76:            N. Engl. J. Med. 
+L77:            1993 
+L78:            328 
+L79:            1444 
+L80:            1449 
+L81:          8479463
+L82: 7. WHO MONICA Project Principal Investigators 
+L83:            The World Health Organization MONICA Project (monitoring trends and determinants in cardiovascular disease): A major international collaboration 
+L84:            J. Clin. Epidemiol. 
+L85:            1988 
+L86:            41 
+L87:            105 
+L88:            114 
+L89:          3335877
+L90: 8. Blot W.J. Li J.Y. Taylor P.R. Guo W. Dawsey S. Wang G.Q. Yang C.S. Zheng S.F. Gail M. Li G.Y. 
+L91:            Nutrition intervention trials in Linxian, China: Supplementation with specific vitamin/mineral combinations, cancer incidence, and disease-specific mortality in the general population 
+L92:            J. Natl. Cancer Inst. 
+L93:            1993 
+L94:            85 
+L95:            1483 
+L96:            1492 
+L97:          8360931
+L98: 9. Virtamo J. Pietinen P. Huttunen J.K. Korhonen P. Malila N. Virtanen M.J. Albanes D. Taylor P.R. Albert P. 
+L99:            ATBC Study Group 
+L100:            Incidence of cancer and mortality following alpha-tocopherol and beta-carotene supplementation: A postintervention follow-up 
+L101:            J. Am. Med. Assoc. 
+L102:            2003 
+L103:            290 
+L104:            476 
+L105:            485
+L106: 10. GISSI (Gruppo Italiano per lo Studio della Sopravvivenza nell'Infarto miocardio) 
+L107:            Dietary supplementation with n-3 polyunsaturated fatty acids and vitamin E after myocardial infarction: Results of the GISSI-Prevenzione trial 
+L108:            Lancet 
+L109:            1999 
+L110:            354 
+L111:            447 
+L112:            455 
+L113:            10465168
+L114: 11. Yusuf S. Dagenais G. Pogue J. Bosch J. Sleight P. 
+L115:            Vitamin E supplementation and cardiovascular events in high-risk patients. The Heart Outcomes Prevention Evaluation Study Investigators 
+L116:            N. Engl. J. Med. 
+L117:            2000 
+L118:            342 
+L119:            154 
+L120:            160 
+L121:            10639540
+L122: 12. Lonn E. Bosch J. Yusuf S. Sheridan P. Pogue J. Arnold J.M. Ross C. Arnold A. Sleight P. Probstfield J. Dagenais G.R. 
+L123:            HOPE and HOPE-TOO Trial Investigators 
+L124:            Effects of long-term vitamin E supplementation on cardiovascular events and cancer: A randomized controlled trial 
+L125:            J. Am. Med. Assoc. 
+L126:            2005 
+L127:            293 
+L128:            1338 
+L129:            1347 
+L130:            10.1001/jama.293.11.1338
+L131: 13. Hercberg S. Galan P. Preziosi P. Bertrais S. Mennen L. Malvy D. Roussel A.M. Favier A. Briançon S. 
+L132:            The SU.VI.MAX Study: A randomized, placebo-controlled trial of the health effects of antioxidant vitamins and minerals 
+L133:            Arch. Intern. Med. 
+L134:            2004 
+L135:            164 
+L136:            2335 
+L137:            2342 
+L138:            15557412 
+L139:            10.1001/archinte.164.21.2335
+L140: 14. Lee I.M. Cook N.R. Gaziano J.M. Gordon D. Ridker P.M. Manson J.E. Hennekens C.H. Buring J.E. 
+L141:            Vitamin E in the primary prevention of cardiovascular disease and cancer: The Women's Health Study: A randomized controlled trial 
+L142:            J. Am. Med. Assoc. 
+L143:            2005 
+L144:            294 
+L145:            56 
+L146:            65
+L147: 15. Hennekens C.H. Buring J.E. Manson J.E. Stampfer M. Rosner B. Cook N.R. Belanger C. LaMotte F. Gaziano J.M. Ridker P.M. Willett W. Peto R. 
+L148:            Lack of effect of long-term supplementation with beta-carotene on the incidence of malignant neoplasms and cardiovascular disease 
+L149:            N. Engl. J. Med. 
+L150:            1996 
+L151:            334 
+L152:            1145 
+L153:            1149 
+L154:          8602179
+L155: 16. Grodstein F. Kang J.H. Glynn R.J. Cook N.R. Gaziano J.M. 
+L156:            A randomized trial of beta carotene supplementation and cognitive function in men: The Physicians' Health Study II 
+L157:            Arch. Intern. Med. 
+L158:            2007 
+L159:            167 
+L160:            2184 
+L161:            2190 
+L162:          17998490
+L163: 17. Age-Related Eye Disease Study Research Group 
+L164:            A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E, beta-carotene, and zinc for age-related macular degeneration and vision loss: Report No. 8 
+L165:            Arch. Ophthalmol. 
+L166:            2001 
+L167:            119 
+L168:            1417 
+L169:            1436 
+L170:            11594942
+L171: 18. Age-Related Eye Disease Study Research Group 
+L172:            A randomized, placebo-controlled, clinical trial of high-dose supplementation with vitamins C and E and beta-carotene for age-related cataract and vision loss: Report No. 9 
+L173:            Arch. Ophthalmol. 
+L174:            2001 
+L175:            119 
+L176:            1439 
+L177:            1452 
+L178:            11594943
+L179: 19. Lippman S.M. Klein E.A. Goodman P.J. Lucia M.S. Thompson I.M. Ford L.G. Parnes H.L. Minasian L.M. Gaziano J.M. Hartline J.A. 
+L180:            Effect of selenium and vitamin E on risk of prostate cancer and other cancers: The Selenium and Vitamin E Cancer Prevention Trial (SELECT) 
+L181:            J. Am. Med. Assoc. 
+L182:            2009 
+L183:            301 
+L184:            39 
+L185:            51
+L186: 20. Blumberg J.B. Frei B. 
+L187:            Why clinical trials of vitamin E and cardiovascular diseases may be fatally flawed. Commentary on "The relationship between dose of vitamin E and suppression of oxidative stress in humans" 
+L188:            Free Radic. Biol. Med.  
+L189:            2007 
+L190:            43 
+L191:            1374 
+L192:            1376 
+L193:            17936183 
+L194:            10.1016/j.freeradbiomed.2007.08.017
+L195: 21. Dusting G.J. Triggle C. 
+L196:            Are we over oxidized? Oxidative stress, cardiovascular disease, and the future of intervention studies with antioxidants 
+L197:            Vasc. Health Risk Manag. 
+L198:            2005 
+L199:            1 
+L200:            93 
+L201:            97 
+L202:            17315394 
+L203:            10.2147/vhrm.1.2.93.64080
+L204: 22. Heaney R.P. 
+L205:            Nutrients, endpoints, and the problem of proof 
+L206:            J. Nutr. 
+L207:            2008 
+L208:            138 
+L209:            1591 
+L210:            1595 
+L211:            18716155
+L212: 23. Food and Nutrition Board, Institute of Medicine 
+L213:            Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids 
+L214:            National Academy 
+L215:            Washington, DC, USA 
+L216:            2000 
+L217:            17
+L218: 24. Vivekananthan D.P. Penn M.S. Sapp S.K. Hsu A. Topol E.J. 
+L219:            Use of antioxidant vitamins for the prevention of cardiovascular disease: Meta-analysis of randomised trials 
+L220:            Lancet 
+L221:            2003 
+L222:            361 
+L223:            2017 
+L224:            2023 
+L225:          12814711
+L226: 25. Bjelakovic G. Nikolova D. Simonetti R.G. Gluud C. 
+L227:            Antioxidant supplements for prevention of gastrointestinal cancers: A systematic review and meta-analysis 
+L228:            Lancet 
+L229:            2004 
+L230:            364 
+L231:            1219 
+L232:            1228 
+L233:          15464182
+L234: 26. Miller E.R. III Pastor-Barriuso R. Dalal D. Riemersma R.A. Appel L.A. Guallar E. 
+L235:            Meta-analysis: High-dosage vitamin E supplementation may increase all-cause mortality 
+L236:            Ann. Intern. Med. 
+L237:            2005 
+L238:            142 
+L239:            37 
+L240:            46 
+L241:            15537682
+L242: 27. Bjelakovic G. Nikolova D. Gluud L.L. Simonetti R.G. Gluud C. 
+L243:            Mortality in randomized trials of antioxidant supplements for primary and secondary prevention: Systematic review and meta-analysis 
+L244:            J. Am. Med. Assoc. 
+L245:            2007 
+L246:            297 
+L247:            842 
+L248:            857
+L249: 28. Bjelakovic G. Nikolova D. Gluud L.L. Simonetti R.G. Gluud C. 
+L250:            Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases 
+L251:            Cochrane Database Syst. Rev. 
+L252:            2008 
+L253:            2 
+L254:            CD007176 
+L255:          18425980
+L256: 29. Chandra R.K. 
+L257:            Effect of vitamin and trace-element supplementation on immune responses and infection in elderly subjects 
+L258:            Lancet 
+L259:            1992 
+L260:            340 
+L261:            1124 
+L262:            1127 
+L263:          1359211
+L264: 30. Smith R. 
+L265:            Research misconduct: The poisoning of the well 
+L266:            J. R. Soc. Med. 
+L267:            2006 
+L268:            99 
+L269:            232 
+L270:            237 
+L271:          16672756
+L272: 31. Bonelli L. Camoriano A. Ravelli P. Missale G. Bruzzi P. Aste H. 
+L273:            Reduction of the incidence of metachronous adenomas of the large bowel by means of antioxidants 
+L274:            Proceedings of International Selenium Tellurium Development Association 
+L275:            Palmieri Y. 
+L276:            Se-Te 
+L277:            Brussels, Belgium 
+L278:            1998 
+L279:            91 
+L280:            94
+L281: 32. Sachs L. 
+L282:            Applied Statistics: A Handbook of Techniques (Springer Series in Statistics) 
+L283:            2nd 
+L284:            Springer-Verlag 
+L285:            New York, NY, USA 
+L286:            1984
+L287: 33. Girodon F. Lombard M. Galan P. Brunet-Lecomte P. Monget A.L. Arnaud J. Preziosi P. Hercberg S. 
+L288:            Effect of micronutrient supplementation on infection in institutionalized elderly subjects: A controlled trial 
+L289:            Ann. Nutr. Metab. 
+L290:            1997 
+L291:            41 
+L292:            98 
+L293:            107 
+L294:          9267584
+L295: 34. Girodon F. Galan P. Monget A.L. Boutron-Ruault M.C. Brunet-Lecomte P. Preziosi P. Arnaud J. Manuguerra J.C. Hercberg S. 
+L296:            MIN. VIT. AOX. geriatric network 
+L297:            Impact of trace elements and vitamin supplementation on immunity and infections in institutionalized elderly patients: A randomized controlled trial 
+L298:            Arch. Intern. Med. 
+L299:            1999 
+L300:            159 
+L301:            748 
+L302:            754 
+L303:            10218756 
+L304:            10.1001/archinte.159.7.748
+L305: 35. Meydani S.N. Leka L.S. Fine B.C. Dallal G.E. Keusch G.T. Singh M.F. Hamer D.H. 
+L306:            Vitamin E and respiratory tract infections in elderly nursing home residents: A randomized controlled trial 
+L307:            J. Am. Med. Assoc. 
+L308:            2004 
+L309:            292 
+L310:            828 
+L311:            836
+L312: 36. Penn N.D. Purkins L. Kelleher J. Heatley R.V. Mascie-Taylor B.H. Belfield P.W. 
+L313:            The effect of dietary supplementation with vitamins A, C and E on cell-mediated immune function in elderly long-stay patients: A randomized controlled trial 
+L314:            Age Ageing 
+L315:            1991 
+L316:            20 
+L317:            169 
+L318:            174 
+L319:          1853789
+L320: 37. Pike J. Chandra R.K. 
+L321:            Effect of vitamin and trace element supplementation on immune indices in healthy elderly 
+L322:            Int. J. Vitam. Nutr. Res. 
+L323:            1995 
+L324:            65 
+L325:            117 
+L326:            121 
+L327:          7591530
+L328: 38. Gillilan R.E. Mondell B. Warbasse J.R. 
+L329:            Quantitative evaluation of vitamin E in the treatment of angina pectoris 
+L330:            Am. Heart J. 
+L331:            1977 
+L332:            93 
+L333:            444 
+L334:            449 
+L335:          320856
+L336: 39. McKeown-Eyssen G. Holloway C. Jazmaji V. Bright-See E. Dion P. Bruce W.R. 
+L337:            A randomized trial of vitamins C and E in the prevention of recurrence of colorectal polyps 
+L338:            Cancer Res. 
+L339:            1988 
+L340:            48 
+L341:            4701 
+L342:            4705 
+L343:          3293777
+L344: 40. Greenberg E.R. Baron J.A. Stückel T.A. Stevens M.M. Mandel J.S. Spencer S.K. Elias P.M. Lowe N. Nierenberg D.W. Bayrd G. 
+L345:            A clinical trial of beta carotene to prevent basal-cell and squamous-cell cancers of the skin 
+L346:            N. Engl. J. Med. 
+L347:            1990 
+L348:            323 
+L349:            789 
+L350:            795 
+L351:            2202901
+L352: 41. Murphy S. West K.P. Jr. Greenough W.B. III Cherot E. Katz J. Clement L. 
+L353:            Impact of Vitamin A Supplementation on the Incidence of Infection in Elderly Nursing-home Residents: A Randomized Controlled Trial 
+L354:            Age Ageing 
+L355:            1992 
+L356:            21 
+L357:            435 
+L358:            439 
+L359:            1471582 
+L360:            10.1093/ageing/21.6.435
+L361: 42. Li J.Y. Taylor P.R. Li B. Dawsey S. Wang G.Q. Ershow A.G. Guo W. Liu S.F. Yang C.S. Shen Q. 
+L362:            Nutrition Intervention Trials in Linxian, China: Multiple Vitamin/Mineral Supplementation, Cancer Incidence, and Disease-Specific Mortality Among Adults With Esophageal Dysplasia 
+L363:            J. Natl. Cancer Inst. 
+L364:            1993 
+L365:            85 
+L366:            1492 
+L367:            1498 
+L368:            8360932 
+L369:            10.1093/jnci/85.18.1492
+L370: 43. Wenzel G. Kuklinski B. Rühlmann C. Ehrhardt D. 
+L371:            Alcohol-induced toxic hepatitis—a "free radical" associated disease. Lowering fatality by adjuvant antioxidant therapy 
+L372:            Z. Gesamte Inn. Med. 
+L373:            1993 
+L374:            48 
+L375:            490 
+L376:            496 
+L377:            8256468
+L378: 44. Greenberg E.R. Baron J.A. Tosteson T.D. Freeman D.H. Jr. Beck G.J. Bond J.H. Colacchio T.A. Coller J.A. Frankl H.D. Haile R.W. 
+L379:            A Clinical Trial of Antioxidant Vitamins to Prevent Colorectal Adenoma 
+L380:            N. Engl. J. Med. 
+L381:            1994 
+L382:            331 
+L383:            141 
+L384:            147 
+L385:          8008027
+L386: 45. Takamatsu S. Takamatsu M. Satoh K. Imaizumi T. Yoshida H. Hiramoto M. Koyama M. Ohgushi Y. Mizuno S. 
+L387:            Effects on health of dietary supplementation with 100 mg d-alpha-tocopheryl acetate, daily for 6 years 
+L388:            J. Int. Med. Res. 
+L389:            1995 
+L390:            23 
+L391:            342 
+L392:            357 
+L393:          8529777
+L394: 46. de la Maza M.P. Petermann M. Bunout D. Hirsch S. 
+L395:            Effects of long-term vitamin E supplementation in alcoholic cirrhotics 
+L396:            J. Am. Coll. Nutr. 
+L397:            1995 
+L398:            14 
+L399:            192 
+L400:            196 
+L401:          7790695
+L402: 47. ter Riet G. Kessels A.G. Knipschild P.G. 
+L403:            Randomized clinical trial of ascorbic acid in the treatment of pressure ulcers 
+L404:            J. Clin. Epidemiol. 
+L405:            1995 
+L406:            48 
+L407:            1453 
+L408:            1460 
+L409:          8543959
+L410: 48. Clark L.C. Combs G.F. Jr. Turnbull B.W. Slate E.H. Chalker D.K. Chow J. Davis L.S. Glover R.A. Graham G.F. Gross E.G. 
+L411:            Effects of selenium supplementation for cancer prevention in patients with carcinoma of the skin. A randomized controlled trial 
+L412:            J. Am. Med. Assoc. 
+L413:            1996 
+L414:            276 
+L415:            1957 
+L416:            1963
+L417: 49. Hogarth M.B. Marshall P. Lovat L.B. Palmer A.J. Frost C.G. Fletcher A.E. Nicholl C.G. Bulpitt C.J. 
+L418:            Nutritional supplementation in elderly medical in-patients: A double-blind placebo-controlled trial 
+L419:            Age Ageing 
+L420:            1996 
+L421:            25 
+L422:            453 
+L423:            457 
+L424:          9003882
+L425: 50. Richer S. 
+L426:            Multicenter ophthalmic and nutritional age-related macular degeneration study—part 2: Antioxidant intervention and conclusions 
+L427:            J. Am. Optom. Assoc. 
+L428:            1996 
+L429:            67 
+L430:            30 
+L431:            49 
+L432:          8825017
+L433: 51. Stephens N.G. Parsons A. Schofield P.M. Kelly F. Cheeseman K. Mitchinson M.J. 
+L434:            Randomised controlled trial of vitamin E in patients with coronary disease: Cambridge Heart Antioxidant Study (CHAOS) 
+L435:            Lancet 
+L436:            1996 
+L437:            347 
+L438:            781 
+L439:            786 
+L440:          8622332
+L441: 52. Moon T.E. Levine N. Cartmel B. Bangert J.L. Rodney S. Dong Q. Peng Y.M. Alberts D.S. 
+L442:            Effect of retinol in preventing squamous cell skin cancer in moderate-risk subjects:  A randomized, double-blind, controlled trial. Southwest Skin Cancer Prevention Study Group 
+L443:            Cancer Epidemiol. Biomarkers Prev 
+L444:            1997 
+L445:            6 
+L446:            949 
+L447:            956 
+L448:            9367069
+L449: 53. Sano M. Ernesto C. Thomas R.G. Klauber M.R. Schafer K. Grundman M. Woodbury P. Growdon J. Cotman C.W. Pfeiffer E. Schneider L.S. Thal L.J. 
+L450:            A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer's Disease 
+L451:            N. Engl. J. Med. 
+L452:            1997 
+L453:            336 
+L454:            1216 
+L455:            1222 
+L456:          9110909
+L457: 54. Green A. Williams G. Neale R. Hart V. Leslie D. Parsons P. Marks G.C. Gaffney P. Battistutta D. Frost C. 
+L458:            Daily sunscreen application and betacarotene supplementation in prevention of basal-cell and squamous-cell carcinomas of the skin: A randomised controlled trial 
+L459:            Lancet 
+L460:            1999 
+L461:            354 
+L462:            723 
+L463:            729 
+L464:            10475183
+L465: 55. Boaz M. Smetana S. Weinstein T. Matas Z. Gafter U. Iaina A. Knecht A. Weissgarten Y. Brunner D. Fainaru M. Green M.S. 
+L466:            Secondary prevention with antioxidants of cardiovascular disease in endstage renal disease (SPACE): Randomised placebo-controlled trial 
+L467:            Lancet 
+L468:            2000 
+L469:            356 
+L470:            1213 
+L471:            1218 
+L472:          11072938
+L473: 56. Correa P. Fontham E.T. Bravo J.C. Bravo L.E. Ruiz B. Zarama G. Realpe J.L. Malcom G.T. Li D. Johnson W.D. Mera R. 
+L474:            Chemoprevention of gastric dysplasia: Randomized trial of antioxidant supplements and anti-helicobacter pylori therapy 
+L475:            J. Natl. Cancer Inst. 
+L476:            2000 
+L477:            92 
+L478:            1881 
+L479:            1888 
+L480:          11106679
+L481: 57. Jacobson J.S. Begg M.D. Wang L.W. Wang Q. Agarwal M. Norkus E. Singh V.N. Young T.L. Yang D. Santella R.M. 
+L482:            Effects of a 6-month vitamin intervention on DNA damage in heavy smokers 
+L483:            Cancer Epidemiol. Biomarkers Prev. 
+L484:            2000 
+L485:            9 
+L486:            1303 
+L487:            1311 
+L488:          11142415
+L489: 58. Brown B.G. Zhao X.Q. Chait A. Fisher L.D. Cheung M.C. Morse J.S. Dowdy A.A. Marino E.K. Bolson E.L. Alaupovic P. 
+L490:            Simvastatin and niacin, antioxidant vitamins, or the combination for the prevention of coronary disease 
+L491:            N. Engl. J. Med. 
+L492:            2001 
+L493:            345 
+L494:            1583 
+L495:            1592 
+L496:            11757504
+L497: 59. Desnuelle C. Dib M. Garrel C. Favier A 
+L498:            ALS riluzole-tocopherol Study Group 
+L499:            A double-blind, placebo-controlled randomized clinical trial of alpha-tocopherol (vitamin E) in the treatment of amyotrophic lateral sclerosis 
+L500:            Amyotroph. Lateral Scler. Other Motor Neuron Disord. 
+L501:            2001 
+L502:            2 
+L503:            9 
+L504:            18 
+L505:            11465936 
+L506:            10.1080/146608201300079364
+L507: 60. Stevic Z. Nicolic A. Blagjevic D. Saicia Z.S. Kocev N. Apostolski S. Spasić M.B. 
+L508:            A controlled trial of combination of methionine and antioxidants in ALS patients 
+L509:            Jugoslov. Med. Biochem. 
+L510:            2001 
+L511:            20 
+L512:            223 
+L513:            228
+L514: 61. You W.C. Chang Y.S. Heinrich J. Ma J.L. Liu W.D. Zhang L. Brown L.M. Yang C.S. Gail M.H. Fraumeni J.F. Jr. Xu G.W. 
+L515:            An intervention trial to inhibit the progression of precancerous gastric lesions: Compliance, serum micronutrients and S-allyl cysteine levels, and toxicity 
+L516:            Eur. J. Cancer Prev. 
+L517:            2001 
+L518:            10 
+L519:            257 
+L520:            263 
+L521:            11432713 
+L522:            10.1097/00008469-200106000-00009
+L523: 62. de Gaetano G. 
+L524:            Collaborative Group of the Primary Prevention Project 
+L525:            Low-dose aspirin and vitamin E in people at cardiovascular risk: A randomised trial in general practice 
+L526:            Lancet 
+L527:            2001 
+L528:            357 
+L529:            89 
+L530:            95 
+L531:          11197445
+L532: 63. de Waart F.G. Kok F.J. Smilde T.J. Hijmans A. Wollersheim H. Stalenhoef A.F. 
+L533:            Effect of glutathione S-transferase M1 genotype on progression of atherosclerosis in lifelong male smokers 
+L534:            Atherosclerosis 
+L535:            2001 
+L536:            158 
+L537:            227 
+L538:            231 
+L539:          11500195
+L540: 64. Chylack L.T. Jr. Brown N.P. Bron A. Hurst M. Köpcke W. Thien U. Schalch W. 
+L541:            The Roche European American Cataract Trial (REACT): A randomized clinical trial to investigate the efficacy of an oral antioxidant micronutrient mixture to slow progression of age-related cataract 
+L542:            Ophthalmic Epidemiol. 
+L543:            2002 
+L544:            9 
+L545:            49 
+L546:            80 
+L547:          11815895
+L548: 65. Graat J.M. Schouten E.G. Kok F.J. 
+L549:            Effect of daily vitamin E and multivitamin-mineral supplementation on acute respiratory tract infections in elderly persons: A randomized controlled trial 
+L550:            J. Am. Med. Assoc. 
+L551:            2002 
+L552:            288 
+L553:            715 
+L554:            721
+L555: 66. Heart Protection Study Collaborative Group 
+L556:            MRC/BHF Heart Protection Study of antioxidant vitamin supplementation in 20536 high-risk individuals: A randomised placebo-controlled trial 
+L557:            Lancet 
+L558:            2002 
+L559:            360 
+L560:            23 
+L561:            33 
+L562:          12114037
+L563: 67. Hodis H.N. Mack W.J. LaBree L. Mahrer P.R. Sevanian A. Liu C.R. Liu C.H. Hwang J. Selzer R.H. Azen S.P. 
+L564:            Alpha-tocopherol supplementation in healthy individuals reduces low-density lipoprotein oxidation but not atherosclerosis: The Vitamin E Atherosclerosis Prevention Study 
+L565:            Circulation 
+L566:            2002 
+L567:            106 
+L568:            1453 
+L569:            1459 
+L570:          12234947
+L571: 68. Waters D.D. Alderman E.L. Hsia J. Howard B.V. Cobb F.R. Rogers W.J. Ouyang P. Thompson P. Tardif J.C. Higginson L. 
+L572:            Effects of Hormone Replacement Therapy and Antioxidant Vitamin Supplements on Coronary Atherosclerosis in Postmenopausal Women: A Randomized Controlled Trial 
+L573:            J. Am. Med. Assoc. 
+L574:            2002 
+L575:            288 
+L576:            2432 
+L577:            2440
+L578: 69. White K.L. Chalmers D.M. Martin I.G. Everett S.M. Neville P.M. Naylor G. Sutcliffe A.E. Dixon M.F. Turner P.C. Schorah C.J. 
+L579:            Dietary antioxidants and DNA damage in patients on long-term acid-suppression therapy: A randomized controlled study 
+L580:            Br. J. Nutr. 
+L581:            2002 
+L582:            88 
+L583:            265 
+L584:            271 
+L585:          12207836
+L586: 70. Wluka A.E. Stuckey S. Brand C. Cicuttini F.M. 
+L587:            Supplementary vitamin E does not affect the loss of cartilage volume in knee osteoarthritis: A 2 year double blind randomized placebo controlled study 
+L588:            J. Rheumatol. 
+L589:            2002 
+L590:            29 
+L591:            2585 
+L592:            2591 
+L593:          12465157
+L594: 71. Collins E.G. Edwin Langbein W. Orebaugh C. Bammert C. Hanson K. Reda D. Edwards L.C. Littooy F.N. 
+L595:            PoleStriding exercise and vitamin E for management of peripheral vascular disease 
+L596:            Med. Sci. Sports Exerc. 
+L597:            2003 
+L598:            35 
+L599:            384 
+L600:            393 
+L601:          12618567
+L602: 72. Prince M.I. Mitchison H.C. Ashley D. Burke D.A. Edwards N. Bramble M.G. James O.F. Jones D.E. 
+L603:            Oral antioxidant supplementation for fatigue associated with primary biliary cirrhosis: Results of a multicentre, randomized, placebo-controlled, cross-over trial 
+L604:            Aliment. Pharmacol. Ther. 
+L605:            2003 
+L606:            17 
+L607:            137 
+L608:            143 
+L609:            12492743
+L610: 73. Salonen R.M. Nyyssönen K. Kaikkonen J. Porkkala-Sarataho E. Voutilainen S. Rissanen T.H. Tuomainen T.P. Valkonen V.P. Ristonmaa U. Lakka H.M. 
+L611:            Six-Year Effect of Combined Vitamin C and E Supplementation on Atherosclerotic Progression: The Antioxidant Supplementation in Atherosclerosis Prevention (ASAP) Study 
+L612:            Circulation 
+L613:            2003 
+L614:            107 
+L615:            947 
+L616:            953 
+L617:            12600905
+L618: 74. Sasazuki S. Sasaki S. Tsubono Y. Okubo S. Hayashi M. Kakizoe T. Tsugane S. 
+L619:            The effect of 5-year vitamin C supplementation on serum pepsinogen level and Helicobacter pylori infection 
+L620:            Cancer Sci. 
+L621:            2003 
+L622:            94 
+L623:            378 
+L624:            382 
+L625:          12824908
+L626: 75. Takagi H. Kakizaki S. Sohara N. Sato K. Tsukioka G. Tago Y. Konaka K. Kabeya K. Kaneko M. Takayama H. 
+L627:            Pilot clinical trial of the use of alpha-tocopherol for the prevention of hepatocellular carcinoma in patients with liver cirrhosis 
+L628:            Int. J. Vitam. Nutr. Res. 
+L629:            2003 
+L630:            73 
+L631:            411 
+L632:            415 
+L633:            14743544 
+L634:            10.1024/0300-9831.73.6.411
+L635: 76. Allsup S.J. Shenkin A. Gosney M.A. Taylor S. Taylor W. Hammond M. Zambon M.C. 
+L636:            Can a short period of micronutrient supplementation in older institutionalized people improve response to influenza vaccine? A randomized, controlled trial 
+L637:            J. Am. Geriatr. Soc. 
+L638:            2004 
+L639:            52 
+L640:            20 
+L641:            24 
+L642:          14687310
+L643: 77. Goodman G.E. Thornquist M.D. Balmes J. Cullen M.R. Meyskens F.L. Jr. Omenn G.S. Valanis B. Williams J.H. Jr. 
+L644:            The Beta-Carotene and Retinol Efficacy Trial: Incidence of lung cancer and cardiovascular disease mortality during 6-year follow-up after stopping beta-carotene and retinol supplements 
+L645:            J. Natl. Cancer Inst. 
+L646:            2004 
+L647:            96 
+L648:            1743 
+L649:            1750 
+L650:            15572756 
+L651:            10.1093/jnci/djh320
+L652: 78. Manuel-Y-Keenoy B. Vinckx M. Vertommen J. van Gaal L. de Leeuw I. 
+L653:            Impact of Vitamin E supplementation on lipoprotein peroxidation and composition in Type 1 diabetic patients treated with Atorvastatin 
+L654:            Atherosclerosis 
+L655:            2004 
+L656:            175 
+L657:            369 
+L658:            376 
+L659:          15262194
+L660: 79. McNeil J.J. Robman L. Tikellis G. Sinclair M.I. McCarty C.A. Taylor H.R. 
+L661:            Vitamin E supplementation and cataract: Randomized controlled trial 
+L662:            Ophthalmology 
+L663:            2004 
+L664:            111 
+L665:            75 
+L666:            84 
+L667:          14711717
+L668: 80. Mezey E. Potter J.J. Rennie-Tankersley L. Caballeria J. Pares A. 
+L669:            A randomized placebo controlled trial of vitamin E for alcoholic hepatitis 
+L670:            J. Hepatol. 
+L671:            2004 
+L672:            40 
+L673:            40 
+L674:            46 
+L675:          14672612
+L676: 81. Richer S. Stiles W. Statkute L. Pulido J. Frankowski J. Rudy D. Pei K. Tsipursky M. Nyland J. 
+L677:            Double-masked, placebo-controlled, randomized trial of lutein and antioxidant supplementation in the intervention of atrophic age-related macular degeneration: The Veterans LAST study (Lutein Antioxidant Supplementation Trial) 
+L678:            Optometry 
+L679:            2004 
+L680:            75 
+L681:            216 
+L682:            230 
+L683:          15117055
+L684: 82. Avenell A. Campbell M.K. Cook J.A. Hannaford P.C. Kilonzo M.M. McNeill G. Milne A.C. Ramsay C.R. Seymour D.G. Stephen A.I. Vale L.D. 
+L685:            Effect of multivitamin and multimineral supplements on morbidity from infections in older people (MAVIS trial): Pragmatic, randomised, double blind, placebo controlled trial 
+L686:            Br. Med. J. 
+L687:            2005 
+L688:            331 
+L689:            324 
+L690:            329 
+L691:          16081445
+L692: 83. Graf M. Ecker D. Horowski R. Kramer B. Riederer P. Gerlach M. Hager C. Ludolph A.C. Becker G. Osterhage J. 
+L693:            High dose vitamin E therapy in amyotrophic lateral sclerosis as add-on therapy to riluzole: Results of a placebo-controlled double-blind study 
+L694:            J. Neural Transm. 
+L695:            2005 
+L696:            112 
+L697:            649 
+L698:            660 
+L699:            15517433 
+L700:            10.1007/s00702-004-0220-1
+L701: 84. Limburg P.J. Wei W. Ahnen D.J. Qiao Y. Hawk E.T. Wang G. Giffen C.A. Wang G. Roth M.J. Lu N. 
+L702:            Randomized, placebo-controlled, esophageal squamous cell cancer chemoprevention trial of selenomethionine and celecoxib 
+L703:            Gastroenterology 
+L704:            2005 
+L705:            129 
+L706:            863 
+L707:            873 
+L708:            16143126
+L709: 85. Marras C. McDermott M.P. Rochon P.A. Tanner C.M. Naglie G. Rudolph A. Lang A.E. 
+L710:            Parkinson Study Group 
+L711:            Survival in Parkinson disease: Thirteen-year follow-up of the DATATOP cohort 
+L712:            Neurology 
+L713:            2005 
+L714:            64 
+L715:            87 
+L716:            93 
+L717:            15642909 
+L718:            10.1212/01.WNL.0000148603.44618.19
+L719: 86. Mooney L.A. Madsen A.M. Tang D. Orjuela M.A. Tsai W.Y. Garduno E.R. Perera F.P. 
+L720:            Antioxidant vitamin supplementation reduces benzo(a)pyrene-DNA adducts and potential cancer risk in female smokers 
+L721:            Cancer Epidemiol. Biomarkers Prev. 
+L722:            2005 
+L723:            14 
+L724:            237 
+L725:            242 
+L726:          15668500
+L727: 87. Petersen R.C. Thomas R.G. Grundman M. Bennett D. Doody R. Ferris S. Galasko D. Jin S. Kaye J. Levey A. 
+L728:            Vitamin E and donepezil for the treatment of mild cognitive impairment 
+L729:            N. Engl. J. Med. 
+L730:            2005 
+L731:            352 
+L732:            2379 
+L733:            2388 
+L734:            15829527 
+L735:            10.1056/NEJMoa050151
+L736: 88. Tam L.S. Li E.K. Leung V.Y. Griffith J.F. Benzie I.F. Lim P.L. Whitney B. Lee V.W. Lee K.K. Thomas G.N. Tomlinson B. 
+L737:            Effects of vitamins C and E on oxidative stress markers and endothelial function in patients with systemic lupus erythematosus: A double blind, placebo controlled pilot study 
+L738:            J. Rheumatol. 
+L739:            2005 
+L740:            32 
+L741:            275 
+L742:            282 
+L743:          15693087
+L744: 89. Witte K.K. Nikitin N.P. Parker A.C. von Haehling S. Volk H.D. Anker S.D. Clark A.L. Cleland J.G. 
+L745:            The effect of micronutrient supplementation on quality-of-life and left ventricular function in elderly patients with chronic heart failure 
+L746:            Eur. Heart J. 
+L747:            2005 
+L748:            26 
+L749:            2238 
+L750:            2244 
+L751:          16081469
+L752: 90. Rayman M. Thompson A. Warren-Perry M. Galassini R. Catterick J. Hall E. Lawrence D. Bliss J. 
+L753:            Impact of selenium on mood and quality of life: A randomized, controlled trial 
+L754:            Biol. Psychiatry 
+L755:            2006 
+L756:            59 
+L757:            147 
+L758:            154 
+L759:          16181615
+L760: 91. Li H. Kantoff P.W. Giovannucci E. Leitzmann M.F. Gaziano J.M. Stampfer M.J. Ma J. 
+L761:            Manganese superoxide dismutase polymorphism, prediagnostic antioxidant status, and risk of clinical significant prostate cancer 
+L762:            Cancer Res. 
+L763:            2005 
+L764:            65 
+L765:            2498 
+L766:            2504 
+L767:            15781667
+L768: 92. Berry D. Wathen J.K. Newell M. 
+L769:            Bayesian model averaging in meta-analysis: Vitamin E supplementation and mortality 
+L770:            Clin. Trials 
+L771:            2009 
+L772:            6 
+L773:            28 
+L774:            41 
+L775:          19254931
+L776: 93. Watters J.L. Gail M.H. Weinstein S.J. Virtamo J. Albanes D. 
+L777:            Associations between α-tocopherol, β-carotene, and retinol and prostate cancer survival 
+L778:            Cancer Res. 
+L779:            2009 
+L780:            69 
+L781:            3833 
+L782:            3841 
+L783:            19383902 
+L784:            10.1158/0008-5472.CAN-08-4640
+L785: 94. Milman U. Blum S. Shapira C. Aronson D. Miller-Lotan R. Anbinder Y. Alshiek J. Bennett L. Kostenko M. Landau M. 
+L786:            Vitamin E supplementation reduces cardiovascular events in a subgroup of middle-aged individuals with both type 2 diabetes mellitus and the haptoglobin 2-2 genotype: A prospective double-blinded clinical trial 
+L787:            Arterioscler. Thromb. Vasc. Biol. 
+L788:            2008 
+L789:            28 
+L790:            341 
+L791:            347 
+L792:            18032779
+L793: 95. Food and Nutrition Board, Institute of Medicine 
+L794:            Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids 
+L795:            National Academy 
+L796:            Washington, DC, USA 
+L797:            2000 
+L798:            73 
+L799:            94
+[34ms]
+

@@ -1,0 +1,223 @@
+schema_version: "1"
+status: locked
+question_id: antiox-training
+research_question: >-
+  Under which experimental conditions does antioxidant supplementation (vitamin C and/or E)
+  blunt, enhance, or leave unchanged adaptations to exercise training?
+target_relation:
+  exposure: vitamin C and/or vitamin E supplementation taken during a structured exercise-training program
+  comparator: placebo or no-supplement control completing the same training program
+  outcome: exercise-training adaptation endpoints (strength, muscle mass, VO2max, mitochondrial or performance measures)
+  increase_definition: the training adaptation is larger in the supplemented group than in the control group
+  decrease_definition: the training adaptation is smaller in the supplemented group than in the control group
+  no_effect_definition: no detectable between-group difference in the training adaptation is reported
+  desirability_claims_allowed: false
+  # Census-audit remediation (2026-08-16): an accepted finding's intervention text must
+  # name the exposure; rows describing a non-exposure arm of a factorial trial (e.g.
+  # placebo+exercise labeled "exercise_only" in PMC11373101) are quarantined.
+  exposure_terms: [vitamin, ascorb, tocopherol, antioxidant, VES, "C+E", AS group]
+eligibility:
+  include:
+    - human participants (animal and in-vitro studies are ineligible)
+    - controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation
+    - a concurrent placebo or no-supplement comparison completing the same training
+    - direct measurement of at least one training-adaptation endpoint
+  exclude:
+    - reviews, meta-analyses, editorials, commentaries, and protocols
+    - acute single-session studies without a training program
+    - studies without an antioxidant-versus-control contrast
+  article_types: [research-article]
+search:
+  sources: [pmc]
+  query_families:
+    - id: direct
+      queries:
+        - vitamin C vitamin E supplementation exercise training adaptations
+        - antioxidant supplementation endurance training adaptations randomized
+    - id: blunting-direction
+      queries:
+        - antioxidant supplementation blunts exercise training adaptations
+        - vitamin C and E supplementation impairs adaptations to training
+    - id: resistance
+      queries:
+        - vitamin C E supplementation resistance training muscle strength trial
+    - id: null-negative
+      queries:
+        - antioxidant supplementation no effect on training adaptations trial
+    # Added 2026-08-15 after a corpus-coverage audit (paperclip sql title probe) showed
+    # short vitamin-anchored titles (e.g. "endurance training with and without vitamin C")
+    # were missed by the long adaptation-phrased queries above. Retrieval expansion only;
+    # no outcome, eligibility, or analysis rule changed.
+    - id: vitamin-specific
+      queries:
+        - vitamin C supplementation exercise training
+        - vitamin E supplementation exercise training
+        - ascorbic acid endurance training performance
+        - tocopherol supplementation training performance
+        - vitamin C exercise performance trial
+    # Known-item seeding round 2: three eligible trials confirmed present in the provider
+    # corpus (sql title probe) were still missed under the per-query cap; these generic
+    # phrasings retrieve them. Retrieval-only change, same rationale as vitamin-specific.
+    - id: coverage-gap
+      queries:
+        - resistance training and vitamin E supplementation
+        - independent combined effects antioxidant supplementation exercise
+        - beetroot juice vitamin C co-supplementation exercise
+  use_all: true
+  per_query_limit: 100
+outcomes:
+  primary_family: functional_adaptation
+  family_map:
+    muscle_strength: functional_adaptation
+    muscle_mass: functional_adaptation
+    aerobic_capacity: functional_adaptation
+    endurance_performance: functional_adaptation
+    sprint_or_power_performance: functional_adaptation
+    "re:(?:gsh|gssg|glutathione|malondialdehyde|\\bmda\\b|tbars|catalase|superoxide|\\btos\\b|\\btas\\b|\\btoc\\b|\\btac\\b|oxidative|antioxidant|antioxidat|redox|carbonyl|8-ohdg|f2-isoprostane|\\bgpx\\d*\\b|\\bsod\\b|mnsod)": redox_molecular
+    "re:(?:\\bhsp\\d*\\b|hspa|hspb|crystallin|heat shock|mrna|gene expression|protein expression|signal|pgc-?1|cox4|mitochondrial (?:content|protein|biogenesis|enzyme|respiration))": molecular_signaling
+    "re:(?:creatine kinase|\\bck\\b|lactate dehydrogenase|\\bldh\\b|muscle damage|soreness|\\bdoms\\b|myoglobin)": muscle_damage
+    "re:(?:interleukin|il-?[0-9]|\\bcrp\\b|c-reactive|tnf|inflammat|neutrophil|leukocyte|cortisol|testosterone)": inflammation_endocrine
+    "re:(?:urea|uric acid|kidney|renal|glucose|insulin|lipid|cholesterol|body (?:weight|mass|fat)|fat mass|\\bbmi\\b|hepcidin|iron|ferritin)": metabolic_other
+  included_primary_endpoints:
+    - muscle_strength
+    - muscle_mass
+    - aerobic_capacity
+    - endurance_performance
+    - sprint_or_power_performance
+  endpoint_map:
+    "re:(?:strength|1\\s?-?RM|one-repetition|handgrip|knee extension|leg press|isokinetic|isometric (?:force|torque|contraction)|maximal voluntary (?:isometric )?contraction|\\bq?mvc\\b)": muscle_strength
+    "re:(?:lean mass|muscle mass|hypertroph|fat-?free mass|muscle thickness|cross-?sectional area|muscle volume|skeletal muscle (?:mass|index))": muscle_mass
+    "re:(?:vo2|aerobic capacity|maximal oxygen|anaerobic threshold|lactate threshold|maximal aerobic|power at exhaustion|\\bw ?max\\b)": aerobic_capacity
+    "re:(?:endurance performance|endurance time|time.?to.?exhaustion|time to task failure|\\btlim\\b|time.?trial|running economy|shuttle run|yo-?yo)": endurance_performance
+    "re:(?:sprint|\\bspeed\\b|peak power|mean power|power output|jump|wingate|repeated.?sprint)": sprint_or_power_performance
+  endpoint_direction_overrides: {}
+moderators:
+  - name: vitc_dose_regime
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Vitamin C dose
+    allowed_values: [below_500_mg_daily, 500_to_999_mg_daily, 1000_mg_daily_or_more, not_reported_as_daily_dose]
+    bins: null
+  - name: training_modality
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Training modality
+    allowed_values: [endurance, resistance, sprint_interval, concurrent_or_mixed]
+    bins: null
+  - name: training_status
+    type: categorical
+    source: fixed
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Training status
+    allowed_values: [trained, untrained, mixed_or_unclear]
+    bins: null
+  - name: age_group
+    type: categorical
+    source: fixed
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Age group
+    allowed_values: [younger_adult, older_adult, mixed_or_unclear]
+    bins: null
+  - name: supplement_combo
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Supplement composition
+    allowed_values: [vitamin_c_only, vitamin_e_only, vitamin_c_and_e]
+    bins: null
+  - name: population_state
+    type: categorical
+    source: fixed
+    role: descriptive
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Population state
+    allowed_values: [healthy, clinical_or_sarcopenic, mixed_or_unclear]
+    bins: null
+analysis:
+  seed: 20260815
+  labels: [increase, no_effect, decrease]
+  max_missingness_headline: 0.40
+  min_papers_per_level: 5
+  cv_max_folds: 5
+  permutation_count: 100
+  bootstrap_count: 200
+variant_b:
+  axes: [vitc_dose_regime, training_modality]
+  primary_endpoints: [muscle_strength, aerobic_capacity]
+triage:
+  candidate_topic: antioxidants-exercise-adaptation
+  score_record: docs/planning/triage/triage-c-score.json
+  probe_keyword_groups:
+    - [vitamin c, vitamin e, vitamins c, vitamins c and e, ascorbic, tocopherol]
+    - [training, exercise]
+    - [supplement]
+  probe_exclude_terms: [review, meta-analysis, commentary, protocol for]
+anchor_papers:
+  - paper_id: doc:PMC12384908
+    expected_eligible: true
+    expected_finding_count: 9
+    expected_directions: [decrease, decrease, decrease, increase, increase, increase, increase, increase, increase]
+    notes: >-
+      2025 RCT, vitamins C+E (1000/335 mg per day) + 12-week elastic-band resistance training in
+      older sarcopenic women vs placebo+training. Functional adaptations (lean mass, strength)
+      LARGER with supplementation; redox markers shift. Counts/directions recorded from the
+      triage probe with prompt extraction-v1; the anchor audit judges substance, not exact
+      row arithmetic, and any count drift must trace to a prompt/schema version change.
+  - paper_id: doc:PMC2129167
+    expected_eligible: true
+    expected_finding_count: 8
+    expected_directions: [decrease, decrease, no_effect, no_effect, no_effect, no_effect, no_effect, no_effect]
+    notes: >-
+      Vitamin C+E (1000/800 mg daily) vs placebo during training in kayakers: functional
+      performance endpoints (aerobic capacity, strength, sprint) show no between-group
+      difference; oxidative-damage markers decrease. Recorded from the triage probe under
+      prompt extraction-v1.
+recovery_check:
+  kind: narrative
+  statement: >-
+    Field reviews narratively attribute the blunting-vs-no-effect contradiction to vitamin C
+    dose (roughly 500 vs 1000 mg/day); no published meta-regression on dose was confirmed
+    during planning research. The dose moderator test is therefore framed as the first
+    quantitative test of that narrative claim inside our retrieved corpus, not a replication.
+  source: null
+demo:
+  hook: Do antioxidant vitamins change what your training does to you? The literature answers in every direction — until you ask under which conditions.
+  spoken_question: Does vitamin C or E supplementation change how people adapt to exercise training?
+  moderator_display_names:
+    vitc_dose_regime: Vitamin C dose
+    training_modality: Training modality
+    training_status: Training status
+    age_group: Age group
+    supplement_combo: Supplement composition
+    population_state: Population state
+  corpus_qualifier: our retrieved corpus
+  fixture_mode: false
+# Papers excluded by the frozen 2026-08-16 full-cohort human audit (census over all 17
+# primary-cohort rows; three independent adversarial auditors per paper plus operator
+# review). PRISMA-style full-text exclusion with recorded reason; applied at s2.
+audit_paper_exclusions:
+  - paper_id: doc:PMC3665021
+    reason: no trial-administered structured training program; 4-week supplement RCT in athletes during unspecified habitual sport activity, so no training-adaptation contrast under the locked eligibility rules
+    audited_at: "2026-08-16"
+  - paper_id: doc:PMC3303472
+    reason: no trial-administered structured training program; participants were instructed to maintain their regular exercise practice during a 30-day supplementation trial (Methods L25), and the cited VO2max decrease is a within-group change, so no training-adaptation contrast exists under the locked eligibility rules
+    audited_at: "2026-08-16"

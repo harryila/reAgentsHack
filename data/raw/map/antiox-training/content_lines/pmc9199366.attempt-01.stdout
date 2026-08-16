@@ -1,0 +1,644 @@
+L1: Vitamin D Supplementation Improves Handgrip Strength in Postmenopausal Women: A Systematic Review and Meta-Analysis of Randomized Controlled Trials
+L2: Frontiers in Endocrinology (2022)
+L3: Jia-Li Zhang, Christina Chui-Wa Poon, Man-Sau Wong, Wen-Xiong Li, Yi-Xun Guo, Yan Zhang
+L4: 1 
+L5:  Spine Disease Research Institute, Longhua Hospital, Shanghai University of Traditional Chinese Medicine ,  Shanghai ,  China
+L6: 2 
+L7:  Key Laboratory of Theory and Therapy of Muscles and Bones, Ministry of Education ,  Shanghai ,  China
+L8: 3 
+L9:  Department of Applied Biology and Chemical Technology, The Hong Kong Polytechnic University ,  Hung Hom, Kowloon ,  Hong Kong SAR, China
+L10: Introduction
+L11: In postmenopausal women, vitamin D deficiency (as defined by the circulating level of 25(OH)D being below 20 ng/ml (50 nmol/L)) is a regular occurrence. The effect of vitamin D supplementation on the muscle function of postmenopausal women has been controversial. This systematic review and meta-analysis of randomized controlled trials (RCTs) examines and summarizes the effects of vitamin D supplementation on the muscular strength and mobility of postmenopausal women.
+L12: Methods
+L13: RCTs that met the inclusion criteria for this study were identified by searching PubMed, EMBASE, and the Cochrane Library. Postmenopausal women who were included in the study were exposed to RCTs assessing the effectiveness of vitamin D supplements. Meta-analysis data were extracted by two independent reviewers and screened for methodological quality. RCTs that did not meet the minimum requirement for assessment were excluded. In the meta-analysis, the effect size (weighted mean differences, WMD) of handgrip strength (HGS) and timed-up and go test (TUG) with a 95% confidence interval (CI) was obtained to compare reported results across the included RCTs.
+L14: Results
+L15: A total of 19 trials were included in this systematic review, among which 13 trials were eligible for the meta-analysis. In the 13 included studies, supplementing with vitamin D produced a weighted mean difference of 0.876 kg (95% CI = 0.180 to 1.571,  P  = 0.014, I 2  = 68.5%) for HGS, a measurement of muscle strength. However, an insignificant decrease of 0.044 s was observed after analyzing the TUG (95% CI = -0.979 to 0.892,  P  = 0.927, I 2  = 95%). According to subgroup analysis, vitamin D supplementation increased HGS in patients over the age of 60 ( P  = 0.001), in those without calcium supplementation ( P  = 0.032), and in those whose baseline vitamin D level was greater than 75 nmol/L (30 ng/ml) ( P  = 0.003).
+L16: Conclusions
+L17: Taking into account the studies in this systematic review, vitamin D supplementation improved muscle strength in postmenopausal women. However, an insignificant result was demonstrated in terms of mobility after vitamin D supplementation.
+L18: Endocrinology; Systematic Review; Systematic Review
+L19: vitamin D; postmenopausal women; handgrip strength; muscle strength; mobility
+L20: Introduction
+L21: Postmenopausal women often have osteopenia and osteoporosis, mainly due to advanced age and lack of hormones, and this may cause a high incidence of falls and fractures ( 1 – 6 ). Several recent studies have suggested that muscle mass and bone mineral density (BMD) are linked among postmenopausal women ( 1 – 6 ). Furthermore, the loss of muscular mass and strength seen in postmenopausal women is the most basic symptom of sarcopenia, which is unanimously recognized by the academic consensus of experts from various continents ( 7 – 10 ).
+L22: Sarcopenia is caused by nutritional deficiencies, a sedentary lifestyle, decreased protein synthesis and regeneration, inflammation, hormonal and cytokine imbalances, and other factors ( 10 ,  11 ). Among these risk factors, vitamin D deficiency not only receives much attention in the academic medical community but also gradually gains higher awareness in diverse healthcare settings ( 12 ,  13 ).
+L23: Vitamin D deficiency is a common health problem among middle-aged people worldwide; it is estimated that more than 1 billion people are vitamin D deficient ( 6 ,  14 – 16 ). Epidemiological studies and investigations in various countries have revealed that vitamin D deficiency (serum 25(OH)D: less than 50 nmol/L) is common in postmenopausal women ( 14 ,  17 ,  18 ). Among them, 50.6% of Chinese postmenopausal women are vitamin D-insufficient, while 31.2% are vitamin D-deficient ( 19 ). According to compelling data, serum 25(OH)D levels are strongly linked to musculoskeletal function and muscular strength ( 20 – 23 ). Furthermore, multiple  in vivo  and  in vitro  experiments have indicated physiological and histological alterations associated with severe vitamin D deprivation, indicating that vitamin D supplementation has a favorable influence on musculoskeletal health. In detail, vitamin D supplementation is recommended by the Committee Recommendations for people at risk for vitamin D deficiency. They recommended that females who are over 51 years old need 1,500–2,000 IU, but less than 10,000 IU, of daily vitamin D intake ( 24 ). Additionally, the vitamin D receptor (VDR) has been identified in skeletal muscle tissue, muscle satellite cells, and myoblasts, which supports the idea that vitamin D might directly affect muscle tissue ( 25 ,  26 ).
+L24: International academic consensus emphasizes the importance of vitamin D supplementation or treatment for sarcopenia. Likewise, the impact of vitamin D on muscular function in various populations, namely, adults ( 27 ), older people ( 28 – 30 ), athletes ( 31 – 33 ), and patients with chronic diseases ( 34 ,  35 ) has been reported in systematic reviews and meta-analysis. There is, however, a lack of consistency in the results concerning the effect of vitamin D on muscle function in postmenopausal women based on several interventional studies. Vitamin D supplementation, alone or in conjunction with calcium supplements, has been shown in certain studies to enhance muscular strength and reduce the incidence of falls and fractures ( 36 – 39 ). However, several recent randomized controlled trials (RCT) on postmenopausal women with inadequate or deficient vitamin D levels found that vitamin D supplementation had no active effect on muscular strength or the number of falls ( 40 ,  41 ). As a result, there is still a pressing need for studies and academic consensus on postmenopausal women who are at high risk of vitamin D deficiency ( 7 – 9 ).
+L25: In this study, the data from the handgrip strength (HGS) and timed up and go test (TUG) are used to calculate the muscle function index, which is used to assess muscular strength and mobility, which are protracted indicators of fracture, osteoporosis, and sarcopenia in postmenopausal women. We conducted a meta-analysis on the efficacy of vitamin D supplementation on muscular strength and mobility in postmenopausal women based on a systematic evaluation of data from the chosen RCTs stated above.
+L26: Methods
+L27: The current study was carried out in compliance with PRISMA (Preferred Reporting Items of Systematic Reviews and Meta-Analysis) recommendations ( 42 ).
+L28: Literature Search
+L29: Two independent authors (J-LZ and W-XL) systematically searched PubMed, Embase, and the Cochrane Database from inception dates to January 2021 for randomized controlled trials that investigated the association between vitamin D supplementation and muscle atrophy using a predefined search algorithm using the following search algorithm: “((“muscular atroph*” OR “muscle atroph*” OR “Atroph* Muscular” OR “Atroph* Muscle” OR “sarcopenia*” OR “muscle strength” OR “mobility” OR “handgrip” OR “hand strength” OR “muscle function” OR “myatrophy” OR “myophagism” OR “physical performance”) AND (“postmenopausal women” OR “postmenopausal” OR “postmenopause” OR “PMP”)) AND (“vitamin d” OR “vitamin d” OR “25 hydroxyvitamin d” OR “vitamin d 2” OR “vitamin d 3” OR “calciferol*” OR “ergocalciferol*” OR “eldecalcitol*” OR “cholecalciferol*” OR “alphacalcidol*” OR “calcitriol*” OR “calcidiol*” OR “calcifediol*” OR “calciferol*” OR “dihydroxycholecalciferol”)”.
+L30: Inclusion and Exclusion Criteria
+L31: After screening of titles and abstracts, duplicate studies and those clearly irrelevant were removed. The remaining full-texts of the papers were then retrieved to see if they matched the inclusion criteria for the current meta-analysis. The following are the inclusion criteria: 1) It had to be a human RCT with a cross-over or parallel design, 2) its study population had to be postmenopausal women, and 3) mean difference and standard deviations (SDs), standard error of the mean (SEMs), or 95% confidence intervals (CIs) were provided for the outcomes under consideration. The exclusion criteria are as follows: 1)  in vivo  animal studies,  in vitro  cell research, case reports, and observational studies; 2) any studies conducted in postmenopausal women with other diseases (such as type 2 diabetes, hypertension, trauma, etc.); 3) any studies investigating the effect of vitamin D supplementation combined with other interventions, such as nutrients like amino acid and protein supplements, physical exercise, other medication administration records like insulin, hormone therapy, and etidronate, etc.; 4) studies to be reported in other languages other than English; 5) RCTs that did not fulfill the minimal threshold for methodological quality evaluation.
+L32: Data Extraction
+L33: The following data were extracted by two independent investigators (J-LZ and W-XL) from each included study: the first author, publication year; sample size (shown as: supplementation/control); age; supplementation; comparator; supplementation duration; presented data. Subgroup analysis was done on the basis of these pre-extracted data. Disagreements were resolved by consensus. Endnote X9 (Clarivate Analytics, Philadelphia, PA, USA) was used to undertake the extraction procedures.
+L34: Assessment of the Quality of Included Literature
+L35: To estimate the quality of literature, the Jadad scale was used ( 43 ). This scale includes the following items: randomization, randomization scheme, double-blinding, double-blinding method, and dropouts and withdrawals in the supplementation and control groups. Each item would get a score from 0 to 1. In terms of quality, studies with scores of 0–2 are considered inferior, and those with scores of 3–5 are considered high quality ( 
+L36:  Table 1 
+L37:  ).
+L38: Table 1 Characteristics of included studies.
+L39: Data Analysis
+L40: The effect sizes were expressed as weighted mean differences (WMDs), and the DerSimonian–Laird approach was used to calculate the 95% confidence interval (CI) from the random effects model. For each clinical study, WMDs were used to examine the effects of vitamin D supplementation on muscle outcomes such as HGS and TUG. The pooled effect sizes for each outcome were estimated using the altered value technique. We also used Cochrane’s Q test and I-square (I 2 ) to assess any existing heterogeneity among the included RCTs. I 2  greater than 50% with  P < 0.05 was applied to define heterogeneity ( 57 ). Furthermore, using the available moderator factors, sensitivity and subgroup analyses were performed to determine the impacts of each research paper on the pooled WMDs and to investigate the source of heterogeneity. Statistical analyses were carried out with STATA software version 15.0 (Stata Corp., College Station, TX) and Review Manager 5.4 software (Cochrane Collaboration, Oxford, UK).
+L41: Results
+L42: The Description of the Selected RCTs
+L43: The first searches yielded a total of 172 potentially suitable documents, with 41 items being eliminated owing to the duplication. The titles and abstracts of the remaining 131 records were screened for inclusion. Then the full texts of 78 records were further estimated, and 19 met the inclusion criteria ( 36 – 41 ,  44 – 56 ), of which 13 of those 19 were suitable for meta-analysis.  
+L44:  Figure 1 
+L45:   shows a flowchart of the selection of RCT trials. The main characteristics of the RCTs are summarized in  
+L46:  Table 1 
+L47:  .
+L48: Figure 1 Flowchart of literature search for selection of trials. The selection process of the included trials has been shown in this figure. RCT, randomized controlled trial.
+L49: The year of publication of the 19 RCT trials included in this review was between 2003 and 2021, with 5,398 participants. The sample size of the RCTs included in multiple countries ranges from 20 ( 46 ,  52 ) to 2,347 ( 40 ). Furthermore, the duration of supplementation ranged from 3 ( 37 ,  38 ,  44 ,  45 ,  47 ,  53 ,  54 ) to 60 ( 40 ) months.
+L50: Different analogs of vitamin D 2  ( 53 ,  54 ,  56 ) or vitamin D 3  ( 36 ,  40 ,  41 ,  44 – 50 ,  52 ,  55 ), such as calcitriol ( 37 ,  48 ), alfacalcidol ( 38 ,  39 ,  51 ), and calcifediol ( 52 ), were used with different dosages in the RCT trials. In detail, vitamin D 3  was applied in 12 of the 19 retrieved trials, whose dosages ranged from 400 IU/day ( 40 ,  41 ) to 300,000 IU in a single oral dose ( 44 ). Vitamin D 2  was applied in 3 trials of the 19 selected studies at dosages ranging from 1,000 IU/day ( 56 ) to 100,000 IU/week ( 53 ), and calcitriol, alfacalcidol, and calcifediol were used in 6 trials of the 19 trials.
+L51: Study Outcomes
+L52: In separate experiments, different approaches for measuring muscle function were used. Twelve ( 36 – 41 ,  45 ,  47 ,  49 ,  53 ,  48 ,  54 ) trials used HGS as a parameter indicating muscle strength. Other measurement methods included back extensor strength ( 51 ), low limb muscle strength ( 56 ), and leg extensor strength ( 55 ). The TUG was used to measure the mobility of subjects in 11 trials ( 38 ,  39 ,  41 ,  45 – 47 ,  49 ,  50 ,  53 ,  55 ,  56 ), while the timed walk ( 40 ), gait speed ( 52 ), walking test ( 39 ), etc., were used as the indicator of mobility in the remaining 8 trials.
+L53: The authors of 12 studies concluded that vitamin D supplementation with or without calcium played no significant role in the muscle strength and/or mobility of subjects, while 7 studies drew the opposite conclusion.
+L54: Meta-Analysis
+L55: It was challenging to extract and analyze the data uniformly and compare the results since the data on muscular strength and mobility presented in the trials were acquired using a range of assessment methodologies. Additionally, HGS and TUG were the results of the more uniform and published data included in the studies, so we chose HGS as an index to measure the muscle strength of subjects (the best performance of HGS was obtained after three repeated measurements of the standing participants, holding the assessment for at least 5 s during the test with an interval of 30 s between each evaluation), and TUG as the indicator of the mobility measurement for this present meta-analysis.
+L56: Handgrip Strength
+L57: The meta-analysis of HGS included 9 trials ( 36 – 41 ,  48 ,  49 ,  54 ) with 1,997 participants supplemented with vitamin D and 2,232 participants as the control group (vitamin D in low dosage or placebo). Vitamin D supplementation resulted in considerable improvements in HGS (WMD: 0.876 kg, 95% CI = 0.180 to 1.571,  P  = 0.014), according to the analysis and finding over the random effects model. There was significant heterogeneity among studies (I 2  = 68.5%,  P  = 0.001) ( 
+L58:  Figure 2 
+L59:  ).
+L60: Figure 2 Forest plot displaying the effect of vitamin D supplementation on hand grip strength (HGS) using a random effects model. One study reported results as two intervention groups received two different dosages of vitamin D (Gao 1 and Gao 2). CI, confidence interval.
+L61: Timed Up and Go Test
+L62: The meta-analysis of TUG included 8 studies ( 38 ,  39 ,  41 ,  47 ,  49 ,  50 ,  55 ,  56 ) with 937 participants supplemented with vitamin D and 915 participants treated with placebo or a low dose of vitamin D. Using a random effects model, we discovered an insignificant decrease (0.044 s) in the TUG (95% CI = −0.979 to 0.892 s,  P  = 0.927) after vitamin D supplementation. Furthermore, the meta-analysis manifested a significant heterogeneity among the studies (I 2  = 95.0%,  P  = 0.000) ( 
+L63:  Figure 3 
+L64:  ).
+L65: Figure 3 Forest plot displaying the effect of vitamin D supplementation on timed up and go test (TUG) using a random effects model. One study reported results as two intervention groups received two different dose of vitamin D (Hansen 1 and Hansen 2). CI, confidence interval.
+L66: Subgroup Analysis
+L67: We did the HGS and TUG subgroups analysis based on age, supplementation with calcium or not, vitamin D dosage (IU/day), supplementation duration (month), and baseline vitamin D level.
+L68: The scores of the heterogeneity of the HGS subgroups analysis were as follows: without calcium (I 2  = 50.8%,  P  = 0.107); vitamin D dosage ≥1,000 IU/day (I 2  = 47.0%,  P  = 0.152); supplementation duration <12 months (I 2  = 74.0%,  P  = 0.001); baseline vitamin D <75 nmol/L (30 ng/ml) (I 2  = 45.6%,  P  = 0.102) ( 
+L69:  Table 2 
+L70:  ).
+L71: Table 2 Subgroup analysis of HGS.
+L72: Meanwhile, the scores of the heterogeneity of the TUG subgroups analysis were as follows: age >60 years old (I 2  = 16.7%,  P  = 0.308); with calcium (I 2  = 95.6%,  P  = 0.000); vitamin D dosage ≥1,000 IU/day (I 2  = 57.8%,  P  = 0.069); supplementation duration <12 months (I 2  = 76.1%,  P  = 0.002); baseline vitamin D >75 nmol/L (30 ng/ml) (I 2  = 16.9%,  P  = 0.307) ( 
+L73:  Supplementary Table 
+L74:  ).
+L75: Moreover, according to subgroup analysis, vitamin D supplementation substantially raised HGS when compared to baseline blood vitamin D levels >75 nmol/L (30 ng/ml) (WMD = 0.478 kg, 95% CI = −0.963 to 1.918,  P  = 0.003), without calcium (WMD = 1.931 kg, 95% CI = 0.166 to 3.697,  P  = 0.032) and subject to an age of more than 60 (WMD = 1.116 kg, 95% CI = 0.433 to 1.799,  P  = 0.001).
+L76: Publication Bias
+L77: Visual inspection of the funnel plot and Egger’s linear regression test revealed no indication of publication bias in the meta-analysis of vitamin D supplementation on HGS:  P  = 0.047 and TUG:  P  = 0.954.
+L78: Discussion
+L79: This meta-analysis aimed to see if vitamin D supplementation might enhance the muscular strength and mobility of postmenopausal women. The results of the meta-analysis of the 13 trials included revealed a significant effect of vitamin D supplementation on the HGS of postmenopausal women, but not on the TUG. Since the HGS refers to muscle strength while the TUG represents locomotory function, it is considered that vitamin D supplementation could be effective in improving muscle strength in postmenopausal women. Thus, we assume that vitamin D supplementation might first enhance the upper extremities, but it is difficult to improve the strength of the lower limb muscles, which are more used in stance and mobility.
+L80: Since the data for men and women were not presented separately, trials that included both males and postmenopausal women were eliminated. Trials for postmenopausal women with diabetes ( 34 ), Parkinson’s disease ( 58 ), chronic kidney disease ( 35 ), or other special situations ( 59 ,  60 ) that might affect their mobility were also excluded. Moreover, some studies were considered inappropriate due to the use of combined vitamin D supplementation with other nutrients ( 61 – 65 ). All in all, 19 RCT trials were eventually included, and among them, 13 trials ( 36 – 41 ,  47 – 50 ,  54 – 56 ) were suitable for meta-analysis. Most of the studies were of medium to high methodological quality as assessed by the Jadad scale.
+L81: Nonetheless, because the studies examined varied in most dimensions, caution should be exercised in determining whether the characteristics of the researched people are consistent. Different techniques for measuring muscle function have been reported by different investigators, and even when measuring comparable parameters, separate methods have been used in different trials, making it even more difficult to compare results directly. For instance, muscle strength was measured in different ways, such as HGS ( 36 – 41 ,  45 ,  47 – 49 ,  53 ,  54 ), low limb muscle strength ( 56 ), and knee extension strength ( 39 ,  41 ). We used HGS to measure muscular strength, which has recently been proposed as a long-term predictor of fracture and mortality in postmenopausal women ( 66 ), and TUG is viewed as an outcome of mobility. Based on the findings of the included trials, taking vitamin D supplements significantly improved the strength of postmenopausal women. The primary outcomes of the quantitative meta-analysis suggested that vitamin D supplementation improved HGS (based on 9 studies) but played an insignificant role in decreasing the time of the TUG (based on 8 RCT studies). As a result, we concluded that vitamin D supplementation had a favorable effect on improving muscular strength in postmenopausal women.
+L82: However, the emerging reviews illustrate controversial conclusions about the impact of vitamin D supplementation on muscle function. Tabrizi et al. ( 67 ) and Abshirini et al. ( 68 ) demonstrated that taking vitamin D supplementation had no effect on markers of muscle function such as HGS and TUG in postmenopausal women, whereas some RCTs suggested a positive effect of vitamin D supplementation on muscle function in postmenopausal women ( 69 – 71 ). In this meta-analysis, however, we found a significant increase in HGS with a non-existent decrease in TUG in postmenopausal women after taking vitamin D supplementation. We assumed that the types of vitamin D, the duration of the supplementation, and the dose of vitamin D might account for the inconsistent conclusions as shown in  
+L83:  Table 1 
+L84:  . Additionally, given that the included RCTs displayed a high degree of heterogeneity, we conducted a subgroup analysis to reveal the potential source of heterogeneity. Following the subgroup analysis, we found that vitamin D supplementation enhanced HGS in participants aged no less than 60 years old, with a baseline level of vitamin D greater than 75 nmol/L (30 ng/ml) and without calcium supplementation during the period of the clinical trial. However, vitamin D supplementation was not found to have a significant effect on TUG from the results of any subgroup.
+L85: This study is the first meta-analysis to assess the effects of vitamin D supplementation on muscular health in healthy postmenopausal women enrolled in RCT studies. The strengths of the study are manifest in the fact that the populations studied were healthy postmenopausal women, and that the intervention strategy emphasized vitamin D supplementation or its analogs. However, there are also limitations in this meta-analysis, such as that the stringency of our exclusion criteria resulted in a lack of availability of physical activity, nutritional status, etc., which have the potentially contribute to the lack of change in TUG. Additionally, we also detected substantial heterogeneity between the included trials due to the large number of studies included and the diversity seen across different supplementation techniques. In this meta-analysis, we likewise identified no dose–response effect, which is likely due to the variety of supplementation programs used in the included studies. Furthermore, the limited database we searched was another flaw in this review.
+L86: The Asian working group for sarcopenia: 2019 consensus updates on sarcopenia diagnosis and treatment, which were published in JAMDA in 2020, suggested that interventions for patients with sarcopenia should include vitamin D-containing nutritional supplementation in addition to resistance exercise ( 7 ). In this review, we could only verify that supplementing with vitamin D is positively associated with muscle strength. This could be explained by the singleness of the supplementation, which we focused on in our review. The supplementation included in this meta-analysis not only excluded interventions such as branched-chain amino acids, whey protein, and other nutritional supplements, but also excluded treatment with resistance exercise, which is also considered an efficient means of intervention in the consensus.
+L87: Additionally,  in vitro  and  in vivo  experimental studies have demonstrated the beneficial effects of vitamin D supplementation on sarcopenia, which could be explained by the fact that vitamin D could bind to the VDR, which has been found in muscle tissue, myoblasts, and muscle satellite cells ( 25 ,  26 ). Moreover, the lack of vitamin D is suspected to cause muscle weakness by reducing the number and size of type II myofibers ( 72 ,  73 ), which are age-related fibers and the first to be recruited for balancing and preventing falls. Those facts might explain the association between circulating levels of 25(OH)D and muscle function in postmenopausal women ( 74 ). Thus, future studies that investigate the role of vitamin D supplementation on muscle should include an analysis of muscle composition. Furthermore, a recent study also reported an inverse relationship between skeletal muscle fat and circulating 25(OH)D levels in young women adults ( 75 ). Goodpaster et al. ( 76 ) and Liu et al. ( 77 ) have also found similar results that skeletal muscle attenuation is associated with the lipid content of skeletal muscle, which might thereby emphasize the significance of further research on skeletal muscle fat in postmenopausal women.
+L88: The findings of this systematic review and meta-analysis show that although vitamin D supplementation did not improve mobility, it did improve muscle strength, particularly in postmenopausal women over 60 years of age who are without calcium supplementation or whose baseline vitamin D is >75 nmol/L (30 ng/ml). These findings show that future trials should focus on determining the ideal dosage and duration and taking into account the several factors that may impair muscle performance, such as exercise, calcium consumption, frailty, a history of falls or fractures, and baseline vitamin D status, and the relationship between muscle function and/or strength with muscle composition.
+L89: Data Availability Statement
+L90: The original contributions presented in the study are included in the article/ 
+L91:  Supplementary Material 
+L92:  . Further inquiries can be directed to the corresponding author.
+L93: Author Contributions
+L94: J-LZ designed and performed the research, analyzed data and wrote the paper. CP performed the research. M-SW designed and performed the research. W-XL performed the research, statistical analysis, and sample collection. Y-XG performed the research and sample collection. YZ designed and performed the research. All authors listed have made a substantial, direct, and intellectual contribution to the work and approved it for publication.
+L95: Funding
+L96: This study was supported in part by the National Natural Science Foundation of China (82074468), the Science and Technology Commission of Shanghai Municipality (21400760400), the Program of Shanghai Academic Research Leader (19XD1423800), and the Shanghai Collaborative Innovation Center of Industrial Transformation of Hospital TCM Preparation.
+L97: Conflict of Interest
+L98: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L99: Publisher’s Note
+L100: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L101: Supplementary Material
+L102: The Supplementary Material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fendo.2022.863448/full#supplementary-material
+L103: Click here for additional data file.
+L104: 1 Muir SW 
+L105:  Montero-Odasso M 
+L106:  .  Effect of Vitamin D Supplementation on Muscle Strength, Gait and Balance in Older Adults: A Systematic Review and Meta-Analysis .  J Am Geriatr Soc  ( 2011 )  59 : 2291–300 . doi:  10.1111/j.1532-5415.2011.03733.x
+L107: 2 Kanis JA 
+L108:  Cooper C 
+L109:  Rizzoli R 
+L110:  Reginster JY ,  Scientific Advisory Board of the European Society for Clinical and Economic Aspects of Osteoporosis (ESCEO) and the Committees of Scientific Advisors and National Societies of the International Osteoporosis Foundation (IOF) 
+L111:  .  European Guidance for the Diagnosis and Management of Osteoporosis in Postmenopausal Women .  Osteoporos Int  ( 2019 )  30 : 3 – 44 . doi:  10.1007/s00198-018-4704-5 
+L112:  30324412
+L113: 3 Orsatti FL 
+L114:  Nahas EA 
+L115:  Nahas-Neto J 
+L116:  Orsatti CL 
+L117:  Marocolo M 
+L118:  Barbosa-Neto O 
+L119:  
+L120:  .  Low Appendicular Muscle Mass Is Correlated With Femoral Neck Bone Mineral Density Loss in Postmenopausal Women .  BMC Musculoskelet Disord  ( 2011 )  12 : 225 . doi:  10.1186/1471-2474-12-225 
+L121:  21981859
+L122: 4 Rizzoli R 
+L123:  Bischoff-Ferrari H 
+L124:  Dawson-Hughes B 
+L125:  Weaver C 
+L126:  .  Nutrition and Bone Health in Women After the Menopause .  Womens Health (Lond)  ( 2014 )  10 : 599 – 608 . doi:  10.2217/WHE.14.40 
+L127:  25482487
+L128: 5 Yoo JI 
+L129:  Kim H 
+L130:  Ha YC 
+L131:  Kwon HB 
+L132:  Koo KH 
+L133:  .  Osteosarcopenia in Patients With Hip Fracture Is Related With High Mortality .  J Korean Med Sci  ( 2018 )  33 : e27 . doi:  10.3346/jkms.2018.33.e27 
+L134:  29318794
+L135: 6 Perez-Lopez FR 
+L136:  Chedraui P 
+L137:  Pilz S 
+L138:  .  Vitamin D Supplementation After the Menopause .  Ther Adv Endocrinol Metab  ( 2020 )  11 : 2042018820931291 . doi:  10.1177/2042018820931291 
+L139:  32551035
+L140: 7 Chen LK 
+L141:  Woo J 
+L142:  Assantachai P 
+L143:  Auyeung TW 
+L144:  Chou MY 
+L145:  Iijima K 
+L146:  
+L147:  .  Asian Working Group for Sarcopenia: 2019 Consensus Update on Sarcopenia Diagnosis and Treatment .  J Am Med Dir Assoc  ( 2020 )  21 : 300 – 7.e2 . doi:  10.1016/j.jamda.2019.12.012 
+L148:  32033882
+L149: 8 Chen LK 
+L150:  Liu LK 
+L151:  Woo J 
+L152:  Assantachai P 
+L153:  Auyeung TW 
+L154:  Bahyah KS 
+L155:  
+L156:  .  Sarcopenia in Asia: Consensus Report of the Asian Working Group for Sarcopenia .  J Am Med Dir Assoc  ( 2014 )  15 : 95 – 101 . doi:  10.1016/j.jamda.2013.11.025 
+L157:  24461239
+L158: 9 Fielding RA 
+L159:  Vellas B 
+L160:  Evans WJ 
+L161:  Bhasin S 
+L162:  Morley JE 
+L163:  Newman AB 
+L164:  
+L165:  .  Sarcopenia: An Undiagnosed Condition in Older Adults. Current Consensus Definition: Prevalence, Etiology, and Consequences. International Working Group on Sarcopenia .  J Am Med Dir Assoc  ( 2011 )  12 : 249–56 . doi:  10.1016/j.jamda.2011.01.003
+L166: 10 Fuggle N 
+L167:  Shaw S 
+L168:  Dennison E 
+L169:  Cooper C 
+L170:  .  Sarcopenia .  Best Pract Res Clin Rheumatol  ( 2017 )  31 : 218–42 . doi:  10.1016/j.berh.2017.11.007
+L171: 11 Bauer J 
+L172:  Morley JE 
+L173:  Schols AMWJ 
+L174:  Ferrucci L 
+L175:  Cruz-Jentoft AJ 
+L176:  Dent E 
+L177:  
+L178:  .  Sarcopenia: A Time for Action. An SCWD Position Paper .  J Cachexia Sarcopenia Muscle  ( 2019 )  10 : 956–61 . doi:  10.1002/jcsm.12483
+L179: 12 Abiri B 
+L180:  Vafa M 
+L181:  .  Nutrition and Sarcopenia: A Review of the Evidence of Nutritional Influences .  Crit Rev Food Sci Nutr  ( 2019 )  59 : 1456–66 . doi:  10.1080/10408398.2017.1412940
+L182: 13 Cruz-Jentoft AJ 
+L183:  Kiesswetter E 
+L184:  Drey M 
+L185:  Sieber CC 
+L186:  .  Nutrition, Frailty, and Sarcopenia .  Aging Clin Exp Res  ( 2017 )  29 : 43–8 . doi:  10.1007/s40520-016-0709-0
+L187: 14 Han W 
+L188:  Fan Z 
+L189:  Zhou M 
+L190:  Guo X 
+L191:  Yan W 
+L192:  Lu X 
+L193:  
+L194:  .  Low 25-Hydroxyvitamin D Levels in Postmenopausal Female Patients With Benign Paroxysmal Positional Vertigo .  Acta Otolaryngol  ( 2018 )  138 : 443–6 . doi:  10.1080/00016489.2017.1416168
+L195: 15 Bilezikian JP 
+L196:  .  Primary Hyperparathyroidism .  J Clin Endocrinol Metab  ( 2018 )  103 : 3993 – 4004 . doi:  10.1210/jc.2018-01225 
+L197:  30060226
+L198: 16 Tayem Y 
+L199:  Alotaibi R 
+L200:  Hozayen R 
+L201:  Hassan A 
+L202:  .  Therapeutic Regimens for Vitamin D Deficiency in Postmenopausal Women: A Systematic Review .  Prz Menopauzalny  ( 2019 )  18 : 57 – 62 . doi:  10.5114/pm.2019.84159 
+L203:  31114460
+L204: 17 Agarwal K 
+L205:  Sharma M 
+L206:  .  Association of Hypovitaminosis D With Metabolic Syndrome in Postmenopausal Women .  J Obstet Gynaecol India  ( 2020 )  70 : 184–8 . doi:  10.1007/s13224-020-01314-8
+L207: 18 Lips P 
+L208:  Hosking D 
+L209:  Lippuner K 
+L210:  Norquist JM 
+L211:  Wehren L 
+L212:  Maalouf G 
+L213:  
+L214:  .  The Prevalence of Vitamin D Inadequacy Amongst Women With Osteoporosis: An International Epidemiological Investigation .  J Intern Med  ( 2006 )  260 : 245–54 . doi:  10.1111/j.1365-2796.2006.01685.x
+L215: 19 Huang H 
+L216:  Guo J 
+L217:  Chen Q 
+L218:  Chen X 
+L219:  Yang Y 
+L220:  Zhang W 
+L221:  
+L222:  .  The Synergistic Effects of Vitamin D and Estradiol Deficiency on Metabolic Syndrome in Chinese Postmenopausal Women .  Menopause  ( 2019 )  26 : 1171–7 . doi:  10.1097/GME.0000000000001370
+L223: 20 Rinaldi I 
+L224:  Setiati S 
+L225:  Oemardi M 
+L226:  Aries W 
+L227:  Tamin TZ 
+L228:  .  Correlation Between Serum Vitamin D (25(OH)D) Concentration and Quadriceps Femoris Muscle Strength in Indonesian Elderly Women Living in Three Nursing Homes .  Acta Med Indones  ( 2007 )  39 : 107–11 .
+L229: 21 Visser M 
+L230:  Deeg DJ 
+L231:  Lips P 
+L232:   Longitudinal Aging Study Amsterdam 
+L233:  .  Low Vitamin D and High Parathyroid Hormone Levels as Determinants of Loss of Muscle Strength and Muscle Mass (Sarcopenia): The Longitudinal Aging Study Amsterdam .  J Clin Endocrinol Metab  ( 2003 )  88 : 5766–72 . doi:  10.1210/jc.2003-030604
+L234: 22 Bischoff-Ferrari HA 
+L235:  Borchers M 
+L236:  Gudat F 
+L237:  Dürmüller U 
+L238:  Stähelin HB 
+L239:  Dick W 
+L240:  .  Vitamin D Receptor Expression in Human Muscle Tissue Decreases With Age .  J Bone Miner Res  ( 2004 )  19 : 265–9 . doi:  10.1359/jbmr.2004.19.2.265
+L241: 23 Michael YL 
+L242:  Smit E 
+L243:  Seguin R 
+L244:  Curb JD 
+L245:  Phillips LS 
+L246:  Manson JE 
+L247:  .  Serum 25-Hydroxyvitamin D and Physical Performance in Postmenopausal Women .  J Womens Health (Larchmt)  ( 2011 )  20 : 1603–8 . doi:  10.1089/jwh.2010.2606
+L248: 24 Holick MF 
+L249:  Binkley NC 
+L250:  Bischoff-Ferrari HA 
+L251:  Gordon CM 
+L252:  Hanley DA 
+L253:  Heaney RP 
+L254:  
+L255:  .  Evaluation, Treatment, and Prevention of Vitamin D Deficiency: An Endocrine Society Clinical Practice Guideline .  J Clin Endocrinol Metab  ( 2011 )  96 : 1911–30 . doi:  10.1210/jc.2011-0385
+L256: 25 Olsson K 
+L257:  Saini A 
+L258:  Strömberg A 
+L259:  Alam S 
+L260:  Lilja M 
+L261:  Rullman E 
+L262:  
+L263:  .  Evidence for Vitamin D Receptor Expression and Direct Effects of 1alpha, 25(OH)2D3 in Human Skeletal Muscle Precursor Cells .  Endocrinology  ( 2016 )  157 : 98 – 111 . doi:  10.1210/en.2015-1685 
+L264:  26469137
+L265: 26 Owens DJ 
+L266:  Sharples AP 
+L267:  Polydorou I 
+L268:  Alwan N 
+L269:  Donovan T 
+L270:  Tang J 
+L271:  
+L272:  .  A Systems-Based Investigation Into Vitamin D and Skeletal Muscle Repair, Regeneration, and Hypertrophy .  Am J Physiol Endocrinol Metab  ( 2015 )  309 : E1019–31 . doi:  10.1152/ajpendo.00375.2015
+L273: 27 Tomlinson PB 
+L274:  Joseph C 
+L275:  Angioi M 
+L276:  .  Effects of Vitamin D Supplementation on Upper and Lower Body Muscle Strength Levels in Healthy Individuals. A Systematic Review With Meta-Analysis .  J Sci Med Sport  ( 2015 )  18 : 575–80 . doi:  10.1016/j.jsams.2014.07.022
+L277: 28 Alemán-Mateo H 
+L278:  Macías L 
+L279:  Esparza-Romero J 
+L280:  Astiazaran-García H 
+L281:  Blancas AL 
+L282:  .  Physiological Effects Beyond the Significant Gain in Muscle Mass in Sarcopenic Elderly Men: Evidence From a Randomized Clinical Trial Using a Protein-Rich Food .  Clin Interv Aging  ( 2012 )  7 : 225–34 . doi:  10.2147/CIA.S32356
+L283: 29 Moreira-Pfrimer LD 
+L284:  Pedrosa MA 
+L285:  Teixeira L 
+L286:  Lazaretti-Castro M 
+L287:  .  Treatment of Vitamin D Deficiency Increases Lower Limb Muscle Strength in Institutionalized Older People Independently of Regular Physical Activity: A Randomized Double-Blind Controlled Trial .  Ann Nutr Metab  ( 2009 )  54 : 291 – 300 . doi:  10.1159/000235874 
+L288:  19729890
+L289: 30 Scanlon TC 
+L290:  Fragala MS 
+L291:  Stout JR 
+L292:  Emerson NS 
+L293:  Beyer KS 
+L294:  Oliveira LP 
+L295:  
+L296:  .  Muscle Architecture and Strength: Adaptations to Short-Term Resistance Training in Older Adults .  Muscle Nerve  ( 2014 )  49 : 584–92 . doi:  10.1002/mus.23969
+L297: 31 Jastrzebska M 
+L298:  Kaczmarczyk M 
+L299:  Jastrzebski Z 
+L300:  .  Effect of Vitamin D Supplementation on Training Adaptation in Well-Trained Soccer Players .  J Strength Cond Res  ( 2016 )  30 : 2648–55 . doi:  10.1519/JSC.0000000000001337
+L301: 32 Shanely RA 
+L302:  Nieman DC 
+L303:  Knab AM 
+L304:  Gillitt ND 
+L305:  Meaney MP 
+L306:  Jin F 
+L307:  
+L308:  .  Influence of Vitamin D Mushroom Powder Supplementation on Exercise-Induced Muscle Damage in Vitamin D Insufficient High School Athletes .  J Sports Sci  ( 2014 )  32 : 670–9 . doi:  10.1080/02640414.2013.847279
+L309: 33 Todd JJ 
+L310:  McSorley EM 
+L311:  Pourshahidi LK 
+L312:  Madigan SM 
+L313:  Laird E 
+L314:  Healy M 
+L315:  
+L316:  .  Vitamin D3 Supplementation Using an Oral Spray Solution Resolves Deficiency But has No Effect on VO2 Max in Gaelic Footballers: Results From a Randomised, Double-Blind, Placebo-Controlled Trial .  Eur J Nutr  ( 2017 )  56 : 1577–87 . doi:  10.1007/s00394-016-1202-4
+L317: 34 Cavalcante R 
+L318:  Maia J 
+L319:  Mesquita P 
+L320:  Henrique R 
+L321:  Griz L 
+L322:  Bandeira MP 
+L323:  
+L324:  .  The Effects of Intermittent Vitamin D3 Supplementation on Muscle Strength and Metabolic Parameters in Postmenopausal Women With Type 2 Diabetes: A Randomized Controlled Study .  Ther Adv Endocrinol Metab  ( 2015 )  6 : 149–54 . doi:  10.1177/2042018815578998
+L325: 35 Gordon PL 
+L326:  Doyle JW 
+L327:  Johansen KL 
+L328:  .  Association of 1,25-Dihydroxyvitamin D Levels With Physical Performance and Thigh Muscle Cross-Sectional Area in Chronic Kidney Disease Stage 3 and 4 .  J Ren Nutr  ( 2012 )  22 : 423–33 . doi:  10.1053/j.jrn.2011.10.006
+L329: 36 Cangussu LM 
+L330:  Nahas-Neto J 
+L331:  Orsatti CL 
+L332:  Bueloni-Dias FN 
+L333:  Nahas EA 
+L334:  .  Effect of Vitamin D Supplementation Alone on Muscle Function in Postmenopausal Women: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial .  Osteoporos Int  ( 2015 )  26 : 2413–21 . doi:  10.1007/s00198-015-3151-9
+L335: 37 Cheng Q 
+L336:  Wu X 
+L337:  Du Y 
+L338:  Hong W 
+L339:  Tang W 
+L340:  Li H 
+L341:  
+L342:  .  Levels of Serum Sclerostin, FGF-23, and Intact Parathyroid Hormone in Postmenopausal Women Treated With Calcitriol .  Clin Interv Aging  ( 2018 )  13 : 2367–74 . doi:  10.2147/CIA.S186199
+L343: 38 Setiati S 
+L344:  Anugrahini 
+L345:  Fransiska JE 
+L346:  Tamin TZ 
+L347:  Istanti R 
+L348:  .  Combination of Alfacalcidol and Calcium Improved Handgrip Strength and Mobility Among Indonesian Older Women: A Randomized Controlled Trial .  Geriatr Gerontol Int  ( 2018 )  18 : 434–40 . doi:  10.1111/ggi.13201
+L349: 39 Verhaar HJ 
+L350:  Samson MM 
+L351:  Jansen PA 
+L352:  de Vreede PL 
+L353:  Manten JW 
+L354:  Duursma SA 
+L355:  .  Muscle Strength, Functional Mobility and Vitamin D in Older Women .  Aging (Milano)  ( 2000 )  12 : 455–60 . doi:  10.1007/BF03339877
+L356: 40 Brunner RL 
+L357:  Cochrane B 
+L358:  Jackson RD 
+L359:  Larson J 
+L360:  Lewis C 
+L361:  Limacher M 
+L362:  
+L363:  .  Calcium, Vitamin D Supplementation, and Physical Function in the Women’s Health Initiative .  J Am Diet Assoc  ( 2008 )  108 : 1472–9 . doi:  10.1016/j.jada.2008.06.432
+L364: 41 Janssen HC 
+L365:  Samson MM 
+L366:  Verhaar HJ 
+L367:  .  Muscle Strength and Mobility in Vitamin D-Insufficient Female Geriatric Patients: A Randomized Controlled Trial on Vitamin D and Calcium Supplementation .  Aging Clin Exp Res  ( 2010 )  22 : 78 – 84 . doi:  10.1007/BF03324819 
+L368:  20305368
+L369: 42 Liberati A 
+L370:  Altman DG 
+L371:  Tetzlaff J 
+L372:  Mulrow C 
+L373:  Gøtzsche PC 
+L374:  Ioannidis JP 
+L375:  
+L376:  .  The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration .  PloS Med  ( 2009 )  6 : e1000100 . doi:  10.1371/journal.pmed.1000100 
+L377:  19621070
+L378: 43 Jadad AR 
+L379:  Moore RA 
+L380:  Carroll D 
+L381:  Jenkinson C 
+L382:  Reynolds DJ 
+L383:  Gavaghan DJ 
+L384:  
+L385:  .  Assessing the Quality of Reports of Randomized Clinical Trials: Is Blinding Necessary ?  Control Clin Trials  ( 1996 )  17 : 1 – 12 . doi:  10.1016/0197-2456(95)00134-4 
+L386:  8721797
+L387: 44 Apaydin M 
+L388:  Can AG 
+L389:  Kizilgul M 
+L390:  Beysel S 
+L391:  Kan S 
+L392:  Caliskan M 
+L393:  
+L394:  .  The Effects of Single High-Dose or Daily Low-Dosage Oral Colecalciferol Treatment on Vitamin D Levels and Muscle Strength in Postmenopausal Women .  BMC Endocr Disord  ( 2018 )  18 : 48 . doi:  10.1186/s12902-018-0277-8 
+L395:  30031389
+L396: 45 Bischoff HA 
+L397:  Stähelin HB 
+L398:  Dick W 
+L399:  Akos R 
+L400:  Knecht M 
+L401:  Salis C 
+L402:  
+L403:  .  Effects of Vitamin D and Calcium Supplementation on Falls: A Randomized Controlled Trial .  J Bone Miner Res  ( 2003 )  18 : 343–51 . doi:  10.1359/jbmr.2003.18.2.343
+L404: 46 Bischoff-Ferrari HA 
+L405:  Dawson-Hughes B 
+L406:  Stocklin E 
+L407:  
+L408:  .  Oral Supplementation With 25(OH)D3 Versus Vitamin D3: Effects on 25(OH)D Levels, Lower Extremity Function, Blood Pressure, and Markers of Innate Immunity .  J Bone Miner Res  ( 2012 )  27 : 160–9 . doi:  10.1002/jbmr.551
+L409: 47 Bislev LS 
+L410:  Langagergaard Rødbro L 
+L411:  Rolighed L 
+L412:  Sikjaer T 
+L413:  Rejnmark L 
+L414:  .  Effects of Vitamin D3 Supplementation on Muscle Strength, Mass, and Physical Performance in Women With Vitamin D Insufficiency: A Randomized Placebo-Controlled Trial .  Calcif Tissue Int  ( 2018 )  103 : 483–93 . doi:  10.1007/s00223-018-0443-z
+L415: 48 Gao LH 
+L416:  Zhu WJ 
+L417:  Liu YJ 
+L418:  Gu JM 
+L419:  Zhang ZL 
+L420:  Wang O 
+L421:  
+L422:  .  Physical Performance and Life Quality in Postmenopausal Women Supplemented With Vitamin D: A Two-Year Prospective Study .  Acta Pharmacol Sin  ( 2015 )  36 : 1065–73 . doi:  10.1038/aps.2015.55
+L423: 49 Glendenning P 
+L424:  Zhu K 
+L425:  Inderjeeth C 
+L426:  Howat P 
+L427:  Lewis JR 
+L428:  Prince RL 
+L429:  .  Effects of Three-Monthly Oral 150,000 IU Cholecalciferol Supplementation on Falls, Mobility, and Muscle Strength in Older Postmenopausal Women: A Randomized Controlled Trial .  J Bone Miner Res  ( 2012 )  27 : 170–6 . doi:  10.1002/jbmr.524
+L430: 50 Hansen KE 
+L431:  Johnson RE 
+L432:  Chambers KR 
+L433:  Johnson MG 
+L434:  Lemon CC 
+L435:  Vo TN 
+L436:  
+L437:  .  Treatment of Vitamin D Insufficiency in Postmenopausal Women: A Randomized Clinical Trial .  JAMA Intern Med  ( 2015 )  175 : 1612–21 . doi:  10.1001/jamainternmed.2015.3874
+L438: 51 Hara S 
+L439:  Kishimoto KN 
+L440:  Okuno H 
+L441:  Tanaka M 
+L442:  Saito H 
+L443:  Oizumi A 
+L444:  
+L445:  .  Effects of Alfacalcidol on Back Extensor Strength Gained Through Back Extensor Exercise in Postmenopausal Women With Osteoporosis .  Am J Phys Med Rehabil  ( 2013 )  92 : 101–10 . doi:  10.1097/PHM.0b013e31826ed991
+L446: 52 Meyer O 
+L447:  Dawson-Hughes B 
+L448:  Sidelnikov E 
+L449:  Egli A 
+L450:  Grob D 
+L451:  Staehelin HB 
+L452:  
+L453:  .  Calcifediol Versus Vitamin D3 Effects on Gait Speed and Trunk Sway in Young Postmenopausal Women: A Double-Blind Randomized Controlled Trial .  Osteoporos Int  ( 2015 )  26 : 373–81 . doi:  10.1007/s00198-014-2949-1
+L454: 53 Mueangpaisarn P 
+L455:  Chaiamnuay S 
+L456:  .  A Randomized Double-Blinded Placebo Controlled Trial of Ergocalciferol 40,000 Versus 100,000 IU Per Week for Vitamin D Inadequacy in Institutionalized Postmenopausal Women .  Aging Clin Exp Res  ( 2020 )  32 : 41–8 . doi:  10.1007/s40520-019-01151-4
+L457: 54 Suebthawinkul C 
+L458:  Panyakhamlerd K 
+L459:  Yotnuengnit P 
+L460:  Suwan A 
+L461:  Chaiyasit N 
+L462:  Taechakraichana N 
+L463:  .  The Effect of Vitamin D2 Supplementation on Muscle Strength in Early Postmenopausal Women: A Randomized, Double-Blind, Placebo-Controlled Trial .  Climacteric  ( 2018 )  21 : 491–7 . doi:  10.1080/13697137.2018.1480600
+L464: 55 Uusi-Rasi K 
+L465:  Patil R 
+L466:  Karinkanta S 
+L467:  Kannus P 
+L468:  Tokola K 
+L469:  Lamberg-Allardt C 
+L470:  
+L471:  .  Exercise and Vitamin D in Fall Prevention Among Older Women: A Randomized Clinical Trial .  JAMA Intern Med  ( 2015 )  175 : 703–11 . doi:  10.1001/jamainternmed.2015.0225
+L472: 56 Zhu K 
+L473:  Austin N 
+L474:  Devine A 
+L475:  Bruce D 
+L476:  Prince RL 
+L477:  .  A Randomized Controlled Trial of the Effects of Vitamin D on Muscle Strength and Mobility in Older Women With Vitamin D Insufficiency .  J Am Geriatr Soc  ( 2010 )  58 : 2063–8 . doi:  10.1111/j.1532-5415.2010.03142.x
+L478: 57 Higgins JP 
+L479:  Thompson SG 
+L480:  Deeks JJ 
+L481:  Altman DG 
+L482:  .  Measuring Inconsistency in Meta-Analyses .  BMJ  ( 2003 )  327 : 557–60 . doi:  10.1136/bmj.327.7414.557
+L483: 58 Barichella M 
+L484:  Cereda E 
+L485:  Pinelli G 
+L486:  Lorio L 
+L487:  Caroli D 
+L488:  Masiero I 
+L489:  
+L490:  .  Protein, Leucine and Vitamin D Enhancing Rehabilitation (PROLEADER) in Patients With Parkinson’s Disease or Parkinsonism: A Rct .  Movement Disord  ( 2018 )  33 : S199 . doi:  10.1016/j.clnu.2018.06.2101
+L491: 59 Ceglia L 
+L492:  Niramitmahapanya S 
+L493:  da SilvaMorais M 
+L494:  Rivas DA 
+L495:  Harris SS 
+L496:  Bischoff-Ferrari H 
+L497:  
+L498:  .  A Randomized Study on the Effect of Vitamin D(3) Supplementation on Skeletal Muscle Morphology and Vitamin D Receptor Concentration in Older Women .  J Clin Endocrinol Metab  ( 2013 )  98 : E1927–35 . doi:  10.1210/jc.2013-2820
+L499: 60 Mason C 
+L500:  Tapsoba JD 
+L501:  Duggan C 
+L502:  Imayama I 
+L503:  Wang CY 
+L504:  Korde L 
+L505:  
+L506:  .  Effects of Vitamin D3 Supplementation on Lean Mass, Muscle Strength, and Bone Mineral Density During Weight Loss: A Double-Blind Randomized Controlled Trial .  J Am Geriatr Soc  ( 2016 )  64 : 769–78 . doi:  10.1111/jgs.14049
+L507: 61 Bauer JM 
+L508:  Mikušová L 
+L509:  Verlaan S 
+L510:  Bautmans I 
+L511:  Brandt K 
+L512:  Donini LM 
+L513:  
+L514:  .  Safety and Tolerability of 6-Month Supplementation With a Vitamin D, Calcium and Leucine-Enriched Whey Protein Medical Nutrition Drink in Sarcopenic Older Adults .  Aging Clin Exp Res  ( 2020 )  32 : 1501–14 . doi:  10.1007/s40520-020-01519-x
+L515: 62 Bell K 
+L516:  Snijders T 
+L517:  Zulyniak M 
+L518:  Kumbhare D 
+L519:  Heisz J 
+L520:  Parise G 
+L521:  
+L522:  .  A Whey Protein-Based, Multi-Ingredient Supplement Independently Stimulates Gains in Lean Body Mass and Strength, and Enhances Exercise-Induced Adaptations in Older Men .  FASEB J  ( 2017 )  31 : 139.4 . doi:  10.1371/journal.pone.0181387
+L523: 63 Bo Y 
+L524:  Liu C 
+L525:  Ji Z 
+L526:  Yang R 
+L527:  An Q 
+L528:  Zhang X 
+L529:  
+L530:  .  A High Whey Protein, Vitamin D and E Supplement Preserves Muscle Mass, Strength, and Quality of Life in Sarcopenic Older Adults: A Double-Blind Randomized Controlled Trial .  Clin Nutr  ( 2019 )  38 : 159–64 . doi:  10.1016/j.clnu.2017.12.020
+L531: 64 Chanet A 
+L532:  Verlaan S 
+L533:  Salles J 
+L534:  Giraudet C 
+L535:  Patrac V 
+L536:  Pidou V 
+L537:  
+L538:  .  Supplementing Breakfast With a Vitamin D and Leucine-Enriched Whey Protein Medical Nutrition Drink Enhances Postprandial Muscle Protein Synthesis and Muscle Mass in Healthy Older Men .  J Nutr  ( 2017 )  147 : 2262–71 . doi:  10.3945/jn.117.252510
+L539: 65 Verlaan S 
+L540:  Bauer JM 
+L541:  Sieber C 
+L542:  Cederholm T 
+L543:  .  Muscle Mass, Strength, and Function Effects of a High-Whey, Leucine-Enriched Nutritional Intervention in Sarcopenic Elderly in a Double Blind, Randomised Controlled Trial .  Eur Geriatric Med  ( 2014 )  5 : S75 . doi:  10.1016/S1878-7649(14)70163-9
+L544: 66 Rikkonen T 
+L545:  Poole K 
+L546:  Sirola J 
+L547:  Sund R 
+L548:  Honkanen R 
+L549:  Kröger H 
+L550:  .  Long-Term Effects of Functional Impairment on Fracture Risk and Mortality in Postmenopausal Women .  Osteoporos Int  ( 2018 )  29 : 2111–20 . doi:  10.1007/s00198-018-4588-4
+L551: 67 Tabrizi R 
+L552:  Hallajzadeh J 
+L553:  Mirhosseini N 
+L554:  Lankarani KB 
+L555:  Maharlouei N 
+L556:  Akbari M 
+L557:  
+L558:  .  The Effects of Vitamin D Supplementation on Muscle Function Among Postmenopausal Women: A Systematic Review and Meta-Analysis of Randomized Controlled Trials .  EXCLI J  ( 2019 )  18 : 591 – 603 . doi:  10.17179/excli2019-1386 
+L559:  31611742
+L560: 68 Abshirini M 
+L561:  Mozaffari H 
+L562:  Kord-Varkaneh H 
+L563:  Omidian M 
+L564:  Kruger MC 
+L565:  .  The Effects of Vitamin D Supplementation on Muscle Strength and Mobility in Postmenopausal Women: A Systematic Review and Meta-Analysis of Randomised Controlled Trials .  J Hum Nutr dietetics Off J Br Diet Assoc  ( 2020 )  33 : 207–21 . doi:  10.1111/jhn.12717
+L566: 69 Yin MT 
+L567:  Bucovsky M 
+L568:  Williams J 
+L569:  Brunjes D 
+L570:  RoyChoudhury A 
+L571:  Colon I 
+L572:  
+L573:  .  Effect of Vitamin D-3 and Calcium Carbonate Supplementation on Muscle Strength in Postmenopausal Women Living With HIV .  Antiviral Ther  ( 2020 )  25 : 411–8 . doi:  10.3851/IMP3386
+L574: 70 Kim BJ 
+L575:  Kwak MK 
+L576:  Lee SH 
+L577:  Koh JM 
+L578:  .  Lack of Association Between Vitamin D and Hand Grip Strength in Asians: A Nationwide Population-Based Study .  Calcified Tissue Int  ( 2019 )  104 : 152–9 . doi:  10.1007/s00223-018-0480-7
+L579: 71 Bentes CM 
+L580:  Costa PB 
+L581:  Resende M 
+L582:  Netto C 
+L583:  Dias I 
+L584:  da Silveira ALB 
+L585:  
+L586:  .  Effects of 12 Months of Vitamin D Supplementation on Physical Fitness Levels in Postmenopausal Women With Type 2 Diabetes .  J Funct Morphol Kinesiol  ( 2021 )  6 ( 4 ): 87 . doi:  10.3390/jfmk6040087 
+L587:  34842742
+L588: 72 Lexell J 
+L589:  Henriksson-Larsén K 
+L590:  Winblad B 
+L591:  Sjöström M 
+L592:  .  Distribution of Different Fiber Types in Human Skeletal Muscles: Effects of Aging Studied in Whole Muscle Cross Sections .  Muscle Nerve  ( 1983 )  6 : 588–95 . doi:  10.1002/mus.880060809
+L593: 73 Lexell J 
+L594:  Taylor CC 
+L595:  Sjöström M 
+L596:  .  What is the Cause of the Ageing Atrophy ?  J Neurol Sci  ( 1988 )  84 : 275–94 . doi:  10.1016/0022-510X(88)90132-3
+L597: 74 Bischoff-Ferrari HA 
+L598:  Dawson-Hughes B 
+L599:  Willett WC 
+L600:  Staehelin HB 
+L601:  Bazemore MG 
+L602:  Zee RY 
+L603:  
+L604:  .  Effect of Vitamin D on Falls: A Meta-Analysis .  JAMA  ( 2004 )  291 : 1999 – 2006 . doi:  10.1001/jama.291.16.1999 
+L605:  15113819
+L606: 75 Gilsanz V 
+L607:  Kremer A 
+L608:  Mo AO 
+L609:  Wren TA 
+L610:  Kremer R 
+L611:  .  Vitamin D Status and its Relation to Muscle Mass and Muscle Fat in Young Women .  J Clin Endocrinol Metab  ( 2010 )  95 : 1595–601 . doi:  10.1210/jc.2009-2309
+L612: 76 Goodpaster BH 
+L613:  Kelley DE 
+L614:  Thaete FL 
+L615:  He J 
+L616:  Ross R 
+L617:  .  Skeletal Muscle Attenuation Determined by Computed Tomography Is Associated With Skeletal Muscle Lipid Content .  J Appl Physiol (1985)  ( 2000 )  89 : 104–10 . doi:  10.1152/jappl.2000.89.1.104
+L618: 77 Liu M 
+L619:  Chino N 
+L620:  Ishihara T 
+L621:  .  Muscle Damage Progression in Duchenne Muscular Dystrophy Evaluated by a New Quantitative Computed Tomography Method .  Arch Phys Med Rehabil  ( 1993 )  74 : 507–14 . doi:  10.1016/0003-9993(93)90115-Q
+L622: # DataSheet_1
+L623: Supplement Table 1 Subgroup analysis of TUG
+L624: |  | Subtotal (n) | Number of studies (n) | WMD (95% CI) | p-value |
+L625: | --- | --- | --- | --- | --- |
+L626: | Age |  |  |  |  |
+L627: | >60 | 532 | 5 | 0.167(-0.161; 0.495) | 0.318 |
+L628: | >70 | 1320 | 5 | -0.205(-2.223; 1.813) | 0.842 |
+L629: | With calcium or not |  |  |  |  |
+L630: | with calcium | 104 | 8 | 0.238(-0.895; 1.372) | 0.451 |
+L631: | without calcium | 1748 | 2 | -2.150(-7.743; 3.443) | 0.680 |
+L632: | Baseline serum vitamin D level |  |  |  |  |
+L633: | <30 ng/ml | 986 | 6 | -0.196(-1.947; 1.555) | 0.826 |
+L634: | >30 ng/ml | 866 | 4 | 0.232(-0.050; 0.513) | 0.106 |
+L635: | Vitamin D dosage (IU/day) |  |  |  |  |
+L636: | <1000 | 625 | 4 | 0.839(-1.974; 3.653) | 0.559 |
+L637: | ≥1000 | 1116 | 4 | 0.117(-0.250; 0.485) | 0.532 |
+L638: | vitamin D analogues | 111 | 2 | -3.018(-7.646; 1.428) | 0.183 |
+L639: | Supplementation duration |  |  |  |  |
+L640: | ≥12 | 963 | 5 | 0.496(-1.334; 2.327) | 0.595 |
+L641: | <12 | 889 | 5 | -0.138(-0.926; 0.650) | 0.731 |
+L642: WMD, weighed mean difference; CI, confidence interval.
+[24ms]
+

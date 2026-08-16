@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin C vitamin E supplementation exercise training adaptations"
+  ],
+  "completed_at": "2026-08-16T02:59:20.298627+00:00",
+  "elapsed_seconds": 2.290167083963752,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:18.008457+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/direct-01.attempt-01.stderr",
+  "stdout_bytes": 54360,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/direct-01.attempt-01.stdout"
+}

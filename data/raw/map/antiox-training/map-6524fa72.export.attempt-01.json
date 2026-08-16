@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "m_50247aa4",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/map-6524fa72.results.txt"
+  ],
+  "completed_at": "2026-08-16T03:38:28.541919+00:00",
+  "elapsed_seconds": 0.914315375033766,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T03:38:27.627541+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/map-6524fa72.export.attempt-01.stderr",
+  "stdout_bytes": 108,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/map-6524fa72.export.attempt-01.stdout"
+}

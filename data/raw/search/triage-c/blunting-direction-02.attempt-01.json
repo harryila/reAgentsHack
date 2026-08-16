@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin C and E supplementation impairs adaptations to training"
+  ],
+  "completed_at": "2026-08-16T02:59:28.811058+00:00",
+  "elapsed_seconds": 2.4511986661236733,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:26.359853+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/blunting-direction-02.attempt-01.stderr",
+  "stdout_bytes": 54028,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/blunting-direction-02.attempt-01.stdout"
+}

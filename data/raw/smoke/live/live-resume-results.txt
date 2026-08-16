@@ -1,0 +1,42 @@
+Map results  [m_f809f824]
+Query: Answer only whether this paper reports a primary experimental study (not a review, editorial, or protocol). Set eligible accordingly.
+
+--- [1] [success] Antioxidants and Exercise Performance: With a Focus on Vitamin E and C Supplementation ---
+doc_id: PMC7697466
+{"eligible": false}
+
+--- [2] [success] Does Vitamin C and E Supplementation Impair the Favorable Adaptations of Regular Exercise? ---
+doc_id: PMC3425865
+{"eligible": false}
+
+--- [3] [success] Effects of vitamin C and E supplementation on endogenous antioxidant systems and heat shock proteins in response to endurance training ---
+doc_id: PMC4254089
+{"eligible": true}
+
+--- [4] [success] Can supplementation with vitamin C and E alter physiological adaptations to strength training? ---
+doc_id: PMC4114441
+{"eligible":false}
+
+--- [5] [success] Effect of high-dose vitamin C and E supplementation on muscle recovery and training adaptation: a mini review ---
+doc_id: PMC10440181
+{"eligible":false}
+
+--- [6] [success] Vitamin C and E supplementation does not affect heat shock proteins or endogenous antioxidants in trained skeletal muscles during 12 weeks of strength training ---
+doc_id: PMC7050865
+{"eligible": true}
+
+--- [7] [success] Vitamin C and E Supplementation Effects in Professional Soccer Players Under Regular Training ---
+doc_id: PMC2129167
+{"eligible":true}
+
+--- [8] [success] The effects of antioxidant vitamin supplementation on resistance exercise induced lipid peroxidation in trained and untrained participants ---
+doc_id: PMC479696
+{"eligible": true}
+
+--- [9] [success] Do Antioxidant Vitamins Prevent Exercise-Induced Muscle Damage? A Systematic Review ---
+doc_id: PMC7278664
+{"eligible": false}
+
+--- [10] [success] Effects of Acute Vitamin C plus Vitamin E Supplementation on Exercise-Induced Muscle Damage in Runners: A Double-Blind Randomized Controlled Trial ---
+doc_id: PMC9659095
+{"eligible": true}

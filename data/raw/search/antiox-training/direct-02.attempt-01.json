@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "antioxidant supplementation endurance training adaptations randomized"
+  ],
+  "completed_at": "2026-08-16T05:24:10.362632+00:00",
+  "elapsed_seconds": 2.3818627500440925,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:07.980809+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/direct-02.attempt-01.stderr",
+  "stdout_bytes": 48387,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/direct-02.attempt-01.stdout"
+}

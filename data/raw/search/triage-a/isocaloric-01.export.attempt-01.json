@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_acadf3eb",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/isocaloric-01.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:57:33.659824+00:00",
+  "elapsed_seconds": 0.3694007499143481,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:33.290414+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/isocaloric-01.export.attempt-01.stderr",
+  "stdout_bytes": 116,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/isocaloric-01.export.attempt-01.stdout"
+}

@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "repo",
+    "init",
+    "antiox-training-corpus-3287920082",
+    "verified full-corpus extraction set"
+  ],
+  "completed_at": "2026-08-16T03:52:35.078571+00:00",
+  "elapsed_seconds": 0.5157373750116676,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T03:52:34.562644+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/repo-init.attempt-01.stderr",
+  "stdout_bytes": 191,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/repo-init.attempt-01.stdout"
+}

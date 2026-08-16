@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "resistance training and vitamin E supplementation"
+  ],
+  "completed_at": "2026-08-16T05:24:38.059718+00:00",
+  "elapsed_seconds": 2.580510958097875,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:35.479208+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-01.attempt-01.stderr",
+  "stdout_bytes": 51072,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-01.attempt-01.stdout"
+}

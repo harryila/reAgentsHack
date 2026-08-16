@@ -1,0 +1,486 @@
+L1: Marginal Ascorbate Status (Hypovitaminosis C) Results in an Attenuated Response to Vitamin C Supplementation
+L2: Nutrients (2016)
+L3: Anitra C. Carr, Juliet M. Pullar, Stephanie M. Bozonet, Margreet C. M. Vissers
+L4: Department of Pathology, University of Otago, Christchurch, P.O. Box 4345, Christchurch 8140, New Zealand;  juliet.pullar@otago.ac.nz  (J.M.P.);  stephanie.bozonet@otago.ac.nz  (S.M.B.);  margreet.vissers@otago.ac.nz  (M.C.M.V.)
+L5: Inadequate dietary intake of vitamin C results in hypovitaminosis C, defined as a plasma ascorbate concentration ≤23 μmol/L. Our objective was to carry out a retrospective analysis of two vitamin C supplementation studies to determine whether supplementation with 50 mg/day vitamin C is sufficient to restore adequate ascorbate status (≥50 μmol/L) in individuals with hypovitaminosis C. Plasma ascorbate data from 70 young adult males, supplemented with 50 or 200 mg/day vitamin C for up to six weeks, was analyzed. Hypovitaminosis C status was identified based on plasma ascorbate being ≤23 μmol/L and the response of these individuals to vitamin C supplementation was examined. Of the participants consuming 50 mg/day vitamin C for up to six weeks, those with hypovitaminosis C at baseline achieved plasma concentrations of only ~30 μmol/L, whereas the remainder reached ~50 μmol/L. Participants who consumed 200 mg/day vitamin C typically reached saturating concentrations (>65 μmol/L) within one week, while those with hypovitaminosis C required two weeks to reach saturation. Regression modelling indicated that the participants’ initial ascorbate status and body weight explained ~30% of the variability in the final ascorbate concentration. Overall, our analysis revealed that supplementation with 50 mg/day vitamin C, which resulted in a total dietary vitamin C intake of 75 mg/day, was insufficient to achieve adequate plasma ascorbate concentrations in individuals with hypovitaminosis C. Furthermore, increased body weight had a negative impact on ascorbate status.
+L6: Article
+L7: hypovitaminosis C; vitamin C supplementation; human intervention study; recommended dietary intake; body weight
+L8: 1. Introduction
+L9: Vitamin C (ascorbate) is an essential dietary micronutrient that, due to its role as a cofactor for a number of functionally-related metalloenzymes [ 1 , 2 ], has many important biosynthetic and regulatory functions in the body. Inadequate dietary intakes result in hypovitaminosis C (defined as a plasma concentration ≤23 μmol/L [ 3 ]) and the potentially fatal deficiency disease scurvy [ 4 ]. A relatively low intake of vitamin C (~10 mg/day) is sufficient to prevent the physical manifestations of scurvy and it is, therefore, rare in the Western world [ 5 ]. However, epidemiological studies have indicated that a significant proportion of these populations are affected by hypovitaminosis C [ 6 , 7 , 8 ]. Individuals with hypovitaminosis C can exhibit signs of sub-clinical vitamin C deficiency, such as fatigue and depression, and can be at risk of developing overt scurvy [ 9 , 10 ].
+L10: Historically, recommended dietary intakes (RDIs) for vitamin C have been based on the prevention of scurvy, with a margin of safety. Australia and New Zealand (collectively known as Australasia) and the United Kingdom have the lowest RDI for vitamin C in the developed world, with 40 to 45 mg/day being recommended. This is approximately half the intake recommended in North America and many European and Asian countries [ 11 , 12 , 13 ]. The disparity between the international RDIs for vitamin C is due to the different criteria used to determine them,  i.e. , the prevention of deficiency  versus  potential health benefits.
+L11: Numerous epidemiological studies indicate that higher intakes of vitamin C are likely to have a role in the prevention of chronic diseases (reviewed in [ 14 , 15 ]). Therefore, we and others have recommended that the RDI for vitamin C be increased to 120 or even 200 mg/day to take into account its additional health benefits [ 14 , 15 ]. In the late 1990s the United States’ Food and Nutrition Board undertook a review of their Nutrient Reference Values for the antioxidant vitamins, including vitamin C [ 12 ]. The new criteria were based on an amount of vitamin C that provided antioxidant protection [ 14 , 16 ] and was derived from near maximal neutrophil concentrations with minimal urinary loss [ 9 ]. As a result, the North American RDI for vitamin C was increased from 60 mg/day to 90 mg/day for adult men and 75 mg/day for adult women [ 12 ]. Higher vitamin C intakes were recommended for pregnant and lactating women due to additional requirements for fetal and infant growth and nutrition, and for smokers due to faster metabolic turnover of the vitamin [ 12 ].
+L12: Recently the German, Austrian, and Swiss Nutrition Societies revised the reference values for the required intake of vitamin C [ 17 ]. Their criteria for the average vitamin C requirement in healthy adults is the amount of vitamin C that compensates for metabolic losses and ensures a fasting ascorbate plasma level of 50 μmol/L, in agreement with that considered ‘adequate’ by the European Food Safety Authority [ 13 ]. Their calculated average requirement for adult men is 91 mg/day, which gives a recommended intake of 110 mg/day. The requirement for women is extrapolated from these values, and is related to body weight, giving a recommended intake of 95 mg/day for adult women. Higher intakes were recommended for pregnant and lactating women and smokers due to their higher vitamin C requirements [ 17 ].
+L13: In contrast, the Australasian RDI for vitamin C of 45 mg/day for both men and women [ 11 ] is based on the Estimated Average Requirement (EAR) for vitamin C, which is 30 mg/day [ 11 ]. The EAR is the intake estimated to meet the nutritional requirements of 50% of adults, and is derived from an intake at which body content is halfway between tissue saturation and the point at which clinical signs of scurvy appear. Health outcomes are not used for assessing EAR criteria [ 11 ] and this may be due to repeated findings in large randomized placebo-controlled trials for vitamin C that have shown little or no effect of supplementation [ 18 , 19 , 20 ]. However, the ascorbate status of these cohorts was not assessed prior to intervention, with a subsequent failure to exclude participants who already had adequate to saturating ascorbate levels [ 3 ].
+L14: We recently carried out a number of vitamin C bioavailability studies in young adult men supplemented with vitamin C in the form of chewable tablets or from gold kiwifruit [ 21 , 22 , 23 , 24 ]. During sub-group analysis of our study cohorts we observed some individuals whose plasma ascorbate concentrations did not rise to adequate levels ( i.e ., ≥50 μmol/L [ 13 ]) following supplementation. Here we report on a retrospective data analysis of 70 individuals supplemented with 50 or 200 mg/day vitamin C which indicates that individuals with hypovitaminosis C have an attenuated response to supplementation with 50 mg/day vitamin C.
+L15: 2. Materials and Methods
+L16: 2.1. Participants and Study Design
+L17: This study comprised a retrospective analysis of data collected during two vitamin C intervention studies (2011–2014,  n  = 70 participants). All procedures involving human participants were approved by the Upper South Regional Ethics Committee (#URA/11/02/003) and the Health and Disability Ethics Committees (#13/STH/105/AM01). The studies were registered with the Australian New Zealand Clinical Trials Registry (ACTRN12611000162910 and ACTRN12613000989741).
+L18: Participants and study designs have been described in detail in previous publications [ 22 , 23 , 24 ]. Briefly, non-smoking males aged 18–35 years were recruited from local tertiary institutes and a fasting venous blood sample was drawn at screening to determine plasma ascorbate status. Plasma ascorbate was measured using HPLC with electrochemical detection as described previously [ 21 ]. Individuals with plasma ascorbate concentrations <50 μmol/L were recruited for the studies and all provided written informed consent to participate in these studies.
+L19: Participants received either 50 or 200 mg/day vitamin C in the form of orange-flavored chewable tablets comprising ascorbic acid and sodium ascorbate (provided by Tishcon Corp., Westbury, NY, USA) or Gold kiwifruit ( Actinidia chinensis , provided by Zespri International Ltd, Mount Maunganui, New Zealand). We have previously shown that the bioavailability of synthetic and kiwifruit-derived vitamin C are equivalent [ 22 , 25 ] so the data from these two forms of supplementation were combined. Specifically, the low vitamin C group ( n  = 35) comprised 18 participants who received half a kiwifruit/day and 17 participants who received 50 mg/day vitamin C tablets [ 22 ]. The high vitamin C group ( n  = 35) comprised 30 participants who received two kiwifruit/day ( n  = 17 [ 23 ] and  n  = 13 [ 24 ]) and five participants who received 200 mg/day vitamin C tablets (as part of a previously unpublished crossover extension of [ 22 ]).
+L20: The participants underwent a lead-in phase of up to five weeks, an intervention phase of four to six weeks and a washout phase of four weeks. We have previously shown that four weeks is sufficient time for 50 mg/day supplementation to reach steady-state plasma levels [ 21 , 22 ]; less time is required for 200 mg/day supplementation [ 23 ]. During the lead-in phase, the participants were encouraged to control their dietary vitamin C intake by avoiding consumption of juices and other vitamin C-fortified beverages, and by substituting vitamin C-rich foods with low vitamin C-containing foods. This dietary regime was followed for the duration of the study.
+L21: Fasting venous blood samples were drawn weekly throughout the studies to monitor the participants’ plasma ascorbate concentrations derived from both their normal daily diet and the intervention. Participants from the first study ( n  = 57) also completed seven-day food and beverage records at the beginning of the study, pre- and post-intervention, and post-washout to monitor their dietary vitamin C intake. Analysis of the seven-day food and beverage records was carried out as described previously [ 21 ].
+L22: 2.2. Statistical Analysis
+L23: Data were pooled from the two intervention studies [ 22 , 23 , 24 ] and individuals with hypovitaminosis C were identified based on a plasma ascorbate concentration of ≤23 μmol/L at study entrance. Data are represented as mean ± SD. The differences between paired and unpaired data were determined by two-tailed  t -test and  p  values ≤ 0.05 were considered significant. Backward stepwise multiple linear regression analysis was conducted using SPSS software (version 22, IBM Corp, Armonk, NY, USA) to determine independent predictors of plasma vitamin C concentration.
+L24: 3. Results
+L25: 3.1. Group Characteristics at Study Entrance
+L26: The characteristics of the cohort at study entrance are shown in  Table 1 . For the current analysis, the two intervention groups (consuming 50 or 200 mg/day vitamin C) were subdivided into those with plasma ascorbate concentrations >23 μmol/L and those with ≤23 μmol/L at study entrance; this is considered the ‘marginally deficient’ or ‘hypovitaminosis C’ cut-off [ 10 ]. Although the ≤23 μmol/L sub-group within the 50 mg/day intervention group had a slightly higher BMI than the >23 μmol/L sub-group, there were no significant differences in BMI between the two ≤23 μmol/L sub-groups ( Table 1 ). There were no other significant differences in anthropometric measures between the sub-groups or intake groups.
+L27: 3.2. Plasma Ascorbate in the 50 mg/Day Intervention Group
+L28: In the group supplemented with 50 mg/day vitamin C, the mean plasma ascorbate concentration for the >23 the μmol/L sub-group ( n  = 30) was 39 ± 7 μmol/L at entrance to the study. Following the lead-in phase the participants’ average plasma ascorbate concentration had dropped to 26 ± 10 μmol/L (baseline,  Figure 1 a). After six weeks’ supplementation with 50 mg/day vitamin C, this had risen to 52 ± 11 μmol/L, a level considered ‘adequate’ [ 13 ]. In contrast, the average plasma ascorbate concentration of the ≤23 μmol/L sub-group ( n  = 5), which was 18 ± 4 μmol/L at study entrance, reached only 32 ± 14 μmol/L following supplementation ( Figure 1 a). This is considered inadequate [ 3 , 13 ].
+L29: 3.3. Plasma Ascorbate in the 200 mg/Day Intervention Group
+L30: In the group supplemented with 200 mg/day vitamin C, the mean plasma ascorbate concentration for the >23 μmol/L sub-group ( n  = 29) was 38 ± 9 μmol/L at entrance to the study. After the lead-in phase the participants’ average plasma ascorbate concentration had dropped to 27 ± 12 (baseline,  Figure 1 b). Within one week of supplementation at 200 mg/day vitamin C, their concentrations had risen to 67 ± 15 μmol/L and this was maintained for the four weeks of supplementation. The ≤23 μmol/L sub-group ( n  = 6), which was 17 ± 5 μmol/L at study entrance, reached plasma ascorbate concentrations of >60 μmol/L within two weeks of supplementation ( Figure 1 b).
+L31: Our data above indicate that, although individuals with ≤23 μmol/L plasma ascorbate do not reach ‘adequate’ levels with 50 mg/day vitamin C supplementation, they do respond to 200 mg/day supplementation, quickly reaching saturating or ‘optimal’ plasma levels.
+L32: 3.4. Dietary Intakes of Vitamin C
+L33: Dietary intakes of vitamin C were determined for 80% of the participants through analysis of seven-day dietary records. No significant differences were observed between the vitamin C intakes for the >23 μmol/L and ≤23 μmol/L sub-groups at study entrance ( i.e ., ~30 mg/day vitamin C). Therefore, the difference in the plasma ascorbate status of these two sub-groups at study entrance cannot be explained by a difference in dietary intake ( Table 2 ). Furthermore, although the participants had identical vitamin C consumption during the 50 mg/day intervention phase, there remained a significant difference in plasma ascorbate levels between the sub-groups. In contrast, no difference was observed in plasma ascorbate concentrations between the two sub-groups following 200 mg/day intervention. This suggests that factors other than dietary intake are contributing to the lack of response to 50 mg/day intervention in the individuals with hypovitaminosis C. When dietary vitamin C intake was assessed based on body weight, the ≤23 μmol/L sub-groups had an average intake of 0.3 ± 0.1 mg/kg/day while the >23 μmol/L sub-groups had an average intake of 0.4 ± 0.2 mg/kg/day at study entrance. These intakes were, however, not significantly different.
+L34: 3.5. Factors Affecting Post Supplementation Ascorbate Concentrations
+L35: To investigate factors affecting the final plasma ascorbate concentration in the 50 mg/day supplementation group, backward stepwise multiple linear regression analysis was carried out. The participants’ initial plasma vitamin C concentration was a significant predictor of outcome, as was body weight ( Table 3 ). BMI was excluded from the selection model, as weight and BMI were collinear. The regression model explained ~30% of the variability in the plasma ascorbate concentration following supplementation with 50 mg/day vitamin C.
+L36: 4. Discussion
+L37: The data from our retrospective analysis indicate that individuals with hypovitaminosis C do not reach adequate ascorbate status (defined as ≥50 μmol/L [ 13 ]) upon supplementation with 50 mg/day vitamin C. Participants had comparable dietary vitamin C intakes at study entrance and following intervention; therefore, the attenuated plasma levels cannot be explained by differences in dietary intake. Our intervention was in addition to the baseline intake of the participants and it should be noted that, even with a total post-supplementation dietary intake of 75 mg/day, the individuals with hypovitaminosis C were not able to achieve adequate plasma ascorbate concentrations. In contrast, supplementation with the higher dose of 200 mg/day vitamin C overcame the attenuated response of the individuals with hypovitaminosis C.
+L38: International epidemiological studies have indicated a number of predictors of baseline vitamin C status, in addition to dietary intake; these include smoking status, gender, BMI or weight, and waist circumference or ratios [ 6 , 7 , 26 , 27 , 28 , 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 ]. Smokers have lower vitamin C status than non-smokers, even with comparable vitamin C intakes [ 37 ]. This is due to a faster metabolic turnover of ascorbate in smokers [ 38 ], likely due to increased oxidative stress, giving smokers a higher requirement (~35 mg/day) for dietary vitamin C [ 12 ]. However, all of our study participants were non-smokers, therefore, this does not explain the low response of some to supplementation.
+L39: Epidemiological studies consistently find that men have lower ascorbate status than women [ 7 , 26 , 27 , 28 , 29 , 32 ]. However, this is likely due to differences in body weight that result in a volumetric dilution effect [ 32 ]; a given dose in a larger volume produces a lower concentration, an effect which has been observed with increasing obesity [ 39 ]. Using stepwise multiple linear regression modelling we found that baseline ascorbate status and body weight accounted for about 30% of the post-supplementation variability. Similarly, Block  et al.  [ 40 ] found that prior ascorbate depletion and body weight affected ascorbate levels obtained following supplementation. Thus, individuals with higher body weight appear to have a higher requirement for vitamin C.
+L40: There are a number of limitations to our retrospective study, including the small size of the hypovitaminosis C sub-groups. Furthermore, the study cohort consisted primarily of young, lean males, and whether the findings can be generalized remains uncertain. This is because weight tends to increase with age, as do comorbidities, which affect the attainable and needed ascorbate concentrations. Thus, future studies would be strengthened by using larger numbers of hypovitaminosis C individuals supplemented in a prospective manner, and testing both genders and different age groups. Assessing relevant polymorphisms would also add strength to these studies.
+L41: Some of the unexplained variability in our participants’ response to supplemental vitamin C could be due to the effects of genetic variants on vitamin C uptake and/or metabolism. Circulating ascorbate status may be influenced by variants in the  SLC23A1  gene which encodes the sodium-dependent vitamin C transporter-1 (SVCT1) responsible for active uptake of ingested vitamin C through the intestinal epithelium [ 41 ]. A number of single nucleotide variants have been identified in the  SLC23A1  gene [ 42 ] and some of these result in a 40%–75% decrease in ascorbate transport in an  in vitro  oocyte model [ 43 ]. Although we did not test  SLC23A1  gene variants in our study participants, several variants have relatively common minor allele frequencies (0.25–0.32) in the Caucasian population [ 44 ]. These however, appear to have relatively minor effects on circulating ascorbate concentrations [ 44 ], and may only have a minimal impact on the poor response of hypovitaminosis C individuals to supplementation.
+L42: Ascorbate status could potentially be influenced by genetic variants affecting the metabolism of ascorbate [ 42 ]. For example, a variant of the haemoglobin-binding protein haptoglobin (Hp2-2) has a decreased ability to bind haemoglobin and results in increased oxidation of ascorbate  in vitro  [ 45 ]. Several studies have shown that this variant is associated with lower circulating ascorbate concentrations [ 45 , 46 , 47 ]. Since the Hp2-2 variant is fairly prevalent (0.33–0.39) in Caucasian populations [ 45 , 47 ], and appears to have a greater effect in individuals with dietary vitamin C intakes <90 mg/day [ 47 ], this variant may be a factor in the moderate response of our hypovitaminosis C participants who consumed <90 mg/day total vitamin C. Since high-dose vitamin supplementation has been shown to ameliorate certain gene variant defects [ 48 ], and is also hypothesized to occur with vitamin C-related variants [ 49 ], this could partly explain why the higher dose vitamin C intervention (200 mg/day) overcame the low response in the hypovitaminosis C participants. Therefore, individuals with genetic variants affecting ascorbate status may require higher dietary intakes. The prevalence and effects of genetic variants on ascorbate status and health need to be explored further.
+L43: Epidemiological studies indicate that 20% of the US population is at risk of developing vitamin C deficiency [ 6 ], and although this has not been determined within the Australasian population, the rates are likely to be similar. In support of this, our preliminary data from 389 middle aged men and women who were recruited randomly as part of the Canterbury Health, Ageing and Life Course (CHALICE) study [ 50 ], revealed that approximately 14% exhibited hypovitaminosis C (unpublished observations). The Australasian RDI is supposed to provide an intake of vitamin C sufficient to meet the requirements of 97.5% of healthy adults [ 11 ]. However, our data suggest that a significant proportion of the Australasian population may not reach adequate plasma vitamin C levels with the current RDI.
+L44: In their document on the nutrient reference values for Australia and New Zealand, the Australian Department of Health and Ageing and the New Zealand Ministry of Health have compiled Suggested Dietary Targets to reduce chronic disease risk [ 51 ]. This is a daily average intake from food and beverages for certain nutrients that may help in the prevention of chronic disease. It includes nutrients, such as vitamin C, for which there is a body of evidence supporting a potential “chronic disease preventative effect” at levels substantially higher than the EAR and RDI. The suggested dietary target for vitamin C is 220 mg for men and 190 mg for women [ 51 ]. This aligns well with our findings that 200 mg/day vitamin C provides saturating plasma concentrations of ascorbate [ 22 ] and optimal tissue status [ 23 ].
+L45: In our study we showed that supplementation of hypovitaminosis C individuals with 50 mg/day vitamin C, which provided a total vitamin C intake of 75 mg/day, was insufficient to provide adequate vitamin C status ( i.e ., ≥50 μmol/L) in these individuals. We also determined that increased body weight has a negative impact on ascorbate status. It has been previously suggested that vitamin C intakes be based upon body weight ( i.e ., mg vitamin C/kg body weight/day [ 40 ]). Although this would cater to the increasing trend in individualized health care, particularly in light of increasing obesity rates worldwide [ 52 ], it may be difficult to implement at a public health level. Nevertheless, the association between body weight and vitamin C status warrants further evaluation in an adequately powered prospective study.
+L46: Figure 1 Plasma ascorbate concentrations in ( a ) the 50 mg/day vitamin C intervention group and ( b ) the 200 mg/day vitamin C intervention group. ( a ) Participants (Δ,  n  = 35) were supplemented with 50 mg/day vitamin C for six weeks; this group was subdivided into those with >23 μmol/L (○,  n  = 30) or ≤23 μmol/L (●,  n  = 5) plasma ascorbate at study entrance; ( b ) Participants (Δ,  n  = 35) were supplemented with 200 mg/day vitamin C for a minimum of four weeks; this group was subdivided into those with >23 μmol/L (○,  n  = 29) or ≤23 μmol/L (●,  n  = 6) plasma ascorbate at study entrance. Dotted lines demarcate ≤23 μmol/L ascorbate (hypovitaminosis C), ≥50 μmol/L ascorbate (‘adequate’), and ≥70 μmol/L ascorbate (saturating).
+L47: 1. Du J. Cullen J.J. Buettner G.R. 
+L48:  Ascorbic acid: Chemistry, biology and the treatment of cancer 
+L49:  Biochim. Biophys. Acta. 
+L50:  2012 
+L51:  1826 
+L52:  443 
+L53:  457 
+L54:  10.1016/j.bbcan.2012.06.003 
+L55:  22728050
+L56: 2. Kuiper C. Vissers M.C. 
+L57:  Ascorbate as a co-factor for Fe- and 2-oxoglutarate dependent dioxygenases: Physiological activity in tumor growth and progression 
+L58:  Front. Oncol. 
+L59:  2014 
+L60:  4 
+L61:  359 
+L62:  10.3389/fonc.2014.00359 
+L63:  25540771
+L64: 3. Lykkesfeldt J. Poulsen H.E. 
+L65:  Is vitamin C supplementation beneficial? Lessons learned from randomised controlled trials 
+L66:  Br. J. Nutr. 
+L67:  2010 
+L68:  103 
+L69:  1251 
+L70:  1259 
+L71:  10.1017/S0007114509993229 
+L72:  20003627
+L73: 4. Hodges R.E. Hood J. Canham J.E. Sauberlich H.E. Baker E.M. 
+L74:  Clinical manifestations of ascorbic acid deficiency in man 
+L75:  Am. J. Clin. Nutr. 
+L76:  1971 
+L77:  24 
+L78:  432 
+L79:  443 
+L80:  5090631
+L81: 5. Krebs H.A. 
+L82:  The Sheffield Experiment on the vitamin C requirement of human adults 
+L83:  Proc. Nutr. Soc. 
+L84:  1953 
+L85:  12 
+L86:  237 
+L87:  246 
+L88:  10.1079/PNS19530054
+L89: 6. Schleicher R.L. Carroll M.D. Ford E.S. Lacher D.A. 
+L90:  Serum vitamin C and the prevalence of vitamin C deficiency in the United States: 2003–2004 National Health and Nutrition Examination Survey (NHANES) 
+L91:  Am. J. Clin. Nutr. 
+L92:  2009 
+L93:  90 
+L94:  1252 
+L95:  1263 
+L96:  10.3945/ajcn.2008.27016 
+L97:  19675106
+L98: 7. Mosdol A. Erens B. Brunner E.J. 
+L99:  Estimated prevalence and predictors of vitamin C deficiency within UK’s low-income population 
+L100:  J. Public Health (Oxf.) 
+L101:  2008 
+L102:  30 
+L103:  456 
+L104:  460 
+L105:  10.1093/pubmed/fdn076 
+L106:  18812436
+L107: 8. Wrieden W.L. Hannah M.K. Bolton-Smith C. Tavendale R. Morrison C. Tunstall-Pedoe H. 
+L108:  Plasma vitamin C and food choice in the third Glasgow MONICA population survey 
+L109:  J. Epidemiol. Community Health 
+L110:  2000 
+L111:  54 
+L112:  355 
+L113:  360 
+L114:  10.1136/jech.54.5.355 
+L115:  10814656
+L116: 9. Levine M. Conry-Cantilena C. Wang Y. Welch R.W. Washko P.W. Dhariwal K.R. Park J.B. Lazarev A. Graumlich J.F. King J. 
+L117:  Vitamin C pharmacokinetics in healthy volunteers: Evidence for a recommended dietary allowance 
+L118:  Proc. Natl. Acad. Sci. USA 
+L119:  1996 
+L120:  93 
+L121:  3704 
+L122:  3709 
+L123:  10.1073/pnas.93.8.3704 
+L124:  8623000
+L125: 10. Jacob R.A. 
+L126:  Assessment of human vitamin C status 
+L127:  J. Nutr. 
+L128:  1990 
+L129:  120 
+L130:  Suppl. 11 
+L131:  1480 
+L132:  1485 
+L133:  2243292
+L134: 11. Capra S. 
+L135:  Nutrient Reference Values for Australia and New Zealand Including Recommended Dietary Intakes 
+L136:  National Health and Medical Rsearch Council (NHMRC) 
+L137:  Canberra, Australia 
+L138:  2006 
+L139:  119 
+L140:  125
+L141: 12. Institute of Medicine Panel on Dietary Antioxidants and Related Compounds 
+L142:  Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids 
+L143:  National Academies Press 
+L144:  Washington, DC, USA 
+L145:  2000
+L146: 13. Tetens I. 
+L147:  Scientific opinion on dietary reference values for vitamin C 
+L148:  EFSA J. 
+L149:  2013 
+L150:  11 
+L151:  3418
+L152: 14. Carr A.C. Frei B. 
+L153:  Toward a new recommended dietary allowance for vitamin C based on antioxidant and health effects in humans 
+L154:  Am. J. Clin. Nutr. 
+L155:  1999 
+L156:  69 
+L157:  1086 
+L158:  1107 
+L159:  10357726
+L160: 15. Frei B. Birlouez-Aragon I. Lykkesfeldt J. 
+L161:  What is the Optimum Intake of Vitamin C in Humans? 
+L162:  Crit. Rev. Food Sci. Nutr. 
+L163:  2012 
+L164:  52 
+L165:  815 
+L166:  829 
+L167:  10.1080/10408398.2011.649149 
+L168:  22698272
+L169: 16. Carr A. Frei B. 
+L170:  Does vitamin C act as a pro-oxidant under physiological conditions? 
+L171:  Faseb J. 
+L172:  1999 
+L173:  13 
+L174:  1007 
+L175:  1024 
+L176:  10336883
+L177: 17. German Nutrition Society (DGE) 
+L178:  New Reference Values for Vitamin C Intake 
+L179:  Ann. Nutr. Metab. 
+L180:  2015 
+L181:  67 
+L182:  13 
+L183:  20 
+L184:  26227083
+L185: 18. Cook N.R. Albert C.M. Gaziano J.M. Zaharris E. MacFadyen J. Danielson E. Buring J.E. Manson J.E. 
+L186:  A randomized factorial trial of vitamins C and E and beta carotene in the secondary prevention of cardiovascular events in women: Results from the Women’s Antioxidant Cardiovascular Study 
+L187:  Arch. Intern. Med. 
+L188:  2007 
+L189:  167 
+L190:  1610 
+L191:  1618 
+L192:  10.1001/archinte.167.15.1610 
+L193:  17698683
+L194: 19. Sesso H.D. Buring J.E. Christen W.G. Kurth T. Belanger C. MacFadyen J. Bubes V. Manson J.E. Glynn R.J. Gaziano J.M. 
+L195:  Vitamins E and C in the prevention of cardiovascular disease in men: The Physicians’ Health Study II randomized controlled trial 
+L196:  JAMA 
+L197:  2008 
+L198:  300 
+L199:  2123 
+L200:  2133 
+L201:  10.1001/jama.2008.600 
+L202:  18997197
+L203: 20. Gaziano J.M. Glynn R.J. Christen W.G. Kurth T. Belanger C. MacFadyen J. Bubes V. Manson J.E. Sesso H.D. Buring J.E. 
+L204:  Vitamins E and C in the prevention of prostate and total cancer in men: The Physicians’ Health Study II randomized controlled trial 
+L205:  JAMA 
+L206:  2009 
+L207:  301 
+L208:  52 
+L209:  62 
+L210:  10.1001/jama.2008.862 
+L211:  19066368
+L212: 21. Carr A.C. Pullar J.M. Moran S. Vissers M.C.M. 
+L213:  Bioavailability of vitamin C from kiwifruit in non-smoking males: Determination of ‘healthy’ and ‘optimal’ intakes 
+L214:  J. Nutr. Sci. 
+L215:  2012 
+L216:  1 
+L217:  1 
+L218:  9 
+L219:  10.1017/jns.2012.15 
+L220:  25191543
+L221: 22. Carr A.C. Bozonet S.M. Pullar J.M. Simcock J.W. Vissers M.C. 
+L222:  A randomised steady-state bioavailability study of synthetic and natural (kiwifruit-derived) vitamin C 
+L223:  Nutrients 
+L224:  2013 
+L225:  5 
+L226:  3684 
+L227:  3695 
+L228:  10.3390/nu5093684 
+L229:  24067392
+L230: 23. Carr A.C. Bozonet S.M. Pullar J.M. Simcock J.W. Vissers M.C. 
+L231:  Human skeletal muscle ascorbate is highly responsive to changes in vitamin C intake and plasma concentrations 
+L232:  Am. J. Clin. Nutr. 
+L233:  2013 
+L234:  97 
+L235:  800 
+L236:  807 
+L237:  10.3945/ajcn.112.053207 
+L238:  23446899
+L239: 24. Bozonet S.M. Carr A.C. Pullar J.M. Vissers M.C.M. 
+L240:  Enhanced human neutrophil vitamin C status, chemotaxis and oxidant generation following dietary supplementation with vitamin C-rich SunGold kiwifruit 
+L241:  Nutrients 
+L242:  2015 
+L243:  7 
+L244:  2574 
+L245:  2588 
+L246:  10.3390/nu7042574 
+L247:  25912037
+L248: 25. Carr A.C. Bozonet S.M. Vissers M.C. 
+L249:  A randomised cross-over pharmacokinetic bioavailability study of synthetic  versus  kiwifruit-derived vitamin C 
+L250:  Nutrients 
+L251:  2013 
+L252:  5 
+L253:  4451 
+L254:  4461 
+L255:  10.3390/nu5114451 
+L256:  24284610
+L257: 26. Galan P. Viteri F.E. Bertrais S. Czernichow S. Faure H. Arnaud J. Ruffieux D. Chenal S. Arnault N. Favier A. 
+L258:  Serum concentrations of beta-carotene, vitamins C and E, zinc and selenium are influenced by sex, age, diet, smoking status, alcohol consumption and corpulence in a general French adult population 
+L259:  Eur. J. Clin. Nutr. 
+L260:  2005 
+L261:  59 
+L262:  1181 
+L263:  1190 
+L264:  10.1038/sj.ejcn.1602230 
+L265:  16034362
+L266: 27. Ravindran R.D. Vashist P. Gupta S.K. Young I.S. Maraini G. Camparini M. Jayanthi R. John N. Fitzpatrick K.E. Chakravarthy U. 
+L267:  Prevalence and risk factors for vitamin C deficiency in north and south India: A two centre population based study in people aged 60 years and over 
+L268:  PLoS ONE 
+L269:  2011 
+L270:  6 
+L271:  341 
+L272:  10.1371/journal.pone.0028588 
+L273:  22163038
+L274: 28. Olmedilla B. Granado F. Southon S. Wright A.J. Blanco I. Gil-Martinez E. Berg H. Corridan B. Roussel A.M. Chopra M. 
+L275:  Serum concentrations of carotenoids and vitamins A, E, and C in control subjects from five European countries 
+L276:  Br. J. Nutr. 
+L277:  2001 
+L278:  85 
+L279:  227 
+L280:  238 
+L281:  10.1079/BJN2000248 
+L282:  11242491
+L283: 29. Birlouez-Aragon I. Delcourt C. Tessier F. Papoz L. 
+L284:  Associations of age, smoking habits and diabetes with plasma vitamin C of elderly of the POLA study 
+L285:  Int. J. Vitam. Nutr. Res. 
+L286:  2001 
+L287:  71 
+L288:  53 
+L289:  59 
+L290:  10.1024/0300-9831.71.1.53 
+L291:  11276923
+L292: 30. Faure H. Preziosi P. Roussel A.M. Bertrais S. Galan P. Hercberg S. Favier A. 
+L293:  Factors influencing blood concentration of retinol, alpha-tocopherol, vitamin C, and beta-carotene in the French participants of the SU.VI.MAX trial 
+L294:  Eur. J. Clin. Nutr. 
+L295:  2006 
+L296:  60 
+L297:  706 
+L298:  717 
+L299:  10.1038/sj.ejcn.1602372 
+L300:  16391586
+L301: 31. Dietrich M. Block G. Norkus E.P. Hudes M. Traber M.G. Cross C.E. Packer L. 
+L302:  Smoking and exposure to environmental tobacco smoke decrease some plasma antioxidants and increase gamma-tocopherol  in vivo  after adjustment for dietary antioxidant intakes 
+L303:  Am. J. Clin. Nutr. 
+L304:  2003 
+L305:  77 
+L306:  160 
+L307:  166 
+L308:  12499336
+L309: 32. Jungert A. Neuhauser-Berthold M. 
+L310:  The lower vitamin C plasma concentrations in elderly men compared with elderly women can partly be attributed to a volumetric dilution effect due to differences in fat-free mass 
+L311:  Br. J. Nutr. 
+L312:  2015 
+L313:  859 
+L314:  864 
+L315:  10.1017/S0007114515000240 
+L316:  25735881
+L317: 33. Johnston C.S. Beezhold B.L. Mostow B. Swan P.D. 
+L318:  Plasma vitamin C is inversely related to body mass index and waist circumference but not to plasma adiponectin in nonsmoking adults 
+L319:  J. Nutr. 
+L320:  2007 
+L321:  137 
+L322:  1757 
+L323:  1762 
+L324:  17585027
+L325: 34. Cahill L. Corey P.N. El-Sohemy A. 
+L326:  Vitamin C deficiency in a population of young Canadian adults 
+L327:  Am. J. Epidemiol. 
+L328:  2009 
+L329:  170 
+L330:  464 
+L331:  471 
+L332:  10.1093/aje/kwp156 
+L333:  19596710
+L334: 35. Garcia O.P. Ronquillo D. Caamano Mdel C. Camacho M. Long K.Z. Rosado J.L. 
+L335:  Zinc, vitamin A, and vitamin C status are associated with leptin concentrations and obesity in Mexican women: Results from a cross-sectional study 
+L336:  Nutr. Metab. (Lond.) 
+L337:  2012 
+L338:  9 
+L339:  59 
+L340:  10.1186/1743-7075-9-59 
+L341:  22703731
+L342: 36. Canoy D. Wareham N. Welch A. Bingham S. Luben R. Day N. Khaw K.T. 
+L343:  Plasma ascorbic acid concentrations and fat distribution in 19,068 British men and women in the European Prospective Investigation into Cancer and Nutrition Norfolk cohort study 
+L344:  Am. J. Clin. Nutr. 
+L345:  2005 
+L346:  82 
+L347:  1203 
+L348:  1209 
+L349:  16332652
+L350: 37. Lykkesfeldt J. Christen S. Wallock L.M. Chang H.H. Jacob R.A. Ames B.N. 
+L351:  Ascorbate is depleted by smoking and repleted by moderate supplementation: A study in male smokers and nonsmokers with matched dietary antioxidant intakes 
+L352:  Am. J. Clin. Nutr. 
+L353:  2000 
+L354:  71 
+L355:  530 
+L356:  536 
+L357:  10648268
+L358: 38. Kallner A.B. Hartmann D. Hornig D.H. 
+L359:  On the requirements of ascorbic acid in man: Steady-state turnover and body pool in smokers 
+L360:  Am. J. Clin. Nutr. 
+L361:  1981 
+L362:  34 
+L363:  1347 
+L364:  1355 
+L365:  7258125
+L366: 39. Moor de Burgos A. Wartanowicz M. Ziemlanski S. 
+L367:  Blood vitamin and lipid levels in overweight and obese women 
+L368:  Eur. J. Clin. Nutr. 
+L369:  1992 
+L370:  46 
+L371:  803 
+L372:  808 
+L373:  1425534
+L374: 40. Block G. Mangels A.R. Patterson B.H. Levander O.A. Norkus E.P. Taylor P.R. 
+L375:  Body weight and prior depletion affect plasma ascorbate levels attained on identical vitamin C intake: A controlled-diet study 
+L376:  J. Am. Coll. Nutr. 
+L377:  1999 
+L378:  18 
+L379:  628 
+L380:  637 
+L381:  10.1080/07315724.1999.10718898 
+L382:  10613415
+L383: 41. Savini I. Rossi A. Pierro C. Avigliano L. Catani M.V. 
+L384:  SVCT1 and SVCT2: Key proteins for vitamin C uptake 
+L385:  Amino Acids 
+L386:  2008 
+L387:  34 
+L388:  347 
+L389:  355 
+L390:  10.1007/s00726-007-0555-7 
+L391:  17541511
+L392: 42. Michels A.J. Hagen T.M. Frei B. 
+L393:  Human Genetic Variation Influences Vitamin C Homeostasis by Altering Vitamin C Transport and Antioxidant Enzyme Function 
+L394:  Annu. Rev. Nutr. 
+L395:  2013 
+L396:  33 
+L397:  45 
+L398:  70 
+L399:  10.1146/annurev-nutr-071812-161246 
+L400:  23642198
+L401: 43. Corpe C.P. Tu H. Eck P. Wang J. Faulhaber-Walter R. Schnermann J. Margolis S. Padayatty S. Sun H. Wang Y. 
+L402:  Vitamin C transporter Slc23a1 links renal reabsorption, vitamin C tissue accumulation, and perinatal survival in mice 
+L403:  J. Clin. Investig. 
+L404:  2010 
+L405:  120 
+L406:  1069 
+L407:  1083 
+L408:  10.1172/JCI39191 
+L409:  20200446
+L410: 44. Timpson N.J. Forouhi N.G. Brion M.J. Harbord R.M. Cook D.G. Johnson P. McConnachie A. Morris R.W. Rodriguez S. Luan J. 
+L411:  Genetic variation at the SLC23A1 locus is associated with circulating concentrations of L-ascorbic acid (vitamin C): Evidence from 5 independent studies with >15,000 participants 
+L412:  Am. J. Clin. Nutr. 
+L413:  2010 
+L414:  92 
+L415:  375 
+L416:  382 
+L417:  10.3945/ajcn.2010.29438 
+L418:  20519558
+L419: 45. Langlois M.R. Delanghe J.R. De Buyzere M.L. Bernard D.R. Ouyang J. 
+L420:  Effect of haptoglobin on the metabolism of vitamin C 
+L421:  Am. J. Clin. Nutr. 
+L422:  1997 
+L423:  66 
+L424:  606 
+L425:  610 
+L426:  9280180
+L427: 46. Na N. Delanghe J.R. Taes Y.E. Torck M. Baeyens W.R. Ouyang J. 
+L428:  Serum vitamin C concentration is influenced by haptoglobin polymorphism and iron status in Chinese 
+L429:  Clin. Chim. Acta 
+L430:  2006 
+L431:  365 
+L432:  319 
+L433:  324 
+L434:  10.1016/j.cca.2005.09.015 
+L435:  16256097
+L436: 47. Cahill L.E. El-Sohemy A. 
+L437:  Haptoglobin genotype modifies the association between dietary vitamin C and serum ascorbic acid deficiency 
+L438:  Am. J. Clin. Nutr. 
+L439:  2010 
+L440:  92 
+L441:  1494 
+L442:  1500 
+L443:  10.3945/ajcn.2010.29306 
+L444:  20926521
+L445: 48. Ames B.N. Elson-Schwab I. Silver E.A. 
+L446:  High-dose vitamin therapy stimulates variant enzymes with decreased coenzyme binding affinity (increased K(m)): Relevance to genetic disease and polymorphisms 
+L447:  Am. J. Clin. Nutr. 
+L448:  2002 
+L449:  75 
+L450:  616 
+L451:  658 
+L452:  11916749
+L453: 49. Levine M. Eck P. 
+L454:  Vitamin C: Working on the x-axis 
+L455:  Am. J. Clin. Nutr. 
+L456:  2009 
+L457:  90 
+L458:  1121 
+L459:  1123 
+L460:  10.3945/ajcn.2009.28687 
+L461:  19812178
+L462: 50. Schluter P.J. Spittlehouse J.K. Cameron V.A. Chambers S. Gearry R. Jamieson H.A. Kennedy M. Lacey C.J. Murdoch D.R. Pearson J. 
+L463:  Canterbury Health, Ageing and Life Course (CHALICE) study: Rationale, design and methodology 
+L464:  N. Zeal. Med. J. 
+L465:  2013 
+L466:  126 
+L467:  71 
+L468:  85
+L469: 51. National Health and Medical Research Council 
+L470:  Nutrient Reference Values for Australia and New Zealand: Executive Summary 
+L471:  National Health and Medical Research Council 
+L472:  Canberra, Australia 
+L473:  2006 
+L474:  89
+L475: 52. Yatsuya H. Li Y. Hilawe E.H. Ota A. Wang C. Chiang C. Zhang Y. Uemura M. Osako A. Ozaki Y. 
+L476:  Global trend in overweight and obesity and its association with cardiovascular disease incidence 
+L477:  Circ. J. Off. J. Jpn. Circ. Soc. 
+L478:  2014 
+L479:  78 
+L480:  2807 
+L481:  2818 
+L482:  10.1253/circj.CJ-14-0850
+L483: Acknowledgments
+L484: The authors acknowledge Zespri International Ltd, Mount Maunganui, New Zealand, for financial support of the intervention studies and thank Gareth Pullar for assistance with statistical modelling.
+[24ms]
+

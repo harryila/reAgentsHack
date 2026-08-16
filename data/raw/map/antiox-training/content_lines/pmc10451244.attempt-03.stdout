@@ -1,0 +1,1156 @@
+L1: Individualised Exercise Training Enhances Antioxidant Buffering Capacity in Idiopathic Pulmonary Fibrosis
+L2: Antioxidants (2023)
+L3: Tim J. M. Wallis, Magdalena Minnion, Anna Freeman, Andrew Bates, James M. Otto, Stephen A. Wootton, Sophie V. Fletcher, Michael P. W. Grocott, Martin Feelisch, Mark G. Jones, Sandy Jack
+L4: 1 NIHR Southampton Biomedical Research Centre, Respiratory and Critical Care, University Hospital Southampton, Southampton SO16 6YD, UK;  m.minnion@soton.ac.uk  (M.M.);  a.freeman@soton.ac.uk  (A.F.);  a.bates@soton.ac.uk  (A.B.);  james.otto@uhs.nhs.uk  (J.M.O.);  sophie.fletcher@uhs.nhs.uk  (S.V.F.);  mike.grocott@soton.ac.uk  (M.P.W.G.);  m.feelisch@soton.ac.uk  (M.F.);  mark.jones@soton.ac.uk  (M.G.J.);  s.jack@soton.ac.uk  (S.J.)
+L5: 2 Academic School of Clinical and Experimental Sciences, Faculty of Medicine, University of Southampton, Southampton SO17 1BJ, UK;  s.a.wootton@soton.ac.uk
+L6: 3 Department of Critical Care and Anaesthesia, University Hospital Southampton, Southampton SO16 6YD, UK
+L7: 4 NIHR Southampton Biomedical Research Centre, Nutrition and Metabolism, University Hospital Southampton, Southampton SO16 6YD, UK
+L8: 5 Institute for Life Sciences, University of Southampton, Southampton SO17 1BJ, UK
+L9: Exercise training is recommended for patients with idiopathic pulmonary fibrosis (IPF); however, the mechanism(s) underlying its physiological benefits remain unclear. We investigated the effects of an individualised aerobic interval training programme on exercise capacity and redox status in IPF patients. IPF patients were recruited prospectively to an 8-week, twice-weekly cardiopulmonary exercise test (CPET)-derived structured responsive exercise training programme (SRETP). Systemic redox status was assessed pre- and post-CPET at baseline and following SRETP completion. An age- and sex-matched non-IPF control cohort was recruited for baseline comparison only. At baseline, IPF patients ( n  = 15) had evidence of increased oxidative stress compared with the controls as judged by; the plasma reduced/oxidised glutathione ratio (median, control 1856 vs. IPF 736  p  = 0.046). Eleven IPF patients completed the SRETP (median adherence 88%). Following SRETP completion, there was a significant improvement in exercise capacity assessed via the constant work-rate endurance time (+82%,  p  = 0.003). This was accompanied by an improvement in post-exercise redox status (in favour of antioxidants) assessed via serum total free thiols (median increase, +0.26 μmol/g protein  p  = 0.005) and total glutathione concentration (+0.73 μM  p  = 0.03), as well as a decrease in post-exercise lipid peroxidation products (−1.20 μM  p  = 0.02). Following SRETP completion, post-exercise circulating nitrite concentrations were significantly lower compared with baseline (−0.39 μM  p  = 0.04), suggestive of exercise-induced nitrite utilisation. The SRETP increased both endurance time and systemic antioxidant capacity in IPF patients. The observed reduction in nitrite concentrations provides a mechanistic rationale to investigate nitrite/nitrate supplementation in IPF patients.
+L10: Article
+L11: idiopathic pulmonary fibrosis; exercise training; oxidative stress; redox balance
+L12: 1. Introduction
+L13: Idiopathic pulmonary fibrosis (IPF) is a prototypic progressive fibrotic lung disease [ 1 ]. It occurs in middle-aged and elderly adults, with a male predominance (70–80% in an international case series [ 2 , 3 ]) and substantially affects health-related quality of life (HRQoL) [ 4 ], with patients typically reporting progressive breathlessness and exercise limitation. Left untreated, the median survival is 3–5 years from the time of diagnosis [ 5 ], and there is a clear unmet need for interventions that improve patients’ symptoms.
+L14: There is strong evidence that physical inactivity shortens lifespan by increasing the risk of cardiovascular disease and all-cause mortality in the general population [ 6 ]. Studies have confirmed that patients with IPF have reduced daily physical activity levels and exercise capacity compared with their peers [ 7 , 8 ]. Increasing exercise intolerance in patients with IPF is associated with worsening quality of life and loss of independence [ 7 , 9 ]. Furthermore, exercise capacity is an independent marker of poor prognosis in patients with IPF with both reduced baseline exercise capacity and declining exercise capacity predictive of increased mortality [ 10 ]. Pulmonary rehabilitation, an intervention that includes exercise training, is recommended in international guidelines for patients with IPF, with evidence supporting short-term improvement in functional status [ 11 , 12 ]. Despite this recommendation, it remains uncertain whether standard exercise training provides the optimal strategy for each individual, with up to 50% of IPF patients not improving their 6 min walk test (6 MWT) by greater than the minimum clinically important difference (MCID) of 29–34 m [ 13 , 14 ]. Furthermore, the mechanism(s) underlying any improvement in exercise capacity and whether focused targeting of these could further increase clinical benefit remain uncertain.
+L15: Oxidative stress arises due to an imbalance in redox status and regulation, i.e., the relationship between oxidants and antioxidants in the body. Such a redox imbalance, marked by a shift in extracellular redox status in favour of oxidants, has been identified in both bronchoalveolar lavage fluid and blood of patients with IPF compared with aged-matched controls [ 15 , 16 ]. Mechanistic studies have demonstrated that oxidative stress can cause progression of pulmonary fibrosis and markers of oxidative stress correlate with disease severity in IPF patients [ 17 , 18 ]. Whilst acute exercise itself induces oxidative stress [ 19 , 20 , 21 ], this effect is short-lasting and triggers a hormetic response to increase resilience against oxidative damage. The effects of a period of exercise training on redox status in patients with IPF has not been investigated, whilst evidence from studies in participants without significant respiratory disease suggests that a period of exercise training can alter redox status in favour of antioxidants [ 22 ].
+L16: Previous studies of exercise training in IPF have used a variety of different exercise protocols [ 12 ]. As with pharmacological therapies, the effectiveness of exercise training is dependent on the dose administered [ 23 ]. Electro-magnetically braked cycle ergometry combined with an objective assessment of an individual’s physical fitness using cardiopulmonary exercise testing (CPET) enables the prescription of an individualised exercise programme [ 23 ]. Using this approach, we have previously demonstrated that an interval-based, structured responsive exercise training programme (SRETP) is feasible and improves physical fitness in patients with cancer [ 24 , 25 ] as well as quality of life and pulmonary inflammation in asthma [ 26 ]. Here, we utilise this individualised SRETP approach in a prospective study in patients with IPF to test the hypothesis that SRETP can improve exercise capacity, whilst in parallel investigating its effects on extracellular redox status to provide mechanistic insight into its mode of action.
+L17: 2. Materials and Methods
+L18: 2.1. Study Design
+L19: This was a single-centre prospective study. Full ethical approval was obtained (Hampshire A Research Ethics Council, UK [REC: 17/SC/0342]), and the protocol was registered on clinicaltrials.gov (NCT03222648). All patients provided written informed consent before study entry. Study recruitment was between 1 September 2017 and 1 April 2021. However, recruitment and follow-up of IPF patients was terminated on 17 March 2020 due to the COVID-19 pandemic. Hence, only non-IPF participants (controls) were recruited to, and actively participating in, the study from 18 March 2020 to 1 April 2021.
+L20: 2.2. Eligibility
+L21: IPF patients aged 18–85 years were eligible to enrol if they had a prior specialist multidisciplinary diagnosis of IPF based on consensus guidelines [ 27 ], had a Medical Research Council (MRC) breathlessness score of 1–3, and were clinically stable for 3 months prior to enrolment. Patients were excluded if they were prescribed oxygen therapy, had an FEV 1 /FVC ratio <0.7, had malignancy under treatment/follow-up, participated in pulmonary rehabilitation <6 months prior to screening, or had a condition contraindicating CPET ( Supplementary Table S1 ).
+L22: An age- and sex-matched control cohort of participants without a diagnosis of IPF were contemporaneously recruited for baseline CPET and redox comparison only. The control participants had been referred for a CPET as part of their standard perioperative care prior to non-malignant elective surgery, having been assessed to have subjectively impaired exercise capacity ( Supplementary Table S2 ). The control participants were ineligible for enrolment if they were current smokers, had malignancy under treatment/follow-up, or had a known significant cardiorespiratory disease as judged by the investigator.
+L23: 2.3. Exercise Intervention
+L24: All IPF participants attended an in-hospital, supervised 8-week, twice-weekly SRETP. Exercise intensities were determined from symptom-limited CPET ( Supplementary Section S1 ) to ensure consistent and individualised exercise for all participants. The exercise intervention was described following the Consensus on Exercise Reporting Template in  Supplementary Section S2  [ 28 ]. In brief, exercise training consisted of 40 min interval training on an electromagnetically braked cycle-ergometer that executed intervals automatically. Each interval consisted of 3 min at moderate intensity (80% of work rate at anaerobic threshold (AT)) followed by 2 min at severe intensity (work rate equal to midpoint between AT and peak oxygen consumption ( V · O 2 peak)). Training was progressive, with the total number of intervals increasing from 4 to 6 after the first two sessions, and the training intensities were re-prescribed following an interim CPET at week 4. The training programme was adapted from positive studies in patients with cancer [ 24 , 25 ] following patient and carer consultations and expert opinion.
+L25: 2.4. Measurements
+L26: 2.4.1. Control Participants
+L27: Demographics, MRC score and spirometry were recorded, and venous blood sampling (EDTA and serum) for systemic redox profiling was taken immediately pre- and post-CPET. Following this baseline assessment, the control participants had no further active involvement in the study (see  Supplementary Figure S1  for the study schedule).
+L28: 2.4.2. IPF Participants
+L29: Demographics, MRC score, spirometry, and gas transfer were recorded at baseline and Week 9. Venous blood (EDTA plasma and serum) for systemic redox profiling was taken immediately pre- and post-CPET at baseline, Week 4, and Week 9.
+L30: All CPETs (IPF and control) were analysed by two experienced clinicians (A.F. and A.B.), blinded to patient intervention and outcome. If interpretation varied by ±5%, the CPET was analysed by a third adjudicator (J.O).
+L31: 2.5. Outcomes
+L32: In the IPF participants, the study outcomes were assessed at baseline and Week 9. The pre-specified primary outcome was change in endurance time (minutes) at Week 9, assessed using a constant work-rate test with a work rate equal to 75% of baseline  V · O 2 peak. The secondary outcomes were (1) CPET variables (AT,  V · O 2 peak, and peak work-rate) (2) FVC% predicted, (3) MRC score, (4) St. Georges respiratory questionnaire (SGRQ)—IPF (see  Supplementary Section S1  for a description and  Supplementary Figure S1  for the study schedule), and (5) redox biomarkers (see below).
+L33: 2.6. Redox Biomarker Analyses
+L34: Whole-body redox status was assessed by measuring the total free thiol concentrations in serum [ 29 ] (with higher values reflecting higher antioxidant reserve capacity) and in EDTA plasma based on the ratio of reduced over oxidised glutathione (GSH/GSSG, with lower values representing increased oxidative stress) and low-molecular-weight aminothiol and sulphide concentrations [ 30 ]. Whole-body lipid peroxidation was measured in serum using the thiobarbituric acid reactive substance (TBARS) assay [ 31 , 32 ], with 4-hydroxynonenal (4-HNE) protein adducts as complementary markers of lipid oxidation status [ 33 ]. Plasma antioxidant capacity was measured using the ferric reducing ability of plasma (FRAP) assay [ 34 ]. Nitrite, nitrate, and total nitroso species (RXNO) were assayed in EDTA plasma as biomarkers of nitric oxide (NO) production and metabolism, with cyclic guanosine monophosphate (cGMP) assessed as a marker of downstream NO signalling [ 35 ]. For the analytical methodology, see  Supplementary Section S3 .
+L35: 2.7. Statistical Analysis
+L36: The data are presented as median and inter-quartile range (IQR), or frequency ( n ) and percentage. Comparisons were made using the Mann–Whitney U test, Wilcoxon signed-rank test, or Chi-squared/Fisher’s exact test as appropriate. Assessments of correlation were made using Spearman’s rank correlation coefficient (r).  p  values < 0.05 were deemed statistically significant. Statistical analysis was conducted using IBM ® -SPSS ®  for windows (version 26.0 IBM Corp ® ., Armonk, NY, USA) and Graphpad Prism ®  (version 9.1 GraphPad Software, Boston, MA USA).
+L37: 3. Results
+L38: Fifteen IPF participants were enrolled and completed the baseline assessment, after which one patient withdrew due to an unrelated health condition ( Figure 1 ). The study was halted by the COVID-19 pandemic, precluding ongoing study participation for three patients. Prior to this, 11 patients completed the SRETP with good adherence, median 88% (min. 75%–max. 94%). There were no serious adverse events. Ten control participants were enrolled for CPET blood sampling taken during standard of care perioperative CPET (see  Supplementary Table S2  for indications).
+L39: 3.1. Baseline Demographics
+L40: IPF subjects were predominately male (87%) and had a median (IQR) FVC% predicted of 78% (73–88) and TLCO% predicted of 52% (41–66) ( Table 1 ). No significant differences existed for age (median; IPF 72.5 years vs. control 70.4 years  p  = 0.14), sex, or other demographics between the IPF and control participants ( Supplementary Table S3 ).
+L41: 3.2. Baseline CPET in Control and IPF Patients
+L42: Significant impairment in peak exercise capacity at baseline CPET was apparent in the IPF and control participants, with median predicted  V · O 2 peak percent of IPF 66.7% vs. control 64.9%  p  = 0.81 ( Supplementary Table S3 ).
+L43: The IPF patients exhibited an increased ratio of minute ventilation to volume of carbon dioxide production ( V · E / V · CO 2  slope) compared with the controls (indicating increased ventilatory inefficiency), with IPF 41.0 (36–55) vs. control 32.8 (31–36)  p  = 0.002. Exercise-induced desaturation was observed in patients with IPF but not in the controls, with S p O 2  at  V · O 2 peak IPF 93% (89–96) vs. Control 99% (98–99)  p  = 0.002.
+L44: 3.3. Systemic Redox Status in Control and IPF Patients at Baseline
+L45: The IPF participants had increased basal systemic oxidative stress compared with the controls, evidenced by a significantly lower GSH/GSSG ratio pre-CPET, with IPF 736 vs. control 1856  p  = 0.046 ( Figure 2 A). Total GSH levels increased significantly in the controls post-CPET (pre 2.40 μM vs. post 3.25 μM  p  = 0.007), whilst no change was observed in the IPF participants ( Figure 2 B). No significant differences in either the whole-body redox status assessed via the total free thiol concentrations or whole-body lipid oxidation status assessed via TBARS were observed between the IPF and control participants or from pre- to post-CPET in either group ( Figure 2 C,D). No significant differences in aminothiols, sulphide, 4-HNE, or FRAP concentrations were observed between the IPF and control participants, either pre- or post-CPET, except for the homocysteine levels, which dropped post-CPET in patients with IPF but not in the controls ( Supplementary Table S4 ).
+L46: CPET induced a non-significant increase in circulating nitrite concentrations in the controls (pre 0.84 μM vs. post 0.99 μM  p  = 0.155), whilst in the IPF patients, a trend towards a reduction in nitrite was observed post-CPET (pre 1.22 μM vs. post 0.98 μM  p  = 0.133) ( Figure 2 E). No significant differences in the nitrate ( Figure 2 F), RXNO ( Figure 2 G), or cGMP concentrations were observed between the control and IPF participants ( Supplementary Table S5  In the IPF participants, no significant difference was observed in the magnitude of changes in the nitrite or nitrate concentrations pre- to post-CPET when stratifying patients by S p O 2  at  V · O 2 peak (<92% vs. ≥92%) ).
+L47: 3.4. Physiological Outcomes following the SRETP in Patients with IPF
+L48: Following completion of the 8-week SRETP, the pre-specified primary outcome of the constant work-rate endurance time increased significantly with a median (IQR) improvement of +6.7 min (2.9–14.6),  p  = 0.003 ( Figure 3 A,B). The median percentage improvement was +82%, with nine participants improving their endurance time by ≥33%, the reported MCID for this variable [ 36 ].
+L49: The SRETP also led to significant improvements in FVC% predicted (median change +5%  p  = 0.02), peak work-rate (+8 Watts  p  = 0.01), and peak V̇ E  (+9 L·min −1 
+L50:  p  = 0.03) ( Figure 4 A–C). No significant changes in participants’  V · O 2 peak, AT, or  V · O 2  work-rate relationship (expressing the oxygen cost of exercise) were observed following the SRETP ( Figure 4 D–F,  Supplementary Section S4 ). Participants’ MRC score improved significantly with  n  = 5, reducing their score by one point ( p  = 0.03). No significant changes in body mass index,  V · E / V · CO 2  slope, S p O 2  at  V · O 2 peak, or HRQoL were observed following SRETP completion ( Table 2 ,  Supplementary Table S7 ).
+L51: 3.5. Effect of the SRETP on Systemic Redox Status
+L52: Following the 8-week SRETP, the plasma GSH/GSSG ratio did not change significantly ( Figure 5 A). However, the SRETP induced a significant increase in post-CPET total GSH concentration, median increase +0.73 μM  p  = 0.028 (+22% from baseline), with total GSH levels increasing significantly pre- to post-CPET at Week 9, with +0.31 μM  p  = 0.021, a response consistent with that observed at baseline in the controls ( Figure 5 B). Further to this, a significant increase in post-CPET total free thiol concentration was observed following the SRETP, with +0.26 μmol/g protein  p  = 0.005 (+33% from baseline) ( Figure 5 C).
+L53: These increases in post-exercise (CPET) antioxidant reserve capacity were accompanied by a reduction in exercise-induced oxidative stress. Although no significant changes in TBARS were observed post-CPET at baseline and Week 4 ( Figure 5 D), following SRETP completion (Week 9), TBARS concentration decreased significantly pre- to post-CPET, with −1.20 μM  p  = 0.016 (20% reduction). No significant changes in other aminothiol, sulphide, FRAP, or 4-HNE concentrations were observed following the SRETP ( Supplementary Table S8 ).
+L54: Following SRETP completion (Week 9), there was a statistically significant decrease in circulating nitrite concentrations pre- to post-CPET (−0.12 μM  p  = 0.013) ( Figure 5 E). Furthermore, at Week 9 post-CPET, nitrite levels were significantly lower compared to baseline (Week 0), median change −0.39 μM  p  = 0.037 (40% reduction). Nitrate concentrations did not change significantly following the SRETP ( Figure 5 F). Further, no significant changes in RXNO ( Figure 5 G) or cGMP concentrations were observed ( Supplementary Table S9 ). Stratifying IPF participants by S p O 2  at  V · O 2 peak revealed no significant between group difference in the magnitude of the pre- to post-CPET change in nitrite/nitrate concentrations ( Supplementary Table S10 and Figure S3 ).
+L55: 4. Discussion
+L56: We investigated the effect of an individualised aerobic interval training programme on functional capacity and redox status in patients with idiopathic pulmonary fibrosis (IPF). At baseline, IPF patients displayed evidence of increased pre- and post-exercise oxidative stress compared with age-, sex-, and functionally matched controls. The individualised structured responsive exercise training programme (SRETP) was safe and feasible in IPF patients and led to clinically meaningful improvement in endurance time as well as a significant increase in extracellular antioxidant buffering capacity. Our observation that the SRETP progressively potentiated the post-exercise fall in circulating nitrite concentration in IPF patients provides a mechanistic basis to propose that this patient group may benefit from nitrite/nitrate supplementation during exercise training [ 37 ].
+L57: The recruited control participants provided an appropriately age-, sex-, and functionally matched cohort for robust baseline redox biomarker comparison. Rather than being ‘healthy’ individuals, consistent with the controls representing a cohort of older adults, medical comorbidity was common and further not significantly different to that observed in the IPF group. No significant difference was identified in exercise capacity between participants in the IPF and control groups, an observation consistent with the control patients being prior identified as having subjectively assessed impaired physical fitness necessitating referral for cardiopulmonary exercise testing (CPET) prior to elective surgery. The exercise limitation in IPF participants was primarily due to ventilatory inefficiency and impaired gas exchange, whereas in the controls, it was predominately due to physical deconditioning and cardiovascular limitation.
+L58: Reduction and oxidation (redox) processes underpin the architecture of physiological function, and the ability of the body to buffer changes in local and global redox status is essential for the transition between health and disease, and thus resilience [ 38 , 39 ]. It is intrinsically linked to a person’s overall fitness and mitochondrial health, with high oxidative stress loads during exercise proposed to contribute to impaired muscle performance by promoting contractile dysfunction with resultant muscle weakness and fatigue [ 40 ]. As patients with IPF appear to have an unfavourable redox status at rest, they are potentially more vulnerable to an oxidative challenge during exercise than age/sex-matched controls [ 41 ]. Our finding of a reduced systemic ratio of free glutathione to glutathione disulfide (GSH/GSSG ratio) in IPF patients (an indicator of a shift in extracellular redox state towards oxidation [ 42 ]) compared with age-sex matched controls is consistent with the results of Muramatsu et al. [ 16 ] and other reports of increased systemic oxidant stress in IPF [ 15 , 17 , 18 ]. In the present study, we did not observe a significant increase in oxidative stress before (baseline) and immediately after exercise (pre–post CPET) in either the IPF patients or controls. Previous studies into the effect of acute exercise on redox balance in IPF are limited, with Jackson et al. identifying a significant increase in plasma isoprostanes and a reduction in plasma antioxidant capacity [ 19 ], whilst similar to our observations, Dowman et al. identified no significant change in oxidant stress assessed via thiobarbituric acid reactive substances (TBARS) [ 21 ].
+L59: To the best of our knowledge, the effects of a period of exercise training on extracellular redox status in patients with IPF has not previously been investigated. Although we did not observe a change in GSH/GSSG ratio following the SRETP, we identified an increased post-exercise systemic antioxidant buffering capacity using established and validated global assessments of whole-body redox status (increase in plasma total free thiols and total GSH and a reduction in lipid peroxidation products [TBARS]) [ 30 ]. The observation of increased antioxidant capacity after exercise training in this study is consistent with previous observations in studies of patients without significant respiratory disease [ 22 ], an effect in part thought to be mediated via the upregulation of antioxidant enzymes [ 43 ]. Plausibly, if it were shown to be sustained, this increase in extracellular antioxidant buffering capacity could have a prognostic benefit for patients with IPF where oxidative stress is proposed as a key pathway underlying IPF pathogenesis and disease progression [ 44 ].
+L60: We employed a SRETP with intervals of severe- and moderate-intensity exercise and identified that this approach led to clinically significant improvements in endurance time and peak work-rate. The lack of significant change in patients’ peak volume of oxygen consumption ( V · O 2 peak) or anaerobic threshold (AT) is consistent with the previously documented increased sensitivity of constant work-rate tests to therapeutic intervention [ 45 ], with improvement in constant work-rate test performance reflecting a change in patients’ ability to sustain submaximal aerobic exercise [ 46 ]. Improved submaximal exercise endurance may have a particular physiological benefit for patients with IPF, as it typically reflects the intensity range within which patients with chronic lung disease perform their everyday activities [ 47 ]. The improvement in systemic antioxidant capacity we observe identifies a potential mechanism through which muscular fatigue resistance and, consequently, critical power (an individual’s highest obtainable work rate whilst maintaining steady-state physiological conditions) could increase in participants to provide clinical benefit without significant change in aerobic and/or peak exercise capacity, although further investigation would be required to confirm this hypothesis.
+L61: We also observed a significant exercise-induced fall in circulating nitrite concentrations in IPF patients upon completion of the SRETP, suggestive of nitrite uptake and/or utilisation. In healthy subjects, transiently increased systemic nitrite concentration post-exercise has been reported by several groups, with the magnitude of this increase positively correlating with individual exercise capacity [ 48 , 49 ]. Traditionally, post-exercise systemic nitrite concentration is thought to represent primarily endogenous NO synthase (eNOS) stimulation in the endothelium of the microcirculation followed by oxidation of the produced NO to nitrite, and reduced bioavailability of endothelial NO is a hallmark of endothelial dysfunction [ 50 , 51 ]. NO produced during exercise acts via several mechanisms to enhance muscle performance including increasing muscle blood flow, improving sarcoplasmic Ca 2+  handling, and modulating mitochondrial respiratory chain function to improve energy supply/demand [ 52 , 53 ]. The exercise-induced reduction (as opposed to an increase) in circulating nitrite concentration we observed in IPF patients may reflect a compromised endothelial capacity to produce NO with a consequent negative impact on exercise performance. Consistent with this possibility, it has been proposed that there is systemic endothelial dysfunction in IPF patients compared to controls [ 54 , 55 ]. Both aging and senescence induced by telomere shortening have been proposed to induce endothelial dysfunction via oxidative stress [ 56 ], suggesting that in IPF patients, any SRETP-induced increase in antioxidant capacity could itself plausibly improve endothelial dysfunction. However, the progressive increase in concentration differences in circulating nitrite pre- to post-CPET throughout the exercise training programme cannot be explained by an existing endothelial dysfunction alone but suggests an increased capacity for utilisation.
+L62: An alternative source of nitrite arises from the biotransformation of dietary nitrate in the gastro-intestinal tract [ 57 ] and exercising skeletal muscle [ 58 ]. In healthy individuals, acute nitrate supplementation has been found to reduce the oxygen cost ( V · O 2 ) of performing incremental submaximal work on a cycle-ergometer [ 59 ]. This observation was contrary to the long-held view that the oxygen cost of performing a sub-maximal work rate is essentially fixed [ 60 ]. Although in the present study, there was no indication to suggest improvement in participants’ metabolic/energetic efficiency (based on calculated oxygen cost of exercise), our observation of an exercise-induced fall in nitrite concentration in IPF patients, an effect further potentiated by exercise training, merits further investigation and suggests that IPF patients may benefit from dietary nitrite/nitrate supplementation as an adjunct to exercise training.
+L63: This study has several limitations. The sample size is small (and not formally powered to assess positive effect), reflecting the intensive nature of the study, with each patient participating in multiple study visits, enabling investigation of the effect of exercise training on redox status in a comprehensively phenotyped group of patients. No detailed information about patients’ dietary intake and nutritional status has been recorded. A further limitation is the lack of a temporal IPF comparator group who did not undergo SRETP. This however, does not affect the robustness of any conclusions drawn on comparisons before and after direct physiological stress such as CPET. Since the time course of the study was relatively short (9 weeks) and patients were clinically stable for 3 months prior to enrolment, it is unlikely that any change in clinical status impacted our findings. Due to technical considerations of performing CPET, patients requiring oxygen therapy were excluded. Further work is required to translate this method of exercise prescription to this group of patients.
+L64: 5. Summary
+L65: In summary, we identified a shift in oxidative tone at baseline in patients with IPF compared with age- and sex-matched controls. We further demonstrated that an individually prescribed aerobic interval training programme is feasible in IPF patients and leads to clinically meaningful improvements in functional status and exercise capacity. Following exercise training, these changes were accompanied by a significant increase in whole-body antioxidant buffering capacity, an effect that may translate into increased resilience against muscle fatigue. We also identified that the exercise programme led to a progressive fall in post-exercise nitrite concentration, an observation suggestive of nitrite utilisation. This was an unexpected finding that provides a mechanistic basis to suggest IPF patients may gain clinical benefit from nitrite/nitrate supplementation during exercise training; this warrants further investigation.
+L66: Figure 1 Participant flow diagram. FEV1/FVC—ratio of forced expiratory volume in 1 s to forced vital capacity, LTOT/AOT—long-term oxygen therapy/ambulatory oxygen therapy, * Study recruitment and follow-up assessments of patients with IPF were terminated on 17 March 2020 due to the impact of the COVID-19 pandemic.
+L67: Figure 2 Redox biomarker concentrations at baseline pre- and post-cardiopulmonary exercise testing (CPET) in control vs. IPF participants. PRE-CPET (blue circles) and POST-CPET (red circles). ( A ) GSH/GSSG—ratio of reduced glutathione (GSH) over glutathione disulfide (GSSG)†; ( B ) total glutathione; ( C ) total free thiols (TFT)/protein—total free thiols corrected for protein concentration; ( D ) TBARS—thiobarbituric acid reactive substances; ( E ) nitrite; ( F ) nitrate; ( G ) RXNO (total nitroso species). Control PRE  n  = 10, Control POST  n  = 10, IPF PRE  n  = 15 IPF POST  n  = 14. Error bars median ± interquartile range *  p  < 0.05, **  p  < 0.01. † Control PRE: GSH/GSSG  n  = 9. IPF PRE: GSH/GSSG  n  = 14 and RXNO  n  = 14. Control POST: GSH/GSSG and RXNO  n  = 9. IPF POST: GSH/GSSG and RXNO  n  = 13.
+L68: Figure 3 Primary outcome (endurance time) at baseline and Week 9 for IPF patients completing the structured responsive exercise training programme (SRETP). Endurance time (minutes) at baseline and Week 9 on constant work-rate test at 75% of work rate at peak volume of oxygen consumption ( V · O 2 peak) for IPF patients completing the exercise programme ( n  = 11). ( A ) Individual dot plot with error bars—median ± interquartile range. ( B ) Line graph of individual patient responses. **  p  < 0.01.
+L69: Figure 4 Secondary clinical outcomes for IPF participants completing the structured responsive exercise training programme (SRETP). ( A ) Peak work rate (Watts), ( B ) predicted forced vital capacity percent (FVC% predicted), ( C ) peak minute ventilation (peak  V · E, L·min⁻ 1 ), ( D ) peak volume of oxygen consumption ( V · O 2 peak, mL·kg⁻ 1 ·min⁻ 1 ), ( E ) anaerobic threshold (AT, mL·kg⁻ 1 ·min⁻ 1 ) ( F ) relationship between oxygen uptake and work rate to anaerobic threshold (AT) ( V · O 2 /WR to AT)  n  = 11. Error bars - median ± interquartile range.*  p  < 0.05. Note  n  = 10 AT and  V · O2/WR to AT.
+L70: Figure 5 Redox biomarker concentrations pre- and post-cardiopulmonary exercise test (CPET) for IPF patients completing the structured responsive exercise training programme (SRETP). Baseline (orange circles), Week 4 (purple circles), and Week 9 (green circles). ( A ) GSH/GSSG ratio of reduced glutathione (GSH) over glutathione disulfide (GSSG), ( B ) total glutathione, ( C ) total free thiols (TFT)/protein—total free thiols corrected for protein concentration, ( D ) TBARS—thiobarbituric acid reactive substances, ( E ) nitrite, ( F ) nitrate ( G ) RXNO (total nitroso species). Baseline PRE  n  = 11, baseline POST  n  = 10, Week 4 PRE  n  = 8, Week 4 POST  n  = 8, Week 9 PRE  n  = 11, Week 9 POST  n  = 11†. Error bars median ± interquartile range *  p  < 0.05, **  p  < 0.01. † Baseline PRE: GSH/GSSH ratio and RXNO  n  = 10. Baseline POST: GSH/GSSG and RXNO  n  = 9. Week 4 PRE: GSH/GSSG  n  = 5, total glutathione  n  = 6, nitrite and nitrate  n  = 7, RXNO  n  = 6. Week 4 POST: GSH/GSSG  n  = 6, TBARS, TFT/protein and RXNO  n  = 7. Week 9 PRE: GSH/GSSG  n  = 9 and RXNO  n  = 10. Week 9 POST: GSH/GSSG  n  = 9 and RXNO  n  = 10.
+L71: Click here for additional data file.
+L72: 1. Richeldi L. 
+L73:  Collard H.R. 
+L74:  Jones M.G. 
+L75:  Idiopathic pulmonary fibrosis Lancet 2017 389 1941 1952 10.1016/S0140-6736(17)30866-8 28365056
+L76: 2. Jo H.E. 
+L77:  Glaspole I. 
+L78:  Grainge C. 
+L79:  Goh N. 
+L80:  Hopkins P.M. 
+L81:  Moodley Y. 
+L82:  Reynolds P.N. 
+L83:  Chapman S. 
+L84:  Walters E.H. 
+L85:  Zappala C. 
+L86:  
+L87:  Baseline characteristics of idiopathic pulmonary fibrosis: Analysis from the Australian Idiopathic Pulmonary Fibrosis Registry Eur. Respir. J. 2017 49 1601592 10.1183/13993003.01592-2016 28232409
+L88: 3. Fernández-Fabrellas E. 
+L89:  Molina-Molina M. 
+L90:  Soriano J.B. 
+L91:  Portal J.A.R. 
+L92:  Ancochea J. 
+L93:  Valenzuela C. 
+L94:  Xaubet A. 
+L95:  Aburto Barrenetxea M. 
+L96:  Alfageme Michavila I. 
+L97:  Bollo de Miguel E. 
+L98:  
+L99:  Demographic and clinical profile of idiopathic pulmonary fibrosis patients in Spain: The SEPAR National Registry Respir. Res. 2019 20 127 10.1186/s12931-019-1084-0 31208406
+L100: 4. Swigris J.J. 
+L101:  Kuschner W.G. 
+L102:  Jacobs S.S. 
+L103:  Wilson S.R. 
+L104:  Gould M.K. 
+L105:  Health-related quality of life in patients with idiopathic pulmonary fibrosis: A systematic review Thorax 2005 60 588 594 10.1136/thx.2004.035220 15994268
+L106: 5. Nathan S.D. 
+L107:  Shlobin O.A. 
+L108:  Weir N. 
+L109:  Ahmad S. 
+L110:  Kaldjob J.M. 
+L111:  Battle E. 
+L112:  Sheridan M.J. 
+L113:  du Bois R.M. 
+L114:  Long-term Course and Prognosis of Idiopathic Pulmonary Fibrosis in the New Millennium Chest 2011 140 221 229 10.1378/chest.10-2572 21729893
+L115: 6. Banach M. 
+L116:  Lewek J. 
+L117:  Surma S. 
+L118:  Penson P.E. 
+L119:  Sahebkar A. 
+L120:  Martin S.S. 
+L121:  Bajraktari G. 
+L122:  Henein M.Y. 
+L123:  Reiner Ž. 
+L124:  Bielecka-Dąbrowa A. 
+L125:  
+L126:  The association between daily step count and all-cause and cardiovascular mortality: A meta-analysis Eur. J. Prev. Cardiol. 2023 zwad229 
+L127:  Epub ahead of print 
+L128:  10.1093/eurjpc/zwad229 37555441
+L129: 7. Olson A.L. 
+L130:  Swigris J.J. 
+L131:  Belkin A. 
+L132:  Hannen L. 
+L133:  Yagihashi K. 
+L134:  Schenkman M. 
+L135:  Brown K.K. 
+L136:  Physical functional capacity in idiopathic pulmonary fibrosis: Performance characteristics of the continuous-scale physical function performance test Expert Rev. Respir. Med. 2015 9 361 367 10.1586/17476348.2015.1030396 25843290
+L137: 8. Wallaert B. 
+L138:  Monge E. 
+L139:  Le Rouzic O. 
+L140:  Wémeau-Stervinou L. 
+L141:  Salleron J. 
+L142:  Grosbois J.-M. 
+L143:  Physical Activity in Daily Life of Patients With Fibrotic Idiopathic Interstitial Pneumonia Chest 2013 144 1652 1658 10.1378/chest.13-0806 23928896
+L144: 9. Chang J.A. 
+L145:  Curtis J.R. 
+L146:  Patrick D.L. 
+L147:  Raghu G. 
+L148:  Assessment of health-related quality of life in patients with interstitial lung disease Chest 1999 116 1175 1182 10.1378/chest.116.5.1175 10559073
+L149: 10. du Bois R.M. 
+L150:  Albera C. 
+L151:  Bradford W.Z. 
+L152:  Costabel U. 
+L153:  Leff J.A. 
+L154:  Noble P.W. 
+L155:  Sahn S.A. 
+L156:  Valeyre D. 
+L157:  Weycker D. 
+L158:  King T.E. Jr. 
+L159:  6-Minute walk distance is an independent predictor of mortality in patients with idiopathic pulmonary fibrosis Eur. Respir. J. 2014 43 1421 1429 10.1183/09031936.00131813 24311766
+L160: 11. Bolton C.E. 
+L161:  Blakey J.D. 
+L162:  Morgan M.D. 
+L163:  The British Thoracic Society guideline on pulmonary rehabilitation in adults: Your opinion is noted Thorax 2014 69 388 389 10.1136/thoraxjnl-2013-204754 24430178
+L164: 12. Dowman L. 
+L165:  Hill C.J. 
+L166:  May A. 
+L167:  Holland A.E. 
+L168:  Pulmonary rehabilitation for interstitial lung disease Cochrane Database Syst. Rev. 2021 2 Cd006322 10.1002/14651858.CD006322.pub3 34559419
+L169: 13. Dowman L.M. 
+L170:  McDonald C.F. 
+L171:  Hill C.J. 
+L172:  Lee A.L. 
+L173:  Barker K. 
+L174:  Boote C. 
+L175:  Glaspole I. 
+L176:  Goh N.S. 
+L177:  Southcott A.M. 
+L178:  Burge A.T. 
+L179:  
+L180:  The evidence of benefits of exercise training in interstitial lung disease: A randomised controlled trial Thorax 2017 72 610 619 10.1136/thoraxjnl-2016-208638 28213592
+L181: 14. Dowman L. 
+L182:  McDonald C. 
+L183:  Hill C. 
+L184:  Lee A. 
+L185:  Burge A. 
+L186:  Holland A.E. 
+L187:  Achieving the minimal important difference following exercise in ILD TSANZ Oral Present Respirol. 2018 23 21 103
+L188: 15. Rahman I. 
+L189:  Skwarska E. 
+L190:  Henry M. 
+L191:  Davis M. 
+L192:  O’Connor C.M. 
+L193:  FitzGerald M.X. 
+L194:  Greening A. 
+L195:  MacNee W. 
+L196:  Systemic and pulmonary oxidative stress in idiopathic pulmonary fibrosis Free Radic. Biol. Med. 1999 27 60 68 10.1016/S0891-5849(99)00035-0 10443920
+L197: 16. Muramatsu Y. 
+L198:  Sugino K. 
+L199:  Ishida F. 
+L200:  Tatebe J. 
+L201:  Morita T. 
+L202:  Homma S. 
+L203:  Effect of inhaled N-acetylcysteine monotherapy on lung function and redox balance in idiopathic pulmonary fibrosis Respir. Investig. 2016 54 170 178 10.1016/j.resinv.2015.11.004 27108012
+L204: 17. Daniil Z.D. 
+L205:  Papageorgiou E. 
+L206:  Koutsokera A. 
+L207:  Kostikas K. 
+L208:  Kiropoulos T. 
+L209:  Papaioannou A.I. 
+L210:  Gourgoulianis K.I. 
+L211:  Serum levels of oxidative stress as a marker of disease severity in idiopathic pulmonary fibrosis Pulm. Pharmacol. Ther. 2008 21 26 31 10.1016/j.pupt.2006.10.005 17161968
+L212: 18. Matsuzawa Y. 
+L213:  Kawashima T. 
+L214:  Kuwabara R. 
+L215:  Hayakawa S. 
+L216:  Irie T. 
+L217:  Yoshida T. 
+L218:  Rikitake H. 
+L219:  Wakabayashi T. 
+L220:  Okada N. 
+L221:  Kawashima K. 
+L222:  
+L223:  Change in serum marker of oxidative stress in the progression of idiopathic pulmonary fibrosis Pulm. Pharmacol. Ther. 2015 32 1 6 10.1016/j.pupt.2015.03.005 25862941
+L224: 19. Jackson R. 
+L225:  Ramos C. 
+L226:  Gupta C. 
+L227:  Gomez-Marin O. 
+L228:  Exercise decreases plasma antioxidant capacity and increases urinary isoprostanes of IPF patients Respir. Med. 2010 104 1919 1928 10.1016/j.rmed.2010.07.021 20739168
+L229: 20. Jackson R.M. 
+L230:  Gomez-Marin O.W. 
+L231:  Ramos C.F. 
+L232:  Sol C.M. 
+L233:  Cohen M.I. 
+L234:  Gaunaurd I.A. 
+L235:  Cahalin L.P. 
+L236:  Cardenas D.D. 
+L237:  Exercise limitation in IPF patients: A randomized trial of pulmonary rehabilitation Lung 2014 192 367 376 10.1007/s00408-014-9566-9 24705678
+L238: 21. Dowman L.M. 
+L239:  McDonald C.F. 
+L240:  Bozinovski S. 
+L241:  Vlahos R. 
+L242:  Gillies R. 
+L243:  Pouniotis D. 
+L244:  Hill C.J. 
+L245:  Goh N.S.L. 
+L246:  Holland A.E. 
+L247:  Greater endurance capacity and improved dyspnoea with acute oxygen supplementation in idiopathic pulmonary fibrosis patients without resting hypoxaemia Respirology 2017 22 957 964 10.1111/resp.13002 28225205
+L248: 22. de Sousa C.V. 
+L249:  Sales M.M. 
+L250:  Rosa T.S. 
+L251:  Lewis J.E. 
+L252:  de Andrade R.V. 
+L253:  Simões H.G. 
+L254:  The Antioxidant Effect of Exercise: A Systematic Review and Meta-Analysis Sports Med. 2017 47 277 293 10.1007/s40279-016-0566-1 27260682
+L255: 23. Wasfy M.M. 
+L256:  Baggish A.L. 
+L257:  Exercise Dose in Clinical Practice Circulation 2016 133 2297 2313 10.1161/CIRCULATIONAHA.116.018093 27267537
+L258: 24. Loughney L. 
+L259:  West M.A. 
+L260:  Moyses H. 
+L261:  Bates A. 
+L262:  Kemp G.J. 
+L263:  Hawkins L. 
+L264:  Varkonyi-Sepp J. 
+L265:  Burke S. 
+L266:  Barben C.P. 
+L267:  Calverley P.M. 
+L268:  
+L269:  The effects of neoadjuvant chemoradiotherapy and an in-hospital exercise training programme on physical fitness and quality of life in locally advanced rectal cancer patients: A randomised controlled trial (The EMPOWER Trial) Perioper. Med. 2021 10 23 10.1186/s13741-021-00190-8
+L270: 25. West M.A. 
+L271:  Loughney L. 
+L272:  Lythgoe D. 
+L273:  Barben C.P. 
+L274:  Sripadam R. 
+L275:  Kemp G.J. 
+L276:  Grocott M.P. 
+L277:  Jack S. 
+L278:  Effect of prehabilitation on objectively measured physical fitness after neoadjuvant treatment in preoperative rectal cancer patients: A blinded interventional pilot study Br. J. Anaesth. 2015 114 244 251 10.1093/bja/aeu318 25274049
+L279: 26. Freeman A. 
+L280:  Cellura D. 
+L281:  Minnion M. 
+L282:  Fernandez B.O. 
+L283:  Spalluto C.M. 
+L284:  Levett D. 
+L285:  Bates A. 
+L286:  Wallis T. 
+L287:  Watson A. 
+L288:  Jack S. 
+L289:  
+L290:  Exercise Training Induces a Shift in Extracellular Redox Status with Alterations in the Pulmonary and Systemic Redox Landscape in Asthma Antioxidants 2021 10 1926 10.3390/antiox10121926 34943027
+L291: 27. Raghu G. 
+L292:  Remy-Jardin M. 
+L293:  Myers J.L. 
+L294:  Richeldi L. 
+L295:  Ryerson C.J. 
+L296:  Lederer D.J. 
+L297:  Behr J. 
+L298:  Cottin V. 
+L299:  Danoff S.K. 
+L300:  Morell F. 
+L301:  
+L302:  Diagnosis of Idiopathic Pulmonary Fibrosis. An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline Am. J. Respir. Crit. Care Med. 2018 198 e44 e68 10.1164/rccm.201807-1255ST 30168753
+L303: 28. Slade S.C. 
+L304:  Dionne C.E. 
+L305:  Underwood M. 
+L306:  Buchbinder R. 
+L307:  Consensus on Exercise Reporting Template (CERT): Explanation and Elaboration Statement Br. J. Sports Med. 2016 50 1428 1437 10.1136/bjsports-2016-096651 27707738
+L308: 29. Koning A.M. 
+L309:  Meijers W.C. 
+L310:  Pasch A. 
+L311:  Leuvenink H.G.D. 
+L312:  Frenay A.S. 
+L313:  Dekker M.M. 
+L314:  Feelisch M. 
+L315:  de Boer R.A. 
+L316:  van Goor H. 
+L317:  Serum free thiols in chronic heart failure Pharmacol. Res. 2016 111 452 458 10.1016/j.phrs.2016.06.027 27378569
+L318: 30. Sutton T.R. 
+L319:  Minnion M. 
+L320:  Barbarino F. 
+L321:  Koster G. 
+L322:  Fernandez B.O. 
+L323:  Cumpstey A.F. 
+L324:  Wischmann P. 
+L325:  Madhani M. 
+L326:  Frenneaux M.P. 
+L327:  Postle A.D. 
+L328:  
+L329:  A robust and versatile mass spectrometry platform for comprehensive assessment of the thiol redox metabolome Redox Biol. 2018 16 359 380 10.1016/j.redox.2018.02.012 29627744
+L330: 31. Tsikas D. 
+L331:  Assessment of lipid peroxidation by measuring malondialdehyde (MDA) and relatives in biological samples: Analytical and biological challenges Anal. Biochem. 2017 524 13 30 10.1016/j.ab.2016.10.021 27789233
+L332: 32. Aguilar Diaz De Leon J. 
+L333:  Borges C.R. 
+L334:  Evaluation of Oxidative Stress in Biological Samples Using the Thiobarbituric Acid Reactive Substances Assay J. Vis. Exp. 2020 159 e61122 10.3791/61122
+L335: 33. Zhong H. 
+L336:  Yin H. 
+L337:  Role of lipid peroxidation derived 4-hydroxynonenal (4-HNE) in cancer: Focusing on mitochondria Redox Biol. 2015 4 193 199 10.1016/j.redox.2014.12.011 25598486
+L338: 34. Benzie I.F. 
+L339:  Strain J.J. 
+L340:  The ferric reducing ability of plasma (FRAP) as a measure of “antioxidant power”: The FRAP assay Anal. Biochem. 1996 239 70 76 10.1006/abio.1996.0292 8660627
+L341: 35. Denninger J.W. 
+L342:  Marletta M.A. 
+L343:  Guanylate cyclase and the ⋅NO/cGMP signaling pathway Biochim. Biophys. Acta (BBA) Bioenerg. 1999 1411 334 350 10.1016/S0005-2728(99)00024-9
+L344: 36. Puente-Maestu L. 
+L345:  Villar F. 
+L346:  de Miguel J. 
+L347:  Stringer W.W. 
+L348:  Sanz P. 
+L349:  Sanz M.L. 
+L350:  García de Pedro J. 
+L351:  Martínez-Abad Y. 
+L352:  Clinical relevance of constant power exercise duration changes in COPD Eur. Respir. J. 2009 34 340 345 10.1183/09031936.00078308 19251787
+L353: 37. Jones A.M. 
+L354:  Dietary nitrate supplementation and exercise performance Sports Med. 2014 44 (Suppl. S1) S35 S45 10.1007/s40279-014-0149-y 24791915
+L355: 38. Santolini J. 
+L356:  Wootton S.A. 
+L357:  Jackson A.A. 
+L358:  Feelisch M. 
+L359:  The Redox architecture of physiological function Curr. Opin. Physiol. 2019 9 34 47 10.1016/j.cophys.2019.04.009 31417975
+L360: 39. Feelisch M. 
+L361:  Cortese-Krott M.M. 
+L362:  Santolini J. 
+L363:  Wootton S.A. 
+L364:  Jackson A.A. 
+L365:  Systems redox biology in health and disease EXCLI J. 2022 21 623 646 10.17179/excli2022-4793 35721574
+L366: 40. Powers S.K. 
+L367:  Jackson M.J. 
+L368:  Exercise-induced oxidative stress: Cellular mechanisms and impact on muscle force production Physiol. Rev. 2008 88 1243 1276 10.1152/physrev.00031.2007 18923182
+L369: 41. Cortese-Krott M.M. 
+L370:  Koning A. 
+L371:  Kuhnle G.G.C. 
+L372:  Nagy P. 
+L373:  Bianco C.L. 
+L374:  Pasch A. 
+L375:  Wink D.A. 
+L376:  Fukuto J.M. 
+L377:  Jackson A.A. 
+L378:  van Goor H. 
+L379:  
+L380:  The Reactive Species Interactome: Evolutionary Emergence, Biological Significance, and Opportunities for Redox Metabolomics and Personalized Medicine Antioxid. Redox Signal. 2017 27 684 712 10.1089/ars.2017.7083 28398072
+L381: 42. Jones D.P. 
+L382:  [11] Redox potential of GSH/GSSG couple: Assay and biological significance Methods in Enzymology 
+L383:  Sies H. 
+L384:  Packer L. 
+L385:  Academic Press Cambridge, MA, USA 2002 Volume 348 93 112
+L386: 43. Done A.J. 
+L387:  Traustadóttir T. 
+L388:  Nrf2 mediates redox adaptations to exercise Redox Biol. 2016 10 191 199 10.1016/j.redox.2016.10.003 27770706
+L389: 44. Estornut C. 
+L390:  Milara J. 
+L391:  Bayarri M.A. 
+L392:  Belhadj N. 
+L393:  Cortijo J. 
+L394:  Targeting Oxidative Stress as a Therapeutic Approach for Idiopathic Pulmonary Fibrosis Front. Pharmacol. 2022 12 794997 10.3389/fphar.2021.794997 35126133
+L395: 45. Arizono S. 
+L396:  Taniguchi H. 
+L397:  Sakamoto K. 
+L398:  Kondoh Y. 
+L399:  Kimura T. 
+L400:  Kataoka K. 
+L401:  Ogawa T. 
+L402:  Watanabe F. 
+L403:  Nishiyama O. 
+L404:  Nishimura K. 
+L405:  
+L406:  Endurance time is the most responsive exercise measurement in idiopathic pulmonary fibrosis Respir. Care 2014 59 1108 1115 10.4187/respcare.02674 24327743
+L407: 46. Poole D.C. 
+L408:  Burnley M. 
+L409:  Vanhatalo A. 
+L410:  Rossiter H.B. 
+L411:  Jones A.M. 
+L412:  Critical Power: An Important Fatigue Threshold in Exercise Physiology Med. Sci. Sports Exerc. 2016 48 2320 2334 10.1249/MSS.0000000000000939 27031742
+L413: 47. Casaburi R. 
+L414:  Merrill D.D. 
+L415:  Harding G. 
+L416:  Leidy N.K. 
+L417:  Rossiter H.B. 
+L418:  Tal-Singer R. 
+L419:  Hamilton A. 
+L420:  A Conceptual Framework for Use of Increased Endurance Time During Constant Work Rate Cycle Ergometry as a Patient-Focused Meaningful Outcome in COPD Clinical Trials Chronic Obstr. Pulm. Dis. 2022 9 252 265 10.15326/jcopdf.2021.0258 35018752
+L421: 48. Rassaf T. 
+L422:  Lauer T. 
+L423:  Heiss C. 
+L424:  Balzer J. 
+L425:  Mangold S. 
+L426:  Leyendecker T. 
+L427:  Rottler J. 
+L428:  Drexhage C. 
+L429:  Meyer C. 
+L430:  Kelm M. 
+L431:  Nitric oxide synthase-derived plasma nitrite predicts exercise capacity Br. J. Sports Med. 2007 41 669 673 10.1136/bjsm.2007.035758 17496072
+L432: 49. Allen J.D. 
+L433:  Miller E.M. 
+L434:  Schwark E. 
+L435:  Robbins J.L. 
+L436:  Duscha B.D. 
+L437:  Annex B.H. 
+L438:  Plasma nitrite response and arterial reactivity differentiate vascular health and performance Nitric Oxide 2009 20 231 237 10.1016/j.niox.2009.01.002 19371597
+L439: 50. Gimbrone M.A. Jr. 
+L440:  García-Cardeña G. 
+L441:  Endothelial Cell Dysfunction and the Pathobiology of Atherosclerosis Circ. Res. 2016 118 620 636 10.1161/CIRCRESAHA.115.306301 26892962
+L442: 51. Kleinbongard P. 
+L443:  Dejam A. 
+L444:  Lauer T. 
+L445:  Jax T. 
+L446:  Kerber S. 
+L447:  Gharini P. 
+L448:  Balzer J. 
+L449:  Zotz R.B. 
+L450:  Scharf R.E. 
+L451:  Willers R. 
+L452:  
+L453:  Plasma nitrite concentrations reflect the degree of endothelial dysfunction in humans Free Radic. Biol. Med. 2006 40 295 302 10.1016/j.freeradbiomed.2005.08.025 16413411
+L454: 52. Stamler J.S. 
+L455:  Meissner G. 
+L456:  Physiology of nitric oxide in skeletal muscle Physiol. Rev. 2001 81 209 237 10.1152/physrev.2001.81.1.209 11152758
+L457: 53. Umbrello M. 
+L458:  Dyson A. 
+L459:  Feelisch M. 
+L460:  Singer M. 
+L461:  The key role of nitric oxide in hypoxia: Hypoxic vasodilation and energy supply-demand matching Antioxid. Redox Signal. 2013 19 1690 1710 10.1089/ars.2012.4979 23311950
+L462: 54. Elshazly M. 
+L463:  Hosny H. 
+L464:  Abdel-Hafiz H. 
+L465:  Zakaria A. 
+L466:  Elkaffas K. 
+L467:  Okasha N. 
+L468:  Assessment of endothelial dysfunction in idiopathic pulmonary fibrosis Egypt. J. Chest Dis. Tuberc. 2013 62 589 592 10.1016/j.ejcdt.2013.08.016
+L469: 55. Avdeev S. 
+L470:  Makarova M. 
+L471:  Chuchalin A. 
+L472:  Arterial stiffness and endothelial dysfunction in idiopathic pulmonary fibrosis (IPF) Eur. Respir. J. 2011 38 (Suppl. S55) 647
+L473: 56. Bhayadia R. 
+L474:  Schmidt B.M.W. 
+L475:  Melk A. 
+L476:  Hömme M. 
+L477:  Senescence-Induced Oxidative Stress Causes Endothelial Dysfunction J. Gerontol. Ser. A 2016 71 161 169 10.1093/gerona/glv008
+L478: 57. Tiso M. 
+L479:  Schechter A.N. 
+L480:  Nitrate reduction to nitrite, nitric oxide and ammonia by gut bacteria under physiological conditions PLoS ONE 2015 10 e0119712 10.1371/journal.pone.0119712 25803049
+L481: 58. Srihirun S. 
+L482:  Park J.W. 
+L483:  Teng R. 
+L484:  Sawaengdee W. 
+L485:  Piknova B. 
+L486:  Schechter A.N. 
+L487:  Nitrate uptake and metabolism in human skeletal muscle cell cultures Nitric Oxide 2020 94 1 8 10.1016/j.niox.2019.10.005 31604144
+L488: 59. Larsen F.J. 
+L489:  Weitzberg E. 
+L490:  Lundberg J.O. 
+L491:  Ekblom B. 
+L492:  Effects of dietary nitrate on oxygen cost during exercise Acta Physiol. 2007 191 59 66 10.1111/j.1748-1716.2007.01713.x
+L493: 60. Wasserman K. 
+L494:  Hansen J. 
+L495:  Sue D.Y. 
+L496:  Stringer W. 
+L497:  Sietsema K. 
+L498:  Sun X.-G. 
+L499:  Whipp B.J. 
+L500:  Principles of Exercise Testing and Interpretation: Including Pathophysiology and Clinical Applications 5th ed. Lippincott Williams and Wilkins Philadelphia, PA, USA 2011
+L501: 61. Levett D.Z.H. 
+L502:  Jack S. 
+L503:  Swart M. 
+L504:  Carlisle J. 
+L505:  Wilson J. 
+L506:  Snowden C. 
+L507:  Riley M. 
+L508:  Danjoux G. 
+L509:  Ward S.A. 
+L510:  Older P. 
+L511:  
+L512:  Perioperative cardiopulmonary exercise testing (CPET): Consensus clinical guidelines on indications, organization, conduct, and physiological interpretation Br. J. Anaesth. 2018 120 484 500 10.1016/j.bja.2017.10.020 29452805
+L513: 62. American Thoracic Society 
+L514:  American College of Chest Physicans 
+L515:  ATS/ACCP Statement on cardiopulmonary exercise testing Am. J. Respir. Crit. Care Med. 2003 167 211 277 10.1164/rccm.167.2.211 12524257
+L516: 63. Quanjer P.H. 
+L517:  Stanojevic S. 
+L518:  Cole T.J. 
+L519:  Baur X. 
+L520:  Hall G.L. 
+L521:  Culver B.H. 
+L522:  Enright P.L. 
+L523:  Hankinson J.L. 
+L524:  Ip M.S. 
+L525:  Zheng J. 
+L526:  
+L527:  Multi-ethnic reference values for spirometry for the 3-95-yr age range: The global lung function 2012 equations Eur. Respir. J. 2012 40 1324 1343 10.1183/09031936.00080312 22743675
+L528: 64. Graham B.L. 
+L529:  Steenbruggen I. 
+L530:  Miller M.R. 
+L531:  Barjaktarevic I.Z. 
+L532:  Cooper B.G. 
+L533:  Hall G.L. 
+L534:  Hallstrand T.S. 
+L535:  Kaminsky D.A. 
+L536:  McCarthy K. 
+L537:  McCormack M.C. 
+L538:  
+L539:  Standardization of Spirometry 2019 Update. An Official American Thoracic Society and European Respiratory Society Technical Statement Am. J. Respir. Crit. Care Med. 2019 200 e70 e88 10.1164/rccm.201908-1590ST 31613151
+L540: 65. Graham B.L. 
+L541:  Brusasco V. 
+L542:  Burgos F. 
+L543:  Cooper B.G. 
+L544:  Jensen R. 
+L545:  Kendrick A. 
+L546:  MacIntyre N.R. 
+L547:  Thompson B.R. 
+L548:  Wanger J. 
+L549:  2017 ERS/ATS standards for single-breath carbon monoxide uptake in the lung Eur. Respir. J. 2017 49 1600016 10.1183/13993003.00016-2016 28049168
+L550: 66. Stenton C. 
+L551:  The MRC breathlessness scale Occup. Med. 2008 58 226 227 10.1093/occmed/kqm162
+L552: 67. Yorke J. 
+L553:  Jones P.W. 
+L554:  Swigris J.J. 
+L555:  Development and validity testing of an IPF-specific version of the St George′s Respiratory Questionnaire Thorax 2010 65 921 926 10.1136/thx.2010.139121 20861296
+L556: 68. Ellis R. 
+L557:  The use of N-ethylmaleimide in stabilizing and measuring inorganic sulphur compounds Biochem. J. 1968 110 43P 10.1042/bj1100043P
+L558: 69. Rassaf T. 
+L559:  Bryan N.S. 
+L560:  Kelm M. 
+L561:  Feelisch M. 
+L562:  Concomitant presence of N-nitroso and S-nitroso proteins in human plasma Free Radic. Biol. Med. 2002 33 1590 1596 10.1016/S0891-5849(02)01183-8 12446216
+L563: 70. Feelisch M. 
+L564:  Rassaf T. 
+L565:  Mnaimneh S. 
+L566:  Singh N. 
+L567:  Bryan N.S. 
+L568:  Jourd′Heuil D. 
+L569:  Kelm M. 
+L570:  Concomitant S-, N-, and heme-nitros(yl)ation in biological tissues and fluids: Implications for the fate of NO in vivo Faseb J. 2002 16 1775 1785 10.1096/fj.02-0363com 12409320
+L571: 71. Hansen J.E. 
+L572:  Sue D.Y. 
+L573:  Oren A. 
+L574:  Wasserman K. 
+L575:  Relation of oxygen uptake to work rate in normal men and men with circulatory disorders Am. J. Cardiol. 1987 59 669 674 10.1016/0002-9149(87)91190-8 3825911
+L576: 72. Mitchell S.H. 
+L577:  Steele N.P. 
+L578:  Leclerc K.M. 
+L579:  Sullivan M. 
+L580:  Levy W.C. 
+L581:  Oxygen Cost of Exercise Is Increased in Heart Failure After Accounting for Recovery Costs Chest 2003 124 572 579 10.1378/chest.124.2.572 12907545
+L582: Acknowledgments
+L583: The authors thank the NIHR Southampton Respiratory and Critical Care Biomedical Research Centre and the NIHR and Wellcome Trust Southampton Clinical Research Facility for support and access to equipment. They thank Helen Moyses, NIHR Southampton Respiratory and Critical Care Biomedical Research Centre medical statistician, for her input in designing the statistical analysis plan. They also thank the participants for their contribution to the study.
+L584: # **Supplementary Materials** **Individualised Exercise Training Enhances Antioxidant** **Buffering Capacity in Idiopathic Pulmonary Fibrosis**
+L585: **Tim J. M. Wallis** **[1,2,]** ***, Magdalena Minnion** **[1,2]** **, Anna Freeman** **[1,2]** **, Andrew Bates** **[1,2,3]** **, James M. Otto** **[1,2,3]** **,**
+L586: **Stephen A. Wootton** **[2,4]** **, Sophie V. Fletcher** **[1,2]** **, Michael P. W. Grocott** **[1,2,3]** **, Martin Feelisch** **[1,2,†]** **, Mark G. Jones** **[1,2,5,†]**
+L587: **and Sandy Jack** **[1,2,3,† ]**
+L588: 1 NIHR Southampton Biomedical Research Centre, Respiratory and Critical Care, University Hospital
+L589: Southampton, Southampton SO16 6YD, UK; m.minnion@soton.ac.uk (M.M.); a.freeman@soton.ac.uk
+L590: (A.F.); a.bates@soton.ac.uk (A.B.); james.otto@uhs.nhs.uk (J.O.); sophie.fletcher@uhs.nhs.uk (S.V.F.);
+L591: mike.grocott@soton.ac.uk (M.P.W.G.); m.feelisch@soton.ac.uk (M.F.); mark.jones@soton.ac.uk (M.G.J.);
+L592: s.jack@soton.ac.uk (S.J.)
+L593: 2 Academic School of Clinical and Experimental Sciences, Faculty of Medicine, University of
+L594: Southampton, Southampton SO17 1BJ, UK; s.a.wootton@soton.ac.uk
+L595: 3 Department of Critical Care and Anaesthesia, University Hospital Southampton,
+L596: Southampton SO16 6YD, UK
+L597: 4 NIHR Southampton Biomedical Research Centre, Nutrition and Metabolism, University Hospital
+L598: Southampton, Southampton SO16 6YD, UK
+L599: 5 Institute for Life Sciences, University of Southampton, Southampton SO17 1BJ, UK
+L600: ***** Correspondence: tim.wallis@uhs.nhs.uk
+L601:                   - These authors contributed equally to this work.
+L602: 1
+L603: ## Supplemental File Contents
+L604: **1: Clinical outcome protocols** ...................................................................................................................................... 3
+L605: **1.1** **Incremental Cardiopulmonary Exercise test (CPET)** ................................................................................... 3
+L606: **1.2** **Constant work-rate exercise test (CWRT)** ................................................................................................... 3
+L607: **1.3** **Spirometry and Gas transfer assessment** ................................................................................................... 3
+L608: **1.4** **Medical Research breathlessness scale** ...................................................................................................... 3
+L609: **1.5** **St. George’s respiratory questionnaire** ....................................................................................................... 3
+L610: **2: Structured Responsive Exercise Training Programme** ............................................................................................ 4
+L611: **2.1** **Description of the SRETP following the Consensus on Exercise Reporting Template (9)** ......................... 4
+L612: **2.2** **Tabulated representation of the SRETP** ...................................................................................................... 6
+L613: **2.3** **Visual summary of the SRETP** ...................................................................................................................... 6
+L614: **3: Biomarker analytical methodology** ......................................................................................................................... 7
+L615: **4: Expressing the oxygen cost of exercise** ................................................................................................................... 9
+L616: **Supplementary Tables** ............................................................................................................................................... 10
+L617: **Supplementary Table S1** ........................................................................................................................................ 10
+L618: **Supplementary Table S2** ........................................................................................................................................ 10
+L619: **Supplementary Table S3** ........................................................................................................................................ 11
+L620: **Supplementary Table S4** ........................................................................................................................................ 12
+L621: **Supplementary Table S5** ........................................................................................................................................ 13
+L622: **Supplementary Table S6** ........................................................................................................................................ 13
+L623: **Supplementary Table S7** ........................................................................................................................................ 14
+L624: **Supplementary Table S8** ........................................................................................................................................ 15
+L625: **Supplementary Table S9** ........................................................................................................................................ 16
+L626: **Supplementary Table S10** ...................................................................................................................................... 16
+L627: **Supplementary Figures** .............................................................................................................................................. 17
+L628: **Supplementary Figure S1** ....................................................................................................................................... 17
+L629: **Supplementary Figure S2** ....................................................................................................................................... 18
+L630: **Supplementary Figure S3** ....................................................................................................................................... 19
+L631: **Supplementary References** ....................................................................................................................................... 20
+L632: 2
+L633: **1: Clinical outcome protocols**
+L634: 1.1 Incremental Cardiopulmonary Exercise test (CPET)
+L635: Incremental cardiopulmonary exercise test (CPET) followed protocol and guidelines of the perioperative exercise testing and
+L636: training society (POETs) (1) and the American Thoracic Society/American College of Chest Physicians.(2) Identical protocol was
+L637: employed for both IPF and Control participants. Safety criteria for the test were employed as documented in these guidelines.
+L638: For each patient the estimated ramp slope was first calculated using established formula derived by Wasserman et al. (3) then
+L639: adjusted pragmatically based on the patients physiological status to obtain a test time of approximately 8-12 minutes. During
+L640: incremental CPET active encouragement was given to patients to facilitate best individual performance in the test. The test
+L641: was terminated either by the patient indicating that they had reached their symptom limitation or if their pedalling cadence
+L642: fell to less than 50 rpm for greater than 10 s. For subsequent CPETs the same ramp slope as baseline was employed. V̇O2peak
+L643: percent predicted values were calculated from equations derived by Hansen and Wasserman.(3) All CPETs were conducted in
+L644: the morning or early afternoon (0800-1300) and patients were instructed to attend the research centre fasted and provided
+L645: with a light breakfast of toast, butter, spread, jam or cheese at least 2 hours prior to the test. This dietary restriction was
+L646: necessary to control for nitrogen containing foods which would influence blood analysis of redox markers. One participant was
+L647: taking the antioxidant N-acetyl cysteine (NAC) at a dose of 600 mg three times a day.
+L648: 1.2 Constant work-rate exercise test (CWRT)
+L649: The CWRT was performed at a separate visit at least 48 hours after incremental CPET ( **Supplemental Figure 1** ). The CWRT was
+L650: performed with near identical protocol to CPET. However instead of the incremental ramp phase following unloaded pedalling
+L651: the work-rate of the test (75% of work rate achieved at V̇O2peak during baseline incremental CPET) was introduced ‘on-block’.
+L652: After baseline CWRT patients were not informed of their achieved Endurance time to help prevent bias at the final assessment
+L653: of ‘having a target’ to achieve. The test was terminated either by the patient indicating that they had reached their symptom
+L654: limitation or if pedalling cadence fell to less than 50 rpm for greater than 10 s.
+L655: 1.3 Spirometry and Gas transfer assessment
+L656: All spirometry was reported to reference ranges of the Global Lung Initiative (GLI) 2012(4) and technical specifications of the
+L657: European Respiratory Society (ERS) and ATS.(5) Single-breath carbon monoxide uptake in the lung testing is reported to
+L658: technical standards of the ERS and ATS 2017(6).
+L659: 1.4 Medical Research breathlessness scale
+L660: The Medical Research Council breathlessness score was completed as a patient reported outcome of symptomatic
+L661: breathlessness. The Medical Research Council Breathlessness score adapted from (7):
+L662: |Grade|Degree of breathlessness related to activities|
+L663: |---|---|
+L664: |**1 **|Not troubled by breathlessness except on strenuous exercise|
+L665: |**2 **|Short of breath when hurrying on the level or walking up a slight hill|
+L666: |**3 **|Walks slower than most people on the level, stops after a mile or so, or stops after 15 minutes walking at own<br>pace|
+L667: |**4 **|Stops for breath after walking about 100 yards, or after a few minutes on level ground|
+L668: |**5 **|Too breathless to leave the house, or breathless when undressing|
+L669: 1.5 St. George’s respiratory questionnaire
+L670: The IPF Specific version of the St. Georges respiratory questionnaire was used as a validated patient reported health related
+L671: quality of life assessment tool.(8)
+L672: 3
+L673: **2: Structured Responsive Exercise Training Programme**
+L674: **2.1** **Description of the SRETP following the Consensus on Exercise Reporting Template (9)**
+L675: **Type of exercise equipment used**
+L676: Exercise training consisted of 30 min (Week 1) and 40 min (Week 2-8) -including 5 min warm-up and 5 min cool-down- of
+L677: interval training on an electromagnetically braked cycle ergometer (Optibike Ergoline GmbH, Germany). The training
+L678: programme was preloaded on a chip-and-pin card which executed the interval intensities automatically.
+L679: **Qualifications, teaching/supervising expertise, and/or training undertaken by the exercise instructor**
+L680: The exercise intervention was supervised by hospital staff with a minimal qualification of Basic Life Support. These included
+L681: physiotherapists, sports medicine practitioners, research nurses and study doctors. Each participant’s first exercise session was
+L682: supervised by a medically trained clinician. A named medically trained clinician was available on-site during training sessions.
+L683: **Describe whether the exercises are performed individually or in a group**
+L684: Wherever possible, dependent on availability, trial participants were exercised in pairs, to provide camaraderie.
+L685: **Exercise supervision and delivery**
+L686: Prior to each exercise session participants were asked if they felt well enough to perform the exercise session, asked about
+L687: possible intercurrent illness, and had focused physical examination and vital signs recorded. During the session the participants
+L688: were reminded to inform the supervisor of chest pain, sudden shortness of breath and dizziness as the POETs guidelines. During
+L689: exercise training session continuous heart rate was monitored by R-R interval and peripheral oxygen saturation recorded. The
+L690: study protocol stated that if oxygen saturations dropped to <85% during sessions participants were required to rest until
+L691: recovery to baseline levels however no participants met this threshold during training sessions.
+L692: **How fidelity/ adherence to exercise was measured and reported**
+L693: Adherence was reported as the number of exercise sessions completed divided by the total number of sessions available
+L694: (n=16). In the study protocol a minimum of 12 out of 16 sessions (≥75%) was pre-specified as the minimum adherence required
+L695: to complete the programme.
+L696: **Description of motivation strategies**
+L697: All exercise sessions were supervised throughout as described above. No specific motivational strategies were adopted
+L698: although participants were given gentle positive encouragement through the exercise sessions.
+L699: **Exercise progression**
+L700: Exercise intensity is prescribed onto a chip and pin card, using the participant’s physiological variables determined by CPET. To
+L701: ensure that progressive overload was maintained throughout the trial, participants underwent CPET after 4 weeks and the
+L702: training programme was modified for each individual's ramped CPET protocol results ensuring consistent, progressive and
+L703: individualized intensities for all subjects.
+L704: 4
+L705: **Detailed description of the exercise training sessions**
+L706: Exercise training consisted of 30 min (Week 1) and 40 min (Week 2-8) -including 5 min warm-up and 5 min cool-down- of
+L707: interval, aerobic training on an electromagnetically braked cycle ergometer (Optibike Ergoline GmbH, Germany). All IPF
+L708: participants were invited to attend an outpatient based, in-hospital, 8 week, twice weekly structured, responsive exercise
+L709: training programme. Participants wore a heartrate monitor throughout the session which reported pulse rate onto the
+L710: ergometer screen. Training intensities were prescribed onto a chip and pin card, based on individual’s physiological variables,
+L711: (anaerobic threshold (AT) and V̇O2peak) determined at CPET. This card was inserted into the cycle ergometer and participants
+L712: instructed to pedal at a cadence of 60-65 revolution per minute, according to a visible reading. Sessions lasted for 30 min (Week
+L713: 1) or 40 min (Week 2-8), starting with a 5-minute warm-up at 0-5 watts. After 5 minutes warm-up, the interval components
+L714: began with 3 minutes, moderate intensity, at a work rate equal to 80% of that achieved at anaerobic threshold (AT). This was
+L715: followed by high intensity exercise, for 2 minutes at a work rate equal to 50% of the difference in work rate between AT and
+L716: V̇O2peak (for graphical representation of training session see **Supplementary Section S2.2** ). This 5-minute interval was then
+L717: repeated; 4 times (Week 1) or 6 times (Week 2-8), followed by a 5-minute recovery period at 0-5 watts. In total, exercise
+L718: sessions lasted for 30-40 minutes as described. Progress through the session, pedalling cadence, and heart rate were visible to
+L719: the participant on a digital display at the head of the cycle ergometer ( **see Supplementary Section 2.3** ) **.**
+L720: **Home programme/non-exercise component**
+L721: All study exercise participation took place in-hospital as an out-patient. No home exercises were prescribed, and participants
+L722: were instructed to continue with only their usual daily activities in addition to the exercise programme for the duration of the
+L723: study. No non-exercise components were included in this study.
+L724: **Type and number of adverse events**
+L725: Exercise related adverse events would be deemed attributable if occurring within 30 minutes of exercise or CPET. No serious
+L726: adverse events were reported. 2 mild (Grade 1) adverse events were reported; 1 after CPET and 1 after an exercise training
+L727: session. Both mild post-exercise presyncope which resolved after oral hydration and a brief period of observation.
+L728: **Setting in which the exercise was performed**
+L729: Exercise sessions were performed in an outpatient, in-hospital setting, within a designated research physiology laboratory.
+L730: **Extent of adherence**
+L731: During the study the median adherence of the 11 participants who completed the SRETP was 88% (min. 75% - max. 94%). All
+L732: 11 participants achieved ≥75% adherence. 2 participants were within the exercise training programme at point of study
+L733: termination due to the COVID-19 pandemic. The individual adherence for each of these individuals (factored for the number
+L734: of weeks training completed) was 75% (9/12 sessions) and 100% (4/4 sessions).
+L735: 5
+L736: 2.2 Tabulated representation of the SRETP
+L737: |Week 1|Col2|Col3|Col4|Col5|Col6|Col7|Col8|
+L738: |---|---|---|---|---|---|---|---|
+L739: |3 min|2 min|3 min|2 min|3 min|2 min|3 min|2 min|
+L740: |80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|
+L741: |Week 2-8|Col2|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|
+L742: |---|---|---|---|---|---|---|---|---|---|---|---|
+L743: |3 min|2 min|3 min|2 min|3 min|2 min|3 min|2 min|3 min|2 min|3 min|2 min|
+L744: |80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|80%AT|50% Δ|
+L745: **Supplementary Section S2.2.** Tabulated representation of the structured responsive exercise training programme (SRETP) for
+L746: Week 1 and Weeks 2-8 **.** **80%AT** Work rate (Watts) equal to 80% of work-rate at anaerobic threshold (AT). **50%Δ** Work-rate
+L747: (Watts) equal to midpoint between AT and peak volume of oxygen consumption (V̇O2peak). All sessions also included 5-minute
+L748: unloaded warm-up and 5-minute cool-down.
+L749: **2.3** **Visual summary of the SRETP**
+L750: **Supplementary Section S2.3** Example completed structured exercise training programme session as visible to the participant
+L751: and researcher on the head of the Optibike. Work-rate (straight-line left y-axis [Watts]) with superimposed heart rate from
+L752: chest monitoring of R-R interval (black line right y-axis [beats/min]), x-axis (time [minutes])
+L753: 6
+L754: 3: Biomarker analytical methodology
+L755: Following collection, EDTA plasma samples were pre-treated with the alkylating agent N-ethylmaleimide to
+L756: prevent artefactual oxidation,(10) immediately centrifuged, then snap frozen in liquid nitrogen before storage at
+L757: -80 [o] C until analysis. Serum samples were allowed to stand for 30 minutes at room temperature before
+L758: centrifugation, snap freezing and storage at -80 [o] C.
+L759: **Thiol redox metabolome**
+L760: Total free thiols, which mostly reflect the availability of a single free cysteine group (Cys-34) of albumin, were
+L761: measured as a marker of whole-body redox status (with higher values representing increased antioxidant
+L762: capacity and/or enhanced propensity for disulfide reduction) and were determined spectrophotometrically using
+L763: Ellman's reagent (5,5'-dithio-bis-2-nitrobenzoic acid; DTNB) and normalised to protein concentration.(11)
+L764: Free aminothiols and hydrogen sulfide (H2S), which included the reduced and oxidised forms of glutathione
+L765: (reduced glutathione [free GSH] and glutathione disulfide [GSSG]), cysteine (reduced cysteine [free Cys] and
+L766: cystine [CySS]), homocysteine (reduced homocysteine [free HCys] and homocystine [HCySS]), and free and
+L767: oxidised sulfide, were quantified from EDTA plasma pretreated with N-ethylmaleimide (NEM) using ultrahigh
+L768: pressure liquid chromatography-electrospray ionization-tandem mass spectrometry (UPLC-ESI-MS/MS); free and
+L769: bound thiols were quantified before and after reduction of plasma aliquots by dithiothreitol as previously
+L770: described(12). Redox couples were calculated e.g., free GSH/GSSG, free CyS/CySS, free HCyS/HCySS as markers
+L771: of extracellular redox potential.
+L772: **Lipid peroxidation**
+L773: Whole-body lipid peroxidation status was measured as thiobarbituric acid reactive substances (TBARS) in serum
+L774: by the malondialdehyde (MDA) colorimetric assay.(13, 14) 4-Hydroxynonenal (4-HNE) concentrations were
+L775: quantified as a downstream marker of lipid peroxidation from EDTA plasma samples using the enzyme-linked
+L776: immunosorbent assay (ELISA) technique (4-HNE micro-ELISA plate - Elabscience® USA [Detection range 0.63 - 40
+L777: ng/ml]).
+L778: **FRAP assay**
+L779: The ferric reducing ability of plasma (FRAP) was quantified as a measure of total antioxidant capacity. The FRAP
+L780: assay measures the reduction of ferric (Fe [3+] ) to ferrous (Fe [2+] ) ions by the formation of an intensely blue coloured
+L781: ferrous-tripyridyltriazine. Due to the acidic conditions of the FRAP assay it does not include the reducing capacity
+L782: of thiols.(15) A standard curve of known concentrations of ferrous ions is used to compare absorbances of Fe [3+]
+L783: reacted plasma at 593 nm.
+L784: **Nitric oxide (NO) production and metabolism biomarkers**
+L785: Nitrite and nitrate concentrations were quantified from EDTA plasma following methanol precipitation of protein
+L786: using a dedicated high-performance liquid chromatography system (ENO-20, Amuza Inc. USA).(16) Total
+L787: 7
+L788: nitrosation products (RXNO) were quantified from EDTA plasma samples using gas-phase chemiluminescence
+L789: detection (CLD 77am sp, EcoPhysics, Duernten, Switzerland) of bound NO, following removal of nitrite with
+L790: acidified sulfanilamide and reduction of nitroso species by acidic triiodide.(17) Due to the sensitivity of the assay
+L791: and the ubiquitous presences of environmental nitrite containing compounds the RXNO assay is particularly
+L792: sensitive to contamination during sample processing/storage. RXNO concentrations of >100 nM are
+L793: supraphysiological and were deemed extreme outliers and excluded from the final analysis.(17) Cyclic guanosine
+L794: monophosphate (cGMP) was measured as a downstream marker of NO signalling. cGMP concentrations were
+L795: quantified in EDTA plasma by ELISA (cGMP parameter assay kit R&D Systems).
+L796: 8
+L797: 4: Expressing the oxygen cost of exercise
+L798: During CPET the oxygen cost of performing work (exercise) can be expressed by the slope of the
+L799: relationship between the oxygen uptake and work-rate (V̇O2/WR slope). In healthy subjects the
+L800: V̇O2/WR (up to maximal exercise intensities) during incremental CPET is surprisingly constant with a
+L801: normal range of 10.2 ±1 ml.kg [-1] .W [-1] .(18) A reduced V̇O2/WR is indicative of impaired oxygen delivery
+L802: to the muscle. However although a lower V̇O2/WR slope represents less oxygen utilisation per Watt
+L803: (suggestive of increased efficiency) it is important to consider in patients with cardiopulmonary
+L804: disease, particularly at heavy/vigorous exercise intensities above the anaerobic threshold (AT), this
+L805: may represent a developing oxygen debt that is then repaid in recovery.(19) In the present study
+L806: recovery data was not available as, due to their lung disease, patients had significant breathlessness
+L807: at peak exercise which prevented them being able to tolerate the CPET mask during recovery. In
+L808: order to mitigate the impact of a developing oxygen debt during heavy/vigorous exercise intensities
+L809: the oxygen cost of exercise was estimated by expressing the V̇O2 work-rate relationship up to the AT.
+L810: **A**
+L811: **[   to  ]** **u** **[  s ope]**
+L812: **15**
+L813: **15**
+L814: **10**
+L815: **5**
+L816: **0**
+L817: **10**
+L818: **5**
+L819: **0**
+L820: |Col1|Baseline|Week 9|p|
+L821: |---|---|---|---|
+L822: |**    to t e**|**      9.93 (8.8-11.3)**|**9.07 (8.4-11.04)**|**0.515**|
+L823: |** u     s ope**|**       9.70 (8.9-10.5)**|**9.00 (8.6-9.3)**|**0.075**|
+L824: **Supplementary Section S4** : Expressing the oxygen cost of exercise A) V̇O2/WR to the anaerobic
+L825: threshold B) Full V̇O2/WR slope. Table values present median and interquartile range.
+L826: 9
+L827: Supplementary Tables
+L828: |Supplementary Table S1|Col2|
+L829: |---|---|
+L830: |**Absolute contraindications**|**Relative contraindications**|
+L831: |Acute myocardial infarction (3–5 days)|Untreated left main stem coronary stenosis|
+L832: |Unstable angina|Asymptomatic severe aortic stenosis|
+L833: |Uncontrolled arrhythmia causing symptoms or<br>haemodynamic compromise|Severe untreated arterial hypertension at rest (>200<br>mm Hg systolic, >120 mm Hg diastolic)|
+L834: |Syncope|Tachyarrhythmias or bradyarrhythmias|
+L835: |Active endocarditis|Hypertrophic cardiomyopathy|
+L836: |Acute myocarditis or pericarditis|Significant pulmonary hypertension|
+L837: |Symptomatic severe aortic stenosis|Thrombosis of the lower extremity until treated for<br>a minimum of 2 weeks|
+L838: |Suspected dissecting or leaking aortic aneurysm|Abdominal aortic aneurysm >8.0 cm|
+L839: |Uncontrolled asthma|Electrolyte abnormalities|
+L840: |Arterial desaturation at rest on room air <85%|Advanced or complicated pregnancy|
+L841: |Uncontrolled heart failure|Within 2 weeks of acute symptomatic pulmonary<br>embolus|
+L842: **Supplementary Table S1** : Absolute and Relative contradictions to Cardiopulmonary exercise testing
+L843: from Levett et al. 2018 (1)
+L844: |Supplementary Table S2|Col2|
+L845: |---|---|
+L846: |**Control Participant Elective Surgery type**|**Participants (n)**|
+L847: |Abdominal Aortic Aneurysm Repair|4|
+L848: |Non-malignant lower gastro-intestinal|3|
+L849: |Diaphragmatic hernia repair|1|
+L850: |Bilateral total knee replacement|1|
+L851: |Deep brain stimulator insertion (for Parkinson’s Disease)|1|
+L852: **Supplementary Table S2** . Tabular illustration of the indications for referral for standard care
+L853: perioperative CPET of participants in the Control group.
+L854: 10
+L855: |Supplementary Table S3|Col2|Col3|Col4|
+L856: |---|---|---|---|
+L857: ||**IPF n=15**<br>**median (IQR), % (n)**|**Control n=10**<br>**median (IQR) % (n)**|**p value**|
+L858: |**Demographics**|**Demographics**|**Demographics**|**Demographics**|
+L859: |Age (years)|72.5 (69-80)|70.4 (62-75)|0.144|
+L860: |Sex (%Male)|87% (13)|80% (8)|1.000|
+L861: |BMI (kg.m-2)|28.0 (26-32)|30.1 (24-35)|0.461|
+L862: |FEV1% predicted|84 (82-90)|91 (61-99)|0.461|
+L863: |FVC% predicted|78 (73-88)|92(79-0.81)|0.062|
+L864: |FEV1/FVC|0.82 (0.79-0.84)|0.74 (0.69-0.81)|0.008**|
+L865: |SpO2 at rest|99 (97-99)|99 (97-99)|0.215|
+L866: |Ex-smoker|67% (n=10)|70% (n=7)|0.861|
+L867: |COPD|20% (3)|20% (2)|1.000|
+L868: |T2DM|20% (3)|10% (1)|0.504|
+L869: |IHD|13% (2)|50% (5)|0.075|
+L870: |**CPET Variables**|**CPET Variables**|**CPET Variables**|**CPET Variables**|
+L871: |AT (ml.kg-1.min-1)†|8.05 (7.4-9.9)|9.10 (8.1-11.4)|0.259|
+L872: |AT/VO2peak pred. (%)†|41.18 (37.1-44.3)|46.97 (41.4-51.0)|0.166|
+L873: |VO2peak (ml.kg-1.min-1)|11.95 (11.5-14.2)|14.17 (13.2-19.8)|0.160|
+L874: |VO2peak %predicted|66.7 (57.1-75.9)|64.93 (62.3-83.6)|0.807|
+L875: |VE/VCO2 slope|41.00 (35.5-55.0)|32.83 (31.1-35.8)|0.002**|
+L876: |VO2/WR slope|9.70 (9.0-10.3)|8.70 (7.6-9.5)|0.041*|
+L877: |SpO2 at VO2peak|93 (89-96)|99 (98-99)|0.002**|
+L878: |Breathing Reserve (%)|38.5 (20-56)|37.0 (18-67)|0.892|
+L879: |Peak VE (L.min-1)|62.0 (48-83)|50.0 (40-81)|0.428|
+L880: **Supplementary Table S3: Comparison between demographics of IPF participants at baseline and Control**
+L881: **Participants.** Values represented as median (interquartile range). BMI- body mass index, FEV1- forced expiratory
+L882: volume in 1 s, FVC- forced vital capacity. SpO2-peripheral oxygen saturations by pulse oximetry, COPD- chronic
+L883: obstructive pulmonary disease, T2DM- type 2 diabetes mellitus, IHD- ischaemic heart disease, AT- anaerobic
+L884: threshold, V̇O2peak- peak volume of oxygen consumption. V̇O2peak pred.- V̇O2peak- expressed as percentage
+L885: predicted, V̇E/V̇CO2 slope- relationship of minute ventilation (V̇E) to volume of carbon dioxide production (V̇CO2),
+L886: WR- work rate. Peak V̇E- peak minute ventilation. *p<0.05, **p<0.01 †IPF AT n=14
+L887: 11
+L888: **Supplementary Table S4**
+L889: |Analyte|IPF|Col3|Col4|Control|Col6|Col7|IPF vs. Control|Col9|
+L890: |---|---|---|---|---|---|---|---|---|
+L891: |**Analyte**|**PRE (n=15)**|**POST (n=14)**|**p **|**PRE (n=10)**|**POST (n=10)**|**p **|**PRE p**|**POST p**|
+L892: |**GSH/GSSG†**<br>**(ratio)**|736.1<br>(289-1246)|456.8<br>(354-1077)|0.600|1855.8 <br>(893-2454)|1337.2 <br>(647-2345)|0.066|0.046*|0.051|
+L893: |**Total GSH**<br>**(μM)**|3.820<br>(1.31-5.12)|3.655<br>(2.24-4.69)|0.382|2.395<br>(1.81-3.97)|3.245<br>(2.02-4.53)|0.007**|0.338|0.796|
+L894: |**TFT**<br>**(μM)**|56.70<br>(40.1-69.1)|55.15<br>(46.2-61.1)|0.432|50.00<br>(37.3-62.0)|47.10<br>(36.1-55.5)|0.123|0.531|0.321|
+L895: |**TFT/Protein**<br>**(μmo  g protein)**|0.880<br>(0.67-1.16)|0.830<br>(0.76-1.01)|0.141|0.785<br>(0.59-0.99)|0.745<br>(0.52-0.94)|0.740|0.261|0.192|
+L896: |**TBARS**<br>**(μM)**|4.13<br>(3.49-6.61)|4.95<br>(3.92-7.80)|0.432|4.05<br>(2.90-4.84)|4.78<br>(3.55-6.28)|0.123|0.397|0.585|
+L897: |**4-HNE**<br>**(ng/ml)**|8.30<br>(5.50-13.00)|8.15<br>(6.00-9.78)|0.209|7.20<br>(5.83-11.72)|9.60<br>(6.08-1.25)|0.575|0.849|0.437|
+L898: |**Free GSH**<br>**(nM)**|3102.0<br>(2488-5595)|4317.0<br>(2427-6332)|0.510|4337.5<br>(2444-8716)|5424.0<br>(2784-9340)|0.114|0.531|0.341|
+L899: |**GSSG**<br>**(nM)**|5.400<br>(3.30-10.40)|6.650<br>(2.20-14.48)|0.975|5.300<br>(0.95-7.67)|5.750<br>(1.18-12.48)|0.051|0.643|0.752|
+L900: |**Total CyS**<br>**(μM)**|232.0<br>(197.0-260.0)|222.0<br>(183.8-250.5)|0.530|254.0<br>(217.3-286.8)|268.5<br>(220.8-287.5)|0.407|0.338|0.074|
+L901: |**Free Cys**<br>**(nM)**|9486.0<br>(7527-10908)|7426.0<br>(5322-9891)|0.100|9001.0<br>(7305-11217)|9185.0<br>(6846-11218)|0.646|0.935|0.311|
+L902: |**CySS**<br>**(nM)**|51099.0<br>(43229-64214)|50066.5<br>(41728-56889)|0.433|62530.5<br>(46465-74334)|52496.5<br>(46261-74426)|0.445|0.238|0.285|
+L903: |**Cys/CySS**<br>**Ratio**|0.170<br>(0.15-0.21)|0.155<br>(0.12-0.21)|0.865|0.150<br>(0.12-0.22)|0.150<br>(0.12-0.21)|0.134|0.367|0.841|
+L904: |**Total HCyS**<br>**(μM)**|10.60<br>(8.75-13.70)|10.19 <br>(8.57-11.63)|0.140|14.30<br>(8.5-15.8)|14.55<br>(8.91-15.80)|0.114|0.367|0.096|
+L905: |**Free HCyS**<br>**(nM)**|132.0<br>(109.0-160.0)|115.5<br>(95.6-142.8)|0.041*|140.5<br>(127.0-186.0)|142.0<br>(114-161)|0.241|0.567|0.312|
+L906: |**HCySS**<br>**(nM)**|17.20<br>(9.7-23.3)|14.95<br>(5.8-22.8)|0.300|23.75<br>(8.6-48.8)|22.20<br>(6.52-48.0)|0.445|0.367|0.212|
+L907: |**HCys/HCySS**<br>**Ratio**|8.090<br>(5.50-19.85|9.005<br>(4.47-20.69)|0.975|6.090<br>(3.79-13.53)|5.30<br>(3.18-17.22)|0.878|0.311|0.341|
+L908: |**Total Sulfide**<br>**(μM)**|6.910<br>(5.68-8.20)|7.005<br>(5.69-10.67)|0.397|6.565<br>(5.58-8.81)|7.965<br>(5.69-8.83)|0.575|0.978|0.796|
+L909: |**Free Sulfide**<br>**(nM)**|2574.0<br>(1295-3739)|2242.0<br>(1756-3716)|0.638|2923.0<br>(1213-3370)|2189.5<br>(1438-3184)|0.799|0.892|0.841|
+L910: |**Persulfide**<br>**(μM)**|3.81<br>(3.11-5.91)|4.92<br>(3.62-6.14)|0.158|3.71<br>(3.58-6.56)|4.54<br>(3.64-6.27)|0.959|0.397|0.931|
+L911: |**FRAP**<br>**(μM)**|1362.0<br>(1237-1502)|1344.5<br>(1241-1505)|0.470|1446.5<br>(1324-1567)|1436.0<br>(1137-1629)|0.074|0.216|0.508|
+L912: **Supplementary Table S4: Baseline pre and post cardiopulmonary exercise test (CPET) redox biomarker**
+L913: **concentrations in IPF vs. Control participants.** Results presented as median (Interquartile range). GSH/GSSGreduced glutathione/glutathione disulfide **,** Total GSH- total glutathione (reduced + oxidised/bound GSH), TFTtotal free thiols, TFT/Protein- total free thiols corrected for protein concentration, TBARS- Thiobarbituric acid
+L914: reactive substances, 4-HNE- 4-Hydroxynonenal, Free GSH- reduced glutathione, GSSG- glutathione disulfide.
+L915: Total Cys- Total Cysteine (reduced +oxidised/bound Cys), Free Cys- cysteine, CySS- oxidised cysteine, Total HCystotal homocysteine (reduced + oxidised/bound HCyS) homocysteine, Free HCys- homocysteine, HCySS- oxidised
+L916: homocysteine, Total Sulfide- total sulfide (reduced + oxidised/bound sulfide), Free Sulfide- (reduced sulfide),
+L917: Persulfide (Total – Free Sulfide), FRAP- ferric reducing ability of plasma, †GSH/GSSG Control PRE and POST n=9;
+L918: IPF PRE n=14 and IPF POST n=13. *p<0.05
+L919: 12
+L920: **Supplementary Table S5**
+L921: |Col1|IPF|Col3|Col4|Control|Col6|Col7|IPF vs. Control|Col9|
+L922: |---|---|---|---|---|---|---|---|---|
+L923: |**Analyte**|**PRE (n=15)**|**POST (n=14)**|**p **|**PRE (n=10)**|**POST (n=10)**|**p **|**PRE p**|**POST p**|
+L924: |**Nitrite**<br>**(μM)**|1.220<br>(0.43-1.37)|0.975<br>(0.60-1.13)|0.133|0.835<br>(0.70-0.98)|0.990<br>(0.84-1.17)|0.155|0.261|0.752|
+L925: |**Nitrate**<br>**(μM)**|27.80<br>(22.4-47.0)|32.10<br>(26.9-46.0)|0.600|31.35<br>(25.8-39.9)|31.65<br>(25.8-48.2)|0.285|0.567|0.796|
+L926: |**RXNO**† <br>**(nM)**|14.05<br>(9.37-20.2)|7.60<br>(3.9-15.7)|0.182|20.60<br>(11.45-32.05)|15.40<br>(6.55-29.40)|0.515|0.212|0.800|
+L927: |**cGMP**<br>**(pmol/ml)**|179.00<br>(137.0-209.0)|199.50<br>(101.3-232.5)|0.975|151.50<br>(100.0-180.3)|115.00<br>(97.4-167.3)|0.086|0.238|0.064|
+L928: **Supplementary Table S5: Baseline pre and post cardiopulmonary exercise test (CPET) nitric oxide (NO) production and**
+L929: **metabolism biomarker concentrations in IPF vs. Control participants.** Results presented as median (Interquartile range).
+L930: Nitrite (NO2 [-] ), Nitrate (NO3 [-] ), RXNO- total nitroso species, cGMP cyclic guanosine monophosphate. †RXNO: Control POST n=9,
+L931: IPF PRE n=14, IPF POST n=13.
+L932: **Supplementary Table S6**
+L933: **Supplementary Table S6A**
+L934: |Baseline<br>NOx|SpO at Peak Exercise<br>2|Col3|Comparison|
+L935: |---|---|---|---|
+L936: |**Baseline**<br>**NOx**|**<92% (n=6)**|**≥92% (n=9)**|**p **|
+L937: |**Nitrite PRE**<br>**(μM) **|1.06<br>(0.65-1.57)|1.26<br>(0.39-1.35)|0.96|
+L938: |**Nitrite POST**<br>**(μM)**†|0.86<br>(0.56-1.43)|1.03 <br>(0.48-1.11)|0.85|
+L939: |**Delta Nitrite**<br>**(Pre – Post)**†|-0.11<br>(-0.43 to +0.07)|-0.14<br>(-0.27 to +0.06)|0.95|
+L940: |**Nitrate PRE**<br>**(μM) **|28.85<br>(19.97-71.30)|27.80<br>(22.9-44.5)|0.95|
+L941: |**Nitrate POST**<br>**(μM)**†|30.25<br>(23.9-64.3)|36.80 <br>(27.3-45.0)|1.00|
+L942: |**Delta Nitrate**<br>**(Pre – Post)**†|-0.23<br>(-7.7 to +4.1)|1.60<br>(-3.61 to +5.31)|0.76|
+L943: |Supplementary Table S6B|Col2|Col3|
+L944: |---|---|---|
+L945: |**IPF (n=14)**|**Delta Nitrite (Pre – Post)**|**Delta Nitrate (Pre – Post)**|
+L946: |**Delta SPO2 Baseline**<br>**(Peak Exercise - Rest)**|r = 0.09<br>p=0.77|r = -0.23<br>p=0.43|
+L947: **Supplementary Table S6: Comparison of nitrite and nitrate concentrations in IPF participants at baseline by peripheral**
+L948: **oxygen saturations (SpO2) at peak exercise.** S6A) Comparison of nitrite and nitrate concentrations stratified by SpO2 <92% (n=6)
+L949: or ≥92% (n=9). PRE = Pre cardiopulmonary exercise test (CPET), Post = Post CPET, Delta = Pre CPET – Post CPET. †SpO2 ≥92%
+L950: Post CPET and delta n=8. Results presented as median (interquartile range). S6B). Comparison of delta nitrite and nitrate
+L951: concentrations and delta SpO2. Delta Nitrite/Nitrate = Pre CPET – Post CPET concentration, delta SpO2 = SpO2 at peak exercise SpO2 at rest. Comparison made using Spearman’s Rank co-efficient (r).
+L952: 13
+L953: |Supplementary Table S7|Col2|Col3|Col4|
+L954: |---|---|---|---|
+L955: ||**Baseline**|**Week 9**|**Comparison**|
+L956: |**SGRQ-IPF Domain**|**n=11**|**n=11**|**p value**|
+L957: |Symptoms|73.80 (44.8-84.2)|63.40 (33.5-75.5)|0.176|
+L958: |Activity|78.30 (48.1-100.0)|67.30 (48.1-88.0)|0.594|
+L959: |Impacts|31.30 (3.0-45.4)|31.49 (6.0-42.5)|0.678|
+L960: |Total Score|52.40 (23.7-64.1)|52.11 (21.7-58.7)|0.790|
+L961: **Supplementary Table S7** . **Effect of the structured responsive exercise training programme (SRETP) on health-related quality**
+L962: **of ife score assessed using t e St. George’s espiratory Questionnaire -IPF (SGRQ-IPF).** Results presented as median
+L963: (interquartile range).
+L964: 14
+L965: Supplementary Table S8
+L966: |Analyte|Baseline|Col3|Week 9|Col5|Col6|Baseline vs. Week 9|Col8|
+L967: |---|---|---|---|---|---|---|---|
+L968: |**Analyte**|**PRE (n=11)**|**POST (n=10)**|**PRE (n=11)**|**POST (n=11)**|**p **|**PRE p**|**POST p**|
+L969: |**GSH/GSSG†**<br>**(ratio)**|516.1<br>(227-1246)|439.5 <br>(288-787)|495.4 <br>(300-1836)|480.3 <br>(147-1063)|0.086<br>|0.441|0.575|
+L970: |**Total GSH**<br>**(μM)**|3.960<br>(1.26-5.12)|3.275<br>(1.38-4.61)|3.350<br>(1.53-4.73)|4.500<br>(1.96-6.09)|0.021*|0.790|0.028*|
+L971: |**Total Free Thiols**<br>**(μM)**|52.60<br>(40.1-61.7)|53.40<br>(46.3-56.7)|63.40<br>(48.4-78.1)|61.20<br>(53.3-80.4)|0.155|0.093|0.028*|
+L972: |**TFT/Protein**<br>**(μmo  g protein)**|0.870<br>(0.67-1.02)|0.795<br>(0.76-0.95)|1.030<br>(0.90-1.18)|1.050<br>(0.97-1.18)|0.168|0.182|0.005**|
+L973: |**TBARS**<br>**(μM)**|4.330<br>(3.49-6.61)|5.475<br>(4.17-7.93)|5.990<br>(3.76-8.44)|4.410<br>(3.84-7.08)|0.016*|0.213|0.114|
+L974: |**4-HNE**<br>**(ng/ml)**|8.200<br>(5.50-13.00)|8.150 <br>(5.68-9.78)|7.100<br>(5.70-10.40)|7.700<br>(6.10-13.60)|0.131|0.657|0.507|
+L975: |**Free GSH†**<br>**(nM)**|2836.0<br>(2056-5595)|3127.5<br>(1709-5710)|3058.0<br>(1271-6040)|3058.0<br>(316-6040)|0.727|0.328|0.333|
+L976: |**GSSG†**<br>**(nM)**|4.500<br>(3.30-17.80)|6.650<br>(2.18-15.18)|5.500 <br>(0.60-15.70)|9.600<br>(4.40-17.40)|0.110|0.508|0.066|
+L977: |**Total CyS**<br>**(μM)**|250.0<br>(218-282)|236.5<br>(183-261)|244.0<br>(184-280)|257.0<br>(196-311)|0.424|0.929|0.139|
+L978: |**Free Cys**<br>**(nM)**|9945.0<br>(8130-11268)|7820.0<br>(4427-10377)|7278.0<br>(5824-15641)|6403.0<br>(5055-13382)|0.534|1.000|0.722|
+L979: |**CySS**<br>**(nM)**|62509.0<br>(50220-71077)|52260.0<br>(42283-63615)|59608.0<br>(38371-63323)|47575.0<br>(36041-56271)|0.213|0.790|0.508|
+L980: |**CyS/CySS**<br>**Ratio**|0.180<br>(0.15-0.21)|0.145<br>(0.12-0.22)|0.170<br>(0.10-0.26)|0.190<br>(0.12-0.21)|0.905|0.441|0.777|
+L981: |**Total HcyS**<br>**(μM)**|11.20<br>(8.95-15.90)|10.70<br>(9.01-12.98)|10.40<br>(6.73-12.30)|11.20<br>(9.21-12.40)|0.505|0.168|0.646|
+L982: |**Free HcyS**<br>**(nM)**|135.0<br>(119-160)|110.5<br>(95-178)|107.0<br>(92-186)|102.0<br>(87-125)|0.878|0.248|0.648|
+L983: |**HCySS**<br>**(nM)**|18.00<br>(13.4-36.9)|19.20<br>(9.6-27.3)|14.40<br>(10.5-23.6)|17.80<br>(10.6-26.0)|0.594|0.182|0.285|
+L984: |**HCys/HCySS**<br>**Ratio**|6.200<br>(3.72-8.85)|7.100<br>(3.87-12.13)|4.750<br>(3.89-22.20)|5.800<br>(4.35-18.06)|0.086|0.657|0.203|
+L985: |**Total Sulfide**<br>**(μM)**|6.150<br>(5.35-8.15)|7.005<br>(5.25-10.68)|7.390<br>(5.53-10.20)|7.700<br>(5.89-10.50)|0.859|0.182|0.541|
+L986: |**Free Sulfide**<br>**(nM)**|2574.0<br>(1334-3739)|2463.5<br>(1808-3893)|2564.0<br>(1599-4562)|2358.0<br>(1379-4590)|0.657|0.657|0.721|
+L987: |**Persulfide**<br>**(μM)**|3.45<br>(2.70-4.90)|4.67<br>(3.29-5.22)|5.50<br>(3.93-6.81)|5.02<br>(2.50-6.92)|0.594|0.075|0.721|
+L988: |**FRAP**<br>**(μM)**|1290<br>(1237-1502)|1326<br>(1241-1505)|1361<br>(1176-1481)|1402<br>(1236-1525)|0.083|0.790|0.241|
+L989: **Supplementary Table S8: Redox biomarker concentrations at Baseline and Week 9 pre and post cardiopulmonary exercise**
+L990: **test (CPET) for IPF patients completing the structured responsive exercise training programme (SRETP).** Results presented as
+L991: median (Interquartile range). GSH/GSSG- reduced glutathione/ glutathione disulfide **,** Total GSH- total glutathione (reduced +
+L992: oxidised/bound GSH), TFT- total free thiols, TFT/Protein- total free thiols corrected for protein concentration, TBARSThiobarbituric acid reactive substances, Free GSH- reduced glutathione, GSSG- glutathione disulfide. Total Cys- total cysteine
+L993: (reduced +oxidised/bound CyS), Free Cys- Reduced cysteine, CySS- oxidised cysteine, Total HCys- total homocysteine (reduced
+L994: + oxidised/bound HCyS), Free HCys- reduced homocysteine, HCySS- oxidised homocysteine, Total Sulfide- total sulfide (reduced
+L995: + oxidised/bound sulfide), Free Sulfide- reduced sulfide, Persulfide (Total – Free Sulfide), FRAP- ferric reducing ability of plasma.
+L996: †GSH/GSSH Week 0 PRE n=10 and POST n=9, Week 9 PRE and Week 9 POST n=9. *p<0.05, **p<0.01.
+L997: 15
+L998: Supplementary Table S9
+L999: |Col1|Baseline|Col3|Week 9|Col5|Col6|Baseline vs. Week 9|Col8|
+L1000: |---|---|---|---|---|---|---|---|
+L1001: |**Analyte**|**PRE (n=11)**|**POST (n=10)**|**PRE (n=11)**|**POST (n=11)**|**p **|**PRE p**|**POST p**|
+L1002: |**Nitrite**<br>**(μM)**|1.220<br>(0.80-1.37)|0.975<br>(0.81-1.22)|1.160<br>(0.37-1.33)|0.660<br>(0.28-1.03)|0.013*|0.534|0.037*|
+L1003: |**Nitrate**<br>**(μM)**|27.70<br>(21.6-29.9)|30.25<br>(26.9-42.0)|27.70<br>(21.5-35.4)|27.50<br>(25.4-42.4)|0.286|0.799|0.878|
+L1004: |**RXNO† **<br>**(nM)**|12.30<br>(7.57-22.40)|6.00<br>(3.40-14.00)|12.95<br>(8.88-15.07)|12.55<br>(9.15-29.40)|0.374|0.594|0.263|
+L1005: |**cGMP**<br>**(pmol/ml)**|172.0<br>(111-209)|189.5<br>(98.1-241)|187.0<br>(118-202)|184.0<br>(151.0-204)|0.374|0.477|0.646|
+L1006: **Supplementary Table S9: Nitric oxide (NO) metabolite biomarker concentrations at Baseline and Week 9 pre and post**
+L1007: **cardiopulmonary exercise test (CPET) for IPF patients completing the structured responsive exercise training programme**
+L1008: **(SRETP).** Results presented as median (Interquartile range). Nitrite (NO2 [-] ), Nitrate (NO3 [-] ), RXNO- total nitroso species, cGMP
+L1009: cyclic guanosine monophosphate. **†** RXNO: Baseline PRE n=10, POST n=9. Week 4 PRE n=6, POST n=7. Week 9 PRE n=10 POST
+L1010: n=10. *p<0.05
+L1011: **Supplementary Table S10**
+L1012: **Supplementary Table S10A**
+L1013: |Week 9<br>NOx|SpO at Peak Exercise<br>2|Col3|Comparison|
+L1014: |---|---|---|---|
+L1015: |**Week 9**<br>**NOx**|**<92% (n=5)**|**≥92% (n=6)**|**p **|
+L1016: |**Nitrite PRE**<br>**(μM) **|1.22<br>(0.34-1.38)|0.91<br>(0.54-1.67)|1.00<br>|
+L1017: |**Nitrite POST**<br>**(μM)  **|0.39<br>(0.27-1.14)|0.67<br>(0.49-0.93)|0.66<br>|
+L1018: |**Delta Nitrite**<br>**(Pre – Post)**|-0.21<br>(-0.62 to -0.01)|-0.11<br>(-0.83 to -0.02)|0.93<br>|
+L1019: |**Nitrate PRE**<br>**(μM) **|27.30<br>(18.5-39.4)|28.00<br>(24.3-37.9)|0.95|
+L1020: |**Nitrate POST**<br>**(μM) **|33.80<br>(21.6-45.3)|27.00<br>(22.7-39.2)|1.00|
+L1021: |**Delta Nitrate**<br>**(Pre – Post)**|5.00<br>(0.23-9.67)|-0.83<br>(-1.94 to +1.66)|0.05<br>|
+L1022: |Supplementary Table S10B|Col2|Col3|
+L1023: |---|---|---|
+L1024: |**IPF (n=11)**|**Delta Nitrite**|**Delta Nitrate**|
+L1025: |**Delta SPO2 Week 9**<br>**(Peak Exercise - Rest)**|r = -0.08<br>p=0.82|r = -0.64<br>p=0.048*|
+L1026: **Supplementary Table S9: Comparison of nitrite and nitrate concentrations in IPF participants at baseline by peripheral**
+L1027: **oxygen saturations (SpO2) at peak exercise.** S10A) Comparison of nitrite and nitrate concentrations stratified by SpO2 <92%
+L1028: (n=5) or ≥92% (n=6). PRE = Pre cardiopulmonary exercise test (CPET), Post = Post CPET, Delta = Pre CPET – Post CPET. Results
+L1029: presented as median and interquartile range (IQR). S10B). Comparison of delta nitrite and nitrate concentrations and delta
+L1030: SpO2. Delta Nitrite/Nitrate = Pre CPET - Post CPET concentration, delta SpO2 = SpO2 at peak exercise - SpO2 at rest. Comparison
+L1031: made using Spearman’s Rank co-efficient (r) *p<0.05.
+L1032: 16
+L1033: Supplementary Figures
+L1034: Supplementary Figure S1
+L1035: **IPF participant study schedule**
+L1036: **Supplementary Figure S1B:**
+L1037: **Control participant study schedule**
+L1038: **Supplementary Figure S1** : Study Visit Schedule Flow diagram for IPF participants (Figure S1A) and Controls (Figure S1B). W –
+L1039: Week, ECG- Electrocardiogram, CPET- cardiopulmonary exercise test, MRC-Score- Medical Research Council Breathlessness
+L1040: Score, SGRQ-IPF- St. George’s Respiratory Questionnaire IPF, SRETP: Structured responsive exercise training programme (for
+L1041: SRETP description see **Supplementary Section S2** ).
+L1042: 17
+L1043: **Supplementary Figure S2**
+L1044: ### **A W0 Nitrite B W0 Nitrate**
+L1045: **2.5**
+L1046: **2.0**
+L1047: **1.5**
+L1048: **1.0**
+L1049: **0.5**
+L1050: **0.0**
+L1051: **1.0**
+L1052: **0.5**
+L1053: **0.0**
+L1054: **-0.5**
+L1055: **-1.0**
+L1056: **100**
+L1057: **80**
+L1058: **60**
+L1059: **40**
+L1060: **20**
+L1061: **0**
+L1062: ### **W0 Delta Nitrite   e ta itrate**
+L1063: **30**
+L1064: **20**
+L1065: **10**
+L1066: **0**
+L1067: **-10**
+L1068: **-20**
+L1069: **-30**
+L1070: **Supplementary Figure S2 Comparison of nitrite and nitrate concentrations in IPF participants at Week 0 (W0,**
+L1071: **baseline) stratified by peripheral oxygen saturations (SpO2) at peak exercise** . **Peak exercise SpO2 <92% vs. ≥92%.**
+L1072: A) Nitrite concentrations B) Nitrate concentrations C) Delta (Pre CPET – Post CPET) nitrite concentrations, D) Delta
+L1073: nitrate concentrations. SpO2<92% (circles) n=6 vs. SpO2≥92% (triangles) n=9 (n=8 for SpO2≥92% Post CPET and delta).
+L1074: PRE (blue circles/triangles) = Pre cardiopulmonary exercise test (CPET), Post (red circles/triangles) = Post CPET.
+L1075: 18
+L1076: **Supplementary Figure S3**
+L1077: **4**
+L1078: **3**
+L1079: **2**
+L1080: **1**
+L1081: **0**
+L1082: **W9 Nitrite** **itrate**
+L1083: **80**
+L1084: **60**
+L1085: **40**
+L1086: **20**
+L1087: **0**
+L1088: **C** **W9 Delta Nitrite** **D** **W9 Delta Nitrate**
+L1089: **0.5**
+L1090: **0.0**
+L1091: **-0.5**
+L1092: **-1.0**
+L1093: **-1.5**
+L1094: **-2.0**
+L1095: **-2.5**
+L1096: **15**
+L1097: **10**
+L1098: **5**
+L1099: **0**
+L1100: **-5**
+L1101: |Col1|Col2|
+L1102: |---|---|
+L1103: |||
+L1104: |||
+L1105: |||
+L1106: **Supplementary Figure S3 Comparison of nitrite and nitrate concentrations in IPF participants at Week 9 (W9)**
+L1107: **stratified by peripheral oxygen saturations (SpO2) at peak exercise.** **Peak exercise SpO2: <92% vs. ≥92%** A) Nitrite
+L1108: concentrations, B) Nitrate concentrations C) Delta (Pre CPET – Post CPET) nitrite concentrations, D) Delta nitrate
+L1109: concentrations. SpO2 <92% (circles) n=5 vs. ≥92% (triangles) n=6. PRE (blue circles/triangles) = Pre cardiopulmonary
+L1110: exercise test (CPET), Post (red circles/triangles) = Post CPET.
+L1111: 19
+L1112: Supplementary References
+L1113: 1. Levett DZH, Jack S, Swart M, Carlisle J, Wilson J, Snowden C, et al. Perioperative cardiopulmonary exercise
+L1114: testing (CPET): consensus clinical guidelines on indications, organization, conduct, and physiological
+L1115: interpretation. Br J Anaesth. 2018;120(3):484-500.
+L1116: 2. American Thoracic Society, American College of Chest Physicans. ATS/ACCP Statement on
+L1117: cardiopulmonary exercise testing. Am J Respir Crit Care Med. 2003;167(2):211-77.
+L1118: 3. Wasserman K, Hansen J, Sue DY, Stringer W, Sietsema K, Sun X-G, et al. Principles of exercise testing and
+L1119: interpretation: Including pathophysiology and clinical applications: Fifth edition: Philadelphia: Lippincott Williams
+L1120: and Wilkins; 2011.
+L1121: 4. Quanjer PH, Stanojevic S, Cole TJ, Baur X, Hall GL, Culver BH, et al. Multi-ethnic reference values for
+L1122: spirometry for the 3-95-yr age range: the global lung function 2012 equations. The European respiratory journal.
+L1123: 2012;40(6):1324-43.
+L1124: 5. Graham BL, Steenbruggen I, Miller MR, Barjaktarevic IZ, Cooper BG, Hall GL, et al. Standardization of
+L1125: Spirometry 2019 Update. An Official American Thoracic Society and European Respiratory Society Technical
+L1126: Statement. American Journal of Respiratory and Critical Care Medicine. 2019;200(8):e70-e88.
+L1127: 6. Graham BL, Brusasco V, Burgos F, Cooper BG, Jensen R, Kendrick A, et al. 2017 ERS/ATS standards for
+L1128: single-breath carbon monoxide uptake in the lung. European Respiratory Journal. 2017;49(1):1600016.
+L1129: 7. Stenton C. The MRC breathlessness scale. Occupational Medicine. 2008;58(3):226-7.
+L1130: 8. Yorke J, Jones PW, Swigris JJ. Development and validity testing of an IPF-specific version of the St George's
+L1131: Respiratory Questionnaire. Thorax. 2010;65(10):921-6.
+L1132: 9. Slade SC, Dionne CE, Underwood M, Buchbinder R. Consensus on Exercise Reporting Template (CERT):
+L1133: Explanation and Elaboration Statement. Br J Sports Med. 2016;50(23):1428-37.
+L1134: 10. Ellis R. The use of N-ethylmaleimide in stabilizing and measuring inorganic sulphur compounds.
+L1135: Biochemical Journal. 1968;110(3):43P.
+L1136: 11. Koning AM, Meijers WC, Pasch A, Leuvenink HGD, Frenay AS, Dekker MM, et al. Serum free thiols in
+L1137: chronic heart failure. Pharmacol Res. 2016;111:452-8.
+L1138: 12. Sutton TR, Minnion M, Barbarino F, Koster G, Fernandez BO, Cumpstey AF, et al. A robust and versatile
+L1139: mass spectrometry platform for comprehensive assessment of the thiol redox metabolome. Redox Biology.
+L1140: 2018;16:359-80.
+L1141: 13. Tsikas D. Assessment of lipid peroxidation by measuring malondialdehyde (MDA) and relatives in
+L1142: biological samples: Analytical and biological challenges. Anal Biochem. 2017;524:13-30.
+L1143: 14. Aguilar Diaz De Leon J, Borges CR. Evaluation of Oxidative Stress in Biological Samples Using the
+L1144: Thiobarbituric Acid Reactive Substances Assay. J Vis Exp. 2020(159).
+L1145: 15. Benzie IF, Strain JJ. The ferric reducing ability of plasma (FRAP) as a measure of "antioxidant power": the
+L1146: FRAP assay. Anal Biochem. 1996;239(1):70-6.
+L1147: 16. Rassaf T, Bryan NS, Kelm M, Feelisch M. Concomitant presence of N-nitroso and S-nitroso proteins in
+L1148: human plasma. Free Radic Biol Med. 2002;33(11):1590-6.
+L1149: 17. Feelisch M, Rassaf T, Mnaimneh S, Singh N, Bryan NS, Jourd'Heuil D, et al. Concomitant S-, N-, and hemenitros(yl)ation in biological tissues and fluids: implications for the fate of NO in vivo. Faseb j. 2002;16(13):1775-85.
+L1150: 18. Hansen JE, Sue DY, Oren A, Wasserman K. Relation of oxygen uptake to work rate in normal men and men
+L1151: with circulatory disorders. The American Journal of Cardiology. 1987;59(6):669-74.
+L1152: 19. Mitchell SH, Steele NP, Leclerc KM, Sullivan M, Levy WC. Oxygen Cost of Exercise Is Increased in Heart
+L1153: Failure After Accounting for Recovery Costs*. Chest. 2003;124(2):572-9.
+L1154: 20
+[80ms]
+

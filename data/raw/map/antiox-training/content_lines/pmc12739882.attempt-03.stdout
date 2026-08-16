@@ -1,0 +1,1087 @@
+L1: The effects of exercise training and nutritional supplementation on taekwondo performance: a systematic review and meta-analysis
+L2: Frontiers in Nutrition (2025)
+L3: Chen Xu, Wenxin Zhang, Lin Luo
+L4: 1 School of Physical Education, Guizhou Normal University ,  Guiyang ,  China
+L5: 2 Key Laboratory of Brain Function and Brain Disease Prevention and Treatment of Guizhou Province ,  Guiyang ,  China
+L6: Background
+L7: Taekwondo involves dynamic kicking and intermittent high-intensity efforts; the quantitative effects of training and supplementation on sport-specific outcomes remain unclear.
+L8: Objective
+L9: To systematically quantify the effects of exercise training and nutritional supplementation on taekwondo-specific performance indicators—TSAT, FSKT (10-s and multiple-bout), CMJ, VO 2 max, and heart-rate indices (HRmean, HRmax, HRpeak)—and to explore potential moderators.
+L10: Methods
+L11: A PRISMA-guided systematic review and random-effects meta-analysis (SMD, 95% CI) were conducted on randomized or quasi-experimental studies involving taekwondo athletes. Risk of bias was assessed using RoB 2.0. Primary outcomes included TSAT and FSKT performance; secondary outcomes included CMJ, VO 2 max, and HR indices.
+L12: Results
+L13: Exercise training significantly improved TSAT (SMD = −0.82; 95% CI: −1.43 to −0.21), FSKT-10s (SMD = 0.82; 95% CI: 0.15–1.49), FSKT-mult (SMD = 0.95; 95% CI: 0.55–1.35), and VO 2 max (SMD = 1.54; 95% CI: 0.58–2.49); CMJ (SMD = 0.21; 95% CI: −0.02–0.45) and HRmax (SMD = −0.02; 95% CI: −0.48–0.44) showed no significant changes. Nutritional supplementation—especially caffeine—improved TSAT (SMD = −1.41; 95% CI: −2.24 to −0.57), FSKT-10s (SMD = 1.82; 95% CI: 1.08–2.57), FSKT-mult (SMD = 1.67; 95% CI: 0.72–2.62), and VO 2 max (SMD = 0.95; 95% CI: 0.60–1.31), with no effect on HR_mean (SMD = 0.10; 95% CI: −0.28–0.47) or HRpeak (SMD = 0.28; 95% CI: −0.46–1.02).
+L14: Conclusion
+L15: Both exercise training and nutritional supplementation significantly improve agility, repeated-kick performance, and aerobic capacity in taekwondo athletes. Nevertheless, the findings should be generalized cautiously due to the observed heterogeneity. Future well-designed, adequately powered randomized controlled trials with standardized protocols are warranted.
+L16: Systematic review registration
+L17: Identifier: CRD420251007058.
+L18: Systematic Review
+L19: taekwondo; training; supplementation; agility; repeated-kick; VO 2 max; meta-analysis
+L20: Introduction
+L21: Taekwondo is a dynamic Olympic combat sport characterized by rapid, high-precision kicking techniques and complex tactical execution ( 1–3 ). In contrast to boxing, judo, or wrestling, taekwondo performance primarily depends on high-speed, high-accuracy kicks aimed at specific scoring zones to gain tactical superiority or achieve technical knockdowns ( 4 ,  5 ). Since its inclusion in the Olympic Games in 2000, taekwondo has expanded globally, with increasingly demanding competition formats that require athletes to sustain repeated explosive actions interspersed with brief recovery periods—an effort pattern that mirrors a high-intensity interval training (HIIT) profile ( 6 ).
+L22: These physiological demands necessitate superior aerobic and anaerobic capacities, neuromuscular power, agility, and flexibility to efficiently utilize the glycolytic energy system ( 2 ,  3 ). The sport’s kinematic profile—comprising rapid kicking sequences, intricate footwork, ballistic jumping attacks, and dynamic defensive maneuvers—requires specialized physiological adaptations ( 4 ,  5 ). To evaluate these multidimensional demands, several validated sport-specific and general performance tests are commonly used. The Taekwondo-Specific Agility Test (TSAT) and the Frequency-Speed Kick Test (FSKT) assess agility, technical accuracy, and fatigue resistance ( 6 ,  7 ), while the countermovement jump (CMJ) quantifies lower-limb explosive power, which is crucial for ballistic kicking performance ( 8 ,  9 ). Aerobic capacity indicators, including maximal oxygen uptake (VO₂max) and heart-rate indices (HR_mean, HR_max, HR_peak), further reflect cardiovascular efficiency and recovery ability ( 10–12 ).
+L23: This integrative assessment framework has been extensively validated and widely applied in taekwondo sport-science research to capture the foundational determinants of performance ( 13 ,  14 ). Nonetheless, taekwondo performance remains multifactorial, encompassing physiological, technical, tactical, and psychological dimensions ( 15 ). Over the past decade, research has increasingly investigated exercise-based and nutritional interventions targeting these performance components. Exercise training—including plyometric, resistance, and HIIT protocols—has been shown to enhance neuromuscular strength, agility, and endurance ( 16–20 ). Meanwhile, nutritional supplementation—such as caffeine, creatine, β-alanine, and vitamin D—has demonstrated potential to optimize energy metabolism, delay fatigue, and improve recovery ( 21–23 ). However, considerable interindividual variability in response to these interventions persists, influenced by sex, dosage, genetic factors, and training experience ( 24–28 ). Approximately 20–30% of athletes are reported to be “non-responders,” underscoring the complexity of tailoring interventions to specific physiological profiles ( 26 ,  29 ,  30 ).
+L24: Previous reviews have often aggregated findings across heterogeneous combat sports or focused on single interventions, limiting sport-specific interpretability for taekwondo. Methodological inconsistencies—including small sample sizes, short intervention durations, and heterogeneous assessment protocols—further constrain the generalization of findings ( 28 ,  31–33 ). Consequently, there remains a lack of comprehensive synthesis evaluating both exercise and nutritional strategies within a unified analytical framework.
+L25: To address this gap, the present systematic review and meta-analysis aimed to synthesize evidence on the effects of exercise training and nutritional supplementation on taekwondo-specific and general performance outcomes. The primary outcomes were TSAT, FSKT-10s, and FSKT-mult, which directly reflect sport-specific agility and repeated-kick performance. The secondary outcomes included CMJ, VO 2 max, and heart-rate indices (HR_mean, HR_max, HR_peak), representing broader physiological capacities. Furthermore, methodological and participant-related moderators were explored to identify potential sources of heterogeneity and to inform evidence-based performance enhancement in taekwondo athletes.
+L26: Methods
+L27: Protocol and registration
+L28: This systematic review and meta-analysis was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines. The study protocol was prospectively registered with the International Prospective Register of Systematic Reviews (PROSPERO) prior to data collection and literature retrieval (registration number: CRD420251007058).
+L29: Study design
+L30: This study adopted a systematic review and meta-analysis design aimed at comprehensively evaluating the effects of exercise and nutritional supplementation on physical performance in taekwondo athletes.
+L31: Data sources and search strategy
+L32: The literature search covered studies published from the inception of each database up to February 27, 2025. A comprehensive search was conducted in PubMed, Scopus, and Web of Science (WoS). Keywords related to the study objectives were applied to titles, abstracts, and full texts to maximize the retrieval of potentially eligible studies (detailed search strategies are provided in  Appendix 1 ).
+L33: To enhance both accuracy and efficiency, the search syntax was customized for each database: [Title/Abstract] in PubMed, TITLE-ABS-KEY in Scopus, and TS (Topic) in WoS. Boolean operators (AND, OR, NOT) were employed to refine keyword combinations. Studies involving patient or clinical populations were excluded to ensure that only those focusing on taekwondo athletes were retained.
+L34: The search was confined to peer-reviewed English-language journal articles. Grey literature—including theses, dissertations, conference proceedings, and non–peer-reviewed reports—was not considered in order to maintain methodological consistency and ensure data transparency across studies.
+L35: Inclusion and exclusion criteria
+L36: Inclusion criteria
+L37: To ensure methodological rigor and practical relevance, studies were eligible for inclusion if they met the following criteria (see  Table 1 ).
+L38: Table 1 Inclusion criteria based on the PICOS framework.
+L39: To ensure clarity in the interpretation of study outcomes, operational definitions and their corresponding performance capacities are detailed in  Table 2 . Primary outcomes were prespecified as taekwondo-specific performance measures (TSAT, FSKT-10s, FSKT-mult) whereas secondary outcomes were defined as general physical fitness indicators (CMJ, VO₂max) and cardiovascular responses (HR_mean, HR_max, HR_peak). This hierarchy reflects sport-specific relevance and anticipated responsiveness to interventions.
+L40: Table 2 Definitions of outcome measures and corresponding physical abilities.
+L41: Exclusion criteria
+L42: Studies meeting any of the following conditions were excluded (see  Table 3 ).
+L43: Table 3 Exclusion criteria based on the PICOS framework.
+L44: Data extraction and processing procedures
+L45: To ensure the methodological rigor of this study, a double-blind literature screening procedure was adopted and carried out independently by two reviewers. In the initial screening phase, the two reviewers independently screened the titles and abstracts to identify studies that either met the inclusion criteria or required further evaluation. Studies that were potentially eligible or presented uncertainties were forwarded to the full-text review stage. Subsequently, the selected full texts were independently assessed by two reviewers (CX and WZ) to determine whether they met the inclusion criteria for the systematic review and meta-analysis. In the event of disagreement between the two reviewers (CX and WZ) during the screening process, consensus was sought through discussion; if consensus could not be reached, a third reviewer (LL) was consulted to make the final decision.
+L46: The data extraction process was also conducted independently by two reviewers (CX and WZ) using a pre-designed Excel extraction sheet to ensure standardized documentation. Extracted data included: first author, year of publication, study design, participant characteristics (e.g., age, body weight, training experience, and sex), sample size, intervention type (exercise modality and nutritional supplement), duration and frequency of intervention, and reported performance outcomes.
+L47: Outcome data were extracted from each study, including TSAT (seconds), FSKT (repetitions), CMJ (centimeters), VO 2 max (mL/kg/min), and HR (beats per minute, bpm), along with corresponding means and standard deviations (SD), standard errors (SE), or 95% confidence intervals (95% CI). If a study reported only SE without SD, SD was calculated using the formula SD = SE ×  
+L48:  n 
+L49:   (for paired/crossover designs, within-subject correlations were accounted for where available).
+L50: For studies with incomplete outcome reporting or graphical-only data, the original authors were contacted via email to request raw data. All extracted data were cross-verified by both reviewers to ensure accuracy and reliability.
+L51: Quality assessment and risk of bias evaluation
+L52: The Cochrane Risk of Bias tool (RoB 2.0), as recommended by the Cochrane Collaboration, was used to assess the methodological quality of the included studies. The assessment was independently performed by two reviewers (CX and WZ). RoB 2.0 domains include: randomization process; deviations from intended interventions; missing outcome data; measurement of the outcome; selection of the reported result. Each domain was categorized as having a “low risk,” “high risk,” or “some concerns” regarding bias. For each outcome, an overall risk of bias judgment was made following the RoB 2.0 algorithm: “low risk” if all domains were judged as low risk, “high risk” if at least one domain was judged as high risk, and “some concerns” if at least one domain raised some concerns but no domain was at high risk. Any discrepancies were resolved through discussion, with a third reviewer (LL) consulted when necessary.
+L53: Data analysis methods
+L54: The meta-analysis was performed using Review Manager (RevMan) and Stata 16.0 statistical software. The meta-analysis prioritized primary outcomes (TSAT, FSKT-10s, FSKT-mult); secondary outcomes (CMJ, VO 2 max, HR indices) were synthesized to contextualize sport-specific effects. Given the variation in measurement tools and units across the included studies, standardized mean difference (SMD) and corresponding 95% confidence intervals (95% CI) were adopted as the effect size metrics to facilitate comparability. SMD was calculated by dividing the difference in means between the intervention and control groups by the pooled standard deviation. A significance threshold of  p  < 0.05 was applied. The magnitude of the SMD was interpreted according to Cohen’s classification—pre-specified in the analysis plan—as trivial (SMD < 0.2), small (0.2 ≤ SMD < 0.5), moderate (0.5 ≤ SMD < 0.8), and large (SMD ≥ 0.8).
+L55: For multi-arm studies, we addressed potential dependencies between effect sizes through the following approaches: (1) extracting independent comparisons where each intervention group was separately compared with the control group; (2) using shared control group methods with sample size adjustments when appropriate to avoid double-counting of participants; (3) conducting sensitivity analyses excluding multi-arm studies to verify the robustness of results. Random-effects models were prespecified for primary analyses; fixed-effects models were used only in sensitivity analyses when heterogeneity was low ( p  ≥ 0.05 and  I 2  < 50%).
+L56: Heterogeneity among studies was assessed using the  I 2  statistic and  τ 2 . When  p  ≥ 0.05 and  I 2  < 50%, results were considered to show low heterogeneity; otherwise, substantial heterogeneity ( p  < 0.05 or  I 2  ≥ 50%) prompted subgroup/sensitivity analyses. Subgroup variables included intervention duration (≤1 week vs. >1 week), intervention type, sex, study design (RCT vs. crossover), weight category (≤65 kg vs. >65 kg), and training experience (≤5 years vs. >5 years). Subgroup analyses were pre-specified and interpreted cautiously. For subgroups with fewer than five studies (or fewer than 150 total participants), estimates were reported descriptively without emphasizing  p -values, and such findings were regarded as hypothesis-generating rather than confirmatory.
+L57: Random-effects meta-regression (REML) was planned only for outcomes with at least 10 effect sizes, using prespecified moderators including intervention type, duration, sex, study design, weight class, and training experience. Because most outcomes involved fewer than 10 contributing studies and CMJ exhibited negligible heterogeneity ( I 2  ≈ 0%), meta-regression was not performed or was limited to exploratory analyses that were not intended for confirmatory inference.
+L58: To characterize between-study variability,  a priori  subgroup analyses,  τ 2  estimates, and 95% prediction intervals (PI) were applied. When multiple effects were reported within a single study, potential dependency was minimized through shared-control adjustments and sensitivity analyses. Consideration was also given to the use of robust variance estimation, but this approach was not implemented due to the limited number of available studies.
+L59: In addition, when at least 10 studies were included for a given outcome, publication bias was preliminarily assessed by visual inspection of funnel plots generated using Stata 16.0, and by Egger’s test where appropriate; for outcomes with fewer than 10 studies, small-study effects were interpreted qualitatively due to limited power. Sensitivity analysis was also conducted by sequentially removing individual studies to observe changes in the pooled effect size, thereby verifying the robustness and stability of the results and strengthening the evidence supporting the conclusions.
+L60: Results
+L61: Literature search results
+L62: A total of 993 relevant records were identified through a systematic search of three major electronic databases: Web of Science (WoS), PubMed, and Scopus. Specifically, 538 records were retrieved from WoS, 154 from PubMed, and 301 from Scopus. Prior to the initial screening, 376 duplicate records were removed, resulting in 617 unique records eligible for title and abstract screening.
+L63: During this initial screening stage, 535 records were excluded based on titles and abstracts due to irrelevance to the research topic, leaving 82 articles for full-text assessment.
+L64: After full-text review, 51 articles were excluded for the following reasons: 19 did not report relevant outcome measures; 4 had unavailable full texts; 22 did not meet the required study design criteria; 3 provided incomplete post-intervention data; and 3 were non-English publications.
+L65: Following a rigorous and systematic screening process, a total of 31 studies met the inclusion criteria and were included in the subsequent analyses. A detailed flow diagram of the literature selection process is presented in  Figure 1 .
+L66: Figure 1 PRISMA flow diagram of the literature search and screening process.
+L67: Study characteristics and methodological quality assessment
+L68: Study design
+L69: Among the 31 studies included in this meta-analysis, 16 were randomized controlled trials (RCTs) and 15 were randomized crossover trials. Of these, 3 studies employed a four-arm design, 5 employed a three-arm design, and the remaining 23 were two-arm designs ( 27 ,  34–63 ). Detailed study designs and control conditions are presented in  Table 4 .
+L70: Table 4 Intervention characteristics.
+L71: Participant characteristics
+L72: A total of 739 taekwondo athletes were included, with ages ranging from 15 to 24.9 years. Regarding sex distribution, 13 studies enrolled only male athletes ( n  = 272), 2 enrolled only female athletes ( n  = 32), and 11 included both male ( n  = 172) and female athletes ( n  = 173). The remaining 5 studies did not specify the sex of participants ( n  = 90).
+L73: Intervention measures
+L74: Of the 31 included studies, 15 investigated exercise-only interventions, incorporating 18 different types of exercise strategies (see  Appendix 2  for details). Another 15 studies involved nutrition-only interventions, utilizing 11 different types of supplements (see  Appendix 3  for details). One study implemented both exercise and nutritional supplementation simultaneously.
+L75: Outcome measures
+L76: All included studies reported at least one of the following primary outcome measures: TSAT, FSKT-10s, FSKT-mult, CMJ, VO 2 max, and HR parameters (HR_mean, HR_max, and HR_peak).
+L77: Among studies on exercise training, 9 reported TSAT, 7 reported FSKT-10s, 9 reported FSKT-mult, 14 reported CMJ, 7 reported VO 2 max, 2 reported HR_mean, 3 reported HR_max, and none reported HR_peak.
+L78: Among studies on nutritional supplementation, 4 reported TSAT, 4 reported FSKT-10s, 6 reported FSKT-mult, 1 reported CMJ, 4 reported VO 2 max, 5 reported HR_mean, 1 reported HR_max, and 5 reported HR_peak.
+L79: Risk of bias assessment
+L80: According to the RoB 2.0 risk of bias assessment, the overall methodological quality of the 31 randomized controlled trials included in this study was relatively high. Among the six core evaluation domains, the randomization process performed best, with approximately 90% of studies judged as low risk and only 10% rated as having some concerns. Missing outcome data and selective reporting were also well controlled, with more than 85% of studies classified as low risk. By contrast, the measurement of outcome domain was relatively weaker, with about 75% rated as low risk and 25% as having some concerns. For deviations from intended interventions, 80% of studies were rated low risk, 15% had some concerns, and 5% were rated high risk. Overall, 80% of the included studies were judged as having low risk of bias, 20% as having some concerns, and none as high risk.
+L81: At the study level, the vast majority of trials demonstrated low risk (green) across key methodological domains, indicating generally acceptable design and implementation quality. The primary methodological concerns were concentrated in the domains of outcome measurement and deviations from intended interventions, where several studies were rated as “unclear risk” (yellow) due to insufficient objectivity in measurement methods or incomplete blinding implementation. Notably, no study was rated as high risk (red) in any domain, which strengthens the credibility of the meta-analysis findings and reflects the strict inclusion criteria applied, effectively minimizing the entry of low-quality studies.
+L82: The results of the RoB 2.0 assessment are illustrated in  Figures 2 ,  3 .
+L83: Figure 2 Overall distribution of risk of bias across included studies.
+L84: Figure 3 Summary of risk of bias for each included study (green plus sign = low risk; yellow question mark = unclear risk; red minus sign = high risk).
+L85: Meta-analysis results
+L86: Effects of exercise trainings
+L87: Improvement in Taekwondo-Specific Agility Test
+L88: A total of 9 studies were included in this meta-analysis to evaluate the effect of exercise training on TSAT. As shown in  Figure 4 , the meta-analysis results indicated that compared with the control group, exercise training significantly reduced the time required to complete TSAT. The standardized mean difference demonstrated a large and statistically significant effect (SMD = −0.82; 95% CI: −1.43 to −0.21;  I 2  = 73.4%;  p  = 0.009).
+L89: Figure 4 Forest plot of the effect of exercise training on TSAT.
+L90: Improvement in 10-s Frequency Speed of Kick Test
+L91: Seven studies were included in the meta-analysis evaluating the effect of exercise training on FSKT-10s. As shown in  Figure 5 , taekwondo athletes who received exercise training performed significantly better in FSKT-10s compared with the control group, as reflected by a notable increase in the number of kicks. The effect size was moderate (SMD = 0.82; 95% CI: 0.15 to 1.49;  I 2  = 76.8%;  p  = 0.016).
+L92: Figure 5 Forest plot of the effect of exercise training on FSKT-10s.
+L93: Improvement in multiple-bout Frequency Speed of Kick Test
+L94: Nine studies were included to evaluate the effect of exercise training on FSKT-mult. As shown in  Figure 6 , taekwondo athletes who received exercise training performed significantly better than controls, as evidenced by a clear increase in the number of kicks. The standardized mean difference revealed a large and statistically significant effect (SMD = 0.95; 95% CI: 0.55 to 1.35;  I 2  = 55%;  p  < 0.001).
+L95: Figure 6 Forest plot of the effect of exercise training on FSKT-mult.
+L96: Improvement in countermovement jump
+L97: Fourteen studies were included in the CMJ meta-analysis. As shown in  Figure 7 , compared with the control group, exercise training did not produce a statistically significant improvement in CMJ. Only a slight, non-significant trend toward enhancement was observed (SMD = 0.21; 95% CI: −0.02 to 0.45;  I 2  = 0%;  p  = 0.07). The heterogeneity across studies was minimal, indicating a high level of result consistency.
+L98: Figure 7 Forest plot of the effect of exercise training on CMJ.
+L99: Improvement in maximal oxygen uptake
+L100: Seven studies were included to evaluate the effect of exercise training on VO 2 max. As shown in  Figure 8 , athletes who underwent exercise training demonstrated a significantly greater improvement in VO 2 max compared with controls, with a large and statistically significant effect size (SMD = 1.54; 95% CI: 0.58 to 2.49;  I 2  = 84%;  p  = 0.002). Although there was substantial heterogeneity among studies—reducing the consistency of results—the overall findings clearly demonstrated that exercise training significantly enhanced aerobic metabolic capacity in taekwondo athletes.
+L101: Figure 8 Forest plot of the effect of exercise training on VO 2 max.
+L102: Improvement in maximum heart rate
+L103: Five studies were included in the HR_max meta-analysis. As shown in  Figure 9 , no significant between-group difference was observed in HR_max between the exercise and control groups. The standardized mean difference indicated a negligible and statistically non-significant effect (SMD = −0.02; 95% CI: −0.48 to 0.44;  I 2  = 0%;  p  = 0.993), with no substantial heterogeneity across studies.
+L104: Figure 9 Forest plot of the effect of exercise training on HR_max.
+L105: Effects of nutritional supplementations
+L106: Improvement in Taekwondo-Specific Agility Test
+L107: A total of four studies were included in this meta-analysis to evaluate the effect of caffeine supplementation on TSAT. As shown in  Figure 10 , the results indicated that, compared with the control group, the caffeine group exhibited a significantly shorter TSAT completion time, reflecting a notable improvement in agility performance. The effect size was large and statistically significant (SMD = −1.41; 95% CI: −2.24 to −0.57;  I 2  = 81.9%;  p  = 0.001). Substantial heterogeneity was observed, suggesting that results should be interpreted with caution.
+L108: Figure 10 Forest plot of the effect of nutritional supplementation on TSAT.
+L109: Improvement in 10-s Frequency Speed of Kick Test
+L110: Four studies were included in the meta-analysis evaluating the effect of caffeine supplementation on FSKT-10s. As shown in  Figure 11 , caffeine intake significantly increased the number of kicks performed during FSKT-10s compared with the control group. The effect size was large and statistically significant (SMD = 1.82; 95% CI: 1.08 to 2.57;  I 2  = 74.2%;  p  < 0.001), although moderate heterogeneity was present.
+L111: Figure 11 Forest plot of the effect of nutritional supplementation on FSKT-10s.
+L112: Improvement in multiple-bout Frequency Speed of Kick Test
+L113: Six studies were included in this meta-analysis to evaluate the effect of nutritional supplementation on FSKT-mult. As shown in  Figure 12 , athletes who received nutritional supplementation performed significantly better than those in the control group, as indicated by a substantial increase in the number of kicks. The effect size was large and statistically significant (SMD = 1.67; 95% CI: 0.72 to 2.62;  I 2  = 88.5%;  p  = 0.001). High heterogeneity was observed, indicating variability among study designs and supplementation protocols.
+L114: Figure 12 Forest plot of the effect of nutritional supplementation on FSKT-mult.
+L115: Improvement in maximal oxygen uptake
+L116: Four studies were included to assess the effect of nutritional supplementation on VO 2 max. As shown in  Figure 13 , taekwondo athletes receiving nutritional supplementation demonstrated significantly greater improvements in VO 2 max compared with the control group. The effect size was large and statistically significant (SMD = 0.95; 95% CI: 0.60 to 1.31;  I 2  = 0%;  p  < 0.001), indicating a consistent enhancement of aerobic capacity across studies.
+L117: Figure 13 Forest plot of the effect of nutritional supplementation on VO 2 max.
+L118: Improvement in mean heart rate
+L119: Five studies were included to explore the effect of nutritional supplementation on HR_mean. As shown in  Figure 14 , there was no significant difference between the supplementation and control groups. The effect size was negligible and not statistically significant (SMD = 0.10; 95% CI: −0.28 to 0.47;  I 2  = 0%;  p  = 0.611), with no heterogeneity detected.
+L120: Figure 14 Forest plot showing the effect of nutritional supplementation on HR_mean.
+L121: Improvement in peak heart rate
+L122: Five studies were included in the meta-analysis of HR_peak. As shown in  Figure 15 , nutritional supplementation did not significantly affect HR_peak compared with the control group. The effect size was small and not statistically significant (SMD = 0.28; 95% CI: −0.46 to 1.02;  I 2  = 73.8%;  p  = 0.463). Considerable heterogeneity was observed across studies, which may reflect variations in supplement type, dosage, and assessment protocols.
+L123: Figure 15 Forest plot showing the effect of nutritional supplementation on HR_peak.
+L124: Subgroup analysis results
+L125: Given the substantial heterogeneity identified in the overall analysis, subgroup analyses were conducted to explore potential sources of heterogeneity. Subgroups were categorized based on intervention duration, type of exercise intervention, sex, study design, body weight, and training experience.
+L126: Subgroup analysis of exercise trainings
+L127: TSAT
+L128: A detailed subgroup analysis was conducted to examine the effects of exercise training on TSAT (see  Table 5 ).
+L129: Table 5 Subgroup analysis of exercise training.
+L130: Intervention duration : When the duration was ≤1 week or >1 week, the effects were not statistically significant (SMD = −0.72; 95% CI: −1.53 to 0.09;  I 2  = 73.4%;  p  = 0.082) (SMD = −0.90; 95% CI: −1.84 to 0.04;  I 2  = 77.8%;  p  = 0.045), with high heterogeneity.
+L131: Type of intervention : Conditioning activity significantly improved TSAT (SMD = −1.14; 95% CI: −1.69 to −0.59;  I 2  = 0%;  p  < 0.001) with low heterogeneity. In contrast, HIIT (SMD = −1.11; 95% CI: −2.65 to 0.43;  I 2  = 79.8%;  p  = 0.158), repeated training (SMD = −1.31; 95% CI: −3.34 to 0.71; I 2  = 84.1%;  p  = 0.204), and other types (SMD = 0.11; 95% CI: −0.38 to 0.60;  I 2  = 0%;  p  = 0.670) showed no significant effects, with high heterogeneity in the former two.
+L132: Sex : Mixed-sex groups showed significant improvement in TSAT (SMD = −1.23; 95% CI: −2.55 to −0.21;  I 2  = 82.2%;  p  = 0.018), whereas male-only groups did not (SMD = −0.40; 95% CI: −1.07 to 0.27;  I 2  = 53.3%;  p  = 0.241), with high heterogeneity in both.
+L133: Study design : Crossover studies reported significant effects (SMD = −1.14; 95% CI: −1.69 to −0.58;  I 2  = 0%;  p  < 0.001) with low heterogeneity, while RCTs did not reach significance (SMD = −0.72; 95% CI: −1.49 to 0.04;  I 2  = 76.3%;  p  = 0.063), with high heterogeneity.
+L134: Body weight : Significant effects were observed in studies with body weight ≤65 kg (SMD = −1.20; 95% CI: −2.28 to −0.13;  I 2  = 81.9%;  p  = 0.028) and unspecified weight (SMD = −1.15; 95% CI: −1.91 to −0.40;  I 2  = NA;  p  = 0.003), while no effect was seen in >65 kg groups (SMD = −0.11; 95% CI: −0.59 to 0.38;  I 2  = 0%;  p  = 0.666).
+L135: Training experience : Significant improvement in TSAT was found in >5-year experience groups (SMD = −1.07; 95% CI: −1.79 to −0.36; I 2  = 61.1%;  p  = 0.003), while ≤5-year groups did not show significant results (SMD = −0.49; 95% CI: −1.40 to 0.43;  I 2  = 76.8%;  p  = 0.296).
+L136: FSKT-10s
+L137: Subgroup analysis results for the effect of exercise training on FSKT-10s are shown in  Table 5 .
+L138: Type of intervention : Conditioning activity and strength-and-conditioning significantly improved performance (SMD = 2.13; 95% CI: 0.52 to 3.74;  I 2  = 82.8%;  p  = 0.010) (SMD = 0.50; 95% CI: 0.04 to 0.96;  I 2  = 4.8%;  p  = 0.033). No significant effects were found for other types (SMD = 0.25; 95% CI: −0.32 to 0.82;  I 2  = 0%;  p  = 0.389).
+L139: Sex : Significant effects were observed in male-only groups (SMD = 1.35; 95% CI: 0.58 to 2.12;  I 2  = NA;  p  = 0.001) and mixed-sex groups (SMD = 1.28; 95% CI: 0.01 to 2.55;  I 2  = 89.6%;  p  = 0.049), with higher heterogeneity in the latter. No effect was found in groups with unspecified sex (SMD = 0.12; 95% CI: −0.53 to 0.77;  I 2  = 0%;  p  = 0.718).
+L140: Study design : Neither RCTs (SMD = 0.95; 95% CI: −0.12 to 2.01;  I 2  = 50.7%;  p  = 0.082) nor crossover designs (SMD = 0.54; 95% CI: −0.05 to 1.13;  I 2  = 81.1%;  p  = 0.071) reached statistical significance, both showing moderate-to-high heterogeneity.
+L141: FSKT-mult
+L142: To further clarify the effects of exercise training on FSKT-mult, subgroup analyses were conducted based on intervention duration, type, sex, study design, body weight, and training experience (see  Table 5 ).
+L143: Intervention duration : Significant improvements were observed in studies with duration ≤1 week (SMD = 1.07; 95% CI: 0.65 to 1.49;  I 2  = 53.9%;  p  < 0.001), with moderate heterogeneity. No significant effect was found for >1 week (SMD = 0.34; 95% CI: −0.59 to 1.28;  I 2  = 32.6%;  p  = 0.470).
+L144: Type of intervention : Muscle-relaxation/recovery interventions significantly improved performance with no heterogeneity (SMD = 0.67; 95% CI: 0.20 to 1.14;  I 2  = 0%;  p  = 0.005). Sports training also showed significant improvement (SMD = 1.11; 95% CI: 0.54 to 1.67;  I 2  = 65.5%;  p  < 0.001), though with moderate heterogeneity.
+L145: Sex : Significant improvements were found in both male-only groups (SMD = 0.77; 95% CI: 0.37 to 1.16;  I 2  = 0%;  p  < 0.001) and mixed-sex groups (SMD = 1.13; 95% CI: 0.43 to 1.83;  I 2  = 72.2%;  p  = 0.002), with higher heterogeneity in the latter.
+L146: Study design : Both RCTs (SMD = 0.86; 95% CI: 0.30 to 1.42;  I 2  = 49.8%;  p  = 0.002) and crossover designs (SMD = 1.05; 95% CI: 0.40 to 1.69;  I 2  = 66%;  p  = 0.001) showed significant effects with moderate heterogeneity.
+L147: Body weight : Significant effects were observed in ≤65 kg (SMD = 1.18; 95% CI: 0.34 to 2.01;  I 2  = 78.9%;  p  = 0.006), >65 kg (SMD = 0.70; 95% CI: 0.26 to 1.14;  I 2  = 0%;  p  = 0.002), and unspecified weight groups (SMD = 0.99; 95% CI: 0.26 to 1.73;  I 2  = NA;  p  = 0.008), with high heterogeneity in the ≤65 kg group.
+L148: Training experience : Significant effects were observed in >5-year groups (SMD = 0.96; 95% CI: 0.52 to 1.39;  I 2  = 60.6%;  p  < 0.001) with moderate heterogeneity, while no effect was found in ≤5-year groups (SMD = 0.89; 95% CI: −0.31 to 2.09;  I 2  = NA;  p  = 0.145).
+L149: VO 2 max
+L150: Subgroup analysis of VO 2 max was conducted based on intervention type, sex, body weight, and training experience (see  Table 5 ).
+L151: Type of intervention : Both HIIT (SMD = 2.26; 95% CI: 0.30 to 4.22;  I 2  = 91.6%;  p  = 0.024) and inspiratory muscle training (SMD = 0.98 95% CI: 0.30 to 1.66;  I 2  = 0%;  p  = 0.005) significantly improved VO 2 max, though HIIT showed very high heterogeneity. Other types showed no significant effect (SMD = 0.75; 95% CI: −0.07 to 1.58;  I 2  = NA;  p  = 0.073).
+L152: Sex : Significant improvements were observed in male-only (SMD = 0.89; 95% CI: 0.52 to 1.27;  I 2  = 0%;  p  < 0.001) and unspecified-sex groups (SMD = 6.83; 95% CI: 4.91 to 8.76;  I 2  = NA;  p  < 0.001).
+L153: Body weight : Significant improvement was found in >65 kg groups (SMD = 1.73; 95% CI: 0.56 to 2.89;  I 2  = 86.4;  p  = 0.004), with high heterogeneity. No significant effect was found in ≤65 kg groups (SMD = 0.75; 95% CI: −0.07 to 1.58;  I 2  = NA%;  p  = 0.073).
+L154: Training experience : In ≤5-year groups, VO₂max was significantly improved (SMD = 1.80; 95% CI: 0.52 to 3.08;  I 2  = 88.7%;  p  = 0.006), though heterogeneity was high. No significant effect was observed in >5-year groups (SMD = 0.99; 95% CI: −0.18 to 2.17;  I 2  = 50.8%;  p  = 0.096), with moderate heterogeneity.
+L155: Subgroup analysis of nutritional supplementations
+L156: To further explore the effects of nutritional supplementation on TSAT, FSKT-10s and FSKT-mult performance in taekwondo athletes, subgroup analyses were conducted based on intervention duration, type of nutritional intervention, sex, study design, and training experience. Detailed results are presented in  Table 6 .
+L157: Table 6 Subgroup analysis of nutrition supplementation.
+L158: TSAT
+L159: Subgroup analysis of TSAT was based on intervention duration and training experience, with the following results.
+L160: Intervention duration : Nutritional supplementation significantly improved TSAT performance in both the ≤1 week subgroup (SMD = −0.79; 95% CI: −1.15 to −0.43;  I 2  = 0%;  p  < 0.001) and the >1 week subgroup (SMD = −2.15; 95% CI: −3.76 to −0.51;  I 2  = 84%;  p  = 0.009), with low heterogeneity in the 1 week subgroup.
+L161: Training experience : Significant improvements were observed in the >5 years subgroup (SMD = −1.68; 95% CI: −2.86 to −0.51;  I 2  = 82.3%;  p  = 0.005) and the unspecified training experience subgroup (SMD = −0.78; 95% CI: −1.18 to −0.39;  I 2  = NA;  p  < 0.001), though the former exhibited high heterogeneity.
+L162: FSKT-10s
+L163: Subgroup analysis of FSKT-10s was based on intervention duration and training experience, with the following results.
+L164: Intervention duration : Nutritional supplementation significantly improved FSKT-10s performance in both the ≤1 week subgroup (SMD = 1.46; 95% CI: 0.63 to 2.30;  I 2  = 65.2%;  p  = 0.001) and the >1 week subgroup (SMD = 2.19; 95% CI: 0.84 to 3.54;  I 2  = 77.4%;  p  = 0.002), although both exhibited moderate-to-high heterogeneity.
+L165: Training experience : Significant improvements were observed in the >5 years subgroup (SMD = 2.10; 95% CI: 1.32 to 2.83;  I 2  = 54.9%;  p  < 0.001) and the unspecified training experience subgroup (SMD = 1.13; 95% CI: 0.71 to 1.54;  I 2  = NA;  p  < 0.001).
+L166: FSKT-mult
+L167: Subgroup analysis of FSKT-mult was conducted across five covariates: intervention duration, type of nutritional intervention, sex, study design, and training experience.
+L168: Intervention duration : Nutritional supplementation significantly enhanced FSKT-mult performance in both the ≤1 week subgroup (SMD = 0.86; 95% CI: 0.14 to 1.58;  I 2  = 71%;  p  = 0.019) and the >1 week subgroup (SMD = 2.57; 95% CI: 0.79 to 4.34;  I 2  = 88.8%;  p  = 0.005), both showing high heterogeneity.
+L169: Type of nutritional intervention : Caffeine ingestion significantly improved FSKT-mult performance (SMD = 2.29; 95% CI: 0.89 to 3.69;  I 2  = 91.4%;  p  = 0.001), though heterogeneity was high. No significant effect was observed for other supplement types (SMD = 0.49; 95% CI: −0.23 to 1.22;  I 2  = 35%;  p  = 0.180).
+L170: Sex : Nutritional supplementation significantly improved FSKT-mult in both female groups (SMD = 3.44; 95% CI: 2.65 to 4.23;  I 2  = 0%;  p  < 0.001) and mixed-sex groups (SMD = 1.05; 95% CI: 0.53 to 1.57;  I 2  = 41.9%;  p  < 0.001), with higher heterogeneity in the latter. No significant effect was found in unspecified-sex groups (SMD = 0.16; 95% CI: −0.61 to 0.93;  I 2  = NA;  p  = 0.690).
+L171: Study design : Nutritional supplementation was effective in both RCTs (SMD = 0.90; 95% CI: 0.02 to 1.78;  I 2  = NA;  p  = 0.046) and crossover studies (SMD = 1.84; 95% CI: 0.69 to 2.99;  I 2  = 90.7%;  p  = 0.002), though the latter exhibited high heterogeneity.
+L172: Training experience : FSKT-mult performance was significantly improved in the ≤5 years subgroup (SMD = 0.90; 95% CI: 0.02 to 1.78;  I 2  = NA;  p  = 0.046), the >5 years subgroup (SMD = 2.15; 95% CI: 0.55 to 3.76;  I 2  = 91.2%;  p  = 0.009), and the unspecified experience subgroup (SMD = 0.81; 95% CI: 0.41 to 1.21;  I 2  = NA;  p  < 0.001).
+L173: For a detailed summary of effect sizes and subgroup comparisons, please refer to  Table 6 .
+L174: Sensitivity analysis
+L175: To assess the robustness of the meta-analytic findings, sensitivity analyses were performed for all performance-related outcomes in taekwondo athletes. The analyses involved sequentially removing each individual study to examine whether the pooled effect size remained stable—that is, whether the revised estimate after exclusion stayed within the 95% CI of the overall pooled effect.
+L176: The results indicated that the exclusion of any single study did not substantially alter the direction or magnitude of the overall effects, suggesting that the findings of this meta-analysis are robust and not unduly influenced by any single trial. Sensitivity analysis results for exercise training are presented in  Figures 16 – 21 , and those for nutritional supplementation are shown in  Figures 22 – 27 .
+L177: Figure 16 Sensitivity analysis chart of TSAT for exercise training.
+L178: Figure 17 Sensitivity analysis chart of FSKT-10s for exercise training.
+L179: Figure 18 Sensitivity analysis chart of FSKT-mult for exercise training.
+L180: Figure 19 Sensitivity analysis chart of CMJ for exercise training.
+L181: Figure 20 Sensitivity analysis chart of VO 2 max for exercise training.
+L182: Figure 21 Sensitivity analysis chart of HR_max for exercise training.
+L183: Figure 22 Sensitivity analysis chart of TSAT for nutritional supplementation.
+L184: Figure 23 Sensitivity analysis chart of FSKT-10s for nutritional supplementation.
+L185: Figure 24 Sensitivity analysis chart of FSKT-mult for nutritional supplementation.
+L186: Figure 25 Sensitivity analysis chart of VO 2 max for nutritional supplementation.
+L187: Figure 26 Sensitivity analysis chart of HR_mean for nutritional supplementation.
+L188: Figure 27 Sensitivity analysis chart of HR_peak for nutritional supplementation.
+L189: Publication bias assessment
+L190: To further assess the potential presence of publication bias, Egger’s regression test and Begg’s rank correlation test were employed for quantitative evaluation. The Egger’s test results for each outcome are summarized in  Table 7 .
+L191: Table 7 Egger’s test results for meta-analysis.
+L192: Overall, all Egger’s test  p -values were greater than 0.05—except for TSAT ( p  = 0.049) and VO 2 max ( p  = 0.032) in the exercise intervention subgroup—indicating no significant evidence of publication bias for most outcomes.
+L193: For the two potentially biased outcomes (TSAT and VO 2 max), the trim-and-fill method was applied for adjustment. The results revealed that no missing studies were imputed, and the adjusted pooled estimates changed from TSAT: SMD = −0.82 (95% CI: −1.43 to −0.21;  p  = 0.009) to SMD = 0.44 (95% CI: 0.24 to 0.81;  p  = 0.009), and from VO 2 max: SMD = 1.54 (95% CI: 0.58 to 2.49;  p  = 0.002) to SMD = 4.65 (95% CI: 1.79 to 12.08;  p  = 0.002).
+L194: The consistency of statistical significance and direction before and after adjustment suggests that the potential publication bias for TSAT and VO 2 max is minimal and has negligible impact on the final conclusions.
+L195: Additionally, Begg’s funnel plots were generated to visually inspect publication bias. Most studies were symmetrically distributed within the 95% CI range, and no substantial asymmetry was detected in the funnel plots, confirming the absence of major bias. Detailed results are presented in  Appendix 5 .
+L196: Discussion
+L197: This study systematically evaluated the effects of exercise training and nutritional supplementation on physical performance in taekwondo athletes using a meta-analytic approach. Key performance indicators—including TSAT, FSKT, CMJ, VO 2 max, and HR—were analyzed to provide evidence-based insights into sport-specific and physiological adaptations. Despite the widespread use of both exercise and nutritional interventions in combat sports, their combined or comparative impacts in taekwondo have remained underexplored. The present meta-analysis further examined moderating factors such as intervention duration, type, sex, body weight, and training experience, thereby offering implications for individualized and evidence-based conditioning strategies.
+L198: Main findings
+L199: Effects of exercise training
+L200: Exercise training significantly improved TSAT, FSKT-10s, FSKT-mult, and VO 2 max, confirming its pivotal role in enhancing both agility and aerobic capacity. These findings align with prior evidence showing that resistance, plyometric, and HIIT programs markedly enhance agility and sport-specific speed performance ( 64–68 ). Agility, reflecting rapid directional changes and neuromuscular control, is a key determinant of competitive success in taekwondo ( 67 ,  68 ). Improvements in FSKT likely stem from enhanced lower-limb strength, neuromuscular coordination, and anaerobic endurance, as both resistance and HIIT training promote muscle power and fatigue tolerance ( 69 ,  70 ).
+L201: The effect on CMJ was small and statistically non-significant, consistent with mixed findings in earlier studies ( 71–73 ). This may reflect the limited sensitivity of CMJ to short-term or non-specific interventions that fail to replicate taekwondo’s explosive movement patterns. Conversely, the substantial improvement in VO 2 max supports prior findings that HIIT elicits superior aerobic adaptations compared with steady-state endurance training ( 66 ,  74–76 ). The non-significant changes in HRmax are consistent with evidence suggesting that short-term interventions may not induce measurable cardiac remodeling ( 37 ,  77–80 ).
+L202: Physiologically, exercise-induced performance enhancement is mediated by mitochondrial biogenesis, increased capillary density, elevated cardiac output, and neural activation through resistance or plyometric loading ( 81–84 ). Moreover, exercise-induced myokines such as IL-6 and irisin (FNDC5) enhance metabolic efficiency, regulate substrate utilization, and delay fatigue ( 85 ,  86 ). Collectively, these findings underscore that systematic and periodized exercise training is fundamental to improving both agility and aerobic fitness in taekwondo athletes.
+L203: Main findings of nutritional supplementations
+L204: Nutritional supplementation—particularly caffeine—also produced significant improvements in TSAT, FSKT-10s, FSKT-mult, and VO 2 max. The ergogenic effects of caffeine, previously shown to enhance agility, endurance, and fatigue resistance ( 87–90 ), are largely mediated by increased calcium release, stimulation of Na + /K + -ATPase activity, and central nervous system arousal ( 91–93 ). These effects appear more pronounced in male athletes and occur even at relatively low doses (0.9–2 mg/kg) ( 88 ,  89 ).
+L205: The observed increase in VO 2 max following nitrate or Ejiao supplementation supports evidence that enhanced oxygen transport, improved redox balance, and elevated nitric oxide bioavailability can facilitate endurance performance ( 94 ,  95 ). However, no significant effects were observed for HRmean or HRpeak ( 96 ,  97 ), likely due to small sample sizes, variable testing protocols, and short intervention durations. Similarly, vitamin D supplementation did not improve CMJ, echoing recent findings that vitamin D may exert limited ergogenic influence in well-trained populations ( 46 ,  98–100 ).
+L206: Other bioactive compounds, such as polyphenols and dietary nitrates, may further augment performance by promoting vasodilation, reducing oxidative stress, and enhancing muscle oxygenation ( 101–104 ). Overall, both exercise and supplementation improved taekwondo performance, though exercise training was more effective for agility and VO 2 max, while caffeine supplementation provided superior benefits for repeated kicking performance (FSKT).
+L207: Subgroup analysis interpretation
+L208: Exercise training subgroups
+L209: Subgroup analyses revealed that intervention duration, type, sex, study design, body weight, and training experience moderated the effects of exercise training. Short-term interventions (≤1 week) yielded greater improvements in FSKT-mult, possibly reflecting acute neuromuscular potentiation and fatigue recovery, whereas longer-term programs were required for substantial agility gains (TSAT). Conditioning activities enhanced both TSAT and FSKT-10s, while HIIT and inspiratory muscle training produced the largest VO 2 max gains ( 105–107 ).
+L210: Male athletes exhibited smaller improvements in agility, likely due to higher baseline neuromuscular power, while lighter athletes (≤65 kg) achieved greater agility benefits and heavier athletes (>65 kg) improved VO₂max, possibly reflecting differences in body composition and oxygen utilization efficiency. Athletes with >5 years of experience demonstrated superior gains in agility and anaerobic performance, whereas less experienced athletes exhibited larger aerobic adaptations ( 70 ,  108 ,  109 ).
+L211: These results highlight the necessity of experience- and physiology-specific training prescriptions to maximize taekwondo performance.
+L212: Nutritional supplementation subgroups
+L213: Both short- and long-term nutritional interventions enhanced agility and repeated kicking performance, reflecting improvements in energy metabolism, oxygen utilization, and fatigue resistance ( 90 ). Caffeine supplementation produced the most consistent effects on FSKT-mult, attributable to enhanced calcium ion kinetics, increased motor unit recruitment, and delayed central fatigue ( 110 ,  111 ).
+L214: Future studies should explore synergistic combinations of ergogenic aids (e.g., caffeine with nitrates or amino acids) to determine additive effects across performance domains and metabolic pathways.
+L215: Strengths, limitations, and future perspectives
+L216: This meta-analysis represents the first comprehensive synthesis of both exercise and nutritional interventions targeting taekwondo athletes. It integrated six key physiological and performance indicators, thereby offering an evidence-based framework for optimizing training and supplementation strategies in combat sports.
+L217: However, several limitations should be acknowledged. First, considerable heterogeneity in study design, sample size, and measurement protocols may affect the generalizability of findings. Second, most studies investigated single interventions with short-term follow-up, precluding conclusions about long-term or combined effects. Third, several subgroup analyses were based on small samples ( k  = 2–3), limiting statistical power and precision; these results should therefore be interpreted as exploratory. Fourth, although publication bias was generally low, the restriction to English-language, peer-reviewed studies may still have introduced selection bias.
+L218: Future research should focus on large-scale, multicenter randomized controlled trials employing standardized testing and longitudinal tracking. Integrating physiological, biochemical, and psychological indicators will yield a more comprehensive understanding of performance adaptations. Moreover, AI-driven analytics and wearable technology could enable real-time performance monitoring, predictive modeling, and precision-tailored training or nutrition interventions, ultimately advancing the scientific basis for elite taekwondo performance optimization.
+L219: Conclusion
+L220: Exercise training significantly improved TSAT, FSKT-10s, FSKT-mult, and VO₂max, while CMJ and HRmax showed no significant effects. Nutritional supplementation, especially caffeine, enhanced TSAT, FSKT-10s, FSKT-mult, and VO₂max but did not affect HRmean or HRpeak.
+L221: Despite methodological heterogeneity, these findings offer practical, evidence-based guidance for designing integrated conditioning and supplementation strategies in taekwondo. Tailoring programs to athlete characteristics, experience level, and physiological demands may further enhance performance outcomes.
+L222: Data availability statement
+L223: The datasets analyzed in this study are available from the corresponding author upon reasonable request.
+L224: Author contributions
+L225: CX: Formal analysis, Resources, Visualization, Software, Writing – original draft, Methodology, Data curation, Conceptualization, Validation. WZ: Writing – original draft, Formal analysis, Resources, Validation, Data curation, Conceptualization. LL: Writing – review & editing, Supervision, Conceptualization, Funding acquisition.
+L226: Conflict of interest
+L227: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L228: Generative AI statement
+L229: The authors declare that Gen AI was used in the creation of this manuscript. Artificial intelligence (AI) tools were utilized to assist with English translation and proofreading in this study (or project) to enhance linguistic accuracy and expression clarity. The final responsibility for the scientific integrity, accuracy, and validity of the work rests solely with the authors.
+L230: Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.
+L231: Publisher’s note
+L232: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L233: Supplementary material
+L234: The Supplementary material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fnut.2025.1618612/full#supplementary-material
+L235: Supplementary Material
+L236: Supplementary Material
+L237: Supplementary Material
+L238: 1. Bridge CA 
+L239:  da Silva F 
+L240:  Santos J 
+L241:  Chaabène H 
+L242:  Pieter W 
+L243:  Franchini E .  Physical and physiological profiles of taekwondo athletes .  Sports Med . ( 2014 )  44 : 713 – 33 . doi:  10.1007/s40279-014-0159-9 ,  24549477
+L244: 2. Marković G 
+L245:  Misigoj-Duraković M 
+L246:  Trninić S .  Fitness profile of elite Croatian female taekwondo athletes .  Coll Antropol . ( 2005 )  29 : 93 – 9 . 16117305
+L247: 3. Yang W-H 
+L248:  Grau M 
+L249:  Kim P 
+L250:  Schmitz A 
+L251:  Heine O 
+L252:  Bloch W 
+L253:  .  Physiological and psychological performance of taekwondo athletes is more affected by rapid than by gradual weight reduction .  Arch Budo . ( 2014 )  10 : 169 – 77 .
+L254: 4. Janowski M 
+L255:  Zieliński J 
+L256:  Ciekot-Sołtysiak M 
+L257:  Schneider A 
+L258:  Kusy K 
+L259:  Zieliński P .  The effect of sports rules amendments on exercise response patterns in taekwondo athletes: a systematic review and meta-analysis .  Int J Environ Res Public Health . ( 2020 )  17 : 6779 . doi:  10.3390/ijerph17186779 32957546
+L260: 5. Ouergui I 
+L261:  Delleli S 
+L262:  Bouassida A 
+L263:  Bouhlel E 
+L264:  Franchini E 
+L265:  Gmada N 
+L266:  .  Acute effects of different activity types and work-to-rest ratios on post-activation performance enhancement and hemoglobin oxygen saturation recovery in taekwondo athletes .  Front Physiol . ( 2022 )  13 : 805680 . doi:  10.3389/fphys.2022.805680
+L267: 6. Chaabene H 
+L268:  Negra Y 
+L269:  Bouguezzi R 
+L270:  Capranica L 
+L271:  Franchini E 
+L272:  Prieske O 
+L273:  .  Validity and reliability of a new test of planned agility in elite taekwondo athletes .  J Strength Cond Res . ( 2018 )  32 : 2542 – 7 . doi:  10.1519/JSC.0000000000002129 29120989
+L274: 7. da Silva Santos JF 
+L275:  Herrera-Valenzuela T 
+L276:  Ribeiro da Mota G 
+L277:  Franchini E .  Test-retest reliability, sensibility and construct validity of the frequency speed of kick test in male black-belt taekwondo athletes .  Ido Mov Cult . ( 2020 )  20 : 53 – 9 . doi:  10.14589/ido.20.4.8
+L278: 8. de Oliveira Goulart KN 
+L279:  de Jesus K 
+L280:  Muniz Caldeira LF 
+L281:  Dantas NL 
+L282:  Bezerra P 
+L283:  da Silva SF .  Correlation between roundhouse kick and countermovement jump performance .  Rev Artes Marciales Asiat . ( 2016 )  11 : 104 – 5 . doi:  10.18002/rama.v11i2s.4190
+L284: 9. Antonietto DÁ 
+L285:  Santos JFS 
+L286:  Tavares AF 
+L287:  Franchini E .  Can the countermovement jump or squat jump be used to predict taekwondo kick performance? 
+L288:  Retos . ( 2024 )  51 : 1056 – 63 . doi:  10.47197/retos.v51.99831
+L289: 10. Haddad M 
+L290:  Chaouachi A 
+L291:  Castagna C 
+L292:  Wong DP 
+L293:  Behm DG 
+L294:  Chamari K .  Heart rate responses and training load during nonspecific and specific aerobic training in adolescent taekwondo athletes .  J Hum Kinet . ( 2011 )  29 : 59 – 66 . doi:  10.2478/v10078-011-0044-y 23486727
+L295: 11. Rocha FPS 
+L296:  Louro H 
+L297:  Matias R 
+L298:  Costa AM 
+L299:  Matias CN .  Determination of aerobic power through a specific test for taekwondo: a predictive equation model .  PLoS One . ( 2016 )  11 : e0151738 . doi:  10.1371/journal.pone.0151738 26987069
+L300: 12. McLaughlin A .  The physical and physiological demands of taekwondo: a comparison of male and female athletes  In:  Doctoral dissertation .  Liverpool :  Liverpool John Moores University  ( 2020 )
+L301: 13. Ölmez C 
+L302:  Akyildiz Z 
+L303:  Açikada C 
+L304:  Çene E 
+L305:  Birinci MC 
+L306:  Pinar S .  Development of the taekwondo performance protocol to determine aerobic power in taekwondo athletes .  Balt J Health Phys Act . ( 2023 )  15 : 5 . doi:  10.29359/BJHPA.2023.15.1.05
+L307: 14. Apollaro G 
+L308:  Mascherini G 
+L309:  Petri C 
+L310:  Modugno A 
+L311:  Stamatelopoulou K 
+L312:  Puce L 
+L313:  .  Validity of aerobic capacity indicators derived from the progressive specific taekwondo test in young taekwondo athletes .  BMC Sports Sci Med Rehabil . ( 2025 )  17 : 19 . doi:  10.1186/s13102-025-01086-x 39901223
+L314: 15. Sousa JL 
+L315:  Nunes C 
+L316:  Iglésias B 
+L317:  Costa C 
+L318:  Sampaio J .  Design and validation of an instrument for technical and tactical performance analysis in taekwondo .  Appl Sci . ( 2022 )  12 : 7675 . doi:  10.3390/app12157675
+L319: 16. Reale R 
+L320:  Slater G 
+L321:  Burke LM .  Acute-weight-loss strategies for combat sports and applications to Olympic success .  Int J Sports Physiol Perform . ( 2017 )  12 : 142 – 51 . doi:  10.1123/ijspp.2016-0211 ,  27347784
+L322: 17. Barley OR 
+L323:  Chapman DW 
+L324:  Abbiss CR .  Weight loss strategies in combat sports and concerning habits in mixed martial arts .  Int J Sports Physiol Perform . ( 2018 )  13 : 933 – 9 . doi:  10.1123/ijspp.2017-0715 ,  29283792
+L325: 18. Franchini E 
+L326:  Cormack S 
+L327:  Takito MY .  Effects of high-intensity interval training on Olympic combat sports athletes' performance and physiological adaptation: a systematic review .  J Strength Cond Res . ( 2019 )  33 : 242 – 52 . doi:  10.1519/JSC.0000000000002957 ,  30431531
+L328: 19. Cid-Calfucura I 
+L329:  Herrera-Valenzuela T 
+L330:  Franchini E 
+L331:  Falco C 
+L332:  Alvial-Moscoso J 
+L333:  Pardo-Tamayo C 
+L334:  .  Effects of strength training on physical fitness of Olympic combat sports athletes: a systematic review .  Int J Environ Res Public Health . ( 2023 )  20 : 3516 . doi:  10.3390/ijerph20043516 ,  36834211
+L335: 20. Ojeda-Aravena A 
+L336:  Herrera-Valenzuela T 
+L337:  Valdés-Badilla P 
+L338:  Báez-San Martín E 
+L339:  Thapa RK 
+L340:  Ramirez-Campillo R .  A systematic review with meta-analysis on the effects of plyometric-jump training on the physical fitness of combat sport athletes .  Sports . ( 2023 )  11 : 33 . doi:  10.3390/sports11020033 ,  36828318
+L341: 21. Vicente-Salar N 
+L342:  Fuster-Muñoz E 
+L343:  Martínez-Rodríguez A .  Nutritional ergogenic aids in combat sports: a systematic review and meta-analysis .  Nutrients . ( 2022 )  14 : 2588 . doi:  10.3390/nu14132588 ,  35807770
+L344: 22. Wyatt PB 
+L345:  Reiter CR 
+L346:  Satalich JR 
+L347:  O’Neill CN 
+L348:  Edge C 
+L349:  Cyrus JW 
+L350:  .  Effects of vitamin D supplementation in elite athletes: a systematic review .  Orthop J Sports Med . ( 2024 )  12 : 23259671231220371 . doi:  10.1177/23259671231220371 ,  38188620
+L351: 23. Luo H 
+L352:  Kamalden TFT 
+L353:  Zhu X 
+L354:  Xiang C 
+L355:  Nasharuddin NA .  Advantages of different dietary supplements for elite combat sports athletes: a systematic review and Bayesian network meta-analysis .  Sci Rep . ( 2025 )  15 : 271 . doi:  10.1038/s41598-024-84359-3 39747536
+L356: 24. Burke LM .  Practical issues in evidence-based use of performance supplements: supplement interactions, repeated use and individual responses .  Sports Med . ( 2017 )  47 : 79 – 100 . doi:  10.1007/s40279-016-0613-9 28332111
+L357: 25. López-González LM 
+L358:  Moreno-Villanueva A 
+L359:  López-Samanes Á 
+L360:  Pallarés JG 
+L361:  Mora-Rodríguez R 
+L362:  Ortega JF 
+L363:  .  Acute caffeine supplementation in combat sports: does it improve performance? A systematic review .  J Int Soc Sports Nutr . ( 2018 )  15 : 60 . doi:  10.1186/s12970-018-0267-2 30594211
+L364: 26. Swinton PA 
+L365:  Hemingway BS 
+L366:  Saunders B 
+L367:  Gualano B 
+L368:  Dolan E .  A statistical framework to interpret individual response to intervention: paving the way for personalized nutrition and exercise prescription .  Front Nutr . ( 2018 )  5 : 41 . doi:  10.3389/fnut.2018.00041 ,  29892599
+L369: 27. Miraftabi H 
+L370:  Avazpoor Z 
+L371:  Berjisian E 
+L372:  Sarshin A 
+L373:  Rezaei S 
+L374:  Domínguez R 
+L375:  .  Effects of beetroot juice supplementation on cognitive function, aerobic and anaerobic performances of trained male taekwondo athletes: a pilot study .  Int J Environ Res Public Health . ( 2021 )  18 : 10202 . doi:  10.3390/ijerph181910202 ,  34639501
+L376: 28. Grgic J 
+L377:  Mikulic P 
+L378:  Schoenfeld BJ 
+L379:  Bishop DJ 
+L380:  Pedisic Z .  The influence of caffeine supplementation on resistance exercise: a review .  Sports Med . ( 2019 )  49 : 17 – 30 . doi:  10.1007/s40279-018-0997-y ,  30298476
+L381: 29. Wax B 
+L382:  Kerksick CM 
+L383:  Jagim AR 
+L384:  Mayo JJ 
+L385:  Lyons BC 
+L386:  Kreider RB .  Creatine for exercise and sports performance, with recovery considerations for healthy populations .  Nutrients . ( 2021 )  13 : 1915 . doi:  10.3390/nu13061915 ,  34199588
+L387: 30. Vicente-Salar N 
+L388:  Drehmer E 
+L389:  Sanz-Valero J .  Nutritional ergogenic aids in combat sports: a systematic review and meta-analysis .  Nutrients . ( 2022 )  14 : 2588 . doi:  10.3390/nu14142588 35807770
+L390: 31. Donovan T 
+L391:  Ballam T 
+L392:  Morton JP 
+L393:  Close GL .  Β-Alanine improves punch force and frequency in amateur boxers during a simulated contest .  Int J Sport Nutr Exerc Metab . ( 2012 )  22 : 331 – 7 . doi:  10.1123/ijsnem.22.5.331 ,  22805175
+L394: 32. Fernández-Lázaro D 
+L395:  Fiuza-Luces C 
+L396:  Seco-Calvo J 
+L397:  Garrosa E 
+L398:  Adams DP 
+L399:  González-Gallego J 
+L400:  .  β-alanine supplementation in combat sports: systematic review and meta-analysis of athletic performance outcomes .  Nutrients . ( 2023 )  15 : 3521 . doi:  10.3390/nu15163521 37630712
+L401: 33. Kim KA 
+L402:  Lee YJ 
+L403:  Park KM 
+L404:  Kwon YJ 
+L405:  Choi YS .  The effects of 10 weeks of β-alanine supplementation on peak power, power drop, and lactate response in Korean national team boxers .  J Exerc Sci Fit . ( 2018 )  16 : 101 – 8 . doi:  10.1016/j.jesf.2018.07.001
+L406: 34. Aravena Tapia DE 
+L407:  Roman Barrera V 
+L408:  Da Silva Santos JF 
+L409:  Franchini E 
+L410:  Valdés Badilla P 
+L411:  Orihuela P 
+L412:  .  High-intensity interval training improves specific performance in taekwondo athletes .  Rev Artes Marciales Asiáticas . ( 2020 )  15 : 4 – 13 . doi:  10.18002/rama.v15i1.6041
+L413: 35. Arjang N 
+L414:  Mohsenifar H 
+L415:  Amiri A 
+L416:  Dadgoo M 
+L417:  Rasaeifar G .  The acute effect of static versus proprioceptive neuromuscular facilitation stretching combined with kinesiology taping® of hamstring muscles on functional tests in adolescent taekwondo athletes .  Turk J Physiother Rehabil . ( 2023 )  34 : 21 – 8 . doi:  10.21653/tjpr.974941
+L418: 36. Carazo-Vargas P 
+L419:  Moncada-Jiménez J .  Reducing training volume during tapering improves performance in taekwondo athletes .  J Phys Educ Sport . ( 2018 )  18 : 2221 – 9 . doi:  10.7752/jpes.2018.04334
+L420: 37. Chen AH 
+L421:  Chiu CH 
+L422:  Hsu CH 
+L423:  Wang IL 
+L424:  Chou KM 
+L425:  Tsai YS 
+L426:  .  Acute effects of vibration foam rolling warm-up on jump and flexibility asymmetry, agility and frequency speed of kick test performance in taekwondo athletes .  Symmetry . ( 2021 )  13 : 1664 . doi:  10.3390/sym13091664
+L427: 38. Chiu CH 
+L428:  Chen CH 
+L429:  Yang TJ 
+L430:  Chou KM 
+L431:  Chen BW 
+L432:  Lin ZY 
+L433:  .  Carbohydrate mouth rinsing decreases fatigue index of taekwondo frequency speed of kick test .  Chin J Physiol . ( 2022 )  65 : 46 – 50 . doi:  10.4103/cjp.cjp_99_21 ,  35229752
+L434: 39. da Silva Santos JF 
+L435:  Valenzuela TH 
+L436:  Franchini E .  Can different conditioning activities and rest intervals affect the acute performance of taekwondo turning kick? 
+L437:  J Strength Cond Res . ( 2015 )  29 : 1640 – 7 . doi:  10.1519/JSC.0000000000000808 ,  26010798
+L438: 40. Delleli S 
+L439:  Ouergui I 
+L440:  Messaoudi H 
+L441:  Bridge CA 
+L442:  Ardigò LP 
+L443:  Chtourou H .  Synergetic effects of a low caffeine dose and pre-exercise music on psychophysical performance in female taekwondo athletes .  Rev Artes Marciales Asiát . ( 2024 )  19 : 55 – 70 . doi:  10.18002/rama.v19i1.2405
+L444: 41. Delleli S 
+L445:  Ouergui I 
+L446:  Messaoudi H 
+L447:  Bridge C 
+L448:  Ardigò LP 
+L449:  Chtourou H .  Warm-up music and low-dose caffeine enhance the activity profile and psychophysiological responses during simulated combat in female taekwondo athletes .  Sci Rep . ( 2024 )  14 : 14302 . doi:  10.1038/s41598-024-64880-1 ,  38906894
+L450: 42. Delleli S 
+L451:  Ouergui I 
+L452:  Messaoudi H 
+L453:  Ballmann CG 
+L454:  Ardigo LP 
+L455:  Chtourou H .  Effects of caffeine consumption combined with listening to music during warm-up on taekwondo physical performance, perceived exertion and psychological aspects .  PLoS One . ( 2023 )  18 : e0292498 . doi:  10.1371/journal.pone.0292498 ,  37871019
+L456: 43. Gaamouri N 
+L457:  Zouhal H 
+L458:  Suzuki K 
+L459:  Hammami M 
+L460:  Ghaith A 
+L461:  El Mouhab EH 
+L462:  .  Effects of carob rich-polyphenols on oxidative stress markers and physical performance in taekwondo athletes .  Biol Sport . ( 2024 )  41 : 277 – 84 . doi:  10.5114/biolsport.2022.106154 ,  39416491
+L463: 44. Gaamouri N 
+L464:  Zouhal H 
+L465:  Hammami M 
+L466:  Hackney AC 
+L467:  Abderrahman AB 
+L468:  Saeidi A 
+L469:  .  Effects of polyphenol (carob) supplementation on body composition and aerobic capacity in taekwondo athletes .  Physiol Behav . ( 2019 )  205 : 22 – 8 . doi:  10.1016/j.physbeh.2019.03.003 ,  30853622
+L470: 45. Hassan A 
+L471:  Alibrahim M 
+L472:  Hammad B .  Influence of HIIT training and breathing mask on physiological, biochemical indicators, and skill performance in taekwondo players .  Int J Hum Mov Sports Sci . ( 2024 )  12 : 872 – 87 . doi:  10.13189/saj.2024.120513
+L473: 46. Jung HC 
+L474:  Seo MW 
+L475:  Lee S 
+L476:  Jung SW 
+L477:  Song JK .  Correcting vitamin D insufficiency improves some but not all aspects of physical performance during winter training in taekwondo athletes .  Int J Sport Nutr Exerc Metab . ( 2018 )  28 : 635 – 43 . doi:  10.1123/ijsnem.2017-0412 ,  29722590
+L478: 47. Kavcı Z 
+L479:  Ozan M 
+L480:  Buzdağlı Y 
+L481:  Savaş A 
+L482:  Uçar H .  Investigation of the effect of nitrate and L-arginine intake on aerobic, anaerobic performance, balance, agility, and recovery in elite taekwondo athletes .  J Int Soc Sports Nutr . ( 2025 )  22 : 2445609 . doi:  10.1080/15502783.2024.2445609 ,  39714103
+L483: 48. Koc M 
+L484:  Saritas N 
+L485:  Coskun B 
+L486:  Akkurt S .  Effects of threshold pressure loading exercises applied to inspiratory muscles in taekwondo athletes on the concentration and utilization of lactate .  J Hum Kinet . ( 2025 )  95 : 55 – 69 . doi:  10.5114/jhk/188542 39944979
+L487: 49. Lopes-Silva JP 
+L488:  Silva Santos JF 
+L489:  Branco BH 
+L490:  Abad CC 
+L491:  Oliveira LF 
+L492:  Loturco I 
+L493:  .  Caffeine ingestion increases estimated glycolytic metabolism during taekwondo combat simulation but does not improve performance or parasympathetic reactivation .  PLoS One . ( 2015 )  10 : e0142078 . doi:  10.1371/journal.pone.0142078 ,  26539982
+L494: 50. Lopes-Silva JP 
+L495:  Da Silva Santos JF 
+L496:  Artioli GG 
+L497:  Loturco I 
+L498:  Abbiss C 
+L499:  Franchini E .  Sodium bicarbonate ingestion increases glycolytic contribution and improves performance during simulated taekwondo combat .  Eur J Sport Sci . ( 2018 )  18 : 431 – 40 . doi:  10.1080/17461391.2018.1424942 ,  29355092
+L500: 51. Messaoudi H 
+L501:  Ouergui I 
+L502:  Delleli S 
+L503:  Ballmann CG 
+L504:  Ardigò LP 
+L505:  Chtourou H .  Acute effects of plyometric-based conditioning activity and warm-up music stimuli on physical performance and affective state in male taekwondo athletes .  Front Sports Act Living . ( 2023 )  5 : 1335794 . doi:  10.3389/fspor.2023.1335794 ,  38287965
+L506: 52. Ojeda-Aravena A 
+L507:  Herrera-Valenzuela T 
+L508:  Valdes-Badilla P 
+L509:  Cancino-Lopez J 
+L510:  Zapata-Bastias J 
+L511:  Garcia-Garcia JM .  Effects of 4 weeks of a technique-specific protocol with high-intensity intervals on general and specific physical fitness in taekwondo athletes: an inter-individual analysis .  Int J Environ Res Public Health . ( 2021 )  18 : 3643 . doi:  10.3390/ijerph18073643 ,  33807435
+L512: 53. Ou Z 
+L513:  Yang L 
+L514:  Wu J 
+L515:  Xu M 
+L516:  Weng X 
+L517:  Xu G .  Metabolic characteristics of ischaemic preconditioning induced performance improvement in taekwondo athletes using LC-MS/MS-based plasma metabolomics .  Sci Rep . ( 2024 )  14 : 24609 . doi:  10.1038/s41598-024-76045-1 ,  39427043
+L518: 54. Ouergui I 
+L519:  Delleli S 
+L520:  Messaoudi H 
+L521:  Chtourou H 
+L522:  Bouassida A 
+L523:  Bouhlel E 
+L524:  .  Acute effects of different activity types and work-to-rest ratio on post-activation performance enhancement in young male and female taekwondo athletes .  Int J Environ Res Public Health . ( 2022 )  19 : 1764 . doi:  10.3390/ijerph19031764 ,  35162787
+L525: 55. Ouergui I 
+L526:  Messaoudi H 
+L527:  Chtourou H 
+L528:  Wagner MO 
+L529:  Bouassida A 
+L530:  Bouhlel E 
+L531:  .  Repeated sprint training vs. repeated high-intensity technique training in adolescent taekwondo athletes—a randomized controlled trial .  Int J Environ Res Public Health . ( 2020 )  17 : 4506 . doi:  10.3390/ijerph17124506 ,  32585907
+L532: 56. Ouergui I 
+L533:  Delleli S 
+L534:  Bridge CA 
+L535:  Messaoudi H 
+L536:  Chtourou H 
+L537:  Ballmann CG 
+L538:  .  Acute effects of caffeine supplementation on taekwondo performance: the influence of competition level and sex .  Sci Rep . ( 2023 )  13 : 13795 . doi:  10.1038/s41598-023-40365-5 ,  37612360
+L539: 57. Ouergui I 
+L540:  Franchini E 
+L541:  Messaoudi H 
+L542:  Chtourou H 
+L543:  Bouassida A 
+L544:  Bouhlel E 
+L545:  .  Effects of adding small combat games to regular taekwondo training on physiological and performance outcomes in male young athletes .  Front Physiol . ( 2021 )  12 : 646666 . doi:  10.3389/fphys.2021.646666 ,  33868014
+L546: 58. Ouergui I 
+L547:  Mahdi N 
+L548:  Delleli S 
+L549:  Messaoudi H 
+L550:  Chtourou H 
+L551:  Sahnoun Z 
+L552:  .  Acute effects of low dose of caffeine ingestion combined with conditioning activity on psychological and physical performances of male and female taekwondo athletes .  Nutrients . ( 2022 )  14 : 571 . doi:  10.3390/nu14030571 ,  35276932
+L553: 59. Riera J 
+L554:  Pons V 
+L555:  Martinez-Puig D 
+L556:  Chetrit C 
+L557:  Tur JA 
+L558:  Pons A 
+L559:  .  Dietary nucleotide improves markers of immune response to strenuous exercise under a cold environment .  J Int Soc Sports Nutr . ( 2013 )  10 : 20 . doi:  10.1186/1550-2783-10-20 ,  23566489
+L560: 60. Santos VGF 
+L561:  Santos VRF 
+L562:  Felippe LJC 
+L563:  Almeida Jr J 
+L564:  Bertuzzi R 
+L565:  Kiss M 
+L566:  .  Caffeine reduces reaction time and improves performance in simulated-contest of taekwondo .  Nutrients . ( 2014 )  6 : 637 – 49 . doi:  10.3390/nu6020637 ,  24518826
+L567: 61. Seo MW 
+L568:  Lee JM 
+L569:  Jung HC 
+L570:  Jung SW 
+L571:  Song JK .  Effects of various work-to-rest ratios during high-intensity interval training on athletic performance in adolescents .  Int J Sports Med . ( 2019 )  40 : 503 – 10 . doi:  10.1055/a-0927-6884 ,  31288289
+L572: 62. Song Y 
+L573:  Sheykhlouvand M .  A comparative analysis of high-intensity technique-specific intervals and short Sprint interval training in taekwondo athletes: effects on cardiorespiratory fitness and anaerobic power .  J Sports Sci Med . ( 2024 )  23 : 672 – 83 . doi:  10.52082/jssm.2024.672 ,  39228785
+L574: 63. Wang T 
+L575:  Song J .  Fufang Ejiaojiang improves taekwondo athletes' antioxidant capacity .  Int J Clin Exp Med . ( 2020 )  13 : 8517 – 25 .
+L576: 64. Huang Z 
+L577:  Dai J 
+L578:  Chen L 
+L579:  Yang L 
+L580:  Gong M 
+L581:  Li D 
+L582:  .  Effects of progressive and velocity-based autoregulatory resistance training on lower-limb movement ability in taekwondo athletes .  Sports Health . ( 2024 )  17 : 545 – 55 . doi:  10.1177/19417381241262024 ,  39109891
+L583: 65. Shen X .  The effect of 8-week combined balance and plyometric on the dynamic balance and agility of female adolescent taekwondo athletes .  Medicine . ( 2024 )  103 : e37359 . doi:  10.1097/MD.0000000000037359 ,  38457594
+L584: 66. Monks L 
+L585:  Seo MW 
+L586:  Kim HB 
+L587:  Jung HC 
+L588:  Song JK .  High-intensity interval training and athletic performance in taekwondo athletes .  J Sports Med Phys Fitness . ( 2017 )  57 : 1252 – 60 . doi:  10.23736/S0022-4707.17.06853-0 ,  28085127
+L589: 67. Sekulic D 
+L590:  Spasic M 
+L591:  Mirkov D 
+L592:  Cavar M 
+L593:  Sattler T .  Gender-specific influences of balance, speed, and power on agility performance .  J Strength Cond Res . ( 2013 )  27 : 802 – 11 . doi:  10.1519/JSC.0b013e31825c2cb0 ,  22580982
+L594: 68. Martínez de Quel Ó 
+L595:  Ara I 
+L596:  Izquierdo M 
+L597:  Ayán C .  Does physical fitness predict future karate success? A study in young female karatekas .  Int J Sports Physiol Perform . ( 2020 )  15 : 868 – 73 . doi:  10.1123/ijspp.2019-0435 ,  32150724
+L598: 69. Apollaro G 
+L599:  Panascì M 
+L600:  Ouergui I 
+L601:  Falcó C 
+L602:  Franchini E 
+L603:  Ruggeri P 
+L604:  .  Influence of body composition and muscle power performance on multiple frequency speed of kick test in taekwondo athletes .  Sports . ( 2024 )  12 : 322 . doi:  10.3390/sports12120322 ,  39728862
+L605: 70. Torrealba TC 
+L606:  Araya JA 
+L607:  Benoit N 
+L608:  Deldicque L .  Effects of high-intensity interval training in hypoxia on taekwondo performance .  Int J Sports Physiol Perform . ( 2020 )  15 : 1125 – 31 . doi:  10.1123/ijspp.2019-0668 ,  32781435
+L609: 71. Berton R 
+L610:  Lixandrão ME 
+L611:  Pinto E Silva CM 
+L612:  Tricoli V .  Effects of weightlifting exercise, traditional resistance and plyometric training on countermovement jump performance: a meta-analysis .  J Sports Sci . ( 2018 )  36 : 2038 – 44 . doi:  10.1080/02640414.2018.1434746 ,  29385904
+L613: 72. Da Silva Santos JF 
+L614:  Herrera-Valenzuela T 
+L615:  Ribeiro Da Mota G 
+L616:  Franchini E .  Influence of half-squat intensity and volume on the subsequent countermovement jump and frequency speed of kick test performance in taekwondo athletes .  Kinesiology . ( 2016 )  48 : 95 – 102 . doi:  10.26582/k.48.1.6
+L617: 73. Casolino E 
+L618:  Cortis C 
+L619:  Lupo C 
+L620:  Chiodo S 
+L621:  Minganti C 
+L622:  Capranica L .  Physiological versus psychological evaluation in taekwondo elite athletes .  Int J Sports Physiol Perform . ( 2012 )  7 : 322 – 31 . doi:  10.1123/ijspp.7.4.322 ,  22694946
+L623: 74. Liao YH 
+L624:  Sung YC 
+L625:  Chou CC 
+L626:  Chen CY .  Eight-week training cessation suppresses physiological stress but rapidly impairs health metabolic profiles and aerobic capacity in elite taekwondo athletes .  PLoS One . ( 2016 )  11 : e0160167 . doi:  10.1371/journal.pone.0160167 ,  27463519
+L627: 75. Tamayo Acosta J 
+L628:  Sosa Gomez AE 
+L629:  Samuel S 
+L630:  Pelenyi S 
+L631:  Acosta RE 
+L632:  Acosta M .  Effects of aerobic exercise versus high-intensity interval training on V̇O 2 max and blood pressure .  Cureus . ( 2022 )  14 : e30322 . doi:  10.7759/cureus.30322 ,  36407200
+L633: 76. Taati B 
+L634:  Rohani H .  Substrate oxidation during exercise in taekwondo athletes: impact of aerobic fitness status .  Comp Exerc Physiol . ( 2020 )  16 : 371 – 6 . doi:  10.3920/CEP200012
+L635: 77. Hazell TJ 
+L636:  Thomas GWR 
+L637:  DeGuire JR 
+L638:  Lemon PWR .  Vertical whole-body vibration does not increase cardiovascular stress to static semi-squat exercise .  Eur J Appl Physiol . ( 2008 )  104 : 903 – 8 . doi:  10.1007/s00421-008-0847-y ,  18712407
+L639: 78. Costill DL 
+L640:  Flynn MG 
+L641:  Kirwan JP 
+L642:  Houmard JA 
+L643:  Mitchell JB 
+L644:  Thomas R 
+L645:  .  Effects of repeated days of intensified training on muscle glycogen and swimming performance .  Med Sci Sports Exerc . ( 1988 )  20 : 249 – 54 . doi:  10.1249/00005768-198806000-00006 ,  3386503
+L646: 79. Ekblom B 
+L647:  Astrand PO 
+L648:  Saltin B 
+L649:  Stenberg J 
+L650:  Wallström B .  Effect of training on circulatory response to exercise .  J Appl Physiol . ( 1968 )  24 : 518 – 28 . doi:  10.1152/jappl.1968.24.4.518 ,  4230646
+L651: 80. Zavorsky GS .  Evidence and possible mechanisms of altered maximum heart rate with endurance training and tapering .  Sports Med . ( 2000 )  29 : 13 – 26 . doi:  10.2165/00007256-200029010-00002 ,  10688280
+L652: 81. Ellison GM 
+L653:  Waring CD 
+L654:  Vicinanza C 
+L655:  Torella D .  Physiological cardiac remodelling in response to endurance exercise training: cellular and molecular mechanisms .  Heart . ( 2012 )  98 : 5 – 10 . doi:  10.1136/heartjnl-2011-300639 ,  21880653
+L656: 82. Hoier B 
+L657:  Hellsten Y .  Exercise-induced capillary growth in human skeletal muscle and the dynamics of VEGF .  Microcirculation . ( 2014 )  21 : 301 – 14 . doi:  10.1111/micc.12117 ,  24450403
+L658: 83. Drummond MJ 
+L659:  Fry CS 
+L660:  Glynn EL 
+L661:  Dreyer HC 
+L662:  Dhanani S 
+L663:  Timmerman KL 
+L664:  .  Rapamycin administration in humans blocks the contraction-induced increase in skeletal muscle protein synthesis .  J Physiol . ( 2009 )  587 : 1535 – 46 . doi:  10.1113/jphysiol.2008.163816 ,  19188252
+L665: 84. Philp A 
+L666:  Hamilton DL 
+L667:  Baar K .  Signals mediating skeletal muscle remodeling by resistance exercise: PI3-kinase independent activation of mTORC1 .  J Appl Physiol . ( 2011 )  110 : 561 – 8 . doi:  10.1152/japplphysiol.00941.2010 ,  21071597
+L668: 85. Boström P 
+L669:  Wu J 
+L670:  Jedrychowski MP 
+L671:  Korde A 
+L672:  Ye L 
+L673:  Lo JC 
+L674:  .  A PGC1-α-dependent myokine that drives brown-fat-like development of white fat and thermogenesis .  Nature . ( 2012 )  481 : 463 – 8 . doi:  10.1038/nature10777 ,  22237023
+L675: 86. Pedersen BK 
+L676:  Steensberg A 
+L677:  Fischer C 
+L678:  Keller C 
+L679:  Keller P 
+L680:  Plomgaard P 
+L681:  .  Searching for the exercise factor: is IL-6 a candidate? 
+L682:  J Muscle Res Cell Motil . ( 2003 )  24 : 113 – 9 . doi:  10.1023/a:1026070911202 ,  14609022
+L683: 87. Delleli S 
+L684:  Ouergui I 
+L685:  Messaoudi H 
+L686:  Trabelsi K 
+L687:  Ammar A 
+L688:  Glenn JM 
+L689:  .  Acute effects of caffeine supplementation on physical performance, physiological responses, perceived exertion, and technical-tactical skills in combat sports: a systematic review and meta-analysis .  Nutrients . ( 2022 )  14 : 2996 . doi:  10.3390/nu14142996 ,  35889953
+L690: 88. Mielgo-Ayuso J 
+L691:  Marques-Jiménez D 
+L692:  Refoyo I 
+L693:  Del Coso J 
+L694:  León-Guereño P 
+L695:  Calleja-González J .  Effect of caffeine supplementation on sports performance based on differences between sexes: a systematic review .  Nutrients . ( 2019 )  11 : 2313 . doi:  10.3390/nu11102313 ,  31574901
+L696: 89. Grgic J .  Exploring the minimum ergogenic dose of caffeine on resistance exercise performance: a meta-analytic approach .  Nutrition . ( 2022 )  97 : 111604 . doi:  10.1016/j.nut.2022.111604 ,  35203046
+L697: 90. Merino-Fernández M 
+L698:  Giráldez-Costas V 
+L699:  González-García J 
+L700:  Gutiérrez-Hellín J 
+L701:  González-Millán C 
+L702:  Matos-Duarte M 
+L703:  .  Effects of 3 mg/kg body mass of caffeine on the performance of jiu-jitsu elite athletes .  Nutrients . ( 2022 )  14 : 675 . doi:  10.3390/nu14030675 ,  35277034
+L704: 91. Davis JK 
+L705:  Green JM .  Caffeine and anaerobic performance: ergogenic value and mechanisms of action .  Sports Med . ( 2009 )  39 : 813 – 32 . doi:  10.2165/11317770-000000000-00000 ,  19757860
+L706: 92. Simmonds MJ 
+L707:  Minahan CL 
+L708:  Sabapathy S .  Caffeine improves supramaximal cycling but not the rate of anaerobic energy release .  Eur J Appl Physiol . ( 2010 )  109 : 287 – 95 . doi:  10.1007/s00421-009-1351-8 ,  20082092
+L709: 93. Davis JM 
+L710:  Zhao Z 
+L711:  Stock HS 
+L712:  Mehl KA 
+L713:  Buggy J 
+L714:  Hand GA .  Central nervous system effects of caffeine and adenosine on fatigue .  Am J Physiol Regul Integr Comp Physiol . ( 2003 )  284 : R399 – 404 . doi:  10.1152/ajpregu.00386.2002 12399249
+L715: 94. Larsen FJ 
+L716:  Weitzberg E 
+L717:  Lundberg JO 
+L718:  Ekblom B .  Dietary nitrate reduces maximal oxygen consumption while maintaining work performance in maximal exercise .  Free Radic Biol Med . ( 2010 )  48 : 342 – 7 . doi:  10.1016/j.freeradbiomed.2009.11.006 ,  19913611
+L719: 95. Li WL 
+L720:  Han HF 
+L721:  Zhang L 
+L722:  Zhang Y 
+L723:  Qu HB .  Manufacturer identification and storage time determination of “Dong'e Ejiao” using near infrared spectroscopy and chemometrics .  J Zhejiang Univ Sci B . ( 2016 )  17 : 382 – 90 . doi:  10.1631/jzus.B1500186 ,  27143266
+L724: 96. Główka N 
+L725:  Malik J 
+L726:  Podgórski T 
+L727:  Stemplewski R 
+L728:  Maciaszek J 
+L729:  Ciążyńska J 
+L730:  .  The dose-dependent effect of caffeine supplementation on performance, reaction time and postural stability in CrossFit—a randomized placebo-controlled crossover trial .  J Int Soc Sports Nutr . ( 2024 )  21 : 2301384 . doi:  10.1080/15502783.2023.2301384 ,  38226646
+L731: 97. Siegler JC 
+L732:  Hirscher K .  Sodium bicarbonate ingestion and boxing performance .  J Strength Cond Res . ( 2010 )  24 : 103 – 8 . doi:  10.1519/JSC.0b013e3181a392b2 ,  19625976
+L733: 98. Garthe I 
+L734:  Raastad T 
+L735:  Refsnes PE 
+L736:  Sundgot-Borgen J .  Effect of nutritional intervention on body composition and performance in elite athletes .  Eur J Sport Sci . ( 2013 )  13 : 295 – 303 . doi:  10.1080/17461391.2011.643923 ,  23679146
+L737: 99. Dubnov-Raz G 
+L738:  Livne N 
+L739:  Raz R 
+L740:  Cohen AH 
+L741:  Constantini NW .  Vitamin D supplementation and physical performance in adolescent swimmers .  Int J Sport Nutr Exerc Metab . ( 2015 )  25 : 317 – 25 . doi:  10.1123/ijsnem.2014-0180 ,  25203157
+L742: 100. Jastrzębska M 
+L743:  Kaczmarczyk M 
+L744:  Jastrzębski Z .  Effect of vitamin D supplementation on training adaptation in well-trained soccer players .  J Strength Cond Res . ( 2016 )  30 : 2648 – 55 . doi:  10.1519/JSC.00000000000001337 26808860
+L745: 101. Kim JA 
+L746:  Formoso G 
+L747:  Li Y 
+L748:  Potenza MA 
+L749:  Marasciulo FL 
+L750:  Montagnani M 
+L751:  .  Epigallocatechin gallate, a green tea polyphenol, mediates NO-dependent vasodilation using signaling pathways in vascular endothelium requiring reactive oxygen species and Fyn .  J Biol Chem . ( 2007 )  282 : 13736 – 45 . doi:  10.1074/jbc.M609725200 ,  17363366
+L752: 102. Kingwell BA .  Nitric oxide-mediated metabolic regulation during exercise: effects of training in health and cardiovascular disease .  FASEB J . ( 2000 )  14 : 1685 – 96 . doi:  10.1096/fj.99-0896rev ,  10973917
+L753: 103. Domínguez R 
+L754:  Cuenca E 
+L755:  Maté-Muñoz JL 
+L756:  Maté-Muñoz J 
+L757:  García-Fernández P 
+L758:  Serra-Paya N 
+L759:  .  Effects of beetroot juice supplementation on cardiorespiratory endurance in athletes. A systematic review .  Nutrients . ( 2017 )  9 : 43 . doi:  10.3390/nu9010043 ,  28067808
+L760: 104. Moore AN 
+L761:  Haun CT 
+L762:  Kephart WC 
+L763:  Holland A 
+L764:  Mobley C 
+L765:  Pascoe D 
+L766:  .  Red spinach extract increases ventilatory threshold during graded exercise testing .  Sports . ( 2017 )  5 : 80 . doi:  10.3390/sports5040080 ,  29910440
+L767: 105. Lesinski M 
+L768:  Muehlbauer T 
+L769:  Büsch D 
+L770:  Granacher U .  Acute effects of postactivation potentiation on strength and speed performance in athletes .  Sportverletz Sportschaden . ( 2013 )  27 : 147 – 55 . doi:  10.1055/s-0033-1335414 ,  23629870
+L771: 106. Ahmadnezhad L 
+L772:  Yalfani A 
+L773:  Gholami Borujeni B .  Inspiratory muscle training in rehabilitation of low back pain: a randomized controlled trial .  J Sport Rehabil . ( 2020 )  29 : 1151 – 8 . doi:  10.1123/jsr.2019-0231 ,  31910393
+L774: 107. Jones AM 
+L775:  Grassi B 
+L776:  Christensen PM 
+L777:  Krustrup P 
+L778:  Bangsbo J 
+L779:  Poole DC .  Slow component of VO 2  kinetics: mechanistic bases and practical applications .  Med Sci Sports Exerc . ( 2011 )  43 : 2046 – 62 . doi:  10.1249/MSS.0b013e31821fcfc1 ,  21552162
+L780: 108. Llanos-Lagos C 
+L781:  Ramirez-Campillo R 
+L782:  Moran J 
+L783:  Sáez de Villarreal E .  The effect of strength training methods on middle-distance and long-distance runners' athletic performance: a systematic review with meta-analysis .  Sports Med . ( 2024 )  54 : 1801 – 33 . doi:  10.1007/s40279-024-02018-z ,  38627351
+L784: 109. Thurlow F 
+L785:  Huynh M 
+L786:  Townshend A 
+L787:  McLaren SJ 
+L788:  James LP 
+L789:  Taylor JM 
+L790:  .  The effects of repeated-sprint training on physical fitness and physiological adaptation in athletes: a systematic review and meta-analysis .  Sports Med . ( 2024 )  54 : 953 – 74 . doi:  10.1007/s40279-023-01959-1 ,  38041768
+L791: 110. Glaister M 
+L792:  Gissane C .  Caffeine and physiological responses to submaximal exercise: a meta-analysis .  Int J Sports Physiol Perform . ( 2018 )  13 : 402 – 11 . doi:  10.1123/ijspp.2017-0312 ,  28872376
+L793: 111. Goldstein ER 
+L794:  Ziegenfuss T 
+L795:  Kalman D 
+L796:  Kreider R 
+L797:  Campbell B 
+L798:  Wilborn C 
+L799:  .  International society of sports nutrition position stand: caffeine and performance .  J Int Soc Sports Nutr . ( 2010 )  7 : 5 . doi:  10.1186/s12970-020-00383-4 20205813
+L800: # Table_1
+L801: Appendix 1:Search Strategy
+L802: (1) PubMed
+L803: ((taekwondo athletes[Title/Abstract] OR taekwondo athlete[Title/Abstract]OR taekwondo[Title/Abstract]) AND (VO2max[Title/Abstract] OR maximal oxygen uptake[Title/Abstract] OR maximal oxygen consumption[Title/Abstract] OR heart rate[Title/Abstract] OR HR[Title/Abstract] OR countermovement jump[Title/Abstract] OR CMJ[Title/Abstract] OR taekwondo-specific agility test[Title/Abstract] OR TSAT[Title/Abstract] OR frequency speed of kick test[Title/Abstract] OR FSKT[Title/Abstract] OR aerobic[Title/Abstract] OR aerobic[Title/Abstract])) NOT (patient[Title/Abstract] OR patients[Title/Abstract])
+L804: (2) Scopus
+L805: ( ( TITLE-ABS-KEY ( taekwondo AND athletes ) OR TITLE-ABS-KEY ( taekwondo AND athlete ) OR TITLE-ABS-KEY ( taekwondo ) ) ) AND ( ( TITLE-ABS-KEY ( maximal AND oxygen AND uptake ) OR TITLE-ABS-KEY ( vo2max ) OR TITLE-ABS-KEY ( maximal AND oxygen AND consumption ) OR TITLE-ABS-KEY ( heart AND rate ) OR TITLE-ABS-KEY ( hr ) OR TITLE-ABS-KEY ( countermovement AND jump ) OR TITLE-ABS-KEY ( cmj ) OR TITLE-ABS-KEY ( taekwondo-specific AND agility AND test ) OR TITLE-ABS-KEY ( tsat ) OR TITLE-ABS-KEY ( frequency AND speed AND of AND kick AND test ) OR TITLE-ABS-KEY ( fskt ) OR TITLE-ABS-KEY ( aerobic ) OR TITLE-ABS-KEY ( anaerobic ) ) ) AND NOT ( ( TITLE-ABS-KEY ( patient ) OR TITLE-ABS-KEY ( patients ) ) )
+L806: (3) Web of science
+L807: ((TS=(taekwondo athletes OR taekwondo athlete)) AND TS=(VO2max OR maximal oxygen uptake OR maximal oxygen consumption OR heart rate OR HR OR countermovement jump  OR CMJ OR  taekwondo-specific agility test OR TSAT OR frequency speed of kick test OR FSKT OR aerobic OR aerobic)) NOT TS=(patient OR patients)
+L808: Appendix 2: Overview of Exercise Training Interventions and Number of Studies per Category
+L809: | No. | Intervention | Number of Studies | Description of Interventions |
+L810: | --- | --- | --- | --- |
+L811: | 1 | Usual training | 16 | Regular taekwondo training as a control condition, general warm-up, including placebo. |
+L812: | 2 | Acute Inspiratory Training Group (ARG) | 1 | Inspiratory muscle training (IMT) at 40–50% maximal inspiratory pressure (MIP) for approximately 20 minutes, three times weekly during pre-training warm-up. |
+L813: | 3 | Chronic Inspiratory Training Group (CRG) | 1 | IMT at 60–90% MIP with 30 breaths, performed twice daily for 8 weeks. |
+L814: | 4 | Conditioning Activity (CA) | 2 | Performing 3 sets of 10 vertical jumps above 40 cm. |
+L815: | 5 | Different Area Sizes | 1 | Training sessions conducted in three varied area sizes: 4 × 4 m, 6 × 6 m, and 8 × 8 m. |
+L816: | 6 | Double Vibration Foam Rolling (Double VR) | 1 | Six sets of vibration foam rolling specifically targeting the weaker leg. |
+L817: | 7 | High-Intensity Interval Training Repeated Sprints (HIITRS) | 1 | Three sets of 10 repetitions of 4-second maximal linear sprints over 5 m, each followed by 28-second walking-based recovery. |
+L818: | 8 | High-Intensity Interval Training with Breathing Mask (HIIT-M) | 1 | HIIT performed 3 times weekly for 60–90 minutes, involving short-duration, high-intensity exercises with a breathing mask and 30–60 seconds rest intervals. |
+L819: | 9 | High-Intensity Interval Training (HIIT) | 2 | High-intensity exercises at 85–100% HRmax with rest intervals between sets. |
+L820: | 10 | High-Intensity Interval Training with Specific Techniques (HIITTS) | 2 | Three rounds of 2-minute sets consisting of 4-second maximal effort kicks followed by 28 seconds of active recovery (1:7 ratio). |
+L821: | 11 | Ischemic Preconditioning (IPC) | 1 | Application of pressure at 220 mmHg for preconditioning purposes. |
+L822: | 12 | Plyometric Training (PT) | 1 | Three sets of 10 consecutive vertical jumps over a 40 cm obstacle. |
+L823: | 13 | Proprioceptive Neuromuscular Facilitation (PNF) | 1 | PNF stretching applied to one leg. |
+L824: | 14 | Reducing Training Volume | 1 | Progressive linear reduction of training volume by 3.33% per session, reaching 50% of the original volume at the end of tapering. |
+L825: | 15 | Repeated High-Intensity Techniques Training (RTT) | 2 | Three sets of alternating kicks (Bandal-chagui) executed maximally for 5 seconds, with a 10-second rest interval between sets. |
+L826: | 16 | Repeated Sprints Training (RST) | 1 | Performing 10 sets of 35 m sprints with 10-second rest intervals. |
+L827: | 17 | Resistance Training and Plyometric Training (RT+PT) | 1 | Three half-squats followed immediately by four vertical jumps over a 40 cm barrier. |
+L828: | 18 | Resistance Training (RT) | 1 | Three sets of 1 repetition half-squats at 95% 1RM, including deep squat, deadlift, and kettlebell squat jumps. |
+L829: | 19 | Vibration Foam Rolling (VR) | 1 | Three sets of foam rolling targeting quadriceps and hamstrings after warm-up. |
+L830: Appendix 3: Overview of Nutritional Supplementation Interventions and Number of Studies per Category
+L831: | No. | Intervention | Number of Studies | Description of Interventions |
+L832: | --- | --- | --- | --- |
+L833: | 1 | Usual training | 17 | Regular taekwondo training as a control condition, general warm-up, including placebo. |
+L834: | 2 | Caffeine ingestion | 7 | Caffeine supplementation (3.5 mg/kg/day). |
+L835: | 3 | Carbohydrate Mouth Rinsing (CMR) | 1 | Mouth rinsing with carbohydrate solution (25 mL, 6.4% maltodextrin) for 15 seconds. |
+L836: | 4 | Fufang Ejiaojiang | 1 | Supplementation with 1 tablet daily containing donkey-hide gelatin, Codonopsis pilosula, prepared rehmannia root, red ginseng, maybush, and sucrose. |
+L837: | 5 | L-Arginine Supplements (L-ARG) | 1 | Single-dose supplementation of 6 g powdered L-arginine. |
+L838: | 6 | Nitrate-Rich Beetroot Juice (BJ) | 1 | Beetroot juice supplementation (400–800 mg of nitrate). |
+L839: | 7 | Nitrate and L-Arginine Supplements (NIT+L-ARG) | 1 | Combined supplementation with nitrate (837.40 mg/kg from spinach) and a single dose of 6 g L-arginine powder. |
+L840: | 8 | Nitrate Supplements (NIT) | 1 | Nitrate supplementation provided by spinach (837.40 mg/kg). |
+L841: | 9 | Nucleotide Formulation (Inmunactive) | 1 | Daily supplementation of 480 mg Inmunactive for 30 days. |
+L842: | 10 | Polyphenol Supplementation | 2 | Carob supplementation at a dosage of 40 g/day. |
+L843: | 11 | Sodium Bicarbonate Supplementation (NaHCO3) | 1 | Supplementation of 300 mg/kg body mass of sodium bicarbonate. |
+L844: | 12 | Vitamin D | 1 | Daily supplementation with one capsule containing 5,000 IU vitamin D3. |
+L845: Appendix 4. Forest Plots of Subgroup Analyses
+L846: Exercise Training:
+L847: TSAT:
+L848: Intervention duration
+L849: Type of intervention
+L850: Sex
+L851: Study design
+L852: Body weight
+L853: Training experience
+L854: FSKT-10s:
+L855: Type of intervention
+L856: Sex
+L857: Study design
+L858: FSKT-mult:
+L859: Intervention duration
+L860: Type of intervention
+L861: Sex
+L862: Study design
+L863: Body weight
+L864: Training experience
+L865: VO2max:
+L866: Type of intervention
+L867: Sex
+L868: Body weight
+L869: Training experience
+L870: nutrition supplementation
+L871: TSAT:
+L872: Intervention duration
+L873: Training experience
+L874: FSKT-10s:
+L875: Intervention duration
+L876: Training experience
+L877: FSKT-mult:
+L878: Intervention duration
+L879: Type of nutritional intervention
+L880: Sex
+L881: Study design
+L882: Training experience
+L883: - Appendix 5: Begg’s Funnel Plots
+L884: Exersice：
+L885: Figure1 :Egger’s test of TSAT.
+L886: Figure2 :Egger’s test of FSKT-10s.
+L887: Figure3 :Egger’s test of FSKT-mult.
+L888: Figure4 :Egger’s test of CMJ.
+L889: Figure5 :Egger’s test of VO2max.
+L890: Figure6 :Egger’s test of HRmax.
+L891: Nutrition：
+L892: Figure7 :Egger's test of TSAT.
+L893: Figure8 :Egger's test of FSKT-10s.
+L894: Figure9 :Egger's test of FSKT-mult.
+L895: Figure10 :Egger's test of VO2max.
+L896: Figure11 :Egger's test of HRmean.
+L897: Figure12 :Egger's test of HRpeak.
+L898: (1)Exercise Intervention
+L899: (2)Nutritional Intervention
+L900: - Nutritional Int
+L901: # Table_2
+L902: | Section and Topic | Item # | Checklist item | Location where item is reported |
+L903: | --- | --- | --- | --- |
+L904: | TITLE | TITLE | TITLE |  |
+L905: | Title | 1 | Identify the report as a systematic review. | Line 1-2 |
+L906: | ABSTRACT | ABSTRACT | ABSTRACT |  |
+L907: | Abstract | 2 | See the PRISMA 2020 for Abstracts checklist. | Line 9-33 |
+L908: | INTRODUCTION | INTRODUCTION | INTRODUCTION |  |
+L909: | Rationale | 3 | Describe the rationale for the review in the context of existing knowledge. | Line 38-74 |
+L910: | Objectives | 4 | Provide an explicit statement of the objective(s) or question(s) the review addresses. | Line 75-91 |
+L911: | METHODS | METHODS | METHODS |  |
+L912: | Eligibility criteria | 5 | Specify the inclusion and exclusion criteria for the review and how studies were grouped for the syntheses. | Line 120-133 |
+L913: | Information sources | 6 | Specify all databases, registers, websites, organisations, reference lists and other sources searched or consulted to identify studies. Specify the date when each source was last searched or consulted. | Line 104-108 |
+L914: | Search strategy | 7 | Present the full search strategies for all databases, registers and websites, including any filters and limits used. | Line 109-117 |
+L915: | Selection process | 8 | Specify the methods used to decide whether a study met the inclusion criteria of the review, including how many reviewers screened each record and each report retrieved, whether they worked independently, and if applicable, details of automation tools used in the process. | Line 135-145 |
+L916: | Data collection process | 9 | Specify the methods used to collect data from reports, including how many reviewers collected data from each report, whether they worked independently, any processes for obtaining or confirming data from study investigators, and if applicable, details of automation tools used in the process. | Line 146-148 |
+L917: | Data items | 10a | List and define all outcomes for which data were sought. Specify whether all results that were compatible with each outcome domain in each study were sought (e.g. for all measures, time points, analyses), and if not, the methods used to decide which results to collect. | Line 152-157 |
+L918: | Data items | 10b | List and define all other variables for which data were sought (e.g. participant and intervention characteristics, funding sources). Describe any assumptions made about any missing or unclear information. | Line 148-151 |
+L919: | Study risk of bias assessment | 11 | Specify the methods used to assess risk of bias in the included studies, including details of the tool(s) used, how many reviewers assessed each study and whether they worked independently, and if applicable, details of automation tools used in the process. | Line 162-173 |
+L920: | Effect measures | 12 | Specify for each outcome the effect measure(s) (e.g. risk ratio, mean difference) used in the synthesis or presentation of results. | Line 174-185 |
+L921: | Synthesis methods | 13a | Describe the processes used to decide which studies were eligible for each synthesis (e.g. tabulating the study intervention characteristics and comparing against the planned groups for each synthesis (item #5)). | Table  4 |
+L922: | Synthesis methods | 13b | Describe any methods required to prepare the data for presentation or synthesis, such as handling of missing summary statistics, or data conversions. | N/A |
+L923: | Synthesis methods | 13c | Describe any methods used to tabulate or visually display results of individual studies and syntheses. | N/A |
+L924: | Synthesis methods | 13d | Describe any methods used to synthesize results and provide a rationale for the choice(s). If meta-analysis was performed, describe the model(s), method(s) to identify the presence and extent of statistical heterogeneity, and software package(s) used. | Line 194-199 |
+L925: | Synthesis methods | 13e | Describe any methods used to explore possible causes of heterogeneity among study results (e.g. subgroup analysis, meta-regression). | Line 199-203 |
+L926: | Synthesis methods | 13f | Describe any sensitivity analyses conducted to assess robustness of the synthesized results. | Line 220-223 |
+L927: | Reporting bias assessment | 14 | Describe any methods used to assess risk of bias due to missing results in a synthesis (arising from reporting biases). | Line 216-220 |
+L928: | Certainty assessment | 15 | Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome. | N/A |
+L929: | RESULTS | RESULTS | RESULTS |  |
+L930: | Study selection | 16a | Describe the results of the search and selection process, from the number of records identified in the search to the number of studies included in the review, ideally using a flow diagram. | Figure  1 |
+L931: | Study selection | 16b | Cite studies that might appear to meet the inclusion criteria, but which were excluded, and explain why they were excluded. | Line 235-238 |
+L932: | Study characteristics | 17 | Cite each included study and present its characteristics. | Table  4 |
+L933: | Risk of bias in studies | 18 | Present assessments of risk of bias for each included study. | Figure 2 |
+L934: | Results of individual studies | 19 | For all outcomes, present, for each study: (a) summary statistics for each group (where appropriate) and (b) an effect estimate and its precision (e.g. confidence/credible interval), ideally using structured tables or plots. | Figure4、5、6、7、8、9、10、11、12、13、14、15. |
+L935: | Results of syntheses | 20a | For each synthesis, briefly summarise the characteristics and risk of bias among contributing studies. | Line 272-291 |
+L936: | Results of syntheses | 20b | Present results of all statistical syntheses conducted. If meta-analysis was done, present for each the summary estimate and its precision (e.g. confidence/credible interval) and measures of statistical heterogeneity. If comparing groups, describe the direction of the effect. | Line302-307、311-315、319-323、327-332、337-343、347-351、 356-362、366-370、374-380、384-389、393-397、 402-407. |
+L937: | Results of syntheses | 20c | Present results of all investigations of possible causes of heterogeneity among study results. | Line417-505、510-560. |
+L938: | Results of syntheses | 20d | Present results of all sensitivity analyses conducted to assess the robustness of the synthesized results. | Line 565-574 |
+L939: | Reporting biases | 21 | Present assessments of risk of bias due to missing results (arising from reporting biases) for each synthesis assessed. | Line 581-599 |
+L940: | Certainty of evidence | 22 | Present assessments of certainty (or confidence) in the body of evidence for each outcome assessed. | N/A |
+L941: | DISCUSSION | DISCUSSION | DISCUSSION |  |
+L942: | Discussion | 23a | Provide a general interpretation of the results in the context of other evidence. | Line 614-685 |
+L943: | Discussion | 23b | Discuss any limitations of the evidence included in the review. | Line 691-698 |
+L944: | Discussion | 23c | Discuss any limitations of the review processes used. | Line 691-698 |
+L945: | Discussion | 23d | Discuss implications of the results for practice, policy, and future research. | Line 699-706 |
+L946: | OTHER INFORMATION | OTHER INFORMATION | OTHER INFORMATION |  |
+L947: | Registration and protocol | 24a | Provide registration information for the review, including register name and registration number, or state that the review was not registered. | Line94-98 |
+L948: | Registration and protocol | 24b | Indicate where the review protocol can be accessed, or state that a protocol was not prepared. | N/A |
+L949: | Registration and protocol | 24c | Describe and explain any amendments to information provided at registration or in the protocol. | N/A |
+L950: | Support | 25 | Describe sources of financial or non-financial support for the review, and the role of the funders or sponsors in the review. | Line730-731 |
+L951: | Competing interests | 26 | Declare any competing interests of review authors. | Line 733 |
+L952: | Availability of data, code and other materials | 27 | Report which of the following are publicly available and where they can be found: template data collection forms; data extracted from included studies; data used for all analyses; analytic code; any other materials used in the review. | N/A |
+L953: # Summary: Table_3.XLSX
+L954: - **Sheets**: 2
+L955: - **Total tables**: 7
+L956: ## Sheet: exercise
+L957: - Tables found: 4
+L958: ### Table 1: Table_1
+L959: - **Rows**: 9
+L960: - **Columns**: 14
+L961: | Column | Dtype | Non-null | Sample values |
+L962: |--------|-------|----------|---------------|
+L963: | study | str | 9 | Arjang 2023(PNF), Messaoudi 2023(CA), Ojeda-Aravena 2021a... |
+L964: | n1 | int64 | 9 | 20, 16, 8 |
+L965: | Mean1 | float64 | 9 | 5.32, 6.13, 5.0 |
+L966: | SD1 | float64 | 9 | 0.48, 0.13, 0.74 |
+L967: | n2 | int64 | 9 | 20, 16, 8 |
+L968: | Mean2 | float64 | 9 | 5.31, 6.36, 6.78 |
+L969: | SD2 | float64 | 9 | 0.41, 0.25, 0.42 |
+L970: | study | str | 7 | Da Silva 2015(RT), Da Silva 2015(PT), Da Silva 2015(RT+PT) |
+L971: | n1 | float64 | 7 | 33.0, 33.0, 33.0 |
+L972: | Mean1 | float64 | 7 | 18.9, 18.66, 20.67 |
+L973: | SD1 | float64 | 7 | 3.11, 2.94, 4.04 |
+L974: | n2 | float64 | 7 | 3.0, 3.0, 4.0 |
+L975: | Mean2 | float64 | 7 | 19.0, 19.0, 19.0 |
+L976: | SD2 | float64 | 7 | 3.0, 3.0, 3.0 |
+L977: ### Table 2: Table_2
+L978: - **Rows**: 14
+L979: - **Columns**: 14
+L980: | Column | Dtype | Non-null | Sample values |
+L981: |--------|-------|----------|---------------|
+L982: | study | str | 9 | Aravena Tapia 2020(HIIT), Chen 2021(VR), Chen 2021(Double... |
+L983: | n1 | float64 | 9 | 6.0, 15.0, 15.0 |
+L984: | Mean1 | float64 | 9 | 95.0, 109.5, 108.7 |
+L985: | SD1 | float64 | 9 | 9.0, 9.9, 8.2 |
+L986: | n2 | float64 | 9 | 6.0, 7.0, 8.0 |
+L987: | Mean2 | float64 | 9 | 84.0, 105.1, 105.1 |
+L988: | SD2 | float64 | 9 | 15.0, 7.7, 7.7 |
+L989: | study | str | 14 | Carazo-Vargas 201(Reducing training volume), Chen 2021(VR... |
+L990: | n1 | int64 | 14 | 12, 15, 15 |
+L991: | Mean1 | float64 | 14 | 34.4, 35.1, 35.1 |
+L992: | SD1 | float64 | 14 | 5.8, 4.7, 4.7 |
+L993: | n2 | int64 | 14 | 12, 7, 8 |
+L994: | Mean2 | float64 | 14 | 31.2, 34.6, 34.6 |
+L995: | SD2 | float64 | 14 | 6.7, 4.1, 4.1 |
+L996: ### Table 3: Table_3
+L997: - **Rows**: 7
+L998: - **Columns**: 14
+L999: | Column | Dtype | Non-null | Sample values |
+L1000: |--------|-------|----------|---------------|
+L1001: | study | str | 7 | Hassan 2024(HIIT-M), Koc 2025(CRG), Koc 2025(ARG) |
+L1002: | n1 | int64 | 7 | 15, 14, 14 |
+L1003: | Mean1 | float64 | 7 | 67.7, 50.57, 51.1 |
+L1004: | SD1 | float64 | 7 | 1.22, 3.66, 3.17 |
+L1005: | n2 | int64 | 7 | 15, 7, 7 |
+L1006: | Mean2 | float64 | 7 | 60.73, 47.7, 47.7 |
+L1007: | SD2 | float64 | 7 | 0.77, 2.74, 2.74 |
+L1008: | study | str | 2 | Chen 2021(VR), Chen 2021(Double VR) |
+L1009: | n1 | float64 | 2 | 15.0, 15.0 |
+L1010: | Mean1 | float64 | 2 | 156.8, 156.9 |
+L1011: | SD1 | float64 | 2 | 13.6, 15.2 |
+L1012: | n2 | float64 | 2 | 15.0, 15.0 |
+L1013: | Mean2 | float64 | 2 | 158.6, 158.6 |
+L1014: | SD2 | float64 | 2 | 13.5, 13.5 |
+L1015: ### Table 4: Table_4
+L1016: - **Rows**: 3
+L1017: - **Columns**: 7
+L1018: | Column | Dtype | Non-null | Sample values |
+L1019: |--------|-------|----------|---------------|
+L1020: | study | str | 3 | Chen 2021(VR), Chen 2021(Double VR), Seo 2019(HIIT) |
+L1021: | n1 | int64 | 3 | 15, 15, 36 |
+L1022: | Mean1 | float64 | 3 | 172.3, 173.5, 191.6 |
+L1023: | SD1 | float64 | 3 | 12.2, 12.9, 8.2 |
+L1024: | n2 | int64 | 3 | 7, 8, 11 |
+L1025: | Mean2 | float64 | 3 | 172.6, 172.6, 192.2 |
+L1026: | SD2 | float64 | 3 | 11.9, 11.9, 8.26 |
+L1027: ## Sheet: nutrition
+L1028: - Tables found: 3
+L1029: ### Table 1: Table_1
+L1030: - **Rows**: 4
+L1031: - **Columns**: 14
+L1032: | Column | Dtype | Non-null | Sample values |
+L1033: |--------|-------|----------|---------------|
+L1034: | study | str | 4 | Delleli 2023, Delleli 2024a, Ouergui 2022a |
+L1035: | n1 | int64 | 4 | 16, 16, 20 |
+L1036: | Mean1 | float64 | 4 | 5.29, 5.53, 5.9 |
+L1037: | SD1 | float64 | 4 | 0.23, 0.11, 0.4 |
+L1038: | n2 | int64 | 4 | 16, 16, 10 |
+L1039: | Mean2 | float64 | 4 | 5.67, 6.15, 6.2 |
+L1040: | SD2 | float64 | 4 | 0.32, 0.27, 0.3 |
+L1041: | study | str | 4 | Delleli 2023, Delleli 2024a, Ouergui 2022a |
+L1042: | n1 | int64 | 4 | 16, 16, 20 |
+L1043: | Mean1 | float64 | 4 | 28.44, 26.56, 25.0 |
+L1044: | SD1 | float64 | 4 | 1.03, 1.55, 1.0 |
+L1045: | n2 | int64 | 4 | 16, 16, 10 |
+L1046: | Mean2 | float64 | 4 | 25.69, 24.19, 23.0 |
+L1047: | SD2 | float64 | 4 | 0.87, 1.33, 1.0 |
+L1048: ### Table 2: Table_2
+L1049: - **Rows**: 6
+L1050: - **Columns**: 14
+L1051: | Column | Dtype | Non-null | Sample values |
+L1052: |--------|-------|----------|---------------|
+L1053: | study | str | 6 | Delleli 2023(Caffeine ingestion), Delleli 2024a(Caffeine ... |
+L1054: | n1 | int64 | 6 | 16, 16, 13 |
+L1055: | Mean1 | float64 | 6 | 129.56, 126.94, 101.3 |
+L1056: | SD1 | float64 | 6 | 1.09, 1.57, 46.5 |
+L1057: | n2 | int64 | 6 | 16, 16, 13 |
+L1058: | Mean2 | float64 | 6 | 124.81, 122.0, 94.1 |
+L1059: | SD2 | float64 | 6 | 1.56, 1.37, 45.4 |
+L1060: | study | str | 4 | Kavcı 2024(NIT), Kavcı 2024(L-ARG), Kavcı 2024(NIT+L-ARG) |
+L1061: | n1 | float64 | 4 | 15.0, 15.0, 15.0 |
+L1062: | Mean1 | float64 | 4 | 51.89, 52.0, 54.4 |
+L1063: | SD1 | float64 | 4 | 2.74, 2.56, 2.94 |
+L1064: | n2 | float64 | 4 | 5.0, 5.0, 5.0 |
+L1065: | Mean2 | float64 | 4 | 50.6, 50.6, 50.6 |
+L1066: | SD2 | float64 | 4 | 2.92, 2.92, 2.92 |
+L1067: ### Table 3: Table_3
+L1068: - **Rows**: 5
+L1069: - **Columns**: 14
+L1070: | Column | Dtype | Non-null | Sample values |
+L1071: |--------|-------|----------|---------------|
+L1072: | study | str | 5 | Delleli 2024b(Caffeine ingestion), Lopes-Silva 2015(Caffe... |
+L1073: | n1 | int64 | 5 | 16, 10, 9 |
+L1074: | Mean1 | float64 | 5 | 158.88, 178.0, 181.0 |
+L1075: | SD1 | float64 | 5 | 4.81, 6.0, 10.0 |
+L1076: | n2 | int64 | 5 | 16, 10, 9 |
+L1077: | Mean2 | float64 | 5 | 156.81, 177.0, 183.0 |
+L1078: | SD2 | float64 | 5 | 2.76, 10.0, 12.0 |
+L1079: | study | str | 5 | Delleli 2024b(Caffeine ingestion), Gaamouri 2019(Polyphen... |
+L1080: | n1 | int64 | 5 | 16, 11, 10 |
+L1081: | Mean1 | float64 | 5 | 201.0, 182.9, 188.0 |
+L1082: | SD1 | float64 | 5 | 1.85, 6.9, 8.0 |
+L1083: | n2 | int64 | 5 | 16, 12, 10 |
+L1084: | Mean2 | float64 | 5 | 198.0, 184.9, 188.0 |
+L1085: | SD2 | float64 | 5 | 2.03, 8.6, 10.0 |
+[39ms]
+

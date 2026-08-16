@@ -1,0 +1,737 @@
+L1: Beetroot Juice Produces Changes in Heart Rate Variability and Reduces Internal Load during Resistance Training in Men: A Randomized Double-Blind Crossover
+L2: Nutrients (2022)
+L3: Jose Manuel Jurado-Castro, David Casanova-Rodriguez, Julian Campos-Perez, Francisco Jesus Llorente-Cantarero, Candelaria Alonso De La Florida-Villagran, Víctor Manuel Diaz-Bernier, Antonio Ranchal-Sanchez
+L4: 1 Metabolism and Investigation Unit, Maimonides Biomedical Research Institute of Cordoba (IMIBIC), Reina Sofia University Hospital, University of Cordoba, 14004 Cordoba, Spain
+L5: 2 CIBER Fisiopatología de la Obesidad y Nutrición (CIBEROBN), Instituto de Salud Carlos III, 28029 Madrid, Spain
+L6: 3 Ciencias De La Actividad Física y El Deporte, Escuela Universitaria de Osuna (Centro Adscrito a la Universidad de Sevilla), 41640 Osuna, Spain
+L7: 4 Department of Nursing, Pharmacology and Physiotherapy, Faculty of Medicine and Nursing, University of Cordoba, 14071 Cordoba, Spain
+L8: 5 Department of Food Science and Technology, Campus Universitario de Rabanales, University of Cordoba, 14004 Cordoba, Spain
+L9: 6 Department of Specific Didactics, Faculty of Education, University of Cordoba, 14004 Cordoba, Spain
+L10: 7 Grupo De Investigación Clínico Epidemiológica De Atención Primaria, Maimonides Biomedical Research Institute of Cordoba (IMIBIC), Reina Sofia University Hospital, University of Cordoba, 14004 Cordoba, Spain
+L11: Beetroot juice (BJ) has been used as a sport supplement, improving performance in resistance training (RT). However, its effect on the modulation of the autonomic nervous system has not yet been widely studied. Therefore, the objective of this randomized double-blind crossover study was to assess the effect of acute BJ supplementation compared to placebo in blood pressure (BP), heart rate (HR), heart rate variability (HRV) and internal load during RT measure as Root Mean Square of the Successive Differences between adjacent RR intervals Slope (RMSSD and RMSSD-Slope, respectively). Eleven men performed an incremental RT test (three sets at 60%, 70% and 80% of their repetition maximum) composed by back squat and bench press with. HR, HRV and RMSSD-Slope were measured during and post exercise. As the main results, RMSSD during exercise decrease in the BJ group compared to placebo ( p  = 0.023; ES = 0.999), there were no differences in RMSSD post-exercise, and there were differences in RMSSD-Slope between groups in favor of the BJ group ( p  = 0.025; ES = 1.104) with a lower internal load. In conclusion, BJ supplementation seems to be a valuable tool for the reduction in the internal load of exercise during RT measured as RMSSD-Slope while enhancing performance.
+L12: Article
+L13: heartbeat; heart rate control; dietary supplement; nitric oxide; autonomic nervous system; beta vulgaris
+L14: 1. Introduction
+L15: Beetroot juice (BJ) and its influence on sport performance has been studied [ 1 ], showing a great interest in the sport nutrition field and the sport performance in different disciplines, and not least, being also interesting on general population health reducing different cardiovascular and coronary diseases [ 1 , 2 ]. Mainly, the effects of BJ and its interest on the field of health, sport nutrition and sport performance are mostly based by the principal active principle present of BJ supplementation, which is the dietary inorganic nitrate (NO 3 − ) [ 3 ]. After its ingestion, the NO 3 −  goes through a complex digestion and convoluted metabolic pathways. It is first absorbed by the salivary circulation and subsequently reduced to nitrite (NO 2 ) by the action of nitrate reductase facultative anaerobic bacteria present at the dorsal surface of the tongue [ 4 ]. Then, at the stomach, NO 2  is decomposed into nitric oxide (NO) and finally reaches the plasma and systemic circulation [ 5 , 6 ].
+L16: In sport performance, the physiological effects of BJ supplementation and NO could be summed up in a dilation of the vascular endothelium [ 7 , 8 ], causing a vasodilator effect and reducing the blood pressure (BP) [ 9 , 10 ]. In addition, these physiological effects are interesting for sport performance because it could increase muscle blood flow [ 11 ], alter and improve lactate removal in the exercise [ 12 ]. In addition, the intake of NO 3 −  effects has been proved in different endurance sports, where cardiovascular system has an important role in performance [ 1 , 7 , 13 ], showing a lower oxygen consumption (VO2) during exercise [ 1 ] with an improvement in adenosine triphosphate (ATP) synthesis [ 14 ].
+L17: Nevertheless, in strength sports or resistance training (RT), BJ supplements have received less attention [ 3 ]. However, research has shown BJ as an effective ergogenic aid in RT, observing an increase in muscle strength, explosive force and muscular endurance due to better ATP utilization, increased blood volume, and therefore, oxygen during exercise [ 15 , 16 , 17 , 18 , 19 ].
+L18: In the cardiovascular system, NO regulates various functions such as contractile force, myocardial relaxation, mitochondrial respiration and coronary perfusion [ 20 ], and it clearly has a cardioprotective role in pathologies such as myocardial infarction and heart failure [ 21 ]. In animal models of cardiac ischemia–reperfusion, treatment with NO 2  produced a clear cardioprotective effect [ 22 , 23 , 24 , 25 ]. However, the results of human studies are not so obvious [ 26 ].
+L19: Normally, a healthy heart is not a regular metronome with the same interval between heartbeats, but it experiences variations of the normal rhythm of the heart. To measure and control these different oscillations of the period between consecutive heartbeats, heart rate variability (HRV) is a proved valuable tool [ 27 ]. HRV can be used as a mirror of the cardiorespiratory control system and parasympathetic function of the autonomic nervous system (ANS), being a useful signal for understanding the status of the ANS [ 28 ]. According to a meta-analysis [ 29 ], HRV data obtained in men and women cannot be treated equally and that studies need to characterize these differences. In autonomic control of the heart indexed by HRV measures, it has been observed that women showed a significantly lower mean RR interval, showing greater vagal activity [ 30 ].
+L20: HRV has a direct relationship between sport performance and physical activity and their physiological effects, decreasing with stress activities such as exercise and when respiratory increases [ 31 ]. Recently, HRV has been considered useful to determine the internal load of physical activity [ 32 ], evaluating the modulation of the sympathetic and parasympathetic system, specifically, to know the activation of the parasympathetic system in the athlete’s recovery [ 33 , 34 , 35 , 36 ]. Using HRV, certain data obtained in his measurement, such as the Root Mean Square of the Successive Differences between adjacent RR intervals (RMSSD), could be one of the best reliable measures of parasympathetic activity. A measurement in a short period of time is sufficient [ 37 ]. In this way, Naranjo Orellana et al. have determined the measure of internal load based on the recovery of the RMSSD-Slope on 30 min post-exercise to monitor the effect of workloads and fatigue caused by exercise [ 32 ].
+L21: Although an electrocardiogram, measured by measurement instruments such as the Holter system, would be the reference method for assessing HRV [ 38 ], it not suitable for daily measurement and sport. In this regard, new technologies such as wearable devices [ 39 , 40 , 41 , 42 ] and smartphone applications [ 43 , 44 ] have taken the spotlight, becoming the reference method for measuring RR intervals. Chest straps such as the Polar H10 (Polar Inc., Kempele, Finland) can be considered the gold standard for RR interval assessments if intense activities with strong body movements are investigated. Polar H10 has demonstrated the validity of for the detection of RR intervals in a wide range of physical activities and sports [ 39 ]. HRV parameters and several nonlinear parameters can be further interpreted and analyzed using advanced HRV analysis software such as Kubios HRV (University of Eastern Finland, Kuopio, Finland) [ 45 ]. This software supports several input data formats for electrocardiogram data and beat-to-beat RR interval data.
+L22: Despite the knowledge of the ergogenic component of BJ and the changes produced in BP after its consumption pre-exercise, certain physiological post-exercise recovery effects have not been evaluated during RT, especially in relation to HR and HRV, which is a critical period in which various modifications occur, including changes in autonomic modulation [ 46 ], which can promote an environment conducive to the development of abnormal alteration in both BP, HR and HRV [ 46 , 47 ]. Thus, due the possible effects of BJ supplementation in addition to RT in cardiovascular system, the purpose of this study was to investigate the possible effects of BJ acute supplementation during RT in BP and the variations in HR, HRV and internal load during RT measured by changes in HRV in man. We hypothesized that the BJ consumption could produce changes in the HRV and produce a reduction in the internal load during RT.
+L23: 2. Materials and Methods
+L24: 2.1. Design
+L25: The study was conducted according to the CONSORT statement ( Supplemental Material S1 ) with a double-blind, randomized crossover trial design. The experimental procedure was carried out in 3 visits, with a difference of one week between visits. Body composition was assessed at the first visit in addition to a familiarization protocol and 1RM tests. In the second and third visits, the participants carried out the experimental supplementation protocol (BJ consumption or placebo). In order to standardize the influence of the circadian rhythm, and the possible variation of muscle strength and power [ 48 , 49 ], the visits took place at the same time of day in the morning (±0.5 h) with a temperature of 24 °C ± 1 °C.
+L26: 2.2. Participants
+L27: The inclusion/exclusion criteria to recruit trained men were: (a) 18–30 years old; (b) experience of more than 2 years in RT; (c) familiarization with the back squat and bench press exercises; (d) abstinence from the consumption of nutritional supplements or anabolic substances for three months before the study; and (e) absence of musculoskeletal injuries. These criteria were verified through personal interviews.
+L28: All participants were informed through an information sheet and a signed written consent before the start of the investigation in accordance with the Declaration of Helsinki [ 50 ]. The protocol was approved by Portal de Ética de la Investigación Biomédica de Andalucía ethics committee (protocol code: BEETROOT JUICE; reference 4284).
+L29: 2.3. Anthropometry and Body Composition
+L30: During the first visit, anthropometric measurements were made according to the protocol of the International Society for the Advancement of Kinanthropometry (ISAK). Body composition was reported using bioelectrical impedance (MC-780MA; Tanita) and height was recorded with a stadiometer (portable stadiometer; Seca 214) [ 51 ].
+L31: 2.4. Study Interventions
+L32: 2.4.1. Familiarization Protocol, One-Repetition Maximum Testing and Resistance Training Performance (Back Squat and Bench Press)
+L33: Before the test, participants performed a familiarization by performing a maximum explosive speed in the concentric movement for the back squat and bench press exercises. The participants lifted 20 kg on a Smith machine (Technogym, Barcelona, Spain) for a total of three repetitions controlling the technique movement of back squat. They received correction by research if necessary.
+L34: During the familiarization and 1RM test, the execution velocity was controlled using a linear position transducer (v.4.1, Speed4Lift; Madrid, Spain) used in previous studies [ 52 , 53 ]. A previous testing protocol to find the 1RM load in back squat and bench press was realized [ 54 ].
+L35: Back squat and bench press were performed on the same day, and the protocol was replicated for both. Test specifications were published previously by Ranchal-Sanchez et al. (2020) [ 52 ].
+L36: Results regarding performance in back squat and bench press as well as RPE have been published by Ranchal-Sanchez et al. (2020), finding an overall better performance in the RT with the BJ consumption, improving the muscular resistance without differences in ratings of perceived exertion (RPE) [ 52 ].
+L37: 2.4.2. Supplementation Protocol
+L38: First, 70 ml of BJ (BEET It Sport ® ; James White Drinks Ltd., Ipswich, UK) with 6.4 mmol·L −1  or 400 mg NO 3 −  per serving [ 55 ] or 70 mL of blackcurrant drink without NO 3 −  as a placebo (Capri-Sun, Uxbridge, UK) were taken 120 min before of each visit [ 1 ].
+L39: Participants completed a 24 h dietary recall, on the day prior to the first visit, as a tool for athletes to replicate their diet [ 17 ]. Moreover, they also received nutritional guidelines based on the exchange of food groups to guarantee that 48 h before each visit, they followed a similar diet composed of 60% carbohydrates, 30% lipids and 10% proteins [ 14 , 56 , 57 , 58 ], and a list of foods rich in NO 3 −  (e.g., beetroot, celery, or spinach) or rich in caffeine that they could not consume.
+L40: Twenty-four hours before the experimental visits, the participants were instructed to refrain from brushing their teeth and the use of mouthwash, and the participants had to sleep at least 8 h to ensure optimal hydration and rest during the study period.
+L41: 2.5. Study Outcomes
+L42: 2.5.1. Blood Pressure
+L43: For testing blood pressure, diastolic (DBP) and systolic (SBP) blood pressure in the non-dominant arm were measured (OMROM, HEM-7200-E2 device) at the beginning and the RT post-exercise, measuring three times to dismiss possible measurement failures [ 59 ].
+L44: 2.5.2. Heart Rate and Heart Rate Variability Measurement
+L45: During training and recovery, HR was monitored with a Polar H10 heart rate monitor. As the data receiver, the Polar Beat application was used in dual Bluetooth connection to record HR (HR average and maximum HR of the session), allowing a second connection to be made to measure HRV, on another mobile device with the Elite HRV application, which was previously validated for HRV recording [ 60 ].
+L46: HRV measurement was performed by recording the last 5 min of training and after finishing it for a further 10 min in a relaxed sitting position [ 32 ]. Due to the sudden change in HRV caused by the transition between training and recovery, the first 5 min of recovery were discarded [ 43 ], finally obtaining the values of 5 min at post-exercise for later interpretation.
+L47: The RR time intervals obtained from the HRV recording were later downloaded and analyzed using the Kubios HRV software (Version 3.3, University of Eastern Finland, Kuopio, Finland) [ 61 ]. Each record was previously analyzed to detect the possible presence of noise and abnormal beats, applying the corresponding filters if necessary.
+L48: During HRV measurement, RMSSD was recorded during exercise and at post-exercise. These data were later used to calculate the RMSSD-Slope by using the following formula as indicated by Naranjo-Orellena et al. (2019) [ 32 ]: RMSSD-SLope = (RMSSD-postexercise − RMSSD-exercise)/time exercise
+L49: For an intensity of 60–75% of the maximum effort (coinciding with the intervals of the present study, 60–80%), the internal load score proposal according to the RMSSD-Slope value was: poor (<0.4); acceptable (0.4–2.6); very good (>2.6) [ 32 ].
+L50: 2.5.3. Sample Size
+L51: The sample size was calculated considering recent studies on the effects of BJ in RT [ 16 , 17 ]. A calculation based on a normal distribution was performed, with a power of 0.80 and a 2-tailed α level set to 0.05; the minimum number of participants required was estimated as 11.
+L52: 2.5.4. Randomization
+L53: A third person from outside the research team randomized all participants’ supplements (50% of participants took BJ and 50% took placebo at each visit). The online program  https://www.randomlists.com/team-generator  (accessed on 2 February 2020) was used.
+L54: 2.6. Statistical Analysis
+L55: To assess the normality of the variables, Shapiro–Wilk tests were performed, and the equality of variance was contrasted with the Levene test. The comparison of the mean outcomes between BJ or placebo consumption was realized with a paired-samples  t -test. For a practical significance of the results, effect size (ES) was calculated using Hedges  g  for repeated measures. ESs were considered to have large (ES > 0.8), moderate (ES = 0.8–0.5), small (ES = 0.5–0.2), or trivial (ES < 0.2) effects [ 62 ]. In addition, a general linear model for repeated measures was applied for the time–supplement interaction effect for the SBP, DBP, RMSSD first and final measurements. The Greenhouse–Geisser adjustment for sphericity was calculated. After a significant F-test, differences among the means were identified using pairwise comparisons with Bonferroni’s adjustment. A general linear model for repeated measures ES were calculated using partial eta squared ( η 2 p ), considering small to be under 0.25, medium 0.26–0.63, and large above 0.63 [ 63 ]. Significance was set at  p -value < 0.05. SPSS software (Version 22.0, IBM SPSS Statistics for Windows, 2013; IBM Corp., Armonk, NY, USA) was used for the statistical analysis. The data are presented as mean ± SD.
+L56: 3. Results
+L57: Eleven men completed the two visits of the study protocol; one participant did not complete the study due to gastrointestinal problems.  Figure 1  shows the flow diagram. Eleven participants were finally randomized, whose characteristics and anthropometrics data were published in a previous paper [ 52 ].
+L58: There were no differences in BP basal and post-exercise either in the HR mean or HR post-exercise. However, we did observe a difference in HR max, which was higher in the BJ group ( Table 1 ). No differences were observed either in the interaction time x supplementation basal and post-exercise in the SBP ( p  = 0.444;  η 2 p  = 0.054), or in DBP ( p  = 0.642;  η 2 p  = 0.020).
+L59: Differences were found in the RMSSD during exercise with a lower value in the consumption of BJ vs. placebo (BJ: 12.9 ± 6.3 vs. placebo: 26.9 ± 18;  p  = 0.023; ES = 0.999). There were no differences in the post-exercise RMSSD (BJ: 26.5 ± 16 vs. placebo: 27.7 ± 28.7;  p  = 0.914; ES = 0.050) ( Figure 2 ). There was an interaction time x supplementation between the first and final measurement in RMSSD ( p  = 0.041;  η 2 p  = 0.354). Therefore, there were differences in the RMSSD-Slope (BJ: 3 ± 3 (very good) vs. placebo: 0.5 ± 0.7 (acceptable);  p  = 0.025; ES = 1.104).
+L60: 4. Discussion
+L61: This study aimed to investigate the possible effects of acute BJ supplementation on BP and variations in HR, HRV, and internal load during RT. The results of the study showed that BJ supplementation before training (120 min before) could produce changes in HRV, reducing RMSSD during exercise, but showing no changes in BP or RMSSD after exercise. Therefore, it seems that BJ could reduce the internal load measured through the RMSSD-Slope during RT, thus obtaining an improvement in RT performance, mainly in muscular endurance, as previously published [ 52 ].
+L62: Although there was no effect compared to placebo, BJ has the potential to decrease BP, vascular resistance and myocardial oxygen demand in both recovering and exercising subjects [ 64 ]. Vanhatalo et al. (2010) conclude that BJ reduces only SBP [ 65 ], whereas Webb et al. (2008) indicated that reductions in both systolic and diastolic BP were observed, respectively, 2.5 and 3 h post BJ supplementation [ 66 ]. Furthermore, systolic BP remained decreased after 24 for hours post ingestion, while diastolic BP returned toward baseline [ 67 ]. As a whole, these data invite us to think that BJ or nitrate-rich supplementation diet is more suitable to changes in systolic BP than diastolic. The result of this decline in BP can attenuate the O 2  cost of an increment in work rate by 20% especially the younger one is. In fact, Stanaway et al. (2019) have described that SBP was reduced in young and older adults following BR supplementation, while DBP was reduced only in the older ones [ 68 ].
+L63: A possible explanation for the results of the present study may be the reactive oxygen and nitrate species (RONS) produced by RT [ 69 ]. Due to the antioxidant effect of NO 3 −  and betalains [ 70 , 71 , 72 ], it could be theorized that the lack of effect in our study is due to the oxidation of these components of the BJ carried out by the RONS produced during the RT. There is some controversy in the mechanism by which BJ reduce BP, because some reviews [ 9 ] and studies [ 65 , 68 ] suggest that this effect is due to NO 3 −  content, but a recent systematic review and metanalysis carried out by Bahadoran et al. (2017) [ 73 ] highlights that this effect could be NO 3 −  independent and may be related to other bioactive components such as betalains or other antioxidants [ 74 , 75 ].
+L64: RT has been probed to decrease acute parasympathetic modulation regardless of the age [ 76 ]. In the present study, it was shown how the BJ consumption modified the maximum HR and decreased RT-intensive exercise-mediated RMSSD in trained young men, reducing internal load compared with a control group. Similar to this, Benjamin et al. (2020) found that beetroot extract accelerates the return of parasympathetic modulation during recovery after an RT protocol in healthy adult men [ 77 ]. Although changes in HRV during aerobic exercise have been studied, an increase in HRV was observed during the day [ 78 , 79 ]. Carrijo et al. (2021) conclude that a single dose of BJ, independent of NO 3 −  content, does not change aerobic exercise-mediated responses in HRV indexes in time, frequency, and non-linear domains in hypertensive postmenopausal women [ 80 ], which is aspect not studied in trained men during RT.
+L65: In this regard, the BJ group had a significantly lower RMSSD during exercise than the placebo group. Exercise enhances the activity of the sympathetic nervous system [ 81 , 82 ] while reducing the vagal tone especially as the HR and exercise workload increase [ 83 ]. With RMSSD being a measurement of parasympathetic activation [ 84 ], besides the fact that the BJ group accumulated a greater total number of repetitions [ 52 ] and achieved a significantly higher HR than the placebo group, it could explain the reduced RMSSD during exercise in this group. Anyway, there were no differences between groups in post-exercise RMSSD, and the BJ group showed an increase in RMSSD-Slope between groups, which would mean a decrease in the internal training load in the BJ group [ 32 , 37 ]. A possible explanation for this could be the effect of NO on the autonomous nervous system, which could inhibit the sympathetic activity while increasing the vagal outflow [ 85 , 86 ] and thus enhance the recovery after exercise.
+L66: Despite the fact that, to our knowledge, no other clinical trials have studied the effects of BJ during RT in HRV. The relationship between HRV, sport and the utilization of some sport supplements has been analyzed before. In this regard, other commonly used supplements such us creatine limits the parasympathetic modulation of the RT exercise [ 87 ], whereas caffeine has contradictory results by increasing the parasympathetic modulation after anaerobic exercise [ 88 ] but delaying parasympathetic recovery after aerobic exercise [ 89 ]. Other not as common supplements such as the black thai ginger show a similar effect to caffeine in the response of autonomic nervous system to anaerobic exercise [ 90 ]. In this sense, studies that combine different supplements are required.
+L67: To our knowledge, this was the first study to evaluate the acute effects of BJ on HRV and internal load during resistance training. The results should be interpreted with caution. The main limitation of this study is the fact that only one measure of the HRV was realized in both groups and, with HRV being a very variable between days, it can bias the results of this trial. We suggest that future research on this topic should replicate HRV measurements not only to know the acute effects but also chronic ones. Another possible limitation to the study is the exercise order selection. Due to the back-squat exercise, which was performed previous to the bench press, and because of the back-squat involving a larger muscle volume [ 91 , 92 ], the accumulated neuromuscular fatigue and metabolic by-products [ 93 ] could cause different interpretation of the results if HRV was measured after back-squat instead of bench press.
+L68: 5. Conclusions
+L69: In conclusion, no differences were found in BP between groups, but changes in HRV were found. Specifically, a decrease in RMSSD during exercise was observed with BJ consumption. It was accompanied with no differences in RMSSD post-exercise and an internal load reduction measured by RMSSD-Slope after BJ consumption while performing better on the muscular endurance test. Therefore, we conclude that BJ is a useful supplementation tool increasing the parasympathetic regulation in RT and thus decreasing the internal load.
+L70: 6. Practical Applications
+L71: HRV measurement is a practical tool that can give a broader physiological understanding of sports performance. The effects of certain nutritional substances and sports supplements can affect the autonomic modulation of cardiovascular function. According to the results of the present study on the reduction in internal load derived from HRV parameters, it seems that BJ could be a suitable strategy to reduce exercise-derived fatigue even with a higher volume of training during RT.
+L72: Figure 1 Flow diagram utilizing Consolidated Standards of Reporting Trials (CONSORT) guidelines.
+L73: Figure 2 ( A ) Acute effects of BJ consumption compared to placebo on RMSSD during exercise; ( B ) Acute effects of BJ consumption compared to placebo on post-exercise RMSSD. BJ: beetroot juice. *: Significant differences ( p -value < 0.05).
+L74: Click here for additional data file.
+L75: 1. Domínguez R. 
+L76:  Cuenca E. 
+L77:  Maté-Muñoz J. 
+L78:  García-Fernández P. 
+L79:  Serra-Paya N. 
+L80:  Lozano M.C. 
+L81:  Herreros P. 
+L82:  Garnacho-Castaño M. 
+L83:  Effects of Beetroot Juice Supplementation on Cardiorespiratory Endurance in Athletes. A Systematic Review Nutrients 2017 9 43 10.3390/nu9010043 28067808
+L84: 2. Vanhatalo A. 
+L85:  Fulford J. 
+L86:  Bailey S. 
+L87:  Blackwell J. 
+L88:  Winyard P. 
+L89:  Jones A. 
+L90:  Dietary Nitrate Reduces Muscle Metabolic Perturbation and Improves Exercise Tolerance in Hypoxia J. Physiol. 2011 589 5517 5528 10.1113/jphysiol.2011.216341 21911616
+L91: 3. Maughan R. 
+L92:  Burke L. 
+L93:  Dvorak J. 
+L94:  Larson-Meyer D. 
+L95:  Peeling P. 
+L96:  Phillips S. 
+L97:  Rawson E. 
+L98:  Walsh N. 
+L99:  Garthe I. 
+L100:  Geyer H. 
+L101:  
+L102:  IOC Consensus Statement: Dietary Supplements and the High-Performance Athlete Br. J. Sports Med. 2018 52 439 455 10.1136/bjsports-2018-099027 29540367
+L103: 4. Lundberg J. 
+L104:  Weitzberg E. 
+L105:  Cole J. 
+L106:  Benjamin N. 
+L107:  Opinion: Nitrate, Bacteria and Human Health Nat. Rev. Microbiol. 2004 2 593 602 10.1038/nrmicro929 15197394
+L108: 5. Lundberg J. 
+L109:  Govoni M. 
+L110:  Inorganic Nitrate Is a Possible Source for Systemic Generation of Nitric Oxide Free Radic. Biol. Med. 2004 37 395 400 10.1016/j.freeradbiomed.2004.04.027 15223073
+L111: 6. Lundberg J. 
+L112:  Weitzberg E. 
+L113:  Gladwin M. 
+L114:  Lundberg J.O. 
+L115:  Weitzberg E. 
+L116:  Gladwin M.T. 
+L117:  The Nitrate-Nitrite-Nitric Oxide Pathway in Physiology and Therapeutics Nat. Rev. Drug Discov. 2008 7 156 167 10.1038/nrd2466 18167491
+L118: 7. Lansley K. 
+L119:  Winyard P. 
+L120:  Bailey S. 
+L121:  Vanhatalo A. 
+L122:  Wilkerson D. 
+L123:  Blackwell J. 
+L124:  Gilchrist M. 
+L125:  Benjamin N. 
+L126:  Jones A. 
+L127:  Acute Dietary Nitrate Supplementation Improves Cycling Time Trial Performance Med. Sci. Sports Exerc. 2011 43 1125 1131 10.1249/MSS.0b013e31821597b4 21471821
+L128: 8. Modin A. 
+L129:  Björne H. 
+L130:  Herulf M. 
+L131:  Alving K. 
+L132:  Weitzberg E. 
+L133:  Lundberg J.O.N. 
+L134:  Nitrite-Derived Nitric Oxide: A Possible Mediator of “acidic-Metabolic” Vasodilation Acta Physiol. Scand. 2001 171 9 16 10.1046/j.1365-201x.2001.171001009.x 11350258
+L135: 9. Siervo M. 
+L136:  Lara J. 
+L137:  Ogbonmwan I. 
+L138:  Mathers J. 
+L139:  Inorganic Nitrate and Beetroot Juice Supplementation Reduces Blood Pressure in Adults: A Systematic Review and Meta-Analysis J. Nutr. 2013 143 818 826 10.3945/jn.112.170233 23596162
+L140: 10. Bonilla D. 
+L141:  Petro J. 
+L142:  Vargas Molina S. 
+L143:  Pérez-Idárraga A. 
+L144:  Dietary Nitrate from Beetroot Juice for Hypertension: A Systematic Review Biomolecules 2018 8 134 10.3390/biom8040134 30400267
+L145: 11. Ferguson S. 
+L146:  Hirai D. 
+L147:  Copp S. 
+L148:  Holdsworth C. 
+L149:  Allen J. 
+L150:  Jones A. 
+L151:  Musch T. 
+L152:  Poole D. 
+L153:  Impact of Dietary Nitrate Supplementation via Beetroot Juice on Exercising Muscle Vascular Control in Rats J. Physiol. 2012 591 547 557 10.1113/jphysiol.2012.243121 23070702
+L154: 12. Wylie L. 
+L155:  Bailey S. 
+L156:  Kelly J. 
+L157:  Blackwell J. 
+L158:  Vanhatalo A. 
+L159:  Jones A. 
+L160:  Influence of Beetroot Juice Supplementation on Intermittent Exercise Performance Eur. J. Appl. Physiol. 2016 116 415 425 10.1007/s00421-015-3296-4 26614506
+L161: 13. Cermak N.M. 
+L162:  Gibala M.J. 
+L163:  Van Loon L.J.C. 
+L164:  Nitrate Supplementation’s Improvement of 10-Km Time-Trial Performance in Trained Cyclists Int. J. Sport Nutr. Exerc. Metab. 2012 22 64 71 10.1123/ijsnem.22.1.64 22248502
+L165: 14. Muggeridge D. 
+L166:  Howe C. 
+L167:  Spendiff O. 
+L168:  Pedlar C. 
+L169:  James P. 
+L170:  Easton C. 
+L171:  A Single Dose of Beetroot Juice Enhances Cycling Performance in Simulated Altitude Med. Sci. Sports Exerc. 2013 46 143 150 10.1249/MSS.0b013e3182a1dc51
+L172: 15. Bailey S. 
+L173:  Fulford J. 
+L174:  Vanhatalo A. 
+L175:  Winyard P. 
+L176:  Blackwell J. 
+L177:  Dimenna F. 
+L178:  Wilkerson D. 
+L179:  Benjamin N. 
+L180:  Jones A. 
+L181:  Dietary Nitrate Supplementation Enhances Muscle Efficiency during Knee-Extensor Exercise in Humans Jpn. J. Phys. Fit. Sports Med. 2011 60 86 10.7600/jspfsm.60.86
+L182: 16. Mosher S.L. 
+L183:  Andy Sparks S. 
+L184:  Williams E.L. 
+L185:  Bentley D.J. 
+L186:  Naughton L.R.M. 
+L187:  Ingestion of a Nitric Oxide Enhancing Supplement Improves Resistance Exercise Performance J. Strength Cond. Res. 2016 30 3520 3524 10.1519/JSC.0000000000001437 27050244
+L188: 17. Williams T. 
+L189:  Martin M. 
+L190:  Mintz J. 
+L191:  Rogers R. 
+L192:  Ballmann C. 
+L193:  Effect of Acute Beetroot Juice Supplementation on Bench Press Power, Velocity, and Repetition Volume J. Strength Cond. Res. 2020 34 924 928 10.1519/JSC.0000000000003509 31913252
+L194: 18. Jurado-Castro J.M. 
+L195:  Campos-Perez J. 
+L196:  Ranchal-Sanchez A. 
+L197:  Durán-López N. 
+L198:  Domínguez R. 
+L199:  Acute Effects of Beetroot Juice Supplements on Lower-Body Strength in Female Athletes: Double-Blind Crossover Randomized Trial Sports Health Multidiscip. Approach 2022 14 812 821 10.1177/19417381221083590
+L200: 19. Tan R. 
+L201:  Pennell A. 
+L202:  Price K.M. 
+L203:  Karl S.T. 
+L204:  Seekamp-Hicks N.G. 
+L205:  Paniagua K.K. 
+L206:  Weiderman G.D. 
+L207:  Powell J.P. 
+L208:  Sharabidze L.K. 
+L209:  Lincoln I.G. 
+L210:  
+L211:  Effects of Dietary Nitrate Supplementation on Performance and Muscle Oxygenation during Resistance Exercise in Men Nutrients 2022 14 3703 10.3390/nu14183703 36145080
+L212: 20. Simon J. 
+L213:  Duglan D. 
+L214:  Casadei B. 
+L215:  Carnicer R. 
+L216:  Nitric Oxide Synthase Regulation of Cardiac Excitation-Contraction Coupling in Health and Disease J. Mol. Cell. Cardiol. 2014 73 80 91 10.1016/j.yjmcc.2014.03.004 24631761
+L217: 21. Treuer A.V. 
+L218:  Gonzalez D.R. 
+L219:  Nitric Oxide Synthases, S-Nitrosylation and Cardiovascular Health: From Molecular Mechanisms to Therapeutic Opportunities (Review) Mol. Med. Rep. 2015 11 1555 1565 10.3892/mmr.2014.2968 25405382
+L220: 22. Bhushan S. 
+L221:  Kondo K. 
+L222:  Polhemus D. 
+L223:  Otsuka H. 
+L224:  Nicholson C. 
+L225:  Tao Y.-X. 
+L226:  Huang H. 
+L227:  Georgiopoulou V. 
+L228:  Murohara T. 
+L229:  Calvert J. 
+L230:  
+L231:  Nitrite Therapy Improves Left Ventricular Function During Heart Failure via Restoration of Nitric Oxide (NO) Mediated Cytoprotective Signaling Circ. Res. 2014 114 1281 1291 10.1161/CIRCRESAHA.114.301475 24599803
+L232: 23. Carlström M. 
+L233:  Persson A.E.G. 
+L234:  Larsson E. 
+L235:  Hezel M. 
+L236:  Scheffer P. 
+L237:  Teerlink T. 
+L238:  Weitzberg E. 
+L239:  Lundberg J. 
+L240:  Dietary Nitrate Attenuates Oxidative Stress, Prevents Cardiac and Renal Injuries, and Reduces Blood Pressure in Salt-Induced Hypertension Cardiovasc. Res. 2011 89 574 585 10.1093/cvr/cvq366 21097806
+L241: 24. Rassaf T. 
+L242:  Totzeck M. 
+L243:  Hendgen-Cotta U. 
+L244:  Shiva S. 
+L245:  Heusch G. 
+L246:  Kelm M. 
+L247:  Circulating Nitrite Contributes to Cardioprotection by Remote Ischemic Preconditioning Circ. Res. 2014 114 1601 1610 10.1161/CIRCRESAHA.114.303822 24643960
+L248: 25. Shiva S. 
+L249:  Sack M. 
+L250:  Greer J. 
+L251:  Duranski M. 
+L252:  Ringwood L. 
+L253:  Burwell L. 
+L254:  Wang X. 
+L255:  MacArthur P. 
+L256:  Shoja A. 
+L257:  Raghavachari N. 
+L258:  
+L259:  Nitrite Augments Tolerance to Ischemia/Reperfusion Injury via the Modulation of Mitochondrial Electron Transfer J. Exp. Med. 2007 204 2089 2102 10.1084/jem.20070198 17682069
+L260: 26. Ingram T. 
+L261:  Fraser A. 
+L262:  Bleasdale R. 
+L263:  Ellins E. 
+L264:  Margulescu A. 
+L265:  Halcox J. 
+L266:  James P. 
+L267:  Low-Dose Sodium Nitrite Attenuates Myocardial Ischemia and Vascular Ischemia-Reperfusion Injury in Human Models J. Am. Coll. Cardiol. 2013 61 2534 2541 10.1016/j.jacc.2013.03.050 23623914
+L268: 27. He Z. 
+L269:  The Control Mechanisms of Heart Rate Dynamics in a New Heart Rate Nonlinear Time Series Model Sci. Rep. 2020 10 4814 10.1038/s41598-020-61562-6 32179768
+L270: 28. Acharya U.R. 
+L271:  Joseph P. 
+L272:  Kannathal N. 
+L273:  Lim C. 
+L274:  Suri J. 
+L275:  Heart Rate Variability: A Review Med. Biol. Eng. Comput. 2007 44 1031 1051 10.1007/s11517-006-0119-0
+L276: 29. Koenig J. 
+L277:  Thayer J.F. 
+L278:  Sex Differences in Healthy Human Heart Rate Variability: A Meta-Analysis Neurosci. Biobehav. Rev. 2016 64 288 310 10.1016/j.neubiorev.2016.03.007 26964804
+L279: 30. Huikuri H.V. 
+L280:  Pikkujämsä S.M. 
+L281:  Airaksinen K.E.J. 
+L282:  Ikäheimo M.J. 
+L283:  Rantala A.O. 
+L284:  Kauma H. 
+L285:  Lilja M. 
+L286:  Kesäniemi Y.A. 
+L287:  Sex-Related Differences in Autonomic Modulation of Heart Rate in Middle-Aged Subjects Circulation 1996 94 122 125 10.1161/01.CIR.94.2.122 8674168
+L288: 31. Dong J.-G. 
+L289:  The Role of Heart Rate Variability in Sports Physiology Exp. Ther. Med. 2016 11 1531 1536 10.3892/etm.2016.3104 27168768
+L290: 32. Naranjo Orellana J. 
+L291:  Nieto C. 
+L292:  Ruso Álvarez J.F. 
+L293:  Recovery Slope of Heart Rate Variability as an Indicator of Internal Training Load Health 2019 11 211 221 10.4236/health.2019.112019
+L294: 33. Naranjo J. 
+L295:  Torres B. 
+L296:  Sarabia-Cachadiña E. 
+L297:  de Hoyo M. 
+L298:  Domínguez-Cobo S. 
+L299:  Heart Rate Variability: A Follow-up in Elite Soccer Players Throughout the Season Int. J. Sports Med. 2015 36 881 886 10.1055/s-0035-1550047 26140687
+L300: 34. Goldberger J. 
+L301:  Le F. 
+L302:  Lahiri M. 
+L303:  Kannankeril P. 
+L304:  Ng J. 
+L305:  Kadish A. 
+L306:  Assesment of Parasympathetic Reactivation after Exercise Am. J. Physiol. Heart Circ. Physiol. 2006 290 H2446 H2452 10.1152/ajpheart.01118.2005 16415073
+L307: 35. Saboul D. 
+L308:  Balducci P. 
+L309:  Millet G. 
+L310:  Pialoux V. 
+L311:  Hautier C. 
+L312:  A Pilot Study on Quantification of Training Load: The Use of HRV in Training Practice Eur. J. Sport Sci. 2015 16 172 181 10.1080/17461391.2015.1004373 25657120
+L313: 36. Buchheit M. 
+L314:  Laursen P. 
+L315:  Ahmaidi S. 
+L316:  Parasympathetic Reactivation after Repeated Sprint Exercise Am. J. Physiol. Heart Circ. Physiol. 2007 293 H133 H141 10.1152/ajpheart.00062.2007 17337589
+L317: 37. Ruso Álvarez J.F. 
+L318:  Nieto C. 
+L319:  Muñoz-López A. 
+L320:  Naranjo Orellana J. 
+L321:  Utility of the “RMSSD-Slope” to Assess the Internal Load in Different Sports Situations Health 2019 11 683 691 10.4236/health.2019.116057
+L322: 38. Sammito S. 
+L323:  Böckelmann I. 
+L324:  Reference Values for Time- and Frequency-Domain Heart Rate Variability Measures Heart Rhythm 2016 13 1309 1316 10.1016/j.hrthm.2016.02.006 26883166
+L325: 39. Gilgen-Ammann R. 
+L326:  Schweizer T. 
+L327:  Wyss T. 
+L328:  RR Interval Signal Quality of a Heart Rate Monitor and an ECG Holter at Rest and during Exercise Eur. J. Appl. Physiol. 2019 119 1525 1532 10.1007/s00421-019-04142-5 31004219
+L329: 40. Kingsley M. 
+L330:  Lewis M. 
+L331:  Marson R. 
+L332:  Comparison of Polar 810 s and an Ambulatory ECG System for RR Interval Measurement During Progressive Exercise Int. J. Sports Med. 2005 26 39 44 10.1055/s-2004-817878 15643533
+L333: 41. Nunan D. 
+L334:  Gay D. 
+L335:  Jakovljevic D.G. 
+L336:  Hodges L.D. 
+L337:  Sandercock G.R.H. 
+L338:  Brodie D.A. 
+L339:  Validity and Reliability of Short-Term Heart-Rate Variability from the Polar S810 Med. Sci. Sports Exerc. 2009 41 243 250 10.1249/MSS.0b013e318184a4b1 19092682
+L340: 42. Giles D. 
+L341:  Draper N. 
+L342:  Neil W. 
+L343:  Validity of the Polar V800 Heart Rate Monitor to Measure RR Intervals at Rest Eur. J. Appl. Physiol. 2016 116 563 571 10.1007/s00421-015-3303-9 26708360
+L344: 43. Perrotta A.S. 
+L345:  Jeklin A.T. 
+L346:  Hives B.A. 
+L347:  Meanwell L.E. 
+L348:  Warburton D.E.R. 
+L349:  Validity of the Elite HRV Smartphone Application for Examining Heart Rate Variability in a Field-Based Setting J. Strength Cond. Res. 2017 31 2296 2302 10.1519/JSC.0000000000001841 28195974
+L350: 44. Plews D.J. 
+L351:  Scott B. 
+L352:  Altini M. 
+L353:  Wood M. 
+L354:  Kilding A.E. 
+L355:  Laursen P.B. 
+L356:  Comparison of Heart-Rate-Variability Recording with Smartphone Photoplethysmography, Polar H7 Chest Strap, and Electrocardiography Int. J. Sports Physiol. Perform. 2017 12 1324 1328 10.1123/ijspp.2016-0668 28290720
+L357: 45. Tarvainen M.P. 
+L358:  Niskanen J.P. 
+L359:  Lipponen J.A. 
+L360:  Ranta-aho P.O. 
+L361:  Karjalainen P.A. 
+L362:  Kubios HRV–Heart Rate Variability Analysis Software Comput. Methods Programs Biomed. 2014 113 210 220 10.1016/j.cmpb.2013.07.024 24054542
+L363: 46. Lahiri M. 
+L364:  Chicos A. 
+L365:  Bergner D. 
+L366:  Ng J. 
+L367:  Banthia S. 
+L368:  Wang N. 
+L369:  Subacius H. 
+L370:  Kadish A. 
+L371:  Goldberger J. 
+L372:  Recovery of Heart Rate Variability and Ventricular Repolarization Indices Following Exercise Ann. Noninvasive Electrocardiol. 2012 17 349 360 10.1111/j.1542-474X.2012.00527.x 23094881
+L373: 47. Kenttä T. 
+L374:  Viik J. 
+L375:  Karsikas M. 
+L376:  Seppänen T. 
+L377:  Nieminen T. 
+L378:  Lehtimäki T. 
+L379:  Nikus K. 
+L380:  Lehtinen R. 
+L381:  Kähönen M. 
+L382:  Huikuri H. 
+L383:  Postexercise Recovery of the Spatial QRS/T Angle as a Predictor of Sudden Cardiac Death Heart Rhythm 2012 9 1083 1089 10.1016/j.hrthm.2012.02.030 22387381
+L384: 48. López-Samanes Á. 
+L385:  Moreno-Pérez D. 
+L386:  Maté-Muñoz J.L. 
+L387:  Domínguez R. 
+L388:  Pallarés J.G. 
+L389:  Mora-Rodriguez R. 
+L390:  Ortega J.F. 
+L391:  Circadian Rhythm Effect on Physical Tennis Performance in Trained Male Players J. Sports Sci. 2016 35 2121 2128 10.1080/02640414.2016.1258481 27918240
+L392: 49. Dumar A.M. 
+L393:  Huntington A.F. 
+L394:  Rogers R.R. 
+L395:  Kopec T.J. 
+L396:  Ballmann C.G. 
+L397:  Acute Beetroot Juice Supplementation Attenuates Morning-Associated Decrements in Supramaximal Exercise Performance in Trained Sprinters Int. J. Environ. Res. Public Health 2021 18 412 10.3390/ijerph18020412 33430250
+L398: 50. World Medical Association 
+L399:  World Medical Association Declaration of Helsinki. Ethical Principles for Medical Research Involving Human Subjects Bull. World Health Organ. 2001 79 373 374 11357217
+L400: 51. da Silva V. 
+L401:  Vieira F. 
+L402:  International Society for the Advancement of Kinanthropometry (ISAK) Global: International Accreditation Scheme of the Competent Anthropometrist Rev. Bras. Cineantropometria Desempenho Hum. 2020 22 e70517 10.1590/1980-0037.2020v22e70517
+L403: 52. Ranchal Sánchez A. 
+L404:  Bernier D. 
+L405:  De C. 
+L406:  Llorente-Cantarero F. 
+L407:  Campos-Pérez J. 
+L408:  Jurado-Castro J.M. 
+L409:  Acute Effects of Beetroot Juice Supplements on Resistance Training: A Randomized Double-Blind Crossover Nutrients 2020 12 1912 10.3390/nu12071912 32605284
+L410: 53. Jurado-Castro J.M. 
+L411:  Campos-Pérez J. 
+L412:  Vilches-Redondo M. 
+L413:  Mata F. 
+L414:  Navarrete Pérez A. 
+L415:  Ranchal Sánchez A. 
+L416:  Morning Versus Evening Intake of Creatine in Elite Female Handball Players Int. J. Environ. Res. Public Health 2022 19 393 10.3390/ijerph19010393 35010653
+L417: 54. Brown L. 
+L418:  Weir J. 
+L419:  ASEP Procedures Recommendation I: Accurate Assessment of Muscular Strength and Power J. Exerc. Physiol. Online 2001 4 1 21
+L420: 55. Gallardo E. 
+L421:  Coggan A. 
+L422:  What Is in Your Beet Juice? Nitrate and Nitrite Content of Beet Juice Products Marketed to Athletes Int. J. Sport Nutr. Exerc. Metab. 2018 29 345 349 10.1123/ijsnem.2018-0223
+L423: 56. Hernandez A. 
+L424:  Schiffer T. 
+L425:  Ivarsson N. 
+L426:  Cheng A. 
+L427:  Bruton J. 
+L428:  Lundberg J. 
+L429:  Weitzberg E. 
+L430:  Westerblad H. 
+L431:  Dietary Nitrate Increases Tetanic [Ca 2+ ] i  and Contractile Force in Mouse Fast-Twitch Muscle J. Physiol. 2012 590 3575 3583 10.1113/jphysiol.2012.232777 22687611
+L432: 57. Pérez Castilla A. 
+L433:  Piepoli A. 
+L434:  Delgado García G. 
+L435:  Garrido G. 
+L436:  García Ramos A. 
+L437:  Reliability and Concurrent Validity of Seven Commercially Available Devices for the Assessment of Movement Velocity at Different Intensities During the Bench Press J. Strength Cond. Res. 2019 33 1258 1265 10.1519/JSC.0000000000003118 31034462
+L438: 58. McMahon S. 
+L439:  Jenkins D. 
+L440:  Factors Affecting the Rate of Phosphocreatine Resynthesis Following Intense Exercise Sports Med. 2002 32 761 784 10.2165/00007256-200232120-00002 12238940
+L441: 59. O’Brien E. 
+L442:  Asmar R. 
+L443:  Beilin L. 
+L444:  Imai Y. 
+L445:  Mancia G. 
+L446:  Mengden T. 
+L447:  Myers M. 
+L448:  Padfield P. 
+L449:  Palatini P. 
+L450:  Parati G. 
+L451:  
+L452:  Practice Guidelines of the European Society of Hypertension for Clinic, Ambulatory, and Self Blood Pressure Measurement J. Hypertens. 2005 23 697 701 10.1097/01.hjh.0000163132.84890.c4 15775768
+L453: 60. Bailey S.J. 
+L454:  Winyard P. 
+L455:  Vanhatalo A. 
+L456:  Blackwell J.R. 
+L457:  DiMenna F.J. 
+L458:  Wilkerson D.P. 
+L459:  Tarr J. 
+L460:  Benjamin N. 
+L461:  Jones A.M. 
+L462:  Dietary Nitrate Supplementation Reduces the O 2  Cost of Low-Intensity Exercise and Enhances Tolerance to High-Intensity Exercise in Humans J. Appl. Physiol. 2009 107 1144 1155 10.1152/japplphysiol.00722.2009 19661447
+L463: 61. Javorka M. 
+L464:  Zila I. 
+L465:  Balhárek T. 
+L466:  Javorka K. 
+L467:  Heart Rate Recovery after Exercise: Relations to Heart Rate Variability and Coplexity Braz. J. Med. Biol. Res. 2002 35 991 1000 10.1590/S0100-879X2002000800018 12185393
+L468: 62. Hedges L.V. 
+L469:  Distribution Theory for Glass’s Estimator of Effect Size and Related Estimators J. Educ. Stat. 1981 6 107 128 10.3102/10769986006002107
+L470: 63. Ferguson C.J. 
+L471:  An Effect Size Primer: A Guide for Clinicians and Researchers Prof. Psychol. Res. Pract. 2009 40 532 538 10.1037/a0015808
+L472: 64. Bond V. 
+L473:  Curry B.H. 
+L474:  Adams R.G. 
+L475:  Asadi M.S. 
+L476:  Stancil K.A. 
+L477:  Millis R.M. 
+L478:  Haddad G.E. 
+L479:  Effects of Nitrate Supplementation on Cardiovascular and Autonomic Reactivity in African-American Females ISRN Physiol. 2014 2014 676235 10.1155/2014/676235 25401100
+L480: 65. Vanhatalo A. 
+L481:  Bailey S. 
+L482:  Blackwell J. 
+L483:  Dimenna F. 
+L484:  Pavey T. 
+L485:  Wilkerson D. 
+L486:  Benjamin N. 
+L487:  Winyard P. 
+L488:  Jones A. 
+L489:  Acute and Chronic Effects of Dietary Nitrate Supplementation on Blood Pressure and the Physiological Responses to Moderate-Intensity and Incremental Exercise Am. J. Physiol. Regul. Integr. Comp. Physiol. 2010 299 R1121 R1131 10.1152/ajpregu.00206.2010 20702806
+L490: 66. Webb A.J. 
+L491:  Patel N. 
+L492:  Loukogeorgakis S. 
+L493:  Okorie M. 
+L494:  Aboud Z. 
+L495:  Misra S. 
+L496:  Rashid R. 
+L497:  Miall P. 
+L498:  Deanfield J. 
+L499:  Benjamin N. 
+L500:  
+L501:  Acute Blood Pressure Lowering, Vasoprotective, and Antiplatelet Properties of Dietary Nitrate via Bioconversion to Nitrite Hypertension 2008 51 784 790 10.1161/HYPERTENSIONAHA.107.103523 18250365
+L502: 67. Saunders B. 
+L503:  Oliveira L. 
+L504:  Silva R. 
+L505:  Painelli V. 
+L506:  Gonçalves L. 
+L507:  Yamaguchi G. 
+L508:  Mutti T. 
+L509:  Maciel E. 
+L510:  Roschel H. 
+L511:  Artioli G. 
+L512:  
+L513:  Placebo in Sports Nutrition: A Proof-of-Principle Study Involving Caffeine Supplementation Scand. J. Med. Sci. Sports 2016 27 1240 1247 10.1111/sms.12793 27882605
+L514: 68. Stanaway L. 
+L515:  Rutherfurd-Markwick K. 
+L516:  Page R. 
+L517:  Wong M. 
+L518:  Jirangrat W. 
+L519:  Teh K.H. 
+L520:  Ali A. 
+L521:  Acute Supplementation with Nitrate-Rich Beetroot Juice Causes a Greater Increase in Plasma Nitrite and Reduction in Blood Pressure of Older Compared to Younger Adults Nutrients 2019 11 1683 10.3390/nu11071683 31336633
+L522: 69. Bloomer R.J. 
+L523:  Fry A.C. 
+L524:  Falvo M.J. 
+L525:  Moore C.A. 
+L526:  Protein Carbonyls Are Acutely Elevated Following Single Set Anaerobic Exercise in Resistance Trained Men J. Sci. Med. Sport 2007 10 411 417 10.1016/j.jsams.2006.07.014 16949870
+L527: 70. Lundberg J.O. 
+L528:  Carlstörm M. 
+L529:  Larsen F.J. 
+L530:  Weitzberg E. 
+L531:  Roles of Dietary Inorganic Nitrate in Cardiovascular Health and Disease Cardiovasc. Res. 2011 89 525 532 10.1093/cvr/cvq325 20937740
+L532: 71. Wink D.A. 
+L533:  Miranda K.M. 
+L534:  Espey M.G. 
+L535:  Pluta R.M. 
+L536:  Hewett S.J. 
+L537:  Colton C. 
+L538:  Vitek M. 
+L539:  Feelisch M. 
+L540:  Grisham M.B. 
+L541:  Mechanisms of the Antioxidant Effects of Nitric Oxide Antioxid. Redox Signal. 2004 3 203 213 10.1089/152308601300185179
+L542: 72. Kujawska M. 
+L543:  Ignatowicz E. 
+L544:  Murias M. 
+L545:  Ewertowska M. 
+L546:  Mikołajczyk K. 
+L547:  Jodynis-Liebert J. 
+L548:  Protective Effect of Red Beetroot against Carbon Tetrachloride- and N-Nitrosodiethylamine-Induced Oxidative Stress in Rats J. Agric. Food Chem. 2009 57 2570 2575 10.1021/jf803315d 19292473
+L549: 73. Bahadoran Z. 
+L550:  Mirmiran P. 
+L551:  Kabir A. 
+L552:  Azizi F. 
+L553:  Ghasemi A. 
+L554:  The Nitrate-Independent Blood Pressure–Lowering Effect of Beetroot Juice: A Systematic Review and Meta-Analysis Adv. Nutr. 2017 8 830 838 10.3945/an.117.016717 29141968
+L555: 74. Clifford T. 
+L556:  Howatson G. 
+L557:  West D.J. 
+L558:  Stevenson E.J. 
+L559:  The Potential Benefits of Red Beetroot Supplementation in Health and Disease Nutrients 2015 7 2801 10.3390/nu7042801 25875121
+L560: 75. Frombaum M. 
+L561:  Le Clanche S. 
+L562:  Bonnefont-Rousselot D. 
+L563:  Borderie D. 
+L564:  Antioxidant Effects of Resveratrol and Other Stilbene Derivatives on Oxidative Stress and NO Bioavailability: Potential Benefits to Cardiovascular Diseases Biochimie 2012 94 269 276 10.1016/j.biochi.2011.11.001 22133615
+L565: 76. Kingsley J.D. 
+L566:  Figueroa A. 
+L567:  Acute and Training Effects of Resistance Exercise on Heart Rate Variability Clin. Physiol. Funct. Imaging 2016 36 179 187 10.1111/cpf.12223 25524332
+L568: 77. Benjamim C.J.R. 
+L569:  Francisco F.W. 
+L570:  de Figueirêdo M.Í.L.S. 
+L571:  Benjamim C.J.R. 
+L572:  Cavalcante T.C.F. 
+L573:  da Silva A.A.M. 
+L574:  Monteiro L.R.L. 
+L575:  Santana M.D.R. 
+L576:  Garner D.M. 
+L577:  Valenti V.E. 
+L578:  Beetroot ( Beta vulgaris  L.) Extract Acutely Improves Heart Rate Variability Recovery Following Strength Exercise: A Randomized, Double-Blind, Placebo-Controlled Crossover Trial-Pilot Study J. Am. Coll. Nutr. 2020 40 307 316 10.1080/07315724.2020.1774441 32469260
+L579: 78. Hallman D.M. 
+L580:  Holtermann A. 
+L581:  Søgaard K. 
+L582:  Krustrup P. 
+L583:  Kristiansen J. 
+L584:  Korshøj M. 
+L585:  Effect of an Aerobic Exercise Intervention on Cardiac Autonomic Regulation: A Worksite RCT among Cleaners Physiol. Behav. 2017 169 90 97 10.1016/j.physbeh.2016.11.031 27889332
+L586: 79. Ansell S.K.D. 
+L587:  Jester M. 
+L588:  Tryggestad J.B. 
+L589:  Short K.R. 
+L590:  A Pilot Study of the Effects of a High-Intensity Aerobic Exercise Session on Heart Rate Variability and Arterial Compliance in Adolescents with or without Type 1 Diabetes Pediatr. Diabetes 2020 21 486 495 10.1111/pedi.12983 31951305
+L591: 80. Carrijo V.H. 
+L592:  Amaral A. 
+L593:  Moraes Mariano I. 
+L594:  Souza T. 
+L595:  Batista J. 
+L596:  de Oliveira E. 
+L597:  Puga G. 
+L598:  Beetroot Juice Intake with Different Amounts of Nitrate Does Not Change Aerobic Exercise-Mediated Responses in Heart Rate Variability in Hypertensive Postmenopausal Women: A Randomized, Crossover and Double-Blind Study J. Exerc. Sci. Fit. 2020 19 104 110 10.1016/j.jesf.2020.12.001 33391374
+L599: 81. Saito M. 
+L600:  Iwase S. 
+L601:  Hachiya T. 
+L602:  Resistance Exercise Training Enhances Sympathetic Nerve Activity during Fatigue-Inducing Isometric Handgrip Trials Eur. J. Appl. Physiol. 2008 105 225 234 10.1007/s00421-008-0893-5 18941773
+L603: 82. Christensen N. 
+L604:  Galbo H. 
+L605:  Sympathetic Nervous Activity During Exercise Annu. Rev. Physiol. 1983 45 139 153 10.1146/annurev.ph.45.030183.001035 6342511
+L606: 83. White D.W. 
+L607:  Raven P.B. 
+L608:  White D.W. 
+L609:  Raven P.B. 
+L610:  Autonomic Neural Control of Heart Rate during Dynamic Exercise: Revisited J. Physiol. 2014 592 2491 2500 10.1113/jphysiol.2014.271858 24756637
+L611: 84. Minarini G. 
+L612:  Minarini G. 
+L613:  Root Mean Square of the Successive Differences as Marker of the Parasympathetic System and Difference in the Outcome after ANS Stimulation Autonomic Nervous System Monitoring IntechOpen Rijeka, Croatia 2020 10.5772/INTECHOPEN.89827
+L614: 85. Chowdhary S. 
+L615:  Townend J.N. 
+L616:  Role of Nitric Oxide in the Regulation of Cardiovascular Autonomic Control Clin. Sci. 1999 97 5 17 10.1042/CS19980399
+L617: 86. Sartori C. 
+L618:  Lepori M. 
+L619:  Scherrer U. 
+L620:  Interaction between Nitric Oxide and the Cholinergic and Sympathetic Nervous System in Cardiovascular Control in Humans Pharmacol. Ther. 2005 106 209 220 10.1016/j.pharmthera.2004.11.009 15866320
+L621: 87. Mert K.U. 
+L622:  Ilgüy S. 
+L623:  Dural M. 
+L624:  Mert G.Ö. 
+L625:  Özakin E. 
+L626:  Effects of Creatine Supplementation on Cardiac Autonomic Functions in Bodybuilders Pacing Clin. Electrophysiol. 2017 40 721 727 10.1111/pace.13096 28436092
+L627: 88. Sarshin A. 
+L628:  Naderi A. 
+L629:  Da Cruz C.J.G. 
+L630:  Feizolahi F. 
+L631:  Forbes S.C. 
+L632:  Candow D.G. 
+L633:  Mohammadgholian E. 
+L634:  Amiri M. 
+L635:  Jafari N. 
+L636:  Rahimi A. 
+L637:  
+L638:  The Effects of Varying Doses of Caffeine on Cardiac Parasympathetic Reactivation Following an Acute Bout of Anaerobic Exercise in Recreational Athletes J. Int. Soc. Sports Nutr. 2020 17 44 10.1186/s12970-020-00373-6 32819393
+L639: 89. Gonzaga L.A. 
+L640:  Vanderlei L.C.M. 
+L641:  Gomes R.L. 
+L642:  Valenti V.E. 
+L643:  Caffeine Affects Autonomic Control of Heart Rate and Blood Pressure Recovery after Aerobic Exercise in Young Adults: A Crossover Study Sci. Rep. 2017 7 14091 10.1038/s41598-017-14540-4 29075019
+L644: 90. Sripanidkulchai B. 
+L645:  Promthep K. 
+L646:  Tuntiyasawasdikul S. 
+L647:  Tabboon P. 
+L648:  Areemit R. 
+L649:  Supplementation of Kaempferia Parviflora Extract Enhances Physical Fitness and Modulates Parameters of Heart Rate Variability in Adolescent Student-Athletes: A Randomized, Double-Blind, Placebo-Controlled Clinical Study J. Diet. Suppl. 2020 19 149 167 10.1080/19390211.2020.1852356 33272042
+L650: 91. Escamilla R.F. 
+L651:  Knee Biomechanics of the Dynamic Squat Exercise Med. Sci. Sports Exerc. 2001 33 127 141 10.1097/00005768-200101000-00020 11194098
+L652: 92. Yavuz H.U. 
+L653:  Erdag D. 
+L654:  Kinematic and Electromyographic Activity Changes during Back Squat with Submaximal and Maximal Loading Appl. Bionics Biomech. 2017 2017 9084725 10.1155/2017/9084725 28546738
+L655: 93. Westerblad H. 
+L656:  Allen D.G. 
+L657:  Bruton J.D. 
+L658:  Andrade F.H. 
+L659:  Lännergren J. 
+L660:  Mechanisms Underlying the Reduction of Isometric Force in Skeletal Muscle Fatigue Acta Physiol. Scand. 1998 162 253 260 10.1046/j.1365-201X.1998.0301f.x 9578370
+L661: # **CONSORT 2010 checklist of information to include when reporting a randomised trial***
+L662: **Reported**
+L663: **on page No**
+L664: **Section/Topic**
+L665: **Item**
+L666: **No** **Checklist item**
+L667: **Title and abstract**
+L668: 1a Identification as a randomised trial in the title 1
+L669: 1b Structured summary of trial design, methods, results, and conclusions (for specific guidance see CONSORT for abstracts) 1
+L670: **Introduction**
+L671: Background and
+L672: objectives
+L673: 2a Scientific background and explanation of rationale 2-3
+L674: 2b Specific objectives or hypotheses 3
+L675: **Methods**
+L676: Trial design 3a Description of trial design (such as parallel, factorial) including allocation ratio 3
+L677: 3b Important changes to methods after trial commencement (such as eligibility criteria), with reasons 3
+L678: Participants 4a Eligibility criteria for participants 3
+L679: 4b Settings and locations where the data were collected 3
+L680: Interventions 5 The interventions for each group with sufficient details to allow replication, including how and when they were 4
+L681: actually administered
+L682: Outcomes 6a Completely defined pre-specified primary and secondary outcome measures, including how and when they
+L683: were assessed
+L684: 5
+L685: 6b Any changes to trial outcomes after the trial commenced, with reasons            Sample size 7a How sample size was determined 5
+L686: 7b When applicable, explanation of any interim analyses and stopping guidelines 5
+L687: Randomisation:
+L688: Sequence 8a Method used to generate the random allocation sequence 5
+L689: Sequence 8a Method used to generate the random allocation sequence 5
+L690: generation 8b Type of randomisation; details of any restriction (such as blocking and block size) 5
+L691: Allocation 9 Mechanism used to implement the random allocation sequence (such as sequentially numbered containers), 5
+L692: generation
+L693: 5
+L694: concealment
+L695: mechanism
+L696: 9 Mechanism used to implement the random allocation sequence (such as sequentially numbered containers),
+L697: describing any steps taken to conceal the sequence until interventions were assigned
+L698: Implementation 10 Who generated the random allocation sequence, who enrolled participants, and who assigned participants to
+L699: interventions
+L700: 5
+L701: Blinding 11a If done, who was blinded after assignment to interventions (for example, participants, care providers, those 5
+L702: _CONSORT 2010 checklist_ _Page 1_
+L703: assessing outcomes) and how
+L704: 11b If relevant, description of the similarity of interventions 5-6
+L705: Statistical methods 12a Statistical methods used to compare groups for primary and secondary outcomes 5-6
+L706: 12b Methods for additional analyses, such as subgroup analyses and adjusted analyses
+L707: **Results**
+L708: Participant flow (a
+L709: diagram is strongly
+L710: recommended)
+L711: 13a For each group, the numbers of participants who were randomly assigned, received intended treatment, and
+L712: were analysed for the primary outcome
+L713: 6
+L714: recommended) 13b For each group, losses and exclusions after randomisation, together with reasons 6
+L715: Recruitment 14a Dates defining the periods of recruitment and follow-up 14b Why the trial ended or was stopped           Baseline data 15 A table showing baseline demographic and clinical characteristics for each group 7
+L716: Numbers analysed 16 For each group, number of participants (denominator) included in each analysis and whether the analysis was 6
+L717: by original assigned groups
+L718: 6
+L719: Outcomes and
+L720: estimation
+L721: 17a For each primary and secondary outcome, results for each group, and the estimated effect size and its
+L722: precision (such as 95% confidence interval)
+L723: 7
+L724: 17b For binary outcomes, presentation of both absolute and relative effect sizes is recommended           Ancillary analyses 18 Results of any other analyses performed, including subgroup analyses and adjusted analyses, distinguishing pre-specified from exploratory
+L725: Harms 19 All important harms or unintended effects in each group (for specific guidance see CONSORT for harms)
+L726: **Discussion**
+L727: Limitations 20 Trial limitations, addressing sources of potential bias, imprecision, and, if relevant, multiplicity of analyses 8-9
+L728: Generalisability 21 Generalisability (external validity, applicability) of the trial findings 8-9
+L729: Interpretation 22 Interpretation consistent with results, balancing benefits and harms, and considering other relevant evidence 8-9
+L730: **Other information**
+L731: Registration 23 Registration number and name of trial registry Protocol 24 Where the full trial protocol can be accessed, if available Funding 25 Sources of funding and other support (such as supply of drugs), role of funders 10
+L732: - We strongly recommend reading this statement in conjunction with the CONSORT 2010 Explanation and Elaboration for important clarifications on all the items. If relevant, we also
+L733: recommend reading CONSORT extensions for cluster randomised trials, non-inferiority and equivalence trials, non-pharmacological treatments, herbal interventions, and pragmatic trials.
+L734: Additional extensions are forthcoming: for those and for up to date references relevant to this checklist, see www.consort-statement.org.
+L735: _CONSORT 2010 checklist_ _Page 2_
+[31ms]
+

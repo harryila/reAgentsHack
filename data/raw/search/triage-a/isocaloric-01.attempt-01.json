@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "isocaloric time-restricted eating controlled trial"
+  ],
+  "completed_at": "2026-08-16T02:57:33.284389+00:00",
+  "elapsed_seconds": 2.4228179999627173,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:30.861576+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/isocaloric-01.attempt-01.stderr",
+  "stdout_bytes": 56539,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/isocaloric-01.attempt-01.stdout"
+}

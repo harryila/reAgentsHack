@@ -1,0 +1,369 @@
+L1: Antioxidant-independent activities of alpha-tocopherol
+L2: The Journal of Biological Chemistry (2025)
+L3: Matthew Chen, Mikel Ghelfi, Jia-Fei Poon, Nayeon Jeon, Natalie Boccalon, Michael Rubsamen, Stephen Valentino, Vansh Mehta, Michaela Stamper, Hamza Tariq, Elizabeth Zunica, Lynn Ulatowski, Stacey Chung, Claire Fritz, Mark Cameron, Cheryl Cameron, Derek A. Pratt, Jeffrey Atkinson, Carrie J. Finno, Danny Manor
+L4: 1 Department of Nutrition, Case Western Reserve University, Cleveland, Ohio, USA
+L5: 2 Department of Chemistry, Brock University, Ontario, Canada
+L6: 3 Department of Chemistry and Biomolecular Sciences, University of Ottawa, Ottawa, Ontario, Canada
+L7: 4 Department of Biology, Ursuline College, Pepper Pike, Ohio, USA
+L8: 5 Department of Population Health and Reproduction, School of Veterinary Medicine, University of California Davis, Davis, California, USA
+L9: Alpha-tocopherol (vitamin E) is a plant-derived dietary lipid that is essential for the health of most animals, including humans. Originally discovered as a fertility factor in rodents, the primary health-promoting properties of the vitamin in humans was shown to be protection of neuromuscular functions. Heritable vitamin E deficiency manifests in spinocerebellar ataxia that can be stabilized by timely supplementation with high-dose α-tocopherol. The molecular basis for α-tocopherol's biological activities has been attributed primarily to the vitamin's efficacy in preventing lipid peroxidation in membranes and lipoproteins, but the possibility that the vitamin possesses additional biological activities has been postulated and debated in the literature without conclusive resolution. We designed and synthesized a novel analog of α-tocopherol, 6-hydroxymethyl α-tocopherol (6-HMTC), which retains most of the vitamin's structural, physical, and biochemical properties, yet lacks measurable radical-trapping antioxidant activity. 6-HMTC bound to the tocopherol transfer protein with high (nanomolar) affinity, like that of the natural vitamin, attesting to the analog's preservation of structural integrity. Yet, 6-HMTC did not inhibit lipid peroxidation or associated ferroptotic cell death. Notably, 6-HMTC modulated the expression of some genes in a manner essentially identical to that exhibited by α-tocopherol. These findings support the notion that α-tocopherol modulates gene expression  via  an antioxidant-independent mechanism.
+L10: Research Article
+L11: tocopherol; vitamin E; gene expression; lipids; vitamins
+L12: Results and discussion
+L13: The absolute requirement of α-tocopherol for optimal health has been established over a hundred years ago ( 4 ). Numerous studies demonstrated that α-tocopherol is an essential nutrient that is highly effective as a lipid-soluble antioxidant, that is, it reacts quickly with peroxyl radicals formed within biological membranes  in vitro  as well as  in vivo , thereby preventing propagation of the lipid peroxidation radical chain reaction ( 1 ,  2 ,  9 ,  22 ). Moreover, it has been established that the vitamin's radical-trapping antioxidant activity underlies at least some of its biological actions ( 23 ). Nevertheless, reports of biological activities of vitamin E that are distinct from, and independent of, its antioxidant activity have also been documented in the literature. Such claims have primarily been based on biological activities of α-tocopherol that are not shared by structurally similar antioxidants, such as other members of the vitamin E family, or by other antioxidants ( cf.  ( 24 )). In addition, claims of exclusive antioxidant mechanisms of action were not supported by clinical trials where vitamin E supplementation failed to show conclusive benefits in disease states that are thought to be mediated by oxidative stress ( e.g. , ( 25 ,  26 ,  27 ,  28 )). These reports gave rise to the notion that α-tocopherol may possess novel activities that are independent of its capacity to inhibit lipid peroxidation and generated a lively debate in the literature ( 24 ,  29 ,  30 ). Considering the critical importance of vitamin E in human health, we sought to conclusively address this question by examining the biological activities of a vitamin E analog that retains most of α-tocopherol's physicochemical properties yet is inert as an antioxidant.
+L14: Design and synthesis of 6-hydroxymethyl- RRR -α-tocopherol (6-HMTC)
+L15: Figure 1 6-HMTC is an analog of vitamin E with no antioxidant activity  in vitro . A , chemical structures of α-tocopherol ( top ) and of 6-HMTC ( bottom ).  B , rationale for the poor radical-trapping activity of 6-HMTC. Shown are possible hydrogen-atom abstractions by lipid peroxyl radicals from benzylic positions of ( A ) alpha-tocopherol, ( B ) 6-HMTC, and ( C ), from the benzylic alcohol of 6-HMTC.  A , the established mechanism of tocopherol acting as a chain-terminating antioxidant.  B , the possible sites of benzylic H-atom abstraction from 6-HMTC.  C , depicts how the alcohol of 6-HMTC has the highest BDE.  C , schematic scheme for the synthesis of 6-HMTC. See  Supporting Information  for details.  D , high-affinity binding of 6-HMTC to the α-tocopherol transfer protein (TTP). Purified recombinant TTP (0.4 μM) was preincubated with 1.6 μM NBD-C9-α-Toc in 250 mM sucrose, 100 mM KCl, 50 mM Tris, 1 mM EDTA, pH 7.4. Incremental amounts of unlabeled α-tocopherol ( empty circles ) or 6-HMTC ( solid circles ) were added, and fluorescence values recorded for each addition after equilibrium were reached (15 min). BDE, bond dissociation enthalpy; 6-HMTC, 6-hydroxymethyl α-tocopherol.
+L16: To investigate whether the biological actions of α-tocopherol involve antioxidant-independent mechanisms, we designed a synthetic analog that has no radical-trapping activity, while retaining all other relevant molecular features of α-tocopherol. To this end, we synthesized 6-hydroxymethyl α-tocopherol (6-HMTC), in which the vitamin's phenolic hydroxyl group is replaced with a hydroxymethyl group ( Fig. 1 A ). The phenolic O-H moiety of α-tocopherol has a low bond dissociation enthalpy of ∼78 kcal/mol ( 31 ), whereas that of the hydroxymethyl O-H group in 6-HMTC is expected to be that of a typical aliphatic alcohol (∼104 kcal/mol ( 32 ,  33 )), such that if H-atom transfer were to occur, it would be from a benzylic C-H bond instead (bond dissociation enthalpy: 84–90 kcal/mol ( 33 );  Fig. 1 B ). Since H-atom transfer from a benzylic C-H bond to a peroxyl radical is comparatively slow ( cf. k  = 0.34 for cumene compared with  k  = 3 × 10 6  M −1 s −1  for α-tocopherol; ( 34 )), Therefore, 6-HMTC is expected to be inactive as a radical-trapping antioxidant. Figure 1 6-HMTC is an analog of vitamin E with no antioxidant activity  in vitro . A , chemical structures of α-tocopherol ( top ) and of 6-HMTC ( bottom ).  B , rationale for the poor radical-trapping activity of 6-HMTC. Shown are possible hydrogen-atom abstractions by lipid peroxyl radicals from benzylic positions of ( A ) alpha-tocopherol, ( B ) 6-HMTC, and ( C ), from the benzylic alcohol of 6-HMTC.  A , the established mechanism of tocopherol acting as a chain-terminating antioxidant.  B , the possible sites of benzylic H-atom abstraction from 6-HMTC.  C , depicts how the alcohol of 6-HMTC has the highest BDE.  C , schematic scheme for the synthesis of 6-HMTC. See  Supporting Information  for details.  D , high-affinity binding of 6-HMTC to the α-tocopherol transfer protein (TTP). Purified recombinant TTP (0.4 μM) was preincubated with 1.6 μM NBD-C9-α-Toc in 250 mM sucrose, 100 mM KCl, 50 mM Tris, 1 mM EDTA, pH 7.4. Incremental amounts of unlabeled α-tocopherol ( empty circles ) or 6-HMTC ( solid circles ) were added, and fluorescence values recorded for each addition after equilibrium were reached (15 min). BDE, bond dissociation enthalpy; 6-HMTC, 6-hydroxymethyl α-tocopherol.
+L17: The synthetic scheme (described in  Fig. 1 C  and in the  Supporting Information ) has allowed for the preparation of gram amounts of 6-HMTC with purity of >98%. To evaluate the analog's structural similarity to α-tocopherol, we measured its binding affinity to the tocopherol transfer protein (TTP, ( 6 ,  35 ,  36 ,  37 ,  38 ,  39 )). The protein accommodates vitamin E within a hydrophobic binding pocket ( 40 ,  41 ), to which α-tocopherol binds with nanomolar affinity and high degree of ligand discrimination ( 42 ,  43 ). To quantify the affinity of 6-HMTC for TTP, we measured its ability to displace a fluorescent derivative of α-tocopherol from the protein's binding pocket using a fluorescence competition assay we characterized extensively ( 44 ,  45 ,  46 ,  47 ,  48 ). We found that 6-HMTC binds to TTP reversibly and with high (nanomolar) affinity, very similar to that displayed by the native vitamin ( Fig. 1 D ).
+L18: Figure 2 6-HMTC has no antioxidant activity  in vitro  and  in vivo . A , coautoxidation of egg phosphatidylcholine lipids (1 mM) and STY-BODIPY (8 μM) suspended in phosphate-buffered saline, pH 7.4 was initiated by di- tert -undecylhyponitrite (DTUN; 0.2 mM) at 37 °C. Oxidation was inhibited by the presence of 10 μM α-tocopherol ( blue ), whereas 6-HMTC ( red ) did not impact lipid oxidation under the same conditions.  B , coautoxidation of styrene (4.3 M) and PBD-BODIPY (10 μM) was initiated by AIBN (6 mM) in phenyl chloride at 37°C and was delayed in the presence of 2 μM α-tocopherol ( blue ). 6-HMTC ( red ) was ineffective in delaying lipid oxidation under the same conditions.  C , accumulation of lipid hydroxides was induced in cultured IHH cells by treatment with RSL-3, and intracellular reactive oxygen species were measured using the cell-permeable fluorescent probe CM-H2DCFDA (2′,7′-dichlorofluorescin diacetate; 20 μM). Where indicated, cells were preincubated with 50 μM α-tocopherol, 6-HMTC, or control solvent ( p < 0.01 ).  D , 6-HMTC does not protect cells from RSL-3-induced ferroptosis. Human embryonic kidney 293 cells were pretreated with the indicated concentrations (0, 0.25, 0.5, 1, 2.5, 5, 10, 20, and 40 μM) of α-tocopherol ( solid circles ) or 6-HMTC ( empty circles ) prior to incubation with RSL-3 (0.45 μM; 3.5 h). Viability was measured using the AquaBluer assay (MultiTarget Pharmaceuticals) according to the manufacturer's instructions. Cell viability was calculated by normalizing the data to untreated controls. Each experiment was carried out in six analytical replicates per concentration and repeated independently three times. 6-HMTC, 6-hydroxymethyl α-tocopherol; AIBN, azobisisobutyronitrile; IHH, immortalized human hepatocyte; RSL-3, Ras-selective lethal 3.
+L19: Next, we tested the ability of 6-HMTC to prevent lipid peroxidation  in vitro . As expected, α-tocopherol efficiently inhibited the peroxidation of membrane phospholipids as judged by its effect on the autoxidation of unilammelar liposomes of egg phosphatidylcholine induced by the lipophilic hyponitrite DTUN (di- tert -undecylhyponitrite, ( 49 );  Fig. 2 A ). Under identical conditions, 6-HMTC did not inhibit lipid oxidation. From the initial rates of oxidation of the fluorescent reporter STY-BODIPY, the rate constant for reaction with chain-carrying lipid peroxyl radicals is 1.8 × 10 3  M −1 s −1 , in agreement with previously reported values ( 50 ). The lack of inhibition by 6-HTMC implies that its reactivity is <<10 3  M −1 s −1 , such that it cannot effectively compete with chain propagation. Since the intrinsic reactivity of radical-trapping antioxidants with peroxyl radicals is more easily revealed in inhibited autoxidation of simple hydrocarbons, we also carried out azobis(isobutyronitrile)–initiated autoxidation of styrene ( 51 )). Again, while α-tocopherol efficiently inhibited peroxidation with a rate constant fully consistent with literature values (1.9 × 10 6  M −1 s −1 ), 6-HTMC did not show any inhibitory activity ( Fig. 2 B ). Figure 2 6-HMTC has no antioxidant activity  in vitro  and  in vivo . A , coautoxidation of egg phosphatidylcholine lipids (1 mM) and STY-BODIPY (8 μM) suspended in phosphate-buffered saline, pH 7.4 was initiated by di- tert -undecylhyponitrite (DTUN; 0.2 mM) at 37 °C. Oxidation was inhibited by the presence of 10 μM α-tocopherol ( blue ), whereas 6-HMTC ( red ) did not impact lipid oxidation under the same conditions.  B , coautoxidation of styrene (4.3 M) and PBD-BODIPY (10 μM) was initiated by AIBN (6 mM) in phenyl chloride at 37°C and was delayed in the presence of 2 μM α-tocopherol ( blue ). 6-HMTC ( red ) was ineffective in delaying lipid oxidation under the same conditions.  C , accumulation of lipid hydroxides was induced in cultured IHH cells by treatment with RSL-3, and intracellular reactive oxygen species were measured using the cell-permeable fluorescent probe CM-H2DCFDA (2′,7′-dichlorofluorescin diacetate; 20 μM). Where indicated, cells were preincubated with 50 μM α-tocopherol, 6-HMTC, or control solvent ( p < 0.01 ).  D , 6-HMTC does not protect cells from RSL-3-induced ferroptosis. Human embryonic kidney 293 cells were pretreated with the indicated concentrations (0, 0.25, 0.5, 1, 2.5, 5, 10, 20, and 40 μM) of α-tocopherol ( solid circles ) or 6-HMTC ( empty circles ) prior to incubation with RSL-3 (0.45 μM; 3.5 h). Viability was measured using the AquaBluer assay (MultiTarget Pharmaceuticals) according to the manufacturer's instructions. Cell viability was calculated by normalizing the data to untreated controls. Each experiment was carried out in six analytical replicates per concentration and repeated independently three times. 6-HMTC, 6-hydroxymethyl α-tocopherol; AIBN, azobisisobutyronitrile; IHH, immortalized human hepatocyte; RSL-3, Ras-selective lethal 3.
+L20: Next, we compared the ability of α-tocopherol and 6-HMTC to inhibit lipid peroxidation in live cells. We treated immortalized human hepatocytes (IHHs, ( 52 ,  53 )) with RSL-3 (Ras-selective lethal 3), an inhibitor of glutathione peroxidase 4 (GPX4; ( 51 )). Since GPX4's enzymatic activity eliminates phospholipid hydroperoxides ( 54 ,  55 ), its inhibition with RSL-3 leads to marked increase in the levels of intracellular reactive oxygen species, as reported previously ( 55 ) and as shown in  Figure 2 , using the oxidation-sensitive fluorescent probe dichlorofluorescin (DCF) diacetate. Pretreatment of the cells with vitamin E (50 μM α-tocopherol) completely abolished the RSL-3-induced increase in DCF fluorescence, in accordance with the vitamin's established antioxidant activity ( Fig. 2 C ). 6-HMTC, on the other hand, was completely ineffective in attenuating the RSL-3-induced increase in DCF fluorescence, indicating that the analog has no measurable antioxidant activity in cells.
+L21: Further support for this notion was obtained when cell viability was assessed following prolonged GPX4 inhibition, which induces ferroptotic cell death ( 54 ,  56 ,  57 ). As expected, pretreatment with α-tocopherol protected cells from the toxic effect of RSL-3, whereas 6-HMTC did not impact the cells' sensitivity to GPX4 inhibition ( Fig. 2 D ). Taken together, these data show that our design and synthesis of 6-HMTC produced an analog of α-tocopherol that resembles the native vitamin structurally, yet has no detectable antioxidant radical trapping activity. Thus, 6-HMTC is suitable for dissecting the biological roles of vitamin E's antioxidant function from those that are independent of this activity.
+L22: Figure 3 Transcription of the  TTPA  gene is enhanced by α-tocopherol as well as 6-HMTC.  Triplicate IHH cultures were treated with the indicated compound for 24 h prior to RT–PCR analyses of the  TTPA  transcript as described in  Experimental procedures  section. Transcript abundance was normalized to that of a housekeeping transcript (GAPDH) and then normalized to the value obtained for untreated cells. DFX (deferoxamine) is a hypoxia-inducing iron chelator that was previously shown to increase  TTPA  levels ( 62 ). Shown are means ± standard deviations of the data. 6-HMTC, 6-hydroxymethyl α-tocopherol; IHH, immortalized human hepatocyte.
+L23: Multiple reports documented a profound impact of vitamin E on gene expression, in cultured cells as well as animals ( cf.  ( 24 ,  58 )). Some of these studies compared gene expression profiles between vitamin E–deficient and vitamin E–sufficient physiological states ( e.g. , ( 13 ,  59 ,  60 )). Interpretation of these results is challenging in light of the profound global impact of oxidative stress on gene expression, mediated by redox-sensitive transcription factors ( e.g. , Nrf2, ( 21 )). Other studies compared the impact of α-tocopherol on gene expression to that of other members of the vitamin E family ( e.g. , γ-tocopherol, ( 17 )) or to other antioxidants ( e.g. ,  N -acetyl-cysteine, ( 19 )), but observed differences could stem from altered bioavailability, routes of uptake, or metabolic fate of the different molecules. Thus, it is not surprising that a mechanistic model explaining  how  vitamin E regulates gene expression is yet to be presented. The advent of a redox-inert analog of α-tocopherol allowed us to address this enigma directly, by comparing the transcriptomic profile of cells treated with vitamin E  versus  those treated with 6-HMTC. We treated immortalized human hepatocytes with either α-tocopherol or 6-HMTC and used real-time RT–PCR to quantify the levels of the mRNA transcripts encoding the TTP ( 36 ,  61 ), which were previously shown to increase upon vitamin E treatment of these cells ( 62 ). As shown in  Fig. 3 , both α-tocopherol and 6-HMTC increased  TTPA  expression in a manner indistinguishable from each other ( p  < 0.05). These data indicate that vitamin E–induced increase in  TTPA  mRNA levels occurs through an antioxidant-independent mechanism. Figure 3 Transcription of the  TTPA  gene is enhanced by α-tocopherol as well as 6-HMTC.  Triplicate IHH cultures were treated with the indicated compound for 24 h prior to RT–PCR analyses of the  TTPA  transcript as described in  Experimental procedures  section. Transcript abundance was normalized to that of a housekeeping transcript (GAPDH) and then normalized to the value obtained for untreated cells. DFX (deferoxamine) is a hypoxia-inducing iron chelator that was previously shown to increase  TTPA  levels ( 62 ). Shown are means ± standard deviations of the data. 6-HMTC, 6-hydroxymethyl α-tocopherol; IHH, immortalized human hepatocyte.
+L24: Figure 4 Differential gene expression profiles of vitamin E- and 6-HMTC-treated IHH cells.  IHH cells were treated with 50 μM α-tocopherol, 50 μM 6-HMTC, or dimethyl sulfoxide control for 24 h and subjected to RNA-Seq.  A , Venn diagram summarizing transcriptome changes in each treatment group.  B , volcano plot illustrating the statistical significance and fold change of each gene in the a-tocopherol  versus  control contrast. The top 25 upregulated and top 25 downregulated genes that were differentially expressed across both the 6-HMTC  versus  control and the α-tocopherol  versus  control groups are labeled.  C , protein–protein interaction (PPI) network illustrating the relationship between all 158 statistically significant differentially expressed genes shared amongst the 6-HMTC  versus  control and a-tocopherol  versus  control contrasts. K-means clustering was used to define discrete clusters, each colored in different colors.  D , heatmap showing the top predicted transcription factors that could mediate the changes in transcript levels observed within each contrast. 6-HMTC, 6-hydroxymethyl α-tocopherol; IHH, immortalized human hepatocyte.
+L25: These findings prompted us to undertake an unbiased transcriptomic approach aimed at deciphering the global transcriptional responses to α-tocopherol and 6-HMTC, respectively. Using a similar experimental design, we employed RNA-Seq to profile the transcriptome response to each of the two molecules. We found that the levels of 158 mRNA transcripts were impacted similarly by α-tocopherol and 6-HMTC as compared with control-treated cells (84 upregulated and 74 downregulated mRNAs;  p unadjusted  ≤0.05;  Fig. 4 ,  A  and  B ,  Tables 1  and  2 , and  S1 ). Figure 4 Differential gene expression profiles of vitamin E- and 6-HMTC-treated IHH cells.  IHH cells were treated with 50 μM α-tocopherol, 50 μM 6-HMTC, or dimethyl sulfoxide control for 24 h and subjected to RNA-Seq.  A , Venn diagram summarizing transcriptome changes in each treatment group.  B , volcano plot illustrating the statistical significance and fold change of each gene in the a-tocopherol  versus  control contrast. The top 25 upregulated and top 25 downregulated genes that were differentially expressed across both the 6-HMTC  versus  control and the α-tocopherol  versus  control groups are labeled.  C , protein–protein interaction (PPI) network illustrating the relationship between all 158 statistically significant differentially expressed genes shared amongst the 6-HMTC  versus  control and a-tocopherol  versus  control contrasts. K-means clustering was used to define discrete clusters, each colored in different colors.  D , heatmap showing the top predicted transcription factors that could mediate the changes in transcript levels observed within each contrast. 6-HMTC, 6-hydroxymethyl α-tocopherol; IHH, immortalized human hepatocyte. Table 1 Top genes upregulated by both HTMC and α-tocopherol Gene symbol Assigned gene name Assigned function C8orf4 Transcriptional And Immune Response Regulator A positive regulator of the Wnt/beta-catenin signaling pathway. This protein interacts with a repressor of beta-catenin-mediated transcription at nuclear speckles ZGLP1 Zinc Finger GATA Like Protein 1 Transcriptional regulator with GATA-like zinc fingers DUSP1 Dual Specificity Phosphatase 1 Tyrosine and Ser/Thr phosphatase that can deactivate MAPK1/ERK2. Important in the cellular response to environmental stress RELB RELB Proto-Oncogene, NF-KB Subunit A member of the NFKB family of transcription factors that functions in inflammatory responses LSMEM1 Leucine Rich Single-Pass Membrane Protein 1 Conserved protein of unknown function ADSSL1 Adenylosuccinate Synthase 1 A muscle-specific enzyme that catalyzes the first step in the conversion of inosine monophosphate (IMP) to AMP STC2 Stanniocalcin 2 Stress-induced protein that potentially mediates the response to nutrient sufficiency PTPRN Protein Tyrosine Phosphatase Receptor Type N A tyrosine phosphatase that regulates the vesicular secretion of some hormones INE1 Inactivation Escape 1 X-linked lncRNA SNORA72 Small Nucleolar RNA Noncoding small RNA located in the nucleolus FLJ33360 Long Intergenic Non-Protein Coding RNA 2145 lncRNA thought to function in the sequestration of miRNAs OLR1 Oxidized Low Density Lipoprotein Receptor 1 A receptor of the lectin superfamily that degrades oxidized low-density lipoproteins CDSN Corneodesmosin A protein found in corneodesmosomes and functions in skin integrity EXT1 Exostosin Glycosyltransferase 1 An endoplasmic reticulum–resident glycosyltransferase involved in heparan sulfate biosynthesis KRT7 Keratin 7 A type II cytokeratin expressed in simple and stratified epithelial tissues PABPC3 Poly(A) Binding Protein Cytoplasmic 3 Regulates mRNA stability and translation initiation PLCH1 Phospholipase C Eta 1 A phosphoinositide-specific phospholipase C that cleave phosphatidylinositol 4,5-bisphosphate to inositol 1,4,5-trisphosphate (IP3) and diacylglycerol (DAG) IL7R Interleukin 7 Receptor Receptor for interleukin 7 that functions primarily in T-cell biology JUN Jun Proto-Oncogene A functional component of the AP1 transcription factor complex MIR6864 MicroRNA 6864 A noncoding RNA involved in post-transcriptional regulation of gene expression LMO2 LIM Domain Only 2 A cysteine-rich transcription factor that functions in hematopoiesis TMEM80 Transmembrane Protein 80 Nonmotile cilium-associated protein TPM1 Tropomyosin 1 Actin-binding protein involved in the contraction of muscles and the cytoskeleton of nonmuscle cells Table 2 Top genes downregulated by both HTMC and α-tocopherol Gene Symbol Assigned gene name Assigned function HMGCS1 3-Hydroxy-3-Methylglutaryl-CoA Synthase 1 Catalyzes the conversion of acetoacetyl-CoA into 3-hydroxy-3-methylglutaryl-CoA (HMG-CoA) in the cholesterol biosynthesis pathway UBE2K Ubiquitin Conjugating Enzyme E2 K An E2 ubiquitin-conjugating enzymes that mediates proteasomal targeting and degradation of other proteins TENM3 Teneurin Transmembrane Protein 3 Regulates connectivity within the nervous system LPIN1 Lipin 1 A phosphatidic acid phosphohydrolase that catalyzes the penultimate step in triglyceride synthesis BOD1L1 Biorientation Of Chromosomes In Cell Division 1 Like 1 Component of the replication fork TOB1 Transducer Of ERBB2, 1 Anti-proliferative factor that controls cell cycle progression HMGCR 3-Hydroxy-3-Methylglutaryl-CoA Reductase Catalyzes the rate-limiting enzyme for cholesterol synthesis. Target of statin-family of cholesterol-lowering drugs ACSL1 Acyl-CoA Synthetase Long Chain Family Member 1 A long-chain fatty-acid-coenzyme A ligase DEPDC5 DEP Domain Containing 5, GATOR1 Subcomplex Subunit Component of the GATOR1 complex that regulates mTor signaling IDI1 Isopentenyl-Diphosphate Delta Isomerase 1 Catalyzes the interconversion of isopentenyl diphosphate (IPP) to dimethylallyl diphosphate (DMAPP), in  de novo  biosynthesis of cholesterol EBP Emopamil binding protein; 3β-hydroxysteroid-Δ8,Δ7-isomerase Converts 8(9)-cholestenol to lathosterol in the pathway of  de novo  cholesterol biosynthesis PPP1R7 Protein Phosphatase 1 Regulatory Subunit 7 Regulatory subunit of the serine/threonine phosphatase, protein phosphatase-1 ZFP3 ZFP3 Zinc Finger Protein Predicted DNA-binding transcription factor SCD Stearoyl-CoA Desaturase Catalyzes a rate-limiting step in the synthesis of unsaturated fatty acids, converting stearic acid to oleic acid NOMO3 NODAL Modulator 3 Participates in the Nodal signaling pathway during vertebrate development IQCD IQ Motif Containing D Component of the nexin-dynein regulatory complex that regulates cytoskeleton and cilia motility PANK3 Pantothenate Kinase 3 Catalyzes the phosphorylation of pantothenate to generate 4′-phosphopantothenate in the first and rate-determining step of coenzyme A (CoA) synthesis OIT3 Oncoprotein Induced Transcript 3; LZP Liver-expressed protein involved in lipid metabolism and carcinogenesis ERICH1 Glutamate Rich 1 Protein of unknown function IMPA2 Inositol Monophosphatase 2 Dephosphoylrates inositol monophosphate and plays an important role in phosphatidylinositol signaling ENHO Energy Homeostasis-Associated Protein; Adropin Secreted peptide hormone involved in hepatic carbohydrate and lipoprotein metabolism ATP2B2 ATPase Plasma Membrane Ca2+ Transporting 2 ATP-driven Ca 2+  ion transporter VCPIP1 Valosin Containing Protein Interacting Protein 1 Thiol-dependent protein deubiquitinase involved in DNA repair and Golgi and endoplasmic reticulum biogenesis
+L26: The top downregulated transcript shared between the α-tocopherol and 6-HMTC treatment groups ( Fig. 4 ,  B  and  C ,  Tables 1 , and  S1 ) included  HMGCS1  ( 3-hydroxy-3-methylglutaryl-CoA synthase 1 ), the first enzyme in the  de novo  biosynthesis of cholesterol, which catalyzes the conversion of acetyl-CoA (coenzyme A) to HMG-CoA. Interestingly, additional cholesterol metabolism genes were downregulated by both treatments, including (1)  HMGCR  ( 3-hydroxy-3-methylglutaryl-CoA reductase ), the rate-limiting enzyme of the pathway and target of statins; (2)  IDI1  ( isopentenyl-diphosphate delta isomerase 1 ), that catalyzes the synthesis of farnesyl diphosphate; (3)  EPB  ( emopamil binding protein ), a sterol isomerase; and (4) FDFD1 ( squalene synthase ), both of which participate in the final steps of cholesterol biosynthesis; (5)  SCD  ( stearoyl-CoA desaturase ) catalyzes the rate-limiting step in the formation of monounsaturated fatty acids, which are then used to synthesize cholesterol esters; (6)  PANK3  ( pantothenate kinase 3 ), the first enzyme in the CoA biosynthetic pathway; and (7) the endoplasmic reticulum sterol sensor INSIG1. Top transcripts that were similarly increased by both treatments included components of the NFKB signaling system, namely NFKB1, NFKBIE, and RELB, in addition to the transcriptional regulator  JUN , the inhibitor of apoptosis  BIRC2 , and the dual-specificity phosphatase DUSP1 ( Tables 2  and  S1 ).
+L27: We evaluated the likely physiological consequences of vitamin E's transcriptional activities, using STRING ( 63 ), a database of known and predicted protein–protein interactions, to compare the transcriptomic changes to α-tocopherol  versus  control with those of 6-HTMC  versus  control. In accordance with the individual transcript changes listed previously, this analysis indeed predicted that vitamin E treatment causes a  functional  inhibition of cholesterol synthesis as well as stimulation of NF-kB-mediated immune responses ( Fig. 4 C ).
+L28: The attenuation of cholesterol biosynthesis by vitamin E may be of profound translational and clinical significance. Notably, multiple reports documented a cholesterol-lowering effect of vitamin E treatments both  in vivo  and  in vitro  ( 64 ,  65 ,  66 ,  67 ,  68 ,  69 ). Moreover, experiments in cultured HepG2 cells showed that vitamin E attenuates the metabolic flux through this pathway ( 19 ). Such a cholesterol-lowering effect could lower human risk for cardiovascular disease, as was thought during the 1990s ( 70 ,  71 ), but conflicting data and concerns of unintended side effects hampered enthusiasm at the time. Our results, together with recent studies demonstrating the safety of vitamin E supplementation ( 72 ,  73 ), may open the door for re-evaluation of vitamin E's cardioprotective actions. Importantly, our findings indicate that the interplay between tocopherol status and cholesterol levels possibly originates from a novel antioxidant-independent function of the vitamin. The molecular mechanisms that underlie this phenomenon are presently unknown, but it is tempting to consider the possibility that established pathway of cholesterol homeostasis, in which sterol levels are sensed by INSIG and impact the transcriptional activities of sterol regulatory element–binding protein (SREBP)  via  its regulator SREBP cleavage-activating protein ( 74 ), plays a role in mediating vitamin E's actions. Future work will address whether vitamin E directly binds to INSIG1, thereby impacting this established pathway ( 75 ).
+L29: Another important transcriptional effect shared by both 6-HMTC and α-tocopherol treatments is the modulation of immune processes and inflammatory responses, evidenced by the transcriptional upregulation of the inflammatory regulators NFKB1, NFKBIE, DUSP1, and RELB ( Table 2  and  Fig. 4 C ,  blue circles ). Although previous reports demonstrated anti-inflammatory actions of vitamin E ( 76 ) and vitamin E–induced increases in transcripts of the NF-κB pathway ( 77 ), we did not observe changes in transcripts of its classical downstream targets such as tumor necrosis factor alpha or interleukin-1 ( 78 ). This, perhaps is not surprising since these mediators typically act in cells of the immune system, rather than in terminally differentiated cells such as the hepatocytes in our study. Future studies will address the possibility that vitamin E–induced Nf-κB activation in hepatocytes leads to noninflammatory outcomes of the pathway, such as its reported antiapoptotic signaling ( 79 ), responses to redox changes ( 80 ) and/or injury responses ( 81 ,  82 ).
+L30: A critical unanswered question involves the molecular mechanisms by which vitamin E impacts the transcriptome. We mined the dataset using the ingenuity pathway analysis (Qiagen, Inc) for common transcription factors that might be responsible for changes in these transcripts, shown in  Figure 4 D . This analysis confirmed the importance of the transcriptional regulators discussed previously, that is, SREBP cleavage–activating protein and NF-kB, as well as multiple general transcriptional regulators ( e.g. , RUNX3, FOXA1, SRF, KLF6).
+L31: In addition, ingenuity pathway analysis identified the nuclear receptor peroxisome proliferator–activated receptor gamma (PPARγ) as a possible mediator of vitamin E's transcriptional responses. Since the activity of most nuclear receptors is regulated by small tightly bound hydrophobic ligands, and since they mediate the genomic activities of other fat-soluble vitamins and their metabolites ( 83 ), we sought to test whether α-tocopherol  directly  activates specific nuclear receptors. Toward this end, we used established  in vitro  transactivation reporter assays that examine the ability of a small molecule to modulate the transcriptional activity of a nuclear receptor that drives expression of a reporter gene ( 84 ). Specifically, we tested whether α-tocopherol alters the activity of the three peroxisome proliferator–activator receptors (PPARα, PPARβ, or PPARγ), the liver X receptor, the pregnane X receptor, or the farnesoid X receptor. The data indicate that α-tocopherol (50–100 μM from either ethanolic stock or as lipoprotein complexes) did not elicit a significant activation of these nuclear receptors. Moreover, vitamin E did not alter the responses of these receptors to their  bone fide  ligands when added together ( Supplementary Information ). These findings indicate that vitamin E's effects do not incur  via direct  binding to these receptors. Nevertheless, the possibility remains that nuclear receptor(s) are involved in an indirect manner ( i.e. , through the action of intermediary metabolites) or that yet-unidentified transcriptional coregulators are required for this activity.
+L32: We believe that the concentrations of vitamin E used here (50–100 μM) are physiologically relevant for two reasons. First, these values are not far above those measured in plasma of healthy humans (10–30 μM;  e.g. , ( 3 ,  85 )). Second, we did not observe any competitor effects when vitamin E was added together with established ligands for these receptors ( Supplementary Information ).
+L33: In summary, our data show that in addition to its established function as a lipid-soluble antioxidant, α-tocopherol possesses transcriptional activities that are distinct and independent from the vitamin's role in regulating cellular redox. Future studies will focus on the molecular mechanisms and physiological consequences of this activity.
+L34: Experimental procedures
+L35: Cell lines
+L36: IHHs were cultured in Dulbecco's modified Eagle's medium supplemented with 10% vitamin E-deficient (<1 μM α-tocopherol by mass spectroscopy) fetal bovine serum (Hyclone Laboratories) as described ( 52 ). For RNA-Seq experiments, cells were seeded in triplicate 60 mm dishes and incubated for another 24 h with 100 μM  RRR -α-tocopherol, 100 μM 6-HMTC, or equal volume of ethanol (<0.5% v/v). Human embryonic kidney 293 cells were cultured in MEM supplemented with 10% fetal bovine serum. All cells were cultured at 37°C in a humidified atmosphere containing 5% CO 2 .
+L37: Reagents
+L38: RSL-3 was a generous gift of Brent Stockwell (Columbia University). We are also grateful for the generous gifts of molecular constructs for nuclear receptor reporter transactivation assays made by Hung-Yin Gao (CWRU), Paul Dawson (Emory University), and David Mangelsdorf (UTSW).
+L39: Chemical synthesis and characterization of 6-HMTC
+L40: The chemical synthesis and characterization of 6-HMTC is described in the  Supporting Information  section.
+L41: RNA isolation, library preparation, and RNA-Seq
+L42: Following treatment, total RNA was isolated from fresh lysates using the RNEasy Mini kit according to the manufacturer's protocol (Qiagen), followed by quality analysis on an Advanced Analytical Fragment Analyzer using the Standard Sense RNA kit. Total RNA input quantities were normalized prior to sequencing library generation using the TruSeq Stranded Total RNA Globin kit. Libraries were sequenced on an Illumina NextSeq 550 instrument using a midoutput run design with paired end sequencing and 75 cycles.
+L43: In vitro  assessments of radical-trapping antioxidant activity of α-tocopherol and 6-HMTC
+L44: Inhibition of coautoxidation of STY-BODIPY and egg phosphatidylcholine liposomes
+L45: STY-BODIPY (10 μM) and DTUN (0.2 μM) were added to phosphatidylcholine liposomes (as extruded 100 nm unilammelar liposomes; 1 mM in PBS). STY-BODIPY absorbance ( ϵ 565 nm  = 123,676 M −1  cm −1 ) was monitored over time before and after addition of α-tocopherol or 6-HMTC to 2 μM.
+L46: Inhibition of coautoxidation of styrene (4.3 M) and the 1-phenylbutadiene-conjugated BODIPY
+L47: PBD-BODIPY (10 μM) was initiated by azobis(isobutyronitrile) (6 mM in phenyl chloride) at 37 °C.
+L48: PBD-BODIPY absorbance (ε 591 nm  = 139,000 M −1  cm −1 ) was monitored over time before and after addition of α-tocopherol or 6-HMTC to 8 μM.
+L49: Induction and measurement of reactive oxygen species
+L50: IHH cells were treated with either 6-HMTC or α-tocopherol (in ethanolic stocks) for 16 h. Cells were challenged the next day with the GPX-4 inhibitor RSL-3 (3.5 μM) to induce lipid peroxidation for 1 h. Cells were then washed with Hanks' balanced salt solution and incubated with DCF diacetate in Hanks' balanced salt solution without phenol red (10 μg/ml) for 1 h before measuring DCF fluorescence using a plate reader (excitation = 485 nm; emission = 535 nm). DCF fluorescence was normalized to DNA content of the same well, determined by incubating the cells for 1 h with 2.5 μg/ml bisbenzimide in 2 M NaCl, 50 mM Na 2 HPO 4 , pH 7.4 in the dark at 37 °C. Bisbenzimide fluorescence was measured using a plate reader (excitation = 365 nm; emission = 460 nm).
+L51: Bioinformatic analyses
+L52: The resulting demultiplexed FASTQ ( 86 ) paired-end reads were trimmed of adapters and filtered through the Skewer program. Reads with an average Phred quality score of less than 30 were filtered along with any reads with a length of less than 36 ( 87 ). The trimmed reads were then aligned to the National Center for Biotechnology Information reference genome for  Homo sapiens  using HISAT2 (National Center for Biotechnology Information, version GRCh38; ( 88 )). The aligned reads were then counted and assigned to genes and associated metafeatures using the featureCounts program as a part of the Subread package ( 86 ). Libraries from the Bioconductor suite in the R programming language were used to analyze gene expression. A minimum count threshold of 1 count per sample was used to eliminate transcripts with a low median intensity below this threshold of detection. The edgeR Bioconductor package was used to perform trimmed mean of M-value normalization and log2 transformations ( 89 ). Distributions were assessed for normality and consistency between each sample, and no samples were removed because of inconsistent transcript distributions. Statistical analysis was performed and voom precision weights were applied to the dataset ( 90 ). The mean-variance trends were then assessed, and transcripts were filtered to eliminate duplicated counts and uncharacterized features.
+L53: Nuclear receptor activation assays
+L54: To address the possibility that vitamin E regulates gene expression through direct activation of ligand-dependent transcription factors, we coexpressed in cultured cells the candidate nuclear receptors ( i.e.  PPARα/β/γ; liver X receptor, farnesoid X receptor, pregnane X receptor, or RAR-related orphan receptor) together with the appropriate reporter constructs in which expression of the luciferase gene is controlled by the specific response element(s). Details of these experiments, together with relevant data, are described in  supporting information  section.
+L55: Data availability
+L56: All data presented and discussed here are contained within the article.
+L57: Supporting information
+L58: This article contains  supporting information  ( 80 ,  81 ,  82 ,  83 ,  84 ,  85 ).
+L59: Conflict of interest
+L60: The authors declare that they have no conflicts of interest with the contents of this article.
+L61: Supporting information
+L62: Supplementary Information 
+L63:  Supplemental Table 1
+L64: Author contributions
+L65: D. M. conceptualization; J.-F. P., N. J., S. C., C. C., D. A. P., J. A., and D. M. methodology; M. R., Mar. C., C. C., D. A. P., J. A., C. C., and D. M. software; M. R., Mar. C., C. C., D. A. P., J. A., and D. M. formal analysis; Matt. C., M. G., J.-F. P., N. J., N. B., M. R., S. V., V. M., M. S., H. T., E. Z., L. U., S. C., Mar. C., C. C., D. A. P, J. A., C. J. F., and D. M. investigation; D. M. resources; C. C. and J. A. data curation; C. F., J. A., C. J. F., and D. M. writing–original draft; Mar. C., C. C., D. A. P., J. A., C. J. F., and D. M. writing–review & editing; M. S., E. Z., J. A., and D. M. visualization; C. C., D. A. P., J. A., C. J. F., and D. M. supervision; Mar. C., D. A. P., J. A., and D. M. project administration; J. A., C. J. F., and D. M. funding acquisition.
+L66: Funding and additional information
+L67: Support for this work was provided by the  10.13039/100000002 National Institutes of Health  (NIH) awards  DK125115  and  DK067494  (to D. M.),  10.13039/100000002 NIH  award  L40 TR001136  (to C. F.), and by the  10.13039/501100000038 Natural Sciences and Engineering Research Council of Canada  Discovery grants (grant nos.:  RGPIN2016-155187  and  RGPIN2022-05058  [to J. A. and D. P., respectively]). The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
+L68: Supplementary Information
+L69: Supplemental Table 1
+L70: 1 Burton G.W. Cheeseman K.H. Doba T. Ingold K.U. Slater T.F. Vitamin E as an antioxidant  in vitro  and  in vivo Ciba Found Symp. 101 1983 4 18 6557906
+L71: 2 Ingold K.U. Webb A.C. Witter D. Burton G.W. Metcalfe T.A. Muller D.P. Vitamin E remains the major lipid-soluble, chain-breaking antioxidant in human plasma even in individuals suffering severe vitamin E deficiency Arch. Biochem. Biophys. 259 1987 224 225 3688884
+L72: 3 Ford E.S. Sowell A. Serum alpha-tocopherol status in the United States population: findings from the third national health and nutrition examination survey Am. J. Epidemiol. 150 1999 290 300 10430234
+L73: 4 Evans H.M. Bishop K.S. On the existence of a hitherto unrecognized dietary factor essential for reproduction Science 56 1922 650 651 17838496
+L74: 5 Kayden H.J. Manor D. Tocopherol transfer protein (TTP) and ataxia with vitamin E deficiency (AVED) Kompoliti K. Verhagen L. Encyclopedia of Movement Disorders 2010 Academic Press New York 315
+L75: 6 Yokota T. Igarashi K. Uchihara T. Jishage K. Tomita H. Inaba A. Delayed-onset ataxia in mice lacking alpha -tocopherol transfer protein: model for neuronal degeneration caused by chronic oxidative stress Proc. Natl. Acad. Sci. U. S. A. 98 2001 15185 15190 11752462
+L76: 7 Donnelly C.G. Finno C.J. Vitamin E depletion is associated with subclinical axonal degeneration in juvenile horses Equine Vet. J. 55 2023 884 890 36516303
+L77: 8 Head B. La Du J. Tanguay R.L. Kioussi C. Traber M.G. Vitamin E is necessary for zebrafish nervous system development Sci. Rep. 10 2020 15028
+L78: 9 Burton G.W. Joyce A. Ingold K.U. Is vitamin E the only lipid-soluble, chain-breaking antioxidant in human blood plasma and erythrocyte membranes? Arch. Biochem. Biophys. 726 2022 109195
+L79: 10 Burton G.W. Ingold K.U. Vitamin E: application of the principles of physical organic chemistry to the exploration of its structure and function Acc. Chem. Res. 19 1986 194 201
+L80: 11 Ulatowski L.M. Manor D. Vitamin E and neurodegeneration Neurobiol. Dis. 84 2015 78 83 25913028
+L81: 12 Conrad M. Pratt D.A. The chemical basis of ferroptosis Nat. Chem. Biol. 15 2019 1137 1147 31740834
+L82: 13 Barella L. Muller P.Y. Schlachter M. Hunziker W. Stocklin E. Spitzer V. Identification of hepatic molecular mechanisms of action of alpha-tocopherol using global gene expression profile analysis in rats Biochim. Biophys. Acta 1689 2004 66 74 15158915
+L83: 14 Rimbach G. Moehring J. Huebbe P. Lodge J.K. Gene-regulatory activity of alpha-tocopherol Molecules 15 2010 1746 1761 20336011
+L84: 15 Zingg J.M. Libinaki R. Lai C.Q. Meydani M. Gianello R. Ogru E. Modulation of gene expression by alpha-tocopherol and alpha-tocopheryl phosphate in THP-1 monocytes Free Radic. Biol. Med. 49 2010 1989 2000
+L85: 16 Molano A. Meydani S.N. Vitamin E, signalosomes and gene expression in T cells Mol. Aspects Med. 33 2012 55 62 22138304
+L86: 17 Zingg J.M. Han S.N. Pang E. Meydani M. Meydani S.N. Azzi A. In vivo  regulation of gene transcription by alpha- and gamma-tocopherol in murine T lymphocytes Arch. Biochem. Biophys. 538 2013 111 119 23993952
+L87: 18 Azzi A. Gysin R. Kempna P. Munteanu A. Villacorta L. Visarius T. Regulation of gene expression by alpha-tocopherol Biol. Chem. 385 2004 585 591 15318806
+L88: 19 Valastyan S. Thakur V. Johnson A. Kumar K. Manor D. Novel transcriptional activities of vitamin E: inhibition of cholesterol biosynthesis Biochemistry 47 2008 744 752 18095660
+L89: 20 Fazzio A. Marilley D. Azzi A. The effect of alpha-tocopherol and beta-tocopherol on proliferation, protein kinase C activity and gene expression in different cell lines Biochem. Mol. Biol. Int. 41 1997 93 101 9043639
+L90: 21 Ma Q. Role of nrf2 in oxidative stress and toxicity Annu. Rev. Pharmacol. Toxicol. 53 2013 401 426 23294312
+L91: 22 Shoulson I. DATATOP: a decade of neuroprotective inquiry. Parkinson study group. Deprenyl and tocopherol antioxidative therapy of parkinsonism Ann. Neurol. 44 1998 S160 S166 9749589
+L92: 23 Jishage K. Arita M. Igarashi K. Iwata T. Watanabe M. Ogawa M. Alpha-tocopherol transfer protein is important for the normal development of placental labyrinthine trophoblasts in mice J. Biol. Chem. 276 2001 1669 1672 11076932
+L93: 24 Azzi A. Molecular mechanism of alpha-tocopherol action Free Radic. Biol. Med. 43 2007 16 21 17561089
+L94: 25 Sano M. Ernesto C. Thomas R.G. Klauber M.R. Schafer K. Grundman M. A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer's disease. The Alzheimer's Disease Cooperative Study N. Engl. J. Med. 336 1997 1216 1222 9110909
+L95: 26 Grundman M. Vitamin E and Alzheimer disease: the basis for additional clinical trials Am. J. Clin. Nutr. 71 2000 630S 636S 10681271
+L96: 27 Pham D.Q. Plakogiannis R. Vitamin E supplementation in Alzheimer's disease, Parkinson's disease, tardive dyskinesia, and cataract: Part 2 Ann. Pharmacother. 39 2005 2065 2072 16288072
+L97: 28 Desnuelle C. Dib M. Garrel C. Favier A. A double-blind, placebo-controlled randomized clinical trial of alpha-tocopherol (vitamin E) in the treatment of amyotrophic lateral sclerosis. ALS riluzole-tocopherol Study Group Amyotroph. Lateral Scler. Other Mot. Neuron Disord. 2 2001 9 18
+L98: 29 Zingg J.M. Azzi A. Non-antioxidant activities of vitamin E Curr. Med. Chem. 11 2004 1113 1133 15134510
+L99: 30 Traber M.G. Atkinson J. Vitamin E, antioxidant and nothing more Free Radic. Biol. Med. 43 2007 4 15 17561088
+L100: 31 Lucarini M. Pedrielli P. Peduli G. Cabiddu S. Fattuoni C. Bond dissociation energies of O−H bonds in substituted phenols from equilibration studies J. Org. Chem. 61 1996 9259 9263
+L101: 32 Kapur S. Shusterman A. Verma R.P. Hansch C. Selassie C.D. Toxicology of benzyl alcohols: a QSAR analysis Chemosphere 41 2000 1643 1649 11057692
+L102: 33 Luo Y.R. Handbook of Bond Dissociation Energies in Organic Compounds 2002 CRC Press Boca Raton
+L103: 34 Helberg J. Pratt D.A. Autoxidation vs. antioxidants - the fight for forever Chem. Soc. Rev. 50 2021 7343 7358 34037013
+L104: 35 Atkinson J. Thakur V. Manor D. The tocopherol transfer protein: regulator of vitamin E status Weber P. Birringer M. Blumberg J.B. Eggersdorfer M. Frank J. Vitamin E in Human Health 2019 Humana Press Switzerland 111 124 Chapter 9
+L105: 36 Manor D. Morley S. The alpha-tocopherol transfer protein Vitam Horm. 76 2007 45 65 17628171
+L106: 37 Usuki F. Maruyama K. Ataxia caused by mutations in the alpha-tocopherol transfer protein gene J. Neurol. Neurosurg. Psychiatry 69 2000 254 256 10896705
+L107: 38 Arita M. Nomura K. Arai H. Inoue K. alpha-tocopherol transfer protein stimulates the secretion of alpha- tocopherol from a cultured liver cell line through a brefeldin A- insensitive pathway Proc. Natl. Acad. Sci. U. S. A. 94 1997 12437 12441 9356467
+L108: 39 Hentati A. Deng H.X. Hung W.Y. Nayer M. Ahmed M.S. He X. Human alpha-tocopherol transfer protein: gene structure and mutations in familial vitamin E deficiency Ann. Neurol. 39 1996 295 300 8602747
+L109: 40 Min K.C. Kovall R.A. Hendrickson W.A. Crystal structure of human alpha-tocopherol transfer protein bound to its ligand: implications for ataxia with vitamin E deficiency Proc. Natl. Acad. Sci. U. S. A. 100 2003 14713 14718 14657365
+L110: 41 Meier R. Tomizaki T. Schulze-Briese C. Baumann U. Stocker A. The molecular basis of vitamin E retention: structure of human alpha-tocopherol transfer protein J. Mol. Biol. 331 2003 725 734 12899840
+L111: 42 Panagabko C. Morley S. Hernandez M. Cassolato P. Gordon H. Parsons R. Ligand specificity in the CRAL-TRIO protein family Biochemistry 42 2003 6467 6474 12767229
+L112: 43 Hosomi A. Arita M. Sato Y. Kiyose C. Ueda T. Igarashi O. Affinity for alpha-tocopherol transfer protein as a determinant of the biological activities of vitamin E analogs FEBS Lett. 409 1997 105 108 9199513
+L113: 44 Morley S. Cross V. Cecchini M. Nava P. Atkinson J. Manor D. Utility of a fluorescent vitamin e analogue as a probe for tocopherol transfer protein activity Biochemistry 45 2006 1075 1081 16430203
+L114: 45 Nava P. Cecchini M. Chirico S. Gordon H. Morley S. Manor D. Preparation of fluorescent tocopherols for use in protein binding and localization with the alpha-tocopherol transfer protein Bioorg. Med. Chem. 14 2006 3721 3736 16481173
+L115: 46 Qian J. Atkinson J. Manor D. Biochemical consequences of heritable mutations in the alpha-tocopherol transfer protein Biochemistry 45 2006 8236 8242 16819822
+L116: 47 West R. Panagabko C. Atkinson J. Synthesis and characterization of BODIPY-alpha-tocopherol: a fluorescent form of vitamin E J. Org. Chem. 75 2010 2883 2892 20387845
+L117: 48 Ghelfi M. Ulatowski L. Manor D. Atkinson J. Synthesis and characterization of a fluorescent probe for alpha-tocopherol suitable for fluorescence microscopy Bioorg. Med. Chem. 24 2016 2754 2761 27161877
+L118: 49 Shah R. Farmer L.A. Zilka O. Van Kessel A.T.M. Pratt D.A. Beyond DPPH: use of fluorescence-enabled inhibited autoxidation to predict oxidative cell death rescue Cell Chem. Biol. 26 2019 1594 1607.e1597 31564533
+L119: 50 Zilka O. Shah R. Li B. Friedmann Angeli J.P. Griesser M. Conrad M. On the mechanism of cytoprotection by Ferrostatin-1 and Liproxstatin-1 and the role of lipid peroxidation in ferroptotic cell death ACS Cent. Sci. 3 2017 232 243 28386601
+L120: 51 Haidasz E.A. Van Kessel A.T. Pratt D.A. A continuous visible light spectrophotometric approach to accurately determine the reactivity of radical-trapping antioxidants J. Org. Chem. 81 2016 737 744 26529543
+L121: 52 Ray R.B. Meyer K. Ray R. Hepatitis C virus core protein promotes immortalization of primary human hepatocytes Virology 271 2000 197 204 10814584
+L122: 53 Basu A. Meyer K. Ray R.B. Ray R. Hepatitis C virus core protein is necessary for the maintenance of immortalized human hepatocytes Virology 298 2002 53 62 12093173
+L123: 54 Yang W.S. Sriramaratnam R. Welsch M.E. Shimada K. Skouta R. Viswanathan V.S. Regulation of ferroptotic cancer cell death by GPX4 Cell 156 2014 317 331 24439385
+L124: 55 Yang W.S. Stockwell B.R. Synthetic lethal screening identifies compounds activating iron-dependent, nonapoptotic cell death in oncogenic-RAS-harboring cancer cells Chem. Biol. 15 2008 234 245 18355723
+L125: 56 Shah R. Margison K. Pratt D.A. The potency of Diarylamine radical-trapping antioxidants as inhibitors of ferroptosis underscores the role of autoxidation in the mechanism of cell death ACS Chem. Biol. 12 2017 2538 2545 28837769
+L126: 57 Shah R. Shchepinov M.S. Pratt D.A. Resolving the role of lipoxygenases in the initiation and execution of ferroptosis ACS Cent. Sci. 4 2018 387 396 29632885
+L127: 58 Brigelius-Flohe R. Vitamin E research: past, now and future Free Radic. Biol. Med. 177 2021 381 390 34756995
+L128: 59 Rota C. Barella L. Minihane A.M. Stocklin E. Rimbach G. Dietary alpha-tocopherol affects differential gene expression in rat testes IUBMB Life 56 2004 277 280 15370891
+L129: 60 Rota C. Rimbach G. Minihane A.M. Stoecklin E. Barella L. Dietary vitamin E modulates differential gene expression in the rat hippocampus: potential implications for its neuroprotective properties Nutr. Neurosci. 8 2005 21 29 15909764
+L130: 61 Arai H. Kono N. alpha-Tocopherol transfer protein (alpha-TTP) Free Radic. Biol. Med. 176 2021 162 175 34563650
+L131: 62 Ulatowski L. Dreussi C. Noy N. Barnholtz-Sloan J. Klein E. Manor D. Expression of the alpha-tocopherol transfer protein gene is regulated by oxidative stress and common single-nucleotide polymorphisms Free Radic. Biol. Med. 53 2012 2318 2326 23079030
+L132: 63 Szklarczyk D. Gable A.L. Lyon D. Junge A. Wyder S. Huerta-Cepas J. STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets Nucleic Acids Res. 47 2019 D607 D613 30476243
+L133: 64 Phonpanichrasamee C. Komaratat P. Wilairat P. Hypocholesterolemic effect of vitamin E on cholesterol-fed rabbit Int. J. Vitam Nutr. Res. 60 1990 240 244 2276881
+L134: 65 Komaratat P. Chupukcharoen N. Wilairat P. Effect of vitamin E on cholesterol plasma lipoprotein distribution and metabolism in rabbit Int. J. Vitam Nutr. Res. 55 1985 167 171 4019071
+L135: 66 Morrissey R.B. Donaldson W.E. Cholesteremia in Japanese quail: response to a mixture of vitamins C and E and choline chloride Artery 5 1979 182 192 539918
+L136: 67 Jack Yang N.Y. Desai I.D. Effect of high levels of dietary vitamin E on liver and plasma lipids and fat soluble vitamins in rats J. Nutr. 107 1977 1418 1426 886384
+L137: 68 Chen L.H. Liao S. Packett L.V. Interaction of dietary vitamin E and protein level of lipid source with serum cholesterol level in rats J. Nutr. 102 1972 729 732 5028666
+L138: 69 Rogi T. Tomimori N. Ono Y. Kiso Y. The mechanism underlying the synergetic hypocholesterolemic effect of sesamin and alpha-tocopherol in rats fed a high-cholesterol diet J. Pharmacol. Sci. 115 2011 408 416 21372506
+L139: 70 Stephens N.G. Parsons A. Schofield P.M. Kelly F. Cheeseman K. Mitchinson M.J. Randomised controlled trial of vitamin E in patients with coronary disease: cambridge Heart Antioxidant Study (CHAOS) Lancet 347 1996 781 786 8622332
+L140: 71 Cockcroft J. Chowienczyk P. Beyond cholesterol reduction in coronary heart disease: is vitamin E the answer? Heart 76 1996 293 294 8983670
+L141: 72 Zeng Q. Liao M. Li Y. She F. Zhang P. Association between dietary vitamin E intake and incident cardiovascular disease, cardiovascular, and all-cause mortality: a prospective cohort study using NHANES 2003-2018 data Int. J. Cardiol. Cardiovasc. Risk Prev. 24 2025 200340
+L142: 73 Curtis A.J. Bullen M. Piccenna L. Mcneil J.J. Vitamin E supplementation and mortality in healthy people: a meta-analysis of randomised controlled trials Cardiovasc. Drugs Ther. 28 2014 563 573 25398301
+L143: 74 Brown M.S. Radhakrishnan A. Goldstein J.L. Retrospective on cholesterol homeostasis: the central role of scap Annu. Rev. Biochem. 87 2018 783 807 28841344
+L144: 75 Gao Y. Zhou Y. Goldstein J.L. Brown M.S. Radhakrishnan A. Cholesterol-induced conformational changes in the sterol-sensing domain of the Scap protein suggest feedback mechanism to control cholesterol synthesis J. Biol. Chem. 292 2017 8729 8737 28377508
+L145: 76 Wu D. Meydani S.N. Age-associated changes in immune and inflammatory responses: impact of vitamin E intervention J. Leukoc. Biol. 84 2008 900 914 18596135
+L146: 77 Li C.J. Li R.W. Elsasser T.H. Alpha-tocopherol modulates transcriptional activities that affect essential biological processes in bovine cells Gene Regul. Syst. Bio 4 2010 109 124
+L147: 78 Taniguchi K. Karin M. NF-kappaB, inflammation, immunity and cancer: coming of age Nat. Rev. Immunol. 18 2018 309 324 29379212
+L148: 79 Wang C.Y. Mayo M.W. Korneluk R.G. Goeddel D.V. Baldwin A.S. Jr. NF-kappaB antiapoptosis: induction of TRAF1 and TRAF2 and c-IAP1 and c-IAP2 to suppress caspase-8 activation Science 281 1998 1680 1683 9733516
+L149: 80 Morgan M.J. Liu Z.G. Crosstalk of reactive oxygen species and NF-kappaB signaling Cell Res. 21 2011 103 115 21187859
+L150: 81 Luedde T. Schwabe R.F. NF-kappaB in the liver--linking injury, fibrosis and hepatocellular carcinoma Nat. Rev. Gastroenterol. Hepatol. 8 2011 108 118 21293511
+L151: 82 Schwabe R.F. Bradham C.A. Uehara T. Hatano E. Bennett B.L. Schoonhoven R. c-Jun-N-terminal kinase drives cyclin D1 expression and proliferation during liver regeneration Hepatology 37 2003 824 832 12668975
+L152: 83 Mangelsdorf D.J. Thummel C. Beato M. Herrlich P. Schutz G. Umesono K. The nuclear receptor superfamily: the second decade Cell 83 1995 835 839 8521507
+L153: 84 Green S. Chambon P. Oestradiol induction of a glucocorticoid-responsive gene by a chimaeric receptor Nature 325 1987 75 78 3025750
+L154: 85 Zhao Y. Monahan F.J. Mcnulty B.A. Gibney M.J. Gibney E.R. Effect of vitamin E intake from food and supplement sources on plasma alpha- and gamma-tocopherol concentrations in a healthy Irish adult population Br. J. Nutr. 112 2014 1575 1585 25245834
+L155: 86 Liao Y. Smyth G.K. Shi W. featureCounts: an efficient general purpose program for assigning sequence reads to genomic features Bioinformatics 30 2014 923 930 24227677
+L156: 87 Jiang H. Lei R. Ding S.W. Zhu S. Skewer: a fast and accurate adapter trimmer for next-generation sequencing paired-end reads BMC Bioinformatics 15 2014 182 24925680
+L157: 88 Kim D. Langmead B. Salzberg S.L. HISAT: a fast spliced aligner with low memory requirements Nat. Methods 12 2015 357 360 25751142
+L158: 89 Robinson M.D. Mccarthy D.J. Smyth G.K. edgeR: a Bioconductor package for differential expression analysis of digital gene expression data Bioinformatics 26 2010 139 140 19910308
+L159: 90 Ritchie M.E. Phipson B. Wu D. Hu Y. Law C.W. Shi W. Limma powers differential expression analyses for RNA-sequencing and microarray studies Nucleic Acids Res. 43 2015 e47 25605792
+L160: D. M. conceptualization; J.-F. P., N. J., S. C., C. C., D. A. P., J. A., and D. M. methodology; M. R., Mar. C., C. C., D. A. P., J. A., C. C., and D. M. software; M. R., Mar. C., C. C., D. A. P., J. A., and D. M. formal analysis; Matt. C., M. G., J.-F. P., N. J., N. B., M. R., S. V., V. M., M. S., H. T., E. Z., L. U., S. C., Mar. C., C. C., D. A. P, J. A., C. J. F., and D. M. investigation; D. M. resources; C. C. and J. A. data curation; C. F., J. A., C. J. F., and D. M. writing–original draft; Mar. C., C. C., D. A. P., J. A., C. J. F., and D. M. writing–review & editing; M. S., E. Z., J. A., and D. M. visualization; C. C., D. A. P., J. A., C. J. F., and D. M. supervision; Mar. C., D. A. P., J. A., and D. M. project administration; J. A., C. J. F., and D. M. funding acquisition.
+L161: Support for this work was provided by the  10.13039/100000002 National Institutes of Health  (NIH) awards  DK125115  and  DK067494  (to D. M.),  10.13039/100000002 NIH  award  L40 TR001136  (to C. F.), and by the  10.13039/501100000038 Natural Sciences and Engineering Research Council of Canada  Discovery grants (grant nos.:  RGPIN2016-155187  and  RGPIN2022-05058  [to J. A. and D. P., respectively]). The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
+L162: **Supplementary Material 1: Organic Synthesis**
+L163: NMR spectra were recorded in CDCl3 (Cambridge Isotopes Laboratories) on either a Bruker
+L164: Avance DPX-300 MHz or 400 MHz instruments. Bruker TOPSPIN 3.5 PL2 (400 MHz) and
+L165: Bruker TOPSPIN 2.1 PL6 software (300 MHz) were used to analyse FID data. Chemical shifts
+L166: were reported as δ values and coupling constants as _J_ -values in Hertz (Hz).
+L167: Trichlorofluoromethane (CFCl3) was the internal standard for [19] F-NMR (282 MHz).
+L168: Electron impact (EI) and fast atom bombardment (FAB) mass spectra were recorded on a
+L169: Thermo Scientific high resolution double focusing magnetic sector mass spectrometer.
+L170: Electrospray ionization (ES) used a Bruker HCT Plus Proteineer LC-MS.
+L171: Synthesis of (2 _R_ )-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman-6-yl
+L172: trifluoromethanesulfonate ( **1** )
+L173: F
+L174: F
+L175: To solution of (+)-α-tocopherol (9.1 g, 21.1 mmol) and pyridine (4.8 mL, 59.3 mmol) in DCM
+L176: (100 mL) was added trifluoromethanesulfonate anhydride (5.96 ml) at 0°C. After stirring for 1 h
+L177: at room temperature, the reaction mixture was quenched with aqueous NaHCO3 and extracted
+L178: with DCM. The combined organic phase was dried over Na2SO4, filtered, and evaporated under
+L179: reduced pressure to afford the title compound (11.2 g, 94%) as a clear oil. TLC: _R_ f = 0.62
+L180: (Hex/CH2Cl2, 5:1). [ 1] H-NMR (400MHz, CDCl3) δ 2.62 ( _t, J_ = 6.80 Hz, 2H), 2.25 ( _s_, 3H), 2.22 ( _s_,
+L181: 3H), 2.12 ( _s_, 3H), δ 1.84 ( _enant dt_, _J_ = 6.80 Hz, 2H), 1.67 – 1.09 (several peaks, 21H) 0.88 ( _m_,
+L182: 12H). [13] C NMR (100 MHz, CDCl3) 150.9, 139.7, 128.1, 126.7, 124.4, 118.5, 75.7, 40.0, 39.4,
+L183: 37.3, 32.8, 32.7, 30.9, 28.0, 24.8, 24.4, 23.9, 22.7, 22.6, 21.0, 20.7, 19.8, 19.7, 19.6, 14.0, 13.2,
+L184: 12.0. [ 19] F-NMR (282 MHz, CDCl3) δ -73.59. HRMS (ESI) Calculated for C30H49O3F3S:
+L185: 562.3304; found: 562.3300 ± 0.000183
+L186: _**Synthesis of (2R)-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman, 3**_
+L187: Compound **2** (11.18g, 19.87 mmol), and Fisher© brand palladium on carbon 10% (5.1g) were
+L188: dissolved in THF (133 mL) before adding MeOH(67 mL) and triethylamine (12.2ml, 87.1 mmol)
+L189: then shaken for 3 days under H2 (35 psi) The reaction mixture was filtered through Celite,
+L190: washed with EtOAc and the solvent evaporated. The residue was extracted with CH2Cl2 and
+L191: H2O. The water phase was washed with CH2Cl2 five times, the organic phases were combined,
+L192: dried over Na2SO4 and evaporated to dryness. Silica gel column chromatography (Hex/CH2Cl2,
+L193: 15:1) afforded **3** (8.12g, 98.6%) as a clear oil.
+L194: TLC: _R_ f = 0.45 (Hexane/CH2Cl2, 10:1) [ 1] H-NMR (400MHz, CDCl3) 6.57 ( _s_, 1H, Ar-H), δ 2.60 ( _t, J_
+L195: = 6.80, Hz, 2H, ArC _H_ 2CH2), δ 2.22 ( _s_, 3H, ArCH3), δ 2.18 ( _s_, 3H, ArCH3), δ 2.09 ( _s_, 3H, ArCH3),
+L196: δ 1.82 ( _enant dt_, _J_ = 6.72 Hz, 2H, ArCH2C _H_ 2), δ 1.63 – 1.09 ( _m_, 21H, phytyl-CH/CH2 + 2’ _R_ -CH3)
+L197: δ 0.88 ( _m_, 12H, phytyl-CH3) [13] C-NMR (400MHz, CDCl3) 151.56, 134.59, 133.32, 122.13,
+L198: 122.00, 116.83, 75.09, 40.14, 40.06, 39.38, 37.56, 37.47, 37.30, 32.79, 32.70, 31.13, 31.07,
+L199: 27.99, 24.82, 24.46, 24.01, 22.73, 22.64, 21.06, 20.11, 19.76, 19.70, 18.82, 11.35 MS [EI+]
+L200: _m/z_ 414 (M [+], 44%), 189 (13%), 149 (100%)
+L201: MS Calculated for C29H50O 414.3862; found: 414.3857 ± 0.000082
+L202: _**Synthesis of (2R)-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman-6-carbaldehyde**_
+L203: _**(4)**_
+L204: H
+L205: Titanium(IV)chloride 1M in toluene (48.4ml) was dissolved in dry DCM (57 mL) at 0°C under a
+L206: nitrogen atmosphere. 3 (8.35g, 20.2 mmol) and α,α′-dichloromethoxymethane (3.56ml, 40.3
+L207: mmol) were dissolved in dry DCM (28 ml) under a nitrogen atmosphere then added dropwise
+L208: over 15 minutes to the titanium(IV)chloride solution. The reaction was stirred for 1.5h, diluted
+L209: with more CH2Cl2, then quenched slowly with water and stirred for 10 extra minutes. The
+L210: phases were separated and the water phase was washed two times with CH2Cl2. The organic
+L211: phases were combined and dried over Na2SO4 and evaporated down to dryness. Silica column
+L212: chromatography (Hex/CH2Cl2, 1:1) afforded 3 (6.9g 77.3%) as a clear oil.
+L213: TLC: _R_ f = 0.55 (Hex/CH2Cl2, 1:1) [1] H-NMR (400MHz, CDCl3) δ 10.58 ( _s_, 1H, Ar-CHO), 2.67 ( _t_, _J_
+L214: = 6.80 Hz, 1H, Ar-C _H_ 2CH2), δ 2.50 ( _s_, 3H, ArCH3), δ 2.47 ( _s_, 3H, ArCH3), δ 2.15 ( _s_, 3H, ArCH3),
+L215: δ 1.85 ( _enant dt_, _J_ = 6.80 Hz, 2H, ArCH2C _H_ 2), δ 1.68-1.04 ( _m_, 21H, phytyl-CH/CH2 + 2’ _R_ -CH3) δ
+L216: 8.88 ( _m_, 12H, phytyl-CH3) [13] C-NMR (400MHz, CDCl3) 193.85, 155.74, 138.55, 138.21, 126.11,
+L217: 123.53, 117.75, 77.23, 76.30, 40.04, 39.97, 39.38, 37.50, 37.45, 37.40, 37.36, 37.29, 32.80,
+L218: 32.79, 32.67, 21.04, 30.99, 27.99, 24.82, 24.44, 23.95, 22.73, 22.64, 21.02, 20.34, 19.76, 19.69,
+L219: 19.65, 19.59, 15.70, 14.88, 11.40 MS [EI+] _m/z_ 442 (M+, 41%), 217 (22%), 177 (100%)
+L220: MS Calculated for C30H50O2 442.3811; found 442.3857 ± 0.000468
+L221: _**Synthesis of ((2R)-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)chroman-6-yl)methanol**_
+L222: _**(6-HMTC)**_
+L223: HO
+L224: To a solution of **4** (6.9g, 15.6 mmol) in dry THF (50ml), lithium aluminum hydride (1.18g, 31.2
+L225: mmol) was added in two batches at 0°C under a nitrogen atmosphere. After 3.5h, the reaction
+L226: mixture was diluted with DCM and quenched slowly with water and then brought to pH 6-7 with
+L227: 1M HCl. (Note: Prolonged exposure to acidic conditions leads to dimerization of 6-HMTC.) The
+L228: phases were separated, and the water phase was washed 5x with CH2Cl2. The organic phases
+L229: were combined and dried over Na2SO4 and dried down to dryness. Silica column
+L230: chromatography (CH2Cl2 to CH2Cl2/MeOH 50:1) afforded 4 (6.9g, 97.7%) as a clear oil.
+L231: TLC: _R_ f = 0.2 (CH2Cl2) [ 1] H-NMR (400MHz, CDCl3) δ 4.77 ( _d_, _J_ = 2.40 Hz 1H, Ar-C _H_ 2OH), 2.65
+L232: ( _t_, _J_ = 6.80 Hz, 1H, Ar-C _H_ 2CH2), δ 2.35 ( _s_, 3H, ArCH3), δ 2.31 ( _s_, 3H, ArCH3), δ 2.15 ( _s_, 3H,
+L233: ArCH3), δ 1.88 ( _enant dt_, _J_ = 6.80 Hz, 2H, ArCH2C _H_ 2), δ 1.66-1.05 ( _m_, 21H, phytyl-CH/CH2 +
+L234: 2’ _R_ -CH3) δ 8.88 ( _m_, 12H, phytyl-CH3) [ 13] C-NMR (400MHz, CDCl3) 151.56, 134.62, 133.36,
+L235: 127.90, 122.69, 117.26, 75.10, 59.82, 40.08, 40.02, 39.38, 37.57, 37.46, 37.30, 32.79, 32.72,
+L236: 31.37, 31.32, 27.99, 24.83, 24.46, 23.91, 22.74, 22.64, 21.06, 20.93, 19.76, 19.70, 19.66, 19.60,
+L237: 15.65, 14.72, 11.90 MS [EI+] _m/z_ 444 (M+, 37%), 217 (17%), 177 (76%)
+L238: MS Calculated for C30H52O2 444.3967; found 444.3857 ± 0.000118
+L239: **Supplementary Material** _**2: Nuclear receptor assays.**_ To examine the possibility that vitamin
+L240: E modulates gene expression through impacting hormone nuclear receptors, we employed
+L241: specific reporter assays. In each case, we transfected cultured cells with expression vector for
+L242: the nuclear receptor, alongside a reporter construct in which expression of the firefly luciferase
+L243: is driven by the appropriate response element using Lipofectamine 2000 (Invitrogen, Carlsbad,
+L244: CA). After 24 hours, an appropriate ligand (positive control, tocopherol, or solvent control) was
+L245: added, and luminescence was measured using the Dual glow Luciferase Assay (Promega) in a
+L246: Tecan Spark plate reader. Firefly luminescence was normalized to that of Renilla (cotransfected in the pRL-TK vector). Transfections were done in 4-9 replicates in 96-well plates
+L247: using 120 ng of luciferase reporter construct, 30 ng of receptor expression vector, and 15 ng of
+L248: the Renilla pRL-TK plasmid. In each case, a-tocopherol was added from an ethanolic stock, as
+L249: well as a lipoprotein-bound complex prepared as described earlier (80). Reagent combinations
+L250: for each nuclear receptor are provided in the Table below as well as representative data.
+L251: |Table S2: nuclear|receptor reagents.|Col3|Col4|
+L252: |---|---|---|---|
+L253: |**Nuclear**<br>**receptor**|**Receptor/Reporter plasmid**|**positive**<br>**control ligand**|**References**|
+L254: |PPARa|pCMX-mPPARa + pTK-Luc-3X-PPARE|fenofibrate|(81)|
+L255: |PPARb/d|pCMX-mPPARb + pTK-Luc-3X-PPARE|GW501516|(82)|
+L256: |PPARg|pCMX-mPPARg + pTK-Luc-3X-PPARE|rosiglitazone|(83)|
+L257: |FXR|pCMX-mFXR + pTK-Luc-FXRE|GW4064|(84)|
+L258: |LXR|pCMX-mLXR + pLXRE-Luc|GW3965|(85)|
+L259: |PXR|pSG-hPXR + pTK-LUC-PXRE;|SR12813|(84)|
+L260: ### 60 50 40 30 20 10 0
+L261: |Col1|pCMX-mFXR + pTK-LUC-3xTK-FXRE; COS 7 cell|
+L262: |---|---|
+L263: ||a<br>b<br>a<br>a<br>b<br>b<br>b<br>b|
+L264: |||
+L265: |||
+L266: |||
+L267: |||
+L268: |||
+L269: |||
+L270: ###### **GW4064 (μM) :** **Tocopherol (μM) :**
+L271: ###
+L272: ### -
+L273: ### 0 1 - 1 1 1
+L274: ### 1
+L275: ### 1 - 1 1 1 1 100 100 10 10 100 100
+L276: ### 100
+L277: ###### (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L278: #### **pCMX-mPPAR- α + pTK-LUC-3xTK-PPARE; COS 7 cell**
+L279: 3
+L280: 2
+L281: 1
+L282: 0
+L283: |Col1|c<br>c<br>c<br>c<br>c<br>b<br>d<br>a<br>a|
+L284: |---|---|
+L285: |||
+L286: |||
+L287: ###### **Fenofibrate (μM) :** **Tocopherol (μM) :**
+L288: #### 0 10 40 - - 40 40 40 40 - - - 100 100 10 10 100 100
+L289: (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L290: ###### 12 10 8 6 4 2 0
+L291: |Col1|pCMX-mPPAR-γ + pTK-LUC-3xTK-PPARE; COS 7 cell|
+L292: |---|---|
+L293: ||a<br>b<br>b<br>a<br>c<br>b<br>b<br>b<br>b|
+L294: |||
+L295: |||
+L296: |||
+L297: |||
+L298: |||
+L299: ###### Rosiglitazone ( μM ) :
+L300: ### 0 1 5 - - 5 5 5 5
+L301: #### Tocopherol ( μM ) :
+L302: ######
+L303: ### 100 100 10 10 100 100
+L304: ###### (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L305: ### 10 8 6 4 2 0
+L306: |Col1|pSG5-PPAR-β + pTK-LUC-3xTK-PPARE; COS 7 cell|
+L307: |---|---|
+L308: ||a<br>b<br>b<br>b<br>b<br>b<br>c<br>a<br>a|
+L309: |||
+L310: |||
+L311: |||
+L312: |||
+L313: ###### **GW501516 (nM) :**
+L314: # 0 10 100 - - 100 100 100 100
+L315: ###### **Tocopherol (nM) :**
+L316: #
+L317: #
+L318: ##### 100 100 10 10 100 100
+L319: ###### (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L320: ### 4 3 2 1 0
+L321: |Col1|pCMX-mLXR + pTK-LUC-3xTK-LXRE; HepG2 cell|
+L322: |---|---|
+L323: ||a<br>b<br>b<br>b<br>b<br>b<br>b<br>a<br>a|
+L324: |||
+L325: |||
+L326: |||
+L327: ###### GW3965 ( μM) :
+L328: # 0 1 10 - - 10 10 10 10
+L329: ### 1
+L330: # 10 - - 10 10 10
+L331: # Tocopherol (μM) :
+L332: #
+L333: ### 100
+L334: ### 100 10 10 100 100
+L335: ###### (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L336: 3
+L337: 2
+L338: 1
+L339: 0
+L340: |Col1|pSG-hPXR + pTK-LUC-PXRE|
+L341: |---|---|
+L342: ||a<br>b<br>a<br>a<br>b<br>a<br>b<br>b<br>c|
+L343: |||
+L344: |||
+L345: ###### **SR12813 (μM) :** **Tocopherol (μM) :**
+L346: #### - - - 100 100 10 10 100 100
+L347: (SC) (EtOH) (SC) (EtOH) (SC) (EtOH)
+L348: #### 0 1 5 - - 5
+L349: ###### 5 5 5
+L350: # Summary: mmc2.xlsx
+L351: - **Sheets**: 1
+L352: - **Total tables**: 1
+L353: ## Sheet: Sheet1
+L354: - Tables found: 1
+L355: ### Table 1: Table_1
+L356: - **Rows**: 152
+L357: - **Columns**: 8
+L358: | Column | Dtype | Non-null | Sample values |
+L359: |--------|-------|----------|---------------|
+L360: | IDI1 | str | 152 | LOC102724213, TOB1, TRNAY4 |
+L361: | Dn | str | 152 | Dn, Dn, Dn |
+L362: | -0.245 | float64 | 152 | -0.657, -0.145, -0.673 |
+L363: | 0.0156 | float64 | 152 | 0.0348, 0.0495, 0.0357 |
+L364: | 0.985 | float64 | 152 | 0.985, 0.985, 0.985 |
+L365: | -0.31 | float64 | 152 | -0.952, -0.245, -1.01 |
+L366: | 0.00344 | float64 | 152 | 0.00409, 0.00244, 0.00339 |
+L367: | 0.69 | float64 | 152 | 0.69, 0.69, 0.69 |
+[22ms]
+

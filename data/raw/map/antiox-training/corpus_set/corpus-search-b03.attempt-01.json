@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "--repo",
+    "antiox-training-corpus-03c8cb24e8-b03",
+    "--repo-only",
+    "search",
+    "-s",
+    "pmc",
+    "-n",
+    "31",
+    "--all",
+    "Under which experimental conditions does antioxidant supplementation (vitamin C and/or E) blunt, enhance, or leave unchanged adaptations to exercise training?"
+  ],
+  "completed_at": "2026-08-16T05:27:06.518694+00:00",
+  "elapsed_seconds": 3.6850376250222325,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:27:02.833723+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/corpus-search-b03.attempt-01.stderr",
+  "stdout_bytes": 5976,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/corpus-search-b03.attempt-01.stdout"
+}

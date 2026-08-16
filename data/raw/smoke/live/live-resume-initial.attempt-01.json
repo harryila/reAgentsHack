@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "script",
+    "-q",
+    "/dev/null",
+    "/Users/harry/.local/bin/paperclip",
+    "map",
+    "--from",
+    "s_3e947dfd",
+    "--output-schema",
+    "{\"additionalProperties\": false, \"properties\": {\"eligible\": {\"type\": \"boolean\"}}, \"required\": [\"eligible\"], \"type\": \"object\"}",
+    "Answer only whether this paper reports a primary experimental study (not a review, editorial, or protocol). Set eligible accordingly."
+  ],
+  "completed_at": "2026-08-16T02:39:02.653834+00:00",
+  "elapsed_seconds": 6.103174875024706,
+  "failure_code": "PAPERCLIP_TIMEOUT",
+  "retryable": false,
+  "returncode": 124,
+  "started_at": "2026-08-16T02:38:56.550669+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-resume-initial.attempt-01.stderr",
+  "stdout_bytes": 77,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-resume-initial.attempt-01.stdout"
+}

@@ -1,0 +1,123 @@
+schema_version: "1"
+status: triage
+question_id: triage-a
+research_question: >-
+  Under which conditions does time-restricted eating change cardiometabolic outcomes relative
+  to an unrestricted eating window?
+target_relation:
+  exposure: time-restricted eating (a deliberately restricted daily eating window)
+  comparator: unrestricted eating window or a non-time-restricted control arm
+  outcome: cardiometabolic outcomes (weight, body composition, glycemic, lipid, or blood-pressure endpoints)
+  increase_definition: the measured outcome value is higher with time-restricted eating than in the comparison arm
+  decrease_definition: the measured outcome value is lower with time-restricted eating than in the comparison arm
+  no_effect_definition: no detectable between-group difference in the outcome is reported
+  desirability_claims_allowed: false
+eligibility:
+  include:
+    - adult human participants (animal studies are ineligible)
+    - randomized or controlled primary trials of time-restricted eating with a concurrent comparison arm
+    - direct measurement of at least one cardiometabolic outcome
+  exclude:
+    - reviews, meta-analyses, editorials, commentaries, and protocols
+    - observational religious-fasting studies without a controlled comparison
+    - studies without an eating-window contrast
+  article_types: [research-article]
+search:
+  sources: [pmc]
+  query_families:
+    - id: direct
+      queries:
+        - time-restricted eating randomized trial cardiometabolic outcomes
+        - time restricted eating trial weight glucose insulin
+    - id: window-timing
+      queries:
+        - early time-restricted eating versus late time-restricted eating trial
+    - id: isocaloric
+      queries:
+        - isocaloric time-restricted eating controlled trial
+    - id: null-negative
+      queries:
+        - time-restricted eating no significant difference randomized trial
+  use_all: true
+  per_query_limit: 100
+outcomes:
+  primary_family: null
+  family_map: {}
+  included_primary_endpoints: []
+  endpoint_direction_overrides: {}
+moderators:
+  - name: window_timing
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Eating-window timing
+    allowed_values: [early, midday_or_late, self_selected, not_reported]
+    bins: null
+  - name: caloric_design
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Caloric design
+    allowed_values: [intended_isocaloric, combined_with_energy_restriction, ad_libitum]
+    bins: null
+  - name: baseline_state
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Baseline metabolic state
+    allowed_values: [healthy, overweight_or_obese, prediabetes_or_type2_diabetes, metabolic_syndrome]
+    bins: null
+  - name: window_length
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Eating-window length
+    allowed_values: [four_to_six_hours, eight_hours, ten_hours_or_more, not_reported]
+    bins: null
+  - name: intervention_duration
+    type: categorical
+    source: fixed
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Intervention duration
+    allowed_values: [under_eight_weeks, eight_to_sixteen_weeks, over_sixteen_weeks]
+    bins: null
+  - name: age_group
+    type: categorical
+    source: fixed
+    role: descriptive
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Age group
+    allowed_values: [younger_adult, older_adult, mixed_or_unclear]
+    bins: null
+analysis:
+  seed: 20260815
+  labels: [increase, no_effect, decrease]
+  max_missingness_headline: 0.40
+  min_papers_per_level: 5
+  cv_max_folds: 5
+  permutation_count: 100
+  bootstrap_count: 200
+triage:
+  candidate_topic: time-restricted-eating-metabolic
+  score_record: docs/planning/triage/triage-a-score.json
+  probe_keyword_groups:
+    - [time-restricted, time restricted, eating window]
+    - [trial, random, controlled, intervention, crossover]
+  probe_exclude_terms: [review, meta-analysis, commentary, protocol for]

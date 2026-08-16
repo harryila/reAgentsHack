@@ -1,0 +1,11 @@
+{
+ "patches": [
+  {
+   "selector": {"finding_id": "doc:PMC7923494:m_5ddb197d:0:eb485729"},
+   "field": "comparator",
+   "expected_old_value": "placebo plus training",
+   "value": "no-supplement control completing the same training",
+   "reason": "census audit 2026-08-16: source L56 states 'CON - participant only trained' (no placebo); the contrast is eligible under the locked comparator (placebo or no-supplement control completing the same training) but the extracted field mischaracterized it"
+  }
+ ]
+}

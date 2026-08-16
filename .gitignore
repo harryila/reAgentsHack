@@ -17,3 +17,5 @@ __pycache__/
 # Large local caches (raw API responses can be regenerated from result IDs / reruns;
 # extracted + processed datasets and demo artifacts stay trackable on purpose)
 data/cache/
+WHAT_WE_BUILT.md
+assets/slides/

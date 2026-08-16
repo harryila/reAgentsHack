@@ -1,0 +1,238 @@
+L1: Season-specific effects of α-tocopherol supplementation during bovine oocyte  in vitro  maturation on embryo yield and quality
+L2: Animal Reproduction (2025)
+L3: Bruno Barcelona, Zully Ramos, Carolina Viñoles, Nélida Rodríguez-Osorio, Francisco Báez
+L4: 1 
+L5:  Instituto Superior de la Carne, Centro Universitario Regional – CENUR Noreste, Universidad de la República – UDELAR, Tacuarembó, Uruguay
+L6: 2 
+L7:  Centro de Salud Reproductiva de Rumiantes en Sistemas Agroforestales – CENUR Noreste, Universidad de la República – UDELAR, Cerro Largo, Uruguay
+L8: 3 
+L9:  Unidad de Genómica y Bioinformática, Departamento de Ciencias Biológicas – CENUR Litoral Norte, Universidad de la República – UDELAR, Salto, Uruguay
+L10: Elevated temperature-humidity index (THI) levels, common in subtropical summers, can impair bovine oocyte development by increasing reactive oxygen species (ROS) accumulation, leading to oxidative stress and reduced developmental competence. Alpha-tocopherol, a potent antioxidant, has the potential to mitigate these effects by scavenging ROS. However, its seasonal efficacy during bovine oocyte  in vitro  maturation (IVM) remains underexplored. This study evaluated the impact of 100 µM α-tocopherol supplementation during IVM on oocytes collected in spring (THI: 68.7±3) and summer (THI: 73±3) in Northern Uruguay. Oocytes underwent IVM, fertilization, and embryos were cultured  in vitro  until day 9 post-fertilization. Blastocysts were assessed for ROS levels, apoptosis, and the abundance of transcripts linked to development and oxidative stress. Results showed a season-specific response to α-tocopherol supplementation. While no significant effects were observed in spring, summer oocytes exhibited increased maturation, cleavage, and blastocyst rates, along with improved blastocyst quality characterized by reduced apoptosis and lower  BAX  transcript levels. These findings indicate that α-tocopherol supplementation during IVM enhances oocyte developmental competence under heat stress conditions, supporting its potential as a strategy to mitigate oxidative damage and improve bovine embryo production during summer.
+L11: Short Communication
+L12: temperature-humidity index; blastocysts; ROS; apoptotic; gene expression
+L13: Introduction
+L14: The livestock industry is facing difficulties due to global warming ( Lovarelli et al., 2024 ). Climate change has become evident through the increased frequency of heat waves in late spring and summer ( Hassan et al., 2024 ). This is particularly interesting given that the breeding season of subtropical pastoral system beef cows occurs in late spring and earlier exposure to heat waves and higher Temperature-humidity Index (THI) may generate heat stress. When the THI rises above 72.8 cows experiment a linear increase in vaginal temperature, which could lead to lower pregnancy rates ( Fedrigo et al., 2021 ).
+L15: In a seasonal study, we reported compromised oocyte and embryo quality during summer, evidenced by increase DNA fragmentation levels in cumulus-oocyte complexes (COCs) and reduced blastocyst rates, compared to winter ( Báez et al., 2022 ). This lower developmental capacity for summer oocytes could be associated with hyperthermia-induced increased production of reactive oxygen species (ROS). Oocyte hyperthermia during summer can be considered one of the main causes of increased embryonic ROS content and oxidative stress ( Deluao et al., 2022 ), which cause lipid peroxidation, DNA fragmentation, and mitochondrial dysfunction ( Guérin et al., 2001 ), leading to embryonic delay, arrest, or death.
+L16: Antioxidants, such as α-tocopherol (vitamin E), are known to counteract oxidative damage by scavenging peroxyl radicals and preventing lipid peroxidation. Its incorporation into culture media has been associated with a higher  in vitro  blastocyst rates and quality in several species ( Arias-Álvarez et al., 2018 ;  Maddahi et al., 2024 ;  Tripathi et al., 2023 ). Recently, we reported that the addition of 100 μM α-tocopherol during  in vitro  maturation (IVM) improves the developmental competence of bovine oocytes collected during summer, leading to improved embryo yield, along with increased expression of  SOD2  in blastocysts ( Báez et al., 2021 ). However, it remains unclear whether α-tocopherol´s beneficial effects on the expression of blastocyst genes, such as those in involved stress response ( HSPA1A and CAT ), apoptotic ( BAX ), maternal recognition of pregnancy ( IFNT2 ), membrane transport ( AQP3 ), and pluripotency ( OCT4 ), also extend to oocytes collected in cooler seasons, such as spring. We hypothesize that supplementing IVM media with 100 μM α-tocopherol improves the developmental competence of bovine oocytes not only in summer but also in spring, by reducing oxidative stress, and increasing the expression of genes associated with embryo quality. Therefore, this study aimed to evaluate the effect of α-tocopherol supplementation during IVM on the developmental competence of bovine oocytes collected during both the austral spring and summer seasons.
+L17: Methods
+L18: This study did not require ethical committee approval since it did not involve direct experimentation on live animals. Bovine COCs were aspirated from the ovaries of Hereford, Angus, and Hereford x Angus crossbred cows, which are non-lactating and maintained on a high plane of nutrition to achieve a body condition above 5 (scale 1 to 8;  Vizcarra and Ibañez, 1986 ). Sampling was conducted from November 10 to December 15, 2023, representing the austral spring, and from January 16 to February 22, 2024, representing the austral summer. THI was calculated using the formula described by  Thom (1959) :
+L19: T: air temperature in degrees Celsius, RH: relative humidity (%).
+L20: A total of 1,466 immature COCs were collected and assigned to two groups per season: maturation media TCM-199 supplemented with 0.05% (v/v) ethanol (control group) or 100 μM α-tocopherol in 0.05% (v/v) ethanol (treatment group) for 24 h. After IVM, 59-68 COCs per group were denuded, fixed and stained to determine maturation rate. Then, 1,218 matured COCs were fertilized  in vitro . From those, 47-76 presumptive zygotes per group were denuded, fixed, and stained to determine fertilization rate. The remaining presumptive zygotes, 232-295 per group, were cultured in synthetic oviduct fluid (SOF) media. Embryo development rates were recorded at days 3 and 9 post-insemination. Expanded blastocysts from all treatments were used for ROS assessment (9-10 per group), apoptotic index with  Terminal deoxynucleotidyl transferase dUTP Nick-end labeling  (TUNEL) staining (7 per group), and gene expression analysis (3 pools of up to 2 blastocysts per group). Three replicates were performed per season. The model included season, treatment, and their interaction as fixed effects.
+L21: In vitro  maturation
+L22: COCs were aspirated from 2-8 mm follicles and washed twice in HEPES medium (HM, TCM199 Sigma-M7528) with 5 mg/mL BSA. Groups of 50 COCs with compact layers of cumulus cells and homogeneous cytoplasm were cultured in four-well dishes with 500 μL of maturation medium TCM199 (Gibco-11150059) supplemented with 10% FCS, 1 μg/mL FSH (Bioniche-Folltropin-V ® ), 5 UI/mL of eCG (Biogón ® ), 0.2 mM sodium pyruvate, 50 µg/mL gentamicin, 100 μM α-tocopherol in 0.05% (v/v) ethanol, and covered with mineral oil for 24 h at 38.5ºC with 5% CO 2 , and air balanced with N 2 . A control group with the addition of 0.05% ethanol (vehicle) was included for both seasons for a total of four groups: 1) Spring control, 2) Spring α-100, 3) Summer control, and 4) Summer α-100.
+L23: In vitro  fertilization (IVF) and embryo development
+L24: For IVF, frozen straws from a fertile Angus bull were thawed at 38ºC and added to 1 mL of TALP (Tyrode’s Albumin-Lactate-Pyruvate-solution) supplemented with 10 mM HEPES and incubated for 1 hour at 38.5ºC, 5% CO 2 . Then, 800 μL of supernatant was centrifuged for 8 min at 250 xg. The sperm pellet was resuspended in TL-IVF (TALP solution supplemented with 10 μg/mL heparin and 10 μM hypotaurine). Matured COCs were washed twice in drops of TL-IVF and co-incubated with 1x10 6  sperm/mL in 500 µL of TL-IVF for 20 h at 38.5ºC with 5% CO 2 . After fertilization, presumptive zygotes were denuded of cumulus cells in HM and washed twice in SOF media containing nonessential and essential amino acids, 0.34 mM citrate, 2.7 mM myo-inositol, 6 mg/mL BSA and 2.5% FCS ( Holm et al., 1999 ). Presumptive zygotes were cultured in ~25μL droplets of SOF (1 μL/embryo) at 38.5°C, 5% CO 2 , 5% O 2 , and 90% N 2  for 9 days.
+L25: Maturation and fertilization rate assessment
+L26: Matured COCs and presumptive zygotes were denuded and fixed in 2.5% paraformaldehyde (wt/vol) and stained with 10 μg/mL of bisbenzimide for 5 min, then mounted on slides with 5 μL of PBS and examined under a fluorescence microscope. Oocytes were classified as mature (metaphase II + polar body) and fertilized (two pronuclei) as described by  Báez et al. (2021) .
+L27: ROS production
+L28: Expanded blastocysts were transferred into SOF medium with 10 μM 2´7´-dichrolorohydro-fluorescein diacetate (H 2 DCFDA, D6883 Sigma-Aldrich) at 5% CO 2  for 30 min. Then, blastocysts were washed twice in PBS for 5 min and examined in a Nikon Eclipse 50i fluorescence microscope equipped with UV filters (460 nm). ROS levels were quantified using ImageJ software ( Yoon et al., 2014 ).
+L29: Apoptosis assessment
+L30: Blastocysts were fixed using 2.5% paraformaldehyde for 1 h and washed in PBS. DNA fragmentation was detected using an In Situ Cell Death Detection Kit (Roche Diagnostics Corp., Indianapolis, USA) according to the manufacturer’s protocol. Fixed blastocysts were permeabilized with 0.5% Triton X - 100 for 45 min at room temperature and incubated in the dark with TUNEL reaction solution for 1 h at 37°C. Samples were washed and stained with 10 μg/mL bisbenzimide for 5 min and mounted onto a glass slide. Blastocysts were analyzed in a fluorescence microscope. The apoptotic index was calculated as a percentage of FITC positive cells (labeled green) within all detected Hoechst cells ( Rodrigues et al., 2016 ).
+L31: Gene expression analysis
+L32: Blastocysts from each group were washed and frozen in liquid nitrogen. Total RNA was extracted using reagents from the Single Cell RNA Purification Kit, (Norgen Biotek Corp. Canada) and quantified using a Nanodrop spectrophotometer. cDNA was synthesized from 15 ng of total RNA per sample using SuperScriptIII transcriptase (Thermo Fisher Scientifi, Waltham, MA, USA). Quantitative polymerase chain reaction (qPCR) was performed using a Mic-qPCR (Bio Molecular System, Australia) thermal cycler, SYBR Green master mix (Thermo Fisher Scientific, Waltham, MA, USA) and the primers presented in  Table 1 . Standard amplification conditions were 95°C for 5 min followed by 40 cycles of 95°C for 15 s, 58°C for 40 s, and 72°C for 20 s. Relative expression was calculated using the 2 -ΔΔCT  method ( Livak and Schmittgen, 2001 ) and normalized against the reference genes  ACTB  and  GAPDH . Data were derived from three independent replicates for each gene.
+L33: Table 1 Oligonucleotide primers for RT-qPCR analysis.
+L34: Statistical analysis
+L35: Data were analyzed utilizing the General Linear Models (GLM) procedure in SAS (SAS Institute, Cary, NC, USA). The dependent variables included the percentage of matured, fertilized, and divided oocytes, percentage of blastocysts, number of blastomeres, ROS production, apoptotic index, and relative gene expression. Data were analyzed using a one-way ANOVA with Tukey’s test. Effects of season, treatment, and their interaction were analyzed by two-way ANOVA using the Tukey-Kramer multiple comparison test. For THIs, the effect of season was tested for significance. Differences between means were considered significant when  P  <0.05.
+L36: Results
+L37: Mean THI was higher in the summer than in late spring ( P <0.01). Maturation and fertilization did not differ in spring oocytes after α-tocopherol supplementation. However, in summer oocytes, significant differences ( P <0.05) were observed between the control and α-100 groups, with the latter showing values similar to those of spring oocytes. Summer control oocytes also produced the lowest embryo rates ( P <0.05), as shown in  Table 2 . Despite this, no differences in embryo cell numbers were detected across the groups.
+L38: Table 2 Maturation (metaphases II), fertilization, cleavage and blastocysts rates (percentage, % ± s.e.m) in bovine oocytes collected during spring and summer and  in vitro  matured without (control) or with 100 μM α-tocopherol (α-100). Temperature–humidity index (THI) was calculated during austral late spring (between 10 th  of November to 15 th  of December 2023) and summer (between 16 th  of January to 22 nd  of February 2024).
+L39: The interaction between season and antioxidant significantly affected the apoptotic index ( P <0.01) and  BAX  expression levels ( P <0.03). As shown in  Figure 1 , the highest levels of ROS production ( P <0.05) and apoptosis index ( P <0.01) were found in blastocysts derived from summer control oocytes.
+L40: Figure 1 Effect of 100 µM of α-tocopherol supplementation during bovine oocyte  in vitro  maturation during spring and summer on (A) reactive oxygen species (ROS) production, (B) blastocysts cell number and (C) expanded blastocyst apoptotic index. (D) Fluorescence images of Day 9 expanded blastocysts treated with 2´7´-dichrolorohydro-fluorescein diacetate (H 2 DCFDA) for evaluated ROS production. (E) Merge images of Day 9 expanded blastocysts stained with Hoechst 33342 (blue nuclei) and TUNEL (green) for evaluated DNA fragmentation. The white bar represents the range of 100 μm. The absence of letters in each bar represents no significant differences. Different letters in each bar represent significant differences ( P < 0.05 ).
+L41: Transcript abundance differences in expanded blastocysts were detected only for  BAX  and  CAT  genes ( Figure 2 ).  BAX  transcript abundance was significantly higher in summer control blastocysts ( P <0.05), with no differences among the other groups. Conversely,  CAT  transcript levels were the lowest in summer control blastocysts ( P<0.05) .
+L42: Figure 2 Effect of 100 µM of α-tocopherol supplementation during bovine oocyte  in vitro  maturation during spring and summer on the relative mRNA abundance for genes:  AQP3 ,  HSPA1A ,  OCT4 ,  IFNT2 ,  BAX  and  CAT  for  in vitro  produced expanded blastocysts. The absence of letters in each bar represents no significant differences. Different letters (a, b) on each box indicate significant differences between treatments ( P < 0.05 ).
+L43: Discussion
+L44: The hypothesis that α-tocopherol reduces ROS production and apoptotic index in blastocysts produced in both seasons was partially confirmed. Our results demonstrate that α-tocopherol positively impacts the developmental potential of bovine oocytes collected during summer, exhibiting season-specific effects on oocyte maturation, fertilization, embryo yield, and quality. Conversely, spring-collected oocytes show no significant response to supplementation, suggesting that the specific benefits of α-tocopherol are limited to stressful seasonal conditions. In this study, the average THI during summer was around 73, indicating heat stress; while in spring the THI was 68: no heat stress risk ( Schüller et al., 2014 ). Consistent with our findings, previous studies with oocytes collected from slaughterhouse ( Yaacobi-Artzi et al., 2022 ) or  ovum pick-up  ( Leite da Silva et al., 2020 ) during the summer, showed the lowest blastocyst rates. The environmental conditions prevailing during summer negatively affect embryo quality, with higher apoptotic indices and ROS levels compared to spring. Several studies reported increased apoptosis and ROS production in blastocysts derived from heat-shocked bovine COCs during IVM ( Amaral et al., 2020 ;  Balboula et al., 2013 ) or collected in summer ( Ferreira et al., 2011 ;  Rodríguez et al., 2022 ).
+L45: These results highlight the potential of α-tocopherol as a targeted intervention to improve oocyte and embryo quality under heat stress. Similarly,  Maddahi et al. (2024)  reported higher maturation and embryonic development rates in heat-stressed dairy cow oocytes supplemented with 100 µM α-tocopherol.  Yashiro et al. (2015)  reported that α-tocopherol treatment improved the proportion of blastocysts and increased the number of blastomeres in vitrified-warmed mature bovine oocytes. de  Vasconcelos Franco et al. (2016)  reported that α-tocopherol decrease lipid peroxidation in cryopreserved spermatozoa protecting sperm cells against oxidative damage during IVF. In addition,  Natarajan et al. (2010)  studied the supplementation of 200 μM α-tocopherol during  in vitro  embryo culture under low (5%) and high (20%) O 2  tension. They found a significant improvement in the proportion and quality of blastocysts at 20% O 2 , where a higher production of ROS is expected ( Guérin et al., 2001 ).
+L46: Our results suggest that α-tocopherol exerts its antioxidant effect under highly stressful conditions, as evidenced by reduced ROS production and decreased  BAX  gene expression in summer-collected oocytes. Notably, spring oocytes displayed low apoptosis index and  BAX  expression, even without supplementation, indicating their intrinsic competence and reduced need for antioxidant compensation. Taken together these results support the notion that α-tocopherol benefits gametes and preimplantation embryos under higher oxidative stress, as it reduces ROS and mitigates apoptosis-related gene expression. This is reinforced by recent research by  Tripathi et al. (2023) , which demonstrated that supplementation with 100 µM α-tocopherol during ovine oocyte IVM reduced oxidative stress by decreasing ROS levels and  BAX  expression, while increasing  SOD1  expression. Changes in transcript abundance for genes such as  SOD1  ( Tripathi et al., 2023 ),  SOD2  ( Báez et al., 2021 ) and  CAT  ( Arias-Álvarez et al., 2018 ), caused by α-tocopherol, representing antioxidant responses, are related to decreased ROS levels. The  CAT  gene plays a crucial role by converting H 2 O 2  into oxygen and water and mitigating apoptosis via  BAX  and  Caspase-3  downregulation ( Khan et al., 2020 ). Together, these data underline the potential of α-tocopherol as a protective agent under stressful seasonal conditions.
+L47: Conclusion
+L48: Our findings indicate that α-tocopherol supplementation during IVM significantly enhances blastocyst quality and yield of abattoir oocytes collected during summer, exerting its protective effect against oxidative damage by reducing ROS levels and apoptosis. Conversely, no significant effects were observed for spring oocytes, suggesting that the benefits of α-tocopherol supplementation during IVM are more evident for oocytes under stressful seasonal conditions, such as those experienced in summer.
+L49: Data availability Statement
+L50: Research data is only available upon request.
+L51: Amaral CS 
+L52:  Koch J 
+L53:  Correa EE Júnior 
+L54:  Bertolin K 
+L55:  Mujica LKS 
+L56:  Fiorenza MF 
+L57:  Rosa SG 
+L58:  Nogueira CW 
+L59:  Comim FV 
+L60:  Portela VVM 
+L61:  Gonçalves PBD 
+L62:  Antoniazzi AQ 
+L63:  Heat stress on oocyte or zygote compromises embryo development, impairs interferon tau production and increases reactive oxygen species and oxidative stress in bovine embryos produced in vitro Mol Reprod Dev 2020 87 8 899 909 10.1002/mrd.23407 32761819
+L64: Arias-Álvarez M 
+L65:  Garciá-Garciá RM 
+L66:  López-Tello J 
+L67:  Rebollar PG 
+L68:  Gutiérrez-Adán A 
+L69:  Lorenzo PL 
+L70:  α-Tocopherol modifies the expression of genes related to oxidative stress and apoptosis during in vitro maturation and enhances the developmental competence of rabbit oocytes Reprod Fertil Dev 2018 30 12 1728 1738 10.1071/RD17525 29966585
+L71: Báez F 
+L72:  Gómez B 
+L73:  de Brun V 
+L74:  Rodríguez-Osorio N 
+L75:  Viñoles C 
+L76:  Effect of ethanol on parthenogenetic activation and α-tocopherol supplementation during in vitro maturation on developmental competence of summer-collected bovine oocytes Curr Issues Mol Biol 2021 43 3 2253 2265 10.3390/cimb43030158 34940132
+L77: Báez F 
+L78:  López Darriulat R 
+L79:  Rodríguez-Osorio N 
+L80:  Viñoles C 
+L81:  Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes J Therm Biol 2022 103 103171 10.1016/j.jtherbio.2021.103171 35027190
+L82: Balboula AZ 
+L83:  Yamanaka K 
+L84:  Sakatani M 
+L85:  Kawahara M 
+L86:  Hegab AO 
+L87:  Zaabel SM 
+L88:  Takahashi M 
+L89:  Cathepsin B activity has a crucial role in the developmental competence of bovine cumulus-oocyte complexes exposed to heat shock during in vitro maturation Reproduction 2013 146 4 407 417 10.1530/REP-13-0179 23898216
+L90: Deluao JC 
+L91:  Winstanley Y 
+L92:  Robker RL 
+L93:  Pacella-ince L 
+L94:  Gonzalez MB 
+L95:  Mcpherson NO 
+L96:  Reactive oxygen species in the mammalian pre-implantation embryo Reproduction 2022 164 6 F95 108 10.1530/REP-22-0121 36111646
+L97: Fedrigo J 
+L98:  Báez F 
+L99:  Santa Cruz RVC 
+L100:  Heat tolerance in cows of British breeds and their crosses with Bonsmara under grazing conditions J Therm Biol 2021 102 103118 10.1016/j.jtherbio.2021.103118 34863481
+L101: Ferreira RM 
+L102:  Ayres H 
+L103:  Chiaratti MR 
+L104:  Ferraz ML 
+L105:  Araújo AB 
+L106:  Rodrigues CA 
+L107:  Watanabe YF 
+L108:  Vireque AA 
+L109:  Joaquim DC 
+L110:  Smith LC 
+L111:  Meirelles FV 
+L112:  Baruselli PS 
+L113:  The low fertility of repeat-breeder cows during summer heat stress is related to a low oocyte competence to develop into blastocysts J Dairy Sci 2011 94 5 2383 2392 10.3168/jds.2010-3904 21524528
+L114: Guérin P 
+L115:  El Mouatassim S 
+L116:  Ménézo Y 
+L117:  Oxidative stress and protection against reactive oxygen species in the pre-implantation embryo and its surroundings Hum Reprod Update 2001 7 2 175 189 10.1093/humupd/7.2.175 11284661
+L118: Hassan WU 
+L119:  Nayak MA 
+L120:  Saharwardi MS 
+L121:  Dar JA 
+L122:  Dasari HP 
+L123:  Hoteit I 
+L124:  Abualnaja Y 
+L125:  Unveiling the devastating effect of the spring 2022 mega-heatwave on the South Asian snowpack Commun Earth Environ 2024 5 707 10.1038/s43247-024-01857-y
+L126: Holm P 
+L127:  Booth PJ 
+L128:  Schmidt MH 
+L129:  Greve T 
+L130:  Callesen H 
+L131:  High bovine blastocyst development in a static in vitro production system using SOFaa medium supplemented with sodium citrate and myo-inositol with or without serum-proteins Theriogenology 1999 52 4 683 700 10.1016/S0093-691X(99)00162-4 10734366
+L132: Khan A 
+L133:  Khan MZ 
+L134:  Dou J 
+L135:  Umer S 
+L136:  Xu H 
+L137:  Sammad A 
+L138:  Zhu HB 
+L139:  Wang Y 
+L140:  Rnai‐mediated silencing of catalase gene promotes apoptosis and impairs proliferation of bovine granulosa cells under heat stress Animals (Basel) 2020 10 6 1 17 10.3390/ani10061060 32575551
+L141: Leite da Silva WA 
+L142:  Poehland R 
+L143:  Carvalho de Oliveira C 
+L144:  Ribeiro Ferreira MGC 
+L145:  Garcia de Almeida R 
+L146:  Cáceres MBS 
+L147:  Macedo GG 
+L148:  da Costa E Silva EV 
+L149:  Alves FV 
+L150:  Nogueira E 
+L151:  de Andrade Melo-Sterza F 
+L152:  Shading effect on physiological parameters and in vitro embryo production of tropical adapted Nellore heifers in integrated crop-livestock-forest systems Trop Anim Health Prod 2020 52 5 2273 2281 10.1007/s11250-020-02244-3 32144659
+L153: Livak KJ 
+L154:  Schmittgen TD 
+L155:  Analysis of relative gene expression data using real-time quantitative PCR and the 2-ΔΔCT method Methods 2001 25 4 402 408 10.1006/meth.2001.1262 11846609
+L156: Lovarelli D 
+L157:  Minozzi G 
+L158:  Arazi A 
+L159:  Guarino M 
+L160:  Tiezzi F 
+L161:  Effect of extended heat stress in dairy cows on productive and behavioral traits Animal 2024 18 3 101089 10.1016/j.animal.2024.101089 38377809
+L162: Maddahi A 
+L163:  Saberivand A 
+L164:  Hamali H 
+L165:  Jafarpour F 
+L166:  Saberivand M 
+L167:  Exploring the impact of heat stress on oocyte maturation and embryo development in dairy cattle using a culture medium supplemented with vitamins E, C, and coenzyme Q10 J Therm Biol 2024 119 103759 10.1016/j.jtherbio.2023.103759 38035528
+L168: Natarajan R 
+L169:  Shankar MB 
+L170:  Munuswamy D 
+L171:  Effect of α-tocopherol supplementation on in vitro maturation of sheep oocytes and in vitro development of preimplantation sheep embryos to the blastocyst stage J Assist Reprod Genet 2010 27 8 483 490 10.1007/s10815-010-9430-7 20454845
+L172: Rodrigues TA 
+L173:  Ispada J 
+L174:  Risolia PHB 
+L175:  Rodrigues MT 
+L176:  Lima RS 
+L177:  Assumpção MEOA 
+L178:  Visintin JA 
+L179:  Paula-Lopes FF 
+L180:  Thermoprotective effect of insulin-like growth factor 1 on in vitro matured bovine oocyte exposed to heat shock Theriogenology 2016 86 8 2028 2039 10.1016/j.theriogenology.2016.06.023 27545516
+L181: Rodríguez A 
+L182:  Arburuas I 
+L183:  de Brun V 
+L184:  Rodríguez-Osorio N 
+L185:  Viñoles C 
+L186:  Báez F 
+L187:  Effect of season and oxygen tension on developmental competence of bovine oocytes Reprod Fertil Dev 2022 35 2 175 10.1071/RDv35n2Ab97
+L188: Schüller LK 
+L189:  Burfeind O 
+L190:  Heuwieser W 
+L191:  Impact of heat stress on conception rate of dairy cows in the moderate climate considering different temperature-humidity index thresholds, periods relative to breeding, and heat load indices Theriogenology 2014 81 8 1050 1057 10.1016/j.theriogenology.2014.01.029 24612695
+L192: Thom EC 
+L193:  The Discomfort Index Weatherwise 1959 12 2 57 61 10.1080/00431672.1959.9926960
+L194: Tripathi SK 
+L195:  Nandi S 
+L196:  Gupta PSP 
+L197:  Mondal S 
+L198:  Antioxidants supplementation improves the quality of in vitro produced ovine embryos with amendments in key development gene expressions Theriogenology 2023 201 41 52 10.1016/j.theriogenology.2022.11.048 36827868
+L199: Vasconcelos Franco JS 
+L200:  Faheem M 
+L201:  Chaveiro A 
+L202:  Moreira da Silva F 
+L203:  Effects of α-tocopherol and freezing rates on the quality and heterologous in vitro fertilization capacity of stallion sperm after cryopreservation Theriogenology 2016 86 4 957 962 10.1016/j.theriogenology.2016.03.019 27125690
+L204: Vizcarra JA 
+L205:  Ibañez WOR 
+L206:  Repetibilidad y reproductibilidad de dos escalas para estimar la condición corporal de vacas Hereford Investigaciones Agronómicas. 1986 7 45 47
+L207: Yaacobi-Artzi S 
+L208:  Kalo D 
+L209:  Roth Z 
+L210:  Seasonal variation in the morphokinetics of in-vitro-derived bovine embryos is associated with the blastocyst developmental competence and gene expression Frontiers in Reproductive Health. 2022 4 1 15 10.3389/frph.2022.1030949 36406891
+L211: Yashiro I 
+L212:  Tagiri M 
+L213:  Ogawa H 
+L214:  Tashima K 
+L215:  Takashima S 
+L216:  Hara H 
+L217:  Hirabayashi M 
+L218:  Hochi S 
+L219:  High revivability of vitrified-warmed bovine mature oocytes after recovery culture with α-tocopherol Reproduction 2015 149 4 347 355 10.1530/REP-14-0594 25628440
+L220: Yoon SB 
+L221:  Choi SA 
+L222:  Sim BW 
+L223:  Kim JS 
+L224:  Mun SE 
+L225:  Jeong PS 
+L226:  Yang HJ 
+L227:  Lee Y 
+L228:  Park YH 
+L229:  Song BS 
+L230:  Kim YH 
+L231:  Jeong KJ 
+L232:  Huh JW 
+L233:  Lee SR 
+L234:  Kim SU 
+L235:  Chang KT 
+L236:  Developmental competence of bovine early embryos depends on the coupled response between oxidative and endoplasmic reticulum stress Biol Reprod 2014 90 5 104 10.1095/biolreprod.113.113480 24695629
+[26ms]
+

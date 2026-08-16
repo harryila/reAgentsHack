@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "m_e4f416f0",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/map-12ec4ccc.results.txt"
+  ],
+  "completed_at": "2026-08-16T02:58:05.606276+00:00",
+  "elapsed_seconds": 0.435420332942158,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:58:05.170822+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/map-12ec4ccc.export.attempt-01.stderr",
+  "stdout_bytes": 104,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/map-12ec4ccc.export.attempt-01.stdout"
+}

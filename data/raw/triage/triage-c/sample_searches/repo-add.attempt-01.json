@@ -1,0 +1,29 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "--repo",
+    "triage-c-probe-54e8e0d914",
+    "repo",
+    "add",
+    "PMC10323915",
+    "PMC12384908",
+    "PMC2129167",
+    "PMC3306763",
+    "PMC4342201",
+    "PMC4562561",
+    "PMC6182534",
+    "PMC8519622",
+    "PMC9599586",
+    "PMC9659095"
+  ],
+  "completed_at": "2026-08-16T02:59:36.634566+00:00",
+  "elapsed_seconds": 0.712002209154889,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:35.922557+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-add.attempt-01.stderr",
+  "stdout_bytes": 29,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-add.attempt-01.stdout"
+}

@@ -1,0 +1,836 @@
+L1: CYP1A2  Genotype and the Ergogenic Effect of Acute Caffeine Intake on Muscular Strength and Endurance Performance in Trained Individuals
+L2: Scandinavian Journal of Medicine & Science in Sports (2026)
+L3: Juan Jesús Montalvo‐Alonso, Marta del Val‐Manzano, Iván Martín‐Rivas, Carmen Ferragut, David Valadés, Alberto Pérez‐López
+L4: 1 
+L5:  
+L6:  Departamento de Ciencias Biomédicas, Área de Educación Física y Deportiva, Facultad de Medicina y Ciencias de la Salud 
+L7:  Universidad de Alcalá 
+L8:  Madrid 
+L9:  España
+L10: This study examined whether  CYP1A2  (rs762551) genotype modulates the acute ergogenic effects of caffeine on muscular strength and endurance performance in resistance‐trained men and women. Ninety‐four resistance‐trained participants (47 females, 47 males; 39 AA, 44 AC, 11 CC) completed a randomized, triple‐blind, placebo‐controlled, crossover trial. Participants ingested 3 mg/kg of caffeine or placebo before performing standardized bench press and back squat tests. Mean velocity was measured to assess strength performance against different loads (25%–90%) and muscular endurance during a single set performed to failure at 65% 1RM. Data were analyzed using ANCOVA with supplement, genotype, and sex as factors. Caffeine significantly improved strength and endurance performance across conditions ( p  < 0.01,  η p 2  = 0.077–0.294). Mean velocity increased by 4%–12% in AA and 3%–9% in AC individuals, particularly at 50%–90% 1RM, whereas CC carriers showed minor changes (≤ 4%). Supplement by genotype interaction was noted only at 90% 1RM in mean velocity ( p  < 0.05,  η p 2  = 0.094). In the muscular endurance test, mean velocity improved by 4%–6% in AA, 3%–4% in AC, and 2%–6% in CC. No sex differences or ergolytic effects were observed. Acute ingestion of 3 mg/kg caffeine enhances strength and endurance performance in resistance‐trained men and women. Although  CYP1A2  genotype did not alter the overall effect, benefits were greatest in AA, intermediate in AC, and minimal in CC carriers. These findings support low‐dose caffeine as an effective and safe ergogenic aid in resistance training regardless of sex, with individual variability partly explained by genotype.
+L11: Original Article; Original Article
+L12: caffeine metabolism; ergogenic aid; muscular performance; resistance training; sex differences
+L13: Introduction
+L14: Caffeine (CAF) is a widely used ergogenic aid that enhances strength and power in resistance‐trained individuals [ 1 ]. Caffeine (1,3,7‐trimethylxanthine) is a potent stimulant that can enhance physical performance across various exercise and sport situations. In anaerobic tasks, ingesting acutely 3–6 mg/kg of body mass of CAF has been shown to improve strength and power output in resistance‐trained individuals [ 2 ,  3 ,  4 ,  5 ,  6 ]. Specifically, CAF increases mean velocity ( V 
+L15:  mean ) by 2.9% during bench press throw exercise at 30% 1RM [ 2 ], and by 5.4%–8.5% in bench press and back squat exercises at 25% and 50% 1RM [ 3 ]. Similar effects are observed at 25%, 50% and 75% 1RM (but not at 90% 1RM) [ 4 ] and at 50%, 75% and 90% 1RM with comparable responses in both men and females [ 6 ].
+L16: This ergogenic effect of CAF is primarily attributed to central mechanisms, particularly adenosine receptor antagonism, which enhances motor unit recruitment and muscle fiber conduction velocity [ 7 ]. These effects may vary between muscle groups [ 8 ], likely resulting in greater force production in larger muscles. Additionally, peripheral mechanisms may contribute, including phosphodiesterase inhibition, increased Ca 2+  release from the sarcoplasmic reticulum, enhanced Na + /K +  pump activity, and benzodiazepine receptor antagonism in skeletal muscle [ 9 ].
+L17: Despite the well‐documented ergogenic effects of CAF and its mechanisms of action, not all individuals respond equally to its intake [ 10 ], suggesting the influence of uncontrolled variables. Methodological and physiological factors such as genetics, the placebo (PLA) effect, habitual CAF consumption, and inadequate dietary control have been proposed as potential modulators [ 11 ,  12 ,  13 ,  14 ,  15 ]. One key genetic factor is a single nucleotide polymorphism (SNP, rs762551) in the  CYP1A2  gene, which encodes the enzyme cytochrome P450 1A2, responsible for metabolizing ~95% of ingested CAF into paraxanthine, theophylline, and theobromine [ 16 ,  17 ].
+L18: A specific SNP ( CYP1A2–164 A>C ) leads to three genotypes: AA (fast metabolizers), AC (intermediate), and CC (slow metabolizers), with the C allele associated with reduced enzyme activity, and with observed prevalence of ~46% AA, ~44% AC, and ~10% CC [ 18 ]. Rapid conversion to paraxanthine, an adenosine receptor antagonist, may enhance CAF's ergogenic effects. Indeed, AA individuals often show greater performance improvements than C‐allele carriers [ 15 ,  16 ,  19 ,  20 ,  21 ]. However, other studies report no genotype effect [ 22 ,  23 ,  24 ], or even better outcomes in C‐allele carriers [ 25 ,  26 ]. Due to the low prevalence of the  CC  genotype (~10%), most studies combine AC and CC participants, which may obscure differential responses. Only a few investigations, including two large cohort studies ( N  = ~100) [ 19 ,  20 ] and one additional trial [ 21 ], included enough CC individuals to analyze them separately, reporting negative effects limited to CC carriers, benefits in AA, and no effect in AC participants.
+L19: A recent systematic review and meta‐analysis [ 15 ], including 440 individuals (233 AA [53.0%], 175 AC [39.8%], and 32 CC [7.2%]), supports the notion that the CC genotype may reduce the acute benefits of CAF intake on physical performance. Thus, the low frequency of CC highlights the importance of recruiting large samples to ensure adequate CC representation and accurately assess CAF's effects across genotypes. Nonetheless, most genotype‐related studies have focused on endurance performance and male participants [ 15 ], leaving resistance exercise [ 22 ] and female populations underexplored. Therefore, the present study aims to investigate the impact of  CYP1A2  genotype on the acute effects of CAF intake on muscular strength and endurance in resistance‐trained males and females.
+L20: Materials and Methods
+L21: Participants
+L22: Ninety‐four resistance‐trained participants (47 females and 47 males), all of European descent and residing in Spain, were recruited for this study. The genotype distribution of the sample size was 39 AA [41%], 44 AC [47%], and 11 CC [12%]. Participants were naïve to mild CAF consumers (0.86 [0.00, 2.66] mg/kg/day; AA, 0.88 ± 0.65; AC, 0.82 ± 0.72; CC, 0.89 ± 0.71 mg/kg/day), corresponding to roughly 0–2 cups of coffee per day [ 27 ]. All participants had followed a supervised and structured resistance training program, with an average training experience of 3.3 ± 2.5 years for females and 3.5 ± 2.0 years for males. Moreover, training characteristics during the 6 months before the trial were comparable across genotypes, with similar upper‐body training frequency (AA, 2.6 ± 0.5; AC, 2.5 ± 0.4; CC, 2.7 ± 0.7 days/week), lower‐body training frequency (AA, 2.3 ± 0.7; AC, 2.3 ± 0.8; CC, 2.2 ± 0.9 days/week), upper‐body training volume (AA, 29 ± 9; AC, 32 ± 12; CC, 34 ± 12 sets/week), and lower‐body training volume (AA, 19 ± 5; AC, 21 ± 7; CC, 22 ± 8 sets/week). Their training routines included the bench press and back squat exercises, with one‐repetition maximum (1RM) relative to body mass as follows [ 28 ]: bench press in females 0.93 ± 0.18 arbitrary units (au) and males 1.25 ± 0.24 au; and back squat (half‐squat) in females 1.50 ± 0.32 au and males 1.70 ± 0.36 au. All participants were habituated to velocity‐based training, and a structured familiarization session was conducted prior to testing to ensure proper execution of the bench press and back squat at maximal intended velocity.
+L23: Inclusion criteria were: (a) age between 18 and 35 years; (b) free from neuromuscular, musculoskeletal, neurological, immunological, or cardiometabolic disorders; (c) able to successfully perform the back squat and bench press; (d) at least six months of resistance training experience, training a minimum of three days per week during the previous three months, as confirmed by questionnaire; and (e) not using any medications, drugs, stimulants, or sports supplements during the trial.
+L24: Before enrollment, all participants were informed about the study procedures, including any potential risks or discomforts, and provided written informed consent. The study was conducted in accordance with the Declaration of Helsinki and the CONSORT 2025 Statement (provided as  Supporting Information ), and was approved by the University's Ethics Committee for Human Research and registered at ClinicalTrial.gov (NCT06610110).
+L25: Experimental Design
+L26: A triple‐blind, PLA‐controlled, randomized, counterbalanced, crossover design was employed. Participants attended the laboratory on three separate occasions. During the first visit, baseline assessments were conducted, including evaluations of genetic samples, dietary and physical activity habits, body composition, and a familiarization session. In this session, a personal trainer assessed participants' technique in the bench press and back squat, and 1RM values were established for both exercises.
+L27: Visits two and three involved experimental trials separated by at least 72 h to ensure full recovery. Participants ingested either 3 mg/kg of CAF or a PLA in a randomized, crossover manner to examine, as the primary outcome, their muscular strength and endurance performance in bench press and back squat exercises across 25%–90% 1RM. The treatment order was determined using a computer‐generated randomization tool ( www.randomized.org ). A block size of four was used to ensure equal numbers of participants received CAF first or PLA first. Randomization was stratified by sex to maintain balance between male and female participants. Allocation was concealed from participants and researchers until all data were collected. An external researcher generated the alphanumeric codes to ensure blinding of participants, experimenters, and data analysts, which were only revealed after statistical analysis.
+L28: Experimental Protocol
+L29: Body Composition, Dietary and Physical Activity Habits
+L30: During each laboratory visit, body composition was measured via bioelectrical impedance (Tanita MC‐780MA, Tanita Corporation, IL, USA), and body mass was used to calculate individualized supplement doses. Dietary intake was assessed using a 24‐h recall, while physical activity was evaluated through the International Physical Activity Questionnaire (IPAQ). Participants were instructed to abstain from stimulants, alcohol, and strenuous exercise for 24 h before the familiarization session and throughout the experimental period. They also followed consistent sleep and dietary routines, assessed via self‐report sleep questionnaires and repeated 24‐h dietary recalls. The same dietary intake was replicated before each session. All sessions were scheduled at the same time of day to control for circadian variations and sleep patterns.
+L31: One‐Repetition Maximum ( 1RM )
+L32: One‐repetition maximum (1RM) values for the bench press and back squat were determined using a Smith machine (Multipower, Technogym, Spain). Initial loads were set at 20 kg for males and 10 kg for females, with progressive increments (10–15 kg) until bar mean velocity reached 0.2 m/s (bench press) or 0.4 m/s (squat), measured using a linear encoder (Chronojump, Boscosystem, Italy). Smaller increments (≤ 5 kg) were then used to obtain the 1RM. Participants performed attempts until failure to ensure that the final completed attempt represented their true 1RM.
+L33: All repetitions were performed using standardized exercise techniques. The back squat was executed as a half squat, with the eccentric phase performed until reaching approximately 90° of knee flexion, verified by an investigator using individualized safety pins set at the required depth; and the bench press was performed through a full range of motion, from full elbow extension to a controlled touch of the bar on the chest, with movement amplitude monitored and safety pins adjusted to ensure consistent execution. In both exercises, a standardized movement cadence was used, consisting of a controlled eccentric phase, a 2‐s pause in the isometric phase, and a concentric phase executed at maximal velocity. This standardized movement cadence was also used in the strength performance against different loads and endurance tests described below.
+L34: Supplementation Protocol
+L35: Sixty minutes before each trial, participants ingested either CAF (3 mg/kg body mass; HSN, Granada, Spain) or a PLA matched in dosage with maltodextrin (HSN, Granada, Spain). This 60‐min interval was selected because CAF typically reaches peak plasma concentrations within 30–60 min after ingestion [ 29 ]. Both were dissolved in 150 mL of tap water with a noncaloric flavoring (MyProtein, Northwich, UK) to mask taste and smell and served in opaque shaker bottles to ensure blinding.
+L36: Strength Performance Against Different Loads and Muscular Endurance Tests
+L37: Participants first underwent assessments of strength performance against different loads. These evaluations were conducted using a Smith machine (Multipower, Technogym, Spain) equipped with a linear position transducer (Chronojump Encoder, Boscosystem, Spain), which recorded mean velocity ( V 
+L38:  mean ), calculated as the average barbell velocity across the entire concentric phase of the lift, including both propulsive and braking phases. This variable was measured during bench press and back squat exercises performed at four relative intensities: 25%, 50%, 75%, and 90% of 1RM. Participants completed three repetitions at 25% 1RM, two at 50%, and one repetition at both 75% and 90% 1RM, allowing for 3 min of passive rest between sets.
+L39: Subsequently, after 5 min of passive recovery, muscular endurance was evaluated. Participants performed one set to muscular failure at 65% of their 1RM for both the bench press and back squat. The order of exercises and loads was maintained consistently across sessions. A five‐minute passive recovery was allowed between sets. The number of repetitions,  V 
+L40:  mean , the mean velocity of the fastest repetition of the set ( V 
+L41:  fastest ), and the mean velocity of the last repetition of the set ( V 
+L42:  last ) were recorded. For,  V 
+L43:  mean  the lowest number of repetitions performed in any experimental condition was used to calculate the average velocity produced.
+L44: Reliability of these measurements was assessed using data from the familiarization and PLA sessions. The coefficient of variation (CV) was calculated as the typical error divided by the pooled mean and expressed as a percentage. In the strength performance against different loads, the CV for bench press  V 
+L45:  mean  was < 4.2% and < 5.1% for back squat; whereas, in the muscular endurance test, the CV for bench press and back squat  V 
+L46:  mean  was 6.5% and 7.7%, respectively.
+L47: Saliva Sample Collection and Genotyping
+L48: Saliva samples were collected using the Oragene ON‐575 kit (DNA Genotek, Ottawa, ON, Canada) following the manufacturer's instructions. This protocol involves manual DNA purification using a collection tube containing 1 mL of stabilization buffer with proprietary reagents that preserve the entire saliva sample prior to DNA extraction. Specifically, approximately 1 mL of saliva was mixed with the stabilization buffer, and 500 μL of this mixture was used for DNA extraction. The final elution volume was 100 μL. This method ensures consistent DNA yield and purity from whole saliva samples.
+L49: Genomic DNA was isolated using the NucleoSpin Tissue kit (Macherey‐Nagel, Germany). Genotyping of the SNP rs762551 in the  CYP1A2  gene was performed via real‐time polymerase chain reaction (PCR) using TaqMan probes (Single Tube Genotyping Assay, Thermo Fisher Scientific, Waltham, MA, USA). PCR amplification was conducted on a LightCycler 480 system (Hoffmann‐La Roche, Basel, Switzerland). Each genotype call was assigned a confidence score, and only calls exceeding the minimum confidence threshold were accepted; all samples were genotyped in duplicate to ensure accuracy, resulting in a genotype success rate greater than 96%.
+L50: Side Effects and Blinding Assessment
+L51: At the end of the familiarization and the trials, participants were required to fill out a questionnaire about their perception of power, endurance, energy and exertion, as well as heart, muscular and gastrointestinal discomfort [ 6 ]. This questionnaire included a 1‐ to 5‐point scale to assess each item. Participants were previously informed that 1 point meant the minimal amount of that item and 5 points meant the maximal amount of the item. Additionally, a specific question to evaluate the blinding procedure was also included.
+L52: Statistical Analysis
+L53: Sample size for the main comparisons between CAF and PLA conditions was calculated using G*Power v3.1 (Düsseldorf University, Germany), based on mean velocity as the primary outcome. We assumed an  α ‐level of 0.05, power (1 −  β ) of 0.80, a correlation coefficient of 0.9, and anticipated effect sizes ranging from 0.15 to 0.25 for these measures, based on previous studies [ 5 ,  6 ]. To ensure adequate representation of the CC genotype (~10% prevalence) [ 18 ], the total number of participants recruited was increased to 100, of whom 94 completed the study.
+L54: Statistical analyses were performed using SPSS v29.0 (SPSS Inc., Chicago, IL, USA), and figures were created with GraphPad Prism v10 (GraphPad Software Inc., La Jolla, CA, USA). Data normality was assessed using the Kolmogorov–Smirnov test ( p  > 0.05). Muscular strength and endurance data were analyzed using an ANCOVA with supplement (CAF vs. PLA) as within‐subject factor, genotype ( CYP1A2 : AA, AC, CC) and sex (female vs. male) as between‐subjects factors, and baseline values (pre‐dose measurements) as covariates. Visit (1 vs. 2) and sequence (CAF‐PLA vs. PLA‐CAF) were randomized and balanced; thus, they were not included as fixed effects in the model. Homoscedasticity assumptions were assessed using Levene's tests, sphericity was verified with Mauchly's test and, if violated, the Greenhouse–Geisser correction was applied. Post hoc comparisons were adjusted using the Holm‐Bonferroni method.
+L55: Additionally, the Bang's Blinding Index (BBI) was used to assess blinding effectiveness, and the  Q  the Cochran and McNemar test was applied to detect variations in side effects.
+L56: Data are presented as mean ± standard deviation (SD). Statistical significance was set at  p  < 0.05. Effect sizes were calculated using partial eta squared ( η p 2 ) and Hedges'  g  for multiple and pairwise comparisons, respectively.
+L57: Results
+L58: Table  1  presents the differences among experimental conditions in terms of body composition and dietary intake habits. No supplement, supplement by genotype, supplement by sex, or supplement by genotype and sex was found in any of the variables.
+L59: TABLE 1 Body composition and dietary intake in each experimental group.
+L60: At the outset of the analysis, no significant effects were detected in the ANCOVA for the supplement by sex or supplement by sex by genotype interactions (Tables  [Link] ,  [Link] ,  [Link] ,  [Link] ). Therefore, the results are presented with a focus on the supplement by genotype interaction.
+L61: Strength Performance Against Different Loads
+L62: In the bench press, differences in  V 
+L63:  mean  between CAF and PLA trials according to genotype in the bench press are shown in Figure  1  and Table  S1 . An overall supplement effect was detected for  V 
+L64:  mean  at 25% 1RM ( p  < 0.001,  η p 2  = 0.157), 50% 1RM ( p  < 0.001,  η p 2  = 0.119), 75% 1RM ( p  = 0.009,  η p 2  = 0.077), and 90% 1RM ( p  < 0.001,  η p 2  = 0.294). No supplement by genotype interaction was noted, except at 90% 1RM ( p  = 0.049,  η p 2  = 0.094). Partial comparison revealed a statistically significant increase in  V 
+L65:  mean  after CAF intake in AA and AC genotypes. At 25% 1RM, CAF increased  V 
+L66:  mean  in the AA by 4.0% ( p  = 0.001,  g  = 0.24), while in AC it increased by 5.0% ( p  < 0.000,  g  = 0.50). At 50% 1RM, CAF increased  V 
+L67:  mean  in the AA by 3.8% ( p  = 0.006,  g  = 0.22) and in the AC by 3.1% ( p  = 0.013,  g  = 0.24). At 75% 1RM, CAF increased  V 
+L68:  mean  in the AA by 4.5% ( p  = 0.020,  g  = 0.23) and in the AC by 4.2% ( p  = 0.021,  g  = 0.38). At 90% 1RM, CAF increased  V 
+L69:  mean  in the AA by 6.6% ( p  < 0.001,  g  = 0.21) and in the AC by 7.8% ( p  < 0.001,  g  = 0.27). In contrast, no statistically significant differences for these variables were noted in CC at 25% 1RM (2.3%,  p  = 0.054,  g  = 0.09), 50% 1RM (4.0%,  p  = 0.108,  g  = 0.24), 75% 1RM (3.3%,  p  = 0.306,  g  = 0.10), or 90% 1RM (1.7%,  p  = 0.237,  g  = 0.04).
+L70: FIGURE 1 Strength performance against different loads differences in the bench press between CAF and PLA trials according to genotype.  V 
+L71:  mean  performed in the bench press at 25% 1RM (A), 50% 1RM (B), 75% 1RM (C), 90% 1RM (D). * p  < 0.05 CAF compared to PLA.  # 
+L72:  p  < 0.05 AA and AC compared to CC when compared to CAF vs. PLA. CAF, caffeine; PLA, placebo;  V 
+L73:  mean , mean velocity.
+L74: In the back squat exercise, differences in  V 
+L75:  mean  between CAF and PLA trials according to genotype are shown in Figure  2  and Table  S2 . A supplement effect was detected for  V 
+L76:  mean  at 50% 1RM ( p  < 0.001,  η p 2  = 0.273), 75% 1RM ( p  < 0.000,  η p 2  = 0.236) and 90% 1RM ( p  = 0.001,  η p 2  = 0.160). No supplement by genotype interaction was found for any variable. Partial comparison revealed a statistically significant increase in  V 
+L77:  mean  after CAF intake in AA and AC genotypes. At 50% 1RM, CAF increased in  V 
+L78:  mean  in the AA by 8.2% ( p  < 0.001,  g  = 0.52) and in the AC by 5.2% ( p  < 0.001,  g  = 0.28). At 75% 1RM, CAF increased in  V 
+L79:  mean  in the AA by 6.3% ( p  = 0.001,  g  = 0.47) and in the AC by 5.2% ( p  = 0.002,  g  = 0.27). At 90% 1RM, CAF increased in  V 
+L80:  mean  in the AA by 11.1% ( p  < 0.001,  g  = 0.55) and in the AC by 9.7% ( p  < 0.001,  g  = 0.33). Additionally, statistically significant differences for these variables were noted in CC at 50% 1RM (3.7%,  p  = 0.038,  g  = 0.32) and 75% 1RM (3.9%,  p  = 0.017,  g  = 0.24), but not at 90% (1.9%,  p  = 0.307,  g  = 0.10).
+L81: FIGURE 2 Strength performance against different loads differences in the back squat between CAF and PLA trials according to genotype.  V 
+L82:  mean  performed in the back squat at 25% 1RM (A), 50% 1RM (B), 75% 1RM (C), 90% 1RM (D). * p  < 0.05 CAF compared to PLA. CAF, caffeine; PLA, placebo;  V 
+L83:  mean , mean velocity.
+L84: Muscular Endurance Test
+L85: Differences in the number of repetitions (Reps),  V 
+L86:  mean ,  V 
+L87:  last , and  V 
+L88:  fastest  between CAF and PLA trials according to genotype are shown in Figure  3 , and Tables  S3  and  S4  for bench press and back squat, respectively. A supplement effect was detected for Reps,  V 
+L89:  mean , and  V 
+L90:  fastest  in bench press ( p  = 0.000–0.013,  η p 2  = 0.069–0.141) and back squat exercise ( p  = 0.000–0.004,  η p 2  = 0.091–0.276). However, no supplement by genotype effect was found in these variables ( p  = 0.135–0.892,  η p 2  = 0.002–0.076). Besides, no effect was seen in  V 
+L91:  last  ( p  = 0.397 and 0.685,  η p 2  = 0.012–0.031). Partial comparison revealed a statistically significant increase in Reps,  V 
+L92:  mean , and  V 
+L93:  fastest  after CAF intake in AA and AC genotypes. CAF increased the number of repetitions in the bench press and back squat in the AA by 3.8%–8.0% ( p  = 0.009–0.031,  g  = 0.15–0.20) and in the AC by 8.2%–13.2% ( p  = 0.000–0.001,  g  = 0.29) but not in the CC genotype (0.2%–3.9%,  p  = 0.779–0.795,  g  = 0.05–0.19). Similarly, CAF increased  V 
+L94:  mean  in the bench press and back squat in the AA by 4.9%–6.2% ( p  < 0.001,  g  = 0.32–0.40) and in the AC by 3.3%–4.4% ( p  = 0.000–0.006,  g  = 0.21–0.33) and in the CC genotype in the back squat (7%,  p  = 0.030,  g  = 0.47) but not in the bench press (3.7%,  p  = 0.124,  g  = 0.15). Finally, CAF increased  V 
+L95:  fastest  in the bench press and back squat in the AA by 3.7%–4.2% ( p  = 0.026–0.042,  g  = 0.25–0.22) and in the AC by 2.9%–3.2% ( p  = 0.049–0.039,  g  = 0.21–0.31) but not in the CC genotype (1.5%–1.2%,  p  = 0.716–0.679,  g  = 0.10–0.16).
+L96: FIGURE 3 Muscular endurance tests differences in the bench press and back squat between CAF and PLA trials according to genotype. Number of repetitions performed in the bench press (A) and back squat (E).  V 
+L97:  mean  performance in the bench press (B) and back squat (F).  V 
+L98:  last  performed in the bench press (C) and back squat (G).  V 
+L99:  fastest  performed in the bench press (D) and back squat (H). * p  < 0.05 CAF compared to PLA. CAF, caffeine; PLA, placebo; Reps, number of repetitions;  V 
+L100:  fastest , mean velocity of the fastest repetition of the set;  V 
+L101:  last , mean velocity of the last repetition performed in the set;  V 
+L102:  mean , mean velocity.
+L103: Questionnaires and Scales
+L104: Compared to PLA, no statistical differences in side effects were found for CAF in mood state, nervousness, activeness, fatigue, insomnia, gastrointestinal discomfort, headache, and irritability ( p  > 0.050,  g  > 0.105). Moreover, the BBI revealed a good binding level on AA (44.7%, BBI = −0.053), AC (50%, BBI = 0.0), and CC genotypes (41.7%, BBI = −0.083).
+L105: Discussion
+L106: This study investigated the influence of  CYP1A2  genotype on the acute effects of CAF ingestion on muscular strength and endurance in resistance‐trained males and females. The primary finding was that a low dose of CAF (3 mg/kg) significantly enhanced performance in both the bench press and back squat by increasing mean velocity across intensities ranging from 50% to 90% of 1RM. These improvements were observed irrespective of sex and were not statistically influenced by  CYP1A2  genotype, except at 90% 1RM in the bench press. However, in general, the ergogenic effects were more pronounced in individuals with the AA genotype, somewhat less pronounced in those with the AC genotype, and generally not statistically significant in participants with the CC genotype.
+L107: Previous evidence has examined the acute effects of CAF on aerobic and anaerobic performance in both sexes, showing similar ergogenic responses [ 30 ,  31 ]. However, sex‐specific differences in CAF's effects on muscular strength and endurance remain largely unexplored. While several studies have reported an increase in mean and peak velocity and power in upper‐ and lower‐body strength and power exercises after ingesting 3–6 mg/kg of CAF across loads ranging from 25% to 90% 1RM [ 2 ,  3 ,  4 ,  5 ,  32 ], most involved male participants, with females underrepresented. Still, some studies have assessed CAF's impact (2–6 mg/kg BM) on female muscular performance [ 6 ,  10 ,  33 ,  34 ,  35 ]. These included assessments at 1RM in exercises like leg press [ 36 ], bench press [ 6 ,  10 ,  37 ,  38 ], pull‐down, hack squat [ 38 ], and back squat [ 6 ,  39 ], generally finding a more marked effect in upper‐body tests. Nonetheless, effects across a broader range of the force‐velocity curve remain underexplored. Filip‐Stachnik et al. [ 40 ] reported increased bench press velocity following 6 mg/kg of CAF compared to a control trial, but not in comparison to a PLA. Similarly, Romero‐Moraleda et al. [ 41 ] observed ergogenic effects at 60% 1RM in the half squat after ingesting 3 mg/kg of CAF, but not at other intensities. Ruiz‐Fernández et al. [ 5 ] found improvements in  V 
+L108:  mean  at high loads (≥ 75% 1RM) in both male and female participants, with more pronounced effects in lower‐body (squat) than upper‐body (bench press) exercises; however, this study did not directly assess sex‐based differences. More recently, Montalvo‐Alonso et al. [ 6 ] reported that an acute dose of 3 mg/kg of CAF elicited similar ergogenic effects in 38 males and 38 females across both bench press and back squat exercises, particularly at loads between 50% and 90% 1RM. Consistent with these findings, our results demonstrated comparable improvements in mean velocity at 50%, 75%, and 90% 1RM in both sexes following acute CAF ingestion.
+L109: Similarly, our study also examined muscular endurance and found that acute CAF ingestion similarly enhanced performance in both male and female resistance‐trained participants, increasing the number of repetitions and  V 
+L110:  mean . Muscular endurance is crucial in resistance training across various sports due to its role in sustaining force and power over extended periods. Meta‐analyses suggest that CAF can improve this quality by approximately 6%–7%, primarily by increasing the number of repetitions per set [ 42 ]. Although few studies have directly compared sex‐based responses, some have assessed CAF's effect on female muscular endurance using single sets at submaximal loads (40%–60% 1RM) [ 8 ,  36 ,  37 ,  39 ]. Additional evidence extends these benefits to improvements in velocity and power at higher loads in muscular endurance (e.g., 85% 1RM) in both upper‐ and lower‐body exercises [ 5 ,  22 ]. Only in Montalvo‐Alonso et al. [ 6 ], muscular endurance was compared according to sex, showing that CAF‐enhanced muscular endurance at 65% 1RM in both sexes, specifically, increasing the number of repetitions and  V 
+L111:  mean  from 3.0% to 8.1%. This evidence, aligned with the present study, indicates that CAF produces comparable ergogenic effects across sexes in muscular endurance performance, resulting in improvements ranging from 3.2% to 13.2%.
+L112: After confirming the ergogenic effect of acute CAF intake on muscular strength and endurance, our data revealed substantial inter‐individual variability. Part of this variation may relate to genetic differences in CAF metabolism, specifically the  CYP1A2  polymorphism [ 16 ,  17 ]. Although AA individuals often show greater ergogenic responses, findings for C‐allele carriers remain inconsistent, in part due to the low prevalence of the CC genotype (~10%), which also limited interpretation in our cohort [ 18 ]. Most existing studies have focused on endurance exercise [ 19 ] and predominantly male [ 20 ] or adolescent samples [ 21 ], making our mixed‐sex, resistance‐trained population particularly valuable. Consistent with previous endurance‐based findings showing no benefit, or even ergolytic effects, in AC and CC individuals [ 15 ], we observed that ergogenic effects were strongest in AA participants, smaller in AC, and generally not statistically significant in CC, especially at 90% 1RM in the bench press. Importantly, however, CC individuals did not show an ergolytic response in our study. These patterns may reflect faster conversion of CAF into higher‐affinity metabolites such as paraxanthine in AA individuals, which exhibit higher potency at A1 and A2 receptors and lower toxicity and anxiogenic effects than CAF itself, potentially contributing to their greater responsiveness [ 43 ,  44 ].
+L113: This variability aligns with broader methodological factors such as exercise mode, supplementation dose and timing, which can interact with genetic differences in metabolism. For example, CAF dose influences enzyme kinetics, as higher substrate concentrations generally lead to increased metabolic rates, even though this effect is most evident in individuals with the  CYP1A2  AA genotype. However, this relationship holds only until enzymatic saturation occurs, at which point further increases in dosage no longer accelerate metabolism. Since both the rate of metabolism and the saturation threshold depend on enzyme availability, CAF dose likely interacts with  CYP1A2  genotype to influence physiological responses [ 33 ,  34 ]. Moreover, despite slower metabolism in C‐allele carriers, it is possible that over time they may attain similar circulating levels of CAF and its active metabolites, such as paraxanthine, potentially leading to comparable performance effects as those observed in fast metabolizers. These considerations suggest that both dosage and timing of CAF ingestion may modulate its acute ergogenic effects depending on genotype, possibly contributing to the inconsistent findings across studies. Although the specific role of these variables has yet to be directly investigated, Barreto et al. [ 15 ] noted from meta‐regressions that larger doses of CAF (~6 g/kg) and an increased time between supplementation and test realization (~100–120 min) may cause CAF to increase performance in CC to a similar extent compared to AA and AC genotype individuals. However, in our study, participants consumed 3 mg/kg of CAF, and testing occurred ~60–100 min post‐ingestion. Therefore, the cut‐off points proposed by Barreto et al. [ 15 ] may not be extrapolated to our population, and these variables are unlikely to have played a critical role in modulating the influence of genotype on CAF's ergogenic effects in resistance‐trained individuals (Tables  [Link] ,  [Link] ,  [Link] ,  [Link] ).
+L114: Additionally, a population of resistance‐trained individuals with naïve‐moderate CAF consumption habits was recruited for this investigation. Although in general the literature suggests that CAF ergogenic effects are similar among exercise types [ 35 ], it remains uncertain whether this applies to individuals with different genotypes. Similarly, a meta‐analysis suggested that habitual CAF intake may not blunt the effects of acute consumption [ 13 ] but it is unclear whether this applies across  CYP1A2  genotypes. Evidence indicates that high habitual intake increases  CYP1A2  expression in AA homozygotes but not in C‐allele carriers, suggesting that fast metabolizers with high intake could experience more substantial effects due to faster rises in plasma paraxanthine, but again, this idea has not been investigated yet. Finally, studies with heterogeneous samples, with a mixed group of participants representing different sporting disciplines (e.g., powerlifters, marathon runners, cyclists, boxers, swimmers, etc.) [ 19 ,  20 ] reported different results compared to studies recruiting a homogeneous sample size. Hence, it cannot be avoided that the lack of influence of  CYP1A2  found here in a population of resistance‐trained individuals with naïve to moderate CAF consumption habits may change in other populations with different CAF consumption habits or those participating in other sports disciplines or exercise modes.
+L115: In line with our performance findings, CAF at 3 mg/kg was well tolerated across genotypes. No significant differences were observed compared to PLA in mood state, nervousness, activeness, fatigue, insomnia, gastrointestinal discomfort, headache, or irritability, and blinding was maintained. These results indicate that moderate CAF supplementation enhances resistance exercise performance without notable adverse effects.
+L116: Finally, the study has some limitations to be acknowledged. First, mean velocity instead of mean propulsive velocity was used. It should be noted that at low relative loads, the inclusion of the braking phase in mean velocity calculations may slightly underestimate propulsive performance. Second, although within‐subject comparisons were used to minimize sex‐related differences, the inclusion of both men and women may still have introduced heterogeneity, particularly given known sex‐specific differences in strength levels and load–velocity profiles. Third, the loads used in muscular endurance were based on previously assessed 1RM values and were not adjusted on the day of testing, which may have contributed to the observed heterogeneity in repetitions to failure.
+L117: Conclusion
+L118: To summarize, acute CAF ingestion (3 mg/kg) enhances muscular strength and endurance performance across a range of loads (50%–90% of 1RM) in bench press and back squat exercises in a population of resistance‐trained men and women. Although these ergogenic effects were independent of  CYP1A2  genotype, except for 90% 1RM in bench press, performance benefits were generally greater in AA genotype individuals, followed by AC and then CC; no evidence of an ergolytic effect was observed in CC carriers. Overall, CAF supplementation produced beneficial effects across genotypes, supporting its efficacy as a performance‐enhancing aid in resistance exercise.
+L119: Perspectives
+L120: The present findings have practical relevance for athletes and practitioners seeking to optimize resistance training outcomes. A low dose of CAF (3 mg/kg) appears sufficient to enhance strength performance in both male and female athletes, with ergogenic effects generally more pronounced in AA and AC genotypes, while CC individuals did not experience statistically significant improvements at some loads. While minor differences in responsiveness between genotypes may exist, the absence of ergolytic effects suggests that CAF use is generally safe and effective across populations. From an applied perspective, athletes can consider low‐dose CAF supplementation as a reliable strategy to improve performance in multi‐joint resistance exercises. Nevertheless, individual variability should be acknowledged, and athletes are encouraged to monitor their personal responses to CAF to refine dosing strategies for training and competition. Future research should explore, in men and women separately, other CAF doses, different timing strategies, differences between  V 
+L121:  mean  and mean propulsive velocity, and analyze other neuromuscular tests, such as jumps, throws, or Wingate, to refine recommendations for diverse athletic populations.
+L122: Author Contributions
+L123: A.P.‐L. conceived the experiment and J.J.M.‐A. and A.P.‐L. designed the experiment. J.J.M.‐A., M.V.‐M., I.M.‐R., C.F., D.V., and A.P.‐L. collected the data. J.J.M.‐A. and A.P.‐L. analyzed and interpreted the data. J.J.M.‐A. and A.P.‐L. drafted the initial manuscript. All authors read and approved the final version of the manuscript prior to submission.
+L124: Funding
+L125: This study was supported by research grants from the University of Alcala (PIUAH23/CSJ‐015 and PIUAH24/CSJ‐054) and Ayudas a la Investigacion en Nutricion de iSanidad (2023/00088/001).
+L126: Conflicts of Interest
+L127: The authors declare no conflicts of interest.
+L128: Supporting information
+L129: Data Availability Statement
+L130: The dataset used and analyzed during the current study is available from the corresponding author on reasonable request.
+L131: Table S1:  sms70214‐sup‐0001‐TableS1.docx.
+L132: Table S2:  sms70214‐sup‐0002‐TableS2.docx.
+L133: Table S3:  sms70214‐sup‐0003‐TableS3.docx.
+L134: Table S4:  sms70214‐sup‐0004‐TableS4.docx.
+L135: 1 J. 
+L136:  Grgic 
+L137:  ,  
+L138:  E. T. 
+L139:  Trexler 
+L140:  ,  
+L141:  B. 
+L142:  Lazinica 
+L143:  , and  
+L144:  Z. 
+L145:  Pedisic 
+L146:  , “ Effects of Caffeine Intake on Muscle Strength and Power: A Systematic Review and Meta‐Analysis ,”  Journal of the International Society of Sports Nutrition 
+L147:  15  ( 2018 ):  11 . 29527137
+L148: 2 M. 
+L149:  Wilk 
+L150:  ,  
+L151:  A. 
+L152:  Filip 
+L153:  ,  
+L154:  M. 
+L155:  Krzysztofik 
+L156:  ,  
+L157:  M. 
+L158:  Gepfert 
+L159:  ,  
+L160:  A. 
+L161:  Zajac 
+L162:  , and  
+L163:  J. 
+L164:  Del Coso 
+L165:  , “ Acute Caffeine Intake Enhances Mean Power Output and Bar Velocity During the Bench Press Throw in Athletes Habituated to Caffeine ,”  Nutrients 
+L166:  12 , no.  2  ( 2020 ):  406 . 32033103
+L167: 3 J. G. 
+L168:  Pallares 
+L169:  ,  
+L170:  V. E. 
+L171:  Fernandez‐Elias 
+L172:  ,  
+L173:  J. F. 
+L174:  Ortega 
+L175:  ,  
+L176:  G. 
+L177:  Munoz 
+L178:  ,  
+L179:  J. 
+L180:  Munoz‐Guerra 
+L181:  , and  
+L182:  R. 
+L183:  Mora‐Rodriguez 
+L184:  , “ Neuromuscular Responses to Incremental Caffeine Doses: Performance and Side Effects ,”  Medicine and Science in Sports and Exercise 
+L185:  45 , no.  11  ( 2013 ):  2184 – 2192 . 23669879
+L186: 4 R. 
+L187:  Mora‐Rodriguez 
+L188:  ,  
+L189:  J. G. 
+L190:  Pallares 
+L191:  ,  
+L192:  J. M. 
+L193:  Lopez‐Gullon 
+L194:  ,  
+L195:  A. 
+L196:  Lopez‐Samanes 
+L197:  ,  
+L198:  V. E. 
+L199:  Fernandez‐Elias 
+L200:  , and  
+L201:  J. F. 
+L202:  Ortega 
+L203:  , “ Improvements on Neuromuscular Performance With Caffeine Ingestion Depend on the Time‐Of‐Day ,”  Journal of Science and Medicine in Sport 
+L204:  18 , no.  3  ( 2015 ):  338 – 342 . 24816164
+L205: 5 I. 
+L206:  Ruiz‐Fernandez 
+L207:  ,  
+L208:  D. 
+L209:  Valades 
+L210:  ,  
+L211:  R. 
+L212:  Dominguez 
+L213:  ,  
+L214:  C. 
+L215:  Ferragut 
+L216:  , and  
+L217:  A. 
+L218:  Perez‐Lopez 
+L219:  , “ Load and Muscle Group Size Influence the Ergogenic Effect of Acute Caffeine Intake in Muscular Strength, Power and Endurance ,”  European Journal of Nutrition 
+L220:  62 , no.  4  ( 2023 ):  1783 – 1794 . 36840816
+L221: 6 J. J. 
+L222:  Montalvo‐Alonso 
+L223:  ,  
+L224:  C. 
+L225:  Ferragut 
+L226:  ,  
+L227:  M. 
+L228:  Del Val‐Manzano 
+L229:  ,  
+L230:  D. 
+L231:  Valades 
+L232:  ,  
+L233:  J. 
+L234:  Roberts 
+L235:  , and  
+L236:  A. 
+L237:  Perez‐Lopez 
+L238:  , “ Sex Differences in the Ergogenic Response of Acute Caffeine Intake on Muscular Strength, Power and Endurance Performance in Resistance‐Trained Individuals: A Randomized Controlled Trial ,”  Nutrients 
+L239:  16 , no.  11  ( 2024 ):  1760 . 38892692
+L240: 7 I. 
+L241:  Bazzucchi 
+L242:  ,  
+L243:  F. 
+L244:  Felici 
+L245:  ,  
+L246:  M. 
+L247:  Montini 
+L248:  ,  
+L249:  F. 
+L250:  Figura 
+L251:  , and  
+L252:  M. 
+L253:  Sacchetti 
+L254:  , “ Caffeine Improves Neuromuscular Function During Maximal Dynamic Exercise ,”  Muscle & Nerve 
+L255:  43 , no.  6  ( 2011 ):  839 – 844 . 21488053
+L256: 8 M. 
+L257:  Norum 
+L258:  ,  
+L259:  L. C. 
+L260:  Risvang 
+L261:  ,  
+L262:  T. 
+L263:  Bjornsen 
+L264:  , et al., “ Caffeine Increases Strength and Power Performance in Resistance‐Trained Females During Early Follicular Phase ,”  Scandinavian Journal of Medicine & Science in Sports 
+L265:  30 , no.  11  ( 2020 ):  2116 – 2129 . 32681596
+L266: 9 J. K. 
+L267:  Davis 
+L268:   and  
+L269:  J. M. 
+L270:  Green 
+L271:  , “ Caffeine and Anaerobic Performance: Ergogenic Value and Mechanisms of Action ,”  Sports Medicine 
+L272:  39 , no.  10  ( 2009 ):  813 – 832 . 19757860
+L273: 10 K. 
+L274:  Southward 
+L275:  ,  
+L276:  K. 
+L277:  Rutherfurd‐Markwick 
+L278:  ,  
+L279:  C. 
+L280:  Badenhorst 
+L281:  , and  
+L282:  A. 
+L283:  Ali 
+L284:  , “ The Role of Genetics in Moderating the Inter‐Individual Differences in the Ergogenicity of Caffeine ,”  Nutrients 
+L285:  10 , no.  10  ( 2018 ):  1352 . 30248915
+L286: 11 C. E. G. 
+L287:  Reis 
+L288:  ,  
+L289:  B. 
+L290:  Saunders 
+L291:  , and  
+L292:  T. H. M. 
+L293:  da Costa 
+L294:  , “ Absence of Dietary Control Precludes Solid Conclusions for Sport Nutrition Trials ,”  Journal of Science and Medicine in Sport 
+L295:  24 , no.  6  ( 2021 ):  518 – 519 . 33380379
+L296: 12 F. M. 
+L297:  Marticorena 
+L298:  ,  
+L299:  A. 
+L300:  Carvalho 
+L301:  ,  
+L302:  L. F. 
+L303:  Oliveira 
+L304:  , et al., “ Nonplacebo Controls to Determine the Magnitude of Ergogenic Interventions: A Systematic Review and Meta‐Analysis ,”  Medicine and Science in Sports and Exercise 
+L305:  53 , no.  8  ( 2021 ):  1766 – 1777 . 33587551
+L306: 13 A. 
+L307:  Carvalho 
+L308:  ,  
+L309:  F. M. 
+L310:  Marticorena 
+L311:  ,  
+L312:  B. H. 
+L313:  Grecco 
+L314:  ,  
+L315:  G. 
+L316:  Barreto 
+L317:  , and  
+L318:  B. 
+L319:  Saunders 
+L320:  , “ Can I Have My Coffee and Drink It? A Systematic Review and Meta‐Analysis to Determine Whether Habitual Caffeine Consumption Affects the Ergogenic Effect of Caffeine ,”  Sports Medicine 
+L321:  52 , no.  9  ( 2022 ):  2209 – 2220 . 35536449
+L322: 14 J. 
+L323:  Grgic 
+L324:  ,  
+L325:  C. 
+L326:  Pickering 
+L327:  ,  
+L328:  J. 
+L329:  Del Coso 
+L330:  ,  
+L331:  B. J. 
+L332:  Schoenfeld 
+L333:  , and  
+L334:  P. 
+L335:  Mikulic 
+L336:  , “ CYP1A2 Genotype and Acute Ergogenic Effects of Caffeine Intake on Exercise Performance: A Systematic Review ,”  European Journal of Nutrition 
+L337:  60 , no.  3  ( 2021 ):  1181 – 1195 . 33137206
+L338: 15 G. 
+L339:  Barreto 
+L340:  ,  
+L341:  G. P. 
+L342:  Esteves 
+L343:  ,  
+L344:  F. 
+L345:  Marticorena 
+L346:  ,  
+L347:  T. N. 
+L348:  Oliveira 
+L349:  ,  
+L350:  J. 
+L351:  Grgic 
+L352:  , and  
+L353:  B. 
+L354:  Saunders 
+L355:  , “ Caffeine, CYP1A2 Genotype, and Exercise Performance: A Systematic Review and Meta‐Analysis ,”  Medicine and Science in Sports and Exercise 
+L356:  56 , no.  2  ( 2024 ):  328 – 339 . 37844569
+L357: 16 C. J. 
+L358:  Womack 
+L359:  ,  
+L360:  M. J. 
+L361:  Saunders 
+L362:  ,  
+L363:  M. K. 
+L364:  Bechtel 
+L365:  , et al., “ The Influence of a CYP1A2 Polymorphism on the Ergogenic Effects of Caffeine ,”  Journal of the International Society of Sports Nutrition 
+L366:  9 , no.  1  ( 2012 ):  7 . 22420682
+L367: 17 L. 
+L368:  Gu 
+L369:  ,  
+L370:  F. J. 
+L371:  Gonzalez 
+L372:  ,  
+L373:  W. 
+L374:  Kalow 
+L375:  , and  
+L376:  B. K. 
+L377:  Tang 
+L378:  , “ Biotransformation of Caffeine, Paraxanthine, Theobromine and Theophylline by cDNA‐Expressed Human CYP1A2 and CYP2E1 ,”  Pharmacogenetics 
+L379:  2 , no.  2  ( 1992 ):  73 – 77 . 1302044
+L380: 18 C. 
+L381:  Sachse 
+L382:  ,  
+L383:  J. 
+L384:  Brockmoller 
+L385:  ,  
+L386:  S. 
+L387:  Bauer 
+L388:  , and  
+L389:  I. 
+L390:  Roots 
+L391:  , “ Functional Significance of a C→A Polymorphism in Intron 1 of the Cytochrome P450 CYP1A2 Gene Tested With Caffeine ,”  British Journal of Clinical Pharmacology 
+L392:  47 , no.  4  ( 1999 ):  445 – 449 . 10233211
+L393: 19 N. 
+L394:  Guest 
+L395:  ,  
+L396:  P. 
+L397:  Corey 
+L398:  ,  
+L399:  J. 
+L400:  Vescovi 
+L401:  , and  
+L402:  A. 
+L403:  El‐Sohemy 
+L404:  , “ Caffeine, CYP1A2 Genotype, and Endurance Performance in Athletes ,”  Medicine and Science in Sports and Exercise 
+L405:  50 , no.  8  ( 2018 ):  1570 – 1578 . 29509641
+L406: 20 O. 
+L407:  Wong 
+L408:  ,  
+L409:  K. 
+L410:  Marshall 
+L411:  ,  
+L412:  M. 
+L413:  Sicova 
+L414:  ,  
+L415:  N. S. 
+L416:  Guest 
+L417:  ,  
+L418:  B. 
+L419:  Garcia‐Bailo 
+L420:  , and  
+L421:  A. 
+L422:  El‐Sohemy 
+L423:  , “ CYP1A2 Genotype Modifies the Effects of Caffeine Compared With Placebo on Muscle Strength in Competitive Male Athletes ,”  International Journal of Sport Nutrition and Exercise Metabolism 
+L424:  31 , no.  5  ( 2021 ):  420 – 426 . 34284351
+L425: 21 H. 
+L426:  Spineli 
+L427:  ,  
+L428:  M. P. 
+L429:  Pinto 
+L430:  ,  
+L431:  B. P. 
+L432:  Dos Santos 
+L433:  , et al., “ Caffeine Improves Various Aspects of Athletic Performance in Adolescents Independent of Their 163 C > A CYP1A2 Genotypes ,”  Scandinavian Journal of Medicine & Science in Sports 
+L434:  30 , no.  10  ( 2020 ):  1869 – 1877 . 32538495
+L435: 22 J. 
+L436:  Grgic 
+L437:  ,  
+L438:  C. 
+L439:  Pickering 
+L440:  ,  
+L441:  D. J. 
+L442:  Bishop 
+L443:  ,  
+L444:  B. J. 
+L445:  Schoenfeld 
+L446:  ,  
+L447:  P. 
+L448:  Mikulic 
+L449:  , and  
+L450:  Z. 
+L451:  Pedisic 
+L452:  , “ CYP1A2 Genotype and Acute Effects of Caffeine on Resistance Exercise, Jumping, and Sprinting Performance ,”  Journal of the International Society of Sports Nutrition 
+L453:  17 , no.  1  ( 2020 ):  21 . 32295624
+L454: 23 A. T. 
+L455:  Carswell 
+L456:  ,  
+L457:  K. 
+L458:  Howland 
+L459:  ,  
+L460:  B. 
+L461:  Martinez‐Gonzalez 
+L462:  ,  
+L463:  P. 
+L464:  Baron 
+L465:  , and  
+L466:  G. 
+L467:  Davison 
+L468:  , “ The Effect of Caffeine on Cognitive Performance Is Influenced by CYP1A2 but Not ADORA2A Genotype, Yet Neither Genotype Affects Exercise Performance in Healthy Adults ,”  European Journal of Applied Physiology 
+L469:  120 , no.  7  ( 2020 ):  1495 – 1508 . 32356023
+L470: 24 M. 
+L471:  Glaister 
+L472:  ,  
+L473:  K. 
+L474:  Chopra 
+L475:  ,  
+L476:  A. L. 
+L477:  Pereira De Sena 
+L478:  ,  
+L479:  C. 
+L480:  Sternbach 
+L481:  ,  
+L482:  L. 
+L483:  Morina 
+L484:  , and  
+L485:  Y. 
+L486:  Mavrommatis 
+L487:  , “ Caffeine, Exercise Physiology, and Time‐Trial Performance: No Effect of ADORA2A or CYP1A2 Genotypes ,”  Applied Physiology, Nutrition, and Metabolism 
+L488:  46 , no.  6  ( 2021 ):  541 – 551 .
+L489: 25 J. J. 
+L490:  Salinero 
+L491:  ,  
+L492:  B. 
+L493:  Lara 
+L494:  ,  
+L495:  D. 
+L496:  Ruiz‐Vicente 
+L497:  , et al., “ CYP1A2 Genotype Variations Do Not Modify the Benefits and Drawbacks of Caffeine During Exercise: A Pilot Study ,”  Nutrients 
+L498:  9 , no.  3  ( 2017 ):  269 . 28287486
+L499: 26 M. W. 
+L500:  Pataky 
+L501:  ,  
+L502:  C. J. 
+L503:  Womack 
+L504:  ,  
+L505:  M. J. 
+L506:  Saunders 
+L507:  , et al., “ Caffeine and 3‐Km Cycling Performance: Effects of Mouth Rinsing, Genotype, and Time of Day ,”  Scandinavian Journal of Medicine & Science in Sports 
+L508:  26 , no.  6  ( 2016 ):  613 – 619 . 26062916
+L509: 27 A. 
+L510:  Filip 
+L511:  ,  
+L512:  M. 
+L513:  Wilk 
+L514:  ,  
+L515:  M. 
+L516:  Krzysztofik 
+L517:  , and  
+L518:  J. 
+L519:  Del Coso 
+L520:  , “ Inconsistency in the Ergogenic Effect of Caffeine in Athletes Who Regularly Consume Caffeine: Is It due to the Disparity in the Criteria That Defines Habitual Caffeine Intake? ,”  Nutrients 
+L521:  12 , no.  4  ( 2020 ):  1087 . 32326386
+L522: 28 D. J. 
+L523:  van den Hoek 
+L524:  ,  
+L525:  P. L. 
+L526:  Beaumont 
+L527:  ,  
+L528:  A. K. 
+L529:  van den Hoek 
+L530:  , et al., “ Normative Data for the Squat, Bench Press and Deadlift Exercises in Powerlifting: Data From 809,986 Competition Entries ,”  Journal of Science and Medicine in Sport 
+L531:  27 , no.  10  ( 2024 ):  734 – 742 . 39060209
+L532: 29 T. E. 
+L533:  Graham 
+L534:   and  
+L535:  L. L. 
+L536:  Spriet 
+L537:  , “ Metabolic, Catecholamine, and Exercise Performance Responses to Various Doses of Caffeine ,”  Journal of Applied Physiology (1985) 
+L538:  78 , no.  3  ( 1995 ):  867 – 874 .
+L539: 30 B. 
+L540:  Lara 
+L541:  ,  
+L542:  J. J. 
+L543:  Salinero 
+L544:  ,  
+L545:  V. 
+L546:  Giraldez‐Costas 
+L547:  , and  
+L548:  J. 
+L549:  Del Coso 
+L550:  , “ Similar Ergogenic Effect of Caffeine on Anaerobic Performance in Men and Women Athletes ,”  European Journal of Nutrition 
+L551:  60 , no.  7  ( 2021 ):  4107 – 4114 . 33606090
+L552: 31 T. L. 
+L553:  Skinner 
+L554:  ,  
+L555:  B. 
+L556:  Desbrow 
+L557:  ,  
+L558:  J. 
+L559:  Arapova 
+L560:  , et al., “ Women Experience the Same Ergogenic Response to Caffeine as Men ,”  Medicine and Science in Sports and Exercise 
+L561:  51 , no.  6  ( 2019 ):  1195 – 1202 . 30629046
+L562: 32 J. J. 
+L563:  Montalvo‐Alonso 
+L564:  ,  
+L565:  M. 
+L566:  Del Val‐Manzano 
+L567:  ,  
+L568:  E. 
+L569:  Cerezo‐Tellez 
+L570:  , et al., “ Acute Caffeine Intake Improves Muscular Strength, Power, and Endurance Performance, Reversing the Time‐Of‐Day Effect Regardless of Muscle Activation Level in Resistance‐Trained Males: A Randomized Controlled Trial ,”  European Journal of Applied Physiology 
+L571:  125  ( 2025 ):  3259 – 3272 . 40478455
+L572: 33 N. 
+L573:  Djordjevic 
+L574:  ,  
+L575:  R. 
+L576:  Ghotbi 
+L577:  ,  
+L578:  S. 
+L579:  Jankovic 
+L580:  , and  
+L581:  E. 
+L582:  Aklillu 
+L583:  , “ Induction of CYP1A2 by Heavy Coffee Consumption Is Associated With the CYP1A2 ‐163C>A Polymorphism ,”  European Journal of Clinical Pharmacology 
+L584:  66 , no.  7  ( 2010 ):  697 – 703 . 20390257
+L585: 34 G. 
+L586:  Barreto 
+L587:  ,  
+L588:  B. 
+L589:  Grecco 
+L590:  ,  
+L591:  P. 
+L592:  Merola 
+L593:  ,  
+L594:  C. E. G. 
+L595:  Reis 
+L596:  ,  
+L597:  B. 
+L598:  Gualano 
+L599:  , and  
+L600:  B. 
+L601:  Saunders 
+L602:  , “ Novel Insights on Caffeine Supplementation, CYP1A2 Genotype, Physiological Responses and Exercise Performance ,”  European Journal of Applied Physiology 
+L603:  121 , no.  3  ( 2021 ):  749 – 769 . 33403509
+L604: 35 J. 
+L605:  Grgic 
+L606:  ,  
+L607:  I. 
+L608:  Grgic 
+L609:  ,  
+L610:  C. 
+L611:  Pickering 
+L612:  ,  
+L613:  B. J. 
+L614:  Schoenfeld 
+L615:  ,  
+L616:  D. J. 
+L617:  Bishop 
+L618:  , and  
+L619:  Z. 
+L620:  Pedisic 
+L621:  , “ Wake Up and Smell the Coffee: Caffeine Supplementation and Exercise Performance‐An Umbrella Review of 21 Published Meta‐Analyses ,”  British Journal of Sports Medicine 
+L622:  54 , no.  11  ( 2020 ):  681 – 688 . 30926628
+L623: 36 H. 
+L624:  Arazi 
+L625:  ,  
+L626:  M. 
+L627:  Hoseinihaji 
+L628:  , and  
+L629:  E. T. 
+L630:  Eghbali 
+L631:  , “ The Effects of Different Doses of Caffeine on Performance, Rating of Perceived Exertion and Pain Perception in Teenagers Female Karate Athletes ,”  Brazilian Journal of Pharmaceutical Sciences 
+L632:  52  ( 2016 ):  685 – 692 .
+L633: 37 A. 
+L634:  Filip‐Stachnik 
+L635:  ,  
+L636:  M. 
+L637:  Wilk 
+L638:  ,  
+L639:  M. 
+L640:  Krzysztofik 
+L641:  , et al., “ The Effects of Different Doses of Caffeine on Maximal Strength and Strength‐Endurance in Women Habituated to Caffeine ,”  Journal of the International Society of Sports Nutrition 
+L642:  18 , no.  1  ( 2021 ):  25 . 33781269
+L643: 38 C. A. 
+L644:  Fett 
+L645:  ,  
+L646:  N. M. 
+L647:  Aquino 
+L648:  ,  
+L649:  J. 
+L650:  Schantz Junior 
+L651:  ,  
+L652:  C. F. 
+L653:  Brandao 
+L654:  ,  
+L655:  J. D. 
+L656:  de Araujo Cavalcanti 
+L657:  , and  
+L658:  W. C. 
+L659:  Fett 
+L660:  , “ Performance of Muscle Strength and Fatigue Tolerance in Young Trained Women Supplemented With Caffeine ,”  Journal of Sports Medicine and Physical Fitness 
+L661:  58 , no.  3  ( 2018 ):  249 – 255 . 28409508
+L662: 39 S. 
+L663:  Sabblah 
+L664:  ,  
+L665:  D. 
+L666:  Dixon 
+L667:  , and  
+L668:  L. 
+L669:  Bottoms 
+L670:  , “ Sex Differences on the Acute Effects of Caffeine on Maximal Strength and Muscular Endurance ,”  Comparative Exercise Physiology 
+L671:  11  ( 2015 ):  89 – 94 .
+L672: 40 A. 
+L673:  Filip‐Stachnik 
+L674:  ,  
+L675:  M. 
+L676:  Krzysztofik 
+L677:  ,  
+L678:  J. 
+L679:  Del Coso 
+L680:  , and  
+L681:  M. 
+L682:  Wilk 
+L683:  , “ Acute Effects of Two Caffeine Doses on Bar Velocity During the Bench Press Exercise Among Women Habituated to Caffeine: A Randomized, Crossover, Double‐Blind Study Involving Control and Placebo Conditions ,”  European Journal of Nutrition 
+L684:  61 , no.  2  ( 2022 ):  947 – 955 . 34664106
+L685: 41 B. 
+L686:  Romero‐Moraleda 
+L687:  ,  
+L688:  J. 
+L689:  Del Coso 
+L690:  ,  
+L691:  J. 
+L692:  Gutierrez‐Hellin 
+L693:  , and  
+L694:  B. 
+L695:  Lara 
+L696:  , “ The Effect of Caffeine on the Velocity of Half‐Squat Exercise During the Menstrual Cycle: A Randomized Controlled Trial ,”  Nutrients 
+L697:  11 , no.  11  ( 2019 ):  2662 . 31690049
+L698: 42 T. T. 
+L699:  Ferreira 
+L700:  ,  
+L701:  J. V. F. 
+L702:  da Silva 
+L703:  , and  
+L704:  N. B. 
+L705:  Bueno 
+L706:  , “ Effects of Caffeine Supplementation on Muscle Endurance, Maximum Strength, and Perceived Exertion in Adults Submitted to Strength Training: A Systematic Review and Meta‐Analyses ,”  Critical Reviews in Food Science and Nutrition 
+L707:  61 , no.  15  ( 2021 ):  2587 – 2600 . 32551869
+L708: 43 J. W. 
+L709:  Daly 
+L710:  ,  
+L711:  P. 
+L712:  Butts‐Lamb 
+L713:  , and  
+L714:  W. 
+L715:  Padgett 
+L716:  , “ Subclasses of Adenosine Receptors in the Central Nervous System: Interaction With Caffeine and Related Methylxanthines ,”  Cellular and Molecular Neurobiology 
+L717:  3 , no.  1  ( 1983 ):  69 – 80 . 6309393
+L718: 44 M. 
+L719:  Okuro 
+L720:  ,  
+L721:  N. 
+L722:  Fujiki 
+L723:  ,  
+L724:  N. 
+L725:  Kotorii 
+L726:  ,  
+L727:  Y. 
+L728:  Ishimaru 
+L729:  ,  
+L730:  P. 
+L731:  Sokoloff 
+L732:  , and  
+L733:  S. 
+L734:  Nishino 
+L735:  , “ Effects of Paraxanthine and Caffeine on Sleep, Locomotor Activity, and Body Temperature in Orexin/Ataxin‐3 Transgenic Narcoleptic Mice ,”  Sleep 
+L736:  33 , no.  7  ( 2010 ):  930 – 942 . 20614853
+L737: Acknowledgments
+L738: The authors acknowledge the commitment and dedication to testing each of the 94 trained participants who took part in this investigation. We also thank María del Pilar Rubio de la Moya and the Centro de Apoyo a la Investigación en Medicina/Biología, Unidad de Biología Molecular, University of Alcalá, for their support with genotype measurements. The study was approved by the University Ethical Committee of Investigation (CEIP/2024/2/037) and registered at ClinicalTrial.gov (NCT06610110). M.V.‐M. and J.J.M.‐A. were supported by predoctoral fellowships from the University of Alcalá (FPI‐UAH) and Ministerio de Ciencia, Innovación y Universidades of Spain (FPU‐MEC), respectively. Additionally, the investigation was conducted in the laboratory (044.01.047.0) of the Faculty of Medicine and Health Sciences.
+L739: # SMS-36-e70214-s001
+L740: | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 3. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the bench press between CAF and PLA trials according to genotype and sex. |
+L741: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+L742: |  | AA | AA | AA | AA | AA | AA |  | AC | AC | AC | AC | AC | AC |  | CC | CC | CC | CC | CC | CC |  | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) |  |  |
+L743: |  | (N = 39) | (N = 39) | (N = 39) | (N = 39) | (N = 39) | (N = 39) |  | (N = 44) | (N = 44) | (N = 44) | (N = 44) | (N = 44) | (N = 44) |  | (N = 11) | (N = 11) | (N = 11) | (N = 11) | (N = 11) | (N = 11) |  | Supplement | Supplement | Supplement by Genotype | Supplement by Genotype | Supplement by Sex | Supplement by Sex | Supplement by Genotype by Sex |  |  |
+L744: |  | PLA | PLA | PLA | CAF | CAF | CAF |  | PLA | PLA | PLA | CAF | CAF | CAF |  | PLA | PLA | PLA | CAF | CAF | CAF |  | Supplement | Supplement | Supplement by Genotype | Supplement by Genotype | Supplement by Sex | Supplement by Sex | Supplement by Genotype by Sex |  |  |
+L745: | All (Females/Males) | 19/20 | 19/20 | 19/20 | 19/20 | 19/20 | 19/20 |  | 26/18 | 26/18 | 26/18 | 26/18 | 26/18 | 26/18 |  | 3/8 | 3/8 | 3/8 | 3/8 | 3/8 | 3/8 |  |  |  |  |  |  |  |  |  |  |
+L746: | Repetitions (n) | 19 ± 5 | 19 ± 5 | 19 ± 5 | 20 ± 4 | 20 ± 4 | 20 ± 4 |  | 18 ± 4 | 18 ± 4 | 18 ± 4 | 20 ± 5 | 20 ± 5 | 20 ± 5 |  | 19 ± 3 | 19 ± 3 | 19 ± 3 | 19 ± 3 | 19 ± 3 | 19 ± 3 |  | 0.013(0.069) | 0.013(0.069) | 0.353(0.024) | 0.353(0.024) | 0.704(0.002) | 0.704(0.002) | 0.357(0.023) |  |  |
+L747: | Vmean (m/s) | 0.301 ± 0.047 | 0.301 ± 0.047 | 0.301 ± 0.047 | 0.315 ± 0.043 | 0.315 ± 0.043 | 0.315 ± 0.043 |  | 0.296 ± 0.038 | 0.296 ± 0.038 | 0.296 ± 0.038 | 0.309 ± 0.039 | 0.309 ± 0.039 | 0.309 ± 0.039 |  | 0.310 ± 0.072 | 0.310 ± 0.072 | 0.310 ± 0.072 | 0.320 ± 0.071 | 0.320 ± 0.071 | 0.320 ± 0.071 |  | <0.001(0.141) | <0.001(0.141) | 0.788(0.005) | 0.788(0.005) | 0.274(0.014) | 0.274(0.014) | 0.661(0.009) |  |  |
+L748: | Vlast (m/s) | 0.154 ± 0.051 | 0.154 ± 0.051 | 0.154 ± 0.051 | 0.145 ± 0.033 | 0.145 ± 0.033 | 0.145 ± 0.033 |  | 0.155 ± 0.055 | 0.155 ± 0.055 | 0.155 ± 0.055 | 0.157 ± 0.053 | 0.157 ± 0.053 | 0.157 ± 0.053 |  | 0.156 ± 0.037 | 0.156 ± 0.037 | 0.156 ± 0.037 | 0.155 ± 0.038 | 0.155 ± 0.038 | 0.155 ± 0.038 |  | 0.685(0.012) | 0.685(0.012) | 0.670(0.015) | 0.670(0.015) | 0.424(0.011) | 0.424(0.011) | 0.618(0.011) |  |  |
+L749: | Vfastest (m/s) | 0.416 ± 0.033 | 0.416 ± 0.033 | 0.416 ± 0.033 | 0.432 ± 0.035 | 0.432 ± 0.035 | 0.432 ± 0.035 |  | 0.426 ± 0.036 | 0.426 ± 0.036 | 0.426 ± 0.036 | 0.438 ± 0.032 | 0.438 ± 0.032 | 0.438 ± 0.032 |  | 0.408 ± 0.047 | 0.408 ± 0.047 | 0.408 ± 0.047 | 0.419 ± 0.039 | 0.419 ± 0.039 | 0.419 ± 0.039 |  | 0.002(0.098) | 0.002(0.098) | 0.892(0.002) | 0.892(0.002) | 0.540(0.009) | 0.540(0.009) | 0.510(0.008) |  |  |
+L750: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L751: | Females |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L752: | Repetitions (n) | 20 ± 5 | 20 ± 5 | 20 ± 5 | 21 ± 4 | 21 ± 4 | 21 ± 4 |  | 20 ± 5 | 20 ± 5 | 20 ± 5 | 22 ± 5 | 22 ± 5 | 22 ± 5 |  | 20 ± 1 | 20 ± 1 | 20 ± 1 | 19 ± 1 | 19 ± 1 | 19 ± 1 |  |  |  |  |  |  |  |  |  |  |
+L753: | Vmean (m/s) | 0.289 ± 0.046 | 0.289 ± 0.046 | 0.289 ± 0.046 | 0.306 ± 0.044 | 0.306 ± 0.044 | 0.306 ± 0.044 |  | 0.288 ± 0.037 | 0.288 ± 0.037 | 0.288 ± 0.037 | 0.307 ± 0.040 | 0.307 ± 0.040 | 0.307 ± 0.040 |  | 0.251 ± 0.047 | 0.251 ± 0.047 | 0.251 ± 0.047 | 0.265 ± 0.057 | 0.265 ± 0.057 | 0.265 ± 0.057 |  |  |  |  |  |  |  |  |  |  |
+L754: | Vlast (m/s) | 0.141 ± 0.051 | 0.141 ± 0.051 | 0.141 ± 0.051 | 0.146 ± 0.037 | 0.146 ± 0.037 | 0.146 ± 0.037 |  | 0.161 ± 0.060 | 0.161 ± 0.060 | 0.161 ± 0.060 | 0.156 ± 0.058 | 0.156 ± 0.058 | 0.156 ± 0.058 |  | 0.141 ± 0.025 | 0.141 ± 0.025 | 0.141 ± 0.025 | 0.141 ± 0.025 | 0.141 ± 0.025 | 0.141 ± 0.025 |  |  |  |  |  |  |  |  |  |  |
+L755: | Vfastest (m/s) | 0.407 ± 0.035 | 0.407 ± 0.035 | 0.407 ± 0.035 | 0.424 ± 0.037 | 0.424 ± 0.037 | 0.424 ± 0.037 |  | 0.419 ± 0.034 | 0.419 ± 0.034 | 0.419 ± 0.034 | 0.430 ± 0.032 | 0.430 ± 0.032 | 0.430 ± 0.032 |  | 0.408 ± 0.010 | 0.408 ± 0.010 | 0.408 ± 0.010 | 0.415 ± 0.021 | 0.415 ± 0.021 | 0.415 ± 0.021 |  |  |  |  |  |  |  |  |  |  |
+L756: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L757: | Males |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L758: | Repetitions (n) | 17 ± 4 | 17 ± 4 | 17 ± 4 | 18 ± 4 | 18 ± 4 | 18 ± 4 |  | 17 ± 5 | 17 ± 5 | 17 ± 5 | 18 ± 6 | 18 ± 6 | 18 ± 6 |  | 18 ± 4 | 18 ± 4 | 18 ± 4 | 19 ± 4 | 19 ± 4 | 19 ± 4 |  |  |  |  |  |  |  |  |  |  |
+L759: | Vmean (m/s) | 0.311 ± 0.309 | 0.311 ± 0.309 | 0.311 ± 0.309 | 0.324 ± 0.041 | 0.324 ± 0.041 | 0.324 ± 0.041 |  | 0.309 ± 0.037 | 0.309 ± 0.037 | 0.309 ± 0.037 | 0.313 ± 0.039 | 0.313 ± 0.039 | 0.313 ± 0.039 |  | 0.332 ± 0.075 | 0.332 ± 0.075 | 0.332 ± 0.075 | 0.340 ± 0.071 | 0.340 ± 0.071 | 0.340 ± 0.071 |  |  |  |  |  |  |  |  |  |  |
+L760: | Vlast (m/s) | 0.167 ± 0.049 | 0.167 ± 0.049 | 0.167 ± 0.049 | 0.143 ± 0.030 | 0.143 ± 0.030 | 0.143 ± 0.030 |  | 0.146 ± 0.041 | 0.146 ± 0.041 | 0.146 ± 0.041 | 0.161 ± 0.041 | 0.161 ± 0.041 | 0.161 ± 0.041 |  | 0.160 ± 0.042 | 0.160 ± 0.042 | 0.160 ± 0.042 | 0.166 ± 0.037 | 0.166 ± 0.037 | 0.166 ± 0.037 |  |  |  |  |  |  |  |  |  |  |
+L761: | Vfastest (m/s) | 0.425 ± 0.028 | 0.425 ± 0.028 | 0.425 ± 0.028 | 0.439 ± 0.033 | 0.439 ± 0.033 | 0.439 ± 0.033 |  | 0.436 ± 0.029 | 0.436 ± 0.029 | 0.436 ± 0.029 | 0.450 ± 0.029 | 0.450 ± 0.029 | 0.450 ± 0.029 |  | 0.415 ± 0.054 | 0.415 ± 0.054 | 0.415 ± 0.054 | 0.421 ± 0.045 | 0.421 ± 0.045 | 0.421 ± 0.045 |  |  |  |  |  |  |  |  |  |  |
+L762: Abbreviations: CAF, caffeine; PLA, placebo; Vmean, mean velocity; Vlast, mean velocity of the last repetition performed in the set; Vfastest, mean velocity of the fastest repetition of the set.
+L763: # SMS-36-e70214-s002
+L764: | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. | Supplementary Table 1. Differences in mean velocity (Vmean) against different loads in the bench press between CAF and PLA trials according to genotype and sex. |
+L765: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+L766: |  | AA | AA |  | AC | AC |  | CC | CC |  | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) |
+L767: |  | (N = 39) | (N = 39) |  | (N = 44) | (N = 44) |  | (N = 11) | (N = 11) |  | Supplement | Supplement by Genotype | Supplement by Sex | Supplement by Genotype by Sex |
+L768: |  | PLA | CAF |  | PLA | CAF |  | PLA | CAF |  | Supplement | Supplement by Genotype | Supplement by Sex | Supplement by Genotype by Sex |
+L769: | All (Females/Males) | 19/20 | 19/20 |  | 26/18 | 26/18 |  | 3/8 | 3/8 |  |  |  |  |  |
+L770: | 25%1RM (m/s) | 0.918 ± 0.152 | 0.955 ± 0.139 |  | 0.883 ± 0.40 | 0.928 ± 0.115 |  | 0.943 ± 0.219 | 0.965 ± 0.241 |  | <0.001(0.157) | 0.786(0.006) | 0.162(0.043) | 0.110(0.050) |
+L771: | 50%1RM (m/s) | 0.621 ± 0.095 | 0.650 ± 0.102 |  | 0.623 ± 0.088 | 0.643 ± 0.068 |  | 0.655 ± 0.167 | 0.688 ± 0.175 |  | <0.001(0.119) | 0.896(0.003) | 0.727(0.001) | 0.700(0.008) |
+L772: | 75%1RM (m/s) | 0.379 ± 0.077 | 0.396 ± 0.069 |  | 0.389 ± 0.075 | 0.405 ± 0.058 |  | 0.390 ± 0.112 | 0.403 ± 0.115 |  | 0.009(0.078) | 0.993(0.001) | 0.443(0.007) | 0.490(0.016) |
+L773: | 90%1RM (m/s) | 0.230 ± 0.068 | 0.248 ± 0.061 |  | 0.238 ± 0.067 | 0.256 ± 0.068 |  | 0.239 ± 0.094 | 0.244 ± 0.111 |  | <0.001(0.294) | 0.049(0.094) | 0.833(0.001) | 0.305(0.027) |
+L774: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L775: | Females |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L776: | 25%1RM (m/s) | 0.832 ± 0.113 | 0.894 ± 0.101 |  | 0.836 ± 0.120 | 0.877 ± 0.091 |  | 0.774 ± 0.234 | 0.888 ± 0.260 |  |  |  |  |  |
+L777: | 50%1RM (m/s) | 0.577 ± 0.069 | 0.604 ± 0.055 |  | 0.606 ± 0.083 | 0.622 ± 0.063 |  | 0.569 ± 0.123 | 0.598 ± 0.123 |  |  |  |  |  |
+L778: | 75%1RM (m/s) | 0.363 ± 0.082 | 0.393 ± 0.077 |  | 0.389 ± 0.087 | 0.412 ± 0.065 |  | 0.372 ± 0.112 | 0.385 ± 0.120 |  |  |  |  |  |
+L779: | 90%1RM (m/s) | 0.235 ± 0.077 | 0.259 ± 0.062 |  | 0.248 ± 0.076 | 0.275 ± 0.074 |  | 0.231 ± 0.086 | 0.202 ± 0.136 |  |  |  |  |  |
+L780: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L781: | Males |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L782: | 25%1RM (m/s) | 0.996 ± 0.143 | 1.009 ± 0.148 |  | 0.952 ± 0.140 | 1.003 ± 0.107 |  | 1.006 ± 0.190 | 0.990 ± 0.245 |  |  |  |  |  |
+L783: | 50%1RM (m/s) | 0.671 ± 0.125 | 0.691 ± 0.117 |  | 0.649 ± 0.092 | 0.673 ± 0.066 |  | 0.688 ± 0.176 | 0.722 ± 0.187 |  |  |  |  |  |
+L784: | 75%1RM (m/s) | 0.393 ± 0.072 | 0.398 ± 0.064 |  | 0.388 ± 0.055 | 0.394 ± 0.046 |  | 0.397 ± 0.119 | 0.409 ± 0.120 |  |  |  |  |  |
+L785: | 90%1RM (m/s) | 0.230 ± 0.071 | 0.238 ± 0.060 |  | 0.223 ± 0.050 | 0.230 ± 0.051 |  | 0.243 ± 0.102 | 0.258 ± 0.107 |  |  |  |  |  |
+L786: Abbreviations: CAF, caffeine; PLA, placebo; Vmean, mean velocity.
+L787: # SMS-36-e70214-s003
+L788: | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 2. Differences in mean velocity (Vmean) against different loads in the back squat between CAF and PLA trials according to genotype and sex. |
+L789: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+L790: |  | AA | AA |  | AC | AC |  | CC | CC |  | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) |
+L791: |  | (N = 39) | (N = 39) |  | (N = 44) | (N = 44) |  | (N = 11) | (N = 11) |  | Supplement | Supplement by Genotype | Supplement by Sex | Supplement by Genotype by Sex |
+L792: |  | PLA | CAF |  | PLA | CAF |  | PLA | CAF |  | Supplement | Supplement by Genotype | Supplement by Sex | Supplement by Genotype by Sex |
+L793: | All (Females/Males) | 19/20 | 19/20 |  | 26/18 | 26/18 |  | 3/8 | 3/8 |  |  |  |  |  |
+L794: | 25%1RM (m/s) | 0.771 ± 0.130 | 0.823 ± 0.159 |  | 0.786 ± 0.156 | 0.795 ± 0.141 |  | 0.858 ± 0.148 | 0.867 ± 0.130 |  | 0.057(0.079) | 0.161(0.041) | 0.142(0.025) | 0.158(0.042) |
+L795: | 50%1RM (m/s) | 0.593 ± 0.080 | 0.639 ± 0.079 |  | 0.599 ± 0.097 | 0.635 ± 0.108 |  | 0.669 ± 0.091 | 0.707 ± 0.095 |  | <0.001(0.273) | 0.261(0.030) | 0.811(0.001) | 0.398(0.021) |
+L796: | 75%1RM (m/s) | 0.432 ± 0.058 | 0.459 ± 0.056 |  | 0.421 ± 0.077 | 0.447 ± 0.078 |  | 0.469 ± 0.070 | 0.499 ± 0.069 |  | <0.001(0.236) | 0.863(0.003) | 0.150(0.024) | 0.485(0.016) |
+L797: | 90%1RM (m/s) | 0.306 ± 0.055 | 0.339 ± 0.053 |  | 0.307 ± 0.073 | 0.332 ± 0.076 |  | 0.361 ± 0.069 | 0.368 ± 0.060 |  | 0.001(0.160) | 0.438(0.019) | 0.693(0.002) | 0.544(0.014) |
+L798: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L799: | Females |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L800: | 25%1RM (m/s) | 0.697 ± 0.095 | 0.723 ± 0.100 |  | 0.728 ± 0.115 | 0.744 ± 0.135 |  | 0.824 ± 0.153 | 0.820 ± 0.176 |  |  |  |  |  |
+L801: | 50%1RM (m/s) | 0.562 ± 0.080 | 0.596 ± 0.062 |  | 0.574 ± 0.115 | 0.609 ± 0.124 |  | 0.659 ± 0.116 | 0.700 ± 0.163 |  |  |  |  |  |
+L802: | 75%1RM (m/s) | 0.414 ± 0.061 | 0.440 ± 0.057 |  | 0.403 ± 0.093 | 0.430 ± 0.086 |  | 0.446 ± 0.079 | 0.501 ± 0.126 |  |  |  |  |  |
+L803: | 90%1RM (m/s) | 0.285 ± 0.066 | 0.322 ± 0.064 |  | 0.298 ± 0.088 | 0.335 ± 0.114 |  | 0.351 ± 0.095 | 0.354 ± 0.083 |  |  |  |  |  |
+L804: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L805: | Males |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L806: | 25%1RM (m/s) | 0.838 ± 0.122 | 0.913 ± 0.149 |  | 0.868 ± 1.567 | 0.870 ± 0.115 |  | 0.846 ± 0.148 | 0.899 ± 0.123 |  |  |  |  |  |
+L807: | 50%1RM (m/s) | 0.640 ± 0.083 | 0.715 ± 0.089 |  | 0.662 ± 0.075 | 0.689 ± 0.083 |  | 0.684 ± 0.084 | 0.711 ± 0.073 |  |  |  |  |  |
+L808: | 75%1RM (m/s) | 0.448 ± 0.051 | 0.477 ± 0.050 |  | 0.454 ± 0.060 | 0.472 ± 0.060 |  | 0.503 ± 0.059 | 0.509 ± 0.070 |  |  |  |  |  |
+L809: | 90%1RM (m/s) | 0.319 ± 0.054 | 0.350 ± 0.051 |  | 0.322 ± 0.065 | 0.343 ± 0.061 |  | 0.365 ± 0.065 | 0.374 ± 0.056 |  |  |  |  |  |
+L810: Abbreviations: CAF, caffeine; PLA, placebo; Vmean, mean velocity.
+L811: # SMS-36-e70214-s004
+L812: | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. | Supplementary Table 4. Muscular endurance tests differences in number of repetitions, mean velocity and velocity of the last and fastest repetition in the back squat between CAF and PLA trials according to genotype and sex. |
+L813: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+L814: |  | AA | AA | AA | AA | AA | AA |  | AC | AC | AC | AC | AC | AC |  | CC | CC | CC | CC | CC | CC |  | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) | ANCOVA effect (partial η2) |  |  |
+L815: |  | (N = 39) | (N = 39) | (N = 39) | (N = 39) | (N = 39) | (N = 39) |  | (N = 44) | (N = 44) | (N = 44) | (N = 44) | (N = 44) | (N = 44) |  | (N = 11) | (N = 11) | (N = 11) | (N = 11) | (N = 11) | (N = 11) |  | Supplement | Supplement | Supplement by Genotype | Supplement by Genotype | Supplement by Sex | Supplement by Sex | Supplement by Genotype by Sex |  |  |
+L816: |  | PLA | PLA | PLA | CAF | CAF | CAF |  | PLA | PLA | PLA | CAF | CAF | CAF |  | PLA | PLA | PLA | CAF | CAF | CAF |  | Supplement | Supplement | Supplement by Genotype | Supplement by Genotype | Supplement by Sex | Supplement by Sex | Supplement by Genotype by Sex |  |  |
+L817: | All (Females/Males) | 19/20 | 19/20 | 19/20 | 19/20 | 19/20 | 19/20 |  | 26/18 | 26/18 | 26/18 | 26/18 | 26/18 | 26/18 |  | 3/8 | 3/8 | 3/8 | 3/8 | 3/8 | 3/8 |  |  |  |  |  |  |  |  |  |  |
+L818: | Repetitions (n) | 21 ± 7 | 21 ± 7 | 21 ± 7 | 24 ± 6 | 24 ± 6 | 24 ± 6 |  | 20 ± 5 | 20 ± 5 | 20 ± 5 | 23 ± 5 | 23 ± 5 | 23 ± 5 |  | 22 ± 5 | 22 ± 5 | 22 ± 5 | 22 ± 4 | 22 ± 4 | 22 ± 4 |  | 0.004(0.091) | 0.004(0.091) | 0.249(0.032) | 0.249(0.032) | 0.849(0.001) | 0.849(0.001) | 0.533(0.015) |  |  |
+L819: | Vmean (m/s) | 0.350 ± 0.053 | 0.350 ± 0.053 | 0.350 ± 0.053 | 0.372 ± 0.051 | 0.372 ± 0.051 | 0.372 ± 0.051 |  | 0.342 ± 0.054 | 0.342 ± 0.054 | 0.342 ± 0.054 | 0.353 ± 0.053 | 0.353 ± 0.053 | 0.353 ± 0.053 |  | 0.364 ± 0.053 | 0.364 ± 0.053 | 0.364 ± 0.053 | 0.390 ± 0.047 | 0.390 ± 0.047 | 0.390 ± 0.047 |  | <0.001(0.276) | <0.001(0.276) | 0.205(0.036) | 0.205(0.036) | 0.697(0.002) | 0.697(0.002) | 0.480(0.017) |  |  |
+L820: | Vlast (m/s) | 0.316 ± 0.045 | 0.316 ± 0.045 | 0.316 ± 0.045 | 0.287 ± 0.041 | 0.287 ± 0.041 | 0.287 ± 0.041 |  | 0.324 ± 0.044 | 0.324 ± 0.044 | 0.324 ± 0.044 | 0.296 ± 0.040 | 0.296 ± 0.040 | 0.296 ± 0.040 |  | 0.306 ± 0.037 | 0.306 ± 0.037 | 0.306 ± 0.037 | 0.304 ± 0.033 | 0.304 ± 0.033 | 0.304 ± 0.033 |  | 0.397(0.031) | 0.397(0.031) | 0.135(0.076) | 0.135(0.076) | 0.658(0.010) | 0.658(0.010) | 0.322(0.019) |  |  |
+L821: | Vfastest (m/s) | 0.459 ± 0.049 | 0.459 ± 0.049 | 0.459 ± 0.049 | 0.479 ± 0.039 | 0.479 ± 0.039 | 0.479 ± 0.039 |  | 0.462 ± 0.041 | 0.462 ± 0.041 | 0.462 ± 0.041 | 0.477 ± 0.032 | 0.477 ± 0.032 | 0.477 ± 0.032 |  | 0.502 ± 0.054 | 0.502 ± 0.054 | 0.502 ± 0.054 | 0.508 ± 0.057 | 0.508 ± 0.057 | 0.508 ± 0.057 |  | 0.001(0.178) | 0.001(0.178) | 0.328(0.046) | 0.328(0.046) | 0.724(0.009) | 0.724(0.009) | 0.310(0.022) |  |  |
+L822: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L823: | Females |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L824: | Repetitions (n) | 28 ± 14 | 28 ± 14 | 28 ± 14 | 31 ± 10 | 31 ± 10 | 31 ± 10 |  | 24 ± 13 | 24 ± 13 | 24 ± 13 | 26 ± 11 | 26 ± 11 | 26 ± 11 |  | 26 ± 6 | 26 ± 6 | 26 ± 6 | 26 ± 5 | 26 ± 5 | 26 ± 5 |  |  |  |  |  |  |  |  |  |  |
+L825: | Vmean (m/s) | 0.314 ± 0.028 | 0.314 ± 0.028 | 0.314 ± 0.028 | 0.337 ± 0.030 | 0.337 ± 0.030 | 0.337 ± 0.030 |  | 0.316 ± 0.037 | 0.316 ± 0.037 | 0.316 ± 0.037 | 0.326 ± 0.031 | 0.326 ± 0.031 | 0.326 ± 0.031 |  | 0.337 ± 0.047 | 0.337 ± 0.047 | 0.337 ± 0.047 | 0.346 ± 0.039 | 0.346 ± 0.039 | 0.346 ± 0.039 |  |  |  |  |  |  |  |  |  |  |
+L826: | Vlast (m/s) | 0.328 ± 0.048 | 0.328 ± 0.048 | 0.328 ± 0.048 | 0.282 ± 0.040 | 0.282 ± 0.040 | 0.282 ± 0.040 |  | 0.334 ± 0.044 | 0.334 ± 0.044 | 0.334 ± 0.044 | 0.293 ± 0.034 | 0.293 ± 0.034 | 0.293 ± 0.034 |  | 0.300 ± 0.010 | 0.300 ± 0.010 | 0.300 ± 0.010 | 0.314 ± 0.015 | 0.314 ± 0.015 | 0.314 ± 0.015 |  |  |  |  |  |  |  |  |  |  |
+L827: | Vfastest (m/s) | 0.448 ± 0.038 | 0.448 ± 0.038 | 0.448 ± 0.038 | 0.467 ± 0.043 | 0.467 ± 0.043 | 0.467 ± 0.043 |  | 0.457 ± 0.033 | 0.457 ± 0.033 | 0.457 ± 0.033 | 0.472 ± 0.030 | 0.472 ± 0.030 | 0.472 ± 0.030 |  | 0.469 ± 0.026 | 0.469 ± 0.026 | 0.469 ± 0.026 | 0.473 ± 0.061 | 0.473 ± 0.061 | 0.473 ± 0.061 |  |  |  |  |  |  |  |  |  |  |
+L828: |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L829: | Males |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L830: | Repetitions (n) | 20 ± 6 | 20 ± 6 | 20 ± 6 | 21 ± 5 | 21 ± 5 | 21 ± 5 |  | 19 ± 5 | 19 ± 5 | 19 ± 5 | 23 ± 5 | 23 ± 5 | 23 ± 5 |  | 24 ± 11 | 24 ± 11 | 24 ± 11 | 24 ± 8 | 24 ± 8 | 24 ± 8 |  |  |  |  |  |  |  |  |  |  |
+L831: | Vmean (m/s) | 0.383 ± 0.049 | 0.383 ± 0.049 | 0.383 ± 0.049 | 0.404 ± 0.045 | 0.404 ± 0.045 | 0.404 ± 0.045 |  | 0.378 ± 0.054 | 0.378 ± 0.054 | 0.378 ± 0.054 | 0.393 ± 0.054 | 0.393 ± 0.054 | 0.393 ± 0.054 |  | 0.375 ± 0.055 | 0.375 ± 0.055 | 0.375 ± 0.055 | 0.405 ± 0.041 | 0.405 ± 0.041 | 0.405 ± 0.041 |  |  |  |  |  |  |  |  |  |  |
+L832: | Vlast (m/s) | 0.306 ± 0.041 | 0.306 ± 0.041 | 0.306 ± 0.041 | 0.292 ± 0.043 | 0.292 ± 0.043 | 0.292 ± 0.043 |  | 0.313 ± 0.044 | 0.313 ± 0.044 | 0.313 ± 0.044 | 0.304 ± 0.046 | 0.304 ± 0.046 | 0.304 ± 0.046 |  | 0.309 ± 0.043 | 0.309 ± 0.043 | 0.309 ± 0.043 | 0.300 ± 0.038 | 0.300 ± 0.038 | 0.300 ± 0.038 |  |  |  |  |  |  |  |  |  |  |
+L833: | Vfastest (m/s) | 0.470 ± 0.057 | 0.470 ± 0.057 | 0.470 ± 0.057 | 0.490 ± 0.031 | 0.490 ± 0.031 | 0.490 ± 0.031 |  | 0.469 ± 0.049 | 0.469 ± 0.049 | 0.469 ± 0.049 | 0.484 ± 0.034 | 0.484 ± 0.034 | 0.484 ± 0.034 |  | 0.515 ± 0.058 | 0.515 ± 0.058 | 0.515 ± 0.058 | 0.522 ± 0.053 | 0.522 ± 0.053 | 0.522 ± 0.053 |  |  |  |  |  |  |  |  |  |  |
+L834: Abbreviations: CAF, caffeine; PLA, placebo; Vmean, mean velocity; Vlast, mean velocity of the last repetition performed in the set; Vfastest, mean velocity of the fastest repetition of the set.
+[634ms]
+

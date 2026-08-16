@@ -1,0 +1,216 @@
+L1: Vitamin C Intake, Circulating Vitamin C and Risk of Stroke: A Meta‐Analysis of Prospective Studies
+L2: Journal of the American Heart Association: Cardiovascular and Cerebrovascular Disease (2013)
+L3: Guo‐Chong Chen, Da‐Bing Lu, Zhi Pang, Qing‐Fang Liu
+L4: 1 Department of Epidemiology, School of Public Health, Soochow University,  Suzhou, China (G.C.C., Q.F.L.)
+L5: 2 Department of Health Statistics, School of Public Health, Soochow University,  Suzhou, China (D.B.L.)
+L6: 3 Ningbo Municipal Center for Disease Control and Prevention,  Ningbo, China (G.C.C.)
+L7: 4 Department of Gastroenterology, Suzhou Municipal Hospital (North Campus),  Suzhou, China (Z.P.)
+L8: Background
+L9: Though vitamin C supplementation has shown no observed effects on stroke prevention in several clinical trials, uncertainty remains as to whether long‐term, low‐dose intake influences the development of stroke among general populations. Furthermore, the association between circulating vitamin C and the risk of stroke is also unclear. For further clarification of these issues, we conducted a meta‐analysis of prospective studies.
+L10: Methods and Results
+L11: PubMed and EMBASE databases were searched, and the bibliographies of the retrieved articles were also reviewed to identify eligible studies. Summary relative risk (RRs) with corresponding 95% confidence intervals (CIs) were computed with a random‐effects model. The summary RR for the high‐versus‐low categories was 0.81 (95% CI: 0.74 to 0.90) for dietary vitamin C intake (11 studies), and 0.62 (95% CI: 0.49 to 0.79) for circulating vitamin C (6 studies). The summary RR for each 100 mg/day increment in dietary vitamin C was 0.83 (95% CI: 0.75 to 0.93) (10 studies), and for each 20 μmol/L increment in circulating vitamin C was 0.81 (95% CI: 0.75 to 0.88) (5 studies). Few studies reported results for vitamin C supplements (RR for high‐versus‐low intake=0.83, 95% CI: 0.62 to 1.10, 3 studies).
+L12: Conclusions
+L13: This meta‐analysis suggests significant inverse relationships between dietary vitamin C intake, circulating vitamin C, and risk of stroke.
+L14: Original Research; Stroke; Stroke
+L15: antioxidants; diet; meta‐analysis; prevention; stroke
+L16: Introduction
+L17: Stroke remains the second leading cause of death globally and the most common cause of disability in adults in most regions. In the United States alone, it is estimated that there are 795 000 people who experience a new or recurrent stroke each year, 1  and the direct and indirect cost of stroke for 2010 is $73.7 billion. 1
+L18: Multiple lines of evidence have demonstrated that a high consumption of fruits and vegetables, which are a major dietary source of antioxidants, is associated with a reduction in the risk of stroke, 2  leading to great interest in the role of antioxidants in the etiology of stroke. Vitamin C is an effective antioxidant shown to have blood pressure‐lowering effects. 3 – 4  While several phase‐III randomized controlled trials (RCTs) have suggested that vitamin C supplementation has no effect on stroke prevention, 5  the trials have tended to enroll high‐risk populations, have short duration, and use high doses. Therefore, they cannot answer the question of whether long‐term and low‐dose exposure influences the development of this disease among general populations.
+L19: A number of epidemiologic studies to date have provided us with encouraging, but still inconclusive findings that vitamin C intake may reduce risk of stroke. In particular, some have focused on how diet may be associated with a decreased risk of stroke. 6 – 17  Furthermore, circulating vitamin C, a good indicator of a diet rich in fruits and vegetables, 18  has also been indicated to be inversely associated with stroke risk, 9 , 19 – 22  but the reported results so far have not totally been consistent. To better understand these subjects, we took up this meta‐analysis of prospective studies in order to characterize the association between vitamin C intake, circulating vitamin C, and risk of stroke.
+L20: Methods
+L21: Literature Search
+L22: We performed a literature search through April 2013 on PubMed ( http://www.ncbi.nlm.nih.gov/pubmed ) and EMBASE ( http://www.embase.com/home ) using the search terms “ vitamin C  or  ascorbate  or  antioxidant  combined with  stroke  or  cerebrovascular disorders  or  cerebrovascular disease  or  intracranial hemorrhage  or  brain hemorrhage  and  cohort  or  prospectiv e or  follow‐up  or  nested case‐control ” with no language restrictions imposed. We also comprehensively reviewed the reference lists of the retrieved publications to identify any additional relevant studies. We also contacted authors of the primary articles for additional information.
+L23: Study Selection
+L24: Studies were included if they met the following criteria: (1) the study had a prospective design; (2) the exposure of interest was vitamin C intake or circulating vitamin C; (3) the outcome of interest was stroke; and (4) the relative risk (RR) estimates (or odds ratios [OR] in nested case‐control studies) with corresponding 95% confidence interval (CI) were provided. When multiple published publications from the same study were available, we included the one with the largest events in the meta‐analysis. Studies on multivitamin use only were excluded.
+L25: Data Extraction
+L26: The following data were extracted from each included eligible study using a standardized data‐collection form: the first author's last name, publication year, study location, length of follow‐up, sex and age of participants, number of cases and participants, stroke characteristics (fatal or nonfatal), sources of vitamin C, levels of exposure, the maximally adjusted RR or OR of stroke and corresponding 95% CI for each category of exposure, and variables controlled for in the analysis. Literature search and data extraction were conducted independently by 2 authors (Drs. Chen and Liu) with any disagreements resolved by consensus.
+L27: Statistical Analysis
+L28: We used a DerSimonian and Laird random‐effects model, 23  which considers both within‐ and between‐study variation to calculate the summary‐risk estimate. The ORs in the nested case‐control study were considered approximations of RRs. In case of studies that did not report overall risk estimates, but separately presented results for stroke subtypes 10  or for men and women, 12  we combined the results using a fixed‐effects model and then included the pooled RR estimates in the primary analysis. For one study 19  on circulating vitamin C, which presented results by plasma carotene levels, we also combined the results. For better comparability between studies, we pooled RR estimates by sources of vitamin C intake (foods or supplements). We also performed a sensitivity analysis using the results of total vitamin C in 2 studies 6 , 15  combined with the results of dietary intake in others to test the stability of the summary risk estimates.
+L29: We also conducted several subanalyses according to geographic area, length of follow‐up, number of cases, characteristics of stroke (fatal or nonfatal), sex, and subtypes of stroke to examine the potential effect modification of these factors when there were sufficient number of studies.
+L30: We also conducted a dose‐response analysis using the method proposed by Greenland and Longnecker 24  and Orsini et al. 25  This method requires the number of cases/person‐years (or controls in nested case‐control studies) as well as the risk estimates with their variance estimates for at least 3 quantitative exposure categories. In cases where the studies did not report these data, we contacted relevant authors to request the data. If we did not receive a response, we estimated them according to the reported information. When the risk estimates were reported as a continuous variable, 21  the reported results were used in the analysis. We also examined a potential nonlinear relationship by modeling vitamin C intake or circulating vitamin C using restricted cubic splines with 3 knots at 10%, 50%, and 90% of the distribution. 26  A  P  value for nonlinearity was calculated by testing the null hypothesis that the coefficient of the second spline was equal to zero. Dose‐response analysis would be performed when the number of eligible studies was ≥3.
+L31: A heterogeneity test was performed by use of Q and  I 2  statistics. 27  For the Q statistic, a  P  value of <0.1 was considered statistically significant heterogeneity. Potential publication bias was investigated by use of Egger's regression asymmetry test. 28  This test was conducted when the number of studies was ≥5. All statistical analyses were done using STATA software, version 11.0 (STATA corp.). All  P  values were 2‐sided and the level of significance was <0.05, unless explicitly stated.
+L32: Results
+L33: Literature Search
+L34: A flow chart showing the details of study selection is shown in  Figure 1 . Briefly, 14 articles on vitamin C intake and 7 articles on circulating vitamin C in relation to risk of stroke were identified. One article 29  on vitamin C intake was excluded because it was a duplicate report of another paper 15  with a larger event; 1 publication 30  concerning circulating vitamin C was excluded for the same reason. We further excluded 1 article 31  on multivitamin use. At last, 12 prospective studies 6 – 17  on vitamin C intake and 6 prospective studies 9 , 19 – 22  on circulating vitamin C were included in the meta‐analysis.
+L35: Figure 1. Flow chart of study selection.
+L36: Study Characteristics
+L37: Table 1  shows the characteristics of the 12 prospective studies on vitamin C intake. These studies contained a total of 217 454 participants and 3762 stroke events, and were published between 1995 and 2011. Half of the 12 studies were conducted in Europe, 3 were carried out in the United States, and the remaining 3 were from Asia. The outcome was fatal stroke only in 4 studies, and was both fatal and nonfatal strokes in 8 studies. Five studies included men only, 5 studies included both men and women, and 2 studies included women only. The study duration ranged between 6.1 and 30 years. The average dietary vitamin C intake in the high categories ranged between 45 and 375.8 mg/day. Two studies also reported results for total vitamin C intake and the average intake in the high categories was 1167 mg/day in the US study by Ascherio et al 6  and 678.7 mg/day in the US study by Yochum et al. 15
+L38: Table 1. Characteristics of the Included Prospective Studies on Vitamin C Intake and Stroke Risk
+L39: Table 2  presents the characteristics of the 6 prospective studies on circulating vitamin C. These studies involved 989 stroke cases and 29 648 participants. They were published between 1993 and 2008 and followed up for 9.5 to 20 years. Five of the 6 studies were from Europe, and the remaining 1 was carried out in Japan. The exposure of interest was serum vitamin C in 2 studies, and plasma vitamin C in the remaining studies. Four studies included both men and women, and 2 studies consisted entirely of men. All provided multivariable‐adjusted risk estimates (Tables  1  and  2 ).
+L40: Table 2. Characteristics of the Included Prospective Studies on Blood (Plasma or Serum) Vitamin C Levels and Stroke Risk
+L41: Dietary Vitamin C
+L42: Eleven studies 7 – 17  examined the association of vitamin C intake from foods with risk of stroke. The summary RR for the high compared with low dietary vitamin C intake was 0.81 (95% CI: 0.74 to 0.90), with no evidence of heterogeneity ( P heterogeneity =0.71,  I 2 =0.0%) ( Figure 2 A). There was little evidence of publication bias with Egger's test ( P Egger's =0.39).
+L43: Figure 2. Meta‐analysis of dietary vitamin C intake and risk of stroke. A, high vs low analysis; (B) dose‐response analysis. F indicates women; M, men; N.A., not available; RR, relative risk.
+L44: One study 14  was not eligible for the dose‐response analysis. The combined results of the remaining 10 studies suggested a summary RR of 0.83 (95% CI: 0.75 to 0.93) for an increment in dietary vitamin C intake of 100 mg/day, with little heterogeneity ( P heterogeneity = 0.32,  I 2 =13.4%) ( Figure 2 B). There was no evidence of a nonlinear association ( P nonlinearity =0.17).
+L45: Supplemental Vitamin C
+L46: Three studies 6 , 14 – 15  covering 770 stroke cases reported results for supplemental vitamin C intake. The summary RR for the high‐versus‐low intake was 0.83 (95% CI: 0.62 to 1.10), with no heterogeneity ( P heterogeneity =0.94,  I 2 =0.0%). Only 2 studies 6 , 15  provided adequate data for the dose‐response analysis.
+L47: Circulating Vitamin C
+L48: A pooled analysis of 6 studies showed that participants with a higher level of circulating vitamin C had a 38% lower risk of stroke (RR=0.62, 95% CI: 0.49 to 0.79) compared with those with a lower level, with low heterogeneity ( P heterogeneity =0.23,  I 2 =27.6%) ( Figure 3 A). Further omitting one small study 16  with a very narrow range of exposure, the summary RR was 0.58 (95% CI: 0.48 to 0.71). There was no suggestion of publication bias ( P Egger's =0.93).
+L49: Figure 3. Meta‐analysis of circulating vitamin C and risk of stroke. A, high vs low analysis; (B) dose‐response analysis. F indicates women; M, men; N.A., not available; RR, relative risk.
+L50: Five studies 9 , 16 , 20 – 22  were included in the dose‐response analysis. Combined results suggested that a 20 μmol/L increment in circulating vitamin C was associated with a 19% decreased risk of stroke (RR=0.81, 95% CI: 0.75 to 0.88), with no evidence of heterogeneity ( P heterogeneity =0.89,  I 2 =0.0%) ( Figure 3 B). We observed no evidence of a nonlinear association ( P nonlinearity =0.13).
+L51: Subgroup and Sensitivity Analyses (for Vitamin C Intake)
+L52: The observed inverse association between high dietary vitamin C intake and risk of stroke was not significantly modified by geographic area, length of follow‐up, number of cases, characteristics of stroke (fatal or nonfatal), sex, and subtypes of stroke ( Table 3 ). In addition, omitting any single study did not remarkably alter the summary risk estimates (RRs ranged between 0.80 and 0.83). Too few studies reported results for women and for hemorrhagic stroke.
+L53: Table 3. Subgroup Analyses of Dietary Vitamin C Intake and Stroke, High vs Low Intake
+L54: We conducted a separate analysis using the results of total vitamin C in 2 studies 6 , 15  and those of dietary vitamin C in other studies. Thus, this separate analysis was based on 12 prospective studies. 6 – 17  The summary RR for the high‐versus‐low vitamin C intake was 0.83 (95% CI, 0.76 to 0.92). In the dose‐response analysis, an increase in vitamin C intake of 100 mg/day was marginally associated with a reduced risk of stroke (RR=0.91, 95% CI: 0.83 to 1.00), with considerable heterogeneity ( P heterogeneity =0.001,  I 2 =66.9%). There was a somewhat U‐shaped association between vitamin C intake and risk of stroke ( P nonlinearity =0.0001) ( Figure 4 ), with the greatest risk reduction observed at an intake of ≈200 mg/day, and remained protective until an intake of ≈550 mg/day. However, data points become especially sparse above intakes of 200 mg/day, and so the results for higher intakes should be treated with caution.
+L55: Figure 4. Relative risk (solid line) with 95% confidence interval (long dashed lines) for the association between vitamin C intake (total or dietary intake) and risk of stroke in a restricted cubic spline random‐effects meta‐analysis. The lowest intake of 15.2 mg/day was used to estimate all relative risks.
+L56: Discussion
+L57: The findings from this meta‐analysis of prospective studies show that both dietary vitamin C intake and circulating vitamin C are significantly inversely associated with the risk of stroke in a dose‐response manner. Supplemental vitamin C intake was not significantly related to a reduced risk of stroke, but the analysis was based on a limited number of studies (3 studies) and stroke cases (770 cases).
+L58: Several putative mechanisms whereby vitamin C protects against stroke have been proposed. Vitamin C is a strong antioxidant, and has been shown to reduce the oxidation of low‐density lipoproteins, to inhibit the proliferation of smooth muscle, to protect membrane from peroxidation, and ultimately to slow the progression of atherosclerosis. 32 – 35  There is also growing evidence that systemic inflammation is involved in stroke etiology and pathology, 36  and plasma or dietary vitamin C has been suggested to have antiinflammatory properties. 37  Vitamin C intake in plasma has also been demonstrated to be inversely associated with blood pressure. 4  Hence, vitamin C may reduce stroke risk through its pressure‐lowering effects.
+L59: A large body of human clinical trials have been conducted to assess the effect of vitamin C or other traditional antioxidant‐related vitamins or minerals on prevention of a multitude of chronic diseases, such as type 2 diabetes, 38  stroke and other cardiovascular diseases, 5  and certain cancers. 39  However, the trials generally failed to produce convincing evidence to justify the effectiveness of these nutrients.
+L60: There are only 4 RCTs 40 – 43  that evaluate the role of vitamin C alone, or in combination with other antioxidants, for primary or secondary prevention of stroke, and all but one 42  of them have reported negative findings. Even then, it is noteworthy that there are several differences between the observational studies and the RCTs which may, to some extent, explain the disparate findings between them. Individuals who took vitamin C supplementation in the RCTs were usually high‐risk rather than general populations. Besides, dietary intake represents long‐term habitual exposure, whereas supplementation is generally characterized by shorter duration and higher dose. Thus, if the effect of vitamin C is restricted to the early stage of the disease, the trials enrolling high‐risk participants or with insufficient follow‐up duration may not be able to detect any significant associations.
+L61: Furthermore, circulating vitamin C, a more accurate indicator of body vitamin C status, has been shown to be saturable, with a linear increase only observed at vitamin C intakes of <100 mg/day; above 100 mg/day, there is little change in blood concentration despite large changes in dose. 44  In this respect, for subjects who already have high or saturating vitamin C in their blood (obtained from diet), supplementation may not be expected to provide additional benefits, and those with high concentrations may also be categorized as a placebo group (this is particularly likely to have occurred in the RCTs that tended to recruit health‐conscious individuals), which could have limited the statistical power of the trials. Further support for this threshold hypothesis comes from the data of the Linxian General Population Nutrition Intervention Trial. 42  In this trial, a nutritionally deprived population (probably with low concentrations of circulating vitamin C) taking 120 mg/day of vitamin C supplementation (combined with molybdenum of 30 μg/day) had a significantly lower risk of death from stroke (RR=0.92, 95% CI: 0.86 to 0.99). While a recent meta‐analysis documented that vitamin C supplementation with a median dose of 500 mg/day may have been effective on reducing blood pressure, the duration of the primary RCTs was very short (median duration was 8 weeks). 3
+L62: On the other hand, it is vitally important to notice that observational studies lack the experimental random allocation of the intervention necessary to test exposure—outcome hypotheses optimally, and so the inverse associations observed in this meta‐analysis may be confounded by unmeasured social and behavioral factors. Those subjects with higher dietary vitamin C intake or higher circulating vitamin C levels would also generally engage in other healthy behaviors; by contrast, those with lower intake or low circulating levels tended to be more likely to have unfavorable lifestyle habits. Although most primary studies had adjusted for multiple variables including smoking, alcohol drinking, dietary cholesterol/circulating cholesterol levels, body mass index/obesity, history of diabetes, and the potential intermediate of hypertension/blood pressure, nearly all studies did not control for many other potential key dietary confounders that may influence the development of stroke, such as dietary fiber, whole grains, nuts, salt, and red and processed meat, etc. Therefore, the observed effect of vitamin C on stroke reduction may simply be a proxy for specific foods (eg, fruits and vegetables) that causally lower stroke, or a proxy for specific foods that themselves are markers for other factors (other dietary or lifestyle habits) that causally lower stroke, but not due to vitamin C per se.
+L63: Furthermore, it is clear that dietary or circulating vitamin C marks fruit/vegetable intake. 18 , 45  In light of the neutral effects of vitamin C on stroke prevention documented in RCTs, 5  even if vitamin C is one of the causal components in fruits and vegetables, it is also plausible that its consumption as part of a matrix of other nutrients in foods may be essential for its benefits.
+L64: This meta‐analysis has several strengths. All studies included are of a prospective design, which eliminates the possibility of recall and selection biases. In addition, most of the studies included had a long‐duration of follow‐up. As the single prospective studies were mainly of limited power to prove statistical significance, this meta‐analysis involving a large number of stroke cases enhances the statistical power to assess the long‐term effects of dietary vitamin C intake and circulating vitamin C on stroke development.
+L65: However, apart from the previously described limitations, there are a number of other limitations that merit discussion. First, most included studies assessed exposure of interests only at baseline, and recorded diet intake with a self‐administered food frequency questionnaire, which may have led to some misclassification of exposure and, therefore, resulted in an underestimation of the risk estimates. Second, the characteristics of subjects in the primary studies were not always comparable, and the reference categories also varied widely. Third, some of the stratified analyses such as sex‐specific and stroke subtypes analyses for dietary vitamin C intake were based on a limited number of studies. Fourth, dietary intake in the high category was in general <250 mg/day in the primary studies, which could limit the generalizability of our findings. Finally, publication bias could be of concern as this meta‐analysis was based on published literature. In this meta‐analysis, however, little evidence of such bias was found.
+L66: Our findings may be of several implications. To date, the recommended dietary allowance for vitamin C has been largely inconsistent among countries, generally ranging from 40 to 110 mg/day. 46  Though current clinical evidence does not recommend vitamin C supplementation to prevent stroke, from a public health point of view, for populations with low intake and for those who are at high risk, increasing consumption of vitamin C‐rich foods (eg, fruits and vegetables) and adhering to other healthy dietary habits and lifestyles can lead to substantial reductions in the burden of stroke and other cardiovascular diseases. Furthermore, given that the established risk factors for stroke appear to be responsible for only half of the incident cases, 47  our findings indicate that circulating concentrations of vitamin C may serve as a good predictor of stroke risk and diet status.
+L67: Our findings also raised several intriguing questions: Is there a threshold for vitamin C intake to prevent stroke? Is the beneficial effect of vitamin C against stroke (if any) limited to populations with nutritional deficiencies (or with low vitamin C concentrations in the blood)? Future prospective epidemiologic studies conducted among high‐intake populations with better adjustment for potential confounders, as well as well‐designed RCTs using high‐circulating vitamin C concentrations as an exclusion criteria may help to further elucidate these issues.
+L68: In summary, findings from this meta‐analysis suggest significant inverse dose‐response relationships between dietary vitamin C intake, circulating vitamin C, and risk of stroke. In view of evidence from these RCTs, it is clearly premature to recommend supplementation of vitamin C (or other antioxidants) to prevent stroke, and the prevention of this disease should largely lie in the modification of lifestyle habits, as well as effective therapies lowering risk factors for stroke.
+L69: Acknowledgments
+L70: We thank the authors who kindly provided us with original unpublished data.
+L71: 1 Lloyd‐Jones D Adams RJ Brown TM Carnethon M Dai S De Simone G Ferguson TB Ford E Furie K Gillespie C Go A Greenlund K Haase N Hailpern S Ho PM Howard V Kissela B Kittner S Lackland D Lisabeth L Marelli A McDermott MM Meigs J Mozaffarian D Mussolino M Nichol G Roger VL Rosamond W Sacco R Sorlie P Thom T Wasserthiel‐Smoller S Wong ND Wylie‐Rosett J 
+L72:  Heart disease and stroke statistics—2010 update: a report from the American Heart Association .  Circulation .  2010 ;
+L73:  121 : e46 - e215 20019324
+L74: 2 He FJ Nowson CA MacGregor GA 
+L75:  Fruit and vegetable consumption and stroke: meta‐analysis of cohort studies .  Lancet .  2006 ;
+L76:  367 : 320 - 326 16443039
+L77: 3 Juraschek SP Guallar E Appel LJ Miller ER III 
+L78:  Effects of vitamin C supplementation on blood pressure: a meta‐analysis of randomized controlled trials .  Am J Clin Nutr .  2012 ;
+L79:  95 : 1079 - 1088 22492364
+L80: 4 Block G Jensen CD Norkus EP Hudes M Crawford PB 
+L81:  Vitamin C in plasma is inversely related to blood pressure and change in blood pressure during the previous year in young Black and White women .  Nutr J .  2008 ;
+L82:  7 : 35 19091068
+L83: 5 Myung SK Ju W Cho B Oh SW Park SM Koo BK Park BJ 
+L84:  Efficacy of vitamin and antioxidant supplements in prevention of cardiovascular disease: systematic review and meta‐analysis of randomised controlled trials .  BMJ .  2013 ;
+L85:  346 : f10 23335472
+L86: 6 Ascherio A Rimm EB Hernan MA Giovannucci E Kawachi I Stampfer MJ Willett WC 
+L87:  Relation of consumption of vitamin E, vitamin C, and carotenoids to risk for stroke among men in the United States .  Ann Intern Med .  1999 ;
+L88:  130 : 963 - 970 10383366
+L89: 7 Daviglus ML Orencia AJ Dyer AR Liu K Morris DK Persky V Chavez N Goldberg J Drum M Shekelle RB Stamler J 
+L90:  Dietary vitamin C, beta‐carotene and 30‐year risk of stroke: results from the Western Electric Study .  Neuroepidemiology .  1997 ;
+L91:  16 : 69 - 77 9057168
+L92: 8 Del Rio D Agnoli C Pellegrini N Krogh V Brighenti F Mazzeo T Masala G Bendinelli B Berrino F Sieri S Tumino R Rollo PC Gallo V Sacerdote C Mattiello A Chiodini P Panico S 
+L93:  Total antioxidant capacity of the diet is associated with lower risk of ischemic stroke in a large Italian cohort .  J Nutr .  2011 ;
+L94:  141 : 118 - 123 21106923
+L95: 9 Gale CR Martyn CN Winter PD Cooper C 
+L96:  Vitamin C and risk of death from stroke and coronary heart disease in cohort of elderly people .  BMJ .  1995 ;
+L97:  310 : 1563 - 1566 7787644
+L98: 10 Hirvonen T Virtamo J Korhonen P Albanes D Pietinen P 
+L99:  Intake of flavonoids, carotenoids, vitamins C and E, and risk of stroke in male smokers .  Stroke .  2000 ;
+L100:  31 : 2301 - 2306 11022054
+L101: 11 Keli SO Hertog MG Feskens EJ Kromhout D 
+L102:  Dietary flavonoids, antioxidant vitamins, and incidence of stroke: the Zutphen study .  Arch Intern Med .  1996 ;
+L103:  156 : 637 - 642 8629875
+L104: 12 Kubota Y Iso H Date C Kikuchi S Watanabe Y Wada Y Inaba Y Tamakoshi A 
+L105:  Dietary intakes of antioxidant vitamins and mortality from cardiovascular disease: the Japan Collaborative Cohort Study (JACC) study .  Stroke .  2011 ;
+L106:  42 : 1665 - 1672 21512181
+L107: 13 Ross RK Yuan JM Henderson BE Park J Gao YT Yu MC 
+L108:  Prospective evaluation of dietary and other predictors of fatal stroke in Shanghai, China .  Circulation .  1997 ;
+L109:  96 : 50 - 55 9236416
+L110: 14 Voko Z Hollander M Hofman A Koudstaal PJ Breteler MM 
+L111:  Dietary antioxidants and the risk of ischemic stroke: the Rotterdam Study .  Neurology .  2003 ;
+L112:  61 : 1273 - 1275 14610137
+L113: 15 Yochum LA Folsom AR Kushi LH 
+L114:  Intake of antioxidant vitamins and risk of death from stroke in postmenopausal women .  Am J Clin Nutr .  2000 ;
+L115:  72 : 476 - 483 10919944
+L116: 16 Marniemi J Alanen E Impivaara O Seppänen R Hakala P Rajala T Rönnemaa T 
+L117:  Dietary and serum vitamins and minerals as predictors of myocardial infarction and stroke in elderly subjects .  Nutr Metab Cardiovasc Dis .  2005 ;
+L118:  15 : 188 - 197 15955467
+L119: 17 Weng L‐C Yeh W‐T Bai C‐H Chen H‐J Chuang S‐Y Chang H‐Y Lin B‐F Chen K‐J Pan W‐H 
+L120:  Is ischemic stroke risk related to folate status or other nutrients correlated with folate intake? 
+L121:  Stroke .  2008 ;
+L122:  39 : 3152 - 3158 18988909
+L123: 18 Block G Norkus E Hudes M Mandel S Helzlsouer K 
+L124:  Which plasma antioxidants are most related to fruit and vegetable consumption? 
+L125:  Am J Epidemiol .  2001 ;
+L126:  154 : 1113 - 1118 11744516
+L127: 19 Gey KF Stahelin HB Eichholzer M 
+L128:  Poor plasma status of carotene and vitamin C is associated with higher mortality from ischemic heart disease and stroke: Basel Prospective Study .  Clin Investig .  1993 ;
+L129:  71 : 3 - 6
+L130: 20 Kurl S Tuomainen TP Laukkanen JA Nyyssonen K Lakka T Sivenius J Salonen JT 
+L131:  Plasma vitamin C modifies the association between hypertension and risk of stroke .  Stroke .  2002 ;
+L132:  33 : 1568 - 1573 12052992
+L133: 21 Myint PK Luben RN Welch AA Bingham SA Wareham NJ Khaw KT 
+L134:  Plasma vitamin C concentrations predict risk of incident stroke over 10 y in 20 649 participants of the European Prospective Investigation into Cancer Norfolk prospective population study .  Am J Clin Nutr .  2008 ;
+L135:  87 : 64 - 69 18175738
+L136: 22 Yokoyama T Date C Kokubo Y Yoshiike N Matsumura Y Tanaka H 
+L137:  Serum vitamin C concentration was inversely associated with subsequent 20‐year incidence of stroke in a Japanese rural community. The Shibata study .  Stroke .  2000 ;
+L138:  31 : 2287 - 2294 11022052
+L139: 23 DerSimonian R Laird N 
+L140:  Meta‐analysis in clinical trials .  Control Clin Trials .  1986 ;
+L141:  7 : 177 - 188 3802833
+L142: 24 Greenland S Longnecker MP 
+L143:  Methods for trend estimation from summarized dose‐response data, with applications to meta‐analysis .  Am J Epidemiol .  1992 ;
+L144:  135 : 1301 - 1309 1626547
+L145: 25 Orsini N Bellocco R Greenland S 
+L146:  Generalized least squares for trend estimation of summarized dose‐respose data .  Stata J .  2006 ;
+L147:  6 : 40 - 57
+L148: 26 Orsini N Li R Wolk A Khudyakov P Spiegelman D 
+L149:  Meta‐analysis for linear and nonlinear dose‐response relations: examples, an evaluation of approximations, and software .  Am J Epidemiol .  2012 ;
+L150:  175 : 66 - 73 22135359
+L151: 27 Higgins JP Thompson SG 
+L152:  Quantifying heterogeneity in a meta‐analysis .  Stat Med .  2002 ;
+L153:  21 : 1539 - 1558 12111919
+L154: 28 Egger M Davey Smith G Schneider M Minder C 
+L155:  Bias in meta‐analysis detected by a simple, graphical test .  BMJ .  1997 ;
+L156:  315 : 629 - 634 9310563
+L157: 29 Lee DH Folsom AR Harnack L Halliwell B Jacobs DR Jr 
+L158:  Does supplemental vitamin C increase cardiovascular disease risk in women with diabetes? 
+L159:  Am J Clin Nutr .  2004 ;
+L160:  80 : 1194 - 1200 15531665
+L161: 30 Eichholzer M Stahelin HB Gey KF 
+L162:  Inverse correlation between essential antioxidants in plasma and subsequent risk to develop cancer, ischemic heart disease and stroke respectively: 12‐year follow‐up of the Prospective Basel Study .  EXS .  1992 ;
+L163:  62 : 398 - 410 1450600
+L164: 31 Watkins ML Erickson JD Thun MJ Mulinare J Heath CW Jr 
+L165:  Multivitamin use and mortality in a large prospective study .  Am J Epidemiol .  2000 ;
+L166:  152 : 149 - 162 10909952
+L167: 32 Witztum JL 
+L168:  The oxidation hypothesis of atherosclerosis .  Lancet .  1994 ;
+L169:  344 : 793 - 795 7916078
+L170: 33 Cherubini A Vigna GB Zuliani G Ruggiero C Senin U Fellin R 
+L171:  Role of antioxidants in atherosclerosis: epidemiological and clinical update .  Curr Pharm Des .  2005 ;
+L172:  11 : 2017 - 2032 15974956
+L173: 34 Fairfield KM Fletcher RH 
+L174:  Vitamins for chronic disease prevention in adults: scientific review .  JAMA .  2002 ;
+L175:  287 : 3116 - 3126 12069675
+L176: 35 Padayatty SJ Katz A Wang Y Eck P Kwon O Lee JH Chen S Corpe C Dutta A Dutta SK Levine M 
+L177:  Vitamin C as an antioxidant: evaluation of its role in disease prevention .  J Am Coll Nutr .  2003 ;
+L178:  22 : 18 - 35 12569111
+L179: 36 McColl BW Allan SM Rothwell NJ 
+L180:  Systemic inflammation and stroke: aetiology, pathology and targets for therapy .  Biochem Soc Trans .  2007 ;
+L181:  35 : 1163 - 1165 17956302
+L182: 37 Wannamethee SG Lowe GD Rumley A Bruckdorfer KR Whincup PH 
+L183:  Associations of vitamin C status, fruit and vegetable intakes, and markers of inflammation and hemostasis .  Am J Clin Nutr .  2006 ;
+L184:  83 : 567 - 574 ‐ 16522902
+L185: 38 Song Y Cook NR Albert CM Van Denburgh M Manson JE 
+L186:  Effects of vitamins C and E and beta‐carotene on the risk of type 2 diabetes in women at high risk of cardiovascular disease: a randomized controlled trial .  Am J Clin Nutr .  2009 ;
+L187:  90 : 429 - 437 19491386
+L188: 39 Goodman M Bostick RM Kucuk O Jones DP 
+L189:  Clinical trials of antioxidants as cancer prevention agents: past, present, and future .  Free Radic Biol Med .  2011 ;
+L190:  51 : 1068 - 1084 21683786
+L191: 40 MRC/BHF Heart Protection Study of antioxidant vitamin supplementation in 20,536 high‐risk individuals: a randomised placebo‐controlled trial .  Lancet .  2002 ;
+L192:  360 : 23 - 33 12114037
+L193: 41 Cook NR Albert CM Gaziano JM Zaharris E MacFadyen J Danielson E Buring JE Manson JE 
+L194:  A randomized factorial trial of vitamins C and E and beta carotene in the secondary prevention of cardiovascular events in women: results from the Women's Antioxidant Cardiovascular Study .  Arch Intern Med .  2007 ;
+L195:  167 : 1610 - 1618 17698683
+L196: 42 Qiao YL Dawsey SM Kamangar F Fan JH Abnet CC Sun XD Johnson LL Gail MH Dong ZW Yu B Mark SD Taylor PR 
+L197:  Total and cancer mortality after supplementation with vitamins and minerals: follow‐up of the Linxian General Population Nutrition Intervention Trial .  J Natl Cancer Inst .  2009 ;
+L198:  101 : 507 - 518 19318634
+L199: 43 Sesso HD Buring JE Christen WG Kurth T Belanger C MacFadyen J Bubes V Manson JE Glynn RJ Gaziano JM 
+L200:  Vitamins E and C in the prevention of cardiovascular disease in men: the Physicians' Health Study II randomized controlled trial .  JAMA .  2008 ;
+L201:  300 : 2123 - 2133 18997197
+L202: 44 Levine M Wang Y Padayatty SJ Morrow J 
+L203:  A new recommended dietary allowance of vitamin C for healthy young women .  Proc Natl Acad Sci USA .  2001 ;
+L204:  98 : 9842 - 9846 11504949
+L205: 45 Michels KB Welch AA Luben R Bingham SA Day NE 
+L206:  Measurement of fruit and vegetable consumption with diet questionnaires and implications for analyses and interpretation .  Am J Epidemiol .  2005 ;
+L207:  161 : 987 - 994 15870164
+L208: 46 Frei B Birlouez‐Aragon I Lykkesfeldt J 
+L209:  Authors' perspective: what is the optimum intake of vitamin C in humans? 
+L210:  Crit Rev Food Sci Nutr .  2012 ;
+L211:  52 : 815 - 829 22698272
+L212: 47 Bevan S Porteous L Sitzer M Markus HS 
+L213:  Phosphodiesterase 4D gene, ischemic stroke, and asymptomatic carotid atherosclerosis .  Stroke .  2005 ;
+L214:  36 : 949 - 953 15802632
+[28ms]
+

@@ -1,0 +1,1034 @@
+L1: Oxidative Stress, Mitochondrial Function and Adaptation to Exercise: New Perspectives in Nutrition
+L2: Life (2021)
+L3: Nancy Vargas-Mendoza, Marcelo Angeles-Valencia, Ángel Morales-González, Eduardo Osiris Madrigal-Santillán, Mauricio Morales-Martínez, Eduardo Madrigal-Bujaidar, Isela Álvarez-González, José Gutiérrez-Salinas, César Esquivel-Chirino, Germán Chamorro-Cevallos, José Melesio Cristóbal-Luna, José A. Morales-González
+L4: 1 Laboratorio de Medicina de Conservación, Escuela Superior de Medicina, Instituto Politécnico Nacional, Plan de San Luis y Díaz Mirón, Col. Casco de Santo Tomás, Del. Miguel Hidalgo, Ciudad de México 11340, Mexico;  nvargas_mendoza@hotmail.com  (N.V.-M.);  angeles_v_marcelo@hotmail.com  (M.A.-V.);  eomsmx@yahoo.com.mx  (E.O.M.-S.)
+L5: 2 Escuela Superior de Cómputo, Instituto Politécnico Nacional, Av. Juan de Dios Bátiz s/n Esquina Miguel Othón de Mendizabal, Unidad Profesional Adolfo López Mateos, Ciudad de México 07738, Mexico
+L6: 3 Licenciatura en Nutrición, Universidad Intercontinental, Insurgentes Sur 4303, Santa Úrsula Xitla, Alcaldía Tlalpan, Ciudad de México 14420, Mexico;  mtz98mauxd@gmail.com
+L7: 4 Laboratorio de Genética, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Unidad Profesional A. López Mateos, Av. Wilfrido Massieu, Col., Lindavista, Ciudad de México 07738, Mexico;  edumadrigal.bujaidar@gmail.com  (E.M.-B.);  isela.alvarez@gmail.com  (I.Á.-G.)
+L8: 5 Laboratorio de Bioquímica y Medicina Experimental, Centro Médico Nacional “20 de Noviembre”, ISSSTE, Ciudad de México 03229, Mexico;  quauhtlicutli@yahoo.com
+L9: 6 Área de Básicas Médicas, División de Estudios Profesionales, Facultad de Odontología, Universidad Nacional Autónoma de México, Ciudad de México 04510, Mexico;  investigaciondental@gmail.com
+L10: 7 Laboratorio de Toxicología Preclínica, Departamento de Farmacia, Escuela Nacional de Ciencias Biológicas, Instituto Politécnico Nacional, Av. Wilfrido Massieu 399, Col. Nueva Industrial Vallejo, Del. Gustavo A. Madero, Ciudad de México 07738, Mexico;  gchamcev@yahoo.com.mx  (G.C.-C.);  josmcl@hotmail.com  (J.M.C.-L.)
+L11: Cells have the ability to adapt to stressful environments as a part of their evolution. Physical exercise induces an increase of a demand for energy that must be met by mitochondria as the main (ATP) provider. However, this process leads to the increase of free radicals and the so-called reactive oxygen species (ROS), which are necessary for the maintenance of cell signaling and homeostasis. In addition, mitochondrial biogenesis is influenced by exercise in continuous crosstalk between the mitochondria and the nuclear genome. Excessive workloads may induce severe mitochondrial stress, resulting in oxidative damage. In this regard, the objective of this work was to provide a general overview of the molecular mechanisms involved in mitochondrial adaptation during exercise and to understand if some nutrients such as antioxidants may be implicated in blunt adaptation and/or an impact on the performance of exercise by different means.
+L12: Review
+L13: oxidative stress; ROS/RNS; exercise; mitochondrial adaptation; oxidative damage; antioxidants; exercise performance
+L14: 1. Introduction
+L15: The high-oxygen atmospheric concentrations of a million years ago induced metabolic changes, resulting in the majority of living organisms utilizing more oxygen (O 2 ), thus promoting the development of aerobic systems. The basis of aerobic metabolism is supported by the biotransformation of molecular O 2  to meet energy demands, homeostasis and to ensure the support of life. In turn, highly reactive molecules result from these cellular processes, such as the reactive oxygen species (ROS), which are considered radical and non-radical derivatives of O 2 . ROS are formed from one-electron transfers from a redox donor to molecular O 2 . Further, the term reactive nitrogen species (RNS) refers to reactive molecules derived from nitrogen. Free radicals (FR) are considered an atom/molecule that contains one or more unpaired electrons, which renders them unstable and very reactive [ 1 ].
+L16: The anion superoxide (O 2 •− ) is the main ROS formed in cells by the one-electron reduction of molecular O 2 ; it is negatively charged and impermeable to the cell membrane as compared with other FR and has a relatively long half-life. The dismutation of O 2 •−  leads to the formation of hydrogen peroxide (H 2 O 2 ), a permeable non-FR cell membrane, relatively stable, weak in oxidation, and possessing the ability to diffuse within and outside of the cell [ 2 ]. Because H 2 O 2  has a long half-life, it can reach high cellular concentrations, inducing cytotoxicity and cell signaling. H 2 O 2,  together with O 2 •−  are transformed into hydroxyl radicals ( • OH) that are highly reactive molecules with powerful oxidizing potential, but that are not membrane-permeable; thus, they directly react with molecules in close proximity to their production site, causing structural cell damage [ 1 , 2 ].
+L17: In addition, among RNS, the most important free radical is oxide nitric (NO), which is synthesized from the amino acid L-arginine by nitric oxide synthase (NOS). NO can also react with O 2 •−  to form peroxynitrite (ONOO − ), which is the main cause of the nitration of cellular proteins and the depletion of thiol groups due to its rapid formation. All of these previously mentioned reactive molecules might contribute to oxidative stress (OS), defined as “an imbalance between oxidants and antioxidants in favor of the oxidants, leading to a disruption of redox signaling and control, and/or molecular damage” [ 3 ]. Fortunately, cellular systems have developed potent cytoprotector systems as a defense against damage caused by the high levels of ROS and RNS. For instance, endogenous antioxidant systems (EnAS) are activated through the nuclear factor erythroid 2-related factor 2 (Nrf2), a redox-sensitive transcriptional factor that coordinates the antioxidant response and that is also related to mitochondrial biogenesis [ 4 ].
+L18: Despite the imbalance that ROS and RNS contribute to oxidative stress, it is known that certain levels of these molecules are needed to trigger cell signaling, adaptation, and homeostasis. During exercise, physical work increases energy demands, the O 2  uptake, and consequently the formation of ROS [ 5 ]. In this manner, mitochondria are susceptible to being attacked in high intense or long sports, which might represent a risk for the detriment in muscle force, contraction, and thus performance. Therefore, the purpose of this review was to provide a general overview of mitochondrial function and the molecular mechanisms implicated in adaptation to stress induced by exercise. Moreover, nutritional insights in terms of the growing evidence with regard to the use of antioxidants and mitochondrial protection are discussed.
+L19: 2. Oxidative Stress in Exercise
+L20: During exertion, muscles are the main source of ROS production within the active muscle fibers from different sites such as the mitochondria, T-tubules, sarcoplasmic reticulum, and sarcolemma. Among these, mitochondria are thought to be the major ROS producer, predominantly in endurance training. Once exercise starts, energy demands rise 10–20 fold in oxygen consumption above that of the resting state [ 2 ]. Thus, the augmented oxidative phosphorylation increases O 2 •−  in contracting muscle fibers. However, some recent evidence indicates that mitochondria may not be fully responsible for the abundance of ROS because it is possible to produce more O 2 •−  during basal state-4 respiration compared with active stage-3 respiration [ 6 ].
+L21: There are other ROS producers, which include nicotinamide, adenine dinucleotide phosphate oxidase (NADPH oxidase), phospholipase A 2 , (PLA 2 ), xanthine oxidase monoamine oxidases (MAO’s), some dehydrogenases, and some immune-system cells, such as macrophages, eosinophils, monocytes, and neutrophils [ 2 ]. For instance, the NADPH oxidase isoform NOX2, located within T-tubes and sarcolemma, is the primary ROS producer in contracting muscle fibers, whereas the other isoform, NOX4, localized in mitochondria and the sarcoplasmic reticulum, contributes to ROS synthesis under baseline conditions [ 7 ]. At the same time, PLA 2  can activate NADPH oxidases, the calcium-dependent isoform promotes the release of ROS during muscle contraction [ 8 ], and the independent-isoform manages oxidation under resting conditions [ 9 ]. PLA 2  is involved in ROS generation during muscle contraction when the calcium uptake in mitochondria is increased; then, PLA 2  is activated within the mitochondria, promoting the interaction of arachidonic acid synthesis with the electron transport chain (ETC). The formation of arachidonic acid elicits an eicosanoid substrate that could also modulate ROS production. In fact, the arachidonic acid released by PLA 2  is a substrate of lipoxygenases, a ROS-generating enzyme system deriving from membrane phospholipids [ 9 ].
+L22: 2.1. Impact of Oxidative Stress on Muscle Contraction
+L23: The impairment of modulating exercise-induced OS is implicated in overtraining syndrome (OTS), which is characterized by extended periods of fatigue-induced from intense training/competitions and inappropriate recovery post-exercise/competition episodes. In consequence, excessive ROS and OTS are closely involved in performance weakening [ 10 ]. Skeletal-muscle fatigue is considered as a decline of maximal force production in response to contractile activity [ 11 ]. The production of skeletal-muscle force depends on the contractile mechanism and metabolic factors, including lactate, inorganic phosphate (Pi), hydrogen (H + ) ions, ROS, and heat shock protein (HSP), among others, that can enhance muscle fatigue [ 11 ].
+L24: Some evidence supports the hypothesis that increased fatigue and force depression are the result of the oxidizing state of muscle fibers due to continued exposure to ROS, basically to H 2 O 2 . Contrariwise, it has been identified that unfatigued muscle remains predominantly reduced. Also, the sustained intramuscular imbalance of the redox state enhanced chronic inflammation, exerting an impact upon force production and athletic performance [ 12 ]. Indeed, the endogenous productions of ROS/RNS play a crucial role in submaximal force, due to that the continuous state of reduced maximal force is induced by Ca 2+  myofibrillar sensitivity and/or the decrease of reticulum sarcoplasmic Ca 2+  release; these processes are ROS/RNS-dependent. Meanwhile, in rested myofibers, the acute and mild exposure of ROS/RNS raises submaximal force, but extended exposure impacts negatively [ 13 ]. Other ROS/RNS-mediated mechanisms associated with skeletal-muscle fatigue include a decrease in cellular-membrane excitability, impairment of the interaction between voltage sensors and Ca 2+  ion channels, due to the excitation/contraction-coupling failure and the blocking of the action potential. Furthermore, Ca 2+  release interferes in actin-myosin cross-bridge formation and in the reduction of myofibrillar sensitivity [ 14 ]. Additionally, there is evidence that ROS also exert a modulatory effect on Na + /K +  pump activity, but that excessive ROS production could impair Na + /K +  pump activity and more proteins implied in excitation-contraction-coupling, affecting muscle force during prolonged endurance exercise [ 6 ].
+L25: The underlying beneficial or deleterious effects of ROS/RNS on muscle contraction are demonstrated in several studies. Different factors, such as location, time of exposure, type of ROS/RNS, and the combination of endogenous/exogenous antioxidant systems, will determine effective skeletal-muscle function.
+L26: 2.2. Mitochondrial ROS Production and Antioxidant Defense
+L27: Under normal conditions, electron flow along the ETC to complex IV results in their final accumulation in molecular oxygen to produce H 2 O. Through exercise, predominantly in prolonged endurance activities, ATP production requires reduced equivalents of NADH and FADH2, free ADP, Pi, and O 2 , and the presence of these elements activates the ETC in mitochondria [ 15 ]. Along the ATP synthesis process, mitochondrial ROS (mtROS) is produced for the reaction of electrons with O 2  at different sites to form superoxide/hydrogen peroxide fundamentally in complex I and in complex III of ETC, which can leak 1–3% of electron flux as O 2 •−  in state 4 or in the resting state [ 16 , 17 ]. Some evidence indicates that complex II and other mitochondrial enzymes also participate in mtROS formation [ 18 ]. It has been found that around 11 different mitochondrial sites leak electrons to O 2  to produce the superoxide or hydroperoxide associated with oxidative phosphorylation (OxPho) and substrate oxidation. These sites are complexes I and III, oxoacid dehydrogenase complexes, and complex II, which use ubiquinone as an acceptor. Mitochondrial glycerol 3-phosphate dehydrogenase and complex III produce O 2 •−  to the matrix and the external side of the mitochondrial inner membrane, while the other complexes generate O 2 •−  and H 2 O 2  only in the matrix [ 19 ]. Approximately 0.1–0.2% of the O 2  consumed by mitochondria is transformed into O 2 •− . The release of O 2 •−  from mitochondria is in the form of H 2 O 2  or OONO −  when superoxide anions react with  • NO; this is because the high proton environment in the internal mitochondrial membrane makes it difficult for O 2 •−  to cross the latter. Mitochondria are being found to be major ROS producers; however, inactive contracting muscles, a better-coupled electron flow is observed, and there is minor production of superoxide anions in the ETC. It is noteworthy that unfatigued and healthy muscle fibers could produce less ROS [ 20 , 21 ].
+L28: With the purpose of modulating the redox signaling of ROS/RNS, there is a complex defense system constituted of internal and external elements known as the endogenous antioxidant system (EnAS). This system is constituted of mean of enzymatic and non-enzymatic constituents and the exogenous antioxidant system (ExAS), which derives from dietary or supplementary sources such as antioxidant vitamins (vitamins C, E, and A), oligoelements (selenium, copper, and zinc), nucleic acids, and phytochemicals, among others. The latter will be discussed further ahead in this review. The EnAS acts to maintain reactive species within the homeostatic range in order to enhance cell signaling and prevent oxidative damage. Nevertheless, the overproduction of ROS/RNS may surpass the antioxidant defense, generating OS and damage. The dismutation of O 2 •−  is performed by a family of superoxide dismutases (SOD) to produce H 2 O 2  and O 2 . There are three isoforms as follows: SOD1, located in the cytosol and mitochondrial intermembrane space; SOD2, found in the mitochondrial matrix, and SOD3, situated outside the cell. SOD1 requires copper and zinc as cofactors (Cu/ZnSOD), whereas SOD2 is manganese-dependent (MnSOD) [ 22 ]. SOD is highly active in type-I oxidative fibers compared with type-IIX fibers with less oxidative activity [ 23 , 24 ].
+L29: H 2 O 2  and peroxides are removed by enzymatic and non-enzymatic elements of the EnAS, such the family of glutathione peroxidases (GPX) in the presence of reduced glutathione (GSH), glutathione reductase (GR), catalases (CAT), thioredoxins (Trx), peroxiredoxins (Prx), and glutaredoxins (Grx) [ 25 ]. There are eight isoforms of GPX in mammals (GPX1–GPX8) [ 26 ]; all of these reduce H 2 O 2  to form H 2 O and alcohol, but the different isoforms are related to cell location. GPX1 is active in cytosol and mitochondria is selenium-dependent, GPX2 is exclusively located in cytosol, GPX3 is active in cytosol and the extracellular space, and GPX4 resides in the phospholipid environment to remove lipid peroxides [ 26 ]. GPX5 is expressed in mammalian epididymis and protects sperm from ROS and lipid peroxidation damage [ 27 ]. GPX6 has been found in epithelial cells [ 28 ]. GPX7 and GPX8 are similar in structure, but GPX7 works as a stress signal sensor and transmitter by shuttling disulfide bones to its interacting proteins, which are implicated in diverse signaling pathways to keep redox homeostasis [ 29 ]. GPX8 isoform is essentially located in the endoplasmic reticulum, is considered as a primary regulator of tumor aggressiveness in several types of cancer [ 30 ]. The reducing power of GPX is found in the use of GSH as electron donor. At the same time, this reaction produces glutathione disulfide (GSSH), the oxidated form of glutathione, which can be reduced by glutathione reductases (GR). In mammalian skeletal muscle and cardiac tissue, the resynthesis of GSH through GR needs NADPH produced by the NADPH-specific isocitrate dehydrogenase and by glyceraldehyde-3-phosphate dehydrogenase [ 25 ].
+L30: Catalase (CAT), which also participates in the removal of H 2 O 2  to form H 2 O and O 2,  is located in different compartments in the cell, basically in cytosol, peroxisomes and mitochondria [ 31 ] and, similar to SOD, it is more active in type-I than in type-IIX oxidative fibers. In contrast to GPX, CAT does not require an electron donor, nor does it eliminate other hydroperoxides [ 2 ]. Thioredoxins (Trx) and thioredoxin reductases comprise a group of antioxidant enzymes that maintain proteins in a reduced state by the formation of a disulfide bond with substrate proteins and they are able to transfer two of the electrons that they possess to the target protein. Consequently, Trx is oxidated, but then it can be reduced by Trx reductase in the presence of NADPH as an electron donor. Trx is the main disulfide reductase within cells and there are two isoforms: Trx1, located in the cytosol, and the Trx2 site in mitochondria [ 32 , 33 ]. These isoforms also participate in the removal of hydroperoxides, cell signaling, and vitamin-C recycling [ 34 ]. Peroxiredoxins (Prx) are enzymes involved in the reduction of H 2 O 2 , alkyl peroxides, and peroxynitrite using electrons of Trx. Six isoforms have been identified: Prx1, 2, and 4 are situated in cytosol, Prx3 is located in mitochondria, Prx5 is found in both mitochondria and cytosol, and Prx6 is localized in the extracellular space. These isoforms are also thought to be involved in cell signaling and circadian-cycle regulation [ 35 , 36 ]. Finally, glutaredoxins (Grx) are small-thiodisulfide oxidoreductases that protect protein and non-protein thiols through the transfer of electrons to the disulfide substrates deriving from NADPH. Grx participates in hydroperoxide elimination, and there are three isoforms: Grx1 is within the cytosol and Grx2 and 3 is situated in the mitochondria [ 37 ].
+L31: 3. Mitochondrial Function and Adaptation
+L32: 3.1. Mitochondrial Adaptation to Exercise in the Presence of ROS
+L33: The practice of exercise is a powerful stimulus that leads to metabolic and physiological adaptations and that eventually allows the body to tolerate heavier workloads, inducing changes in muscle-fiber remodeling and plasticity, which are the result of a complex relationship or diverse regulator factors and signaling processes [ 38 ]. During the last two decades, numerous groups of researchers have elucidated a vast list of signals triggered by ROS within muscle contraction and their implications in molecular events related to physiological responses and subsequent cell adaptation. Currently, among the main adaptations mediated by ROS are found the following: mitochondrial biogenesis, increased antioxidant defenses, and myofiber hypertrophy. The role that ROS plays in the previously mentioned adaptations is based on the idea that they affect protein function, enzyme activity, and gene transcription as well they modify membrane and genome integrity [ 39 ].
+L34: With regard to mitochondrial adaptations, the protagonism must be mentioned of peroxisome proliferator-activated receptor gamma coactivator-1 alpha (PGC-1α), a transcriptional cofactor that interacts with other transcriptional factors and that owns the ability to induce transcription without binding directly with DNA. This binding to specific transcriptional factors promotes the genomic expression of genes associated with mitochondrial biogenesis, energy metabolism, thermogenesis, and the regulation of uncoupling [ 40 ]. PGC-1α coordinates different redox-sensitive programs; for instance, PGC-1α interacts with the estrogen-related receptor alpha (ERRα), Nrf1, and Nrf2 in mitochondrial biogenesis [ 41 ]. Thus, PGC-1α is a key element for enhancing adaptative responses in endurance activities [ 42 ]. The increase of ROS, particularly H 2 O 2  during prolonged aerobic resistance sports, exacts the activation of PGC-1α and the alternative promoter PGC-1α2 in muscle fibers via the regulation of the upstream stimulatory factor 1 (USF-1), which also depends on beta adrenergic signaling, in turn, activates the angiogenic vascular endothelial growth factor (VEGF), also mediating the orphan nuclear receptor ERRα. Moreover, the adrenergic stimulation of exercise-induced PGC-1α/ERRα/VEGF promotes angiogenesis [ 43 ]. PGC-1α is also involved in type-IIX myosin-fiber heavy chains when it interacts with the myocyte enhancer factor-2 (MEF2) [ 44 ].
+L35: Indeed, the practice of exercise has a potent effect on the activation of the EnAS that, to a great extent, is regulated by the nuclear factor erythroid 2-related factor (Nrf2), a nuclear transcription factor that coordinates more than 250 genes associated with the cytoprotective and antioxidant response. Under homeostatic conditions, Nrf2 is attached to its negative regulator Keap1, a redox-regulator substrate adaptor for the Cullin (Cul)3-RING-box protein (Rbx)1 ubiquitin ligase, which directs Nrf2 toward its degradation by ubiquitination [ 45 ]. However, when the cellular concentration of ROS rises, Keap1 cysteine-rich proteins are oxidized, inducing conformational changes. Subsequently, Nrf2 is released from Keap1 to translocate into the nucleus, where it has the ability to heterodimerize with musculoaponeurotic fibrosarcoma proteins (MAF proteins), binding to the antioxidant response element (ARE), a specific DNA sequence (ARE, 50-TGACNNNGC-30); that is the latter is responsible for the activation of a wide-ranging group of genes associated with the antioxidant and protective response, such as the enzymes involves in the biosynthesis and metabolism of glutathione, Trx, phase-II detoxifying enzymes, and NADPH-producing enzymes [ 46 , 47 ]. Nrf2 interacts with PGC-1α in a close relationship to mediate the antioxidant response, together with other signaling pathways. In addition, Nrf2 is involved in the regulation of mitochondrial enzymes that are associated with the activation of PGC-1α. In mitochondrial biogenesis, Nrf2 interacts with PGC-1α and other transcriptional factors such the mitochondrial transcription factor A (TFAM), which encodes active enzymes of the mitochondrial matrix and also stabilizes mtDNA via the synthesis of nucleoids and controls the amount of mtDNA, which is correlated with the amount of TFAM but not necessarily with the transcription level [ 48 ]. Nrf2 promotes mitochondrial biogenesis by maintaining levels of nuclear respiratory factor 1 (Nrf1) and promoting purine nucleotide biosynthesis [ 4 ]. The mitophagic process is also influenced in the presence of Nrf2: dysfunctional mitochondria are engulfed by autophagosomes that are prepared for their degradation and recycling in lysosomes, preserving mitochondrial homeostasis [ 4 ].
+L36: Autophagy as a physiological regulator helps to maintain the balance between organelle biogenesis, protein synthesis and degradation. Autophagy preserves cellular homeostasis where damaged organelles and biomolecules are engulfed to be subsequently degraded upon fusion with lysosomes. It can be activated as a pro-survival response to stress; it has been found that autophagy is a redox-sensitive process and ROS/RNS elicits the crosstalk between cell signaling and protein damage [ 49 ]. Mitophagy is known as a form of selective autophagy regard to mitochondria turnover is greatly induced by oxidative stress to remove dysfunctional mitochondria [ 50 ]. The relation between mitophagy and the complex Nrf2/Keap1 has been elucidated; one way described is via the transcriptional upregulation of p62/sequestosome-1 (p62/SQSTM1) involved in Keap1 autophagic degradation and the activation of Nrf2 promoting the antioxidant response [ 51 ]. Recently, Yamada et al. [ 52 ] reported that p62/SQSTM1 translocates Keap1 to the mitochondria for the ubiquitination and degradation promoting mitophagy. Another form of the relationship between Nrf2 and mitophagy is through Keap1 inhibitors such as phosphatase and tensin homologue (PTEN)-induced putative kinase 1 (PINK1), which is one of the main regulators of mitophagy [ 53 ].
+L37: Although the mechanisms underlying exercise-induced mitophagy have not been fully understood, it is being established that mitophagy initiates after 6 h of acute treadmill running in mice observed by increased phosphorylation of AMP-activated protein kinase (Ampk) at tyrosine 172 and of unc-51 like autophagy activating kinase 1 (Ulk1) at serine 555. The mentioned research highlights the effect of exercise on mitochondrial biogenesis and mitochondrial removal, driving mitophagy thru Ampk-Ulk1 signaling in skeletal muscle [ 54 ]. In rat myocardium, the elevation of OS after acute heavy exercise triggers inflammatory response via NLRP3 inflammasome activation, promoting mitophagy to compensate for counteracting myocardial damage [ 55 ]. The underlying effect of exercise on the activation of EnAS counteracts the elevated level of ROS and their potential effect on destabilizing membrane lipids, structural proteins, or DNA. Abundant evidence indicates that exercise effectively activates Nrf2, the antioxidant response, and mitochondrial biogenesis. It should be noted that an optimal antioxidant response depends largely on the constant feedback between the endogenous and exogenous defense systems (EnAS/ExAS), so the lack of antioxidant dietary intake may directly affect the effectiveness of the cytoprotective response.
+L38: 3.2. Mitohormesis and Exercise
+L39: In 2006, Ji et al. [ 56 ] defined hormesis as the beneficial effect conferred by a low dose of an agent or phenomenon that would cause injury or toxicity at high levels. Exercise induces a certain level of stress depending on the intensity, duration, and frequency of the exercise that is necessary for adaptation to physical work: exercise-induced ROS elevation is required for adaptation at physiological levels to permit energy metabolism, stress regulation, protein turnover, immunomodulation, muscle growth, and the regulation of blood flow [ 57 ]. Hence, exercise preconditioning/hormesis can be conceived of as the mild OS necessary to increase protection against mechanical/metabolic stressors, extreme temperatures (heat/cold), hypoxic conditions, ischemia, and other factors. In skeletal muscle, exercise preconditioning could be the result of the synergy exerted by different elements, including transcriptional factors, antioxidant defense, the expression of heat shock proteins (HSP), and ROS-producing sources [ 58 ].
+L40: Nuclear factor (NF) kappaΒ and mitogen-activated protein kinases (MAPK) comprise one of the most important redox-sensitive signal pathways. Transcription factor NF-κΒ remains inactive when is conjugated thru inhibitory I-κΒ proteins, within the cytoplasm are activated by different stimulants such as proinflammatory cytokines including TNF-α, IL-1, and IL-6, lipopolysaccharides (LPS), and toxins, and the presence of H 2 O 2  activates the signal. Then, NF-κB dissociates from I-κΒ by the activation of NFκB-inducing kinase (NIK) phosphorylating serine residues of I-κΒα (ser-32 and ser-36) or I-κΒβ (ser-19 and ser-23), releasing p50/p65 subunits. After this, it translocates into the nucleus and binds to the specific target genes involved in a wide variety of biological functions, such as the antioxidant and the inflammatory response, immunity, apoptosis, and adaptation [ 59 , 60 ]. The target genes are SOD2, vascular cell adhesion molecule-1 (VCAM-1), cyclooxygenase-2 (COX-2), inducible NOS (iNOS), and GCS [ 61 ]. On the other hand, MAPK signaling is implicated in transcription, translation, growth, and cell remodeling. MAPK is activated by growth factors, the inflammatory cytokines TNF-α and IL-1, LPS phorbol esters, and ROS [ 62 , 63 ]. The MAPK signal pathway integrates the extracellular signal-regulated kinase (ERK), the c-Jun amino-terminal kinase (JNK), and the p38MAPK, which are controlled by their respective upstream kinases (MEK/MKK) [ 62 , 64 ]. Inactive skeletal muscle, ROS play a role as signal messengers that trigger adaptative responses via the interrelationship of NF-κΒ and MAPK pathways, boosting exercise preconditioning [ 56 ].
+L41: With respect to the mitochondria, the term mitohormesis refers to exposure to a sublethal dose of stress that could enhance mitochondrial function and that contribute to adaptative hormetic response [ 65 ]. In aerobic exercise OS, mechanical, unfolded/misfolded protein, and energy stress can induce several mitohormetic effects, such as antioxidant enzymes expression, myofibrillar protein synthesis, mitochondrial biogenesis, and protein folding ( Figure 1 ). The result in terms of functionality is the increase of muscle mass and strength, improvement in mitochondrial function, oxidative capacity, and antioxidant response, a reduction in ROS production, and the enhancement of proteostasis [ 66 ]. Mitohormesis results from the interaction of several transcriptional factors, such as PPARα, EERα, Sp1, PGC-1α, PGC-1β, and Nrf2. In a study with 3- and 12-month-old Nrf2 Wild-Type (WT) and Nrf2 Knock Out (KO) mice submitted to a training protocol of voluntary wheel running, it was demonstrated that Nrf2/KO mice experienced failure in mitochondrial respiration of the intramyocellular fraction (IMC) in 40% of skeletal muscle and that the emission of ROS increased significantly. The aerobic resistance capacity of Nrf2/KO was reduced, along with the highest degree of fatigue associated with the elevated ROS found in mitochondrial samples, which probably affected mitochondrial integrity. Additionally, no significance in mitochondrial content was found; however, the activity of Cytochrome C Oxidase (COX) and of the COXIV subunit increased in Nrf2/WT trained animals. At the same time, Nrf2/KO animals experienced a reduction of NQO1. The study suggested that Nrf2 transcription encouraged by physical exercise is essential for protein stoichiometric adaptations, the enzymatic activity of ETC, and energy metabolism [ 67 ].
+L42: Wang et al. [ 67 ] reported that the stimulus of acute exercise promoted the signaling pathway of the redox effector factor 1 (Ref1) and Nrf2 in groups of male ICR/CD-1 mice. The main findings included the role that H 2 O 2  mitochondrial content exerts on the elevation of OS and the activation of Ref1/Nrf2 signaling in a time-dependent manner (45, 90, 120, or 150 min), together with the expression of the antioxidant system: MnSOD and CuZnSOD activities; GSH content; the expression of the Ref1 and Nrf2 genes, and Ref1 and Nrf2 proteins in mouse skeletal muscle (gastrocnemius and quadriceps femoris). This suggested that acute exercise increases H 2 O 2  and OS, enhancing the Ref1/Nrf2 pathway and antioxidant defense, basically GSH and MnSOD (mitochondrial isoform). Merry and Ristow [ 68 ] found that the deficiency of Nrf2 in mouse gastrocnemius muscle and muscle cells affects the production of the messenger RNA (mRNA) of Nrf1 and TFAM (mitochondrial biogenesis biomarkers), CAT, SOD1, and SOD2 in acute exercise. Additionally, after a five-week treadmill training protocol, mice deficient in Nrf2 (Nrf/KO) experienced an important decline in mitochondrial mass, SOD activity, and whole-body energy expenditure compared with Nrf2/WT. In isolated muscle-cell C2C12 myoblasts, acute exogenous exposure to H 2 O 2  and diethylenetriamine/NO adduct (NO donor) increased TFAM. These results suggest that ROS and NO are able to regulate the Nrf2 pathway to stimulate mitochondrial biogenesis and the expression of antioxidant protection genes [ 68 ].
+L43: Mitochondrial ROS production controls a variety of physiological processes within the cell, regulating gene expression and signal transduction. The protein p 66Shc  is a redox regulator of mitochondrial ROS, acting as H 2 O 2  producer by sequestering electrons from ETC. It modulates H 2 O 2  and proton leak and membrane oxidase activity, thus contributing to mitohormesis in mammalian cells [ 69 , 70 ]. Acute exercise appears to increase the expression of p 66Shc  and transcription factor FOXO3a in correlation with H 2 O 2  and in a time-dependent manner in gastrocnemius and quadriceps femoris of male ICR/CD-1 mice. Mitochondrial CAT was also affected in a time-dependent manner, but not SOD, which was not significantly modified [ 71 ]. FOXO3a is a FOXO family protein implicated in stress modulation and metabolism by interfering in SOD and CAT expression. FOXO3a is also related to the survival of organisms and lifespan extension under energy-nutrient restriction [ 70 ]. It is noteworthy that some evidence indicates that there is a more efficient cellular response to stress in trained compared with untrained individuals. Better skeletal-muscle oxidative capacity has been reported with lifelong endurance-exercise training after a single bout of cycling at 75% VO 2max  in elderly trained individuals (aged 71.3 ± 3.4 years). Different indicators, such as PGC-1α, VEGF mRNA, and AMPK phosphorylation, were significantly higher in trained individuals. These results suggest an improved oxidative muscle capacity and a better ability to respond to acute endurance exercise [ 72 ]. It must be noted that single-bout exercise or regular exercise elicits the activation of numerous circuits closely related to mitohormetic adaptations.
+L44: 3.3. Mitochondrial Uncoupling and Exercise
+L45: Mitochondrial uncoupling was initially correlated with mitochondrial dysfunction because it is the dissociation between the generation of membrane potential and the use for ATP synthesis. To a certain degree, uncoupling is necessary to explain diverse biological processes [ 73 ]. The lack of coupling could be explained by three possible situations: proton leak, electron leak, and electron slip. Proton leak basically depends on the composition of the inner mitochondrial membrane and can be modulated by a group of selective proteins: the uncoupling proteins (UCP). In addition, the electron leak process in ETC leads to the synthesis of O 2 •−  or of the hydroperoxyl radical (HO 2 • ). Finally, electron slip is the transfer of electrons through the mitochondrial complexes without proton pumping [ 74 , 75 ].
+L46: In humans, UCP comprises a protein family constituted of five members (UCP-1–UCP-5). UCP-1, a transmembrane protein that catalyzes proton transport across the mitochondrial membrane, in turn leading to mitochondrial uncoupling, is found in the inner mitochondrial membrane [ 76 ]. UCP-1 displays an important role in thermogenesis in brown and beige adipose tissue and the elevation of mitochondrial ROS activates acute thermogenesis. Thermogenic ROS can modify cysteine thiols (cys253) to increase respiration in brown adipose tissue. The sulfenilation of cys253 by mitochondrial ROS supports UCP-1-dependent thermogenesis and the whole-body energy expenditure [ 77 ]. Exercise increases uncoupling and mitochondrial biogenesis in skeletal muscle, augmenting the mitochondrial uncoupling-driven thermogenesis and thus energy expenditure [ 73 ]. Acute exercise increases the expression of UCP-1 in brown adipose tissue of high fat diet-treated Swiss mice and ICR mice. The thermogenic effect is explained by the enhancement of leptin-induces hypothalamic ERK1/2 phosphorylation, which stimulates thermogenesis in brown adipose tissue [ 78 ].
+L47: UCP-2 was found to be activated, for instance, is a massive entry of free fatty acids (FFA) into mitochondria [ 79 ], similarly to UCP-3, which has been found to be elevated in situations of starvation [ 80 ]. The latter is expressed in rat and mouse skeletal muscle; it was demonstrated that the content of UCP-3 in the intermyofibrillar fraction is 1.3-fold higher compared with the subsarcolemmal mitochondrial fraction. In addition, under conditions of stress, in the presence of ROS, UCP-3 promotes the Nrf2 antioxidant response and diminishes superoxide generation by increasing the proton conductance of the internal mitochondrial membrane [ 81 ]. UCP-3 is expressed 200–700-fold lower than UCP-1 in brown adipose-tissue mitochondria from warm-adapted hamsters (24–84 µg of UCP-1/mg of mitochondrial protein) [ 82 ]. There are some contradictory results found by Nabben et al. [ 83 ] in models of acute lipotoxicity–fatty acid-induced oxidative inhibition and fatty acid-induced swelling, in which no evidence was found with regard to UPC-3 protection against OS, ROS regulation, or the protection of acute lipotoxicity in UCP-3 (−/−) mice, backcrossed for 10 generations on a C57Bl/6 background and isolated skeletal-muscle mitochondria.
+L48: UCP-3 is expressed in response to exercise and other factors, such as that fat and glucose metabolism modulate its expression during moderate exercise. A rapid biphasic alteration has been observed of UCP-3 gene transcription after 1 h of moderate exercise, and UPC-3 upregulation was sustained for 3 h during the recovery period [ 84 ]. In prolonged exercise, that is, 45, 90, 120, and 150 min of a single bout of exercise, UPC-3 expression is rapidly upregulated in rat skeletal muscle, probably due to the gradual increase of intracellular ROS. Due to UCP-3 upregulation during exercise, it is thought that the former potentiates OxPho because it alleviates the proton gradient across the inner mitochondrial membrane, thus reducing further ROS generation via the ETC. The continued physical activity caused a decline in energy-coupling efficiency observed by a rise in respiration rate as a consequence of proton leak and a decrease in the respiratory control index (RCI). In turn, it has been proposed that this is another way of how UCP-3 may act as an antioxidant to protect the mitochondria in muscle cells from exercise-induced OS [ 85 ]. In parallel, acute or severe hypobaric hypoxia appears to upregulate UCP-3 and may attenuate the cross-membrane potential (Deltapsi). Through endurance, exercise improves the mitochondrial OxPho by means of better ROS elimination and diminishes hypoxia-induced UPC-3 upregulation [ 86 ].
+L49: 4. Mitochondrial Damage in Exercise Performance
+L50: The importance of mitochondrial function is currently being constantly mentioned in terms of maintaining optimal cell conditions. In agreement with hermetic theory, a certain level of stress is required to stimulate or modulate molecular signaling to enhance cell functioning and survival in order to withstand greater insults. Exercise-induced stress is manifested in different forms, including mechanical, metabolic, thermal, and OS, which activates molecular messengers serving as potential boosters of the signaling pathways that regulate adaptative responses to physical training [ 87 ]. The big question now appears to be on how to determine the amount of stress necessary to induce cellular adaptations and when the adaptive threshold is exceeded, and cellular damage starts. That is, at what moment are the cytoprotective defenses of the antioxidant system surpassed?
+L51: From the bioenergetic perspective, mitochondria comprise the cell core in every single reaction in which ATP is required; thus, a constant oxygen supply to fuel muscle-force production must be achieved. In turn, reducing the OxPho capacity will directly affect the athletic physical performance, contributing to fatigue and the previously mentioned OTS. Mitochondrial-reduced capacity can be the cause of restricted VO 2max  and the impairment of performing high-intensity sports activities. Very limited studies have been conducted to elucidate the relation between mitochondrial damage indicators and the detriment of athletic performance. The study conducted by Kadaja et al. [ 88 ], in a six-week treadmill exercise program to determine changes in energy metabolism in rat myocardium, revealed that chronic exhaustive exercise induces the presence of OTS accompanied by muscle catabolism, body-weight loss, and decreased performance.
+L52: It is noteworthy that maximal performance as reflected in physical working capacity was reported in week 3, but in week 6, this decreased remarkably: the animals were unable to maintain that training load for a longer period. Regarding heart–weight changes, a rise was observed to an increased heart-to-body weight ratio, indicating that overtraining induces anabolic responses in the myocardium. Microscopic analysis showed significant myocardium changes, including the disintegration of cardiomyocyte structure, the appearance of peroxisomes, and cellular swelling. Mitochondrial structures appeared to be intact, but had separated from the myofibrils, suggesting that the cytoskeleton surrounding the mitochondria may have disintegrated. Furthermore, the appearance of the peroxisomes, manifested as rounded, electron-dense dark bodies, could be associated with exercise-induced stress. In addition, a decrease was described in OxPhos by means of a reduction in cytochrome c and the impaired coupling of adenylate kinase (AK) to OxPhos. These experiments suggested that overtraining impairs functional coupling between mitochondrial AK2 and ANT protein and produces a drop in the overall capacity of ADP-dependent OxPhos. The study points out that an excessive work volume could result in OTS affecting the myocardium as well.
+L53: The reduced ability to perform high-intensity or extended exercises in athletes with high fatigue ratings and OTS has been positively correlated [ 89 ]. Reduced mitochondrial respiration may perhaps contribute to the impairment of muscle contraction and, in turn, physical performance ( Figure 2 a). Vigorous exercise could also lead to mitochondrial DNA deletion and apoptosis [ 90 ] and additionally to the mitochondrial structural changes observed as well as the swelling and loss of cristae after a single bout of extraneous exercise [ 91 ]. Exhaustive swimming exercise in rats during 10 weeks gave rise to muscle and myocardium damage, reported as the loss of mitochondrial and sarcoplasmic- or endoplasmic-reticulum integrity and the augmented lipid peroxidation of tissue homogenates in exhausted trained and untrained rats [ 92 ]. In addition, overtraining might impact muscle metabolism balance by promoting catabolism on contractile protein synthesis ( Figure 2 b). The overtraining protocol in rats led to a marked quantitative decrease of the slow-twitch oxidative fibers of the soleus muscle and of the fast-twitch glycolytic fibers of plantaris and extensor digitorum longus muscles, body-weight loss, a reduced rate of myosin heavy chain (MHC) synthesis, and an increase of excreted urinary 3-MeHis [ 93 ]. On the other hand, after 11 weeks of severe endurance training, male Wistar rats experienced a reduction in performance of 38% in the nonfunctional overreaching group (NFOR) compared with the functional overreaching group (FOR). In this study, remarkably lower citrate-synthase activity was observed, as well as the lower activity of mitochondrial complex IV in the red gastrocnemius muscle of the NFOR group. Cardiomyocyte apoptosis was also described in endurance overtraining as higher in the NFOR than in the FOR group [ 94 ].
+L54: After an eight-week training protocol of acute exhaustive exercise in rats conducted by Fang et al. [ 95 ], mitochondrial ROS production significantly increased, and the activity of respiratory complex V and ATP content in samples of skeletal muscle and brain was reduced. Acute exhaustive training decreased the expression of prohibitin-1 (PHB1) protein in mitochondria, OxPho was reduced, and the energy metabolism in general mitochondrial function was affected. The PHB comprises a phosphoprotein complex required for mitochondrial homeostasis and survival identified in human T-cells; PHB participates in cell activation, differentiation, function, and viability [ 96 ]. Different evidence reveals that mitochondria as the main supplier of ROS throughout exercise might be a central target of OS damage and the consequent undergoing of structural and functional disruptions. The analysis of mitochondrial fractions has demonstrated a proportional relation of the amount of damaged mitochondria with the extension of training bouts [ 97 ].
+L55: Taken together, this information clearly outlines that these mitochondrial responses to exercise could take two different paths: (1) mitochondrial adaptations in relation to low/moderate exercise, or (2) mitochondrial damage in response to excessive exercise workloads. In this manner, mitochondrial responses will depend to a great degree on the duration, intensity, and the frequency of exercise bouts. Low/moderate exercise promotes mitochondrial biogenesis and with no noticeable mitochondrial impairments such as swelling or disruption of cristae [ 98 , 99 ]. In contrast, exhaustive exercise is associated with cell damage, and with morphological alterations observed as flocculent mitochondria, swelling, incomplete myofibrils, and irregular sarcomeres [ 100 ]. Mitochondrial integrity must be a targeted issue in the search for optimal performance beyond adaptations to exercise.
+L56: 5. Nutrition Insights into Mitochondrial Protection
+L57: 5.1. General View of Antioxidants, Oxidative Stress, and Exercise Performance
+L58: For many years, there has been a constant debate on whether the use of antioxidants truly benefits exercise performance/recovery or impairs biological adaptations to heavy training [ 101 , 102 , 103 ]. Current available data point out that antioxidant requirements should be covered by a balanced and individualized diet, with the individual consuming the recommended dietary allowance (RDA) doses. Nonetheless, under special circumstances such as high-intensity or prolonged exhaustive sports, antioxidant supplementation can be an optimal way to prevent or reduce the consequences of damage, such as unchaining the previously mentioned fatigue and/or OTS [ 104 , 105 ].
+L59: Frequently, antioxidant supplementation is addressed in terms of improving athletic performance, but the evidence is contradictory. It should take into consideration that reducing OS is not necessarily associated with the enhancement of exercise performance. In a double-blind controlled assay, supplementation of vitamin C (500 mg/d) and E (400 IU/d) for 15 days in football players did not modify muscle damage or muscle soreness after acute exercise-induced OS. The reported findings did not exhibit any ergogenic effect; nevertheless, OS was attenuated [ 106 ]. Similarly, supplementation with vitamin C and E in improved indices of OS was associated with repetitive loading exercise by increasing the activity of the antioxidant enzyme MnSOD in young animals. CuZnSOD and CAT activity also increased in young and aged animals and improved the positive work output of muscles in aged rodents. These data suggest that more regulatory factors of OS are implicated, such as age and exercise type, which indirectly influence physical performance [ 107 ].
+L60: On the other hand, four-week antioxidant supplementation with vitamin C (2 × 500 mg/day) and E (400 IU/day) did not exert any effect on skeletal-muscle oxidative OS indicators or in the expression of mitochondrial biogenesis genes (PGC-1α, TFAM, or PGC-related factor). No changes in VO 2max , citrate-synthase activity, and mRNA cytochrome oxidase subunit IV (COX IV) in skeletal muscle were observed. In contrast, antioxidant supplementation attenuated skeletal-muscle adaptation biomarkers in SOD activity and the protein abundance of TFAM and SOD 2 [ 108 ]. Earlier, it was informed that vitamin C and E supplementation blunts adaptations to endurance training in human trials [ 109 ].
+L61: Polyphenols are a huge group of molecules that have been largely investigated for their multiple health benefits [ 110 ], but their tentative impact on OS and exercise performance remains unclear [ 111 ]. Grape polyphenols from beverages, extracts, or supplements have exhibited very good results for the reduction of damage in the intense exercise of diverse sports activities [ 112 ]. Lately, some other phytochemicals appear to be potential compounds that could exert an impact on exercise performance and the lowering of OS in some way by their attributed antioxidant activity. For instance, curcumin at doses of 500 mg/day for 8 weeks significantly improved total antioxidant capacity (TAC), malonaldehyde, serum C-reactive protein (CRP), and VO 2max  in physically active women [ 113 ].
+L62: Our research group found that silymarin, the flavonolignan extract from Milk thistle, has been demonstrated to increase physical performance and to promote muscle hypertrophy and recovery at doses of 100 mg/kg after eight weeks of regular exercise in a rodent model [ 114 ]. Aside, the pretreatment with sulforaphane (SFN) from broccoli in 13-week-age Nrf2+/+ and Nrf2−/− male mice upregulated Nrf2 signaling and downstream genes, improved the endurance capacity associated with a lower OS marker, and provided protection against muscle fatigue during exhaustive exercise. SFN may enhance exercise performance via upregulation of the Nrf2 pathway after an exhaustive treadmill test (progressive-continuous all-out [ 115 ]. To date, very few investigations have been conducted on the benefits of SFN in exercise; however, SFN is thought to be a promising molecule on providing an ergogenic effect on exercise performance because preceding literature supports SFN effectiveness in prompting the Nrf2/Keap1/ARE signaling pathway and in suppressing NF-κΒ signaling. Therefore, SFN has great potential for offering protection against OS, inflammation, and fatigue [ 116 ]. Of note, silymarin and curcumin have also been reported to be effective bioactivators of Nrf2/Keap1/ARE in a variety of in-vitro and in-vivo studies [ 117 , 118 , 119 ].
+L63: 5.2. Mitochondria as Targets for Protection from Oxidative Damage
+L64: At present, substantial evidence indicates that DNA damage appears immediately after acute aerobic exercise but that the potential DNA renewal begins after day 3. The relationship concerning what supports the explanation of exercise-induced DNA damage must be understood beyond the hormesis theory, which refers to ROS/RNS as key actors of genomic damage surrounding the breaking of the balance between physical inactivity and overtraining. A multi-dimensional overview has been recently proposed to build a better approach for the complex relationship between DNA integrity and exercise [ 120 ]. According to the authors, the multi-dimensional model includes the whole perception of multiple factors regarding the extension of DNA oxidative damage that the exercise-induced. Eight main factors are listed as follows: (1) type of ROS/RNS, from the least to the most reactive; (2) frequency of attacks or episodes of exposure to ROS/RNS; (3) type and extension of DNA damage (single/double-strand breaks); (4) magnitude of DNA oxidation by ROS/RNS; (5) exercise intensity/distance; (6) frequency of training bouts; (7) DNA repair enzymes, and (8) degree of individualization, which comprises further issues, such as age, sex, training level, and the nutrition quantification method [ 120 ].
+L65: This entire view would be theoretically applicable to the analysis of mtDNA damage caused by exercise, considering that there are certain elements that could render mtDNA more susceptible to damage in comparison with nuclear DNA, such as the accumulation of transition metal ions, the secondary subproducts of DNA, lipid oxidation, and finally, the absence of histones and chromatin organization. More studies are required to determine the mechanism implicated in mtDNA damage as a result of exhaustive/intensive exercise.
+L66: An understanding of the importance of mitochondrial dynamics in bioenergetics, signaling, and adaptation to exercise, mitochondrial integrity must be an elemental issue in developing target antioxidants. Mitochondrial dysfunction is being associated with several common pathologies, such as metabolic and cardiovascular diseases, ischemia–reperfusion injury, and neurodegeneration; thus, the mitochondrial features have been largely studied as a crucial drug target to treat the previously mentioned disorders [ 121 ]. Several therapeutic approaches are emerging in which some compounds have been designed to provide the target of mitochondrial protection.
+L67: Although the effectiveness of conventional antioxidant supplementation and exercise-induced OS has been well-described [ 122 , 123 , 124 ], there is an absence of evidence regarding mitochondrial-targeted antioxidants in exercise. An example of this is the following double-blind, randomized trial. Twelve healthy male participants (age = 28 ± 10 years, height = 177 ± 12 cm, and body mass = 81 ± 15 kg) were assigned to receive either a daily supplement of 1000 mg of α-lipoic acid (2 × 500-mg tablets) for 14 days or to receive no supplement. The participants performed 100 isolated, continuous, maximal knee extensions (minimal force = 200 N, speed of contraction = 60°·s −1 ). The analysis of blood and muscle biopsy tissue samples revealed that the exercise promoted mtDNA damage by significantly increasing the 8-hydroxy-2-deoxyguanosine (8-OHdG) concentration; in parallel, total antioxidant capacity was significantly reduced in both groups. An augmented total antioxidant capacity was found in blood samples; the comet essay and 8-OHdG analysis confirmed DNA protection and reduced lipid peroxidation and hydroperoxides in the supplemented group. Both groups experienced protein oxidation indistinctly. The findings suggested that short-term α-lipoic acid supplementation may protect nuclear DNA and lipids, but not mtDNA, in high-intensity, isolated, single-leg exercise. The tentative protective role of α-lipoic acid in blood oxidative markers is perhaps independent of muscle OS indicators and shelters DNA integrity selectively. These results may be associated with a different antioxidant baseline ability within the cell compartment [ 125 ].
+L68: 5.3. Target Mitochondrial Antioxidants in Exercise-Induced Oxidative Damage
+L69: In this respect, several factors must be considered, such the inherent mitochondrial biological nature and the chemical nature, such as the molecular dynamics of the bioactive compounds when they are intended to be tested as possible mitochondrial target protectors. Mitochondria possess morphological and physiological features that render them difficult to reach ( Figure 3 ). In addition, bioactive compounds should meet different aspects in order to ensure arrival at the target-cell compartment, and these aspects are herein mentioned as follows: (1) the issue of bioavailability; (2) transportation to the target organelle, and (3) the ability to cross mitochondrial barriers in order to be able to deliver it to the site-of-action. These are the possible limitations that general antioxidants may frequently face in the attempt to exert an antioxidant effect within the mitochondria. Therefore, different current forms of target antioxidants have been designed, such as lipophilic cations, liposome enclosure, and target peptides. Examples of these target antioxidants employed in clinical trials are MitoQ [ 126 , 127 , 128 ], MitoE [ 129 , 130 ], tiron [ 131 ], and MitoC [ 132 ]. For an integrative overview of target mitochondrial antioxidants in exercise-induced DNA damage, see the recommended review [ 133 ].
+L70: The difference between mitochondrial-target antioxidants and untargeted antioxidants is the potential to remove ROS/RNS from the production source due to the ability to cross the mitochondrial phospholipid bilayer [ 134 ]. MitoQ is an orally available mitochondrial-target coenzyme Q10 that contains the antioxidant quinone moiety covalently attached to a lipophilic triphenylphosphonium cation. MitoQ has been applied in a variety of in-vivo studies in rodent models and in diverse human trials [ 135 ]. MitoQ has the ability to mimic the antioxidant activity of coenzyme Q (CoQ) and simultaneously increase to supraphysiological levels in a mitochondrial-membrane potential-dependent manner to approximately 100–1000 times greater than non-target derivatives. MitoQ is positively charged, possesses a large molecular weight and is highly lipophilic and low water-soluble. These properties allow MitoQ to pass easily through biological membranes, promoting its mitochondrial accumulation to several hundred-fold, encouraged by the mitochondrial membrane potential [ 136 , 137 , 138 ]. MitoQ can be accumulated in the inner mitochondrial membrane at the matrix-facing side, where it is reduced by complex II to ubiquinol (MitoQH 2 ) [ 139 ]. These localization abilities permit MitoQ to donate hydrogen atoms to oxygen, or even α-tocopherol radicals; thus, it can be effective against lipid peroxidation and peroxynitrite, preventing or attenuating oxidative damage in mitochondrial lipids, proteins, or mtDNA [ 140 ]. Consequently, it represents a potential way to deliver precise cytoprotection against exercise-induced oxidative damage.
+L71: The study of MitoQ in the context of the exercise was first explored by Shill et al. in 2016 [ 141 ] and, after three weeks of MitQ supplementation (10 mg/day), the authors demonstrated that skeletal-muscle and whole-body adaptation to endurance training was not affected by MitoQ in young, healthy men by the absence of a significant difference in VO 2max  oxidative capacity and circulating angiogenic cells. Recently, the novel work of Williamson et al. [ 142 ] demonstrated, in a double-blind placebo controlled study, that in a high-intensity intermittent exercise (HIIE), randomized, placebo-controlled design, 24 healthy male participants divided into two groups (placebo;  n  = 12, MitoQ;  n  = 12) were subjected to an exercise trial of 4 × 4-min bouts of cycling at 90–95% of maximal heart rate. The participants received an acute treatment of 20 mg-MitoQ or placebo 1-h pre-exercise and a chronic 21-day phase of supplementation. The results indicated that HIIE induced mtDNA damage in lymphocytes and in human-muscle tissue that was accompanied by modifications in lipid hydroperoxides, α-tocopherol, and ascorbyl free radicals. The MitoQ acute treatment was not sufficiently efficient to protect against mtDNA damage, possibly due to the low bioavailability. Notwithstanding, chronic MitoQ supplementation protected nuclear and mtDNA damage; the likely mechanisms implied that MitoQ helps to metabolize ROS, and that it may also safeguard complexes I and IV (cytochrome c complexes) in the ETC from oxidative damage.
+L72: MitoQ may have also interacted with proton-motivated forces (uptake reduces proton-motivated force) and favored the coenzyme Q-pool redox state, which possibly affected complex III-mediated superoxide production. In addition, MitoQ could be helping in extramitochondrial activities and in potential participation in metabolizing cytosolic H 2 O 2 . This research offers a new understanding with regard to mechanistic insights into mitochondrial redox dynamics and targeted supplementation to safeguard nuclear and mitochondrial genomes following HIIE. MitoQ is the best example of how to target antioxidants elicit benefits in protection against oxidative damage due to heavy training; however, the ability of MitoQ would be opposite to this if mitochondrial concentrations were increased to 0.5–1 µM vs. 2 µM on H 2 O 2  production. It is noteworthy that when the balance between antioxidants and prooxidants is broken, we again have the same concern; that is, when cellular situations of susceptibility, such as unstable lipid membranes, quinone-derived compounds might propagate lipid peroxidation within the mitochondrial membrane [ 143 , 144 ]. This is possible because mitochondria are highly predominant in lipids susceptible to peroxidation, such as anionic cardiolipin, phosphatidylethanolamine, and phosphatidylcholine [ 145 ].
+L73: Park et al. [ 146 ] reported that the acute oral intake of MitoQ (80 mg) improved maximal walking capacity and postponed the onset of limping in individuals with peripheral artery disease. The authors also observed increasing vascular endothelial function and SOD. Although this research was not conducted exclusively in the context of high-intense or extended exercise, it was, to the authors’ knowledge, the first study of mixed exercise-targeted antioxidant supplementation with pathological variables. This highlights that several studies indicating the prophylactic effect attributed to MitoQ are related to the upregulation of the Nrf2/Keap1/ARE signaling pathway and the target antioxidant genes HO-1, NQO, GPx, GR, Trx, CAT, and γ-GCLC [ 126 , 128 , 147 ], which could also be involved in the complex network of cytoprotection in conjunction with the target mitochondrial antioxidant activity. It is also important to bear in mind the role that Nrf2 signaling plays in mitochondrial biogenesis and adaptation, together with other transcriptional factors, such as PGC-1α, NF-κΒ, PPARα, EERα, TFAM, among others, that we have already discussed. Therefore, it would be very limiting to only address the benefits of MitoQ in terms of a single mode-of-action.
+L74: Other interesting molecules appear attractive with respect to the Szeto–Schiller (SS) peptides (SS-19, SS-02, SS-31, and SS-20), which have been analyzed in some trials: these peptides also provide an antioxidant effect attributed to their tyrosine or dimethyl tyrosine residue, which allows them to scavenge ROS easily. These molecules are able to accumulate in the inner mitochondrial membrane at a concentration of 1000–5000-fold by means of hydrophilic and hydrostatic interactions; thus, they are able to cross cellular and mitochondrial membranes because they also possess the alternating aromatic–cationic amino-acid motif [ 148 ]. It appears that SS-31 has been mainly efficient according to the data because of its ability to attach to and protect against cardiolipin peroxidation by shifting cytochrome c peroxidase activity [ 149 , 150 ]. In addition, it can scavenge peroxynitrite and hydroxyl radicals due to the addition of dimethyl tyrosine [ 151 ]. In 14 days of inactivity-induced muscle atrophy, SS-31 supplementation mitigated mitochondrial ROS, protease activation, and muscle atrophy; to a great extent, skeletal-muscle atrophy is linked to modifications in cytosolic free Ca 2+ , inducing the activation of caspase-3 and calpain [ 152 ].
+L75: Peptides also comprise an innovative topic as a goal in mitochondrial protection; micropeptides are small molecules of <100 amino acids with specific functions [ 153 ]. Most recently, a novel muscle-enriched micropeptide was identified that was localized to mitochondria and that is denominated a micropeptide in mitochondria (MPM), identified in a ClC2 myoblast. The silencing  MPM  gene (MPM−/−) in mice permitted the recognition of its implication in myogenic differentiation and in muscle-fiber growth when the expression of  Pax7 ,  MyoD , and  MyoG  expression was impaired in MPM−/−. Furthermore, MPM−/− mice exhibited smaller skeletal-muscle fibers and worse muscle performance, manifested by a reduction in the maximal grip force of limbs, the latency to fall off the rotarod, and the exhausting swimming time. These effects were due to that  MPM  is involved in mitochondrial respiratory activity and mitochondrial biogenesis simultaneously, thus becoming a suitable target for therapy for muscle dystrophy or perhaps as a therapy for other muscle disorders [ 154 ].
+L76: Finally, while bioactive compounds from foods or plants, probably similar to those that we have mentioned before, including polyphenols, SFN, curcumin, and silymarin, do not fit into the categorization of target antioxidants, have the potential for very profound exploration in an attempt to elucidate their possible effects on mitochondrial protection and possible interactions within cell signaling, such as activation of the Nrf2 pathway [ 155 , 156 ].
+L77: 6. Conclusions and Perspectives
+L78: The oxidative stress induced by an imbalance between ROS/RNS production and antioxidant systems has been well described in many pathological conditions, such as cancer, diabetes, cardiovascular diseases, immunological, neurodegenerative disorders, and aging. Moreover, as a consequence of increased oxygen consumption and energy demands through physical exercise, more ROS/RNS are produced, unchaining a series of cellular events related to the antioxidant response, molecular signaling linked with adaptation, and other biological responses. It is also known that high-intensity or exhaustive exercise might surpass the EnAS, raising oxidative stress, inflammation, and skeletal-muscle damage that, under chronic exposure, may eventually lead to fatigue and OTS, affecting performance.
+L79: Despite the vast literature with respect to exercise-induced muscle damage, few investigations have addressed mitochondrial damage and nutrition-specific strategies. Supplementation with antioxidants received particular attention as an essential tool for preventing or attenuating the damage induced, thus probably exerting a positive impact on sports performance [ 157 ]. However, evidence is highly contradictory concerning whether antioxidants truly benefit performance due to their protection or to their impairing adaptations to exercise. Mitochondria comprise one of the major ROS/RNS producers; therefore, they are highly susceptible to being attacked, and EnAS would not be sufficient to counteract mitochondrial damage, leading to a detriment in the performance of exercise and recovery.
+L80: Building on the limited body of literature, this review provides new insights into the role of exercise-induced redox perturbations in mitochondria, along with a new perspective on mitochondrial-targeted supplementation, which represents a novel area to explore. At the same time, there are a large number of bioactive compounds that could also offer protection by triggering the signaling involved in cytoprotection, mitochondrial dynamics, mitohormesis and biogenesis. It is noteworthy that the cytoprotector response is the result of constant crosstalk between EnAS and ExAS, and efficacy is notably based on arriving at a systemic equilibrium and an attempt to preserve this balance to the degree possible.
+L81: In conclusion, future research should take into consideration that mitochondrial oxidative damage might intervene in cellular adaptation, but that the supplementation of antioxidants might influence exercise performance. To date, it continues to be difficult to reach a conclusion in terms of antioxidant supplementation in athletes. Nonetheless, the use of antioxidants for mitochondrial protection against exercise-induced oxidative damage remains an innovative field to investigate from different angles.
+L82: Figure 1 Exercise-induced oxidative stress and the development of the mithormetic response. Created with  BioRender.com  (accessed on 10 November 2021). NADH: reduced nicotinamide adenine dinucleotide; NAD: nicotinamide adenine dinucleotide; FADH: reduced flavin adenine dinucleotide; FAD: flavin adenine dinucleotide; CoQ: coenzyme Q; Cyt C: cytochrome C: PGC1-α: peroxisome proliferator-activated receptor gamma coactivator-1 alpha; Nrf2: nuclear factor erythroid 2-related factor; NF-κB: nuclear factor-kappa beta.
+L83: Figure 2 Impact of mitochondrial damage in exercise performance. ( a ) Graphical representation of mitochondrial reduced function and impairment of muscle contraction in intense or exhausting exercise. ( b ) Description of overtraining and the impact on muscle catabolism. ROS: reactive oxygen species; OxPho: oxidative phosphorylation; MRC: mitochondrial respiratory chain. Created with  BioRednder.com  (accessed on 24 October 2021).
+L84: Figure 3 Efficacy of non-target versus target mitochondrial antioxidants supplementation and their effect on exercise performance. MCR: mitochondrial respiratory chain; MPM: micropeptide in mitochondria; SFN: sulforaphane. Created with  BioRender.com  (accessed on 24 October 2021).
+L85: 1. Powers S.K. 
+L86:  Ji L.L. 
+L87:  Kavazis A.N. 
+L88:  Jackson M.J. 
+L89:  Reactive oxygen species: Impact on skeletal muscle Compr. Physiol. 2011 1 941 969 10.1002/cphy.c100054 23737208
+L90: 2. Powers S.K. 
+L91:  Jackson M.J. 
+L92:  Exercise-induced oxidative stress: Cellular mechanisms and impact on muscle force production Physiol. Rev. 2008 88 1243 1276 10.1152/physrev.00031.2007 18923182
+L93: 3. Jones D.P. 
+L94:  Redefining Oxidative Stress Antioxid. Redox Signal. 2006 8 1865 1879 10.1089/ars.2006.8.1865 16987039
+L95: 4. Dinkova-Kostova A.T. 
+L96:  Abramov A.Y. 
+L97:  The emerging role of Nrf2 in mitochondrial function Free. Radic. Biol. Med. 2015 88 179 188 10.1016/j.freeradbiomed.2015.04.036 25975984
+L98: 5. Zorov D.B. 
+L99:  Juhaszova M. 
+L100:  Sollott S.J. 
+L101:  Mitochondrial reactive oxygen species (ROS) and ROS-induced ROS release Physiol. Rev. 2014 94 909 950 10.1152/physrev.00026.2013 24987008
+L102: 6. Powers S.K. 
+L103:  Deminice R. 
+L104:  Ozdemir M. 
+L105:  Yoshihara T. 
+L106:  Bomkamp M.P. 
+L107:  Hyatt H. 
+L108:  Exercise-induced oxidative stress: Friend or foe? J. Sport Health Sci. 2020 9 415 425 10.1016/j.jshs.2020.04.001 32380253
+L109: 7. Ferreira L.F. 
+L110:  Laitano O. 
+L111:  Regulation of NADPH oxidases in skeletal muscle Free Radic. Biol. Med. 2016 98 18 28 10.1016/j.freeradbiomed.2016.05.011 27184955
+L112: 8. Gong M.C. 
+L113:  Arbogast S. 
+L114:  Guo Z. 
+L115:  Mathenia J. 
+L116:  Su W. 
+L117:  Reid M.B. 
+L118:  Calcium-independent phospholipase A2 modulates cytosolic oxidant activity and contractile function in murine skeletal muscle cells J. Appl. Physiol. 2006 100 399 405 10.1152/japplphysiol.00873.2005 16166238
+L119: 9. Nethery D. 
+L120:  Stofan D. 
+L121:  Callahan L. 
+L122:  DiMarco A. 
+L123:  Supinski G. 
+L124:  Formation of reactive oxygen species by the contracting diaphragm is PLA2dependent J. Appl. Physiol. 1999 87 792 800 10.1152/jappl.1999.87.2.792 10444641
+L125: 10. Cheng A.J. 
+L126:  Jude B. 
+L127:  Lanner J.T. 
+L128:  Intramuscular mechanisms of overtraining Redox Biol. 2020 35 101480 10.1016/j.redox.2020.101480 32179050
+L129: 11. Wan J.-J. 
+L130:  Qin Z. 
+L131:  Wang P.-Y. 
+L132:  Sun Y. 
+L133:  Liu X. 
+L134:  Muscle fatigue: General understanding and treatment Exp. Mol. Med. 2017 49 e384 10.1038/emm.2017.194 28983090
+L135: 12. Andrade F.H. 
+L136:  Reid M.B. 
+L137:  Allen D.G. 
+L138:  Westerblad H. 
+L139:  Effect of hydrogen peroxide and dithiothreitol on contractile function of single skeletal muscle fibres from the mouse J. Physiol. 1998 509 Pt 2 565 575 10.1111/j.1469-7793.1998.565bn.x 9575304
+L140: 13. Cheng A.J. 
+L141:  Yamada T. 
+L142:  Rassier D.E. 
+L143:  Andersson D.C. 
+L144:  Westerblad H. 
+L145:  Lanner J.T. 
+L146:  Reactive oxygen/nitrogen species and contractile function in skeletal muscle during fatigue and recovery J. Physiol. 2016 594 5149 5160 10.1113/JP270650 26857536
+L147: 14. Debold E.P. 
+L148:  Potential molecular mechanisms underlying muscle fatigue mediated by reactive oxygen and nitrogen species Front. Physiol. 2015 6 239 10.3389/fphys.2015.00239 26388779
+L149: 15. Hargreaves M. 
+L150:  Spriet L.L. 
+L151:  Skeletal muscle energy metabolism during exercise Nat. Metab. 2020 2 817 828 10.1038/s42255-020-0251-4 32747792
+L152: 16. Murphy M.P. 
+L153:  How mitochondria produce reactive oxygen species Biochem. J. 2009 417 1 13 10.1042/BJ20081386 19061483
+L154: 17. Boveris A. 
+L155:  Chance B. 
+L156:  The mitochondrial generation of hydrogen peroxide. General properties and effect of hyperbaric oxygen Biochem. J. 1973 134 707 716 10.1042/bj1340707 4749271
+L157: 18. Quinlan C.L. 
+L158:  Perevoshchikova I.V. 
+L159:  Hey-Mogensen M. 
+L160:  Orr A.L. 
+L161:  Brand M.D. 
+L162:  Sites of reactive oxygen species generation by mitochondria oxidizing different substrates Redox Biol. 2013 1 304 312 10.1016/j.redox.2013.04.005 24024165
+L163: 19. Brand M.D. 
+L164:  Mitochondrial generation of superoxide and hydrogen peroxide as the source of mitochondrial redox signaling Free Radic. Biol. Med. 2016 100 14 31 10.1016/j.freeradbiomed.2016.04.001 27085844
+L165: 20. Sakellariou G.K. 
+L166:  Jackson M.J. 
+L167:  Vasilaki A. 
+L168:  Redefining the major contributors to superoxide production in contracting skeletal muscle. The role of NAD(P)H oxidases Free Radic. Res. 2014 48 12 29 10.3109/10715762.2013.830718 23915064
+L169: 21. Sakellariou G.K. 
+L170:  Vasilaki A. 
+L171:  Palomero J. 
+L172:  Kayani A. 
+L173:  Zibrik L. 
+L174:  McArdle A. 
+L175:  Jackson M.J. 
+L176:  Studies of mitochondrial and nonmitochondrial sources implicate nicotinamide adenine dinucleotide phosphate oxidase(s) in the increased skeletal muscle superoxide generation that occurs during contractile activity Antioxid. Redox Signal. 2013 18 603 621 10.1089/ars.2012.4623 23050834
+L177: 22. Culotta V.C. 
+L178:  Yang M. 
+L179:  O’Halloran T.V. 
+L180:  Activation of superoxide dismutases: Putting the metal to the pedal Biochim. Biophys. Acta 2006 1763 747 758 10.1016/j.bbamcr.2006.05.003 16828895
+L181: 23. Criswell D. 
+L182:  Powers S. 
+L183:  Dodd S. 
+L184:  Lawler J. 
+L185:  Edwards W. 
+L186:  Renshler K. 
+L187:  Grinton S. 
+L188:  High intensity training-induced changes in skeletal muscle antioxidant enzyme activity Med. Sci. Sports Exerc. 1993 25 1135 1140 10.1249/00005768-199310000-00009 8231758
+L189: 24. Powers S.K. 
+L190:  Criswell D. 
+L191:  Lawler J. 
+L192:  Ji L.L. 
+L193:  Martin D. 
+L194:  Herb R.A. 
+L195:  Dudley G. 
+L196:  Influence of exercise and fiber type on antioxidant enzyme activity in rat skeletal muscle Am. J. Physiol. 1994 266 R375 R380 10.1152/ajpregu.1994.266.2.R375 8141392
+L197: 25. Deponte M. 
+L198:  Glutathione catalysis and the reaction mechanisms of glutathione-dependent enzymes Biochim. Biophys. Acta 2013 1830 3217 3266 10.1016/j.bbagen.2012.09.018 23036594
+L199: 26. Bermingham E.N. 
+L200:  Hesketh J.E. 
+L201:  Sinclair B.R. 
+L202:  Koolaard J.P. 
+L203:  Roy N.C. 
+L204:  Selenium-enriched foods are more effective at increasing glutathione peroxidase (GPx) activity compared with selenomethionine: A meta-analysis Nutrients 2014 6 4002 4031 10.3390/nu6104002 25268836
+L205: 27. Li R. 
+L206:  Fan X. 
+L207:  Zhang T. 
+L208:  Song H. 
+L209:  Bian X. 
+L210:  Nai R. 
+L211:  Li J. 
+L212:  Zhang J. 
+L213:  Expression of selenium-independent glutathione peroxidase 5 (GPx5) in the epididymis of Small Tail Han sheep Asian-Australas. J. Anim. Sci. 2018 31 1591 1597 10.5713/ajas.18.0015 29642666
+L214: 28. Chen J. 
+L215:  Zhang Y. 
+L216:  Lv Y. 
+L217:  Tian M. 
+L218:  You J. 
+L219:  Chen F. 
+L220:  Zhang S. 
+L221:  Guan W. 
+L222:  Effects of Selenomethionine on Cell Viability, Selenoprotein Expression and Antioxidant Function in Porcine Mammary Epithelial Cells Front. Nutr. 2021 8 665855 10.3389/fnut.2021.665855 34381803
+L223: 29. Chen Y.I. 
+L224:  Wei P.C. 
+L225:  Hsu J.L. 
+L226:  Su F.Y. 
+L227:  Lee W.H. 
+L228:  NPGPx (GPx7): A novel oxidative stress sensor/transmitter with multiple roles in redox homeostasis Am. J. Transl. Res. 2016 8 1626 1640 27186289
+L229: 30. Khatib A. 
+L230:  Solaimuthu B. 
+L231:  Ben Yosef M. 
+L232:  Abu Rmaileh A. 
+L233:  Tanna M. 
+L234:  Oren G. 
+L235:  Schlesinger Frisch M. 
+L236:  Axelrod J.H. 
+L237:  Lichtenstein M. 
+L238:  Shaul Y.D. 
+L239:  The glutathione peroxidase 8 (GPX8)/IL-6/STAT3 axis is essential in maintaining an aggressive breast cancer phenotype Proc. Natl. Acad. Sci. USA 2020 117 21420 21431 10.1073/pnas.2010275117 32817494
+L240: 31. Schriner S.E. 
+L241:  Linford N.J. 
+L242:  Martin G.M. 
+L243:  Treuting P. 
+L244:  Ogburn C.E. 
+L245:  Emond M. 
+L246:  Coskun P.E. 
+L247:  Ladiges W. 
+L248:  Wolf N. 
+L249:  Van Remmen H. 
+L250:  
+L251:  Extension of murine life span by overexpression of catalase targeted to mitochondria Science 2005 308 1909 1911 10.1126/science.1106653 15879174
+L252: 32. Jastrząb A. 
+L253:  Skrzydlewska E. 
+L254:  Thioredoxin-dependent system. Application of inhibitors J. Enzym. Inhib. Med. Chem. 2021 36 362 371 10.1080/14756366.2020.1867121
+L255: 33. Zhong L. 
+L256:  Arnér E.S. 
+L257:  Holmgren A. 
+L258:  Structure and mechanism of mammalian thioredoxin reductase: The active site is a redox-active selenolthiol/selenenylsulfide formed from the conserved cysteine-selenocysteine sequence Proc. Natl. Acad. Sci. USA 2000 97 5854 5859 10.1073/pnas.100114897 10801974
+L259: 34. Arnér E.S. 
+L260:  Holmgren A. 
+L261:  Physiological functions of thioredoxin and thioredoxin reductase Eur. J. Biochem. 2000 267 6102 6109 10.1046/j.1432-1327.2000.01701.x 11012661
+L262: 35. Rhee S.G. 
+L263:  Kil I.S. 
+L264:  Multiple Functions and Regulation of Mammalian Peroxiredoxins Annu. Rev. Biochem. 2017 86 749 775 10.1146/annurev-biochem-060815-014431 28226215
+L265: 36. Rhee S.G. 
+L266:  Woo H.A. 
+L267:  Kang D. 
+L268:  The Role of Peroxiredoxins in the Transduction of H(2)O(2) Signals Antioxid. Redox Signal. 2018 28 537 557 10.1089/ars.2017.7167 28587524
+L269: 37. Holmgren A. 
+L270:  Antioxidant function of thioredoxin and glutaredoxin systems Antioxid. Redox Signal. 2000 2 811 820 10.1089/ars.2000.2.4-811 11213485
+L271: 38. Ferraro E. 
+L272:  Giammarioli A.M. 
+L273:  Chiandotto S. 
+L274:  Spoletini I. 
+L275:  Rosano G. 
+L276:  Exercise-induced skeletal muscle remodeling and metabolic adaptation: Redox signaling and role of autophagy Antioxid. Redox Signal. 2014 21 154 176 10.1089/ars.2013.5773 24450966
+L277: 39. Gomez-Cabrera M.C. 
+L278:  Carretero A. 
+L279:  Millan-Domingo F. 
+L280:  Garcia-Dominguez E. 
+L281:  Correas A.G. 
+L282:  Olaso-Gonzalez G. 
+L283:  Viña J. 
+L284:  Redox-related biomarkers in physical exercise Redox Biol. 2021 42 101956 10.1016/j.redox.2021.101956 33811000
+L285: 40. Puigserver P. 
+L286:  Spiegelman B.M. 
+L287:  Peroxisome proliferator-activated receptor-gamma coactivator 1 alpha (PGC-1 alpha): Transcriptional coactivator and metabolic regulator Endocr. Rev. 2003 24 78 90 10.1210/er.2002-0012 12588810
+L288: 41. Spiegelman B.M. 
+L289:  Transcriptional control of energy homeostasis through the PGC1 coactivators Novartis Found. Symp. 2007 286 3–6; discussion 6–12, 162–163, 196–203 18269170
+L290: 42. Baar K. 
+L291:  Nutrition and the adaptation to endurance training Sports Med. 2014 44 (Suppl. 1) S5 S12 10.1007/s40279-014-0146-1 24791912
+L292: 43. Chinsomboon J. 
+L293:  Ruas J. 
+L294:  Gupta R.K. 
+L295:  Thom R. 
+L296:  Shoag J. 
+L297:  Rowe G.C. 
+L298:  Sawada N. 
+L299:  Raghuram S. 
+L300:  Arany Z. 
+L301:  The transcriptional coactivator PGC-1alpha mediates exercise-induced angiogenesis in skeletal muscle Proc. Natl. Acad. Sci. USA 2009 106 21401 21406 10.1073/pnas.0909131106 19966219
+L302: 44. Arany Z. 
+L303:  Lebrasseur N. 
+L304:  Morris C. 
+L305:  Smith E. 
+L306:  Yang W. 
+L307:  Ma Y. 
+L308:  Chin S. 
+L309:  Spiegelman B.M. 
+L310:  The transcriptional coactivator PGC-1beta drives the formation of oxidative type IIX fibers in skeletal muscle Cell Metab. 2007 5 35 46 10.1016/j.cmet.2006.12.003 17189205
+L311: 45. Eggler A.L. 
+L312:  Small E. 
+L313:  Hannink M. 
+L314:  Mesecar A.D. 
+L315:  Cul3-mediated Nrf2 ubiquitination and antioxidant response element (ARE) activation are dependent on the partial molar volume at position 151 of Keap1 Biochem. J. 2009 422 171 180 10.1042/BJ20090471 19489739
+L316: 46. Bryan H.K. 
+L317:  Olayanju A. 
+L318:  Goldring C.E. 
+L319:  Park B.K. 
+L320:  The Nrf2 cell defence pathway: Keap1-dependent and -independent mechanisms of regulation Biochem. Pharmacol. 2013 85 705 717 10.1016/j.bcp.2012.11.016 23219527
+L321: 47. Raghunath A. 
+L322:  Sundarraj K. 
+L323:  Nagarajan R. 
+L324:  Arfuso F. 
+L325:  Bian J. 
+L326:  Kumar A.P. 
+L327:  Sethi G. 
+L328:  Perumal E. 
+L329:  Antioxidant response elements: Discovery, classes, regulation and potential applications Redox Biol. 2018 17 297 314 10.1016/j.redox.2018.05.002 29775961
+L330: 48. Kang D. 
+L331:  Kim S.H. 
+L332:  Hamasaki N. 
+L333:  Mitochondrial transcription factor A (TFAM): Roles in maintenance of mtDNA and cellular functions Mitochondrion 2007 7 39 44 10.1016/j.mito.2006.11.017 17280879
+L334: 49. Lee J. 
+L335:  Giordano S. 
+L336:  Zhang J. 
+L337:  Autophagy, mitochondria and oxidative stress: Cross-talk and redox signalling Biochem. J. 2012 441 523 540 10.1042/BJ20111451 22187934
+L338: 50. Garza-Lombó C. 
+L339:  Pappa A. 
+L340:  Panayiotidis M.I. 
+L341:  Franco R. 
+L342:  Redox homeostasis, oxidative stress and mitophagy Mitochondrion 2020 51 105 117 10.1016/j.mito.2020.01.002 31972372
+L343: 51. Komatsu M. 
+L344:  Kurokawa H. 
+L345:  Waguri S. 
+L346:  Taguchi K. 
+L347:  Kobayashi A. 
+L348:  Ichimura Y. 
+L349:  Sou Y.S. 
+L350:  Ueno I. 
+L351:  Sakamoto A. 
+L352:  Tong K.I. 
+L353:  
+L354:  The selective autophagy substrate p62 activates the stress responsive transcription factor Nrf2 through inactivation of Keap1 Nat. Cell Biol. 2010 12 213 223 10.1038/ncb2021 20173742
+L355: 52. Yamada T. 
+L356:  Murata D. 
+L357:  Adachi Y. 
+L358:  Itoh K. 
+L359:  Kameoka S. 
+L360:  Igarashi A. 
+L361:  Kato T. 
+L362:  Araki Y. 
+L363:  Huganir R.L. 
+L364:  Dawson T.M. 
+L365:  
+L366:  Mitochondrial Stasis Reveals p62-Mediated Ubiquitination in Parkin-Independent Mitophagy and Mitigates Nonalcoholic Fatty Liver Disease Cell Metab. 2018 28 588 604 10.1016/j.cmet.2018.06.014 30017357
+L367: 53. Georgakopoulos N.D. 
+L368:  Frison M. 
+L369:  Alvarez M.S. 
+L370:  Bertrand H. 
+L371:  Wells G. 
+L372:  Campanella M. 
+L373:  Reversible Keap1 inhibitors are preferential pharmacological tools to modulate cellular mitophagy Sci. Rep. 2017 7 10303 10.1038/s41598-017-07679-7 28871145
+L374: 54. Laker R.C. 
+L375:  Drake J.C. 
+L376:  Wilson R.J. 
+L377:  Lira V.A. 
+L378:  Lewellen B.M. 
+L379:  Ryall K.A. 
+L380:  Fisher C.C. 
+L381:  Zhang M. 
+L382:  Saucerman J.J. 
+L383:  Goodyear L.J. 
+L384:  
+L385:  Ampk phosphorylation of Ulk1 is required for targeting of mitochondria to lysosomes in exercise-induced mitophagy Nat. Commun. 2017 8 548 10.1038/s41467-017-00520-9 28916822
+L386: 55. Li H. 
+L387:  Miao W. 
+L388:  Ma J. 
+L389:  Xv Z. 
+L390:  Bo H. 
+L391:  Li J. 
+L392:  Zhang Y. 
+L393:  Ji L.L. 
+L394:  Acute Exercise-Induced Mitochondrial Stress Triggers an Inflammatory Response in the Myocardium via NLRP3 Inflammasome Activation with Mitophagy Oxidative Med. Cell. Longev. 2016 2016 1987149 10.1155/2016/1987149 26770647
+L395: 56. Ji L.L. 
+L396:  Gomez-Cabrera M.C. 
+L397:  Vina J. 
+L398:  Exercise and hormesis: Activation of cellular antioxidant signaling pathway Ann. N. Y. Acad. Sci. 2006 1067 425 435 10.1196/annals.1354.061 16804022
+L399: 57. Lawler J.M. 
+L400:  Rodriguez D.A. 
+L401:  Hord J.M. 
+L402:  Mitochondria in the middle: Exercise preconditioning protection of striated muscle J. Physiol. 2016 594 5161 5183 10.1113/JP270656 27060608
+L403: 58. Alleman R.J. 
+L404:  Katunga L.A. 
+L405:  Nelson M.A. 
+L406:  Brown D.A. 
+L407:  Anderson E.J. 
+L408:  The “Goldilocks Zone” from a redox perspective-Adaptive vs. deleterious responses to oxidative stress in striated muscle Front. Physiol. 2014 5 358 10.3389/fphys.2014.00358 25278906
+L409: 59. Huang W.C. 
+L410:  Hung M.C. 
+L411:  Beyond NF-κB activation: Nuclear functions of IκB kinase α J. Biomed. Sci. 2013 20 3 10.1186/1423-0127-20-3 23343355
+L412: 60. Li Q. 
+L413:  Engelhardt J.F. 
+L414:  Interleukin-1beta induction of NFkappaB is partially regulated by H 2 O 2 -mediated activation of NFkappaB-inducing kinase J. Biol. Chem. 2006 281 1495 1505 10.1074/jbc.M511153200 16286467
+L415: 61. Ghosh S. 
+L416:  Karin M. 
+L417:  Missing pieces in the NF-kappaB puzzle Cell 2002 109 (Suppl. 1) S81 S96 10.1016/S0092-8674(02)00703-1 11983155
+L418: 62. Obata T. 
+L419:  Brown G.E. 
+L420:  Yaffe M.B. 
+L421:  MAP kinase pathways activated by stress: The p38 MAPK pathway Crit. Care Med. 2000 28 N67 N77 10.1097/00003246-200004001-00008 10807318
+L422: 63. Kyriakis J.M. 
+L423:  Avruch J. 
+L424:  Mammalian mitogen-activated protein kinase signal transduction pathways activated by stress and inflammation Physiol. Rev. 2001 81 807 869 10.1152/physrev.2001.81.2.807 11274345
+L425: 64. Cuschieri J. 
+L426:  Maier R.V. 
+L427:  Mitogen-activated protein kinase (MAPK) Crit. Care Med. 2005 33 S417 S419 10.1097/01.CCM.0000191714.39495.A6 16340409
+L428: 65. Merry T.L. 
+L429:  Ristow M. 
+L430:  Mitohormesis in exercise training Free. Radic. Biol. Med. 2016 98 123 130 10.1016/j.freeradbiomed.2015.11.032 26654757
+L431: 66. Musci R.V. 
+L432:  Hamilton K.L. 
+L433:  Linden M.A. 
+L434:  Exercise-Induced Mitohormesis for the Maintenance of Skeletal Muscle and Healthspan Extension Sports 2019 7 170 10.3390/sports7070170 31336753
+L435: 67. Wang P. 
+L436:  Li C.G. 
+L437:  Qi Z. 
+L438:  Cui D. 
+L439:  Ding S. 
+L440:  Acute exercise stress promotes Ref1/Nrf2 signalling and increases mitochondrial antioxidant activity in skeletal muscle Exp. Physiol. 2016 101 410 420 10.1113/EP085493 26682532
+L441: 68. Merry T.L. 
+L442:  Ristow M. 
+L443:  Nuclear factor erythroid-derived 2-like 2 (NFE2L2, Nrf2) mediates exercise-induced mitochondrial biogenesis and the anti-oxidant response in mice J. Physiol. 2016 594 5195 5207 10.1113/JP271957 27094017
+L444: 69. Pani G. 
+L445:  Galeotti T. 
+L446:  Role of MnSOD and p66shc in mitochondrial response to p53 Antioxid. Redox Signal. 2011 15 1715 1727 10.1089/ars.2010.3499 20712406
+L447: 70. Pani G. 
+L448:  Koch O.R. 
+L449:  Galeotti T. 
+L450:  The p53-p66shc-Manganese Superoxide Dismutase (MnSOD) network: A mitochondrial intrigue to generate reactive oxygen species Int. J. Biochem. Cell Biol. 2009 41 1002 1005 10.1016/j.biocel.2008.10.011 18992840
+L451: 71. Wang P. 
+L452:  Li C.G. 
+L453:  Qi Z. 
+L454:  Cui D. 
+L455:  Ding S. 
+L456:  Acute exercise induced mitochondrial H 2 O 2  production in mouse skeletal muscle: Association with p(66Shc) and FOXO3a signaling and antioxidant enzymes Oxidative Med. Cell. Longev. 2015 2015 536456 10.1155/2015/536456
+L457: 72. Iversen N. 
+L458:  Krustrup P. 
+L459:  Rasmussen H.N. 
+L460:  Rasmussen U.F. 
+L461:  Saltin B. 
+L462:  Pilegaard H. 
+L463:  Mitochondrial biogenesis and angiogenesis in skeletal muscle of the elderly Exp. Gerontol. 2011 46 670 678 10.1016/j.exger.2011.03.004 21504786
+L464: 73. Demine S. 
+L465:  Renard P. 
+L466:  Arnould T. 
+L467:  Mitochondrial Uncoupling: A Key Controller of Biological Processes in Physiology and Diseases Cells 2019 8 795 10.3390/cells8080795
+L468: 74. Jastroch M. 
+L469:  Divakaruni A.S. 
+L470:  Mookerjee S. 
+L471:  Treberg J.R. 
+L472:  Brand M.D. 
+L473:  Mitochondrial proton and electron leaks Essays Biochem. 2010 47 53 67 10.1042/bse0470053 20533900
+L474: 75. Murphy M.P. 
+L475:  Slip and leak in mitochondrial oxidative phosphorylation Biochim. Biophys. Acta 1989 977 123 141 10.1016/S0005-2728(89)80063-5 2553111
+L476: 76. Crichton P.G. 
+L477:  Lee Y. 
+L478:  Kunji E.R. 
+L479:  The molecular features of uncoupling protein 1 support a conventional mitochondrial carrier-like mechanism Biochimie 2017 134 35 50 10.1016/j.biochi.2016.12.016 28057583
+L480: 77. Chouchani E.T. 
+L481:  Kazak L. 
+L482:  Jedrychowski M.P. 
+L483:  Lu G.Z. 
+L484:  Erickson B.K. 
+L485:  Szpyt J. 
+L486:  Pierce K.A. 
+L487:  Laznik-Bogoslavski D. 
+L488:  Vetrivelan R. 
+L489:  Clish C.B. 
+L490:  
+L491:  Mitochondrial ROS regulate thermogenic energy expenditure and sulfenylation of UCP1 Nature 2016 532 112 116 10.1038/nature17399 27027295
+L492: 78. Gaspar R.C. 
+L493:  Muñoz V.R. 
+L494:  Kuga G.K. 
+L495:  Nakandakari S. 
+L496:  Minuzzi L.G. 
+L497:  Botezelli J.D. 
+L498:  da Silva A.S.R. 
+L499:  Cintra D.E. 
+L500:  de Moura L.P. 
+L501:  Ropelle E.R. 
+L502:  
+L503:  Acute physical exercise increases leptin-induced hypothalamic extracellular signal-regulated kinase1/2 phosphorylation and thermogenesis of obese mice J. Cell. Biochem. 2019 120 697 704 10.1002/jcb.27426 30206970
+L504: 79. Berardi M.J. 
+L505:  Chou J.J. 
+L506:  Fatty acid flippase activity of UCP2 is essential for its proton transport in mitochondria Cell Metab. 2014 20 541 552 10.1016/j.cmet.2014.07.004 25127353
+L507: 80. Cadenas S. 
+L508:  Buckingham J.A. 
+L509:  Samec S. 
+L510:  Seydoux J. 
+L511:  Din N. 
+L512:  Dulloo A.G. 
+L513:  Brand M.D. 
+L514:  UCP2 and UCP3 rise in starved rat skeletal muscle but mitochondrial proton conductance is unchanged FEBS Lett. 1999 462 257 260 10.1016/S0014-5793(99)01540-9 10622707
+L515: 81. Anedda A. 
+L516:  López-Bernardo E. 
+L517:  Acosta-Iborra B. 
+L518:  Saadeh Suleiman M. 
+L519:  Landázuri M.O. 
+L520:  Cadenas S. 
+L521:  The transcription factor Nrf2 promotes survival by enhancing the expression of uncoupling protein 3 under conditions of oxidative stress Free Radic. Biol. Med. 2013 61 395 407 10.1016/j.freeradbiomed.2013.04.007 23597505
+L522: 82. Harper J.A. 
+L523:  Stuart J.A. 
+L524:  Jekabsons M.B. 
+L525:  Roussel D. 
+L526:  Brindle K.M. 
+L527:  Dickinson K. 
+L528:  Jones R.B. 
+L529:  Brand M.D. 
+L530:  Artifactual uncoupling by uncoupling protein 3 in yeast mitochondria at the concentrations found in mouse and rat skeletal-muscle mitochondria Biochem. J. 2002 361 49 56 10.1042/bj3610049 11743882
+L531: 83. Nabben M. 
+L532:  Shabalina I.G. 
+L533:  Moonen-Kornips E. 
+L534:  van Beurden D. 
+L535:  Cannon B. 
+L536:  Schrauwen P. 
+L537:  Nedergaard J. 
+L538:  Hoeks J. 
+L539:  Uncoupled respiration, ROS production, acute lipotoxicity and oxidative damage in isolated skeletal muscle mitochondria from UCP3-ablated mice Biochim. Biophys. Acta 2011 1807 1095 1105 10.1016/j.bbabio.2011.04.003 21565164
+L540: 84. Kusuhara K. 
+L541:  Tobe T. 
+L542:  Negoro T. 
+L543:  Abe T. 
+L544:  A rapid up-regulation in UCP3 transcriptional activity in response to moderate intensity exercise in rat skeletal muscle J. Sports Sci. Med. 2005 4 170 178 24431973
+L545: 85. Jiang N. 
+L546:  Zhang G. 
+L547:  Bo H. 
+L548:  Qu J. 
+L549:  Ma G. 
+L550:  Cao D. 
+L551:  Wen L. 
+L552:  Liu S. 
+L553:  Ji L.L. 
+L554:  Zhang Y. 
+L555:  Upregulation of uncoupling protein-3 in skeletal muscle during exercise: A potential antioxidant function Free. Radic. Biol. Med. 2009 46 138 145 10.1016/j.freeradbiomed.2008.09.026 18977294
+L556: 86. Bo H. 
+L557:  Wang Y.H. 
+L558:  Li H.Y. 
+L559:  Zhao J. 
+L560:  Zhang H.Y. 
+L561:  Tong C.Q. 
+L562:  Endurance training attenuates the bioenergetics alterations of rat skeletal muscle mitochondria submitted to acute hypoxia: Role of ROS and UCP3 Sheng Li Xue Bao [Acta physiologica Sinica] 2008 60 767 776
+L563: 87. Peake J.M. 
+L564:  Markworth J.F. 
+L565:  Nosaka K. 
+L566:  Raastad T. 
+L567:  Wadley G.D. 
+L568:  Coffey V.G. 
+L569:  Modulating exercise-induced hormesis: Does less equal more? J. Appl. Physiol. 2015 119 172 189 10.1152/japplphysiol.01055.2014 25977451
+L570: 88. Kadaja L. 
+L571:  Eimre M. 
+L572:  Paju K. 
+L573:  Roosimaa M. 
+L574:  Põdramägi T. 
+L575:  Kaasik P. 
+L576:  Pehme A. 
+L577:  Orlova E. 
+L578:  Mudist M. 
+L579:  Peet N. 
+L580:  
+L581:  Impaired oxidative phosphorylation in overtrained rat myocardium Exp. Clin. Cardiol. 2010 15 e116 e127 21264069
+L582: 89. Urhausen A. 
+L583:  Gabriel H.H. 
+L584:  Weiler B. 
+L585:  Kindermann W. 
+L586:  Ergometric and psychological findings during overtraining: A long-term follow-up study in endurance athletes Int. J. Sports Med. 1998 19 114 120 10.1055/s-2007-971892 9562220
+L587: 90. Huang C.C. 
+L588:  Lin T.J. 
+L589:  Chen C.C. 
+L590:  Lin W.T. 
+L591:  Endurance training accelerates exhaustive exercise-induced mitochondrial DNA deletion and apoptosis of left ventricle myocardium in rats Eur. J. Appl. Physiol. 2009 107 697 706 10.1007/s00421-009-1177-4 19730878
+L592: 91. King D.W. 
+L593:  Gollnick P.D. 
+L594:  Ultrastructure of rat heart and liver after exhaustive exercise Am. J. Physiol. 1970 218 1150 1155 10.1152/ajplegacy.1970.218.4.1150 5435414
+L595: 92. Venditti P. 
+L596:  Di Meo S. 
+L597:  Antioxidants, tissue damage, and endurance in trained and untrained young male rats Arch. Biochem. Biophys. 1996 331 63 68 10.1006/abbi.1996.0283 8660684
+L598: 93. Seene T. 
+L599:  Kaasik P. 
+L600:  Alev K. 
+L601:  Pehme A. 
+L602:  Riso E.M. 
+L603:  Composition and turnover of contractile proteins in volume-overtrained skeletal muscle Int. J. Sports Med. 2004 25 438 445 10.1055/s-2004-820935 15346232
+L604: 94. Ferraresso R.L. 
+L605:  de Oliveira R. 
+L606:  Macedo D.V. 
+L607:  Nunes L.A. 
+L608:  Brenzikofer R. 
+L609:  Damas D. 
+L610:  Hohl R. 
+L611:  Interaction between overtraining and the interindividual variability may (not) trigger muscle oxidative stress and cardiomyocyte apoptosis in rats Oxidative Med. Cell. Longev. 2012 2012 935483 10.1155/2012/935483 22848785
+L612: 95. Fang W. 
+L613:  Li Z. 
+L614:  Liu X.H. 
+L615:  Liu Z.M. 
+L616:  Dun Y. 
+L617:  Feng H. 
+L618:  Effects of exhaustive exercise on the expression of PHB1 and the function of mitochondria in rats Zhongguo Yingyong Shenglixue Zazhi (Chin. J. Appl. Physiol.) 2017 33 544 549 10.12047/j.cjap.5601.2017.129
+L619: 96. Ross J.A. 
+L620:  Nagy Z.S. 
+L621:  Kirken R.A. 
+L622:  The PHB1/2 phosphocomplex is required for mitochondrial homeostasis and survival of human T cells J. Biol. Chem. 2008 283 4699 4713 10.1074/jbc.M708232200 18086671
+L623: 97. Di Meo S. 
+L624:  Venditti P. 
+L625:  Mitochondria in exercise-induced oxidative stress Biol. Signals Recept. 2001 10 125 140 10.1159/000046880 11223645
+L626: 98. Ljubicic V. 
+L627:  Joseph A.M. 
+L628:  Saleem A. 
+L629:  Uguccioni G. 
+L630:  Collu-Marchese M. 
+L631:  Lai R.Y. 
+L632:  Nguyen L.M. 
+L633:  Hood D.A. 
+L634:  Transcriptional and post-transcriptional regulation of mitochondrial biogenesis in skeletal muscle: Effects of exercise and aging Biochim. Biophys. Acta 2010 1800 223 234 10.1016/j.bbagen.2009.07.031 19682549
+L635: 99. Hood D.A. 
+L636:  Mechanisms of exercise-induced mitochondrial biogenesis in skeletal muscle Appl. Physiol. Nutr. Metab. (Physiologie appliquee Nutrition et Metabolisme) 2009 34 465 472 10.1139/H09-045 19448716
+L637: 100. Laguens R.P. 
+L638:  Gómez-Dumm C.L. 
+L639:  Fine structure of myocardial mitochondria in rats after exercise for one-half to two hours Circ. Res. 1967 21 271 279 10.1161/01.RES.21.3.271 6054010
+L640: 101. Merry T.L. 
+L641:  Ristow M. 
+L642:  Do antioxidant supplements interfere with skeletal muscle adaptation to exercise training? J. Physiol. 2016 594 5135 5147 10.1113/JP270654 26638792
+L643: 102. Peternelj T.T. 
+L644:  Coombes J.S. 
+L645:  Antioxidant supplementation during exercise training: Beneficial or detrimental? Sports Med. 2011 41 1043 1069 10.2165/11594400-000000000-00000 22060178
+L646: 103. Slattery K. 
+L647:  Bentley D. 
+L648:  Coutts A.J. 
+L649:  The role of oxidative, inflammatory and neuroendocrinological systems during exercise stress in athletes: Implications of antioxidant supplementation on physiological adaptation during intensified physical training Sports Med. 2015 45 453 471 10.1007/s40279-014-0282-7 25398224
+L650: 104. Antonioni A. 
+L651:  Fantini C. 
+L652:  Dimauro I. 
+L653:  Caporossi D. 
+L654:  Redox homeostasis in sport: Do athletes really need antioxidant support? Res. Sports Med. (Print) 2019 27 147 165 10.1080/15438627.2018.1563899
+L655: 105. Margaritis I. 
+L656:  Rousseau A.S. 
+L657:  Does physical exercise modify antioxidant requirements? Nutr. Res. Rev. 2008 21 3 12 10.1017/S0954422408018076 19079851
+L658: 106. de Oliveira D.C.X. 
+L659:  Rosa F.T. 
+L660:  Simões-Ambrósio L. 
+L661:  Jordao A.A. 
+L662:  Deminice R. 
+L663:  Antioxidant vitamin supplementation prevents oxidative stress but does not enhance performance in young football athletes Nutrition 2019 63–64 29 35 10.1016/j.nut.2019.01.007
+L664: 107. Ryan M.J. 
+L665:  Dudash H.J. 
+L666:  Docherty M. 
+L667:  Geronilla K.B. 
+L668:  Baker B.A. 
+L669:  Haff G.G. 
+L670:  Cutlip R.G. 
+L671:  Alway S.E. 
+L672:  Vitamin E and C supplementation reduces oxidative stress, improves antioxidant enzymes and positive muscle work in chronically loaded muscles of aged rats Exp. Gerontol. 2010 45 882 895 10.1016/j.exger.2010.08.002 20705127
+L673: 108. Morrison D. 
+L674:  Hughes J. 
+L675:  Della Gatta P.A. 
+L676:  Mason S. 
+L677:  Lamon S. 
+L678:  Russell A.P. 
+L679:  Wadley G.D. 
+L680:  Vitamin C and E supplementation prevents some of the cellular adaptations to endurance-training in humans Free. Radic. Biol. Med. 2015 89 852 862 10.1016/j.freeradbiomed.2015.10.412 26482865
+L681: 109. Paulsen G. 
+L682:  Cumming K.T. 
+L683:  Holden G. 
+L684:  Hallén J. 
+L685:  Rønnestad B.R. 
+L686:  Sveen O. 
+L687:  Skaug A. 
+L688:  Paur I. 
+L689:  Bastani N.E. 
+L690:  Østgaard H.N. 
+L691:  
+L692:  Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: A double-blind, randomised, controlled trial J. Physiol. 2014 592 1887 1901 10.1113/jphysiol.2013.267419 24492839
+L693: 110. Cory H. 
+L694:  Passarelli S. 
+L695:  Szeto J. 
+L696:  Tamez M. 
+L697:  Mattei J. 
+L698:  The Role of Polyphenols in Human Health and Food Systems: A Mini-Review Front. Nutr. 2018 5 87 10.3389/fnut.2018.00087 30298133
+L699: 111. Myburgh K.H. 
+L700:  Polyphenol supplementation: Benefits for exercise performance or oxidative stress? Sports Med. 2014 44 (Suppl. 1) S57 S70 10.1007/s40279-014-0151-4 24791917
+L701: 112. Elejalde E. 
+L702:  Villarán M.C. 
+L703:  Alonso R.M. 
+L704:  Grape polyphenols supplementation for exercise-induced oxidative stress J. Int. Soc. Sports Nutr. 2021 18 3 10.1186/s12970-020-00395-0 33413451
+L705: 113. Salehi M. 
+L706:  Mashhadi N.S. 
+L707:  Esfahani P.S. 
+L708:  Feizi A. 
+L709:  Hadi A. 
+L710:  Askari G. 
+L711:  The Effects of Curcumin Supplementation on Muscle Damage, Oxidative Stress, and Inflammatory Markers in Healthy Females with Moderate Physical Activity: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial Int. J. Prev. Med. 2021 12 94 10.4103/ijpvm.IJPVM_138_20 34584659
+L712: 114. Vargas-Mendoza N. 
+L713:  Ángeles-Valencia M. 
+L714:  Madrigal-Santillán E.O. 
+L715:  Morales-Martínez M. 
+L716:  Tirado-Lule J.M. 
+L717:  Solano-Urrusquieta A. 
+L718:  Madrigal-Bujaidar E. 
+L719:  Álvarez-González I. 
+L720:  Fregoso-Aguilar T. 
+L721:  Morales-González Á. 
+L722:  
+L723:  Effect of Silymarin Supplementation on Physical Performance, Muscle and Myocardium Histological Changes, Bodyweight, and Food Consumption in Rats Subjected to Regular Exercise Training Int. J. Mol. Sci. 2020 21 7724 10.3390/ijms21207724 33086540
+L724: 115. Oh S. 
+L725:  Komine S. 
+L726:  Warabi E. 
+L727:  Akiyama K. 
+L728:  Ishii A. 
+L729:  Ishige K. 
+L730:  Mizokami Y. 
+L731:  Kuga K. 
+L732:  Horie M. 
+L733:  Miwa Y. 
+L734:  
+L735:  Nuclear factor (erythroid derived 2)-like 2 activation increases exercise endurance capacity via redox modulation in skeletal muscles Sci. Rep. 2017 7 12902 10.1038/s41598-017-12926-y 29018242
+L736: 116. Ruhee R.T. 
+L737:  Suzuki K. 
+L738:  The Integrative Role of Sulforaphane in Preventing Inflammation, Oxidative Stress and Fatigue: A Review of a Potential Protective Phytochemical Antioxidants 2020 9 521 10.3390/antiox9060521
+L739: 117. Vargas-Mendoza N. 
+L740:  Morales-González Á. 
+L741:  Morales-Martínez M. 
+L742:  Soriano-Ursúa M.A. 
+L743:  Delgado-Olivares L. 
+L744:  Sandoval-Gallegos E.M. 
+L745:  Madrigal-Bujaidar E. 
+L746:  Álvarez-González I. 
+L747:  Madrigal-Santillán E. 
+L748:  Morales-Gonzalez J.A. 
+L749:  Flavolignans from Silymarin as Nrf2 Bioactivators and Their Therapeutic Applications Biomedicines 2020 8 122 10.3390/biomedicines8050122 32423098
+L750: 118. Farzaei M.H. 
+L751:  Zobeiri M. 
+L752:  Parvizi F. 
+L753:  El-Senduny F.F. 
+L754:  Marmouzi I. 
+L755:  Coy-Barrera E. 
+L756:  Naseri R. 
+L757:  Nabavi S.M. 
+L758:  Rahimi R. 
+L759:  Abdollahi M. 
+L760:  Curcumin in Liver Diseases: A Systematic Review of the Cellular Mechanisms of Oxidative Stress and Clinical Perspective Nutrients 2018 10 855 10.3390/nu10070855
+L761: 119. Hassan F.U. 
+L762:  Rehman M.S. 
+L763:  Khan M.S. 
+L764:  Ali M.A. 
+L765:  Javed A. 
+L766:  Nawaz A. 
+L767:  Yang C. 
+L768:  Curcumin as an Alternative Epigenetic Modulator: Mechanism of Action and Potential Effects Front. Genet. 2019 10 514 10.3389/fgene.2019.00514 31214247
+L769: 120. Tryfidou D.V. 
+L770:  McClean C. 
+L771:  Nikolaidis M.G. 
+L772:  Davison G.W. 
+L773:  DNA Damage Following Acute Aerobic Exercise: A Systematic Review and Meta-analysis Sports Med. 2020 50 103 127 10.1007/s40279-019-01181-y 31529301
+L774: 121. Murphy M.P. 
+L775:  Hartley R.C. 
+L776:  Mitochondria as a therapeutic target for common pathologies Nat. Rev. Drug Discov. 2018 17 865 886 10.1038/nrd.2018.174 30393373
+L777: 122. Yavari A. 
+L778:  Javadi M. 
+L779:  Mirmiran P. 
+L780:  Bahadoran Z. 
+L781:  Exercise-induced oxidative stress and dietary antioxidants Asian J. Sports Med. 2015 6 e24898 10.5812/asjsm.24898 25883776
+L782: 123. Pingitore A. 
+L783:  Lima G.P. 
+L784:  Mastorci F. 
+L785:  Quinones A. 
+L786:  Iervasi G. 
+L787:  Vassalle C. 
+L788:  Exercise and oxidative stress: Potential effects of antioxidant dietary strategies in sports Nutrition 2015 31 916 922 10.1016/j.nut.2015.02.005 26059364
+L789: 124. Neubauer O. 
+L790:  Yfanti C. 
+L791:  Antioxidants in Athlete’s Basic Nutrition: Considerations towards a Guideline for the Intake of Vitamin C and Vitamin E Antioxidants in Sport Nutrition 
+L792:  Lamprecht M. 
+L793:  Taylor & Francis Group, LLC. Boca Raton, FL, USA 2015
+L794: 125. Fogarty M.C. 
+L795:  Devito G. 
+L796:  Hughes C.M. 
+L797:  Burke G. 
+L798:  Brown J.C. 
+L799:  McEneny J. 
+L800:  Brown D. 
+L801:  McClean C. 
+L802:  Davison G.W. 
+L803:  Effects of α-lipoic acid on mtDNA damage after isolated muscle contractions Med. Sci. Sports Exerc. 2013 45 1469 1477 10.1249/MSS.0b013e31828bf31e 23470303
+L804: 126. Xiao L. 
+L805:  Xu X. 
+L806:  Zhang F. 
+L807:  Wang M. 
+L808:  Xu Y. 
+L809:  Tang D. 
+L810:  Wang J. 
+L811:  Qin Y. 
+L812:  Liu Y. 
+L813:  Tang C. 
+L814:  
+L815:  The mitochondria-targeted antioxidant MitoQ ameliorated tubular injury mediated by mitophagy in diabetic kidney disease via Nrf2/PINK1 Redox Biol. 2017 11 297 311 10.1016/j.redox.2016.12.022 28033563
+L816: 127. Rossman M.J. 
+L817:  Santos-Parker J.R. 
+L818:  Steward C.A.C. 
+L819:  Bispham N.Z. 
+L820:  Cuevas L.M. 
+L821:  Rosenberg H.L. 
+L822:  Woodward K.A. 
+L823:  Chonchol M. 
+L824:  Gioscia-Ryan R.A. 
+L825:  Murphy M.P. 
+L826:  
+L827:  Chronic Supplementation With a Mitochondrial Antioxidant (MitoQ) Improves Vascular Function in Healthy Older Adults Hypertension 2018 71 1056 1063 10.1161/HYPERTENSIONAHA.117.10787 29661838
+L828: 128. Zhou J. 
+L829:  Wang H. 
+L830:  Shen R. 
+L831:  Fang J. 
+L832:  Yang Y. 
+L833:  Dai W. 
+L834:  Zhu Y. 
+L835:  Zhou M. 
+L836:  Mitochondrial-targeted antioxidant MitoQ provides neuroprotection and reduces neuronal apoptosis in experimental traumatic brain injury possibly via the Nrf2-ARE pathway Am. J. Transl. Res. 2018 10 1887 1899 30018728
+L837: 129. Mao G. 
+L838:  Kraus G.A. 
+L839:  Kim I. 
+L840:  Spurlock M.E. 
+L841:  Bailey T.B. 
+L842:  Zhang Q. 
+L843:  Beitz D.C. 
+L844:  A mitochondria-targeted vitamin E derivative decreases hepatic oxidative stress and inhibits fat deposition in mice J. Nutr. 2010 140 1425 1431 10.3945/jn.110.121715 20554905
+L845: 130. Mao G. 
+L846:  Kraus G.A. 
+L847:  Kim I. 
+L848:  Spurlock M.E. 
+L849:  Bailey T.B. 
+L850:  Beitz D.C. 
+L851:  Effect of a mitochondria-targeted vitamin E derivative on mitochondrial alteration and systemic oxidative stress in mice Br. J. Nutr. 2011 106 87 95 10.1017/S0007114510005830 21324214
+L852: 131. Fang Y. 
+L853:  Hu X.-H. 
+L854:  Jia Z.-G. 
+L855:  Xu M.-H. 
+L856:  Guo Z.-Y. 
+L857:  Gao F.-H. 
+L858:  Tiron protects against UVB-induced senescence-like characteristics in human dermal fibroblasts by the inhibition of superoxide anion production and glutathione depletion Australas. J. Dermatol. 2012 53 172 180 10.1111/j.1440-0960.2012.00912.x 22734867
+L859: 132. Finichiu P.G. 
+L860:  Larsen D.S. 
+L861:  Evans C. 
+L862:  Larsen L. 
+L863:  Bright T.P. 
+L864:  Robb E.L. 
+L865:  Trnka J. 
+L866:  Prime T.A. 
+L867:  James A.M. 
+L868:  Smith R.A.J. 
+L869:  
+L870:  A mitochondria-targeted derivative of ascorbate: MitoC Free. Radic. Biol. Med. 2015 89 668 678 10.1016/j.freeradbiomed.2015.07.160 26453920
+L871: 133. Williamson J. 
+L872:  Davison G. 
+L873:  Targeted Antioxidants in Exercise-Induced Mitochondrial Oxidative Stress: Emphasis on DNA Damage Antioxidants 2020 9 1142 10.3390/antiox9111142
+L874: 134. Oyewole A.O. 
+L875:  Birch-Machin M.A. 
+L876:  Mitochondria-targeted antioxidants FASEB J. 2015 29 4766 4771 10.1096/fj.15-275404 26253366
+L877: 135. Smith R.A.J. 
+L878:  Murphy M.P. 
+L879:  Animal and human studies with the mitochondria-targeted antioxidant MitoQ Ann. N. Y. Acad. Sci. 2010 1201 96 103 10.1111/j.1749-6632.2010.05627.x 20649545
+L880: 136. Cochemé H.M. 
+L881:  Kelso G.F. 
+L882:  James A.M. 
+L883:  Ross M.F. 
+L884:  Trnka J. 
+L885:  Mahendiran T. 
+L886:  Asin-Cayuela J. 
+L887:  Blaikie F.H. 
+L888:  Manas A.R. 
+L889:  Porteous C.M. 
+L890:  
+L891:  Mitochondrial targeting of quinones: Therapeutic implications Mitochondrion 2007 7 (Suppl.) S94 S102 10.1016/j.mito.2007.02.007 17449335
+L892: 137. Ross M.F. 
+L893:  Kelso G.F. 
+L894:  Blaikie F.H. 
+L895:  James A.M. 
+L896:  Cochemé H.M. 
+L897:  Filipovska A. 
+L898:  Da Ros T. 
+L899:  Hurd T.R. 
+L900:  Smith R.A. 
+L901:  Murphy M.P. 
+L902:  Lipophilic triphenylphosphonium cations as tools in mitochondrial bioenergetics and free radical biology Biochem. Biokhimiia 2005 70 222 230 10.1007/s10541-005-0104-5 15807662
+L903: 138. Murphy M.P. 
+L904:  Targeting lipophilic cations to mitochondria Biochim. Biophys. Acta 2008 1777 1028 1031 10.1016/j.bbabio.2008.03.029 18439417
+L905: 139. James A.M. 
+L906:  Sharpley M.S. 
+L907:  Manas A.R. 
+L908:  Frerman F.E. 
+L909:  Hirst J. 
+L910:  Smith R.A. 
+L911:  Murphy M.P. 
+L912:  Interaction of the mitochondria-targeted antioxidant MitoQ with phospholipid bilayers and ubiquinone oxidoreductases J. Biol. Chem. 2007 282 14708 14718 10.1074/jbc.M611463200 17369262
+L913: 140. James A.M. 
+L914:  Cochemé H.M. 
+L915:  Smith R.A. 
+L916:  Murphy M.P. 
+L917:  Interactions of mitochondria-targeted and untargeted ubiquinones with the mitochondrial respiratory chain and reactive oxygen species. Implications for the use of exogenous ubiquinones as therapies and experimental tools J. Biol. Chem. 2005 280 21295 21312 10.1074/jbc.M501527200 15788391
+L918: 141. Shill D.D. 
+L919:  Southern W.M. 
+L920:  Willingham T.B. 
+L921:  Lansford K.A. 
+L922:  McCully K.K. 
+L923:  Jenkins N.T. 
+L924:  Mitochondria-specific antioxidant supplementation does not influence endurance exercise training-induced adaptations in circulating angiogenic cells, skeletal muscle oxidative capacity or maximal oxygen uptake J. Physiol. 2016 594 7005 7014 10.1113/JP272491 27501153
+L925: 142. Williamson J. 
+L926:  Hughes C.M. 
+L927:  Cobley J.N. 
+L928:  Davison G.W. 
+L929:  The mitochondria-targeted antioxidant MitoQ, attenuates exercise-induced mitochondrial DNA damage Redox Biol. 2020 36 101673 10.1016/j.redox.2020.101673 32810739
+L930: 143. Murphy M.P. 
+L931:  Understanding and preventing mitochondrial oxidative damage Biochem. Soc. Trans. 2016 44 1219 1226 10.1042/BST20160108 27911703
+L932: 144. Antonenko Y.N. 
+L933:  Avetisyan A.V. 
+L934:  Bakeeva L.E. 
+L935:  Chernyak B.V. 
+L936:  Chertkov V.A. 
+L937:  Domnina L.V. 
+L938:  Ivanova O.Y. 
+L939:  Izyumov D.S. 
+L940:  Khailova L.S. 
+L941:  Klishin S.S. 
+L942:  
+L943:  Mitochondria-targeted plastoquinone derivatives as tools to interrupt execution of the aging program. 1. Cationic plastoquinone derivatives: Synthesis and in vitro studies Biochemistry 2008 73 1273 1287 10.1134/S0006297908120018 19120014
+L944: 145. Schlame M. 
+L945:  Greenberg M.L. 
+L946:  Biosynthesis, remodeling and turnover of mitochondrial cardiolipin Biochim. Biophys. Acta (BBA)-Mol. Cell Biol. Lipids 2017 1862 3 7 10.1016/j.bbalip.2016.08.010
+L947: 146. Park S.Y. 
+L948:  Pekas E.J. 
+L949:  Headid R.J. 3rd 
+L950:  Son W.M. 
+L951:  Wooden T.K. 
+L952:  Song J. 
+L953:  Layec G. 
+L954:  Yadav S.K. 
+L955:  Mishra P.K. 
+L956:  Pipinos I.I. 
+L957:  Acute mitochondrial antioxidant intake improves endothelial function, antioxidant enzyme activity, and exercise tolerance in patients with peripheral artery disease Am. J. Physiol. Heart Circ. Physiol. 2020 319 H456 H467 10.1152/ajpheart.00235.2020 32706261
+L958: 147. Hu Q. 
+L959:  Ren J. 
+L960:  Li G. 
+L961:  Wu J. 
+L962:  Wu X. 
+L963:  Wang G. 
+L964:  Gu G. 
+L965:  Ren H. 
+L966:  Hong Z. 
+L967:  Li J. 
+L968:  The mitochondrially targeted antioxidant MitoQ protects the intestinal barrier by ameliorating mitochondrial DNA damage via the Nrf2/ARE signaling pathway Cell Death Dis. 2018 9 403 10.1038/s41419-018-0436-x 29540694
+L969: 148. Boris A.F. 
+L970:  Vladimir P.S. 
+L971:  Cellular and Molecular Mechanisms of Action of Mitochondria-Targeted Antioxidants Curr. Aging Sci. 2017 10 41 48 10.2174/1874609809666160921113706 27659264
+L972: 149. Birk A.V. 
+L973:  Chao W.M. 
+L974:  Bracken C. 
+L975:  Warren J.D. 
+L976:  Szeto H.H. 
+L977:  Targeting mitochondrial cardiolipin and the cytochrome c/cardiolipin complex to promote electron transport and optimize mitochondrial ATP synthesis Br. J. Pharmacol. 2014 171 2017 2028 10.1111/bph.12468 24134698
+L978: 150. Birk A.V. 
+L979:  Liu S. 
+L980:  Soong Y. 
+L981:  Mills W. 
+L982:  Singh P. 
+L983:  Warren J.D. 
+L984:  Seshan S.V. 
+L985:  Pardee J.D. 
+L986:  Szeto H.H. 
+L987:  The mitochondrial-targeted compound SS-31 re-energizes ischemic mitochondria by interacting with cardiolipin J. Am. Soc. Nephrol. JASN 2013 24 1250 1261 10.1681/ASN.2012121216 23813215
+L988: 151. Szeto H.H. 
+L989:  First-in-class cardiolipin-protective compound as a therapeutic agent to restore mitochondrial bioenergetics Br. J. Pharmacol. 2014 171 2029 2050 10.1111/bph.12461 24117165
+L990: 152. Min K. 
+L991:  Smuder A.J. 
+L992:  Kwon O.S. 
+L993:  Kavazis A.N. 
+L994:  Szeto H.H. 
+L995:  Powers S.K. 
+L996:  Mitochondrial-targeted antioxidants protect skeletal muscle against immobilization-induced muscle atrophy J. Appl. Physiol. 2011 111 1459 1466 10.1152/japplphysiol.00591.2011 21817113
+L997: 153. Andrews S.J. 
+L998:  Rothnagel J.A. 
+L999:  Emerging evidence for functional peptides encoded by short open reading frames Nat. Rev. Genet. 2014 15 193 204 10.1038/nrg3520 24514441
+L1000: 154. Lin Y.F. 
+L1001:  Xiao M.H. 
+L1002:  Chen H.X. 
+L1003:  Meng Y. 
+L1004:  Zhao N. 
+L1005:  Yang L. 
+L1006:  Tang H. 
+L1007:  Wang J.L. 
+L1008:  Liu X. 
+L1009:  Zhu Y. 
+L1010:  
+L1011:  A novel mitochondrial micropeptide MPM enhances mitochondrial respiratory activity and promotes myogenic differentiation Cell Death Dis. 2019 10 528 10.1038/s41419-019-1767-y 31296841
+L1012: 155. Houghton C.A. 
+L1013:  Fassett R.G. 
+L1014:  Coombes J.S. 
+L1015:  Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? Oxidative Med. Cell. Longev. 2016 2016 7857186 10.1155/2016/7857186
+L1016: 156. Bhattacharjee S. 
+L1017:  Dashwood R.H. 
+L1018:  Epigenetic Regulation of NRF2/KEAP1 by Phytochemicals Antioxidants 2020 9 865 10.3390/antiox9090865 32938017
+L1019: 157. Nocella C. 
+L1020:  Cammisotto V. 
+L1021:  Pigozzi F. 
+L1022:  Borrione P. 
+L1023:  Fossati C. 
+L1024:  D’Amico A. 
+L1025:  Cangemi R. 
+L1026:  Peruzzi M. 
+L1027:  Gobbi G. 
+L1028:  Ettorre E. 
+L1029:  
+L1030:  Impairment between Oxidant and Antioxidant Systems: Short- and Long-term Implications for Athletes’ Health Nutrients 2019 11 1353 10.3390/nu11061353 31208096
+L1031: Acknowledgments
+L1032: Nancy Vargas-Mendoza is a scholarship holder for her postgraduate studies by the Consejo Nacional de Ciencia y Tecnologia (CONACyT) and the BEIFI program, Instituto Politécnico Nacional (IPN), Mexico.
+[30ms]
+

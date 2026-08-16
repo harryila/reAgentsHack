@@ -1,0 +1,752 @@
+L1: Early administration of Vitamin C in patients with sepsis or septic shock in emergency departments: A multicenter, double blinded, randomized controlled trial: The C-EASIE trial protocol
+L2: PLoS ONE (2021)
+L3: Stefanie Vandervelden, Lina Wauters, Jan Breuls, Steffen Fieuws, Philippe Vanhove, Ives Hubloue, Magali Bartiaux, Jacques Creteur, François Stifkens, Koen Monsieurs, Didier Desruelles
+L4: 1 
+L5:  Department of Emergency Medicine, University Hospitals Leuven, Leuven, Belgium
+L6: 2 
+L7:  Department of Emergency Medicine, Algemeen Ziekenhuis Turnhout, Rubensstraat, Turnhout, Belgium
+L8: 3 
+L9:  Leuven Biostatistics and Statistical Bioinformatics Center (L-BioStat), Kapucijnenvoer, Leuven, Belgium
+L10: 4 
+L11:  Department of Intensive Care, GZA Ziekenhuizen, Antwerpen, Belgium
+L12: 5 
+L13:  Department of Emergency Medicine, University Hospitals Brussel, Jette, Belgium
+L14: 6 
+L15:  Department of Emergency Medicine, University Medical Center Saint Pierre, Bruxelles, Belgium
+L16: 7 
+L17:  Department of Intensive Care, Erasme Hospital Brussels, Bruxelles, Belgium
+L18: 8 
+L19:  Department of Emergency Medicine, Center Hospitalier Universitaire de Liège, Liège, Belgium
+L20: 9 
+L21:  Department of Emergency Medicine, University Hospitals Antwerp, Edegem, Belgium
+L22: UNITED KINGDOM
+L23: Background
+L24: Sepsis is a potentially life-threatening condition characterized by a deregulated body’s response to infection causing injury to its own tissues and organs. Sepsis is the primary cause of death from infection. If not recognized and treated timely, it can evolve within minutes/hours to septic shock. Sepsis is associated with an acute deficiency of Vitamin C. Despite the proof-of-concept of the benefit of administering Vitamin C in patients with sepsis or septic shock, Vitamin C administration is not yet current practice.
+L25: Objective
+L26: To investigate the potential benefit of early administration of high doses of Vitamin C in addition to standard of care in patients with sepsis or septic shock.
+L27: Methods
+L28: This phase 3b multi-center trial is conducted in 8 hospitals throughout Belgium. In total 300 patients will be randomly assigned to one of two groups in a 1:1 allocation ratio. The intervention group will receive 1.5 g Vitamin C 4 times a day during 4 days, started within 6 hours after admission. The primary outcome is the average post-baseline patient SOFA score.
+L29: Conclusion
+L30: This trial will determine whether the early administration of Vitamin C in patients with sepsis or septic shock can lead to a more rapid solution of shock and less deterioration from sepsis to septic shock, hereby reducing morbidity and mortality as well as the length of hospital stay in this patient population.
+L31: Trial registration
+L32: The C-EASIE trial has been registered on the ClinicalTrials.gov website on 10 February 2021 with registration number  NCT04747795 .
+L33: Trial Sponsor
+L34: UZ Leuven (sponsor’s reference S63213)
+L35: Study Protocol; Medicine and Health Sciences; Clinical Medicine; Signs and Symptoms; Sepsis; Clinical Medicine; Signs and Symptoms; Sepsis; Signs and Symptoms; Sepsis; Sepsis; Physical sciences; Chemistry; Chemical compounds; Organic compounds; Vitamins; Vitamin C; Chemistry; Chemical compounds; Organic compounds; Vitamins; Vitamin C; Chemical compounds; Organic compounds; Vitamins; Vitamin C; Organic compounds; Vitamins; Vitamin C; Vitamins; Vitamin C; Vitamin C; Physical sciences; Chemistry; Organic chemistry; Organic compounds; Vitamins; Vitamin C; Chemistry; Organic chemistry; Organic compounds; Vitamins; Vitamin C; Organic chemistry; Organic compounds; Vitamins; Vitamin C; Organic compounds; Vitamins; Vitamin C; Vitamins; Vitamin C; Vitamin C; Medicine and Health Sciences; Clinical Medicine; Clinical Trials; Randomized Controlled Trials; Clinical Medicine; Clinical Trials; Randomized Controlled Trials; Clinical Trials; Randomized Controlled Trials; Randomized Controlled Trials; Medicine and Health Sciences; Pharmacology; Drug Research and Development; Clinical Trials; Randomized Controlled Trials; Pharmacology; Drug Research and Development; Clinical Trials; Randomized Controlled Trials; Drug Research and Development; Clinical Trials; Randomized Controlled Trials; Clinical Trials; Randomized Controlled Trials; Randomized Controlled Trials; Research and Analysis Methods; Clinical Trials; Randomized Controlled Trials; Clinical Trials; Randomized Controlled Trials; Randomized Controlled Trials; Biology and Life Sciences; Population Biology; Population Metrics; Death Rates; Population Biology; Population Metrics; Death Rates; Population Metrics; Death Rates; Death Rates; Biology and Life Sciences; Biochemistry; Hormones; Lipid Hormones; Cortisol; Biochemistry; Hormones; Lipid Hormones; Cortisol; Hormones; Lipid Hormones; Cortisol; Lipid Hormones; Cortisol; Cortisol; Biology and Life Sciences; Biochemistry; Hormones; Steroid Hormones; Cortisol; Biochemistry; Hormones; Steroid Hormones; Cortisol; Hormones; Steroid Hormones; Cortisol; Steroid Hormones; Cortisol; Cortisol; Medicine and Health Sciences; Health Care; Health Care Facilities; Hospitals; Health Care; Health Care Facilities; Hospitals; Health Care Facilities; Hospitals; Hospitals; Medicine and Health Sciences; Pharmacology; Drugs; Antimicrobials; Antibiotics; Pharmacology; Drugs; Antimicrobials; Antibiotics; Drugs; Antimicrobials; Antibiotics; Antimicrobials; Antibiotics; Antibiotics; Biology and Life Sciences; Microbiology; Microbial Control; Antimicrobials; Antibiotics; Microbiology; Microbial Control; Antimicrobials; Antibiotics; Microbial Control; Antimicrobials; Antibiotics; Antimicrobials; Antibiotics; Antibiotics; Computer and Information Sciences; Data Management; Data Management
+L36: Introduction
+L37: Background and rationale
+L38: Sepsis is a potentially life-threatening condition characterized by a deregulated body’s response to infection causing injury to its own tissues and organs. Sepsis is the primary cause of death from infection, especially if not recognized and treated timely, it can evolve within minutes/hours to septic shock [ 1 ].
+L39: Current practice guidelines for management of sepsis and septic shock are based on the Survival Sepsis Campaign (SSC) Guidelines ( http://survivingsepsis.org ). These international guidelines focus on early identification and treatment of sepsis by the introduction of the Hour-1 bundle. The Hour-1 bundle encourages clinicians to act as quickly as possible to obtain blood cultures, administer broad spectrum antibiotics, start appropriate fluid resuscitation, measure lactate, and begin vasopressors if clinically indicated [ 2 ].
+L40: The adoption of a ‘one-size-fits-all’ protocol has been the largest improvement in sepsis management we have seen so far. However, despite implementation of these guidelines, mortality is still high. This is reflected in the international SSC Database with over 130 000 registered patients. This database reports an overall mortality rate of 34.8% [ 3 ].
+L41: The severity of sepsis and the outcomes of sepsis and septic shock are dependent on the nature of infection and the inflammatory response it provokes. This has led to the search for targeted agents that limit the inflammatory cascade, including Vitamin C.
+L42: Vitamin C is a cofactor in the synthesis of endogenous adrenaline and cortisol, and also plays a role in mediating inflammation[ 4 ,  5 ]. Sepsis is associated with an acute deficiency of Vitamin C[ 6 – 8 ]. Despite the proof-of-concept of the benefit of administering Vitamin C in patients with sepsis or septic shock, Vitamin C administration is not yet current practice. This is mainly due to the large variety in study set-ups, primary and secondary outcomes and inconsistent results.
+L43: In 2014, Fowler et al. performed a single center Randomized Controlled Trial (RCT) involving the administration of two different doses of Vitamin C to patients with severe sepsis [ 9 ]. Vitamin C reduced the Sequential Organ Failure Assessment (SOFA) score in a seemingly dose dependent fashion.
+L44: In 2016, Zabet et al. performed a double blinded single center RCT involving the administration of IV Vitamin C to patients with vasopressor-dependent septic shock [ 10 ]. Vitamin C caused a significant reduction in the duration of vasopressor infusion and an improvement in 28-day mortality.
+L45: The before-after study by Paul Marik et al. was the first one investigating the use of Hydrocortisone, Ascorbic Acid and Thiamine (HAT) in septic shock. This resulted in a dramatic decrease in mortality (8.5% in HAT group vs 40.4% in control group) [ 11 ]. Since then several RCTs [ 12 – 19 ] have evaluated vitamin C alone or as part of HAT therapy in sepsis and septic shock ( Table 1 ).
+L46: Table 1 Summary of RCTs evaluating Vitamin C or HAT therapy (Hydrocortisone, Ascorbic Acid and Thiamine) in sepsis and septic shock.
+L47: Two recent meta-analyses found that both HAT therapy and the combined therapy of thiamine and Vitamin C significantly reduce the duration of vasopressor use and are associated with a reduced SOFA score on day 3. There was however insufficient data to analyse the delta SOFA scores in more detail [ 20 ,  21 ].
+L48: Although it is generally accepted that in sepsis timing of therapies matters, much like stroke and AMI, the majority of these studies started quite late (up to 12 to 48 hrs post ICU admission) in the disease course with the administration of Vitamin C. As Vitamin C potentially prevents the development of multi-organ dysfunction by treating microvascular dysfunction, mitochondrial injury and oxidative stress, this late administration might miss its intended effect [ 22 – 24 ]. Also, there may be specific patient populations for whom beneficial outcomes are more likely. Comparison of several trials suggests that the severity of critical illness matters [ 11 ,  18 ].
+L49: Objectives
+L50: The C-EASIE trial focuses on the early administration of Vitamin C, within 6 hours after arrival in the ED, in patients in earlier stages of the disease course. We opted for a high dose IV Vitamin C only adjuvant therapy, in order to investigate the benefit of mono therapy. Hydrocortisone and thiamine are certainly indicated in certain patient groups but whether HAT therapy induces additional benefit remains uncertain. By setting up this pragmatic comparative effectiveness trial, we hope to see a more rapid solution of shock and less deterioration from sepsis to septic shock, hereby reducing morbidity and mortality as well as the length of hospital stay in this patient population.
+L51: Material and methods
+L52: Study design and setting
+L53: The C-EASIE trial is a prospective, multi-center, double blinded randomized controlled trial (RCT) in patients presenting at the ED with sepsis or septic shock that investigates the potential benefit of early administration of high doses of Vitamin C (1.5 g bolus, 4 times a day during 4 days, started within 6 hours after admission) in addition to standard care. Patients will be randomly assigned to one of two groups (physiologic serum or Vitamin C). All other aspects of care will be the same for both groups.
+L54: The study is a phase 3b multi-center RCT conducted in 8 hospitals throughout Belgium: Universitair Ziekenhuis Leuven, Universitair Ziekenhuis Antwerpen, Universitair Ziekenhuis Brussel, Algemeen Ziekenhuis Turnhout, Centre Hospitalier Universitaire de Liège, Université Libre de Bruxelles Hôpital Erasme, Centre Hospitalier Universitaire St-Pierre Bruxelles and Gasthuiszusters Antwerpen. Patients will be recruited at the EDs of the participating sites.
+L55: Ethical approval
+L56: The study (protocol v2.0, 6/4/2021) received approval from the ethical committee and competent authorities through the CTR Pilot Procedure of the Federal Agency for Medicines and Health Products in Belgium (Pilot 389_2020-0001862-12) on 4/6/2021 and has been registered on the ClinicalTrials.gov website on February 10, 2021 with registration number  NCT04747795 . The trial will be conducted according to the Declaration of Helsinki.
+L57: Written informed consent (IC) will be obtained from study subjects prior to the start of study medication administration. If and only if the study subject is unable to write, oral consent in the presence of at least one witness of legal age may be given. If a study subject is unable to read, an impartial witness will be present during the entire IC process and discussion. If a study subject is unable to speak or read Dutch, French or English, an interpreter will be present during the entire IC process and discussion. When the study subject is not capable to give prior written or oral consent due to the subject’s critical condition, the study subject can be enrolled in the study on the condition that an ICF has been signed and provided by the study subject’s legally acceptable representative (LAR). When prior written or oral consent of the study subject is not possible due to the subject’s critical condition, enrollment can take place without consent if and only if the study subject is not accompanied by a LAR and the study subject’s LAR is not able to accompany the study subject or provide oral permission within 6 hours.
+L58: Eligibility
+L59: Adult patients who present themselves at the ED with sepsis or septic shock will be checked for eligibility and included if informed consent is obtained.
+L60: Inclusion criteria:
+L61: NEWS is based on a simple aggregate scoring system in which a score is allocated to physiological measurements, already recorded in routine practice, when patients present to the hospital. Six simple physiological parameters form the basis of the scoring system: respiration rate, oxygen saturation, systolic blood pressure, pulse rate, level of consciousness or new confusion and temperature.
+L62: Exclusion criteria:
+L63: Screening and consent
+L64: Patient identification will happen at the triage of the ED. Adult patients with suspected infection are flagged. The principal investigator or sub-investigator will be informed. An information leaflet and poster will be available at triage to ensure the timely identification of potentially eligible patients.
+L65: The aim is to conduct the trial on the basis of prior informed consent by the trial participants and/or their LAR. However, some of these patients are critically ill and unable to give informed consent. To ensure the timely start of medication administration (within 6 hours), a process of delayed consent, enrolling patients into the clinical trial and obtaining consent as soon as practical from either the patient or their LAR, will be applied if necessary.
+L66: The process for obtaining and documenting initial and continued informed consent from potential trial participants will be conducted in accordance with ICH-GCP E6(R2), applicable regulatory requirements and internal standard operating procedures.
+L67: Eligibility will be logged in the screening log. This will be in a strictly anonymous manner, and in no way (nor through the sponsor, nor through the investigator) this information can be traced back to the patient. This way we will generate an anonymous, aggregate data set. Screen failures will include patients who have consented but have not received treatment in a timely way or meet one of the exclusion criteria.
+L68: The patient will be logged in the subject identification log and receive a study specific subject number.
+L69: Randomization
+L70: Patients will be randomly assigned to one of two groups in a 1:1 allocation ratio stratified by site through the digital platform  Randomize.net . Block size is 4. Ardena Gent NV, a Drug Product Development & Manufacturing firm, will blind, package, relabel the IMP kits and provide randomization. Site staff will be blinded to study arm allocation.
+L71: Intervention
+L72: Once the patient has been randomized, a patient treatment kit will be allocated. The treatment kit will contain ampoules of Vitamin C 500mg/5ml or of Normal Saline 5ml 9mg/ml. These ampoules have identical sizes and will be blinded by a cap and sticker for an identical look. Every 6 hours, bedside nurses will have to dilute 3 ampoules in 50ml of Normal Saline. In total the patient will receive 16 doses of study medication over 4 days. A maximum of 8 hours is allowed between 2 doses and only one dose can be missed. If these criteria are not fulfilled the patient will be excluded from the trial.
+L73: Treatments kits are stored locally in every ED in a temperature controlled manner (15–25°C). Once the treatment kit is assigned, the kits stays with the patient throughout his/her hospital stay.
+L74: Other than the administration of study medication and the procalcitonin testing, all management of randomly assigned patients will be at the discretion of the clinical team.
+L75: However, to standardize as much as possible the management of sepsis patients, a sepsis protocol was made in consultation with the participating sites and according to the latest evidence based standards of care in sepsis. This sepsis guideline is part of the protocol and can be used without obligation.
+L76: Trial procedures
+L77: Parameters will be obtained as part of routine clinical care. To avoid burden on clinical care we will mainly collect lab values that are considered routine clinical care in sepsis. Only on day 1 and 4 a targeted blood sample will be collected for procalcitonin determination.
+L78: Baseline data will be obtained as close as possible to the time of randomization and will include patient demographics, NEWS at ED presentation, SOFA score at randomization, sepsis etiology, disease severity, physiologic variables, level of respiratory support, vasopressor and renal replacement therapy (RRT) use, fluid balances and time from ED presentation to the 1st dose of antibiotic and Vitamin C/placebo.
+L79: The EQ-5D-5L health questionnaire will be obtained on admission, day 5, day 28 and after 3 months. If the patient’s clinical status doesn’t allow self-completion, the questionnaire may be completed by proxy.
+L80: Arterial Blood Gas (ABG) analysis is part of routine clinical care in the Intensive Care Unit. If the patient would be discharged to the ward before day 5, ABG sampling is not considered standard of care. In order to be able to calculate the SOFA score in this population, we will use the SpO2/FiO2 ratio to impute for PaO2/FiO2 ratio in the respiratory component [ 25 ].
+L81: All trial related procedures can be found in the SPIRIT schedule in  Fig 1  and the patient flow in  Fig 2 .
+L82: Fig 1 SPIRIT schedule including all trial relate procedures. FiO2: Fraction if inspired Oxygen; PaO2: Partial Pressure of Oxygen; GCS: Glasgow Coma Scale; BP: blood pressure; HR: Heart Rate; RRT: Renal Replacement Therapy; SOFA: Sequential Organ Failure Assessment; ICU: Intensive Care Unit. * Only when a patient is admitted at the ED after 6 PM, it might be that screening and randomization will not take place on the same date. In that case screening will be performed on day 0. Otherwise both screening and randomization will be performed on the same day, being day 1. ** Concomitant medication: additional information about the administration of vasoactive agents, fluids and corticosteroids will be collected from day 1 to 5. This needs to be registered in different sections of the electronic Case Report Form. The only concomitant medication that needs to be specified are antibiotics and the medication used to treat potential adverse events. Continuation of home medication, pain medication thrombosis or ulcer profylaxis are not considered as concomitant medication.
+L83: Fig 2 Patient Flow Chart.
+L84: Outcomes
+L85: The clinical outcomes of this trial have been chosen based on core clinical outcome measures in critically ill patients and clinical outcome measures used in previous studies with Vitamin C.
+L86: Primary outcome
+L87: Average post-baseline patient SOFA score on day 1 to 5 after patient randomization.
+L88: To avoid missing data for deceased patients, the maximum SOFA score of 24 will be assigned to mortality. Missing values for the non-deceased patients will be imputed (see statistical analysis plan). In this model the mean SOFA score is compared between both groups at each of the post-baseline days (d2, d3, d4, d5). Hence, at each post-baseline day there will be an estimate of an intervention effect.
+L89: Secondary outcomes
+L90: Statistical plan
+L91: Sample size
+L92: The required sample size is calculated to detect with at least 80% power a difference in average post-baseline patient SOFA score (calculated over days 1 to 5), based on a constrained longitudinal data analysis model with alpha set at 0.05 [ 26 ]. The power is calculated using an approach presented by Stroup [ 27 ]. Patients who die within the time period of 5 days receive the highest SOFA score starting at the day of death. Based on the cLDA model, 126 patients per group are needed to detect with at least 80% power a difference between the control and intervention group of 1 in average post-baseline SOFA score. A standard deviation of the SOFA score equal to 3.5 and a correlation between the time points equal to 0.5 is assumed. These were conservative estimates, derived from reported information in two studies [ 9 ,  18 ]. 2.5%, 5%, 10% and 15% missing values not due to death are assumed on d2, d3, d4 and d5, respectively (combination of dropout and mortality). However, the sample size will be increased to 150 patients per group to anticipate a larger variability due to the imputation of one or more maximal SOFA scores for deceased patients.
+L93: Statistical methods
+L94: All analyses will be performed using SAS software, version 9.4 of the SAS System for Windows.
+L95: Summary of baseline data
+L96: Baseline continuous data will be summarized using means (SD) or medians (IQR). For categorical data, numbers and proportions will be reported (with the corresponding sample size numbers). A consort flow diagram will be produced.
+L97: Primary analysis
+L98: The primary analysis compares the average post-baseline patient SOFA score (average over days 1–5) instead of the SOFA score of a single time point being either a fixed day or the day the maximum SOFA score has been reached for the following reasons. First, it is important to capture the full evolution during the first 5 days instead of selecting a single time point (being a fixed day or the day of discharge). Second, patients with septic shock will already have a high SOFA score at inclusion, such that a change versus the maximum value will not contain a lot of information. The average post-baseline score will be compared between both groups using a two-sided test derived from a cLDA model with alpha equal to 0.05. The choice of the covariance structure for the five measurements in the cLDA model will be based on the Aikake criterion. Site will be added as a fixed factor in the model. The cLDA analysis is valid under the missing at random assumption and assumes that the probability that an observation is missing only depends on the observed values of the individual, but not on the missing ones.
+L99: Secondary analysis
+L100: To get a deeper insight in the potential effect on the SOFA score, time point specific comparisons (at d2, d3, d4 and d5) obtained with the cLDA model will be reported. Further, the maximal SOFA score will be compared using a two-sided unpaired t-test. This comparison will be based on a multiple imputation approach (20 imputed datasets) since the observed maximum can be underestimated for patients with missing SOFA scores. Values will be imputed from the cLDA model.
+L101: For the continuous secondary endpoints (e.g. daily dosage of vasopressor requirement, daily dosage of IV fluids, lab values…) mortality will not explicitly be included in the outcome definition (such as for the primary outcome). Instead, the comparison of both groups will be based directly on a multivariate longitudinal model (applying the aforementioned criteria to select the covariance structure and with site added as a fixed factor).
+L102: To appropriately evaluate differences in length of hospital stay and length of ICU stay, death during hospital (ICU) stay will be treated as a competing risk [ 28 ] using a stratified Gray’s test for the comparison of both groups. The same approach holds for the comparison of the number of ventilation days, duration of vasopressor requirement, RRT duration and total of IV fluids administered. 28-day mortality will be compared using a stratified χ 2  test.
+L103: Subgroup analysis
+L104: Subgroup analyses for the primary and selected secondary outcomes will evaluate the treatment effect across the following subgroups: age groups, disease severity at baseline (sepsis vs. septic shock) and baseline SOFA (> 8 or < 8). A forest plot will display confidence intervals across subgroups. Interaction tests will be conducted to determine whether the effect of treatment varies by subgroup.
+L105: Safety analysis
+L106: Safety endpoints are described above. These events will be analyzed univariate and as a composite endpoint. Time-to-event methods will be used for death and the composite endpoint. Each Adverse Event (AE) will be counted once for a given participant and graded by severity and relationship to sepsis/septic shock or study intervention. AEs leading to premature discontinuation from the study intervention and serious treatment-emergent AEs will be described as part of the primary publication of the study results.
+L107: Safety
+L108: Adverse event reporting
+L109: For this trial, only AEs graded Severe and Serious Adverse Events (SAE) will be collected. However, given that this patient population is often very ill, AEs expected in the disease progression of the patient or related to the standard of care for the patient will not be recorded for the study. AEs that are also outcomes of the trial, are also exempt from reporting. All AEs will be reported until 30 days after last trial treatment administration or until last follow-up visit, whichever occurs first.
+L110: Investigators will seek information on AEs during each patient contact. If someone involved in the patient’s care reports an AE that is not related to the standard of care or that is not expected in the disease progression, the site study team will evaluate the AE for seriousness, severity and causality. All AEs graded severe and SAEs will be reported to the sponsor, who will also perform a causality assessment. If a causal relationship is observed, expectedness will be evaluated and if needed SUSARs will be reported to the competent authorities.
+L111: Risk
+L112: In this critically ill patient population AEs are expected. However, since the safety of Vitamin C [ 29 ] has been well established over the years, we do not foresee any SUSARs.
+L113: Data safety monitoring board
+L114: Data and safety monitoring will be conducted by an independent Data Safety Monitoring Board (DSMB) to ensure and maintain the scientific integrity and ethical balance of human subjects’ research and to protect subjects from avoidable harm. As detailed in its charter, the c-easie trial DSMB will be composed of 4 individuals: one emergency physician, one critical care physician, one statistician and one quality engineer. These individuals are selected on the basis of their content expertise in sepsis, critical care, multi-center clinical trials, and adaptive trial design and implementation. The DSMB will meet at least twice a year until study completion and will report to the c-easie executive committee. The DSMB will act independently of the funder and sponsor of the study and is charged with ensuring that the trial is implemented as designed and that the pre-specified design continues to be scientifically and ethically appropriate, and the DSMB will review ongoing safety data.
+L115: Trial steering committee
+L116: The role of the Trial Steering Committee (TSC) is to provide the overall supervision of the trial. The TSC will also include members who are independent of the investigators, their employing organisations, funders and sponsors. The TSC should monitor trial progress, conduct and advise on scientific credibility. The TSC will consider and act, as appropriate, and ultimately carries the responsibility for deciding whether a trial needs to be stopped on grounds of safety or efficacy.
+L117: The TSC will meet on average 3 times per year the first year and twice the year after that. The TSC is composed of the CI, the trial statistician, the trial PM, an independent expert, a representative of other participating centres or groups, 2 patients or members of the public, 1 representative of the sponsor and 1 representative of the funder.
+L118: The day-to-day management of the study will be performed by the Trial Management Group (TMG) which is distinct from the TSC.
+L119: Data management
+L120: Source records in this trial are the electronic patient dossier and paper EQ-5D-5L questionnaires. All study data are collected by trained staff at each study site. Data collection includes baseline demographics, primary diagnoses, physiological parameters and pathology, interventions and documentation of outcomes and safety events. Data are entered in the electronic Case Report Form (eCRF) on the secure web platform REDCap. All participant data will be pseudonymized using a unique study-specific identifier for each trial participant, in compliance with applicable data protection regulations. No personal data will be collected in the eCRF. Only study team members, monitors and auditors/inspectors for whom the chief investigator has requested project-specific eCRF access, are granted access to the clinical database. Upon successful training completion each user is centrally assigned a user role, associated with predefined system/data privileges. Following periodic data reviews, the data will be cleaned using an interactive query workflow whereby the data manager and/or safety reviewer and/or monitor will open a query when identifying missing and/or discrepant and/or unsubstantiated data, prompting the investigator and/or designated study team members to address the issue. Final study data will be archived electronically on UZ servers and with access rights for KCE and any other Belgian federal or regional institution, body, office, public service and/or agency at the end of the Study.
+L121: Monitoring
+L122: Data monitoring will be conducted by the CTC of UZ Leuven. The Site Initiation Visit is conducted on each site after contractual agreements have been duly signed. As detailed in the monitoring plan, a first monitoring visit will be conducted within 6 weeks after inclusion of the first study subject at the site. Thereafter, monitoring visits will be organized at intervals of 4 months on average. In total 25% of the total number of expected study subjects will be monitored, and 100% source data verification will be performed for the first 2 study subjects at each site. The remaining subjects will be randomly selected for review of critical data. A close-out visit will be conducted after the last patient last follow-up questionnaire has been completed for the site.
+L123: Interim analysis
+L124: Given the uncertainty on the assumed variability of the modified SOFA score and on the assumed correlation between the time points, a blinded interim analysis for sample size re-estimation [ 30 ] will be performed 12 months after start of the study (or at the latest if 75% of the planned number of subjects is recruited). If the observed standard deviation and correlations deviate from the assumed values such that the desired power level of 80% is not guaranteed anymore, an increase of the planned sample size will be considered. If the power level is at least 80% with the observed values for the CV, the sample size will remain unaltered. Note that no interim analyses are planned to stop the study earlier for efficacy or futility, this to avoid loss of information on the secondary endpoints.
+L125: Timeline
+L126: Sites gradually started patient recruitment from June 2021. The Trial will run for 18 months. At the end of the inclusions three months of patient follow-up will be added. We expect to submit for publication in the autumn of 2023.
+L127: Dissemination policy
+L128: The Declaration of Helsinki (latest version) and European and Belgian regulations require that every research Trial involving human participants be registered in a publicly accessible database before recruitment of the first participant. The CI is responsible for registering the Trial.
+L129: In addition, the CI will fulfil their ethical obligation to disseminate and make the research results publicly available. As such the CI is accountable for the timelines, completeness and accuracy of the reports. Researchers, authors, Sponsors, editors and publishers must adhere to accepted guidelines for ethical reporting. Negative and inconclusive, as well as positive results must be published or otherwise made publicly available. Sources of funding, institutional affiliations and conflicts of interest must be declared in publication.
+L130: Authorship eligibility guidelines and any intended use of professional writers
+L131: It is anticipated that the results of the overall Study shall be published in a multi-center publication, involving the data of all clinical sites participating in the Study.
+L132: A Participating Site is not allowed to publish any data or results from the Study prior to the multicenter publication, provided however that Participating Site is allowed to publish the results generated at the Participating Site if the multicenter publication has not occurred after 12 months from Study database lock.
+L133: Any publication by Participating Site will be submitted to the Sponsor for review at least thirty (30) days prior to submission or disclosure. Sponsor shall have the right to delay the projected publication for a period of up to three (3) months from the date of first submission to the Sponsor in order to enable the Sponsor to take steps to protect its intellectual property rights and know-how.
+L134: Publications will be coordinated by the Investigator of Sponsor. Authorship to publications will be determined in accordance with the requirements published by the International Committee of Medical Journal Editors and in accordance with the requirements of the respective medical journal.
+L135: Discussion
+L136: Recently, numerous RCTs have been published ( Table 1 ). Moreover, at the time of this writing, nine RCTs on the use of Vitamin C in sepsis (in addition to the c-easie trial), are registered at clinical trials.gov (accessed 7-9-2021) and have the status planned, recruiting or not yet published. Of these studies, two compare vitamin C with placebo, one compares the combination of vitamin C and thiamine with placebo (NCT03680274 and NCT03829683), two compare vitamin C and hydrocortisone with placebo (NCT03592277, NCT04999137), one compares the three-drug regimen with hydrocortisone alone (NCT03540628) and two compare the three-drug regimen with matching placebo (NCT03380507, NCT03872011).
+L137: A unique aspect of the c-easie trial compared to other registered or published trials is the early administration of Vitamin C within 6 hours after arrival at the ED. It is also the first time that the administration of Vitamin C will be studied in a sepsis population including the less ill. To detect this population more accurately, we introduced the NEWS score as a screening and inclusion tool for this trial. The NEWS score is validated for the identification of acutely ill patients in the early stage of their illness (including sepsis) being at risk for deterioration [ 31 ,  32 ]. This way the benefit of Vitamin C in different sepsis subgroups can be analyzed.
+L138: We aim to proof that through the early administration of Vitamin C, patients who present at an early stage of the disease course will get less sick, resulting in a lower maximum SOFA score. However, administration of Vitamin C in our sickest population might not necessarily reflect in a lower maximum SOFA score, but rather in faster recovery (higher delta SOFA between 2 points in time). To capture both phenomena, we opted to look at the average post-baseline patient SOFA score as primary outcome supported by a maximum SOFA score as secondary outcome (see statistical plan).
+L139: Furthermore we use a one drug regimen, which allows us to characterize which drug in the ‘well known’ sepsis cocktail might be paramount.
+L140: In the c-easie trial open-label steroids are permitted. As a result, patients will not be prevented by protocol from receiving stress-dose steroids if their clinical team feels this treatment is appropriate. We will consider the vasoactive effects of hydrocortisone in trial design and will assess the impact of this combination on shock resolution in comparison to placebo.
+L141: There are some limitations to this study, many of which are the result of limited phase II data. First, sample size calculations were based on only two previously published trials [ 9 ,  18 ]. Although conservative estimates were made, we decided to insert interim analyses for sample size re-estimation. Secondly, the large variety in study set-ups, outcomes and the inconsistency in the reported results, make it difficult to estimate the optimal dose and timing of Vitamin C administration. Based on clinical experience, ascorbic acid 1.5 grams IV every 6 hours is currently used in most studies [ 33 ]. Thirdly [ 4 – 6 ], since this is a pragmatic trial, we do not measure the baseline levels of Vitamin C in patients. Although several studies have examined the Vitamin C levels in sepsis patients and reported very low levels, we thus do not know with certainty whether these patients actually have a deficiency in Vitamin C. Finally, the combined population of very ill and less ill patients might influence the interpretation of the study results. It might be that Vitamin C has no benefit in the less ill population, or just the opposite. For this reason, we will perform thorough analyses of subgroups based on the NEWS score of the patients.
+L142: Any modification to the protocol which may have an impact on the conduct of the study, potential benefit of the patient or which may affect patient safety, including changes of study objectives, study design, patient population, sample sizes, study procedures or significant administrative aspects, will require a formal amendment of the protocol. Such amendment will be agreed upon by the Sponsor and KCE, and will need to be approved by the ethical committee and competent authorities through the CTR Pilot Procedure of the Federal Agency for Medicines and Health Products. If necessary, the trial will be paused while waiting for approval.
+L143: Supporting information
+L144: S1 Checklist SPIRIT checklist. (DOC)
+L145: S1 File Data management protocol. (PDF)
+L146: 1 World Health Organization. WHO Report on the burden of endemic health care-associated infection worldwide. 2017-11-21 15:11:22 2011—Google zoeken.
+L147: 2 Rhodes A ,  Evans LE ,  Alhazzani W ,  et al .  Surviving Sepsis Campaign .  Crit Care Med .  2017 ; 45 ( 3 ): 486 – 552 .  doi:  10.1097/CCM.0000000000002255 
+L148:  28098591
+L149: 3 Singer M ,  Deutschman CS ,  Seymour C ,  et al .  The third international consensus definitions for sepsis and septic shock (sepsis-3) .  JAMA—J Am Med Assoc .  2016 ; 315 ( 8 ): 801 – 810 .  doi:  10.1001/jama.2016.0287 
+L150:  26903338
+L151: 4 Fisher BJ ,  Kraskauskas D ,  Martin EJ ,  et al .  Attenuation of Sepsis-Induced Organ Injury in Mice by Vitamin C .  J Parenter Enter Nutr .  2014 ; 38 ( 7 ): 825 – 839 .  doi:  10.1177/0148607113497760 
+L152:  23917525
+L153: 5 Oudemans-van Straaten HM ,  Spoelstra-de Man AME ,  de Waard MC .  Vitamin C revisited .  Crit Care .  2014 .  doi:  10.1186/s13054-014-0460-x 
+L154:  25185110
+L155: 6 Wilson JX .  Mechanism of action of vitamin C in sepsis: Ascorbate modulates redox signaling in endothelium .  BioFactors .  2009 ; 35 ( 1 ): 5 – 13 .  doi:  10.1002/biof.7 
+L156:  19319840
+L157: 7 Carr AC ,  Rosengrave PC ,  Bayer S ,  Chambers S ,  Mehrtens J ,  Shaw GM .  Hypovitaminosis C and vitamin C deficiency in critically ill patients despite recommended enteral and parenteral intakes .  Crit Care .  2017 ; 21 ( 1 ).  doi:  10.1186/s13054-017-1891-y 
+L158:  29228951
+L159: 8 Schorah CJ ,  Downing C ,  Piripitsi A ,  et al .  Total vitamin C, ascorbic acid, and dehydroascorbic acid concentrations in plasma of critically ill patients .  Am J Clin Nutr .  1996 ; 63 ( 5 ): 760 – 765 .  doi:  10.1093/ajcn/63.5.760 
+L160:  8615361
+L161: 9 Fowler AA ,  Syed AA ,  Knowlson S ,  et al .  Phase I safety trial of intravenous ascorbic acid in patients with severe sepsis .  J Transl Med .  2014 .  doi:  10.1186/1479-5876-12-32 
+L162:  24484547
+L163: 10 Zabet M ,  Mohammadi M ,  Ramezani M ,  Khalili H .  Effect of high-dose Ascorbic acid on vasopressor′s requirement in septic shock.  J Res Pharm Pract .  2016 .  doi:  10.4103/2279-042X.179569 
+L164:  27162802
+L165: 11 Marik PE ,  Khangoora V ,  Rivera R ,  Hooper MH ,  Catravas J .  Hydrocortisone, Vitamin C, and 
+L166:  Thiamine for the Treatment of Severe Sepsis and Septic Shock: A Retrospective Before-After Study.  Chest . 2017.  doi:  10.1016/j.chest.2016.11.036 
+L167:  27940189
+L168: 12 Fowler AA ,  Truwit JD ,  Hite RD ,  et al .  Effect of Vitamin C Infusion on Organ Failure and Biomarkers of Inflammation and Vascular Injury in Patients with Sepsis and Severe Acute Respiratory Failure: The CITRIS-ALI Randomized Clinical Trial . In:  JAMA—Journal of the American Medical Association . Vol  322 .  American Medical Association ;  2019 : 1261 – 1270 .  doi:  10.1001/jama.2019.11825 
+L169:  31573637
+L170: 13 A M, DT H, PC H,  et al .  Effect of Ascorbic Acid, Corticosteroids, and Thiamine on Organ Injury in Septic Shock: The ACTS Randomized Clinical Trial .  JAMA .  2020 ; 324 ( 7 ): 642 – 650 .  doi:  10.1001/jama.2020.11946 
+L171:  32809003
+L172: 14 Hwang SY ,  Ryoo SM ,  Park JE ,  et al .  Combination therapy of vitamin C and thiamine for septic shock: a multi-centre, double-blinded randomized, controlled study .  Intensive Care Med 2020 4611 .  2020 ; 46 ( 11 ): 2015 – 2025 .  doi:  10.1007/s00134-020-06191-3 
+L173:  32780166
+L174: 15 Iglesias J ,  Vassallo A V .,  Patel V V .,  Sullivan JB ,  Cavanaugh J ,  Elbaga Y .  Outcomes of Metabolic Resuscitation Using Ascorbic Acid, Thiamine, and Glucocorticoids in the Early Treatment of Sepsis: The ORANGES Trial .  Chest .  2020 ; 158 ( 1 ): 164 – 173 .  doi:  10.1016/j.chest.2020.02.049 
+L175:  32194058
+L176: 16 Chang P ,  Liao Y ,  Guan J ,  et al .  Combined Treatment With Hydrocortisone, Vitamin C, and Thiamine for Sepsis and Septic Shock: A Randomized Controlled Trial .  Chest .  2020 ; 158 ( 1 ): 174 – 182 .  doi:  10.1016/j.chest.2020.02.065 
+L177:  32243943
+L178: 17 Wani SJ ,  Mufti SA ,  Jan RA ,  et al .  Combination of vitamin C, thiamine and hydrocortisone added to standard treatment in the management of sepsis: results from an open label randomised controlled clinical trial and a review of the literature .  https://doi.org/101080/2374423520201718200 .  2020 ; 52 ( 4 ): 271 – 278 .  31990246
+L179: 18 Fujii T ,  Luethi N ,  Young PJ ,  et al .  Effect of Vitamin C, Hydrocortisone, and Thiamine vs Hydrocortisone Alone on Time Alive and Free of Vasopressor Support among Patients with Septic Shock: The VITAMINS Randomized Clinical Trial . In:  JAMA—Journal of the American Medical Association . Vol  323 .  American Medical Association ;  2020 : 423 – 431 .  doi:  10.1001/jama.2019.22176 
+L180:  31950979
+L181: 19 Sevransky JE ,  Rothman RE ,  Hager DN ,  et al .  Effect of Vitamin C, Thiamine, and Hydrocortisone on Ventilator- and Vasopressor-Free Days in Patients With Sepsis: The VICTAS Randomized Clinical Trial .  JAMA .  2021 ; 325 ( 8 ): 742 – 750 .  doi:  10.1001/jama.2020.24505 
+L182:  33620405
+L183: 20 Ge Z ,  Huang J ,  Liu Y ,  et al .  Thiamine combined with vitamin C in sepsis or septic shock: A systematic review and meta-analysis .  Eur J Emerg Med .  2021 : 189 – 195 .  doi:  10.1097/MEJ.0000000000000812 
+L184:  33709993
+L185: 21 Somagutta MKR ,  Pormento MKL ,  Khan MA ,  et al .  The Efficacy of vitamin C, thiamine, and corticosteroid therapy in adult sepsis patients: a systematic review and meta-analysis .  Acute Crit Care .  2021 ; 36 ( 3 ): 185 – 200 .  doi:  10.4266/acc.2021.00108 
+L186:  34185986
+L187: 22 May JM ,  Harrison FE .  Role of Vitamin C in the Function of the Vascular Endothelium .  Antioxid Redox Signal .  2013 ; 19 ( 17 ): 2068 – 2083 .  doi:  10.1089/ars.2013.5205 
+L188:  23581713
+L189: 23 Carr AC ,  Shaw GM ,  Fowler AA ,  Natarajan R .  Ascorbate-dependent vasopressor synthesis: A rationale for vitamin C administration in severe sepsis and septic shock? 
+L190:  Crit Care . 
+L191:  2015 ; 19 ( 1 ): 1 – 8 .  doi:  10.1186/s13054-015-1131-2 
+L192:  25560635
+L193: 24 Bornstein SR ,  Yoshida-Hiroi M ,  Sotiriou S ,  et al .  Impaired adrenal catecholamine system function in mice with deficiency of the ascorbic acid transporter (SVCT2) .  FASEB J .  2003 ; 17 ( 13 ): 1928 – 1930 .  doi:  10.1096/fj.02-1167fje 
+L194:  12897061
+L195: 25 Long Öztekin ,  Nicole M and  Badre D .  Pao2 Fio2 Derivation .  Bone .  2008 ; 23 ( 1 ): 1 – 7 .  doi:  10.1097/CCM.0b013e31819cefa9.Derivation
+L196: 26 Liang K-Y ,  Zeger SL .  Indian Statistical Institute Longitudinal Data Analysis of Continuous and Discrete Responses for Pre-Post Designs .  Indian J Stat Ser B Ser B Biostat .  1960 ; 62 ( 1 ): 134 – 148 .  doi:  10.2307/25053123
+L197: 27 Stroup, W. W. Mixed model procedures to assess power, precision, and sample size in the design of experiments. Proc. Biopharmaceutical Section. Am. Stat. Assoc., Baltimore, MD 15–24 (1999).
+L198: 28 Brock GN ,  Barnes C ,  Ramirez JA ,  Myers J .  How to handle mortality when investigating length of hospital stay and time to clinical stability .  BMC Med Res Methodol .  2011 ; 11 .  doi:  10.1186/1471-2288-11-11 
+L199:  21272364
+L200: 29 Khoshnam-Rad N ,  Khalili H .  Safety of Vitamin C in sepsis: A neglected topic .  Curr Opin Crit Care .  2019 ; 25 ( 4 ): 329 – 333 .  doi:  10.1097/MCC.0000000000000622 
+L201:  31107310
+L202: 30 Kieser M ,  Friede T .  Simple procedures for blinded sample size adjustment that do not affect the type I error rate .  Stat Med .  2003 ; 22 ( 23 ): 3571 – 3581 .  doi:  10.1002/sim.1585 
+L203:  14652861
+L204: 31 GB S, DR P, P M, PE S, PI F.  The ability of the National Early Warning Score (NEWS) to discriminate patients at risk of early cardiac arrest, unanticipated intensive care unit admission, and death .  Resuscitation .  2013 ; 84 ( 4 ): 465 – 470 .  doi:  10.1016/j.resuscitation.2012.12.016 
+L205:  23295778
+L206: 32 Churpek MM ,  Snyder A ,  Han X ,  et al .  Quick Sepsis-related Organ Failure Assessment, Systemic Inflammatory Response Syndrome, and Early Warning Scores for Detecting Clinical Deterioration in Infected Patients outside the Intensive Care Unit .  Am J Respir Crit Care Med .  2017 ; 195 ( 7 ): 906 .  doi:  10.1164/rccm.201604-0854OC 
+L207:  27649072
+L208: 33 Marik PE .  Vitamin C for the treatment of sepsis: The scientific rationale .  Pharmacol Ther .  2018 .  doi:  10.1016/j.pharmthera.2018.04.007 
+L209:  29684467
+L210: We would like to thank all trial staff of the eight trial sites for their efforts in recruiting patients and accurate data collection. This trial would not have been possible without the support of Hilde Nevens and Nelle Stoquart from KCE.
+L211: # pone.0259699.s001
+L212: # SPIRIT 2013 Checklist: Recommended items to address in a clinical trial protocol and related documents*
+L213: | OK (yes/no) | Section/item | ItemNo | Description |
+L214: | --- | --- | --- | --- |
+L215: |  | Administrative  information | Administrative  information | Administrative  information |
+L216: | Yes | Title | 1 | Descriptive title identifying the study design, population, interventions, and, if applicable, trial acronym |
+L217: | Yes | Trial registration | 2a | Trial identifier and registry name. If not yet registered, name of intended registry |
+L218: | Yes | Trial registration | 2b | All items from the World Health Organization Trial Registration Data Set |
+L219: | Yes | Protocol version | 3 | Date and version identifier |
+L220: | Yes | Funding | 4 | Sources and types of financial, material, and other support |
+L221: | Yes | Roles and responsibilities | 5a | Names, affiliations, and roles of protocol contributors |
+L222: | Yes | Roles and responsibilities | 5b | Name and contact information for the trial sponsor |
+L223: | Yes |  | 5c | Role of study sponsor and funders, if any, in study design; collection, management, analysis, and interpretation of data; writing of the report; and the decision to submit the report for publication, including whether they will have ultimate authority over any of these activities |
+L224: | Yes |  | 5d | Composition, roles, and responsibilities of the coordinating centre, steering committee, endpoint adjudication committee, data management team, and other individuals or groups overseeing the trial, if applicable (see Item 21a for data monitoring committee) |
+L225: |  | Introduction |  |  |
+L226: | Yes | Background and rationale | 6a | Description of research question and justification for undertaking the trial, including summary of relevant studies (published and unpublished) examining benefits and harms for each intervention |
+L227: | Yes |  | 6b | Explanation for choice of comparators |
+L228: | Yes | Objectives | 7 | Specific objectives or hypotheses |
+L229: | Yes | Trial design | 8 | Description of trial design including type of trial (eg, parallel group, crossover, factorial, single group), allocation ratio, and framework (eg, superiority, equivalence, noninferiority, exploratory) |
+L230: |  | Methods: Participants, interventions, and outcomes | Methods: Participants, interventions, and outcomes | Methods: Participants, interventions, and outcomes |
+L231: | Yes | Study setting | 9 | Description of study settings (eg, community clinic, academic hospital) and list of countries where data will be collected. Reference to where list of study sites can be obtained |
+L232: | Yes | Eligibility criteria | 10 | Inclusion and exclusion criteria for participants. If applicable, eligibility criteria for study centres and individuals who will perform the interventions (eg, surgeons, psychotherapists) |
+L233: | Yes | Interventions | 11a | Interventions for each group with sufficient detail to allow replication, including how and when they will be administered |
+L234: | Yes | Interventions | 11b | Criteria for discontinuing or modifying allocated interventions for a given trial participant (eg, drug dose change in response to harms, participant request, or improving/worsening disease) |
+L235: | Yes | Interventions | 11c | Strategies to improve adherence to intervention protocols, and any procedures for monitoring adherence (eg, drug tablet return, laboratory tests) |
+L236: | Yes | Interventions | 11d | Relevant concomitant care and interventions that are permitted or prohibited during the trial |
+L237: | Yes | Outcomes | 12 | Primary, secondary, and other outcomes, including the specific measurement variable (eg, systolic blood pressure), analysis metric (eg, change from baseline, final value, time to event), method of aggregation (eg, median, proportion), and time point for each outcome. Explanation of the clinical relevance of chosen efficacy and harm outcomes is strongly recommended |
+L238: | Yes | Participant timeline | 13 | Time schedule of enrolment, interventions (including any run-ins and washouts), assessments, and visits for participants. A schematic diagram is highly recommended (see Figure) |
+L239: | Yes | Sample size | 14 | Estimated number of participants needed to achieve study objectives and how it was determined, including clinical and statistical assumptions supporting any sample size calculations |
+L240: | NA | Recruitment | 15 | Strategies for achieving adequate participant enrolment to reach target sample size |
+L241: |  | Methods: Assignment of interventions (for controlled trials) | Methods: Assignment of interventions (for controlled trials) | Methods: Assignment of interventions (for controlled trials) |
+L242: |  | Allocation: |  |  |
+L243: | Yes | Sequence generation | 16a | Method of generating the allocation sequence (eg, computer-generated random numbers), and list of any factors for stratification. To reduce predictability of a random sequence, details of any planned restriction (eg, blocking) should be provided in a separate document that is unavailable to those who enrol participants or assign interventions |
+L244: | Yes | Allocation concealment mechanism | 16b | Mechanism of implementing the allocation sequence (eg, central telephone; sequentially numbered, opaque, sealed envelopes), describing any steps to conceal the sequence until interventions are assigned |
+L245: | Yes | Implementation | 16c | Who will generate the allocation sequence, who will enrol participants, and who will assign participants to interventions |
+L246: | Yes | Blinding (masking) | 17a | Who will be blinded after assignment to interventions (eg, trial participants, care providers, outcome assessors, data analysts), and how |
+L247: |  |  | 17b | If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s allocated intervention during the trial |
+L248: |  | Methods: Data collection, management, and analysis | Methods: Data collection, management, and analysis | Methods: Data collection, management, and analysis |
+L249: | Yes | Data collection methods | 18a | Plans for assessment and collection of outcome, baseline, and other trial data, including any related processes to promote data quality (eg, duplicate measurements, training of assessors) and a description of study instruments (eg, questionnaires, laboratory tests) along with their reliability and validity, if known. Reference to where data collection forms can be found, if not in the protocol |
+L250: |  |  | 18b | Plans to promote participant retention and complete follow-up, including list of any outcome data to be collected for participants who discontinue or deviate from intervention protocols |
+L251: | Yes | Data management | 19 | Plans for data entry, coding, security, and storage, including any related processes to promote data quality (eg, double data entry; range checks for data values). Reference to where details of data management procedures can be found, if not in the protocol |
+L252: | Yes | Statistical methods | 20a | Statistical methods for analysing primary and secondary outcomes. Reference to where other details of the statistical analysis plan can be found, if not in the protocol |
+L253: | Yes |  | 20b | Methods for any additional analyses (eg, subgroup and adjusted analyses) |
+L254: | Yes |  | 20c | Definition of analysis population relating to protocol non-adherence (eg, as randomised analysis), and any statistical methods to handle missing data (eg, multiple imputation) |
+L255: |  | Methods: Monitoring | Methods: Monitoring | Methods: Monitoring |
+L256: | Yes | Data monitoring | 21a | Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of whether it is independent from the sponsor and competing interests; and reference to where further details about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not needed |
+L257: | Yes |  | 21b | Description of any interim analyses and stopping guidelines, including who will have access to these interim results and make the final decision to terminate the trial |
+L258: | Yes | Harms | 22 | Plans for collecting, assessing, reporting, and managing solicited and spontaneously reported adverse events and other unintended effects of trial interventions or trial conduct |
+L259: | Yes | Auditing | 23 | Frequency and procedures for auditing trial conduct, if any, and whether the process will be independent from investigators and the sponsor |
+L260: |  | Ethics and dissemination | Ethics and dissemination | Ethics and dissemination |
+L261: | Yes | Research ethics approval | 24 | Plans for seeking research ethics committee/institutional review board (REC/IRB) approval |
+L262: | Yes | Protocol amendments | 25 | Plans for communicating important protocol modifications (eg, changes to eligibility criteria, outcomes, analyses) to relevant parties (eg, investigators, REC/IRBs, trial participants, trial registries, journals, regulators) |
+L263: | Yes | Consent or assent | 26a | Who will obtain informed consent or assent from potential trial participants or authorised surrogates, and how (see Item 32) |
+L264: | NA |  | 26b | Additional consent provisions for collection and use of participant data and biological specimens in ancillary studies, if applicable |
+L265: | Yes | Confidentiality | 27 | How personal information about potential and enrolled participants will be collected, shared, and maintained in order to protect confidentiality before, during, and after the trial |
+L266: | Yes | Declaration of interests | 28 | Financial and other competing interests for principal investigators for the overall trial and each study site |
+L267: | Yes | Access to data | 29 | Statement of who will have access to the final trial dataset, and disclosure of contractual agreements that limit such access for investigators |
+L268: | NA | Ancillary and post-trial care | 30 | Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial participation |
+L269: | Yes | Dissemination policy | 31a | Plans for investigators and sponsor to communicate trial results to participants, healthcare professionals, the public, and other relevant groups (eg, via publication, reporting in results databases, or other data sharing arrangements), including any publication restrictions |
+L270: | Yes |  | 31b | Authorship eligibility guidelines and any intended use of professional writers |
+L271: | NA |  | 31c | Plans, if any, for granting public access to the full protocol, participant-level dataset, and statistical code |
+L272: |  | Appendices |  |  |
+L273: | No | Informed consent materials | 32 | Model consent form and other related documentation given to participants and authorised surrogates |
+L274: | NA | Biological specimens | 33 | Plans for collection, laboratory evaluation, and storage of biological specimens for genetic or molecular analysis in the current trial and for future use in ancillary studies, if applicable |
+L275: *It is strongly recommended that this checklist be read in conjunction with the SPIRIT 2013 Explanation & Elaboration for important clarification on the items. Amendments to the protocol should be tracked and dated. The SPIRIT checklist is copyrighted by the SPIRIT Group under the Creative Commons “Attribution-NonCommercial-NoDerivs 3.0 Unported” license.
+L276: ###### 4.1 IJZ Data Management Plan (DMP)
+L277: for KCE C-EASIE study (S63213)
+L278: LEUVE N Study-specilic DMP version: 1 .1_29Jun202l
+L279: GENERAL INFORMATION
+L280: S-number & studv acronym: 363213— KCE C-EASIE
+L281: Protocol version & date: V 2.0 —06 April2021
+L282: Sponsor: University Hospitals Leuven (UZ Leuven)
+L283: Number of research sites: 8
+L284: Expected number of participants: 300
+L285: Coordinating/Principle Investigator: Dr. Didier Desruelles
+L286: DMP prepared/revised by: Hilde De Tollenaere - CTC Data Manager
+L287: Study Statistician: Steffen Fieuws
+L288: Study Safety Coordinator/Reviewer: Dr. Stefanie Vandervelden - Johanna Geerinck CTC
+L289: Table of Contents
+L290: 1. Purpose 1
+L291: 2. Scope 1
+L292: 3. Scope of data management activities 2
+L293: A. DATA COLLECTION 2
+L294: B. DATA ACCESS AND SECURITY 3
+L295: C. DATA STANDARDS & CODING 3
+L296: D. DATA CLEAN ING AND VALIDATION 3
+L297: E. RANDOMISATION / TREATMENT ALLOCATION 5
+L298: F. DATA INTEGRITY 6
+L299: G. SAFETY REVIEW / REPORTING 6
+L300: H.DATABASELOCK 6
+L301: 1. DATA RETENTION, CONTINGENCY & DISASTER RECOVERY 7
+L302: J. END OF TRIAL DATA ARCHIVING 7
+L303: K. THIRD PARTY DATA HANDLERS 7
+L304: L. INDEPENDENT DATA SAFETY MONITORING BOARD (DSMB) 8
+L305: 4. Archiving 8
+L306: 5. Version history 8
+L307: 6. Approvals 9
+L308: 7. APPENDIX 2: Data Safety Monitoring Board (DSMB) Charter 9
+L309: 1. Purpose
+L310: This Data Management Plan serves to describe all study-specific clinical trial-related data
+L311: management tasks and deliverables. This includes how the data are collected, how data quality and
+L312: integrity is assured, how data is handled, transformed and processed, etc.
+L313: 2. Scope
+L314: This DMP was developed for clinical trials for which KUL-UZ Leuven is Sponsor and/or for which data
+L315: management tasks are contracted to KUL-UZL, and is governed by CTC DM-SOP-OO1
+L316: Parent: CTC DM-SOP-0O1 Page lol 10 CTC QA-TMP-O03-l .0
+L317: This dcc: CTC DM-PL-0O1 -l .l_29Jun202l UZ LEUVEN CONFIOENTIAL & PROPRIETARY
+L318: Page lol 10
+L319: UZ LEUVEN CONFIOENTIAL & PROPRIETARY
+L320: ItPb UZ
+L321: 11 LEUVEN
+L322: Out of scope:
+L323: Data Management Plan (DMP)
+L324: for KOE C-EASIE study (363213)
+L325: Sludy-specific OMP version: 1.1_29Jun2021
+L326: Development and content of the Statistical Analysis Plan (SAP) and Monitoring Plan (MP)
+L327: 3. Scope of data management activities
+L328: A. DATA COLLECTION
+L329: A.I What data will be collected or re-used and where does t have its origin?
+L330: The below list provides an overview of eCRF instruments. Generally spoken all data far this study has its
+L331: origin in (electronic) patient file/source data worksheets. For further details about which data will be
+L332: collected, please refer to the study-specific User Requirements document.
+L333: Data point Collect Re-use Recording Comments
+L334: Screening S ci Source data
+L335: Baseline data S ci Source data
+L336: Daily follow-up 5 ci Source data
+L337: Questionnaire follow-up S S Source data or electronic
+L338: patient file
+L339: Randomisation S To ensure the integrity of
+L340: the trial, a randomization
+L341: procedure through a
+L342: computerized system has
+L343: been established:
+L344: The randomization kit list
+L345: will be generated by
+L346: ARDENA Gent NV and
+L347: uploaded in randomize.net.
+L348: The user will log into
+L349: randomize.net to
+L350: randomize the patïent.
+L351: When the patient is
+L352: randomized the user will
+L353: receive a kit number via
+L354: mail. This kit-number will
+L355: be manually entered in the
+L356: eCRF by the study team.
+L357: Health questionnaire (survey) S S Ternplate questionnaire
+L358: (paper) can be used in case
+L359: no computer is available
+L360: and data can also be
+L361: entered directly in the eCRF
+L362: by the patient or member of
+L363: the study team with data
+L364: entry right
+L365: Adverse Event S 5 Source data
+L366: Concomitant Therapy S El Source data
+L367: End of Trial 5 Ei Source data
+L368: A.2 Was UZL GDPR questionnaire Ves
+L369: completed?
+L370: S No » Please complete & submit to
+L371: ctc@uzleuven.be!
+L372: A.3 Expected recruitment start date
+L373: Expected start date: 21-05-2021.
+L374: The study is expected to last 28 months.
+L375: Parent: CTC DM-SOP-oOl Page 2 of 10 CTC QA-TMP-003-1 .0
+L376: This doe: CTC DM-PL-00l-I.l_29Jun2021 UZ I.EUVEN CONFIDENTIAL & PROPRIETARY
+L377: ###### lIr’ [UZ] Data Managementfor KCE C-EASIE study Plan(563213)(DMP)
+L378: LEU VEN Study-specific DMP version: 1.l_29Jun2021
+L379: ## V*)
+L380: A.4 Name and version of (e)CIRF platform or IREDCapTM Production version 10.6.13
+L381: relational database used to capture study
+L382: specific data
+L383: A.5 Party responsible for (e)CRF development Hilde De Tollenaere - CTC Data Manager
+L384: CTC.datamanagement@uzleuven.be
+L385: B. DATA ACCESS AND SECURITY
+L386: Bi Physical location of CAF database UZ Leuven REDCap is hosted on dedicated KU Leuven
+L387: data servers at Campus Heverlee.
+L388: B.2 Systern Administrator For UZL REDCap the System Administrator is Gert Goos:
+L389: gert.goos@kuleuven.be
+L390: B.3 How will physical data access be When using UZ Leuven REDCap, physical access to the
+L391: restricted? data centers is logged and restricted to authorized KU
+L392: Leuven Information Technology (IT) personnel, using
+L393: badge identification. At the clinical database level only
+L394: study team members, monitors and auditors/inspectors for
+L395: whom the Coordinating or Principal Investigator (as
+L396: applicable) has requested project-specific eCRF access,
+L397: are granted data access. Upon successful training
+L398: completion each user is centrally assigned a user role,
+L399: associated with predefined system/data privileges, in
+L400: accordance with CTC DM-Wl-0O1. The gatekeeper for UZL
+L401: REDCap user accounts is UZL CTC
+L402: (ctc.datamanagement@ uzleuven.be).
+L403: B.4 Will data be shared outside UZL during ‘(es
+L404: and/or fohowing completion of the clinical
+L405: NO
+L406: research trial?
+L407: 1f ‘No’: Please clarify why no data wilI/can be shared: This is specified in sections 11 and 12 of the
+L408: protocol.
+L409: B.5 Describe the use and format of required For the purpose of statistical analysis and resuits reporting,
+L410: data exports data exports out of REDCap will be exported in SAS
+L411: format.
+L412: C. DATA STANDARDS & CODING
+L413: 0.1 Which medical coding MedDRA,
+L414: dictionary/dictionaries will be used?
+L415: Note that safety event coding based on the
+L416: MedDRA dictionary, is required for reporting
+L417: study results in EudraCT.
+L418: C.2 What measures will be taken to prevent All participant data will be pseudonymized using a unique
+L419: collection and sharing of personal data from study-specific identifier for each trial participant, in
+L420: trial participants? compliance with applicable data protection regulations. No
+L421: personal data will be collected in the eCAF. This will be
+L422: verified as part of the eCRF testing and validation.
+L423: D. DATA CLEANING AND VALIDATION
+L424: D.1 Deacribe the type, level and frequency of Data quality will be checked through reviews of
+L425: quality control (QC) activities. comprehensive data discrepancy reports, including
+L426: information about missing and unreviewed / unvalidated
+L427: data fields.
+L428: No queries will be raised for self-evident discrepancies that
+L429: appear during the process of data cleaning. These self
+L430: Parent: CTC DM-SOP-O01 Page 3of 10 CTC QA-TMP-003-1 .0
+L431: This dcc: CTC OM-PL-00l -l .29Jun2021 UX LEUVEN CONFIDENTIAL & PROPRIETARY
+L432: •ftp’ UZ Data Management Plan (DMP)
+L433: LEUV EN Study-specificfor KOE C-EASIEDMP version:study 1(S63211 _29Jun2021 3)
+L434: evident discrepancies will be discussed with the study
+L435: team and statistician prior to being corrected by the CTC
+L436: Data Manager.
+L437: Any missing data fields that are confirmed as missing by
+L438: the study site will be considered as not available. No new
+L439: queries will be raised for these missing data fields.
+L440: Corrections/clarifications will be asked to the data entry
+L441: staff for all other discrepancies.
+L442: Extensive consistency checks on the received data will be
+L443: done before each interim analysis and at the time of
+L444: annual safety reporting.
+L445: The CTC Data Manager will review and close queries that
+L446: have been appropriately addressed. At the end of the trial,
+L447: the CTC Data Manager or the investigator will look the
+L448: eCRF page for further editing when all data for the page is
+L449: complete and clean.
+L450: Furthermore, data integrity will also be monitored
+L451: according to the agreed study-specific Monitoring Plan.
+L452: D.2 Will the study be monitored by a qualitied, Yes
+L453: trained individual, who is independent trom
+L454: 0 No
+L455: the study team?
+L456: It “Yes”: Either describe the monitoring strategy and frequency, or refer to study-specific Monitoring Plan.
+L457: 1f ‘No”: Provide justification (based on documented risk analysis!) for waiving monitoring responsibilities.
+L458: See Monitoring for this study will be done by UZL Clinical Trial Center (CTC). All UZL CTC Monitors are
+L459: appropriately trained and qualified. For details about the monitoring strategy, please refer to the agreed
+L460: Monitoring Plan.
+L461: D.3 Name of monitoring party Linde Besard
+L462: linde.besard@uzleuven.be
+L463: ctc.monitoring© uzleuven.be
+L464: D.4 Data cleaning strategy, ie. query process Following periodic data reviews, the data will be cleaned
+L465: using an interactive query workflow whereby the Data
+L466: Manager and/or Safety Reviewer and/or Monitor will open
+L467: a query when identifying missing andlor disorepant and/or
+L468: unsubstantiated data, prompting the Investigator and/or
+L469: designated study team members to address the issue.
+L470: Upon verification of resporise/actions taken by the study
+L471: team, queries will be closed by the data manager, safety
+L472: reviewer, or Monitor.
+L473: Several automated queries have been predefined or
+L474: programmed for this study and data field validation is build
+L475: into the eCRF.
+L476: 0.5 Describe how protocol deviations and/or The Investigator and Trial team acknowledge and agree
+L477: violations will be documented and/or reported. that prospective, planned deviations or waivers to the
+L478: Note: a description of protocoldeviations/ protocol are not permitted under applicable regulations on
+L479: violations will be handled as part of the clinical studies. However, should there be an accidental
+L480: statistical analysis, must described as part of protocol deviation, such deviation shall be adequately
+L481: the SAP. documented in the source documents and on the relevant
+L482: forms and reported to the Cl and Sponsor immediately.
+L483: Deviations should also be reported to the EC as part of the
+L484: EC’s continued review of the Trial (e.g. through the ASFL
+L485: APR, etc.).
+L486: Parent: CTC UM-SOP-OOl Page 4 of 10 CTC OA-TMP-003-l .0
+L487: This doc: CTC DM-PL-ool -1.1 _29Jun202l UZ LEUVEN CONFIOENTIAL & PROPRIETARY
+L488: ### 1r [uz] Data ManagementfoC-E1Esty(S63213)Plan (DMP)
+L489: #### l [7] LEUVEN Study-specific DMP version; 1.1_29Jun2021
+L490: Protocol deviations which are found to frequently recur, will
+L491: require (immediate) action. Protocol violations will also
+L492: require a documented “Corrective Action Preventive Action
+L493: (CAPA)” plan.
+L494: Investigator acknowledges that such recurring protocol
+L495: deviations could potentially be classified as a serious
+L496: violation. his understood that “a serious violation” is likely
+L497: to affect to a significant degree:
+L498:                                                                 - the safety or physical or mental integrity of the
+L499: Trial participants; or
+L500:                                                                 - the scientific validity of the Trial
+L501: The Investigator is expected to take immediate action
+L502: required to protect the safety of the trial participant(s),
+L503: even if this action represents a deviation from the protocol.
+L504: In such cases, the CI/Sponsor should be notified of this
+L505: action and the EC at the Trial site should be informed
+L506: according to local procedures and applicable regulations.
+L507: The impact of deviations/violations and/or missing data on
+L508: the study results will be assessed by the Pl and
+L509: statistician. Handling of such deviations and/or data gaps
+L510: will be described in the Statistical Analysis Plan (SAP) by
+L511: the statistician. The statistician will alert the PI/study
+L512: team/CTC Data Manager/Monitor (as appropriate), of any
+L513: non-compliance issues that significantly impact the data
+L514: integrity and/or validity of the study data (e.g. issues that
+L515: introduce potential bias or that compromise the study
+L516: endpoints).
+L517: E. RANDOMISATION ITREATMENT ALLOCATION
+L518: E.1 Is the study randornized? Ves
+L519: EINo
+L520: It “Yes’Ç please describe the randomization / treatment allocation methodology and any bols used to
+L521: establish randomization / treatment albocation; or refer to the final, approved protocol 1f detailed information
+L522: is available there.
+L523: The trail randomization is described in section 7.3 of the protocol.
+L524: To ensure the integrity of the trial, randomization through a computerized system has been established. A
+L525: randomization kit list will be generatecl by ARDENA Gent NV and uploaded into www.randornize.net.
+L526: Randomization will happen ina 1:1 allocation ratio stratified by site. Patients in the trial will be randomly
+L527: assigned to the intervention group or the control group. Within each site, block randomization will be
+L528: applied using varying block size The total number of blocks is 90, and the number of treatment numbers is
+L529: between 001- 360.
+L530: www.randomize.net is a web based system and accessible 24/7. Each apphicable study site staff member
+L531: will have a personal log in for randomization.
+L532: When the patient has been randomized in www.randomize.net, a patient treatment kit number will be
+L533: allocated. The apphicable stucly site staff members will receive this kit number via mail.
+L534: Blinding, packaging and distribution of IMP is described in section 7.4 of the protocol:
+L535: These pre-made kits will contain the bhinded IV ampoules for the entire treatment period (16 doses -4 days)
+L536: for the patient.
+L537: The treatment kit will contain 52 (4 back-up) ampoules of Vitamin C SOOmg/5ml OR 52 ampoules of Normal
+L538: Sahine 5m1 9mg/mI. These ampoules have identicah sizes and will be blinded by a cap and sticker so that
+L539: they look identical. For administration, bedside nurses will have to dilute 3 ampoules in Sürnl of Normal
+L540: Parent: crc DM-SOP-OO1 Page 5 of 10 cc QA-TMP-003-1.0
+L541: This dcc: CTC DM-PL-00I-1 .1_29Jun2021 uz LEUVEN CONFIDENTIAL & PROPRIETARY
+L542: UZ Data Management Plan (DMP)
+L543: for KCE C-EASIE study (S63213)
+L544: LEUVEN Study-specific OMP version: 1 .1_29Jun2021
+L545: Saline. Vitamin C for IV use and normal saline are both colorless and odorless. It has been described that
+L546: Vitamin C can turn yellowish, but only if stored for too long or under non ideal circumstances.
+L547: This way, trial participants as well as care providers will be blinded to intervention.
+L548: Blindinq, packaqinq, and distribution will also be performed bv the external service Ardena Cent NV.
+L549: aii 111 i c’ :1 ii’
+L550: F.1 How will the integrity of the data be No data imports are expected.
+L551: assured during data transter and processing? No patient identifying information is recorded in the eCRF.
+L552: Exports will be used as described above for data
+L553: verification/queries and statistical analysis. Data will be
+L554: eleotronically saved and are accessible only to authorized
+L555: personnel. No transfers outside UZ LeuvenfKU Leuven are
+L556: foreseen. Transfer of data to the study statistician will be
+L557: tested prior to transferring any study data.
+L558: F.2 Which n-ieasures are taken to allow A comprehensive audit trail is maintained within the eCRF
+L559: verilication of data integrity throughout the allowing to demonstrate the validity of collected trial data.
+L560: entire data lilecycle? This includes historical records of original data entries, by
+L561: whorn the data was entered and when it was entered, as
+L562: well as detailed records of who, when, which and why
+L563: corrections to the original data entry were made. This also
+L564: inctudes records pertaining to managing user access and
+L565: data privileges.
+L566: F.3 What measures will be taken to assure the Not Applicable. IMP kits are blinded & labeled by Ardena
+L567: integrity of blinded treatment Cent N.V. The site enters the IMP kit number into the
+L568: allocation/information? eCRF.
+L569: F.4 What measures will be taken to avoid bias Not applicable
+L570: of independent raters? (as applicable)
+L571: 0. SAFETY REVIEW / REPORTING
+L572: G.1 How will study participant safely be The CI/PI, Safety reviewer and the monitor are notified via
+L573: assured? automated email whenever an SAE is recorded in the
+L574: eCRF.
+L575: In section 9 of the protocol the ‘Safety Recording and
+L576: reporting’ is described, containing the following sections:
+L577: 9.1. Definitions
+L578: 9.2. Recording of safety findings in function of the available
+L579: evidence
+L580: 9.3. Expedited reporting of AE’s, SAEs and SUSARs
+L581: 9.4. Reporting reguirements to EC’s and GAS
+L582: G.2 Party responsible for safety reviews Dr. Stefanie Vandervelden
+L583: Dr. Didier Desruelles
+L584: G.3 Party responsible for safety reporting, per - Johanna Geerinck: SUSAR reporting in Eudravigilance
+L585: applicable regulations, protocol and study- and to EC, CA and other investigators
+L586: specific agreements johannaaeerinck@uzieuven.be
+L587:                                           - Dr. Didier Desruelles (Sponsor): Evaluation of
+L588: expectedness and seriousness of the reported event
+L589: didier.desruelles@uzleuven.be
+L590:                                     - Dr. Stefanie Vandervelden: Evaluation of expectedness
+L591: and seriousness of the reported events, in absence of
+L592: stefanie.vandervelden@uzleuven.be
+L593: Lina Wauters: Reporting of SAEs and severe AEs (not
+L594: SUSAR) according to the detailed guidance described in
+L595: the safety SOP. Iina.wauters@uzleuven.be
+L596: H. DATABASE LOCIC
+L597: Parent: CTc DM-SOP-0O1 Page 6 of 10 CTC QA-TMP-003-I .0
+L598: This doc: cTc OM’PL-OOl -1.1 _29Jun2021 UZ LEUVEN CONFIDENTIAL & PROPRIETARY
+L599: Data Management Plan (DMP)
+L600: •i?p [UZ]
+L601: for KOE C-EASIE study (563213)
+L602: LEUVE N Study-specific DMP version: 1.l_29Jun202l
+L603: I-i.1 Will an interim database leek ho Ei Ves, expected date/timing for interim UB bek:
+L604: execuled? ddMmmyyyy or Month/Year
+L605: No
+L606: It “Yes”, please describe tirning. reason and conditions for interim database lock.
+L607: H.2 When and under which conditions/at what After last follow-up visit of last patient and final data
+L608: point in time will the final database look be cleaning.
+L609: executed?
+L610: H.3 Expeeted data/timing for final DS leek October 2023
+L611: H.4 Party responsible for interim/final
+L612: database bek
+L613: Hilde De Tollenaere
+L614: Hilde.detollenaere@uzleuven.be
+L615: Ctcdatamanapement@uzlouven.be
+L616: 1. DATA RETENTION, CONTINGENCY & DISASTER RECOVERY
+L617: 1.1 Describe contingency procedures and data
+L618: backup schedule
+L619: 1.2 Provide reference to relevant system
+L620: disaster recovery procedures
+L621: For the UZL REDCap database, the following KiJ Leuven
+L622: procedures for system recovery apply:
+L623: - Systems are proactively monitored 24 hours a day, 7
+L624: days a week.
+L625: - An emergency on-calI service guarantees constant
+L626: monitoring
+L627: of the technical equipment, also outside
+L628: office hours, but not at night. The on-calI service is
+L629: notified automatically in case of problems (between
+L630: 7.00  - 23.00 hrs).
+L631: - There are no fixed maintenance windows: a timely
+L632: email is sent to inform the local IT Administrator of any
+L633: planned maintenance or upgrades.
+L634: - Any service unavailability, scheduled or unscheduled, is
+L635: announced en the ICTS status page.
+L636: - The web space is designed redundantly: in the event of
+L637: system problems en one back-end server, all traffic is
+L638: automatically diverted to another back-end server. The
+L639: database plattorm is also designed redundantly.
+L640: In the UZL REDCap database, data is backed up as
+L641: follows:
+L642: The web server backup regime is specified below:
+L643: - An hourly backup, the last 6 versions of which are
+L644: saved
+L645: - A daily backup, the last 7 versions of which are
+L646: saved
+L647:      - A weekly backup, the last 6 versions of which are
+L648: saved
+L649:  - The database backup regime is specified below:
+L650: - A nightly cold backup of all databases
+L651:      - One month’s storage of the nightly cold backups
+L652:  - Data restore, upon request
+L653: J. END OF TRIAL DATA ARCI-4IVING
+L654: J.1 Describe how (format and media) data will
+L655: be archived al the end of the study
+L656: Electronic format: Final study data will be archived
+L657: electronically on UZ servers. In addition, each site will be
+L658: supplied with their site-specific final study data set on
+L659: USB-device for long-term archiving as part of the
+L660: Investigator Site File (1SF)
+L661: Parent: CTC DM-SOP-OO1 Page 7 oI 10 cTc QA-TMP-003-1.O
+L662: This doc: cTc DM-PL-00l -1 .1_29Jun2021 UZ LEUVEN CONFIDENTIAL & PROPRIETARY
+L663: 4frb UZ Data Management Plan (DMP)
+L664: LEUVEN Study-speciticfor KCE C-EASIEDMP version:study1(563213).1_29Jun202l
+L665: J.2 How long will data be the study database 25 years or langer, as required per applicable regulations
+L666: be archived?
+L667: J.3 Please provide archiving location following UZL server
+L668: the end of the study
+L669: K. THIRD PARTY DATA HANDLERS
+L670: K.1 Are any third parties involved with any Vos
+L671: aspects of data management?
+L672: c No
+L673: It ‘Yes’Ç please provide name and contact details of each party and indicate whether [Con!][identiality]
+L674: Agreements (COAs) and/or Data Transter Agreements have been established, as appropriate:
+L675: 3rd Party name Contact details CDA DTA Comments
+L676: ARDENA Cent NV Katy Dewitte L
+L677: Katydewitte @ardena.com
+L678: Annelies Paridaens
+L679: Annelies.paridaens@ardena.com
+L680: Lieven Van Vooren
+L681: LievenVanVooren@ardena.com
+L682: Quality
+L683: Agreement (QA)
+L684: Technical Ouality
+L685: Agreement (TQA)
+L686: Services
+L687: Agreement
+L688: L. INDEPENDENT DATA SAFETY MONITORING BOARD (DSMB)
+L689: L1 Will a DSMB be used?
+L690: ‘(es
+L691: C No
+L692: 1f “Yes’ please inciude DSMB project charter in DMP Appendix, or rater to the final, approved [protocol] It
+L693: detailed information about the DSMB composition (members), organization (eg. voting policy, [requirements]
+L694: for meeting quorum, etc.), deliverables, scope, objectives and timing of DSMB activities is available in the
+L695: pro toco!.
+L696: L.2 Frequency of DSMB meetings? The DMC will meet prior to the start of the trial to approve
+L697: the charter and protocol. After 50 patients have completed
+L698: treatment, the DSMB will meet and will review the study
+L699: data and advise on the continuation of the trial. They will
+L700: monitor all participating sites until all patients are recruited.
+L701: The DMC will then meet annually to discuss the progress
+L702: of the trial.
+L703: L.3 Scope and objectives of DSMB activities? Review the safety of the trial, described in the DSMB
+L704: Charter V3.0
+L705: 4. Archiving
+L706: Final versions of this DMP will be filed in the appropriate section of the study-specific [TMF.]
+L707: 5. Version history
+L708: 1 .0_22Jun2021 New document
+L709: ##### VersnReasonforchange
+L710: 1.1 29Jun2021 Corrections made for:
+L711: - Protocol version in general information
+L712: - Expected recruitment stad date
+L713: - Version number DSMS charter
+L714: - Randomization block size
+L715: - Data Cleaning
+L716: Parent: CTC DM-SOP-O01
+L717: This doc: crc DM-PL-001-1.129Jun2021
+L718: Page S of 10 CTC QA-TMP-0o3-1 .0
+L719: UZ LEUVEN CONFIDENTIAL S PROPRIETARY
+L720: ______—____________________________________
+L721: p UZ Data Management Plan (DMP)
+L722: forKCEC-EASlEstudy(S63213)
+L723: 1 LE VE Study-specifie DMP version: 1 1_29Jun2021
+L724: Approvals
+L725: ___
+L726: Author CTC Head
+L727: <Signature> <Signature>
+L728: II
+L729: Hilde De Tollenaere, CTC Data Manager
+L730: Date:
+L731: Statistician
+L732: Date: Lv L
+L733: ##### :::t:::
+L734: # r
+L735: Hilde De Tollenaere, CTC Data Manager Heidi Sterckx
+L736: Date: Date:
+L737: Statistician Principal mve tigator
+L738: Date: Lv L
+L739: Date: ‘347ci$/2024
+L740: Parent: CTC DM-SOP-00l Page 9 of 10 CTC QA-TMP-003-1.0
+L741: This doe: CTC DM-PL-001-1 129Jun202l UZ LEUVEN CONFIOENTIAL & PROPRIETARY
+L742: Data Management Plan (DMP)
+L743: LEUVEN for S63213  - C-EASIE trial
+L744: 05-05-2021
+L745: 1. APPENDIX 2: Data Safety Monitoring Board (DSMB) Charter
+L746: <S63213 DSMB Charter V3.O>
+L747: Parent: CTC OM-SOP-Ool Page lOot 10 CTCQA-FHM-003-l.O
+L748: DMP Teinplate: CTC-OM-O1 -1 0_20Feb2020 1 .0_FINAL in LEUVEN CONFIDENTIAL & PROPRIETAPY
+L749: UZ
+L750: ##### •,,
+[32ms]
+

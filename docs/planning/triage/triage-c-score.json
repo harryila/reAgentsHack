@@ -1,0 +1,88 @@
+{
+  "distinct_papers_by_direction": {
+    "decrease": 4,
+    "increase": 2,
+    "no_effect": 1
+  },
+  "entropy_interval_90": [
+    0.4554859150035952,
+    0.9602297178607612
+  ],
+  "estimated_usable_primaries": 152.5,
+  "finding_direction_counts": {
+    "decrease": 13,
+    "increase": 9,
+    "no_effect": 6
+  },
+  "g2": {
+    "failure_codes": [],
+    "gate": "G2",
+    "passed": true,
+    "rules": [
+      {
+        "failure_code": null,
+        "name": "entropy_point",
+        "observed": 0.9602297178607612,
+        "passed": true,
+        "threshold": ">=0.30"
+      },
+      {
+        "failure_code": null,
+        "name": "entropy_upper_90",
+        "observed": 0.9602297178607612,
+        "passed": true,
+        "threshold": ">=0.40"
+      },
+      {
+        "failure_code": null,
+        "name": "direction_support",
+        "observed": 2,
+        "passed": true,
+        "threshold": ">=2 directions with >=2 papers"
+      },
+      {
+        "failure_code": null,
+        "name": "relation_purity",
+        "observed": 1.0,
+        "passed": true,
+        "threshold": ">=0.70"
+      },
+      {
+        "failure_code": null,
+        "name": "estimated_usable_primaries",
+        "observed": 152.5,
+        "passed": true,
+        "threshold": ">=40"
+      },
+      {
+        "failure_code": null,
+        "name": "topic_specific_support",
+        "observed": true,
+        "passed": true,
+        "threshold": "true"
+      }
+    ]
+  },
+  "outcome_family_concentration": {
+    "cellular stress response": 1,
+    "gene expression": 2,
+    "inflammatory markers": 1,
+    "kidney function": 2,
+    "muscle damage": 2,
+    "muscle mass": 2,
+    "muscle strength": 2,
+    "oxidative stress": 1,
+    "oxidative stress-related indices": 4,
+    "pro-inflammatory factors": 1,
+    "pro/antioxidative status": 2,
+    "unlabeled": 8
+  },
+  "paper_modal_entropy": 0.9602297178607612,
+  "probe_classifiable_findings": 28,
+  "probe_eligible_papers": 5,
+  "probe_papers": 10,
+  "question_id": "triage-c",
+  "relation_purity_operator_labeled": 1.0,
+  "score_version": "1",
+  "screened_included_papers": 305
+}

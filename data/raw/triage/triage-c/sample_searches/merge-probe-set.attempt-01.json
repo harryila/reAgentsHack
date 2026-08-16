@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "merge",
+    "s_e816a14f",
+    "s_22232875",
+    "s_b19aa7ef",
+    "s_8fce855b",
+    "s_1f645b90",
+    "s_b5a804b5",
+    "s_9658f29f",
+    "s_f7b4059b",
+    "s_7029820d",
+    "s_216fa9af"
+  ],
+  "completed_at": "2026-08-16T02:47:25.546241+00:00",
+  "elapsed_seconds": 1.678617540979758,
+  "failure_code": "PAPERCLIP_INBAND_ERROR",
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:23.867604+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/merge-probe-set.attempt-01.stderr",
+  "stdout_bytes": 341,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/merge-probe-set.attempt-01.stdout"
+}

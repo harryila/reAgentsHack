@@ -1,0 +1,768 @@
+L1: Excessive Vitamin E Supplementation: Implications for Ovarian Physiology and Reproductive Health
+L2: Oxidative Medicine and Cellular Longevity (2026)
+L3: Farzaneh Rabiee, Masoud Fattahi, Mohammad Iranzad, Mohsen Rahimi Andani, Farnoosh Jafarpour, Mohammad Hossein Sanei, Joel R. Drevet, Mohammad Hossein Nasr-Esfahani
+L4: 1 
+L5:  
+L6:  Department of Animal Biotechnology ,  Reproductive Biomedicine Research Center ,  Royan Institute for Biotechnology ,  ACECR ,  Isfahan ,  Iran ,  acecr.ac.ir
+L7: 2 
+L8:  
+L9:  Department of Pathology ,  Isfahan University of Medical Sciences ,  Isfahan ,  Isfahan Province ,  Iran ,  mui.ac.ir
+L10: 3 
+L11:  
+L12:  GReD Institute, EVALSEM ,  Faculty of Medicine ,  CRBC ,  University of Clermont Auvergne ,  Clermont-Ferrand ,  France ,  uca.fr
+L13: Infertility, a major global health problem affecting ~17.5% of couples, is influenced by various intrinsic (e.g., individual genetics) and extrinsic (e.g., related to environmental stimuli) factors. Oxidative stress and reactive oxygen species (ROS) are at the crossroads of these different stimulus–response pathways for both male and female gametes. While ROS are essential for ovarian processes such as folliculogenesis and oocyte maturation, changes in the ovarian ROS generation/recycling equilibrium can lead to impaired reproductive outcomes. Against this backdrop, noninvasive therapeutic approaches aimed at supplementing antioxidant (AO) molecules have emerged to correct prooxidant imbalances encountered in various stress situations. Numerous molecules have been tested, alone or in combination, for their beneficial effects on reproductive success in both men and women. The aim of this study was to investigate the effects of vitamin E supplementation at different levels on female reproductive performance and the molecular pathways involved. Groups of mice were treated with three different doses of vitamin E (optimal, overdose and severe overdose) and compared with control groups (no supplementation, sham groups [water and olive oil]). The results showed that both overdose and severe overdose of vitamin E showed significant reductions in pregnancy rates, litter size, and oocyte development capacity compared to the other groups. Blastocyst formation rates and quality were also significantly lower in these vitamin E overdosed groups, reflecting compromised embryonic quality. Severe vitamin E overdosage resulted in impaired folliculogenesis, with fewer antral follicles and corpora lutea and an increased number of atretic follicles. Notably, uterine thickness was significantly reduced in the severe vitamin E overdose group. Molecular analyses revealed increased GSH/GSSG ratios and higher ROS levels in granulosa cells. Intriguingly, in a context of increased ROS, we did not record any stimulation of the Nrf2 pathway and associated genes. A decrease in apoptosis in the ovarian environment marked by a lower Bax/Bcl2 ratio accompanied situations of vitamin E overdose. These findings shed new light on the consequences of excessive vitamin E intake and its implications for reproductive health. While optimal supplementation promotes fertility, excessive intake disrupts the redox balance, adversely affecting ovarian function and reproductive outcomes. This study highlights the importance of precise AO management to mitigate stress‐induced infertility and provides a framework for further research into the molecular mechanisms underlying vitamin E’s effects on ovarian physiology.
+L14: Research Article; Article
+L15: antioxidants; fertility outcomes; infertility; redox stress; ROS; vitamin E
+L16: 1. Introduction
+L17: Clinical infertility is defined as the inability to achieve pregnancy after 12 months or more of regular unprotected sexual intercourse [ 1 ]. According to the World Health Organization (WHO), infertility affects one in six couples worldwide [ 2 ]. Approximately one‐third of infertility cases are related to female factors, including hormonal disorders, endometriosis, pelvic inflammatory disease (PID), and polycystic ovarian syndrome (PCOS) [ 3 – 5 ]. Reactive oxygen species (ROS) play a critical role in the pathophysiology of female infertility, acting both as causative agents and as byproducts of ovarian dysfunction [ 6 ,  7 ]. Within the ovary, ROS function as secondary messengers that regulate essential signaling pathways involved in meiosis, ovulation, corpus luteum maintenance, and regression [ 8 – 11 ]. In the ovarian environment, a precise balance of ROS and antioxidants (AOs) supports normal physiological functions such as oocyte maturation, folliculogenesis, and hormonal regulation [ 8 ,  11 – 13 ]. Disturbances in this redox equilibrium have been implicated in impaired ovarian function and increased susceptibility to disorders such as PCOS [ 14 ,  15 ]. More specifically, during ovarian meiosis, precise regulation of the complex balance between ROS production and neutralization is essential for the arrest and resumption of oocyte development. Each month, a single dominant oocyte undergoes meiosis I, which is associated with high levels of ROS and attenuated AO production. Conversely, during meiosis II, primary enzymatic AOs such as catalase (CAT) and superoxide dismutase (SOD) are essential to protect the oocyte from excess ROS [ 11 ].
+L18: Counteracting ROS’s deleterious effects by stimulating AO capacity has logically emerged as a relevant potential therapeutic strategies [ 16 ]. When it comes to powerful AOs, vitamin E is an obvious choice. As a potent lipid‐soluble AO, it protects the plasma membrane from lipid peroxidation and disrupts the associated vicious cycle of ROS production.
+L19: Without surprise, vitamin E (often associated with vitamin C for its recycling) supplementation proved to be effective in protecting ovarian function and, more generally, fertility outcomes in females as in males [ 17 – 19 ]. In females, vitamin E supplementation has been reported to regulate cervical mucus production, enhance sperm viability, increase endometrial thickness, and contribute positively to gestation and fetal development [ 20 – 22 ]. Additionally, vitamin E improves insulin sensitivity and glucose tolerance, potentially benefiting women with metabolic disorders such as diabetes and PCOS [ 23 ,  24 ]. Despite these well‐documented benefits, the indiscriminate or excessive use of vitamin E supplementation raises concerns about disrupting the delicate redox balance, potentially leading to reductive stress with harmful effects comparable to oxidative stress [ 25 ,  26 ]. However, the specific consequences of vitamin E over dosage on ovarian physiology and reproductive performance remain inadequately explored. Therefore, the present study aims to investigate the effects of excessive vitamin E supplementation on ovarian function and fertility outcomes using a mouse model. We hypothesize that while physiological doses of vitamin E exert protective effects, its over dosage may disturb redox homeostasis and impair reproductive performance. This study seeks to fill a critical knowledge gap by defining the thresholds at which vitamin E shifts from being beneficial to detrimental. Thus providing essential insights for clinical recommendations on AO therapy in infertility.
+L20: 2. Materials and Methods
+L21: 2.1. Experimental Design
+L22: In this study, a total of 150 adult female NMRI mice (4 weeks old, 20–25 g) were obtained from the Royan Institute (Isfahan, Iran). They were randomly divided into six experimental groups ( n  = 25 per group). Groups included (1) control group (no supplementation and no manipulation), (2) a sham I group (gavage with water), (3) a sham II group (gavage with olive oil, as the vehicle for vitamin E administration), (4) an optimal vitamin E receiving 1000 mg/kg (OP‐VE), (5) overdose vitamin E receiving 2000 mg/kg (OD‐VE), and (6) a severe overdose of vitamin E receiving 4000 mg/kg (SOD‐VE).
+L23: Mice were housed in the animal facility of the Royan Institute for Animal Biotechnology (Isfahan, Iran). They had free access to food and water and were maintained under controlled conditions (22 ± 2°C, with 45%–65% humidity and a 12‐h light/dark cycle). Vitamin E supplementation was carried out for a period of 30 days. All animal procedures were approved by the Institutional Animal Care and Use Committee (IACUC) and conducted in accordance with the American Veterinary Medical Association (AVMA) guidelines for euthanasia. Mice were anesthetized by intraperitoneal injection of ketamine (90 mg/kg body weight) and xylazine (10 mg/kg body weight). Adequate depth of anesthesia was confirmed by the absence of the paw withdrawal reflex. Once fully anesthetized, mice were euthanized by intracardiac exsanguination. Death was confirmed by cessation of breathing, cardiac arrest, and pallor of the mucous membranes. This protocol ensured that blood sampling and euthanasia were performed in a controlled manner under deep anesthesia. After euthanasia, 15 mice from each group were used for further analysis. The remaining 10 females from each group were mated with two males to assess their reproductive performance. (Figure  1 : experimental design). The experimental design was approved by the Ethics Committee of the Royan Institute under the following registration number (IR.ACECR.AEC.1401.031).
+L24: Figure 1 Experimental design and grouping of animals. A total of 150 adult female NMRI mice (20–25 g, 4 weeks) were randomly divided into six groups ( n  = 25 per group): (1) control (no supplementation and manipulation), (2) sham I (gavage with water), (3) sham II (gavage with olive oil), (4) optimal dose receiving 1000 mg/kg vitamin E (OP‐VE), (5) overdose receiving 2000 mg/kg vitamin E (OD‐VE) and (6) severe dose receiving 4000 mg/kg vitamin E (SOD‐VE). The mice were housed under controlled conditions with ad libitum access to food and water. After 30 days of supplementation, 15 mice per group were sacrificed for analysis, while the other 10 were mated to assess reproductive performance.
+L25: 2.2. Sample Collection and Assays
+L26: The body weight of each mouse was recorded at the start and at the end of the supplementation period, and weight gain was calculated as the difference between initial and final body weights. Blood samples were collected by cardiac puncture. Samples were then centrifuged at 2500 rpm for 15 min at room temperature to separate the serum, which was then frozen at −20°C until analysis. Serum vitamin E levels were analyzed using a commercial kit (vitamin A and E kit specifically for HPLC system) in accordance with the manufacturer’s instructions (Arvin Teb Co., Tehran, Iran). One ovary from each mouse was stored at −20°C for different assays, while the second ovary was preserved in 4% formalin for histological analysis. In addition to the ovaries, liver, kidney, and uterus tissues were also preserved in 10% formalin for future studies.
+L27: 2.3. Histological Analysis
+L28: Fixed tissues were dehydrated, embedded in paraffin, and sectioned to a thickness of 5 μm. Sections were stained with hematoxylin and eosin (H&E) for morphological examination. Ovarian follicles were classified as primordial, primary, secondary, antral or atretic, using a light microscope (CX31 OLYMPUS, Japan) at ×400 magnification. Uterine endometrial thickness was measured using digital image analysis software (ImageJ) on images taken at 100x magnification. Histopathological evaluation of liver and kidney tissue was performed by a pathologist blinded to the treatment groups to identify any structural or pathological changes.
+L29: 2.4. Pregnancy Rates and Litter Size
+L30: Pregnancies were confirmed by the presence of vaginal plugs, and the number of litters was recorded after parturition. Pregnancy rates were calculated as the percentage of pregnant mice in each group.
+L31: 2.5. Oocyte Germinal Vesicle (GV) Collection and Granulosa Cell Isolation
+L32: The ovaries of 5 mice from each group were isolated and transferred to the laboratory for oocyte recovery and granulosa cell isolation. To recover the oocytes, the ovaries were mechanically punctured with a needle (29 gauge), causing the follicle to rupture and the oocytes to be released. The average number of GV oocytes recovered per mouse was calculated, and these GV oocytes underwent in vitro maturation (IVM) for in vitro fertilization (IVF) and in vitro culture (IVC) of embryos. In addition, released granulosa cells were isolated from the tissue remaining in the oocyte collection dishes to assess ROS levels.
+L33: 2.6. IVM of Cumulus Oocytes Complexes (COCs)
+L34: Immature COCs were washed and transferred to droplets (20 µL) of maturation medium comprising  α ‐MEM supplemented with 5% FBS, hCG (7.5 IU/mL, Karma Pharmatech GmbH, Marburg, Germany), FSH (0.1 IU/mL, Cinnal‐F, CinnaGen, Tehran, Iran), streptomycin (50 µg/mL, Gibco, Invitrogen, Tehran, Iran), and penicillin G (75 IU/mL, Gibco, Invitrogen, Tehran, Iran), and coated with paraffin oil. After 18 h of incubation at 37.5°C in a humidified environment with ambient oxygen and 5% CO 2 , oocytes were matured to MII stage and were used for the IVF procedure.
+L35: 2.7. Sperm Preparation and IVF
+L36: After ~18 h of IVM, the epididymis of a sacrificed male mouse was excised and placed in sperm‐active medium (GC302, Geneocell Ideal, Iran) for 45 min to recover cauda‐stored spermatozoa after repeated punctures with a needle. Then, about 10 µL of this solution was added to the previous drops of fertilization medium (G‐IVFTM PLUS Vitrolife, Gothenburg, Sweden) into which we had transferred the in vitro matured oocytes. After about 5 h, the zygotes were washed (HTCM 10% FBS) and cultured in GTL medium (G‐TLTM Vitrolife, Gothenburg, Sweden) for 4 days under 5% O 2  and 6% CO 2  at 37°C until they reached the blastocyst stage.
+L37: 2.8. Differential Staining
+L38: For identification of inner cell mass (ICM) and trophectoderm (TE) cells, differential staining was performed. Day 4 blastocysts were collected and washed three times in PBS + PVA and permeabilized using 0.5% Triton‐X‐100 in HTCM containing 5 mg/mL bovine serum albumin for 30 s. Next, blastocysts were stained with 30 μg/mL propidium iodide for 10 s. Subsequently, blastocysts were incubated with 10 mg/mL Hoechst at 4°C for 15 min. Finally, blastocysts were mounted in light diagnostic mounting fluid (Cat. No. 5013; Merck Millipore [Burlington, MA]) and observed under a fluorescence microscope. ICM and TE were recognized on the basis of their blue and pink colors, respectively. Finally, the total number of cells (TCN: ICM + TE) was also calculated.
+L39: 2.9. Assessment of ROS Levels and GSH/GSSG Ratio
+L40: To assess ROS levels in granulosa cells, the DCFHDA probe (2′, 7′‐ dichlorofuorescein, Sigma D6883) was used. Granulosa cells were centrifuged and washed twice with PBS. Cells were then trypsinized and filtered through 40 µm mesh to remove any residual ovarian connective tissue. Each sample comprised two centrifuge tubes (one as an unstained control and one test tube). Cells were stained with 10 µM DCFHDA for 30 min at 37°C in a humidified atmosphere of 5% CO 2  in air, then washed again with PBS. Finally, the cells were resuspended in PBS and ROS levels detected using flow cytometry (BD CellQuestTM Pro) and expressed as the percentage of ROS‐positive cells and fluorescence intensity (in arbitrary units, AU) within granulosa cells. To assess redox status, the ratio of reduced glutathione (GSH) to oxidized glutathione (GSSG) in ovarian tissue was measured using commercial GSH/GSSG assay kits (NarGul‐Glutathione Assay Kit‐GSH and Naglut‐Glutathione Assay Kit‐GSSG) in accordance with the manufacturer’s instructions (Navand Salamat Co., Urmia, Iran).
+L41: 2.10. Quantitative Real‐Time PCR (qRT‐PCR)
+L42: Total RNA was extracted from ovarian tissue by homogenizing 50 mg of ovarian tissue in 1 mL TRIzol reagent, following the manufacturer’s instructions (Yekta Tajhiz Azma, Iran). One µg of total RNA was treated with DNase I (Thermo Fisher Scientific, Waltham, MA, USA) to remove contaminating genomic DNA. cDNA was synthesized from total RNA using the Biotech rabbit cDNA Synthesis Kit, according to the manufacturer’s instructions (Biotechrabbit GmbH, Berlin, Germany). qRT‐PCR was performed with the fluorescent dye SYBR green (Yekta Tajhiz Azma, Iran) using the ABI system (Applied Biosystems StepOnePlus). All data were normalized against glyceraldehyde‐3‐phosphate dehydrogenase (GAPDH) and expressed using the 2 − ΔΔ Ct  method. The primer list is provided in Table  1 .
+L43: Table 1 List of primers used in this study.
+L44: 2.11. Western Blot
+L45: Tissues were lysed using TRI reagent (Yekta Tajhiz Azma, Iran), according to the manufacturer’s protocol. Equal amounts of solubilized proteins (30 μg) were subjected to electrophoresis on 12% SDS polyacrylamide gels. The separated protein fractions were transferred to a polyvinylidene difluoride (PVDF; Bio‐Rad, Hercules, CA) membrane. After blocking the membranes with 10% skimmed milk (Millipore, 115 363), the membranes were incubated with various primary antibodies for 2 h at room temperature. A monoclonal anti‐NRF2 (1:400, sc‐365949) and a monoclonal anti‐GAPDH (1:400, sc‐32233) were used. In the next step, membranes were washed (three times, 15 min) in PBS and incubated for 1 h at room temperature with horseradish peroxidase (HRP)‐conjugated anti‐mouse IgG (1:5000, sc‐516102) and anti‐rabbit IgG (1:5000, sc‐2357), respectively. HRP‐conjugated IgGs were visualized using an Amersham ECL Advance Western Blotting Detection Kit (GE Healthcare). The intensity of each band was quantified using ImageJ software (version 1.42Q; National Institutes of Health, Bethesda, MD, USA.
+L46: 2.12. Statistical Analysis
+L47: Data are presented as mean ± SEM. Normality and homogeneity of variances were verified using the Shapiro–Wilk and Brown–Forsythe test, justifying the use of one‐way ANOVA. Multiple comparisons were corrected using the Benjamini–Hochberg (BH) method to control the false discovery rate, maintaining statistical power while limiting false‐positive findings.  p ‐values ≤0.05 were considered significant and are indicated as  p   < 0.05,   ∗∗ 
+L48:  p   < 0.01,   ∗∗∗ 
+L49:  p   < 0.001, and   ∗∗∗∗ 
+L50:  p   < 0.0001. Analyses were conducted using GraphPad Prism 9.0.0 (GraphPad Software, San Diego, CA, USA). As no significant differences were observed between control and sham groups, only comparisons between treatment and control groups are shown.
+L51: 3. Results
+L52: 3.1. Vitamin E Level in Serum
+L53: As shown in Figure  2 A, only severe vitamin E overdose resulted in a significant increase in serum vitamin E levels compared to all other groups, with no significant differences observed among the other five groups.
+L54: 3.2. Vitamin E Supplementation and Weight Gain
+L55: In Figure  2 B, a significant reduction in average body weight was observed only in the OD‐VE group compared with the control group and all other treatments ( p   < 0.001). No statistically significant changes in body weight were detected among the control, water, olive oil, OP‐VE, and SOD‐VE groups.
+L56: 3.3. Vitamin E Supplementation and Follicular Development
+L57: Figure  3  shows that only severe vitamin E overdose resulted in a significant reduction in the number of primary follicles. No significant differences were observed between the other five groups. With regard to the number of antral follicles and corpus luteum, only the two overdose groups (OD‐VE and SOD‐VE) showed a significant reduction in the number of these follicles compared with the other four groups, which showed no difference between each other. Furthermore, the number of atretic follicles increased significantly in these two groups compared with the other four groups.
+L58: Figure 3 Effects of vitamin E supplementation on follicular development in female mice. The impact of varying doses of vitamin E on follicular development was evaluated by quantifying different types of follicles. The groups were defined as control, sham groups (water and olive oil), optimal vitamin E dose (OP‐VE), overdose of vitamin E (OD‐VE) and severe overdose of vitamin E (SOD‐VE). Only the group that received a severe overdose of vitamin E showed a significant reduction in the number of primary follicles compared to all the other groups. The number of antral follicles and corpora lutea was significantly reduced in the overdose and severe overdose groups, whereas no difference was observed among the other groups. In addition, the number of atretic follicles was significantly higher in the overdose and severe overdose groups than in the other four groups. Data are presented as mean ± SEM. A comparison was made between groups. Significance is indicated as follows:   ∗ 
+L59:  p   < 0.05,   ∗∗ 
+L60:  p   < 0.01,   ∗∗∗ 
+L61:  p   < 0.001,   ∗∗∗∗ 
+L62:  p   < 0.0001).
+L63: 3.4. Vitamin E Supplementation and Pregnancy Rates and Litter Size
+L64: As shown in Figure  4 A, pregnancy rates were significantly reduced in the overdose and severe overdose groups compared with the other four groups. Similarly, the number of litters was also significantly lower in these two groups (Figure  4 B). Gestation rate and litter size were also examined in subsequent generations, and no changes were observed (data not shown).
+L65: 3.5. Vitamin E Supplementation and Oocyte Developmental Competency
+L66: The in vitro preimplantation development capacity of oocytes in all treatment groups was assessed. To this end, GV oocytes were harvested from female mice from each group and cultured for 18 h in IVM medium. Interestingly, the mean number of GV oocytes harvested  per  female mouse was significantly lower in the overdose and severe overdose groups. Although the mean number of GV oocytes recovered  per  female mouse was also reduced in the group supplemented with an optimal dose of vitamin E, this reduction did not appear to be significant (Figure  5 A).
+L67: Mature oocytes were then subjected to IVF and IVC, and the rate of blastocyst formation was assessed. Figure  5 B shows that the blastocyst rate in the overdose and severe overdose groups was significantly lower than the other groups (Figure  5 B).
+L68: To further assess how vitamin E supplementation may affect the quality of derived blastocysts, differential staining was performed to determine the total cell number. Overall, the total cell number in blastocysts derived from the overdose and severe overdose groups was significantly lower than that in the other groups. (Figure  5 C,D).
+L69: 3.6. Vitamin E Supplementation and GSH/GSSG Ratio and ROS Level
+L70: Considering that an excess of AOs can eventually lead to reductive stress, we assessed the GSH/GSSG ratio as a marker of reductive stress in ovarian tissue in each group of mice. The results showed a significant increase in the GSH/GSSG ratio in the OD‐VE and SOD‐VE groups. The difference between this group and the sham groups was insignificant (Figure  6 A). We also assessed the effect of vitamin E on granulosa ROS levels. The results revealed a significant increase in the percentage of ROS‐positive cells in the SOD‐VE group compared with the other five groups (Figure  6 B).
+L71: 3.7. Vitamin E Supplementation and Uterine Thickness, Liver and Kidney Histology
+L72: As endometrial health and functionality are integral to fertility, we measured uterine endometrial thickness at the end of the treatment period (Table  2 ). Endometrial thickness was found to be significantly reduced in the SOD‐VE group compared with the control groups. Histological analysis of liver and kidney tissue from supplemented mice at all doses revealed no observable changes compared to control groups (data not shown).
+L73: Table 2 Endometrium thickness in mice treated with different concentration of vitamin E.
+L74: 3.8. Vitamin E Supplementation and Nrf2 Molecular Pathway
+L75: Although the Nrf2‐Keap1 pathway is recognized for its critical role in alleviating redox stress in mammals, our results showed no significant changes in Nrf2 gene expression, either at the mRNA or protein level (Figure  7 A,B). Similarly, no significant changes were observed in the expression of downstream Nrf2 effectors, notably Nqo1 (NADPH dehydrogenase quinone 1) and HO‐1 (heme oxygenase 1, Figure  7 C,D).
+L76: 3.9. Vitamin E Supplementation and Apoptosis
+L77: In light of the observed increase in ROS levels, associated with the elevated GSH/GSSG ratio and the subsequent decline in folliculogenesis, activation of cell apoptosis could be a potential underlying pathway involved in the cellular response to excess of vitamin E. Our results showed a significant decrease in the proapoptotic Bax gene expression (Figure  8 A) as well as the Bax/Bcl2 ratio (Figure  8 C) with no significant change in the expression of the antiapoptotic Bcl2 effector (Figure  8 B).
+L78: 4. Discussion
+L79: In modern societies, particularly in the United States and Europe, over‐supplementation with vitamin E is a realistic concern given the widespread availability and aggressive marketing of dietary supplements. Vitamin E is often included in multivitamin formulations, fortified foods, and stand‐alone high‐dose capsules that can be purchased without medical supervision. Many individuals consume multiple overlapping products simultaneously, resulting in cumulative intakes that may exceed the recommended dietary allowance (RDA) by several fold. Public perception of AOs as inherently “beneficial” further contributes to indiscriminate use, especially among individuals seeking to improve fertility, slow aging, or enhance general well‐being. In addition, the absence of immediate toxic symptoms encourages chronic overuse, while the expanding practice of self‐medication in reproductive health amplifies this risk [ 27 ,  28 ].
+L80: Beyond reproductive concerns, chronic over‐supplementation may also predispose to long‐term adverse outcomes, including increased bleeding tendency, interactions with anticoagulant medications, disturbances in lipid metabolism, and possibly elevated risks of certain cancers, as suggested in some epidemiological studies. Prolonged exposure to excessive vitamin E may also perturb redox‐sensitive cellular signaling pathways, leading to subtle but cumulative effects on cardiovascular, neurological, and metabolic health. These potential long‐term risks underscore the need for carefully defined upper intake limits and for discouraging the routine use of high‐dose vitamin E supplements in the absence of clear clinical indications [ 29 ,  30 ]. Since the discovery of vitamin E in 1922, extensive research has highlighted its wide‐ranging biological functions, including protective effects against chronic diseases and roles in skin health, cardiovascular support, immunity, and aging. Understanding the molecular mechanisms and therapeutic applications of vitamin E remains an important focus in nutritional science. Nevertheless, its precise roles in reproductive physiology and female infertility are still under active investigation [ 31 – 33 ].
+L81: In the context of female infertility, vitamin E has been evaluated in both clinical and experimental settings, with evidence suggesting that it may enhance reproductive outcomes by reducing oxidative stress in the ovary, thereby improving ovulation and fertility in some patients. Vitamin E has also been reported to protect oocytes from oxidative damage and to improve endometrial receptivity, increasing the likelihood of successful implantation and pregnancy in women undergoing fertility treatments [ 34 – 36 ]. While most studies emphasize the benefits of vitamin E supplementation, far fewer have addressed the consequences of excessive intake. The indiscriminate use of “beneficial nutrients” often neglects Paracelsus’ principle that “every molecule is poison; it is only a question of dose.” Recent reports have raised concerns that high‐dose vitamin E may paradoxically impair reproductive function through the so‐called “antioxidant paradox,” wherein excess AOs disrupt cellular redox homeostasis and induce a pathological state known as reductive stress—an imbalance as detrimental as oxidative stress [ 37 ]. Excessive vitamin E intake has further been associated with increased bleeding risk, cardiovascular complications, and adverse drug interactions [ 38 ].
+L82: Against this background, the present study was designed to investigate the effects of vitamin E overdosing on ovarian physiology and female reproductive performance. To this end, female mice were supplemented for 1 month with vitamin E at doses of 1000, 2000, or 4000 mg/kg, representing optimal, overdose, and severe overdose regimens, respectively, based on previous reports [ 39 – 42 ]. Control and sham groups (water and olive oil) confirmed the absence of vehicle‐ or gavage‐related effects.
+L83: The results showed that optimal vitamin E supplementation conferred no significant effect over controls with respect to body weight, follicular growth, pregnancy rate, litter size, oocyte maturation, or blastocyst development. The only positive finding was a significant increase in endometrial thickness, consistent with clinical studies reporting improved endometrial receptivity following moderate supplementation [ 43 ,  44 ]. In contrast, both overdose and severe overdose regimens reduced endometrial thickness, indicating a dose‐dependent biphasic effect. Importantly, fertility rates declined sharply with excessive intake: pregnancy success was reduced to 50% in the overdose group and to 40% in the severe overdose group, accompanied by a significant reduction in litter size. Histological analyses confirmed impaired folliculogenesis, characterized by fewer antral follicles and corpora lutea, along with increased atresia, while in vitro assessments revealed marked reductions in oocyte maturation and blastocyst development.
+L84: These deleterious outcomes occurred despite largely stable serum  α ‐tocopherol concentrations, which remained within the physiological range (0.4–0.6 µg/mL) in both optimal and overdose groups, consistent with tight endogenous regulation and clearance mechanisms [ 39 ,  45 ]. Only severe overdosing produced a significant rise in serum vitamin E, suggesting that detoxification pathways had been overwhelmed. However, unchanged serum levels do not preclude tissue‐specific accumulation, and our findings support the hypothesis that reproductive tissues, particularly the ovary and endometrium, are highly sensitive to local vitamin E accumulation and redox imbalance [ 46 ,  47 ]. Redox analyses revealed that vitamin E supplementation significantly increased the ovarian GSH/GSSG ratio across all treatment groups, a marker of reductive stress. Contrary to expectations, this was not accompanied by upregulation of canonical Nrf2 target genes such as SOD, CAT, HO‐1, or Nqo1, in agreement with previous findings that vitamin E supplementation does not activate the Nrf2 pathway [ 41 ], These results suggest that alternative molecular mechanisms are responsible for the observed reductive stress.
+L85: One possibility is the induction of ferroptosis through iron dysregulation, as vitamin E overdose has been linked to ferroptotic processes in other tissues [ 48 ]. Another mechanism may involve disruption of the AO network: under normal conditions, vitamin C regenerates oxidized vitamin E in a process dependent on GSH. Excessive vitamin E may disturb this balance, leading to intracellular GSH accumulation, impaired redox cycling, and amplification of reductive stress [ 49 ]. Our observation of a reduced Bax/Bcl2 ratio in ovarian tissue further suggests an antiapoptotic shift, which may represent a compensatory pro‐survival response to redox imbalance.
+L86: An additional observation of interest was that vitamin E overdose, but not severe overdose, was associated with reduced body weight gain. This may reflect complex shifts between oxidative and reductive stress, both of which influence ROS dynamics, although further mechanistic studies are required to clarify this phenomenon. Collectively, our findings demonstrate that vitamin E overdose exerts profound negative effects on ovarian physiology and female reproductive performance, with detrimental consequences evident even in the absence of major changes in circulating vitamin E levels.
+L87: If extrapolated to humans, these results carry important clinical implications. Vitamin E is frequently recommended to reproductive‐age women, including infertile patients undergoing assisted reproductive technologies (ART). Our findings caution against routine or indiscriminate supplementation in the absence of confirmed deficiency, as excessive intake may compromise ovarian function, impair folliculogenesis, and reduce fertility. Future research should focus on quantifying tissue‐specific vitamin E accumulation, exploring the involvement of ferroptotic pathways, and investigating whether high‐dose supplementation alters hypothalamic–pituitary–ovarian axis regulation. Elucidating these mechanisms will be crucial to define safe upper limits of vitamin E intake and to refine clinical recommendations for its use in reproductive medicine.
+L88: In conclusion, excessive vitamin E intake induces reductive stress, disrupts ovarian physiology, and significantly compromises fertility in mice. These findings underscore the importance of dose precision and highlight the potential risks of indiscriminate supplementation, particularly in women seeking to optimize reproductive outcomes.
+L89: Disclosure
+L90: All individuals who contributed to this work performed their duties as research academics or assistants at the Royan Institute. All facilities and services were provided by the Royan Institute. All scientific content and interpretations were prepared and verified by the authors.
+L91: Conflicts of Interest
+L92: The authors declare no conflicts of interest.
+L93: Author Contributions
+L94: Farzaneh Rabiee : conceptualization, project administration, supervision, writing – original draft, data curation.  Masoud Fattahi : methodology, investigation, resources, visualization.  Mohammad Iranzad : methodology, investigation, software.  Mohsen Rahimi Andani : data curation, investigation.  Farnoosh Jafarpour : validation, visualization, formal analysis.  Mohammad Hossein Sanei : investigation, formal analysis.  Joel R. Drevet : conceptualization, writing – review and editing.  Mohammad Hossein Nasr-Esfahani : conceptualization, supervision, project administration, writing – review and editing. Farzaneh Rabiee and Masoud Fattahi contributed equally to this work.
+L95: Funding
+L96: This study was privately funded by Masoud Fattahi and Mohammad Iranzad as part of their MSc project.
+L97: Data Availability Statement
+L98: The datasets generated during the current study are available from the corresponding author upon reasonable request.
+L99: 1 Vander Borght 
+L100:  M. 
+L101:   and 
+L102:  
+L103:  Wyns 
+L104:  C. 
+L105:  ,  Fertility and Infertility: Definition and Epidemiology ,  Clinical Biochemistry . ( 2018 )  62 ,  2 – 10 ,  10.1016/j.clinbiochem.2018.03.012 , 2-s2.0-85044543398. 29555319
+L106: 2 Cox 
+L107:  C. M. 
+L108:  , 
+L109:  
+L110:  Thoma 
+L111:  M. E. 
+L112:  , and 
+L113:  
+L114:  Tchangalova 
+L115:  N. 
+L116:  , et al. Infertility Prevalence and the Methods of Estimation From 1990 to 2021: A Systematic Review and Meta-Analysis ,  Human Reproduction Open . ( 2022 )  2022 , no. 4,  10.1093/hropen/hoac051 ,  hoac051 . 36483694
+L117: 3 Walker 
+L118:  M. H. 
+L119:   and 
+L120:  
+L121:  Tobler 
+L122:  K. J. 
+L123:  ,  Female Infertility ,  StatPearls ,  2024 ,  StatPearls Publishing ,  http://www.ncbi.nlm.nih.gov/books/NBK556033/ .
+L124: 4 Sadeghi 
+L125:  M. R. 
+L126:  ,  Polycystic Ovarian Syndrome and Endometriosis as Two Evil Extremes of Health Continuum ,  Journal of Reproduction and Infertility . ( 2022 )  23 , no. 1,  1 – 2 ,  10.18502/jri.v23i1.8445 . 36045878
+L127: 5 Skowrońska 
+L128:  M. 
+L129:  , 
+L130:  
+L131:  Pawłowski 
+L132:  Mł. 
+L133:  , and 
+L134:  
+L135:  Milewski 
+L136:  R. 
+L137:  ,  A Literature Review and a Proposed Classification of the Relationships Between Ovulatory Infertility and Lifestyle Factors Based on the Three Groups of Ovulation Disorders Classified by WHO ,  Journal of Clinical Medicine . ( 2023 )  12 , no. 19,  10.3390/jcm12196275 ,  6275 . 37834919
+L138: 6 Bardaweel 
+L139:  S. K. 
+L140:  , 
+L141:  
+L142:  Gul 
+L143:  M. 
+L144:  , 
+L145:  
+L146:  Alzweiri 
+L147:  M. 
+L148:  , 
+L149:  
+L150:  Ishaqat 
+L151:  A. 
+L152:  , 
+L153:  
+L154:  ALSalamat 
+L155:  H. A. 
+L156:  , and 
+L157:  
+L158:  Bashatwah 
+L159:  R. M. 
+L160:  ,  Reactive Oxygen Species: The Dual Role in Physiological and Pathological Conditions of the Human Body ,  The Eurasian Journal of Medicine . ( 2018 )  50 , no. 3,  193 – 201 ,  10.5152/eurasianjmed.2018.17397 , 2-s2.0-85057275831. 30515042
+L161: 7 Agarwal 
+L162:  A. 
+L163:  , 
+L164:  
+L165:  Gupta 
+L166:  S. 
+L167:  , and 
+L168:  
+L169:  Sharma 
+L170:  R. 
+L171:  ,  Oxidative Stress and Its Implications in Female Infertility – A Clinician’s Perspective ,  Reproductive BioMedicine Online . ( 2005 )  11 , no. 5,  641 – 650 ,  10.1016/S1472-6483(10)61174-1 , 2-s2.0-28244443591. 16409717
+L172: 8 Liang 
+L173:  J. 
+L174:  , 
+L175:  
+L176:  Gao 
+L177:  Y. 
+L178:  , 
+L179:  
+L180:  Feng 
+L181:  Z. 
+L182:  , 
+L183:  
+L184:  Zhang 
+L185:  B. 
+L186:  , 
+L187:  
+L188:  Na 
+L189:  Z. 
+L190:  , and 
+L191:  
+L192:  Li 
+L193:  D. 
+L194:  ,  Reactive Oxygen Species and Ovarian Diseases: Antioxidant Strategies ,  Redox Biology . ( 2023 )  62 ,  10.1016/j.msec.2020.110864 ,  102659 . 36917900
+L195: 9 Song 
+L196:  J. 
+L197:  , 
+L198:  
+L199:  Xiao 
+L200:  L. 
+L201:  , and 
+L202:  
+L203:  Zhang 
+L204:  Z. 
+L205:  , et al. Effects of Reactive Oxygen Species and Mitochondrial Dysfunction on Reproductive Aging ,  Frontiers in Cell and Developmental Biology . ( 2024 )  12 ,  1347286 . 38465288
+L206: 10 Fujii 
+L207:  J. 
+L208:  , 
+L209:  
+L210:  Iuchi 
+L211:  Y. 
+L212:  , and 
+L213:  
+L214:  Okada 
+L215:  F. 
+L216:  ,  Fundamental Roles of Reactive Oxygen Species and Protective Mechanisms in the Female Reproductive System ,  Reproductive Biology and Endocrinology . ( 2005 )  3 , no. 1,  10.1186/1477-7827-3-43 , 2-s2.0-27344460746,  43 . 16137335
+L217: 11 Wang 
+L218:  S. 
+L219:  , 
+L220:  
+L221:  He 
+L222:  G. 
+L223:  , 
+L224:  
+L225:  Chen 
+L226:  M. 
+L227:  , 
+L228:  
+L229:  Zuo 
+L230:  T. 
+L231:  , 
+L232:  
+L233:  Xu 
+L234:  W. 
+L235:  , and 
+L236:  
+L237:  Liu 
+L238:  X. 
+L239:  ,  The Role of Antioxidant Enzymes in the Ovaries ,  Oxidative Medicine and Cellular Longevity . ( 2017 )  2017 , no. 1,  10.1155/2017/4371714 , 2-s2.0-85031896489,  4371714 . 29147461
+L240: 12 Sadeghi 
+L241:  N. 
+L242:  , 
+L243:  
+L244:  Boissonneault 
+L245:  G. 
+L246:  , 
+L247:  
+L248:  Tavalaee 
+L249:  M. 
+L250:  , and 
+L251:  
+L252:  Nasr-Esfahani 
+L253:  M. H. 
+L254:  ,  Oxidative Versus Reductive Stress: A Delicate Balance for Sperm Integrity ,  Systems Biology in Reproductive Medicine . ( 2023 )  69 , no. 1,  20 – 31 . 36215401
+L255: 13 Lu 
+L256:  J. 
+L257:  , 
+L258:  
+L259:  Wang 
+L260:  Z. 
+L261:  , 
+L262:  
+L263:  Cao 
+L264:  J. 
+L265:  , 
+L266:  
+L267:  Chen 
+L268:  Y. 
+L269:  , and 
+L270:  
+L271:  Dong 
+L272:  Y. 
+L273:  ,  A Novel and Compact Review on the Role of Oxidative Stress in Female Reproduction ,  Reproductive Biology and Endocrinology . ( 2018 )  16 , no. 1,  10.1186/s12958-018-0391-5 , 2-s2.0-85052149995,  80 . 30126412
+L274: 14 Liu 
+L275:  S. 
+L276:  , 
+L277:  
+L278:  Jia 
+L279:  Y. 
+L280:  , 
+L281:  
+L282:  Meng 
+L283:  S. 
+L284:  , 
+L285:  
+L286:  Luo 
+L287:  Y. 
+L288:  , 
+L289:  
+L290:  Yang 
+L291:  Q. 
+L292:  , and 
+L293:  
+L294:  Pan 
+L295:  Z. 
+L296:  ,  Mechanisms of and Potential Medications for Oxidative Stress in Ovarian Granulosa Cells: A Review ,  International Journal of Molecular Sciences . ( 2023 )  24 , no. 11,  10.3390/ijms24119205 ,  9205 . 37298157
+L297: 15 Zeber-Lubecka 
+L298:  N. 
+L299:  , 
+L300:  
+L301:  Ciebiera 
+L302:  Mł. 
+L303:  , and 
+L304:  
+L305:  Hennig 
+L306:  E. E. 
+L307:  ,  Polycystic Ovary Syndrome and Oxidative Stress—From Bench to Bedside ,  International Journal of Molecular Sciences . ( 2023 )  24 , no. 18,  10.3390/ijms241814126 ,  14126 . 37762427
+L308: 16 He 
+L309:  L. 
+L310:  , 
+L311:  
+L312:  He 
+L313:  T. 
+L314:  , 
+L315:  
+L316:  Farrar 
+L317:  S. 
+L318:  , 
+L319:  
+L320:  Ji 
+L321:  L. 
+L322:  , 
+L323:  
+L324:  Liu 
+L325:  T. 
+L326:  , and 
+L327:  
+L328:  Ma 
+L329:  X. 
+L330:  ,  Antioxidants Maintain Cellular Redox Homeostasis by Elimination of Reactive Oxygen Species ,  Cellular Physiology and Biochemistry . ( 2017 )  44 , no. 2,  532 – 553 ,  10.1159/000485089 , 2-s2.0-85034818661. 29145191
+L331: 17 Bagheri 
+L332:  A. 
+L333:  , 
+L334:  
+L335:  Nazari 
+L336:  H. 
+L337:  , and 
+L338:  
+L339:  Shams-Esfandabadi 
+L340:  N. 
+L341:  , et al. Vitamin C Synergistically Enhances Protective Effects of Vitamin E Against Preantral Follicle Degeneration of Ovine Vitrified/Warmed Ovarian Tissue ,  Biopreservation Biobanking . ( 2024 )  23 , no. 2,  89 – 98 . 38905140
+L342: 18 Wang 
+L343:  X. 
+L344:  , 
+L345:  
+L346:  Falcone 
+L347:  T. 
+L348:  , 
+L349:  
+L350:  Attaran 
+L351:  M. 
+L352:  , 
+L353:  
+L354:  Goldberg 
+L355:  J. M. 
+L356:  , 
+L357:  
+L358:  Agarwal 
+L359:  A. 
+L360:  , and 
+L361:  
+L362:  Sharma 
+L363:  R. K. 
+L364:  ,  Vitamin C and Vitamin E Supplementation Reduce Oxidative Stress-Induced Embryo Toxicity and Improve the Blastocyst Development Rate ,  Fertility and Sterility . ( 2002 )  78 , no. 6,  1272 – 1277 ,  10.1016/S0015-0282(02)04236-X , 2-s2.0-0036905484. 12477524
+L365: 19 Zhou 
+L366:  X. 
+L367:  , 
+L368:  
+L369:  Shi 
+L370:  H. 
+L371:  , 
+L372:  
+L373:  Zhu 
+L374:  S. 
+L375:  , 
+L376:  
+L377:  Wang 
+L378:  H. 
+L379:  , and 
+L380:  
+L381:  Sun 
+L382:  S. 
+L383:  ,  Effects of Vitamin E and Vitamin C on Male Infertility: A Meta-Analysis ,  International Urology and Nephrology . ( 2022 )  54 , no. 8,  1793 – 1805 ,  10.1007/s11255-022-03237-x . 35604582
+L384: 20 Md Amin 
+L385:  N. A. 
+L386:  , 
+L387:  
+L388:  Sheikh Abdul Kadir 
+L389:  S. H. 
+L390:  , 
+L391:  
+L392:  Arshad 
+L393:  A. H. 
+L394:  , 
+L395:  
+L396:  Abdul Aziz 
+L397:  N. 
+L398:  , 
+L399:  
+L400:  Abdul Nasir 
+L401:  N. A. 
+L402:  , and 
+L403:  
+L404:  Ab Latip 
+L405:  N. 
+L406:  ,  Are Vitamin E Supplementation Beneficial for Female Gynaecology Health and Diseases? ,  Molecules . ( 2022 )  27 , no. 6,  10.3390/molecules27061896 ,  1896 . 35335260
+L407: 21 Vašková 
+L408:  J. 
+L409:  , 
+L410:  
+L411:  Klepcová 
+L412:  Z. 
+L413:  , and 
+L414:  
+L415:  Špaková 
+L416:  I. 
+L417:  , et al. The Importance of Natural Antioxidants in Female Reproduction ,  Antioxidants (Basel, Switzerland) . ( 2023 )  12 , no. 4,  907 . 37107282
+L418: 22 Wu 
+L419:  J.-H. 
+L420:  , 
+L421:  
+L422:  Yang 
+L423:  D.-N. 
+L424:  , and 
+L425:  
+L426:  Cao 
+L427:  L.-J. 
+L428:  , et al. The Effect of Oral Vitamin E Supplementation on Infertile Women: A Systematic Review and Meta-Analysis ,  Clinical and Experimental Obstetrics and Gynecology . ( 2021 )  48 , no. 2,  216 – 222 ,  10.31083/j.ceog.2021.02.2207 .
+L429: 23 Cheng 
+L430:  X. 
+L431:   and 
+L432:  
+L433:  He 
+L434:  B. 
+L435:  ,  Clinical and Biochemical Potential of Antioxidants in Treating Polycystic Ovary Syndrome ,  International Journal of Women’s Health . ( 2022 )  14 , no. 14,  467 – 479 ,  10.2147/IJWH.S345853 .
+L436: 24 Gray 
+L437:  B. 
+L438:  , 
+L439:  
+L440:  Swick 
+L441:  J. 
+L442:  , and 
+L443:  
+L444:  Ronnenberg 
+L445:  A. G. 
+L446:  ,  Vitamin E and Adiponectin: Proposed Mechanism for Vitamin E-Induced Improvement in Insulin Sensitivity ,  Nutrition Reviews . ( 2011 )  69 , no. 3,  155 – 161 ,  10.1111/j.1753-4887.2011.00377.x , 2-s2.0-79951933572. 21348879
+L447: 25 Asbaghi 
+L448:  O. 
+L449:  , 
+L450:  
+L451:  Sadeghian 
+L452:  M. 
+L453:  , and 
+L454:  
+L455:  Nazarian 
+L456:  B. 
+L457:  , et al. The Effect of Vitamin E Supplementation on Selected Inflammatory Biomarkers in Adults: A Systematic Review and Meta-Analysis of Randomized Clinical Trials ,  Scientific Reports . ( 2020 )  10 , no. 1,  10.1038/s41598-020-73741-6 ,  17234 . 33057114
+L458: 26 Vivarelli 
+L459:  F. 
+L460:  , 
+L461:  
+L462:  Canistro 
+L463:  D. 
+L464:  , and 
+L465:  
+L466:  Franchi 
+L467:  P. 
+L468:  , et al. Disruption of Redox Homeostasis and Carcinogen Metabolizing Enzymes Changes by Administration of Vitamin E to Rats ,  Life Sciences . ( 2016 )  145 , no. 145,  166 – 173 ,  10.1016/j.lfs.2015.12.033 , 2-s2.0-84951838429. 26702769
+L469: 27 Wierzejska 
+L470:  R. E. 
+L471:  ,  Dietary Supplements—For Whom? The Current State of Knowledge About the Health Effects of Selected Supplement Use ,  International Journal of Environmental Research and Public Health . ( 2021 )  18 , no. 17,  10.3390/ijerph18178897 ,  8897 . 34501487
+L472: 28 Papatesta 
+L473:  E. M. 
+L474:  , 
+L475:  
+L476:  Kanellou 
+L477:  A. 
+L478:  , 
+L479:  
+L480:  Peppa 
+L481:  E. 
+L482:  , and 
+L483:  
+L484:  Trichopoulou 
+L485:  A. 
+L486:  ,  Is Dietary (Food) Supplement Intake Reported in European National Nutrition Surveys? ,  Nutrients . ( 2023 )  15 , no. 24,  10.3390/nu15245090 ,  5090 . 38140349
+L487: 29 Lonn 
+L488:  E. 
+L489:  , 
+L490:  
+L491:  Bosch 
+L492:  J. 
+L493:  , and 
+L494:  
+L495:  Yusuf 
+L496:  S. 
+L497:  , et al. Effects of Long-Term Vitamin E Supplementation on Cardiovascular Events and Cancer ,  JAMA . ( 2005 )  293 , no. 11,  1338 – 1347 ,  10.1001/jama.293.11.1338 , 2-s2.0-20044383911. 15769967
+L498: 30 Owen 
+L499:  K. N. 
+L500:   and 
+L501:  
+L502:  Dewald 
+L503:  O. 
+L504:  ,  Vitamin E Toxicity ,  StatPearls ,  2024 ,  StatPearls Publishing ,  http://www.ncbi.nlm.nih.gov/books/NBK564373/ .
+L505: 31 Liao 
+L506:  S. 
+L507:  , 
+L508:  
+L509:  Omage 
+L510:  S. O. 
+L511:  , and 
+L512:  
+L513:  Börmel 
+L514:  L. 
+L515:  , et al. Vitamin E and Metabolic Health: Relevance of Interactions With Other Micronutrients ,  Antioxidants . ( 2022 )  11 , no. 9,  10.3390/antiox11091785 ,  1785 . 36139859
+L516: 32 Esfandiari 
+L517:  M. 
+L518:  , 
+L519:  
+L520:  Bagheri 
+L521:  H. 
+L522:  , 
+L523:  
+L524:  Mirarab-Razi 
+L525:  V. 
+L526:  , 
+L527:  
+L528:  Mirarab Razi 
+L529:  S. 
+L530:  , and 
+L531:  
+L532:  Rashidinejad 
+L533:  A. 
+L534:  ,  
+L535:  
+L536:  Jafari 
+L537:  S. M. 
+L538:  
+L539:  ,  
+L540:  
+L541:  Rashidinejad 
+L542:  A. 
+L543:  
+L544:  , and  
+L545:  
+L546:  Simal-Gandara 
+L547:  J. 
+L548:  
+L549:  ,  Vitamin E ,  Handbook of Food Bioactive Ingredients: Properties and Applications ,  2023 ,  Cham: Springer International Publishing ,  1125 – 1147 ,  10.1007/978-3-031-28109-9_24 .
+L550: 33 Rizvi 
+L551:  S. 
+L552:  , 
+L553:  
+L554:  Raza 
+L555:  S. T. 
+L556:  , 
+L557:  
+L558:  Ahmed 
+L559:  F. 
+L560:  , 
+L561:  
+L562:  Ahmad 
+L563:  A. 
+L564:  , 
+L565:  
+L566:  Abbas 
+L567:  S. 
+L568:  , and 
+L569:  
+L570:  Mahdi 
+L571:  F. 
+L572:  ,  The Role of Vitamin E in Human Health and Some Diseases ,  Sultan Qaboos University Medical Journal . ( 2014 )  14 , no. 2,  e157 – e165 ,  10.18295/2075-0528.1566 . 24790736
+L573: 34 Chen 
+L574:  J. 
+L575:  , 
+L576:  
+L577:  Guo 
+L578:  Q. 
+L579:  , and 
+L580:  
+L581:  Pei 
+L582:  Y.-H. 
+L583:  , et al. Effect of a Short-Term Vitamin E Supplementation on Oxidative Stress in Infertile PCOS Women Under Ovulation Induction: A Retrospective Cohort Study ,  BMC Women’s Health . ( 2020 )  20 , no. 1,  10.1186/s12905-020-00930-w ,  69 . 32252736
+L584: 35 Amini 
+L585:  L. 
+L586:  , 
+L587:  
+L588:  Chekini 
+L589:  R. 
+L590:  , and 
+L591:  
+L592:  Nateghi 
+L593:  M. R. 
+L594:  , et al. The Effect of Combined Vitamin C and Vitamin E Supplementation on Oxidative Stress Markers in Women With Endometriosis: A Randomized, Triple-Blind Placebo-Controlled Clinical Trial ,  Pain Research and Management . ( 2021 )  2021 ,  10.1155/2021/5529741 ,  5529741 . 34122682
+L595: 36 Wang 
+L596:  L. 
+L597:  , 
+L598:  
+L599:  Tang 
+L600:  J. 
+L601:  , and 
+L602:  
+L603:  Wang 
+L604:  L. 
+L605:  , et al. Oxidative Stress in Oocyte Aging and Female Reproduction ,  Journal of Cellular Physiology . ( 2021 )  236 , no. 12,  7966 – 7983 ,  10.1002/jcp.30468 . 34121193
+L606: 37 Moustakli 
+L607:  E. 
+L608:  , 
+L609:  
+L610:  Zikopoulos 
+L611:  A. 
+L612:  , and 
+L613:  
+L614:  Skentou 
+L615:  C. 
+L616:  , et al. Impact of Reductive Stress on Human Infertility: Underlying Mechanisms and Perspectives ,  International Journal of Molecular Sciences . ( 2024 )  25 , no. 21,  10.3390/ijms252111802 ,  11802 . 39519353
+L617: 38 Rychter 
+L618:  A. M. 
+L619:  , 
+L620:  
+L621:  Hryhorowicz 
+L622:  S. 
+L623:  , 
+L624:  
+L625:  Słomski 
+L626:  R. 
+L627:  , 
+L628:  
+L629:  Dobrowolska 
+L630:  A. 
+L631:  , and 
+L632:  
+L633:  Krela-Kaźmierczak 
+L634:  I. 
+L635:  ,  Antioxidant Effects of Vitamin E and Risk of Cardiovascular Disease in Women With Obesity – A Narrative Review ,  Clinical Nutrition . ( 2022 )  41 , no. 7,  1557 – 1565 ,  10.1016/j.clnu.2022.04.032 . 35667272
+L636: 39 Baxter 
+L637:  L. L. 
+L638:  , 
+L639:  
+L640:  Marugan 
+L641:  J. J. 
+L642:  , and 
+L643:  
+L644:  Xiao 
+L645:  J. 
+L646:  , et al. Plasma and Tissue Concentrations of  α -Tocopherol and  δ -Tocopherol Following High Dose Dietary Supplementation in Mice ,  Nutrients . ( 2012 )  4 , no. 6,  467 – 490 ,  10.3390/nu4060467 , 2-s2.0-84862154360. 22822447
+L647: 40 Yasunaga 
+L648:  T. 
+L649:  , 
+L650:  
+L651:  Kato 
+L652:  H. 
+L653:  , 
+L654:  
+L655:  Ohgaki 
+L656:  K. 
+L657:  , 
+L658:  
+L659:  Inamoto 
+L660:  T. 
+L661:  , and 
+L662:  
+L663:  Hikasa 
+L664:  Y. 
+L665:  ,  Effect of Vitamin E as an Immunopotentiation Agent for Mice at Optimal Dosage and Its Toxicity at High Dosage ,  The Journal of Nutrition . ( 1982 )  112 , no. 6,  1075 – 1084 ,  10.1093/jn/112.6.1075 , 2-s2.0-0020317665. 7086537
+L666: 41 Eder 
+L667:  K. 
+L668:  , 
+L669:  
+L670:  Siebers 
+L671:  M. 
+L672:  , 
+L673:  
+L674:  Most 
+L675:  E. 
+L676:  , 
+L677:  
+L678:  Scheibe 
+L679:  S. 
+L680:  , 
+L681:  
+L682:  Weissmann 
+L683:  N. 
+L684:  , and 
+L685:  
+L686:  Gessner 
+L687:  D. K. 
+L688:  ,  An Excess Dietary Vitamin E Concentration Does not Influence Nrf2 Signaling in the Liver of Rats Fed Either Soybean Oil or Salmon Oil ,  Nutrition and Metabolism . ( 2017 )  14 , no. 1,  10.1186/s12986-017-0225-z , 2-s2.0-85034251060,  71 . 29176993
+L689: 42 El-Hak 
+L690:  H. N. G. 
+L691:  , 
+L692:  
+L693:  ELaraby 
+L694:  E. E. 
+L695:  , 
+L696:  
+L697:  Hassan 
+L698:  A. K. 
+L699:  , and 
+L700:  
+L701:  Abbas 
+L702:  O. A. 
+L703:  ,  Study of the Toxic Effect and Safety of Vitamin E Supplement in Male Albino Rats After 30 Days of Repeated Treatment ,  Heliyon . ( 2019 )  5 , no. 10,  10.1016/j.heliyon.2019.e02645 , 2-s2.0-85073122779,  e02645 . 31667433
+L704: 43 Mesdaghinia 
+L705:  E. 
+L706:  , 
+L707:  
+L708:  Mohammad-Ebrahimi 
+L709:  B. 
+L710:  , 
+L711:  
+L712:  Foroozanfard 
+L713:  F. 
+L714:  , and 
+L715:  
+L716:  Banafshe 
+L717:  H. R. 
+L718:  ,  The Effect of Vitamin E and Aspirin on the Uterine Artery Blood Flow in Women With Recurrent Abortion: A Single-Blind Randomized Controlled Trial ,  International Journal of Reproductive BioMedicine . ( 2017 )  15 , no. 10,  635 – 640 ,  10.29252/ijrm.15.10.6 , 2-s2.0-85052541869. 29387829
+L719: 44 Aubead 
+L720:  N. M. 
+L721:  ,  Assessment of the Role of Vitamin E in the Improvement of Female Fertility ,  Journal of Obstetrics, Gynecology and Cancer Research . ( 2025 )  e728645 .
+L722: 45 Wang 
+L723:  Y. 
+L724:  , 
+L725:  
+L726:  Huang 
+L727:  D. S. 
+L728:  , 
+L729:  
+L730:  Liang 
+L731:  B. 
+L732:  , and 
+L733:  
+L734:  Watson 
+L735:  R. R. 
+L736:  ,  Nutritional Status and Immune Responses in Mice With Murine AIDS Are Normalized by Vitamin E Supplementation ,  The Journal of Nutrition . ( 1994 )  124 , no. 10,  2024 – 2032 ,  10.1093/jn/124.10.2024 . 7931712
+L737: 46 Rigotti 
+L738:  A. 
+L739:  ,  Absorption, Transport, and Tissue Delivery of Vitamin E ,  Molecular Aspects of Medicine . ( 2007 )  28 , no. 5-6,  423 – 436 ,  10.1016/j.mam.2007.01.002 , 2-s2.0-34548404574. 17320165
+L740: 47 Zingg 
+L741:  J.-M. 
+L742:  ,  Vitamin E: Regulatory Role on Signal Transduction ,  IUBMB Life . ( 2019 )  71 , no. 4,  456 – 478 ,  10.1002/iub.1986 , 2-s2.0-85058676723. 30556637
+L743: 48 Baratz 
+L744:  E. 
+L745:  , 
+L746:  
+L747:  Protchenko 
+L748:  O. 
+L749:  , and 
+L750:  
+L751:  Jadhav 
+L752:  S. 
+L753:  , et al. Vitamin E Induces Liver Iron Depletion and Alters Iron Regulation in Mice ,  The Journal of Nutrition . ( 2023 )  153 , no. 7,  1866 – 1876 ,  10.1016/j.tjnut.2023.04.018 . 37127137
+L754: 49 Pangrazzi 
+L755:  L. 
+L756:  , 
+L757:  
+L758:  Balasco 
+L759:  L. 
+L760:  , and 
+L761:  
+L762:  Bozzi 
+L763:  Y. 
+L764:  ,  Natural Antioxidants: A Novel Therapeutic Approach to Autism Spectrum Disorders? ,  Antioxidants (Basel, Switzerland) . ( 2020 )  9 , no. 12,  10.3390/antiox9121186 ,  1186 . 33256243
+L765: Acknowledgments
+L766: The authors acknowledge that they used ChatGPT (OpenAI) for linguistic editing to improve the clarity and readability of the manuscript.
+[27ms]
+

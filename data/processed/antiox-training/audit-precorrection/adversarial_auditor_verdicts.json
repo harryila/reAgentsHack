@@ -1,0 +1,274 @@
+[
+ {
+  "finding_id": "doc:PMC2129167:m_03b60975:1:efad5e2f",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L31 explicitly reports no statistical difference in strength between S and PL groups at the end of the season, which under the locked between-group definition is no_effect; the within-group PRE-POST strength increases in both groups do not alter the between-group verdict. The row isolates one outcome (muscle_strength) at one timepoint (POST) despite the quote listing three endpoints, so atomicity holds. Intervention (vitamin C+E daily) and comparator (placebo/PL group) match L32 and the cited context, and the study is an eligible human controlled trial pairing 90 days of pre-season training with supplementation vs placebo."
+ },
+ {
+  "finding_id": "doc:PMC7555371:m_81e437e8:1:482eec23",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L62 shows a human controlled trial contrasting vitamin C+E vs placebo groups performing identical 3-week SIT, with VO2max measured post-training. The verbatim quote reports similar non-significant VO2max changes in both groups (2.5 \u00b1 7.7% vs 1.2 \u00b1 7.7%) with no between-group difference, so no_effect is correct under the locked between-group definition. The row isolates one outcome/timepoint/contrast despite L62 containing other endpoints (power, HRmax, RERmax), and all fields match the source exactly."
+ },
+ {
+  "finding_id": "doc:PMC7554744:m_81e437e8:0:90be74cb",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "This is a double-blind crossover trial (L33) in 15 healthy women doing a 12-week structured training program (L31), with 1000 mg vitamin C vs cellulose placebo during each 6-week training period, satisfying eligibility. The quote from L48 states VO2max did not change in either the supplemented or unsupplemented training period, and L48 further states \"No significant differences between groups were observed in tested parameters, independently on supplementation time\" \u2014 so under the locked between-group definition, no detectable difference in adaptation, correctly coded no_effect rather than a within-group misreading. Intervention (vitamin C + training), comparator (placebo/unsupplemented training), outcome (aerobic_capacity = VO2 max, measured per L34-L36), and timepoint (\"after 6 weeks\", matching the per-period assessment schedule in L46) all match the source, and the row is a single null result for one outcome and one contrast."
+ },
+ {
+  "finding_id": "doc:PMC12384908:m_03b60975:1:1455a07a",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "Source verification (packet context was empty, so the paper was fetched directly) confirms an RCT in sarcopenic older women combining 12-week elastic-band resistance training with 1000 mg/d vitamin C + 335 mg/d vitamin E vs placebo doing identical training. The full source sentence \u2014 \"The AS group had higher increases in ... skeletal muscle mass index (\u0394 = 0.71 vs 0.42 kg/m\u00b2; P = .004, d = 0.71)\" \u2014 assigns \u0394=0.71 to the supplemented group and 0.42 to placebo, so the supplemented group's adaptation was larger and \"increase\" is correct under the locked between-group definition. The row extracts only the SMI result at 12 weeks post-intervention, not the adjacent arm-lean-mass result, so it is a single atomic finding with matching intervention, comparator, outcome, and timepoint."
+ },
+ {
+  "finding_id": "doc:PMC3665021:m_03b60975:0:04b273d3",
+  "checks": {
+   "eligibility": false,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [
+   "eligibility_no_structured_training_program"
+  ],
+  "rationale": "L11 describes a 4-week supplementation RCT in 64 trained female athletes with pre/post Harvard Step Test measurements, but nowhere in the cited context is a structured exercise-training program administered as part of the trial \u2014 the locked eligibility rules require supplementation combined with a training program that the control also completes, so the comparison is supplementation during habitual activity, not a training-adaptation contrast. The row's other fields survive attack: group A received vitamin C 250 mg/day vs a placebo control (L11), the quote on L13 reports no significant between-group difference in VO2max, which under the locked definition is exactly no_effect (no detectable between-group difference), and the 4-week post-intervention timepoint matches the trial duration. The quote is an omnibus four-group null, but it encompasses the vitamin C vs placebo contrast for the correct outcome (VO2max = aerobic_capacity) and is corroborated by L15, so quote_support, direction, outcome, intervention, comparator, timepoint, and atomicity all hold."
+ },
+ {
+  "finding_id": "doc:PMC11373101:m_03b60975:1:da8d09ce",
+  "checks": {
+   "eligibility": false,
+   "atomicity": false,
+   "intervention": false,
+   "comparator": false,
+   "outcome": true,
+   "timepoint": true,
+   "direction": false,
+   "quote_support": false
+  },
+  "error_codes": [
+   "ineligible_contrast",
+   "multi_arm_fusion",
+   "intervention_wrong_arm",
+   "comparator_fused",
+   "direction_wrong_relation",
+   "quote_wrong_comparison"
+  ],
+  "rationale": "The row encodes PLB+RT vs PLB/VES, an exercise-vs-no-exercise contrast (intervention_class even says \"exercise_only\"), not the locked relation of vitamin E+training vs placebo+training \u2014 the eligible contrast in this paper would be VES+RT vs PLB+RT, which this row never captures. The intervention field names the placebo arm while dose_raw (800 IU/day) and moderators claim vitamin E, and the comparator fuses two arms (\"PLB or VES\") when L59 shows PLB+RT was compared only to PLB; effect_size_raw is the omnibus 4-group time-by-group interaction, not one arm contrast. Direction \"increase\" reflects within-group/training-vs-sedentary improvement, which is unevaluable under the locked supplement-vs-control definition, and the quote does not support a PLB+RT vs VES comparison. Outcome (1RM = muscle strength) and timepoint (12 weeks post-intervention) do match the source."
+ },
+ {
+  "finding_id": "doc:PMC9599586:m_81e437e8:0:8497dda5",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "Source (PMC9599586) is a 6-week RCT in 36 elderly women where both groups did identical training; SUPP received 1000 mg vitamin C daily vs cellulose placebo (CON), matching intervention/comparator fields. The strongest attack was direction: the quote's \"did not change significantly\" suggests no_effect, but the 2-way ANOVA interaction was significant and VO2max rose only in the SUPP group (20.6 to 21.4 mL/kg/min), so under the locked between-group definition the adaptation was larger in the supplemented group, making \"increase\" correct. L46 confirms \"this parameter\" is VO2max, and the 6-week timepoint matches the post-training measurement. All checks survive."
+ },
+ {
+  "finding_id": "doc:PMC7923494:m_81e437e8:2:9e57bd27",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L29/L31/L33 confirm a double-blinded human RCT of elderly women taking vitamin C vs cellulose placebo during an identical 6-week training program, and the quote is the single Table 1 muscle-mass row (one outcome, one timepoint, one SUP-vs-CON contrast). Neither group changed significantly within-group (SUP p=0.79, CON p=0.33) and the post-training between-group comparison was non-significant (p2=0.36, dCohen 0.11); the only significant between-group p (p1=0.01) is a baseline difference, not an adaptation difference, so no_effect is correct under the locked between-group definition. The 1000 mg/day dose lies just outside the cited window (L34 is only the Supplementation heading) but nothing in the source contradicts the intervention field. All eight checks survive."
+ },
+ {
+  "finding_id": "doc:PMC2129167:m_03b60975:2:3472bb9d",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L31 explicitly reports no statistical difference in speed between S and PL groups at the end of the season, in a placebo-controlled trial of soccer players taking vitamin C+E during 3-month pre-season training \u2014 matching the row's no_effect direction under the between-group definition. The strongest attack on direction fails: the significant training-induced increases in L31 were for AT and strength only, and speed ES r values were comparable in both groups (0.37 vs 0.32), so no between-group adaptation difference exists on either an endpoint or change-score reading. The quote spans three outcomes but the row isolates one (speed/30-m sprint) at one timepoint (POST) for one S-vs-PL contrast, so atomicity holds."
+ },
+ {
+  "finding_id": "doc:PMC2129167:m_03b60975:0:e9b4746a",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L31 states the vitamin C+E supplementation protocol \"did not induce any statistical difference in aerobic capacity, strength and speed between S and PL groups, at the end of the season,\" directly supporting a no_effect between-group result for aerobic_capacity at POST in a human controlled trial of trained soccer players. Both groups improved comparably with training (ES r 0.68 in S vs 0.72 in PL for AT), so no_effect under the locked between-group-adaptation definition is correct, not a masked blunting or enhancement. The row isolates one outcome/timepoint/contrast from the multi-outcome sentence, and intervention, placebo comparator, and timepoint all match the source."
+ },
+ {
+  "finding_id": "doc:PMC11373101:m_03b60975:0:da8d09ce",
+  "checks": {
+   "eligibility": false,
+   "atomicity": false,
+   "intervention": true,
+   "comparator": false,
+   "outcome": true,
+   "timepoint": true,
+   "direction": false,
+   "quote_support": false
+  },
+  "error_codes": [
+   "ineligible_comparison_training_vs_no_training",
+   "multi_arm_fusion",
+   "comparator_mismatch",
+   "direction_not_between_group",
+   "quote_wrong_comparison"
+  ],
+  "rationale": "This is a four-arm trial (PLB, VES, PLB+RT, VES+RT), and the only contrast eligible under the locked rules is VES+RT vs PLB+RT; but the row's comparator (\"PLB or VES\") names non-training arms, and the source's pairwise tests explicitly compare VES+RT against VES (training vs no-training), not against the placebo-trained control \u2014 an ineligible comparison. The cited statistic (F3,33=30.037) is the omnibus 4-group time\u00d7group interaction fused with within-group changes in two arms, violating one-contrast atomicity. Under the locked direction definition, \"increase\" would require the VES+RT adaptation to exceed the PLB+RT adaptation; the paper reports no VES+RT vs PLB+RT test, and Table 3 shows nearly identical 1RM gains (+4.78 vs +4.50 kg), so \"increase\" reflects within-group improvement, not a between-group difference. The quote supports \"1RM rose in both training groups,\" not the specific supplement-vs-placebo-control result claimed. Intervention (VES+RT), outcome (1RM/muscle strength), and timepoint (12 weeks, per Table 3's 12-week intervention) are accurate."
+ },
+ {
+  "finding_id": "doc:PMC3665021:m_03b60975:1:c3cd846d",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L11 describes a 4-week randomized double-blind placebo-controlled trial in 64 trained female athletes with a vitamin E (400 IU) arm and a placebo control, with VO2max measured before and after \u2014 an eligible human training-plus-supplementation contrast (ongoing athletic training in both arms; no acute single-session design). The row is one atomic result: vitamin E vs placebo, aerobic capacity (VO2max), at 4 weeks post-intervention. The L13 quote \"no significant difference between groups in VO2 max\" is an omnibus null across all four arms, which necessarily covers the E-vs-placebo contrast and is corroborated by L15 (\"no significant effect on any of the studied parameters\"), so no_effect is correct under the locked between-group definition. My strongest attack \u2014 that the omnibus quote is not arm-specific \u2014 fails because a global between-group null entails the specific contrast, and no table or interaction result contradicts it."
+ },
+ {
+  "finding_id": "doc:PMC12384908:m_03b60975:0:1455a07a",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "The quote directly reports a significant between-group difference favoring the supplemented group: \"the AS group had higher increases in arm lean mass (\u0394 = 0.96 vs 0.59 kg; P = .003, d = 0.74)\", which under the locked definition (adaptation larger in supplemented vs control) is correctly coded as \"increase\" \u2014 not a within-group or placebo-only-improved pattern. The row is a single result (one outcome, one 12-week post-intervention timepoint, one AS-vs-placebo contrast), and outcome_name \"muscle_mass\" is an explicitly logged canonicalization of \"arm lean mass\". Intervention (vitamin C 1000 mg/d + E 335 mg/d during elastic-band RT) and comparator (placebo doing the same program) match the two-arm human RCT structure, and nothing in the packet contradicts them."
+ },
+ {
+  "finding_id": "doc:PMC7923494:m_81e437e8:0:f5ea65d1",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "L29/L33 confirm a double-blind human RCT of vitamin C vs cellulose placebo with both groups completing the same 6-week training program, satisfying eligibility and the intervention/comparator fields. The quoted Table 1 VO2 max row shows p1=0.3 and p2=0.4 between groups, dCohen II=0.03, and no '#' between-group markers, so no_effect is correct under the locked between-group definition at the 6-week post timepoint. The only blemish is that the extracted p_value 0.2 is the SUP within-group pre/post p rather than the between-group p (0.4), but p-value fidelity is not among the audited checks and does not change the direction or quote support."
+ },
+ {
+  "finding_id": "doc:PMC12384908:m_03b60975:3:d1d3884c",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "The packet's cited_context_lines was empty, so I verified against the source paper (PMC12384908): a 12-week RCT in 60 sarcopenic older women where both groups performed identical elastic-band resistance training, AS receiving 1000 mg/d vitamin C + 335 mg/d vitamin E vs placebo. The hardest attack \u2014 that the quote's \"\u0394 = 2.28 vs 1.02 kg\" might list placebo first, inverting direction \u2014 fails: Table 2 and the Results text assign 2.28 kg to the AS group and 1.02 kg to placebo, with knee extension strength significantly higher in AS at post-test (P < .001, d = 0.89), so the supplemented group's adaptation was larger and \"increase\" is correct under the locked between-group definition. The row is a single outcome/timepoint/arm contrast, and intervention, comparator, outcome_name, and timepoint all match the source."
+ },
+ {
+  "finding_id": "doc:PMC3665021:m_03b60975:2:f1dc7a3e",
+  "checks": {
+   "eligibility": false,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [
+   "no_structured_training_program"
+  ],
+  "rationale": "The cited Methods line (L11) describes only a 4-week supplementation RCT in 64 trained female athletes with pre/post Harvard Step Test measures; no structured exercise-training program administered to all groups is described, so the locked eligibility requirement of supplementation combined with a common training program is not evidenced. All row-level fields survive attack: group C received vitamin C + vitamin E vs a placebo control, the outcome is VO2 max (aerobic capacity) at 4 weeks, and L13's \"no significant difference between groups in VO2 max\" is a between-group null that maps to no_effect under the locked definition. The omnibus four-group null covers the C+E-vs-placebo contrast and is corroborated by L15, so the quote supports this specific row."
+ },
+ {
+  "finding_id": "doc:PMC12384908:m_03b60975:2:d1d3884c",
+  "checks": {
+   "eligibility": true,
+   "atomicity": true,
+   "intervention": true,
+   "comparator": true,
+   "outcome": true,
+   "timepoint": true,
+   "direction": true,
+   "quote_support": true
+  },
+  "error_codes": [],
+  "rationale": "The packet's cited_context_lines were empty and the quote alone does not label which group \u0394=3.66 vs 1.16 kg belongs to, so I verified against the source paper (PMC12384908): a 12-week double-blind RCT in 60 sarcopenic older women where all participants did the same elastic-band resistance training, AS (1000 mg/d vit C + 335 mg/d vit E) vs placebo. The paper states grip strength was higher in the AS group than PLA at post-test (P=.047, d=0.51), with AS \u0394=3.66 kg vs PLA \u0394=1.16 kg \u2014 a between-group comparison favoring the supplemented group, so \"increase\" is correct under the locked definition and is not a within-group or inverted reading. Intervention, comparator, dose, 12-week timepoint, and the canonicalized outcome (handgrip \u2192 muscle_strength) all match the source, and the quoted statistics belong to the intergroup handgrip contrast, not a different outcome or comparison."
+ }
+]

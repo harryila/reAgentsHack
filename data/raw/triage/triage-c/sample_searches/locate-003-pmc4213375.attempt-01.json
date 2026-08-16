@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "3",
+    "-e",
+    "Can Antioxidants Protect Against Disuse Muscle Atrophy?"
+  ],
+  "completed_at": "2026-08-16T02:47:13.756944+00:00",
+  "elapsed_seconds": 1.4434206660371274,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:12.313527+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-003-pmc4213375.attempt-01.stderr",
+  "stdout_bytes": 474,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-003-pmc4213375.attempt-01.stdout"
+}

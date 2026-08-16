@@ -1,0 +1,641 @@
+L1: Effect of carbohydrate–protein supplementation on endurance training adaptations
+L2: European Journal of Applied Physiology (2020)
+L3: Abdullah F. Alghannam, Iain Templeman, Joel E. Thomas, Dawid Jedrzejewski, Samuel Griffiths, Joseph Lemon, Thomas Byers, Sue Reeves, Javier T. Gonzalez, Dylan Thompson, James Bilzon, Kostas Tsintzas, James A. Betts
+L4: 1 grid.449346.8 0000 0004 0501 7602 Lifestyle and Health Research Center, Health Sciences Research Center, Princess Nourah Bint Abdulrahman University,  Riyadh, 84428 Saudi Arabia
+L5: 2 grid.7340.0 0000 0001 2162 1699 Department for Health,  University of Bath,  Bath, BA2 7AY UK
+L6: 3 grid.35349.38 0000 0001 0468 7274 Department of Life Sciences,  University of Roehampton,  London, SW15 4JD UK
+L7: 4 School of Life Sciences, University of Nottingham, Queen’s Medical Centre, Nottingham, NG7 2UH UK
+L8: Purpose
+L9: To examine the influence of post-exercise protein feeding upon the adaptive response to endurance exercise training.
+L10: Methods
+L11: In a randomised parallel group design, 25 healthy men and women completed 6 weeks of endurance exercise training by running on a treadmill for 30–60 min at 70–75% maximal oxygen uptake ( V O 2max ) 4 times/week. Participants ingested 1.6 g per kilogram of body mass (g kg BM −1 ) of carbohydrate (CHO) or an isocaloric carbohydrate–protein solution (CHO-P; 0.8 g carbohydrate kg BM −1  + 0.8 g protein kg BM −1 ) immediately and 1 h post-exercise. Expired gas, blood and muscle biopsy samples were taken at baseline and follow-up.
+L12: Results
+L13: Exercise training improved  V O 2max  in both groups ( p  ≤ 0.001), but this increment was not different between groups either in absolute terms or relative to body mass (0.2 ± 0.2 L min −1  and 3.0 ± 2 mL kg −1  min −1 , respectively). No change occurred in plasma albumin concentration from baseline to follow-up with CHO-P (4.18 ± 0.18 to 4.23 ± 0.17 g dL −1 ) or CHO (4.17 ± 0.17 to 4.12 ± 0.22 g dL −1 ; interaction:  p  > 0.05). Mechanistic target of rapamycin (mTOR) gene expression was up-regulated in CHO-P (+ 46%;  p  = 0.025) relative to CHO (+ 4%) following exercise training.
+L14: Conclusion
+L15: Post-exercise protein supplementation up-regulated the expression of mTOR in skeletal muscle over 6 weeks of endurance exercise training. However, the magnitude of improvement in  V O 2max  was similar between groups.
+L16: Original Article
+L17: Sucrose; Amino acids; Post-exercise nutrition; Recovery; Running
+L18: Introduction
+L19: Improved maximal oxygen uptake ( \documentclass[12pt]{minimal}
+L20: 				\usepackage{amsmath}
+L21: 				\usepackage{wasysym} 
+L22: 				\usepackage{amsfonts} 
+L23: 				\usepackage{amssymb} 
+L24: 				\usepackage{amsbsy}
+L25: 				\usepackage{mathrsfs}
+L26: 				\usepackage{upgreek}
+L27: 				\setlength{\oddsidemargin}{-69pt}
+L28: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ) is a hallmark adaptation to endurance exercise training, and is implicated as a key measure for human health and exercise performance (Jones and Carter  2000 ; Strasser and Burtscher  2018 ). Higher  \documentclass[12pt]{minimal}
+L29: 				\usepackage{amsmath}
+L30: 				\usepackage{wasysym} 
+L31: 				\usepackage{amsfonts} 
+L32: 				\usepackage{amssymb} 
+L33: 				\usepackage{amsbsy}
+L34: 				\usepackage{mathrsfs}
+L35: 				\usepackage{upgreek}
+L36: 				\setlength{\oddsidemargin}{-69pt}
+L37: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  is linked to the reduction in all-cause mortality risk (Imboden et al.  2019 ), while also being regarded as the best indicator for endurance performance (Basset and Boulay  2000 ). Improvements in  \documentclass[12pt]{minimal}
+L38: 				\usepackage{amsmath}
+L39: 				\usepackage{wasysym} 
+L40: 				\usepackage{amsfonts} 
+L41: 				\usepackage{amssymb} 
+L42: 				\usepackage{amsbsy}
+L43: 				\usepackage{mathrsfs}
+L44: 				\usepackage{upgreek}
+L45: 				\setlength{\oddsidemargin}{-69pt}
+L46: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  with endurance training involves an interplay between various organ systems: from cardiovascular adaptations to improve oxygen delivery (Convertino et al.  1980 ; Ekblom et al.  1968 ; Montero et al.  2015 ; Saltin et al.  1969 ; Schmidt et al.  1988 ), to skeletal muscle to improve oxidative capacity (Fritzen et al.  2019 ; Holloszy  1967 ; Hoppeler et al.  1985 ; Perry et al.  2010 ). Incorporating time-efficient strategies to maximise exercise-induced adaptations, including  \documentclass[12pt]{minimal}
+L47: 				\usepackage{amsmath}
+L48: 				\usepackage{wasysym} 
+L49: 				\usepackage{amsfonts} 
+L50: 				\usepackage{amssymb} 
+L51: 				\usepackage{amsbsy}
+L52: 				\usepackage{mathrsfs}
+L53: 				\usepackage{upgreek}
+L54: 				\setlength{\oddsidemargin}{-69pt}
+L55: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max , is, therefore, viable to favourably confer the desired health and performance outcomes.
+L56: Nutrient availability impacts the acute training response to endurance exercise (Coffey et al.  2011 ; Harber et al.  2010 ; Lunn et al.  2012 ), and can modulate chronic adaptations to physical training when applied repeatedly (Hawley et al.  2011 ). Both exercise and protein ingestion affect muscle protein kinetics (Breen et al.  2011 ; Lunn et al.  2012 ; Phillips et al.  1997 ), resulting in muscle remodelling contributing to training adaptations if sustained over weeks or months (Coffey et al.  2011 ; Farup et al.  2014 ; Morton et al.  2018 ; Perry et al.  2010 ). The “short-term” effects of protein ingestion on skeletal muscle adaptive response to an endurance exercise bout has been the focus of many investigations (Abou Sawan et al.  2018 ; Breen et al.  2011 ; Harber et al.  2010 ; Howarth et al.  2009 ; Lunn et al.  2012 ; Rowlands et al.  2015 ). Yet, the accumulation of these acute effects into chronic adaptive responses may be a more detectable and practically valuable outcome.
+L57: Limited information is available regarding the role protein supplementation during “long-term” (> 4 weeks) endurance training adaptations. The evidence at present is conflicting in terms of cardiovascular adaptations, with some (Ferguson-Stegall et al.  2011 ; Knuiman et al.  2019 ; Robinson et al.  2011 ), but not all (Jonvik et al.  2019 ) favouring post-exercise protein ingestion in potentiating exercise training improvements in  \documentclass[12pt]{minimal}
+L58: 				\usepackage{amsmath}
+L59: 				\usepackage{wasysym} 
+L60: 				\usepackage{amsfonts} 
+L61: 				\usepackage{amssymb} 
+L62: 				\usepackage{amsbsy}
+L63: 				\usepackage{mathrsfs}
+L64: 				\usepackage{upgreek}
+L65: 				\setlength{\oddsidemargin}{-69pt}
+L66: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max . Similarly, improved markers of mitochondrial adaptations (such as mitochondrial enzyme activity, PGC1-alpha content and mitochondrial DNA levels) following endurance training plus protein feeding have not been consistently reported (Ferguson-Stegall et al.  2011 ; Knuiman et al.  2019 ; Robinson et al.  2011 ). Inclusion of other potentially active ingredients such as caffeine and flavonoids (Ferguson-Stegall et al.  2011 ); selection of a control group not matched for macronutrient/energy content (Okazaki et al.  2009 ; Roberson et al.  2018 ); lack of double blinding (Ferguson-Stegall et al.  2011 ; Roberson et al.  2018 ); and insufficient sample size (Roberson et al.  2018 ; Robinson et al.  2011 ) make it difficult to conclude on the role of protein feeding in endurance training adaptations. Only two running-based studies were conducted, which did not measure  \documentclass[12pt]{minimal}
+L67: 				\usepackage{amsmath}
+L68: 				\usepackage{wasysym} 
+L69: 				\usepackage{amsfonts} 
+L70: 				\usepackage{amssymb} 
+L71: 				\usepackage{amsbsy}
+L72: 				\usepackage{mathrsfs}
+L73: 				\usepackage{upgreek}
+L74: 				\setlength{\oddsidemargin}{-69pt}
+L75: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  changes in response to exercise training (Roberson et al.  2018 ), or utilised a different modality (i.e. cycling) in assessing  \documentclass[12pt]{minimal}
+L76: 				\usepackage{amsmath}
+L77: 				\usepackage{wasysym} 
+L78: 				\usepackage{amsfonts} 
+L79: 				\usepackage{amssymb} 
+L80: 				\usepackage{amsbsy}
+L81: 				\usepackage{mathrsfs}
+L82: 				\usepackage{upgreek}
+L83: 				\setlength{\oddsidemargin}{-69pt}
+L84: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  (Robinson et al.  2011 ). It remains to be established whether protein supplementation enhances the adaptive response to running-based endurance training in recreationally active healthy young individuals.
+L85: We examined the effects of post-exercise whey protein ingestion relative to an isocaloric carbohydrate control on the cardiovascular and intra-muscular transcriptional adaptations to 6 weeks of running-based endurance training in recreationally active healthy young individuals. We hypothesised that carbohydrate–protein co-ingestion would increase  \documentclass[12pt]{minimal}
+L86: 				\usepackage{amsmath}
+L87: 				\usepackage{wasysym} 
+L88: 				\usepackage{amsfonts} 
+L89: 				\usepackage{amssymb} 
+L90: 				\usepackage{amsbsy}
+L91: 				\usepackage{mathrsfs}
+L92: 				\usepackage{upgreek}
+L93: 				\setlength{\oddsidemargin}{-69pt}
+L94: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max , alongside a differential expression of the key genes related to endurance training adaptation.
+L95: Materials and methods
+L96: Experimental design
+L97: The full experimental protocol for this trial was logged with a clinical trials register (ISRCTN27312291) and was published in advance (Alghannam et al.  2014 ). The primary outcomes were cardiovascular ( \documentclass[12pt]{minimal}
+L98: 				\usepackage{amsmath}
+L99: 				\usepackage{wasysym} 
+L100: 				\usepackage{amsfonts} 
+L101: 				\usepackage{amssymb} 
+L102: 				\usepackage{amsbsy}
+L103: 				\usepackage{mathrsfs}
+L104: 				\usepackage{upgreek}
+L105: 				\setlength{\oddsidemargin}{-69pt}
+L106: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  and plasma albumin concentration) and intra-muscular (i.e. selected genes involved in cellular adaptive processes related to exercise/nutrition) responses to endurance training, and whether carbohydrate–protein co-ingestion could facilitate these adaptive responses. In a randomised investigator–participant double-blind parallel group design, participants were assigned (stratified for sex) to a group receiving a supplement containing carbohydrate (CHO trial) or carbohydrate plus protein (CHO-P trial). A total of 26 exercise training sessions were, therefore, prescribed for each participant (4 sessions per week). Mean adherence to exercise training (using the exercise logs and gym-based electronic system) was 96% (SD 4%). Consequently, participants completed 25 ± 1 and 25 ± 1 exercise training sessions in both CHO-P and CHO groups, respectively.
+L107: Participants
+L108: Twenty-three healthy men and two healthy women participated in the study. The procedures and potential risks were explained to all participants both verbally and in writing prior to obtaining their written informed consent to take part, and administration of medical health questionnaires to ensure the absence of any risks associated with the nature of the study. This study was approved by the National Health Service (NHS) South West 3 Research Ethics Committee (13/SW/0239).
+L109: Fig. 1 Participant recruitment and flow throughout the protocol.  CHO  carbohydrate group,  CHO-P  carbohydrate–protein group
+L110: Randomisation effectively generated two equivalent groups according to the good agreement between variables at baseline (Table  1 ). Thirty-three participants were initially recruited to take part in the study (Fig.  1 ) but three participants did not meet the eligibility criteria and were excluded from the outset. Furthermore, five participants withdrew from the study, two of whom sustained musculoskeletal injuries unrelated to the exercise training. Another 2 individuals reported time commitments as a reason for withdrawing from the study, whilst a single individual did not provide any information for withdrawal; thus 25 participants completed the study. Table 1 Participant characteristics, including physiological parameters at baseline and follow-up All participants ( n  = 25) CHO-P group ( n  = 13) CHO group ( n  = 12) Baseline Follow-up Baseline Follow-up Baseline Follow-up Age (years) 20 ± 2 – 20 ± 2 – 20 ± 2 – Speed at 70%  \documentclass[12pt]{minimal}
+L111: 				\usepackage{amsmath}
+L112: 				\usepackage{wasysym} 
+L113: 				\usepackage{amsfonts} 
+L114: 				\usepackage{amssymb} 
+L115: 				\usepackage{amsbsy}
+L116: 				\usepackage{mathrsfs}
+L117: 				\usepackage{upgreek}
+L118: 				\setlength{\oddsidemargin}{-69pt}
+L119: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  (km h −1 ) 10.2 ± 1.0 10.7 ± 0.9 10.0 ± 1.0 10.6 ± 0.9 10.4 ± 0.9 10.9 ± 0.9 Speed at 75%  \documentclass[12pt]{minimal}
+L120: 				\usepackage{amsmath}
+L121: 				\usepackage{wasysym} 
+L122: 				\usepackage{amsfonts} 
+L123: 				\usepackage{amssymb} 
+L124: 				\usepackage{amsbsy}
+L125: 				\usepackage{mathrsfs}
+L126: 				\usepackage{upgreek}
+L127: 				\setlength{\oddsidemargin}{-69pt}
+L128: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  (km h −1 ) 11.0 ± 1.0 11.6 ± 1.0 10.8 ± 1.1 11.4 ± 1.0 11.2 ± 1.0 11.8 ± 0.9 Height (cm) 179 ± 10 – 179 ± 10 – 179 ± 10 – Body mass (kg) 76.3 ± 12 75.4 ± 10 77.7 ± 13 76.0 ± 11 73.9 ± 9 74.0 ± 8 Body fat (%) 16.3 ± 4.5 15.9 ± 3.6 15.8 ± 5.2 15.4 ± 3.9 17.0 ± 3.8 16.4 ± 3.4 Body mass index (kg m 2 ) 23.8 ± 2.8 23.6 ± 2.3 24.3 ± 3.4 23.8 ± 2.7 23.1 ± 2.0 23.1 ± 1.7 Resting heart rate (beats min −1 ) 61 ± 7 56 ± 9* 63 ± 6 57 ± 8* 59 ± 7 54 ± 10* Maximum heart rate (beats min −1 ) 203 ± 10 197 ± 9* 200 ± 12 195 ± 10* 206 ± 7 199 ± 7* Resting metabolic rate (kJ min −1 ) 7721 ± 259 7733 ± 225 7686 ± 322 7849 ± 238 7757 ± 301 7607 ± 301 Urine osmolality (mOsm kg −1 ) 519 ± 347 592 ± 281 523 ± 349 584 ± 291 516 ± 359 600 ± 282 Values are mean ± SD *Significant time effect from baseline to follow-up ( p  < 0.05) Fig. 1 Participant recruitment and flow throughout the protocol.  CHO  carbohydrate group,  CHO-P  carbohydrate–protein group
+L129: Nutritional supplements
+L130: Participants in the CHO group received 1.6 g per kilogram of body mass (g kg BM −1 ) of carbohydrate (sucrose), whilst the CHO-P received an isocaloric carbohydrate (sucrose; 0.8 g kg BM −1 ) plus protein (whey protein hydrolysate; 0.8 g kg BM −1 ) supplement. Both treatments were divided into two boluses that were ingested immediately post-exercise and 1 h later. All supplements were provided in a sachet form and instructions for solution preparation were provided to participants to achieve a volume for ingestion of 10 mL kg BM −1  (8% solution). This precise amount of CHO was chosen to sufficiently refuel our participants. An example from one of our participants (male; 69 kg), running at 10.9 km h −1  (75%  \documentclass[12pt]{minimal}
+L131: 				\usepackage{amsmath}
+L132: 				\usepackage{wasysym} 
+L133: 				\usepackage{amsfonts} 
+L134: 				\usepackage{amssymb} 
+L135: 				\usepackage{amsbsy}
+L136: 				\usepackage{mathrsfs}
+L137: 				\usepackage{upgreek}
+L138: 				\setlength{\oddsidemargin}{-69pt}
+L139: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ) expends approximately 13.6 kcal min −1 . The oxidation of CHO would be approximately 1.78 g min −1 . This means that participant would oxidise 107 g CHO with a 60 min treadmill run at this given intensity. Thus, justifying why we provided a post-exercise recovery supplement in the CHO trial of 2 × 0.8 g kg BM −1  (total of ≈ 110 g). The amount of protein ingested (0.4 g kg BM −1  × 2 doses within an hour) is also on the upper range of what is required to maximally stimulate muscle protein synthesis. At that dose, any differences in anabolic responses between different protein types are diminished. Indeed, dietary protein intakes between 25 and 35 g per meal have been shown to maximally stimulate muscle protein synthesis in humans (Moore et al.  2015 ; Witard et al.  2014 ). For the above-mentioned reasons, the precise form of protein ingested (e.g. whey versus casein or soy) is not likely to be of huge importance in the context of this study. Nonetheless, plasma insulin response and branched-chain amino acids (BCAA) concentration increase to greater extent with ingestion of whey rather than casein in its intact form (Reitelseder et al.  2011 ). Moreover, the ingestion of whey protein hydrolysate exhibits larger circulatory increases in BCAA, essential amino acids than soy or casein protein in its isolated forms (Tang et al.  2009 ). An extension to these findings is that the ingestion of a protein hydrolysate (as used in this study) results in greater digestion and absorption compared with its intact protein, resulting in more rapid increase in circulating amino acid concentrations (Koopman et al.  2009 ). These findings are central to our choice of this protein source, given that increases in insulin and essential amino acids are potent modulators of plasma albumin (De Feo et al.  1992 ) and skeletal muscle protein synthesis (Fujita et al.  2007 ; Tipton et al.  1999 ), respectively.
+L140: In relation to the volume of fluid consumed, we used data obtained from a cohort of participants in our laboratory with similar characteristics (age 22 years; body mass 72.5 kg; exercise task: treadmill running at 70%  \documentclass[12pt]{minimal}
+L141: 				\usepackage{amsmath}
+L142: 				\usepackage{wasysym} 
+L143: 				\usepackage{amsfonts} 
+L144: 				\usepackage{amssymb} 
+L145: 				\usepackage{amsbsy}
+L146: 				\usepackage{mathrsfs}
+L147: 				\usepackage{upgreek}
+L148: 				\setlength{\oddsidemargin}{-69pt}
+L149: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ). The calculated sweat loss was 1.1 L; the sweat rate was 0.80 L h −1  (based on ad libitum water consumption, which was ≈ 0.4 L). Thus, the fluid provided post-exercise in this study was 2 × 10 mL kg BM −1  (i.e. ≈ 1.45 L), and so approximates 100–150% of body mass lost (1.1–1.65 L in this case), which falls within the fluid provided post-exercise in this study.
+L150: Participants in both groups were required not to consume any foods outside the prescribed supplements during the designated supplement provision periods (until 2 h immediately post-exercise). Adherence to supplement intake, time of ingestion and avoidance of any caloric intake outside the scope of the prescribed supplements were confirmed through a checklist, which was provided throughout the exercise training period for each participant. Full information concerning the nutritional treatments has been published previously with the registered protocol for this trial (Alghannam et al.  2014 ).
+L151: Baseline testing
+L152: Fig. 2 Schematic representation of the experimental protocol
+L153: Participants attended the laboratory on three separate occasions before commencing exercise training, and in two occasions post-intervention in accordance with the schematic representation illustrated in Fig.  2 . We chose two visits to distinguish between resting data collection (following 48 h lifestyle standardisation) and minimise any potential discomfort between, for example, running until volitional exhaustion ( \documentclass[12pt]{minimal}
+L154: 				\usepackage{amsmath}
+L155: 				\usepackage{wasysym} 
+L156: 				\usepackage{amsfonts} 
+L157: 				\usepackage{amssymb} 
+L158: 				\usepackage{amsbsy}
+L159: 				\usepackage{mathrsfs}
+L160: 				\usepackage{upgreek}
+L161: 				\setlength{\oddsidemargin}{-69pt}
+L162: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  testing) and taking a resting muscle biopsy sample. As our research question was not aimed at examining intra-muscular parameters during maximal exercise, we deemed it appropriate to minimise any discomfort by our participants by separating exhaustive exercise testing from resting measurements. The first visit included anthropometric assessment of stature (Wall-mounted Stadiometer, Seca, Hamburg, Germany) and body mass (Sliding Balance Scale Model 424, Weylux, UK), followed by a running economy (i.e.  \documentclass[12pt]{minimal}
+L163: 				\usepackage{amsmath}
+L164: 				\usepackage{wasysym} 
+L165: 				\usepackage{amsfonts} 
+L166: 				\usepackage{amssymb} 
+L167: 				\usepackage{amsbsy}
+L168: 				\usepackage{mathrsfs}
+L169: 				\usepackage{upgreek}
+L170: 				\setlength{\oddsidemargin}{-69pt}
+L171: 				\begin{document}$$\dot{V}{\text{O}}_{2}$$\end{document} V ˙ O 2  km −1 ) and  \documentclass[12pt]{minimal}
+L172: 				\usepackage{amsmath}
+L173: 				\usepackage{wasysym} 
+L174: 				\usepackage{amsfonts} 
+L175: 				\usepackage{amssymb} 
+L176: 				\usepackage{amsbsy}
+L177: 				\usepackage{mathrsfs}
+L178: 				\usepackage{upgreek}
+L179: 				\setlength{\oddsidemargin}{-69pt}
+L180: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  test (Taylor et al.  1955 ) performed on a motorised treadmill (Ergo ELG70, Woodway, Weil am Rhein, Germany). The data acquired from these tests were subsequently used to calculate the treadmill speeds used during the trial procedures (i.e. speeds that elicit 60, 70 and 75%  \documentclass[12pt]{minimal}
+L181: 				\usepackage{amsmath}
+L182: 				\usepackage{wasysym} 
+L183: 				\usepackage{amsfonts} 
+L184: 				\usepackage{amssymb} 
+L185: 				\usepackage{amsbsy}
+L186: 				\usepackage{mathrsfs}
+L187: 				\usepackage{upgreek}
+L188: 				\setlength{\oddsidemargin}{-69pt}
+L189: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ) by linear regression (Excel 2010, Microsoft, Redmond, WA, USA). Ambient temperature, humidity and barometric pressure were monitored and recorded throughout the trials using a portable weather station (WS 6730; Technoline, Germany). The latter were used to record atmospheric pressure to allow for corrections to standard volumes during expired gas analysis. Fig. 2 Schematic representation of the experimental protocol
+L190: The second pre-intervention visit was arranged within 7 days following the first, which was preceded by a 48 h standardisation of lifestyle (detailed below). Upon waking-up and prior to arrival at the laboratory, participants ingested 500 mL of water. Participants arrived at the laboratory at 08:00 ± 1 h following an overnight fast (≥ 10 h). A urine sample was collected on arrival to assess hydration via freezing point depression method using a cryoscopic osmometer (Advanced Instruments, Inc, Norwood, MA, USA), where adequate hydration was assumed for osmolality values ≤ 900 mOsm kg −1  (Shirreffs and Maughan  1998 ). Post-void nude body mass was measured (Weylux 424, Fereday & Sons Ltd., UK) before body fat percentage was determined using Bioelectrical Impedance Analysis (BIA; BC-543, Tanita, Tokyo, Japan). Thereafter, participants rested in a semi-supine medical bed for 5 min before expired gas samples (2 × 5-min Douglas bag collections) were taken to measure resting metabolic rate (RMR) along with resting heart rate via short-range telemetry (Polar FT2, Kempele, Finland) recorded at the final min of the expired gas collection period. Participants then remained in this semi-supine position in the medical bed while a 10 mL venous blood sample was then drawn through venepuncture (BD vacutainer, Plymouth, UK) from an antecubital vein. A 3–5-mm skin incision was then made from the lateral portion of the thigh ( vastus lateralis ) and an 80–100 mg muscle tissue sample was obtained using the needle biopsy technique under local anaesthetic (1% lidocaine; Hameln Pharmaceuticals Ltd., Brockworth, UK). Muscle biopsy samples were taken from the same leg at baseline and follow-up and separated by 2–3 cm, with the use of dominant/non-dominant legs counterbalanced between participants.
+L191: Following the two preliminary visits, participants performed two 30-min runs at 70%  \documentclass[12pt]{minimal}
+L192: 				\usepackage{amsmath}
+L193: 				\usepackage{wasysym} 
+L194: 				\usepackage{amsfonts} 
+L195: 				\usepackage{amssymb} 
+L196: 				\usepackage{amsbsy}
+L197: 				\usepackage{mathrsfs}
+L198: 				\usepackage{upgreek}
+L199: 				\setlength{\oddsidemargin}{-69pt}
+L200: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  on a motorised treadmill (Ergo ELG70, Woodway, Weil am Rhein, Germany). This was intended to familiarise participants with the mode of exercise and verify the calculated relative intensity required during their prescribed exercise training.
+L201: Exercise training
+L202: Participants underwent 6 weeks of progressive treadmill-based endurance exercise training. The duration of the entire protocol was 8 weeks and comprised (1) a baseline testing week with two exercise sessions; (2) the first, second and third weeks of exercise training at 70%  \documentclass[12pt]{minimal}
+L203: 				\usepackage{amsmath}
+L204: 				\usepackage{wasysym} 
+L205: 				\usepackage{amsfonts} 
+L206: 				\usepackage{amssymb} 
+L207: 				\usepackage{amsbsy}
+L208: 				\usepackage{mathrsfs}
+L209: 				\usepackage{upgreek}
+L210: 				\setlength{\oddsidemargin}{-69pt}
+L211: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ; (iii) the fourth, fifth and sixth weeks of exercise training at 75%  \documentclass[12pt]{minimal}
+L212: 				\usepackage{amsmath}
+L213: 				\usepackage{wasysym} 
+L214: 				\usepackage{amsfonts} 
+L215: 				\usepackage{amssymb} 
+L216: 				\usepackage{amsbsy}
+L217: 				\usepackage{mathrsfs}
+L218: 				\usepackage{upgreek}
+L219: 				\setlength{\oddsidemargin}{-69pt}
+L220: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ; and (4) a final week for follow-up testing. The duration of exercise sessions was progressively increased to 40, 50 and 60 min in week 1, weeks 2–3, and weeks 4–6 of the exercise training schedule, respectively. A 5-min warm-up at 60%  \documentclass[12pt]{minimal}
+L221: 				\usepackage{amsmath}
+L222: 				\usepackage{wasysym} 
+L223: 				\usepackage{amsfonts} 
+L224: 				\usepackage{amssymb} 
+L225: 				\usepackage{amsbsy}
+L226: 				\usepackage{mathrsfs}
+L227: 				\usepackage{upgreek}
+L228: 				\setlength{\oddsidemargin}{-69pt}
+L229: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  preceded each exercise session, followed by treadmill running at a speed corresponding to 70%  \documentclass[12pt]{minimal}
+L230: 				\usepackage{amsmath}
+L231: 				\usepackage{wasysym} 
+L232: 				\usepackage{amsfonts} 
+L233: 				\usepackage{amssymb} 
+L234: 				\usepackage{amsbsy}
+L235: 				\usepackage{mathrsfs}
+L236: 				\usepackage{upgreek}
+L237: 				\setlength{\oddsidemargin}{-69pt}
+L238: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max . During the midpoint (training week 3), the speed was increased to elicit 75%  \documentclass[12pt]{minimal}
+L239: 				\usepackage{amsmath}
+L240: 				\usepackage{wasysym} 
+L241: 				\usepackage{amsfonts} 
+L242: 				\usepackage{amssymb} 
+L243: 				\usepackage{amsbsy}
+L244: 				\usepackage{mathrsfs}
+L245: 				\usepackage{upgreek}
+L246: 				\setlength{\oddsidemargin}{-69pt}
+L247: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max . Only water consumption was permitted during exercise sessions and this was consumed ad libitum. Once every fortnight, participants reported to the laboratory to be provided with the nutritional supplements for the subsequent 2-week exercise training block, with a total of three scheduled meetings throughout the exercise training.
+L248: Follow-up testing
+L249: The follow-up procedures after the exercise training were identical to the initial two pre-intervention visits. Measurements of running economy and  \documentclass[12pt]{minimal}
+L250: 				\usepackage{amsmath}
+L251: 				\usepackage{wasysym} 
+L252: 				\usepackage{amsfonts} 
+L253: 				\usepackage{amssymb} 
+L254: 				\usepackage{amsbsy}
+L255: 				\usepackage{mathrsfs}
+L256: 				\usepackage{upgreek}
+L257: 				\setlength{\oddsidemargin}{-69pt}
+L258: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  were taken at least one and at most 2 days following the final exercise training session. This was then followed by a 48-h standardisation of lifestyle (detailed below) before obtaining any measurement pertaining to the second follow-up laboratory visit.
+L259: Expired gas sampling
+L260: The Douglas bag method using equipment (bags and respiratory valves) manufactured by Hans Rudolph (Shawnee, KS, USA) and supplied by Cranlea Human Performance Ltd (Birmingham, UK) was used for expired gas collection. The collected gas samples were analysed for relative expired fractions of oxygen and carbon dioxide using paramagnetic and infra-red analysers, respectively (Servomex, Crowborough, UK). The total volume of expired gas within the Douglas bag was subsequently measured by a dry gas meter (Harvard Apparatus, Kent, UK), with the temperature of expired gases being collected at the time of evacuation by a thermistor probe. Indirect calorimetry based on calculations (Frayn  1983 ) of oxygen consumption and carbon dioxide production from each bag was then used to obtain RMR in accordance with procedures recommended by The American Dietetic Association related for best practice in measuring RMR (Compher et al.  2006 ). The coefficient of variation for measurement of RMR in our laboratory using these procedures is 2.3%.
+L261: Blood sampling
+L262: Venous blood samples were dispensed into 2 × 5 mL EDTA-treated tubes (Sarstedt, Leicester, UK). The first of these tubes was immediately analysed for haemoglobin concentrations (Sysmex SF-3000 Sysmex Ltd., Wymbush, UK) and haematocrit ratio (Hawksley, Lancing, UK). Mean corpuscular haemoglobin concentration was calculated by dividing haemoglobin concentration by haematocrit ratio. The remaining EDTA-treated blood was then centrifuged at 2000 ×  g  for 10 min at 4 °C (Heraeus Primo R; Thermo Fisher Scientific, Loughborough, UK) for plasma extraction, then stored at − 80 °C for later analysis of plasma albumin concentration using an automated spectrophotometric analyser (RX Daytona, Randox, Crumlin, Ireland).
+L263: Muscle tissue sample processing
+L264: Once removed from the  vastus lateralis , each muscle sample was immediately immersed in liquid nitrogen and stored at − 80 °C pending analysis. Samples were then defrosted and transferred into an RNase-free conical tube (Corning, Ewloe, UK) containing 2 mL of Trizol (Invitrogen, Paisley, UK) and centrifuged at 4000 ×  g  for 60 s at 4 °C before 400 µL of chloroform was added to the mixture. After shaking the mixture vigorously for 15 s, samples were incubated at room temperature for 3 min and then centrifuged at 4000 ×  g  for 15 min at 4 °C. The aqueous phase was removed to a fresh conical tube and used for gene expression. The aqueous phase was mixed with 1500 µL of 100% ethanol before being loaded in an RNeasy mini column (Qiagen, Manchester, UK). Thereafter, the RNA was eluted using 25 μL of RNase-free water and 2 μL was then utilised for RNA quantitation using spectrophotometry (Spectrostar Nano, BMG Labtech, Ortenberg, Germany), with 400 ng of total RNA reverse transcribed using cDNA reverse transcription kit (Superscript III, Invitrogen, Paisley, UK).
+L265: Quantitative real-time PCR
+L266: Taqman low-density custom array using Micro Fluidic cards (Applied Biosystems, Warrington, UK) was used for the relative quantification of expression of selected metabolic genes as previously described (Tsintzas et al.  2013 ). Each card allowed eight samples to be run in parallel against Taqman gene expression assay targets that were pre-loaded into each of the wells on the card. Briefly, 50 μL of Taqman Universal PCR master mix (Applied Biosystems, Warrington, UK) was added to 200 ng of cDNA in an Eppendorf RNAse-free tube. RNAse-free water was added to make the total volume of the reaction mixture up to 100 μL. The reaction mixture was mixed, centrifuged and loaded into one of the fill reservoir of the Micro Fluidic card. The cards were centrifuged (MULTIFUGE 3 SR; Heraeus, Thermo Fisher Scientific, Loughborough, UK) and run on a 7900HT Fast Real-Time PCR System (Applied Biosystems, Warrington, UK). Relative quantification of the genes of interest was performed using the comparative CT method. The average expression of two housekeeping genes [actin, alpha 1 (ACTA1) and hydroxymethylbilanesynthase (HMBS)] was used to normalise the data.
+L267: Standardisation of lifestyle
+L268: Participants were asked to maintain their habitual dietary energy intake and activity levels (i.e. no substantial changes in caloric intake, dietary habits or physical activity levels outside the scope of the prescribed supplements and training sessions) over the course of the experiment. A weighed dietary record and an exercise activity log were completed by participants for 48 h before baseline testing and replicated prior to follow-up testing. These dietary records were analysed using nutritional analysis software (Nutritics LTD, Dublin, Ireland) and there were no differences between the CHO (mean ± SD; 10,092 ± 2117 kJ day −1 ; 51 ± 7% carbohydrate; 30 ± 8% fat; 19 ± 5% protein) and CHO-P (9699 ± 2448 kJ day −1 ; 51 ± 7% carbohydrate; 32 ± 7% fat; 17 ± 2% protein) groups. Participants also abstained from alcohol consumption and refrained from strenuous physical activity, with any light exercise recorded and matched during the 48-h period of standardisation of lifestyle for follow-up testing. Three 3-day dietary records were collected and analysed from participants at different intervals during the 6 weeks of exercise training, to provide a reflection of dietary intake habits between groups over the exercise training period.
+L269: Participants were instructed not to participate in any other structured exercise session over the period of the experiment and to ingest a meal (breakfast or lunch depending on the time of day) approximately 2 h prior to any exercise session and thereafter abstain from any caloric intake prior to the commencement of the training session. Moreover, an exercise log was provided to each participant to record the relevant information relating to each exercise session (e.g. time of day and total duration of session), which was then verified by an electronic monitoring system that requires participants to use a key card to enter and leave the gymnasium. The exercise logs were collected and cross-examined with the electronic monitoring system to verify adherence for each exercise session attendance, date and duration.
+L270: Statistical analysis
+L271: Independent effects of treatment group (CHO vs CHO-P) and time (baseline vs follow-up) and interaction effects (group × time) were explored using a two-way linear mixed model with repeated measures on the time variable. Any data that require a single comparison of two means were assessed for normality using the Shapiro–Wilk test before using an independent  t  test or non-parametric equivalent (Mann–Whitney) to examine differences between treatment arms (e.g. magnitude of change in  \documentclass[12pt]{minimal}
+L272: 				\usepackage{amsmath}
+L273: 				\usepackage{wasysym} 
+L274: 				\usepackage{amsfonts} 
+L275: 				\usepackage{amssymb} 
+L276: 				\usepackage{amsbsy}
+L277: 				\usepackage{mathrsfs}
+L278: 				\usepackage{upgreek}
+L279: 				\setlength{\oddsidemargin}{-69pt}
+L280: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  between treatments). A priori sample size estimation (G*power version 3.1.7, University Düsseldorf, Düsseldorf, Germany) was performed using previous cycling-based post-exercise nutrition and endurance training data (Ferguson-Stegall et al.  2011 ) and revealed that a total of 24 participants were required to achieve 80% power to detect a worthwhile increase in endurance capacity (i.e.  \documentclass[12pt]{minimal}
+L281: 				\usepackage{amsmath}
+L282: 				\usepackage{wasysym} 
+L283: 				\usepackage{amsfonts} 
+L284: 				\usepackage{amssymb} 
+L285: 				\usepackage{amsbsy}
+L286: 				\usepackage{mathrsfs}
+L287: 				\usepackage{upgreek}
+L288: 				\setlength{\oddsidemargin}{-69pt}
+L289: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max ) of 5.3 mL kg −1  when ingesting carbohydrate–protein supplements vs a carbohydrate supplement, with a standard deviation of 3.3 mL kg −1  using a two-tailed  t  test at an alpha level of 0.05. Rolling recruitment of ≈ 30 participants was, therefore, conducted in consideration of an anticipated 15% dropout rate (Alghannam et al.  2014 ). Significance was set at  p  ≤ 0.05 and data are reported as the mean ± standard deviation (SD) unless stated otherwise.
+L290: Results
+L291: Participant characteristics
+L292: No group × time interactions were identified in any participant characteristics shown in Table  1  between groups. Moreover, no changes occurred from baseline to follow-up in anthropometric measures in either group. Resting and maximal heart rates were reduced following exercise training in both treatments ( p  < 0.01), with no difference in these responses between groups. Assessments of baseline resting metabolic rate were closely matched between the CHO-P and CHO groups (Table  1 ) and were stable within ≈ 155 kJ day −1  from baseline to follow-up, with no notable differences between groups at follow-up (243 kJ day −1 ). Similarly, the hydration status of participants assessed via urine osmolality measurements was similar across groups, with no differences between groups at baseline or follow-up.
+L293: Dietary analysis
+L294: Dietary intake estimated by 3 × 3-day dietary records during exercise training did not reveal any differences between groups: CHO-P 9.3 ± 2.5 MJ day −1 ; 47 ± 6% carbohydrate; 30 ± 4% fat; 20 ± 5% protein; and CHO 9.9 ± 3.0 MJ day −1 ; 51 ± 6% carbohydrate; 29 ± 5% fat; 17 ± 2% protein (mean ± SD), excluding the intake of nutritional supplements, which were isocaloric. Overall, the dietary intake excluding supplementation was not different during exercise training and the 48-h baseline dietary records.
+L295: Total energy intake with supplementation was 12.0 ± 2.9 MJ day −1  (62 ± 5% carbohydrate; 24 ± 4% fat; 14 ± 1% protein) in the CHO group and 11.4 ± 2.5 MJ day −1  (50 ± 5% carbohydrate; 25 ± 4% fat; 25 ± 5% protein) in the CHO-P group. Macronutrient intake relative to body mass was 6.1 ± 1.3 g carbohydrate kg BM −1  day −1 ; 1.1 ± 0.4 g fat kg BM −1  day −1 ; 1.4 ± 0.3 g protein kg BM −1  day −1  in the CHO group and 4.6 ± 1.1 g carbohydrate kg BM −1  day −1 ; 1.1 ± 0.4 g fat kg BM −1  day −1 ; 2.3 ± 0.5 g protein kg BM −1  day −1  in CHO-P group. Thus, relative daily carbohydrate intake was higher in the CHO group ( p  = 0.016) and the amount of protein ingested was higher in the CHO-P group ( p  < 0.001).
+L296: Maximal oxygen uptake
+L297: Fig. 3 Maximal oxygen uptake ( \documentclass[12pt]{minimal}
+L298: 				\usepackage{amsmath}
+L299: 				\usepackage{wasysym} 
+L300: 				\usepackage{amsfonts} 
+L301: 				\usepackage{amssymb} 
+L302: 				\usepackage{amsbsy}
+L303: 				\usepackage{mathrsfs}
+L304: 				\usepackage{upgreek}
+L305: 				\setlength{\oddsidemargin}{-69pt}
+L306: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max )in CHO ( n  = 12; red coloured) and CHO-P ( n  = 13; blue coloured) groups. The open symbols represent individual scores; the horizontal and vertical lines represent mean ± standard deviation, respectively.  a  Absolute  \documentclass[12pt]{minimal}
+L307: 				\usepackage{amsmath}
+L308: 				\usepackage{wasysym} 
+L309: 				\usepackage{amsfonts} 
+L310: 				\usepackage{amssymb} 
+L311: 				\usepackage{amsbsy}
+L312: 				\usepackage{mathrsfs}
+L313: 				\usepackage{upgreek}
+L314: 				\setlength{\oddsidemargin}{-69pt}
+L315: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  scores in L min −1  from baseline to follow-up in both groups;  b  change in  \documentclass[12pt]{minimal}
+L316: 				\usepackage{amsmath}
+L317: 				\usepackage{wasysym} 
+L318: 				\usepackage{amsfonts} 
+L319: 				\usepackage{amssymb} 
+L320: 				\usepackage{amsbsy}
+L321: 				\usepackage{mathrsfs}
+L322: 				\usepackage{upgreek}
+L323: 				\setlength{\oddsidemargin}{-69pt}
+L324: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in L min −1  from baseline to follow-up for both groups;  c  relative  \documentclass[12pt]{minimal}
+L325: 				\usepackage{amsmath}
+L326: 				\usepackage{wasysym} 
+L327: 				\usepackage{amsfonts} 
+L328: 				\usepackage{amssymb} 
+L329: 				\usepackage{amsbsy}
+L330: 				\usepackage{mathrsfs}
+L331: 				\usepackage{upgreek}
+L332: 				\setlength{\oddsidemargin}{-69pt}
+L333: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  scores in mL kg −1  min −1  from baseline to follow-up in both groups;  d  change in  \documentclass[12pt]{minimal}
+L334: 				\usepackage{amsmath}
+L335: 				\usepackage{wasysym} 
+L336: 				\usepackage{amsfonts} 
+L337: 				\usepackage{amssymb} 
+L338: 				\usepackage{amsbsy}
+L339: 				\usepackage{mathrsfs}
+L340: 				\usepackage{upgreek}
+L341: 				\setlength{\oddsidemargin}{-69pt}
+L342: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in mL kg −1  min −1  from baseline to follow-up in both groups. *Significant main effect of time compared with baseline ( p  < 0.01).  CHO  carbohydrate,  CHO-P  carbohydrate–protein
+L343: Absolute and relative  \documentclass[12pt]{minimal}
+L344: 				\usepackage{amsmath}
+L345: 				\usepackage{wasysym} 
+L346: 				\usepackage{amsfonts} 
+L347: 				\usepackage{amssymb} 
+L348: 				\usepackage{amsbsy}
+L349: 				\usepackage{mathrsfs}
+L350: 				\usepackage{upgreek}
+L351: 				\setlength{\oddsidemargin}{-69pt}
+L352: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  of the study population improved in response to 6 weeks of treadmill running by 0.2 ± 0.2 L min −1  and 3.0 ± 2 mL kg −1  min −1  ( p  < 0.001). The magnitude of improvement from baseline to follow-up in both absolute and relative  \documentclass[12pt]{minimal}
+L353: 				\usepackage{amsmath}
+L354: 				\usepackage{wasysym} 
+L355: 				\usepackage{amsfonts} 
+L356: 				\usepackage{amssymb} 
+L357: 				\usepackage{amsbsy}
+L358: 				\usepackage{mathrsfs}
+L359: 				\usepackage{upgreek}
+L360: 				\setlength{\oddsidemargin}{-69pt}
+L361: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  was not different between groups (Fig.  3 ), with improvements from baseline of 5.3 ± 4% and 5.3 ± 4% in CHO-P and CHO treatments, respectively. The change in both absolute and relative  \documentclass[12pt]{minimal}
+L362: 				\usepackage{amsmath}
+L363: 				\usepackage{wasysym} 
+L364: 				\usepackage{amsfonts} 
+L365: 				\usepackage{amssymb} 
+L366: 				\usepackage{amsbsy}
+L367: 				\usepackage{mathrsfs}
+L368: 				\usepackage{upgreek}
+L369: 				\setlength{\oddsidemargin}{-69pt}
+L370: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  was not different between groups, as reflected by no group × time interactions ( p  > 0.05; Fig.  3 ). Fig. 3 Maximal oxygen uptake ( \documentclass[12pt]{minimal}
+L371: 				\usepackage{amsmath}
+L372: 				\usepackage{wasysym} 
+L373: 				\usepackage{amsfonts} 
+L374: 				\usepackage{amssymb} 
+L375: 				\usepackage{amsbsy}
+L376: 				\usepackage{mathrsfs}
+L377: 				\usepackage{upgreek}
+L378: 				\setlength{\oddsidemargin}{-69pt}
+L379: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max )in CHO ( n  = 12; red coloured) and CHO-P ( n  = 13; blue coloured) groups. The open symbols represent individual scores; the horizontal and vertical lines represent mean ± standard deviation, respectively.  a  Absolute  \documentclass[12pt]{minimal}
+L380: 				\usepackage{amsmath}
+L381: 				\usepackage{wasysym} 
+L382: 				\usepackage{amsfonts} 
+L383: 				\usepackage{amssymb} 
+L384: 				\usepackage{amsbsy}
+L385: 				\usepackage{mathrsfs}
+L386: 				\usepackage{upgreek}
+L387: 				\setlength{\oddsidemargin}{-69pt}
+L388: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  scores in L min −1  from baseline to follow-up in both groups;  b  change in  \documentclass[12pt]{minimal}
+L389: 				\usepackage{amsmath}
+L390: 				\usepackage{wasysym} 
+L391: 				\usepackage{amsfonts} 
+L392: 				\usepackage{amssymb} 
+L393: 				\usepackage{amsbsy}
+L394: 				\usepackage{mathrsfs}
+L395: 				\usepackage{upgreek}
+L396: 				\setlength{\oddsidemargin}{-69pt}
+L397: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in L min −1  from baseline to follow-up for both groups;  c  relative  \documentclass[12pt]{minimal}
+L398: 				\usepackage{amsmath}
+L399: 				\usepackage{wasysym} 
+L400: 				\usepackage{amsfonts} 
+L401: 				\usepackage{amssymb} 
+L402: 				\usepackage{amsbsy}
+L403: 				\usepackage{mathrsfs}
+L404: 				\usepackage{upgreek}
+L405: 				\setlength{\oddsidemargin}{-69pt}
+L406: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  scores in mL kg −1  min −1  from baseline to follow-up in both groups;  d  change in  \documentclass[12pt]{minimal}
+L407: 				\usepackage{amsmath}
+L408: 				\usepackage{wasysym} 
+L409: 				\usepackage{amsfonts} 
+L410: 				\usepackage{amssymb} 
+L411: 				\usepackage{amsbsy}
+L412: 				\usepackage{mathrsfs}
+L413: 				\usepackage{upgreek}
+L414: 				\setlength{\oddsidemargin}{-69pt}
+L415: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in mL kg −1  min −1  from baseline to follow-up in both groups. *Significant main effect of time compared with baseline ( p  < 0.01).  CHO  carbohydrate,  CHO-P  carbohydrate–protein
+L416: Plasma volume and blood constituents
+L417: Fig. 4 Haematological parameters collected during the study in CHO ( n  = 12; red coloured) and CHO-P ( n  = 13; blue coloured) groups. The open symbols represent individual scores; the horizontal and vertical lines represent mean ± standard deviation, respectively.  a  Plasma albumin concentrations in g dL −1  from baseline to follow-up in both groups;  b  haemoglobin concentrations in g dL −1  from baseline to follow-up in both groups;  c  haematocrit ratio (%) from baseline to follow-up in both groups. *Significant main effect of time compared with baseline ( p  < 0.01).  CHO  carbohydrate,  CHO-P  carbohydrate–protein
+L418: No group × time interaction was observed in plasma albumin concentration ( F  = 1.5;  p  = 0.23; Fig.  4 ). Haemoglobin concentration tended to be lower (− 2.7%) following exercise training in CHO-P group (time:  p  = 0.09; Fig.  4 ) with no group × time interaction ( F  = 1.99;  p  = 0.17). Haematocrit ratio was 3.1% lower following exercise training in the CHO-P group (time:  p  = 0.01; Fig.  4 ), and no group × time interaction ( F  = 1.6;  p  = 0.20). Mean corpuscular haemoglobin concentration did not change from baseline to follow-up (time:  p  = 0.23) in either the CHO group (34.0 ± 0.8 to 34.6 ± 1.9 g dL −1 ) or the CHO-P group (34.8 ± 1.1 to 34.9 ± 1.0 g dL −1 ), again with no group × time interaction ( F  = 0.68;  p  = 0.42). Fig. 4 Haematological parameters collected during the study in CHO ( n  = 12; red coloured) and CHO-P ( n  = 13; blue coloured) groups. The open symbols represent individual scores; the horizontal and vertical lines represent mean ± standard deviation, respectively.  a  Plasma albumin concentrations in g dL −1  from baseline to follow-up in both groups;  b  haemoglobin concentrations in g dL −1  from baseline to follow-up in both groups;  c  haematocrit ratio (%) from baseline to follow-up in both groups. *Significant main effect of time compared with baseline ( p  < 0.01).  CHO  carbohydrate,  CHO-P  carbohydrate–protein
+L419: Intramuscular parameters
+L420: Fig. 5 Relative gene expression represented as fold change from baseline for several key genes related to mitochondrial biogenesis, muscle protein synthesis and carbohydrate/lipid metabolism. Values are mean ± SD. * p  < 0.05 baseline vs follow-up.  FOXO3  forkhead box O3,  FABP3  fatty-acid binding protein 3,  GLUT4  glucose transporter protein 4,  HKII  hexokinase II,  PDK4  pyruvate dehydrogenase kinase 4,  PPARg  peroxisome proliferator-activated receptor gamma,  PGC1-a  peroxisome proliferator-activated receptor gamma coactivator 1-alpha,  TFAM  mitochondrial transcription factor A,  P53  tumour suppressor p53,  PPARd  peroxisome proliferator-activated receptor delta,  SIRT1  NAD-dependent deacetylase sirtuin-1,  SIRT3  NAD-dependent deacetylase sirtuin-3,  CS  citrate synthase,  p38MAPK  P38 mitogen-activated protein kinase,  ERK1  mitogen-activated protein kinase 3,  ERK2  mitogen-activated protein kinase 1,  AKT1  AKT serine/threonine kinase 1,  EIF4EBP1  eukaryotic translation initiation factor 4E binding protein 1,  mTOR  mechanistic target of rapamycin,  RPS6  ribosomal protein S6
+L421: Figure  5  illustrates the change in skeletal muscle expression of key genes in related to endurance training adaptation in CHO-P ( n  = 8) and CHO ( n  = 7). The overall expression of mechanistic target of rapamycin (mTOR) was up-regulated in response to training (+ 27%;  p  = 0.05). The expression of mechanistic target of rapamycin (mTOR) was up-regulated from baseline to follow-up only the CHO-P group (+ 46%;  p  = 0.03). Mitochondrial transcription factor A (TFAM) gene expression was up-regulated in CHO-P group (26%) when compared with CHO (13%), albeit this did not reach statistical significance ( p  = 0.07). No differences in the change in expression of other measured metabolic genes (Fig.  5 ) were observed between CHO-P and CHO treatments ( p  > 0.05). Fig. 5 Relative gene expression represented as fold change from baseline for several key genes related to mitochondrial biogenesis, muscle protein synthesis and carbohydrate/lipid metabolism. Values are mean ± SD. * p  < 0.05 baseline vs follow-up.  FOXO3  forkhead box O3,  FABP3  fatty-acid binding protein 3,  GLUT4  glucose transporter protein 4,  HKII  hexokinase II,  PDK4  pyruvate dehydrogenase kinase 4,  PPARg  peroxisome proliferator-activated receptor gamma,  PGC1-a  peroxisome proliferator-activated receptor gamma coactivator 1-alpha,  TFAM  mitochondrial transcription factor A,  P53  tumour suppressor p53,  PPARd  peroxisome proliferator-activated receptor delta,  SIRT1  NAD-dependent deacetylase sirtuin-1,  SIRT3  NAD-dependent deacetylase sirtuin-3,  CS  citrate synthase,  p38MAPK  P38 mitogen-activated protein kinase,  ERK1  mitogen-activated protein kinase 3,  ERK2  mitogen-activated protein kinase 1,  AKT1  AKT serine/threonine kinase 1,  EIF4EBP1  eukaryotic translation initiation factor 4E binding protein 1,  mTOR  mechanistic target of rapamycin,  RPS6  ribosomal protein S6
+L422: Discussion
+L423: We report that completing 6 weeks of regular treadmill running was sufficient to increase  \documentclass[12pt]{minimal}
+L424: 				\usepackage{amsmath}
+L425: 				\usepackage{wasysym} 
+L426: 				\usepackage{amsfonts} 
+L427: 				\usepackage{amssymb} 
+L428: 				\usepackage{amsbsy}
+L429: 				\usepackage{mathrsfs}
+L430: 				\usepackage{upgreek}
+L431: 				\setlength{\oddsidemargin}{-69pt}
+L432: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  but there were no differences in the magnitude of this improvement between the two treatment arms. However, post-exercise carbohydrate–protein co-ingestion up-regulated the expression of mTOR in skeletal muscle following training relative to an energy-matched post-exercise carbohydrate-only solution.
+L433: The magnitude of improvements in  \documentclass[12pt]{minimal}
+L434: 				\usepackage{amsmath}
+L435: 				\usepackage{wasysym} 
+L436: 				\usepackage{amsfonts} 
+L437: 				\usepackage{amssymb} 
+L438: 				\usepackage{amsbsy}
+L439: 				\usepackage{mathrsfs}
+L440: 				\usepackage{upgreek}
+L441: 				\setlength{\oddsidemargin}{-69pt}
+L442: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in response to endurance training in the present study is in line with others (Egan et al.  2013 ; Fritzen et al.  2019 ; Hoppeler et al.  1985 ; Milanovic et al.  2015 ). We did not find protein-mediated improvements in  \documentclass[12pt]{minimal}
+L443: 				\usepackage{amsmath}
+L444: 				\usepackage{wasysym} 
+L445: 				\usepackage{amsfonts} 
+L446: 				\usepackage{amssymb} 
+L447: 				\usepackage{amsbsy}
+L448: 				\usepackage{mathrsfs}
+L449: 				\usepackage{upgreek}
+L450: 				\setlength{\oddsidemargin}{-69pt}
+L451: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in the present study; concurrent with some (Jonvik et al.  2019 ; Okazaki et al.  2009 ), but not all (Ferguson-Stegall et al.  2011 ; Knuiman et al.  2019 ; Robinson et al.  2011 ) investigations. The magnitude of  \documentclass[12pt]{minimal}
+L452: 				\usepackage{amsmath}
+L453: 				\usepackage{wasysym} 
+L454: 				\usepackage{amsfonts} 
+L455: 				\usepackage{amssymb} 
+L456: 				\usepackage{amsbsy}
+L457: 				\usepackage{mathrsfs}
+L458: 				\usepackage{upgreek}
+L459: 				\setlength{\oddsidemargin}{-69pt}
+L460: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  response depends on other factors than the intensity and frequency of training including: genetic predisposition, initial fitness status, age and testing modality (Basset and Boulay  2000 ; Bouchard et al.  1999 ; Bouchard and Rankinen  2001 ; Caputo et al.  2003 ; Jones and Carter  2000 ). The baseline  \documentclass[12pt]{minimal}
+L461: 				\usepackage{amsmath}
+L462: 				\usepackage{wasysym} 
+L463: 				\usepackage{amsfonts} 
+L464: 				\usepackage{amssymb} 
+L465: 				\usepackage{amsbsy}
+L466: 				\usepackage{mathrsfs}
+L467: 				\usepackage{upgreek}
+L468: 				\setlength{\oddsidemargin}{-69pt}
+L469: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in our cohort was 9–50% higher when compared with other studies, suggesting diminishing gains in this parameter with endurance exercise training compared with lower baseline  \documentclass[12pt]{minimal}
+L470: 				\usepackage{amsmath}
+L471: 				\usepackage{wasysym} 
+L472: 				\usepackage{amsfonts} 
+L473: 				\usepackage{amssymb} 
+L474: 				\usepackage{amsbsy}
+L475: 				\usepackage{mathrsfs}
+L476: 				\usepackage{upgreek}
+L477: 				\setlength{\oddsidemargin}{-69pt}
+L478: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  scores (Bouchard and Rankinen  2001 ), particularly when considering the greater magnitude of improvement in  \documentclass[12pt]{minimal}
+L479: 				\usepackage{amsmath}
+L480: 				\usepackage{wasysym} 
+L481: 				\usepackage{amsfonts} 
+L482: 				\usepackage{amssymb} 
+L483: 				\usepackage{amsbsy}
+L484: 				\usepackage{mathrsfs}
+L485: 				\usepackage{upgreek}
+L486: 				\setlength{\oddsidemargin}{-69pt}
+L487: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in untrained young (Ferguson-Stegall et al.  2011 ) and sedentary older individuals (Robinson et al.  2011 ) with endurance training and post-exercise protein ingestion. We measured  \documentclass[12pt]{minimal}
+L488: 				\usepackage{amsmath}
+L489: 				\usepackage{wasysym} 
+L490: 				\usepackage{amsfonts} 
+L491: 				\usepackage{amssymb} 
+L492: 				\usepackage{amsbsy}
+L493: 				\usepackage{mathrsfs}
+L494: 				\usepackage{upgreek}
+L495: 				\setlength{\oddsidemargin}{-69pt}
+L496: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  during treadmill running, which yields ≈ 10–15% higher scores than cycling (Caputo et al.  2003 ); a testing modality used by all others to determine  \documentclass[12pt]{minimal}
+L497: 				\usepackage{amsmath}
+L498: 				\usepackage{wasysym} 
+L499: 				\usepackage{amsfonts} 
+L500: 				\usepackage{amssymb} 
+L501: 				\usepackage{amsbsy}
+L502: 				\usepackage{mathrsfs}
+L503: 				\usepackage{upgreek}
+L504: 				\setlength{\oddsidemargin}{-69pt}
+L505: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  (Ferguson-Stegall et al.  2011 ; Jonvik et al.  2019 ; Knuiman et al.  2019 ; Okazaki et al.  2009 ; Robinson et al.  2011 ). It is reasonable to infer that  \documentclass[12pt]{minimal}
+L506: 				\usepackage{amsmath}
+L507: 				\usepackage{wasysym} 
+L508: 				\usepackage{amsfonts} 
+L509: 				\usepackage{amssymb} 
+L510: 				\usepackage{amsbsy}
+L511: 				\usepackage{mathrsfs}
+L512: 				\usepackage{upgreek}
+L513: 				\setlength{\oddsidemargin}{-69pt}
+L514: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  trainability is a single, inherently heterogenic indicator of endurance training adaptations, and other physiological parameters should supplement this measure to assess overall endurance capacity or performance (e.g. time to exhaustion or time trial performance testing).
+L515: Haematological adaptations with endurance exercise training play an important role in mediating improvements in  \documentclass[12pt]{minimal}
+L516: 				\usepackage{amsmath}
+L517: 				\usepackage{wasysym} 
+L518: 				\usepackage{amsfonts} 
+L519: 				\usepackage{amssymb} 
+L520: 				\usepackage{amsbsy}
+L521: 				\usepackage{mathrsfs}
+L522: 				\usepackage{upgreek}
+L523: 				\setlength{\oddsidemargin}{-69pt}
+L524: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  (Bonne et al.  2014 ; Montero et al.  2015 ; Schmidt and Prommer  2010 ). Changes in maximal cardiac output following 6 weeks of endurance training are ascribed to an expansion in blood volume (Bonne et al.  2014 ), and both plasma and erythrocyte volume expansions are implicated in this phenomenon (Sawka et al.  2000 ). Despite that we did not measure plasma and erythrocyte volumes in this experiment, there was a significant reduction (− 3.1%) in haematocrit in the CHO-P group. This has been observed in the previous literature in relation to high-intensity interval training and in that case was taken to reflect hypervolaemia (Eigendorf et al.  2018 ). However, the absence of such decreases in haematocrit in the CHO group does not rule out the possibility of similarly increased blood volume when carbohydrate was ingested without protein, especially considering that mean corpuscular haemoglobin concentration did not respond differently between treatments. Given that intramuscular markers of aerobic capacity do not appear to explain the observed increase in  \documentclass[12pt]{minimal}
+L525: 				\usepackage{amsmath}
+L526: 				\usepackage{wasysym} 
+L527: 				\usepackage{amsfonts} 
+L528: 				\usepackage{amssymb} 
+L529: 				\usepackage{amsbsy}
+L530: 				\usepackage{mathrsfs}
+L531: 				\usepackage{upgreek}
+L532: 				\setlength{\oddsidemargin}{-69pt}
+L533: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max , it seems reasonable to suggest that the training adaptation in both groups may be attributable to increased hypervolaemia. Hypervolemia is modulated by plasma protein content (Gillen et al.  1991 ), in particular plasma albumin (Convertino et al.  1980 ). Hepatically derived plasma protein synthesis is stimulated by the acute ingestion or infusion of amino acids (Caso et al.  2007 ; De Feo et al.  1992 ). Despite providing protein in amounts (0.4 g kg BM −1  h −1 ) sufficient to maximise albumin synthetic response (Moore et al.  2009 ), we did not observe a significant increase in plasma albumin concentration in the CHO-P group (Fig.  4 ). However, Okazaki et al. ( 2009 ) showed that post-exercise protein feeding with endurance exercise training improved plasma albumin content and stroke volume in older individuals (Okazaki et al.  2009 ), and this was supported by improved  \documentclass[12pt]{minimal}
+L534: 				\usepackage{amsmath}
+L535: 				\usepackage{wasysym} 
+L536: 				\usepackage{amsfonts} 
+L537: 				\usepackage{amssymb} 
+L538: 				\usepackage{amsbsy}
+L539: 				\usepackage{mathrsfs}
+L540: 				\usepackage{upgreek}
+L541: 				\setlength{\oddsidemargin}{-69pt}
+L542: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max  in a similar population (Robinson et al.  2011 ). Older individuals may not consume adequate daily amounts of protein (Landi et al.  2016 ); thus post-exercise protein ingestion enhanced albumin content compared with the placebo group (Okazaki et al.  2009 ). Dietary records from our study show that daily protein intake was adequate in both groups (2.3 g protein kg −1  day −1  vs 1.4 g protein kg −1  day −1  in CHO-P and CHO, respectively), which may explain the similarities in albumin concentrations between groups. Noteworthy is that we did not directly measure plasma volume to enable measurements of albumin content rather than concentration; an important implication given the possibility that hypervolemia may have occurred at a higher magnitude in CHO-P group. It remains possible that post-exercise protein feeding may accentuate haematologic and cardiovascular adaptation, and further investigations are required to clarify albumin-mediated effects with protein feeding on endurance training adaptations in healthy young individuals.
+L543: Mitochondrial biogenesis is an important adaptation to increase the oxidative capacity of the contracting muscle (Fritzen et al.  2019 ; Holloszy  1967 ; Perry et al.  2010 ), and requires a coordinated expression of nuclear genes encoding mitochondrial proteins and genes encoded in the mitochondrial genome (Holloszy  2008 ; Hood  2001 ). Transcription regulators (TFAM) and co-activators (PGC1-alpha) are important in regulating mitochondrial biogenesis and adaptation to endurance exercise (Olesen et al.  2010 ), and have been shown to increase with 2–8 weeks of endurance training (Egan et al.  2013 ; Popov et al.  2018 ). Translational expression of TFAM protein content is associated with its transient increases in mRNA expression after each exercise bout (Popov et al.  2018 ). Interestingly, we saw an up-regulation in the expression of TFAM mRNA following 6 weeks of endurance training with protein supplementation, although this was not statistically significant ( p  = 0.07). To our knowledge, only one study reported 2 weeks of post-exercise protein supplementation may enhance (PGC1-alpha) mRNA expression measured 6 h following an acute exercise bout (Hill et al.  2013 ). However, it is difficult to ascertain whether these effects were related to chronic or acute supplementation, given that these measurements followed acute post-exercise ingestion with varied macronutrient intakes (carbohydrate vs carbohydrate–protein). We provide additional insight into gene-specific temporal patterns of induction of mRNA expression of mitochondrial biogenesis in response to 6-week treadmill running and following 48 h of lifestyle standardisation to exclude any acute effects on transcriptional changes. Our data supports the notion of gene and time course specificity of the regulation of gene expression in response to exercise and nutrition. Thus, mitochondrial transcript level adjustment and subsequent protein content may require ≥ 6 weeks to detect measurable increases in mitochondrial content in response to endurance training (Hood  2001 ; Popov et al.  2018 ).
+L544: Protein intake after endurance exercise modulates signalling pathways involved in translation initiation and transcriptome implied in repair and remodelling of structural and contractile elements of skeletal muscle (Abou Sawan et al.  2018 ), which ultimately mediates important adaptive responses to endurance exercise (Hawley et al.  2011 ). A central cellular regulator of translation initiation and subsequent protein synthesis is the mechanistic target of rapamycin (mTOR), which is stimulated by both muscular contractions (Drummond et al.  2009 ) and protein feeding (Atherton and Smith  2012 ). mTOR translation initiation and protein content are up-regulated following both acute and chronic muscular contractions (Coffey et al.  2011 ; Edgett et al.  2013 ), possibly by a reduced myostatin-mediated activation of the mTOR pathway (Konopka and Harber  2014 ). mTOR also translocates to the cell periphery following endurance exercise, and this colocalisation is associated with an increase in myofibrillar muscle protein synthesis (Abou Sawan et al.  2018 ), sensitising it to receive amino acid substrates (Song et al.  2017 ). This regulatory process is important in regulating myofibrillar mRNA translation and subsequent protein synthesis in human skeletal muscle (Song et al.  2017 ). We observed an up-regulation in the expression of mTOR ( p  = 0.03) following endurance training in the CHO-P group, suggesting myofibrillar protein synthesis is primarily sensitive to nutrient provision (Abou Sawan et al.  2018 ). Considerable muscle hypertrophy occurs with endurance training (Konopka and Harber  2014 ) and post-exercise protein ingestion seems to accentuate this response (Knuiman et al.  2019 ). Ingesting protein following endurance exercise substantially elevates myofibrillar muscle protein synthesis (Abou Sawan et al.  2018 ; Rowlands et al.  2015 ). This may partly explain improvements in  \documentclass[12pt]{minimal}
+L545: 				\usepackage{amsmath}
+L546: 				\usepackage{wasysym} 
+L547: 				\usepackage{amsfonts} 
+L548: 				\usepackage{amssymb} 
+L549: 				\usepackage{amsbsy}
+L550: 				\usepackage{mathrsfs}
+L551: 				\usepackage{upgreek}
+L552: 				\setlength{\oddsidemargin}{-69pt}
+L553: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max , given its positive correlation with changes in lean body mass, at least in cycling (Knuiman et al.  2019 ). Although we did not see an accentuated improvement in  \documentclass[12pt]{minimal}
+L554: 				\usepackage{amsmath}
+L555: 				\usepackage{wasysym} 
+L556: 				\usepackage{amsfonts} 
+L557: 				\usepackage{amssymb} 
+L558: 				\usepackage{amsbsy}
+L559: 				\usepackage{mathrsfs}
+L560: 				\usepackage{upgreek}
+L561: 				\setlength{\oddsidemargin}{-69pt}
+L562: 				\begin{document}$$\dot{V}{\text{O}}_{2\max }$$\end{document} V ˙ O 2 max , the potential benefit of protein feeding in other adaptive responses to endurance training such as tissue repair remodelling would support its central role in post-exercise recovery nutrition.
+L563: We provided ≈ 30 g of whey protein post-exercise and 1 h later, sufficient to maximise muscle protein synthesis (Moore et al.  2009 ) and consequently drive adaptations to endurance training. Our protein feeding strategy provided greater amounts of daily protein intake than other studies showing that protein increases the magnitude of gains form endurance exercise training (Ferguson-Stegall et al.  2011 ; Knuiman et al.  2019 ; Robinson et al.  2011 ). Ingesting the protein supplement in the current study increased their daily protein intake to 2.3 g kg −1  day −1 , while it was 1.4 g kg −1  day −1  in the CHO group. The recommended daily protein intake for endurance activities falls within a range of 1.2–1.7 g kg −1  day −1  (Tarnopolsky  2004 ). Given that the non-protein supplemented group in our study met the aforementioned daily protein intakes, it can be argued that ingesting 1.4 g protein kg −1  day −1  is sufficient to meet the protein requirements to support endurance training in our cohort. Protein requirements are reflective of the endurance exercise volume (Moore et al.  2014 ), and the current evidence recommends protein intakes of 1.8–2.1 g kg −1  day −1  for endurance trained individuals (Bandegan et al.  2019 ; Kato et al.  2016 ). Our participants ran ≈ 40 km per week (5 h per week) in a moderate–high-intensity exercise, and it likely that daily protein recommended intake for such training frequency/volume is ≈ 1.8 g kg −1  day −1  (Kato et al.  2016 ), particularly when considering that previously untrained individuals may require more protein to optimise muscle protein synthesis and lean body mass accretion (Simmons et al.  2016 ). Despite the substantial increase in daily protein intake through protein supplementation in CHO-P group, no additional benefits occurred in cardiorespiratory fitness. The higher total daily protein intake in the CHO group may have potentially masked the effect of protein supplementation in our investigation.
+L564: To our knowledge, this is the first randomised double-blind controlled trial exploring the effect of post-exercise protein feeding on prolonged running-based endurance exercise training in healthy young individuals. The experiment was designed to isolate the effects of added protein; hence, the control was carbohydrate only matched for energy content, yet a group with no post-exercise supplementation at all would have answered additional research questions. Thus, it is not possible to directly assess the effect of training stimulus/nutrient intake per se on the outcome measures obtained, only the specific added effect of protein as per our hypothesis. In addition, whilst participants’ hydration status was controlled via standardised fluid intake prior to blood sampling (as verified by urine analysis) and posture was also fixed for all blood draws (15-min semi-supine rest), interpretation of the haematological parameters reported here should be balanced against the potential for small differences in hydration and/or body position to mask small treatment effects. Finally, the current experiment explored relative change in the basal expression of selected genes associated with endurance training adaptation, and thus the findings related to intra-muscular adaptive response to endurance training plus post-exercise supplementation are only limited within the context of this measure and at the basal time point. It is conceivable that the magnitude of increase in transcriptional and mitochondrial proteins may have been magnified between the experimental groups, and that changes in mRNA expression following each bout of exercise could have been missed. Nevertheless, the current approach allowed us to explore the chronic effect of endurance training on the basal expression of key genes. Therefore, any changes in basal expression are likely to persist for longer, thereby having the potential to meaningfully influence protein translation.
+L565: In conclusion, post-exercise carbohydrate–protein ingestion up-regulated muscle mTOR expression following 6 weeks of treadmill running training, compared to an isocaloric carbohydrate-only solution. While exercise training improved maximal oxygen uptake, the magnitude of this effect was not different with the inclusion of protein in a post-exercise carbohydrate solution when compared to an isocaloric carbohydrate-only supplement.
+L566: Abou Sawan S Translocation and protein complex co-localization of mTOR is associated with postprandial myofibrillar protein synthesis at rest and after endurance exercise Physiol Rep 2018 10.14814/phy2.13628 29512299
+L567: Alghannam AF Tsintzas K Thompson D Bilzon J Betts JA Post-Exercise Protein Trial: Interactions between Diet and Exercise (PEPTIDE): study protocol for randomized controlled trial Trials 2014 15 459 10.1186/1745-6215-15-459 25420552
+L568: Atherton PJ Smith K Muscle protein synthesis in response to nutrition and exercise J Physiol 2012 590 1049 1057 10.1113/jphysiol.2011.225003 22289911
+L569: Bandegan A Courtney-Martin G Rafii M Pencharz PB Lemon PWR Indicator amino acid oxidation protein requirement estimate in endurance-trained men 24 h postexercise exceeds both the EAR and current athlete guidelines Am J Physiol Endocrinol Metab 2019 316 E741 E748 10.1152/ajpendo.00174.2018 30779631
+L570: Basset FA Boulay MR Specificity of treadmill and cycle ergometer tests in triathletes, runners and cyclists Eur J Appl Physiol 2000 81 214 221 10.1007/s004210050033 10638380
+L571: Bonne TC Phlebotomy eliminates the maximal cardiac output response to 6 weeks of exercise training Am J Physiol Regul Integr Comp Physiol 2014 306 R752 R760 10.1152/ajpregu.00028.2014 24622974
+L572: Bouchard C Familial aggregation of  V O 2max  response to exercise training: results from the HERITAGE Family Study J Appl Physiol (1985) 1999 87 1003 1008 10.1152/jappl.1999.87.3.1003 10484570
+L573: Bouchard C Rankinen T Individual differences in response to regular physical activity Med Sci Sports Exerc 2001 33 S446 S451 10.1097/00005768-200106001-00013 11427769
+L574: Breen L The influence of carbohydrate–protein co-ingestion following endurance exercise on myofibrillar and mitochondrial protein synthesis J Physiol 2011 589 4011 4025 10.1113/jphysiol.2011.211888 21746787
+L575: Caputo F Mello MT Denadai BS Oxygen uptake kinetics and time to exhaustion in cycling and running: a comparison between trained and untrained subjects Arch Physiol Biochem 2003 111 461 466 10.3109/13813450312331342337 16026035
+L576: Caso G Response of albumin synthesis to oral nutrients in young and elderly subjects Am J Clin Nutr 2007 85 446 451 10.1093/ajcn/85.2.446 17284742
+L577: Coffey VG Nutrient provision increases signalling and protein synthesis in human skeletal muscle after repeated sprints Eur J Appl Physiol 2011 111 1473 1483 10.1007/s00421-010-1768-0 21165642
+L578: Compher C Frankenfield D Keim N Roth-Yousey L Evidence Analysis Working Group Best practice methods to apply to measurement of resting metabolic rate in adults: a systematic review J Am Diet Assoc 2006 106 881 903 10.1016/j.jada.2006.02.009 16720129
+L579: Convertino VA Brock PJ Keil LC Bernauer EM Greenleaf JE Exercise training-induced hypervolemia: role of plasma albumin, renin, and vasopressin J Appl Physiol Respir Environ Exerc Physiol 1980 48 665 669 6991463
+L580: De Feo P Horber FF Haymond MW Meal stimulation of albumin synthesis: a significant contributor to whole body protein synthesis in humans Am J Physiol 1992 263 E794 E799 10.1152/ajpcell.1992.263.4.C794 1415702
+L581: Drummond MJ Rapamycin administration in humans blocks the contraction-induced increase in skeletal muscle protein synthesis J Physiol 2009 587 1535 1546 10.1113/jphysiol.2008.163816 19188252
+L582: Edgett BA Fortner ML Bonen A Gurd BJ Mammalian target of rapamycin pathway is up-regulated by both acute endurance exercise and chronic muscle contraction in rat skeletal muscle Appl Physiol Nutr Metab 2013 38 862 869 10.1139/apnm-2012-0405 23855274
+L583: Egan B O'Connor PL Zierath JR O'Gorman DJ Time course analysis reveals gene-specific transcript and protein kinetics of adaptation to short-term aerobic exercise training in human skeletal muscle PLoS ONE 2013 8 e74098 10.1371/journal.pone.0074098 24069271
+L584: Eigendorf J May M Friedrich J Engeli S Maassen N Gros G Meissner JD High intensity high volume interval training improves endurance performance and induces a nearly complete slow-to-fast fiber transformation on the mRNA level Front Physiol 2018 9 601 10.3389/fphys.2018.00601 29897050
+L585: Ekblom B Astrand PO Saltin B Stenberg J Wallstrom B Effect of training on circulatory response to exercise J Appl Physiol 1968 24 518 528 10.1152/jappl.1968.24.4.518 4230646
+L586: Farup J Rahbek SK Riis S Vendelbo MH Paoli F Vissing K Influence of exercise contraction mode and protein supplementation on human skeletal muscle satellite cell content and muscle fiber growth J Appl Physiol (1985) 2014 117 898 909 10.1152/japplphysiol.00261.2014 25103976
+L587: Ferguson-Stegall L Aerobic exercise training adaptations are increased by postexercise carbohydrate–protein supplementation J Nutr Metab 2011 10.1155/2011/623182 21773022
+L588: Frayn KN Calculation of substrate oxidation rates in vivo from gaseous exchange J Appl Physiol Respir Environ Exerc Physiol 1983 55 628 634 6618956
+L589: Fritzen AM Adaptations in mitochondrial enzymatic activity occurs independent of genomic dosage in response to aerobic exercise training and deconditioning in human skeletal muscle Cells 2019 10.3390/cells8030237 30871120
+L590: Fujita S Nutrient signalling in the regulation of human muscle protein synthesis J Physiol 2007 582 813 823 10.1113/jphysiol.2007.134593 17478528
+L591: Gillen CM Lee R Mack GW Tomaselli CM Nishiyasu T Nadel ER Plasma volume expansion in humans after a single intense exercise protocol J Appl Physiol (1985) 1991 71 1914 1920 10.1152/jappl.1991.71.5.1914 1761491
+L592: Harber MP Konopka AR Jemiolo B Trappe SW Trappe TA Reidy PT Muscle protein synthesis and gene expression during recovery from aerobic exercise in the fasted and fed states Am J Physiol Regul Integr Compar Physiol 2010 299 R1254 R1262 10.1152/ajpregu.00348.2010
+L593: Hawley JA Burke LM Phillips SM Spriet LL Nutritional modulation of training-induced skeletal muscle adaptations J Appl Physiol 2011 110 834 845 10.1152/japplphysiol.00949.2010 21030665
+L594: Hill KM Stathis CG Grinfeld E Hayes A McAinch AJ Co-ingestion of carbohydrate and whey protein isolates enhance PGC-1alpha mRNA expression: a randomised, single blind, cross over study J Int Soc Sports Nutr 2013 10.1186/1550-2783-10-8 23402493
+L595: Holloszy JO Biochemical adaptations in muscle. Effects of exercise on mitochondrial oxygen uptake and respiratory enzyme activity in skeletal muscle J Biol Chem 1967 242 2278 2282 4290225
+L596: Holloszy JO Regulation by exercise of skeletal muscle content of mitochondria and GLUT4 J Physiol Pharmacol 2008 59 Suppl 7 5 18 19258654
+L597: Hood DA Invited review: contractile activity-induced mitochondrial biogenesis in skeletal muscle J Appl Physiol (1985) 2001 90 1137 1157 10.1152/jappl.2001.90.3.1137 11181630
+L598: Hoppeler H Howald H Conley K Lindstedt SL Claassen H Vock P Weibel ER Endurance training in humans: aerobic capacity and structure of skeletal muscle J Appl Physiol (1985) 1985 59 320 322 10.1152/jappl.1985.59.2.320 4030584
+L599: Howarth KR Moreau NA Phillips SM Gibala MJ Coingestion of protein with carbohydrate during recovery from endurance exercise stimulates skeletal muscle protein synthesis in humans J Appl Physiol 2009 106 1394 1402 10.1152/japplphysiol.90333.2008 19036894
+L600: Imboden MT Harber MP Whaley MH Finch WH Bishop DL Fleenor BS Kaminsky LA The association between the change in directly measured cardiorespiratory fitness across time and mortality risk Prog Cardiovasc Dis 2019 62 157 162 10.1016/j.pcad.2018.12.003 30543812
+L601: Jones AM Carter H The effect of endurance training on parameters of aerobic fitness Sports Med 2000 29 373 386 10.2165/00007256-200029060-00001 10870864
+L602: Jonvik KL Protein supplementation does not augment adaptations to endurance exercise training Med Sci Sports Exerc 2019 51 2041 2049 10.1249/mss.0000000000002028 31525168
+L603: Kato H Suzuki K Bannai M Moore DR Protein requirements are elevated in endurance athletes after exercise as determined by the indicator amino acid oxidation method PLoS ONE 2016 11 e0157406 10.1371/journal.pone.0157406 27322029
+L604: Knuiman P van Loon LJC Wouters J Hopman M Mensink M Protein supplementation elicits greater gains in maximal oxygen uptake capacity and stimulates lean mass accretion during prolonged endurance training: a double-blind randomized controlled trial Am J Clin Nutr 2019 110 508 518 10.1093/ajcn/nqz093 31240303
+L605: Konopka AR Harber MP Skeletal muscle hypertrophy after aerobic exercise training Exerc Sport Sci Rev 2014 10.1249/JES.0000000000000007 24508740
+L606: Koopman R Ingestion of a protein hydrolysate is accompanied by an accelerated in vivo digestion and absorption rate when compared with its intact protein Am J Clin Nutr 2009 90 106 115 10.3945/ajcn.2009.27474 19474134
+L607: Landi F Protein intake and muscle health in old age: from biological plausibility to clinical evidence Nutrients 2016 10.3390/nu8050295 27187465
+L608: Lunn WR Pasiakos SM Colletto MR Karfonta KE Carbone JW Anderson JM Rodriguez NR Chocolate milk and endurance exercise recovery: protein balance, glycogen, and performance Med Sci Sports Exerc 2012 44 682 691 10.1249/MSS.0b013e3182364162 21904247
+L609: Milanovic Z Sporis G Weston M Effectiveness of high-intensity interval training (HIT) and continuous endurance training for  V O 2max  improvements: a systematic review and meta-analysis of controlled trials Sports Med 2015 45 1469 1481 10.1007/s40279-015-0365-0 26243014
+L610: Montero D Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training J Physiol 2015 593 4677 4688 10.1113/jp270250 26282186
+L611: Moore DR Camera DM Areta JL Hawley JA Beyond muscle hypertrophy: why dietary protein is important for endurance athletes Appl Physiol Nutr Metab 2014 39 987 997 10.1139/apnm-2013-0591 24806440
+L612: Moore DR Churchward-Venne TA Witard O Breen L Burd NA Tipton KD Phillips SM Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men J Gerontol A Biol Sci Med Sci 2015 70 57 62 10.1093/gerona/glu103 25056502
+L613: Moore DR Ingested protein dose response of muscle and albumin protein synthesis after resistance exercise in young men Am J Clin Nutr 2009 89 161 168 10.3945/ajcn.2008.26401 19056590
+L614: Morton RW A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults Br J Sports Med 2018 52 376 384 10.1136/bjsports-2017-097608 28698222
+L615: Okazaki K Impact of protein and carbohydrate supplementation on plasma volume expansion and thermoregulatory adaptation by aerobic training in older men J Appl Physiol 2009 107 725 733 10.1152/japplphysiol.91265.2008 19608927
+L616: Olesen J Kiilerich K Pilegaard H PGC-1alpha-mediated adaptations in skeletal muscle Pflugers Arch 2010 460 153 162 10.1007/s00424-010-0834-0 20401754
+L617: Perry CG Lally J Holloway GP Heigenhauser GJ Bonen A Spriet LL Repeated transient mRNA bursts precede increases in transcriptional and mitochondrial proteins during training in human skeletal muscle J Physiol 2010 588 4795 4810 10.1113/jphysiol.2010.199448 20921196
+L618: Phillips SM Tipton KD Aarsland A Wolf SE Wolfe RR Mixed muscle protein synthesis and breakdown after resistance exercise in humans Am J Physiol 1997 273 E99 E107 9252485
+L619: Popov DV Effect of aerobic training on baseline expression of signaling and respiratory proteins in human skeletal muscle Physiol Rep 2018 10.14814/phy2.13868 30198217
+L620: Reitelseder S Whey and casein labeled with L-[1–13C]leucine and muscle protein synthesis: effect of resistance exercise and protein ingestion Am J Physiol Endocrinol Metab 2011 300 E231 E242 10.1152/ajpendo.00513.2010 21045172
+L621: Roberson PA Protein supplementation throughout 10 weeks of progressive run training is not beneficial for time trial improvement Front Nutr 2018 5 97 10.3389/fnut.2018.00097 30456213
+L622: Robinson MM Turner SM Hellerstein MK Hamilton KL Miller BF Long-term synthesis rates of skeletal muscle DNA and protein are higher during aerobic training in older humans than in sedentary young subjects but are not altered by protein supplementation FASEB J 2011 25 3240 3249 10.1096/fj.11-186437 21613572
+L623: Rowlands DS Protein–leucine fed dose effects on muscle protein synthesis after endurance exercise Med Sci Sports Exerc 2015 47 547 555 10.1249/mss.0000000000000447 25026454
+L624: Saltin B Hartley LH Kilbom A Astrand I Physical training in sedentary middle-aged and older men. II. Oxygen uptake, heart rate, and blood lactate concentration at submaximal and maximal exercise Scand J Clin Lab Investig 1969 24 323 334 10.3109/00365516909080169 5383327
+L625: Sawka MN Convertino VA Eichner ER Schnieder SM Young AJ Blood volume: importance and adaptations to exercise training, environmental stresses, and trauma/sickness Med Sci Sports Exerc 2000 32 332 348 10.1097/00005768-200002000-00012 10694114
+L626: Schmidt W Maassen N Trost F Boning D Training induced effects on blood volume, erythrocyte turnover and haemoglobin oxygen binding properties Eur J Appl Physiol Occup Physiol 1988 57 490 498 10.1007/bf00417998 3396563
+L627: Schmidt W Prommer N Impact of alterations in total hemoglobin mass on  V O 2max Exerc Sport Sci Rev 2010 38 68 75 10.1097/JES.0b013e3181d4957a 20335738
+L628: Shirreffs SM Maughan RJ Urine osmolality and conductivity as indices of hydration status in athletes in the heat Med Sci Sports Exerc 1998 30 1598 1602 10.1097/00005768-199811000-00007 9813872
+L629: Simmons E Fluckey JD Riechman SE Cumulative muscle protein synthesis and protein intake requirements Annu Rev Nutr 2016 36 17 43 10.1146/annurev-nutr-071813-105549 27215586
+L630: Song Z Resistance exercise initiates mechanistic target of rapamycin (mTOR) translocation and protein complex co-localisation in human skeletal muscle Sci Rep 2017 7 5028 10.1038/s41598-017-05483-x 28694500
+L631: Strasser B Burtscher M Survival of the fittest:  V O 2max , a key predictor of longevity? Front Biosci (Landmark Ed) 2018 23 1505 1516 10.2741/4657 29293447
+L632: Tang JE Moore DR Kujbida GW Tarnopolsky MA Phillips SM Ingestion of whey hydrolysate, casein, or soy protein isolate: effects on mixed muscle protein synthesis at rest and following resistance exercise in young men J Appl Physiol 2009 107 987 992 10.1152/japplphysiol.00076.2009 19589961
+L633: Tarnopolsky M Protein requirements for endurance athletes Nutrition 2004 20 662 668 10.1016/j.nut.2004.04.008 15212749
+L634: Taylor H Buskirk E Henschel A Maximal oxygen uptake as an objective measure of cardio-respiratory performance J Appl Physiol 1955 8 73 80 10.1152/jappl.1955.8.1.73 13242493
+L635: Tipton KD Gurkin BE Matin S Wolfe RR Nonessential amino acids are not necessary to stimulate net muscle protein synthesis in healthy volunteers J Nutr Biochem 1999 10 89 95 10.1016/S0955-2863(98)00087-4 15539275
+L636: Tsintzas K Independent and combined effects of acute physiological hyperglycaemia and hyperinsulinaemia on metabolic gene expression in human skeletal muscle Clin Sci 2013 124 675 684 10.1042/CS20120481 23316693
+L637: Witard OC Jackman SR Breen L Smith K Selby A Tipton KD Myofibrillar muscle protein synthesis rates subsequent to a meal in response to increasing doses of whey protein at rest and after resistance exercise Am J Clin Nutr 2014 99 86 95 10.3945/ajcn.112.055517 24257722
+L638: Acknowledgements
+L639: The authors thank the research participants for their time, effort and commitment to the study. This research was funded by the Deanship of Scientific Research at Princess Nourah bint Abdulrahman University through the Fast-track Research Funding Program. Nutritional supplements have been kindly provided by Armor Proteines, Saint Brice en Cogles, France.
+[31ms]
+

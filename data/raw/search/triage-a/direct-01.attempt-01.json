@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "time-restricted eating randomized trial cardiometabolic outcomes"
+  ],
+  "completed_at": "2026-08-16T02:57:24.551230+00:00",
+  "elapsed_seconds": 2.5742817921563983,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:21.976954+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/direct-01.attempt-01.stderr",
+  "stdout_bytes": 56512,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/direct-01.attempt-01.stdout"
+}

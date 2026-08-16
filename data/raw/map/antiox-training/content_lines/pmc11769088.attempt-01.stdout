@@ -1,0 +1,784 @@
+L1: Combined Effects of Spirulina Liquid Extract and Endurance Training on Aerobic Performance and Muscle Metabolism Adaptation in Wistar Rats
+L2: Nutrients (2025)
+L3: Jordi Vignaud, Céline Loiseau, Martine Côme, Isabelle Martin, Rova Rasoanarivo, Josiane Hérault, Claire Mayer, Olivier Lépine, Lionel Ulmann
+L4: 1 BiOSSE, Biology of Organisms, Stress, Health, Environment, Institut Universitaire de Technologie, Département Génie Biologique, Le Mans Université, 53020 Laval, France;  jordi.vignaud@univ-lemans.fr  (J.V.);  celine.loiseau@univ-lemans.fr  (C.L.);  martine.come@univ-lemans.fr  (M.C.);  isabelle.martin@univ-lemans.fr  (I.M.);  rova.rasoanarivo@gmail.com  (R.R.);  josiane.herault@univ-lemans.fr  (J.H.);  claire.mayer@univ-lemans.fr  (C.M.)
+L5: 2 AlgoSource, 44350 Guérande, France;  olivier.lepine@algosource.com
+L6: Background: Physical activity, such as running, protects against cardiovascular disease and obesity but can induce oxidative stress. Athletes often consume antioxidants to counteract the overproduction of reactive oxygen and nitrogen species during exercise.  Spirulina , particularly its phycocyanin content, activates the Nrf2 pathway, stimulating antioxidant responses. Studies show that phycocyanin enhances antioxidant defenses and reduces inflammation, potentially improving muscle adaptation and recovery. This study evaluates a  Spirulina  liquid extract (SLE) supplementation during endurance training, hypothesizing that phycocyanin improves oxidant status and performance in soleus and extensor digitorum longus muscles. Methods: Three-week-old male Wistar rats were divided into four groups: a sedentary control group (C), a sedentary group supplemented with SLE (SP), an endurance training group (T), and an endurance training group supplemented with SLE (SPT). After 8 weeks of treadmill training, blood and muscle were collected. Biochemical parameters and gene expression analyses were performed to assess the effects of training and supplementation. Results: The maximal aerobic speed improved significantly in the SPT group. Plasma lipid profiles showed a reduction in triglyceridemia, cholesterolemia, and atherogenic index in the trained groups, especially with SLE supplementation. Muscle malondialdehyde levels decreased in the SPT group compared to T. Gene expression analysis revealed upregulation of Nrf2 and mitochondrial biogenesis genes in both muscles, with differences between groups for genes related to glycogen storage and β-oxidation. Conclusions: This study demonstrated that SLE supplementation enhanced exercise performance and promoted muscle molecular adaptations. These findings suggest SLE as a promising functional food supplement for athletes, optimizing recovery and performance.
+L7: Article
+L8: endurance training; Spirulina  liquid extract; muscle performance; antioxidants
+L9: 1. Introduction
+L10: Physical activity is recognized as an essential element of a healthy lifestyle that protects against cardiovascular disease and obesity [ 1 , 2 ]. Running is the most accessible activity and is practiced worldwide for a healthy life, for competition, or for weight loss. Acute exercises can lead to elevated stress levels, such as oxidative stress or inflammation. When repeated, they are considered as endurance training sessions where adaptations are able to improve mitochondrial biogenesis and antioxidant status [ 3 , 4 ]. To improve these effects and to increase training volume, athletes consume various food supplements such as proteins, carbohydrates, omega-3 polyunsaturated fatty acids (PUFA), minerals, vitamins, or antioxidants [ 5 ]. Antioxidants in athletes’ diets help compensate for the overproduction of reactive oxygen and nitrogen species (RONS) and inflammation during aerobic exercise [ 6 ]. These supplements aim to improve performance, muscle adaptation, or recovery, and further enhance the benefits of exercise [ 7 ]. During endurance training, consistent ATP production is essential, requires the high activation of several pathways, and increases mitochondrial activity. At the same time, the activity of oxidase xanthine and NADPH induces a high production of RONS which can lead to oxidant stress [ 8 ]. These RONS can affect performance, specifically during long endurance events, exhaustive exercise, or extended and repeated high-intensity exercise bouts [ 9 , 10 ]. This is explained by the impact of RONS on DNA damage, protein breakdown, lipid peroxidation, and apoptosis, which leads to impaired skeletal muscle excitation–contraction coupling [ 11 , 12 , 13 ]. In contrast, other studies have demonstrated that some RONS production is necessary for muscle and mitochondria adaptations after exercise [ 14 , 15 , 16 ]. These adaptations occur through specific muscle genes, such as nuclear respiratory factor 1 (Nrf1), or mitochondrial transcription factor A, which are activated by peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC1α) after being stimulated by RONS [ 14 , 17 ]. Then, primary antioxidant supplementation, such as vitamin C or E, can directly scavenge and neutralize the RONS. However, this type of supplementation requires caution due to hindering muscle adaptation in both resistance and aerobic training conditions. [ 9 , 15 , 18 , 19 ]. Conversely, other studies suggest that secondary antioxidants, which activate the nuclear factor-like 2 (Nrf2) pathway, can stimulate antioxidant response elements (ARE), potentially enhancing muscle performance and recovery [ 20 , 21 , 22 ].
+L11: Among food supplements that can provide bioactive molecules such as proteins, carbohydrates, omega-3 PUFA, minerals, vitamins, or antioxidants, microalgae are promising sources [ 23 ]. In the various world of microalgae,  Arthrospira platensis , or  Spirulina , is identified as cyanobacteria and is known to have antioxidant activity due to its high content in the C-phycocyanin (PC), a water-soluble protein [ 24 ]. This protein is composed of α and β subunits and is bound to phycocyanobilin [ 25 ]. PC is recognized as a Nrf2 activator that regulates genes for the ARE response [ 26 ]. Studies have demonstrated the effects of PC with a strong antioxidant effect through Nrf2 pathways [ 27 ] and anti-inflammatory activity [ 28 ].  Spirulina  liquid extract (SLE) obtained from  Arthrospira platensis  is a liquid extract concentrated in phycocyanin produced by AlgoSource (Guérande, France). In recent studies, SLE has been reported to increase antioxidant defense in mice and hamster models after hypercaloric diet consumption [ 29 , 30 ]. Another study demonstrated in Sprague-Dawley rats that PC alone could increase ARE without changing the content of thiobarbituric acid reactive substances (TBARS) in the gastrocnemius muscle, a biomarker of lipid peroxidation [ 31 ]. This suggests that the mechanism of action of PC might not be directed against RONS, but rather stimulate the activation of AREs, which are themselves regulated by a Nrf2 transcription factor.
+L12: This study aims to evaluate the effects of the SLE food supplement, in combination with endurance training, on biochemical parameters and gene expression related to lipid metabolism, glucose metabolism, oxidative status, and mitochondrial pathways in the soleus (SOL) and extensor digitorum longus (EDL) muscles. We propose that the antioxidant activity of PC contained in SLE could act on the Nrf2 transcription factor and improve oxidant status. This could lead to an improvement in performance measured by maximal aerobic speed (MAS) and molecular adaptation in two muscles with different fiber types.
+L13: 2. Materials and Methods
+L14: 2.1. Animals, Supplementation, and Diets
+L15: Thirty-two 3-week-old male Wistar rats, with an initial weight of 120 ± 10 g, were obtained from Janvier Labs (Le Genest-Saint-Isle, France). They were housed four per cage under controlled conditions of temperature (22 ± 2 °C), humidity (40–60%), and with a 12 h light/dark cycle. During a week of acclimatization, all animals were fed ad libitum with the standard diet A04 (SAFE, Augy, France) and had free access to tap water.
+L16: After a week of adaptation, the animals fed with the standard diet A04 (SAFE, Augy, France) were randomly divided into four groups of eight rats according to their running capacity and food supplement associated with diet. The following groups were determined: a sedentary control group (C); an endurance training group (T); a sedentary group with a diet supplemented with SLE (SP); and an endurance training group with a diet supplemented with SLE (SPT). According to the manufacturer’s information, the standard diet A04 is composed of carbohydrates (72%), proteins (19%), and lipids (8%) for a total energy of 3.35 kcal/g. The SLE was added to drinking water at a concentration of 1.1 mg/100 g of bodyweight. The SLE (Spirulysat ® , number of patent: 17 52452) was kindly supplied by AlgoSource (Guérande, France). Its composition (mg/100 mL extract) is as follows [ 29 ]: phycocyanin (mg/L) 883; carbohydrates (g/100 g) 0.4; amino acids (g/100 g); threonine 0.009; aspartate 0.0187; alanine 0.0168; arginine 0.0138; leucine 0.0164; glutamate 0.022; ions (mg/kg): Fe 2+  1.05, Mg 2+  18, Ca 2+  330, K +  55, Cu 2+  0.2. According to its composition (the calorie value is 7 kJ/100 g dry matter) and the daily provided dose, the SLE caloric supplement was considered negligible. The food supplement was provided for 8 weeks. The daily food and water consumption were evaluated for 8 weeks. The body weight gain of the rats was monitored three times a week and before training.
+L17: All thirty-two rats were euthanized at the end of the experimental protocol without any sign of pain, suffering, or distress. According to the animal well-being respect, no exclusion criteria were used. Similarly, no inclusion criteria were necessary. The experimental procedures, the justification of the use of an animal model, and the details related to the respect of the rule of 3R (housing and husbandry, well-being, animal care, and monitoring) were approved by the Ethical Committee 006 Pays de la Loire and by the French Ministry of National Education, Higher Education and Research (procedure APAFIS #40394-202301111324826 v6, 23 February 2023).
+L18: 2.2. Endurance Training Protocol
+L19: During one week, all groups were adapted to a treadmill (BIOSEB, Vitrolles, France), based on gradually increasing speed from 11 to 21 cm/s ( Table 1 ). This week of acclimatization was planned to limit any stress phenomena related to the equipment that will be used and to determine the running animals. Moreover, the established limit points and observations made during the running protocols helped to avoid the installation of stress.
+L20: Rats with running dispositions were selected, and groups were formed based on the initial weighing and according to food supplement (T and SPT). For these groups, on the last day of the adaptation week, maximal aerobic speed (MAS) was measured to adjust the treadmill speed for the first week of training ( Table 1 ). To force the rats to run, each running track was equipped with a grid at which short-term and low-intensity electrical stimulation could be administered. The number of stimulations could vary from 30 to 90 according to the race time. Indeed, according to our previous observations in the laboratory, it was accepted that rats could be stimulated once per minute. To limit any stress or anxiety phenomenon, a grid for evaluating the response of the rats to this learning was set up. The treadmill was able to count the number of stimulations for each rat. Moreover, the state of fatigue of each rat was quantified visually by the experimenter present throughout the race. Thus, when the animal remained on the grid for more than 3 s, it was taken out and put back with its congeners until the next day. The training sessions were conducted using a treadmill and were 5 days out of 7. The MAS protocol began with a running speed of 15 cm/s, increasing by 3 cm/s every minute, then by 2 cm/s in the following minute, and alternating between 3 cm/s and 2 cm/s increments until exhaustion (adapted form of [ 32 , 33 ]). The MAS was measured before each training block, allowing the training speed of the following block to be adjusted ( Table 1 ). Indeed, endurance develops when the running speed corresponds to 60–80% of the MAS. Therefore, the first block of 3 weeks was structured as follows: week 1, 60% of the MAS; week 2, 70% of the MAS; week 3, 80% of the MAS. Starting from block 2, sprints were added in addition to the training speed to improve the MAS and further stress the mitochondrial tissue [ 34 ]. Additionally, a short warm-up of 6 min at 15 cm/s up to 30 cm/s was applied before each MAS test or daily training session [ 35 ].
+L21: 2.3. Glucose Tolerance Test
+L22: At the beginning of the 7th week, a glucose tolerance test (GTT) was performed on all animals. The training activity was stopped two days before to avoid any training effects, and the rats were fasted the day before the test. Briefly, each rat was given an intraperitoneal injection of glucose (1 g/kg BW) followed by measurement of blood glucose level from the tail vein with a glucometer (Freestyle Papillon Vision, Abbott Diabetes Care, Rungis, France). The volume of insulin solution used for intraperitoneal injection complied with the recommendations. Specifically, the volume was less than 1 mL per 100 g of bodyweight. Concerning animal welfare, a 20% glucose solution was ready to be injected in case of hypoglycemic attack (glycemia < 0.7 g/L) or absence of reaction. The glucose levels were measured at 0 (before the glucose challenge), 15, 30, 60, 90, and 120 min after injection of glucose. On the test day, no exercise was performed, and running was resumed the following day.
+L23: 2.4. Blood and Muscle Sampling
+L24: Following the last day of training, 3 days were allowed to avoid any acute effects of exercise [ 36 , 37 , 38 ]. The rats were anesthetized with a diazepam (5 mg/mL) and ketamine (Imalgene 1000, Boehringer Ingelheim Animal Health, Lyon, France, 100 mg/mL) (4:3,  v / v ) mixture administered intraperitoneally, before exsanguination. All the blood was collected by abdominal aortic puncture. Restraint and injection during anesthesia were performed by qualified technicians and researchers in animal experimentation, which avoided any stress on the animal. Moreover, anesthesia was performed in a room isolated from other congeners. The chemical molecules and doses administered were adapted to the animal model used. A reflex test was performed to check the state of anesthesia and a visual check of the death of the animal was performed after total exsanguination.
+L25: Blood was collected via the abdominal aorta, with an anticoagulant ACD (citric acid, citrate, dextrose) solution composed of 130 mM citric acid, 170 mM trisodium citrate, and 4% dextrose added to the collection tube. The blood samples were then centrifuged at 1000×  g  for 10 min. The supernatant corresponding to plasma and the red blood cell pellet were collected, aliquoted, and stored at −80 °C.
+L26: The right leg soleus (SOL) and extensor digitorum longus (EDL) muscles were taken and aliquoted for biochemical and molecular biology analyses. All samples were stored at −80 °C. Additionally, tibial length (TL) was measured using a caliper graduated in centimeters. All collected tissues were normalized to 100 g of body weight, expressed as g/100 g BW, as well as to tibial length, expressed as g/cm TL.
+L27: 2.5. Plasma Parameter Analysis
+L28: The plasma concentrations of triglycerides (CAK-1086 Clinisciences, Nanterre, France), total cholesterol (KA3709 Clinisciences, Nanterre, France), high-density lipoprotein cholesterol (90406 Biolabo, Maizy, France), insulin (17475383 Thermo Fisher Scientific, Illkirch-Graffenstaden, France), and interleukin-6 (Ab100772 Abcam, Cambridge, UK) were measured according to the manufacturer’s instructions. The no high-density lipoprotein cholesterol (non-HDL-Chol) was calculated with total cholesterol minus HDL-Chol [ 39 ]. The atherogenic index of plasma (AIP) was determined with the following formula:  A I P = l o g 10 ( T G H D L − C h o l )  [ 40 ].
+L29: 2.6. Muscle Malondialdehyde Analyses
+L30: Muscle tissue (~30 mg) was homogenized in 300 µL of PBS (pH 7.4) on ice to prevent lipid degradation. The homogenate was vortexed and centrifuged at 12,000×  g  for 10 min at 4 °C. The supernatant was collected, and 150 µL was mixed with an equal volume of 1% thiobarbituric acid (TBA, prepared with 50 mM NaOH and heated to 100 °C until clear). An equal volume of 25% HCl was then added and vortexed again. The mixture was incubated in a 100 °C water bath for 10 min, followed by a 5-min incubation on ice. After cooling, 225 µL of n-butanol was added, vortexed, and centrifuged at 12,000×  g  for 10 min. The upper phase was measured at 532 nm. This method was adapted from Winterbourn et al. [ 41 ].
+L31: Muscle sample total protein was quantified using the Bradford method and malondialdehyde (MDA) concentration was normalized to total protein concentration.
+L32: 2.7. Muscle RNA Extraction and Gene Expression
+L33: Thirty mg of each muscle was used for total RNA extraction, using the RNeasy Fibrous Tissue Mini Kit (Abcam, ID: 74704, Cambridge, UK). The RNA was quantified by measuring its absorbance at 260 nm using the Nanodrop One (Thermo Fisher Scientific, Illkirch-Graffenstaden, France).
+L34: Reverse transcription of the RNA extracts was conducted using a M-MLV Reverse Transcriptase (RT) (Promega) in a GeneAmp PCR System 9700 (Thermo Fisher Scientific, Illkirch-Graffenstaden, France). In the first step, 1 μg of RNA of each sample, 500 ng of oligo(dT)15 primers, and 500 ng of random hexamer primers was incubated in a volume of 15 μL at 70 °C for 5 min for annealing. Then, in a second step, 10 μL of a mix of dNTP (0.5 mM), M-MLV RT (200 U), RNAse inhibitor (25 U), and M-MLV 1X buffer was added and the tubes were incubated at 42 °C for 1 h, and then at 70 °C for 5 min, to inactivate the enzyme.
+L35: The produced cDNA was diluted four times for SOL and eight times for EDL before use. Quantitative PCR was performed in a QuantStudio 3 qPCR system (Applied Biosystems) with a standard program of an initiation step at 95 °C for 2 min followed by 40 amplification cycles alternating 95 °C for 15 s for annealing, and 60 °C for 1 min for elongation. A volume of 5 μL of cDNA was added to a 15 μL mix containing 10 μL of GoTaq qPCR Master mix 2X (Promega, Madison, WI, USA), 1 μL of each primer forward and reverse (10 μM), and 3 μL of nuclease-free water.
+L36: The primers were designed using Primer3 software 4.1.0 with the following parameters: an annealing temperature (Tm) of 60 ± 2 °C, amplification product lengths between 150 and 200 base pairs, primer lengths of 20 ± 3 base pairs, complementarity scores near 0, and primer pairs positioned as close as possible to the 3′ end of the gene sequence. A detailed list of all primers is provided in  Table 2 . To calculate relative expression, tubulin α (Tubα) was chosen as the housekeeping gene. Finally, the expression level was determined by the 2 (−ΔΔCt)  method and normalized to tubulin α as the housekeeping gene [ 42 ].
+L37: 2.8. Statistical Analysis
+L38: The statistical power analysis was performed using G*Power (version 3.1). Since the study involved independent groups without repeated measures, the “F test” family was selected, and the tool “ANOVA: Fixed effects, omnibus, one-way” was used. The margin of error in the power analysis was set at 5% (α = 0.05), and the desired power value was 95% (1 − β = 0.95). The calculation was performed using the mean values obtained in this study to estimate the effect size. Based on these calculations, we determined that a sample size of  n = 5 per group  was sufficient for statistical validity. However, flexibility was allowed for sample sizes between  n = 5–8 per group  to account for potential exclusions due to aberrant values or measurement failures. In addition, the exclusion of a value was verified by a ROUT statistical test (Q = 1%), and whether the value was twice different from the average of the other values. Statistical analyses were generated with Prism (GraphPad Software Inc., San Diego, CA, USA). Descriptive measurements were presented as mean ± SEM (standard error of the mean). The normality was verified with Shapiro–Wilk or Kolmogorov–Smirnov tests. The significance level was set at  p  < 0.05. Differences between groups were assessed using a one-way ANOVA with parametric tests (Brown–Forsythe test and Bartlett’s test) or non-parametric tests (Kruskal–Wallis test), depending on normality. Post-hoc comparisons were performed using Tukey’s or Dunn’s tests. For paired data, the Holm–Sidak’s multiple comparisons test was used. When comparing two independent groups, a student’s  t -test was performed with a normal distribution. If the data did not follow a normal distribution, a Mann–Whitney U test was conducted.
+L39: 3. Results
+L40: 3.1. Nutritional Monitoring
+L41: Food and water intake were measured daily, with SLE being added to the water for the SP and SPT groups. During the training protocol, food intake ( Figure 1 A) significantly decreased in the T group compared to the C group between weeks 1 and 4.
+L42: From the 5th week onwards, stagnation appeared in all groups; although, in the last week, food intake in the T group was significantly lower compared to all other groups. No major effect of SLE supplementation was observed, though a significant increase in food intake was noted at weeks 2, 4, and 8 in the SPT group compared to the T group. The mean food intake over the 8 weeks did not show any significant differences between the different groups ( Table 3 ).
+L43: 3.2. Bodyweight Evolution
+L44: Bodyweight (BW) was measured three times per week over the 8-week period. A continuous increase in BW was observed in all groups until the 4th week ( Figure 2 ).
+L45: Similar to food and water intake, a decrease in the BW evolution was observed after the 5th week. At the end of the 8th week, a decrease in BW was observed in the T and SPT groups compared to the C and SP groups, with no significant effect of SLE ( Figure 2 ). Pearson correlations were calculated between food intake and weight gain ( Table 3 ). No significant correlation was found before or after the 5th week, or at the end of supplementation.
+L46: 3.3. Muscle Weights and Tibia Length
+L47: After euthanasia, collected muscles were weighed, and tibia length was measured. The SOL and EDL muscles, which are engaged during running, were activated during endurance training on the treadmill. When the SOL muscle mass was normalized to BW, a significant increase in mass was observed in the T group compared to the C group ( Table 3 ). However, no such difference was observed with SLE supplementation. In contrast, for the EDL muscle, a significant increase in mass was observed in the SP and SPT groups, but not in the C and T groups. When muscle mass was normalized by tibia length, no differences were observed between the groups ( Table 3 ).
+L48: 3.4. Glucose Tolerance Test
+L49: The glucose tolerance test (GTT) was conducted on the first day of the 7th week, 48 h after the last training session. Fifteen minutes after glucose injection, glycemia levels were significantly reduced in the SPT group compared to the other groups ( Figure 3 A).
+L50: Thirty minutes after injection, glycemia was significantly decreased in the SP group compared to the C one. In our conditions, an SLE effect was observed without any effect of endurance training. This is confirmed by the area under the curve (AUC) of the GTT, where groups receiving SLE showed a significant reduction compared to the C and T groups ( Figure 3 B).
+L51: 3.5. Maximal Aerobic Speed
+L52: Maximal aerobic speed (MAS) was measured as a marker of physical performance and assessed on a treadmill using exhaustion criteria [ 43 ]. During the 8 weeks of supplementation, MAS was measured four times ( Figure 4 ). Before the first block, no difference was observed between each group, as an equality of performance. The following MAS test revealed an improvement for the SPT group compared to the T group ( Figure 4 ). This difference persisted in the subsequent two measurements until the end of the 8 weeks. Additionally, in the 3rd and 6th weeks, both the T and SPT groups improved their own MAS records. Between the 6th and 8th weeks, a stagnation in MAS was observed ( Figure 4 ).
+L53: 3.6. Plasma Lipid Profile, Glucose, Insulin Concentrations, and Interleukin-6 Levels
+L54: The lipid profile was measured in plasma. No effect of SLE was observed, while during endurance training, triglyceride (TG), total cholesterol (T-Chol), HDL-Chol, and non-HDL-Chol levels decreased significantly ( Table 4 ). The Atherogenic Index of Plasma (AIP) did not show any significant difference between the C and SP groups. However, during endurance training (C vs. T groups), AIP significantly decreased, with an even more marked reduction when SLE supplementation was added (T vs. SPT groups).
+L55: On the day of euthanasia, glycemia was measured, revealing an effect of SLE supplementation. A significant decrease in fasting blood glucose was observed in the SP and SPT groups compared to the C and T groups ( Table 4 ). Additionally, plasma insulin levels showed a significant increase between the C and SP groups, as well as between the T and SPT groups, with the SPT group displaying a significantly higher insulin level compared to the SP group ( Table 4 ). The level of IL-6 remained unchanged with SLE supplementation but increased significantly with endurance training.
+L56: 3.7. Assessment of Lipid Peroxidation in Muscle: Malondialdehyde Content
+L57: In the soleus muscle, endurance training significantly increased MDA content in the T group compared to the C group ( Figure 5 A). However, no significant effect of SLE supplementation was observed between the C and SP groups. When SLE was combined with endurance training (SPT), a significant decrease in MDA was observed compared to the T group ( Figure 5 A). In the extensor digitorum longus muscle, a significant decrease in MDA content was observed between the C and T groups, indicating a training effect ( Figure 5 B). SLE supplementation alone significantly decreased MDA content in the EDL, as reported in the C and SP groups ( Figure 5 B). Furthermore, when SLE was combined with exercise, MDA levels decreased even more, with a significant difference between the T and SPT groups ( Figure 5 B).
+L58: 3.8. Gene Expression
+L59: 3.8.1. Gene Biomarker Modulation in Soleus and EDL Muscles by  Spirulina  Liquid Extract and Exercise Training
+L60: In the SOL muscle, gene expression was measured by RT-qPCR, with relative expression for the SP, T, and SPT groups normalized to C ( Figure 6 A). Regarding redox status in the SOL muscle, the Nrf2 gene was significantly upregulated, while the P38 MAPK gene was downregulated in both the SP and T groups. In contrast, in the SPT group, the expression of Nrf2 and P38 MAPK remained unchanged compared to the C group, but a significant difference was observed when compared to the SP and T groups. Concerning the mitochondrial biogenesis genes, the transcript abundance of AMPKα1 and AMPKα2 increased in both the SP and T groups. A similar upregulation pattern was observed for PGC1α in the T group but not in the SP group, whereas the expression level of Nrf1 decreased in both groups. In the SPT group, these genes remained unchanged compared to the C group, but with significant differences compared to the SP and T groups. For glycogen storage, IRS1 was significantly upregulated in the SP group but not in the T and SPT group. GLUT4 expression increased significantly in both the SP and T groups compared to C; however, no change was observed in the SPT group. Notably, GLUT4 expression was significantly downregulated in the SPT group compared to the SP group. The Gys1 gene was overexpressed in both SP and T groups compared to C, whereas no change was observed in the SPT group, which differed significantly from both the SP and T groups. Regarding β-oxidation metabolism, CD36 and CPT1A genes were upregulated in the SP group and CPT1A was overexpressed in the SPT group. Fabp4 transcript abundance was significantly reduced in both SP and T groups. Interestingly, in the SPT group, no change was observed compared to the C group; however, a significant increase was measured compared to the SP and T groups. In the EDL muscle, no difference in the expression level of Nrf2 was observed, whereas P38 MAPK was significantly upregulated in the SP, T, and SPT groups. However, the increase was not significant for the SPT group ( p  = 0.07) ( Figure 6 B). Mitochondria biogenesis genes, including AMPKα1, AMPKα2, and PGC1α, showed no significant variation in expression, while the Nrf1 gene was upregulated in the SPT group compared to the C and T group. Regarding glycogen storage, the expression of IRS1 significantly increased in the T group but not in the SP and SPT group. GLUT4 gene expression remained unchanged in all groups, whereas the Gys1 gene was overexpressed in the SP and SPT groups, showing a significant difference from the T group. For β-oxidation metabolism, CD36 transcript abundance exhibited no change in expression, and the CPT1A gene was downregulated in both SP, T, and SPT ( p  = 0.06) groups. The expression of Fabp4 decreased in the SP group ( p  = 0.06), but not in the T or SPT group.
+L61: 3.8.2. Effect of  Spirulina  Liquid Extract in Endurance Training Condition
+L62: Gene expression was measured by RT-qPCR in both SOL and EDL muscles, with the relative expression for the SPT group normalized to the T group. In the SOL muscle, the Nrf2 gene was highly downregulated, while the P38 MAPK gene was upregulated ( Figure 7 A). Concerning the mitochondrial biogenesis genes, including AMPKα1, AMPKα2, and Nrf1, no change was shown in expression levels. However, the expression level of the PGC1α gene significantly decreased. In terms of glycogen storage, there was no significant variation in the expression of IRS1, GLUT4, or Gys1. Concerning β-oxidation metabolism, CD36, CPT1A, and Fabp4 were significantly upregulated. In the extensor digitorum longus muscle, the Nrf2 gene was upregulated, whereas P38 MAPK expression was downregulated ( Figure 7 B). Mitochondria biogenesis genes, including AMPKα1 and Nrf1, showed significant overexpression. However, no difference was observed in the expressions of AMPKα2 and PGC1α genes. Regarding the glycogen storage gene, only GLUT4 and Gys1 genes were upregulated. Finally, concerning genes of β-oxidation metabolism, only the Fabp4 gene expression was significantly downregulated.
+L63: 4. Discussion
+L64: The monitoring of water and food intake showed that endurance activity is in agreement with previous studies explaining that endurance training is shown to decrease food intake in rats [ 44 , 45 , 46 ]. As an explanation, endurance training could mimic leptin signaling from the hypothalamus and decrease satiety [ 47 ]. In our conditions, SLE was not reported to have any effect on food intake. This could be due to phycocyanin, which has already been reported without any effect on this parameter [ 48 , 49 ]. Concerning drinking water, adding SLE led to an increase in water intake at weeks 1, 2, 6, and 7 in the SP and SPT groups compared to the C and T groups ( Figure 1 B). Taking into account the endurance training parameter, at the beginning of the study, water intake decreased in the T group compared to the C group ( Figure 1 B). However, from the 6th week onwards, no difference was observed between the C and T groups. Another study involving moderate exercise training in Wistar rats has also shown a decrease in water intake during 6 weeks [ 46 ].
+L65: It is known that endurance training reduces fat mass, leading to a decrease in BW compared to sedentary groups [ 50 ]. Thus, BW decrease could be related to a decrease in fat mass. Indeed, a decrease in adipose tissues (epididymal and peri-renal) was observed in the T and SPT groups, compared with the C and SP groups. SLE did not modify BW parameters in rats, which is consistent with findings from other studies in humans supplemented during 12 weeks [ 51 ] and in hamsters following a normocaloric diet supplemented for 2 weeks [ 29 ].
+L66: The weight of SOL and EDL muscles is normalized by tibia length and BW. The tibia length normalization is often more reliable because it is independent of BW and age. Therefore, using tibia length as a reference allows for an accurate measurement of tissue mass without interference from other parameters [ 52 , 53 , 54 ]. Thus, when referencing tibial length, no effect of training or SLE is observed. However, when normalized to body weight, it has been shown that the SOL mass increases with endurance training, while the EDL mass remains unchanged [ 55 ]. Here, our results converge, but in the presence of SLE, no differences were observed.
+L67: We are the first study that has measured a GTT in the presence of SLE supplementation. Thus, without any reference to the response to GTT, it can be proposed that our results are due to phycocyanin (PC). Indeed, it has already been reported that supplementation with 100 mg/kg of PC during 3 weeks reduced glycemia during this test in KKAy mice [ 56 ]. Thus, SLE could improve glucose response and thus reduce glucose intolerance during diabetes.
+L68: Daily aerobic training is known to increase aerobic capacity and the development of type I muscle fibers to improve cardiovascular and respiratory efficiencies, and its better use of energy reserves such as lipids [ 57 ]. In the study by Pengam et al., the differences between moderate-intensity continuous training (MICT) and high-intensity interval training (HIIT) have been evaluated. It has been demonstrated that HIIT improved MAS performance over 6 weeks. In our study, we achieved a similar effect to the HIIT protocol by combining MICT and HIIT training [ 58 ]. Indeed, during our protocol, sprints were added to endurance activity. To our knowledge, it is the first time reported that SLE supplementation significantly increased MAS performance. However, a previous study reported the effect of  Spirulina  supplementation during 4 weeks in humans [ 59 ]. It has been demonstrated that time to fatigue after a 2 h run was significantly longer with  Spirulina  supplementation, which is similar to the MAS measurement in our present study. A decrease in TBARS content was observed, proposing that  Spirulina  enhanced lipid peroxidation, thereby improving performance. It must be noticed that  Spirulina  biomass contains numerous different molecules that could contribute to this improvement. In our case, we propose that SLE, with phycocyanin extracted from  Spirulina , could act as an antioxidant, enhancing lipid peroxidation and improving performance, as observed in the MAS measurements.
+L69: The plasma T-Chol is dependent on the availability of fatty acids (FA) in the liver [ 60 ]. During exercise, the TG and T-Chol concentrations decreased, likely due to an increase in fatty acid oxidation by skeletal muscle [ 61 ]. No significant effect of SLE was observed on the TG and T-Chol concentrations, which is consistent with the study of Koite et al. in humans that also did not find any effect [ 51 ]. However, the study by Kasbi-Chadli et al. in a hamster model showed a decrease in TG content in plasma, but not in T-Chol [ 29 ]. In the present study, plasma HDL-Chol levels decreased with endurance training, while moderate exercise over 4 weeks in Wistar rats was shown to significantly increase HDL-Chol, which could be correlated with LXRα gene expression in the liver [ 62 ]. Nevertheless, according to our results, SLE would be able to limit the decrease in HDL-Chol during endurance training. As in previous studies, it was reported that SLE supplementation did not affect plasma HDL-Chol [ 29 , 51 ]. It can be proposed that the combination of SLE with endurance training for 8 weeks is responsible for the decrease in HDL-Chol. The non-HDL-Chol content likely includes other forms of cholesterol, such as low-density lipoprotein (LDL). It is accepted that the LDL-Chol level decreases during exercise [ 62 ], and this was observed in the present study (in the C group compared to the T group). The AIP is an effective marker of cardiovascular disease risk [ 40 ]. We observed a decrease in lipid levels during exercise (in the C group compared to the T group), with a more pronounced decrease when combined with SLE (T vs. SPT groups). While no difference was observed between the C and SP groups, this could be due to the observed trend between the T and SPT groups, where TG content decreased while HDL-Chol levels increased in the SPT group. According to previous studies related to the effect of  Spirulina  on AIP decrease, we can explain that our results are due to phycocyanin present in SLE [ 63 ]. Thus, our results show a cumulative effect of SLE and endurance training to prevent cardiovascular diseases.
+L70: On the other hand, the decrease in fasting blood glucose measured in the SLE groups is likely due to the higher insulin levels in plasma, as has already been proposed about the role of phycocyanin in the decrease in fasting blood glucose and the increase in plasma insulin levels [ 64 ]. Other studies proposed that phycocyanin (PC) can improve pancreatic beta-cell function by activating the phosphatidylinositol 3-kinase/protein kinase B (PI3K/Akt) pathways, thus protecting methylglyoxal, a glycation agent linked to cell damage in diabetes [ 65 ]. Thus, PC could have protective effects against diabetes. Our data showed that SLE increased plasma insulin and that insulin sensitivity was improved with better glycemic regulation, as observed with previous GTT results ( Figure 3 A,B). This could improve physical capacity, as recently described, with PC supplementation [ 66 ]. Moreover, recent studies have demonstrated that increased insulin sensitivity was associated with better physical performance, due to an efficient use of glucose as an energy source. This parameter can also positively influence post-exercise recovery, reducing the risk of fatigue and injury [ 67 ]. Thus, in the present study, the improvement in MAS with SP could be explained by an increased insulin sensitivity.
+L71: We have measured that IL-6 increased with endurance training. This may be due to muscle contractions, which release IL-6 into the bloodstream. The increased IL-6 level stimulated lipolysis in adipose tissue, promoted anti-inflammatory macrophage activity, and increased insulin levels [ 68 ]. Moreover, circulating IL-6 plays a role in glucose oxidation and enhances recovery after exercise, including the rebuilding of contractile tissue [ 69 ].
+L72: The MDA is a marker of lipid peroxidation and is used to predict oxidative stress levels [ 70 ]. The interest in studying the SOL muscle is due to its high composition of slow-twitch fibers, while the EDL is composed mainly of fast-twitch fibers [ 71 , 72 ]. Both muscles are frequently used in running training studies [ 73 ]. It has been reported in Wistar-Kyoto rats that endurance training increases MDA levels in the SOL muscle due to the relationship between aerobic exercise, increased mitochondrial electron transport, and the resulting superoxide radical leakage [ 74 , 75 ]. This was also observed in the present study. The SLE supplementation in the SPT group significantly decreased MDA content in the SOL muscle during training, indicating a protective effect against oxidative stress. A recent study demonstrated that PC supplementation increased antioxidant enzyme activity and decreased oxidative stress in the quadriceps muscles of Sprague Dawley rats [ 66 ]. During this study, the authors used the swim test performance considered similar to our MAS measurements. They observed the beneficial effects of PC. In the present study, the significant decrease in MDA observed in the SPT group in the SOL muscle could similarly contribute to improved performance—as seen in the MAS measurements—and this could be explained by the content of PC in the SLE.
+L73: In the EDL muscle, it has been suggested that MDA levels decrease during 12 weeks of endurance exercise because glutathione peroxidase may be overexpressed, reducing oxidative stress and preventing lipid peroxidation in fast-twitch fibers [ 76 ]. Excessive oxidative stress can impair muscle performance by reducing calcium sensitivity and damaging muscle proteins [ 77 ]. The decrease in MDA content observed in our training groups suggested an adaptive response to endurance training, which helps maintain muscle function [ 13 ]. In the SP group, MDA content also decreased significantly, suggesting that SLE may have a similar antioxidant effect to exercise. The combined effect of SLE and exercise further decreased MDA content in the EDL muscle, which may have contributed to the improved MAS performance. These results in both the SOL and EDL muscles suggest that SLE has an antioxidant effect when combined with exercise.
+L74: 4.1. Redox Status Genes in the Soleus Muscle
+L75: Endurance training is known to produce oxidative stress due to significant mitochondrial demand [ 78 ]. This oxidative stress can lead to low-level systemic inflammation, whereas exercise has been shown to exert an anti-inflammatory effect [ 79 ]. The Nrf2 factor negatively regulates inflammation during exercise and regulates antioxidant enzymes [ 80 ]. In this work, it has been proposed that Nrf2’s protective role is crucial for maintaining muscle performance and mitigating the long-term effects of exercise-induced stress ( Figure 6 A). Consequently, the increase in Nrf2 gene expression observed during endurance training in the SOL could counteract the elevated production of reactive oxygen species (ROS) generated by mitochondrial oxidative capacity. Furthermore, in the SP group, Nrf2 gene expression increased as it did with exercise. This result was observed in other studies that supplemented with PC, suggesting that PC acts as an activator of Nrf2 pathways [ 26 , 66 ]. Interestingly, the combination group (SPT) did not show any difference compared to group C. This could be explained by an improved recovery with better regulation of oxidative status due to the combination of SLE and endurance training. The P38 MAPK is a redox-sensitive protein, as described by Vichaiwong et al., and its gene expression decreased in both groups in this study (SP and T groups) [ 81 ]. This effect is likely due to the overexpression of the Nrf2 gene, which reduces ROS levels, as demonstrated in liver studies [ 82 ]. However, in the SPT group, P38 MAPK expression remained unchanged, which is consistent with the fact that there are low levels of oxidative molecules, insufficient to induce Nrf2 expression. Thus, these results for the SPT group can be related to the obtained MDA content, which decreased in the SPT group compared to the T group ( Figure 5 A). Finally, these improvements in oxidative status could be related to better MAS measurements, as previously observed.
+L76: 4.2. Mitochondrial Biogenesis Genes in the Soleus Muscle
+L77: AMPK exists in two isoforms: AMPKα1 and AMPKα2, and both play a role in muscle mass pathways, muscle regeneration, and energy management during and after a physical exercise [ 83 , 84 ]. AMPK activation following endurance training indicated muscle adaptation with glycogen synthesis or storage [ 83 ] and with mitochondrial biogenesis [ 80 ]. This is supported by the significant upregulation of GLUT4 and PGC1α gene expressions in the T group. However, the AMPKα1 and AMPKα2 genes were upregulated in the SLE group without endurance training. Thus, the SLE could be able to stimulate this AMPK pathway and have a positive effect on AMPK activation as endurance training. PGC1α is considered a key regulator of mitochondrial production and function in muscle [ 85 , 86 ]. Another important regulator is Nrf1, playing a role in mitochondrial transcriptional activity [ 87 ]. Both can negatively regulate each other to maintain mitochondrial homeostasis [ 87 ]. In our study, the Nrf1 expression downregulation in T and SPT groups could be explained by this regulatory interaction with PGC1α [ 87 ]. Results reported in  Figure 6 A showed that SLE induced a gene regulation related to mitochondrial biogenesis similar to during endurance training (T). Interestingly, when SLE was combined with endurance training (SPT group), the expression of AMPKα1, AMPKα2, PGC1α, and Nrf1 genes remained unchanged. This is likely due to the low levels of oxidative molecules and the overall muscle recovery. Indeed, other studies on human muscle and acute exercise have reported that mRNA levels of these genes increase after exercise and return to basal levels during recovery. [ 88 , 89 ]. These data suggest that physical capacity could be improved with SLE supplementation without the need for training, as we observed similar effects to training alone. The combination of SLE supplementation and training seems to enhance recovery speed and muscle adaptation in response to our training protocol. Finally, this could explain the improvement in the MAS test observed in the SPT group.
+L78: 4.3. Glycogen Metabolism and Storage Genes in the Soleus Muscle
+L79: The SP group exhibited a significant IRS1 upregulation, likely due to elevated circulating insulin levels, as it has already been reported ( Table 4 ). GLUT4 and Gys1 gene expressions upregulated with training (T group), as already demonstrated in human studies [ 90 ]. Additionally, research on Gys1 knockout mice has observed an 85% reduction in Gys1 mRNA and a 70% reduction in glycogen protein content in the SOL due to the inhibition of the Gys1 gene [ 91 ]. Thus, it can be considered that the upregulation of GLUT4 and Gys1 genes in response to training ( Figure 6 A) could reflect a restoration of glycogen storage for subsequent sessions. In the SP group, the same upregulation was noticed, suggesting a potential protective role against insulin resistance as it has already been reported [ 92 ]. Thus, we hypothesize that SLE could prevent insulin resistance and enhance muscle performance by improving glycogen storage regulation. Interestingly, the combination of both conditions (SLE and endurance training) did not induce any change in the relative expression of glycogen-related genes observed compared to the control group. These results could also explain an overall adaptation of glycogen metabolism and storage following exercise.
+L80: 4.4. Fatty Acid Metabolism Genes in the Soleus Muscle
+L81: Regarding β-oxidation, the SP and SPT groups exhibited significant increases in CPT1A gene expression ( Figure 6 A). Increased fatty acid oxidation capacity through CPT1 has been shown to contribute to muscle plasticity and remodeling [ 93 ]. This could also contribute to the enhancement of physical performance observed in the SPT group following endurance training. In our study, Fabp4 gene expression was downregulated in the T group. This gene is recognized as a marker of mature adipocytes in muscle and is implicated in intramuscular adipose tissue (IMAT) development leading to muscle atrophy and strength loss [ 94 , 95 ]. Despite an increase in the expression of fatty acid transport genes like the CD36 gene in the SP group, the elevated expression of CPT1A in this group may lead to mitochondrial uncoupling as previously reported [ 96 ].
+L82: 4.5. Redox Status Genes in the EDL Muscle
+L83: The level of Nrf2 expression did not change in the SP, T, and SPT groups ( Figure 6 B). This may be due to the low mitochondrial content in this muscle, which may not require the same level of regulation for counteracting ROS overproduction [ 97 ]. A high expression of the P38 MAPK gene was observed in the SP, T, and SPT ( p  = 0.07) groups, with an upregulation of Gys1 expression in the latter. In the EDL muscle, the P38 MAPK gene cannot be considered a marker of oxidative stress as it is in the SOL muscle, while it is a marker for glucose uptake independently of insulin regulation [ 98 , 99 ]. This suggested that SLE may enhance glycogen storage independently of insulin in the EDL muscle, similar to the effect of exercise training.
+L84: 4.6. Mitochondrial Biogenesis Pathways Genes in the EDL Muscle
+L85: Regarding gene markers of mitochondrial biogenesis, no effect was observed in the T group ( Figure 6 B). This is probably due to the type of muscle fibers mainly composed of type II fast fibers in which glycogen metabolism is dominant [ 100 ]. However, in the SPT group, we observed an overexpression of the Nrf1 gene. This could be explained by the switch of glycolytic fibers to oxidative fibers, given that Nrf1 plays a role in mitochondrial biogenesis [ 80 , 101 ]. Thus, SLE supplementation combined with exercise training could improve endurance performance through the remodeling of fiber energy metabolism. Moreover, SLE alone (SP group) tended to increase Nrf1 mRNA, while the endurance training group (T) without SLE showed no change in expression, suggesting that SLE may act as a regulator of fiber-type switching.
+L86: 4.7. Fatty Acids and Glycogen Metabolism Genes in the EDL Muscle
+L87: Markers for fatty acid transport remained unchanged in the SP, T, and SPT groups, while CPT1A gene expression decreased ( Figure 6 B). However, Gys1 mRNA was upregulated in both SLE groups. According to the Randle cycle, elevated glycogen levels can negatively regulate fatty acid oxidation [ 102 ]. Thus, in our study, this mechanism could be observed in both SLE groups. On the other hand, CPT1A gene expression also decreased in the training group, with an overexpression of IRS1 mRNA, which may also reduce the regulation of fatty acid metabolism. Related to the decreased Fabp4 gene expression in the SP group ( p  = 0.06) ( Figure 6 B), SLE consumption could prevent the development of IMAT as proposed for the SOL muscle.
+L88: 4.8. Genes Associated with the Effects of SLE Supplementation Under Endurance Training Conditions in the Soleus Muscle
+L89: We aimed to observe the differences between the T and SPT groups through various relative gene expressions. These results would explain how MAS performance increased in the SPT group compared to the T group. Here, the Nrf2 gene expression was downregulated, whereas the data reported in  Figure 6 A showed that this expression was upregulated in the SP group. Thus, we expected that SLE, in combination with endurance training, would upregulate the expression of these genes. Conversely, the P38 MAPK gene expression increased, suggesting a higher presence of ROS in the SPT group compared to the T group ( Figure 7 A). In addition, PGC1α gene expression significantly decreased, which may correspond to a reduction in mitochondrial adaptation [ 86 ]. The difference in levels of expression between Nrf2, P38 MAPK, and PGC1α genes, suggests that SLE, when combined with endurance training, may alter mitochondrial adaptation. This observation could be similar to the effects of antioxidant supplementation with vitamins C or E [ 17 ]. Thus, SLE may act as a primary antioxidant in the SOL muscle during endurance conditions. As an explanation, the decrease in the expression of PGC1α could be balanced by the Nrf2 gene, which decreased and generated an increase in ROS concentration as indicated by the high expression of P38 MAPK [ 103 ]. No difference in glycogen pathway storage was observed between the different groups; however, there was a significant upregulation in the expression of β-oxidation genes such as CD36 and CPT1A. This improvement was also observed with SLE supplementation ( Figure 6 A). The effect is enhanced by the combination of SLE supplementation and endurance training ( Figure 7 A). Physical exercise increases the transport of fatty acids into muscle cells, and CD36 plays a role in fatty acids substrate selection to enhance exercise performance [ 104 ]. In  Figure 6 A, it has been reported that expression of CD36 was unchanged in the T group. However, with SLE supplementation and endurance training (SPT), an upregulation of this gene expression was observed ( Figure 7 A). This could lead to an improvement in fatty acid regulation with a better efficiency for fat oxidation. Moreover, the CPT1A gene was overexpressed, as previously demonstrated in rats, where CPT1A expression is regulated by thyroid and pancreatic hormones, as well as long-chain fatty acids [ 105 ]. It has been reported that an increase in CPT1 improves fatty acid oxidation, leading to better physical performance [ 106 ]. Previously, we have reported that CPT1A was upregulated in the SP group ( Figure 6 A), while in the T group, CPT1A was downregulated. We also observed this upper expression in the SPT group compared with the T group ( Figure 7 A). Thus, it can be hypothesized that SLE had a stimulating effect on the CPT1A gene pathway. These results could explain the improvements observed in the incremental test to exhaustion (MAS) in the SPT group compared to the T group. Moreover, SLE supplementation could lead to better regulation of fat utilization with a protective role during metabolic syndrome such as obesity or diabetes. Additionally, Fabp4 expression was upregulated in the SPT group, likely due to fatty acid storage for use as an energy substrate [ 107 ]. This explanation can be related to the downregulated Fabp4 expression observed with SLE supplementation ( Figure 6 A).
+L90: 4.9. Genes Associated with the Effects of SLE Supplementation Under Endurance Training Conditions in the EDL Muscle
+L91: We have reported that an increase in plasma IL-6 levels induced by endurance training may be related to the increase in GLUT4 and Gys1 expression genes [ 108 ]. Previous results in the EDL muscle showed that Gys1 expression was upregulated with SLE supplementation and without endurance training ( Figure 6 B). Here, we also observed an increase in Gys1 expression with both endurance training and SLE supplementation ( Figure 7 B). This could be a critical factor explaining the increase in physical capacity during MAS tests [ 109 ]. Additionally, the overexpression of AMPKα1 and Nrf1 genes could contribute to improved energy metabolism adaptations, leading to better performance [ 110 , 111 ]. Contrary to the result obtained in the SOL muscle, Nrf2 gene expression increased with SLE and endurance training in the EDL muscle, while P38 MAPK gene expression decreased. As previously suggested, it can be confirmed that SLE has different effects according to muscle fiber type.
+L92: 5. Conclusions
+L93: This study conducted on male Wistar rats supports the initial hypothesis that SLE supplementation can enhance performance and promote molecular adaptations in the SOL and EDL muscles during endurance training. The antioxidant effects of phycocyanin in SLE appear to improve exercise performance, likely through remodeling in energy metabolism. However, the complex interactions between SLE supplementation and training-induced adaptations, particularly regarding mitochondrial biogenesis, justify further investigations to fully understand the implications for athletic performance and muscle health. Although conducted on male Wistar rats, our results highlight the potential of SLE as a functional food supplement that could be used for athletes with a view to training outcome optimization. By modulating oxidative stress levels, SLE could serve as an effective strategy for enhancing recovery and performance. Future research should explore the long-term effects of SLE supplementation, and its impact on different exercise modalities.
+L94: Figure 1 Nutritional monitoring. The figure shows the average food ( A ) and water intakes ( B ) relative to 100 g of bodyweight (g/week/100 g BW) in rats over 8 weeks. C ( ), sedentary control group; SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. Each bar represents the mean ± SEM (n = 8) for each group. Significant differences between groups at each time point are indicated by different letters (a > b > c) above the bars, with  p  < 0.05 considered statistically significant.
+L95: Figure 2 Bodyweight evolution. The figure shows bodyweight evolution of rats over 8 weeks. C ( ), sedentary control group; SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. Each point represents the mean ± SEM (n = 8) for each group. * indicates a difference between C and T, and $ indicates a difference between SP and SPT for  p  < 0.05.
+L96: Figure 3 Glucose Tolerance Test (GTT).  ( A ): the figure represents glycemia response (mg/dL) over 120 min following glucose administration in different groups; C ( ), sedentary control group; SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. Glycemia levels were measured at 0, 15, 30, 60, and 120 min post-glucose administration (n = 6–8). *: difference between SPT and all other groups ( p  < 0.05). &: difference between C and SP groups ( p  < 0.05). ( B ): C ( ), sedentary control group; SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. The total area under the curve (AUC) of A curves (expressed in arbitrary units, a.u.); bars represent the mean ± SEM for each group (n = 6–8), and letters (a > b) indicate statistically significant differences between groups ( p  < 0.05).
+L97: Figure 4 Maximal Aerobic Speed (MAS). The figure illustrates the changes in maximal aerobic speed (MAS, cm/s) over time (0, 3, 6, and 8 weeks) for two groups: T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. Bars represent the mean ± SEM for each group (n = 7–8), and brown dots represent individual values. *: indicates a significant difference between the T and SPT groups at the specified time point ( p  < 0.05). $: indicates a significant difference compared to the previous MAS measurement within the same group ( p  < 0.05).
+L98: Figure 5 The figure illustrates MDA levels in SOL ( A ) and EDL ( B ) muscles. Groups: C ( ), sedentary control group; SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. Bars represent the mean ± SEM for each group (n = 5–8), and brown dots represent individual values. Different letters (a > b > c) indicate statistically significant differences between groups ( p  < 0.05).
+L99: Figure 6 The effect of SLE (SP) and endurance training (T) on relative gene expression in SOL ( A ) and EDL ( B ) muscles. The figure represents relative gene expression normalized to the sedentary control group (not displayed). Bars represent the mean ± SEM for each group (n = 5–8): SP ( ), sedentary group supplemented with SLE; T ( ), endurance training group; and SPT ( ), endurance training group supplemented with SLE. * indicates significant differences compared to the Control group. # indicates significant differences compared to the SP group. $ indicates significant differences compared to the T group ( p  < 0.05).
+L100: Figure 7 The effect of SLE on relative gene expression in SOL ( A ) and EDL ( B ) muscles in endurance training rats. The figure represents relative gene expression normalized to the training group (not displayed). Bars represent the mean ± SEM for each group (n = 5–8). * indicates significant differences compared to the training group ( p  < 0.05).
+L101: 1. Adams V. 
+L102:  Linke A. 
+L103:  Impact of Exercise Training on Cardiovascular Disease and Risk Biochim. Biophys. Acta (BBA) Mol. Basis Dis. 2019 1865 728 734 10.1016/j.bbadis.2018.08.019 30837069
+L104: 2. Petridou A. 
+L105:  Siopi A. 
+L106:  Mougios V. 
+L107:  Exercise in the Management of Obesity Metabolism 2019 92 163 169 10.1016/j.metabol.2018.10.009 30385379
+L108: 3. Kawamura T. 
+L109:  Muraoka I. 
+L110:  Exercise-Induced Oxidative Stress and the Effects of Antioxidant Intake from a Physiological Viewpoint Antioxidants 2018 7 119 10.3390/antiox7090119 30189660
+L111: 4. Spriet L.L. 
+L112:  Performance Nutrition for Athletes Sports Med. 2019 49 1 2 10.1007/s40279-018-1027-9 30671901
+L113: 5. Alfieri A. 
+L114:  D’Angelo S. 
+L115:  Mazzeo F. 
+L116:  Role of Nutritional Supplements in Sport, Exercise and Health Nutrients 2023 15 4429 10.3390/nu15204429 37892504
+L117: 6. Ranchordas M.K. 
+L118:  Rogerson D. 
+L119:  Soltani H. 
+L120:  Costello J.T. 
+L121:  Antioxidants for Preventing and Reducing Muscle Soreness after Exercise Cochrane Database Syst. Rev. 2017 2017 CD009789 10.1002/14651858.CD009789.pub2 29238948
+L122: 7. Knapik J.J. 
+L123:  Steelman R.A. 
+L124:  Hoedebecke S.S. 
+L125:  Austin K.G. 
+L126:  Farina E.K. 
+L127:  Lieberman H.R. 
+L128:  Prevalence of Dietary Supplement Use by Athletes: Systematic Review and Meta-Analysis Sports Med. 2016 46 103 123 10.1007/s40279-015-0387-7 26442916
+L129: 8. Vermot A. 
+L130:  Petit-Härtlein I. 
+L131:  Smith S.M.E. 
+L132:  Fieschi F. 
+L133:  NADPH Oxidases (NOX): An Overview from Discovery, Molecular Mechanisms to Physiology and Pathology Antioxidants 2021 10 890 10.3390/antiox10060890 34205998
+L134: 9. Paschalis V. 
+L135:  Theodorou A.A. 
+L136:  Kyparos A. 
+L137:  Dipla K. 
+L138:  Zafeiridis A. 
+L139:  Panayiotou G. 
+L140:  Vrabas I.S. 
+L141:  Nikolaidis M.G. 
+L142:  Low Vitamin C Values Are Linked with Decreased Physical Performance and Increased Oxidative Stress: Reversal by Vitamin C Supplementation Eur. J. Nutr. 2016 55 45 53 10.1007/s00394-014-0821-x 25526969
+L143: 10. Reid M.B. 
+L144:  Redox Interventions to Increase Exercise Performance J. Physiol. 2016 594 5125 5133 10.1113/JP270653 26584644
+L145: 11. Powers S.K. 
+L146:  Smuder A.J. 
+L147:  Criswell D.S. 
+L148:  Mechanistic Links between Oxidative Stress and Disuse Muscle Atrophy Antioxid. Redox Signal. 2011 15 2519 2528 10.1089/ars.2011.3973 21457104
+L149: 12. Powers S.K. 
+L150:  Morton A.B. 
+L151:  Ahn B. 
+L152:  Smuder A.J. 
+L153:  Redox Control of Skeletal Muscle Atrophy Free. Radic. Biol. Med. 2016 98 208 217 10.1016/j.freeradbiomed.2016.02.021 26912035
+L154: 13. Powers S.K. 
+L155:  Deminice R. 
+L156:  Ozdemir M. 
+L157:  Yoshihara T. 
+L158:  Bomkamp M.P. 
+L159:  Hyatt H. 
+L160:  Exercise-Induced Oxidative Stress: Friend or Foe? J. Sport Health Sci. 2020 9 415 425 10.1016/j.jshs.2020.04.001 32380253
+L161: 14. Pilegaard H. 
+L162:  Saltin B. 
+L163:  Neufer P.D. 
+L164:  Exercise Induces Transient Transcriptional Activation of the PGC-1alpha Gene in Human Skeletal Muscle J. Physiol. 2003 546 851 858 10.1113/jphysiol.2002.034850 12563009
+L165: 15. Merry T.L. 
+L166:  Ristow M. 
+L167:  Do Antioxidant Supplements Interfere with Skeletal Muscle Adaptation to Exercise Training? J. Physiol. 2016 594 5135 5147 10.1113/JP270654 26638792
+L168: 16. Arc-Chagnaud C. 
+L169:  Py G. 
+L170:  Fovet T. 
+L171:  Roumanille R. 
+L172:  Demangel R. 
+L173:  Pagano A.F. 
+L174:  Delobel P. 
+L175:  Blanc S. 
+L176:  Jasmin B.J. 
+L177:  Blottner D. 
+L178:  
+L179:  Evaluation of an Antioxidant and Anti-Inflammatory Cocktail Against Human Hypoactivity-Induced Skeletal Muscle Deconditioning Front. Physiol. 2020 11 71 10.3389/fphys.2020.00071 32116779
+L180: 17. Gomez-Cabrera M.C. 
+L181:  Salvador-Pascual A. 
+L182:  Cabo H. 
+L183:  Ferrando B. 
+L184:  Viña J. 
+L185:  Redox Modulation of Mitochondriogenesis in Exercise. Does Antioxidant Supplementation Blunt the Benefits of Exercise Training? Free Radic. Biol. Med. 2015 86 37 46 10.1016/j.freeradbiomed.2015.04.006 25889822
+L186: 18. Dutra M.T. 
+L187:  Alex S. 
+L188:  Mota M.R. 
+L189:  Sales N.B. 
+L190:  Brown L.E. 
+L191:  Bottaro M. 
+L192:  Effect of Strength Training Combined with Antioxidant Supplementation on Muscular Performance Appl. Physiol. Nutr. Metab. 2018 43 775 781 10.1139/apnm-2017-0866 29939770
+L193: 19. Dutra M.T. 
+L194:  Martins W.R. 
+L195:  Ribeiro A.L.A. 
+L196:  Bottaro M. 
+L197:  The Effects of Strength Training Combined with Vitamin C and E Supplementation on Skeletal Muscle Mass and Strength: A Systematic Review and Meta-Analysis J. Sports Med. 2020 2020 3505209 10.1155/2020/3505209
+L198: 20. Fovet T. 
+L199:  Guilhot C. 
+L200:  Delobel P. 
+L201:  Chopard A. 
+L202:  Py G. 
+L203:  Brioche T. 
+L204:  Ergothioneine Improves Aerobic Performance Without Any Negative Effect on Early Muscle Recovery Signaling in Response to Acute Exercise Front. Physiol. 2022 13 834597 10.3389/fphys.2022.834597 35222093
+L205: 21. Wu R.-E. 
+L206:  Huang W.-C. 
+L207:  Liao C.-C. 
+L208:  Chang Y.-K. 
+L209:  Kan N.-W. 
+L210:  Huang C.-C. 
+L211:  Resveratrol Protects against Physical Fatigue and Improves Exercise Performance in Mice Molecules 2013 18 4689 4702 10.3390/molecules18044689 23603951
+L212: 22. Baltaci S.B. 
+L213:  Mogulkoc R. 
+L214:  Baltaci A.K. 
+L215:  Resveratrol and Exercise Biomed. Rep. 2016 5 525 10.3892/br.2016.777 27882212
+L216: 23. Vignaud J. 
+L217:  Loiseau C. 
+L218:  Hérault J. 
+L219:  Mayer C. 
+L220:  Côme M. 
+L221:  Martin I. 
+L222:  Ulmann L. 
+L223:  Microalgae Produce Antioxidant Molecules with Potential Preventive Effects on Mitochondrial Functions and Skeletal Muscular Oxidative Stress Antioxidants 2023 12 1050 10.3390/antiox12051050 37237915
+L224: 24. Eriksen N. 
+L225:  Research Trends in the Dominating Microalgal Pigments, β-Carotene, Astaxanthin, and Phycocyanin Used in Feed, in Foods, and in Health Applications J. Nutr. Food Sci. 2016 6 507 10.4172/2155-9600.1000507
+L226: 25. Eisenberg I. 
+L227:  Harris D. 
+L228:  Levi-Kalisman Y. 
+L229:  Yochelis S. 
+L230:  Shemesh A. 
+L231:  Ben-Nissan G. 
+L232:  Sharon M. 
+L233:  Raviv U. 
+L234:  Adir N. 
+L235:  Keren N. 
+L236:  
+L237:  Concentration-Based Self-Assembly of Phycocyanin Photosynth. Res. 2017 134 39 49 10.1007/s11120-017-0406-7 28577216
+L238: 26. Liu R. 
+L239:  Qin S. 
+L240:  Li W. 
+L241:  Phycocyanin: Anti-Inflammatory Effect and Mechanism Biomed. Pharmacother. 2022 153 113362 10.1016/j.biopha.2022.113362 36076518
+L242: 27. Kim K.M. 
+L243:  Lee J.Y. 
+L244:  Im A.-R. 
+L245:  Chae S. 
+L246:  Phycocyanin Protects Against UVB-Induced Apoptosis Through the PKC α/βII-Nrf-2/HO-1 Dependent Pathway in Human Primary Skin Cells Molecules 2018 23 478 10.3390/molecules23020478 29470442
+L247: 28. Alzokaky A.A. 
+L248:  Abdelkader E.M. 
+L249:  El-Dessouki A.M. 
+L250:  Khaleel S.A. 
+L251:  Raslan N.A. 
+L252:  C-Phycocyanin Protects against Ethanol-Induced Gastric Ulcers in Rats: Role of HMGB1/NLRP3/NF-κB Pathway Basic Clin. Pharmacol. Toxicol. 2020 127 265 277 10.1111/bcpt.13415 32306544
+L253: 29. Kasbi-Chadli F. 
+L254:  Coué M. 
+L255:  Aguesse A. 
+L256:  Grit I. 
+L257:  Souque T. 
+L258:  Ferchaud-Roucher V. 
+L259:  Ouguerram K. 
+L260:  Spirulina Liquid Extract Prevents Metabolic Disturbances and Improves Liver Sphingolipids Profile in Hamster Fed a High-Fat Diet Eur. J. Nutr. 2021 60 4483 4494 10.1007/s00394-021-02589-x 34110469
+L261: 30. Coué M. 
+L262:  Tesse A. 
+L263:  Falewée J. 
+L264:  Aguesse A. 
+L265:  Croyal M. 
+L266:  Fizanne L. 
+L267:  Chaigneau J. 
+L268:  Boursier J. 
+L269:  Ouguerram K. 
+L270:  Spirulina Liquid Extract Protects against Fibrosis Related to Non-Alcoholic Steatohepatitis and Increases Ursodeoxycholic Acid Nutrients 2019 11 194 10.3390/nu11010194 30669332
+L271: 31. Dupuis C. 
+L272:  Berthon J.Y. 
+L273:  Larue J. 
+L274:  Rougé S. 
+L275:  Filaire M. 
+L276:  Filaire E. 
+L277:  Effects of 6 Weeks of Betaine or C-Phycocyanin Supplementation Associated or Not with Wheel Running on Redox Status Sci. Sports 2018 33 47 55 10.1016/j.scispo.2017.08.006
+L278: 32. Fadaei Chafy M.R. 
+L279:  Bagherpour Tabalvandani M.M. 
+L280:  Elmieh A. 
+L281:  Arabzadeh E. 
+L282:  Determining the Range of Aerobic Exercise on a Treadmill for Male Wistar Rats at Different Ages: A Pilot Study J. Exerc. Organ. Cross Talk 2022 2 96 100 10.22034/jeoct.2022.350369.1047
+L283: 33. Cardenia V. 
+L284:  Rodriguez-Estrada M.T. 
+L285:  Lorenzini A. 
+L286:  Bandini E. 
+L287:  Angeloni C. 
+L288:  Hrelia S. 
+L289:  Malaguti M. 
+L290:  Effect of Broccoli Extract Enriched Diet on Liver Cholesterol Oxidation in Rats Subjected to Exhaustive Exercise J. Steroid Biochem. Mol. Biol. 2017 169 137 144 10.1016/j.jsbmb.2016.04.005 27084531
+L291: 34. Kryściak K. 
+L292:  Majerczak J. 
+L293:  Kryściak J. 
+L294:  Łochyński D. 
+L295:  Kaczmarek D. 
+L296:  Drzymała-Celichowska H. 
+L297:  Krutki P. 
+L298:  Gawedzka A. 
+L299:  Guzik M. 
+L300:  Korostynski M. 
+L301:  
+L302:  Adaptation of motor unit contractile properties in rat medial gastrocnemius to treadmill endurance training: Relationship to muscle mitochondrial biogenesis PLoS ONE 2018 13 e0195704 10.1371/journal.pone.0195704 29672614
+L303: 35. Ferreira J.C.B. 
+L304:  Rolim N.P.L. 
+L305:  Bartholomeu J.B. 
+L306:  Gobatto C.A. 
+L307:  Kokubun E. 
+L308:  Brum P.C. 
+L309:  Maximal Lactate Steady State in Running Mice: Effect of Exercise Training Clin. Exp. Pharmacol. Physiol. 2007 34 760 765 10.1111/j.1440-1681.2007.04635.x 17600553
+L310: 36. De Carvalho C.D. 
+L311:  Filho C.K. 
+L312:  da Rocha A.D. 
+L313:  Silva A.S.R. 
+L314:  Papoti M. 
+L315:  Glycogen Kinetics of Wistar Rats: Different Exercise Intensities and Tissue Analyzed Influence Int. J. Exerc. Sci. 2022 15 289 299 36895795
+L316: 37. Dong G.J. 
+L317:  Lv C.X. 
+L318:  Li K.F. 
+L319:  The Changes of Ultrastructure and Proteome Induced by Repeated Eccentric Exercise on of Rat Skeletal Muscle Appl. Mech. Mater. 2014 472 792 800 10.4028/www.scientific.net/AMM.472.792
+L320: 38. Silva E. 
+L321:  Maldonado I.R.S.C. 
+L322:  Matta S.L.P. 
+L323:  Maia G.C. 
+L324:  Bozi L.H.M. 
+L325:  Silva K.A. 
+L326:  Castro C.A. 
+L327:  Natali A.J. 
+L328:  Treinamento em natação com baixa intensidade não protege músculo esquelético contra lesões induzidas por exercício exaustivo em ratos Rev. Bras. Med. Esporte 2011 17 207 211 10.1590/S1517-86922011000300012
+L329: 39. Carr S.S. 
+L330:  Hooper A.J. 
+L331:  Sullivan D.R. 
+L332:  Burnett J.R. 
+L333:  Non-HDL-Cholesterol and Apolipoprotein B Compared with LDL-Cholesterol in Atherosclerotic Cardiovascular Disease Risk Assessment Pathology 2019 51 148 154 10.1016/j.pathol.2018.11.006 30595507
+L334: 40. Askin L. 
+L335:  Tanriverdi O. 
+L336:  Is the Atherogenic Index. of Plasma (AIP) a Cardiovascular Disease Marker? Cor Vasa 2023 65 100 103 10.33678/cor.2022.085
+L337: 41. Winterbourn C.C. 
+L338:  Gutteridge J.M.C. 
+L339:  Halliwell B. 
+L340:  Doxorubicin-Dependent Lipid Peroxidation at Low Partial Pressures of O 2 J. Free Radic. Biol. Med. 1985 1 43 49 10.1016/0748-5514(85)90028-5 3939136
+L341: 42. Livak K.J. 
+L342:  Schmittgen T.D. 
+L343:  Analysis of Relative Gene Expression Data Using Real-Time Quantitative PCR and the 2(-Delta Delta C(T)) Method Methods 2001 25 402 408 10.1006/meth.2001.1262 11846609
+L344: 43. Billat L.V. 
+L345:  Koralsztein J.P. 
+L346:  Significance of the Velocity at VO 2max  and Time to Exhaustion at This Velocity Sports Med. 1996 22 90 108 10.2165/00007256-199622020-00004 8857705
+L347: 44. Ebal E. 
+L348:  Cavalie H. 
+L349:  Michaux O. 
+L350:  Lac G. 
+L351:  Effect of a Moderate Exercise on the Regulatory Hormones of Food Intake in Rats Appetite 2007 49 521 524 10.1016/j.appet.2007.03.007 17462789
+L352: 45. Elj N.E. 
+L353:  Lac G. 
+L354:  Tabka Z. 
+L355:  Gharbi N. 
+L356:  Fezaa S.E. 
+L357:  Effect of Physical Exercise on Reducing Food Intake and Weight Gain Procedia Soc. Behav. Sci. 2011 30 2027 2031 10.1016/j.sbspro.2011.10.392
+L358: 46. Dupas J. 
+L359:  Feray A. 
+L360:  Guernec A. 
+L361:  Pengam M. 
+L362:  Inizan M. 
+L363:  Guerrero F. 
+L364:  Mansourati J. 
+L365:  Goanvec C. 
+L366:  Effect of Personalized Moderate Exercise Training on Wistar Rats Fed with a Fructose Enriched Water Nutr. Metab. 2018 15 69 10.1186/s12986-018-0307-6
+L367: 47. Zhao J. 
+L368:  Tian Y. 
+L369:  Xu J. 
+L370:  Liu D. 
+L371:  Wang X. 
+L372:  Zhao B. 
+L373:  Endurance Exercise Is a Leptin Signaling Mimetic in Hypothalamus of Wistar Rats Lipids Health Dis. 2011 10 225 10.1186/1476-511X-10-225 22136466
+L374: 48. Naidu K.A. 
+L375:  Sarada R. 
+L376:  Manoj G. 
+L377:  Khan M.Y. 
+L378:  Swamy M.M. 
+L379:  Viswanatha S. 
+L380:  Murthy K.N. 
+L381:  Ravishankar G.A. 
+L382:  Srinivas L. 
+L383:  Toxicity Assessment of Phycocyanin—A Blue Colorant from Blue Green Alga Spirulina Platensis Food Biotechnol. 1999 13 51 66 10.1080/08905439609549961
+L384: 49. Ichimura M. 
+L385:  Kato S. 
+L386:  Tsuneyama K. 
+L387:  Matsutake S. 
+L388:  Kamogawa M. 
+L389:  Hirao E. 
+L390:  Miyata A. 
+L391:  Mori S. 
+L392:  Yamaguchi N. 
+L393:  Suruga K. 
+L394:  
+L395:  Phycocyanin Prevents Hypertension and Low Serum Adiponectin Level in a Rat Model of Metabolic Syndrome Nutr. Res. 2013 33 397 405 10.1016/j.nutres.2013.03.006 23684441
+L396: 50. Haghshenas R. 
+L397:  Jafari M. 
+L398:  Ravasi A. 
+L399:  Kordi M. 
+L400:  Gilani N. 
+L401:  Shariatzadeh M. 
+L402:  Hedayati M. 
+L403:  Rahimi M. 
+L404:  The Effect of Eight Weeks Endurance Training and High-Fat Diet on Appetite-Regulating Hormones in Rat Plasma Iran. J. Basic Med. Sci. 2014 17 237 243 24904715
+L405: 51. Koite N.L.N. 
+L406:  Sanogo N.I. 
+L407:  Lépine O. 
+L408:  Bard J.-M. 
+L409:  Ouguerram K. 
+L410:  Antioxidant Efficacy of a Spirulina Liquid Extract on Oxidative Stress Status and Metabolic Disturbances in Subjects with Metabolic Syndrome Mar. Drugs 2022 20 441 10.3390/md20070441 35877734
+L411: 52. Atum A.L.B. 
+L412:  de Matos L.P. 
+L413:  de Jesus B.C. 
+L414:  Nasuk G.R. 
+L415:  da Silva G.A. 
+L416:  Gomes C.P. 
+L417:  Pesquero J.B. 
+L418:  Zamuner S.R. 
+L419:  Silva Júnior J.A. 
+L420:  Impact of Prenatal Alcohol Exposure on the Development and Myocardium of Adult Mice: Morphometric Changes, Transcriptional Modulation of Genes Related to Cardiac Dysfunction, and Antioxidant Cardioprotection Antioxidants 2023 12 256 10.3390/antiox12020256 36829814
+L421: 53. Padilla J. 
+L422:  Jenkins N.T. 
+L423:  Vieira-Potter V.J. 
+L424:  Laughlin M.H. 
+L425:  Divergent Phenotype of Rat Thoracic and Abdominal Perivascular Adipose Tissues Am. J. Physiol. Regul. Integr. Comp. Physiol. 2013 304 R543 R552 10.1152/ajpregu.00567.2012 23389108
+L426: 54. Yin F.C. 
+L427:  Spurgeon H.A. 
+L428:  Rakusan K. 
+L429:  Weisfeldt M.L. 
+L430:  Lakatta E.G. 
+L431:  Use of Tibial Length to Quantify Cardiac Hypertrophy: Application in the Aging Rat Am. J. Physiol. Heart Circ. Physiol. 1982 243 H941 H947 10.1152/ajpheart.1982.243.6.H941 6216817
+L432: 55. Plant D.R. 
+L433:  Gregorevic P. 
+L434:  Warmington S.A. 
+L435:  Williams D.A. 
+L436:  Lynch G.S. 
+L437:  Endurance Training Adaptations Modulate the Redox–Force Relationship of Rat Isolated Slow-Twitch Skeletal Muscles Clin. Exp. Pharmacol. Physiol. 2003 30 77 81 10.1046/j.1440-1681.2002.03794.x 12542458
+L438: 56. Ou Y. 
+L439:  Lin L. 
+L440:  Yang X. 
+L441:  Pan Q. 
+L442:  Cheng X. 
+L443:  Antidiabetic Potential of Phycocyanin: Effects on KKAy Mice Pharm. Biol. 2013 51 539 544 10.3109/13880209.2012.747545 23368938
+L444: 57. Holloszy J.O. 
+L445:  Booth F.W. 
+L446:  Biochemical Adaptations to Endurance Exercise in Muscle Annu. Rev. Physiol. 1976 38 273 291 10.1146/annurev.ph.38.030176.001421 130825
+L447: 58. Pengam M. 
+L448:  Goanvec C. 
+L449:  Moisan C. 
+L450:  Simon B. 
+L451:  Albacète G. 
+L452:  Féray A. 
+L453:  Guernec A. 
+L454:  Amérand A. 
+L455:  Moderate Intensity Continuous versus High Intensity Interval Training: Metabolic Responses of Slow and Fast Skeletal Muscles in Rat PLoS ONE 2023 18 e0292225 10.1371/journal.pone.0292225 37792807
+L456: 59. Kalafati M. 
+L457:  Jamurtas A.Z. 
+L458:  Nikolaidis M.G. 
+L459:  Paschalis V. 
+L460:  Theodorou A.A. 
+L461:  Sakellariou G.K. 
+L462:  Koutedakis Y. 
+L463:  Kouretas D. 
+L464:  Ergogenic and Antioxidant Effects of Spirulina Supplementation in Humans Med. Sci. Sports Exerc. 2010 42 142 151 10.1249/MSS.0b013e3181ac7a45 20010119
+L465: 60. Dietschy J.M. 
+L466:  Wilson J.D. 
+L467:  Regulation of Cholesterol Metabolism N. Engl. J. Med. 1970 282 1128 1138 10.1056/NEJM197005142822005 4985759
+L468: 61. Pels A.E. 
+L469:  White T.P. 
+L470:  Block W.D. 
+L471:  Effects of Exercise Training on Plasma Lipids and Lipoproteins in Rats J. Appl. Physiol. 1985 58 612 618 10.1152/jappl.1985.58.2.612 3980363
+L472: 62. Kazeminasab F. 
+L473:  Marandi M. 
+L474:  Ghaedi K. 
+L475:  Esfarjani F. 
+L476:  Moshtaghian J. 
+L477:  Effects of A 4-Week Aerobic Exercise on Lipid Profile and Expression of LXRα in Rat Liver Cell J. 2017 19 45 49 28367416
+L478: 63. Muga M.A. 
+L479:  Chao J.C.-J. 
+L480:  Effects of Fish Oil and Spirulina on Oxidative Stress and Inflammation in Hypercholesterolemic Hamsters BMC Complement. Altern. Med. 2014 14 470 10.1186/1472-6882-14-470 25481402
+L481: 64. Ziyaei K. 
+L482:  Abdi F. 
+L483:  Mokhtari M. 
+L484:  Daneshmehr M.A. 
+L485:  Ataie Z. 
+L486:  Phycocyanin as a Nature-Inspired Antidiabetic Agent: A Systematic Review Phytomedicine 2023 119 154964 10.1016/j.phymed.2023.154964 37544212
+L487: 65. Gao Y. 
+L488:  Liao G. 
+L489:  Xiang C. 
+L490:  Yang X. 
+L491:  Cheng X. 
+L492:  Ou Y. 
+L493:  Effects of Phycocyanin on INS-1 Pancreatic β-Cell Mediated by PI3K/Akt/FoxO1 Signaling Pathway Int. J. Biol. Macromol. 2016 83 185 194 10.1016/j.ijbiomac.2015.11.054 26616456
+L494: 66. Puengpan S. 
+L495:  Phetrungnapha A. 
+L496:  Sattayakawee S. 
+L497:  Tunsophon S. 
+L498:  Phycocyanin Attenuates Skeletal Muscle Damage and Fatigue via Modulation of Nrf2 and IRS-1/AKT/mTOR Pathway in Exercise-Induced Oxidative Stress in Rats PLoS ONE 2024 19 e0310138 10.1371/journal.pone.0310138 39255269
+L499: 67. Gillen J.B. 
+L500:  Martin B.J. 
+L501:  MacInnis M.J. 
+L502:  Skelly L.E. 
+L503:  Tarnopolsky M.A. 
+L504:  Gibala M.J. 
+L505:  Twelve Weeks of Sprint Interval Training Improves Indices of Cardiometabolic Health Similar to Traditional Endurance Training despite a Five-Fold Lower Exercise Volume and Time Commitment PLoS ONE 2016 11 e0154075 10.1371/journal.pone.0154075 27115137
+L506: 68. Benatti F.B. 
+L507:  Pedersen B.K. 
+L508:  Exercise as an Anti-Inflammatory Therapy for Rheumatic Diseases-Myokine Regulation Nat. Rev. Rheumatol. 2015 11 86 97 10.1038/nrrheum.2014.193 25422002
+L509: 69. Hennigar S.R. 
+L510:  McClung J.P. 
+L511:  Pasiakos S.M. 
+L512:  Nutritional Interventions and the IL-6 Response to Exercise FASEB J. 2017 31 3719 3728 10.1096/fj.201700080R 28507168
+L513: 70. Singh Z. 
+L514:  Karthigesu I.P. 
+L515:  Singh P. 
+L516:  Kaur R. 
+L517:  Use of Malondialdehyde as a Biomarker for Assessing Oxidative Stress in Different Disease Pathologies: A Review Iran. J. Public Health 2014 43 7 16
+L518: 71. Noonan A.M. 
+L519:  Mashouri P. 
+L520:  Chen J. 
+L521:  Power G.A. 
+L522:  Brown S.H.M. 
+L523:  Training Induced Changes to Skeletal Muscle Passive Properties Are Evident in Both Single Fibers and Fiber Bundles in the Rat Hindlimb Front. Physiol. 2020 11 907 10.3389/fphys.2020.00907 32903515
+L524: 72. Close R. 
+L525:  Properties of Motor Units in Fast and Slow Skeletal Muscles of the Rat J. Physiol. 1967 193 45 55 10.1113/jphysiol.1967.sp008342 16992287
+L526: 73. Kovanen V. 
+L527:  Suominen H. 
+L528:  Heikkinen E. 
+L529:  Mechanical Properties of Fast and Slow Skeletal Muscle with Special Reference to Collagen and Endurance Training J. Biomech. 1984 17 725 735 10.1016/0021-9290(84)90103-9 6241196
+L530: 74. Lambertucci R.H. 
+L531:  Levada-Pires A.C. 
+L532:  Rossoni L.V. 
+L533:  Curi R. 
+L534:  Pithon-Curi T.C. 
+L535:  Effects of Aerobic Exercise Training on Antioxidant Enzyme Activities and mRNA Levels in Soleus Muscle from Young and Aged Rats Mech. Ageing Dev. 2007 128 267 275 10.1016/j.mad.2006.12.006 17224177
+L536: 75. Bloomer R.J. 
+L537:  Goldfarb A.H. 
+L538:  Anaerobic Exercise and Oxidative Stress: A Review Can. J. Appl. Physiol. 2004 29 245 263 10.1139/h04-017 15199226
+L539: 76. Cunningham P. 
+L540:  Geary M. 
+L541:  Harper R. 
+L542:  Pendleton A. 
+L543:  Stover S. 
+L544:  High intensity sprint training reduces lipid peroxidation in fast-twitch skeletal muscle J. Exerc. Physiol. Online 2005 8 18 25
+L545: 77. Lamb G.D. 
+L546:  Westerblad H. 
+L547:  Acute Effects of Reactive Oxygen and Nitrogen Species on the Contractile Function of Skeletal Muscle J. Physiol. 2011 589 2119 2127 10.1113/jphysiol.2010.199059 21041533
+L548: 78. Steinbacher P. 
+L549:  Eckl P. 
+L550:  Impact of Oxidative Stress on Exercising Skeletal Muscle Biomolecules 2015 5 356 377 10.3390/biom5020356 25866921
+L551: 79. Bruunsgaard H. 
+L552:  Physical Activity and Modulation of Systemic Low-Level Inflammation J. Leukoc. Biol. 2005 78 819 835 10.1189/jlb.0505247 16033812
+L553: 80. Vargas-Mendoza N. 
+L554:  Morales-González Á. 
+L555:  Madrigal-Santillán E.O. 
+L556:  Madrigal-Bujaidar E. 
+L557:  Álvarez-González I. 
+L558:  García-Melo L.F. 
+L559:  Anguiano-Robledo L. 
+L560:  Fregoso-Aguilar T. 
+L561:  Morales-Gonzalez J.A. 
+L562:  Antioxidant and Adaptative Response Mediated by Nrf2 during Physical Exercise Antioxidants 2019 8 196 10.3390/antiox8060196 31242588
+L563: 81. Vichaiwong K. 
+L564:  Henriksen E.J. 
+L565:  Toskulkao C. 
+L566:  Prasannarong M. 
+L567:  Bupha-Intr T. 
+L568:  Saengsirisuwan V. 
+L569:  Attenuation of Oxidant-Induced Muscle Insulin Resistance and P38 MAPK by Exercise Training Free Radic. Biol. Med. 2009 47 593 599 10.1016/j.freeradbiomed.2009.05.036 19500665
+L570: 82. Li S. 
+L571:  Wang R. 
+L572:  Song F. 
+L573:  Chen P. 
+L574:  Gu Y. 
+L575:  Chen C. 
+L576:  Yuan Y. 
+L577:  Salvianolic Acid A Suppresses CCl4-Induced Liver Fibrosis through Regulating the Nrf2/HO-1, NF-κB/IκBα, P38 MAPK, and JAK1/STAT3 Signaling Pathways Drug Chem. Toxicol. 2023 46 304 313 10.1080/01480545.2022.2028822 35057680
+L578: 83. Tarini V.A.F. 
+L579:  Carnevali L.C. 
+L580:  Arida R.M. 
+L581:  Cunha C.A. 
+L582:  Alves E.S. 
+L583:  Seeleander M.C.L. 
+L584:  Schmidt B. 
+L585:  Faloppa F. 
+L586:  Effect of Exhaustive Ultra-Endurance Exercise in Muscular Glycogen and Both Alpha1 and Alpha2 Ampk Protein Expression in Trained Rats J. Physiol. Biochem. 2013 69 429 440 10.1007/s13105-012-0224-5 23184732
+L587: 84. Thomson D.M. 
+L588:  The Role of AMPK in the Regulation of Skeletal Muscle Size, Hypertrophy, and Regeneration Int. J. Mol. Sci. 2018 19 3125 10.3390/ijms19103125 30314396
+L589: 85. Joseph A.-M. 
+L590:  Pilegaard H. 
+L591:  Litvintsev A. 
+L592:  Leick L. 
+L593:  Hood D.A. 
+L594:  Control of Gene Expression and Mitochondrial Biogenesis in the Muscular Adaptation to Endurance Exercise Essays Biochem. 2006 42 13 29 10.1042/bse0420013 17144877
+L595: 86. Olesen J. 
+L596:  Kiilerich K. 
+L597:  Pilegaard H. 
+L598:  PGC-1α-Mediated Adaptations in Skeletal Muscle Pflug. Arch. Eur. J. Physiol. 2010 460 153 162 10.1007/s00424-010-0834-0 20401754
+L599: 87. Vainshtein A. 
+L600:  Desjardins E.M. 
+L601:  Armani A. 
+L602:  Sandri M. 
+L603:  Hood D.A. 
+L604:  PGC-1α Modulates Denervation-Induced Mitophagy in Skeletal Muscle Skelet. Muscle 2015 5 9 10.1186/s13395-015-0033-y 25834726
+L605: 88. Gibala M.J. 
+L606:  McGee S.L. 
+L607:  Garnham A.P. 
+L608:  Howlett K.F. 
+L609:  Snow R.J. 
+L610:  Hargreaves M. 
+L611:  Brief Intense Interval Exercise Activates AMPK and P38 MAPK Signaling and Increases the Expression of PGC-1α in Human Skeletal Muscle J. Appl. Physiol. 2009 106 929 934 10.1152/japplphysiol.90880.2008 19112161
+L612: 89. Mathai A.S. 
+L613:  Bonen A. 
+L614:  Benton C.R. 
+L615:  Robinson D.L. 
+L616:  Graham T.E. 
+L617:  Rapid Exercise-Induced Changes in PGC-1α mRNA and Protein in Human Skeletal Muscle J. Appl. Physiol. 2008 105 1098 1105 10.1152/japplphysiol.00847.2007 18653753
+L618: 90. Kraniou G.N. 
+L619:  Cameron-Smith D. 
+L620:  Hargreaves M. 
+L621:  Effect of Short-Term Training on GLUT-4 mRNA and Protein Expression in Human Skeletal Muscle Exp. Physiol. 2004 89 559 563 10.1113/expphysiol.2004.027409 15184360
+L622: 91. Xirouchaki C.E. 
+L623:  Mangiafico S.P. 
+L624:  Bate K. 
+L625:  Ruan Z. 
+L626:  Huang A.M. 
+L627:  Tedjosiswoyo B.W. 
+L628:  Lamont B. 
+L629:  Pong W. 
+L630:  Favaloro J. 
+L631:  Blair A.R. 
+L632:  
+L633:  Impaired Glucose Metabolism and Exercise Capacity with Muscle-Specific Glycogen Synthase 1 (Gys1) Deletion in Adult Mice Mol. Metab. 2016 5 221 232 10.1016/j.molmet.2016.01.004 26977394
+L634: 92. Atkinson B.J. 
+L635:  Griesel B.A. 
+L636:  King C.D. 
+L637:  Josey M.A. 
+L638:  Olson A.L. 
+L639:  Moderate GLUT4 Overexpression Improves Insulin Sensitivity and Fasting Triglyceridemia in High-Fat Diet–Fed Transgenic Mice Diabetes 2013 62 2249 2258 10.2337/db12-1146 23474483
+L640: 93. Henique C. 
+L641:  Mansouri A. 
+L642:  Vavrova E. 
+L643:  Lenoir V. 
+L644:  Ferry A. 
+L645:  Esnous C. 
+L646:  Ramond E. 
+L647:  Girard J. 
+L648:  Bouillaud F. 
+L649:  Prip-Buus C. 
+L650:  
+L651:  Increasing Mitochondrial Muscle Fatty Acid Oxidation Induces Skeletal Muscle Remodeling toward an Oxidative Phenotype FASEB J. 2015 29 2473 2483 10.1096/fj.14-257717 25713059
+L652: 94. Manini T.M. 
+L653:  Clark B.C. 
+L654:  Nalls M.A. 
+L655:  Goodpaster B.H. 
+L656:  Ploutz-Snyder L.L. 
+L657:  Harris T.B. 
+L658:  Reduced Physical Activity Increases Intermuscular Adipose Tissue in Healthy Young Adults2 Am. J. Clin. Nutr. 2007 85 377 384 10.1093/ajcn/85.2.377 17284732
+L659: 95. Guilhot C. 
+L660:  Fovet T. 
+L661:  Delobel P. 
+L662:  Dargegen M. 
+L663:  Jasmin B.J. 
+L664:  Brioche T. 
+L665:  Chopard A. 
+L666:  Py G. 
+L667:  Severe Muscle Deconditioning Triggers Early Extracellular Matrix Remodeling and Resident Stem Cell Differentiation into Adipocytes in Healthy Men Int. J. Mol. Sci. 2022 23 5489 10.3390/ijms23105489 35628300
+L668: 96. Calderon-Dominguez M. 
+L669:  Sebastián D. 
+L670:  Fucho R. 
+L671:  Weber M. 
+L672:  Mir J.F. 
+L673:  García-Casarrubios E. 
+L674:  Obregón M.J. 
+L675:  Zorzano A. 
+L676:  Valverde Á.M. 
+L677:  Serra D. 
+L678:  
+L679:  Carnitine Palmitoyltransferase 1 Increases Lipolysis, UCP1 Protein Expression and Mitochondrial Activity in Brown Adipocytes PLoS ONE 2016 11 e0159399 10.1371/journal.pone.0159399 27438137
+L680: 97. Kitaoka Y. 
+L681:  The Role of Nrf2 in Skeletal Muscle on Exercise Capacity Antioxidants 2021 10 1712 10.3390/antiox10111712 34829582
+L682: 98. Keren A. 
+L683:  Tamir Y. 
+L684:  Bengal E. 
+L685:  The P38 MAPK Signaling Pathway: A Major Regulator of Skeletal Muscle Development Mol. Cell. Endocrinol. 2006 252 224 230 10.1016/j.mce.2006.03.017 16644098
+L686: 99. Bengal E. 
+L687:  Aviram S. 
+L688:  Hayek T. 
+L689:  P38 MAPK in Glucose Metabolism of Skeletal Muscle: Beneficial or Harmful? Int. J. Mol. Sci. 2020 21 6480 10.3390/ijms21186480 32899870
+L690: 100. Komiya Y. 
+L691:  Sawano S. 
+L692:  Mashima D. 
+L693:  Ichitsubo R. 
+L694:  Nakamura M. 
+L695:  Tatsumi R. 
+L696:  Ikeuchi Y. 
+L697:  Mizunoya W. 
+L698:  Mouse Soleus (Slow) Muscle Shows Greater Intramyocellular Lipid Droplet Accumulation than EDL (Fast) Muscle: Fiber Type-Specific Analysis J. Muscle Res. Cell Motil. 2017 38 163 173 10.1007/s10974-017-9468-6 28281032
+L699: 101. Bhawe K. 
+L700:  Roy D. 
+L701:  Interplay between NRF1, E2F4 and MYC Transcription Factors Regulating Common Target Genes Contributes to Cancer Development and Progression Cell. Oncol. 2018 41 465 484 10.1007/s13402-018-0395-3 30047092
+L702: 102. Randle P.J. 
+L703:  Garland P.B. 
+L704:  Hales C.N. 
+L705:  Newsholme E.A. 
+L706:  The Glucose Fatty-Acid Cycle. Its Role in Insulin Sensitivity and the Metabolic Disturbances of Diabetes Mellitus Lancet 1963 1 785 789 10.1016/S0140-6736(63)91500-9 13990765
+L707: 103. St-Pierre J. 
+L708:  Drori S. 
+L709:  Uldry M. 
+L710:  Silvaggi J.M. 
+L711:  Rhee J. 
+L712:  Jäger S. 
+L713:  Handschin C. 
+L714:  Zheng K. 
+L715:  Lin J. 
+L716:  Yang W. 
+L717:  
+L718:  Suppression of Reactive Oxygen Species and Neurodegeneration by the PGC-1 Transcriptional Coactivators Cell 2006 127 397 408 10.1016/j.cell.2006.09.024 17055439
+L719: 104. McFarlan J.T. 
+L720:  Yoshida Y. 
+L721:  Jain S.S. 
+L722:  Han X.-X. 
+L723:  Snook L.A. 
+L724:  Lally J. 
+L725:  Smith B.K. 
+L726:  Glatz J.F.C. 
+L727:  Luiken J.J.F.P. 
+L728:  Sayer R.A. 
+L729:  
+L730:  In Vivo, Fatty Acid Translocase (CD36) Critically Regulates Skeletal Muscle Fuel Selection, Exercise Performance, and Training-Induced Adaptation of Fatty Acid Oxidation * J. Biol. Chem. 2012 287 23502 23516 10.1074/jbc.M111.315358 22584574
+L731: 105. Louet J.F. 
+L732:  Le May C. 
+L733:  Pégorier J.P. 
+L734:  Decaux J.F. 
+L735:  Girard J. 
+L736:  Regulation of Liver Carnitine Palmitoyltransferase I Gene Expression by Hormones and Fatty Acids Biochem. Soc. Trans. 2001 29 310 316 10.1042/bst0290310 11356173
+L737: 106. Zizola C. 
+L738:  Kennel P.J. 
+L739:  Akashi H. 
+L740:  Ji R. 
+L741:  Castillero E. 
+L742:  George I. 
+L743:  Homma S. 
+L744:  Schulze P.C. 
+L745:  Activation of PPARδ Signaling Improves Skeletal Muscle Oxidative Metabolism and Endurance Function in an Animal Model of Ischemic Left Ventricular Dysfunction Am. J. Physiol. Heart Circ. Physiol. 2015 308 H1078 H1085 10.1152/ajpheart.00679.2014 25713305
+L746: 107. Fischer H. 
+L747:  Gustafsson T. 
+L748:  Sundberg C.J. 
+L749:  Norrbom J. 
+L750:  Ekman M. 
+L751:  Johansson O. 
+L752:  Jansson E. 
+L753:  Fatty Acid Binding Protein 4 in Human Skeletal Muscle Biochem. Biophys. Res. Commun. 2006 346 125 130 10.1016/j.bbrc.2006.05.083 16750515
+L754: 108. Glund S. 
+L755:  Deshmukh A. 
+L756:  Long Y.C. 
+L757:  Moller T. 
+L758:  Koistinen H.A. 
+L759:  Caidahl K. 
+L760:  Zierath J.R. 
+L761:  Krook A. 
+L762:  Interleukin-6 Directly Increases Glucose Metabolism in Resting Human Skeletal Muscle Diabetes 2007 56 1630 1637 10.2337/db06-1733 17363741
+L763: 109. Impey S.G. 
+L764:  Jevons E.F.P. 
+L765:  Mees G. 
+L766:  Cocks M.S. 
+L767:  Strauss J.A. 
+L768:  Chester N. 
+L769:  Laurie I. 
+L770:  Target D. 
+L771:  Hodgson A. 
+L772:  Shepherd S.O. 
+L773:  
+L774:  Glycogen Utilization during Running: Intensity, Sex, and Muscle-Specific Responses Med. Sci. Sports Exerc. 2020 52 1966 1975 10.1249/MSS.0000000000002332 32168106
+L775: 110. Hawley J.A. 
+L776:  Adaptations of Skeletal Muscle to Prolonged, Intense Endurance Training Clin. Exp. Pharmacol. Physiol. 2002 29 218 222 10.1046/j.1440-1681.2002.03623.x 11906487
+L777: 111. Li L. 
+L778:  Jiang Z. 
+L779:  Yao Y. 
+L780:  Yang Z. 
+L781:  Ma H. 
+L782:  (−)-Hydroxycitric Acid Regulates Energy Metabolism by Activation of AMPK-PGC1α-NRF1 Signal Pathway in Primary Chicken Hepatocytes Life Sci. 2020 254 117785 10.1016/j.lfs.2020.117785 32416167
+[58ms]
+

@@ -1,0 +1,201 @@
+Map results  [m_81311d13]
+Query: # Literature Multiverse extraction prompt
+
+Prompt version: 
+
+You are extracting the paper's own empirical results for one pre-registered scientific question.
+Return exactly one JSON value matching the supplied schema. Do not add prose, markdown, citations,
+paper identifiers, or fields outside that schema.
+
+## Locked question
+
+- Research question: 
+- Exposure/intervention: 
+- Comparator: 
+- Primary outcome family: 
+- Included primary endpoints: `[]`
+- `increase`: `the measured outcome value is higher with time-restricted eating than in the comparison arm`
+- `decrease`: `the measured outcome value is lower with time-restricted eating than in the comparison arm`
+- `no_effect`: `no detectable between-group difference in the outcome is reported`
+
+## Eligibility
+
+Include only the paper's own eligible empirical comparison under the locked rules below. Reviews,
+editorials, protocols without results, cited studies, reference titles, background claims, and
+results outside the target relation are not the paper's own findings.
+
+`{"article_types": ["research-article"], "exclude": ["reviews, meta-analyses, editorials, commentaries, and protocols", "observational religious-fasting studies without a controlled comparison", "studies without an eating-window contrast"], "exclude_article_types": ["review-article"], "include": ["randomized or controlled primary trials of time-restricted eating with a concurrent comparison arm", "direct measurement of at least one cardiometabolic outcome"]}`
+
+If the paper is ineligible, return `eligible=false`, one concise exclusion reason, and an empty
+`findings` array. If it is eligible but reports no usable target finding, return `eligible=true`,
+`exclusion_reason=null`, and an empty array. Never invent a finding to avoid an empty result.
+
+## Atomic finding rules
+
+Create a separate finding for every distinct outcome, endpoint, timepoint, intervention dose,
+comparator, or population stratum. Do not combine incompatible results into one row. Preserve the
+paper's original dose, duration, timepoint, effect-size, and p-value wording in the corresponding
+raw fields.
+
+Direction always means the measured outcome relative to the locked comparator—never beneficial or
+harmful. Use only `increase`, `no_effect`, `decrease`, `mixed`, or `unclear`. Use `mixed` only when an
+otherwise atomic result contains genuinely incompatible directions; use `unclear` when the source
+does not safely determine direction. The direction field must never be JSON null.
+
+For every finding, copy the shortest verbatim passage that directly supports the reported result
+and its exact `L<number>` source line or line range. Prefer Results/table-result text. Do not use a
+reference title, bibliography entry, author speculation, or a cited study as result evidence.
+Every nullable schema key must still be present with JSON null when unavailable.
+
+## Topic moderators
+
+Populate only moderator keys present in the supplied schema, following these locked definitions:
+
+`[{"allowed_values": ["early", "midday_or_late", "self_selected", "not_reported"], "bins": null, "display_name": "Eating-window timing", "kind": "paper_constant", "name": "window_timing", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["intended_isocaloric", "combined_with_energy_restriction", "ad_libitum"], "bins": null, "display_name": "Caloric design", "kind": "paper_constant", "name": "caloric_design", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["healthy", "overweight_or_obese", "prediabetes_or_type2_diabetes", "metabolic_syndrome"], "bins": null, "display_name": "Baseline metabolic state", "kind": "paper_constant", "name": "baseline_state", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["four_to_six_hours", "eight_hours", "ten_hours_or_more", "not_reported"], "bins": null, "display_name": "Eating-window length", "kind": "paper_constant", "name": "window_length", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["under_eight_weeks", "eight_to_sixteen_weeks", "over_sixteen_weeks"], "bins": null, "display_name": "Intervention duration", "kind": "paper_constant", "name": "intervention_duration", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["younger_adult", "older_adult", "mixed_or_unclear"], "bins": null, "display_name": "Age group", "kind": "paper_constant", "name": "age_group", "paper_summary": null, "permutation": "paper", "role": "descriptive", "source": "fixed", "type": "categorical"}]`
+
+Do not convert animal mg/kg dosing into human per-day dosing. Preserve ambiguous and combination
+doses in `dose_raw`; use null for a normalized value that the paper does not support.
+
+--- [1] [success] Exploring the effects of time-restricted eating on body weight and associated cardiometabolic outcomes in South African women living with HIV (TESSA): protocol for a randomised controlled trial ---
+doc_id: PMC11624751
+{"eligible": false, "exclusion_reason": "This is a study protocol for a randomized controlled trial and does not report empirical results.", "findings": []}
+
+--- [2] [success] A Randomized Pilot Study of Time-Restricted Eating Shows Minimal Microbiome Changes ---
+doc_id: PMC11722650
+{"eligible": false, "exclusion_reason": "The study's primary outcomes are gut microbiome composition and diversity metrics rather than cardiometabolic outcomes.", "findings": []}
+
+--- [3] [success] Relationship Between Sleep and Meal Timing with Glycemia Parameters in Individuals with Obesity Participating in a Randomized Time-Restricted Eating Study ---
+doc_id: PMC13259180
+{"eligible": true, "exclusion_reason": null, "findings": []}
+
+--- [4] [success] Eight‐hour time‐restricted eating does not lower daily myofibrillar protein synthesis rates: A randomized control trial ---
+doc_id: PMC10107304
+{"eligible": true, "exclusion_reason": null, "findings": [{"study_type": "randomized controlled trial", "species": "human", "model": null, "population_state": "males with overweight or obesity", "intervention": "8-hour time-restricted eating protocol (10:00 a.m. to 6:00 p.m.)", "intervention_class": "time-restricted eating", "comparator": "extended eating control protocol (8:00 a.m. to 8:00 p.m.)", "dose_raw": "8 hours eating window", "duration_raw": "10 days", "timing_context": "10:00 a.m. to 6:00 p.m.", "outcome_name": "daily integrated myofibrillar protein synthesis rate via plasma precursor", "outcome_family": "muscle protein synthesis", "timepoint_raw": "10 days", "effect_direction": "no_effect", "effect_size_raw": "TRE: 1.28% ± 0.18% per day, CON: 1.26% ± 0.22% per day", "p_value": 0.82, "significant": false, "sample_size": 18, "evidence_quote": "There were no differences in daily integrated MyoPS rates (TRE: 1.28% ± 0.18% per day, CON: 1.26% ± 0.22% per day; p = 0.82) between groups.", "evidence_lines": ["L11"], "confidence": 1.0, "moderators": {"window_timing": "midday_or_late", "caloric_design": "intended_isocaloric", "baseline_state": "overweight_or_obese", "window_length": "eight_hours", "intervention_duration": "under_eight_weeks", "age_group": "mixed_or_unclear"}}]}
+
+--- [5] [success] Impact of Time-Restricted Eating and High-Intensity Exercise on Nutrient Intake in Women with Overweight/Obesity: Secondary Analysis of a Randomized Controlled Trial ---
+doc_id: PMC11767901
+{"eligible": false, "exclusion_reason": "The paper investigates the effects of time-restricted eating, high-intensity interval training, and their combination on nutrient and energy intake, which does not constitute a cardiometabolic outcome family under the eligibility criteria.", "findings": []}
+
+--- [6] [success] A Delayed Morning and Earlier Evening Time-Restricted Feeding Protocol for Improving Glycemic Control and Dietary Adherence in Men with Overweight/Obesity: A Randomized Controlled Trial ---
+doc_id: PMC7071240
+{
+  "eligible": true,
+  "exclusion_reason": null,
+  "findings": [
+    {
+      "study_type": "randomized crossover trial",
+      "species": "human",
+      "model": null,
+      "population_state": "men with overweight/obesity",
+      "intervention": "time-restricted feeding (8 h/d; meals consumed at 1000, 1300, and 1700 h)",
+      "intervention_class": "time-restricted feeding",
+      "comparator": "extended feeding (15 h/d; meals consumed at 0700, 1400, and 2100 h)",
+      "dose_raw": "8 h/d eating window",
+      "duration_raw": "5 days",
+      "timing_context": "Day 5 of experimental condition",
+      "outcome_name": "total 24-h glucose area under the curve",
+      "outcome_family": "glycemic control",
+      "timepoint_raw": "24 hours",
+      "effect_direction": "decrease",
+      "effect_size_raw": "-5.5 ± 9.0 mmol/L/h",
+      "p_value": 0.09,
+      "significant": false,
+      "sample_size": 11,
+      "evidence_quote": "Total 24-h area under the curve (AUC total ) [glucose] tended to be lower for TRF versus EXF (−5.5 ± 9.0 mmol/L/h, p = 0.09).",
+      "evidence_lines": [
+        "L6"
+      ],
+      "confidence": 1.0,
+      "moderators": {
+        "window_timing": "midday_or_late",
+        "caloric_design": "intended_isocaloric",
+        "baseline_state": "overweight_or_obese",
+        "window_length": "eight_hours",
+        "intervention_duration": "under_eight_weeks",
+        "age_group": "younger_adult"
+      }
+    },
+    {
+      "study_type": "randomized crossover trial",
+      "species": "human",
+      "model": null,
+      "population_state": "men with overweight/obesity",
+      "intervention": "time-restricted feeding (8 h/d; meals consumed at 1000, 1300, and 1700 h)",
+      "intervention_class": "time-restricted feeding",
+      "comparator": "extended feeding (15 h/d; meals consumed at 0700, 1400, and 2100 h)",
+      "dose_raw": "8 h/d eating window",
+      "duration_raw": "5 days",
+      "timing_context": "Nocturnal (sleep) period (2300 to 0700 h)",
+      "outcome_name": "nocturnal glucose area under the curve",
+      "outcome_family": "glycemic control",
+      "timepoint_raw": "overnight sleep (2300 to 0700 h)",
+      "effect_direction": "decrease",
+      "effect_size_raw": "-4.2 ± 5.8 mmol/L/h",
+      "p_value": 0.04,
+      "significant": true,
+      "sample_size": 11,
+      "evidence_quote": "Nocturnal glucose AUC was lower in TRF (−4.2 ± 5.8 mmol/L/h, p = 0.04)",
+      "evidence_lines": [
+        "L6"
+      ],
+      "confidence": 1.0,
+      "moderators": {
+        "window_timing": "midday_or_late",
+        "caloric_design": "intended_isocaloric",
+        "baseline_state": "overweight_or_obese",
+        "window_length": "eight_hours",
+        "intervention_duration": "under_eight_weeks",
+        "age_group": "younger_adult"
+      }
+    },
+    {
+      "study_type": "randomized crossover trial",
+      "species": "human",
+      "model": null,
+      "population_state": "men with overweight/obesity",
+      "intervention": "time-restricted feeding (8 h/d; meals consumed at 1000, 1300, and 1700 h)",
+      "intervention_class": "time-restricted feeding",
+      "comparator": "extended feeding (15 h/d; meals consumed at 0700, 1400, and 2100 h)",
+      "dose_raw": "8 h/d eating window",
+      "duration_raw": "5 days",
+      "timing_context": "Day 5 of experimental condition",
+      "outcome_name": "total 24-h insulin area under the curve",
+      "outcome_family": "glycemic control",
+      "timepoint_raw": "24 hours",
+      "effect_direction": "decrease",
+      "effect_size_raw": "-114 ± 197 mIU/mL/h",
+      "p_value": 0.11,
+      "significant": false,
+      "sample_size": 11,
+      "evidence_quote": "AUC total for venous insulin concentrations tended to be lower, but was not significantly, in the TRF condition (p = 0.11; −114 ± 197 mIU/mL/h; Figure 3 I)",
+      "evidence_lines": [
+        "L44"
+      ],
+      "confidence": 1.0,
+      "moderators": {
+        "window_timing": "midday_or_late",
+        "caloric_design": "intended_isocaloric",
+        "baseline_state": "overweight_or_obese",
+        "window_length": "eight_hours",
+        "intervention_duration": "under_eight_weeks",
+        "age_group": "younger_adult"
+      }
+    }
+  ]
+}
+
+--- [7] [success] Time-Restricted Eating Combined with Exercise Reduces Menopausal Symptoms and Improves Quality of Life More than Exercise Alone in Menopausal Women: A Quasi-Randomized Controlled Trial ---
+doc_id: PMC12567392
+{"eligible": false, "exclusion_reason": "The paper does not directly measure at least one cardiometabolic outcome.", "findings": []}
+
+--- [8] [success] Effects of 8-hour time restricted feeding on body weight and metabolic disease risk factors in obese adults: A pilot study ---
+doc_id: PMC6004924
+{"eligible":true,"exclusion_reason":null,"findings":[{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"decrease","effect_size_raw":"-2.6% +/- 0.5","evidence_lines":["L14"],"evidence_quote":"Body weight and energy intake decreased in the time restricted group (–2.6% +/- 0.5; -341 +/- 53 kcal/d) relative to controls over 12 weeks (P < 0.05).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"body weight","p_value":0.05,"population_state":"obese adults","sample_size":46,"significant":true,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"decrease","effect_size_raw":"-341 +/- 53 kcal/d","evidence_lines":["L14"],"evidence_quote":"Body weight and energy intake decreased in the time restricted group (–2.6% +/- 0.5; -341 +/- 53 kcal/d) relative to controls over 12 weeks (P < 0.05).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"energy intake","p_value":0.05,"population_state":"obese adults","sample_size":46,"significant":true,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"decrease","effect_size_raw":"-7 +/- 2 mm Hg","evidence_lines":["L14"],"evidence_quote":"Systolic blood pressure decreased in the time restricted feeding group (–7 +/- 2 mm Hg) versus controls (P < 0.05).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"systolic blood pressure","p_value":0.05,"population_state":"obese adults","sample_size":46,"significant":true,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"fat mass","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"lean mass","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"visceral fat mass","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"diastolic blood pressure","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"LDL cholesterol","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"HDL cholesterol","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"triglycerides","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"fasting glucose","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"fasting insulin","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"HOMA-IR","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"},{"comparator":"matched historical control group","confidence":1.0,"dose_raw":"8-h time restricted feeding","duration_raw":"12 weeks","effect_direction":"no_effect","effect_size_raw":null,"evidence_lines":["L14"],"evidence_quote":"Fat mass, lean mass, visceral fat mass, diastolic blood pressure, LDL cholesterol, HDL cholesterol, triglycerides, fasting glucose, fasting insulin, HOMA-IR, and homocysteine were not significantly different from controls after 12 weeks (no group x time interaction).","intervention":"8-hour time restricted feeding (ad libitum feeding between 10:00 to 18:00 h)","intervention_class":"time_restricted_eating","model":null,"moderators":{"age_group":"mixed_or_unclear","baseline_state":"overweight_or_obese","caloric_design":"ad_libitum","intervention_duration":"eight_to_sixteen_weeks","window_length":"eight_hours","window_timing":"midday_or_late"},"outcome_family":null,"outcome_name":"homocysteine","p_value":null,"population_state":"obese adults","sample_size":46,"significant":false,"species":"human","study_type":"controlled trial","timepoint_raw":"12 weeks","timing_context":"10:00 to 18:00 h"}]}
+
+--- [9] [success] A Time to Eat and a Time to Exercise ---
+doc_id: PMC6948807
+{"eligible": false, "exclusion_reason": "The paper is a perspective/review article discussing diet and exercise interventions rather than an eligible primary trial of time-restricted eating.", "findings": []}
+
+--- [10] [success] The basis and design for time‐restricted eating compared with daily calorie restriction for weight loss and colorectal cancer risk reduction trial ( TRE‐CRC  trial) ---
+doc_id: PMC9691536
+{"eligible": false, "exclusion_reason": "This is a study design protocol paper describing a randomized controlled trial and does not report empirical trial results.", "findings": []}

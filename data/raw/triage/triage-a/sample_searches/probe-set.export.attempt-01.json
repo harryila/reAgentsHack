@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_76ed4053",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/probe-set.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:57:50.239013+00:00",
+  "elapsed_seconds": 0.3063543331809342,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:49.932648+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/probe-set.export.attempt-01.stderr",
+  "stdout_bytes": 127,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/probe-set.export.attempt-01.stdout"
+}

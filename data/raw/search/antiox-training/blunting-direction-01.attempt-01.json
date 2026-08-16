@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "antioxidant supplementation blunts exercise training adaptations"
+  ],
+  "completed_at": "2026-08-16T05:24:13.004186+00:00",
+  "elapsed_seconds": 2.2508630000520498,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:10.753336+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-01.attempt-01.stderr",
+  "stdout_bytes": 46969,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-01.attempt-01.stdout"
+}

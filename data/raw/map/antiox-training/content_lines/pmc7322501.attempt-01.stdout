@@ -1,0 +1,516 @@
+L1: Effect of milk fat globule membrane supplementation on motor unit adaptation following resistance training in older adults
+L2: Physiological Reports (2020)
+L3: Kohei Watanabe, Aleš Holobar, Aya Tomita, Yukiko Mita
+L4: 1 
+L5:  Laboratory of Neuromuscular Biomechanics 
+L6:  School of International Liberal Studies 
+L7:  Chukyo University 
+L8:  Nagoya 
+L9:  Japan
+L10: 2 
+L11:  Faculty of Electrical Engineering and Computer Science 
+L12:  University of Maribor 
+L13:  Maribor 
+L14:  Slovenia
+L15: 3 
+L16:  Department of Human Nutrition 
+L17:  School of Life Studies 
+L18:  Sugiyama Jogakuen University 
+L19:  Nagoya 
+L20:  Japan
+L21: This study aimed to investigate the effect of milk fat globule membrane (MFGM) supplementation on motor unit adaptation following resistance training in older adults. Twenty‐five older males and females took MFGM ( n  = 12) or a placebo (PLA;  n  = 12) while performing 8 weeks of isometric knee extension training. During the training, the motor unit firing pattern during submaximal contractions, muscle thickness, and maximal muscle strength of knee extensor muscles were measured every 2 weeks. None of the measurements showed significant differences in muscle thickness or maximal muscle strength (MVC) between the two groups ( p  > .05). Significant decreases in motor unit firing rate following the intervention were observed in PLA, that is, 14.1 ± 2.7 pps at 0 weeks to 13.0 ± 2.4 pps at 4 weeks ( p  = .003), but not in MFGM (14.4 ± 2.5 pps to 13.8 ± 1.9 pps). Motor unit firing rates in MFGM were significantly higher than those in PLA at 2, 4, 6, and 8 weeks of the intervention, that is, 15.1 ± 2.3 pps in MFGM and 14.5 ± 3.3 pps in PLA at 70% of MVC for motor units recruited at 40% of MVC at 6 weeks ( p  = .034). Significant differences in firing rates among motor units with different recruitment thresholds were newly observed following the resistance training intervention in MFGM, indicating that motor unit firing pattern is changed in this group. These results suggest that motor unit adaptation following resistance training is modulated by MFGM supplementation in older adults.
+L22: Original Research; Original Research
+L23: aging; motor unit identification; multichannel surface electromyography; nutritional supplementation
+L24: INTRODUCTION
+L25: Benefits of resistance training to prevent age‐related muscle strength loss have been widely recognized (Fragala et al.,  2019 ). Also, it has been suggested that some nutritional supplementations can enhance or modify the adaptations following resistance training (Dickinson, Volpi, & Rasmussen,  2013 ). For example, recent studies showed the enhancement of increases in muscle mass and strength following resistance training with protein supplementation in older adults (Cermak, Res, de Groot, Saris, & van Loon,  2012 ; Liao et al.,  2017 ). Protein supplementation may contribute to the improvement of muscular adaptations such as muscle hypertrophy via muscle protein synthesis. On the other hand, it has been reported that neural adaptations markedly contribute to improvements in muscle strength induced by resistance training when compared with muscular adaptations in older adults (Hakkinen et al.,  1998 ; Kamen & Knight,  2004 ; Moritani & deVries,  1980 ). For example, we had already reported that significant correlation between maximal muscle strength and motor unit firing rates in knee extensor muscles is observed in older adults, but not in young adults (Watanabe et al.,  2016 ). Kamen and Knight ( 2004 ) demonstrated that maximal motor unit firing rate increased 15% in young adults and 49% in older adults following 6 weeks resistance exercise training program (Kamen & Knight,  2004 ). These results mean that contribution and trainability of neural factors to muscle strength may be greater in older adults. However, targets for preventing age‐related muscle strength loss using nutritional supplementations combined with resistance training are primarily muscular and not neural adaptations, which would be more trainable in older adults.
+L26: Recently, some studies showed the possibility of regulating neural adaptations by nutritional supplementation in conjunction with exercise. Milk fat globule membrane (MFGM) is a membrane that surrounds the triglyceride core of each fat globule and contains sphingomyelin, which is a type of sphingolipid found in animal cell membranes, especially in the membranous myelin sheath that surrounds some nerve cell axons. Dietary ingestions of MFGM and sphingomyelin induce an increase in gene expression promoting neuromuscular junction formation in aging mice following voluntary running exercise and myelination in the central nervous system of developing rats with experimental inhibition of activity (Haramizu et al.,  2014 ; Oshida, Shimizu, Takase, Tamura, & Yamashiro,  2003 ; Yano, Haramizu, Ota, Minegishi, & Shimotoyodome,  2019 ; Yano, Minegishi, Sugita, & Ota,  2017 ). These results suggest that dietary MFGM or sphingomyelin supplementation can counteract the aging‐related dysfunctions in neural systems associated with denervation or demyelination at neuromuscular junctions. Moreover, other research showed that MFGM supplementation elicited improvements in motor functions associated with muscle strength and agility following exercise interventions in older adults (Minegishi, Ota, Soga, & Shimotoyodome,  2016 ; Ota, Soga, Hase, & Shimotoyodome,  2015 ; Soga, Ota, & Shimotoyodome,  2015 ). They also showed that MFGM ingestion increases the surface electromyography (EMG) amplitude and conduction velocity following improvement of motor functions (Minegishi et al.,  2016 ; Soga et al.,  2015 ), which may reflect an increase in motor unit firing or a change in recruitment patterns due to the ingestion of MFGM. However, the detailed effects of MFGM or sphingomyelin ingestions on neural activation, such as the motor unit firing pattern, have not been directly investigated in humans.
+L27: The motor unit decomposition technique with high‐density surface electromyography was developed to assess neural activation in humans (Farina, Merletti, & Enoka,  2014 ; Holobar, Farina, Gazzoni, Merletti, & Zazula,  2009 ; Merletti, Holobar, & Farina,  2008 ). Since this technique is noninvasive and detects a relatively larger number of motor units compared with intramuscular electromyography, it may be useful for repetitive measurements such as in intervention studies. In fact, recent studies using this novel technique have provided important new knowledge of neural adaptations following resistance training (Del Vecchio et al.,  2019 ; Martinez‐Valdes, Farina, Negro, Del Vecchio, & Falla,  2018 ; Vila‐Cha, Falla, Correia, & Farina,  2012 ; Vila‐Cha, Falla, & Farina,  2010 ). Its application may be more useful for studies in older adults, since it is well‐known that neural adaptations mainly contribute to improvement of muscle strength following resistance training in older adults (Hakkinen et al.,  1998 ; Kamen & Knight,  2004 ; Moritani & deVries,  1980 ).
+L28: The purpose of this study was to investigate the effect of MFGM supplementation on the motor unit firing pattern following resistance training in older adults. Based on previous studies reporting that exercise and MFGM ingestion induce changes in neuromuscular junctions in mice (Haramizu et al.,  2014 ; Oshida et al.,  2003 ; Yano et al.,  2017 ,  2019 ) and improvements in the motor function with an increase in surface EMG amplitude and conduction velocity in humans (Minegishi et al.,  2016 ; Soga et al.,  2015 ), neuromuscular activation should be improved following exercise with MFGM ingestion. We thus hypothesized that MFGM ingestion induces an increase in motor unit firing rates at the same absolute force and then changes adaptations in the motor unit firing pattern during resistance training.
+L29: MATERIALS AND METHODS
+L30: Participants
+L31: Twenty‐five healthy older males and females (mean age ±  SD : 73.1 ± 5.9 years, range: 63–84 years) participated in this study. The participants who were restricted any exercises by medical doctors were excluded when the participants were recruited. The subjects gave written informed consent for the study after receiving a detailed explanation of the purposes, potential benefits, and risks associated with participation. All procedures used in this study were approved by the Research Ethics Committee of Chukyo University (2018‐008) and conducted in accordance with the Declaration of Helsinki, and the study design was submitted to the University Hospital Medical Information Network in Japan (UMIN000033932).
+L32: Experimental design
+L33: Participants were randomly divided into two groups: MFGM ( n  = 12) and placebo (PLA;  n  = 12), based on the age, sex, and muscle strength at the baseline. Detailed characteristics of participants in MFGM and PLA groups are presented in Table  1 .
+L34: TABLE 1 Characteristics of participants
+L35: All participants trained their knee extensor muscles by isometric knee extension resistance training for 8 weeks. During the intervention, the participants performed the resistance training twice a week. A training day consisted of three sets of five isometric contractions during unilateral knee extension for both left and right legs with a rest interval of 60–120 s. The contraction intensity was set at greater than 80% of their maximal voluntary contraction (MVC) torque, and the performed and target torques were shown on the monitor of a personal computer as visual feedback. Each contraction consisted of a 10‐s resting phase, 1‐s increasing phase to the target torque, and a 4‐s sustained phase at or exceeding the target torque. During contractions, the experimenter requested that the subjects count to 5 s aloud in order to prevent breath‐hold and provided verbal encouragements. The target torque was updated when MVC increased after measurements conducted every 2 weeks. The dynamometer system and posture of the subjects for training were the same as for MVC measurements (see below).
+L36: Participants took tablet‐type foods including MFGM or PLA in addition to daily meals every day during the intervention. MFGM was produced from raw milk by centrifugation and ultrafiltration. MFGM contained abundant sphingomyelin. The tablets were produced by direct compression of the mixture. Detailed process of centrifugation steps was described in Ota et al. ( 2015 ). Participants took MFGM (1 g/day) or PLA (1 g/day) tablets in addition to daily meals every day during the intervention. The composition of MFGM tablets containing sphingomyelin at 43.6 mg/g was: 22.5% protein, 13.2% fat, 59.5% carbohydrate, 3.0% ash, and 1.8% moisture. The PLA tablet was prepared using milk powder instead of MFGM. The composition of PLA tablets was: 11.6% protein, 12.7% fat, 71.0% carbohydrate, 3.3% ash, and 1.4% moisture. Sphingomyelin was not detected in PLA tablets. These supplementations were the same as used in previous studies showing the enhancement of motor performance with exercise intervention in older adults (Minegishi et al.,  2016 ; Ota et al.,  2015 ; Soga et al.,  2015 ). The tablets for MFGM and PLA had a similar shape, flavor, and weight. A randomized, double‐blind, placebo‐controlled treatment was conducted for supplementation.
+L37: A dietary survey was performed at 1 and 8 weeks by a nutritionist with a license from the Ministry of Health, Labour and Welfare in Japan and they used a brief‐type self‐administered diet history questionnaire (BDHQ; Kobayashi et al.,  2012 ). Since this questionnaire asks about the history of dietary habits for a month, the results of BDHQ in the first and eighth weeks reflected daily diets before and during the intervention, respectively. We quantified total energy, protein, fat, and carbohydrate in daily diets before and during the intervention. Intakes of low‐fat milk and milk were also calculated and assessed based on this questionnaire.
+L38: The participants came to our laboratory at least 1 week prior to the first day of intervention to familiarize themselves with the instrumentation and motor tasks. Muscle strength, motor unit firing pattern, and anthropometric tests were performed every 2 weeks during the intervention: on the first day before the intervention commenced (0 weeks), and at 2, 4, 6, and 8 weeks after beginning the intervention.
+L39: Muscle strength and anthropometric tests
+L40: The MVC and rate of force development (RFD) during isometric knee extension of the right leg were measured at 0, 2, 4, 6, and 8 weeks using a custom‐made dynamometer (Takei Scientific Instruments Co., Ltd.) with force transducer (LU‐100KSE; Kyowa Electronic Instruments). During the measurement, both hip and knee joint angles were set at 90° (180° corresponds to full extension) and the distal part of the shank of the right leg was fixed to the force transducer in the dynamometer.
+L41: The participants performed at least two MVC trials with a ≥2‐min rest interval between them. An MVC trial included a gradual increase in the knee extension force to maximum effort in 2–3 s, and the plateau phase at maximum effort was maintained for 2–3 s with a verbal count given at 1‐s intervals. The highest MVC force was chosen from MVC trials and used to calculate MVC torque as a product of the knee extension force and distance between the estimated rotation axes for the knee joint in the sagittal plane. For RFD, the participants performed two sets of five trials. Rest intervals between trials and sets were 10 s and 2 min, respectively. The participants were instructed to perform the greater force as quickly as possible following a verbal count from the investigator during RFD trials.
+L42: As anthropometric data, the body mass, whole body muscle mass, and lower limb muscle mass were obtained from body impedance measurements (InBody270, InBodyJapan Inc.) at 0, 4, and 8 weeks. We also measured the thickness of knee extensor muscles of the right leg by ultrasonographic imaging (LOGIQ  e  Premium, GE Healthcare). Transversal B‐mode images were taken at 50% of the distance between the head of the greater trochanter and inferior lateral edge of the patella, at the location of the center of the electrode grid for surface EMG recording. The vertical distance between the superficial edge of the vastus lateralis (VL) muscle and superficial edge of the femur was measured as the muscle thickness with image analysis software (Image J, National Institutes of Health). This muscle thickness includes the VL and vastus intermedius muscles. A single operator blinded to information on subject groups and test periods carried out this analysis. These measurements were also used in our previous studies (Watanabe et al.,  2016 ,  2019 ).
+L43: We also estimated the level of daily physical activity by International Physical Activity Questionnaire (IPAQ short, Japanese version) during the intervention. Questions on the duration (minutes) and frequency (days/week) of walking, moderate‐intensity activities, and vigorous‐intensity activities were asked in the questionnaire. Walking in this questionnaire includes a walk during work and daily living and walking as a hobby and/or exercise. As examples of activities at each intensity, carrying light cargo, playing with children, swimming slowly, playing tennis in doubles games, and playing golf without electrical carts were categorized as examples of moderate‐intensity, and carrying heavy cargo, climbing a hill by bicycle, jogging, and playing tennis in singles games were categorized as examples of vigorous‐intensity. Based on the answers regarding the duration and frequency of each physical activity, energy expenditures were calculated for walking, moderate‐intensity activities, and vigorous‐intensity activities and total activities in a week during the intervention. Metabolic equivalent (METs) were applied for this calculation and 3.3, 4.0, and 8.0 METs were used for walking, moderate‐intensity activities, and vigorous‐intensity activities, respectively (Craig et al.,  2003 ).
+L44: Multi‐channel surface EMG recording and motor unit decomposition
+L45: For assessment of motor unit firing patterns, multi‐channel surface EMG signals were recorded from the VL muscle of the right leg during submaximal ramp contractions at 0, 2, 4, 6, and 8 weeks. Participants performed isometric knee extension ramp contractions from 0% to 30% of MVC (Ramp30) and 0% to 70% of MVC (Ramp70). The MVC torque used for calculation of the target torque in all periods was the same as for MVC measured at 0 weeks, which means that the participants exerted the same absolute value of torque at 0, 2, 4, 6, and 8 weeks. The torque measurement system and posture during these submaximal contractions were the same as those during MVC. Two trials were performed for each task with a >2‐min rest interval. Ramp30 consisted of a 15‐s increasing phase from the baseline to 30% of the MVC force level with a 2% MVC/s rate of force increase and 15‐s sustained phase at 30% of the MVC force level. Ramp70 consisted of a 14‐s increasing phase from the baseline to 70% of the MVC force level with a 5% MVC/s rate of force increase and 5‐s sustained phase at 70% of the MVC force level. Durations of ramp‐up and sustained phases in these motor tasks were determined from the results of preliminary experiments in order to maximize the numbers of detected motor units. Out of two trials, the trial with the smaller error between the target and actual forces was selected for analysis of Ramp30 and Ramp70, respectively.
+L46: We used a semi‐disposable adhesive grid of 64 electrodes with a 1‐mm diameter and 8‐mm interelectrode distance (ELSCH064NM2, OT Bioelectronica) for recording the multi‐channel surface EMG signal. The electrodes were organized in 13 rows and 5 columns with one missing electrode in the upper left corner. The method used for determining the electrode location was as previously described (Watanabe et al.,  2016 ,  2019 ). To set the electrode grid at the same position in the different periods during intervention, the electrode locations were determined using bone markers. The mid‐point of the line between the head of the greater trochanter and inferior lateral edge of the patella was used as the center of the electrode grid, and the line was also used to determine the direction of electrode grids, whereby columns of electrodes were aligned along it. A reference electrode (WS1, OT Bioelectronica) was placed at the right knee. Monopolar surface EMG signals were recorded with a band‐pass filter (10–450 Hz), and amplified by a factor of 500, sampled at 2,048 Hz, and converted to a digital form by a 16‐bit analog‐to‐digital converter (Quattrocento, OT Bioelectronica). The signal from the force transducer was synchronized with this analog‐to‐digital converter.
+L47: Recorded monopolar surface EMG signals were transferred to analysis software (MATLAB R2018a, MathWorks GK), and individual motor units were identified by the Convolution Kernel Compensation (CKC) technique using DEMUSE software (Holobar et al.,  2009 ; Holobar & Zazula,  2004 ,  2008 ; Merletti et al.,  2008 ). We followed the decomposition procedure previously and extensively validated based on signals from various skeletal muscles (Farina, Holobar, Merletti, & Enoka,  2010 ; Gallego, Dideriksen, Holobar, Ibanez, Glaser, et al.,  2015 ; Gallego, Dideriksen, Holobar, Ibanez, Pons, et al.,  2015 ; Holobar et al.,  2009 ; Watanabe et al.,  2016 ,  2018 ; Yavuz et al.,  2015 ). The pulse‐to‐noise ratio (PNR), introduced by Holobar, Minetto, and Farina ( 2014 ), was used as an indicator of the motor unit identification accuracy (Holobar et al.,  2014 ), and only motor units with PNR > 30 dB (corresponding to an accuracy of motor unit firing identification >90%) were used for further analysis; all other motor units were discarded (Holobar et al.,  2014 ). After decomposition, discharge patterns of individual motor units were independently examined by two experienced investigators. Discharge times for individual motor units were used to calculate instantaneous motor unit firing rates. We excluded discharges with inter‐discharge intervals <33.3 or >250 ms, since firing rates calculated from this range of inter‐discharge intervals are unusually high (>30 Hz) or low (<4 Hz) for the VL muscle (Adam & De Luca,  2005 ; Holobar et al.,  2009 ; Watanabe et al.,  2013 ,  2016 ; Welsh, Dinenno, & Tracy,  2007 ). These procedures were the same as those used in our previous studies (Watanabe et al.,  2016 ,  2018 ,  2019 ).
+L48: Median values of firing rates of individual motor units were calculated from instantaneous firing rates every 5% of MVC for Ramp30 and 10% of MVC for Ramp70, and those with >30% coefficient of variation were excluded from further analysis (Fuglevand, Winter, & Patla,  1993 ). Detected motor units were divided into three groups by the recruitment force: motor units recruited at <10% (MU10), 10%–20% (MU20), and 20%–30% (MU30) of MVC for Ramp30 and at <20% (MU20), 20%–40% (MU40), and 40%–60% (MU60) of MVC for Ramp70. Mean motor unit firing rates were calculated from all motor units from subjects of the same group for each motor unit group with different recruitment thresholds every 5% and 10% of MVC for Ramp30 and Ramp70 in different periods. This procedure to calculate the motor unit firing rate was the same as in our previous studies (Watanabe et al.,  2016 ,  2018 ,  2019 ).
+L49: Statistics
+L50: The results are reported as the mean ±  SD . Since our results included non‐normal distributed data and were measured based on small samples, the present study used nonparametric statistical tests. At 0 weeks, the age, height, body mass, whole body muscle mass, and lower limb muscle mass measured by the body impedance method, muscle tissue thicknesses measured by ultrasonography, MVC, and RFD were compared between the groups by the Mann–Whitney test. The body mass, whole body muscle mass, lower limb muscle mass, muscle tissue thicknesses, MVC, and RFD in all measured periods were analyzed by the Friedmann test to examine the effect of intervention in each group. When significant effects of intervention were observed, the Bonferroni–Dunn test was used to compare the values at 2, 4, 6, and 8 weeks with the value at 0 weeks (Pereira, Afonso, & Medeiros,  2015 ). Also, these values in each period, nutritional parameters before and during the intervention, and levels of physical activity during the intervention were compared between the groups by the Mann–Whitney test.
+L51: For motor unit firing rates of each motor unit group, the effects of intervention and nutritional supplementation were assessed by the Kruskal–Wallis test with Dunn's test for each participants’ group and the Mann–Whitney test between MFGM and PLA groups. To assess the relationship of the firing rate among the different motor unit groups for quantification of the motor unit firing pattern, the motor unit firing rate at each force level was also compared among the motor unit groups with different recruitment forces by the Kruskal–Wallis test with Dunn's test. Since this study used multiple comparisons, the level of significance was modified by Bonferroni correction (the modified level of significance was 0.05/ the numbers of comparisons for each analysis) to minimize the family wise error rate and to keep statistical power (Vincent,  2005 ). Therefore, for example, the level of significance in the post hoc test to compare the variables among the periods was set at 0.0125 (0.05/4) when the variables at 2, 4, 6, and 8 weeks are compared with 0 weeks (4 pairs). The level of significance in comparisons between two groups was set at 0.05. Statistical analysis was performed using SPSS (version 21.0, SPSS) and MATLAB (R2018a, MathWorks GK).
+L52: Statistical power was calculated for comparisons between the groups for each period and among the periods for each group in the variables used in this study (Vincent,  2005 ).
+L53: RESULTS
+L54: Anthropometric and muscle strength tests and others
+L55: At 0 weeks, there were no significant differences in age ( p  = .320), height ( p  = .689), body mass ( p  = .728), whole body muscle mass ( p  = .852), lower limb muscle mass ( p  = .769), muscle tissue thicknesses ( p  = .320), MVC ( p  = .713), or RFD ( p  = .256) between MFGM and PLA groups (Tables  1  and  2 ). Significant increases in MVC at 4 ( p  = .001), 6 ( p  = .001), and 8 weeks ( p  = .003) and in RFD at 8 weeks ( p  = .003) compared with 0 weeks were observed in the PLA group (Table  2 ).
+L56: TABLE 2 Results of anthropometric parameters and motor functions
+L57: There were no significant differences in nutritional parameters, that is, total energy ( p  = .186 and .295), protein ( p  = .205 and .247), fat ( p  = .320 and .689), carbohydrate ( p  = .137 and .574), milk ( p  = .936 and .769), or low‐fat milk ( p  = .611 and .295), between the MFGM and PLA groups before or during the intervention (Table  3 ). Total energy ( p  = .012) and carbohydrate ( p  = .006) levels in the MFGM group and milk consumption ( p  = .017) in PLA were significantly increased and decreased from before to during the intervention (Table  3 ).
+L58: TABLE 3 Results of diet survey using a brief‐type self‐administered diet history questionnaire (BDHQ)
+L59: Regarding levels of physical activity, while no significant differences were observed between the MFGM and PLA groups ( p  > .05), walking ( p  = .114), moderate‐intensity activities ( p  = .089) and total activities ( p  = .101) tended to be greater in the PLA than MFGM group (Table  4 ).
+L60: TABLE 4 Levels of daily physical activity calculated from International Physical Activity Questionnaire
+L61: Motor unit firing patterns
+L62: In this study, 679 and 555 motor units in the MFGM group and 831 and 501 motor units in the PLA group were detected and used for analysis during Ramp30 and Ramp70, respectively.
+L63: Motor unit firing rates in the MFGM group were not significantly changed during the intervention in MU10 ( p  = .477, .766, .791, .584, and .289 at 10%, 15%, 20%, 25%, and 30% of MVC), MU20 ( p  = .851, .771, and .636 at 20%, 25%, and 30% of MVC), and MU30 ( p  = .446 at 30% of MVC) for Ramp30 (Figure  1 ) and in MU20 ( p  = .481, .918, .654, .559, .534, and .324 at 20%, 30%, 40%, 50%, 60%, and 70% of MVC), MU40 ( p  = .956, .805, .599, and .412 at 40%, 50%, 60%, and 70% of MVC), and MU60 ( p  = .483 and .099 at 60% and 70% of MVC) for Ramp70 (Figure  2 ). For Ramp30, firing rates of MU20 were significantly decreased at 20% of MVC in 4 weeks (8.4 ± 1.6 pps,  p  = .001) and at 25% of MVC in 4 (9.3 ± 1.7 pps,  p  = .001) and 6 weeks (9.8 ± 1.8 pps,  p  = .004) when compared with those at 0 weeks (9.7 ± 1.8 and 10.3 ± 1.7 pps at 20% and 25% of MVC) in the PLA group (Figure  1 ). For Ramp70, firing rates of MU40 were significantly decreased at 40% of MVC in 2 weeks (9.8 ± 1.5 pps,  p  = .004), at 50% and 60% of MVC in 2 (11.3 ± 1.7 and 12.6 ± 1.7 pps,  p  = .001 and .004) and 4 weeks (11.5 ± 2.2 and 13.0 ± 2.4 pps,  p  = .004 and .003), respectively, and at 70% of MVC in 2 weeks (13.7 ± 2.2 pps,  p  = .005) when compared with those at 0 weeks (11.7 ± 2.1, 13.3 ± 2.3, 14.1 ± 2.7, and 15.2 ± 2.8 pps at 40%, 50%, 60%, and 70% of MVC) in the PLA group (Figure  2 ).
+L64: FIGURE 1 Motor unit firing rates during Ramp30 for the groups with ingestions of milk fat globule membrane (MFGM; upper panels) and placebo (PLA; lower panels). MU10: motor units recruited at <10% of maximal voluntary contraction (MVC), MU20: motor units recruited at 10%–20% of MVC, MU30: motor units recruited at 20%–30% of MVC. The symbol * indicates significant differences ( p  < .0125) when compared with 0 weeks
+L65: FIGURE 2 Motor unit firing rates during Ramp70 for the groups with ingestions of milk fat globule membrane (MFGM; upper panels) and placebo (PLA; lower panels). MU20: motor units recruited at <20% of maximal voluntary contraction (MVC), MU40: motor units recruited at 20%–40% of MVC, MU60: motor units recruited at 40%–60% of MVC. The symbol * indicates significant differences ( p  < .0125) when compared with 0 weeks
+L66: At 0 weeks, significant higher firing rates in MFGM when comparing with PLA were observed in MU10 at 25% of MVC (11.9 ± 1.7 pps for MFGM and 11.0 ± 1.8 pps for PLA,  p  = .027) and in MU30 at 30% of MVC (10.5 ± 1.8 pps for MFGM and 9.6 ± 1.6 pps for PLA,  p  = .007) for Ramp30 (Figure  3 ) and in MU60 at 70% of MVC (15.3 ± 2.9 pps for MFGM and 13.9 ± 3.0 pps for PLA,  p  = .026) for Ramp70 (Figure  4 ). At 2 weeks, significant higher firing rates in MFGM when comparing with PLA were observed in MU10 at 10% (9.7 ± 2.3 pps for MFGM and 8.6 ± 1.6 pps for PLA,  p  = .031), 15% (11.5 ± 1.8 pps for MFGM and 9.4 ± 1.6 pps for PLA,  p  = .001), 20% (12.3 ± 1.6 pps for MFGM and 10.1 ± 1.9 pps for PLA,  p  = .001), 25% (12.5 ± 1.6 pps for MFGM and 10.5 ± 1.8 pps for PLA,  p  = .001), and 30% of MVC (12.6 ± 1.8 pps for MFGM and 10.7 ± 2.0 pps for PLA,  p  = .001), in MU20 at 20% (10.3 ± 1.6 pps for MFGM and 9.1 ± 1.9 pps for PLA,  p  = .001), 25% (11.3 ± 1.5 pps for MFGM and 9.9 ± 1.9 pps for PLA,  p  = .001), and 30% of MVC (11.3 ± 1.4 pps for MFGM and 10.2 ± 2.0 pps for PLA,  p  = .001) and in MU30 at 30% of MVC (10.2 ± 1.4 pps for MFGM and 9.4 ± 1.6 pps for PLA,  p  = .010) for Ramp30 (Figure  3 ) and in MU20 at 30% (11.1 ± 2.1 pps for MFGM and 10.3 ± 1.9 pps for PLA,  p  = .022), 40% (12.0 ± 2.1 pps for MFGM and 11.1 ± 2.0 pps for PLA,  p  = .004), and 50% of MVC (13.0 ± 2.2 pps for MFGM and 12.1 ± 2.1 pps for PLA,  p  = .006) and in MU40 at 40% (11.4 ± 1.7 pps for MFGM and 9.8 ± 1.5 pps for PLA,  p  = .001), 50% (12.7 ± 1.6 pps for MFGM and 11.3 ± 1.7 pps for PLA,  p  = .001), 60% (13.6 ± 1.7 pps for MFGM and 12.6 ± 1.7 pps for PLA,  p  = .007), and 70% of MVC (14.5 ± 1.8 pps for MFGM and 13.7 ± 2.2 pps for PLA,  p  = .019) for Ramp70 (Figure  4 ). At 4, 6, and 8 weeks, same trends of significant differences in motor unit firing rates between the MFGM and PLA groups (Figures  3  and  4 ).
+L67: FIGURE 3 Comparisons of motor unit firing rates during Ramp30 between the groups with ingestions of milk fat globule membrane (MFGM; filled circles) and placebo (PLA; open circles). MU10: motor units recruited at <10% of maximal voluntary contraction (MVC), MU20: motor units recruited at 10%–20% of MVC, MU30: motor units recruited at 20%–30% of MVC. The symbol * indicates significant differences ( p  < .05) between MFGM and PLA groups
+L68: FIGURE 4 Comparisons of motor unit firing rates during Ramp70 between the groups with ingestions of milk fat globule membrane (MFGM; filled circles) and placebo (PLA; open circles). MU20: motor units recruited at <20% of maximal voluntary contraction (MVC), MU40: motor units recruited at 20%–40% of MVC, MU60: motor units recruited at 40%–60% of MVC. The symbol * indicates significant differences ( p  < .05) between MFGM and PLA groups
+L69: For MFGM, firing rates of MU10 were significantly higher than those of MU30 at 30% of MVC at 0, 2, 4, 6, and 8 weeks ( p  = .004, .001, .010, .005, and .001) and were significantly higher than those of MU20 at 25% and 30% of MVC at 2 weeks ( p  = .024 and .007) and at 30% of MVC at 8 weeks ( p  = .010) and firing rate of MU20 were significantly higher than those of MU30 at 30% of MVC at 2 weeks ( p  = .015) for Ramp30 (Figure  5 ). For PLA, firing rate of MU10 were significantly higher than those of MU30 at 30% of MVC at 0, 4, and 8 weeks ( p  = .001, .001, and .013) and were significantly higher than those of MU20 at 25% and 30% of MVC at 4 weeks ( p  = .012 and .006) and firing rate of MU20 were significantly higher than those of MU30 at 30% of MVC at 0 and 2 weeks ( p  = .009 and .004) for Ramp30 (Figure  5 ). For MFGM, firing rates of MU20 were significantly higher than those of MU40 at 50% of MVC at 2 weeks ( p  = .007) and at 60% of MVC at 8 weeks ( p  = .002) and were significantly higher than those of MU60 at 70% of MVC at 2 weeks ( p  = .010) and at 60% of MVC at 8 weeks ( p  = .004) for Ramp70 (Figure  6 ). For PLA, firing rates of MU20 were significantly higher than those of MU40 at 60% of MVC at 0, 2, and 6 weeks ( p  = .001, .005, and .006) and were significantly higher than those of MU60 at 60% of MVC at 4, 6, and 8 weeks ( p  = .003, .001, and .015) and firing rates of MU40 were significantly higher than those of MU60 at 60% of MVC at 4 and 6 weeks ( p  = .008 and .004) for Ramp70 (Figure  6 ).
+L70: FIGURE 5 Comparisons of motor unit firing rates during Ramp30 among motor units with different recruitment thresholds for the groups with ingestions of milk fat globule membrane (MFGM; upper panels) and placebo (PLA; lower panels). MU10: motor units recruited at <10% of maximal voluntary contraction (MVC), MU20: motor units recruited at 10%–20% of MVC, MU30: motor units recruited at 20%–30% of MVC. The symbols a, b, and c indicate significant differences ( p  < .05) between MU10 and MU20, MU20 and MU30, and MU10 and MU30, respectively
+L71: FIGURE 6 Comparisons of motor unit firing rates during Ramp70 among motor units with different recruitment thresholds for the groups with ingestions of milk fat globule membrane (MFGM; upper panels) and placebo (PLA; lower panels). MU20: motor units recruited at <20% of maximal voluntary contraction (MVC), MU40: motor units recruited at 20%–40% of MVC, MU60: motor units recruited at 40%–60% of MVC. The symbols a, b, and c indicate significant differences ( p  < .05) between MU20 and MU40, MU40 and MU60, and MU20 and MU60, respectively
+L72: The average values and standard deviations (range) of power analysis for comparisons between groups at each period were 95.7 ± 1.7 (92.9–97.3) for MVC, 81.6 ± 9.4 (70.5–91.5) for RFD, 88.8 ± 5.3 (80.0–93.7) for muscle thickness, 89.0 ± 0.7 (88.2–89.7) for body mass, 94.8 ± 0.2 (94.5–94.9) for whole body muscle mass, 93.6 ± 0.7 (94.2–92.9) for lower limb muscle mass, 90.9 ± 8.2 (73.6–97.0) for nutritional parameters, 87.1 ± 14.4 (60.6–100.0) for firing rate of motor units recruited at <10% of MVC during Ramp30, 88.0 ± 15.4 (52.3–100.0) for firing rate of motor units recruited at 10%–20% of MVC during Ramp30, 71.8 ± 4.5 (66.7–78.1) for firing rate of motor units recruited at 20%–30% of MVC during Ramp30, 79.6 ± 16.3 (50.3–99.9) for firing rate of motor units recruited at <20% of MVC during Ramp70, 80.1 ± 15.8 (50.3–99.8) for firing rate of motor units recruited at 20%–40% of MVC during Ramp70, and 74.6 ± 17.9 (57.6–99.2) for firing rate of motor units recruited at 40%–60% of MVC during Ramp70. The average values and standard deviations (range) of power analysis for comparisons among periods for each group were 90.4 ± 5.3 (84.2–95.9) for MVC, 93.0 ± 5.0 (82.0–97.3) for RFD, 95.5 ± 2.1 (92.1–97.5) for muscle thickness, 96.2 ± 1.6 (94.1–97.5) for body mass, 97.0 ± 0.2 (96.8–97.2) for whole body muscle mass, 97.2 ± 0.3 (96.8–97.5) for lower limb muscle mass, 87.6 ± 11.0 (59.3–97.2) for nutritional parameters, 79.6 ± 15.8 (50.9–97.4) for firing rate of motor units recruited at <10% of MVC during Ramp30, 81.7 ± 12.0 (53.7–97.4) for firing rate of motor units recruited at 10%–20% of MVC during Ramp30, 88.0 ± 10.1 (67.1–97.2) for firing rate of motor units recruited at 20%–30% of MVC during Ramp30, 77.8 ± 12.6 (53.5–96.2) for firing rate of motor units recruited at <20% of MVC during Ramp70, 81.8 ± 13.8 (51.4–97.4) for firing rate of motor units recruited at 20%–40% of MVC during Ramp70, and 83.1 ± 10.3 (61.8–97.5) for firing rate of motor units recruited at 40%–60% of MVC during Ramp70.
+L73: DISCUSSION
+L74: This study examined the effect of MFGM supplementation on the motor unit firing pattern following 8 weeks of resistance training in older adults. We found no significant differences in muscle thickness or maximal muscle strength between the two groups, significant differences in motor unit firing rates at 2, 4, 6, and 8 weeks after the intervention between the two groups, and different time‐courses in changes of relationships in firing rates among different motor unit groups with different recruitment thresholds between the two groups. These results do not support a part of our hypotheses that MFGM ingestion induces an increase in motor unit firing rates at the same absolute force and then changes adaptations in the motor unit firing pattern during the intervention of resistance training.
+L75: We applied three sets of five isometric contractions at greater than 80% of MVC twice a week for 8 weeks to both MFGM and PLA groups in this study. This training regimen may be of a higher intensity and lower volume when compared with those widely used and recommended for older adults (Fragala et al.,  2019 ). Our previous study used double the training volume applied in the present study, that is, 3 sets of 10 isometric contractions at greater than 80% of MVC twice a week for 8 weeks, inducing an increase of 24.7%/ 8 weeks in older adults (Watanabe et al.,  2019 ). In the present study, PLA showed a significant increase in MVC at 4, 6, and 8 weeks when compared with 0 weeks ( p  < .05), while no significant changes were observed in MVC for the MFGM group during the intervention ( p  > .05). Rates of MVC increase in MFGM and PLA groups from 0 to 8 weeks were 6.1 and 18.7%/8 weeks, respectively. Although rates of increase were lower, a detectable training effect on muscle strength was confirmed in PLA, which employed higher‐intensity and lower‐volume resistance training. However, inter‐individual differences in muscle strength gain are greater in the training regimen employed in this study. This could be the reason why we did not detect a significant increase in MVC for the MFGM group during the intervention. Also, we detected the trend of a lower RFD (Table  2 ) and greater physical activity (Table  4 ) in the PLA group. Although we could not detect any relationships between these parameters and MVC such as in correlation analysis, trainability of the force production capacity and/or physical activity in daily life may partly explain the significant increase in MVC only in the PLA group. Whole body and lower extremity muscle mass and muscle thickness, which are indicators of muscular adaptations, were not significantly changed during the intervention. These results are similar to those of our previous study using double the training volume (Watanabe et al.,  2019 ).
+L76: When comparing motor unit firing rates between the groups, the MFGM group showed greater firing rates than the PLA group after 2 weeks of intervention for Rmap30 and Ramp70 ( p  < .05; Figures  3  and  4 ). These differences may be explained by a different trend of changes in motor unit firing rates during the intervention between the MFGM and PLA groups. Motor unit firing rates in the MFGM group tended to gradually increase following the intervention, while significant differences were not detected (Figures  1  and  2 ). Recent studies using high‐density surface EMG showed that resistance training induces an increase in the motor unit firing rate during submaximal contractions (Del Vecchio et al.,  2019 ; Vila‐Cha et al.,  2010 ), and suggest that this adaptation is elicited by an increase in the net excitability input to the motor neuron pool for the same relative forces. Therefore, we consider that adaptations in the MFGM group are in line with adaptations that are generally recognized as motor unit adaptations following resistance training. The absence of significant differences in the increase in the motor unit firing rate after the intervention in the MFGM group could be explained by the relatively lower training volume in this study. On the other hand, the motor unit firing rate in the PLA group tended to decrease from 0 to 4 or 6 weeks during the intervention, and parts showed significant differences (Figures  1  and  2 ). While an increase or no change in the motor unit firing rate following resistance training was reported in most previous studies, Pucci et al. reported a decrease in the motor unit firing rate at the same absolute force level during 3 weeks of isometric training of the quadriceps femoris muscles in young adults (Pucci, Griffin, & Cafarelli,  2006 ). They suggested that a leftward shift in the force‐firing rate curve was a cause of a decrease in the motor unit firing rate at absolute forces. In fact, the PLA group showed a significant increase in MVC after 4 weeks of intervention ( p  < .05; Table  2 ), and the force‐firing rate curve in that group should show a leftward shift. From these results, opposite changes between the MFGM and PLA groups in motor unit firing rates during the intervention would be the main cause of significant differences in motor unit firing rates between them after 2 weeks of intervention (Figures  3  and  4 ). We also detected differences in changes in the motor unit firing pattern between MFGM and PLA groups based on relationships of the firing rate among motor unit groups with different recruitment thresholds (Figures  5  and  6 ). In order to quantify changes in the motor unit firing pattern, we counted the pairs of motor unit groups showing significant differences in the firing rate at each force level, and interpreted changes in the number of pairs as changes in motor unit firing patterns (Watanabe et al.,  2019 ). We already reported that significant differences in firing rates among motor unit groups with different recruitment thresholds are present in young but not older adults (Watanabe et al.,  2016 ), and that these significant differences can be induced by resistance training intervention in older adults (Watanabe et al.,  2018 ,  2019 ). The numbers of pairs of motor unit groups showing a significant difference increased from 0 to 2 weeks in the MFGM group and from 2 to 4 weeks in the PLA group for both Ramp 30 and Ramp70 (Figures  5  and  6 ). These results can be interpreted as follows: a change in the motor unit firing pattern in the MFGM group occurs in an earlier phase of intervention than in the PLA group. Also, since an increase in the motor unit firing rate during resistance training intervention has been reported as a general neural adaptation, MFGM ingestion may induce neural adaptation even with a relatively lower training volume that cannot increase the motor unit firing rate with PLA.
+L77: Variations in changes in the motor unit firing pattern following resistance training have been identified in previous studies, and these would be due to differences in the training regimen, such as intensity, frequency, volume, and contraction mode (Duchateau, Semmler, & Enoka,  2006 ; Gabriel, Kamen, & Frost,  2006 ). Since this study used the same training regimen for the two groups, differences in changes in the motor unit firing rate may be mainly caused by nutritional supplementation. Our previous studies already identified alterations in motor unit adaptation following resistance training induced by nutritional supplementation (Watanabe et al.,  2018 ,  2019 ). During 8 weeks of resistance training intervention, while significant increases in the muscle volume were found in older adults with fish protein ingestion, no significant changes in the muscle volume and marked changes in motor unit firing patterns were noted in older adults without fish protein ingestion (Watanabe et al.,  2019 ). This previous study suggested that nutritional supplementation could separately modulate neural and muscular adaptations following resistance training. Using MFGM ingestion, Ota et al. ( 2015 ), Soga et al. ( 2015 ), and Minegishi et al. ( 2016 ) showed that nutritional supplementation induces a greater increase in motor functions following exercise intervention for older adults (Minegishi et al.,  2016 ; Ota et al.,  2015 ; Soga et al.,  2015 ). They also noted marked changes in electrophysiological parameters such as the conduction velocity and amplitude in surface EMG on MFGM ingestion. These results suggest that improvement of motor functions by MFGM ingestion can be partly explained by neural adaptations, and this possibility may be supported by previous studies using mice. Oshida et al. ( 2003 ) and Yano et al. ( 2017 ) reported that MFGM and its major component (sphingomyelin) contribute to repairing denervation or demyelination at neuromuscular junctions in aged mice (Oshida et al.,  2003 ; Yano et al.,  2017 ). Although the present study did not involve the measurement of any physiological responses associated with neuromuscular junctions, different changes in the motor unit firing pattern between MFGM and PLA groups could be partly explained by alterations in the neuromuscular system induced by MFGM ingestion that are noted in animal studies. Also, we did not detect increases in MVC in MFGM and significant differences in MVC and RFD between MFGM and PLA, although MFGM and PLA showed different motor unit adaptations. Due to methodological limitations, we only used submaximal contraction to record multi‐channel surface EMG. We thus assumed that differences in the performed force levels could explain the inconsistent results between motor function test such as MVC or RFD that require maximal contraction and motor unit firing patterns that required submaximal contraction.
+L78: It should be noted that this study was performed without sample size calculation before the experiment and statistical power was confirmed by a postanalysis statistical power analysis. Since many studies set a power at 80% (0.80; Hulley, Cummings, Browner, Grady, & Newman,  2013 ) and the mean values of statistical powers of this study were greater than 80%, statistical powers of this study could be sufficient to analyze the observed results. It is thought that the results of power analysis in percentage mean chance of rejecting the null hypothesis (Vincent,  2005 ). We thus interpreted that statistical powers in our study were enough to compare the variables between groups and among the periods.
+L79: We applied combination of resistance training and nutritional supplementations to older adults for testing the effect of MFGM ingestion on resistance training‐induced motor unit adaptations. To clarify the effect of MFGM ingestion, physical activity level, and nutritional condition in daily life during the intervention should be controlled to minimize the effects other than the resistance training and MFGM ingestion. Physiological adaptation may be induced by parts of physical activity and daily meals. We detected greater physical activity levels in PLA while statistical significances were not observed and large inter‐individual variations in physical activity level in each group (Table  4 ). Since we provided high‐intensity training that the participants would not experience in normal daily life even if they have exercise habits, we would be able to conclude that the training regimen in the present study is specific stimulus for the participants’ neuromuscular systems and induces training‐specific physiological adaptations in all participants. Moreover, we should note that MFGM showed significant increases in total energy and carbohydrate consumption during the intervention (Table  3 ). Daily meals would be also important factors for exercise‐induced physiological adaptations. To our knowledge, no studies reported that total energy and carbohydrate consumption change neural adaptations such as motor unit firing patterns during resistance training. These variations in physical activity level and nutritional condition between the groups should be noted when the results of our study are interpreted. Further work with more controlled conditions would be necessary to clarify the detailed functions of MFGM ingestion during training intervention.
+L80: CONCLUSION
+L81: We investigated the effect of MFGM supplementation on motor unit adaptation following resistance training in 24 older adults. During 8 weeks of intervention: there were no significant differences in muscle thickness or maximal muscle strength between the two groups ( p  > .05); there were significant differences in motor unit firing rates at 2, 4, 6, and 8 weeks after the intervention between the two groups ( p  < .05); and the time‐course of changes in relationships of the firing rate among different motor unit groups with different recruitment thresholds differed between the two groups ( p  < .05). These results suggest that MFGM supplementation induces different motor unit adaptation in older adults.
+L82: CONFLICT OF INTEREST
+L83: The authors have no conflicts of interest related to the study.
+L84: AUTHOR CONTRIBUTION
+L85: KW: Planning research, conducting experiment, analyzing data, discussing results, and writing paper. AH: Analyzing data, discussing results, and editing and reviewing manuscript. AT: Planning research, conducting experiment, analyzing data, discussing results, and editing and reviewing manuscript. YM: planning research, analyzing data, discussing results, and editing and reviewing manuscript.
+L86: Adam ,  A. 
+L87:  , &  
+L88:  De Luca ,  C. J. 
+L89:   ( 2005 ).  Firing rates of motor units in human vastus lateralis muscle during fatiguing isometric contractions .  Journal of Applied Physiology ,  99 ,  268 – 280 .  10.1152/japplphysiol.01344.2004 
+L90:  16036904
+L91: Cermak ,  N. M. 
+L92:  ,  
+L93:  Res ,  P. T. 
+L94:  ,  
+L95:  de Groot ,  L. C. 
+L96:  ,  
+L97:  Saris ,  W. H. 
+L98:  , &  
+L99:  van Loon ,  L. J. 
+L100:   ( 2012 ).  Protein supplementation augments the adaptive response of skeletal muscle to resistance‐type exercise training: A meta‐analysis .  American Journal of Clinical Nutrition ,  96 ,  1454 – 1464 .  10.3945/ajcn.112.037556 
+L101:  23134885
+L102: Craig ,  C. L. 
+L103:  ,  
+L104:  Marshall ,  A. L. 
+L105:  ,  
+L106:  Sjostrom ,  M. 
+L107:  ,  
+L108:  Bauman ,  A. E. 
+L109:  ,  
+L110:  Booth ,  M. L. 
+L111:  ,  
+L112:  Ainsworth ,  B. E. 
+L113:  , …  
+L114:  Oja ,  P. 
+L115:   ( 2003 ).  International physical activity questionnaire: 12‐country reliability and validity .  Medicine and Science in Sports and Exercise ,  35 ,  1381 – 1395 .  10.1249/01.MSS.0000078924.61453.FB 
+L116:  12900694
+L117: Del Vecchio ,  A. 
+L118:  ,  
+L119:  Casolo ,  A. 
+L120:  ,  
+L121:  Negro ,  F. 
+L122:  ,  
+L123:  Scorcelletti ,  M. 
+L124:  ,  
+L125:  Bazzucchi ,  I. 
+L126:  ,  
+L127:  Enoka ,  R. 
+L128:  , …  
+L129:  Farina ,  D. 
+L130:   ( 2019 ).  The increase in muscle force after 4 weeks of strength training is mediated by adaptations in motor unit recruitment and rate coding .  The Journal of Physiology ,  597 ,  1873 – 1887 .  10.1113/JP277250 
+L131:  30727028
+L132: Dickinson ,  J. M. 
+L133:  ,  
+L134:  Volpi ,  E. 
+L135:  , &  
+L136:  Rasmussen ,  B. B. 
+L137:   ( 2013 ).  Exercise and nutrition to target protein synthesis impairments in aging skeletal muscle .  Exercise and Sport Sciences Reviews ,  41 ,  216 – 223 .  10.1097/JES.0b013e3182a4e699 
+L138:  23873131
+L139: Duchateau ,  J. 
+L140:  ,  
+L141:  Semmler ,  J. G. 
+L142:  , &  
+L143:  Enoka ,  R. M. 
+L144:   ( 2006 ).  Training adaptations in the behavior of human motor units .  Journal of Applied Physiology ,  101 ,  1766 – 1775 .  10.1152/japplphysiol.00543.2006 
+L145:  16794023
+L146: Farina ,  D. 
+L147:  ,  
+L148:  Holobar ,  A. 
+L149:  ,  
+L150:  Merletti ,  R. 
+L151:  , &  
+L152:  Enoka ,  R. M. 
+L153:   ( 2010 ).  Decoding the neural drive to muscles from the surface electromyogram .  Clinical Neurophysiology ,  121 ,  1616 – 1623 .  10.1016/j.clinph.2009.10.040 
+L154:  20444646
+L155: Farina ,  D. 
+L156:  ,  
+L157:  Merletti ,  R. 
+L158:  , &  
+L159:  Enoka ,  R. M. 
+L160:   ( 2014 ).  The extraction of neural strategies from the surface EMG: An update .  Journal of Applied Physiology ,  117 ,  1215 – 1230 .  10.1152/japplphysiol.00162.2014 
+L161:  25277737
+L162: Fragala ,  M. S. 
+L163:  ,  
+L164:  Cadore ,  E. L. 
+L165:  ,  
+L166:  Dorgo ,  S. 
+L167:  ,  
+L168:  Izquierdo ,  M. 
+L169:  ,  
+L170:  Kraemer ,  W. J. 
+L171:  ,  
+L172:  Peterson ,  M. D. 
+L173:  , &  
+L174:  Ryan ,  E. D. 
+L175:   ( 2019 ).  Resistance training for older adults: position statement from the national strength and conditioning association .  Journal of Strength and Conditioning Research / National Strength & Conditioning Association ,  33 ,  2019 – 2052 .  10.1519/JSC.0000000000003230
+L176: Fuglevand ,  A. J. 
+L177:  ,  
+L178:  Winter ,  D. A. 
+L179:  , &  
+L180:  Patla ,  A. E. 
+L181:   ( 1993 ).  Models of recruitment and rate coding organization in motor‐unit pools .  Journal of Neurophysiology ,  70 ,  2470 – 2488 .  10.1152/jn.1993.70.6.2470 
+L182:  8120594
+L183: Gabriel ,  D. A. 
+L184:  ,  
+L185:  Kamen ,  G. 
+L186:  , &  
+L187:  Frost ,  G. 
+L188:   ( 2006 ).  Neural adaptations to resistive exercise: Mechanisms and recommendations for training practices .  Sports Medicine ,  36 ,  133 – 149 . 16464122
+L189: Gallego ,  J. A. 
+L190:  ,  
+L191:  Dideriksen ,  J. L. 
+L192:  ,  
+L193:  Holobar ,  A. 
+L194:  ,  
+L195:  Ibanez ,  J. 
+L196:  ,  
+L197:  Glaser ,  V. 
+L198:  ,  
+L199:  Romero ,  J. P. 
+L200:  , …  
+L201:  Farina ,  D. 
+L202:   ( 2015 ).  The phase difference between neural drives to antagonist muscles in essential tremor is associated with the relative strength of supraspinal and afferent input .  Journal of Neuroscience ,  35 ,  8925 – 8937 .  10.1523/JNEUROSCI.0106-15.2015 
+L203:  26063924
+L204: Gallego ,  J. A. 
+L205:  ,  
+L206:  Dideriksen ,  J. L. 
+L207:  ,  
+L208:  Holobar ,  A. 
+L209:  ,  
+L210:  Ibanez ,  J. 
+L211:  ,  
+L212:  Pons ,  J. L. 
+L213:  ,  
+L214:  Louis ,  E. D. 
+L215:  , …  
+L216:  Farina ,  D. 
+L217:   ( 2015 ).  Influence of common synaptic input to motor neurons on the neural drive to muscle in essential tremor .  Journal of Neurophysiology ,  113 ,  182 – 191 .  10.1152/jn.00531.2014 
+L218:  25274343
+L219: Hakkinen ,  K. 
+L220:  ,  
+L221:  Kallinen ,  M. 
+L222:  ,  
+L223:  Izquierdo ,  M. 
+L224:  ,  
+L225:  Jokelainen ,  K. 
+L226:  ,  
+L227:  Lassila ,  H. 
+L228:  ,  
+L229:  Malkia ,  E. 
+L230:  , …  
+L231:  Alen ,  M. 
+L232:   ( 1998 ).  Changes in agonist‐antagonist EMG, muscle CSA, and force during strength training in middle‐aged and older people .  Journal of Applied Physiology ,  84 ,  1341 – 1349 .  10.1152/jappl.1998.84.4.1341 
+L233:  9516202
+L234: Haramizu ,  S. 
+L235:  ,  
+L236:  Mori ,  T. 
+L237:  ,  
+L238:  Yano ,  M. 
+L239:  ,  
+L240:  Ota ,  N. 
+L241:  ,  
+L242:  Hashizume ,  K. 
+L243:  ,  
+L244:  Otsuka ,  A. 
+L245:  , …  
+L246:  Shimotoyodome ,  A. 
+L247:   ( 2014 ).  Habitual exercise plus dietary supplementation with milk fat globule membrane improves muscle function deficits via neuromuscular development in senescence‐accelerated mice .  SpringerPlus ,  3 ,  339 
+L248:  10.1186/2193-1801-3-339 
+L249:  25110626
+L250: Holobar ,  A. 
+L251:  ,  
+L252:  Farina ,  D. 
+L253:  ,  
+L254:  Gazzoni ,  M. 
+L255:  ,  
+L256:  Merletti ,  R. 
+L257:  , &  
+L258:  Zazula ,  D. 
+L259:   ( 2009 ).  Estimating motor unit discharge patterns from high‐density surface electromyogram .  Clinical Neurophysiology ,  120 ,  551 – 562 .  10.1016/j.clinph.2008.10.160 
+L260:  19208498
+L261: Holobar ,  A. 
+L262:  ,  
+L263:  Minetto ,  M. A. 
+L264:  , &  
+L265:  Farina ,  D. 
+L266:   ( 2014 ).  Accurate identification of motor unit discharge patterns from high‐density surface EMG and validation with a novel signal‐based performance metric .  Journal of Neural Engineering ,  11 , 016008.  10.1088/1741-2560/11/1/016008
+L267: Holobar ,  A. 
+L268:  , &  
+L269:  Zazula ,  D. 
+L270:   ( 2004 ).  Correlation‐based decomposition of surface electromyograms at low contraction forces .  Medical & Biological Engineering & Computing ,  42 ,  487 – 495 .  10.1007/BF02350989 
+L271:  15320457
+L272: Holobar ,  A. 
+L273:  , &  
+L274:  Zazula ,  D. 
+L275:   ( 2008 ).  On the selection of the cost function for gradient‐based decomposition of surface electromyograms .  Conference Proceedings IEEE Engineering in Medicine and Biology Society ,  4668 – 4671 .  10.1109/IEMBS.2008.4650254
+L276: Hulley ,  S. 
+L277:  ,  
+L278:  Cummings ,  S. 
+L279:  ,  
+L280:  Browner ,  W. 
+L281:  ,  
+L282:  Grady ,  D. 
+L283:  , &  
+L284:  Newman ,  T. 
+L285:   ( 2013 ).  Designing clinical research .  Philadelphia :  Wolter Kluwer .
+L286: Kamen ,  G. 
+L287:  , &  
+L288:  Knight ,  C. A. 
+L289:   ( 2004 ).  Training‐related adaptations in motor unit discharge rate in young and older adults .  Journals of Gerontology. Series A, Biological Sciences and Medical Sciences ,  59 ,  1334 – 1338 .  10.1093/gerona/59.12.1334
+L290: Kobayashi ,  S. 
+L291:  ,  
+L292:  Honda ,  S. 
+L293:  ,  
+L294:  Murakami ,  K. 
+L295:  ,  
+L296:  Sasaki ,  S. 
+L297:  ,  
+L298:  Okubo ,  H. 
+L299:  ,  
+L300:  Hirota ,  N. 
+L301:  , …  
+L302:  Date ,  C. 
+L303:   ( 2012 ).  Both comprehensive and brief self‐administered diet history questionnaires satisfactorily rank nutrient intakes in Japanese adults .  Journal of Epidemiology ,  22 ,  151 – 159 .  10.2188/jea.JE20110075 
+L304:  22343326
+L305: Liao ,  C. D. 
+L306:  ,  
+L307:  Tsauo ,  J. Y. 
+L308:  ,  
+L309:  Wu ,  Y. T. 
+L310:  ,  
+L311:  Cheng ,  C. P. 
+L312:  ,  
+L313:  Chen ,  H. C. 
+L314:  ,  
+L315:  Huang ,  Y. C. 
+L316:  , &  
+L317:  Liou ,  T. H. 
+L318:   ( 2017 ).  Effects of protein supplementation combined with resistance exercise on body composition and physical function in older adults: A systematic review and meta‐analysis .  American Journal of Clinical Nutrition ,  106 ,  1078 – 1091 .  10.3945/ajcn.116.143594 
+L319:  28814401
+L320: Martinez‐Valdes ,  E. 
+L321:  ,  
+L322:  Farina ,  D. 
+L323:  ,  
+L324:  Negro ,  F. 
+L325:  ,  
+L326:  Del Vecchio ,  A. 
+L327:  , &  
+L328:  Falla ,  D. 
+L329:   ( 2018 ).  Early motor unit conduction velocity changes to high‐intensity interval training versus continuous training .  Medicine and Science in Sports and Exercise ,  50 ,  2339 – 2350 .  10.1249/MSS.0000000000001705 
+L330:  29975302
+L331: Merletti ,  R. 
+L332:  ,  
+L333:  Holobar ,  A. 
+L334:  , &  
+L335:  Farina ,  D. 
+L336:   ( 2008 ).  Analysis of motor units with high‐density surface electromyography .  Journal of Electromyography & Kinesiology ,  18 ,  879 – 890 .  10.1016/j.jelekin.2008.09.002 
+L337:  19004645
+L338: Minegishi ,  Y. 
+L339:  ,  
+L340:  Ota ,  N. 
+L341:  ,  
+L342:  Soga ,  S. 
+L343:  , &  
+L344:  Shimotoyodome ,  A. 
+L345:   ( 2016 ).  Effects of nutritional supplementation with milk fat globule membrane on physical and muscle function in healthy adults aged 60 and over with semiweekly light exercise: A randomized double‐blind, placebo‐controlled pilot trial .  Journal of Nutritional Science and Vitaminology ,  62 ,  409 – 415 .  10.3177/jnsv.62.409 
+L346:  28202846
+L347: Moritani ,  T. 
+L348:  , &  
+L349:  deVries ,  H. A. 
+L350:   ( 1980 ).  Potential for gross muscle hypertrophy in older men .  The Journal of Gerontology ,  35 ,  672 – 682 .  10.1093/geronj/35.5.672 
+L351:  7430562
+L352: Oshida ,  K. 
+L353:  ,  
+L354:  Shimizu ,  T. 
+L355:  ,  
+L356:  Takase ,  M. 
+L357:  ,  
+L358:  Tamura ,  Y. 
+L359:  , &  
+L360:  Yamashiro ,  Y. 
+L361:   ( 2003 ).  Effects of dietary sphingomyelin on central nervous system myelination in developing rats .  Pediatric Research ,  53 ,  589 – 593 .  10.1203/01.PDR.0000054654.73826.AC 
+L362:  12612207
+L363: Ota ,  N. 
+L364:  ,  
+L365:  Soga ,  S. 
+L366:  ,  
+L367:  Hase ,  T. 
+L368:  , &  
+L369:  Shimotoyodome ,  A. 
+L370:   ( 2015 ).  Daily consumption of milk fat globule membrane plus habitual exercise improves physical performance in healthy middle‐aged adults .  SpringerPlus ,  4 ,  120 
+L371:  10.1186/s40064-015-0896-8 
+L372:  25810952
+L373: Pereira ,  D. 
+L374:  ,  
+L375:  Afonso ,  A. 
+L376:  , &  
+L377:  Medeiros ,  F. 
+L378:   ( 2015 ).  Overview of Friedman's test and post‐hoc analysis .  Communications in Statistics‐Simulation and Computation ,  44 ,  2636 – 2653 .  10.1080/03610918.2014.931971
+L379: Pucci ,  A. R. 
+L380:  ,  
+L381:  Griffin ,  L. 
+L382:  , &  
+L383:  Cafarelli ,  E. 
+L384:   ( 2006 ).  Maximal motor unit firing rates during isometric resistance training in men .  Experimental Physiology ,  91 ,  171 – 178 .  10.1113/expphysiol.2005.032094 
+L385:  16210447
+L386: Soga ,  S. 
+L387:  ,  
+L388:  Ota ,  N. 
+L389:  , &  
+L390:  Shimotoyodome ,  A. 
+L391:   ( 2015 ).  Dietary milk fat globule membrane supplementation combined with regular exercise improves skeletal muscle strength in healthy adults: A randomized double‐blind, placebo‐controlled, crossover trial .  Nutrition Journal ,  14 ,  85 
+L392:  10.1186/s12937-015-0073-5 
+L393:  26303780
+L394: Vila‐Cha ,  C. 
+L395:  ,  
+L396:  Falla ,  D. 
+L397:  ,  
+L398:  Correia ,  M. V. 
+L399:  , &  
+L400:  Farina ,  D. 
+L401:   ( 2012 ).  Adjustments in motor unit properties during fatiguing contractions after training .  Medicine and Science in Sports and Exercise ,  44 ,  616 – 624 .  10.1249/MSS.0b013e318235d81d 
+L402:  21904248
+L403: Vila‐Cha ,  C. 
+L404:  ,  
+L405:  Falla ,  D. 
+L406:  , &  
+L407:  Farina ,  D. 
+L408:   ( 2010 ).  Motor unit behavior during submaximal contractions following six weeks of either endurance or strength training .  Journal of Applied Physiology ,  109 ,  1455 – 1466 .  10.1152/japplphysiol.01213.2009 
+L409:  20829500
+L410: Vincent ,  W. J. 
+L411:   ( 2005 ).  Statistics in kinesiology  (pp.  190 – 192 ).  Illinois :  Human Kinetics .
+L412: Watanabe ,  K. 
+L413:  ,  
+L414:  Gazzoni ,  M. 
+L415:  ,  
+L416:  Holobar ,  A. 
+L417:  ,  
+L418:  Miyamoto ,  T. 
+L419:  ,  
+L420:  Fukuda ,  K. 
+L421:  ,  
+L422:  Merletti ,  R. 
+L423:  , &  
+L424:  Moritani ,  T. 
+L425:   ( 2013 ).  Motor unit firing pattern of vastus lateralis muscle in type 2 diabetes mellitus patients .  Muscle and Nerve ,  48 ,  806 – 813 .  10.1002/mus.23828 
+L426:  23447092
+L427: Watanabe ,  K. 
+L428:  ,  
+L429:  Holobar ,  A. 
+L430:  ,  
+L431:  Kouzaki ,  M. 
+L432:  ,  
+L433:  Ogawa ,  M. 
+L434:  ,  
+L435:  Akima ,  H. 
+L436:  , &  
+L437:  Moritani ,  T. 
+L438:   ( 2016 ).  Age‐related changes in motor unit firing pattern of vastus lateralis muscle during low‐moderate contraction .  AGE ,  38 ,  48 
+L439:  10.1007/s11357-016-9915-0 
+L440:  27084115
+L441: Watanabe ,  K. 
+L442:  ,  
+L443:  Holobar ,  A. 
+L444:  ,  
+L445:  Mita ,  Y. 
+L446:  ,  
+L447:  Kouzaki ,  M. 
+L448:  ,  
+L449:  Ogawa ,  M. 
+L450:  ,  
+L451:  Akima ,  H. 
+L452:  , &  
+L453:  Moritani ,  T. 
+L454:   ( 2018 ).  Effect of resistance training and fish protein intake on motor unit firing pattern and motor function of elderly .  Frontiers in Physiology ,  9 ,  1733 
+L455:  10.3389/fphys.2018.01733 
+L456:  30564141
+L457: Watanabe ,  K. 
+L458:  ,  
+L459:  Holobar ,  A. 
+L460:  ,  
+L461:  Mita ,  Y. 
+L462:  ,  
+L463:  Tomita ,  A. 
+L464:  ,  
+L465:  Yoshiko ,  A. 
+L466:  ,  
+L467:  Kouzaki ,  M. 
+L468:  , …  
+L469:  Moritani ,  T. 
+L470:   ( 2019 ).  Modulation of neural and muscular adaptation processes during resistance training by fish protein ingestions in older adults .  Journals of Gerontology. Series A, Biological Sciences and Medical Sciences ,  75 ( 5 ),  867 – 874 .  10.1093/gerona/glz215
+L471: Welsh ,  S. J. 
+L472:  ,  
+L473:  Dinenno ,  D. V. 
+L474:  , &  
+L475:  Tracy ,  B. L. 
+L476:   ( 2007 ).  Variability of quadriceps femoris motor neuron discharge and muscle force in human aging .  Experimental Brain Research ,  179 ,  219 – 233 .  10.1007/s00221-006-0785-z 
+L477:  17136528
+L478: Yano ,  M. 
+L479:  ,  
+L480:  Haramizu ,  S. 
+L481:  ,  
+L482:  Ota ,  N. 
+L483:  ,  
+L484:  Minegishi ,  Y. 
+L485:  , &  
+L486:  Shimotoyodome ,  A. 
+L487:   ( 2019 ).  Continuous supplementation of milk fat globule membrane with habitual exercise from a young age improves motor coordination and skeletal muscle function in aged mice .  Journal of Nutritional Science and Vitaminology ,  65 ,  405 – 413 .  10.3177/jnsv.65.405 
+L488:  31666477
+L489: Yano ,  M. 
+L490:  ,  
+L491:  Minegishi ,  Y. 
+L492:  ,  
+L493:  Sugita ,  S. 
+L494:  , &  
+L495:  Ota ,  N. 
+L496:   ( 2017 ).  Milk fat globule membrane supplementation with voluntary running exercise attenuates age‐related motor dysfunction by suppressing neuromuscular junction abnormalities in mice .  Experimental Gerontology ,  97 ,  29 – 37 .  10.1016/j.exger.2017.07.012 
+L497:  28729214
+L498: Yavuz ,  U. S. 
+L499:  ,  
+L500:  Negro ,  F. 
+L501:  ,  
+L502:  Sebik ,  O. 
+L503:  ,  
+L504:  Holobar ,  A. 
+L505:  ,  
+L506:  Frommel ,  C. 
+L507:  ,  
+L508:  Turker ,  K. S. 
+L509:  , &  
+L510:  Farina ,  D. 
+L511:   ( 2015 ).  Estimating reflex responses in large populations of motor units by decomposition of the high‐density surface electromyogram .  The Journal of Physiology ,  593 ,  4305 – 4318 .  10.1113/JP270635 
+L512:  26115007
+L513: ACKNOWLEDGMENT
+L514: This work was supported by Kao Corporation. This company provided nutritional supplements used in the study and valuable comments via Mr. Takuya Wakisaka of Kao Corporation. Also, a part of this study was supported by the Slovenian Research Agency (Projects J2‐1731 and L7‐9421 and Program funding P2‐0041). We thank Mr. Ryota Kondo, Mr. Takahiro Yoshida, Ms. Hazuki Miyamoto, and Ms. Eiko Ueno for helping with data analysis and acting as instructors in the resistance training program.
+[52ms]
+

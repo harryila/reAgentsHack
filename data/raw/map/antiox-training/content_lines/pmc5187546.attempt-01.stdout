@@ -1,0 +1,765 @@
+L1: Role of Redox Signaling and Inflammation in Skeletal Muscle Adaptations to Training
+L2: Antioxidants (2016)
+L3: Maria Carmen Gomez-Cabrera, Jose Viña, Li Li Ji
+L4: 1 Department of Physiology, Fundacion Investigacion Hospital Clinico Universitario/INCLIVA, University of Valencia, València 46010, Spain;  jose.vina@uv.es
+L5: 2 Laboratory of Physiological Hygiene and Exercise Science, School of Kinesiology, University of Minnesota, 1900 University Avenue, Minneapolis, MN 55455, USA;  llji@umn.edu
+L6: The inflammatory response to exercise-induced muscle damage has been extensively described. Exercise has important modulatory effects on immune function. These effects are mediated by diverse factors including pro-inflammatory cytokines, classical stress hormones, and hemodynamic effects leading to cell redistribution. As has been reported regarding oxidative stress, inflammation can have both detrimental and beneficial effects in skeletal muscle. In this review we will address the role of inflammation on protein metabolism in skeletal muscle. Specifically, we will review studies showing that treatment with cyclooxygenase-inhibiting drugs modulate the protein synthesis response to one bout of resistance exercise and to training. Understanding how these drugs work is important for the millions of individuals worldwide that consume them regularly. We will also discuss the importance of reactive oxygen species and inflammatory cytokines in muscle adaptations to exercise and the Janus faced of the use of antioxidant and anti-inflammatory drugs by athletes for optimizing their performance, especially during the periods in which muscle hypertrophy is expected.
+L7: Review
+L8: oxidative stress; anti-inflammatories; hypertrophy; protein synthesis; prostaglandins
+L9: 1. Introduction
+L10: Inflammation and its impact have received increasing attention by the scientific community in the last decade, being associated with fundamental physiological processes (e.g., cell signaling) and being implicated in almost all ageing-related degenerative diseases. To emphasize the importance of the topic, the Journal “Science” dedicated a special issue to inflammation in 2013, with the opinions suggesting that the study of inflammation must be at the center of research interest both at the scientific and the social level in the future [ 1 ].
+L11: Redness, heat, swelling, and pain are the hallmarks of inflammation described by Celsus 2000 years ago [ 1 ]. Inflammation is a physiological response of the immune system to harmful stimuli, such as irritants, pathogens, and damaged cells. It is mediated by a variety of soluble factors, including a group of secreted polypeptides known as cytokines. Cytokines are important molecules in cell signaling and are regulators of host immune responses to infection, inflammation, and trauma [ 2 ]. They are divided in two main categories, namely pro-inflammatory and anti-inflammatory cytokines [ 3 ]. Pro-inflammatory cytokines (e.g., tumor necrosis factor (TNF)-α, interleukin (IL)-1, and IL-6) are generally produced at the site of infection or trauma where tissue damage or destruction occurs. Pro-inflammatory cytokines contribute to the regeneration of a healthy tissue as they trigger the degeneration and clearance of damaged or infected cells. The anti-inflammatory cytokines (e.g., IL-8 and IL-10) are a series of regulatory molecules that control the pro-inflammatory cytokine response. Under physiological conditions, anti-inflammatory cytokines serve as immunomodulatory elements that limit the potentially injurious effects of sustained or excess inflammatory reactions and promote tissue regeneration [ 2 ]. However, under pathological conditions, they may either provide insufficient control over pro-inflammatory activities or overcompensate the immune response, rendering the host at risk from pathogens [ 4 ]. Thus, there must be a tight equilibrium between pro-inflammatory and anti-inflammatory response to optimize inflammation as a defensive mechanism of the immune system. The symptoms of acute inflammation dissipate rapidly, and though inconvenient, are also reassuring, as they represent the immune system in action. The immune system clears the infection, guides the repair of damaged tissue and the symptoms disappear. However, although inflammation is so beneficial during an infection, it can also contribute to the pathogenesis of several age-related chronic diseases, such as neurodegenerative disease, cardiovascular disease, and metabolic disease. In fact, in older people, a chronically-elevated endocrine, pro-inflammatory environment, termed inflammaging, has several negative implications for health and wellbeing. It is characterized by elevated levels of serum pro-inflammatory cytokines and reduced levels of anti-inflammatory cytokines [ 5 ]. In this review we aim at highlighting the beneficial, but also in some cases detrimental, role of inflammation in skeletal muscle. The inflammatory response to exercise-induced muscle damage has been extensively described [ 6 ]. Exercise has important modulatory effects on immunocyte dynamics, and possibly on immune function. These effects are mediated by diverse factors, including exercise-induced release of pro-inflammatory cytokines, classical stress hormones, and hemodynamic effects leading to cell redistribution [ 7 ]. There is evidence in the literature on the implication of several cytokines in the pathogenesis of muscle wasting and sarcopenia, most notably TNF-α, but also IL-1β, IL-6, interferon (IFN)-γ, and transforming growth factor (TFG)-β [ 8 ]. However, the beneficial role of inflammation in protein metabolism in skeletal muscle during exercise has also been highlighted [ 9 ]. We will review paradoxical studies showing that treatment with inhibitors of prostaglandin (PG) synthesis blunts the protein synthesis response to an acute bout of resistance exercise [ 9 , 10 ], but does not have interfering effects on the muscle adaptations to resistance exercise training [ 11 ]. In fact, in older individuals, a substantial enhancement of muscle mass and strength has been observed when cyclooxygenase (COX) inhibitors are used in combination with resistance exercise training [ 12 ]. Finally, we will try to establish the connection between oxidative stress and inflammation in exercise. We will discuss the importance of reactive oxygen species (ROS) and inflammatory cytokines in muscle adaptations to exercise training and the Janus faced of the use of antioxidant and anti-inflammatory drugs by the sport population.
+L12: 2. Exercise-Induced Inflammation and Oxidative Stress in Skeletal Muscle
+L13: Unaccustomed exercise may result in significant damage to skeletal muscle and cause delayed onset muscle soreness. Two physiological responses, inflammation and oxidative stress, have been proposed to explain how exercise initiates damage to skeletal muscle fibers [ 13 ]. There are several parallels between the effects of chronic inflammation and oxidative stress in skeletal muscle. First, evidence showing that free radicals and inflammation are related was published in 1980 [ 14 ]. The participation of superoxide (O 2 •− ) in the inflammatory response was inferred by the anti-inflammatory effect of the parenterally-administered antioxidant enzyme superoxide dismutase (SOD) [ 14 , 15 ]. The toxicity of O 2 •− , or the oxidant species derived from it, was assumed to account for the anti-inflammatory activity of SOD [ 16 ] (See  Figure 1 ). However, it was also suggested that O 2 •− , per se, is relatively innocuous and that the role of O 2 •−  in inflammation could not be due solely to direct cytotoxicity but to the generation of a chemotactic factor for neutrophils [ 14 ]. Subsequent evidences indicate that the activation of redox-sensitive transcription factors, such as nuclear factor κB (NF-κB), may modulate the gene expression of key players involved in the inflammatory process, IL-1β, IL-6, TNF-α, (COX)-2, adhesion molecules, and inducible nitric oxide (NO) synthase (iNOS) (See  Figure 1 ) [ 17 ]. NF-κB is a dimeric transcription factor composed of members of the Rel family [ 18 ]. When activated, NF-κB migrates to the nucleus and binds to specific sites in the promoter sequences of many genes. NF-κB is activated by a variety of external stimulants, such as ROS and cytokines.
+L14: Several genes require NF-κB binding to activate its transcription. Among them, we can highlight manganese superoxide dismutase (MnSOD), iNOS, COX-2, γ-glutamylcysteine synthetase (GCS), vascular cell adhesion molecule-1 (VCAM-1), and cytokines. These genes are involved in a wide variety of biological functions such as antioxidant, inflammation, immunity, and apoptosis [ 19 ].
+L15: Hollander et al. [ 20 ] first reported that one bout of exhaustive exercise can activate MnSOD gene expression in rat skeletal muscle, due to enhanced NF-κB binding in muscle nuclear extracts. We found that NF-κB could be activated in a redox-sensitive manner during muscular contraction and that the highest levels of NF-κB binding were observed at 2 h post exercise in rat skeletal muscle [ 21 ]. From this study we concluded that ROS activate a cascade of intracellular events that lead to an elevated gene expression of MnSOD, as reported earlier [ 22 ]. It was hypothesized that ROS-induced oxidation of cysteine residues in the upstream activators of NF-κB could trigger inflammation [ 23 ].
+L16: Muscle fiber damage due to strenuous exercise, especially lengthening contraction, can trigger the release of inflammatory cytokines from immune cells and/or damaged muscle tissues. Blood-borne polymorphonuclear (PMN) plays a critical role in defending the cell from viral and bacterial invasion by activating reduced nicotinamide adenine phosphate (NAD(P)H) oxidase to produce ROS via a respiratory burst [ 24 ]. During the early phase of muscle injury, inflammatory cytokines promote the gene expression of adhesion molecules such as VCAM-1, cytokine-induced neutrophil chemoattractant-1 (CINC-1), monocyte chemoattractant protein-1 (MCP-1), and NO. In addition, some cytokines can bind with membrane receptors and activate specific ROS-generating enzymes, such as NAD(P)H oxidase, and xanthine oxidase (XO) [ 6 ]. Endothelial cells from injured muscle are known to secrete TNF-α, IL-1, IL-6, and IL-8, providing a positive feed-forward cycle [ 25 ]. Thus, oxidative stress and inflammation are closely linked.
+L17: It has been shown that the use of antioxidants can modulate inflammation in skeletal muscle (see  Figure 1 ). Aoi et al. [ 26 ] first showed that hydrogen peroxide (H 2 O 2 ) stimulated NF-κB activation and expression of CINC-1 and MCP-1 in myotubes and that it was prevented with α-tocopherol. Similar results were found in an in vivo study in which a high vitamin E diet prevented the exercise-induce increase in CINC-1 and MCP-1 levels and nuclear p65 content in rat gastrocnemius muscle [ 27 ]. More recently the use of vitamin C [ 28 ], flavonoids and anthocyanins [ 29 , 30 ] have been tested as potential treatments to reduce the o x idative stress and inflammatory responses after exhaustive exercise to accelerate recovery [ 31 ]. Glutathione homeostasis is also known to be an important factor in muscle inflammation and the main factor regulating intracellular reduced glutathione (GSH) level is GCS activity. High levels of GSH prevent the inflammatory process partially by inhibiting intercellular adhesion molecule 1 (ICAM-1) expression [ 32 ]. Interestingly GSH content has been reported to be higher in rabbit tibialis muscle 24 h after an isokinetic stretch injury, accompanied with elevated glutathione peroxidase (GPX) and glutathione reductase (GR) activities [ 33 ]. Since an optimal reduced to oxidized glutathione (GSH:GSSG) ratio is crucial in redox signaling, these studies confirm that there is a clear parallel between oxidation and inflammation in skeletal muscle cells.
+L18: To determine muscle damage, serum levels of skeletal muscle enzymes are quantified. Creatine kinase (CK), lactate dehydrogenase, aldolase, myoglobin, troponin, and aspartate aminotransferase are the most useful serum markers of muscle injury. We have shown in weight-lifting [ 34 ], cycling [ 35 ], marathon running [ 36 ], and soccer [ 13 ], that the inhibition of XO, a free radical-generating enzyme activated during muscle contraction, can significantly decrease the exercise-induced muscle damage and oxidative stress in a variety of sports. However, other research groups report variable findings when using antioxidant supplements to prevent exercise-induced muscle damage [ 37 ]. In the same way, the effects of anti-inflammatory drugs on markers of muscle damage are also controversial [ 37 ]. Possible reasons for these variations include differences in the dose and biological activity of individual antioxidants and anti-inflammatory drugs [ 38 ]. Anti-inflammatory drugs exert their effect on inflammatory reactions through a number of pathways, including the inhibition of PG synthesis, neutrophil adhesion and activation [ 38 ]. Bourgeois and co-workers found that naproxen sodium administration did not alter CK rise or muscle force deficit, nor perceived muscle pain in healthy subjects after a resistance exercise protocol [ 39 ]. On the contrary, a prophylactic dose of ibuprofen decreased muscle soreness perception and assisted in restoring muscle function after a strenuous eccentric exercise bout. However, no prevention in CK release from muscle was reported in this study [ 40 ]. Pizza and co-workers found that ibuprofen administration reduced CK activity but not the neutrophil response or other indirect markers of muscle injury during recovery from eccentric arm exercise [ 41 ]. Finally, administration of diclofenac significantly reduced quantitative indices of exercise-induced skeletal muscle damage (CK) in humans [ 42 ], and ketoprofen treatment after muscle-damaging exercise reduced muscle soreness and improved force recovery [ 43 ]. The variable research findings reflect differences in sampling time, the extent of muscle damage after exercise, and training status of subjects, in addition to the dose, timing, and type of drug administration [ 38 ].
+L19: We have recently reviewed the role of ROS in muscle adaptations to exercise training [ 44 , 45 ]. As previously mentioned, treatment with different types of antioxidants may cause beneficial effects when administered before one single session of exhaustive exercise. They have been involved in the prevention of muscle damage [ 13 , 35 , 36 ], oxidative stress [ 46 , 47 , 48 , 49 ], muscle fatigue [ 50 , 51 , 52 ], and the decrease in muscle performance associated to ROS production during one bout of exhaustive exercise [ 53 , 54 , 55 ]. Based on this data, a significant number of athletes, especially elite athletes, consume dietary antioxidant supplements seeking beneficial effects on performance. However, during the past years several studies have clearly indicated that ROS activate important cell signaling pathways that mediate skeletal muscle adaptations to exercise such as mitochondrial biogenesis [ 56 , 57 , 58 ], the induction of the endogenous antioxidant defense [ 59 ], and hypertrophy [ 60 ], among others [ 43 ]. The fact that ROS play a role in promoting adaptations in muscles represents a significant change in biological understanding whereby, in the past, it was assumed that even low doses of ROS were universally harmful. Thus, by ingesting high doses of antioxidant vitamins on a regular basis in an attempt to enhance muscle performance, individuals may actually be retarding, or even hampering, the adaptations to exercise training [ 61 ].
+L20: The question of whether anti-inflammatory drugs can also act as a double-edged sword in skeletal muscle during exercise will be discussed in the next section.
+L21: 3. Role of Inflammation in Skeletal Muscle Adaptations to Exercise: Should We Block It with Anti-Inflammatory Drugs?
+L22: Improvement of muscle mass is of great interest to many populations, including the sport population [ 62 ]. Athletes and body builders desire to increase muscle mass and strength for competitive reasons. Older adults are also interested in maintaining their muscle mass and function. Sarcopenia, defined as the involuntary loss of skeletal muscle mass and strength is a debilitating clinical condition associated with old age [ 63 ].
+L23: Whether a muscle atrophies or hypertrophies depends on the balance between the rates of protein synthesis and degradation [ 10 ]. A debate exists on whether muscle disuse is explained by a decrease in protein synthesis or, on the contrary, an increase in protein degradation [ 64 ]. A review of the literature shows that both aspects of muscle protein homeostasis are disrupted by prolonged disuse. Proteolysis increases and synthesis declines. These changes have additive effects, but it seems that proteolysis plays the most important role in muscle atrophy [ 64 ].
+L24: The role of inflammation in the regulation of the muscle mass has been an object of study [ 11 ]. It is well established that PGs participate in the inflammatory responses. PGs were discovered in 1936 when it was found that seminal fluid and seminal vesicles from most animals, including humans, contain a substance which causes contraction of the smooth muscle of the uterus [ 65 ]. PGs are formed from unsaturated fatty acids, primarily arachidonic acid. Arachidonic acid is degraded and liberated from the membrane of cells by phospholipase A 2  (PLA 2 ). The enzyme prostaglandin-endoperoxide synthase, more commonly known as COX, is a dual-functioned enzyme that converts arachidonic acid to prostaglandin G 2  (PGG 2 ) and then prostaglandin H 2  (PGH 2 ) [ 66 ], which is then rapidly converted to specific PGs (e.g., PGD 2 , PGE 2 , PGF 2α , and PGI 2 ) by PG synthases [ 11 ]. The COX inhibitors, ibuprofen, aspirin, and acetaminophen represent the most commonly consumed classes of drugs in the world [ 67 ] (See  Figure 2 ).
+L25: The PGs and their related substances, which include thromboxane, prostacyclin, and leukotrienes, function in the defence of cells against sudden changes (trauma, disease, or stress) thereby maintaining or reconstituting the normal function [ 11 ]. The PGs are involved in a large number of physiological processes such as the homeostatic maintenance of the gastrointestinal tract (PGs reduce secretion of gastric acid and modulate gastric mucosal blood flow), renal function (PGs are natriuretic, influence renal blood flow, glomerular filtration rate, and the release of renin), blood clotting, embryonic implantation, and parturition [ 68 ]. Thus, if the formation of PGs is blocked, for instance, a peptic ulcer can be rapidly formed and the renal function deteriorates due to an uncontrolled action of angiotensin [ 68 ]. However, PGs participate also in the induction of fever, in the inflammatory responses and in pain [ 10 ].
+L26: COX-1 and COX-2 activity increase in human skeletal muscle with resistance exercise [ 69 ]. The first studies of PGs production and release by skeletal muscle in response to muscular work were published in 1974 [ 70 ]. Subsequent studies found that the muscles could produce PGD 2 , PGE 2  (the predominant PG produced), PGF 2α , and PGI 2  [ 71 ]. In 1982 it was found that PGE 2  and PGF 2α  could be involved in the regulation of protein balance in skeletal and cardiac muscles [ 10 ]. PGE 2  increases protein degradation through the induction of intramuscular IL-6 and the proteolytic muscle ubiquitin ligase RING finger protein-1 (MuRF-1) [ 11 ], whereas PGF 2α  stimulates protein synthesis through the activation of mammalian target of rapamycin (mTOR) signalling in skeletal muscle via a PI3K/ERK-dependent pathway [ 72 ]. Rodemann and Goldberg found that arachidonic acid supplementation exerted muscle production of both PGs, but about twice as much PGE 2  was synthesized compared with PGF 2α  [ 10 ]. Thus, the net effect of arachidonic acid was a catabolic one in different muscles types (rates of protein degradation increased between 20% and 40%). However, in the soleus muscle the enhanced proteolysis was accompanied by a 50% increase in protein synthesis, although protein degradation increased in absolute terms more than protein synthesis [ 10 ]. In an in vitro study with C2C12 skeletal myocytes, arachidonic acid supplementation stimulated PG release and skeletal muscle cell hypertrophy via a COX-2-dependent pathway [ 73 ]. Interestingly the effects of arachidonic acid are blocked by different inhibitors of COX [ 10 ].
+L27: PGs production in skeletal muscle is dependent on exercise intensity and duration [ 11 ]. Low-level muscular work does not increase PGE 2  levels [ 74 ] whereas resistance exercise stimulates the muscle to produce PGE 2  and/or PGF 2α  during and/or after exercise [ 74 ]. Furthermore, increasing the workload during aerobic exercise increases the muscle production of PGE 2  [ 75 ]. COX inhibitors can significantly reduce the resting levels and the exercise-induced increments in skeletal muscle PGE 2  [ 76 , 77 ]. Moreover, it has been found that ibuprofen treatment blunts early translational signalling (MEK-ERK) responses in human skeletal muscle following resistance exercise suggesting that PGs are important signalling molecules during early post-exercise recovery [ 78 ]. In 2002 Trappe and co-workers found that treatment with ibuprofen (1200 mg/day) and acetaminophen (4000 mg/day) attenuated the increased rate of muscle protein synthesis 24 h after high-intensity eccentric resistance exercise [ 9 ]. These results questioned the extended use of anti-inflammatory drugs among the sport population to relieve the muscle pain after exercise. Since then, several animal and human studies have been developed to determine the chronic effects of COX inhibitors on exercise induced adaptations. A summary of the main findings reported in the human studies is shown in  Table 1 .
+L28: Surprisingly, chronic consumption of COX inhibitors during exercise training does not appear to interfere with the muscle mass and strength gains expected from typical resistance exercise training regimens in old individuals [ 80 ]. Moreover, in older individuals, it has been reported that treatment with COX inhibitors improves the exercise-induced enhancement of muscle mass and strength (25%–50%) over a placebo-consuming group [ 11 , 12 , 81 ]. These responses seem to be mediated through the reduction of the PGE 2 -IL-6-MuRF-1 levels in the muscle with the COX inhibitors [ 83 ], which result in an inhibition in protein degradation. This is accompanied with an up-regulation of the PGF 2α  receptor in the muscle of the treated groups [ 12 ]. This increase coupled with a training increase in COX-1, PGF 2α  synthase and PGE 2 -to-PGF 2α  reductase, would make the muscle more sensitive to PGF 2α  produced following exercise [ 11 ].
+L29: The animal models of hypertrophy have been criticized because their characteristics differ significantly from the human models [ 11 ]. This is why we have focused our review in the human studies. However, we would like to mention a recent study in rats in which the authors found that chronic consumption of ibuprofen limited sarcopenia through restoration of the muscle protein-synthesis response in the post-prandial state in older rats [ 84 ]. Mechanisms leading to sarcopenia involve the imbalance between rates of protein synthesis and degradation that is detected in the postprandial state in old animals and humans [ 84 ]. During aging, low-grade inflammation (a slight increased cytokine production) exerts a deleterious effect on muscle protein synthesis stimulation and muscle proteolysis inhibition by food intake. Thus, by decreasing the levels of IL-6 and IL-1β with chronic treatment with ibuprofen it has been shown that muscle mass loss can be prevented in old animals [ 84 ]. These results open up the possibility of treating sarcopenia with COX-inhibiting drugs.
+L30: 4. Conclusions
+L31: As a summary we would like to highlight three main points: (1) COX-inhibiting drugs modulate the protein synthesis response to resistance exercise and to training differently; (2) contrary to what has been reported with antioxidants, chronic consumption of COX inhibitors during exercise training does not appear to interfere with muscle mass and strength gains expected from resistance-exercise-training regimens; and (3) recent studies open up the possibility of treating sarcopenia with COX-inhibiting drugs.
+L32: Figure 1 Interactions between oxidative stress and inflammation.
+L33: Figure 2 Schematic representation of the regulation of skeletal muscle protein metabolism through the COX pathway.
+L34: 1. Mueller K. 
+L35:  Inflammation. Inflammation’s Yin-Yang. Introduction 
+L36:  Science 
+L37:  2013 
+L38:  339 
+L39:  155 
+L40:  10.1126/science.339.6116.155 
+L41:  23307731
+L42: 2. Young H.A. Ortaldo J. 
+L43:  Cytokines as critical co-stimulatory molecules in modulating the immune response of natural killer cells 
+L44:  Cell Res. 
+L45:  2006 
+L46:  16 
+L47:  20 
+L48:  24 
+L49:  10.1038/sj.cr.7310004 
+L50:  16467872
+L51: 3. Luster A.D. 
+L52:  Chemokines—Chemotactic cytokines that mediate inflammation 
+L53:  N. Engl. J. Med. 
+L54:  1998 
+L55:  338 
+L56:  436 
+L57:  445 
+L58:  9459648
+L59: 4. Opal S.M. DePalo V.A. 
+L60:  Anti-inflammatory cytokines 
+L61:  Chest J. 
+L62:  2000 
+L63:  117 
+L64:  1162 
+L65:  1172 
+L66:  10.1378/chest.117.4.1162
+L67: 5. Franceschi C. Capri M. Monti D. Giunta S. Olivieri F. Sevini F. Panourgia M.P. Invidia L. Celani L. Scurti M. 
+L68:  Inflammaging and anti-inflammaging: A systemic perspective on aging and longevity emerged from studies in humans 
+L69:  Mech. Ageing Dev. 
+L70:  2007 
+L71:  128 
+L72:  92 
+L73:  105 
+L74:  10.1016/j.mad.2006.11.016 
+L75:  17116321
+L76: 6. Liao P. Zhou J. Ji L.L. Zhang Y. 
+L77:  Eccentric contraction induces inflammatory responses in rat skeletal muscle: Role of tumor necrosis factor-alpha 
+L78:  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L79:  2009 
+L80:  298 
+L81:  R599 
+L82:  R607 
+L83:  10.1152/ajpregu.00480.2009 
+L84:  20007518
+L85: 7. Pedersen B.K. Hoffman-Goetz L. 
+L86:  Exercise and the immune system: Regulation, integration, and adaptation 
+L87:  Physiol. Rev. 
+L88:  2000 
+L89:  80 
+L90:  1055 
+L91:  1081 
+L92:  10893431
+L93: 8. Cai D. Frantz J.D. Tawa N.E. Jr. Melendez P.A. Oh B.C. Lidov H.G. Hasselgren P.O. Frontera W.R. Lee J. Glass D.J. 
+L94:  IKKbeta/NF-kappaB activation causes severe muscle wasting in mice 
+L95:  Cell 
+L96:  2004 
+L97:  119 
+L98:  285 
+L99:  298 
+L100:  10.1016/j.cell.2004.09.027 
+L101:  15479644
+L102: 9. Trappe T.A. White F. Lambert C.P. Cesar D. Hellerstein M. Evans W.J. 
+L103:  Effect of ibuprofen and acetaminophen on postexercise muscle protein synthesis 
+L104:  Am. J. Physiol. Endocrinol. Metab. 
+L105:  2002 
+L106:  282 
+L107:  E551 
+L108:  E556 
+L109:  10.1152/ajpendo.00352.2001 
+L110:  11832356
+L111: 10. Rodeman H.P. Goldberg A.L. 
+L112:  Arachidonic acid, prostaglandin E2 and F2 alpha influence rates of protein turnover in skeletal and cardiac muscle 
+L113:  J. Biol. Chem. 
+L114:  1982 
+L115:  257 
+L116:  1632 
+L117:  1638 
+L118:  6799511
+L119: 11. Trappe T.A. Liu S.Z. 
+L120:  Effects of prostaglandins and cox-inhibiting drugs on skeletal muscle adaptations to exercise 
+L121:  J. Appl. Physiol. 
+L122:  2013 
+L123:  115 
+L124:  909 
+L125:  919 
+L126:  10.1152/japplphysiol.00061.2013 
+L127:  23539318
+L128: 12. Trappe T.A. Standley R.A. Jemiolo B. Carroll C.C. Trappe S.W. 
+L129:  Prostaglandin and myokine involvement in the cyclooxygenase-inhibiting drug enhancement of skeletal muscle adaptations to resistance exercise in older adults 
+L130:  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L131:  2013 
+L132:  304 
+L133:  R198 
+L134:  R205 
+L135:  10.1152/ajpregu.00245.2012 
+L136:  23220477
+L137: 13. Sanchis-Gomar F. Pareja-Galeano H. Gomez-Cabrera M.C. Candel J. Lippi G. Salvagno G.L. Mann G.E. Vina J. 
+L138:  Allopurinol prevents cardiac and skeletal muscle damage in professional soccer players 
+L139:  Scand. J. Med. Sci. Sports 
+L140:  2014 
+L141:  25 
+L142:  e110 
+L143:  e115 
+L144:  10.1111/sms.12213 
+L145:  24690021
+L146: 14. Petrone W.F. English D.K. Wong K. McCord J.M. 
+L147:  Free radicals and inflammation: Superoxide-dependent activation of a neutrophil chemotactic factor in plasma 
+L148:  Proc. Natl. Acad. Sci. USA 
+L149:  1980 
+L150:  77 
+L151:  1159 
+L152:  1163 
+L153:  10.1073/pnas.77.2.1159 
+L154:  6928666
+L155: 15. McCord J.M. Wong K. Stokes S.H. Petrone W.F. English D. 
+L156:  Superoxide and inflammation: A mechanism for the anti-inflammatory activity of superoxide dismutase 
+L157:  Acta Physiol. Scand. Suppl. 
+L158:  1980 
+L159:  492 
+L160:  25 
+L161:  30 
+L162:  6261529
+L163: 16. McCord J.M. 
+L164:  Free radicals and inflammation: Protection of synovial fluid by superoxide dismutase 
+L165:  Science 
+L166:  1974 
+L167:  185 
+L168:  5229 
+L169:  5531 
+L170:  10.1126/science.185.4150.529
+L171: 17. Chung H.Y. Sung B. Jung K.J. Zou Y. Yu B.P. 
+L172:  The molecular inflammatory process in aging 
+L173:  Antioxid. Redox Signal. 
+L174:  2006 
+L175:  8 
+L176:  572 
+L177:  581 
+L178:  10.1089/ars.2006.8.572 
+L179:  16677101
+L180: 18. Meyer M. Pahl H.L. Baeuerle P.A. 
+L181:  Regulation of the transcription factors NF-κB and AP-1 by redox changes 
+L182:  Chem. Biol. Interact. 
+L183:  1994 
+L184:  91 
+L185:  91 
+L186:  100 
+L187:  10.1016/0009-2797(94)90029-9 
+L188:  8194138
+L189: 19. Ghosh S. Karin M. 
+L190:  Missing pieces in the NF-κB puzzle 
+L191:  Cell 
+L192:  2002 
+L193:  109 
+L194:  Suppl. 1 
+L195:  S81 
+L196:  S96 
+L197:  10.1016/S0092-8674(02)00703-1 
+L198:  11983155
+L199: 20. Hollander J. Fiebig R. Gore M. Bejma J. Ookawara T. Ohno H. Ji L.L. 
+L200:  Superoxide dismutase gene expression in skeletal muscle: Fiber-specific adaptation to endurance training 
+L201:  Am. J. Physiol. 
+L202:  1999 
+L203:  277 
+L204:  R856 
+L205:  R862 
+L206:  10484504
+L207: 21. Ji L.L. Gomez-Cabrera M.C. Steinhafel N. Vina J. 
+L208:  Acute exercise activates nuclear factor (NF)-κB signaling pathway in rat skeletal muscle 
+L209:  FASEB J. 
+L210:  2004 
+L211:  18 
+L212:  1499 
+L213:  1506 
+L214:  10.1096/fj.04-1846com 
+L215:  15466358
+L216: 22. Hollander J. Fiebig R. Gore M. Ookawara T. Ohno H. Ji L.L. 
+L217:  Superoxide dismutase gene expression is activated by a single bout of exercise in rat skeletal muscle 
+L218:  Pflug. Arch. 
+L219:  2001 
+L220:  442 
+L221:  426 
+L222:  434 
+L223:  10.1007/s004240100539
+L224: 23. Hansen J.M. Zhang H. Jones D.P. 
+L225:  Differential oxidation of thioredoxin-1, thioredoxin-2, and glutathione by metal ions 
+L226:  Free Radic. Biol. Med. 
+L227:  2006 
+L228:  40 
+L229:  138 
+L230:  145 
+L231:  10.1016/j.freeradbiomed.2005.09.023 
+L232:  16337887
+L233: 24. Gomez-Cabrera M.C. Vina J. Ji L.L. 
+L234:  Interplay of oxidants and antioxidants during exercise: Implications for muscle health 
+L235:  Phys. Sportsmed. 
+L236:  2009 
+L237:  37 
+L238:  116 
+L239:  123 
+L240:  10.3810/psm.2009.12.1749 
+L241:  20048548
+L242: 25. Pedersen B.K. Ostrowski K. Rohde T. Bruunsgaard H. 
+L243:  The cytokine response to strenuous exercise 
+L244:  Can. J. Physiol. Pharmacol. 
+L245:  1998 
+L246:  76 
+L247:  505 
+L248:  511 
+L249:  10.1139/y98-055 
+L250:  9839076
+L251: 26. Aoi W. Naito Y. Takanami Y. Kawai Y. Sakuma K. Ichikawa H. Yoshida N. Yoshikawa T. 
+L252:  Oxidative stress and delayed-onset muscle damage after exercise 
+L253:  Free Radic. Biol. Med. 
+L254:  2004 
+L255:  37 
+L256:  480 
+L257:  487 
+L258:  10.1016/j.freeradbiomed.2004.05.008 
+L259:  15256219
+L260: 27. Powers S.K. Ji L.L. Kavazis A.N. Jackson M.J. 
+L261:  Reactive oxygen species: Impact on skeletal muscle 
+L262:  Compr. Physiol. 
+L263:  2011 
+L264:  1 
+L265:  941 
+L266:  969 
+L267:  23737208
+L268: 28. Thompson D. Williams C. Garcia-Roves P. McGregor S.J. McArdle F. Jackson M.J. 
+L269:  Post-exercise vitamin C supplementation and recovery from demanding exercise 
+L270:  Eur. J. Appl. Physiol. 
+L271:  2003 
+L272:  89 
+L273:  393 
+L274:  400 
+L275:  10.1007/s00421-003-0816-4 
+L276:  12682838
+L277: 29. Howatson G. McHugh M.P. Hill J.A. Brouner J. Jewell A.P. van Someren K.A. Shave R.E. Howatson S.A. 
+L278:  Influence of tart cherry juice on indices of recovery following marathon running 
+L279:  Scand. J. Med. Sci. Sports 
+L280:  2009 
+L281:  20 
+L282:  843 
+L283:  852 
+L284:  10.1111/j.1600-0838.2009.01005.x 
+L285:  19883392
+L286: 30. Seeram N.P. Momin R.A. Nair M.G. Bourquin L.D. 
+L287:  Cyclooxygenase inhibitory and antioxidant cyanidin glycosides in cherries and berries 
+L288:  Phytomedicine 
+L289:  2001 
+L290:  8 
+L291:  362 
+L292:  369 
+L293:  10.1078/0944-7113-00053 
+L294:  11695879
+L295: 31. Bell P.G. Walshe I.H. Davison G.W. Stevenson E. Howatson G. 
+L296:  Montmorency cherries reduce the oxidative stress and inflammatory responses to repeated days high-intensity stochastic cycling 
+L297:  Nutrients 
+L298:  2014 
+L299:  6 
+L300:  829 
+L301:  843 
+L302:  10.3390/nu6020829 
+L303:  24566440
+L304: 32. Kevil C.G. Pruitt H. Kavanagh T.J. Wilkerson J. Farin F. Moellering D. Darley-Usmar V.M. Bullard D.C. Patel R.P. 
+L305:  Regulation of endothelial glutathione by ICAM-1: Implications for inflammation 
+L306:  FASEB J. 
+L307:  2004 
+L308:  18 
+L309:  1321 
+L310:  1323 
+L311:  10.1096/fj.03-1401fje 
+L312:  15180961
+L313: 33. Best T.M. Fiebig R. Corr D.T. Brickson S. Ji L. 
+L314:  Free radical activity, antioxidant enzyme, and glutathione changes with muscle stretch injury in rabbits 
+L315:  J. Appl. Physiol. 
+L316:  1999 
+L317:  87 
+L318:  74 
+L319:  82 
+L320:  10409559
+L321: 34. Viña J. Gimeno A. Sastre J. Desco C. Asensi M. Pallardo F.V. Cuesta A. Ferrero J.A. Terada L.S. Repine J.E. 
+L322:  Mechanism of free radical production in exhaustive exercise in humans and rats; role of xanthine oxidase and protection by allopurinol 
+L323:  IUBMB Life 
+L324:  2000 
+L325:  49 
+L326:  539 
+L327:  544 
+L328:  11032249
+L329: 35. Gomez-Cabrera M.C. Pallardo F.V. Sastre J. Vina J. Garcia-del-Moral L. 
+L330:  Allopurinol and markers of muscle damage among participants in the Tour de France 
+L331:  JAMA 
+L332:  2003 
+L333:  289 
+L334:  2503 
+L335:  2504 
+L336:  10.1001/jama.289.19.2503-b 
+L337:  12759321
+L338: 36. Gomez-Cabrera M.C. Martinez A. Santangelo G. Pallardo F.V. Sastre J. Vina J. 
+L339:  Oxidative stress in marathon runners: Interest of antioxidant supplementation 
+L340:  Br. J. Nutr. 
+L341:  2006 
+L342:  96 
+L343:  Suppl. S1 
+L344:  S31 
+L345:  S33 
+L346:  10.1079/BJN20061696 
+L347:  16923247
+L348: 37. Peake J. Suzuki K. 
+L349:  Neutrophil activation, antioxidant supplements and exercise-induced oxidative stress 
+L350:  Exerc. Immunol. Rev. 
+L351:  2004 
+L352:  10 
+L353:  129 
+L354:  141 
+L355:  15633591
+L356: 38. Peake J. Nosaka K. Suzuki K. 
+L357:  Characterization of inflammatory responses to eccentric exercise in humans 
+L358:  Exerc. Immunol. Rev. 
+L359:  2005 
+L360:  11 
+L361:  64 
+L362:  85 
+L363:  16385845
+L364: 39. Bourgeois J. MacDougall D. MacDonald J. Tarnopolsky M. 
+L365:  Naproxen does not alter indices of muscle damage in resistance-exercise trained men 
+L366:  Med. Sci. Sports Exerc. 
+L367:  1999 
+L368:  31 
+L369:  4 
+L370:  9 
+L371:  10.1097/00005768-199901000-00002 
+L372:  9927002
+L373: 40. Hasson S.M. Daniels J.C. Divine J.G. Niebuhr B.R. Richmond S. Stein P.G. Williams J.H. 
+L374:  Effect of ibuprofen use on muscle soreness, damage, and performance: A preliminary investigation 
+L375:  Med. Sci. Sports Exerc. 
+L376:  1993 
+L377:  25 
+L378:  9 
+L379:  17 
+L380:  10.1249/00005768-199301000-00003 
+L381:  8423760
+L382: 41. Pizza F.X. Cavender D. Stockard A. Baylies H. Beighle A. 
+L383:  Anti-inflammatory doses of ibuprofen: Effect on neutrophils and exercise-induced muscle injury 
+L384:  Int. J. Sports Med. 
+L385:  1999 
+L386:  20 
+L387:  98 
+L388:  102 
+L389:  10.1055/s-2007-971100 
+L390:  10190769
+L391: 42. O’Grady M. Hackney A.C. Schneider K. Bossen E. Steinberg K. Douglas J.M. Jr. Murray W.J. Watkins W.D. 
+L392:  Diclofenac sodium (Voltaren) reduced exercise-induced injury in human skeletal muscle 
+L393:  Med. Sci. Sports Exerc. 
+L394:  2000 
+L395:  32 
+L396:  1191 
+L397:  1196 
+L398:  10.1097/00005768-200007000-00001 
+L399:  10912880
+L400: 43. Sayers S.P. Knight C.A. Clarkson P.M. van Wegen E.H. Kamen G. 
+L401:  Effect of ketoprofen on muscle function and sEMG activity after eccentric exercise 
+L402:  Med. Sci. Sports Exerc. 
+L403:  2001 
+L404:  33 
+L405:  702 
+L406:  710 
+L407:  10.1097/00005768-200105000-00004 
+L408:  11323536
+L409: 44. Gomez-Cabrera M.C. Salvador-Pascual A. Cabo H. Ferrando B. Vina J. 
+L410:  Redox modulation of mitochondriogenesis in exercise. Does antioxidant supplementation blunt the benefits of exercise training? 
+L411:  Free Radic. Biol. Med. 
+L412:  2015 
+L413:  86 
+L414:  37 
+L415:  46 
+L416:  10.1016/j.freeradbiomed.2015.04.006 
+L417:  25889822
+L418: 45. Powers S.K. Radak Z. Ji L.L. 
+L419:  Exercise-induced oxidative stress: Past, present and future 
+L420:  J. Physiol. 
+L421:  2016 
+L422:  10.1113/JP270646 
+L423:  26893258
+L424: 46. Jackson M.J. Jones D.A. Edwards R.H. 
+L425:  Vitamin E and skeletal muscle 
+L426:  Ciba Found. Symp. 
+L427:  1983 
+L428:  101 
+L429:  224 
+L430:  239 
+L431:  6557905
+L432: 47. Gomez-Cabrera M.C. Borras C. Pallardo F.V. Sastre J. Ji L.L. Vina J. 
+L433:  Decreasing xanthine oxidase mediated oxidative stress prevents useful cellular adaptations to exercise in rats 
+L434:  J. Physiol. 
+L435:  2005 
+L436:  567 
+L437:  113 
+L438:  120 
+L439:  10.1113/jphysiol.2004.080564 
+L440:  15932896
+L441: 48. Sen C.K. Atalay M. Hänninen O. 
+L442:  Exercise-induced oxidative stress: Glutahione supplementation and deficiency 
+L443:  J. Appl. Physiol. 
+L444:  1994 
+L445:  79 
+L446:  675 
+L447:  686
+L448: 49. Sastre J. Asensi M. Gasco E. Pallardo F.V. Ferrero J.A. Furukawa T. Vina J. 
+L449:  Exhaustive physical exercise causes oxidation of glutathione status in blood: Prevention by antioxidant administration 
+L450:  Am. J. Physiol. 
+L451:  1992 
+L452:  263 
+L453:  R992 
+L454:  R995 
+L455:  1443237
+L456: 50. Barclay J.K. Hansel M. 
+L457:  Free radicals may contribute to oxidative skeletal muscle fatigue 
+L458:  Can. J. Physiol. Pharmacol. 
+L459:  1991 
+L460:  69 
+L461:  279 
+L462:  284 
+L463:  10.1139/y91-043 
+L464:  2054745
+L465: 51. Shindoh A. Dimarco A. Thomas A. 
+L466:  Effect of  N -acetylcysteine on diaphragm fatigue 
+L467:  J. Appl. Physiol. 
+L468:  1990 
+L469:  68 
+L470:  2107 
+L471:  2113 
+L472:  2361912
+L473: 52. Reid M.B. Stoik D.S. Koch S.M. Khawli F.A. Lois A.A. 
+L474:  N -acetylcysteine inhibits muscle fatigue in humans 
+L475:  J. Clin. Investig. 
+L476:  1994 
+L477:  94 
+L478:  2468 
+L479:  2474 
+L480:  10.1172/JCI117615 
+L481:  7989604
+L482: 53. Medved I. Brown M.J. Bjorksten A.R. Murphy K.T. Petersen A.C. Sostaric S. Gong X. McKenna M.J. 
+L483:  N -acetylcysteine enhances muscle cysteine and glutathione availability and attenuates fatigue during prolonged exercise in endurance-trained individuals 
+L484:  J. Appl. Physiol. 
+L485:  2004 
+L486:  97 
+L487:  1477 
+L488:  1485 
+L489:  10.1152/japplphysiol.00371.2004 
+L490:  15194675
+L491: 54. McKenna M.J. Medved I. Goodman C.A. Brown M.J. Bjorksten A.R. Murphy K.T. Petersen A.C. Sostaric S. Gong X. 
+L492:  N -acetylcysteine attenuates the decline in muscle Na + , K + -pump activity and delays fatigue during prolonged exercise in humans 
+L493:  J. Physiol. 
+L494:  2006 
+L495:  576 
+L496:  279 
+L497:  288 
+L498:  10.1113/jphysiol.2006.115352 
+L499:  16840514
+L500: 55. Leeuwenburgh C. Ji L.L. 
+L501:  Glutathione and glutathione ethyl ester supplementation of mice alter glutathione homeostasis during exercise 
+L502:  J. Nutr. 
+L503:  1998 
+L504:  128 
+L505:  2420 
+L506:  2426 
+L507:  9868190
+L508: 56. Ristow M. Zarse K. Oberbach A. Kloting N. Birringer M. Kiehntopf M. Stumvoll M. Kahn C.R. Bluher M. 
+L509:  Antioxidants prevent health-promoting effects of physical exercise in humans 
+L510:  Proc. Natl. Acad. Sci. USA 
+L511:  2009 
+L512:  106 
+L513:  8665 
+L514:  8670 
+L515:  10.1073/pnas.0903485106 
+L516:  19433800
+L517: 57. Gomez-Cabrera M.C. Domenech E. Romagnoli M. Arduini A. Borras C. Pallardo F.V. Sastre J. Vina J. 
+L518:  Oral administration of vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance 
+L519:  Am. J. Clin. Nutr. 
+L520:  2008 
+L521:  87 
+L522:  142 
+L523:  149 
+L524:  18175748
+L525: 58. Paulsen G. Cumming K.T. Holden G. Hallen J. Ronnestad B.R. Sveen O. Skaug A. Paur I. Bastani N.E. Ostgaard H.N. 
+L526:  Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: A double-blind, randomised, controlled trial 
+L527:  J. Physiol. 
+L528:  2014 
+L529:  592 
+L530:  1887 
+L531:  1901 
+L532:  10.1113/jphysiol.2013.267419 
+L533:  24492839
+L534: 59. Gomez-Cabrera M.C. Domenech E. Vina J. 
+L535:  Moderate exercise is an antioxidant: Upregulation of antioxidant genes by training 
+L536:  Free Radic. Biol. Med. 
+L537:  2008 
+L538:  44 
+L539:  126 
+L540:  131 
+L541:  10.1016/j.freeradbiomed.2007.02.001 
+L542:  18191748
+L543: 60. Xie Z. Kometiani P. Liu J. Li J. Shapiro J.I. Askari A. 
+L544:  Intracellular reactive oxygen species mediate the linkage of Na + /K + -atpase to hypertrophy and its marker genes in cardiac myocytes 
+L545:  J. Biol. Chem. 
+L546:  1999 
+L547:  274 
+L548:  19323 
+L549:  19328 
+L550:  10.1074/jbc.274.27.19323 
+L551:  10383443
+L552: 61. McGinley C. Shafat A. Donnelly A.E. 
+L553:  Does antioxidant vitamin supplementation protect against muscle damage? 
+L554:  Sports Med. 
+L555:  2009 
+L556:  39 
+L557:  1011 
+L558:  1032 
+L559:  10.2165/11317890-000000000-00000 
+L560:  19902983
+L561: 62. Wolfe R.R. 
+L562:  The underappreciated role of muscle in health and disease 
+L563:  Am. J. Clin. Nutr. 
+L564:  2006 
+L565:  84 
+L566:  475 
+L567:  482 
+L568:  16960159
+L569: 63. Rosenberg I. 
+L570:  Summary comments: Epidemiological and methodological problems in determining nutritional status of older persons 
+L571:  Am. J. Clin. Nutr. 
+L572:  1989 
+L573:  50 
+L574:  1231 
+L575:  1233
+L576: 64. Reid M.B. Judge A.R. Bodine S.C. 
+L577:  Crosstalk opposing view: The dominant mechanism causing disuse muscle atrophy is proteolysis 
+L578:  J. Physiol. 
+L579:  2014 
+L580:  592 
+L581:  5345 
+L582:  5347 
+L583:  10.1113/jphysiol.2014.279406 
+L584:  25512436
+L585: 65. Von Euler U.S. 
+L586:  On the specific vaso-dilating and plain muscle stimulating substances from accessory genital glands in man and certain animals (prostaglandin and vesiglandin) 
+L587:  J. Physiol. 
+L588:  1936 
+L589:  88 
+L590:  213 
+L591:  234 
+L592:  10.1113/jphysiol.1936.sp003433 
+L593:  16994817
+L594: 66. Smith W.L. Urade Y. Jakobsson P.J. 
+L595:  Enzymes of the cyclooxygenase pathways of prostanoid biosynthesis 
+L596:  Chem. Rev. 
+L597:  2011 
+L598:  111 
+L599:  5821 
+L600:  5865 
+L601:  10.1021/cr2002992 
+L602:  21942677
+L603: 67. Kaufman D.W. Kelly J.P. Rosenberg L. Anderson T.E. Mitchell A.A. 
+L604:  Recent patterns of medication use in the ambulatory adult population of the United States: The Slone survey 
+L605:  JAMA 
+L606:  2002 
+L607:  287 
+L608:  337 
+L609:  344 
+L610:  10.1001/jama.287.3.337 
+L611:  11790213
+L612: 68. Simmons D.L. Botting R.M. Hla T. 
+L613:  Cyclooxygenase isozymes: The biology of prostaglandin synthesis and inhibition 
+L614:  Pharmacol. Rev. 
+L615:  2004 
+L616:  56 
+L617:  387 
+L618:  437 
+L619:  10.1124/pr.56.3.3 
+L620:  15317910
+L621: 69. Carroll C.C. O’Connor D.T. Steinmeyer R. Del Mundo J.D. McMullan D.R. Whitt J.A. Ramos J.E. Gonzales R.J. 
+L622:  The influence of acute resistance exercise on cyclooxygenase-1 and -2 activity and protein levels in human skeletal muscle 
+L623:  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L624:  2013 
+L625:  305 
+L626:  R24 
+L627:  R30 
+L628:  10.1152/ajpregu.00593.2012 
+L629:  23637134
+L630: 70. Herbaczynska-Cedro K. Staszewska-Barczak J. 
+L631:  Proceedings: Muscular work and prostaglandin release 
+L632:  Br. J. Pharmacol. 
+L633:  1974 
+L634:  52 
+L635:  454P 
+L636:  455P 
+L637:  4458868
+L638: 71. Berlin T. Cronestrand R. Nowak J. Sonnenfeld T. Wennmalm A. 
+L639:  Conversion of arachidonic acid to prostaglandins in homogenates of human skeletal muscle and kidney 
+L640:  Acta. Physiol. Scand. 
+L641:  1979 
+L642:  106 
+L643:  441 
+L644:  445 
+L645:  10.1111/j.1748-1716.1979.tb06424.x 
+L646:  495152
+L647: 72. Markworth J.F. Cameron-Smith D. 
+L648:  Prostaglandin F 2α  stimulates PI 3 K/ERK/mTOR signaling and skeletal myotube hypertrophy 
+L649:  Am. J. Physiol. Cell Physiol. 
+L650:  2011 
+L651:  300 
+L652:  C671 
+L653:  C682 
+L654:  10.1152/ajpcell.00549.2009 
+L655:  21191105
+L656: 73. Markworth J.F. Cameron-Smith D. 
+L657:  Arachidonic acid supplementation enhances in vitro skeletal muscle cell growth via a COX-2-dependent pathway 
+L658:  Am. J. Physiol. Cell Physiol. 
+L659:  2013 
+L660:  304 
+L661:  C56 
+L662:  C67 
+L663:  10.1152/ajpcell.00038.2012 
+L664:  23076795
+L665: 74. Karamouzis M. Langberg H. Skovgaard D. Bulow J. Kjaer M. Saltin B. 
+L666:  In situ microdialysis of intramuscular prostaglandin and thromboxane in contracting skeletal muscle in humans 
+L667:  Acta Physiol. Scand. 
+L668:  2001 
+L669:  171 
+L670:  71 
+L671:  76 
+L672:  11350265
+L673: 75. Karamouzis M. Karamouzis I. Vamvakoudis E. Ampatzidis G. Christoulas K. Angelopoulou N. Mandroukas K. 
+L674:  The response of muscle interstitial prostaglandin E 2 (PGE 2 ), prostacyclin I 2 (PGI 2 ) and thromboxane A 2 (TXA 2 ) levels during incremental dynamic exercise in humans determined by in vivo microdialysis 
+L675:  Prostaglandins Leukot. Essent. Fat. Acids 
+L676:  2001 
+L677:  64 
+L678:  259 
+L679:  263 
+L680:  10.1054/plef.2001.0269 
+L681:  11418021
+L682: 76. Mikkelsen U.R. Helmark I.C. Kjaer M. Langberg H. 
+L683:  Prostaglandin synthesis can be inhibited locally by infusion of nsaids through microdialysis catheters in human skeletal muscle 
+L684:  J. Appl. Physiol. 
+L685:  2008 
+L686:  104 
+L687:  534 
+L688:  537 
+L689:  10.1152/japplphysiol.01016.2007 
+L690:  18079272
+L691: 77. Boushel R. Langberg H. Gemmer C. Olesen J. Crameri R. Scheede C. Sander M. Kjaer M. 
+L692:  Combined inhibition of nitric oxide and prostaglandins reduces human skeletal muscle blood flow during exercise 
+L693:  J. Physiol. 
+L694:  2002 
+L695:  543 
+L696:  691 
+L697:  698 
+L698:  10.1113/jphysiol.2002.021477 
+L699:  12205200
+L700: 78. Markworth J.F. Vella L.D. Figueiredo V.C. Cameron-Smith D. 
+L701:  Ibuprofen treatment blunts early translational signaling responses in human skeletal muscle following resistance exercise 
+L702:  J. Appl. Physiol. 
+L703:  2014 
+L704:  117 
+L705:  20 
+L706:  28 
+L707:  10.1152/japplphysiol.01299.2013 
+L708:  24833778
+L709: 79. Krentz J.R. Quest B. Farthing J.P. Quest D.W. Chilibeck P.D. 
+L710:  The effects of ibuprofen on muscle hypertrophy, strength, and soreness during resistance training 
+L711:  Appl. Physiol. Nutr. Metab. 
+L712:  2008 
+L713:  33 
+L714:  470 
+L715:  475 
+L716:  10.1139/H08-019 
+L717:  18461099
+L718: 80. Petersen S.G. Beyer N. Hansen M. Holm L. Aagaard P. Mackey A.L. Kjaer M. 
+L719:  Nonsteroidal anti-inflammatory drug or glucosamine reduced pain and improved muscle strength with resistance training in a randomized controlled trial of knee osteoarthritis patients 
+L720:  Arch. Phys. Med. Rehabil. 
+L721:  2011 
+L722:  92 
+L723:  1185 
+L724:  1193 
+L725:  10.1016/j.apmr.2011.03.009 
+L726:  21807137
+L727: 81. Trappe T.A. Carroll C.C. Dickinson J.M. LeMoine J.K. Haus J.M. Sullivan B.E. Lee J.D. Jemiolo B. Weinheimer E.M. Hollon C.J. 
+L728:  Influence of acetaminophen and ibuprofen on skeletal muscle adaptations to resistance exercise in older adults 
+L729:  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L730:  2011 
+L731:  300 
+L732:  R655 
+L733:  R662 
+L734:  10.1152/ajpregu.00611.2010 
+L735:  21160058
+L736: 82. Trappe T.A. Ratchford S.M. Brower B.E. Liu S.Z. Lavin K.M. Carroll C.C. Jemiolo B. Trappe S.W. 
+L737:  COX inhibitor influence on skeletal muscle fiber size and metabolic adaptations to resistance exercise in older adults 
+L738:  J. Gerontol. A Biol. Sci. Med. Sci. 
+L739:  2016 
+L740:  71 
+L741:  1289 
+L742:  1294 
+L743:  10.1093/gerona/glv231 
+L744:  26817469
+L745: 83. Trappe T.A. Fluckey J.D. White F. Lambert C.P. Evans W.J. 
+L746:  Skeletal muscle PGF 2α  and PG 2  in response to eccentric resistance exercise: Influence of ibuprofen acetaminophen 
+L747:  J. Clin. Endocrinol. Metab. 
+L748:  2001 
+L749:  86 
+L750:  5067 
+L751:  5070 
+L752:  11600586
+L753: 84. Rieu I. Magne H. Savary-Auzeloux I. Averous J. Bos C. Peyron M.A. Combaret L. Dardevet D. 
+L754:  Reduction of low grade inflammation restores blunting of postprandial muscle anabolism and limits sarcopenia in old rats 
+L755:  J. Physiol. 
+L756:  2009 
+L757:  587 
+L758:  5483 
+L759:  5492 
+L760:  10.1113/jphysiol.2009.178319 
+L761:  19752122
+L762: Acknowledgments
+L763: This research has been supported by the University of Valencia that granted MC G-C with a short visit grant with reference: UV-INV-EPDI16-384590. The funder had no role in the preparation on the decision to publish.
+[38ms]
+

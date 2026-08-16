@@ -1,0 +1,1073 @@
+L1: Potential Vitamin E Signaling Mediators in Skeletal Muscle
+L2: Antioxidants (2024)
+L3: Elisabetta Meacci, Antony Chirco, Mercedes Garcia-Gil
+L4: 1 Department of Experimental and clinical Biomedical Sciences “Mario Serio”, University of Florence, 50134 Firenze, Italy
+L5: 2 Interuniversity Institute of Myology, University of Florence, 50134 Firenze, Italy
+L6: 3 Department of Biology, Unit of Physiology, University of Pisa, Via S. Zeno 31, 56127 Pisa, Italy;  mercedes.garcia@unipi.it
+L7: Vitamin E (Vit E) deficiency studies underline the relevance of this vitamin in skeletal muscle (SkM) homeostasis. The knowledge of the effectors and modulators of Vit E action in SkM cells is limited, especially in aging and chronic diseases characterized by a decline in musculoskeletal health. Vit E comprises eight fat-soluble compounds grouped into tocopherols and tocotrienols, which share the basic chemical structure but show different biological properties and potentials to prevent diseases. Vit E has antioxidant and non-antioxidant activities and both favorable and adverse effects depending on the specific conditions and tissues. In this review, we focus on the actual knowledge of Vit E forms in SkM functions and new potential signaling effectors (i.e., bioactive sphingolipids and myokines). The possible advantages of Vit E supplementation in counteracting SkM dysfunctions in sarcopenia and under microgravity will also be discussed.
+L8: Review
+L9: skeletal muscle; vitamin E; sphingolipids; myokines; antioxidant action; sarcopenia; microgravity
+L10: 1. Introduction
+L11: Vitamin E (Vit E), a nutrient found in vegetal oils, was discovered as an antioxidant fat-soluble vitamin involved in the control of reproductive functions and, thus, initially named “anti-sterility factor” [ 1 ]. The Vit E family consists of eight hydrophobic compounds that have a similar chemical structure [ 1 ] and are grouped into tocopherols and tocotrienols (named α-, β-, γ-, and δ-tocopherol and α-, β-, γ-, and δ-tocotrienol). Tocopherols and tocotrienols are composed of a chromanol ring, which is linked to an isoprenoid side chain at the C2 position. The isoprenoid chain is saturated in tocopherols and unsaturated in tocotrienols ( Figure 1 A [ 1 , 2 , 3 ]). Tocopherols and tocotrienols show different biological properties ( Figure 1 B) [ 1 , 2 , 3 ].
+L12: Vit E is found in plant-based oils (sunflower and soybean oil), nuts, almonds, seeds, fruits, and vegetables, and the major dietary sources of tocopherols are vegetable oils and cottonseed [ 2 ]. In particular, depending on the diet, α- δ-, and γ-tocopherol are the predominant forms. For example, α-tocopherol is abundant in the European diet because of the high consumption of olive and sunflower oil, whereas in the US diet, γ-tocopherol is about three times more abundant because of the widespread use in this country of corn and soybean oil enriched in γ-tocopherol. β-tocopherol is present only in small amounts [ 1 , 4 , 5 , 6 ]. Food and drug administration recommendations indicate a dietary intake of Vit E based only on α-tocopherol consumption. The recommended dietary allowance for both adult men and women is 15 mg (35 µmol)/day of α-tocopherol [ 7 ]. Due to their lipid-solubility, tocopherols and tocotrienols introduced through the diet are easily incorporated into micelles, then absorbed in the small intestine and, without any specific selectivity for tocopherols and tocotrienols, transported to the liver [ 1 , 8 ]. Alpha-tocopherol is selectively retained in liver cells due to its binding to the α-tocopherol transfer protein (α-TTP) [ 3 , 5 , 9 ], a cytosolic protein that prevents α-tocopherol metabolism. Alpha-TTP presents a very low affinity to β-tocopherol, γ-tocopherol, and δ-tocopherol ( Figure 1 B). Thus, the non-α-tocopherol forms are metabolized via a cytochrome P450-dependent pathway [ 9 ]. From liver cells, α-tocopherol reaches all other tissues. Generally, tocotrienols have higher cellular uptake than tocopherols, with some variations among α-, β-, γ-, and δ-analogs ( Figure 1 B).
+L13: In mammalian plasma, α-tocopherol is the prevalent form of Vit E (22–34 µM), while the others are found at much lower concentrations. In particular, γ-tocopherol and β-tocopherol levels are approximately 10-fold lower than those of α-tocopherol and δ-tocopherol (≈50-fold lower), ranging from 0.3 to 0.8 µM [ 10 ]. The three tocotrienols are 100-fold less concentrated than α-tocopherol (<1 µM). Notably, when 800 IU of dl-α-tocopheryl acetate was supplemented for 30 days in humans, the plasma concentration of α-tocopherol increased by 300%, and that of γ-tocopherol decreased by 74%. Similarly, the gastrocnemius muscle showed a significant 53% increase in α-tocopherol and a 37% decrease in γ-tocopherol [ 10 , 11 , 12 ]. In contrast with α-tocopherol, γ-tocopherol is more bioavailable in tissues than in plasma [ 11 ]. In human tissues, γ-tocopherol is the second most abundant Vit E form, and its concentration is higher in skin, adipose, and muscle tissues than in plasma. The concentration of α-tocopherol in SkM is 155 nmol/g, and that of γ-tocopherol is equivalent (107 nmol/g). γ-tocopherol is metabolized faster than α-tocopherol [ 12 , 13 , 14 , 15 ]. A faster turnover has also been observed for tocotrienols compared with tocopherols [ 13 , 14 ] ( Figure 1 B).
+L14: Over time, the definition of Vit E deficiency has been based on circulating and tissue α-tocopherol concentrations, the susceptibility of erythrocytes to hemolysis, and peripheral neuropathy [ 14 ]. Vit E deficiency is mainly linked to food insecurity, dietary habits, and disorders [ 15 ]. Premature newborns of a very low birth weight (<1500 g) are at increased risk of Vit E deficiency because this vitamin crosses the placenta in small amounts, leading to a very low reserve in newborns [ 15 ]. With age, the risk of Vit E deficiency decreases since Vit E is present in breast milk and commercial formulas. In adults, disorders that impair absorption (such as certain liver and pancreas disorders and cystic fibrosis) can reduce the absorption of Vit E. In addition, genetic impairments, such as mutations in α-TTP, which cause impaired fat metabolism or errors in lipoprotein production, can determine Vit E deficiency [ 16 ]. Vit E deficiency can also be secondary to abetalipoproteinemia and can cause poor transmission of nerve impulses and muscle weakness [ 17 ].
+L15: Presently, there is a scientific debate on Vit E's nomenclature. Azzi and colleagues proposed to limit the term Vit E only to RRR-α-tocopherol (the R configuration at positions 2, 4, and 8 in the chromanol ring) and not to other tocopherols and tocotrienols [ 18 ] since only α-tocopherol is used to protect against Vit E deficiency in humans. Traber (2014) and Eggersdorfer et al. (2024) [ 14 , 19 ] have reported that all α-tocopherols with 2R configurations possess the requirements to be considered Vit E. Other authors do not agree with the restriction of the name since the molecular mechanisms underlying vitamin E deficiency and the prevention or reversion of this disease by vitamin E are not yet completely clarified. Noguchi and Niki [ 20 ] have suggested collecting more data on the functions and molecular mechanisms of action of tocochromanols before any nomenclature revision.
+L16: In the present review, we point out the relevance of the biochemical properties of tocopherols and tocotrienols as antioxidants, membrane stabilizers, and signal transduction modulators in SkM. Myokines and the bioactive sphingolipid sphingosine 1-phosphate (S1P), both released from SkM cells and modulators of biological processes in this tissue, as well as in others, will be suggested as potential mediators of Vit E signaling. Finally, we present the putative advantage of Vit E supplementation as a strategy in SkM dysfunctions associated with aging and under microgravity.
+L17: 2. Tocopherols and Tocotrienols in Skeletal Muscle
+L18: 2.1. Skeletal Muscle Pathophysiology
+L19: SkM tissue constitutes approximately 45-50% of the total body mass. Its prevalent function lies in sustaining movement and posture [ 21 ]. However, in the last decade, its role has been extended to the control of thermogenesis and metabolism of other tissues due to its ability to release myokines, cytokines, and other peptides during SkM contraction [ 22 , 23 ]. SkM is responsive to many stimuli, such as exercise, diet, and inflammation, and changes in SkM's mass, function, and strength occur across the life course [ 23 ]. Extensive exercise leads to reactive oxygen species (ROS), which can determine the oxidative damage and mitochondrial dysfunctions of SkM fibers [ 24 , 25 ]. Unexpectedly, prolonged muscle inactivity, such as limb immobilization, also promotes an increase in ROS, which leads to fiber atrophy [ 26 ]. Oxidative stress due to ROS accumulation can cause an unbalance between protein synthesis and degradation by promoting the expression of the ubiquitin ligase muscle RING-finger protein-1 (MurF-1) and atrogin-1, and the activation of the ubiquitin–proteasome pathway [ 27 ], the protease cascade, and the autophagic process [ 28 , 29 ]. The physiological decline in SkM mass and function, named sarcopenia, is characterized by SkM atrophy and changes in muscle fiber composition by the shift from fast to slow fibers [ 30 , 31 ]. Annual loss in muscle mass and strength is gender–dependent and can reach a rate of 0.64–0.70% per year in women and 0.80–0.98% per year in men [ 28 ]. Several biological and molecular changes can contribute to SkM atrophy associated with aging, such as a decline in neuromuscular function, hormonal deficits, chronic inflammation, and loss of mitochondrial function and neuromuscular remodeling [ 32 ]. In addition, the accumulation of ROS and nitrotyrosine in aging is usually linked to nuclear and mitochondrial DNA damages, which contribute to the irreversible loss of SkM fibers through apoptotic pathways. In older adults, SkM fibers, especially type II fibers, become thinner and shorter in association with a loss of muscle strength [ 30 , 33 ]. SkM mass loss can also occur during muscular disuse and in pathological circumstances such as cancer and diabetes [ 34 , 35 , 36 ].
+L20: 2.2. Vit E's Effects on Skeletal Muscle Aging
+L21: Numerous studies have investigated the effects of antioxidants on SkM performance, and recent reports have underlined the important role of tocopherols and tocotrienols in SkM health and their positive effects ( Figure 2 ) [ 37 , 38 , 39 , 40 ].
+L22: Vit E can delay SkM dysfunctions through several mechanisms, including antioxidant activity, membrane and mitochondria stabilization, and the promotion of SkM precursor cell proliferation [ 37 , 38 , 39 , 40 ] ( Figure 2 ). In particular, several in vitro and in vivo studies have underlined the role of Vit E in the control of SkM tissue homeostasis. For example, tocopherols, extracted from chestnut flour, limit cell atrophy and favor myotube survival [ 41 ]. Moreover, Vit E contributes to membrane repair in myoblasts damaged by laser, in addition to counteracting oxidative damage [ 38 ]. Treatment with Trolox, a Vit E analog, restores the proliferative and regenerative capability of senescent satellite cells [ 34 , 37 ]. It has also been reported that a tocotrienol-rich fraction can limit the induction of lysosomal senescence, ameliorate replicative senescence alterations, and promote myogenesis by regulating myogenic regulatory factor expression [ 42 ] ( Figure 2 ).
+L23: Human trials that have specifically evaluated the effects of Vit E on musculoskeletal disorders associated with age remain scarce and have mostly focused on α-tocopherols. It has been reported that reduced levels of α-tocopherols are correlated with a higher risk of chronic diseases (i.e., diabetes and cardiovascular disease), suggesting that a high level of tocopherols may be critical for ensuring longevity in healthy centenarians [ 43 , 44 , 45 ]. Moreover, a reduced risk of hip fractures, incident frailty, SkM and bone loss, and cognitive decline can be associated with α-tocopherol intake (i.e., 15 mg/die) [ 44 , 45 ]. Although there is no evidence that the aging process impairs Vit E absorption or utilization, a positive relationship between the presence of optimal levels of circulating tocopherols and adequate antioxidant activity and immune response has been observed in centenarians [ 7 ]. Furthermore, supplementation with whey protein, Vit E, and vitamin D can significantly preserve SkM mass and recover strength in sarcopenic subjects [ 46 ]. Another study positively linked daily Vit E supplementation to knee extension strength and physical performance [ 47 ]. Furthermore, supplementation with vitamin C and Vit E could lead to a reduction in SkM damage after downhill runs in moderately trained males [ 48 ]. In humans, a lower content of Vit E in the serum can promote muscle dysfunctions and muscle deterioration in older subjects, likely due to the higher composition of type I fibers, which are more susceptible to damage than type II fibers [ 49 , 50 ]. Indeed, it has been shown that type I fibers have a high oxidative metabolism and utilize more α-tocopherol to prevent oxidative damage [ 10 ]. It has also been reported that RRR α-tocopherol supplementation (150 IU, corresponding to 100 mg) for 12 weeks can counteract SkM damage by protecting against oxidative stress in old men (65–80 years) [ 51 ]. Meanwhile, some reports indicate negative results for high-dose Vit E (235 mg) and vitamin C (1000 mg) supplementation in training adaptation [ 52 ].
+L24: A tocotrienol-rich fraction, composed of 26.67% α-tocotrienol, 4.29% β-tocotrienol, 32.60% γ-tocotrienol, 15.53% δ-tocotrienol, and 20.81% α-tocopherol, was reported to reverse senescence in a stress-induced pre-senescence model of myoblasts [ 53 ] to restore the regenerative capacity of the human senescent satellite cells and to ameliorate defense mechanisms against senescence-associated oxidative stress [ 53 , 54 ] ( Figure 2 ). In particular, the supplementation with the tocotrienol-rich fraction potentiated the activity of superoxide dismutase and catalase and reduced glutathione peroxidase activity [ 54 ]. Notably, in another preclinical study involving Sprague Dawley rats of different ages undergoing forced swimming exercise, supplementation with a tocotrienol-rich fraction (60 mg/kg/day) for 3 months was associated with a significant decrease in age-related lipid metabolism, an increase in amino acid metabolism, enhanced endurance, and reduced oxidative stress [ 55 ] ( Figure 2 ). These results suggest that a tocotrienol-rich fraction may have a positive impact on SkM performance and oxidative stress, which are relevant factors in the context of sarcopenia. Therefore, foods rich in tocopherols can be of help in achieving healthy aging by avoiding Vit E reduction that could contribute to high inflammation and oxidation, the cause of most age-related pathologies [ 56 ]. The role of regular exercise in maintaining SkM functions has been extensively discussed [ 47 , 48 ] and is outside the scope of this review. However, exercise has beneficial effects by reducing oxidative stress, not only in SkM but also in all tissues, helping delay aging [ 57 ].
+L25: 2.3. Skeletal Muscle Alterations in Microgravity
+L26: Prolonged space flights are responsible for reduced mechanical stimulation of SkM, leading to SkM mass wasting [ 58 , 59 ]. Moreover, long-term spaceflight in microgravity (30 days onboard Bion M1) impaired SkM regenerative processes [ 60 ], which appeared to not be sufficient to counteract SkM damage [ 61 ]. In particular, microgravity exposure during parabolic flights could limit the fusion between membranes and membrane repair [ 62 ]. In mice, microgravity effects were evaluated in the International Space Station during the Mice Drawer System program. SkM atrophy occurred in the soleus muscle and not in the extensor digitorum longus muscle and indistinctly in all fiber types to different extents when the animals were evaluated after 91 days compared with 20 days of spaceflight. Most of these changes were qualitatively very similar to those in humans (i.e., a partial shift in muscle fibers toward the glycolytic phenotype) [ 63 , 64 , 65 ]. Notably, studies performed on twenty healthy male volunteers evaluated after 60 days of simulated microgravity showed that the levels of serum and salivary Vit E concentrations were significantly decreased [ 66 ]. Therefore, we can speculate that nutritional interventions and Vit E supplementation during spaceflight could be one strategy of success for the prevention of SkM mass and strength loss. In the NASA twin study, physiological, proteomic, and metabolomic data were collected over 25 months of human spaceflight [ 67 ]. The study led to the conclusion that it is crucial to counterbalance the collateral effects of microgravity in future missions. The new findings in this field will be helpful in the health protection of astronauts, and they will also contribute to a better understanding of the molecular mechanisms at the basis of SkM physiology and age-associated SkM dysfunctions.
+L27: 3. Tocopherols and Tocotrienols: Effects on Skeletal Muscle Membranes
+L28: The localization and dynamic behavior of tocopherols and tocotrienols in intracellular membranes are essential for the mechanism of action of these molecules. Three main features of Vit E are crucial for its function in the bilayer structures: (1) the depth of penetration of the chroman head group; (2) the orientation of the whole molecule with respect to the bulk phospholipids; and (3) the dynamics of tocopherol’s movement in the bilayers. Because of their unsaturated isoprenoid tail compared with the phytyl tail of tocopherol, tocotrienols show a better ability to diffuse through the membrane phospholipid bilayer [ 68 ] and penetrate into tissues that have saturated fatty acid layers, such as the brain and liver. It is known that α-tocopherol can spontaneously associate with polyunsaturated fatty acids, and the chromanol methyl groups are likely responsible for this association [ 69 ]. The effects of α-tocopherol on membranes are more complicated than expected since they also seem to be dependent on the phospholipid composition, often unique for membranes of different cell types [ 70 ]. Therefore, in the last decades, many studies have focused more on the functional influence of Vit E, especially α-tocopherol, on membrane properties rather than its antioxidant biological action [ 68 ]. Therefore, we will briefly discuss the antioxidant and non-antioxidant activity of both tocopherols and tocotrienols in SkM, and we will focus more on their recently described roles as modulators of membrane properties and signaling.
+L29: Antioxidant Activity, Membrane Stabilization, and Membrane Signaling Activity
+L30: The mechanistic details of the antioxidant action of tocopherols and tocotrienols are well established in various tissues and nicely revised in [ 19 , 68 ] and are outside the scope of this review. The understanding of the molecular mechanisms and identification of new mediators that regulate the balance between the beneficial or harmful effects of ROS are trending in SkM biology. In SkM, the three most relevant sources of ROS have been reported: mitochondria, nicotinamide adenine dinucleotide phosphate oxidase enzymes (NOX), and xanthine oxidase [ 71 ].
+L31: Intermediate filaments, such as desmin and vimentin, possess a conserved cysteine residue, which is the target for oxidative and electrophilic modifications, leading to functional dysregulation [ 72 ]. Mutations in the desmin gene (i.e., C333S mutation) lead to the accumulation of granulo-filamentous desmin-positive aggregates and myopathy, which can be reduced by antioxidant treatment by up to 75% [ 72 ]. Other myofilament proteins, including actin, myosin heavy chain, and troponin C, can be oxidized, and their function impaired, by long-term exposure to oxidants [ 73 , 74 , 75 ].
+L32: ROS are crucial regulators of SkM responses, such as increased glucose uptake and mitochondrial biogenesis, which lead to SkM adaptations [ 76 ]. Most of these adaptations in SkM may be potentiated or blunted by antioxidants [ 77 ]. In fact, antioxidants, which disturb ROS signaling, can lead to the disruption of exercise training’s beneficial health effects, as confirmed by a recently published meta-analysis of randomized controlled trials [ 78 , 79 ].
+L33: The beneficial effect of Vit E is observed in membranes damaged by eccentric exercise but not by other forms of stress, such as aerobic exercise, where the sarcolemma damage is essentially due to metabolic dysfunctions [ 38 , 80 , 81 ]. During endurance training, Vit E supplementation (400 IU/day) prevents some negative SKM effects [ 10 , 82 ]. Meydani et al. [ 10 ] reported that Vit E provides protection against exercise-induced oxidative injury, while Beaton et al. [ 83 ] did not find protective effects on SkM damage. Silva et al. [ 80 ] demonstrated that α-tocopherol supplementation (800 IU/day of d-α-tocopherol acetate) decreased muscular and oxidative damage but not the inflammatory response induced by eccentric contraction. Another study reported by Yfanti et al. [ 84 ] indicated that supplementation with vitamins C and E (1 g of ascorbic acid and 400 IU of d-α-tocopherol daily) had no effect either on the lipid profile or insulin sensitivity during chronic eccentric exercise. Beneficial effects of tocotrienols on SkM contractile damage after repeated and prolonged contractions have also been observed [ 85 ]. The discrepancy among these data can be due to the differences in training protocols and the vitamin dosages that were used.
+L34: Tocopherol is capable of affecting membrane stabilization by decreasing membrane fluidity, as demonstrated for the first time in intestinal brush-border membranes [ 68 , 86 ]. This effect appears to be a particular property of α-tocopherol but not of β-, γ-, or δ-tocopherol, suggesting the importance of the number of chroman methyl groups and the ability to form van der Waals interactions with membrane phospholipids. The changes in the membrane fluidity and stability contribute to the re-organization of membrane components [ 68 , 86 , 87 ].
+L35: The presence of tocopherols in the double layer of biological membranes contributes to the formation of specific domains, such as cholesterol and sphingolipid-enriched microdomains (lipid rafts), which can, in turn, result in stabilizing or destabilizing effects other than the promotion of specific signaling pathways. In SkM, the stability of both the sarcolemma and myofibrils is crucial for the generation and transmission of force, cell motility, and signaling molecules, which anchor to the extracellular matrix. Although different actors, such as intermediate filaments and the dystrophin–glycoprotein complex, contribute to sarcolemma stabilization, eccentric muscle contractions can lead to physical SkM weakness and tissue degeneration [ 88 ].
+L36: Plasma membrane disruption, formation, and repair are impaired in mdx mice, a model of Duchene’s muscular dystrophy, and in patients with muscular dystrophy, a genetic disease caused by mutations in dystrophin [ 89 ]. Lipid-directed antioxidant activity, such as that of tocopherols, can contribute to both in vitro and in vivo membrane repair [ 38 , 83 ]. In patients with Duchene’s muscular dystrophy, the damage of SkM fibers is also, in part, due to the very low regenerative capacity of stem cells [ 90 ]. Therefore, any actions finalized to guarantee stem cell functions may have a therapeutic significance for Duchene’s muscular dystrophy [ 90 ]. Stem cells respond to treatment with antioxidants by staying in an undifferentiated functional status [ 91 ]. In mdx mice, the supplementation with a tocotrienol-rich fraction can favor stem cell proliferation and differentiation [ 80 ].
+L37: By regulating membrane fluidity and stability, Vit E can affect the kinetics of interactions between proteins, contributing to the activation of downstream signaling pathways (i.e., p44/42 mitogen-activated kinase (MAPK), PI3K/Akt/mTOR, JAK/STAT, NF-κB nuclear respiratory factor2 (NRF2), and PGC-1α) [ 92 , 93 ]. Understanding the biological functions mediated by α-tocopherol and other Vit E components as cell signaling modulators is of interest, especially when considering various cell types and pathological conditions. Differences in Vit E uptake, intracellular transport, metabolism, and biological effects appear to be cell-specific [ 68 , 94 ]. For example, Vit E can induce or prevent apoptosis [ 92 , 95 , 96 ]. Antioxidants have the potential to defer disuse muscle atrophy, but the mechanisms involved in this protection are not fully elucidated [ 97 ]. Servais et al. [ 98 ] reported that the protective effect of α-tocopherol acetate might be due to its ability to modulate muscle proteolysis-related genes (MurF-1 and atrogin-1) and caspases and μ-calpain genes rather than its antioxidant function [ 98 ]. Other studies suggested the involvement of mitochondria, demonstrating that tocopherol and the mitochondrial-targeted antioxidant SS-31 could localize in mitochondria and, in turn, exert their actions by protecting muscles against inactivity-induced atrophy [ 99 ].
+L38: 4. Potential Mediators of Tocopherols and Tocotrienols’ Action in Skeletal Muscle
+L39: 4.1. Myokines
+L40: The molecular and cellular events modulated by Vit E in protecting SkM from aging and disease-associated alterations are still partially unknown, especially those regarding SkM as endocrine tissue. Recent studies show that in response to exercise and, preferentially, during resistance training, SkM produces and releases bioactive molecules, which contribute to crosstalk between the SkM itself and other organs, such as the brain, adipose tissue, and bone through autocrine, paracrine, or endocrine pathways [ 100 , 101 , 102 ]. The first described exercise-induced factor was IL-6, successively named myokine [ 103 , 104 , 105 ]. During contraction, SkM is able to secrete hundreds of peptides (more than 650). In the SkM itself, myokines can control cell proliferation, differentiation, tissue regeneration [ 104 , 106 ], and mass [ 107 , 108 ]. The SkM secretome is also involved in immunological responses and anti-inflammatory and anti-cancer processes [ 107 ]. The role of myokines in tumor progression is outside the scope of this review. However, it is worth noting that crosstalk between SkM and tumors exists, and there is the possibility of counteracting tumor progression by regulating SkM endocrine function [ 109 ]. Studies on the regulation of myokines by Vit E are scarce.
+L41: In working muscle, IL-6 levels increase up to 100-fold compared with the pre-exercise baseline [ 110 ]. Notably, IL-6 can act as a pro-inflammatory and anti-inflammatory cytokine when it is released by SkM during exercise [ 111 , 112 ]. In addition, IL-6 can inhibit the production of TNF-α and IL-1β and promote other anti-inflammatory cytokines [ 112 ]. In SkM, IL-6 controls the activation of satellite cells and potentiates protein synthesis in myotubes via the mTOR signaling cascade, leading to tissue hypertrophy. In fact, the genetic loss of IL-6 results in impaired muscle mass in vivo [ 113 ]. IL-6 also mediates the effects of repetitive eccentric contraction, leading to an increase in the stem cell number and fusion of muscle fibers [ 114 ].
+L42: A correlation between Vit E and IL-6 secretion and inflammation has been demonstrated in several tissues [ 115 ]. Notably, a meta-analysis of randomized clinical trials involving 2102 individuals aged from 20 to 70 years demonstrated the beneficial effects of α-tocopherol supplementation on subclinical inflammation through the variation in IL-6 levels [ 116 ]. There is little and indirect information regarding Vit E and IL-6 in SkM. It has been reported that dietary vitamin supplementation (mixed tocopherols, flavonoids, and docosahexaenoate) reduced the concentration of inflammatory mediators, such as C-reactive protein and IL-6, in the SkM of untrained males after eccentric exercise [ 117 ]. Long-term daily multi-vitamin supplementation can also reduce pro-inflammatory responses and the increase in the IL-6/IL-10 ratio after total knee arthroplasty [ 118 ]. The acute inflammatory response to LPS, the consequent IL-6 production, and the decrease in grip strength were exacerbated in α-TTP-null mice [ 119 ]. Hypoxia provokes oxidative stress and inflammation, and exercise under this condition leads to additional stress, increasing IL-6, TNF-α, interleukin-1 receptor antagonist, and IL-10 levels immediately after exercise. Supplementation with Vit E (an acute dose of Vit E of 250 mg) counteracts these effects [ 120 ]. A meta-analysis showed that dietary Vit E supplementation (300 to 1318 IU per day) significantly reduced biomarkers related to exercise-induced SkM damage and oxidative stress, in particular, IL-6 [ 115 ]. However, another systematic review and meta-analysis concluded that supplementation with Vit E had no effect on IL-6 levels after physical exercise in healthy participants [ 121 ]. The dosage of pro-inflammatory markers’ protein levels in the SkM of diabetic mice showed that IL-6 and TFN-α levels were lower in the specimens that had been supplemented with a tocotrienol-rich fraction compared with the untreated control group. The same, however, did not apply to monocyte chemoattractant protein-1 levels [ 122 ].
+L43: Myostatin, a member of the transforming growth factor-β superfamily, is mainly expressed in SkM [ 123 ] and is a negative regulator of SkM growth, both during embryogenesis and in adulthood [ 124 ]. In particular, the inhibition of satellite cell proliferation and differentiation and muscle fiber protein synthesis occurs in the presence of myostatin, and increased levels of myostatin are significantly associated with SkM-wasting diseases, such as cancer cachexia and sarcopenia [ 125 ]. Myostatin is also a crucial regulator of energy metabolism in myoblasts [ 126 ]. Growing evidence supports the role of this myokine in obesity, insulin resistance, and cardiovascular and chronic kidney disease [ 127 ]. Several pharmacological approaches leading to the reduction in myostatin levels have been suggested as a potential target for dystrophy and other myopathies [ 128 ]. Myostatin content was negatively correlated with Vit E intake in prepubertal healthy children having omnivorous diets [ 129 ]. Treatment with a tocotrienol-rich fraction (26.67% α-tocotrienol, 4.29% β-tocotrienol, 32.60% γ-tocotrienol, 15.53% δ-tocotrienol, and 20.81% α-tocopherol) promotes the downregulation of myostatin expression in myoblasts [ 54 ].
+L44: Irisin, a member of the PGC-1α superfamily, is one of the most recent myokines described to date [ 105 ]. As with other myokines, irisin is produced by the cleavage of the transmembrane protein FNDC5 and secreted by SkM during physical exercise [ 130 ]. Irisin is a short-lived molecule involved in many physiological and pathological conditions [ 131 ]. For example, it affects the process of browning of white adipose tissue, thus contributing to thermogenesis and energy metabolism [ 132 ]. Regarding SkM, irisin influences the activation/proliferation of satellite cells and myoblasts, promotes myoblast fusion, thus contributing to muscle growth, and can improve regeneration after tissue injury [ 23 , 130 ]. Direct evidence of the regulation of irisin production by tocopherols and tocotrienols in SkM is missing, whereas the existence of a relationship between irisin and Vit E has been demonstrated in a few studies on other tissues. Vit E, by regulating the level of irisin and other peptides in rats, protected the ovaries from ischemia-reperfusion injury [ 133 ]. However, the protective effect of the oral administration of an α-tocotrienol-rich fraction on obesity-induced glucose intolerance and inflammation in rats might be independent of irisin expression [ 134 ]. The regulation of irisin by the master muscle transcriptional regulator PGC-1α and the ability of Vit E to control its expression in other tissues allows one to speculate the potential role of Vit E in irisin modulation also in SkM. This could offer a strategy to facilitate recovery when normal exercise is not possible. Regarding myokines, sphingosine 1-phosphate S1P/S1P receptor (S1PR) signaling has been recently demonstrated to enhance the production and secretion of irisin and its effects on myoblast proliferation and differentiation [ 23 ].
+L45: 4.2. Sphingolipids
+L46: 4.2.1. Metabolism and Functions in SkM
+L47: Sphingolipids (SLs), structural components of the membranes of all eukaryotic cells, are also bioactive molecules characterized by the presence of sphingoid bases: a sphingosine backbone linked to one hydrophobic acyl chain and a phosphate head group ester ( Figure 3 A). SLs participate in the control of a variety of important cell functions, such as cell growth, differentiation, inflammation, senescence, and apoptosis [ 135 , 136 , 137 , 138 , 139 ] ( Figure 3 B–D). In particular, S1P can act as an intracellular mediator and, after being transported outside the cell, as a ligand for specific heterotrimeric GTP-binding protein-coupled receptors, named S1PRs [ 135 , 136 , 137 ], which are widely expressed in almost all cell types. Several studies have reported the crucial role of ceramide and S1P in SkM cell biology [ 140 , 141 , 142 , 143 ]. Similar to other tissues, ceramide and S1P act in an opposite manner ( Figure 3 B). In particular, reduced production of S1P by silencing SPHK activity enhances the proliferation of myoblasts and delays myogenesis [ 141 , 143 ], while ceramide induces cell growth arrest. In mature differentiated SkM cells, the reduced content of active SPHK and high level of ceramide promote cell atrophy, as observed in in vitro cells as well as in SkM tissue obtained from cachectic mice models [ 143 , 144 ]. It is worth noting that the SPHK1/S1P axis exerts a protective action on denervated SkM [ 145 ] or damaged muscle fibers [ 146 ]. Most of these effects are likely associated with the capability of SLs to maintain cellular redox homeostasis by controlling NADPH oxidase, mitochondrial integrity, and antioxidant enzymes [ 147 , 148 ]. Several studies also support the role of the S1P/S1PR axis in the control of mechanical inputs (i.e., extracellular matrix stiffness) and cytoskeleton remodeling [ 149 , 150 ]. During senescence, the increase in dipeptidyl peptidase 4 (DPP4/CD26) expression [ 151 ] is required for the senescence-associated secretory phenotype and activation of galactosidase expression and specific signaling, such as src/p38MAPK/NFkB. Although the role of SLs in aging has not been fully investigated, they can affect all these signaling pathways [ 147 , 148 , 152 ], and thus, SLs may modulate the senescent phenotype in SkM cells. Moreover, recent findings indicate that alterations in gene and protein expression in SL metabolism (i.e., CERS1 and DEGS1) are linked to age-related impairments [ 153 , 154 ].
+L48: 4.2.2. Sphingolipids and Vit E
+L49: Increasing evidence supports a correlation between a low level of Vit E and the level of SLs in the plasma and pathological conditions, such as inflammation and cancer. In particular, it has been reported that γ-tocopherols and tocotrienols have anti-cancer effects through the control of several key mediators (nicely reviewed in [ 155 ]), including specific SLs. Moreover, lipidomic studies indicate that γ-tocotrienols alter lipid metabolism (ceramide synthesis) during inflammation in LPS-primed bone marrow-derived macrophages [ 156 ]. Moreover, a decrease in Vit E content in pro-oxidant conditions is correlated with the accumulation of ceramide and changes in SLs in liver cells [ 157 ]. Regarding SkM, firstly, Albarracin et al. [ 158 ] compared SkM tissues from Vit E-deficient and control rabbits and reported that low levels of Vit E lead to an increase in lipids (i.e., gangliosides, sphingomyelin, and neutral glycosylceramides). Alpha-tocopherol can prevent the apoptosis promoted by 7-ketocholesterol in A7R5 smooth muscle cells, and, notably, 7-ketocholesterol, a pro-atherogenic compound, is able to alter SLs in the raft domains of the cell membrane [ 159 ], supporting the potential regulation of SLs by α-tocopherol. It can be speculated that in SkM, tocopherols and tocotrienols, acting as antioxidants, membrane stabilizers, and signaling mediators, can differently activate SL metabolism, and their intracellular re-localization may lead to a control of SkM biology. Moreover, it would be of interest to study this functional relationship also in specific SkM dysfunctions, such as those related to disuse, aging, and microgravity.
+L50: 5. Conclusions
+L51: Since the clinical treatment of many SkM dysfunctions is still a huge challenge, the prevention of SkM degeneration is the only possibility in many circumstances. SkM is a tissue sensitive to reduced levels of α-tocopherol [ 17 , 27 ], and the beneficial effects of Vit E supplementation on SkM health have already been reported in some animal and human studies. Rigorous protocols using well-defined dosages and times, specific Vit E forms, chemically characterized extracts, and/or a combination of tocopherols and tocotrienols should be set up in order to ascertain whether and in which conditions Vit E has positive effects. Myokines and bioactive SLs, in particular, S1P and ceramide, could be new potential targets/effectors of tocopherols and tocotrienols. The identification of Vit E signaling mediators and specific and dynamic molecular/functional interactions may help to better define the potential use of tocopherols and tocotrienols in counteracting SkM dysfunctions.
+L52: Figure 1 ( A ) Stereochemical structures of tocotrienols and tocopherols. The four isoforms of both tocopherols and tocotrienols differ in the degree and position of methyl groups on the chromanol ring: the α-isomers are trimethylated, the β- and γ-isomers are dimethylated, and the δ-isomers are monomethylated. ( B ) Most relevant biological differences between tocotrienols and tocopherols.
+L53: Figure 2 Effects of tocopherols and tocotrienols on skeletal muscle. The figure shows the potential molecular mechanisms (blue arrows) by which tocopherols and tocotrienols act in SkM cells, leading to the modulation of biochemical processes (blue boxes) and tissue regeneration or atrophy. The double yellow arrows indicate an unknown relationship. Green arrow: decrease; red arrow: increase.
+L54: Figure 3 Sphingolipid structure, metabolism, and function in SkM. ( A ) The stereochemical structure of the sphingolipids sphingosine, ceramide, and sphingomyelin. ( B ) Balance between ceramide (Cer) and S1P content can affect the cellular fate. In SkM, S1P is a pro-survival and pro-myogenic factor, whereas ceramide inhibits myogenesis and promotes cell atrophy. ( C ) Sphingolipid metabolism. The de novo SL pathway occurs in the endoplasmic reticulum, where the condensation of serine and palmitoyl CoA by serine palmitoyltransferase (SPT) generates ceramide, which is then shuttled to the Golgi apparatus. Here, it is used as the building structure for the synthesis of sphingomyelin and other complex sphingolipids. Cer can also be generated by sphingomyelin hydrolysis catalyzed by sphingomyelinase (SMase) activity. Ceramide is then converted reversibly to sphingosine by ceramidase (CDase) or phosphorylated to ceramide-1-phosphate (C1P) by ceramide kinase (CERK) activity. Successively, sphingosine is phosphorylated by two isoforms of sphingosine kinases, SPHK1 and SPHK2, to S1P. The exit from the sphingolipid synthesis pathways occurs through S1P lyase, which promotes the degradation of S1P into hexadecenal and phosphoethanolamine. The latter is further metabolized into palmitoyl CoA. S1P is also a substrate of specific S1P phosphatases, which generate sphingosine. CERS: ceramide synthase; DEGS: sphingolipid delta 4-desaturases; SMS: sphingomyelin synthase; KDS: 3-ketodihydrosphingosine reductase. ( D ) S1P produced by the active membrane-bound SPHK from sphingosine (Sph) can be transported outside the cell by an ATP-binding cassette transporter named spinster homolog 2 (Spns2) and, acting as a ligand for specific GTP-binding protein-coupled receptors (S1PRs), can affect different signaling pathways. The orange boxes indicate the metabolites that are affected by Vit E.
+L55: 1. Szewczyk K. 
+L56:  Niki E. 
+L57:  Abe K. 
+L58:  Vitamin E: Chemistry and Nutritional Benefits Int. J. Mol. Sci. 2021 9 6222 10.3390/ijms22126222
+L59: 2. Mène-Saffrané L. 
+L60:  Vitamin E biosynthesis and its regulation in Plants Antioxidants 2017 7 2 10.3390/antiox7010002 29295607
+L61: 3. Morrissey P.A. 
+L62:  Kiely M. 
+L63:  Vitamin E: Physiology and health effects Encyclopedia of Human Nutrition 2nd ed. 
+L64:  Caballer B. 
+L65:  Allen L. 
+L66:  Prentice A. 
+L67:  Elsevier Amsterdam, The Netherlands Academic Press Cambridge, MA, USA 2005 389 398
+L68: 4. McLaughlin P.J. 
+L69:  Weihrauch J.L. 
+L70:  Vitamin E content of foods J. Am. Diet. Assoc. 1979 75 647 665 10.1016/S0002-8223(21)05428-6 389993
+L71: 5. Wagner K.H. 
+L72:  Kamal-Eldin A. 
+L73:  Elmadfa I. 
+L74:  Gamma-tocopherol—An underestimated vitamin? Ann. Nutr. Metab. 2004 48 169 188 10.1159/000079555 15256801
+L75: 6. Gleize B. 
+L76:  Steib M. 
+L77:  Andre M. 
+L78:  Reboul E. 
+L79:  Simple and fast HPLC method for simultaneous determination of retinol, tocopherols, coenzyme Q(10) and carotenoids in complex samples Food Chem. 2012 134 2560 2564 10.1016/j.foodchem.2012.04.043 22871234
+L80: 7. Institute of Medicine Panel on Dietary Antioxidants and Related Compounds Vitamin, E. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids The National Academies Press Washington, DC, USA 2000 ISBN-10: 0-309-06949-1, ISBN-10: 0-309-06935-1
+L81: 8. Podszun M. 
+L82:  Frank J. 
+L83:  Vitamin E–drug interactions: Molecular basis and clinical relevance Nutr. Res. Rev. 2014 27 215 231 10.1017/S0954422414000146 25225959
+L84: 9. Arai H. 
+L85:  Kono N. 
+L86:  Alpha-Tocopherol transfer protein (alpha-TTP) Free Radic. Biol. Med. 2021 76 162 175 10.1016/j.freeradbiomed.2021.09.021
+L87: 10. Meydani M. 
+L88:  Fielding R.A. 
+L89:  Cannon G.J. 
+L90:  Blumberg J.B. 
+L91:  Evans W.J. 
+L92:  Muscle uptake of vitamin E and its association with muscle fiber type J. Nutr. Biochem. 1997 8 74 78 10.1016/S0955-2863(96)00176-3
+L93: 11. Burton G.W. 
+L94:  Traber M.G. 
+L95:  Acuff R.V. 
+L96:  Walters D.N. 
+L97:  Kayden H. 
+L98:  Hughes L. 
+L99:  Ingold K.U. 
+L100:  Human plasma and tissue alpha-tocopherol concentrations in response to supplementation with deuterated natural and synthetic vitamin E Am. J. Clin. Nutr. 1998 67 669 684 10.1093/ajcn/67.4.669 9537614
+L101: 12. Ulchida T. 
+L102:  Abe C. 
+L103:  Nomura S. 
+L104:  Ichikawa T. 
+L105:  Ikeda S. 
+L106:  Tissue distribution of α- and γ-tocotrienol and γ-tocopherol in rats and interference with their accumulation by α-tocopherol Lipids 2012 47 129 139 10.1007/s11745-011-3620-7 22042641
+L107: 13. Traber M.G. 
+L108:  Kayden H.J. 
+L109:  Tocopherol distribution and intracellular localization in human adipose tissue Am. J. Clin. Nutr. 1987 46 488 495 10.1093/ajcn/46.3.488 3630967
+L110: 14. Traber M.G. 
+L111:  Vitamin E deficiency, and what is and is not Vitamin E? Free Radic. Biol. Med. 2024 213 285 292 10.1016/j.freeradbiomed.2024.01.024 38242248
+L112: 15. Lobo L.M.C. 
+L113:  Hadler M.C.C.M. 
+L114:  Vitamin E deficiency in childhood: A narrative review Nutr. Res. Rev. 2023 36 392 405 10.1017/S0954422422000142 35929460
+L115: 16. Kim H.K. 
+L116:  Han S.N. 
+L117:  Vitamin E: Regulatory role on gene and protein expression and metabolomics profiles IUBMB Life 2019 71 442 455 10.1002/iub.2003 30632663
+L118: 17. Tanyel M.C. 
+L119:  Mancano L.D. 
+L120:  Neurologic findings in vitamin E deficiency Am. Fam. Physician 1997 55 197 201 9012278
+L121: 18. Azzi A. 
+L122:  Atkinson J. 
+L123:  Ozer N.K. 
+L124:  Manor D. 
+L125:  Wallert M. 
+L126:  Galli F. 
+L127:  Vitamin E discussion forum position paper on the revision of the nomenclature of vitamin E Free Radic. Biol. Med. 2023 207 178 180 10.1016/j.freeradbiomed.2023.06.029 37463635
+L128: 19. Eggersdorfer M. 
+L129:  Schmidt K. 
+L130:  Péter S. 
+L131:  Richards J. 
+L132:  Winklhofer-Roob B. 
+L133:  Hahn A. 
+L134:  ObermüllJevic U. 
+L135:  Vitamin E: Not only a single stereoisomer Free Radic. Biol. Med. 2024 215 106 111 10.1016/j.freeradbiomed.2024.02.013 38401827
+L136: 20. Noguchi N. 
+L137:  Niki E. 
+L138:  Vitamin E nomenclature. Is RRR-α-tocopherol the only vitamin E? Free Radic. Biol. Med. 2024 221 257 260 10.1016/j.freeradbiomed.2024.05.027 38754742
+L139: 21. Mukund K. 
+L140:  Subramaniam S. 
+L141:  Skeletal muscle: A review of molecular structure and function, in health and disease WIREs Syst. Biol. Med. 2020 12 e1462 10.1002/wsbm.1462
+L142: 22. Febbraio M.A. 
+L143:  Pedersen B.K. 
+L144:  Who would have though Myokines two decades on Nat. Rev. Endocrinol. 2020 16 619 620 10.1038/s41574-020-00408-7 32839577
+L145: 23. Pierucci F. 
+L146:  Chirco A. 
+L147:  Meacci E. 
+L148:  Irisin Is Target of Sphingosine-1-Phosphate/Sphingosine-1-Phosphate Receptor-Mediated Signaling in Skeletal Muscle Cells Int. J. Mol. Sci. 2023 24 10548 10.3390/ijms241310548 37445724
+L149: 24. Davies K.J. 
+L150:  Oxidative stress, antioxidant defenses, and damage removal, repair, and replacement systems IUBMB Life 2000 50 279 289 10.1080/15216540051081010 11327322
+L151: 25. Chen M. 
+L152:  Wang Y. 
+L153:  Deng S. 
+L154:  Lian Z. 
+L155:  Yu K. 
+L156:  Skeletal muscle oxidative stress and inflammation in aging: Focus on antioxidant and anti-inflammatory therapy Front. Cell Dev. Biol. 2022 10 964130 10.3389/fcell.2022.964130 36111339
+L157: 26. Sies H. 
+L158:  Jones D.P. 
+L159:  Reactive oxygen species (ROS) as pleiotropic physiological signalling agents Nat. Rev. Mol. Cell Biol. 2020 21 363 383 10.1038/s41580-020-0230-3 32231263
+L160: 27. Hughes D.C. 
+L161:  Baehr L.M. 
+L162:  Waddell D.S. 
+L163:  Sharples A.P. 
+L164:  Bodine S.C. 
+L165:  Ubiquitin Ligases in Longevity and Aging Skeletal Muscle Int. J. Mol. Sci. 2022 23 7602 10.3390/ijms23147602 35886949
+L166: 28. Wilkinson D.J. 
+L167:  Piasecki M. 
+L168:  Atherton P.J. 
+L169:  The age-related loss of skeletal muscle mass and function: Measurement and physiology of muscle fibre atrophy and muscle fibre loss in humans Ageing Res. Rev. 2018 47 123 132 10.1016/j.arr.2018.07.005 30048806
+L170: 29. Bonaldo P. 
+L171:  Sandri M. 
+L172:  Cellular and molecular mechanisms of muscle atrophy Dis. Models Mech. 2013 6 25 39 10.1242/dmm.010389 23268536
+L173: 30. Alnaqeeb M.A. 
+L174:  Goldspink G.J. 
+L175:  Changes in fibre type, number and diameter in developing and ageing skeletal muscle J. Anat. 1987 153 31 45 3429325
+L176: 31. Petermann-Rocha F. 
+L177:  Balntzi V. 
+L178:  Gray S.R. 
+L179:  Lara J. 
+L180:  Ho F.K. 
+L181:  Pell J.P. 
+L182:  Celis-Morales C. 
+L183:  Global prevalence of sarcopenia and severe sarcopenia: A systematic review and meta-analysis J. Cachexia Sarcopenia Muscle 2022 13 86 99 10.1002/jcsm.12783 34816624
+L184: 32. Ibebunjo C. 
+L185:  Chick J.M. 
+L186:  Kendall T. 
+L187:  Eash J.K. 
+L188:  Li C. 
+L189:  Zhang Y. 
+L190:  Vickers C. 
+L191:  Wu Z. 
+L192:  Clarke B.A. 
+L193:  Shi J. 
+L194:  
+L195:  Genomic and proteomic profiling reveals reduced mitochondrial function and disruption of the neuromuscular junction driving rat sarcopenia Mol. Cell. Biol. 2013 33 194 212 10.1128/MCB.01036-12 23109432
+L196: 33. Verdijk L.B. 
+L197:  Snijders T. 
+L198:  Beelen M. 
+L199:  Savelberg H.H. 
+L200:  Meijer K. 
+L201:  Kuipers H. 
+L202:  Van Loon L.J. 
+L203:  Characteristics of muscle fiber type are predictive of skeletal muscle mass and strength in elderly men J. Am. Geriatr. Soc. 2010 58 2069 2075 10.1111/j.1532-5415.2010.03150.x 21054286
+L204: 34. Dodds R.M. 
+L205:  Syddall H.E. 
+L206:  Cooper R. 
+L207:  Kuh D. 
+L208:  Cooper C. 
+L209:  Sayer A.A. 
+L210:  Global variation in grip strength: A systematic review and meta-analysis of normative data Age Ageing 2016 45 209 216 10.1093/ageing/afv192 26790455
+L211: 35. Distefano G. 
+L212:  Goodpaster B.H. 
+L213:  Effects of Exercise and Aging on Skeletal Muscle Cold Spring Harb. Perspect. Med. 2018 8 a029785 10.1101/cshperspect.a029785 28432116
+L214: 36. Englund D.A. 
+L215:  Zhang X. 
+L216:  Aversa Z. 
+L217:  LeBrasseur N.K. 
+L218:  Skeletal muscle aging, cellular senescence, and senotherapeutics: Current knowledge and future directions Mech. Ageing Dev. 2021 200 111595 10.1016/j.mad.2021.111595 34742751
+L219: 37. Usuki F. 
+L220:  Yasutake A. 
+L221:  Umehara F. 
+L222:  Tokunaga H. 
+L223:  Matsumoto M. 
+L224:  Eto K. 
+L225:  Ishiura S. 
+L226:  Higuchi I. 
+L227:  In vivo protection of a water-soluble derivative of vitamin E, Trolox, against methylmercury-intoxication in the rat Neurosci. Lett. 2001 304 199 203 10.1016/S0304-3940(01)01764-5 11343836
+L228: 38. Labazi M. 
+L229:  McNeil A.K. 
+L230:  Kurtz T. 
+L231:  Lee T.C. 
+L232:  Pegg R.B. 
+L233:  Angeli J.P.F. 
+L234:  Conrad M. 
+L235:  McNeil P.L. 
+L236:  The antioxidant requirement for plasma membrane repair in skeletal muscle Free Radic. Biol. Med. 2015 84 246 253 10.1016/j.freeradbiomed.2015.03.016 25843658
+L237: 39. La Fata G. 
+L238:  Seifert N. 
+L239:  Weber P. 
+L240:  Mohajeri M.H. 
+L241:  Vitamin E Supplementation Delays Cellular Senescence In Vitro Biomed. Res. Int. 2015 2015 563247 10.1155/2015/563247 26613084
+L242: 40. Mâncio R.D. 
+L243:  Hermes T.A. 
+L244:  Macedo A.B. 
+L245:  Mizobuti D.S. 
+L246:  Valduga A.H. 
+L247:  Rupcic I.F. 
+L248:  Minatel E. 
+L249:  Vitamin E treatment decreases muscle injury in mdx mice Nutrition 2017 43–44 39 46 10.1016/j.nut.2017.07.003
+L250: 41. Frati A. 
+L251:  Landi D. 
+L252:  Marinelli C. 
+L253:  Gianni G. 
+L254:  Fontana L. 
+L255:  Migliorini M. 
+L256:  Pierucci F. 
+L257:  Garcia-Gil M. 
+L258:  Meacci E. 
+L259:  Nutraceutical properties of chestnut flours: Beneficial effects on skeletal muscle atrophy Food Funct. 2014 5 2870 2882 10.1039/C4FO00353E 25183412
+L260: 42. Khor S.C. 
+L261:  Razak A.M. 
+L262:  Wan Ngah W.Z. 
+L263:  Mohd Yusof Y.A. 
+L264:  Karim N.A. 
+L265:  Makpol S. 
+L266:  The Tocotrienol-Rich Fraction Is Superior to Tocopherol in Promoting Myogenic Differentiation in the Prevention of Replicative Senescence of Myoblasts PLoS ONE 2016 11 e0149265 10.1371/journal.pone.0149265 26885980
+L267: 43. Mecocci P. 
+L268:  Polidori M.C. 
+L269:  Troiano L. 
+L270:  Cherubini A. 
+L271:  Cecchetti R. 
+L272:  Pini G. 
+L273:  Straatman M. 
+L274:  Monti D. 
+L275:  Stahl W. 
+L276:  Sies H. 
+L277:  
+L278:  Plasma antioxidants and longevity: A study on healthy centenarians Free Radic. Biol. Med. 2000 28 1243 1248 10.1016/S0891-5849(00)00246-X 10889454
+L279: 44. Ble A. 
+L280:  Cherubini A. 
+L281:  Volpato S. 
+L282:  Bartali B. 
+L283:  Walston J.D. 
+L284:  Windham B.G. 
+L285:  Bandinelli S. 
+L286:  Lauretani F. 
+L287:  Guralnik J.M. 
+L288:  Ferrucci L. 
+L289:  Lower plasma vitamin E levels are associated with the frailty syndrome: The InCHIANTI study J. Gerontol. A 2006 61 278 283 10.1093/gerona/61.3.278 16567378
+L290: 45. Lloret A. 
+L291:  Esteve D. 
+L292:  Monllor P. 
+L293:  Cervera-Ferri C. 
+L294:  Lloret A. 
+L295:  The Effectiveness of Vitamin E Treatment in Alzheimer’s Disease Int. J. Mol. Sci. 2019 20 879 10.3390/ijms20040879 30781638
+L296: 46. Bo Y. 
+L297:  Liu C. 
+L298:  Ji Z. 
+L299:  Yang R. 
+L300:  An Q. 
+L301:  Zhang X. 
+L302:  You J. 
+L303:  Duan D. 
+L304:  Sun Y. 
+L305:  Zhu Y. 
+L306:  
+L307:  High Whey Protein, Vitamin D and E Supplement Preserves Muscle Mass, Strength, and Quality of Life in Sarcopenic Older Adults: A Double-Blind Randomized Controlled Trial Clin. Nutr. 2019 38 159 164 10.1016/j.clnu.2017.12.020 29395372
+L308: 47. Cesari M. 
+L309:  Pahor M. 
+L310:  Bartali B. 
+L311:  Cherubini A. 
+L312:  Penninx B.W. 
+L313:  Williams G.R. 
+L314:  Atkinson H. 
+L315:  Martin A. 
+L316:  Guralnik J.M. 
+L317:  Ferrucci L. 
+L318:  Antioxidants and physical performance in elderly persons. The Invecchiare in Chianti (InCHIANTI) study Am. J. Clin. Nutr. 2004 79 289 294 10.1093/ajcn/79.2.289 14749236
+L319: 48. Santos de Lima K. 
+L320:  Schuch F.B. 
+L321:  Camponogara Righi N. 
+L322:  Chagas P. 
+L323:  Hemann Lamberti M. 
+L324:  Puntel G.O. 
+L325:  Vargas da Silva A.M. 
+L326:  Ulisses Signori L. 
+L327:  Effects of the combination of vitamins C and E supplementation on oxidative stress, inflammation, muscle soreness, and muscle strength following acute physical exercise: Meta-analyses of randomized controlled trials Crit. Rev. Food Sci. Nutr. 2023 63 7584 7597 10.1080/10408398.2022.2048290 35261309
+L328: 49. Meydani M. 
+L329:  Evans W.J. 
+L330:  Handelman G. 
+L331:  Biddle L. 
+L332:  Fielding R.A. 
+L333:  Meydani S.N. 
+L334:  Burrill J. 
+L335:  Fiatarone M.A. 
+L336:  Blumberg J.B. 
+L337:  Cannon J.G. 
+L338:  Protective effect of vitamin E on exercise-induced oxidative damage in young and older adults Am. J. Physiol. Regul. Integr. Comp. Physiol. 1993 264 R992 R998 10.1152/ajpregu.1993.264.5.R992
+L339: 50. Faitg J. 
+L340:  Leduc-Gaudet J.P. 
+L341:  Reynaud O. 
+L342:  Ferland G. 
+L343:  Gaudreau P. 
+L344:  Gouspillou G. 
+L345:  Effects of Aging and Caloric Restriction on Fiber Type Composition, Mitochondrial Morphology and Dynamics in Rat Oxidative and Glycolytic Muscles Front. Physiol. 2019 10 420 10.3389/fphys.2019.00420 31114501
+L346: 51. Park J.H. 
+L347:  Miyashita M. 
+L348:  Takahashi M. 
+L349:  Kawanishi N. 
+L350:  Bae S.R. 
+L351:  Kim H.S. 
+L352:  Suzuki K. 
+L353:  Nakamura Y. 
+L354:  Effects of low-volume walking programme and vitamin E supplementation on oxidative damage and health-related variables in healthy older adults Nutr. Metab. 2013 10 38 10.1186/1743-7075-10-38
+L355: 52. Kim J. 
+L356:  Effect of high-dose vitamin C and E supplementation on muscle recovery and training adaptation: A mini review Phys. Act. Nutr. 2023 27 8 12 10.20463/pan.2023.0012
+L357: 53. Lim J.J. 
+L358:  Wan Zurinah W.N. 
+L359:  Mouly V. 
+L360:  Norwahidah A.K. 
+L361:  Tocotrienol-rich fraction (TRF) treatment promotes proliferation capacity of stress-induced premature senescence myoblasts and modulates the renewal of satellite cells: Microarray analysis Oxidative Med. Cell Longev. 2019 914 1343 1352 10.1155/2019/9141343 30774750
+L362: 54. Khor S.C. 
+L363:  Wan Ngah W.Z. 
+L364:  Mohd Yusof Y.A. 
+L365:  Abdul Karim N. 
+L366:  Makpol S. 
+L367:  Tocotrienol-rich fraction ameliorates antioxidant defense mechanisms and improves replicative senescence-associated oxidative stress in human myoblasts Oxidative Med. Cell. Longev. 2017 2017 17 10.1155/2017/3868305
+L368: 55. Saud Gany S.L. 
+L369:  Chin K.Y. 
+L370:  Tan J.K. 
+L371:  Aminuddin A. 
+L372:  Makpol S. 
+L373:  Preventative and therapeutic potential of tocotrienols on musculoskeletal diseases in ageing Front. Pharmacol. 2023 14 1290721 10.3389/fphar.2023.1290721 38146461
+L374: 56. Rondanelli M. 
+L375:  Faliva M.A. 
+L376:  Peroni G. 
+L377:  Moncaglieri F. 
+L378:  Infantino V. 
+L379:  Naso M. 
+L380:  Perna S. 
+L381:  Focus on Pivotal Role of Dietary Intake (Diet and Supplement) and Blood Levels of Tocopherols and Tocotrienols in Obtaining Successful Aging Int. J. Mol. Sci. 2015 16 23227 23249 10.3390/ijms161023227 26404241
+L382: 57. Agoncillo M. 
+L383:  Yu J. 
+L384:  Gunton J.E. 
+L385:  The Role of Vitamin D in Skeletal Muscle Repair and Regeneration in Animal Models and Humans: A Systematic Review Nutrients 2023 15 4377 10.3390/nu15204377 37892452
+L386: 58. Buravkova L.B. 
+L387:  Romanov Y.A. 
+L388:  The role of cytoskeleton in cell changes under condition of simulated microgravity Acta Astronaut. 2001 48 647 650 10.1016/S0094-5765(01)00023-6 11858272
+L389: 59. Ogneva I.V. 
+L390:  Maximova M.V. 
+L391:  Larina I.M. 
+L392:  Structure of cortical cytoskeleton in fibers of mouse muscle cells after being exposed to a 30-day space flight on board the BION-M1 biosatellite J. Appl. Physiol. 2014 116 1315 1323 10.1152/japplphysiol.00134.2014 24674857
+L393: 60. Radugina E.A. 
+L394:  Almeida E.A.C. 
+L395:  Blaber E. 
+L396:  Poplinskaya V.A. 
+L397:  Markitantova Y.V. 
+L398:  Grigoryan E.N. 
+L399:  Exposure to microgravity for 30 days onboard Bion M1 caused muscle atrophy and impaired regeneration in murine femoral Quadriceps Life Sci. Space Res. 2018 16 18 25 10.1016/j.lssr.2017.08.005
+L400: 61. Tarantino U. 
+L401:  Cariati I. 
+L402:  Marini M. 
+L403:  D’Arcangelo G. 
+L404:  Tancredi V. 
+L405:  Primavera M. 
+L406:  Iundusi R. 
+L407:  Gasbarra E. 
+L408:  Scimeca M. 
+L409:  Effects of Simulated Microgravity on Muscle Stem Cells Activity Cell. Physiol. Biochem. 2020 54 736 747 10.33594/000000252 32749090
+L410: 62. Clarke M.S. 
+L411:  Vanderburg C.R. 
+L412:  Feeback D.L. 
+L413:  The effect of acute microgravity on mechanically-induced membrane damage and membrane-membrane fusion events J. Gravit. Physiol. 2001 8 37 47 12365449
+L414: 63. Sandonà D. 
+L415:  Desaphy J.F. 
+L416:  Camerino G.M. 
+L417:  Bianchini E. 
+L418:  Ciciliot S. 
+L419:  Danieli-Betto D. 
+L420:  Dobrowolny G. 
+L421:  Furlan S. 
+L422:  Germinario E. 
+L423:  Goto K. 
+L424:  
+L425:  Adaptation of mouse skeletal muscle to long-term microgravity in the MDS mission PLoS ONE 2012 7 e33232 10.1371/journal.pone.0033232 22470446
+L426: 64. Moosavi D. 
+L427:  Wolovsky D. 
+L428:  Depompeis A. 
+L429:  Uher D. 
+L430:  Lennington D. 
+L431:  Bodden R. 
+L432:  Garber C.E. 
+L433:  The effects of spaceflight microgravity on the musculoskeletal system of humans and animals, with an emphasis on exercise as a countermeasure: A systematic scoping review Physiol. Res. 2021 70 119 151 10.33549/physiolres.934550 33992043
+L434: 65. Grimm D.I. 
+L435:  Microgravity and Space Medicine 2.0 Int. J. Mol. Sci. 2022 23 4456 10.3390/ijms23084456 35457274
+L436: 66. Rai B. 
+L437:  Kaur J. 
+L438:  Catalina M. 
+L439:  Anand S.C. 
+L440:  Jacobs R. 
+L441:  Teughels W. 
+L442:  Effect of simulated microgravity on salivary and serum oxidants, antioxidants, and periodontal status J. Periodontol. 2011 82 1478 1482 10.1902/jop.2011.100711 21405937
+L443: 67. Garrett-Bakelman F.E. 
+L444:  Darshi M. 
+L445:  Green S.J. 
+L446:  Gur R.C. 
+L447:  Lin L. 
+L448:  Macias B.R. 
+L449:  McKenna M.J. 
+L450:  Meydan C. 
+L451:  Mishra T. 
+L452:  Nasrini J. 
+L453:  
+L454:  The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight Science 2019 364 eaau8650 10.1126/science.aau8650 30975860
+L455: 68. Atkinson J. 
+L456:  Marquardt D. 
+L457:  DiPasquale M. 
+L458:  Harroun T. 
+L459:  From fat to bilayers: Understanding where and how vitamin E works Free Radic. Biol. Med. 2021 176 73 79 10.1016/j.freeradbiomed.2021.09.015 34555454
+L460: 69. Wang X. 
+L461:  Quinn P.J. 
+L462:  The location and function of vitamin E in membranes (review) Mol. Membr. Biol. 2000 17 143 156 10.1080/09687680010000311 11128973
+L463: 70. Stillwell W. 
+L464:  Ehringer W. 
+L465:  Wassall S.R. 
+L466:  Interaction of alpha-tocopherol with fatty acids in membranes and ethanol Biochim. Biophys. Acta 1992 1105 237 244 10.1016/0005-2736(92)90200-6 1586661
+L467: 71. Gomez-Cabrera M.C. 
+L468:  Close G.L. 
+L469:  Kayani A. 
+L470:  McArdle A. 
+L471:  Viña J. 
+L472:  Jackson M.J. 
+L473:  Effect of Xanthine Oxidase-Generated Extracellular Superoxide on Skeletal Muscle Force Generation Am. J. Physiol. Regul. Integr. Comp. Physiol. 2010 298 2 8 10.1152/ajpregu.00142.2009
+L474: 72. Cabet E. 
+L475:  Batonnet-Pichon S. 
+L476:  Delort F. 
+L477:  Gausserès B. 
+L478:  Vicart P. 
+L479:  Lilienbaum A. 
+L480:  Antioxidant Treatment and Induction of Autophagy Cooperate to Reduce Desmin Aggregation in a Cellular Model of Desminopathy PLoS ONE 2015 10 e0137009 10.1371/journal.pone.0137009 26333167
+L481: 73. Balta E. 
+L482:  Hardt R. 
+L483:  Liang J. 
+L484:  Kirchgessner H. 
+L485:  Orlik C. 
+L486:  Jahraus B. 
+L487:  Hillmer S. 
+L488:  Meuer S. 
+L489:  Hübner K. 
+L490:  Wabnitz G.H. 
+L491:  
+L492:  Spatial oxidation of L-plastin downmodulates actin-based functions of tumor cells Nat. Commun. 2019 10 4073 10.1038/s41467-019-11909-z 31501427
+L493: 74. Rouyère C. 
+L494:  Serrano T. 
+L495:  Frémont S. 
+L496:  Echard A. 
+L497:  Oxidation and reduction of actin: Origin, impact in vitro and functional consequences in vivo Eur. J. Cell Biol. 2022 101 151249 10.1016/j.ejcb.2022.151249 35716426
+L498: 75. Elkrief D. 
+L499:  Matusovsky O. 
+L500:  Cheng Y.S. 
+L501:  Rassier D.E. 
+L502:  From amino-acid to disease: The effects of oxidation on actin-myosin interactions in muscle J. Muscle Res. Cell Motil. 2023 44 225 254 10.1007/s10974-023-09658-0 37805961
+L503: 76. Bouviere J. 
+L504:  Fortunato R.S. 
+L505:  Dupuy C. 
+L506:  Werneck-de-Castro J.P. 
+L507:  Carvalho D.P. 
+L508:  Louzada R.A. 
+L509:  Exercise-Stimulated ROS Sensitive Signaling Pathways in Skeletal Muscle Antioxidants 2021 10 537 10.3390/antiox10040537 33808211
+L510: 77. Mason S.A. 
+L511:  Trewin A.J. 
+L512:  Parker L. 
+L513:  Wadley G.D. 
+L514:  Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights Redox Biol. 2020 35 101471 10.1016/j.redox.2020.101471 32127289
+L515: 78. Clifford T. 
+L516:  Jeffries O. 
+L517:  Stevenson E.J. 
+L518:  Davies K.A.B. 
+L519:  The Effects of Vitamin C and E on Exercise-Induced Physiological Adaptations: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Crit. Rev. Food Sci. Nutr. 2020 60 3669 3679 10.1080/10408398.2019.1703642 31851538
+L520: 79. Chung E. 
+L521:  Mo H. 
+L522:  Wang S. 
+L523:  Zu Y. 
+L524:  Elfakhani M. 
+L525:  Rios S.R. 
+L526:  Chyu M.C. 
+L527:  Yang R.S. 
+L528:  Shen C.L. 
+L529:  Potential roles of vitamin E in age-related changes in skeletal muscle health Nutr. Res. 2018 49 23 36 10.1016/j.nutres.2017.09.005 29420990
+L530: 80. Silva L.A. 
+L531:  Pinho C.A. 
+L532:  Silveira P.C. 
+L533:  Tuon T. 
+L534:  De Souza C.T. 
+L535:  Dal-Pizzol F. 
+L536:  Pinho R.A. 
+L537:  Vitamin E supplementation decreases muscular and oxidative damage but not inflammatory response induced by eccentric contraction J. Physiol. Sci. 2010 60 51 57 10.1007/s12576-009-0065-3 19859781
+L538: 81. Rosa E.F. 
+L539:  Ribeiro R.F. 
+L540:  Pereira F.M. 
+L541:  Freymüller E. 
+L542:  Aboulafia J. 
+L543:  Nouailhetas V.L. 
+L544:  Vitamin C and E supplementation prevents mitochondrial damage of ileum myocytes caused by intense and exhaustive exercise training J. Appl. Physiol. 2009 107 1532 1538 10.1152/japplphysiol.91166.2008 19696358
+L545: 82. Morrison D. 
+L546:  Hughes J. 
+L547:  Della Gatta P.A. 
+L548:  Mason S. 
+L549:  Lamon S. 
+L550:  Russell A.P. 
+L551:  Wadley G.D. 
+L552:  Vitamin C and E supplementation prevents some of the cellular adaptations to endurance-training in humans Free Radic. Biol. Med. 2015 89 852 862 10.1016/j.freeradbiomed.2015.10.412 26482865
+L553: 83. Beaton L.J. 
+L554:  Allan D.A. 
+L555:  Tarnopolsky M.A. 
+L556:  Tiidus P.M. 
+L557:  Phillips S.M. 
+L558:  Contraction-induced muscle damage is unaffected by vitamin E supplementation Med. Sci. Sports Exerc. 2002 34 798 805 10.1097/00005768-200205000-00012 11984298
+L559: 84. Yfanti C. 
+L560:  Tsiokanos A. 
+L561:  Fatouros I.G. 
+L562:  Theodorou A.A. 
+L563:  Deli C.K. 
+L564:  Koutedakis Y. 
+L565:  Jamurtas A.Z. 
+L566:  Chronic Eccentric Exercise and Antioxidant Supplementation: Effects on Lipid Profile and Insulin Sensitivity J. Sports Sci. Med. 2017 16 375 382 28912655
+L567: 85. Chin K.Y. 
+L568:  Updates in the skeletal and joint protective effects of tocotrienol: A mini review Front. Endocrinol. 2024 15 1417191 10.3389/fendo.2024.1417191 38974581
+L569: 86. Ohyashiki T. 
+L570:  Ohtsuka T. 
+L571:  Mohri T. 
+L572:  A change in the lipid fluidity of the porcine intestinal brush-border membranes by lipid peroxidation. Studies using pyrene and fluorescent stearic acid derivatives Biochim. Biophys. Acta 1986 861 311 318 10.1016/0005-2736(86)90433-5 3756162
+L573: 87. Boonnoy P. 
+L574:  Karttunen M. 
+L575:  Wong-Ekkabut J. 
+L576:  Does α-Tocopherol Flip-Flop Help to Protect Membranes Against Oxidation? J. Phys. Chem. B 2018 122 10362 10370 10.1021/acs.jpcb.8b09064 30354170
+L577: 88. Salari N. 
+L578:  Fatahi B. 
+L579:  Valipour E. 
+L580:  Kazeminia M. 
+L581:  Fatahian R. 
+L582:  Kiaei A. 
+L583:  Shohaimi S. 
+L584:  Mohammadi M.J. 
+L585:  Global prevalence of Duchenne and Becker musculardystrophy: A systematic review and meta-analysis Orthop. Surg Res. 2022 17 96 10.1186/s13018-022-02996-8
+L586: 89. Hagan M.L. 
+L587:  Balayan V. 
+L588:  McGee-Lawrence M.E. 
+L589:  Plasma membrane disruption (PMD) formation and repair in mechanosensitive tissues Bone 2021 149 115970 10.1016/j.bone.2021.115970 33892174
+L590: 90. Ganassi M. 
+L591:  Zammit P.S. 
+L592:  Involvement of muscle satellite cell dysfunction in neuromuscular disorders: Expanding the portfolio of satellite cell-opathies Eur. J. Transl. Myol. 2022 32 10064 10.4081/ejtm.2022.10064 35302338
+L593: 91. Yang S. 
+L594:  Yang J. 
+L595:  Zhao H. 
+L596:  Deng R. 
+L597:  Fan H. 
+L598:  Zhang J. 
+L599:  Yang Z. 
+L600:  Zeng H. 
+L601:  Kuang B. 
+L602:  Shao L. 
+L603:  The Protective Effects of γ-Tocotrienol on Muscle Stem Cells Through Inhibiting Reactive Oxidative Stress Production Front. Cell Dev. Biol. 2022 10 820520 10.3389/fcell.2022.820520 35372342
+L604: 92. Zingg J.M. 
+L605:  Vitamin E: A Role in Signal Transduction Annu. Rev. Nutr. 2015 35 135 173 10.1146/annurev-nutr-071714-034347 26185977
+L606: 93. Ungurianu A. 
+L607:  Zanfirescu A. 
+L608:  Nițulescu G. 
+L609:  Margină D. 
+L610:  Vitamin E beyond Its Antioxidant Label Antioxidants 2021 10 634 10.3390/antiox10050634 33919211
+L611: 94. Zingg J.M. 
+L612:  Stamatiou C. 
+L613:  Montalto G. 
+L614:  Daunert S. 
+L615:  Modulation of CD36-mediated lipid accumulation and senescence by vitamin E analogs in monocytes and macrophages Biofactors 2022 48 665 682 10.1002/biof.1821 35084073
+L616: 95. La Torre M.E. 
+L617:  Cianciulli A. 
+L618:  Monda V. 
+L619:  Monda M. 
+L620:  Filannino F.M. 
+L621:  Antonucci L. 
+L622:  Valenzano A. 
+L623:  Cibelli G. 
+L624:  Porro C. 
+L625:  Messina G. 
+L626:  
+L627:  α-Tocopherol Protects Lipopolysaccharide-Activated BV2 Microglia Molecules 2023 28 3340 10.3390/molecules28083340 37110573
+L628: 96. Shin-Kang S. 
+L629:  Ramsauer V.P. 
+L630:  Lightner J. 
+L631:  Chakraborty K. 
+L632:  Stone W. 
+L633:  Campbell S. 
+L634:  Reddy S.A. 
+L635:  Krishnan K. 
+L636:  Tocotrienols inhibit AKT and ERK activation and suppress pancreatic cancer cell proliferation by suppressing the ErbB2 pathway Free Radic. Biol. Med. 2011 51 1164 1174 10.1016/j.freeradbiomed.2011.06.008 21723941
+L637: 97. Blottner D. 
+L638:  Capitanio D. 
+L639:  Trautmann G. 
+L640:  Furlan S. 
+L641:  Gambara G. 
+L642:  Moriggi M. 
+L643:  Block K. 
+L644:  Barbacini P. 
+L645:  Torretta E. 
+L646:  Py G. 
+L647:  
+L648:  Nitrosative Redox Homeostasis and Antioxidant Response Defense in Disused Vastus lateralis Muscle in Long-Term Bedrest (Toulouse Cocktail Study) Antioxidants 2021 10 378 10.3390/antiox10030378 33802593
+L649: 98. Servais S. 
+L650:  Letexier D. 
+L651:  Favier R. 
+L652:  Duchamp C. 
+L653:  Desplanches D. 
+L654:  Prevention of unloading-induced atrophy by vitamin E supplementation: Links between oxidative stress and soleus muscle proteolysis? Free Radic. Biol. Med. 2007 42 627 635 10.1016/j.freeradbiomed.2006.12.001 17291986
+L655: 99. Min K. 
+L656:  Smuder A.J. 
+L657:  Kwon O.S. 
+L658:  Kavazis A.N. 
+L659:  Szeto H.H. 
+L660:  Powers S.K. 
+L661:  Mitochondrial-targeted antioxidants protect skeletal muscle against immobilization-induced muscle atrophy J. Appl. Physiol. 2011 111 1459 1466 10.1152/japplphysiol.00591.2011 21817113
+L662: 100. Das D.K. 
+L663:  Graham Z.A. 
+L664:  Cardozo C.P. 
+L665:  Myokines in skeletal muscle physiology and metabolism: Recent advances and future perspectives Acta Physiol 2020 228 e13367 10.1111/apha.13367
+L666: 101. Chow L.S. 
+L667:  Gerszten R.E. 
+L668:  Taylor J.M. 
+L669:  Pedersen B.K. 
+L670:  van Praag H. 
+L671:  Trappe S. 
+L672:  Febbraio M.A. 
+L673:  Galis Z.S. 
+L674:  Gao Y. 
+L675:  Haus J.M. 
+L676:  
+L677:  Exerkines in health, resilience and disease Nat. Rev. Endocrinol. 2022 18 273 289 10.1038/s41574-022-00641-2 35304603
+L678: 102. Zunner B.E.M. 
+L679:  Wachsmuth N.B. 
+L680:  Eckstein M.L. 
+L681:  Scherl L. 
+L682:  Schierbauer J.R. 
+L683:  Haupt S. 
+L684:  Stumpf C. 
+L685:  Reusch L. 
+L686:  Moser O. 
+L687:  Myokines and Resistance Training: A Narrative Review Int. J. Mol. Sci. 2022 23 3501 10.3390/ijms23073501 35408868
+L688: 103. Steensberg A. 
+L689:  van Hall G. 
+L690:  Osada T. 
+L691:  Sacchetti M. 
+L692:  Saltin B. 
+L693:  Pedersen B.K. 
+L694:  Production of interleukin-6 in contracting human skeletal muscles can account for the exercise-induced increase in plasma interleukin-6 J. Physiol. 2000 529 Pt 1 237 242 10.1111/j.1469-7793.2000.00237.x 11080265
+L695: 104. Pedersen B.K. 
+L696:  Steensberg A. 
+L697:  Fischer C. 
+L698:  Keller C. 
+L699:  Keller P. 
+L700:  Plomgaard P. 
+L701:  Febbraio M. 
+L702:  Saltin B. 
+L703:  Searching for the exercise factor: Is IL-6 a candidate? J. Muscle Res. Cell Motil. 2003 24 113 119 10.1023/A:1026070911202 14609022
+L704: 105. Watkins B.A. 
+L705:  Smith B.J. 
+L706:  Volpe S.L. 
+L707:  Shen C.L. 
+L708:  Exerkines, Nutrition, and Systemic Metabolism Nutrients 2024 16 410 10.3390/nu16030410 38337694
+L709: 106. Pedersen B.K. 
+L710:  Physical activity and muscle-brain crosstalk Nat. Rev. Endocrinol. 2019 15 383 392 10.1038/s41574-019-0174-x 30837717
+L711: 107. Hojman P. 
+L712:  Gehl J. 
+L713:  Christensen J.F. 
+L714:  Pedersen B.K. 
+L715:  Molecular mechanisms linking exercise to cancer prevention and treatment Cell Metab. 2018 27 10 21 10.1016/j.cmet.2017.09.015 29056514
+L716: 108. Lee J.H. 
+L717:  Jun H.S. 
+L718:  Role of myokines in regulating skeletal muscle mass and function Front. Physiol. 2019 10 42 10.3389/fphys.2019.00042 30761018
+L719: 109. Huang Q. 
+L720:  Wu M. 
+L721:  Wu X. 
+L722:  Zhang Y. 
+L723:  Xia Y. 
+L724:  Muscle-to-tumor crosstalk: The effect of exercise-induced myokine on cancer progression Biochim. Biophys. Acta Rev. Cancer 2022 1877 188761 10.1016/j.bbcan.2022.188761 35850277
+L725: 110. Raschke S. 
+L726:  Eckel J. 
+L727:  Adipo-Myokines: Two Sides of the Same Coin—Mediators of Inflammation and Mediators of Exercise Mediat. Inflamm. 2013 2013 320724 10.1155/2013/320724
+L728: 111. Pedersen B.K. 
+L729:  Febbraio M.A. 
+L730:  Muscle as an Endocrine Organ: Focus on Muscle-Derived Interleukin-6 Physiol. Rev. 2008 88 1379 1406 10.1152/physrev.90100.2007 18923185
+L731: 112. Uciechowski P. 
+L732:  Dempke W.C.M. 
+L733:  Interleukin-6: A Masterplayer in the Cytokine Network Oncology 2020 98 131 137 10.1159/000505099 31958792
+L734: 113. Cornish S.M. 
+L735:  Bugera E.M. 
+L736:  Duhamel T.A. 
+L737:  Peeler J.D. 
+L738:  Anderson J.E. 
+L739:  A Focused Review of Myokines as a Potential Contributor to Muscle Hypertrophy from Resistance-Based Exercise Eur. J. Appl. Physiol. 2020 120 941 959 10.1007/s00421-020-04337-1 32144492
+L740: 114. Wang J. 
+L741:  Chang C.Y. 
+L742:  Yang X. 
+L743:  Zhou F. 
+L744:  Liu J. 
+L745:  Feng Z. 
+L746:  Hu W. 
+L747:  Leukemia inhibitory factor, a double-edged sword with therapeutic implications in human diseases Mol. Ther. 2023 31 331 343 10.1016/j.ymthe.2022.12.016 36575793
+L748: 115. Kim M. 
+L749:  Eo H. 
+L750:  Lim J.G. 
+L751:  Lim H. 
+L752:  Lim Y. 
+L753:  Can Low-Dose of Dietary Vitamin E Supplementation Reduce Exercise-Induced Muscle Damage and Oxidative Stress? A Meta-Analysis of Randomized Controlled Trials Nutrients 2022 14 1599 10.3390/nu14081599 35458161
+L754: 116. Asbaghi O. 
+L755:  Sadeghian M. 
+L756:  Nazarian B. 
+L757:  Sarreshtedari M. 
+L758:  Mozaffari-Khosravi H. 
+L759:  Maleki V. 
+L760:  Alizadeh M. 
+L761:  Shokri A. 
+L762:  Sadeghi O. 
+L763:  The effect of vitamin E supplementation on selected inflammatory biomarkers in adults: A systematic review and meta-analysis of randomized clinical trials Sci. Rep. 2020 10 17234 10.1038/s41598-020-73741-6 33057114
+L764: 117. Phillips T. 
+L765:  Childs A.C. 
+L766:  Dreon D.M. 
+L767:  Phinney S. 
+L768:  Leeuwenburgh C. 
+L769:  A dietary supplement attenuates IL-6 and CRP after eccentric exercise in untrained males Med. Sci. Sports Exerc. 2003 35 2032 2037 10.1249/01.MSS.0000099112.32342.10 14652498
+L770: 118. Barker T. 
+L771:  Henriksen V.T. 
+L772:  Rogers V.E. 
+L773:  Trawick R.H. 
+L774:  Momberger N.G. 
+L775:  Lynn Rasmussen G. 
+L776:  Multi-vitamin supplementation blunts the circulating IL-6/IL-10 ratio increase after knee arthroplasty: A randomized, double-blind, placebo controlled study Cytokine 2021 140 155435 10.1016/j.cyto.2021.155435 33497870
+L777: 119. Hashida M. 
+L778:  Steelman A.J. 
+L779:  Erdman J.W. Jr. 
+L780:  α-Tocopherol Depletion Exacerbates Lipopolysaccharide-Induced Reduction of Grip Strength J. Nutr. 2024 154 498 504 10.1016/j.tjnut.2023.12.031 38141774
+L781: 120. Santos S.A. 
+L782:  Silva E.T. 
+L783:  Caris A.V. 
+L784:  Lira F.S. 
+L785:  Tufik S. 
+L786:  Dos Santos R.V.J. 
+L787:  Vitamin E supplementation inhibits muscle damage and inflammation after moderate exercise in hypoxia J. Hum. Nutr. Diet. 2016 29 516 522 10.1111/jhn.12361 27062041
+L788: 121. De Lima K.S. 
+L789:  Schuch F. 
+L790:  Righi N.C. 
+L791:  Neto L.J.R. 
+L792:  Nunes G.S. 
+L793:  Puntel G. 
+L794:  Chagas P. 
+L795:  da Silva A.M.V. 
+L796:  Signori L.U. 
+L797:  Vitamin E Does not Favor Recovery After Exercises: Systematic Review and Meta-analysis Int. J. Sports Med. 2024 45 485 495 10.1055/a-2221-5688 38346687
+L798: 122. Lee H. 
+L799:  Lim Y. 
+L800:  Tocotrienol-rich fraction supplementation reduces hyperglycemia-induced skeletal muscle damage through regulation of insulin signaling and oxidative stress in type 2 diabetic mice J. Nutr. Biochem. 2018 57 77 85 10.1016/j.jnutbio.2018.03.016 29679925
+L801: 123. Kong X. 
+L802:  Yao T. 
+L803:  Zhou P. 
+L804:  Kazak L. 
+L805:  Tenen D. 
+L806:  Lyubetskaya A. 
+L807:  Dawes B.A. 
+L808:  Tsai L. 
+L809:  Kahn B.B. 
+L810:  Spiegelman B.M. 
+L811:  
+L812:  Brown adipose tissue controls skeletal muscle function via the secretion of myostatin Cell Metab. 2018 28 631 643.e3 10.1016/j.cmet.2018.07.004 30078553
+L813: 124. McPherron A.C. 
+L814:  Lawler A.M. 
+L815:  Lee S.J. 
+L816:  Regulation of Skeletal Muscle Mass in Mice by a New TGF-Beta Superfamily Member Nature 1997 387 83 90 10.1038/387083a0 9139826
+L817: 125. Baig M.H. 
+L818:  Ahmad K. 
+L819:  Moon J.S. 
+L820:  Park S.-Y. 
+L821:  Lim J.H. 
+L822:  Chun H.J. 
+L823:  Qadri A.F. 
+L824:  Hwang Y.C. 
+L825:  Jan A.T. 
+L826:  Ahmad S.S. 
+L827:  
+L828:  Myostatin and its Regulation: A Comprehensive Review of Myostatin Inhibiting Strategies Front. Physiol. 2022 13 876078 10.3389/fphys.2022.876078 35812316
+L829: 126. Liu X.H. 
+L830:  Bauman W.A. 
+L831:  Cardozo C.P. 
+L832:  Myostatin inhibits glucose uptake via suppression of insulin-dependent and independent signaling pathways in myoblasts Physiol. Rep. 2018 6 e13837 10.14814/phy2.13837 30252210
+L833: 127. Gonzalez-Gil A.M. 
+L834:  Elizondo-Montemayor L. 
+L835:  The Role of Exercise in the Interplay between Myokines, Hepatokines, Osteokines, Adipokines, and Modulation of Inflammation for Energy Substrate Redistribution and Fat Mass Loss: Review Nutrients 2020 12 1899 10.3390/nu12061899 32604889
+L836: 128. Nielsen T.L. 
+L837:  Vissing J. 
+L838:  Krag T.O. 
+L839:  Antimyostatin Treatment in Health and Disease: The Story of Great Expectations and Limited Success Cells 2021 10 533 10.3390/cells10030533 33802348
+L840: 129. Ambroszkiewicz J. 
+L841:  Gajewska J. 
+L842:  Mazur J. 
+L843:  Klemarczyk W. 
+L844:  Rowicka G. 
+L845:  Ołtarzewski M. 
+L846:  Strucińska M. 
+L847:  Chełchowska M. 
+L848:  Does a Vegetarian Diet Affect the Levels of Myokine and Adipokine in Prepubertal Children? J. Clin. Med. 2021 10 3995 10.3390/jcm10173995 34501443
+L849: 130. Fox J. 
+L850:  Rioux B.V. 
+L851:  Goulet E.D.B. 
+L852:  Johanssen N.M. 
+L853:  Swift D.L. 
+L854:  Bouchard D.R. 
+L855:  Loewen H. 
+L856:  Sénéchal M. 
+L857:  Effect of an acute exercise bout on immediate post-exercise irisin concentration in adults: A meta-analysis Scand. J. Med. Sci. Sports 2018 28 16 28 10.1111/sms.12904 28453881
+L858: 131. Waseem R. 
+L859:  Shamsi A. 
+L860:  Mohammad T. 
+L861:  Hassan M.I. 
+L862:  Kazim S.N. 
+L863:  Chaudhary A.A. 
+L864:  Rudayni H.A. 
+L865:  Al-Zharani M. 
+L866:  Ahmad F. 
+L867:  Islam A. 
+L868:  FNDC5/Irisin: Physiology and Pathophysiology Molecules 2022 27 1118 10.3390/molecules27031118 35164383
+L869: 132. Xiong Y. 
+L870:  Wu Z. 
+L871:  Zhang B. 
+L872:  Wang C. 
+L873:  Mao F. 
+L874:  Liu X. 
+L875:  Hu K. 
+L876:  Sun X. 
+L877:  Jin W. 
+L878:  Kuang S. 
+L879:  Fndc5 loss-of-function attenuates exercise-induced browning of white adipose tissue in mice FASEB J. 2019 33 5876 5886 10.1096/fj.201801754RR 30721625
+L880: 133. Sarac M. 
+L881:  Bakal U. 
+L882:  Kuloglu T. 
+L883:  Tartar T. 
+L884:  Aydin S. 
+L885:  Yardim M. 
+L886:  Artas G. 
+L887:  Kazez A. 
+L888:  Effects of Carnosine and Vitamin E on Nucleobindin 2 (NUCB2)/nesfatin-1, Ghrelin, Adropin, and Irisin in Experimentally Induced Ovarian Torsion Ann. Clin. Lab. Sci. 2018 48 345 354 29970439
+L889: 134. Irandoost P. 
+L890:  Alamdari N.M. 
+L891:  Saidpour A. 
+L892:  Shidfar F. 
+L893:  Roshanravan N. 
+L894:  Jafarabadi M.A. 
+L895:  Farsi F. 
+L896:  Hanjani N.A. 
+L897:  Vafa M. 
+L898:  The effects of royal jelly and tocotrienol-rich fraction on impaired glycemic control and inflammation through irisin in obese rats J. Food Biochem. 2020 44 e13493 10.1111/jfbc.13493 33020956
+L899: 135. Hannun Y.A. 
+L900:  Obeid L.M. 
+L901:  Sphingolipids and their metabolism in physiology and disease Nat. Rev. Mol. Cell Biol. 2018 19 175 191 10.1038/nrm.2017.107 29165427
+L902: 136. Green C.D. 
+L903:  Maceyka M. 
+L904:  Cowart L.A. 
+L905:  Spiegel S. 
+L906:  Sphingolipids in metabolic disease: The good, the bad, and the unknown Cell Metab. 2021 33 1293 1306 10.1016/j.cmet.2021.06.006 34233172
+L907: 137. Jamjoum R. 
+L908:  Majumder S. 
+L909:  Issleny B. 
+L910:  Stiban J. 
+L911:  Mysterious sphingolipids: Metabolic interrelationships at the center of pathophysiology Front Physiol. 2024 14 1229108 10.3389/fphys.2023.1229108 38235387
+L912: 138. Pitson S.M. 
+L913:  Moretti P.A. 
+L914:  Zebol J.R. 
+L915:  Lynn H.E. 
+L916:  Xia P. 
+L917:  Vadas M.A. 
+L918:  Wattenberg B.W. 
+L919:  Activation of sphingosine kinase 1 by ERK1/2-mediated phosphorylation EMBO J. 2003 22 5491 5500 10.1093/emboj/cdg540 14532121
+L920: 139. Maceyka M.C. 
+L921:  Harikumar K.B. 
+L922:  Milstien S.C. 
+L923:  Spiegel S. 
+L924:  Sphingosine-1-phosphate signaling and its role in disease Trends Cell Biol. 2012 22 50 60 10.1016/j.tcb.2011.09.003 22001186
+L925: 140. Meacci E. 
+L926:  Garcia-Gil M. 
+L927:  S1P/S1P Receptor Signaling in Neuromuscolar Disorders Int. J. Mol. Sci. 2019 20 6364 10.3390/ijms20246364 31861214
+L928: 141. Meacci E. 
+L929:  Nuti F. 
+L930:  Donati C. 
+L931:  Cencetti F. 
+L932:  Farnararo M. 
+L933:  Bruni P. 
+L934:  Sphingosine kinase activity is required for myogenic differentiation of C2C12 myoblasts J. Cell. Physiol. 2008 214 210 220 10.1002/jcp.21187 17654519
+L935: 142. Meacci E. 
+L936:  Bini F. 
+L937:  Battistini C. 
+L938:  Sphingosine-1-phosphate signaling in skeletal muscle cells Methods Mol. Biol. 2012 874 155 165 10.1007/978-1-61779-800-9_12 22528446
+L939: 143. Pierucci F. 
+L940:  Frati A. 
+L941:  Battistini C. 
+L942:  Matteini F. 
+L943:  Iachini M.C. 
+L944:  Vestri A. 
+L945:  Penna F. 
+L946:  Costelli P. 
+L947:  Meacci E. 
+L948:  Involvement of released sphingosine 1-phosphate/sphingosine 1-phosphate receptor axis in skeletal muscle atrophy Biochim. Biophys. Acta Mol. Basis Dis. 2018 1864 3598 3614 10.1016/j.bbadis.2018.08.040 30279138
+L949: 144. Pierucci F. 
+L950:  Frati A. 
+L951:  Battistini C. 
+L952:  Penna F. 
+L953:  Costelli P. 
+L954:  Meacci E. 
+L955:  Control of Skeletal Muscle Atrophy Associated to Cancer or Corticosteroids by Ceramide Kinase Cancers 2021 13 3285 10.3390/cancers13133285 34209043
+L956: 145. Zanin M. 
+L957:  Germinario E. 
+L958:  Dalla Libera L. 
+L959:  Sandonà D. 
+L960:  Sabbadini R.A. 
+L961:  Betto R. 
+L962:  Danieli-Betto D. 
+L963:  Trophic action of sphingosine 1-phosphate in denervated rat soleus muscle Am. J. Physiol.-Cell Physiol. 2008 294 C36 C46 10.1152/ajpcell.00164.2007 17942639
+L964: 146. Sassoli C. 
+L965:  Formigli L. 
+L966:  Bini F. 
+L967:  Tani A. 
+L968:  Squecco R. 
+L969:  Battistini C. 
+L970:  Zecchi-Orlandini S. 
+L971:  Francini F. 
+L972:  Meacci E. 
+L973:  Effects of S1P on skeletal muscle repair/regeneration during eccentric contraction J. Cell. Mol. Med. 2011 15 2498 2511 10.1111/j.1582-4934.2010.01250.x 21199328
+L974: 147. Li S. 
+L975:  Kim H.E. 
+L976:  Implications of Sphingolipids on Aging and Age-Related Diseases Front. Aging 2022 2 797320 10.3389/fragi.2021.797320 35822041
+L977: 148. Kubat G.B. 
+L978:  Bouhamida E. 
+L979:  Ulger O. 
+L980:  Turkel I. 
+L981:  Pedriali G. 
+L982:  Ramaccini D. 
+L983:  Ekinci O. 
+L984:  Ozerklig B. 
+L985:  Atalay O. 
+L986:  Patergnani S. 
+L987:  
+L988:  Mitochondrial dysfunction and skeletal muscle atrophy: Causes, mechanisms, and treatment strategies Mitochondrion 2023 72 33 58 10.1016/j.mito.2023.07.003 37451353
+L989: 149. Sassoli C. 
+L990:  Pierucci F. 
+L991:  Zecchi-Orlandini S. 
+L992:  Meacci E. 
+L993:  Sphingosine 1-Phosphate (S1P)/S1P Receptor Signaling and Mechanotransduction: Implications for Intrinsic Tissue Repair/Regeneration Int. J. Mol. Sci. 2019 20 5545 10.3390/ijms20225545 31703256
+L994: 150. Formigli L. 
+L995:  Sassoli C. 
+L996:  Squecco R. 
+L997:  Bini F. 
+L998:  Martinesi M. 
+L999:  Chellini F. 
+L1000:  Luciani G. 
+L1001:  Sbrana F. 
+L1002:  Zecchi-Orlandini S. 
+L1003:  Francini F. 
+L1004:  
+L1005:  Regulation of transient receptor potential canonical channel 1 (TRPC1) by sphingosine 1-phosphate in C2C12 myoblasts and its relevance for a role of mechanotransduction in skeletal muscle differentiation J. Cell Sci. 2009 122 1322 1333 10.1242/jcs.035402 19351713
+L1006: 151. Kim K.M. 
+L1007:  Noh J.H. 
+L1008:  Bodogai M. 
+L1009:  Martindale J.L. 
+L1010:  Yang X. 
+L1011:  Indig F.E. 
+L1012:  Basu S.K. 
+L1013:  Ohnuma K. 
+L1014:  Morimoto C. 
+L1015:  Johnson P.F. 
+L1016:  
+L1017:  Identification of senescent cell surface targetable protein DPP4 Genes Dev. 2017 31 1529 1534 10.1101/gad.302570.117 28877934
+L1018: 152. Miranda E.R. 
+L1019:  Funai K. 
+L1020:  Suppression of de novo sphingolipid biosynthesis mitigates sarcopenia Nat. Aging 2022 2 1088 1089 10.1038/s43587-022-00307-8 37118546
+L1021: 153. Richardson W.J. 
+L1022:  Humphrey S.B. 
+L1023:  Sears S.M. 
+L1024:  Hoffman N.A. 
+L1025:  Orwick A.J. 
+L1026:  Doll M.A. 
+L1027:  Doll C.L. 
+L1028:  Xia C. 
+L1029:  Hernandez-Corbacho M. 
+L1030:  Snider J.M. 
+L1031:  
+L1032:  Expression of Ceramide Synthases in Mice and Their Roles in Regulating Acyl-Chain Sphingolipids: A Framework for Baseline Levels and Future Implications in Aging and Disease Mol. Pharmacol. 2024 105 131 143 10.1124/molpharm.123.000788 38164625
+L1033: 154. Laurila P.P. 
+L1034:  Wohlwend M. 
+L1035:  de Lima T.I. 
+L1036:  Luan P. 
+L1037:  Herzig S. 
+L1038:  Zanou N. 
+L1039:  Crisol B. 
+L1040:  Bou-Sleiman M. 
+L1041:  Porcu E. 
+L1042:  Gallart-Ayala H. 
+L1043:  
+L1044:  Sphingolipids accumulate in aged muscle, and their reduction counteracts sarcopenia Nat. Aging 2022 2 1159 1175 10.1038/s43587-022-00309-6 37118545
+L1045: 155. Jiang Q. 
+L1046:  Natural forms of vitamin E and metabolites—Regulation of cancer cell death and underlying mechanisms IUBMB Life 2019 71 495 506 10.1002/iub.1978 30548200
+L1047: 156. Kim Y. 
+L1048:  Gromovsky A.D. 
+L1049:  Brown J.M. 
+L1050:  Chung S. 
+L1051:  Gamma-tocotrienol attenuates the aberrant lipid mediator production in NLRP3 inflammasome-stimulated macrophages J. Nutr. Biochem. 2018 58 169 177 10.1016/j.jnutbio.2018.05.007 29957361
+L1052: 157. Babenko N.A. 
+L1053:  Hassouneh L.K. 
+L1054:  Kharchenko V.S. 
+L1055:  Garkavenko V.V. 
+L1056:  Vitamin E prevents the age-dependent and palmitate-induced disturbances of sphingolipid turnover in liver cells Age 2012 34 905 915 10.1007/s11357-011-9288-3 21796379
+L1057: 158. Albarracín I. 
+L1058:  Lassaga F.E. 
+L1059:  Caputto R. 
+L1060:  Changes of gangliosides and other lipids in skeletal muscle from rabbits with experimental dystrophy J. Lipid Res. 1974 15 89 93 10.1016/S0022-2275(20)36837-1 4359542
+L1061: 159. Royer M.C. 
+L1062:  Lemaire-Ewing S. 
+L1063:  Desrumaux C. 
+L1064:  Monier S. 
+L1065:  Pais de Barros J.P. 
+L1066:  Athias A. 
+L1067:  Néel D. 
+L1068:  Lagrost L. 
+L1069:  7-ketocholesterol incorporation into sphingolipid/cholesterol-enriched (lipid raft) domains is impaired by vitamin E: A specific role for alpha-tocopherol with consequences on cell death J. Biol. Chem. 2009 284 5826 5834 10.1074/jbc.M808641200
+L1070: Acknowledgments
+L1071: We thank Elisa Garzelli for english editing and the Laboratorio congiunto GEABIO for conceptual support.
+[34ms]
+

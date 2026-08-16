@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "map",
+    "--from",
+    "s_00000000",
+    "Answer only whether this paper reports a primary experimental study (not a review, editorial, or protocol). Set eligible accordingly."
+  ],
+  "completed_at": "2026-08-16T02:38:50.611744+00:00",
+  "elapsed_seconds": 2.825165916001424,
+  "failure_code": "PAPERCLIP_INBAND_ERROR",
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:38:47.786582+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-bogus-result-id.attempt-01.stderr",
+  "stdout_bytes": 139,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-bogus-result-id.attempt-01.stdout"
+}

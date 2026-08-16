@@ -1,0 +1,535 @@
+L1: Vitamin E: Where Are We Now in Vascular Diseases?
+L2: Life (2022)
+L3: Anahita Garg, Jetty Chung-Yung Lee
+L4: School of Biological Sciences, The University of Hong Kong, Pokfulam Road, Hong Kong, China;  anahita@connect.hku.hk
+L5: Vitamin E is one of the most popular fat-soluble vitamins in pathological research and has been under scrutiny since the 1980s as a vital dietary component of food. The antioxidant effect of vitamin E has been widely studied due to its benefits in the prevention of various cardiovascular diseases. In recent years, alternative effects of vitamin E, in terms of anti-inflammatory pathways and gene regulation, have also been of interest to researchers. This review examines the role of dietary vitamin E (α-tocopherol) as an antioxidant and bioactive molecule in promoting vascular health. While the antioxidant effect of vitamin E is well established, knowledge about its capacity as a promising regulatory molecule in the control of the vascular system is limited. The aim of this review is to discuss some of these mechanisms and summarize their role in the prevention of cardiovascular diseases (CVD). Here, we also briefly discuss foods rich in vitamin E, and deliberate some potential toxicological effects of excessive supplemental vitamin E in the body.
+L6: Review
+L7: vitamin E; tocopherol; antioxidant; oxidation; cardiovascular diseases; atherosclerosis; low-density lipoprotein
+L8: 1. Introduction
+L9: Vitamin E has historically been viewed as an important antioxidant in the body. However, its functions as a regulatory molecule were only proposed in the late 1980s and early 1990s [ 1 ]. Vitamin E is classified as a vitamin since it is an organic nutrient required by the body in small amounts to maintain its normal physiological function. A deficiency of vitamin E can lead to ataxia and also increase the risk of developing other diseases due to fat malabsorption [ 2 ].
+L10: In 1922, vitamin E was identified by Evans and Bishop as an organic lipid-soluble compound capable of restoring reproduction in diet-restricted sterile rodents. These rodents were fed foods rich in vitamin E, which was then noted as ‘substance X’, and due to its biological effects, it earned the name “tocopherol”, meaning “to bring offspring” in Greek [ 3 ]. Thereafter, the term vitamin E was adapted to represent tocochromanols in plant lipids, which are composed of a hydroxylated chromanol ring attached to a hydrophobic phytyl side chain. Tocochromanols include both tocopherols and tocotrienols ( Figure 1  and  Figure 2 ), which differ in the saturation of their phytyl side chains. The former has a saturated phytyl (isoprenoid) side chain, while the latter has an unsaturated phytyl side chain with 3 double bonds. Both tocopherol and tocotrienol have four vitamers each, and are noted as α, β, γ or δ, such that they can be distinguished based on the extent and position of methyl groups on the chromanol ring. Despite the existence of multiple tocopherol and tocotrienol vitamers, where some have been found to show biological activities, the attribute of ‘vitamin’ is only given to α-tocopherol (αT) due to its selective uptake [ 4 ] and poor recognition of other vitamers in the liver by the α-tocopherol transfer protein (α-TTP) [ 5 ]. This was further supported by the fact that only α-tocopherol (with RRR stereochemistry) could prevent diseases linked with vitamin E deficiency. Hence, other vitamers of tocopherol and tocotrienol are not considered as ‘vitamin E’ in nutritional studies [ 2 ], but rather are noted as its analogues or derivatives.
+L11: Unlike the case of other vitamins, the vitamer αT cannot be interconverted in the body, i.e., it cannot use other vitamers of tocopherols or tocotrienols to make αT [ 6 ]. Moreover, αT cannot be synthesized in the human body, making it an essential nutrient. This makes it crucial to consume foods that are specifically rich in αT to ensure that one does not suffer from vitamin E deficiency [ 7 ]. While vitamin E deficiency in humans is rare, it can occur due to hampered intestinal nutrient absorption; in particular, via fat malabsorption through severe malnutrition, cystic fibrosis, chronic diarrhea, chronic pancreatitis, liver disease, etc. [ 6 ]. Severe vitamin E deficiency can also lead to neurological disorders and damage the central nervous system, such as axonal dystrophy, muscular lesions, and other neuromuscular complications [ 4 , 8 , 9 ].
+L12: 2. Foods Rich in α-Tocopherol
+L13: The recommended dietary allowance (RDA) for vitamin E is 15 mg/day for men and women, and 19 mg/day for lactating women [ 10 ]. The upper level of intake (UL) is 1000 mg/day, since an intake equal to or greater than this level can cause haemorrhages [ 5 ]. However, it is virtually impossible to achieve this level through the natural intake of tocopherols. A study on the estimated average requirement (EAR) of important micronutrients showed that while most Americans manage to meet their need for many nutrients, significant parts of the population, especially children, have intakes below the required EAR for dietary vitamin E. When supplementation of vitamin E was also considered in the study, the intake below the EAR reduced from 91% to 60%, indicating that the American population relies more on supplementation and fortification rather than on foods that are naturally enriched with tocopherols to meet their daily vitamin E requirement [ 11 ].
+L14: Vitamin E is found in a variety of foods, and is abundant in nuts, seeds, and their oils ( Table 1 ). The highest amount of αT is found in wheat germ oil, followed by almonds, sunflower oil, safflower oil, hazelnuts, and peanuts [ 10 , 12 ]. In our daily diet, vitamin E is generally obtained from eggs, meat, fish, margarine, bread, green leafy vegetables, fruits, and fortified cereals [ 13 ]. Vitamin E is exclusively found in the αT form in sunflower seeds, contributing to its use as a valuable dietary source. Furthermore, a few trials showed that nut consumption rich in vitamin E, especially hazelnuts and peanuts, was a major reason for cardioprotective effects [ 14 ].
+L15: Shahidi et al. contend that speciality and fruit seed oils are also rich sources of αT, and are underutilised as natural sources of vitamin E. These include pecan, raspberry, blackberry, grape, date, wild pear, sophia, and chia seed oils. Other important but lesser-known sources of αT include pseudo-cereals such as quinoa, amaranth and canihua, lentils, chickpeas, and regional fruits such as Murumuru, bacuri, cactus, jaboticaba, and navelwort [ 15 ]. The high percentage of both αT and unsaturated fatty acids in plants additionally suggests that it is the most important antioxidant molecule present in them, and can potentially prevent the oxidation of unsaturated fatty acids in plants. A range of different tocotrienols and tocopherols are also found in algae such as Chlorella,  Stichococcus bacillaris ,  Dunaliella salina , and  Cladophora stichotoma , among others [ 16 ]. This suggests that the use of algae as natural sources of vitamin E should be further explored in research.
+L16: In addition, it should be noted that vitamin E is heavily interdependent on the presence of other vitamins and factors, namely vitamin B3, vitamin C, beta-carotene, thiols, glutathione, and selenium. This also suggests that a balanced diet needs the presence of other micronutrients to ensure an optimum amount of vitamin E is absorbed and metabolized by the body [ 10 ]. Certain foods, while not rich in vitamin E themselves, are used to protect αT present in lipoproteins. For example, caffeic acid, a phenolic compound found in coffee, protects αT from oxidation, as well as low-density lipoproteins (LDLs). Similarly, the long-term consumption of olive oil, which is also rich in phenolic compounds, improves the blood lipid profile, particularly high-density lipoproteins (HDLs), and enhances vitamin E’s capacity as an antioxidant in patients suffering from hypercholesterolemia [ 17 ].
+L17: Table 1 Foods rich in α-tocopherol (αT) found in our diet [ 12 , 18 ].
+L18: 3. The Role of Vitamin E in the Pathogenesis of Cardiovascular Diseases
+L19: This review briefly summarises the role of vitamin E as an antioxidant and explores its function in regulating molecular activities. It focuses on pathological diseases of the vascular system, namely cardiovascular diseases (CVDs). There is a high incidence of CVD globally, which is also associated with the risk of morbidity. Studies based on Western populations described a high incidence of coronary heart disease owing to obesity, hypercholesterolemia, and atherosclerosis. Moreover, it is reported that Asian populations also suffer from long-term fatal CVDs due to risk factors such as hypertension, smoking, and increasing obesity [ 19 ]. While a positive effect of vitamin E on vascular health has been established [ 20 , 21 ], it is aimed to first briefly discuss its antioxidant effect, and then elaborate on its non-oxidative molecular functions in the vascular system.
+L20: 3.1. Antioxidant Mechanism
+L21: Clinical trials reported during the 1990s and early 2000s are reviewed here to gain better insights into the aetiology of vitamin E on the human vascular system that were established after its discovery.
+L22: In in vitro research, vitamin E was shown to act as a scavenger of the peroxyl radical (LOO•), which helps to inhibit free-radical propagation and thereby lipid oxidation [ 1 ]. In cells, vitamin E is found in the phospholipid bilayer of the cell membrane and in plasma lipoproteins, and protects polyunsaturated fatty acids (PUFA) in situ from oxidation by peroxyl radicals. During the process of lipid peroxidation, molecular oxygen reacts with lipid carbon-centred radicals (L•) of various organic molecules such as fatty acids, cholesterol, phospholipids, etc., to form LOO•, which then reacts with PUFA to form lipid hydroperoxide (LOOH) and another L•. Antioxidants, including vitamin E, scavenge free radicals and break the lipid peroxidation chain reaction. In the presence of LOO•, the phenolic hydroxyl group of αT undergoes an event of propagation reaction and forms into a tocopheroxyl radical, leaving LOOH and preventing the development of L• ( Figure 3 ). The tocopheroxyl radical is much more stable and harmless as compared to the peroxyl radical, and potentially converts into tocopherol via reduction from other antioxidants, such as ascorbic acid (vitamin C) or with another tocopheroxyl radical [ 22 ]. Vitamin E is an extremely efficient antioxidant since its rate of reaction and scavenging of LOO• is much higher than the rate of peroxidation of lipid molecules by peroxyl radicals [ 23 ]. In some cases, vitamin E can also act as a pro-oxidant and oxidize other lipids. Nonetheless, to date, the extent of vitamin E recycling and the conditions required for its antioxidant effect are not clearly known [ 5 ].
+L23:  LOO• + αT → LOOH + αT • (tocopheroxyl radical)
+L24: The oxidative-modification hypothesis of atherosclerosis postulates that the accumulation of LDL in the sub-endothelium of arteries and its subsequent oxidation is the main cause of atherosclerosis. LDL accumulation initiates the recruitment of monocytes and macrophages, which further favors the peroxidation of LDL. The oxidized LDL generated is internalized by macrophages, which converts them into foam cells. Foam cells can accumulate in the sub-endothelium of arteries, which results in inflammation and plaque formation. The uptake of oxidized LDL by the scavenger–receptor pathway is not negatively regulated and leads to increased regulation of cholesterol. Chronic inflammation of endothelial cells and the narrowed lumen of arteries lead to the development of atherogenesis. Atherosclerotic arteries are a major developmental factor for various CVDs, since it narrows the lumen of arteries, cause hardening of the sub-endothelium, reducing blood flow and damaging endothelial cells. Furthermore, foam cells are cytotoxic in vascular cells, which leads to lipid and lysosomal enzyme release and vascular lesion formation. LDL oxidation and its cytotoxicity may be prevented by the incorporation of vitamin E, thus preventing the development of atherosclerosis, and subsequently reducing the risk of CVDs [ 24 , 25 ]. This is further discussed below and summarized in  Table 2 .
+L25: Various clinical trials conducted in the late 1980s and 1990s perceived vitamin E to be a strong antioxidant that aided in preventing various CVDs. Followed by the hypothesis of αT’s antioxidant role in preventing LDL oxidation, several studies conducted large-scale human trials to investigate the reduction of various CVD risks. In 1993, separate studies (the Health Professional’s Follow-Up Study and the Nurses’ Health Study) were conducted in males and females to understand the relationship between vitamin E consumption and the risk of coronary artery disease (CAD). These trials confirmed that high oral doses of both dietary and supplemental (100–250 IU/day) vitamin E reduced the risk of major coronary diseases such as CAD, non-fatal myocardial infarction (MI), and cardiovascular death by 35–40%. These studies correlated the results with the reduction of cell-meditated oxidation of LDL by vitamin E and found reduced rates of atherosclerosis and restenosis [ 26 , 27 ]. In 1995, the Cholesterol Lowering Atherosclerosis Study conducted a subgroup analysis on the supplementary intake of vitamin E and the rate of progression of CAD. Researchers conducted angiography on the subjects after 2 years of intervention and found that supplementation of >100 IU/day of vitamin E caused the least progression in coronary artery lesions due to a lower rate of stenosis [ 28 ]. The Cambridge Heart Antioxidant Study (CHAOS) conducted in 1996 had similar angiographic findings. αT treatments were given to 2002 patients suffering from atherosclerosis for a median time of 510 days and showed a lower rate of non-fatal MI due to the reduced rate of macrophage-rich atherosclerotic lesion formation [ 29 ]. In vitro studies also showed a direct correlation between αT levels and oxidized LDL in the prevention of arterial dysfunction; high tissue levels of αT lowered the risk of endothelial dysfunction from oxidized LDL [ 30 ]. Another trial, known as the Secondary Prevention with Antioxidants of CVD in Endstage Renal Disease (SPACE) Study (2000), indicated that chronic hemodialysis patients have high vascular disease related mortality rates. Patients that undergo hemodialysis to treat renal diseases have elevated oxidative stress; however, vitamin E supplementation potentially prevented vascular complications, especially CVD. This observation suggests that vitamin E lower the rate of oxidized LDL production, which subsequently reduced the rates of non-fatal MI by 70%, cardiovascular mortality by 46%, and ischemic stroke by 14% [ 31 ]. A relatively recent clinical trial on the effect of vitamins on cardiovascular health in a Russian population showed that multivitamin supplementation, including αT, had an inverse relationship with the risk of CVDs. The Russian population was characterized by a high alcohol intake, smoking, and a low intake of natural vitamin sources such as fruits and vegetables, leading to poor antioxidant status. After continuous supplementation for 8 weeks, subjects showed vastly improved antioxidant levels, including αT levels, and a reduction in heart health risk biomarkers [ 32 ]. A study conducted in 2018 also showed that vitamin E supplementation significantly improved the vascular health of patients with Hp2-2 genotypes. Hp2-2 genes code for haptoglobin and increase the risk of endothelial dysfunction, MI, and type II diabetes, and is suggested to be regulated via vitamin E at a therapeutic level [ 33 ].
+L26: On the other hand, it has also been reported that the protective effects of tocopherol against LDL oxidation and its vascular function may not be due its antioxidant property. It was found in a long-term clinical trial that vitamin E may not have protective effects against CVD. One important study was the Alpha-Tocopherol, Beta-Carotene Cancer Prevention Trial (ATBC) conducted in 1996 on Finnish smokers. The effect of vitamin E on the prevention of angina pectoris was deemed unlikely to be of public health significance. Similar findings were shown in patients with intermittent claudication and those undergoing coronary angioplasty [ 34 ]. The Heart Outcomes Prevention Evaluation—The Ongoing Outcomes (HOPE-TOO) Study additionally reported that there was no significant difference in the incidence of major cardiovascular events after daily long-term administration of a high dose (400 IU) of natural vitamin E. In fact, it further suggested an increased risk of heart failure [ 35 ]. Similarly, the Women’s Health Study (WHS) conducted from 1992–2004 to test if vitamin E supplementation reduced the risk of CVD in women further showed a non-significant risk reduction after long-term administration of vitamin E supplementation [ 36 ]. The Physicians’ Health Study II conducted in 2008 among middle-aged and older men did not find any correlation between supplemental use of vitamin E and the risk reduction of non-fatal MI, angina, or heart failure [ 37 ]. This has also been supported by older studies conducted on a small-scale or population-subset level. Moreover, the MRC/BHF Heart Protection Study conceded that supplemental doses of vitamin E, along with other antioxidant vitamins, did not decrease the risk of incidence or mortality of CVD and cancer [ 38 ]. A recent study conducted on a Singaporean population contends that vitamin E supplementation did not have any preferential benefit in patients with the Hp2-2 genotype, but rather showed an increased risk of arterial stiffness in patients with high haptoglobin concentrations [ 39 ].
+L27: Due to the opposing views on the antioxidant effect of vitamin E in preventing various CVDs, it is recommended that more advanced clinical trials with larger test groups of participants should be investigated, with higher control on external factors such as age, eating patterns, environmental influences, etc. Additionally, a more quantitative assessment is needed to measure the oxidative stress of the human body to correctly prove the oxidation hypothesis. Moreover, the LDL oxidation rate in humans can be very slow, and atherosclerotic lesions can take many years to form. It is plausible that only a sub-population may respond to vitamin E supplementation, while some may be influenced by other environmental and genetic factors; for example, a family history of hypercholesterolemia [ 25 ]. Alternatively, an examination of the molecular roles of vitamin E in the prevention of cardiovascular complications could lead to new insights in its functions.
+L28: Table 2 Summary of the antioxidant effects of vitamin E in vascular diseases.
+L29: 3.2. Potential Molecular Mechanisms
+L30: While vitamin E’s antioxidant mechanism is extremely well-known and popularised in medicinal research, its bioactive effects are relatively lesser known. Research on cellular regulation by vitamin E and its involvement in metabolic pathways is new and emerging. Current studies on vitamin E agree that its antioxidant effect may not be enough to justify all of its effects on the vascular system. Nevertheless, vitamin E is also able to regulate gene expression and take part in signal transduction, enzymatic activities, and membrane phenomena of lipid fluxes. Several of these molecular mechanisms, as discussed below, suggest that the protective function of vitamin E against CVD is not merely due to its free radical scavenging property [ 40 ].
+L31: Vitamin E protects plasma membranes from free radical damage by acting as an antioxidant. However, it also protects them and promotes their repair via modulation of the membrane by a stabilization process. For instance, the chromanol head of αT binds with phospholipids to reduce mobility and fluidity in the interior layer [ 41 ]. Vitamin E is also able to stabilize the membrane of red blood cells and prevent hemolysis induced by vitamin A [ 23 ]. Furthermore, it indirectly protects membrane stability by suppressing ROS formation caused by oxidized LDL, which will be discussed in the following sections.
+L32: Vitamin E can directly influence phospholipid metabolism by activating phospholipase A 2  (PLA 2 ), which is involved in signal transduction, and regulate the levels of lysophosphatidylcholine species (lysoPC) [ 42 ]. LysoPC are pro-inflammatory and induce platelet activation and endothelial dysfunction in the vascular system. They form complexes with vitamin E, and thus stabilize the endothelial cells. In addition, patients with obesity and type 2 diabetes fall in the CVD risk group, where high LysoPC levels in plasma were found in these individuals. It was also shown that vitamin E forms complexes with LysoPC and prevents PLA 2  hydrolysis in rat liver lysosomal membranes [ 43 , 44 ].
+L33: In vitro studies have shown that vitamin E is able to prevent apoptosis caused by the potential cytotoxic effect of docosahexaenoic acid (DHA) in cultured cells by modulating the gene expression of the pregnane X receptor (PXR) [ 45 ] and similar heterodimeric nuclear receptors. The positive synergy between DHA and vitamin E can also affect the regulation of DP-glucuronosyltransferase 1A1 (UGT1A1) mRNA in cell detoxification and increase stearoyl-CoA desaturase (SCD) levels [ 46 ], which play a role in lipid biosynthesis. Moreover, αT decreases the production of caspase-3 in the caspase cascade, which guides the downregulation of oxidized LDL and ROS-activated apoptotic pathways in endothelial cells [ 47 ].
+L34: A study showed that vitamin E induces the expression of endogenous antioxidant enzymes that prevents lipid peroxidation (and hence foam cell formation). These enzymes, namely Cu/Zn superoxide dismutase (SOD) and catalase (SOC), activate PPARγ and NF-κB redox-sensitive gene regulators [ 48 ] in vascular cells. Additionally, vitamin E also decreases the release of inflammatory cytokines IL-1β, IL-8, and IL-6 and thus reduces inflammation [ 49 ] developed during excessive macrophage recruitment. Moreover, vitamin E supplementation has been shown to downregulate the expression of CD36 scavenger receptors that are responsible for the uptake of cholesterol, and consequently prevent foam cell formation [ 50 ]. Vitamin E-deficient cells also had high levels of CD36. Vitamin E upregulates the expression of PPARγ, LXRα, and ABCA1 pathways, and forms a transduction pathway for the transport and efflux of cholesterol. This results in cholesterol efflux from macrophages and the subsequent prevention of foam cell formation. Furthermore, all genes are induced in the presence of concentrated oxidized LDL, showing that vitamin E interacts with LDL via the modification of gene expression in addition to the antioxidant pathway. It can also be inferred that vitamin E supplementation can prevent the onset of hypercholesterolemia, which contributes to the onset of early atherosclerosis [ 51 ].
+L35: The proliferation of vascular (specifically aortic) smooth muscle cells (VSMC) is associated with the risk of vascular diseases, namely atherosclerotic lesion formation, hypercholesterolemia, and hypertension [ 52 ]. Studies have shown that αT can block VSMC proliferation via the inhibition of the isoenzyme protein kinase C (PKC) family. PKC upregulates the pathway that converts quiescent VSMC to their proliferative state. In general, PKC activates an important cell transduction pathway responsible for cell growth, proliferation, differentiation, and secretion [ 53 ]. In addition, PKC is one of the main receptors for tumour-promoting phorbol esters. αT is a specific PKC inhibitor and prevents VSMC proliferation in several ways. Experiments have shown that αT can increase phorbol ester binding to PKC. However, the overall effect of vitamin E is preventative, and phorbol-binding does not increase PKC production in cells. It is postulated that αT inhibits phosphorylation of the 80-kDa protein, which is a PKC activation marker and enzyme substrate for the signal transduction pathway. αT also prevents the translocation of phorbol-bound PKC to the membrane after its activation, and thus reduces its cellular distribution [ 52 ]. At the molecular level, vitamin E analogues prevent the activation of PKC by binding differentially to its diacylglycerol (DAG) binding sites [ 7 ]. In diabetic patients (which present a high risk of developing CVD), PKC is activated by increased DAG production. However, αT is able to inhibit PKC release by stimulating the production of DAG kinase, which phosphorylates DAG [ 54 ], and consequently lowers its levels.
+L36: Macrophages also produce tumour necrosis factor-α (TNF-α), which leads to ROS production and the inhibition of connective tissue growth factor (CTGF). CTGF is necessary in VSMC for wound repair, tissue growth, and plaque stabilization during atherosclerotic lesion formation. αT is antagonistic to TNF-α [ 55 ] and helps in regressing CTGF downregulation induced by it [ 56 ], and subsequently prevents ROS production, inflammation, and atherosclerotic plaque build-up. Studies have also shown that oxidized LDL causes inactivation of the endothelial derived relaxation factor (EDRF) in VSMC, which is a major risk factor for CVD; this indicates EDRF release to be indirectly regulated by αT. Oxidized LDL also degrades endothelial nitric oxide (NO), which is important for vascular health and the prevention of platelet aggregation [ 57 ]. It stimulates the release of PKC through phorbol 12-myristate 13-acetate (PMA). PMA activates the G-protein, and the subsequent PKC release prevents endothelium-dependent arterial relaxation and receptor-mediated stimulation of NO production by the endothelium. The vascular incorporation of αT blocks PKC activation, and thus protects the endothelium from degeneration caused by oxidized LDL. This also provides further proof of vitamin E’s function against injury from oxidized LDL in endothelium tissue, as opposed to its antioxidant activity [ 30 ]. Further investigation showed that vitamin E prevented LDL oxidation via the release of superoxide anions (O 2 − ) by monocytes. The enzyme NADPH oxidase is responsible for O 2 −  production by phagocytes. The phosphorylation of cytosolic proteins p47 phox  by PKC and PMA is responsible for NADPH oxidase activation. However, αT blocked the translocation and phosphorylation of p47 phox  by PMA and PKC, inhibited O 2 −  production by the monocytes [ 50 , 58 ], and consequently prevented the oxidation of LDL.
+L37: Furthermore, oxidized LDL also activates enzyme protein kinase B (PKB/Akt) in VSMC. PKB/Akt is a major enzyme responsible for controlling various cellular processes such as cell migration, cell apoptosis, gene expression, lipid metabolism, free radical production, etc. [ 7 ]. During atherosclerotic plaque formation, increased PKB/Akt levels have been observed. Vitamin E inhibits the phosphorylation of Ser473, the key regulatory site of PKB/Akt, and subsequently regulates the production of the PKB enzyme (independent of PKC regulation). Moreover, vitamin E decreases oxidized LDL uptake by THP-1 macrophages by preventing oxidized LDL-induced Ser473 phosphorylation. This further downregulates CD36 scavenger receptors via PPAR in the ox-LDL/CD36/PKB/PPARγ pathway. As a result, it decreases overall lipid uptake and biosynthesis in cells [ 59 ]. Cholesterol biosynthesis and lipid exchange is also prevented by the binding of αT to tocopherol-associated proteins (TAP 1/2/3), which inhibit enzymes squalene epoxidase and HMG-CoA reductase [ 60 ].
+L38: Vitamin E has been established as an antioxidant that protects monounsaturated fatty acids and polyunsaturated fatty acids (MUFA/PUFA). However, it can also indirectly regulate the gene expression and production of lipid mediators regulated by MUFA/PUFA, which control membrane receptors, membrane lipid composition, signal transduction enzymes, transcription factors (including PPARγ, hepatocyte nuclear factor HNF-4α, NRF2, LXRα/β, etc.), and lipid metabolism enzymes [ 61 ]. These play a significant role in regulating the metabolism of cholesterol, carbohydrates, and triglycerides in cells [ 7 ] and ultimately determine the risk of atherosclerosis, hyperlipidemia, and hypercholesterolemia.
+L39: Newer studies have further laid an emphasis on the molecular effect of α-tocopherol phosphate (αTP) ( Figure 4 ) in modulating gene expression. αTP is a natural analogue of αT that is found extensively in foods and in the human body. While αTP has no known antioxidant effect, it is shown to act as a lipid mediator in membranes, as a cofactor for enzymes, and as a receptor for various transcription factors for mRNA [ 62 ]. αTP is shown to be more potent than αT in reducing the expression of CD36 scavenger receptors and the proliferation of human THP-1 monocytes, thus lowering inflammation and atherosclerotic lesion formation. Additionally, αTP stimulates human TAP-1, which consequently interacts with the phosphatidylinositol-3-kinase (PI3K/Akt) signal transduction pathway to modulate the expression of several vascular endothelial growth factor (VEGF) genes [ 60 , 63 , 64 ]. It is shown that stimulation of VEGF genes by αTP is essential for cell and wound repair, tissue remodelling, and stimulates vascular permeability, vasculogenesis, and angiogenesis, which can prevent hypoxia in atherosclerotic regions at an early stage [ 63 , 65 ]. Moreover, VEGF expression can be further promoted by the production of αTP in VSMC [ 60 ].
+L40: CVD includes a range of disorders and conditions, with the most serious ones being CAD and stroke. Venous thromboembolism (VTE) is the third most common CVD after these two and refers to the formation of blood clotting in the deep veins of the limbic and groin region; when the clot breaks, it is circulated in the blood stream and transported to the lungs, leading to a primary lung embolism. In extreme cases, it can also cause right heart failure [ 66 ]. A clinical trial conducted on women showed that a supplemental dose of vitamin E can reduce the hazard of VTE significantly by 21%, and the hazard of unprovoked VTE by 27%. Furthermore, the risk of a primary embolism was reduced by 28%. The hypothetical reason behind this is the anticoagulation effect of vitamin E (when vitamin K levels in the body are low) as well as the inhibition of platelet adherence. Hence, it can be potentially used to prevent first or recurrent VTEs in the body [ 67 ]. A deeper look into the antithrombotic effects of vitamin E suggests that αT can prevent thrombus formation via the inhibition of platelet adherence to mononuclear cells (MNC). Oral supplementation of vitamin E given to healthy subjects suppressed PMA-mediated P-selectin expression, interactions between platelets and MNCs, platelet PKC activity, and overall agonist-induced platelet aggregation ex vivo. Since P-selectin is prothrombotic, and PKC promotes platelet-MNC interaction, vitamin E can have potential uses in the treatment of thrombosis, which reduces the risk of atherosclerosis and CAD. This also highlights the differing effects of vitamin E in arterial and venous events [ 68 ]. Further evidence showed that supplemental vitamin E downregulates gene expression for the intercellular cell adhesion molecule (ICAM-1) and vascular cell adhesion molecule-1 (VCAM-1), which are induced in the presence of elevated oxidized LDL [ 69 ], and subsequently reduces the adhesive capabilities of cellular blood components to endothelium lining of the blood vessels. In vitro studies on human cell lines also showed that αT downregulates the expression of adhesion molecules CD11b and very late antigen-4 (VLA-4), which in turn suppress the migration and adhesion of activated monocytes [ 70 ] to the endothelium. Altogether, the downregulation of ICAM-1, VCAM-1, CD11b, and VLA-4 by αT directly reduced the risk of inflammation and thrombosis in the vascular system.
+L41: Previously, it has been noted that vitamin E upregulates PLA 2  expression. Furthermore, vitamin E can increase the expression of cyclooxygenase-1. Together, these two enzymes participate in the arachidonic acid cascade and increase prostacyclin release [ 42 ]. Prostacyclin inhibits platelet aggregation, prevents thrombosis, and acts as a potent vasodilator [ 5 ], thus reducing the risk of hypertension. Hypercholesterolemic animals showed that αT downregulates platelet aggregation by inhibiting platelet factor 4 and thromboxane B2 (TxB2) [ 20 , 71 ]. Blood clot formation also plays a role in increasing the rate of atherosclerosis. The hormone thrombin, released during the clotting process, is shown to have multiple effects on monocyte recruitment, endothelial cell lining, and smooth muscles, in addition to platelet aggregation. Moreover, oxidized LDL acquires procoagulant properties and further increases the rate of thrombin production [ 72 ]. Patients suffering from hypercholesterolemia and hyperlipidemia have shown high thrombin levels, as its secretion is a natural response to inflammation [ 73 ]. Additionally, it is known that platelet aggregation increases the rate of lesion formation. Since thrombin generation is further promoted by lipoproteins, vitamin E’s regulatory effect on LDL oxidization is deduced to prevent LDL-initiated thrombin production by reducing its plasma generation, hereby suggesting another mechanism by which αT prevents atherosclerosis [ 74 ] and CVD risk.
+L42: The non-oxidative molecular mechanisms of vitamin E discussed above are summarised in  Figure 5  and  Table 3  below.
+L43: 4. Toxic Effects of Vitamin E
+L44: Vitamin E is shown to have many therapeutic effects, both as an antioxidant and in other cellular processes. This also raise concerns regarding the potential adverse effects of vitamin E, especially when taken in excess or in large supplemental doses. The wide availability of vitamin E supplements due to its nutritional popularity further poses the question of the plausible toxic effects of vitamin E, since high doses can induce drug-metabolism of vitamin E [ 75 ].
+L45: A clinical trial on the effect of combining selenium and vitamin E to prevent prostate cancer indicated that vitamin E can significantly increase the risk of prostate cancer incidence in men [ 76 ]. Another trial showed that while vitamin E supplementation did not affect all-cause mortality overall, significant results were seen in dose–response analyses, and a supplemental dose of >150 IU/day or a high dose (>400 IU/day) caused a progressive increase in all-cause mortality. The dose of >150 IU/day is much lower than the recommended upper limit (UL) of 1100 IU/day of synthetic and 1500 IU/day of natural vitamin E (both approximately 1000 mg/day vitamin E), and thus can be a cause of concern [ 77 ]. This evidence is supported by a randomized control trial which discouraged the supplementation of vitamin E to postmenopausal women suffering from CVD that showed high vitamin E doses increased cardiovascular mortality over a period of 2 years [ 78 ].
+L46: Vitamin E also showed significant anticlotting properties, especially in its quinone form. As mentioned previously, vitamin E has the potential to be an effective anticoagulant and inhibit clotting mechanisms that are regulated by vitamin K. This can have an opposing effect to the use of vitamin E as a treatment for CVD [ 79 ] and may be a risk factor for those on vitamin K supplementation or suffering from vitamin K deficiencies. Moreover, it has been shown that αT inhibits the enzyme glutathione S-transferase (GST) in human due to its preferential binding over GST with proteins like haemoglobin and albumin. All isozymes of GST found in the cytosol of hepatic cells were also inhibited by αT. GST inhibition can lead to the loss of its detoxification ability of electrophilic compounds, which can cause damage to proteins, lipids, and DNA, and further progress cancer development, neoplastic diseases, and neurodegenerative diseases [ 80 ]. In fact, early studies on vitamin E and cancer prevention argued that vitamin E does not show protective effects against the onset of lung, prostate, and colorectal cancer, and might even increase the risk of haemorrhagic stroke in men [ 81 ]. In reactions with low radical flux or the presence of transition metals, high doses of vitamin E can play the role of a pro-oxidant. It results in the production of α-tocopherol radicals which further facilitate the peroxidation of lipids in blood vessels. While its pro-oxidation can be inhibited by other antioxidants such as vitamin C, the presence of a mixture of high vitamin E and vitamin C can be potentially hazardous due to the pro-oxidant-rich environment created in atherosclerotic plaques [ 82 ].
+L47: Nonetheless, the potential cytotoxic effects of supplemental doses of vitamin E have raised concern among researchers and suggested the need to define a lower UL for vitamin E. There is also a need for more investigation into vitamin E’s interaction with other micronutrients in order to study their combined roles in human physiology [ 75 ].
+L48: 5. Concluding Remarks
+L49: This review viewed vitamin E as an important micronutrient for vascular health. It is found in common food sources, namely routinely consumed edible oils, nuts, and seeds, which makes it rare for one to suffer from vitamin E deficiency. Over several decades, vitamin E has gained popularity as a micronutrient as it acts as a major deterrent of atherosclerosis, which is the biggest cause of CVD in humans.
+L50: The earliest research on vitamin E established its roles as a fat-soluble antioxidant due to lowered rates of atherosclerosis and an overall reduction in cardiovascular mortality observed in randomized-controlled trials. While these studies could not pinpoint the exact reasons behind vitamin E’s effect, it has been well-established in the past to be an effective radical scavenger to prevent LDL oxidation and foam cell formation, and subsequently prevents the formation of atherosclerotic lesions, inhibits plaque build-up and stenosis, and lowers hypertension—which are all major risk factors of poor vascular health. While some studies also claimed that vitamin E did not show any improvement to vascular health, the relationship seemed causal, and most studies could not hypothesize valid reasons behind the potential anti-protective effects of vitamin E.
+L51: Studies also underlined various cellular mechanisms that allows αT to prevent the oxidation of LDL, in addition to its antioxidant property. Vitamin E inhibits other factors that promote vascular degeneration and atherosclerotic lesion formation. It not just protects arteries from atherosclerosis and platelet aggregation, but also helps in the overall prevention of venous thromboembolism, vascular cell toxicity, endothelial membrane apoptosis, hypercholesterolemia, angiogenesis, thrombosis, and hypertension. Moreover, it regulates cholesterol efflux, increases lipid metabolism, regulates vascular smooth muscle contraction, and increases wound healing and cell repair and growth in vascular tissues. These findings prove that the vitamin has regulatory effects beyond the prevention of LDL oxidation. This claim is further purported by the fact that vitamin E deficiency leads to several disorders that occur not just from an ‘increase in oxidative stress’ in humans [ 50 ]. Accordingly, the regulatory role of vitamin E at the molecular level should be considered when relating its association with human vascular health.
+L52: A shortcoming of present research that is highlighted in this review is the lack of animal and human studies on the molecular mechanisms by which αT protects vascular function. While in vitro studies contend that αT has a host of regulatory effects on the vascular endothelium, these claims need to be validated by in vivo studies as well. Moreover, there are many conflicting studies about the exact function of vitamin E. This is mainly because of the difficulties faced in identifying the exact form of vitamin E (such as the type of tocopherol vitamer) that participates in gene expression and regulation [ 50 ]. Deeper research will also allow more coherence in the conclusions drawn by several present and ongoing studies on vitamin E’s effect on the vascular system [ 75 ].
+L53: There are no direct harmful effects of taking supplemental doses of tocopherol, while small, regular supplementation can potentially be beneficial for people suffering from vascular diseases. In fact, research shows promising effects of the potential therapeutic use of vitamin E for the prevention and treatment of CVD. Nonetheless, caution must be taken to prevent overdosing and to ensure that vitamin E works in harmony with other important vitamins such as C, A, and K, and does not cause any potential cytotoxic effects.
+L54: Figure 1 The chemical structure of α-tocopherol (αT).
+L55: Figure 2 The chemical structure of α-tocotrienol.
+L56: Figure 3 Termination of free radicals by antioxidants. The peroxyl radical is scavenged by antioxidants e.g., α-tocopherol. The resulting metabolite either ( i ) stabilizes itself, ( ii ) combines with another similar metabolite, or ( iii ) scavenges another peroxyl radical.
+L57: Figure 4 The chemical structure of α-tocopherol phosphate (αTP).
+L58: Figure 5 A summary of the potential molecular mechanisms of vitamin E (α-tocopherol) in vascular disease prevention via the suppression and upregulation of genes and metabolic pathways. Solid arrows: primary effect; dotted arrows: secondary effect (intermediate steps are not shown); double arrows: interactions.
+L59: 1. Khadangi F. 
+L60:  Azzi A. 
+L61:  Vitamin E—The Next 100 Years IUBMB Life 2019 71 411 415 10.1002/iub.1990 30550633
+L62: 2. Azzi A. 
+L63:  Many tocopherols, one vitamin E Mol. Asp. Med. 2018 61 92 103 10.1016/j.mam.2017.06.004 28624327
+L64: 3. Evans Herbert M. 
+L65:  Bishop K.S. 
+L66:  On the Existence of a Hitherto Unrecognized Dietary Factor Essential for Reproduction Science 1922 56 650 651 10.1126/science.56.1458.650 17838496
+L67: 4. Ulatowski L. 
+L68:  Manor D. 
+L69:  Vitamin E trafficking in neurologic health and disease Annu. Rev. Nutr. 2013 33 87 103 10.1146/annurev-nutr-071812-161252 23642196
+L70: 5. Food N.B. 
+L71:  Board N. 
+L72:  Institute of Medicine. Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium and Carotenoids National Academy Press Washington, DC, USA 2000
+L73: 6. Traber M.G. 
+L74:  Vitamin E regulatory mechanisms Annu. Rev. Nutr. 2007 27 347 362 10.1146/annurev.nutr.27.061406.093819 17439363
+L75: 7. Zingg J.M. 
+L76:  Vitamin E: Regulatory Role on Signal Transduction IUBMB Life 2019 71 456 478 10.1002/iub.1986 30556637
+L77: 8. Pillai S.R. 
+L78:  Traber M.G. 
+L79:  Kayden H.J. 
+L80:  Cox N.R. 
+L81:  Toivio-Kinnucan M. 
+L82:  Wright J.C. 
+L83:  Braund K.G. 
+L84:  Whitley R.D. 
+L85:  Gilger B.C. 
+L86:  Steiss J.E. 
+L87:  Concomitant brainstem axonal dystrophy and necrotizing myopathy in vitamin E-deficient rats J. Neurol. Sci. 1994 123 64 73 10.1016/0022-510X(94)90205-4 8064324
+L88: 9. Gohil K. 
+L89:  Vasu V.T. 
+L90:  Cross C.E. 
+L91:  Dietary α-tocopherol and neuromuscular health: Search for optimal dose and molecular mechanisms continues! Mol. Nutr. Food Res. 2010 54 693 709 10.1002/mnfr.200900575 20187127
+L92: 10. Rizvi S. 
+L93:  Raza S.T. 
+L94:  Faizal Ahmed A.A. 
+L95:  Abbas S. 
+L96:  Mahdi F. 
+L97:  The role of vitamin e in human health and some diseases Sultan Qaboos Univ. Med. J. 2014 14 e157 e165 24790736
+L98: 11. Fulgoni V.L. III 
+L99:  Keast D.R. 
+L100:  Bailey R.L. 
+L101:  Dwyer J. 
+L102:  Foods, Fortificants, and Supplements: Where Do Americans Get Their Nutrients? J. Nutr. 2011 141 1847 1854 10.3945/jn.111.142257 21865568
+L103: 12. USDA National Nutrient Database for Standard Reference Release 28 U.S. Department of Agriculture (USDA) Washington, DC, USA 2015
+L104: 13. Gropper S.S. 
+L105:  Smith J.L. 
+L106:  Advanced Nutrition and Human Metabolism Cengage Learning Boston, MA, USA 2019
+L107: 14. Tey S.L. 
+L108:  Robinson T. 
+L109:  Gray A.R. 
+L110:  Chisholm A.W. 
+L111:  Brown R.C. 
+L112:  Do dry roasting, lightly salting nuts affect their cardioprotective properties and acceptability? Eur. J. Nutr. 2017 56 1025 1036 10.1007/s00394-015-1150-4 26746221
+L113: 15. Shahidi F. 
+L114:  Pinaffi-Langley A.C.C. 
+L115:  Fuentes J. 
+L116:  Speisky H. 
+L117:  de Camargo A.C. 
+L118:  Vitamin E as an essential micronutrient for human health: Common, novel, and unexplored dietary sources Free Radic. Biol. Med. 2021 176 312 321 10.1016/j.freeradbiomed.2021.09.025 34610363
+L119: 16. Azzi A. 
+L120:  Stocker A. 
+L121:  Vitamin E: Non-antioxidant roles Prog. Lipid Res. 2000 39 231 255 10.1016/S0163-7827(00)00006-0 10799717
+L122: 17. Farràs M. 
+L123:  Fernandez-Castillejo S. 
+L124:  Rubio L. 
+L125:  Arranz S. 
+L126:  Catalan U. 
+L127:  Subirana I. 
+L128:  Romero M.P. 
+L129:  Castaner O. 
+L130:  Pedret A. 
+L131:  Blanchart G. 
+L132:  
+L133:  Phenol-enriched olive oils improve HDL antioxidant content in hypercholesterolemic subjects. A randomized, double-blind, cross-over, controlled trial J. Nutr. Biochem. 2018 51 99 104 10.1016/j.jnutbio.2017.09.010 29125992
+L134: 18. National Institute of Health (NIH) 
+L135:  Vitamin E—Fact Sheet for Health Professional Health Information Bethesda, MD, USA 2021 Available online:  https://ods.od.nih.gov/factsheets/VitaminE-HealthProfessional/#en9 (accessed on 12 October 2021)
+L136: 19. Irawati S. 
+L137:  Wasir R. 
+L138:  Floriaan Schmidt A. 
+L139:  Islam A. 
+L140:  Feenstra T. 
+L141:  Buskens E. 
+L142:  Wilffert B. 
+L143:  Hak E. 
+L144:  Long-term incidence and risk factors of cardiovascular events in Asian populations: Systematic review and meta-analysis of population-based cohort studies Curr. Med Res. Opin. 2019 35 291 299 10.1080/03007995.2018.1491149 29920124
+L145: 20. Violi F. 
+L146:  Nocella C. 
+L147:  Loffredo L. 
+L148:  Carnevale R. 
+L149:  Pignatelli P. 
+L150:  Interventional study with vitamin E in cardiovascular disease and meta-analysis Free Radic. Biol. Med. 2022 178 26 41 10.1016/j.freeradbiomed.2021.11.027 34838937
+L151: 21. Aune D. 
+L152:  Keum N. 
+L153:  Giovannucci E. 
+L154:  Fadnes L.T. 
+L155:  Boffetta P. 
+L156:  Greenwood D.C. 
+L157:  Tonstad S. 
+L158:  Vatten L.J. 
+L159:  Riboli E. 
+L160:  Norat T. 
+L161:  Dietary intake and blood concentrations of antioxidants and the risk of cardiovascular disease, total cancer, and all-cause mortality: A systematic review and dose-response meta-analysis of prospective studies Am. J. Clin. Nutr. 2018 108 1069 1091 10.1093/ajcn/nqy097 30475962
+L162: 22. Traber M.G. 
+L163:  Head B. 
+L164:  Vitamin E: How much is enough, too much and why! Free Radic. Biol. Med. 2021 177 212 225 10.1016/j.freeradbiomed.2021.10.028 34699937
+L165: 23. Niki E. 
+L166:  Lipid oxidation that is, and is not, inhibited by vitamin E: Consideration about physiological functions of vitamin E Free Radic. Biol. Med. 2021 176 1 15 10.1016/j.freeradbiomed.2021.09.001 34481937
+L167: 24. Diaz M.N. 
+L168:  Frei B. 
+L169:  Vita J.A. 
+L170:  Keaney J.F. 
+L171:  Antioxidants and Atherosclerotic Heart Disease N. Engl. J. Med. 1997 337 408 416 10.1056/NEJM199708073370607 9241131
+L172: 25. Witztum J.L. 
+L173:  Steinberg D. 
+L174:  The Oxidative Modification Hypothesis of Atherosclerosis: Does It Hold for Humans? Trends Cardiovasc. Med. 2001 11 93 102 10.1016/S1050-1738(01)00111-6 11686009
+L175: 26. Stampfer M.J. 
+L176:  Hennekens C.H. 
+L177:  Manson J.E. 
+L178:  Colditz G.A. 
+L179:  Rosner B. 
+L180:  Willett W.C. 
+L181:  Vitamin E Consumption and the Risk of Coronary Disease in Women N. Engl. J. Med. 1993 328 1444 1449 10.1056/NEJM199305203282003 8479463
+L182: 27. Rimm E.B. 
+L183:  Stampfer M.J. 
+L184:  Ascherio A. 
+L185:  Giovannucci E. 
+L186:  Colditz G.A. 
+L187:  Willett W.C. 
+L188:  Vitamin E Consumption and the Risk of Coronary Heart Disease in Men N. Engl. J. Med. 1993 328 1450 1456 10.1056/NEJM199305203282004 8479464
+L189: 28. Hodis H.N. 
+L190:  Mack W.J. 
+L191:  LaBree L. 
+L192:  Cashin-Hemphill L. 
+L193:  Sevanian A. 
+L194:  Johnson R. 
+L195:  Azen S.P. 
+L196:  Serial Coronary Angiographic Evidence That Antioxidant Vitamin Intake Reduces Progression of Coronary Artery Atherosclerosis JAMA 1995 273 1849 1854 10.1001/jama.1995.03520470057032 7776501
+L197: 29. Stephens N.G. 
+L198:  Parsons A. 
+L199:  Brown M.J. 
+L200:  Schofield P.M. 
+L201:  Kelly F. 
+L202:  Cheeseman K. 
+L203:  Mitchinson M. 
+L204:  Randomised controlled trial of vitamin E in patients with coronary disease: Cambridge Heart Antioxidant Study (CHAOS) Lancet 1996 347 781 786 10.1016/S0140-6736(96)90866-1 8622332
+L205: 30. Keaney J.F. 
+L206:  Guo Y. 
+L207:  Cunningham D. 
+L208:  Shwaery G.T. 
+L209:  Xu A. 
+L210:  Vita J.A. 
+L211:  Vascular incorporation of alpha-tocopherol prevents endothelial dysfunction due to oxidized LDL by inhibiting protein kinase C stimulation J. Clin. Investig. 1996 98 386 394 10.1172/JCI118804 8755649
+L212: 31. Boaz M. 
+L213:  Smetana S. 
+L214:  Weinstein T. 
+L215:  Matas Z. 
+L216:  Gafter U. 
+L217:  Iaina A. 
+L218:  Knecht A. 
+L219:  Weissgarten Y. 
+L220:  Brunner D. 
+L221:  Fainaru M. 
+L222:  
+L223:  Secondary prevention with antioxidants of cardiovascular disease in endstage renal disease (SPACE): Randomised placebo-controlled trial Lancet 2000 356 1213 1218 10.1016/S0140-6736(00)02783-5 11072938
+L224: 32. Isakov V.A. 
+L225:  Bogdanova A.A. 
+L226:  Bessonov V.V. 
+L227:  Sentsova T.B. 
+L228:  Tutelyan V.A. 
+L229:  Lin Y. 
+L230:  Kazlova V. 
+L231:  Hong J. 
+L232:  Velliquette R.A. 
+L233:  Effects of Multivitamin, Multimineral and Phytonutrient Supplementation on Nutrient Status and Biomarkers of Heart Health Risk in a Russian Population: A Randomized, Double Blind, Placebo Controlled Study Nutrients 2018 10 120 10.3390/nu10020120
+L234: 33. Alshiek J.A. 
+L235:  Dayan L. 
+L236:  Asleh R. 
+L237:  Blum S. 
+L238:  Levy A.P. 
+L239:  Jacob G. 
+L240:  Anti-oxidative treatment with vitamin E improves peripheral vascular function in patients with diabetes mellitus and Haptoglobin 2-2 genotype: A double-blinded cross-over study Diabetes Res. Clin. Pract. 2017 131 200 207 10.1016/j.diabres.2017.06.026 28759833
+L241: 34. Bramley P.M. 
+L242:  Elmadfa I. 
+L243:  Kafatos A. 
+L244:  Kelly F.J. 
+L245:  Manios Y. 
+L246:  Roxborough H.E. 
+L247:  Schuch W. 
+L248:  Sheehy P.J.A. 
+L249:  Wagner K.-H. 
+L250:  Vitamin E J. Sci. Food Agric. 2000 80 913 938 10.1002/(SICI)1097-0010(20000515)80:7<913::AID-JSFA600>3.0.CO;2-3
+L251: 35. The HOPE and HOPE-TOO Trial Investigators 
+L252:  Effects of Long-term Vitamin E Supplementation on Cardiovascular Events and CancerA Randomized Controlled Trial JAMA 2005 293 1338 1347 10.1001/jama.293.11.1338 15769967
+L253: 36. Lee I.-M. 
+L254:  Cook N.R. 
+L255:  Gaziano J.M. 
+L256:  Gordon D. 
+L257:  Ridker P.M. 
+L258:  Manson J.E. 
+L259:  Hennekens C.H. 
+L260:  Buring J.E. 
+L261:  Vitamin E in the Primary Prevention of Cardiovascular Disease and CancerThe Women’s Health Study: A Randomized Controlled Trial JAMA 2005 294 56 65 10.1001/jama.294.1.56 15998891
+L262: 37. Sesso H.D. 
+L263:  Buring J.E. 
+L264:  Christen W.G. 
+L265:  Kurth T. 
+L266:  Belanger C. 
+L267:  MacFadyen J. 
+L268:  Bubes V. 
+L269:  Manson J.E. 
+L270:  Glynn R.J. 
+L271:  Gaziano J.M. 
+L272:  Vitamins E and C in the prevention of cardiovascular disease in men: The Physicians’ Health Study II randomized controlled trial JAMA 2008 300 2123 2133 10.1001/jama.2008.600 18997197
+L273: 38. Collins R. 
+L274:  Heart Protection Study Collaborative Group. MRC/BHF Heart Protection Study of cholesterol-lowering with simvastatin in 5963 people with diabetes : a randomised placebo-controlled trial Lancet 2002 360 23 33 10.1016/S0140-6736(02)09328-5 12114037
+L275: 39. Dalan R. 
+L276:  Goh L.L. 
+L277:  Lim C.J. 
+L278:  Seneviratna A. 
+L279:  Liew H. 
+L280:  Seow C.J. 
+L281:  Xia L. 
+L282:  Chew D.E.K. 
+L283:  Leow M.K.S. 
+L284:  Boehm B.O. 
+L285:  Impact of Vitamin E supplementation on vascular function in haptoglobin genotype stratified diabetes patients (EVAS Trial): A randomised controlled trial Nutr. Diabetes 2020 10 13 10.1038/s41387-020-0116-7 32341356
+L286: 40. Brigelius-Flohé R. 
+L287:  Vitamin E: The shrew waiting to be tamed Free Radic. Biol. Med. 2009 46 543 554 10.1016/j.freeradbiomed.2008.12.007 19133328
+L288: 41. Howard A.C. 
+L289:  McNeil A.K. 
+L290:  McNeil P.L. 
+L291:  Promotion of plasma membrane repair by vitamin E Nat. Commun. 2011 2 597 10.1038/ncomms1594 22186893
+L292: 42. Chan A.C. 
+L293:  Wagner M. 
+L294:  Kennedy C. 
+L295:  Chen E. 
+L296:  Lanuville O. 
+L297:  Mezl V.A. 
+L298:  Tran K. 
+L299:  Choy P.C. 
+L300:  Vitamin E up-regulates arachidonic acid releaseand phospholipase A2 in megakaryocytes Mol. Cell. Biochem. 1998 189 153 159 10.1023/A:1006954015678 9879666
+L301: 43. Wong M. 
+L302:  Lodge J.K. 
+L303:  A metabolomic investigation of the effects of vitamin E supplementation in humans Nutr. Metab. 2012 9 110 10.1186/1743-7075-9-110
+L304: 44. Wang X. 
+L305:  Quinn P.J. 
+L306:  Vitamin E and its function in membranes Prog. Lipid Res. 1999 38 309 336 10.1016/S0163-7827(99)00008-9 10793887
+L307: 45. Landes N. 
+L308:  Pfluger P. 
+L309:  Kluth D. 
+L310:  Birringer M. 
+L311:  Rühl R. 
+L312:  Böl G.-F. 
+L313:  Glatt H. 
+L314:  Brigelius-Flohé R. 
+L315:  Vitamin E activates gene expression via the pregnane X receptor Biochem. Pharmacol. 2003 65 269 273 10.1016/S0006-2952(02)01520-4 12504802
+L316: 46. Caputo M. 
+L317:  Eletto D. 
+L318:  Torino G. 
+L319:  Tecce M.F. 
+L320:  Cooperation of docosahexaenoic acid and vitamin E in the regulation of UDP-glucuronosyltransferase mRNA expression J. Cell. Physiol. 2008 215 765 770 10.1002/jcp.21355 18181169
+L321: 47. Uemura M. 
+L322:  Manabe H. 
+L323:  Yoshida N. 
+L324:  Fujita N. 
+L325:  Ochiai J. 
+L326:  Matsumoto N. 
+L327:  Takagi T. 
+L328:  Naito Y. 
+L329:  Yoshikawa T. 
+L330:  α-Tocopherol prevents apoptosis of vascular endothelial cells via a mechanism exceeding that of mere antioxidation Eur. J. Pharmacol. 2002 456 29 37 10.1016/S0014-2999(02)02639-0 12450566
+L331: 48. Nakamura Y.K. 
+L332:  Omaye S.T. 
+L333:  α-Tocopherol modulates human umbilical vein endothelial cell expression of Cu/Zn superoxide dismutase and catalase and lipid peroxidation Nutr. Res. 2008 28 671 680 10.1016/j.nutres.2008.07.002 19083475
+L334: 49. Wallert M. 
+L335:  Schmölz L. 
+L336:  Galli F. 
+L337:  Birringer M. 
+L338:  Lorkowski S. 
+L339:  Regulatory metabolites of vitamin E and their putative relevance for atherogenesis Redox Biol. 2014 2 495 503 10.1016/j.redox.2014.02.002 24624339
+L340: 50. Brigelius-Flohé R. 
+L341:  Vitamin E research: Past, now and future Free Radic. Biol. Med. 2021 177 381 390 10.1016/j.freeradbiomed.2021.10.029 34756995
+L342: 51. Tang F. 
+L343:  Lu M. 
+L344:  Zhang S. 
+L345:  Mei M. 
+L346:  Wang T. 
+L347:  Liu P. 
+L348:  Wang H. 
+L349:  Vitamin E Conditionally Inhibits Atherosclerosis in ApoE Knockout Mice by Anti-oxidation and Regulation of Vasculature Gene Expressions Lipids 2014 49 1215 1223 10.1007/s11745-014-3962-z 25385496
+L350: 52. Boscoboinik D. 
+L351:  Szewczyk A. 
+L352:  Hensey C. 
+L353:  Azzi A. 
+L354:  Inhibition of cell proliferation by alpha-tocopherol. Role of protein kinase C J. Biol. Chem. 1991 266 6188 6194 2007576
+L355: 53. Chatelain E. 
+L356:  Boscoboinik D.O. 
+L357:  Bartoli G.-M. 
+L358:  Kagan V.E. 
+L359:  Gey F.K. 
+L360:  Packer L. 
+L361:  Azzi A. 
+L362:  Inhibition of smooth muscle cell proliferation and protein kinase C activity by tocopherols and tocotrienols Biochim. Biophys. Acta (BBA)—Mol. Cell Res. 1993 1176 83 89 10.1016/0167-4889(93)90181-N
+L363: 54. Tran K. 
+L364:  Proulx P.R. 
+L365:  Chan A.C. 
+L366:  Vitamin E suppresses diacylglycerol (DAG) level in thrombin-stimulated endothelial cells through an increase of DAG kinase activity Biochim. Biophys. Acta (BBA)—Lipids Lipid Metab. 1994 1212 193 202 10.1016/0005-2760(94)90253-4
+L367: 55. Hashemi Z. 
+L368:  Sharifi N. 
+L369:  Khani B. 
+L370:  Aghadavod E. 
+L371:  Asemi Z. 
+L372:  The effects of vitamin E supplementation on endometrial thickness, and gene expression of vascular endothelial growth factor and inflammatory cytokines among women with implantation failure J. Matern.—Fetal Neonatal Med. 2019 32 95 102 10.1080/14767058.2017.1372413 28847198
+L373: 56. Villacorta L. 
+L374:  GraçA-Souza A.V. 
+L375:  Ricciarelli R. 
+L376:  Zingg J.-M. 
+L377:  Azzi A. 
+L378:  α-Tocopherol Induces Expression of Connective Tissue Growth Factor and Antagonizes Tumor Necrosis Factor-α–Mediated Downregulation in Human Smooth Muscle Cells Circ. Res. 2003 92 104 110 10.1161/01.RES.0000049103.38175.1B 12522127
+L379: 57. Chin J.H. 
+L380:  Azhar S. 
+L381:  Hoffman B.B. 
+L382:  Inactivation of endothelial derived relaxing factor by oxidized lipoproteins J. Clin. Investig. 1992 89 10 18 10.1172/JCI115549 1309534
+L383: 58. Cachia O. 
+L384:  Benna J.E. 
+L385:  Pedruzzi E. 
+L386:  Descomps B. 
+L387:  Gougerot-Pocidalo M.-A. 
+L388:  Leger C.-L. 
+L389:  α-Tocopherol Inhibits the Respiratory Burst in Human Monocytes J. Biol. Chem. 1998 273 32801 32805 10.1074/jbc.273.49.32801 9830025
+L390: 59. Munteanu A. 
+L391:  Taddei M. 
+L392:  Tamburini I. 
+L393:  Bergamini E. 
+L394:  Azzi A. 
+L395:  Zingg J.-M. 
+L396:  Antagonistic Effects of Oxidized Low Density Lipoprotein and α-Tocopherol on CD36 Scavenger Receptor Expression in Monocytes J. Biol. Chem. 2006 281 6489 6497 10.1074/jbc.M508799200 16407258
+L397: 60. Zingg J.-M. 
+L398:  Libinaki R. 
+L399:  Meydani M. 
+L400:  Azzi A. 
+L401:  Modulation of phosphorylation of tocopherol and phosphatidylinositol by hTAP1/SEC14L2-mediated lipid exchange PLoS ONE 2014 9 e101550 10.1371/journal.pone.0101550 24983950
+L402: 61. Sampath H. 
+L403:  Ntambi J.M. 
+L404:  Polyunsaturated Fatty Acid Regulation of Genes of Lipid Metabolism Annu. Rev. Nutr. 2005 25 317 340 10.1146/annurev.nutr.25.051804.101917 16011470
+L405: 62. Negis Y. 
+L406:  Zingg J.M. 
+L407:  Ogru E. 
+L408:  Gianello R. 
+L409:  Libinaki R. 
+L410:  Azzi A. 
+L411:  On the existence of cellular tocopheryl phosphate, its synthesis, degradation and cellular roles: A hypothesis IUBMB Life 2005 57 23 25 10.1080/15216540500058980 16036558
+L412: 63. Zingg J.-M. 
+L413:  Libinaki R. 
+L414:  Lai C.-Q. 
+L415:  Meydani M. 
+L416:  Gianello R. 
+L417:  Ogru E. 
+L418:  Azzi A. 
+L419:  Modulation of gene expression by α-tocopherol and α-tocopheryl phosphate in THP-1 monocytes Free Radic. Biol. Med. 2010 49 1989 2000 10.1016/j.freeradbiomed.2010.09.034 20923704
+L420: 64. Zingg J.-M. 
+L421:  Azzi A. 
+L422:  Meydani M. 
+L423:  Induction of VEGF Expression by Alpha-Tocopherol and Alpha-Tocopheryl Phosphate via PI3Kγ/PKB and hTAP1/SEC14L2-Mediated Lipid Exchange J. Cell. Biochem. 2015 116 398 407 10.1002/jcb.24988 25290554
+L424: 65. Sluimer J.C. 
+L425:  Gasc J.-M. 
+L426:  van Wanroij J. 
+L427:  Kisters N. 
+L428:  Groeneweg M. 
+L429:  Sollewijn Gelpke M.D. 
+L430:  Cleutjens J.P. 
+L431:  van den Akker L.H. 
+L432:  Corvol P. 
+L433:  Wouters B.G. 
+L434:  
+L435:  Hypoxia, Hypoxia-Inducible Transcription Factor, and Macrophages in Human Atherosclerotic Plaques Are Correlated with Intraplaque Angiogenesis J. Am. Coll. Cardiol. 2008 51 1258 1265 10.1016/j.jacc.2007.12.025 18371555
+L436: 66. Zhu R. 
+L437:  Hu Y. 
+L438:  Tang L. 
+L439:  Reduced cardiac function and risk of venous thromboembolism in Asian countries Thromb. J. 2017 15 12 10.1186/s12959-017-0135-3 28450810
+L440: 67. Glynn R.J. 
+L441:  Ridker P.M. 
+L442:  Goldhaber S.Z. 
+L443:  Zee R.Y.L. 
+L444:  Buring J.E. 
+L445:  Effects of Random Allocation to Vitamin E Supplementation on the Occurrence of Venous Thromboembolism Circulation 2007 116 1497 1503 10.1161/CIRCULATIONAHA.107.716407 17846285
+L446: 68. Murohara T. 
+L447:  Ikeda H. 
+L448:  Otsuka Y. 
+L449:  Aoki M. 
+L450:  Haramaki N. 
+L451:  Katoh A. 
+L452:  Takajo Y. 
+L453:  Imaizumi T. 
+L454:  Inhibition of Platelet Adherence to Mononuclear Cells by α-Tocopherol Circulation 2004 110 141 148 10.1161/01.CIR.0000134485.30393.63 15197142
+L455: 69. Martin A. 
+L456:  Foxall T. 
+L457:  Blumberg J.B. 
+L458:  Meydani M. 
+L459:  Vitamin E Inhibits Low-Density Lipoprotein Induced Adhesion of Monocytes to Human Aortic Endothelial Cells In Vitro Arterioscler. Thromb. Vasc. Biol. 1997 17 429 436 10.1161/01.ATV.17.3.429 9102160
+L460: 70. Islam K.N. 
+L461:  Devaraj S. 
+L462:  Jialal I. 
+L463:  α-Tocopherol Enrichment of Monocytes Decreases Agonist-Induced Adhesion to Human Endothelial Cells Circulation 1998 98 2255 2261 10.1161/01.CIR.98.21.2255 9826311
+L464: 71. Qureshi A.A. 
+L465:  Peterson D.M. 
+L466:  Hasler-Rapacz J.O. 
+L467:  Rapacz J. 
+L468:  Novel Tocotrienols of Rice Bran Suppress Cholesterogenesis in Hereditary Hypercholesterolemic Swine J. Nutr. 2001 131 223 230 10.1093/jn/131.2.223 11160537
+L469: 72. Miller G.J. 
+L470:  Lipoproteins and the haemostatic system in atherothrombotic disorders Baillière’s Clin. Haematol. 1994 7 713 732 10.1016/S0950-3536(05)80105-2 7841607
+L471: 73. Davì G. 
+L472:  Ganci A. 
+L473:  Averna M. 
+L474:  Giammarresi C. 
+L475:  Barbagallo C. 
+L476:  Catalano I. 
+L477:  Calà A. 
+L478:  Notarbartolo A. 
+L479:  Thromboxane biosynthesis, neutrophil and coagulative activation in type IIa hypercholesterolemia Thromb. Haemost. 1995 74 1015 1019 10.1055/s-0038-1649871 8560403
+L480: 74. Rota S. 
+L481:  McWilliam N.A. 
+L482:  Baglin T.P. 
+L483:  Byrne C.D. 
+L484:  Atherogenic Lipoproteins Support Assembly of the Prothrombinase Complex and Thrombin Generation: Modulation by Oxidation and Vitamin E Blood 1998 91 508 515 10.1182/blood.V91.2.508 9427704
+L485: 75. Galli F. 
+L486:  Azzi A. 
+L487:  Birringer M. 
+L488:  Cook-Mills J.M. 
+L489:  Eggersdorfer M. 
+L490:  Frank J. 
+L491:  Cruciani G. 
+L492:  Lorkowski S. 
+L493:  Özer N.K. 
+L494:  Vitamin E: Emerging aspects and new directions Free Radic. Biol. Med. 2017 102 16 36 10.1016/j.freeradbiomed.2016.09.017 27816611
+L495: 76. Nicastro H. 
+L496:  Dunn B. 
+L497:  Selenium and Prostate Cancer Prevention: Insights from the Selenium and Vitamin E Cancer Prevention Trial (SELECT) Nutrients 2013 5 1122 1148 10.3390/nu5041122 23552052
+L498: 77. Miller E.R. 
+L499:  Pastor-Barriuso R. 
+L500:  Dalal D. 
+L501:  Riemersma R.A. 
+L502:  Appel L.J. 
+L503:  Guallar E. 
+L504:  Meta-Analysis: High-Dosage Vitamin E Supplementation May Increase All-Cause Mortality Ann. Intern. Med. 2005 142 37 46 10.7326/0003-4819-142-1-200501040-00110 15537682
+L505: 78. Waters D.D. 
+L506:  Alderman E.L. 
+L507:  Hsia J. 
+L508:  Howard B.V. 
+L509:  Cobb F.R. 
+L510:  Rogers W.J. 
+L511:  Ouyang P. 
+L512:  Thompson P. 
+L513:  Tardif J.C. 
+L514:  Higginson L. 
+L515:  
+L516:  Effects of Hormone Replacement Therapy and Antioxidant Vitamin Supplements on Coronary Atherosclerosis in Postmenopausal WomenA Randomized Controlled Trial JAMA 2002 288 2432 2440 10.1001/jama.288.19.2432 12435256
+L517: 79. Dowd P. 
+L518:  Zheng Z.B. 
+L519:  On the mechanism of the anticlotting action of vitamin E quinone Proc. Natl. Acad. Sci. USA 1995 92 8171 8175 10.1073/pnas.92.18.8171 7667263
+L520: 80. van Haaften R.I.M. 
+L521:  Haenen G.R.M.M. 
+L522:  van Bladeren P.J. 
+L523:  Bogaards J.J.P. 
+L524:  Evelo C.T.A. 
+L525:  Bast A. 
+L526:  Inhibition of various glutathione S-transferase isoenzymes by RRR-α-tocopherol Toxicol. Vitr. 2003 17 245 251 10.1016/S0887-2333(03)00038-9
+L527: 81. Alpha-Tocopherol Beta Carotene Cancer Prevention Study Group 
+L528:  The Effect of Vitamin E and Beta Carotene on the Incidence of Lung Cancer and Other Cancers in Male Smokers N. Engl. J. Med. 1994 330 1029 1035 10.1056/NEJM199404143301501 8127329
+L529: 82. Abudu N. 
+L530:  Miller J.J. 
+L531:  Attaelmannan M. 
+L532:  Levinson S. 
+L533:  Vitamins in human arteriosclerosis with emphasis on vitamin C and vitamin E Clin. Chim. Acta 2004 339 11 25 10.1016/j.cccn.2003.09.018 14687889
+[26ms]
+

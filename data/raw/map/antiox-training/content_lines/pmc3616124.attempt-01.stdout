@@ -1,0 +1,419 @@
+L1: Haptoglobin Phenotype, Preeclampsia Risk and the Efficacy of Vitamin C and E Supplementation to Prevent Preeclampsia in a Racially Diverse Population
+L2: PLoS ONE (2013)
+L3: Tracey L. Weissgerber, Robin E. Gandley, Paula L. McGee, Catherine Y. Spong, Leslie Myatt, Kenneth J. Leveno, John M. Thorp, Brian M. Mercer, Alan M. Peaceman, Susan M. Ramin, Marshall W. Carpenter, Philip Samuels, Anthony Sciscione, Margaret Harper, Jorge E. Tolosa, George Saade, Yoram Sorokin
+L4: 1 
+L5:  Division of Nephrology and Hypertension, Mayo Clinic, Rochester, Minnesota, United States of America
+L6: 2 
+L7:  Department of Obstetrics, Gynecology and Reproductive Science, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America
+L8: 3 
+L9:  The George Washington University Biostatistics Center, Washington, DC, United States of America
+L10: 4 
+L11:  The Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda, Maryland, United States of America
+L12: Department of Obstetrics and Gynecology of University of Cincinnati, Cincinnati, Ohio, United States of America
+L13: 6 
+L14:  University of Texas Southwestern Medical Center, Dallas, Texas, United States of America
+L15: 7 
+L16:  University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States of America
+L17: 8 
+L18:  Case Western Reserve University-MetroHealth Medical Center, Cleveland, Ohio, United States of America
+L19: 9 
+L20:  Northwestern University, Chicago, Illinois, United States of America
+L21: 10 
+L22:  University of Texas Health Science Center at Houston-Children’s Memorial Hermann Hospital, Houston, Texas, United States of America
+L23: 11 
+L24:  Brown University, Providence, Rhode Island, United States of America
+L25: 12 
+L26:  The Ohio State University, Columbus, Ohio, United States of America
+L27: 13 
+L28:  Drexel University, Philadelphia, Pennsylvania, United States of America
+L29: 14 
+L30:  Wake Forest University Health Sciences, Winston-Salem, North Carolina, United States of America
+L31: 15 
+L32:  Oregon Health and Science University, Portland, Oregon, United States of America
+L33: 16 
+L34:  University of Texas Medical Branch, Galveston, Texas, United States of America
+L35: 17 
+L36:  Wayne State University, Detroit, Michigan, United States of America
+L37: VU University Medical Center, The Netherlands
+L38: Haptoglobin’s (Hp) antioxidant and pro-angiogenic properties differ between the 1-1, 2-1, and 2-2 phenotypes. Hp phenotype affects cardiovascular disease risk and treatment response to antioxidant vitamins in some non-pregnant populations. We previously demonstrated that preeclampsia risk was doubled in white Hp 2-1 women, compared to Hp 1-1 women. Our objectives were to determine whether we could reproduce this finding in a larger cohort, and to determine whether Hp phenotype influences lack of efficacy of antioxidant vitamins in preventing preeclampsia and serious complications of pregnancy-associated hypertension (PAH). This is a secondary analysis of a randomized controlled trial in which 10,154 low-risk women received daily vitamin C and E, or placebo, from 9-16 weeks gestation until delivery. Hp phenotype was determined in the study prediction cohort (n = 2,393) and a case-control cohort (703 cases, 1,406 controls). The primary outcome was severe PAH, or mild or severe PAH with elevated liver enzymes, elevated serum creatinine, thrombocytopenia, eclampsia, fetal growth restriction, medically indicated preterm birth or perinatal death. Preeclampsia was a secondary outcome. Odds ratios were estimated by logistic regression. Sampling weights were used to reduce bias from an overrepresentation of women with preeclampsia or the primary outcome. There was no relationship between Hp phenotype and the primary outcome or preeclampsia in Hispanic, white/other or black women. Vitamin supplementation did not reduce the risk of the primary outcome or preeclampsia in women of any phenotype. Supplementation increased preeclampsia risk (odds ratio 3.30; 95% confidence interval 1.61–6.82, p<0.01) in Hispanic Hp 2-2 women. Hp phenotype does not influence preeclampsia risk, or identify a subset of women who may benefit from vitamin C and E supplementation to prevent preeclampsia.
+L39: Research Article; Biology; Biochemistry; Blood Chemistry; Genetics; Heredity; Phenotypes; Biochemistry; Blood Chemistry; Blood Chemistry; Genetics; Heredity; Phenotypes; Heredity; Phenotypes; Phenotypes; Medicine; Non-Clinical Medicine; Health Care Policy; Ethnic Differences; Health Risk Analysis; Obstetrics and Gynecology; Pregnancy; Hypertensive Disorders in Pregnancy; Non-Clinical Medicine; Health Care Policy; Ethnic Differences; Health Risk Analysis; Health Care Policy; Ethnic Differences; Health Risk Analysis; Ethnic Differences; Health Risk Analysis; Obstetrics and Gynecology; Pregnancy; Hypertensive Disorders in Pregnancy; Pregnancy; Hypertensive Disorders in Pregnancy; Hypertensive Disorders in Pregnancy
+L40: Introduction
+L41: Preeclampsia affects 2–7% of pregnancies  [1] ,  [2] . Diagnosed as new onset hypertension and proteinuria after 20 weeks gestation  [1] ,  [2] , preeclampsia is a leading cause of maternal  [3]  and fetal  [4]  morbidity and mortality. Oxidative stress (including low antioxidant levels) and angiogenic imbalance are believed to contribute to preeclampsia  [5] ,  [6] ,  [7] . No intervention has been proven to prevent preeclampsia. Vitamin C and E lowered preeclampsia incidence by 60% in a pilot randomized controlled trial (RCT) in high-risk women  [8] . Unfortunately, this effect was not confirmed in subsequent RCTs involving high  [9] ,  [10] ,  [11] ,  [12] ,  [13]  or low-risk women  [13] ,  [14] ,  [15] . Although the discordant effects in large and small populations are likely due to reduced power in small studies, differences might also be explained by increased heterogeneity in large multicenter studies obscuring a responsive subset of women.
+L42: The phenotype of the antioxidant  [16]  and pro-angiogenic  [17]  protein haptoglobin (Hp) predicts cardiovascular disease risk, and responsiveness to Vitamin E  [18] ,  [19] ,  [20]  or C and E  [21]  in some non-pregnant populations. We examined whether Hp phenotype might influence preeclampsia risk, or identify a subset of women who responded to vitamin supplementation. Hp stimulates angiogenesis  [17]  and acts as a powerful antioxidant by clearing free hemoglobin following hemolysis  [16] . Hp’s two different α alleles (α 1 , α 2 ) give rise to three genetically determined phenotypes (1-1, 2-1 and 2-2)  [16] . Size and structural differences ( Figure 1 ) lead to functional differences between phenotypes  [16] . Hp 1-1 is a stronger antioxidant  [16] , whereas Hp 2-2 is more angiogenic  [17] . Less is known about the function of Hp 2-1, a highly variable heterodimer which is not commercially available. Hp 2-1 individuals have no Hp 2-2, very little Hp 1-1, and large amounts of the 2-1 forms which are structurally very different from Hp 1-1 or 2-2  [16] .
+L43: Figure 1 Hp phenotypes by Native and SDS PAGE. Panel A: Hp phenotyping of Hb-supplemented serum by Native PAGE on a 6% gel. Hp 2-2 (Lane 1) is a heterodimer with a series of slow moving bands. Hp 1-1 (Lane 4) is a homodimer with one fast moving band. Hp 2-1 (Lanes 2, 3, 5) has a band between the Hb/Hp 1-1 and Hb/Hp 2-2 bands, and several slow-moving bands in the same region as the Hb/Hp 2-2 bands. Panel B: In the rare Hp 2-1 M phenotype, a modification of the Hp α 2  allele leads to overproduction of the fast migrating Hp 1-1 band, relative to the slower migrating Hp 2-1 bands. This results in a stronger Hb/Hp 1-1 band, and weaker Hb/Hp 2-1 bands, than in Hp 2-1. Panel C: Hp phenotyping of serum by SDS PAGE on a 12% gel. The Hp β band is common to all phenotyes. The presence of the Hp 1 and 2 alleles is indicated by the α 1  and α 2  bands, respectively.
+L44: We chose to examine Hp phenotype and preeclampsia for three reasons. First, Hp’s antioxidant and pro-angiogenic properties depend on phenotype  [17] ,  [22] ,  [23] . Oxidative stress and reduced angiogenesis contribute to preeclampsia  [5] ,  [6] . In our recent case-control study, Hp 2-1 was associated with increased preeclampsia risk in non-hispanic white women, but not in black women  [24] . We sought to confirm these findings in a larger cohort while extending the existing literature to include Hispanics. Second, any potential effect of Hp phenotype on preeclampsia risk or treatment response would affect a significant number of women. Hp 1-1, 2-1 and 2-2 are all common in whites, blacks and Hispanics (prevalences of 16%-50%)  [25] . Third, Hp phenotype predicts cardiovascular disease risk, and responsiveness to Vitamin E  [18] ,  [19] ,  [20]  or C and E  [21]  in other non-pregnant populations. Hp 2-2 diabetics are twice as likely to have a cardiovascular event as Hp 1-1 and 2-1 diabetics  [18] ,  [21] ,  [26] . Vitamin E supplementation eliminates this increased risk in Hp 2-2 diabetics, but has no effect in Hp 1-1 or 2-1 diabetics  [18] ,  [19] ,  [27] . In contrast, Vitamin C may be harmful in Hp 2-2 diabetics as oxidation of Vitamin C may exacerbate pre-existing oxidative stress  [28] . In post-menopausal women with coronary artery disease, Vitamin C and E decreased coronary artery diameter in Hp 2-2 diabetic women  [21] . This harmful effect was not universal, as Vitamin C and E benefited Hp 1-1 women by significantly increasing coronary artery diameter  [21] .
+L45: We sought to determine whether Hp phenotype was associated with serious complications of pregnancy-associated hypertension (PAH) or preeclampsia in white, black or Hispanic women. We also examined whether Hp phenotype might influence responsiveness to antioxidant vitamins in preventing preeclampsia. Based on our previous findings, we hypothesized that Hp 2-1 would be associated with increased preeclampsia risk in white women, but not in black women. We also posited that phenotype would affect treatment response although directionality was difficult to predict based upon data from non-pregnant populations.
+L46: Materials and Methods
+L47: Population
+L48: This was a secondary analysis of a  Eunice Kennedy Shriver  National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network double-blind, multicenter RCT (NCT 00135707) in which 10,154 nulliparous, low risk women received daily doses of 400 IU of vitamin E and 1000 mg of vitamin C, or placebo, from 9-16 weeks gestation until delivery. The trial was conducted at 16 centers in the US between 2003 and 2008. Full details of the study were reported previously  [14] . The trial was conducted in accordance with the Declaration of Helsinki of the World Medical Association. All subjects provided written, informed consent before participating. Hp phenotyping was performed at the University of Pittsburgh (Institutional Review Board approval PRO10010368).
+L49: Outcomes
+L50: The primary outcome was severe PAH, or mild or severe PAH with elevated liver enzymes (aspartate aminotransferase ≥100 U per liter), elevated serum creatinine (≥1.5 mg/dl), thrombocytopenia (<100,000 platelets/mm 3 ), eclampsia, fetal growth restriction (<3 rd  centile adjusted for sex and race/ethnicity), medically indicated preterm birth before 32 weeks due to PAH, or fetal death after 20 weeks gestation, or neonatal death. Hypertension was diagnosed using blood pressure measurements obtained during or after 20 weeks gestation, excluding intraoperative and intrapartum systolic blood pressures. Severe PAH was defined as a systolic blood pressure of 160 mm Hg or more, or a diastolic blood pressure of 110 mm Hg or more on two occasions 2 to 240 hours apart, or a single severely elevated blood pressure measurement that led to treatment with antihypertensive medication. Mild PAH was defined as systolic pressure between 140 and 159 mm Hg or a diastolic pressure between 90 mm Hg and 109 mm Hg on two occasions 2 to 240 hours apart. Mild preeclampsia was defined as mild PAH with proteinuria documented within the 3 days preceding or following the elevated blood pressure measurement. Proteinuria was defined as protein excretion ≥300 mg/24 hours, a dipstick urinary protein ≥2+, or protein:creatinine ≥0.35 in the absence of a 24-hour urine sample. Early onset preeclampsia was defined as preeclampsia requiring delivery before 37 weeks gestation. Severe preeclampsia was defined as preeclampsia with either severe PAH or protein excretion  3 5 g/24 hours, or as mild PAH with oliguria (<500 ml urine/24 hours), pulmonary edema (confirmed by radiography), or thrombocytopenia (<100,000 platelets/mm 3 ).
+L51: Design
+L52: The RCT included 10,154 women, of whom 2,434 were enrolled in a nested prediction cohort. The RCT design specified that secondary analyses requiring blood be conducted in the prediction cohort, as these women consented to extra blood collection for prediction and pathophysiology studies. If additional subjects were required, investigators could obtain samples from the 7,720 women not in the prediction cohort, in whom very little blood was collected. We needed samples from all white, black, and Hispanic women with preeclampsia in the RCT to detect a 2-fold increase in preeclampsia risk in Hp 2-1, compared to Hp 1-1, in each racial group (α = 0.05; Power: 83% white, 96% black, 98% Hispanic). We determined Hp phenotype in the prediction cohort; then added a case-control cohort composed of women who were not in the prediction cohort. The case-control cohort allowed us to capture all cases without phenotyping 5,500 additional controls. Cases in the case-control cohort included all women with preeclampsia, the primary outcome, or both (n = 703 cases) who were not in the prediction cohort. We selected 2 controls per case (n = 1,406)  [29] , matched for center and race/ethnicity ( Figure 2 ).
+L53: Figure 2 Study Flow Chart. Subjects lost to follow-up include 183 women who miscarried, one subject whose data were removed at the patient’s request, and one subject whose data were removed at the institutional review board’s request.
+L54: Hp Phenotyping
+L55: Hp phenotyping was performed as described previously  [24] ,  [30] . Serum samples (5 µl) supplemented with human hemoglobin (Sigma-Aldrich, St. Louis, MO) were phenotyped by hemoglobin-Hp complex peroxidase activity on native polyacrylamide gel electrophoresis (PAGE). Hemolyzed samples and samples with low Hp concentrations were phenotyped by Western blot following sodium dodecyl sulfate (SDS) PAGE of 1 to 6 µl of serum. Proteins from native and SDS gels were transferred to a polyvinylidene fluoride (PVDF) membrane (Millipore, Billerica, MA). SDS PAGE was followed by Western blotting with primary (1∶5,000, Polyclonal Rabbit Anti-Human Haptoglobin, DakoCytomation, Carpinteria, CA) and secondary (1∶25,000, Goat anti-Rabbit IgG horseradish peroxidase, Millipore) antibodies. Membranes were stained for peroxidase activity (SuperSignal West Pico Chemiluminescent Substrate, Fisher Scientific, Pittsburgh, PA) and imaged (FlouroChem Q System, Cell Biosciences, Santa Clara, CA). Hp phenotypes were identified by banding patterns of the Hp-hemoglobin complexes (native PAGE,  Figure 1 ) or the Hp α 1  and α 2  alleles (SDS PAGE).
+L56: Plasma Ascorbate
+L57: Blood was collected in vials containing metaphosphoric acid, and frozen at −80 C  [31] . Plasma ascorbic acid was measured by high performance liquid chromatography in the Molecular Epidemiology and Biomarker Laboratory (University of Minnesota) as described previously  [31] .
+L58: Statistical Analysis
+L59: The prediction and case-control cohorts were analyzed separately (statistical methods in  Data S1 ); then pooled to maximize power. In the pooled analysis, sampling weights were applied to reduce potential bias arising from an overrepresentation of women with the primary outcome (but not preeclampsia) in the control group for preeclampsia analyses, and an oversampling of women with preeclampsia (but not the primary outcome) in the control group for primary outcome analyses. Patients from the prediction cohort were assigned a weight of one. Cases and controls were assigned a sample weight defined as the inverse of their probability of selection  [32] . Sample weights included a post-stratification adjustment for race/ethnicity. Baseline characteristics were compared using the t-test for continuous variables and the Rao-Scott chi-square test  [33]  for categorical variables. Logistic regression models were constructed to assess the multivariable association between Hp phenotype and the incidence of each outcome, adjusting for variables that were associated with Hp phenotype in univariate analyses. Odds ratios and 95% confidence intervals were estimated from unconditional survey logistic regression models. Taylor series replicate weights were created to estimate standard errors and p values in the weighted analyses. Model covariates included randomization group, and demographic variables that differed between women with the Hp 1-1, 2-1 and 2-2 phenotypes (age, self-reported vitamin use, education level, diastolic blood pressure at screening). The weighted analysis gave similar results to an unweighted analysis (i.e. samples were not weighted by the post-stratification sample weights; data not shown). Results were considered to be statistically significant at α = 0.05 with no adjustment for multiple comparisons  [34] . All p values are 2-sided. SAS Version 9.2 (SAS Institute Inc.) and STATA (StataCorp, 2011  Stata Statistical Software: Release 12 , College Station, TX, StataCorp LP), using procedures appropriate for sample-weighted data, were used for all analyses.
+L60: Results
+L61: Cohorts
+L62: We phenotyped 2,393 of the 2,434 women in the prediction cohort ( Figure 2 ), excluding 40 women who miscarried, and one who had no samples collected. The case-control cohort included all remaining subjects who developed the primary outcome only (severe PAH, or mild or severe PAH with elevated liver enzymes, elevated serum creatinine, thrombocytopenia, eclampsia, fetal growth restriction, medically indicated preterm birth or perinatal death) (n = 190), preeclampsia only (n = 280), or the primary outcome and preeclampsia (n = 233), and 1,406 controls matched for center and race/ethnicity. Women in the prediction cohort entered the study at an earlier gestational age (11.4±1.1) than women in the case-control cohort (14.0±2.0). Results of separate analyses for the prediction ( Data S1 ;  Tables S1 ,  S2 ) and case-control cohorts ( Data S1 ;  Tables S3 ,  S4 ,  S5 ,  S6 ,  S7 ) are presented in  Data S1 . Results for the pooled cohort are described below.
+L63: Subjects
+L64: The pooled dataset included 1,008 Hp 1-1, 2,129 Hp 2-1 and 1,261 Hp 2-2 women. Ninety-six women had the rare 2-1 M phenotype, which results from a modification of the α 2  allele  [16] . These women were excluded from subsequent analyses. There were 1,840 white women, 1,392 black women, 1,188 Hispanic women, and 74 women of “Other” race.
+L65: Weighting
+L66: The weighted sample included 2,201 Hp 1-1 women, 4,840 Hp 2-1 women, 2,760 Hp 2-2 women, and 146 Hp 2-1 M women. The weighted cohort accurately reproduced the demographic characteristics of the original sample ( Table S8 ). Demographic characteristics in the weighted cohort were not significantly different between the placebo and vitamin groups.
+L67: Subject Characteristics
+L68: As expected, race/ethnicity differed between women with the Hp 1-1, 2-1, 2-2 and 2-1 M phenotypes ( Table 1 ). The phenotype distribution for each race/ethnicity was similar to previous reports ( Table 1 ,  S9 )  [25] . Hp phenotype groups did not differ with respect to pre-pregnancy BMI, blood pressure at randomization, smoking, history of a previous pregnancy, or family history of preeclampsia ( Table 1 ). Subsequent analyses were adjusted for characteristics that differed between the Hp 1-1, 2-1 and 2-2 groups (race/ethnicity, age, education, vitamin use). Analyses were also adjusted for diastolic blood pressure at randomization, which differed between phenotype groups in the prediction cohort ( Table S10 ) but not in the pooled cohort. The white and other groups were pooled for race/ethnicity adjustments, as phenotype prevalence in the other group was most similar to whites ( Table S9 ).
+L69: Table 1 Subject Characteristics for the Weighted Pooled Cohort by Hp phenotype.
+L70: Primary Outcome and Preeclampsia Risk
+L71: Hp phenotype was not significantly associated with the risk of the primary outcome, preeclampsia, severe preeclampsia, or early onset preeclampsia in white/other, Hispanic or black women ( Table 2 ). Women of “other” race comprised 4% of the white/other group, and results were not different when these women were excluded (data not shown). The relationship between Hp phenotype on early onset preeclampsia approached statistical significance (p = 0.06) in Hispanics.
+L72: Table 2 Outcomes according to race/ethnicity and Hp phenotype in the weighted pooled cohort.
+L73: Treatment Response
+L74: Vitamin C and E supplementation did not prevent the primary outcome or any form of preeclampsia among white/other, black or Hispanic women of any Hp phenotype after adjusting for vitamin use, age, education, and diastolic blood pressure at randomization (data not shown).
+L75: In Hispanics, the effect of vitamin supplementation differed between Hp phenotype groups for preeclampsia (Hp phenotype*treatment group: p<0.01) and late onset preeclampsia (p = 0.02), but not for severe (p = 0.06) or early onset preeclampsia (p = 0.10). Vitamin supplementation significantly increased preeclampsia (odds ratio (OR) 3.30; 95% confidence interval (CI) 1.61-6.82, p<0.01,  Table 3 ) and late onset preeclampsia risk (3.01; 1.38-6.57, p<0.01) in Hispanic Hp 2-2 women. This adverse effect was not seen in Hp 1-1 or 2-1 Hispanics (p>0.05), or in white/other or black women of any phenotype.
+L76: Table 3 Odds ratios for effect of treatment in Hispanic women in the weighted pooled cohort.
+L77: Increased preeclampsia risk in Hispanic Hp 2-2 women was specific to the large quantities of vitamins C and E in study supplements. Prenatal/multivitamin use at randomization was not associated with an increased risk of preeclampsia (2.17; 0.53-8.71, p = 0.27) or late onset preeclampsia (2.85; 0.57–14.36, p = 0.20) in Hispanic Hp 2-2 women receiving placebo. Low rates of prenatal/multivitamin use at randomization (43% in Hispanics vs. 91% in non-Hispanics,  Table S10 ) are unlikely to explain why the adverse effect of supplementation in Hp 2-2 women was only seen in Hispanics. Hispanic 2-2 women who were not taking prenatal vitamins at randomization had a smaller increase in preeclampsia risk with supplementation than Hispanic 2-2 women who were taking prenatal vitamins at randomization (2.01; 0.80–5.01, p = 0.14 vs. 7.83; 2.01–30.53, p<0.01,  Table 4 ).
+L78: Table 4 Odds ratios for treatment effect in Hispanic Hp 2-2 women according to prenatal/multivitamin use at randomization.
+L79: Hp Phenotype, Prenatal/Multivitamin Use at Randomization, and Plasma Ascorbate
+L80: Hp phenotype influences plasma ascorbate concentration  [35] , providing a potential mechanism by which Hp phenotype might influence treatment response to vitamin C and E. We examined the relationship between Hp phenotype and plasma ascorbate in a pre-planned analysis. Plasma ascorbate was measured at the pre-randomization screening visit in 264 women with known Hp phenotypes. Plasma ascorbate was lower in women who were not taking a prenatal/multivitamin at randomization (n = 34) compared to those who were (n = 230) (p = 0.02 for main effect,  Table 5 ). Statistical comparisons within phenotype groups were not conducted, as the number of women who were not taking prenatal/multivitamins at randomization within each phenotype group was very small. Hp phenotype was not significantly associated with plasma ascorbate (p = 0.73). The interaction between Hp phenotype and vitamin use at randomization was not significant (p = 0.32). Plasma ascorbate was only measured in six Hispanic Hp 2-2 women; therefore we could not determine whether supplementation had a different effect on plasma ascorbate in this group.
+L81: Table 5 Plasma ascorbate concentrations according to Hp phenotype and prenatal/multivitamin use at randomization.
+L82: Discussion
+L83: Hp phenotype was not associated with the risk of the primary outcome (a composite of PAH and serious adverse outcomes in the mother, her fetus or neonate) or any type of preeclampsia in white, black or Hispanic women. Moreover, daily vitamin C and E supplementation did not prevent the primary outcome or preeclampsia in women of any Hp phenotype. Supplementation increased the risk of preeclampsia and late onset preeclampsia by 3-fold in Hispanic Hp 2-2 women.
+L84: Hp Phenotype and the Risk of Preeclampsia and Serious Complications of PAH
+L85: We found no relationship between Hp phenotype and the primary outcome or preeclampsia risk in white, black or Hispanic women. This study has two key strengths. First, it extends the existing literature by including large numbers of black and Hispanic women. Previous studies focused on predominantly white, non-Hispanic women  [24] , [36] , [37] , [38] . Studies examining the relationship between Hp phenotype and preeclampsia risk in different racial groups were recently recommended  [39] . Second, this is the largest study of non-Hispanic white women completed to date, and was adequately powered to detect the difference that we observed in our previous case-control study  [24] . This is particularly important, as the heterogeneous results and small sample sizes of previous European studies suggests that spurious findings may be common. At the time we initiated this investigation, two small, underpowered European studies had reported that preeclampsia risk was not different  [38]  or increased  [36]  in Hp 1-1 white women. Adequately powered studies  [39] , and studies in North American women, were needed. An Israeli study subsequently reported a 50% reduction in preeclampsia risk among Hp 1-1 women, compared to Hp 2-1 and 2-2  [24] ,  [30] ,  [37] . Our larger case-control study suggested that Hp 1-1 was only protective when compared to Hp 2-1, and not Hp 2-2  [24] . Unfortunately, we were unable to confirm this finding in the present cohort. However, we did confirm our previous preliminary data  [24]  suggesting that there was no relationship between Hp phenotype and preeclampsia risk in black women in a large adequately powered cohort. The trend (p = 0.06) towards an increased risk of early onset preeclampsia in Hp 2-1 and 2-2 Hispanics was likely a spurious result due to the small number of cases (n = 42).
+L86: Hp Phenotype and Vitamin C and E
+L87: Accumulating evidence suggests that preeclampsia and later life cardiovascular disease are intimately linked. These conditions share several risk factors (i.e. black race, obesity, diabetes) and pathophysiological processes (inflammation, oxidative stress, endothelial dysfunction, and impaired angiogenesis)  [40] ,  [41] . The American Heart Association recently recognized preeclampsia as a cardiovascular disease risk factor  [41] . Hp phenotype affects cardiovascular disease risk and treatment response to antioxidant vitamins in some non-pregnant populations, particularly in diabetics  [18] ,  [19] ,  [21] ,  [26] . Uncomplicated pregnancy is an insulin resistant state  [42] , and gestational diabetes  [43]  and Type 1 diabetes  [44]  increase preeclampsia risk. Therefore, we examined the potential for Hp phenotype to influence the effectiveness of vitamin C and E in preventing preeclampsia and serious complications of PAH.
+L88: Daily vitamin C and E did not prevent preeclampsia or serious complications of PAH in low risk primiparous women of any Hp phenotype. Supplementation actually increased preeclampsia risk by 3-fold in Hispanic Hp 2-2 women, however the mechanism requires further investigation. This effect was not explained by the strikingly lower prevalence of vitamin supplementation at randomization in Hispanics. Hispanic women have an increased risk of the metabolic syndrome and diabetes, conditions associated with oxidative stress  [45] . Platelet volume, a marker of accelerated platelet turn over, was increased in Hispanic women compared to white or black women in the prediction cohort  [46] . Accelerated platelet turnover could indicate low-grade intravascular coagulation and subsequent mild chronic hemolysis. The resulting oxidative stress would be worse in Hp 2-2 women due to the low antioxidant capacity of this phenotype. We speculate that supplementation may have exacerbated pre-existing oxidative stress, and therefore preeclampsia risk, in Hispanic Hp 2-2 women by increasing ascorbate radical formation. A definitive explanation will be sought in future studies. Supplementation increased the risk of late onset preeclampsia, but not early onset preeclampsia, in Hp 2-2 Hispanics. This could reflect pathophysiological differences between these conditions or lower power due to fewer cases of early onset preeclampsia.
+L89: Several factors could explain the difference between our results and previous research in other populations  [18] ,  [19] ,  [21] ,  [26] . First, cardiovascular disease studies suggest that vitamin E alone has different effects from vitamin C and E combined  [18] ,  [19] ,  [27] . Vitamin C and E can be beneficial or harmful, depending on Hp phenotype  [27] . Coronary artery diameter increased following vitamin C and E supplementation in Hp 1-1 post-menopausal women with coronary artery disease. However, the pro-oxidant effects of vitamin C  [28]  combined with the reduced antioxidant capacity of Hp 2-2 may have contributed to accelerated coronary artery narrowing in diabetic Hp 2-2 post-menopausal women taking vitamins C and E  [21] . Oxidative stress increases in pregnancy  [40] , suggesting that a similar mechanism could be active in Hp 2-2 pregnant women. In partial support of this hypothesis, we observed a 3-fold increase in preeclampsia risk in Hp 2-2 Hispanic women receiving vitamin C and E. The original RCT combined vitamins C and E, an approach used in cardiovascular disease prevention trials  [47] ,  [48] ,  [49]  that was successful in small clinical trials. Therefore, we cannot determine whether vitamin E or C alone would have been efficacious. However, the absence of a beneficial treatment effect in women of any Hp phenotype makes this possibility unlikely.
+L90: Second, previous studies focused primarily on Type 2 diabetics  [18] ,  [19] ,  [21] ,  [26] , however women with pre-existing diabetes were excluded from the current study. Insulin resistance increases during pregnancy, and 3% of women in the trial developed gestational diabetes  [42] . The most extensively studied mechanism by which vitamin E reduces cardiovascular disease risk in Type 2 diabetes is by preventing the HDL dysfunction caused by cross-linking with glycosylated hemoglobin  [28] . Hypothesizing that a similar mechanism might be active in Type 1 diabetes, members of our study team assessed the potential for Hp phenotype to modify the effectiveness of vitamin C and E in preventing preeclampsia in women with Type 1 diabetes  [30] . Unfortunately, supplementation was not effective in preventing preeclampsia in women with Type 1 diabetes of any Hp phenotype  [30] . Trials in Type 2 diabetics have not been conducted.
+L91: Third, despite the similarities between preeclampsia and cardiovascular disease, there are also critical differences. Preeclampsia only occurs in pregnancy, and is proposed to result from an interaction between materials released by the placenta, and maternal constitutional characteristics that are largely cardiovascular risk factors  [40] . It may be that transient exposure to insults in young women cannot be equated to years of chronic exposure to cardiovascular risk factors in older women.
+L92: Conclusions
+L93: In contrast to our hypothesis, our secondary analysis of a large RCT indicates that Hp phenotype does not influence preeclampsia risk, or identify a subset of nulligravidas for whom vitamins C and E would reduce preeclampsia risk in white, black or Hispanic women. Vitamins C and E supplementation may increase preeclampsia risk in Hispanic Hp 2-2 women, but due to the limitations of secondary analysis, this finding requires verification.
+L94: Supporting Information
+L95: Data S1 Supplemental Data.  Supplemental data file containing methods and results for separate analyses of prediction cohort and case-control cohort, and an appendix listing members of the  Eunice Kennedy Shriver  National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network. (DOC)
+L96: Table S1 Prediction cohort subject characteristics.  Values are mean ± SD or n (% within phenotype). Significant difference (p<0.05) from: *Hp 1-1,  † Hp 2-1,  ‡ Hp 2-2. (DOC)
+L97: Table S2 Outcomes according to Hp phenotype in the prediction cohort.  *Adjusted for treatment group (vitamins vs. placebo), age, race/ethnicity, education, vitamin use prior to randomization, and diastolic blood pressure at randomization.  † The primary outcome was severe PAH, or mild or severe PAH with elevated liver enzymes, elevated serum creatinine, thrombocytopenia, eclamptic seizure, fetal growth restriction, medically indicated preterm birth or perinatal death. (DOC)
+L98: Table S3 Subject Characteristics for Subjects not in the Prediction Cohort, and in the Weighted Case-Control Cohort.  Values are mean ± SD or n (%). (DOC)
+L99: Table S4 Case-control cohort weighted subject characteristics.  Values are mean ± SD or n (%). Abbreviations: NA; not applicable. Statistical comparisons for race/ethnicity were not performed, as cases and controls were matched for race/ethnicity. Significant difference (p<0.05) from: *Hp 1-1,  † Hp 2-1,  ‡ Hp 2-2. (DOC)
+L100: Table S5 Outcomes according to Hp phenotype and race/ethnicity in the case-control cohort.  Hp 1-1 was the reference group for odds ratios. Hp phenotype was determined in 769 black women, 579 Hispanic women, and 716 women of white or other race. Each observation was weighted to reflect the pregnancy outcomes and racial distribution of the full cohort, excluding women in the prediction study (3,170 white/other women, 1,839 black women, 2,459 Hispanic women). Abbreviations: OR, odds ratio; CI, confidence interval. *Adjusted for group (treatment vs. placebo), race/ethnicity, age, education, vitamin use and diastolic blood pressure at randomization  † Significantly different from 1, p<0.05. (DOC)
+L101: Table S6 Interaction between Hp phenotype and treatment in case-control cohort.  *Adjusted for vitamin use, age, education and diastolic blood pressure at randomization (DOC)
+L102: Table S7 Odds ratios for the effect of treatment in Hispanic women in the case-control cohort.  *Adjusted for vitamin use, age, education and diastolic blood pressure at randomization (DOC)
+L103: Table S8 Subject Characteristics for the Original Study and the Weighted Pooled Cohort Values are mean ± SD or n (%).  *Values for the 9,969 women with known pregnancy outcomes in the original study. Women who were lost to follow-up (n = 183) were excluded. Weights for this analysis were based on race/ethnicity and pregnancy outcome, therefore these women were not eligible to be selected for the pooled cohort analysis. (DOC)
+L104: Table S9 Hp phenotype prevalence by race in the weighted pooled cohort Values are n (% within race). 
+L105:  (DOC)
+L106: Table S10 Subject Characteristics for Hispanic vs. non-Hispanic Women in the Weighted Pooled Cohort.  Values are mean ± SD unless otherwise indicated. (DOC)
+L107: 1 Hauth JC ,  Ewell MG ,  Levine RJ ,  Esterlitz JR ,  Sibai B ,  et al  ( 2000 )  Pregnancy outcomes in healthy nulliparas who developed hypertension. Calcium for Preeclampsia Prevention Study Group .  Obstet Gynecol 
+L108:  95 :  24 – 28 . 10636496
+L109: 2 Knuist M ,  Bonsel GJ ,  Zondervan HA ,  Treffers PE  ( 1998 )  Intensification of fetal and maternal surveillance in pregnant women with hypertensive disorders .  Int J Gynaecol Obstet 
+L110:  61 :  127 – 133 . 9639216
+L111: 3 World Health Organization (2005) World Health Report: Make Every Mother, and Child Count. Geneva: WHO.
+L112: 4 Altman D ,  Carroli G ,  Duley L ,  Farrell B ,  Moodley J ,  et al  ( 2002 )  Do women with pre-eclampsia, and their babies, benefit from magnesium sulphate? The Magpie Trial: a randomised placebo-controlled trial .  Lancet 
+L113:  359 :  1877 – 1890 . 12057549
+L114: 5 Maynard SE ,  Min JY ,  Merchan J ,  Lim KH ,  Li J ,  et al  ( 2003 )  Excess placental soluble fms-like tyrosine kinase 1 (sFlt1) may contribute to endothelial dysfunction, hypertension, and proteinuria in preeclampsia .  J Clin Invest 
+L115:  111 :  649 – 658 . 12618519
+L116: 6 Chappell LC ,  Seed PT ,  Briley A ,  Kelly FJ ,  Hunt BJ ,  et al  ( 2002 )  A longitudinal study of biochemical variables in women at risk of preeclampsia .  Am J Obstet Gynecol 
+L117:  187 :  127 – 136 . 12114900
+L118: 7 Gupta S ,  Aziz N ,  Sekhon L ,  Agarwal R ,  Mansour G ,  et al  ( 2009 )  Lipid peroxidation and antioxidant status in preeclampsia: a systematic review .  Obstet Gynecol Surv 
+L119:  64 :  750 – 759 . 19849867
+L120: 8 Chappell LC ,  Seed PT ,  Briley AL ,  Kelly FJ ,  Lee R ,  et al  ( 1999 )  Effect of antioxidants on the occurrence of pre-eclampsia in women at increased risk: a randomised trial .  Lancet 
+L121:  354 :  810 – 816 . 10485722
+L122: 9 Villar J ,  Purwar M ,  Merialdi M ,  Zavaleta N ,  Thi Nhu Ngoc N ,  et al  ( 2009 )  World Health Organisation multicentre randomised trial of supplementation with vitamins C and E among pregnant women at high risk for pre-eclampsia in populations of low nutritional status from developing countries .  BJOG 
+L123:  116 :  780 – 788 . 19432566
+L124: 10 Beazley D ,  Ahokas R ,  Livingston J ,  Griggs M ,  Sibai BM  ( 2005 )  Vitamin C and E supplementation in women at high risk for preeclampsia: a double-blind, placebo-controlled trial .  Am J Obstet Gynecol 
+L125:  192 :  520 – 521 . 15695996
+L126: 11 Poston L ,  Briley AL ,  Seed PT ,  Kelly FJ ,  Shennan AH  ( 2006 )  Vitamin C and vitamin E in pregnant women at risk for pre-eclampsia (VIP Trial): randomised placebo-controlled trial .  Lancet 
+L127:  367 :  1145 – 1154 . 16616557
+L128: 12 Spinnato JA 2nd, Freire S, Pinto ESJL, Cunha Rudge MV, Martins-Costa S, et al  ( 2007 )  Antioxidant therapy to prevent preeclampsia: a randomized controlled trial .  Obstet Gynecol 
+L129:  110 :  1311 – 1318 . 18055726
+L130: 13 Xu H, Perez-Cuevas R, Xiong X, Reyes H, Roy C,  et al .. (2010) An international trial of antioxidants in the prevention of preeclampsia (INTAPP). Am J Obstet Gynecol 202: 239 e231–239 e210.
+L131: 14 Roberts JM ,  Myatt L ,  Spong CY ,  Thom EA ,  Hauth JC ,  et al  ( 2010 )  Vitamins C and E to prevent complications of pregnancy-associated hypertension .  N Engl J Med 
+L132:  362 :  1282 – 1291 . 20375405
+L133: 15 Rumbold AR ,  Crowther CA ,  Haslam RR ,  Dekker GA ,  Robinson JS  ( 2006 )  Vitamins C and E and the risks of preeclampsia and perinatal complications .  N Engl J Med 
+L134:  354 :  1796 – 1806 . 16641396
+L135: 16 Levy AP, Asleh R, Blum S, Levy NS, Miller-Lotan R, et al. Haptoglobin: basic and clinical aspects .  Antioxid Redox Signal 
+L136:  12 :  293 – 304 . 19659435
+L137: 17 Cid MC ,  Grant DS ,  Hoffman GS ,  Auerbach R ,  Fauci AS ,  et al  ( 1993 )  Identification of haptoglobin as an angiogenic factor in sera from patients with systemic vasculitis .  J Clin Invest 
+L138:  91 :  977 – 985 . 7680672
+L139: 18 Levy AP ,  Gerstein HC ,  Miller-Lotan R ,  Ratner R ,  McQueen M ,  et al  ( 2004 )  The effect of vitamin E supplementation on cardiovascular risk in diabetic individuals with different haptoglobin phenotypes .  Diabetes Care 
+L140:  27 :  2767 .
+L141: 19 Milman U ,  Blum S ,  Shapira C ,  Aronson D ,  Miller-Lotan R ,  et al  ( 2008 )  Vitamin E supplementation reduces cardiovascular events in a subgroup of middle-aged individuals with both type 2 diabetes mellitus and the haptoglobin 2–2 genotype: a prospective double-blinded clinical trial .  Arterioscler Thromb Vasc Biol 
+L142:  28 :  341 – 347 . 18032779
+L143: 20 Blum S ,  Vardi M ,  Brown JB ,  Russell A ,  Milman U ,  et al  ( 2010 )  Vitamin E reduces cardiovascular disease in individuals with diabetes mellitus and the haptoglobin 2–2 genotype .  Pharmacogenomics 
+L144:  11 :  675 – 684 . 20415560
+L145: 21 Levy AP ,  Friedenberg P ,  Lotan R ,  Ouyang P ,  Tripputi M ,  et al  ( 2004 )  The effect of vitamin therapy on the progression of coronary artery atherosclerosis varies by haptoglobin type in postmenopausal women .  Diabetes Care 
+L146:  27 :  925 – 930 . 15047650
+L147: 22 Levy AP ,  Asleh R ,  Blum S ,  Levy NS ,  Miller-Lotan R ,  et al  ( 2010 )  Haptoglobin: basic and clinical aspects .  Antioxid Redox Signal 
+L148:  12 :  293 – 304 . 19659435
+L149: 23 Langlois MR ,  Delanghe JR  ( 1996 )  Biological and clinical significance of haptoglobin polymorphism in humans .  Clin Chem 
+L150:  42 :  1589 – 1600 . 8855140
+L151: 24 Weissgerber TL, Roberts JM, Jeyabalan A, Powers RW, Lee M,  et al .. (2012) Haptoglobin phenotype, angiogenic factors, and preeclampsia risk. Am J Obstet Gynecol 206: 358 e310–318.
+L152: 25 Gaensslen RE ,  Bell SC ,  Lee HC  ( 1987 )  Distributions of genetic markers in United States populations: III. Serum group systems and hemoglobin variants .  J Forensic Sci 
+L153:  32 :  1754 – 1774 . 3480937
+L154: 26 Blum S ,  Milman U ,  Shapira C ,  Miller-Lotan R ,  Bennett L ,  et al  ( 2008 )  Dual therapy with statins and antioxidants is superior to statins alone in decreasing the risk of cardiovascular disease in a subgroup of middle-aged individuals with both diabetes mellitus and the haptoglobin 2–2 genotype .  Arterioscler Thromb Vasc Biol 
+L155:  28 :  e18 – 20 . 18296583
+L156: 27 Blum S ,  Vardi M ,  Levy NS ,  Miller-Lotan R ,  Levy AP  ( 2010 )  The effect of vitamin E supplementation on cardiovascular risk in diabetic individuals with different haptoglobin phenotypes .  Atherosclerosis 
+L157:  211 :  25 – 27 . 20223458
+L158: 28 Asleh R ,  Blum S ,  Kalet-Litman S ,  Alshiek J ,  Miller-Lotan R ,  et al  ( 2008 )  Correction of HDL dysfunction in individuals with diabetes and the haptoglobin 2–2 genotype .  Diabetes 
+L159:  57 :  2794 – 2800 . 18599520
+L160: 29 Ury HK  ( 1975 )  Efficiency of Case-Control Studies with Multiple Controls Per Case: Continuous or Dichotomous Data .  Biometrics 
+L161:  31 :  643 – 649 . 1100136
+L162: 30 Weissgerber TL, Gandley RE, Roberts JM, Patterson CC, Holmes VA, et al. (in review) Haptoglobin phenotype and preeclampsia incidence in women with Type 1 Diabetes supplemented with Vitamins C and E.
+L163: 31 Simon JA ,  Murtaugh MA ,  Gross MD ,  Loria CM ,  Hulley SB ,  et al  ( 2004 )  Relation of ascorbic acid to coronary artery calcium: the Coronary Artery Risk Development in Young Adults Study .  Am J Epidemiol 
+L164:  159 :  581 – 588 . 15003962
+L165: 32 Lumey Thomas (2010) Complex surveys: A guide to analysis using R. Hoboken, NJ: John Wiley & Sons.
+L166: 33 Rao JNK ,  Scott AJ  ( 1981 )  The analysis of categorical data from complex sample surveys: chi-squared tests for goodness-of-fit and independence in two-way tables .  Journal of the American Statistical Association 
+L167:  76 :  221 – 230 .
+L168: 34 Siegel Castellan (1988) Non parametric statistics for the behavioural sciences. New York: McGraw Hill Int.
+L169: 35 Cahill LE ,  El-Sohemy A  ( 2010 )  Haptoglobin genotype modifies the association between dietary vitamin C and serum ascorbic acid deficiency .  Am J Clin Nutr 
+L170:  92 :  1494 – 1500 . 20926521
+L171: 36 Depypere HT ,  Langlois MR ,  Delanghe JR ,  Temmerman M ,  Dhont M  ( 2006 )  Haptoglobin polymorphism in patients with preeclampsia .  Clin Chem Lab Med 
+L172:  44 :  924 – 928 . 16879055
+L173: 37 Sammour RN ,  Nakhoul FM ,  Levy AP ,  Miller-Lotan R ,  Nakhoul N ,  et al  ( 2010 )  Haptoglobin phenotype in women with preeclampsia .  Endocrine 
+L174:  38 :  303 – 308 . 20972727
+L175: 38 Raijmakers MT ,  Roes EM ,  te Morsche RH ,  Steegers EA ,  Peters WH  ( 2003 )  Haptoglobin and its association with the HELLP syndrome .  J Med Genet 
+L176:  40 :  214 – 216 . 12624142
+L177: 39 Goldenstein H ,  Levy N ,  Levy A  ( 2012 )  Involvement of haptoglobin in prevention of oxidative stress caused by hemoglobin in preeclampsia .  Advances in Bioscience and Biotechnology 
+L178:  3 :  1037 – 1042 .
+L179: 40 Roberts JM ,  Lain KY  ( 2002 )  Recent Insights into the pathogenesis of pre-eclampsia .  Placenta 
+L180:  23 :  359 – 372 . 12061851
+L181: 41 Mosca L ,  Benjamin EJ ,  Berra K ,  Bezanson JL ,  Dolor RJ ,  et al  ( 2011 )  Effectiveness-based guidelines for the prevention of cardiovascular disease in women-2011 update: a guideline from the American Heart Association .  J Am Coll Cardiol 
+L182:  57 :  1404 – 1423 . 21388771
+L183: 42 Landon MB ,  Gabbe SG  ( 2011 )  Gestational diabetes mellitus .  Obstet Gynecol 
+L184:  118 :  1379 – 1393 . 22105269
+L185: 43 Wendland EM ,  Torloni MR ,  Falavigna M ,  Trujillo J ,  Dode MA ,  et al  ( 2012 )  Gestational diabetes and pregnancy outcomes - a systematic review of the World Health Organization (WHO) and the International Association of Diabetes in Pregnancy Study Groups (IADPSG) diagnostic criteria .  BMC Pregnancy Childbirth 
+L186:  12 :  23 . 22462760
+L187: 44 Jensen DM ,  Damm P ,  Ovesen P ,  Molsted-Pedersen L ,  Beck-Nielsen H ,  et al  ( 2010 )  Microalbuminuria, preeclampsia, and preterm delivery in pregnant women with type 1 diabetes: results from a nationwide Danish study .  Diabetes Care 
+L188:  33 :  90 – 94 . 19846800
+L189: 45 Park YW ,  Zhu S ,  Palaniappan L ,  Heshka S ,  Carnethon MR ,  et al  ( 2003 )  The metabolic syndrome: prevalence and associated risk factor findings in the US population from the Third National Health and Nutrition Examination Survey, 1988–1994 .  Archives of internal medicine 
+L190:  163 :  427 – 436 . 12588201
+L191: 46 Myatt L ,  Clifton RG ,  Roberts JM ,  Spong CY ,  Hauth JC ,  et al  ( 2012 )  First-trimester prediction of preeclampsia in nulliparous women at low risk .  Obstetrics and gynecology 
+L192:  119 :  1234 – 1242 . 22617589
+L193: 47 Bjelakovic G, Nikolova D, Gluud LL, Simonetti RG, Gluud C (2008) Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases. Cochrane Database Syst Rev: CD007176.
+L194: 48 Yusuf S ,  Dagenais G ,  Pogue J ,  Bosch J ,  Sleight P  ( 2000 )  Vitamin E supplementation and cardiovascular events in high-risk patients. The Heart Outcomes Prevention Evaluation Study Investigators .  N Engl J Med 
+L195:  342 :  154 – 160 . 10639540
+L196: 49 Waters DD ,  Alderman EL ,  Hsia J ,  Howard BV ,  Cobb FR ,  et al  ( 2002 )  Effects of hormone replacement therapy and antioxidant vitamin supplements on coronary atherosclerosis in postmenopausal women: a randomized controlled trial .  JAMA 
+L197:  288 :  2432 – 2440 . 12435256
+L198: The authors especially thank James M. Roberts for his extensive involvement in this project. The authors also thank subcommittee members who participated in protocol development and coordination between clinical research centers (Sabine Bousleiman, R.N.C., M.S.N. and Margaret Cotroneo, R.N.), protocol/data management and statistical analysis (Rebecca G. Clifton, Ph.D. and Elizabeth Thom, Ph.D.), protocol development and oversight (James M. Roberts, M.D. and Gail D. Pearson, M.D., Sc.D.), and manuscript review (John C. Hauth, M.D.).
+L199: # pone.0060479.s001
+L200: Methods S1
+L201: Statistical Analysis
+L202: Prediction Cohort: Baseline characteristics were compared using Kruskal-Wallis for continuous variables and Fisher’s exact test for categorical variables.  The multiple comparison test after Kruskal-Wallis was used to obtain post-hoc pair-wise comparisons between Hp phenotypes at the point 0.05 level with no adjustments for the multiple comparisons.29 Logistic regression models were constructed to assess the multivariable association between Hp phenotype and the incidence of each outcome, adjusting for traditional risk factors and other univariately associated variables.
+L203: Case-Control Cohort: All statistical analysis were completed as described in the manuscript, however women in the prediction cohort were not included.
+L204: Results S1
+L205: Prediction Cohort
+L206: Subjects: Four of the 2,393 women had no detectable Hp (Hp 0), and were excluded from the analysis. Women with the rare 2-1M phenotype (n=55) were excluded from analyses of PAH risk and treatment response as there were too few subjects to draw conclusions.
+L207: Subject Characteristics: As expected, race/ethnicity differed between women with the 1-1, 2-1, 2-2 and 2-1M phenotypes (Table S1). Phenotype prevalence in whites, blacks and Hispanics was similar to previously reported values for North Americans.24 Age increased progressively across the Hp 2-1M, 1-1, 2-1 and 2-2 phenotype groups. Hp 2-2 women were older and more educated than women with the other phenotypes, and were more likely to report pre-randomization vitamin use than Hp 1-1 women. Although the overall p value for diastolic blood pressure at randomization was 0.05, individual comparisons were not statistically significant. Women with the 1-1, 2-1, 2-2 and 2-1M phenotypes did not differ with respect to pre-pregnancy BMI, systolic blood pressure at randomization, smoking, history of a previous pregnancy, or family history of preeclampsia. Hp 2-1M women were randomized slightly earlier than women with the other phenotypes. Although statistically significant, this 2-3 day difference is unlikely to have any clinical impact. Subsequent analyses were adjusted for characteristics that differed between the 1-1, 2-1 and 2-2 groups (race/ethnicity, age, education, vitamin use, and diastolic blood pressure at randomization). The “White” and “Other” groups were pooled for race/ethnicity adjustments, as the phenotype prevalence in the “Other” group was most similar to whites.
+L208: Risk of the Primary Outcome, Gestational Hypertension and Preeclampsia: There was no significant interaction between race/ethnicity and Hp phenotype for any type of PAH (data not shown). Hp phenotype did not significantly affect the risk of the primary outcome, gestational hypertension, preeclampsia, severe preeclampsia, early onset preeclampsia, or late onset preeclampsia (Table S2).
+L209: Treatment Response: Vitamin supplementation was not effective in preventing the RCT primary outcome, gestational hypertension, preeclampsia, severe preeclampsia, early onset preeclampsia, or late onset preeclampsia in women of any Hp phenotype (p>0.05 for the Hp phenotype * treatment group interaction, after adjusting for race/ethnicity, age, education, vitamin use at randomization, and diastolic blood pressure at randomization). The Hp phenotype * treatment interaction p value for early onset preeclampsia approached statistical significance (p=0.06), however power was very low as only 32 subjects developed early onset preeclampsia.
+L210: Case-Control Cohort
+L211: Subjects: The cohort included 703 cases (Primary outcome: n=423, Preeclampsia: n=513) and 1406 controls. Four cases were excluded because no sample was available (n=2) or Hp was not detectable (Hp 0, n=2). Women with the Hp 2-1M phenotype (n=41) were excluded from risk and treatment response analyses.
+L212: Weighting: Table S3 shows subject characteristics for the vitamin and placebo groups in all subjects from the original study who were not in the prediction cohort, and in the weighted case-control cohort used for this analysis. The similarity of values suggests that the weighting effectively reproduced the demographic characteristics of the original sample. Demographic characteristics in the weighted case-control cohort were not significantly between the placebo and vitamin groups.
+L213: Subject Characteristics: The racial distribution of phenotypes was similar to expected values.24 Race/ethnicity, age, education, and pre-randomization vitamin use differed between the phenotype groups (Table S4). Subsequent analyses were adjusted for these characteristics. The “White” and “Other” groups were pooled for subsequent analyses, as the phenotype prevalence in the “Other” group was most similar to whites.
+L214: Primary Outcome and Preeclampsia Risk: Black women with the Hp 2-1 phenotype were significantly more likely to develop the primary outcome than those with the 1-1 phenotype (Table S5; odds ratio: 1.64, 95% confidence interval: 1.08-2.48, p=0.020). This increased risk was not observed for Hp 2-2. There was no relationship between Hp phenotype and primary outcome risk in the white/other or Hispanic racial groups. Among Hispanic women, Hp 2-2 was associated with a significant reduction in preeclampsia risk (0.56, 0.31-1.00, p=0.049), whereas Hp 2-1 was associated with a significant reduction in early onset preeclampsia risk (0.34, 0.14-0.82, p=0.016), compared to Hp 1-1. There was no relationship between Hp phenotype and preeclampsia risk in the white/other or black racial groups.
+L215: Treatment Response: There was a significant interaction between Hp phenotype and treatment group for preeclampsia in Hispanic women (Table S6, p=0.012), and for late onset preeclampsia in all women (p=0.048) and Hispanic women (p=0.018). Vitamin C and E significantly increased the risk of preeclampsia (Table S7, OR 4.08; 95% CI 1.59-10.43, p=0.003) and late onset preeclampsia (4.37; 1.54-12.43, p=0.06) in Hispanic women with the Hp 2-2 phenotype. Vitamin C and E did not alter the risk of preeclampsia or late onset preeclampsia in Hispanic women with the Hp 1-1 or 2-1 phenotypes.
+L216: Appendix S1
+L217: In addition to the authors, Eunice Kennedy Shriver National Institute of Child Health and Human Development Maternal-Fetal Medicine Units Network members are as follows:
+L218: University of Pittsburgh, Pittsburgh, Pennsylvania, United States: J. Roberts, S. Caritis, T. Kamon (deceased), M. Cotroneo, D. Fischer
+L219: University of Utah, Salt Lake City, Utah, United States: M. Varner, P. Reed, K. Hill, and R. Silver (University Hospital), S. Quinn and F. Porter (LDS Hospital), V. Morby (McKay-Dee Hospital), J. Miller (Utah Valley Regional Medical Center)
+L220: University of Alabama at Birmingham, Birmingham, Alabama, United States: John C. Hauth, D.J. Rouse, A. Northen, P. Files, J. Grant, M. Wallace, K. Bailey
+L221: Columbia University, New York, New York, United States: R. Wapner, S. Bousleiman, R. Alcon, K. Saravia, F. Loffredo, A. Bayless (Christiana), C. Perez (St. Peter's University Hospital), M. Lake (St. Peter's University Hospital), M. Talucci
+L222: University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States: K. Boggess, K. Dorman, J. Mitchell, K. Clark, S. Timlin
+L223: Case Western Reserve University-MetroHealth Medical Center, Cleveland, Ohio, United States: J. Bailit, C. Milluzzi, W. Dalton, C. Brezine, D. Bazzo
+L224: University of Texas Southwestern Medical Center, Dallas, Texas, United States: J. Sheffield, L. Moseley, M. Santillan, K. Buentipo, J. Price, L. S. Hermann, C. Melton, Y. Gloria-McCutchen, B. Espino
+L225: Northwestern University, Chicago, Illinois, United States: M. Dinsmoor (NorthShore University HealthSystem), T. Matson-Manning, G. Mallett
+L226: University of Texas Health Science Center at Houston-Children’s Memorial Hermann Hospital, Houston, Texas, United States: S. Blackwell, K. Cannon, S. Lege-Humbert, Z. Spears
+L227: Brown University, Providence, Rhode Island, United States: J. Tillinghast, M. Seebeck
+L228: The Ohio State University, Columbus, Ohio, United States: J. Iams,  F. Johnson, S. Fyffe, C. Latimer, S. Frantz, S. Wylie
+L229: Drexel University, Philadelphia, Pennsylvania, United States: M. Talucci, M. Hoffman (Christiana), J. Benson (Christiana), Z. Reid, C. Tocci
+L230: Wake Forest University Health Sciences, Winston-Salem, North Carolina, United States: P. Meis, M. Swain
+L231: Oregon Health & Science University, Portland, Oregon, United States: W. Smith, L. Davis, E. Lairson, S. Butcher, S. Maxwell, D. Fisher
+L232: University of Texas Medical Branch, Galveston, Texas, United States: J. Moss, B. Stratton, G. Hankins, J. Brandon, C. Nelson-Becker, G. Olson, L. Pacheco
+L233: Wayne State University, Detroit, Michigan, United States: G. Norman, S. Blackwell, P. Lockhart, D. Driscoll, M. Dombrowski
+L234: The George Washington University Biostatistics Center, Washington, DC, United States: E. Thom, R. Clifton, T. Boekhoudt, L. Leuchtenburg
+L235: National Heart, Lung, and Blood Institute, Bethesda, Maryland, United States: V. Pemberton, J. Cutler, W. Barouch
+L236: Eunice Kennedy Shriver National Institute of Child Health and Human Development, Bethesda, Maryland, United States: S. Tolivaisa
+L237: MFMU Steering Committee Chair (University of Texas Medical Center, Galveston, Texas, United States): G.D. Anderson, M.D.
+L238: # pone.0060479.s002
+L239: Table S1: Prediction cohort subject characteristics
+L240: | Subject Characteristics | Hp 1-1 (n=489) | Hp 2-1 (n=1120) | Hp 2-2 (n=725) | Hp 2-1M (n=55) | p |
+L241: | --- | --- | --- | --- | --- | --- |
+L242: | Age – years | 22.6  4.5 | 23.4  4.8* | 24.1  4.9*,† | 20.5  3.4*,†,‡ | <0.01 |
+L243: | Gestational age at randomization – week | 11.4  1.1 | 11.4  1.1 | 11.5  1.0 | 11.1  1.1‡ | 0.01 |
+L244: | Race or ethnicity -   n (% within phenotype) |  |  |  |  | <0.01 |
+L245: | White | 174 (36%) | 537 (48%) | 438 (60%) | 3 (5%) |  |
+L246: | Black | 161 (33%) | 256 (23%) | 124 (17%) | 47 (85%) |  |
+L247: | Hispanic | 148 (30%) | 306 (27%) | 145 (20%) | 4 (7%) |  |
+L248: | Other | 6 (1%) | 21 (2%) | 18 (2%) | 1 (2%) |  |
+L249: | Significance |  | * | *,† | ‡ |  |
+L250: | Pre-pregnancy body mass index - kg/m2 | 25.9  6.7 | 25.3  5.8 | 25.6  6.2 | 27.3  6.9 | 0.22 |
+L251: | Smoked during pregnancy - n (%) | 87 (18%) | 184 (16%) | 126 (17%) | 7 (13%) | 0.74 |
+L252: | Education - years | 12.6  2.6 | 12.9  2.6 | 13.3  2.5*,† | 12.3  1.8‡ | <0.01 |
+L253: | Prenatal/multivitamin use prior to randomization - n (%) | 363 (74%) | 874 (78%) | 613 (85%)* | 47 (85%) | <0.01 |
+L254: | Previous pregnancy - n (%) | 102 (21%) | 249 (22%) | 176 (24%) | 15 (27%) | 0.43 |
+L255: | Family history of preeclampsia - n (%) | 70 (14%) | 150 (13%) | 93 (13%) | 6 (11%) | 0.84 |
+L256: | Blood pressure at entry (9-12 weeks) |  |  |  |  |  |
+L257: | Systolic - mmHg | 109  10 | 110  10 | 110  10 | 111  11 | 0.50 |
+L258: | Diastolic - mmHg | 65  8 | 66  8 | 67  8 | 64  9 | 0.05 |
+L259: Values are mean  SD or n (% within phenotype).
+L260: Significant difference (p<0.05) from: *Hp 1-1, †Hp 2-1, ‡Hp 2-2.
+L261: # pone.0060479.s003
+L262: Table S2: Outcomes according to Hp phenotype in the prediction cohort
+L263: | Outcome | n | Hp 1-1 (n=489) | Hp 2-1 (n=1120) | Hp 2-2 (n=725) | Hp 2-1M (n=55) | p* |
+L264: | --- | --- | --- | --- | --- | --- | --- |
+L265: | Primary Outcome† | 159 | 42 (8.6%) | 68 (6.1%) | 49 (6.8%) | 4 (7.3%) | 0.37 |
+L266: | Gestational Hypertension | 609 | 126 (28.4%) | 277 (26.4%) | 183 (27.4%) | 23 (45.1%) | 0.84 |
+L267: | Preeclampsia | 175 | 45 (9.2%) | 71 (6.3%) | 55 (7.6%) | 4 (7.3%) | 0.19 |
+L268: | Severe Preeclampsia | 71 | 18 (3.9%) | 29 (2.7%) | 23 (3.3%) | 1 (1.9%) | 0.50 |
+L269: | Early Onset Preeclampsia | 32 | 9 (2.0%) | 14 (1.3%) | 9 (1.3%) | 0 (0%) | 0.69 |
+L270: | Late Onset Preeclampsia | 143 | 36 (7.5%) | 57 (5.1%) | 46 (6.4%) | 4 (7.3%) | 0.21 |
+L271: *Adjusted for treatment group (vitamins vs. placebo), age, race/ethnicity, education, vitamin use prior to randomization, and diastolic blood pressure at randomization.
+L272: †The primary outcome was severe PAH, or mild or severe PAH with elevated liver enzymes, elevated serum creatinine, thrombocytopenia, eclamptic seizure, fetal growth restriction, medically indicated preterm birth or perinatal death.
+L273: # pone.0060479.s004
+L274: Table S3: Subject Characteristics for Subjects not in the Prediction Cohort, and in the Weighted Case-Control Cohort
+L275: | Subject Characteristics | Subjects not in the Prediction Cohort of the Original Study | Subjects not in the Prediction Cohort of the Original Study | Weighted Case-Control Cohort | Weighted Case-Control Cohort |
+L276: | --- | --- | --- | --- | --- |
+L277: |  | Placebo (n=3,877) | Vitamins (n=3,882) | Placebo (n=3,977) | Vitamins (n=3,599) |
+L278: | Age – years | 23.5  5.4 | 23.5  5.3 | 23.4  5.2 | 23.4  5.2 |
+L279: | Gestational age at randomization – week | 14.0  1.9 | 14.0  2.0 | 13.9  1.9 | 14.0  1.9 |
+L280: | Race or ethnicity - n (%) |  |  |  |  |
+L281: | White | 1,531 (39%) | 1,554  (40%) | 1,610 (40%) | 1,409 (39%) |
+L282: | Black | 1,004 (26%) | 967 (25%) | 1,034 (26%) | 892 (25%) |
+L283: | Hispanic | 1,269 (33%) | 1,296 (33%) | 1,246 (31%) | 1,234 (34%) |
+L284: | Other | 73 (2%) | 65 (2%) | 88 (2%) | 63 (2%) |
+L285: | Pre-pregnancy body mass index - kg/m2 | 25.4  5.9 | 25.3  5.9 | 25.0  5.4 | 24.8  5.6 |
+L286: | Smoked during pregnancy - n (%) | 579 (15%) | 609 (16%) | 676 (17%) | 532 (15%) |
+L287: | Education - years | 12.7  2.8 | 12.7  2.7 | 12.6  2.8 | 12.7  2.8 |
+L288: | Vitamin use prior to randomization - n (%) | 2,938 (76%) | 2,955 (76%) | 3,002 (76%) | 2,703 (75%) |
+L289: | Previous pregnancy - n (%) | 902 (23%) | 885 (23%) | 965 (24%) | 862 (24%) |
+L290: | Family history of preeclampsia - n (%) | 493 (13%) | 511 (13%) | 545 (14%) | 449 (12%) |
+L291: | Blood pressure at entry (9-12 weeks) |  |  |  |  |
+L292: | Systolic - mmHg | 109  10 | 109  10 | 108  10 | 107  10 |
+L293: | Diastolic - mmHg | 65  8 | 65  8 | 64  8 | 64  8 |
+L294: Values are mean  SD or n (%).
+L295: # pone.0060479.s005
+L296: Table S4: Case-control cohort weighted subject characteristics
+L297: | Subject Characteristics | Hp 1-1 (n=1713 ) | Hp 2-1 (n=3721 ) | Hp 2-2 (n=2034) | Hp 2-1M (n=106) | p |
+L298: | --- | --- | --- | --- | --- | --- |
+L299: | Age – years | 22.3  5.2 | 23.6  5.2* | 23.9  5.0* | 20.0  3.7*,†.‡ | <0.01 |
+L300: | Gestational age at randomization – week | 13.9  2.0 | 13.9  1.9 | 14.1  1.8 | 14.0  2.3 | 0.56 |
+L301: | Race or ethnicity - n (% within phenotype) |  |  |  |  | NA |
+L302: | White | 444 (26%) | 1605 (43%) | 970 (48%) | 0 (0%) |  |
+L303: | Black | 618 (36%) | 803 (22%) | 418 (21%) | 85 (81%) |  |
+L304: | Hispanic | 631 (37%) | 1249 (34%) | 579 (28%) | 21 (19%) |  |
+L305: | Other | 19 (1%) | 63 (2%) | 68 (3%) | 0 (0%) |  |
+L306: | Pre-pregnancy body mass index - kg/m2 | 25.1  6.1 | 24.8  5.3 | 24.8  5.2 | 26.3  9.3 | 0.56 |
+L307: | Smoked during pregnancy - % | 265 (15%) | 537 (14%) | 389 (19%) | 16 (16%) | 0.14 |
+L308: | Education - years | 12.0  3.1 | 12.7  2.8* | 13.1  2.5*,† | 11.8  2.0‡ | <0.01 |
+L309: | Prenatal/multivitamin use prior to randomization - n (%) | 1154 (67%) | 2885 (78%)* | 1581 (78%)* | 85 (81%) | <0.01 |
+L310: | Previous pregnancy - n (%) | 418 (24%) | 835 (22%) | 555 (27%) | 18 (17%) | 0.20 |
+L311: | Family history of preeclampsia - n (%) | 249 (15%) | 484 (13%) | 248 (12%) | 12 (12%) | 0.75 |
+L312: | Blood pressure at entry (9-12 weeks) |  |  |  |  |  |
+L313: | Systolic - mmHg | 108  11 | 108  10 | 107  10 | 109  9 | 0.18 |
+L314: | Diastolic - mmHg | 65  9 | 64  7 | 65  7 | 64  8 | 0.69 |
+L315: Values are mean  SD or n (%).  Abbreviations: NA; not applicable. Statistical comparisons for race/ethnicity were not performed, as cases and controls were matched for race/ethnicity.
+L316: Significant difference (p<0.05) from: *Hp 1-1, †Hp 2-1, ‡Hp 2-2.
+L317: # pone.0060479.s006
+L318: Table S5: Outcomes according to Hp phenotype and race/ethnicity in the case-control cohort
+L319: | Outcome | Cases (n) | Hp 2-1*               OR (95% CI) | Hp 2-2*                OR (95% CI) |
+L320: | --- | --- | --- | --- |
+L321: | White/Other |  |  |  |
+L322: | Primary Outcome | 150 | 0.83 (0.48, 1.42) | 0.79 (0.45, 1.41) |
+L323: | Preeclampsia | 159 | 1.19 (0.66, 2.16) | 1.42 (0.77, 2.62) |
+L324: | Severe Preeclampsia | 64 | 1.91 (0.75, 4.92) | 1.75 (0.66, 4.63) |
+L325: | Early Onset Preeclampsia | 45 | 1.66 (0.52, 5.28) | 2.47 (0.78, 7.79) |
+L326: | Late Onset Preeclampsia | 114 | 1.09 (0.57, 2.09) | 1.17 (0.59, 2.31) |
+L327: | Black |  |  |  |
+L328: | Primary Outcome | 176 | 1.64 (1.08, 2.48)† | 1.27 (0.77, 2.09) |
+L329: | Preeclampsia | 180 | 1.26 (0.84, 1.89) | 1.04 (0.64, 1.70) |
+L330: | Severe Preeclampsia | 89 | 1.38 (0.81, 2.36) | 0.93 (0.45, 1.83) |
+L331: | Early Onset Preeclampsia | 64 | 1.21 (0.64, 2.27) | 1.09 (0.52, 2.28) |
+L332: | Late Onset Preeclampsia | 116 | 1.29 (0.79, 2.09) | 1.01 (0.56, 1.84) |
+L333: | Hispanic |  |  |  |
+L334: | Primary Outcome | 89 | 0.83 (0.47, 1.46) | 0.82 (0.40, 1.67) |
+L335: | Preeclampsia | 165 | 0.70 (0.45, 1.09) | 0.56 (0.31, 1.00)† |
+L336: | Severe Preeclampsia | 58 | 0.63 (0.32, 1.22) | 0.47 (0.19, 1.16) |
+L337: | Early Onset Preeclampsia | 33 | 0.34 (0.14, 0.82)† | 0.39 (0.13, 1.22) |
+L338: | Late Onset Preeclampsia | 132 | 0.84 (0.51, 1.37) | 0.62 (0.32, 1.19) |
+L339: Hp 1-1 was the reference group for odds ratios. Hp phenotype was determined in 769 black women, 579 Hispanic women, and 716 women of white or other race. Each observation was weighted to reflect the pregnancy outcomes and racial distribution of the full cohort, excluding women in the prediction study (3,170 white/other women, 1,839 black women, 2,459 Hispanic women).
+L340: Abbreviations: OR, odds ratio; CI, confidence interval.
+L341: *Adjusted for group (treatment vs. placebo), race/ethnicity, age, education, vitamin use and diastolic blood pressure at randomization
+L342: †Significantly different from 1, p<0.05.
+L343: # pone.0060479.s007
+L344: Table S6: Interaction between Hp phenotype and treatment in case-control cohort
+L345: | Outcome | Hp Phenotype x Treatment p value* | Hp Phenotype x Treatment p value* | Hp Phenotype x Treatment p value* | Hp Phenotype x Treatment p value* |
+L346: | --- | --- | --- | --- | --- |
+L347: |  | All | White/Other | Black | Hispanic |
+L348: | Primary Outcome | 0.92 | 0.78 | 0.91 | 0.26 |
+L349: | Preeclampsia | 0.10 | 0.51 | 0.79 | 0.02 |
+L350: | Severe Preeclampsia | 0.92 | 0.57 | 0.71 | 0.11 |
+L351: | Early Onset Preeclampsia | 0.93 | 0.91 | 0.99 | 0.38 |
+L352: | Late Onset Preeclampsia | 0.05 | 0.39 | 0.73 | 0.02 |
+L353: *Adjusted for vitamin use, age, education and diastolic blood pressure at randomization
+L354: # pone.0060479.s008
+L355: Table S7: Odds ratios for the effect of treatment in Hispanic women in the case-control cohort
+L356: | Outcome | Phenotype | OR (95% CI)* | p |
+L357: | --- | --- | --- | --- |
+L358: | Preeclampsia | Hp 1-1 | 0.70 (0.36, 1.37) | 0.30 |
+L359: |  | Hp 2-1 | 1.21 (0.71, 2.07) | 0.48 |
+L360: |  | Hp 2-2 | 4.08 (1.59, 10.43) | <0.01 |
+L361: | Late Onset Preeclampsia | Hp 1-1 | 0.68 (0.32, 1.43) | 0.31 |
+L362: |  | Hp 2-1 | 1.31 (0.74, 2.32) | 0.35 |
+L363: |  | Hp 2-2 | 4.37 (1.54, 12.43) | <0.01 |
+L364: *Adjusted for vitamin use, age, education and diastolic blood pressure at randomization
+L365: # pone.0060479.s009
+L366: Table S8: Subject Characteristics for the Original Study and the Weighted Pooled Cohort
+L367: | Subject Characteristics | All Subjects in the Original Study* | All Subjects in the Original Study* | Weighted Pooled Cohort | Weighted Pooled Cohort |
+L368: | --- | --- | --- | --- | --- |
+L369: |  | Placebo (n=4,976) | Vitamins (n=4,993) | Placebo (n=4,800) | Vitamins (n=5,163) |
+L370: | Age – years | 23.5  5.3 | 23.5  5.2 | 23.4  5.1 | 23.4  5.1 |
+L371: | Gestational age at randomization – week | 13.4  2.1 | 13.4  2.1 | 13.3  2.0 | 13.4  2.1 |
+L372: | Race or ethnicity - n (%) |  |  |  |  |
+L373: | White | 2,080 (41.8%) | 2,106 (42.2%) | 2,184 (42%) | 1,987 (41%) |
+L374: | Black | 1,273 (25.6%) | 1,245 (24.9%) | 1,323 (26%) | 1,189 (25%) |
+L375: | Hispanic | 1,524 (30.6%) | 1,559 (31.2%) | 1,543 (30%) | 1,540 (32%) |
+L376: | Other | 99 (2.0%) | 83 (1.8%) | 114 (2%) | 83 (2%) |
+L377: | Pre-pregnancy body mass index - kg/m2 | 25.4  5.9 | 25.4  6.0 | 25.1  5.6 | 25.0  5.8 |
+L378: | Smoked during pregnancy - n (%) | 763 (15%) | 788 (16%) | 878 (17%) | 734 (15%) |
+L379: | Education - years | 12.8  2.7 | 12.8  2.7 | 12.7  2.7 | 12.7  2.8 |
+L380: | Vitamin use prior to randomization - n (%) | 3,838 (77%) | 3,853 (77%) | 3,952 (77%) | 3,649 (76%) |
+L381: | Previous pregnancy - n (%) | 1,149 (23%) | 1,138 (23%) | 1,232 (24%) | 1,136 (24%) |
+L382: | Family history of preeclampsia - n (%) | 659 (13%) | 638 (13%) | 708 (14%) | 604 (13%) |
+L383: | Blood pressure at entry (9-12 weeks) |  |  |  |  |
+L384: | Systolic - mmHg | 109  10 | 109  10 | 108  10 | 108  10 |
+L385: | Diastolic - mmHg | 65  8 | 66  8 | 65  8 | 65  8 |
+L386: Values are mean  SD or n (%).
+L387: *Values for the 9,969 women with known pregnancy outcomes in the original study. Women who were lost to follow-up (n=183) were excluded. Weights for this analysis were based on race/ethnicity and pregnancy outcome, therefore these women were not eligible to be selected for the pooled cohort analysis.
+L388: # pone.0060479.s010
+L389: Table S9: Hp phenotype prevalence by race in the weighted pooled cohort
+L390: | Race or Ethnicity | Hp 1-1 (n=2,201) | Hp 2-1 (n=4,840) | Hp 2-2 (n=2,760) | Hp 2-1M (n=146) |
+L391: | --- | --- | --- | --- | --- |
+L392: | White | 618 (14.8%) | 2,142 (51.4%) | 1,408 (33.8%) | 3 (0.1%) |
+L393: | Black | 779 (31.0%) | 1,059 (42.2%) | 542 (21.6%) | 132 (5.3%) |
+L394: | Hispanic | 779 (25.4%) | 1,555 (50.7%) | 724 (23.6%) | 10 (0.3%) |
+L395: | Other | 25 (12.8%) | 84 (42.9%) | 86 (43.9%) | 1 (0.5%) |
+L396: Values are n (% within race).
+L397: # pone.0060479.s011
+L398: Table S10: Subject Characteristics for Hispanic vs. non-Hispanic Women in the Weighted Pooled Cohort
+L399: | Subject Characteristics | Hispanic (n=1,188) | Non-Hispanic (n=3,306) | p |
+L400: | --- | --- | --- | --- |
+L401: | Age – years | 22.3  4.5 | 23.5  5.1 | <0.01 |
+L402: | Gestational age at randomization – week | 12.6  2.0 | 12.6  2.0 | 0.65 |
+L403: | Race or ethnicity - n (%) |  |  | NA |
+L404: | White | 0 (0%) | 1,840 (55.7%) |  |
+L405: | Black | 0 (0%) | 1,392 (42.1%) |  |
+L406: | Hispanic | 1,188 (100%) | 0 (0%) |  |
+L407: | Other | 0 (0%) | 74 (2.2%) |  |
+L408: | Pre-pregnancy body mass index - kg/m2 | 24.9  4.9 | 26.0  6.7 | <0.01 |
+L409: | Smoked during pregnancy - n (%) | 64 (5.4%) | 704 (21.3%) | <0.01 |
+L410: | Education - years | 10.8  2.8 | 13.4  2.1 | <0.01 |
+L411: | Vitamin use prior to randomization - n (%) | 511 (43.0%) | 3,011 (91.1%) | <0.01 |
+L412: | Previous pregnancy - n (%) | 243 (20.5%) | 812 (24.6%) | <0.01 |
+L413: | Family history of preeclampsia - n (%) | 202 (17.0%) | 430 (13.0%) | <0.01 |
+L414: | Blood pressure at entry (9-12 weeks) |  |  |  |
+L415: | Systolic - mmHg | 106  10 | 111  10 | <0.01 |
+L416: | Diastolic - mmHg | 64  7 | 66  8 | <0.01 |
+L417: Values are mean  SD unless otherwise indicated.
+[52ms]
+

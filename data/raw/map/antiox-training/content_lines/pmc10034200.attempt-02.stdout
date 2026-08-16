@@ -1,0 +1,204 @@
+L1: The role of periodontitis in the link between alpha-tocopherol intake and cognitive performance: A mediation analysis in older adults
+L2: Frontiers in Aging Neuroscience (2023)
+L3: Heming Zhang, Li Sun, Lin Zhang, Jiangjing Li, Yongfei Liu, Zhiyang Chen, Shuang Wang, Changjun Gao, Xude Sun
+L4: 1 Department of Anesthesiology, The Second Affiliated Hospital of Air Force Medical University ,  Xi’an ,  China
+L5: 2 Department of Anesthesiology, The 963 Hospital of the PLA Joint Logistics Support Force ,  Jiamusi ,  China
+L6: 3 Department of Geriatric Cardiology, The Second Medical Center, Chinese PLA General Hospital ,  Beijing ,  China
+L7: Background
+L8: Epidemiological evidence on alpha (α)-tocopherol intake and cognitive performance in older individuals is controversial and the effect of periodontitis in this chain is sparse and limited. The goal of this study was to characterize the association between α-tocopherol intake and cognitive performance and the mediating role of periodontitis in a nationally representative sample of older adults.
+L9: Methods
+L10: Data from the National Health and Nutrition Examination Survey (NHANES), 2011–2014, were used. Multivariate logistic regression analysis was performed to explore the association of α-tocopherol intake, periodontal measures (mean attachment loss [AL] and mean probing depth [PD]), and clinical periodontitis defined by the European Workshop in Periodontology with poor cognitive performance evaluated by Consortium to Establish a Registry for Alzheimer’s disease (CERAD); the animal fluency test (AFT); and the Digit Symbol Substitution test (DSST) and the correlation between α-tocopherol intake and clinical periodontitis. Multiple linear regression analysis was used to explore the relationship between α-tocopherol intake and periodontal measures. Mediation analysis was used to test the effects of periodontal measures on the association between α-tocopherol intake and cognitive measures.
+L11: Results
+L12: A total of 1,749 older participants (≥60 years of age) with complete periodontal diagnosis, dietary retrospective survey, and cognitive tests were included. In the fully adjusted model, the odds ratio (OR) with 95% confidence interval (CI) of CERAD score, AFT score and DSST score were 0.214 (0.137–0.327), 0.378 (0.241–0.585) and 0.298 (0.169–0.512) for the highest versus lowest tertile of α-tocopherol intake, respectively. And participants with clinical periodontitis were more likely to exhibit lower DSST score (OR = 1.689; 95 CI%: 1.018–2.771) than those without periodontitis. Mean AL (OR = 1.296; 95 CI%: 1.102–1.524) and PD (OR = 1.667; 95 CI%: 1.18–2.363) were negatively correlated with DSST, and were estimated to mediate 9.1 and 8.2% of the total association between α-tocopherol intake and cognitive performance, respectively.
+L13: Conclusion
+L14: Finding of the present study suggested that participants with low α-tocopherol intake were at higher risk for developing cognitive decline. Moreover, periodontitis mediated the association between α-tocopherol intake and cognitive performance.
+L15: Neuroscience; Original Research; Original Research
+L16: cognition; periodontitis; alpha-tocopherol; diet; National Health and Nutrition Examination Survey (NHANES)
+L17: 1. Introduction
+L18: Populations are aging rapidly worldwide, and the number of older individuals ≥60 years of age is expected to increase from 962 million in 2017 to 2.1 billion by 2050 ( Li et al., 2018 ). Aging-associated cognitive decline, characterized by impairment of intellectual abilities, such as memory, executive function, sustained attention, and processing speed, can be a major health challenge for the older individuals. To date, understanding cognitive decline and its reason has been greatly accomplished, such as inflammation, oxidative stress and extracellular plaques. And nutrients perhaps play a critical role in these mechanisms of cognitive decline. In addition, there are many risk factors for cognitive decline has been accomplished including periodontitis.
+L19: Periodontitis is a common chronic oral inflammatory disease ( Sung et al., 2019 ), and is characterized by a polymicrobial dysbiotic infection of the periodontium ( Hajishengallis, 2015 ). Evidence suggests that  Porphyromonas gingivalis , a keystone pathogen of periodontitis, has been identified as a significant etiological factor in the development of amyloid-beta peptide (Aβ) plaques and Alzheimer’s disease (AD) ( Dominy et al., 2019 ). In addition, clinical studies have shown that patients with periodontitis tend to exhibit poorer cognitive performance ( Shin et al., 2016 ).
+L20: Previous studies have examined the effects of vitamin E supplementation on cognitive performance, and the results are complex and controversial ( Dysken et al., 2014 ;  Kryscio et al., 2017 ;  Rutjes et al., 2018 ). Several studies have shown that alpha (α)-tocopherol, a form of vitamin E, can be used to treat AD through its anti-inflammatory and antioxidant effects, whereas others have reported inconsistent results indicating that vitamin E including α-tocopherol has no benefit for those with AD ( Lloret et al., 2019 ). Nevertheless, previous meta-analysis has shown that lower peripheral α-tocopherol levels is associated with AD and mild cognitive impairment ( Ashley et al., 2021 ). At the same time, several studies investigating the causal relationship between α-tocopherol intake and periodontitis have reported that dietary α-tocopherol intake exerts a positive effect on chronic periodontitis ( Dodington et al., 2015 ;  Zong et al., 2015 ). Thus, individuals with low α-tocopherol intake may experience periodontitis, which in turn, can adversely influence cognitive performance.
+L21: The above evidence may suggest that periodontitis plays a role in the causal chain between α-tocopherol intake and cognitive performance. However, it remains unclear whether periodontitis plays a mediating role in the relationship between α-tocopherol intake and cognitive performance. In the present study, we aimed to explore possible correlations between α-tocopherol intake and cognitive performance among older participants from the National Health and Nutrition Examination Survey (NHANES) 2011–2014 cohort, and further investigated whether this relationship was mediated by periodontitis.
+L22: 2. Materials and methods
+L23: 2.1. Data sources
+L24: Data were collected from two cycles of the NHANES dataset (2011–2012 and 2013–2014), a cross-sectional survey conducted by the Centers for Disease Control and Prevention (Atlanta, GA, USA). The Research Ethics Review Board of the National Center for Health Statistics (NCHS) approved the survey protocol. All participants provided written informed consent before participating in the study.
+L25: 2.2. Study population
+L26: In total, 19,931 participants in NHANES during 2011–2014 were included. Participants with missing or unreliable data on cognitive function measures, dietary retrospective survey, and periodontal diagnosis were excluded from our analysis. Information from 3,742 older participants with available cognitive performance data was extracted from the NHANES database for 2011–2014. Among these, participants with incomplete or unreliable data for cognitive performance measures ( n  = 538) and/or retrospective dietary surveys ( n  = 410) were excluded. Additionally, individuals with no periodontal diagnosis ( n  = 775) were also excluded. Ultimately, data from 1,749 participants were included in the present study ( Figure 1 ).
+L27: FIGURE 1 Flow chart for the selection of included sample.
+L28: 2.3. Cognitive test battery
+L29: Cognitive performance was assessed using a series of tests, including: Consortium to Establish a Registry for Alzheimer’s disease (CERAD); the animal fluency test (AFT); and the Digit Symbol Substitution test (DSST).
+L30: The CERAD test, a standardized and validated measures for the assessment of AD, consisted of three consecutive learning trials and one delayed recall trial, which were designed to evaluate episodic memory ( Bailey et al., 2020 ). After learning, the participants were required to recall as many words as possible. The CERAD score represents the total score of the four tests. The AFT assesses verbal fluency and semantic-based memory function ( Bailey et al., 2020 ). It has been shown to discriminate between persons with normal cognitive functioning compared with those with Alzheimer’s disease ( Clark et al., 2009 ). Participants who passed the sample practice pretest were asked to name as many animals as possible in 1 min. The DSST was used to evaluate processing speed, sustained attention, and working memory of the participants. Participants were given 2 min to copy corresponding symbols in 133 boxes that adjoined the numbers ( Brody et al., 2019 ). According to the cut-off points ( Table 1 ), participants were divided into low and normal cognition performance groups.
+L31: TABLE 1 The cognition performance cut-off points of test score, adjusted according to age.
+L32: 2.4. Dietary intake assessment
+L33: α-tocopherol intake data were obtained from two 24 h dietary recall interviews. The first interview was conducted simultaneously with the Mobile Examination Center (MEC) examination, and the second was conducted 3–10 days later. In this analysis, the total dietary intake of α-tocopherol was calculated by averaging the data from the two dietary recalls. Single dietary data points were excluded from the study. The sum of two parameters, “vitamin E as alpha-tocopherol” and “added alpha-tocopherol” in the NHANES 2011–2014 was defined as the α-tocopherol intake. Dietary α-tocopherol intake was categorized into quartiles (Q1, Q2, Q3, and Q4).
+L34: 2.5. Periodontal assessment
+L35: Periodontal assessment, a part of MEC examination, was conducted using an oral health program according to the NHANES Oral Health Examiners Manual. Attachment loss (AL) and pocket depth (PD) were measured to the nearest distance from the bottom of the pocket to the cementum enamel junction or the marginal gingiva, respectively. And they were recorded at 6 sites per tooth (mesio-buccal, mid-buccal, disto-buccal, mesio-lingual, mid-lingual, and disto-lingual). Mean AL and mean PD were calculated. According to the European Workshop in Periodontology, clinical periodontitis was defined as the presence of proximal AL ≥ 5 mm in ≥30% of teeth present ( Kongstad et al., 2017 ).
+L36: 2.6. Covariates
+L37: Some potential confounding factors that were investigated are summarized in  Table 2 . Smoking was classified as follows: never smoker (never smoked or smoked < 100 cigarettes in life); former smoker (smoked ≥ 100 cigarettes in life and quit smoking); or current smoker (smoked ≥ 100 cigarettes in life and currently smoking). Alcohol consumption was defined as the consumption of at least 12 alcoholic drinks per year. Depression was assessed using the Patient Health Questionnaire-9. The responses “not at all,” “several days,” “more than half the days,” and “nearly every day” were assigned a score ranging from 0 to 3. The total score is based on the sum of the points for each item, ranging from 0 to 27. Diabetes, hypertension, and stroke were defined as having been diagnosed as such by a physician.
+L38: TABLE 2 The classifications of covariates.
+L39: 2.7. Statistical analysis
+L40: All statistical analyses were performed using R version 4.2.1 (R Foundation for Statistical Computing, Vienna, Austria). Based on the analytical guidelines of the National Health and NHANES, new sample weights were constructed. Missing data were displayed using the R package “VIM” and complemented by multiple imputation. And the R package “survey” was used to analyze statistical differences in different groups and establish regression model. Non-normally distributed data are expressed as median and interquartile range (IQR) and compared using Mood’s test. Count data are expressed as number of cases and composition ratio (n [%]), and comparisons were performed using the χ2 or Fisher’s exact tests.
+L41: Multivariate logistic regression analysis was performed to explore whether α-tocopherol intake, mean AL, mean PD, and clinical periodontitis were associated with low cognitive performance according to CERAD, AFT, and DSST, and to further assess the relationship between α-tocopherol intake and clinical periodontitis. Q1 was used as the reference group for higher α-tocopherol intake. The results are expressed odds ratio (OR) and corresponding 95% confidence interval (CI) which calculated by R package “stats.” Multiple linear regression analysis was used to measure the association of α-tocopherol intake with two periodontal measures (mean AL and mean PD), with the results reported as β and corresponding 95% CI.  F -test was used to check the assumptions of linear regression analysis. In the analysis, model 1 was not adjusted for confounders; model 2 was adjusted for age, sex, and body mass index (BMI); and model 3 was adjusted for age, sex, race, educational level, marital status, poverty-income ratio (PIR), BMI, smoking, drinking, depression, diabetes, hypertension, stroke, work activity, and recreational activities.
+L42: The mediating effect of mean PD and mean AL in the association of α-tocopherol intake with all three cognitive measures were determined using the R package “mediation.” The regression models for the mediation analysis were adjusted for all covariates in this study.  Figure 2  provides a path model that indicates the mediation effect of periodontal measures. Differences with a two-sided  P  < 0.05 were considered to be statistically significant.
+L43: FIGURE 2 Path diagram of the mediation analysis models.
+L44: 3. Results
+L45: Of 2,934 participants with complete and reliable cognitive performance test data, 1,749 with complete and reliable dietary retrospective survey data and periodontal data were included in the present study ( Figure 1 ). Missing data for the selected variables were <10% of the total sample ( Supplementary Figure 1 ). In this study, missing data were complemented using multiple imputations.
+L46: The baseline characteristics of the study sample ( n  = 1749) divided according to the level of α-tocopherol intake are summarized in  Table 3 . Significant differences were observed among the participants in different groups according to gender ( p  < 0.001), education ( p  < 0.001), marital status ( p  = 0.001), PIR ( p  < 0.001), smoking ( p  = 0.035), alcohol consumption ( p  < 0.001), hypertension ( p  = 0.028), recreational activity ( p  = 0.003), periodontal assessment ( p  < 0.001), CERAD ( p  < 0.001), AFT ( p  < 0.001), and DSST ( p  < 0.001), but not according to age, race, BMI, depression score, diabetes, stroke, and work activity.
+L47: TABLE 3 Characteristics of the included participants ( n  = 1749).
+L48: Data regarding the association of α-tocopherol intake with low cognitive performance are summarized in  Table 4 . Compared with the lowest α-tocopherol intake group, the higher quartile of α-tocopherol intake group was positively correlated with CERAD, AFT, and DSST in all three models, except for the Q2 α-tocopherol intake group in the AFT in model 3. The association of mean AL, mean PD, and clinical periodontitis with low cognitive performance are shown in  Table 5 . Mean AL, PD, and clinical periodontitis were negatively associated with all three cognitive assessments in models 1 and 2. When all covariates were adjusted for in this study, the associations of mean AL (OR = 1.296; 95 CI%: 1.102–1.524), mean PD (OR = 1.667; 95 CI%: 1.18–2.363), and clinical periodontitis (OR = 1.689; 95 CI%: 1.018–2.771) with DSST were attenuated but remained significant, whereas the associations with CERAD scores were no longer significant. In terms of AFT, clinical periodontitis (OR = 1.694; 95 CI%: 1.081–2.624) was still significantly negatively correlated with AFT, whereas no significant association of mean AL and mean PD with AFT was observed in model 3.
+L49: TABLE 4 Associations of quartile of α-tocopherol intake with low cognitive performance.
+L50: TABLE 5 Associations of mean AL, mean PD, and periodontitis with low cognitive performance.
+L51: The associations of α-tocopherol intake with mean AL and PD are summarized in  Table 6 . Compared with the lowest α-tocopherol intake group, the higher quartile of α-tocopherol intake group exhibited a significant negative correlation with the mean AL and PD in all three models. And the results of  F -test were statistically different in all models ( P  < 0.05). In models 1 and 2, the higher α-tocopherol intake quartile was significantly positively associated with clinical periodontitis compared to the lowest α-tocopherol intake quartile ( Table 7 ). After all covariates adjustment in model 3, the associations between α-tocopherol intake and clinical periodontitis were still significant in the third (OR = 0.582; 95 CI%: 0.348–0.967) and fourth (OR = 0.481; 95 CI%: 0.277–0.823) quartiles of α-tocopherol intake, whereas no significant association was observed in the second quartile of α-tocopherol intake.
+L52: TABLE 6 β (p) of mean PD and mean AL according to the quartile of α-tocopherol intake.
+L53: TABLE 7 Associations of quartile of α-tocopherol intake with periodontitis defined by EWP definition.
+L54: The mediating effect of mean AL on the association between α-tocopherol intake and cognitive performance tests is shown in  Table 8 . After adjusting for all confounding factors, the mediation effect of mean AL was found in the DSST (β = −0.005; 95% CI: −0.0126 to −0.001). However, no significant mediation effect of mean AL on the association of α-tocopherol intake with CERAD and AFT was observed. Similar to the mean AL, the mediation effect of mean PD was found in DSST (β = −0.0045; 95% CI: −0.0104 to −0.0008) ( Table 9 ). However, no significant mediation effect of mean PD on the association of α-tocopherol intake with CERAD and AFT was observed. It was estimated that 9.1 and 8.2% of the total association between α-tocopherol intake and DSST was mediated by the mean AL and PD, respectively.
+L55: TABLE 8 The mediating proportion of mean AL on the association between α-tocopherol intake and low cognitive performance.
+L56: TABLE 9 The mediating proportion of mean PD on the association between α-tocopherol intake and low cognitive performance.
+L57: 4. Discussion
+L58: The present study investigated the relationship between α-tocopherol intake and cognitive performance and the mediating effect of periodontitis and found that α-tocopherol intake deficient was inversely correlated with cognitive performance among older adults. In addition, periodontitis significantly mediated the association between α-tocopherol intake and cognitive performance in terms of processing speed, sustained attention, and working memory.
+L59: Our results regarding the relationship between α-tocopherol levels and cognitive performance are consistent with those reported in previous studies. A prospective study involving 960 residents, ages 58–99 years, who were followed up for a mean of 4.7 years, reported that foods containing α-tocopherol may slow cognitive decline with aging ( Morris et al., 2018 ). In addition, an analysis, including 341 AD patients, also indicated a modest delay in the disease progression of AD among those with greater consumption of α-tocopherol ( Sano et al., 1997 ). Furthermore, evidence suggests that low serum α-tocopherol levels are significantly correlated with memory and mixed impairments ( Dunn et al., 2007 ). However, study with inconsistent results indicated that α-tocopherol supplementation couldn’t protect aging-related cognitive impairment ( Alghadir et al., 2021 ). That may be due to the complexity of α-tocopherol bioavailability and it can be influenced by factors including age, obesity and genetic polymorphisms. In this study, we chose the dietary as the main approach to calculate the amount of daily α-tocopherol intake, and low-level daily α-tocopherol intake was significantly correlated with cognitive decline.
+L60: The effect of α-tocopherol intake on cognitive performance may be partially mediated by periodontitis. Existing observational studies have indicated that serum α-tocopherol has a non-linear inverse association with periodontitis in adults ( Zong et al., 2015 ). In a cohort study, 4,559 participants were followed up for 15 years and periodontitis was found to be associated with a reduced risk for cognitive decline ( Demmer et al., 2020 ). In this study, we first investigated the relationship between α-tocopherol intake, periodontitis, and cognitive performance through regression analysis, and then build models included different covariates to control variables that might affect cognitive performance. The results revealed that α-tocopherol intake was significantly associated with periodontitis, and so was the relationship between periodontitis and partial aspects of cognitive performance. Therefore, adequate α-tocopherol intake in older individuals with periodontitis may help to maintain better cognitive performance. Even a small reduction in the risk for cognitive decline could have significant health benefits for the public because of the large older individual base.
+L61: There are several possible mechanisms that explain the mediating effect of periodontitis on α-tocopherol intake and cognitive performance in older adults. First, α-tocopherol has been indicated to decrease levels of interleukin (IL)-1β and IL-6 produced by gingival fibroblasts. It can also increase various human β-defensins to defend against the adverse effects of LPS from periodontal bacteria ( Derradjia et al., 2016 ). In addition, α-tocopherol regulates the production of oxygen free radicals by neutrophils following activation by Fcγ receptor and toll-like receptor ligands ( Chapple et al., 2013 ). The antioxidant effect of α-tocopherol could resist oxidative stress damage from periodontitis to prevent cognitive performance ( La Fata et al., 2014 ).
+L62: The present study had several strengths. First, the sample size was sufficiently large, and quality control of the NHANES database is excellent. Second, we adjusted for important confounding factors to precisely estimate the mediating effect of periodontitis on α-tocopherol intake and cognitive performance.
+L63: However, some limitations of the present investigation should not be ignored. First, it was difficult to determine causality due its cross-sectional design. Second, cognitive assessments in this study did not fully reflect cognitive performance because of the complexity of cognition. Third, α-tocopherol is only one form of vitamin E, and its effect could not fully represent the entire function of vitamin E due to limitations of data housed in the NHANES database.
+L64: 5. Conclusion
+L65: The results of this study suggest that appropriate dietary α-tocopherol intake may reduce periodontitis and, thus, maintain better cognitive performance in individuals ≥60 years of age in the United States. It is noteworthy that dietary α-tocopherol intake is an important and effective means to protect cognitive performance. Appropriate dietary α-tocopherol intake should be provided, even if there is a controversial cognitive protective effect of α-tocopherol supplementation strategy on mild cognitive impairment and AD. Given the rational findings and several limitations in this study, the results should be further confirmed in the large prospective cohort study.
+L66: Data availability statement
+L67: Publicly available datasets were analyzed in this study. This data can be found here:  https://www.cdc.gov/nchs/index.htm .
+L68: Ethics statement
+L69: The studies involving human participants were reviewed and approved by the Research Ethics Review Board of the US National Center for Healthcare Statistics. The patients/participants provided their written informed consent to participate in this study.
+L70: Author contributions
+L71: XS, LZ, and CG: conceptualization. HZ and LS: statistical tests, data curation, and software. HZ, LS, and LZ: methodology. JL and YL: visualization. HZ, LZ, JL, YL, ZC, and SW: writing—original draft. HZ, XS, and CG: writing—review and editing. XS and CG: supervision and project administration. All authors contributed to the manuscript and approved the version submitted for publication.
+L72: Conflict of interest
+L73: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L74: Publisher’s note
+L75: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L76: Supplementary material
+L77: The Supplementary Material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fnagi.2023.1129095/full#supplementary-material
+L78: Click here for additional data file.
+L79: Alghadir A. Gabr S. Anwer S. Li H.  ( 2021 ).  Associations between vitamin E, oxidative stress markers, total homocysteine levels, and physical activity or cognitive capacity in older adults. 
+L80:  Sci. Rep. 
+L81:  11 : 12867 .  10.1038/s41598-021-92076-4 
+L82:  34145349
+L83: Ashley S. Bradburn S. Murgatroyd C.  ( 2021 ).  A meta-analysis of peripheral tocopherol levels in age-related cognitive decline and Alzheimer’s disease. 
+L84:  Nutr. Neurosci. 
+L85:  24 
+L86:  795 – 809 .  10.1080/1028415X.2019.1681066 
+L87:  31661399
+L88: Bailey R. Jun S. Murphy L. Green R. Gahche J. Dwyer J.  ( 2020 ).  High folic acid or folate combined with low vitamin B-12 status: potential but inconsistent association with cognitive function in a nationally representative cross-sectional sample of US older adults participating in the NHANES. 
+L89:  Am. J. Clin. Nutr. 
+L90:  112 
+L91:  1547 – 1557 .  10.1093/ajcn/nqaa239 
+L92:  32860400
+L93: Brody D. Kramarow E. Taylor C. McGuire L.  ( 2019 ).  Cognitive performance in adults aged 60 and over: national health and nutrition examination survey, 2011-2014. 
+L94:  Natl. Health Stat. Report. 
+L95:  126 
+L96:  1 – 23 .
+L97: Chapple I. Matthews J. Wright H. Scott A. Griffiths H. Grant M.  ( 2013 ).  Ascorbate and alpha-tocopherol differentially modulate reactive oxygen species generation by neutrophils in response to FcgammaR and TLR agonists. 
+L98:  Innate Immun. 
+L99:  19 
+L100:  152 – 159 .  10.1177/1753425912455207 
+L101:  22914919
+L102: Clark L. Gatz M. Zheng L. Chen Y. McCleary C. Mack W.  ( 2009 ).  Longitudinal verbal fluency in normal aging, preclinical, and prevalent Alzheimer’s disease. 
+L103:  Am. J. Alzheimers Dis. Other Dement. 
+L104:  24 
+L105:  461 – 468 .  10.1177/1533317509345154 
+L106:  19759254
+L107: Demmer R. Norby F. Lakshminarayan K. Walker K. Pankow J. Folsom A.  ( 2020 ).  Periodontal disease and incident dementia: The Atherosclerosis Risk in Communities Study (ARIC). 
+L108:  Neurology 
+L109:  95 
+L110:  e1660 – e1671 .  10.1212/WNL.0000000000010312 
+L111:  32727837
+L112: Derradjia A. Alanazi H. Park H. Djeribi R. Semlali A. Rouabhia M.  ( 2016 ).  alpha-tocopherol decreases interleukin-1beta and –6 and increases human beta-defensin-1 and –2 secretion in human gingival fibroblasts stimulated with Porphyromonas gingivalis lipopolysaccharide. 
+L113:  J. Periodontal Res. 
+L114:  51 
+L115:  295 – 303 .  10.1111/jre.12308 
+L116:  26214284
+L117: Dodington D. Fritz P. Sullivan P. Ward W.  ( 2015 ).  Higher Intakes of Fruits and Vegetables, beta-Carotene, Vitamin C, alpha-Tocopherol, EPA, and DHA Are Positively Associated with Periodontal Healing after Nonsurgical Periodontal Therapy in Nonsmokers but Not in Smokers. 
+L118:  J. Nutr. 
+L119:  145 
+L120:  2512 – 2519 .  10.3945/jn.115.211524 
+L121:  26423734
+L122: Dominy S. Lynch C. Ermini F. Benedyk M. Marczyk A. Konradi A.  ( 2019 ).  Porphyromonas gingivalis in Alzheimer’s disease brains: Evidence for disease causation and treatment with small-molecule inhibitors. 
+L123:  Sci. Adv. 
+L124:  5 
+L125:  eaau3333 .  10.1126/sciadv.aau3333 
+L126:  30746447
+L127: Dunn J. Weintraub S. Stoddard A. Banks S.  ( 2007 ).  Serum alpha-tocopherol, concurrent and past vitamin E intake, and mild cognitive impairment. 
+L128:  Neurology 
+L129:  68 
+L130:  670 – 676 .  10.1212/01.wnl.0000255940.13116.86 
+L131:  17325274
+L132: Dysken M. Sano M. Asthana S. Vertrees J. Pallaki M. Llorente M.  ( 2014 ).  Effect of vitamin E and memantine on functional decline in Alzheimer disease: the TEAM-AD VA cooperative randomized trial. 
+L133:  JAMA 
+L134:  311 
+L135:  33 – 44 .  10.1001/jama.2013.282834 
+L136:  24381967
+L137: Hajishengallis G.  ( 2015 ).  Periodontitis: from microbial immune subversion to systemic inflammation. 
+L138:  Nat. Rev. Immunol. 
+L139:  15 
+L140:  30 – 44 .  10.1038/nri3785 
+L141:  25534621
+L142: Kongstad J. Enevold C. Christensen L. Fiehn N. Holmstrup P.  ( 2017 ).  Impact of periodontitis case criteria: A cross-sectional study of lifestyle. 
+L143:  J. Periodontol. 
+L144:  88 
+L145:  602 – 609 .  10.1902/jop.2017.160426 
+L146:  28128681
+L147: Kryscio R. Abner E. Caban-Holt A. Lovell M. Goodman P. Darke A.  ( 2017 ).  Association of antioxidant supplement use and dementia in the prevention of Alzheimer’s Disease by Vitamin E and Selenium Trial (PREADViSE). 
+L148:  JAMA Neurol. 
+L149:  74 
+L150:  567 – 573 .  10.1001/jamaneurol.2016.5778 
+L151:  28319243
+L152: La Fata G. Weber P. Mohajeri M.  ( 2014 ).  Effects of vitamin E on cognitive performance during ageing and in Alzheimer’s disease. 
+L153:  Nutrients 
+L154:  6 
+L155:  5453 – 5472 .  10.3390/nu6125453 
+L156:  25460513
+L157: Li H. Wang Z. Fu Z. Yan M. Wu N. Wu H.  ( 2018 ).  Associations between blood cadmium levels and cognitive function in a cross-sectional study of US adults aged 60 years or older. 
+L158:  BMJ Open 
+L159:  8 : e020533 .  10.1136/bmjopen-2017-020533 
+L160:  29654035
+L161: Lloret A. Esteve D. Monllor P. Cervera-Ferri A. Lloret A.  ( 2019 ).  The effectiveness of vitamin E treatment in Alzheimer’s Disease. 
+L162:  Int. J. Mol. Sci. 
+L163:  20 : 879 .  10.3390/ijms20040879 
+L164:  30781638
+L165: Morris M. Wang Y. Barnes L. Bennett D. Dawson-Hughes B. Booth S.  ( 2018 ).  Nutrients and bioactives in green leafy vegetables and cognitive decline: Prospective study. 
+L166:  Neurology 
+L167:  90 
+L168:  e214 – e222 .  10.1212/WNL.0000000000004815 
+L169:  29263222
+L170: Rutjes A. Denton D. Di Nisio M. Chong L. Abraham R. Al-Assaf A.  ( 2018 ).  Vitamin and mineral supplementation for maintaining cognitive function in cognitively healthy people in mid and late life. 
+L171:  Cochrane Database Syst. Rev. 
+L172:  12 
+L173:  CD011906 .  10.1002/14651858.CD011906.pub2 
+L174:  30556597
+L175: Sano M. Ernesto C. Thomas R. Klauber M. Schafer K. Grundman M.  ( 1997 ).  A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer’s disease. The Alzheimer’s Disease Cooperative Study. 
+L176:  N. Engl. J. Med. 
+L177:  336 
+L178:  1216 – 1222 .  10.1056/NEJM199704243361704 
+L179:  9110909
+L180: Shin H. Shin M. Ahn Y. Choi B. Nam J. Kim H.  ( 2016 ).  Periodontitis is associated with cognitive impairment in elderly koreans: results from the yangpyeong cohort study. 
+L181:  J. Am. Geriatr. Soc. 
+L182:  64 
+L183:  162 – 167 .  10.1111/jgs.13781 
+L184:  26782867
+L185: Sung C. Huang R. Cheng W. Kao T. Chen W.  ( 2019 ).  Association between periodontitis and cognitive impairment: Analysis of national health and nutrition examination survey (NHANES) III. 
+L186:  J. Clin. Periodontol. 
+L187:  46 
+L188:  790 – 798 .  10.1111/jcpe.13155 
+L189:  31152592
+L190: Zong G. Scott A. Griffiths H. Zock P. Dietrich T. Newson R.  ( 2015 ).  Serum alpha-Tocopherol has a nonlinear inverse association with periodontitis among US adults. 
+L191:  J. Nutr. 
+L192:  145 
+L193:  893 – 899 .  10.3945/jn.114.203703 
+L194:  25934661
+L195: We acknowledge the staff at USDA and the National Center for Health Statistics at the CDC, who design, collect, and administer the NHANES data and release the data available for public use.
+L196: # Table_1
+L197: Supplementary Material
+L198: # The role of periodontitis in the link between alpha-tocopherol intake and cognitive performance: a mediation analysis in older adults
+L199: - Heming Zhang1, 2†, Li Sun1†, Lin Zhang3, Jiangjing Li1, Yongfei Liu1, Zhiyang Chen1,2, Shuang Wang1, Changjun Gao1*, Xude Sun1*
+L200: * Correspondence: Xude Sun: sunxudes@163.com, Changjun Gao: gaocj74@163.com
+L201: # Supplementary Figures
+L202: Supplementary Figure S1. Missing data of included participants.
+[1.1s]
+

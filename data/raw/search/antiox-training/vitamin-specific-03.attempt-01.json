@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "ascorbic acid endurance training performance"
+  ],
+  "completed_at": "2026-08-16T05:24:29.395959+00:00",
+  "elapsed_seconds": 2.2908474169671535,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:27.105144+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-03.attempt-01.stderr",
+  "stdout_bytes": 54867,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-03.attempt-01.stdout"
+}

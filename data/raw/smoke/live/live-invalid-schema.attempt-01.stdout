@@ -1,0 +1,3 @@
+ERR: map: invalid output schema: invalid Draft 2020-12 JSON Schema at allOf.3.properties.type.anyOf: 'bogus_type' is not valid under any of the given schemas
+[exit 1]
+[2.0s]

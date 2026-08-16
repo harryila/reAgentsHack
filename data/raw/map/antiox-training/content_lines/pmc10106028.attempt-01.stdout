@@ -1,0 +1,780 @@
+L1: Effects of training adaption in endurance athletes with atrial fibrillation: protocol for a multicentre randomised controlled trial
+L2: BMJ Open Sport — Exercise Medicine (2023)
+L3: Turid Apelland, Kristel Janssens, Jan Pål Loennechen, Guido Claessen, Eivind Sørensen, Amy Mitchell, Andreas Berg Sellevold, Steve Enger, Sophia Onarheim, Jon Magne Letnes, Hielko Miljoen, Arnljot Tveit, André La Gerche, Marius Myrstad
+L4: 1 
+L5:  Department of Medical Research ,  Bærum Hospital Vestre Viken Trust ,  Gjettum ,  Norway
+L6: 2 
+L7:  Baker Heart and Diabetes Institute ,  Sports Cardiology Laboratory ,  Melbourne ,  Victoria ,  Australia
+L8: 3 
+L9:  Clinic of Cardiology, St. Olav’s Hospital ,  Trondheim University Hospital ,  Trondheim ,  Norway
+L10: 4 
+L11:  Department of Circulation and Medical Imaging ,  Norwegian University of Science and Technology (NTNU) ,  Trondheim ,  Norway
+L12: 5 
+L13:  UHasselt, Faculty of Medicine and Life Sciences, BIOMED-REVAL-Rehabilitation Research Centre ,  Hasselt University ,  Diepenbeek ,  Belgium
+L14: 6 
+L15:  Hartcentrum Hasselt ,  Jessa Hospital Hasselt ,  Belgium
+L16: 7 
+L17:  Department of Cardiovascular Diseases ,  KU Leuven ,  Leuven ,  Belgium
+L18: 8 
+L19:  Department of Internal Medicine ,  Bærum Hospital Vestre Viken Trust ,  Gjettum ,  Norway
+L20: 9 
+L21:  Department of Cardiology ,  Antwerp University Hospital ,  Antwerp ,  Belgium
+L22: 10 
+L23:  Department of Medicine and Health Sciences ,  University of Antwerp ,  Antwerp ,  Belgium
+L24: 11 
+L25:  Institute of Clinical Medicine ,  University of Oslo ,  Oslo ,  Norway
+L26: 12 
+L27:  Department of Medicine, St Vincent's Hospital ,  University of Melbourne ,  Fitzroy ,  Victoria ,  Australia
+L28: Trial registration number
+L29: NCT04991337 .
+L30: Study protocol version
+L31: 4.7 (Date 9 March 2023).
+L32: Endurance athletes have a high prevalence of atrial fibrillation (AF), probably caused by exercise-induced cardiac remodelling. Athletes diagnosed with AF are often advised to reduce the intensity and amount of training but the efficacy of this intervention has not been investigated in endurance athletes with AF.  Effects of detraining in endurance athletes with atrial fibrillation  is a two-arm international multicentre randomised (1:1) controlled trial on the effects of a period of training adaption on AF burden in endurance athletes with paroxysmal AF.
+L33: One-hundred-and-twenty endurance athletes diagnosed with paroxysmal AF are randomised to a 16-week period of intervention (training adaption) or a control group. We define training adaption as training with a heart rate (HR) not exceeding 75% of the individual maximum HR (HRmax), and total duration of weekly training not exceeding 80% of the self-reported average before the study. The control group is instructed to uphold training intensity including sessions with HR ≥85% of HRmax. AF burden is monitored with insertable cardiac monitors, and training intensity with HR chest-straps and connected sports watches. The primary endpoint, AF burden, will be calculated as the cumulative duration of all AF episodes lasting ≥30sec divided by total duration of monitoring. Secondary endpoints include number of AF episodes, adherence to training adaption, exercise capacity, AF symptoms and health-related quality of life, echocardiographic signs of cardiac remodelling and risk of cardiac arrhythmias related to upholding training intensity.
+L34: Protocol; 1506
+L35: Exercise; Sports medicine; Athlete; Endurance; Cardiology
+L36: WHAT THIS STUDY ADDS
+L37: HOW THIS STUDY MIGHT AFFECT RESEARCH, PRACTICE OR POLICY
+L38: Introduction
+L39: Endurance exercise and atrial fibrillation
+L40: Compared with physical inactivity, moderate levels of physical activity reduce the risk of atrial fibrillation (AF). 1 2  Studies of inactive AF patients have demonstrated that endurance exercise may reduce AF burden even during a short intervention period. 3  Paradoxically, studies have demonstrated a high prevalence of AF among otherwise healthy male endurance athletes, suggesting vigorous endurance sport practice is a risk factor for the development of AF. 4 5  A dose-response association between AF and cumulative exposure to endurance exercise was demonstrated among more than 3500 Norwegian men aged ≥53 years, where the risk of AF increased with 16% per decade of regular exercise. 6  In a subset of these study participants, a similar relationship was demonstrated between prolonged exposure to endurance exercise and cardiac remodelling, such as atrial enlargement 7 8  ( figure 1 ). The high prevalence of AF in endurance athletes has led to the hypothesis that exercise-induced cardiac remodelling is a proarrhythmic condition. 9 10  During exercise, circulatory flow is increased up to eight times as compared with rest. 11  In response to this haemodynamic stress, long-term endurance exercise is accompanied by structural, functional and electrical cardiac remodelling referred to as the ‘athlete’s heart’. 12  Atrial enlargement is associated with pathological cardiac remodelling and an increased risk of AF in the general population. 7 13  The extent of atrial remodelling associated with long-term endurance training can be profound. 7 8  There is a lack of long-term data on cardiac effects of endurance exercise, and the pathophysiological mechanisms behind exercise-associated AF are only partly understood.
+L41: Figure 1 Prolonged exposure to endurance exercise is associated with increased risk of atrial fibrillation (A) 6  and increased atrial dimensions (B). 7 8
+L42: Training adaption
+L43: Although AF is not a life-threatening condition, high ventricular rates during exercise with AF may cause symptoms, haemodynamic compromise and safety concerns that contribute to a conservative approach among many physicians facing these athletes. The impact of altering endurance exercise load on AF burden in athletes suffering AF remains unexplored. Despite a lack of evidence, endurance athletes with AF have traditionally been advised to reduce both the amount and intensity of exercise, often referred to as detraining. 14  This approach assumes that the exercise stimulus plays a causative role in the development of AF, and that continuation of the same stimulus could lead to further cardiac remodelling and ultimately disease progression. In an animal model, rats experienced increased AF inducibility after 16 weeks of endurance training on treadmill, with AF inducibility returning to baseline levels following 4 weeks of detraining. 15  While exercise-induced ventricular hypertrophy and dilatation (‘athlete’s heart’) seems to be partially reversible by detraining, 16–18  data regarding the effects of training adaption on atrial remodelling and exercise-induced AF in humans do not exist.
+L44: Present guidelines
+L45: While an expert position statement suggests that sports activities can be resumed after diagnostic workup if the episodes of AF are rare, 19  The European Society of Cardiology guidelines on Sports Cardiology and Exercise, and guidelines for the management of AF suggest to counsel athletes that prolonged sport participation may promote AF. 20  Thus, endurance athletes with AF and their physicians are left without specific recommendations regarding the preferred exercise intensity to improve symptoms and reduce the risk of AF recurrence. Studies have shown that many athletes with AF prefer to maintain exercise intensity and competitive activities irrespective of their diagnosis. 21
+L46: Both safety questions and the effects of upholding high exercise volumes on the risk of AF recurrence were highlighted among the major knowledge gaps in the recently published ESC sports cardiology guidelines. 19  Furthermore, neither adherence to training adaption, symptoms nor quality of life (QoL) have been studied in athletes receiving exercise restrictions. Consequently, we designed a randomised controlled trial (RCT) to investigate the effects of training adaption in endurance athletes with paroxysmal AF.
+L47: Methods and analysis
+L48: Study design
+L49: Effects of Detraining in Endurance Athletes with Atrial Fibrillation (NEXAF Detraining) is an international multicentre, two-armed, RCT with blinded endpoint evaluation (ClinicalTrials.gov Registry Identifier NCT04991337). The study protocol (V.4.7, 9 March 2023) is in accordance with the SPIRIT 2013 statement regarding standard protocol items for clinical trials ( online supplemental table 1 ), 22  and meets the requirements of the WHO Trial Registration Data Set ( online supplemental table 2 ). Study participants are included at seven participating centres across three countries: Bærum Hospital, Bærum (Norway), St. Olavs Hospital, Trondheim (Norway), The Baker Heart and Diabetes Institute, Melbourne (Australia), The University Hospital of Leuven (Belgium), Antwerp University Hospital (Belgium), AZ Jan Palfijn Gent (Belgium) and Jessa Hospital Hasselt (Belgium). A total of 120 study participants will be randomised to an intervention arm with training adaption or a control arm upholding high intensity exercise for a period of 16 weeks ( online supplemental graphical abstract ,  figure 2 ). All study participants receive an insertable cardiac monitor (ICM) during the first study visit for continuous monitoring of AF burden. Subsequently, participants will practice their regular exercise for 4 weeks to allow quantification of baseline AF burden. During the second study visit (week 5) participants will undertake baseline examinations, including echocardiography, cardiopulmonary exercise testing (CPET), questionnaire, blood samples, 24-hour ambulatory ECG and randomisation. All examinations will be repeated during a follow-up study visit after 16 weeks ( figure 3 ).
+L50: Figure 2 Study design. Overview of the design of the randomised controlled trial NEXAF Detraining. HRmax, maximum heart rate; NEXAF Detraining, Effects of Detraining in Endurance Athletes with Atrial Fibrillation.
+L51: Figure 3 Study visit schedule and study procedures of the randomised controlled trial. AF, atrial fibrillation; CPET, cardiopulmonary exercise testing; NEXAF Detraining, Effects of Detraining in Endurance Athletes with Atrial Fibrillation.
+L52: Objectives and hypothesis
+L53: The primary objective of the study is to clarify whether a period of training adaption reduces AF burden in endurance athletes with paroxysmal AF. Secondary objectives are to study the adherence to training adaption, effects of training adaption on AF symptoms and health-related QoL, risk of cardiac arrhythmias related to upholding high-intensity training and to improve the understanding of underlying mechanisms for AF by studying structural and electrical cardiac remodelling. We hypothesise that a period of tailored training will reduce AF burden and improve QoL in endurance athletes with paroxysmal AF.
+L54: Endpoints
+L55: The primary endpoint is AF burden, as measured by continuous monitoring with ICMs and calculated as the cumulative duration of all AF episodes lasting ≥30 s divided by total duration of monitoring. All AF episodes will be adjudicated by a blinded endpoint committee consisting of two cardiologists, who will adjudicate AF episodes independently and reach consensus in the case of discrepancy.  Table 1  shows an overview of study endpoints.
+L56: Table 1 Primary and secondary endpoints of NEXAF Detraining
+L57: Study population and eligibility criteria
+L58: Eligibility criteria include female and male endurance athletes aged ≥18 years, diagnosed with paroxysmal AF. Participants in this study are athletes of elite and recreational levels, who are performing structured, repetitive exercise aiming to improve their physical fitness and are engaged in regular endurance sports such as running and rowing for at least 5 hours/week or cycling and cross-country skiing for at least 8 hours/week on average, or a combination of these sports or other comparable endurance sports characterised by medium or high intensity. 20  As weekly hours of exercise are an arbitrary measure, cut-offs are pragmatic choices and indicative.
+L59: We include athletes reporting at least two episodes of AF, of which at least one that has occurred during the past 6 months. To minimise the impact of other factors that may have caused AF or may affect AF burden, athletes with arterial hypertension and other cardiovascular risk factors or conditions are excluded from participating in the study. People at high risk of adverse cardiovascular events, including athletes with cardiovascular risk factors, a strong family history of coronary artery disease or sudden death or symptoms during activity, are excluded after a preparticipating screening by questionnaire. 20 23 24 
+L60:  Box 1  shows the eligibility criteria for the study. To be included, participants must fulfil all inclusion criteria and have no exclusion criteria.
+L61: Inclusion criteria
+L62: Exclusion criteria
+L63: Informed consent
+L64: Eligible participants receive written and oral information about the study and must sign an informed consent form approved by the ethical committee for medical research of the respective study centres.
+L65: Atrial fibrillation monitoring
+L66: We insert a wireless ICM ( Confirm Rx,  Abbott, Sylmar, California, USA) subcutaneously near the left parasternal area over the third or fourth intercostal space at 45° to the sternum in men and 10°–15° in women. At the end of the procedure, we confirm reliable signal quality and R-wave sensing using an external programmer. ICMs are programmed to detect and record arrhythmic events defined as AF episodes lasting ≥30 s, pauses ≥3 s, bradycardia with heart rate (HR) ≤30 beats per minute (bpm) and tachycardia lasting ≥12 beats with a HR ≥180 bpm. In participants with a measured maximum HR (HRmax) >170 bpm, we programme the ICM to detect tachycardia when HR exceeds the recorded HRmax by ≥10 bpm. The device connects via Bluetooth and a smartphone application, and the data are uploaded to a secure server every 24 hours. Summarised reports of data from the ICM are generated every fourth week during the entire study period, reporting total time in AF, number and duration of AF episodes, pauses, bradycardia and tachycardia episodes. The ICM will be removed after the study or kept for up to the battery life expectancy of 2 years, on the participants’ request.
+L67: Intervention
+L68: The study participants are randomised 1:1, stratified by recruiting centre and AF burden during the 4-week baseline observation (<4% or ≥4%), to training adaption (intervention) or a control group. The participants are assigned to each group using a predefined permuted block randomisation to avoid imbalanced data. The allocation sequence was prepared by a statistician not directly involved in the study and is unavailable to the study personal and is implemented at each participating centre during the second study visit by use of sealed envelopes.
+L69: The training adaption is individually tailored, based on HRmax and the self-reported average weekly hours of training during the past 6 months. The intervention group is instructed to avoid high-intensity exercise corresponding to a HR >75% of HRmax, and a total duration of exercise (hours/week) corresponding to <80% of the self-reported average weekly amount of exercise (hours/week) for a period of 16 weeks. The control group is instructed to perform at least 3 weekly sessions of high-intensity training, corresponding to a HR of ≥85% HRmax, and otherwise continue endurance exercise as usual, for a period of 16 weeks. For practical reasons, we have chosen to define exercise intensity as a percentage of the individual’s HRmax. We use the highest reliable HRmax value measured in sinus rhythm via ECG monitoring during the CPET or during exercise with a HR chest-strap and a connected sports watch. To avoid caveats related to the use of HRmax in participants using beta-blockers, we use the HRmax derived from CPET performed while the participant has taken their medication.
+L70: Based on a pragmatic approach, we have defined training adaption as reducing exercise intensity to ≤75% of HRmax, corresponding to the threshold for moderate intensity suggested in exercise guidelines for the general population. 25  Furthermore, to avoid compensation of the reduced intensity by increased training volume, participants are instructed to reduce their weekly hours of endurance exercise by 20%. Based on previous studies of detraining in animal models and athletes, we considered a period of reduced training intensity of 16 weeks to be sufficient to affect AF burden and at the same time acceptable to the athletes. 15–17
+L71: Exercise monitoring
+L72: Participants are instructed to wear a HR monitor strapped around the chest and a sports watch when exercising throughout the entire study period. The HR chest-strap and watch connect using Bluetooth technology. We make use of the study participants’ personal sports watches. Alternatively, study participants receive a HR chest-strap (Garmin HRM-PRO) and sports watch (Garmin Forerunner 745) for the study period. The sports watch connects with Bluetooth technology to a web-based platform (Fitrockr, Digital Rebels, Berlin, Germany or TrainingPeaks, Louisville, Colorado, USA). We register the total amount of exercise and time during exercise sessions at different HR zones, <61%, 61%–70%, 71%–75%, 76%–80%, 81%–84%, 85%–90% and >90% of HRmax, respectively. This exercise monitoring allows assessment of adherence to the study intervention.
+L73: Blood samples
+L74: Fasting blood samples for analyses of biomarkers for cardiovascular risk factors are collected at rest at baseline and follow-up. Serum and plasma are stored at −80°C for subsequent batch analyses of biomarkers relevant for AF. In addition, we collect blood samples before and at maximal effort during CPET to assess the acute response to exercise (High-sensitive Troponins, NT-proBNP).
+L75: Questionnaires
+L76: At baseline and follow-up, the participants are asked to fill out the Atrial Fibrillation Effect on QualiTy-of-life questionnaire (AFEQT), assessing severity and frequency of AF symptoms, daily activity, treatment concerns and satisfaction. 26  We score the AF symptom severity from none (1) to disabling (4) using the Modified European Heart Rhythm Association Symptom Scale. 27  At baseline, we also obtain patients characteristics, self-reported history of endurance exercise and frequency, duration and triggers of AF episodes. At follow-up, participants are requested to fill out a questionnaire concerning AF treatment during the study and their experience with the ICM and the study intervention.
+L77: Transthoracic echocardiography
+L78: Transthoracic echocardiography is performed in sinus rhythm with a study-specific protocol in line with current recommendations. 28 29  For assessment of cardiac structure and function, we perform resting two-dimensional (2D) and three-dimensional (3D) transthoracic echocardiography using the Vivid E95 ultrasound system (GE Healthcare, Horten, Norway). Images are obtained using a 1.5-4MHz matrix-array transducer (GE 4Vc-D Matrix 4D cardiac probe, GE healthcare, Horten, Norway). 2D-greyscale, colour Doppler and tissue Doppler imaging data will be obtained, in addition to 3D of the left atrium. A physician blinded to the participant’s clinical and study information will analyse the acquired images offline (Echo Pac, V.204, GE Vingmed Ultrasound, Horten, Norway). We assess systolic and diastolic volumes of both atria and the left ventricle, and right ventricular size. Comprehensive two-dimensional speckle tracking analyses will be performed of all four chambers, combined with established Doppler parameters to obtain information about systolic and diastolic function.
+L79: Cardiopulmonary exercise testing (CPET)
+L80: We perform CPET using a study-specific protocol. A standard 12-lead ECG is recorded at rest and throughout the test. 23  Peak oxygen consumption (VO2peak) is measured in sinus rhythm using one of three predefined continuous ramp bicycle protocols, based on the patient’s estimated physical capacity. All protocols start with 2 min rest on the bicycle, followed by a 3 min steady state warm-up at 40 or 50 W before gradually increasing resistance at a rate of 20–30 W/min until exhaustion, corresponding to 17–20 on the Borg 6–20 scale. 30  In the recovery phase, the participant will stop cycling completely and rest for at least 6 min, until normalisation of blood pressure. VO2peak is defined as the maximal value obtained from a 30 s rolling average of the six consecutive highest VO2 values recorded from the 5 s averaged data.
+L81: 24-hour ECG monitoring
+L82: We use ambulatory 24-hour ECG monitoring at baseline and follow-up to assess arrhythmias that are not properly registered by the ICM and that may be induced by the maximal effort during CPET.
+L83: Adverse events
+L84: Any unfavourable and unintended sign, symptom or illness that develops or worsens during the trial period will be reported as adverse events (AE). A serious adverse event (SAE) is defined as death, any life-threatening event or any inpatient hospitalisation. In the analyses, AE will be summarised per treatment group by event type, intensity, seriousness and relationship. The timing of SAE will be categorised as occurring during exercise, within the first hour postexercise, or 1–24-hour postexercise. The activity at the time of the event will be further characterised as occurring during training or competition, at rest or during sleep. 31  All SAE will be reported to the Study Safety Monitoring Committee (SMC) that will independently evaluate the safety of the study. Formal interim analyses of AE summarised per treatment group will be reported to study SMC after 25% and 50% of the participants have completed the study.
+L85: Blinding
+L86: This is an open label study and participants are not blinded to group allocation. Researchers and staff are unblinded during all procedures. AF burden will be adjudicated by a blinded endpoint committee.
+L87: Data management
+L88: Data sources are stored at each participating centre according to local procedures. Data entry is performed by local study personal using a web-based electronic case report form (Ledidi Core, Oslo, Norway). After study completion, before database lock and unblinding, all data from 10% of the participants will be checked by a monitor not involved in the study for consistency with source data. Due to the non-commercial nature of the study, the type of intervention and relatively small study size, we considered a data monitoring committee and formal interim analyses not to be required. The final dataset will be accessed by a statistician blinded to group allocation, and researchers will be blinded when performing statistical analyses.
+L89: Statistical considerations
+L90: We consider a mean difference in the burden of AF of 0.5% between the detraining group and the control group to be clinically meaningful. A 0.5% difference with a SD in each group of 1% was used to calculate a minimum sample size of 64 participants per group using an independent samples t-test and β=0.2 (power 80%) at α=0.05. However, the primary analysis will be a linear mixed model for repeated measurements and a sample size estimation based on t-test provides thereby a conservative estimate. We also performed a power calculation based on a study of Malmo  et al , 3  for the outcome difference between the groups in change of AF from baseline to follow-up. In that study AF burden measured with ICMs was reduced by 41% (−3.3% (SD 7.2) from a baseline value of 8.1% (SD 11.2) after a 12-week exercise intervention, compared with+4.2% in the control group). Based on t-tests of means, to detect a difference in change in AF burden of 7.5% between the groups with β=0.2 (power 80%) and α=0.05, a minimum of 28 participants per group is required. Because the baseline AF burden is likely to be lower in the current study than in the study by Malmo, we suggested 60 participants per group. Since we cannot rule out a possible worse outcome in the intervention group, we plan to use a two-sided hypothesis test.
+L91: All randomised participants will be included in the main analysis of primary and secondary endpoints. Since adherence to detraining is a secondary outcome measure, major comparisons between randomised groups will be performed by the ‘intention-to-treat’ principle, meaning that patients will be analysed according to the planned intervention. However, some analyses may also be performed using ‘per-protocol’ or ‘as-treated’ data. We define adherence to the detraining intervention as ≥80% of total volume of endurance exercise during the study period performed at an intensity corresponding to a HR of ≤75% of HRmax, based on the exercise monitoring with chest-straps and sports watches.
+L92: We plan to publish a detailed statistical analysis plan separately before randomisation of the last study participant.
+L93: Trial status
+L94: The study has been approved by the ethical committees of the Norwegian Regional Committees for Medical and Health Research Ethics, the Alfred Hospital Human Research Ethics committee, Melbourne, Australia and the Ethics Committee Research UZ/KU Leuven, Belgium. The first study participant was included at Bærum Hospital on 5 January 2022. As of 10 March 2023, 23 participants have been included at three study centres, 9 of which have completed the study. Recruitment is expected to be completed within 2 years, and the results will be communicated through publications.
+L95: Clinical implications
+L96: Cardiac arrhythmias in athletes represent a major challenge for sports cardiologists. Ventricular arrhythmias and sudden cardiac death in young athletes have been the main focus of research and discussions in this field. AF is a less severe but much more prevalent condition, especially in middle-aged and older male athletes. While several studies and meta-analyses have related the risk of AF to endurance sport practice, the mechanisms underlying this association have been less studied. With the aim to design an intervention that is sufficient to have an effect, but also acceptable to athletes and feasible in real-life, the training intervention in the current study represent a pragmatic compromise with regards to intensity and amount of exercise and duration of the intervention period. Female athletes have been underrepresented in previous studies and the association between endurance exercise and AF is less clear in female compared with male athletes. With the aim to increase the knowledge regarding exercise-induced cardiac remodelling and arrhythmias among female athletes, both female and male athletes are included. 32
+L97: Conclusion
+L98: Endurance athletes with AF and their physicians are left without specific recommendations regarding the preferred exercise intensity to improve symptoms and reduce the risk of AF recurrence. This RCT addresses the feasibility and effects of training adaption in endurance athletes with paroxysmal AF and has the potential to guide development of exercise recommendations for athletes with AF.
+L99: Data availability statement
+L100: No data are available.
+L101: Ethics statements
+L102: Patient consent for publication
+L103: Not applicable.
+L104: Ethics approval
+L105: This study involves human participants and was approved by Ethics approval Ethics committee reference number Norway: REK sør-øst A/212748, Australia: HREC/76210/Alfred-2021 Project No. 470/21, Belgium: Ethics Committee Research UZ/KU Leuven/ S65930. Participants gave informed consent to participate in the study before taking part.
+L106: Supplementary data
+L107: Supplementary data
+L108: Supplementary data
+L109: Supplementary data
+L110: 1 Garnvik 
+L111:  LE 
+L112:  ,  
+L113:  Malmo 
+L114:  V 
+L115:  ,  
+L116:  Janszky 
+L117:  I 
+L118:  ,  et al 
+L119:  .  Physical activity, cardiorespiratory fitness, and cardiovascular outcomes in individuals with atrial fibrillation: the HUNT study .  Eur Heart J 
+L120:  2020 ; 41 : 1467 – 75 .  10.1093/eurheartj/ehaa032 
+L121:  32047884
+L122: 2 Morseth 
+L123:  B 
+L124:  ,  
+L125:  Graff-Iversen 
+L126:  S 
+L127:  ,  
+L128:  Jacobsen 
+L129:  BK 
+L130:  ,  et al 
+L131:  .  Physical activity, resting heart rate, and atrial fibrillation: the Tromsø study .  Eur Heart J 
+L132:  2016 ; 37 : 2307 – 13 .  10.1093/eurheartj/ehw059 
+L133:  26966149
+L134: 3 Malmo 
+L135:  V 
+L136:  ,  
+L137:  Nes 
+L138:  BM 
+L139:  ,  
+L140:  Amundsen 
+L141:  BH 
+L142:  ,  et al 
+L143:  .  Aerobic interval training reduces the burden of atrial fibrillation in the short term: a randomized trial .  Circulation 
+L144:  2016 ; 133 : 466 – 73 .  10.1161/CIRCULATIONAHA.115.018220 
+L145:  26733609
+L146: 4 Elliott 
+L147:  AD 
+L148:  ,  
+L149:  Linz 
+L150:  D 
+L151:  ,  
+L152:  Verdicchio 
+L153:  CV 
+L154:  ,  et al 
+L155:  .  Exercise and atrial fibrillation: prevention or causation? 
+L156:  Heart Lung Circ 
+L157:  2018 ; 27 : 1078 – 85 .  10.1016/j.hlc.2018.04.296 
+L158:  29891251
+L159: 5 Flannery 
+L160:  MD 
+L161:  ,  
+L162:  Kalman 
+L163:  JM 
+L164:  ,  
+L165:  Sanders 
+L166:  P 
+L167:  ,  et al 
+L168:  .  State of the art review: atrial fibrillation in athletes .  Heart Lung Circ 
+L169:  2017 ; 26 : 983 – 9 .  10.1016/j.hlc.2017.05.132 
+L170:  28606607
+L171: 6 Myrstad 
+L172:  M 
+L173:  ,  
+L174:  Nystad 
+L175:  W 
+L176:  ,  
+L177:  Graff-Iversen 
+L178:  S 
+L179:  ,  et al 
+L180:  .  Effect of years of endurance exercise on risk of atrial fibrillation and atrial flutter .  Am J Cardiol 
+L181:  2014 ; 114 : 1229 – 33 .  10.1016/j.amjcard.2014.07.047 
+L182:  25169984
+L183: 7 Sørensen 
+L184:  E 
+L185:  ,  
+L186:  Myrstad 
+L187:  M 
+L188:  ,  
+L189:  Solberg 
+L190:  MG 
+L191:  ,  et al 
+L192:  .  Left atrial function in male veteran endurance athletes with paroxysmal atrial fibrillation .  Eur Heart J Cardiovasc Imaging 
+L193:  2021 ; 23 : 137 – 46 .  10.1093/ehjci/jeab248 
+L194:  34849678
+L195: 8 Sørensen 
+L196:  E 
+L197:  ,  
+L198:  Myrstad 
+L199:  M 
+L200:  ,  
+L201:  Solberg 
+L202:  MG 
+L203:  ,  et al 
+L204:  .  Right heart structure and function in lifelong recreational endurance athletes with and without paroxysmal atrial fibrillation .  J Am Soc Echocardiogr 
+L205:  2022 ; 35 : 1259 – 68 .  10.1016/j.echo.2022.06.008 
+L206:  35760278
+L207: 9 Heidbuchel 
+L208:  H 
+L209:  
+L210:  .  The athlete’s heart is a proarrhythmic heart, and what that means for clinical decision making .  Europace 
+L211:  2018 ; 20 : 1401 – 11 .  10.1093/europace/eux294 
+L212:  29244075
+L213: 10 La Gerche 
+L214:  A 
+L215:  ,  
+L216:  Wasfy 
+L217:  MM 
+L218:  ,  
+L219:  Brosnan 
+L220:  MJ 
+L221:  ,  et al 
+L222:  .  The athlete’s heart-challenges and controversies: JACC focus seminar 4/4 .  J Am Coll Cardiol 
+L223:  2022 ; 80 : 1346 – 62 .  10.1016/j.jacc.2022.07.014 
+L224:  36075838
+L225: 11 La Gerche 
+L226:  A 
+L227:  ,  
+L228:  Claessen 
+L229:  G 
+L230:  ,  
+L231:  Van de Bruaene 
+L232:  A 
+L233:  ,  et al 
+L234:  .  Cardiac MRI: a new gold standard for ventricular volume quantification during high-intensity exercise .  Circ Cardiovasc Imaging 
+L235:  2013 ; 6 : 329 – 38 .  10.1161/CIRCIMAGING.112.980037 
+L236:  23258478
+L237: 12 Prior 
+L238:  DL 
+L239:  ,  
+L240:  La Gerche 
+L241:  A 
+L242:  
+L243:  .  The athlete’s heart .  Heart 
+L244:  2012 ; 98 : 947 – 55 .  10.1136/heartjnl-2011-301329 
+L245:  22626903
+L246: 13 Olsen 
+L247:  FJ 
+L248:  ,  
+L249:  Møgelvang 
+L250:  R 
+L251:  ,  
+L252:  Jensen 
+L253:  GB 
+L254:  ,  et al 
+L255:  .  Relationship between left atrial functional measures and incident atrial fibrillation in the general population: the copenhagen city heart study .  JACC Cardiovasc Imaging 
+L256:  2019 ; 12 : 981 – 9 .  10.1016/j.jcmg.2017.12.016 
+L257:  29454773
+L258: 14 Heidbüchel 
+L259:  H 
+L260:  ,  
+L261:  Panhuyzen-Goedkoop 
+L262:  N 
+L263:  ,  
+L264:  Corrado 
+L265:  D 
+L266:  ,  et al 
+L267:  .  Recommendations for participation in leisure-time physical activity and competitive sports in patients with arrhythmias and potentially arrhythmogenic conditions Part I: supraventricular arrhythmias and pacemakers .  Eur J Cardiovasc Prev Rehabil 
+L268:  2006 ; 13 : 475 – 84 .  10.1097/01.hjr.0000216543.54066.72 
+L269:  16874135
+L270: 15 Guasch 
+L271:  E 
+L272:  ,  
+L273:  Benito 
+L274:  B 
+L275:  ,  
+L276:  Qi 
+L277:  X 
+L278:  ,  et al 
+L279:  .  Atrial fibrillation promotion by endurance exercise: demonstration and mechanistic exploration in an animal model .  J Am Coll Cardiol 
+L280:  2013 ; 62 : 68 – 77 .  10.1016/j.jacc.2013.01.091 
+L281:  23583240
+L282: 16 Pedlar 
+L283:  CR 
+L284:  ,  
+L285:  Brown 
+L286:  MG 
+L287:  ,  
+L288:  Shave 
+L289:  RE 
+L290:  ,  et al 
+L291:  .  Cardiovascular response to prescribed detraining among recreational athletes .  J Appl Physiol (1985) 
+L292:  2018 ; 124 : 813 – 20 .  10.1152/japplphysiol.00911.2017 
+L293:  29212672
+L294: 17 Petek 
+L295:  BJ 
+L296:  ,  
+L297:  Groezinger 
+L298:  EY 
+L299:  ,  
+L300:  Pedlar 
+L301:  CR 
+L302:  ,  et al 
+L303:  .  Cardiac effects of detraining in athletes: a narrative review .  Ann Phys Rehabil Med 
+L304:  2022 ; 65 : 101581 .  10.1016/j.rehab.2021.101581 
+L305:  34624549
+L306: 18 D’Ascenzi 
+L307:  F 
+L308:  ,  
+L309:  Pelliccia 
+L310:  A 
+L311:  ,  
+L312:  Natali 
+L313:  BM 
+L314:  ,  et al 
+L315:  .  Training-Induced dynamic changes in left atrial reservoir, conduit, and active volumes in professional soccer players .  Eur J Appl Physiol 
+L316:  2015 ; 115 : 1715 – 23 .  10.1007/s00421-015-3151-7 
+L317:  25808863
+L318: 19 Heidbuchel 
+L319:  H 
+L320:  ,  
+L321:  Adami 
+L322:  PE 
+L323:  ,  
+L324:  Antz 
+L325:  M 
+L326:  ,  et al 
+L327:  .  Recommendations for participation in leisure-time physical activity and competitive sports in patients with arrhythmias and potentially arrhythmogenic conditions: Part 1: supraventricular arrhythmias. A position statement of the section of sports cardiology and exercise from the European association of preventive cardiology (EAPC) and the European heart rhythm association (ehra), both associations of the European Society of cardiology .  Eur J Prev Cardiol 
+L328:  2021 ; 28 : 1539 – 51 .  10.1177/2047487320925635 
+L329:  32597206
+L330: 20 Pelliccia 
+L331:  A 
+L332:  ,  
+L333:  Sharma 
+L334:  S 
+L335:  ,  
+L336:  Gati 
+L337:  S 
+L338:  ,  et al 
+L339:  .  2020 ESC guidelines on sports cardiology and exercise in patients with cardiovascular disease .  Eur Heart J 
+L340:  2021 ; 42 : 17 – 96 .  10.1093/eurheartj/ehaa605 
+L341:  32860412
+L342: 21 Myrstad 
+L343:  M 
+L344:  ,  
+L345:  Aarønæs 
+L346:  M 
+L347:  ,  
+L348:  Graff-Iversen 
+L349:  S 
+L350:  ,  et al 
+L351:  .  Physical activity, symptoms, medication and subjective health among veteran endurance athletes with atrial fibrillation .  Clin Res Cardiol 
+L352:  2016 ; 105 : 154 – 61 .  10.1007/s00392-015-0898-0 
+L353:  26210772
+L354: 22 Chan 
+L355:  A-W 
+L356:  ,  
+L357:  Tetzlaff 
+L358:  JM 
+L359:  ,  
+L360:  Altman 
+L361:  DG 
+L362:  ,  et al 
+L363:  .  SPIRIT 2013 statement: defining standard protocol items for clinical trials .  Ann Intern Med 
+L364:  2013 ; 158 : 200 – 7 .  10.7326/0003-4819-158-3-201302050-00583 
+L365:  23295957
+L366: 23 Balady 
+L367:  GJ 
+L368:  ,  
+L369:  Chaitman 
+L370:  B 
+L371:  ,  
+L372:  Driscoll 
+L373:  D 
+L374:  ,  et al 
+L375:  .  Recommendations for cardiovascular screening, staffing, and emergency policies at health/fitness facilities .  Circulation 
+L376:  1998 ; 97 : 2283 – 93 .  10.1161/01.cir.97.22.2283 
+L377:  9631884
+L378: 24 Borjesson 
+L379:  M 
+L380:  ,  
+L381:  Urhausen 
+L382:  A 
+L383:  ,  
+L384:  Kouidi 
+L385:  E 
+L386:  ,  et al 
+L387:  .  Cardiovascular evaluation of middle-aged/ senior individuals engaged in leisure-time sport activities: position stand from the sections of exercise physiology and sports cardiology of the european association of cardiovascular prevention and rehabilitation .  Eur J Cardiovasc Prev Rehabil 
+L388:  2011 ; 18 : 446 – 58 .  10.1097/HJR.0b013e32833bo969 
+L389:  21450560
+L390: 25 Vanhees 
+L391:  L 
+L392:  ,  
+L393:  De Sutter 
+L394:  J 
+L395:  ,  
+L396:  GeladaS 
+L397:  N 
+L398:  ,  et al 
+L399:  .  Importance of characteristics and modalities of physical activity and exercise in defining the benefits to cardiovascular health within the general population: recommendations from the EACPR (part I) .  Eur J Prev Cardiol 
+L400:  2012 ; 19 : 670 – 86 .  10.1177/2047487312437059 
+L401:  22637742
+L402: 26 Spertus 
+L403:  J 
+L404:  ,  
+L405:  Dorian 
+L406:  P 
+L407:  ,  
+L408:  Bubien 
+L409:  R 
+L410:  ,  et al 
+L411:  .  Development and validation of the atrial fibrillation effect on quality-of-life (AFEQT) questionnaire in patients with atrial fibrillation .  Circ Arrhythm Electrophysiol 
+L412:  2011 ; 4 : 15 – 25 .  10.1161/CIRCEP.110.958033 
+L413:  21160035
+L414: 27 Wynn 
+L415:  GJ 
+L416:  ,  
+L417:  Todd 
+L418:  DM 
+L419:  ,  
+L420:  Webber 
+L421:  M 
+L422:  ,  et al 
+L423:  .  The European heart rhythm association symptom classification for atrial fibrillation: validation and improvement through a simple modification .  Europace 
+L424:  2014 ; 16 : 965 – 72 .  10.1093/europace/eut395 
+L425:  24534264
+L426: 28 Lang 
+L427:  RM 
+L428:  ,  
+L429:  Badano 
+L430:  LP 
+L431:  ,  
+L432:  Mor-Avi 
+L433:  V 
+L434:  ,  et al 
+L435:  .  Recommendations for cardiac chamber quantification by echocardiography in adults: an update from the American Society of echocardiography and the European association of cardiovascular imaging .  Eur Heart J Cardiovasc Imaging 
+L436:  2015 ; 16 : 233 – 70 .  10.1093/ehjci/jev014 
+L437:  25712077
+L438: 29 Nagueh 
+L439:  SF 
+L440:  ,  
+L441:  Smiseth 
+L442:  OA 
+L443:  ,  
+L444:  Appleton 
+L445:  CP 
+L446:  ,  et al 
+L447:  .  Recommendations for the evaluation of left ventricular diastolic function by echocardiography: an update from the american society of echocardiography and the european association of cardiovascular imaging .  J Am Soc Echocardiogr 
+L448:  2016 ; 29 : 277 – 314 .  10.1016/j.echo.2016.01.011 
+L449:  27037982
+L450: 30 Borg 
+L451:  G 
+L452:  
+L453:  .  Perceived exertion as an indicator of somatic stress .  Scand J Rehabil Med 
+L454:  1970 ; 2 : 92 – 8 . 5523831
+L455: 31 Solberg 
+L456:  EE 
+L457:  ,  
+L458:  Borjesson 
+L459:  M 
+L460:  ,  
+L461:  Sharma 
+L462:  S 
+L463:  ,  et al 
+L464:  .  Sudden cardiac arrest in sports-need for uniform registration: a position paper from the sport cardiology section of the European association for cardiovascular prevention and rehabilitation .  Eur J Prev Cardiol 
+L465:  2016 ; 23 : 657 – 67 .  10.1177/2047487315599891 
+L466:  26285770
+L467: 32 Myrstad 
+L468:  M 
+L469:  ,  
+L470:  Sørensen 
+L471:  E 
+L472:  ,  
+L473:  Janssens 
+L474:  K 
+L475:  ,  et al 
+L476:  .  Exercise-induced cardiac remodeling and atrial fibrillation in female endurance athletes .  J Am Soc Echocardiogr 
+L477:  2023 ; 36 : 344 – 5 .  10.1016/j.echo.2022.12.006 
+L478:  36513172
+L479: We thank Kristine Seland Folkenborg and Vigdis Bache-Semb, Bærum Hospital, for their contribution to the practical organising of the study, Trond-Inge Weatherup, Vestre Viken Hospital Trust, for his contribution with the data management, Are Hugo Pripp, University of Oslo, for assistance with power calculations and statistical considerations, Hilde Larhammer, Bærum Hospital, Asher Knudson and Tor Håkon Grønli, Abbott Norway, for assisting with ICM implantations and programming and Marte Meyer Walle-Hansen, Bærum Hospital, for her help with the figures. This work was executed within the framework of the research consortium the Norwegian Exercise and Atrial Fibrillation Initiative (NEXAF) (online supplemental file 3).
+L480: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L481: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L482: SPIRIT 2013 Checklist: Recommended items to address in a clinical trial protocol and
+L483: related documents*
+L484: **Section/item** **Item**
+L485: **No**
+L486: **Description**
+L487: **Administrative information**
+L488: Title 1 Descriptive title identifying the study design, population, interventions,
+L489: and, if applicable, trial acronym
+L490: Trial registration 2a Trial identifier and registry name. If not yet registered, name of
+L491: intended registry
+L492: 2b All items from the World Health Organization Trial Registration Data
+L493: Set
+L494: Protocol version 3 Date and version identifier
+L495: Funding 4 Sources and types of financial, material, and other support
+L496: Roles and
+L497: responsibilities
+L498: **Introduction**
+L499: 5a Names, affiliations, and roles of protocol contributors
+L500: 5b Name and contact information for the trial sponsor
+L501: 5c Role of study sponsor and funders, if any, in study design; collection,
+L502: management, analysis, and interpretation of data; writing of the report;
+L503: and the decision to submit the report for publication, including whether
+L504: they will have ultimate authority over any of these activities
+L505: 5d Composition, roles, and responsibilities of the coordinating centre,
+L506: steering committee, endpoint adjudication committee, data
+L507: management team, and other individuals or groups overseeing the
+L508: trial, if applicable (see Item 21a for data monitoring committee)
+L509: Background and 6a Description of research question and justification for undertaking the
+L510: rationale trial, including summary of relevant studies (published and
+L511: unpublished) examining benefits and harms for each intervention
+L512: 6b Explanation for choice of comparators
+L513: Objectives 7 Specific objectives or hypotheses
+L514: Trial design 8 Description of trial design including type of trial (eg, parallel group,
+L515: crossover, factorial, single group), allocation ratio, and framework (eg,
+L516: superiority, equivalence, noninferiority, exploratory)
+L517: 1
+L518: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L519: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L520: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L521: **Methods: Participants, interventions, and outcomes**
+L522: Study setting 9 Description of study settings (eg, community clinic, academic hospital)
+L523: and list of countries where data will be collected. Reference to where
+L524: list of study sites can be obtained
+L525: Eligibility criteria 10 Inclusion and exclusion criteria for participants. If applicable, eligibility
+L526: criteria for study centres and individuals who will perform the
+L527: interventions (eg, surgeons, psychotherapists)
+L528: Interventions 11a Interventions for each group with sufficient detail to allow replication,
+L529: including how and when they will be administered
+L530: 11b Criteria for discontinuing or modifying allocated interventions for a
+L531: given trial participant (eg, drug dose change in response to harms,
+L532: participant request, or improving/worsening disease)
+L533: 11c Strategies to improve adherence to intervention protocols, and any
+L534: procedures for monitoring adherence (eg, drug tablet return,
+L535: laboratory tests)
+L536: 11d Relevant concomitant care and interventions that are permitted or
+L537: prohibited during the trial
+L538: Outcomes 12 Primary, secondary, and other outcomes, including the specific
+L539: measurement variable (eg, systolic blood pressure), analysis metric
+L540: (eg, change from baseline, final value, time to event), method of
+L541: aggregation (eg, median, proportion), and time point for each
+L542: outcome. Explanation of the clinical relevance of chosen efficacy and
+L543: harm outcomes is strongly recommended
+L544: Participant
+L545: timeline
+L546: 13 Time schedule of enrolment, interventions (including any run-ins and
+L547: washouts), assessments, and visits for participants. A schematic
+L548: diagram is highly recommended (see Figure)
+L549: Sample size 14 Estimated number of participants needed to achieve study objectives
+L550: and how it was determined, including clinical and statistical
+L551: assumptions supporting any sample size calculations
+L552: Recruitment 15 Strategies for achieving adequate participant enrolment to reach
+L553: target sample size
+L554: **Methods: Assignment of interventions (for controlled trials)**
+L555: Allocation:
+L556: Sequence
+L557: generation
+L558: 16a Method of generating the allocation sequence (eg, computergenerated random numbers), and list of any factors for stratification.
+L559: To reduce predictability of a random sequence, details of any planned
+L560: restriction (eg, blocking) should be provided in a separate document
+L561: that is unavailable to those who enrol participants or assign
+L562: interventions
+L563: 2
+L564: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L565: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L566: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L567: Allocation
+L568: concealment
+L569: mechanism
+L570: 16b Mechanism of implementing the allocation sequence (eg, central
+L571: telephone; sequentially numbered, opaque, sealed envelopes),
+L572: describing any steps to conceal the sequence until interventions are
+L573: assigned
+L574: Implementation 16c Who will generate the allocation sequence, who will enrol participants,
+L575: and who will assign participants to interventions
+L576: Blinding
+L577: (masking)
+L578: 17a Who will be blinded after assignment to interventions (eg, trial
+L579: participants, care providers, outcome assessors, data analysts), and
+L580: how
+L581: 17b If blinded, circumstances under which unblinding is permissible, and
+L582: procedure for revealing a participant’s allocated intervention during
+L583: the trial
+L584: **Methods: Data collection, management, and analysis**
+L585: Data collection
+L586: methods
+L587: Data
+L588: management
+L589: Statistical
+L590: methods
+L591: 18a Plans for assessment and collection of outcome, baseline, and other
+L592: trial data, including any related processes to promote data quality (eg,
+L593: duplicate measurements, training of assessors) and a description of
+L594: study instruments (eg, questionnaires, laboratory tests) along with
+L595: their reliability and validity, if known. Reference to where data
+L596: collection forms can be found, if not in the protocol
+L597: 18b Plans to promote participant retention and complete follow-up,
+L598: including list of any outcome data to be collected for participants who
+L599: discontinue or deviate from intervention protocols
+L600: 19 Plans for data entry, coding, security, and storage, including any
+L601: related processes to promote data quality (eg, double data entry;
+L602: range checks for data values). Reference to where details of data
+L603: management procedures can be found, if not in the protocol
+L604: 20a Statistical methods for analysing primary and secondary outcomes.
+L605: Reference to where other details of the statistical analysis plan can be
+L606: found, if not in the protocol
+L607: 20b Methods for any additional analyses (eg, subgroup and adjusted
+L608: analyses)
+L609: 20c Definition of analysis population relating to protocol non-adherence
+L610: (eg, as randomised analysis), and any statistical methods to handle
+L611: missing data (eg, multiple imputation)
+L612: **Methods: Monitoring**
+L613: Data monitoring 21a Composition of data monitoring committee (DMC); summary of its role
+L614: and reporting structure; statement of whether it is independent from
+L615: the sponsor and competing interests; and reference to where further
+L616: details about its charter can be found, if not in the protocol.
+L617: Alternatively, an explanation of why a DMC is not needed
+L618: 3
+L619: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L620: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L621: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L622: 21b Description of any interim analyses and stopping guidelines, including
+L623: who will have access to these interim results and make the final
+L624: decision to terminate the trial
+L625: Harms 22 Plans for collecting, assessing, reporting, and managing solicited and
+L626: spontaneously reported adverse events and other unintended effects
+L627: of trial interventions or trial conduct
+L628: Auditing 23 Frequency and procedures for auditing trial conduct, if any, and
+L629: whether the process will be independent from investigators and the
+L630: sponsor
+L631: **Ethics and dissemination**
+L632: Research ethics
+L633: approval
+L634: Protocol
+L635: amendments
+L636: 24 Plans for seeking research ethics committee/institutional review board
+L637: (REC/IRB) approval
+L638: 25 Plans for communicating important protocol modifications (eg,
+L639: changes to eligibility criteria, outcomes, analyses) to relevant parties
+L640: (eg, investigators, REC/IRBs, trial participants, trial registries, journals,
+L641: regulators)
+L642: Consent or assent 26a Who will obtain informed consent or assent from potential trial
+L643: participants or authorised surrogates, and how (see Item 32)
+L644: 26b Additional consent provisions for collection and use of participant data
+L645: and biological specimens in ancillary studies, if applicable
+L646: Confidentiality 27 How personal information about potential and enrolled participants will
+L647: be collected, shared, and maintained in order to protect confidentiality
+L648: before, during, and after the trial
+L649: Declaration of
+L650: interests
+L651: 28 Financial and other competing interests for principal investigators for
+L652: the overall trial and each study site
+L653: Access to data 29 Statement of who will have access to the final trial dataset, and
+L654: disclosure of contractual agreements that limit such access for
+L655: investigators
+L656: Ancillary and
+L657: post-trial care
+L658: 30 Provisions, if any, for ancillary and post-trial care, and for
+L659: compensation to those who suffer harm from trial participation
+L660: Dissemination 31a Plans for investigators and sponsor to communicate trial results to
+L661: policy participants, healthcare professionals, the public, and other relevant
+L662: groups (eg, via publication, reporting in results databases, or other
+L663: data sharing arrangements), including any publication restrictions
+L664: 31b Authorship eligibility guidelines and any intended use of professional
+L665: writers
+L666: 31c Plans, if any, for granting public access to the full protocol, participantlevel dataset, and statistical code
+L667: 4
+L668: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L669: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L670: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L671: **Appendices**
+L672: Informed consent
+L673: materials
+L674: 32 Model consent form and other related documentation given to
+L675: participants and authorised surrogates
+L676: Biological 33 Plans for collection, laboratory evaluation, and storage of biological
+L677: specimens specimens for genetic or molecular analysis in the current trial and for
+L678: future use in ancillary studies, if applicable
+L679: *It is strongly recommended that this checklist be read in conjunction with the SPIRIT 2013
+L680: Explanation & Elaboration for important clarification on the items. Amendments to the
+L681: protocol should be tracked and dated. The SPIRIT checklist is copyrighted by the SPIRIT
+L682: [Group under the Creative Commons “Attribution-NonCommercial-NoDerivs 3.0 Unported”](http://www.creativecommons.org/licenses/by-nc-nd/3.0/)
+L683: license.
+L684: 5
+L685: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L686: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L687: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L688: **Supplementary table 2. World Health Organization Trial Registration Data Set (Version**
+L689: **1.3.1)**
+L690: |Item<br>Nr.|Description|
+L691: |---|---|
+L692: |**1.**|**Primary Registry and Trial Identifying Number**<br> <br>ClinicalTrials.gov Identifier NCT04991337|
+L693: |**2.**|**Date of Registration in Primary Registry**<br> <br>5 August 2021|
+L694: |**3.**|**Secondary Identifying Numbers**<br> <br>Vestre Viken Hospital Trust Data Protection Officer reference 21/05277-1|
+L695: |**4.**|**Source(s) of Monetary or Material Support**<br> <br>The study is funded by The Norwegian Health Association and Vestre Viken<br>Hospital Trust, Norway.|
+L696: |**5.**|**Primary Sponsor**<br> <br>Bærum sykehus, Vestre Viken Hospital Trust|
+L697: |**6.**|**Secondary Sponsor(s)**<br> <br>N/A|
+L698: |**7.**|**Contact for Public Queries**<br> <br>Norway:<br>Marius Myrstad, MD, PhD<br>Address: Department of Internal Medicine, and Department of Medical Research,<br>Bærum Hospital Vestre Viken Hospital Trust, Sogneprest Munthe Kaas vei 100, N-<br>1346 Gjettum, Norway<br>E-mail address: Marius.Myrstad@vestreviken.no<br>Phone number: +47-92255945<br> <br>Belgium:<br>Guido Claessen, MD, PhD<br>Address: Department of Cardiovascular Diseases, UZ Leuven, Herestraat 49, B-3000<br>Leuven, Belgium<br>E-mail address: guido.claessen@uzleuven.be<br>Phone number: +32 16 34 20 09<br> <br>Australia:<br>André La Gerche, MD, PhD|
+L699: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L700: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L701: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L702: |Col1|Address: Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne VIC<br>3004, Australia<br>E-mail address: Andre.LaGerche@baker.edu.au<br>Phone number: +61 481 300 929|
+L703: |---|---|
+L704: |**8.**|**Contact for Scientific Queries**<br> <br>Primary investigator<br>Marius Myrstad, MD, PhD<br>Address: Department of Internal Medicine, and Department of Medical Research,<br>Bærum Hospital Vestre Viken Hospital Trust, Sogneprest Munthe Kaas vei 100, N-<br>1346 Gjettum, Norway<br>E-mail address: Marius.Myrstad@vestreviken.no<br>Phone number: +47-92255945|
+L705: |**9.**|**Public Title**<br> <br>Effects of Detraining in Endurance Athletes with Atrial Fibrillation (The NEXAF<br>Detraining study). An international multicentre randomized controlled trial|
+L706: |**10.**|**Scientific Title**<br> <br>Effects of Detraining in Endurance Athletes with Atrial Fibrillation (The NEXAF<br>Detraining study). An international multicentre randomized controlled trial|
+L707: |**11.**|**Countries of Recruitment**<br> <br>Australia, Belgium, Norway|
+L708: |**12.**|**Health conditions studied**<br> <br>Atrial fibrillation|
+L709: |**13.**|**Intervention (s)**<br> <br>Detraining (tailored training adaption) group:<br>Will be instructed to avoid high-intensity exercise corresponding to a heart rate<br>>75% of maximum heart rate (HR), and a total duration of exercise (hours/week)<br>corresponding to >80% of the self-reported average weekly amount of exercise<br>(hours/week) during the past six months, for a period of 16 week.<br> <br>Control group:<br>Will be instructed to perform at least three weekly sessions of high intensity<br>exercise, corresponding to a HR ≥85% of maximum heart rate, and otherwise<br>continue endurance exercise as usual.|
+L710: |**14.**|**Key Inclusion and Exclusion Criteria**<br> <br>Inclusion Criteria:<br>Signed informed consent<br>Age ≥ 18 years<br>Diagnosed with paroxysmal atrial fibrillation (verified by electrocardiogram)<br>Report >5 (running, rowing) or >8 (cycling, cross-country skiing), weekly hours,<br>respectively, of endurance sport|
+L711: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L712: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L713: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L714: |Col1|At least two anamnestic (self-reported) episodes of atrial fibrillation, of which one<br>during the last six months<br>Use a smartphone and agree to connect their sportswatch with a web-based<br>platform for monitoring of exercise<br>Exclusion Criteria:<br>Permanent atrial fibrillation<br>Cardiac conditions (including valvular heart disease of moderate or greater<br>severity, symptomatic ischemic heart disease)<br>Left ventricular ejection fraction <45%<br>Hypertension (>140/90)<br>Diabetes mellitus<br>Hyperthyroidism<br>Smoking during the last 5 years<br>Alcohol intake >20 alcohol units/week<br>Use of illegal or performance enhancing drugs<br>Body mass index >30kg/m2<br>Injuries preventing physical exercise<br>Pregnancy<br>Participation in conflicting intervention research studies<br>Planned atrial fibrillation ablation within the next six months<br>The individual refuses to have an insertable cardiac monitor, blood samples taken<br>or be part of the detraining group|
+L715: |---|---|
+L716: |**15.**|**Study type**<br> <br>Randomized controlled trial|
+L717: |**16.**|**Date of First Enrollment**<br> <br>5 Januar 2022|
+L718: |**17.**|**Sample size**<br> <br>120|
+L719: |**18.**|**Recruitment status**<br> <br>Recruiting: participants are currently being recruited and enrolled|
+L720: |**19.**|**19.**<br>**Primary Outcome(s)**<br> <br>Outcome Name: Atrial fibrillation burden<br>Metric/method of measurement: Atrial fibrillation burden (time with atrial<br>fibrillation) as measured by continuous monitoring with insertable cardiac monitor<br>and calculated as the cumulative duration of all atrial fibrillation episodes lasting<br>≥30sec divided by total duration of monitoring and reported as percentages.<br>Timepoint: Measured during the last 4 weeks (week 13-16) of the 16-week<br>intervention period|
+L721: |**20.**|**20.**<br>**Key Secondary Outcomes**<br> <br>Outcome Name: Atrial fibrillation burden|
+L722: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L723: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L724: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L725: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L726: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L727: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L728: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L729: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L730: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L731: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L732: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L733: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L734: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L735: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L736: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L737: |Col1|Outcome Name: Cardiovascular risk factors measured by body weight<br>Metric/method of measurement: Weight (kg)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Cardiovascular risk factors measured by body mass index (BMI)<br>Metric/method of measurement: BMI (weight and height will be combined to<br>report BMI in kg/m2)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Cardiovascular risk factors measured by smoking<br>Metric/method of measurement: Self-reported smoking (pack years)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Cardiovascular risk factors measured by alcohol use<br>Metric/method of measurement: Self-reported alcohol use (units)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Cardiovascular biomarkers - inflammation markers<br>Metric/method of measurement: Markers for inflammation markers; interleukines<br>and hrCRP (mg/L)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Cardiovascular biomarkers - markers for myocardial damage<br>Metric/method of measurement: Markers for myocardial damage, measured by<br>troponin T (ng/L) and NT-ProBNP (ng/L)<br>Timepoint: Measured at baseline and after the 16-week intervention period<br>Outcome Name: Immediate effects on arrhythmia burden of high-intensity exercise<br>Metric/method of measurement: Arrhythmias measured with 24-hour<br>electrocardiogram after peak cardiopulmonary exercise testing<br>Timepoint: 24 hours after after peak exercise testing<br>Outcome Name: Immediate effects on biomarkers of exercise Metric/method of<br>measurement: Blood sampling at peak exercise for analyses of cardiac Troponins,<br>NT-pro-BNP, interleukins, C-reactive protein<br>Timepoint: At peak exercise during cardiopulmonary exercise testing|
+L738: |---|---|
+L739: |**21.**|**Ethics Review**<br> <br>Approved 29 April 2021 by The Regional Committee for Health Research Ethics,<br>Oslo, Norway (REK sør-øst A/212748)<br> <br>Approved 1 September 2020 by The Alfred Hospital Ethics Committee, Melbourne,<br>Australia (HREC/76210/Alfred-2021)<br> <br>Approved 13 October 2022 by The Ethics Committee Research KU/UZ Leuven,<br>Leuven, Belgium (S65930)|
+L740: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L741: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L742: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L743: |22.|Completion date<br>N/A|
+L744: |---|---|
+L745: |**23.**|**Summary Results**<br> <br>N/A|
+L746: |**24.**|**IPD sharing statement**<br> <br>Data sharing between the participating institutions is regulated by Study<br>agreements between The Sponsor and each participating center.|
+L747: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L748: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L749: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L750: **The Norwegian Exercise and Atrial Fibrillation Initiative**
+L751: This work was executed within the framework of the research consortium the Norwegian Exercise
+L752: and Atrial Fibrillation Initiative (NEXAF), which is a national research initiative aiming to increase
+L753: knowledge about exercise in individuals with atrial fibrillation. NEXAF consists of several studies that
+L754: will examine the impact of exercise on various endpoints for different groups of atrial fibrillation
+L755: patients.
+L756: **The NEXAF consortium**
+L757: Bente Morseth [1,2], Marius Myrstad [3,4], Bjarne Martens Nes [5], Jan Pål Loennechen [5,6], Maja-Lisa Løchen [7],
+L758: Arnljot Tveit [4,8], Turid Apelland [4], Kristine Folkenborg [4], Kristoffer Robin Johansen [1,2], Kristin Espolin
+L759: Johnson [5], Jon Magne Letnes [5,6], Vegard Malmo [5,6], Andreas Berg Sellevold [5,6], Eivind Sørensen [3,4], Rune
+L760: Byrkjeland [3,4], Steve Enger [4], Hilde Larhammer [3,4], Sophia Onarheim [4], Vigdis Bache-Semb [4] .
+L761: _Affiliations_
+L762: 1 School of Sport Sciences, Faculty of Health Sciences, UiT The Arctic University of Norway, Tromsø,
+L763: Norway
+L764: 2 Centre for Research and Education, University Hospital of North Norway, Tromsø, Norway
+L765: 3 Department of Internal Medicine, Bærum Hospital, Vestre Viken Hospital Trust, N-1346 Gjettum,
+L766: Norway
+L767: 4 Department of Medical Research, Bærum Hospital, Vestre Viken Hospital Trust, N-1346 Gjettum,
+L768: Norway
+L769: 5 Department of Circulation and Medical Imaging, Norwegian University of Science and Technology,
+L770: NTNU, Trondheim, Norway
+L771: 6 Department of Cardiology, St.Olavs Hospital, Trondheim, Norway
+L772: 7 Department of Community Medicine, Faculty of Health Sciences, UiT The Arctic University of
+L773: Norway, Tromsø, Norway
+L774: 8 Faculty of Medicine, Institute for Clinical Medicine, University of Oslo, Oslo, Norway
+L775: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+L776: BMJ Publishing Group Limited (BMJ) disclaims all liability and responsibility arising from any reliance
+L777: Supplemental material placed on this supplemental material which has been supplied by the author(s) _BMJ Open Sp Ex Med_
+L778: Apelland T _, et al. BMJ Open Sp Ex Med_ 2023; 9:e001541. doi: 10.1136/bmjsem-2023-001541
+[26ms]
+

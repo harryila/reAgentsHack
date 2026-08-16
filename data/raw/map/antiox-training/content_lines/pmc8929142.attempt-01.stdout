@@ -1,0 +1,381 @@
+L1: Effect of Ethanol on Parthenogenetic Activation and α-Tocopherol Supplementation during  In Vitro  Maturation on Developmental Competence of Summer-Collected Bovine Oocytes
+L2: Current Issues in Molecular Biology (2021)
+L3: Francisco Báez, Belén Gómez, Victoria de Brun, Nélida Rodríguez-Osorio, Carolina Viñoles
+L4: 1 Instituto Superior de la Carne, Centro Universitario Regional Noreste, Universidad de la República, Ruta 5, km 386, Tacuarembó 45000, Uruguay;  belugoma@gmail.com
+L5: 2 Laboratorio de Endocrinología y Metabolismo Animal, Universidad de la República, Laspalces 1620, Montevideo 45000, Uruguay;  videbrun@gmail.com
+L6: 3 Unidad de Genómica y Bioinformática, Departamento de Ciencias Biológicas, Centro Universitario Regional Litoral Norte, Universidad de la República, Rivera 1350, Salto 50000, Uruguay;  nelida.rodriguez@unorte.edu.uy
+L7: 4 Centro de Salud Reproductiva de Rumiantes en Sistemas Agroforestales, Centro Universitario Regional Noreste, Universidad de la República, Ruta 26, km 408, Cerro Largo 37000, Uruguay;  carolinavinolesgil@gmail.com
+L8: The use of α-tocopherol during  in vitro  maturation (IVM) is an alternative to minimize the adverse effects of heat stress on oocyte competence. However, α-tocopherol is diluted in ethanol, which can induce oocyte parthenogenetic activation (PA). This study aimed to evaluate the role of ethanol concentration on PA and the effect of α-tocopherol supplementation during IVM on the developmental competence and the expression of key genes in blastocysts derived from summer-collected oocytes. All  in vitro  embryo production was conducted at 5% O 2 , 5% CO 2  at 38.5 °C. Experiment 1: oocytes were cultured with or without 0.05% ethanol. As positive PA control matured oocytes were subjected to 3% or 7% ethanol for 7 min. Oocytes from all groups were placed in fertilization medium (22 h) and culture medium (9 days). Ethanol at 0.05% during IVM did not induce oocyte PA, however, 3% and 7% ethanol were effective parthenogenetic inductors. Experiment 2: oocytes were cultured in maturation medium supplemented with 0, 50, 100 and 200 μM α-tocopherol, diluted in 0.05% ethanol. After  in vitro  fertilization and embryo culture, we assessed blastocyst apoptotic index and the transcription of a panel of genes. The results showed that supplementation with 100 μM α-tocopherol reduced apoptotic index and increased the expression of  SOD2 . In conclusion, 100 μM α-tocopherol, diluted in 0.05% ethanol, can be used during IVM to embryonic quality.
+L9: Article
+L10: antioxidant; quality blastocysts; summer; gene expression
+L11: 1. Introduction
+L12: During summer, in temperate regions, grazing beef cows are exposed to acute heat stress [ 1 ], which can result in multiple physiological and cellular changes that reduce reproductive performance [ 2 , 3 ]. Heat stress can compromise fertility in cattle by inducing alterations in the steroidogenic capacity of the follicles. It can also cause ovulation defects, affecting oocyte competence and preimplantation embryonic development [ 4 ]. Despite the multiple detrimental effects of heat stress on the hypothalamus–pituitary–ovarian axis [ 5 , 6 , 7 ], there is increasing  in vivo  and  in vitro  evidence that oocytes are also significant targets of maternal heat stress [ 8 ]. Thus, several studies have confirmed that cumulus oocyte complexes (COCs) collected during summer show lower quality [ 3 , 9 , 10 , 11 ] and compromised developmental competence after  in vitro  fertilization, suggesting that summer heat stress may potentially impair oocyte quality [ 12 , 13 ].
+L13: One of the mechanisms by which heat stress appears to induce damage to the oocyte and developing embryo is an increase in the production of reactive oxygen species (ROS) [ 14 ]. Although ROS can regulate cell function and activate key signaling pathways [ 15 ], in excess they are also implicated in many types of cell injuries such as membrane lipid peroxidation, oxidation of nucleic acids, apoptosis and necrosis [ 16 ]. One approaches to combat the effect of heat stress on bovine oocyte developmental competence is adding thermoprotective or antioxidant molecules during  in vitro  maturation (IVM). Vitamin E or α-tocopherol is a natural antioxidant that provides cell defense against oxidative stress [ 17 ]. Previous studies reported an increase in blastocyst yield in sheep [ 18 ], pig [ 16 ], and cattle [ 19 ] with the addition of this molecule during  in vitro  culture (IVC). Supplementation of IVM medium with α-tocopherol reduced apoptotic rate in rabbit [ 20 ] and porcine [ 21 ] cumulus cells and improved oocyte developmental competence. However, the expression of genes involved in the processes of heat and oxidative stress response  (SOD2, CAT  and  HSPA1A ), pro- and anti-apoptotic activity ( BAX  and  BCL2),  and maternal recognition of pregnancy ( IFNT2)  has not been described in α-tocopherol-treated embryos, and its evaluation can provide insights into its mechanism of action [ 22 ].
+L14: Due to its hydrophobic nature, α-tocopherol is first diluted in absolute ethanol, to obtain a final 25–400 μM α-tocopherol concentration and 0.05% ( v / v ) ethanol in culture media. Ethanol is a known parthenogenesis activator at concentrations above 3% [ 23 ], and when associated with other molecules is used in long protocols to produce parthenogenetic embryos [ 24 ]. Although 1% ethanol and 20% O 2  have been found to be inefficient in promoting parthenogenetic activation in bovine oocytes [ 23 ], a recent study reported that adding 0.3% ethanol to the IVM medium increased blastocyst rate, regardless of culture conditions [ 25 ]. Other studies have tested ethanol as the vehicle for the dilution of different molecules, during oocyte culture [ 14 ], but few systematic studies have investigated the role of ethanol at such low concentrations on parthenogenetic activation and embryonic development. Therefore, it is necessary to evaluate if, under physiological oxygen tension, 0.05% ( v / v ) ethanol can induce parthenogenetic activation in immature oocytes, in comparation with a high concentration of ethanol for a few minutes as a positive control, to promote parthenogenetic development in oocytes.
+L15: Although the beneficial effect of α-tocopherol in mammalian oocytes has been investigated, to date there are no studies on the effect of α-tocopherol (and 0.05% ethanol) supplementation during IVM and their influence on the competence of bovine oocytes collected during summer. We hypothesized that during IVM the supplementation with ethanol at 0.05% ( v / v ) does not promote parthenogenetic activation, but ethanol at 3 and 7% for 7 min is an effective inductor of parthenogenesis. Additionally, ethanol-diluted α-tocopherol improves the yield and quality of bovine embryos, which is reflected in the expression of target genes. The objectives of this study were to (1) measure the role of ethanol on parthenogenic activation during IVM of bovine oocytes collected during summer, and to (2) determine how α-tocopherol supplementation during  in vitro  maturation of oocytes, collected during summer, affects their nuclear maturation, fertilization rate, and the subsequent development and the expression of  SOD2, CAT ,  HSPA1A ,  BAX ,  BCL2  and  IFNT2  in the resulting embryos.
+L16: 2. Materials and Methods
+L17: Reagents: all chemicals were purchased from Sigma-Aldrich (St. Louis, MO, USA), unless otherwise indicated.
+L18: 2.1. Sample Collection
+L19: In this study, experiments were performed using bovine oocytes aspirated from ovaries obtained from a local slaughterhouse during summer in the southern hemisphere (between 21 December 2020 to 9 March 2021). Maximal and minimal temperatures and relative humidity were obtained from two meteorological stations of the National Research Institute for Agriculture (INIA-Uruguay), Agroclimatic Bank located in the north of the country: Salto (31°16′22′′ S, 57°53′27′′ W) and Tacuarembó (31°42′32′′ S, 55°49′36′′ W). The temperature–humidity index (THI) was calculated using the following equation: T H I = ( 0.8 × T + ( R H ( % ) / 100 ) ( T − 14.4 ) + 46.4 ) 
+L20: where  T  is air temperature in degrees Celsius and  RH  is relative humidity [ 26 ].
+L21: Pools of 35–45 ovaries were transported to the laboratory in a thermal container with 0.9% NaCl ( w / v ) at 37 °C within 45 min of dissection. Cumulus-oocyte complexes (COCs) were aspirated from 2 to 8 mm-diameter follicles. For each repeat, around of 150 COCs with homogeneous cytoplasm and compact layers of cumulus cells were selected. All phases of  in vitro  embryo production were conducted at low oxygen tension (5% O 2 ), a concentration closer to the oxygen content in the follicle and female reproductive tract [ 27 ].
+L22: 2.2. Experimental Design
+L23: 2.2.1. Experiment 1
+L24: For evaluation of parthenogenetic activation of bovine oocytes in the presence of ethanol, a total of 826 COCs were used in six independent repeats. Selected COCs were maturated  in vitro  with ethanol at 0.05% ( v / v ) ( n  = 242) and without ethanol ( n  = 584) for 24 h. After  in vitro  maturation (IVM), 50–51 COCs per group were randomly denuded of cumulus cells, fixed, and processed for Hoechst DNA staining to determine meiotic progression. Matured COCs in the absence of alcohol were distributed into the control group ( n  = 180) and two groups that were activated with 3% ( n  = 176) and 7% ( n  = 178) ethanol ( v / v ) in holding media solution at 38 °C for 7 min. All groups were washed twice in holding media and cultured for 22 h in IVF-TL in absence of spermatozoa. After this period, a total of 48–53 oocytes per group were fixed and stained to determine pronuclei formation. The remaining oocytes (125–138 per group) were cultured  in vitro  for 9 days. Cleavage and blastocyst rates were determined on the third, seventh and ninth culture days, respectively. At the end of culture, embryos with a visible blastocoel were considered to be blastocysts. Parthenogenetic blastocysts of all groups (2–9 per treatments) were fixed and stained, and nuclei numbers were counted.
+L25: 2.2.2. Experiment 2
+L26: To examine the effects of α-tocopherol during IVM on the developmental capacity of bovine COCs, a total of 1818 COCs were used in eight independents repeats, divided into five treatments, and placed in maturation medium supplemented with different concentrations (0, 0.05% ethanol, 50, 100 and 200 µM) of α-tocopherol ( v / v ) for 24 h at 38.5 °C and 5% CO 2 , 5% O 2  and 90% N 2 . After this period, a group of oocytes ( n  = 59–73 per treatment) were denuded of cumulus cells and stained to evaluate meiotic progression. Then, 1482 COCs were fertilized  in vitro . From those, 353 presumptive zygotes ( n  = 66–73 per treatment) were denuded, fixed, and stained to determine fertilization rate. The remaining presumptive zygotes ( n  = 208–244 per treatment) were cultured  in vitro  and embryo development was assessed at day 3 (% cleavage) and day 9 (% early, expanded, and hatched blastocysts). On day 9, 10 expanded blastocysts per treatment were used for measuring the relative expression of genes involved in oxidative stress ( CAT  and  SOD2 ), heat shock ( HSPA1A ), maternal recognition of pregnancy ( IFNT2 ) and apoptosis ( BAX  and  BCL2 ). Finally, expanded (11–14 per treatment) blastocysts were used for total cell number and apoptotic index evaluation through Terminal deoxynucleotidyl transferase mediated dUTP nick end labeling (TUNEL).
+L27: 2.3. In Vitro Maturation
+L28: Groups of 45–50 COCs were matured  in vitro  in 500 μL medium covered with mineral oil during 24 h at 38.5 °C and 5% CO 2 , 5% O 2  and 90% N 2  with maximum humidity. IVM medium consisted of TCM 199 (Gibco, Grand Island, NY, USA) supplemented with 1 μg/mL Folltropin-V ®  (Bioniche, Belleville, ON, Canada) ( v / v ), 5 UI/mL equine chorionic gonadotropin (Biogón ®  Plus, Biogénesis Bagó, Provincia de Buenos Aires, Argentina) ( v / v ), 10% fetal bovine serum (Gibco) ( v / v ), 5 μg/mL gentamicin ( v / v ) and 0.2 mM sodium pyruvate ( w / v ). For α-tocopherol treatment groups, IVM medium was supplemented with different α-tocopherol (Sigma, 258024) concentrations (50, 100 and 200 μM). Antioxidant was first dissolved in absolute ethanol to obtain the stock solution of 0.1, 0.2 and 0.4 M concentration, stored in the dark at 4 °C, and diluted in maturation media to a final concentration of 50, 100 and 200 µM α-tocopherol, respectively, in 0.05% ( v / v ) ethanol, and prepared 4 h before culture.
+L29: 2.4. Parthenogenetic Activation
+L30: After IVM for 24 h, COCs were washed three times in holding medium (114 mM sodium chloride, 3.2 mM potassium chloride, 0.34 mM sodium biphosphate, 0.5 mM magnesium chloride, 2.0 mM calcium chloride, 2 mM sodium bicarbonate, 10 mM sodium lactate, 0.2 mM sodium pyruvate, 4 mg/mL BSA fraction V, and 50 µg/mL gentamicin) and then incubated in 3 and 7% ethanol ( v / v ) in holding medium at 38 °C for 7 min. After activation, oocytes were washed three time with the same medium and transferred to 500 µL IVF-TL in absence of spermatozoa. Control group was cultured in IVF-TL in the same culture conditions, but in absence of ethanol.
+L31: 2.5. Assessment of Meiotic Progression
+L32: Briefly, IVM COCs were denuded of cumulus cells by pipetting in phosphate-buffered saline (PBS) supplemented with 200 μg/mL hyaluronidase for 5 min. Denuded oocytes were then fixed in 2.5% paraformaldehyde ( v / v ) in modified phosphate-buffered saline (PBS) for 25 min and stained with 1 μg/mL Hoechst 33,342 for 5 min. These oocytes were placed on a slide and immediately observed under a fluorescence microscope Nikon Eclipse 50i equipped with a UV excitation filter at 330–385 nm and an emission filter at 420 nm. Oocytes were classified as mature (oocytes in metaphase II + polar body), immature (germinal vesicle, metaphase I, anaphase I-telophase I), and degenerated (diffuse or degraded chromatin) [ 28 ].
+L33: 2.6. In Vitro Fertilization
+L34: Matured COCs were washed twice in  in vitro  fertilization medium (TL-IVF) containing 10 µg/mL heparin ( v / v ), 10 µM hypotaurine ( v / v ) and placed in 4-well culture dishes. Sperm cells were selected with BoviPure density gradient (Nidacon International AB, Mölndal, Sweden) by centrifugation at 300×  g  during 10 min. IVF was performed by incubating COCs with 1 × 10 6  spermatozoa/mL in 500 μL TL-IVF medium for 22 h at 38.5 °C and 5% CO 2 , 5% O 2 , 90% N 2  with maximum humidity.
+L35: 2.7. Assessment of Pronucleus Formation
+L36: After 22 h in IVF-TL, COCs were denuded of cumulus cells, fixed, stained, and evaluated as in previous sections. In experiment 1, oocytes were classified according to the stage: one or two pronuclei (PN), telophase II, metaphase II or degenerated; while in experiment 2, presumptive zygotes with two PN were considered as having normal fertilization, those with three PN as polyspermic, those with one PN as asynchronous, and those without PN as unfertilized. Total fertilization rate was considered when the oocyte had one, two or more PN.
+L37: 2.8. In Vitro Culture
+L38: At 22 h of coculture, COCs and presumptive zygotes were totally denuded of cumulus cells by pipetting in holding medium and washed twice in modified culture synthetic oviduct fluid (mSOF) [ 29 ] containing amino acids, citrate, myoinositol, 5 g/L ( w / v ) BSA and 0.5% FCS ( v / v ). Presumptive zygotes were placed in groups between 20 to 25 in mSOF and overlaid with mineral oil at 38.5 °C and 5% CO 2 , 5% O 2 , 90% N 2  with maximum humidity for 9 days. Culture media were replaced with fresh medium (replacement 50%) at 72, 120 and 168 h of culture. Cleavage, blastocyst rate, and total blastocyst rate was measured on day 3, 7 and 9 of culture, respectively.
+L39: 2.9. Cell Counting in Parthenogenetic Blastocysts
+L40: Blastocysts on day 9 were fixed and stained with 1 µg/mL Hoechst 33342 at 38.5 °C for 10 min, washed twice in PBS and mounted on slides. They were observed under a fluorescent microscope, and the total number of nuclei for every blastocyst was counted. Stained blastocysts were photographed, and images were evaluated using ImageJ software.
+L41: 2.10. Assessment of Total Cell Number and DNA Fragmentation
+L42: TUNEL assay was performed as previously described [ 8 ]. Hatched and expanded blastocysts were fixed with 2.5% paraformaldehyde in PBS for 1 h at room temperature, washed in PBS and permeabilized in 0.5% ( v / v ) Triton X-100 in PBS for 40 min at 4 °C, and washed two times in PBS. Samples were incubated in TUNEL reaction mixture (fluorescein isothiocyanate-conjugated dUTP and terminal deoxynucleotidyl transferase) at 37 °C for 1 h. TUNEL-stained blastocysts were washed with PBS and incubated in PBS containing 10 μg/mL Hoechst 33342 for 10 min. Blastocysts were washed and mounted onto a glass slide. Negative controls were prepared by omission of terminal deoxynucleotidyl transferase in the reaction mixture, and at the same time positive controls were prepared by pretreatment with 1 mg/mL DNase I (Roche Diagnostics, Basel, Switzerland) in 5 μL of Tris-HCl buffer, 1 μL of DNase, and 30 μL of H 2 O for 45 min at 37 °C. All samples were analyzed in a Nikon Eclipse 50i fluorescence microscope with filters for FITC (emission 520 and excitation 460–490) and Hoechst (emission 420 and excitation 330–385). TUNEL-positive blastomeres were fluorescently labeled green, indicating apoptosis. Blue (Hoechst) fluorescence indicated the presence of nuclei. Blastomeres were counted and analyzed using the open-source software Fiji/ImageJ. Apoptotic index was determined by dividing the total number of TUNEL positive blastomeres by the total number of blastomeres.
+L43: 2.11. Gene Expression
+L44: Three replicates of expanded blastocysts treated with 0, 0.5% ethanol, 50, 100 and 200 µM α-Tocopherol were analyzed. All blastocysts were washed in Ca 2+ - and Mg 2+ -free PBS, and placed in 20 µL of RNA later™ Solution (Invitrogen, Waltham, MA, USA; Thermo Fisher Scientific, Waltham, MA, USA), snap-frozen in liquid nitrogen, and stored at −20 °C until gene expression analysis. Quick-RNA Microprep Kit (Zymo Research, California, USA) was used, for blastocyst RNA isolation followed by DNAse treatment using DNA-Free kit (Gibco), according to the manufacturer’s instructions. Total RNA concentration was determined by measuring the absorbance at 260 nm and its purity was evaluated at an absorption ratio of 260/280. For each sample, cDNA was synthesized by reverse transcription using a SuperScript III transcriptase (Thermo Fisher Scientific, Waltham, MA, USA) with random primers and 500 ng of total RNA as a template.
+L45: The expression of target genes was quantified using real-time PCR (qPCR). Primer sequences and the expected product lengths for genes  IFNT2 ,  HSPA1A ,  CAT ,  SOD2 ,  BCL2  and  BAX , and the endogenous control  GAPDH  are presented in  Table 1 . The reactions used for real-time PCR were prepared using 7.5 μL of SYBRGreen master mix (Thermo Fisher Scientific, Waltham, MA, USA), equimolar quantities of the forward and reverse primers (10 µM), 2 µL of cDNA sample and 4.5 µL of RNAse/DNAse-free water at a final volume of 15 µL. Samples were amplified in duplicate in a Rotor-Gene 6000 72-disc rotor (Corbett Life Sciences, Sydney Australia). Standard amplification conditions were: 5 min at 95 °C and 40 cycles of 15 s at 95 °C, 40 s at 60 °C and 20 s at 72 °C. At the end of each run, melting curves were analyzed to ensure that the desired amplicon was detected, discarding contaminating DNA or primer dimers. A no-template control (NTC negative control) was used to corroborate the absence of contaminating DNA. The relative quantification of gene expression changes was recorded after normalizing for  GAPDH  gene expression computed using the 2 −∆∆CT  method [ 30 ] in which CT value from a pool of all samples served as calibrator.
+L46: 2.12. Statistical Analysis
+L47: Normality was checked with the Kolmogorov–Smirnov test, and homogeneity of variance was examined by Levene´s test. The Wilcoxon rank-sum test was performed for the data without normal distribution. Data were analyzed by one-way analysis of variance (ANOVA) with the Tukey test using SAS software (version 9.2; SAS Inst. Inc.; Cary, NC, USA). Results were expressed as the mean ± standard error of mean (s.e.m.). Differences between means were considered significant when  p  < 0.05.
+L48: 3. Results
+L49: Table 2  shows environmental data recovered during the period of study. The average THI in the summer was around 72, indicating an alert level for cows under conditions of acute heat stress [ 31 ].
+L50: 3.1. Experiment 1
+L51: No significant differences were found in the proportion of mature (72.65 ± 0.65 and 72.14 ± 1.54;  p  = 0.77), immature (19.8 ± 2.7 and 19.82 ± 2.2;  p  = 0.9) and degenerate (7.56 ± 3.21 and 8 ± 2.28;  p  = 0.9) oocytes IVM for 24 h in presence (0.05%) or absence of ethanol, respectively. After 22 h of culture in absence of spermatozoa, oocytes from control and ethanol at 0.05% groups showed a clear delay in the formation of pronuclei ( Table 3 ). Cleavage rate and parthenogenetic blastocysts rate were also significantly lower in both groups ( Figure 1 A). Representative digital images of parthenogenetic blastocysts stained with Hoechst 33324 are shown in  Figure 1 B. Parthenogenetic blastocysts total cell number did not differ significantly ( p  = 0.086) between control, 0.05%, 3 and 7% ethanol group (62 ± 3.0, 63 ± 2.67, 77.66 ± 5.58 and 75.77 ± 3.3, respectively).
+L52: 3.2. Experiment 2
+L53: The percentage of oocytes reaching metaphase II and presumptive zygotes with normal fertilization were similar in all treatments ( Table 4 ). The proportion of cleaved embryos derived from COCs supplemented with α-50 and α-100 was significantly higher than that in the control group ( p  < 0.05). The highest blastocysts rate on day 9 was obtained in the α-100 group, but it only differed significantly from the α-200 group. Hatched blastocyst rates were similar in all groups ( Figure 2 ).
+L54: Although blastocyst total cell numbers did not differ among treatments ( p  = 0.825), however, the addition of 100 μM of α-tocopherol during IVM reduced the proportion of TUNEL-positive blastomeres ( Figure 3 B). A higher mRNA abundance was observed for  SOD2  ( p  < 0.05) in blastocysts in the α-100 group, compared to the other treatment groups, while no differences were detected in the expression levels of  IFNT2 ,  HSPA1A ,  CAT ,  BCL2  and  BAX  ( Figure 4 ) among groups.
+L55: 4. Discussion
+L56: The results of the present study demonstrate for the first time that the use of ethanol at 0.05% ( v / v ) under 5% O 2  during IVM does not promote parthenogenesis. The addition of α-tocopherol during IVM of summer-collected bovine oocytes affects blastocyst quality and yield in a dose-dependent manner. Supplementation of IVM medium with 100 μM α-tocopherol reduced the apoptotic index increased blastocysts quality and induced overexpression of  SOD2  in expanded blastocysts.
+L57: The delay in the proportion of pronuclear formation and low cleavage and blastocyst rates in both control and 0.05% ethanol groups indicate that our culture conditions do not promote bovine oocyte activation, meiotic resumption, or parthenogenetic development. In both groups, cleavage (8–12%) and blastocyst (1.5–2.8%) rates were similar to those reported by Méo et al. [ 32 , 33 ]. Spontaneous oocyte activation is influenced by prolonged culture times, 26 h for IVM and 44 h for IVM-IVF combined [ 23 , 34 ], and can indicate low oocyte quality or incomplete cytoplasmatic maturation [ 28 ]. Previous studies have demonstrated that summer-obtained oocytes, as was the case for oocytes in our study, are of lower quality than those collected during winter [ 9 , 10 ]. The levels of parthenogenetic activation in our control and ethanol groups could be attributed to spontaneous activation due to low oocyte quality.
+L58: Our results suggest that a single ethanol treatment (3 and 7% ethanol  v / v ) for a few minutes was effective for parthenogenetic activation. Recent studies have reported similar cleavage and blastocyst rates after bovine oocyte parthenogenetic activation with 5 µM ionomycin and 2 mM 6-dimethylaminopurine [ 35 , 36 ]. The combination of 5 µM ionomycin, 7% ethanol ( v / v ), and 50 µM roscovitine improved pronucleus formation rates in parthenogenetic embryos, while the highest blastocyst yields were observed in the ionomycin and 6-dimethylaminopurine treatment [ 24 ]. However, these protocols are long, involve several steps, and are difficult to reproduce. In addition, we isolated total RNA from parthenogenetic blastocysts, during preliminary experiments, and used it for successful qPCR standardization, indicating that parthenogenetic blastocysts had an active transcription machinery. Considering that artificial activation of bovine oocytes is a critical step for reproductive biotechnologies such as Intracytoplasmic Sperm Injection or Somatic Cell Nuclear Transfer [ 24 ], we propose this methodology for successful parthenogenetic activation of bovine oocytes. It could potentially be applied in other species as study material or stem cell source.
+L59: In the second experiment, the proportion of matured, normally fertilized oocytes and blastocyst cell numbers were not affected by the addition of α-tocopherol during IVM. Several studies show that the addition of α-tocopherol during maturation does not directly influence meiotic progression and IVF rate in cow [ 37 ], buffalo [ 38 ], sheep [ 39 ], pig [ 17 , 21 , 40 ], or rabbit [ 20 ]. Our results coincide with a previous study that did not observe any increase in total blastomere number in sheep blastocysts, after media supplementation with α-tocopherol during IVC [ 18 ]. Nevertheless, α-tocopherol improved the oocyte intrinsic competence, which can be assessed through embryonic development [ 20 , 41 ] as demonstrated in this study.
+L60: The addition of 100 µM α-tocopherol during IVM of bovine oocytes increased blastocyst rate, decreased apoptotic index and increased the expression of  SOD2  in 9-day blastocysts. These changes were not observed in groups supplemented with a lower or higher α-tocopherol concentration. However, the effects of this treatment were not associated with changes in the expression of  CAT, HSPA1A ,  BAX, BCL2  or  IFNT2 . SOD2 is a mitochondrial antioxidant enzyme that converts the anion superoxide (O 2− ) into H 2 O 2  [ 42 ]. An overexpression of  SOD2  [ 43 ], but not of  CAT,  has been associated with higher embryo quality [ 44 ]. In fact,  SOD2  expression was downregulated in vitrified–thawed blastocysts [ 45 ] or blastocysts derived from heat-shock oocytes, which were cultured at 41 °C during IVM [ 22 ]. Recent studies revealed that an increase in  SOD2  expression, as shown in the present study, can be attributed to an effect of α-tocopherol on the expression of antioxidant genes [ 46 ].
+L61: The study conducted by Borcąri et al. [ 46 ] showed that diet α-tocopherol increased the expression of antioxidant genes and decreased the expression of prooxidant genes. α-tocopherol influenced epigenetic machinery and downregulated DNA methylation in specific genes in mice (revised by Chen et al. [ 47 ]). Our results suggest that the beneficial effect of α-tocopherol is dose-dependent, which agrees with a recent study showing that α-tocopherol exhibits positive effects on oxidative stress and epigenetic regulation involved in DNA repair in a dose-dependent manner [ 48 ]. In mice, vitamin E supplementation reduced DNA damage and affected  Dnmt1  and  MLH1  gene expression and methylation [ 49 ]. We could hypothesize that the addition of 100 µM α-tocopherol to the IVM medium improved the developmental potential and quality of blastocysts stimulating the expression of  SOD2 . However, the use of only two α-tocopherol concentrations in this study limited our understanding of the dose-dependent effect of α-tocopherol on oocyte maturation and competence.
+L62: In conclusion, 0.05% ( v / v ) ethanol does not induce parthenogenetic activation of bovine oocytes, therefore, at this concentration, ethanol can be used as a safe vehicle for hydrophobic molecules in embryo production systems. In contrast, a single >3% ( v / v ) ethanol treatment for 7 min is an effective procedure for parthenogenetic activation. The addition of 100 µM α-tocopherol diluted in 0.05% ethanol during IVM improves oocyte competence leading to an increase in blastocyst production and higher embryo quality, without the risk of inducing parthenogenetic activation.
+L63: Figure 1 Effect of ethanol concentration on bovine oocyte parthenogenetic activation. ( A ) Percentage (% ± s.e.m) of cleavage (day 3), blastocysts’ development (day 7 and 9), and ( B ) blastomere nuclei stained with Hoechst in parthenogenic embryos derived from bovine oocytes matured without (control) or with 0.05% ethanol for 24 h or activated with 3% or 7% ethanol for 7 min. The white bar represents the 50 μm mark. Different letters above each bar indicate statistical significance ( p  < 0.05).
+L64: Figure 2 Effect of different α-tocopherol concentrations during bovine oocyte  in vitro  maturation on cleavage, blastocyst and hatching rates. Control: 0% ethanol and 0,0 α-tocopherol; Ethanol: 0.05% ethanol and 0,0 α-tocopherol; α-50: 50 µM α-tocopherol; α-100: 100 µM α-tocopherol; α-200: 200 µM α-tocopherol. Different letters above each bar represent significant difference ( p  < 0.05).
+L65: Figure 3 Effect of different α-tocopherol concentrations during bovine oocyte  in vitro  maturation on ( A ) total cell number, and ( B ) blastocyst apoptotic index. ( C ) Representative digital images of Hoechst and TUNEL staining of day 9 blastocysts derived from bovine oocytes collected during summer and  in vitro  matured in absence (control and 0.05% ethanol) or presence of α-tocopherol at 50 (α-50), 100 (α-100), 200 (α-200) µM, and positive and negative TUNEL assay controls. The white bar represents the 50 μm mark. Different letters above each bar represent significant differences ( p  < 0.05).
+L66: Figure 4 Effect of different concentrations of α-tocopherol during  in vitro  maturation of summer bovine oocytes on relative mRNA abundance of genes in expanded blastocysts of day 9 of  in vitro  culture. Interferon tau  (IFNT2) ; Heat shock protein 70 ( HSPA1A ) ;  Catalase ( CAT ); Manganese superoxide dismutase ( SOD2 ); Bcl-2-associated X protein ( BAX ); B-cell lymphoma 2 ( BCL2 ). Control: 0% ethanol and 0,0 α-tocopherol; Ethanol: 0.05% ethanol and 0,0 α-tocopherol; α-50: 50 µM α-tocopherol; α-100: 100 µM α-tocopherol; α-200: 200 µM α-tocopherol. Different letters above each box represent statistically significant difference ( p  < 0.05).
+L67: 1. Giro A. 
+L68:  Carlos A. 
+L69:  Bernardi D.C. 
+L70:  Barioni W. 
+L71:  Prudêncio A. 
+L72:  Botta D. 
+L73:  Romanello N. 
+L74:  Barreto N. 
+L75:  Rossetto A. 
+L76:  Application of microchip and infrared thermography for monitoring body temperature of beef cattle kept on pasture J. Therm. Biol. 2019 84 121 128 10.1016/j.jtherbio.2019.06.009 31466744
+L77: 2. Hansen P.J. 
+L78:  Effects of heat stress on mammalian reproduction Philos. Trans. R. Soc. B Biol. Sci. 2009 364 3341 3350 10.1098/rstb.2009.0131
+L79: 3. Roth Z. 
+L80:  Reproductive physiology and endocrinology responses of cows exposed to environmental heat stress—Experiences from the past and lessons for the present Theriogenology 2020 155 150 156 10.1016/j.theriogenology.2020.05.040 32679440
+L81: 4. Stamperna K. 
+L82:  Giannoulis T. 
+L83:  Nanas I. 
+L84:  Dadouli K. 
+L85:  Moutou K. 
+L86:  Amiridis G.S. 
+L87:  Short term temperature elevation during IVM affects embryo yield and alters gene expression pattern in oocytes, cumulus cells and blastocysts in cattle Theriogenology 2020 156 36 45 10.1016/j.theriogenology.2020.06.039 32652327
+L88: 5. De Rensis F. 
+L89:  Scaramuzzi R.J. 
+L90:  Heat stress and seasonal effects on reproduction in the dairy cow—A review Theriogenology 2003 60 1139 1151 10.1016/S0093-691X(03)00126-2 12935853
+L91: 6. Wolfenson D. 
+L92:  Roth Z. 
+L93:  Meidan R. 
+L94:  Impaired reproduction in heat-stressed cattle: Basic and applied aspects Anim. Reprod. Sci. 2000 60–61 535 547 10.1016/S0378-4320(00)00102-0
+L95: 7. Morrell J.M. 
+L96:  Theriogenology Heat stress and bull fertility Theriogenology 2020 153 62 67 10.1016/j.theriogenology.2020.05.014 32442741
+L97: 8. Rodrigues T.A. 
+L98:  Ispada J. 
+L99:  Risolia P.H.B. 
+L100:  Rodrigues M.T. 
+L101:  Lima R.S. 
+L102:  Assumpção M.E.O.A. 
+L103:  Visintin J.A. 
+L104:  Paula-Lopes F.F. 
+L105:  Thermoprotective effect of insulin-like growth factor 1 on  in vitro  matured bovine oocyte exposed to heat shock Theriogenology 2016 86 2028 2039 10.1016/j.theriogenology.2016.06.023 27545516
+L106: 9. Al-Katanani Y.M. 
+L107:  Paula-Lopes F.F. 
+L108:  Hansen P.J. 
+L109:  Effect of season and exposure to heat stress on oocyte competence in Holstein cows J. Dairy Sci. 2002 85 390 396 10.3168/jds.S0022-0302(02)74086-1 11913699
+L110: 10. Rocha A. 
+L111:  Randel R.D. 
+L112:  Broussard J.R. 
+L113:  Lim J.M. 
+L114:  Blair R.M. 
+L115:  Roussel J.D. 
+L116:  Godke R.A. 
+L117:  Hansel W. 
+L118:  High environmental temperature and humidity decrease oocyte quality in Bos taurus but not in Bos indicus cows Theriogenology 1998 49 657 665 10.1016/S0093-691X(98)00016-8 10732044
+L119: 11. Roth Z. 
+L120:  Arav A. 
+L121:  Bor A. 
+L122:  Zeron Y. 
+L123:  Braw-Tal R. 
+L124:  Wolfenson D. 
+L125:  Improvement of quality of oocytes collected in the autumn by enhanced removal of impaired follicles from previously heat-stressed cows Reproduction 2001 122 737 744 10.1530/rep.0.1220737 11690534
+L126: 12. Roth Z. 
+L127:  Heat stress reduces maturation and developmental capacity in bovine oocytes Reprod. Fertil. Dev. 2021 33 66 75 10.1071/RD20213
+L128: 13. Ferreira R.M. 
+L129:  Ayres H. 
+L130:  Chiaratti M.R. 
+L131:  Ferraz M.L. 
+L132:  Araújo A.B. 
+L133:  Rodrigues C.A. 
+L134:  Watanabe Y.F. 
+L135:  Vireque A.A. 
+L136:  Joaquim D.C. 
+L137:  Smith L.C. 
+L138:  
+L139:  The low fertility of repeat-breeder cows during summer heat stress is related to a low oocyte competence to develop into blastocysts J. Dairy Sci. 2011 94 2383 2392 10.3168/jds.2010-3904 21524528
+L140: 14. Yaacobi-Artzi S. 
+L141:  Shimoni C. 
+L142:  Kalo D. 
+L143:  Hansen P.J. 
+L144:  Roth Z. 
+L145:  Melatonin slightly alleviates the effect of heat shock on bovine oocytes and resulting blastocysts Theriogenology 2020 158 477 489 10.1016/j.theriogenology.2020.09.039 33080451
+L146: 15. Morado S.A. 
+L147:  Cetica P.D. 
+L148:  Beconi M.T. 
+L149:  Dalvit G.C. 
+L150:  Reactive oxygen species in bovine oocyte maturation  In Vitro Reprod. Fertil. Dev. 2009 21 608 614 10.1071/RD08198 19383267
+L151: 16. Kitagawa Y. 
+L152:  Suzuki K. 
+L153:  Yoneda A. 
+L154:  Watanabe T. 
+L155:  Effects of oxygen concentration and antioxidants on the  In Vitro  developmental ability, production of reactive oxygen species (ROS), and DNA fragmentation in porcine embryos Theriogenology 2004 62 1186 1197 10.1016/j.theriogenology.2004.01.011 15325546
+L156: 17. Tao Y. 
+L157:  Chen H. 
+L158:  Tian N.N. 
+L159:  Huo D.T. 
+L160:  Li G. 
+L161:  Zhang Y.H. 
+L162:  Liu Y. 
+L163:  Fang F.G. 
+L164:  Ding J.P. 
+L165:  Zhang X.R. 
+L166:  Effects of L-Ascorbic Acid, α-Tocopherol and Co-culture on  In Vitro  Developmental Potential of Porcine Cumulus Cells Free Oocytes Reprod. Domest. Anim. 2010 45 19 25 10.1111/j.1439-0531.2008.01129.x 19144020
+L167: 18. Natarajan R. 
+L168:  Shankar M.B. 
+L169:  Munuswamy D. 
+L170:  Effect of α-tocopherol supplementation on  In Vitro  maturation of sheep oocytes and  In Vitro  development of preimplantation sheep embryos to the blastocyst stage J. Assist. Reprod. Genet. 2010 27 483 490 10.1007/s10815-010-9430-7 20454845
+L171: 19. Olson S.E. 
+L172:  Seidel G.E. 
+L173:  Culture of  In Vitro -Produced Bovine Embryos with Vitamin E Improves Development  In Vitro  and After Transfer to Recipients 1 Biol. Reprod. 2000 62 248 252 10.1095/biolreprod62.2.248 10642559
+L174: 20. Arias-Álvarez M. 
+L175:  García-García R.M. 
+L176:  López-Tello J. 
+L177:  Rebollar P.G. 
+L178:  Gutiérrez-Adán A. 
+L179:  Lorenzo P.L. 
+L180:  α-Tocopherol modifies the expression of genes related to oxidative stress and apoptosis during  In Vitro  maturation and enhances the developmental competence of rabbit oocytes Reprod. Fertil. Dev. 2018 30 1728 1738 10.1071/RD17525 29966585
+L181: 21. Tao Y. 
+L182:  Zhou B. 
+L183:  Xia G. 
+L184:  Wang F. 
+L185:  Wu Z. 
+L186:  Fu M. 
+L187:  Exposure to L-Ascorbic Acid or α-Tocopherol Facilitates the Development of Porcine Denuded Oocytes from Metaphase I to Metaphase II and Prevents Cumulus Cells from Fragmentation Reprod. Domest. Anim. 2004 39 52 57 10.1046/j.1439-0531.2003.00478.x 15129922
+L188: 22. Amaral C.S. 
+L189:  Koch J. 
+L190:  Correa E.E. Jr. 
+L191:  Bertolin K. 
+L192:  Mujica L.K.S. 
+L193:  Fiorenza M.F. 
+L194:  Rosa S.G. 
+L195:  Nogueira C.W. 
+L196:  Comim F.V. 
+L197:  Portela V.V.M. 
+L198:  
+L199:  Heat stress on oocyte or zygote compromises embryo development, impairs interferon tau production and increases reactive oxygen species and oxidative stress in bovine embryos produced  In Vitro Mol. Reprod. Dev. 2020 87 899 909 10.1002/mrd.23407 32761819
+L200: 23. Minamihashi A. 
+L201:  Watson A.J. 
+L202:  Watson P.H. 
+L203:  Church R.B. 
+L204:  Schultz G.A. 
+L205:  Bovine parthenogenetic blastocysts following  In Vitro  maturation and oocyte activation with ethanol Theriogenology 1993 40 63 76 10.1016/0093-691X(93)90341-2 16727294
+L206: 24. Suvá M. 
+L207:  Canel N.G. 
+L208:  Salamone D.F. 
+L209:  Effect of single and combined treatments with MPF or MAPK inhibitors on parthenogenetic haploid activation of bovine oocytes Reprod. Biol. 2019 19 386 393 10.1016/j.repbio.2019.09.001 31526669
+L210: 25. Novaes M.A.S. 
+L211:  Lima L.F. 
+L212:  Sá N.A.R. 
+L213:  Ferreira A.C.A. 
+L214:  Paes V.M. 
+L215:  Souza J.F. 
+L216:  Alves B.G. 
+L217:  Gramosa N.V. 
+L218:  Torres C.A.A. 
+L219:  Pukazhenthi B. 
+L220:  
+L221:  Impact of ethanol and heat stress–dependent effect of ultra-diluted Arnica montana 6 cH on  In Vitro  embryo production in cattle Theriogenology 2021 162 105 110 10.1016/j.theriogenology.2020.12.026 33453574
+L222: 26. Thom E.C. 
+L223:  The Discomfort Index Weatherwise 1959 12 57 61 10.1080/00431672.1959.9926960
+L224: 27. Harvey A.J. 
+L225:  The role of oxygen in ruminant preimplantation embryo development and metabolism Anim. Reprod. Sci. 2007 98 113 128 10.1016/j.anireprosci.2006.10.008 17158002
+L226: 28. Tseng J.K. 
+L227:  Chen C.H. 
+L228:  Chou P.C. 
+L229:  Yeh S.P. 
+L230:  Ju J.C. 
+L231:  Influences of follicular size on parthenogenetic activation and  In Vitro  heat shock on the cytoskeleton in cattle oocytes Reprod. Domest. Anim. 2004 39 146 153 10.1111/j.1439-0531.2004.00493.x 15182290
+L232: 29. Holm P. 
+L233:  Booth P.J. 
+L234:  Schmidt M.H. 
+L235:  Greve T. 
+L236:  Callesen H. 
+L237:  High bovine blastocyst development in a static  In Vitro  production system using SOFaa medium supplemented with sodium citrate and myo-inositol with or without serum-proteins Theriogenology 1999 52 683 700 10.1016/S0093-691X(99)00162-4 10734366
+L238: 30. Livak K.J. 
+L239:  Schmittgen T.D. 
+L240:  Analysis of relative gene expression data using real-time quantitative PCR and the 2 2212ΔΔCT  method Methods 2001 25 402 408 10.1006/meth.2001.1262 11846609
+L241: 31. Du Preez J.H. 
+L242:  Giesecke W.H. 
+L243:  Hattingh P.J. 
+L244:  Heat stress in dairy cattle and other livestock under southern African conditions. I. Temperature-humidity index mean values during the four main seasons Onderstepoort J. Vet. Res. 1990 57 77 87 2339001
+L245: 32. Méo S.C. 
+L246:  Yamazaki W. 
+L247:  Ferreira C.R. 
+L248:  Perecin F. 
+L249:  Saraiva N.Z. 
+L250:  Leal C.L.V. 
+L251:  Garcia J.M. 
+L252:  Parthenogenetic activation of bovine oocytes using single and combined strontium, ionomycin and 6-dimethylaminopurine treatments Zygote 2007 15 295 306 10.1017/S0967199407004285 17967209
+L253: 33. Méo S.C. 
+L254:  Yamazaki W. 
+L255:  Leal C.L.V. 
+L256:  de Oliveira J.A. 
+L257:  Garcia J.M. 
+L258:  Use of strontium for bovine oocyte activation Theriogenology 2005 63 2089 2102 10.1016/j.theriogenology.2004.08.012 15826675
+L259: 34. Ayoub M.A. 
+L260:  Hunter A.G. 
+L261:  Parthenogenetic Activation of  In Vitro  Matured Bovine Oocytes J. Dairy Sci. 1993 76 421 429 10.3168/jds.S0022-0302(93)77362-2 8445096
+L262: 35. de Oliveira Santos M.V. 
+L263:  Nascimento L.E. 
+L264:  Praxedes É.A. 
+L265:  Borges A.A. 
+L266:  Silva A.R. 
+L267:  Bertini L.M. 
+L268:  Pereira A.F. 
+L269:  Syzygium aromaticum essential oil supplementation during  in vitro  bovine oocyte maturation improves parthenogenetic embryonic development Theriogenology 2019 128 74 80 10.1016/j.theriogenology.2019.01.031 30743106
+L270: 36. Zuo Z. 
+L271:  Niu Z. 
+L272:  Liu Z. 
+L273:  Ma J. 
+L274:  Qu P. 
+L275:  Qiao F. 
+L276:  Su J. 
+L277:  Zhang Y. 
+L278:  Wang Y. 
+L279:  The effects of glycine-glutamine dipeptide replaced l-glutamine on bovine parthenogenetic and IVF embryo development Theriogenology 2020 141 82 90 10.1016/j.theriogenology.2019.09.005 31518732
+L280: 37. Dalvit G. 
+L281:  Llanes S.P. 
+L282:  Descalzo A. 
+L283:  Insani M. 
+L284:  Beconi M. 
+L285:  Cetica P. 
+L286:  Effect of alpha-tocopherol and ascorbic acid on bovine oocyte  In Vitro  maturation Reprod. Domest. Anim. 2005 40 93 97 10.1111/j.1439-0531.2004.00522.x 15819954
+L287: 38. Thiyagarajan B. 
+L288:  Valivittan K. 
+L289:  Ameliorating effect of vitamin e on  In Vitro  development of preimplantation buffalo embryos J. Assist. Reprod. Genet. 2009 26 217 225 10.1007/s10815-009-9302-1 19252977
+L290: 39. Adeldust H. 
+L291:  Zeinoaldini S. 
+L292:  Kohram H. 
+L293:  Roudbar M.A. 
+L294:  Joupari M.D. 
+L295:  In Vitro  maturation of ovine oocyte in a modified granulosa cells co-culture system and alpha-tocopherol supplementation: Effects on nuclear maturation and cleavage J. Anim. Sci. Technol. 2015 57 27 10.1186/s40781-015-0061-5 26290747
+L296: 40. Tareq K.M.A. 
+L297:  Akter S. 
+L298:  Khandoker M.A.M.Y. 
+L299:  Selenium and vitamin E improve the  In Vitro  maturation, fertilization and culture to blastocysts of porcne oocytes J. Reprod. Dev. 2012 58 621 628 10.1262/jrd.2012-064 22673206
+L300: 41. Yashiro I. 
+L301:  Tagiri M. 
+L302:  Ogawa H. 
+L303:  Tashima K. 
+L304:  Takashima S. 
+L305:  Hara H. 
+L306:  Hirabayashi M. 
+L307:  Hochi S. 
+L308:  High revivability of vitrified-warmed bovine mature oocytes after recovery culture with α-tocopherol Reproduction 2015 149 347 355 10.1530/REP-14-0594 25628440
+L309: 42. Maier C.M. 
+L310:  Chan P.H. 
+L311:  Role of superoxide dismutases in oxidative damage and neurodegenerative disorders Neuroscientist 2002 8 323 334 10.1177/107385840200800408 12194501
+L312: 43. Ghanem N. 
+L313:  Ha A.N. 
+L314:  Fakruzzaman M. 
+L315:  Bang J.I. 
+L316:  Lee S.C. 
+L317:  Kong I.K. 
+L318:  Differential expression of selected candidate genes in bovine embryos produced  In Vitro  and cultured with chemicals modulating lipid metabolism Theriogenology 2014 82 238 250 10.1016/j.theriogenology.2014.03.024 24786394
+L319: 44. Corrêa G.A. 
+L320:  Rumpf R. 
+L321:  Mundim T.C.D. 
+L322:  Franco M.M. 
+L323:  Dode M.A.N. 
+L324:  Oxygen tension during  In Vitro  culture of bovine embryos: Effect in production and expression of genes related to oxidative stress Anim. Reprod. Sci. 2008 104 132 142 10.1016/j.anireprosci.2007.02.002 17350772
+L325: 45. Ha A.N. 
+L326:  Lee S.R. 
+L327:  Jeon J.S. 
+L328:  Park H.S. 
+L329:  Lee S.H. 
+L330:  Jin J.I. 
+L331:  Sessions B.R. 
+L332:  Wang Z. 
+L333:  White K.L. 
+L334:  Kong I.K. 
+L335:  Development of a modified straw method for vitrification of  In Vitro -produced bovine blastocysts and various genes expression in between the methods Cryobiology 2014 68 57 64 10.1016/j.cryobiol.2013.11.007 24287314
+L336: 46. Borcąri N.R. 
+L337:  Santos J.F.D. 
+L338:  Reigado G.R. 
+L339:  Freitas B.L. 
+L340:  Araújo M.D.S. 
+L341:  Nunes V.A. 
+L342:  Vitamins Modulate the Expression of Antioxidant Genes in Progesterone-Treated Pancreatic β Cells: Perspectives for Gestational Diabetes Management Int. J. Endocrinol. 2020 2020 10.1155/2020/8745120 33014046
+L343: 47. Chen K. 
+L344:  Lu P. 
+L345:  Beeraka N.M. 
+L346:  Sukocheva O.A. 
+L347:  Madhunapantula S.R.V. 
+L348:  Liu J. 
+L349:  Sinelnikov M.Y. 
+L350:  Nikolenko V.N. 
+L351:  Bulygin K.V. 
+L352:  Mikhaleva L.M. 
+L353:  
+L354:  Mitochondrial mutations and mitoepigenetics: Focus on regulation of oxidative stress-induced responses in breast cancers Semin. Cancer Biol. 2020 10.1016/j.semcancer.2020.09.012
+L355: 48. Zappe K. 
+L356:  Pointner A. 
+L357:  Switzeny O.J. 
+L358:  Magnet U. 
+L359:  Tomeva E. 
+L360:  Heller J. 
+L361:  Mare G. 
+L362:  Wagner K.H. 
+L363:  Knasmueller S. 
+L364:  Haslberger A.G. 
+L365:  Counteraction of oxidative stress by Vitamin E affects epigenetic regulation by increasing global methylation and gene expression of MLH1 and DNMT1 dose dependently in Caco-2 cells Oxid. Med. Cell. Longev. 2018 2018 3734250 10.1155/2018/3734250 29854080
+L366: 49. Remely M. 
+L367:  Ferk F. 
+L368:  Sterneder S. 
+L369:  Setayesh T. 
+L370:  Kepcija T. 
+L371:  Roth S. 
+L372:  Noorizadeh R. 
+L373:  Greunz M. 
+L374:  Rebhan I. 
+L375:  Wagner K.H. 
+L376:  
+L377:  Vitamin e modifies high-fat diet-induced increase of DNA strand breaks, and changes in expression and DNA methylation of DNMT1 and MLH1 in C57BL/6J male mice Nutrients 2017 9 607 10.3390/nu9060607
+L378: Acknowledgments
+L379: The authors are grateful to PEDECIBA Biología for their support for the publication of this study, and to slaughterhouse Tacuarembó of Marfrig group S.A. for providing the ovaries.
+[31ms]
+

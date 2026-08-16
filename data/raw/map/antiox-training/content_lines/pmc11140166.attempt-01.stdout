@@ -1,0 +1,806 @@
+L1: Lower vascular conductance responses to handgrip exercise are improved following acute antioxidant supplementation in young individuals with post‐traumatic stress disorder
+L2: Experimental Physiology (2024)
+L3: Jennifer B. Weggen, Ashley M. Darling, Aaron S. Autler, Austin C. Hogwood, Kevin P. Decker, Jacob Richardson, Gina Tuzzolo, Ryan S. Garten
+L4: 1 
+L5:  
+L6:  Department of Kinesiology and Health Sciences 
+L7:  Virginia Commonwealth University 
+L8:  Richmond 
+L9:  Virginia 
+L10:  USA
+L11: 2 
+L12:  
+L13:  Department of Kinesiology 
+L14:  University of Texas at Arlington 
+L15:  Arlington 
+L16:  Texas 
+L17:  USA
+L18: 3 
+L19:  
+L20:  Department of Kinesiology and Applied Physiology 
+L21:  University of Delaware 
+L22:  Newark 
+L23:  Delaware 
+L24:  USA
+L25: 4 
+L26:  
+L27:  Department of Kinesiology 
+L28:  University of Virginia 
+L29:  Charlottesville 
+L30:  Virginia 
+L31:  USA
+L32: Young individuals with post‐traumatic stress disorder (PTSD) display peripheral vascular and autonomic nervous system dysfunction, two factors potentially stemming from a redox imbalance. It is currently unclear if these aforementioned factors, observed at rest, alter peripheral haemodynamic responses to exercise in this population. This study examined haemodynamic responses to handgrip exercise in young individuals with PTSD following acute antioxidant (AO) supplementation. Thirteen young individuals with PTSD (age 23 ± 3 years), and 13 age‐ and sex‐matched controls (CTRL) participated in the study. Exercise‐induced changes to arm blood flow (BF), mean arterial pressure (MAP) and vascular conductance (VC) were evaluated across two workloads of rhythmic handgrip exercise (3 and 6 kg). The PTSD group participated in two visits, consuming either a placebo (PL) or AO prior to their visits. The PTSD group demonstrated significantly lower VC ( P  = 0.04) across all exercise workloads (vs. CTRL), which was significantly improved following AO supplementation. In the PTSD group, AO supplementation improved VC in participants possessing the lowest VC responses to handgrip exercise, with AO supplementation significantly improving VC responses (3 and 6 kg:  P  < 0.01) by blunting elevated exercise‐induced MAP responses (3 kg:  P  = 0.01; 6 kg:  P  < 0.01). Lower VC responses during handgrip exercise were improved following AO supplementation in young individuals with PTSD. AO supplementation was associated with a blunting of exercise‐induced MAP responses in individuals with PTSD displaying elevated MAP responses. This study revealed that young individuals with PTSD exhibit abnormal, peripherally mediated exercise responses that may be linked to a redox imbalance.
+L33: Research Article; Research Articles; Vascular; Vascular
+L34: antioxidant; autonomic nervous system; mental health; vascular function
+L35: INTRODUCTION
+L36: Post‐traumatic stress disorder (PTSD) is a debilitating stress‐related psychological disorder (American Psychiatric Association,  2013 ; Watson,  2019 ) that is widely prevalent among the general population, documented in approximately 8–11 million individuals in a given year (Goldstein et al.,  2016 ; Schein et al.,  2021 ). Although psychological in nature, PTSD is accompanied by physiological manifestations which impose an increased risk in developing cardiovascular disease (CVD). Indeed, individuals with PTSD report greater levels of CVD risk factors such as hypertension (Kibler et al.,  2009 ), as well as a higher prevalence of CVD development specific to heart failure (Roy et al.,  2015 ), coronary atherosclerosis (Ahmadi et al.,  2011 ), myocardial infarction (Remch et al.,  2018 ), coronary heart disease (Kubzansky et al.,  2009 ) and stroke (Remch et al.,  2018 ). Numerous negative lifestyle behaviours (e.g., physical inactivity, smoking, alcohol consumption, poor diet, illicit drug use) are also linked to PTSD, resulting in a higher prevalence of modifiable CVD risk factors such as obesity (Pagoto et al.,  2012 ), diabetes (Lukaschek et al.,  2013 ) and metabolic syndrome (Rosenbaum et al.,  2015 ). Investigating young adults with PTSD prior to overt disease development better clarifies the mechanisms by which PTSD increases CVD risk, negating or minimizing the confounding effects imposed by these negative lifestyle behaviours.
+L37: An abnormal blood pressure response to exercise is a major characteristic of accelerated CVD development (Jae et al.,  2015 ; Manolio et al.,  1994 ), and likely occurs secondary to dysfunction of the peripheral vasculature and/or dysregulation of the autonomic nervous system (Mitchell,  2017 ). In healthy individuals, blood flow to the skeletal muscle is tightly regulated to ensure adequate oxygen delivery to meet the metabolic demands of the muscle (Joyner & Casey,  2015 ), with the peripheral vasculature and autonomic nervous system playing critical roles in this regulation (Joyner & Casey,  2015 ). Dysregulation of skeletal muscle blood flow can result from local dysfunction of the microvasculature due to an imbalance in dilatory and constrictor vasoactive substances, and/or elevated sympathetic nervous system (SNS) activation/transduction, all of which can result in excessive vasoconstriction within the working muscle (Mitchell,  2017 ). Prior work by our laboratory identified microvascular dysfunction in the arm and leg as well as autonomic nervous system imbalance in young (∼23 years) individuals with PTSD (Weggen et al.,  2021 ), but as these measures were employed at rest it is unclear if these consequences of PTSD are robust enough to impact blood flow regulation during exercise, a hallmark characteristic of future hypertension and CVD development (Jae et al.,  2015 ; Yang et al.,  2014 ). Recent work has revealed elevated SNS activation/transduction in response to isometric exercise in middle‐aged individuals with PTSD (D'Souza et al.,  2022 ), highlighting abnormal peripherally mediated mean arterial pressure (MAP) responses to exercise, but it is unknown if this response is present in young individuals or if this abnormal response is present during exercise with a distinct contraction–relaxation pattern (e.g., isotonic), which more directly translates to normal and/or occupational activities of daily living. Of interest, an acute antioxidant supplementation restored both upper limb microvascular function and autonomic nervous system balance at rest in young individuals with PTSD to that of well‐matched controls (Weggen et al.,  2021 ), potentially implicating the consequences of redox imbalance as a mediator of this dysfunction. Indeed, redox imbalance, or the state to which oxidant production overwhelms the exogenous and endogenous antioxidant defence within the body, has been implicated as a major by‐product of the psychological symptoms of PTSD (Hori & Kim,  2019 ; Miller & Sadeh,  2014 ) and as a mediator of peripheral vascular dysfunction (Greaney et al.,  2019 ; Wray et al.,  2017 ) and SNS overactivation (Grotle & Stone,  2019 ).
+L38: Collectively, peripheral microvascular dysfunction and SNS overactivation can impact the normal blood flow and MAP response to exercise. Determining whether such dysfunction/dysregulation would be robust enough to alter peripherally mediated exercise responses in young individuals with PTSD requires further investigation. This study employed small muscle mass exercise (rhythmic handgrip exercise), a practical method of assessing vascular function (Wray et al.,  2011 ) and skeletal muscle‐derived SNS activation, to determine if blood flow, mean arterial pressure and vascular conductance responses to exercise are altered in young individuals with PTSD. We hypothesized that young individuals with PTSD would exhibit an elevated pressor response and lower blood flow/vascular conductance during handgrip exercise when compared to well‐matched controls. This would provide evidence of an abnormal exercise response derived from peripherally mediated mechanisms (microvascular dysfunction, SNS overactivation) in this population. To determine the potential role of redox imbalance in abnormal PTSD‐induced exercise response, we utilized acute antioxidant supplementation to investigate its effect on exercise responses in individuals with PTSD. We hypothesized that following acute antioxidant (AO) supplementation, pressor and blood flow/vascular conductance responses would be improved, implicating redox imbalance as a mediator of this dysfunction/dysregulation.
+L39: METHODS
+L40: Ethical approval
+L41: All study procedures were approved by the Institutional Review Board of Virginia Commonwealth University (HM20009929), and written informed consent was attained according to their guidelines. This study was performed to the standards set by the  Declaration of Helsinki , except for registration in a database.
+L42: Subjects
+L43: Thirteen young, otherwise healthy adults with PTSD (nine female, four male) and 13 sex‐ and age‐matched healthy controls were recruited from Virginia Commonwealth University and the Richmond, Virginia metropolitan area to participate in this study. The PTSD group comprised the same participants who participated in a recently published study that identified microvascular dysfunction and SNS predominance at rest in this population (vs. healthy controls) (Weggen et al.,  2021 ). Apart from subject demographics, no other data have been previously published. All participants provided written informed consent, in accordance with institutional guidelines as approved by the Institutional Review Board of Virginia Commonwealth University. Everyone completed a medical history questionnaire, with no reports of overt cardiovascular, metabolic or lung disease. All participants stated that they were free from illicit drug use, substance abuse and tobacco use. Only those with PTSD were consuming prescribed medication at the time, as indicated in Table  1 , and their medication regimen was not altered during this study. Physical activity was collected from each participant, based on minutes per day spent being physically active. Those who self‐reported PTSD were given the PTSD Checklist for DSM‐5 (PCL‐5) to confirm eligibility. The sole criterion used for inclusion in the PTSD group was a positive PTSD screening with a PCL‐5 score of >30 (Bovin et al.,  2016 ; Geier et al.,  2019 ). The PCL‐5 was selected for its strong reliability and validity, and is used for screening of PTSD, provisional diagnosis and research (Bovin et al.,  2016 ; Geier et al.,  2019 ). The PCL‐5 correlates highly with the Clinician‐Administered PTSD Scale (CAPS‐5), which is considered the gold standard in PTSD assessment tools (Bovin et al.,  2016 ; Geier et al.,  2019 ). All data from the healthy control group were acquired from prior data collection (unpublished) where participants had completed the handgrip exercise protocol described below, under identical conditions, during a single visit for which neither the antioxidant supplementation nor placebo was consumed. Although 35 healthy controls were included in our laboratory's prior publication (Weggen et al.,  2021 ), only 15 of the 35 healthy controls (9F/6M) completed the handgrip exercise protocol. Thus, matching the healthy controls to the PTSD group was based solely on age and biological sex with two males excluded to match participant numbers between groups. The exclusion of the two males was based on neither having ages that identically matched the four male PTSD participants. Body composition measurements (seven‐site skinfold), height and weight were acquired at the end of the session for this group, and at the end of the first session for the PTSD group. Moderate and vigorous physical activity for each subject (self‐report) was collected through a medical history questionnaire.
+L44: TABLE 1 Subject characteristics.
+L45: Study protocol
+L46: Individuals with PTSD completed two study visits with similar protocols, receiving either microcrystalline cellulose placebo pills (PTSD‐PL), or antioxidants (PTSD‐AO) (500 mg of vitamin C, 400 milligrams (mg) alpha lipoic acid, and 200 mg vitamin E) (Nature Made, West Hills, CA, USA), which were consumed in the stated amount twice, first at 120 min prior to the study visit and then again 90 min prior to the study visit to ensure plasma antioxidant levels were at their highest (Donato et al.,  2010 ; Richardson et al.,  2007 ). The antioxidant cocktail was selected for its ability to decrease free radical concentration in plasma (Donato et al.,  2010 ; Ratchford et al.,  2019 ; Rossman et al.,  2013 ; Wray et al.,  2011 ), which can enhance bioavailability of vasodilatory molecules in healthy and diseased populations (Donato et al.,  2010 ; Ratchford et al.,  2019 ; Rossman et al.,  2013 ). The two sessions were double‐blinded, randomized and at least 72 h apart to allow adequate washout of the antioxidants from the body (Ives et al.,  2013 ; Wray et al.,  2009 ). Females in the PTSD group ( n  = 9) were not limited to a specific phase of their menstrual cycle. This was relevant in eight female subjects, as the remaining female subject had an intrauterine device and did not menstruate. All female control participants were tested during the first 7 days of their menstrual cycle or during the placebo phase of oral hormonal contraceptive use ( n  = 1).
+L47: All participants arrived for their testing session having abstained from food for at least 6 h, caffeine for 12 h, and exercise and alcohol consumption for at least 24 h prior to testing. All sessions took place in a quiet, climate‐controlled room at a similar time of day.
+L48: The testing protocol consisted of multiple 3 min dynamic, progressive, rhythmic handgrip exercise bouts completed in the supine position with the participant's right arm. Participants started at the 3 kg workload which was performed for 3 min followed by a 3 min rest period. This exercise–rest pattern continued with workloads increasing in 3 kg intervals (e.g., 6, 9 kg) until participants could not complete the full 3 min workload. During each exercise workload, participants rapidly squeezed the handgrip dynamometer (TSD121C; Biopac Systems, Goleta, CA, USA) once every second (1 Hz) timed with a metronome, while following real‐time force tracings on a computer monitor (Biopac Systems) to which a kilogram threshold (e.g., 3, 6, 9 kg) was achieved during each contraction. Brachial artery blood flow (BA BF), heart rate (HR) and MAP (Tango M2; SunTech Medical, Inc., Morrisville, NC, USA) were obtained at rest and during the final minute of each workload, when steady state was achieved. All workloads were separated by a 3 min rest period. The handgrip protocol was completed following four other vascular/autonomic assessments (heart rate variability, brachial and superficial artery flow mediated dilatation, passive leg movement) as previously described (Weggen et al.,  2021 ), with adequate rest periods (>10 min) occurring between each vascular assessment. Specific to the handgrip exercise protocol, participants rested in a supine position for 15 min prior to baseline measures.
+L49: Peripheral haemodynamic measures
+L50: Brachial artery diameter and blood velocity were acquired via Doppler ultrasound technology (LOGIQe Doppler ultrasound system; GE Healthcare, Milwaukee, WI, USA), utilizing a linear array transducer operating at an imaging frequency of 14 MHz. Both diameter imaging and velocity measures were obtained simultaneously with the probe appropriately placed over the brachial artery, centred between the axillary and antecubital regions, maintaining an insonation angle of 60° or less. Maximum sample volume was set according to the size of the blood vessel and centred within the lumen of the vessel using real‐time ultrasound visualization. Careful attention to probe placement was noted by using anatomical landmarks for accurate repeat assessments.
+L51: Ultrasound images of the brachial artery were analysed after the study visit to ascertain the absolute (mm) change in diameter, using automated edge detection software (Medical Imaging Applications, Coralville, IA, USA). BA BF in millilitres per minute ( π  ×  V 
+L52:  m  × (arterial diameter/2) 2  × 60) and shear rate in s −1  (8 ×  V 
+L53:  m /arterial diameter) were calculated using the mean blood velocity ( V 
+L54:  m ) (angle corrected and intensity weighted) values. Vascular conductance (VC), at rest and during exercise, was calculated as brachial artery blood flow divided by MAP.
+L55: Statistical analysis
+L56: Student's  t ‐test for independent samples was used to examine differences between groups in participants’ demographic data (Table  1 ). A one‐way analysis of variance (ANOVA) was employed to determine differences in resting values for BA diameter, BA BF, BA shear rate, HR, MAP, VC between groups/conditions (PTSD‐PL vs. PTSD‐AO vs. CTRL). In order to attain a complete data set, the 3 and 6 kg workloads were utilized for data analysis as they represented the only two workloads that all PTSD and CTRL participants were able to successfully accomplish. Significant differences between groups (PTSD‐PL vs. PTSD‐AO vs. CTRL) and across workloads were explored using a mixed model analysis of variance (RMANOVA) for absolute and change from baseline (Δ) values of MAP, heart rate, BA diameter, BA BF, BA shear rate and VC. For statistical analysis of the mixed model ANOVA, the Bonferroni correction method was implemented to reduce the risk of type I error, and simple main effects were explored if any significant interactions were present. Additional mixed model ANOVAs were utilized with maximum achieved handgrip workload as a covariate to determine if relative (vs. absolute) workloads explained any significant differences identified between groups. For the exploratory analysis in individuals with PTSD only, a median cut point for VC responses at the 3 and 6 kg workloads was employed to separate groups into either low (3 kg: ≤1.0 mL min −1  mmHg −1 ; 6 kg: ≤1.5 mL min −1  mmHg −1 ;  n  = 7) or high (3 kg: >1.0 mL min −1  mmHg −1 ; 6 kg: >1.5 mL min −1  mmHg −1 ;  n  = 6) exercise‐induced VC responses. A RMANOVA was then utilized to determine potential interaction effects of the AO supplementation (vs. PL) within each group for VC, MAP and BF responses at the 3 and 6 kg workloads. Sample size was calculated based on prior literature published by our laboratory (Weggen et al.,  2023 ) examining group differences in VC during handgrip exercise as well as prior literature reporting improvements in exercise‐induced BF and VC responses following acute AO supplementation in older adults (Carlson et al.,  2008 ) and evaluated with two‐tail directionality at α = 0.05, power (1 − β) of 0.8, and effect size of 1.2 and 0.9, respectively, using SPSS Statistics 25.0 (IBM Corp., Armonk, NY, USA), which indicated a total of 12 participants would be required for this study. Normal data distribution was assessed via the Shapiro–Wilk test. SPSS 25.0 was used for all analysis with statistical significance set at  P  ≤ 0.05. Data are presented as means ± standard deviation.
+L57: RESULTS
+L58: Comparison of participant characteristics presented in Table  1  revealed no significant differences in age ( P =  0.92), height ( P =  0.49), weight ( P =  0.79), body fat percentage ( P =  0.21), daily moderate‐to‐vigorous physical activity ( P =  0.56) or maximum workload achieved during handgrip exercise ( P =  0.67) between the PTSD and CTRL groups (Table  1 ). No differences in central or peripheral haemodynamic measures at baseline were present between groups/conditions (Table  2 ).
+L59: TABLE 2 Baseline central and peripheral haemodynamic measures.
+L60: During handgrip exercise, a main effect of workload for both groups was revealed with significant increases in BA diameter, BA shear rate, BA BF, MAP, VC and HR with increasing workloads (Table  3  and Figure  1 ) when examined as both absolute values (BL < 3 kg < 6 kg) and change from baseline (3 kg < 6 kg). No significant group or interaction effects were identified when examining in absolute or change from baseline values for BA diameter, BA shear rate and HR (Table  3 ).
+L61: TABLE 3 Central and peripheral haemodynamics during handgrip exercise.
+L62: FIGURE 1 Change in brachial artery (BA) blood flow (BA blood flow: a; ΔBA blood flow: b), mean arterial pressure (MAP: c; ΔMAP: d), and vascular conductance (VC: e; ΔVC: f) in response to HG exercise at 3 and 6 kg in young healthy controls (CTRL) and individuals with posttraumatic stress disorder after acute consumption of placebo (PTSD+PL) and antioxidants (PTSD+AO). Data are represented as means ± standard deviation. Data were evaluated with two‐way repeated measures analysis of variance. # P <  0.05 versus control group at the same workload.
+L63: BA BF, examined as both absolute and change from baseline, revealed no significant main effect of group or group × workload interaction (Figure  1a, b ). A significant group main effect was revealed for absolute MAP (Figure  1c ) with a  post hoc  analysis of absolute MAP response to handgrip exercise across groups/conditions revealing a significant difference between the CTRL and PTSD‐PL groups ( P =  0.01), but no significant difference between the CTRL and PTSD‐AO groups ( P =  0.52) or the PTSD‐PL and PTSD‐AO conditions ( P =  0.06) (Figure  1c ). When evaluated as ΔMAP to examine pressor responses to handgrip exercise independent of baseline differences, no significant group or interaction effects were observed.
+L64: No group main effect, but a significant interaction effect (group × workload) was observed for absolute VC revealing a significant difference between the CTRL and PTSD‐PL groups ( P =  0.01) at the 6 kg workload only (Figure  1d ). When a change from baseline (ΔVC) was evaluated to examine the haemodynamic response to handgrip exercise independent of baseline values, a significant group main effect was revealed with a  post hoc  analysis identifying a significant difference between the CTRL and PTSD‐PL groups ( P =  0.01), but no significant difference between the CTRL and PTSD‐AO groups ( P =  0.52) or the PTSD‐PL and PTSD‐AO conditions ( P =  0.06) (Figure  1f ). No significant group or interaction effects were observed. No significant group differences were seen in maximum handgrip workload achieved (Table  1 ), and with this factor employed as a covariate, the analysis of the outcome variables did not alter the results discussed above.
+L65: In the PTSD group, an exploratory analysis was performed employing a median split of VC responses to examine the impact of AO supplementation in individuals possessing either low (3 kg: ≤1.0 mL min −1  mmHg −1 ; 6 kg: ≤1.5 mL min −1  mmHg −1 ;  n  = 7) or high (3 kg: >1.0 mL min −1  mmHg −1 ; 6 kg: >1.5 mL min −1  mmHg −1 ;  n  = 6) VC responses to handgrip exercise. This analysis revealed a significant group (low vs. high VC group) × condition (PL vs. AO) interaction effect ( P  < 0.01; Figure  2a ) for both the 3 kg ( P  < 0.01; Figure  2a ) and the 6 kg ( P  < 0.01; Figure  2b ) workload. A  post hoc  analysis identified a significant difference between conditions with a significant increase in ΔVC following AO supplementation in the low VC group (3 kg:  P  < 0.01; 6 kg:  P  < 0.01), but not the high VC group (3 kg:  P  = 0.32; 6 kg:  P  = 0.23). Analysis of MAP responses in the two VC groups revealed significant group × condition interaction effects for both the 3 kg ( P  = 0.01; Figure  2c ) and the 6 kg ( P  < 0.01; Figure  2d ) workload, with  post hoc  analysis revealing significant decreases in ΔMAP responses following AO supplementation in the low VC group only (low VC: 3 kg:  P  = 0.01; 6 kg:  P  < 0.01; high VC: 3 kg:  P  = 0.28; 6 kg:  P  = 0.35). Further analysis of BF responses in the two VC groups revealed a significant group × condition interaction effect in the 3 kg workload ( P  = 0.05; Figure  2e ), but not the 6 kg workload ( P  < 0.01; Figure  2f ), but a subsequent  post hoc  analysis of the 3 kg workload did not reveal any significant changes in ΔBF responses following AO supplementation in either group (low VC:  P  = 0.20; high VC:  P  = 0.10). Group main effects were observed across all workloads and variables and the low VC group displayed significantly lower VC and BF responses and significantly greater MAP responses during handgrip exercise when compared to the high VC group (Figure  2 ). The lone exception was the ΔVC response at the 6 kg workload (Figure  2b ), which reported no group main effect, but a significant main effect of condition with the AO condition revealed to be significantly greater than the PL condition.
+L66: FIGURE 2 Change in vascular conductance (ΔVC; a, b), mean arterial pressure (ΔMAP; c, d), and brachial artery blood flow (ΔBF; e, f) in response to 3 and 6 kg handgrip workloads during the PL and AO visit in young individuals with PTSD separated by low (3 kg: ≤1.0; 6 kg: ≤1.5 mL min −1  mmHg −1 ;  n  = 7) or high (3 kg: >1.0; 6 kg: >1.5 mL min −1  mmHg −1 ;  n  = 6) VC responses to handgrip exercise. Data are represented as means ± standard deviation. Data were evaluated with two‐way repeated measures analysis of variance. *Significant difference ( P <  0.05) between PL and AO conditions in the low VC group.
+L67: No significant correlations were revealed when examining PCL‐5 scores with outcome variables or participant characteristics (e.g., moderate and vigorous physical activity, body fat %, maximum handgrip workload achieved) within the PTSD group.
+L68: DISCUSSION
+L69: The purpose of this study was to investigate whether the previously reported upper limb microvascular dysfunction and sympathetic nervous system predominance observed at rest in young individuals with PTSD impact peripherally mediated responses during handgrip exercise and, if negatively altered, these responses could be restored following acute AO supplementation. A major finding of this study was that exercise‐induced changes in VC were significantly lower in young individuals with PTSD when compared to age‐ and sex‐matched controls. Following acute AO supplementation in the PTSD group, VC was elevated to a level to which they were no longer significantly different from controls, suggesting the role of redox imbalance in mediating vascular dysfunction in PTSD. An exploratory analysis of individuals with PTSD separated by low and high VC responses to handgrip exercise revealed that the AO supplementation was most effective at improving exercise‐induced VC responses in PTSD participants displaying the lowest VC responses, a finding that was further revealed to be driven by blunting of the elevated exercise‐induced MAP responses in this group. Taken together, this study revealed abnormal, peripherally mediated exercise responses in young individuals with PTSD that may be linked to a redox imbalance or redox‐sensitive vascular/autonomic mechanism.
+L70: Abnormal vascular conductance responses to handgrip exercise
+L71: Prior work by our group identified lower microvascular function in the upper limb as well as SNS predominance at rest in young individuals with PTSD when compared to controls matched for age, sex and physical activity level (Weggen et al.,  2021 ). The current study further examined whether these impairments in physiological processes are evident during exercise, a tightly regulated state that relies on adequate vascular function and precise autonomic nervous system signalling to adequately perfuse metabolically active muscle. The major finding of this study was that young individuals with PTSD displayed significantly lower VC during handgrip exercise (vs. controls). Lower vascular conductance can indicate an inability to effectively perfuse working tissue in the face of substantial peripheral vascular dysfunction, inappropriate SNS activation, and/or inadequate buffering of SNS activation in response to the exercise stimuli (Grotle et al.,  2020 ). Therefore, the finding of significantly lower exercise‐induced VC (vs. controls) provides additional evidence of vascular and/or autonomic dysfunction in this population as well as highlighting further evidence of negatively altered cardiovascular function in young individuals with PTSD. Of interest, this current study revealed that, on average, the PTSD group reported no significant difference in exercise‐induced pressor responses when compared to the control group, a finding that was contrary to the study hypothesis. The study hypothesis was based on the current research in PTSD, which, although limited, implicates the presence of elevated exercise‐induced blood pressure responses. Indeed, two recent studies conducted in middle‐aged women with PTSD identified an amplified early onset neural and exercise pressor response, with higher muscle sympathetic nerve activity (Yoo et al.,  2020 ) and altered action potential firing patterns (D'Souza et al.,  2022 ) in response to isometric handgrip exercise. The mechanisms behind this elevated exercise pressor response in individuals with PTSD may be due to sensitization of mechanoreceptors (D'Souza et al.,  2022 ) and/or adrenergic receptors, as well as compromised baroreflex function (Fonkoue et al.,  2018 ; Park et al.,  2017 ).
+L72: An amplified blood pressure response during exercise is predictive of hypertension (Singh et al.,  1999 ), cerebrovascular and cardiovascular events (Allison et al.,  1999 ; Schultz et al.,  2017 ), and mortality (Mundal et al.,  1996 ). Individuals at risk or with chronic medical conditions such as a history of CVD (Sandberg et al.,  2018 ), hypertension (Sausen et al.,  2009 ), chronic kidney disease (Downey et al.,  2017 ), metabolic syndrome (Miyai et al.,  2013 ) and diabetes (Karavelioglu et al.,  2013 ) have shown an amplified exercise‐induced MAP response thought to be related to increased sympathetic activity and vascular dysfunction (Teixeira & Vianna,  2022 ). The current study deviates from these findings as the PTSD group did not display significantly elevated MAP responses to exercise when compared to controls. The prior studies that have identified the presence of an exacerbated exercise pressor response or highlighted potential mechanisms linked to an elevated pressor response were completed in middle‐aged and older adults with PTSD (D'Souza et al.,  2022 ; Yoo et al.,  2020 ). It is possible that this maladaptation is not a consistent characteristic in young individuals with PTSD, who may possess less time since the onset of PTSD symptoms and/or are less impacted by the combination of PTSD symptomology and the effects of advancing age.
+L73: Improved vascular conductance responses following acute antioxidant supplementation
+L74: PTSD has been linked with a significant redox imbalance due to elevated oxidative stress that is likely derived from repeated, robust increases in sympathetic nervous system activity (hyperarousal) (Hartwig et al.,  2020 ) and hypothalamic–pituitary–adrenal axis activation (Spiers et al.,  2015 ). A major finding of this study was that following AO supplementation, VC responses to handgrip exercise were enhanced in the PTSD group to an extent to which they were no longer significantly lower when compared to the healthy controls. Further, an exploratory analysis within the PTSD group only revealed that AO supplementation substantially improved the VC responses to handgrip exercise in those within the PTSD group who reported the lowest exercise‐induced VC responses. Further analysis revealed that these improvements following AO supplementation were driven by improving exercise‐induced MAP, but not BF, responses in the low VC group. This finding may implicate redox imbalance as a mediator for the lower exercise‐induced VC responses observed in the current study. Indeed, redox imbalance can act to directly or indirectly neutralize numerous vasodilatory molecules and increase the production of circulating and endothelial‐derived vasoconstrictors resulting in peripheral vascular dysfunction (Wray et al.,  2017 ). Elevated pressor responses during exercise can result from substantial peripheral vascular dysfunction, as augmented MAP serves to augment limb perfusion pressure to overcome any inadequate limb perfusion during exercise (Grotle et al.,  2020 ; Hogwood et al.,  2023 ). In support of this, prior work by our group identified lower microvascular function in the upper limb of young individuals with PTSD (Weggen et al.,  2021 ), providing evidence of peripheral vascular dysfunction as a potential mediator of this augmented exercise‐induced MAP response observed in some, but not all, participants with PTSD. Alternatively, redox imbalance can also exacerbate normal SNS‐mediated responses via sensitization of skeletal muscle afferents (group III/IV afferents) (Koba et al.,  2013 ) and adrenergic receptors (Girouard & de Champlain,  2005 ) potentially leading to greater SNS responses for a given stimulus and greater pressor responses to given amounts of SNS activity, respectively. Independent of the direct effects of redox imbalance on vascular conductance during exercise, antioxidant supplementation may have improved the production of vasodilatory molecules through enhanced enzyme coupling. Indeed, vitamin C, a component of the antioxidants given in the current study, is well accepted as a molecule that can recycle critical components of the endothelial nitric oxide synthase enzyme allowing for more enzyme coupling and nitric oxide‐induced vasodilatation (Baker et al.,  2001 ). Further research is needed to determine if these augmented blood pressure responses to handgrip exercise observed in some, but not all, young individuals with PTSD were mediated by SNS overactivity, elevated blood pressure responses due to perfusion limitations secondary to peripheral vascular dysfunction, or independent of both via antioxidant‐induced elevations in vasodilator production/bioavailability. Of note, severity of PTSD (assessed via the PCL‐5) did not correlate with any of the major outcome variables, specifically exercise‐induced VC or MAP responses. Further study is warranted to determine if other factors such as time since diagnosis and PTSD trauma type plays a fundamental or additive role in these maladaptations.
+L75: Experimental limitations
+L76: This study retroactively selected the control group, enabling us to provide an age and sex‐match comparison, but this method did not allow for the control participants to be assessed for PTSD using the PTSD Checklist (PCL‐5). All control participants self‐reported being free of medical and mental health issues, which indicated that they were not diagnosed with PTSD. To maximize the participation and adherence of those with PTSD, the study visits for females in the PTSD group were not confined to the early follicular phase of their menstrual cycles, as the female participants in the control group were. Previous studies have suggested that oestrogen has a favourable influence on vascular function (Baker et al.,  2016 ; Limberg et al.,  2010 ); however, work from our group (Weggen et al.,  2023 ) and others (Restaino et al.,  2022 ) has reported no significant alterations in VC, MAP and vascular reactivity during progressive handgrip exercise when evaluated between phases of the menstrual cycle. Although the PTSD group comprised the same participants who participated in a recently published study (Weggen et al.,  2021 ), some differences did arise when data were contrasted with the prior publication. Specifically, resting HR values were significantly lower when measured prior to handgrip exercise (67 ± 12 beats/min) than at the onset of the study (88 ± 6 beats/min). It is unclear if this discrepancy was due to the extended time spent supine prior to the HG assessment (∼1.5–2 h), changes in body temperature over time, and/or reduction in anticipatory/baseline stress as the assessment continued. The six participants in the PTSD group who were prescribed medication for their psychological symptoms were not asked to stop their treatment. The most‐used medication ( n  = 4) were serotonin reuptake inhibitors (SSRIs), which may be beneficial to vascular function (Dimoula et al.,  2022 ) and do not appear to alter blood pressure in young adults (Romańczyk et al.,  2021 ; Zhong et al.,  2017 ). Though no evaluation of the presence of depression or anxiety was administered, it is well established that these mental disorders are highly comorbid in individuals with PTSD (Ginzburg et al.,  2010 ; Spinhoven et al.,  2014 ). Major depressive disorder has been associated with oxidative stress‐related microvascular dysfunction (Greaney et al.,  2019 ), while no such relationship with anxiety has been identified to our knowledge. Therefore, additional research is needed to further elucidate the mechanisms and role of comorbid conditions that may underlie the abnormal exercise responses observed in this study. No other variables outside of the data provided by the PCL‐5 such as trauma type, time since the trauma occurred (length of the disorder), or number of exposures to trauma were assessed. Future research into the effect of PTSD trauma type/length and severity of symptomology on CVD risk is needed to evaluate the effects of these variables. Oxidative stress was not directly measured in this study to confirm the prior link between PTSD and elevated oxidative stress; therefore, it is unknown whether the impact of the AO supplementation reduced this factor by direct neutralization or through other pathways that may have improved the bioavailability of other vasoactive components. Further, no AO supplementation was employed in the control group to examine the impact of AO across groups. Although acute AO supplementation can often result in vascular dysfunction at rest (Wray et al.,  2012 ) and during handgrip exercise (Richardson et al.,  2007 ) in young, healthy individuals, this approach should be included in future research to better interpret PTSD‐specific findings. Finally, the contention the AO supplementation was most impactful in those with the lowest VC and highest MAP responses during HG exercise was based on an exploratory analysis within the PTSD group only. Although numerous, significant interaction effects were revealed, these findings should be interpreted with caution due to the low per group participant numbers. Thus, further study is needed to definitively determine the efficacy of AO supplementation at improving peripheral haemodynamic responses during exercise in individuals with PTSD.
+L77: Conclusion
+L78: This study revealed an abnormal response to peripherally mediated exercise in young individuals with PTSD, evidenced by lower VC responses during handgrip exercise than those of healthy controls. Following AO supplementation, these VC responses were augmented to a level comparable to healthy control subjects and appear to be associated with a blunting of the exaggerated exercise‐induced MAP responses present in some, but not all, young individuals with PTSD. Future research should consider the possible contribution of redox imbalance to the aberrant exercise responses seen in this population.
+L79: AUTHOR CONTRIBUTIONS
+L80: Jennifer B. Weggen and Ryan S. Garten were involved in the conception and design of the work and all authors were involved in data acquisition. Jennifer B. Weggen and Ryan S. Garten analysed data, Jennifer B. Weggen and Ryan S. Garten interpreted the data, Jennifer B. Weggen drafted the manuscript, and all authors were involved in editing and revising the work. All authors have approved the final version of the manuscript and agree to be accountable for all aspects of the work ensuring that questions related to the accuracy and integrity of any part of the work are appropriately investigated and resolved. All persons designated as authors qualify for authorship, and all those who qualify for authorship are listed.
+L81: CONFLICT OF INTEREST
+L82: The authors declare they have no conflicts of interest.
+L83: DATA AVAILABILITY STATEMENT
+L84: Data can be made available upon reasonable request to the corresponding author.
+L85: Ahmadi ,  N. 
+L86:  ,  
+L87:  Hajsadeghi ,  F. 
+L88:  ,  
+L89:  Mirshkarlo ,  H. B. 
+L90:  ,  
+L91:  Budoff ,  M. 
+L92:  ,  
+L93:  Yehuda ,  R. 
+L94:  , &  
+L95:  Ebrahimi ,  R. 
+L96:   ( 2011 ).  Post‐traumatic stress disorder, coronary atherosclerosis, and mortality .  The American Journal of Cardiology ,  108 ( 1 ),  29 – 33 . 21530936
+L97: Allison ,  T. G. 
+L98:  ,  
+L99:  Cordeiro ,  M. A. S. 
+L100:  ,  
+L101:  Miller ,  T. D. 
+L102:  ,  
+L103:  Daida ,  H. 
+L104:  ,  
+L105:  Squires ,  R. W. 
+L106:  , &  
+L107:  Gau ,  G. T. 
+L108:   ( 1999 ).  Prognostic significance of exercise‐induced systemic hypertension in healthy subjects .  The American Journal of Cardiology ,  83 ( 3 ),  371 – 375 . 10072226
+L109: American Psychiatric Association 
+L110: . ( 2013 ).  Diagnostic and statistical manual of mental disorders  ( 5th ed .).  American Psychiatric Association .  10.1176/appi.books.9780890425596
+L111: Baker ,  S. E. 
+L112:  ,  
+L113:  Limberg ,  J. K. 
+L114:  ,  
+L115:  Ranadive ,  S. M. 
+L116:  , &  
+L117:  Joyner ,  M. J. 
+L118:   ( 2016 ).  Neurovascular control of blood pressure is influenced by aging, sex, and sex hormones .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  311 ( 6 ),  R1271 – R1275 . 27856414
+L119: Baker ,  T. A. 
+L120:  ,  
+L121:  Milstien ,  S. 
+L122:  , &  
+L123:  Katusic ,  Z. S. 
+L124:   ( 2001 ).  Effect of vitamin C on the availability of tetrahydrobiopterin in human endothelial cells .  Journal of Cardiovascular Pharmacology ,  37 ( 3 ),  333 . 11243424
+L125: Bovin ,  M. J. 
+L126:  ,  
+L127:  Marx ,  B. P. 
+L128:  ,  
+L129:  Weathers ,  F. W. 
+L130:  ,  
+L131:  Gallagher ,  M. W. 
+L132:  ,  
+L133:  Rodriguez ,  P. 
+L134:  ,  
+L135:  Schnurr ,  P. P. 
+L136:  , &  
+L137:  Keane ,  T. M. 
+L138:   ( 2016 ).  Psychometric properties of the PTSD checklist for diagnostic and statistical manual of mental disorders–fifth edition (PCL‐5) in veterans .  Psychological Assessment ,  28 ( 11 ),  1379 – 1391 . 26653052
+L139: Carlson ,  R. E. 
+L140:  ,  
+L141:  Kirby ,  B. S. 
+L142:  ,  
+L143:  Voyles ,  W. F. 
+L144:  , &  
+L145:  Dinenno ,  F. A. 
+L146:   ( 2008 ).  Evidence for impaired skeletal muscle contraction‐induced rapid vasodilation in aging humans .  American Journal of Physiology‐Heart and Circulatory Physiology ,  294 ( 4 ),  H1963 – H1970 . 18310521
+L147: Dimoula ,  A. 
+L148:  ,  
+L149:  Fotellis ,  D. 
+L150:  ,  
+L151:  Aivalioti ,  E. 
+L152:  ,  
+L153:  Delialis ,  D. 
+L154:  ,  
+L155:  Polissidis ,  A. 
+L156:  ,  
+L157:  Patras ,  R. 
+L158:  ,  
+L159:  Kokras ,  N. 
+L160:  , &  
+L161:  Stamatelopoulos ,  K. 
+L162:   ( 2022 ).  Off‐target effects of antidepressants on vascular function and structure .  Biomedicines ,  10 ( 1 ),  56 .
+L163: Donato ,  A. J. 
+L164:  ,  
+L165:  Uberoi ,  A. 
+L166:  ,  
+L167:  Bailey ,  D. M. 
+L168:  ,  
+L169:  Walter Wray ,  D. 
+L170:  , &  
+L171:  Richardson ,  R. S. 
+L172:   ( 2010 ).  Exercise‐induced brachial artery vasodilation: effects of antioxidants and exercise training in elderly men .  American Journal of Physiology‐Heart and Circulatory Physiology ,  298 ( 2 ),  H671 – H678 . 19966056
+L173: Downey ,  R. M. 
+L174:  ,  
+L175:  Liao ,  P. 
+L176:  ,  
+L177:  Millson ,  E. C. 
+L178:  ,  
+L179:  Quyyumi ,  A. A. 
+L180:  ,  
+L181:  Sher ,  S. 
+L182:  , &  
+L183:  Park ,  J. 
+L184:   ( 2017 ).  Endothelial dysfunction correlates with exaggerated exercise pressor response during whole body maximal exercise in chronic kidney disease .  American Journal of Physiology‐Renal Physiology ,  312 ( 5 ),  F917 – F924 . 28274927
+L185: D'Souza ,  A. W. 
+L186:  ,  
+L187:  Yoo ,  J.‐K. 
+L188:  ,  
+L189:  Takeda ,  R. 
+L190:  ,  
+L191:  Badrov ,  M. B. 
+L192:  ,  
+L193:  Anderson ,  E. H. 
+L194:  ,  
+L195:  Wiblin ,  J. I. 
+L196:  ,  
+L197:  North ,  C. S. 
+L198:  ,  
+L199:  Suris ,  A. 
+L200:  ,  
+L201:  Nelson ,  M. D. 
+L202:  ,  
+L203:  Shoemaker ,  J. K. 
+L204:  , &  
+L205:  Fu ,  Q. 
+L206:   ( 2022 ).  Impaired sympathetic neural recruitment during exercise pressor reflex activation in women with post‐traumatic stress disorder .  Clinical Autonomic Research ,  32 ( 2 ),  115 – 129 . 35226233
+L207: Fonkoue ,  I. T. 
+L208:  ,  
+L209:  Marvar ,  P. J. 
+L210:  ,  
+L211:  Norrholm ,  S. D. 
+L212:  ,  
+L213:  Kankam ,  M. L. 
+L214:  ,  
+L215:  Li ,  Y. 
+L216:  ,  
+L217:  DaCosta ,  D. 
+L218:  ,  
+L219:  Rothbaum ,  B. O. 
+L220:  , &  
+L221:  Park ,  J. 
+L222:   ( 2018 ).  Acute effects of device‐guided slow breathing on sympathetic nerve activity and baroreflex sensitivity in posttraumatic stress disorder .  American Journal of Physiology‐Heart and Circulatory Physiology ,  315 ( 1 ),  H141 – H149 . 29652544
+L223: Geier ,  T. J. 
+L224:  ,  
+L225:  Hunt ,  J. C. 
+L226:  ,  
+L227:  Nelson ,  L. D. 
+L228:  ,  
+L229:  Brasel ,  K. J. 
+L230:  , &  
+L231:  deRoon‐Cassini ,  T. A. 
+L232:   ( 2019 ).  Detecting PTSD in a traumatically injured population: The diagnostic utility of the PTSD Checklist for DSM‐5 .  Depression and Anxiety ,  36 ( 2 ),  170 – 178 . 30597679
+L233: Ginzburg ,  K. 
+L234:  ,  
+L235:  Ein‐Dor ,  T. 
+L236:  , &  
+L237:  Solomon ,  Z. 
+L238:   ( 2010 ).  Comorbidity of posttraumatic stress disorder, anxiety and depression: A 20‐year longitudinal study of war veterans .  Journal of Affective Disorders ,  123 ( 1‐3 ),  249 – 257 . 19765828
+L239: Girouard ,  H. 
+L240:  , &  
+L241:  de Champlain ,  J. 
+L242:   ( 2005 ).  Acute and chronic effects of free radicals on α1‐adrenergic‐induced vasoconstriction in mesenteric beds of spontaneously hypertensive rats .  Journal of Hypertension ,  23 ( 4 ),  807 – 814 . 15775786
+L243: Goldstein ,  R. B. 
+L244:  ,  
+L245:  Smith ,  S. M. 
+L246:  ,  
+L247:  Chou ,  S. P. 
+L248:  ,  
+L249:  Saha ,  T. D. 
+L250:  ,  
+L251:  Jung ,  J. 
+L252:  ,  
+L253:  Zhang ,  H. 
+L254:  ,  
+L255:  Pickering ,  R. P. 
+L256:  ,  
+L257:  Ruan ,  W. J. 
+L258:  ,  
+L259:  Huang ,  B. 
+L260:  , &  
+L261:  Grant ,  B. F. 
+L262:   ( 2016 ).  The epidemiology of DSM‐5 posttraumatic stress disorder in the United States: Results from the national epidemiologic survey on alcohol and related conditions‐III .  Social Psychiatry and Psychiatric Epidemiology ,  51 ( 8 ),  1137 – 1148 . 27106853
+L263: Greaney ,  J. L. 
+L264:  ,  
+L265:  Saunders ,  E. 
+L266:  ,  
+L267:  Santhanam ,  L. 
+L268:  , &  
+L269:  Alexander ,  L. M. 
+L270:   ( 2019 ).  Oxidative stress contributes to microvascular endothelial dysfunction in men and women with major depressive disorder .  Circulation Research ,  124 ( 4 ),  564 – 574 . 30582458
+L271: Grotle ,  A.‐K. 
+L272:  ,  
+L273:  Macefield ,  V. G. 
+L274:  ,  
+L275:  Farquhar ,  W. B. 
+L276:  ,  
+L277:  O'Leary ,  D. S. 
+L278:  , &  
+L279:  Stone ,  A. J 
+L280:   ( 2020 ).  Recent advances in exercise pressor reflex function in health and disease .  Autonomic Neuroscience: Basic & Clinical ,  228 ,  102698 . 32861944
+L281: Grotle ,  A.‐K. 
+L282:  , &  
+L283:  Stone ,  A. J. 
+L284:   ( 2019 ).  Exaggerated exercise pressor reflex in type 2 diabetes: Potential role of oxidative stress .  Autonomic Neuroscience: Basic & Clinical ,  222 ,  102591 . 31669797
+L285: Hartwig ,  C. L. 
+L286:  ,  
+L287:  Sprick ,  J. D. 
+L288:  ,  
+L289:  Jeong ,  J. 
+L290:  ,  
+L291:  Hu ,  Y. 
+L292:  ,  
+L293:  Morison ,  D. G. 
+L294:  ,  
+L295:  Stein ,  C. M. 
+L296:  ,  
+L297:  Paranjape ,  S. 
+L298:  , &  
+L299:  Park ,  J. 
+L300:   ( 2020 ).  Increased vascular α1‐adrenergic receptor sensitivity in older adults with posttraumatic stress disorder .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  319 ( 6 ),  R611 – R616 . 32966119
+L301: Hogwood ,  A. C. 
+L302:  ,  
+L303:  Decker ,  K. P. 
+L304:  ,  
+L305:  Darling ,  A. M. 
+L306:  ,  
+L307:  Weggen ,  J. B. 
+L308:  ,  
+L309:  Chiu ,  A. 
+L310:  ,  
+L311:  Richardson ,  J. 
+L312:  , &  
+L313:  Garten ,  R. S. 
+L314:   ( 2023 ).  Exaggerated pressor responses, but unaltered blood flow regulation and functional sympatholysis during lower limb exercise in young, non‐Hispanic black males .  Microvascular Research ,  145 ,  104445 . 36209773
+L315: Hori ,  H. 
+L316:  , &  
+L317:  Kim ,  Y. 
+L318:   ( 2019 ).  Inflammation and post‐traumatic stress disorder .  Psychiatry and Clinical Neurosciences ,  73 ( 4 ),  143 – 153 . 30653780
+L319: Ives ,  S. J. 
+L320:  ,  
+L321:  Harris ,  R. 
+L322:  ,  
+L323:  Witman ,  R. 
+L324:  ,  
+L325:  Fjeldstadt ,  A. 
+L326:  ,  
+L327:  Garten ,  G. 
+L328:  ,  
+L329:  McDaniel ,  J. 
+L330:  ,  
+L331:  Wray ,  D. 
+L332:  , &  
+L333:  Richardson ,  R. 
+L334:   ( 2013 ).  Vascular dysfunction and chronic obstructive pulmonary disease: The role of redox balance .  Hypertension (Dallas, Tex. : 1979) ,  63 ( 3 ),  459 – 467 . 24324045
+L335: Jae ,  S. Y. 
+L336:  ,  
+L337:  Franklin ,  B. A. 
+L338:  ,  
+L339:  Choo ,  J. 
+L340:  ,  
+L341:  Choi ,  Y.‐H. 
+L342:  , &  
+L343:  Fernhall ,  B. 
+L344:   ( 2015 ).  Exaggerated exercise blood pressure response during treadmill testing as a predictor of future hypertension in men: A longitudinal study .  American Journal of Hypertension ,  28 ( 11 ),  1362 – 1367 . 25824452
+L345: Joyner ,  M. J. 
+L346:  , &  
+L347:  Casey ,  D. P. 
+L348:   ( 2015 ).  Regulation of increased blood flow (hyperemia) to muscles during exercise: A hierarchy of competing physiological needs .  Physiological Reviews ,  95 ( 2 ),  549 – 601 . 25834232
+L349: Karavelioglu ,  Y. 
+L350:  ,  
+L351:  Karapinar ,  H. 
+L352:  ,  
+L353:  Gul ,  İ. 
+L354:  ,  
+L355:  Kucukdurmaz ,  Z. 
+L356:  ,  
+L357:  Yilmaz ,  A. 
+L358:  ,  
+L359:  Akpek ,  M. 
+L360:  , &  
+L361:  Kaya ,  M. G. 
+L362:   ( 2013 ).  Blood pressure response to exercise is exaggerated in normotensive diabetic patients .  Blood Pressure ,  22 ( 1 ),  21 – 26 . 22784362
+L363: Kibler ,  J. L. 
+L364:  ,  
+L365:  Kavita ,  J. 
+L366:  , &  
+L367:  Ma ,  M. 
+L368:   ( 2009 ).  Hypertension in relation to posttraumatic stress disorder and depression in the US National Comorbidity Survey .  Behavioral Medicine ,  34 ( 4 ),  125 – 132 . 19064371
+L369: Koba ,  S. 
+L370:  ,  
+L371:  Watanabe ,  R. 
+L372:  ,  
+L373:  Kano ,  N. 
+L374:  , &  
+L375:  Watanabe ,  T. 
+L376:   ( 2013 ).  Oxidative stress exaggerates skeletal muscle contraction‐evoked reflex sympathoexcitation in rats with hypertension induced by angiotensin II .  American Journal of Physiology‐Heart and Circulatory Physiology ,  304 ( 1 ),  H142 – H153 . 23086992
+L377: Kubzansky ,  L. D. 
+L378:  ,  
+L379:  Koenen ,  K. C. 
+L380:  ,  
+L381:  Jones ,  C. 
+L382:  , &  
+L383:  Eaton ,  W. W. 
+L384:   ( 2009 ).  A prospective study of posttraumatic stress disorder symptoms and coronary heart disease in women .  Health Psychology ,  28 ( 1 ),  125 – 130 . 19210026
+L385: Limberg ,  J. K. 
+L386:  ,  
+L387:  Eldridge ,  M. W. 
+L388:  ,  
+L389:  Proctor ,  L. T. 
+L390:  ,  
+L391:  Sebranek ,  J. J. 
+L392:  , &  
+L393:  Schrage ,  W. G. 
+L394:   ( 2010 ).  α‐Adrenergic control of blood flow during exercise: Effect of sex and menstrual phase .  Journal of Applied Physiology ,  109 ( 5 ),  1360 – 1368 . 20724565
+L395: Lukaschek ,  K. 
+L396:  ,  
+L397:  Baumert ,  J. 
+L398:  ,  
+L399:  Kruse ,  J. 
+L400:  ,  
+L401:  Emeny ,  R. T. 
+L402:  ,  
+L403:  Lacruz ,  M. E. 
+L404:  ,  
+L405:  Huth ,  C. 
+L406:  ,  
+L407:  Thorand ,  B. 
+L408:  ,  
+L409:  Holle ,  R. 
+L410:  ,  
+L411:  Rathmann ,  W. 
+L412:  ,  
+L413:  Meisinger ,  C. 
+L414:  , &  
+L415:  Ladwig ,  K.‐H. 
+L416:   ( 2013 ).  Relationship between posttraumatic stress disorder and Type 2 Diabetes in a population‐based cross‐sectional study with 2970 participants .  Journal of Psychosomatic Research ,  74 ( 4 ),  340 – 345 . 23497837
+L417: Manolio ,  T. A. 
+L418:  ,  
+L419:  Burke ,  G. L. 
+L420:  ,  
+L421:  Savage ,  P. J. 
+L422:  ,  
+L423:  Sidney ,  S. 
+L424:  ,  
+L425:  Gardin ,  J. M. 
+L426:  , &  
+L427:  Oberman ,  A. 
+L428:   ( 1994 ).  Exercise blood pressure response and 5‐year risk of elevated blood pressure in a cohort of young adults: The CARDIA study .  American Journal of Hypertension ,  7 ( 3 ),  234 – 241 . 8003274
+L429: Miller ,  M. W. 
+L430:  , &  
+L431:  Sadeh ,  N. 
+L432:   ( 2014 ).  Traumatic stress, oxidative stress and posttraumatic stress disorder: Neurodegeneration and the accelerated‐aging hypothesis .  Molecular Psychiatry ,  19 ( 11 ),  1156 – 1162 . 25245500
+L433: Mitchell ,  J. H. 
+L434:   ( 2017 ).  Abnormal cardiovascular response to exercise in hypertension: Contribution of neural factors .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  312 ( 6 ),  R851 – R863 . 28381455
+L435: Miyai ,  N. 
+L436:  ,  
+L437:  Shiozaki ,  M. 
+L438:  ,  
+L439:  Yabu ,  M. 
+L440:  ,  
+L441:  Utsumi ,  M. 
+L442:  ,  
+L443:  Morioka ,  I. 
+L444:  ,  
+L445:  Miyashita ,  K. 
+L446:  , &  
+L447:  Arita ,  M. 
+L448:   ( 2013 ).  Increased mean arterial pressure response to dynamic exercise in normotensive subjects with multiple metabolic risk factors .  Hypertension Research ,  36 ( 6 ),  534 – 539 . 23344132
+L449: Mundal ,  R. 
+L450:  ,  
+L451:  Kjeldsen ,  S. E. 
+L452:  ,  
+L453:  Sandvik ,  L. 
+L454:  ,  
+L455:  Erikssen ,  G. 
+L456:  ,  
+L457:  Thaulow ,  E. 
+L458:  , &  
+L459:  Erikssen ,  J. 
+L460:   ( 1996 ).  Exercise blood pressure predicts mortality from myocardial infarction .  Hypertension ,  27 ( 3 ),  324 – 329 . 8698433
+L461: Pagoto ,  S. L. 
+L462:  ,  
+L463:  Schneider ,  K. L. 
+L464:  ,  
+L465:  Bodenlos ,  J. S. 
+L466:  ,  
+L467:  Appelhans ,  B. M. 
+L468:  ,  
+L469:  Whited ,  M. C. 
+L470:  ,  
+L471:  Ma ,  Y. 
+L472:  , &  
+L473:  Lemon ,  S. C. 
+L474:   ( 2012 ).  Association of post‐traumatic stress disorder and obesity in a nationally representative sample .  Obesity ,  20 ( 1 ),  200 – 205 . 22016096
+L475: Park ,  J. 
+L476:  ,  
+L477:  Marvar ,  P. J. 
+L478:  ,  
+L479:  Liao ,  P. 
+L480:  ,  
+L481:  Kankam ,  M. L. 
+L482:  ,  
+L483:  Norrholm ,  S. D. 
+L484:  ,  
+L485:  Downey ,  R. M. 
+L486:  ,  
+L487:  McCullough ,  S. A. 
+L488:  ,  
+L489:  Le ,  N. 
+L490:  , &  
+L491:  Rothbaum ,  B. O. 
+L492:   ( 2017 ).  Baroreflex dysfunction and augmented sympathetic nerve responses during mental stress in veterans with post‐traumatic stress disorder .  The Journal of Physiology ,  595 ( 14 ),  4893 – 4908 . 28503726
+L493: Ratchford ,  S. M. 
+L494:  ,  
+L495:  Clifton ,  H. L. 
+L496:  ,  
+L497:  Gifford ,  J. R. 
+L498:  ,  
+L499:  LaSalle ,  D. T. 
+L500:  ,  
+L501:  Thurston ,  T. S. 
+L502:  ,  
+L503:  Bunsawat ,  K. 
+L504:  ,  
+L505:  Alpenglow ,  J. K. 
+L506:  ,  
+L507:  Richardson ,  R. S. 
+L508:  ,  
+L509:  Wright ,  J. B. 
+L510:  ,  
+L511:  Ryan ,  J. J. 
+L512:  , &  
+L513:  Wray ,  D. W. 
+L514:   ( 2019 ).  Impact of acute antioxidant administration on inflammation and vascular function in heart failure with preserved ejection fraction .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  317 ( 5 ),  R607 – R614 . 31483155
+L515: Remch ,  M. 
+L516:  ,  
+L517:  Laskaris ,  Z. 
+L518:  ,  
+L519:  Flory ,  J. 
+L520:  ,  
+L521:  Mora‐McLaughlin ,  C. 
+L522:  , &  
+L523:  Morabia ,  A. 
+L524:   ( 2018 ).  Post‐traumatic stress disorder and cardiovascular diseases: A cohort study of men and women involved in cleaning the debris of the world trade center complex .  Circulation‐Cardiovascular Quality and Outcomes ,  11 ( 7 ),  e004572 . 29991645
+L525: Restaino ,  R. M. 
+L526:  ,  
+L527:  Cradock ,  K. 
+L528:  , &  
+L529:  Barlow ,  M. A. 
+L530:   ( 2022 ).  Effects of the follicular menstrual phase on forearm vascular conductance in abdominal obese premenopausal women during graded handgrip exercise .  Artery Research ,  28 ( 2 ),  79 .
+L531: Richardson ,  R. S. 
+L532:  ,  
+L533:  Donato ,  A. J. 
+L534:  ,  
+L535:  Uberoi ,  A. 
+L536:  ,  
+L537:  Wray ,  D. W. 
+L538:  ,  
+L539:  Lawrenson ,  L. 
+L540:  ,  
+L541:  Nishiyama ,  S. 
+L542:  , &  
+L543:  Bailey ,  D. M. 
+L544:   ( 2007 ).  Exercise‐induced brachial artery vasodilation: Role of free radicals .  American Journal of Physiology‐Heart and Circulatory Physiology ,  292 ( 3 ),  H1516 – H1522 . 17114239
+L545: Romańczyk ,  M. 
+L546:  ,  
+L547:  Surma ,  S. 
+L548:  ,  
+L549:  Kocyan ,  B. 
+L550:  ,  
+L551:  Kłos ,  K. 
+L552:  ,  
+L553:  Strona ,  W. 
+L554:  , &  
+L555:  Krzystanek ,  M. 
+L556:   ( 2021 ).  The risk of a blood pressure increase during treatment with selected psychotropic drugs .  Arterial Hypertension ,  25 ( 4 ),  135 .
+L557: Rosenbaum ,  S. 
+L558:  ,  
+L559:  Stubbs ,  B. 
+L560:  ,  
+L561:  Ward ,  P. B. 
+L562:  ,  
+L563:  Steel ,  Z. 
+L564:  ,  
+L565:  Lederman ,  O. 
+L566:  , &  
+L567:  Vancampfort ,  D. 
+L568:   ( 2015 ).  The prevalence and risk of metabolic syndrome and its components among people with posttraumatic stress disorder: A systematic review and meta‐analysis .  Metabolism ,  64 ( 8 ),  926 – 933 . 25982700
+L569: Rossman ,  M. J. 
+L570:  ,  
+L571:  Groot ,  H. J. 
+L572:  ,  
+L573:  Reese ,  V. 
+L574:  ,  
+L575:  Zhao ,  J. 
+L576:  ,  
+L577:  Amann ,  M. 
+L578:  , &  
+L579:  Richardson ,  R. S 
+L580:   ( 2013 ).  Oxidative stress and COPD: The impact of oral antioxidants on skeletal muscle fatigue .  Medicine and Science in Sports and Exercise ,  45 ( 7 ),  1235 – 1243 . 23299763
+L581: Roy ,  S. S. 
+L582:  ,  
+L583:  Foraker ,  R. E. 
+L584:  ,  
+L585:  Girton ,  R. A. 
+L586:  , &  
+L587:  Mansfield ,  A. J. 
+L588:   ( 2015 ).  Posttraumatic stress disorder and incident heart failure among a community‐based sample of US veterans .  American Journal of Public Health ,  105 ( 4 ),  757 – 763 . 25713943
+L589: Sandberg ,  K. 
+L590:  ,  
+L591:  Wijkman ,  M. 
+L592:  ,  
+L593:  Kleist ,  M. 
+L594:  ,  
+L595:  Falk ,  L. 
+L596:  , &  
+L597:  Enthoven ,  P. 
+L598:   ( 2018 ).  An exaggerated blood pressure response to exercise is common in the subacute phase after stroke, but is not affected by randomization to 12 weeks of intensive aerobic exercise .  Journal of Hypertension ,  36 ( Supp 1 ),  e91 .
+L599: Sausen ,  M. T. 
+L600:  ,  
+L601:  Delaney ,  E. P. 
+L602:  ,  
+L603:  Stillabower ,  M. E. 
+L604:  , &  
+L605:  Farquhar ,  W. B. 
+L606:   ( 2009 ).  Enhanced metaboreflex sensitivity in hypertensive humans .  European Journal of Applied Physiology ,  105 ( 3 ),  351 – 356 . 18989694
+L607: Schein ,  J. 
+L608:  ,  
+L609:  Houle ,  C. 
+L610:  ,  
+L611:  Urganus ,  A. 
+L612:  ,  
+L613:  Cloutier ,  M. 
+L614:  ,  
+L615:  Patterson‐Lomba ,  O. 
+L616:  ,  
+L617:  Wang ,  Y. 
+L618:  ,  
+L619:  King ,  S. 
+L620:  ,  
+L621:  Levinson ,  W. 
+L622:  ,  
+L623:  Guérin ,  A. 
+L624:  ,  
+L625:  Lefebvre ,  P. 
+L626:  , &  
+L627:  Davis ,  L. L. 
+L628:   ( 2021 ).  Prevalence of post‐traumatic stress disorder in the United States: A systematic literature review .  Current Medical Research and Opinion ,  37 ( 12 ),  2151 – 2161 . 34498953
+L629: Schultz ,  M. G. 
+L630:  ,  
+L631:  La Gerche ,  A. 
+L632:  , &  
+L633:  Sharman ,  J. E. 
+L634:   ( 2017 ).  Blood pressure response to exercise and cardiovascular disease .  Current Hypertension Reports ,  19 ( 11 ),  89 . 29046978
+L635: Singh ,  J. P. 
+L636:  ,  
+L637:  Larson ,  M. G. 
+L638:  ,  
+L639:  Manolio ,  T. A. 
+L640:  ,  
+L641:  O'Donnell ,  C. J. 
+L642:  ,  
+L643:  Lauer ,  M. 
+L644:  ,  
+L645:  Evans ,  J. C. 
+L646:  , &  
+L647:  Levy ,  D. 
+L648:   ( 1999 ).  Blood pressure response during treadmill testing as a risk factor for new‐onset hypertension .  Circulation ,  99 ( 14 ),  1831 – 1836 . 10199879
+L649: Spiers ,  J. G. 
+L650:  ,  
+L651:  Chen ,  H.‐J. C. 
+L652:  ,  
+L653:  Sernia ,  C. 
+L654:  , &  
+L655:  Lavidis ,  N. A. 
+L656:   ( 2015 ).  Activation of the hypothalamic‐pituitary‐adrenal stress axis induces cellular oxidative stress .  Frontiers in Neuroscience ,  8 ,  456 . 25646076
+L657: Spinhoven ,  P. 
+L658:  ,  
+L659:  Penninx ,  B. W. 
+L660:  ,  
+L661:  van Hemert ,  A. M. 
+L662:  ,  
+L663:  de Rooij ,  M. 
+L664:  , &  
+L665:  Elzinga ,  B. M. 
+L666:   ( 2014 ).  Comorbidity of PTSD in anxiety and depressive disorders: Prevalence and shared risk factors .  Child Abuse & Neglect ,  38 ( 8 ),  1320 – 1330 . 24629482
+L667: Teixeira ,  A. L. 
+L668:  , &  
+L669:  Vianna ,  L. C. 
+L670:   ( 2022 ).  The exercise pressor reflex: An update .  Clinical Autonomic Research ,  32 ( 4 ),  271 – 290 . 35727398
+L671: Watson ,  P. 
+L672:   ( 2019 ).  PTSD as a public mental health priority .  Current Psychiatry Reports ,  21 ( 7 ),  61 . 31243637
+L673: Weggen ,  J. B. 
+L674:  ,  
+L675:  Darling ,  A. M. 
+L676:  ,  
+L677:  Autler ,  A. S. 
+L678:  ,  
+L679:  Hogwood ,  A. C. 
+L680:  ,  
+L681:  Decker ,  K. P. 
+L682:  ,  
+L683:  Imthurn ,  B. 
+L684:  ,  
+L685:  Tuzzolo ,  G. M. 
+L686:  , &  
+L687:  Garten ,  R. S. 
+L688:   ( 2021 ).  Impact of acute antioxidant supplementation on vascular function and autonomic nervous system modulation in young adults with PTSD .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  321 ( 1 ),  R49 – R61 . 34075811
+L689: Weggen ,  J. B. 
+L690:  ,  
+L691:  Hogwood ,  A. C. 
+L692:  ,  
+L693:  Decker ,  K. P. 
+L694:  ,  
+L695:  Darling ,  A. M. 
+L696:  ,  
+L697:  Chiu ,  A. 
+L698:  ,  
+L699:  Richardson ,  J. 
+L700:  , &  
+L701:  Garten ,  R. S. 
+L702:   ( 2023 ).  Vascular responses to passive and active movement in premenopausal females: Comparisons across sex and menstrual cycle phase .  Medicine & Science in Sports & Exercise ,  55 ( 5 ),  900 . 36728956
+L703: Wray ,  D. W. 
+L704:  ,  
+L705:  Amann ,  M. 
+L706:  , &  
+L707:  Richardson ,  R. S. 
+L708:   ( 2017 ).  Peripheral vascular function, oxygen delivery and utilization: The impact of oxidative stress in aging and heart failure with reduced ejection fraction .  Heart Failure Reviews ,  22 ( 2 ),  149 – 166 . 27392715
+L709: Wray ,  D. W. 
+L710:  ,  
+L711:  Nishiyama ,  S. K. 
+L712:  ,  
+L713:  Harris ,  R. A. 
+L714:  ,  
+L715:  Zhao ,  J. 
+L716:  ,  
+L717:  McDaniel ,  J. 
+L718:  ,  
+L719:  Fjeldstad ,  A. S. 
+L720:  ,  
+L721:  Witman ,  M. A. H. 
+L722:  ,  
+L723:  Ives ,  S. J. 
+L724:  ,  
+L725:  Barrett‐O'Keefe ,  Z. 
+L726:  , &  
+L727:  Richardson ,  R. S 
+L728:   ( 2012 ).  Acute reversal of endothelial dysfunction in the elderly following antioxidant consumption .  Hypertension ,  59 ( 4 ),  818 – 824 . 22353612
+L729: Wray ,  D. W. 
+L730:  ,  
+L731:  Uberoi ,  A. 
+L732:  ,  
+L733:  Lawrenson ,  L. 
+L734:  ,  
+L735:  Bailey ,  D. M. 
+L736:  , &  
+L737:  Richardson ,  R. S. 
+L738:   ( 2009 ).  Oral antioxidants and cardiovascular health in the exercise‐trained and untrained elderly: A radically different outcome .  Clinical Science ,  116 ( 5 ),  433 – 441 . 18795893
+L739: Wray ,  D. W. 
+L740:  ,  
+L741:  Witman ,  M. A. H. 
+L742:  ,  
+L743:  Ives ,  S. J. 
+L744:  ,  
+L745:  McDaniel ,  J. 
+L746:  ,  
+L747:  Fjeldstad ,  A. S. 
+L748:  ,  
+L749:  Trinity ,  J. D. 
+L750:  ,  
+L751:  Conklin ,  J. D. 
+L752:  ,  
+L753:  Supiano ,  M. A. 
+L754:  , &  
+L755:  Richardson ,  R. S. 
+L756:   ( 2011 ).  Progressive handgrip exercise: Evidence of nitric oxide‐dependent vasodilation and blood flow regulation in humans .  American Journal of Physiology‐Heart and Circulatory Physiology ,  300 ( 3 ),  H1101 – H1107 . 21217074
+L757: Yang ,  W.‐I. 
+L758:  ,  
+L759:  Kim ,  J. 
+L760:  ,  
+L761:  Kim ,  S.‐H. 
+L762:  ,  
+L763:  Moon ,  J.‐Y. 
+L764:  ,  
+L765:  Sung ,  J.‐H. 
+L766:  ,  
+L767:  Kim ,  I.‐J. 
+L768:  ,  
+L769:  Lim ,  S.‐W. 
+L770:  ,  
+L771:  Cha ,  D.‐H. 
+L772:  , &  
+L773:  Cho ,  S.‐Y. 
+L774:   ( 2014 ).  An exaggerated blood pressure response to exercise is associated with subclinical myocardial dysfunction in normotensive individuals .  Journal of Hypertension ,  32 ( 9 ),  1862 – 1869 . 25023149
+L775: Yoo ,  J.‐K. 
+L776:  ,  
+L777:  Badrov ,  M. B. 
+L778:  ,  
+L779:  Parker ,  R. S. 
+L780:  ,  
+L781:  Anderson ,  E. H. 
+L782:  ,  
+L783:  Wiblin ,  J. L. 
+L784:  ,  
+L785:  North ,  C. S. 
+L786:  ,  
+L787:  Suris ,  A. 
+L788:  , &  
+L789:  Fu ,  Q. 
+L790:   ( 2020 ).  Early onset neurocirculatory response to static handgrip is associated with greater blood pressure variability in women with posttraumatic stress disorder .  American Journal of Physiology‐Heart and Circulatory Physiology ,  318 ( 1 ),  H49 – H58 . 31756119
+L791: Zhong ,  Z. 
+L792:  ,  
+L793:  Wang ,  L. 
+L794:  ,  
+L795:  Wen ,  X. 
+L796:  ,  
+L797:  Liu ,  Y. 
+L798:  ,  
+L799:  Fan ,  Y. 
+L800:  , &  
+L801:  Liu ,  Z. 
+L802:   ( 2017 ).  A meta‐analysis of effects of selective serotonin reuptake inhibitors on blood pressure in depression treatment: Outcomes from placebo and serotonin and noradrenaline reuptake inhibitor controlled trials .  Neuropsychiatric Disease and Treatment ,  13 ,  2781 – 2796 . 29158677
+L803: ACKNOWLEDGEMENTS
+L804: The authors would like to thank all the participants for taking the time to complete this study.
+[23ms]
+

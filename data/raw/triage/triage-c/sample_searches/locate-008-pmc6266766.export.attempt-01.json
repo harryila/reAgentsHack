@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_7029820d",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-008-pmc6266766.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:47:22.268903+00:00",
+  "elapsed_seconds": 0.31572579219937325,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:21.953168+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-008-pmc6266766.export.attempt-01.stderr",
+  "stdout_bytes": 138,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-008-pmc6266766.export.attempt-01.stdout"
+}

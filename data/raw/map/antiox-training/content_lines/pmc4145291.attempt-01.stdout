@@ -1,0 +1,585 @@
+L1: Vitamin E Dietary Supplementation Improves Neurological Symptoms and Decreases c-Abl/p73 Activation in Niemann-Pick C Mice
+L2: Nutrients (2014)
+L3: Tamara Marín, Pablo Contreras, Juan Francisco Castro, David Chamorro, Elisa Balboa, Mònica Bosch-Morató, Francisco J. Muñoz, Alejandra R. Alvarez, Silvana Zanlungo
+L4: 1 Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago 8330024, Chile; E-Mails:  tamara.marin.m@gmail.com  (T.M.);  jcastros@uc.cl  (J.F.C.);  eibalboa@uc.cl  (E.B.)
+L5: 2 Departamento de Biología Celular y Molecular, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8330025, Chile; E-Mails:  prcontre@uc.cl  (P.C.);  ddchamor@uc.cl  (D.C.)
+L6: 3 Laboratory of Molecular Physiology and Channelopaties, Department of Experimental and Health Sciences, Universitat Pompeu Fabra, Barcelona 08003, Spain; E-Mails:  monica.bosch@upf.edu  (M.B.-M.);  paco.munoz@upf.edu  (F.J.M.)
+L7: 4 Center FONDAP for Genome Regulation, Santiago 8370415, Chile
+L8: Niemann-Pick C (NPC) disease is a fatal neurodegenerative disorder characterized by the accumulation of free cholesterol in lysosomes. We have previously reported that oxidative stress is the main upstream stimulus activating the proapoptotic c-Abl/p73 pathway in NPC neurons. We have also observed accumulation of vitamin E in NPC lysosomes, which could lead to a potential decrease of its bioavailability. Our aim was to determine if dietary vitamin E supplementation could improve NPC disease in mice. NPC mice received an alpha-tocopherol (α-TOH) supplemented diet and neurological symptoms, survival, Purkinje cell loss, α-TOH and nitrotyrosine levels, astrogliosis, and the c-Abl/p73 pathway functions were evaluated. In addition, the effect of α-TOH on the c-Abl/p73 pathway was evaluated in an  in vitro  NPC neuron model. The α-TOH rich diet delayed loss of weight, improved coordination and locomotor function and increased the survival of NPC mice. We found increased Purkinje neurons and α-TOH levels and reduced astrogliosis, nitrotyrosine and phosphorylated p73 in cerebellum. A decrease of c-Abl/p73 activation was also observed in the  in vitro  NPC neurons treated with α-TOH. In conclusion, our results show that vitamin E can delay neurodegeneration in NPC mice and suggest that its supplementation in the diet could be useful for the treatment of NPC patients.
+L9: Article
+L10: vitamin E; Niemann-Pick C; cholesterol; lysosomes; apoptosis; c-Abl
+L11: 1. Introduction
+L12: Niemann-Pick type C (NPC) is an inherited progressive neurovisceral disease [ 1 , 2 ]. This genetic disease is caused by the mutation of one of the genes encoding for the NPC1 or NPC2 proteins [ 2 , 3 , 4 , 5 ], which are involved in the transport of free cholesterol from the endosomal/lysosomal compartment to the rest of the cell. Although the detailed mechanism for cholesterol egress mediated by the NPC1 and NPC2 proteins is unknown, the currently accepted model is that NPC2 binds free cholesterol, during or after lysosomal hydrolysis of LDL cholesteryl esters, and subsequently, NPC1 mediates the exit of cholesterol from lysosomes [ 6 , 7 ]. Mutations in the  Npc1  gene (95% of NPC cases) and in the  Npc2  gene (5% of NPC cases) produce the same phenotype leading to accumulation of unesterified cholesterol and other lipids within lysosomes [ 2 , 8 ]. NPC patients present a broad range of clinical symptoms with variable age of onset and rate of progression including hepatosplenomegaly, vertical supranuclear gaze palsy, dysarthria, dystonia, cerebellar ataxia, and seizures [ 2 ]. One of the hallmarks of NPC disease is a progressive and extensive neurodegeneration which is caused by an increase in apoptosis [ 9 ]. Although there is a general loss of neurons in the Central Nervous System (CNS), cerebellar Purkinje cells are early and especially affected [ 1 , 10 , 11 , 12 , 13 , 14 ].
+L13: Recent evidences suggest that oxidative stress contributes to NPC cell death. Indeed, we and others have observed oxidative tissue damage in the liver and cerebellum of the  Npc1 −/−  mice together with a gene expression profile indicative of increased oxidative stress [ 15 , 16 , 17 ]. Moreover, NPC patients presented decreased antioxidant capacity and reduced Coenzyme Q10 in serum, which indicates a decrease in antioxidant defenses, along with elevated thiobarbituric acid-reactive species and carbonyl formation [ 18 , 19 , 20 ]. In addition, an increase in cholesterol oxidation products, such as 7-ketocholesterol (7-KC) and 3β,5α,6β-cholestanetriol (3β,5α,6β-triol) has been detected in NPC1 patients as well as in  Npc1 −/−  mice, whose levels seem to correlate with the severity and progression of the disease [ 21 , 22 , 23 ]. Interestingly, previous work from our group demonstrates that oxidative stress is the main upstream stimulus activating apoptosis in NPC neurons through the c-Abl/p73 proapoptotic pathway [ 24 ]. For instance, we have shown that treatment with the antioxidant  N -Acetyl Cysteine (NAC) prevented c-Abl/p73 activation and apoptosis in  in vitro  NPC-like neurons [ 24 ]. However, oral supplementation of NAC only partially improved liver function and moderately reduced neurologic symptoms of  Npc1 −/−  mice [ 15 , 23 ]. Moreover, no significant effects on oxidative stress were detected, other than moderate improvement of the fraction of reduced CoQ10, in a short-term NAC therapeutic trial in NPC1 patients. Together, these results suggest a limited efficacy of NAC on NPC disease.
+L14: However, the beneficial effect of other antioxidants as therapeutic agents for NPC disease cannot be ruled out. Therefore, we wanted to analyze the effects of a diet supplemented with vitamin E on neurological symptoms of NPC mice. Interestingly, data from the literature and results from our lab showed increased levels of vitamin E, and in particular α-TOH, its most important biological derivative, in cerebellum and liver lysosomes of NPC mice [ 25 , 26 ]. Interestingly, one of the most damaged regions in NPC disease, the cerebellum, contains high levels of vitamin E [ 27 ]. Furthermore, mutations in the gene coding for the α-TOH transporter protein (α-Ttp) result in a neurologic syndrome of spinocerebellar ataxia called Ataxia with Vitamin E Deficiency or AVED. This condition, also observed in the α-Ttp knock-out mouse model,  Ttpa −/− , is characterized by progressive ataxia, sensory loss and severe damage of Purkinje cells [ 28 , 29 , 30 ], sharing some symptoms with NPC patients. Moreover, recently Ulatowski  et al . [ 26 ] reported the effect of vitamin E deficiency on the cerebellum of the  Ttpa −/−  mice. They observed increased cerebellar oxidative stress and Purkinje cellular atrophy and decreased dendritic branching of Purkinje neurons that correlated with behavioral deficits in motor coordination and cognitive functions. Together, this data suggest that vitamin E transport could be altered in NPC cells affecting Purkinje neurons more strongly. In this sense, it is important to mention that a previous  in vivo  study showed that treatment with vitamin E, administered orally via gavage once a week, exerts a small but significant beneficial effect on the locomotor performance in NPC mice [ 31 ].
+L15: In this work, we analyzed the effect of vitamin E dietary supplementation on the  Npc1 −/−  mice evaluating neurological symptoms, survival, Purkinje cell loss, α-TOH and nitrotyrosine levels, astrogliosis, and the c-Abl/p73 pathway. The α-TOH rich diet delayed loss of weight, improved coordination and locomotor function and increased the survival of NPC mice. Moreover, we found preserved Purkinje neurons related to increased α-TOH levels and reduced levels of astrogliosis, nitrotyrosine and activated and phosporylated p73 in cerebellum. A decrease of c-Abl/p73 activation was also observed in  in vitro  NPC neurons treated with α-TOH.
+L16: Together these results show that vitamin E can delay neurodegeneration in NPC mice and suggest that its supplementation in the diet could be useful for the treatment of NPC patients.
+L17: 2. Experimental Section
+L18: 2.1. Animals
+L19: BALB/c mice carrying a heterozygous mutation in the  NPC1  gene (NPC mice) were kindly donated by Dr. Peter Pentchev. Genotypes were identified using a PCR-based screening as described previously by Amigo  et al . [ 32 ], Wild-type (WT) and NPC male mice received control (Prolab RMH3000 (5P00), Labdiet, St. Louis, MO, USA) and α-TOH supplemented (vit E) diets (Prolab 5P00 w/2000 IU/kg vitamin E (5AU8), Labdiet) from postnatal day (p) 28. Homozygous mutants and the wild type mice eat roughly the same amount of food until 7 weeks of age. At this age NPC mice are in a steady state with respect to food intake and weight gain but not later, as described by Xie  et al . [ 33 ]. One group of animals; WT control  n  = 6, WT vit E  n  = 9, NPC control  n  = 8, and NPC vit E  n  = 8, was used for body weight daily measuring, during the full period of treatment, as well as locomotor tests made once a week. Another group of 4 and 5 control-and vit E-treated NPC mice respectively was used for survival analysis. For immunofluorescence and immunohistochemistry cerebella analysis one group of mice ( n  = 3) was treated with the diets for 3 weeks and then sacrificed.
+L20: All protocols were approved and followed local guidance documents generated by the ad hoc committee of Chile (CONICYT) and were approved by the Bioethics Committee of the School of Medicine from Pontificia Universidad Católica de Chile (CEBA Protocol # 10-017). They were in agreement with the US Public Health Service Policy on Humane Care and Use of Laboratory Animals recommended by the Institute for Laboratory Animal Research in its Guide for Care and Use of Laboratory Animals.
+L21: 2.2. Locomotor Function Tests
+L22: Locomotor coordination was evaluated weekly during treatment using two tests specially validated for NPC mice [ 34 ]. In the Hanging test, the mouse was placed to hang at the center of a horizontal bar (3 mm diameter; 35 mm long) with forepaws. The body position of the animal was observed for 30 s and scored as described in Voikar  et al . [ 34 ]. In the beam test mice were placed at the end of a beam (100 cm long; 2.5 cm wide). Animals were trained to finish the task as quickly as possible. The number of falls during the test was counted.
+L23: 2.3. Tissue Immunohistochemical and Immunofluorescense Procedures
+L24: Mice (7 weeks-old) were anesthetized with xylazine/ketamine (0.12 and 0.8 mg/10 g body weight, respectively) and perfused with 4% paraformaldehyde in PBS. Cerebellum was removed and postfixed overnight at 4 °C, followed by 30% sucrose in PBS at 4 °C overnight, then were cut in 40 μm sagittal sections with a cryostat (Leica CM1850) at −20 °C. Four to five slices by animal were stained by experiment. We examined at least 3 animals per condition.
+L25: For calbindin immunohistochemical analysis, anti-calbindin D-28K antibody (AB1778, 1:1000; Chemicon International, Temecula, CA, USA) was used with the avidin-biotin-horseradish peroxidase complex method (Vector Laboratories, Burlingame, CA, USA).
+L26: To assess the extent of the microglial activation the tissues were incubated with PBS twice for 10 min. After pre-incubation in glycine 0.15 M for 10 min sections were incubated with blocking solution (BSA 5% in PBS) for 1 h, and incubated overnight at 4 °C with an anti-rabbit primary antibody against the glial fibrillary acidic protein (GFAP) (1:500, Sigma Chemical Co., St. Louis, MO, USA). After washing with PBS, sections were incubated for 1 h, at room temperature, with a goat anti-rabbit secondary antibody coupled to Alexa 555 (1:400, Invitrogen Detection Technologies, Carlsbad, CA, USA). Then tissues were washed with PBS and covered with Dako Fluorescent Mounting Medium (Dako, Carpintería, CA, USA). Images were captured with an Olympus BX51 microscope (Olympus, Tokyo, Japan) and analyzed with the Image-Pro Express program (Media Cybernetics, Bethesda, MD, USA).
+L27: For nitrotyrosine immunohistochemical analysis, free-floating cerebellum sections were blocked for 2 h at room temperature in a solution of 0.1 M phosphate buffer (PB) with 0.3% Triton X-100 and 3% normal goat serum. Then, sections were incubated overnight at 4 °C with mouse anti-nitrotyrosine antibody (1:100, MAB5404, Millipore Corporation, Billerica, MA, USA). After three 10-min washes in PB, sections were incubated for 2 h, at room temperature, with a goat anti-mouse secondary antibody coupled to Alexa 488 (1:500, Sigma Chemical Co.). Afterwards, sections were incubated for 10 min with a solution of TOPRO-3 iodide (1:1000, Molecular Probes, Eugene, OR, USA) for nuclear staining. Finally, after two 10min washes in PB, sections were mounted onto slides with Mowiol mounting media. Confocal images were obtained using a Leica SP2 confocal microscope.
+L28: 2.4. Cell Culture, α-TOH, Imatinib and U18666A (U18) Treatments
+L29: The HT22 neuronal hippocampal cell line was maintained in Dulbecco’s modified Eagle’s medium (DMEM) supplied with 10% Fetal bovine serum (FBS) [ 35 ]. The cells were pre-treated with Imatinib at 5 µM or with α-TOH at 50 µM by 1 h. α-TOH was dissolved in analytical ethanol (vehicle), the stock concentration was 12 mM. For each experiment we used a fresh α-TOH solution. Later, cells were treated with U18 (Enzo Life Sciences Inc. Farmingdale, NY, USA) at 0.5 µg/mL for 24 h.
+L30: 2.5. Filipin Staining
+L31: HT22 cells were fixed in 4% paraformaldehyde/4% sucrose in PBS for 30 min. After, cells were washed with PBS and treated with 1.5 mg/mL glycine for 20 min. Finally cells were treated with 25 µg/mL Filipin (Sigma Chemicals Co.) for 30 min, washed with PBS and covered with Fluoromount-G (Southern Biotech, Birmingham, AL, USA). Images were captured with an Olympus BX51 microscope (Olympus) and analyzed with the Image-Pro Express program (Media Cybernetics, Bethesda, MD, USA).
+L32: 2.6. Immunofluorescence on Coverslips
+L33: HT22 cells were placed on poly-lysine-coated coverslips (30,000 cells/cover). After 2 days in DMEM/FBS, cells were fixed in 4% paraformaldehyde/4% sucrose in PBS and permeabilized with 0.02% Triton X-100. Then, cells were blocked with 10% bovine serum albumin in PBS. Immunostaining was carried out using anti-p-c-Abl Tyr 412  (1:500; C5240, Sigma Chemical Co., St. Louis, MO, USA), anti-p73 (1:300; 5B1288, Abcam Inc., Cambridge, MA, USA), anti-β-tubulin (1:250, sc-9104, Santa Cruz Biotechnology, Santa Cruz, CA, USA) and Phalloidin: TRITC (1:5000; PF7551, ECM Biosciences, Versailles, KY, USA). Anti-rabbit-AlexaFluor-488 (1:1000) and anti-mouse-Alexa Fluor-555 (1:1000) (both from Invitrogen Detection Technologies) were used as secondary antibodies. Fluorescent images were captured with a confocal Olympus microscope or with an Olympus BX51 microscope (Olympus) and analyzed with the Image-Pro Express program (Media Cybernetics). Three coverslips were stained for each experimental group. We examined at least 5 images per coverslip in at least 3 independent experiments. For pixel quantification the Multi Measure application (ImageJ) was used. For the quantification of the images of the cultured HT22 cells each cell was taken as an independent region of interest (ROI). Then each ROI was averaged and divided by the total number of quantified neurons.
+L34: 2.7. Western Blot Analysis
+L35: Proteins were prepared as described previously [ 36 ]. Cerebellar protein samples (60 μg) or HT22 protein samples (60 µg) were resolved by SDS-PAGE. The immunoblot was carried out using anti-p73 (H-79; 1:1000) (Santa Cruz Biotech), anti-c-Abl (K-12; 1:1000) (Santa Cruz Biotech), anti-ε-COP (obtained from Dr. Monty Krieger, Massachusetts Institute of Technology, Cambridge, MA, USA) (1:5000)) and anti-tubulin (T5168; 1:5000) (Sigma) antibodies, and secondary antibodies conjugated with horseradish peroxidase (1:3000) (Upstate Biotechnology, Lake Placid, NY, USA).
+L36: 2.8. HPLC-EC α-TOH Content Measurements
+L37: Samples of frozen tissue (brain and cerebellum) from control- and vit E-treated NPC mice ( n  = 2) were weighed and then mechanically homogenized, placed in 0.5 mL homogenization buffer (20 mM Tris pH 7.2; 2 mM MgCl 2 ; 0.25 M sucrose; 1 mg/mL Leupeptin; 1 mM Pepstatin; 1 mM PMSF and 0.1% BHT). Tissues were mechanically homogenized using an Ultraturrax (Kinematica, Littau, Suiza). α-TOH content was determined by reverse phase HPLC-EC as described by Motchnik  et al . [ 37 ]. Briefly, the sample was resuspended in ethanol and mixed briefly. Afterwards, hexane was added. The solution was mixed, centrifuged for 15 min at 1000×  g , and the upper hexane layer was transferred to a glass tube; the hexane extraction procedure was repeated twice. Hexane extracts were pooled and dried at room temperature under a stream of nitrogen, and the resulting pellet was dissolved in methanol/ethanol (1:1, v/v). Samples were then separated in columns using 20 mM Lithium Perchlorate in ethanol/H2O (96:4, v/v) as mobile phase.
+L38: 2.9. Statistical Analysis
+L39: Mean and standard error of the mean values with the corresponding number of experiments are indicated in the figure legends. Probability values of the data for Student  t -tests and ANOVA tests with Bonferroni’s post-test were obtained using the GraphPad Prism 5 (Graph Pad Software, Inc., San Diego, CA, USA).
+L40: 3. Results
+L41: 3.1. Vitamin E Treatment Increases Survival and Improves Locomotor Function of NPC Mice
+L42: In order to test the effect of the vitamin E treatment, wild-type and NPC mice were fed with an α-TOH supplemented diet (2000 IU/Kg  dl -Alpha Tocopherol Acetate) and a control diet starting at p28. Weight was registered during the full period of treatment ( Figure 1 A). The α-TOH rich diet delayed loss of weight in the NPC mice compared to those with the control diet. Weight started to decline at approximately 6 and 7 weeks of age in NPC mice fed control and α-TOH rich diets, respectively, and the rate of decline was reduced in the mice treated with the α-TOH rich diet ( Figure 1 A).
+L43: We evaluated coordination and locomotor function using two different tests ( Figure 1 B,C) at regular intervals throughout treatment. The α-TOH rich diet-treated NPC mice exhibited an improvement in the hanging test, which evaluates coordination of the four paws and the tail ( Figure 1 B). A delay in the onset of symptoms was observed in the α-TOH rich diet-treated NPC mice from 7 week of age.
+L44: Figure 1 Vitamin E treatment increases survival and improves locomotor function of NPC mice. Wild-type (WT) and NPC mice received vitamin E (Vit E) (2000 IU/kg  dl -alpha tocopherol acetate) or control diets starting at p28. ( A ) Weight was registered during the full period of treatment; ( B  and  C ) Motor coordination was assessed weekly by the hanging test and the beam test, respectively. For  A  and  B  white and black circles are shown for control- and Vit E-treated WT mice and white and black triangles are shown for control- and Vit E-treated NPC mice. For C white and black bars are shown for control- and Vit E-treated NPC mice. Control- and Vit E-treated WT mice did not fall down in this test (bars for these groups are not shown); ( D ) Survival was determined by continuing with the treatment until death. The dotted and solid lines are shown for control- and Vit E-treated NPC mice; ( E ) Mean survival age graphic. White and black bars are shown for control- and Vit E-treated NPC mice. Data are shown as mean ± SE, except for A in which SE are not shown to improve the visualization of each group. *  p  <0.05, **  p  < 0.01, ***  p  < 0.0001. For  A – C  the following number of animals were used: WT control  n  = 6, WT Vit E  n  = 9, NPC control  n  = 8, and NPC Vit E  n  = 8. For D and E survival was measured in a group of 4 and 5 NPC mice fed with control and Vit E diets, respectively.
+L45: In the beam test, which evaluates equilibrium and coordination, the α-TOH rich diet-treated NPC mice showed fewer falls than the control diet treated-NPC mice ( Figure 1 C). In this test, a significant improvement was observed from 7 weeks until 9 weeks of age. At 11 weeks of age, only NPC mice treated with the α-TOH rich diet survived.
+L46: Next, we analyzed the effect of α-TOH supplemented diet on the lifespan of NPC mice, starting the treatment from p28. Interestingly, α-TOH treatment significantly improved survival of NPC mice ( Figure 1 D). We observed a mean increase of 11 days in survival ( Figure 1 E). This increase in survival correlated with a tendency toward a greater corporal weight and improved locomotor function.
+L47: 3.2. Vitamin E Treatment Improves Purkinje Cell Survival and Decreases Astrogliosis and Nitrotyrosine Levels in the Cerebellum of NPC Mice
+L48: Since vitamin E treatment improved neurological function in the NPC mice, we examined the effect of the α-TOH therapy on the survival of cerebellar Purkinje cells in mice treated for three weeks, from p28 to 7 weeks of age. Cerebella from control- and α-TOH-treated WT and NPC mice were analyzed for calbindin, a specific staining of cerebellum Purkinje cells, by immunohistochemistry. α-TOH treatment substantially improved Purkinje cell survival in NPC mice ( Figure 2 A). A quantification of calbindin-immunoreactive Purkinje cell bodies in cerebellar sections ( n  = 3 mice/group) is shown ( Figure 2 B). The greatest loss of Purkinje cells occurs in cerebellar frontal lobes, especially 2 and 4 [ 14 ]. Vitamin E treatment significantly improved Purkinje cell survival in lobe 3. Furthermore, the treatment had a trend to improve survival in lobe 2 and 4–5. In accordance with previous studies [ 38 ], lobes 7–10 from cerebella of NPC mice exhibited a marked resistance to cell death at 7 weeks of age, which was the time when the cerebella were analyzed.
+L49: In order to correlate the improvement in Purkinje cell survival with the vitamin E diet we measured α-TOH content in brain and cerebellum of control- and vit E-treated NPC mice. We found a significant increase in α-TOH levels in brain and cerebellum of vit E-treated NPC mice compared with control-treated NPC mice ( Figure 2 C).
+L50: Figure 2 Vitamin E treatment improves Purkinje cell survival in the cerebellum of NPC mice. Wild-type (WT) and NPC mice received vitamin E (Vit E) (2000 IU/Kg DL-Alpha Tocopherol Acetate) or control (Ct) diets starting at p28. Cerebella from Ct- and Vit E-treated WT and NPC mice were analyzed at 7 weeks of age. ( A ) Calbindin was analyzed by immunohistochemistry. Scale bar, 100 μm; ( B ) A quantification of calbindin- immunoreactive Purkinje cell bodies in cerebellar sections ( n  = 3 mice/group) is shown; white and black bars are shown for Ct-and Vit E-treated NPC mice. Results are means ± SE. *  p  = 0.0091; ( C ) α-TOH content was measured by HPLC in brain and cerebellum. The following numbers of animals were used: Ct-and Vit E-treated NPC mice,  n  = 2 for brain and cerebellum analysis. Results are means ± SE. *  p  < 0.05.
+L51: We also analyzed astrogliosis and the oxidative stress marker nitrotyrosine using anti-GFAP and anti-nitrotyrosine antibodies, respectively, in the cerebellum of control-and α-TOH-treated WT and NPC mice. We found decreased levels of both markers in the cerebellum of the α-TOH-treated NPC mice ( Figure 3 A,B).
+L52: In summary, α-TOH-treated NPC mice showed an increase in Purkinje cell survival that correlated with increased α-TOH levels and decreased levels of GFAP and nitrotyrosine in the cerebellum.
+L53: Figure 3 Vitamin E treatment decreases astrogliosis and nitrotyrosine levels in the cerebellum of NPC mice. Wild-type (WT) and NPC mice received vitamin E (Vit E) (2000 IU/kg  dl -alpha tocopherol acetate) or control (Ct) diets starting at p28. Cerebella from Ct- and Vit E-treated WT and NPC mice were analyzed at 7 weeks of age; ( A ) Astrogliosis was analyzed by GFAP immunofluorescence. Scale bar, 100 μm. ( B ) Nitrotyrosine levels were determined using an anti-nitrotyrosine antibody and immunofluorescence analysis. A negative control (Neg ct) without the primary antibody was included. TOPRO-3 iodide was used for nuclear staining. Scale bar, 50 μm. 3 mice of each group (WT and NPC mice treated with Ct and Vit E diets) were used in each analysis.
+L54: 3.3. Vitamin E Treatment Prevents U18666A Induced-cAbl/p73 and Caspase 3 Activation in HT22 Neurons and p73 Activation in the Cerebellum of NPC Mice
+L55: To complement our studies we evaluated the connection between vitamin E, the c-Abl/p73 proapoptotic pathway and NPC neurodegeneration, studying the expression of the phosphorylated and activated form of c-Abl and p73 in a pharmacological  in vitro  neuronal NPC model. We treated the HT22 neuronal hippocampal cell line with U18666A (U18) (0.5 μg/mL for 24 h), a well-known NPC phenotype inducer [ 39 , 40 , 41 ] that triggers significant cholesterol accumulation, in the presence of vitamin E (50 µM). In U18 treated cells we found dramatically increased p-c-Abl and p73 immunostaining relative to untreated cells. Interestingly, in the presence of vitamin E, p-c-Abl and p73 immunostaining were significantly decreased ( Figure 4 A,B).
+L56: On the other hand, we studied the levels of phosphorylated p73 and activated caspase 3 by Western blot analysis. We found that U18 increased both phosphorylated p73 and activated caspase 3 protein levels relative to untreated cells. Interestingly, we observed that the cells treated with U18 and vitamin E presented lower increases in phosphorylated p73 and activated caspase 3 expression ( Figure 4 C,D).
+L57: As a positive control for the inhibition of c-Abl and its signaling pathways, we used U18-treated HT22 cells in presence of Imatinib in both Western blot and immunofluorescence analysis [ 14 ]. As expected, we observed that Imatinib treatment significantly decreased p-c-Abl, p73, phosphorylated p73 and activated caspase 3 levels.
+L58: To evaluate the  in vivo  relevance of these findings we studied the expression of the phosphorylated and activated form of p73 in cerebellum homogenates of control- and α-TOH-treated WT and NPC mice by Western blot analysis ( Figure 4 E). We found that under the control diet, NPC cerebella had an approximately 2.5-fold increase with respect to wild-type cerebella. Moreover, we found a 4-fold decrease in the phosphorylated p73 protein levels in α-TOH treated NPC mice compared to the control diet treated-NPC mice.
+L59: Figure 4 Vitamin E prevents U18666A induced cAbl/p73 and caspase 3 activation in HT22 neurons and p73 activation in the cerebellum of NPC mice. ( A , B ) Control (Ct) and U18-treated (0.5 μg/mL for 24 h) HT22 cells in absence or presence of vitamin E (Vit E) (50 μM) or Imatinib (5 μM) were fixed and immunostained using anti-p-cAbl, anti-p73, Phalloidin:TRITC and anti-β-tubulin antibodies. Data shown are an average of three independent experiments, and graphs shown quantifications, in arbitrary units (AU) of both phosphorylated (phospho)-c-Abl and p73 levels; ( C , D ) Immunoblot analysis of phosphoporylated (phospho)-p73 and caspase 3 active. Lysates from control and U18-treated (0.5 μg/mL for 24 h) HT22 cells in presence of vitamin E (Vit E) (50 μM) or Imatinib (5 μM) were resolved by 10% SDS-PAGE and analyzed by Western blot with anti-p-p73 and anti-caspase 3 active antibodies. Graphs show quantifications of phosphorylated (phospho)-p73 and caspase 3 active levels normalized by β-tubulin expression (arbitrary units, AU); ( E ) Immunoblot analysis of phospho p73 in NPC cerebellum. Cerebella homogenates from control- and Vit E-treated WT and NPC mice were analyzed at 7 weeks of age. The graph shows the quantification of p73 normalized by ε-cop expression (arbitrary units, AU). *  p  < 0.05, **  p  < 0.01, ***  p  < 0.0001. Representative images of some experimental conditions are shown.
+L60: In summary, these results show that vitamin E treatment prevented the activation of the c-Abl/p73 signaling pathway in NPC mice cerebellum and neurons.
+L61: 4. Discussion
+L62: The most relevant finding of our study is that vitamin E treatment increased the quality of life of NPC mice by delaying body weight loss and neurological symptoms, decreasing cerebellar oxidative stress and astrogliosis and increasing Purkinje cell survival. Furthermore, vitamin E was supplemented on diet in relatively old p28 NPC mice and is a non-invasive therapy without apparent side effects.
+L63: Interestingly, previous work from our group demonstrates that oxidative stress is the main upstream stimulus activating apoptosis in NPC neurons through the c-Abl/p73 proapoptotic pathway [ 24 ]. For instance, we have shown that treatment with the antioxidant  N -Acetyl Cysteine (NAC) prevented c-Abl/p73 activation and apoptosis in  in vitro  NPC-like neurons [ 24 ]. However, oral supplementation of NAC only partially improved liver function and moderately reduced neurologic symptoms of  Npc1 −/−  mice [ 15 , 23 ]. These results suggested a limited efficacy of acute NAC intervention in NPC disease. Here we found that vitamin E can delay neurodegeneration in NPC mice and prevent c-Abl/p73 activation  in vivo  and in a neuron NPC model. However, treatment with vitamin E did not show positive effects on NPC mice liver (data not shown), whereas NAC treatment improved liver inflammation. These results support the idea that one of the major beneficial effects of the α-TOH diet is decreasing oxidative stress in the CNS. Accordingly, the levels of the oxidative stress marker, nitrotyrosine, were decreased in NPC mice cerebella with the α-TOH treatment.
+L64: Previous studies suggested that vitamin E transport could be altered in NPC cells, primary in Purkinje neurons. In fact, α-TTP (α-TOH transport protein) is expressed in Purkinje cells of patients having vitamin E deficiency or oxidative stress-associated diseases [ 42 ]. Moreover, we have previously published that NPC cells cannot transport vitamin E correctly leading to α-TOH buildup in the endosomal/lysosomal system. This may result in a decreased bioavailability and impaired antioxidant function of vitamin E in NPC, contributing to the disease pathogenesis [ 25 , 26 ]. Indeed, recently it was demonstrated that vitamin E is essential for Purkinje neuron integrity [ 43 ]. In this sense, a previous  in vivo  study showed that treatment with vitamin E, administered orally via gavage once a week, significantly delayed weight loss only in females. It also produced a significant but relatively small delay in the rate of disease progression in  Npc1 −/−  mice [ 31 ]. However, we show a more robust result with dietary vitamin E supplementation and using only male mice. Furthermore we observed an 11-day increase in NPC mice survival. Differences between this previous study and ours may be caused by the route and/or periodicity of vitamin E administration and by the gender of animal used. Although we obtained similar results in survival using the c-Abl inhibitor Imatinib [ 14 ], it is notable that in this work vitamin E supplementation was initiated relatively late, at p28, whereas improvement in NPC mice survival with Imatinib was achieved if treatment was initiated earlier, at p7 [ 14 ].
+L65: Our results demonstrated that a vitamin E supplemented diet caused a beneficial effect on Purkinje neurons and cerebellum, but we cannot rule out the possibility that the diet is improving other regions of the brain. The lobes in which we observed improvement are those that exhibit more cell death in NPC mice at the age in which the samples were taken [ 38 ].
+L66: Although vitamin E appears to have a protective function in the brain, relatively little is known about its mechanism of action or how it reaches the brain. Interestingly, the beneficial effects observed in NPC mice where achieved although vitamin E blood-brain barrier (BBB) penetrance is low in mice. Previous reports, in mouse brain showed small increases in α-TOH levels in response to a high dosage α-TOH supplementation when compared to those of plasma and liver. On average, the brain showed a 1.6-fold increase to 2 μM, as compared to the 6-fold increase in plasma to 4.9 μM and the 4.9-fold increase in liver to 240 μM [ 44 ]. This result suggests the presence of brain-specific mechanisms that limit α-TOH uptake into the brain, potentially at the BBB and apparently, the physiological benefit of supplementation was achieved despite the modest increase in cerebellar α-TOH [ 44 ].
+L67: On the other hand, in another mouse model, a very small increase in cerebellar α-TOH was physiologically relevant [ 43 ]. Accordingly, in this study authors showed that the average neuronal body size of the vitamin E-depleted  Ttpa −/−  animals was markedly reduced by 25% compared to the  Ttpa +/+  mice and long-term supplementation with vitamin E completely prevented this atrophy. This finding indicates that vitamin E deficiency contributes to marked atrophy of the Purkinje neurons, and that this fate was prevented by a high-dose, long-term supplementation with α-TOH. Apparently, the physiological benefit of supplementation was achieved despite the modest increase in cerebella α-TOH levels [ 43 ]. In addition, our results showed that after three weeks of dietary supplementation brain and cerebellum α-TOH levels were increased in NPC mice. Together our results and the data from the literature suggest that vitamin E is crossing the BBB and a modest increase in α-TOH levels is physiologically relevant.
+L68: Another possible scenario is that alterations in the BBB in the NPC mice, as well as in the  Ttpa −/−  mice, which has been shown to improve with dietary vitamin E supplementation, allow its increased brain penetrance.
+L69: In this study we used a diet with high α-TOH content, and extrapolation to human treatment is difficult to determine. Further experiments are needed to determinate the effect and dose of vitamin E in NPC patients, because in humans serum α-TOH concentrations are poorly correlated with dietary vitamin E estimates and appear to be regulated by the α-TTP [ 45 ]. Moreover, determination of cerebellum physiological α-TOH relevant levels in NPC patients would be required.
+L70: As a major lipid-soluble antioxidant, α-TOH is essential for all cells due to its reactive oxygen species (ROS) scavenging activity [ 46 ]. However, vitamin E appears to be especially critical for CNS function. Little is known regarding the specific roles of α-TOH in the CNS, or the mechanisms by which it elicits its neuroprotective effects. Our results show a decrease in the levels of the well-accepted oxidative stress marker nitrotyrosine in α-TOH-treated NPC mice.
+L71: One possible target of α-TOH in NPC disease is mitochondria. Mitochondrial alterations have been reported in NPC cells [ 47 , 48 ] and in many neurodegenerative diseases [ 49 , 50 ] and studies have demonstrated that increased level of α-TOH in mitochondria is critical against oxidative stress in this organelle [ 51 , 52 ]. In fact, recent findings indicate that enrichment of mitochondria with protective α-TOH weakens production of ROS and antioxidant enzyme activities, especially in hepatic mitochondria [ 53 ]. This is important in NPC disease because the most affected organs are liver and brain. These organs are very active metabolically and contain the largest number of mitochondria. Furthermore another antioxidant that is decreased in NPC disease is GSH [ 54 ] and α-TOH prevented GSH depletion [ 55 ].
+L72: Another antioxidant function of α-TOH is counteracting the 7-ketocholesterol (7-KC) effect [ 56 , 57 ]. 7-KC is mainly produced from cholesterol autoxidation, and is increased in NPC disease [ 22 ]. On various cell types, 7-KC has often been shown to induce a complex mode of cell death by apoptosis associated with phospholipidosis. On murine oligodendrocytes treated with 7-KC the induction of apoptosis cell death was inhibited by α-TOH [ 56 ].
+L73: Interestingly, recent studies have shown that δ-tocopherol, a minor vitamin E specie, reduced lysosomal cholesterol accumulation, decreased lysosomal volume, increased cholesterol efflux, and alleviated pathological phenotypes in NPC1 fibroblasts [ 58 ]. These effects were correlated with a tocopherol-induced intracellular Ca (2+)  response and a subsequent enhancement of lysosomal exocytosis.
+L74: Finally our results showing that vitamin E treatment, both  in vivo  and in neuronal NPC models, decreased the activation of the proapototic c-Abl/p73 pathway, also supports the idea that one of the major beneficial effects of the α-TOH diet is decreasing oxidative stress, but we cannot rule out other non-antioxidant actions of vitamin E.
+L75: 5. Conclusions
+L76: In conclusion, our results show that vitamin E can delay neurodegeneration in NPC mice, and that this effect is related with its antioxidant capacity and suggest that its supplementation in the diet could be useful for the treatment of NPC patients.
+L77: 1. Patterson M.C. Vecchio D. Prady H. Abel L. Wraith J.E. 
+L78:  Miglustat for treatment of niemann-pick c disease: A randomised controlled study 
+L79:  Lancet Neurol. 
+L80:  2007 
+L81:  6 
+L82:  765 
+L83:  772 
+L84:  10.1016/S1474-4422(07)70194-1 
+L85:  17689147
+L86: 2. Patterson M.C. Hendriksz C.J. Walterfang M. Sedel F. Vanier M.T. Wijburg F. 
+L87:  Recommendations for the diagnosis and management of niemann-pick disease type c: An update 
+L88:  Mol. Genet. Metab. 
+L89:  2012 
+L90:  106 
+L91:  330 
+L92:  344 
+L93:  10.1016/j.ymgme.2012.03.012 
+L94:  22572546
+L95: 3. Wraith J.E. Guffon N. Rohrbach M. Hwu W.L. Korenke G.C. Bembi B. Luzy C. Giorgino R. Sedel F. 
+L96:  Natural history of Niemann-Pick disease type C in a multicentre observational retrospective cohort study 
+L97:  Mol. Genet. Metab. 
+L98:  2009 
+L99:  98 
+L100:  250 
+L101:  254 
+L102:  10.1016/j.ymgme.2009.06.009 
+L103:  19616462
+L104: 4. Carstea E.D. Morris J.A. Coleman K.G. Loftus S.K. Zhang D. Cummings C. Gu J. Rosenfeld M.A. Pavan W.J. Krizman D.B. 
+L105:  Niemann-Pick C1 disease gene: Homology to mediators of cholesterol homeostasis 
+L106:  Science 
+L107:  1997 
+L108:  277 
+L109:  228 
+L110:  231 
+L111:  10.1126/science.277.5323.228 
+L112:  9211849
+L113: 5. Naureckiene S. Sleat D.E. Lackland H. Fensom A. Vanier M.T. Wattiaux R. Jadot M. Lobel P. 
+L114:  Identification of he1 as the second gene of niemann-pick c disease 
+L115:  Science 
+L116:  2000 
+L117:  290 
+L118:  2298 
+L119:  2301 
+L120:  10.1126/science.290.5500.2298 
+L121:  11125141
+L122: 6. Kwon H.J. Abi-Mosleh L. Wang M.L. Deisenhofer J. Goldstein J.L. Brown M.S. Infante R.E. 
+L123:  Structure of  N -terminal domain of npc1 reveals distinct subdomains for binding and transfer of cholesterol 
+L124:  Cell 
+L125:  2009 
+L126:  137 
+L127:  1213 
+L128:  1224 
+L129:  10.1016/j.cell.2009.03.049 
+L130:  19563754
+L131: 7. Rosenbaum A.I. Maxfield F.R. 
+L132:  Niemann-Pick type C disease: Molecular mechanisms and potential therapeutic approaches 
+L133:  J. Neurochem. 
+L134:  2011 
+L135:  116 
+L136:  789 
+L137:  795 
+L138:  10.1111/j.1471-4159.2010.06976.x 
+L139:  20807315
+L140: 8. Dixit S.S. Jadot M. Sohar I. Sleat D.E. Stock A.M. Lobel P. 
+L141:  Loss of Niemann-Pick C1 or C2 protein results in similar biochemical changes suggesting that these proteins function in a common lysosomal pathway 
+L142:  PLoS One 
+L143:  2011 
+L144:  6 
+L145:  e23677 
+L146:  10.1371/journal.pone.0023677 
+L147:  21887293
+L148: 9. Wu Y.P. Mizukami H. Matsuda J. Saito Y. Proia R.L. Suzuki K. 
+L149:  Apoptosis accompanied by up-regulation of TNF-alpha death pathway genes in the brain of Niemann-Pick type C disease 
+L150:  Mol. Genet. Metab. 
+L151:  2005 
+L152:  84 
+L153:  9 
+L154:  17 
+L155:  10.1016/j.ymgme.2004.08.017 
+L156:  15639190
+L157: 10. Paul C.A. Boegle A.K. Maue R.A. 
+L158:  Before the loss: Neuronal dysfunction in Niemann-Pick type C disease 
+L159:  Biochim. Biophys. Acta 
+L160:  2004 
+L161:  1685 
+L162:  63 
+L163:  76 
+L164:  15465427
+L165: 11. Walkley S.U. Suzuki K. 
+L166:  Consequences of NPC1 and NPC2 loss of function in mammalian neurons 
+L167:  Biochim. Biophys. Acta 
+L168:  2004 
+L169:  1685 
+L170:  48 
+L171:  62 
+L172:  15465426
+L173: 12. Elrick M.J. Pacheco C.D. Yu T. Dadgar N. Shakkottai V.G. Ware C. Paulson H.L. Lieberman A.P. 
+L174:  Conditional Niemann-Pick C mice demonstrate cell autonomous purkinje cell neurodegeneration 
+L175:  Hum. Mol. Genet. 
+L176:  2010 
+L177:  19 
+L178:  837 
+L179:  847 
+L180:  10.1093/hmg/ddp552 
+L181:  20007718
+L182: 13. Hawes C.M. Wiemer H. Krueger S.R. Karten B. 
+L183:  Pre-synaptic defects of NPC1-deficient hippocampal neurons are not directly related to plasma membrane cholesterol 
+L184:  J. Neurochem. 
+L185:  2010 
+L186:  114 
+L187:  311 
+L188:  322 
+L189:  20456004
+L190: 14. Alvarez A.R. Klein A. Castro J. Cancino G.I. Amigo J. Mosqueira M. Vargas L.M. Yevenes L.F. Bronfman F.C. Zanlungo S. 
+L191:  Imatinib therapy blocks cerebellar apoptosis and improves neurological symptoms in a mouse model of Niemann-Pick type C disease 
+L192:  FASEB J. 
+L193:  2008 
+L194:  22 
+L195:  3617 
+L196:  3627 
+L197:  10.1096/fj.07-102715 
+L198:  18591368
+L199: 15. Vazquez M.C. del Pozo T. Robledo F.A. Carrasco G. Pavez L. Olivares F. Gonzalez M. Zanlungo S. 
+L200:  Alteration of gene expression profile in Niemann-Pick type C mice correlates with tissue damage and oxidative stress 
+L201:  PLoS One 
+L202:  2011 
+L203:  6 
+L204:  e28777 
+L205:  10.1371/journal.pone.0028777 
+L206:  22216111
+L207: 16. Cologna S.M. Cluzeau C.V. Yanjanin N.M. Blank P.S. Dail M.K. Siebel S. Toth C.L. Wassif C.A. Lieberman A.P. Porter F.D. 
+L208:  Human and mouse neuroinflammation markers in Niemann-Pick disease, type C1 
+L209:  J. Inherit. Metab. Dis. 
+L210:  2014 
+L211:  37 
+L212:  83 
+L213:  92 
+L214:  10.1007/s10545-013-9610-6 
+L215:  23653225
+L216: 17. Kennedy B.E. Leblanc V.G. Mailman T.M. Fice D. Burton I. Karakach T.K. Karten B. 
+L217:  Pre-symptomatic activation of antioxidant responses and alterations in glucose and pyruvate metabolism in Niemann-Pick type C1-deficient murine brain 
+L218:  PLoS One 
+L219:  2013 
+L220:  8 
+L221:  e82685 
+L222:  10.1371/journal.pone.0082685 
+L223:  24367541
+L224: 18. Ribas G.S. Pires R. Coelho J.C. Rodrigues D. Mescka C.P. Vanzin C.S. Biancini G.B. Negretto G. Wayhs C.A. Wajner M. 
+L225:  Oxidative stress in Niemann-Pick type C patients: A protective role of n-butyl-deoxynojirimycin therapy 
+L226:  Int. J. Dev. Neurosci. 
+L227:  2012 
+L228:  30 
+L229:  439 
+L230:  444 
+L231:  10.1016/j.ijdevneu.2012.07.002 
+L232:  22820346
+L233: 19. Fu R. Yanjanin N.M. Bianconi S. Pavan W.J. Porter F.D. 
+L234:  Oxidative stress in Niemann-Pick disease, type C 
+L235:  Mol. Genet. Metab. 
+L236:  2010 
+L237:  101 
+L238:  214 
+L239:  218 
+L240:  10.1016/j.ymgme.2010.06.018 
+L241:  20667755
+L242: 20. Cologna S.M. Jiang X.S. Backlund P.S. Cluzeau C.V. Dail M.K. Yanjanin N.M. Siebel S. Toth C.L. Jun H.S. Wassif C.A. 
+L243:  Quantitative proteomic analysis of Niemann-Pick disease, type C1 cerebellum identifies protein biomarkers and provides pathological insight 
+L244:  PLoS One 
+L245:  2012 
+L246:  7 
+L247:  e47845 
+L248:  10.1371/journal.pone.0047845 
+L249:  23144710
+L250: 21. Porter F.D. Scherrer D.E. Lanier M.H. Langmade S.J. Molugu V. Gale S.E. Olzeski D. Sidhu R. Dietzen D.J. Fu R. 
+L251:  Cholesterol oxidation products are sensitive and specific blood-based biomarkers for Niemann-Pick C1 disease 
+L252:  Sci. Transl. Med. 
+L253:  2010 
+L254:  2 
+L255:  56ra81 
+L256:  10.1126/scitranslmed.3001417 
+L257:  21048217
+L258: 22. Jiang X. Sidhu R. Porter F.D. Yanjanin N.M. Speak A.O. te Vruchte D.T. Platt F.M. Fujiwara H. Scherrer D.E. Zhang J. 
+L259:  A sensitive and specific LC-MS/MS method for rapid diagnosis of Niemann-Pick C1 disease from human plasma 
+L260:  J. Lipid Res. 
+L261:  2011 
+L262:  52 
+L263:  1435 
+L264:  1445 
+L265:  10.1194/jlr.D015735 
+L266:  21518695
+L267: 23. Fu R. Wassif C.A. Yanjanin N.M. Watkins-Chow D.E. Baxter L.L. Incao A. Liscum L. Sidhu R. Firnkes S. Graham M. 
+L268:  Efficacy of  N -acetylcysteine in phenotypic suppression of mouse models of Niemann-Pick disease, type C1 
+L269:  Hum. Mol. Genet. 
+L270:  2013 
+L271:  22 
+L272:  3508 
+L273:  3523 
+L274:  10.1093/hmg/ddt206 
+L275:  23666527
+L276: 24. Klein A. Maldonado C. Vargas L.M. Gonzalez M. Robledo F. Perez de Arce K. Munoz F.J. Hetz C. Alvarez A.R. Zanlungo S. 
+L277:  Oxidative stress activates the c-Abl/p73 proapoptotic pathway in Niemann-Pick type C neurons 
+L278:  Neurobiol. Dis. 
+L279:  2011 
+L280:  41 
+L281:  209 
+L282:  218 
+L283:  10.1016/j.nbd.2010.09.008 
+L284:  20883783
+L285: 25. Yevenes L.F. Klein A. Castro J.F. Marin T. Leal N. Leighton F. Alvarez A.R. Zanlungo S. 
+L286:  Lysosomal vitamin E accumulation in Niemann-Pick type C disease 
+L287:  Biochim. Biophys. Acta 
+L288:  2012 
+L289:  1822 
+L290:  150 
+L291:  160 
+L292:  22120593
+L293: 26. Ulatowski L. Parker R. Davidson C. Yanjanin N. Kelley T.J. Corey D. Atkinson J. Porter F. Arai H. Walkley S.U. 
+L294:  Altered vitamin e status in Niemann-Pick type C disease 
+L295:  J. Lipid Res. 
+L296:  2011 
+L297:  52 
+L298:  1400 
+L299:  1410 
+L300:  10.1194/jlr.M015560 
+L301:  21550990
+L302: 27. Serra S.A. Ill-Raga G. Coma M. Guix F.X. Muñoz F.J. 
+L303:  The role of vitamin E on intracellular signaling pathways in brain: Molecular basis for the treatment of neurodegenerative processes 
+L304:  Vitamin E: New research 
+L305:  Braunstein M.H. 
+L306:  Nova Science 
+L307:  New York, NY, USA 
+L308:  2006 
+L309:  151 
+L310:  176
+L311: 28. Cavalier L. Ouahchi K. Kayden H.J. Di Donato S. Reutenauer L. Mandel J.L. Koenig M. 
+L312:  Ataxia with isolated vitamin E deficiency: Heterogeneity of mutations and phenotypic variability in a large number of families 
+L313:  Am. J. Hum. Genet. 
+L314:  1998 
+L315:  62 
+L316:  301 
+L317:  310 
+L318:  10.1086/301699 
+L319:  9463307
+L320: 29. Terasawa Y. Ladha Z. Leonard S.W. Morrow J.D. Newland D. Sanan D. Packer L. Traber M.G. Farese R.V. Jr. 
+L321:  Increased atherosclerosis in hyperlipidemic mice deficient in alpha-tocopherol transfer protein and vitamin e 
+L322:  Proc. Natl. Acad. Sci. USA 
+L323:  2000 
+L324:  97 
+L325:  13830 
+L326:  13834 
+L327:  10.1073/pnas.240462697 
+L328:  11095717
+L329: 30. Yokota T. Igarashi K. Uchihara T. Jishage K. Tomita H. Inaba A. Li Y. Arita M. Suzuki H. Mizusawa H. 
+L330:  Delayed-onset ataxia in mice lacking alpha-tocopherol transfer protein: Model for neuronal degeneration caused by chronic oxidative stress 
+L331:  Proc. Natl. Acad. Sci. USA 
+L332:  2001 
+L333:  98 
+L334:  15185 
+L335:  15190 
+L336:  10.1073/pnas.261456098 
+L337:  11752462
+L338: 31. Bascunan-Castillo E.C. Erickson R.P. Howison C.M. Hunter R.J. Heidenreich R.H. Hicks C. Trouard T.P. Gillies R.J. 
+L339:  Tamoxifen and vitamin E treatments delay symptoms in the mouse model of Niemann-Pick C 
+L340:  J. Appl. Genet. 
+L341:  2004 
+L342:  45 
+L343:  461 
+L344:  467 
+L345:  15523158
+L346: 32. Amigo L. Mendoza H. Castro J. Quinones V. Miquel J.F. Zanlungo S. 
+L347:  Relevance of Niemann-Pick type C1 protein expression in controlling plasma cholesterol and biliary lipid secretion in mice 
+L348:  Hepatology 
+L349:  2002 
+L350:  36 
+L351:  819 
+L352:  828 
+L353:  10.1053/jhep.2002.35617 
+L354:  12297829
+L355: 33. Xie C. Turley S.D. Dietschy J.M. 
+L356:  Cholesterol accumulation in tissues of the Niemann-Pick type C mouse is determined by the rate of lipoprotein-cholesterol uptake through the coated-pit pathway in each organ 
+L357:  Proc. Natl. Acad. Sci. USA 
+L358:  1999 
+L359:  96 
+L360:  11992 
+L361:  11997 
+L362:  10.1073/pnas.96.21.11992 
+L363:  10518564
+L364: 34. Voikar V. Rauvala H. Ikonen E. 
+L365:  Cognitive deficit and development of motor impairment in a mouse model of Niemann-Pick type C disease 
+L366:  Behav. Brain Res. 
+L367:  2002 
+L368:  132 
+L369:  1 
+L370:  10 
+L371:  10.1016/S0166-4328(01)00380-1 
+L372:  11853852
+L373: 35. Liu J. Li L. Suo W.Z. 
+L374:  HT22 hippocampal neuronal cell line possesses functional cholinergic properties 
+L375:  Life Sci. 
+L376:  2009 
+L377:  84 
+L378:  267 
+L379:  271 
+L380:  10.1016/j.lfs.2008.12.008 
+L381:  19135458
+L382: 36. Cancino G.I. Toledo E.M. Leal N.R. Hernandez D.E. Yevenes L.F. Inestrosa N.C. Alvarez A.R. 
+L383:  Sti571 prevents apoptosis, tau phosphorylation and behavioural impairments induced by Alzheimerʼs beta-amyloid deposits 
+L384:  Brain 
+L385:  2008 
+L386:  131 
+L387:  2425 
+L388:  2442 
+L389:  10.1093/brain/awn125 
+L390:  18559370
+L391: 37. Motchnik P.A. Frei B. Ames B.N. 
+L392:  Measurement of antioxidants in human blood plasma 
+L393:  Methods Enzymol. 
+L394:  1994 
+L395:  234 
+L396:  269 
+L397:  279 
+L398:  7808294
+L399: 38. Sarna J.R. Larouche M. Marzban H. Sillitoe R.V. Rancourt D.E. Hawkes R. 
+L400:  Patterned purkinje cell degeneration in mouse models of Niemann-Pick type C disease 
+L401:  J. Comp. Neurol. 
+L402:  2003 
+L403:  456 
+L404:  279 
+L405:  291 
+L406:  10.1002/cne.10522 
+L407:  12528192
+L408: 39. Sparrow S.M. Carter J.M. Ridgway N.D. Cook H.W. Byers D.M. 
+L409:  U18666a inhibits intracellular cholesterol transport and neurotransmitter release in human neuroblastoma cells 
+L410:  Neurochem. Res. 
+L411:  1999 
+L412:  24 
+L413:  69 
+L414:  77 
+L415:  10.1023/A:1020932130753 
+L416:  9973239
+L417: 40. Liscum L. Faust J.R. 
+L418:  The intracellular transport of low density lipoprotein-derived cholesterol is inhibited in chinese hamster ovary cells cultured with 3-beta-[2-(diethylamino)ethoxy]androst-5-en-17-one 
+L419:  J. Biol. Chem. 
+L420:  1989 
+L421:  264 
+L422:  11796 
+L423:  11806 
+L424:  2745416
+L425: 41. Koh C.H. Cheung N.S. 
+L426:  Cellular mechanism of U18666a-mediated apoptosis in cultured murine cortical neurons: Bridging Niemann-Pick disease type C and Alzheimerʼs disease 
+L427:  Cell Signal. 
+L428:  2006 
+L429:  18 
+L430:  1844 
+L431:  1853 
+L432:  10.1016/j.cellsig.2006.04.006 
+L433:  16797161
+L434: 42. Copp R.P. Wisniewski T. Hentati F. Larnaout A. Ben Hamida M. Kayden H.J. 
+L435:  Localization of alpha-tocopherol transfer protein in the brains of patients with ataxia with vitamin E deficiency and other oxidative stress related neurodegenerative disorders 
+L436:  Brain Res. 
+L437:  1999 
+L438:  822 
+L439:  80 
+L440:  87 
+L441:  10.1016/S0006-8993(99)01090-2 
+L442:  10082886
+L443: 43. Ulatowski L. Parker R. Warrier G. Sultana R. Butterfield D.A. Manor D. 
+L444:  Vitamin E is essential for purkinje neuron integrity 
+L445:  Neuroscience 
+L446:  2014 
+L447:  260 
+L448:  120 
+L449:  129 
+L450:  10.1016/j.neuroscience.2013.12.001 
+L451:  24342566
+L452: 44. Baxter L.L. Marugan J.J. Xiao J. Incao A. McKew J.C. Zheng W. Pavan W.J. 
+L453:  Plasma and tissue concentrations of alpha-tocopherol and delta-tocopherol following high dose dietary supplementation in mice 
+L454:  Nutrients 
+L455:  2012 
+L456:  4 
+L457:  467 
+L458:  490 
+L459:  10.3390/nu4060467 
+L460:  22822447
+L461: 45. Traber M.G. 
+L462:  How much vitamin e?... Just enough! 
+L463:  Am. J. Clin. Nutr. 
+L464:  2006 
+L465:  84 
+L466:  959 
+L467:  960 
+L468:  17093143
+L469: 46. Koh M. Takitani K. Miyazaki H. Yamaoka S. Tamai H. 
+L470:  Liver x receptor up-regulates alpha-tocopherol transfer protein expression and alpha-tocopherol status 
+L471:  J. Nutr. Biochem. 
+L472:  2013 
+L473:  24 
+L474:  2158 
+L475:  2167 
+L476:  10.1016/j.jnutbio.2013.08.008 
+L477:  24231105
+L478: 47. Vazquez M.C. Balboa E. Alvarez A.R. Zanlungo S. 
+L479:  Oxidative stress: A pathogenic mechanism for Niemann-Pick type C disease 
+L480:  Oxid. Med. Cell. Longev. 
+L481:  2012 
+L482:  2012 
+L483:  205713 
+L484:  22720116
+L485: 48. Yu W. Gong J.S. Ko M. Garver W.S. Yanagisawa K. Michikawa M. 
+L486:  Altered cholesterol metabolism in Niemann-Pick type C1 mouse brains affects mitochondrial function 
+L487:  J. Biol. Chem. 
+L488:  2005 
+L489:  280 
+L490:  11731 
+L491:  11739 
+L492:  10.1074/jbc.M412898200 
+L493:  15644330
+L494: 49. Mocchegiani E. Costarelli L. Giacconi R. Malavolta M. Basso A. Piacenza F. Ostan R. Cevenini E. Gonos E.S. Franceschi C. 
+L495:  Vitamin E-gene interactions in aging and inflammatory age-related diseases: Implications for treatment. A systematic review 
+L496:  Ageing Res. Rev. 
+L497:  2014 
+L498:  14 
+L499:  81 
+L500:  101 
+L501:  10.1016/j.arr.2014.01.001 
+L502:  24418256
+L503: 50. Meydani S.N. Hayek M.G. 
+L504:  Vitamin E and aging immune response 
+L505:  Clin. Geriatr. Med. 
+L506:  1995 
+L507:  11 
+L508:  567 
+L509:  576 
+L510:  8556687
+L511: 51. Fariss M.W. Nicholls-Grzemski F.A. Tirmenstein M.A. Zhang J.G. 
+L512:  Enhanced antioxidant and cytoprotective abilities of vitamin e succinate is associated with a rapid uptake advantage in rat hepatocytes and mitochondria 
+L513:  Free Radic. Biol. Med. 
+L514:  2001 
+L515:  31 
+L516:  530 
+L517:  541 
+L518:  10.1016/S0891-5849(01)00615-3 
+L519:  11498286
+L520: 52. Zhang J.G. Nicholls-Grzemski F.A. Tirmenstein M.A. Fariss M.W. 
+L521:  Vitamin E succinate protects hepatocytes against the toxic effect of reactive oxygen species generated at mitochondrial complexes I and III by alkylating agents 
+L522:  Chem. Biol. Interact. 
+L523:  2001 
+L524:  138 
+L525:  267 
+L526:  284 
+L527:  10.1016/S0009-2797(01)00278-2 
+L528:  11714483
+L529: 53. Chow C.K. Ibrahim W. Wei Z. Chan A.C. 
+L530:  Vitamin E regulates mitochondrial hydrogen peroxide generation 
+L531:  Free Radic. Biol. Med. 
+L532:  1999 
+L533:  27 
+L534:  580 
+L535:  587 
+L536:  10.1016/S0891-5849(99)00121-5 
+L537:  10490278
+L538: 54. Mari M. Caballero F. Colell A. Morales A. Caballeria J. Fernandez A. Enrich C. Fernandez-Checa J.C. Garcia-Ruiz C. 
+L539:  Mitochondrial free cholesterol loading sensitizes to TNF- and Fas-mediated steatohepatitis 
+L540:  Cell Metab. 
+L541:  2006 
+L542:  4 
+L543:  185 
+L544:  198 
+L545:  10.1016/j.cmet.2006.07.006 
+L546:  16950136
+L547: 55. Stojkovski V. Hadzi-Petrushev N. Ilieski V. Sopi R. Gjorgoski I. Mitrov D. Jankulovski N. Mladenov M. 
+L548:  Age and heat exposure-dependent changes in antioxidant enzymes activities in ratʼs liver and brain mitochondria: Role of alpha-tocopherol 
+L549:  Physiol. Res. 
+L550:  2013 
+L551:  62 
+L552:  503 
+L553:  510 
+L554:  24020814
+L555: 56. Ragot K. Delmas D. Athias A. Nury T. Baarine M. Lizard G. 
+L556:  Alpha-tocopherol impairs 7-ketocholesterol-induced caspase-3-dependent apoptosis involving GSK-3 activation and Mcl-1 degradation on 158N murine oligodendrocytes 
+L557:  Chem. Phys. Lipids 
+L558:  2011 
+L559:  164 
+L560:  469 
+L561:  478 
+L562:  10.1016/j.chemphyslip.2011.04.014 
+L563:  21575614
+L564: 57. Xu G. Guan L. Sun J. Chen Z.Y. 
+L565:  Oxidation of cholesterol and beta-sitosterol and prevention by natural antioxidants 
+L566:  J. Agric. Food Chem. 
+L567:  2009 
+L568:  57 
+L569:  9284 
+L570:  9292 
+L571:  10.1021/jf902552s 
+L572:  19754120
+L573: 58. Xu M. Liu K. Swaroop M. Porter F.D. Sidhu R. Firnkes S. Ory D.S. Marugan J.J. Xiao J. Southall N. 
+L574:  Delta-tocopherol reduces lipid accumulation in Niemann-Pick type C1 and wolman cholesterol storage disorders 
+L575:  J. Biol. Chem. 
+L576:  2012 
+L577:  287 
+L578:  39349 
+L579:  39360 
+L580:  10.1074/jbc.M112.357707 
+L581:  23035117
+L582: Acknowledgments
+L583: This study was supported by grants from the Fondo Nacional de Desarrollo Científico y Tecnológico (FONDECYT) (grant numbers 1120512 to A.R.A, and 1110310 to S.Z); Fondo de Fomento al Desarrollo Científico y Tecnológico FONDEF D10I1077 (to A.R.A and S.Z.); Fondo Nacional de Desarrollo de Areas Prioritarias, FONDAP, Project no. 15090007, Center for Genome Regulation (CGR) to S.Z.; Generalitat de Catalunya (SGR2009-1369) and La Marató de TV3 (No. 100310).
+[41ms]
+

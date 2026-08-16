@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin C E supplementation resistance training muscle strength trial"
+  ],
+  "completed_at": "2026-08-16T02:59:31.852618+00:00",
+  "elapsed_seconds": 2.661200374830514,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:29.191420+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/resistance-01.attempt-01.stderr",
+  "stdout_bytes": 57192,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/resistance-01.attempt-01.stdout"
+}

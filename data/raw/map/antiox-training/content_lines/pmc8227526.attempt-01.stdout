@@ -1,0 +1,2237 @@
+L1: Effects of Vitamin E and Coenzyme Q 10  Supplementation on Oxidative Stress Parameters in Untrained Leisure Horses Subjected to Acute Moderate Exercise
+L2: Antioxidants (2021)
+L3: Alenka Nemec Svete, Tomaž Vovk, Mojca Bohar Topolovec, Peter Kruljc
+L4: 1 Small Animal Clinic, Veterinary Faculty, University of Ljubljana, Gerbičeva ulica 60, 1000 Ljubljana, Slovenia;  alenka.nemecsvete@vf.uni-lj.si  (A.N.S.);  mojca.bohar@siol.net  (M.B.T.)
+L5: 2 The Chair of Biopharmaceutics and Pharmacokinetics, Faculty of Pharmacy, University of Ljubljana, Aškerčeva cesta 7, 1000 Ljubljana, Slovenia;  tomaz.vovk@ffa.uni-lj.si
+L6: 3 Clinic for Reproduction and Large Animals, University of Ljubljana, Gerbičeva ulica 60, 1000 Ljubljana, Slovenia
+L7: The effects of antioxidant supplements on exercise-induced oxidative stress have not been investigated in untrained leisure horses. We investigated the effects of 14-day supplementation with vitamin E (1.8 IU/kg/day), coenzyme Q 10  (CoQ 10 ; ubiquinone; 800 mg/day), and a combination of both (the same doses as in mono-supplementation) on the blood levels of CoQ 10 , vitamin E, and oxidative stress parameters in untrained leisure horses subjected to acute moderate exercise. Correlations between lipid peroxidation and muscle enzyme leakage were also determined. Forty client-owned horses were included in the study, with 10 horses in each of the antioxidant and placebo (paraffin oil) groups. Blood parameters were measured before supplementation, before and immediately after exercise, and after 24 h of rest. The differences in individual parameters between blood collection times and groups were analysed with linear mixed models ( p  ˂ 0.05). None of the supplemented antioxidants affected vitamin E and CoQ 10  concentrations, oxidative stress parameters, or serum muscle enzymes. Lipid peroxidation occurred in horses supplemented with placebo and CoQ 10  but not in horses supplemented with vitamin E or the combination of both antioxidants. These results suggest that vitamin E alone or in combination with CoQ 10  prevented lipid peroxidation in untrained leisure horses subjected to acute moderate exercise.
+L8: Article
+L9: warm-blooded horses; acute moderate exercise; exercise-induced oxidative stress; coenzyme Q 10; vitamin E; malondialdehyde; creatine kinase; aspartate aminotransferase; antioxidant enzymes
+L10: 1. Introduction
+L11: The beneficial effects of regular, non-exhaustive physical activity have long been known [ 1 , 2 ]. However, these beneficial effects are lost with strenuous, exhaustive, or unaccustomed exercise, which can lead to muscle damage, inflammation, and oxidative stress [ 3 , 4 ]. In humans and animals, exercise can lead to the increased production of reactive species, reactive nitrogen species (RNS), and especially reactive oxygen species (ROS), which can lead to oxidative stress and consequent oxidative damage to DNA, proteins and lipids, especially in untrained individuals [ 4 , 5 , 6 , 7 , 8 , 9 ]. On the other hand, physiological concentrations of ROS play an important role in cell signalling and in regulating gene expression and are thus essential for normal cellular functions [ 3 , 4 ]. In addition, moderate exposure to RNS and ROS is considered necessary for adaptation to exercise training by modulating muscle contraction and the activation of the endogenous antioxidant system, including the increased expression of antioxidant enzymes [ 4 , 8 , 9 , 10 , 11 , 12 , 13 ].
+L12: Organisms have evolved remarkably efficient antioxidant defence mechanisms to remove ROS and thereby prevent the damage caused by their action [ 6 , 7 , 14 , 15 , 16 ]. There is growing evidence that antioxidant defence systems, including enzymatic and non-enzymatic antioxidants, are capable of major adaptations during acute and chronic exercise [ 4 , 9 , 11 , 12 , 17 , 18 ]. Moderate exercise itself can be considered an antioxidant, as low to moderate concentrations of ROS act as signals that induce the expression of powerful endogenous antioxidant enzymes (superoxide dismutase (SOD), glutathione peroxidase (GPX), catalase, etc.) relevant to muscle cell adaptation to exercise as well as other defence mechanisms [ 3 , 4 , 11 , 18 ].
+L13: Physical activities of different intensities have been shown to induce oxidative stress not only in human athletes but also in horses; namely endurance horses [ 19 , 20 , 21 , 22 , 23 ], show jumpers and dressage horses [ 24 , 25 ], pentathlon horses [ 26 ], Marremmana racehorses [ 27 ], Thoroughbred racehorses [ 28 , 29 , 30 ], Standardbred trotters [ 31 , 32 ], and horses subjected to various moderate and intense treadmill exercise tests [ 33 , 34 , 35 , 36 ]. Lipid peroxidation is the most common consequence of exercise-induced oxidative stress and can lead to the release of muscle enzymes into the systemic circulation. Exercise-induced redox disturbances in skeletal muscle can also contribute to muscle fatigue and muscle injury [ 8 , 16 ]. In addition, lipid peroxidation induced by physical activity can also lead to myopathy and haemolysis [ 6 , 16 , 20 , 27 , 34 , 37 , 38 , 39 ].
+L14: Antioxidant supplements are commonly used to reduce exercise-induced oxidative stress, muscle damage, and inflammation and to enhance exercise performance in human athletes [ 3 , 4 , 7 , 8 , 11 , 13 , 40 , 41 , 42 , 43 ], as well as in sport horses [ 44 , 45 , 46 , 47 , 48 , 49 ]. However, the effects of antioxidant supplements are controversial in exercise research. Antioxidant supplementation can have both beneficial and pro-oxidant effects [ 4 , 7 , 44 ]. In addition, it may hinder or prevent important signalling adaptations to exercise training [ 12 , 13 , 50 ].
+L15: Vitamin E (α-tocopherol) is one of the most well-studied and widely used antioxidant supplements in exercise research in humans [ 8 , 13 , 41 , 50 , 51 ] and horses [ 34 , 45 , 47 , 49 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 ]. This exogenous antioxidant is one of the most potent free radical scavengers [ 60 , 61 , 62 ]. Vitamin E supplementation has been reported to reduce the concentration of lipid peroxidation products, indicating a protective effect of vitamin E supplementation against oxidative stress induced by various forms of physical activity in humans [ 63 , 64 , 65 , 66 , 67 ] and in sport horses [ 34 , 52 ]. On the other hand, a meta-analysis based on human studies showed that vitamin E supplementation did not result in significant protection against exercise-induced lipid peroxidation or muscle damage [ 41 ]. Similar results have been reported in sport horses [ 53 , 56 , 57 , 68 ]. The inconsistency of results regarding the effects of vitamin E supplementation on exercise-induced oxidative stress appears to reflect a variety of factors, including the amount, duration, form, and frequency of vitamin E supplementation; the type and timing of exercise; the age and fitness of the subjects; the vitamin E status of the subjects prior to the studies; and the methodology used to assess oxidative stress [ 8 , 41 , 50 , 58 , 66 , 69 ]. Nevertheless, it should be emphasised that there is limited evidence to support the use of vitamin E in human athletes [ 70 ].
+L16: Coenzyme Q 10  (CoQ 10 ; 2,3-dimethoxy-5-methyl-6-decaprenyl-1,4-benzoquinone), also known as ubiquinone, is the only endogenous fat-soluble antioxidant in the organism that is synthesised de novo. Coenzyme Q 10  is known for its key role in mitochondrial bioenergetics. In addition, data showed that CoQ 10  affects the expression of genes involved in human cell signalling, metabolism, and transport [ 71 ]. The reduced form of CoQ 10 , ubiquinol, is a potent antioxidant and may play a role in recycling tocopherols by effectively reducing the tocopheroxyl radical in mitochondria to alpha-tocopherol, thus regenerating the active form of vitamin E [ 71 , 72 , 73 ]. Considering the key role of CoQ 10  in cellular energy production, CoQ 10  has a potential role in the prevention of exercise-induced oxidative stress [ 43 ].
+L17: Several studies have reported beneficial, neutral, and adverse effects of CoQ 10  supplementation on exercise-induced oxidative stress and exercise capacity [ 13 , 43 , 74 , 75 , 76 ]. These differences could be a consequence of inadequate CoQ 10  doses and poor absorption after oral intake. Nevertheless, several studies investigating the effect of CoQ 10  supplementation on exercise-induced oxidative stress in humans reported decreased levels of lipid peroxidation products [ 43 , 75 , 77 , 78 , 79 ]. Furthermore, ubiquinol supplementation minimised the exercise-induced depletion of CoQ 10  and increased intracellular and plasma levels of antioxidants; however, it was unable to improve physical performance indices or reduce levels of creatine kinase (CK) and myoglobin, markers of muscle damage [ 76 ]. The discrepancy and inconsistency of results obtained in studies of CoQ 10  supplementation may be due to differences between studies in CoQ 10  formulations, dosages, the timing of supplementation, exercise tests performed, types of participants, and outcome measures used [ 13 , 43 ].
+L18: In contrast to human studies, there are few studies in the literature on CoQ 10  supplementation in exercising racehorses [ 46 , 48 , 80 ]. However, there are no reports of CoQ 10  as well as vitamin E supplementation in client-owned untrained leisure horses. Therefore, the aim of our study was to investigate the effects of 14 days of supplementation of vitamin E, CoQ 10  (ubiquinone) and a combination of both on plasma concentrations of CoQ 10  and vitamin E as well as on blood oxidative stress parameters (total antioxidant capacity (TAC), SOD, GPX, and malondialdehyde (MDA)) in untrained leisure horses subjected to acute moderate exercise. In addition, serum muscle enzymes, aspartate aminotransferase (AST) and CK, were determined to investigate possible correlations between lipid peroxidation product, MDA, and serum muscle enzymes.
+L19: 2. Materials and Methods
+L20: 2.1. Animals
+L21: Sixty-three client-owned, warm-blooded, untrained leisure horses were evaluated for inclusion in our randomised, double-blind, placebo-controlled study. Forty horses of both sexes (18 mares and 22 geldings) and different breeds, with a mean age of 10.6 years (range 3 to 18 years) and a mean weight of 544 kg (range 423 to 697 kg), met the inclusion criteria; young (less than 3 years) and old horses (more than 18 years), mares in foal, mares with foals, and competition horses were not included, as well as horses receiving antioxidant supplements and those with concurrent diseases. Horses were considered healthy based on history, results of physical examination, and results of haematological and biochemical analyses ( Supplementary File ). The horses were fed oats and hay. Water was provided ad libitum.
+L22: Written informed consent was obtained from the owners of the horses before inclusion in the study. All procedures were in compliance with the relevant Slovenian regulations (Animal Protection Act, Official Gazette of the Republic of Slovenia, No. 43/2007). The Ethical Committee of the Ministry of Agriculture, Forestry and Food, Veterinary Administration of the Republic of Slovenia approved all procedures (Licence No. 34401-5/2010/13).
+L23: 2.2. Testing Protocol
+L24: Horses were randomly divided into 4 groups of 10 horses each and received supplements 2 times daily (at 7 a.m. and 19 p.m.) for 14 consecutive days. Horses in the CoQ 10  group (G-CoQ 10 ) received 800 mg/day of CoQ 10  (ubiquinone; Q 10  Vital Paste 7.5%, Valens Int. d. o. o., Šenčur, Slovenia) in the form of an inclusion complex with β-cyclodextrin (water soluble) produced in accordance with a previously filed patent [ 81 ]. Horses in the vitamin E group (G-Vit. E) received natural vitamin E (d-α-tocopherol acetate; natural vitamin E-oil, Natural Wealth, Bohemia, NY, USA) in the dose of 1.8 IU/kg BW/day [ 82 ], and the horses in the CoQ 10  + Vit. E group (G-CoQ 10  + Vit. E) received 800 mg CoQ 10 /day and vitamin E in the same dose as horses in the G-Vit. E group. The dose of vitamin E was calculated based on body weight; adult horses with an average body weight of 550 kg require 990 IU of vitamin E daily during moderate physical activity [ 82 ]. Horses in the control group (G-placebo) received 2.6 mL/day of paraffin oil (paraffinum liquidum, Ph. Eur. 6.0, series: MH163/10, 1 L, density at 20 °C, 0.865; Pharmachem sp., Ljubljana, Slovenia) as placebo. The calculated dose of paraffin oil was equivalent to a dose of a paste of 800 mg CoQ 10 /day.
+L25: 2.3. Acute Moderate Exercise
+L26: All 40 horses performed the acute moderate exercise [ 82 ] in the manege (diameter of approximately 18 m) after 14 days of placebo and antioxidant supplementation and were supervised by a licensed trainer. The program included “alternative lunging” in the following order: 10 min walk (warm-up), 5 min slow trot, 10 min fast trot, and 15 min gallop. This was followed by a 15–20 min of cooling down by walk.
+L27: Respiratory rate, body temperature, and heart rate ( Supplementary File ) were measured immediately before and immediately after the exercise (40 min after the beginning of the exercise). Environmental factors air temperature and relative humidity were measured before the exercise.
+L28: 2.4. Sample Collection and Preparation
+L29: Blood samples for the determination of haematological ( Supplementary File ), biochemical ( Supplementary File ), and oxidative stress parameters (TAC, SOD, GPX, and MDA) and antioxidants (vitamin E and CoQ 10 ) were collected from the jugular vein before the first dose of supplements (basal values—0), after 14 days of supplementation (before exercise—1), at the end of the gallop (immediately after exercise—2), and 24 h after (3) the exercise.
+L30: Blood samples for the determination of haematological parameters and MDA were collected into 3 mL tubes containing K 3 EDTA, for biochemical parameters into 5 mL serum separator tubes and for TAC, SOD, GPX, vitamin E, and CoQ 10  into five 2 mL tubes containing lithium heparin (all tubes Vacuette, Greiner, Kremsmünster, Avstria). Haematological analysis was performed within 5 h after collection of samples. Samples in serum separator tubes were left to clot for 60 min at room temperature and then centrifuged (1300×  g  for 10 min) to separate the serum. All biochemical parameters were determined immediately after serum preparation. Blood samples for the determination of plasma TAC, vitamin E, CoQ 10 , and MDA were centrifuged at 1500×  g  for 15 min at 4 °C. Plasma was separated, immediately frozen, and stored at −80 °C until analysis. Blood samples for the determination of GPX in whole blood lysates and SOD in washed red blood cells were prepared, immediately frozen, and stored at −80 °C until analysis.
+L31: 2.5. Sample Analysis
+L32: Haematological analyses were performed with an Advia 120 automated laser haematology analyser (Siemens, Munich, Germany), biochemical parameters (except electrolytes—sodium, potassium, and chloride) were determined with an RX-Daytona automated biochemical analyser (Randox, Crumlin, England), and concentrations of electrolytes were determined with an Ilyte electrolyte analyser (IL—Instrumentation Laboratory, Lexington, USA). Concentrations of TAC, SOD, and GPX were determined spectrophotometrically with an RX-Daytona automated biochemical analyser (Randox, Crumlin, England) using commercially available reagent kits (total antioxidant status (TAS), Ransod (SOD) and Ransel (GPX); all Randox, Crumlin, England). MDA concentrations were determined by high-performance liquid chromatography (HPLC) and the electrospray ionisation method on an Agilent 6460 triple analyser with a triple quadrupole MS/MS detector (Agilent Technologies, Santa Clara, CA, USA). Plasma samples were treated with a derivatisation method using dinitrophenylhydrazine according to the literature [ 83 ]. Total CoQ 10  concentrations were determined by HPLC and the atmospheric pressure chemical ionisation method on a Finnigan-LCQ mass spectrometer (Finnigan MAT, San Jose, CA, USA) according to the procedure described previously [ 84 ]. Vitamin E concentrations were determined using the HPLC method and an Alliance HPLC System 2695 fluorescence detector (Waters, Milford, MA, USA) according to the procedure described previously [ 85 , 86 ].
+L33: 2.6. Data Analysis
+L34: Data were analysed using software package R (Version 3.0.2 for Windows; R Foundation for Statistical Computing, Vienna, Austria). Differences in individual parameters between blood collection times and groups of horses were analysed with linear mixed models [ 87 , 88 ], where fixed factors (fixed effects) take into account the blood collection, group of horses, and their interaction, and each horse was a candidate for the random intersection (random intercept). Multiple comparisons took into account the revised level of features for Bonferroni,  p  < 0.002. R-library was used with nlme mixed models and phia for the post hoc analysis by correcting the Holm–Sidak method. The Pearson correlation coefficient analysis was performed to determine the correlation between MDA and serum muscle enzymes (AST, CK). A value of  p  < 0.05 was considered significant. Data are shown as the means ± standard deviations (SD).
+L35: 3. Results
+L36: No significant changes in plasma vitamin E ( Table 1 ) or CoQ 10  concentrations ( Table 1 ) were observed in either group of horses between the different sampling times. However, a significantly higher plasma vitamin E concentration was observed in the CoQ 10  + Vit. E group than in the placebo group at all sampling times. Except at the basal sampling time, plasma CoQ 10  concentrations were significantly higher in the CoQ10 + Vit. E group than in the placebo group at all other sampling times.
+L37: Before supplementation, MDA concentrations ( Table 2 ) did not differ significantly between horse groups. MDA concentrations increased significantly after exercise compared with concentrations before exercise in the placebo group and in the group of horses supplemented with CoQ 10  ( Table 2 ). In the placebo group, MDA concentrations remained significantly elevated even after 24 h of rest. However, no significant difference in MDA concentration was found between the placebo group and each group of horses supplemented with antioxidants at any of the sampling time points. Furthermore, MDA concentration was significantly higher in the CoQ 10  group compared to the CoQ 10  + Vit. E group after exercise.
+L38: Before supplementation, the TAC concentrations ( Table 3 ) and activity of SOD ( Table 4 ) did not differ significantly between the horse groups. During the study, the TAC levels ( Table 3 ) and activity of SOD ( Table 4 ) did not change significantly between the different sampling times in either group of horses. Moreover, we did not find significant differences in TAC values and SOD activities between the horse groups at any of the sampling times. On the other hand, the activity of GPX ( Table 4 ) showed significant differences between the horse groups before supplementation. Compared to the placebo group, GPX activities were significantly high in horses supplemented with vitamin E and in horses supplemented with a combination of vitamin E and CoQ 10  at all sampling time points. In horses supplemented with the combination of vitamin E and CoQ 10 , GPX activities were significantly increased after 24 h of rest compared to pre- and post-exercise activities.
+L39: Before supplementation, the activities of CK and AST ( Table 5 ) did not differ significantly between the horse groups. In addition, we did not find significant differences in the activity of these two enzymes ( Table 5 ) between the horse groups at any of the other sampling times. During the study, the activity of CK did not change significantly in either group of horses at the different sampling times. Regarding AST activity, we found a significant difference between sampling times 2 and 3 in the group supplemented with CoQ 10  ( Table 5 ). In the other groups of horses, no significant differences in AST activity were found between the different sampling times.
+L40: The results of statistical analyses showed no significant correlations between MDA and any of the serum muscle enzymes (AST, CK) in either group of horses at any of the sampling time points.
+L41: 4. Discussion
+L42: To the authors’ knowledge, the present study is the first to report the effects of 14 days of supplementation with vitamin E, CoQ 10 , and a combination of both antioxidants on the plasma levels of CoQ 10  and vitamin E and on blood oxidative stress parameters in untrained leisure horses subjected to acute moderate exercise. Contrary to our expectations, the supplementation of horses with vitamin E or CoQ 10  did not result in increased plasma concentrations of vitamin E or CoQ 10 , respectively. However, supplementation with a combination of both antioxidants significantly increased plasma CoQ 10  but not vitamin E concentrations. Although vitamin E and CoQ 10  are known for their antioxidant properties and the sparing effect of CoQ 10  on vitamin E, neither the individually supplemented antioxidants nor the co-supplementation of both affected oxidative stress parameters at any of the sampling time points.
+L43: In our study, untrained leisure horses were supplemented with 1.8 IU/kg/day of vitamin E as recommended for moderate physical activity for adult horses [ 82 ]. The dose of vitamin E used in our study was lower compared to vitamin E supplementation studies in sport horses. The doses used in these studies vary widely. In Thoroughbred and Quarter horses, vitamin E doses were 80 IU/kg dry matter (DM) and 300 IU/kg DM, respectively [ 53 ]; in sport horses, about 9 IU/kg/day (3 g alpha-tocopherol/day) [ 56 ]; in Standardbred horses, 10–20 IU/kg/day [ 57 ]; in Thoroughbred horses, 6 IU/kg/day [ 68 ]; and in exercising horses (trotters and riding horses) 1.5, 4.5, and 7.5 IU/kg/day (1, 3, and 5 mg of vitamin E/kg/day) [ 53 , 56 , 59 ]. Despite supplementation with higher doses of vitamin E for a longer period of time than in our study, the serum or plasma concentrations of vitamin E did not increase [ 53 , 56 , 57 , 68 ], which is in agreement with our results [ 53 , 56 , 57 , 68 ]. Moreover, serum or plasma concentrations of vitamin E decreased significantly after the supplementation period in exercising sport horses [ 53 , 56 ]. On the other hand, Saastamoinen and Juusela [ 59 ] reported a significant increase in serum vitamin E concentration after the long-term supplementation of sport horses with 3 and 5 mg/kg/day of vitamin E, but not after supplementation with 1 mg/kg/day. These authors suggested that sport horses in training require a daily supplement of 3 or 5 mg vitamin E/kg/day to increase the serum vitamin E concentrations. The absorption of vitamin E requires the presence of fat [ 62 , 89 , 90 ]. Therefore, a lack of fat in the diet of horses can lead to the poor absorption of vitamin E [ 57 , 90 ]. Not only the presence of adequate amounts of fats in the diet but also the dietary matrix itself and the concentration of lipoproteins have an influence on the absorption of vitamin E [ 62 , 89 , 90 ]. In contrast to our results, some studies conducted in sport horses showed a significant increase in plasma or serum vitamin E concentrations after vitamin E supplementation [ 49 , 51 , 52 , 58 , 59 ]. Untrained leisure horses included in our study are a much more diverse group of horses (different breeds, differences in level and frequency of physical activity, and different diets and environmental factors) compared to groups of sport horses. Therefore, differences between studies could be due to differences in the horses included in these studies, as well as differences in diets, the duration of supplementation, doses, and forms of vitamin E. The form and source of vitamin E supplementation is very important in horses because it significantly affects not only plasma vitamin E concentrations [ 91 ] but also the level of oxidative stress parameters in blood samples [ 49 ]. Serum vitamin E concentration significantly increased after 14 days of supplementation with synthetic vitamin E and natural source of vitamin E (micellized form of vitamin E; RRR α-tocopherol) at the dose of 4000 IU/day, and the micellized form of vitamin E was superior to the synthetic form. On the other hand, no significant increase in serum vitamin E concentration was observed in the control group supplemented with a similar dose of vitamin E (1000 IU/day) as in our study [ 49 ]. Similarly, Pagan and colleagues [ 91 ] reported that supplementation with the micellized form of vitamin E in Thoroughbred horses was superior in increasing plasma vitamin E concentrations compared to synthetic vitamin E (dl-alpha-tocopheryl acetate) and a natural source of vitamin E (d-alpha-tocopheryl acetate) [ 91 ]. The latter was used in our study. In some exercise studies in humans, vitamin E supplementation increased plasma vitamin E concentrations [ 50 , 65 , 92 , 93 ], whereas in many other studies, plasma vitamin E concentrations were not measured [ 8 , 92 ].
+L44: Overall, the lack of a significant increase in plasma vitamin E concentration in our study could be due to the inappropriate form of this antioxidant supplement, inadequate dose and short duration of supplementation, individual differences in leisure horses, and poor absorption after oral intake.
+L45: Similar to vitamin E, CoQ 10  supplementation did not significantly increase plasma CoQ 10  concentrations in our leisure horses. In Thoroughbred racehorses, significantly increased serum CoQ 10  concentrations were found at days 30 and 60 of CoQ 10  supplementation with the same CoQ 10  dose as that used in our study [ 80 ]. The difference between the studies could be due to a longer period of supplementation [ 80 ], the use of different CoQ 10  formulations, and differences in the horses included in the studies. Increased plasma CoQ 10  concentrations were obtained after the exercise and supplementation of Thoroughbred racehorses with much higher daily doses of CoQ 10 , 1.9 g and 3.4 g, respectively [ 46 ]. Interestingly, in Thoroughbred racehorses, Thueson and colleagues reported significantly higher CoQ 10  concentrations in skeletal muscle after 10 days of supplementation with 1000 mg of ubiquinol [ 48 ]. In humans, CoQ 10  supplementation leads to an increase in plasma CoQ 10  concentrations, the magnitude of which depends on the dosage, duration, and also the type of formulation [ 94 , 95 , 96 ]. Most studies in human athletes have found increased serum or plasma CoQ 10  concentrations following supplementation with ubiquinone or ubiquinol [ 43 , 75 , 76 , 77 , 78 , 79 , 97 , 98 ]. The lack of a significant increase in plasma CoQ 10  concentration after supplementation with this antioxidant in our study could be due to the short duration of supplementation, inadequate dose of CoQ 10 , and poor absorption. Being a lipophilic substance, the absorption of CoQ 10  follows the same process as that of lipids in the gastrointestinal tract. The absorption mechanism for CoQ 10  appears to be similar to that of vitamin E. Similar to vitamin E, the absorption of CoQ 10  is enhanced in the presence of lipids. Therefore, the absorption of supplemental CoQ 10  may be increased when taken with fatty meals, which was not the case in the group of leisure horses studied. Furthermore, in humans, plasma CoQ 10  concentrations are highly dependent on plasma lipoproteins [ 94 , 99 ]. We may assume that the lack of fat in horse meal, as well as the low concentrations of lipoproteins in horse blood [ 100 ], could also lead to poor absorption and thus the lack of a significant increase in plasma CoQ 10  after supplementation. In contrast to humans, high-density lipoproteins are the major lipoprotein fraction in horses, followed by low-density lipoproteins; the smallest proportion of lipoproteins belongs to the very-low-density lipoproteins [ 100 ].
+L46: Interestingly, the supplementation of leisure horses with a combination of vitamin E and CoQ 10  resulted in a significant increase in plasma CoQ 10  but not vitamin E concentrations. Our results are in partial agreement with the results of a double-blind, placebo-controlled study in marathon runners [ 101 ], in which co-supplementation with these two antioxidants resulted in a significant increase in plasma concentrations of both antioxidants. Zhou and colleagues also reported increased CoQ 10  concentrations pre- and post-exercise in men following supplementation of CoQ 10  and the combination of CoQ 10  and vitamin E; however, the plasma vitamin E concentrations were not measured in their study [ 102 ]. In human blood, 95% of CoQ 10  is present in its reduced form, as ubiquinol, a potent lipophilic antioxidant [ 94 , 103 ]. The latter is capable of regenerating vitamin E from tocopheroxyl radicals in mitochondria, resulting in sparing of vitamin E and consumption of ubiquinol [ 104 , 105 ]. Therefore, supplementation with a combination of these two antioxidants would also be expected to result in a significant increase in plasma vitamin E concentration [ 106 ]. Vitamin E and CoQ 10  are both lipophilic antioxidants with similar absorption and transport mechanisms, which could influence the concentration of both antioxidants in plasma. We hypothesise that increased plasma CoQ 10  concentration observed in our horses after supplementation with CoQ 10  + Vit. E could be due to the antioxidant properties of vitamin E or a synergistic effect of co-supplementation [ 107 ].
+L47: Numerous studies in humans and horses have investigated the effects of antioxidant supplementation on exercise-induced oxidative stress with equivocal results. This is most likely due to the wide variety of exercise and/or supplementation protocols, including the length of the supplementation period and form of antioxidants and exercise selected by the research group, as well as differences in the fitness of the athletes and sport horses included in the studies [ 8 , 13 , 41 , 42 , 43 , 44 , 50 , 74 ]. According to the results of the statistical comparison of oxidative stress parameters between the supplemented groups of leisure horses and the placebo group, antioxidant supplementation had no effect on oxidative stress parameters at any of the measurement time points. However, a significant increase in MDA concentration after the acute moderate exercise in the placebo and CoQ 10  groups but not in vitamin E and CoQ10 + Vit. E groups suggests that vitamin E alone or in combination with CoQ 10  prevented lipid peroxidation.
+L48: Malondialdehyde is a reliable and the most commonly used marker for the overall lipid peroxidation level and thus for the presence of oxidative stress [ 108 , 109 ]. It is the most commonly used marker of the level of lipid peroxidation in exercise and sport studies [ 110 ]. Several studies have confirmed the increased lipid peroxidation during different forms of physical activity in sport horses [ 19 , 21 , 23 , 24 , 27 , 31 , 32 , 34 , 111 ]. Similarly, in the present study, plasma MDA concentration increased significantly after physical activity in both the placebo and CoQ 10  supplemented groups, while no significant increase was observed in the vitamin E and CoQ 10  + Vit. E groups. In the placebo group, plasma MDA concentration remained significantly elevated even after 24 h of rest, indicating a higher extent of lipid peroxidation than in the CoQ 10  group, although we found no significant difference in MDA concentration between the placebo and CoQ 10  groups. These results may suggest that vitamin E and the combination of vitamin E and CoQ 10  decreased the process of lipid peroxidation during exercise due to the antioxidant properties of vitamin E. Our findings are in agreement with the results of some studies that investigated the effects of vitamin E supplementation on exercise-induced oxidative stress in sport horses [ 51 , 57 , 68 ] and in humans [ 41 , 67 ]. The results of the meta-analysis showed that tocopherol supplementation did not result in significant protection against either exercise-induced lipid peroxidation or muscle damage. The lack of protective effects in general was explained by the complex behaviour of tocopherols, which can act as antioxidants, pro-oxidants, and neutral agents in vivo, and (or) possibly by insufficient accumulation in muscle tissue after supplementation [ 41 ]. Pro-oxidant properties have been demonstrated in highly trained human athletes, in which vitamin E supplementation resulted in an even greater increase in lipid peroxidation products than placebo supplementation after exhaustive exercise [ 93 ]. On the other hand, several studies in human athletes [ 63 , 64 , 65 , 67 , 92 ] and sport horses [ 34 , 52 , 58 ] have shown decreased levels of lipid peroxidation products following vitamin E supplementation, suggesting an antioxidant effect of vitamin E.
+L49: In contrast to our results, in most human studies, CoQ 10  supplementation significantly reduced the concentration of lipid peroxidation products after different types of physical activities [ 43 , 75 , 76 , 77 , 78 , 79 , 112 ], indicating the antioxidant effect of CoQ 10 . In these studies, CoQ 10  supplementation resulted in a significant increase in plasma CoQ 10  concentration, which was not the case in our study.
+L50: The total antioxidant capacity is a biochemical parameter suitable for assessing the overall antioxidant status of serum or plasma resulting from the uptake and/or production of antioxidants and their consumption during normal or increased oxidative stress. The capacity of known and unknown antioxidants and their synergistic interaction are assessed, thus providing insight into the delicate balance between oxidants and antioxidants in vivo [ 113 , 114 ]. Supplementation with antioxidants can increase plasma TAC concentrations [ 114 , 115 , 116 ]; however, in our study, TAC concentrations remained unaffected by supplementation with any of the antioxidants at any of the sampling time points. Similar results were obtained by Duberstein and colleagues, who investigated the effect of training and vitamin E supplementation on oxidative stress parameters in exercising horses and used the same method for TAC determination [ 68 ], as well as in several exercise studies in human athletes supplemented with vitamin E [ 67 ], CoQ 10  [ 77 ], and a combination of vitamin E and CoQ 10  [ 101 ]. In contrast to our results, some human studies found increased TAC levels after supplementation with CoQ10 and strenuous exercise [ 75 , 79 ]. The lack of a significant increase in TAC levels after supplementation in our study could simply be due to the fact that there was no significant increase in plasma vitamin E and/or CoQ 10  concentrations after supplementation or in the species used in our study. The latter could differ in the metabolism of the supplemented antioxidants compared to humans. In addition, the lack of a significant increase in plasma TAC concentrations could be partly due to methodological reasons. The methods used for TAC determination vary greatly, meaning that the results of different methods are not comparable [ 113 , 114 , 117 ].
+L51: In our study, TAC values did not show significant changes between different sampling times in any group of horses. Similarly, Balogh and colleagues found no significant differences in TAC levels before or after exercise in pentathlon horses, using the same method for TAC determination as in our study. However, in this study [ 26 ], TAC values measured by the method FRAP (ferric reducing ability of plasma) were significantly higher immediately after exercise than before exercise, supporting the idea of measuring TAC with two different methods rather than one. Our findings are similar to the results of studies conducted in sport horses [ 35 , 118 ], in which the chosen physical activity was not intense enough to cause the release of antioxidants that contribute to the increase in plasma or serum TAC concentrations [ 18 ]. On the other hand, Duberstein and colleagues reported significantly lower TAC levels after a standard exercise test in placebo and vitamin E supplemented horses [ 68 ]. Levels returned to baseline by 48 h after exercise. In addition, Duberstein and colleagues showed increased TAC concentrations in placebo and vitamin E-supplemented horses after five weeks of training, indicating that fitness must be considered when comparing TAC concentrations in exercising horses [ 68 ]. Significantly lower TAC levels were also reported in endurance horses at the midpoint (80 km) of the 160 km ride [ 19 ]. During and immediately after exercise, TAC may be temporarily lowered, as its components are used to quench the ROS produced. Later, during recovery, antioxidants are released from adipose tissue and the liver, and TAC concentrations usually rise above basal levels. As with other markers, studies reporting no change in antioxidant capacity after exercise, as was the case in our study, may have missed such changes because only one sample was taken immediately after exercise [ 7 ].
+L52: It is generally agreed that regular endurance training promotes the upregulation of antioxidant genes, leading to an increase in both total SOD and GPX activity in active skeletal muscle. Furthermore, high-intensity exercise training is superior to low-intensity exercise training in terms of the upregulation of muscle SOD and GPX activities [ 3 , 4 , 12 , 13 , 18 ]. Specific antioxidant enzyme activity has been shown to respond similarly to the TAC response to exercise. The antioxidant defence system may be temporarily reduced in response to increased ROS production but may increase again during the recovery period as a result of the initial pro-oxidant insult [ 7 ].
+L53: In horses, changes in the activity of the primary antioxidant enzymes, SOD and GPX, in response to exercise vary in the literature. In sport horses, significantly higher [ 19 , 20 , 29 , 57 , 119 , 120 ] or significantly lower activities [ 24 , 28 , 111 ] of blood antioxidant enzymes, either SOD and/or GPX, have been found after exercise as a result of increased ROS production, either by the upregulation of enzyme activity or by the increased utilisation of antioxidant enzymes to counteract ROS [ 3 , 9 , 13 , 18 ]. Moreover, no significant changes in antioxidant enzyme activities have been reported in sport horses [ 26 , 28 , 35 , 36 , 121 , 122 ]. Similarly, our study showed no significant changes in SOD and GPX activities post-exercise in comparison with pre-exercise values in any of the horse groups. It seems that in our study, the acute moderate exercise was not intense enough to induce changes in the activity of GPX and SOD. Conflicting results regarding changes in blood SOD and GPX activities could reflect differences in the intensity, duration, and type of exercise or training, as well as being due to differences in the timing of sampling and large individual differences between horses participating in the studies [ 6 , 7 , 44 ]. Similar conflicting results have been reported in exercise research in humans [ 7 , 69 ].
+L54: In our study, we found significantly higher GPX activity in the groups supplemented with vitamin E and with the combination of both antioxidants compared with the placebo group at all the measurement time points, which could be due to large interindividual differences in the activity of this antioxidant enzyme in our leisure horses. Nevertheless, we observed no significant effect of antioxidant supplementation on SOD and GPX activities. Similar results were found in sport horses after supplementation with CoQ 10  (unpublished data) and vitamin E [ 28 , 52 , 57 ] and in humans after supplementation with CoQ 10  [ 75 , 79 ].
+L55: Associations between exercise-induced oxidative stress and muscle enzymes leakage have been previously confirmed in sport horses [ 19 , 20 , 54 , 119 ]. Our study included untrained leisure horses, so we expected an increase in the activity of the serum muscle enzymes CK and AST, indicating some degree of muscle damage. However, we did not find a significant difference in the activities of AST and CK between pre- and post-exercise sampling times in any of the horse groups, suggesting that our leisure horses respond to acute moderate exercise without the presence of muscle damage that would lead to increased leakage of muscle enzymes into the circulation.
+L56: Furthermore, the activities of AST and CK were not affected by any of the antioxidant supplements. In addition, we did not find significant correlations between the lipid peroxidation marker MDA and serum muscle enzymes in any of the groups of leisure horses. A meta-analysis showed no significant effect of vitamin E supplementation on muscle damage in human athletes [ 8 , 41 ]. On the other hand, Helgheim and colleagues reported no significant increases in serum muscle enzyme activity in trained individuals after heavy exercise and a significant increase in CK in the untrained muscle group. Vitamin E supplementation had no effect on serum muscle enzymes after exercise in the trained muscle group [ 123 ]. Similar to our results, CoQ 10  supplementation had no effect on CK activity in moderately trained healthy men [ 74 ].
+L57: 5. Conclusions
+L58: Contrary to our expectations, supplementation with vitamin E and CoQ 10  did not increase the plasma concentrations of these two antioxidants. However, supplementation with a combination of CoQ 10  and vitamin E increased plasma CoQ 10  concentrations compared with those of the placebo group. As indicated by a significant increase in MDA concentrations after acute moderate exercise, lipid peroxidation occurred in horses supplemented with placebo and CoQ 10  but not in horses supplemented with vitamin E or the combination of vitamin E and CoQ 10 . These results suggest that vitamin E alone or in combination with CoQ 10  prevented lipid peroxidation. However, we did not find a correlation between lipid peroxidation and serum muscle enzymes. Our results warrant further studies in larger groups of leisure horses using different dosing regimens and antioxidant formulations to determine the effect of antioxidant supplementation on exercise-induced oxidative stress.
+L59: Click here for additional data file.
+L60: 1. Warburton D.E. Nicol C.W. Bredin S.S. Health benefits of physical activity: The evidence CMAJ 2006 174 801 809 10.1503/cmaj.051351 16534088
+L61: 2. Siddiqui N.I. Nessa A. Hossain M.A. Regular physical exercise: Way to healthy life Mymensingh Med. J. 2010 19 154 158 20046192
+L62: 3. Gomez-Cabrera M.C. Domenech E. Vina J. Moderate exercise is an antioxidant: Upregulation of antioxidant genes by training Free Radic. Biol. Med. 2008 44 126 131 10.1016/j.freeradbiomed.2007.02.001 18191748
+L63: 4. He F. Li J. Liu Z. Chuang C.C. Yang W. Zuo L. Redox Mechanism of Reactive Oxygen Species in Exercise Front. Physiol. 2016 7 486 10.3389/fphys.2016.00486 27872595
+L64: 5. Powers S.K. Nelson W.B. Hudson M.B. Exercise-induced oxidative stress in humans: Cause and consequences Free Radic. Biol. Med. 2011 51 942 950 10.1016/j.freeradbiomed.2010.12.009 21167935
+L65: 6. Deaton C.M. Marlin D.J. Exercise-associated oxidative stress Clin. Tech. Equine Pract. 2003 2 278 291 10.1053/S1534-7516(03)00070-2
+L66: 7. Fisher-Wellman K. Bloomer R.J. Acute exercise and oxidative stress: A 30 year history Dyn. Med. 2009 8 1 10.1186/1476-5918-8-1 19144121
+L67: 8. Martinez-Ferran M. Sanchis-Gomar F. Lavie C.J. Lippi G. Pareja-Galeano H. Do Antioxidant Vitamins Prevent Exercise-Induced Muscle Damage? A Systematic Review Antioxidants 2020 9 372 10.3390/antiox9050372
+L68: 9. Powers S.K. Talbert E.E. Adhihetty P.J. Reactive oxygen and nitrogen species as intracellular signals in skeletal muscle J. Physiol. 2011 589 2129 2138 10.1113/jphysiol.2010.201327 21224240
+L69: 10. Westerblad H. Allen D.G. Emerging roles of ROS/RNS in muscle function and fatigue Antioxid. Redox Signal. 2011 15 2487 2499 10.1089/ars.2011.3909 21375476
+L70: 11. Yavari A. Javadi M. Mirmiran P. Bahadoran Z. Exercise-induced oxidative stress and dietary antioxidants Asian J. Sports Med. 2015 6 e24898 10.5812/asjsm.24898 25883776
+L71: 12. Merry T.L. Ristow M. Do antioxidant supplements interfere with skeletal muscle adaptation to exercise training? J. Physiol. 2016 594 5135 5147 10.1113/JP270654 26638792
+L72: 13. Mason S.A. Trewin A.J. Parker L. Wadley G.D. Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights Redox Biol. 2020 35 101471 10.1016/j.redox.2020.101471 32127289
+L73: 14. Soffler C. Oxidative stress Vet. Clin. N. Am. Equine Pract. 2007 23 135 157 10.1016/j.cveq.2006.11.004
+L74: 15. Valko M. Leibfritz D. Moncol J. Cronin M.T. Mazur M. Telser J. Free radicals and antioxidants in normal physiological functions and human disease Int. J. Biochem. Cell Biol. 2007 39 44 84 10.1016/j.biocel.2006.07.001 16978905
+L75: 16. Powers S.K. Jackson M.J. Exercise-induced oxidative stress: Cellular mechanisms and impact on muscle force production Physiol. Rev. 2008 88 1243 1276 10.1152/physrev.00031.2007 18923182
+L76: 17. Powers S.K. Lennon S.L. Analysis of cellular responses to free radicals: Focus on exercise and skeletal muscle Proc. Nutr. Soc. 1999 58 1025 1033 10.1017/S0029665199001342 10817171
+L77: 18. Ji L.L. Modulation of skeletal muscle antioxidant defense by exercise: Role of redox signaling Free Radic. Biol. Med. 2008 44 142 152 10.1016/j.freeradbiomed.2007.02.031 18191750
+L78: 19. Frankiewicz-Jozko A. Szarska E. Anti-oxidant level to exercise in the blood of endurance horses Biol. Sport 2000 17 217 227
+L79: 20. Hargreaves B.J. Kronfeld D.S. Waldron J.N. Lopes M.A. Gay L.S. Saker K.E. Cooper W.L. Sklan D.J. Harris P.A. Antioxidant status and muscle cell leakage during endurance exercise Equine Vet. J. Suppl. 2002 116 121 10.1111/j.2042-3306.2002.tb05402.x 12405670
+L80: 21. Marlin D.J. Fenn K. Smith N. Deaton C.D. Roberts C.A. Harris P.A. Dunster C. Kelly F.J. Changes in circulatory antioxidant status in horses during prolonged exercise J. Nutr. 2002 132 1622S 1627S 10.1093/jn/132.6.1622S 12042474
+L81: 22. Williams C.A. Kronfeld D.S. Hess T.M. Waldron J.N. Saker K.E. Hoffman R.M. Harris P.A. Oxidative stress in horses in three 80-km races Equine Nutr. Phys. Soc. Proc. 2003 18 47 52
+L82: 23. Bottegaro N.B. Gotic J. Suran J. Brozic D. Klobucar K. Bojanic K. Vrbanac Z. Effect of prolonged submaximal exercise on serum oxidative stress biomarkers (d-ROMs, MDA, BAP) and oxidative stress index in endurance horses BMC Vet. Res. 2018 14 216 10.1186/s12917-018-1540-y 29980209
+L83: 24. Muñoz-Escass B. Marañón G. Manley W. de la Muela M.S. Riber C. Cayado P. León R. Garcia C. Suárez M. Vara E. Exercise-Induced Changes on Lipid Peroxides and Antioxidant Enzymes Levels Changes in Plasma of Show Jumping and Dressage Horses Intern. J. Appl. Res. Vet. Med. 2006 4 274 282
+L84: 25. Soares J.C.M. Zanella R. Bondan C. Alves L.P. de Lima M.R. da Motta A.C. Zanella E.L. Biochemical and Antioxidant Changes in Plasma, Serum, and Erythrocytes of Horses before and after a Jumping Competition J. Equine Vet. Sci. 2011 31 357 360 10.1016/j.jevs.2011.03.017
+L85: 26. Balogh N. Gaal T. Ribiczeyne P.S. Petri A. Biochemical and antioxidant changes in plasma and erythrocytes of pentathlon horses before and after exercise Vet. Clin. Pathol. 2001 30 214 218 10.1111/j.1939-165X.2001.tb00434.x 12024305
+L86: 27. Chiaradia E. Avellini L. Rueca F. Spaterna A. Porciello F. Antonioni M.T. Gaiti A. Physical exercise, oxidative stress and muscle damage in racehorses Comp. Biochem. Physiol. B Biochem. Mol. Biol. 1998 119 833 836 10.1016/S0305-0491(98)10001-9 9787774
+L87: 28. Ono K. Inui K. Hasegawa T. Matsuki N. Watanabe H. Takagi S. Hasegawa A. Tomoda I. The changes of antioxidative enzyme activities in equine erythrocytes following exercise Nihon Juigaku Zasshi 1990 52 759 765 10.1292/jvms1939.52.759 2391775
+L88: 29. Ishida N. Hobo S. Takahashi T. Nanbo Y. Sato F. Hasegawa T. Mukoyama H. Chronological changes in superoxide-scavenging ability and lipid peroxide concentration of equine serum due to stress from exercise and transport Equine Vet. J. Suppl. 1999 430 433 10.1111/j.2042-3306.1999.tb05260.x 10659294
+L89: 30. White A. Estrada M. Walker K. Wisnia P. Filgueira G. Valdes F. Araneda O. Behn C. Martinez R. Role of exercise and ascorbate on plasma antioxidant capacity in thoroughbred race horses Comp. Biochem. Physiol. A Mol. Integr. Physiol. 2001 128 99 104 10.1016/S1095-6433(00)00286-5 11137442
+L90: 31. Kinnunen S. Hyyppa S. Lappalainen J. Oksala N. Venojarvi M. Nakao C. Hanninen O. Sen C.K. Atalay M. Exercise-induced oxidative stress and muscle stress protein responses in trotters Eur. J. Appl. Physiol. 2005 93 496 501 10.1007/s00421-004-1162-x 15221402
+L91: 32. Jagric-Munih S. Nemec-Svete A. Zrimsek P. Kramaric P. Kos-Kadunc V. Vovk T. Kobal S. Plasma malondialdehyde, biochemical and haematological parameters in standardbred horses during a selected field exercise test Acta Vet. 2012 62 53 65 10.2298/AVB1201053J
+L92: 33. Mills P.C. Smith N.C. Casas I. Harris P. Harris R.C. Marlin D.J. Effects of exercise intensity and environmental stress on indices of oxidative stress and iron homeostasis during exercise in the horse Eur. J. Appl. Physiol. Occup. Physiol. 1996 74 60 66 10.1007/BF00376495 8891501
+L93: 34. Avellini L. Chiaradia E. Gaiti A. Effect of exercise training, selenium and vitamin E on some free radical scavengers in horses ( Equus caballus ) Comp. Biochem. Physiol. B Biochem. Mol. Biol. 1999 123 147 154 10.1016/S0305-0491(99)00045-0 10425718
+L94: 35. Kinnunen S. Hyyppa S. Lehmuskero A. Oksala N. Maenpaa P. Hanninen O. Atalay M. Oxygen radical absorbance capacity (ORAC) and exercise-induced oxidative stress in trotters Eur. J. Appl. Physiol. 2005 95 550 556 10.1007/s00421-005-0034-3 16136323
+L95: 36. de Moffarts B. Kirschvink N. Art T. Pincemail J. Lekeux P. Effect of exercise on blood oxidant/antioxidant markers in standardbred horses: Comparison between treadmill and race track tests Equine Vet. J. Suppl. 2006 254 257 10.1111/j.2042-3306.2006.tb05548.x 17402427
+L96: 37. Matsuki N. Tamura S. Ono K. Watari T. Goitsuka R. Yamanobe A. Hiraga A. Kubo K. Takagi S. Hasegawa A. Exercise-induced phospholipid degradation in the equine skeletal muscle and erythrocytes J. Vet. Med. Sci. 1991 53 1001 1007 10.1292/jvms.53.1001 1790208
+L97: 38. Hodgson D.R. Exercise-associated myopathy: Is calcium the culprit? Equine Vet. J. 1993 25 10.1111/j.2042-3306.1993.tb02888.x
+L98: 39. Kristensen L. Buhl R. Nostell K. Bak L. Petersen E. Lindholm M. Jacobsen S. Acute exercise does not induce an acute phase response (APR) in Standardbred trotters Can. J. Vet. Res. 2014 78 97 102 24688170
+L99: 40. Urso M.L. Clarkson P.M. Oxidative stress, exercise, and antioxidant supplementation Toxicology 2003 189 41 54 10.1016/S0300-483X(03)00151-3 12821281
+L100: 41. Stepanyan V. Crowe M. Haleagrahara N. Bowden B. Effects of vitamin E supplementation on exercise-induced oxidative stress: A meta-analysis Appl. Physiol. Nutr. Metab. 2014 39 1029 1037 10.1139/apnm-2013-0566 25068790
+L101: 42. Bentley D.J. Ackerman J. Clifford T. Slattery K.S. Acute and Chronic Effects of Antioxidant Supplementation on Exercise Performance Antioxidants in Sport Nutrition 1st ed. CRC Press Boca Raton FL, USA 2015 141
+L102: 43. Sarmiento A. Diaz-Castro J. Pulido-Moran M. Moreno-Fernandez J. Kajarabille N. Chirosa I. Guisado I.M. Chirosa L.J. Guisado R. Ochoa J.J. Short-term ubiquinol supplementation reduces oxidative stress associated with strenuous exercise in healthy adults: A randomized trial Biofactors 2016 42 612 622 10.1002/biof.1297 27193497
+L103: 44. Kirschvink N. de Moffarts B. Lekeux P. The oxidant/antioxidant equilibrium in horses Vet. J. 2008 177 178 191 10.1016/j.tvjl.2007.07.033 17897849
+L104: 45. Williams C.A. Burk A.O. Nutrient intake during an elite level three-day event competition is correlated to inflammatory markers and antioxidant status Equine Vet. J. Suppl. 2010 116 122 10.1111/j.2042-3306.2010.00193.x 21058992
+L105: 46. Sinatra S.T. Jankowitz S.N. Chopra R.K. Bhagavan H.N. Plasma Coenzyme Q10 and Tocopherols in Thoroughbred Race Horses: Effect of Coenzyme Q10 Supplementation and Exercise J. Equine Vet. Sci. 2014 34 265 269 10.1016/j.jevs.2013.06.001
+L106: 47. Williams C.A. The effect of oxidative stress during exercise in the horse J. Anim. Sci. 2016 94 4067 4075 10.2527/jas.2015-9988 27898872
+L107: 48. Thueson E. Leadon D.P. Heaton R. Hargreaves I.P. Bayly W.M. Effect of daily supplementation with ubiquinol on muscle coenzyme Q10 concentrations in Thoroughbred racehorses Comp. Exerc. Physiol. 2019 15 219 226 10.3920/CEP190023
+L108: 49. Fagan M.M. Harris P. Adams A. Pazdro R. Krotky A. Call J. Duberstein K.J. Form of Vitamin E Supplementation Affects Oxidative and Inflammatory Response in Exercising Horses J. Equine Vet. Sci. 2020 91 103103 10.1016/j.jevs.2020.103103 32684249
+L109: 50. Higgins M.R. Izadi A. Kaviani M. Antioxidants and Exercise Performance: With a Focus on Vitamin E and C Supplementation Int. J. Environ. Res. Public Health 2020 17 8452 10.3390/ijerph17228452
+L110: 51. Williams C.A. Kronfeld D.S. Hess T.M. Saker K.E. Waldron J.E. Harris P.A. Vitamin E intake and systemic antioxidant status in competitive endurance horses Equine Comp. Exerc. Physiol. 2005 2 149 152 10.1079/ECP200565
+L111: 52. McMeniman N.P. Hintz H.F. Effect of vitamin E status on lipid peroxidation in exercised horses Equine Vet. J. 1992 24 482 484 10.1111/j.2042-3306.1992.tb02882.x 1459065
+L112: 53. Siciliano P.D. Parker A.L. Lawrence L.M. Effect of dietary vitamin E supplementation on the integrity of skeletal muscle in exercised horses J. Anim. Sci. 1997 75 1553 1560 10.2527/1997.7561553x 9250517
+L113: 54. Williams C.A. Kronfeldt D.S. Hess T.M. Saker K.E. Waldron J.N. Crandell K.M. Hoffman R.M. Harris P.A. Antioxidant supplementation and subsequent oxidative stress of horses during an 80-km endurance race J. Anim. Sci. 2004 82 588 594 10.2527/2004.822588x 14974559
+L114: 55. de Moffarts B. Kirschvink N. Art T. Pincemail J. Lekeux P. Effect of oral antioxidant supplementation on blood antioxidant status in trained thoroughbred horses Vet. J. 2005 169 65 74 10.1016/j.tvjl.2003.12.012 15683765
+L115: 56. Kienzle E. Freismuth A. Reusch A. Double-blind placebo-controlled vitamin E or selenium supplementation of sport horses with unspecified muscle problems. An example of the potential of placebos J. Nutr. 2006 136 2045S 2047S 10.1093/jn/136.7.2045S 16772492
+L116: 57. Williams C.A. Carlucci S.A. Oral vitamin E supplementation on oxidative stress, vitamin and antioxidant status in intensely exercised horses Equine Vet. J. Suppl. 2006 617 621 10.1111/j.2042-3306.2006.tb05614.x 17402493
+L117: 58. Rey A.I. Segura J. Arandilla E. Lopez-Bote C.J. Short- and long-term effect of oral administration of micellized natural vitamin E (D-alpha-tocopherol) on oxidative status in race horses under intense training J. Anim. Sci. 2013 91 1277 1284 10.2527/jas.2012-5125 23296828
+L118: 59. Saastamoinen M.T. Juusela J. Serum Vitamin E Concentration of Horses on Different Vitamin E Supplementation Levels Acta Agric. Scand. Sect. A Anim. Sci. 1993 43 52 57 10.1080/09064709309410144
+L119: 60. Meydani M. Vitamin E Lancet 1995 345 170 175 10.1016/S0140-6736(95)90172-8 7823675
+L120: 61. Evans W.J. Vitamin E, vitamin C, and exercise Am. J. Clin. Nutr. 2000 72 647S 652S 10.1093/ajcn/72.2.647S 10919971
+L121: 62. Blatt D.H. Leonard S.W. Traber M.G. Vitamin E kinetics and the function of tocopherol regulatory proteins Nutrition 2001 17 799 805 10.1016/S0899-9007(01)00637-2 11684383
+L122: 63. Sumida S. Tanaka K. Kitao H. Nakadomo F. Exercise-induced lipid peroxidation and leakage of enzymes before and after vitamin E supplementation Int. J. Biochem. 1989 21 835 838 10.1016/0020-711x(89)90280-2 2583352
+L123: 64. Meydani M. Evans W.J. Handelman G. Biddle L. Fielding R.A. Meydani S.N. Burrill J. Fiatarone M.A. Blumberg J.B. Cannon J.G. Protective effect of vitamin E on exercise-induced oxidative damage in young and older adults Am. J. Physiol. 1993 264 R992 R998 10.1152/ajpregu.1993.264.5.R992 8498608
+L124: 65. Rokitzki L. Logemann E. Huber G. Keck E. Keul J. α-Tocopherol supplementation in racing cyclists during extreme endurance training Int. J. Sport Nutr. 1994 4 253 264 10.1123/ijsn.4.3.253 7987360
+L125: 66. Sacheck J.M. Blumberg J.B. Role of vitamin E and oxidative stress in exercise Nutrition 2001 17 809 814 10.1016/S0899-9007(01)00639-6 11684385
+L126: 67. Sacheck J.M. Milbury P.E. Cannon J.G. Roubenoff R. Blumberg J.B. Effect of vitamin E and eccentric exercise on selected biomarkers of oxidative stress in young and elderly men Free Radic. Biol. Med. 2003 34 1575 1588 10.1016/S0891-5849(03)00187-4 12788477
+L127: 68. Duberstein K.J. Johnson S.E. McDowell L.R. Ott E.A. Effects of vitamin E supplementation and training on oxidative stress parameters measured in exercising horses Comp. Exerc. Physiol. 2009 6 17 25 10.1017/S1478061509341353
+L128: 69. Finaud J. Lac G. Filaire E. Oxidative stress: Relationship with exercise and training Sports Med. 2006 36 327 358 10.2165/00007256-200636040-00004 16573358
+L129: 70. Maughan R.J. Burke L.M. Dvorak J. Larson-Meyer D.E. Peeling P. Phillips S.M. Rawson E.S. Walsh N.P. Garthe I. Geyer H. IOC consensus statement: Dietary supplements and the high-performance athlete Br. J. Sports Med. 2018 52 439 455 10.1136/bjsports-2018-099027 29540367
+L130: 71. Littarru G.P. Tiano L. Bioenergetic and antioxidant properties of coenzyme Q10: Recent developments Mol. Biotechnol. 2007 37 31 37 10.1007/s12033-007-0052-y 17914161
+L131: 72. Bentinger M. Brismar K. Dallner G. The antioxidant role of coenzyme Q Mitochondrion 2007 7 S41 S50 10.1016/j.mito.2007.02.006 17482888
+L132: 73. Lass A. Sohal R.S. Electron transport-linked ubiquinone-dependent recycling of alpha-tocopherol inhibits autooxidation of mitochondrial membranes Arch. Biochem. Biophys. 1998 352 229 236 10.1006/abbi.1997.0606 9587410
+L133: 74. Ostman B. Sjodin A. Michaelsson K. Byberg L. Coenzyme Q10 supplementation and exercise-induced oxidative stress in humans Nutrition 2012 28 403 417 10.1016/j.nut.2011.07.010 22079391
+L134: 75. Sarmiento A. Diaz-Castro J. Pulido-Moran M. Kajarabille N. Guisado R. Ochoa J.J. Coenzyme Q10 Supplementation and Exercise in Healthy Humans: A Systematic Review Curr. Drug Metab. 2016 17 345 358 10.2174/1389200216666151103115654 26526835
+L135: 76. Orlando P. Silvestri S. Galeazzi R. Antonicelli R. Marcheggiani F. Cirilli I. Bacchetti T. Tiano L. Effect of ubiquinol supplementation on biochemical and oxidative stress indexes after intense exercise in young athletes Redox Rep. 2018 23 136 145 10.1080/13510002.2018.1472924 29734881
+L136: 77. Kon M. Tanabe K. Akimoto T. Kimura F. Tanimura Y. Shimizu K. Okamoto T. Kono I. Reducing exercise-induced muscular injury in kendo athletes with supplementation of coenzyme Q10 Br. J. Nutr. 2008 100 903 909 10.1017/S0007114508926544 18284711
+L137: 78. Leelarungrayub D. Sawattikanon N. Klaphajone J. Pothongsunan P. Bloomer R.J. Coenzyme Q10 Supplementation Decreases Oxidative Stress and Improves Physical Performance in Young Swimmers: A Pilot Study Open Sports Med. J. 2010 4 10.2174/1874387001004010001
+L138: 79. Díaz-Castro J. Guisado R. Kajarabille N. García C. Guisado I.M. de Teresa C. Ochoa J.J. Coenzyme Q10 supplementation ameliorates inflammatory signaling and oxidative stress associated with strenuous exercise Eur. J. Nutr. 2011 51 791 799 10.1007/s00394-011-0257-5 21990004
+L139: 80. Sinatra S.T. Chopra R.K. Jankowitz S. Horohov D.W. Bhagavan H.N. Coenzyme Q10 in Equine Serum: Response to Supplementation J. Equine Vet. Sci. 2013 33 71 73 10.1016/j.jevs.2012.05.001
+L140: 81. Prosek M. Smidovnik A. Fir M. Strazisar M. Andrensek S. Wondra A.G. Zmitek J. New Water-Soluble form of Coenzyme Q10 in the Form of an Inclusion Complex with Beta-Cyclodextrin, Process of Preparing, and Use Thereof U.S. Patent 20,070,202,090,A1 18 5 2005
+L141: 82. Lawrence L.M. Updates to the nutrient requirements of the horse: NRC 2007 guidelines Current Therapy in Equine Medicine 6th ed. Robinson N.E. Sprayberry K.A. Elsevier Saunders St. Louis, MO, USA 2009 66 72
+L142: 83. Czauderna M. Kowalczyk J. Marounek M. The simple and sensitive measurement of malondialdehyde in selected specimens of biological origin and some feed by reversed phase high performance liquid chromatography J. Chromatogr. B Analyt. Technol. Biomed. Life Sci. 2011 879 2251 2258 10.1016/j.jchromb.2011.06.008
+L143: 84. Topolovec M.B. Kruljc P. Prosek M. Krizman P.J. Smidovnik A. Svete A.N. Endogenous plasma coenzyme Q10 concentration does not correlate with plasma total antioxidant capacity level in healthy untrained horses Res. Vet. Sci. 2013 95 675 677 10.1016/j.rvsc.2013.03.020 23648076
+L144: 85. Zhao B. Tham S.Y. Lu J. Lai M.H. Lee L.K. Moochhala S.M. Simultaneous determination of vitamins C, E and beta-carotene in human plasma by high-performance liquid chromatography with photodiode-array detection J. Pharm. Pharm. Sci. 2004 7 200 204 15367376
+L145: 86. Sivertsen T. Overnes G. Osteras O. Nymoen U. Lunder T. Plasma vitamin E and blood selenium concentrations in Norwegian dairy cows: Regional differences and relations to feeding and health Acta Vet. Scand. 2005 46 177 191 10.1186/1751-0147-46-177 16398330
+L146: 87. Pinheiro J.C. Bates D.M. Mixed-Effects Models in S and S-PLUS Springer New York, NY, USA 2000
+L147: 88. Brown H. Prescott R. Applied Mixed Models in Medicine, Statistics in Practice 2nd ed. John Wiley & Sons Edinburgh, Scotland 2006
+L148: 89. Jeanes Y.M. Hall W.L. Ellard S. Lee E. Lodge J.K. The absorption of vitamin E is influenced by the amount of fat in a meal and the food matrix Br. J. Nutr. 2004 92 575 579 10.1079/BJN20041249 15522126
+L149: 90. Finno C.J. Valberg S.J. A comparative review of vitamin E and associated equine disorders J. Vet. Intern. Med. 2012 26 1251 1266 10.1111/j.1939-1676.2012.00994.x 22925200
+L150: 91. Pagan J.D. Kane E. Nash D. Form and source of tocopherol affects vitamin E status in Thoroughbred horses Pferdeheikunde 2005 21 101 102 10.21836/PEM20050743
+L151: 92. Takanami Y. Iwane H. Kawai Y. Shimomitsu T. Vitamin E supplementation and endurance exercise: Are there benefits? Sports Med. 2000 29 73 83 10.2165/00007256-200029020-00001 10701711
+L152: 93. McAnulty S.R. McAnulty L.S. Nieman D.C. Morrow J.D. Shooter L.A. Holmes S. Heward C. Henson D.A. Effect of alpha-tocopherol supplementation on plasma homocysteine and oxidative stress in highly trained athletes before and after exhaustive exercise J. Nutr. Biochem. 2005 16 530 537 10.1016/j.jnutbio.2005.02.001 16115541
+L153: 94. Bhagavan H.N. Chopra R.K. Coenzyme Q10: Absorption, tissue uptake, metabolism and pharmacokinetics Free Radic. Res. 2006 40 445 453 10.1080/10715760600617843 16551570
+L154: 95. Bhagavan H.N. Chopra R.K. Plasma coenzyme Q 10  response to oral ingestion of coenzyme Q 10  formulations Mitochondrion 2007 7 S78 S88 10.1016/j.mito.2007.03.003 17482886
+L155: 96. Lopez-Lluch G. Del Pozo-Cruz J. Sanchez-Cuesta A. Cortes-Rodriguez A.B. Navas P. Bioavailability of coenzyme Q 10  supplements depends on carrier lipids and solubilization Nutrition 2019 57 133 140 10.1016/j.nut.2018.05.020 30153575
+L156: 97. Braun B. Clarkson P.M. Freedson P.S. Kohl R.L. Effects of coenzyme Q 10  supplementation on exercise performance, VO2max, and lipid peroxidation in trained cyclists Int. J. Sport Nutr. 1991 1 353 365 10.1123/ijsn.1.4.353 1844568
+L157: 98. Cooke M. Iosia M. Buford T. Shelmadine B. Hudson G. Kerksick C. Rasmussen C. Greenwood M. Leutholtz B. Willoughby D. Effects of acute and 14-day coenzyme Q 10  supplementation on exercise performance in both trained and untrained individuals J. Int. Soc. Sports Nutr. 2008 5 8 10.1186/1550-2783-5-8 18318910
+L158: 99. Niklowitz P. Onur S. Fischer A. Laudes M. Palussen M. Menke T. Doring F. Coenzyme Q 10  serum concentration and redox status in European adults: Influence of age, sex, and lipoprotein concentration J. Clin. Biochem. Nutr. 2016 58 240 245 10.3164/jcbn.15-73 27257350
+L159: 100. Watson T.D. Burns L. Love S. Packard C.J. Shepherd J. The isolation, characterisation and quantification of the equine plasma lipoproteins Equine Vet. J. 1991 23 353 359 10.1111/j.2042-3306.1991.tb03737.x 1959526
+L160: 101. Kaikkonen J. Kosonen L. Nyyssonen K. Porkkala-Sarataho E. Salonen R. Korpela H. Salonen J.T. Effect of combined coenzyme Q10 and d-alpha-tocopheryl acetate supplementation on exercise-induced lipid peroxidation and muscular damage: A placebo-controlled double-blind study in marathon runners Free Radic. Res. 1998 29 85 92 10.1080/10715769800300101 9733025
+L161: 102. Zhou S. Zhang Y. Davie A. Marshall-Gradisnik S. Hu H. Wang J. Brushett D. Muscle and plasma coenzyme Q 10  concentration, aerobic power and exercise economy of healthy men in response to four weeks of supplementation J. Sports Med. Phys. Fit. 2005 45 337 346
+L162: 103. Miles M.V. Horn P.S. Morrison J.A. Tang P.H. DeGrauw T. Pesce A.J. Plasma coenzyme Q 10  reference intervals, but not redox status, are affected by gender and race in self-reported healthy adults Clin. Chim. Acta 2003 332 123 132 10.1016/S0009-8981(03)00137-2 12763289
+L163: 104. Lass A. Forster M.J. Sohal R.S. Effects of coenzyme Q10 and alpha-tocopherol administration on their tissue levels in the mouse: Elevation of mitochondrial alpha-tocopherol by coenzyme Q 10 Free Radic. Biol. Med. 1999 26 1375 1382 10.1016/S0891-5849(98)00330-X 10401600
+L164: 105. Ibrahim W.H. Bhagavan H.N. Chopra R.K. Chow C.K. Dietary coenzyme Q 10  and vitamin E alter the status of these compounds in rat tissues and mitochondria J. Nutr. 2000 130 2343 2348 10.1093/jn/130.9.2343 10958833
+L165: 106. Niki E. Mechanisms and dynamics of antioxidant action of ubiquinol Mol. Asp. Med. 1997 18 S63 S70 10.1016/S0098-2997(97)00035-6
+L166: 107. Thomas S.R. Neuzil J. Stocker R. Cosupplementation with coenzyme Q prevents the prooxidant effect of alpha-tocopherol and increases the resistance of LDL to transition metal-dependent oxidation initiation Arterioscler. Thromb. Vasc. Biol. 1996 16 687 696 10.1161/01.ATV.16.5.687 8963727
+L167: 108. Nielsen F. Mikkelsen B.B. Nielsen J.B. Andersen H.R. Grandjean P. Plasma malondialdehyde as biomarker for oxidative stress: Reference interval and effects of life-style factors Clin. Chem. 1997 43 1209 1214 10.1093/clinchem/43.7.1209 9216458
+L168: 109. Grotto D. Maria L.S. Valentini J. Paniz C. Schmitt G. Garcia S.C. Pomblum V.J. Rocha J.B.T. Farina M. Importance of the lipid peroxidation biomarkers and methodological aspects FOR malondialdehyde quantification Quím. Nova 2009 32 169 174 10.1590/S0100-40422009000100032
+L169: 110. Spirlandeli A.L. Deminice R. Jordao A.A. Plasma malondialdehyde as biomarker of lipid peroxidation: Effects of acute exercise Int. J. Sports Med. 2014 35 14 18 10.1055/s-0033-1345132 23771832
+L170: 111. A-Qudah K.M. Al-Majali A.M. Status of biochemical and antioxidant variables in horses before and after long distance race Rev. Méd. Vét. 2006 157 307 312
+L171: 112. Gul I. Gokbel H. Belviranli M. Okudan N. Buyukbas S. Basarali K. Oxidative stress and antioxidant defense in plasma after repeated bouts of supramaximal exercise: The effect of coenzyme Q10 J. Sports Med. Phys. Fit. 2011 51 305 312
+L172: 113. Prior R.L. Cao G. In vivo total antioxidant capacity: Comparison of different analytical methods Free Radic. Biol. Med. 1999 27 1173 1181 10.1016/S0891-5849(99)00203-8 10641708
+L173: 114. Ghiselli A. Serafini M. Natella F. Scaccini C. Total antioxidant capacity as a tool to assess redox status: Critical view and experimental data Free Radic. Biol. Med. 2000 29 1106 1114 10.1016/S0891-5849(00)00394-4 11121717
+L174: 115. Cao G. Prior R.L. Comparison of different analytical methods for assessing total antioxidant capacity of human serum Clin. Chem. 1998 44 1309 1315 10.1093/clinchem/44.6.1309 9625058
+L175: 116. Serafini M. Del Rio D. Understanding the association between dietary antioxidants, redox status and disease: Is the Total Antioxidant Capacity the right tool? Redox Rep. 2004 9 145 152 10.1179/135100004225004814 15327744
+L176: 117. Apak R. Current Issues in Antioxidant Measurement J. Agric. Food Chem. 2019 67 9187 9202 10.1021/acs.jafc.9b03657 31259552
+L177: 118. Kedzierski W. Bergero D. Assenza A. Trends of hematological and biochemical values in the blood of young race horses during standardized field exercise tests Acta Vet. 2009 59 457 466 10.2298/avb0906457k
+L178: 119. Kinnunen S. Atalay M. Hyyppa S. Lehmuskero A. Hanninen O. Oksala N. Effects of prolonged exercise on oxidative stress and antioxidant defense in endurance horse J. Sports Sci. Med. 2005 4 415 421 24501555
+L179: 120. Lamprecht E.D. Williams C.A. Biomarkers of antioxidant status, inflammation, and cartilage metabolism are affected by acute intense exercise but not superoxide dismutase supplementation in horses Oxid. Med. Cell Longev. 2012 2012 920932 10.1155/2012/920932 22919442
+L180: 121. Kruljc P. Cebulj-Kadunc N. Frangez R. Svete N.N. Changes in blood antioxidant, biochemical and haematological parameters in police horses on duty Slov. Vet. Res. 2014 51 119 129
+L181: 122. Siqueira R.F. Weigel R.A. Nunes G.R. Mori C.S. Fernandes W.R. Oxidative profiles of endurance horses racing different distances Arq. Bras. Med. Vet. Zootec. 2014 66 455 461 10.1590/1678-41625760
+L182: 123. Helgheim I. Hetland O. Nilsson S. Ingjer F. Stromme S.B. The effects of vitamin E on serum enzyme levels following heavy exercise Eur. J. Appl. Physiol. Occup. Physiol. 1979 40 283 289 10.1007/BF00421520 371960
+L183: Acknowledgments
+L184: The authors thank Mateja Blas, statistician, for performing the statistical analysis, and Aleksander Jenko for technical assistance in processing the blood samples.
+L185: # Summary: antioxidants-1222759-supplementary.xlsx
+L186: - **Sheets**: 60
+L187: - **Total tables**: 80
+L188: ## Sheet: Vit.E
+L189: - Tables found: 1
+L190: ### Table 1: Table_1
+L191: - **Rows**: 10
+L192: - **Columns**: 20
+L193: | Column | Dtype | Non-null | Sample values |
+L194: |--------|-------|----------|---------------|
+L195: | Horse | int64 | 10 | 1, 2, 3 |
+L196: | 0.0 | float64 | 10 | 7.66, 3.17, 3.97 |
+L197: | 1.0 | float64 | 10 | 7.37, 3.36, 4.23 |
+L198: | 2.0 | float64 | 10 | 8.03, 2.89, 3.46 |
+L199: | 3.0 | float64 | 10 | 7.66, 3.15, 3.83 |
+L200: | Horse | int64 | 10 | 1, 2, 3 |
+L201: | 0.0 | float64 | 10 | 5.96, 8.48, 4.82 |
+L202: | 1.0 | float64 | 10 | 6.17, 9.2, 4.59 |
+L203: | 2.0 | float64 | 10 | 6.51, 8.32, 5.29 |
+L204: | 3.0 | float64 | 10 | 5.95, 8.8, 4.97 |
+L205: | Horse | int64 | 10 | 1, 2, 3 |
+L206: | 0.0 | float64 | 10 | 2.83, 4.59, 4.54 |
+L207: | 1.0 | float64 | 10 | 3.22, 5.14, 4.7 |
+L208: | 2.0 | float64 | 10 | 2.82, 4.92, 4.63 |
+L209: | 3.0 | float64 | 10 | 2.96, 4.72, 4.43 |
+L210: | Horse | int64 | 10 | 1, 2, 3 |
+L211: | 0.0 | float64 | 10 | 7.2, 2.67, 10.9 |
+L212: | 1.0 | float64 | 10 | 8.85, 3.46, 14.4 |
+L213: | 2.0 | float64 | 10 | 8.7, 3.23, 14.8 |
+L214: | 3.0 | float64 | 10 | 7.94, 3.2, 14.1 |
+L215: ## Sheet: CoQ10
+L216: - Tables found: 1
+L217: ### Table 1: Table_1
+L218: - **Rows**: 10
+L219: - **Columns**: 20
+L220: | Column | Dtype | Non-null | Sample values |
+L221: |--------|-------|----------|---------------|
+L222: | Horse | int64 | 10 | 1, 2, 3 |
+L223: | 0.0 | float64 | 10 | 2.79, 1.99, 3.25 |
+L224: | 1.0 | float64 | 10 | 3.24, 1.95, 2.03 |
+L225: | 2.0 | float64 | 10 | 3.15, 2.1, 2.58 |
+L226: | 3.0 | float64 | 10 | 2.85, 2.14, 2.38 |
+L227: | Horse | int64 | 10 | 1, 2, 3 |
+L228: | 0.0 | float64 | 10 | 2.25, 2.38, 3.14 |
+L229: | 1.0 | float64 | 10 | 3.1, 5.45, 4.36 |
+L230: | 2.0 | float64 | 10 | 3.23, 5.46, 4.33 |
+L231: | 3.0 | float64 | 10 | 3.14, 3.56, 2.93 |
+L232: | Horse | int64 | 10 | 1, 2, 3 |
+L233: | 0.0 | float64 | 10 | 2.01, 1.68, 2.26 |
+L234: | 1.0 | float64 | 10 | 2.6, 2.39, 2.32 |
+L235: | 2.0 | float64 | 10 | 2.01, 2.18, 2.14 |
+L236: | 3.0 | float64 | 10 | 3.03, 2.26, 2.39 |
+L237: | Horse | int64 | 10 | 1, 2, 3 |
+L238: | 0.0 | float64 | 10 | 4.08, 2.43, 2.79 |
+L239: | 1.0 | float64 | 10 | 4.56, 2.78, 6.9 |
+L240: | 2.0 | float64 | 10 | 1.51, 0.97, 2.34 |
+L241: | 3.0 | float64 | 10 | 4.08, 4.58, 4.0 |
+L242: ## Sheet: MDA
+L243: - Tables found: 1
+L244: ### Table 1: Table_1
+L245: - **Rows**: 10
+L246: - **Columns**: 20
+L247: | Column | Dtype | Non-null | Sample values |
+L248: |--------|-------|----------|---------------|
+L249: | Horse | int64 | 10 | 1, 2, 3 |
+L250: | 0.0 | float64 | 10 | 5.79, 3.95, 2.96 |
+L251: | 1.0 | float64 | 10 | 4.79, 2.94, 3.34 |
+L252: | 2.0 | float64 | 10 | 5.95, 5.06, 3.91 |
+L253: | 3.0 | float64 | 10 | 5.32, 4.53, 10.62 |
+L254: | Horse | int64 | 10 | 1, 2, 3 |
+L255: | 0.0 | float64 | 10 | 4.04, 4.52, 5.56 |
+L256: | 1.0 | float64 | 10 | 4.57, 4.15, 6.78 |
+L257: | 2.0 | float64 | 10 | 8.96, 9.35, 4.79 |
+L258: | 3.0 | float64 | 10 | 4.11, 4.6, 5.72 |
+L259: | Horse | int64 | 10 | 1, 2, 3 |
+L260: | 0.0 | float64 | 10 | 6.71, 5.15, 5.12 |
+L261: | 1.0 | float64 | 10 | 7.02, 7.59, 7.86 |
+L262: | 2.0 | float64 | 10 | 6.65, 8.18, 8.22 |
+L263: | 3.0 | float64 | 10 | 7.31, 8.1, 5.13 |
+L264: | Horse | int64 | 10 | 1, 2, 3 |
+L265: | 0.0 | float64 | 10 | 4.55, 5.58, 5.59 |
+L266: | 1.0 | float64 | 10 | 6.69, 8.11, 9.66 |
+L267: | 2.0 | float64 | 10 | 5.14, 6.16, 5.14 |
+L268: | 3.0 | float64 | 10 | 5.72, 5.96, 4.55 |
+L269: ## Sheet: TAC
+L270: - Tables found: 1
+L271: ### Table 1: Table_1
+L272: - **Rows**: 10
+L273: - **Columns**: 20
+L274: | Column | Dtype | Non-null | Sample values |
+L275: |--------|-------|----------|---------------|
+L276: | Horse | int64 | 10 | 1, 2, 3 |
+L277: | 0.0 | float64 | 10 | 1.12, 1.22, 1.02 |
+L278: | 1.0 | float64 | 10 | 1.15, 1.25, 1.19 |
+L279: | 2.0 | float64 | 10 | 1.29, 1.18, 1.22 |
+L280: | 3.0 | float64 | 10 | 1.17, 1.16, 1.24 |
+L281: | Horse | int64 | 10 | 1, 2, 3 |
+L282: | 0.0 | float64 | 10 | 1.17, 1.2, 1.11 |
+L283: | 1.0 | float64 | 10 | 1.11, 1.21, 1.11 |
+L284: | 2.0 | float64 | 10 | 1.32, 1.2, 1.13 |
+L285: | 3.0 | float64 | 10 | 1.12, 1.12, 1.12 |
+L286: | Horse | int64 | 10 | 1, 2, 3 |
+L287: | 0.0 | float64 | 10 | 1.06, 1.13, 1.11 |
+L288: | 1.0 | float64 | 10 | 1.17, 1.05, 1.1 |
+L289: | 2.0 | float64 | 10 | 1.13, 1.13, 1.07 |
+L290: | 3.0 | float64 | 10 | 1.11, 1.09, 1.08 |
+L291: | Horse | int64 | 10 | 1, 2, 3 |
+L292: | 0.0 | float64 | 10 | 1.07, 1.14, 0.98 |
+L293: | 1.0 | float64 | 10 | 1.27, 1.22, 1.12 |
+L294: | 2.0 | float64 | 10 | 1.32, 1.17, 1.21 |
+L295: | 3.0 | float64 | 10 | 1.12, 1.3, 1.08 |
+L296: ## Sheet: GPX
+L297: - Tables found: 5
+L298: ### Table 1: Table_1
+L299: - **Rows**: 10
+L300: - **Columns**: 20
+L301: | Column | Dtype | Non-null | Sample values |
+L302: |--------|-------|----------|---------------|
+L303: | Horse | int64 | 10 | 1, 2, 3 |
+L304: | 0 | float64 | 10 | 70.82104895104895, 124.36475524475524, 41.68971962616823 |
+L305: | 1 | float64 | 10 | 95.66264705882352, 128.658, 38.304402985074624 |
+L306: | 2 | float64 | 10 | 90.94224137931033, 132.15023529411766, 37.146594202898555 |
+L307: | 3.0 | float64 | 10 | 91.80846153846153, 135.4066, 41.09217054263566 |
+L308: | Horse | int64 | 10 | 1, 2, 3 |
+L309: | 0 | float64 | 9 | 41.73116666666667, 29.06094017094017, 43.05953488372093 |
+L310: | 1 | float64 | 9 | 41.93181818181818, 29.548384615384617, 42.46806451612903 |
+L311: | 2.0 | float64 | 9 | 45.62794520547945, 29.11866197183098, 44.94270440251572 |
+L312: | 3 | float64 | 9 | 44.47816666666667, 31.058376068376067, 42.48395522388059 |
+L313: | Horse | int64 | 10 | 1, 2, 3 |
+L314: | 0 | float64 | 10 | 201.12814516129032, 216.64151515151516, 196.99922535211266 |
+L315: | 1.0 | float64 | 10 | 211.82251798561148, 218.85671875, 199.27205882352942 |
+L316: | 2 | float64 | 10 | 214.47042253521127, 192.90358620689656, 209.15979166666668 |
+L317: | 3 | float64 | 10 | 215.78148148148148, 228.75647540983607, 210.48818897637796 |
+L318: | Horse | int64 | 10 | 1, 2, 3 |
+L319: | 0.0 | float64 | 10 | 94.44260869565217, 110.59682119205297, 197.1850434782609 |
+L320: | 1.0 | float64 | 10 | 81.68, 115.14210191082803, 192.70611940298508 |
+L321: | 2.0 | float64 | 10 | 87.11480662983425, 113.21782051282051, 187.23075471698115 |
+L322: | 3.0 | float64 | 10 | 189.5174825174825, 161.3154761904762, 213.39370078740157 |
+L323: ### Table 2: Table_2
+L324: - **Rows**: 10
+L325: - **Columns**: 16
+L326: | Column | Dtype | Non-null | Sample values |
+L327: |--------|-------|----------|---------------|
+L328: | Horse | int64 | 10 | 1, 2, 3 |
+L329: | Hb (g/L)  | int64 | 10 | 143, 143, 107 |
+L330: | GPX (U/L) | float64 | 10 | 247.01, 433.76, 108.8 |
+L331: | GPX (U/g Hb) | float64 | 10 | 70.82104895104895, 124.36475524475524, 41.68971962616823 |
+L332: | Horse | int64 | 10 | 1, 2, 3 |
+L333: | Hb (g/L)  | int64 | 10 | 136, 155, 134 |
+L334: | GPX (U/L) | float64 | 10 | 317.32, 486.39, 125.19 |
+L335: | GPX (U/g Hb) | float64 | 10 | 95.66264705882352, 128.658, 38.304402985074624 |
+L336: | Horse | int64 | 10 | 1, 2, 3 |
+L337: | Hb (g/L)  | int64 | 10 | 174, 170, 138 |
+L338: | GPX (U/L) | float64 | 10 | 385.95, 547.94, 125.03 |
+L339: | GPX (U/g Hb) | float64 | 10 | 90.94224137931033, 132.15023529411766, 37.146594202898555 |
+L340: | Horse | int64 | 10 | 1, 2, 3 |
+L341: | Hb (g/L)  | int64 | 10 | 143, 150, 129 |
+L342: | GPX (U/L) | float64 | 10 | 320.21, 495.39, 129.29 |
+L343: | GPX (U/g Hb) | float64 | 10 | 91.80846153846153, 135.4066, 41.09217054263566 |
+L344: ### Table 3: Table_3
+L345: - **Rows**: 10
+L346: - **Columns**: 16
+L347: | Column | Dtype | Non-null | Sample values |
+L348: |--------|-------|----------|---------------|
+L349: | Horse | int64 | 10 | 1, 2, 3 |
+L350: | Hb (g/L)  | int64 | 10 | 120, 117, 129 |
+L351: | GPX (U/L) | float64 | 9 | 122.14, 82.93, 135.48 |
+L352: | GPX (U/g Hb) | float64 | 9 | 41.73116666666667, 29.06094017094017, 43.05953488372093 |
+L353: | Horse | int64 | 10 | 1, 2, 3 |
+L354: | Hb (g/L)  | int64 | 10 | 121, 130, 155 |
+L355: | GPX (U/L) | float64 | 9 | 123.75, 93.69, 160.55 |
+L356: | GPX (U/g Hb) | float64 | 9 | 41.93181818181818, 29.548384615384617, 42.46806451612903 |
+L357: | Horse | int64 | 10 | 1, 2, 3 |
+L358: | Hb (g/L)  | int64 | 10 | 146, 142, 159 |
+L359: | GPX (U/L) | float64 | 9 | 162.48, 100.85, 174.29 |
+L360: | GPX (U/g Hb) | float64 | 9 | 45.62794520547945, 29.11866197183098, 44.94270440251572 |
+L361: | Horse | int64 | 10 | 1, 2, 3 |
+L362: | Hb (g/L)  | int64 | 10 | 120, 117, 134 |
+L363: | GPX (U/L) | float64 | 9 | 130.18, 88.63, 138.85 |
+L364: | GPX (U/g Hb) | float64 | 9 | 44.47816666666667, 31.058376068376067, 42.48395522388059 |
+L365: ### Table 4: Table_4
+L366: - **Rows**: 10
+L367: - **Columns**: 16
+L368: | Column | Dtype | Non-null | Sample values |
+L369: |--------|-------|----------|---------------|
+L370: | Horse | int64 | 10 | 1, 2, 3 |
+L371: | Hb (g/L)  | int64 | 10 | 124, 132, 142 |
+L372: | GPX (U/L) | float64 | 10 | 608.29, 697.48, 682.29 |
+L373: | GPX (U/g Hb) | float64 | 10 | 201.12814516129032, 216.64151515151516, 196.99922535211266 |
+L374: | Horse | int64 | 10 | 1, 2, 3 |
+L375: | Hb (g/L)  | int64 | 10 | 139, 128, 136 |
+L376: | GPX (U/L) | float64 | 10 | 718.13, 683.26, 661.0 |
+L377: | GPX (U/g Hb) | float64 | 10 | 211.82251798561148, 218.85671875, 199.27205882352942 |
+L378: | Horse | int64 | 10 | 1, 2, 3 |
+L379: | Hb (g/L)  | int64 | 10 | 142, 145, 144 |
+L380: | GPX (U/L) | float64 | 10 | 742.8, 682.22, 734.61 |
+L381: | GPX (U/g Hb) | float64 | 10 | 214.47042253521127, 192.90358620689656, 209.15979166666668 |
+L382: | Horse | int64 | 10 | 1, 2, 3 |
+L383: | Hb (g/L)  | int64 | 10 | 135, 122, 127 |
+L384: | GPX (U/L) | float64 | 10 | 710.5, 680.69, 652.0 |
+L385: | GPX (U/g Hb) | float64 | 10 | 215.78148148148148, 228.75647540983607, 210.48818897637796 |
+L386: ### Table 5: Table_5
+L387: - **Rows**: 10
+L388: - **Columns**: 16
+L389: | Column | Dtype | Non-null | Sample values |
+L390: |--------|-------|----------|---------------|
+L391: | Horse | int64 | 10 | 1, 2, 3 |
+L392: | Hb (g/L)  | int64 | 10 | 138, 151, 115 |
+L393: | GPX (U/L) | float64 | 10 | 317.88, 407.32, 553.08 |
+L394: | GPX (U/g Hb) | float64 | 10 | 94.44260869565217, 110.59682119205297, 197.1850434782609 |
+L395: | Horse | int64 | 10 | 1, 2, 3 |
+L396: | Hb (g/L)  | int64 | 10 | 164, 157, 134 |
+L397: | GPX (U/L) | float64 | 10 | 326.72, 440.91, 629.82 |
+L398: | GPX (U/g Hb) | float64 | 10 | 81.68, 115.14210191082803, 192.70611940298508 |
+L399: | Horse | int64 | 10 | 1, 2, 3 |
+L400: | Hb (g/L)  | int64 | 10 | 181, 156, 159 |
+L401: | GPX (U/L) | float64 | 10 | 384.58, 430.78, 726.09 |
+L402: | GPX (U/g Hb) | float64 | 10 | 87.11480662983425, 113.21782051282051, 187.23075471698115 |
+L403: | Horse | int64 | 10 | 1, 2, 3 |
+L404: | Hb (g/L)  | int64 | 10 | 143, 168, 127 |
+L405: | GPX (U/L) | float64 | 10 | 300.85, 451.03, 567.0 |
+L406: | GPX (U/g Hb) | float64 | 10 | 189.5174825174825, 161.3154761904762, 213.39370078740157 |
+L407: ## Sheet: SOD
+L408: - Tables found: 5
+L409: ### Table 1: Table_1
+L410: - **Rows**: 10
+L411: - **Columns**: 20
+L412: | Column | Dtype | Non-null | Sample values |
+L413: |--------|-------|----------|---------------|
+L414: | Horse | int64 | 10 | 1, 2, 3 |
+L415: | 0 | float64 | 10 | 1315.622219397483, 1832.7150680091859, 1942.9553440890552 |
+L416: | 1 | float64 | 10 | 1950.1354056281643, 1738.495411244087, 2037.0675647033888 |
+L417: | 2 | float64 | 10 | 1400.9962640099625, 1625.7085177420608, 1981.7346912598446 |
+L418: | 3.0 | float64 | 10 | 1325.157783617456, 1628.2509824700844, 1935.80030471897 |
+L419: | Horse | int64 | 10 | 1, 2, 3 |
+L420: | 0 | float64 | 10 | 1714.9337537687052, 1431.498582535717, 1951.827242524917 |
+L421: | 1 | float64 | 10 | 1931.7753486618922, 1747.014595311809, 1898.393102096806 |
+L422: | 2.0 | float64 | 10 | 1907.9128173688773, 1814.582645991422, 1819.8492534319205 |
+L423: | 3 | float64 | 10 | 2088.678891044496, 1798.8519686312557, 1771.0399546613771 |
+L424: | Horse | int64 | 10 | 1, 2, 3 |
+L425: | 0 | float64 | 10 | 2038.3053159002638, 1832.1466760556032, 1507.8523942576355 |
+L426: | 1.0 | float64 | 10 | 1936.1381726543532, 1972.1005771294335, 1492.1417707517169 |
+L427: | 2 | float64 | 10 | 1936.864633493847, 1904.9326550279015, 1509.8781860988843 |
+L428: | 3 | float64 | 10 | 1869.0367272251992, 1825.5081368685858, 1542.1737305916913 |
+L429: | Horse | int64 | 10 | 1, 2, 3 |
+L430: | 0.0 | float64 | 9 | 1672.6245108931935, 1614.5347027699968, 2440.2670885736507 |
+L431: | 1.0 | float64 | 10 | 1478.0894968699279, 1756.2508665711512, 2361.68313124622 |
+L432: | 2.0 | float64 | 10 | 1461.3236344742481, 1754.4302519311357, 2437.0755093887333 |
+L433: | 3.0 | float64 | 10 | 1422.056882275291, 1599.0938468201352, 2245.7419842575714 |
+L434: ### Table 2: Table_2
+L435: - **Rows**: 10
+L436: - **Columns**: 16
+L437: | Column | Dtype | Non-null | Sample values |
+L438: |--------|-------|----------|---------------|
+L439: | Horse | int64 | 10 | 1, 2, 3 |
+L440: | Hb hemolysate (g/L)  | float64 | 10 | 39.335, 33.966, 38.987 |
+L441: | SOD (U/L) | float64 | 10 | 2.07, 2.49, 3.03 |
+L442: | SOD (U/g Hb) | float64 | 10 | 1315.622219397483, 1832.7150680091859, 1942.9553440890552 |
+L443: | Horse | int64 | 10 | 1, 2, 3 |
+L444: | Hb hemolysate (g/L)  | float64 | 10 | 33.972, 45.873, 42.463 |
+L445: | SOD (U/L) | float64 | 10 | 2.65, 3.19, 3.46 |
+L446: | SOD (U/g Hb) | float64 | 10 | 1950.1354056281643, 1738.495411244087, 2037.0675647033888 |
+L447: | Horse | int64 | 10 | 1, 2, 3 |
+L448: | Hb hemolysate (g/L)  | float64 | 10 | 44.968, 51.516, 38.981 |
+L449: | SOD (U/L) | float64 | 10 | 2.52, 3.35, 3.09 |
+L450: | SOD (U/g Hb) | float64 | 10 | 1400.9962640099625, 1625.7085177420608, 1981.7346912598446 |
+L451: | Horse | int64 | 10 | 1, 2, 3 |
+L452: | Hb hemolysate (g/L)  | float64 | 10 | 44.523, 45.294, 47.913 |
+L453: | SOD (U/L) | float64 | 10 | 2.36, 2.95, 3.71 |
+L454: | SOD (U/g Hb) | float64 | 10 | 1325.157783617456, 1628.2509824700844, 1935.80030471897 |
+L455: ### Table 3: Table_3
+L456: - **Rows**: 10
+L457: - **Columns**: 16
+L458: | Column | Dtype | Non-null | Sample values |
+L459: |--------|-------|----------|---------------|
+L460: | Horse | int64 | 10 | 1, 2, 3 |
+L461: | Hb hemolysate (g/L)  | float64 | 10 | 36.153, 35.627, 36.12 |
+L462: | SOD (U/L) | float64 | 10 | 2.48, 2.04, 2.82 |
+L463: | SOD (U/g Hb) | float64 | 10 | 1714.9337537687052, 1431.498582535717, 1951.827242524917 |
+L464: | Horse | int64 | 10 | 1, 2, 3 |
+L465: | Hb hemolysate (g/L)  | float64 | 10 | 42.448, 33.915, 40.824 |
+L466: | SOD (U/L) | float64 | 10 | 3.28, 2.37, 3.1 |
+L467: | SOD (U/g Hb) | float64 | 10 | 1931.7753486618922, 1747.014595311809, 1898.393102096806 |
+L468: | Horse | int64 | 10 | 1, 2, 3 |
+L469: | Hb hemolysate (g/L)  | float64 | 10 | 47.303, 36.372, 34.893 |
+L470: | SOD (U/L) | float64 | 10 | 3.61, 2.64, 2.54 |
+L471: | SOD (U/g Hb) | float64 | 10 | 1907.9128173688773, 1814.582645991422, 1819.8492534319205 |
+L472: | Horse | int64 | 10 | 1, 2, 3 |
+L473: | Hb hemolysate (g/L)  | float64 | 10 | 31.958, 37.107, 45.877 |
+L474: | SOD (U/L) | float64 | 10 | 2.67, 2.67, 3.25 |
+L475: | SOD (U/g Hb) | float64 | 10 | 2088.678891044496, 1798.8519686312557, 1771.0399546613771 |
+L476: ### Table 4: Table_4
+L477: - **Rows**: 10
+L478: - **Columns**: 16
+L479: | Column | Dtype | Non-null | Sample values |
+L480: |--------|-------|----------|---------------|
+L481: | Horse | int64 | 10 | 1, 2, 3 |
+L482: | Hb hemolysate (g/L)  | float64 | 10 | 33.729, 38.343, 51.895 |
+L483: | SOD (U/L) | float64 | 10 | 2.75, 2.81, 3.13 |
+L484: | SOD (U/g Hb) | float64 | 10 | 2038.3053159002638, 1832.1466760556032, 1507.8523942576355 |
+L485: | Horse | int64 | 10 | 1, 2, 3 |
+L486: | Hb hemolysate (g/L)  | float64 | 10 | 32.539, 34.481, 43.394 |
+L487: | SOD (U/L) | float64 | 10 | 2.52, 2.72, 2.59 |
+L488: | SOD (U/g Hb) | float64 | 10 | 1936.1381726543532, 1972.1005771294335, 1492.1417707517169 |
+L489: | Horse | int64 | 10 | 1, 2, 3 |
+L490: | Hb hemolysate (g/L)  | float64 | 10 | 46.725, 44.621, 19.538 |
+L491: | SOD (U/L) | float64 | 10 | 3.62, 3.4, 1.18 |
+L492: | SOD (U/g Hb) | float64 | 10 | 1936.864633493847, 1904.9326550279015, 1509.8781860988843 |
+L493: | Horse | int64 | 10 | 1, 2, 3 |
+L494: | Hb hemolysate (g/L)  | float64 | 10 | 38.255, 44.919, 47.66 |
+L495: | SOD (U/L) | float64 | 10 | 2.86, 3.28, 2.94 |
+L496: | SOD (U/g Hb) | float64 | 10 | 1869.0367272251992, 1825.5081368685858, 1542.1737305916913 |
+L497: ### Table 5: Table_5
+L498: - **Rows**: 10
+L499: - **Columns**: 16
+L500: | Column | Dtype | Non-null | Sample values |
+L501: |--------|-------|----------|---------------|
+L502: | Horse | int64 | 10 | 1, 2, 3 |
+L503: | Hb hemolysate (g/L)  | float64 | 10 | 41.402, 51.408, 37.291 |
+L504: | SOD (U/L) | float64 | 9 | 2.77, 3.32, 3.64 |
+L505: | SOD (U/g Hb) | float64 | 9 | 1672.6245108931935, 1614.5347027699968, 2440.2670885736507 |
+L506: | Horse | int64 | 10 | 1, 2, 3 |
+L507: | Hb hemolysate (g/L)  | float64 | 10 | 43.13, 43.274, 34.721 |
+L508: | SOD (U/L) | float64 | 10 | 2.55, 3.04, 3.28 |
+L509: | SOD (U/g Hb) | float64 | 10 | 1478.0894968699279, 1756.2508665711512, 2361.68313124622 |
+L510: | Horse | int64 | 10 | 1, 2, 3 |
+L511: | Hb hemolysate (g/L)  | float64 | 10 | 46.191, 39.614, 37.545 |
+L512: | SOD (U/L) | float64 | 10 | 2.7, 2.78, 3.66 |
+L513: | SOD (U/g Hb) | float64 | 10 | 1461.3236344742481, 1754.4302519311357, 2437.0755093887333 |
+L514: | Horse | int64 | 10 | 1, 2, 3 |
+L515: | Hb hemolysate (g/L)  | float64 | 10 | 41.665, 60.034, 44.974 |
+L516: | SOD (U/L) | float64 | 10 | 2.37, 3.84, 4.04 |
+L517: | SOD (U/g Hb) | float64 | 10 | 1422.056882275291, 1599.0938468201352, 2245.7419842575714 |
+L518: ## Sheet: Na
+L519: - Tables found: 1
+L520: ### Table 1: Table_1
+L521: - **Rows**: 10
+L522: - **Columns**: 20
+L523: | Column | Dtype | Non-null | Sample values |
+L524: |--------|-------|----------|---------------|
+L525: | Horse | int64 | 10 | 1, 2, 3 |
+L526: | 0.0 | float64 | 10 | 137.8, 137.1, 135.3 |
+L527: | 1.0 | float64 | 10 | 135.3, 139.4, 137.3 |
+L528: | 2.0 | float64 | 10 | 138.5, 136.9, 136.0 |
+L529: | 3.0 | float64 | 10 | 140.1, 141.1, 136.7 |
+L530: | Horse | int64 | 10 | 1, 2, 3 |
+L531: | 0.0 | float64 | 10 | 136.8, 136.1, 136.5 |
+L532: | 1.0 | float64 | 10 | 139.7, 141.9, 139.1 |
+L533: | 2.0 | float64 | 10 | 138.3, 140.9, 139.4 |
+L534: | 3.0 | float64 | 10 | 134.1, 135.2, 135.8 |
+L535: | Horse | int64 | 10 | 1, 2, 3 |
+L536: | 0.0 | float64 | 10 | 136.1, 135.9, 135.7 |
+L537: | 1.0 | float64 | 10 | 141.8, 139.9, 140.1 |
+L538: | 2.0 | float64 | 9 | 136.5, 137.4, 136.3 |
+L539: | 3.0 | float64 | 10 | 140.3, 137.5, 135.8 |
+L540: | Horse | int64 | 10 | 1, 2, 3 |
+L541: | 0.0 | float64 | 10 | 138.5, 136.6, 138.4 |
+L542: | 1.0 | float64 | 10 | 139.9, 136.9, 138.0 |
+L543: | 2.0 | float64 | 10 | 140.2, 137.5, 137.4 |
+L544: | 3.0 | float64 | 10 | 140.4, 139.2, 139.7 |
+L545: ## Sheet: K
+L546: - Tables found: 1
+L547: ### Table 1: Table_1
+L548: - **Rows**: 10
+L549: - **Columns**: 20
+L550: | Column | Dtype | Non-null | Sample values |
+L551: |--------|-------|----------|---------------|
+L552: | Horse | int64 | 10 | 1, 2, 3 |
+L553: | 0.0 | float64 | 10 | 3.67, 3.7, 3.92 |
+L554: | 1.0 | float64 | 10 | 4.17, 4.03, 3.41 |
+L555: | 2.0 | float64 | 10 | 4.07, 4.4, 4.61 |
+L556: | 3.0 | float64 | 10 | 2.87, 2.81, 4.26 |
+L557: | Horse | int64 | 10 | 1, 2, 3 |
+L558: | 0.0 | float64 | 10 | 4.28, 3.86, 4.21 |
+L559: | 1.0 | float64 | 10 | 3.46, 3.6, 4.67 |
+L560: | 2.0 | float64 | 10 | 4.36, 4.09, 4.41 |
+L561: | 3.0 | float64 | 10 | 4.17, 4.12, 4.33 |
+L562: | Horse | int64 | 10 | 1, 2, 3 |
+L563: | 0.0 | float64 | 10 | 3.81, 3.74, 4.2 |
+L564: | 1.0 | float64 | 10 | 3.38, 2.34, 3.52 |
+L565: | 2.0 | float64 | 10 | 4.39, 4.3, 4.39 |
+L566: | 3.0 | float64 | 10 | 2.7, 3.14, 4.36 |
+L567: | Horse | int64 | 10 | 1, 2, 3 |
+L568: | 0 | object | 10 | 4.14, 4.35, 2.36 |
+L569: | 1.0 | float64 | 10 | 3.15, 2.44, 4.49 |
+L570: | 2.0 | float64 | 10 | 4.5, 3.93, 5.42 |
+L571: | 3.0 | float64 | 10 | 3.48, 3.97, 3.32 |
+L572: ## Sheet: Cl
+L573: - Tables found: 1
+L574: ### Table 1: Table_1
+L575: - **Rows**: 10
+L576: - **Columns**: 20
+L577: | Column | Dtype | Non-null | Sample values |
+L578: |--------|-------|----------|---------------|
+L579: | Horse | int64 | 10 | 1, 2, 3 |
+L580: | 0.0 | float64 | 10 | 103.4, 102.5, 98.8 |
+L581: | 1.0 | float64 | 10 | 102.4, 102.2, 98.4 |
+L582: | 2.0 | float64 | 10 | 100.5, 100.0, 97.8 |
+L583: | 3.0 | float64 | 10 | 101.5, 101.3, 97.6 |
+L584: | Horse | int64 | 10 | 1, 2, 3 |
+L585: | 0.0 | float64 | 10 | 102.1, 101.2, 101.1 |
+L586: | 1.0 | float64 | 10 | 101.5, 101.5, 103.3 |
+L587: | 2.0 | float64 | 10 | 101.4, 101.4, 100.8 |
+L588: | 3.0 | float64 | 10 | 95.2, 96.7, 95.8 |
+L589: | Horse | int64 | 10 | 1, 2, 3 |
+L590: | 0.0 | float64 | 10 | 102.6, 101.1, 101.2 |
+L591: | 1.0 | float64 | 10 | 104.9, 102.5, 103.0 |
+L592: | 2.0 | float64 | 10 | 100.6, 99.1, 97.8 |
+L593: | 3.0 | float64 | 10 | 100.3, 98.0, 98.0 |
+L594: | Horse | int64 | 10 | 1, 2, 3 |
+L595: | 0.0 | float64 | 10 | 101.5, 100.3, 102.6 |
+L596: | 1.0 | float64 | 10 | 104.4, 96.9, 101.3 |
+L597: | 2.0 | float64 | 10 | 101.8, 97.8, 100.6 |
+L598: | 3.0 | float64 | 10 | 103.1, 102.9, 102.6 |
+L599: ## Sheet: GLU
+L600: - Tables found: 1
+L601: ### Table 1: Table_1
+L602: - **Rows**: 10
+L603: - **Columns**: 20
+L604: | Column | Dtype | Non-null | Sample values |
+L605: |--------|-------|----------|---------------|
+L606: | Horse | int64 | 10 | 1, 2, 3 |
+L607: | 0.0 | float64 | 10 | 5.57, 5.5, 3.42 |
+L608: | 1.0 | float64 | 10 | 4.99, 5.46, 5.31 |
+L609: | 2.0 | float64 | 10 | 5.72, 5.63, 4.36 |
+L610: | 3.0 | float64 | 10 | 5.24, 5.0, 4.8 |
+L611: | Horse | int64 | 10 | 1, 2, 3 |
+L612: | 0.0 | float64 | 10 | 3.94, 4.52, 4.08 |
+L613: | 1.0 | float64 | 10 | 4.87, 5.05, 5.0 |
+L614: | 2.0 | float64 | 10 | 5.72, 5.06, 5.52 |
+L615: | 3.0 | float64 | 10 | 3.45, 3.99, 3.81 |
+L616: | Horse | int64 | 10 | 1, 2, 3 |
+L617: | 0.0 | float64 | 10 | 4.7, 4.51, 4.97 |
+L618: | 1.0 | float64 | 10 | 2.96, 3.92, 3.68 |
+L619: | 2.0 | float64 | 10 | 2.73, 3.86, 4.6 |
+L620: | 3.0 | float64 | 10 | 2.96, 3.53, 3.5 |
+L621: | Horse | int64 | 10 | 1, 2, 3 |
+L622: | 0.0 | float64 | 10 | 4.05, 4.18, 5.05 |
+L623: | 1.0 | float64 | 9 | 4.19, 4.8, 4.51 |
+L624: | 2.0 | float64 | 10 | 4.86, 5.34, 4.71 |
+L625: | 3.0 | float64 | 10 | 5.89, 4.89, 4.15 |
+L626: ## Sheet: T-Bil
+L627: - Tables found: 1
+L628: ### Table 1: Table_1
+L629: - **Rows**: 10
+L630: - **Columns**: 20
+L631: | Column | Dtype | Non-null | Sample values |
+L632: |--------|-------|----------|---------------|
+L633: | Horse | int64 | 10 | 1, 2, 3 |
+L634: | 0.0 | float64 | 10 | 13.1, 13.0, 14.6 |
+L635: | 1.0 | float64 | 10 | 12.9, 14.6, 16.2 |
+L636: | 2.0 | float64 | 10 | 14.2, 13.8, 18.3 |
+L637: | 3.0 | float64 | 10 | 15.7, 16.0, 16.3 |
+L638: | Horse | int64 | 10 | 1, 2, 3 |
+L639: | 0.0 | float64 | 10 | 8.7, 7.0, 8.1 |
+L640: | 1.0 | float64 | 10 | 12.2, 9.5, 9.6 |
+L641: | 2.0 | float64 | 10 | 14.5, 13.0, 12.9 |
+L642: | 3.0 | float64 | 10 | 12.0, 10.1, 10.0 |
+L643: | Horse | int64 | 10 | 1, 2, 3 |
+L644: | 0.0 | float64 | 10 | 10.6, 16.3, 15.3 |
+L645: | 1.0 | float64 | 10 | 15.7, 15.2, 16.6 |
+L646: | 2.0 | float64 | 10 | 12.8, 15.2, 17.2 |
+L647: | 3.0 | float64 | 10 | 11.8, 12.7, 10.9 |
+L648: | Horse | int64 | 10 | 1, 2, 3 |
+L649: | 0.0 | float64 | 10 | 12.4, 12.3, 15.3 |
+L650: | 1.0 | float64 | 10 | 16.4, 13.3, 20.7 |
+L651: | 2.0 | float64 | 10 | 18.3, 17.1, 23.4 |
+L652: | 3.0 | float64 | 10 | 19.8, 19.2, 18.8 |
+L653: ## Sheet: CK
+L654: - Tables found: 2
+L655: ### Table 1: Table_1
+L656: - **Rows**: 10
+L657: - **Columns**: 20
+L658: | Column | Dtype | Non-null | Sample values |
+L659: |--------|-------|----------|---------------|
+L660: | Horse | int64 | 10 | 1, 2, 3 |
+L661: | 0.0 | float64 | 10 | 2.67, 4.1, 2.63 |
+L662: | 1.0 | float64 | 10 | 2.61, 3.72, 2.89 |
+L663: | 2.0 | float64 | 10 | 3.33, 4.28, 3.54 |
+L664: | 3.0 | float64 | 10 | 3.17, 3.95, 2.84 |
+L665: | Horse | int64 | 10 | 1, 2, 3 |
+L666: | 0.0 | float64 | 10 | 7.56, 4.77, 7.6 |
+L667: | 1.0 | float64 | 10 | 7.69, 5.3, 7.17 |
+L668: | 2.0 | float64 | 10 | 8.51, 5.53, 7.32 |
+L669: | 3.0 | float64 | 10 | 8.61, 5.86, 7.7 |
+L670: | Horse | int64 | 10 | 1, 2, 3 |
+L671: | 0.0 | float64 | 10 | 2.58, 3.15, 2.65 |
+L672: | 1.0 | float64 | 10 | 2.54, 4.65, 4.29 |
+L673: | 2.0 | float64 | 10 | 2.59, 4.75, 3.28 |
+L674: | 3.0 | float64 | 10 | 3.0, 5.16, 5.54 |
+L675: | Horse | int64 | 10 | 1, 2, 3 |
+L676: | 0.0 | float64 | 10 | 2.18, 3.84, 2.11 |
+L677: | 1.0 | float64 | 10 | 2.31, 3.84, 3.63 |
+L678: | 2.0 | float64 | 10 | 3.04, 4.52, 5.67 |
+L679: | 3.0 | float64 | 10 | 2.57, 4.54, 3.42 |
+L680: ### Table 2: Table_2
+L681: - **Rows**: 10
+L682: - **Columns**: 20
+L683: | Column | Dtype | Non-null | Sample values |
+L684: |--------|-------|----------|---------------|
+L685: | Horse | int64 | 10 | 1, 2, 3 |
+L686: | 0.0 | float64 | 10 | 160.2, 245.99999999999997, 157.79999999999998 |
+L687: | 1.0 | float64 | 10 | 156.6, 223.20000000000002, 173.4 |
+L688: | 2.0 | float64 | 10 | 199.8, 256.8, 212.4 |
+L689: | 3.0 | float64 | 10 | 190.2, 237.0, 170.39999999999998 |
+L690: | Horse | int64 | 10 | 1, 2, 3 |
+L691: | 0.0 | float64 | 10 | 453.59999999999997, 286.2, 456.0 |
+L692: | 1.0 | float64 | 10 | 461.40000000000003, 318.0, 430.2 |
+L693: | 2.0 | float64 | 10 | 510.59999999999997, 331.8, 439.20000000000005 |
+L694: | 3.0 | float64 | 10 | 516.5999999999999, 351.6, 462.0 |
+L695: | Horse | int64 | 10 | 1, 2, 3 |
+L696: | 0.0 | float64 | 10 | 154.8, 189.0, 159.0 |
+L697: | 1.0 | float64 | 10 | 152.4, 279.0, 257.4 |
+L698: | 2.0 | float64 | 10 | 155.39999999999998, 285.0, 196.79999999999998 |
+L699: | 3.0 | float64 | 10 | 180.0, 309.6, 332.4 |
+L700: | Horse | int64 | 10 | 1, 2, 3 |
+L701: | 0.0 | float64 | 10 | 130.8, 230.39999999999998, 126.6 |
+L702: | 1.0 | float64 | 10 | 138.6, 230.39999999999998, 217.79999999999998 |
+L703: | 2.0 | float64 | 10 | 182.4, 271.2, 340.2 |
+L704: | 3.0 | float64 | 10 | 154.2, 272.4, 205.2 |
+L705: ## Sheet: AST
+L706: - Tables found: 2
+L707: ### Table 1: Table_1
+L708: - **Rows**: 10
+L709: - **Columns**: 20
+L710: | Column | Dtype | Non-null | Sample values |
+L711: |--------|-------|----------|---------------|
+L712: | Horse | int64 | 10 | 1, 2, 3 |
+L713: | 0.0 | float64 | 10 | 4.28, 5.08, 3.32 |
+L714: | 1.0 | float64 | 10 | 4.23, 5.05, 3.77 |
+L715: | 2.0 | float64 | 10 | 4.86, 5.33, 3.95 |
+L716: | 3.0 | float64 | 10 | 4.58, 5.19, 3.63 |
+L717: | Horse | int64 | 10 | 1, 2, 3 |
+L718: | 0.0 | float64 | 10 | 7.68, 7.77, 7.34 |
+L719: | 1.0 | float64 | 10 | 7.79, 8.14, 8.0 |
+L720: | 2.0 | float64 | 10 | 8.14, 8.42, 8.16 |
+L721: | 3.0 | float64 | 10 | 7.5, 7.7, 7.38 |
+L722: | Horse | int64 | 10 | 1, 2, 3 |
+L723: | 0.0 | float64 | 10 | 3.94, 4.76, 6.22 |
+L724: | 1.0 | float64 | 10 | 4.36, 4.89, 6.18 |
+L725: | 2.0 | float64 | 10 | 4.1, 4.93, 6.31 |
+L726: | 3.0 | float64 | 10 | 4.31, 4.92, 6.03 |
+L727: | Horse | int64 | 10 | 1, 2, 3 |
+L728: | 0.0 | float64 | 10 | 4.36, 4.75, 4.34 |
+L729: | 1.0 | float64 | 10 | 4.6, 4.65, 4.68 |
+L730: | 2.0 | float64 | 10 | 4.8, 4.87, 5.22 |
+L731: | 3.0 | float64 | 10 | 4.28, 4.96, 4.75 |
+L732: ### Table 2: Table_2
+L733: - **Rows**: 10
+L734: - **Columns**: 20
+L735: | Column | Dtype | Non-null | Sample values |
+L736: |--------|-------|----------|---------------|
+L737: | Horse | int64 | 10 | 1, 2, 3 |
+L738: | 0.0 | float64 | 10 | 256.8, 304.8, 199.2 |
+L739: | 1.0 | float64 | 10 | 253.8, 303.0, 226.2 |
+L740: | 2.0 | float64 | 10 | 291.6, 319.8, 237.0 |
+L741: | 3.0 | float64 | 10 | 274.8, 311.40000000000003, 217.79999999999998 |
+L742: | Horse | int64 | 10 | 1, 2, 3 |
+L743: | 0.0 | float64 | 10 | 460.79999999999995, 466.2, 440.4 |
+L744: | 1.0 | float64 | 10 | 467.4, 488.40000000000003, 480.0 |
+L745: | 2.0 | float64 | 10 | 488.40000000000003, 505.2, 489.6 |
+L746: | 3.0 | float64 | 10 | 450.0, 462.0, 442.8 |
+L747: | Horse | int64 | 10 | 1, 2, 3 |
+L748: | 0.0 | float64 | 10 | 236.4, 285.59999999999997, 373.2 |
+L749: | 1.0 | float64 | 10 | 261.6, 293.4, 370.79999999999995 |
+L750: | 2.0 | float64 | 10 | 245.99999999999997, 295.79999999999995, 378.59999999999997 |
+L751: | 3.0 | float64 | 10 | 258.59999999999997, 295.2, 361.8 |
+L752: | Horse | int64 | 10 | 1, 2, 3 |
+L753: | 0.0 | float64 | 10 | 261.6, 285.0, 260.4 |
+L754: | 1.0 | float64 | 10 | 276.0, 279.0, 280.79999999999995 |
+L755: | 2.0 | float64 | 10 | 288.0, 292.2, 313.2 |
+L756: | 3.0 | float64 | 10 | 256.8, 297.6, 285.0 |
+L757: ## Sheet: LDH
+L758: - Tables found: 2
+L759: ### Table 1: Table_1
+L760: - **Rows**: 10
+L761: - **Columns**: 20
+L762: | Column | Dtype | Non-null | Sample values |
+L763: |--------|-------|----------|---------------|
+L764: | Horse | int64 | 10 | 1, 2, 3 |
+L765: | 0.0 | float64 | 10 | 5.36, 8.61, 3.68 |
+L766: | 1.0 | float64 | 10 | 5.51, 8.43, 3.83 |
+L767: | 2.0 | float64 | 10 | 6.64, 8.96, 4.83 |
+L768: | 3.0 | float64 | 10 | 6.22, 8.63, 3.52 |
+L769: | Horse | int64 | 10 | 1, 2, 3 |
+L770: | 0.0 | float64 | 10 | 7.23, 9.07, 13.08 |
+L771: | 1.0 | float64 | 10 | 7.69, 9.9, 14.38 |
+L772: | 2.0 | float64 | 10 | 8.1, 10.24, 14.2 |
+L773: | 3.0 | float64 | 10 | 8.03, 10.08, 14.66 |
+L774: | Horse | int64 | 10 | 1, 2, 3 |
+L775: | 0.0 | float64 | 10 | 3.88, 5.3, 5.68 |
+L776: | 1.0 | float64 | 10 | 4.63, 6.58, 6.48 |
+L777: | 2.0 | float64 | 10 | 4.16, 6.32, 5.84 |
+L778: | 3.0 | float64 | 10 | 4.77, 7.23, 7.17 |
+L779: | Horse | int64 | 10 | 1, 2, 3 |
+L780: | 0.0 | float64 | 10 | 5.6, 8.29, 2.99 |
+L781: | 1.0 | float64 | 10 | 5.27, 8.29, 3.63 |
+L782: | 2.0 | float64 | 10 | 5.8, 8.21, 4.02 |
+L783: | 3.0 | float64 | 10 | 5.05, 8.4, 3.52 |
+L784: ### Table 2: Table_2
+L785: - **Rows**: 10
+L786: - **Columns**: 20
+L787: | Column | Dtype | Non-null | Sample values |
+L788: |--------|-------|----------|---------------|
+L789: | Horse | int64 | 10 | 1, 2, 3 |
+L790: | 0.0 | float64 | 10 | 321.6, 516.5999999999999, 220.8 |
+L791: | 1.0 | float64 | 10 | 330.59999999999997, 505.79999999999995, 229.8 |
+L792: | 2.0 | float64 | 10 | 398.4, 537.6, 289.8 |
+L793: | 3.0 | float64 | 10 | 373.2, 517.8000000000001, 211.2 |
+L794: | Horse | int64 | 10 | 1, 2, 3 |
+L795: | 0.0 | float64 | 10 | 433.8, 544.2, 784.8 |
+L796: | 1.0 | float64 | 10 | 461.40000000000003, 594.0, 862.8000000000001 |
+L797: | 2.0 | float64 | 10 | 486.0, 614.4, 852.0 |
+L798: | 3.0 | float64 | 10 | 481.79999999999995, 604.8, 879.6 |
+L799: | Horse | int64 | 10 | 1, 2, 3 |
+L800: | 0.0 | float64 | 10 | 232.79999999999998, 318.0, 340.79999999999995 |
+L801: | 1.0 | float64 | 10 | 277.8, 394.8, 388.8 |
+L802: | 2.0 | float64 | 10 | 249.60000000000002, 379.20000000000005, 350.4 |
+L803: | 3.0 | float64 | 10 | 286.2, 433.8, 430.2 |
+L804: | Horse | int64 | 10 | 1, 2, 3 |
+L805: | 0.0 | float64 | 10 | 336.0, 497.4, 179.4 |
+L806: | 1.0 | float64 | 10 | 316.2, 497.4, 217.79999999999998 |
+L807: | 2.0 | float64 | 10 | 348.0, 492.6, 241.2 |
+L808: | 3.0 | float64 | 10 | 303.0, 504.0, 211.2 |
+L809: ## Sheet: ALT
+L810: - Tables found: 2
+L811: ### Table 1: Table_1
+L812: - **Rows**: 10
+L813: - **Columns**: 20
+L814: | Column | Dtype | Non-null | Sample values |
+L815: |--------|-------|----------|---------------|
+L816: | Horse | int64 | 10 | 1, 2, 3 |
+L817: | 0.0 | float64 | 10 | 0.17, 0.21, 0.12 |
+L818: | 1.0 | float64 | 10 | 0.18, 0.2, 0.12 |
+L819: | 2.0 | float64 | 10 | 0.21, 0.21, 0.13 |
+L820: | 3.0 | float64 | 10 | 0.2, 0.21, 0.14 |
+L821: | Horse | int64 | 10 | 1, 2, 3 |
+L822: | 0.0 | float64 | 10 | 0.23, 0.3, 0.24 |
+L823: | 1.0 | float64 | 10 | 0.25, 0.36, 0.32 |
+L824: | 2.0 | float64 | 10 | 0.26, 0.34, 0.3 |
+L825: | 3.0 | float64 | 10 | 0.22, 0.32, 0.26 |
+L826: | Horse | int64 | 10 | 1, 2, 3 |
+L827: | 0.0 | float64 | 10 | 0.16, 0.21, 0.23 |
+L828: | 1.0 | float64 | 10 | 0.18, 0.21, 0.22 |
+L829: | 2.0 | float64 | 10 | 0.19, 0.25, 0.22 |
+L830: | 3.0 | float64 | 10 | 0.16, 0.25, 0.24 |
+L831: | Horse | int64 | 10 | 1, 2, 3 |
+L832: | 0.0 | float64 | 10 | 0.18, 0.2, 0.17 |
+L833: | 1.0 | float64 | 10 | 0.18, 0.2, 0.21 |
+L834: | 2.0 | float64 | 10 | 0.22, 0.21, 0.24 |
+L835: | 3.0 | float64 | 10 | 0.19, 0.22, 0.19 |
+L836: ### Table 2: Table_2
+L837: - **Rows**: 10
+L838: - **Columns**: 20
+L839: | Column | Dtype | Non-null | Sample values |
+L840: |--------|-------|----------|---------------|
+L841: | Horse | int64 | 10 | 1, 2, 3 |
+L842: | 0.0 | float64 | 10 | 10.200000000000001, 12.6, 7.199999999999999 |
+L843: | 1.0 | float64 | 10 | 10.799999999999999, 12.0, 7.199999999999999 |
+L844: | 2.0 | float64 | 10 | 12.6, 12.6, 7.800000000000001 |
+L845: | 3.0 | float64 | 10 | 12.0, 12.6, 8.4 |
+L846: | Horse | int64 | 10 | 1, 2, 3 |
+L847: | 0.0 | float64 | 10 | 13.8, 18.0, 14.399999999999999 |
+L848: | 1.0 | float64 | 10 | 15.0, 21.599999999999998, 19.2 |
+L849: | 2.0 | float64 | 10 | 15.600000000000001, 20.400000000000002, 18.0 |
+L850: | 3.0 | float64 | 10 | 13.2, 19.2, 15.600000000000001 |
+L851: | Horse | int64 | 10 | 1, 2, 3 |
+L852: | 0.0 | float64 | 10 | 9.6, 12.6, 13.8 |
+L853: | 1.0 | float64 | 10 | 10.799999999999999, 12.6, 13.2 |
+L854: | 2.0 | float64 | 10 | 11.4, 15.0, 13.2 |
+L855: | 3.0 | float64 | 10 | 9.6, 15.0, 14.399999999999999 |
+L856: | Horse | int64 | 10 | 1, 2, 3 |
+L857: | 0.0 | float64 | 10 | 10.799999999999999, 12.0, 10.200000000000001 |
+L858: | 1.0 | float64 | 10 | 10.799999999999999, 12.0, 12.6 |
+L859: | 2.0 | float64 | 10 | 13.2, 12.6, 14.399999999999999 |
+L860: | 3.0 | float64 | 10 | 11.4, 13.2, 11.4 |
+L861: ## Sheet: GGT
+L862: - Tables found: 2
+L863: ### Table 1: Table_1
+L864: - **Rows**: 10
+L865: - **Columns**: 20
+L866: | Column | Dtype | Non-null | Sample values |
+L867: |--------|-------|----------|---------------|
+L868: | Horse | int64 | 10 | 1, 2, 3 |
+L869: | 0.0 | float64 | 10 | 0.22, 0.23, 0.19 |
+L870: | 1.0 | float64 | 10 | 0.21, 0.21, 0.16 |
+L871: | 2.0 | float64 | 10 | 0.23, 0.24, 0.17 |
+L872: | 3.0 | float64 | 10 | 0.22, 0.23, 0.16 |
+L873: | Horse | int64 | 10 | 1, 2, 3 |
+L874: | 0.0 | float64 | 10 | 0.24, 0.37, 0.26 |
+L875: | 1.0 | float64 | 10 | 0.24, 0.36, 0.24 |
+L876: | 2.0 | float64 | 10 | 0.23, 0.38, 0.26 |
+L877: | 3.0 | float64 | 10 | 0.24, 0.35, 0.26 |
+L878: | Horse | int64 | 10 | 1, 2, 3 |
+L879: | 0.0 | float64 | 10 | 0.27, 0.23, 0.25 |
+L880: | 1.0 | float64 | 10 | 0.32, 0.24, 0.26 |
+L881: | 2.0 | float64 | 10 | 0.26, 0.21, 0.25 |
+L882: | 3.0 | float64 | 10 | 0.3, 0.22, 0.23 |
+L883: | Horse | int64 | 10 | 1, 2, 3 |
+L884: | 0.0 | float64 | 10 | 0.21, 0.24, 0.23 |
+L885: | 1.0 | float64 | 10 | 0.23, 0.24, 0.2 |
+L886: | 2.0 | float64 | 10 | 0.22, 0.21, 0.21 |
+L887: | 3.0 | float64 | 10 | 0.2, 0.2, 0.21 |
+L888: ### Table 2: Table_2
+L889: - **Rows**: 10
+L890: - **Columns**: 20
+L891: | Column | Dtype | Non-null | Sample values |
+L892: |--------|-------|----------|---------------|
+L893: | Horse | int64 | 10 | 1, 2, 3 |
+L894: | 0.0 | float64 | 10 | 13.2, 13.8, 11.4 |
+L895: | 1.0 | float64 | 10 | 12.6, 12.6, 9.6 |
+L896: | 2.0 | float64 | 10 | 13.8, 14.399999999999999, 10.200000000000001 |
+L897: | 3.0 | float64 | 10 | 13.2, 13.8, 9.6 |
+L898: | Horse | int64 | 10 | 1, 2, 3 |
+L899: | 0.0 | float64 | 10 | 14.399999999999999, 22.2, 15.600000000000001 |
+L900: | 1.0 | float64 | 10 | 14.399999999999999, 21.599999999999998, 14.399999999999999 |
+L901: | 2.0 | float64 | 10 | 13.8, 22.8, 15.600000000000001 |
+L902: | 3.0 | float64 | 10 | 14.399999999999999, 21.0, 15.600000000000001 |
+L903: | Horse | int64 | 10 | 1, 2, 3 |
+L904: | 0.0 | float64 | 10 | 16.200000000000003, 13.8, 15.0 |
+L905: | 1.0 | float64 | 10 | 19.2, 14.399999999999999, 15.600000000000001 |
+L906: | 2.0 | float64 | 10 | 15.600000000000001, 12.6, 15.0 |
+L907: | 3.0 | float64 | 10 | 18.0, 13.2, 13.8 |
+L908: | Horse | int64 | 10 | 1, 2, 3 |
+L909: | 0.0 | float64 | 10 | 12.6, 14.399999999999999, 13.8 |
+L910: | 1.0 | float64 | 10 | 13.8, 14.399999999999999, 12.0 |
+L911: | 2.0 | float64 | 10 | 13.2, 12.6, 12.6 |
+L912: | 3.0 | float64 | 10 | 12.0, 12.0, 12.6 |
+L913: ## Sheet: ALP
+L914: - Tables found: 2
+L915: ### Table 1: Table_1
+L916: - **Rows**: 10
+L917: - **Columns**: 20
+L918: | Column | Dtype | Non-null | Sample values |
+L919: |--------|-------|----------|---------------|
+L920: | Horse | int64 | 10 | 1, 2, 3 |
+L921: | 0.0 | float64 | 10 | 2.55, 2.11, 1.46 |
+L922: | 1.0 | float64 | 10 | 2.42, 2.22, 1.7 |
+L923: | 2.0 | float64 | 10 | 2.8, 2.41, 1.69 |
+L924: | 3.0 | float64 | 10 | 2.66, 2.33, 1.63 |
+L925: | Horse | int64 | 10 | 1, 2, 3 |
+L926: | 0.0 | float64 | 10 | 4.44, 3.08, 3.0 |
+L927: | 1.0 | float64 | 10 | 4.37, 3.4, 3.22 |
+L928: | 2.0 | float64 | 10 | 4.65, 3.47, 3.18 |
+L929: | 3.0 | float64 | 10 | 4.31, 3.31, 2.99 |
+L930: | Horse | int64 | 10 | 1, 2, 3 |
+L931: | 0.0 | float64 | 10 | 2.21, 1.92, 2.01 |
+L932: | 1.0 | float64 | 10 | 2.27, 1.93, 1.87 |
+L933: | 2.0 | float64 | 10 | 1.95, 1.84, 1.81 |
+L934: | 3.0 | float64 | 10 | 2.1, 1.92, 1.79 |
+L935: | Horse | int64 | 10 | 1, 2, 3 |
+L936: | 0.0 | float64 | 10 | 2.37, 2.06, 2.02 |
+L937: | 1.0 | float64 | 10 | 2.46, 2.06, 1.99 |
+L938: | 2.0 | float64 | 10 | 2.57, 1.85, 2.21 |
+L939: | 3.0 | float64 | 10 | 2.4, 2.0, 2.04 |
+L940: ### Table 2: Table_2
+L941: - **Rows**: 10
+L942: - **Columns**: 20
+L943: | Column | Dtype | Non-null | Sample values |
+L944: |--------|-------|----------|---------------|
+L945: | Horse | int64 | 10 | 1, 2, 3 |
+L946: | 0.0 | float64 | 10 | 153.0, 126.6, 87.6 |
+L947: | 1.0 | float64 | 10 | 145.2, 133.20000000000002, 102.0 |
+L948: | 2.0 | float64 | 10 | 168.0, 144.60000000000002, 101.39999999999999 |
+L949: | 3.0 | float64 | 10 | 159.60000000000002, 139.8, 97.8 |
+L950: | Horse | int64 | 10 | 1, 2, 3 |
+L951: | 0.0 | float64 | 10 | 266.40000000000003, 184.8, 180.0 |
+L952: | 1.0 | float64 | 10 | 262.2, 204.0, 193.20000000000002 |
+L953: | 2.0 | float64 | 10 | 279.0, 208.20000000000002, 190.8 |
+L954: | 3.0 | float64 | 10 | 258.59999999999997, 198.6, 179.4 |
+L955: | Horse | int64 | 10 | 1, 2, 3 |
+L956: | 0.0 | float64 | 10 | 132.6, 115.19999999999999, 120.6 |
+L957: | 1.0 | float64 | 10 | 136.2, 115.8, 112.2 |
+L958: | 2.0 | float64 | 10 | 117.0, 110.4, 108.60000000000001 |
+L959: | 3.0 | float64 | 10 | 126.0, 115.19999999999999, 107.4 |
+L960: | Horse | int64 | 10 | 1, 2, 3 |
+L961: | 0.0 | float64 | 10 | 142.20000000000002, 123.60000000000001, 121.2 |
+L962: | 1.0 | float64 | 10 | 147.6, 123.60000000000001, 119.4 |
+L963: | 2.0 | float64 | 10 | 154.2, 111.0, 132.6 |
+L964: | 3.0 | float64 | 10 | 144.0, 120.0, 122.4 |
+L965: ## Sheet: UREA
+L966: - Tables found: 1
+L967: ### Table 1: Table_1
+L968: - **Rows**: 10
+L969: - **Columns**: 20
+L970: | Column | Dtype | Non-null | Sample values |
+L971: |--------|-------|----------|---------------|
+L972: | Horse | int64 | 10 | 1, 2, 3 |
+L973: | 0.0 | float64 | 10 | 3.3, 3.1, 5.4 |
+L974: | 1.0 | float64 | 10 | 3.1, 2.6, 5.2 |
+L975: | 2.0 | float64 | 10 | 3.1, 2.7, 5.2 |
+L976: | 3.0 | float64 | 10 | 3.6, 3.0, 5.3 |
+L977: | Horse | int64 | 10 | 1, 2, 3 |
+L978: | 0.0 | float64 | 10 | 4.2, 4.3, 3.6 |
+L979: | 1.0 | float64 | 10 | 3.1, 4.0, 3.2 |
+L980: | 2.0 | float64 | 10 | 3.2, 4.1, 3.1 |
+L981: | 3.0 | float64 | 10 | 4.1, 4.7, 4.0 |
+L982: | Horse | int64 | 10 | 1, 2, 3 |
+L983: | 0.0 | float64 | 10 | 4.6, 6.3, 4.1 |
+L984: | 1.0 | float64 | 10 | 5.4, 5.5, 4.6 |
+L985: | 2.0 | float64 | 10 | 5.0, 5.4, 4.3 |
+L986: | 3.0 | float64 | 10 | 5.2, 6.1, 4.6 |
+L987: | Horse | int64 | 10 | 1, 2, 3 |
+L988: | 0.0 | float64 | 10 | 3.7, 4.1, 3.7 |
+L989: | 1.0 | float64 | 10 | 3.8, 4.1, 4.5 |
+L990: | 2.0 | float64 | 10 | 3.8, 4.3, 4.4 |
+L991: | 3.0 | float64 | 10 | 4.1, 5.1, 4.0 |
+L992: ## Sheet: CREA
+L993: - Tables found: 1
+L994: ### Table 1: Table_1
+L995: - **Rows**: 10
+L996: - **Columns**: 20
+L997: | Column | Dtype | Non-null | Sample values |
+L998: |--------|-------|----------|---------------|
+L999: | Horse | int64 | 10 | 1, 2, 3 |
+L1000: | 0.0 | float64 | 10 | 121.0, 101.0, 112.0 |
+L1001: | 1.0 | float64 | 10 | 106.0, 90.0, 100.0 |
+L1002: | 2.0 | float64 | 10 | 131.0, 117.0, 117.0 |
+L1003: | 3.0 | float64 | 10 | 120.0, 93.0, 101.0 |
+L1004: | Horse | int64 | 10 | 1, 2, 3 |
+L1005: | 0.0 | float64 | 10 | 93.0, 118.0, 99.0 |
+L1006: | 1.0 | float64 | 10 | 87.0, 111.0, 95.0 |
+L1007: | 2.0 | float64 | 10 | 96.0, 124.0, 113.0 |
+L1008: | 3.0 | float64 | 10 | 92.0, 117.0, 98.0 |
+L1009: | Horse | int64 | 10 | 1, 2, 3 |
+L1010: | 0.0 | float64 | 10 | 94.0, 96.0, 103.0 |
+L1011: | 1.0 | float64 | 10 | 114.0, 106.0, 117.0 |
+L1012: | 2.0 | float64 | 10 | 122.0, 113.0, 127.0 |
+L1013: | 3.0 | float64 | 10 | 123.0, 105.0, 110.0 |
+L1014: | Horse | int64 | 10 | 1, 2, 3 |
+L1015: | 0.0 | float64 | 10 | 120.0, 108.0, 104.0 |
+L1016: | 1.0 | float64 | 10 | 120.0, 108.0, 110.0 |
+L1017: | 2.0 | float64 | 10 | 140.0, 121.0, 123.0 |
+L1018: | 3.0 | float64 | 10 | 121.0, 104.0, 117.0 |
+L1019: ## Sheet: UA
+L1020: - Tables found: 1
+L1021: ### Table 1: Table_1
+L1022: - **Rows**: 10
+L1023: - **Columns**: 20
+L1024: | Column | Dtype | Non-null | Sample values |
+L1025: |--------|-------|----------|---------------|
+L1026: | Horse | int64 | 10 | 1, 2, 3 |
+L1027: | 0.0 | float64 | 10 | 10.0, 3.0, 18.0 |
+L1028: | 1.0 | float64 | 10 | 7.0, 2.0, 12.0 |
+L1029: | 2.0 | float64 | 10 | 20.0, 6.0, 15.0 |
+L1030: | 3.0 | float64 | 10 | 8.0, 2.0, 8.0 |
+L1031: | Horse | int64 | 10 | 1, 2, 3 |
+L1032: | 0.0 | float64 | 10 | 14.0, 10.0, 5.0 |
+L1033: | 1.0 | float64 | 10 | 10.0, 6.0, 9.0 |
+L1034: | 2.0 | float64 | 10 | 14.0, 10.0, 8.0 |
+L1035: | 3.0 | float64 | 10 | 13.0, 12.0, 11.0 |
+L1036: | Horse | int64 | 10 | 1, 2, 3 |
+L1037: | 0.0 | float64 | 10 | 3.0, 10.0, 9.0 |
+L1038: | 1.0 | float64 | 10 | 8.0, 15.0, 12.0 |
+L1039: | 2.0 | float64 | 10 | 10.0, 20.0, 11.0 |
+L1040: | 3.0 | float64 | 10 | 9.0, 18.0, 16.0 |
+L1041: | Horse | int64 | 10 | 1, 2, 3 |
+L1042: | 0.0 | float64 | 10 | 11.0, 4.0, 10.0 |
+L1043: | 1.0 | float64 | 10 | 12.0, 4.0, 9.0 |
+L1044: | 2.0 | float64 | 10 | 22.0, 8.0, 14.0 |
+L1045: | 3.0 | float64 | 10 | 7.0, 2.0, 12.0 |
+L1046: ## Sheet: Ca
+L1047: - Tables found: 1
+L1048: ### Table 1: Table_1
+L1049: - **Rows**: 10
+L1050: - **Columns**: 20
+L1051: | Column | Dtype | Non-null | Sample values |
+L1052: |--------|-------|----------|---------------|
+L1053: | Horse | int64 | 10 | 1, 2, 3 |
+L1054: | 0.0 | float64 | 10 | 3.23, 3.19, 3.0 |
+L1055: | 1.0 | float64 | 10 | 3.2, 3.14, 3.21 |
+L1056: | 2.0 | float64 | 10 | 2.91, 2.9, 2.99 |
+L1057: | 3.0 | float64 | 10 | 3.17, 2.99, 3.2 |
+L1058: | Horse | int64 | 10 | 1, 2, 3 |
+L1059: | 0.0 | float64 | 10 | 3.22, 3.13, 3.16 |
+L1060: | 1.0 | float64 | 10 | 3.16, 3.28, 3.05 |
+L1061: | 2.0 | float64 | 10 | 3.06, 3.15, 2.91 |
+L1062: | 3.0 | float64 | 10 | 2.91, 3.2, 3.09 |
+L1063: | Horse | int64 | 10 | 1, 2, 3 |
+L1064: | 0.0 | float64 | 10 | 2.98, 3.09, 3.14 |
+L1065: | 1.0 | float64 | 10 | 3.18, 3.16, 3.15 |
+L1066: | 2.0 | float64 | 10 | 2.86, 2.84, 2.86 |
+L1067: | 3.0 | float64 | 10 | 3.07, 3.13, 3.29 |
+L1068: | Horse | int64 | 10 | 1, 2, 3 |
+L1069: | 0.0 | float64 | 10 | 3.21, 3.05, 2.71 |
+L1070: | 1.0 | float64 | 10 | 3.3, 3.05, 3.16 |
+L1071: | 2.0 | float64 | 10 | 2.96, 2.8, 3.2 |
+L1072: | 3.0 | float64 | 10 | 3.0, 3.0, 2.83 |
+L1073: ## Sheet: iP
+L1074: - Tables found: 1
+L1075: ### Table 1: Table_1
+L1076: - **Rows**: 10
+L1077: - **Columns**: 20
+L1078: | Column | Dtype | Non-null | Sample values |
+L1079: |--------|-------|----------|---------------|
+L1080: | Horse | int64 | 10 | 1, 2, 3 |
+L1081: | 0.0 | float64 | 10 | 0.87, 0.98, 0.89 |
+L1082: | 1.0 | float64 | 10 | 1.06, 0.8, 0.8 |
+L1083: | 2.0 | float64 | 10 | 1.14, 1.07, 0.75 |
+L1084: | 3.0 | float64 | 10 | 1.16, 1.14, 0.77 |
+L1085: | Horse | int64 | 10 | 1, 2, 3 |
+L1086: | 0.0 | float64 | 10 | 0.85, 1.38, 1.04 |
+L1087: | 1.0 | float64 | 10 | 0.85, 1.8, 1.1 |
+L1088: | 2.0 | float64 | 10 | 0.96, 1.86, 1.13 |
+L1089: | 3.0 | float64 | 10 | 0.75, 1.24, 0.99 |
+L1090: | Horse | int64 | 10 | 1, 2, 3 |
+L1091: | 0.0 | float64 | 10 | 1.03, 0.64, 0.52 |
+L1092: | 1.0 | float64 | 10 | 0.7, 0.58, 0.43 |
+L1093: | 2.0 | float64 | 10 | 0.64, 0.84, 0.64 |
+L1094: | 3.0 | float64 | 10 | 0.63, 0.86, 0.57 |
+L1095: | Horse | int64 | 10 | 1, 2, 3 |
+L1096: | 0.0 | float64 | 10 | 1.13, 1.01, 0.73 |
+L1097: | 1.0 | float64 | 10 | 0.91, 1.01, 0.68 |
+L1098: | 2.0 | float64 | 10 | 0.97, 1.4, 0.91 |
+L1099: | 3.0 | float64 | 10 | 0.87, 1.2, 0.9 |
+L1100: ## Sheet: Mg
+L1101: - Tables found: 1
+L1102: ### Table 1: Table_1
+L1103: - **Rows**: 10
+L1104: - **Columns**: 20
+L1105: | Column | Dtype | Non-null | Sample values |
+L1106: |--------|-------|----------|---------------|
+L1107: | Horse | int64 | 10 | 1, 2, 3 |
+L1108: | 0.0 | float64 | 10 | 0.7, 0.76, 0.68 |
+L1109: | 1.0 | float64 | 10 | 0.8, 0.85, 0.83 |
+L1110: | 2.0 | float64 | 10 | 0.75, 0.77, 0.76 |
+L1111: | 3.0 | float64 | 10 | 0.76, 0.8, 0.82 |
+L1112: | Horse | int64 | 10 | 1, 2, 3 |
+L1113: | 0.0 | float64 | 10 | 0.8, 0.78, 0.89 |
+L1114: | 1.0 | float64 | 10 | 0.75, 0.81, 0.99 |
+L1115: | 2.0 | float64 | 10 | 0.76, 0.83, 0.88 |
+L1116: | 3.0 | float64 | 10 | 0.71, 0.92, 0.91 |
+L1117: | Horse | int64 | 10 | 1, 2, 3 |
+L1118: | 0.0 | float64 | 10 | 0.81, 0.8, 0.93 |
+L1119: | 1.0 | float64 | 10 | 0.95, 0.86, 0.88 |
+L1120: | 2.0 | float64 | 10 | 0.9, 0.84, 0.78 |
+L1121: | 3.0 | float64 | 10 | 0.94, 0.84, 0.88 |
+L1122: | Horse | int64 | 10 | 1, 2, 3 |
+L1123: | 0.0 | float64 | 10 | 0.74, 0.78, 0.76 |
+L1124: | 1.0 | float64 | 10 | 0.83, 0.78, 0.85 |
+L1125: | 2.0 | float64 | 10 | 0.79, 0.71, 0.86 |
+L1126: | 3.0 | float64 | 10 | 0.71, 0.78, 0.82 |
+L1127: ## Sheet: Hb
+L1128: - Tables found: 1
+L1129: ### Table 1: Table_1
+L1130: - **Rows**: 10
+L1131: - **Columns**: 20
+L1132: | Column | Dtype | Non-null | Sample values |
+L1133: |--------|-------|----------|---------------|
+L1134: | Horse | int64 | 10 | 1, 2, 3 |
+L1135: | 0.0 | float64 | 10 | 143.0, 143.0, 107.0 |
+L1136: | 1.0 | float64 | 10 | 136.0, 155.0, 134.0 |
+L1137: | 2.0 | float64 | 10 | 174.0, 170.0, 138.0 |
+L1138: | 3.0 | float64 | 10 | 143.0, 150.0, 129.0 |
+L1139: | Horse | int64 | 10 | 1, 2, 3 |
+L1140: | 0.0 | float64 | 10 | 120.0, 117.0, 129.0 |
+L1141: | 1.0 | float64 | 10 | 121.0, 130.0, 155.0 |
+L1142: | 2.0 | float64 | 10 | 146.0, 142.0, 159.0 |
+L1143: | 3.0 | float64 | 10 | 120.0, 117.0, 134.0 |
+L1144: | Horse | int64 | 10 | 1, 2, 3 |
+L1145: | 0.0 | float64 | 10 | 124.0, 132.0, 142.0 |
+L1146: | 1.0 | float64 | 10 | 139.0, 128.0, 136.0 |
+L1147: | 2.0 | float64 | 10 | 142.0, 145.0, 144.0 |
+L1148: | 3.0 | float64 | 10 | 135.0, 122.0, 127.0 |
+L1149: | Horse | int64 | 10 | 1, 2, 3 |
+L1150: | 0.0 | float64 | 10 | 138.0, 151.0, 115.0 |
+L1151: | 1.0 | float64 | 10 | 164.0, 157.0, 134.0 |
+L1152: | 2.0 | float64 | 10 | 181.0, 156.0, 159.0 |
+L1153: | 3.0 | float64 | 10 | 143.0, 168.0, 127.0 |
+L1154: ## Sheet: CHOL
+L1155: - Tables found: 1
+L1156: ### Table 1: Table_1
+L1157: - **Rows**: 10
+L1158: - **Columns**: 20
+L1159: | Column | Dtype | Non-null | Sample values |
+L1160: |--------|-------|----------|---------------|
+L1161: | Horse | int64 | 10 | 1, 2, 3 |
+L1162: | 0.0 | float64 | 10 | 2.5, 2.4, 1.7 |
+L1163: | 1.0 | float64 | 10 | 2.4, 2.5, 1.8 |
+L1164: | 2.0 | float64 | 10 | 2.7, 2.5, 1.8 |
+L1165: | 3.0 | float64 | 10 | 2.6, 2.5, 1.8 |
+L1166: | Horse | int64 | 10 | 1, 2, 3 |
+L1167: | 0.0 | float64 | 10 | 2.3, 3.0, 2.3 |
+L1168: | 1.0 | float64 | 10 | 2.6, 3.5, 2.6 |
+L1169: | 2.0 | float64 | 10 | 2.6, 3.5, 2.5 |
+L1170: | 3.0 | float64 | 10 | 2.4, 3.2, 2.3 |
+L1171: | Horse | int64 | 10 | 1, 2, 3 |
+L1172: | 0.0 | float64 | 10 | 1.7, 2.0, 2.1 |
+L1173: | 1.0 | float64 | 10 | 2.0, 2.2, 2.2 |
+L1174: | 2.0 | float64 | 10 | 1.8, 2.0, 2.1 |
+L1175: | 3.0 | float64 | 10 | 1.8, 2.0, 2.1 |
+L1176: | Horse | int64 | 10 | 1, 2, 3 |
+L1177: | 0.0 | float64 | 10 | 2.5, 2.3, 2.5 |
+L1178: | 1.0 | float64 | 10 | 2.7, 2.3, 2.8 |
+L1179: | 2.0 | float64 | 10 | 2.8, 2.3, 2.9 |
+L1180: | 3.0 | float64 | 10 | 2.5, 2.4, 2.8 |
+L1181: ## Sheet: TRIG
+L1182: - Tables found: 1
+L1183: ### Table 1: Table_1
+L1184: - **Rows**: 10
+L1185: - **Columns**: 20
+L1186: | Column | Dtype | Non-null | Sample values |
+L1187: |--------|-------|----------|---------------|
+L1188: | Horse | int64 | 10 | 1, 2, 3 |
+L1189: | 0.0 | float64 | 10 | 0.27, 0.41, 0.45 |
+L1190: | 1.0 | float64 | 10 | 0.23, 0.31, 0.27 |
+L1191: | 2.0 | float64 | 10 | 0.39, 0.49, 0.39 |
+L1192: | 3.0 | float64 | 10 | 0.2, 0.41, 0.29 |
+L1193: | Horse | int64 | 10 | 1, 2, 3 |
+L1194: | 0.0 | float64 | 10 | 0.4, 0.4, 0.22 |
+L1195: | 1.0 | float64 | 10 | 0.43, 0.22, 0.25 |
+L1196: | 2.0 | float64 | 10 | 0.64, 0.3, 0.33 |
+L1197: | 3.0 | float64 | 10 | 0.35, 0.29, 0.26 |
+L1198: | Horse | int64 | 10 | 1, 2, 3 |
+L1199: | 0.0 | float64 | 10 | 0.28, 0.38, 0.27 |
+L1200: | 1.0 | float64 | 10 | 0.34, 0.4, 0.26 |
+L1201: | 2.0 | float64 | 10 | 0.36, 0.4, 0.33 |
+L1202: | 3.0 | float64 | 10 | 0.3, 0.33, 0.25 |
+L1203: | Horse | int64 | 10 | 1, 2, 3 |
+L1204: | 0.0 | float64 | 10 | 0.25, 0.42, 0.29 |
+L1205: | 1.0 | float64 | 10 | 0.24, 0.42, 0.35 |
+L1206: | 2.0 | float64 | 10 | 0.42, 0.61, 0.4 |
+L1207: | 3.0 | float64 | 10 | 0.17, 0.29, 0.38 |
+L1208: ## Sheet: HDL
+L1209: - Tables found: 1
+L1210: ### Table 1: Table_1
+L1211: - **Rows**: 10
+L1212: - **Columns**: 20
+L1213: | Column | Dtype | Non-null | Sample values |
+L1214: |--------|-------|----------|---------------|
+L1215: | Horse | int64 | 10 | 1, 2, 3 |
+L1216: | 0.0 | float64 | 10 | 1.5, 1.6, 1.4 |
+L1217: | 1.0 | float64 | 10 | 1.47, 1.66, 1.46 |
+L1218: | 2.0 | float64 | 10 | 1.63, 1.72, 1.44 |
+L1219: | 3.0 | float64 | 10 | 1.56, 1.7, 1.45 |
+L1220: | Horse | int64 | 10 | 1, 2, 3 |
+L1221: | 0.0 | float64 | 10 | 1.74, 1.83, 1.68 |
+L1222: | 1.0 | float64 | 10 | 1.89, 1.95, 1.88 |
+L1223: | 2.0 | float64 | 10 | 2.0, 2.02, 1.85 |
+L1224: | 3.0 | float64 | 10 | 1.82, 1.82, 1.68 |
+L1225: | Horse | int64 | 10 | 1, 2, 3 |
+L1226: | 0.0 | float64 | 10 | 1.4, 1.57, 1.59 |
+L1227: | 1.0 | float64 | 10 | 1.58, 1.65, 1.6 |
+L1228: | 2.0 | float64 | 10 | 1.42, 1.59, 1.58 |
+L1229: | 3.0 | float64 | 10 | 1.51, 1.59, 1.5 |
+L1230: | Horse | int64 | 10 | 1, 2, 3 |
+L1231: | 0.0 | float64 | 10 | 1.6, 1.69, 1.49 |
+L1232: | 1.0 | float64 | 10 | 1.74, 1.69, 1.56 |
+L1233: | 2.0 | float64 | 10 | 1.77, 1.68, 1.66 |
+L1234: | 3.0 | float64 | 10 | 1.58, 1.71, 1.53 |
+L1235: ## Sheet: LDL
+L1236: - Tables found: 1
+L1237: ### Table 1: Table_1
+L1238: - **Rows**: 10
+L1239: - **Columns**: 20
+L1240: | Column | Dtype | Non-null | Sample values |
+L1241: |--------|-------|----------|---------------|
+L1242: | Horse | int64 | 10 | 1, 2, 3 |
+L1243: | 0.0 | float64 | 10 | 0.97, 0.73, 0.3 |
+L1244: | 1.0 | float64 | 10 | 0.97, 0.77, 0.36 |
+L1245: | 2.0 | float64 | 10 | 1.07, 0.77, 0.35 |
+L1246: | 3.0 | float64 | 10 | 1.04, 0.8, 0.36 |
+L1247: | Horse | int64 | 10 | 1, 2, 3 |
+L1248: | 0.0 | float64 | 10 | 0.58, 1.38, 0.71 |
+L1249: | 1.0 | float64 | 10 | 0.67, 1.7, 0.81 |
+L1250: | 2.0 | float64 | 10 | 0.68, 1.7, 0.78 |
+L1251: | 3.0 | float64 | 10 | 0.62, 1.51, 0.69 |
+L1252: | Horse | int64 | 10 | 1, 2, 3 |
+L1253: | 0.0 | float64 | 10 | 0.37, 0.45, 0.63 |
+L1254: | 1.0 | float64 | 10 | 0.39, 0.49, 0.66 |
+L1255: | 2.0 | float64 | 10 | 0.36, 0.47, 0.65 |
+L1256: | 3.0 | float64 | 10 | 0.38, 0.47, 0.64 |
+L1257: | Horse | int64 | 10 | 1, 2, 3 |
+L1258: | 0.0 | float64 | 10 | 1.03, 0.68, 1.2 |
+L1259: | 1.0 | float64 | 10 | 1.16, 0.68, 1.38 |
+L1260: | 2.0 | float64 | 10 | 1.15, 0.74, 1.44 |
+L1261: | 3.0 | float64 | 10 | 1.03, 0.78, 1.36 |
+L1262: ## Sheet: Fe
+L1263: - Tables found: 1
+L1264: ### Table 1: Table_1
+L1265: - **Rows**: 10
+L1266: - **Columns**: 20
+L1267: | Column | Dtype | Non-null | Sample values |
+L1268: |--------|-------|----------|---------------|
+L1269: | Horse | int64 | 10 | 1, 2, 3 |
+L1270: | 0.0 | float64 | 10 | 24.6, 37.3, 15.6 |
+L1271: | 1.0 | float64 | 10 | 28.2, 31.7, 20.3 |
+L1272: | 2.0 | float64 | 10 | 33.0, 34.1, 21.1 |
+L1273: | 3.0 | float64 | 10 | 20.7, 32.7, 19.4 |
+L1274: | Horse | int64 | 10 | 1, 2, 3 |
+L1275: | 0.0 | float64 | 10 | 20.7, 25.3, 21.2 |
+L1276: | 1.0 | float64 | 10 | 34.7, 31.2, 31.1 |
+L1277: | 2.0 | float64 | 10 | 36.7, 32.7, 31.5 |
+L1278: | 3.0 | float64 | 10 | 23.2, 22.5, 23.7 |
+L1279: | Horse | int64 | 10 | 1, 2, 3 |
+L1280: | 0.0 | float64 | 10 | 28.6, 22.3, 29.1 |
+L1281: | 1.0 | float64 | 10 | 30.2, 20.8, 26.5 |
+L1282: | 2.0 | float64 | 10 | 29.1, 21.7, 27.2 |
+L1283: | 3.0 | float64 | 10 | 27.7, 17.2, 22.9 |
+L1284: | Horse | int64 | 10 | 1, 2, 3 |
+L1285: | 0.0 | float64 | 10 | 23.6, 23.8, 16.8 |
+L1286: | 1.0 | float64 | 10 | 24.7, 23.8, 26.2 |
+L1287: | 2.0 | float64 | 10 | 26.4, 31.3, 29.6 |
+L1288: | 3.0 | float64 | 10 | 20.9, 26.1, 27.8 |
+L1289: ## Sheet: TP
+L1290: - Tables found: 1
+L1291: ### Table 1: Table_1
+L1292: - **Rows**: 10
+L1293: - **Columns**: 20
+L1294: | Column | Dtype | Non-null | Sample values |
+L1295: |--------|-------|----------|---------------|
+L1296: | Horse | int64 | 10 | 1, 2, 3 |
+L1297: | 0.0 | float64 | 10 | 63.3, 62.8, 56.8 |
+L1298: | 1.0 | float64 | 10 | 62.4, 64.7, 60.7 |
+L1299: | 2.0 | float64 | 10 | 69.8, 66.2, 59.7 |
+L1300: | 3.0 | float64 | 10 | 65.7, 65.0, 59.7 |
+L1301: | Horse | int64 | 10 | 1, 2, 3 |
+L1302: | 0.0 | float64 | 10 | 67.2, 62.1, 62.1 |
+L1303: | 1.0 | float64 | 10 | 69.2, 68.5, 68.1 |
+L1304: | 2.0 | float64 | 10 | 72.8, 70.2, 70.2 |
+L1305: | 3.0 | float64 | 10 | 66.9, 63.8, 63.1 |
+L1306: | Horse | int64 | 10 | 1, 2, 3 |
+L1307: | 0.0 | float64 | 10 | 57.6, 63.4, 58.5 |
+L1308: | 1.0 | float64 | 10 | 65.6, 63.8, 59.6 |
+L1309: | 2.0 | float64 | 10 | 59.8, 62.7, 59.7 |
+L1310: | 3.0 | float64 | 10 | 62.2, 60.9, 57.7 |
+L1311: | Horse | int64 | 10 | 1, 2, 3 |
+L1312: | 0.0 | float64 | 10 | 62.4, 64.8, 55.7 |
+L1313: | 1.0 | float64 | 10 | 67.3, 64.8, 58.7 |
+L1314: | 2.0 | float64 | 10 | 69.4, 62.4, 62.9 |
+L1315: | 3.0 | float64 | 10 | 60.2, 63.4, 57.9 |
+L1316: ## Sheet: ALB
+L1317: - Tables found: 1
+L1318: ### Table 1: Table_1
+L1319: - **Rows**: 10
+L1320: - **Columns**: 20
+L1321: | Column | Dtype | Non-null | Sample values |
+L1322: |--------|-------|----------|---------------|
+L1323: | Horse | int64 | 10 | 1, 2, 3 |
+L1324: | 0.0 | float64 | 10 | 29.0, 31.0, 28.0 |
+L1325: | 1.0 | float64 | 10 | 29.0, 32.0, 29.0 |
+L1326: | 2.0 | float64 | 10 | 31.0, 33.0, 30.0 |
+L1327: | 3.0 | float64 | 10 | 30.0, 33.0, 30.0 |
+L1328: | Horse | int64 | 10 | 1, 2, 3 |
+L1329: | 0.0 | float64 | 10 | 30.0, 30.0, 27.0 |
+L1330: | 1.0 | float64 | 10 | 31.0, 32.0, 30.0 |
+L1331: | 2.0 | float64 | 10 | 33.0, 33.0, 30.0 |
+L1332: | 3.0 | float64 | 10 | 30.0, 30.0, 27.0 |
+L1333: | Horse | int64 | 10 | 1, 2, 3 |
+L1334: | 0.0 | float64 | 10 | 29.0, 30.0, 31.0 |
+L1335: | 1.0 | float64 | 10 | 34.0, 31.0, 31.0 |
+L1336: | 2.0 | float64 | 10 | 31.0, 31.0, 32.0 |
+L1337: | 3.0 | float64 | 10 | 32.0, 30.0, 30.0 |
+L1338: | Horse | int64 | 10 | 1, 2, 3 |
+L1339: | 0.0 | float64 | 10 | 32.0, 30.0, 27.0 |
+L1340: | 1.0 | float64 | 10 | 30.0, 34.0, 27.0 |
+L1341: | 2.0 | float64 | 10 | 32.0, 34.0, 30.0 |
+L1342: | 3.0 | float64 | 10 | 34.0, 34.0, 28.0 |
+L1343: ## Sheet: LACTATE
+L1344: - Tables found: 1
+L1345: ### Table 1: Table_1
+L1346: - **Rows**: 10
+L1347: - **Columns**: 20
+L1348: | Column | Dtype | Non-null | Sample values |
+L1349: |--------|-------|----------|---------------|
+L1350: | Horse | int64 | 10 | 1, 2, 3 |
+L1351: | 0.0 | float64 | 10 | 0.69, 0.79, 0.53 |
+L1352: | 1.0 | float64 | 10 | 0.6, 0.76, 0.83 |
+L1353: | 2.0 | float64 | 10 | 3.7, 3.46, 0.53 |
+L1354: | 3.0 | float64 | 10 | 0.5, 0.64, 0.84 |
+L1355: | Horse | int64 | 10 | 1, 2, 3 |
+L1356: | 0.0 | float64 | 10 | 0.85, 0.9, 0.83 |
+L1357: | 1.0 | float64 | 10 | 0.43, 0.47, 0.89 |
+L1358: | 2.0 | float64 | 10 | 0.9, 0.51, 2.79 |
+L1359: | 3.0 | float64 | 10 | 0.61, 0.94, 0.96 |
+L1360: | Horse | int64 | 10 | 1, 2, 3 |
+L1361: | 0.0 | float64 | 10 | 0.77, 0.6, 0.71 |
+L1362: | 1.0 | float64 | 10 | 0.81, 1.37, 0.99 |
+L1363: | 2.0 | float64 | 10 | 0.51, 0.92, 0.65 |
+L1364: | 3.0 | float64 | 10 | 1.0, 1.31, 1.39 |
+L1365: | Horse | int64 | 10 | 1, 2, 3 |
+L1366: | 0.0 | float64 | 10 | 0.61, 0.53, 0.61 |
+L1367: | 1.0 | float64 | 10 | 0.57, 0.52, 0.4 |
+L1368: | 2.0 | float64 | 10 | 2.45, 1.73, 0.7 |
+L1369: | 3.0 | float64 | 10 | 0.72, 0.72, 0.66 |
+L1370: ## Sheet: WBC
+L1371: - Tables found: 1
+L1372: ### Table 1: Table_1
+L1373: - **Rows**: 10
+L1374: - **Columns**: 20
+L1375: | Column | Dtype | Non-null | Sample values |
+L1376: |--------|-------|----------|---------------|
+L1377: | Horse | int64 | 10 | 1, 2, 3 |
+L1378: | 0.0 | float64 | 10 | 7.28, 7.55, 6.68 |
+L1379: | 1.0 | float64 | 10 | 7.56, 9.69, 8.05 |
+L1380: | 2.0 | float64 | 10 | 8.88, 9.66, 8.36 |
+L1381: | 3.0 | float64 | 10 | 7.75, 8.63, 7.4 |
+L1382: | Horse | int64 | 10 | 1, 2, 3 |
+L1383: | 0.0 | float64 | 10 | 9.13, 6.05, 7.51 |
+L1384: | 1.0 | float64 | 10 | 9.05, 6.64, 9.21 |
+L1385: | 2.0 | float64 | 10 | 10.48, 6.72, 9.86 |
+L1386: | 3.0 | float64 | 10 | 9.07, 6.11, 7.73 |
+L1387: | Horse | int64 | 10 | 1, 2, 3 |
+L1388: | 0.0 | float64 | 10 | 6.76, 5.49, 5.18 |
+L1389: | 1.0 | float64 | 10 | 6.7, 5.44, 5.68 |
+L1390: | 2.0 | float64 | 10 | 8.05, 6.04, 6.46 |
+L1391: | 3.0 | float64 | 10 | 6.04, 5.07, 5.24 |
+L1392: | Horse | int64 | 10 | 1, 2, 3 |
+L1393: | 0.0 | float64 | 10 | 7.21, 7.55, 6.34 |
+L1394: | 1.0 | float64 | 10 | 7.93, 8.38, 7.34 |
+L1395: | 2.0 | float64 | 10 | 9.18, 8.16, 8.42 |
+L1396: | 3.0 | float64 | 10 | 7.2, 8.4, 6.45 |
+L1397: ## Sheet: RBC
+L1398: - Tables found: 1
+L1399: ### Table 1: Table_1
+L1400: - **Rows**: 10
+L1401: - **Columns**: 20
+L1402: | Column | Dtype | Non-null | Sample values |
+L1403: |--------|-------|----------|---------------|
+L1404: | Horse | int64 | 10 | 1, 2, 3 |
+L1405: | 0.0 | float64 | 10 | 8.52, 8.03, 6.72 |
+L1406: | 1.0 | float64 | 10 | 8.5, 9.04, 8.35 |
+L1407: | 2.0 | float64 | 10 | 11.01, 10.09, 8.54 |
+L1408: | 3.0 | float64 | 10 | 8.92, 8.85, 7.98 |
+L1409: | Horse | int64 | 10 | 1, 2, 3 |
+L1410: | 0.0 | float64 | 10 | 7.84, 6.59, 7.33 |
+L1411: | 1.0 | float64 | 10 | 7.78, 7.3, 8.73 |
+L1412: | 2.0 | float64 | 10 | 9.49, 7.98, 9.06 |
+L1413: | 3.0 | float64 | 10 | 7.57, 6.5, 7.58 |
+L1414: | Horse | int64 | 10 | 1, 2, 3 |
+L1415: | 0.0 | float64 | 10 | 7.04, 7.71, 7.43 |
+L1416: | 1.0 | float64 | 10 | 7.74, 7.72, 8.15 |
+L1417: | 2.0 | float64 | 10 | 8.24, 8.84, 8.59 |
+L1418: | 3.0 | float64 | 10 | 7.72, 7.33, 7.73 |
+L1419: | Horse | int64 | 10 | 1, 2, 3 |
+L1420: | 0.0 | float64 | 10 | 8.52, 8.72, 6.47 |
+L1421: | 1.0 | float64 | 10 | 10.31, 9.35, 7.47 |
+L1422: | 2.0 | float64 | 10 | 11.58, 9.16, 9.01 |
+L1423: | 3.0 | float64 | 10 | 8.87, 9.94, 7.05 |
+L1424: ## Sheet: Hct
+L1425: - Tables found: 1
+L1426: ### Table 1: Table_1
+L1427: - **Rows**: 10
+L1428: - **Columns**: 20
+L1429: | Column | Dtype | Non-null | Sample values |
+L1430: |--------|-------|----------|---------------|
+L1431: | Horse | int64 | 10 | 1, 2, 3 |
+L1432: | 0.0 | float64 | 10 | 0.37, 0.36, 0.28 |
+L1433: | 1.0 | float64 | 10 | 0.36, 0.41, 0.35 |
+L1434: | 2.0 | float64 | 10 | 0.48, 0.46, 0.36 |
+L1435: | 3.0 | float64 | 10 | 0.38, 0.4, 0.34 |
+L1436: | Horse | int64 | 10 | 1, 2, 3 |
+L1437: | 0.0 | float64 | 10 | 0.32, 0.31, 0.35 |
+L1438: | 1.0 | float64 | 10 | 0.32, 0.34, 0.42 |
+L1439: | 2.0 | float64 | 10 | 0.4, 0.37, 0.43 |
+L1440: | 3.0 | float64 | 10 | 0.31, 0.3, 0.35 |
+L1441: | Horse | int64 | 10 | 1, 2, 3 |
+L1442: | 0.0 | float64 | 10 | 0.34, 0.34, 0.37 |
+L1443: | 1.0 | float64 | 10 | 0.38, 0.34, 0.36 |
+L1444: | 2.0 | float64 | 10 | 0.4, 0.39, 0.38 |
+L1445: | 3.0 | float64 | 10 | 0.38, 0.33, 0.34 |
+L1446: | Horse | int64 | 10 | 1, 2, 3 |
+L1447: | 0.0 | float64 | 10 | 0.37, 0.4, 0.3 |
+L1448: | 1.0 | float64 | 10 | 0.44, 0.42, 0.35 |
+L1449: | 2.0 | float64 | 10 | 0.5, 0.41, 0.43 |
+L1450: | 3.0 | float64 | 10 | 0.38, 0.45, 0.33 |
+L1451: ## Sheet: MCV
+L1452: - Tables found: 1
+L1453: ### Table 1: Table_1
+L1454: - **Rows**: 10
+L1455: - **Columns**: 20
+L1456: | Column | Dtype | Non-null | Sample values |
+L1457: |--------|-------|----------|---------------|
+L1458: | Horse | int64 | 10 | 1, 2, 3 |
+L1459: | 0.0 | float64 | 10 | 43.4, 45.3, 41.5 |
+L1460: | 1.0 | float64 | 10 | 42.6, 45.2, 42.1 |
+L1461: | 2.0 | float64 | 10 | 43.5, 45.5, 41.8 |
+L1462: | 3.0 | float64 | 10 | 42.7, 45.1, 42.8 |
+L1463: | Horse | int64 | 10 | 1, 2, 3 |
+L1464: | 0.0 | float64 | 10 | 41.4, 46.7, 47.6 |
+L1465: | 1.0 | float64 | 10 | 41.6, 46.5, 47.8 |
+L1466: | 2.0 | float64 | 10 | 42.2, 46.8, 47.8 |
+L1467: | 3.0 | float64 | 10 | 41.4, 46.1, 46.4 |
+L1468: | Horse | int64 | 10 | 1, 2, 3 |
+L1469: | 0.0 | float64 | 10 | 47.8, 44.1, 43.4 |
+L1470: | 1.0 | float64 | 10 | 49.2, 44.5, 44.4 |
+L1471: | 2.0 | float64 | 10 | 48.3, 44.5, 44.1 |
+L1472: | 3.0 | float64 | 10 | 48.8, 45.0, 43.9 |
+L1473: | Horse | int64 | 10 | 1, 2, 3 |
+L1474: | 0.0 | float64 | 10 | 43.2, 46.4, 46.0 |
+L1475: | 1.0 | float64 | 10 | 42.8, 45.2, 47.4 |
+L1476: | 2.0 | float64 | 10 | 43.1, 45.2, 47.5 |
+L1477: | 3.0 | float64 | 10 | 43.0, 45.6, 46.6 |
+L1478: ## Sheet: MCH
+L1479: - Tables found: 1
+L1480: ### Table 1: Table_1
+L1481: - **Rows**: 10
+L1482: - **Columns**: 20
+L1483: | Column | Dtype | Non-null | Sample values |
+L1484: |--------|-------|----------|---------------|
+L1485: | Horse | int64 | 10 | 1, 2, 3 |
+L1486: | 0.0 | float64 | 10 | 16.8, 17.8, 16.0 |
+L1487: | 1.0 | float64 | 10 | 16.0, 17.2, 16.0 |
+L1488: | 2.0 | float64 | 10 | 15.8, 16.9, 16.2 |
+L1489: | 3.0 | float64 | 10 | 16.0, 16.9, 16.2 |
+L1490: | Horse | int64 | 10 | 1, 2, 3 |
+L1491: | 0.0 | float64 | 10 | 15.3, 17.7, 17.6 |
+L1492: | 1.0 | float64 | 10 | 15.6, 17.8, 17.7 |
+L1493: | 2.0 | float64 | 10 | 15.4, 17.8, 17.6 |
+L1494: | 3.0 | float64 | 10 | 15.9, 18.0, 17.7 |
+L1495: | Horse | int64 | 10 | 1, 2, 3 |
+L1496: | 0.0 | float64 | 10 | 17.6, 17.1, 16.8 |
+L1497: | 1.0 | float64 | 10 | 17.9, 16.6, 16.7 |
+L1498: | 2.0 | float64 | 10 | 17.3, 16.4, 16.8 |
+L1499: | 3.0 | float64 | 10 | 17.5, 16.6, 16.4 |
+L1500: | Horse | int64 | 10 | 1, 2, 3 |
+L1501: | 0.0 | float64 | 10 | 16.3, 17.3, 17.8 |
+L1502: | 1.0 | float64 | 10 | 15.9, 16.8, 17.9 |
+L1503: | 2.0 | float64 | 10 | 15.6, 17.0, 17.6 |
+L1504: | 3.0 | float64 | 10 | 16.1, 16.9, 18.0 |
+L1505: ## Sheet: MCHC
+L1506: - Tables found: 1
+L1507: ### Table 1: Table_1
+L1508: - **Rows**: 10
+L1509: - **Columns**: 20
+L1510: | Column | Dtype | Non-null | Sample values |
+L1511: |--------|-------|----------|---------------|
+L1512: | Horse | int64 | 10 | 1, 2, 3 |
+L1513: | 0.0 | float64 | 10 | 387.0, 392.0, 385.0 |
+L1514: | 1.0 | float64 | 10 | 376.0, 381.0, 380.0 |
+L1515: | 2.0 | float64 | 10 | 364.0, 371.0, 387.0 |
+L1516: | 3.0 | float64 | 10 | 376.0, 376.0, 379.0 |
+L1517: | Horse | int64 | 10 | 1, 2, 3 |
+L1518: | 0.0 | float64 | 10 | 369.0, 379.0, 370.0 |
+L1519: | 1.0 | float64 | 10 | 375.0, 382.0, 370.0 |
+L1520: | 2.0 | float64 | 10 | 366.0, 380.0, 368.0 |
+L1521: | 3.0 | float64 | 10 | 383.0, 390.0, 381.0 |
+L1522: | Horse | int64 | 10 | 1, 2, 3 |
+L1523: | 0.0 | float64 | 10 | 367.0, 389.0, 387.0 |
+L1524: | 1.0 | float64 | 10 | 365.0, 372.0, 375.0 |
+L1525: | 2.0 | float64 | 10 | 358.0, 369.0, 380.0 |
+L1526: | 3.0 | float64 | 10 | 359.0, 370.0, 374.0 |
+L1527: | Horse | int64 | 10 | 1, 2, 3 |
+L1528: | 0.0 | float64 | 10 | 376.0, 374.0, 388.0 |
+L1529: | 1.0 | float64 | 10 | 371.0, 372.0, 377.0 |
+L1530: | 2.0 | float64 | 10 | 363.0, 376.0, 371.0 |
+L1531: | 3.0 | float64 | 10 | 375.0, 371.0, 387.0 |
+L1532: ## Sheet: CHCM
+L1533: - Tables found: 1
+L1534: ### Table 1: Table_1
+L1535: - **Rows**: 10
+L1536: - **Columns**: 20
+L1537: | Column | Dtype | Non-null | Sample values |
+L1538: |--------|-------|----------|---------------|
+L1539: | Horse | int64 | 10 | 1, 2, 3 |
+L1540: | 0.0 | float64 | 10 | 385.0, 391.0, 392.0 |
+L1541: | 1.0 | float64 | 10 | 375.0, 377.0, 381.0 |
+L1542: | 2.0 | float64 | 10 | 364.0, 376.0, 384.0 |
+L1543: | 3.0 | float64 | 10 | 375.0, 380.0, 376.0 |
+L1544: | Horse | int64 | 10 | 1, 2, 3 |
+L1545: | 0.0 | float64 | 10 | 372.0, 375.0, 370.0 |
+L1546: | 1.0 | float64 | 10 | 371.0, 378.0, 370.0 |
+L1547: | 2.0 | float64 | 10 | 371.0, 378.0, 371.0 |
+L1548: | 3.0 | float64 | 10 | 376.0, 385.0, 380.0 |
+L1549: | Horse | int64 | 10 | 1, 2, 3 |
+L1550: | 0.0 | float64 | 10 | 378.0, 393.0, 389.0 |
+L1551: | 1.0 | float64 | 10 | 355.0, 374.0, 367.0 |
+L1552: | 2.0 | float64 | 10 | 362.0, 377.0, 375.0 |
+L1553: | 3.0 | float64 | 10 | 359.0, 372.0, 372.0 |
+L1554: | Horse | int64 | 10 | 1, 2, 3 |
+L1555: | 0.0 | float64 | 10 | 373.0, 375.0, 396.0 |
+L1556: | 1.0 | float64 | 10 | 371.0, 374.0, 372.0 |
+L1557: | 2.0 | float64 | 10 | 368.0, 373.0, 371.0 |
+L1558: | 3.0 | float64 | 10 | 369.0, 372.0, 380.0 |
+L1559: ## Sheet: CH
+L1560: - Tables found: 1
+L1561: ### Table 1: Table_1
+L1562: - **Rows**: 10
+L1563: - **Columns**: 20
+L1564: | Column | Dtype | Non-null | Sample values |
+L1565: |--------|-------|----------|---------------|
+L1566: | Horse | int64 | 10 | 1, 2, 3 |
+L1567: | 0.0 | float64 | 10 | 16.7, 17.8, 16.2 |
+L1568: | 1.0 | float64 | 10 | 16.0, 17.0, 16.0 |
+L1569: | 2.0 | float64 | 10 | 16.1, 17.1, 16.1 |
+L1570: | 3.0 | float64 | 10 | 16.0, 17.2, 16.1 |
+L1571: | Horse | int64 | 10 | 1, 2, 3 |
+L1572: | 0.0 | float64 | 10 | 15.4, 17.5, 17.6 |
+L1573: | 1.0 | float64 | 10 | 15.4, 17.6, 17.7 |
+L1574: | 2.0 | float64 | 10 | 15.7, 17.7, 17.7 |
+L1575: | 3.0 | float64 | 10 | 15.6, 17.8, 17.3 |
+L1576: | Horse | int64 | 10 | 1, 2, 3 |
+L1577: | 0.0 | float64 | 10 | 18.1, 17.4, 16.9 |
+L1578: | 1.0 | float64 | 10 | 17.4, 16.7, 16.3 |
+L1579: | 2.0 | float64 | 10 | 17.5, 16.8, 16.6 |
+L1580: | 3.0 | float64 | 10 | 17.5, 16.7, 16.4 |
+L1581: | Horse | int64 | 10 | 1, 2, 3 |
+L1582: | 0.0 | float64 | 10 | 16.1, 17.4, 18.2 |
+L1583: | 1.0 | float64 | 10 | 15.9, 17.0, 17.6 |
+L1584: | 2.0 | float64 | 10 | 15.9, 16.9, 17.6 |
+L1585: | 3.0 | float64 | 10 | 15.9, 17.0, 17.8 |
+L1586: ## Sheet: RDW
+L1587: - Tables found: 1
+L1588: ### Table 1: Table_1
+L1589: - **Rows**: 10
+L1590: - **Columns**: 20
+L1591: | Column | Dtype | Non-null | Sample values |
+L1592: |--------|-------|----------|---------------|
+L1593: | Horse | int64 | 10 | 1, 2, 3 |
+L1594: | 0.0 | float64 | 10 | 17.6, 16.6, 18.0 |
+L1595: | 1.0 | float64 | 10 | 17.7, 17.0, 17.8 |
+L1596: | 2.0 | float64 | 10 | 17.8, 17.1, 17.7 |
+L1597: | 3.0 | float64 | 10 | 17.5, 17.0, 17.9 |
+L1598: | Horse | int64 | 10 | 1, 2, 3 |
+L1599: | 0.0 | float64 | 10 | 17.6, 18.4, 18.0 |
+L1600: | 1.0 | float64 | 10 | 17.2, 18.4, 18.0 |
+L1601: | 2.0 | float64 | 10 | 17.5, 18.5, 18.0 |
+L1602: | 3.0 | float64 | 10 | 17.4, 18.4, 17.3 |
+L1603: | Horse | int64 | 10 | 1, 2, 3 |
+L1604: | 0.0 | float64 | 10 | 17.2, 16.8, 17.4 |
+L1605: | 1.0 | float64 | 10 | 17.7, 17.1, 17.6 |
+L1606: | 2.0 | float64 | 10 | 17.5, 17.1, 17.7 |
+L1607: | 3.0 | float64 | 10 | 17.6, 17.4, 17.6 |
+L1608: | Horse | int64 | 10 | 1, 2, 3 |
+L1609: | 0.0 | float64 | 10 | 18.0, 17.6, 18.7 |
+L1610: | 1.0 | float64 | 10 | 17.7, 16.5, 18.6 |
+L1611: | 2.0 | float64 | 10 | 17.7, 16.4, 18.6 |
+L1612: | 3.0 | float64 | 10 | 17.7, 16.5, 18.5 |
+L1613: ## Sheet: HDW
+L1614: - Tables found: 1
+L1615: ### Table 1: Table_1
+L1616: - **Rows**: 10
+L1617: - **Columns**: 20
+L1618: | Column | Dtype | Non-null | Sample values |
+L1619: |--------|-------|----------|---------------|
+L1620: | Horse | int64 | 10 | 1, 2, 3 |
+L1621: | 0.0 | float64 | 10 | 28.6, 27.0, 29.9 |
+L1622: | 1.0 | float64 | 10 | 27.5, 26.0, 30.4 |
+L1623: | 2.0 | float64 | 10 | 27.4, 25.6, 31.2 |
+L1624: | 3.0 | float64 | 10 | 26.0, 24.4, 30.3 |
+L1625: | Horse | int64 | 10 | 1, 2, 3 |
+L1626: | 0.0 | float64 | 10 | 25.0, 27.3, 25.6 |
+L1627: | 1.0 | float64 | 10 | 25.1, 28.4, 27.4 |
+L1628: | 2.0 | float64 | 10 | 25.8, 28.2, 26.9 |
+L1629: | 3.0 | float64 | 10 | 25.4, 26.8, 25.0 |
+L1630: | Horse | int64 | 10 | 1, 2, 3 |
+L1631: | 0.0 | float64 | 10 | 26.9, 27.9, 27.6 |
+L1632: | 1.0 | float64 | 10 | 26.0, 26.2, 25.4 |
+L1633: | 2.0 | float64 | 10 | 27.1, 26.6, 26.0 |
+L1634: | 3.0 | float64 | 10 | 25.2, 25.1, 24.8 |
+L1635: | Horse | int64 | 10 | 1, 2, 3 |
+L1636: | 0.0 | float64 | 10 | 26.9, 24.4, 26.1 |
+L1637: | 1.0 | float64 | 10 | 27.2, 25.5, 29.3 |
+L1638: | 2.0 | float64 | 10 | 27.3, 25.2, 29.2 |
+L1639: | 3.0 | float64 | 10 | 27.7, 25.2, 27.3 |
+L1640: ## Sheet: PLT
+L1641: - Tables found: 1
+L1642: ### Table 1: Table_1
+L1643: - **Rows**: 10
+L1644: - **Columns**: 20
+L1645: | Column | Dtype | Non-null | Sample values |
+L1646: |--------|-------|----------|---------------|
+L1647: | Horse | int64 | 10 | 1, 2, 3 |
+L1648: | 0.0 | float64 | 10 | 132.0, 165.0, 225.0 |
+L1649: | 1.0 | float64 | 10 | 104.0, 153.0, 187.0 |
+L1650: | 2.0 | float64 | 10 | 129.0, 196.0, 190.0 |
+L1651: | 3.0 | float64 | 10 | 151.0, 179.0, 196.0 |
+L1652: | Horse | int64 | 10 | 1, 2, 3 |
+L1653: | 0.0 | float64 | 10 | 213.0, 168.0, 161.0 |
+L1654: | 1.0 | float64 | 10 | 214.0, 138.0, 173.0 |
+L1655: | 2.0 | float64 | 10 | 223.0, 158.0, 153.0 |
+L1656: | 3.0 | float64 | 10 | 162.0, 162.0, 127.0 |
+L1657: | Horse | int64 | 10 | 1, 2, 3 |
+L1658: | 0.0 | float64 | 10 | 126.0, 180.0, 165.0 |
+L1659: | 1.0 | float64 | 10 | 115.0, 172.0, 180.0 |
+L1660: | 2.0 | float64 | 10 | 133.0, 192.0, 174.0 |
+L1661: | 3.0 | float64 | 10 | 119.0, 186.0, 170.0 |
+L1662: | Horse | int64 | 10 | 1, 2, 3 |
+L1663: | 0.0 | float64 | 10 | 152.0, 191.0, 141.0 |
+L1664: | 1.0 | float64 | 10 | 125.0, 165.0, 160.0 |
+L1665: | 2.0 | float64 | 10 | 140.0, 205.0, 177.0 |
+L1666: | 3.0 | float64 | 10 | 132.0, 200.0, 162.0 |
+L1667: ## Sheet: MPV
+L1668: - Tables found: 1
+L1669: ### Table 1: Table_1
+L1670: - **Rows**: 10
+L1671: - **Columns**: 20
+L1672: | Column | Dtype | Non-null | Sample values |
+L1673: |--------|-------|----------|---------------|
+L1674: | Horse | int64 | 10 | 1, 2, 3 |
+L1675: | 0.0 | float64 | 10 | 8.0, 7.3, 7.7 |
+L1676: | 1.0 | float64 | 10 | 6.4, 6.4, 6.0 |
+L1677: | 2.0 | float64 | 10 | 7.2, 6.8, 5.8 |
+L1678: | 3.0 | float64 | 10 | 9.6, 9.6, 6.6 |
+L1679: | Horse | int64 | 10 | 1, 2, 3 |
+L1680: | 0.0 | float64 | 10 | 7.1, 8.5, 7.5 |
+L1681: | 1.0 | float64 | 10 | 6.7, 5.6, 6.2 |
+L1682: | 2.0 | float64 | 10 | 7.0, 6.4, 6.8 |
+L1683: | 3.0 | float64 | 10 | 6.3, 9.3, 6.5 |
+L1684: | Horse | int64 | 10 | 1, 2, 3 |
+L1685: | 0.0 | float64 | 10 | 7.0, 6.4, 7.5 |
+L1686: | 1.0 | float64 | 10 | 6.4, 6.0, 7.0 |
+L1687: | 2.0 | float64 | 10 | 6.4, 6.5, 7.3 |
+L1688: | 3.0 | float64 | 10 | 6.4, 6.3, 7.4 |
+L1689: | Horse | int64 | 10 | 1, 2, 3 |
+L1690: | 0.0 | float64 | 10 | 6.8, 6.8, 7.0 |
+L1691: | 1.0 | float64 | 10 | 6.0, 6.1, 6.7 |
+L1692: | 2.0 | float64 | 10 | 5.9, 6.6, 6.9 |
+L1693: | 3.0 | float64 | 10 | 7.0, 7.5, 6.3 |
+L1694: ## Sheet: %NEUT
+L1695: - Tables found: 1
+L1696: ### Table 1: Table_1
+L1697: - **Rows**: 10
+L1698: - **Columns**: 20
+L1699: | Column | Dtype | Non-null | Sample values |
+L1700: |--------|-------|----------|---------------|
+L1701: | Horse | int64 | 10 | 1, 2, 3 |
+L1702: | 0.0 | float64 | 10 | 66.0, 53.0, 52.2 |
+L1703: | 1.0 | float64 | 10 | 62.2, 64.4, 49.0 |
+L1704: | 2.0 | float64 | 10 | 58.1, 61.8, 48.8 |
+L1705: | 3.0 | float64 | 10 | 67.3, 55.6, 50.1 |
+L1706: | Horse | int64 | 10 | 1, 2, 3 |
+L1707: | 0.0 | float64 | 10 | 42.7, 48.6, 44.9 |
+L1708: | 1.0 | float64 | 10 | 44.5, 51.2, 48.3 |
+L1709: | 2.0 | float64 | 10 | 44.3, 50.8, 46.9 |
+L1710: | 3.0 | float64 | 10 | 42.3, 49.5, 45.0 |
+L1711: | Horse | int64 | 10 | 1, 2, 3 |
+L1712: | 0.0 | float64 | 10 | 64.8, 57.1, 57.1 |
+L1713: | 1.0 | float64 | 10 | 60.1, 59.2, 60.2 |
+L1714: | 2.0 | float64 | 10 | 56.1, 56.1, 53.2 |
+L1715: | 3.0 | float64 | 10 | 60.3, 61.0, 58.1 |
+L1716: | Horse | int64 | 10 | 1, 2, 3 |
+L1717: | 0.0 | float64 | 10 | 62.0, 51.7, 50.4 |
+L1718: | 1.0 | float64 | 10 | 63.7, 50.4, 47.7 |
+L1719: | 2.0 | float64 | 10 | 58.1, 49.5, 47.8 |
+L1720: | 3.0 | float64 | 10 | 63.9, 53.2, 46.5 |
+L1721: ## Sheet: %LYMPH
+L1722: - Tables found: 1
+L1723: ### Table 1: Table_1
+L1724: - **Rows**: 10
+L1725: - **Columns**: 20
+L1726: | Column | Dtype | Non-null | Sample values |
+L1727: |--------|-------|----------|---------------|
+L1728: | Horse | int64 | 10 | 1, 2, 3 |
+L1729: | 0.0 | float64 | 10 | 28.2, 41.0, 36.0 |
+L1730: | 1.0 | float64 | 10 | 30.9, 30.1, 42.1 |
+L1731: | 2.0 | float64 | 10 | 37.1, 32.9, 44.1 |
+L1732: | 3.0 | float64 | 10 | 27.5, 39.5, 41.1 |
+L1733: | Horse | int64 | 10 | 1, 2, 3 |
+L1734: | 0.0 | float64 | 10 | 40.1, 33.8, 38.8 |
+L1735: | 1.0 | float64 | 10 | 41.2, 33.5, 42.4 |
+L1736: | 2.0 | float64 | 10 | 42.7, 31.2, 41.4 |
+L1737: | 3.0 | float64 | 10 | 44.3, 34.8, 41.8 |
+L1738: | Horse | int64 | 10 | 1, 2, 3 |
+L1739: | 0.0 | float64 | 10 | 27.4, 33.7, 33.5 |
+L1740: | 1.0 | float64 | 10 | 28.1, 34.7, 27.6 |
+L1741: | 2.0 | float64 | 10 | 37.7, 39.4, 36.5 |
+L1742: | 3.0 | float64 | 10 | 29.4, 30.3, 30.2 |
+L1743: | Horse | int64 | 10 | 1, 2, 3 |
+L1744: | 0.0 | float64 | 10 | 28.8, 38.6, 37.1 |
+L1745: | 1.0 | float64 | 10 | 29.5, 43.3, 43.9 |
+L1746: | 2.0 | float64 | 10 | 36.4, 44.4, 45.2 |
+L1747: | 3.0 | float64 | 10 | 30.1, 40.8, 42.8 |
+L1748: ## Sheet: %MONO
+L1749: - Tables found: 1
+L1750: ### Table 1: Table_1
+L1751: - **Rows**: 10
+L1752: - **Columns**: 20
+L1753: | Column | Dtype | Non-null | Sample values |
+L1754: |--------|-------|----------|---------------|
+L1755: | Horse | int64 | 10 | 1, 2, 3 |
+L1756: | 0.0 | float64 | 10 | 3.4, 3.5, 5.0 |
+L1757: | 1.0 | float64 | 10 | 4.3, 4.0, 4.0 |
+L1758: | 2.0 | float64 | 10 | 2.8, 3.6, 3.1 |
+L1759: | 3.0 | float64 | 10 | 3.2, 3.2, 4.4 |
+L1760: | Horse | int64 | 10 | 1, 2, 3 |
+L1761: | 0.0 | float64 | 10 | 4.9, 5.4, 7.0 |
+L1762: | 1.0 | float64 | 10 | 4.5, 4.7, 5.5 |
+L1763: | 2.0 | float64 | 10 | 4.1, 4.6, 4.2 |
+L1764: | 3.0 | float64 | 10 | 4.8, 6.0, 6.7 |
+L1765: | Horse | int64 | 10 | 1, 2, 3 |
+L1766: | 0.0 | float64 | 10 | 4.0, 5.9, 5.2 |
+L1767: | 1.0 | float64 | 10 | 3.8, 3.8, 5.0 |
+L1768: | 2.0 | float64 | 10 | 3.5, 2.8, 4.2 |
+L1769: | 3.0 | float64 | 10 | 4.6, 4.5, 5.1 |
+L1770: | Horse | int64 | 10 | 1, 2, 3 |
+L1771: | 0.0 | float64 | 10 | 3.5, 4.2, 8.5 |
+L1772: | 1.0 | float64 | 10 | 3.5, 4.4, 5.2 |
+L1773: | 2.0 | float64 | 10 | 3.2, 4.3, 4.5 |
+L1774: | 3.0 | float64 | 10 | 3.5, 4.3, 6.7 |
+L1775: ## Sheet: %EOS
+L1776: - Tables found: 1
+L1777: ### Table 1: Table_1
+L1778: - **Rows**: 10
+L1779: - **Columns**: 20
+L1780: | Column | Dtype | Non-null | Sample values |
+L1781: |--------|-------|----------|---------------|
+L1782: | Horse | int64 | 10 | 1, 2, 3 |
+L1783: | 0.0 | float64 | 10 | 1.8, 1.8, 1.6 |
+L1784: | 1.0 | float64 | 10 | 1.8, 1.1, 3.6 |
+L1785: | 2.0 | float64 | 10 | 1.3, 1.1, 2.7 |
+L1786: | 3.0 | float64 | 10 | 1.4, 1.4, 3.9 |
+L1787: | Horse | int64 | 10 | 1, 2, 3 |
+L1788: | 0.0 | float64 | 10 | 8.9, 7.6, 5.4 |
+L1789: | 1.0 | float64 | 10 | 6.9, 9.7, 3.4 |
+L1790: | 2.0 | float64 | 10 | 6.0, 8.8, 2.8 |
+L1791: | 3.0 | float64 | 10 | 7.1, 8.3, 5.1 |
+L1792: | Horse | int64 | 10 | 1, 2, 3 |
+L1793: | 0.0 | float64 | 10 | 3.4, 2.6, 3.6 |
+L1794: | 1.0 | float64 | 10 | 2.9, 2.2, 2.8 |
+L1795: | 2.0 | float64 | 10 | 2.3, 1.4, 2.6 |
+L1796: | 3.0 | float64 | 10 | 2.9, 1.6, 2.4 |
+L1797: | Horse | int64 | 10 | 1, 2, 3 |
+L1798: | 0.0 | float64 | 10 | 1.9, 1.4, 2.9 |
+L1799: | 1.0 | float64 | 10 | 2.4, 1.2, 2.6 |
+L1800: | 2.0 | float64 | 10 | 1.0, 1.1, 1.9 |
+L1801: | 3.0 | float64 | 10 | 1.8, 1.1, 2.8 |
+L1802: ## Sheet: %BASO
+L1803: - Tables found: 1
+L1804: ### Table 1: Table_1
+L1805: - **Rows**: 10
+L1806: - **Columns**: 20
+L1807: | Column | Dtype | Non-null | Sample values |
+L1808: |--------|-------|----------|---------------|
+L1809: | Horse | int64 | 10 | 1, 2, 3 |
+L1810: | 0.0 | float64 | 10 | 0.2, 0.1, 4.6 |
+L1811: | 1.0 | float64 | 10 | 0.3, 0.1, 0.6 |
+L1812: | 2.0 | float64 | 10 | 0.2, 0.1, 0.5 |
+L1813: | 3.0 | float64 | 10 | 0.2, 0.1, 6.4 |
+L1814: | Horse | int64 | 10 | 1, 2, 3 |
+L1815: | 0.0 | float64 | 10 | 2.8, 3.9, 3.5 |
+L1816: | 1.0 | float64 | 10 | 1.9, 5.2, 8.1 |
+L1817: | 2.0 | float64 | 10 | 1.9, 3.8, 4.0 |
+L1818: | 3.0 | float64 | 10 | 0.6, 0.7, 0.9 |
+L1819: | Horse | int64 | 10 | 1, 2, 3 |
+L1820: | 0.0 | float64 | 10 | 0.1, 0.2, 0.0 |
+L1821: | 1.0 | float64 | 10 | 4.7, 4.9, 3.8 |
+L1822: | 2.0 | float64 | 10 | 6.8, 5.0, 2.8 |
+L1823: | 3.0 | float64 | 10 | 2.3, 2.1, 3.6 |
+L1824: | Horse | int64 | 10 | 1, 2, 3 |
+L1825: | 0.0 | float64 | 10 | 3.2, 3.3, 0.5 |
+L1826: | 1.0 | float64 | 10 | 0.7, 0.3, 8.7 |
+L1827: | 2.0 | float64 | 10 | 1.0, 0.3, 6.2 |
+L1828: | 3.0 | float64 | 10 | 0.5, 0.4, 0.6 |
+L1829: ## Sheet: %LUC
+L1830: - Tables found: 1
+L1831: ### Table 1: Table_1
+L1832: - **Rows**: 10
+L1833: - **Columns**: 20
+L1834: | Column | Dtype | Non-null | Sample values |
+L1835: |--------|-------|----------|---------------|
+L1836: | Horse | int64 | 10 | 1, 2, 3 |
+L1837: | 0.0 | float64 | 10 | 0.5, 0.5, 0.5 |
+L1838: | 1.0 | float64 | 10 | 0.4, 0.2, 0.7 |
+L1839: | 2.0 | float64 | 10 | 0.5, 0.4, 0.7 |
+L1840: | 3.0 | float64 | 10 | 0.4, 0.3, 0.6 |
+L1841: | Horse | int64 | 10 | 1, 2, 3 |
+L1842: | 0.0 | float64 | 10 | 0.6, 0.7, 0.4 |
+L1843: | 1.0 | float64 | 10 | 1.0, 0.9, 0.5 |
+L1844: | 2.0 | float64 | 10 | 1.0, 0.7, 0.7 |
+L1845: | 3.0 | float64 | 10 | 0.9, 0.7, 0.5 |
+L1846: | Horse | int64 | 10 | 1, 2, 3 |
+L1847: | 0.0 | float64 | 10 | 0.4, 0.5, 0.5 |
+L1848: | 1.0 | float64 | 10 | 0.3, 0.1, 0.6 |
+L1849: | 2.0 | float64 | 10 | 0.3, 0.3, 0.6 |
+L1850: | 3.0 | float64 | 10 | 0.4, 0.4, 0.6 |
+L1851: | Horse | int64 | 10 | 1, 2, 3 |
+L1852: | 0.0 | float64 | 10 | 0.5, 0.7, 0.6 |
+L1853: | 1.0 | float64 | 10 | 0.3, 0.4, 0.7 |
+L1854: | 2.0 | float64 | 10 | 0.3, 0.3, 0.6 |
+L1855: | 3.0 | float64 | 10 | 0.5, 0.3, 0.6 |
+L1856: ## Sheet: NEUT
+L1857: - Tables found: 1
+L1858: ### Table 1: Table_1
+L1859: - **Rows**: 10
+L1860: - **Columns**: 20
+L1861: | Column | Dtype | Non-null | Sample values |
+L1862: |--------|-------|----------|---------------|
+L1863: | Horse | int64 | 10 | 1, 2, 3 |
+L1864: | 0.0 | float64 | 10 | 4.81, 4.0, 3.49 |
+L1865: | 1.0 | float64 | 10 | 4.71, 6.25, 3.94 |
+L1866: | 2.0 | float64 | 10 | 5.16, 5.97, 4.08 |
+L1867: | 3.0 | float64 | 10 | 5.21, 4.8, 3.71 |
+L1868: | Horse | int64 | 10 | 1, 2, 3 |
+L1869: | 0.0 | float64 | 10 | 3.9, 2.94, 3.37 |
+L1870: | 1.0 | float64 | 10 | 4.03, 3.4, 4.45 |
+L1871: | 2.0 | float64 | 10 | 4.65, 3.42, 4.63 |
+L1872: | 3.0 | float64 | 10 | 3.84, 3.02, 3.47 |
+L1873: | Horse | int64 | 10 | 1, 2, 3 |
+L1874: | 0.0 | float64 | 10 | 4.39, 3.13, 2.96 |
+L1875: | 1.0 | float64 | 10 | 4.03, 3.22, 3.42 |
+L1876: | 2.0 | float64 | 10 | 4.52, 3.39, 3.44 |
+L1877: | 3.0 | float64 | 10 | 3.64, 3.09, 3.04 |
+L1878: | Horse | int64 | 10 | 1, 2, 3 |
+L1879: | 0.0 | float64 | 10 | 4.47, 3.91, 3.2 |
+L1880: | 1.0 | float64 | 10 | 5.05, 4.23, 3.5 |
+L1881: | 2.0 | float64 | 10 | 5.34, 4.04, 4.03 |
+L1882: | 3.0 | float64 | 10 | 4.6, 4.47, 3.0 |
+L1883: ## Sheet: LYMPH
+L1884: - Tables found: 1
+L1885: ### Table 1: Table_1
+L1886: - **Rows**: 10
+L1887: - **Columns**: 20
+L1888: | Column | Dtype | Non-null | Sample values |
+L1889: |--------|-------|----------|---------------|
+L1890: | Horse | int64 | 10 | 1, 2, 3 |
+L1891: | 0.0 | float64 | 10 | 2.05, 3.1, 2.41 |
+L1892: | 1.0 | float64 | 10 | 2.34, 2.92, 3.38 |
+L1893: | 2.0 | float64 | 10 | 3.29, 3.18, 3.69 |
+L1894: | 3.0 | float64 | 10 | 2.13, 3.41, 3.04 |
+L1895: | Horse | int64 | 10 | 1, 2, 3 |
+L1896: | 0.0 | float64 | 10 | 3.66, 2.05, 2.91 |
+L1897: | 1.0 | float64 | 10 | 3.73, 2.22, 3.91 |
+L1898: | 2.0 | float64 | 10 | 4.48, 2.1, 4.09 |
+L1899: | 3.0 | float64 | 10 | 4.02, 2.12, 3.23 |
+L1900: | Horse | int64 | 10 | 1, 2, 3 |
+L1901: | 0.0 | float64 | 10 | 1.85, 1.85, 1.74 |
+L1902: | 1.0 | float64 | 10 | 1.88, 1.89, 1.56 |
+L1903: | 2.0 | float64 | 10 | 3.04, 2.38, 2.36 |
+L1904: | 3.0 | float64 | 10 | 1.78, 1.54, 1.58 |
+L1905: | Horse | int64 | 10 | 1, 2, 3 |
+L1906: | 0.0 | float64 | 10 | 2.08, 2.92, 2.35 |
+L1907: | 1.0 | float64 | 10 | 2.34, 3.63, 3.22 |
+L1908: | 2.0 | float64 | 10 | 3.34, 3.62, 3.8 |
+L1909: | 3.0 | float64 | 10 | 2.17, 3.42, 2.76 |
+L1910: ## Sheet: Ratio_NEUT_LYMPH
+L1911: - Tables found: 7
+L1912: ### Table 1: Table_1
+L1913: - **Rows**: 10
+L1914: - **Columns**: 20
+L1915: | Column | Dtype | Non-null | Sample values |
+L1916: |--------|-------|----------|---------------|
+L1917: | Horse | int64 | 10 | 1, 2, 3 |
+L1918: | 0 | float64 | 10 | 2.346341463414634, 1.2903225806451613, 1.4481327800829875 |
+L1919: | 1 | float64 | 10 | 2.0128205128205128, 2.1404109589041096, 1.165680473372781 |
+L1920: | 2 | float64 | 10 | 1.56838905775076, 1.8773584905660377, 1.1056910569105691 |
+L1921: | 3.0 | float64 | 10 | 2.4460093896713615, 1.407624633431085, 1.2203947368421053 |
+L1922: | Horse | int64 | 10 | 1, 2, 3 |
+L1923: | 0 | float64 | 10 | 1.0655737704918031, 1.4341463414634148, 1.1580756013745703 |
+L1924: | 1 | float64 | 10 | 1.0804289544235925, 1.5315315315315314, 1.1381074168797953 |
+L1925: | 2.0 | float64 | 10 | 1.0379464285714286, 1.6285714285714286, 1.1320293398533008 |
+L1926: | 3 | float64 | 10 | 0.955223880597015, 1.4245283018867925, 1.0743034055727554 |
+L1927: | Horse | int64 | 10 | 1, 2, 3 |
+L1928: | 0 | float64 | 10 | 2.3729729729729727, 1.6918918918918917, 1.7011494252873562 |
+L1929: | 1.0 | float64 | 10 | 2.143617021276596, 1.703703703703704, 2.192307692307692 |
+L1930: | 2 | float64 | 10 | 1.4868421052631577, 1.4243697478991597, 1.457627118644068 |
+L1931: | 3 | float64 | 10 | 2.044943820224719, 2.0064935064935066, 1.9240506329113924 |
+L1932: | Horse | int64 | 10 | 1, 2, 3 |
+L1933: | 0.0 | float64 | 10 | 2.1490384615384612, 1.339041095890411, 1.3617021276595744 |
+L1934: | 1.0 | float64 | 10 | 2.158119658119658, 1.1652892561983472, 1.0869565217391304 |
+L1935: | 2.0 | float64 | 10 | 1.598802395209581, 1.1160220994475138, 1.0605263157894738 |
+L1936: | 3.0 | float64 | 10 | 2.1198156682027647, 1.307017543859649, 1.0869565217391306 |
+L1937: ### Table 2: Table_2
+L1938: - **Rows**: 10
+L1939: - **Columns**: 20
+L1940: | Column | Dtype | Non-null | Sample values |
+L1941: |--------|-------|----------|---------------|
+L1942: | Horse | int64 | 10 | 1, 2, 3 |
+L1943: | 0 | float64 | 10 | 4.81, 4.0, 3.49 |
+L1944: | 1 | float64 | 10 | 4.71, 6.25, 3.94 |
+L1945: | 2 | float64 | 10 | 5.16, 5.97, 4.08 |
+L1946: | 3.0 | float64 | 10 | 5.21, 4.8, 3.71 |
+L1947: | Horse | int64 | 10 | 1, 2, 3 |
+L1948: | 0 | float64 | 10 | 3.9, 2.94, 3.37 |
+L1949: | 1 | float64 | 10 | 4.03, 3.4, 4.45 |
+L1950: | 2.0 | float64 | 10 | 4.65, 3.42, 4.63 |
+L1951: | 3 | float64 | 10 | 3.84, 3.02, 3.47 |
+L1952: | Horse | int64 | 10 | 1, 2, 3 |
+L1953: | 0 | float64 | 10 | 4.39, 3.13, 2.96 |
+L1954: | 1.0 | float64 | 10 | 4.03, 3.22, 3.42 |
+L1955: | 2 | float64 | 10 | 4.52, 3.39, 3.44 |
+L1956: | 3 | float64 | 10 | 3.64, 3.09, 3.04 |
+L1957: | Horse | int64 | 10 | 1, 2, 3 |
+L1958: | 0.0 | float64 | 10 | 4.47, 3.91, 3.2 |
+L1959: | 1.0 | float64 | 10 | 5.05, 4.23, 3.5 |
+L1960: | 2.0 | float64 | 10 | 5.34, 4.04, 4.03 |
+L1961: | 3.0 | float64 | 10 | 4.6, 4.47, 3.0 |
+L1962: ### Table 3: Table_3
+L1963: - **Rows**: 10
+L1964: - **Columns**: 20
+L1965: | Column | Dtype | Non-null | Sample values |
+L1966: |--------|-------|----------|---------------|
+L1967: | Horse | int64 | 10 | 1, 2, 3 |
+L1968: | 0 | float64 | 10 | 2.05, 3.1, 2.41 |
+L1969: | 1 | float64 | 10 | 2.34, 2.92, 3.38 |
+L1970: | 2 | float64 | 10 | 3.29, 3.18, 3.69 |
+L1971: | 3.0 | float64 | 10 | 2.13, 3.41, 3.04 |
+L1972: | Horse | int64 | 10 | 1, 2, 3 |
+L1973: | 0 | float64 | 10 | 3.66, 2.05, 2.91 |
+L1974: | 1 | float64 | 10 | 3.73, 2.22, 3.91 |
+L1975: | 2.0 | float64 | 10 | 4.48, 2.1, 4.09 |
+L1976: | 3 | float64 | 10 | 4.02, 2.12, 3.23 |
+L1977: | Horse | int64 | 10 | 1, 2, 3 |
+L1978: | 0 | float64 | 10 | 1.85, 1.85, 1.74 |
+L1979: | 1.0 | float64 | 10 | 1.88, 1.89, 1.56 |
+L1980: | 2 | float64 | 10 | 3.04, 2.38, 2.36 |
+L1981: | 3 | float64 | 10 | 1.78, 1.54, 1.58 |
+L1982: | Horse | int64 | 10 | 1, 2, 3 |
+L1983: | 0.0 | float64 | 10 | 2.08, 2.92, 2.35 |
+L1984: | 1.0 | float64 | 10 | 2.34, 3.63, 3.22 |
+L1985: | 2.0 | float64 | 10 | 3.34, 3.62, 3.8 |
+L1986: | 3.0 | float64 | 10 | 2.17, 3.42, 2.76 |
+L1987: ### Table 4: Table_4
+L1988: - **Rows**: 10
+L1989: - **Columns**: 16
+L1990: | Column | Dtype | Non-null | Sample values |
+L1991: |--------|-------|----------|---------------|
+L1992: | Horse | int64 | 10 | 1, 2, 3 |
+L1993: | NEUT (x109/L) | float64 | 10 | 4.81, 4.0, 3.49 |
+L1994: | LYMPH (x109/L) | float64 | 10 | 2.05, 3.1, 2.41 |
+L1995: | NEUT/LYMPH | float64 | 10 | 2.346341463414634, 1.2903225806451613, 1.4481327800829875 |
+L1996: | Horse | int64 | 10 | 1, 2, 3 |
+L1997: | NEUT (x109/L) | float64 | 10 | 4.71, 6.25, 3.94 |
+L1998: | LYMPH (x109/L) | float64 | 10 | 2.34, 2.92, 3.38 |
+L1999: | NEUT/LYMPH | float64 | 10 | 2.0128205128205128, 2.1404109589041096, 1.165680473372781 |
+L2000: | Horse | int64 | 10 | 1, 2, 3 |
+L2001: | NEUT (x109/L) | float64 | 10 | 5.16, 5.97, 4.08 |
+L2002: | LYMPH (x109/L) | float64 | 10 | 3.29, 3.18, 3.69 |
+L2003: | NEUT/LYMPH | float64 | 10 | 1.56838905775076, 1.8773584905660377, 1.1056910569105691 |
+L2004: | Horse | int64 | 10 | 1, 2, 3 |
+L2005: | NEUT (x109/L) | float64 | 10 | 5.21, 4.8, 3.71 |
+L2006: | LYMPH (x109/L) | float64 | 10 | 2.13, 3.41, 3.04 |
+L2007: | NEUT/LYMPH | float64 | 10 | 2.4460093896713615, 1.407624633431085, 1.2203947368421053 |
+L2008: ### Table 5: Table_5
+L2009: - **Rows**: 10
+L2010: - **Columns**: 16
+L2011: | Column | Dtype | Non-null | Sample values |
+L2012: |--------|-------|----------|---------------|
+L2013: | Horse | int64 | 10 | 1, 2, 3 |
+L2014: | NEUT (x109/L) | float64 | 10 | 3.9, 2.94, 3.37 |
+L2015: | LYMPH (x109/L) | float64 | 10 | 3.66, 2.05, 2.91 |
+L2016: | NEUT/LYMPH | float64 | 10 | 1.0655737704918031, 1.4341463414634148, 1.1580756013745703 |
+L2017: | Horse | int64 | 10 | 1, 2, 3 |
+L2018: | NEUT (x109/L) | float64 | 10 | 4.03, 3.4, 4.45 |
+L2019: | LYMPH (x109/L) | float64 | 10 | 3.73, 2.22, 3.91 |
+L2020: | NEUT/LYMPH | float64 | 10 | 1.0804289544235925, 1.5315315315315314, 1.1381074168797953 |
+L2021: | Horse | int64 | 10 | 1, 2, 3 |
+L2022: | NEUT (x109/L) | float64 | 10 | 4.65, 3.42, 4.63 |
+L2023: | LYMPH (x109/L) | float64 | 10 | 4.48, 2.1, 4.09 |
+L2024: | NEUT/LYMPH | float64 | 10 | 1.0379464285714286, 1.6285714285714286, 1.1320293398533008 |
+L2025: | Horse | int64 | 10 | 1, 2, 3 |
+L2026: | NEUT (x109/L) | float64 | 10 | 3.84, 3.02, 3.47 |
+L2027: | LYMPH (x109/L) | float64 | 10 | 4.02, 2.12, 3.23 |
+L2028: | NEUT/LYMPH | float64 | 10 | 0.955223880597015, 1.4245283018867925, 1.0743034055727554 |
+L2029: ### Table 6: Table_6
+L2030: - **Rows**: 10
+L2031: - **Columns**: 16
+L2032: | Column | Dtype | Non-null | Sample values |
+L2033: |--------|-------|----------|---------------|
+L2034: | Horse | int64 | 10 | 1, 2, 3 |
+L2035: | NEUT (x109/L) | float64 | 10 | 4.39, 3.13, 2.96 |
+L2036: | LYMPH (x109/L) | float64 | 10 | 1.85, 1.85, 1.74 |
+L2037: | NEUT/LYMPH | float64 | 10 | 2.3729729729729727, 1.6918918918918917, 1.7011494252873562 |
+L2038: | Horse | int64 | 10 | 1, 2, 3 |
+L2039: | NEUT (x109/L) | float64 | 10 | 4.03, 3.22, 3.42 |
+L2040: | LYMPH (x109/L) | float64 | 10 | 1.88, 1.89, 1.56 |
+L2041: | NEUT/LYMPH | float64 | 10 | 2.143617021276596, 1.703703703703704, 2.192307692307692 |
+L2042: | Horse | int64 | 10 | 1, 2, 3 |
+L2043: | NEUT (x109/L) | float64 | 10 | 4.52, 3.39, 3.44 |
+L2044: | LYMPH (x109/L) | float64 | 10 | 3.04, 2.38, 2.36 |
+L2045: | NEUT/LYMPH | float64 | 10 | 1.4868421052631577, 1.4243697478991597, 1.457627118644068 |
+L2046: | Horse | int64 | 10 | 1, 2, 3 |
+L2047: | NEUT (x109/L) | float64 | 10 | 3.64, 3.09, 3.04 |
+L2048: | LYMPH (x109/L) | float64 | 10 | 1.78, 1.54, 1.58 |
+L2049: | NEUT/LYMPH | float64 | 10 | 2.044943820224719, 2.0064935064935066, 1.9240506329113924 |
+L2050: ### Table 7: Table_7
+L2051: - **Rows**: 10
+L2052: - **Columns**: 16
+L2053: | Column | Dtype | Non-null | Sample values |
+L2054: |--------|-------|----------|---------------|
+L2055: | Horse | int64 | 10 | 1, 2, 3 |
+L2056: | NEUT (x109/L) | float64 | 10 | 4.47, 3.91, 3.2 |
+L2057: | LYMPH (x109/L) | float64 | 10 | 2.08, 2.92, 2.35 |
+L2058: | NEUT/LYMPH | float64 | 10 | 2.1490384615384612, 1.339041095890411, 1.3617021276595744 |
+L2059: | Horse | int64 | 10 | 1, 2, 3 |
+L2060: | NEUT (x109/L) | float64 | 10 | 5.05, 4.23, 3.5 |
+L2061: | LYMPH (x109/L) | float64 | 10 | 2.34, 3.63, 3.22 |
+L2062: | NEUT/LYMPH | float64 | 10 | 2.158119658119658, 1.1652892561983472, 1.0869565217391304 |
+L2063: | Horse | int64 | 10 | 1, 2, 3 |
+L2064: | NEUT (x109/L) | float64 | 10 | 5.34, 4.04, 4.03 |
+L2065: | LYMPH (x109/L) | float64 | 10 | 3.34, 3.62, 3.8 |
+L2066: | NEUT/LYMPH | float64 | 10 | 1.598802395209581, 1.1160220994475138, 1.0605263157894738 |
+L2067: | Horse | int64 | 10 | 1, 2, 3 |
+L2068: | NEUT (x109/L) | float64 | 10 | 4.6, 4.47, 3.0 |
+L2069: | LYMPH (x109/L) | float64 | 10 | 2.17, 3.42, 2.76 |
+L2070: | NEUT/LYMPH | float64 | 10 | 2.1198156682027647, 1.307017543859649, 1.0869565217391306 |
+L2071: ## Sheet: MONO
+L2072: - Tables found: 1
+L2073: ### Table 1: Table_1
+L2074: - **Rows**: 10
+L2075: - **Columns**: 20
+L2076: | Column | Dtype | Non-null | Sample values |
+L2077: |--------|-------|----------|---------------|
+L2078: | Horse | int64 | 10 | 1, 2, 3 |
+L2079: | 0.0 | float64 | 10 | 0.24, 0.27, 0.34 |
+L2080: | 1.0 | float64 | 10 | 0.33, 0.39, 0.32 |
+L2081: | 2.0 | float64 | 10 | 0.25, 0.35, 0.26 |
+L2082: | 3.0 | float64 | 10 | 0.25, 0.27, 0.32 |
+L2083: | Horse | int64 | 10 | 1, 2, 3 |
+L2084: | 0.0 | float64 | 10 | 0.44, 0.33, 0.52 |
+L2085: | 1.0 | float64 | 10 | 0.41, 0.31, 0.5 |
+L2086: | 2.0 | float64 | 10 | 0.43, 0.31, 0.41 |
+L2087: | 3.0 | float64 | 10 | 0.43, 0.37, 0.52 |
+L2088: | Horse | int64 | 10 | 1, 2, 3 |
+L2089: | 0.0 | float64 | 10 | 0.27, 0.33, 0.27 |
+L2090: | 1.0 | float64 | 10 | 0.25, 0.21, 0.28 |
+L2091: | 2.0 | float64 | 10 | 0.28, 0.17, 0.27 |
+L2092: | 3.0 | float64 | 10 | 0.28, 0.23, 0.27 |
+L2093: | Horse | int64 | 10 | 1, 2, 3 |
+L2094: | 0.0 | float64 | 10 | 0.25, 0.31, 0.54 |
+L2095: | 1.0 | float64 | 10 | 0.28, 0.37, 0.38 |
+L2096: | 2.0 | float64 | 10 | 0.29, 0.35, 0.38 |
+L2097: | 3.0 | float64 | 10 | 0.25, 0.36, 0.43 |
+L2098: ## Sheet: EOS
+L2099: - Tables found: 1
+L2100: ### Table 1: Table_1
+L2101: - **Rows**: 10
+L2102: - **Columns**: 20
+L2103: | Column | Dtype | Non-null | Sample values |
+L2104: |--------|-------|----------|---------------|
+L2105: | Horse | int64 | 10 | 1, 2, 3 |
+L2106: | 0.0 | float64 | 10 | 0.13, 0.14, 0.11 |
+L2107: | 1.0 | float64 | 10 | 0.13, 0.11, 0.29 |
+L2108: | 2.0 | float64 | 10 | 0.12, 0.11, 0.23 |
+L2109: | 3.0 | float64 | 10 | 0.11, 0.12, 0.29 |
+L2110: | Horse | int64 | 10 | 1, 2, 3 |
+L2111: | 0.0 | float64 | 10 | 0.81, 0.46, 0.41 |
+L2112: | 1.0 | float64 | 10 | 0.63, 0.64, 0.31 |
+L2113: | 2.0 | float64 | 10 | 0.63, 0.59, 0.28 |
+L2114: | 3.0 | float64 | 10 | 0.65, 0.5, 0.39 |
+L2115: | Horse | int64 | 10 | 1, 2, 3 |
+L2116: | 0.0 | float64 | 10 | 0.23, 0.14, 0.19 |
+L2117: | 1.0 | float64 | 10 | 0.2, 0.12, 0.16 |
+L2118: | 2.0 | float64 | 10 | 0.19, 0.08, 0.17 |
+L2119: | 3.0 | float64 | 10 | 0.18, 0.08, 0.13 |
+L2120: | Horse | int64 | 10 | 1, 2, 3 |
+L2121: | 0.0 | float64 | 10 | 0.14, 0.11, 0.18 |
+L2122: | 1.0 | float64 | 10 | 0.19, 0.1, 0.19 |
+L2123: | 2.0 | float64 | 10 | 0.1, 0.09, 0.16 |
+L2124: | 3.0 | float64 | 10 | 0.13, 0.09, 0.18 |
+L2125: ## Sheet: BASO
+L2126: - Tables found: 1
+L2127: ### Table 1: Table_1
+L2128: - **Rows**: 10
+L2129: - **Columns**: 20
+L2130: | Column | Dtype | Non-null | Sample values |
+L2131: |--------|-------|----------|---------------|
+L2132: | Horse | int64 | 10 | 1, 2, 3 |
+L2133: | 0.0 | float64 | 10 | 0.01, 0.0, 0.31 |
+L2134: | 1.0 | float64 | 10 | 0.02, 0.01, 0.05 |
+L2135: | 2.0 | float64 | 10 | 0.02, 0.01, 0.04 |
+L2136: | 3.0 | float64 | 10 | 0.02, 0.01, 0.47 |
+L2137: | Horse | int64 | 10 | 1, 2, 3 |
+L2138: | 0.0 | float64 | 10 | 0.25, 0.24, 0.26 |
+L2139: | 1.0 | float64 | 10 | 0.17, 0.34, 0.75 |
+L2140: | 2.0 | float64 | 10 | 0.2, 0.26, 0.39 |
+L2141: | 3.0 | float64 | 10 | 0.05, 0.04, 0.07 |
+L2142: | Horse | int64 | 10 | 1, 2, 3 |
+L2143: | 0.0 | float64 | 10 | 0.23, 0.01, 0.0 |
+L2144: | 1.0 | float64 | 10 | 0.31, 0.26, 0.22 |
+L2145: | 2.0 | float64 | 10 | 0.54, 0.3, 0.18 |
+L2146: | 3.0 | float64 | 10 | 0.14, 0.11, 0.19 |
+L2147: | Horse | int64 | 10 | 1, 2, 3 |
+L2148: | 0.0 | float64 | 10 | 0.23, 0.25, 0.03 |
+L2149: | 1.0 | float64 | 10 | 0.06, 0.02, 0.64 |
+L2150: | 2.0 | float64 | 10 | 0.09, 0.02, 0.52 |
+L2151: | 3.0 | float64 | 10 | 0.03, 0.03, 0.04 |
+L2152: ## Sheet: LUC
+L2153: - Tables found: 1
+L2154: ### Table 1: Table_1
+L2155: - **Rows**: 10
+L2156: - **Columns**: 20
+L2157: | Column | Dtype | Non-null | Sample values |
+L2158: |--------|-------|----------|---------------|
+L2159: | Horse | int64 | 10 | 1, 2, 3 |
+L2160: | 0.0 | float64 | 10 | 0.04, 0.04, 0.03 |
+L2161: | 1.0 | float64 | 10 | 0.03, 0.02, 0.06 |
+L2162: | 2.0 | float64 | 10 | 0.05, 0.04, 0.06 |
+L2163: | 3.0 | float64 | 10 | 0.03, 0.02, 0.04 |
+L2164: | Horse | int64 | 10 | 1, 2, 3 |
+L2165: | 0.0 | float64 | 10 | 0.06, 0.04, 0.03 |
+L2166: | 1.0 | float64 | 10 | 0.09, 0.06, 0.04 |
+L2167: | 2.0 | float64 | 10 | 0.1, 0.05, 0.07 |
+L2168: | 3.0 | float64 | 10 | 0.08, 0.05, 0.04 |
+L2169: | Horse | int64 | 10 | 1, 2, 3 |
+L2170: | 0.0 | float64 | 10 | 0.02, 0.03, 0.03 |
+L2171: | 1.0 | float64 | 10 | 0.02, 0.01, 0.03 |
+L2172: | 2.0 | float64 | 10 | 0.03, 0.02, 0.04 |
+L2173: | 3.0 | float64 | 10 | 0.03, 0.02, 0.03 |
+L2174: | Horse | int64 | 10 | 1, 2, 3 |
+L2175: | 0.0 | float64 | 10 | 0.02, 0.02, 0.02 |
+L2176: | 1.0 | float64 | 10 | 0.04, 0.05, 0.04 |
+L2177: | 2.0 | float64 | 10 | 0.02, 0.03, 0.05 |
+L2178: | 3.0 | float64 | 10 | 0.03, 0.03, 0.05 |
+L2179: ## Sheet: Respiration rate
+L2180: - Tables found: 1
+L2181: ### Table 1: Table_1
+L2182: - **Rows**: 10
+L2183: - **Columns**: 12
+L2184: | Column | Dtype | Non-null | Sample values |
+L2185: |--------|-------|----------|---------------|
+L2186: | Horse | int64 | 10 | 1, 2, 3 |
+L2187: | 1.0 | float64 | 10 | 8.0, 14.0, 26.0 |
+L2188: | 2.0 | float64 | 10 | 100.0, 122.0, 68.0 |
+L2189: | Respiration | int64 | 10 | 1, 2, 3 |
+L2190: | 1.0 | float64 | 10 | 32.0, 23.0, 18.0 |
+L2191: | 2.0 | float64 | 10 | 46.0, 80.0, 60.0 |
+L2192: | Horse | int64 | 10 | 1, 2, 3 |
+L2193: | 1.0 | float64 | 10 | 14.0, 28.0, 14.0 |
+L2194: | 2.0 | float64 | 10 | 86.0, 88.0, 76.0 |
+L2195: | Horse | int64 | 10 | 1, 2, 3 |
+L2196: | 1.0 | float64 | 10 | 16.0, 12.0, 14.0 |
+L2197: | 2.0 | float64 | 10 | 100.0, 64.0, 58.0 |
+L2198: ## Sheet: Body Temp.
+L2199: - Tables found: 1
+L2200: ### Table 1: Table_1
+L2201: - **Rows**: 10
+L2202: - **Columns**: 12
+L2203: | Column | Dtype | Non-null | Sample values |
+L2204: |--------|-------|----------|---------------|
+L2205: | Horse | int64 | 10 | 1, 2, 3 |
+L2206: | 1.0 | float64 | 10 | 36.7, 36.6, 37.3 |
+L2207: | 2.0 | float64 | 10 | 39.5, 38.2, 39.1 |
+L2208: | Horse | int64 | 10 | 1, 2, 3 |
+L2209: | 1.0 | float64 | 10 | 36.8, 36.8, 37.6 |
+L2210: | 2.0 | float64 | 10 | 39.1, 38.3, 39.4 |
+L2211: | Horse | int64 | 10 | 1, 2, 3 |
+L2212: | 1.0 | float64 | 10 | 37.2, 36.4, 37.2 |
+L2213: | 2.0 | float64 | 10 | 37.8, 39.6, 38.3 |
+L2214: | Horse | int64 | 10 | 1, 2, 3 |
+L2215: | 1.0 | float64 | 10 | 36.9, 37.0, 36.7 |
+L2216: | 2.0 | float64 | 10 | 38.9, 39.3, 38.7 |
+L2217: ## Sheet: Heart rate
+L2218: - Tables found: 1
+L2219: ### Table 1: Table_1
+L2220: - **Rows**: 10
+L2221: - **Columns**: 12
+L2222: | Column | Dtype | Non-null | Sample values |
+L2223: |--------|-------|----------|---------------|
+L2224: | Horse | int64 | 10 | 1, 2, 3 |
+L2225: | 1.0 | float64 | 10 | 42.0, 64.0, 36.0 |
+L2226: | 2.0 | float64 | 10 | 114.0, 110.0, 88.0 |
+L2227: | Horse | int64 | 10 | 1, 2, 3 |
+L2228: | 1.0 | float64 | 10 | 38.0, 36.0, 60.0 |
+L2229: | 2.0 | float64 | 10 | 66.0, 74.0, 74.0 |
+L2230: | Horse | int64 | 10 | 1, 2, 3 |
+L2231: | 1.0 | float64 | 10 | 28.0, 36.0, 35.0 |
+L2232: | 2.0 | float64 | 10 | 100.0, 90.0, 76.0 |
+L2233: | Horse | int64 | 10 | 1, 2, 3 |
+L2234: | 1.0 | float64 | 10 | 42.0, 52.0, 42.0 |
+L2235: | 2.0 | float64 | 10 | 56.0, 88.0, 68.0 |
+[40ms]
+

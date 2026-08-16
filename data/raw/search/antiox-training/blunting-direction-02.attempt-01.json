@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin C and E supplementation impairs adaptations to training"
+  ],
+  "completed_at": "2026-08-16T05:24:15.731350+00:00",
+  "elapsed_seconds": 2.363065249985084,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:13.368301+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-02.attempt-01.stderr",
+  "stdout_bytes": 46736,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-02.attempt-01.stdout"
+}

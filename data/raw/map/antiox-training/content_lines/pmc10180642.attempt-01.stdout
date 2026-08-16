@@ -1,0 +1,628 @@
+L1: Metabolic Biomarkers of Red Beetroot Juice Intake at Rest and after Physical Exercise
+L2: Nutrients (2023)
+L3: Ottavia Giampaoli, Cristian Ieno, Fabio Sciubba, Mariangela Spagnoli, Alfredo Miccheli, Alberta Tomassini, Walter Aureli, Luigi Fattorini
+L4: 1 NMR-Based Metabolomics Laboratory (NMLab), Sapienza University of Rome, 00185 Rome, Italy;  ottavia.giampaoli@uniroma1.it  (O.G.);  fabio.sciubba@uniroma1.it  (F.S.);  m.spagnoli@inail.it  (M.S.)
+L5: 2 Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy
+L6: 3 Department of Physiology and Pharmacology “Vittorio Erspamer”, Sapienza University of Rome, 00185 Rome, Italy;  cristian.ieno@uniroma1.it  (C.I.);
+L7: 4 Department of Occupational Medicine, Epidemiology and Hygiene, INAIL, Monte Porzio Catone, 00078 Rome, Italy
+L8: 5 R&D Aureli Mario S. S. Agricola, Via Mario Aureli 7, 67050 Ortucchio, Italy
+L9: Background: Red beetroot is known to be a health-promoting food. However, little attention is placed on intestinal bioactive compound absorption. The aim of the study was to assess the urinary red beetroot juice (RBJ) intake biomarkers and possible differences in RBJ’s micronutrient absorption at rest or after physical exercise. Methods: This is a three-armed, single-blind study, involving seven healthy volunteers which were randomly divided into three groups and alternatively assigned to three experimental sessions: RBJ intake at rest, RBJ intake with physical activity, and placebo intake with physical activity. For each session, urine samples were collected before and 120, 180, and 240 min after the intake of RBJ or placebo. The same sampling times were employed for the experimental session at rest. The RBJ metabolic composition was also characterized to identify the urinary biomarkers derived from the intake. Results: 4-methylpyridine-2-carboxylic acid, dopamine-3-O-sulfate, glutamine, and 3-hydroxyisobutyrate were identified as RBJ intake biomarkers. Physical activity significantly increased only the dopamine-3-O-sulfate excretion 120 min after RBJ intake. Conclusions: Urinary dopamine-3-O-sulfate is related to RBJ dopamine content, while 4-methylpyridine-2-carboxylic acid is a betanin or betalamic acid catabolite. The different excretions of these metabolites following physical activity suggest a possible effect on the RBJ uptake depending on different transport processes through the mucosa, namely diffusion-mediated transport for dopamine and saturable transcellular transport for betalamic acid derivatives. These results open new perspectives in improving the absorption of natural bioactive molecules through physical activity.
+L10: Article
+L11: red beetroot juice; food intake biomarkers; metabolic profiling; NMR-based metabolomics; physical activity
+L12: 1. Introduction
+L13: Red beetroot (RB),  Beta vulgaris  L. subsp.  vulgaris  ( conditiva ), is characterized by high contents of nitrates, flavonoids, vitamins, minerals such as potassium, sodium, phosphorous, calcium, magnesium, copper, iron, zinc, and manganese, and the water-soluble pigments betalains, such as betacyanins (red-violet color) and betaxanthins (yellow orange color), all of which have numerous nutritional and health benefits [ 1 ]. RB is a significant source of phenols, which together with the betalains show a high antioxidant effect and radical scavenging capacity [ 2 ], an increase in the resistance of low-density lipoproteins (LDL) to oxidation, and the prevention of cancer and cardiovascular diseases [ 3 ]. Betalains constitute the major pigment of red beetroot and are composed of two major structural units, namely, red-violet betacyanins, including betanin, the main betacyanin present in red beetroot, and yellow-orange betaxanthins [ 4 ]. The structure of betalains is composed of a common unit of betalamic acid linked to cyclo-dopa or dopamine, derived from L-dopa metabolism.
+L14: Interestingly, a consistent amount of dopamine has been found in fresh red beetroot or in juice [ 5 ].
+L15: RB is also known to increase the blood levels of nitric oxide (NO), which is involved in multiple functions related to increased blood flow, gas exchange, mitochondrial efficiency, and strengthening of muscle contractions [ 6 ].
+L16: All these findings have suggested RB as an ideal and healthy supplement in the field of sports and physical activity for the improvement of physical fitness [ 6 , 7 ]. However, the health effect of micronutrients in red beetroot strongly depends both on their intake and on their bioavailability, which are key factors regarding functional foods and health claims related to food components [ 8 ]. In addition, nutrient absorption can vary depending on, among other things, physiological states and gut microbiota composition [ 9 ].
+L17: At the same time, it has been shown that exercise exerts positive effects on several aspects of health, such as sarcopenia [ 10 ] and inflammation reduction [ 11 ], also inducing positive changes in gut microbiota composition and in microbial metabolism [ 12 , 13 ]. Furthermore, moderate aerobic exercise is shown to promote muscle adaptations, lowering oxidative stress [ 14 ].
+L18: Consequently, for the latter, the absorption of different nutrients with exercise is expected even if the interaction between food and physical activity is very complex, also considering the scarce information on bioavailability of several bioactive compounds.
+L19: In this regard, a better understanding of the digestive fate of bioactive food compounds should allow us to unravel the health promotion and the performance effects of physical activity [ 8 ].
+L20: The aim of this study was to assess the effects of submaximal physical activity on the absorption of RB juice (RBJ) metabolites in healthy subjects. The urinary RBJ intake biomarkers, which are the metabolic products of characteristic molecules present in RBJ, were assessed, and metabolic profiles were characterized through NMR-based metabolomics at rest and after exercise.
+L21: 2. Materials and Methods
+L22: 2.1. Red Beetroot Juice Pretreatment for NMR Analysis
+L23: The subjects involved in this study drank 200 mL of commercial RBJs, which were provided by Aureli Mario S.S. Agricola and were processed in their industrial facility from beets collected in the Fucino fields of Abruzzo, Italy.
+L24: First, 1.5 mL of juice was extracted following a modified Bligh–Dyer protocol [ 15 ]. A cold mixture composed of chloroform, methanol, and water in a 2:2:1 proportion was added to each aliquot. After an overnight incubation at 4 °C, the samples were centrifuged for 25 min at 4 °C with a rotation speed of 10,000×  g . The upper hydrophilic phase and the lower lipophilic phase were carefully separated and dried under a gentle flow of nitrogen. The hydrophilic phase was resuspended in D 2 O containing 3-(trimethylsilyl)-propionic-2,2,3,3-d4 acid sodium salt (TSP) 2 mM as an internal chemical shift and concentration standard. All solvents and standards were purchased from Sigma Aldrich (St. Louis, MO, USA).
+L25: 2.2. Analysis of Red Beetroot Juice Samples by NMR Spectroscopy
+L26: All spectra were recorded at 298 K on a JEOL JNM-ECZR (JEOL Ltd., Tokyo, Japan) spectrometer equipped with a magnet that works at 14.09 T and at 600.17 MHz for the  1 H frequency.  1 H NMR spectra were acquired employing the presaturation pulse sequence for solvent suppression, with a spectral width of 9.03 KHz and 64 k data points for an acquisition time of 5.81 s. The employed pulse length was 8.3 μs corresponding to a flip angle of 90°, while the presaturation time length was 2 s. The recycle delay was set to 5.72 s to achieve complete resonance relaxation between subsequent scans. Bidimensional NMR experiments,  1 H− 1 H TOCSY,  1 H− 13 C HSQC, and  1 H− 13 C HMBC, were performed on a few samples in order to allow univocal signal assignment and to identify the less superimposed resonances for each molecule to achieve the best selectivity and accuracy of quantification.
+L27: Quantities were expressed in mmol/mL through comparison of the relative integrals with the reference concentration and normalized to the number of protons (TSP: 9 protons) and to the starting milliliter of sample. The final concentration was expressed as mg/100 mL.
+L28: 2.3. Characteristics of the Subjects and Experimental Setting
+L29: The group studied consisted of 7 healthy volunteers, 5 females and 2 males, non-smokers, aged 26.9 ± 3.0 years, mean BMI 22.0 ± 1.5 kg/m 2 . None of the subjects took dietary supplements or drugs potentially able to influence inflammatory status, nor other foods other than red beetroot juice during the time of the experiment. Subjects were asked to adhere to the Mediterranean dietary model and refrain from physical activity during the week before the experimentation. Only a light breakfast and drinking water were allowed during the intervention. Originally ten volunteers were included, however, three subjects dropped out.
+L30: The study was three-armed, randomized, and conducted in a single-blind crossover, with day A, B, and C indicating only the performed activity and not the consecutive days.
+L31: The volunteers were randomly numerated from 1 to 10 and divided into three groups (group 1: numbers 1, 3; group 2: numbers 4, 7; and group 3: numbers 8, 9, 10) and alternatively assigned to the three experimental sessions with one week of wash-out, following the scheme reported in  Figure 1 .
+L32: In experimental session A, subjects took the RBJ at rest. In experimental session B, the subjects took the juice and performed their 30 min scheduled physical activity with a cycle ergometer, while in experimental session C they performed the same physical activity after the consumption of a placebo, which was composed of 7 g of sugar, 180 mL of water, and 20 mL of RBJ, making the placebo visually more similar to RBJ and hence not recognizable.
+L33: The subjects performed a scheduled exercise with a cycle ergometer both 1 h after the RBJ intake (session B) and 1 h after placebo intake (session C).
+L34: For each experimental session, five time points were considered for urine sample collection: T0, first urine in the morning at fast; T1, immediately before RBJ or placebo intake; T2, 120 min after the RBJ or placebo intake; T3, 180 min after RBJ or placebo intake; and T4, 240 min after the intake.
+L35: The study protocol conformed to the ethical guidelines of the 1975 Declaration of Helsinki, and it was approved by the Region Abruzzo Ethical Committee, ASL1 L’Aquila and Teramo districts, VERBALE—n° 23/CE/2016. All subjects provided their written informed consent to participate in the study.
+L36: 2.4. Subjects’ Physical Profile and Exercise Workload Assessment
+L37: All subjects visited the laboratory to perform an incremental test on a bicycle ergometer (Ergoline 900, Cosmed, Albano Laziale (RM), Italy) in order to estimate both ventilatory thresholds (VT1 and VT2). During the test, gas exchange data were collected continuously using an automated breath-by-breath system (K5, Cosmed, Italy). The measuring instrument was calibrated before each test and the necessary environmental adjustments were made. The test protocol was composed of a rest phase 5 min long, where subjects remained seated on a bike without pedaling or other movements to assess basal parameters, a warm-up phase 3 min long, which consisted of pedaling with a power of 25 W, and an incremental phase, where pedaling was kept constant in a range of 70–80 rpm and the bike power increased by 5 W every 15 s. The incremental test was terminated (i) voluntarily by the subject, (ii) when pedaling cadence could not be kept firmly within range, or (iii) if in two successive load increments the VCO 2 /VO 2  ratio exceeded 1.0. Only in this last case were the conditions of a correct ventilatory threshold estimation guaranteed. In all subjects the test was stopped with (iii).
+L38: VT1 was determined using the criteria of an increase in the ventilatory equivalent for oxygen (VE/VO 2 ) with no increase in the ventilatory equivalent for carbon dioxide (VE/VCO 2 ) and the departure from linearity of VE, whereas VT2 was determined by using the criteria of an increase in both VE/VO 2  and VE/VCO 2  [ 16 ]. Two independent observers detected VT1 and VT2 following the criteria previously described. If they did not agree, the opinion of a third investigator was included.
+L39: The purpose of the preliminary session was to determine the individual workload to also collect each subject’s measurements needed in the experimental sessions, including saddle height and pedal position. Participants started cycling at 30 W and, after 3 min, workload was increased to the individual’s pre-assessed VT1 (aerobic workload) and maintained for 30 min. This workload had to have the characteristics of being predominantly aerobic and being able to be sustained by the subjects throughout the session. Subjects maintained pedal rates of 70–80 rpm throughout all the sessions (B and C). Participants wore individual outfits and were allowed to drink during the experimental session. Temperature and humidity of the laboratory were kept constant during all sessions.
+L40: 2.5. Urine Sample Preparation
+L41: For a proper metabolomic analysis of urine, sodium azide 0.05%  v/v  was added to the Falcon tubes (15 mL) employed for the urine collection, for a total sample volume of 10 mL. For each sample, 1200 μL of urine was collected and centrifugated at 11,000×  g  for 15 min at 4 °C to remove the cellular debris. Then, 1000 μL of supernatant was collected and added to 100 μL of an internal standard, sodium trimethylsilyl propionate in deuterated water (TPS-D 2 O, final concentration 2 mM). All the samples were adjusted to pH = 7 with a small addition of HCl or NaOH 0.1 N for resonance reproducibility and stored at −80 °C until the NMR analysis.
+L42: 2.6. Analysis of Urine Samples by NMR Spectroscopy
+L43: NMR spectra were obtained at 298 K using a JEOL JNM-ECZR (JEOL Ltd., Tokyo, Japan) spectrometer equipped with a magnet that works at 14.09 T and at 600.17 MHz for the  1  H frequency. Each spectrum was registered with 64 k points and 64 scans, with a spectral width at 9.03 KHz (15 ppm), presaturation impulse duration of 2.00 s, and a relaxation delay of 5.72 s, for an acquisition time of 5.81 s. The identification phase was conducted through bidimensional experiments ( 1 H- 1 H TOCSY and  1 H- 13 C HSQC) applied to the selected sample, and with confirmation coming from bibliography comparison and databases. TOCSY experiments were recorded at 298 K with a spectral width of 15 ppm in both dimensions, using an 8 k × 256 data point matrix, repetition time of 3.00 s and 80 scans, and with a mixing time of 80.00 ms. HSQC experiments were acquired with a spectral width of 9.03 KHz (15 ppm) in the proton dimension and 30 KHz (200 ppm) in the carbon dimension, using an 8 k × 256 data point matrix for the proton and the carbon. The 2D-NMR spectra were processed by using JEOL Delta V5.3.1 software (JEOL Ltd., Tokyo, Japan).
+L44: 1 H-NMR spectra were analyzed using ACD  1 H-Manager version 11.0 software (Advanced Chemistry Development, Inc., Toronto, ON, Canada), while bidimensional spectra were analyzed with JEOL Delta software. An exponential window function with a line-broadening factor of 0.30 Hz was applied to the FIDs before being Fourier transformed. Each of the spectra thus obtained were then manually phased and baseline corrected. The reference signal from the TSP methyl resonance was set to 0.00 ppm.
+L45: The quantification of the metabolites was obtained by comparing the integrals of their diagnostic resonances with the internal standard TSP integral and normalized for their number of protons. Data from urine spectra were normalized to the methyl peak integral of creatinine at 4.05 ppm to correct for dilution effects and expressed as μmol/mmol of creatinine ( Supplementary Table S3 ).
+L46: 2.7. Data Analysis and Statistics
+L47: Multivariate and univariate statistical analyses were applied in order to evaluate the metabolic differences related to physical activity and RBJ intake.
+L48: Principal component analysis (PCA) was applied for exploratory purposes to identify clusters and outliers. The data matrix was previously auto-scaled and centered before further processing. For the classification stage, models were built using the partial least square-discriminant analysis (PLS-DA) algorithm. The full-cross validation method was applied, and the area under receiver operating characteristic (AUROC), R 2 , and Q 2  were employed as diagnostic statistics for assessing the predictive ability and the quality of the classification models.
+L49: The multivariate analysis was carried out by using Unscrambler 10.5 software (CAMO, Oslo, Norway). AUROC was calculated with an in-house written script employing MATLAB R2020b.
+L50: Univariate evaluation of the variables identified as significant based on PLS-DA analysis was applied by using the paired Student’s  t -test or Wilcoxon signed rank sum test for paired data according to the Shapiro–Wilk normality test and two-way ANOVA for multiple comparison using Bonferroni correction. A  p -value of 0.05 was considered as the threshold for statistical significance. Sigmaplot 14.0 Systat Software Inc. (Palo Alto, CA, USA) was employed for univariate statistical analysis.
+L51: 3. Results
+L52: 3.1. Red Beetroot Juice Composition
+L53: The chemical composition of the commercial RBJ was assessed by NMR spectroscopy in order to identify the metabolites which could act as substrates or could be absorbed in the intestinal mucosa in relation to the intake. For this purpose, five replicates of hydroalcoholic extracts of RBJ were analyzed, and a representative spectrum of red beetroot hydroalcoholic extract is reported in  Supplementary Figure S1 . A total of 29 metabolites were quantified from the  1 H NMR spectra of the hydroalcoholic extract. The  1 H chemical shifts and multiplicity of the identified molecules are reported in  Supplementary Table S1 . The metabolite concentrations, expressed as mean and standard deviation, are reported in  Table 1 .
+L54: The analysis of the hydroalcoholic extracts of beetroot juice showed a considerable amount of carbohydrates (total amount: 6174 ± 454 mg/100 mL), amino acids (total amount: 427 ± 7 mg/100 mL), and some bioactive molecules, including betaine, betanin, dopamine, and other antioxidant molecules.
+L55: 3.2. Experimental Setting
+L56: The urine samples of seven volunteers were collected to determinate the urinary metabolomic profile correlated to physical activity and the consumption of 200 mL of red beetroot juice (RBJ). The experiment was carried out in three different experimental sessions (A, B, and C), with a common controlled food intake at breakfast.
+L57: The exercise consisted of 3 min of warm-up at 30 W, followed by 30 min of aerobic exercise at constant workload at the individual pre-assessed VT1 (see Materials and Methods section). The subjects maintained pedal rates between 70–80 rpm. The volunteers were randomly numerated from 1 to 10 and divided into three groups (group 1: numbers 1, 3; group 2: numbers 4, 7; group 3: numbers 8, 9, 10) and alternatively assigned to the three experimental sessions with one week of wash-out. For each subject, five samples of urine were collected on each day at different times: first urine in the morning at fast (T0), one hour before exercise or rest (T1), and 120 min (T2), 180 min (T3), and 240 min (T4) after drinking the juice or placebo ( Figure 1 ). All the subjects took the RBJ or placebo immediately after T1. For the detailed experimental setting, see the Materials and Methods section.
+L58: 3.3. Urinary Metabolomics
+L59: A representative urinary  1 H-NMR spectrum and the detailed regions are reported in  Supplementary Figures S2–S4 . The resonance assignment is reported in  Supplementary Table S2 , and a total of thirty-six metabolites were identified and quantified from  1 H-NMR spectra.
+L60: 3.4. Urinary Biomarkers of RBJ Intake
+L61: In order to identify the urinary biomarkers of RBJ intake, we identified and quantified molecules whose resonances were observed in  1 H-NMR spectra collected in experimental session A (at rest and after the RBJ intake), considering sampling times from T1 to T3 ( Figure 1 ). Two metabolites resulted as crucial in the discrimination between the urine samples and were identified as urinary biomarkers of RBJ intake: 4-methylpyridine-2-carboxylic acid (4MP2CA) and dopamine-3-O-sulfate (DA3S). Their resonances and structures are reported in  Table 2 .
+L62: Comparing the urinary spectra of subjects at rest, it was indeed possible to observe both quantitative and qualitative differences in these molecules observable only after the RBJ intake, as reported in  Figure 2 a,b for day A, before the juice intake, and at two (T2) and three hours (T3) after the juice intake. Furthermore, those signals were not detectable in spectra of urines from the placebo group ( Supplementary Figure S5 ).
+L63: In order to investigate if the physical activity could have an effect on the urinary excretion of the identified RBJ biomarkers, a univariate statistical analysis on the quantitative data by comparing metabolite levels from T0 to T4 at rest and with exercise, with the RBJ intake being equal (sessions A and B), was carried out. The same RBJ biomarkers of  Figure 2  but with level variations over time are reported in  Figure 3 , session A, and  Figure 4 , session B. For session A, an increase in 4MP2CA excretion was detected at T2, with a subsequent slow decrease at T3 and T4 ( Figure 3 ). On the contrary, a sharp increase in DA3S levels was observed at T3, with a subsequent decrease at T4, while maintaining a statistical significance with respect to both T0 and T1, and to T2 ( Figure 3 ).
+L64: For session B, an increase in 4MP2CA excretion was detected at T2, with a subsequent increase at T3, though not statistically significant, and a significant decrease at T4, tending to return at T0–T1 levels ( Figure 4 ). At the same time, a strong increase in DA3S levels was observed at T2, reaching a maximum at T3, with a subsequent slow decrease at T4, not statistically significant with respect to T2 and T3 ( Figure 4 ).
+L65: In order to investigate if statistically significant differences in RBJ biomarker urinary excretions could be observed related to physical activity, we applied a paired Student’s t-test on each sampling time for sessions A and B.
+L66: As reported in  Figure 5 , there is not a significant variation in 4MP2CA between A and B for all the considered times. On the contrary, there is a statistically significant increment of DA3S between A and B for T2. A similar trend is also observed for T3, even though it did not reach statistical significance.
+L67: In order to evaluate urinary metabolic changes linked to the RBJ intake and physical activity, a PCA analysis including all the subjects was performed ( Supplementary Figure S6 ) on the entire dataset. The score plot did not show a clear grouping according to both aforementioned factors, even though a slight separation with respect to the individuals was observed. Since the PCA model evidenced a high inter-individual variability, we proceeded to apply a supervised model (PLS-DA) in order to maximize the differences due to a specific factor (RBJ intake and physical activity).
+L68: 3.5. Metabolic Profile Related to Physical Activity
+L69: In order to assess the effect of physical activity on the urinary profile, we applied a PLS-DA model on the data matrix composed of samples from T2 to T4 collected in sessions A (at rest) and B (physical activity) ( Figure 6 ). The analysis provided a robust two-component model (R 2  = 0.88 and Q 2  = 0.74), with AUROC = 0.75 for the specificity and sensitivity of the model ( Supplementary Figure S7 ). On the basis of the regression coefficient values ( Figure 6 ), it is possible to observe that the physical activity increased the levels of 4-hydroxybenzoate (4-HBz) and hypoxanthine (Hyp) and lowered the those of N1-methyl-2-pyridone-5-carboxamide (2PY) and 1-methylnicotinamide (1-MNA).
+L70: The observed differences in 4-hydroxybenzoate (4-HBz), hypoxanthine, 1-methyl-2-pyridone-5-carboxamide (2PY), and 1-methylnicotinamide (1-MNA) levels resulted to be also significant according to the Wilcoxon signed rank test ( Figure 7 ).
+L71: 3.6. Metabolic Profile Related to Red Beetroot Juice Intake
+L72: In order to evaluate if RBJ intake could have an effect on the urinary metabolic profile, a PLS-DA was performed on the data matrix comparing subjects on day B (physical activity with RBJ) to the same subjects on day C (physical activity with placebo). Sampling times from T2 to T4 were considered all together. The metabolic profiles of the two classes were well separated by inspecting the PLS-DA score plot ( Figure 8 ). The PLS-DA model resulted in five significant latent variables (LVs), R 2  = 0.95, and Q 2  = 0.77. The AUROC was 0.72 ( Supplementary Figure S8 ). On the basis of regression coefficient values, 11 metabolites were identified as significantly relevant for the discrimination. In particular, the levels of 3-hydroxyisobutyrate (3-HIB), p-cresol sulfate (p-CrS), glutamine (Gln), sarcosine (Sar), DA3S, glycine (Gly), and 4MP2CA were higher on day B, while the levels of lactate + threonine (LA + Thr), erythro-2,3-dihydroxybutyrate (E-2,3-DHB), phenylacetylglycine (PAG), and an undefined metabolite (U01) were higher in subjects who took the placebo (day C) than in those who took the RBJ (day B).
+L73: The differences in levels of Gln, 3-HIB, DA3S, and 4MP2CA observed between subjects on day B and day C resulted to also be significant ( p  < 0.05) by the Wilcoxon signed rank test, as reported in  Figure 9 .
+L74: 4. Discussion
+L75: The identification of new biomarkers of food and nutrient bioavailability has developed fast over the past two decades and could potentially provide new tools for dietary intake assessment. In this context, metabolomics has opened new opportunities, since new putative biomarkers are frequently identified by the metabolic profiling of body fluids following the ingestion of several foods [ 17 ].
+L76: To the best of our knowledge, this study is the first NMR-based study that identified and quantified the urinary biomarkers of red beetroot juice intake and comprehensively investigated the combined effect of red beetroot juice and physical activity on healthy individuals.
+L77: This is a pilot study, and the number of subjects was sufficient for a crossover experimental design. Moreover, we examined the same group in several different conditions and time points, for a total of fifteen urine samples for each volunteer.
+L78: In agreement with a previous mass-spectrometry study, DA3S and 4MP2CA were the identified urinary biomarkers related to RBJ intake [ 18 ]. Our results showed that these molecules derive from bioactive compounds present in RBJ, namely dopamine and betalamic acid, respectively. The range of dopamine levels was from 7 to 10 mg in the red beetroot juice, and it is a strong hydrosoluble antioxidant. However, the uptake of dopamine at the intestinal level is very hindered by the gut mucosa barrier [ 19 ].
+L79: Sulfate conjugation is an important pathway for the detoxication of xenobiotics, and previous studies have shown that in plasma more than 98% of dopamine is sulfated [ 20 ]. This process has been proposed to play important roles in the regulation and biotransformation of catecholamines [ 21 ].
+L80: The sulfonation of phenolic hydroxyl groups is catalyzed by the SULT1 family, which is a group of cytosolic sulfotransferases present in the intestine epithelium, liver, and kidneys [ 22 , 23 ]. Furthermore, SULT1A3 is shown to sulfate catecholamine neurotransmitters and is abundant in ileal and colonic mucosa [ 24 ]. Moreover, it has been also reported that the microbiota-mediated sulfation process could also occur in the gut. However, an independent study performed by our laboratory demonstrated the absence of DA3S in the stool of 32 subjects after taking RBJ at rest. The presence of dopamine sulfate in urine is in agreement with a diffusion-mediated transport of dopamine from the intestinal lumen to the cytosol of epithelial cells and with the intracellular sulfation of dopamine. Then, DA3S can move into the bloodstream and be excreted in urine [ 19 ].
+L81: The present results showed a significant increment of urinary DA3S two times higher at T2 comparing exercise and rest, with the RBJ intake being equal. Furthermore, the level of DA3S increased, peaking at T3.
+L82: DA3S is an endogenous metabolite, but a 20-fold increment was observed comparing the RBJ intake with placebo intake, with the physical activity intensity being equal. These results were in agreement with the increase in dopamine sulfate observed in cyclists exercising after banana intake, contributing to observed increment of antioxidant capacity [ 25 ]. It is noteworthy that banana pulp has about 3–10 mg of dopamine per 100 g of pulp, like red beetroot [ 26 ]. Furthermore, the exercise increased the rate of appearance of the urinary dopamine sulfate through a mechanism not yet understood, probably related to an undirected effect due to the peculiar transport properties of the specific molecules.
+L83: Interestingly, at T3 the urine of all subjects was colored, indicating the presence of a coloring molecule, probably betanin. This datum resulted more intense after physical activity than at rest and was not recognized during the placebo experiment ( Supplementary Figure S9 ). Unfortunately, the levels of betanin were not measurable by NMR spectroscopy, but the increase in red color in urine was observed at the same time of the peak of dopamine sulfate. It has been shown that 65% of betanin crossed the intestinal epithelial cells’ monolayer by paracellular passive diffusion, indicating that it can reach the bloodstream in its active form [ 3 ]. The urinary betanin content has been reported to be between 0.3–0.9% of the ingested dose via 300 mL of RBJ [ 27 , 28 ], a concentration well below the sensitivity limit of NMR spectroscopy.
+L84: 4MP2CA, the other suggested biomarker of RBJ intake, is a decarboxylation product of 4-methylpyridine-2,6-dicarboxylic acid, a catabolite of betalamic acid produced in the gastrointestinal tract ( Figure 10 ) [ 28 ]. More than 50% of oral administered betanin is decomposed by stomach gastric acid in betalamic acid and cyclo-dopa [ 29 ].
+L85: The degradation of betanin by the decarboxylation route was found to be dependent on heating, pO 2 , and pH [ 30 ]. Our NMR spectroscopy study on the RBJ did not find specific signals of decarboxylated betanin compounds or 4MP2CA, hence excluding their production in the RBJ transformation process. Furthermore, the NMR analysis highlighted the low concentration of free betalamic acid in the juices. Therefore, the levels of 4MP2CA could only be derived from the decomposition of betanin or of betalamic acid at the gastrointestinal level.
+L86: The transport through the intestinal mucosa of 4-methylpyridine-2,6-dicarboxylic acid or 4MP2CA is not known, but a transcellular transport could be hypothesized, analogous to that reported for pyridine compounds mediated by organic anion transporters or monocarboxylate transporters [ 31 , 32 ]. Our experiments did not reveal any significant variations in 4MP2CA acid at T2, T3, and T4 after exercise compared with rest. The different transport mechanisms suggested for betalamic acid derivatives (saturable transcellular transport) and dopamine and betanin (paracellular passive diffusion) could explain the lower effect of the exercise on the urinary excretion of 4MP2CA with respect to DA3S. During aerobic exercise, an increase in urinary markers that indicate augmented intestinal permeability can occur [ 33 ]. In fact, an increase in sympathetic system stimuli can lead to alterations in intestinal motility and absorption capacity [ 34 , 35 , 36 ]. This could result in the increased excretion of either DA3S (colorless) or betanin (red color), as observed in urine coloration ( Supplementary Figure S9 ). Therefore, the effect of exercise on the levels of DA3S and betanin could be explained on the basis of a higher bloodstream extraction from intestinal mucosa in the presence of a high gradient of dopamine and betanin concentration between the lumen and basal membrane, also in the presence of a transient modified paracellular transport ( Figure 11 ).
+L87: The urinary metabolic profile of RBJ with respect to placebo intake was also characterized by higher levels of 3-HIB and Gln, with the workload exercise being equal.
+L88: The biomarker 3-HIB is a biomarker for valine catabolism in skeletal muscle [ 37 ], and its elevation after physical activity is largely reported in the previous literature [ 38 , 39 ]. Higher 3-HIB urinary excretion is in agreement with the valine supplementation in the RBJ (total amount of valine is 30.8 mg per 200 mL of juice,  Table 1 ).
+L89: Regarding Gln, physical exercise can differentially affect Gln production in muscle and its availability in plasma, decreasing Gln availability following strenuous exercise [ 40 ]. Indeed, it has been shown that endurance and resistance sports characterized by prolonged and intense energy expenditure were associated with the worst decreases in glutamine availability [ 41 ]. Studies reported higher glutamine levels in carbohydrate-supplemented rats when compared with placebo [ 42 ], whereas in athletes fed low-carbohydrate diets, glutamine concentration was shown to be reduced [ 43 ]. RBJ contains a substantial amount of carbohydrates, both non-essential and essential amino acids, including a large amount of glutamine ( Table 1 ). For this reason, Gln can be also considered a biomarker of juice intake, even if it is not a specific metabolite.
+L90: The metabolic profiles of volunteers after physical activity and RBJ intake showed significant variations in four metabolites compared to RBJ intake at rest. The variations were represented by an increase in Hyp and 4-HBz levels and a decrease in 1-MNA and 2PY levels.
+L91: Hyp is a nucleotide degradation product involved in purine metabolism. Purine metabolites are more sensitive markers of training status and better performance predictors than typical biochemical and physiological indicators [ 44 ]. It has been demonstrated that plasma Hyp concentration depends on exercise intensity. Hyp may be an index of muscle adenine nucleotide degradation and a marker of exercise-induced energetic stress. It has already been demonstrated that, in the context of particular physiological conditions such as physical activity, several reactive oxygen species (ROS) may be involved, since muscular activity has been shown to associate with ROS production [ 45 ].
+L92: In our study, the levels of Hyp significantly changed depending on exercise, but not on RBJ intake. In order to evaluate the possible effect of RBJ intake on muscular metabolism, further studies should be performed using a larger amount of juice intake or a higher intensity workload, as reported in other experimental protocols [ 46 ].
+L93: The metabolite 4-HBz is found to be a product of microbial phenol metabolism [ 47 , 48 ] and could account for substantial proportions of the ingested polyphenol doses [ 49 ]. Phenols are important compounds because of their contribution to human health and their multiple biological effects, such as antioxidant activity, antimutagenic and/or anticarcinogenic activities, and anti-inflammatory action [ 50 ].
+L94: After RBJ intake, it was found that 4-HBz was significantly higher after exercise compared to rest. After exercise, this metabolite remained unchanged both in RBJ and placebo intake. For all the above, it is possible to hypothesize that physical activity plays a role in the metabolism of aromatic compounds.
+L95: Urinary levels of 1-MNA and 2PY were significantly lower in subjects after physical activity compared to the same subject at rest, with the RBJ intake being equal.
+L96: At rest and at fast, a borderline negative correlation between 1-MNA and nicotinamide riboside (precursor of NAD+) was found ( n  = 21; ρ = −0.394;  p  = 0.076), whereas a significant positive correlation between 1-MNA and 2PY was observed ( n  = 21; ρ = 0.74;  p  < 0.0001). These findings are in agreement with the three different metabolic routes of nicotinamide: NAD+ salvage pathways, methylation, and nicotinamide degradation. The NAD+ salvage pathway generates NAD+ by converting nicotinamide and alpha-d-5-phosphoribosyl-1-pyrophosphate to nicotinamide mononucleotide (NMN) and inorganic pyrophosphate in a reaction catalyzed by nicotinamide phosphoribosyltransferase [ 51 ] (Kegg reference pathway hsa00760). The methylation produces 1-MNA from nicotinamide (NAM, vit B3) through nicotinamide N-methyltransferase (NNMT); finally, 2PY and 1-methyl-4-pyridone-5-carboxamide (4PY) are degradation products derived from the activity of aldehyde oxidases (AOX) [ 52 , 53 ]. NNMT is a cytosolic enzyme, mainly expressed in the liver and in adipose tissue, which catalyzes the N-methylation of NAM. NNMT regulates glucose, lipid, and cholesterol metabolism by stabilizing the sirtuins-1 (SIRT1) enzyme [ 54 ]. Physical exercise significantly changes metabolism, affecting the NAD + :NADH ratio and thus leading to a strong induction of SIRT1 activity [ 55 ]. Lower urinary concentrations of 1-MNA and 2PY after aerobic exercise in healthy volunteers could be due to a higher turnover of nicotinamide and nicotinamide riboside in the synthesis of NAD, with less urinary excretion of the final catabolites.
+L97: 5. Conclusions
+L98: To the best of our knowledge, our study is the first NMR-based investigation that identified the RBJ intake biomarkers and evaluated their changes induced by physical activity. This study was not aimed at evaluating the metabolic effects of RBJ on performance, which has been often related to the high nitrate content of RBJ and to the physiological effect of nitric oxide. Our study showed a different behavior in the urinary excretion of the identified RBJ intake biomarkers in relation to physical activity. These differences could reflect the physiology of the gastrointestinal system, involving the splanchnic blood flux and/or intestinal permeability, and thus leading to a better passage of molecules. The possibility of influencing through physical activity the adsorption of plant bioactive compounds is very intriguing, since the intestinal transport of these molecules mainly occurs via diffusion processes or paracellular mechanisms.
+L99: This investigation opens a new perspective on the importance of food bioavailability for human health and athletic performance. It is evident that the effect could depend on the physical exercise intensity and should be further confirmed.
+L100: Figure 1 Urine sampling and intake of beetroot juice and placebo in the three experimental sessions.
+L101: Figure 2 From the bottom to the top,  1 H NMR urinary spectra of one subject collected at T1 (blue), T2 (red), and T3 (black) in session B for diagnostic signals of ( a ) 4-methylpyridine-2-carboxylic acid and ( b ) dopamine-3-O-sulfate.
+L102: Figure 3 Boxplot of 4-methylpyridine-2-carboxylic acid and dopamine-3-O-sulfate for all the individuals across the sampling time for experimental session A. Statistical significance was assessed by two-way ANOVA—all pairwise multiple comparison procedures (Bonferroni  t -test). A  p -value of 0.05 was considered as the threshold for statistical significance, which is reported as Greek letters (α or β or γ) in the boxplots. The same letters indicate that there is no statistically significant difference; different letters indicate that there is a statistically significant difference among groups.
+L103: Figure 4 Boxplot of 4-methylpyridine-2-carboxylic acid and dopamine-3-O-sulfate for all the individuals across the sampling time for experimental session B. Statistical significance was assessed by two-way ANOVA—all pairwise multiple comparison procedures (Bonferroni  t -test). A  p -value of 0.05 was considered as the threshold for statistical significance, which is reported as Greek letters (α or β or γ) in the boxplots. The same letters indicate that there is no statistically significant difference; different letters indicate that there is a statistically significant difference among groups.
+L104: Figure 5 Boxplot of 4-methylpyridine-2-carboxylic acid and dopamine-3-O-sulfate at T1, T2, T3, and T4 for days A (blue) and B (red). Red asterisk indicates a statistically significant difference, according to paired Student’s  t -test ( p  < 0.05) performed between subjects at session A and session B.
+L105: Figure 6 PLS-DA performed between subjects at day A (blue) and day B (red):  left-side —score plot;  right-side —regression coefficient values reported as horizontal histograms. In blue are reported the metabolites which are higher on day A, while in red are reported the metabolites which are higher on day B.
+L106: Figure 7 Boxplot of urinary biomarkers related to physical activity. A (blue) indicates experimental session at rest, B (red) indicating experimental session with physical activity, being equal the RBJ intake.
+L107: Figure 8 PLS-DA performed between subjects on day B (red) and day C (green):  left -side—score plot;  right -side—regression coefficient values reported as horizontal histograms. In red are reported the metabolites which are higher on day B, while in green are reported the metabolites which are higher on day C.
+L108: Figure 9 Boxplot of urinary biomarkers related to red beetroot juice intake. B (red) indicates RBJ intake, C (green) indicates placebo intake, being equal the physical activity.
+L109: Figure 10 Possible metabolic fate of betanin in the stomach.
+L110: Figure 11 Physiologic model of intestinal absorption for dopamine, betanin, and 4-methylpyridine-2-carboxylic acid.
+L111: Click here for additional data file.
+L112: 1. Chhikara N. 
+L113:  Kushwaha K. 
+L114:  Sharma P. 
+L115:  Gat Y. 
+L116:  Panghal A. 
+L117:  Bioactive Compounds of Beetroot and Utilization in Food Processing Industry: A Critical Review Food Chem. 2019 272 192 200 10.1016/j.foodchem.2018.08.022 30309532
+L118: 2. Georgiev V.G. 
+L119:  Weber J. 
+L120:  Kneschke E.-M. 
+L121:  Denev P.N. 
+L122:  Bley T. 
+L123:  Pavlov A.I. 
+L124:  Antioxidant Activity and Phenolic Content of Betalain Extracts from Intact Plants and Hairy Root Cultures of the Red Beetroot Beta Vulgaris Cv. Detroit Dark Red Plant Foods Hum. Nutr. 2010 65 105 111 10.1007/s11130-010-0156-6 20195764
+L125: 3. Tesoriere L. 
+L126:  Allegra M. 
+L127:  Butera D. 
+L128:  Livrea M.A. 
+L129:  Absorption, Excretion, and Distribution of Dietary Antioxidant Betalains in LDLs: Potential Health Effects of Betalains in Humans Am. J. Clin. Nutr. 2004 80 941 945 10.1093/ajcn/80.4.941 15447903
+L130: 4. Fu Y. 
+L131:  Shi J. 
+L132:  Xie S.-Y. 
+L133:  Zhang T.-Y. 
+L134:  Soladoye O.P. 
+L135:  Aluko R.E. 
+L136:  Red Beetroot Betalains: Perspectives on Extraction, Processing, and Potential Health Benefits J. Agric. Food Chem. 2020 68 11595 11611 10.1021/acs.jafc.0c04241 33040529
+L137: 5. Giampaoli O. 
+L138:  Sciubba F. 
+L139:  Conta G. 
+L140:  Capuani G. 
+L141:  Tomassini A. 
+L142:  Giorgi G. 
+L143:  Brasili E. 
+L144:  Aureli W. 
+L145:  Miccheli A. 
+L146:  Red Beetroot’s NMR-Based Metabolomics: Phytochemical Profile Related to Development Time and Production Year Foods 2021 10 1887 10.3390/foods10081887 34441664
+L147: 6. Domínguez R. 
+L148:  Cuenca E. 
+L149:  Maté-Muñoz J.L. 
+L150:  García-Fernández P. 
+L151:  Serra-Paya N. 
+L152:  Estevan M.C.L. 
+L153:  Herreros P.V. 
+L154:  Garnacho-Castaño M.V. 
+L155:  Effects of Beetroot Juice Supplementation on Cardiorespiratory Endurance in Athletes. A Systematic Review Nutrients 2017 9 43 10.3390/nu9010043 28067808
+L156: 7. Kozlowska L. 
+L157:  Mizera O. 
+L158:  Mroz A. 
+L159:  An Untargeted Metabolomics Approach to Investigate the Metabolic Effect of Beetroot Juice Supplementation in Fencers—A Preliminary Study Metabolites 2020 10 100 10.3390/metabo10030100 32168803
+L160: 8. Rein M.J. 
+L161:  Renouf M. 
+L162:  Cruz-Hernandez C. 
+L163:  Actis-Goretta L. 
+L164:  Thakkar S.K. 
+L165:  da Silva Pinto M. 
+L166:  Bioavailability of Bioactive Food Compounds: A Challenging Journey to Bioefficacy Br. J. Clin. Pharmacol. 2013 75 588 602 10.1111/j.1365-2125.2012.04425.x 22897361
+L167: 9. Hadadi N. 
+L168:  Berweiler V. 
+L169:  Wang H. 
+L170:  Trajkovski M. 
+L171:  Intestinal Microbiota as a Route for Micronutrient Bioavailability Curr. Opin. Endocr. Metab. Res. 2021 20 100285 10.1016/j.coemr.2021.100285 34676307
+L172: 10. Barajas-Galindo D.E. 
+L173:  González Arnáiz E. 
+L174:  Ferrero Vicente P. 
+L175:  Ballesteros-Pomar M.D. 
+L176:  Effects of Physical Exercise in Sarcopenia. A Systematic Review Endocrinol. Diabetes Y Nutr. 2021 68 159 169 10.1016/j.endinu.2020.02.010
+L177: 11. Cerqueira É. 
+L178:  Marinho D.A. 
+L179:  Neiva H.P. 
+L180:  Lourenço O. 
+L181:  Inflammatory Effects of High and Moderate Intensity Exercise—A Systematic Review Front. Physiol. 2020 10 1550 10.3389/fphys.2019.01550 31992987
+L182: 12. Kiela P.R. 
+L183:  Ghishan F.K. 
+L184:  Physiology of Intestinal Absorption and Secretion Best Pract. Res. Clin. Gastroenterol. 2016 30 145 159 10.1016/j.bpg.2016.02.007 27086882
+L185: 13. Clauss M. 
+L186:  Gérard P. 
+L187:  Mosca A. 
+L188:  Leclerc M. 
+L189:  Interplay between Exercise and Gut Microbiome in the Context of Human Health and Performance Front. Nutr. 2021 8 637010 10.3389/fnut.2021.637010 34179053
+L190: 14. Dékány M. 
+L191:  Nemeskéri V. 
+L192:  Györe I. 
+L193:  Harbula I. 
+L194:  Malomsoki J. 
+L195:  Pucsok J. 
+L196:  Antioxidant Status of Interval-Trained Athletes in Various Sports Int. J. Sport. Med. 2006 27 112 116 10.1055/s-2005-865634
+L197: 15. Tomassini A. 
+L198:  Sciubba F. 
+L199:  Di Cocco M.E. 
+L200:  Capuani G. 
+L201:  Delfini M. 
+L202:  Aureli W. 
+L203:  Miccheli A. 
+L204:  1H NMR-Based Metabolomics Reveals a Pedoclimatic Metabolic Imprinting in Ready-to-Drink Carrot Juices J. Agric. Food Chem. 2016 64 5284 5291 10.1021/acs.jafc.6b01555 27281439
+L205: 16. Lucía A. 
+L206:  Sánchez O. 
+L207:  Carvajal A. 
+L208:  Chicharro J.L. 
+L209:  Analysis of the Aerobic-Anaerobic Transition in Elite Cyclists during Incremental Exercise with the Use of Electromyography Br. J. Sport. Med. 1999 33 178 185 10.1136/bjsm.33.3.178
+L210: 17. Collins C. 
+L211:  McNamara A.E. 
+L212:  Brennan L. 
+L213:  Role of Metabolomics in Identification of Biomarkers Related to Food Intake Proc. Nutr. Soc. 2019 78 189 196 10.1017/S002966511900048X 30767789
+L214: 18. Andersen M.-B.S. 
+L215:  Kristensen M. 
+L216:  Manach C. 
+L217:  Pujos-Guillot E. 
+L218:  Poulsen S.K. 
+L219:  Larsen T.M. 
+L220:  Astrup A. 
+L221:  Dragsted L. 
+L222:  Discovery and Validation of Urinary Exposure Markers for Different Plant Foods by Untargeted Metabolomics Anal. Bioanal. Chem. 2014 406 1829 1844 10.1007/s00216-013-7498-5 24390407
+L223: 19. Goldstein D.S. 
+L224:  Swoboda K.J. 
+L225:  Miles J.M. 
+L226:  Coppack S.W. 
+L227:  Aneman A. 
+L228:  Holmes C. 
+L229:  Lamensdorf I. 
+L230:  Eisenhofer G. 
+L231:  Sources and Physiological Significance of Plasma Dopamine Sulfate J. Clin. Endocrinol. Metab. 1999 84 2523 2531 10.1210/jcem.84.7.5864 10404831
+L232: 20. Johnson G.A. 
+L233:  Baker C.A. 
+L234:  Smith R.T. 
+L235:  Radioenzymatic Assay of Sulfate Conjugates of Catecholamines and DOPA in Plasma Life Sci. 1980 26 1591 1598 10.1016/0024-3205(80)90362-8 6770210
+L236: 21. Renskers K.J. 
+L237:  Feor K.D. 
+L238:  Roth J.A. 
+L239:  Sulfation of Dopamine and Other Biogenic Amines by Human Brain Phenol Sulfotransferase J. Neurochem. 1980 34 1362 1368 10.1111/j.1471-4159.1980.tb11216.x 6929898
+L240: 22. Salman E.D. 
+L241:  Kadlubar S.S. 
+L242:  Falany C.N. 
+L243:  Expression and Localization of SULT1A1 and SULT1A3 in Normal Human Brain Drug Metab. Dispos. 2009 37 706 709 10.1124/dmd.108.025767 19171676
+L244: 23. Coughtrie M.W.H. 
+L245:  Function and Organization of the Human Cytosolic Sulfotransferase (SULT) Family Chem. Biol. Interact. 2016 259 2 7 10.1016/j.cbi.2016.05.005 27174136
+L246: 24. Teubner W. 
+L247:  Meinl W. 
+L248:  Florian S. 
+L249:  Kretzschmar M. 
+L250:  Glatt H. 
+L251:  Identification and Localization of Soluble Sulfotransferases in the Human Gastrointestinal Tract Biochem. J. 2007 404 207 215 10.1042/BJ20061431 17335415
+L252: 25. Nieman D.C. 
+L253:  Gillitt N.D. 
+L254:  Sha W. 
+L255:  Meaney M.P. 
+L256:  John C. 
+L257:  Pappan K.L. 
+L258:  Kinchen J.M. 
+L259:  Metabolomics-Based Analysis of Banana and Pear Ingestion on Exercise Performance and Recovery J. Proteome Res. 2015 14 5367 5377 10.1021/acs.jproteome.5b00909 26561314
+L260: 26. Kanazawa K. 
+L261:  Sakakibara H. 
+L262:  High Content of Dopamine, a Strong Antioxidant, in Cavendish Banana J. Agric. Food Chem. 2000 48 844 848 10.1021/jf9909860 10725161
+L263: 27. Frank T. 
+L264:  Stintzing F.C. 
+L265:  Carle R. 
+L266:  Bitsch I. 
+L267:  Quaas D. 
+L268:  Straß G. 
+L269:  Bitsch R. 
+L270:  Netzel M. 
+L271:  Urinary Pharmacokinetics of Betalains Following Consumption of Red Beet Juice in Healthy Humans Pharmacol. Res. 2005 52 290 297 10.1016/j.phrs.2005.04.005 15964200
+L272: 28. Sadowska-Bartosz I. 
+L273:  Bartosz G. 
+L274:  Biological Properties and Applications of Betalains Molecules 2021 26 2520 10.3390/molecules26092520 33925891
+L275: 29. Vieira Teixeira da Silva D. 
+L276:  dos Santos Baião D. 
+L277:  de Oliveira Silva F. 
+L278:  Alves G. 
+L279:  Perrone D. 
+L280:  Mere Del Aguila E. 
+L281:  M. Flosi Paschoalin V. 
+L282:  Betanin, a Natural Food Additive: Stability, Bioavailability, Antioxidant and Preservative Ability Assessments Molecules 2019 24 458 10.3390/molecules24030458 30696032
+L283: 30. Herbach K.M. 
+L284:  Stintzing F.C. 
+L285:  Carle R. 
+L286:  Betalain Stability and Degradation—Structural and Chromatic Aspects J. Food Sci. 2006 71 R41 R50 10.1111/j.1750-3841.2006.00022.x
+L287: 31. Nabokina S.M. 
+L288:  Kashyap M.L. 
+L289:  Said H.M. 
+L290:  Mechanism and Regulation of Human Intestinal Niacin Uptake Am. J. Physiol. Cell Physiol. 2005 289 C97 C103 10.1152/ajpcell.00009.2005 15728713
+L291: 32. Zhang J. 
+L292:  Wang H. 
+L293:  Fan Y. 
+L294:  Yu Z. 
+L295:  You G. 
+L296:  Regulation of Organic Anion Transporters: Role in Physiology, Pathophysiology, and Drug Elimination Pharmacol. Ther. 2021 217 107647 10.1016/j.pharmthera.2020.107647 32758646
+L297: 33. Dokladny K. 
+L298:  Zuhl M.N. 
+L299:  Moseley P.L. 
+L300:  Intestinal Epithelial Barrier Function and Tight Junction Proteins with Heat and Exercise J. Appl. Physiol. (1985) 2016 120 692 701 10.1152/japplphysiol.00536.2015 26359485
+L301: 34. Shing C.M. 
+L302:  Peake J.M. 
+L303:  Lim C.L. 
+L304:  Briskey D. 
+L305:  Walsh N.P. 
+L306:  Fortes M.B. 
+L307:  Ahuja K.D.K. 
+L308:  Vitetta L. 
+L309:  Effects of Probiotics Supplementation on Gastrointestinal Permeability, Inflammation and Exercise Performance in the Heat Eur. J. Appl. Physiol. 2014 114 93 103 10.1007/s00421-013-2748-y 24150782
+L310: 35. Zuhl M. 
+L311:  Dokladny K. 
+L312:  Mermier C. 
+L313:  Schneider S. 
+L314:  Salgado R. 
+L315:  Moseley P. 
+L316:  The Effects of Acute Oral Glutamine Supplementation on Exercise-Induced Gastrointestinal Permeability and Heat Shock Protein Expression in Peripheral Blood Mononuclear Cells Cell Stress Chaperones 2015 20 85 93 10.1007/s12192-014-0528-1 25062931
+L317: 36. Gubert C. 
+L318:  Kong G. 
+L319:  Renoir T. 
+L320:  Hannan A.J. 
+L321:  Exercise, Diet and Stress as Modulators of Gut Microbiota: Implications for Neurodegenerative Diseases Neurobiol. Dis. 2020 134 104621 10.1016/j.nbd.2019.104621 31628992
+L322: 37. Miyazaki T. 
+L323:  Honda A. 
+L324:  Ikegami T. 
+L325:  Iwamoto J. 
+L326:  Monma T. 
+L327:  Hirayama T. 
+L328:  Saito Y. 
+L329:  Yamashita K. 
+L330:  Matsuzaki Y. 
+L331:  Simultaneous Quantification of Salivary 3-Hydroxybutyrate, 3-Hydroxyisobutyrate, 3-Hydroxy-3-Methylbutyrate, and 2-Hydroxybutyrate as Possible Markers of Amino Acid and Fatty Acid Catabolic Pathways by LC–ESI–MS/MS SpringerPlus 2015 4 494 10.1186/s40064-015-1304-0 26389019
+L332: 38. Pechlivanis A. 
+L333:  Kostidis S. 
+L334:  Saraslanidis P. 
+L335:  Petridou A. 
+L336:  Tsalis G. 
+L337:  Mougios V. 
+L338:  Gika H.G. 
+L339:  Mikros E. 
+L340:  Theodoridis G.A. 
+L341:  1H NMR-Based Metabonomic Investigation of the Effect of Two Different Exercise Sessions on the Metabolic Fingerprint of Human Urine J. Proteome Res. 2010 9 6405 6416 10.1021/pr100684t 20932058
+L342: 39. Pechlivanis A. 
+L343:  Papaioannou K.G. 
+L344:  Tsalis G. 
+L345:  Saraslanidis P. 
+L346:  Mougios V. 
+L347:  Theodoridis G.A. 
+L348:  Monitoring the Response of the Human Urinary Metabolome to Brief Maximal Exercise by a Combination of RP-UPLC-MS and 1H NMR Spectroscopy J. Proteome Res. 2015 14 4610 4622 10.1021/acs.jproteome.5b00470 26419189
+L349: 40. Agostini F. 
+L350:  Biolo G. 
+L351:  Effect of Physical Activity on Glutamine Metabolism Curr. Opin. Clin. Nutr. Metab. Care 2010 13 58 10.1097/MCO.0b013e328332f946 19841583
+L352: 41. Hood D.A. 
+L353:  Terjung R.L. 
+L354:  Amino Acid Metabolism During Exercise and Following Endurance Training Sport Med. 1990 9 23 35 10.2165/00007256-199009010-00003 2408116
+L355: 42. Wang X. 
+L356:  Niu C. 
+L357:  Lu J. 
+L358:  Li N. 
+L359:  Li J. 
+L360:  Hydrolyzed Protein Supplementation Improves Protein Content and Peroxidation of Skeletal Muscle by Adjusting the Plasma Amino Acid Spectrums in Rats after Exhaustive Swimming Exercise: A Pilot Study J. Int. Soc. Sport Nutr. 2014 11 5 10.1186/1550-2783-11-5 24565110
+L361: 43. Mitchell J.B. 
+L362:  Pizza F.X. 
+L363:  Paquet A. 
+L364:  Davis B.J. 
+L365:  Forrest M.B. 
+L366:  Braun W.A. 
+L367:  Influence of Carbohydrate Status on Immune Responses before and after Endurance Exercise J. Appl. Physiol. (1985) 1998 84 1917 1925 10.1152/jappl.1998.84.6.1917 9609785
+L368: 44. Zieliński J. 
+L369:  Kusy K. 
+L370:  Pathways of Purine Metabolism: Effects of Exercise and Training in Competitive Athletes Trends Sport Sci. 2015 3 103 112
+L371: 45. Steinbacher P. 
+L372:  Eckl P. 
+L373:  Impact of Oxidative Stress on Exercising Skeletal Muscle Biomolecules 2015 5 356 377 10.3390/biom5020356 25866921
+L374: 46. Balsalobre-Fernández C. 
+L375:  Romero-Moraleda B. 
+L376:  Cupeiro R. 
+L377:  Peinado A.B. 
+L378:  Butragueño J. 
+L379:  Benito P.J. 
+L380:  The Effects of Beetroot Juice Supplementation on Exercise Economy, Rating of Perceived Exertion and Running Mechanics in Elite Distance Runners: A Double-Blinded, Randomized Study PLoS ONE 2018 13 e0200517 10.1371/journal.pone.0200517 29995952
+L381: 47. Aura A.-M. 
+L382:  O’Leary K.A. 
+L383:  Williamson G. 
+L384:  Ojala M. 
+L385:  Bailey M. 
+L386:  Puupponen-Pimiä R. 
+L387:  Nuutila A.M. 
+L388:  Oksman-Caldentey K.-M. 
+L389:  Poutanen K. 
+L390:  Quercetin Derivatives Are Deconjugated and Converted to Hydroxyphenylacetic Acids but Not Methylated by Human Fecal Flora in Vitro J. Agric. Food Chem. 2002 50 1725 1730 10.1021/jf0108056 11879065
+L391: 48. Wang D. 
+L392:  Ho L. 
+L393:  Faith J. 
+L394:  Ono K. 
+L395:  Janle E.M. 
+L396:  Lachcik P.J. 
+L397:  Cooper B.R. 
+L398:  Jannasch A.H. 
+L399:  D’Arcy B.R. 
+L400:  Williams B.A. 
+L401:  
+L402:  Role of Intestinal Microbiota in the Generation of Polyphenol-Derived Phenolic Acid Mediated Attenuation of Alzheimer’s Disease β-Amyloid Oligomerization Mol. Nutr. Food Res. 2015 59 1025 1040 10.1002/mnfr.201400544 25689033
+L403: 49. Rothwell J.A. 
+L404:  Urpi-Sarda M. 
+L405:  Boto-Ordoñez M. 
+L406:  Llorach R. 
+L407:  Farran-Codina A. 
+L408:  Barupal D.K. 
+L409:  Neveu V. 
+L410:  Manach C. 
+L411:  Andres-Lacueva C. 
+L412:  Scalbert A. 
+L413:  Systematic Analysis of the Polyphenol Metabolome Using the Phenol-Explorer Database Mol. Nutr. Food Res. 2016 60 203 211 10.1002/mnfr.201500435 26310602
+L414: 50. Kumar N. 
+L415:  Goel N. 
+L416:  Phenolic Acids: Natural Versatile Molecules with Promising Therapeutic Applications Biotechnol. Rep. 2019 24 e00370 10.1016/j.btre.2019.e00370
+L417: 51. Kennedy B.E. 
+L418:  Sharif T. 
+L419:  Martell E. 
+L420:  Dai C. 
+L421:  Kim Y. 
+L422:  Lee P.W.K. 
+L423:  Gujar S.A. 
+L424:  NAD+ Salvage Pathway in Cancer Metabolism and Therapy Pharmacol. Res. 2016 114 274 283 10.1016/j.phrs.2016.10.027 27816507
+L425: 52. Stanulović M. 
+L426:  Chaykin S. 
+L427:  Aldehyde Oxidase: Catalysis of the Oxidation of N 1 -Methylnicotinamide and Pyridoxal Arch. Biochem. Biophys. 1971 145 27 34 10.1016/0003-9861(71)90005-1 4256441
+L428: 53. Aoyama K. 
+L429:  Matsubara K. 
+L430:  Okada K. 
+L431:  Fukushima S. 
+L432:  Shimizu K. 
+L433:  Yamaguchi S. 
+L434:  Uezono T. 
+L435:  Satomi M. 
+L436:  Hayase N. 
+L437:  Ohta S. 
+L438:  
+L439:  N-Methylation Ability for Azaheterocyclic Amines Is Higher in Parkinson’s Disease: Nicotinamide Loading Test J. Neural Transm. (Vienna) 2000 107 985 995 10.1007/s007020070047 11041277
+L440: 54. Hong S. 
+L441:  Moreno-Navarrete J.M. 
+L442:  Wei X. 
+L443:  Kikukawa Y. 
+L444:  Tzameli I. 
+L445:  Prasad D. 
+L446:  Lee Y. 
+L447:  Asara J.M. 
+L448:  Fernandez-Real J.M. 
+L449:  Maratos-Flier E. 
+L450:  
+L451:  Nicotinamide N-Methyltransferase Regulates Hepatic Nutrient Metabolism through Sirt1 Protein Stabilization Nat. Med. 2015 21 887 894 10.1038/nm.3882 26168293
+L452: 55. Radak Z. 
+L453:  Suzuki K. 
+L454:  Posa A. 
+L455:  Petrovszky Z. 
+L456:  Koltai E. 
+L457:  Boldogh I. 
+L458:  The Systemic Role of SIRT1 in Exercise Mediated Adaptation Redox Biol. 2020 35 101467 10.1016/j.redox.2020.101467 32086007
+L459: Acknowledgments
+L460: We acknowledge the B.I.C.Y. PON project by MISE-FESR “Imprese e competitività” 2014–2020, the company “Aureli Mario S.S.” and Adriano Patriarca who has given his contribution in statistical model validation.
+L461: # **Metabolic intake biomarkers of red beetroot juice at rest** **and after physical exercise**
+L462: **Ottavia Giampaoli** **[1,2,†]** **, Cristian Ieno** **[3,†]** **, Fabio Sciubba** **[1,2]** **, Mariangela Spagnoli** **[1,4]** **, Alfredo Miccheli** **[1,2, *]** **,**
+L463: **Alberta Tomassini** **[5]** **, Walter Aureli** **[5]** **, Luigi Fattorini** **[3]**
+L464: 1 NMR-based Metabolomics Laboratory (NMLab), Sapienza University of Rome, 00185 Rome, Italy;
+L465: [ottavia.giampaoli@uniroma1.it; fabio.sciubba@uniroma1.it; mariangela.spagnoli@uniroma1.it;](mailto:fabio.sciubba@uniroma1.it)
+L466: [alfredo.miccheli@uniroma1.it](mailto:alfredo.miccheli@uniroma1.it)
+L467: 2 Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy;
+L468: 3 Department of Physiology and Pharmacology "Vittorio Erspamer", Sapienza University of Rome,
+L469: [00185 Rome, Italy; cristian.ieno@uniroma1.it; luigi.fattorini@uniroma1.it;](mailto:cristian.ieno@uniroma1.it)
+L470: 4 Department of Occupational Medicine, Epidemiology and Hygiene, INAIL, Monte Porzio Catone,
+L471: [00078 Rome, Italy; m.spagnoli@uniroma1.it;](mailto:m.spagnoli@uniroma1.it)
+L472: 5 R&D Aureli Mario S. S. Agricola, Via Mario Aureli 7, Ortucchio (Aq), 67050, Italy
+L473: ***** [Correspondence: alfredo.miccheli@uniroma1.it](mailto:alfredo.miccheli@uniroma1.it)
+L474:                    - These authors contributed equally to this work
+L475: Supplementary Material
+L476: Figure S1. [1] H NMR spectrum of red beetroot juice hydroalcoholic extract.
+L477: Table S1. Assignment of red beetroot juice (RBJ) extract
+L478: |Metabolite|1H δ (ppm)|Multiplicity|Assignment|
+L479: |---|---|---|---|
+L480: |1. Leucine (Leu)|**0.97**<br>1.72<br>1.73<br>3.74|**m **<br>m <br>m <br>m|**δ,δ’-CH3 **<br>-CH <br>β-CH2 <br>α-CH|
+L481: |2. Isoleucine (Ile)|0.95<br>**1.02**<br>1.25<br>1.49<br>1.99<br>3.69|t <br>**d **<br>m <br>m <br>m <br>m|δ-CH3 <br>**-CH3 **<br>’-CH <br>’’-CH <br>β-CH <br>α-CH|
+L482: |3. Valine (Val)|0.99<br>**1.05**<br>2.29<br>3.62|d <br>**d **<br>m <br>m|-CH3 <br>**’-CH3 **<br>β-CH <br>α-CH|
+L483: |4. Threonine (Thr)|**1.32**<br>3.60<br>4.27|**d **<br>m <br>m|**-CH3 **<br>α-CH<br>β-CH|
+L484: |5. Alanine (Ala)|**1.49**<br>3.80|**d **<br>q|**β-CH3 **<br>α-CH|
+L485: |6. Acetic acid (AA)|**1.92**|**s **|**CH3**|
+L486: |7. Gamma amino<br>butyric acid (GABA)|1.91<br>2.35<br>**3.03**|m <br>t <br>**t**|β-CH2 <br>α-CH2 <br>**-CH2**|
+L487: |8. Glutamate|2.09<br>**2.34**<br>3.74|m <br>**m **<br>m|γ-CH2 <br>**β-CH2 **<br>α-CH|
+L488: |9. Glutamine|2.11<br>**2.45**<br>3.81|m <br>m <br>m|γ-CH2 <br>**β-CH2 **<br>α-CH|
+L489: |10. Citric acid (CA)|**2.67**<br>2.71|**d **<br>d|**α,****-CH**<br>α','-CH|
+L490: |11. Asparagine (Asn)|2.86<br>**2.95**<br>4.01|dd<br>**dd**<br>m|β’-CH <br>**β-CH **<br>α-CH|
+L491: |12. Choline (Chn)|**3.21**<br>3.51<br>4.07|**s **<br>t <br>t|**N-(CH3)3 **<br>CH2 <br>CH2|
+L492: |13. Betaine|**3.26**<br>3.84|**s **<br>s|**N-(CH3)3 **<br>CH2|
+L493: |14. Fructose|3.69<br>\ <br>**4.22**<br>4.06<br>3.90|m <br>\ <br>**d **<br>m <br>m|CH-1<br>C-2<br>**CH-3**<br>CH-4<br>CH-5|
+L494: |Col1|3.82|m|CH-6|
+L495: |---|---|---|---|
+L496: |15. Malate|**4.31**<br>2.38,2.69|**dd**<br>dd|**α-CH**<br>β,β’-CH|
+L497: |16. β-Arabinose|**4.58**<br>3.92<br>3.65<br>3.50<br>3.67-3.88|**d **<br>m <br>m <br>m <br>m|**CH-1**<br>CH-4<br>CH-3<br>CH-2<br>CH2-6|
+L498: |17. β-Glucose|**4.65**<br>3.26<br>3.50<br>3.42<br>3.48<br>3.74, 3.91|**d **<br>m <br>m <br>m <br>m <br>m|**CH-1**<br>CH-2<br>CH-3<br>CH-4<br>CH-5<br>CH2-6|
+L499: |18. α-Glucose|**5.25**<br>3.55<br>3.72<br>3.42<br>3.84<br>3.73, 3.90|**d **<br>m <br>m <br>m <br>m <br>m|**CH-1**<br>CH-2<br>CH-3<br>CH-4<br>CH-5<br>CH2-6|
+L500: |19. Sucrose|**5.42**<br>3.59<br>3.79<br>3.48<br>3.85<br>3.82<br>3.69<br>\ <br>4.22<br>4.06<br>3.90<br>3.82|**d **<br>m <br>m <br>m <br>m <br>m <br>m <br>\ <br>m <br>m <br>m <br>m|**G CH-1**<br>CH-2<br>CH-3<br>CH-4<br>CH-5<br>CH2-6<br>F CH2-1’<br>C-2<br>CH-3’<br>CH-4’<br>CH-5’<br>CH2-6|
+L501: |20. 4-Hydroxycumarate|6.36<br>7.49<br>6.80<br>7.51|d <br>d <br>m <br>m|α-CH<br>β-CH<br>CH-2,6<br>CH-3,5|
+L502: |21. Betalamic acid|**6.02**<br>6.32<br>8.38|**d **<br>bs<br>d|**12-CH**<br>18-CH<br>11-CH|
+L503: |22. Fumaric (FumA)|**6.51**|**s **|**CH=CH**|
+L504: |23. Dopamine|6.87<br>6.85<br>**6.73**<br>3.22<br>2.88|m <br>m <br>**pd**<br>t <br>t|CH-2<br>CH-4<br>**CH-5**<br>α-CH2 <br>β-CH2|
+L505: |24. Betanin|7.04<br>**7.11**|bs<br>**bs**|CH-4<br>**CH-7**|
+L506: |25. Tyr 7.17<br>6.89<br>3.15<br>3.93|d CH-2,6<br>d CH-3,5<br>dd β-CH2<br>dd α-CH|
+L507: |---|---|
+L508: |26. Phenylalanine (Phe)<br>7.32<br>7.38<br>**7.42**<br>3.27<br>3.98|d <br>d <br>**d **<br>m <br>dd<br>CH-2,6<br>CH-4<br>**CH-3,5**<br>β-CH2 <br>α-CH|
+L509: |27. Triptophan (Trp)<br>7.20<br>7.27<br>**7.53**<br>7.73|t <br>t <br>**d **<br>d <br>CH-5<br>CH-6<br>**CH-7**<br>CH-4|
+L510: |28. 4-Hydroxybenzoate<br>7.80<br>6.84|d <br>d <br>CH-2,6<br>CH-3,5|
+L511: |29. Fumaric acid (FA)<br>**8.46**|**s **<br>**CH**|
+L512: |30. Trigonelline<br>**9.11**<br>8.83<br>8.11<br>8.83<br>4.43|**s **<br>m <br>m <br>m <br>s <br>**CH-1**<br>CH-3<br>CH-4<br>CH-5<br>CH3|
+L513: |0.10<br>0.09<br>0.08<br>0.07<br>0.06<br>0.05<br>0.04<br>0.03<br>0.02<br>0.01<br>0|Col2|
+L514: |---|---|
+L515: |0<br>0.01<br>0.02<br>0.03<br>0.04<br>0.05<br>0.06<br>0.07<br>0.08<br>0.09<br>0.10||
+L516: 12 11 10 9 8 7 6 5 4 3 2 1 0
+L517: Chemical Shift (ppm)
+L518: Figure S2. [1] H NMR urinary spectrum of a control sample (T0)
+L519: Figure S3. [1] H NMR spectrum of urine, from 1 ppm to 4 ppm.
+L520: Figure S4. [1] H NMR spectrum of urine, from 6.5 ppm to 9 ppm.
+L521: Table S2. Resonance assignment of urine
+L522: |Metabolite|1H δ ppm|Multiplicity|Assignment|
+L523: |---|---|---|---|
+L524: |1. <br>Isoleucine (Ile)|0.92<br>**1.01**<br>1.99|t <br>**d **<br>|CH3 <br>**CH3 **<br>CH|
+L525: |2. <br>Valine (Val)|0.99<br>**1.05**|d <br>**d **|CH3 <br>**CH3’ **|
+L526: |3. <br>3-Hydroxyisobutyrate (3-HIB)|**1.07**<br>2.49<br>3.54<br>3.71<br>|**d **|**CH3 **|
+L527: |4. <br>Erythro-2,3-<br>dihydroxybutyrate (Erythro-<br>2,3-DHB)|**1.11**<br>4.19|**d **<br>m|**CH3 **<br>CH|
+L528: |5. <br>3-Hydroxy-3-methylbutyrate<br>(3-H-3-MB)|**1.27**|**s **|**CH3, CH3’ **|
+L529: |6. <br>Lactate|**1.33**<br>4.11|**d **<br>q|**CH3 **<br>CH|
+L530: |7. <br>Threonine (Thr)|**1.33**<br>3.59<br>4.26|**d **<br>d <br>m <br>|**CH3 **<br>α-CH<br>β-CH|
+L531: |8. <br>2-Hydroxyisobutyrate (2-HIB)|**1.36**|**s **|**CH3, CH3’ **|
+L532: |9. <br>Alanine (Ala)|**1.49**<br>3.78|**d **<br>q|**CH3 **<br>α-CH|
+L533: |10. Acetate|**1.93**<br>|**s **|**CH3 **|
+L534: |11. N-acetylglutamine (NAcGln)|1.95<br>2.12<br>**2.27**<br>4.18<br>7.97|<br> <br>**m **<br> <br>bs|<br> <br>**CH2 **|
+L535: |12. Pyroglutamate (pyro-Glu)|2.03<br>**2.40**<br>2.50<br>4.19|m <br>**m **<br>m <br>dd|CH2 <br>**CH**<br>CH<br>CH|
+L536: |13. Glutamine (Gln)|2.13<br>**2.46**<br>3.78|m <br>**m **<br>t|CH2 <br>**CH2 **<br>CH|
+L537: |14. p-Cresol sulfate (p-CrS)|**2.35**<br>7.21<br>7.28|**bs**<br>dd<br>dd|**CH3 **<br>CH, CH’<br>CH, CH’|
+L538: |15. Citrate|**2.54**<br>2.69|**d **<br>d|**CH, CH’**<br>CH, CH’|
+L539: |16. Dimethylamine (DMA)|**2.73**|**s **|**CH3, CH3’ **|
+L540: |17. Sarcosine (Sar)|**2.78**|**s **|**CH3 **|
+L541: |18. Dopamine-3-O-Sulfate (DA3S)|**2.94**<br>3.27<br>7.07<br>6.83<br>6.78|**t **<br>t <br>d <br>d <br>dd|**CH2 **<br>CH2 <br>CH-2<br>CH-5<br>CH-6|
+L542: |19. Creatine|**3.05**<br>3.95|**s **<br>s|**CH3 **<br>CH2|
+L543: |20. Creatinine|3.03<br>**4.05**|s <br>**s**|CH3 <br>**CH2**|
+L544: |21. Trimethylamine N-Oxide<br>(TMAO)|3.27|s|CH3<br>CH2|
+L545: |---|---|---|---|
+L546: |22. Taurine (Tau)|3.27<br>**3.43**|t <br>**t **|CH2 <br>**CH2**|
+L547: |23. Glycine (Gly)|**3.57**|**s **|**CH2 **|
+L548: |24. 4-Hydroxyphenylacetate (4-<br>HPA)|**6.87**<br>7.17|**dd**<br>dd|**CH,CH**<br>CH,CH|
+L549: |25. Tyrosine (Tyr)|**6.90**<br>7.18<br>|**dd**<br>dd|**2-CH,6-CH**<br>3-CH,5-CH|
+L550: |26. 4-Hydroxybenzoate (4-HBz)|6.97<br>**7.76**|dd<br>**dd**|2-CH,6-CH<br>**3-CH,5-CH**|
+L551: |27. Tryptophan (Trp)|7.20<br>7.27-<br>7.29-<br>**7.50**<br>7.70|- <br>- <br>- <br>**pd**<br>pd|3-CH<br>2-CH<br> <br>**5-CH**<br>4-CH|
+L552: |28. Phenylacetylglycine (PAG)|**7.36**-7.42|**m **<br>|**CH 2-5**|
+L553: |29. Hippurate (Hipp)|3.97<br>**7.55**<br>7.64<br>7.83|d <br>**m **<br>m <br>m|CH2<br>**3,5-CH**<br>4-CH<br>2,6-CH|
+L554: |30. Pseudouridine (PSI)|**7.67**|**bs**|**CH**|
+L555: |31. Hypoxanthine (Hyp)|**8.19**<br>8.21|**s **<br>s|**2-CH**<br>7-CH|
+L556: |32. N1-Methyl-2-pyridone-5-<br>carboxamide (2PY)<br>|3.64<br>6.67<br>7.98<br>**8.33**|s <br>d <br>d <br>**dd**|N-CH3 <br>3-CH<br>4-CH<br>**6-CH**|
+L557: |33. Formate|**8.46**|**s **|**CH**|
+L558: |34. 4-Methylpyridine-2-<br>carboxylate (4MP2CA)|2.46<br>7.47<br>7.88<br>**8.48**|s <br>dd<br>**d **<br>**d **|CH3<br>CH-5<br>CH-3<br>**CH-6**|
+L559: |35. U01|8.06<br>8.54<br>**8.78**|<br>dd<br>**d **|<br> <br>**6-CH**|
+L560: |36. Trigonelline (Trig)|4.44<br>8.08<br>8.84<br>**9.12**|s <br>m <br>m <br>**s **|N-CH3 <br>5-CH<br>4,6-CH<br>**2-CH**|
+L561: |37. 1-Methylnicotinamide<br>(1-<br>MNA)|8.17<br>8.89<br>8.96<br>**9.28**|t <br>d <br>d <br>**s **|5-CH<br>4-CH<br>6-CH<br>**2-CH**|
+L562: |38. Nicotinamide Ribotide|**9.33**<br>|**bs**|**6-CH**|
+L563: Supplementary Figure S5. [1] H NMR urine of one subject collected in day B (red) and day C (green)
+L564: three hours after the juice intake (T3); a) 4-methylpyridine-2-carboxylic acid; b) dopamine-3-Osulphate.
+L565: Figure S6. Scores plot of principal component analysis (PCA) performed on all the subjects,
+L566: considering all five sampling times and all the experimental sessions.
+L567: Figure S7. Area Under Receiver Operating Characteristics for PLS-DA between rest and physical
+L568: activity being equal the RBJ intake (A vs B).
+L569: Figure S8. Area Under Receiver Operating Characteristics for PLS-DA between RBJ and placebo
+L570: intake, being equal the physical activity (B vs C).
+L571: Figure S9. Picture of urine collected from the same subject during A) the experimental session with
+L572: placebo and B) the experimental session with RBJ intake, being equal the physical activity.
+L573: # Summary: Table S3 Concentrations of urinary metabolites expressed as µmolmmol of creatinine.xlsx
+L574: - **Sheets**: 1
+L575: - **Total tables**: 1
+L576: ## Sheet: Foglio1
+L577: - Tables found: 1
+L578: ### Table 1: Table_1
+L579: - **Rows**: 102
+L580: - **Columns**: 44
+L581: | Column | Dtype | Non-null | Sample values |
+L582: |--------|-------|----------|---------------|
+L583: | µmol/mmol creatinine | str | 102 | Sbj01_T0A, Sbj01_T0B, Sbj01_T0C |
+L584: | Sex | str | 102 | F, F, F |
+L585: | ID_sex | int64 | 102 | 0, 0, 0 |
+L586: | Subject | int64 | 102 | 1, 1, 1 |
+L587: | Time | str | 102 | T0, T0, T0 |
+L588: | ID Time | int64 | 102 | 0, 0, 0 |
+L589: | Session | str | 102 | A, B, C |
+L590: | ID Session | int64 | 102 | 0, 1, 2 |
+L591: | Ile  | float64 | 102 | 1.0902007137459448, 1.620810332646645, 0.6470727623323324 |
+L592: | Val  | float64 | 102 | 3.0826727509770735, 3.1741190312920513, 2.5008509605365363 |
+L593: | 3-HIB  | float64 | 102 | 5.597498278820904, 5.627265065806426, 6.303743627417433 |
+L594: | E-2,3-DHB | float64 | 102 | 3.9121967047281196, 7.589910447920769, 11.441146216220746 |
+L595: | 3-H3-MB  | float64 | 102 | 7.279408926891149, 5.932775052214109, 9.878778995688068 |
+L596: | LA + Thr  | float64 | 102 | 16.43490129843836, 21.09119456893456, 24.486503433920745 |
+L597: | 2-HIB | float64 | 102 | 4.3566612113708185, 4.0805113844050265, 3.8924333424666875 |
+L598: | Ala  | float64 | 102 | 18.483201577206525, 18.753761262990256, 10.507227168656431 |
+L599: | AA | float64 | 102 | 12.367782616402064, 13.322738538177507, 14.281691740888633 |
+L600: | N-AcGln  | float64 | 102 | 44.90200779375181, 63.52905422117985, 22.68726916901507 |
+L601: | p-Cresol Sulfate  | float64 | 102 | 21.51888557055031, 23.044069493232556, 9.777178927248512 |
+L602: | pyro-Glu | float64 | 102 | 29.497012136224082, 22.176286097006702, 30.509831378610496 |
+L603: | Gln  | float64 | 102 | 47.50758361411718, 29.679521143587234, 60.786456209658134 |
+L604: | Citrate | float64 | 102 | 313.3771146260238, 247.96378721278182, 223.42756829698035 |
+L605: | DMA | float64 | 102 | 35.14698594442698, 50.513637214859266, 34.30501940143548 |
+L606: | Sarcosine  | float64 | 102 | 6.345845623292176, 8.895018484005893, 8.64363511178243 |
+L607: | Dopamine 3-O-Sulphate  | float64 | 102 | 0.6198545710031762, 0.27632853506255173, 0.10818597171989779 |
+L608: | Creatine  | float64 | 102 | 95.31017606640778, 86.26418762426395, 68.51444197220758 |
+L609: | TMAO   | float64 | 102 | 35.976326882515856, 272.0064013521824, 33.377640433836106 |
+L610: | Tau  | float64 | 102 | 19.251270235796966, 16.14361883087892, 42.64815383864339 |
+L611: | Gly  | float64 | 102 | 115.0727939524386, 148.35823774244184, 105.56079328512989 |
+L612: | 4-HPA | float64 | 102 | 25.39715625025954, 20.200751600581082, 13.364822417781602 |
+L613: | Tyr  | float64 | 102 | 11.870799189147194, 6.476099822873382, 5.2492318016915664 |
+L614: | PAG | float64 | 102 | 98.35290990195139, 97.72504273593646, 78.1441041434212 |
+L615: | Trp  | float64 | 102 | 6.224113006254071, 12.557876066288296, 12.033490985075531 |
+L616: | Hipp | float64 | 102 | 509.6333793430517, 215.4818241952439, 605.8065265658448 |
+L617: | PSI | float64 | 102 | 34.102478908017936, 33.6398009298071, 33.8261345036174 |
+L618: | 4-HBz | float64 | 102 | 20.961308755752608, 63.39325143253775, 17.40790556564281 |
+L619: | Hypoxanthine | float64 | 102 | 2.140400137164905, 1.690250804198953, 3.2051560851571237 |
+L620: | 2PY  | float64 | 102 | 7.273460876780647, 16.113335408652212, 8.358059992161763 |
+L621: | Formate  | float64 | 102 | 22.596257765708433, 20.4246179056739, 34.0562902537131 |
+L622: | 4MePyr2CA | float64 | 102 | 0.1797817006291662, 0.2797133477703985, 0.16899140223326 |
+L623: | U01 | float64 | 102 | 12.12702391030866, 7.74745283395452, 8.025329805053852 |
+L624: | Trig  | float64 | 102 | 53.36650912398232, 48.7672958297879, 82.97862650464818 |
+L625: | 1-MNA  | float64 | 102 | 2.5548465414572625, 2.4853220062551196, 1.9335602331739 |
+L626: | Nicotinamide Ribotide | float64 | 102 | 0.8507486753797061, 2.7442799034211784, 1.315839317513691 |
+[29ms]
+

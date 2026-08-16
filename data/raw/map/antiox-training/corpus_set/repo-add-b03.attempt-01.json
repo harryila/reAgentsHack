@@ -1,0 +1,30 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "--repo",
+    "antiox-training-corpus-03c8cb24e8-b03",
+    "repo",
+    "add",
+    "PMC10912565",
+    "PMC11296515",
+    "PMC12195723",
+    "PMC12735994",
+    "PMC12787555",
+    "PMC12845069",
+    "PMC5187546",
+    "PMC5295087",
+    "PMC5756374",
+    "PMC6952046",
+    "PMC8155490"
+  ],
+  "completed_at": "2026-08-16T05:27:02.831961+00:00",
+  "elapsed_seconds": 11.531594374915585,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:26:51.300587+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/repo-add-b03.attempt-01.stderr",
+  "stdout_bytes": 241,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/repo-add-b03.attempt-01.stdout"
+}

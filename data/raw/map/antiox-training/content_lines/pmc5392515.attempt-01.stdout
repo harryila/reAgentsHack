@@ -1,0 +1,894 @@
+L1: Exercise performance and physiological responses: the potential role of redox imbalance
+L2: Physiological Reports (2017)
+L3: Kavey Vidal, Nathaniel Robinson, Stephen J. Ives
+L4: 1 Department of Health and Exercise Sciences Skidmore College Saratoga Springs New York
+L5: Increases in oxidative stress or decreases in antioxidant capacity, or redox imbalance, are known to alter physiological function and has been suggested to influence performance. To date, no study has sought to manipulate this balance in the same participants and observe the impact on physiological function and performance. Using a single‐blind, placebo‐controlled, and counterbalanced design, this study examined the effects of increasing free radicals, via hyperoxic exposure (F i O 2  = 1.0), and/or increasing antioxidant capacity, through consuming an antioxidant cocktail ( AOC ; vitamin‐C, vitamin‐E,  α ‐lipoic acid), on 5‐kilometer (km) cycling time‐trial performance, and the physiological and fatigue responses in healthy college‐aged males. Hyperoxic exposure prior to the 5 km  TT  had no effect on performance, fatigue, or the physiological responses to exercise. The  AOC  significantly reduced average power output (222 ± 11 vs. 214 ± 12 W), increased 5 km time (516 ± 17 vs. 533 ± 18 sec), suppressed ventilation ( V E ; 116 ± 5 vs. 109 ± 13 L/min), despite similar oxygen consumption ( V O 
+L6:  2 ; 43.1 ± 0.8 vs. 44.9 ± 0.2 mL/kg per min), decreased  V E / V O 
+L7:  2  (35.9 ± 2.0 vs. 32.3 ± 1.5 L/min), reduced economy ( V O 
+L8:  2 /W; 0.20 ± 0.01 vs. 0.22 ± 0.01), increased blood lactate (10 ± 0.7 vs. 11 ± 0.7 mmol), and perception of fatigue ( RPE ; 7.39 ± 0.4 vs. 7.60 ± 0.3) at the end of the  TT , as compared to placebo (main effect, placebo vs.  AOC , respectively). Our data demonstrate that prior to exercise, ingesting an  AOC , but not exposure to hyperoxia, likely disrupts the delicate balance between pro‐ and antioxidant forces, which negatively impacts ventilation, blood lactate, economy, perception of fatigue, and performance (power output and 5 km time) in young healthy males. Thus, caution is warranted in athletes taking excess exogenous antioxidants.
+L9: Endurance and Performance; Injury, Stress and Fatigue; Environmental Physiology; Cellular Physiology; Original Research; Original Research
+L10: Antioxidants; exercise performance; fatigue; free radicals; ventilation
+L11: Introduction
+L12: Free radicals, such as reactive oxygen species (ROS), are highly reactive unstable atoms due to their unpaired number of electrons (Ji  1995 ). In vivo ,  free radicals are typically produced either enzymatically (i.e., xanthine oxidase) or in the electron transport chain of the mitochondria, which can acutely impact cellular function, and ultimately damage membranes, cellular proteins, and DNA (Ji  1995 ; Lamina et al.  2013 ). Though, both enzymatic (e.g., superoxide dismutase) and non‐enzymatic circulating (e.g., tocopherols, ascorbate, etc.) antioxidants are able to cope with the production of free radicals, in health, under normal physiological conditions at rest, and during moderate exercise (Ji  1995 ; Lamina et al.  2013 ). Collectively, disturbance in the balance of free radicals and antioxidants, or redox balance, through excess free radical production, reduced antioxidant capacity, or both may have potent physiological impact.
+L13: Redox balance during exercise has been suggested to acutely influence skeletal muscle contractile capacity and ultimately the adaptation to exercise (Reid et al.  1994 ; Lamb and Westerblad  2011 ; Powers et al.  2011a , b ; Westerblad and Allen  2011 ; Reid  2015 ; Cheng et al.  2016 ). Modest elevations in ROS within skeletal muscle, such as during mild to moderate exercise, have been suggested to improve, or even be required for, contractile function (Powers et al.  2011a ; Cheng et al.  2016 ). In contrast, during high‐intensity, unaccustomed, or prolonged exercise, ROS accumulate and/or the antioxidant defense system may not be able to buffer the excessive exercise‐induced ROS, resulting in redox imbalance which has been shown to cause impair skeletal muscle contributing to peripheral fatigue (Reid et al.  1994 ; Reid  2015 ). Additionally, free radicals, specifically ROS, have also been documented to activate or sensitize afferent fibers (Houssiere et al.  2006 ; Delliaux et al.  2009 ), and thus could also conceivably contribute to altered physiological responses and/or perceptions of fatigue. Collectively, redox imbalance can contribute to peripheral, and possibly central, fatigue ultimately impairing exercise performance (Lamina et al.  2013 ). Thus, it has been suggested that increased antioxidant support through exogenous supplementation might inhibit fatigue and increase performance during high‐intensity exercise (Palazzetti et al.  2003 ,  2004 ).
+L14: Accordingly, antioxidant supplements such as vitamin C and vitamin E have been suggested to enhance exercise performance, however, the evidence is mixed (Jourkesh et al.  2007 ) or does not seem to support this claim (Kanter  1998 ; Zoppi et al.  2006 ; Reid  2008 ; Lamina et al.  2013 ). There is some evidence that suggests, thiol donors such as N‐acetylcysteine (NAC) might inhibit fatigue and improve performance (Reid et al.  1994 ; Medved et al.  2004 ; Reid  2008 ), but is only effective at clinical doses and is potentially rife with side effects and adverse reactions (Reid et al.  1994 ; Reid  2015 ). Thus, exploring other potential antioxidants is prudent. While results have been mixed regarding a positive benefit of antioxidants, such as Vitamin C (Kanter  1998 ; Lamina et al.  2013 ), questions remain whether a combination of antioxidants is required, what combination is optimal, and what the optimal dosing might be. To this end, an oral antioxidant cocktail (AOC), composed of vitamin C, vitamin E, and  α ‐lipoic acid, has been documented to significantly reduce free radicals (Richardson et al.  2007 ; Ives et al.  2014 ), suggesting that such a cocktail might mitigate excessive ROS without the myriad of potential side effects associated with NAC (Reid et al.  1994 ; Reid  2015 ). However, to date, no study has investigated whether this AOC is capable of improving exercise performance.
+L15: Additionally, while a line of research has sought to determine the potential benefit of antioxidants on reducing free radicals and performance (“antagonist approach”), no study has sought to experimentally induce free radicals in vivo in humans to determine potential impacts on performance (“agonist approach”). Previous research has shown that breathing supplemental oxygen, in those not medically indicated, increases reactive oxygen species and impairs redox balance (Marcus et al.  1992 ; Carpagnano et al.  2004 ; Ranadive et al.  2014 ), though it is unknown if such an alteration impairs performance. Indeed, correlative studies, such as those performed by Palazzetti et al. ( 2003 ,  2004 ) have demonstrated that high levels of endogenous free radicals produced during a 4‐week overtraining period were associated with impaired exercise performance. Though it has yet to be determined if acutely increasing free radicals, via exposure to hyperoxia, reduces exercise performance implicating ROS in fatigue of humans.
+L16: Therefore, the purpose of this study was to determine the impact of altering redox balance through consumption of an AOC (vitamin C, vitamin E, and  α ‐lipoic acid (Ives et al.  2014 ; Richardson et al.  2007 )) and/or hyperoxic exposure (F i O 2  = 1.0) on the physiological responses to exercise, performance, and fatigue in healthy active college‐aged males. Specifically, it was hypothesized that exposure to hyperoxia would reduce cycling exercise performance (5 km time, power output), disrupt physiological responses (ventilation,  V O 2 , heart rate, blood lactate), and increase perception of fatigue (rating of perceived exertion, visual analog scale, handgrip maximal voluntary contraction), whereas the AOC would enhance exercise performance, enhance physiological responses, and decrease perception of fatigue. Lastly, if exposure to hyperoxia did alter performance, the physiological responses, or fatigue, we hypothesized the AOC would normalize the physiological responses, performance, and fatigue.
+L17: Methods
+L18: Participants
+L19: Fourteen healthy college‐aged (21 ± 0.3 years) males participated in the study. All participants were physically active (≥3 days/week), nonsmokers, and free of musculoskeletal problems and/or pain. Participants were screened using the health/fitness facility pre‐participation questionnaire from the American Heart Association/American College of Sports Medicine (AHA/ACSM). Those with cardiovascular, pulmonary, or metabolic disease or those taking regular medication (including antioxidant supplements) were excluded. All participants provided written informed consent prior to any testing. The protocol was approved by the Institutional Review Board of Skidmore College (IRB # 1412‐433) and is in accordance with the Declaration of Helsinki.
+L20: Experimental design
+L21: The study used a balanced order, crossover design to investigate the potential impact of altering redox balance, via hyperoxic exposure, and antioxidant supplementation (antioxidant cocktail; AOC) on cycling performance, physiological responses, and perception of fatigue. All participants reported to the Skidmore College Human Performance Laboratory five times (within 2 weeks, >48 h apart), which included a familiarization and four experimental conditions. Prior to the experimental conditions, participants were familiarized with the respiration using a supported mouthpiece from a large reservoir balloon (120 L), the 5 km time‐trial on a cycle ergometer, and the measurement equipment. All tests were performed on a mechanically braked cycle ergometer (Monark 828E, Sweden) and participants were appropriately positioned with an upright posture and a 10‐degree knee bend at maximal leg extension, after which the settings were recorded for subsequent visits to ensure consistent positioning. Participants reported to the laboratory in a fasted state and without caffeine or alcohol use for 6 and 12 h, respectively. All participants were blinded to the four experimental conditions: (1) placebo + normoxia, (2) placebo + hyperoxia, (3) AOC + normoxia, and (4) AOC + hyperoxia. Participants the completed the four experimental conditions in a randomized, balanced, manner (for schematic view of experimental design, see Fig.  1 ).
+L22: Figure 1 Overview of Study Design (Panel A). Overview of Experimental day (Panel B). Baseline measurements of heart rate ( HR ), blood pressure ( BP ),  RPE , handgrip maximal voluntary contraction ( MVC ), and  VAS  were recorded before and after exposure to normoxia (F i O 2  = 0.21) or hyperoxia (F i O 2  = 1.0) for 10 min. | indicate blood draw for lactate before and at every kilometer during the 5 km time‐trial.  HR , ventilation ( V E ), oxygen consumption ( V O 
+L23:  2 ),  RPE , and  RPM  were recorded every minute during the 5 km time‐trial. Upon  TT  completion,  MVC  and  VAS  were recorded. RPE, ratings of perceived exertion; RPM, revolutions per minute; VAS, visual analog scale; BP, blood pressure; RPM, revolutions per minute.
+L24: Antioxidant supplementation
+L25: All participants completed the study in a single blind, placebo controlled, counterbalanced design. Participants were asked to refrain from consuming excess antioxidant‐rich foods for at least 1 day before every visit, and to maintain a diet of similar composition throughout the duration of the study. Participants consumed the AOC or placebo in two doses separated by 30 min, with the first dose ingested 90 min before testing. The first antioxidant dose consisted of 300 mg of  α ‐lipoic acid, 500 mg of vitamin C and 200 I.U. (international units) of vitamin E taken 90 minutes before testing. The second antioxidant dose consisted of 300 mg of  α ‐lipoic acid, 500 mg of vitamin C and 400 I.U. of vitamin E taken 60 minutes before testing. This combination of antioxidants and dosing scheme used in the current study was specifically chosen since it has been previously documented to reduce plasma free radicals as detected by Electron Paramagnetic Resonance (EPR) Spectroscopy (Richardson et al.  2007 ) and has demonstrated efficacy without any side effects (Wray et al.  2009 ,  2012 ; Witman et al.  2012 ; Ives et al.  2014 ; Rossman et al.  2015 ). All antioxidants were obtained from United States Pharmacopoeia (USP) certified sources that adhere to Good Manufacturing Practice (GMP) standards. Placebo (PL) capsules, of similar appearance, were likewise consumed in two similarly timed doses. Participants were contacted and reminded to ensure the AOC would be taken at the right time prior to each study visit, and was confirmed upon arrival by bringing the empty bags in which the AOC or placebo were provided.
+L26: Hyperoxic exposure
+L27: To experimentally‐induce an increase in free radicals, participants inspired air through a one‐way non‐rebreathe mouthpiece from a reservoir balloon (120 L), containing either normoxic room air (F i O 2  = 0.21) or hyperoxic gas (F i O 2  = 1.0) for a period of 10 min prior to exercise. Participants were blinded to which gas they were receiving. Breathing hyperoxic gas is an experimental approach that has been used and/or demonstrated to induce ROS or alterations in physiological function (Freeman et al.  1982 ; Mak et al.  2002 ; Houssiere et al.  2006 ; Gao et al.  2012 ; Ranadive et al.  2014 ; Caruana and Marshall  2015 ). Specifically, researchers (Mak et al.  2002 ; Gao et al.  2012 ) have found that a 10 min exposure is sufficient to induce physiological responses, which are reversible with Vitamin C, suggesting hyperoxia‐induced physiological changes are ROS dependent. As breathing hyperoxic gas during exercise is known to impact performance (Amann et al.  2006 ; Sperlich et al.  2016 ), we limited the exposure to hyperoxia to the pre‐exercise period only.
+L28: Procedures
+L29: An overview of each experimental day is presented in Figure  1 B. On arrival, height and body weight were recorded. After 5 min of quiet rest, baseline measurements of heart rate (HR; Polar, Lake Success, NY), systolic and diastolic blood pressure (SBP; DBP; American Diagnostic Corp.; Littman Quality) were taken. Capillary blood lactate (Lactate Pro, Australia) was also obtained via finger prick at rest prior to the 5 km time‐trial and at each kilometer during cycling performance. To assess fatigue, ratings of perceived exertion (RPE; Borg CR10 Scale) (Borg  1990 ) were obtained during the test, and a visual analog scale (VAS) for fatigue was assessed pre‐ and post‐exercise. Additionally, to determine potential effects of the AOC or hyperoxia exposure on central fatigue, we assessed handgrip maximal voluntary contraction (MVC HG ), using a handgrip dynamometer (Takei, Japan) both before and after exercise. Three trials of MVC HG  were taken before inhaling the designated gas and the highest value was recorded. If we observed reductions in MVC HG , a muscle not directly involved in the cycling 5 km TT, this might be indicative of central fatigue and reduced global motoneuronal output (Amann et al.  2013 ).
+L30: Again, participants were blinded to condition (normoxia or hyperoxia), and treatment (placebo or AOC) they were assigned to at every visit. Baseline measurements were repeated after 10 min of mouthpiece breathing (F i O 2  = 0.21 or 1.0). The participants were then positioned on the cycle ergometer, where the headgear and mouthpiece were placed onto the participant and connected to the metabolic cart (TrueOne 2400, Parvomedics, Sandy, UT). Participants were asked to cycle at a self‐selected resistance for 3 min as warm‐up. Thereafter, participants were instructed to perform the 5 km time‐trial as fast as possible, giving a maximal effort, at a resistance of 2.5 kp. In our laboratory repeatability of the 5 km TT is 3.3% coefficient of variation, intraclass correlation coefficient = 0.92 ( n  = 15, S. J. Ives, unpublished observations). Verbal encouragement was offered during each trial, in a consistent manner both within and between participants. During exercise participants!' ventilation rate ( V 
+L31:  E ), oxygen consumption ( V O 2 ), HR, RPE, and revolutions per minute (RPM) were recorded at 1‐minute interval during the 5 km time‐trial. With the use of RPM recordings, power output (PO, in watts) was calculated as: PO = [(2.5kp × y RPM × 6 m) ÷ 6]. Cycling economy was calculated as  V O 2 /power output (W). Blood lactate was measured every km until completion. Handgrip MVC and VAS for fatigue were measured immediately upon completion of the 5 km time‐trial. Recovery measurements of HR, BP and RPE were also taken post‐exercise.
+L32: Statistical analysis
+L33: Statistical comparisons were performed with the use of the commercially available software (SPSS v. 22.0, IBM Inc., Armonk, NY). Paired  t ‐tests were used to identify potential changes in response to the breathing exposure, specifically normoxia versus hyperoxia. Repeated measures of analysis of variance (ANOVA) were used to determine if main effects were found in condition (normoxia vs. hyperoxia), treatment (placebo versus antioxidant cocktail), time points (minutes or kilometers), and the interaction between the three variables. Specifically, 2 × 2 (treatment × condition) repeated measures ANOVA were conducted for change in fatigue measures (MVC HG  and VAS), and multifactorial repeated measures of ANOVA (treatment × condition × time or distance) were conducted for performance and physiological measures. Tests of normality were performed, if a significant violation was found, the Greenhouse–Geisser correction was applied to the degrees of freedom. The level of significance was established at  P  <   0.05. All data was expressed as means ± standard error (SE).
+L34: Results
+L35: Participant characteristics
+L36: Participant characteristics are presented in Table  1 . All of the 14 healthy college‐aged participants completed the study and were compliant with the supplementation. At rest, there were no significant differences in response to either condition (normoxia vs. hyperoxia), treatment (placebo vs. AOC), or the interaction of condition and treatment on HR, MAP, sensation of fatigue, or muscle function (Table  2 ).
+L37: Table 1 Participant characteristics
+L38: Table 2 Acute Effects of differing F i O 2  (0.21 vs. 1.0) on HR, MAP, and Fatigue (VAS and HG MVC)
+L39: Hyperoxic exposure, antioxidants, and exercise performance
+L40: Power output varied significantly with time during the 5 km time‐trial (main effect for time,  P  <   0.05), with an apparent sprint at the end of the TT (Fig.  2 A). There was no significant main effect for condition (normoxia vs. hyperoxia) nor any significant interaction of condition and time or treatment and time ( P  >   0.05) on power output. However, there was a main effect of treatment (placebo vs. AOC) on power output, where the AOC significantly reduced power output as compared to placebo ( P  <   0.05, Fig.  2 A).
+L41: Figure 2 Effect of an Antioxidant Cocktail ( AOC ; treatment) and/or Hyperoxia (condition) on 5 km Time Trial ( TT ) Exercise Performance in Healthy College‐Aged Males ( n  = 14). (A) Power output during the 5 km  TT , and (B) Time to complete the 5 km trial.  PL ;  AOC . Values are means ±  SE . * P  < 0.05, main effect for treatment,  PL  vs.  AOC . Means ±  SE . PL, Placebo.
+L42: For 5 km time, there was no significant main effect of condition (normoxia vs. hyperoxia) nor any interaction effects of condition and treatment ( P  >   0.05, Fig.  2 B). However, likely a result of reduced power output above, there was a significant main effect of treatment, specifically, the AOC resulted in a significantly ( P  <   0.05) slower 5 km TT, by ~20 sec, as compared to placebo (Fig.  2 B).
+L43: Hyperoxic exposure, antioxidants, and physiological responses to exercise
+L44: Ventilation ( V 
+L45:  E ) increased significantly with time during the 5 km TT ( P  <   0.05) (Fig.  3 A). There was no significant effect ( P  >   0.05) of condition (normoxia vs. hyperoxia), nor any interaction effects were observed for  V 
+L46:  E . However, there was a main effect for treatment in that the AOC significantly reduced  V 
+L47:  E  compared with the placebo ( P  <   0.05, Fig.  3 A). Oxygen consumption ( V O 2 ) also, increased significantly ( P  <   0.05) over time during the 5 km TT (Fig.  3 B). However, no significant effect of condition (normoxia vs. hyperoxia), treatment (placebo vs. AOC), or any interaction effects were observed ( P  >   0.05) for  V O 2 . The ventilatory equivalent for oxygen ( V 
+L48:  E / V O 2 ) also increased significantly with time during the 5 km time‐trial ( P  <   0.05, Fig.  3 C). No significant effect of condition (normoxia vs. hyperoxia), or interaction effects were observed ( P  >   0.05) for  V 
+L49:  E / V O 2 . However, there was a significant treatment (placebo vs. AOC) effect where the AOC did lower  V 
+L50:  E / V O 2  versus placebo trials (Fig.  3 C).
+L51: Figure 3 Effect of an Antioxidant Cocktail; treatment) and/or Hyperoxia (condition) on Pulmonary Responses during 5 km  TT  in Healthy College‐Aged Males ( n  = 14). (A) Ventilation, (B) Relative Oxygen Consumption ( V O 
+L52:  2 ), and (C) Ventilatory Equivalent for Oxygen ( V E / V O 
+L53:  2 ). To the right of the dashed vertical line, the last minute is shown, regardless of time to finish the 5 km. Data are means ±  SE .
+L54: Heart rate increased significantly with time during the 5 km time‐trial ( P  <   0.05, Fig.  4 A). However, no significant effect of condition (normoxia vs. hyperoxia), treatment (placebo vs. AOC), or interaction effects were observed ( P  >   0.05) for HR. Similarly, blood lactate levels increased significantly with time during the 5 km time‐trial ( P  <   0.05, Fig.  4 B). Although, no significant effect of condition (normoxia vs. hyperoxia) or interactions were observed ( P  >   0.05), there was, however, a significant effect of treatment (AOC vs. Placebo) where higher blood lactate levels were observed with the AOC as opposed to placebo ( P  <   0.05, Fig.  4 B).
+L55: Figure 4 Effect of an Antioxidant Cocktail; treatment) and/or Hyperoxia (condition) on Heart Rate ( HR , Panel (A) and Blood Lactate (Panel B) during 5 km  TT  in Healthy College‐Aged Males ( n  = 14). To the right of the dashed vertical line, the last minute of heart rate is shown, regardless of time to finish the 5 km trial. Data are means ±  SE .
+L56: Economy ( V O 2 /W) varied significantly ( P  <   0.05) over time during the 5 km time‐trial (Fig.  5 ). There was no significant effect for condition (normoxia vs. hyperoxia), nor any interaction effects ( P  >   0.05) for economy. Although, in addition to the decrements in performance above, there was a significant treatment effect where the AOC increased the  V O 2 /W and reduced economy as compared with the placebo ( P  <   0.05, Fig.  5 ).
+L57: Figure 5 Effect of an Antioxidant Cocktail treatment and/or Hyperoxia (condition) on Cycling Economy during a 5 km  TT  in Healthy College‐Aged Males ( n  = 14). To the right of the dashed vertical line, the last minute of economy is shown, regardless of time to finish the 5 km trial. Data are means ±  SE .
+L58: Hyperoxic exposure, antioxidants, and fatigue
+L59: Rating of perceived exertion (RPE) increased significantly with time during the 5 km time‐trial ( P  <   0.05, Fig.  6 A). There were no significant interaction effects ( P  >   0.05) though there was a tendency for a main effect of condition (normoxia vs. hyperoxia) on RPE, where the hyperoxia trials tended to report higher RPE values, but did this not achieve statistical significance ( P  =   0.09). There was a significant effect of treatment, where in the AOC trials, participants reported significantly higher RPE compared with the placebo ( P  <   0.05, Fig.  6 A).
+L60: Figure 6 Effect of an Antioxidant Cocktail treatment and/or Hyperoxia (condition) on Fatigue in Response to a 5 km  TT  in Healthy College‐Aged Males ( n  = 14). To the right of the dashed vertical line, the last minute of economy efficiency is shown, regardless of time to finish the 5 km trial. Data are means ±  SE .
+L61: VAS for fatigue increased significantly in response to the 5 km time‐trial ( P  <   0.05, Fig.  6 B). However, there was no significant effect of condition (normoxia vs. hyperoxia), treatment (placebo vs. AOC), or interaction effects ( P  >   0.05) on fatigue VAS. Handgrip maximal voluntary contraction did not change significantly in response to the 5 km TT ( P  >   0.05). Additionally, there was no significant effect of condition (normoxia vs. hyperoxia), treatment (placebo vs. AOC), or interactions ( P  >   0.05) for MVC HG . However, a tendency was observed that the normoxic condition, independent of treatment, elicited ~3% increase in MVC HG  from pre‐ to post 5 km time‐trial, whereas hyperoxia elicited no visible change (Fig.  6 C), but this was not statistically significant ( P  =   0.08).
+L62: Discussion
+L63: This study sought to determine if acutely altering redox balance, via ingestion of an antioxidant cocktail (AOC) and/or exposure to hyperoxia, would impact exercise performance, physiological responses, and perception of fatigue in healthy college‐aged males. In contrast to our hypotheses, hyperoxic exposure prior to the 5 km time‐trial had no effect on performance, physiological responses, or perception of fatigue. Moreover, the AOC significantly reduced exercise performance (5 km time, power output) as compared to the placebo. The AOC also altered the physiological responses, suppressing ventilation,  V 
+L64:  E / V O 2 , increasing lactate and the rating of perceived exertion, while maintaining a similar post‐exercise fatigue, despite a lower power output. Taken together, the results from the current study suggest that young healthy males are capable of handling increased free radicals associated with acute exposure to hyperoxia with no detriment to performance. In contrast, supplementing with antioxidants likely results in reductive stress, suggesting that an adequate level of free radicals are needed for proper physiological functioning and performance. Thus, in the rested healthy state, supplementation with antioxidants is unnecessary and are detrimental for physiology, performance, and fatigue.
+L65: Antioxidants, hyperoxic exposure, and exercise performance
+L66: In the current study, contrary to our hypotheses, acute treatment with an AOC, of documented efficacy (Richardson et al.  2007 ), reduced exercise performance. It was also proposed that acute exposure to hyperoxia would have assumedly increased free radicals (Freeman et al.  1982 ; Mak et al.  2002 ; Carpagnano et al.  2004 ; Houssiere et al.  2006 ; Gao et al.  2012 ; Ranadive et al.  2014 ; Caruana and Marshall  2015 ), on top of any produced as a result of intense exercise (Bailey et al.  2003 ,  2004 ), reducing performance and enhancing fatigue. Finally, it was proposed that the AOC would restore performance and normalize perceptions of fatigue after the hyperoxic exposure. However, the hyperoxic exposure used in the current study had no effect on performance (Fig.  2 ). Additionally, irrespective of condition (normoxia vs. hyperoxia), the AOC likely induced reductive stress (Reid  2001 ; Powers et al.  2011a ) thereby impairing performance.
+L67: Reid et al. ( 1993 ) proposed that modest amounts of reactive oxygen species (ROS) are actually required for optimal force production in skeletal muscle. However, deviation from this optimal point, through excessive production or quenching of free radicals, results in sub‐optimal force production (reviewed in (Powers et al.  2011b )). Given the previously documented intensity‐dependent nature of free radical outflow from muscle (Bailey et al.  2003 ), we expected that the 5 km TT, a high intensity aerobic exercise, would elicit a significant increase in ROS which might contribute in the local development of fatigue and reduced performance. However, we may be the first study to report that acute treatment with the AOC did not improve, but in fact, attenuated cycling TT performance in young healthy males (Fig.  2 ). Our findings are somewhat in agreement with prior studies demonstrating no beneficial effects of vitamin C or vitamin E on endurance performance, though the majority of these studies chronically administered an antioxidant over time (Snider et al.  1992 ; Rokitzki et al.  1994 ; Bryant et al.  2003 ; Gaeini et al.  2006 ; Zoppi et al.  2006 ; Gomez‐Cabrera et al.  2008 ; Yfanti et al.  2010 ; Braakhuis  2012 ); which may (Gomez‐Cabrera et al.  2008 ; Morrison et al.  2015 ) or may not (Yfanti et al.  2010 ; Higashida et al.  2011 ) hinder the adaptation to exercise training. In fact, very few studies have investigated the potential acute effects on performance, but focused on whether antioxidants can reduce exercise associated ROS (Nakhostin‐Roohi et al.  2008 ; Teixeira et al.  2009 ). Though, some acute studies have demonstrated a positive impact of antioxidants (Medved et al.  2004 ), or a mixture of antioxidants (MacRae and Mefferd  2006 ; Abadi et al.  2013 ), on exercise performance. In contrast, using an AOC, containing vitamin C, E, and alpha‐lipoic acid did not improve, but rather hindered, endurance exercise performance.
+L68: Through the use of hyperoxic exposure we sought to determine the potential impact of elevating free radicals prior to exercise, on performance during a 5 km TT, a bout expected to raise ROS significantly, independent of the exposure to hyperoxia. Previously, hyperoxia has been used as a model to elevate free radicals (Freeman et al.  1982 ) and has been demonstrated to induce physiological dysfunction (Caruana and Marshall  2015 ). Indeed, prior studies have demonstrated that declines in performance are associated with elevations in free radicals/oxidative stress as a result of overtraining (Palazzetti et al.  2003 ,  2004 ). However, such studies have been correlative in nature and the stimulus of overtraining cannot simply be characterized by elevated free radicals only, as there are likely a myriad of issues such as psychological stress, immune changes, fatigue, etc. (MacKinnon  2000 ), thus making any direct implications of elevated free radicals on performance difficult. In the current study, using a stimulus known to increase free radicals and induce dysfunction (Freeman et al.  1982 ; Caruana and Marshall  2015 ), we did not find any impact of hyperoxic exposure on exercise performance. There are several possible explanations for this, such as the ROS associated with hyperoxia may have had a priming effect on the skeletal muscle (Reid et al.  1993 ), second, the dose of hyperoxia may have been insufficient, though previous work suggests otherwise (Mak et al.  2002 ; Gao et al.  2012 ), and finally our population of young healthy males, not subject to malnourishment, or overtraining, were likely capable of dealing with an acute free radical challenge. In summary, in the current model, exposure to hyperoxia does not appear to hinder nor improve cycling exercise performance.
+L69: Antioxidants, hyperoxic exposure, and physiological responses
+L70: Few studies have focused on the acute response to antioxidant supplementation, or have often focused on the changes in blood markers (Gaeini et al.  2006 ; Nakhostin‐Roohi et al.  2008 ) which may (Medved et al.  2004 ) or may not (Rokitzki et al.  1994 ; Bryant et al.  2003 ; Zoppi et al.  2006 ) have any impact on, or relate to, exercise performance. In a previous study, MacRae and Mefferd ( 2006 ) found that an AOC containing essential vitamins and quercetin, a polyphenolic compound, improved cycling power output and performance during a 30 km TT without any significant impact on HR or  V O 2 . Conversely, researchers who found no performance benefit of antioxidant supplementation also found no impact on HR, blood glucose, free fatty acids, lactate, or lactate threshold (Snider et al.  1992 ; Rokitzki et al.  1994 ). Collectively, these studies suggest that irrespective of performance outcome, antioxidant supplementation has no impact on the physiological response to exercise during a performance trial.
+L71: On the contrary, in this study we found that while HR and  V O 2  were unaffected,  V 
+L72:  E  was reduced, and blood lactate was elevated in the AOC trials as compared to placebo (Fig.  3 ). Importantly, the unchanged  V O 2  and HR, despite a lower power output, suggests a reduction in efficiency. Indeed, efficiency, as defined by the relationship between energy cost ( V O 2 ) and output (W), was found to lower with the AOC (Fig.  5 ) and is likely complementary to the reductions in TT performance. The findings from the current study are in contrast to those of MacRae and Mefferd ( 2006 ) highlighting the potential differences in antioxidant species. In the current study, the higher blood lactate associated with the AOC (Fig.  4 ) likely contributed to the reduced efficiency and impaired performance in the antioxidant trials.
+L73: As recently reviewed by Grassi et al. ( 2015 ), reduced efficiency and fatigue are not antithetical but highly related sharing similar mechanisms such as increased glycolytic flux and metabolite accumulation. Interestingly, in addition to the elevated blood lactate, the AOC also reduced ventilation, which could be contributed to the AOC‐induced reduction in power output. Although, given the unchanged  V O 2 , a reduction in  V 
+L74:  E  actually suggests an improvement in the  V 
+L75:  E / V O 2  (Fig.  3 ), and could be interpreted as an improved pulmonary efficiency. On the other hand, the reduction in  V 
+L76:  E  might be, at least in part, responsible for reduced acid‐base buffering, increased reliance on anaerobic glycolysis, and the elevated blood lactate in the AOC trials, which collectively contribute to reduced efficiency and performance. An alternative hypothesis is that adequate levels or free radicals are a necessary component of the hyperpnea associated with exercise, and excessive quenching of radicals with an AOC, might blunt this stimulus. To this end, using a rodent model, Delliaux et al. ( 2009 ), found that ROS (i.e., hydrogen peroxide) are key activators of metabo‐sensitive group IV afferents and suppression of these ROS with superoxide dismutase, blunted the ROS‐induced increase in afferent nerve activity. Thus, it is tempting to speculate that the AOC reduced free radicals, reducing group IV afferent activation thereby reducing ventilation. In agreement, work by Rossman et al. ( 2013 )found that arterial infusion of ascorbate (Vitamin C), suppressed the ventilatory response to exercise in patients with COPD. Mechanistically, given the proposed contributory role of free radicals in mediating muscle function (Reid et al.  1993 ; Powers et al.  2011a ), it is also possible that the AOC resulted in reductive stress and hindered respiratory muscle function and thus ventilation. Though, further work is needed to determine the potential impact of antioxidants on ventilation, particularly during exercise.
+L77: Previously, work in humans has demonstrated that normobaric hyperoxia enhances metaboreflex sensitivity during static exercise (Houssiere et al.  2006 ). However, we found no effect of a hyperoxic exposure on any of the physiological responses (i.e., HR,  V O 2 ,  V 
+L78:  E , blood lactate, etc.) to an exercise performance trial (Figs.  3  and  4 ). Though, it is important to note in the previous study by Houssiere et al. ( 2006 ) the hyperoxia was sustained during the exercise bout, unlike the current study which used a pre‐exposure, and likely explains the disparate results between the previous and current studies. In the current model, hyperoxic exposure prior to exercise had no effect on the physiological responses to exercise during a cycling performance trial.
+L79: Antioxidants, hyperoxic exposure, and perception of fatigue
+L80: Previous studies investigating the impact of antioxidants on performance have either not reported perceptions of fatigue or are complicated by potential changes in power output. Indeed, prior work on antioxidants and fatigue has shown that through administration of NAC fatigue can be attenuated (Reid et al.  1994 ; Medved et al.  2004 ; McKenna et al.  2006 ), though not without invasive infusion or side effects. Similarly, Rossman and colleagues found that infusion of Vitamin C reduced both RPE and peripheral muscle fatigue in response to exercise, matched for time under placebo conditions, in patients with COPD. In contrast, in young healthy participants, we find that the oral AOC, containing vitamin C, E, and alpha‐lipoic acid, increased RPE, and left the post‐exercise visual analog scale for fatigue unchanged despite a lower power output (Fig.  6 ). However, it is important to highlight methodological differences in studies addressing antioxidants and fatigue; specifically time to fatigue or isotime exercise trials, are different approaches than the time trial used in the current study. Additionally, differences in antioxidant dose, composition, and population need to be considered.
+L81: Although there was no significant effect of condition or treatment on handgrip maximal voluntary contraction, it is interesting to note that in the normoxic trials we observed ~3% increase in post‐exercise handgrip MVC, likely as a result of post‐activation potentiation (PAP) (Xenofondos et al.  2015 ), which was not observed in the hyperoxic trials, suggesting PAP might be a redox sensitive phenomenon, but warrants further investigation. Moreover, since HG MVC  was unaffected by the AOC, suggests, potentially, that the impact of the AOC on RPE was more central, rather than peripheral, as the assumed reduction in free radicals could have altered afferent feedback, and/or central processing.
+L82: Experimental considerations
+L83: As with other studies, this study is not without additional consideration. Namely, including assay of blood to evaluate free radicals/oxidative stress and antioxidant capacity would provide the supporting evidence for true representation of the redox balance and the potential perturbations elicited in the current protocol, as well as potential mechanistic insight into the current observations. However, previous studies have demonstrated the ability of antioxidants to reduce exercise associated ROS (Richardson et al.  2007 ; Nakhostin‐Roohi et al.  2008 ; Teixeira et al.  2009 ), but can yield vastly different effects on performance, strongly suggests, among other things, that functional consequences can differ dramatically from biomarkers. Finally, the possibility that the fat soluble vitamins used in the AOC (vitamin E) and fat and water soluble vitamin (alpha lipoic acid) might not have had enough time to wash out between visits cannot be excluded, though the counterbalanced design reduces, but does not eliminate this concern.
+L84: Conclusion
+L85: The main findings of this study are that: exposure to hyperoxia prior to exercise failed to inhibit cycling performance; and the acute ingestion of an oral AOC does not improve, rather seems to hinder exercise performance, physiological functioning, or perceptions of fatigue in young healthy males. Thus, caution is warranted in athletes considering exogenous antioxidant supplementation for enhanced performance.
+L86: Conflicts of Interest
+L87: The authors have no conflicts of interest to disclose.
+L88: Abadi ,  A. 
+L89:  ,  
+L90:  J. D. 
+L91:  Crane 
+L92:  ,  
+L93:  D. 
+L94:  Ogborn 
+L95:  ,  
+L96:  B. 
+L97:  Hettinga 
+L98:  ,  
+L99:  M. 
+L100:  Akhtar 
+L101:  ,  
+L102:  A. 
+L103:  Stokl 
+L104:  , et al.  2013 
+L105:  Supplementation with alpha‐lipoic acid, CoQ10, and vitamin E augments running performance and mitochondrial function in female mice .  PLoS ONE 
+L106:  8 : e60722 . 23565271
+L107: Amann ,  M. 
+L108:  ,  
+L109:  M. W. 
+L110:  Eldridge 
+L111:  ,  
+L112:  A. T. 
+L113:  Lovering 
+L114:  ,  
+L115:  M. K. 
+L116:  Stickland 
+L117:  ,  
+L118:  D. F. 
+L119:  Pegelow 
+L120:  , and  
+L121:  J. A. 
+L122:  Dempsey 
+L123:  .  2006 
+L124:  Arterial oxygenation influences central motor output and exercise performance via effects on peripheral locomotor muscle fatigue in humans .  J. Physiol. 
+L125:  575 : 937 – 952 . 16793898
+L126: Amann ,  M. 
+L127:  ,  
+L128:  M. 
+L129:  Venturelli 
+L130:  ,  
+L131:  S. J. 
+L132:  Ives 
+L133:  ,  
+L134:  J. 
+L135:  McDaniel 
+L136:  ,  
+L137:  G. 
+L138:  Layec 
+L139:  ,  
+L140:  M. J. 
+L141:  Rossman 
+L142:  , et al.  2013 
+L143:  Peripheral fatigue limits endurance exercise via a sensory feedback‐mediated reduction in spinal motoneuronal output .  J. Appl. Physiol. 
+L144:  115 : 355 – 364 . 23722705
+L145: Bailey ,  D. 
+L146:  ,  
+L147:  B. 
+L148:  Davies 
+L149:  ,  
+L150:  I. 
+L151:  Young 
+L152:  ,  
+L153:  M. 
+L154:  Jackson 
+L155:  ,  
+L156:  G. 
+L157:  Davison 
+L158:  ,  
+L159:  R. 
+L160:  Isaacson 
+L161:  , et al.  2003 
+L162:  EPR spectroscopic detection of free radical outflow from an isolated muscle bed in exercising humans .  J. Appl. Physiol. 
+L163:  94 : 1714 . 12626489
+L164: Bailey ,  D. 
+L165:  ,  
+L166:  I. 
+L167:  Young 
+L168:  ,  
+L169:  J. 
+L170:  McEneny 
+L171:  ,  
+L172:  L. 
+L173:  Lawrenson 
+L174:  ,  
+L175:  J. 
+L176:  Kim 
+L177:  ,  
+L178:  J. 
+L179:  Barden 
+L180:  , et al.  2004 
+L181:  Regulation of free radical outflow from an isolated muscle bed in exercising humans .  Am. J. Physiol. Heart Circ. Physiol. 
+L182:  287 : H1689 . 15155256
+L183: Borg ,  G. 
+L184:  
+L185:  1990 
+L186:  Psychophysical scaling with applications in physical work and the perception of exertion .  Scand. J. Work Environ. Health 
+L187:  16 : 55 – 58 . 2345867
+L188: Braakhuis ,  A. J. 
+L189:  
+L190:  2012 
+L191:  Effect of vitamin C supplements on physical performance .  Curr. Sports Med. Rep. 
+L192:  11 : 180 – 184 . 22777327
+L193: Bryant ,  R. J. 
+L194:  ,  
+L195:  J. 
+L196:  Ryder 
+L197:  ,  
+L198:  P. 
+L199:  Martino 
+L200:  ,  
+L201:  J. 
+L202:  Kim 
+L203:  , and  
+L204:  B. W. 
+L205:  Craig 
+L206:  .  2003 
+L207:  Effects of vitamin E and C supplementation either alone or in combination on exercise‐induced lipid peroxidation in trained cyclists .  J. Strength Cond. Res. 
+L208:  17 : 792 – 800 . 14666945
+L209: Carpagnano ,  G. E. 
+L210:  ,  
+L211:  S. A. 
+L212:  Kharitonov 
+L213:  ,  
+L214:  M. P. 
+L215:  Foschino‐Barbaro 
+L216:  ,  
+L217:  O. 
+L218:  Resta 
+L219:  ,  
+L220:  E. 
+L221:  Gramiccioni 
+L222:  , and  
+L223:  P. J. 
+L224:  Barnes 
+L225:  .  2004 
+L226:  Supplementary oxygen in healthy subjects and those with COPD increases oxidative stress and airway inflammation .  Thorax 
+L227:  59 : 1016 – 1019 . 15563698
+L228: Caruana ,  H. 
+L229:  , and  
+L230:  J. M. 
+L231:  Marshall 
+L232:  .  2015 
+L233:  Effects of modest hyperoxia and oral vitamin C on exercise hyperaemia and reactive hyperaemia in healthy young men .  Eur. J. Appl. Physiol. 
+L234:  115 : 1995 – 2006 . 25963380
+L235: Cheng ,  A. J. 
+L236:  ,  
+L237:  T. 
+L238:  Yamada 
+L239:  ,  
+L240:  D. E. 
+L241:  Rassier 
+L242:  ,  
+L243:  D. C. 
+L244:  Andersson 
+L245:  ,  
+L246:  H. 
+L247:  Westerblad 
+L248:  , and  
+L249:  J. T. 
+L250:  Lanner 
+L251:  .  2016 
+L252:  Reactive oxygen/nitrogen species and contractile function in skeletal muscle during fatigue and recovery .  J. Physiol. 
+L253:  594 : 5149 – 5160 . 26857536
+L254: Delliaux ,  S. 
+L255:  ,  
+L256:  C. 
+L257:  Brerro‐Saby 
+L258:  ,  
+L259:  J. 
+L260:  Steinberg 
+L261:  , and  
+L262:  Y. 
+L263:  Jammes 
+L264:  .  2009 
+L265:  Reactive oxygen species activate the group IV muscle afferents in resting and exercising muscle in rats .  Pflugers Arch. 
+L266:  459 : 143 – 150 . 19701650
+L267: Freeman ,  B. A. 
+L268:  ,  
+L269:  M. K. 
+L270:  Topolosky 
+L271:  , and  
+L272:  J. D. 
+L273:  Crapo 
+L274:  .  1982 
+L275:  Hyperoxia increases oxygen radical production in rat lung homogenates .  Arch. Biochem. Biophys. 
+L276:  216 : 477 – 484 . 6287935
+L277: Gaeini ,  A. A. 
+L278:  ,  
+L279:  N. 
+L280:  Rahnama 
+L281:  , and  
+L282:  M. R. 
+L283:  Hamedinia 
+L284:  .  2006 
+L285:  Effects of vitamin E supplementation on oxidative stress at rest and after exercise to exhaustion in athletic students .  J. Sports Med. Phys. Fitness 
+L286:  46 : 458 – 461 . 16998452
+L287: Gao ,  Z. 
+L288:  ,  
+L289:  S. 
+L290:  Spilk 
+L291:  ,  
+L292:  A. 
+L293:  Momen 
+L294:  ,  
+L295:  M. D. 
+L296:  Muller 
+L297:  ,  
+L298:  U. A. 
+L299:  Leuenberger 
+L300:  , and  
+L301:  L. I. 
+L302:  Sinoway 
+L303:  .  2012 
+L304:  Vitamin C prevents hyperoxia‐mediated coronary vasoconstriction and impairment of myocardial function in healthy subjects .  Eur. J. Appl. Physiol. 
+L305:  112 : 483 – 492 . 21584682
+L306: Gomez‐Cabrera ,  M. C. 
+L307:  ,  
+L308:  E. 
+L309:  Domenech 
+L310:  ,  
+L311:  M. 
+L312:  Romagnoli 
+L313:  ,  
+L314:  A. 
+L315:  Arduini 
+L316:  ,  
+L317:  C. 
+L318:  Borras 
+L319:  ,  
+L320:  F. V. 
+L321:  Pallardo 
+L322:  , et al.  2008 
+L323:  Oral administration of vitamin C decreases muscle mitochondrial biogenesis and hampers training‐induced adaptations in endurance performance .  Am. J. Clin. Nutr. 
+L324:  87 : 142 – 149 . 18175748
+L325: Grassi ,  B. 
+L326:  ,  
+L327:  H. B. 
+L328:  Rossiter 
+L329:  , and  
+L330:  J. A. 
+L331:  Zoladz 
+L332:  .  2015 
+L333:  Skeletal muscle fatigue and decreased efficiency: two Sides of the same coin? 
+L334:  Exerc. Sport Sci. Rev. 
+L335:  43 : 75 – 83 . 25688762
+L336: Higashida ,  K. 
+L337:  ,  
+L338:  S. H. 
+L339:  Kim 
+L340:  ,  
+L341:  M. 
+L342:  Higuchi 
+L343:  ,  
+L344:  J. O. 
+L345:  Holloszy 
+L346:  , and  
+L347:  D. H. 
+L348:  Han 
+L349:  .  2011 
+L350:  Normal adaptations to exercise despite protection against oxidative stress .  Am. J. Physiol. Endocrinol. Metab. 
+L351:  301 : E779 – E784 . 21750271
+L352: Houssiere ,  A. 
+L353:  ,  
+L354:  B. 
+L355:  Najem 
+L356:  ,  
+L357:  N. 
+L358:  Cuylits 
+L359:  ,  
+L360:  S. 
+L361:  Cuypers 
+L362:  ,  
+L363:  R. 
+L364:  Naeije 
+L365:  , and  
+L366:  P. 
+L367:  van de Borne 
+L368:  .  2006 
+L369:  Hyperoxia enhances metaboreflex sensitivity during static exercise in humans .  Am. J. Physiol. Heart Circ. Physiol. 
+L370:  291 : H210 – H215 . 16772525
+L371: Ives ,  S. J. 
+L372:  ,  
+L373:  R. A. 
+L374:  Harris 
+L375:  ,  
+L376:  M. A. H. 
+L377:  Witman 
+L378:  ,  
+L379:  A. S. 
+L380:  Fjeldstad 
+L381:  ,  
+L382:  R. S. 
+L383:  Garten 
+L384:  ,  
+L385:  J. 
+L386:  McDaniel 
+L387:  , et al.  2014 
+L388:  Vascular dysfunction and chronic obstructive pulmonary disease: the role of redox balance .  Hypertension 
+L389:  63 : 459 – 467 . 24324045
+L390: Ji ,  L. L. 
+L391:  
+L392:  1995 
+L393:  Oxidative stress during exercise: implication of antioxidant nutrients .  Free Radic. Biol. Med. 
+L394:  18 : 1079 – 1086 . 7628730
+L395: Jourkesh ,  M. 
+L396:  ,  
+L397:  S. M. 
+L398:  Ostojic 
+L399:  , and  
+L400:  M. A. 
+L401:  Azarbayjani 
+L402:  .  2007 
+L403:  The effects of vitamin E and vitamin C supplementation on bioenergetics index .  Res. Sports Med. (Print) 
+L404:  15 : 249 – 256 .
+L405: Kanter ,  M. 
+L406:  
+L407:  1998 
+L408:  Free radicals, exercise and antioxidant supplementation .  Proc. Nutr. Soc. 
+L409:  57 : 9 – 13 . 9571703
+L410: Lamb ,  G. D. 
+L411:  , and  
+L412:  H. 
+L413:  Westerblad 
+L414:  .  2011 
+L415:  Acute effects of reactive oxygen and nitrogen species on the contractile function of skeletal muscle .  J. Physiol. 
+L416:  589 : 2119 – 2127 . 21041533
+L417: Lamina ,  S. 
+L418:  ,  
+L419:  C. I. 
+L420:  Ezema 
+L421:  ,  
+L422:  A. I. 
+L423:  Theresa 
+L424:  , and  
+L425:  E. U. 
+L426:  Anthonia 
+L427:  .  2013 
+L428:  Effects of free radicals and antioxidants on exercise performance .  Oxid. Antioxid. Med. Sci. 
+L429:  2 : 83 – 91 .
+L430: MacKinnon ,  L. T. 
+L431:  
+L432:  2000 
+L433:  Overtraining effects on immunity and performance in athletes .  Immunol. Cell Biol. 
+L434:  78 : 502 – 509 . 11050533
+L435: MacRae ,  H. S. 
+L436:  , and  
+L437:  K. M. 
+L438:  Mefferd 
+L439:  .  2006 
+L440:  Dietary antioxidant supplementation combined with quercetin improves cycling time trial performance .  Int J Sport Nutr Exerc. Metab. 
+L441:  16 : 405 – 419 . 17136942
+L442: Mak ,  S. 
+L443:  ,  
+L444:  Z. 
+L445:  Egri 
+L446:  ,  
+L447:  G. 
+L448:  Tanna 
+L449:  ,  
+L450:  R. 
+L451:  Colman 
+L452:  , and  
+L453:  G. E. 
+L454:  Newton 
+L455:  .  2002 
+L456:  Vitamin C prevents hyperoxia‐mediated vasoconstriction and impairment of endothelium‐dependent vasodilation .  Am. J. Physiol. Heart Circ. Physiol. 
+L457:  282 : H2414 – H2421 . 12003853
+L458: Marcus ,  C. L. 
+L459:  ,  
+L460:  D. 
+L461:  Bader 
+L462:  ,  
+L463:  M. W. 
+L464:  Stabile 
+L465:  ,  
+L466:  C. I. 
+L467:  Wang 
+L468:  ,  
+L469:  A. B. 
+L470:  Osher 
+L471:  , and  
+L472:  T. G. 
+L473:  Keens 
+L474:  .  1992 
+L475:  Supplemental oxygen and exercise performance in patients with cystic fibrosis with severe pulmonary disease .  Chest 
+L476:  101 : 52 – 57 . 1729110
+L477: McKenna ,  M. J. 
+L478:  ,  
+L479:  I. 
+L480:  Medved 
+L481:  ,  
+L482:  C. A. 
+L483:  Goodman 
+L484:  ,  
+L485:  M. J. 
+L486:  Brown 
+L487:  ,  
+L488:  A. R. 
+L489:  Bjorksten 
+L490:  ,  
+L491:  K. T. 
+L492:  Murphy 
+L493:  , et al.  2006 
+L494:  N‐acetylcysteine attenuates the decline in muscle Na+, K + ‐pump activity and delays fatigue during prolonged exercise in humans .  J. Physiol. 
+L495:  576 : 279 – 288 . 16840514
+L496: Medved ,  I. 
+L497:  ,  
+L498:  M. J. 
+L499:  Brown 
+L500:  ,  
+L501:  A. R. 
+L502:  Bjorksten 
+L503:  ,  
+L504:  K. T. 
+L505:  Murphy 
+L506:  ,  
+L507:  A. C. 
+L508:  Petersen 
+L509:  ,  
+L510:  S. 
+L511:  Sostaric 
+L512:  , et al.  2004 
+L513:  N‐acetylcysteine enhances muscle cysteine and glutathione availability and attenuates fatigue during prolonged exercise in endurance‐trained individuals .  J. Appl. Physiol. 
+L514:  97 : 1477 – 1485 . 15194675
+L515: Morrison ,  D. 
+L516:  ,  
+L517:  J. 
+L518:  Hughes 
+L519:  ,  
+L520:  P. A. 
+L521:  Della Gatta 
+L522:  ,  
+L523:  S. 
+L524:  Mason 
+L525:  ,  
+L526:  S. 
+L527:  Lamon 
+L528:  ,  
+L529:  A. P. 
+L530:  Russell 
+L531:  , et al.  2015 
+L532:  Vitamin C and E supplementation prevents some of the cellular adaptations to endurance‐training in humans .  Free Radic. Biol. Med. 
+L533:  89 : 852 – 862 . 26482865
+L534: Nakhostin‐Roohi ,  B. 
+L535:  ,  
+L536:  P. 
+L537:  Babaei 
+L538:  ,  
+L539:  F. 
+L540:  Rahmani‐Nia 
+L541:  , and  
+L542:  S. 
+L543:  Bohlooli 
+L544:  .  2008 
+L545:  Effect of vitamin C supplementation on lipid peroxidation, muscle damage and inflammation after 30‐min exercise at 75% VO2max .  J. Sports Med. Phys. Fitness 
+L546:  48 : 217 – 224 . 18427418
+L547: Palazzetti ,  S. 
+L548:  ,  
+L549:  M. J. 
+L550:  Richard 
+L551:  ,  
+L552:  A. 
+L553:  Favier 
+L554:  , and  
+L555:  I. 
+L556:  Margaritis 
+L557:  .  2003 
+L558:  Overloaded training increases exercise‐induced oxidative stress and damage .  Can. J. Appl. Physiol. 
+L559:  28 : 588 – 604 . 12904636
+L560: Palazzetti ,  S. 
+L561:  ,  
+L562:  A. S. 
+L563:  Rousseau 
+L564:  ,  
+L565:  M. J. 
+L566:  Richard 
+L567:  ,  
+L568:  A. 
+L569:  Favier 
+L570:  , and  
+L571:  I. 
+L572:  Margaritis 
+L573:  .  2004 
+L574:  Antioxidant supplementation preserves antioxidant response in physical training and low antioxidant intake .  Br. J. Nutr. 
+L575:  91 : 91 – 100 . 14748941
+L576: Powers ,  S. K. 
+L577:  ,  
+L578:  L. L. 
+L579:  Ji 
+L580:  ,  
+L581:  A. N. 
+L582:  Kavazis 
+L583:  , and  
+L584:  M. J. 
+L585:  Jackson 
+L586:  .  2011a 
+L587:  Reactive oxygen species: impact on skeletal muscle .  Compr. Physiol. 
+L588:  1 : 941 – 969 . 23737208
+L589: Powers ,  S. K. 
+L590:  ,  
+L591:  W. B. 
+L592:  Nelson 
+L593:  , and  
+L594:  M. B. 
+L595:  Hudson 
+L596:  .  2011b 
+L597:  Exercise‐induced oxidative stress in humans: cause and consequences .  Free Radic. Biol. Med. 
+L598:  51 : 942 – 950 . 21167935
+L599: Ranadive ,  S. M. 
+L600:  ,  
+L601:  M. J. 
+L602:  Joyner 
+L603:  ,  
+L604:  B. G. 
+L605:  Walker 
+L606:  ,  
+L607:  J. L. 
+L608:  Taylor 
+L609:  , and  
+L610:  D. P. 
+L611:  Casey 
+L612:  .  2014 
+L613:  Effect of vitamin C on hyperoxia induced vasoconstriction in exercising skeletal muscle .  J. Appl. Physiol .  117 : 1207 – 1211 . 25237186
+L614: Reid ,  M. B. 
+L615:  
+L616:  2001 
+L617:  Invited review: redox modulation of skeletal muscle contraction: what we know and what we don't .  J. Appl. Physiol. 
+L618:  90 : 724 – 731 . 11160074
+L619: Reid ,  M. B. 
+L620:  
+L621:  2008 
+L622:  Free radicals and muscle fatigue: of ROS, canaries, and the IOC .  Free Radic. Biol. Med. 
+L623:  44 : 169 – 179 . 18191753
+L624: Reid ,  M. B. 
+L625:  
+L626:  2015 
+L627:  Redox interventions to increase exercise performance .  J. Physiol. 
+L628:  594 : 5125 – 5133 . 26584644
+L629: Reid ,  M. B. 
+L630:  ,  
+L631:  F. A. 
+L632:  Khawli 
+L633:  , and  
+L634:  M. R. 
+L635:  Moody 
+L636:  .  1993 
+L637:  Reactive oxygen in skeletal muscle. III. Contractility of unfatigued muscle .  J. Appl. Physiol. 
+L638:  75 : 1081 – 1087 . 8226515
+L639: Reid ,  M. B. 
+L640:  ,  
+L641:  D. S. 
+L642:  Stokić 
+L643:  ,  
+L644:  S. M. 
+L645:  Koch 
+L646:  ,  
+L647:  F. A. 
+L648:  Khawli 
+L649:  , and  
+L650:  A. A. 
+L651:  Leis 
+L652:  .  1994 
+L653:  N‐acetylcysteine inhibits muscle fatigue in humans .  J. Clin. Invest. 
+L654:  94 : 2468 – 2474 . 7989604
+L655: Richardson ,  R. S. 
+L656:  ,  
+L657:  A. J. 
+L658:  Donato 
+L659:  ,  
+L660:  A. 
+L661:  Uberoi 
+L662:  ,  
+L663:  D. W. 
+L664:  Wray 
+L665:  ,  
+L666:  L. 
+L667:  Lawrenson 
+L668:  ,  
+L669:  S. 
+L670:  Nishiyama 
+L671:  , et al.  2007 
+L672:  Exercise‐induced brachial artery vasodilation: role of free radicals .  Am. J. Physiol. Heart Circ. Physiol. 
+L673:  292 : H1516 – H1522 . 17114239
+L674: Rokitzki ,  L. 
+L675:  ,  
+L676:  E. 
+L677:  Logemann 
+L678:  ,  
+L679:  G. 
+L680:  Huber 
+L681:  ,  
+L682:  E. 
+L683:  Keck 
+L684:  , and  
+L685:  J. 
+L686:  Keul 
+L687:  .  1994 
+L688:  alpha‐Tocopherol supplementation in racing cyclists during extreme endurance training .  Int. J. Sport Nutr. 
+L689:  4 : 253 – 264 . 7987360
+L690: Rossman ,  M. J. 
+L691:  ,  
+L692:  R. S. 
+L693:  Garten 
+L694:  ,  
+L695:  H. J. 
+L696:  Groot 
+L697:  ,  
+L698:  V. 
+L699:  Reese 
+L700:  ,  
+L701:  J. 
+L702:  Zhao 
+L703:  ,  
+L704:  M. 
+L705:  Amann 
+L706:  , et al.  2013 
+L707:  Ascorbate infusion increases skeletal muscle fatigue resistance in patients with chronic obstructive pulmonary disease .  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L708:  305 : R1163 – R1170 . 24068051
+L709: Rossman ,  M. J. 
+L710:  ,  
+L711:  J. D. 
+L712:  Trinity 
+L713:  ,  
+L714:  R. S. 
+L715:  Garten 
+L716:  ,  
+L717:  S. J. 
+L718:  Ives 
+L719:  ,  
+L720:  J. D. 
+L721:  Conklin 
+L722:  ,  
+L723:  Z. 
+L724:  Barrett‐O'Keefe 
+L725:  , et al.  2015 
+L726:  Oral antioxidants improve leg blood flow during exercise in patients with chronic obstructive pulmonary disease .  Am. J. Physiol. Heart Circ. Physiol. 
+L727:  309 : H977 – H985 . 26188020
+L728: Snider ,  I. P. 
+L729:  ,  
+L730:  T. L. 
+L731:  Bazzarre 
+L732:  ,  
+L733:  S. D. 
+L734:  Murdoch 
+L735:  , and  
+L736:  A. 
+L737:  Goldfarb 
+L738:  .  1992 
+L739:  Effects of coenzyme athletic performance system as an ergogenic aid on endurance performance to exhaustion .  Int. J. Sport Nutr. 
+L740:  2 : 272 – 286 . 1338584
+L741: Sperlich ,  B. 
+L742:  ,  
+L743:  C. 
+L744:  Zinner 
+L745:  ,  
+L746:  A. 
+L747:  Hauser 
+L748:  ,  
+L749:  H. C. 
+L750:  Holmberg 
+L751:  , and  
+L752:  J. 
+L753:  Wegrzyk 
+L754:  .  2016 
+L755:  The impact of hyperoxia on human performance and recovery .  Sports Med. 
+L756:  47 : 429 – 433 .
+L757: Teixeira ,  V. H. 
+L758:  ,  
+L759:  H. F. 
+L760:  Valente 
+L761:  ,  
+L762:  S. I. 
+L763:  Casal 
+L764:  ,  
+L765:  A. F. 
+L766:  Marques 
+L767:  , and  
+L768:  P. A. 
+L769:  Moreira 
+L770:  .  2009 
+L771:  Antioxidants do not prevent postexercise peroxidation and may delay muscle recovery .  Med. Sci. Sports Exerc. 
+L772:  41 : 1752 – 1760 . 19657294
+L773: Westerblad ,  H. 
+L774:  , and  
+L775:  D. G. 
+L776:  Allen 
+L777:  .  2011 
+L778:  Emerging roles of ROS/RNS in muscle function and fatigue .  Antioxid. Redox Signal. 
+L779:  15 : 2487 – 2499 . 21375476
+L780: Witman ,  M. A. 
+L781:  ,  
+L782:  J. 
+L783:  McDaniel 
+L784:  ,  
+L785:  A. S. 
+L786:  Fjeldstad 
+L787:  ,  
+L788:  S. J. 
+L789:  Ives 
+L790:  ,  
+L791:  J. 
+L792:  Zhao 
+L793:  ,  
+L794:  J. N. 
+L795:  Nativi 
+L796:  , et al.  2012 
+L797:  A differing role of oxidative stress in the regulation of central and peripheral hemodynamics during exercise in heart failure .  Am. J. Physiol. Heart Circ. Physiol. 
+L798:  303 :  H1237 – H1244 . 22961867
+L799: Wray ,  D. W. 
+L800:  ,  
+L801:  A. 
+L802:  Uberoi 
+L803:  ,  
+L804:  L. 
+L805:  Lawrenson 
+L806:  ,  
+L807:  D. M. 
+L808:  Bailey 
+L809:  , and  
+L810:  R. S. 
+L811:  Richardson 
+L812:  .  2009 
+L813:  Oral antioxidants and cardiovascular health in the exercise‐trained and untrained elderly: a radically different outcome .  Clin. Sci. 
+L814:  116 : 433 – 441 . 18795893
+L815: Wray ,  D. W. 
+L816:  ,  
+L817:  S. K. 
+L818:  Nishiyama 
+L819:  ,  
+L820:  R. A. 
+L821:  Harris 
+L822:  ,  
+L823:  J. 
+L824:  Zhao 
+L825:  ,  
+L826:  J. 
+L827:  McDaniel 
+L828:  ,  
+L829:  A. S. 
+L830:  Fjeldstad 
+L831:  , et al.  2012 
+L832:  Acute reversal of endothelial dysfunction in the elderly after antioxidant consumption .  Hypertension 
+L833:  59 : 818 – 824 . 22353612
+L834: Xenofondos ,  A. 
+L835:  ,  
+L836:  D. 
+L837:  Patikas 
+L838:  ,  
+L839:  D. M. 
+L840:  Koceja 
+L841:  ,  
+L842:  T. 
+L843:  Behdad 
+L844:  ,  
+L845:  E. 
+L846:  Bassa 
+L847:  ,  
+L848:  E. 
+L849:  Kellis 
+L850:  , et al.  2015 
+L851:  Post‐activation potentiation: the neural effects of post‐activation depression .  Muscle Nerve 
+L852:  52 : 252 – 259 . 25504211
+L853: Yfanti ,  C. 
+L854:  ,  
+L855:  T. 
+L856:  Akerstrom 
+L857:  ,  
+L858:  S. 
+L859:  Nielsen 
+L860:  ,  
+L861:  A. R. 
+L862:  Nielsen 
+L863:  ,  
+L864:  R. 
+L865:  Mounier 
+L866:  ,  
+L867:  O. H. 
+L868:  Mortensen 
+L869:  , et al.  2010 
+L870:  Antioxidant supplementation does not alter endurance training adaptation .  Med. Sci. Sports Exerc. 
+L871:  42 : 1388 – 1395 . 20019626
+L872: Zoppi ,  C. C. 
+L873:  ,  
+L874:  R. 
+L875:  Hohl 
+L876:  ,  
+L877:  F. C. 
+L878:  Silva 
+L879:  ,  
+L880:  F. L. 
+L881:  Lazarim 
+L882:  ,  
+L883:  J. M. F. A. 
+L884:  Neto 
+L885:  ,  
+L886:  M. 
+L887:  Stancanneli 
+L888:  , et al.  2006 
+L889:  Vitamin C and E supplementation effects in professional soccer players under regular training .  J. Int. Soc. Sports Nutr. 
+L890:  3 : 37 – 44 . 18500971
+L891: Acknowledgements
+L892: We would like to thank the gracious participation of our volunteers, as well as the Skidmore College Student Opportunity fund for providing partial financial support of this study.
+[25ms]
+

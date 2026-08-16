@@ -1,0 +1,1057 @@
+L1: Skeletal muscle BMAL1 is necessary for transcriptional adaptation of local and peripheral tissues in response to endurance exercise training
+L2: Molecular Metabolism (2024)
+L3: Mark R. Viggars, Hannah E. Berko, Stuart J. Hesketh, Christopher A. Wolff, Miguel A. Gutierrez-Monreal, Ryan A. Martin, Isabel G. Jennings, Zhiguang Huo, Karyn A. Esser
+L4: 1 Department of Physiology and Aging, University of Florida, Gainesville, FL, United States
+L5: 2 Myology Institute, University of Florida, Gainesville, FL, United States
+L6: 3 School of Medicine, University of Central Lancashire, United Kingdom
+L7: 4 Department of Biostatistics, University of Florida, Gainesville, FL, United States
+L8: Objective
+L9: In this investigation, we addressed the contribution of the core circadian clock factor, BMAL1, in skeletal muscle to both acute transcriptional responses to exercise and transcriptional remodeling in response to exercise training. Additionally, we adopted a systems biology approach to investigate how loss of skeletal muscle BMAL1 altered peripheral tissue homeostasis as well as exercise training adaptations in iWAT, liver, heart, and lung of male mice.
+L10: Methods
+L11: Combining inducible skeletal muscle specific BMAL1 knockout mice, physiological testing and standardized exercise protocols, we performed a multi-omic analysis (transcriptomics, chromatin accessibility and metabolomics) to explore loss of muscle BMAL1 on muscle and peripheral tissue responses to exercise.
+L12: Results
+L13: Muscle-specific BMAL1 knockout mice demonstrated a blunted transcriptional response to acute exercise, characterized by the lack of upregulation of well-established exercise responsive transcription factors including  Nr4a3  and  Ppargc1a . Six weeks of exercise training in muscle-specific BMAL1 knockout mice induced significantly greater and divergent transcriptomic and metabolomic changes in muscle. Surprisingly, liver, lung, inguinal white adipose and heart showed divergent exercise training transcriptomes with less than 5% of ‘exercise-training’ responsive genes shared for each tissue between genotypes.
+L14: Conclusions
+L15: Our investigation has uncovered the critical role that BMAL1 plays in skeletal muscle as a key regulator of gene expression programs for both acute exercise and training adaptations. In addition, our work has uncovered the significant impact that altered exercise response in muscle and its likely impact on the system plays in the peripheral tissue adaptations to exercise training. Our work also demonstrates that if the muscle adaptations diverge to a more maladaptive state this is linked to increased gene expression signatures of inflammation across many tissues. Understanding the molecular targets and pathways contributing to health vs. maladaptive exercise adaptations will be critical for the next stage of therapeutic design for exercise mimetics.
+L16: Original Article
+L17: Circadian biology; Exercise; Transcription; Metabolism; Signal transduction; Inflammation
+L18: Introduction
+L19: Circadian transcription factors and their autoregulatory transcription-translation feedback loops (TTFL) regulate skeletal muscle homeostasis through both transcriptional and epigenetic regulation [ [1] ,  [2] ,  [3] ]. The daily gene expression program regulated by the clock mechanism, called clock output, contributes to temporal patterning of a wide range of biological processes including skeletal muscle metabolism and proteostasis [ 4 ], as we and others have previously published [ [5] ,  [6] ,  [7] ,  [8] ].
+L20: A clear interaction between exercise and the circadian TTFL has been established in recent years. Genes encoding the negative limb of the TTFL have been shown to be responsive to acute exercise/muscle contraction (e.g.,  Pers ,  Nfil3 ) [ [9] ,  [10] ,  [11] ,  [12] ,  [13] ,  [14] ,  [15] ,  [16] ] and exercising at different times of the day is known to lead to unique metabolomic and transcriptional outcomes [ [17] ,  [18] ,  [19] ,  [20] ]. Exercise training/muscle activity also directly impacts the circadian transcriptome, by increasing the number of clock output genes [ 21 , 22 ]. Various exercise performance measures such as strength and endurance capacity also present time-of-day differences, highlighting a likely role of the muscle clock in overall muscle function [ [21] ,  [22] ,  [23] ,  [24] ,  [25] ,  [26] ,  [27] ]. While it is clear that exercise and the skeletal muscle circadian TTFL are linked [ 4 ], the question of whether the muscle clock has any impact on either the acute response or training induced adaptations in skeletal muscle is yet to be elucidated.
+L21: Here we asked whether the core clock factor,  Bmal1  is necessary in skeletal muscle for either the acute exercise response and/or adaptations to exercise training in skeletal muscle. Additionally, we probed the systemic impact of the loss of muscle  Bmal1  on the exercise adaptations in other peripheral tissues. Our results determined that the core clock factor  Bmal1 , is necessary for the acute molecular response to exercise with notable loss of up-regulation of well-known exercise response genes including  Ppargc1a  and  Nr4a3  [ 28 , 29 ]. We also determined that muscle  Bmal1  is required for the expected transcriptional and metabolomic response to treadmill training in mouse muscle. We found less than 5% of the exercise training induced changes in gene expression were identified in the absence of muscle  Bmal1 . Lastly, we found that loss of muscle  Bmal1  also contributes to a significant divergence in the exercise training transcriptional changes in all peripheral tissues studied including the heart, lung, liver, and inguinal white adipose tissue. Importantly these divergent transcriptional outcomes with acute exercise and following training were apparent even though the exercise workloads, speed, grade, and duration, were equivalent between genotypes. Our results identify the core circadian clock factor,  Bmal1 , in skeletal muscle as an integral transcriptional modulator for acute exercise and training adaptations. In addition, these results highlight the importance of skeletal muscle for peripheral tissue transcriptome changes in response to exercise training.
+L22: Materials & methods
+L23: Ethical approval
+L24: All animal and experimental procedures in this study were conducted in accordance with the guidelines of the University of Florida for the care and use of laboratory animals (IACUC #202100000018). The use of animals for exercise protocols was in accordance with guidelines established by the US Public Health Service Policy on Humane Care and Use of Laboratory Animals.
+L25: Skeletal muscle specific  Bmal1  knockout mouse model
+L26: Male inducible skeletal muscle-specific  Bmal1  knockout mice were generated as previously described [ 5 , 6 ]. Activation of Cre recombination was performed by intraperitoneal injections of tamoxifen (2 mg/day) dissolved in sunflower seed oil for five consecutive days when the HSA-Cre+/−; Bmal1 fl/fl mice reached ∼4 months of age. These mice are referred to as iMSBmal1KO mice henceforth. Controls were Cre +/− :Bmal1 fl/fl  mice treated with a vehicle (15 % ethanol in sunflower seed oil) and are referred to as Vehicle treated mice.
+L27: To assess recombination specificity within the gastrocnemius, DNA was extracted from ∼1 to 5 mg of muscle post-mortem, lysed in lysis buffer (10 mM Tris pH 8, 100 mM NaCl, 10 mM EDTA, 0.5% SDS and 20 mg/ml of Proteinase K) and DNA purified using the DNeasy Blood and Tissue Kit (Qiagen, Venlo, Netherlands). PCR was performed with extracted DNA and primers for the recombined and non-recombined alleles as previously described [ 5 ]. For the training study, lack of recombination was confirmed in the inguinal white adipose tissue, liver, heart, and lung. Recombination specificity across tissues, mRNA read alignment across tissues (illustrating lack of exon 8 in  Bmal1  from iMSBmal1KO mice) and western blots confirming lack of BMAL1 protein in skeletal muscle and presence of BMAL1 in heart tissues for the exercise training cohort is provided in  Supplementary Figure 1 . Exercise training did not increase BMAL1 protein content in gastrocnemius muscle of iMSBmal1KO mice.
+L28: A total of 40 mice were used in the acute exercise experiments, ( n  = 20 vehicle and  n  = 20 iMSBmal1KO mice). Mice were randomly assigned to a control or an acute exercise group (Vehicle Control  n  = 10, Vehicle Exercise  n  = 10, iMSBmal1KO Control  n  = 10, iMSBmal1KO Exercise  n  = 10). Mice assigned to the acute exercise bout experiment were group housed (2–5 per cage) at 23 ± 1.5 °C, 58 ± 5.8% relative humidity within temperature and humidity controlled light boxes. Light schedules were maintained on a 12:12 h light: dark schedule with  ad libitum  access to standard rodent chow (Envigo Teklad 2918, Indianapolis, IN, USA) and water. The macronutrient content of this chow is 24% protein, 18% fat and 58% carbohydrate, presented as a percent of calorie intake. Experiments were performed in two cohorts that differed significantly by age (30 weeks vs. 77 weeks,  P  < 0.0001) ( Supplementary Figure 2A ), but were randomly and evenly distributed across the vehicle and iMSBmal1KO groups. Following randomization, no differences in age were observed between ages of vehicle and iMSBmal1KO mice, ( P  = 0.86), ( Supplementary Figure 2B ).
+L29: An additional 21 mice were used for exercise training experiments. 21 male mice were randomly assigned to tamoxifen or vehicle treatment, with or without exercise training at ∼11 months of age (7-months post tamoxifen treatment). For clarity, these groups will be referred to in future text as Vehicle Control ( n  = 5), Vehicle Exercise Trained ( n  = 5), iMSBmal1KO Control ( n  = 6), and iMSBmal1KO Exercise Trained ( n  = 5). Mice were single housed in conditions of 23 ± 1.5 °C, 58 ± 10% relative humidity within temperature and humidity controlled light boxes. Light schedules were maintained on a 12:12 h light: dark schedule with  ad libitum  access to standard rodent chow (Envigo Teklad 2918, Indianapolis, IN, USA) and water. To maintain standardized nomenclature for this study, we will reference time through use of zeitgeber time (ZT), where ZT0 refers to time of lights on and ZT12 refers to time of lights off. The active period of the day for mice is from ZT12-ZT24 and their rest period is ZT0-ZT12. All physiological testing, treadmill familiarization and exercise/training sessions were performed in the active phase so transportation of mice from housing to the treadmill room was in a light tight cart and the treadmill room was dark with red lights.
+L30: Treadmill familiarization, graded exercise test, grip strength & rotarod
+L31: Mice from all groups/experiments were first subjected to treadmill familiarization under red light on a Panlab treadmill (Harvard Apparatus, Holliston, MA) at ZT13. Familiarization consisted of 3 sessions performed on 3 consecutive days. The first familiarization session started at 10 cm/s for 5 min at 0° incline. The incline was then adjusted to 5° and speed was increased by 2 cm/s every 2 min up to 20 cm/s (15 min total). The second day consisted of an increase in speed every 3 min by 3 cm/s from 10 cm/s to 24 cm/s at an incline of 10°, (18 min total). The final familiarization session was the same as the second but performed at a 15° incline, (18 min total).
+L32: Following 1 day of rest, mice were subject to a graded treadmill exercise test to serve as a baseline performance measure, conducted at ZT13 under red light. For the graded exercise test, animals began at a speed of 10 cm/s at 10° incline for a 5 min warm-up. From which the incline was increased to 15° and the treadmill speed increased by 3 cm/s every 2 min until exhaustion. The treadmill was operated with the electrical shock grid turned off and mice gently encouraged by a compressed air canister when needed. Mice were deemed to be exhausted when they remained in contact with the back of the treadmill >15 s and could not be encouraged to move away by the compressed air.
+L33: Mice in groups assigned to an acute exercise bout were given ∼1-week of rest before their acute exercise bout. This consisted of a 30-minute, 15° incline treadmill bout at ZT13 at a speed determined by the group mean of the maximum graded exercise tests. Briefly, treadmill speed (cm/s) was determined by the following equation. (70% Distance Covered in Graded Exercise Test (cm) /Total Time of Graded Exercise Test (s)), = Speed in cm/s. Work done was calculated as previously described [ 30 ], work done = (M × D × sin q). M is the mass (g) of the animal, D is the distance (m) ran in the graded exercise test and sin q is the slope (15°) of the treadmill. Work done is measured in arbitrary units (AU). Control mice were placed on a stationary treadmill for the same duration to account for changes in stress caused by handling or food removal.
+L34: Mice in groups assigned to exercise training were given 2-weeks of rest post familiarization before their 6-weeks of exercise training commenced. Exercise training was always completed at ZT13 under red light, 5 times per week for a total of 30 individual exercise training bouts. Each bout consisted of 1 h of treadmill running with a 15° incline, at a speed pre-determined from their most recent maximum graded exercise test using the following equation. (Total Distance Covered in Graded Exercise Test (cm) /Total Time of Graded Exercise Test (s)), = Speed in cm/s. Additional graded exercise tests were conducted at the end of 2 and 4 weeks of training to account for increases in performance and adjustment of exercise speed during training sessions. As a result, treadmill speed was set to 18 cm/s for weeks 1-2, 25.5 cm/s for weeks 3–4 and 29 cm/s for weeks 5–6 for both groups. Control mice where placed on an unmoving treadmill for the same duration to account for changes in stress caused by handling or food removal. At the end of 6-weeks training a final maximal capacity test was performed to serve as a post training comparison.
+L35: Forelimb grip strength (N/gBW) measures were performed between ZT13-14 on mice from the acute exercise cohort using a Harvard Apparatus grip strength meter (average of 5 trials). Rota Rod (Panlab) performance was also measured in 3 trials and averaged, data is presented in  Supplemental Figure 2 . This work was facilitated by equipment made available by the University of Florida Systems Physiology and Omics Core Facility (RRID:SCR_025083).
+L36: Nuclear magnetic resonance body composition analysis using the Echo MRI™ 100 instrument
+L37: Body composition was assessed by nuclear magnetic resonance (Echo MRI-100 Body Composition Analyzer; Echo Medical Systems, Houston, TX) prior to treadmill familiarization at ZT13. For the exercise training cohort, measurements were taken in the week prior to starting exercise training, after 3 weeks and after 6 weeks of exercise training. Lean and fat mass (grams) are presented as percentage changes over time as well as a percentage of total body weight over time. All measurements were taken under red light.
+L38: Food intake & cage activity measurements
+L39: As described above, mice were individually housed to track food intake and cage activity. Food and body mass were weighed on a weekly basis to assess changes in food intake relative to body weight. The daily activity of the mice in their home cages were continuously recorded throughout the entire experiment using wireless infrared activity monitoring (Actimetrics, Wilmette, IL, USA) and analyzed using ClockLab software 7. Average counts per week were calculated for the 4-weeks prior to training, weeks 1–2, 3–4 and 5–6. The hour during treadmill running +/− 30 min was excluded from each animal's analysis. This work was facilitated by equipment made available by the University of Florida Systems Physiology and Omics Core Facility (RRID:SCR_025083).
+L40: Tissue collection
+L41: All animals were humanely sacrificed following the experiments using isoflurane anesthesia (2–3%) in oxygen followed by cervical dislocation performed under red light. For the acute exercise bout experiments, tissue was collected 1-hour post the end of their acute exercise bout (ZT14.5). Control, unexercised mice were collected alongside the acute exercise groups as time-of-day matched controls. Gastrocnemius muscles from the hindlimbs were dissected, cleaned of excess fat and connective tissue and flash frozen in liquid nitrogen before storage at −80 °C. For the training study, animals were humanely sacrificed as above, 47 h after the exercise trained mice final maximal capacity test at ZT13. Hindlimb muscles, iWAT, liver, heart and lungs were dissected and cleaned of excess fat and connective tissue. The heart and lungs were gently perfused with phosphate buffered saline. Muscles from the left hindlimb were weighed and flash frozen in liquid nitrogen and muscles from the right hindlimb embedded in optimal cutting temperature compound (OCT) before snap freezing in isopentane pre-cooled by liquid nitrogen. Muscles were stored at −80 °C until biochemical analysis or cryo-sectioning.
+L42: Blood/plasma collection & analysis
+L43: For the training study, blood samples ∼50 μL were collected from the tail veins of all mice at ZT13 prior to the maximal exercise test, 48 h prior to tissue collection. Blood glucose levels were measured at this point using the OneTouch® UltraMini system (OneTouch Solutions, UK). A whole blood aliquot was kept on ice for assessment of glycosylated hemoglobin content (Hba1c%) (#80310, Crystal Chem High Performance Assays, IL, USA) as per manufacturer's instructions. Endpoint colorimetric measurements were made using the Molecular Devices Spectramax i3X system (Molecular Devices LLC, CA, USA). The remaining blood was collected in EDTA coated plasma tubes before centrifugation at 4 °C for 10 min at 2000RCF. The plasma was frozen and stored at −20 °C. Insulin concentration was measured using a commercially available kit (#90080, Crystal Chem High Performance Assays, IL, USA) as per manufacturer's instructions.
+L44: Gastrocnemius muscle & liver glycogen/triglyceride content analysis
+L45: Small (∼15 mg) snap-frozen pieces from the gastrocnemius muscle and liver (n = 5 per group) were used to detect glycogen/triglyceride content. Care was taken to ensure the same location of each tissue was sampled across replicates. For glycogen, tissue samples were weighed and homogenized in 100 μL of glycogen hydrolysis buffer in a bullet blender (BBY24M, Next Advance, NY, USA), at speed 10 for two, 2-min sets, at 4 °C using 0.5 mm stainless steel beads. Homogenates were boiled at 95 °C for 5 min to inactivate enzymes, then centrifuged at 12,000 rpm for 5 min at 4 °C to remove insoluble material. Muscle glycogen concentrations were then quantified from the supernatant using a commercially available kit (Sigma-Aldrich-MAK016) according to manufacturer's instructions. Glycogen concentrations were normalized to input tissue weight. For triglyceride analysis, tissue was homogenized as above in chloroform: methanol (2:1). Samples were incubated for 30 min at 20 °C with shaking at 1400 rpm. Samples were then centrifuged at 13,000 rpm for 30 min at 20 °C. The liquid phase was mixed with 0.9% NaCl and centrifuged at 2000 rpm for 5 min. Chloroform: Triton X-100 (1:1) was added to the organic phase and solvents evaporated. Triglycerides were then measured using a commercially available kit (Abcam, (ab65336), according to manufacturer's instructions. Triglyceride concentrations were normalized to input tissue weight.
+L46: Fiber morphology analysis
+L47: Histological samples were transversely sectioned (10 μm thick) from the mid-belly of the gastrocnemius muscle and labeled with a cocktail of antibodies against isotype-specific anti-mouse primary antibodies for types IIA (SC-71) and IIB (BF-F3) (1:100) from Developmental Studies Hybridoma Bank (DSHB) (Iowa City, Iowa, USA), and an antibody against dystrophin (1:100, ab15277, Abcam, St. Louis, MO, USA) overnight as previously described [ 31 , 32 ]. Following overnight incubation, sections were washed for 3 × 5 mins with phosphate buffered saline (PBS) before AlexaFluor secondary antibodies against Rabbit IgG H&L, Mouse IgG1, Mouse IgG2B (Invitrogen/Thermofisher, USA) were added for 2 h before 3 × 5 min washes with PBS. Sections were post-fixed in methanol for 5 min before 3 × 5 min washes with PBS. Sections were carefully dried to remove excess PBS before mounting in Vectashield Antifade Mounting Medium (Vector Laboratories, UK). For nuclei counting, sections were just labeled with dystrophin and counterstained for nuclei with DAPI. Additional labeling was performed as above using an antibody against embryonic myosin (BF-G6, DSHB). Embryonic myosin positive fibers were counted manually using Image Jv1.53, excluding intrafusal muscle fibers of muscle spindles, and expressed as a percentage of total fibers identified. Manual counting of central nuclei was also performed in this manner. Whole labeled cross sections were imaged at 20x using a Leica TCS SPE microscope equipped with a DFC7000 camera (Leica, Germany). LAS Navigator software was used to generate a merged image of the whole muscle cross-section. Fiber type distribution, overall muscle fiber cross-sectional area (CSA) and total nuclei/myonuclei per fiber was characterized using MyoVision 2.2 automated software [ 31 ]. For succinate dehydrogenase (SDH) staining, cryosections were incubated at 37 °C for 1 h with a sodium succinate buffer (50 mM sodium succinate, 50 mM phosphate buffer and 0.5 mg/ml nitroblue tetrazolium) before washing in distilled water and imaged as above. Colorimetric images were converted to greyscale 8-bit images and SDH labeling intensity quantified using the polygon selection tool to select within the muscle cross-section and raw intensity density measurement tool as standard in Image Jv1.53.
+L48: RNA isolation, library preparation & RNA-sequencing
+L49: For the acute exercise bout experiment, gastrocnemius muscles were powdered under liquid nitrogen and ∼20 mg weighed and placed in 500 μL of Trizol (Invitrogen 15596018). Tissue samples were homogenized in a bullet blender using 0.5 mm stainless steel beads (BBY24M, Next Advance, NY, USA) for 2 min at 4 °C. RNA was isolated using the RNeasy Mini Kit (Qiagen 74104) according to the manufacturer's protocol. DNase digest was performed on column using the RNase-Free DNase Set (Qiagen 79254). RNA concentration and purity were assessed by UV spectroscopy at ODs of 260 and 280 nm using a Nanodrop (ThermoFisher One/One UV spectrophotometer, USA). RNA integrity numbers (RIN) were subsequently determined on an Agilent TapeStation 2200 (Agilent, CA, USA), and all samples prepared for sequencing had RIN values of at least 8. Preparation of poly-A tail selected RNA libraries (Illumina mRNA Prep kit (Illumina, Inc. CA, USA)) and whole transcriptome sequencing (Novaseq 6000 (Illumina, Inc. CA, USA)), was conducted by Novogene Co., LTD (Durham, NC) in a 2 × 150 bp format for the acute exercise bout study. A total of 20 samples were sequenced with a read depth of around 25 million paired end reads per sample,  n  = 5 per group (∼30 weeks of age). Mice analyzed in this cohort where randomly selected for RNA-sequencing analysis and are found within the circles within  Supplementary Figure 2B–H . Treadmill work-done was equal between the acutely exercised mice selected for RNA-sequencing analysis.
+L50: For the exercise training experiment, RNA was extracted and sequenced in the same format as above but was performed by the University of Florida ICBR Gene Expression and Genotyping Core Facility, RRID: SCR_019145  and the University of Florida ICBR NextGen DNA Sequencing Core Facility, RRID: SCR_019152  for gastrocnemius muscle, liver and heart ( n  = 5 per group). iWAT and lung, ( n  = 3 per group) were completed as above by Novogene Co., LTD (Durham, NC) and mice randomly selected for analysis (the same 3 mice were used for iWAT and lung).
+L51: RNA-seq bioinformatic analysis
+L52: FastQ files were imported to Partek® Flow® Genomic Analysis Software (Partek Inc. Missouri, USA) for pipeline processing. Pre-alignment QA/QC was performed on all reads prior to read trimming below a Phred quality score of 25 and adapter trimming. STAR alignment 4.4.1d was used to align reads to the Mus Musculus, mm10 genome assembly. Aligned reads were then quantified to the Ensembl transcriptome annotation model associated with Mus Musculus mm10, release 99_v2. Gene expression was normalized using DESeq2 median of ratios within tissues. We characterized ‘expressed genes’ as those that had greater than 5 normalized counts across 100% of the samples. Using these criteria, we identified 13,474 expressed genes in gastrocnemius skeletal muscle, 14,100 expressed genes in heart, 14,143 in inguinal white adipose tissue, 12,745 in liver tissue and 15,226 in lung tissue. Differentially expressed genes (DEGs) were identified through the Partek® Flow® DESeq2 binomial generalized linear model with Wald testing for significance between conditions. In  Figure 2 F, we overlapped the queried vehicle exercise responsive DEGs with a previously published BMAL1:CLOCK chromatin immunoprecipitation with sequencing dataset from our lab to identify directly bound genes within murine gastrocnemius muscle (any genomic region, FDR <0.001) [ 33 ].
+L53: Assay for transposase-accessible chromatin using sequencing (ATAC-seq)
+L54: A whole gastrocnemius muscle was diced and then homogenized using a Polytron homogenizer in homogenization buffer (Homogenization buffer (10 mM HEPES, pH 7.5, 10 mM MgCl2, 60 mM KCl, 300 mM sucrose, 0.1 mM EDTA, 0.1% Triton, 1 mM DTT, complete with mini protease inhibitor mix). Homogenates were spun at 300 rpm for 3 min and supernatant containing nuclei moved to a new tube. This was repeated 3 times. The supernatant was then filtered through a 40 μm cell strainer before centrifugation at 1000 g  for 10 min. The nuclei pellet was then resuspended in 1.2 ml of homogenization buffer, gently triturated and 200 μL loaded on top of 2.15 M sucrose cushions (10 mM HEPES, pH 7.5, 10 mM MgCl2, 60 mM KCl, 2.15 M sucrose, 0.1 mM EDTA, 0.1% Triton, 1 mM DTT, complete with mini protease inhibitor mix). Nuclei samples were centrifuged at 13,500 g  at 4 °C for 1.5 h. Samples were aspirated and washed leaving a nuclei pellet, free of cytoplasmic fragments. Nuclei were quality checked using light microscopy (intact nuclei, no blebbing, free of cytoplasmic fragments) and then counted. 50,000 nuclei were used for input into a commercially available ATAC-seq kit which includes library preparation (#53150, Active Motif, Inc., CA, USA). We have previously determined that this isolation technique yields ∼70% myosin heavy chain expressing nuclei through RNA-sequencing, (unpublished data). A total of  n  = 4 was used per group. Libraries were assessed via Bioanalyzer to compare library fragments ranging from 250 to 1000 bp with an oscillation period at ∼150 bp were sequenced by the UF ICBR Nextgen DNA Sequencing facility RRID: SCR_019152  with ∼70 million paired-end reads per sample in a 2 × 150 bp format.
+L55: ATAC-seq bioinformatic analysis
+L56: Fastq files were imported to Partek® Flow® Genomic Analysis Software (Partek Inc. Missouri, USA) for processing. Pre-alignment QA/QC was performed on all reads prior to read trimming below a Phred quality score of 30 and adapter trimming. Alignment was performed using Bowtie2 to the mm10 genome, and peak detection/calling performed using MACS2. Peaks were quantified, normalized using DeSeq2 (median of ratios) before differential analysis to identify differentially accessible regions (DARs) between conditions (significant differences in peak heights  P  = 0.01). ATAC peaks mapping to any genomic region were included in the differential analysis. 24.3% of peaks corresponded to the transcription start site, 5.2% aligned to the transcription termination site, 4% to exons, 8.5% to 5′ untranslated regions (UTR), 3.1% to 3′UTR regions, 29.3% to intronic regions and 25.6% to intergenic regions.
+L57: Pathway & motif analysis
+L58: Biological interpretation of filtered/selected gene lists was performed using DAVID [ 34 ] to identify associated Kyoto Encyclopedia of Genes and Genomes (KEGG), Reactome and Biological Processes pathways. HOMER (v4.11) motif analysis was performed on DEGs, to identify enrichment of known motifs (6–12 bp long) in the gene body and up to 2 kb upstream of the transcription start site. Upset plots were created using Intervene, a publicly available software [ 35 ].
+L59: LC-MS metabolomics
+L60: Gastrocnemius muscle samples ( n  = 5 per group) underwent cellular extraction procedures (Southeast Center for Integrated Metabolomics, SECIM). Global metabolomics profiling was performed on a Thermo Q-Exactive Orbitrap mass spectrometer with Dionex UHPLC and autosampler. All samples were normalized by total protein content prior to extraction. Samples were analyzed in positive and negative heated electrospray ionization with a mass resolution of 35,000 at m/z 200 as separate injections. Separation was achieved on an ACE 18-pfp 100 × 2.1 mm, 2 μm column with mobile phase A as 0.1% formic acid in water and mobile phase B as acetonitrile. This is a polar embedded stationary phase that provides comprehensive coverage but does have some limitations in coverage of very polar species. The flow rate was 350 μL/min with a column temperature of 25 °C. 4 μL was injected for negative ions and 2 μL for positive ions. MZmine (freeware) was used to identify features, deisotope, and align features. All adducts and complexes were identified and removed from the data set. The mass and retention time data was searched against SECIMs internal metabolite library, and known metabolites were mapped to KEGG IDs. Blank feature filtering was performed using inner-quartile range filtering as implemented in the R package MetaboAnalystR ( https://github.com/xia-lab/MetaboAnalystR ). Missing data were imputed by k-nearest neighbor imputation and peak intensities were normalized sample-wise using sum normalization followed by log 10  transformation and pareto scaling as implemented R package MetaboAnalystR. Univariate ANOVA was performed using the R package stats (R Core Team 2023) to determine whether there was a significant effect of variable Class on metabolite peak intensity, and post-hoc pairwise comparisons were performed using least-squares means method as implemented in the R package emmeans (R.V. Lenth 2023). Adjusted  P -values are adjusted for multiple pairwise comparison testing, not testing of multiple metabolites. A significance threshold was set at an FDR of 5%. Metaboanalyst 5.0 [ 36 ] was used to perform enrichment analysis on annotated features against the KEGG metabolite set library.
+L61: Western blotting
+L62: Gastrocnemius muscles were homogenized as above, in RIPA buffer and complete mini protease inhibitor (Millipore, Cat. #11836170001). Protein concentrations were determined via BCA assay and protein concentration normalized across samples, before resuspension in 4x Laemlli buffer at 95 °C. 50 μg of protein was loaded per lane and separated by SDS page on a 10% gel. After electrophoresis, gels were semi-dry transferred to nitrocellulose membranes. Total protein staining was performed using Revert™ 700 Total Protein Stain (Li-COR biosciences, USA). Membranes were washed and subsequently blocked in Tris-buffered saline with 5% non-fat dry milk. A primary antibody targeting BMAL1 ((D2L7G) Rabbit monoclonal Antibody #14020) (Cell Signaling Technology) at 1:1000 overnight at 4 °C. Blots were probed with HRP-conjugated anti-rabbit secondary antibody (1:10,000, Thermofisher Scientific, USA) for 1 h at room temperature. Pierce™ ECL Western Blotting Substrate (Thermofisher Scientific) was used for detection. Images were acquired using Chemidoc Imaging systems (BioRad) and proteins quantified and normalized to total protein content within Image Lab Software (Biorad). Full western blots are available in Supplementary File 2.
+L63: Statistical analysis
+L64: Unless otherwise stated, physiology data are presented as mean ± standard deviation (SD) and statistical analyses conducted in GraphPad Prism 9.4.1. For multiple comparisons, data were analyzed using one, or two factor analysis of variance (ANOVA) followed by Tukey's multiple comparisons test. Repeated measures ANOVA were performed on measures where the same animals were measured over time. To assess differences between exercise training groups only, two-tailed independent student t-tests were performed to evaluate statistical differences. All statistically significant thresholds were considered at the level of  P  < 0.05. Corresponding symbols to highlight statistical significance are as follows; ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001.
+L65: Data availability
+L66: RNA-seq data is available in Supplementary File 1 and raw data can be found at the GEO accessions  GSE255280  (acute exercise),  GSE240653  (gastrocnemius training),  GSE253735  (peripheral tissue training). Chromatin accessibility data (ATAC-seq is available in Supplementary File 1 and raw data can be found at  GSE255376 . LCMS metabolomics data is available in Supplementary File 2.
+L67: Results
+L68: Loss of the skeletal muscle clock significantly alters the acute exercise transcriptional response
+L69: Figure 1 Loss of skeletal muscle  Bmal1  alters the transcriptional response to acute exercise. (A) Experiment 1. Vehicle and iMSBmal1KO mice completed a 30-minute, work-matched 15° inclined treadmill bout and gastrocnemius muscles were collected 1-hour post. (B) Exercise bout work was matched between genotypes. (C) RNA-sequencing was used to assess the number of DEGs 1-hour post exercise in vehicle and iMSBmal1KO mice. (D) Venn overlap of vehicle and iMSBmal1KO mice exercise responses. (E) Pathway analysis of shared exercise response genes. (F) Z-scores of exercise responsive clock factors and common exercise response genes shown between genotypes. Associated pathway databases are indicated by (R) Reactome, (K) KEGG, and (BP) Biological Processes. Pathway analysis of vehicle exercise responsive genes (G) and iMSBmal1KO exercise responsive genes (H).
+L70: Previous work has identified that acute exercise performed at different time of the day leads to divergent transcriptional responses [ 18 ] suggesting that the acute response to exercise is modulated by the muscle circadian clock. To directly test this, we exposed vehicle treated and iMSBmal1KO mice to a workload-matched 30-minute treadmill exercise bout and performed transcriptional analysis on the gastrocnemius muscles at 1-hour post completion of the bout, ( Figure 1 A). Physiological phenotyping is available in  Supplementary Figure 2 . Despite vehicle and iMSBmal1KO mice completing the same amount of treadmill work ( Figure 1 B), the acute transcriptional response was significantly different in many parameters. First, we noted the iMSBmal1KO muscle exhibited a 48% reduction in the number of exercise responsive genes with 517 genes changed (250 upregulated and 267 downregulated:  q  < 0.05) compared to the 989 genes that changed in the muscle of vehicle mice (600 upregulated and 389 downregulated), ( Figure 1 C). Only 117 of these genes were common as exercise response genes in both genotypes, ( Figure 1 D). Within this shared group of exercise responsive genes ‘Biological rhythms’ was the most enriched pathway ( Figure 1 E), driven by changes in expression of genes in the negative limb of the E-box feedback loop ( Per1 ,  Per2 ) and RORE element/D-box feedback loop ( Nfil3 ) which are still responding to the exercise bout in the presence or absence of BMAL1, ( Figure 1 F) [ 37 ]. This observation confirms that some of the negative limb circadian genes can be directly regulated downstream of the exercise bout in skeletal muscle and do not require  Bmal1  or a functioning TTFL clock mechanism. We note that  Bmal1  is not responsive to acute exercise in our dataset. Figure 1 Loss of skeletal muscle  Bmal1  alters the transcriptional response to acute exercise. (A) Experiment 1. Vehicle and iMSBmal1KO mice completed a 30-minute, work-matched 15° inclined treadmill bout and gastrocnemius muscles were collected 1-hour post. (B) Exercise bout work was matched between genotypes. (C) RNA-sequencing was used to assess the number of DEGs 1-hour post exercise in vehicle and iMSBmal1KO mice. (D) Venn overlap of vehicle and iMSBmal1KO mice exercise responses. (E) Pathway analysis of shared exercise response genes. (F) Z-scores of exercise responsive clock factors and common exercise response genes shown between genotypes. Associated pathway databases are indicated by (R) Reactome, (K) KEGG, and (BP) Biological Processes. Pathway analysis of vehicle exercise responsive genes (G) and iMSBmal1KO exercise responsive genes (H). Figure 1
+L71: Analysis of the exercise DEGs unique to vehicle muscle identified the robust up-regulation of well-known exercise transcription factors and co-activators, including  Nr4a3 ,  Fosb  and  Ppargc1a (PGC1ɑ) . In contrast, this cluster of well-defined exercise responsive factors did not change following exercise in iMSBmal1KO muscle. This was unexpected as these genes have been shown to be very responsive to an acute exercise bouts in preclinical rodent models, in muscle of healthy human subjects and in muscle from subjects with T2D [ 9 , 10 , 28 , 38 ], ( Figure 1 F). These results identify that muscle BMAL1 is necessary for the acute up-regulation of  Ppargc1a ,  Nr4a3  and other exercise responsive transcription factors in skeletal muscle. We suggest that the lack of up-regulation of these factors, in the absence of muscle BMAL1, likely contributes to the divergent transcriptional program post-acute exercise.
+L72: We next asked if the divergent exercise gene expression patterns reflected similar or different functional pathways, ( Figure 1 G–H). Consistent with many studies, the vehicle exercise response pathway enrichment contained ‘Oxidative Phosphorylation,’ ‘Stress Response,’ and signaling pathways such as ‘insulin receptor, ‘PI3K-Akt’, ‘Nuclear Receptor’, Receptor Tyrosine Kinase’, ‘MAPK’ and ‘PPAR’. Additionally, there were 85 ‘Immune System’ associated genes also differentially regulated specifically in vehicle treated mice. Pathway analysis of the iMSBmal1KO specific exercise DEGs revealed vastly different pathways and noticeably lacked the pathways seen in the vehicle muscle response. The primary pathways identified were enriched for ‘Immunity’ (22 genes) and the ‘Innate Immune System’ (33 genes), ( Figure 1 H). We noted that 109 ‘signal transduction’ associated genes were altered post exercise, (61% upregulated) in the vehicle mice, but were unchanged in the iMSBmal1KO, ( Figure 1 G). This included the absence of genes that contribute to several well-known exercise responsive signaling pathways including ‘insulin receptor, PI3K-Akt, nuclear receptor, receptor tyrosine kinase, MAPK and PPARG’.
+L73: Figure 2 Transcriptome and chromatin accessibility analysis of iMSBmal1KO mice. Vehicle treated and iMSBmal1KO mice underwent baseline physiological phenotyping including RNA and ATAC-sequencing analysis at ZT13 on gastrocnemius tissue. (B) Number of DEGs genes with loss of skeletal muscle  Bmal1  ( q  = 0.05). Numbers in bars indicate up or downregulation. (C) Pathway analysis of differentially expressed RNAs split by direction of change. Numbers in bars indicate the number of genes present within the pathway. (D) Number of differentially accessible regions as assessed by ATAC-seq. Numbers in bars indicate the number of DNA regions/peaks becoming more or less accessible with loss of  Bmal1 . (E) Pathway analysis of differentially accessible chromatin regions split by direction of change. Numbers in bars indicate the number of genes present within the pathway. (F) Upset plot demonstrating shared features shared across acute exercise responses (DEGs), genes/chromatin regions affected by loss of muscle BMAL1 and (BMAL1:CLOCK ChIP-seq peaks, Gabriel et al. 2021 Sci Adv). (G) Pathway analysis of ‘BMAL1 regulated’ exercise responsive features. (H) Example BMAL1 ChIP-seq plots illustrating BMAL1 binding in promoter regions of  Nr4a3  and  Irs2 .
+L74: Figure 3 Graded exercise performance and body composition analysis of vehicle and iMSBmal1KO mice. The experimental design is illustrated in (A) which shows the timecourse and parameters of exercise training, physiological testing and tissue collection. At ∼4 months of age, iMSBmal1 fl/fl  were treated with either a vehicle, or with tamoxifen for 5 days (2 mg/day) to induce Cre-recombination and loss of  Bmal1  specifically in skeletal muscle. Both vehicle and iMSBmal1KO mice were randomly assigned to 6 weeks of exercise training performed at ZT13, or control groups. Graded exercise tests were performed prior to, after 2, 4 and 6-weeks of training with the speed adjusted accordingly to make training progressive. MRIs were performed before, after 3 and 6 weeks of training. Mice from all groups were euthanized, and tissue was collected at ZT13, 47 h after their final graded exercise test. (B) Illustrates the weekly work done (AU) during exercise training. (C) Measurements of body mass were taken before, after 3 and 6 weeks of training and the subsequent percentage change calculated for each individual. (D) Total fat mass (g) measured before, after 3 and 6 weeks of training. (E) Percent changes in fat mass (g) were calculated from the beginning of the training period to the middle and end of the training period. (F) Total lean mass (g) measured before, after 3 and 6 weeks of training. (G) Percent changes in lean mass (g) were calculated from the beginning of the training period to the middle and end of the training period.
+L75: Mechanistically, we asked if the altered exercise response in the iMSBmal1KO mice could be due to epigenetic changes after loss of BMAL1. We performed an assay for transposase accessible chromatin with sequencing (ATAC-seq) on gastrocnemius muscle from sedentary vehicle and iMSBmal1KO mice to determine chromatin accessibility. We identified a number of changes in chromatin accessibility between vehicle and iMSBmal1KO mice that may contribute to some of the altered exercise responses, including 1837 more accessible DNA regions and 1973 less accessible regions, ( Figure 2 A–H). We note that ‘Signal transduction’ was the most enriched pathway in the less accessible DNA regions, comprising 152 genes. Furthermore, 28 of those genes also had decreased gene expression suggesting that loss of BMAL1 alters chromatin accessibility in muscle, with reduced availability of many signal transduction genes which could be directly impacting their response to exercise. Additionally, 73 ‘Signal transduction’ associated genes were not affected at the chromatin level but were downregulated at the gene expression level with loss of BMAL1 indicating altered transcriptional regulation. We next queried muscle ChIP-Seq data [ 33 ] and identified that 31.5% of acute exercise responsive DEGs are bound by BMAL1:CLOCK within the promoter and/or gene body including  Nr4a1 ,  Nr4a2 ,  Nr4a3 ,  Fosb ,  Irs2 ,  Fosl2  and  Ppargc1a  which we highlight are unresponsive in the iMSBmal1KO, ( Figure 3 F–H). The upset plot presented in  Figure 2 F also highlights that 45% (445 exercise-responsive DEGs) are regulated by BMAL1 either at the gene expression, chromatin accessibility or through direct BMAL1:CLOCK binding. Pathway analysis of these factors (green nodes,  Figure 2 H–G) provided further evidence that the normal exercise responsive genes that are ‘BMAL1 regulated’ are enriched in pathways relating to signal transduction, transcription regulation, the immune system and well-known signaling pathways such as receptor tyrosine kinases, MAPK, PI3k-Akt and AMPK. These observations highlight that the core clock gene,  Bmal1  contributes to both the epigenetic and direct transcriptional network that is necessary for the acute exercise response in skeletal muscle. Figure 2 Transcriptome and chromatin accessibility analysis of iMSBmal1KO mice. Vehicle treated and iMSBmal1KO mice underwent baseline physiological phenotyping including RNA and ATAC-sequencing analysis at ZT13 on gastrocnemius tissue. (B) Number of DEGs genes with loss of skeletal muscle  Bmal1  ( q  = 0.05). Numbers in bars indicate up or downregulation. (C) Pathway analysis of differentially expressed RNAs split by direction of change. Numbers in bars indicate the number of genes present within the pathway. (D) Number of differentially accessible regions as assessed by ATAC-seq. Numbers in bars indicate the number of DNA regions/peaks becoming more or less accessible with loss of  Bmal1 . (E) Pathway analysis of differentially accessible chromatin regions split by direction of change. Numbers in bars indicate the number of genes present within the pathway. (F) Upset plot demonstrating shared features shared across acute exercise responses (DEGs), genes/chromatin regions affected by loss of muscle BMAL1 and (BMAL1:CLOCK ChIP-seq peaks, Gabriel et al. 2021 Sci Adv). (G) Pathway analysis of ‘BMAL1 regulated’ exercise responsive features. (H) Example BMAL1 ChIP-seq plots illustrating BMAL1 binding in promoter regions of  Nr4a3  and  Irs2 . Figure 2 Figure 3 Graded exercise performance and body composition analysis of vehicle and iMSBmal1KO mice. The experimental design is illustrated in (A) which shows the timecourse and parameters of exercise training, physiological testing and tissue collection. At ∼4 months of age, iMSBmal1 fl/fl  were treated with either a vehicle, or with tamoxifen for 5 days (2 mg/day) to induce Cre-recombination and loss of  Bmal1  specifically in skeletal muscle. Both vehicle and iMSBmal1KO mice were randomly assigned to 6 weeks of exercise training performed at ZT13, or control groups. Graded exercise tests were performed prior to, after 2, 4 and 6-weeks of training with the speed adjusted accordingly to make training progressive. MRIs were performed before, after 3 and 6 weeks of training. Mice from all groups were euthanized, and tissue was collected at ZT13, 47 h after their final graded exercise test. (B) Illustrates the weekly work done (AU) during exercise training. (C) Measurements of body mass were taken before, after 3 and 6 weeks of training and the subsequent percentage change calculated for each individual. (D) Total fat mass (g) measured before, after 3 and 6 weeks of training. (E) Percent changes in fat mass (g) were calculated from the beginning of the training period to the middle and end of the training period. (F) Total lean mass (g) measured before, after 3 and 6 weeks of training. (G) Percent changes in lean mass (g) were calculated from the beginning of the training period to the middle and end of the training period. Figure 3
+L76: Loss of skeletal muscle BMAL1 does not impact exercise training workloads, body composition, or muscle size and fiber type
+L77: We next asked whether muscle  Bmal1  contributes to endurance training adaptations ( Supplementary Figures 3–6 ). We followed a progressive treadmill training approach, performing graded exercise tests before training to set the relative training intensity for each group of mice and then we repeated testing at 2 and 4 weeks to prescribe increases in workload, followed by a post-intervention test at 6 weeks,  Figure 3 A. Important for interpretations of this training study, we found that the total treadmill work done (AU) across the timecourse of training was not different between genotypes and both groups demonstrated increased performances with training ( P  < 0.0001), ( Figure 3 B).
+L78: We observed no differences in body mass between groups, ( Figure 3 C/ Supplementary Figure 3C ). Following 6-weeks training there was no significant differences between body mass for both of the exercise trained groups vs. their respective controls (Vehicle: 32.3 ± 2.7 g vs. 29.8 ± 0.8 g,  P  = 0.13 and iMSBmal1KO: 34.1 ± 2.5 g vs. 30.5 ± 2.4 g,  P  = 0.09), ( Figure 3 C/ Supplementary Figure 3C ). Food intake measured per week (g, p/w) per bodyweight (g) did not change over time, or between groups across the experimental timecourse, equaling ∼0.8–1 times bodyweight per week, ( Supplementary Figure 3D ). We also note that there were no significant differences between the 4 groups in cage activity measures, suggesting that neither loss of muscle  Bmal1  nor exercise training affected behavioral cage activity ( Supplementary Figure 3E–G ).
+L79: Run training has been shown to modify body composition. In this study, MRI body composition measurements identified no significant differences in total fat mass, or percent fat mass as a proportion of total body mass prior to training between genotypes, ( Supplementary Figure 3C ). We identified a progressive decline in total fat mass in both the vehicle exercise trained ( P  = 0.006) and iMSBmal1KO exercise trained mice, ( P  = 0.03), with no genotype effect ( P  = 0.5), ( Figure 3 D–G). Similar progressive reductions in lean mass (g) were observed between vehicle exercise trained ( P  = 0.01), equivalent to a 4.8 ± 1.7% reduction in lean mass. A similar percent reduction (4.98 ± 6.1% reduction) was observed in iMSBmal1KO exercise trained mice ( Figure 3 F), but this was not statistically significant ( P  = 0.07), ( Figure 3 F). These reductions occurred in the absence of changes in the ratio of lean-to fat mass, ( Figure 3 D–G).
+L80: In general, 6-weeks of run training does not normally induce significant changes in muscle fiber size or fiber type. We performed histological analysis on cross-sections of the gastrocnemius muscle to ask if the muscle of the iMSBmal1KO mice exhibited any unique training induced features. Overall, we found no differences in the main measures of muscle phenotype either in the vehicle mice with training or in the sedentary iMSBmal1KO mice at rest or following training.  Supplementary Figure 4 . We highlight that there were no significant differences in muscle weight, fiber cross-sectional area, myonuclei per fiber cross-section or proportion of fiber types with either muscle specific  Bmal1  knockout, or exercise training ( Supplementary Figures 4A–F ). We observed similar increases in SDH staining intensity after exercise training but there was no effect based on genotype, ( Supplementary Figure 4D ). However, we did notice a small but statistically significant increase in central nuclei (0.92 ± 0.86% fibers vs. 3.9 ± 1.7% fibers,  P  < 0.001) and embryonic positive fibers (0.16 ± 0.13% fibers vs. 1.76 ± 0.84% fibers,  P  < 0.001) after exercise training in the  Bmal1  knockout, which was not present in the vehicle treated group after exercise training, ( Supplementary Figures 4G–H ). This suggests some small, but reproducible, muscle damage in gastrocnemius of iMSBmal1KO trained mice. To assess the potential contribution non-recombined nuclei coming from satellite cell fusion into the damaged muscle fibers we analyzed BMAL1 protein levels and presence or absence of exon 8 from muscle RNA-Seq data. As seen in  Supplementary Figure 1 , we do not detect an increase in the amount of BMAL1 protein in the trained vs. untrained gastrocnemius muscle of iMSBmal1KO mice ( P  = 0.98). Analysis of the RNA read alignment to the  Bmal1  gene confirmed that exon 8 (the floxed  Bmal1  exon) was missing from iMSBmal1KO skeletal muscle but was present in all other tissues irrespective of genotype. We also did not identify significant changes in core clock gene expression in gastrocnemius muscle of iMSBmal1KO mice following exercise training,  Supplementary Figure 7 . In summary, our results indicate the number of BMAL1+ satellite cells that would be recruited to the 2–4% of injured fibers do not significantly contribute to the molecular or physiological outcomes of this study. Representative immunohistochemistry images of gastrocnemius muscles are available in  Supplementary Figure 4I–J .
+L81: Loss of skeletal muscle BMAL1 alters core clock factor gene expression and disrupts the transcriptional regulation of metabolism
+L82: To assess the response to training we first had to define, in this cohort of mice, the differential gene expression in the muscles of vehicle control vs. iMSBmal1KO. We identified 1217 DEGs; ( q  < 0.05) between the groups; 535 genes that were upregulated and 682 that were downregulated with muscle specific  Bmal1  knockout respectively, similarly to our reports in  Figure 2 B. As seen in the volcano plot ( Supplementary Figure 5A ) and consistent with prior studies [ [4] ,  [5] ,  [6] ], many of the clock output genes, such as  Dbp ,  Mylk4 , and  Tcap  were significantly down-regulated [ 39 , 40 ]. Motif analysis of the promoters of the 682 down-regulated genes in the iMSBmal1KO determined that there was significant enrichment for E-boxes, and these include several circadian clock (CLOCK, NPAS2) specific E-boxes, as well as MYC specific E-box sequences. Other represented motifs in the down-regulated genes include MEF2 or MADS elements and sites for NFAT which are well recognized pathways in skeletal muscle, ( Supplementary Figure 5B ). Subsequent KEGG pathway analysis of the DEGs confirmed significant dysregulation of genes associated with ‘circadian rhythms’ (14 genes), as well as a large number of pathways relating to substrate metabolism, ( Supplementary Figure 5C ). We identified dysregulation of transcripts essential for glucose and glycogen homeostasis including ( Hk2 ,  Rab10 ,  Slc2a3 ,  Slc2a4 ,  Tbc1d1 ,  Aldoc ,  Fbp2 ,  Gbe1 ,  Pgm1 ,  Pgm2 ,  Phka1 ,  Pygm ) as previously reported [ [4] ,  [5] ,  [6] ].
+L83: Identification of BMAL1-dependent and BMAL1-independent transcriptional adaptation to 6-weeks of exercise training in gastrocnemius muscle
+L84: Figure 4 iMSBmal1KO gastrocnemius muscles present a larger and divergent transcriptional adaptation to 6-weeks of exercise training. (A) Volcano plot illustrating DEGs between control and iMSBmal1 WT exercise trained mice. A total of 142 (75 downregulated, 67 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (B) HOMER Motif analysis performed on up and downregulated DEGs identifies a number of transcription factors regulating the transcriptional response to normal exercise adaptation. (C) KEGG Pathway analysis of genes associated with the vehicle treated transcriptional response to exercise training. (D) Volcano plot illustrating DEGs between iMSBmal1KO control and iMSBmal1KO exercise trained mice. A total of 780 (283 downregulated, 497 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (E) HOMER Motif analysis performed on up and downregulated DEGs identifies a number of transcription factors regulating the transcriptional response to exercise adaptation in the absence of skeletal muscle Bmal1. (F) KEGG Pathway analysis of genes associated with the iMSBmal1KO transcriptional remodeling to exercise training. (G) Venn diagram overlapping of DEG responses to vehicle and iMSBmal1KO exercise training at  P  < 0.01. Minimal overlap in the transcriptional exercise responses is present between vehicle treated and iMSBmal1KO mice using a lenient significance cut off (63 out of 2107, 2.99% overlap). (H) Pie chart of the 63 common exercise training responsive genes in both genotypes reveals common and oppositely regulated gene reprogramming. (I) Analysis of DEGs affected by loss of BMAL1 and exercise training responsive DEGs in the iMSBma1KO mice, reveals 94 common genes. Pearson's correlation of the 94 common DEGs (Log 2  fold changes) reveals that genes affected with Bmal1KO are not rescued with exercise training. (J) Heatmap presenting Log 2  Z-scores for core clock factors/clock output genes and genes associated with glucose handling and glycogen utilization. Exercise training does not rescue the downregulation of these genes in iMSBmal1KO mice. (K) Heatmap presenting Log 2  Z-scores for  Esrra  and  Ppargc1a  in response to iMSBmal1KO and exercise training.
+L85: While there were few phenotypic differences between the muscles of trained vehicle and iMSBmal1KO mice, we did find that the transcriptional adaptations to training were largely divergent. For this analysis, we performed RNA-seq on gastrocnemius muscle 47 h after their last exercise bout. Analysis of the transcriptome in muscle from vehicle control and vehicle trained mice identified only 142 DEGs after training which is consistent with prior studies and includes up-regulation of  Fabp1  and down regulation of  Hadha  [ 10 , 41 ],  Figure 4 A. Enrichment of DNA binding motifs within the promoter or gene body of the small number of upregulated DEGs included MEF2C, SIX1, Androgen receptor half sites and NFAT, ( Figure 4 B). Downregulated DEGs were also enriched for DNA motifs relating to EGR1, SMAD4 and NFAT, suggesting the latter contributes to both activation/suppression of exercise DEGs. Pathway analysis revealed the expected exercise adaptations pathways including ‘PPAR signaling’ (11 genes), ‘protein digestion and absorption’ (8 genes), ‘fatty acid metabolism/degradation’ (7 genes), ‘ECM-receptor’ (7 genes), ‘focal adhesion’ (5 genes), ‘calcium signaling’ (7 genes), ‘PI3K-Akt signaling’ (5 genes) and ‘HIF-1 signaling’ (5 genes),  Figure 4 C. As expected, a number of these DEGs included fatty acid metabolism regulators ( Hadha, Hadhb, Acaa2, Cpt2, Acsl1, Scd2, Acadm, Cd36, Fabp1, Apoa1 and Apoa2 ). Figure 4 iMSBmal1KO gastrocnemius muscles present a larger and divergent transcriptional adaptation to 6-weeks of exercise training. (A) Volcano plot illustrating DEGs between control and iMSBmal1 WT exercise trained mice. A total of 142 (75 downregulated, 67 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (B) HOMER Motif analysis performed on up and downregulated DEGs identifies a number of transcription factors regulating the transcriptional response to normal exercise adaptation. (C) KEGG Pathway analysis of genes associated with the vehicle treated transcriptional response to exercise training. (D) Volcano plot illustrating DEGs between iMSBmal1KO control and iMSBmal1KO exercise trained mice. A total of 780 (283 downregulated, 497 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (E) HOMER Motif analysis performed on up and downregulated DEGs identifies a number of transcription factors regulating the transcriptional response to exercise adaptation in the absence of skeletal muscle Bmal1. (F) KEGG Pathway analysis of genes associated with the iMSBmal1KO transcriptional remodeling to exercise training. (G) Venn diagram overlapping of DEG responses to vehicle and iMSBmal1KO exercise training at  P  < 0.01. Minimal overlap in the transcriptional exercise responses is present between vehicle treated and iMSBmal1KO mice using a lenient significance cut off (63 out of 2107, 2.99% overlap). (H) Pie chart of the 63 common exercise training responsive genes in both genotypes reveals common and oppositely regulated gene reprogramming. (I) Analysis of DEGs affected by loss of BMAL1 and exercise training responsive DEGs in the iMSBma1KO mice, reveals 94 common genes. Pearson's correlation of the 94 common DEGs (Log 2  fold changes) reveals that genes affected with Bmal1KO are not rescued with exercise training. (J) Heatmap presenting Log 2  Z-scores for core clock factors/clock output genes and genes associated with glucose handling and glycogen utilization. Exercise training does not rescue the downregulation of these genes in iMSBmal1KO mice. (K) Heatmap presenting Log 2  Z-scores for  Esrra  and  Ppargc1a  in response to iMSBmal1KO and exercise training. Figure 4
+L86: In contrast, analysis of the gene expression changes with training in the iMSBmal1KO mice identified a much larger, >5-fold increase in the number of DEGs in the KO muscle following training. We identified 780 DEGs, of which 283 were downregulated and 497 upregulated with exercise training,  Figure 4 D–F. Similar to our findings following acute exercise, there was little overlap in the exercise DEGs between genotypes. Analysis of the DNA motifs associated with the iMSBmal1 exercise DEGS predicts that exercise adaptation in the iMSBmal1KO muscle relies on vastly different sets of upstream transcription factors, ( Figure 4 E). Within the genes upregulated by exercise training in the iMSBmal1KO mouse, motif enrichment analysis identified sites for YY1, ESRRA/B, SP1, NRF/1, SMAD2/4 and P53. In the down-regulated genes, we identified XBP1 sites were enriched which was interesting as XBP1 is a transcription factor that functions as a regulator of the unfolded protein response and is known as a key part of the ER stress pathway. For the training study, we collected tissues at 47hrs after the last exercise bout so the observation that many of the DEGs have regulatory elements that indicate a stress pathway was unexpected. We also noted that several of these motifs represent transcription factors normally associated with an acute response to exercise (e.g., ESRRA, NRF1, P53). However, they are not commonly identified as motifs enriched in steady state training induced changes in gene expression [ 10 , [42] ,  [43] ,  [44] ,  [45] ,  [46] ,  [47] ], ( Figure 4 E). The results from the DEG motif analysis suggest a very divergent transcriptional mechanism for muscle adaptation with exercise training that relies on inclusion of known acute response pathways. We suggest that without muscle BMAL1, repeated exercise bouts associated with training results in activation of a chronic stress set of pathways coupled with an inability of the muscle to return to homeostasis following exercise.
+L87: While the exercise adaptations were largely divergent, there was a small overlap in the transcriptomes with training between genotypes. Initial analysis identified only 23 common exercise adaptation genes (1.6% of DEGs) using an FDR cut-off of  q  = 0.05. To increase the number of genes for this analysis, we decreased the stringency to  P  = 0.01 and found 63 overlapping genes (2.99%), ( Figure 4 G). We probed the 63 common genes to ask if they represented a common, non-BMAL1 dependent, training response,  Figure 4 H. We determined that only 25 (39.7%) of the 63 genes were upregulated in both genotypes, with 6 (9.5%) were downregulated in both. We identify these as BMAL1-independent exercise training genes. Interestingly, 22 (34.9%) of the shared genes were up in vehicle but down in the KO exercise trained muscle and these were associated with the extracellular matrix ( Col3a1, Col4a1, Col5a2, Tnxb, Emilin2, Fn1, Lama2, Nid1  and  Nid2 ) and insulin regulation ( Pappa  and  Irs2 ). We also identified 10 genes (15.9%) including  Coq10a, Cyc1  and  Esrra  that where downregulated with training in the vehicle but were upregulated in the iMSBmal1KO, ( Figure 4 H/K). Thus, while there are shared genes between the two genotypes, over 50% of the 63 shared genes are regulated in opposite directions. This indicates this set of shared genes are exercise responsive, but the directionality is dependent muscle BMAL1.
+L88: We also asked whether exercise training can function to restore the dysregulated gene expression in the iMSBmal1KO muscle toward levels seen in vehicle control muscle. For this analysis we compared the DEGs dysregulated by loss of BMAL1 in sedentary mice (1217) to the exercise training DEGs in the iMSBmal1KO muscle (780) and found only 94 DEGs are shared suggesting that the majority of disrupted transcripts in the sedentary iMSBmal1KO muscle are not rescued by exercise training. To visualize this, we plotted Log 2  fold changes of these genes comparing vehicle control and exercise trained iMSBmal1KO muscle and calculated Pearson's correlation coefficient. As seen in  Figure 4 I we identified that 73.4% of the genes disrupted with initial loss of  Bmal1  were directionally closer to vehicle control levels following training. However, the correlation coefficient of determination was weak (R 2  = 0.24) indicating that the levels of gene expression were not close to sedentary values. This provides additional evidence that the molecular adaptations to exercise in the vehicle mice work with BMAL1 through transcriptional and epigenetic mechanisms. A heatmap for all 94 genes is presented in  Supplementary Figure 6A . Our model in which the exercise response works with BMAL1 is consistent with recent results from cardiac  Bmal1  knockout mice that demonstrated cardiac dysfunction caused by loss of BMAL1 cannot be attenuated with a similar exercise training paradigm [ 48 ].
+L89: Lastly, we wanted to ask if exercise training impacted core circadian clock genes or genes associated with glucose and glycogen metabolism in muscle. As illustrated in the heatmaps in  Figure 4 J , 6-weeks of training in vehicle mice resulted in changes in many circadian clock related genes such as  Nfil3 ,  Per1, Per3 ,  Cry2 , and  Dbp . In contrast, in the iMSBmal1KO mouse there were no changes in any of those genes following training. Since we found that acute exercise can modify expression of clock genes, like  Per s  and  Nfil3 , in the absence of muscle BMAL1 ( Figure 1 F), the lack of changes in these circadian clock genes with training suggests that it is BMAL1 and the core clock mechanism, that is required for the circadian clock gene changes with training. We also highlight that  Bmal1  mRNA does not change in the muscle of vehicle mice in response to acute exercise or exercise training. Analysis of glucose and glycogen metabolism genes found that several of these genes changed expression with training in the vehicle muscle, including increases in  Hk2 ,  Pgm2  and decreased expression of  Slc2a4  (Glut4). In contrast, there were little to no significant changes in gene expression of this cluster of genes in iMSBmal1KO mice post-training. These observations reinforce that BMAL1 and/or a functional circadian clock is required for regulating expression of genes critical for glucose homeostasis in skeletal muscle. Plots with individual data points are provided within  Supplementary Figure 7A .
+L90: Elevated gene expression of TCA-cycle components, β-oxidation, mitochondrial constituents and mito-ribosomes is a distinct feature of iMSBmal1KO exercise adaptation in gastrocnemius muscle
+L91: Figure 5 Upregulation of genes associated with pyruvate oxidation, TCA cycle, β-oxidation, mitochondrial complexes and mitoribosome subunits after exercise training in the iMSBmal1KO mouse. (A) Schematic of biological processes involved in providing acetyl-CoA from carbohydrates and lipids for the TCA cycle. Subsequently, the TCA cycle provides NADH and FADH 2  for the electron transport chain. Components are numbered/labelled for clarity of the associated genes presented in panels B and C. (B) Heatmaps presenting genes associated with pyruvate oxidation, TCA cycle and β-oxidation, (Log 2  Z-scores). (C) Heatmap presenting genes associated with mitochondrial complexes I–V and the mitochondrial ribosome (Log 2  Z-scores).
+L92: Analysis of the unique training genes for the iMSBmal1KO muscle identified oxidative metabolic adaptations were a highly enriched category, well beyond any oxidative changes in the vehicle muscle transcriptional adaptation. We found that a number of these DEGs are shared across pathways relating to pyruvate metabolism, the tricarboxylic acid cycle (TCA cycle), fatty acid β-oxidation and genes relating to mitochondrial complex constituents and their associated mitochondrial ribosomal subunits. A schematic of these pathways is provided in  Figure 5 A, and the changes in genes within each pathway are presented in  Figure 5 B–C. It is striking that most genes were upregulated in response to exercise training in the iMSBmal1KO mice, in contrast, muscle from vehicle treated mice showed limited changes for these genes in response to training. Figure 5 Upregulation of genes associated with pyruvate oxidation, TCA cycle, β-oxidation, mitochondrial complexes and mitoribosome subunits after exercise training in the iMSBmal1KO mouse. (A) Schematic of biological processes involved in providing acetyl-CoA from carbohydrates and lipids for the TCA cycle. Subsequently, the TCA cycle provides NADH and FADH 2  for the electron transport chain. Components are numbered/labelled for clarity of the associated genes presented in panels B and C. (B) Heatmaps presenting genes associated with pyruvate oxidation, TCA cycle and β-oxidation, (Log 2  Z-scores). (C) Heatmap presenting genes associated with mitochondrial complexes I–V and the mitochondrial ribosome (Log 2  Z-scores). Figure 5
+L93: Most strikingly in the iMSBmal1KO training response was the robust up-regulation across almost all genes relating to the TCA cycle, β-oxidation and mitochondrial components encoded by both nuclear and mitochondrially encoded genes, ( Figure 5 B–C). Interestingly, 12 genes ( Acaa2, Aco2, Crat, Cs, Dlst, Fh1, Idh3a, Idh3b, Idh3g, Ogdh, Suclg1 and Suclg2 ) encoding proteins involved in TCA cycle intermediate and anaplerotic reactions were significantly upregulated in the iMSBmal1KO mouse in response to exercise training, whereas they were downregulated with training in the vehicle treated mice. This result suggests that exercise training without muscle BMAL1 pushed increased reliance on alternate substrates to support the energy demand of exercise training. This trend was also observed for a large family of genes associated with Acyl-CoA hydrolysis to fatty acids, coenzyme A and β-oxidation. Genes including  Acadl, Acadm, Acads, Acadv1, Acat1, Acot7  were largely down regulated with exercise training in the muscle of vehicle treated but were uniformly upregulated with training in the iMSBmal1KO muscle. This observation is consistent with a greater requirement for the use of fatty acids for energy metabolism,  Figure 5 B. We note that there were very few changes in genes involved in triglyceride biosynthesis with exercise training in the iMSBmal1KO indicating that the primary adaptation with exercise was to enhance fat oxidation.
+L94: We also observed upregulation of a large network of both nuclear and mitochondrial encoded genes that were largely unique to the iMSBmal1KO training adaptation. These related to mitochondrial complexes I ( n  = 44), II ( n  = 4), III ( n  = 11), IV ( n  = 15), V ( n  = 18), as well as 22 nuclear and mitochondrial encoded genes related specifically to the large and small mitochondrial ribosomal subunits, ( Figure 5 C). The majority of these genes were significantly upregulated relative to both vehicle control and vehicle exercise trained mice, as well as iMSBmal1KO control mice. The uniformity of this training response suggests a common transcriptional program for these genes in the absence of BMAL1. Analysis of upstream motifs within these genes identifies sites for  Esrra, Esrrb, Nrf/1  and  p53  and we did identify that expression of  Esrra  was significantly elevated with training in the iMSBmal1KO but downregulated with vehicle exercise trained muscle. As noted earlier, these transcription factors are most seen with the acute exercise response in muscle but not normally associated with steady state training responses, ( Figure 4 E).
+L95: Exacerbated amino acid availability, further depletion of TCA cycle intermediates suggests inefficient energy status with exercise training in the iMSBmal1KO mouse
+L96: Figure 6 Loss of  Bmal1  in skeletal muscle disrupts the metabolomic rewiring in response to exercise training and causes depletion of TCA cycle intermediates. (A) Table of differentially abundant metabolites ( q  < 0.05) with loss of skeletal muscle BMAL1, the vehicle exercise training response and the iMSBmal1KO exercise training response. (B) Venn diagram analysis of the different comparisons reveals little overlap and divergent metabolomic adaptations to exercise training. (C) Metaboanalyst KEGG metabolite pathway analysis of the iMSBmal1KO exercise training response. Numbers indicate the number of metabolites identified within the pathway. (D) Heatmap illustrating normalized metabolite abundance for amino acids. (E) Heatmap illustrating normalized metabolite abundance for metabolites relating to glycolysis and the TCA cycle. (F) Boxplots of highlighted amino acids changing with loss of BMAL1 and exercise training. (G) Boxplots of highlighted TCA cycle metabolites/phosphocreatine changing with loss of BMAL1 and exercise training. (H) Summary diagram of TCA cycle metabolites affected with exercise training in the iMSBmal1KO (Blue indicates higher abundance, red indicates lower abundance. Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001.
+L97: Transcriptomic data indicated divergent metabolic programs in the muscle of trained vehicle vs. trained iMSBmal1KO mice. We performed untargeted metabolomics to assess potential steady state changes in muscle metabolites following training in the vehicle vs. iMSBmal1KO mouse. Comparing vehicle controls to iMSBmal1KO sedentary mice, we found 46 differentially abundant metabolites, ( Figure 6 A), a comparison that has previously been reported [ 25 ]. In response to training, we observed only 19 differentially abundant known metabolites in vehicle exercise trained mice, which is similar to the small transcriptomic response. In contrast, we identified 116 differentially abundant metabolites in the iMSBmal1KO exercise trained mice. Comparisons between genotypes identified only 8 common metabolites in the exercise training response and they showed enrichment in lysine degradation and glutathione metabolism pathways, ( Figure 6 B). Figure 6 Loss of  Bmal1  in skeletal muscle disrupts the metabolomic rewiring in response to exercise training and causes depletion of TCA cycle intermediates. (A) Table of differentially abundant metabolites ( q  < 0.05) with loss of skeletal muscle BMAL1, the vehicle exercise training response and the iMSBmal1KO exercise training response. (B) Venn diagram analysis of the different comparisons reveals little overlap and divergent metabolomic adaptations to exercise training. (C) Metaboanalyst KEGG metabolite pathway analysis of the iMSBmal1KO exercise training response. Numbers indicate the number of metabolites identified within the pathway. (D) Heatmap illustrating normalized metabolite abundance for amino acids. (E) Heatmap illustrating normalized metabolite abundance for metabolites relating to glycolysis and the TCA cycle. (F) Boxplots of highlighted amino acids changing with loss of BMAL1 and exercise training. (G) Boxplots of highlighted TCA cycle metabolites/phosphocreatine changing with loss of BMAL1 and exercise training. (H) Summary diagram of TCA cycle metabolites affected with exercise training in the iMSBmal1KO (Blue indicates higher abundance, red indicates lower abundance. Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001. Figure 6
+L98: The differentially abundant metabolites in the iMSBmal1KO exercise trained muscle were enriched amongst amino acid and TCA cycle pathways including ‘Tyrosine metabolism’, ‘Alanine, aspartate and glutamate metabolism’, ‘Pyruvate metabolism’, ( Figure 6 D–H). Since exercise training does not restore glucose metabolic genes in the iMSBmal1KO muscle we suggest that these metabolite changes reflect the increased need for TCA cycle substrates via amino acid metabolism. For example, threonine, leucine, tryptophan, phenylalanine and tyrosine are significantly elevated with loss of skeletal muscle BMAL1 but levels were reduced following exercise training. Consistent with this pattern, fumarate, a TCA cycle intermediate metabolized from aromatic amino acids is also significantly more abundant with loss of BMAL1 in sedentary mice and is significantly reduced following training to levels below vehicle controls, ( Figure 6 E/G). The changes in these metabolites are consistent with the increased reliance on amino acids to support TCA metabolism in the iMSBmal1 muscle with exercise training.
+L99: We were surprised that despite our samples being taken 47 h after their last exercise bout, pyruvate levels were significantly lower by ∼180% in the iMSBmal1KO mice with exercise training, ( Figure 6 G). This finding falls in line with our transcriptome analysis, that the genes encoding the enzymes required for glucose transport and metabolism are not rescued with exercise training, which may lead to pyruvate availability being a limiting factor. However, we noted above that there is an extensive compensatory increase in almost all genes involved in β-oxidation, branched chain amino acid metabolism, pyruvate metabolism and TCA cycle enzymes. This increased pathway availability in the iMSBmal1KO trained muscle likely contributes to the diminished steady state levels of pyruvate with training, ( Figure 5 B). Despite the reduction in pyruvate, acetyl-CoA levels were significantly increased in the iMSBmal1KO mice after exercise training, suggesting that other substrates (likely lipid through increased β-oxidation) contribute more to the increase in acetyl-CoA levels.
+L100: Further evidence of disrupted glycolytic metabolism was found when we measured tissue glycogen content in gastrocnemius and liver with exercise training,  Supplementary Figure 8D–G . Vehicle treated mice had greater concentrations ( P  = 0.008) and achieved larger increases in muscle glycogen with exercise training (262.8% vs. 66.5%, 1.85 ± 0.13 μg/mg vs. 1.43 ± 0.31 μg/mg). Similarly in liver, training significantly increased glycogen content in both vehicle treated (16.28 ± 1.81 μg/mg,  P  < 0.0001) and iMSBmal1KO mice (13.26 ± 1.64 μg/mg,  P  < 0.0001), yet glycogen content was significantly lower in the trained iMSBmal1KO liver, ( P  = 0.036). The observation that the magnitude of muscle and liver glycogen improvements with training are reduced in the iMSBmal1KO mice, is consistent with longstanding recognition of the muscle-liver metabolic communication with exercise and muscle-liver clocks [ 49 , 50 ].
+L101: While muscle glucose metabolism in the iMSBmal1KO mice was not restored by training, it was interesting to find that systemic markers of glucose homeostasis did show some improvements reflecting systemic adaptations with training. Glycosylated hemoglobin was lower post exercise training in both groups,  P  < 0.001, with no detected genotype effect, ( Supplementary Figure 8A–B ). Exercise training significantly reduced plasma insulin levels in both genotypes, however the levels in the exercise trained iMSBmal1KO mice remained significantly higher than vehicle control (∼41%,  P  = 0.0196) and vehicle exercise trained mice (∼135%,  P  < 0.0001),  Supplementary Figure 8C . While these circulating markers of glucose homeostasis are improved with exercise training in the iMSBmal1KO mouse we note that the effect is partial. We suggest that these partial systemic improvements in blood glucose and insulin are mediated by other peripheral tissue adaptations, such as liver and iWAT, to exercise training.
+L102: Loss of skeletal muscle BMAL1 disrupts the transcriptome of peripheral tissues
+L103: Figure 7 Loss of skeletal muscle BMAL1 indirectly disrupts transcriptional homeostasis of peripheral tissues. (A) Upset plot of the differentially expressed genes affected by loss of skeletal muscle BMAL1 across tissues. Set size indicates the total number of differentially expressed genes regulated by loss of BMAL1 in skeletal muscle in each tissue. Numbers above bars indicate the number of differentially expressed genes. Overlapping differentially expressed genes which are common between tissues are indicated by the connected points below bars. In summary when comparing vehicle control and iMSBmal1KO controls we identified 684 (425 upregulated, 259 downregulated) differentially expressed genes in inguinal white adipose tissue (iWAT), 199 (86 upregulated, 114 downregulated) in liver, 1177 (665 upregulated, 512 downregulated) in the heart and 110 (82 upregulated, 28 downregulated) in lung tissue where identified. Pathway analysis for differentially expressed genes in inguinal white adipose tissue (B), liver tissue (C), heart tissue (D) and lung tissue (E). Red segments of bars indicate downregulation with loss of BMAL1, blue segments of bars indicate upregulation with loss of BMAL1. Associated pathway databases are indicated by (R) Reactome, (K) KEGG and (BP) Biological Processes.
+L104: Exercise is well recognized to induce healthy systemic adaptations and virtually all bodily tissues exhibit significant transcriptome changes following exercise training [ 50 , 51 ]. Since our exercise workloads were the same between genotypes across training, we asked if the peripheral tissue adaptations to exercise would be independent of the divergent muscle adaptations in the iMSBmal1KO mice. For this analysis we chose to investigate highly metabolic tissues and organs that are known to be important for exercise capacity (iWAT, liver, heart and lung). We defined the transcriptomic changes in the vehicle vs. iMSBmal1KO mouse tissues to allow for clear delineation of the exercise training responses. In the sedentary iMSBmal1KO mice we identified a large number of genes (1029) specifically dysregulated in the heart, 511 in iWAT, 159 in liver and 87 DEGs in the lung illustrating unique tissue disruption in gene expression with loss of skeletal muscle BMAL1. We did not identify any DEGs shared across all 5 tissues in response to iMSBmal1KO, but we found minor overlap with DEGs specifically dysregulated in muscle and heart (81 genes), muscle and iWAT (58 genes), muscle and liver (21 genes),  Figure 7 A. Figure 7 Loss of skeletal muscle BMAL1 indirectly disrupts transcriptional homeostasis of peripheral tissues. (A) Upset plot of the differentially expressed genes affected by loss of skeletal muscle BMAL1 across tissues. Set size indicates the total number of differentially expressed genes regulated by loss of BMAL1 in skeletal muscle in each tissue. Numbers above bars indicate the number of differentially expressed genes. Overlapping differentially expressed genes which are common between tissues are indicated by the connected points below bars. In summary when comparing vehicle control and iMSBmal1KO controls we identified 684 (425 upregulated, 259 downregulated) differentially expressed genes in inguinal white adipose tissue (iWAT), 199 (86 upregulated, 114 downregulated) in liver, 1177 (665 upregulated, 512 downregulated) in the heart and 110 (82 upregulated, 28 downregulated) in lung tissue where identified. Pathway analysis for differentially expressed genes in inguinal white adipose tissue (B), liver tissue (C), heart tissue (D) and lung tissue (E). Red segments of bars indicate downregulation with loss of BMAL1, blue segments of bars indicate upregulation with loss of BMAL1. Associated pathway databases are indicated by (R) Reactome, (K) KEGG and (BP) Biological Processes. Figure 7
+L105: In iWAT, loss of muscle  Bmal1  was associated with 684 DEGs (425 upregulated, 259 downregulated) that were associated with pathways relating to collagen/extra-cellular matrix terms and insulin signaling/resistance related terms which were largely upregulated.  Srebf1 , a key transcription factor responsible for regulation of de novo lipogenesis and glycolysis, as well as  Acacb  which encodes the gene responsible for the carboxylation of acetyl-CoA to malonyl-CoA, a rate-limiting step in fatty acid synthesis and pro-glycogenic genes,  Gys1  and  Ppp1r3d  were significantly downregulated in the iWAT with loss of skeletal muscle BMAL1. This was concomitant with significant upregulation of  Creb3l1 , a master regulator of fibrosis in adipose and liver tissue [ 52 ], changes that have previously been associated with insulin resistance and obesity [ [53] ,  [54] ,  [55] ], ( Figure 7 B).
+L106: The liver transcriptome was also significantly affected by loss of skeletal muscle BMAL1 with 199 DEGs (86 upregulated, 114 downregulated) associated with dysregulation of ‘fatty acid/cholesterol metabolism’, ‘AMPK signaling’ and ‘glucagon signaling’, ( Figure 7 C). This included significant downregulation of several genes regulating lipid transport/homeostasis and glycolysis including  Elovl6 ,  Scd1 ,  Apoa4 , Pfkfb1,  Slc2a4  and fatty acid synthesis rate limiting enzyme,  Acaca . Conversely,  Abcg8 ,  Lrp1 ,  Lipg  were significantly upregulated along with  Pparg , known as a master regulator of lipogenesis and glucose uptake [ [56] ,  [57] ,  [58] ,  [59] ], suggesting a shift of fuel preference to fatty acid metabolism in the liver. Both our iWAT and liver transcriptional data show consistent outcomes with 8-weeks of treadmill training in the rat as performed by the MoTrPAC consortium [ 50 ].
+L107: Surprisingly, a large remodeling of the transcriptome was identified in the heart with alteration of 1177 genes (665 upregulated, 512 downregulated). We confirmed that there was no  Bmal1  recombination in the heart tissue of these mice, no loss of exon 8 of the  Bmal1  mRNA and no loss of BMAL1 protein via western blotting as previously reported,  Supplementary Figure 1 . These transcriptional changes included upregulation of genes associated with ribosomal, mito-ribosomal and mitochondrial constituents, proteasomal subunits, but also genes associated with cardiac muscle structure and function. This included upregulation of  Myl2 ,  Myl3 ,  Tnnc1 ,  Tnni3 ,  Tpm4 ,  Actb  and downregulation of  Dmd ,  Lama2 ,  Ryr2 , and  Ttn , ( Figure 7 D). More minor changes in gene expression were identified in the lung with 110 DEGs (82 upregulated, 28 downregulated) largely relating to angiogenesis and Ras signaling, ( Figure 7 E).
+L108: Exercise training adaptations are altered in peripheral tissues in mice lacking skeletal muscle BMAL1
+L109: Figure 8 Divergent transcriptional reprogramming of peripheral tissues in response to endurance exercise training in the absence of skeletal muscle BMAL1. (A) Upset plot of the gene sets associated with the training response of each tissue in both genotypes. Set size indicates the total number of differentially expressed genes regulated by exercise training in each tissue in both genotypes. Numbers above bars indicate the number of differentially expressed genes. Overlapping differentially expressed genes which are common between tissues are indicated by the connected points below bars. Differentially expressed genes common between genotypes within the same tissue are indicated by red connected points. (B) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (409 DEGs) and iMSBmal1KO mice (423 DEGs) with shared features (32 DEGs) in inguinal white adipose tissue. Associated inguinal white adipose tissue pathway analysis for vehicle (C) and iMSBmal1KO mice (D). (E) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (316 DEGS) and iMSBmal1KO mice (541 DEGs) with shared features (30 DEGs) in liver tissue. Associated liver pathway analysis for vehicle (F) and iMSBmal1KO mice (G). (H) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (228 DEGs) and iMSBmal1KO mice (765 DEGs) with shared features (33 DEGs) in heart tissue. Associated heart pathway analysis for vehicle (I) and iMSBmal1KO mice (J). (K) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (192 DEGs) and iMSBmal1KO mice (617 DEGs) with shared features (16 DEGs) in lung tissue. Associated lung pathway analysis for vehicle (L) and iMSBmal1KO mice (M). Red segments of bars indicate downregulation with exercise training, whereas blue segments of bars indicate upregulation with exercise training. Associated pathway databases are indicated by (R) Reactome, (K) KEGG and (BP) Biological Processes.
+L110: We next tested whether the molecular adaptations to exercise training in peripheral tissues were impacted in the iMSBmal1KO mice. As evidenced by the upset plot, ( Figure 8 A), we found that all peripheral tissues studied in the iMSBmal1KO mouse exhibited significantly larger numbers of post exercise training DEGs (iWAT 441 vs. 455 DEGs, Liver 336 vs. 571 DEGs, Heart 261 vs. 798 DEGs and Lung 208 vs. 633 DEGs) compared to those seen in the vehicle mice. These changes were also qualitatively different and tissue specific with only ∼3% of the exercise training responsive changes shared between genotypes, (iWAT 32 DEGs, Liver 30 DEGs, Heart 33 DEGs and Lung 16 DEGs), ( Figure 8 B,E,H,K). Furthermore, predicted upstream transcription factor analysis of the exercise training responsive DEGs, similarly to skeletal muscle, showed largely different putative upstream regulators,  Supplementary Figure 9 . The magnitude and breadth of these differences were unexpected and point to the potential impact that training adaptations in skeletal muscle have on systemic molecular adaptations to exercise. Figure 8 Divergent transcriptional reprogramming of peripheral tissues in response to endurance exercise training in the absence of skeletal muscle BMAL1. (A) Upset plot of the gene sets associated with the training response of each tissue in both genotypes. Set size indicates the total number of differentially expressed genes regulated by exercise training in each tissue in both genotypes. Numbers above bars indicate the number of differentially expressed genes. Overlapping differentially expressed genes which are common between tissues are indicated by the connected points below bars. Differentially expressed genes common between genotypes within the same tissue are indicated by red connected points. (B) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (409 DEGs) and iMSBmal1KO mice (423 DEGs) with shared features (32 DEGs) in inguinal white adipose tissue. Associated inguinal white adipose tissue pathway analysis for vehicle (C) and iMSBmal1KO mice (D). (E) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (316 DEGS) and iMSBmal1KO mice (541 DEGs) with shared features (30 DEGs) in liver tissue. Associated liver pathway analysis for vehicle (F) and iMSBmal1KO mice (G). (H) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (228 DEGs) and iMSBmal1KO mice (765 DEGs) with shared features (33 DEGs) in heart tissue. Associated heart pathway analysis for vehicle (I) and iMSBmal1KO mice (J). (K) Summary Venn diagram of genotype specific exercise training responsive genes in vehicle (192 DEGs) and iMSBmal1KO mice (617 DEGs) with shared features (16 DEGs) in lung tissue. Associated lung pathway analysis for vehicle (L) and iMSBmal1KO mice (M). Red segments of bars indicate downregulation with exercise training, whereas blue segments of bars indicate upregulation with exercise training. Associated pathway databases are indicated by (R) Reactome, (K) KEGG and (BP) Biological Processes. Figure 8
+L111: In vehicle exercise trained iWAT, we observed an expected transcriptional remodeling with exercise training which included genes enriched in pathways associated with ‘PPAR signaling,’ ‘Lipid Metabolism’ and ‘Inflammatory Response.’ This included downregulation of  Pparg  itself along with other factors involved in lipid metabolism/storage, insulin sensitivity and inflammation. Analysis of the liver transcriptome of exercise trained vehicle mice demonstrated a synergy with the iWAT transcriptome, with downregulation of genes within common pathways including ‘Lipid/cholesterol biosynthesis/metabolism,’ ( Figure 8 F). This common pathway enrichment between iWAT and liver was lost in the iMSBmal1KO training response. We determined that neither iWAT nor liver exhibited a common response to exercise training in the vehicle treated tissues. In addition, the enriched pathways from the exercise DEGs in iWAT were not common with the exercise DEG pathways in the iMSBmal1KO liver. This was surprising and indicates that the molecular response to exercise in the BMAL1+ organs of the iMSBmal1KO mice not directly linked to the exercise per se but is responding to changes in the muscle exercise response and/or systemic inter-tissue interactions with exercise.
+L112: Deeper analysis of the iMSBmal1KO iWAT exercise-responsive genes identified insulin resistant signatures and inflammation and included ‘insulin-like growth factor transport/binding protein’ pathways. One example was the increased expression of the transcription factor  Srebf1 , known to promote cholesterol and fatty acid biosynthesis and downregulation of the glycolytic enzyme  Pkm , ( Figure 8 C–D). Uniquely, liver of iMSBmal1KO exercise trained mice showed alterations in ‘RNA Polymerase II Transcription’, pathways associated with ubiquitin mediated proteolysis, and upregulation of a number of TGF-beta receptor signaling associated pathway genes including  Smad4 ,  Smurf2 ,  Itgav  and  Tgfbr1 , ( Figure 8 G). These results suggest that exercise training in the iMSBmal1KO mice leads to abnormal transcriptional remodeling in iWAT and liver including many biological signatures that could be considered ‘maladaptive’.
+L113: The exercise training response in the lung of the vehicle mice corroborated outcomes recently published investigations by the MoTrPAC consortium and were broadly related to decreased inflammation [ 50 ]. We identified 208 DEGs that are changed in the lung following training of vehicle treated mice including 37 genes associated with the Reactome pathway ‘immune system’, over ∼83% of which were downregulated with exercise training. There were 633 training induced DEGs in the iMSBmal1KO lung which was a surprise as the transcriptomes of the sedentary vehicle and iMSBmal1KO lungs were not hugely different. This adaptation included 69 different ‘immune system’ associated genes were found to be enriched in the iMSBmal1KO exercise training response, 72% of which were upregulated with exercise training indicating a discordance in the inflammatory response with training between genotypes, ( Figure 8 K–M).
+L114: In the vehicle exercise trained heart we observed modest changes to the transcriptome associated with ‘Immunity,’ ‘Lipid Metabolism’ and ‘Collagen Degradation,’ ( Figure 8 H–I). Conversely, a majority of the exercise training responsive genes in the iMSBmal1KO heart were directionally opposite to the features identified in the loss of BMAL1 sedentary mice, see  Figure 7 D. This indicates that unlike the other peripheral tissues, exercise training rescued the dysregulation of many genes in the iMSBmal1KO heart, ( Figure 7 ,  Figure 8 J). This is supported by data presented in  Supplementary Figure 10 , where we highlight that 97% of genes in the heart that are disrupted by loss of muscle BMAL1 in sedentary mice, are exercise training responsive in iMSBmal1KO hearts and return closer to vehicle control expression levels, R 2  = 0.67. The mechanism(s) through which exercise training restores the heart transcriptome in the iMSBmal1KO mouse is unclear and requires additional study.
+L115: Exercise training in the absence of skeletal muscle BMAL1 alters gene expression signatures relating to the immune system and metabolic pathways of peripheral tissues
+L116: Figure 9 Loss of skeletal muscle BMAL1 causes rewiring of inflammatory and metabolic pathways across multiple tissues after exercise training. Deseq2 normalized counts were used to produce within tissue Z-scores for all expressed genes for all 4 experimental groups. Average Z-scores were then produced from all genes found within the given KEGG pathway for vehicle exercise trained (gray bars) and iMSBmal1KO exercise trained mice (dark blue bars) for each tissue. Tissues are indicated by green bars (Gastrocnemius Muscle), light blue bars (iWAT), yellow bars (Liver), red bars (Heart) and purple bars (Lung). Data is presented for KEGG pathways related to (A) the Immune System, (B) Endocrine System and (C) Amino Acid, Carbohydrate and Lipid Metabolism. Blue signifies relative upregulation of associated pathways and red signifies relative downregulation of the genes within the associated pathways.
+L117: Since inflammation and metabolism pathways were the most common differences among the transcriptional changes, we computed Z-scores for each pathway by averaging the Z-score of every gene found within each pathway. Specifically, we included ‘Immune System’, ‘Carbohydrate Metabolism’, ‘Lipid Metabolism’, ‘Amino Acid Metabolism’ and the ‘Endocrine System’ to characterize between genotype changes in the exercise trained state. As visualized in  Figure 9 A, genes associated with the ‘Immune System’ pathways were generally expressed at a higher level with exercise training in skeletal muscle and iWAT and decreased in liver heart and lung in the vehicle mice, a signature that has been linked to increased immune cell recruitment [ 50 ]. In contrast, this pattern is reversed in the iMSBmal1KO tissues following training with expression of these immune pathway genes lower in the muscle and iWAT and much higher in liver, lungs and heart with training. These observations indicate that the altered tissue environment(s) and/or altered immune cells in circulation results in recruitment or retention of different amounts, or types of immune cell populations in these tissue and organs with targeted loss of muscle BMAL1 and warrants further investigation. Figure 9 Loss of skeletal muscle BMAL1 causes rewiring of inflammatory and metabolic pathways across multiple tissues after exercise training. Deseq2 normalized counts were used to produce within tissue Z-scores for all expressed genes for all 4 experimental groups. Average Z-scores were then produced from all genes found within the given KEGG pathway for vehicle exercise trained (gray bars) and iMSBmal1KO exercise trained mice (dark blue bars) for each tissue. Tissues are indicated by green bars (Gastrocnemius Muscle), light blue bars (iWAT), yellow bars (Liver), red bars (Heart) and purple bars (Lung). Data is presented for KEGG pathways related to (A) the Immune System, (B) Endocrine System and (C) Amino Acid, Carbohydrate and Lipid Metabolism. Blue signifies relative upregulation of associated pathways and red signifies relative downregulation of the genes within the associated pathways. Figure 9
+L118: The endocrine system pathways were also differentially modified by exercise training between genotypes. One recognized exercise feature is the ‘PPAR signaling pathway’ which was signficiantly lower across tissues in the vehicle mice but was higher across all 5 tissues in the iMSBmal1KO exercise trained mice,  Figure 9 B. This likely reflects the altered systemic energy homeostasis resulting from loss of skeletal muscle BMAL1 promoting increases in fatty acid metabolism across many organs [ [60] ,  [61] ,  [62] ]. As expected from our muscle transcriptome and metabolomic data, we observed strong upregulation of pathways associated with amino acid metabolism that are generally expressed at a higher levels in all peripheral tissues in the iMSBmal1KO exercise trained mice, compared with their vehicle trained counterparts,  Figure 9 C. In particular, we identify the lung as a tissue that potentially gets brought into substrate metabolism in a much bigger way with exercise in the iMSBmal1KO mouse. This is a unique observation that highlights the potential for lung metabolism to contribute to systemic energy homeostasis with exercise training. Together, analysis of these pathways emphasize that skeletal muscle BMAL1, and likely a functional skeletal muscle clock, is essential for systemic tissue homeostasis and peripheral tissue transcriptional remodeling in response to exercise training, pertaining to metabolic and immune components and these warrant further investigation.
+L119: Discussion
+L120: In this investigation, we addressed the contribution of the core circadian clock factor, BMAL1, in skeletal muscle to both acute transcriptional responses to exercise and transcriptional remodeling in response to exercise training. Additionally, we adopted a systems biology approach to investigate how loss of skeletal muscle BMAL1 altered peripheral tissue homeostasis as well as exercise training adaptations in iWAT, liver, heart, and lung of male mice.
+L121: Mice deficient in muscle BMAL1 failed to mount a ‘normal’ transcriptional response to acute exercise despite performing the same amount of treadmill work. iMSBmal1KO mice demonstrated a blunted transcriptional response to acute exercise and this was associated with the lack of up-regulation of  Ppargc1a ,  Fos , and orphan nuclear receptors,  Nr4a1  and  Nr4a3 . This was concomitant with the lack of activation of genes within well-known exercise responsive pathways, e.g., PI3k-Akt, MAPK and PPAR. We also identified that signal transduction associated genes were significantly altered at both the chromatin accessibility level and transcript level, consistent with reports in liver [ 63 ], that BMAL1 plays an important role in epigenetic regulation as well as transcriptional regulation. These findings point to the contribution of muscle BMAL1, and potentially the core circadian clock mechanism, as a transcriptional and epigenetic integrator of the response to exercise as an environmental cue.
+L122: As with the acute response studies, we found that the iMSBmal1KO mice were able to perform the same training paradigm and treadmill work for vehicle mice over a 6-week period. Analysis of the steady state transcriptome identified a novel BMAL1 -dependent program of gene expression in skeletal muscle in response to chronic exercise training. Despite the same exercise training volumes, the adaptation of the transcriptome in skeletal muscle resulted in a quantitatively larger reprogramming with very few genes in common (∼3%), representing very different enriched pathways and putative upstream transcriptional networks. It is important to note that of the subset of common exercise responsive genes between the two genotypes ( n  = 63), only half of them change in the same direction. These outcomes indicate that the well-defined molecular responses to a set exercise training paradigm in skeletal muscle requires BMAL1 and/or a functional circadian clock mechanism, but in its absence requires a far larger network of genes to elicit adaptations. We also note that although the transcriptome was largely divergent between genotypes, classic phenotypic markers of muscle, such as fiber size and fiber type, were not different indicating that these parameters of muscle are not under BMAL1 control.
+L123: Our multi-omic analyses following exercise training identified that the skeletal muscle without BMAL1 did adapt but the steady state responses within the transcriptome and metabolome were quantitatively larger and importantly, fundamentally divergent. This included the observation that exercise training is not sufficient to rescue the dysregulation of genes essential for glucose metabolism in the iMSBmal1KO skeletal muscle. This means that exercise training is not sufficient to restore metabolic flexibility in muscle deficient in BMAL1. To support the increased energy demand of exercise training, the iMSBmal1KO muscle exhibited a uniform up-regulation of genes, likely regulated by  Esrra , to support the TCA cycle, beta oxidation and electron transport complexes. The divergent transcriptomic changes in the iMSBmal1KO muscle were supported by the divergent metabolomic responses to training, with amino acids being an important source for TCA substrates to support oxidative metabolism. These studies uncover that in response to the increased energy demand with exercise the iMSBmal1KO muscle that adaptation can occur, but it does not resemble the expected molecular and metabolic adaptations seen in the vehicle treated mice.
+L124: Our current approach only obtained snapshots of the molecular responses to acute exercise or exercise training at ZT13, start of the active period. Future studies are needed to address potential time of day differences in the exercise response +/− BMAL1. For example, ZT13 is at the time of day when levels of  Bmal1  mRNA are at a low point. Thus, we may detect differences in exercise performance and gene expression if we performed the exercise at ZT22 when BMAL1 levels are much higher in the vehicle treated mice. Additionally, studies to define changes in metabolic flux in muscle and the other peripheral tissues in the iMSBmal1KO mouse model will provide important mechanistic metabolic data. Previous research has also found that there are large circadian sex-differences in the transcriptome/proteome [ 64 ] and hormone driven changes in factors regulating glucose homeostasis [ 65 ]. Therefore, our findings in male mice should not be necessarily generalized to female mice and warrants further investigation.
+L125: Our findings have similarities to recent work demonstrating the contribution of muscle specific  Ppargc1a  to the exercise training response [ 41 ]. This is not surprising as it has been shown previously that  Ppargc1a  is a circadian clock output gene in skeletal muscle. In support of this, our acute exercise studies extend this relationship as a clock output gene and demonstrate that exercise induced up-regulation of  Ppargc1a  requires muscle BMAL1. This places muscle BMAL1, and likely the core clock mechanism, as an upstream regulator of  Ppargc1a  expression in response to exercise. Recent work has demonstrated similar relationships between the core clock and time-of-day exercise activation of HIF1A/HIF1A target genes [ 17 ]. We suggest that this loss of the exercise induced expression of  Ppargc1a,  and the other acute exercise transcription factors are significant contributors to the divergent exercise training transcriptome in the iMSBmal1KO mouse. We found that only 3% of the exercise responsive differentially expressed genes were shared between vehicle treated and iMSBmal1KO muscle following exercise training. This is a significant reduction compared to the 32% shared differentially expressed genes defined following training in the muscle specific  Ppargc1a  KO mice. Thus, our findings establish the importance of muscle BMAL1 as an upstream regulator of  Ppargc1a  and other transcription factors, including  Nr4a3 . However, we note that muscle specific  Ppargc1a  mice do not increase exercise performance, to similar levels as their wild-type controls, whereas iMSBmal1KO mice do. While  Ppargc1a  expression in skeletal muscle, does not increase with exercise (acute and training) we suggest that the low-level expression of  Ppargc1a  in the iMSBmal1KO muscle is sufficient to support muscle and the increase exercise performance of these mice and is perhaps compensated by elevated  Esrra  expression.
+L126: There is growing recognition that exercise is a lifestyle intervention that contributes to systemic health with beneficial impacts on virtually all organs studied to date. While this is commonly recognized, the molecular mechanisms for these broad adaptations are still poorly understood. A key finding from this work is that the peripheral tissue transcriptional adaptations to a set intensity and volume of exercise training are not defined by the exercise per se, but rather modulated by the muscle response to exercise and subsequent tissue cross talk. We were surprised to find that peripheral tissue transcriptional remodeling, similarly, to skeletal muscle was greater in magnitude in every tissue in the iMSBmal1KO mouse. The changes in gene expression were largely unique to each tissue with <4% overlap in the exercise training responsive genes across iWAT, liver, heart, and lung between the vehicle and iMSBmal1KO mice. Importantly, while exercise training is known to be beneficial to the resilience of most tissues, the analysis of the functional groups of genes that change with training in the iMSBmal1KO mice suggest several organs, including lungs, liver and iWAT may be exhibiting a maladaptive response. Since the loss of BMAL1 only occurred in skeletal muscle these outcomes highlight the systemic tissue cross talk induced by skeletal muscle in response to exercise training. We speculate that these systemic changes are a result of two factors, or the combination of both. One factor is the systemic metabolic changes which result from the metabolic inflexibility of the BMAL1 deficient skeletal muscles exacerbated by the energetic demands of exercise training. Changes in metabolite/substrate availability/abundance may subsequently influence the transcriptomic state of the cells within the peripheral tissues. Secondly, our data indicate that loss of skeletal muscle BMAL1 changes the inflammatory transcriptome both within the muscle and as well as peripheral tissues, and this altered status may interfere with the adaptive processes within these tissues. Our work adds further evidence to the growing body of literature demonstrating the importance of BMAL1 in maintaining muscle homeostasis and facilitating adaptive processes in different and across organ systems [ [66] ,  [67] ,  [68] ,  [69] ,  [70] ,  [71] ,  [72] ].
+L127: In conclusion, our investigation has uncovered the critical role that BMAL1 plays in skeletal muscle as a key regulator of the gene expression programs for both acute exercise and training adaptations. In addition, our work has uncovered the significant impact that altered exercise response in muscle plays in the peripheral tissue adaptation to exercise training. Specifically, we propose that muscle BMAL1 acts upstream and is necessary for the well-defined acute exercise induction of key transcription factors including  Ppargc1a . We also note that the transcriptome adaptations to steady state training suggest that without BMAL1 the muscle does not achieve the expected homeostatic program. Lastly, we propose that the peripheral tissue adaptations to exercise training are tightly coupled to the adaptations in skeletal muscle. In fact, if the muscle adaptations diverge to a more maladaptive state this is also linked to increased inflammation across many tissues. Understanding the molecular targets and pathways contributing to health vs. maladaptive exercise adaptations will be critical for the next stage of therapeutic design for exercise mimetics.
+L128: CRediT authorship contribution statement
+L129: Mark R. Viggars:  Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation, Formal analysis, Data curation, Conceptualization.  Hannah E. Berko:  Validation, Methodology, Investigation, Data curation.  Stuart J. Hesketh:  Writing – review & editing, Supervision, Project administration, Methodology, Investigation, Data curation, Conceptualization.  Christopher A. Wolff:  Writing – review & editing, Methodology, Investigation, Data curation, Conceptualization.  Miguel A. Gutierrez-Monreal:  Writing – review & editing, Validation, Resources, Methodology, Investigation, Formal analysis, Data curation, Conceptualization.  Ryan A. Martin:  Writing – review & editing, Investigation, Data curation, Conceptualization.  Isabel G. Jennings:  Validation, Investigation, Data curation.  Zhiguang Huo:  Writing – review & editing, Formal analysis.  Karyn A. Esser:  Writing – review & editing, Writing – original draft, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization.
+L130: Declaration of competing interest
+L131: The authors declare no competing interests.
+L132: Supplementary data
+L133: Supplementary Figure 1 (A) DNA recombination gel for gastrocnemius skeletal muscle samples. Double band PCR product indicates successful recombination (loss of BMAL1). Single band indicates non-recombined  Bmal1 . Recombination gels for (B) heart, (C) liver, (D) inguinal white adipose and (E) lung. (F) Genome browser of exercise trained RNA-seq samples and read counts alignment across tissues with and without skeletal muscle BMAL1. Exon 8 is highlighted in red and is lost during recombination but is expressed in all other groups/tissues. iMSBmal1KO muscle does not express exon 8 leading to truncated mRNA product which is not translated. (G) Western blot for BMAL1 protein in vehicle control, iMSBmal1KO and iMSBmal1KO exercise trained mice gastrocnemius muscles and heart. The assay confirms loss of BMAL1 is specific to skeletal muscle and is not rescued by exercise training. (H) BMAL1 signal intensity (AU) relative to total protein. Full blots and total protein gels are available in Supplementary File 2.
+L134: Supplementary Figure 2 Physiological assessment of vehicle treated and iMSBmal1KO mice. (A) Differences in age (weeks) between cohorts 1 and 2 at termination. Mice in the older cohort are indicated by square data points, mice in the younger cohort are indicated by circle data points. (B) Age in weeks (termination). (C) Body weight (g). (D) MRI measured lean mass as a percentage of total body weight. (E) MRI measured fat mass as a percentage of total body weight. (F) Forelimb grip strength (N/gBW). Rotarod time to fall assessment in seconds (average of 3 trials) (G) and maximal speed (RPM) (H). Cohort 1 is delineated by circles, cohort 2 is delineated by squares. Vehicle treated mice are delineated by blue circles, iMSBmal1KO mice are delineated by red circles. Significance was determined by use of an unpaired t-test where ns indicates  P  > 0.05, ∗ indicates  P  < 0.05, ∗∗ indicates  P  < 0.01, ∗∗∗ indicates  P  < 0.001 and ∗∗∗∗ indicates  P  < 0.0001.
+L135: Supplementary Figure 3 Panel (A/B) Maximum work-done tests were performed prior to, after 2, 4 and 6-weeks of training with the speed adjusted accordingly to make training progressive. (C) The amount of food consumed per week was measured and is presented as a proportion of body weight. (D) Measurements of body mass were taken weekly. Habitual cage activity as measured by infrared cage monitors revealed no change in total activity levels between groups. (E) Total Activity. (F) Activity restricted to the dark/active phase. (G) Activity restricted to the light/inactive phase. Significance for two-way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001.
+L136: Supplementary Figure 4 Histological phenotyping of gastrocnemius muscle. (A) Gastrocnemius muscle wet weight is presented as milligrams per gram of body weight. Myovision 2.0 software was used to automatically assess the average fiber cross-sectional area (μm 2 ) (B), the proportion of different fiber types (expressed as a percentage of all fibers) (C). (D) Gastrocnemius SDH intensity value (Log10 AU). Myovision 2.0 assessments of the total number of nuclei per fiber cross-section (E), the number of myonuclei per fiber cross-section (F). (G) illustrates the % of fibers with central nuclei and (H) illustrates the % of fibers that were embryonic myosin positive. (I) Representative dystrophin and DAPI images for each respective group. Scale bars indicate 100 μm. (J) Representative immunofluorescent images depicting whole cross-section gastrocnemius muscles from each experimental condition labeled with Type IIA/Type IIX/B. Scale bars indicate 1800 μm. Data are presented as mean ± standard deviation or min-max values for box plots. Significance for one-way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001.
+L137: Supplementary Figure 5 Training Study. Loss of Bmal1 in skeletal muscle causes transcriptional disruption of circadian rhythms, substrate metabolism and energy sensing pathways. (A) Volcano plot illustrating the DEGs between vehicle control and iMSBmal1KO controls. A total of 1217 (682 downregulated, 535 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (B) HOMER Motif analysis performed on up and downregulated DEGs ( q  = 0.05), identifies a number of transcription factors regulating the transcriptional response to loss of BMAL11 in skeletal muscle. (C) KEGG Pathway analysis reveals disruption of circadian rhythms, metabolic pathways and cell cycle/energy sensing pathways with loss of BMAL1 in skeletal muscle.
+L138: Supplementary Figure 6 (A) Heatmap representing the 94 genes overlapping the vehicle control vs. iMSBmal1KO Control statistical comparison and iMSBmal1KO Control vs. iMSBmal1KO exercise trained statistical comparison.
+L139: Supplementary Figure 7 ZT13 core clock factor gene expression (Deseq2 normalized counts) in the gastrocnemius muscle in response to muscle specific Bmal1KO, exercise training and the combination of the two treatments. Note,  Arntl/Bmal1  mRNA is missing exon 8 as displayed in Supplementary Figure 1 and is not translated. Data is presented as mean ± standard deviation. Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001.
+L140: Supplementary Figure 8 Metabolic indices of vehicle treated and iMSBmal1KO mice with and without 6-weeks exercise training taken at ZT13. (A) Blood hemoglobin A1C percentage (Hba1c%), (B) resting blood glucose (mg/dL), (C) resting plasma insulin (ng/dL), (D) gastrocnemius muscle glycogen concentration (μg/mg), (E) gastrocnemius muscle triglyceride concentration (nmol/mg), (F) liver glycogen concentration (μg/mg), (G) liver triglyceride concentration (nmol/mg). Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001.
+L141: Supplementary Figure 9 (A) HOMER transcription factor enrichment analysis of exercise responsive DEGs across genotypes and tissues presented as −Log10  P -values.
+L142: Supplementary Figure 10 Rescue correlations for all genes affected by loss of skeletal muscle BMAL1 and their exercise trained responses in iMSBmal1KO mice for (A) gastrocnemius muscle, (B) inguinal white adipose tissue, (C) liver, (D) heart and (E) lung. iWAT and heart display relatively strong relationships (R 2  = 0.51–0.67) suggesting exercise training in the iMSBma1KO mice brings their transcriptomes closer to vehicle control mice. Muscle, liver and lung show weaker relationships (R 2  = 0.04–0.22).
+L143: The following are the Supplementary data to this article: Multimedia component 1 Multimedia component 1 Multimedia component 2 Multimedia component 2 Supplementary Figure 1 (A) DNA recombination gel for gastrocnemius skeletal muscle samples. Double band PCR product indicates successful recombination (loss of BMAL1). Single band indicates non-recombined  Bmal1 . Recombination gels for (B) heart, (C) liver, (D) inguinal white adipose and (E) lung. (F) Genome browser of exercise trained RNA-seq samples and read counts alignment across tissues with and without skeletal muscle BMAL1. Exon 8 is highlighted in red and is lost during recombination but is expressed in all other groups/tissues. iMSBmal1KO muscle does not express exon 8 leading to truncated mRNA product which is not translated. (G) Western blot for BMAL1 protein in vehicle control, iMSBmal1KO and iMSBmal1KO exercise trained mice gastrocnemius muscles and heart. The assay confirms loss of BMAL1 is specific to skeletal muscle and is not rescued by exercise training. (H) BMAL1 signal intensity (AU) relative to total protein. Full blots and total protein gels are available in Supplementary File 2. Supplementary Figure 1 Supplementary Figure 2 Physiological assessment of vehicle treated and iMSBmal1KO mice. (A) Differences in age (weeks) between cohorts 1 and 2 at termination. Mice in the older cohort are indicated by square data points, mice in the younger cohort are indicated by circle data points. (B) Age in weeks (termination). (C) Body weight (g). (D) MRI measured lean mass as a percentage of total body weight. (E) MRI measured fat mass as a percentage of total body weight. (F) Forelimb grip strength (N/gBW). Rotarod time to fall assessment in seconds (average of 3 trials) (G) and maximal speed (RPM) (H). Cohort 1 is delineated by circles, cohort 2 is delineated by squares. Vehicle treated mice are delineated by blue circles, iMSBmal1KO mice are delineated by red circles. Significance was determined by use of an unpaired t-test where ns indicates  P  > 0.05, ∗ indicates  P  < 0.05, ∗∗ indicates  P  < 0.01, ∗∗∗ indicates  P  < 0.001 and ∗∗∗∗ indicates  P  < 0.0001. Supplementary Figure 2 Supplementary Figure 3 Panel (A/B) Maximum work-done tests were performed prior to, after 2, 4 and 6-weeks of training with the speed adjusted accordingly to make training progressive. (C) The amount of food consumed per week was measured and is presented as a proportion of body weight. (D) Measurements of body mass were taken weekly. Habitual cage activity as measured by infrared cage monitors revealed no change in total activity levels between groups. (E) Total Activity. (F) Activity restricted to the dark/active phase. (G) Activity restricted to the light/inactive phase. Significance for two-way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001. Supplementary Figure 3 Supplementary Figure 4 Histological phenotyping of gastrocnemius muscle. (A) Gastrocnemius muscle wet weight is presented as milligrams per gram of body weight. Myovision 2.0 software was used to automatically assess the average fiber cross-sectional area (μm 2 ) (B), the proportion of different fiber types (expressed as a percentage of all fibers) (C). (D) Gastrocnemius SDH intensity value (Log10 AU). Myovision 2.0 assessments of the total number of nuclei per fiber cross-section (E), the number of myonuclei per fiber cross-section (F). (G) illustrates the % of fibers with central nuclei and (H) illustrates the % of fibers that were embryonic myosin positive. (I) Representative dystrophin and DAPI images for each respective group. Scale bars indicate 100 μm. (J) Representative immunofluorescent images depicting whole cross-section gastrocnemius muscles from each experimental condition labeled with Type IIA/Type IIX/B. Scale bars indicate 1800 μm. Data are presented as mean ± standard deviation or min-max values for box plots. Significance for one-way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001. Supplementary Figure 4 Supplementary Figure 5 Training Study. Loss of Bmal1 in skeletal muscle causes transcriptional disruption of circadian rhythms, substrate metabolism and energy sensing pathways. (A) Volcano plot illustrating the DEGs between vehicle control and iMSBmal1KO controls. A total of 1217 (682 downregulated, 535 upregulated) genes were differentially expressed using an FDR cut off of <0.05. (B) HOMER Motif analysis performed on up and downregulated DEGs ( q  = 0.05), identifies a number of transcription factors regulating the transcriptional response to loss of BMAL11 in skeletal muscle. (C) KEGG Pathway analysis reveals disruption of circadian rhythms, metabolic pathways and cell cycle/energy sensing pathways with loss of BMAL1 in skeletal muscle. Supplementary Figure 5 Supplementary Figure 6 (A) Heatmap representing the 94 genes overlapping the vehicle control vs. iMSBmal1KO Control statistical comparison and iMSBmal1KO Control vs. iMSBmal1KO exercise trained statistical comparison. Supplementary Figure 6 Supplementary Figure 7 ZT13 core clock factor gene expression (Deseq2 normalized counts) in the gastrocnemius muscle in response to muscle specific Bmal1KO, exercise training and the combination of the two treatments. Note,  Arntl/Bmal1  mRNA is missing exon 8 as displayed in Supplementary Figure 1 and is not translated. Data is presented as mean ± standard deviation. Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001. Supplementary Figure 7 Supplementary Figure 8 Metabolic indices of vehicle treated and iMSBmal1KO mice with and without 6-weeks exercise training taken at ZT13. (A) Blood hemoglobin A1C percentage (Hba1c%), (B) resting blood glucose (mg/dL), (C) resting plasma insulin (ng/dL), (D) gastrocnemius muscle glycogen concentration (μg/mg), (E) gastrocnemius muscle triglyceride concentration (nmol/mg), (F) liver glycogen concentration (μg/mg), (G) liver triglyceride concentration (nmol/mg). Significance for one way ANOVA analysis is presented as ∗ P  ≤ 0.05, ∗∗ P  ≤ 0.01, ∗∗∗ P  ≤ 0.001, ∗∗∗∗ P  ≤ 0.0001. Supplementary Figure 8 Supplementary Figure 9 (A) HOMER transcription factor enrichment analysis of exercise responsive DEGs across genotypes and tissues presented as −Log10  P -values. Supplementary Figure 9 Supplementary Figure 10 Rescue correlations for all genes affected by loss of skeletal muscle BMAL1 and their exercise trained responses in iMSBmal1KO mice for (A) gastrocnemius muscle, (B) inguinal white adipose tissue, (C) liver, (D) heart and (E) lung. iWAT and heart display relatively strong relationships (R 2  = 0.51–0.67) suggesting exercise training in the iMSBma1KO mice brings their transcriptomes closer to vehicle control mice. Muscle, liver and lung show weaker relationships (R 2  = 0.04–0.22). Supplementary Figure 10
+L144: Data availability
+L145: Data will be made available on request.
+L146: Multimedia component 1
+L147: Multimedia component 2
+L148: 1 Dyar K.A. Ciciliot S. Wright L.E. Biensø R.S. Tagliazucchi G.M. Patel V.R. Muscle insulin sensitivity and glucose metabolism are controlled by the intrinsic muscle clock Mol Metab 3 1 2014 29 41 10.1016/j.molmet.2013.10.005 24567902
+L149: 2 Ripperger J.A. Schibler U. Rhythmic CLOCK-BMAL1 binding to multiple E-box motifs drives circadian Dbp transcription and chromatin transitions Nat Genet 38 3 2006 369 374 10.1038/ng1738 16474407
+L150: 3 Menet J.S. Pescatore S. Rosbash M. CLOCK:BMAL1 is a pioneer-like transcription factor Genes Dev 28 1 2014 8 13 10.1101/gad.228536.113 24395244
+L151: 4 Martin R.A. Viggars M.R. Esser K.A. Metabolism and exercise: the skeletal muscle clock takes centre stage Nat Rev Endocrinol 2023 1 13 36329153
+L152: 5 Hodge B.A. Wen Y. Riley L.A. Zhang X. England J.H. Harfmann B.D. The endogenous molecular clock orchestrates the temporal separation of substrate metabolism in skeletal muscle Skelet Muscle 5 1 2015 1 16 25664165
+L153: 6 Harfmann B.D. Schroder E.A. Kachman M.T. Hodge B.A. Zhang X. Esser K.A. Muscle-specific loss of Bmal1 leads to disrupted tissue glucose metabolism and systemic glucose homeostasis Skelet Muscle 6 1 2016 12 10.1186/s13395-016-0082-x 27486508
+L154: 7 Zitting K.-M. Vujovic N. Yuan R.K. Isherwood C.M. Medina J.E. Wang W. Human resting energy expenditure varies with circadian phase Curr Biol 28 22 2018 3685 3690. e3 30416064
+L155: 8 Wolff C.A. Gutierrez-Monreal M.A. Meng L. Zhang X. Douma L.G. Costello H.M. Defining the age-dependent and tissue-specific circadian transcriptome in male mice Cell Rep 42 1 2023
+L156: 9 Viggars M.R. Sutherland H. Cardozo C.P. Jarvis J.C. Conserved and species-specific transcriptional responses to daily programmed resistance exercise in rat and mouse FASEB J 37 12 2023 e23299
+L157: 10 Viggars M.R. Sutherland H. Lanmüller H. Schmoll M. Bijak M. Jarvis J.C. Adaptation of the transcriptional response to resistance exercise over 4 weeks of daily training FASEB J 37 1 2023 e22686 10.1096/fj.202201418R
+L158: 11 Akashi M. Tsuchiya Y. Yoshino T. Nishida E. Control of Intracellular dynamics of mammalian period proteins by casein kinase I ε (CKIε) and CKI␦ in cultured cells Mol Cell Biol 22 2002 11
+L159: 12 Camacho F. Cilio M. Guo Y. Virshup D.M. Patel K. Khorkova O. Human casein kinase Iδ phosphorylation of human circadian clock proteins period 1 and 2 FEBS Lett 489 2–3 2001 159 165 10.1016/S0014-5793(00)02434-0 11165242
+L160: 13 Etchegaray J.-P. Machida K.K. Noton E. Constance C.M. Dallmann R. Di Napoli M.N. Casein kinase 1 delta regulates the pace of the mammalian circadian clock Mol Cell Biol 29 14 2009 3853 3866 10.1128/MCB.00338-09 19414593
+L161: 14 Thomas J.M. Kern P.A. Bush H.M. McQuerry K.J. Black W.S. Clasey J.L. Circadian rhythm phase shifts caused by timed exercise vary with chronotype JCI Insight 5 3 2020 e134270 10.1172/jci.insight.134270
+L162: 15 Kemler D. Wolff C.A. Esser K.A. Time-of-day dependent effects of contractile activity on the phase of the skeletal muscle clock J Physiol 598 17 2020 3631 3644 10.1113/JP279779 32537739
+L163: 16 Wolff C.A. Esser K.A. Exercise sets the muscle clock with a calcium assist J Physiol 598 24 2020 5591 5592 10.1113/JP280783 32949163
+L164: 17 Sato S. Basse A.L. Schönke M. Chen S. Samad M. Altıntaş A. Time of exercise specifies the impact on muscle metabolic pathways and systemic energy homeostasis Cell Metab 30 1 2019 92 110.e4 10.1016/j.cmet.2019.03.013 31006592
+L165: 18 Sato S. Dyar K.A. Treebak J.T. Jepsen S.L. Ehrlich A.M. Ashcroft S.P. Atlas of exercise metabolism reveals time-dependent signatures of metabolic homeostasis Cell Metab 34 2 2022 329 345.e8 10.1016/j.cmet.2021.12.016 35030324
+L166: 19 Savikj M. Gabriel B.M. Alm P.S. Smith J. Caidahl K. Björnholm M. Afternoon exercise is more efficacious than morning exercise at improving blood glucose levels in individuals with type 2 diabetes: a randomised crossover trial Diabetologia 62 2 2019 233 237 10.1007/s00125-018-4767-z 30426166
+L167: 20 Savikj M. Stocks B. Sato S. Caidahl K. Krook A. Deshmukh A.S. Exercise timing influences multi-tissue metabolome and skeletal muscle proteome profiles in type 2 diabetic patients – a randomized crossover trial Metabolism 135 2022 155268 10.1016/j.metabol.2022.155268
+L168: 21 Dyar K.A. Ciciliot S. Tagliazucchi G.M. Pallafacchina G. Tothova J. Argentini C. The calcineurin-NFAT pathway controls activity-dependent circadian gene expression in slow skeletal muscle Mol Metab 4 11 2015 823 833 26629406
+L169: 22 Casanova-Vallve N. Duglan D. Vaughan M.E. Pariollaud M. Handzlik M.K. Fan W. Daily running enhances molecular and physiological circadian rhythms in skeletal muscle Mol Metab 61 2022 101504 10.1016/j.molmet.2022.101504
+L170: 23 Douglas C.M. Hesketh S.J. Esser K.A. Time of day and muscle strength: a circadian output? Physiology 36 1 2021 44 51 10.1152/physiol.00030.2020 33325817
+L171: 24 Ab Malik Z. Bowden Davies K.A. Hall E.C. Barrett J. Pullinger S.A. Erskine R.M. Diurnal differences in human muscle isometric force in vivo are associated with differential phosphorylation of sarcomeric M-band proteins Proteomes 8 3 2020 22 32859009
+L172: 25 Dyar K.A. Hubert M.J. Mir A.A. Ciciliot S. Lutter D. Greulich F. Transcriptional programming of lipid and amino acid metabolism by the skeletal muscle circadian clock PLoS Biol 16 8 2018 e2005886 10.1371/journal.pbio.2005886
+L173: 26 Fernández-Martínez J. Ramírez-Casas Y. Aranda-Martínez P. López-Rodríguez A. Sayed R.K.A. Escames G. iMS-Bmal1−/− mice show evident signs of sarcopenia that are counteracted by exercise and melatonin therapies J Pineal Res 76 1 2024 e12912 10.1111/jpi.12912
+L174: 27 Adamovich Y. Dandavate V. Ezagouri S. Manella G. Zwighaft Z. Sobel J. Clock proteins and training modify exercise capacity in a daytime-dependent manner Proc Natl Acad Sci U S A 118 35 2021 e2101115118 10.1073/pnas.2101115118
+L175: 28 Pillon N.J. Gabriel B.M. Dollet L. Smith J.A.B. Sardón Puig L. Botella J. Transcriptomic profiling of skeletal muscle adaptations to exercise and inactivity Nat Commun 11 1 2020 470 10.1038/s41467-019-13869-w 31980607
+L176: 29 Egan B. Sharples A.P. Molecular responses to acute exercise and their relevance for adaptations in skeletal muscle to exercise training Physiol Rev 103 3 2023 2057 2170 36395350
+L177: 30 Avila J.J. Kim S.K. Massett M.P. Differences in exercise capacity and responses to training in 24 inbred mouse strains Front Physiol 8 2017 974 10.3389/fphys.2017.00974 29249981
+L178: 31 Viggars M.R. Wen Y. Peterson C.A. Jarvis J.C. Automated cross-sectional analysis of trained, severely atrophied, and recovering rat skeletal muscles using MyoVision 2.0 J Appl Physiol 132 3 2022 593 610 10.1152/japplphysiol.00491.2021 35050795
+L179: 32 Murach K.A. Mobley C.B. Zdunek C.J. Frick K.K. Jones S.R. McCarthy J.J. Muscle memory: myonuclear accretion, maintenance, morphology, and miRNA levels with training and detraining in adult mice J Cachexia Sarcopenia Muscle 11 6 2020 1705 1722 10.1002/jcsm.12617 32881361
+L180: 33 Gabriel B.M. Altıntaş A. Smith J.A. Sardon-Puig L. Zhang X. Basse A.L. Disrupted circadian oscillations in type 2 diabetes are linked to altered rhythmic mitochondrial metabolism in skeletal muscle Sci Adv 7 43 2021 eabi9654
+L181: 34 Huang D.W. Sherman B.T. Tan Q. Kir J. Liu D. Bryant D. DAVID bioinformatics resources: expanded annotation database and novel algorithms to better extract biology from large gene lists Nucleic Acids Res 35 suppl_2 2007 W169 W175 17576678
+L182: 35 Khan A. Mathelier A. Intervene: a tool for intersection and visualization of multiple gene or genomic region sets BMC Bioinf 18 1 2017 1 8
+L183: 36 Pang Z. Zhou G. Ewald J. Chang L. Hacariz O. Basu N. Using MetaboAnalyst 5.0 for LC–HRMS spectra processing, multi-omics integration and covariate adjustment of global metabolomics data Nat Protoc 17 8 2022 1735 1761 35715522
+L184: 37 Laothamatas I. Rasmussen E.S. Green C.B. Takahashi J.S. Metabolic and chemical architecture of the mammalian circadian clock Cell Chem Biol 30 9 2023 1033 1052 37708890
+L185: 38 Sabaratnam R. Pedersen A.J. Eskildsen T.V. Kristensen J.M. Wojtaszewski J.F. Højlund K. Exercise induction of key transcriptional regulators of metabolic adaptation in muscle is preserved in type 2 diabetes J Clin Endocrinol Metab 104 10 2019 4909 4920 31135885
+L186: 39 Liu C. Li S. Liu T. Borjigin J. Lin J.D. Transcriptional coactivator PGC-1α integrates the mammalian clock and energy metabolism Nature 447 7143 2007 477 481 17476214
+L187: 40 Andrews J.L. Zhang X. McCarthy J.J. McDearmon E.L. Hornberger T.A. Russell B. CLOCK and BMAL1 regulate MyoD and are necessary for maintenance of skeletal muscle phenotype and function Proc Natl Acad Sci U S A 107 44 2010 19090 19095 20956306
+L188: 41 Furrer R. Heim B. Schmid S. Dilbaz S. Adak V. Nordström K.J.V. Molecular control of endurance training adaptation in male mouse skeletal muscle Nat Metab 2023 10.1038/s42255-023-00891-y
+L189: 42 Dings M.P. van der Zalm A.P. Bootsma S. van Maanen T.F. Waasdorp C. van den Ende T. Estrogen-related receptor alpha drives mitochondrial biogenesis and resistance to neoadjuvant chemoradiation in esophageal cancer Cell Rep Med 3 11 2022
+L190: 43 Tripathi M. Yen P.M. Singh B.K. Estrogen-related receptor alpha: an under-appreciated potential target for the treatment of metabolic diseases Int J Mol Sci 21 5 2020 1645 32121253
+L191: 44 Kan J. Hu Y. Ge Y. Zhang W. Lu S. Zhao C. Declined expressions of vast mitochondria-related genes represented by CYCS and transcription factor ESRRA in skeletal muscle aging Bioengineered 12 1 2021 3485 3502 34229541
+L192: 45 Billon C. Sitaula S. Banerjee S. Welch R. Elgendy B. Hegazy L. Synthetic ERRα/β/γ agonist induces an ERRα-dependent acute aerobic exercise response and enhances exercise capacity ACS Chem Biol 18 4 2023 756 771 36988910
+L193: 46 Baar K. Wende A.R. Jones T.E. Marison M. Nolte L.A. Chen M.A.Y. Adaptations of skeletal muscle to exercise: rapid increase in the transcriptional coactivator PGC-1 FASEB J 16 14 2002 1879 1886 12468452
+L194: 47 Xia H. Scholtes C. Dufour C.R. Guluzian C. Giguère V. ERRα fosters running endurance by driving myofiber aerobic transformation and fuel efficiency Mol Metab 101814 2023 10.1016/j.molmet.2023.101814
+L195: 48 Yusifova M. Yusifov A. Polson S.M. Todd W.D. Schmitt E.E. Bruns D.R. Voluntary wheel running exercise does not attenuate circadian and cardiac dysfunction caused by conditional deletion of Bmal1 J Biol Rhythm 2023 07487304231152398
+L196: 49 Hargreaves M. Spriet L.L. Skeletal muscle energy metabolism during exercise Nat Metab 2 9 2020 817 828 32747792
+L197: 50 MoTrPAC Study Group. Amar D. Gay N.R. Jean-Beltran P.M. Leads M.W.G. Temporal dynamics of the multi-omic response to endurance exercise training Nature 629 8010 2024 174 183 38693412
+L198: 51 Smith G.R. Zhao B. Lindholm M.E. Raja A. Viggars M. Pincas H. Multi-omic identification of key transcriptional regulatory programs during endurance exercise training bioRxiv 2023
+L199: 52 Wang Z.-Y. Keogh A. Waldt A. Cuttat R. Neri M. Zhu S. Single-cell and bulk transcriptomics of the liver reveals potential targets of NASH with fibrosis Sci Rep 11 1 2021 19396
+L200: 53 DeBari M.K. Abbott R.D. Adipose tissue fibrosis: mechanisms, models, and importance Int J Mol Sci 21 17 2020 6030 32825788
+L201: 54 Jääskeläinen I. Petäistö T. Mirzarazi Dahagi E. Mahmoodi M. Pihlajaniemi T. Kaartinen M.T. Collagens regulating adipose tissue formation and functions Biomedicines 11 5 2023 1412 37239083
+L202: 55 Sun K. Li X. Scherer P.E. Extracellular matrix (ECM) and fibrosis in adipose tissue: overview and perspectives Compr Physiol 13 1 2023 4387 36715281
+L203: 56 Ruschke K. Fishbein L. Dietrich A. Klöting N. Tönjes A. Oberbach A. Gene expression of PPARγ and PGC-1α in human omental and subcutaneous adipose tissues is related to insulin resistance markers and mediates beneficial effects of physical training Eur J Endocrinol 162 3 2010 515 523 19966034
+L204: 57 Nigro P. Vamvini M. Yang J. Caputo T. Ho L.-L. Carbone N.P. Exercise training remodels inguinal white adipose tissue through adaptations in innervation, vascularization, and the extracellular matrix Cell Rep 42 4 2023
+L205: 58 Dreher S.I. Irmler M. Pivovarova-Ramich O. Kessler K. Jürchott K. Sticht C. Acute and long-term exercise adaptation of adipose tissue and skeletal muscle in humans: a matched transcriptomics approach after 8-week training-intervention Int J Obes 47 4 2023 313 324
+L206: 59 Ma X. Wang D. Zhao W. Xu L. Deciphering the roles of PPARγ in adipocytes via dynamic change of transcription complex Front Endocrinol 9 2018 473
+L207: 60 Youssef J. Badr M. Role of peroxisome proliferator-activated receptors in inflammation control BioMed Res Int 2004 2004 156 166
+L208: 61 Bensinger S.J. Tontonoz P. Integration of metabolism and inflammation by lipid-activated nuclear receptors Nature 454 7203 2008 470 477 18650918
+L209: 62 Moller D.E. Berger J.P. Role of PPARs in the regulation of obesity-related insulin sensitivity and inflammation Int J Obes 27 3 2003 S17 S21
+L210: 63 Qu M. Qu H. Jia Z. Kay S.A. HNF4A defines tissue-specific circadian rhythms by beaconing BMAL1::CLOCK chromatin binding and shaping the rhythmic chromatin landscape Nat Commun 12 1 2021 6350 10.1038/s41467-021-26567-3 34732735
+L211: 64 Zhang X. Procopio S.B. Ding H. Semel M.G. Schroder E.A. Seward T.S. New role for cardiomyocyte Bmal1 in the regulation of sex-specific heart transcriptomes bioRxiv 2024
+L212: 65 In Het Panhuis W. Schönke M. Siebeler R. Banen D. Pronk A.C.M. Streefland T.C.M. Circadian disruption impairs glucose homeostasis in male but not in female mice and is dependent on gonadal sex hormones FASEB J 37 2 2023 e22772 10.1096/fj.202201586R
+L213: 66 Bass J. Interorgan rhythmicity as a feature of healthful metabolism Cell Metab 36 4 2024 655 669 38335957
+L214: 67 Smith J.G. Koronowski K.B. Mortimer T. Sato T. Greco C.M. Petrus P. Liver and muscle circadian clocks cooperate to support glucose tolerance in mice Cell Rep 42 6 2023 112588 10.1016/j.celrep.2023.112588
+L215: 68 Greco C.M. Koronowski K.B. Smith J.G. Shi J. Kunderfranco P. Carriero R. Integration of feeding behavior by the liver circadian clock reveals network dependency of metabolic rhythms Sci Adv 7 39 2021 10.1126/sciadv.abi7828
+L216: 69 Ehlen J.C. Brager A.J. Baggs J. Pinckney L. Gray C.L. DeBruyne J.P. Bmal1 function in skeletal muscle regulates sleep eLife 6 2017 e26557
+L217: 70 McDearmon E.L. Patel K.N. Ko C.H. Walisser J.A. Schook A.C. Chong J.L. Dissecting the functions of the mammalian clock protein BMAL1 by tissue-specific rescue in mice Science 314 5803 2006 1304 1308 17124323
+L218: 71 Smith J.G. Molendijk J. Blazev R. Chen W.H. Zhang Q. Litwin C. Impact of Bmal1 rescue and time-restricted feeding on liver and muscle proteomes during the active phase in mice Mol Cell Proteom 22 11 2023
+L219: 72 Sun S. Ma S. Cai Y. Wang S. Ren J. Yang Y. A single-cell transcriptomic atlas of exercise-induced anti-inflammatory and geroprotective effects across the body Innovation 4 1 2023
+L220: Acknowledgments
+L221: We would like to thank Dr. Daniel Kopinke at the University of Florida for the use of his microscope. We also extend our thanks to the University of Florida Systems Physiology and Omics Core Facility for treadmill and activity recording equipment access (RRID:SCR_025083), Gene Expression & Genotyping (GE) core, RRID:SCR_019145, and NextGen DNA Sequencing (NS) core, RRID:SCR_019152 and the Southeast Center for Integrated Metabolomics, (SECIM) at the University of Florida for library preparation, DNA sequencing and metabolomics respectively. We would like to thank Dr. Jerome Menet for constructive feedback and discussions on our data. This work was supported by  10.13039/100000002 National Institutes of Health 
+L222:  R01AR079220  to KAE.
+L223: # Summary: mmc1.xlsx
+L224: - **Sheets**: 30
+L225: - **Total tables**: 30
+L226: ## Sheet: Contents
+L227: - Tables found: 1
+L228: ### Table 1: Table_1
+L229: - **Rows**: 30
+L230: - **Columns**: 2
+L231: | Column | Dtype | Non-null | Sample values |
+L232: |--------|-------|----------|---------------|
+L233: | 1.0 | float64 | 28 | 2.0, 3.0, 4.0 |
+L234: | Post Alignment QAQC-All tissues RNA-seq & ATAC-seq | str | 30 | Acute Data, Gastrocnemius-Deseq2 Normalised Counts + Z-Sc... |
+L235: ## Sheet: 1
+L236: - Tables found: 1
+L237: ### Table 1: Table_1
+L238: - **Rows**: 20
+L239: - **Columns**: 126
+L240: | Column | Dtype | Non-null | Sample values |
+L241: |--------|-------|----------|---------------|
+L242: | Sample name | str | 8 | KOSed1, KOSed2, KOSed3 |
+L243: | Treatment | str | 8 | Tamoxifen(KO), Tamoxifen(KO), Tamoxifen(KO) |
+L244: | Condition | str | 8 | Sedentary, Sedentary, Sedentary |
+L245: | Group | str | 8 | Tamoxifen Control, Tamoxifen Control, Tamoxifen Control |
+L246: | Total reads | float64 | 8 | 119154060.0, 72140331.0, 77206585.0 |
+L247: | Total alignments | float64 | 8 | 234642518.0, 142105059.0, 152354996.0 |
+L248: | Aligned | float64 | 8 | 98.8801867095422, 98.9808239166521, 99.2514433840066 |
+L249: | Total unaligned | float64 | 8 | 1334303.0, 735237.0, 577935.0 |
+L250: | Unaligned | float64 | 8 | 1.11981329045774, 1.01917608334788, 0.748556615993311 |
+L251: | Total unique singleton | float64 | 8 | 996996.0, 705129.0, 902304.0 |
+L252: | Unique singleton | float64 | 8 | 0.836728517685423, 0.977440760564295, 1.16868787811298 |
+L253: | Total unique paired | float64 | 8 | 116822761.0, 70699965.0, 75726346.0 |
+L254: | Unique paired | float64 | 8 | 98.0434581918568, 98.0033831560878, 98.0827555058937 |
+L255: | Total non-unique | float64 | 8 | 0.0, 0.0, 0.0 |
+L256: | Non-unique | float64 | 8 | 0.0, 0.0, 0.0 |
+L257: | Coverage | float64 | 8 | 85.9118, 79.5427, 88.8708 |
+L258: | Avg. coverage depth | float64 | 8 | 10.5395, 7.31509, 7.51092 |
+L259: | Avg. length | float64 | 8 | 151.0, 151.0, 151.0 |
+L260: | Avg. quality | float64 | 8 | 34.5892, 34.8467, 34.7918 |
+L261: | %GC | float64 | 8 | 51.9398, 50.5468, 48.2584 |
+L262: | Sample name | str | 20 | TE1, TE2, TE3 |
+L263: | Group | str | 20 | TE, TE, TE |
+L264: | Activity | str | 20 | Exercise, Exercise, Exercise |
+L265: | Genotype | str | 20 | KO, KO, KO |
+L266: | Total reads | int64 | 20 | 16417073, 18066540, 16604683 |
+L267: | Total alignments | int64 | 20 | 33410761, 38302150, 34714359 |
+L268: | Aligned | float64 | 20 | 89.4227734749062, 89.8075447761441, 89.5765489771771 |
+L269: | Total unaligned | int64 | 20 | 1736471, 1841424, 1730781 |
+L270: | Unaligned | float64 | 20 | 10.5772265250937, 10.1924552238558, 10.4234510228229 |
+L271: | Total unique singleton | int64 | 20 | 66, 20, 23 |
+L272: | Unique singleton | float64 | 20 | 0.000402020506335081, 0.000110701883149734, 0.00013851514... |
+L273: | Total unique paired | int64 | 20 | 13098049, 13891724, 12903860 |
+L274: | Unique paired | float64 | 20 | 79.7830953179047, 76.8920003498179, 77.7121731260994 |
+L275: | Total non-unique paired | int64 | 20 | 1582481, 2333369, 1970016 |
+L276: | Non-unique paired | float64 | 20 | 9.63923958917646, 12.9154171191606, 11.8642192687448 |
+L277: | Total non-unique singleton | int64 | 20 | 6, 3, 3 |
+L278: | Non-unique singleton | float64 | 20 | 3.65473187577347e-05, 1.66052824724601e-05, 1.80671922493... |
+L279: | Coverage | float64 | 20 | 5.9327, 4.40364, 4.49275 |
+L280: | Avg. coverage depth | float64 | 20 | 30.7348, 47.4821, 42.176 |
+L281: | Avg. length | float64 | 20 | 150.867, 150.872, 150.875 |
+L282: | Avg. quality | float64 | 20 | 35.1247, 35.2168, 35.2331 |
+L283: | %GC | float64 | 20 | 47.5964, 47.3452, 47.6391 |
+L284: | Sample name | str | 20 | 1_S1, 2_S2, 3_S3 |
+L285: | Group | str | 20 | VS, VS, VS |
+L286: | Total reads | int64 | 20 | 22301362, 21423113, 22206369 |
+L287: | Total alignments | int64 | 20 | 51850416, 49435023, 51258876 |
+L288: | Aligned | float64 | 20 | 98.146270169508, 97.8412287700671, 97.9805793554092 |
+L289: | Total unaligned | int64 | 20 | 413407, 462476, 448440 |
+L290: | Unaligned | float64 | 20 | 1.85372983049196, 2.15877122993283, 2.01942064459074 |
+L291: | Total unique singleton | int64 | 20 | 150, 584, 163 |
+L292: | Unique singleton | float64 | 20 | 0.000672604659751274, 0.00272602772528903, 0.000734023648... |
+L293: | Total unique paired | int64 | 20 | 18321243, 17643932, 18360227 |
+L294: | Unique paired | float64 | 20 | 82.1530227615694, 82.3593284505384, 82.6800050021685 |
+L295: | Total non-unique paired | int64 | 20 | 3566517, 3316022, 3397492 |
+L296: | Non-unique paired | float64 | 20 | 15.9923730218809, 15.4787121740897, 15.2996286786011 |
+L297: | Total non-unique singleton | int64 | 20 | 45, 99, 47 |
+L298: | Non-unique singleton | float64 | 20 | 0.000201781397925382, 0.000462117713704819, 0.00021165099... |
+L299: | Coverage | float64 | 20 | 5.35527, 5.43423, 5.78786 |
+L300: | Avg. coverage depth | float64 | 20 | 53.3522, 50.1147, 48.7898 |
+L301: | Avg. length | float64 | 20 | 150.951, 150.949, 150.95 |
+L302: | Avg. quality | float64 | 20 | 36.0376, 36.0095, 36.0379 |
+L303: | %GC | float64 | 20 | 45.8608, 46.0619, 46.0218 |
+L304: | Sample name | str | 20 | 21_S21, 22_S22, 23_S23 |
+L305: | group | str | 20 | VS, VS, VS |
+L306: | Total reads | int64 | 20 | 20298237, 21157827, 21774647 |
+L307: | Total alignments | int64 | 20 | 42868474, 46200039, 45870560 |
+L308: | Aligned | float64 | 20 | 91.944403841575, 95.3844740293982, 92.0049450170191 |
+L309: | Total unaligned | int64 | 20 | 1635144, 976545, 1740895 |
+L310: | Unaligned | float64 | 20 | 8.05559615842499, 4.6155259706018, 7.99505498298089 |
+L311: | Total unique singleton | int64 | 20 | 139, 193, 201 |
+L312: | Unique singleton | float64 | 20 | 0.000684788536068428, 0.000912191975102169, 0.00092309188... |
+L313: | Total unique paired | int64 | 20 | 17146000, 18556593, 18343587 |
+L314: | Unique paired | float64 | 20 | 84.4703902117213, 87.7055710872387, 84.2428674044635 |
+L315: | Total non-unique paired | int64 | 20 | 1516940, 1624475, 1689929 |
+L316: | Non-unique paired | float64 | 20 | 7.47325986981036, 7.67789149613521, 7.76099378327465 |
+L317: | Total non-unique singleton | int64 | 20 | 14, 21, 35 |
+L318: | Non-unique singleton | float64 | 20 | 6.89715072299136e-05, 9.9254049104381e-05, 0.000160737393... |
+L319: | Coverage | float64 | 20 | 4.35352, 5.56046, 3.9362 |
+L320: | Avg. coverage depth | float64 | 20 | 54.1256, 45.7113, 64.1176 |
+L321: | Avg. length | float64 | 20 | 150.946, 150.948, 150.946 |
+L322: | Avg. quality | float64 | 20 | 36.0288, 36.0507, 36.0383 |
+L323: | %GC | float64 | 20 | 48.8501, 48.6859, 48.7224 |
+L324: | Sample name | str | 12 | WAT_TE1, WAT_TE2, WAT_TE3 |
+L325: | Genotype | str | 12 | KO, KO, KO |
+L326: | Condition | str | 12 | Exercise, Exercise, Exercise |
+L327: | combined | str | 12 | KO-Exercise, KO-Exercise, KO-Exercise |
+L328: | Total reads | float64 | 12 | 30964721.0, 29430084.0, 49453331.0 |
+L329: | Total alignments | float64 | 12 | 61820274.0, 58850400.0, 96489418.0 |
+L330: | Aligned | float64 | 12 | 93.3450361138406, 92.6306598377361, 90.9414292032219 |
+L331: | Total unaligned | float64 | 12 | 2060691.0, 2168803.0, 4479765.0 |
+L332: | Unaligned | float64 | 12 | 6.65496388615934, 7.36934016226389, 9.05857079677807 |
+L333: | Total unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L334: | Unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L335: | Total unique paired | float64 | 12 | 27496571.0, 25768403.0, 42505234.0 |
+L336: | Unique paired | float64 | 12 | 88.7996730214362, 87.5580341530795, 85.9501941335357 |
+L337: | Total non-unique paired | float64 | 12 | 1407459.0, 1492878.0, 2468332.0 |
+L338: | Non-unique paired | float64 | 12 | 4.54536309240441, 5.07262568465655, 4.9912350696862 |
+L339: | Total non-unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L340: | Non-unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L341: | Coverage | float64 | 12 | 9.45671, 8.84826, 10.591 |
+L342: | Avg. coverage depth | float64 | 12 | 35.5685, 36.1635, 49.4426 |
+L343: | Avg. length | float64 | 12 | 150.0, 150.0, 150.0 |
+L344: | Avg. quality | float64 | 12 | 35.9463, 35.9843, 35.937 |
+L345: | %GC | float64 | 12 | 50.1752, 50.4029, 50.3723 |
+L346: | Sample name | str | 12 | Lung_TE1, Lung_TE2, Lung_TE3 |
+L347: | Genotype | str | 12 | KO, KO, KO |
+L348: | Group | str | 12 | Exercise Trained, Exercise Trained, Exercise Trained |
+L349: | merged | str | 12 | KO-Exercise Trained, KO-Exercise Trained, KO-Exercise Tra... |
+L350: | Total reads | float64 | 12 | 33963030.0, 32929137.0, 43460976.0 |
+L351: | Total alignments | float64 | 12 | 64444898.0, 72005830.0, 87748710.0 |
+L352: | Aligned | float64 | 12 | 88.0974282918809, 100.0, 91.759262378277 |
+L353: | Total unaligned | float64 | 12 | 4042474.0, 0.0, 3581505.0 |
+L354: | Unaligned | float64 | 12 | 11.902571708119, 0.0, 8.24073762172299 |
+L355: | Total unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L356: | Unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L357: | Total unique paired | float64 | 12 | 28489057.0, 31163098.0, 37258592.0 |
+L358: | Unique paired | float64 | 12 | 83.882554059517, 94.6368500334521, 85.7288432731009 |
+L359: | Total non-unique paired | float64 | 12 | 1431499.0, 1766039.0, 2620879.0 |
+L360: | Non-unique paired | float64 | 12 | 4.21487423236383, 5.36314996654786, 6.0304191051761 |
+L361: | Total non-unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L362: | Non-unique singleton | float64 | 12 | 0.0, 0.0, 0.0 |
+L363: | Coverage | float64 | 12 | 12.1353, 12.3334, 10.0988 |
+L364: | Avg. coverage depth | float64 | 12 | 28.7697, 31.7061, 47.2309 |
+L365: | Avg. length | float64 | 12 | 150.0, 150.0, 150.0 |
+L366: | Avg. quality | float64 | 12 | 35.9657, 36.0252, 35.9883 |
+L367: | %GC | float64 | 12 | 50.7231, 50.5409, 49.9791 |
+L368: ## Sheet: 2
+L369: - Tables found: 1
+L370: ### Table 1: Table_1
+L371: - **Rows**: 30396
+L372: - **Columns**: 38
+L373: | Column | Dtype | Non-null | Sample values |
+L374: |--------|-------|----------|---------------|
+L375: | Gene Symbol | str | 30396 | ENSMUSG00000109644, ENSMUSG00000108652, ENSMUSG00000007777 |
+L376: | gene_name | str | 30396 | 0610005C13Rik, 0610006L08Rik, 0610009B22Rik |
+L377: | VehSed1 | float64 | 30396 | 101.217, 0.0, 167.126 |
+L378: | VehSed2 | float64 | 30396 | 88.7823, 0.0, 125.926 |
+L379: | VehSed3 | float64 | 30396 | 63.2251, 0.0, 158.683 |
+L380: | VehSed4 | float64 | 30396 | 81.5637, 0.0, 176.931 |
+L381: | VehSed5 | float64 | 30396 | 85.1976, 0.0, 181.755 |
+L382: | VehRun1 | float64 | 30396 | 85.2304, 0.0, 129.924 |
+L383: | VehRun2 | float64 | 30396 | 71.9846, 0.0, 195.055 |
+L384: | VehRun3 | float64 | 30396 | 86.3171, 0.0, 170.421 |
+L385: | VehRun4 | float64 | 30396 | 65.6882, 0.0, 180.643 |
+L386: | VehRun5 | float64 | 30396 | 72.2006, 0.0, 159.601 |
+L387: | TamSed1 | float64 | 30396 | 62.959, 0.0, 190.136 |
+L388: | TamSed2 | float64 | 30396 | 85.4943, 0.0, 204.952 |
+L389: | TamSed3 | float64 | 30396 | 83.3177, 0.0, 197.741 |
+L390: | TamSed4 | float64 | 30396 | 95.7394, 0.0, 214.326 |
+L391: | TamSed5 | float64 | 30396 | 126.288, 0.0, 150.035 |
+L392: | TamRun1 | float64 | 30396 | 96.0237, 0.0, 152.233 |
+L393: | TamRun2 | float64 | 30396 | 107.468, 0.0, 197.568 |
+L394: | TamRun3 | float64 | 30396 | 78.998, 0.0, 129.067 |
+L395: | TamRun4 | float64 | 30396 | 55.9049, 0.0, 167.715 |
+L396: | TamRun5 | float64 | 30396 | 107.47, 0.0, 169.506 |
+L397: | Grand Mean | float64 | 30396 | 85.05348, 0.0, 170.96720000000002 |
+L398: | VSMean | float64 | 30396 | 83.99713999999999, 0.0, 162.0842 |
+L399: | VE Mean | float64 | 30396 | 76.28418, 0.0, 167.1288 |
+L400: | TS Mean | float64 | 30396 | 90.75968, 0.0, 191.438 |
+L401: | TE Mean | float64 | 30396 | 89.17292, 0.0, 163.2178 |
+L402: | VS Mean | float64 | 27651 | 0.9875802847808225, 0.9480426654937321, 0.9502475587178687 |
+L403: | VE Mean | float64 | 27651 | 0.896896634917231, 0.9775489099663561, 1.066368617132214 |
+L404: | TS Mean | float64 | 27651 | 1.0670895535373746, 1.119735247462671, 0.9860694192758054 |
+L405: | TE Mean | float64 | 27651 | 1.0484335267645724, 0.9546731770772405, 0.9973144048741128 |
+L406: | VS Mean | float64 | 23233 | -0.01803005886519533, -0.07697610758752164, -0.0736246812... |
+L407: | VE Mean | float64 | 23270 | -0.15698636713979539, -0.03275920791427296, 0.09270622813... |
+L408: | TS Mean | float64 | 23567 | 0.09368125678346367, 0.16315765877887564, -0.020238878994... |
+L409: | TE Mean | float64 | 23381 | 0.06823539395982275, -0.06692116960115575, -0.00387970676... |
+L410: | Names | str | 3 | KO WT, WT, KO |
+L411: | total | float64 | 3 | 117.0, 872.0, 400.0 |
+L412: | elements | object | 1389 | Flt3l, 1700023B13Rik, Adamts9 |
+L413: ## Sheet: 3
+L414: - Tables found: 1
+L415: ### Table 1: P-value (Vehicle Control vs. Tamoxifen Control)
+L416: - **Rows**: 489633
+L417: - **Columns**: 40
+L418: | Column | Dtype | Non-null | Sample values |
+L419: |--------|-------|----------|---------------|
+L420: | 1 | object | 489633 | 1, 1, 1 |
+L421: | 100529569 | int64 | 489633 | 100566861, 100573723, 100617481 |
+L422: | 100529687 | int64 | 489633 | 100567005, 100573937, 100617769 |
+L423: | 118 | int64 | 489633 | 144, 214, 288 |
+L424: | chr1:100529568-100529686 | str | 489633 | chr1:100566860-100567004, chr1:100573722-100573936, chr1:... |
+L425: | . | str | 489633 | ., ., . |
+L426: | . | str | 489633 | ., ., . |
+L427: | . | str | 489633 | ., ., . |
+L428: | . | object | 489633 | ., ., . |
+L429: | . | object | 489633 | ., ., . |
+L430: | Intergenic | str | 489633 | Intergenic, Intergenic, Intergenic |
+L431: | . | object | 489633 | ., ., . |
+L432: | . | object | 489633 | ., ., . |
+L433: | . | object | 489633 | ., ., . |
+L434: | . | object | 489633 | ., ., . |
+L435: | . | str | 489633 | ., ., . |
+L436: | . | str | 489633 | ., ., . |
+L437: | . | str | 489633 | ., ., . |
+L438: | . | str | 489633 | ., ., . |
+L439: | . | str | 489633 | ., ., . |
+L440: | . | str | 489633 | ., ., . |
+L441: | . | str | 489633 | ., ., . |
+L442: | 3.19781 | float64 | 489633 | 1.06594, 10.6594, 11.7253 |
+L443: | 3.08232 | float64 | 489633 | 2.05488, 1.02744, 5.13719 |
+L444: | 3.17747 | float64 | 489633 | 0.635493, 3.81296, 12.0744 |
+L445: | 3.1267 | float64 | 489633 | 6.2534, 6.2534, 12.5068 |
+L446: | 1.71209 | float64 | 489633 | 0.856044, 3.8522, 4.28022 |
+L447: | 0.836254 | float64 | 489633 | 0.0, 4.18127, 1.67251 |
+L448: | 0 | float64 | 489633 | 4.77134, 4.77134, 10.7355 |
+L449: | 5.01776 | float64 | 489633 | 3.76332, 3.76332, 6.27221 |
+L450: | chrX:10758948-10759189 | str | 3841 | chr1:39192752-39192965, chr14:73630440-73630949, chr5:125... |
+L451: | . | str | 3841 | Npas2, ., Ncor2 |
+L452: | . | str | 3841 | Npas2-203, ., Ncor2-204 |
+L453: | Intergenic | str | 3841 | TSS, Intergenic, Intron 14 |
+L454: | . | str | 3841 | Npas2, ., Ncor2 |
+L455: | 1.0750497258002e-16 | float64 | 3841 | 1.45217584548857e-16, 1.7411271369638e-16, 2.500898353092... |
+L456: | 7.87723795178428 | float64 | 3841 | 0.225166208052311, 0.201058052811664, 3.21389750658792 |
+L457: | 7.87723795178428 | float64 | 3841 | -4.44116374588356, -4.97368787778286, 3.21389750658792 |
+L458: | 72.0087194568391 | float64 | 3841 | 45.7570392332733, 29.1638647501331, 327.710674364898 |
+L459: | 9.1413665421302 | float64 | 3841 | 203.214503761785, 145.051960577036, 101.966747132772 |
+L460: ## Sheet: 4
+L461: - Tables found: 1
+L462: ### Table 1: Table_1
+L463: - **Rows**: 20159
+L464: - **Columns**: 34
+L465: | Column | Dtype | Non-null | Sample values |
+L466: |--------|-------|----------|---------------|
+L467: | gene_name | str | 20159 | 0610009B22Rik, 0610009E02Rik, 0610009L18Rik |
+L468: | VC1 | float64 | 20159 | 391.787, 1.82291, 230.397 |
+L469: | VC2 | float64 | 20159 | 432.093, 5.64904, 180.745 |
+L470: | VC3 | float64 | 20159 | 393.33, 7.14319, 257.572 |
+L471: | VC4 | float64 | 20159 | 422.829, 10.3061, 312.526 |
+L472: | VC5 | float64 | 20159 | 376.52, 6.04933, 210.408 |
+L473: | VE1 | float64 | 20159 | 407.799, 9.71911, 351.688 |
+L474: | VE2 | float64 | 20159 | 454.673, 31.0694, 176.878 |
+L475: | VE3 | float64 | 20159 | 386.335, 5.96333, 209.944 |
+L476: | VE4 | float64 | 20159 | 467.746, 17.8177, 290.034 |
+L477: | VE5 | float64 | 20159 | 507.463, 6.18498, 301.038 |
+L478: | KOC1 | float64 | 20159 | 482.654, 18.0323, 164.654 |
+L479: | KOC2 | float64 | 20159 | 502.027, 12.4255, 189.04 |
+L480: | KOC3 | float64 | 20159 | 578.794, 14.5978, 202.736 |
+L481: | KOC4 | float64 | 20159 | 488.38, 12.0472, 167.546 |
+L482: | KOC5 | float64 | 20159 | 578.637, 20.2239, 149.981 |
+L483: | KOE1 | float64 | 20159 | 419.93, 15.5266, 115.758 |
+L484: | KOE2 | float64 | 20159 | 615.398, 31.098, 333.973 |
+L485: | KOE3 | float64 | 20159 | 581.291, 15.0277, 348.512 |
+L486: | KOE4 | float64 | 20159 | 373.6, 5.21149, 135.381 |
+L487: | KOE5 | float64 | 20159 | 627.64, 44.7234, 363.034 |
+L488: | VCAver | float64 | 20159 | 403.3118, 6.194114000000001, 238.32959999999997 |
+L489: | VEAver | float64 | 20159 | 444.8032, 14.150904, 265.91639999999995 |
+L490: | KOCAver | float64 | 20159 | 526.0984000000001, 15.465340000000001, 174.79139999999998 |
+L491: | KOEAver | float64 | 20159 | 523.5717999999999, 22.317438, 259.3316 |
+L492: | Grand Mean | float64 | 20159 | 474.4463, 14.531949000000001, 234.59224999999998 |
+L493: | VSFC | float64 | 20159 | 0.8500683849784475, 0.4262411050300273, 1.0159312594512393 |
+L494: | VEFC | float64 | 20159 | 0.93752064248367, 0.9737788097109341, 1.1335259370247737 |
+L495: | TSFC | float64 | 20159 | 1.1088681690636013, 1.0642302694566297, 0.7450859949550763 |
+L496: | TEFC | float64 | 20159 | 1.1035428034742814, 1.5357498158024088, 1.1054568085689105 |
+L497: | VCFClog2-Z-score | float64 | 20159 | -0.2343491892831388, -1.2302583671739347, 0.0228027889173... |
+L498: | VEFClog2-Z-score | float64 | 20159 | -0.09307763854512362, -0.038333988260169094, 0.1808174028... |
+L499: | KOCFClog2-Z-score | float64 | 20159 | 0.14908785680397088, 0.08981034318897363, -0.424521149399... |
+L500: | KOEFClog2-Z-score | float64 | 20159 | 0.14214258898540968, 0.6189432102652281, 0.14464265855013447 |
+L501: ## Sheet: 5
+L502: - Tables found: 1
+L503: ### Table 1: P-value (VS vs. TS)
+L504: - **Rows**: 18794
+L505: - **Columns**: 8
+L506: | Column | Dtype | Non-null | Sample values |
+L507: |--------|-------|----------|---------------|
+L508: | Gene name | str | 18794 | Mid1ip1, Cdkn1a, Mreg |
+L509: | P-value (VS vs. TS) | object | 18794 | 3.74055163819454e-72, 2.95373018035532e-64, 2.51330354649... |
+L510: | Ratio (VS vs. TS) | object | 18794 | 4.41360217692853, 0.0742024521984572, 2.87591664667674 |
+L511: | Log2(Ratio) (VS vs. TS) | object | 18794 | 2.14195659716675, -3.75238932481414, 1.52402186243619 |
+L512: | Fold change (VS vs. TS) | object | 18794 | 4.41360217692853, -13.4766435659762, 2.87591664667674 |
+L513: | LSMean(VS) (VS vs. TS) | object | 18794 | 1182.95742461714, 129.477100729923, 742.452665351757 |
+L514: | LSMean(TS) (VS vs. TS) | object | 18794 | 268.025385432534, 1744.91673649318, 258.162094582851 |
+L515: | Correct FC | float64 | 18781 | -2.14195659716675, 3.75238932481414, -1.52402186243619 |
+L516: ## Sheet: 6
+L517: - Tables found: 1
+L518: ### Table 1: P-value (VS vs. VE)
+L519: - **Rows**: 18794
+L520: - **Columns**: 8
+L521: | Column | Dtype | Non-null | Sample values |
+L522: |--------|-------|----------|---------------|
+L523: | Gene name | str | 18794 | Foxo6os, Snord3b4, C7 |
+L524: | P-value (VS vs. VE) | object | 18794 | 6.99572855992135e-10, 1.13981725356787e-07, 1.20607007269... |
+L525: | Ratio (VS vs. VE) | object | 18794 | 1.80468296542885, 0.104546534258732, 0.404784406848773 |
+L526: | Log2(Ratio) (VS vs. VE) | object | 18794 | 0.851745416405346, -3.25778285783423, -1.30477437944812 |
+L527: | Fold change (VS vs. VE) | object | 18794 | 1.80468296542885, -9.56511860570331, -2.47045089455137 |
+L528: | LSMean(VS) (VS vs. VE) | object | 18794 | 179.935939613948, 2.13954472293055, 194.26525394676 |
+L529: | LSMean(VE) (VS vs. VE) | object | 18794 | 99.7050136012058, 20.4649990370373, 479.922770393024 |
+L530: | Correct FC | float64 | 18781 | -0.851745416405346, 3.25778285783423, 1.30477437944812 |
+L531: ## Sheet: 7
+L532: - Tables found: 1
+L533: ### Table 1: P-value (TS vs. TE)
+L534: - **Rows**: 18794
+L535: - **Columns**: 8
+L536: | Column | Dtype | Non-null | Sample values |
+L537: |--------|-------|----------|---------------|
+L538: | Gene name | str | 18794 | Ube2m, Ptpn4, Gm10039 |
+L539: | P-value (TS vs. TE) | object | 18794 | 1.9312027440638e-10, 1.96466087167569e-10, 7.404332905349... |
+L540: | Ratio (TS vs. TE) | object | 18794 | 0.704007116601694, 1.45663860268477, 0.543377743956306 |
+L541: | Log2(Ratio) (TS vs. TE) | object | 18794 | -0.506338082169563, 0.542642983930906, -0.879972619024607 |
+L542: | Fold change (TS vs. TE) | object | 18794 | -1.42044018649568, 1.45663860268477, -1.84034037301389 |
+L543: | LSMean(TS) (TS vs. TE) | object | 18794 | 868.809128843952, 1582.50782347673, 1145.21456497582 |
+L544: | LSMean(TE) (TS vs. TE) | object | 18794 | 1234.09140100425, 1086.4107408385, 2107.58459968856 |
+L545: | Correct FC | float64 | 18781 | 0.506338082169563, -0.542642983930906, 0.879972619024607 |
+L546: ## Sheet: 8
+L547: - Tables found: 1
+L548: ### Table 1: P-value (VE vs. TE)
+L549: - **Rows**: 18794
+L550: - **Columns**: 8
+L551: | Column | Dtype | Non-null | Sample values |
+L552: |--------|-------|----------|---------------|
+L553: | Gene name | str | 18794 | Cdkn1a, Mylk4, Aebp1 |
+L554: | P-value (VE vs. TE) | object | 18794 | 8.39737105751513e-60, 7.71524916169823e-59, 4.51847498267... |
+L555: | Ratio (VE vs. TE) | object | 18794 | 0.0696517933769594, 9.42020564344792, 4.35245990772929 |
+L556: | Log2(Ratio) (VE vs. TE) | object | 18794 | -3.8436956903188, 3.2357585542695, 2.12183100868935 |
+L557: | Fold change (VE vs. TE) | object | 18794 | -14.3571321213216, 9.42020564344792, 4.35245990772929 |
+L558: | LSMean(VE) (VE vs. TE) | object | 18794 | 137.272962610406, 43841.0158164662, 1910.3953998373 |
+L559: | LSMean(TE) (VE vs. TE) | object | 18794 | 1970.84606088284, 4653.93405153094, 438.923146987462 |
+L560: | Correct FC | float64 | 18781 | 3.8436956903188, -3.2357585542695, -2.12183100868935 |
+L561: ## Sheet: 9
+L562: - Tables found: 1
+L563: ### Table 1: Table_1
+L564: - **Rows**: 33649
+L565: - **Columns**: 26
+L566: | Column | Dtype | Non-null | Sample values |
+L567: |--------|-------|----------|---------------|
+L568: | Gene Symbol | str | 33649 | 0610005C13Rik, 0610005C13Rik, 0610009B22Rik |
+L569: | WAT_VS1 | float64 | 33649 | 9.0151, 6.75026, 388.07 |
+L570: | WAT_VS2 | float64 | 33649 | 1.61703, 5.60965, 377.594 |
+L571: | WAT_VS3 | float64 | 33649 | 0.949383, 10.4289, 387.808 |
+L572: | WAT_VE1 | float64 | 33649 | 1.87175, 0.935938, 332.243 |
+L573: | WAT_VE2 | float64 | 33649 | 4.38936, 5.33516, 334.17 |
+L574: | WAT_VE3 | float64 | 33649 | 0.858728, 6.85215, 370.979 |
+L575: | WAT_TS1 | float64 | 33649 | 0.888395, 6.21825, 477.033 |
+L576: | WAT_TS2 | float64 | 33649 | 1.03405, 4.13603, 362.94 |
+L577: | WAT_TS3 | float64 | 33649 | 2.23111, 1.11563, 406.071 |
+L578: | WAT_TE1 | float64 | 33649 | 2.35377, 1.17697, 349.543 |
+L579: | WAT_TE2 | float64 | 33649 | 34.5093, 35.5013, 370.42 |
+L580: | WAT_TE3 | float64 | 33649 | 4.85988, 0.80998, 413.9 |
+L581: | Grandmean | float64 | 33649 | 5.381488000000001, 7.072518166666666, 380.89758333333333 |
+L582: | VC | float64 | 33649 | 3.860504333333333, 7.59627, 384.49066666666664 |
+L583: | VE | float64 | 33649 | 2.3732793333333335, 4.374416, 345.79733333333337 |
+L584: | TC | float64 | 33649 | 1.3845183333333333, 3.823303333333333, 415.34799999999996 |
+L585: | TE | float64 | 33649 | 13.907649999999999, 12.496083333333333, 377.9543333333333 |
+L586: | VC | float64 | 33649 | 0.7173674517778972, 1.0740545051975712, 1.0094332006569569 |
+L587: | VE | float64 | 33649 | 0.441008013644801, 0.6185089803822585, 0.90784858834538 |
+L588: | TC | float64 | 33649 | 0.25727425822250893, 0.5405858625224693, 1.0904453537488532 |
+L589: | TE | float64 | 33649 | 2.5843502763547916, 1.7668506518977012, 0.9922728572488098 |
+L590: | VC | float64 | 33649 | -0.4792158057166333, 0.10306720783260846, 0.0135454433394... |
+L591: | VE | float64 | 33649 | -1.1811232233663072, -0.6931335524603449, -0.139476391047... |
+L592: | TC | float64 | 33649 | -1.9586209805773307, -0.8874043120850882, 0.1249174730039... |
+L593: | TE | float64 | 33649 | 1.3698016225519851, 0.8211800971206326, -0.01119120444512... |
+L594: ## Sheet: 10
+L595: - Tables found: 1
+L596: ### Table 1: P-value (Vehicle-Control vs KO-Control)
+L597: - **Rows**: 33648
+L598: - **Columns**: 8
+L599: | Column | Dtype | Non-null | Sample values |
+L600: |--------|-------|----------|---------------|
+L601: | Feature ID | str | 33648 | Gm46840, Peg10, Lpgat1 |
+L602: | P-value (Vehicle-Control vs KO-Control) | float64 | 33648 | 2.09034182312825e-13, 9.51249562635946e-13, 3.58217690101... |
+L603: | Ratio (Vehicle-Control vs KO-Control) | float64 | 33648 | 2.54166395762777, 0.296116954809297, 0.424342244911696 |
+L604: | Log2(Ratio) (Vehicle-Control vs KO-Control) | float64 | 33648 | 1.34577329914242, -1.75576099741813, -1.23669978323779 |
+L605: | Fold change (Vehicle-Control vs KO-Control) | float64 | 33648 | 2.54166395762777, -3.37704404884215, -2.35658837174718 |
+L606: | LSMean(Vehicle-Control) (Vehicle-Control vs KO-Control) | float64 | 33648 | 257.154958843098, 94.7031609306693, 3357.11979406955 |
+L607: | LSMean(KO-Control) (Vehicle-Control vs KO-Control) | float64 | 33648 | 101.175829350434, 319.816746027457, 7911.34946926661 |
+L608: | Correct FC | float64 | 33648 | -1.34577329914242, 1.75576099741813, 1.23669978323779 |
+L609: ## Sheet: 11
+L610: - Tables found: 1
+L611: ### Table 1: P-value (Vehicle-Control vs Vehicle-Exercise)
+L612: - **Rows**: 33648
+L613: - **Columns**: 8
+L614: | Column | Dtype | Non-null | Sample values |
+L615: |--------|-------|----------|---------------|
+L616: | Feature ID | str | 33648 | Cbr2, Cd209f, Serpine1 |
+L617: | P-value (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | 3.28108391517693e-11, 4.39271088516839e-11, 1.73187509457... |
+L618: | Ratio (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | 0.51794071605271, 0.519623598400552, 2.85326700060319 |
+L619: | Log2(Ratio) (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | -0.949141119661661, -0.944461143465761, 1.51261475653148 |
+L620: | Fold change (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | -1.93072289744108, -1.92446994916722, 2.85326700060319 |
+L621: | LSMean(Vehicle-Control) (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | 1324.05044649186, 1504.8176351889, 4643.17112261645 |
+L622: | LSMean(Vehicle-Exercise) (Vehicle-Control vs Vehicle-Exercise) | float64 | 33648 | 2556.37451440893, 2895.97631789793, 1627.31743003191 |
+L623: | Correct FC | float64 | 20172 | 0.949141119661661, 0.944461143465761, -1.51261475653148 |
+L624: ## Sheet: 12
+L625: - Tables found: 1
+L626: ### Table 1: P-value (KO-Control vs KO-Exercise)
+L627: - **Rows**: 33649
+L628: - **Columns**: 8
+L629: | Column | Dtype | Non-null | Sample values |
+L630: |--------|-------|----------|---------------|
+L631: | Feature ID | str | 33649 | Mest, Pkm, Olfr1033 |
+L632: | P-value (KO-Control vs KO-Exercise) | float64 | 33649 | 1.41066797916694e-13, 4.511420628196e-12, 7.1482571012226... |
+L633: | Ratio (KO-Control vs KO-Exercise) | float64 | 33649 | 17.5898701073217, 1.66750091669022, 0.490175341686337 |
+L634: | Log2(Ratio) (KO-Control vs KO-Exercise) | float64 | 33649 | 4.13667292413187, 0.737687554515755, -1.0286301837581 |
+L635: | Fold change (KO-Control vs KO-Exercise) | float64 | 33649 | 17.5898701073217, 1.66750091669022, -2.04008630168895 |
+L636: | LSMean(KO-Control) (KO-Control vs KO-Exercise) | float64 | 33649 | 269.635570867149, 1761.92469362786, 198.877357581614 |
+L637: | LSMean(KO-Exercise) (KO-Control vs KO-Exercise) | float64 | 33649 | 15.3290256961542, 1056.62592205649, 405.726972918348 |
+L638: | Correct FC | float64 | 33649 | -4.13667292413187, -0.737687554515755, 1.0286301837581 |
+L639: ## Sheet: 13
+L640: - Tables found: 1
+L641: ### Table 1: P-value (Vehicle-Exercise vs KO-Exercise)
+L642: - **Rows**: 33649
+L643: - **Columns**: 8
+L644: | Column | Dtype | Non-null | Sample values |
+L645: |--------|-------|----------|---------------|
+L646: | Feature ID | str | 33649 | Lyve1, Hacd4, Madd |
+L647: | P-value (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 8.9263623656331e-17, 5.15394448230301e-12, 1.614412326946... |
+L648: | Ratio (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 2.37777217796074, 2.20360406546283, 1.88799257792264 |
+L649: | Log2(Ratio) (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 1.24961049242941, 1.13986502966824, 0.916853093187441 |
+L650: | Fold change (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 2.37777217796074, 2.20360406546283, 1.88799257792264 |
+L651: | LSMean(Vehicle-Exercise) (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 3249.27048225723, 720.799715014169, 431.91218719619 |
+L652: | LSMean(KO-Exercise) (Vehicle-Exercise vs KO-Exercise) | float64 | 33649 | 1366.5188416175, 327.100374478014, 228.7679476322 |
+L653: | Correct FC | float64 | 33649 | -1.24961049242941, -1.13986502966824, -0.916853093187441 |
+L654: ## Sheet: 14
+L655: - Tables found: 1
+L656: ### Table 1: Table_1
+L657: - **Rows**: 20929
+L658: - **Columns**: 34
+L659: | Column | Dtype | Non-null | Sample values |
+L660: |--------|-------|----------|---------------|
+L661: | gene_name | str | 20929 | ---, ---, --- |
+L662: | VS1 | float64 | 20929 | 231.683, 226.363, 5.39889 |
+L663: | VS2 | float64 | 20929 | 301.017, 242.452, 6.20406 |
+L664: | VS3 | float64 | 20929 | 288.676, 290.828, 3.0317 |
+L665: | VS4 | float64 | 20929 | 279.152, 193.444, 14.0665 |
+L666: | VS5 | float64 | 20929 | 261.637, 270.345, 0.939332 |
+L667: | VE1 | float64 | 20929 | 230.249, 193.298, 11.8468 |
+L668: | VE2 | float64 | 20929 | 310.531, 234.309, 3.49257 |
+L669: | VE3 | float64 | 20929 | 244.581, 228.736, 12.1765 |
+L670: | VE4 | float64 | 20929 | 255.168, 202.353, 2.25959 |
+L671: | VE5 | float64 | 20929 | 297.974, 255.245, 0.0 |
+L672: | TS1 | float64 | 20929 | 295.178, 284.361, 0.0 |
+L673: | TS2 | float64 | 20929 | 352.391, 225.737, 0.0 |
+L674: | TS3 | float64 | 20929 | 212.602, 150.454, 7.42923 |
+L675: | TS4 | float64 | 20929 | 205.567, 200.319, 2.71451 |
+L676: | TS5 | float64 | 20929 | 238.571, 240.504, 1.53202 |
+L677: | TE1 | float64 | 20929 | 274.199, 394.155, 1.02537 |
+L678: | TE2 | float64 | 20929 | 215.732, 215.694, 0.919984 |
+L679: | TE3 | float64 | 20929 | 279.927, 293.602, 0.868321 |
+L680: | TE4 | float64 | 20929 | 223.236, 301.089, 0.0 |
+L681: | TE5 | float64 | 20929 | 255.428, 276.731, 2.4477 |
+L682: | VSAver | float64 | 20929 | 272.433, 244.6864, 5.928096399999999 |
+L683: | VEAver | float64 | 20929 | 267.7006, 222.78819999999996, 5.955092 |
+L684: | TSAver | float64 | 20929 | 260.86179999999996, 220.27499999999995, 2.335152 |
+L685: | TEAver | float64 | 20929 | 249.7044, 296.25419999999997, 1.052275 |
+L686: | Grand Mean | float64 | 20929 | 262.67495, 246.00094999999996, 3.8176538499999997 |
+L687: | VSFC | float64 | 20929 | 1.0371487650421176, 0.9946563214491653, 1.5528113948832736 |
+L688: | VEFC | float64 | 20929 | 1.0191325819230193, 0.9056395920422259, 1.559882648868231 |
+L689: | TSFC | float64 | 20929 | 0.993097362348408, 0.895423371332509, 0.6116720089748315 |
+L690: | TEFC | float64 | 20929 | 0.9506212906864547, 1.2042807151761, 0.27563394727366397 |
+L691: | VSFClog2 | float64 | 20606 | 0.05262284419494072, -0.0077299702268008455, 0.6348826100... |
+L692: | VEFClog2 | float64 | 20795 | 0.027341748108763855, -0.1429910647272705, 0.641437498149... |
+L693: | TSFClog2 | float64 | 20833 | -0.009992929710245579, -0.15935812055312518, -0.709169837... |
+L694: | TEFClog2 | float64 | 20732 | -0.07305738141900898, 0.2681717203269146, -1.859174512551... |
+L695: ## Sheet: 15
+L696: - Tables found: 1
+L697: ### Table 1: P-value (VS vs TS)
+L698: - **Rows**: 14667
+L699: - **Columns**: 8
+L700: | Column | Dtype | Non-null | Sample values |
+L701: |--------|-------|----------|---------------|
+L702: | Gene name | str | 14667 | Prob1, Mmd2, Rhpn2 |
+L703: | P-value (VS vs TS) | object | 14667 | 4.30407132840331e-07, 1.01048350614284e-06, 1.17437191383... |
+L704: | Ratio (VS vs TS) | object | 14667 | 1.81604940402394, 0.480596761607551, 1.43961127246131 |
+L705: | Log2(Ratio) (VS vs TS) | object | 14667 | 0.860803450410135, -1.05710116766067, 0.525679304027379 |
+L706: | Fold change (VS vs TS) | object | 14667 | 1.81604940402394, -2.08074643835529, 1.43961127246131 |
+L707: | LSMean(VS) (VS vs TS) | object | 14667 | 225.067922317373, 81.5264130177492, 344.23052270765 |
+L708: | LSMean(TS) (VS vs TS) | object | 14667 | 123.932708999367, 169.635793518564, 239.113522721392 |
+L709: | Correct FC | float64 | 14629 | -0.860803450410135, 1.05710116766067, -0.525679304027379 |
+L710: ## Sheet: 16
+L711: - Tables found: 1
+L712: ### Table 1: P-value (VS vs VE)
+L713: - **Rows**: 14667
+L714: - **Columns**: 8
+L715: | Column | Dtype | Non-null | Sample values |
+L716: |--------|-------|----------|---------------|
+L717: | Gene name | str | 14667 | Gm48795, Hmgcs1, Cyp26a1 |
+L718: | P-value (VS vs VE) | object | 14667 | 2.65486873406728e-07, 3.54744114880965e-07, 4.26694050480... |
+L719: | Ratio (VS vs VE) | object | 14667 | 2.79806889234443, 1.86554674992069, 2.32432726962422 |
+L720: | Log2(Ratio) (VS vs VE) | object | 14667 | 1.48443148409669, 0.899598514018885, 1.21681321720308 |
+L721: | Fold change (VS vs VE) | object | 14667 | 2.79806889234443, 1.86554674992069, 2.32432726962422 |
+L722: | LSMean(VS) (VS vs VE) | object | 14667 | 216.565720655002, 4444.89773374827, 378.318542680982 |
+L723: | LSMean(VE) (VS vs VE) | object | 14667 | 77.3982803809905, 2382.62468305189, 162.764748159644 |
+L724: | Correct FC | float64 | 14629 | -1.48443148409669, -0.899598514018885, -1.21681321720308 |
+L725: ## Sheet: 17
+L726: - Tables found: 1
+L727: ### Table 1: P-value (TS vs TE)
+L728: - **Rows**: 14667
+L729: - **Columns**: 8
+L730: | Column | Dtype | Non-null | Sample values |
+L731: |--------|-------|----------|---------------|
+L732: | Gene name | str | 14667 | Ccnd1, Lgals1, Cyp2c38 |
+L733: | P-value (TS vs TE) | object | 14667 | 1.10398477260511e-12, 6.81119066858786e-10, 3.93326130764... |
+L734: | Ratio (TS vs TE) | object | 14667 | 2.75193390847192, 2.22148207796752, 2.27610347636611 |
+L735: | Log2(Ratio) (TS vs TE) | object | 14667 | 1.46044582212403, 1.15152250230597, 1.18656614703236 |
+L736: | Fold change (TS vs TE) | object | 14667 | 2.75193390847192, 2.22148207796752, 2.27610347636611 |
+L737: | LSMean(TS) (TS vs TE) | object | 14667 | 634.18963415381, 544.069052072934, 617.748759545483 |
+L738: | LSMean(TE) (TS vs TE) | object | 14667 | 230.452349237543, 244.912645242096, 271.406272148813 |
+L739: | Correct FC | float64 | 14629 | -1.46044582212403, -1.15152250230597, -1.18656614703236 |
+L740: ## Sheet: 18
+L741: - Tables found: 1
+L742: ### Table 1: P-value (VE vs TE)
+L743: - **Rows**: 14667
+L744: - **Columns**: 8
+L745: | Column | Dtype | Non-null | Sample values |
+L746: |--------|-------|----------|---------------|
+L747: | Gene name | str | 14667 | Zfp970, Slc40a1, Tubb2a |
+L748: | P-value (VE vs TE) | object | 14667 | 4.61653592103186e-13, 4.26202067238006e-10, 2.32378072477... |
+L749: | Ratio (VE vs TE) | object | 14667 | 0.470818252701466, 0.527300039167396, 2.2222614516047 |
+L750: | Log2(Ratio) (VE vs TE) | object | 14667 | -1.08675784296588, -0.923303991007456, 1.15202856143626 |
+L751: | Fold change (VE vs TE) | object | 14667 | -2.12396183508644, -1.89645349084174, 2.2222614516047 |
+L752: | LSMean(VE) (VE vs TE) | object | 14667 | 331.23091966244, 1370.51381263075, 825.871893456495 |
+L753: | LSMean(TE) (VE vs TE) | object | 14667 | 703.521831963607, 2599.11570421043, 371.635791486248 |
+L754: | Correct FC | float64 | 14629 | 1.08675784296588, 0.923303991007456, -1.15202856143626 |
+L755: ## Sheet: 19
+L756: - Tables found: 1
+L757: ### Table 1: Table_1
+L758: - **Rows**: 21392
+L759: - **Columns**: 34
+L760: | Column | Dtype | Non-null | Sample values |
+L761: |--------|-------|----------|---------------|
+L762: | gene_name | str | 21392 | ---, ---, --- |
+L763: | VS1 | float64 | 21392 | 0.0, 532.486, 137.521 |
+L764: | VS2 | float64 | 21392 | 2.55572, 492.278, 151.298 |
+L765: | VS3 | float64 | 21392 | 1.48372, 427.879, 143.345 |
+L766: | VS4 | float64 | 21392 | 0.0, 474.472, 136.392 |
+L767: | VS5 | float64 | 21392 | 0.0, 418.566, 153.897 |
+L768: | VE1 | float64 | 21392 | 1.85708, 439.204, 131.751 |
+L769: | VE2 | float64 | 21392 | 1.37119e-11, 491.869, 127.269 |
+L770: | VE3 | float64 | 21392 | 0.0, 453.651, 152.524 |
+L771: | VE4 | float64 | 21392 | 3.83867, 510.484, 120.875 |
+L772: | VE5 | float64 | 21392 | 0.0, 462.374, 129.68 |
+L773: | TS1 | float64 | 21392 | 1.14036, 560.715, 150.339 |
+L774: | TS2 | float64 | 21392 | 1.58992, 526.953, 135.132 |
+L775: | TS3 | float64 | 21392 | 0.0, 502.062, 118.447 |
+L776: | TS4 | float64 | 21392 | 0.0, 421.297, 143.64 |
+L777: | TS5 | float64 | 21392 | 2.25226e-07, 505.992, 161.884 |
+L778: | TE1 | float64 | 21392 | 0.0, 466.752, 140.763 |
+L779: | TE2 | float64 | 21392 | 0.0, 433.41, 137.001 |
+L780: | TE3 | float64 | 21392 | 2.34274, 464.145, 120.849 |
+L781: | TE4 | float64 | 21392 | 0.0, 481.08, 148.762 |
+L782: | TE5 | float64 | 21392 | 3.35915e-07, 462.265, 132.515 |
+L783: | VSAver | float64 | 21392 | 0.8078879999999999, 469.13620000000003, 144.4906 |
+L784: | VEAver | float64 | 21392 | 1.1391500000027424, 471.5164000000001, 132.41979999999998 |
+L785: | TSAver | float64 | 21392 | 0.5460560450452, 503.40380000000005, 141.8884 |
+L786: | TEAver | float64 | 21392 | 0.46854806718299996, 461.5304, 135.978 |
+L787: | Grand Mean | float64 | 21392 | 0.7404105280577356, 476.3967, 138.6942 |
+L788: | VSFC | float64 | 21392 | 1.091135214026836, 0.9847595501816029, 1.0417926632836845 |
+L789: | VEFC | float64 | 21392 | 1.5385383605916447, 0.9897558064528996, 0.9547609056470998 |
+L790: | TSFC | float64 | 21392 | 0.7375044307887256, 1.056690359106182, 1.0230305232662937 |
+L791: | TEFC | float64 | 21392 | 0.6328219945927939, 0.9687942842593158, 0.9804159078029219 |
+L792: | VSFClog2 | float64 | 21271 | 0.12582989223780588, -0.022156591747888144, 0.05906818220... |
+L793: | VEFClog2 | float64 | 21248 | 0.6215604150366789, -0.014855468963153217, -0.06678860092... |
+L794: | TSFClog2 | float64 | 21250 | -0.43927637805742636, 0.07955268719728087, 0.032849190154... |
+L795: | TEFClog2 | float64 | 21305 | -0.6601283513685222, -0.0457377415139412, -0.028534201949... |
+L796: ## Sheet: 20
+L797: - Tables found: 1
+L798: ### Table 1: P-value (VS vs TS)
+L799: - **Rows**: 15925
+L800: - **Columns**: 8
+L801: | Column | Dtype | Non-null | Sample values |
+L802: |--------|-------|----------|---------------|
+L803: | Gene name | str | 15925 | Abca9, Smg1, Gpx4-ps2 |
+L804: | P-value (VS vs TS) | object | 15925 | 1.73879234070393e-11, 3.74126346970224e-11, 4.92510417176... |
+L805: | Ratio (VS vs TS) | object | 15925 | 1.50966430058811, 1.34623042342448, 0.778764272800673 |
+L806: | Log2(Ratio) (VS vs TS) | object | 15925 | 0.594227777550196, 0.428925365580056, -0.360741395517905 |
+L807: | Fold change (VS vs TS) | object | 15925 | 1.50966430058811, 1.34623042342448, -1.28408561476978 |
+L808: | LSMean(VS) (VS vs TS) | object | 15925 | 328.544130747504, 1466.43081711772, 6036.56378612553 |
+L809: | LSMean(TS) (VS vs TS) | object | 15925 | 217.627276885009, 1089.28664187181, 7751.46472040405 |
+L810: | Correct FC | float64 | 15918 | -0.594227777550196, -0.428925365580056, 0.360741395517905 |
+L811: ## Sheet: 21
+L812: - Tables found: 1
+L813: ### Table 1: P-value (VS vs VE)
+L814: - **Rows**: 15925
+L815: - **Columns**: 8
+L816: | Column | Dtype | Non-null | Sample values |
+L817: |--------|-------|----------|---------------|
+L818: | Gene name | str | 15925 | Pde1c, Hmgcs2, Cpxm2 |
+L819: | P-value (VS vs VE) | object | 15925 | 7.64351371810819e-06, 7.82645708319064e-06, 1.12551303356... |
+L820: | Ratio (VS vs VE) | object | 15925 | 0.793180899078573, 2.22236471706343, 0.713806047043687 |
+L821: | Log2(Ratio) (VS vs VE) | object | 15925 | -0.334278159045789, 1.15209559994954, -0.486395971585342 |
+L822: | Fold change (VS vs VE) | object | 15925 | -1.26074644656935, 2.22236471706343, -1.40094077955996 |
+L823: | LSMean(VS) (VS vs VE) | object | 15925 | 760.976666553302, 260.804990335638, 605.047736606506 |
+L824: | LSMean(VE) (VS vs VE) | object | 15925 | 959.39862827927, 117.354720552015, 847.63604779251 |
+L825: | Correct FC | float64 | 15918 | 0.334278159045789, -1.15209559994954, 0.486395971585342 |
+L826: ## Sheet: 22
+L827: - Tables found: 1
+L828: ### Table 1: P-value (TS vs TE)
+L829: - **Rows**: 15925
+L830: - **Columns**: 8
+L831: | Column | Dtype | Non-null | Sample values |
+L832: |--------|-------|----------|---------------|
+L833: | Gene name | str | 15925 | Pgk1, Sparc, Cox7a2 |
+L834: | P-value (TS vs TE) | object | 15925 | 5.39061064258658e-11, 1.32696712449316e-09, 1.49166388708... |
+L835: | Ratio (TS vs TE) | object | 15925 | 1.24410980456841, 1.37652625456388, 1.20595164204728 |
+L836: | Log2(Ratio) (TS vs TE) | object | 15925 | 0.315113822699474, 0.461032126800819, 0.270172057173871 |
+L837: | Fold change (TS vs TE) | object | 15925 | 1.24410980456841, 1.37652625456388, 1.20595164204728 |
+L838: | LSMean(TS) (TS vs TE) | object | 15925 | 1880.01789023753, 3980.08439176504, 2814.11762938112 |
+L839: | LSMean(TE) (TS vs TE) | object | 15925 | 1511.13501664728, 2891.39736969711, 2333.52443934131 |
+L840: | Correct FC | float64 | 15918 | -0.315113822699474, -0.461032126800819, -0.270172057173871 |
+L841: ## Sheet: 23
+L842: - Tables found: 1
+L843: ### Table 1: P-value (VE vs TE)
+L844: - **Rows**: 15925
+L845: - **Columns**: 8
+L846: | Column | Dtype | Non-null | Sample values |
+L847: |--------|-------|----------|---------------|
+L848: | Gene name | str | 15925 | Rps27rt, Ciart, Cyba |
+L849: | P-value (VE vs TE) | object | 15925 | 1.36042398437752e-08, 5.68025945052942e-08, 2.60454487610... |
+L850: | Ratio (VE vs TE) | object | 15925 | 0.755754663015296, 0.652549869439118, 0.753085825103936 |
+L851: | Log2(Ratio) (VE vs TE) | object | 15925 | -0.404010119561286, -0.615839934747706, -0.409113804497397 |
+L852: | Fold change (VE vs TE) | object | 15925 | -1.32318072112214, -1.53244992732819, -1.32786990096644 |
+L853: | LSMean(VE) (VE vs TE) | object | 15925 | 1857.51679453598, 123.880518848057, 271.867926489551 |
+L854: | LSMean(TE) (VE vs TE) | object | 15925 | 2457.83041169061, 189.840692106084, 361.005236623634 |
+L855: | Correct FC | float64 | 15918 | 0.404010119561286, 0.615839934747706, 0.409113804497397 |
+L856: ## Sheet: 24
+L857: - Tables found: 1
+L858: ### Table 1: Table_1
+L859: - **Rows**: 34950
+L860: - **Columns**: 26
+L861: | Column | Dtype | Non-null | Sample values |
+L862: |--------|-------|----------|---------------|
+L863: | Gene Symbol | str | 34950 | 0610009B22Rik, 0610009E02Rik, 0610009E02Rik |
+L864: | Lung_VS1 | float64 | 34950 | 246.83, 315.964, 5.24188 |
+L865: | Lung_VS2 | float64 | 34950 | 224.375, 173.76, 9.47161 |
+L866: | Lung_VS3 | float64 | 34950 | 252.909, 214.199, 8.40209 |
+L867: | Lung_VE1 | float64 | 34950 | 204.961, 216.111, 8.80185 |
+L868: | Lung_VE2 | float64 | 34950 | 229.51, 289.311, 5.54464 |
+L869: | Lung_VE3 | float64 | 34950 | 217.894, 118.14, 9.55385 |
+L870: | Lung_TS1 | float64 | 34950 | 173.913, 99.9795, 3.43849 |
+L871: | Lung_TS2 | float64 | 34950 | 181.258, 166.105, 3.60115 |
+L872: | Lung_TS3 | float64 | 34950 | 184.039, 269.338, 4.6935 |
+L873: | Lung_TE1 | float64 | 34950 | 189.341, 494.004, 3.56309 |
+L874: | Lung_TE2 | float64 | 34950 | 193.67, 372.763, 5.36801 |
+L875: | Lung_TE3 | float64 | 34950 | 261.635, 692.128, 5.03649 |
+L876: | Grandmean | float64 | 34950 | 213.36125, 285.15020833333335, 6.059720833333334 |
+L877: | VC | float64 | 34950 | 241.37133333333335, 234.641, 7.705193333333334 |
+L878: | VE | float64 | 34950 | 217.455, 207.854, 7.96678 |
+L879: | TC | float64 | 34950 | 179.73666666666668, 178.47416666666666, 3.911046666666667 |
+L880: | TE | float64 | 34950 | 214.88199999999998, 519.6316666666667, 4.6558633333333335 |
+L881: | VC | float64 | 34950 | 1.1312800863949444, 0.8228680644192643, 1.2715426246946193 |
+L882: | VE | float64 | 34950 | 1.019186942333718, 0.7289281014903695, 1.314710729935991 |
+L883: | TC | float64 | 34950 | 0.8424053883573829, 0.6258952701098324, 0.6454169712163582 |
+L884: | TE | float64 | 34950 | 1.0071275829139545, 1.8223085639805334, 0.7683296741530309 |
+L885: | VC | float64 | 34950 | 0.17795616118200416, -0.28126696201282453, 0.346579824910... |
+L886: | VE | float64 | 34950 | 0.027418699238379408, -0.4561515749013489, 0.394745404540... |
+L887: | TC | float64 | 34950 | -0.24741343044726913, -0.6760068210099038, -0.63169658094... |
+L888: | TE | float64 | 34950 | 0.010246455517694012, 0.8657672654152206, -0.380202620904... |
+L889: ## Sheet: 25
+L890: - Tables found: 1
+L891: ### Table 1: P-value (Vehicle-Control vs KO-Control)
+L892: - **Rows**: 34950
+L893: - **Columns**: 8
+L894: | Column | Dtype | Non-null | Sample values |
+L895: |--------|-------|----------|---------------|
+L896: | Feature ID | str | 34950 | Sncaip, Rasip1, B3gnt9 |
+L897: | P-value (Vehicle-Control vs KO-Control) | float64 | 34950 | 3.15402675694415e-09, 3.26800034780557e-09, 3.74210626818... |
+L898: | Ratio (Vehicle-Control vs KO-Control) | float64 | 34950 | 0.0756314066691224, 0.579353276217988, 0.218265131611508 |
+L899: | Log2(Ratio) (Vehicle-Control vs KO-Control) | float64 | 34950 | -3.72487073791126, -0.787484756303725, -2.19584642021178 |
+L900: | Fold change (Vehicle-Control vs KO-Control) | float64 | 34950 | -13.2220203754092, -1.72606256156517, -4.58158384079372 |
+L901: | LSMean(Vehicle-Control) (Vehicle-Control vs KO-Control) | float64 | 34950 | 3.59704006370786, 3383.96048624588, 41.777961860206 |
+L902: | LSMean(KO-Control) (Vehicle-Control vs KO-Control) | float64 | 34950 | 47.5601370135088, 5840.92750512491, 191.409234960016 |
+L903: | Correct FC | float64 | 34950 | 3.72487073791126, 0.787484756303725, 2.19584642021178 |
+L904: ## Sheet: 26
+L905: - Tables found: 1
+L906: ### Table 1: P-value (Vehicle-Control vs Vehicle-Exercise Trained)
+L907: - **Rows**: 34950
+L908: - **Columns**: 8
+L909: | Column | Dtype | Non-null | Sample values |
+L910: |--------|-------|----------|---------------|
+L911: | Feature ID | str | 34950 | Cd84, Ifi209, Acvrl1 |
+L912: | P-value (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 6.58502359787848e-14, 2.80644599036974e-13, 7.10398553890... |
+L913: | Ratio (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 1.92097062195638, 3.29046461378454, 0.622214113542057 |
+L914: | Log2(Ratio) (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 0.941835455556314, 1.71829130696287, -0.684516975318498 |
+L915: | Fold change (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 1.92097062195638, 3.29046461378454, -1.60716380139199 |
+L916: | LSMean(Vehicle-Control) (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 526.24665266003, 702.981642617102, 5331.0676187514 |
+L917: | LSMean(Vehicle-Exercise Trained) (Vehicle-Control vs Vehicle-Exercise Trained) | float64 | 34950 | 273.948308550436, 213.642061267622, 8567.89889963024 |
+L918: | Correct FC | float64 | 34950 | -0.941835455556314, -1.71829130696287, 0.684516975318498 |
+L919: ## Sheet: 27
+L920: - Tables found: 1
+L921: ### Table 1: P-value (KO-Control vs KO-Exercise Trained)
+L922: - **Rows**: 34950
+L923: - **Columns**: 8
+L924: | Column | Dtype | Non-null | Sample values |
+L925: |--------|-------|----------|---------------|
+L926: | Feature ID | str | 34950 | Med13l, Pogz, Mllt3 |
+L927: | P-value (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 1.90137383498662e-17, 1.05090287913255e-13, 1.20181315222... |
+L928: | Ratio (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 2.31757768014046, 0.397202629258305, 0.0283368428497703 |
+L929: | Log2(Ratio) (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 1.21261769564702, -1.33205292215862, -5.14117716047811 |
+L930: | Fold change (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 2.31757768014046, -2.51760669829224, -35.2897464725186 |
+L931: | LSMean(KO-Control) (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 777.097558229536, 163.863826064623, 3.95025567112506 |
+L932: | LSMean(KO-Exercise Trained) (KO-Control vs KO-Exercise Trained) | float64 | 34950 | 335.305938130384, 412.544666108091, 139.403521135632 |
+L933: | Correct FC | float64 | 34950 | -1.21261769564702, 1.33205292215862, 5.14117716047811 |
+L934: ## Sheet: 28
+L935: - Tables found: 1
+L936: ### Table 1: P-value (Vehicle-Exercise Trained vs KO-Exercise Trained)
+L937: - **Rows**: 34950
+L938: - **Columns**: 8
+L939: | Column | Dtype | Non-null | Sample values |
+L940: |--------|-------|----------|---------------|
+L941: | Feature ID | str | 34950 | Pogz, Cbfb, Mllt3 |
+L942: | P-value (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | 1.30948365325712e-20, 1.77591121014211e-11, 2.84983645978... |
+L943: | Ratio (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | 0.315683685809307, 0.073729498264783, 0.0505188817815646 |
+L944: | Log2(Ratio) (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | -1.6634483892259, -3.76161425042838, -4.30703348386473 |
+L945: | Fold change (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | -3.16772783945529, -13.5630924329462, -19.7945790709271 |
+L946: | LSMean(Vehicle-Exercise Trained) (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | 130.233620757972, 13.7008082588529, 7.04251000418487 |
+L947: | LSMean(KO-Exercise Trained) (Vehicle-Exercise Trained vs KO-Exercise Trained) | float64 | 34950 | 412.544666108091, 185.825328820895, 139.403521135632 |
+L948: | Correct FC | float64 | 34950 | 1.6634483892259, 3.76161425042838, 4.30703348386473 |
+L949: ## Sheet: UpsetPlotOverlappingFeatures
+L950: - Tables found: 1
+L951: ### Table 1: Table_1
+L952: - **Rows**: 7619
+L953: - **Columns**: 3
+L954: | Column | Dtype | Non-null | Sample values |
+L955: |--------|-------|----------|---------------|
+L956: | Names | str | 31 | BMAL1 CHIP Peaks Vehicle Acute Exercise DEGs iMSBmal1KO D... |
+L957: | total | float64 | 31 | 1.0, 16.0, 1.0 |
+L958: | elements | object | 7619 | Per2, Sspn, Ndufs2 |
+L959: # Summary: mmc2.xlsx
+L960: - **Sheets**: 5
+L961: - **Total tables**: 5
+L962: ## Sheet: Western Blots Full Gels
+L963: - Tables found: 1
+L964: ### Table 1: Table_1
+L965: - **Rows**: 2
+L966: - **Columns**: 3
+L967: | Column | Dtype | Non-null | Sample values |
+L968: |--------|-------|----------|---------------|
+L969: | Sample Order: | str | 1 | Gastrocnemius Muscle |
+L970: | col_9 | str | 1 | Heart |
+L971: | col_16 | str | 2 | BMAL1 band is ~78kDA according to https://www.cellsignal.... |
+L972: ## Sheet: Normalised Metabolite Abundance
+L973: - Tables found: 1
+L974: ### Table 1: Table_1
+L975: - **Rows**: 1616
+L976: - **Columns**: 27
+L977: | Column | Dtype | Non-null | Sample values |
+L978: |--------|-------|----------|---------------|
+L979: | row.mode | str | 1616 | 2333_Pos, 1500_Pos, 2117_Neg |
+L980: | Compound.name | str | 1616 | (-)-Glyceollin I, (-)-Hygroline, (-)-Jasmonic acid |
+L981: | row.ID | int64 | 1616 | 2333, 1500, 2117 |
+L982: | norm.1_VS1 | float64 | 1616 | -0.0757747813961079, 0.107392317986592, -0.229547579802684 |
+L983: | norm.2_VS2 | float64 | 1616 | 0.696674968495459, -0.46587690228591, 0.476386622485135 |
+L984: | norm.3_VS3 | float64 | 1616 | -0.241252652765503, 0.00390156891209311, 0.141153499621649 |
+L985: | norm.4_VS4 | float64 | 1616 | 0.47400348468295, -0.448028318326528, 0.22736377450373 |
+L986: | norm.5_VS5 | float64 | 1616 | -0.381084411289894, 0.126843592345809, -0.38406015212218 |
+L987: | norm.6_VE1 | float64 | 1616 | 0.390753822463472, -0.418958031757071, 0.184551447424529 |
+L988: | norm.7_VE2 | float64 | 1616 | -0.421228844172218, 0.310836132843656, -0.326955128383564 |
+L989: | norm.8_VE3 | float64 | 1616 | -0.554708042030147, 0.0360474946371037, -0.0175629447606069 |
+L990: | norm.9_VE4 | float64 | 1616 | -0.209928809224464, 0.147262045843898, -0.283480518176144 |
+L991: | norm.10_VE5 | float64 | 1616 | -0.237195760778406, 0.208727256064737, -0.0389699894462136 |
+L992: | norm.11_TS1 | float64 | 1616 | 0.182427463161, 0.311915064777661, 0.0518364249712227 |
+L993: | norm.12_TS2 | float64 | 1616 | 0.175168052831607, 0.089254850826046, 0.00877640395179147 |
+L994: | norm.13_TS3 | float64 | 1616 | 0.84259345633906, -0.420228284281378, 0.714851486799701 |
+L995: | norm.14_TS4 | float64 | 1616 | 0.254545507759174, 0.147547261954556, 0.0546695480083126 |
+L996: | norm.15_TS5 | float64 | 1616 | 0.512284003688577, -0.572969057938561, 0.360361948268789 |
+L997: | norm.16_TE1 | float64 | 1616 | -0.571262146535089, 0.277245823787678, -0.360378979610927 |
+L998: | norm.17_TE2 | float64 | 1616 | -0.439310615477906, 0.292674960654502, -0.138069672700081 |
+L999: | norm.18_TE3 | float64 | 1616 | 0.0046518314612702, 0.198501998012503, -0.0472186886349815 |
+L1000: | norm.19_TE4 | float64 | 1616 | -0.108410678059219, 0.15737475809261, -0.13129240648401 |
+L1001: | norm.20_TE5 | float64 | 1616 | -0.29294584915361, -0.08946453215, -0.262415095913474 |
+L1002: | VC | float64 | 1616 | 0.09451332154538081, -0.13515354827358877, 0.04625923293713 |
+L1003: | VE | float64 | 1616 | -0.20646152674835264, 0.05678297952646474, -0.09648342666... |
+L1004: | KOC | float64 | 1616 | 0.3934036967558836, -0.0888960329323352, 0.23809916239996337 |
+L1005: | KOE | float64 | 1616 | -0.2814554915529108, 0.16726660167945862, -0.187874968668... |
+L1006: ## Sheet: VCvsKOCPathway
+L1007: - Tables found: 1
+L1008: ### Table 1: Table_1
+L1009: - **Rows**: 46
+L1010: - **Columns**: 12
+L1011: | Column | Dtype | Non-null | Sample values |
+L1012: |--------|-------|----------|---------------|
+L1013: | Match | str | 46 | Butanal, Glycine, 7,8-Diaminononanoate |
+L1014: | HMDB | str | 42 | HMDB0003543, HMDB0000123, METPA0113 |
+L1015: | PubChem | float64 | 40 | 261.0, 750.0, 763.0 |
+L1016: | KEGG | str | 45 | C01412, C00037, C01037 |
+L1017: | Metabolite Set | str | 30 | ﻿, ﻿, ﻿ |
+L1018: | Total | str | 30 | Aminoacyl-tRNA biosynthesis, Alanine, aspartate and gluta... |
+L1019: | Hits | float64 | 30 | 48.0, 28.0, 32.0 |
+L1020: | Expect | float64 | 30 | 8.0, 6.0, 5.0 |
+L1021: | Details | float64 | 30 | 2.45e-06, 2.02e-05, 0.000753 |
+L1022: | col_9 | float64 | 30 | 5.610833915635467, 4.694648630553377, 3.1232050237992994 |
+L1023: | col_10 | str | 30 | View, View, View |
+L1024: | col_11 | str | 14 | L-Asparagine; L-Glutamine; Glycine; L-Methionine; L-Alani... |
+L1025: ## Sheet: VCvsVEPathway
+L1026: - Tables found: 1
+L1027: ### Table 1: Table_1
+L1028: - **Rows**: 19
+L1029: - **Columns**: 8
+L1030: | Column | Dtype | Non-null | Sample values |
+L1031: |--------|-------|----------|---------------|
+L1032: | Match | str | 19 | 2-Methyl-3-n-amyl-dihydropyrrole, Lauric aldehyde, Spermi... |
+L1033: | HMDB | str | 17 | HMDB0033933, HMDB0001257, HMDB0000254 |
+L1034: | PubChem | float64 | 18 | 340076552.0, 8194.0, 1102.0 |
+L1035: | KEGG | str | 19 | C21571, C02278, C00315 |
+L1036: | Metabolite Set | str | 18 | ﻿, ﻿, ﻿ |
+L1037: | Total | str | 18 | Lysine degradation, beta-Alanine metabolism, Glutathione ... |
+L1038: | Hits | float64 | 18 | 25.0, 21.0, 28.0 |
+L1039: | Expect | float64 | 18 | 4.0, 2.0, 2.0 |
+L1040: ## Sheet: KOCvsKOEPathway
+L1041: - Tables found: 1
+L1042: ### Table 1: Table_1
+L1043: - **Rows**: 116
+L1044: - **Columns**: 9
+L1045: | Column | Dtype | Non-null | Sample values |
+L1046: |--------|-------|----------|---------------|
+L1047: | Match | str | 116 | Butanal, 4-Trimethylammoniobutanoic acid, Fumaric acid |
+L1048: | HMDB | str | 84 | HMDB0003543, HMDB0001161, HMDB0000134 |
+L1049: | PubChem | float64 | 102 | 261.0, 134.0, 444972.0 |
+L1050: | KEGG | str | 114 | C01412, C01181, C00122 |
+L1051: | Metabolite Set | str | 35 | ﻿, ﻿, ﻿ |
+L1052: | Total | str | 35 | Tyrosine metabolism, Alanine, aspartate and glutamate met... |
+L1053: | Hits | float64 | 35 | 42.0, 28.0, 22.0 |
+L1054: | Expect | float64 | 35 | 6.0, 5.0, 4.0 |
+L1055: | col_25 | str | 27 | 1,1-Dichloroethylene epoxide, 2-Oxo-4-methylthiobutanoic ... |
+[42ms]
+

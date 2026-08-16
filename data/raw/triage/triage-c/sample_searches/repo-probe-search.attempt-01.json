@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "--repo",
+    "triage-c-probe-54e8e0d914",
+    "--repo-only",
+    "search",
+    "-s",
+    "pmc",
+    "-n",
+    "50",
+    "--all",
+    "Under which experimental conditions does antioxidant supplementation (vitamin C and/or E) blunt, enhance, or leave unchanged adaptations to exercise training?"
+  ],
+  "completed_at": "2026-08-16T02:59:40.150151+00:00",
+  "elapsed_seconds": 3.514086583862081,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:36.636089+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-probe-search.attempt-01.stderr",
+  "stdout_bytes": 6138,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-probe-search.attempt-01.stdout"
+}

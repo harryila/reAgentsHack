@@ -1,0 +1,107 @@
+schema_version: "1"
+status: locked
+question_id: fixture-b-m4
+research_question: Under which pre-specified contexts does the synthetic intervention change performance relative to control?
+target_relation:
+  exposure: synthetic intervention
+  comparator: control condition
+  outcome: locked performance endpoints
+  increase_definition: the measured performance endpoint is higher than control
+  decrease_definition: the measured performance endpoint is lower than control
+  no_effect_definition: no detectable difference from control is reported
+  desirability_claims_allowed: false
+eligibility:
+  include: [controlled primary research with a declared synthetic intervention]
+  exclude: [reviews, protocols, and reports without a comparator]
+  article_types: [research-article]
+search:
+  sources: [fixture]
+  query_families:
+    - id: direct
+      queries: [synthetic intervention AND performance]
+    - id: null-negative
+      queries: [synthetic intervention AND (null OR decrease)]
+  use_all: true
+outcomes:
+  primary_family: performance
+  family_map:
+    peak_power: performance
+    fatigue_time: performance
+  included_primary_endpoints: [peak_power, fatigue_time]
+  endpoint_direction_overrides: {}
+moderators:
+  - name: dose_regime
+    type: categorical
+    source: topic
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Dose regime
+    allowed_values: [low, high]
+    bins: null
+  - name: training_status
+    type: categorical
+    source: fixed
+    role: tested
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Training status
+    allowed_values: [trained, untrained]
+    bins: null
+  - name: population_state
+    type: categorical
+    source: fixed
+    role: descriptive
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Population state
+    allowed_values: [healthy, clinical]
+    bins: null
+  - name: timing_context
+    type: categorical
+    source: fixed
+    role: descriptive
+    kind: within_paper
+    permutation: none
+    paper_summary: null
+    display_name: Timing context
+    allowed_values: [acute, chronic]
+    bins: null
+analysis:
+  seed: 20260815
+  labels: [increase, no_effect, decrease]
+  max_missingness_headline: 0.40
+  min_papers_per_level: 5
+  cv_max_folds: 5
+  permutation_count: 100
+  bootstrap_count: 200
+variant_b:
+  axes: [dose_regime, training_status]
+  primary_endpoints: [peak_power, fatigue_time]
+triage:
+  candidate_topic: fixture-no-promoted-moderator
+  score_record: docs/planning/fixtures/fixture-b-m4-score.json
+anchor_papers:
+  - paper_id: doc:fixture-b-m4-anchor
+    expected_eligible: true
+    expected_finding_count: 2
+    expected_directions: [increase, decrease]
+    notes: deterministic fixture anchor
+recovery_check:
+  kind: narrative
+  statement: Directional disagreement remains but no moderator should pass every registered rule.
+  source: null
+demo:
+  hook: This fixture checks that a complete failed moderator battery selects the honest fallback.
+  spoken_question: Can any registered context reliably predict the synthetic disagreement?
+  moderator_display_names:
+    dose_regime: Dose regime
+    training_status: Training status
+    population_state: Population state
+    timing_context: Timing context
+  corpus_qualifier: our retrieved corpus
+  fixture_mode: true
+

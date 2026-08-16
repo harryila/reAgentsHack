@@ -1207,3 +1207,93 @@ rule passes; do not call it a discovered explanation. Config-listed moderators l
   replaced ambiguous CV and gates with executable rules; made paper balancing primary; pinned the
   headline and post-hoc keep/discard thresholds; fully specified Variant B; separated G1/G1b and
   G2/G3 purposes; and added the dependency-ordered implementation plan and Definition of Done.
+
+## Execution amendments (2026-08-16, overnight build — recorded by the agent operator)
+
+Amendments discovered and applied during the live production run; each is implemented, tested
+offline, and visible in lineage records. None alters outcome definitions, direction semantics,
+or analysis rules.
+
+1. **Provider 500-row search cap.** Any search result (repo-scoped included) silently caps at
+   500 rows. Corpora larger than 450 docs are built as batched repos (`s3_prepare_result`,
+   `corpus_set.json` log_version 2) with one map per batch; `s3_extract` accepts multiple
+   `--from-result`/`--resume-map-id`/`--map-output` values, merges via `reconcile_envelopes`,
+   and stamps per-doc `raw_artifact_path`.
+2. **Grounding recovery rules** (all deterministic, all warning-logged per row):
+   colon-suffixed line references (`"L18: quoted text"`); two-single-line citations read as an
+   inclusive range when strictly increasing and ≤30 lines apart; ellipsis-spliced quotes
+   verified segment-wise in order; whitespace-insensitive containment (glyph spacing);
+   **unique-region relocation** for verbatim quotes cited to a wrong line (ambiguity never
+   relocates); **citation-subset refinement** dropping banned-section lines the quote does not
+   need; non-line locator tokens (`"Table 3"`) dropped when valid references remain.
+3. **Section parser hardening.** Unknown numbered "headings" (affiliations, list items, figure
+   enumerations) no longer open sections — 7,853 distinct labels collapsed to the 7 canonical
+   buckets, closing an unflaggable-garbage-section hole the relocation audit exposed.
+4. **Census audit mode.** When the primary-cohort candidate pool holds ≤20 rows, the audit is a
+   census of all of them. G3's human-audit trust rule then requires that no audit-failed row
+   remain in the release cohort; the cross-model ≥0.85 bar applies to the census release set
+   (candidates minus audit-failed rows), with the all-exact-grounded rate reported alongside.
+   `audit_candidate_rows` is shared by the sample freezer, the gate, and the exporter.
+5. **Audit-driven corrections, PRISMA-style.** `target_relation.exposure_terms` quarantines
+   rows whose intervention text names no exposure term (caught a factorial trial's
+   placebo+exercise arm); `audit_paper_exclusions` records full-text human exclusions applied
+   deterministically at s2 (PMC3665021: no trial-administered training program). Both are
+   config-recorded, hash-visible changes. The pre-correction audit round (17 rows, 3
+   independent adversarial auditors' verdicts) is archived under
+   `data/processed/antiox-training/audit-precorrection/`.
+6. **Retrieval drift tolerance.** The provider's recency-weighted searches drift between
+   same-night reruns (23 of 660 mapped docs vanished; 11 appeared). Archived-map envelopes for
+   docs the current screen does not include are dropped (counted as `unused_map_envelopes`);
+   drift-in docs are mapped as a supplemental batch. `fetch_source_lines --from-archive
+   --prior` re-derives sections offline from archived content bytes.
+7. **Provider API constraints pinned live.** Structured outputs reject array `minItems` > 1 and
+   `maxItems` entirely (count contracts enforced post-hoc by `reconcile_verification`);
+   non-streaming SDK calls reject very large `max_tokens`; the verification pass needs
+   ~16k output tokens for 43 decisions.
+8. **Verification outcome (2026-08-16 run).** Opus-5 agreed 26/43 over all exact-grounded rows
+   (0.605 transparency figure) and 11/12 (0.917) on the census release set; 16 of 17
+   `unverifiable` rulings identify within-group-only quotes or outcome/quote mismatches and
+   stand as exclusions; one (PMC9599586, significant time×group interaction on the cited line)
+   was adjudicated `accept` with rationale in
+   `data/processed/antiox-training/verification_adjudications.md`. Adjudication never alters
+   agreement rates.
+9. **G3 outcome.** Trust PASSED (census 13/13 audited, 12 correct, zero failed rows released;
+   anchors 2/2; quarantine 1/49; g1b true). Story rules failed as measured (entropy lower
+   bound, classifiable papers 6 < 20, direction support) → `select_variant_b_story`; M4
+   selected Variant B; no remap was proposed or run. Release: `v1_frozen`, 12 grounded primary
+   findings from 6 papers (7 no-effect / 5 increase), exported with `--allow-dirty-demo`
+   (repository intentionally uncommitted per standing instruction) and verified offline.
+
+10. **Corpus-boundary disclosure (comprehensiveness).** Title probes against the provider's
+    full PMC index confirm several landmark antioxidant-training trials (Paulsen 2014 J
+    Physiol ×2, Gomez-Cabrera 2008 AJCN, Ristow 2009 PNAS, Morrison 2015 FRBM) are absent
+    from the provider corpus itself — not excluded by our screen. Every quantitative claim
+    is already scoped to "our retrieved corpus"; this note pins the concrete boundary. The
+    known-item seeding audit retrieved every eligible trial the provider does hold.
+11. **Endpoint canonicalization completeness (2026-08-16, round 2).** Live rows exposed
+    endpoint synonyms outside the locked regexes (QMVC, quadriceps endurance time, power at
+    exhaustion, bare "fat mass"); the endpoint/family maps gained those synonyms so the
+    primary family is decided by the config, not by the extractor's improvised family
+    labels. Extraction prompt v3 additionally requires Results-body quotes containing the
+    between-group evidence (abstract quoting cost the corpus its only two decrease-direction
+    primary rows in v2); prompt change → full 3-batch re-extraction per standing rule.
+
+12. **v3 round outcome (2026-08-16, ~03:30).** Prompt extraction-v3 (Results-body,
+    between-group-evidence quotes) re-extracted all three batches. Census audit round 2
+    (13 independent adversarial agents + operator source verification) and a fresh opus-5
+    verification pass converged independently on the same defects: PMC3303472 excluded at
+    paper level (regular-exercise-practice trial, no administered program — operator verified
+    Methods L25), PMC11373101's wrong-arm duplicate row failed audit and verification
+    together, and one comparator field was corrected through the s4 patch mechanism with
+    recorded provenance (PMC7923494, source L56). Section parser gained figure/table-caption
+    labeling and a reference-entry guard (a numbered bibliography with the word
+    "introduction" in an article title had been re-opening body sections). claude-fable-5
+    was attempted for verification per operator authorization and returned an immediate
+    API-level refusal (stop_reason "refusal", zero output tokens) — archived; opus-5
+    remains the verification model. Final release: v1_frozen Variant B — census 12 audited
+    / 11 correct / zero failed rows released, release-set agreement 10/11 (0.909), one
+    adjudicated acceptance (Table-3-verified no_effect), 11 grounded primary findings from
+    5 papers (5 increase / 6 no_effect), paper-level disagreement 51%. The corpus holds no
+    eligible blunting trial: both candidate decrease papers failed the administered-training
+    rule, and the landmark blunting trials are absent from the provider corpus (amendment
+    10) — itself a reportable comprehensiveness finding.

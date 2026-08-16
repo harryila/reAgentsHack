@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "beetroot juice vitamin C co-supplementation exercise"
+  ],
+  "completed_at": "2026-08-16T05:24:43.746958+00:00",
+  "elapsed_seconds": 2.4755170829594135,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:41.271451+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-03.attempt-01.stderr",
+  "stdout_bytes": 55462,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-03.attempt-01.stdout"
+}

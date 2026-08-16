@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "3",
+    "-e",
+    "Polyphenol Supplementation: Benefits for Exercise Performance or Oxidative Stress?"
+  ],
+  "completed_at": "2026-08-16T02:47:20.341128+00:00",
+  "elapsed_seconds": 1.371681708144024,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:18.969444+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-007-pmc4008802.attempt-01.stderr",
+  "stdout_bytes": 507,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-007-pmc4008802.attempt-01.stdout"
+}

@@ -1,0 +1,643 @@
+L1: Effects of Dietary Nitrate Supplementation on Performance and Muscle Oxygenation during Resistance Exercise in Men
+L2: Nutrients (2022)
+L3: Rachel Tan, Adam Pennell, Katherine M. Price, Sean T. Karl, Noelle G. Seekamp-Hicks, Keonabelle K. Paniagua, Grant D. Weiderman, Joanna P. Powell, Luka K. Sharabidze, Isabella G. Lincoln, Justin M. Kim, Madeleine F. Espinoza, Maya A. Hammer, Richie P. Goulding, Stephen J. Bailey
+L4: 1 Department of Sports Medicine, Pepperdine University, Malibu, CA 90263, USA
+L5: 2 Laboratory for Myology, Faculty of Behavioural and Movement Sciences, Amsterdam Movement Sciences, Vrije Universiteit Amsterdam, 1081 HZ Amsterdam, The Netherlands
+L6: 3 School of Sport, Exercise and Health Sciences, Loughborough University, Loughborough LE11 3TU, UK
+L7: The purpose of the current study was to assess the effects of acute and short-term nitrate (NO 3 − )-rich beetroot juice (BR) supplementation on performance outcomes and muscle oxygenation during bench press and back squat exercise. Fourteen recreationally active males were assigned in a randomized, double-blind, crossover design to supplement for 4 days in two conditions: (1) NO 3 − -depleted beetroot juice (PL; 0.10 mmol NO 3 −  per day) and (2) BR (11.8 mmol NO 3 −  per day). On days 1 and 4 of the supplementation periods, participants completed 2 sets of 2 × 70%1RM interspersed by 2 min of recovery, followed by one set of repetitions-to-failure (RTF) at 60%1RM for the determination of muscular power, velocity, and endurance. Quadriceps and pectoralis major tissue saturation index (TSI) were measured throughout exercise. Plasma [NO 3 − ] and nitrite ([NO 2 − ]) were higher after 1 and 4 days of supplementation with BR compared to PL ( p  < 0.05). Quadriceps and pectoralis major TSI were not different between conditions ( p  > 0.05). The number of RTF in bench press was 5% greater after acute BR ingestion compared to PL (PL: 23 ± 4 vs. BR: 24 ± 5,  p  < 0.05). There were no differences between BR and PL for RTF for back squat or power and velocity for back squat or bench press ( p  > 0.05). These data improve understanding on the ergogenic potential of BR supplementation during resistance exercise.
+L8: Article
+L9: nitric oxide; weightlifting; beetroot; neuromuscular
+L10: 1. Introduction
+L11: Nitric oxide (NO) is a ubiquitous signalling molecule that regulates cardiovascular, metabolic, and contractile processes, and as such, manipulation of NO bioavailability has potential implications for exercise performance [ 1 ]. In addition to the nitric oxide synthase enzymes, NO can be derived through the nitrate (NO 3 − )–nitrite (NO 2 − )–NO pathway, which recycles NO oxidation products (NO 3 −  and NO 2 − ) into NO [ 2 ]. As a result, there has been great interest in dietary NO 3 −  supplementation as a nutritional intervention to enhance NO synthesis and signalling. Briefly, NO 3 −  enters the systemic circulation after ingestion and is actively transported into the salivary glands for subsequent excretion into the oral cavity wherein commensal bacteria reduce NO 3 −  into NO 2 −  [ 3 ]. Swallowed NO 2 −  re-enters the systemic circulation, and is converted into NO by various enzymatic reactions in tissues [ 4 ], particularly in hypoxic [ 5 ] and acidic environments [ 6 ]. Recent data also indicate that NO 3 −  is rapidly stored in human skeletal muscle after ingestion [ 7 , 8 ] presumably to serve as a source of NO 3 −  for NO synthesis in response to alterations in local metabolic demand [ 9 ]. Indeed, the increase in muscle [NO 3 − ] attained after NO 3 −  supplementation declines during high-intensity exercise, potentially as a result of xanthine-oxidase-mediated reduction to NO 2 −  and then NO [ 9 ]. Muscle and plasma NO 3 −  and NO 2 −  attain peak concentrations ~2 to 3 h following NO 3 −  ingestion [ 7 , 10 ], which is synchronous with the time window when physiological and ergogenic effects are most likely to be observed [ 10 , 11 , 12 , 13 ].
+L12: Mechanistically, the ergogenic effects of NO 3 −  supplementation are attributed to some combination of reduced high-energy phosphate cost of force production, lowered exercise-induced metabolic perturbation [ 14 ], and improved skeletal muscle calcium handling [ 14 , 15 ]. There is also evidence from animal models to suggest augmented physiological responses in fast-twitch (type II) muscle fibres related to calcium handling [ 16 ] or the matching of oxygen (O 2 ) supply to demand [ 17 , 18 ] after NO 3 −  supplementation, although effects on slow-twitch (type I) muscle fibres have been recently reported [ 19 ]. However, in humans, NO 3 −  supplementation has been reported to enhance performance during exercise protocols designed to recruit a greater proportion of type II fibres (e.g., faster pedalling cadences [ 20 ] and high angular knee velocities [ 21 ], which supports the postulate that NO 3 −  supplementation may be more ergogenic in exercise settings wherein a greater recruitment of type II fibres occurs [ 22 ]. Together, these observations imply that NO 3 −  ingestion has the potential to augment explosive, powerful, and high-speed muscle contractions since these movements require a greater relative proportion of type II fibre activation [ 23 ]. In support of this postulate, a recent meta-analysis found that NO 3 −  supplementation increased muscular power output by 5% [ 24 ], although it should be recognized that there are also studies reporting NO 3 −  ingestion to be ineffective at enhancing power output [ 25 , 26 , 27 , 28 ]. To date, the potential for dietary NO 3 −  supplementation to impact power has been examined primarily in single leg knee extension [ 11 , 21 , 26 , 29 , 30 ] and cycling exercise [ 31 , 32 , 33 , 34 , 35 ]. As such, it is unclear whether other exercise modalities requiring high-power and high-velocity contractions, such as resistance exercise (i.e., weightlifting), can benefit from NO 3 −  supplementation. Furthermore, no studies have directly examined how acute and multiday NO 3 −  supplementation impact resistance exercise performance. This is important since it is equivocal whether multiday NO 3 −  loading elicits additional enhancements to running and cycling exercise performance compared to acute doses [ 36 , 37 ], and multiday NO 3 −  loading has been suggested to be less effective that acute NO 3 −  ingestion for improving muscular power [ 24 ]. Further work is, therefore, required to elucidate the impact of dosing regimen on resistance exercise performance.
+L13: Compared to running and cycling, relatively few studies have investigated the impact of dietary NO 3 −  supplementation on resistance exercise performance (e.g., muscle power output), and studies conducted to date have yielded conflicting results [ 38 , 39 , 40 , 41 , 42 , 43 , 44 ]. For example, in lower-body resistance exercise using back squats, an acute moderate NO 3 −  dose (~6.4–13.0 mmol or 400–800 mg of nitrate) has been reported to improve [ 40 , 43 ] and have no effect on power output during back squats [ 40 , 42 ]. In upper-body resistance exercise, there has been one study published to date examining the influence of NO 3 −  supplementation on power output during bench press, with this study reporting that power and velocity were improved by ~19% and ~7%, respectively [ 44 ]. Given that upper-body musculature may comprise a greater proportion of type II fibres [ 45 , 46 ], and that NO 3 −  has been suggested to elicit greater physiological responses in type II fibers [ 22 ], NO 3 −  supplementation may have greater ergogenic potential during upper-body compared to lower-body resistance exercises. The limited number of studies evaluating the ergogenic potential of NO 3 −  supplementation on resistance exercise, particularly lower-body resistance exercise, underscores the need for further research on this topic.
+L14: In addition to effects on muscle power output, there are equivocal results pertaining to the effect of NO 3 −  supplementation on the number of RTF during resistance exercise. For example, RTF has been reported to increase during back squat exercise following NO 3 −  ingestion in some [ 39 , 40 , 42 ] but not all [ 38 ] studies. Similarly, dietary NO 3 −  supplementation appears to increase RTF in free-weight bench press [ 44 ], but not when Smith-machine bench press has been assessed [ 41 , 42 ]. Therefore, further research is required to assess the effects of NO 3 −  supplementation on RTF during upper-body and lower-body resistance exercise. In addition, it is unclear whether dietary NO 3 −  supplementation impacts physiological processes, such as muscle oxygenation, during recovery periods interspersed throughout resistance exercise protocols, and whether these effects contribute to altered performance.
+L15: The purpose of this study was to assess the effects of acute and short-term, multiday dietary NO 3 −  supplementation on plasma [NO 3 − ] and [NO 2 − ], skeletal muscle oxygenation, and neuromuscular function and muscle endurance performance, during back squat and bench press. We hypothesized that dietary NO 3 −  supplementation would enhance physiological and performance variables during back squat and bench press exercise, with greater improvements during the bench press.
+L16: 2. Materials and Methods
+L17: 2.1. Participants
+L18: Fourteen healthy recreationally active men (mean ± SD: age 22 ± 5 years, body mass 84 ± 17 kg, height 1.80 ± 0.06 m) volunteered to participate in this study following a power calculation based on a published report [ 44 ] using a power of 0.95 and alpha of 0.05. Recreationally active was defined as individuals who performed resistance exercise at least twice a week and maintained their normal training regimens throughout the experiment. Participants completed a screening and a physical activity readiness questionnaire. The participant exclusion criteria were individuals with contraindications to exercise, cardiometabolic disease, on ergogenic supplementation, females, and smokers. Females were excluded given that sex-differences in the physiological responses to nitrate ingestion may exist [ 47 ]. The experimental protocols, risks, and benefits of participating were explained prior to participants providing written informed consent. This study was approved by the Institutional Research Ethics Committee and in accordance with the Declaration of Helsinki, with the exception of registration to a database.
+L19: 2.2. Experimental Overview
+L20: Participants reported to the laboratory on a total of six occasions over a 3 to 4 wk period. During visit 1, participants underwent standardized one-repetition max (1RM) testing procedures for the determination of the resistance to be applied in subsequent visits. During visit 2, participants performed a protocol and coaching technique familiarization to ensure correct lifting technique. Subsequently, in a double-blind, randomized, crossover design, participants were assigned to two experimental conditions to receive NO 3 − -depleted beetroot juice (PL) and NO 3 − -rich beetroot juice (BR) for 4 days with a washout period of at least 5 days separating the two supplementation periods. On days 1 and day 4 of each supplementation period, participants reported to the laboratory to perform the experimental protocol ( Figure 1 ).
+L21: All tests were performed at the same time of day (±2 h). Prior to the first visit, participants were instructed to avoid antibacterial mouthwash for the duration of the study given that mouthwash has been evidenced to interfere with oral NO 3 −  metabolism in humans [ 48 ]. Additionally, participants were instructed to refrain from strenuous exercise and alcohol 24 h prior, NO 3 − -rich foods (i.e., beetroot, celery, lettuce, radish, spinach, etc.) 48 h prior, and caffeine 12 h prior to each experimental visit. Participants were instructed to record their diet during the 24 h preceding their first experimental visit (visit 3) and to repeat this diet 24 h prior to all subsequent visits.
+L22: 2.3. Exercise Protocols
+L23: Participants performed a warm-up in preparation for 1RM testing as previously described [ 44 ]. Briefly, participants completed 5 back squat repetitions at 50% of their perceived 1RM, followed by 3 repetitions at 70% of their perceived 1RM with each set interspersed by 2 min of recovery. Subsequently, weight was increased in stepwise increments (0.2 to 9 kg) until the participant’s maximum was successfully lifted within 3 to 5 attempts, with each attempt interspersed by 3 min of recovery. After 3 min of recovery, the same process was repeated to determine the 1RM for the bench press exercise. All participants were required to use standardized procedures for back squat (i.e., medium grip, parallel depth, neutral stance, lower-body extension to original standing position) and bench press (i.e., medium grip, bar to chest, full extension of the arms) throughout the entire duration of the study and were provided coaching techniques. During visit 2, participants performed an explosive lift using the barbell only (20 kg) for a total of 3 repetitions, to ensure correct lifting technique and subsequently completed a familiarization to the exercise protocol for the determination of muscular power and velocity.
+L24: On days 1 and day 4 of each supplementation period (i.e., visit 3, 4, 5, 6), participants reported to the laboratory to perform the experimental protocol to determine muscular power, velocity, and endurance as familiarized during visit 2. A resting venous blood sample was obtained prior to exercise. The movement tempo of individual movement phases during resistance exercise were controlled for using an eccentric–pause–concentric–pause tempo of 1-0-1-2 to emphasize explosive movements and to standardize the lifting cadence across participants [ 49 ]. During these visits, participants performed a warm-up prior to the experimental protocol, as previously described [ 44 ], consisting of 3 repetitions with the barbell only, followed by 5 repetitions at 40%1RM, followed by 3 repetitions at 60%1RM, with each set interspersed by 2 min of recovery. Following this, a linear position transducer (GymAware, Kinetic Performance Technology, Mitchell, Australia) was attached to the barbell to assess power and velocity of movement. Power and velocity were determined in a protocol consisting of 2 sets × 2 repetitions at 70%1RM with each set interspersed by 2 min of recovery. Following a 5 min recovery period, participants performed 1 set × repetition-to-failure (RTF) at 60%1RM to determine muscular endurance. After a 5 min recovery, the same procedures were repeated in bench press exercise. Participants were instructed to lift the weight as fast as possible during the concentric phase, and encouragement and technical feedback were given to participants during all sets. To optimize the preservation of exercise intensity, smaller muscle groups and fatigue-inducing exercises were performed later within the exercise protocol (e.g., lower body before upper body; unweighted low-rep ballistic exercises before loaded lifts).
+L25: 2.4. Supplementation Procedures
+L26: Participants were randomly assigned to two 4-day supplementation periods in which they consumed 2 × 70 mL doses per day of either concentrated NO 3 − -rich beetroot juice (BR: ~5.9 mmol of NO 3 −  per 70 mL, Beet it; James White Drinks, Ipswich, UK) or a NO 3 − -depleted placebo (PL: 0.05 mmol of NO 3 −  per 70 mL, Beet it; James White Drinks, Ipswich, UK) separated by a minimum of a 5-day washout period. On experimental days, which occurred on days 1 and 4 of each supplementation period, participants consumed 2 × 70 mL of their allocated beverage 2.5 h before exercise given that peak plasma [NO 2 − ] occurs ~2 to 3 h following NO 3 −  ingestion [ 10 ]. On days 2 and 3 of each supplementation period, participants consumed one 70 mL beverage in the morning and one in the evening. This 4-day protocol was chosen to simulate a potential supplementation regimen an athlete would adopt prior to competition and to provide insight to acute compared to short-term NO 3 −  supplementation periods.
+L27: 2.5. Measurements
+L28: 2.5.1. Blood Analysis
+L29: A resting venous blood sample was obtained from an antecubital forearm vein by a trained member of the research team upon arrival to the laboratory for the assessment of plasma [NO 3 − ] and [NO 2 − ]. Samples were drawn into 6 mL lithium heparin tubes (Vacutainer, Becton-Dickinson, NJ, USA) and centrifuged at 3100×  g  at 4 °C for 10 min within 2 min of collection. Plasma was extracted and stored in a −80 °C freezer for the analysis of [NO 3 − ] and [NO 2 − ] using gas phase chemiluminescence. All glassware, utensils, and surfaces were rinsed with deionized water to remove NO prior to analysis. Plasma samples were thawed then deproteinized using ice-cold ethanol precipitation prior to [NO 2 − ] analysis. Specifically, samples were centrifuged at 14,000×  g  for 10 min, and 200 μL of the supernatant was treated with 400 μL of ice-cold ethanol. Samples were then incubated on ice for 30 min, and subsequently centrifuged at 14,000×  g  for 10 min. The [NO 2 − ] of deproteinized plasma was determined by its reduction to NO using glacial acetic acid and aqueous sodium iodide and calibrated using sodium NO 2 −  standards. Following this, the deproteinized plasma samples were diluted prior to [NO 3 − ] analysis such that 100 μL of the supernatant was added to 400 μL of deionized water. The [NO 3 − ] of diluted deproteinized plasma was determined by its reduction to NO using vanadium chloride and hydrochloric acid and calibrated using sodium NO 3 −  standards.
+L30: 2.5.2. Mood
+L31: The Brunel Mood Scale (BRUMS) [ 50 , 51 ] is used to assess mood states in adult populations and was conducted prior to exercise as mood may have a mediating effect on resistance training performance [ 52 ]. Using the standard response timeframe of “How do you feel right now?”, 24 items representing six subscales (i.e., anger, confusion, depression, fatigue, tension, vigor; four items per subscale) were captured using a five-point Likert scale (i.e., 0 = not at all, 1 = a little, 2 = moderately, 3 = quite a bit, 4 = extremely). Respective items were summed so that each subscale score ranged from 0 to 16 raw points. In general, elevated vigor and decreased anger, confusion, depression, fatigue, and tension subscale scores are viewed as positive outcomes.
+L32: 2.5.3. Muscle Oxygenation
+L33: Throughout the entire duration of the experimental protocol on days 1 and 4, muscle oxygenation saturation status of the vastus lateralis and pectoralis major were monitored noninvasively via a portable, spatially resolved near-infrared spectroscopy device (Moxy Monitor, Fortiori Design LLC, Spicer, MN, USA), which has been previously tested for reliability and validity [ 53 , 54 , 55 ]. Briefly, the device uses four light-emitting diodes as light sources to continuously emit near-infrared light over the range 680–800 nm. The device features two light detectors that continuously monitor light intensity at each wavelength, with light source–detector separation distances of 12.5 and 25 mm. Data were collected at 0.5 Hz. Based upon the differing absorption spectra of oxygenated and deoxygenated hemoglobin + myoglobin within the near-infrared range, the device then used the modified Beer–Lambert Law to provide estimates of muscle O 2  saturation (SmO 2 , as a % value) as: (oxygenated [hemoglobin + myoglobin]/total [hemoglobin + myoglobin]) × 100. This parameter is considered relatively insensitive to changes in blood volume and hence represents the balance between O 2  delivery and utilization (and hence, O 2  extraction) within the interrogated region [ 56 ]. The sensors were covered by a black rubber sheet during the test to minimize the intrusion of extraneous light and fixed along the belly of the vastus lateralis and pectoralis major using kinesiology tape and surgical tape. Marks were made around the sensor’s location using indelible ink during the first visit, and participants were asked to maintain these marks throughout the duration of the study to ensure precise placement for each subsequent visit. During the RTF protocol, baseline and end-exercise SmO 2  were defined as the mean SmO 2  values over the 20 s immediately prior to exercise onset and at the end of the exercise bout, respectively. The difference between baseline and end-exercise SmO 2  (i.e., ΔSmO 2 ) was calculated as an indicator of the amplitude of the response. Following exercise onset, SmO 2  evidenced a time delay (TD) before systematically decreasing towards a nadir value; this TD was characterized as the first value following exercise onset, which differed from baseline SmO 2  by more than 1 SD.
+L34: 2.5.4. Muscular Power, Velocity, and Endurance
+L35: Power and velocity measurements were obtained during exercise using a portable, wireless, commercially available, linear position transducer (GymAware, Kinetitech Performance Technology, Mitchell, Australia), which has been previously used [ 44 ] and validated for test–retest reliability [ 57 ]. During the 2 sets × 2 repetitions at 70%1RM, power and velocity were averaged across sets for the determination of mean power and mean velocity, and the highest power and velocity values were recorded for the determination of peak power and peak velocity. During the RTF set at 60%1RM, task failure was determined by the participant’s inability to complete the concentric phase of the lift. Peak power, mean power, peak velocity, mean velocity, and number of total repetitions completed for the single RTF set were recorded for analysis.
+L36: 2.5.5. Statistical Analyses
+L37: Two-way (condition × time) repeated-measures ANOVAs were used to investigate statistical differences in plasma [NO 3 − ] and [NO 2 − ], mood, muscle oxygenation, and resistance exercise performance across time (day 1 vs. day 4) and between groups (PL and BR). Significant main and interaction effects were explored further using post hoc Bonferroni corrections. In addition, Student’s paired  t -tests were used to determine physiological and performance differences where appropriate. Pearson product–moment correlation coefficients were used to assess the significant relationships between changes in plasma [NO 2 − ] and performance variables. Unless stated otherwise, requisite statistical assumptions were met prior to all inferential analyses (e.g., sphericity, normality of the residuals, extreme outliers). Effect sizes for ANOVAs were measured via partial eta squared ( η p 2 ) in which small, medium, and large effects were operationalized as 0.01, 0.06, and 0.14, respectively [ 58 ]. Effect sizes for t-tests were measured as Cohen’s  d z  in which small, medium, and large effects were operationalized as 0.2, 0.5, and 0.8, respectively [ 58 , 59 ]. Statistical significance was set to  p  ≤ 0.05 with all data presented as mean ± SD, unless otherwise stated. All data were analyzed using SPSS version 26 (IBM, Armonk, NY, USA).
+L38: 3. Results
+L39: All participants reported consuming all servings of each supplement at the correct times and confirmed that they had maintained their habitual exercise and dietary habits prior to each testing visit. There were no reports of adverse reactions, gastrointestinal distress or discomfort following ingestion of either supplement.
+L40: 3.1. Plasma [NO 3 – ] and [NO 2 – ]
+L41: The within- and between-day CV% for plasma [NO 3 – ] and [NO 2 – ] were similar to previously reported values [ 60 ]. Specifically, for within-day duplicate samples, the CV% was ~8.9 ± 7.9% and ~3.0 ± 0.4% for plasma [NO 3 – ] and [NO 2 – ], respectively. The CV% for between day 1 and day 4 analyses was ~17.7 ± 20.0% and ~16.1 ± 2.0% for plasma [NO 3 – ] and [NO 2 – ], respectively. Plasma [NO 3 – ] and [NO 2 – ] are displayed in  Table 1 . There was an interaction effect ( p  < 0.001,  η p 2  = 0.43), a main effect of condition ( p  < 0.001,  η p 2  = 0.91), and a main effect of time ( p  < 0.05,  η p 2  = 0.37) on plasma [NO 3 – ]. Plasma [NO 3 – ] was greater in BR compared to PL on day 1 ( p  < 0.001,  d z  = 2.91) and day 4 ( p  < 0.001,  d z  = 2.97) and was increased on day 4 compared to day 1 in BR ( p  = 0.01,  d z  = 0.79) but with no differences between days in PL ( p  > 0.05). There was a main effect of condition ( p  < 0.001,  η p 2  = 0.66) but no effect of time ( p  > 0.05) or interaction effect ( p  > 0.05) on plasma [NO 2 – ]. Compared to PL, plasma [NO 2 – ] was higher in BR on day 1 ( p  < 0.001,  d z  = 1.23) and day 4 ( p  < 0.001,  d z  = 1.22) with no significant difference between days within conditions ( p  > 0.05).
+L42: 3.2. Mood
+L43: There was no effect of condition ( p  > 0.05) or time ( p  > 0.05) on the six subcategories of mood ( Table 2 ).
+L44: 3.3. Muscle Oxygenation
+L45: Owing to technical issues in one participant, analysis was completed in a subset of 13 out of 14 participants. There was no effect of condition ( p  > 0.05) or time ( p  > 0.05) on tissue saturation index in the vastus lateralis or pectoralis major during the explosive power protocols or RTF in the back squat and bench press ( Table 3 ,  Table 4 ,  Table 5  and  Table 6 ).
+L46: 3.4. Muscular Power and Velocity
+L47: Performance outcomes during the protocol for determining power and velocity during back squat and bench press are displayed in  Table 7  and  Table 8 . There was no effect of condition ( p  > 0.05) in all performance variables during back squat and bench press. There was an effect of time ( p  < 0.05,  η p 2  = 0.36) such that there was an increase from day 1 to day 4 in peak power in back squats for PL ( p  < 0.05,  d z  = 0.10), peak power in bench press for BR ( p  < 0.05,  d z  = 0.61), mean power in bench press for BR ( p  < 0.01,  d z  = 0.83), and mean velocity in bench press in BR ( p  < 0.01,  d z  = 1.01).
+L48: 3.5. Muscular Endurance Performance
+L49: Performance outcomes during the protocol for determining muscular endurance during back squat and bench press are displayed in  Table 9  and  Table 10 . There was a main effect of condition ( p  < 0.05,  η p 2  = 0.29) such that the number of RTF during bench press was increased in BR compared to PL by ~5% on day 1 ( p  < 0.05,  d z  = 0.55), with individual responses shown in  Figure 2 . There was a main effect of time ( p  < 0.01,  η p 2  = 0.44) on the number of RTF during bench press such that RTF increased from day 1 to day 4 in PL ( p  < 0.05,  d z  = 0.60). There was an effect of time on the number of RTF during back squat in BR ( p  < 0.05,  d z  = 0.62).
+L50: 4. Discussion
+L51: The main novel findings of the present study were that acute dietary NO 3 −  supplementation increased RTF during bench press (medium effect of  d z  = 0.55), but neither acute nor multiday NO 3 −  supplementation improved RTF during back squat, or muscular power, velocity, or oxygenation in either resistance exercise modality. In addition, compared to acute NO 3 −  ingestion, 4 days of NO 3 −  ingestion further elevated plasma [NO 3 − ], but plasma [NO 2 − ] was elevated by a similar magnitude after acute and multiday NO 3 −  supplementation. These findings are partially consistent with our hypotheses and suggest that dietary NO 3 −  supplementation is more efficacious for improving performance during upper-body, compared to lower-body, resistance exercise continued to failure. These results have implications for healthy active males seeking to improve resistance exercise performance.
+L52: 4.1. Influence of Dietary Nitrate Supplementation on Resistance Exercise Performance
+L53: Acute NO 3 −  ingestion significantly increased the number of RTF during bench press by ~5% compared to PL. These results are in agreement with some [ 41 , 44 ] but not all [ 42 ] previous studies. The magnitude of improvement in bench press RTF in the current study was lower compared to previous studies reporting ~9% [ 44 ] and ~19% [ 41 ] improvements in RTF in free-weight and Smith-machine bench press, respectively. We also observed no effect of NO 3 −  supplementation on RTF for back squat, which is in agreement with one previous study [ 38 ], but contrasts with others [ 39 , 40 , 42 ]. Furthermore, we did not observe an impact of acute or multiday NO 3 −  supplementation on power output or velocity during back squat or bench press. To date, only four studies have examined the effect of NO 3 −  supplementation on power output during resistance exercise [ 40 , 42 , 43 , 44 ] with these studies yielding conflicting results. Indeed, NO 3 −  supplementation was ineffective at improving power output during back squat and bench press in one study [ 42 ], but most other studies have reported increased power during back squat (6% [ 40 ]; 18% [ 43 ]) and bench press (19% [ 44 ]) after NO 3 −  supplementation. Similar to the current study, these studies administered low (~6 mmol NO 3 − ) to moderate (~12 mmol NO 3 − ) NO 3 −  doses, which have been suggested to be more efficacious for improving muscular power compared to higher doses [ 30 ]. Therefore, the lack of an ergogenic effect of NO 3 −  supplementation on some resistance exercise performance variables in the current study is unlikely to be a result of an insufficient or too great a NO 3 −  dose.
+L54: The principal novel finding of the current study was that an ergogenic effect of NO 3 −  supplementation was attained during bench press RTF, with no effect on this outcome variable during back squat exercise. This observation is compatible with the notion that dietary NO 3 −  supplementation may preferentially elicit beneficial physiological and functional effects on type II muscle fibers [ 22 ]. Specifically, since the upper-body musculature may comprise a greater proportion of type II muscle fibers compared to the lower-body musculature [ 46 ], this may have contributed to the observation herein that NO 3 −  supplementation resulted in exercise modality specific effects on RTF, which was improved after bench press but not back squat exercise. In addition, while there is evidence that dietary NO 3 −  supplementation can improve muscle power output during exercise commenced from an unfatigued state [ 11 , 21 , 28 ], there is also evidence to suggest that NO 3 −  supplementation may be more effective at enhancing neuromuscular function in a fatigued state [ 61 ]. Since the back squat RTF protocol always preceded bench press RTF protocol in the current study, this may have contributed to the ergogenic effect of NO 3 −  supplementation on bench press but not back squat RTF performance. This could also possibly explain why power and velocity of contraction was not impacted by NO 3 −  ingestion in the present study since the protocol for determining power was performed in an unfatigued state. However, it should be recognized that the reported effect of NO 3 −  supplementation exerting a greater effect on neuromuscular function in a fatigued compared to an unfatigued state was observed when local neuromuscular fatigue was elicited in the same muscle group (knee extensors) [ 61 ]. As such, the extent to which this transfers into the current study, with any changes in local fatigue in the upper-body musculature being achieved by prior fatigue in the back squat exercise, is unclear. Prior fatigue of a remote muscle group can expedite fatigue in another muscle group with such effects linked to greater central fatigue development [ 62 ]. However, dietary NO 3 −  supplementation does not appear to alter central fatigue development during exercise, at least during cycling exercise [ 63 , 64 ]. Further research is required to resolve the mechanisms for improved RTF during bench press exercise after NO 3 −  supplementation and whether such effects are more or less likely when preceded by prior fatiguing back squat exercise. It is also unclear whether NO 3 −  supplementation can improve performance during multiple sets of resistance exercise completed to failure, using the same exercise modality, where greater neuromuscular fatigue accumulates with successive fatiguing sets. A previous study reported that 7 days of dietary NO 3 −  supplementation preserved cycling sprint performance in the second of 2 × 40 min “halves” of a simulated team sport intermittent sprinting protocol, but not the first “half” [ 65 ] is also consistent with the assertion that NO 3 −  supplementation is more effective at enhancing performance as neuromuscular fatigue develops. Therefore, our findings are consistent with some previous observations that NO 3 −  supplementation has a greater effect on blunting neuromuscular fatigue development during fatiguing conditions or situations relying on a greater recruitment of type II fibers; however, further work is required to elucidate the impact of NO 3 −  supplementation when performance is assessed following fatigue development. The mechanisms that underlie this effect of NO 3 −  supplementation on muscle fatigue resistance remain unclear, but are likely to include improving calcium handling [ 15 , 16 ], lowered energy cost of force production [ 14 ], or the metabolic milieu during exercise [ 14 ].
+L55: 4.2. Acute vs. Multiday NO 3 −  Supplementation
+L56: The current study directly compared the effects of acute and multiday NO 3 −  supplementation, for the first time, on resistance exercise performance and found that only acute NO 3 −  supplementation enhanced RTF performance. These results suggest that acute NO 3 −  doses may be more effective at improving resistance exercise performance, at least for RTF. Our data support a recent meta-analysis that found there was a greater effect of NO 3 −  supplementation size on enhancing muscular power output following acute NO 3 −  ingestion compared to longer NO 3 −  supplementation periods [ 24 ]. In other exercise modalities, the few studies that include direct comparisons between acute and multiday NO 3 −  supplementation have reported conflicting results such that multiday NO 3 −  ingestion improved cycling performance [ 37 , 66 ], preserved the lowered O 2  cost of exercise compared to acute NO 3 −  ingestion [ 67 ], but also had no effect on running performance [ 36 ]. Given the methodological discrepancies between existing studies that compared the efficacy of acute versus short-term NO 3 −  supplementation to improve performance, it is difficult to draw firm conclusions as to whether acute or multiday NO 3 −  supplementation is preferable for attaining performance enhancements during resistance exercise, which warrants further investigation.
+L57: Acute NO 3 −  ingestion can rapidly elevate plasma [ 10 ] and muscle [ 7 ] NO 3 − , which provides substrate for additional NO production. Thus, acute NO 3 −  ingestion may elicit effects via second messenger cyclic guanosine monophosphate signaling to impact calcium sensitivity [ 68 ] or induce reversible post-translational modifications on key contractile proteins [ 69 , 70 , 71 , 72 ]. Since longer NO 3 −  supplementation periods could evoke structural changes to proteins that regulate contraction [ 1 ] and increase baseline levels of skeletal muscle and plasma NO 3 − , which would presumably lead to a greater capacity to maintain and/or elevate NO bioavailability on demand [ 9 , 73 ], we cannot exclude the possibility that extending the supplementation window beyond 4 days could have elicited an ergogenic effect, and further research is warranted. We observed that there was considerable interindividual variability in the magnitude of increase in plasma [NO 2 − ] following NO 3 −  ingestion compared to placebo, where increases ranged from ~40% to ~570%; however, there was no correlation between the change in plasma [NO 2 − ] and change in bench press RTF ( r  = −0.017), suggesting that a greater elevation to circulating [NO 2 − ] did not increase the likelihood of ergogenic effects. It is also interesting to note that despite an additional increase in plasma [NO 3 − ] with 4 days of NO 3 −  supplementation compared to 1 day, this did not translate into further elevations in plasma [NO 2 − ] at day 4 versus acute supplementation. Other studies that implemented longer term NO 3 −  supplementation found that plasma [NO 3 − ] increased over time [ 74 ] or stayed the same [ 67 ], whilst plasma [NO 2 − ] remained at similar levels over time [ 37 , 67 , 74 ]. Additional research is required to elucidate the impact of acute and longer duration NO 3 −  supplementation periods on nitrate metabolism and performance effects during resistance exercise.
+L58: Power output in back squat and bench press, together with velocity in bench press, were increased on day 4 compared to day 1 in both conditions, and the reasons are unclear. However, possible explanations include a learning effect. Even though our study design included a randomization to the order and a familiarization session to abolish the learning effect, it could be possible that there was still a learning effect that occurred on neuromuscular performance during the four days of the first condition, which was subsequently removed during the washout period, but then re-emerged during the second condition [ 75 , 76 ].
+L59: 4.3. Influence of NO 3 −  Supplementation on Muscle Oxygenation
+L60: In the present study, near-infrared spectroscopy was employed to provide insight into whether dietary NO 3 −  ingestion could impact the balance between local O 2  delivery and muscle O 2  utilization in skeletal muscle, specifically at the vastus lateralis and pectoralis major during back squat and bench press exercise, respectively. In contrast to our experimental hypothesis, there was no effect of acute or multiday NO 3 −  supplementation on tissue oxygenation during resistance exercise protocols for determining power, velocity, or endurance. To date, no other studies have examined the impact of NO 3 −  on tissue oxygenation during resistance exercise, but data reported in other exercise modalities yield conflicting results. For example, muscle oxygenation has been shown to improve during cycling exercise from transitions of low- to high-intensity work rates [ 17 ] and during faster cadences relative to slow cadences in cycling [ 20 ]. In contrast, NO 3 −  has also been shown to be ineffective at influencing muscle oxygenation [ 66 , 77 , 78 , 79 ]. In hypoxic states, NO 3 −  supplementation has been shown to preserve muscle oxygenation [ 80 , 81 ] but also shown to have no effect [ 82 ]. Therefore, our data suggest that improved bench press RTF after acute NO 3 −  supplementation is not linked to altered pectoralis major tissue oxygenation. However, we recognize that a continuous-wave NIRS device was used to assess tissue oxygenation in the current study and cannot exclude the possibility that NO 3 −  supplementation may have improved tissue oxygenation, which may have been detectable using a superior frequency-domain time-resolved NIRS system.
+L61: 5. Conclusions
+L62: In conclusion, acute but not multiday NO 3 − -rich beetroot juice supplementation increased the number of repetitions completed prior to failure during bench press, but not during back squats, without influencing skeletal muscle oxygenation. Compared to acute NO 3 −  ingestion, four days of NO 3 −  supplementation increased plasma [NO 3 − ] to a greater extent, but plasma [NO 2 − ] was elevated similarly after acute and multiday NO 3 − -rich beetroot juice supplementation. There was no effect of NO 3 −  supplementation on power and velocity during the back squat or bench press exercise. These data provide original observations to improve understanding of the ergogenic potential of NO 3 −  supplementation to enhance resistance exercise performance and suggest that NO 3 −  supplementation may be effective at enhancing muscular endurance during upper-body exercise.
+L63: Figure 1 A schematic of the exercise protocol performed on visit 3, 4, 5, and 6 (i.e., experimental visits). 1RM = one repetition maximum.
+L64: Figure 2 Data are means ± SE of the number of repetitions-to-failure (RTF) during bench press exercise ( a ) on day 1 between conditions and ( b ) on day 1 and 4 between conditions; RTF for individual participants shown in black lines. * = significantly different compared to day 1; # = significantly different compared to PL day 1; BR = NO 3 − -rich beetroot juice; PL = NO 3 − -depleted beetroot juice.
+L65: 1. Stamler J.S. 
+L66:  Meissner G. 
+L67:  Physiology of Nitric Oxide in Skeletal Muscle Physiol. Rev. 2001 81 209 237 10.1152/physrev.2001.81.1.209 11152758
+L68: 2. Lundberg J.O. 
+L69:  Weitzberg E. 
+L70:  Gladwin M.T. 
+L71:  The Nitrate-Nitrite-Nitric Oxide Pathway in Physiology and Therapeutics Nat. Rev. Drug Discov. 2008 7 156 167 10.1038/nrd2466 18167491
+L72: 3. Hezel M.P. 
+L73:  Weitzberg E. 
+L74:  The Oral Microbiome and Nitric Oxide Homoeostasis Oral Dis. 2015 21 7 16 10.1111/odi.12157 23837897
+L75: 4. Shiva S. 
+L76:  Huang Z. 
+L77:  Grubina R. 
+L78:  Sun J. 
+L79:  Ringwood L.A. 
+L80:  MacArthur P.H. 
+L81:  Xu X. 
+L82:  Murphy E. 
+L83:  Darley-Usmar V.M. 
+L84:  Gladwin M.T. 
+L85:  Deoxymyoglobin Is a Nitrite Reductase That Generates Nitric Oxide and Regulates Mitochondrial Respiration Circ. Res. 2007 100 654 661 10.1161/01.RES.0000260171.52224.6b 17293481
+L86: 5. Castello P.R. 
+L87:  David P.S. 
+L88:  McClure T. 
+L89:  Crook Z. 
+L90:  Poyton R.O. 
+L91:  Mitochondrial Cytochrome Oxidase Produces Nitric Oxide under Hypoxic Conditions: Implications for Oxygen Sensing and Hypoxic Signaling in Eukaryotes Cell Metab. 2006 3 277 287 10.1016/j.cmet.2006.02.011 16581005
+L92: 6. Modin A. 
+L93:  Björne H. 
+L94:  Herulf M. 
+L95:  Alving K. 
+L96:  Weitzberg E. 
+L97:  Lundberg J.O. 
+L98:  Nitrite-Derived Nitric Oxide: A Possible Mediator of “acidic-Metabolic” Vasodilation Acta Physiol. Scand. 2001 171 9 16 10.1046/j.1365-201x.2001.171001009.x 11350258
+L99: 7. Kadach S. 
+L100:  Piknova B. 
+L101:  Black M.I. 
+L102:  Park J.W. 
+L103:  Wylie L.J. 
+L104:  Stoyanov Z. 
+L105:  Thomas S.M. 
+L106:  McMahon N.F. 
+L107:  Vanhatalo A. 
+L108:  Schechter A.N. 
+L109:  
+L110:  Time Course of Human Skeletal Muscle Nitrate and Nitrite Concentration Changes Following Dietary Nitrate Ingestion Nitric Oxide 2022 121 1 10 10.1016/j.niox.2022.01.003 35032643
+L111: 8. Nyakayiru J. 
+L112:  Kouw I.W.K. 
+L113:  Cermak N.M. 
+L114:  Senden J.M. 
+L115:  van Loon L.J.C. 
+L116:  Verdijk L.B. 
+L117:  Sodium Nitrate Ingestion Increases Skeletal Muscle Nitrate Content in Humans J. Appl. Physiol. 2017 123 637 644 10.1152/japplphysiol.01036.2016 28663382
+L118: 9. Wylie L.J. 
+L119:  Park J.W. 
+L120:  Vanhatalo A. 
+L121:  Kadach S. 
+L122:  Black M.I. 
+L123:  Stoyanov Z. 
+L124:  Schechter A.N. 
+L125:  Jones A.M. 
+L126:  Piknova B. 
+L127:  Human Skeletal Muscle Nitrate Store: Influence of Dietary Nitrate Supplementation and Exercise J. Physiol. 2019 597 5565 5576 10.1113/JP278076 31350908
+L128: 10. Wylie L.J. 
+L129:  Kelly J. 
+L130:  Bailey S.J. 
+L131:  Blackwell J.R. 
+L132:  Skiba P.F. 
+L133:  Winyard P.G. 
+L134:  Jeukendrup A.E. 
+L135:  Vanhatalo A. 
+L136:  Jones A.M. 
+L137:  Beetroot Juice and Exercise: Pharmacodynamic and Dose-Response Relationships J. Appl. Physiol. 2013 115 325 336 10.1152/japplphysiol.00372.2013 23640589
+L138: 11. Coggan A.R. 
+L139:  Broadstreet S.R. 
+L140:  Mikhalkova D. 
+L141:  Bole I. 
+L142:  Leibowitz J.L. 
+L143:  Kadkhodayan A. 
+L144:  Park S. 
+L145:  Thomas D.P. 
+L146:  Thies D. 
+L147:  Peterson L.R. 
+L148:  Dietary Nitrate-Induced Increases in Human Muscle Power: High versus Low Responders Physiol. Rep. 2018 6 e13575 e13582 10.14814/phy2.13575
+L149: 12. Porcelli S. 
+L150:  Ramaglia M. 
+L151:  Bellistri G. 
+L152:  Pavei G. 
+L153:  Pugliese L. 
+L154:  Montorsi M. 
+L155:  Rasica L. 
+L156:  Marzorati M. 
+L157:  Aerobic Fitness Affects the Exercise Performance Responses to Nitrate Supplementation Med. Sci. Sports Exerc. 2015 47 1643 1651 10.1249/MSS.0000000000000577 25412295
+L158: 13. Wilkerson D.P. 
+L159:  Hayward G.M. 
+L160:  Bailey S.J. 
+L161:  Vanhatalo A. 
+L162:  Blackwell J.R. 
+L163:  Jones A.M. 
+L164:  Influence of Acute Dietary Nitrate Supplementation on 50 Mile Time Trial Performance in Well-Trained Cyclists Eur. J. Appl. Physiol. 2012 112 4127 4134 10.1007/s00421-012-2397-6 22526247
+L165: 14. Bailey S.J. 
+L166:  Fulford J. 
+L167:  Vanhatalo A. 
+L168:  Winyard P.G. 
+L169:  Blackwell J.R. 
+L170:  DiMenna F.J. 
+L171:  Wilkerson D.P. 
+L172:  Benjamin N. 
+L173:  Jones A.M. 
+L174:  Dietary Nitrate Supplementation Enhances Muscle Contractile Efficiency during Knee-Extensor Exercise in Humans J. Appl. Physiol. 2010 109 135 148 10.1152/japplphysiol.00046.2010 20466802
+L175: 15. Bailey S.J. 
+L176:  Gandra P.G. 
+L177:  Jones A.M. 
+L178:  Hogan M.C. 
+L179:  Nogueira L. 
+L180:  Incubation with Sodium Nitrite Attenuates Fatigue Development in Intact Single Mouse Fibres at Physiological PO 2 J. Physiol. 2019 597 5429 5443 10.1113/JP278494 31541562
+L181: 16. Hernández A. 
+L182:  Schiffer T.A. 
+L183:  Ivarsson N. 
+L184:  Cheng A.J. 
+L185:  Bruton J.D. 
+L186:  Lundberg J.O. 
+L187:  Weitzberg E. 
+L188:  Westerblad H. 
+L189:  Dietary Nitrate Increases Tetanic [Ca2+]i and Contractile Force in Mouse Fast-Twitch Muscle J. Physiol. 2012 590 3575 3583 10.1113/jphysiol.2012.232777 22687611
+L190: 17. Breese B.C. 
+L191:  McNarry M.A. 
+L192:  Marwood S. 
+L193:  Blackwell J.R. 
+L194:  Bailey S.J. 
+L195:  Jones A.M. 
+L196:  Beetroot Juice Supplementation Speeds O2 Uptake Kinetics and Improves Exercise Tolerance during Severe-Intensity Exercise Initiated from an Elevated Metabolic Rate Am. J. Physiol. Regul. Integr. Comp. Physiol. 2013 305 R1441 R1450 10.1152/ajpregu.00295.2013 24089377
+L197: 18. Ferguson S.K. 
+L198:  Hirai D.M. 
+L199:  Copp S.W. 
+L200:  Holdsworth C.T. 
+L201:  Allen J.D. 
+L202:  Jones A.M. 
+L203:  Musch T.I. 
+L204:  Poole D.C. 
+L205:  Impact of Dietary Nitrate Supplementation via Beetroot Juice on Exercising Muscle Vascular Control in Rats J. Physiol. 2013 591 547 557 10.1113/jphysiol.2012.243121 23070702
+L206: 19. Petrick H.L. 
+L207:  Brownell S. 
+L208:  Vachon B. 
+L209:  Brunetta H.S. 
+L210:  Handy R.M. 
+L211:  van Loon L.J.C. 
+L212:  Murrant C.L. 
+L213:  Holloway G.P. 
+L214:  Dietary Nitrate Increases Submaximal SERCA Activity and ADP-Transfer to Mitochondria in Slow-Twitch Muscle of Female Mice Am. J. Physiol. Endocrinol. Metab. 2022 323 E171 E184 10.1152/ajpendo.00371.2021 35732003
+L215: 20. Bailey S.J. 
+L216:  Varnham R.L. 
+L217:  DiMenna F.J. 
+L218:  Breese B.C. 
+L219:  Wylie L.J. 
+L220:  Jones A.M. 
+L221:  Inorganic Nitrate Supplementation Improves Muscle Oxygenation, O₂ Uptake Kinetics, and Exercise Tolerance at High but Not Low Pedal Rates J. Appl. Physiol. 2015 118 1396 1405 10.1152/japplphysiol.01141.2014 25858494
+L222: 21. Coggan A.R. 
+L223:  Leibowitz J.L. 
+L224:  Kadkhodayan A. 
+L225:  Thomas D.P. 
+L226:  Ramamurthy S. 
+L227:  Spearie C.A. 
+L228:  Waller S. 
+L229:  Farmer M. 
+L230:  Peterson L.R. 
+L231:  Effect of Acute Dietary Nitrate Intake on Maximal Knee Extensor Speed and Power in Healthy Men and Women Nitric Oxide 2015 48 16 21 10.1016/j.niox.2014.08.014 25199856
+L232: 22. Jones A.M. 
+L233:  Ferguson S.K. 
+L234:  Bailey S.J. 
+L235:  Vanhatalo A. 
+L236:  Poole D.C. 
+L237:  Fiber Type-Specific Effects of Dietary Nitrate Exerc. Sport Sci. Rev. 2016 44 53 60 10.1249/JES.0000000000000074 26829247
+L238: 23. Andersen L.L. 
+L239:  Andersen J.L. 
+L240:  Zebis M.K. 
+L241:  Aagaard P. 
+L242:  Early and Late Rate of Force Development: Differential Adaptive Responses to Resistance Training? Scand. J. Med. Sci. Sports 2010 20 e162 e169 10.1111/j.1600-0838.2009.00933.x 19793220
+L243: 24. Coggan A.R. 
+L244:  Baranauskas M.N. 
+L245:  Hinrichs R.J. 
+L246:  Liu Z. 
+L247:  Carter S.J. 
+L248:  Effect of Dietary Nitrate on Human Muscle Power: A Systematic Review and Individual Participant Data Meta-Analysis J. Int. Soc. Sports Nutr. 2021 18 66 10.1186/s12970-021-00463-z 34625064
+L249: 25. Jonvik K.L. 
+L250:  Nyakayiru J. 
+L251:  Van Dijk J.W. 
+L252:  Maase K. 
+L253:  Ballak S.B. 
+L254:  Senden J.M.G. 
+L255:  Van Loon L.J.C. 
+L256:  Verdijk L.B. 
+L257:  Repeated-Sprint Performance and Plasma Responses Following Beetroot Juice Supplementation Do Not Differ between Recreational, Competitive and Elite Sprint Athletes Eur. J. Sport Sci. 2018 18 524 533 10.1080/17461391.2018.1433722 29412076
+L258: 26. Jonvik K.L. 
+L259:  Hoogervorst D. 
+L260:  Peelen H.B. 
+L261:  de Niet M. 
+L262:  Verdijk L.B. 
+L263:  van Loon L.J.C. 
+L264:  van Dijk J.-W. 
+L265:  The Impact of Beetroot Juice Supplementation on Muscular Endurance, Maximal Strength and Countermovement Jump Performance Eur. J. Sport Sci. 2021 21 871 878 10.1080/17461391.2020.1788649 32594854
+L266: 27. Kokkinoplitis K. 
+L267:  Chester N. 
+L268:  The Effect of Beetroot Juice on Repeated Sprint Performance and Muscle Force Production JPES 2014 14 242 247 10.7752/jpes.2014.02036
+L269: 28. Wylie L.J. 
+L270:  Bailey S.J. 
+L271:  Kelly J. 
+L272:  Blackwell J.R. 
+L273:  Vanhatalo A. 
+L274:  Jones A.M. 
+L275:  Influence of Beetroot Juice Supplementation on Intermittent Exercise Performance Eur. J. Appl. Physiol. 2016 116 415 425 10.1007/s00421-015-3296-4 26614506
+L276: 29. Coggan A.R. 
+L277:  Hoffman R.L. 
+L278:  Gray D.A. 
+L279:  Moorthi R.N. 
+L280:  Thomas D.P. 
+L281:  Leibowitz J.L. 
+L282:  Thies D. 
+L283:  Peterson L.R. 
+L284:  A Single Dose of Dietary Nitrate Increases Maximal Knee Extensor Angular Velocity and Power in Healthy Older Men and Women J. Gerontol. A Biol. Sci. Med. Sci. 2020 75 1154 1160 10.1093/gerona/glz156 31231758
+L285: 30. Gallardo E.J. 
+L286:  Gray D.A. 
+L287:  Hoffman R.L. 
+L288:  Yates B.A. 
+L289:  Moorthi R.N. 
+L290:  Coggan A.R. 
+L291:  Dose—Response Effect of Dietary Nitrate on Muscle Contractility and Blood Pressure in Older Subjects: A Pilot Study J. Gerontol. Ser. A 2021 76 591 598 10.1093/gerona/glaa311
+L292: 31. Cuenca E. 
+L293:  Jodra P. 
+L294:  Pérez-López A. 
+L295:  González-Rodríguez L.G. 
+L296:  Fernandes da Silva S. 
+L297:  Veiga-Herreros P. 
+L298:  Domínguez R. 
+L299:  Effects of Beetroot Juice Supplementation on Performance and Fatigue in a 30-s All-Out Sprint Exercise: A Randomized, Double-Blind Cross-Over Study Nutrients 2018 10 1222 10.3390/nu10091222
+L300: 32. Domínguez R. 
+L301:  Garnacho-Castaño M.V. 
+L302:  Cuenca E. 
+L303:  García-Fernández P. 
+L304:  Muñoz-González A. 
+L305:  de Jesús F. 
+L306:  Lozano-Estevan M.D.C. 
+L307:  Fernandes da Silva S. 
+L308:  Veiga-Herreros P. 
+L309:  Maté-Muñoz J.L. 
+L310:  Effects of Beetroot Juice Supplementation on a 30-s High-Intensity Inertial Cycle Ergometer Test Nutrients 2017 9 1360 10.3390/nu9121360 29244746
+L311: 33. Jodra P. 
+L312:  Domínguez R. 
+L313:  Sánchez-Oliver A.J. 
+L314:  Veiga-Herreros P. 
+L315:  Bailey S.J. 
+L316:  Effect of Beetroot Juice Supplementation on Mood, Perceived Exertion, and Performance During a 30-Second Wingate Test Int. J. Sports Physiol. Perform. 2020 15 243 248 10.1123/ijspp.2019-0149 31172827
+L317: 34. Kramer S.J. 
+L318:  Baur D.A. 
+L319:  Spicer M.T. 
+L320:  Vukovich M.D. 
+L321:  Ormsbee M.J. 
+L322:  The Effect of Six Days of Dietary Nitrate Supplementation on Performance in Trained CrossFit Athletes J. Int. Soc. Sports Nutr. 2016 13 39 45 10.1186/s12970-016-0150-y 27822169
+L323: 35. Rimer E.G. 
+L324:  Peterson L.R. 
+L325:  Coggan A.R. 
+L326:  Martin J.C. 
+L327:  Increase in Maximal Cycling Power With Acute Dietary Nitrate Supplementation Int. J. Sports Physiol. Perform. 2016 11 715 720 10.1123/ijspp.2015-0533 26641379
+L328: 36. Boorsma R.K. 
+L329:  Whitfield J. 
+L330:  Spriet L.L. 
+L331:  Beetroot Juice Supplementation Does Not Improve Performance of Elite 1500-m Runners Med. Sci. Sports Exerc. 2014 46 2326 2334 10.1249/MSS.0000000000000364 24781895
+L332: 37. Vanhatalo A. 
+L333:  Bailey S.J. 
+L334:  Blackwell J.R. 
+L335:  DiMenna F.J. 
+L336:  Pavey T.G. 
+L337:  Wilkerson D.P. 
+L338:  Benjamin N. 
+L339:  Winyard P.G. 
+L340:  Jones A.M. 
+L341:  Acute and Chronic Effects of Dietary Nitrate Supplementation on Blood Pressure and the Physiological Responses to Moderate-Intensity and Incremental Exercise Am. J. Physiol. Regul. Integr. Comp. Physiol. 2010 299 R1121 R1131 10.1152/ajpregu.00206.2010 20702806
+L342: 38. Flanagan S.D. 
+L343:  Looney D.P. 
+L344:  Miller M.J.S. 
+L345:  DuPont W.H. 
+L346:  Pryor L. 
+L347:  Creighton B.C. 
+L348:  Sterczala A.J. 
+L349:  Szivak T.K. 
+L350:  Hooper D.R. 
+L351:  Maresh C.M. 
+L352:  
+L353:  The Effects of Nitrate-Rich Supplementation on Neuromuscular Efficiency during Heavy Resistance Exercise J. Am. Coll Nutr. 2016 35 100 107 10.1080/07315724.2015.1081572 26885762
+L354: 39. Garnacho-Castaño M.V. 
+L355:  Sánchez-Nuño S. 
+L356:  Molina-Raya L. 
+L357:  Carbonell T. 
+L358:  Maté-Muñoz J.L. 
+L359:  Pleguezuelos-Cobo E. 
+L360:  Serra-Payá N. 
+L361:  Circulating Nitrate-Nitrite Reduces Oxygen Uptake for Improving Resistance Exercise Performance after Rest Time in Well-Trained CrossFit Athletes Sci. Rep. 2022 12 9671 9681 10.1038/s41598-022-13786-x 35690665
+L362: 40. Jurado-Castro J.M. 
+L363:  Campos-Perez J. 
+L364:  Ranchal-Sanchez A. 
+L365:  Durán-López N. 
+L366:  Domínguez R. 
+L367:  Acute Effects of Beetroot Juice Supplements on Lower-Body Strength in Female Athletes: Double-Blind Crossover Randomized Trial Sports Health 2022 19417381221083590 10.1177/19417381221083590 35603411
+L368: 41. Mosher S.L. 
+L369:  Sparks S.A. 
+L370:  Williams E.L. 
+L371:  Bentley D.J. 
+L372:  Mc Naughton L.R. 
+L373:  Ingestion of a Nitric Oxide Enhancing Supplement Improves Resistance Exercise Performance J. Strength Cond Res. 2016 30 3520 3524 10.1519/JSC.0000000000001437 27050244
+L374: 42. Ranchal-Sanchez A. 
+L375:  Diaz-Bernier V.M. 
+L376:  De La Florida-Villagran C.A. 
+L377:  Llorente-Cantarero F.J. 
+L378:  Campos-Perez J. 
+L379:  Jurado-Castro J.M. 
+L380:  Acute Effects of Beetroot Juice Supplements on Resistance Training: A Randomized Double-Blind Crossover Nutrients 2020 12 1912 10.3390/nu12071912
+L381: 43. Rodríguez-Fernández A. 
+L382:  Castillo D. 
+L383:  Raya-González J. 
+L384:  Domínguez R. 
+L385:  Bailey S.J. 
+L386:  Beetroot Juice Supplementation Increases Concentric and Eccentric Muscle Power Output. Original Investigation J. Sci. Med. Sport 2021 24 80 84 10.1016/j.jsams.2020.05.018 32507624
+L387: 44. Williams T.D. 
+L388:  Martin M.P. 
+L389:  Mintz J.A. 
+L390:  Rogers R.R. 
+L391:  Ballmann C.G. 
+L392:  Effect of Acute Beetroot Juice Supplementation on Bench Press Power, Velocity, and Repetition Volume J. Strength Cond. Res. 2020 34 924 928 10.1519/JSC.0000000000003509 31913252
+L393: 45. Polgar J. 
+L394:  Johnson M.A. 
+L395:  Weightman D. 
+L396:  Appleton D. 
+L397:  Data on Fibre Size in Thirty-Six Human Muscles. An Autopsy Study J. Neurol. Sci. 1973 19 307 318 10.1016/0022-510X(73)90094-4 4716847
+L398: 46. Zinner C. 
+L399:  Morales-Alamo D. 
+L400:  Ørtenblad N. 
+L401:  Larsen F.J. 
+L402:  Schiffer T.A. 
+L403:  Willis S.J. 
+L404:  Gelabert-Rebato M. 
+L405:  Perez-Valera M. 
+L406:  Boushel R. 
+L407:  Calbet J.A.L. 
+L408:  
+L409:  The Physiological Mechanisms of Performance Enhancement with Sprint Interval Training Differ between the Upper and Lower Extremities in Humans Front. Physiol. 2016 7 426 10.3389/fphys.2016.00426 27746738
+L410: 47. Baranauskas M.N. 
+L411:  Freemas J.A. 
+L412:  Tan R. 
+L413:  Carter S.J. 
+L414:  Moving beyond Inclusion: Methodological Considerations for the Menstrual Cycle and Menopause in Research Evaluating Effects of Dietary Nitrate on Vascular Function Nitric Oxide 2022 118 39 48 10.1016/j.niox.2021.11.001 34774755
+L415: 48. Govoni M. 
+L416:  Jansson E.A. 
+L417:  Weitzberg E. 
+L418:  Lundberg J.O. 
+L419:  The Increase in Plasma Nitrite after a Dietary Nitrate Load Is Markedly Attenuated by an Antibacterial Mouthwash Nitric Oxide 2008 19 333 337 10.1016/j.niox.2008.08.003 18793740
+L420: 49. Wilk M. 
+L421:  Golas A. 
+L422:  Stastny P. 
+L423:  Nawrocka M. 
+L424:  Krzysztofik M. 
+L425:  Zajac A. 
+L426:  Does Tempo of Resistance Exercise Impact Training Volume? J. Hum. Kinet. 2018 62 241 250 10.2478/hukin-2018-0034 29922395
+L427: 50. Terry P.C. 
+L428:  Lane A.M. 
+L429:  Lane H.J. 
+L430:  Keohane L. 
+L431:  Development and Validation of a Mood Measure for Adolescents J. Sports Sci. 1999 17 861 872 10.1080/026404199365425 10585166
+L432: 51. Terry P.C. 
+L433:  Lane A.M. 
+L434:  Fogarty G.J. 
+L435:  Construct Validity of the Profile of Mood States-Adolescents for Use with Adults Psychol. Sport Exerc. 2003 4 125 139 10.1016/S1469-0292(01)00035-8
+L436: 52. Beedie C.J. 
+L437:  Terry P.C. 
+L438:  Lane A.M. 
+L439:  The Profile of Mood States and Athletic Performance: Two Meta-Analyses J. Appl. Sport Psychol. 2000 12 49 68 10.1080/10413200008404213
+L440: 53. Crum E.M. 
+L441:  O’Connor W.J. 
+L442:  Van Loo L. 
+L443:  Valckx M. 
+L444:  Stannard S.R. 
+L445:  Validity and Reliability of the Moxy Oxygen Monitor during Incremental Cycling Exercise Eur. J. Sport Sci. 2017 17 1037 1043 10.1080/17461391.2017.1330899 28557670
+L446: 54. Feldmann A. 
+L447:  Schmitz R.W. 
+L448:  Erlacher D. 
+L449:  Near-Infrared Spectroscopy-Derived Muscle Oxygen Saturation on a 0% to 100% Scale: Reliability and Validity of the Moxy Monitor J. Biomed. Opt. 2019 24 115001 10.1117/1.JBO.24.11.115001
+L450: 55. McManus C.J. 
+L451:  Collison J. 
+L452:  Cooper C.E. 
+L453:  Performance Comparison of the MOXY and PortaMon Near-Infrared Spectroscopy Muscle Oximeters at Rest and during Exercise J. Biomed. Opt. 2018 23 015007 10.1117/1.JBO.23.1.015007
+L454: 56. Ferrari M. 
+L455:  Muthalib M. 
+L456:  Quaresima V. 
+L457:  The Use of Near-Infrared Spectroscopy in Understanding Skeletal Muscle Physiology: Recent Developments Philos. Trans. A Math. Phys. Eng. Sci. 2011 369 4577 4590 10.1098/rsta.2011.0230 22006907
+L458: 57. Ballmann C.G. 
+L459:  McCullum M.J. 
+L460:  Rogers R.R. 
+L461:  Marshall M.R. 
+L462:  Williams T.D. 
+L463:  Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance J. Strength Cond. Res. 2021 35 1650 1655 10.1519/JSC.0000000000002981 30531416
+L464: 58. Cohen J. 
+L465:  Statistical Power Analysis for the Behavioral Sciences 2nd ed. Routledge New York, NY, USA 1988 978-0-203-77158-7
+L466: 59. Lakens D. 
+L467:  Calculating and Reporting Effect Sizes to Facilitate Cumulative Science: A Practical Primer for  t -Tests and ANOVAs Front. Psychol. 2013 4 863 10.3389/fpsyg.2013.00863 24324449
+L468: 60. Tan R. 
+L469:  Wylie L.J. 
+L470:  Wilkerson D.P. 
+L471:  Vanhatalo A. 
+L472:  Jones A.M. 
+L473:  Effects of Dietary Nitrate on the O2 Cost of Submaximal Exercise: Accounting for “Noise” in Pulmonary Gas Exchange Measurements J. Sports Sci. 2022 40 1149 1157 10.1080/02640414.2022.2052471 35301929
+L474: 61. Tillin N.A. 
+L475:  Moudy S. 
+L476:  Nourse K.M. 
+L477:  Tyler C.J. 
+L478:  Nitrate Supplement Benefits Contractile Forces in Fatigued but Not Unfatigued Muscle Med. Sci. Sports Exerc. 2018 50 2122 2131 10.1249/MSS.0000000000001655 29727405
+L479: 62. Johnson M.A. 
+L480:  Sharpe G.R. 
+L481:  Williams N.C. 
+L482:  Hannah R. 
+L483:  Locomotor Muscle Fatigue Is Not Critically Regulated after Prior Upper Body Exercise J. Appl. Physiol. 2015 119 840 850 10.1152/japplphysiol.00072.2015 26272315
+L484: 63. Husmann F. 
+L485:  Bruhn S. 
+L486:  Mittlmeier T. 
+L487:  Zschorlich V. 
+L488:  Behrens M. 
+L489:  Dietary Nitrate Supplementation Improves Exercise Tolerance by Reducing Muscle Fatigue and Perceptual Responses Front. Physiol. 2019 10 404 10.3389/fphys.2019.00404 31068827
+L490: 64. Thurston T.S. 
+L491:  Weavil J.C. 
+L492:  Hureau T.J. 
+L493:  Gifford J.R. 
+L494:  Georgescu V.P. 
+L495:  Wan H.-Y. 
+L496:  La Salle D.T. 
+L497:  Richardson R.S. 
+L498:  Amann M. 
+L499:  On the Implication of Dietary Nitrate Supplementation for the Hemodynamic and Fatigue Response to Cycling Exercise J. Appl. Physiol. 2021 131 1691 1700 10.1152/japplphysiol.00400.2021 34672767
+L500: 65. Thompson C. 
+L501:  Wylie L.J. 
+L502:  Fulford J. 
+L503:  Kelly J. 
+L504:  Black M.I. 
+L505:  McDonagh S.T.J. 
+L506:  Jeukendrup A.E. 
+L507:  Vanhatalo A. 
+L508:  Jones A.M. 
+L509:  Dietary Nitrate Improves Sprint Performance and Cognitive Function during Prolonged Intermittent Exercise Eur. J. Appl. Physiol. 2015 115 1825 1834 10.1007/s00421-015-3166-0 25846114
+L510: 66. Jo E. 
+L511:  Fischer M. 
+L512:  Auslander A.T. 
+L513:  Beigarten A. 
+L514:  Daggy B. 
+L515:  Hansen K. 
+L516:  Kessler L. 
+L517:  Osmond A. 
+L518:  Wang H. 
+L519:  Wes R. 
+L520:  The Effects of Multi-Day vs. Single Pre-Exercise Nitrate Supplement Dosing on Simulated Cycling Time Trial Performance and Skeletal Muscle Oxygenation J. Strength Cond. Res. 2019 33 217 224 10.1519/JSC.0000000000001958 28445231
+L521: 67. Wylie L.J. 
+L522:  Ortiz de Zevallos J. 
+L523:  Isidore T. 
+L524:  Nyman L. 
+L525:  Vanhatalo A. 
+L526:  Bailey S.J. 
+L527:  Jones A.M. 
+L528:  Dose-Dependent Effects of Dietary Nitrate on the Oxygen Cost of Moderate-Intensity Exercise: Acute vs. Chronic Supplementation Nitric Oxide 2016 57 30 39 10.1016/j.niox.2016.04.004 27093910
+L529: 68. Coggan A.R. 
+L530:  Peterson L.R. 
+L531:  Dietary Nitrate Enhances the Contractile Properties of Human Skeletal Muscle Exerc. Sport Sci. Rev. 2018 46 254 261 10.1249/JES.0000000000000167 30001275
+L532: 69. Dutka T.L. 
+L533:  Mollica J.P. 
+L534:  Lamboley C.R. 
+L535:  Weerakkody V.C. 
+L536:  Greening D.W. 
+L537:  Posterino G.S. 
+L538:  Murphy R.M. 
+L539:  Lamb G.D. 
+L540:  S-Nitrosylation and S-Glutathionylation of Cys134 on Troponin I Have Opposing Competitive Actions on Ca 2+  Sensitivity in Rat Fast-Twitch Muscle Fibers Am. J. Physiol. Cell Physiol. 2017 312 C316 C327 10.1152/ajpcell.00334.2016 27974300
+L541: 70. Gould N. 
+L542:  Doulias P.-T. 
+L543:  Tenopoulou M. 
+L544:  Raju K. 
+L545:  Ischiropoulos H. 
+L546:  Regulation of Protein Function and Signaling by Reversible Cysteine S-Nitrosylation J. Biol. Chem. 2013 288 26473 26479 10.1074/jbc.R113.460261 23861393
+L547: 71. Ishii T. 
+L548:  Sunami O. 
+L549:  Saitoh N. 
+L550:  Nishio H. 
+L551:  Takeuchi T. 
+L552:  Hata F. 
+L553:  Inhibition of Skeletal Muscle Sarcoplasmic Reticulum Ca  2+  -ATPase by Nitric Oxide FEBS Lett. 1998 440 218 222 10.1016/S0014-5793(98)01460-4 9862458
+L554: 72. Nogueira L. 
+L555:  Figueiredo-Freitas C. 
+L556:  Casimiro-Lopes G. 
+L557:  Magdesian M.H. 
+L558:  Assreuy J. 
+L559:  Sorenson M.M. 
+L560:  Myosin Is Reversibly Inhibited by S-Nitrosylation Biochem. J. 2009 424 221 231 10.1042/BJ20091144 19747166
+L561: 73. Nyakayiru J. 
+L562:  van Loon L.J.C. 
+L563:  Verdijk L.B. 
+L564:  Could Intramuscular Storage of Dietary Nitrate Contribute to Its Ergogenic Effect? A Mini-Review Free Radic. Biol. Med. 2020 152 295 300 10.1016/j.freeradbiomed.2020.03.025 32224084
+L565: 74. Whitfield J. 
+L566:  Ludzki A. 
+L567:  Heigenhauser G.J.F. 
+L568:  Senden J.M.G. 
+L569:  Verdijk L.B. 
+L570:  van Loon L.J.C. 
+L571:  Spriet L.L. 
+L572:  Holloway G.P. 
+L573:  Beetroot Juice Supplementation Reduces Whole Body Oxygen Consumption but Does Not Improve Indices of Mitochondrial Efficiency in Human Skeletal Muscle J. Physiol. 2016 594 421 435 10.1113/JP270844 26457670
+L574: 75. Mattocks K.T. 
+L575:  Buckner S.L. 
+L576:  Jessee M.B. 
+L577:  Dankel S.J. 
+L578:  Mouser J.G. 
+L579:  Loenneke J.P. 
+L580:  Practicing the Test Produces Strength Equivalent to Higher Volume Training Med. Sci. Sports Exerc. 2017 49 1945 1954 10.1249/MSS.0000000000001300 28463902
+L581: 76. Nuzzo J.L. 
+L582:  Taylor J.L. 
+L583:  Gandevia S.C. 
+L584:  CORP: Measurement of Upper and Lower Limb Muscle Strength and Voluntary Activation J. Appl Physiol. 2019 126 513 543 10.1152/japplphysiol.00569.2018 30496711
+L585: 77. Kent G.L. 
+L586:  Dawson B. 
+L587:  Cox G.R. 
+L588:  Abbiss C.R. 
+L589:  Smith K.J. 
+L590:  Croft K.D. 
+L591:  Lim Z.X. 
+L592:  Eastwood A. 
+L593:  Burke L.M. 
+L594:  Peeling P. 
+L595:  Effect of Dietary Nitrate Supplementation on Thermoregulatory and Cardiovascular Responses to Submaximal Cycling in the Heat Eur. J. Appl. Physiol. 2018 118 657 668 10.1007/s00421-018-3809-z 29356948
+L596: 78. Nybäck L. 
+L597:  Glännerud C. 
+L598:  Larsson G. 
+L599:  Weitzberg E. 
+L600:  Shannon O.M. 
+L601:  McGawley K. 
+L602:  Physiological and Performance Effects of Nitrate Supplementation during Roller-Skiing in Normoxia and Normobaric Hypoxia Nitric Oxide 2017 70 1 8 10.1016/j.niox.2017.08.001 28782598
+L603: 79. Rokkedal-Lausch T. 
+L604:  Franch J. 
+L605:  Poulsen M.K. 
+L606:  Thomsen L.P. 
+L607:  Weitzberg E. 
+L608:  Kamavuako E.N. 
+L609:  Karbing D.S. 
+L610:  Larsen R.G. 
+L611:  Multiple-Day High-Dose Beetroot Juice Supplementation Does Not Improve Pulmonary or Muscle Deoxygenation Kinetics of Well-Trained Cyclists in Normoxia and Hypoxia Nitric Oxide 2021 111–112 37 44 10.1016/j.niox.2021.03.006
+L612: 80. Masschelein E. 
+L613:  Van Thienen R. 
+L614:  Wang X. 
+L615:  Van Schepdael A. 
+L616:  Thomis M. 
+L617:  Hespel P. 
+L618:  Dietary Nitrate Improves Muscle but Not Cerebral Oxygenation Status during Exercise in Hypoxia J. Appl. Physiol. 2012 113 736 745 10.1152/japplphysiol.01253.2011 22773768
+L619: 81. Shannon O.M. 
+L620:  Duckworth L. 
+L621:  Barlow M.J. 
+L622:  Deighton K. 
+L623:  Matu J. 
+L624:  Williams E.L. 
+L625:  Woods D. 
+L626:  Xie L. 
+L627:  Stephan B.C.M. 
+L628:  Siervo M. 
+L629:  
+L630:  Effects of Dietary Nitrate Supplementation on Physiological Responses, Cognitive Function, and Exercise Performance at Moderate and Very-High Simulated Altitude Front. Physiol. 2017 8 401 10.3389/fphys.2017.00401 28649204
+L631: 82. Cocksedge S.P. 
+L632:  Breese B.C. 
+L633:  Morgan P.T. 
+L634:  Nogueira L. 
+L635:  Thompson C. 
+L636:  Wylie L.J. 
+L637:  Jones A.M. 
+L638:  Bailey S.J. 
+L639:  Influence of Muscle Oxygenation and Nitrate-Rich Beetroot Juice Supplementation on O 2  Uptake Kinetics and Exercise Tolerance Nitric Oxide 2020 99 25 33 10.1016/j.niox.2020.03.007 32272260
+L640: Acknowledgments
+L641: We thank Daphne Green, Edward Patch, Hunter Paris, Matthew Joyner, and Michael Kruel for assistance in obtaining reagents/materials and for assistance in the analysis processes. We thank Lauren Wideen, Andrew Fest, Derek Pinto, Madelyn Nicholl, Annabelle Wang, Joshua Park, Rebecca Tuska, Jacob Seals, Nathan Ornelas, Joshua Leow, Isaac Tchaprazian, Jenny Chu, and Colby Turner for assistance with data collection.
+[28ms]
+

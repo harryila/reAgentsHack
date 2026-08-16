@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "3",
+    "-e",
+    "Combined effect of high-dose vitamin A, vitamin E supplementation, and zinc on adult patients with diabetes: A randomized trial"
+  ],
+  "completed_at": "2026-08-16T02:47:17.050484+00:00",
+  "elapsed_seconds": 1.3384881671518087,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:15.711989+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-005-pmc7753230.attempt-01.stderr",
+  "stdout_bytes": 679,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-005-pmc7753230.attempt-01.stdout"
+}

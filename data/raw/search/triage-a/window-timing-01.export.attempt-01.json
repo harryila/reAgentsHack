@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_70fcf6b2",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/window-timing-01.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:57:30.858083+00:00",
+  "elapsed_seconds": 0.3701472501270473,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:30.487890+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/window-timing-01.export.attempt-01.stderr",
+  "stdout_bytes": 119,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/window-timing-01.export.attempt-01.stdout"
+}

@@ -1,0 +1,752 @@
+L1: Astaxanthin supplementation enhances metabolic adaptation with aerobic training in the elderly
+L2: Physiological Reports (2021)
+L3: Sophia Z. Liu, Ana P. Valencia, Matt P. VanDoren, Eric G. Shankland, Baback Roshanravan, Kevin E. Conley, David J. Marcinek
+L4: 1 
+L5:  Department of Radiology 
+L6:  University of Washington 
+L7:  Seattle 
+L8:  WA 
+L9:  USA
+L10: 2 
+L11:  Exercise Research Center 
+L12:  Fred Hutchinson Cancer Research Center 
+L13:  Seattle 
+L14:  WA 
+L15:  USA
+L16: 3 
+L17:  Department of Internal Medicine, Division of Nephrology 
+L18:  University of California Davis 
+L19:  Sacramento 
+L20:  CA 
+L21:  USA
+L22: 4 
+L23:  Department of Physiology & Biophysics 
+L24:  University of Washington 
+L25:  Seattle 
+L26:  WA 
+L27:  USA
+L28: 5 
+L29:  Department of Bioengineering 
+L30:  University of Washington 
+L31:  Seattle 
+L32:  WA 
+L33:  USA
+L34: 6 
+L35:  Department of Medicine 
+L36:  University of Washington 
+L37:  Seattle 
+L38:  WA 
+L39:  USA
+L40: Endurance training (ET) is recommended for the elderly to improve metabolic health and aerobic capacity. However, ET‐induced adaptations may be suboptimal due to oxidative stress and exaggerated inflammatory response to ET. The natural antioxidant and anti‐inflammatory dietary supplement astaxanthin (AX) has been found to increase endurance performance among young athletes, but limited investigations have focused on the elderly. We tested a formulation of AX in combination with ET in healthy older adults (65–82 years) to determine if AX improves metabolic adaptations with ET, and if AX effects are sex‐dependent. Forty‐two subjects were randomized to either placebo (PL) or AX during 3 months of ET. Specific muscle endurance was measured in ankle dorsiflexors. Whole body exercise endurance and fat oxidation (FATox) was assessed with a graded exercise test (GXT) in conjunction with indirect calorimetry. Results: ET led to improved specific muscle endurance only in the AX group (Pre 353 ± 26 vs. Post 472 ± 41 contractions), and submaximal GXT duration improved in both groups (PL 40.8 ± 9.1% and AX 41.1 ± 6.3%). The increase in FATox at lower intensity after ET was greater in AX (PL 0.23 ± 0.15 g vs. AX 0.76 ± 0.18 g) and was associated with reduced carbohydrate oxidation and increased exercise efficiency in males but not in females.
+L41: Original Article; Original Articles
+L42: aging; anti‐oxidants; astaxanthin; fat oxidation; sex difference; training adaptation
+L43: INTRODUCTION
+L44: Aging is associated with reduced cardiovascular fitness and a decline in skeletal muscle quality and quantity. Maximal oxygen consumption (VO 2max ) has been shown to decline 10% per decade after the age of 30, while a decline in VO 2max  is directly associated with increased risk of mortality across multiple chronic conditions (Gries et al.,  1985 ; Myers et al.,  2002 ). The ability of skeletal muscle to serve as major metabolic reservoir to maintain energy balance and provide metabolic fuel during daily activity is also negatively impacted by aging: from reduced muscle strength and size (sarcopenia) to reduced mitochondrial capacity (ATPmax), coupling of oxidative phosphorylation (P/O ratio), elevated oxidative stress, and disruption of cell redox homeostasis (Amara et al.,  2007 ; Chambers et al.,  1985 ; Lexell et al.,  1988 ; Marcinek & Siegel,  2013 ; Siegel et al.,  2013 ). Therefore, protective therapeutics that can improve mitochondrial function, reduce chronic inflammation, or reduce reactive oxygen and nitrogen species (ROS/RNS), are attractive targets for clinical studies. The benefits of endurance exercise for improved cardiovascular, metabolic, and muscular health are well established (Goodpaster et al.,  1985 ; Gries et al.,  1985 ; Holloszy & Coyle,  1984 ). However, in aged individuals sustained inflammation and increased chronic oxidative stress may contribute to suboptimal results (Joseph et al.,  2016 ; Lavin et al.,  1985 ; Trappe et al.,  2011 ). Therefore, interventions to optimize exercise‐induced adaptations in aging continue to be evaluated (Kidd,  2011 ; Labonte et al.,  2008 ; Trappe & Liu,  1985 ).
+L45: Astaxanthin (AX) is a powerful carotenoid that has gained growing interest during the last decade due to its strong antioxidant capacity as well as anti‐inflammatory properties (Kidd,  2011 ; Yoshihara et al.,  2019 ). Astaxanthin has been consumed as a nutritional supplement for approximately thirty years with no documented adverse events (Capelli et al.,  2019 ). Its unique structure allows for the molecule to insert into a lipid bilayer to scavenge reactive oxygen species (ROS) and free radicals in both the inner and outer layer of the cell membrane (Kidd,  2011 ).
+L46: Benefits of AX supplementation on exercise performance have been reported in mice and humans. In mice, AX supplementation increased exercise capacity and fat oxidation during both swimming and treadmill exercise to exhaustion (Aoi et al.,  2008 ; Ikeuchi et al.,  2006 ). The increased time to exhaustion was related to increased lipid oxidation, reduced blood lactate, and reduced liver and muscle glycogen utilization (Aoi et al.,  2008 ; Ikeuchi et al.,  2006 ; Liu et al.,  2014 ). The effect of AX on muscle metabolism and performance is less clear in humans, with some showing a reduction in injury markers (Djordjevic et al.,  2012 ) but not others (Bloomer et al.,  2005 ), or benefits in strength (Malmsten & Lignell,  2008 ) in healthy male athletes. Earnest et al. in 2011 reported improved 20 km time trial performance with no difference in fat or carbohydrate oxidation during sub‐max cycling in endurance trained male cyclists (Earnest et al.,  2011 ). Res et al. observed no effect on either time trial or fat oxidization in endurance trained male athletes (Res et al.,  2013 ). It worth noting that most AX supplementation studies have been done in highly trained male subjects that may not necessarily benefit from AX supplementation as a result of their rigorous training.
+L47: Given the potential of AX to improve muscle performance and metabolic health, we sought to test the effects of AX supplementation in older individuals. In addition, we sought to assess sex differences as most studies have been conducted on males. We previously reported that a combination of AX supplementation and interval incline walking improved muscle strength, size, and specific force in a healthy elderly population (Liu et al.,  2018 ). Furthermore, this improvement from our aerobic‐based training program is similar to that observed with resistance training, which is the most common mode of exercise for treatment of sarcopenia (Fragala et al.,  2019 ; Jubrias et al.,  1985 ). The greater benefits of AX supplementation in the elderly compared to previous work published on healthy trained individuals, is consistent with previous studies testing the effects of redox‐targeted drugs on aged mice (Siegel et al.,  2013 ) that demonstrated greater benefits in aged groups compared to young, or anti‐inflammatories in older participants (Trappe et al.,  2011 ) that demonstrated greater benefits compared to resistance training alone.
+L48: The goal of this report is to provide insights on metabolic adaptation with combined AX and aerobic training to test whether AX enhances the metabolic benefits of exercise training in healthy older males and females. We tested the hypotheses that AX supplementation in combination with endurance training facilitates improvements in endurance and fat oxidation, and that the AX effect will be similar in both sexes.
+L49: METHODS
+L50: Study design
+L51: This randomized, double‐blind, placebo‐controlled study was conducted at the University of Washington Medical Center and the Fred Hutchison Cancer Research Center. Older adults between the ages of 65 and 82 were recruited through public lectures, mailers, posted advertisements, and referrals from prior studies. All participants gave written informed consent consistent with the Declaration of Helsinki in a project approved by the University of Washington and Western Institutional Review Boards, which was registered on ClinicalTrials.gov (NCT03368872). The details on recruitment process, research design, randomization, and blinding process have been reported previously (Liu et al.,  2018 ). Briefly, participants attended up to three visits to the laboratory. At baseline (V1) participants performed a graded exercise test (GXT), tibialis anterior (TA) muscle endurance test, and had blood drawn for blood metabolic panel and AX level measurements, before being blindly randomized to the AX or PL group. After one month of supplementation alone, participants returned to the lab (V2) for a blood test and to begin endurance training (ET). Following 12 weeks of ET with continued supplementation of AX or PL, participants returned for a final visit (V3) for GXT, blood tests, and TA muscle endurance test.
+L52: Participants
+L53: This is a secondary analysis of a study describing the effects of AX supplementation on muscle strength (Liu et al.,  2018 ). To be included in the study subjects had to be healthy without serious chronic conditions, be able to perform activities of daily living without assistance, and be able to speak and read English fluently. Each subject had a physical examination, resting and exercise echocardiogram, and blood testing to ensure they were healthy. Out of the 58 enrolled participants, 42 completed the TA muscle performance testing (see previous publication for details)(Liu et al.,  2018 ), and 40 completed the graded exercise test (GXT), specifically 17 males and 23 females (one of the female had a high aerobic capacity >2SD higher than the mean and was excluded from analysis).
+L54: Intervention
+L55: The dietary formulation of AX consisted of astaxanthin (12 mg), tocotrienol (10 mg), and zinc (6 mg; AstaReal AX, Bellevue, WA) and was consumed as two capsules per day. The AX dose was determined based on safety studies reported previously (Kidd,  2011 ). Details of ET have been published previously (Liu et al.,  2018 ). Briefly, ET consisted of a 12‐week program in which participants walked on the treadmill 3x/week. Training progressed in three steps: (i) familiarization with the treadmill protocol (weeks 1 and 2) involved 8–10 intervals at an incline between 6%–12% for ~1 min each and recovery for 2 min, (ii) baseline interval training (weeks 3–7) involved 1–1.5 min exercise in 8–10 intervals to achieve 70%–80% HRmax with 2–3 min of recovery exercise between intervals, and (iii) ramping up (weeks 8–12) involved 1.5–2 min exercise in 10–12 intervals to achieve 80%–85% HRmax with 0.5–1.0 min of recovery exercise between intervals. All exercise training was overseen by an American College of Sports Medicine certified exercise physiologist at the Fred Hutchinson Cancer Research Center.
+L56: Specific muscle endurance
+L57: The TA muscle strength and endurance were determined on the right leg using a custom‐built exercise apparatus. The results on muscle strength have been published (Liu et al.,  2018 ). Skeletal muscle endurance measurement consisted of voluntary ankle dorsiflexion at 70% of maximal force with increasing contraction frequency until fatigue. Subjects voluntarily contracted the TA in response to a signal from a metronome set at 60 beats per minute and increasing 10 beats every minute. Familiarization trial was run prior to the formal test at each visit to get subjects used to the contraction and metronome. Fatigue point was defined as failure to contract in response to the metronome signal or failure to maintain 70% of maximal force.
+L58: Submaximal endurance test and substrate utilization
+L59: Exercise testing using standard Balke treadmill protocol (Balke & Ware,  1959 ) was conducted at V1 and V3. Balke protocol was chosen because walking protocol is easier to adapt for elderly participants. The test started after 5–10 mins treadmill walking familiarization. Males walked at a constant speed of 3.3 mph at increasing incline of 1% every minute. Females walked at a constant speed of 3.0 mph at increasing incline 2.5% every 3 min. Heart rate (HR), rate of perceived exertion (RPE), and blood pressure were recorded at each stage. Oxygen consumption (VO 2 ) and carbon dioxide production (VCO 2 ) were computed with an indirect calorimeter (MGC Diagnostics Ultima CardiO2, St. Paul, MN). The rate of sampling (gas exchange) measured breath‐by‐breath and the output values are averaged of mid 5–7 breath of every 30 seconds. All testing was terminated when the participant reached either 85% predicted HRmax or once the participant reported anRPE of 15 and had a respiratory exchange ratio (RER) ≥ 1.00.
+L60: Substrate utilization and exercise efficiency computations
+L61: Fat and carbohydrate (CHO) oxidation were calculated using the following equations that have been used previously with indirect calorimetry (Croci et al.,  2014 ). Values for substrate utilization are expressed total grams integrated over the exercise period. Exercise efficiency was calculated by dividing power output (watts converted to kcal/min) by exercise energy expenditure (kcal/min) (Broskey et al.,  2015 ). Exercise energy expenditure reflects the sum of kilocalories (kcal) derived from rates of fat and CHO oxidation (g/min multiplied by 9 and 4, respectively).
+L62:  Respiratory Exchange Ratio (RER) = VCO 2 /VO 2 
+L63:  Fat oxidation (g/min)=1.67VO 2 (L/min)‐1.67VCO 2 (L/min) CHO oxidation (g/min)=4.55*VCO 2  (L/min)‐3.21VO 2  (L/min) Exercise efficiency (%) = Work (kcal/min) / Energy Expenditure (kcal/min) * 100
+L64: Statistical analysis
+L65: To test for changes in AX blood level, total contraction, treadmill time, and RER difference in both groups we used two‐way analysis of variance (Treatment x Time) with Sidak multiple comparison test. For comparisons of the deltas between PL and AX in contraction number and RER (without the effect of sex), an unpaired, two‐tailed  t ‐test was conducted. To determine if there were differences in the deltas for fuel change and exercise efficiency between sex and supplementation, a two‐way analysis of variance (Sex X Treatment) was conducted with a Sidak's multiple comparisons test. To analyze the changes in energy expenditure, work, and total efficiency we used a mixed model analysis of variance (Sex x Time x Treatment) followed by a Sidak's multiple comparison test. Significance was assigned at α = 0.05 ( p  < 0.05). Data are reported as means ± SEM in figures and in the tables. Outliers from the data analysis were excluded if their values were more than two standard deviations from the mean, which occurred for one participant whose triglyceride level was high due to high fat diet (HFD) that was not reported before the study initiated, one participant whose TA muscle endurance was high at both at baseline and V3, and one participant with a high endurance capacity in the GXT. Statistical analyses were performed using GraphPad Prism software (San Diego, CA).
+L66: RESULTS
+L67: Participants
+L68: Table  1  summarizes the characteristics of the participants. Throughout the 4‐month study, only male‐PL group had a mild decrease (>1%) in body weight. All other groups remained weight stable (<1% difference).
+L69: TABLE 1 Subjects characteristic, lipid profile, and insulin level before (V1) and after (V3) training and supplementation (Date present as mean ± S.E.)
+L70: Blood chemistry
+L71: Table  1  summarizes blood chemistry taken at baseline (V1), and after 3 months of ET with AX or PL supplementation (V3). Astaxanthin plasma levels were elevated after 1 month of AX or PL supplementation without ET (V2) and remained stable throughout the study (Figure  1 ). Changes in fasting plasma triglyceride were not different between AX and PL at V2, but significantly elevated in AX group at V3 compared to PL (although still within the healthy range of <150 mg/dL) (Table  1 ). In PL group, insulin level dropped after training in males ( p  < 0.05) and the drop of insulin in AX group was close to significance in females ( p  = 0.05) (Table  1 ). One participant following a high fat diet regiment had a blood triglyceride level that was 3 SD higher than the rest of the subjects and was excluded from the analysis. There were no differences in insulin, HDL, LDL, or total cholesterol between groups.
+L72: FIGURE 1 Change in serum level of AX concentration. Absolute change in serum plasma level of AX level between one month of supplementation only (V2) and post 3‐month endurance training (V3) (* p  < 0.05, AX compared to PL). Data presented as mean ± S.E
+L73: TA muscle endurance
+L74: One participant was unable to follow testing protocol and was excluded from the analysis. There was a training effect ( p  < 0.05) but no interaction effect on TA muscle endurance. Sidak's multiple comparison analysis showed this difference was driven by the AX treatment group (* p  < 0.05) (Figure  2a ). However, there was no treatment effect or sex difference between PL and AX in the change in TA endurance from V1‐V3 (Figure  2b,c ).
+L75: FIGURE 2 TA muscle endurance represented as the number of contractions from ankle dorsiflexion. (a): Number of contractions before (V1) and after training and supplementation (V3) (* p  < 0.05, V3 compared to V1) (b): Difference in number of contractions between V3 and V1 by group. (c): Difference in number of contractions between V3 and V1 by sex. Data presented as mean ± S.E
+L76: Submaximal endurance test
+L77: Endurance training increased endurance capacity in both groups leading to an approximately 4‐minute increase in the time it took for participants to meet the termination criteria for the GXT at V3 (Figure  3a ). The increase in endurance capacity, the %HRmax, and the RPE were not different at the end of the exercise test between AX or PL (Supplemental Figure  S1a‐b ; see  https://doi.org/10.6084/m9.figshare.13641338.v1 ). The changes in predicted VO 2max  based on Balke treadmill equation (Pollock et al.,  1976 ,  1982 ) were not different between AX and PL, but predicted VO 2max  values increased after ET in all groups (Supplemental Figure  S2 ; see  https://doi.org/10.6084/m9.figshare.13641317.v1 ). In order to test the effects of the combined ET and supplementation we defined the S1 phase as the stages completed in V3 that were also completed in V1 to compare substrate utilization and exercise efficiency under the same workload (Figure  3b ). Endurance training led to a decrease in the respiratory exchange ratio (RER) at the end of the S1 phase and the multiple comparison showed the reduction was primarily driven by AX group (Figure  3c ), and the reduction was significantly greater in the AX group ( p  < 0.05) (Figure  3d ).
+L78: FIGURE 3 Graded treadmill exercise test. (a): Time to reach submaximal termination criteria for the GXT. (* p  < 0.05, V3 compared to V1) (b): Schematics of treadmill test before (V1) and after training and supplementation (V3). (c): Respiratory exchange ratio (RER) at the last stage of S1. (* p  < 0.05, V3 compared to V1) (d): Difference in RER between V3 and V1 at the end of S1. (* p  < 0.05, AX compared to PL). Data presented as mean ± S.E
+L79: Energy substrate
+L80: To test for sex‐specific effects of ET and supplementation and to account for the different GXT protocols used in males and females, we analyzed both sexes separately. Total fat oxidation increased with ET in all but PL‐Female group ( p  < 0.05) (Supplemental Table  S1 ; see  https://doi.org/10.6084/m9.figshare.13641278.v1 ). AX further increased fat oxidation in both males and females in the S1 phase ( p  < 0.05) (Figure  4a ). Carbohydrate oxidation decreased with ET in all groups and the reduction was greater in AX compared to PL for the males but not females ( p  < 0.05) (Figure  4b ). The increase in relative contribution of fat to energy metabolism with AX supplementation throughout the GXT is illustrated for males and females by plotting both the absolute (Figure  4c,e ) and change in RER from V1 to V3 (Figure  4d,f ).
+L81: FIGURE 4 GXT metabolic fuel use and representative RER throughout different GXT stages. (a): Difference in total lipid oxidation in S1 between V3 and V1. (b): Difference in total carbohydrate oxidation in S1 between V3 and V1. (c‐f): RER as representation of fuel selection throughout different GXT stages. Data presented as mean ± S.E. (* p  < 0.05, AX compared to PL)
+L82: Exercise efficiency
+L83: Participants were able to perform more work and consequently increase their energy expenditure on the GXT after ET at V3 (Figure  5a ). However, total exercise efficiency increased in all groups from V1 to V3 except in males treated with PL (Figure  5b ). There was an interaction effect of AX that was dependent on sex, where AX supplementation increased total exercise efficiency relative to PL in males only, (Figure  5c ). Exercise efficiency can increase when the rise in work is greater relative to the rise in energy expenditure, so we compared exercise efficiency under the same workload completed at V1 (S1 phase). Females increased exercise efficiency in both AX and PL groups. The increase in exercise efficiency for males, however, was only evident in AX and not PL (Figure  5d,f ).
+L84: FIGURE 5 Exercise efficiency. (a): Total work and energy expenditure from GXT test. (b): Total exercise efficiency (work/ energy expenditure) (c): Difference in total efficiency between V3 and V1. (d): S1 stage work and energy expenditure from GXT test. (e): S1 efficiency between sexes. (f): Difference in S1 efficiency between V3 and V1. Data presented as mean ± S.E. (A,B,D,E * p  < 0.05, V3 compared to V1; C, F * p  < 0.05 AX compared to sex‐matched PL)
+L85: DISCUSSION
+L86: The main findings of this report are that AX supplementation (ⅰ) increased the preference for fat oxidation under the same exercise intensity (RER ≤ 1), (ⅱ) increased exercise efficiency and reduced carbohydrate oxidation during same lower intensity exercise stages primarily in older males.
+L87: Astaxanthin is fast absorbed in the blood. A bioavailability study showed consumption of 1.25 mg AX from wild salmon (250 g) led to elevated plasma AX at day 3 and peaked by day 6 (Rufer et al.,  2008 ). Our study showed AX levels in the blood increased after one month of supplementation and remained at the same level throughout the 3 months of exercise. Brown et al. also reported that AX supplementation for 7 days reaches significant ergogenic benefit on cycling performance (Brown et al.,  2020 ). Despite the rapid increase in plasma AX concentration, the effect of supplementation on blood triglycerides level was only observed after 3 months of exercise training and not during the initial month of supplementation alone phase. The combined effect of AX and ET could relate to increase fat use as fuel source during exercise (Polotow et al.,  2014 ). It is interesting to note that previous work reported that the effect of AX is positively influenced by dietary lipids through AX bioavailability studies (Kidd,  2011 ). The health benefit of AX, especially when combined with dietary lipids, on blood profile is supported by investigations on humans and mice (Supplemental Table  S2 ; see  https://doi.org/10.6084/m9.figshare.13641281.v1 ) (Choi, Kim, et al.,  2011 , Choi, Youn, et al.,  2011 ; Nishida et al.,  2020 ).
+L88: One of the main goals of exercise training interventions, especially in the elderly, is to improve exercise tolerance and metabolic health. Improvement in GXT performance after training can be due to a variety of factors beyond changes in substrate utilization, such as cardiovascular and neuromuscular adaptations. The neuromuscular adaptation from training can lead to improved functional capacity when the training and testing use the same activity mode. In this study ET led to improved treadmill time and increased predicted VO 2max  for all groups. To distinguish metabolic adaptation from the potential that neuromuscular adaptation underlies the improved exercise tolerance we tested TA muscle endurance using an activity distinct from the training activity. The improvement in the TA endurance following ET with AX supplementation suggests a beneficial effect of AX on performance at the isolated muscle level independent of training adaptation/stimulation. This is consistent with our previous report showing improved strength with AX following ET (Liu et al.,  2018 ). However, it is important to note that the improvements in TA endurance after ET were not different between AX and PL.
+L89: We implemented the Balke submax treadmill protocol to monitor metabolic fuel selection at various intensities of exercise. The Balke protocol is often used for populations with limited exercise capacity and the protocol varies according to sex with the male's protocol reaching higher intensities over a shorter time frame (Balke & Ware,  1959 ; Hagberg,  1994 ). We recognize this limitation and analyzed both sexes separately. To account for the likelihood that substrate utilization changes did not reach a steady‐state at each step in exercise intensity, especially in male participants where the steps were only 1 minute each, we used the sum of the substrate oxidation for all the stages in the exercise period rather than rely on the rate of substrate utilization for a given stage (Brown et al.,  2020 ; Earnest et al.,  2011 ; Res et al.,  2013 ). In addition, comparing the difference within subjects also minimized the influence of non‐steady state conditions on the comparison. We found that AX supplementation increased fat utilization similarly in both males and females despite differences in protocols. The reduction in carbohydrate use after training primarily happened in male participants supplemented with AX. This sex difference could be due to the difference in exercise protocol, but could also be due to sex‐specific effect of AX. It has been documented that men utilize more carbohydrate than fat during submaximal exercise compared to women, that may be attributed to lower intramyocellular lipid and adipocyte sensitivity to lipolysis (Tarnopolsky,  2008 ). Thus, promoting fat oxidation with AX in males may promote a greater carbohydrate‐sparing effect than in women, as males’ initial reliance on carbohydrate was greater. The limited studies including female participants makes it even more interesting to investigate the potential sex differences in response to AX supplementation (Supplemental Table  S2 ).
+L90: Our findings from the elderly participants improving fat oxidation from AX supplementation agree with the findings on younger individuals. For instance, a recently published performance focused study on male cyclists using a cross‐over design also reported improved performance and fat oxidation during a 40 km cycling time trail (Brown et al.,  2020 ). Both the dynamic protocol in this study and the cross‐over study design cited above allowed testing of fat oxidation across a range of exercise intensities and accounted for individual differences on substrate utilization and exercise capacity. In contrast, two other performance focused study set the cycling intensity at 50% Watt‐max did not detect the benefits of AX on fat oxidation throughout the sub‐max cycling activity (Earnest et al.,  2011 ; Res et al.,  2013 ). The dynamic versus steady state (50% Watt‐max) (Earnest et al.,  2011 ; Res et al.,  2013 ) protocol may have partially contributed to inconsistent finding on fat oxidation in human (Supplemental Table  S2 ).
+L91: An important variable to consider when assessing the adaptation to training or the effect of supplementation is the starting fitness level of the subjects. Our healthy elderly predicted VO 2max  values were between ~20–30 ml/kg/min compared to 50–60 ml/kg/min from other studies of AX that recruited highly trained athletes (Earnest et al.,  2011 ; Res et al.,  2013 ). Fat oxidation in highly trained athletes is likely already optimized through years of training. To the best of our knowledge, only one other study has explored the effects of AX supplementation in the context of aging. Park et al (Park et al.,  2013 ) demonstrated restored redox balance, improved mitochondrial mass, and ATP production by peripheral blood mononuclear cells of both young and geriatric dogs. In addition, AX suppressed plasma DNA oxidative damage only in geriatric dogs. Future investigations of the impact of AX supplementation in the elderly are necessary as the benefit to this population may be greater than what has been documented in younger individuals.
+L92: Older sedentary adults tend to have low levels of exercise efficiency (Broskey et al.,  2015 ; Woo et al.,  2006 ) that can prevent them from accomplishing daily activities and reduce their quality of life. Increasing exercise efficiency means that it would require less energy to perform a given amount of work. Similar to previous studies (Myers et al.,  2002 ; Woo et al.,  2006 ) we found that endurance training increased exercise efficiency in older adults regardless of sex. Interestingly, we also found that males who were supplemented with AX were more responsive than their placebo‐treated counterparts to training‐induced increases in exercise efficiency. Factors contributing to increased efficiency include improved muscle oxidative capacity, muscle capillarization, cardiac function, and mitochondrial function (Broskey et al.,  2015 ; Conley et al.,  2013 ; Masuki et al.,  1985 ; Woo et al.,  2006 ). It has been shown that supplementation with 5‐aminolevulinic acid and iron, which are involved in heme biosynthesis and can increase complex IV activity and increase ATP synthesis rate in mouse muscle (Ogura et al.,  2011 ), promoted increases in exercise efficiency in older females participating in a home‐based walking training program (Masuki et al.,  1985 ). Thus, AX could promote a similar mechanism as it has been shown to increase gene expression of mitochondrial complexes and ATP production (Nishida et al.,  2020 ).
+L93: It is important to point out some potential pathways published in the literature for future clinical trials. (Aoi et al.,  2008 ) reported that AX improved fat oxidation in mice through increased co‐immunoprecipitation of fatty acyl transferase (FAT/CD36) with carnitine palmitoyltransferase I (CPTI), and AX reduced oxidative stress‐induced modification of CPTI by hexanoyl‐lysine adduct (HEL). In contrast, other antioxidant, such as vitamin C and E, have mixed results: either enhancing or interfering with exercise adaptation (Gomez‐Cabrera et al.,  2008 ; Peternelj & Coombes,  2011 ).
+L94: In summary, AX is natural antioxidant and anti‐inflammatory supplement that may have the potential to benefit muscle function and exercise tolerance in the aged population. Here we have demonstrated that combining AX and exercise training leads to improved fat oxidation, CHO sparing, and increased exercise efficiency in aged healthy subjects, especially in males. These metabolic improvements combined with the benefits of the combined intervention on improvements in muscle strength, size, and specific force indicate that incorporation of AX into an exercise training program in the elderly could enhance exercise tolerance and quality of life. While these results are intriguing, the mechanisms underlying the enhanced adaptation to exercise and sex‐specific effects on fuel selection and exercise efficiency observed in this study are still unknown. Studies combining exercise training, functional testing, and adaptive signaling will be necessary to better understand the mechanisms by which AX enhances the adaptive response to training in aged subjects.
+L95: LIMITATIONS
+L96: Data from this study demonstrated that AX improved fat utilization and reduced carbohydrate use during graded exercise especially at lower intensities (RER<1). However, this study was not designed to collect information on the biochemical mechanisms/pathways underlying these effects, which is one of our study limitations. Our subjects were instructed to limit antioxidant supplements before enrolling in the study, but lack of dietary information that may potentially influence our results.
+L97: CONFLICT OF INTEREST
+L98: S.Z.L., A.P. V., M.D.C., K.K., E. G.S., B.R., and D.J.M. declares that there is no conflict of interest. K.E.C. has received research funds and was a Scientific Advisor for Astavita, Inc. before his death in 2019.
+L99: AUTHOR CONTRIBUTIONS
+L100: Sophia Z. Liu, David J. Marcinek, Kevin E. Conley, and Astavita designed the research; Kevin E. Conley, Sophia Z. Liu, Matt P. VanDoren, and Eric G. Shankland performed the research; Baback Roshanravan provided clinical oversight; Sophia Z. Liu, David J. Marcinek, and Ana P. Valencia analyzed data; and Sophia Liu, Ana Valencia, and David J. Marcinek wrote the paper. As first, second, and corresponding authors, Sophia Z. Liu, Ana Valencia, and David J. Marcinek contributed equally to the study. Kevin E. Conley contributed to the manuscript, but died prior to the manuscript's submission for publication.
+L101: Supporting information
+L102: Supplementary Material
+L103: Figures S1‐2
+L104: Table S1
+L105: Table S2
+L106: Amara ,  C. E. 
+L107:  ,  
+L108:  Shankland ,  E. G. 
+L109:  ,  
+L110:  Jubrias ,  S. A. 
+L111:  ,  
+L112:  Marcinek ,  D. J. 
+L113:  ,  
+L114:  Kushmerick ,  M. J. 
+L115:  , &  
+L116:  Conley ,  K. E. 
+L117:   ( 2007 ).  Mild mitochondrial uncoupling impacts cellular aging in human muscles in vivo .  Proceedings of the National Academy of Sciences of the United States of America ,  104 ,  1057 – 1062 . 17215370
+L118: Aoi ,  W. 
+L119:  ,  
+L120:  Naito ,  Y. 
+L121:  ,  
+L122:  Takanami ,  Y. 
+L123:  ,  
+L124:  Ishii ,  T. 
+L125:  ,  
+L126:  Kawai ,  Y. 
+L127:  ,  
+L128:  Akagiri ,  S. 
+L129:  ,  
+L130:  Kato ,  Y. 
+L131:  ,  
+L132:  Osawa ,  T. 
+L133:  , &  
+L134:  Yoshikawa ,  T. 
+L135:   ( 2008 ).  Astaxanthin improves muscle lipid metabolism in exercise via inhibitory effect of oxidative CPT I modification .  Biochemical and Biophysical Research Communications ,  366 ,  892 – 897 . 18082622
+L136: Balke ,  B. 
+L137:  , &  
+L138:  Ware ,  R. W. 
+L139:   ( 1959 ).  An experimental study of physical fitness of Air Force personnel .  United States Armed Forces Medical Journal ,  10 ,  675 – 688 . 13659732
+L140: Bloomer ,  R. J. 
+L141:  ,  
+L142:  Fry ,  A. 
+L143:  ,  
+L144:  Schilling ,  B. 
+L145:  ,  
+L146:  Chiu ,  L. 
+L147:  ,  
+L148:  Hori ,  N. 
+L149:  , &  
+L150:  Weiss ,  L. 
+L151:   ( 2005 ).  Astaxanthin supplementation does not attenuate muscle injury following eccentric exercise in resistance‐trained men .  International Journal of Sport Nutrition and Exercise Metabolism ,  15 ,  401 – 412 . 16286671
+L152: Broskey ,  N. T. 
+L153:  ,  
+L154:  Boss ,  A. 
+L155:  ,  
+L156:  Fares ,  E. J. 
+L157:  ,  
+L158:  Greggio ,  C. 
+L159:  ,  
+L160:  Gremion ,  G. 
+L161:  ,  
+L162:  Schluter ,  L. 
+L163:  ,  
+L164:  Hans ,  D. 
+L165:  ,  
+L166:  Kreis ,  R. 
+L167:  ,  
+L168:  Boesch ,  C. 
+L169:  , &  
+L170:  Amati ,  F. 
+L171:   ( 2015 ).  Exercise efficiency relates with mitochondrial content and function in older adults .  Physiological Reports ,  3 ,  e12418 . 26059033
+L172: Brown ,  D. R. 
+L173:  ,  
+L174:  Warner ,  A. R. 
+L175:  ,  
+L176:  Deb ,  S. K. 
+L177:  ,  
+L178:  Gough ,  L. A. 
+L179:  ,  
+L180:  Sparks ,  S. A. 
+L181:  , &  
+L182:  McNaughton ,  L. R. 
+L183:   ( 2020 ).  The effect of astaxanthin supplementation on performance and fat oxidation during a 40 km cycling time trial .  Journal of Science and Medicine in Sport ,  24 ,  92 – 97 . 32660833
+L184: Capelli ,  B. 
+L185:  ,  
+L186:  Talbott ,  S. 
+L187:  , &  
+L188:  Ding ,  L. 
+L189:   ( 2019 ).  Astaxanthin sources: Suitability for human health and nutrition .  Functional Foods in Health and Disease ,  9 ,  430 – 445 .
+L190: Chambers ,  T. L. 
+L191:  ,  
+L192:  Burnett ,  T. R. 
+L193:  ,  
+L194:  Raue ,  U. 
+L195:  ,  
+L196:  Lee ,  G. A. 
+L197:  ,  
+L198:  Finch ,  W. H. 
+L199:  ,  
+L200:  Graham ,  B. M. 
+L201:  ,  
+L202:  Trappe ,  T. A. 
+L203:  , &  
+L204:  Trappe ,  S. 
+L205:   ( 1985 ).  Skeletal muscle size, function, and adiposity with lifelong aerobic exercise .  Journal of Applied Physiology ,  128 ( 2 ),  368 – 378 .
+L206: Choi ,  H. D. 
+L207:  ,  
+L208:  Kim ,  J. H. 
+L209:  ,  
+L210:  Chang ,  M. J. 
+L211:  ,  
+L212:  Kyu‐Youn ,  Y. 
+L213:  , &  
+L214:  Shin ,  W. G. 
+L215:   ( 2011 ).  Effects of astaxanthin on oxidative stress in overweight and obese adults .  Phytotherapy Research ,  25 ,  1813 – 1818 . 21480416
+L216: Choi ,  H. D. 
+L217:  ,  
+L218:  Youn ,  Y. K. 
+L219:  , &  
+L220:  Shin ,  W. G. 
+L221:   ( 2011 ).  Positive effects of astaxanthin on lipid profiles and oxidative stress in overweight subjects .  Plant Foods for Human Nutrition ,  66 ,  363 – 369 . 21964877
+L222: Conley ,  K. E. 
+L223:  ,  
+L224:  Jubrias ,  S. A. 
+L225:  ,  
+L226:  Cress ,  M. E. 
+L227:  , &  
+L228:  Esselman ,  P. 
+L229:   ( 2013 ).  Exercise efficiency is reduced by mitochondrial uncoupling in the elderly .  Experimental Physiology ,  98 ,  768 – 777 . 23085769
+L230: Croci ,  I. 
+L231:  ,  
+L232:  Borrani ,  F. 
+L233:  ,  
+L234:  Byrne ,  N. M. 
+L235:  ,  
+L236:  Wood ,  R. E. 
+L237:  ,  
+L238:  Hickman ,  I. J. 
+L239:  ,  
+L240:  Cheneviere ,  X. 
+L241:  , &  
+L242:  Malatesta ,  D. 
+L243:   ( 2014 ).  Reproducibility of Fatmax and fat oxidation rates during exercise in recreationally trained males .  PLoS One ,  9 ,  e97930 . 24886715
+L244: Djordjevic ,  B. 
+L245:  ,  
+L246:  Baralic ,  I. 
+L247:  ,  
+L248:  Kotur‐Stevuljevic ,  J. 
+L249:  ,  
+L250:  Stefanovic ,  A. 
+L251:  ,  
+L252:  Ivanisevic ,  J. 
+L253:  ,  
+L254:  Radivojevic ,  N. 
+L255:  ,  
+L256:  Andjelkovic ,  M. 
+L257:  , &  
+L258:  Dikic ,  N. 
+L259:   ( 2012 ).  Effect of astaxanthin supplementation on muscle damage and oxidative stress markers in elite young soccer players .  The Journal of Sports Medicine and Physical Fitness ,  52 ,  382 – 392 . 22828460
+L260: Earnest ,  C. P. 
+L261:  ,  
+L262:  Lupo ,  M. 
+L263:  ,  
+L264:  White ,  K. M. 
+L265:  , &  
+L266:  Church ,  T. S. 
+L267:   ( 2011 ).  Effect of astaxanthin on cycling time trial performance .  International Journal of Sports Medicine ,  32 ,  882 – 888 . 21984399
+L268: Fragala ,  M. S. 
+L269:  ,  
+L270:  Cadore ,  E. L. 
+L271:  ,  
+L272:  Dorgo ,  S. 
+L273:  ,  
+L274:  Izquierdo ,  M. 
+L275:  ,  
+L276:  Kraemer ,  W. J. 
+L277:  ,  
+L278:  Peterson ,  M. D. 
+L279:  , &  
+L280:  Ryan ,  E. D. 
+L281:   ( 2019 ).  Resistance training for older adults: position statement from the national strength and conditioning association .  Journal of Strength and Conditioning Research/ National Strength & Conditioning Association ,  33 ,  2019 – 2052 .
+L282: Gomez‐Cabrera ,  M. C. 
+L283:  ,  
+L284:  Domenech ,  E. 
+L285:  ,  
+L286:  Romagnoli ,  M. 
+L287:  ,  
+L288:  Arduini ,  A. 
+L289:  ,  
+L290:  Borras ,  C. 
+L291:  ,  
+L292:  Pallardo ,  F. V. 
+L293:  ,  
+L294:  Sastre ,  J. 
+L295:  , &  
+L296:  Vina ,  J. 
+L297:   ( 2008 ).  Oral administration of vitamin C decreases muscle mitochondrial biogenesis and hampers training‐induced adaptations in endurance performance .  The American Journal of Clinical Nutrition ,  87 ,  142 – 149 . 18175748
+L298: Goodpaster ,  B. H. 
+L299:  ,  
+L300:  Chomentowski ,  P. 
+L301:  ,  
+L302:  Ward ,  B. K. 
+L303:  ,  
+L304:  Rossi ,  A. 
+L305:  ,  
+L306:  Glynn ,  N. W. 
+L307:  ,  
+L308:  Delmonico ,  M. J. 
+L309:  ,  
+L310:  Kritchevsky ,  S. B. 
+L311:  ,  
+L312:  Pahor ,  M. 
+L313:  , &  
+L314:  Newman ,  A. B. 
+L315:   ( 1985 ).  Effects of physical activity on strength and skeletal muscle fat infiltration in older adults: a randomized controlled trial .  Journal of Applied Physiology ,  105 ,  1498 
+L316:  – 
+L317:  1503 .
+L318: Gries ,  K. J. 
+L319:  ,  
+L320:  Raue ,  U. 
+L321:  ,  
+L322:  Perkins ,  R. K. 
+L323:  ,  
+L324:  Lavin ,  K. M. 
+L325:  ,  
+L326:  Overstreet ,  B. S. 
+L327:  ,  
+L328:  D'Acquisto ,  L. J. 
+L329:  ,  
+L330:  Graham ,  B. 
+L331:  ,  
+L332:  Finch ,  W. H. 
+L333:  ,  
+L334:  Kaminsky ,  L. A. 
+L335:  ,  
+L336:  Trappe ,  T. A. 
+L337:  , &  
+L338:  Trappe ,  S. 
+L339:   ( 1985 ).  Cardiovascular and skeletal muscle health with lifelong exercise .  Journal of Applied Physiology ,  125 ,  1636 – 1645 .
+L340: Hagberg ,  J. M. 
+L341:   ( 1994 ).  Exercise assessment of arthritic and elderly individuals .  Baillière's Clinical Rheumatology ,  8 ,  29 – 52 . 8149448
+L342: Holloszy ,  J. O. 
+L343:  , &  
+L344:  Coyle ,  E. F. 
+L345:   ( 1984 ).  Adaptations of skeletal muscle to endurance exercise and their metabolic consequences .  Journal of Applied Physiology ,  56 ,  831 – 838 . 6373687
+L346: Ikeuchi ,  M. 
+L347:  ,  
+L348:  Koyama ,  T. 
+L349:  ,  
+L350:  Takahashi ,  J. 
+L351:  , &  
+L352:  Yazawa ,  K. 
+L353:   ( 2006 ).  Effects of astaxanthin supplementation on exercise‐induced fatigue in mice .  Biological &/and Pharmaceutical Bulletin ,  29 ,  2106 – 2110 .
+L354: Joseph ,  A. M. 
+L355:  ,  
+L356:  Adhihetty ,  P. J. 
+L357:  , &  
+L358:  Leeuwenburgh ,  C. 
+L359:   ( 2016 ).  Beneficial effects of exercise on age‐related mitochondrial dysfunction and oxidative stress in skeletal muscle .  The Journal of Physiology ,  594 ,  5105 – 5123 . 26503074
+L360: Jubrias ,  S. A. 
+L361:  ,  
+L362:  Esselman ,  P. C. 
+L363:  ,  
+L364:  Price ,  L. B. 
+L365:  ,  
+L366:  Cress ,  M. E. 
+L367:  , &  
+L368:  Conley ,  K. E. 
+L369:   ( 1985 ).  Large energetic adaptations of elderly muscle to resistance and endurance training .  Journal of Applied Physiology ,  90 ,  1663 – 1670 .
+L370: Kidd ,  P. 
+L371:   ( 2011 ).  Astaxanthin, cell membrane nutrient with diverse clinical benefits and anti‐aging potential .  Alternative Medicine Review: A Journal of Clinical Therapeutic ,  16 ,  355 – 364 . 22214255
+L372: Labonte ,  M. 
+L373:  ,  
+L374:  Dionne ,  I. J. 
+L375:  ,  
+L376:  Bouchard ,  D. R. 
+L377:  ,  
+L378:  Senechal ,  M. 
+L379:  ,  
+L380:  Tessier ,  D. 
+L381:  ,  
+L382:  Khalil ,  A. 
+L383:  ,  
+L384:  Labonte ,  M. 
+L385:  ,  
+L386:  Bobeuf ,  F. 
+L387:  ,  
+L388:  Tessier ,  D. 
+L389:  ,  
+L390:  Khalil ,  A. 
+L391:  , &  
+L392:  Dionne ,  I. J. 
+L393:   ( 2008 ).  Effects of antioxidant supplements combined with resistance exercise on gains in fat‐free mass in healthy elderly subjects: a pilot study .  Journal of the American Geriatrics Society ,  56 ,  1766 – 1768 . 19166454
+L394: Lavin ,  K. M. 
+L395:  ,  
+L396:  Perkins ,  R. K. 
+L397:  ,  
+L398:  Jemiolo ,  B. 
+L399:  ,  
+L400:  Raue ,  U. 
+L401:  ,  
+L402:  Trappe ,  S. W. 
+L403:  , &  
+L404:  Trappe ,  T. A. 
+L405:   ( 1985 ).  Effects of aging and lifelong aerobic exercise on basal and exercise‐induced inflammation .  Journal of Applied Physiology ,  128 ( 1 ),  87 – 99 .
+L406: Lexell ,  J. 
+L407:  ,  
+L408:  Taylor ,  C. C. 
+L409:  , &  
+L410:  Sjostrom ,  M. 
+L411:   ( 1988 ).  What is the cause of the ageing atrophy? Total number, size and proportion of different fiber types studied in whole vastus lateralis muscle from 15‐ to 83‐year‐old men .  Journal of the Neurological Sciences ,  84 ,  275 – 294 . 3379447
+L412: Liu ,  P. H. 
+L413:  ,  
+L414:  Aoi ,  W. 
+L415:  ,  
+L416:  Takami ,  M. 
+L417:  ,  
+L418:  Terajima ,  H. 
+L419:  ,  
+L420:  Tanimura ,  Y. 
+L421:  ,  
+L422:  Naito ,  Y. 
+L423:  ,  
+L424:  Itoh ,  Y. 
+L425:  , &  
+L426:  Yoshikawa ,  T. 
+L427:   ( 2014 ).  The astaxanthin‐induced improvement in lipid metabolism during exercise is mediated by a PGC‐1alpha increase in skeletal muscle .  Journal of Clinical Biochemistry and Nutrition ,  54 ,  86 – 89 . 24688216
+L428: Liu ,  S. Z. 
+L429:  ,  
+L430:  Ali ,  A. S. 
+L431:  ,  
+L432:  Campbell ,  M. D. 
+L433:  ,  
+L434:  Kilroy ,  K. 
+L435:  ,  
+L436:  Shankland ,  E. G. 
+L437:  ,  
+L438:  Roshanravan ,  B. 
+L439:  ,  
+L440:  Marcinek ,  D. J. 
+L441:  , &  
+L442:  Conley ,  K. E. 
+L443:   ( 2018 ).  Building strength, endurance, and mobility using an astaxanthin formulation with functional training in elderly .  J Cachexia Sarcopenia Muscle ,  9 ,  826 – 833 . 30259703
+L444: Malmsten ,  C. L. 
+L445:  , &  
+L446:  Lignell ,  Å. 
+L447:  
+L448:  Dietary supplementation with astaxanthin‐rich algal meal improves strength endurance– a double blind placebo controlled study on male students . Carotenoid Science 13:  2008 .
+L449: Marcinek ,  D. J. 
+L450:  , &  
+L451:  Siegel ,  M. P. 
+L452:   ( 2013 ).  Targeting redox biology to reverse mitochondrial dysfunction .  Aging ,  5 ,  588 – 589 . 23945201
+L453: Masuki ,  S. 
+L454:  ,  
+L455:  Morita ,  A. 
+L456:  ,  
+L457:  Kamijo ,  Y. 
+L458:  ,  
+L459:  Ikegawa ,  S. 
+L460:  ,  
+L461:  Kataoka ,  Y. 
+L462:  ,  
+L463:  Ogawa ,  Y. 
+L464:  ,  
+L465:  Sumiyoshi ,  E. 
+L466:  ,  
+L467:  Takahashi ,  K. 
+L468:  ,  
+L469:  Tanaka ,  T. 
+L470:  ,  
+L471:  Nakajima ,  M. 
+L472:  , &  
+L473:  Nose ,  H. 
+L474:   ( 1985 ).  Impact of 5‐aminolevulinic acid with iron supplementation on exercise efficiency and home‐based walking training achievement in older women .  Journal of Applied Physiology ,  120 ( 1 ),  87 – 96 .
+L475: Myers ,  J. 
+L476:  ,  
+L477:  Prakash ,  M. 
+L478:  ,  
+L479:  Froelicher ,  V. 
+L480:  ,  
+L481:  Do ,  D. 
+L482:  ,  
+L483:  Partington ,  S. 
+L484:  , &  
+L485:  Atwood ,  J. E. 
+L486:   ( 2002 ).  Exercise capacity and mortality among men referred for exercise testing .  New England Journal of Medicine ,  346 ,  793 – 801 .
+L487: Nishida ,  Y. 
+L488:  ,  
+L489:  Nawaz ,  A. 
+L490:  ,  
+L491:  Kado ,  T. 
+L492:  ,  
+L493:  Takikawa ,  A. 
+L494:  ,  
+L495:  Igarashi ,  Y. 
+L496:  ,  
+L497:  Onogi ,  Y. 
+L498:  ,  
+L499:  Wada ,  T. 
+L500:  ,  
+L501:  Sasaoka ,  T. 
+L502:  ,  
+L503:  Yamamoto ,  S. 
+L504:  ,  
+L505:  Sasahara ,  M. 
+L506:  ,  
+L507:  Imura ,  J. 
+L508:  ,  
+L509:  Tokuyama ,  K. 
+L510:  ,  
+L511:  Usui ,  I. 
+L512:  ,  
+L513:  Nakagawa ,  T. 
+L514:  ,  
+L515:  Fujisaka ,  S. 
+L516:  ,  
+L517:  Kunimasa ,  Y. 
+L518:  , &  
+L519:  Tobe ,  K. 
+L520:   ( 2020 ).  Astaxanthin stimulates mitochondrial biogenesis in insulin resistant muscle via activation of AMPK pathway .  Journal of Cachexia, Sarcopenia and Muscle ,  11 ,  241 – 258 .
+L521: Ogura ,  S. 
+L522:  ,  
+L523:  Maruyama ,  K. 
+L524:  ,  
+L525:  Hagiya ,  Y. 
+L526:  ,  
+L527:  Sugiyama ,  Y. 
+L528:  ,  
+L529:  Tsuchiya ,  K. 
+L530:  ,  
+L531:  Takahashi ,  K. 
+L532:  ,  
+L533:  Abe ,  F. 
+L534:  ,  
+L535:  Tabata ,  K. 
+L536:  ,  
+L537:  Okura ,  I. 
+L538:  ,  
+L539:  Nakajima ,  M. 
+L540:  , &  
+L541:  Tanaka ,  T. 
+L542:   ( 2011 ).  The effect of 5‐aminolevulinic acid on cytochrome c oxidase activity in mouse liver .  BMC Research Notes ,  4 ,  66 . 21414200
+L543: Park ,  J. S. 
+L544:  ,  
+L545:  Mathison ,  B. D. 
+L546:  ,  
+L547:  Hayek ,  M. G. 
+L548:  ,  
+L549:  Zhang ,  J. 
+L550:  ,  
+L551:  Reinhart ,  G. A. 
+L552:  , &  
+L553:  Chew ,  B. P. 
+L554:   ( 2013 ).  Astaxanthin modulates age‐associated mitochondrial dysfunction in healthy dogs .  Journal of Animal Sciences ,  91 ,  268 – 275 .
+L555: Peternelj ,  T. T. 
+L556:  , &  
+L557:  Coombes ,  J. S. 
+L558:   ( 2011 ).  Antioxidant supplementation during exercise training: beneficial or detrimental? 
+L559:  Sports Medicine ,  41 ,  1043 – 1069 . 22060178
+L560: Pollock ,  M. L. 
+L561:  ,  
+L562:  Bohannon ,  R. L. 
+L563:  ,  
+L564:  Cooper ,  K. H. 
+L565:  ,  
+L566:  Ayres ,  J. J. 
+L567:  ,  
+L568:  Ward ,  A. 
+L569:  ,  
+L570:  White ,  S. R. 
+L571:  , &  
+L572:  Linnerud ,  A. C. 
+L573:   ( 1976 ).  A comparative analysis of four protocols for maximal treadmill stress testing .  American Heart Journal ,  92 ,  39 – 46 . 961576
+L574: Pollock ,  M. L. 
+L575:  ,  
+L576:  Foster ,  C. 
+L577:  ,  
+L578:  Schmidt ,  D. 
+L579:  ,  
+L580:  Hellman ,  C. 
+L581:  ,  
+L582:  Linnerud ,  A. C. 
+L583:  , &  
+L584:  Ward ,  A. 
+L585:   ( 1982 ).  Comparative analysis of physiologic responses to three different maximal graded exercise test protocols in healthy women .  American Heart Journal ,  103 ,  363 – 373 . 7064770
+L586: Polotow ,  T. G. 
+L587:  ,  
+L588:  Vardaris ,  C. V. 
+L589:  ,  
+L590:  Mihaliuc ,  A. R. 
+L591:  ,  
+L592:  Goncalves ,  M. S. 
+L593:  ,  
+L594:  Pereira ,  B. 
+L595:  ,  
+L596:  Ganini ,  D. 
+L597:  , &  
+L598:  Barros ,  M. P. 
+L599:   ( 2014 ).  Astaxanthin supplementation delays physical exhaustion and prevents redox imbalances in plasma and soleus muscles of Wistar rats .  Nutrients ,  6 ,  5819 – 5838 . 25514562
+L600: Res ,  P. T. 
+L601:  ,  
+L602:  Cermak ,  N. M. 
+L603:  ,  
+L604:  Stinkens ,  R. 
+L605:  ,  
+L606:  Tollakson ,  T. J. 
+L607:  ,  
+L608:  Haenen ,  G. R. 
+L609:  ,  
+L610:  Bast ,  A. 
+L611:  , &  
+L612:  Van Loon ,  L. J. 
+L613:   ( 2013 ).  Astaxanthin supplementation does not augment fat use or improve endurance performance .  Medicine & Science in Sports & Exercise ,  45 ,  1158 – 1165 . 23274592
+L614: Rufer ,  C. E. 
+L615:  ,  
+L616:  Moeseneder ,  J. 
+L617:  ,  
+L618:  Briviba ,  K. 
+L619:  ,  
+L620:  Rechkemmer ,  G. 
+L621:  , &  
+L622:  Bub ,  A. 
+L623:   ( 2008 ).  Bioavailability of astaxanthin stereoisomers from wild (Oncorhynchus spp.) and aquacultured (Salmo salar) salmon in healthy men: a randomised, double‐blind study .  The British Journal of Nutrition ,  99 ,  1048 – 1054 . 17967218
+L624: Siegel ,  M. P. 
+L625:  ,  
+L626:  Kruse ,  S. E. 
+L627:  ,  
+L628:  Percival ,  J. M. 
+L629:  ,  
+L630:  Goh ,  J. 
+L631:  ,  
+L632:  White ,  C. C. 
+L633:  ,  
+L634:  Hopkins ,  H. C. 
+L635:  ,  
+L636:  Kavanagh ,  T. J. 
+L637:  ,  
+L638:  Szeto ,  H. H. 
+L639:  ,  
+L640:  Rabinovitch ,  P. S. 
+L641:  , &  
+L642:  Marcinek ,  D. J. 
+L643:   ( 2013 ).  Mitochondrial‐targeted peptide rapidly improves mitochondrial energetics and skeletal muscle performance in aged mice .  Aging Cell ,  12 ,  763 – 771 . 23692570
+L644: Tarnopolsky ,  M. A. 
+L645:   ( 2008 ).  Sex differences in exercise metabolism and the role of 17‐beta estradiol .  Medicine & Science in Sports & Exercise ,  40 ,  648 – 654 . 18317381
+L646: Trappe ,  T. A. 
+L647:  ,  
+L648:  Carroll ,  C. C. 
+L649:  ,  
+L650:  Dickinson ,  J. M. 
+L651:  ,  
+L652:  LeMoine ,  J. K. 
+L653:  ,  
+L654:  Haus ,  J. M. 
+L655:  ,  
+L656:  Sullivan ,  B. E. 
+L657:  ,  
+L658:  Lee ,  J. D. 
+L659:  ,  
+L660:  Jemiolo ,  B. 
+L661:  ,  
+L662:  Weinheimer ,  E. M. 
+L663:  , &  
+L664:  Hollon ,  C. J. 
+L665:   ( 2011 ).  Influence of acetaminophen and ibuprofen on skeletal muscle adaptations to resistance exercise in older adults .  American Journal of Physiology‐Regulatory, Integrative and Comparative Physiology ,  300 ,  R655 – R662 .
+L666: Trappe ,  T. A. 
+L667:  , &  
+L668:  Liu ,  S. Z. 
+L669:   ( 1985 ).  Effects of prostaglandins and COX‐inhibiting drugs on skeletal muscle adaptations to exercise .  Journal of Applied Physiology ,  115 ,  909 – 919 .
+L670: Woo ,  J. S. 
+L671:  ,  
+L672:  Derleth ,  C. 
+L673:  ,  
+L674:  Stratton ,  J. R. 
+L675:  , &  
+L676:  Levy ,  W. C. 
+L677:   ( 2006 ).  The influence of age, gender, and training on exercise efficiency .  Journal of the American College of Cardiology ,  47 ,  1049 – 1057 . 16516092
+L678: Yoshihara ,  T. 
+L679:  ,  
+L680:  Sugiura ,  T. 
+L681:  ,  
+L682:  Shibaguchi ,  T. 
+L683:  , &  
+L684:  Naito ,  H. 
+L685:   ( 2019 ).  Role of astaxanthin supplementation in prevention of disuse muscle atrophy: a review .  Journal of Physical Fitness and Sports Medicine ,  8 ,  61 – 71 .
+L686: ACKNOWLEDGMENTS
+L687: Authors thank the volunteers who participated in this study for their time and dedication. Chessa Goss coordinated the study. Deena Osman, Karen Hecht, and Arun Nair contributed to the literature review and proof reading of the study. Claudia Kumai and Angela Modelski provided exercise training and clinical assessments. This work was supported by Astavita, Inc.; National Institutes of Health grants (T32 AG000057, P01 AG001751). Department of Radiology and Office of the Provost of the University of Washington, and the Prevention Center at the Fred Hutchison Cancer Research Center. The content of this publication is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation.
+L688: # PHY2-9-e14887-s001
+L689: Table S2 AX supplementation human study literature review
+L690: | Author, year | Subject | Does | METHODS | Key finding |
+L691: | --- | --- | --- | --- | --- |
+L692: | Sawaki et. al. 2004 (11) | college student | 4wks | fasting 1200M time trail | Lactic acid lower 2mins post 1200m run (not 4,8,10min post) |
+L693: | Earnest et. al. 2011(7) | endurance trained Male (18-39) | 4mg/d for 4wks | overnight fasting+ 2hr submax followed by 20k TT | No difference in blood chemistry (cholesterol, triglyceride) changes, fat or CHO oxidation during sub-max cycling; AX improved TT performance compares to PL |
+L694: | Res. et. al. 2012(10) | Highly trained Male triathlete/cyclist | 20mg AX (+10mg VE) /Day for 4wks | Overnight fasting+ 1hr 50%Wattmax +1hrTT | No improvement on TT or Fat oxidation during 50%Wmax (RER calculation) No changes on MDA (anti-oxidant marker), insulin, lactate, or fatty acid throughout TT |
+L695: | Choi et. al. 2011(5) | Sedentary/obese adult | 20mg for 12 wks | lipide profile and prooxidative stress marker | lower LDL in AX group at 12wk decrease MDA, @ 4,8 and 12 wk |
+L696: | Choi et. al. 2011(4) | Overweight young adult compares to normal BW control group | low 5mg and high 20mg group for 3 weeks | blood analysis of lipide profile and oxidative stress marker at baseline & 3wks | AX blood level higher in 20mgMDA. ISP (OS marker) lower compare to baseline for both dose No dose group difference on antioxidant or OS marker |
+L697: | Djordjevic et. al. 2012(6) | Young male soccer player | 4mg/d for 90days (3 months) | 90 days training + 2hr soccer exercise; blood sample before & after supplementation and after acute 2hr exercise | post ex CK and AST lower in AX group vs PL.; training increased O2- level in both group, O2 - increased after acute exercise only in PL ; AX+ training could prevent exercise induced radical production and depletion of nonenzymatic antioxidant defense |
+L698: | Baralic et. al. 2015(1) | young male soccer player | 4mg/d for 90 days | 90day Soccer training blood and saliva collection before and after supplementation & training | Exercise training alone reduced muscle damage CK and LDH from baseline, AX greater reduced the inflammatory markers restore redox balance preventing inflammation by rigorous training AX reduced the training induced increase in inflammatory markers (SCP and total leukocyte vs. PL) |
+L699: | Liu et. al. 2018(8) | >65 elderly healthy | 4month (12mg AX +10mg Vt E) | 4month supplementation+3month TM interval training | increased strength, size and specific force similar to resistance training |
+L700: | Bloomer et. al. 2005(2) | Resistance trained young men | 3 wks 4mg/d | 10 sets of 10 repetitions eccentric at 85% of ERM; muscle soreness CK and performance before and through 96 hr post RE | No change in CK LDH and muscle soreness or exercise performance; greater decrease in MDF (dynamic force) 10-72 hr post ex in AX group vs. PL |
+L701: | Malmsten et. al. 2008(9) | male student | 4mg/d for 6 months | @3- & 6-month Wingate test squad test and fitness test | no changes in Wingate performance, increase number of squadding endurance strength in AX group after 6-month compare to PL |
+L702: | Brown et. al. 2020(3) | Male cyclist (VO2 ~56.5 ± 5.5 mL/kg/min) | 12mg/day for 7 days | Cross over design  14 days washout  40km cycling time trail | Time to complete 40km reduced 1.2± 1.7% with AX FATox improved and RER lowered between 39-40km. |
+L703: Reference
+L704: 1.	Baralic I, Andjelkovic M, Djordjevic B, Dikic N, Radivojevic N, Suzin-Zivkovic V, Radojevic-Skodric S, and Pejic S. Effect of Astaxanthin Supplementation on Salivary IgA, Oxidative Stress, and Inflammation in Young Soccer Players. Evid Based Complement Alternat Med 2015: 783761, 2015.
+L705: 2.	Bloomer RJ, Fry A, Schilling B, Chiu L, Hori N, and Weiss L. Astaxanthin supplementation does not attenuate muscle injury following eccentric exercise in resistance-trained men. Int J Sport Nutr Exerc Metab 15: 401-412, 2005.
+L706: 3.	Brown DR, Warner AR, Deb SK, Gough LA, Sparks SA, and McNaughton LR. The effect of astaxanthin supplementation on performance and fat oxidation during a 40 km cycling time trial. J Sci Med Sport 2020.
+L707: 4.	Choi HD, Kim JH, Chang MJ, Kyu-Youn Y, and Shin WG. Effects of astaxanthin on oxidative stress in overweight and obese adults. Phytother Res 25: 1813-1818, 2011.
+L708: 5.	Choi HD, Youn YK, and Shin WG. Positive effects of astaxanthin on lipid profiles and oxidative stress in overweight subjects. Plant Foods Hum Nutr 66: 363-369, 2011.
+L709: 6.	Djordjevic B, Baralic I, Kotur-Stevuljevic J, Stefanovic A, Ivanisevic J, Radivojevic N, Andjelkovic M, and Dikic N. Effect of astaxanthin supplementation on muscle damage and oxidative stress markers in elite young soccer players. J Sports Med Phys Fitness 52: 382-392, 2012.
+L710: 7.	Earnest CP, Lupo M, White KM, and Church TS. Effect of astaxanthin on cycling time trial performance. Int J Sports Med 32: 882-888, 2011.
+L711: 8.	Liu SZ, Ali AS, Campbell MD, Kilroy K, Shankland EG, Roshanravan B, Marcinek DJ, and Conley KE. Building strength, endurance, and mobility using an astaxanthin formulation with functional training in elderly. J Cachexia Sarcopenia Muscle 9: 826-833, 2018.
+L712: 9.	Malmsten CL, and Lignell Å. Dietary Supplementation with Astaxanthin-Rich Algal Meal Improves Strength Endurance
+L713: - A Double Blind Placebo Controlled Study on Male Students-. Carotenoid Science 13: 2008.
+L714: 10.	Res PT, Cermak NM, Stinkens R, Tollakson TJ, Haenen GR, Bast A, and Van Loon LJ. Astaxanthin supplementation does not augment fat use or improve endurance performance. Med Sci Sports Exerc 45: 1158-1165, 2013.
+L715: 11.	Sawaki K, Yoshigi H, Aoki K, Koikawa N, Azumane A, Kaneko K, and Yamaguchi M. Sports Performance Benefits from Taking Natural Astaxaxxthin * Characterized by Visual Acuity and Muscular Fatigue Improvement in Humans. 2004.
+L716: # PHY2-9-e14887-s002
+L717: Table S1 Total fat oxidation before and after training (Date present as mean±S.E.)
+L718: |  | PL-Male  (n=8) | AX-Male (n=9) | PL-Female (n=10) | AX-Female (n=12#) |
+L719: | --- | --- | --- | --- | --- |
+L720: | V1 | 1.38±0.2 | 2.46 ±0.5 | 2.48 ±0.4 | 2.11 ±0.3 |
+L721: | V3 | 1.76±0.3* | 3.51±0.5* | 3.26 ±0.5 | 3.44 ±0.4* |
+L722: p<0.05 simple paired t-test comparing V3 to V1
+L723: # one out layer excluded from AX-women based on high aerobic capacity didn’t fit for the Balke exercise protocol
+L724: ## Figure S1
+L725: ###### **A B**
+L726: ##### **%HRmax**
+L727: #### **FINAL RPE**
+L728: **88**
+L729: **86**
+L730: **84**
+L731: **82**
+L732: **80**
+L733: **78**
+L734: **18**
+L735: **16**
+L736: **14**
+L737: **12**
+L738: **10**
+L739: **8**
+L740: **76**
+L741: **V1** **V3** **V1** **V3**
+L742: **6**
+L743: **V1** **V3** **V1** **V3**
+L744: HRmax equation for age > 40yrs = 208 - (0.7 *age)
+L745: ## Figure S2
+L746: # Change in predicted VO
+L747: 2max
+L748: #### **20** **15** **10** **5** **0**
+L749: ### PL AX
+L750: #### **-5** **Male Female**
+[27ms]
+

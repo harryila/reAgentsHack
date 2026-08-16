@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "independent combined effects antioxidant supplementation exercise"
+  ],
+  "completed_at": "2026-08-16T05:24:40.889194+00:00",
+  "elapsed_seconds": 2.467634583124891,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:38.421569+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-02.attempt-01.stderr",
+  "stdout_bytes": 43567,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-02.attempt-01.stdout"
+}

@@ -1,0 +1,667 @@
+L1: Temperate performance and metabolic adaptations following endurance training performed under environmental heat stress
+L2: Physiological Reports (2021)
+L3: Ed Maunder, Daniel J. Plews, Gareth A. Wallis, Matthew J. Brick, Warren B. Leigh, Wee‐Leong Chang, Casey M. Watkins, Andrew E. Kilding
+L4: 1 
+L5:  Sports Performance Research Institute New Zealand 
+L6:  Auckland University of Technology 
+L7:  Auckland 
+L8:  New Zealand
+L9: 2 
+L10:  School of Sport, Exercise, and Rehabilitation Sciences 
+L11:  University of Birmingham 
+L12:  Birmingham 
+L13:  UK
+L14: 3 
+L15:  Orthosports North Harbour 
+L16:  AUT Millennium 
+L17:  Auckland 
+L18:  New Zealand
+L19: 4 
+L20:  Faculty of Health and Environmental Sciences 
+L21:  Auckland University of Technology 
+L22:  Auckland 
+L23:  New Zealand
+L24: Endurance athletes are frequently exposed to environmental heat stress during training. We investigated whether exposure to 33°C during training would improve endurance performance in temperate conditions and stimulate mitochondrial adaptations. Seventeen endurance‐trained males were randomly assigned to perform a 3‐week training intervention in 18°C (TEMP) or 33°C (HEAT). An incremental test and 30‐min time‐trial preceded by 2‐h low‐intensity cycling were performed in 18°C pre‐ and post‐intervention, along with a resting  vastus lateralis  microbiopsy. Training was matched for relative cardiovascular demand using heart rates measured at the first and second ventilatory thresholds, along with a weekly “best‐effort” interval session. Perceived training load was similar between‐groups, despite lower power outputs during training in HEAT versus TEMP ( p  < .05). Time‐trial performance improved to a greater extent in HEAT than TEMP (30 ± 13 vs. 16 ± 5 W,  N  = 7 vs.  N  = 6,  p  = .04), and citrate synthase activity increased in HEAT (fold‐change, 1.25 ± 0.25,  p  = .03,  N  = 9) but not TEMP (1.10 ± 0.22,  p  = .22,  N  = 7). Training‐induced changes in time‐trial performance and citrate synthase activity were related ( r  = .51,  p  = .04). A group × time interaction for peak fat oxidation was observed (Δ 0.05 ± 0.14 vs. −0.09 ± 0.12 g·min −1  in TEMP and HEAT,  N  = 9 vs.  N  = 8,  p  = .05). Our data suggest exposure to moderate environmental heat stress during endurance training may be useful for inducing adaptations relevant to performance in temperate conditions.
+L25: Original Article; Original Articles
+L26: adaptation; endurance training; heat stress; mitochondria; performance
+L27: INTRODUCTION
+L28: A goal of endurance training is to induce physiological adaptations that improve determinants of endurance performance such as maximum oxygen uptake ( V ˙ O 2 max ), physiological thresholds, and exercise economy (Holloszy,  2008 ). Endurance athletes competing in stochastic, drafting events such as road cycling (Lucía et al.,  1999 ) would likely also benefit from adequate metabolic flexibility to effectively utilize fat as an energy substrate at given submaximal workloads in order to preserve finite endogenous carbohydrate stores, alongside well‐developed, rapid carbohydrate metabolism to facilitate short periods of intense effort (Hawley et al.,  2018 ). These adaptations are at least partly mediated through effects on skeletal muscle mitochondrial content and function, which have been shown to adapt in response to endurance training (Granata et al.,  2016a ,  2016b ; Hoppeler et al.,  1985 ; Montero et al.,  2015 ; Scalzo et al.,  2014 ; Spina et al.,  1996 ). Thus, a key focus of endurance training is to improve mitochondrial content and function in order to favorably impact endurance performance.
+L29: Many endurance athletes undertake training camps in hot environments (Maunder, Kilding, et al.,  2020 ) in an effort to increase the stimulus for training adaptation (Hawley et al.,  2018 ). Specifically, endurance training performed under heat stress may upregulate expression of various factors implicated in adaptive signaling cascades coordinating mitochondrial biogenesis. These include expression of heat shock proteins (Skidmore et al.,  1995 ) and interleukin‐6 (Starkie et al.,  2005 ) in muscle, circulating catecholamines (Febbraio et al.,  1994 ; Hargreaves et al.,  1996 ), muscle glycogenolysis (Febbraio et al.,  1994 ), and muscle and plasma lactate accumulation (Febbraio et al.,  1994 ; Maunder, Plews, et al.,  2020 ). However, the consequences of endurance training performed under environmental heat stress for adaptations to skeletal muscle mitochondria and metabolism have not been investigated using longitudinal designs. In vivo investigation is limited to one acute study, which observed blunted transcription of genes related to mitochondrial biogenesis immediately and 3 h post‐matched work‐rate‐exercise performed in 33°C compared to 20°C (Heesch et al.,  2016 ). These results were in contrast to the authors' hypothesis, which was based on in vitro studies reporting positive effects of heat exposure for acute and chronic mitochondrial changes (Liu & Brooks,  2012 ; Patton et al.,  2018 ; Tamura & Hatta,  2017 ), and the basic training principle that greater homeostatic disturbances lead to greater training adaptations (Fiorenza et al.,  2018 ; Hawley et al.,  2018 ). Accordingly, there has been no investigation of mitochondrial adaptations to a heat stress training intervention in endurance athletes.
+L30: Studies investigating the effect of endurance training performed under heat stress for functional adaptations relevant to performance in temperate conditions have produced mixed results (Karlsen et al.,  2015 ; Keiser et al.,  2015 ; Lorenzo et al.,  2010 ; Mikkelsen et al.,  2019 ; Waldron et al.,  2019 ). Several studies have reported favorable hematological adaptations with exercise training performed in hot environments (McCleave et al.,  2017 ,  2020 ; Rønnestad et al.,  2020 ). When training under heat stress, a reduced absolute power output is achieved for a given heart rate (HR) (Nybo & Nielsen,  2001 ; Rowell et al.,  1966 ) and physiological threshold (James et al.,  2017 ; Lorenzo et al.,  2010 ), likely resulting in reduced mechanical work‐rates during training (Boynton et al.,  2019 ; Drust et al.,  2005 ). The addition of heat stress may therefore induce a reduced mechanical load compared to training performed in temperate conditions with equivalent cardiovascular demand or perceived exertion. However, previous studies in this domain have not accounted for this, with training programs matched for absolute work‐rates (McCleave et al.,  2017 ,  2020 ; Rønnestad et al.,  2020 ), performed in an uncontrolled setting (Karlsen et al.,  2015 ), and/or using training programs not reflective of real‐world endurance sport (Keiser et al.,  2015 ; Lorenzo et al.,  2010 ; Mikkelsen et al.,  2019 ; Waldron et al.,  2019 ). Accordingly, there has so far been little systematic evaluation of the adaptive metabolic or temperate performance effects of exposure to environmental heat stress during endurance training in well‐matched training programs.
+L31: Therefore, the aim of the present investigation was to determine the effect of a three‐week endurance training intervention performed in 33°C on metabolic adaptations and performance in temperate conditions, in comparison to an appropriately matched training program performed in 18°C. It was hypothesized that exposure to 33°C during training would augment training‐induced changes in  vastus lateralis  citrate synthase activity and fat oxidation during exercise and therefore improve pre‐loaded time‐trial (TT) performance in temperate conditions to a greater extent than matched training performed in 18°C.
+L32: METHODS
+L33: Ethical approval
+L34: This study was performed in accordance with the standards of the Declaration of Helsinki, 2013. The Auckland University of Technology Ethics Committee approved all procedures (19/146), and all participants provided written informed consent prior to participation.
+L35: Participants
+L36: A priori sample size estimation indicated nine participants per group were required to detect a statistically significant training‐induced increase in whole‐muscle fat transporter protein content using data from a three‐week exercise training intervention in a similar endurance‐trained cohort with 80% statistical power (Hulston et al.,  2010 ). Seventeen endurance‐trained male cyclists and triathletes took part in the present investigation (age, 34 ± 7 y; height, 181 ± 8 cm; mass, 80.5 ± 9.6 kg; sum of eight skinfolds, 71 ± 29 mm; recent training volume, 8 ± 2 h·week −1 ; maximum oxygen uptake [ V ˙ O 2 max ], 4.3 ± 0.7 L·min −1 ). Three participants were in‐progress when the first nationwide lock‐down for COVID‐19 in New Zealand was announced; hence, some post‐testing data in three participants ( N  = 2 in the heat group,  N  = 1 in the temperate group) were not successfully collected. The subsequent regional lock‐down prevented collection of a larger sample size. The actual sample size for outcome measures is indicated in the relevant section. This study was conducted during a maintenance phase of training in all participants.
+L37: Study design
+L38: The present investigation adopted a randomized controlled trial design, and was conducted in the non‐summer months in Auckland, New Zealand (Figure  1 ). The initial laboratory visit involved an incremental, maximal exercise test performed on a cycle ergometer in temperate conditions (18°C, 60% relative humidity [rH]). This assessment was used to ascertain a physiological profile, including HR at individual physiological thresholds in order to individualize subsequent training interventions. Following the incremental test, participants completed a 30‐min familiarization time‐trial ahead of subsequent experimental TTs. An overnight‐fasted, resting muscle microbiopsy was then performed during a separate visit ~48 h following the incremental test. Participants returned to the laboratory, ~48 h later, to complete the pre‐intervention experimental TT on a cycle ergometer in temperate conditions (18°C, 60% rH). Participants subsequently commenced a 3‐week training program, having been randomly allocated to either a temperate (TEMP, 18°C, 60% rH) or moderate environmental heat stress (HEAT, 33°C, 60% rH) intervention group prior to the initial assessment using a random number generator (random.org). During the training intervention serial measures of waking HRV and subjective well‐being were made. Following the training program, the incremental exercise test, resting muscle microbiopsy, and experimental TT were repeated.
+L39: FIGURE 1 Schematic representation of the study design
+L40: Incremental exercise tests
+L41: Participants arrived for the incremental exercise test at ~07:00 having fasted overnight and refrained from alcohol and vigorous exercise for 24 h. Height and body mass were then recorded prior to the incremental cycling test. Cycling began at 95 W and the work rate increased by 35 W every 3 min (Excalibur Sport, Lode), with continuous collection of expired gases using indirect calorimetry (TrueOne2400, ParvoMedics) and HR (RS800, Polar Electro Oy). Fingertip capillary blood samples were obtained at the end of each 3‐min stage and analyzed for lactate concentration using an automatic analyzer (Lactate Pro 2, Arkray). When blood lactate concentration exceeded 4.0 mmol·L −1 , step duration was reduced to 1 min until attainment of volitional exhaustion.  V ˙ O 2 max  was accepted as the highest 15‐s average oxygen consumption providing two of the following three criteria were met: respiratory exchange ratio >1.10, HR ±10 b·min −1  of the age‐predicted maximum HR (205.8 − 0.685[age (y)]) (Inbar et al.,  1994 ), and attainment of volitional exhaustion. The first ventilatory threshold (VT 1 ) was identified as the work rate at which the ventilatory equivalent for oxygen ( V ˙ E · V ˙ O 2 ‐ 1 ) began to increase in the absence of changes in the ventilatory equivalent for carbon dioxide ( V ˙ E · V ˙ CO 2 ‐ 1 ), the second ventilatory threshold (VT 2 ) was identified as the first work rate at which  V ˙ E · V ˙ O 2 ‐ 1  and  V ˙ E · V ˙ CO 2 ‐ 1  increased alongside a reduction in PetCO 2  (Lucía et al.,  2000 ). Two blinded expert observers determined ventilatory thresholds. Power output at 2 and 4 mmol·L −1  blood lactate concentrations were calculated using available software (Lactate Dashboard 1.1.1,  https://shiny.fmattioni.me/lactate/ ), which hosts R code for the calculation of lactate threshold parameters described in recent work (Jamnick et al.,  2018 ). Following the incremental exercise tests, participants rested for ~20 min before completing a self‐paced 30‐min TT, to act as familiarization prior to the experimental TT. Following completion of the familiarization TT, participants were instructed on how to use a smartphone application for measurement of waking HRV (HRV4Training), and instructed to complete it each morning for the duration of the study. Participants were provided with “base” carbohydrate (e.g., pasta, rice, noodles, rolled oats) to provide 1 g·kg −1  for dinner at ~20:00 the evening before, and 1 g·kg −1  for breakfast two hours prior to, the experimental TT. Participants were instructed to record any additions they made to the base carbohydrate for these meals, photograph their prepared and finished meal, and send these photographs to the primary researcher such that these meals could be replicated precisely in advance of the post‐training experimental TT. Lastly, participants were instructed to precisely record all exercise they performed throughout the pre‐training assessment week, such that this could be repeated in the post‐training assessment week. The replication of these training records was verified by the primary researcher.
+L42: Resting muscle microbiopsy
+L43: Participants arrived at the laboratory ~48 h following the incremental exercise test at ~09:00 having fasted overnight. A muscle microbiopsy was then obtained from the  vastus lateralis  using the microbiopsy technique (Hayot et al.,  2005 ). Briefly, local anesthesia was applied to the skin and superficial muscle fascia, after which a microbiopsy needle was inserted into the mid‐belly of the  vastus lateralis  to a depth of ~2 cm to recover ~15 to 20 mg of tissue using a spring‐loaded mechanism (14G Ultimate Biopsy Needle, Zamar Care). Muscle tissue was immediately frozen using dry ice, and stored at −80°C until further analysis. The site of the pre‐training microbiopsy was recorded by an International Society of Kinathropometry accredited anthropometrist such that the post‐training microbiopsy occurred ~2 cm from the site of the pre‐training biopsy.
+L44: Time‐trial performance assessments
+L45: Participants arrived at the laboratory for performance TTs at ~08:00, having been asked to avoid high‐ 13 C foodstuffs (e.g., corn‐derived sources) and vigorous exercise for 48 h, and having ingested their standardized pre‐trial dinner at ~20:00 the previous evening and standardized pre‐trial breakfast ~2 h beforehand. Sum of eight skinfold thickness was then determined by an International Society of Kinathropometry accredited anthropometrist (triceps brachii, biceps brachii, subscapular, iliac crest, supraspinale, abdominal, anterior thigh, posterior shank). Participants were fitted with an antecubital venous cannula, from which a 5‐ml resting blood sample was drawn, and HR monitor (RS800, Polar Electro Oy). Resting expired breath samples were collected into duplicate 10‐ml evacuated, plain tubes to correct exercise samples for background expired  13 C.
+L46: Cycling then commenced for 2 h in a temperature‐controlled laboratory (18°C and 60% rH) on an ergometer (Excalibur Sport, Lode) at 80% of the work rate eliciting VT 1  in the pre‐training IET. Convective airflow was provided by an industrial fan (FS‐75, FWL). Participants consumed 60 g·h −1  of glucose in 7.5% liquid solutions at 15‐min intervals throughout the constant‐load phase. Beverages were enriched with ~47 mg·L −1  of isotopically labeled [U‐ 13 C]glucose (Cambridge Isotope Laboratories), such that the ingested solution was high in  13 C (~50 δ‰ vs. Pee Dee Bellemnitella [PDB]). Expired gases were collected for 4 min every 15 min using a metabolic cart (TrueOne2400, ParvoMedics), 5‐ml venous blood samples were obtained every 30 min, HR was recorded continuously, and expired breath samples were collected into duplicate 10‐ml evacuated plain tubes at 60, 90, and 120 min.
+L47: Upon completion of the 2‐h constant‐load phase, participants commenced a 30‐min, maximal‐effort TT (IndoorTrainer, SRM). During the TT, participants were blinded to power and HR, but informed of the time remaining every 10 min and with 5 and 1‐min remaining. Participants were instructed to produce as much power as possible over the 30 min, and average power output was used as the performance measure.
+L48: Training interventions
+L49: Following completion of the pre‐intervention TT, participants began an individualized 3‐week training program, having being randomly allocated to either a temperate (TEMP) or moderate environmental heat stress (HEAT) training intervention. Training interventions were designed with input from an expert practitioner working with elite endurance athletes, with the stated goal of the training program design to improve pre‐loaded 30‐min TT performance. Training interventions were based on HR at the ventilatory thresholds in the pre‐training IET (Table  1 ), and included five supervised training sessions in the laboratory each week in either 18°C (TEMP) or 33°C (HEAT), both at 60% rH, for a total of 15 supervised training sessions during the three‐week intervention. Sessions were performed in the order shown in Table  1 . Water was consumed ad libitum and convective fan cooling was provided during all training sessions. Training sessions were programmed according to HR measured at ventilatory thresholds obtained in the pre‐training IET such that the relative cardiovascular demand of the training program was equal between‐subjects and between‐groups. When attempting to match for relative cardiovascular demand, data collected in our laboratory indicate that measures of HR at individual physiological thresholds are stable between temperate and moderate heat stress environments, despite reductions in absolute power outputs at those thresholds (Maunder et al.,  2021 ). Therefore, there was no requirement for an IET to be performed under heat stress to derive these measurements for HEAT.
+L50: TABLE 1 Training intervention in the present investigation, which took place in 18°C (TEMP) or 33°C (HEAT) and 60% relative humidity
+L51: Subjective wellness using 5‐point Likert scale questionnaires assessing fatigue, sleep quality, muscle soreness, stress, and mood (McLean et al.,  2010 ) were assessed prior to each training session, along with the duration and perceived exertion of any additional training performed since the previous session using Borg's 1–10 scale (Borg,  1998 ). Participants were asked to limit training outside of the study to a maximum of 3 h per week, all at low intensity. This was considered necessary to allow training adaptations from swimming, running, and resistance exercise to be maintained, thus reducing the possibility of detraining in other exercise modalities impacting cycling performance. Following each training session, duration, power, HR, and perceived session exertion using Borg's 1–10 scale were recorded. Training load was calculated using the session‐RPE model (Christen et al.,  2016 ). Daily HRV measurements, expressed as the root mean square of the sum of successive differences in R‐R intervals (rMSSD), were extracted from the previously validated (Plews et al.,  2017 ) smartphone application in which they were collected (HRV4Training). Mean and standard deviation (SD) absolute HRV values for each training week were calculated for each participant. Day‐to‐day variation in HRV measurements was calculated for each participant in each training week by expressing the weekly SD as a percentage of the weekly mean (Flatt & Howells,  2019 ; Javaloyes et al.,  2019 ).
+L52: Muscle analysis
+L53: Frozen muscle samples were rinsed using cold phosphate‐buffered saline (PBS) and ~5 mg samples were suspended to 25 mg·ml −1  in PBS and ground manually using a precooled glass Dounce homogenizer. Resulting homogenate was solubilized with extraction buffer (ab260490, Abcam®) to 5 mg·ml −1  and incubated on ice for 20 min prior to centrifugation at 16,000  g  for 20 min at 4°C. Supernatant was extracted and stored at −80°C prior to further analysis. A Bradford assay for sample protein concentration was subsequently performed in duplicate (coefficient of variation [CV], 3.7%). Briefly, a Coomassie blue G reagent was added to protein standards and samples, and optical density was measured on a spectrophotometer at 595 nm (ab102535, Abcam®). Maximal citrate synthase (CS) activity was measured via a kinetic immunocapture assay (ab119692, Abcam®). The activity of CS captured within microplate wells was determined via colour development of TNB, generated from DTNB present in the citrate synthase reaction, via measurement of optical density at 412 nm every 30 s for 10 min. The slope of the optical density versus time curve was blank‐corrected and used to estimate CS activity. Cluster of differentiation 36 (CD36) concentration was measured via an enzyme‐linked immunosorbent assay (ab267614, Abcam®). CD36 was captured within microplate wells by an immobilized antibody. After washing, a biotinylated anti‐human CD36 antibody was added to individual wells, washed, and HRP‐conjugated streptavidin was added. Wells were washed again prior to addition of a TMB substrate solution. Color development proportional to CD36 concentration was measured after addition of a stop solution at 450 nm. These assays were performed using commercially available kits (as indicated) in duplicate on a spectrophotometer (Multiskan GO, Thermo Fisher Scientific Inc.) according to the manufacturer's instructions. Achieved CVs were 5.6% for CS activity and 9.8% for CD36 concentration, both expressed relative to total muscle protein concentration.
+L54: Gas analysis
+L55: Indirect calorimetry was performed using a metabolic cart (TrueOne2400, ParvoMedics). Oxygen uptake ( V ˙ O 2 ) and carbon dioxide production ( V ˙ CO 2 ) values were averaged for the final 1‐min of each step during the incremental exercise tests, and 3‐min prior to each measurement time‐point during the TT. Whole‐body rates of energy expenditure, carbohydrate oxidation, and fat oxidation were calculated according to standard non‐protein equations (Equation  1 ) (Jeukendrup & Wallis,  2005 ). Exogenous (CHO exo ) and endogenous (CHO end ) carbohydrate oxidation rates during the 60–120 min constant‐load phase of the experimental trials were estimated using gas chromatography continuous‐flow mass spectrometry (Equation  2 ) and standard equations (Equation  3 ) (Craig,  1957 ). Gross cycling efficiency was calculated as the percentage of energy expenditure converted into mechanical work (power) (Moseley & Jeukendrup,  2001 ). (1) Energy expenditure kcal · min ‐ 1 = 0.55 × V ˙ CO 2 + 4.471 × V ˙ O 2 Carbohydrate oxidation g · min ‐ 1 = 4.21 × V ˙ CO 2 ‐ 2.962 × V ˙ O 2 Fat oxidation g · min ‐ 1 = 1.695 × V ˙ O 2 ‐ 1.701 × V ˙ CO 2 where  V ˙ O 2  and  V ˙ CO 2  are in L·min −1 . (2) δ 13 C = 13 C : 12 C sample / 13 C : 12 C standard ‐ 1 × 10 3 mL ‐ 1 where isotopic enrichment was expressed as δ·ml −1  and related to an international standard (PDB). (3) CHO exo = V ˙ CO 2 × δ exp ‐ exp bkg / δ Ing ‐ exp bkg × 1 / 0.7467 CHO end = CHO tot ‐ CHO exo where δExp =  13 C enrichment of expired gas sample, δIng =  13 C enrichment of ingested carbohydrate, Exp bkg  =  13 C enrichment of expired gas sampled at rest,  0.7467 = V ˙ CO 2  of 1 g glucose oxidation, and CHO tot  = total carbohydrate oxidation rate.
+L56: Statistical analysis
+L57: Sample data are expressed mean ± SD unless otherwise stated. Primary outcome measures were TT performance and muscle adaptations, and whole‐body fat and CHO oxidation rates during exercise. Two‐way analyses of variance were used to assess within‐group, between‐group, and interaction effects in measured variables, with the location of significant effects detected post‐hoc using Holm–Bonferroni stepwise correction. Specific pre‐planned within‐ and between‐group comparisons were also made using paired  t ‐tests for primary outcome measures, along with Pearson's correlation coefficients and Cohen's  d  effect sizes (ES) where appropriate. Significance was inferred when  p  ≤ .05.
+L58: RESULTS
+L59: Training interventions
+L60: All the subjects completed all the 15 prescribed training sessions. Total ( p  = .67), prescribed ( p  = .92), and additional ( p  = .54) RPE‐based training load did not significantly differ between‐groups (Figure  2a ). Corrected pairwise comparisons revealed power output achieved during the moderate‐intensity training sessions, expressed relative to each individual's power at VT 1  in the pre‐training IET, was significantly lower in HEAT versus TEMP in session one (76 ± 14 vs. 91 ± 8%,  p  = .04), and approached significance in session two (79 ± 11 vs. 94 ± 13%,  p  = .06, Figure  2b ). Average power output during the 3‐min “best effort” repetitions in the severe‐intensity training sessions, expressed relative to each individual's power at 4 mmol·L −1  blood lactate concentration in the pre‐training IET, was significantly lower in HEAT versus TEMP ( p  = .03, Figure  2c ). No significant between‐ or within‐group differences were observed for overall or weekly absolute HRV. Differences in day‐to‐day variation in HRV were not significant between‐groups (29 ± 17 vs. 39 ± 15% in TEMP and HEAT, respectively,  p  = .20) although this comparison approached significance in the second training week (23 ± 14 vs. 39 ± 19% in TEMP and HEAT, respectively,  p  = .08, Figure  2d ). Self‐report well‐being data throughout the training period did not differ between‐groups (17.3 ± 1.5 vs. 16.9 ± 1.1 AU in TEMP and HEAT, respectively,  p  = .55).
+L61: FIGURE 2 Characteristics of the 3‐week training interventions in TEMP ( N  = 8) and HEAT ( N  = 9). (a) RPE‐time training load, (b) power output during the 90‐min constant heart rate moderate‐intensity training sessions relative to power output at the first ventilatory threshold (VT 1 ) in the pre‐training incremental exercise test, (c) average 3‐min repetition power output during the 6 × 3 min, 8 × 3 min, and 10 × 3 min severe‐intensity training sessions relative to power output at 4 mmol·L −1  blood lactate concentration in the pre‐training incremental exercise test, and (d) coefficient of variation in weekly resting heart rate variability (rMSSD) in the three training weeks. ‘*’ indicates  p  ≤ .05 between‐groups
+L62: Performance metrics
+L63: A Grubb's test revealed a significant outlier for training‐induced change in pre‐loaded 30‐min TT performance in TEMP (+90 W, Z = 2.23,  p  < .05). This participant achieved less power in their pre‐training TT than in all of their 90‐min moderate‐intensity training sessions (~−22 W), and with a ~14 b·min −1  lower HR than in their post‐training TT. They also vocally expressed following the pre‐training TT that they did not exert a maximal‐effort. Accordingly, this participant's TT performance data have been excluded. Inclusion of this erroneous data‐point would have abolished differences in training‐induced changes in time‐trial performance between‐groups.
+L64: Pre‐loaded 30‐min TT significantly improved pre‐to‐post training in both groups, but to a significantly greater magnitude in HEAT (30 ± 13 vs. 16 ± 5 W,  p  = .04, Figure  3a , Table  2 ). Differences in magnitudes of training‐induced changes in average power during individual 5‐min splits were not significant between‐groups ( p  > .05, Figure  3b ). Significant main effects for time were observed for power at 2 and 4 mmol·L −1  blood lactate concentration, VT 1 , and VT 2 , but significant group × time interactions were not observed (Table  2 ). Individual between‐group pairwise comparisons for training‐induced changes in these IET variables were also not significant ( p  > .07).
+L65: FIGURE 3 Training‐induced changes (a) average overall and (b) split power output during the pre‐loaded 30‐min time‐trial performance assessment in TEMP ( N  = 6) and HEAT ( N  = 7). Bars indicate group mean changes and dots indicate the results of individual participants. The erroneous data‐point not included in the analysis is circled in Figure  3a . ‘§’ indicates  p  ≤ .05 between‐groups
+L66: TABLE 2 Performance indicators with statistical comparisons
+L67: Metabolic responses
+L68: During IET, a significant group × time interaction was observed for the peak fat oxidation rate (PFO), whereby the training‐induced change in PFO was significantly lower in HEAT versus TEMP (Table  3 ). During the constant‐load phase of the TT, gross efficiency (GE) significantly improved in TEMP, but not HEAT, although the group × time interaction was not significant (Table  3 ). Significant group × time interactions were not observed for fat, total CHO, endogenous CHO, or exogenous CHO oxidation rates (Figure  4 ). Significant main effects of time were observed for mean HR during, and HR at 120 min of, the constant‐load phase of the TT, though no significant group × time interactions were observed (Table  3 ). Mean HR during the 30‐min TT was not significantly different between pre‐ and post‐training tests in either group ( p  > .10).
+L69: TABLE 3 Metabolic data with statistical comparisons
+L70: FIGURE 4 Training‐induced changes in (a) fat, (b) total carbohydrate (CHO tot ), (c) endogenous carbohydrate (CHO end ), and (d) exogenous carbohydrate (CHO exo ) oxidation rates during the 120‐min constant‐load phase of the time‐trial. For all variables 7 subjects are included in the temperate and heat training groups
+L71: Muscle adaptations
+L72: A significant main effect of time was observed for maximal  vastus lateralis  CS activity ( p  = .007), but there was no group × time interaction ( p  = .149). Pairwise comparisons detected a significant increase in maximal  vastus lateralis  CS activity in HEAT (fold‐change, 1.25 ± 0.25,  p  = .03) but not in TEMP (fold‐change, 1.10 ± 0.22,  p  = .22). The magnitude of the training‐induced change in maximal  vastus lateralis  CS activity was not significantly different between‐groups ( p  = .25, Figure  5a ), but was significantly correlated with the training‐induced change in 30‐min TT performance ( r  = .51,  p  = .04). No significant main effects of group ( p  = .59) or time ( p  = .09), or group × time interaction ( p  = .97), were observed for  vastus lateralis  CD36 concentration per unit of muscle protein (Figure  5b ). Specific comparisons also did not reveal significant training‐induced changes in  vastus lateralis  CD36 concentration in TEMP (pre‐training, 15.7 ± 16.3; post‐training, 19.1 ± 20.3 pg·µg −1  protein,  p  = .14) or HEAT (pre‐training, 20.1 ± 11.5; post‐training, 23.3 ± 13.1 pg·µg −1  protein,  p  = .34).
+L73: FIGURE 5 Training‐induced change in  vastus lateralis  (a) maximal citrate synthase (CS) activity and (b) cluster of differentiation (CD36) protein content in TEMP ( N  = 7) and HEAT ( N  = 9). Bars indicate mean pre‐ to post‐training fold‐change values and dots indicate individual responses. ‘§’ indicates significant within‐group change pre‐ versus post‐training ( p  ≤ .05)
+L74: DISCUSSION
+L75: The primary aim of the present investigation was to determine the effect of a three‐week endurance training intervention performed in 33°C on metabolism and performance in temperate conditions. The main findings were that (i) training performed in 33°C improved pre‐loaded 30‐min TT performance in temperate conditions to a significantly greater extent than matched training performed in 18°C, (ii) maximal  vastus lateralis  CS activity significantly increased following training performed in 33 but not 18°C, and (iii) a significant group × time interaction was observed for PFO during fasted incremental exercise. This study adds to the existing literature observing endurance performance in temperate conditions following periods of endurance training under heat stress, and provides the first systematic evaluation of the effects of moderate environmental heat stress during endurance training on metabolic adaptations. The results presented here warrant verification in larger studies, in elite and female populations, as well as in response to alternative training methodologies.
+L76: The training interventions in this study were completed successfully, with all participants completing all 15 prescribed sessions. As expected, relative power output achieved during moderate‐ and severe‐intensity training sessions was lower in HEAT compared to TEMP (Figure  2b,c ), although by the end of the intervention power output during moderate‐intensity sessions was not significantly different between‐groups, indicative of heat acclimation (Figure  2b ). Reduced mechanical training stress when under moderate environmental heat stress can be easily explained by the increased HR observed at a given power output (Nybo & Nielsen,  2001 ; Rowell et al.,  1966 ), and reduced power output achieved at given physiological thresholds (James et al.,  2017 ; Lorenzo et al.,  2010 ). Therefore, in the present study, where training interventions in TEMP and HEAT were performed at matched relative cardiovascular load alongside ‘best‐effort’ severe‐intensity interval training sessions, reduced mechanical training stress was expected in HEAT. Importantly, RPE‐based training load and self‐reported well‐being were not significantly different between‐groups (Figure  2a ). This indicates the training interventions were successfully matched, therefore allowing between‐group effects to be attributed to the addition of moderate environmental heat stress in HEAT. Interestingly, there appeared a tendency toward increased day‐to‐day variability in HRV in the second training week in HEAT versus TEMP (39 ± 19 vs. 23 ± 14%, respectively,  p  = .08, Figure  2d ), which may be indicative of greater modulation of cardiac‐autonomic balance, and therefore a physiological stress response, in HEAT (Flatt & Howells,  2019 ; Javaloyes et al.,  2019 ).
+L77: In line with our hypothesis, power output during a 30‐min TT preceded by two hours of constant‐load cycling and performed in temperate conditions significantly increased in TEMP and HEAT, but to a significantly greater magnitude in HEAT (30 ± 13 vs. 16 ± 5 W,  p  = .04, Figure  3 , Table  2 ). These between‐group differences were observed only after the erroneous data‐point was removed (Figure  3a ). A significant training‐induced increase in maximal  vastus lateralis  CS activity, a marker of mitochondrial protein content (Larsen et al.,  2012 ), occurred in HEAT but not TEMP, which is a novel observation (Figure  5a ). Our performance data align with recent research reporting significant improvements in 15‐min temperate TT performance in a group of elite cyclists performing 4–5 sessions per week for five weeks in 37.5–38.5°C (Δ ~19 W), but not when training at 15.5°C (Rønnestad et al.,  2020 ). In that study, performance‐enhancing effects of training under heat stress were attributed to significant positive effects on hemoglobin mass not observed in the temperate group. Increased hemoglobin mass increased  V ˙ O 2 max  (Rønnestad et al.,  2020 ), which is unsurprising given O 2  delivery appears limiting to  V ˙ O 2 max  (Mortensen et al.,  2005 ). In the present study, training‐induced changes in  V ˙ O 2 max  were not observed (Table  2 ). However, hematological parameters were not measured and therefore cannot be dismissed.
+L78: The significant training‐induced increase in maximal  vastus lateralis  CS activity observed in HEAT but not TEMP is intriguing in the context of the lower mechanical work rates during training in HEAT (Figure  2b,c ), and the association between training‐induced changes in  vastus lateralis  CS activity and 30‐min TT performance ( r  = .51,  p  = .04), although it should be acknowledged that the group × time interaction was not significant ( p  = .149). Endurance training performed under moderate environmental heat stress may augment expression of various factors implicated in the coordination mitochondrial biogenesis (Hawley et al.,  2018 ). Accordingly, it could be hypothesized that exposure to moderate environmental heat stress during training in HEAT interacted with gene expression, protein activation, and/or protein chaperoning implicated in the adaptive mitochondrial response to exercise, though it should be acknowledged that these mechanisms are speculative. It is recommended that future, larger studies seek to verify our observations, and investigate the acute signaling mechanisms that may regulate this effect.
+L79: In terms of adaptations to whole‐body metabolic responses to fasted incremental and fed‐state, constant‐load exercise, the effect of environmental heat stress during training was minimal (Table  3 , Figure  4 ). However, adaptation to PFO during the fasted incremental tests was significantly different between‐groups, with the training‐induced change significantly lower, and indeed negative, in HEAT (Table  3 ). Trained athletes tend to exhibit greater PFO than untrained individuals (Maunder et al.,  2018 ), and thus the prevailing paradigm is that endurance training increases fat oxidation rates at given work rates. The possibility of blunted PFO adaptations to HEAT could plausibly relate to lower utilization of, and therefore adaptation to, fatty acid metabolism pathways during training (Febbraio et al.,  1994 ; Hargreaves et al.,  1996 ). Adaptations to whole‐muscle CD36 protein content, a sarcolemmal and mitochondrial membrane fatty acid transport protein, were not observed in either group, although it remains possible adaptations may have been observed at other levels of fatty acid metabolism. Therefore, the effects of endurance training performed under heat stress for acute metabolic responses to exercise in temperate conditions, and whether they are ergogenic or maladaptive, merit further investigation.
+L80: From an applied perspective, the results of this study provide tentative support for use of block periods of moderate environmental heat stress during training as a means of improving endurance performance in temperate conditions (Hawley et al.,  2018 ). The observed 30‐min TT performance changes following HEAT are considered substantial (Figure  3a ), particularly in the context of an already endurance‐trained population, who have higher reliability when performing TT assessments (Hopkins et al.,  2001 ), and likely greater resistance to short‐term training‐induced changes in performance (Rønnestad et al.,  2020 ). The perceptual and HRV data presented here also indicate that this training methodology can be effectively utilized without large perturbations to athlete well‐being or inducing maladaptation, which has occurred previously (Reeve et al.,  2019 ). It is important to recognize the specific duration, training program, athletic population, and magnitude of environmental heat stress may have been critical to the adaptive responses observed here, and therefore longer training blocks or hotter conditions may not produce the same responses. It should also be acknowledged that the small sample size of this study prevents definitive conclusions being drawn from the data. Accordingly, it is suggested that future, larger studies should look to assess these responses using different training programs, elite and female athletes, and in different magnitudes of environmental heat stress.
+L81: CONCLUSIONS
+L82: In summary, a three‐week endurance training intervention performed in 33°C produced significantly greater positive effects on pre‐loaded 30‐min TT performance in a temperate environment than a matched training program performed in 18°C. This effect may have been at least partially attributable to beneficial effects of moderate environmental heat stress on  vastus lateralis  CS activity. This study therefore provides tentative support for the use of moderate environmental heat stress during a well‐controlled endurance training intervention for upregulating adaptations relevant to performance in temperate conditions, though further studies are warranted to verify and extend these observations. Moreover, programming training under heat stress via HR thresholds appeared an effective means of managing training stress. It is recommended that future studies assess the effect of different combinations of training and environmental heat stress on temperate performance adaptations including mitochondrial biogenesis.
+L83: CONFLICT OF INTEREST
+L84: The authors declare no competing interests associated with this manuscript.
+L85: AUTHOR CONTRIBUTIONS
+L86: Data were primarily collected and analyzed at the Auckland University of Technology laboratory at AUT Millennium; mass spectrometry was performed at the University of Waikato Stable Isotopes Unit. E.M. was responsible for original conception and design of the study, conducting the research at all stages, and original drafting of the manuscript; D.J.P. and A.E.K. were involved in the original conception and design of the study, interpreting the data, and revising the manuscript; G.A.W., M.J.B., W.L., W.L.C., and C.M.W. were involved in the design of the study, analysis and/or interpretation of the data, and revising the manuscript. All authors approved the final version of the manuscript and agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All persons designated as authors qualify for authorship, and all those who qualify for authorship are listed.
+L87: CONSENT TO PARTICIPATE
+L88: All participants provided written informed consent.
+L89: CONSENT FOR PUBLICATION
+L90: All participants were informed of the intention to publish data generated in this study prior to providing informed consent.
+L91: DATA AVAILABILITY STATEMENT
+L92: Data associated with this study are available from the corresponding author upon reasonable request.
+L93: Borg ,  G. 
+L94:   ( 1998 ).  Borg's perceived exertion and pain scales .  Human Kinetics .
+L95: Boynton ,  J. R. 
+L96:  ,  
+L97:  Danner ,  F. 
+L98:  ,  
+L99:  Menaspà ,  P. 
+L100:  ,  
+L101:  Peiffer ,  J. J. 
+L102:  , &  
+L103:  Abbiss ,  C. R. 
+L104:   ( 2019 ).  Effect of environmental temperature on high intensity intervals in well‐trained cyclists .  International Journal of Sports Physiology and Performance ,  14 ( 10 ),  1401 – 1407 .  10.1123/ijspp.2018-0689
+L105: Christen ,  J. 
+L106:  ,  
+L107:  Foster ,  C. 
+L108:  ,  
+L109:  Porcari ,  J. P. 
+L110:  , &  
+L111:  Mikat ,  R. P. 
+L112:   ( 2016 ).  Temporal robustness of the session rating of perceived exertion .  International Journal of Sports Physiology and Performance ,  11 ( 8 ),  1088 – 1093 .  10.1123/ijspp.2015-0438 
+L113:  26999454
+L114: Craig ,  H. 
+L115:   ( 1957 ).  Isotopic standards for carbon and oxygen and correction factors for mass‐spectrometric analysis of carbon dioxide .  Geochimica et Cosmochimica Acta ,  12 ( 1–2 ),  133 – 149 .  10.1016/0016-7037(57)90024-8
+L116: Drust ,  B. 
+L117:  ,  
+L118:  Rasmussen ,  P. 
+L119:  ,  
+L120:  Mohr ,  M. 
+L121:  ,  
+L122:  Nielsen ,  B. 
+L123:  , &  
+L124:  Nybo ,  L. 
+L125:   ( 2005 ).  Elevations in core and muscle temperature impairs repeated sprint performance .  Acta Physiologica Scandinavica ,  183 ,  181 – 190 .  10.1111/j.1365-201X.2004.01390.x 
+L126:  15676059
+L127: Febbraio ,  M. A. 
+L128:  ,  
+L129:  Snow ,  R. J. 
+L130:  ,  
+L131:  Stathis ,  C. G. 
+L132:  ,  
+L133:  Hargreaves ,  M. 
+L134:  , &  
+L135:  Carey ,  M. F. 
+L136:   ( 1994 ).  Effect of heat stress on muscle energy metabolism during exercise .  Journal of Applied Physiology ,  77 ,  2827 – 2831 .  10.1152/jappl.1994.77.6.2827 
+L137:  7896628
+L138: Fiorenza ,  M. 
+L139:  ,  
+L140:  Gunnarsson ,  T. P. 
+L141:  ,  
+L142:  Hostrup ,  M. 
+L143:  ,  
+L144:  Iaia ,  F. M. 
+L145:  ,  
+L146:  Schena ,  F. 
+L147:  ,  
+L148:  Pilegaard ,  H. 
+L149:  , &  
+L150:  Bangsbo ,  J. 
+L151:   ( 2018 ).  Metabolic stress‐dependent regulation of the mitochondrial biogenic molecular response to high‐intensity exercise in human skeletal muscle .  Journal of Physiology ,  596 ( 14 ),  2823 – 2840 .  10.1113/JP275972
+L152: Flatt ,  A. A. 
+L153:  , &  
+L154:  Howells ,  D. 
+L155:   ( 2019 ).  Effects of varying training load on heart rate variability and running performance among an Olympic rugby sevens team .  Journal of Science and Medicine in Sport ,  22 ( 2 ),  222 – 226 .  10.1016/j.jsams.2018.07.014 
+L156:  30055959
+L157: Granata ,  C. 
+L158:  ,  
+L159:  Oliveira ,  R. S. F. 
+L160:  ,  
+L161:  Little ,  J. P. 
+L162:  ,  
+L163:  Renner ,  K. 
+L164:  , &  
+L165:  Bishop ,  D. J. 
+L166:   ( 2016a ).  Mitochondrial adaptations to high‐volume exercise training are rapidly reversed after a reduction in training volume in human skeletal muscle .  FASEB Journal ,  30 ( 10 ),  3413 – 3423 .  10.1096/fj.201500100R 
+L167:  27402675
+L168: Granata ,  C. 
+L169:  ,  
+L170:  Oliveira ,  R. S. F. 
+L171:  ,  
+L172:  Little ,  J. P. 
+L173:  ,  
+L174:  Renner ,  K. 
+L175:  , &  
+L176:  Bishop ,  D. J. 
+L177:   ( 2016b ).  Training intensity modulates changes in PGC‐1α and p53 protein content and mitochondrial respiration, but not markers of mitochondrial content in human skeletal muscle .  FASEB Journal ,  30 ( 2 ),  959 – 970 .  10.1096/fj.15-276907 
+L178:  26572168
+L179: Hargreaves ,  M. 
+L180:  ,  
+L181:  Angus ,  D. 
+L182:  ,  
+L183:  Howlett ,  K. 
+L184:  ,  
+L185:  Conus ,  N. M. 
+L186:  , &  
+L187:  Febbraio ,  M. A. 
+L188:   ( 1996 ).  Effect of heat stress on glucose kinetics during exercise .  Journal of Applied Physiology ,  81 ( 4 ),  1594 – 1597 .  10.1152/jappl.1996.81.4.1594 
+L189:  8904574
+L190: Hawley ,  J. A. 
+L191:  ,  
+L192:  Lundby ,  C. 
+L193:  ,  
+L194:  Cotter ,  J. D. 
+L195:  , &  
+L196:  Burke ,  L. M. 
+L197:   ( 2018 ).  Maximizing cellular adaptation to endurance exercise in skeletal muscle .  Cell Metabolism ,  27 ( 5 ),  962 – 976 .  10.1016/j.cmet.2018.04.014 
+L198:  29719234
+L199: Hayot ,  M. 
+L200:  ,  
+L201:  Michaud ,  A. 
+L202:  ,  
+L203:  Koechlin ,  C. 
+L204:  ,  
+L205:  Caron ,  M. A. 
+L206:  ,  
+L207:  LeBlanc ,  P. 
+L208:  ,  
+L209:  Préfaut ,  C. 
+L210:  , &  
+L211:  Maltais ,  F. 
+L212:   ( 2005 ).  Skeletal muscle microbiopsy: A validation study of a minimally invasive technique .  European Respiratory Journal ,  25 ( 3 ),  431 – 440 .  10.1183/09031936.05.00053404
+L213: Heesch ,  M. W. 
+L214:  ,  
+L215:  Shute ,  R. J. 
+L216:  ,  
+L217:  Kreiling ,  J. L. 
+L218:  , &  
+L219:  Slivka ,  D. R. 
+L220:   ( 2016 ).  Transcriptional control, but not subcellular location, of PGC‐1α is altered following exercise in a hot environment .  Journal of Applied Physiology ,  121 ( 3 ),  741 – 749 .  10.1152/japplphysiol.01065.2015 
+L221:  27445305
+L222: Holloszy ,  J. O. 
+L223:   ( 2008 ).  Regulation by exercise of skeletal muscle content of mitochondria and GLUT4 .  Journal of Physiology and Pharmacology ,  59 ( 4 ),  5 – 18 .
+L224: Hopkins ,  W. G. 
+L225:  ,  
+L226:  Schabort ,  E. J. 
+L227:  , &  
+L228:  Hawley ,  J. A. 
+L229:   ( 2001 ).  Reliability of power in physical performance tests .  Sports Medicine ,  31 ( 3 ),  211 – 234 .  10.2165/00007256-200131030-00005 
+L230:  11286357
+L231: Hoppeler ,  H. 
+L232:  ,  
+L233:  Howald ,  H. 
+L234:  ,  
+L235:  Conley ,  K. 
+L236:  ,  
+L237:  Lindstedt ,  S. L. 
+L238:  ,  
+L239:  Claassen ,  H. 
+L240:  ,  
+L241:  Vock ,  P. 
+L242:  , &  
+L243:  Weibel ,  E. R. 
+L244:   ( 1985 ).  Endurance training in humans: aerobic capacity and structure of skeletal muscle .  Journal of Applied Physiology ,  59 ( 2 ),  320 – 327 .  10.1152/jappl.1985.59.2.320 
+L245:  4030584
+L246: Hulston ,  C. J. 
+L247:  ,  
+L248:  Venables ,  M. C. 
+L249:  ,  
+L250:  Mann ,  C. H. 
+L251:  ,  
+L252:  Martin ,  C. 
+L253:  ,  
+L254:  Philp ,  A. 
+L255:  ,  
+L256:  Baar ,  K. 
+L257:  , &  
+L258:  Jeukendrup ,  A. E. 
+L259:   ( 2010 ).  Training with low muscle glycogen enhances fat metabolism in well‐trained cyclists .  Medicine and Science in Sports and Exercise ,  42 ( 11 ),  2046 – 2055 .  10.1249/MSS.0b013e3181dd5070 
+L260:  20351596
+L261: Inbar ,  O. 
+L262:  ,  
+L263:  Oren ,  A. 
+L264:  ,  
+L265:  Scheinowitz ,  M. 
+L266:  ,  
+L267:  Rotstein ,  A. 
+L268:  ,  
+L269:  Dlin ,  R. 
+L270:  , &  
+L271:  Casaburi ,  R. 
+L272:   ( 1994 ).  Normal cardiopulmonary responses during incremental exercise in 20‐ to 70‐yr‐old men .  Medicine and Science in Sports and Exercise ,  26 ( 5 ),  538 – 546 .  10.1249/00005768-199405000-00003 
+L273:  8007799
+L274: James ,  C. A. 
+L275:  ,  
+L276:  Richardson ,  A. J. 
+L277:  ,  
+L278:  Watt ,  P. W. 
+L279:  ,  
+L280:  Willmott ,  A. G. B. 
+L281:  ,  
+L282:  Gibson ,  O. R. 
+L283:  , &  
+L284:  Maxwell ,  N. S. 
+L285:   ( 2017 ).  Short‐term heat acclimation improves the determinants of endurance performance and 5‐km running performance in the heat .  Applied Physiology, Nutrition, and Metabolism ,  42 ( 3 ),  285 – 294 .  10.1139/apnm-2016-0349
+L286: Jamnick ,  N. A. 
+L287:  ,  
+L288:  Botella ,  J. 
+L289:  ,  
+L290:  Pyne ,  D. B. 
+L291:  , &  
+L292:  Bishop ,  D. J. 
+L293:   ( 2018 ).  Manipulating graded exercise test variables affects the validity of the lactate threshold and VO2peak .  PLoS One ,  13 ( 7 ),  1 – 21 .  10.1371/journal.pone.0199794
+L294: Javaloyes ,  A. 
+L295:  ,  
+L296:  Sarabia ,  J. M. 
+L297:  ,  
+L298:  Lamberts ,  R. P. 
+L299:  , &  
+L300:  Moya‐Ramon ,  M. 
+L301:   ( 2019 ).  Training prescription guided by heart‐rate variability in cycling .  International Journal of Sports Physiology and Performance ,  14 ( 1 ),  23 – 32 .  10.1123/ijspp.2018-0122
+L302: Jeukendrup ,  A. E. 
+L303:  , &  
+L304:  Wallis ,  G. A. 
+L305:   ( 2005 ).  Measurement of substrate oxidation during exercise by means of gas exchange measurements .  International Journal of Sports Medicine ,  26 ( 1 (suppl. 1) ),  S28 – S37 .  10.1055/s-2004-830512 
+L306:  15702454
+L307: Karlsen ,  A. 
+L308:  ,  
+L309:  Racinais ,  S. 
+L310:  ,  
+L311:  Jensen ,  M. V. 
+L312:  ,  
+L313:  Nørgaard ,  S. J. 
+L314:  ,  
+L315:  Bonne ,  T. 
+L316:  , &  
+L317:  Nybo ,  L. 
+L318:   ( 2015 ).  Heat acclimatization does not improve VO2max or cycling performance in a cool climate in trained cyclists .  Scandinavian Journal of Medicine and Science in Sports ,  25 ( S1 ),  269 – 276 .  10.1111/sms.12409 
+L319:  25943678
+L320: Keiser ,  S. 
+L321:  ,  
+L322:  Flück ,  D. 
+L323:  ,  
+L324:  Hüppin ,  F. 
+L325:  ,  
+L326:  Stravs ,  A. 
+L327:  ,  
+L328:  Hilty ,  M. P. 
+L329:  , &  
+L330:  Lundby ,  C. 
+L331:   ( 2015 ).  Heat training increases exercise capacity in hot but not in temperate conditions: A mechanistic counter‐balanced cross‐over study .  American Journal of Physiology ‐ Heart and Circulatory Physiology ,  309 ( 5 ),  H750 – H761 .  10.1152/ajpheart.00138.2015 
+L332:  26150574
+L333: Larsen ,  S. 
+L334:  ,  
+L335:  Nielsen ,  J. 
+L336:  ,  
+L337:  Hansen ,  C. N. 
+L338:  ,  
+L339:  Nielsen ,  L. B. 
+L340:  ,  
+L341:  Wibrand ,  F. 
+L342:  ,  
+L343:  Stride ,  N. 
+L344:  ,  
+L345:  Schroder ,  H. D. 
+L346:  ,  
+L347:  Boushel ,  R. 
+L348:  ,  
+L349:  Helge ,  J. W. 
+L350:  ,  
+L351:  Dela ,  F. 
+L352:  , &  
+L353:  Hey‐Mogensen ,  M. 
+L354:   ( 2012 ).  Biomarkers of mitochondrial content in skeletal muscle of healthy young human subjects .  Journal of Physiology ,  590 ( 14 ),  3349 – 3360 .  10.1113/jphysiol.2012.230185
+L355: Liu ,  C. T. 
+L356:  , &  
+L357:  Brooks ,  G. A. 
+L358:   ( 2012 ).  Mild heat stress induces mitochondrial biogenesis in C2C12 myotubes .  Journal of Applied Physiology ,  112 ( 3 ),  354 – 361 .  10.1152/japplphysiol.00989.2011 
+L359:  22052865
+L360: Lorenzo ,  S. 
+L361:  ,  
+L362:  Halliwill ,  J. R. 
+L363:  ,  
+L364:  Sawka ,  M. N. 
+L365:  , &  
+L366:  Minson ,  C. T. 
+L367:   ( 2010 ).  Heat acclimation improves exercise performance .  Journal of Applied Physiology ,  109 ( 9 ),  1140 – 1147 .  10.1152/japplphysiol.00495.2010 
+L368:  20724560
+L369: Lucía ,  A. 
+L370:  ,  
+L371:  Hoyos ,  J. 
+L372:  ,  
+L373:  Carvajal ,  A. 
+L374:  , &  
+L375:  Chicharro ,  J. L. 
+L376:   ( 1999 ).  Heart rate response to professional road cycling: The Tour de France .  International Journal of Sports Medicine ,  20 ( 3 ),  167 – 172 .  10.1055/s-2007-971112 
+L377:  10333093
+L378: Lucía ,  A. 
+L379:  ,  
+L380:  Hoyos ,  J. 
+L381:  ,  
+L382:  Pérez ,  M. 
+L383:  , &  
+L384:  Chicharro ,  J. L. 
+L385:   ( 2000 ).  Heart rate and performance parameters in elite cyclists: a longitudinal study .  Medicine and Science in Sports and Exercise ,  32 ( 10 ),  1777 – 1782 .  10.1097/00005768-200010000-00018 
+L386:  11039652
+L387: Maunder ,  E. 
+L388:  ,  
+L389:  Kilding ,  A. E. 
+L390:  ,  
+L391:  Stevens ,  C. J. 
+L392:  , &  
+L393:  Plews ,  D. J. 
+L394:   ( 2020 ).  Heat stress training camps for endurance sport: A case study of successful monitoring in two Ironman triathletes .  International Journal of Sports Physiology and Performance ,  15 ( 1 ),  146 – 150 .
+L395: Maunder ,  E. 
+L396:  ,  
+L397:  Plews ,  D. J. 
+L398:  , &  
+L399:  Kilding ,  A. E. 
+L400:   ( 2018 ).  Contextualising maximal fat oxidation during exercise: Determinants and normative values .  Frontiers in Physiology ,  9 ,  1 – 13 .  10.3389/fphys.2018.00599 
+L401:  29377031
+L402: Maunder ,  E. 
+L403:  ,  
+L404:  Plews ,  D. J. 
+L405:  ,  
+L406:  Merien ,  F. 
+L407:  , &  
+L408:  Kilding ,  A. E. 
+L409:   ( 2020 ).  Exercise intensity regulates the effect of heat stress on substrate oxidation rates during exercise .  European Journal of Sport Science ,  20 ( 7 ),  935 – 943 .  10.1080/17461391.2019.1674928 
+L410:  31566098
+L411: Maunder ,  E. 
+L412:  ,  
+L413:  Plews ,  D. J. 
+L414:  ,  
+L415:  Merien ,  F. 
+L416:  , &  
+L417:  Kilding ,  A. E. 
+L418:   ( 2021 ).  Stability of heart rate at physiological thresholds between temperate and heat stress environments in endurance‐trained males .  International Journal of Sports Physiology and Performance .  10.1123/ijspp.2020-0351
+L419: McCleave ,  E. L. 
+L420:  ,  
+L421:  Slattery ,  K. M. 
+L422:  ,  
+L423:  Duffield ,  R. 
+L424:  ,  
+L425:  Crowcroft ,  S. 
+L426:  ,  
+L427:  Abbiss ,  C. R. 
+L428:  ,  
+L429:  Wallace ,  L. K. 
+L430:  , &  
+L431:  Coutts ,  A. J. 
+L432:   ( 2020 ).  Concurrent heat and intermittent hypoxic training: No additional performance benefit over temperate training .  International Journal of Sports Physiology and Performance ,  15 ( 9 ),  1260 – 1271 .  10.1123/ijspp.2019-0277
+L433: McCleave ,  E. L. 
+L434:  ,  
+L435:  Slattery ,  K. M. 
+L436:  ,  
+L437:  Duffield ,  R. 
+L438:  ,  
+L439:  Saunders ,  P. U. 
+L440:  ,  
+L441:  Sharma ,  A. P. 
+L442:  ,  
+L443:  Crowcroft ,  S. J. 
+L444:  , &  
+L445:  Coutts ,  A. J. 
+L446:   ( 2017 ).  Temperate performance benefits after heat, but not combined heat and hypoxic training .  Medicine and Science in Sports and Exercise ,  49 ( 3 ),  509 – 517 .  10.1249/MSS.0000000000001138 
+L447:  27787334
+L448: McLean ,  B. S. 
+L449:  ,  
+L450:  Coutts ,  A. J. 
+L451:  ,  
+L452:  Kelly ,  V. 
+L453:  ,  
+L454:  McGuigan ,  M. R. 
+L455:  , &  
+L456:  Cormack ,  S. 
+L457:   ( 2010 ).  The influence of different length between match microcycles on neuromuscular, hormonal and perceptual responses in professional rugby league players .  International Journal of Sports Physiology and Performance ,  5 ( 3 ),  367 – 383 .  10.1123/ijspp.5.3.367 
+L458:  20861526
+L459: Mikkelsen ,  C. J. 
+L460:  ,  
+L461:  Junge ,  N. 
+L462:  ,  
+L463:  Piil ,  J. F. 
+L464:  ,  
+L465:  Morris ,  N. B. 
+L466:  ,  
+L467:  Oberholzer ,  L. 
+L468:  ,  
+L469:  Siebenmann ,  C. 
+L470:  ,  
+L471:  Lundby ,  C. 
+L472:  , &  
+L473:  Nybo ,  L. 
+L474:   ( 2019 ).  Prolonged heat acclimation and aerobic performance in endurance trained athletes .  Frontiers in Physiology ,  10 ,  1 – 9 .  10.3389/fphys.2019.01372 
+L475:  30723415
+L476: Montero ,  D. 
+L477:  ,  
+L478:  Cathomen ,  A. 
+L479:  ,  
+L480:  Jacobs ,  R. A. 
+L481:  ,  
+L482:  Flück ,  D. 
+L483:  ,  
+L484:  de Leur ,  J. 
+L485:  ,  
+L486:  Keiser ,  S. 
+L487:  ,  
+L488:  Bonne ,  T. 
+L489:  ,  
+L490:  Kirk ,  N. 
+L491:  ,  
+L492:  Lundby ,  A.‐K. 
+L493:  , &  
+L494:  Lundby ,  C. 
+L495:   ( 2015 ).  Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training .  Journal of Physiology ,  593 ( 20 ),  4677 – 4688 .  10.1113/JP270250
+L496: Mortensen ,  S. P. 
+L497:  ,  
+L498:  Dawson ,  E. A. 
+L499:  ,  
+L500:  Yoshiga ,  C. C. 
+L501:  ,  
+L502:  Dalsgaard ,  M. K. 
+L503:  ,  
+L504:  Damsgaard ,  R. 
+L505:  ,  
+L506:  Secher ,  N. H. 
+L507:  , &  
+L508:  González‐Alonso ,  J. 
+L509:   ( 2005 ).  Limitations to systemic and locomotor limb muscle oxygen delivery and uptake during maximal exercise in humans .  Journal of Physiology ,  566 ( 1 ),  273 – 285 .  10.1113/jphysiol.2005.086025
+L510: Moseley ,  L. 
+L511:  , &  
+L512:  Jeukendrup ,  A. E. 
+L513:   ( 2001 ).  The reliability of cycling efficiency .  Medicine and Science in Sports and Exercise ,  33 ( 4 ),  621 – 627 .  10.1097/00005768-200104000-00017 
+L514:  11283439
+L515: Nybo ,  L. 
+L516:  , &  
+L517:  Nielsen ,  B. 
+L518:   ( 2001 ).  Perceived exertion is associated with an altered brain activity during exercise with progressive hyperthermia .  Journal of Applied Physiology ,  91 ( 5 ),  2017 – 2023 .  10.1152/jappl.2001.91.5.2017 
+L519:  11641339
+L520: Patton ,  M. G. 
+L521:  ,  
+L522:  Gillum ,  T. L. 
+L523:  ,  
+L524:  Szymanski ,  M. C. 
+L525:  ,  
+L526:  Gould ,  L. M. 
+L527:  ,  
+L528:  Lauterbach ,  C. J. 
+L529:  ,  
+L530:  Vaughan ,  R. A. 
+L531:  , &  
+L532:  Kuennen ,  M. R. 
+L533:   ( 2018 ).  Heat acclimation increases mitochondrial respiration capacity of C2C12 myotubes and protects against LPS‐mediated energy deficit .  Cell Stress and Chaperones ,  23 ( 5 ),  871 – 883 .  10.1007/s12192-018-0894-1 
+L534:  29644563
+L535: Plews ,  D. J. 
+L536:  ,  
+L537:  Scott ,  B. 
+L538:  ,  
+L539:  Altini ,  M. 
+L540:  ,  
+L541:  Wood ,  M. 
+L542:  ,  
+L543:  Kilding ,  A. E. 
+L544:  , &  
+L545:  Laursen ,  P. B. 
+L546:   ( 2017 ).  Comparison of heart‐rate‐variability recording with smartphone photoplethysmography, polar H7 chest strap, and electrocardiography .  International Journal of Sports Physiology and Performance ,  12 ( 10 ),  1324 – 1328 .  10.1123/ijspp.2016-0668 
+L547:  28290720
+L548: Reeve ,  T. 
+L549:  ,  
+L550:  Gordon ,  R. 
+L551:  ,  
+L552:  Laursen ,  P. B. 
+L553:  ,  
+L554:  Lee ,  J. K. W. 
+L555:  , &  
+L556:  Tyler ,  C. J. 
+L557:   ( 2019 ).  Impairment of cycling capacity in the heat in well‐trained endurance athletes after high‐intensity short‐term heat acclimation .  International Journal of Sports Physiology and Performance ,  14 ( 8 ),  1058 – 1065 .  10.1123/ijspp.2018-0537 
+L558:  30702375
+L559: Rønnestad ,  B. R. 
+L560:  ,  
+L561:  Hamarsland ,  H. 
+L562:  ,  
+L563:  Hansen ,  J. 
+L564:  ,  
+L565:  Holen ,  E. 
+L566:  ,  
+L567:  Montero ,  D. 
+L568:  ,  
+L569:  Whist ,  J. E. 
+L570:  , &  
+L571:  Lundby ,  C. 
+L572:   ( 2020 ).  Five weeks of heat training increases hemoglobin mass in elite cyclists .  Experimental Physiology ,  106 ,  316 – 327 .  10.1113/EP088544 
+L573:  32436633
+L574: Rowell ,  L. B. 
+L575:  ,  
+L576:  Marx ,  H. J. 
+L577:  ,  
+L578:  Bruce ,  R. A. 
+L579:  ,  
+L580:  Conn ,  R. D. 
+L581:  , &  
+L582:  Kusumi ,  F. 
+L583:   ( 1966 ).  Reductions in cardiac output, central blood volume, and stroke volume with thermal stress in normal men during exercise .  Journal of Clinical Investigation ,  45 ( 11 ),  1801 – 1816 .  10.1172/JCI105484
+L584: Scalzo ,  R. L. 
+L585:  ,  
+L586:  Peltonen ,  G. L. 
+L587:  ,  
+L588:  Binns ,  S. E. 
+L589:  ,  
+L590:  Shankaran ,  M. 
+L591:  ,  
+L592:  Giordano ,  G. R. 
+L593:  ,  
+L594:  Hartley ,  D. A. 
+L595:  ,  
+L596:  Klochak ,  A. L. 
+L597:  ,  
+L598:  Lonac ,  M. C. 
+L599:  ,  
+L600:  Paris ,  H. L. R. 
+L601:  ,  
+L602:  Szallar ,  S. E. 
+L603:  ,  
+L604:  Wood ,  L. M. 
+L605:  ,  
+L606:  Peelor ,  F. F. 
+L607:  ,  
+L608:  Holmes ,  W. E. 
+L609:  ,  
+L610:  Hellerstein ,  M. K. 
+L611:  ,  
+L612:  Bell ,  C. 
+L613:  ,  
+L614:  Hamilton ,  K. L. 
+L615:  , &  
+L616:  Miller ,  B. F. 
+L617:   ( 2014 ).  Greater muscle protein synthesis and mitochondrial biogenesis in males compared with females during sprint interval training .  FASEB Journal ,  28 ( 6 ),  2705 – 2714 .  10.1096/fj.13-246595 
+L618:  24599968
+L619: Skidmore ,  R. 
+L620:  ,  
+L621:  Gutierrez ,  J. A. 
+L622:  ,  
+L623:  Guerriero ,  V. 
+L624:  Jr 
+L625:  , &  
+L626:  Kregel ,  K. C. 
+L627:   ( 1995 ).  HSP70 induction during exercise and heat stress in rats: role of internal temperature .  American Journal of Physiology ‐ Regulatory, Integrative and Comparative Physiology ,  268 ( 37 ),  R92 – R97 .  10.1152/ajpregu.1995.268.1.R92
+L628: Spina ,  R. J. 
+L629:  ,  
+L630:  Chi ,  M. M. 
+L631:  ,  
+L632:  Hopkins ,  M. G. 
+L633:  ,  
+L634:  Nemeth ,  P. M. 
+L635:  ,  
+L636:  Lowry ,  O. H. 
+L637:  , &  
+L638:  Holloszy ,  J. O. 
+L639:   ( 1996 ).  Mitochondrial enzymes increase in muscle in response to 7–10 days of cycle exercise .  Journal of Applied Physiology ,  80 ( 6 ),  2250 – 2254 .  10.1007/S004210000223 
+L640:  8806937
+L641: Starkie ,  R. L. 
+L642:  ,  
+L643:  Hargreaves ,  M. 
+L644:  ,  
+L645:  Rolland ,  J. 
+L646:  , &  
+L647:  Febbraio ,  M. A. 
+L648:   ( 2005 ).  Heat stress, cytokines, and the immune response to exercise .  Brain, Behavior, and Immunity ,  19 ,  404 – 412 .  10.1016/j.bbi.2005.03.005
+L649: Tamura ,  Y. 
+L650:  , &  
+L651:  Hatta ,  H. 
+L652:   ( 2017 ).  Heat stress induces mitochondrial adaptations in skeletal muscle .  Journal of Physical Fitness and Sports Medicine ,  6 ( 3 ),  151 – 158 .  10.7600/jpfsm.6.151
+L653: Waldron ,  M. 
+L654:  ,  
+L655:  Jeffries ,  O. 
+L656:  ,  
+L657:  Tallent ,  J. 
+L658:  ,  
+L659:  Patterson ,  S. 
+L660:  , &  
+L661:  Nevola ,  F. 
+L662:   ( 2019 ).  The time course of adaptations in thermoneutral maximal oxygen consumption following heat acclimation .  European Journal of Applied Physiology ,  119 ( 10 ),  2391 – 2399 .  10.1007/s00421-019-04218-2 
+L663:  31512025
+L664: ACKNOWLEDGEMENTS
+L665: The authors acknowledge all the participants involved in this study.
+[26ms]
+

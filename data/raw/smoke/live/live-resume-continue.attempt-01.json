@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "map",
+    "--resume",
+    "m_f809f824"
+  ],
+  "completed_at": "2026-08-16T02:39:08.316589+00:00",
+  "elapsed_seconds": 5.568970124935731,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:39:02.747628+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-resume-continue.attempt-01.stderr",
+  "stdout_bytes": 157,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-resume-continue.attempt-01.stdout"
+}

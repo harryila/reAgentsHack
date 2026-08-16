@@ -1,0 +1,535 @@
+L1: Effects of Resistance Training Combined with Vitamin D Supplementation on Health-Related Variables in the Elderly: Muscle Strength, Body Composition, and Inflammatory Status
+L2: International Journal of Environmental Research and Public Health (2025)
+L3: Lorena Cristina Ribeiro da Rosa, Paulo de Tarso Veras Farinatti, Maria Izabel Ferreira Batista, Hilene Ribeiro Santiago Navarro Machado, Vitor Hugo Silva de Jesus, Weslen do Nascimento Dantas, Patrícia Maria Lourenço Dutra, Nádia Souza Lima da Silva
+L4: Department of Individual Sports, Institute of Physical Education and Sports, Postraduate Program in Exercise and Sport Science, Maracanã Campus, State University of Rio de Janeiro., Rio de Janeiro 20550-013, Brazil;  lorena.rosa@hotmail.com  (L.C.R.d.R.);  ptvf1964@gmail.com  (P.d.T.V.F.);  batista.maria@posgraduacao.uerj.br  (M.I.F.B.);  jesus.vitor@graduacao.uerj.br  (V.H.S.d.J.);  weslen.dantaslp@hotmail.com  (W.d.N.D.);  pmldutra@gmail.com  (P.M.L.D.);  nadiaslimas@gmail.com  (N.S.L.d.S.)
+L5: Aging is associated with changes in body composition that lead to low-grade chronic inflammation, compromising the health of the elderly. This condition can be mitigated by resistance training (RT) and vitamin D supplementation, promoting the health of this population. This study aimed to investigate the effects of 12 weeks of RT combined with vitamin D supplementation on body composition, muscle strength, and inflammatory status in older adults. A total of 26 participants were randomly assigned to an Experimental Group (EG: n = 12; 11 Female; 70.6 ± 4.7 years; RT + 2000 IU/day of vitamin D) and a Control Group (EG: n = 14; 11 Female; 69.6 ± 4.6 years; RT + placebo). Both groups performed the same RT program (8 exercises; 2 sets; 10 RM, twice per week). Before and after the intervention, participants were assessed using DEXA, strength tests (sit-to-stand test and handgrip strength), and serum biomarkers (IL-6, TNF-α, 25(OH)D). Both groups showed significant strength gains, particularly in the lower limbs ( p  < 0.05 for all tests and groups), with no between-group differences in body composition or inflammatory markers ( p  > 0.05 for all tests and groups). A time × group interaction was observed for IL-6 ( p  = 0.03), with a slight reduction in the EG and an increase in the CG, although post-intervention differences were not statistically significant ( p  = 0.49). No statistically significant between-group difference in 25(OH)D change ( p  = 0.11). These findings suggest that vitamin D supplementation at the tested dose did not enhance adaptations to resistance training in older adults with normal baseline vitamin D levels. Further studies are warranted to explore potential benefits in deficient populations and with alternative dosing strategies.
+L6: Article
+L7: aging; health promotion; strength training; older adults; body composition; Inflammatory markers; IL-6; TNF-α
+L8: 1. Introduction
+L9: Aging, among its various accompanying changes, alters body composition by reducing muscle mass while increasing fat mass and connective tissue, a phenomenon known as sarcopenia [ 1 ], which progressively leads to diminished muscle strength and, consequently, reduced functional capacity [ 2 ].
+L10: Notably, during this process, there is also a decline in sex hormones, which, combined with the marked loss of muscle mass, can trigger the production of cytokines, particularly interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-α), reflecting the presence of metabolic inflammation or the “meta-inflammation”, state of low-grade chronic inflammation, typically associated with metabolic disorders such as obesity, type 2 diabetes, and metabolic syndrome [ 3 ]. Contributing to this inflammatory state, aging promotes visceral fat accumulation, an endocrine-active tissue that itself secretes cytokines and other pro-inflammatory agents [ 4 ].
+L11: At the same time, aging impairs the body’s ability to synthesize vitamin D due to the thinning of the dermis and epidermis, where 7-dehydrocholesterol (7-DHC), the precursor of its synthesis, is located. In addition, the liver and kidneys also show a reduced capacity to convert 7-DHC into vitamin D [ 5 ].
+L12: Vitamin D, acting in concert with parathyroid hormone (PTH), regulates ionized calcium concentration in the blood, which, in turn, influences neuromusculoskeletal activities. Moreover, skeletal muscle fibers express vitamin D receptors, and deficiency of this compound can cause muscle weakness or even myopathy via oxidative stress in the intracellular environment—impacting mitochondrial function and oxygen consumption [ 5 , 6 ].
+L13: Although these phenomena are expected in advanced age, physically active older adults tend to exhibit better control of adipose tissue gain and smaller changes in fatfree mass [ 7 , 8 ]. This may be linked to increased energy expenditure from exercise or a higher basal metabolic rate owing to the preservation of appendicular lean mass (ALM)—that is, lean tissue in arms and legs [ 9 ].
+L14: Indeed, Grgic et al. [ 10 ] demonstrated, through a meta-analysis, that different types of resistance training induce a significant increase in muscle mass in older individuals. This hypertrophy is driven by the synthesis of new myofibrillar proteins and activation of satellite cells [ 11 ], processes that not only promote muscle growth but also enhance muscle strength, ultimately improving autonomy and quality of life in this population [ 10 ].
+L15: Similarly, vitamin D supplementation may be an effective strategy to enhance muscle strength, given vitamin D’s role in muscle regulation, its local presence in muscle tissue, and its involvement in satellite-cell differentiation and the formation of new contractile filaments [ 6 , 12 ]. Thus, it is plausible to hypothesize that combining resistance training with vitamin D supplementation would yield synergistic benefits. However, a meta-analysis of studies that employed both interventions in older adults reported contradictory results among subjects with normal vitamin D levels, showing a clear benefit of supplementation only in individuals with vitamin D deficiency [ 13 ]. Despite these findings, it should be noted that this meta-analysis was conducted with only seven studies, of which only one presented a low risk of bias, indicating the need for more research in order to draw more robust conclusions about vitamin D supplementation for musculoskeletal health in older adults [ 13 ], which justified the present study.
+L16: Given the ongoing controversy in recent research and the practical implications for the health and quality of life of older adults, the present study, starting from the hypothesis that vitamin D supplementation would enhance the responses induced by resistance training, aimed to investigate the effects of resistance training combined with vitamin D supplementation on body composition, muscle strength, and inflammatory status in this population.
+L17: Finding answers to the raised question becomes relevant to support public health policies aimed at promoting active and healthy aging, through the provision of supervised physical activity programs and nutritional supplementation. Initiatives that integrate resistance training and monitoring of nutritional status, including vitamin D levels, can significantly contribute to the prevention of sarcopenia and the improvement of quality of life in the elderly population, reducing the burden on health systems and promoting greater functional autonomy.
+L18: 2. Materials and Methods
+L19: 2.1. Study Design
+L20: This study was a randomized, double-blind (vitamin D vs. placebo) and controlled, conducted to investigate the effect of resistance training combined with vitamin D supplementation on muscle strength, muscle mass, adipose tissue, and inflammatory status in older adults. The study was registered in the Brazilian Clinical Trials Registry (ReBEC), RBR-5x7p5zy, UTN: U1111-1294-4042 and conducted and reported in accordance with the CONSORT 2025 checklist and guidelines ( Appendix A ).
+L21: 2.2. Location and Ethical Approval
+L22: The research was conducted between January and December 2022 at the Physical Activity and Health Promotion Laboratory (LABSAU) of the State University of Rio de Janeiro (UERJ), with laboratory samples collected at the Pedro Ernesto University Hospital (HUPE). The study was approved by the HUPE–UERJ Ethics Committee (Opinion No. 3.655.940).
+L23: 2.3. Sample Size Calculation
+L24: The sample size was estimated using G*Power, version 3.1.9.7 (University of Düsseldorf), based on a repeated measures ANOVA (Effect size f = 0.48; α error probability = 0.05; Power/1 − β error probability = 0.90). The minimum required sample size was 38 participants. The study began with 40 volunteers, but for various reasons explained in  Section 3.1 , the minimum required number was not reached by the end of the experiment.
+L25: 2.4. Inclusion and Exclusion Criteria
+L26: The study included male and female participants aged 60 or older, with medical clearance to engage in physical exercise and vitamin D supplementation. Participants had not been engaged in resistance training for at least three months and had no prior use of vitamin D supplements. They were also free from severe motor or cognitive impairments. Exclusion criteria included: (a) non-adherence to the protocol (exercise and supplementation); (b) failure to complete all scheduled assessments.
+L27: 2.5. Randomization and Blinding
+L28: Participants were allocated into the two study groups using stratified randomization, aiming to ensure balance between groups in terms of sex (male and female) and age group. Participants were first categorized based on these variables and then randomized within each stratum using a computer-generated random sequence. The entire randomization process was carried out by an independent researcher who was not involved in administering the interventions or conducting any study assessments, thus ensuring allocation concealment and minimizing the risk of bias. After allocation, both the intervention staff and data collectors were kept blinded to group assignment (vitamin D vs. placebo) in order to minimize observation bias. Participants were also unaware of which supplement they were receiving, as the bottles were identical and labeled only with codes generated by the compounding pharmacy responsible for preparing the supplements. This ensured a double-blind design. The procedure guaranteed proper randomization and balanced baseline characteristics between the groups.
+L29: 2.6. Assessments
+L30: The assessments were conducted on two consecutive days, before and after the intervention. On the first day, fasting blood samples were collected in the morning (after an 8- to 12 h fasting period) by a nursing technician, with participants seated. The samples were used to determine serum concentrations of 25-hydroxyvitamin D [25(OH)D] using the ELISA method [ 14 ], as well as the inflammatory markers TNF-α and IL-6, analyzed with the Magnetic Bead Cytokine/Chemokine Panel kit (EMD Millipore) [ 15 ]. Peripheral blood from participants was collected in tubes without anticoagulant, containing a clot activator (insert tube brand here), before and after treatment. After collection, the tubes were left undisturbed for at least 30 min to allow complete clot formation. The samples were then centrifuged at 815 g for 10 min at 25 °C. The obtained serum was carefully aliquoted in triplicate and stored in an ultrafreezer at −80 °C until analysis. Each sample was thawed only once, exclusively for the vitamin D and cytokine quantification assays. Samples showing signs of hemolysis were excluded from the analyses. Vitamin D concentrations were determined in serum samples from participants, before and after treatment, using a commercial ELISA kit (Elabscience, Houston, TX, USA, Catalog No. E-EL-0012), following the manufacturer’s instructions. The detection range was 6.25–400 ng/mL. Calibration curves were generated from the supplied standards, and sample concentrations were calculated using the SkanIt for Microplate Readers RE software (ver. 6.0.2.3), with curve fitting by a four-parameter logistic (4PL) model. Absorbance was measured on a microplate reader at 450 nm. Cytokine concentrations in serum samples from participants, before and after treatment, were determined using a bead-based fluorescent cytometric assay (CBA), with the CBA Th1/Th2/Th17 Kit (BD Biosciences, San Jose, CA, USA) for the detection of IL-17A, IFN-γ, TNF, IL-10, IL-6, IL-4, and IL-2. The assay was performed according to the manufacturer’s instructions, and data acquisition was carried out using a BD (FACS) FACSCanto II flow cytometer. The standard curves for cytokines ranged from 0 to 5000 pg/mL, and the results were analyzed using FCAP Array software v3, being expressed in pg/mL.
+L31: On the second day, body mass and height were measured to calculate Body Mass Index (BMI) (mass-kg/height-m 2 ), following the protocols of Martin et al. [ 16 ] and Gordon et al. [ 17 ], respectively. Body composition was assessed using Dual-Energy X-ray Absorptiometry (DEXA) (Lunar Prodigy Advance ® , GE Healthcare, Madison, WI, USA), and the procedures followed the recommendations of the International Society for Clinical Densitometry [ 18 ]. To ensure quality control of the results, a single trained and experienced technician performed equipment calibration before the assessments, using a phantom provided by the manufacturer. Calibration results were recorded daily and monitored over time to detect potential systematic drifts of the device, which also underwent periodic technical inspections.
+L32: Lower limb strength was assessed using the 30 s chair stand test. Participants were seated in the middle of a sturdy, armless chair approximately 43 cm in height, with their feet flat on the floor and spaced shoulder-width apart. Arms were crossed over the chest, with the hands resting on the opposite shoulders, and the trunk was kept upright without touching the backrest. After the test was explained and demonstrated, participants were instructed to stand up fully (achieving full extension of the knees and hips) and sit down again as many times as possible within 30 s. If the participant was in the process of standing when the time ended, that repetition was counted. The total number of complete stands performed in 30 s was recorded as the final score [ 19 ].
+L33: Handgrip strength was assessed using a hydraulic dynamometer (Takei 5001 Hand Grip Analogue Dynamometer-Grip-A, Niigata, Japan). Participants were seated on an armless chair with the arm positioned alongside the trunk, the elbow flexed at 90°, the forearm in a neutral position, the feet flat on the floor, and the back supported by the chair’s backrest, according to the Clinical Assessment Recommendations [ 20 ]. After the test procedure was explained and demonstrated, participants were instructed to squeeze the dynamometer with their dominant hand as forcefully as possible for approximately 3 to 5 s. Three trials were performed with 15 to 30 s rest intervals between them, and the highest value was recorded for analysis.
+L34: 2.7. Training Protocol
+L35: To determine individual resistance training loads, participants underwent 10-repetition maximum (10 RM) tests for the exercises that would be performed throughout the experiment. These tests were conducted in two sessions separated by a 48 h interval to ensure muscle recovery and participant safety. This was followed by a two-week familiarization period using submaximal loads [ 21 ].
+L36: The intervention protocol was supervised by two of the study’s authors (L.C.R.R. and M.I.F.B.), both physical education professors with master’s degrees, and by three undergraduate interns from the Physical Education program. Each intern was responsible for supervising, on average, two participants during the morning sessions.
+L37: The resistance training program lasted 12 weeks, with two sessions per week, and included eight exercises targeting the major muscle groups: leg press, bench press, leg extension, seated row, leg curl, lat pulldown, calf raise, and abdominal exercises.
+L38: Each exercise was performed in two sets of 10 repetition maximums (10 RM) with a load that prevented the execution of an eleventh repetition but did not induce concentric failure, given the elderly participants. A two-minute rest interval was allowed between sets. Whenever the load became light enough to allow up to 12 repetitions, adjustments were made to ensure a consistent training intensity throughout the intervention.
+L39: 2.8. Nutritional Intervention
+L40: The experimental group (EG) received 2000 IU/day of vitamin D 3  for 12 weeks, while the control group (CG) received an identical-appearing placebo (microcrystalline cellulose). Both compounds were supplied by Quintessence Homeopathy LTDA, Rio de Janeiro, Brazil (CNPJ 31.125.586/0001-44).
+L41: 2.9. Definition of Adherence by Protocol
+L42: To monitor protocol adherence, attendance at each training session was recorded in a class diary. Additionally, daily messages were sent via a WhatsApp group asking participants whether they had taken their supplements that morning, which also served as a reminder. Responses were documented in individual records. At the end of each month, unused tablets were returned to the training supervisors. The adherence criteria were as follows: (a) failure to complete at least 70% of the training sessions (≥19 sessions); (b) failure to consume at least 80% of the prescribed vitamin D supplement doses; (c) failure to complete all scheduled assessments.
+L43: 2.10. Outcomes
+L44: The primary outcomes were: (1) body composition (lean mass, total fat mass, and body fat percentage); (2) muscle strength (sit-to-stand test, handgrip strength, and progression of training load); and (3) inflammatory markers (IL-6 and TNF-α). No secondary outcomes were assessed.
+L45: 2.11. Statistical Analysis
+L46: Data were initially processed through descriptive analyses of central tendency and dispersion measures. Normality was assessed using the Shapiro–Wilk test, and sphericity using Mauchly’s test. Initially, all participants were included in the analysis, even those who did not complete all assessment stages or the intervention period. A linear mixed model with missing data handling was applied, followed by Bonferroni Post Hoc tests to identify statistically significant differences. Subsequently, a per-protocol analysis was conducted, including only participants who completed all stages of the study. This sensitivity analysis was performed using a two-factor repeated-measures ANOVA, also followed by Bonferroni Post Hoc tests, to examine pre- and post-intervention differences, as well as intra- and inter-group variations. To investigate the influence of inflammatory status on post-intervention changes in functional capacity and muscle strength variables, a MANCOVA was performed, using baseline IL-6 and TNF-α levels as covariates. The percentage change (Δ%) was calculated and reported for all variables, along with mean differences and 95% confidence intervals (95% CI). A significance level of  p  ≤ 0.05 was adopted. All analyses were conducted according to protocol using SPSS software, version 25 (IBM ® ).
+L47: 3. Results
+L48: 3.1. Participant Flow
+L49: This study effectively began with the participation of 40 older adults; however, logistical challenges during the pandemic led to participant loss. Fourteen participants were excluded for reasons including illness, failure to attend at least 70% of intervention sessions, undergoing surgical procedures, and not completing post-intervention testing. The final sample comprised 26 individuals (EG: 12; CG: 14), as illustrated in the participant flow diagram ( Figure 1 ).
+L50: 3.2. Final Analysis
+L51: Both an intention-to-treat analysis, including all participants initially enrolled in the study (n = 40), and a per-protocol analysis, comprising only those who completed all stages of the research (n = 26), were performed. As both analyses yielded comparable results, and the baseline differences observed among participants who completed the study—specifically in TNF-α and IL-6 levels—did not influence the outcomes, as demonstrated by the MANCOVA analysis ( Supplement File S2 ), only the ANOVA results based on the 26 participants who completed the protocol are presented in this article. The intention-to-treat analysis, which included all 40 participants who initiated the study, is available in  Supplement File S1 .
+L52: 3.3. Baseline Characteristics
+L53: The initial analysis, which included all participants enrolled at the beginning of the study, even those who did not complete all evaluation stages or the intervention period, indicated that the groups were homogeneous for all variables ( Table 1 ). However, the analysis that included only the individuals who completed all stages of the study showed significant differences between groups for the inflammatory markers TNF-α and IL-6, as well as for muscle strength measures in the sit-to-stand and plantar flexion tests ( Table 2 ).
+L54: 3.4. Body Composition and Inflammatory Marker Outcomes
+L55: No significant differences were found between groups in body composition measures, vitamin D levels, or TNF-α and IL-6 at post-test ( Table 3 ). However, a significant time × group interaction was observed for IL-6 ( p  = 0.03), indicating a trend toward a differential response, even though the post-test comparison between groups did not reach statistical significance. It should be noted that, although not significant, the control group showed an 11.9% increase in vitamin D levels, while the experimental group experienced a 2.2% decrease.
+L56: 3.5. Muscle Strength and Functional Performance
+L57: Both groups showed significant improvements in five of the seven strength exercises, with the most pronounced gains in the lower limbs. The control group demonstrated significant improvements in all exercises, particularly in plantar flexion and leg press. In the functional tests, the control group exhibited greater variation in performance, although there were no statistically significant differences between groups at the end of the study.
+L58: It is noteworthy that the analysis performed using models adjusted for baseline values—accounting for the initial differences between groups in TNF-α and IL-6 levels, variables that could potentially influence the outcomes—showed no impact on the results presented ( Supplement File S2 ).
+L59: 4. Discussion
+L60: This study aimed to identify the effects of combining resistance training with vitamin D supplementation on variables related to body composition, muscle strength, and inflammatory status in older adults. Overall, supplementation at the dosage used in this research was not able to enhance the adaptations promoted by training in the outcomes analyzed, failing to confirm our initial hypothesis. Therefore, our study does not corroborate the findings of previous studies [ 6 , 22 , 23 ], which support the role of vitamin D in increasing muscle mass and strength, but it is closer to the results found in the meta-analysis by Antoniak et al. [ 13 ].
+L61: Regarding body composition, it is worth noting the scarcity of studies that have exclusively investigated the combination of resistance training with isolated vitamin D supplementation. In most cases, concomitant use of other supplements, such as calcium [ 24 ] and proteins [ 25 ], is observed. More recently, however, in a study with a sample similar to the present investigation, involving participants with vitamin D levels considered normal (above 30 ng/mL) [ 26 ], the combination of vitamin D supplementation alone with resistance training also did not result in significant effects on body composition.
+L62: Unlike the findings of this study, a clinical trial with older adults deficient in vitamin D (levels < 30 ng/mL) showed that supplementation with vitamin D (800 IU) and calcium (400 mg), followed by 10 weeks of resistance training, significantly reduced adipose tissue and body fat percentage [ 24 ]. The difference between these results and the findings of the present study may be related to the initially low levels of bioavailable vitamin D, which were corrected through supplementation during the study—something that did not occur in our experiment, which was conducted with a sample that had normal vitamin D levels throughout the entire intervention.
+L63: The effects found by Draxler et al. [ 24 ] may be explained by the inverse relationship between the increase in adipose tissue and the number of active vitamin D receptors, given that vitamin D plays an important role in adipocyte differentiation [ 27 ]. Another relevant factor is the role of vitamin D in regulating calcium homeostasis in various body tissues, including adipose tissue, particularly within the intracellular environment of adipocytes, as adequate calcium levels are associated with the induction of apoptosis in these cells [ 28 ].
+L64: In a similar study to the one described above [ 24 ] but conducted with an older population with normal vitamin D levels [ 29 ], as in our study, the results differed from those of Draxler et al. [ 24 ], aligning more closely with ours. Aschauer et al. [ 29 ], in a clinical trial combining resistance training (twice a week for 16 weeks) with vitamin D supplementation (800 IU) plus 400 mg of calcium, did not observe differences in body composition effects compared to the placebo group. These findings suggest that vitamin D appears to enhance the effects of resistance training only in individuals with vitamin D deficiency.
+L65: Studies using high doses of protein combined with vitamin D and other supplements have also shown relevant results. In a 12-week resistance training program, with supplementation starting six weeks earlier (30 g of protein, 500 IU of vitamin D, 400 mg of calcium, and 2.5 g of creatine), only the supplemented group showed initial improvements. During training, both groups improved lean mass and body composition, and by the end, no significant differences were found, suggesting that training alone compensated for the early gains from supplementation. Although our study used only vitamin D, the results are similar to those reported by Bell et al. [ 25 ], in which both groups achieved significant gains as a result of the training.
+L66: Contrary to the findings of Bell et al. [ 25 ] and our experiment, another study conducted with individuals aged 50 to 75 years who trained twice a week for 24 weeks [ 30 ] showed that the group receiving 40 g of protein and 2000 IU of vitamin D experienced significant increases in total lean mass and appendicular lean mass, as well as reductions in total body fat, while the control group showed no significant changes. Such contradictions can be explained by methodological differences between the studies, especially regarding the different supplementation dosages used.
+L67: From these observations, it appears that studies combining protein supplementation (30–40 g), even with lower doses of vitamin D (500–2000 IU), yielded better body composition outcomes than those without such supplementation, even when training periods were similar or longer. Thus, older adults’ responses to resistance training also seem to be enhanced when protein doses are combined with vitamin D supplementation.
+L68: This effect may be explained by the combined action of vitamin D and protein on protein balance, which is often negative in older adults, favoring muscle mass loss, a reduction in basal metabolic rate, and a possible increase in total body fat, but this was not tested in our experiment. The association of vitamin D with protein appears to act positively on protein synthesis in myotubes formed by the differentiation of satellite cells [ 22 , 23 ]. Myotubes, located in the cytoskeleton, have structural and intracellular transport functions, including proteins related to muscle contraction and myosin filament synthesis [ 31 ]. However, this mechanism has only been demonstrated in animal models [ 32 ], and the physiological process remains not fully elucidated in humans.
+L69: Regarding muscle strength, both groups in the present study showed significant improvements in almost all exercises between pre- and post-intervention, especially in the lower limbs. However, unexpectedly, significant differences were found between groups in some exercises (handgrip strength, plantar flexion, and leg press), with better results in the control group. Although both groups performed resistance training, which was expected to result in improvements, it was anticipated that the vitamin D-supplemented group would achieve greater gains, which was not confirmed. This difference may be attributed to selective dropout during the intervention, which resulted in a higher proportion of men in the control group. However, this explanation is not supported by previous studies, which have not found significant differences in strength gains between sexes, as demonstrated by Lemmer et al. [ 33 ]. Furthermore, no baseline differences were observed that could justify the control group’s superior performance in the tests mentioned. The only significant differences found between the groups at baseline were in the levels of TNF-α and IL-6, both inflammatory markers, with the control group showing lower values. However, the analysis taking this baseline difference into account did not identify any influence of this fact on the final results. Moreover, these differences disappeared by the end of the experiment, indicating not only the inefficacy of supplementation with 2000 IU/day of vitamin D regarding this outcome, but also that this does not represent a bias capable of influencing the better results observed in the control group [ 3 ]. Therefore, it is assumed that the larger number of participants who completed the study in the control group may have influenced this outcome.
+L70: In line with the findings of the present study, clinical trials using similar methodologies—although employing protein supplementation combined with vitamin D—also did not observe additional effects on muscle strength. Consistent with our results, Bell et al. [ 25 ] reported an increase in handgrip strength in both the experimental and control groups, with no significant differences between them. Similarly, another study combined resistance training with a drink containing 20 g of protein and 800 IU of vitamin D (or placebo) over six months, yielding comparable results [ 34 ]. Thus, contrary to what was initially proposed in our hypothesis, the available evidence, together with the findings of this study, suggests that vitamin D supplementation does not enhance the effects of resistance training on muscle strength in older adults.
+L71: Conversely, another study was conducted with 117 older adults with vitamin D deficiency [ 35 ]. The intervention lasted 12 months, with daily supplementation of 3 g calcium + 2000 IU vitamin D, or placebo. Strength training was performed three times a week on alternate days. The sample was divided into four groups: control; exercise + placebo; exercise + supplementation; and supplementation only. Muscle strength measurements were collected on the 3rd, 6th, 9th, and 12th month. Significant differences between the supplemented groups (with or without exercise) and the placebo groups were observed only in the third month. This result suggests that normalizing vitamin D levels was sufficient to promote muscle strength gains, without additional benefits from continued supplementation after this period.
+L72: When comparing the above studies, their experimental designs, and respective results, the differences observed can be explained by two physiological mechanisms associated with vitamin D levels. First, vitamin D binds to its nuclear receptor, altering mRNA transcription and promoting the synthesis of contractile proteins, which improves muscle strength. Second, vitamin D aids in the regulation of calcium (Ca 2+ ), which is essential for muscle contraction through actin-myosin interaction [ 36 , 37 ].
+L73: Since the sample in the present study did not present vitamin D deficiency, it is possible that, as observed with body composition, the vitamin D dosage administered was not sufficient to produce additional effects in individuals with normal vitamin D levels. Alternatively, the hypothesis can be considered that no supplemental vitamin D dosage is effective for improving muscle strength in older adults who already have adequate levels of this nutrient.
+L74: Regarding inflammatory status, few studies have examined the relationship between resistance training combined with vitamin D supplementation and this outcome. Among them, one trial supplemented older adults for six weeks with a beverage containing 2.5 g creatine, 400 mg calcium, 500 IU vitamin D, and 1500 mg omega-3, twice daily, without training intervention [ 25 ]. At this stage, significant improvements were observed in the inflammatory markers investigated (TNF-α and IL-6). Supplementation was then maintained for another 12 weeks, now combined with resistance training. During this phase, TNF-α and IL-6 levels were further reduced. In contrast, another study already cited in the body composition analysis found significant changes only for TNF-α [ 30 ].
+L75: The results of the present research, unlike the above studies [ 25 , 30 ], did not indicate relevant effects of the interventions on TNF-α and IL-6 markers. However, participants already began the experiment with low values for these markers, which may have limited the intervention’s ability to reduce them further. Nevertheless, it is worth noting that the experimental group showed a slight decrease in IL-6 levels, whereas in the control group this marker increased. This finding may suggest a potential role of vitamin D in the downregulation of inflammatory markers, which can be explained by the presence of specific vitamin D receptors on macrophage membranes—cells involved in both tissue repair and inflammation modulation [ 38 ].
+L76: Finally, it is important to highlight that although vitamin D levels did not show significant differences in any of the analyses, a variation over time within the groups was observed (EG: 69.5 ± 23.5 vs. 68.0 ± 24.1; Δ%: –2.2; CG: 52.1 ± 15.2 vs. 58.3 ± 24.6), which may have influenced the results and represents a potential limitation of the study. Additionally, it is possible that the administered dosage was insufficient to promote relevant changes in the analyzed variables, especially considering that the participants did not present vitamin D deficiency. Another significant limitation was the sample loss associated with the pandemic context in which the study was conducted. The need to remove participants due to COVID-19 or other flu-like syndromes, combined with the inability to strictly control diet, negatively impacted the development and consistency of the study.
+L77: 5. Conclusions
+L78: It is concluded that supplementation with 2000 IU/day of vitamin D in older adults with adequate levels of this vitamin was not effective in enhancing the adaptations induced by resistance training, performed twice a week over a 12-week period, in body composition, muscle strength, and markers of inflammatory status.
+L79: Despite the conclusions drawn, the limitations of the present study, particularly the small sample size, must be acknowledged. Given the relevance of this topic to older adults’ health, with potential implications for public health, the hypothesis that vitamin D may enhance the effects of resistance training on the analyzed variables cannot yet be ruled out. This is partly due to the limited number of existing studies and methodological differences in training and supplementation interventions. Therefore, further research is recommended to address these limitations and deepen the understanding of the interaction between these factors.
+L80: Figure 1 Sample Flow Diagram.
+L81: Supplementary Material
+L82: 1. Kim S.W. 
+L83:  Park H.Y. 
+L84:  Jung W.S. 
+L85:  Lim K. 
+L86:  Effects of twenty-four weeks of resistance exercise training on body composition, bone mineral density, functional fitness and isokinetic muscle strength in obese older women: A randomized controlled trial Int. J. Environ. Res. Public Health 2022 19 2454 2466 10.3390/ijerph192114554 35206641
+L87: 2. Alorfi N.M. 
+L88:  Alshehri F.A. 
+L89:  Ahrmed A.M. 
+L90:  Therapeutics for Sarcopenia and Functional Disabilities in Older Adults: A Review of Phase 4 Clinical Trials Drug Des. Dev. Ther. 2025 27 2307 2314 10.2147/DDDT.S507033
+L91: 3. Pan L. 
+L92:  Xie W. 
+L93:  Fu X. 
+L94:  Lu W. 
+L95:  Jin H. 
+L96:  Lai J. 
+L97:  Zhang A. 
+L98:  Yu Y. 
+L99:  Li Y. 
+L100:  Xiao W. 
+L101:  Inflammation and sarcopenia: A focus on circulating inflammatory cytokines Exp. Gerontol. 2021 15 e111544 10.1016/j.exger.2021.111544 34478826
+L102: 4. Wang G. 
+L103:  Song A. 
+L104:  Bae M. 
+L105:  Wang Q.A. 
+L106:  Adipose tissue plasticity in aging Compr. Physiol. 2022 12 4119 4132 10.1002/j.2040-4603.2022.tb00242.x 36214190
+L107: 5. Wimalawansa S.J. 
+L108:  Physiology of Vitamin D-Focusing on Disease Prevention Nutrients 2024 29 1666 10.3390/nu16111666 38892599
+L109: 6. Bollen E.S. 
+L110:  Bass J.J. 
+L111:  Fujita S. 
+L112:  Wilkinson D. 
+L113:  Hewison M. 
+L114:  Atherton P.J. 
+L115:  The Vitamin D/Vitamin D receptor (VDR) axis in muscle atrophy and sarcopenia Cell. Signal. 2022 96 110355 10.1016/j.cellsig.2022.110355 35595176
+L116: 7. Čížková T. 
+L117:  Štěpán M. 
+L118:  Daďová K. 
+L119:  Ondrůjová B. 
+L120:  Sontáková L. 
+L121:  Krauzová E. 
+L122:  Matouš M. 
+L123:  Koc M. 
+L124:  Gojda J. 
+L125:  Kračmerová J. 
+L126:  
+L127:  Exercise Training Reduces Inflammation of Adipose Tissue in the Elderly: Cross-Sectional and Randomized Interventional Trial J. Clin. Endocrinol. Metab. 2020 105 44510 44526 10.1210/clinem/dgaa630
+L128: 8. Leslie E. 
+L129:  Luna V. 
+L130:  Gibson A.L. 
+L131:  Older adult aerobic capacity, muscular strength, fitness and body composition after 20+ years of exercise training: A systematic review and meta-analysis Int. J. Exerc. Sci. 2023 16 620 637 10.70252/hsvd9987 37622038
+L132: 9. Waters D.L. 
+L133:  Aguirre L. 
+L134:  Gurney B. 
+L135:  Sinacore D.R. 
+L136:  Fowler K. 
+L137:  Gregori G. 
+L138:  Armamento-Villareal R. 
+L139:  Qualls C. 
+L140:  Villareal D.T. 
+L141:  Effect of Aerobic or Resistance Exercise, or Both, on Intermuscular and Visceral Fat and Physical and Metabolic Function in Older Adults with Obesity While Dieting J. Gerontol. A Biol. Sci. Med. Sci. 2022 77 131 139 10.1093/gerona/glab111 33839788
+L142: 10. Grgic J. 
+L143:  Schoenfeld B.J. 
+L144:  Orazem J. 
+L145:  Sabol F. 
+L146:  Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis J. Sport Health Sci. 2022 11 202 211 10.1016/j.jshs.2021.01.007 33497853
+L147: 11. Grevendonk L. 
+L148:  Connell N.J. 
+L149:  McCrum C. 
+L150:  Fealy C.E. 
+L151:  Bilet L. 
+L152:  Bruls Y.M.H. 
+L153:  Mevenkamp J. 
+L154:  Schrauwen-Hinderling V.B. 
+L155:  Jörgensen J.A. 
+L156:  Moonen-Kornips E. 
+L157:  
+L158:  Impact of aging and exercise on skeletal muscle mitochondrial capacity, energy metabolism, and physical function Nat. Commun. 2021 12 4773 10.1038/s41467-021-24956-2 34362885
+L159: 12. Angocillo M. 
+L160:  Yu J. 
+L161:  Gunton J.E. 
+L162:  The Role of Vitamin D in Skeletal Muscle Repair and Regeneration in Animal Models and Humans: A Systematic Review Nutrients 2023 15 4377 10.3390/nu15204377 37892452
+L163: 13. Antoniak A.E. 
+L164:  Greig C.A. 
+L165:  The effect of combined resistance exercise training and vitamin D3 supplementation on musculoskeletal health and function in older adults: A systematic review and meta-analysis BMJ Open 2017 7 e014619 10.1136/bmjopen-2016-014619
+L166: 14. Uusi-Rasi K. 
+L167:  Kannus P. 
+L168:  Karinkanta S. 
+L169:  Pasanen M. 
+L170:  Patil R. 
+L171:  Lamberg-Allardt C. 
+L172:  Sievänen H. 
+L173:  Study protocol for prevention of falls: A randomized controlled trial of effects of vitamin D and exercise on falls prevention BMC Geriatr. 2012 12 12 26 10.1186/1471-2318-12-12 22448872
+L174: 15. Liu H. 
+L175:  Li D. 
+L176:  Zhang Y. 
+L177:  Li M. 
+L178:  Inflammation, mesenchymal stem cells and bone regeneration Histochem. Cell Biol. 2018 149 393 404 10.1007/s00418-018-1643-3 29435765
+L179: 16. Martin A.D. 
+L180:  Ross W.D. 
+L181:  Drinkwater D.T. 
+L182:  Clarys J.P. 
+L183:  Segment lengths Anthropometric Standardization Reference Manual 
+L184:  Lohman T.G. 
+L185:  Roche A.F. 
+L186:  Martorell R. 
+L187:  Human Kinetics Champaign, IL, USA 1988 9 26 978-0-87322-121-4
+L188: 17. Gordon C. 
+L189:  Chunlea W.C. 
+L190:  Roche A.F. 
+L191:  Stature, recumbent length, and weight Anthropometric Standardization Reference Manual 
+L192:  Lohman T.G. 
+L193:  Roche A.F. 
+L194:  Martorell R. 
+L195:  Human Kinetics Champaign, IL, USA 1988 978-0-87322-121-4
+L196: 18. Krueger D. 
+L197:  Tanner S.B. 
+L198:  Szalat A. 
+L199:  Malabanan A. 
+L200:  Prout T. 
+L201:  Lau A. 
+L202:  Rosen H.N. 
+L203:  Shuhart C. 
+L204:  DXA Reporting Updates: 2023 Official Positions of the International Society for Clinical Densitometry J. Clin. Densitom. 2024 27 101437 10.1016/j.jocd.2023.101437 38011777
+L205: 19. Jones C.J. 
+L206:  Rikli R.E. 
+L207:  Beam W.C.C. 
+L208:  A 30-s chair-stand test as a measure of lower body strength in community-residing older adults Res. Q. Exerc. Sport 1999 70 113 119 10.1080/02701367.1999.10608028 10380242
+L209: 20. MacDermid J.C. 
+L210:  Solomon G.S. 
+L211:  Valdes K.A. 
+L212:  Clinical Assessment Recommendations 3rd ed. American Society of Hand Therapists Mount Laurel, NJ, USA 2015 978-0-69252-515-9
+L213: 21. American College of Sports Medicine 
+L214:  ACSM’s Guidelines for Exercise Testing and Prescription 8th ed. Lippincott Williams & Wilkins Philadelphia, PA, USA 2009 978-1-60913-956-8
+L215: 22. Bischoff H.A. 
+L216:  Borchers M. 
+L217:  Gudat F. 
+L218:  Duermueller U. 
+L219:  Theiler R. 
+L220:  Stähelin H.B. 
+L221:  Dick W. 
+L222:  In situ detection of 1,25-dihydroxyvitamin D3 receptor in human skeletal muscle tissue Histochem. J. 2001 33 19 24 10.1023/A:1017535728844 11352397
+L223: 23. Ceglia L. 
+L224:  Niramitmahapanya S. 
+L225:  da Silva Morais M. 
+L226:  Rivas D.A. 
+L227:  Harris S.S. 
+L228:  Bischoff-Ferrari H. 
+L229:  Fielding R.A. 
+L230:  Dawson-Hughes B. 
+L231:  A Randomized Study on the Effect of Vitamin D3 Supplementation on Skeletal Muscle Morphology and Vitamin D Receptor Concentration in Older Women J. Clin. Endocrinol. Metab. 2013 98 1927 1935 10.1210/jc.2013-2820
+L232: 24. Draxler A. 
+L233:  Franzke B. 
+L234:  Kelecevic S. 
+L235:  Maier A. 
+L236:  Pantic J. 
+L237:  Srienc S. 
+L238:  Cellnigg K. 
+L239:  Solomon S.-M. 
+L240:  Zötsch C. 
+L241:  Aschauer R. 
+L242:  
+L243:  The influence of vitamin D supplementation and strength training on health biomarkers and chromosomal damage in community-dwelling older adults Redox Biol. 2023 21 102640 10.1016/j.redox.2023.102640 36857929
+L244: 25. Bell K.E. 
+L245:  Snijders T. 
+L246:  Zulyniak M. 
+L247:  Kumbhare D. 
+L248:  Parise G. 
+L249:  Chabowski A. 
+L250:  Phillips S.M. 
+L251:  A whey protein-based multi-ingredient nutritional supplement stimulates gains in lean body mass and strength in healthy older men: A randomized controlled trial PLoS ONE 2017 12 e0181387 10.1371/journal.pone.0181387 28719669
+L252: 26. Mᴓlmen K.S. 
+L253:  Hammarström D. 
+L254:  Pedersen K. 
+L255:  Lian Lie A.C. 
+L256:  Steile R.B. 
+L257:  Nygaard H. 
+L258:  Khan Y. 
+L259:  Hamarsland H. 
+L260:  Koll L. 
+L261:  Hanestadhaugen M. 
+L262:  
+L263:  Vitamin D3 supplementation does not enhance the effects of resistance training in older adults J. Cachexia Sarcopenia Muscle 2021 12 599 628 10.1002/jcsm.12688 33788419
+L264: 27. Khan J.R. 
+L265:  Riestra P. 
+L266:  Gebreab S.Y. 
+L267:  Wilson J.G. 
+L268:  Gaye A. 
+L269:  Xu R. 
+L270:  Davis S.K. 
+L271:  Vitamin D Receptor Gene Polymorphisms Are Associated with Abdominal Visceral Adipose Tissue Volume and Serum Adipokine Concentrations but Not with Body Mass Index or Waist Circumference in African Americans: The Jackson Heart Study J. Nutr. 2016 146 1476 1482 10.3945/jn.116.229963 27358421
+L272: 28. Park C.Y. 
+L273:  Han S.N. 
+L274:  Vitamin D and obesity Adv. Food Nutr. Res. 2024 109 221 247 10.1016/bs.afnr.2023.12.006 38777414
+L275: 29. Aschauer R. 
+L276:  Unterberger S. 
+L277:  Zöhrer P.A. 
+L278:  Draxler A. 
+L279:  Franzke B. 
+L280:  Strasser E.M. 
+L281:  Wagner K.-H. 
+L282:  Wessner B. 
+L283:  Effects of Vitamin D3 Supplementation and Resistance Training on 25-Hydroxyvitamin D Status and Functional Performance of Older Adults: A Randomized Placebo-Controlled Trial Nutrients 2021 14 2 14 10.3390/nu14010086 35010876
+L284: 30. Miller E.G. 
+L285:  Nowson C.A. 
+L286:  Dunstan D.W. 
+L287:  Kerr D.A. 
+L288:  Menzies D. 
+L289:  Daly R.M. 
+L290:  Effects of whey protein plus vitamin D supplementation combined with progressive resistance training on glycemic control, body composition, muscle function and cardiometabolic risk factors in middle-aged and older overweight/obese adults with type 2 diabetes: A24-week randomized controlled trial Diabetes Obes. Metab. 2021 23 938 949 10.1111/dom.14299 33369020
+L291: 31. Agergaard J. 
+L292:  Trøstrup J. 
+L293:  Uth J. 
+L294:  Iversen J.V. 
+L295:  Boesen A. 
+L296:  Andersen J.L. 
+L297:  Schjerling P. 
+L298:  Langberg H. 
+L299:  Does vitamin-D intake during resistance training improve the skeletal muscle hypertrophic and strength response in young and elderly men?—A randomized controlled trial Nutr. Metab. 2015 12 2 14 10.1186/s12986-015-0029-y 26430465
+L300: 32. Chen Y. 
+L301:  Liang Y. 
+L302:  Guo H. 
+L303:  Meng K. 
+L304:  Qiu J. 
+L305:  Benardot D. 
+L306:  Muscle-Related Effect of Whey Protein and Vitamin D3 Supplementation Provided before or after Bedtime in Males Undergoing Resistance Training Nutrients 2022 14 2289 10.3390/nu14112289 35684089
+L307: 33. Lemmer J.T. 
+L308:  Hurlbut D.E. 
+L309:  Martel G.F. 
+L310:  Tracy B.L. 
+L311:  Ivey F.M. 
+L312:  Metter E.J. 
+L313:  Fozard J.L. 
+L314:  Fleg J.L. 
+L315:  Hurley B.F. 
+L316:  Age and gender responses to strength training and detraining Med. Sci. Sports Exerc. 2000 32 1505 1512 10.1097/00005768-200008000-00021 10949019
+L317: 34. Grosicki G.J. 
+L318:  Barrett B.B. 
+L319:  Englund D.A. 
+L320:  Liu C. 
+L321:  Travison T.G. 
+L322:  Cederholm T. 
+L323:  Koochek A. 
+L324:  von Berens Å. 
+L325:  Gustafsson T. 
+L326:  Benard T. 
+L327:  
+L328:  Circulating interleukin-6 is associated with skeletal muscle strength, quality, and functional adaptation with exercise training in mobility-limited older adults J. Frailty Aging 2020 9 57 63 10.14283/jfa.2019.30 32150215
+L329: 35. Rathmacher J.A. 
+L330:  Pitchford L.M. 
+L331:  Khoo P. 
+L332:  Angus H. 
+L333:  Lang J. 
+L334:  Lowry K. 
+L335:  Ruby C. 
+L336:  Krajek A.C. 
+L337:  Fuller J.C. 
+L338:  Sharp R.L. 
+L339:  Long-term Effects of Calcium β-Hydroxy-β-Methylbutyrate and Vitamin D3 Supplementation on Muscular Function in Older Adults with and Without Resistance Training: A Randomized, Double-blind, Controlled Study J. Gerontol. Ser. A Biol. Sci. Med. Sci. 2020 75 2089 2097 10.1093/gerona/glaa218 32857128
+L340: 36. Pfeifer M. 
+L341:  Begerow B. 
+L342:  Minne H.W. 
+L343:  Vitamin D and muscle function Osteoporos. Int. 2002 13 187 194 10.1007/s001980200012 11991436
+L344: 37. Maclntosh B.L. 
+L345:  Role of calcium sensitivity modulation in skeletal muscle performance News Physiol. Sci. 2003 18 222 225 10.1152/nips.01456.2003 14614153
+L346: 38. Lips P. 
+L347:  Vitamin D physiology Prog. Biophys. Mol. Biol. 2006 92 4 8 10.1016/j.pbiomolbio.2006.02.016 16563471
+L348: **SUPPLEMENT 1**
+L349: **Table** X **.** Results Across Groups and Time Mixed Model (n = 40)
+L350: **Variable** **EG Pre** **EG Post** **Δ%** **p** **Mean** **Change** **CG Pre** **CG Post** **Δ%** **p** **Mean Change**
+L351: **[IC95%]** **[IC95%]**
+L352: **Body Composition**
+L353: **p**
+L354: **(Group**
+L355: **Differe**
+L356: **nce)**
+L357: **Mean Difference**
+L358: **[IC95%]**
+L359: Body mass 69.7 ± 12 71.0 ± 12. -0.43[-4.89; 69.4 ± 1 69.2 ± 9. 0.22[0.22; -1.2 0.85 1.2 1.0 0.82 0.89[-6.98; 8.75]
+L360: (kg) .5 1 4.04] 0.9 8 0.22]
+L361: 28.2 ± 3.
+L362: BMI (kg/m²)
+L363: 28.2 ± 3. 27.6 ± 3
+L364: 28.3 ± 3.2 -1.1 0.95 0.05[-1.33; 1.42]
+L365: 8 .7
+L366: 27.5± 3.7 -0.7 1.0 0.12[0.12; 0.12] 0.58 0.68[-1.77; 3.12]
+L367: .7
+L368: -0.21[-1.49;
+L369: Lean mass 38.2 ± 7. 39.6 ± 6 39.5 ± 6. 0.06[0.06; 39.3 ± 7.9 -0.8 0.98 -0.3 1.0 0.55 -1.26[-5.45; 2.94]
+L370: (kg) 4 1.45] .5 2 0.06]
+L371: 29.4 ± 8. 27.2 ± 6
+L372: Fat mass (kg) 29.3 ± 7.9 -2.0 0.89 0.19[-2.58; 2.95] 27.2 ± 6. -0.7 1.0 -0.04[-0.04; - 0.44 1.98[-3.15; 7.12]
+L373: 3 .6 8 0.04]
+L374: Appendicula
+L375: r lean mass
+L376: (kg)
+L377: 16.7 ± 3.
+L378: 17.2 ± 3.5 -1.9 0.94 -0.05[-1.40; 17.3 ± 3
+L379: 4 1.30] .7
+L380: 17.2 ± 3.
+L381: -0.6 1.0 0.13[0.13; 0.13] 0.71 -0.45[-2.81; 1.94]
+L382: 3
+L383: 43.0 ± 7.
+L384: Body fat (%) 42.5 ± 7.1 -0.9 0.90 0.22[-3.12; 3.56] 40.5± 6. 38.1 ± 11 -6.7 0.18 -2.33[-1.15; 0.13 4.70[-1.40; 10.79]
+L385: 8 7 .7 5.80]
+L386: **Blood Analysis**
+L387: Vitamin D 66.8 ± 23 70.1 ± 27. -3.24[-15.09; 55.0 ± 1 60.4 ± 25 -5.32[-17.18;
+L388: -2.2 0.58 11.9 0.37 0.31 9.71[-9.54; 28.98]
+L389: (ng/mL) .3 5 8.62] 8.6 .1 6.54]
+L390: TNF-α
+L391: (pg/mL)
+L392: 2.9 ± 11. 2.4 ± 7.6 -16.7 0.77 0.49[-3.25; 4.23] 0.0 ±0.
+L393: 7 0
+L394: 0.0 ± 0.0 0.0
+L395: 0.0[0.0; 0.0] 0.29 2.43[-2.20; 7.05]
+L396: -1.44[-4.54;
+L397: IL-6 (pg/mL) 6.1 ± 9.5 4.1± 6.1 -43.8 0.19 2.01[-1.08; 5.11] 2.4 ±1. 3.8 ± 5.3 82.6 0.35 0.90 0.25[-3.88; 4.39]
+L398: 4 1.65]
+L399: 3.8 ± 5.3
+L400: 82.6
+L401: 0.35
+L402: **Muscle Strength**
+L403: Sit-to-stand
+L404: 11.4± 4.1
+L405: (reps)
+L406: 13.4 ± 4.6 6.8 0.13
+L407: -2.07[-5.91; 10.8 ± 2 12.9 ± 2. -2.13[-7.39;
+L408: 23.4 0.15 0.70 0.50[-2.03; 3.02]
+L409: 1.77] .2 6 3.14]
+L410: Handgrip
+L411: strength (kg)
+L412: 21.3 ± 7.
+L413: 9
+L414: 1.0
+L415: -1.44[-1.44;
+L416: 0.04+ -5.10[-10.04; -0.16]
+L417: 1.44]
+L418: 22.7 ± 7.0
+L419: 0.0
+L420: 0.78
+L421: 25.3 ± 6 26.7 ± 7.
+L422: -0.34
+L423: .7 5
+L424: 7.2
+L425: Bench press
+L426: - 10 RM (kg)
+L427: 10.0 ± 6.
+L428: 14.8 ± 9.7
+L429: 8.3 ± 5.
+L430: 1
+L431: 10.5 ± 4
+L432: .1
+L433: 34.4 ± 1
+L434: 0.9
+L435: 19.8 ± 9.
+L436: 1
+L437: 22.5 ± 9.
+L438: 1
+L439: 96.5± 24.
+L440: 181.0 0.00
+L441: 1
+L442: 120.6
+L443: 0.00
+L444: 14.8 ± 9.7 31.6 0.00 151.3 0.00 0.09 -5.07[-10.47; 0.59]
+L445: - 10 RM (kg) 5 1.57] 1 1 7.81]
+L446: Seated row – 11.9 ± 6. -6.68[-9.88; - 10.5 ± 4 22.5 ± 9. -12.03[-15.79;
+L447: 18.6± 8.0 61.7 0.00 120.6 0.00 0.16 -3.89[-9.31; 1.54]
+L448: 10 RM (kg) 4 3.48] .1 1 8.28]
+L449: Plantar
+L450: 96.5± 24. -61.25[-72.92;
+L451: flexion - 43.2 ± 21 71.4 ± 24. 62.6 0.00 -28.18[-38.14; - 34.4 ± 1 181.0 0.00 0.01+ -24.26[-40.53;
+L452: .7 6 18.22] 0.9 1 49.57]
+L453: 10 RM (kg)
+L454: 31.6
+L455: 0.00
+L456: 151.3
+L457: 5
+L458: 18.6± 8.0
+L459: Seated row –
+L460: 10 RM (kg)
+L461: 4
+L462: 11.9 ± 6.
+L463: 0.00
+L464: -11.56[-15.31; 7.81]
+L465: -12.03[-15.79;
+L466: 8.28]
+L467: -61.25[-72.92; 0.01+ -24.26[-40.53; -7.99]
+L468: 49.57]
+L469: 61.7
+L470: 0.00
+L471: -4.77[-7.97;
+L472: 1.57]
+L473: -6.68[-9.88;
+L474: 3.48]
+L475: -28.18[-38.14; 18.22]
+L476: 43.2 ± 21 71.4 ± 24.
+L477: 62.6 0.00
+L478: .7 6
+L479: -20.63[-35.41; -5.84]
+L480: -24.10[-33.24; 14.94]
+L481: -21.59[-40.37;
+L482: Leg press 10 RM (kg)
+L483: Leg
+L484: 40.9 ± 18 65.0 ± 25.
+L485: 62.2 0.00
+L486: .7 21
+L487: 37.0 ± 64.
+L488: 33.1 ± 1
+L489: 3.0
+L490: 11.4 ± 7
+L491: 85.6± 24.
+L492: 171.3 0.00
+L493: 5
+L494: 26.8± 11.
+L495: -52.50[-63.23; 0.01+
+L496: 41.23]
+L497: -15.47[-37.49;
+L498: extension - 15.5± 7.4 54.7 0.03 137.1 0.17 0.48 10.17[-18.42; 38.76]
+L499: 94 2.81] .2 5 6.55]
+L500: 10 RM (kg)
+L501: Leg curl – 15.3 ± 6. 25.8 ± 14. -10.46[-15.53; - 13.4 ± 5
+L502: 102.2 0.00 25.3± 7.6 97.7 0.00 -11.88[-17.82; - 0.91 0.48[-7.77; 8.74]
+L503: 10 RM (kg) 9 9 5.38] .1 5.92]
+L504: -5.68[-8.80;
+L505: Pulldown – 16.8± 5.6 22.5 ± 7.3 30.5 0.00 10 RM (kg) 2.56]
+L506: 16.3 ± 6
+L507: .7
+L508: 25.3 ± 9. -9.06[-12.72; 55.3 0.00
+L509: 2 5.41]
+L510: 0.29 -2.81[-8.14; 2.51]
+L511: EG: experimental group (resistance training + vitamin D); CG: control group (resistance training + placebo); Pre: pre-intervention; Post: post-intervention;
+L512: Δ%: percent change; IC95%: 95% confidence interval for difference; BMI: body mass index; RM: repetition maximum; rep: repetition; kg: kilogram; %:
+L513: percent; TNF-α: tumor necrosis factor-alpha; IL-6: interleukin-6.
+L514: **SUPPLEMENT 2**
+L515: **Table X.** MANCOVA Results Adjusted for Baseline Covariates
+L516: **Source of variation** **Multivariate test** **Value** **F** **gl₁** **gl₂**
+L517: Grupo Pillai’s Trace 0.559 1.829ᵇ 9.000 13.000
+L518: TNF-α Pillai’s Trace 0.668 2.908ᵇ 9.000 13.000
+L519: IL-6 Pillai’s Trace 0.681 3.084ᵇ 9.000 13.000
+L520: **Table Y.** Group Differences Post Intervention - Adjusted for Covariates
+L521: **Variables** **EG (n=12)** **CG (n=14)** **p** **Mean Difference [IC95%]**
+L522: Mean IC95% Mean IC95%
+L523: Sit-to-stand (reps) 14.420ᵃ [12.337; 16.503] 13.099ᵃ [11.262; 14.936] 0.34 -1.321 [-1.515; 4.157]
+L524: Handgrip strength (kg) 19.457ᵃ [14.669; 24.244] 27.213ᵃ [22.991; 31.434] 0.02 -7.756 [-14.273; -1.238]
+L525: Bench press – 10 RM (kg) 12.016ᵃ [6.355; 17.677] 20.559ᵃ [15.567; 25.551] 0.03 -8.543 [-16.250; -0.836]
+L526: Seated row – 10 RM (kg) 17.269ᵃ [11.797; 22.742] 22.503ᵃ 17.677; 27.329] 0.16 -5.234 [-12.684; 2.217]
+L527: Plantar flexion – 10 RM
+L528: 71.696ᵃ [56.559; 86.833] 95.810ᵃ [82.462; 109.158] 0.02 -24.115 [-44.723; -3.506]
+L529: (kg)
+L530: Leg press – 10 RM (kg) 62.639ᵃ [47.096; 78.183] 86.498ᵃ [72.791; 100.204] 0.03 -23.858 [-45.019; -2.697]
+L531: Leg extension – 10 RM (kg) 22.561ᵃ [16.088; 29.034] 27.988ᵃ [22.280; 33.696] 0.21 -5.427 [-14.240; 3.386]
+L532: Leg curl – 10 RM (kg) 27.781ᵃ [18.779; 36.784] 25.315ᵃ [17.376; 33.253] 0.68 2.466 [-9.790; 14.722]
+L533: Pulldown – 10 RM (kg) 21.464ᵃ [16.239; 26.688] 24.922ᵃ [20.314; 29.529] 0.32 -3.458 [-10.571; 3.655]
+[25ms]
+

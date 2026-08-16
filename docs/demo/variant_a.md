@@ -16,7 +16,7 @@ s7 may replace only these validated tokens:
 - `{{manifest.release_selection.rendered_disclosure}}`
 - `{{headline.rendered_sentence}}`
 
-Export fails on a missing value, an unexpected type, any remaining `{{...}}`, or more than 225
+Export fails on a missing value, an unexpected type, any remaining unreplaced template token, or more than 225
 words under “Spoken copy.” The rendered script is copied to `demo/demo_script.md`; this source
 template is never presented as evidence.
 

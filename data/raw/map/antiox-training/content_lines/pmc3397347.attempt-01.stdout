@@ -1,0 +1,1189 @@
+L1: Plasma and Tissue Concentrations of α-Tocopherol and δ-Tocopherol Following High Dose Dietary Supplementation in Mice
+L2: Nutrients (2012)
+L3: Laura L. Baxter, Juan J. Marugan, Jingbo Xiao, Art Incao, John C. McKew, Wei Zheng, William J. Pavan
+L4: 1  Genetic Disease Research Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, MD 20892, USA; Email:  lbaxter@mail.nih.gov  (L.L.B.);  aincao@mail.nih.gov  (A.I.);  bpavan@mail.nih.gov  (W.J.P.)
+L5: 2  Probe Development Branch, National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD 20850, USA; Email:  maruganj@mail.nih.gov  (J.J.M.);  xiaoj@mail.nih.gov  (J.X.)
+L6: 3  Therapeutic Development Branch, National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD 20850, USA; Email:  john.mckew@nih.gov
+L7: Vitamin E isoforms are essential nutrients that are widely used as dietary supplements and therapeutic agents for a variety of diseases. However, their pharmacokinetic (PK) properties remain poorly characterized, and high dosage animal studies may provide further information on their  in vivo  functions and pharmacological effects. In this study, alpha-tocopherol (α-toc) and delta-tocopherol (δ-toc) levels were measured in mouse plasma and tissues following their high dosage dietary supplementation. Average α-toc levels at 5, 10 and 20 g α-toc/kg diet increased over baseline levels 6-fold in plasma, 1.6-fold in brain, and 4.9-fold in liver. These elevated α-toc concentrations remained constant from 5 to 20 g α-toc/kg diet, rather than showing further increases across these dosages. No α-toc-related toxicity occurred at these high dosages, and strain-specific differences in liver and brain α-toc levels between Balb/cJ and C57Bl/6J mice were observed. Relatively high-dosage administration of dietary δ-toc for 1 or 4 weeks resulted in 6–30-fold increases in plasma and liver levels between dosages of 0.33 and 1.67 g δ-toc/kg diet. Co-administration of sesamin with δ-toc further increased δ-toc levels between 1.3- and 14-fold in plasma, liver, and brain. These results provide valuable PK information on high dosage α-toc and δ-toc in mouse and show that supplementation of sesamin with δ-toc further increases δ-toc levels over those seen with δ-toc supplementation alone.
+L8: Article
+L9: vitamin E; α-tocopherol; δ-tocopherol; sesamin; pharmacokinetics
+L10: 1. Introduction
+L11: The molecules collectively known as vitamin E are fat-soluble compounds present in a wide variety of plant-derived foods. The 8 molecularly distinct isoforms of vitamin E are: alpha (α)-, beta (β)-, gamma (γ)-, and delta (δ)-tocopherol (toc), and α-, β-, γ-, and δ-tocotrienol (t3). The α-, β-, γ-, and δ- prefixes each identify the number and position of methyl groups on the aromatic chromanol ring. In addition, all the toc isoforms possess a saturated 15-carbon tail, while t3 tails are unsaturated [ 1 ]. The most prevalent vitamin E component in mammalian plasma and tissues is α-toc, and the other three tocs and t3s are found at much lower concentrations. For example, plasma of humans consuming a normal diet contains 22–34 µM α-toc, ≈10-fold less γ-toc and β-toc (4–5 µM), and ≈50-fold less δ-toc (0.3–0.8 µM) [ 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ]. Each t3 is present at a 100-fold lower plasma concentration than α-toc (<1 µM) [ 1 ].
+L12: Vitamin E is an essential nutrient that was first identified 90 years ago based upon its effectiveness in countering fetal reabsorption in rats [ 10 ]. The necessity of vitamin E for human health is revealed in the detrimental phenotypes that occur in human diseases where vitamin E absorption or retention is severely limited, such as abetalipoproteinemia or ataxia with isolated vitamin E deficiency [ 11 , 12 , 13 , 14 ]. Interestingly, details are still emerging regarding the many functions that each vitamin E isoform can perform  in vivo .  In vitro  studies show they are potent antioxidants, and also suggest they function in specific regulation of enzyme activity and gene expression, potentially stemming from roles in cell signaling and membrane fusion [ 1 , 15 , 16 , 17 , 18 , 19 , 20 ]. For example, the α-toc isoform has been reported to function as a pro-oxidant, as a modulator of gene transcription and enzymatic activity, and as an inhibitor of cell proliferation, platelet aggregation, and monocyte adhesion [ 15 , 20 ]. Additionally, the δ-toc isoform activates reporter gene transcription, inhibits cell proliferation, and selectively induces cell death in transformed cancer cell lines [ 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28 , 29 , 30 , 31 ].
+L13: Alongside the continued discovery of various cellular activities affected by specific vitamin E isoforms, a growing body of data suggests that increased physiological toc/t3 levels in humans by altered dietary intake or supplementation might benefit a wide range of disease states. These include neurodegenerative disorders (Alzheimer’s disease, Parkinson’s disease, dementia), cystic fibrosis, amyotrophic lateral sclerosis, cancer, ischemia-reperfusion injuries, and temporal lobe radionecrosis [ 8 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 ]. These studies hint that vitamin E is not only needed to maintain normal physiological health, but may also delay or prevent disease if present at appropriate  in vivo  levels. However, even though the importance of sufficient vitamin E levels for normal human health is known from diseases of vitamin E deficiency, the effective levels of each vitamin E isoform for health benefits or disease prevention remain unclear. The interest in these potential human health benefits of vitamin E supplementation is reflected in the >25 clinical trials currently utilizing vitamin E [ 41 ].
+L14: Given the potential human health benefits of vitamin E supplementation, paired with knowledge gaps concerning vitamin E  in vivo  functions, a detailed understanding of the PK of each vitamin E isoform is needed. The most prevalent toc  in vivo , α-toc, is widely used in synthetic vitamins and food supplements. Conversely, the least prevalent toc  in vivo , δ-toc, has potent  in vitro  effects but little published  in vivo  data. Therefore, we performed  in vivo  experiments in mouse to identify PK profiles of α-toc and δ-toc. The α-toc levels in plasma, liver, and brain were measured in two mouse strains following 4 weeks of dietary supplementation with high dose α-toc. The PK profiles of single-dose δ-toc were determined, as well as its levels in plasma, liver, and brain following 1 week and 4 weeks of δ-toc dietary supplementation at relatively high doses as compared to the small amounts present in a typical diet. In addition, the sesame seed-derived lignan sesamin was co-administered with δ-toc, to determine if sesamin alters the PK of δ-toc, because sesamin has previously been shown to elevate plasma concentrations of α-toc, γ-toc, α-t3 in rat, and γ-toc and α-toc in humans [ 42 , 43 , 44 , 45 , 46 , 47 ]. The results of these studies revealed that high dosage dietary α-toc and δ-toc increased their respective concentrations in plasma, liver, and brain. Also, strain-specific differences in mean α-toc concentrations following high dosage dietary supplementation with α-toc were observed in liver and brain. Furthermore, co-supplementation of sesamin with δ-toc increased δ-toc concentrations throughout the body above concentrations achieved with δ-toc supplementation alone.
+L15: 2. Experimental Section
+L16: 2.1. α-Toc, δ-Toc, Sesamin, and Mouse Diet
+L17: α-Toc (vegetable oil-derived) and δ-toc were obtained from Sigma-Aldrich (St. Louis, MO, USA) as technical grade (90% pure, catalog # T1539 and # T2028, respectively) and were subsequently purified by HPLC to >99% purity using supercritical fluid chromatography preparative systems at Lotus Separations, LLC (Princeton, NJ, USA). For α-toc purification, three separation methods were used in order to achieve the desired purity. In the first method, a Chiralpak IA (2 × 15 cm) column was used with an eluent of 15% isopropanol/CO 2 , 100 bar. Flow rate and collection wavelength was 60 mL/min and 220 nm, respectively. Injection volume was 0.4–0.7 mL at 30 mg/mL in methanol and isopropanol. In the second method, a Chiralpak IA (2 × 15 cm) column was used with an eluent of 20% isopropanol/CO 2 , 100 bar. Flow rate and collection wavelength was 85 mL/min and 220 nm, respectively. Injection volume was 0.75 mL at 30 mg/mL in methanol. In the third method, a Chiralpak AS-H (2 × 15 cm) column was used with an eluent of 18% methanol/CO 2 , 100 bar. Flow rate and collection wavelength was 75 mL/min and 220 nm, respectively. Injection volume was 1 mL at 30 mg/mL in methanol. For analysis, a Chiralpak AS-H (25 × 0.46 cm) column was used with an eluent of 20% methanol (DEA)/CO 2 , 100 bar. Flow rate was 3 mL/min and detection wavelengths were 220, 254, and 280 nm. Retention time was 1.95 min. For δ-toc purification, a Chiralpak AD-H (2 × 15 cm) column was used with an eluent of 10% ethanol/CO 2 , 100 bar. Flow rate and collection wavelength was 75 mL/min and 220 nm, respectively. Injection volume was 0.5 mL at 30 mg/mL in methanol. For analysis, a Chiralpak AD-H (25 × 0.46 cm) column was used with an eluent of 15% ethanol/CO 2 , 100 bar. Flow rate was 3 mL/min and detection wavelengths were 220, 280, and 295 nm. Retention time was 2.83 min.
+L18: Sesamin was obtained from Best PharmaTech, Inc. (Indianapolis, IN, USA). Mouse diet consisted of AIN93M as control diet, or AIN93M formulated with α-toc, δ-toc, or δ-toc + sesamin (Research Diets, Inc., New Brunswick, NJ, USA). The concentrations per kg of diet or per kg of body weight of α-toc, δ-toc, and sesamin are specified for each experiment. Of note, AIN93M contains 75 mg α-toc/kg and 900 µg vitamin K/kg [ 48 ].
+L19: 2.2. Mice, α-Toc and δ-Toc Administration, and Tissue Collection
+L20: All animal work was done according to NIH-approved animal care and use protocols. A total of 20 BALB/cJ and 20 C57Bl/6J (Jackson Laboratories, Bar Harbor, ME, USA) male mice were used for high dosage α-toc supplementation in the diet. Mice of each strain were divided into 4 groups of 5 mice, and each group received one of the following diet formulations: Control, 5 g α-toc/kg diet, 10 g α-toc/kg diet, and 20 g α-toc/kg diet. Mice were fed each diet  ad libitum  for 4 weeks, then mice were euthanized and tissues collected.
+L21: A total of 30 male CD-1 mice were used for studies where single-dose δ-toc at 100 mg δ-toc/kg body weight was administered by intraperitoneal (IP) injection. For tissue collection,  N  = 3 at each timepoint. Plasma was collected at 0 min, 5 min, 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 12 h, and 24 h. Liver, kidney, lung, and brain were collected at 0 min, 4 h, 8 h, 12 h, and 24 h.
+L22: A total of 231 male C57Bl/6 mice (SLAC Laboratory Animal Co. LTD, China) were used for studies in which single-dose δ-toc and sesamin in 100% corn oil were administered by oral gavage at a dose volume of 10 mL/kg. Of note, tocs are a natural component of corn oil, and thus small additional amounts of tocs were administered in each corn oil gavage at the following approximate concentrations (mg/kg body weight): α-toc = 0.002, β-toc = 0.00025, γ-toc = 0.004, δ-toc = 0.00025 [ 20 , 49 ]. Mice were divided into 7 groups of 33 mice, and each group was given a single dose of one of the following δ-toc/sesamin concentrations (all in mg/kg body weight): (1) 240 mg sesamin; (2) 10 mg δ-toc; (3) 50 mg δ-toc; (4) 250 mg δ-toc; (5) 240 mg sesamin + 10 mg δ-toc; (6) 240 mg sesamin + 50 mg δ-toc; and (7) 240 mg sesamin + 250 mg δ-toc. For tissue collection,  N  = 3 per group at each of 11 timepoints: 0 min, 5 min, 15 min, 30 min, 1 h, 2 h, 4 h, 8 h, 12 h, 24 h, and 48 h.
+L23: A total of 60 Balb/cJ mice (Jackson Laboratories) were used for high dosage dietary supplementation of δ-toc and δ-toc + sesamin, with 30 mice each for the 1-week and 4-week studies. In all cases of sesamin supplementation, concentration was 2 g sesamin/kg diet. Six groups of 5 mice were each given diets supplemented with one of the following δ-toc/sesamin concentrations (all in mg/kg diet): (1) Control (AIN93M), (2) 0.33 g δ-toc, (3) 1.67 g δ-toc, (4) sesamin + 0.067 g δ-toc, (5) sesamin + 0.33 g δ-toc, and (6) sesamin + 1.67 g δ-toc.
+L24: For serum collection, blood samples were collected into chilled, heparinized tubes by retro-orbital sinus bleed or terminal cardiac puncture. After cooling to 4 °C, blood samples were centrifuged to separate serum, and isolated serum was snap frozen at −80 °C. For all other tissue collections, mice were euthanized, and subsequently tissues were collected and immediately snap frozen at −80 °C.
+L25: 2.3. Liquid Chromatography-Mass Spectrometry
+L26: Analytical samples were prepared by homogenizing tissue in 3 volumes of 1-propanol per gram of tissue, then centrifuging to remove precipitated proteins. Samples were analyzed using an Agilent 6410 mass spectrometer coupled with an Agilent 1200 HPLC and a CTC PAL chilled autosampler, all regulated by MassHunter software (Agilent). After separation on a C 18  reverse phase HPLC column (Agilent, Waters, or equivalent) using a methanol-water gradient system, peaks were analyzed by mass spectrometry using electrospray ionization in multiple reaction monitoring mode. Mobile phase A was 7.5 mM ammonium acetate in water, mobile phase B was 0.1% formic acid in methanol, and the flow rate was 1 mL/min. The gradient program included a 0.5 min hold at 20% B (the starting conditions), followed by a gradient to 99% B over 1.25 min and a 1 min hold at 99% B. The column was then returned to starting conditions and equilibrated over 1.25 min. Calibration curves for each tissue were determined by preparing a 50× stock of α-toc or δ-toc in 1-propanol, then generating serial dilutions. These serial dilution samples were then diluted 50-fold into homogenized tissues.
+L27: 2.4. Data Analysis
+L28: One-way or two-way ANOVA tests with post-hoc Tukey-Kramer multiple comparisons tests were performed to compare mean α-toc and δ-toc levels, with  p  < 0.05 deemed significant. Values below the lower limit of quantitation (<LLOQ) were estimated at LLOQ/2 [ 50 ]. Area under concentration-time curves (AUCs) from 0–24 (AUC 0–24 ) or 0 to 48 h (AUC 0–48 ) were determined using the trapezoidal rule, and mean AUCs were compared by two-tailed  t -tests.
+L29: 3. Results
+L30: 3.1. α-Toc
+L31: Adult Balb/cJ and C57Bl/6J mice were given high dosage dietary α-toc for 4 weeks, at concentrations of 0 (control), 5, 10 and 20 g α-toc /kg diet. Subsequently, the mice were examined for pathological abnormalities, and the α-toc concentrations in plasma, brain, liver, and adipose tissue were measured ( Figure 1 ,  Supplementary Table S1 ). Pathological analyses of liver, brain, kidney, heart, and skeletal muscle all showed no notable abnormalities that differed from controls ( Supplementary Table S2 ), suggesting no toxicity from high dose α-toc ingestion in these mice. Dietary supplementation with α-toc resulted in increased α-toc levels in plasma, brain, and liver, with significantly different mean α-toc levels occurring in these 3 tissues (one-way ANOVA,  p  < 0.05 for each strain). In contrast, adipose α-toc levels showed no significant differences from controls for either strain at any dosage ( Figure 1 B). Post-hoc analyses showed significant differences between mean α-toc levels in control and supplemented mice at all liver dosages, at all dosages in C57Bl/6J brain, and in plasma at 5 and 10 g α-toc dosages (indicated by * in  Figure 1 ,  p  < 0.05). Modest α-toc increases of less than 2-fold were seen in brain ( i.e. , from 1.1 µM to 1.49–1.75 µM in Balb/cJ,  Figure 1 A), while larger increases of 4–9-fold were observed in plasma ( i.e. , from 0.9 µM to 4.4–7.9 µM in Balb/cJ,  Figure 1 A) and liver ( i.e. , from 40.6 µM to 182–193 µM in Balb/cJ,  Figure 1 B). Notably, mean plasma, brain, and liver α-toc levels within each mouse strain at 5, 10 and 20 g α-toc/kg diet showed no significant differences from each other (one-way ANOVA,  p  ≥ 0.2). These data indicated that α-toc concentrations remained constant in these tissues even though dietary dose escalated from 5 to 20 g α-toc/kg diet, and suggested the existence of an  in vivo  α-toc concentration plateau at or below 5 g α-toc/kg diet.
+L32: Figure 1 Mean plasma, brain, liver, and adipose α-toc levels following 4 weeks high dosage α-toc dietary administration to adult Balb/cJ and C57Bl/6J mice. Supplementation at 5, 10, or 20 g α-toc/kg diet resulted in significantly different α-toc levels in plasma ( A ), brain ( A ), and liver ( B ) by one- or two-way ANOVA ( p  < 0.05); Tukey-Kramer post-hoc tests showed significant differences from control in some tissues (indicated by *,  p  < 0.05), most notably in liver and C57Bl/6J brain. Significant strain-specific differences in α-toc levels in Balb/cJ and C57Bl/6J mice were apparent by two-way ANOVA ( p  ≤ 0.009); Tukey-Kramer post-hoc tests showed significant strain-specific differences at some dosages in plasma, brain and liver (indicated by †,  p  ≤ 0.05). Adipose ( B ) α-toc levels showed no significant differences. No significant differences were seen among mean α-toc levels at the 5, 10, and 20 g α-toc doses in plasma or tissues.  N  = 5 mice/strain/dosage; error bars = positive standard deviation.
+L33: Interestingly, two-way ANOVA revealed significantly different mean plasma, liver, and brain α-toc concentrations when comparing not only α-toc dosage groups, but also mouse strains (for α-toc dosage,  p  ≤ 0.002; for mouse strain,  p  ≤ 0.009). Mean plasma α-toc concentrations were higher in Balb/cJ mice, while brain and liver α-toc concentrations were higher in C57Bl/6J mice. Post-hoc analyses comparing these two mouse strains revealed statistically significant differences in mean α-toc concentrations at some dosages (indicated by † in  Figure 1 ,  p  < 0.05). Taken together, these results indicate that α-toc concentrations increase in mouse plasma, brain, and liver following dietary supplementation of large dosage α-toc, and these α-toc concentrations in these tissues plateau at a dosage at or below 5 g α-toc/kg diet. In addition, C57Bl/6J and Balb/cJ mouse strains show quantitatively different  in vivo  α-toc levels following α-toc supplementation, suggesting allelic variation between these strains might contribute to altered efficiency of the metabolic pathways regulating α-toc storage and removal.
+L34: 3.2. δ-Toc
+L35: There is very little published PK data describing either single or long-term dosages of δ-toc. Thus, in order to generate PK data on single dosage δ-toc in mouse, adult mice were given single IP injections of δ-toc at 100 mg/kg body weight, and plasma, brain, lung, kidney, and liver concentrations of δ-toc were measured at timepoints spanning 0 to 24 h. The mean plasma  T max  for δ-toc was 15 min, and lung, kidney and liver each had a mean  T max  of 8 h ( Figure 2 A,B). The mean plasma AUC 0–24  was 241 h·µg/mL. Over the timecourse, δ-toc levels decreased but did not reach baseline by 24 h, with greatest δ-toc retention seen in liver. Brain δ-toc levels remained low and unchanged throughout the timecourse.
+L36: Next, single dosage δ-toc was administered to adult mice by oral gavage (p.o.) at 10, 50, or 250 mg/kg body weight. Subsequently, plasma, liver, and brain concentrations of δ-toc were measured at timepoints from 0 to 48 h ( Figure 2 C,D for 250 mg/kg dosage;  Supplementary Figure S1  for 10 and 50 mg/kg dosages). The δ-toc  T max  in plasma and liver was 2 or 4 h at all dosages. By 24 h, δ-toc levels in plasma and liver had returned to baseline at the 10 mg/kg dosage. At the 50 mg/kg and 250 mg/kg dosages, the δ-toc levels rapidly decreased but did not reach baseline by 48 h. Brain δ-toc levels remained undetectable at all dosages and timepoints.
+L37: Sesamin, a component of sesame seeds, has been reported to increase plasma and tissue concentrations of α-toc, γ-toc, α-t3, and γ-t3 by inhibiting their metabolism [ 42 , 44 , 45 , 46 , 47 , 51 , 52 ]. To investigate whether δ-toc plasma and tissue concentrations can be increased by sesamin, single p.o. doses of 10, 50, or 250 mg δ-toc /kg body weight were administered along with sesamin at 240 mg/kg body weight, and subsequent plasma, liver, and brain δ-toc levels were measured at timepoints from 0–48 h ( Figure 2 C,D for 250 mg/kg dosage;  Supplementary Figure S1  for 10 and 50 mg/kg dosages). Similar to what was seen for p.o. δ-toc alone, p.o. δ-toc with sesamin gave  T max  values of 2 to 4 h in plasma and liver, δ-toc concentrations either reached baseline or neared baseline by 24 to 48 h, and brain δ-toc levels remained undetectable. Interestingly, comparison of the mean AUC 0–48  values for 250 mg δ-toc alone with those for 250 mg δ-toc with sesamin revealed that coadministration of sesamin did not alter δ-toc concentration in plasma (δ-toc alone = 43.0 h·µg/mL; δ-toc + sesamin = 56.1 h·µg/mL;  p  = 0.44), but significantly increased liver δ-toc concentration (δ-toc alone = 95.1 h·µg/mL; δ-toc + sesamin = 173 h·µg/mL;  p  = 0.02). These data suggest co-administration of sesamin with δ-toc has the potential to increase  in vivo  δ-toc concentrations.
+L38: Figure 2 Concentration-time profiles of δ-toc following single dosage administration of δ-toc or δ-toc with sesamin by IP or p.o. routes. ( A , B ) Following single dosage IP δ-toc at 100 mg/kg body weight, mean plasma ( A ) and mean liver, kidney, lung, and brain δ-toc concentrations ( B ) were measured at the indicated timepoints. ( C , D ) Following single p.o. dosage of either δ-toc alone at 250 mg/kg body weight (filled diamonds) or δ-toc + sesamin at 250 and 240 mg/kg body weight, respectively (open diamonds), average plasma ( C ) and liver ( D ) δ-toc concentrations were measured at the indicated timepoints. The δ-toc concentrations are plotted on a log scale, and error bars show positive standard deviation.  N  = 3 mice/timepoint/dosage.
+L39: To further investigate sesamin’s effect on δ-toc levels, and to generate PK data for long-term δ-toc supplementation, plasma and tissue δ-toc concentrations were determined following long-term dietary supplementation with high dosage δ-toc and high dosage δ-toc with sesamin. Balb/cJ mice were exclusively fed chow containing high dosage δ-toc (at 0.33 or 1.67 g/kg diet) or high dosage δ-toc with sesamin (0.067, 0.33, or 1.67 g δ-toc/kg diet + 2 g sesamin/kg diet) for 1 week or 4 weeks. Pathological analyses of livers from mice receiving long-term dietary supplementation of δ-toc or δ-toc with sesamin showed no notable abnormalities that differed from those of controls ( Supplementary Table S3 ), indicating no toxicity from high dose δ-toc ingestion.
+L40: After 1 week ( Table 1 ), significant changes in mean δ-toc levels occurred that were attributable to both supplemental δ-toc dosages and sesamin co-supplementation (by two-way ANOVA), with  p  ≤ 0.0004 for δ-toc supplementation in plasma, brain, and liver, and with  p  ≤ 0.02 for sesamin co-supplementation in brain and liver. Similarly, 4 weeks of supplemental high dosage δ-toc alone or with sesamin ( Table 2 ) caused significant changes in mean plasma and liver δ-toc levels (by two-way ANOVA), with  p  ≤ 0.00002 for δ-toc supplementation in plasma and liver, and  p  ≤ 0.04 for sesamin co-supplementation in plasma and liver (brain was not analyzed due to <LLOQ levels for 4 out of 5 dosages in the 4 week studies).
+L41: Table 1 Concentration (µM) of δ-toc in plasma, brain, and liver of Balb/cJ mice following 1 week dietary supplementation with δ-toc or δ-toc plus sesamin  1 .
+L42: Table 2 Concentration (µM) of δ-toc in plasma, brain, and liver of Balb/cJ mice following 4 weeks dietary supplementation with δ-toc or δ-toc plus sesamin  1 .
+L43: Comparison of δ-toc concentrations between the 1- and 4-week supplemental dietary δ-toc groups ( Table 1 
+L44:  vs. Table 2 ) revealed significant differences in mean δ-toc levels by two-way ANOVA in plasma ( p  = 0.03) and liver ( p  = 0.00004). While post-hoc analyses showed no differences at the 0.067 g or 0.33 g δ-toc dosages between the two time periods, either with or without sesamin, significant changes were seen at the 1.67 g δ-toc dosages ( Figure 3 ). When 1.67 g δ-toc alone was given, plasma levels significantly decreased while liver levels increased between the 1 and 4 week time periods. These results suggest tissue-specific and time-dependent δ-toc distribution, with δ-toc being more efficiently removed from blood and increasingly retained in liver over time. Furthermore, the co-administration of sesamin with the 1.67 g δ-toc dosage increased liver d-toc levels, increased brain δ-toc levels (from 0.135 µM at 1 week to 0.259 µM at 4 weeks,  p  = 0.01), and also maintained plasma δ-toc levels. These data suggest that over long time periods of administration, sesamin can allow increased  in vivo  δ-toc levels, by limiting the removal of circulating δ-toc and also by increasing accumulation of δ-toc in tissues such as liver and brain.
+L45: Additional post-hoc analyses comparing mean δ-toc concentrations at each dosage within plasma, brain, or liver showed that only a subset of δ-toc levels significantly differed from one another ( Table 1  and  Table 2 , significance indicated by different superscripts  a,b,c ). In all tissues, only the 1.67 g δ-toc dosages achieved significant increases in δ-toc concentrations. In regards to sesamin co-administration, only at the 1.67 g dosages did co-administration of sesamin cause a significant increase over the levels achieved for δ-toc alone (at 4 weeks in plasma, in liver at 1 and 4 weeks, and in brain at 1 week). Similarly, high brain δ-toc levels were achieved when sesamin was administered with the 1.67 g δ-toc dose for 4 weeks (0.285 µM). Taken together, these data suggest measurable effects by sesamin on δ-toc concentration cannot be achieved at low dosages, on the order of 0.067–0.33 g/kg diet, but instead require higher δ-toc dosages, on the order of 1.67 g δ-toc/kg diet.
+L46: Figure 3 Comparison of mean δ-toc concentrations between the 1- and 4-week supplemental dietary δ-toc groups. ( A ) Plasma δ-toc levels decreased between 1 and 4 weekswhen supplemental δ-toc at 1.67 g δ-toc/kg diet was given alone, but the co-supplementation of sesamin with δ-toc prevented this decrease. ( B ) Liver δ-toc levels increased between 1 and 4 weeks when supplemental δ-toc at 1.67 g δ-toc/kg diet was given alone, and co-supplementation of sesamin with δ-toc achieved higher δ-toc levels. No differences were seen at any of the 0.067 g or 0.33 g δ-toc dosages when comparing the 1-week and 4-week groups. * Statistically significant difference between mean δ-toc concentrations at 1 and 4 weeks by ANOVA followed by Tukey-Kramer multiple comparisons test,  p  < 0.05.
+L47: 4. Discussion
+L48: Although the antioxidant effect of vitamin E has been extensively reported, the extent of its  in vivo  biological effects remains unclear. The therapeutic effects of vitamin E on a wide range of diseases continue to be explored both in experimental animals and in human clinical trials. Understanding of vitamin E PK profiles in experimental species is critical to guide experimental design and selection of correct vitamin E dosages. To date, some data have been reported regarding basal plasma and tissue levels of vitamin E isoforms and their levels following low dosage supplementation. For example, the basal plasma concentration of α-toc in humans is 22–34 μM, increasing to 56–70 μM when 671 mg/day of α-toc is supplemented [ 53 ]. In mice fed standard diets, the basal plasma concentration of α-toc is 5.0–20 μM, increasing to 19–45 µM at 1–3 g/kg diet [ 54 , 55 , 56 , 57 ]. In both humans and rodents, liver α-toc concentrations are consistently higher than those of plasma [ 55 , 58 , 59 , 60 ]. However, the PK profiles for many vitamin E isoforms, especially when administered in large doses, are not completely available in mouse. This study has filled some of the knowledge gaps that existed for PK profiles of high dosage α-toc and δ-toc in mice. Also, this study demonstrated that co-administration of sesamin altered the PK profile of high dosage δ-toc, resulting in increased δ-toc concentrations.
+L49: 4.1. α-Toc
+L50: High dosage dietary supplementation of α-toc significantly increased α-toc levels over baseline in Balb/cJ and C57Bl/6J mice, however these increased α-toc concentrations remained constant above dosages of 5 g α-toc/kg diet. Of note, this apparent  in vivo  plateau may extend to α-toc dosages that are lower than 5 g α-toc/kg diet, and in fact other studies using different mouse strains achieved slightly higher plasma concentrations at 1–3 g α-toc/kg diet [ 53 , 55 ]. Future studies analyzing lower α-toc dosages in a variety of mouse strains could precisely define the minimal concentration in each strain that is sufficient to achieve consistently high  in vivo  α-toc concentrations. The occurrence of relatively constant  in vivo  α-toc concentrations in spite of increased α-toc intake may simply reflect the presence of an upper limit to intestinal absorption of α-toc [ 61 ]. However, this also may suggest saturation paired with escalating removal of α-toc in response to high dosage ingestion, a hypothesis supported by the gradual decrease in peak α-toc levels over time when high doses of α-toc are administered subcutaneously in rat [ 62 ]. This study goes on to demonstrate long-term high dose α-toc results in the upregulation of proteins responsible for α-toc metabolism or removal, including cytochrome P450 (CYP) enzyme CYP3A and multidrug resistance protein 1 (MDR1) [ 62 ]. An additional study in mouse demonstrates that high dosage α-toc results in upregulation of CYP3A11, the mouse ortholog of CYP3A [ 63 ].
+L51: No acute toxic effects were seen in mouse as a result of 4 weeks of high dosage α-toc. However, these mice did not harbor any diseases or developmental genetic abnormalities, nor were they subjected to any physiological or environmental stressors. Therefore future studies are warranted to determine if α-toc metabolism differs under these types of challenges such that detrimental effects from high dosage α-toc could occur. In general, tocs/t3s are expected to have low toxicity because of their rapid metabolism by CYP enzymes in the liver, a characteristic that contrasts with the toxic accumulation seen from high dosage ingestion of other fat-soluble vitamins. Accordingly, extremely high dosage α-toc (2.5–10 g α-toc/day) can be administered to human patients with rare disorders that cause vitamin E deficiency, as well as to patients with amyotrophic lateral sclerosis [ 11 , 13 , 14 , 33 , 64 , 65 ]. These high dosages are not reported to be toxic even when administered long term, provided supplemental vitamin K is also given to prevent vitamin E antagonizing vitamin K-mediated blood coagulation [ 53 ]. However, toxic effects were reported in early studies where high dosage α-toc alone was administered, including hemorrhagic toxicity in rat and chick at dosages of 1–2 g α-toc/kg body weight [ 66 , 67 ]. The rationale behind these different results regarding toxicity of high dosage α-toc in mouse, human, rat, and chicken is unclear, and would be clarified by additional future quantitative studies of high dosage α-toc in each model organism, as well as clinical data from humans taking more modest supplemental levels.
+L52: Mouse brain showed small increases in α-toc levels in response to high dosage α-toc supplementation when compared to those of plasma and liver. On average, the brain showed a 1.6-fold increase to 2 µM, as compared to the 6-fold increase in plasma to 4.9 µM and the 4.9-fold increase in liver to 240 µM. This suggests the presence of brain-specific mechanisms that limit α-toc uptake into the brain, potentially at the blood-brain barrier. An understanding of the brain’s response to elevated intake of tocs is important for interpretation of neurological studies, which have suggested elevated dietary intake and plasma levels of tocs/t3s may play a role in delaying neurological disease in humans and mouse models [ 8 , 38 , 39 , 68 , 69 , 70 , 71 , 72 ]. Some human studies have shown that high dosage α-toc slows disease progression in patients with Alzheimer’s disease and Parkinson’s disease [ 36 , 73 ]. However, other studies showed no benefit from α-toc supplementation in patients with neurological disease [ 74 , 75 , 76 , 77 ], and some even suggested risks to healthy individuals from α-toc supplementation, reporting an increased risk of mortality [ 78 ] or hemorrhagic stroke [ 79 , 80 ]. Clearly our understanding of the effects of α-toc supplementation in humans remains limited and requires further study. Additionally, animal model studies are needed to determine if baseline or high dosage  in vivo  α-toc levels differ between normal animals and those exhibiting various diseases.
+L53: 4.2. δ-Toc
+L54: This study revealed that the oral administration of high dosage δ-toc increased δ-toc levels throughout the body, and these δ-toc levels further increased with co-administration of sesamin at the highest dosage of 1.67 mg δ-toc/kg diet. To our knowledge, this is the first report showing sesamin can increase  in vivo  δ-toc levels in mouse plasma, liver, and brain. Sesamin is a naturally occurring component of sesame seeds, and functions  in vivo  as an antioxidant [ 81 ], anti-cancer agent [ 82 , 83 , 84 ], anti-hypertension agent [ 85 , 86 , 87 , 88 , 89 , 90 , 91 ] and reducer of serum lipids [ 91 , 92 , 93 , 94 , 95 , 96 ]. Functional analyses of sesamin  in vitro  have shown that it blocks CYP oxidation/excretion of tocs and t3s [ 97 , 98 ], thus suggesting a mechanism whereby sesamin maintains higher plasma toc levels. This function has in fact been demonstrated in rat, where sesamin inhibits γ-toc breakdown and elevates plasma concentrations of α-toc, γ-toc, and α-t3 [ 42 , 43 , 44 , 45 ], and also in human, where sesamin elevates plasma concentrations of γ-toc and α-toc [ 46 , 47 ]. However, sesamin does not have uniform effects on all tocs/t3s, showing more frequent effects on γ-toc than α-toc, and even reducing β-toc levels [ 42 , 46 , 47 ]. Thus independent analyses of the  in vivo  effect of sesamin on each toc/t3 are required.
+L55: The brain exhibited lower δ-toc concentrations than those in plasma and liver, similar to the lower brain α-toc concentrations seen following α-toc supplementation. Therefore it appears that the ability to elevate δ-toc levels in the brain and the resulting potential to alleviate phenotypes of neurological disease is severely restricted. However, it remains possible that, even at low concentrations, the unique chemical properties of δ-toc based upon its structure may result in beneficial physiological effects in some parts of the body. For example, some animal studies suggest δ-toc may display properties that can be used to prevent cancer progression [ 99 ]. Since each toc varies in the number and position of methyl groups on the aromatic chromanol ring, each has a different antioxidant potential, via hydrogen donation from methyl groups, or electrophile trapping ability, via aromatic substitution at free ring positions. The single methyl group and two free aromatic ring positions of δ-toc predict that δ-toc has lower oxidation potential but higher electrophile scavenging potential. Future studies are needed to discover the cellular functions allowed by the unique structure of δ-toc, whether these effects are beneficial to disease, and if so, the optimal physiological concentrations to allow δ-toc to exert these beneficial effects. Also, future studies will need to determine if the  in vivo  δ-toc levels achieved following high dosage ingestion are different between normal and disease states.
+L56: In these studies, δ-toc plasma and tissue concentrations never reached levels that were similar to those of α-toc, even when co-administered with sesamin. While this suggests that mouse may not be a tractable animal model for studying the  in vivo  functions of δ-toc, it also suggests that high dosage of δ-toc or δ-toc with sesamin did not radically change the rate of normal δ-toc metabolism. High concentrations of α-toc are maintained by the preferential binding and release of α-toc to the plasma by α-toc transfer protein (α-TTP), while lower concentrations of the other seven vitamin E isoforms result from their rapid, CYP-mediated breakdown [ 97 , 100 , 101 , 102 , 103 ]. The biological significance of this selective α-toc enrichment over the other tocs/t3s  in vivo  is unknown, although functional importance is supported by the conservation of α-toc enrichment across vertebrates [ 104 ]. It does not simply reflect a prevalence of α-toc in dietary sources, as plant oils that are highly consumed in the Western diet (peanut, soybean) contain greater amounts of γ-toc than α-toc [ 1 ]. However, toc ingestion can affect toc concentration to some degree, as increased dietary intake of individual toc/t3 isoforms directly correlated with their increased plasma and tissue levels in humans and animal models ([ 54 , 105 , 106 , 107 , 108 , 109 , 110 ] and this study). Interestingly, dietary toc supplementation of one toc has been shown to perturb the  in vivo  levels of other tocs. Supplemental α-toc decreased levels of δ-toc and γ-toc [ 5 , 111 , 112 , 113 , 114 , 115 ], and conversely, γ-toc supplementation decreased α-toc levels [ 54 , 110 ]. This added complexity indicates that it is necessary to understand not only the PK of each vitamin E isoform but also their effects on each other’s concentration and function  in vivo . This will allow correlation of the different biological functions of each isoform, often determined from  in vitro  studies, with their potential for  in vivo  therapeutic applications. The efficient achievement of therapeutic levels may require adjustment of the  in vivo  ratios of individual vitamin E isoforms.
+L57: 4.3. Toc Levels and Strain-Specific Variation
+L58: The baseline α-toc and δ-toc levels reported here correlate with a subset of previous mouse studies. In mice fed standard diets, previously reported plasma levels were 5.0–20 µM for α-toc [ 54 , 55 , 56 , 57 ] and 0.08 µM for δ-toc [ 54 ]. Organ levels of α-toc have been previously reported as 20–27 µM in liver, 64 µM in adipose, and 5–50 µM in brain [ 55 , 57 , 60 , 116 ]. These previously reported basal concentrations of liver α-toc and adipose α-toc are similar to those in this study, however those of plasma δ-toc, plasma α-toc, and brain α-toc exceed those in this study.
+L59: Similarly, the α-toc and δ-toc levels reported in this study resulting from high dosage α-toc and δ-toc showed both similarities and differences to previous mouse studies. Supplemental α-toc at 5 g α-toc/kg diet resulted in liver concentrations similar to those found in our study (156–207 µM), but greater α-toc concentrations in brain (25–29 µM) [ 55 ]. Supplementation of α-toc at dosages ranging from 1–3 g α-toc/kg diet resulted in higher plasma α-toc concentrations (19–45 µM) than those of this study [ 54 , 56 ]. Plasma levels resulting from supplemental δ-toc at 0.3% of diet correlated with the δ-toc plasma levels obtained in this study (0.5–1.2 µM) [ 54 ].
+L60: The higher brain and plasma levels in these previous studies could reflect the usage of longer time periods of diet supplementation (8–48 weeks  vs.  4 weeks in current study), or may reflect strain-specific variation affecting toc metabolism, as these studies used a variety of mouse strains. The strain-specific differences in α-toc levels between Balb/cJ and C57Bl/6J identified in the current study support the latter hypothesis, as does the existence of human polymorphisms that are associated with functional differences in vitamin E metabolism. These include missense mutations in the toc/t3 metabolic enzyme CYP4F2 that result in differing enzymatic activity [ 117 ], as well as polymorphisms in lipoprotein transport proteins that are associated with variable plasma α-toc levels [ 7 , 118 , 119 , 120 , 121 , 122 , 123 ]. Further studies are needed to discover similar polymorphisms in inbred mouse strains and to determine how they contribute to variable vitamin E metabolism [ 124 ].
+L61: 5. Conclusions
+L62: This study provides essential quantitative and strain-specific PK information on administration of high dosage α-toc and δ-toc in the mouse. High dosage dietary α-toc and δ-toc can result in their increased tissue concentrations in plasma, liver, and brain. Furthermore, co-supplementation of sesamin with high dosage δ-toc can increase δ-toc concentrations in plasma and liver to concentrations greater than those reached with high dosage dietary δ-toc alone. These findings will be valuable resources for future  in vivo  studies analyzing the effects of these two vitamin E isoforms on mammalian health as well as their potential for treatment of disease.
+L63: Supplementary File 1: XLSX-Document (XLSX, 47 KB)
+L64: 1. Aggarwal B.B. Sundaram C. Prasad S. Kannappan R. 
+L65:  Tocotrienols, the vitamin E of the 21st century: Its potential against cancer and other chronic diseases 
+L66:  Biochem. Pharmacol. 
+L67:  2010 
+L68:  80 
+L69:  1613 
+L70:  1631 
+L71:  10.1016/j.bcp.2010.07.043 
+L72:  20696139
+L73: 2. Cooney R.V. Franke A.A. Wilkens L.R. Gill J. Kolonel L.N. 
+L74:  Elevated plasma gamma-tocopherol and decreased alpha-tocopherol in men are associated with inflammatory markers and decreased plasma 25-OH vitamin D 
+L75:  Nutr. Cancer 
+L76:  2008 
+L77:  60 
+L78:  21 
+L79:  29 
+L80:  Suppl. 1 
+L81:  10.1080/01635580802404162 
+L82:  19003577
+L83: 3. Chiu Y.-W. Chuang H.-Y. Huang M.-C. Wu M.-T. Liu H.-W. Huang C.-T. 
+L84:  Comparison of plasma antioxidant levels and related metabolic parameters between smokers and non-smokers 
+L85:  Kaohsiung J. Med. Sci. 
+L86:  2009 
+L87:  25 
+L88:  423 
+L89:  430 
+L90:  10.1016/S1607-551X(09)70537-6 
+L91:  19605336
+L92: 4. Facchini F.S. Humphreys M.H. DoNascimento C.A. Abbasi F. Reaven G.M. 
+L93:  Relation between insulin resistance and plasma concentrations of lipid hydroperoxides, carotenoids, and tocopherols 
+L94:  Am. J. Clin. Nutr. 
+L95:  2000 
+L96:  72 
+L97:  776 
+L98:  779 
+L99:  10966898
+L100: 5. Huang H.-Y. Appel L.J. 
+L101:  Supplementation of diets with alpha-tocopherol reduces serum concentrations of gamma- and delta-tocopherol in humans 
+L102:  J. Nutr. 
+L103:  2003 
+L104:  133 
+L105:  3137 
+L106:  3140 
+L107:  14519797
+L108: 6. Jordan J.M. de Roos A.J. Renner J.B. Luta G. Cohen A. Craft N. Helmick C.G. Hochberg M.C. Arab L. 
+L109:  A case-control study of serum tocopherol levels and the alpha- to gamma-tocopherol ratio in radiographic knee osteoarthritis: The Johnston County Osteoarthritis Project 
+L110:  Am. J. Epidemiol. 
+L111:  2004 
+L112:  159 
+L113:  968 
+L114:  977 
+L115:  10.1093/aje/kwh133 
+L116:  15128609
+L117: 7. Lecompte S. Szabo de Edelenyi F. Goumidi L. Maiani G. Moschonis G. Widhalm K. Molnár D. Kafatos A. Spinneker A. Breidenassel C. 
+L118:  Polymorphisms in the CD36/FAT gene are associated with plasma vitamin E concentrations in humans 
+L119:  Am. J. Clin. Nutr. 
+L120:  2011 
+L121:  93 
+L122:  644 
+L123:  651 
+L124:  10.3945/ajcn.110.004176 
+L125:  21228269
+L126: 8. Mangialasche F. Kivipelto M. Mecocci P. Rizzuto D. Palmer K. Winblad B. Fratiglioni L. 
+L127:  High plasma levels of vitamin E forms and reduced alzheimer’s disease risk in advanced age 
+L128:  J. Alzheimers Dis. 
+L129:  2010 
+L130:  20 
+L131:  1029 
+L132:  1037 
+L133:  20413888
+L134: 9. Talegawkar S.A. Johnson E.J. Carithers T. Taylor H.A. Bogle M.L. Tucker K.L. 
+L135:  Total alpha-tocopherol intakes are associated with serum alpha-tocopherol concentrations in African American adults 
+L136:  J. Nutr. 
+L137:  2007 
+L138:  137 
+L139:  2297 
+L140:  2303 
+L141:  17885014
+L142: 10. Evans H.M. Bishop K.S. 
+L143:  On the existence of a hitherto unrecognized dietary factor essential for reproduction 
+L144:  Science 
+L145:  1922 
+L146:  56 
+L147:  650 
+L148:  651 
+L149:  17838496
+L150: 11. Chardon L. Sassolas A. Dingeon B. Michel-Calemard L. Bovier-Lapierre M. Moulin P. Lachaux A. 
+L151:  Identification of two novel mutations and long-term follow-up in abetalipoproteinemia: A report of four cases 
+L152:  Eur. J. Pediatr. 
+L153:  2009 
+L154:  168 
+L155:  983 
+L156:  989 
+L157:  10.1007/s00431-008-0888-6 
+L158:  19066957
+L159: 12. Di Donato I. Bianchi S. Federico A. 
+L160:  Ataxia with vitamin E deficiency: Update of molecular diagnosis 
+L161:  Neurol. Sci. 
+L162:  2010 
+L163:  31 
+L164:  511 
+L165:  515 
+L166:  20464573
+L167: 13. Granot E. Kohen R. 
+L168:  Oxidative stress in abetalipoproteinemia patients receiving long-term vitamin E and vitamin A supplementation 
+L169:  Am. J. Clin. Nutr. 
+L170:  2004 
+L171:  79 
+L172:  226 
+L173:  230 
+L174:  14749227
+L175: 14. Zamel R. Khan R. Pollex R.L. Hegele R.A. 
+L176:  Abetalipoproteinemia: Two case reports and literature review 
+L177:  Orphanet J. Rare Dis. 
+L178:  2008 
+L179:  3
+L180: 15. Brigelius-Flohé R. 
+L181:  Vitamin E: The shrew waiting to be tamed 
+L182:  Free Radic. Biol. Med. 
+L183:  2009 
+L184:  46 
+L185:  543 
+L186:  554 
+L187:  10.1016/j.freeradbiomed.2008.12.007 
+L188:  19133328
+L189: 16. Brigelius-Flohe R. Kelly F.J. Salonen J.T. Neuzil J. Zingg J.M. Azzi A. 
+L190:  The European perspective on vitamin E: Current knowledge and future research 
+L191:  Am. J. Clin. Nutr. 
+L192:  2002 
+L193:  76 
+L194:  703 
+L195:  716 
+L196:  12324281
+L197: 17. Ingold K.U. Bowry V.W. Stocker R. Walling C. 
+L198:  Autoxidation of lipids and antioxidation by alpha-tocopherol and ubiquinol in homogeneous solution and in aqueous dispersions of lipids: Unrecognized consequences of lipid particle size as exemplified by oxidation of human low density lipoprotein 
+L199:  Proc. Natl. Acad. Sci. USA 
+L200:  1993 
+L201:  90 
+L202:  45 
+L203:  49 
+L204:  10.1073/pnas.90.1.45 
+L205:  8419943
+L206: 18. Niki E. 
+L207:  Lipid antioxidants: How they may act in biological systems 
+L208:  Br. J. Cancer Suppl. 
+L209:  1987 
+L210:  8 
+L211:  153 
+L212:  157 
+L213:  3307868
+L214: 19. Smith D. O’Leary V.J. Darley-Usmar V.M. 
+L215:  The role of alpha-tocopherol as a peroxyl radical scavenger in human low density lipoprotein 
+L216:  Biochem. Pharmacol. 
+L217:  1993 
+L218:  45 
+L219:  2195 
+L220:  2201 
+L221:  10.1016/0006-2952(93)90189-4 
+L222:  8517860
+L223: 20. Zingg J.-M. Azzi A. 
+L224:  Non-antioxidant activities of vitamin E 
+L225:  Curr. Med. Chem. 
+L226:  2004 
+L227:  11 
+L228:  1113 
+L229:  1133 
+L230:  15134510
+L231: 21. Bartusik D. Tomanek B. Siluk D. Kaliszan R. Fallone G. 
+L232:  The application of 19F magnetic resonance  ex vivo  imaging of three-dimensional cultured breast cancer cells to study the effect of delta-tocopherol 
+L233:  Anal. Biochem. 
+L234:  2009 
+L235:  387 
+L236:  315 
+L237:  317 
+L238:  19454246
+L239: 22. Constantinou C. Hyatt J.A. Vraka P.S. Papas A. Papas K.A. Neophytou C. Hadjivassiliou V. Constantinou A.I. 
+L240:  Induction of caspase-independent programmed cell death by vitamin E natural homologs and synthetic derivatives 
+L241:  Nutr. Cancer 
+L242:  2009 
+L243:  61 
+L244:  864 
+L245:  874 
+L246:  10.1080/01635580903285130 
+L247:  20155628
+L248: 23. Cornwell D.G. Jones K.H. Jiang Z. Lantry L.E. Southwell-Keely P. Kohar I. Thornton D.E. 
+L249:  Cytotoxicity of tocopherols and their quinones in drug-sensitive and multidrug-resistant leukemia cells 
+L250:  Lipids 
+L251:  1998 
+L252:  33 
+L253:  295 
+L254:  301 
+L255:  10.1007/s11745-998-0208-8 
+L256:  9560804
+L257: 24. Jiang Q. Wong J. Fyrst H. Saba J.D. Ames B.N. 
+L258:  gamma-Tocopherol or combinations of vitamin E forms induce cell death in human prostate cancer cells by interrupting sphingolipid synthesis 
+L259:  Proc. Natl. Acad. Sci. USA 
+L260:  2004 
+L261:  101 
+L262:  17825 
+L263:  17830 
+L264:  15596715
+L265: 25. Kempná P. Reiter E. Arock M. Azzi A. Zingg J.-M. 
+L266:  Inhibition of HMC-1 mast cell proliferation by vitamin E: Involvement of the protein kinase B pathway 
+L267:  J. Biol. Chem. 
+L268:  2004 
+L269:  279 
+L270:  50700 
+L271:  50709 
+L272:  15385541
+L273: 26. McIntyre B.S. Briski K.P. Gapor A. Sylvester P.W. 
+L274:  Antiproliferative and apoptotic effects of tocopherols and tocotrienols on preneoplastic and neoplastic mouse mammary epithelial cells 
+L275:  Proc. Soc. Exp. Biol. Med. 
+L276:  2000 
+L277:  224 
+L278:  292 
+L279:  301 
+L280:  10.1046/j.1525-1373.2000.22434.x 
+L281:  10964265
+L282: 27. McIntyre B.S. Briski K.P. Tirmenstein M.A. Fariss M.W. Gapor A. Sylvester P.W. 
+L283:  Antiproliferative and apoptotic effects of tocopherols and tocotrienols on normal mouse mammary epithelial cells 
+L284:  Lipids 
+L285:  2000 
+L286:  35 
+L287:  171 
+L288:  180 
+L289:  10.1007/BF02664767 
+L290:  10757548
+L291: 28. Reiter E. Azzi A. Zingg J.-M. 
+L292:  Enhanced anti-proliferative effects of combinatorial treatment of delta-tocopherol and resveratrol in human HMC-1 cells 
+L293:  Biofactors 
+L294:  2007 
+L295:  30 
+L296:  67 
+L297:  77 
+L298:  10.1002/biof.5520300201 
+L299:  18356579
+L300: 29. Sacha B. Zierler S. Lehnardt S. Weber J.R. Kerschbaum H.H. 
+L301:  Heterogeneous effects of distinct tocopherol analogues on NO release, cell volume, and cell death in microglial cells 
+L302:  J. Neurosci. Res. 
+L303:  2008 
+L304:  86 
+L305:  3526 
+L306:  3535 
+L307:  10.1002/jnr.21811 
+L308:  18709655
+L309: 30. Yu W. Simmons-Menchaca M. Gapor A. Sanders B.G. Kline K. 
+L310:  Induction of apoptosis in human breast cancer cells by tocopherols and tocotrienols 
+L311:  Nutr. Cancer 
+L312:  1999 
+L313:  33 
+L314:  26 
+L315:  32 
+L316:  10.1080/01635589909514744 
+L317:  10227040
+L318: 31. Bartusik D. Tomanek B. Siluk D. Kaliszan R. 
+L319:  19 F MRI of 3D CEM cells to study the effects of tocopherols and tocotrienols 
+L320:  J. Pharm. Biomed. Anal. 
+L321:  2010 
+L322:  53 
+L323:  599 
+L324:  602 
+L325:  10.1016/j.jpba.2010.04.009 
+L326:  20439143
+L327: 32. Ravaglia G. Forti P. Lucicesare A. Pisacane N. Rietti E. Mangialasche F. Cecchetti R. Patterson C. Mecocci P. 
+L328:  Plasma tocopherols and risk of cognitive impairment in an elderly Italian cohort 
+L329:  Am. J. Clin. Nutr. 
+L330:  2008 
+L331:  87 
+L332:  1306 
+L333:  1313 
+L334:  18469254
+L335: 33. Graf M. Ecker D. Horowski R. Kramer B. Riederer P. Gerlach M. Hager C. Ludolph A.C. Becker G. Osterhage J. 
+L336:  High dose vitamin E therapy in amyotrophic lateral sclerosis as add-on therapy to riluzole: Results of a placebo-controlled double-blind study 
+L337:  J. Neural Transm. 
+L338:  2005 
+L339:  112 
+L340:  649 
+L341:  660 
+L342:  10.1007/s00702-004-0220-1 
+L343:  15517433
+L344: 34. Zandi P.P. Anthony J.C. Khachaturian A.S. Stone S.V. Gustafson D. Tschanz J.T. Norton M.C. Welsh-Bohmer K.A. Breitner J.C. 
+L345:  Reduced risk of Alzheimer disease in users of antioxidant vitamin supplements: The Cache County Study 
+L346:  Arch. Neurol. 
+L347:  2004 
+L348:  61 
+L349:  82 
+L350:  88 
+L351:  10.1001/archneur.61.1.82 
+L352:  14732624
+L353: 35. Ju J. Picinich S.C. Yang Z. Zhao Y. Suh N. Kong A.-N. Yang C.S. 
+L354:  Cancer-preventive activities of tocopherols and tocotrienols 
+L355:  Carcinogenesis 
+L356:  2010 
+L357:  31 
+L358:  533 
+L359:  542 
+L360:  19748925
+L361: 36. Vatassery G.T. Fahn S. Kuskowski M.A. 
+L362:  Alpha tocopherol in CSF of subjects taking high-dose vitamin E in the DATATOP study. Parkinson Study Group 
+L363:  Neurology 
+L364:  1998 
+L365:  50 
+L366:  1900 
+L367:  1902 
+L368:  10.1212/WNL.50.6.1900 
+L369:  9633757
+L370: 37. Chan A.S. Cheung M.C. Law S.C. Chan J.H. 
+L371:  Phase II study of alpha-tocopherol in improving the cognitive function of patients with temporal lobe radionecrosis 
+L372:  Cancer 
+L373:  2004 
+L374:  100 
+L375:  398 
+L376:  404 
+L377:  10.1002/cncr.11885 
+L378:  14716777
+L379: 38. Masaki K.H. Losonczy K.G. Izmirlian G. Foley D.J. Ross G.W. Petrovitch H. Havlik R. White L.R. 
+L380:  Association of vitamin E and C supplement use with cognitive function and dementia in elderly men 
+L381:  Neurology 
+L382:  2000 
+L383:  54 
+L384:  1265 
+L385:  1272 
+L386:  10.1212/WNL.54.6.1265 
+L387:  10746596
+L388: 39. Morris M.C. Evans D.A. Tangney C.C. Bienias J.L. Wilson R.S. Aggarwal N.T. Scherr P.A. 
+L389:  Relation of the tocopherol forms to incident Alzheimer disease and to cognitive change 
+L390:  Am. J. Clin. Nutr. 
+L391:  2005 
+L392:  81 
+L393:  508 
+L394:  514 
+L395:  15699242
+L396: 40. Winklhofer-Roob B.M. Rock E. Ribalta J. Shmerling D.H. Roob J.M. 
+L397:  Effects of vitamin E and carotenoid status on oxidative stress in health and disease. Evidence obtained from human intervention studies 
+L398:  Mol. Aspects Med. 
+L399:  2003 
+L400:  24 
+L401:  391 
+L402:  402 
+L403:  10.1016/S0098-2997(03)00035-9 
+L404:  14585310
+L405: 41. ClinicalTrials.gov. 
+L406:  (accessed on 27 January 2012) 
+L407:  Available online: http://clinicaltrials.gov
+L408: 42. Ikeda S. Toyoshima K. Yamashita K. 
+L409:  Dietary sesame seeds elevate alpha- and gamma-tocotrienol concentrations in skin and adipose tissue of rats fed the tocotrienol-rich fraction extracted from palm oil 
+L410:  J. Nutr. 
+L411:  2001 
+L412:  131 
+L413:  2892 
+L414:  2897 
+L415:  11694614
+L416: 43. Rogi T. Tomimori N. Ono Y. Kiso Y. 
+L417:  The mechanism underlying the synergetic hypocholesterolemic effect of sesamin and α-tocopherol in rats fed a high-cholesterol diet 
+L418:  J. Pharmacol. Sci. 
+L419:  2011 
+L420:  115 
+L421:  408 
+L422:  416 
+L423:  10.1254/jphs.10287FP 
+L424:  21372506
+L425: 44. Yamashita K. Iizuka Y. Imai T. Namiki M. 
+L426:  Sesame seed and its lignans produce marked enhancement of vitamin E activity in rats fed a low alpha-tocopherol diet 
+L427:  Lipids 
+L428:  1995 
+L429:  30 
+L430:  1019 
+L431:  1028 
+L432:  10.1007/BF02536287 
+L433:  8569430
+L434: 45. Yamashita K. Nohara Y. Katayama K. Namiki M. 
+L435:  Sesame seed lignans and gamma-tocopherol act synergistically to produce vitamin E activity in rats 
+L436:  J. Nutr. 
+L437:  1992 
+L438:  122 
+L439:  2440 
+L440:  2446 
+L441:  1453229
+L442: 46. Cooney R.V. Custer L.J. Okinaka L. Franke A.A. 
+L443:  Effects of dietary sesame seeds on plasma tocopherol levels 
+L444:  Nutr. Cancer 
+L445:  2001 
+L446:  39 
+L447:  66 
+L448:  71 
+L449:  10.1207/S15327914nc391_9 
+L450:  11588904
+L451: 47. Wu W.-H. Kang Y.-P. Wang N.-H. Jou H.-J. Wang T.-A. 
+L452:  Sesame ingestion affects sex hormones, antioxidant status, and blood lipids in postmenopausal women 
+L453:  J. Nutr. 
+L454:  2006 
+L455:  136 
+L456:  1270 
+L457:  1275 
+L458:  16614415
+L459: 48. Reeves P.G. Nielsen F.H. Fahey G.C. Jr. 
+L460:  AIN-93 purified diets for laboratory rodents: Final report of the American Institute of Nutrition ad hoc writing committee on the reformulation of the AIN-76A rodent diet 
+L461:  J. Nutr. 
+L462:  1993 
+L463:  123 
+L464:  1939 
+L465:  1951 
+L466:  8229312
+L467: 49. Radcliffe J. Czajka-Narins D. 
+L468:  Lipids and tocopherols in serum and liver of female rats fed diets containing corn oil or cottonseed oil 
+L469:  Plant Foods Hum. Nutr. 
+L470:  2006 
+L471:  61 
+L472:  35 
+L473:  38 
+L474:  16736386
+L475: 50. Beal S.L. 
+L476:  Ways to fit a PK model with some data below the quantification limit 
+L477:  J. Pharmacokinet. Pharmacodyn. 
+L478:  2001 
+L479:  28 
+L480:  481 
+L481:  504 
+L482:  10.1023/A:1012299115260 
+L483:  11768292
+L484: 51. Lemcke-Norojärvi M. Kamal-Eldin A. Appelqvist L.A. Dimberg L.H. Ohrvall M. Vessby B. 
+L485:  Corn and sesame oils increase serum gamma-tocopherol concentrations in healthy Swedish women 
+L486:  J. Nutr. 
+L487:  2001 
+L488:  131 
+L489:  1195 
+L490:  1201 
+L491:  11285325
+L492: 52. Ikeda S. Tohyama T. Yamashita K. 
+L493:  Dietary sesame seed and its lignans inhibit 2,7,8-trimethyl-2(2′-carboxyethyl)-6-hydroxychroman excretion into urine of rats fed γ-tocopherol 
+L494:  J. Nutr. 
+L495:  2002 
+L496:  132 
+L497:  961 
+L498:  966 
+L499:  11983822
+L500: 53. Booth S.L. Golly I. Sacheck J.M. Roubenoff R. Dallal G.E. Hamada K. Blumberg J.B. 
+L501:  Effect of vitamin E supplementation on vitamin K status in adults with normal coagulation status 
+L502:  Am. J. Clin. Nutr. 
+L503:  2004 
+L504:  80 
+L505:  143 
+L506:  148 
+L507:  15213041
+L508: 54. Li G.-X. Lee M.-J. Liu A.B. Yang Z. Lin Y. Shih W.J. Yang C.S. 
+L509:  Delta-tocopherol is more active than alpha- or gamma-tocopherol in inhibiting lung tumorigenesis  in vivo 
+L510:  Cancer Prev. Res. 
+L511:  2011 
+L512:  4 
+L513:  404 
+L514:  413 
+L515:  10.1158/1940-6207.CAPR-10-0130
+L516: 55. Navarro A. Gómez C. Sánchez-Pino M.-J. González H. Bández M.J. Boveris A.D. Boveris A. 
+L517:  Vitamin E at high doses improves survival, neurological performance, and brain mitochondrial function in aging male mic 
+L518:  Am. J. Physiol. Regul. Integr. Comp. Physiol. 
+L519:  2005 
+L520:  289 
+L521:  R1392 
+L522:  R1399 
+L523:  10.1152/ajpregu.00834.2004 
+L524:  16020519
+L525: 56. Robinson C. Woo S. Walsh A. Nowak A.K. Lake R.A. 
+L526:  The antioxidants vitamins A and E and selenium do not reduce the incidence of asbestos-induced disease in a mouse model of mesothelioma 
+L527:  Nutr. Cancer 
+L528:  2012 
+L529:  64 
+L530:  315 
+L531:  322 
+L532:  10.1080/01635581.2012.649100 
+L533:  22292488
+L534: 57. Shichiri M. Yoshida Y. Ishida N. Hagihara Y. Iwahashi H. Tamai H. Niki E. 
+L535:  Alpha-tocopherol suppresses lipid peroxidation and behavioral and cognitive impairments in the Ts65Dn mouse model of Down syndrome 
+L536:  Free Radic. Biol. Med. 
+L537:  2011 
+L538:  50 
+L539:  1801 
+L540:  1811 
+L541:  10.1016/j.freeradbiomed.2011.03.023 
+L542:  21447382
+L543: 58. Iuliano L. Micheletta F. Natoli S. Ginanni Corradini S. Iappelli M. Elisei W. Giovannelli L. Violi F. Diczfalusy U. 
+L544:  Measurement of oxysterols and alpha-tocopherol in plasma and tissue samples as indices of oxidant stress status 
+L545:  Anal. Biochem. 
+L546:  2003 
+L547:  312 
+L548:  217 
+L549:  223 
+L550:  12531208
+L551: 59. Bjorneboe A. Bjorneboe G.E. Bodd E. Hagen B.F. Kveseth N. Drevon C.A. 
+L552:  Transport and distribution of alpha-tocopherol in lymph, serum and liver cells in rats 
+L553:  Biochim. Biophys. Acta 
+L554:  1986 
+L555:  889 
+L556:  310 
+L557:  315 
+L558:  10.1016/0167-4889(86)90193-X 
+L559:  3790578
+L560: 60. Podda M. Weber C. Traber M.G. Packer L. 
+L561:  Simultaneous determination of tissue tocopherols, tocotrienols, ubiquinols, and ubiquinones 
+L562:  J. Lipid Res. 
+L563:  1996 
+L564:  37 
+L565:  893 
+L566:  901 
+L567:  8732789
+L568: 61. Traber M.G. Kayden H.J. Green J.B. Green M.H. 
+L569:  Absorption of water-miscible forms of vitamin E in a patient with cholestasis and in thoracic duct-cannulated rats 
+L570:  Am. J. Clin. Nutr. 
+L571:  1986 
+L572:  44 
+L573:  914 
+L574:  923 
+L575:  3788838
+L576: 62. Mustacich D.J. Leonard S.W. Devereaux M.W. Sokol R.J. Traber M.G. 
+L577:  Alpha-tocopherol regulation of hepatic cytochrome P450s and ABC transporters in rats 
+L578:  Free Radic. Biol. Med. 
+L579:  2006 
+L580:  41 
+L581:  1069 
+L582:  1078 
+L583:  10.1016/j.freeradbiomed.2006.06.022 
+L584:  16962932
+L585: 63. Kluth D. Landes N. Pfluger P. Muller-Schmehl K. Weiss K. Bumke-Vogt C. Ristow M. Brigelius-Flohe R. 
+L586:  Modulation of Cyp3a11 mRNA expression by alpha-tocopherol but not gamma-tocotrienol in mice 
+L587:  Free Radic. Biol. Med. 
+L588:  2005 
+L589:  38 
+L590:  507 
+L591:  514 
+L592:  15649653
+L593: 64. Muller D.P. Lloyd J.K. Wolff O.H. 
+L594:  The role of vitamin E in the treatment of the neurological features of abetalipoproteinaemia and other disorders of fat absorption 
+L595:  J. Inherit. Metab. Dis. 
+L596:  1985 
+L597:  8 
+L598:  88 
+L599:  92 
+L600:  Suppl. 1 
+L601:  10.1007/BF01800666 
+L602:  3930848
+L603: 65. Peretti N. Sassolas A. Roy C.C. Deslandres C. Charcosset M. Castagnetti J. Pugnet-Chardon L. Moulin P. Labarge S. Bouthillier L. 
+L604:  Guidelines for the diagnosis and management of chylomicron retention disease based on a review of the literature and the experience of two centers 
+L605:  Orphanet J. Rare Dis. 
+L606:  2010 
+L607:  5
+L608: 66. Abdo K.M. Rao G. Montgomery C.A. Dinowitz M. Kanagalingam K. 
+L609:  Thirteen-week toxicity study of d-alpha-tocopheryl acetate (vitamin E) in Fischer 344 rats 
+L610:  Food Chem. Toxicol. 
+L611:  1986 
+L612:  24 
+L613:  1043 
+L614:  1050 
+L615:  10.1016/0278-6915(86)90287-5 
+L616:  3804111
+L617: 67. March B.E. Wong E. Seier L. Sim J. Biely J. 
+L618:  Hypervitaminosis E in the chick 
+L619:  J. Nutr. 
+L620:  1973 
+L621:  103 
+L622:  371 
+L623:  377 
+L624:  4688149
+L625: 68. Engelhart M.J. Geerlings M.I. Ruitenberg A. van Swieten J.C. Hofman A. Witteman J.C.M. Breteler M.M.B. 
+L626:  Dietary intake of antioxidants and risk of Alzheimer disease 
+L627:  J. Am. Med. Assoc. 
+L628:  2002 
+L629:  287 
+L630:  3223 
+L631:  3229
+L632: 69. Grodstein F. Chen J. Willett W.C. 
+L633:  High-dose antioxidant supplements and cognitive function in community-dwelling elderly women 
+L634:  Am. J. Clin. Nutr. 
+L635:  2003 
+L636:  77 
+L637:  975 
+L638:  984 
+L639:  12663300
+L640: 70. Helmer C. Peuchant E. Letenneur L. Bourdel-Marchasson I. Larrieu S. Dartigues J.F. Dubourg L. Thomas M.-J. Barberger-Gateau P. 
+L641:  Association between antioxidant nutritional indicators and the incidence of dementia: Results from the PAQUID prospective cohort study 
+L642:  Eur. J. Clin. Nutr. 
+L643:  2003 
+L644:  57 
+L645:  1555 
+L646:  1561 
+L647:  10.1038/sj.ejcn.1601724 
+L648:  14647220
+L649: 71. Lockrow J. Prakasam A. Huang P. Bimonte-Nelson H. Sambamurti K. Granholm A.-C. 
+L650:  Cholinergic degeneration and memory loss delayed by vitamin E in a Down syndrome mouse model 
+L651:  Exp. Neurol. 
+L652:  2009 
+L653:  216 
+L654:  278 
+L655:  289 
+L656:  10.1016/j.expneurol.2008.11.021 
+L657:  19135442
+L658: 72. Miyake Y. Fukushima W. Tanaka K. Sasaki S. Kiyohara C. Tsuboi Y. Yamada T. Oeda T. Miki T. Kawamura N. 
+L659:  Dietary intake of antioxidant vitamins and risk of Parkinson’s disease: A case-control study in Japan 
+L660:  Eur. J. Neurol. 
+L661:  2011 
+L662:  18 
+L663:  106 
+L664:  113 
+L665:  20491891
+L666: 73. Sano M. Ernesto C. Thomas R.G. Klauber M.R. Schafer K. Grundman M. Woodbury P. Growdon J. Cotman C.W. Pfeiffer E. 
+L667:  A controlled trial of selegiline, alpha-tocopherol, or both as treatment for Alzheimer’s disease. The Alzheimer’s Disease Cooperative Study 
+L668:  N. Engl. J. Med. 
+L669:  1997 
+L670:  336 
+L671:  1216 
+L672:  1222 
+L673:  10.1056/NEJM199704243361704 
+L674:  9110909
+L675: 74. Group T.P.S. 
+L676:  Effects of tocopherol and deprenyl on the progression of disability in early Parkinson’s disease 
+L677:  N. Engl. J. Med. 
+L678:  1993 
+L679:  328 
+L680:  176 
+L681:  183 
+L682:  10.1056/NEJM199301213280305 
+L683:  8417384
+L684: 75. Isaac M.G.E.K.N. Quinn R. Tabet N. 
+L685:  Vitamin E for Alzheimer’s disease and mild cognitive impairment 
+L686:  Cochrane Database Syst. Rev. 
+L687:  2008
+L688: 76. Lott I.T. Doran E. Nguyen V.Q. Tournay A. Head E. Gillen D.L. 
+L689:  Down syndrome and dementia: A randomized, controlled trial of antioxidant supplementation 
+L690:  Am. J. Med. Genet. A 
+L691:  2011 
+L692:  155 
+L693:  1939 
+L694:  1948 
+L695:  10.1002/ajmg.a.34114 
+L696:  21739598
+L697: 77. Petersen R.C. Thomas R.G. Grundman M. Bennett D. Doody R. Ferris S. Galasko D. Jin S. Kaye J. Levey A. 
+L698:  Vitamin E and donepezil for the treatment of mild cognitive impairment 
+L699:  N. Engl. J. Med. 
+L700:  2005 
+L701:  352 
+L702:  2379 
+L703:  2388 
+L704:  10.1056/NEJMoa050151 
+L705:  15829527
+L706: 78. Miller E.R. Pastor-Barriuso R. Dalal D. Riemersma R.A. Appel L.J. Guallar E. 
+L707:  Meta-analysis: High-dosage vitamin E supplementation may increase all-cause mortality 
+L708:  Ann. Int. Med. 
+L709:  2005 
+L710:  142 
+L711:  37 
+L712:  46 
+L713:  15537682
+L714: 79. Sesso H.D. Buring J.E. Christen W.G. Kurth T. Belanger C. MacFadyen J. Bubes V. Manson J.E. Glynn R.J. Gaziano J.M. 
+L715:  Vitamins E and C in the prevention of cardiovascular disease in men: The Physicians’ Health Study II randomized controlled trial 
+L716:  J. Am. Med. Assoc. 
+L717:  2008 
+L718:  300 
+L719:  2123 
+L720:  2133
+L721: 80. Schürks M. Glynn R.J. Rist P.M. Tzourio C. Kurth T. 
+L722:  Effects of vitamin E on stroke subtypes: Meta-analysis of randomised controlled trials 
+L723:  BMJ 
+L724:  2010 
+L725:  341
+L726: 81. Ikeda S. Kagaya M. Kobayashi K. Tohyama T. Kiso Y. Higuchi N. Yamashita K. 
+L727:  Dietary sesame lignans decrease lipid peroxidation in rats fed docosahexaenoic acid 
+L728:  J. Nutr. Sci. Vitaminol. 
+L729:  2003 
+L730:  49 
+L731:  270 
+L732:  276 
+L733:  10.3177/jnsv.49.270 
+L734:  14598914
+L735: 82. Harikumar K.B. Sung B. Tharakan S.T. Pandey M.K. Joy B. Guha S. Krishnan S. Aggarwal B.B. 
+L736:  Sesamin manifests chemopreventive effects through the suppression of NF-kappa B-regulated cell survival, proliferation, invasion, and angiogenic gene products 
+L737:  Mol. Cancer Res. 
+L738:  2010 
+L739:  8 
+L740:  751 
+L741:  761 
+L742:  10.1158/1541-7786.MCR-09-0565 
+L743:  20460401
+L744: 83. Hirose N. Doi F. Ueki T. Akazawa K. Chijiiwa K. Sugano M. Akimoto K. Shimizu S. Yamada H. 
+L745:  Suppressive effect of sesamin against 7,12-dimethylbenz[ a ]-anthracene induced rat mammary carcinogenesis 
+L746:  Anticancer Res. 
+L747:  1992 
+L748:  12 
+L749:  1259 
+L750:  1265 
+L751:  1386971
+L752: 84. Yokota T. Matsuzaki Y. Koyama M. Hitomi T. Kawanaka M. Enoki-Konishi M. Okuyama Y. Takayasu J. Nishino H. Nishikawa A. 
+L753:  Sesamin, a lignan of sesame, down-regulates cyclin D1 protein expression in human tumor cells 
+L754:  Cancer Sci. 
+L755:  2007 
+L756:  98 
+L757:  1447 
+L758:  1453 
+L759:  10.1111/j.1349-7006.2007.00560.x 
+L760:  17640297
+L761: 85. Kita S. Matsumura Y. Morimoto S. Akimoto K. Furuya M. Oka N. Tanaka T. 
+L762:  Antihypertensive effect of sesamin. II. Protection against two-kidney, one-clip renal hypertension and cardiovascular hypertrophy 
+L763:  Biol. Pharm. Bull. 
+L764:  1995 
+L765:  18 
+L766:  1283 
+L767:  1285 
+L768:  10.1248/bpb.18.1283 
+L769:  8845824
+L770: 86. Matsumura Y. Kita S. Morimoto S. Akimoto K. Furuya M. Oka N. Tanaka T. 
+L771:  Antihypertensive effect of sesamin. I. Protection against deoxycorticosterone acetate-salt-induced hypertension and cardiovascular hypertrophy 
+L772:  Biol. Pharm. Bull. 
+L773:  1995 
+L774:  18 
+L775:  1016 
+L776:  1019 
+L777:  10.1248/bpb.18.1016 
+L778:  7581242
+L779: 87. Matsumura Y. Kita S. Tanida Y. Taguchi Y. Morimoto S. Akimoto K. Tanaka T. 
+L780:  Antihypertensive effect of sesamin. III. Protection against development and maintenance of hypertension in stroke-prone spontaneously hypertensive rats 
+L781:  Biol. Pharm. Bull. 
+L782:  1998 
+L783:  21 
+L784:  469 
+L785:  473 
+L786:  10.1248/bpb.21.469 
+L787:  9635502
+L788: 88. Miyawaki T. Aono H. Toyoda-Ono Y. Maeda H. Kiso Y. Moriyama K. 
+L789:  Antihypertensive effects of sesamin in humans 
+L790:  J. Nutr. Sci. Vitaminol. 
+L791:  2009 
+L792:  55 
+L793:  87 
+L794:  91 
+L795:  10.3177/jnsv.55.87 
+L796:  19352068
+L797: 89. Nakano D. Itoh C. Ishii F. Kawanishi H. Takaoka M. Kiso Y. Tsuruoka N. Tanaka T. Matsumura Y. 
+L798:  Effects of sesamin on aortic oxidative stress and endothelial dysfunction in deoxycorticosterone acetate-salt hypertensive rats 
+L799:  Biol. Pharm. Bull. 
+L800:  2003 
+L801:  26 
+L802:  1701 
+L803:  1705 
+L804:  10.1248/bpb.26.1701 
+L805:  14646174
+L806: 90. Nakano D. Itoh C. Takaoka M. Kiso Y. Tanaka T. Matsumura Y. 
+L807:  Antihypertensive effect of sesamin. IV. Inhibition of vascular superoxide production by sesamin 
+L808:  Biol. Pharm. Bull. 
+L809:  2002 
+L810:  25 
+L811:  1247 
+L812:  1249 
+L813:  10.1248/bpb.25.1247 
+L814:  12230131
+L815: 91. Peterson J. Dwyer J. Adlercreutz H. Scalbert A. Jacques P. McCullough M.L. 
+L816:  Dietary lignans: Physiology and potential for cardiovascular disease risk reduction 
+L817:  Nutr. Rev. 
+L818:  2010 
+L819:  68 
+L820:  571 
+L821:  603 
+L822:  10.1111/j.1753-4887.2010.00319.x 
+L823:  20883417
+L824: 92. Ashakumary L. Rouyer I. Takahashi Y. Ide T. Fukuda N. Aoyama T. Hashimoto T. Mizugaki M. Sugano M. 
+L825:  Sesamin, a sesame lignan, is a potent inducer of hepatic fatty acid oxidation in the rat 
+L826:  Metabolism 
+L827:  1999 
+L828:  48 
+L829:  1303 
+L830:  1313 
+L831:  10.1016/S0026-0495(99)90272-X 
+L832:  10535395
+L833: 93. Hirata F. Fujita K. Ishikura Y. Hosoda K. Ishikawa T. Nakamura H. 
+L834:  Hypocholesterolemic effect of sesame lignan in humans 
+L835:  Atherosclerosis 
+L836:  1996 
+L837:  122 
+L838:  135 
+L839:  136 
+L840:  10.1016/0021-9150(95)05769-2 
+L841:  8724120
+L842: 94. Hirose N. Inoue T. Nishihara K. Sugano M. Akimoto K. Shimizu S. Yamada H. 
+L843:  Inhibition of cholesterol absorption and synthesis in rats by sesamin 
+L844:  J. Lipid Res. 
+L845:  1991 
+L846:  32 
+L847:  629 
+L848:  638 
+L849:  1856608
+L850: 95. Kamal-Eldin A. Moazzami A. Washi S. 
+L851:  Sesame seed lignans: Potent physiological modulators and possible ingredients in functional foods & nutraceuticals 
+L852:  Recent Pat. Food Nutr. Agric. 
+L853:  2011 
+L854:  3 
+L855:  17 
+L856:  29 
+L857:  21114470
+L858: 96. Nakabayashi A. Kitagawa Y. Suwa Y. Akimoto K. Asami S. Shimizu S. Hirose N. Sugano M. Yamada H. 
+L859:  Alpha-tocopherol enhances the hypocholesterolemic action of sesamin in rats 
+L860:  Int. J. Vitam. Nutr. Res. 
+L861:  1995 
+L862:  65 
+L863:  162 
+L864:  168 
+L865:  8829994
+L866: 97. Sontag T.J. Parker R.S. 
+L867:  Cytochrome P450 omega-hydroxylase pathway of tocopherol catabolism. Novel mechanism of regulation of vitamin E status 
+L868:  J. Biol. Chem. 
+L869:  2002 
+L870:  277 
+L871:  25290 
+L872:  25296 
+L873:  11997390
+L874: 98. You C.-S. Sontag T.J. Swanson J.E. Parker R.S. 
+L875:  Long-chain carboxychromanols are the major metabolites of tocopherols and tocotrienols in A549 lung epithelial cells but not HepG2 cells 
+L876:  J. Nutr. 
+L877:  2005 
+L878:  135 
+L879:  227 
+L880:  232 
+L881:  15671218
+L882: 99. Smolarek A.K. Suh N. 
+L883:  Chemopreventive activity of vitamin E in breast cancer: A focus on γ- and δ-Tocopherol 
+L884:  Nutrients 
+L885:  2011 
+L886:  3 
+L887:  962 
+L888:  986 
+L889:  10.3390/nu3110962 
+L890:  22254089
+L891: 100. Abe C. Uchida T. Ohta M. Ichikawa T. Yamashita K. Ikeda S. 
+L892:  Cytochrome P450-dependent metabolism of vitamin E isoforms is a critical determinant of their tissue concentrations in rats 
+L893:  Lipids 
+L894:  2007 
+L895:  42 
+L896:  637 
+L897:  645 
+L898:  10.1007/s11745-007-3064-2 
+L899:  17520307
+L900: 101. Birringer M. Pfluger P. Kluth D. Landes N. Brigelius-Flohe R. 
+L901:  Identities and differences in the metabolism of tocotrienols and tocopherols in HepG2 cells 
+L902:  J. Nutr. 
+L903:  2002 
+L904:  132 
+L905:  3113 
+L906:  3118 
+L907:  12368403
+L908: 102. Traber M.G. Kayden H.J. 
+L909:  Preferential incorporation of alpha-tocopherol vs gamma-tocopherol in human lipoproteins 
+L910:  Am. J. Clin. Nutr. 
+L911:  1989 
+L912:  49 
+L913:  517 
+L914:  526 
+L915:  2923084
+L916: 103. Traber M.G. Burton G.W. Hughes L. Ingold K.U. Hidaka H. Malloy M. Kane J. Hyams J. Kayden H.J. 
+L917:  Discrimination between forms of vitamin E by humans with and without genetic abnormalities of lipoprotein metabolism 
+L918:  J. Lipid Res. 
+L919:  1992 
+L920:  33 
+L921:  1171 
+L922:  1182 
+L923:  1431596
+L924: 104. Parker R.S. McCormick C.C. 
+L925:  Selective accumulation of alpha-tocopherol in Drosophila is associated with cytochrome P450 tocopherol-omega-hydroxylase activity but not alpha-tocopherol transfer protein 
+L926:  Biochem. Biophys. Res. Commun. 
+L927:  2005 
+L928:  338 
+L929:  1537 
+L930:  1541 
+L931:  10.1016/j.bbrc.2005.10.124 
+L932:  16289043
+L933: 105. Hayes K.C. Pronczuk A. Liang J.S. 
+L934:  Differences in the plasma transport and tissue concentrations of tocopherols and tocotrienols: Observations in humans and hamsters 
+L935:  Proc. Soc. Exp. Biol. Med. 
+L936:  1993 
+L937:  202 
+L938:  353 
+L939:  359 
+L940:  8437992
+L941: 106. Ju J. Hao X. Lee M.-J. Lambert J.D. Lu G. Xiao H. Newmark H.L. Yang C.S. 
+L942:  A gamma-tocopherol-rich mixture of tocopherols inhibits colon inflammation and carcinogenesis in azoxymethane and dextran sulfate sodium-treated mice 
+L943:  Cancer Prev. Res. 
+L944:  2009 
+L945:  2 
+L946:  143 
+L947:  152 
+L948:  10.1158/1940-6207.CAPR-08-0099
+L949: 107. Kelly F.J. Sutton G.L. 
+L950:  Plasma and red blood cell vitamin E status of patients on total parenteral nutrition 
+L951:  JPEN J. Parenter. Enteral. Nutr. 
+L952:  1989 
+L953:  13 
+L954:  510 
+L955:  515 
+L956:  2514292
+L957: 108. Lambert J.D. Lu G. Lee M.-J. Hu J. Ju J. Yang C.S. 
+L958:  Inhibition of lung cancer growth in mice by dietary mixed tocopherols 
+L959:  Mol. Nutr. Food Res. 
+L960:  2009 
+L961:  53 
+L962:  1030 
+L963:  1035 
+L964:  10.1002/mnfr.200800438 
+L965:  19557822
+L966: 109. Wiser J. Alexis N.E. Jiang Q. Wu W. Robinette C. Roubey R. Peden D.B. 
+L967:  In vivo  gamma-tocopherol supplementation decreases systemic oxidative stress and cytokine responses of human monocytes in normal and asthmatic subjects 
+L968:  Free Radic. Biol. Med. 
+L969:  2008 
+L970:  45 
+L971:  40 
+L972:  49 
+L973:  10.1016/j.freeradbiomed.2008.03.002 
+L974:  18405673
+L975: 110. Yoshikawa S. Morinobu T. Hamamura K. Hirahara F. Iwamoto T. Tamai H. 
+L976:  The effect of gamma-tocopherol administration on alpha-tocopherol levels and metabolism in humans 
+L977:  Eur. J. Clin. Nutr. 
+L978:  2005 
+L979:  59 
+L980:  900 
+L981:  905 
+L982:  10.1038/sj.ejcn.1602154 
+L983:  15928686
+L984: 111. Yu W. Jia L. Park S.K. Li J. Gopalan A. Simmons-Menchaca M. Sanders B.G. Kline K. 
+L985:  Anticancer actions of natural and synthetic vitamin E forms: RRR-alpha-tocopherol blocks the anticancer actions of gamma-tocopherol 
+L986:  Mol. Nutr. Food Res. 
+L987:  2009 
+L988:  53 
+L989:  1573 
+L990:  1581 
+L991:  10.1002/mnfr.200900011 
+L992:  19842103
+L993: 112. Wolf G. 
+L994:  How an increased intake of alpha-tocopherol can suppress the bioavailability of gamma-tocopherol 
+L995:  Nutr. Rev. 
+L996:  2006 
+L997:  64 
+L998:  295 
+L999:  299 
+L1000:  10.1111/j.1753-4887.2006.tb00213.x 
+L1001:  16808116
+L1002: 113. Traber M.G. Siddens L.K. Leonard S.W. Schock B. Gohil K. Krueger S.K. Cross C.E. Williams D.E. 
+L1003:  Alpha-tocopherol modulates Cyp3a expression, increases gamma-CEHC production, and limits tissue gamma-tocopherol accumulation in mice fed high gamma-tocopherol diets 
+L1004:  Free Radic. Biol. Med. 
+L1005:  2005 
+L1006:  38 
+L1007:  773 
+L1008:  785 
+L1009:  10.1016/j.freeradbiomed.2004.11.027 
+L1010:  15721988
+L1011: 114. Handelman G.J. Epstein W.L. Peerson J. Spiegelman D. Machlin L.J. Dratz E.A. 
+L1012:  Human adipose alpha-tocopherol and gamma-tocopherol kinetics during and after 1 y of alpha-tocopherol supplementation 
+L1013:  Am. J. Clin. Nutr. 
+L1014:  1994 
+L1015:  59 
+L1016:  1025 
+L1017:  1032 
+L1018:  8172086
+L1019: 115. Handelman G.J. Machlin L.J. Fitch K. Weiter J.J. Dratz E.A. 
+L1020:  Oral alpha-tocopherol supplements decrease plasma gamma-tocopherol levels in humans 
+L1021:  J. Nutr. 
+L1022:  1985 
+L1023:  115 
+L1024:  807 
+L1025:  813 
+L1026:  3998871
+L1027: 116. Sattler W. Levak-Frank S. Radner H. Kostner G.M. Zechner R. 
+L1028:  Muscle-specific overexpression of lipoprotein lipase in transgenic mice results in increased alpha-tocopherol levels in skeletal muscle 
+L1029:  Biochem. J. 
+L1030:  1996 
+L1031:  318 
+L1032:  15 
+L1033:  19 
+L1034:  8761445
+L1035: 117. Bardowell S.A. Stec D.E. Parker R.S. 
+L1036:  Common variants of cytochrome P450 4F2 exhibit altered vitamin E-(omega)-hydroxylase specific activity 
+L1037:  J. Nutr. 
+L1038:  2010 
+L1039:  140 
+L1040:  1901 
+L1041:  1906 
+L1042:  10.3945/jn.110.128579 
+L1043:  20861217
+L1044: 118. Borel P. Moussa M. Reboul E. Lyan B. Defoort C. Vincent-Baudry S. Maillot M. Gastaldi M. Darmon M. Portugal H. 
+L1045:  Human fasting plasma concentrations of vitamin E and carotenoids, and their association with genetic variants in apo C-III, cholesteryl ester transfer protein, hepatic lipase, intestinal fatty acid binding protein and microsomal triacylglycerol transfer protein 
+L1046:  Br. J. Nutr. 
+L1047:  2009 
+L1048:  101 
+L1049:  680 
+L1050:  687 
+L1051:  10.1017/S0007114508030754 
+L1052:  18662427
+L1053: 119. Borel P. Moussa M. Reboul E. Lyan B. Defoort C. Vincent-Baudry S. Maillot M. Gastaldi M. Darmon M. Portugal H. 
+L1054:  Human plasma levels of vitamin E and carotenoids are associated with genetic polymorphisms in genes involved in lipid metabolism 
+L1055:  J. Nutr. 
+L1056:  2007 
+L1057:  137 
+L1058:  2653 
+L1059:  2659 
+L1060:  18029479
+L1061: 120. Ferrucci L. Perry J.R. Matteini A. Perola M. Tanaka T. Silander K. Rice N. Melzer D. Murray A. Cluett C. 
+L1062:  Common variation in the beta-carotene 15,15′-monooxygenase 1 gene affects circulating levels of carotenoids: A genome-wide association study 
+L1063:  Am. J. Hum. Genet. 
+L1064:  2009 
+L1065:  84 
+L1066:  123 
+L1067:  133 
+L1068:  10.1016/j.ajhg.2008.12.019 
+L1069:  19185284
+L1070: 121. Girona J. Guardiola M. Cabre A. Manzanares J.M. Heras M. Ribalta J. Masana L. 
+L1071:  The apolipoprotein A5 gene—1131T→C polymorphism affects vitamin E plasma concentrations in type 2 diabetic patients 
+L1072:  Clin. Chem. Lab. Med. 
+L1073:  2008 
+L1074:  46 
+L1075:  453 
+L1076:  457 
+L1077:  10.1515/CCLM.2008.110 
+L1078:  18302531
+L1079: 122. Gomez-Coronado D. Entrala A. Alvarez J.J. Ortega H. Olmos J.M. Castro M. Sastre A. Herrera E. Lasuncion M.A. 
+L1080:  Influence of apolipoprotein E polymorphism on plasma vitamin A and vitamin E levels 
+L1081:  Eur. J. Clin. Invest. 
+L1082:  2002 
+L1083:  32 
+L1084:  251 
+L1085:  258 
+L1086:  10.1046/j.1365-2362.2002.00983.x 
+L1087:  11952810
+L1088: 123. Wright M.E. Peters U. Gunter M.J. Moore S.C. Lawson K.A. Yeager M. Weinstein S.J. Snyder K. Virtamo J. Albanes D. 
+L1089:  Association of variants in two vitamin E transport genes with circulating vitamin e concentrations and prostate cancer risk 
+L1090:  Cancer Res. 
+L1091:  2009 
+L1092:  69 
+L1093:  1429 
+L1094:  1438 
+L1095:  19190344
+L1096: 124. Huebbe P. Lodge J.K. Rimbach G. 
+L1097:  Implications of apolipoprotein E genotype on inflammation and vitamin E status 
+L1098:  Mol. Nutr. Food Res. 
+L1099:  2010 
+L1100:  54 
+L1101:  623 
+L1102:  630 
+L1103:  10.1002/mnfr.200900398 
+L1104:  20183830
+L1105: Acknowledgments
+L1106: This research was supported by the Intramural Research Program of the NIH, NHGRI. We thank Mark Bryant for pathological analyses of mouse tissue.
+L1107: # Summary: nutrients-04-00467-s001.xlsx
+L1108: - **Sheets**: 4
+L1109: - **Total tables**: 5
+L1110: ## Sheet: Table S1. α-Toc concentrations
+L1111: - Tables found: 1
+L1112: ### Table 1: Table_1
+L1113: - **Rows**: 7
+L1114: - **Columns**: 5
+L1115: | Column | Dtype | Non-null | Sample values |
+L1116: |--------|-------|----------|---------------|
+L1117: | C57Bl/6J | object | 7 | gms α-toc/kg diet, Control, 5 |
+L1118: | Plasma | str | 4 | 0.64(0.30), 3.10(1.45), 4.34(1.84) |
+L1119: | Brain | str | 4 | 1.46(0.28), 2.32(0.56), 2.38(0.42) |
+L1120: | Liver | str | 4 | 56.5(11.2), 298(74.8), 237(41.9) |
+L1121: | Adipose | str | 4 | 56.6(43.6), 86.3(107), 87.6(110) |
+L1122: ## Sheet: Table S2. High dose α-toc path
+L1123: - Tables found: 1
+L1124: ### Table 1: Table_1
+L1125: - **Rows**: 200
+L1126: - **Columns**: 5
+L1127: | Column | Dtype | Non-null | Sample values |
+L1128: |--------|-------|----------|---------------|
+L1129: | Animal Treatment Group | str | 8 | BALB/cJ - CONTROL, C57BL6/J - CONTROL, BALB/cJ - 5g/kg α-... |
+L1130: | ID | str | 40 | N1-1, N1-2, N1-3 |
+L1131: | Tissue | str | 200 | Kidney, Heart, Liver |
+L1132: | Morphological Diagnosis | str | 200 | No abnormal findings, No abnormal findings, No abnormal f... |
+L1133: | Modifier | str | 17 | subacute, multifocal, random, minimal, multifocal, mild, ... |
+L1134: ## Sheet: Figure S1. P.O. δ-toc PK
+L1135: - Tables found: 2
+L1136: ### Table 1: Table_1
+L1137: - **Rows**: 7
+L1138: - **Columns**: 15
+L1139: | Column | Dtype | Non-null | Sample values |
+L1140: |--------|-------|----------|---------------|
+L1141: | Dose | object | 2 | (mg/kg), 10 |
+L1142: | Dose | str | 3 | route, PO, N=3 |
+L1143: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1144: | Plasma | float64 | 5 | 2.0, 376.0, 2.85 |
+L1145: | Liver | float64 | 6 | 2.0, 538.0, 3.31 |
+L1146: | Dose | object | 2 | (mg/kg), 50 |
+L1147: | Dose | str | 3 | route, PO, N=3 |
+L1148: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1149: | Plasma | float64 | 5 | 4.0, 2660.0, 10.3 |
+L1150: | Liver | float64 | 6 | 4.0, 5810.0, 15.3 |
+L1151: | Dose | object | 2 | (mg/kg), 250 |
+L1152: | Dose | str | 3 | route, PO, N=3 |
+L1153: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1154: | Plasma | float64 | 5 | 2.0, 6910.0, 12.6 |
+L1155: | Liver | float64 | 6 | 4.0, 10800.0, 13.4 |
+L1156: ### Table 2: Table_2
+L1157: - **Rows**: 7
+L1158: - **Columns**: 15
+L1159: | Column | Dtype | Non-null | Sample values |
+L1160: |--------|-------|----------|---------------|
+L1161: | Dose | str | 2 | (mg/kg), 10/240 |
+L1162: | Dose | str | 3 | route, PO, N=3 |
+L1163: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1164: | Plasma | float64 | 5 | 4.0, 883.0, 9.95 |
+L1165: | Liver | float64 | 6 | 4.0, 2820.0, 10.3 |
+L1166: | Dose | str | 2 | (mg/kg), 50/240 |
+L1167: | Dose | str | 3 | route, PO, N=3 |
+L1168: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1169: | Plasma | float64 | 5 | 4.0, 2140.0, 14.9 |
+L1170: | Liver | float64 | 6 | 4.0, 4580.0, 10.0 |
+L1171: | Dose | str | 2 | (mg/kg), 250/240 |
+L1172: | Dose | str | 3 | route, PO, N=3 |
+L1173: | PK parameters | str | 7 | (unit), Tmax (hr), Cmax (ng/mL) |
+L1174: | Plasma | float64 | 5 | 2.0, 7150.0, 11.2 |
+L1175: | Liver | float64 | 6 | 4.0, 18400.0, 15.7 |
+L1176: ## Sheet: Table S3. High dose δ-toc path
+L1177: - Tables found: 1
+L1178: ### Table 1: Table_1
+L1179: - **Rows**: 25
+L1180: - **Columns**: 5
+L1181: | Column | Dtype | Non-null | Sample values |
+L1182: |--------|-------|----------|---------------|
+L1183: | Animal Treatment Group | str | 5 | Control, 0.33 g d-toc , 1.67 g d-toc |
+L1184: | ID | str | 25 | F1 9171, F1 9172, F1 9173 |
+L1185: | Tissue | str | 25 | Liver, Liver, Liver |
+L1186: | Morphological Diagnosis | str | 25 | Lymphoid infiltrates, Lymphoid infiltrates, Lymphoid infi... |
+L1187: | Modifier | str | 22 | multifocal, portal and centrilobular, minimal, multifocal... |
+[35ms]
+

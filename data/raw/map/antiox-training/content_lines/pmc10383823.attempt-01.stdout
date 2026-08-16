@@ -1,0 +1,609 @@
+L1: Targeted Metabolomics in High Performance Sports: Differences between the Resting Metabolic Profile of Endurance- and Strength-Trained Athletes in Comparison with Sedentary Subjects over the Course of a Training Year
+L2: Metabolites (2023)
+L3: Mario Parstorfer, Gernot Poschet, Dorothea Kronsteiner, Kirsten Brüning, Birgit Friedmann-Bette
+L4: 1 Department of Sports Medicine, University Hospital Heidelberg, 69120 Heidelberg, Germany;  birgit.friedmann-bette@med.uni-heidelberg.de
+L5: 2 Olympic Training Centre Rhine-Neckar, 69120 Heidelberg, Germany;  kirsten.bruening@t-online.de
+L6: 3 Centre for Organismal Studies, Heidelberg University, 69120 Heidelberg, Germany;  gernot.poschet@cos.uni-heidelberg.de
+L7: 4 Institute of Medical Biometry and Informatics, University of Heidelberg, 69120 Heidelberg, Germany;  kronsteiner@imbi.uni-heidelberg.de
+L8: Little is known about the metabolic differences between endurance and strength athletes in comparison with sedentary subjects under controlled conditions and about variation of the metabolome throughout one year. We hypothesized that (1) the resting metabolic profile differs between sedentary subjects and athletes and between perennially endurance- and strength-trained athletes and (2) varies throughout one year of training. We performed quantitative, targeted metabolomics (Biocrates MxP ®  Quant 500, Biocrates Life Sciences AG, Innsbruck, Austria) in plasma samples at rest in three groups of male adults, 12 strength-trained (weightlifters, 20 ± 3 years), 10 endurance-trained athletes (runners, 24 ± 3 years), and 12 sedentary subjects (25 ± 4 years) at the end of three training phases (regeneration, preparation, and competition) within one training year. Performance and anthropometric data showed significant ( p  < 0.05) differences between the groups. Metabolomic analysis revealed different resting metabolic profiles between the groups with acetylcarnitines, di- and triacylglycerols, and glycerophospho- and sphingolipids, as well as several amino acids as the most robust metabolites. Furthermore, we observed changes in free carnitine and 3-methylhistidine in strength-trained athletes throughout the training year. Regular endurance or strength training induces changes in the concentration of several metabolites associated with adaptations of the mitochondrial energy and glycolytic metabolism with concomitant changes in amino acid metabolism and cell signaling.
+L9: Article
+L10: athletes; phenotype; athlete metabolome; basal state; chronic adaptation; plasma
+L11: 1. Introduction
+L12: Regular training performed for many years leads to the development of characteristic athletic phenotypes depending on the training content and the combination of intensity and volume, provided that the genetic profile is appropriate [ 1 , 2 , 3 ]. On one side of the exercise continuum, endurance training induces an increase in oxygen uptake, oxygen-transport capacity, and in oxidative metabolism with enhanced mitochondrial density in rather small muscles containing predominantly oxidative type I myofibers. These adaptations result in a greater resistance to fatigue and an enhanced endurance performance [ 4 , 5 , 6 , 7 ]. On the other side of the spectrum, resistance training leads to an increase in muscle mass with predominantly fast type II myofibers, favoring anaerobic and anabolic metabolism, and to an optimization of neuromuscular function [ 8 , 9 ], adaptations which enable maximal and fast strength development. The results of a few recent studies suggest that the adaptation to extreme forms of endurance or strength training leads to characteristic metabolic profiles which can be elucidated by applying metabolomics, allowing for the simultaneous analysis of low-molecular metabolic compounds [ 10 , 11 , 12 , 13 ].
+L13: Little information is available regarding long-term adaptation of the basal metabolome in chronically trained individuals, especially in basal state [ 11 , 14 ]. To the best of our knowledge, there is only one landmark study which investigated metabolic differences between athletes from different sport disciplines [ 12 ]. At the time when 191 athletes reported to anti-doping controls, blood samples were obtained for the measurement of 743 metabolites. The samples were collected as part of anti-doping controls in or out of competition with a lack of information about the athletes’ age, ethnicity, body mass, or their current training status, all factors with probably considerable effects on the individual metabolome. During the past years, research focused on changes of the basal metabolome of endurance-trained athletes and athletes of different sports in response to a single sport-specific session or multiple training weeks [ 15 , 16 , 17 , 18 , 19 , 20 ]. However, none of these studies investigated the effects of perennial training on the resting metabolome.
+L14: The aim of the present study was to investigate the differences in the resting plasma metabolome between endurance-trained athletes, strength-trained athletes, and sedentary subjects. A secondary objective was the assessment of changes in the metabolome over a one-year period involving different training and rest periods. We hypothesized that the resting plasma metabolome would exhibit distinct and significant characteristics between endurance-trained athletes, strength-trained athletes, and sedentary subjects. Furthermore, we expected significant changes in the metabolome to occur throughout the one-year study period, reflecting the influence of different training periods and regeneration phases. Therefore, the study includes several novel elements: (i) a comparison of the plasma metabolome of the physiological extremes under controlled conditions in (ii) a longitudinal study design throughout different training and rest periods in high-performance sports applying (iii) targeted, quantitative ultra-performance liquid chromatography tandem mass spectrometry (UPLC-MS/MS) using the MxP Quant 500 kit (Biocrates Life Sciences AG, Innsbruck, Austria).
+L15: 2. Materials and Methods
+L16: 2.1. Participants
+L17: Three groups of male adults, strength-trained athletes (ST;  n  = 12, age: 20.2 ± 2.6 years, mass: 80.3 ± 13.0 kg, height: 175.0 ± 8.7 cm, BMI: 26.0 ± 2.5 kg/m 2 , body fat: 10.6 ± 4.3%, VO 2 max: 42.5 ± 4.7 mL∙min −1 ∙kg −1 ), endurance-trained athletes (ET;  n  = 10, age: 24.0 ± 2.9 years, mass: 66.5 ± 9.2 kg, height: 176.8 ± 6.8 cm, BMI: 21.2 ± 2.1 kg∙m −2 , body fat: 8.3 ± 1.4%, VO 2 max: 65.1 ± 4.8 mL∙min −1 ∙kg −1 ), and a group of sedentary subjects (CG;  n  = 12, aged 24.8 ± 4.2 years, mass: 81.9 ± 18.4 kg, height: 180.8 ± 8.8 cm, BMI: 25.2 ± 6.1 kg∙m −2 , body fat: 14.9 ± 6.5%, VO 2 max: 41.2 ± 6.5 mL∙min −1 ∙kg −1 ) were investigated. The strength-trained group included weightlifters of the German Junior National Team ( n  = 8) and regional weightlifters ( n  = 4), practicing competitive sports for 8 ± 3 years at national and international levels. The endurance-trained group consisted of track and field runners with a specialization in middle- and long-distance running (800–10,000 m) as well as in marathon running, practicing competitive sports for 9 ± 4 years at regional and national levels. The control group included non-active, healthy participants who never underwent periodized training and who were unexperienced in endurance and resistance training.
+L18: 2.2. Experimental Design
+L19: Participants attended the laboratory on four separate occasions, the preliminary testing and three laboratory visits.  Figure 1  provides a schematic representation of the experimental design. All participants received a medical examination before the preliminary testing. Participants were excluded if they presented evidence of musculoskeletal disorders (e.g., arthrosis, spondylarthrosis, spinal deformities), cardiovascular diseases (e.g., coronary heart disease, hypertension, cardiac arrythmias), acute or chronic diseases (e.g., infectious diseases, muscle diseases), or diseases related to obesity (e.g., type 2 diabetes mellitus, metabolic syndrome), as well as coagulation activity disorders and if they took regular medication.
+L20: 2.3. Preliminary Testing
+L21: Body height and mass were measured using a standard stadiometer and a calibrated scale (Seca, Hamburg, Germany), respectively. The percentage of body fat was calculated from skinfold thickness measurements (Holtain, Crymych, UK) at 3 sites [ 21 ]. All participants performed an incremental exercise test to exhaustion either on a treadmill (ET and CG, ELG70, Woodway USA Inc., Waukesha, WI, USA) or on a cycle ergometer (ST, Excalibur Sport, Lode BV Medical Technology, Groningen, The Netherlands) to assess cardiorespiratory performance. Treadmill spiroergometry started with a 1-min warm-up at 4 km∙h −1 . Then, running velocity (start at 6 km∙h −1 , incline 1.5%) was increased by 2 km∙h −1  every 3 min until volitional exhaustion, followed by 5 min of recovery at 4 km∙h −1  and 5 min of passive rest. Cycling spiroergometry started at 50 W. The load was increased by 50 W every 3 min until volitional exhaustion, followed by 5 min of recovery with 50 W and 5 min of passive rest. Exhaustion was considered if at least two of the following criteria were met: high levels of blood lactate concentration (BLa; 8–10 mmol∙L −1 ); a plateau in oxygen uptake (VO 2 ) despite increasing work rate; a respiratory exchange ratio (RER) above 1.1.
+L22: During each test, oxygen uptake (VO 2 ), carbon dioxide release (VCO 2 ), and ventilation (VE) were recorded with a breath-by-breath spirometry system (Geratherm Respiratory GmbH, Bad Kissingen, Germany) and the corresponding software Blue Cherry (version 1.3.0.5, Geratherm Respiratory GmbH, Bad Kissingen, Germany) using an individual adjusted face mask. Before each test, both sensors were calibrated with known gas concentrations and the flowmeter with a 3L-syringe according to the manufacturer’s instructions. Heart rate (HR) was recorded continuously with a 12-lead ECG using the Amedtec ECGpro Software (version 4.21.0, AMEDTEC Medizintechnik Aue GmbH, Aue, Germany) and self-adhesive electrodes in all three groups. Maximum oxygen uptake (VO 2max ) and RER max  were detected as the highest 30 s average values at the time of volitional exhaustion. If participants did not finish the entire increment, their maximal running velocity or cycling performance was linearly interpolated.
+L23: 2.4. Standardization
+L24: Participants were asked to refrain from any drugs (e.g., nicotine, alcohol, medication, caffeine) and soft drinks or special teas (green or black tea) 48 h before each laboratory visit. Nutritional supplementation (e.g., creatine, beetroot) was not allowed 48 h before each visit. All participants were asked to avoid intense physical activity and training 24 h before each visit. Participants were asked to not change their style of living (including mode of transportation) during the study.
+L25: The basal metabolome was measured at the end of three characteristic training phases (for details see  Tables S1 and S2 ): preparation (high volume and low intensity training), competition (regular competitions as well as low-volume, high-intensity training), and regeneration (no training at all or low-volume, low-intensity, unspecific training). All basal measurements were used for further analysis and declared together as the resting metabolic profile, independent of training phases. The results of the resting metabolic profile were part of a larger study where standardized endurance and strength tests were performed to investigate exercise-induced metabolic profile differences. The subjects of CG performed both the endurance and strength tests on different occasions. Therefore, their basal metabolome was determined twice.
+L26: Due to the testing procedure and duration of the exercise tests and because of testing athletes in their competitive phase, it was not possible to test them in a fasted state. Therefore, all participants received nutrition counselling at the beginning of the study and a nutrition plan for a standardized dinner in the evening before each visit. They were served a standardized breakfast in the morning of each visit. All participants had to choose between three different meals in the evenings and in the mornings and stay with the same self-selected meal and size as well as the same mealtime during the study. Each meal consisted of an equal nutrient distribution (55–60% carbohydrates, 25–30% proteins, 13–17% fat). Water was consumed ad libitum. Compliance with the diet was confirmed with food diaries the day before the trials and a food photography method for lunch between 6 and 8 p.m. the evening before the trials [ 22 ]. Breakfast time was between 7 and 10 a.m. according to the participants’ schedule and consumed in a maximum of 20 min. To prevent possible bias related to circadian rhythms, all laboratory visits were performed at the same time of the day and sequence throughout the study [ 23 ].
+L27: 2.5. Sample Handling
+L28: Venous blood samples (single 4.9 mL tube, EDTA, S-monovette, Sarstedt, Nümbrecht, Germany) were taken from the forearm vein of all participants in a seated position 60 min postprandial. After collection, the tube was immediately stored in crushed ice (4 °C) for no longer than two hours. Tubes were then centrifuged at 4000×  g  at 4 °C for 10 min. After separation, supernatant plasma was instantly aliquoted, snap frozen in liquid nitrogen, and stored at −80 °C until analysis.
+L29: 2.6. Targeted Metabolomics Analysis
+L30: The Biocrates MxP ®  Quant 500 kit (Biocrates Life Sciences AG, Innsbruck, Austria) can be used for analysis of up to 630 metabolites from 26 compound classes of widely different structures and polarities. Compound classes include lipids like acylcarnitines (Cx:y), hydroxylacylcarnitines [C(OH)x:y] and dicarboxylacylcarnitines (Cx:y-DC), lysophopatidylcholines, phosphatidylcholines, sphingomyelins (SMx:y) and sphingomyelin derivatives [SM(OH)x:y], ceramides and derivatives (cer-, hexcer-, hex2cer- and hex3cer-), cholesteryl esters, and diglycerides and triglycerides (the first fatty acid is counted individually, in the case of three fatty acids, the last two fatty acids are summed), which are all measured by FIA-MS/MS, as well as amino acids, amino acid-related compounds, bile acids, biogenic acids, biogenic amines, the sum of hexoses (H1), p-cresol sulfate, carboxylic acids, fatty acids, hormones and related metabolites (abscisic acid, cortisol, cortisone, dehydroepiandrosterone sulfate; DHEAS), indoles and derivatives (indole, 3-indoleacetic acid, 3-indolepropionic acid, indoxyl sulfate), xanthine and hypoxanthine, choline, trigonelline, and trimethylamine N-oxide (TMAO), which are determined by UPLC-MS/MS.
+L31: In brief, 10 µL of human plasma were pipetted on a 96 well-plate containing internal standards and dried under a nitrogen stream using a positive pressure manifold (Waters). A total of 50 µL of a 5% phenyl isothiocyanate (PITC) solution was added to each well to derivatize amino acids and biogenic amines. After 1 h incubation at room temperature, the plate was dried again. To extract the metabolites, 300 µL 5 mM ammonium acetate in methanol was pipetted to each filter and incubated for 30 min. The extract was eluted into a new 96-well plate using positive pressure. For further LC-MS/MS analyses, 150 µL of the extract was diluted with an equal volume of water. For FIA-MS/MS analyses, 10 µL extract was diluted with 490 µL of FIA solvent (provided by Biocrates). After dilution, LC-MS/MS and FIA-MS/MS measurements were performed. For chromatographical separation, an UPLC I-class PLUS (Waters) system was used coupled to a SCIEX QTRAP 6500+ mass spectrometry system in electrospray ionization (ESI) mode. Data was generated using the Analyst (Sciex) software suite and transferred to the MetIDQ software (Biocrates Life Sciences AG), which was used for further data processing and analysis. All metabolites were identified using isotopically labeled internal standards and multiple reaction monitoring (MRM) using optimized MS conditions as provided by Biocrates. For quantification, either a seven-point calibration curve or one-point calibration was used depending on the metabolite class. Sample orders were randomized to ensure that the results obtained are not influenced by the order of analysis.
+L32: 2.7. Statistical Analysis
+L33: All data preprocessing and analysis steps were performed using R (version 4.0.3, R Core Team, Vienna, Austria) [ 24 ]. Where appropriate, the web-based tool MetaboAnalyst 4.0 ( https://www.metaboanalyst.ca ) [ 25 ] was used. We used a multiple step procedure to ensure data quality. First, metabolites with more than 20% missing values (i.e., values lower than level of detection, <LOD) were removed from the data set [ 26 ]. Second, missing values were imputed using the k-nearest (k = 3) neighbor method [ 27 , 28 ]. In a third step, potential outliers were visually detected via principal component analysis (PCA). Samples far outside the 95% confidence interval were regarded as strong outliers. The final data matrix (367 metabolites and 34 samples) was used for further analysis in regard to group (ST, ET, CG) and training phase (PP, CP, RP). The control group was matched to both groups of athletes (matched to ET, CG-E; matched to ST, CG-S) separately and visited the laboratory twice at each training phase. When necessary, both control conditions were merged into a single control group (CG).
+L34: Before analysis, all data were tested for normality of distribution using the Shapiro-Wilk procedure. Comparison of subject characteristics was performed using repeated measures analysis of variance (ANOVA). Features were log-transformed and analyzed by ANOVA with group (ST, ET, CG) and training phase (PP, CP, RP) in repeated measures design on training phase. We controlled for the effects of breakfast. Significant main effects were followed by pairwise comparisons with Bonferroni correction. For all statistical tests, the level of significance was set at 0.05. Data are presented as mean ± standard deviation (SD). Volcano plots with log 2  fold-changes cut-off values (log 2 FC ≤ −1 & log 2 FC ≥ 1) were used to provide an overview of decreased and increased metabolite concentrations. To maximize the variance in the metabolic profiles between groups, training phase multivariate analysis was performed using MetaboAnalyst 4.0 ( https://www.metaboanalyst.ca ) [ 25 ]. Furthermore, multivariate analysis was used as single metabolites could be active in multiple pathways. Multivariate analysis was performed on log-transformed and auto-scaled data to correct for heteroscedasticity, to reduce skewness of the data, and to reduce mask effects [ 29 ]. Metabolites responsible for differences were identified using partial least squares discriminant analysis (PLS-DA) and variable importance in the projection (VIP) [ 30 , 31 ]. We used this to identify potential different metabolites between the groups and time points and to rank the metabolites according to their importance. VIP > 1.5 was considered sufficient for discrimination [ 32 ]. The quality of the PLS-DA model was estimated with a 10-fold cross validation method by goodness of fit (R 2 ) and ability of prediction (Q 2 cum). The significance of class discrimination was assessed by permutation tests with 100 random permutation cycles due to the small sample size [ 33 ].
+L35: Uni- and multivariate statistical analysis were used to strengthen the results. Venn diagrams were used for simultaneous comparison of uni- and multivariate results where appropriate. Features were regarded as robust if univariate analysis revealed them as significant ( p  ≤ 0.05) with concomitant VIP ≥ 1.5 in multivariate analysis.
+L36: 3. Results
+L37: 3.1. Resting Metabolic Profile
+L38: PLS-DA revealed overlapping clusters of both tests in CG and a moderate visual discrimination between all groups ( Figure 2 a), especially when both control group conditions (endurance matched in CG, CG-E; strength matched in CG, CG-S) were merged into one single control group ( Figure 2 b,d). The corresponding model supports a robust discrimination with low predictive ability but statistical significance of model performance (R 2  = 0.73, Q 2  = 0.21,  p  < 0.001). PLS-DA showed a robust discrimination with moderate predictive ability between CG and ET (R 2  = 0.91, Q 2  = 0.28,  p  > 0.05) and CG and ST (R 2  = 0.95, Q 2  = 0.43,  p  > 0.05), as well as between ST and ET (R 2  = 0.94, Q 2  = 0.52,  p  > 0.05), but failed for statistical significance of model performance ( Figure 3 a–c). Univariate analysis with concomitant fold-change analysis of the baseline samples revealed significant differences in the resting metabolome of the three groups in several metabolites of five different compound classes: amino acids and amino acid-related metabolites, alkaloids, indole derivatives, and triglycerides ( Figure 2 c,d). In the univariate comparison of the resting metabolic profile in CG vs. ET, six metabolites were less abundant in ET: glutamate (Glu, FC = −1.0,  p  < 0.001) as well as the five triglycerides TG(22:6_34:1) [FC = −1.3,  p  < 0.001], TG(22:6_34:2) [FC = −1.4,  p  < 0.001], TG(18:1_38:6) [FC = −1.0,  p  < 0.001], TG(22:6_32:1) [FC = −1.2,  p  < 0.001], and TG(18:1_36:6) [FC = −1.0,  p  < 0.001], whereas the concentration of trigonelline (FC = 1.2,  p  < 0.001) was increased in ET. In the direct comparison of the resting metabolic profile in CG vs. ST, only the concentration of one metabolite was lower in ST: tryptophan betaine (TrpBetaine, FC = −1.0,  p  < 0.01). In the direct comparison of the resting metabolic profile in ST vs. ET, the concentration of three metabolites were increased in ET: 3-indolepropionic acid (3-IPA, FC = 1.2,  p  < 0.001), tryptophan betaine (FC = 1.3,  p  < 0.001), and trigonelline (FC = 1.0,  p  < 0.001). Eight metabolites were less abundant in ET: glutamate (Glu, FC = −1.0,  p  < 0.0001) as well as the seven triglycerides, TG(22:6_34:1) [FC = −1.4,  p  < 0.001], TG(22:6_34:2) [FC = −1.4,  p  < 0.001], TG(16:0_34:1) [FC = −1.1,  p  < 0.001], TG(16:0_38:6) [FC = −1.1,  p  < 0.001], TG(22:6_32:1) [FC = −1.2,  p  < 0.001], TG(20:4_32:0) [FC = −1.0,  p  < 0.001], and TG(20:5_36:3) [FC = −1.1,  p  < 0.001].
+L39: Detailed data is summarized in  Table S3 . The Venn diagram revealed 20 metabolites of eight different compound classes as robust (VIP > 1.5,  p  < 0.05) for group separation ( Figure 2 e): the two acylcarnitines carnitine (C0, VIP = 1.7,  p  < 0.001) and acetylcarnitine (C2, VIP = 1.6,  p  < 0.001), the amino acids and amino acid-related metabolites glutamine (Gln, VIP = 1.9,  p  < 0.05), arginine (Arg, VIP = 2.1,  p  < 0.001), cysteine (Cys, VIP = 1.8,  p  < 0.01), cystine (VIP = 2.7,  p  < 0.001), the biogenic amine γ-aminobutyrate (GABA, VIP = 1.7,  p  < 0.001), and lipid-related metabolites such as glycerophospholipids and sphingolipids, as well as di- and triglycerides: TG(16:0_40:7) [VIP = 1.9,  p  < 0.01], TG(20:1_34:1) [VIP = 1.8,  p  < 0.01], DG(18:1_18:1) [VIP = 2.1,  p  < 0.05], TG(18:2_35:3) [VIP = 2.3,  p  < 0.05], TG(18:2_30:0) [VIP = 2.8,  p  < 0.05], TG(18:2_38:4) [VIP = 1.5,  p  < 0.05], TG(18:2_38:5) [VIP = 1.8,  p  < 0.05], TG(18:3_36:2) [VIP = 1.6,  p  < 0.05], TG(18:2_34:1) [VIP = 1.5,  p  < 0.05], TG(18:2_32:0) [VIP = 2.0,  p  < 0.05], TG(22:4_34:2) [VIP = 2.1,  p  < 0.05], SM C16:1 [VIP = 1.9,  p  < 0.05], PC aa C32:0 [VIP = 1.7,  p  < 0.05].
+L40: 3.2. Changes in the Metabolic Profile over One Year of Training
+L41: PLS-DA revealed no valid models for the basal metabolic profile over one year of training. All models were highly overfitted (Q 2  < 0) and failed for statistical significance; therefore, no score plots were reported ( Figure 4 ).
+L42: Univariate analysis revealed significant effects in basal concentration of four metabolites of three different compound classes over one year of training: acylcarnitines, amino acid-related metabolites, as well as triglycerides ( Figure 4 ). In ST, basal concentration of carnitine (C0) was significantly increased in the competition phase compared to the regeneration [FC = 1.0,  p  < 0.001] and preparation phases [FC = 0.7,  p  < 0.001]. Furthermore 3-methylhistidine (3-Met-His) was significantly higher in preparation compared to the competition phase (FC = 1.0,  p  < 0.001). In CG-S, TG(18:2_36:4) [FC = 1.6,  p  < 0.001] as well as TG(18:0_36:4) [FC = 1.6,  p  < 0.001] were significantly higher in the second visit compared to the first visit ( Figure 4 ). Detailed data is summarized in  Table S4 .
+L43: 4. Discussion
+L44: The present study was designed to investigate characteristic metabolic adaptations to extreme forms of perennial endurance or strength training in whole body metabolism measured via blood metabolites [ 10 , 11 , 12 , 13 ]. To our best knowledge, for the first time, resting plasma metabolome was studied in strength-trained or endurance-trained athletes during one year in periods of preparing for competition, competing, or regenerating and compared with the findings in sedentary subjects. In summary, we observed a robust discrimination between the basal metabolome of the endurance- und strength-trained athletes as well as between these athletes and sedentary subjects, with mainly 20 metabolites from divergent compound classes. The most robust metabolites were free carnitine (C0) and acetylcarnitine (C2), different tri- (TGs) and diacylglycerols (DGs), phosphatidylcholines (PCs) and sphingolipids (SMs), the amino acids glutamate (Glu), arginine (Arg), cysteine (Cys), and cystine, as well as the biogenic amine γ-aminobutyrate (GABA). Our findings differed from the results reported by Schranner et al. [ 10 ], to our best knowledge the only other study on the effects of long-lasting endurance and strength training on the basal metabolome. However, the strength training performed by the body builders and sprinters investigated by Schranner et al. [ 10 ] certainly is a lot different from the strength training of the weight-lifters of the present study.
+L45: With regard to the individual training phases, our analysis revealed two potential metabolites, free carnitine (C0) as well as 3-methylhistidine (3-Met-His), as training phase biomarkers for strength-trained athletes, while there was no endurance-specific set for endurance-trained athletes in resting condition.
+L46: All the observed differences between the differently trained athletes as well as between these athletes and the subjects of the control groups of the present study reflect systematic changes in the mitochondrial energy metabolism, e.g., glucose and fat metabolism, concomitant changes in amino acid metabolism, and cell signaling induced by specific, high volume and high intensity over several years.
+L47: 4.1. Resting Metabolic Profile
+L48: We observed lower resting concentrations in free carnitine (C0) and acetylated carnitine or acetylcarnitine (C2) in both groups of athletes compared to the sedentary subjects ( Figure 2 e and  Figure 3 d) with no different acylcarnitine to carnitine ratio between the groups. Compared to previous studies, the resting plasma concentrations of these metabolites were in the same range for all groups [ 10 , 34 , 35 ]. Acylcarnitines (Cx:y) are substrates produced for energy utilization (fat oxidation), as they are an activated form of fatty acid substrate which can be converted into acyl coenzyme A (CoA) without investing ATP [ 17 , 35 , 36 ]. Elevated resting levels of free carnitine (C0) and acetylcarnitine (C2) might indicate an increased availability of fatty acids in venous blood of the control subjects. It can be assumed that the lower plasma levels of free carnitine (C0) and acetylcarnitine (C2) in athletes are associated with an increased concentration of these carnitines in skeletal muscle where they are needed for the transport of long chain fatty acids from the cytosol into the mitochondria through the inner mitochondrial membrane [ 37 ]. Consecutively, this finding might suggest that also in strength-trained athletes, oxidative fat metabolism is of importance, probably during recovery from intense training sessions. In another study, changes in the mitochondrial transmembrane enzyme CPT1, which optimizes fatty acid transport from cytosol into the mitochondria, were reported [ 10 ]. If this is also the case for strength-trained athletes remains to be elucidated. In the study of Al-Khelaifi et al. [ 12 ], high endurance capacity was associated with reduced levels of two long-chain acylcarnitines (C18, C20:2) and, in accordance to the findings of the present investigation, increased short-chain acetylcarnitine (C2) levels. However, they did not investigate the basal metabolome in controlled conditions [ 12 ]. Schranner et al. [ 10 ] also observed higher concentrations of free carnitine (C0) and acetylcarnitine (C2) in controls compared to the group of athletes. In contrast to our findings, they additionally reported differences in medium- and long-chain acylcarnitines in rest. Due to strict quality requirements for the measured metabolites, medium- and long-chain fatty acids were declared as not valid for further analysis. In addition to the role of free carnitine (C0) in lipid metabolism described above, free carnitine (C0) is also capable of reducing post-exercise lactate (Lac) and prevent cellular damage [ 12 , 38 ]. It can thus be hypothesized that not only fatty acid oxidation and overall energy generation in rest, but also resting glucose metabolism of highly trained individuals, might be altered.
+L49: In the present study, lactate (Lac) was strongly associated with group separation in multivariate analysis, with 1.3-fold higher values in the control subject compared to the group of athletes ( Figure 2 d,  Table S3 ). However, lactate (Lac) was not observed as a robust metabolite after combining uni- and multivariate analysis ( Figure 2 e). Furthermore, the resting lactate (Lac) concentrations were all in the physiological ranges of 0.3–3.0 mM in blood for healthy individuals [ 39 , 40 ]. There is a steady lactate (Lac) homeostasis in a healthy environment with a transport between muscles, brain, heart, and gut. The reduction of pyruvate leads to the formation of lactate (Lac) under anaerobic and aerobic conditions [ 41 ]. There seems to be a variability in resting blood lactate (Lac) concentration which is related to overall metabolic capacity and risk for subsequent metabolic diseases due to a suppression of oxidative energy production capacity and a glycolysis-dependent ATP production [ 42 , 43 ]. The differences between control subjects and both groups of athletes can be explained by the regular activation of the lactate metabolism during training and competition in endurance- as well as in strength-trained athletes. Additionally, lactate was not found to be a discriminating metabolite between the groups of athletes and between the athletes and controls in the studies of Al-Khelaifi et al. and Schranner et al. [ 10 , 12 ].
+L50: In the present study, triacylglycerols (TGs) and diacylglycerols (DGs) were involved in the discrimination between the groups, with the lowest total triacylglycerols (TGs) and diacylglycerols (DGs) concentration in endurance-trained athletes ( Figure 2 c,d,  Figure 3  and  Figure 4 ,  Table S3 ). The triacylglycerols (TGs) and diacylglycerols (DGs), which were less abundant in ET compared with CG and ST, mainly contained polyunsaturated fatty acids as linoleic acid (C18:2), arachidonic acid (C20:4), adrenic acid (C22:4), and docosahexaenoic acid (C22:6) ( Figure 2 c,d and  Figure 3 ), but also the saturated palmitic acid (C16:0). The largest energy source in human metabolism is triacylglycerol stored within the skeletal muscle as an intramuscular substrate pool, readily built up or mobilized upon cellular energy needs [ 44 ]. In the study of Al-Khelaifi et al. [ 12 ], downregulation of diacylglycerols (DGs) containing linoleic acid (C18:2) and palmitic acid was associated with high endurance, whereas Schranner et al. [ 10 ] did not report differences in triacylglycerols (TGs) and diacylglycerols (DGs) concentrations. However, the findings in our group of endurance athletes suggest that long-lasting endurance training leads to changes in the resting energy metabolism by enhanced hydrolysis of triacylglycerols (TGs) and diacylglycerols (DGs) with an increased ability to oxidize fatty acids and activate lipolysis.
+L51: There is an ongoing discussion that particularly triacylglycerols (TGs) and diacylglycerols (DGs) as well as sphingolipids (SM) are involved in signal transduction and promote insulin resistance in skeletal muscle [ 45 , 46 ]. Therefore, lower concentrations of several triacylglycerols (TGs) and diacylglycerols (DGs) as well as of the sphingomyelin (SM C16:1) in highly endurance-trained athletes is in accordance with increased insulin sensitivity in this group. Besides the either higher consumption or lower accumulation of sphingomyelin (SM C16:1) in both groups of athletes compared with the CG, the upregulation of phosphatidylcholines (PC aa C32:0) in both groups of athletes indicates differences in metabolic, neurological, and intracellular signaling processes in the endurance- and strength-trained athletes compared with sedentary subjects [ 47 ]. Sphingolipids (SM) and phosphatidylcholines (PCs) play an essential role in cell membranes and modulating cell functions, e.g., apoptosis, proliferation and differentiation, and inflammation, as well as lipid and glucose homeostasis [ 48 , 49 ]. Thus, the results of our study point to an increased membrane turnover and changes in glucose signaling in the group of athletes compared to the controls. The sum of all significant phosphatidylcholines (PCs) in a resting condition was 2.7-fold higher in athletes compared to non-athletes ( Table S3 ). Different regulation of some phosphatidylcholines (PC ae C38:0, PC ae C36:5, PC ae C36:4, PC ae C38:6, PC ae C38:5, PC aa C36:6) in diverse groups of athletes and control subjects was also observed by Schranner et al. [ 10 ]. Higher serum concentrations of phosphatidylcholines (PCs) are associated with higher VO 2 max values, making PCs a potential biomarker for aerobic fitness effects and cardiovascular disease risk [ 50 , 51 ].
+L52: The amino acids cysteine (Cys), cystine, arginine (Arg), and glutamate (Glu) were under the top important metabolites for group discrimination ( Figure 2 d,e). We observed lower resting concentrations in the glucogenic amino acids glutamate (Glu) and arginine (Arg), as well as in the amino acids cysteine (Cys) and cystine, in ET compared with CG and ST ( Figure 3 d,  Table S3 ). At rest, amino acids are used for gluconeogenesis and restoration of proteins and protein balance, as well as acid-based regulation [ 52 ]. Strength-trained athletes may have higher resting concentrations of amino acids due to changes in protein synthesis or turnover [ 10 ]. Decreased resting amino acid concentrations are associated with increased fitness levels, measured via VO 2 max, and increased fat oxidation rate during exercise [ 53 ]. Glutamate (Glu) is primarily found intracellularly and has limited ability to leave the cell, whereas glutamine (Gln) concentration is the highest extracellularly [ 54 ]. In the present study, the basal glutamate (Glu) concentration in endurance athletes was significantly decreased while the glutamine (Gln) concentration was similar in all the three groups. The glutamine-glutamate ratio is associated with better training condition and was higher in the endurance athletes than in the other two groups (data not shown) [ 55 ]. In addition, the group differences in glutamate (Glu) concentration may indicate a positive adaptive response in the glutamate-glutamine cycle of endurance-trained athletes probably due to greater utilization of glutamate (Glu) in muscle than to decreased production of glutamate (Glu). Glutamate (Glu) is an important source of α-ketoglutarate, an intermediate of the citrate cycle and thus essential for mitochondrial energy metabolism and high ATP synthesis, but is also associated as an important metabolite for alanine metabolism [ 56 ]. Additionally, removal of glutamate (Glu) is increased by the conversion of the inhibitory neurotransmitter γ-aminobutyrate (GABA) via glutamate decarboxylase [ 57 ]. GABA was highly important for resting group separation with the lowest concentration in controls compared to both groups of athletes ( Figure 2 e,  Table S3 ). Elevated concentrations of γ-aminobutyrate (GABA) derivatives were reported by Al-Khelaifi et al. [ 12 ] and interpreted as a metabolic adaptation that might promote muscle growth. It might be speculated that γ-aminobutyrate (GABA) could be a marker for muscle growth in the resting condition during the preparatory training phase.
+L53: Univariate analysis detected tryptophan betaine (TrpBetaine) as well as 3-indoleproprionic acid (3-IPA) as significant metabolites ( Figure 2 c), whereas the combination with multivariate analysis considered them rather minor. For this reason, these two metabolites were not further discussed.
+L54: 4.2. Changes of the Metabolic Profile over One Year of Training
+L55: We did not detect any differences in the basal metabolome of the endurance-trained athletes between the three training phases ( Figure 4 ,  Table S4 ).
+L56: In strength-trained athletes, free carnitine (C0) concentrations were increased during the phases of preparation and competition compared with the phase of regeneration. As already discussed above, these changes in free carnitine (C0) might point to changes in cellular damage (probably an increase in cellular damage) and in lactate metabolism during the phases characterized by strenuous exercise. The concentration of amino acid 3-methylhistidine (3-Met-His) was increased during the preparatory phase compared with the phase of competition ( Figure 4 ,  Table S4 ). 3-methylhistidine (3-Met-His) is an essential component of the myofibrillar proteins acting in slow and fast-twitch muscle fibers and of heavy as well as light myosin chains of fast-twitch fibers. It is mainly present in skeletal muscle (91%) and to a lower degree in gastrointestinal tissues and skin, including connective tissues. Degradation of myofibrils ultimately leads to the release of 3-methylhistidine (3-Met-His), which could be quantitively measured in the urine and plasma [ 58 , 59 ]. Therefore, 3-methylhistidine (3-Met-His) is regarded as a biomarker for nucleotide breakdown and tissue homeostasis [ 60 , 61 ]. Apparently, the high-volume and low-intensity specific resistance training sessions during the preparatory period of strength-trained athletes might lead to high myofibrillar damage and z-disk disruption [ 62 ]. Changes in the level of 3-methylhistidine (3-Met-His) may suggest exercise-and training phase-specific changes in the rate of protein catabolism. In addition, one previous study revealed 3-methylhistidine (3-Met-His) as a fatigue marker [ 63 ].
+L57: 4.3. Limitations
+L58: Standardization of training and testing sessions is a challenge in real-life studies, and it certainly is a reason for the few studies in the field of high-performance sports and for low subject numbers. However, low subject numbers could be the reason for missing significant differences between the three groups of our study. Therefore, validation studies with a larger number of participants would be valuable. Another source of weakness was the non-fasted state of the subjects. In an attempt to compensate for the non-fasted state, the subjects could choose one of three pre-meals with the same relative energy and macronutrients distribution as mentioned above. Chronic dietary and supplementation routines certainly had some influence on the basal metabolome. We found a high concentration of trigonelline only in some endurance athletes. Trigonelline is considered a dietary metabolite for coffee consumption without any biotransformation [ 64 ]. Day-to-day variability in metabolomics studies is minimal, but there are meal and collection time effects to be considered [ 23 , 65 ]. Future studies should be designed to avoid habitual caffeine consumption and dietary supplements for an even longer period of time before the measurements to reduce metabolome variability. Whether our results are transferable to female athletes remains to be elucidated.
+L59: 5. Conclusions
+L60: In conclusion, we detected significant differences in the resting plasma metabolome between the endurance- and strength-trained athletes, as well as between the controls and both groups of athletes. Regular endurance or strength training seem to induce extreme changes in the concentration of several metabolites of athletes at rest. All differences between the basal metabolome of endurance- and strength-trained athletes and between these athletes and sedentary subjects were associated with the development of characteristic athletic phenotypes with concomitant systematic changes in mitochondrial energy metabolism, amino acid metabolism, and fatty acid oxidation, as well as cellular signaling. Furthermore, we found some strongly affected strength-specific metabolites between the training phases that were worth mentioning. 3-methylhistidine (3-Met-His) and free carnitine (C0) appeared as potential markers for protein catabolism and cellular damage in strength-trained athletes in certain training phases.
+L61: Figure 1 Schematic overview of the study design. ( a ) Chronically strength-trained (weightlifters, ST, 12 males) and endurance-trained athletes (runners, ET, 10 males) as well as healthy sedentary subjects (control group, CG, 12 males) were recruited. ( b ) Dietary control 24 h pre-laboratory visits. Subjects had to refrain from drugs, alcohol, nicotine, caffeine, and supplements 48 h before each visit. They had to avoid intense physical activity or training 24 h before each visit. All participants consumed a standardized dinner the day before each visit and a standardized breakfast on each visit. All participants performed three laboratory visits within one training year each during the periods of regeneration, preparation, and competition. Venous blood samples were taken from the forearm vein 60 min postprandial. ( c ) Sample treatment and analysis were performed by UPLC-MS/MS and MetIDQ Software according to Biocrates MxP Quant 500 kit workflow. Data treatment and statistical analysis were performed in the software R (version 4.0.3, R Core Team, Vienna, Austria) and MetaboAnalyst 4.0 ( https://www.metaboanalyst.ca ). The figure was created with  BioRender.com .
+L62: Figure 2 Univariate and multivariate analysis of resting metabolic profile of strength-trained (ST) and endurance-trained (ET) athletes and the control group (CG). ( a ) Score plot of partial least square discriminant analysis (PLS-DA) with two separated CG matched to both groups of athletes (control group matched to strength-trained athletes, CGS; control group matched to endurance-trained athletes, CGE). ( b ) and ( d ) PLS-DA with corresponding variable importance in projection (VIP) scores plot of the top 25 metabolites, where two control conditions were (CGS, CGE) merged to one CG. ( c ) Volcano plot depicting metabolomic diversity between the groups. Each point represents a metabolite. Dark blue and dark red indicate significantly (above dotted horizontal line) decreased or increased (fold change, FC ≥ 1.0, right and left side of dotted vertical lines) metabolites, grey indicates nondifferential metabolites. ( e ) Venn diagram for simultaneous comparison of uni- and multivariate analysis, showing 20 robust metabolites (see also  Figure 2 ). Detailed data and metabolite abbreviations are summarized in  Table S3 .
+L63: Figure 3 Multivariate and univariate analysis of resting metabolites of strength-trained (ST), endurance-trained (ET), and the corresponding control group (CG). ( a ) Score plot of partial least square discriminant analysis (PLS-DA) between CG and ET. ( b ) Score plot of PLS-DA between CG and ST. ( c ) Score plot of PLS-DA between ET and ST. ( d ) Boxplots (5–95% CI, median as black line) of the 20 robust metabolites representing the resting metabolite concentrations in each group (see also  Figure 2 e). Detailed data and metabolite abbreviations are summarized in  Table S3 .
+L64: Figure 4 Analysis of the resting metabolic profile of endurance-trained (ET) and strength-trained (ST) athletes, as well as the control group matched to the endurance or strength group (CGE, CGS) over one year of training (CP, competition phase; PP, preparatory phase; RP, regeneration phase; 0, first visit; 1, second visit; 2, third visit). Volcano plot depicting metabolomic diversity in each group and training phase. Each point represents a metabolite. Dark blue and dark red indicate significantly (above dotted horizontal line) increased or decreased (fold change, FC ≥ 1.0, right and left side of dotted vertical lines) metabolites between training phases, and grey indicates nondifferential metabolites. Detailed data and metabolite abbreviations are summarized in  Table S4 .
+L65: Click here for additional data file.
+L66: 1. Hughes D.C. 
+L67:  Ellefsen S. 
+L68:  Baar K. 
+L69:  Adaptations to Endurance and Strength Training Cold Spring Harb. Perspect. Med. 2018 8 a029769 10.1101/cshperspect.a029769 28490537
+L70: 2. Egan B. 
+L71:  Zierath J.R. 
+L72:  Exercise metabolism and the molecular regulation of skeletal muscle adaptation Cell Metab. 2013 17 162 184 10.1016/j.cmet.2012.12.012 23395166
+L73: 3. Mitchell J.H. 
+L74:  Haskell W. 
+L75:  Snell P. 
+L76:  van Camp S.P. 
+L77:  Task Force 8: Classification of sports J. Am. Coll. Cardiol. 2005 45 1364 1367 10.1016/j.jacc.2005.02.015 15837288
+L78: 4. Amann M. 
+L79:  Calbet J.A.L. 
+L80:  Convective oxygen transport and fatigue J. Appl. Physiol. 2008 104 861 870 10.1152/japplphysiol.01008.2007 17962570
+L81: 5. Leblanc P.J. 
+L82:  Howarth K.R. 
+L83:  Gibala M.J. 
+L84:  Heigenhauser G.J.F. 
+L85:  Effects of 7 wk of endurance training on human skeletal muscle metabolism during submaximal exercise J. Appl. Physiol. Respir. Environ. Exerc. Physiol. 2004 97 2148 2153 10.1152/japplphysiol.00517.2004 15220302
+L86: 6. Chesley A. 
+L87:  Heigenhauser G.J. 
+L88:  Spriet L.L. 
+L89:  Regulation of muscle glycogen phosphorylase activity following short-term endurance training Am. J. Physiol. 1996 270 E328 E335 10.1152/ajpendo.1996.270.2.E328 8779956
+L90: 7. Holloszy J.O. 
+L91:  Coyle E.F. 
+L92:  Adaptations of skeletal muscle to endurance exercise and their metabolic consequences J. Appl. Physiol. Respir. Environ. Exerc. Physiol. 1984 56 831 838 10.1152/jappl.1984.56.4.831 6373687
+L93: 8. Hargreaves M. 
+L94:  Spriet L.L. 
+L95:  Skeletal muscle energy metabolism during exercise Nat. Metab. 2020 2 817 828 10.1038/s42255-020-0251-4 32747792
+L96: 9. Seynnes O.R. 
+L97:  de Boer M. 
+L98:  Narici M.V. 
+L99:  Early skeletal muscle hypertrophy and architectural changes in response to high-intensity resistance training J. Appl. Physiol. Respir. Environ. Exerc. Physiol. 2007 102 368 373 10.1152/japplphysiol.00789.2006
+L100: 10. Schranner D. 
+L101:  Schönfelder M. 
+L102:  Römisch-Margl W. 
+L103:  Scherr J. 
+L104:  Schlegel J. 
+L105:  Zelger O. 
+L106:  Riermeier A. 
+L107:  Kaps S. 
+L108:  Prehn C. 
+L109:  Adamski J. 
+L110:  
+L111:  Physiological extremes of the human blood metabolome: A metabolomics analysis of highly glycolytic, oxidative, and anabolic athletes Physiol. Rep. 2021 9 e14885 10.14814/phy2.14885 34152092
+L112: 11. Sakaguchi C.A. 
+L113:  Nieman D.C. 
+L114:  Signini E.F. 
+L115:  Abreu R.M. 
+L116:  Catai A.M. 
+L117:  Metabolomics-Based Studies Assessing Exercise-Induced Alterations of the Human Metabolome: A Systematic Review Metabolites 2019 9 164 10.3390/metabo9080164 31405020
+L118: 12. Al-Khelaifi F. 
+L119:  Diboun I. 
+L120:  Donati F. 
+L121:  Botrè F. 
+L122:  Alsayrafi M. 
+L123:  Georgakopoulos C. 
+L124:  Suhre K. 
+L125:  Yousri N.A. 
+L126:  Elrayess M.A. 
+L127:  A pilot study comparing the metabolic profiles of elite-level athletes from different sporting disciplines Sport. Med. Open 2018 4 2 10.1186/s40798-017-0114-z 29305667
+L128: 13. Kell D.B. 
+L129:  Mendes P. 
+L130:  Snapshots of systems Technological and Medical Implications of Metabolic Control Analysis Springer Berlin/Heidelberg, Germany 2000 3 25
+L131: 14. Schranner D. 
+L132:  Kastenmüller G. 
+L133:  Schönfelder M. 
+L134:  Römisch-Margl W. 
+L135:  Wackerhage H. 
+L136:  Metabolite Concentration Changes in Humans After a Bout of Exercise: A Systematic Review of Exercise Metabolomics Studies Sports Med. Open 2020 6 273 10.1186/s40798-020-0238-4 32040782
+L137: 15. Nieman D.C. 
+L138:  Gillitt N.D. 
+L139:  Knab A.M. 
+L140:  Shanely R.A. 
+L141:  Pappan K.L. 
+L142:  Jin F. 
+L143:  Lila M.A. 
+L144:  Influence of a polyphenol-enriched protein powder on exercise-induced inflammation and oxidative stress in athletes: A randomized trial using a metabolomics approach PLoS ONE 2013 8 e72215 10.1371/journal.pone.0072215 23967286
+L145: 16. Nieman D.C. 
+L146:  Sha W. 
+L147:  Pappan K.L. 
+L148:  IL-6 Linkage to Exercise-Induced Shifts in Lipid-Related Metabolites: A Metabolomics-Based Analysis J. Proteome Res. 2017 16 970 977 10.1021/acs.jproteome.6b00892 27996272
+L149: 17. Howe C.C.F. 
+L150:  Alshehri A. 
+L151:  Muggeridge D. 
+L152:  Mullen A.B. 
+L153:  Boyd M. 
+L154:  Spendiff O. 
+L155:  Moir H.J. 
+L156:  Watson D.G. 
+L157:  Untargeted Metabolomics Profiling of an 80.5 km Simulated Treadmill Ultramarathon Metabolites 2018 8 14 10.3390/metabo8010014 29438325
+L158: 18. Khoramipour K. 
+L159:  Gaeini A.A. 
+L160:  Shirzad E. 
+L161:  Gilany K. 
+L162:  Chashniam S. 
+L163:  Sandbakk Ø. 
+L164:  Metabolic load comparison between the quarters of a game in elite male basketball players using sport metabolomics Eur. J. Sport. Sci. 2021 21 1022 1034 10.1080/17461391.2020.1805515 32746753
+L165: 19. Khoramipour K. 
+L166:  Gaeini A.A. 
+L167:  Shirzad E. 
+L168:  Gilany K. 
+L169:  Chamari K. 
+L170:  Sandbakk Ø. 
+L171:  Using Metabolomics to Differentiate Player Positions in Elite Male Basketball Games: A Pilot Study Front. Mol. Biosci. 2021 8 639786 10.3389/fmolb.2021.639786 34055874
+L172: 20. Paris A. 
+L173:  Labrador B. 
+L174:  Lejeune F.-X. 
+L175:  Canlet C. 
+L176:  Molina J. 
+L177:  Guinot M. 
+L178:  Mégret A. 
+L179:  Rieu M. 
+L180:  Thalabard J.-C. 
+L181:  Le Bouc Y. 
+L182:  Metabolomic signatures in elite cyclists: Differential characterization of a seeming normal endocrine status regarding three serum hormones Metabolomics 2021 17 67 10.1007/s11306-021-01812-4 34228178
+L183: 21. Lohman T.G. 
+L184:  Skinfolds and body density and their relation to body fatness: A review Hum. Biol. 1981 53 181 225 7239496
+L185: 22. Martin C.K. 
+L186:  Correa J.B. 
+L187:  Han H. 
+L188:  Allen H.R. 
+L189:  Rood J.C. 
+L190:  Champagne C.M. 
+L191:  Gunturk B.K. 
+L192:  Bray G.A. 
+L193:  Validity of the Remote Food Photography Method (RFPM) for estimating energy and nutrient intake in near real-time Obesity 2012 20 891 899 10.1038/oby.2011.344 22134199
+L194: 23. Kim K. 
+L195:  Mall C. 
+L196:  Taylor S.L. 
+L197:  Hitchcock S. 
+L198:  Zhang C. 
+L199:  Wettersten H.I. 
+L200:  Jones A.D. 
+L201:  Chapman A. 
+L202:  Weiss R.H. 
+L203:  Mealtime, Temporal, and Daily Variability of the Human Urinary and Plasma Metabolomes in a Tightly Controlled Environment PLoS ONE 2014 9 e86223 10.1371/journal.pone.0086223 24475090
+L204: 24. R Core Team 
+L205:  R: A Language and Environment for Statistical Computing R Foundation for Statistical Computing Vienna, Austria 2020
+L206: 25. Chong J. 
+L207:  Wishart D.S. 
+L208:  Xia J. 
+L209:  Using MetaboAnalyst 4.0 for Comprehensive and Integrative Metabolomics Data Analysis Curr. Protoc. Bioinform. 2019 68 e86 10.1002/cpbi.86 31756036
+L210: 26. Bijlsma S. 
+L211:  Bobeldijk I. 
+L212:  Verheij E.R. 
+L213:  Ramaker R. 
+L214:  Kochhar S. 
+L215:  Macdonald I.A. 
+L216:  van Ommen B. 
+L217:  Smilde A.K. 
+L218:  Large-scale human metabolomics studies: A strategy for data (pre-) processing and validation Anal. Chem. 2006 78 567 574 10.1021/ac051495j 16408941
+L219: 27. Do K.T. 
+L220:  Wahl S. 
+L221:  Raffler J. 
+L222:  Molnos S. 
+L223:  Laimighofer M. 
+L224:  Adamski J. 
+L225:  Suhre K. 
+L226:  Strauch K. 
+L227:  Peters A. 
+L228:  Gieger C. 
+L229:  
+L230:  Characterization of missing values in untargeted MS-based metabolomics data and evaluation of missing data handling strategies Metabolomics 2018 14 128 10.1007/s11306-018-1420-2 30830398
+L231: 28. Shah J.S. 
+L232:  Rai S.N. 
+L233:  DeFilippis A.P. 
+L234:  Hill B.G. 
+L235:  Bhatnagar A. 
+L236:  Brock G.N. 
+L237:  Distribution based nearest neighbor imputation for truncated high dimensional data with applications to pre-clinical and clinical metabolomics studies BMC Bioinform. 2017 18 114 10.1186/s12859-017-1547-6
+L238: 29. Van den Berg R.A. 
+L239:  Hoefsloot H.C.J. 
+L240:  Westerhuis J.A. 
+L241:  Smilde A.K. 
+L242:  van der Werf M.J. 
+L243:  Centering, scaling, and transformations: Improving the biological information content of metabolomics data BMC Genom. 2006 7 142 10.1186/1471-2164-7-142
+L244: 30. Szymańska E. 
+L245:  Saccenti E. 
+L246:  Smilde A.K. 
+L247:  Westerhuis J.A. 
+L248:  Double-check: Validation of diagnostic statistics for PLS-DA models in metabolomics studies Metabolomics 2012 8 3 16 10.1007/s11306-011-0330-3 22593721
+L249: 31. Gromski P.S. 
+L250:  Muhamadali H. 
+L251:  Ellis D.I. 
+L252:  Xu Y. 
+L253:  Correa E. 
+L254:  Turner M.L. 
+L255:  Goodacre R. 
+L256:  A tutorial review: Metabolomics and partial least squares-discriminant analysis–A marriage of convenience or a shotgun wedding Anal. Chim. Acta 2015 879 10 23 10.1016/j.aca.2015.02.012 26002472
+L257: 32. Weljie A.M. 
+L258:  Bondareva A. 
+L259:  Zang P. 
+L260:  Jirik F.R. 
+L261:  1H NMR metabolomics identification of markers of hypoxia-induced metabolic shifts in a breast cancer model system J. Biomol. NMR 2011 49 185 193 10.1007/s10858-011-9486-4 21373841
+L262: 33. Zhong F. 
+L263:  Liu X. 
+L264:  Zhou Q. 
+L265:  Hao X. 
+L266:  Lu Y. 
+L267:  Guo S. 
+L268:  Wang W. 
+L269:  Lin D. 
+L270:  Chen N. 
+L271:  1H NMR spectroscopy analysis of metabolites in the kidneys provides new insight into pathophysiological mechanisms: Applications for treatment with Cordyceps sinensis Nephrol. Dial. Transplant. 2012 27 556 565 10.1093/ndt/gfr368 21750161
+L272: 34. Opalka J.R. 
+L273:  Gellerich F.-N. 
+L274:  Zierz S. 
+L275:  Age and Sex Dependency of Carnitine Concentration in Human Serum and Skeletal Muscle Clin. Chem. 2001 47 2150 2153 10.1093/clinchem/47.12.2150 11719481
+L276: 35. Longo N. 
+L277:  Frigeni M. 
+L278:  Pasquali M. 
+L279:  Carnitine transport and fatty acid oxidation Biochim. Biophys. Acta 2016 1863 2422 2435 10.1016/j.bbamcr.2016.01.023 26828774
+L280: 36. Ramsay R.R. 
+L281:  Zammit V.A. 
+L282:  Carnitine acyltransferases and their influence on CoA pools in health and disease Mol. Asp. Med. 2004 25 475 493 10.1016/j.mam.2004.06.002 15363637
+L283: 37. Houten S.M. 
+L284:  Wanders R.J.A. 
+L285:  A general introduction to the biochemistry of mitochondrial fatty acid β-oxidation J. Inherit. Metab. Dis. 2010 33 469 477 10.1007/s10545-010-9061-2 20195903
+L286: 38. Karlic H. 
+L287:  Lohninger A. 
+L288:  Supplementation of L-carnitine in athletes: Does it make sense? Nutrition 2004 20 709 715 10.1016/j.nut.2004.04.003 15212755
+L289: 39. Phypers B. 
+L290:  Pierce J.T. 
+L291:  Lactate physiology in health and disease Contin. Educ. Anaesth. Crit. Care Pain 2006 6 128 132 10.1093/bjaceaccp/mkl018
+L292: 40. Pucino V. 
+L293:  Bombardieri M. 
+L294:  Pitzalis C. 
+L295:  Mauro C. 
+L296:  Lactate at the crossroads of metabolism, inflammation, and autoimmunity Eur. J. Immunol. 2017 47 14 21 10.1002/eji.201646477 27883186
+L297: 41. Baltazar F. 
+L298:  Afonso J. 
+L299:  Costa M. 
+L300:  Granja S. 
+L301:  Lactate Beyond a Waste Metabolite: Metabolic Affairs and Signaling in Malignancy Front. Oncol. 2020 10 231 10.3389/fonc.2020.00231 32257942
+L302: 42. Broskey N.T. 
+L303:  Zou K. 
+L304:  Dohm G.L. 
+L305:  Houmard J.A. 
+L306:  Plasma Lactate as a Marker for Metabolic Health Exerc. Sport. Sci. Rev. 2020 48 119 124 10.1249/JES.0000000000000220 32271180
+L307: 43. Kano R. 
+L308:  Sato K. 
+L309:  A Competitive Sprinter’s Resting Blood Lactate Levels Fluctuate with a One-Year Training Cycle: Case Reports J. Funct. Morphol. Kinesiol. 2021 6 95 10.3390/jfmk6040095 34842747
+L310: 44. Roepstorff C. 
+L311:  Vistisen B. 
+L312:  Kiens B. 
+L313:  Intramuscular Triacylglycerol in Energy Metabolism during Exercise in Humans Exerc. Sport. Sci. Rev. 2005 33 182 188 10.1097/00003677-200510000-00006 16239835
+L314: 45. Perreault L. 
+L315:  Newsom S.A. 
+L316:  Strauss A. 
+L317:  Kerege A. 
+L318:  Kahn D.E. 
+L319:  Harrison K.A. 
+L320:  Snell-Bergeon J.K. 
+L321:  Nemkov T. 
+L322:  D’Alessandro A. 
+L323:  Jackman M.R. 
+L324:  
+L325:  Intracellular localization of diacylglycerols and sphingolipids influences insulin sensitivity and mitochondrial function in human skeletal muscle JCI Insight 2018 3 e96805 10.1172/jci.insight.96805 29415895
+L326: 46. Lin Y.-T. 
+L327:  Salihovic S. 
+L328:  Fall T. 
+L329:  Hammar U. 
+L330:  Ingelsson E. 
+L331:  Ärnlöv J. 
+L332:  Lind L. 
+L333:  Sundström J. 
+L334:  Global Plasma Metabolomics to Identify Potential Biomarkers of Blood Pressure Progression Arterioscler. Thromb. Vasc. Biol. 2020 40 e227 e237 10.1161/ATVBAHA.120.314356 32460578
+L335: 47. Castro-Gómez P. 
+L336:  Garcia-Serrano A. 
+L337:  Visioli F. 
+L338:  Fontecha J. 
+L339:  Relevance of dietary glycerophospholipids and sphingolipids to human health Prostaglandins Leukot. Essent. Fat. Acids 2015 101 41 51 10.1016/j.plefa.2015.07.004 26242691
+L340: 48. Tan-Chen S. 
+L341:  Guitton J. 
+L342:  Bourron O. 
+L343:  Le Stunff H. 
+L344:  Hajduch E. 
+L345:  Sphingolipid Metabolism and Signaling in Skeletal Muscle: From Physiology to Physiopathology Front. Endocrinol. 2020 11 491 10.3389/fendo.2020.00491 32849282
+L346: 49. Grebely J. 
+L347:  Dore G.J. 
+L348:  An expanding role for primary care providers in the treatment of hepatitis C virus infection in the community Hepatology 2011 54 2258 2260 10.1002/hep.24649 22139703
+L349: 50. Bye A. 
+L350:  Vettukattil R. 
+L351:  Aspenes S.T. 
+L352:  Giskeødegård G.F. 
+L353:  Gribbestad I.S. 
+L354:  Wisløff U. 
+L355:  Bathen T.F. 
+L356:  Serum Levels of Choline-Containing Compounds Are Associated with Aerobic Fitness Level: The HUNT-Study PLoS ONE 2012 7 e42330 10.1371/journal.pone.0042330 22860113
+L357: 51. Morris C. 
+L358:  O’Grada C.M. 
+L359:  Ryan M.F. 
+L360:  Gibney M.J. 
+L361:  Roche H.M. 
+L362:  Gibney E.R. 
+L363:  Brennan L. 
+L364:  Modulation of the lipidomic profile due to a lipid challenge and fitness level: A postprandial study Lipids Health Dis. 2015 14 65 10.1186/s12944-015-0062-x 26123789
+L365: 52. Rennie M.J. 
+L366:  Tipton K.D. 
+L367:  Protein and amino acid metabolism during and after exercise and the effects of nutrition Annu. Rev. Nutr. 2000 20 457 483 10.1146/annurev.nutr.20.1.457 10940342
+L368: 53. Morris C. 
+L369:  Grada C.O. 
+L370:  Ryan M. 
+L371:  Roche H.M. 
+L372:  de Vito G. 
+L373:  Gibney M.J. 
+L374:  Gibney E.R. 
+L375:  Brennan L. 
+L376:  The relationship between aerobic fitness level and metabolic profiles in healthy adults Mol. Nutr. Food Res. 2013 57 1246 1254 10.1002/mnfr.201200629 23505034
+L377: 54. Newsholme P. 
+L378:  Lima M.M. 
+L379:  Procopio J. 
+L380:  Pithon-Curi T.C. 
+L381:  Doi S.Q. 
+L382:  Bazotte R.B. 
+L383:  Curi R. 
+L384:  Glutamine and glutamate as vital metabolites Braz. J. Med. Biol. Res. 2003 36 153 163 10.1590/S0100-879X2003000200002 12563517
+L385: 55. Smith D.J. 
+L386:  Norris S.R. 
+L387:  Changes in glutamine and glutamate concentrations for tracking training tolerance Med. Sci. Sport. Exerc. 2000 32 684 689 10.1097/00005768-200003000-00020 10731013
+L388: 56. Mourtzakis M. 
+L389:  Graham T.E. 
+L390:  Glutamate ingestion and its effects at rest and during exercise in humans J. Appl. Physiol. 2002 93 1251 1259 10.1152/japplphysiol.00111.2002 12235022
+L391: 57. Cooper A.J.L. 
+L392:  Jeitner T.M. 
+L393:  Central Role of Glutamate Metabolism in the Maintenance of Nitrogen Homeostasis in Normal and Hyperammonemic Brain Biomolecules 2016 6 16 10.3390/biom6020016 27023624
+L394: 58. Berridge B.R. 
+L395:  van Vleet J.F. 
+L396:  Herman E. 
+L397:  Chapter 46-Cardiac, Vascular, and Skeletal Muscle Systems Haschek and Rousseaux’s Handbook of Toxicologic Pathology (Third Edition) 
+L398:  Haschek W.M. 
+L399:  Rousseaux C.G. 
+L400:  Wallig M.A. 
+L401:  Academic Press Boston, MA, USA 2013 1567 1665 978-0-12-415759-0
+L402: 59. Kim S. 
+L403:  Kim J. 
+L404:  Yun E.J. 
+L405:  Kim K.H. 
+L406:  Food metabolomics: From farm to human Curr. Opin. Biotechnol. 2016 37 16 23 10.1016/j.copbio.2015.09.004 26426959
+L407: 60. Malsagova K.A. 
+L408:  Kopylov A.T. 
+L409:  Stepanov A.A. 
+L410:  Enikeev D.V. 
+L411:  Potoldykova N.V. 
+L412:  Balakin E.I. 
+L413:  Pustovoyt V.I. 
+L414:  Kaysheva A.L. 
+L415:  Molecular Profiling of Athletes Performing High-Intensity Exercises in Extreme Environments Sports 2023 11 36 10.3390/sports11020036 36828321
+L416: 61. Chinkes D.L. 
+L417:  Methods for measuring tissue protein breakdown rate in vivo Curr. Opin. Clin. Nutr. Metab. Care 2005 8 534 537 10.1097/01.mco.0000170754.25372.37 16079625
+L418: 62. Raeder C. 
+L419:  Wiewelhove T. 
+L420:  Schneider C. 
+L421:  Döweling A. 
+L422:  Kellmann M. 
+L423:  Meyer T. 
+L424:  Pfeiffer M. 
+L425:  Ferrauti A. 
+L426:  Effects of Active Recovery on Muscle Function Following High-Intensity Training Sessions in Elite Olympic Weightlifters Ruhr-Universität Bochum Bochum, Germany 2017
+L427: 63. Ra S.-G. 
+L428:  Maeda S. 
+L429:  Higashino R. 
+L430:  Imai T. 
+L431:  Miyakawa S. 
+L432:  Metabolomics of salivary fatigue markers in soccer players after consecutive games Appl. Physiol. Nutr. Metab. 2014 39 1120 1126 10.1139/apnm-2013-0546 24988119
+L433: 64. Madrid-Gambin F. 
+L434:  Garcia-Aloy M. 
+L435:  Vázquez-Fresno R. 
+L436:  Vegas-Lozano E. 
+L437:  de Villa Jubany M.C.R. 
+L438:  Misawa K. 
+L439:  Hase T. 
+L440:  Shimotoyodome A. 
+L441:  Andres-Lacueva C. 
+L442:  Impact of chlorogenic acids from coffee on urine metabolome in healthy human subjects Food Res. Int. 2016 89 1064 1070 10.1016/j.foodres.2016.03.038
+L443: 65. Sato S. 
+L444:  Parr E.B. 
+L445:  Devlin B.L. 
+L446:  Hawley J.A. 
+L447:  Sassone-Corsi P. 
+L448:  Human metabolomics reveal daily variations under nutritional challenges specific to serum and skeletal muscle Mol. Metab. 2018 16 1 11 10.1016/j.molmet.2018.06.008 30293576
+L449: Acknowledgments
+L450: We would also like to gratefully acknowledge the support with organization and testing procedures of Daniel Strigel, Thomas Gwechenberger and Mareike Rittweg. We thank the coaches for their assistance as well as the volunteers for their participation in this research project.
+L451: # Summary: Supplementary Tables.xlsx
+L452: - **Sheets**: 5
+L453: - **Total tables**: 5
+L454: ## Sheet: information
+L455: - Tables found: 1
+L456: ### Table 1: Table_1
+L457: - **Rows**: 14
+L458: - **Columns**: 1
+L459: | Column | Dtype | Non-null | Sample values |
+L460: |--------|-------|----------|---------------|
+L461: | article title | str | 14 | Targeted metabolomics in high performance sports: differe... |
+L462: ## Sheet: Table S1
+L463: - Tables found: 1
+L464: ### Table 1: Table_1
+L465: - **Rows**: 5
+L466: - **Columns**: 6
+L467: | Column | Dtype | Non-null | Sample values |
+L468: |--------|-------|----------|---------------|
+L469: | col_0 | str | 5 | training volume (specific), training volume (specific), t... |
+L470: | Units | str | 4 | lifted tons per week, repetitions per week, % of training... |
+L471: | RP | str | 4 | 76.2 ± 52.9, 378.9 ± 189.8, 61.9 ± 18.0 |
+L472: | PP | str | 4 | 47.5 ± 8.8, 590.5 ± 262.3, 63.1 ± 17.6 |
+L473: | CP | str | 4 | 38.5 ± 9.1, 410.1 ± 169.2, 86.0 ± 18.9 |
+L474: | col_7 | str | 1 | * |
+L475: ## Sheet: Table S2
+L476: - Tables found: 1
+L477: ### Table 1: Table_1
+L478: - **Rows**: 5
+L479: - **Columns**: 7
+L480: | Column | Dtype | Non-null | Sample values |
+L481: |--------|-------|----------|---------------|
+L482: | col_0 | str | 5 | training volume, zone 1, zone 2 |
+L483: | Units | str | 4 | kilometres per week, % of training volume, % of training ... |
+L484: | PP | str | 4 | 94.5 ± 23.5, 77 ± 14, 13 ± 9 |
+L485: | col_3 | str | 2 | *, * |
+L486: | CP | str | 4 | 82.8 ± 14.7, 71 ± 11, 16 ± 9 |
+L487: | col_5 | str | 2 | *, * |
+L488: | RP | str | 4 | 25.3 ± 25.5, 63 ± 46, 8 ± 9 |
+L489: ## Sheet: Table S3
+L490: - Tables found: 1
+L491: ### Table 1: Table_1
+L492: - **Rows**: 336
+L493: - **Columns**: 24
+L494: | Column | Dtype | Non-null | Sample values |
+L495: |--------|-------|----------|---------------|
+L496: | compound class | str | 336 | Aminoacids Related, Indoles Derivatives, Indoles Derivatives |
+L497: | metabolite name | str | 117 | 1-Methylhistidine, Indoleacetic acid, Indole-3-propionic ... |
+L498: | metabolite | str | 336 | 1-Met-His, 3-IAA, 3-IPA |
+L499: | % missings | float64 | 336 | 0.0, 0.0, 0.0 |
+L500: | coefficient of variation (CV%) | float64 | 336 | 6.00706713780919, 5.7111477210324, 7.45098039215686 |
+L501: | mean | float64 | 336 | 5.188, 3.002, 1.256 |
+L502: | SD | float64 | 336 | 1.245, 3.556, 0.819 |
+L503: | mean | float64 | 336 | 4.822, 3.244, 1.466 |
+L504: | SD | float64 | 336 | 1.12, 4.519, 1.125 |
+L505: | mean | float64 | 336 | 4.659, 2.189, 2.789 |
+L506: | SD | float64 | 336 | 1.189, 0.681, 2.001 |
+L507: | mean | float64 | 336 | 6.156, 2.212, 1.206 |
+L508: | SD | float64 | 336 | 1.891, 0.513, 0.907 |
+L509: | p | float64 | 336 | 0.113231634481268, 0.920451083504559, 0.0127142650780263 |
+L510: | p | float64 | 336 | 0.00254874971573852, 0.000408496347482602, 0.034893368222... |
+L511: | p | float64 | 336 | 0.00730897326993697, 0.14982952814233, 0.660300101478274 |
+L512: | p | float64 | 336 | 0.389614801350889, 0.632434585170296, 0.471061504865026 |
+L513: | log2FC | float64 | 336 | -0.0496113204940688, -0.567501865036327, 0.9278628308945 |
+L514: | p (BNF) | float64 | 336 | 1.0, 1.0, 6.04883468328851e-10 |
+L515: | log2FC | float64 | 336 | 0.246814752076511, -0.440572591385981, -0.0586065569915423 |
+L516: | p (BNF) | float64 | 336 | 0.665761155996473, 1.0, 1.0 |
+L517: | log2FC | float64 | 336 | -0.401972901219753, -0.015079431053761, 1.20951802712823 |
+L518: | p (BNF) | float64 | 336 | 0.0203820913715129, 1.0, 1.69621728426476e-16 |
+L519: | VIP | float64 | 302 | 1.0338, 0.23296, 1.3364 |
+L520: ## Sheet: Table S4
+L521: - Tables found: 1
+L522: ### Table 1: Table_1
+L523: - **Rows**: 302
+L524: - **Columns**: 81
+L525: | Column | Dtype | Non-null | Sample values |
+L526: |--------|-------|----------|---------------|
+L527: | compound class | str | 302 | Aminoacids Related, Indoles Derivatives, Indoles Derivatives |
+L528: | metabolite name | str | 99 | 1-Methylhistidine, Indoleacetic acid, Indole-3-propionic ... |
+L529: | metabolite | str | 302 | 1-Met-His, 3-IAA, 3-IPA |
+L530: | <25% | float64 | 302 | 6.00706713780919, 5.7111477210324, 7.45098039215686 |
+L531: | breakfast | float64 | 302 | 0.389614801350889, 0.632434585170296, 0.471061504865026 |
+L532: | mean | float64 | 302 | 5.582, 3.058, 1.139 |
+L533: | SD | float64 | 302 | 1.279, 3.93, 0.729 |
+L534: | mean | float64 | 302 | 4.914, 3.079, 1.106 |
+L535: | SD | float64 | 302 | 0.956, 3.689, 0.834 |
+L536: | mean | float64 | 302 | 5.068, 2.868, 1.524 |
+L537: | SD | float64 | 302 | 1.455, 3.34, 0.888 |
+L538: | VIP | float64 | 302 | 1.0044, 0.19379, 1.7324 |
+L539: | delta | float64 | 302 | -0.6680000000000001, 0.02100000000000035, -0.032999999999... |
+L540: | log2FC | float64 | 302 | -0.1838842667039029, 0.009873460684012514, -0.04241636147... |
+L541: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L542: | VIP | float64 | 302 | 1.9349, 0.16062, 0.45661 |
+L543: | delta | float64 | 302 | -0.5140000000000002, -0.18999999999999995, 0.385 |
+L544: | log2FC | float64 | 302 | -0.1393655999252581, -0.09254338265889994, 0.420095155785... |
+L545: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L546: | VIP | float64 | 302 | 1.2515, 0.12612, 1.4384 |
+L547: | delta | float64 | 302 | 0.15399999999999991, -0.2110000000000003, 0.4179999999999999 |
+L548: | log2FC | float64 | 302 | 0.0445186667786448, -0.10241684334291246, 0.462511517258615 |
+L549: | p (BNF) | float64 | 302 | 1.0, 1.0, 0.401371631 |
+L550: | VIP | float64 | 302 | 0.21766, 0.29393, 1.9339 |
+L551: | mean | float64 | 302 | 5.072, 3.272, 1.499 |
+L552: | SD | float64 | 302 | 1.239, 4.337, 1.441 |
+L553: | mean | float64 | 302 | 4.849, 3.803, 1.405 |
+L554: | SD | float64 | 302 | 1.111, 6.059, 0.862 |
+L555: | mean | float64 | 302 | 4.545, 2.658, 1.493 |
+L556: | SD | float64 | 302 | 1.034, 2.958, 1.097 |
+L557: | VIP | float64 | 302 | 1.3927, 0.42261, 0.72699 |
+L558: | delta | float64 | 302 | -0.22299999999999986, 0.5310000000000001, -0.094000000000... |
+L559: | log2FC | float64 | 302 | -0.06486749174307782, 0.21696519068884235, -0.09343025283... |
+L560: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L561: | VIP | float64 | 302 | 0.41959, 0.36172, 1.6494 |
+L562: | delta | float64 | 302 | -0.5270000000000001, -0.6139999999999999, -0.006000000000... |
+L563: | log2FC | float64 | 302 | -0.15827445105793814, -0.29983164366557435, -0.0057862178... |
+L564: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L565: | VIP | float64 | 302 | 1.643, 0.79802, 0.54741 |
+L566: | delta | float64 | 302 | -0.30400000000000027, -1.145, 0.08800000000000008 |
+L567: | log2FC | float64 | 302 | -0.09340695931486032, -0.5167968343544167, 0.087644035026... |
+L568: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L569: | VIP | float64 | 302 | 1.3162, 1.2389, 0.26197 |
+L570: | mean | float64 | 302 | 4.869, 2.139, 2.812 |
+L571: | SD | float64 | 302 | 1.582, 0.696, 2.234 |
+L572: | mean | float64 | 302 | 4.564, 2.334, 2.744 |
+L573: | SD | float64 | 302 | 1.063, 0.756, 2.158 |
+L574: | mean | float64 | 302 | 4.545, 2.094, 2.811 |
+L575: | SD | float64 | 302 | 0.92, 0.636, 1.803 |
+L576: | VIP | float64 | 302 | 0.32104, 0.60825, 0.21853 |
+L577: | delta | float64 | 302 | -0.3049999999999997, 0.19500000000000028, -0.067999999999... |
+L578: | log2FC | float64 | 302 | -0.0933267089804457, 0.12586807854230408, -0.035316112899... |
+L579: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L580: | VIP | float64 | 302 | 0.32104, 0.60825, 0.21853 |
+L581: | delta | float64 | 302 | -0.32399999999999984, -0.04499999999999993, -0.0009999999... |
+L582: | log2FC | float64 | 302 | -0.09934520618765807, -0.03067504023423573, -0.0005131406... |
+L583: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L584: | VIP | float64 | 302 | 0.52888, 0.13839, 0.60273 |
+L585: | delta | float64 | 302 | -0.019000000000000128, -0.2400000000000002, 0.06699999999... |
+L586: | log2FC | float64 | 302 | -0.00601849720721237, -0.1565431187765398, 0.034802972207... |
+L587: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L588: | VIP | float64 | 302 | 0.049426, 0.86311, 0.44667 |
+L589: | mean | float64 | 302 | 6.168, 2.048, 1.192 |
+L590: | SD | float64 | 302 | 1.881, 0.496, 0.944 |
+L591: | mean | float64 | 302 | 6.608, 2.405, 1.188 |
+L592: | SD | float64 | 302 | 2.26, 0.542, 0.92 |
+L593: | mean | float64 | 302 | 5.692, 2.182, 1.237 |
+L594: | SD | float64 | 302 | 1.509, 0.475, 0.937 |
+L595: | VIP | float64 | 302 | 1.0044, 0.19379, 1.7324 |
+L596: | delta | float64 | 302 | 0.4399999999999995, 0.35699999999999976, -0.0040000000000... |
+L597: | log2FC | float64 | 302 | 0.09941092150441078, 0.23182117865740426, -0.004849399661... |
+L598: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L599: | VIP | float64 | 302 | 1.9349, 0.16062, 0.45661 |
+L600: | delta | float64 | 302 | -0.476, 0.1339999999999999, 0.04500000000000015 |
+L601: | log2FC | float64 | 302 | -0.1158671033885521, 0.09143538632360726, 0.0534612645142... |
+L602: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L603: | VIP | float64 | 302 | 1.2515, 0.12612, 1.4384 |
+L604: | delta | float64 | 302 | -0.9159999999999995, -0.22299999999999986, 0.049000000000... |
+L605: | log2FC | float64 | 302 | -0.21527802489296288, -0.140385792333797, 0.0583106641756... |
+L606: | p (BNF) | float64 | 302 | 1.0, 1.0, 1.0 |
+L607: | VIP | float64 | 302 | 0.21766, 0.29393, 1.9339 |
+[30ms]
+

@@ -1,0 +1,1173 @@
+L1: Proteome-Driven Elucidation of Adaptive Responses
+L2: to Combined Vitamin E and C Deficiency in Zebrafish
+L3: Journal of Proteome Research (2015)
+L4: Ievgen Motorykin, Maret
+L5: G. Traber, Robert L. Tanguay, Claudia S. Maier
+L6: † Department
+L7: of Chemistry,  Oregon State University , 153 Gilbert Hall, Corvallis, Oregon 97331,  United States
+L8: ‡ Linus
+L9: Pauling Institute and School of Biological and Population Health Sciences,  Oregon State University , 307 Linus Pauling Science Center, Corvallis, Oregon 97331,  United States
+L10: § Department
+L11: of Environmental and Molecular Toxicology,  Oregon State University , 1007 Agriculture & Life Sciences Building, Corvallis, Oregon 97331,  United States
+L12: The purpose of this study was to determine the system-wide consequences
+L13: of deficiencies in two essential micronutrients, vitamins E and C,
+L14: on the proteome using zebrafish ( Danio rerio ) as
+L15: one of the few vertebrate models that similar to humans cannot synthesize
+L16: vitamin C. We describe a label-free proteomics workflow to detect
+L17: changes in protein abundance estimates dependent on vitamin regimes.
+L18: We used ion-mobility-enhanced data-independent tandem mass spectrometry
+L19: to determine differential regulation of proteins in response to low
+L20: dietary levels of vitamin C with or without vitamin E. The detection
+L21: limit of the method was as low as 20 amol, and the dynamic range was
+L22: five orders of magnitude for the protein-level estimates. On the basis
+L23: of the quantitative changes obtained, we built a network of protein
+L24: interactions that reflect the whole organism’s response to
+L25: vitamin C deficiency. The proteomics-driven study revealed that in
+L26: vitamin-E-deficient fish, vitamin C deficiency is associated with
+L27: induction of stress response, astrogliosis, and a shift from glycolysis
+L28: to glutaminolysis as an alternative mechanism to satisfy cellular
+L29: energy requirements.
+L30: Article
+L31: vitamin C; vitamin E; ion mobility; MS E; label-free quantification; zebrafish; glycolysis; glutaminolysis
+L32: Introduction
+L33: The purpose of this study was to determine the consequences of
+L34: deficiencies in dietary antioxidants, vitamins C and E, on the zebrafish
+L35: proteome composition. The combination of deficiencies was used because
+L36: this dietary manipulation is known to cause severe abnormalities. 1 , 2  Protein abundance estimates were obtained by label-free accurate
+L37: quantification based on data-independent (MS E ) acquisition.
+L38: Functional interpretation of the systems-wide proteome responses revealed
+L39: the biomolecular networks affected by vitamin C and E deficiency.
+L40: In zebrafish, the lack of vitamin E potentiates vitamin C deficiency
+L41: and causes degenerative myopathy. 3  The
+L42: classical roles of vitamin C (ascorbic acid, AA) are in maintaining
+L43: redox homeostasis 4 − 6  and facilitating the recycling of vitamin E. 7 , 8  More recently, vitamin C has been identified as an essential cofactor
+L44: for multiple enzymes involved in the hydroxylation of procollagen 9 , 10  and several dioxygenases that are involved in maintaining endothelial
+L45: function with relevance to atherosclerosis 11  and sepsis. 12 , 13  Inadequate vitamin C levels,
+L46: potentially leading to hypovitaminosis, remain widespread health concerns
+L47: in humans affecting particularly underprivileged populations. Recent
+L48: research indicates that smoking 14  and Western
+L49: diets rich in fat and cholesterol 15  exacerbate
+L50: vitamin C deficiency.
+L51: In most animals, vitamin C is synthesized in the liver or kidneys
+L52: and transferred to tissues via circulation. 16 , 17  Humans are not capable of synthesizing ascorbic acid due to the
+L53: lack of the functional gene for  l -gulonolactone oxidase. 18 , 19  For studying the effect of vitamin C deficiency, the most widely
+L54: used animal model is the guinea pig that similarly to humans cannot
+L55: synthesize vitamin C. 20  The gulonolactone
+L56: oxidase knockout (Gulo –/– ) mouse is an established
+L57: transgenic animal model for deciphering the physiological roles of
+L58: vitamin C. 21 , 22  Similarly to humans, zebrafish
+L59: also cannot synthesize vitamin C. 23 − 28  A first report using MS-based metabolomics to study the effect of
+L60: vitamin C deficiency in zebrafish revealed that vitamin C deficiency
+L61: affects the purine metabolism. 29  A classical
+L62: antioxidant function of vitamin C entails the recycling of the tocopheroxyl
+L63: radical that is generated when vitamin E (α-tocopherol, α-T)
+L64: functions as a peroxyl radical, chain-breaking antioxidant. 30 , 31  To evaluate the interrelating roles of vitamins C and E, we used
+L65: a 2 × 2 design in the present study resulting in four dietary
+L66: groups, namely, vitamin-E- and -C-adequate (E+C+), vitamin-E- and
+L67: -C-inadequate (E–C−), vitamin-C-adequate but inadequate
+L68: in vitamin E (E–C+), and vitamin-C-inadequate but adequate
+L69: in vitamin E (E+C−). We subsequently applied a label-free comparative
+L70: proteomics approach for examining the systems-wide consequences of
+L71: the different vitamin regimes in adult zebrafish.
+L72: In a typical “bottom-up” shotgun experiment, a protein
+L73: mixture is proteolytically digested with a protease, such as trypsin,
+L74: to create peptides for further analysis. Liquid chromatography in
+L75: combination with tandem mass spectrometry (LC–MS/MS) has become
+L76: the predominantly used technique to both qualitatively and quantitatively
+L77: analyze a complex mixture of peptides. 32 − 34  The peptides are chromatographically
+L78: separated using reversed-phase (RP) chromatography and subsequently
+L79: subjected to collision-induced dissociation (CID) in a tandem mass
+L80: spectrometer. The product ion spectra are searched against protein
+L81: sequence databases to identify the peptides. Unlike comparative isotope-coded
+L82: labeling methods (e.g., ICAT or iTRAQ), label-free mass spectrometry-based
+L83: quantitative proteomic approaches are based on the fact that in electrospray
+L84: ionization (ESI) the peak signal intensity is linearly proportional
+L85: to the concentration of a peptide (over an approximate range of 5–5000
+L86: fmol). 35 , 36  Currently, two acquisition techniques have
+L87: been technically realized and applied for detecting and quantifying
+L88: peptides, namely, data-dependent acquisitions (DDAs) and data-independent
+L89: acquisitions (DIAs).
+L90: Data-dependent acquisitions are based on tracking of precursor
+L91: ion intensities on-the-go. 37 The peptide
+L92: precursor ions that fulfill preselected features are sequentially
+L93: subjected to MS/MS during the time course of the chromatography. Proteolytic
+L94: digests in proteomics-type workflow are often complex and even when
+L95: using ultraperformance liquid chromatography (UPLC) at every moment
+L96: multiple peptides coelute. In DDA techniques, survey scan and MS/MS
+L97: scans are used sequentially and compete for duty cycle time. Therefore,
+L98: both the number of the most intense peaks subjected to MS/MS analysis
+L99: and the timespan of a survey scan need to be optimized to acquire
+L100: accurate mass information for the peptide precursor ions and to ensure
+L101: information-rich fragment ion spectra. 38 , 39  Albeit somewhat
+L102: dependent on the mass-spectrometry platform used, a possible caveat
+L103: of DDAs is that a substantial portion of the acquisition cycle is
+L104: spent acquiring fragment ion spectra; therefore, the intensities of
+L105: the peptide ions are measured inaccurately and, consequently, are
+L106: less suited for estimating peptide abundances. 39
+L107: DIA techniques perform parallel fragmentation of precursor ions,
+L108: meaning that all peptide precursors are fragmented simultaneously
+L109: regardless of their characteristics. For proteomic-type applications,
+L110: currently most DIAs are realized by coupling nanoUPLC systems to high-resolution
+L111: quadrupole time-of-flight (Q-TOF) mass spectrometers. This combination
+L112: of equipment takes advantage of the high peak and separation capacity
+L113: of UPLCs and the measurement of precursor and product ions with accurate
+L114: mass. In the DIA mode, the Q-TOF mass spectrometer conducts a low-energy
+L115: MS scan providing access to precursor ion mass and intensity data
+L116: for quantitation and an elevated energy scan to obtain product ion
+L117: information. A critical post acquisition step of the DIA technique
+L118: is the alignment of the fragment ions with the respective precursor
+L119: ion. DIA-based acquisitions enable quantification based on the peptide
+L120: ion intensities. The estimation of protein abundance is based on the
+L121: observation that the average signal intensity of the three most intense
+L122: tryptic peptides relates to the protein abundance level regardless
+L123: of protein size. 40  The estimation of protein
+L124: levels (moles of each identified protein) is based on using an internal
+L125: protein standard (spiked in at a defined amount).
+L126: Recently, a commercially available hybrid high-resolution ion mobility
+L127: quadrupole time-of-flight (IM-Q-TOF) mass spectrometry system that
+L128: enables the acquisition of ion mobility-enhanced DIA (aka IM-MS E ) data has become available. 41  In
+L129: this instrument configuration, ions are separated according to their
+L130: velocity with which they transverse the traveling wave ion mobility
+L131: device. Parameters that affect the ion’s mobility are its charge,
+L132: size, and shape. 42  In ion mobility-enhanced
+L133: MS E  acquisitions, ions are separated according to their
+L134: mobility and then dependent on the energy regime applied in the transfer
+L135: region directly passed on to the TOF analyzer or collisionally dissociated,
+L136: and the resulting fragment ions are measured in the TOF analyzer.
+L137: In the IM-MS E  mode, fragment ions are drift time-aligned
+L138: with their precursors. An often touted advantage of ion mobility-enhanced
+L139: MS E  acquisitions is the orthogonal separation space gained
+L140: additionally to the chromatographic separation of the peptides prior
+L141: to collision-induced dissociation leading to spectral decongestion,
+L142: improved peptide detection, and dynamic range, all leading cooperatively
+L143: to more protein identifications. 43
+L144: To investigate the consequences of the combination of vitamin E
+L145: and C deficiency on protein networks in zebrafish, we profiled the
+L146: changes in protein abundances. The observed proteome changes were
+L147: then statistically evaluated and functionally annotated. The protein
+L148: expression data were used for constructing a protein interaction network.
+L149: Subnetworks were extracted that comprised proteins related to stress
+L150: response, glycolysis, and TCA cycles. The observed changes in protein
+L151: abundances for zebrafish deficient in vitamins E and C suggest a metabolic
+L152: switch from glycolysis to glutaminolysis as a means of alternative
+L153: energy production.
+L154: Materials and Methods
+L155: Chemicals
+L156: Dithiolthreitol (DTT) and iodoacetamide were
+L157: purchased from Bio-Rad (Hercules, CA). MS-grade water, acetonitrile,
+L158: and formic acid (99%) were obtained from EMD Chemicals (Gibbstown,
+L159: NJ). Sequencing-grade trypsin, resuspension buffer, and protease MAX
+L160: solution were purchased from Promega (Madison, WI). [Glu 1 ]-fibrinopeptide B ([Glu 1 ]-Fib) and  Saccharomyces
+L161: cerevisiae  enolase digest were obtained from Waters (Milford,
+L162: MA). PBS solution was purchased from Fisher (Fair Lawn, NJ).
+L163: Fish Husbandry
+L164: Housing of the wild-type tropical 5D
+L165: strain zebrafish was carried out in the Sinnhuber Aquatic Research
+L166: Laboratory at Oregon State University, Corvallis, Oregon. The study
+L167: was performed according to protocols approved by the Institutional
+L168: Animal Care and Use Committee (IACUC). 44
+L169: Feeding Experiment
+L170: The experiment was designed to allow
+L171: analyzing changes to the proteome upon vitamin C supplementation of
+L172: fish that were vitamin-E-adequate or -deficient. To do that, we fed
+L173: fish with predefined diets as previously described. 29  In brief, at 42 days of age, 40 fish were divided in two
+L174: groups and fed diets low in vitamin C (C–, 50 mg AA/kg diet,
+L175: added as Stay-C, DSM Nutritional Products, Parsippany, NJ) with vitamin
+L176: E at sufficient levels (E+, 178 μmol RRR-α-tocopherol/kg
+L177: diet) or deficient levels (E–, 22 μmol RRR-α-tocopherol/kg
+L178: diet). Thus, two vitamin groups were created: E+C– and E–C–
+L179: with 20 fish in each group. Induction of vitamin C deficiency continued
+L180: for 56 days, after which half of the fish population in each group
+L181: was harvested. The diet of remaining fish was altered to have a high
+L182: amount of vitamin C (C+, 350 mg AA/kg diet, added as Stay-C), thus
+L183: creating another two vitamin groups: E+C+ and E–C+. After an
+L184: additional 21 days, the fish were harvested. Thus, four groups with
+L185: 10 fish in each were created, each having different vitamins levels
+L186: that varied with supplementation: E+C+, E–C+, E+C–,
+L187: and E–C– ( Supporting Information , Figure S1). Vitamin E and C concentrations have been published. 29
+L188: Protein Extraction and Digestion
+L189: Each sample consisted
+L190: of one whole flash-frozen fish. The whole flash-frozen fish was individually
+L191: ground under liquid nitrogen using a mortar and pestle. The pipetting
+L192: scheme used for preparing the protein extracts and digests for each
+L193: sample is provided in the  Supporting Information , Table S1. While still dry, the fish powder was transferred to a
+L194: microcentrifuge tube and weighed ( Supporting Information , Table S1, column 2). A PBS solution with ProteaseMAX (0.04%) was
+L195: added to the microtubes for the extraction of proteins; assuming the
+L196: density as 1 mg/mL, its volume was adjusted to six times the fish
+L197: weight ( Supporting Information , Table S1,
+L198: column 5). The tubes containing the fish powder suspensions were submitted
+L199: to three freeze–thaw cycles that included flash-freezing in
+L200: liquid nitrogen for 2 min, thawing for 5 min, and sonicating for 15
+L201: min. After lysis, tubes were centrifuged at 4 °C for 10 min at
+L202: 15 000 relative centrifugal force (rcf), and the supernatants
+L203: were transferred to new microcentrifuge tubes (1.3 mL) while solid
+L204: residue was discarded. The sample preparation workflow is shown in  Supporting Information , Figure S2.
+L205: The
+L206: concentration of proteins in each sample was determined by a photometric
+L207: (Bradford) assay ( Supporting Information , Table S1, column 6). Proteins in each sample were digested according
+L208: to the manufacturer’s protocol (Promega). The pipetting scheme
+L209: for preparing the digest of each sample is outlined in  Supporting Information , Table S1, columns 7–9.
+L210: In brief, a volume of solution containing 50 μg of proteins
+L211: was taken to 93.5 μL with a freshly prepared 50 mM NH 4 HCO 3 . Next, 1 μL of 0.5 M DTT (in Millipore water)
+L212: was added to each vial, and solutions were incubated at 56 °C
+L213: for 20 min. Then, 2.7 μL of 0.55 M iodoacetamide (in 50 mM NH 4 HCO 3 ) was added, and solutions were incubated at
+L214: room temperature in the dark for 15 min. For protein digestion, 1
+L215: μL of 1% ProteaseMAX Surfactant in (in 50 mM NH 4 HCO 3 ) and 1.8 μL of trypsin (1 μg/μL in 50 mM
+L216: acetic acid) were added. Solutions were incubated at 37 °C for
+L217: 3 h. The final volume of each solution of digested proteins was 100
+L218: μL. Solutions were centrifuged at 12 000 rcf for 10 s,
+L219: and trifluoroacetic acid (TFA) was added at a final concentration
+L220: of 0.5%. After snap-freezing in liquid nitrogen, samples were stored
+L221: at −20 °C until analyzed. At the end, we conducted LC–IM–MS E  analyses of 8, 10, 10, and 9 samples of groups E+C+, E–C+,
+L222: E+C–, and E–C–, respectively ( Supporting Information , Table S1).
+L223: Liquid Chromatography–Mass Spectrometry
+L224: The
+L225: analysis of all samples was performed using a Synapt G2 hybrid quadrupole
+L226: time-of-flight mass spectrometer (Waters, Milford, MA) controlled
+L227: by MassLynx 4.2 software (Waters). The sample peptide solution (9
+L228: μL) was mixed with 1 μL of internal standard ( Saccharomyces cerevisiae  enolase digest, 1 pmol/μL).
+L229: With 1 μL injection volume the amount of the internal standard
+L230: per injection on column was 100 fmol. Peptides were separated with
+L231: a nanoAcquity Ultra Performance LC system (Waters, Milford, MA) equipped
+L232: with 100 μm × 100 mm BEH130 C18 column with a particle
+L233: size of 1.7 μm (Waters, Milford, MA). The mobile phase A consisted
+L234: of 0.1% formic acid in water, and B consisted of 0.1% formic acid
+L235: in acetonitrile. Each sample was first retained on a trapping column
+L236: and then washed using 99.5% A for 3 min at a flow rate 5 μL/min.
+L237: Peptides were separated using a 120 min gradient (3–40% B for
+L238: 90 min, 40–90% for 2 min, 90% B for 1 min, 90–3% B for
+L239: 2 min, and 3% B for 25 min) and then electrosprayed into the mass
+L240: spectrometer, fitted with a nanoSpray source, at a flow rate of 400
+L241: nL/min. External calibration of the TOF analyzer was performed using
+L242: NaI solution over the range of  m / z  50 to 2000. The instrument operated in positive V-mode over the
+L243: calibration range. Mass spectra were acquired in the MS E  mode alternating between a low energy scan (6 eV) to acquire peptide
+L244: precursor data and a high-energy scan (ramping from 27 to 50 eV) to
+L245: acquire fragmentation data. The capillary voltage was 2.5 kV, and
+L246: the source temperature was 40 °C. Scan time was 1.25 s. The instrument
+L247: settings are listed in Table S2 ( Supporting Information ). An auxiliary pump delivered a [Glu 1 ]-Fib solution as
+L248: an external calibrant (lock-mass) with a concentration of 500 fmol/μL
+L249: at a rate of 0.2 μL/min. For lock mass acquisition, a low-energy
+L250: scan was acquired for 0.75 s every 60 s throughout a run.
+L251: Peak Detection
+L252: Elevated energy mass spectra were extracted,
+L253: charge-state-deconvoluted, deisotoped, and lock-mass-corrected with
+L254: [Glu 1 ]-Fib (MH + m / z  785.8426). All ion mobility-MS E  samples were analyzed
+L255: using Identity E  by ProteinLynx Global Server (PLGS) version
+L256: 2.5 (Waters Corporation, Milford, MA). The following processing parameters
+L257: and their respective settings were used: chromatographic peak width
+L258: and MS TOF resolution, automatic; low-energy threshold, 100 counts;
+L259: elevated energy threshold, 10 counts; intensity threshold, 750 counts.
+L260: Protein Database Search
+L261: Waters’ Identity E  was configured to search  Danio rerio  protein
+L262: database (26 812 entries) with the digestion enzyme trypsin.
+L263: The database was modified by adding the yeast enolase sequence (ENO1_YEAST,
+L264: accession number P00924, Uniprot) that was spiked in as internal standard
+L265: to facilitate label-free quantification. Identity E  searched
+L266: the protein database with a fragment ion mass tolerance of 0.025 Da
+L267: and a parent ion tolerance of 0.0100 Da. The iodoacetamide derivative
+L268: of cysteine and the oxidation of methionine were specified as variable
+L269: modifications of amino acids in Identity E .
+L270: Protein Identification, Quantification, and Validation
+L271: Scaffold (version 3.3.1, Proteome Software, Portland, OR) was used
+L272: to validate MS E -based peptide and protein identifications.
+L273: Peptide probabilities were assigned by the Peptide Prophet algorithm. 45  Protein probabilities were assigned by the Protein
+L274: Prophet algorithm. 46  Proteins that contained
+L275: similar peptides and could not be differentiated based on MS/MS analysis
+L276: alone were grouped to satisfy the principles of parsimony. The peptide
+L277: and protein probabilities were adjusted to allow the best quantification
+L278: of proteins and keeping the false identification rates at low levels.
+L279: For each sample, the numbers of peptides assigned with high confidence
+L280: are compiled in Table S3 ( Supporting Information ). In addition,  Supporting Information  Table S5 compiles proteins identified, unique peptides assigned
+L281: per protein, and protein sequence coverage. This information was directly
+L282: obtained from Scaffold.
+L283: The average of intensity of the three
+L284: most intense peptides of each protein was normalized to that of the
+L285: internal standard with an assigned amount of 100 fmol. Proteins could
+L286: not be quantified if they ambiguously shared peptides that cannot
+L287: be uniquely attributed to one protein. Ultimately, the information
+L288: about group name, sample name, protein ID, and quantitative values
+L289: for proteins was acquired from Scaffold and exported to spreadsheets.
+L290: The data were then imported into Perseus ( http://www.perseus-framework.org/ ) and statistically analyzed. Perseus was developed by the Max Planck
+L291: Institute of Biochemistry, Martinsried, Germany and designed to perform
+L292: all downstream bioinformatics and statistics on proteomics output
+L293: tables.
+L294: Western Blot
+L295: Three samples were randomly selected from
+L296: each group. Samples were prepared for Western Blot analyses by diluting
+L297: with sample buffer (5% mercaptoethanol in Laemmli buffer, Bio-Rad,
+L298: Hercules, CA) to a concentration of 1 mg/mL of protein. For SDS-PAGE
+L299: analysis, 20 μg (20 μL) of proteins was loaded into a
+L300: precasted 10% gel (Bio-Rad). After electrotransfer to a nitrocellulose
+L301: (NC) membrane (Bio-Rad), the latter was blocked overnight in 5% nonfat
+L302: milk in TBS-T (10 mM Tris, pH 8, 150 mM NaCl, 0.05% Tween). The NC
+L303: paper was blotted for 1 h with antibodies (Thermo, Rockford, IL) against
+L304: pyruvate kinase M2 (Pkm2), glutamate dehydrogenase (Glud1), and glial
+L305: fibrillary acidic protein (Gfap). A horseradish-peroxidase-labeled
+L306: antigoat and antirabbit IgG (Bio-Rad) and an enhanced chemoluminescence
+L307: kit (SuperSignal West Pico Chemiluminescent Substrate, Thermo) were
+L308: used to detect signals on a film (Kodak, Rochester, NY). The molecular
+L309: mass of a protein was estimated using a protein molecular standard
+L310: (Bio-Rad).
+L311: Network Construction
+L312: To construct the vitamin-C-deficiency
+L313: network, protein IDs were uploaded to STRING, Search Tool for the
+L314: Retrieval of Interacting Genes ( www.string-db.org ). 47  The data found on protein interactions and the
+L315: scores information were extracted. The protein network was constructed
+L316: based on protein interactions using Cytoscape 2.8.2 (The Cytoscape
+L317: Consortium). The latter is an open-source platform for complex network
+L318: analysis and visualization. 48
+L319: Results and Discussion
+L320: Overall Design and Strategy Applied for the Label-Free Quantitative
+L321: Proteomic Study
+L322: The goal of this study was to investigate
+L323: the consequences of vitamin E and C deficiency on the zebrafish proteome. The analysis and validation of quantitative bottom-up shotgun proteomics
+L324: data sets depend critically on the optimal combination of data processing
+L325: software tools because each commercially available software package
+L326: can perform only a few steps of the data analysis pipeline (Figure  1 ). Here we implemented MassLynx and PLGS for peak
+L327: extraction, alignment, and database search; Scaffold for spectra validation
+L328: and protein quantitation; Perseus for statistical analysis; and STRING
+L329: and Cytoscape for protein interactions analysis and network construction,
+L330: respectively.
+L331: Figure 1 Data analysis workflow for label-free quantitative proteomics using
+L332: LC–IMS–MS E  acquisitions. We implemented MassLynx
+L333: and PLGS for peak extraction, alignment, and database search; Scaffold
+L334: for spectra validation and protein quantitation; Perseus for statistical
+L335: analysis; and STRING and Cytoscape for protein interactions analysis
+L336: and network construction.
+L337: Effects on Body Weight and Growth Rate
+L338: The experimental
+L339: design of the feeding study afforded that zebrafish of the E+C–
+L340: and E–C– groups were harvested after 98 days and the
+L341: E–C+ and E+C+ groups were sacrificed after 119 days. We therefore
+L342: expected that the different groups would result in different median
+L343: fish body weights. Indeed, as shown in the  Supporting
+L344: Information , Figure S3A, the median fish weights were lower
+L345: for E+C– and E–C–groups compared with E–C+
+L346: and E+C+ groups. The ANOVA test between all four groups did not show
+L347: significant results, but the median body weights were significantly
+L348: different between the E+C+ and E–C– groups ( p  value = 0.006,  t  test). Also, not totally
+L349: unexpected, the growth rate (median body mass/age) of fish adequate
+L350: in both vitamins (E+C+ group) was approximately three times higher
+L351: compared with the group deficient in both vitamins (E–C–
+L352: group). Vitamin C deficiency seemed to have a more drastic effect
+L353: on the growth rate compared with inadequate vitamin E levels ( Supporting Information , Figure S3B).
+L354: Optimization of Sample Preparation and Analytical Workflow for
+L355: the Comparative “Bottom-up” Proteomics Study
+L356: To account for differences in fish body weights, we normalized the
+L357: total protein concentration, which resulted in solutions with equal
+L358: total concentration of proteins independent of fish weights, age,
+L359: and vitamin supplementation. The total protein concentration in each
+L360: sample was verified to confirm the validity of the sample preparation
+L361: technique and for further use. The median total concentration of proteins
+L362: for all samples was 2.382 mg/mL with first quartile 2.258 mg/mL and
+L363: third quartile 2.478 mg/mL. As was expected from the sample preparation
+L364: that accounted for the differences in fish weights, the total concentration
+L365: of proteins was distributed in a narrow range ( Supporting Information , Figure S4). After lysis, insoluble
+L366: pellets that remained in the microcentrifuge tubes were discarded.
+L367: The supernatant was used for protein digestion.
+L368: Because of the
+L369: complexity of the whole fish protein extracts, we optimized the LC
+L370: conditions to increase the number of peptides detected. 49  For optimization, a protein extract was run
+L371: using different LC gradients, and the number of eluted peptides was
+L372: compared. By changing the mobile phase composition over time, the
+L373: gradient was optimized after each run to make the elution of peptides
+L374: even across a chromatogram and to reduce the coelution of peptides.
+L375: The gradients were named as “Gradient 1”, “Gradient
+L376: 2”, “Gradient 3”, and “Gradient 4”.
+L377: The gradient profiles and respective chromatograms are presented in
+L378: the  Supporting Information , Figure S5.
+L379: Using Venn diagrams, a comparison of the number of eluted peptides
+L380: for each gradient is presented in the  Supporting
+L381: Information , Figure S6. “Gradient 4” resulted
+L382: in the highest number of peptides detected and was used for all following
+L383: LC–IM–MS E  analyses.
+L384: Data Analysis Strategy Used for Obtaining Protein Abundance
+L385: Estimates
+L386: Label-free approaches are liable to technical variability,
+L387: such as LC retention time drift, nanospray instability, and sample
+L388: matrix effects. Therefore, to overcome these caveats, label-free approaches
+L389: depend on the use of an internal standard and the application of proper
+L390: mathematical tools for data processing. Log transformation of data
+L391: is commonly used to make the distribution of protein abundances more
+L392: Gaussian, with subsequent application of parametric statistical tests,
+L393: which have higher statistical power after data transformation. 50
+L394: In this study, a digest of enolase from  Saccharomyces cerevisiae  was used as an internal standard.
+L395: The same volume of the internal standard was added to each sample,
+L396: making its concentration equal across samples. Data were acquired,
+L397: deisotoped, peak-aligned, and exported to Scaffold for quantitative
+L398: analysis. The quantification of proteins was done by normalization
+L399: of the protein abundances to the internal standard. For the total
+L400: of 2956 quantitative values obtained, a graph of protein amounts of
+L401: the identified proteins from all samples against protein ranks was
+L402: created (Figure  2 ). The value for the detection
+L403: limit was extracted as the lowest amount of a protein that was calculated
+L404: by Scaffold. The detection limit of this method was as low as 20 amol
+L405: (Heat shock protein 8, sample E+C+#5), while the highest detected
+L406: concentration was 2.3 pmol (Myosin light chain, sample E–C+#8).
+L407: The dynamic range of estimates of protein amounts was calculated to
+L408: be about five orders of magnitude.
+L409: Figure 2 Dynamic range of the method based on protein abundance estimates.
+L410: The plot has the predicted S-shape, and the quantitative dynamic range
+L411: covers five orders of magnitude based on 2956 data points derived
+L412: from LC–IM–MS E  data of all 37 samples. The
+L413: value for the detection limit was identified as the lowest amount
+L414: of a protein calculated by Scaffold software. The detection limit
+L415: of this method was as low as 20 amol (Heat shock protein 8, sample
+L416: E+C+#5), while the highest detected amount was 2.3 pmol (Myosin light
+L417: chain, sample E–C+#8).
+L418: Next, data were exported to Perseus and log 2 -transformed.
+L419: To estimate the biological variation between fish samples, we calculated
+L420: the coefficient of determination,  R 2 ,
+L421: based on the protein estimates between biological replicates. As an
+L422: example,  Supporting Information  Figure
+L423: S7 shows the correlation plot between the biological replicates E–C+
+L424: #9 and E–C+ #8 resulting in a  R 2  value of 0.654. Additional correlation plots for the E–C+
+L425: group are shown in  Supporting Information  Figure S8. As expected, variation between samples was observed.
+L426: The correlation of protein amounts between different fish (within
+L427: one feeding group) was found to be stronger in samples containing
+L428: higher numbers of proteins.
+L429: Proteome Changes Linked to Vitamin C Deficiency
+L430: To
+L431: investigate the proteome changes caused by vitamin C deficiency in
+L432: vitamin-E-adequate fish, we evaluated the fold changes of the protein
+L433: estimates obtained for the E+C+ versus the E+C– group. For
+L434: quantitative analysis, peptide identifications were accepted if they
+L435: could be established at a >95% probability. Protein identifications
+L436: were accepted if they could be established at >99.0% probability and
+L437: contained at least two identified peptides. The quantitative values
+L438: calculated for the comparison of groups C+ versus C– (both
+L439: sufficient in vitamin E) were based on 8134 spectra with peptide FDR
+L440: 0.1% and 203 protein with protein FDR 2.0%. Next, internal standard
+L441: and contaminants were removed and quantitation filter was applied.
+L442: All proteins that were not detected at least two times across a group
+L443: were filtered out. This conservative approach resulted in 119 proteins.
+L444: Among them, 61% were up-regulated in vitamin-C-deficient fish (72
+L445: of 119). A change in concentration of two-fold or more was observed
+L446: for 28% of the proteins in this group.
+L447: The same quantitative
+L448: analysis was done to investigate the proteome changes caused by vitamin
+L449: C deficiency in vitamin-E-deficient fish. For quantitative analysis,
+L450: peptide identifications were accepted if they could be established
+L451: at a >50% probability. Protein identifications were accepted if they
+L452: could be established at >99.9% probability and contained at least
+L453: two identified peptides. The quantitative values calculated for the
+L454: comparison of the C+ versus C– group (both deficient in vitamin
+L455: E) were based on 11 308 spectra with peptide FDR 0.2% and 221
+L456: protein with protein FDR 2.3%. Again, internal standard and contaminants
+L457: were removed and quantitation filter was applied. This resulted in
+L458: a list of 112 proteins (Supplementary Table S3 in the  Supporting Information ). Among them, 52% were
+L459: up-regulated in vitamin-C-deficient fish (58 of 112). A change in
+L460: concentration of two-fold or more was observed for 29% of the proteins.
+L461: Figure  3 A shows a volcano plot for the distribution
+L462: of  p  values versus fold-changes calculated for the
+L463: proteins that were assigned for the comparison of the E+C+ versus
+L464: E+C– groups (E+C+/E+C– transition). A negative logarithm
+L465: of the  p  values and the logarithm of the ratio between
+L466: amount of proteins from E+C+ and E+C– groups are displayed
+L467: on the  y  and  x  axes, respectively.
+L468: Dashed lines show a cutoff of two-fold change and a  p -value threshold of 0.05 to define differential regulation of proteins
+L469: between groups. Four proteins, namely, type-II cytokeratin, alpha
+L470: tropomyosin, myosin heavy polypeptide 6, and fatty acid binding protein
+L471: 6, showed a significant change upon vitamin C deficiency in vitamin-E-adequate
+L472: fish, and all were upregulated. Regulation of alpha tropomyosin by
+L473: α-tocopherol aligns well with previously published data. 51
+L474: Figure 3 Volcano plot representation of protein abundance changes caused
+L475: by vitamin C deficiency. Side-by-side comparison of the volcano plots
+L476: of protein abundance changes reveals the permissive role of vitamin
+L477: E in vitamin-C-deficient fish. In the group low in vitamin E, the
+L478: lack of vitamin C causes changes in proteins associated with pathways
+L479: of energy metabolism (pyruvate kinase and glutamate dehydrogenase)
+L480: and other protein with roles in stress response.
+L481: In the Figure  3 B, the volcano plot is shown
+L482: for evaluating differential regulation of proteins in group E–C+
+L483: versus group E–C– (E–C+/E–C– transition).
+L484: We found that three proteins were down-regulated (pyruvate kinase
+L485: M2b, fatty acid binding protein 11, and peptidyl-prolyl cis–trans
+L486: isomerase) and six up-regulated (glial fibrillary acidic protein,
+L487: ventricular myosin heavy chain, glutamate dehydrogenase 1, heat shock
+L488: protein 90 kDa alpha, LOC100002040 protein, and novel myosin family
+L489: protein CH211-158M24.10-001) as a consequence of vitamin C deficiency
+L490: in vitamin-E-deficient fish.
+L491: A side-by-side comparison of the two volcano plots reveals the
+L492: permissive role of vitamin E in the effect of vitamin C deficiency
+L493: on the fish. In the vitamin-E-deficient fish the additional lack of
+L494: vitamin C causes changes in expression levels of proteins responsible
+L495: for energy metabolism, namely, pyruvate kinase and glutamate dehydrogenase,
+L496: along with other marker proteins. To obtain functional insight into
+L497: proteins and pathways that are affected by vitamin C deficiency, we
+L498: functionally annotated the combined proteomic data sets of the E–C–
+L499: and E–C+ groups using the Gene Ontology (GO) classification
+L500: ( Supporting Information , Table S4).
+L501: Responsive Protein Interaction Network of Vitamin C Deficiency
+L502: A protein interaction network was constructed to provide a comprehensive
+L503: visualization of the proteins identified, their abundance estimates,
+L504: as well as differential regulation caused by vitamin C deficiency
+L505: in fish low on vitamin E ( Supporting Information , Figure S9). In the network, each node represents a protein found
+L506: in either group E–C+ or E–C–. The change in protein
+L507: amounts between vitamin-C-adequate and -deficient fish is color coded:
+L508: green nodes represent proteins that increased their amounts, red represent
+L509: those that decreased, and gray nodes show proteins that were not quantified.
+L510: The size of a node represents an average of the protein abundance
+L511: estimates in the E–C– group. The width of a line connecting
+L512: proteins represents the strength of proteins interaction, as extracted
+L513: from STRING. Figure  4  provides a closer look
+L514: at subnetworks that encompassed proteins that were differentially
+L515: regulated in response to vitamin E and C deficiency. Upregulated proteins
+L516: were members of the subnetworks representing glutaminolysis, TCA cycle,
+L517: and stress response.
+L518: Figure 4 Protein–protein interaction network visualization of subnetworks
+L519: that contain proteins that showed changes in expression levels upon
+L520: vitamin C deficiency in the vitamin-E-deficient state. In the network
+L521: each node represents a protein found in either group E–C+ or
+L522: E–C–. The change in protein amounts between vitamin-C-adequate
+L523: and -deficient fish is color-coded: green nodes represent proteins
+L524: that increased their amounts, red represents those that decreased;
+L525: gray nodes show proteins that were not quantified. The size of a node
+L526: represents an average of the protein abundance estimates in the E+C–
+L527: group. The width of a line connecting proteins represents the strength
+L528: of proteins interaction, as extracted from STRING software. Subnetworks
+L529: of proteins involved in glycolysis and the TCA cycle are highlighted
+L530: as well as proteins associated with stress response.
+L531: Biological Inferences of Altered Protein Expressions in Vitamin-E-
+L532: and -C-Deficient Zebrafish
+L533: The interaction network highlights
+L534: the modulation of several proteins involved in two interconnected
+L535: metabolic pathways, the glycolysis and TCA cycle (Figure  5 ). Proteins are shown as upregulated (green arrow
+L536: up), downregulated (red arrow down), unquantified (gray arrow), and
+L537: not detected (no arrow) with their respective numerical fold changes
+L538: ( Supporting Information , Table S4). Proteins
+L539: that showed a statistically significant fold change are marked with
+L540: an asterisk.
+L541: Figure 5 Schematic of the metabolic pathways that were associated with proteins
+L542: that showed changes in abundance estimates as a consequence of vitamin
+L543: C deficiency. To analyze the consequences of vitamin C deficiency,
+L544: we combined quantitative data with metabolic pathways linked to energy
+L545: production, namely, glycolysis, TCA cycle, and glutaminolysis. Proteins
+L546: that were upregulated are indicated by a green arrow up, downregulated
+L547: proteins are marked with a red arrow down, detected but not quantified
+L548: proteins are marked with a double arrow in gray, and not detected
+L549: proteins are unmarked. Proteins are labeled with their respective
+L550: numerical fold-changes observed for vitamin C deficiency (in the vitamin-E-deficient
+L551: group). Proteins that showed a statistically significant fold change
+L552: are marked with an asterisk.
+L553: Upon vitamin C deficiency in groups low on vitamin E, glycolytic
+L554: enzymes were downregulated. The last step in the glycolysis pathway
+L555: involves a transfer of the phosphate group from phosphoenolpyruvate
+L556: to ADP, producing a molecule of pyruvate and a molecule of ATP. This
+L557: step is catalyzed by pyruvate kinase (PK), which was significantly
+L558: downregulated in vitamin-E- and -C-deficient fish ( p  value = 0.009,  t  test for log-transformed data).
+L559: In humans and other mammals, four isoforms of pyruvate kinase are
+L560: expressed: the L and R isoforms are found in liver and red blood cells,
+L561: the M1 isoform is expressed in most adult tissues, and the M2 isoform,
+L562: a splice variant of M1, is the predominant form found in proliferating
+L563: cells and tumor cells. 52 , 53  In the current study, pyruvate
+L564: kinase M2 was detected but not M1 nor L/R. Western Blot analysis confirmed
+L565: the presence and change of pyruvate kinase M2 (data not shown). Under
+L566: the conditions of suppressed glycolysis there will be less production
+L567: of energy (ATP) and reducing power (NADH), the main products of the
+L568: cycle. We may therefore speculate that in vitamin-E- and -C-deficient
+L569: fish compensatory mechanisms for the production of energy are activated.
+L570: Kirkwood et al. studied vitamin-C-deficient zebrafish at the metabolome
+L571: level and reported activation of the purine nucleotide cycle as possible
+L572: compensatory mechanism to satisfy intracellular ATP requirements. 29
+L573: After conversion of glutamine to glutamate, glutamate dehydrogenase
+L574: catalyzes the production of α-ketoglutarate, which subsequently
+L575: enters the TCA cycle. The conversion of glutamine to lactate is commonly
+L576: referred as glutaminolysis. 54 , 55  Our quantitative proteomic
+L577: study indicates that several proteins that play key roles in glutaminolysis
+L578: are elevated in vitamin-E- and -C-deficient fish (E–C–
+L579: group). Our data sets show a significant increase in levels of glutamate
+L580: dehydrogenase (Glud1b) under vitamin E and C deficiency compared with
+L581: E deficiency alone ( p  value = 0.046,  t  test for log-transformed data). The change in this protein was confirmed
+L582: with Western Blot (data not shown). Malate dehydrogenase and lactate
+L583: dehydrogenase, enzymes involved in glutaminolysis, were increased
+L584: as well. The elevation of several key enzymes involved in glutaminolysis
+L585: supports the notion that vitamin E and C deficiency promotes a metabolic
+L586: phenotype in which glutaminolytic pathways are activated for alternative
+L587: energy production (ATP) and reducing power (NADPH) in cells under
+L588: conditions of suppressed glycolysis.
+L589: In addition, our quantitative proteomics screens revealed that
+L590: Glial fibrillary acidic protein (Gfap) was significantly elevated
+L591: (27 times) in fish deficient in both vitamins ( p  value
+L592: = 0.002,  t  test for log transformed data), while
+L593: there was no significant difference in Gfap expression between E+C+
+L594: and E–C+ groups consistent with the notion that vitamin E seems
+L595: to exhibit a permissive role in governing the proteome biology of
+L596: adult zebrafish. The adverse effect of deficiency of both vitamins
+L597: has been previously reported. 2  The identification
+L598: of Gfap was based on a conservative probability for protein identification
+L599: of at least 85% and at least two unique peptides with peptide identification
+L600: probability of at least 50%. The similarity between zebrafish and
+L601: human Gfap (GFAP_HUMAN, entry P14136 in Uniprot) is 65%, as calculated
+L602: by Blast search. Despite the good homology of the human and zebrafish
+L603: protein, the human antibody used in the Western blot analyses showed
+L604: nonspecific binding and Western blots were not conclusive. Gfap is
+L605: a recognized marker of neurologic injury and trauma and is released
+L606: during astrogliosis in higher vertebrates. 56 − 58
+L607: Conclusions
+L608: We applied a label-free comparative proteomics approach for examining
+L609: the systems-wide consequences of insufficient levels of two essential
+L610: micronutrients, vitamins E and C, in adult zebrafish. The experimental
+L611: design adopted allowed the study of vitamin C deficiency at the whole
+L612: organism level. Using a label-free quantitative proteomic workflow,
+L613: it was possible to assess for the first time changes in the vertebrate
+L614: proteome upon vitamin C deficiency. The label-free quantitative bottom-up
+L615: strategy with LC–ion mobility–MS E  is a powerful
+L616: approach to determine protein abundance estimates in zebrafish. We
+L617: report sensitivity of the method as low as 20 amol and a dynamic range
+L618: of five orders of magnitude for protein level estimates. Our results
+L619: indicate the modulation of expression of proteins involved in stress
+L620: response and metabolic pathways associated with energy production.
+L621: Our findings suggest that severe vitamin C deficiency potentiated
+L622: by vitamin E deficiency causes the suppression of glycolysis and the
+L623: activation of glutaminolysis as an alternative way to fulfill cellular
+L624: energy requirements. Glial fibrillary acidic protein (Gfap) showed
+L625: a significant overexpression in fish low in both vitamins C and E,
+L626: proving that severe vitamin C deficiency in combination with low vitamin
+L627: E status causes injury of the central nervous system.
+L628: Supplementary Material
+L629: pr401108d_si_001.pdf
+L630: pr401108d_si_002.xlsx
+L631: Burk R. F. ;  Christensen J. M. ;  Maguire M. J. ;  Austin L. M. ;  Whetsell W. O. ;  May J. M. ;  Hill K. E. ;  Ebner F. F. 
+L632:  J. Nutr. 
+L633:  2006 ,  136 ,  1576 – 1581 . 16702324
+L634: Hill K. E. ;  Montine T. J. ;  Motley A. K. ;  Li X. ;  May J. M. ;  Burk R. F. 
+L635:  Am. J. Clin. Nutr. 
+L636:  2003 ,  77 ,  1484 – 8 . 12791628
+L637: Lebold K. M. ;  Löhr C. V ;  Barton C. L. ;  Miller G. W. ;  Labut E. M. ;  Tanguay R. L. ;  Traber M. G. 
+L638:  Comp. Biochem. Physiol., Part C: Toxicol.
+L639: Pharmacol. 
+L640:  2013 ,  157 ,  382 – 9 .
+L641: Buettner G. R. ;  Schafer F. Q. 
+L642:  Teratology 
+L643:  2000 ,  62 ,  234 . 10992266
+L644: Halliwell B. 
+L645:  Free Radic. Res. 
+L646:  1999 ,  261 – 72 . 10517532
+L647: Kalyanaraman B. ;  Darley-Usmar V. M. ;  Wood J. ;  Joseph J. ;  Parthasarathy S. 
+L648:  J. Biol. Chem. 
+L649:  1992 ,  267 ,  6789 – 95 . 1313022
+L650: Bruno R. S. ;  Leonard S. W. ;  Atkinson J. ;  Montine T. J. ;  Ramakrishnan R. ;  Bray T. M. ;  Traber M. G. 
+L651:  Free Radic. Biol. Med. 
+L652:  2006 ,  40 ,  689 – 97 . 16458200
+L653: Buettner G. 
+L654:  Arch. Biochem. Biophys. 
+L655:  1993 ,  535 – 43 . 8434935
+L656: Peterkovsky B. ;  Undenfriend S. 
+L657:  Proc. Natl. Acad. Sci. U. S. A. 
+L658:  1965 ,  53 ,  335 – 42 . 14294066
+L659: Myllylä R. ;  Kuutti-Savolainen E.-R. ;  Kivirikko K. I. 
+L660:  Biochem. Biophys. Res. Commun. 
+L661:  1978 ,  83 ,  441 – 448 . 212056
+L662: Diaz M. N. ;  Frei B. ;  Vita J. A. ;  Keaney J. F. 
+L663:  N. Engl. J. Med. 
+L664:  1997 ,  337 ,  408 – 16 . 9241131
+L665: Wilson J. X. 
+L666:  Biofactors 
+L667:  2009 ,  35 ,  5 – 13 . 19319840
+L668: Armour J. ;  Tyml K. ;  Lidington D. ;  Wilson J. X. 
+L669:  J. Appl. Physiol. 
+L670:  2001 ,  90 ,  795 – 803 . 11181585
+L671: Piyathilake C. J. ;  Macaluso M. ;  Hine R. J. ;  Vinter D. W. ;  Richards E. W. ;  Krumdieck C. L. 
+L672:  Cancer Epidemiol. Biomarkers Prev. 
+L673:  1995 ,  4 ,  751 – 8 . 8672992
+L674: Frikke-Schmidt H. ;  Tveden-Nyborg P. ;  Birck M. M. ;  Lykkesfeldt J. 
+L675:  Br. J. Nutr. 
+L676:  2011 ,  105 ,  54 – 61 . 20875184
+L677: Bánhegyi G. ;  Braun L. ;  Csala M. ;  Puskás F. ;  Mandl J. 
+L678:  Free
+L679: Radic. Biol. Med. 
+L680:  1997 ,  23 ,  793 – 803 . 9296457
+L681: Chatterjee I. B. ;  Majumder A. K. ;  Nandi B. K. ;  S. N. 
+L682:  Ann. N.Y. Acad. Sci. 
+L683:  1975 ,  24 – 47 . 1106297
+L684: Delanghe J. R. ;  Langlois M. R. ;  De Buyzere M. L. ;  Na N. ;  Ouyang J. ;  Speeckaert M. M. ;  Torck M. a 
+L685:  Genes Nutr. 
+L686:  2011 ,  6 ,  341 – 6 . 21614623
+L687: Nishikimi M. ;  Fukuyama R. ;  Minoshima S. ;  Shimizu N. ;  Yagi K. 
+L688:  J. Biol. Chem. 
+L689:  1994 ,  269 ,  13685 – 8 . 8175804
+L690: Grollman A. P. ;  Lehninger A. L. 
+L691:  Arch. Biochem. Biophys. 
+L692:  1957 ,  69 ,  458 – 467 . 13445217
+L693: Harrison F. E. ;  Meredith M. E. ;  Dawes S. M. ;  Saskowski J. L. ;  May J. M. 
+L694:  Brain Res. 
+L695:  2010 ,  1349 ,  143 – 52 . 20599829
+L696: Telang S. ;  Clem A. L. ;  Eaton J. W. ;  Chesney J. 
+L697:  Neoplasia 
+L698:  2007 ,  9 ,  47 – 56 . 17325743
+L699: Dabrowski K. 
+L700:  Biol. Chem. Hoppe-Seyler 
+L701:  1990 ,  371 ,  207 – 14 . 2340104
+L702: Touhata K. ;  Toyohara H. ;  Mitani T. ;  Kinoshita M. ;  Satou M. ;  Sakaguchi M. 
+L703:  Fish. Sci. 
+L704:  1995 ,  61 ,  729 – 730 .
+L705: Toyohara H. ;  Nakata T. ;  Touhata K. ;  Hashimoto H. ;  Kinoshita M. ;  Sakaguchi M. ;  Nishikimi M. ;  Yagi K. ;  Wakamatsu Y. ;  Ozato K. 
+L706:  Biochem. Biophys. Res. Commun. 
+L707:  1996 ,  223 ,  650 – 3 . 8687450
+L708: Phromkunthong W. ;  Storch V. ;  Braunbeckw T. 
+L709:  J. Appl. Ichthyol. 
+L710:  1994 ,  10 ,  146 – 153 .
+L711: Dabrowski K. ;  Ciereszko A. 
+L712:  Experientia 
+L713:  1996 ,  52 ,  97 – 100 . 8608823
+L714: Drouin G. ;  Godin J.-R. ;  Pagé B. 
+L715:  Curr. Genomics 
+L716:  2011 ,  12 ,  371 – 8 . 22294879
+L717: Kirkwood J. S. ;  Lebold K. M. ;  Miranda C. L. ;  Wright C. L. ;  Miller G. W. ;  Tanguay R. L. ;  Barton C. L. ;  Traber M. G. ;  Stevens J. F. 
+L718:  J. Biol. Chem. 
+L719:  2012 ,  287 ,  3833 – 41 . 22170049
+L720: Brigelius-Flohe R. ;  Traber M. G. 
+L721:  FASEB J. 
+L722:  1999 ,  13 ,  1145 – 1155 . 10385606
+L723: Traber M. G. ;  Atkinson J. 
+L724:  Free Radic. Biol. Med. 
+L725:  2007 ,  43 ,  4 – 15 . 17561088
+L726: McCormack A. L. ;  Schieltz D. M. ;  Goode B. ;  Yang S. ;  Barnes G. ;  Drubin D. ;  Y. J. 3rd. 
+L727:  Anal. Chem. 
+L728:  1997 ,  69 ,  767 – 76 . 9043199
+L729: Peng J. ;  Elias J. E. ;  Thoreen C. C. ;  Licklider L. J. ;  G. S. 
+L730:  J. Proteome
+L731: Res. 
+L732:  2003 ,  2 ,  43 – 50 . 12643542
+L733: Washburn M. P. ;  Wolters D. ;  Yates J. R. 
+L734:  Nat. Biotechnol. 
+L735:  2001 ,  19 ,  242 – 7 . 11231557
+L736: Voyksner R. D. ;  Lee H. 
+L737:  Rapid
+L738: Commun. Mass Spectrom. 
+L739:  1999 ,  13 ,  1427 – 37 . 10407334
+L740: Purves R. W. ;  Gabryelski W. ;  Li L. 
+L741:  Rapid Commun. Mass Spectrom. 
+L742:  1998 ,  12 ,  695 – 700 .
+L743: Croker C. G. ;  Pearcy J. O. ;  Stahl D. C. ;  Moore R. E. ;  Keen D. A. ;  Lee T. D. 
+L744:  J. Biomol. Tech. 
+L745:  2000 ,  11 ,  135 – 141 . 19499049
+L746: Plumb R. S. ;  Johnson K. A. ;  Rainville P. ;  Smith B. W. ;  Wilson I. D. ;  Castro-perez J. M. ;  Nicholson J. K. 
+L747:  Rapid Commun. Mass Spectrom. 
+L748:  2006 ,  1989 – 1994 . 16755610
+L749: Geromanos S. J. ;  Vissers J. P. C. ;  Silva J. C. ;  Dorschel C. a ;  Li G.-Z. ;  Gorenstein M. V ;  Bateman R. H. ;  Langridge J. I. 
+L750:  Proteomics 
+L751:  2009 ,  9 ,  1683 – 95 . 19294628
+L752: Silva J. C. ;  Denny R. ;  Dorschel C. ;  Gorenstein M. V ;  Li G.-Z. ;  Richardson K. ;  Wall D. ;  Geromanos S. J. 
+L753:  Mol. Cell. Proteomics 
+L754:  2006 ,  5 ,  589 – 607 . 16399765
+L755: Ritter S. 
+L756:  Chem. Eng. News 
+L757:  2007 ,  85 ,  61 – 65 .
+L758: Salbo R. ;  Bush M. F. ;  Naver H. ;  Campuzano I. ;  Robinson C. V ;  Pettersson I. ;  Jørgensen T. J. D. ;  Haselmann K. F. 
+L759:  Rapid Commun. Mass Spectrom. 
+L760:  2012 ,  26 ,  1181 – 93 . 22499193
+L761: Hoaglund-Hyzer C. S. ;  Li J. ;  Clemmer D. E. 
+L762:  Anal. Chem. 
+L763:  2000 ,  72 ,  2737 – 40 . 10905301
+L764: Miller G. W. ;  Labut E. M. ;  Lebold K. M. ;  Floeter A. ;  Tanguay R. L. ;  Traber M. G. 
+L765:  J. Nutr. Biochem. 
+L766:  2012 ,  23 ,  478 – 486 . 21684137
+L767: Keller A. ;  Nesvizhskii A. I. ;  Kolker E. ;  Aebersold R. 
+L768:  Anal. Chem. 
+L769:  2002 ,  74 ,  5383 – 5392 . 12403597
+L770: Nesvizhskii A. I. ;  Keller A. ;  Kolker E. ;  Aebersold R. 
+L771:  Anal. Chem. 
+L772:  2003 ,  75 ,  4646 – 4658 . 14632076
+L773: Szklarczyk D. ;  Franceschini A. ;  Kuhn M. ;  Simonovic M. ;  Roth A. ;  Minguez P. ;  Doerks T. ;  Stark M. ;  Muller J. ;  Bork P. ;  Jensen L. J. ;  Von Mering C. 
+L774:  Nucleic Acids Res. 
+L775:  2011 ,  39 ,  D561 – 8 . 21045058
+L776: Smoot M. E. ;  Ono K. ;  Ruscheinski J. ;  Wang P.-L. ;  Ideker T. 
+L777:  Bioinformatics 
+L778:  2011 ,  27 ,  431 – 432 . 21149340
+L779: Righetti P. G. ;  Castagna A. ;  Herbert B. ;  Reymond F. ;  Rossier J. S. 
+L780:  Proteomics 
+L781:  2003 ,  3 ,  1397 – 407 . 12923764
+L782: Ramsey F. L. ;  Schafer D. W. The Statistical Sleuth:
+L783: A Course in Methods of Data Analysis ;  Cengage
+L784: Learning :  Boston ,  2012 ; p  760 .
+L785: Azzi A. ;  Breyer I. ;  Feher M. ;  Ricciarelli R. ;  Stocker A. ;  Zimmer S. ;  Zingg J. 
+L786:  J. Nutr. 
+L787:  2001 ,  131 ,  378S – 81S . 11160565
+L788: Jurica M. S. ;  Mesecar A. ;  Heath P. J. ;  Shi W. ;  Nowak T. ;  Stoddard B. L. 
+L789:  Structure 
+L790:  1998 ,  6 ,  195 – 210 . 9519410
+L791: Mazurek S. ;  Boschek C. B. ;  Hugo F. ;  Eigenbrodt E. 
+L792:  Semin. Cancer Biol. 
+L793:  2005 ,  15 ,  300 – 8 . 15908230
+L794: DeBerardinis R. J. ;  Mancuso A. ;  Daikhin E. ;  Nissim I. ;  Yudkoff M. ;  Wehrli S. ;  Thompson C. B. 
+L795:  Proc. Natl. Acad. Sci. U. S. A. 
+L796:  2007 ,  104 ,  19345 – 50 . 18032601
+L797: Le A. ;  Lane A. N. ;  Hamaker M. ;  Bose S. ;  Gouw A. ;  Barbi J. ;  Tsukamoto T. ;  Rojas C. J. ;  Slusher B. S. ;  Zhang H. ;  Zimmerman L. J. ;  Liebler D. C. ;  Slebos R. J. C. ;  Lorkiewicz P. K. ;  Higashi R. M. ;  Fan T. W. M. ;  Dang C. V 
+L798:  Cell Metab. 
+L799:  2012 ,  15 ,  110 – 21 . 22225880
+L800: Vos P. E. ;  Lamers K. J. B. ;  Hendriks J. C. M. ;  van Haaren M. ;  Beems T. ;  Zimmerman C. ;  van Geel W. ;  de Reus H. ;  Biert J. ;  Verbeek M. M. 
+L801:  Neurology 
+L802:  2004 ,  62 ,  1303 – 10 . 15111666
+L803: Eng L. F. ;  Ghirnikar R. S. ;  Lee Y. L. 
+L804:  Neurochem. Res. 
+L805:  2000 ,  25 ,  1439 – 51 . 11059815
+L806: Schiff L. ;  Hadker N. ;  Weiser S. ;  Rausch C. 
+L807:  Mol. Diagn. Ther. 
+L808:  2012 ,  16 ,  79 – 92 . 22497529
+L809: Acknowledgments
+L810: We thank Dr. Cristobal Miranda for assistance in sample preparation.
+L811: This study was partially made possible by grants from the National
+L812: Institutes of Health, P30ES000210, S10RR025628, and R01HD062109.
+L813: # **SUPPLEMENTARY INFORMATION** A proteome-driven elucidation of adaptive responses to combined vitamin E and C deficiency in zebrafish
+L814: _Ievgen V. Motorykin_ _[1]_ _, Maret G. Traber_ _[2]_ _, Robert L. Tanguay_ _[3]_ _, and Claudia S. Maier_ _[1*]_
+L815: 1Department of Chemistry, Oregon State University, Corvallis, OR 97331, U.S.A
+L816: 2 Linus Pauling Institute and 3School of Biological and Population Health Sciences,
+L817: Oregon State University, Corvallis, OR 97331, U.S.A
+L818: 3Department of Environmental and Molecular Toxicology, Oregon State University,
+L819: Corvallis, OR 97331, U.S.A
+L820: **Supplementary Table S1.** Pipetting scheme used for sample lysis and preparation of digests.
+L821: **Supplementary Table S2.** Synapt G2 HDMS instrument settings used for Ion-Mobility-MS [E]
+L822: acquisitions.
+L823: **Supplementary Table S3.** The number of peptides and proteins found in each of the biological
+L824: samples subjected to LC-IM-MS [E] .
+L825: **Supplementary Table S4.** Proteins identified in the E-C+ and the E-C- groups, GO annotations
+L826: and fold-changes observed in the vitamin C deficient fish (E-C-/E-C+ transition).
+L827: **Excel file: Supplementary Table S5.** Protein Table for Study (A) E+C+ vs E+C- and (B) E-C+
+L828: vs E-C- The compilation of proteins found in each samples, unique peptides identified per
+L829: protein and respective sequence coverage.
+L830: **Supplementary Figure S1** . Design of the feeding experiment. Briefly, at 42 day of age, 40 fish
+L831: were divided in two groups and fed diets low in vitamin C with vitamin E at sufficient or
+L832: deficient levels. Thus, two vitamin groups were created: E+C- and E-C- with 20 fish in each
+L833: group. Supplementation continued for 56 days, after which half of the fish population in each
+L834: group was harvested. The diet of remaining fish was altered to have a high amount of vitamin C,
+L835: thus creating another two vitamin groups: E+C+ and E-C+. After an additional 21 days, the fish
+L836: were harvested. Thus, four groups with 10 fish in each were created, each having different
+L837: vitamins levels that varied with supplementation: E+C+, E-C+, E+C- and E-C-.
+L838: **Supplemental Figure S2** . Workflow used for preparing the samples for the label-free “bottom
+L839: up” quantitative proteomics study.
+L840: Fish was individually ground under liquid nitrogen using a mortar and pestle. While still dry, the
+L841: fish powder was transferred to a pre-weighted microcentrifuge tube and the mass of the tube with
+L842: fish powder was recorded. The mass of the fish was calculated by the difference. A PBS solution
+L843: with ProteaseMAX (0.04%) was added to the micro tubes for the extraction of proteins; its
+L844: volume was adjusted to account for fish mass variability. Assuming the density of extraction
+L845: solution 1 mg/mL, its mass was calculated as 6 times that of a fish. Tubes of fish powder solution
+L846: were frozen in liquid nitrogen for 2 minutes, thawed for 5 min, and sonicated for 15 minutes.
+L847: Last three steps were repeated three times. After lysis, tubes were centrifuged at 4 ºC for 10
+L848: minutes at 15,000 relative centrifugal force (rcf) and the supernatants were transferred to new
+L849: microcentrifuge tubes (1.3 mL). After protein digestion, 9  L of digest was mixed with 1 µL of
+L850: the internal standard and the mixture was subjected to LC- ion mobility – MS [E] analysis.
+L851: **Supplementary Figure S3** . Fish characteristics dependent on the vitamin regime fed.
+L852: (A) Boxplots of distribution of fish body weight. Fish from vitamin groups were harvested at
+L853: preselected age (98 days vs. 119 days) and had a different vitamin supplementation.
+L854: Therefore it was expected that there will be a difference between the average fish mass
+L855: between groups. The median fish mass is lower for groups with a shorter life span, but the
+L856: difference was statistically significant only between E+C+ and E-C- groups (p-value=0.006).
+L857: (B) The ratios of median growth rate between vitamins groups. Ratios representing the effect of
+L858: vitamin E deficiency are colored in green and those representing the effect of vitamin C are
+L859: in blue. The growth rate (median body mass / age) of fish adequate in both vitamins (E+C+
+L860: group) was approximately 3-times higher compared to the group deficient in both vitamins
+L861: (E-C- group). Vitamin C deficiency seemed to have a more drastic effect on the growth rate
+L862: compared to inadequate vitamin E levels.
+L863: **Supplemental Figure S4** . A boxplot of the distribution of the total protein concentration after
+L864: extraction and lysis.
+L865: Total protein concentrations were distributed in a narrow range, as was expected with the sample
+L866: preparation that accounts for differences in fish mass. The median of total protein concentration
+L867: was 2.382 mg/mL, sample size=37.
+L868: **Supplementary Figure S5.** Gradient profiles with respective base peak chromatograms.
+L869: To yield the maximum number of eluted peptides, a LC gradient was optimized. For this, a
+L870: sample was run using different LC gradients and the number of eluted peptides was compared.
+L871: By changing the mobile phase composition over time, the gradient was optimized after each run
+L872: to make the elution of peptides even across a chromatogram and to reduce peptide coelution. The
+L873: gradients were named “Gradient1”, “Gradient2”, “Gradient3” and “Gradient4”. The comparison
+L874: of the total ion chromatograms illustrates how different clusters of eluting compounds are
+L875: moving across the chromatogram allowing better separation of peptides dependent on the
+L876: gradient design.
+L877: **Supplementary Figure S6** . Venn’s diagrams comparing the number of peptides eluting from a
+L878: column and identified with LC-IM-MS [E] .
+L879: More identified peptides means more identified proteins with greater probability. Gradient 4 (3%
+L880: to 40% B in 90 minutes) was chosen for further peptide separation.
+L881: **Supplementary Figure S7** . Correlation plot between E-C+ sample 9 and E-C+ sample 8.
+L882: On the axis is log2 of the concentration of proteins found in both groups. 95% confidence band is
+L883: drawn with short-dashed line, 95% prediction band is long-dashed line. Adjusted R [2] shows some
+L884: variability between biological replicates.
+L885: **Supplementary Figure S8** . Correlation plot matrix of the E-C+ group.
+L886: As expected, variation between fish was observed and the correlation is stronger between
+L887: samples, where the number of proteins found is higher.
+L888: **Supplementary Figure S9** . The responsive protein network for the vitamin transition C+/C- and
+L889: both groups deficient in vitamin E status (E-C+ vs E-C+). The network was constructed using
+L890: proteins observed in the quantitative proteomics screens of fish adequate in vitamin C versus fish
+L891: deficient in vitamin C both with deficient vitamin E status (transition E-C+ /E-C- ). In the
+L892: network each node represents a protein found in either group E-C+ or E-C-. The change in
+L893: protein amounts between vitamin C adequate and deficient fish is color coded: green nodes
+L894: represent proteins that increased their amounts, red represent those that decreased, and grey
+L895: nodes show proteins that were not quantified. The size of a node represents an average of the
+L896: protein abundance estimate in E-C- group. The width of a line connecting proteins represents the
+L897: strength of proteins interaction, as extracted from STRING. Proteins involved in glycolysis, the
+L898: TCA cycle, stress response and heat shock proteins are highlighted.
+L899: **Supplementary Table S1.** Protocol for sample lysis and preparation of digests.
+L900: |Col1|Col2|Solubilization/Lysis|Preparation of Digests|
+L901: |---|---|---|---|
+L902: |Sample|Fish<br>weight,<br> mg|Volume<br>of<br>pMAX,<br>µL<br>Volume<br>of<br>PBS, µL<br>Total<br>volume,<br>µL<br>Concen-<br>tration,<br>µg/mL|Volume<br>for<br>digestion,<br> µL<br>Mass of<br>proteins<br>for<br>digestion,<br>µg<br>Volume of<br>NH4HCO3, <br> µl|
+L903: |<br>C+E+ #3<br>C+E+ #4<br>C+E+ #5<br>C+E+ #6<br>C+E+ #7<br>C+E+ #8<br>C+E+ #9<br>C+E+ #10<br> <br>C+E- #1<br>C+E- #2<br>C+E- #3<br>C+E- #4<br>C+E- #5<br>C+E- #6<br>C+E- #7<br>C+E- #8<br>C+E- #9<br>C+E- #10<br> <br>C-E+ #1<br>C-E+ #2<br>C-E+ #3<br>C-E+ #4<br>C-E+ #5<br>C-E+ #6<br>C-E+ #7<br>C-E+ #8<br>C-E+ #9<br>C-E+ #10<br> <br>C-E- #1<br>C-E- #2<br>C-E- #3|62.0<br>115.0<br>29.2<br>143.4<br>231.0<br>207.3<br>242.7<br>183.5<br>127.6<br>81.2<br>58.9<br>103.1<br>124.1<br>71.8<br>65.8<br>207.6<br>123.8<br>215.3<br>32.5<br>201.9<br>168.8<br>41.1<br>70.1<br>168.2<br>51.1<br>42.7<br>73.1<br>76.9<br>72.4<br>14.9<br>87.8|<br>74<br>298<br>372<br>2080.0<br>138<br>552<br>690<br>2642.6<br>35<br>140<br>175<br>1682.1<br>172<br>688<br>860<br>845.1<br>277<br>1109<br>1386<br>2423.0<br>249<br>995<br>1244<br>2217.2<br>291<br>1165<br>1456<br>2148.6<br>220<br>881<br>1101<br>1942.8<br> <br>153<br>612<br>765<br>2217.2<br>97<br>390<br>487<br>707.9<br>71<br>283<br>354<br>2477.9<br>124<br>495<br>619<br>2587.7<br>149<br>596<br>745<br>2464.2<br>86<br>345<br>431<br>2697.5<br>79<br>316<br>395<br>2656.3<br>249<br>996<br>1245<br>2258.8<br>149<br>594<br>743<br>2299.5<br>258<br>1033<br>1291<br>2381.9<br> <br>39<br>156<br>195<br>2450.5<br>242<br>969<br>1211<br>2313.3<br>203<br>810<br>1013<br>2258.4<br>49<br>197<br>246<br>2409.3<br>84<br>336<br>420<br>2464.2<br>202<br>807<br>1009<br>2327.0<br>61<br>245<br>306<br>2519.1<br>51<br>205<br>256<br>2656.3<br>88<br>351<br>439<br>2327.0<br>92<br>369<br>461<br>2368.2<br> <br>87<br>348<br>435<br>1983.9<br>18<br>72<br>90<br>2711.2<br>105<br>421<br>526<br>2409.3|<br>24.0<br>49.9<br>69.5<br>18.9<br>49.9<br>74.6<br>29.7<br>50.0<br>63.8<br>59.2<br>50.0<br>34.3<br>20.6<br>49.9<br>72.9<br>22.6<br>50.1<br>70.9<br>23.3<br>50.1<br>70.2<br>25.7<br>49.9<br>67.8<br> <br>22.6<br>50.1<br>70.9<br>70.6<br>50.0<br>22.9<br>20.2<br>50.1<br>73.3<br>19.3<br>49.9<br>74.2<br>20.3<br>50.0<br>73.2<br>18.5<br>49.9<br>75.0<br>18.8<br>49.9<br>74.7<br>22.1<br>49.9<br>71.4<br>21.7<br>49.9<br>71.8<br>21.0<br>50.0<br>72.5<br> <br>20.4<br>50.0<br>73.1<br>21.6<br>50.0<br>71.9<br>22.1<br>49.9<br>71.4<br>20.8<br>50.1<br>72.7<br>20.3<br>50.0<br>73.2<br>21.5<br>50.0<br>72.0<br>19.8<br>49.9<br>73.7<br>18.8<br>49.9<br>74.7<br>21.5<br>50.0<br>72.0<br>21.1<br>50.0<br>72.4<br> <br>25.2<br>50.0<br>68.3<br>18.4<br>49.9<br>75.1<br>20.8<br>50.1<br>72.7|
+L904: **Supplementary Table S2** . Synapt G2 HDMS instrument settings used for the ion-mobility-MS [E]
+L905: acquisitions.
+L906: |Col1|Col2|
+L907: |---|---|
+L908: |Capillary voltage, kV|2.5|
+L909: |Sampling cone|40|
+L910: |Extraction cone|4.2|
+L911: |Source temperature, ºC|40|
+L912: |Desolvation temperature, ºC|300|
+L913: |Cone gas flow, L/Hr|20|
+L914: |Nanoflow gas pressure, Bar|1|
+L915: |Purge gas flow, mL/Hr|100|
+L916: |Desolvation gas flow, L/Hr|100|
+L917: |IMS gas flow, mL/min|75.30|
+L918: |Reference scan frequency, sec|60|
+L919: |LockSpray capillary, kV|3.0|
+L920: |Use manual trap DC|FALSE|
+L921: |Use manual IMS DC|FALSE|
+L922: |Use manual transfer DC|FALSE|
+L923: |Source manual control|OFF|
+L924: |Trap manual control|OFF|
+L925: |IMS manual control|OFF|
+L926: |Transfer manual control|OFF|
+L927: |**Function parameters – Function 1**|**Function parameters – Function 1**|
+L928: |Trap collision energy, eV|6.0|
+L929: |Transfer collision energy, eV|0.0|
+L930: |Maintain mobility separation|YES|
+L931: |**Function parameters – Function 2**|**Function parameters – Function 2**|
+L932: |Using auto trap MS collision energy, eV|4.0|
+L933: |Transfer MS collision energy low, eV|27.0|
+L934: |Transfer MS collision energy high, eV|50.0|
+L935: |Maintain mobility separation|YES|
+L936: |**Function parameters – Function 3 (Lock Mass)**||
+L937: |Using auto trap MS collision energy, eV|4.0|
+L938: |Using auto trnsfer MS collision energy, eV|0.0|
+L939: |Maintain mobility separation|YES|
+L940: **Supplementary Table S3.** The number of proteins, peptides and spectra found in biological
+L941: samples, as extracted from Scaffold software.
+L942: |Bio<br>Category Sample|#Prot #Pept #Spec|
+L943: |---|---|
+L944: |E-C+<br>B1<br>E-C+<br>B2<br>E-C+<br>B3<br>E-C+<br>B4<br>E-C+<br>B5<br>E-C+<br>B6<br>E-C+<br>B7<br>E-C+<br>B8<br>E-C+<br>B9<br>E-C+<br>B10<br>E-C-<br>D1<br>E-C-<br>D2<br>E-C-<br>D3<br>E-C-<br>D4<br>E-C-<br>D5<br>E-C-<br>D6<br>E-C-<br>D7<br>E-C-<br>D8<br>E-C-<br>D9<br> <br>E+C+<br>A3<br>E+C+<br>A4<br>E+C+<br>A5<br>E+C+<br>A6<br>E+C+<br>A7<br>E+C+<br>A8<br>E+C+<br>A9<br>E+C+<br>A10<br>E+C-<br>C1<br>E+C-<br>C2<br>E+C-<br>C3<br>E+C-<br>C4<br>E+C-<br>C5<br>E+C-<br>C6<br>E+C-<br>C7<br>E+C-<br>C8<br>E+C-<br>C9|50<br>138<br>3341<br>197<br>1263<br>37888<br>185<br>1164<br>26128<br>109<br>373<br>8439<br>74<br>217<br>5770<br>63<br>306<br>3156<br>99<br>345<br>8833<br>167<br>1016<br>16434<br>159<br>845<br>11886<br>140<br>793<br>10109<br>110<br>441<br>11595<br>104<br>389<br>7832<br>94<br>509<br>6751<br>99<br>431<br>9345<br>138<br>797<br>9668<br>134<br>842<br>8257<br>72<br>255<br>13220<br>74<br>357<br>3632<br>133<br>827<br>8665<br>153<br>811<br>8920<br>64<br>273<br>4447<br>162<br>735<br>12179<br>102<br>239<br>12038<br>183<br>1000<br>17021<br>178<br>821<br>16849<br>127<br>405<br>9551<br>61<br>44<br>1581<br>101<br>401<br>12201<br>152<br>536<br>14657<br>68<br>93<br>2717<br>125<br>340<br>12040<br>125<br>488<br>9672<br>112<br>295<br>7091<br>151<br>596<br>27808<br>143<br>568<br>10600<br>129<br>441<br>8682|
+L945: E+C- C10 49 48 648
+L946: **Supplementary Table S4** . Proteins identified in the E-C+ and the E-C- groups, GO annotations and fold-changes observed in the
+L947: vitamin C deficient fish (E-C-/E-C+ transition).
+L948: **Accession** **Ave E-C+,** **Fold**
+L949: **Protein name** **Gene name**
+L950: **number** **fmol** **change**
+L951: **Glycolysis cycle**
+L952: Q6DG54 Pyruvate kinase pkm2b 45.29 **0.43
+L953: Q6P043 Fructose-bisphosphate aldolase aldoab 19.00 *1.57
+L954: Q7ZW73 Fructose-bisphosphate aldolase aldob 39.04 0.85
+L955: Q803Q7 Fructose-bisphosphate aldolase aldoaa 78.28 0.44
+L956: Q7SXW7 Phosphoglucomutase 1 pgm1 23.81 0.53
+L957: Q7ZV29 Phosphoglycerate kinase pgk1 27.86 0.85
+L958: **TCA cycle**
+L959: Q6PEI6 Aconitase 2, mitochondrial aco2 10.48 1.05
+L960: Q7T334 Malate dehydrogenase mdh2 28.84 0.77
+L961: Q801E6 Malate dehydrogenase mdh1a 19.01 1.13
+L962: Q7ZUP6 Isocitrate dehydrogenase 2 (NADP+), mitochondrial idh2 37.54 0.73
+L963: B2GTW6 Citrate synthase cs 22.32 0.89
+L964: **Glutaminolysis**
+L965: Q6P3L9 Glutamate dehydrogenase 1 glud1b 15.59 *2.12
+L966: Q7ZVJ4 L-lactate dehydrogenase ldha 24.75 1.13
+L967: Q803U5 L-lactate dehydrogenase ldhba 13.76 0.97
+L968: **Structural molecule activity**
+L969: Q8JIY5 Glial fibrillary acidic protein gfap 1.19 **27.82
+L970: Q90441 Desmin desma 12.24 1.62
+L971: A8WGN0 Keratin 8 krt8 36.64 1.72
+L972: Q9PUB5 Type II cytokeratin krt5 13.41 0.68
+L973: Q9PUB6 Type I cytokeratin cki 4.75 1.42
+L974: Q9PWD8 Type I cytokeratin cyt1 6.42 0.58
+L975: Q1LXJ1 Novel protein similar to type I cytokeratin, enveloping layer krt17 19.37 2.34
+L976: Q6DHB6 Zgc:92533 zgc:92533 53.76 0.40
+L977: **ATP binding (not functional)**
+L978: Q9PTF5 Nucleoside diphosphate kinase nme2b.1 28.46 1.80
+L979: Q7SXL4 Nucleoside diphosphate kinase nme2b.2 535.05 1.11
+L980: A0JMC2 Myhz2 protein (Fragment) myhz2 2.44 0.73
+L981: A2BGX8 Novel protein similar to myosin heavy chain 4 (Myhc4) (Fragment) CH211- 4.93 2.95
+L982: 251M3.3001
+L983: A7E2L9 LOC100002040 protein (Fragment) myhb 1.93 *5.96
+L984: A8WBZ8 Slow myosin heavy chain 3 (Fragment) smyhc3 2.98 1.07
+L985: B6IDE1 Slow myosin heavy chain 2 smyhc2 33.18 1.23
+L986: B8A559 Novel myosin family protein (Fragment) CH211- 10.63 *5.90
+L987: 158M24.10001
+L988: B8A561 Novel myosin family protein myhz1.2 2.42 4.48
+L989: O93409 Myosin light chain 2 mylz2 363.78 1.33
+L990: Q508P7 Fast myosin heavy chain 4 myhc4 65.68 0.25
+L991: Q9I8U7 Fast skeletal muscle myosin light polypeptide 3 mylz3 89.46 1.56
+L992: Q7T1B8 Fast skeletal myosin heavy chain 3 (Fragment) myhz1.2 4.39 1.30
+L993: Q6P0G6 Novel protein similar to vertebrate myosin, light chain 6, alkali, smooth muscle and myl1 39.60 1.17
+L994: non-muscle (MYL6, zgc:77231)
+L995: Q9PVE1 Ventricular myosin heavy chain vmhc 17.21 **4.19
+L996: A7E2H1 Zgc:152732 protein (Fragment) vmhcl 22.92 0.80
+L997: A0JMP4 ATPase, Ca++ transporting, cardiac muscle, fast twitch 1 like atp2a1l 29.87 0.82
+L998: Q08BA1 ATP synthase subunit alpha atp5a1 42.54 0.61
+L999: Q4VBK0 ATP synthase subunit beta atp5b 14.01 1.26
+L1000: Q6ZM60 Novel protein similar to vertebrate ATPase, Ca++ transporting, cardiac muscle, slow atp2a2b 2.61 1.81
+L1001: twitch 2 (ATP2A2)
+L1002: Q7ZW18 ATPase, Ca++ transporting, cardiac muscle, slow twitch 2a atp2a2a 10.65 0.62
+L1003: Q8UUJ8 Stress protein HSP70 hsp70 7.19 1.74
+L1004: Q6P3L3 Heat shock protein 5 hspa5 18.91 0.52
+L1005: Q6PGX4 Heat shock cognate 71 kDa protein hsc70 21.12 1.31
+L1006: A5WWG8 Heat shock protein 90kDa alpha (Cytosolic), class B member 1 hsp90ab1 7.55 *2.32
+L1007: A8WG05 Bactin2 protein bactin2 186.24 1.31
+L1008: Q08BV6 Novel protein (Zgc:92079) ckba 10.83 0.15
+L1009: Q68EH2 Zgc:91930 ak1 35.98 0.51
+L1010: Q7T306 Ckmb protein ckmb 128.37 1.51
+L1011: Q802Z4 Zgc:66156 protein (Fragment) zgc:66156 47.02 0.86
+L1012: **Cardiac muscle contraction**
+L1013: A7E2K1 Tropomyosin alpha-1 chain tpm1 9.10 1.04
+L1014: Q5SPK5 Alpha-tropomyosin tpma 3.78 0.94
+L1015: Q5SPK6 Alpha-tropomyosin tpma 122.33 1.53
+L1016: Q5U3J6 Tropomyosin 4 tpm4 4.04 2.09
+L1017: Q6P0W3 Novel protein similar to vertebrate tropomyosin 1 (Alpha) (TPM1, zgc:77592) tpm3 7.72 1.41
+L1018: Q7ZVK9 Tpm1 protein tpm1 20.75 1.24
+L1019: Q7SXW1 Zgc:63734 tpm4b 28.49 0.61
+L1020: Q7T3F0 Tropomyosin 4 tpm4 21.16 0.99
+L1021: Q803M1 Novel protein similar to vertebrate tropomyosin 1 (Alpha) (TPM1, zgc:77592) tpm3 23.85 0.40
+L1022: Q6IQD7 Zgc:86810 tpm2 18.26 0.53
+L1023: **Monooxygenase activity**
+L1024: A3KNI9 Ywhab1 protein ywhaba 23.26 1.29
+L1025: B8JLJ3 Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, iota ywhai 11.79 0.55
+L1026: polypeptide
+L1027: Q5CZQ1 Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon
+L1028: polypeptide 2
+L1029: Q6P102 Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, beta
+L1030: polypeptide like
+L1031: Q7ZW20 Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon
+L1032: polypeptide 1
+L1033: Q803M8 Tryosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta
+L1034: polypeptide
+L1035: ywhae2 15.11 1.16
+L1036: ywhabl 71.98 0.42
+L1037: ywhae1 22.16 0.47
+L1038: ywhaqb 18.02 0.65
+L1039: **Oxidoreductase activity**
+L1040: B0S7W4 Aldehyde dehydrogenase 9 family, member A1 like 1 aldh9a1a 14.03 0.60
+L1041: Q4KME8 Vesicle amine transport protein 1 homolog (T californica) vat1 26.08 0.71
+L1042: **DNA binding**
+L1043: A7E2M8 Histone H2B zgc:173585 67.48 1.85
+L1044: O93584 Y box binding protein 1 ybx1 12.31 0.75
+L1045: **Calcium ion binding**
+L1046: Q2YDR5 Actinin, alpha 2 actn2 0.76 5.48
+L1047: Q7SYE2 Actinin, alpha 4 actn4 22.56 3.61
+L1048: Q8AX99 Actn3b actn3b 44.21 0.88
+L1049: A2BHA3 Creatine kinase, muscle ckm 54.23 0.47
+L1050: D1GJ54 Actn1 isoform c (Fragment) actn1 5.98 2.34
+L1051: Q804W0 Parvalbumin 1 pvalb1 198.64 0.57
+L1052: Q7ZT36 Parvalbumin 3 pvalb3 538.72 0.81
+L1053: Q6IMW7 Parvalbumin 4 pvalb4 39.32 0.39
+L1054: Q6XG62 Ictacalcin icn 61.70 0.73
+L1055: Q9I8U8 Fast skeletal muscle troponin C tnnc 31.42 1.14
+L1056: **Lipid binding**
+L1057: B2ZHD8 Fatty acid-binding protein 6 fabp6 18.52 1.31
+L1058: Q66I80 Fatty acid binding protein 11a fabp11a 19.26 *0.36
+L1059: Q9I8N9 Brain-type fatty acid binding protein fabp7a 11.22 0.39
+L1060: A2BGB3 Apolipoprotein A-I apoa1 13.83 1.98
+L1061: Q567B9 Apolipoprotein A-IV (Fragment) apoa4 17.21 2.72
+L1062: **Other or unknown activity**
+L1063: A0JMJ1 Scinderin like a scinla 16.08 2.22
+L1064: B0S564 Novel protein similar to vertebrate procollagen-proline p4hb 16.20 0.85
+L1065: B0UYN4 Novel protein (Zgc:162944) DKEY- 4.02 2.29
+L1066: 57A22.8
+L1067: B3DFP9 Zgc:193613 apoa2 51.57 *1.72
+L1068: B3DG37 Ba1 protein ba1 50.50 1.65
+L1069: Q1JQ69 Hbaa1 protein hbaa1 93.74 0.69
+L1070: B7ZVL6 Putative uncharacterized protein tnnt3b 79.49 0.58
+L1071: B8JL43 Transferrin-a tfa 37.09 1.32
+L1072: Q32PU7 Zgc:123194 zgc:123194 21.88 0.96
+L1073: Q4JIY5 Elongation factor 1-alpha ef1a 15.86 2.46
+L1074: Q503C7 Phosphorylase pygma 31.55 0.76
+L1075: Q5RKM9 Phosphorylase pygl 7.56 4.45
+L1076: Q8UUZ6 Alpha A crystallin cryaa 13.04 0.93
+L1077: Q52JI3 Beta B3-crystallin crybb3 15.22 0.56
+L1078: Q52JI4 Beta B2-crystallin crybb2 11.43 *1.82
+L1079: Q5BJ14 Zgc:110761 mybpc2b 24.50 1.38
+L1080: Q5PR62 Zgc:103458 tnni1b 5.50 1.89
+L1081: Q6DHP2 Troponin I, skeletal, fast 2b.2 tnni2b.2 23.01 2.78
+L1082: Q6DHU6 Troponin I, skeletal, fast 2a.3 tnni2a.3 50.41 0.67
+L1083: Q6IQ92 Troponin 1 tnni1al 4.48 1.27
+L1084: Q6PBJ8 Peptidyl-prolyl cis-trans isomerase fkbp1aa 22.04 **0.19
+L1085: Q6PC53 Peptidyl-prolyl cis-trans isomerase ppial 47.77 0.74
+L1086: Q6TLG8 Ribosomal protein S3 rps3 6.40 1.32
+L1087: Q7ZUI4 Thioredoxin zgc:56493 12.73 0.81
+L1088: Q9DDU5 Glutathione S-transferase pi gstp1 17.87 0.69
+L1089: - p-value<0.05
+L1090: ** p-value<0.01
+L1091: **Supplementary Figure S1** . Design of the feeding experiment.
+L1092: **Supplemental Figure S2** . Workflow used for preparing the samples for the label-free “bottom
+L1093: up” quantitative proteomics study.
+L1094: **B**
+L1095: |Col1|E+C+|E-C+|E+C-|E-C-|
+L1096: |---|---|---|---|---|
+L1097: |E+C+|1.00||||
+L1098: |E-C+|1.29|1.00|||
+L1099: |E+C-|1.68|1.30|1.00||
+L1100: |E-C-|3.02|2.34|1.79|1.00|
+L1101: **Supplementary Figure S3** . Fish characteristics dependent on the vitamin regime fed.
+L1102: A) Boxplots of distribution of fish body weight.
+L1103: B) Ratios of median growth rate between vitamin groups.
+L1104: **Supplemental Figure S4** . Boxplot of the distribution of the total protein concentration after
+L1105: extraction and lysis.
+L1106: **Supplementary Figure S5.** Gradient profiles with respective base peak chromatograms.
+L1107: **Supplementary Figure S6** . Venn’s diagrams comparing the number of peptides identified by
+L1108: LC-IM-MS [E] .
+L1109: **SupplementaryFigure S7** . Correlation plot between E-C+ sample 9 and E-C+ sample 8.
+L1110: **Supplementary Figure S8** . Correlation plot matrix of the E-C+ group.
+L1111: **Supplementary Figure S9** . The responsive protein network for the vitamin transition C+/C- with deficient vitamin E status.
+L1112: # Summary: pr401108d_si_002.xlsx
+L1113: - **Sheets**: 2
+L1114: - **Total tables**: 2
+L1115: ## Sheet: E+C+ vs E+C- seq cover
+L1116: - Tables found: 1
+L1117: ### Table 1: Table_1
+L1118: - **Rows**: 119
+L1119: - **Columns**: 21
+L1120: | Column | Dtype | Non-null | Sample values |
+L1121: |--------|-------|----------|---------------|
+L1122: | Protein name | str | 119 | Myhz2 protein (Fragment), ATPase, Ca++ transporting, card... |
+L1123: | Gene name | str | 119 | myhz2, atp2a1l, apoa1 |
+L1124: | Accession number | str | 119 | A0JMC2, A0JMP4, A2BGB3 |
+L1125: | E+C+#3 | str | 94 | 1(29%), 5(8%), 3(13%) |
+L1126: | E+C+#4 | str | 40 | 0(11%), 1(22%), 1(25%) |
+L1127: | E+C+#5 | str | 91 | 3(27%), 15(19%), 2(9.2%) |
+L1128: | E+C+#6 | str | 63 | 0(6.7%), 4(5.4%), 0(6.3%) |
+L1129: | E+C+#7 | str | 108 | 1(17%), 13(17%), 5(17%) |
+L1130: | E+C+#8 | str | 109 | 0(15%), 8(9.4%), 3(13%) |
+L1131: | E+C+#9 | str | 85 | 0(6.7%), 2(3%), 1(5.3%) |
+L1132: | E+C+#10 | str | 16 | 1(2.6%), 0(0.63%), 0(7.5%) |
+L1133: | E+C-#1 | str | 49 | 0(13%), 1(27%), 8(17%) |
+L1134: | E+C-#2 | str | 101 | 0(9.2%), 2(2.7%), 1(3.8%) |
+L1135: | E+C-#3 | str | 38 | 0(1.4%), 0(5.2%), 0(8.1%) |
+L1136: | E+C-#4 | str | 73 | 1(17%), 2(3%), 1(22%) |
+L1137: | E+C-#5 | str | 81 | 0(14%), 3(4.7%), 1(18%) |
+L1138: | E+C-#6 | str | 75 | 0(3.2%), 1(3.8%), 0(12%) |
+L1139: | E+C-#7 | str | 99 | 1(15%), 5(6.4%), 3(9.9%) |
+L1140: | E+C-#8 | str | 97 | 1(21%), 3(4.5%), 2(9.2%) |
+L1141: | E+C-#9 | str | 85 | 1(17%), 1(1.7%), 2(9.2%) |
+L1142: | E+C-#10 | str | 21 | 0(1.4%), 0(1.5%), 0(7.5%) |
+L1143: ## Sheet: E-C+ vs E-C- seq cover
+L1144: - Tables found: 1
+L1145: ### Table 1: Table_1
+L1146: - **Rows**: 112
+L1147: - **Columns**: 22
+L1148: | Column | Dtype | Non-null | Sample values |
+L1149: |--------|-------|----------|---------------|
+L1150: | Protein name | str | 112 | Myhz2 protein (Fragment), Scinderin like a, ATPase, Ca++ ... |
+L1151: | Gene name | str | 112 | myhz2, scinla, atp2a1l |
+L1152: | Accession number | str | 112 | A0JMC2, A0JMJ1, A0JMP4 |
+L1153: | E-C+#1 | str | 34 | 0(1.5%), 0(6.9%), 2(4.4%) |
+L1154: | E-C+#2 | str | 109 | 4(31%), 2(3.1%), 20(24%) |
+L1155: | E-C+#3 | str | 109 | 1(24%), 5(8.8%), 18(23%) |
+L1156: | E-C+#4 | str | 74 | 0(5.7%), 2(3.0%), 3(7.2%) |
+L1157: | E-C+#5 | str | 44 | 0(2.4%), 1(2.6%), 0(2.2%) |
+L1158: | E-C+#6 | str | 48 | 0(10%), 2(14%), 9(29%) |
+L1159: | E-C+#7 | str | 60 | 0(4.3%), 1(10%), 10(30%) |
+L1160: | E-C+#8 | str | 104 | 0(12%), 1(1.8%), 16(17%) |
+L1161: | E-C+#9 | str | 107 | 1(13%), 14(17%), 7(21%) |
+L1162: | E-C+#10 | str | 92 | 0(5.8%), 1(1.3%), 12(12%) |
+L1163: | E-C-#1 | str | 64 | 1(15%), 2(2.8%), 2(9.1%) |
+L1164: | E-C-#2 | str | 67 | 0(12%), 4(5.4%), 3(12%) |
+L1165: | E-C-#3 | str | 70 | 0(16%), 7(7.5%), 4(24%) |
+L1166: | E-C-#4 | str | 57 | 1(17%), 2(3.0%), 1(34%) |
+L1167: | E-C-#5 | str | 99 | 2(28%), 5(6.5%), 11(12%) |
+L1168: | E-C-#6 | str | 97 | 1(25%), 2(3.1%), 13(13%) |
+L1169: | E-C-#7 | str | 45 | 0(10%), 1(1.3%), 0(12%) |
+L1170: | E-C-#8 | str | 52 | 0(11%), 3(2.7%), 2(20%) |
+L1171: | E-C-#9 | str | 97 | 0(21%), 14(17%), 4(14%) |
+[35ms]
+

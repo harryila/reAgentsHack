@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_3e947dfd",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-10-paper-search.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:38:53.010662+00:00",
+  "elapsed_seconds": 0.39378654188476503,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:38:52.616864+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-10-paper-search.export.attempt-01.stderr",
+  "stdout_bytes": 117,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/smoke/live/live-10-paper-search.export.attempt-01.stdout"
+}

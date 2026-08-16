@@ -1,0 +1,1807 @@
+L1: Vitamin Supplementation in Sports: A Decade of Evidence-Based Insights
+L2: Nutrients (2026)
+L3: Magdalena Wiacek, Emilia Nowak, Piotr Lipka, Remigiusz Denda, Igor Z. Zubrzycki
+L4: Department of Medical and Health Sciences, Radom University, Chrobrego 27, 26-600 Radom, Poland;  117442@student.uthrad.pl  (E.N.);  117472@student.uthrad.pl  (P.L.);  117356@student.uthrad.pl  (R.D.);  i.zubrzycki@urad.edu.pl  (I.Z.Z.)
+L5: Background : Vitamins are micronutrients involved in multiple physiological processes critical for athletic performance. Because athletes are often exposed to increased oxidative stress, higher metabolic turnover, and greater nutritional demands, which can potentially lead to deficiencies in vitamins, understanding vitamin supplementation as a function of sport discipline is of fundamental importance.  Methods : This narrative review synthesizes research findings from the past decade, supplemented with earlier studies where necessary, focusing on vitamins A, C, D, E, and the B-complex vitamins. Peer-reviewed literature was evaluated for evidence on the prevalence of deficiencies in athletes, physiological mechanisms, supplementation strategies, and their effects on performance, injury prevention, and recovery.  Results : Vitamin D deficiency is highly prevalent among athletes, particularly in indoor sports and during the winter months. Supplementation has been shown to improve musculoskeletal health and potentially reduce injury risk. The antioxidant vitamins C and E can attenuate exercise-induced oxidative stress and muscle damage; however, excessive intake may impair adaptive responses such as mitochondrial biogenesis and protein synthesis. Vitamin A contributes to immune modulation, metabolic regulation, and mitochondrial function, while B-complex vitamins support energy metabolism and red blood cell synthesis.  Conclusions : Vitamin supplementation in athletes should be individualized, targeting confirmed deficiencies and tailored to sport-specific demands, age, sex, and training intensity. Dietary optimization should remain the primary strategy, with supplementation serving as an adjunct when intake is insufficient. Further high-quality, sport-specific, and long-term studies are needed to establish clear dosing guidelines and to assess the balance between performance benefits and potential risks associated with over-supplementation.
+L6: Review
+L7: vitamins; sports performance; supplementation; recovery; injury prevention
+L8: 1. Introduction
+L9: Athletes are often perceived as exemplary of a healthy lifestyle, characterized by consistent engagement in physical activity, adherence to a balanced diet, and a proactive approach to health maintenance [ 1 ]. In recent years, there has been a notable increase in research and commercial interest directed toward the development of dietary supplements specifically tailored to the needs of physically active populations [ 2 ]. The rationale for supplementation among athletes is primarily based on the expectation that these products can enhance physical performance, optimize health outcomes, and expedite post-exercise recovery [ 3 , 4 , 5 ]. The most frequently consumed supplements include creatine, caffeine, isotonic beverages, vitamin D, energy bars, magnesium, and vitamin C [ 6 , 7 ].
+L10: Despite the common perception that athletes are generally better nourished than the average population [ 8 ], emerging evidence indicates that micronutrient deficiencies are prevalent within this demographic [ 9 ]. Among these, vitamin D deficiency appears particularly common [ 4 ]. The elevated physical workload experienced by athletes increases metabolic demands, rendering adequate dietary intake and targeted supplementation of deficient vitamins especially critical [ 10 ]. Nevertheless, the current dietary reference intakes for vitamins and minerals recommended for athletes are not differentiated from those for the general population [ 11 ].
+L11: A balanced diet plays a pivotal role in sustaining optimal athletic performance due to the diverse physiological functions of vitamins in the context of exercise [ 12 , 13 , 14 , 15 , 16 ]. These functions include antioxidant defense, regulation of energy metabolism, facilitation of blood coagulation, modulation of immune responses, promotion of tissue repair, and maintenance of bone mineralization [ 4 , 6 , 10 , 17 ]. In addition, adequate vitamin intake—whether achieved through diet or supplementation—has been shown to reduce fatigue in physically active individuals [ 17 ]. Conversely, inadequate vitamin supply is associated with an increased risk of musculoskeletal injuries [ 18 ], heightened susceptibility to acute illnesses [ 13 , 19 ], diminished sports performance [ 13 ], and delayed recovery following strenuous exercise [ 20 ].
+L12: Given the evidence that adequate vitamin intake exerts a positive influence on both exercise performance and post-exercise recovery, it is concerning that literature directly addressing the effects of vitamin supplementation in relation to specific sports disciplines remains scarce. Studies investigating the long-term effects of vitamin supplementation in athletes are minimal. Furthermore, methodological shortcomings are frequently observed, including reliance on retrospective and self-reported dietary assessments, as well as the inclusion of small sample sizes, which collectively constrain the reliability and external validity of findings [ 21 , 22 , 23 , 24 ].
+L13: Another significant limitation is that most existing reports lack practical applicability for coaches, sports nutritionists, and practitioners. Few studies provide discipline-specific, age-specific, or sex-specific supplementation guidelines, thereby limiting the translation of research into actionable strategies [ 25 , 26 , 27 , 28 ]. This represents a critical gap in the evidence base, as tailored recommendations are essential for optimizing supplementation protocols to meet the diverse needs of athletes participating in various sports and training regimens.
+L14: In response to these deficiencies, this narrative review aims to synthesize the available evidence from the past decade, with reference to earlier studies as necessary. The primary objective is to formulate specific, evidence-based recommendations that guide supplementation strategies for physically active individuals, thereby contributing to enhanced athletic performance, improved recovery, and overall health.
+L15: Finally, several limitations inherent to this review should be acknowledged. The narrative synthesis approach, although appropriate in light of the considerable heterogeneity of study designs, populations, and measured outcomes, carries an inherent risk of interpretation bias. Moreover, the inclusion of studies with varying methodological rigor may impact the strength and reliability of the conclusions presented.
+L16: In interpreting the evidence, we weighted conclusions according to methodological rigor—drawing stronger, more confident inferences from replicated randomized controlled trials (e.g., vitamins D and C), while applying intentionally cautious, conservative wording in sections where evidence is sparse, heterogeneous, or based primarily on mechanistic or observational studies (e.g., vitamins A and K).
+L17: 2. Methods
+L18: Databases and Search Dates:  We conducted structured searches in PubMed, ScienceDirect, PEDro, and the Cochrane Library, covering the period from 2010 to 2024, supplemented by earlier or later seminal works as necessary.
+L19: Search Strings : Search strings combined vitamin-specific and performance-related terms using Boolean operators:
+L20: (“vitamin A” OR “retinol” OR “retinoic acid”) OR (“vitamin B” OR “thiamine” OR “riboflavin” OR “niacin” OR “pyridoxine” OR “folate” OR “cobalamin”) OR (“vitamin C” OR “ascorbic acid”) OR (“vitamin D” OR “25(OH)D”) OR (“vitamin E” OR “tocopherol”) OR (“vitamin K” OR “phylloquinone” OR “menaquinone”) AND (“athletes” OR “sports” OR “exercise” OR “performance” OR “recovery” OR “injury prevention”).
+L21: Eligibility : The presented study utilized peer-reviewed human studies (including both athlete and non-athlete populations) that reported vitamin status, supplementation, or performance outcomes. Mechanistic and animal studies were considered only when directly relevant to underlying physiological pathways. Inclusion: Human studies (RCTs, cohort, cross-sectional, case–control) examining vitamin status, supplementation, or performance outcomes in athletes or active adults. Exclusion: Case reports, non-peer-reviewed materials, animal studies (except when elucidating physiological mechanisms), and studies combining vitamins with multiple ergogenic aids where vitamin effects were indiscernible. Population Handling: Data from non-athlete studies were included only when providing mechanistic insights relevant to metabolic or physiological pathways in sport; these are clearly labeled as extrapolations.
+L22: Athlete vs. Non-Athlete Data : When data derived from non-athlete populations were discussed, these were clearly labeled as extrapolations to provide mechanistic or contextual background, not direct evidence for athletes.
+L23: Quality Appraisal:  As a narrative review, we did not apply formal systematic review tools; however, we performed a structured quality appraisal of included studies using the SANRA (Scale for the Assessment of Narrative Review Articles) criteria, focusing on the justification of the article’s importance, the comprehensiveness of the literature search, the level of evidence, and the balance of presentation.
+L24: Critical Appraisal : Study rigor and narrative balance were assessed using the SANRA criteria, evaluating (1) justification of topic importance; (2) clarity of aims; (3) comprehensive literature coverage; (4) transparent referencing; (5) scientific reasoning and balance; and (6) explicit statement of limitations. Each study was qualitatively graded for methodological clarity, population relevance, and reproducibility of findings.  Table 1  provides an overview of the studies included in this review.
+L25: 3. Water-Soluble Vitamins
+L26: Vitamin C
+L27: The relationship between vitamin C supplementation and athletic performance has been a critical area of investigation and the subject of numerous literature reviews over the last forty years [ 29 , 30 , 31 , 32 , 33 , 34 , 35 , 36 , 37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , 45 ].
+L28: As a potent antioxidant, vitamin C plays a crucial role in mitigating oxidative stress that occurs during intense physical exercise [ 46 ]. Analysis of the recent literature revealed that the role of vitamin C extends beyond reducing oxidative damage. It is also integral in enhancing overall physical performance and recovery following strenuous activities. A recent study has indicated that athletes who participate in aerobic activities and consume vitamin C experience less muscle soreness and quickly return to baseline performance following physical effort [ 17 ]. In high-intensity training regimens that increase free radical production, supplementation with vitamin C can help support stronger training adaptations [ 47 ]. Patlar et al. [ 48 ] in their study on the effects of vitamin C in mitigating oxidative stress during rigorous training discovered that moderate-dose vitamin C supplementation (e.g., 300 mg/day) significantly prevented lipid peroxidation in athletes performing exhaustive exercises.
+L29: It was also shown that vitamin C supplementation can significantly decrease markers of oxidative stress during and after exercise when administered orally in a dose of 300 mg/day [ 48 ] or when administered orally for 14 days, 4 times a day, in a 500 mg dose [ 49 ]. Junaidi et al. [ 17 ] and Günalan et al. [ 7 ] confirmed that vitamin C helps reduce exercise-induced muscle damage.
+L30: Recent studies have confirmed that supplementation with vitamin C may also enhance the post-training recovery process in athletes by influencing both metabolic and inflammatory responses [ 48 , 49 , 50 ]. Furthermore, in a controlled study involving basketball players, decreased cortisol levels were observed in subjects supplemented with vitamin C at doses ranging from 0.25 to 1.0 g per day [ 51 ]. By lowering cortisol levels, vitamin C may improve subsequent performance during later training sessions, suggesting a direct benefit for athletes looking to maintain high levels of performance over time [ 50 ].
+L31: While the benefits of vitamin C are well-documented in endurance sports [ 29 , 52 , 53 ], its potential advantages also extend to other forms of athletic activity. For example, in combat sports, the antioxidant properties of vitamin C have been linked to improved recovery from muscle injuries and better overall training adaptations [ 54 ]. Chou et al. [ 50 ] demonstrated that short-term high-dose vitamin C supplementation significantly reduced muscle damage and inflammatory responses in athletes participating in intense Taekwondo competitions. These observations suggest that vitamin C supplementation may mitigate the severity of muscle injuries and the associated inflammatory response, which, in consequence, leads to improved recovery outcomes. A probable influence on tendinopathy recovery, a phenomenon accounting for a substantial part of all sports injuries and occupational disorders [ 55 ], has also been critically acclaimed in the study by Noriega-Gonzalez et al. [ 56 ] following supplementation with vitamin C.
+L32: Nevertheless, the latest findings on the efficacy of vitamin C supplementation are still debated. Some studies suggest that excessive antioxidant supplementation may hinder the positive adaptations to training by disrupting signaling pathways that facilitate beneficial cellular responses to oxidative stress [ 54 , 55 ]. Kim et al. [ 56 ] noted that while antioxidant supplementation can aid recovery, it may interfere with the physiological adaptations necessary for enhancing strength and endurance. It reinforces the recommendation by Wilson-Barnes et al. [ 25 ] that athletes should aim to achieve adequate vitamin intake through a balanced diet rather than solely through supplements.
+L33: While vitamin C can reduce oxidative damage [ 57 ], it may also dampen the body’s natural over-compensation mechanisms that typically occur after strenuous exercise [ 44 , 58 ]. Thus, moderation and timing of vitamin C intake are paramount for athletes aiming to maximize performance while reaping the benefits of this nutrient [ 43 , 50 ].
+L34: Furthermore, the form of vitamin C supplementation—i.e., through dietary sources or as an isolated supplement—can influence its efficacy [ 59 ]. Because whole food sources of vitamin C, such as fruits and vegetables, provide additional benefits derived from other phytochemicals and micronutrients that may enhance absorption and utilization [ 60 ]. It is a compelling rationale for athletes to focus on a well-rounded diet that includes rich sources of vitamin C, along with adequate protein and carbohydrates necessary for recovery [ 44 , 58 ].
+L35: In conclusion, vitamin C supplementation holds promise in supporting athletic performance, particularly by reducing muscle soreness and oxidative stress while enhancing recovery. However, athletes must strike a careful balance in their approach to supplementation to avoid potential negative impacts on exercise adaptations as observed by Nikolaidis et al. [ 61 ] and Shunchang et al. [ 7 ]. Future research should continue to explore optimal dosing strategies, the timing of supplementation relative to training sessions, and the effects of dietary sources of vitamin C on athletic performance outcomes. The benefits and risks of vitamin C supplementation are compiled in  Table 2 .
+L36: It is worth noting that since the body typically regulates vitamin C levels tightly, excreting excess amounts through urine, doses greater than 2 g per day may result in side effects, such as gastrointestinal disturbances (diarrhea, nausea, and abdominal cramps) [ 49 ]. Additionally, there is evidence that excessive vitamin C supplementation could interfere with the absorption of other nutrients and minerals, particularly copper and selenium, which can lead to complications in overall health and athletic performance [ 51 ]. Furthermore, individuals with certain health conditions, such as kidney disease, may be particularly at risk, as high levels of vitamin C can lead to the formation of kidney stones, especially oxalate stones, in susceptible individuals [ 54 , 74 , 75 , 76 ]. Individuals with glucose-6-phosphate dehydrogenase (G6PD) deficiency may experience hemolysis when exposed to high doses of vitamin C [ 77 , 78 , 79 , 80 ]. It was also demonstrated that ultra-high doses of vitamin C are associated with hemolytic events [ 74 , 81 ]. Moreover, in individuals with hemochromatosis or those with high iron stores, excessive vitamin C intake may exacerbate iron overload, potentially leading to toxicity. This risk is particularly concerning for patients with genetic predispositions to iron accumulation [ 81 ]. In the presence of transition metals like iron and copper, vitamin C can act as a prooxidant. This dual role raises concerns about its safety in high doses, as it may contribute to oxidative damage rather than prevent it [ 82 ].
+L37: Despite the abundance of data on vitamin C application in sports, the study suffers from methodological limitations. Thus, (1) the heterogeneity of study designs, populations, and outcome measures in vitamin C research presents significant challenges for evidence synthesis. (2) Analysis of the literature revealed that many studies employ different supplementation protocols, making direct comparisons difficult. (3) Additionally, the definition of” athletic populations” varies widely, from recreational exercisers to elite competitors, further complicating interpretation, and (4) the lack of standardized outcome measures is particularly problematic.
+L38: Analysis of the literature allowed for elucidation of the targeted supplementation protocol. Thus, the moderate-dose protocol (recommended for most athletes) encompasses a dosage of 200–500 mg daily, divided into two doses, i.e., a morning dose of 200–300 mg with breakfast and evening dose of 100–200 mg with dinner, with special consideration given to avoiding taking vitamin C immediately before or after key training sessions [ 83 ].
+L39: 4. B Vitamins
+L40: The B-vitamin complex includes eight water-soluble vitamins—B1 (thiamine), B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), B6 (pyridoxine), B7 (biotin), B9 (folate), and B12 (cobalamin). They are critical in sports and physical performance due to their roles in energy production [ 84 ], red blood cell synthesis [ 85 ], neurological function [ 86 ], and tissue repair [ 87 ]. Although each B vitamin has distinct physiological functions, they often work together as coenzymes in key metabolic pathways that support athletic performance and recovery [ 14 , 88 , 89 , 90 , 91 ].
+L41: It can be observed that thiamine (B1) is strongly linked to carbohydrate metabolism and aerobic energy production, thereby reducing fatigue by activating pyruvate dehydrogenase [ 88 , 92 ]. Riboflavin (B2) contributes to aerobic metabolism, reduces muscle pain, and accelerates recovery, as supported by double-blinded trials [ 92 , 93 ]. Niacin (B3) supports the formation of NAD/NADP coenzymes, which are essential for glycolysis and the citric acid cycle, with emerging links to the modulation of oxidative stress [ 94 , 95 ]. Pantothenic acid (B5), a precursor to coenzyme A, underpins fatty acid metabolism [ 96 , 97 ], while pyridoxine (B6) may enhance immune response and muscular endurance [ 98 ]. Biotin (B7) functions in carboxylation reactions essential for macronutrient metabolism [ 99 ], though evidence in athletes is limited. Folate (B9) supports amino acid metabolism and regulates homocysteine levels, influencing cardiovascular health and inflammation [ 100 , 101 ]. Vitamin B12 facilitates red blood cell synthesis and oxygen transport, while also supporting cognitive processing and reaction speed [ 88 , 102 , 103 ].
+L42: A recent study found that supplementation with vitamin B1 (thiamine) is associated with lower levels of pyruvate and lactic acid, which helps reduce fatigue during high-intensity exercise [ 88 ]. It suggests that thiamine can enhance performance by improving energy metabolism and delaying fatigue [ 104 ]. Because thiamine activates the pyruvate dehydrogenase complex, boosting glucose-to-energy conversion, it may benefit athletes in aerobic sports [ 105 ].
+L43: Its active form, thiamine pyrophosphate, plays a crucial role in carbohydrate metabolism during exercise [ 104 ]. It supports the role of thiamine in boosting aerobic metabolism and energy production [ 105 ]. A broader review supports the idea that adequate vitamin intake enhances muscle function, recovery, and athletic output [ 4 ].
+L44: However, thiamine deficiency can impair metabolism and negatively impact performance [ 106 ], leading to fatigue and reduced performance [ 107 , 108 ], particularly under physical stress, such as in combat sports [ 106 ].
+L45: A double-blinded, placebo-controlled trial on the influence of vitamin B2 on sports performance [ 94 ] suggested that riboflavin supplementation before and during prolonged running may reduce muscle pain and soreness during and after exercise, as well as enhance early functional recovery after the workout. This observation was complemented by a randomized, placebo-controlled double-blinded trial conducted by Kent et al. [ 93 ], who showed that the group consuming riboflavin had a significantly shorter recovery time after a bout, 9.9 days versus 22.2 days in the placebo group ( p  < 0.05). It has also been shown that riboflavin enhances aerobic power and recovery [ 107 ]. Athletes generally maintain adequate B2 levels, likely due to higher dietary intake [ 108 ].
+L46: Vitamin B3, also known as niacin or nicotinic acid, plays several critical roles in athletic performance by modulating energy metabolism and neurological function. Vitamin B3 (niacin) enhances athletic performance by modulating energy metabolism and neurological function through the formation of coenzymes NAD and NADP, which are vital in glycolysis and the citric acid cycle [ 88 ]. While some research links niacin to reduced oxidative stress and improved muscle recovery, evidence in athletes remains under evaluation [ 94 , 95 ]. Ghazzawi et al. showed that adequate niacin may help sustain performance by maintaining energy reserves and supporting cardiovascular health [ 109 ]. In high-stress environments, it could also support neurotransmitter activity and mental stamina [ 110 ]. However, the recent study shows that vitamins B1, B2, and B3 do not consistently produce ergogenic effects [ 111 ].
+L47: Pantothenic acid (B5) is essential in energy metabolism [ 96 ], fatty acid synthesis [ 112 ], and coenzyme production [ 113 ]. As a coenzyme A precursor, B5 plays a role in aerobic energy metabolism [ 97 ]. However, it does not improve aerobic performance [ 114 ]. Combined with other B vitamins, it may support endurance and recovery; however, further studies are needed [ 115 ].
+L48: Data on the applicability of B6 (pyridoxine) in sports is scarce. However, a recent study showed that it may modulate the immune response and, when combined with other B vitamins, improve agility and muscular endurance [ 98 ]. Manore et al. [ 116 ] showed that women are prone to a decline in pyridoxine levels during periods of dieting and exercise.
+L49: Little is known about biotin (B7) in athletic contexts, but in general metabolism, it acts as a CO 2  carrier in carboxylation reactions that are vital for the synthesis of fatty acids, amino acids, and carbohydrates [ 99 ]. In animal models, B7 has been shown to improve traits under oxidative stress [ 117 ].
+L50: Folate (B9) is crucial for amino acid metabolism [ 118 ]. Its deficiency elevates homocysteine [ 100 ] and increases the risk of cardiovascular disease [ 119 , 120 ]. In athletes, it affects endurance, making folate vital to training and peak performance [ 109 ]. It may also lower C-reactive protein, reducing inflammation [ 101 ]. Studies have linked higher folate intake with improved performance and recovery [ 121 , 122 ], particularly in female elite athletes [ 123 ]. It has been shown that vegetarian and vegan athletes are at risk of folate deficiency [ 103 , 120 ].
+L51: The synthesis of red blood cells is a crucial process facilitated by vitamin B12, which serves as a coenzyme in the conversion of homocysteine to methionine, a vital step in DNA synthesis and cellular replication [ 102 ]. A deficiency in vitamin B12 can lead to megaloblastic anemia, characterized by larger-than-normal red blood cells that are ineffective in transporting oxygen [ 124 ]. For athletes, this may lead to decreased endurance and increased fatigue. Some studies indicate that a well-maintained level of vitamin B12 is essential for preserving optimal endurance capabilities during exercise [ 109 ].
+L52: Vitamin B12 supports red blood cell formation by converting homocysteine to methionine, a step required for DNA synthesis and cell replication [ 102 ]. Deficiency leads to megaloblastic anemia, impairing oxygen transport and reducing endurance capability [ 124 ]. Proper B12 levels help maintain stamina and recovery by supporting fatty acid and amino acid metabolism [ 109 ]. Adequate B12 reduces lactate build-up during intense training [ 4 ]. Vegetarians and vegans face a higher risk of B12 deficiency [ 105 , 124 ], necessitating careful monitoring and potential supplementation [ 88 ]. Supplementation with B12 helps maintain” appropriate” levels, critical for sustaining metabolism, endurance, and recovery during sports bouts [ 103 ]. B12 is also essential for cognition, aiding processing speed and decision-making—crucial for competitive athletes [ 88 , 103 ]. Reduced vitamin B12 levels could potentially lead to declines in mental performance, affecting reaction times and decision-making skills—the latter being vital for competitive athletes, especially in fast-paced sports [ 103 ].
+L53: A study by Lee et al. [ 88 ] found that 28 days of B-complex supplementation (including B1, B2, B6, and B12) improved endurance and reduced fatigue without any adverse effects. Nevertheless, other studies show that B1, B2, and B3 may not yield ergogenic benefits unless thiamine derivatives are involved [ 111 ]. Thiamin, riboflavin, and B6 remain key to energy metabolism, which is vital for athletes [ 125 , 126 ].
+L54: A study involving overweight and obese men found that B-complex supplementation combined with sports improved physical activity and body composition, reducing fat and increasing lean mass [ 114 ]. These findings suggest that targeted vitamin B supplementation, combined with structured training, can improve fitness outcomes. However, vitamin B supplementation is not necessary for athletes with balanced diets, and excessive intake may offer no benefits and should be avoided [ 114 , 127 ]. Nevertheless, athletes with poor diets may derive the most benefit from vitamin B complex supplementation [ 125 ]. The summary of the recent findings is compiled in  Table 3 .
+L55: The literature on the relationship between B vitamins and metabolic pathways is illustrated in the figure in  Section 5.2 . It can be observed that thiamine (B1) plays a crucial role in glycolysis and the TCA cycle through its active form, thiamine pyrophosphate, which activates the pyruvate dehydrogenase complex, thereby enhancing glucose-to-energy conversion [ 88 , 104 , 105 ]. Riboflavin [ 111 ] is central to aerobic energy metabolism via its coenzymes FAD and FMN, which are integral to the TCA cycle and fatty acid β-oxidation [ 92 , 107 ]. Niacin [ 111 ] contributes significantly to NAD/NADP formation, which is essential for redox reactions in glycolysis, the TCA cycle, and oxidative phosphorylation [ 94 , 95 ]. Pantothenic acid [ 96 ] is the precursor for coenzyme A, a fundamental cofactor in both fatty acid oxidation and the TCA cycle [ 96 , 97 ]. Pyridoxine [ 4 ] participates indirectly in energy metabolism by supporting amino acid transamination and gluconeogenesis [ 125 , 126 ]. Biotin [ 117 ] is a cofactor for carboxylase enzymes, enabling key reactions in fatty acid synthesis and gluconeogenesis [ 99 ]. Folate [ 118 ] has minimal direct involvement in core energy pathways but is crucial for amino acid metabolism, indirectly supporting energy availability [ 100 ]. Vitamin B12 is required for odd-chain fatty acid metabolism and methylmalonyl-CoA conversion to succinyl-CoA, linking it to the TCA cycle [ 102 ].
+L56: Analysis of the current literature on cross-correlations between B vitamins supplementation and sports activities unfolded the limitations including: (1) heterogeneity in supplementation protocols and dosages, (2) variation in study populations and athletic disciplines, and (3) limited long-term safety data for high-dose supplementation and the evidence gaps on (1) optimal dosing for specific sports and training phases, (2) individual variation in B vitamin requirements, (3) interaction effects between different B vitamins, and (4) long-term performance and health outcomes.
+L57: Based on successful intervention studies, effective dosing is provided in  Table 4 :
+L58: 5. Vitamin E
+L59: Among the early studies on the effect of vitamin E supplementation on physiological parameters associated with physical training was the report by Helgheim et al. [ 137 ]. In a study involving 26 trained and untrained individuals aged 19–24, the levels of serum enzymes were assessed after heavy exercise in response to d-α-tocopherol supplementation. After a six-week medication period (300 mg daily; 450 UI), the serum concentration of d-α-tocopherol increased from 12.7 to 19.6 mg/mL in the vitamin E group, while in the placebo group, the value remained unchanged. Participants of the study were subjected to muscular work involving either trained or untrained muscle groups. Serum levels of creatine kinase (CK), aspartate aminotransferase (ASAT), and lactate dehydrogenase (LD) were measured before exercise and at various time points post-exercise. In individuals exercising with trained muscles, serum enzyme levels showed only minor, statistically insignificant elevations, with no differences observed between the vitamin E and placebo groups ( Figure 1 ).
+L60: In contrast, exercise involving primarily untrained muscles led to a significant increase in serum CK activity, alongside notable elevations in ASAT and LD [ 141 , 142 , 143 ]. Again, no differences were detected between the vitamin E and placebo groups [ 144 , 145 , 146 ]. Isoenzyme analysis revealed that the rise in CK was attributable to the CK-MM isoform, suggesting that the primary source of enzyme release was striated skeletal muscle [ 147 , 148 ]. These findings indicate that vitamin E supplementation does not influence post-exercise increases in serum enzyme concentrations [ 144 ].
+L61: Recent research has recognized vitamin E as a potent antioxidant, playing an essential role in protecting cellular membranes from oxidative damage during intense physical activity [ 149 , 150 , 151 ]. Research has shown that supplementation with vitamin E can reduce exercise-induced oxidative stress markers, such as malondialdehyde and creatine kinase levels, aiding in muscle recovery [ 152 , 153 ]. Specifically, vitamin E has been associated with reduced muscle damage and inflammation in response to repeated strenuous exercises, underscoring its importance for athletes [ 154 , 155 ].
+L62: Studies suggest that athletes, particularly those engaged in endurance activities, may have higher demands for antioxidants due to the increased production of reactive oxygen species (ROS) during exercise [ 145 , 156 ]. High-dose vitamin E supplementation has been shown to have protective effects against muscle injury and inflammatory responses in athletes undergoing rigorous training regimens [ 157 , 158 , 159 ]. Furthermore, a study on elite Indian cyclists supported the hypothesis that vitamin E could decrease oxidative markers resulting from endurance training [ 159 ].
+L63: Conversely, recent literature has indicated that high doses of antioxidant vitamins, including vitamin E, may blunt the physiological adaptations to endurance training, such as mitochondrial biogenesis and protein synthesis essential for performance improvement [ 139 , 160 ]. Notably, studies have reported that supplementation with antioxidants might impair the beneficial adaptations that typically occur with regular exercise, leading to a paradoxical effect that could negate potential endurance benefits [ 63 , 161 ]. It suggests that while vitamin E supplementation may enhance recovery and reduce acute muscle damage, it might concurrently interfere with long-term adaptations necessary for sustained athletic improvement.
+L64: Moreover, the findings of the last decade confirm the role of vitamin E in mitigating oxidative stress induced by various forms of physical exertion, particularly among athletes. The recent studies observed that oxidative stress arises in response to the production of reactive oxygen species (ROS) during intense exercise, which can lead to muscle damage and impaired athletic performance if not adequately managed [ 43 , 162 ]. In a clinical trial, egg supplementation enriched with  n -3 polyunsaturated fatty acids and antioxidants, including vitamin E, was shown to enhance microvascular adaptation and reduce oxidative stress during strenuous physical exercise in male athletes [ 163 ]. It suggests that maintaining higher levels of vitamin E may be beneficial in preserving muscle integrity during high-intensity workouts [ 164 ]. Furthermore, evidence from studies demonstrates that vitamin E, particularly in combination with vitamin C, can diminish markers of muscle damage, such as creatine kinase levels, following intense exercise [ 165 , 166 ].
+L65: However, findings concerning the efficacy of vitamin E supplementation are not without controversy ( Table 5 ). Some studies have reported that antioxidant supplementation, including vitamin E, may hinder muscular adaptations from training. For example, one study observed that vitamin E had detrimental effects on the proteome response to training, suggesting that excessive antioxidant intake could blunt the positive adaptations expected from endurance training [ 167 ]. It indicates a complex interaction where the timing and dosage of vitamin E supplementation are crucial; while it might protect against oxidative damage, it could also interfere with the body’s natural adaptive processes when overconsumed.
+L66: Moreover, the role of vitamin E in sports should also consider dietary sources and the overall nutritional strategy employed by athletes [ 16 , 168 , 169 ]. While supplementation can be beneficial, a balanced diet rich in antioxidants, including natural sources of vitamin E, may provide a more effective means of managing oxidative stress [ 170 , 171 ]. Several studies emphasize the importance of athletes meeting their overall nutritional needs to optimize their performance [ 109 , 172 ].
+L67: Table 5 The summary of key findings on vitamin E and athletic performance. (The arrows indicate elicited physiological response).
+L68: The limitations of the reviewed study encompass the following: (1) heterogeneity in study designs and populations limited meta-analytic approaches, (2) most studies had relatively short follow-up periods, (3) baseline vitamin E status was rarely assessed, and (4) publication bias may favor studies showing positive results.
+L69: Literature analysis revealed the following dosage and timing considerations [ 114 , 139 , 154 , 173 ]. Thus, studies employed varying dosages ranging from 100 to 1000 IU daily: (1) 100–400 IU daily: most commonly studied range with minimal benefits; (2) 400–800 IU daily: some positive effects in combination studies; and (3) <800 IU daily: limited studies with no additional benefits.
+L70: Although the literature analysis allows for the establishment of specific doses of vitamins C and E, the recent consensus in sports nutrition emphasizes caution with antioxidant supplementation, as excessive or peri-exercise intake of these vitamins may attenuate key adaptive responses to training, including mitochondrial biogenesis and redox signaling [ 63 , 174 , 175 , 176 , 177 ]. Therefore, rather than fixed dosing protocols, a conditional decision pathway is proposed: (a) confirm deficiency or clinical indication through dietary assessment or biochemical testing before supplementation; (b) consider the training phase, avoiding antioxidant supplementation during adaptation-focused blocks (e.g., build or overload) and restricting use to recovery or taper phases if needed; (c) prioritize a food-first strategy, emphasizing antioxidant-rich fruits, vegetables, and whole foods; and (d) if supplementation is deemed necessary, avoid high-dose or peri-exercise administration (e.g., ≥500 mg vitamin C or ≥400 IU vitamin E). These recommendations constitute conditional guidance with low certainty, reflecting heterogeneity in existing evidence and the absence of athlete-specific randomized controlled trials [ 156 , 176 , 178 , 179 , 180 , 181 , 182 , 183 ]. This individualized, phase-specific approach better aligns with current evidence linking antioxidant balance—not maximal intake—to optimal training adaptation and recovery.
+L71: 5.1. Vitamin A
+L72: The role of vitamin A in sports performance has gained increased attention due to its multifaceted effects on metabolism, immune function, and overall health ( Figure 2 ). Vitamin A, which includes retinol, is essential for various physiological functions critical to athletic performance. Generally, it influences energy metabolism, reduces oxidative stress, enhances immune function, and promotes recovery.
+L73: Vitamin A is primarily known for its role in vision and epithelial integrity, where it functions as a modulator of gene expression through its active metabolite, retinoic acid [ 188 ]. Altogether, vitamin A affects muscle repair, mitochondrial biogenesis, and protein synthesis [ 189 ]. Moreover, its immunomodulatory effects support the immune system under the stress of intense physical activity, potentially reducing susceptibility to infections in athletes [ 190 , 191 ].
+L74: Vitamin A also plays a noteworthy role in the metabolism of macronutrients. The active metabolite of vitamin A, all-trans-retinoic acid (ATRA), acts as a ligand for nuclear receptors—retinoid X receptors (RXRs) and retinoic acid receptors (RARs), and regulates the transcription of a variety of genes involved in metabolic pathways [ 192 , 193 , 194 ]. These receptors are known to form heterodimers with other nuclear receptors such as PPARs (peroxisome proliferator-activated receptors) and thyroid hormone receptors, which are directly involved in lipid oxidation, glucose homeostasis, and mitochondrial function [ 195 ].
+L75: In lipid metabolism, retinoic acid enhances fatty acid oxidation and suppresses lipogenesis in the liver and adipose tissue by controlling the expression of genes such as CPT1 (carnitine palmitoyltransferase 1) and SREBP-1c [ 192 ].
+L76: In carbohydrate metabolism, vitamin A status influences insulin sensitivity and glucose transport; deficiencies have been linked to impaired gluconeogenesis and dysregulated blood glucose levels [ 196 ]. Additionally, vitamin A plays a role in protein metabolism through its effects on cellular differentiation and muscle protein synthesis, partly by interacting with growth-related signaling pathways [ 197 ].
+L77: During physical exercise, several metabolic pathways that utilize micronutrients, including vitamin A, are activated, facilitating efficient energy production [ 198 , 199 , 200 ].
+L78: Since the body’s demand for ATP increases substantially, requiring enhanced activity of metabolic pathways such as glycolysis, β-oxidation, the tricarboxylic acid (TCA) cycle, and oxidative phosphorylation, vitamin A contributes to these processes through its regulatory effects on gene expression and its antioxidant and immunomodulatory properties [ 84 , 201 ].
+L79: Vitamin A also has profound effects on mitochondrial function and biogenesis. It upregulates peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC-1α), a master regulator of mitochondrial biogenesis, either directly or through interactions with estrogen-related receptors (ERRα) and PPARδ [ 189 ]. Additionally, it stimulates the expression of uncoupling proteins (UCP2, UCP3) and nuclear respiratory factors (NRF1, NRF2), contributing to enhanced mitochondrial oxidative capacity and energy efficiency [ 194 ].
+L80: In the regulation of glucose metabolism, vitamin A influences both glucose uptake and hepatic glucose production [ 202 , 203 , 204 , 205 ]. It increases the expression of GLUT4 (SLC2A4) in skeletal muscle and adipose tissue, thereby improving insulin sensitivity and peripheral glucose uptake [ 206 ]. Simultaneously, it suppresses gluconeogenic enzymes such as glucose-6-phosphatase (G6PC) and phosphoenolpyruvate carboxykinase (PEPCK), reducing hepatic glucose output [ 193 ]. Furthermore, vitamin A induces pyruvate dehydrogenase kinase 4 (PDK4), which shifts the substrate preference towards fatty acids and away from glucose oxidation, promoting metabolic flexibility during fasting or energy-demanding states [ 173 ].
+L81: These synergistic effects are crucial during endurance and resistance exercises, where efficient substrate utilization is essential for maintaining performance. Moreover, retinoic acid enhances mitochondrial biogenesis and fatty acid oxidation via its interaction with nuclear receptors such as PPARs and RXRs, which coordinate the transcription of genes like PGC-1α, a master regulator of mitochondrial metabolism [ 207 ].
+L82: Since exercise also increases the generation of reactive oxygen species (ROS), vitamin A stabilizes cell membranes and interacts with antioxidants, such as vitamins C and E, to reduce oxidative stress [ 190 ]. Furthermore, retinol, as an antioxidant, can counteract the oxidative damage caused by free radicals appearing during stressful physical exertion [ 208 , 209 ]. There is some evidence suggesting that adequate vitamin A levels may contribute to improved recovery and performance outcomes [ 122 ], but more targeted research is necessary to confirm these links. In summary, this antioxidant defense is crucial for protecting mitochondria and muscle cells from exercise-induced damage and fatigue.
+L83: A recent study revealed that athletes, particularly those engaging in high-intensity training, should ensure their diet includes sufficient vitamin A intake to meet the elevated metabolic demands imposed by their training regimens [ 13 , 210 ]. Insufficient vitamin A may lead to impaired energy metabolism, which can impact an athlete’s endurance and performance capabilities [ 109 , 153 ].
+L84: The role of vitamin A in immune function is equally critical for athletes. Mechanistic and animal studies have demonstrated that a weakened immune system can lead to increased susceptibility to illnesses, resulting in frequent absences from training and competition [ 28 , 94 , 211 ]. Research indicates that higher intakes of vitamin A contribute to enhanced immune response, particularly in athletes subjected to rigorous training regimens that may stress their immune systems [ 109 ]. Adequate vitamin A levels can help prevent infections and illnesses, allowing athletes to maintain consistent training schedules and ultimately enhance their performance.
+L85: Furthermore, vitamin A influences physiological functions related to muscle recovery and post-exercise adaptation [ 212 ]. The need for athletes to consume a well-rounded diet sufficient in all essential micronutrients, including vitamin A, to ensure optimal muscle recovery was recently confirmed [ 4 , 109 ]. Moreover, some studies have suggested that athletes meeting their recommended vitamin A intake may exhibit better recovery profiles, which is crucial for training adaptations and improved performance across competitive events [ 208 , 213 ]. The summary of all the above-mentioned findings is provided in  Table 6 .
+L86: The findings of the last 10 years on the subject revealed that vitamin A supplementation influences various physiological parameters among handball players, impacting oxidative balance, which may enhance athletic performance [ 158 ]. This finding aligns with other research highlighting that micronutrients, including vitamin A, are integral to recovery and athletic efficacy due to their roles in metabolic pathways and cellular functions critical during physical stress [ 109 ]. Notably, athletes undergoing intense training often experience increased oxidative stress; therefore, antioxidants, such as vitamin A, can mitigate these effects and aid recovery [ 4 ].
+L87: Furthermore, the importance of adequate micronutrient intake, including vitamin A, in athletes’ diets cannot be overstated. Nutritional deficiencies in elite athletes have been documented, with studies indicating that many athletes do not meet the recommended intakes of essential vitamins, including vitamin A [ 228 , 229 ]. This deficiency may adversely affect performance, recovery, and immune response, underscoring the need for tailored dietary strategies to meet the heightened needs of active individuals [ 213 ]. It is essential to ensure diets are balanced and that supplementation is considered where dietary intake may be insufficient.
+L88: Additionally, Chen and Liu [ 228 ] discuss how vitamins and minerals can influence the performance capabilities of athletes engaged in various sports, emphasizing that maintaining adequate micronutrient intake is crucial for optimal physiological functioning and performance [ 230 ]. A systematic review by Cruz et al. supports this view, indicating that training adaptations necessitate increased micronutrient consumption for adequate metabolic support [ 231 ].
+L89: Incorporating vitamin A into nutritional strategies for athletes could be a proactive measure, not only for performance enhancement but also for optimizing recovery and ensuring long-term health. This perspective is supported by the increasing recognition of personalized nutrition approaches in athletic preparation, which advocate for individual dietary assessments to meet specific nutrient needs based on training intensity and volume [ 232 ].
+L90: The evidence base for vitamin A suffers from several critical limitations: (1) the minimal number of controlled intervention studies specifically examining Vitamin A supplementation in athletes, (2) inconsistent dosing protocols and outcome measures across studies, (3) a lack of sport-specific research examining performance outcomes, (4) the absence of studies examining bone health outcomes despite Vitamin A’s known role in bone metabolism, and (5) limited investigation of muscle function parameters. Furthermore, current research fails to address key questions regarding optimal dosing, timing, sport-specific applications, and long-term safety considerations for Vitamin A supplementation in athletic populations.
+L91: Moreover, the evidence for the effects of Vitamin A supplementation on athletic performance is minimal and contradictory. While some research suggests potential antioxidant benefits, other studies indicate possible adverse effects. A concerning finding from animal research showed that Vitamin A supplementation (2000 IU/kg) in rats subjected to aerobic exercise actually enhanced oxidative stress in lung tissues and impaired exercise-induced adaptations of antioxidant enzymes [ 233 ]. It suggests that high-dose supplementation may interfere with beneficial training adaptations.
+L92: 5.2. Vitamin D
+L93: The application of vitamin D in the field of sports medicine has garnered attention in recent years, particularly in relation to athletic performance, musculoskeletal health, and injury prevention. Vitamin D is essential for various physiological functions, including muscle function [ 234 ] and bone metabolism [ 235 ], which are crucial for optimal athletic performance [ 155 ]. Current research highlights the benefits of vitamin D supplementation for athletes, leading to strategies that aim to enhance their overall health and performance ( Figure 3 ).
+L94: Current evidence suggests that vitamin D supplementation in athletes has mixed effects on performance, with some benefits for aerobic capacity and anaerobic power, but a limited impact on muscle strength. Deficiency is prevalent (40–70% of athletes), particularly in winter and indoor sports, with optimal dosing protocols still unclear and safety concerns minimal at recommended doses [ 43 , 45 , 236 , 240 ].
+L95: Thus, it has been shown that due to limited sun exposure, particularly in indoor sports and during winter months, athletes obtain suboptimal levels of vitamin D [ 242 , 243 , 244 ]. This insufficiency is concerning, as vitamin D is integral to calcium absorption, which is essential for maintaining bone density and preventing stress fractures—a common injury among athletes [ 245 , 246 ]. Supplementation has been recommended as a means to normalize serum vitamin D levels, with studies suggesting that such interferences can lead to improvements in musculoskeletal health and performance metrics [ 241 , 245 ]. Indoor sports (gymnastics, swimming, basketball) show the highest deficiency rates, while outdoor sports demonstrate lower but still significant deficiency rates (30–50%) [ 247 ].
+L96: Systematic reviews highlight the positive impact of vitamin D supplementation on lower-body muscle strength, suggesting that athletes may experience gains in power and endurance following supplementation [ 236 , 241 , 248 ]. Additionally, vitamin D is thought to aid muscle recovery after exercise-induced damage, underscoring its role in not only injury prevention but also recovery processes [ 249 , 250 ]. It has been documented that athletes with adequate intake of calcium and vitamin D have a reduced risk of musculoskeletal issues and exhibit better recovery from intensive training sessions [ 251 , 252 ].
+L97: However, meta-analysis of 11 randomized controlled trials involving 436 athletes found no statistically significant effect of vitamin D supplementation on maximum strength and power for baseline serum 25(OH)D concentrations of <75 nmol/L [ 253 ].
+L98: These studies complement the findings of Frank et al. [ 254 , 255 ], who demonstrated that athletes with vitamin D deficiency exhibit higher rates of musculoskeletal injuries, with stress fractures being the specific injury type most commonly associated with deficiency. Moreover, recovery time from muscle strains was prolonged in vitamin D-deficient athletes [ 250 , 256 ].
+L99: Deficiencies in vitamin D have been associated with an increased risk of injuries, such as stress fractures and muscle strains, particularly in high-impact and endurance sports [ 245 , 257 ]. Studies focusing on collegiate athletes have shown that those with adequate vitamin D levels report fewer injuries and enhanced overall physical performance, suggesting a protective effect attributed to this micronutrient [ 244 , 258 ]. Therefore, focusing on vitamin D sufficiency may be a crucial aspect of injury prevention strategies in sports medicine [ 246 , 259 ]. It has also been observed that specific injury types associated with vitamin D deficiency include stress fractures and muscle strains, as well as prolonged recovery times from injuries [ 255 ].
+L100: Research suggests that adequate levels of vitamin D can improve muscular strength and functional performance. For example, a systematic review highlights the positive impact of vitamin D supplementation on lower-body muscle strength, suggesting that athletes may experience gains in power and endurance following supplementation [ 236 , 241 , 248 ]. Additionally, vitamin D is thought to aid muscle recovery after exercise-induced damage, underscoring its role in not only injury prevention but also recovery processes [ 249 , 250 ]. Moreover, an updated meta-analysis of 10 RCTs (encompassing 318 athletes) demonstrated significant increases in quadriceps contraction strength (SMD 0.57, 95% CI: 0.04–1.11,  p  = 0.04) [ 236 ].
+L101: Some studies suggest potential benefits for aerobic capacity and anaerobic power, particularly in vitamin D-deficient athletes [ 260 ], and there is limited evidence that suggests potential improvements in peak power output, with effects potentially more pronounced in explosive power activities [ 57 ]
+L102: An analysis of the recent literature unfolded cross-correlations between vitamin D supplementation and bone mineral density (BMD) in athletes. Thus, one study demonstrated significant improvements in bone mineral density (BMD) compared to the control group ( p  = 0.02) [ 252 ]. However, the other, performed on Singaporean athletes with sufficient vitamin D levels, showed significantly higher BMD compared to deficient athletes ( p  = 0.01) [ 22 ]
+L103: Nutritional strategies incorporating vitamin D should consider its interaction with other essential components, such as calcium and magnesium, both of which are crucial for bone health [ 245 ]. Consequently, dietary management strategies focusing on these nutrients, either through natural sources or supplements, are recommended in conjunction with routine vitamin D supplementation. However, when considering vitamin D supplementation, geographical latitude should also be taken into account, as it significantly influences the prevalence of deficiency [ 25 ].
+L104: Currently observed limitations of the study on vitamin D supplementation in sports include: (1) mixed evidence for performance enhancement and (2) baseline status as a critical determinant [ 45 , 237 , 243 , 261 , 262 ].
+L105: Target serum levels encompass the following values: optimal range for athletes: 75–125 nmol/L (30–50 ng/mL), deficient: <50 nmol/L (<20 ng/mL), insufficient: 50–75 nmol/L (20–30 ng/mL) and sufficient: >75 nmol/L (>30 ng/mL) [ 240 , 249 , 263 , 264 ]. The key findings on vitamin D application in sport are compiled in  Table 7 .
+L106: While vitamin D supplementation shows limited evidence for direct performance enhancement in athletes with adequate vitamin D status, it provides clear benefits for injury prevention and bone health maintenance, particularly in the 40–70% of athletes who are deficient, making baseline 25(OH)D concentration the critical effect-modifier that determines supplementation outcomes.
+L107: 5.3. Vitamin K
+L108: Vitamin K supplementation in sports nutrition represents an emerging but understudied area of research. While vitamin K is well-established for its roles in blood coagulation and bone metabolism, its potential applications in athletic performance and recovery remain largely unexplored [ 266 ].
+L109: Vitamin K plays a crucial role in bone metabolism, primarily through the carboxylation of osteocalcin, a protein that is closely linked to bone strength and mineralization [ 267 ]. This relationship is particularly relevant for female athletes, as vitamin K deficiency can lead to lower bone mineral density and an increased risk of fractures [ 268 , 269 ]. Ishizu et al. [ 269 ] noted that dietary education to improve vitamin K and calcium intake is essential for young female athletes to maintain bone health, emphasizing the significant role these nutrients play in mitigating the risk of osteoporosis later in life. Furthermore, Yan et al. [ 88 ] indicated that dietary vitamin K can reduce systemic inflammation by lowering levels of pro-inflammatory cytokines, which can be detrimental to athletic performance and overall health.
+L110: Besides its role in bone health, vitamin K may also play a role in muscle function ( Figure 4 ). Research by Alonso et al. [ 268 ] suggests that higher vitamin K levels are associated with improved skeletal muscle function and might enhance muscle recovery following exercise. However, it is essential to note that while observational studies suggest these associations, interventional studies on vitamin K supplementation have shown conflicting results regarding improvements in muscle strength [ 56 ].
+L111: Vitamin K2’s cardiovascular effects are mediated through activation of matrix Gla protein, an anti-calcific protein [ 275 ]. Carboxylated matrix Gla protein effectively protects blood vessels and prevents calcification within the vascular wall [ 275 ].
+L112: Vitamin K’s anti-inflammatory properties may also help mitigate muscle damage associated with intense physical activity. It has been suggested that vitamin K may help prevent the inflammatory responses typically observed in athletes after exercise, potentially aiding in faster recovery and improved performance in subsequent training sessions [ 276 ]. Moreover, Dahlquist et al. identified vitamin K as a factor in the regulation of hepcidin, a hormone pivotal in iron metabolism, which is vital for endurance athletes susceptible to iron deficiency [ 277 , 278 ]. Given that iron is essential for oxygen transport and muscle function, adequate vitamin K levels may indirectly support athletic performance through improved iron status.
+L113: Ultimately, the interplay between vitamin K and other micronutrients, particularly vitamin D, underscores the complexity of nutrient interactions required for optimal athletic performance. The combination of vitamins D and K has been shown to influence muscle function and bone density, suggesting that these nutrients work synergistically to support physical health in athletes [ 277 , 279 ]. Therefore, ensuring adequate intake of both vitamins might be critical for athletes aiming to enhance their performance and recovery.
+L114: The limitations of the study on cross-correlations between vitamin K supplementation and sports can be categorized as follows: (1) lack of performance data: no completed studies demonstrate performance benefits in athletes; (2) dosing protocols: no established dosing guidelines for athletic populations; (3) timing strategies: no research on optimal timing of supplementation relative to training or competition; (4) safety in athletes: limited safety data for doses and durations relevant to sports applications; (5) mechanistic understanding: unclear how vitamin K’s known physiological roles translate to athletic benefits, and (6) population-specific effects: no data on how effects may vary by sport, training status, or demographic factors.
+L115: General recommendations for the specific form of vitamin K include the following: vitamin K1 (phylloquinone)—20 mcg/day for men, 90 mcg/day for women; vitamin K2 (menaquinone); MK-4 (synthetic): typically 45 mg/day in therapeutic application; MK-7 (natural): 100–200 mcg/day in most studies [ 280 , 281 , 282 , 283 , 284 , 285 ].
+L116: 6. Summary
+L117: This review synthesizes findings from the past decade on the physiological impacts of vitamin supplementation in athletes, with a focus on both water-soluble (B vitamins and vitamin C) and fat-soluble (vitamins A, D, E, and K) compounds. High-intensity endurance sports are closely associated with increased oxidative stress and inflammatory responses. Antioxidant vitamins such as C, E, and A play a protective role by mitigating oxidative damage in skeletal, cardiac, and bone tissues. Vitamin E stabilizes cell membranes, vitamin C reduces serum cortisol, and vitamin K downregulates pro-inflammatory cytokines—collectively contributing to reduced inflammation and enhanced performance. Vitamin A further supports immune modulation and infection prevention, promoting training consistency.
+L118: In conclusion, vitamin C supplementation shows consistent benefits for reducing oxidative stress, muscle soreness, and cortisol levels, particularly at moderate daily doses. However, evidence for performance enhancement is inconsistent, and excessive intake may blunt adaptive responses. Overall, there is low to moderate certainty that vitamin C benefits recovery and immune defense in athletes, and low certainty for direct performance improvement. Food-first strategies are preferred, with supplementation considered in periods of heavy training load or recovery from illness or injury.
+L119: In summary, the B-complex vitamins are indispensable cofactors in energy metabolism, RBC synthesis, and neurological function. Deficiencies can impair endurance and recovery, especially in high-demand athletes or those with restricted diets. However, supplementation beyond sufficiency does not consistently yield ergogenic benefits. Thus, there is moderate certainty that B-vitamin sufficiency supports energy metabolism and recovery, but low certainty that supplementation improves performance in already well-nourished athletes. Monitoring risk groups such as female athletes and vegetarians/vegans remains essential.
+L120: Vitamin E supplementation can reduce oxidative stress and inflammatory markers, supporting short-term recovery. However, high-dose interventions may impair long-term training adaptations such as mitochondrial biogenesis. Overall, there is low to moderate certainty for antioxidant and recovery benefits, but low certainty for sustained performance enhancement. Dietary sources remain the preferred approach, and chronic high-dose supplementation should be avoided.
+L121: Vitamin A influences immune regulation, metabolic control, and mitochondrial biogenesis, with mechanistic data suggesting a potential role in exercise recovery. However, athlete-specific trials are minimal, and findings are inconsistent. The certainty of evidence is low for health-related benefits and very low for direct performance outcomes. Dietary adequacy should be ensured, but supplementation cannot be recommended for ergogenic purposes at present.
+L122: Vitamin D deficiency is common among athletes, particularly those involved in indoor sports or during winter seasons. Supplementation reliably improves bone mineral density, reduces the risk of stress fractures, and may enhance musculoskeletal recovery. Effects on performance (strength, aerobic capacity, anaerobic power) remain inconsistent. There is moderate certainty for benefits on bone and injury endpoints in deficient athletes, and low certainty for direct performance gains. Screening and targeted supplementation are recommended for individuals with deficiencies.
+L123: Vitamin K supports bone mineralization and vascular function, and may modulate inflammation and iron metabolism. Athlete-specific evidence remains sparse, with limited trials and emerging observational studies. There is low certainty regarding bone and vascular benefits, and very low certainty regarding performance outcomes. Adequate dietary intake should be prioritized, with supplementation reserved for research or clinical contexts.
+L124: In addition to vitamin-specific evidence, it is essential to acknowledge that specific athlete subgroups are at a heightened risk for deficiencies. Female endurance athletes require closer monitoring of B-complex vitamins (folate and B12) and vitamin K due to menstrual losses and concerns about bone health. Indoor sports athletes are particularly prone to vitamin D insufficiency during winter or in northern latitudes. Weight-class and combat sport athletes may face antioxidant depletion (vitamins C and E) during rapid weight loss phases, while vegetarian and vegan athletes remain vulnerable to B12 and vitamin D deficiencies. These population-specific considerations underscore the importance of tailored screening triggers—such as stress fractures, recurrent infections, or unexplained fatigue—to inform targeted testing and supplementation strategies.
+L125: Female Endurance Athletes:
+L126: Risk profile: Higher prevalence of iron, folate, and B12 deficiencies due to menstrual losses and dietary restriction during training. Vitamin D deficiency is also frequent in northern latitudes.
+L127: Screening triggers Include Fatigue disproportionate to training load, recurrent illness, stress fractures, and low energy availability.
+L128: Practical note: Annual screening for vitamin D, iron/ferritin, folate, and B12; closer monitoring during periods of heavy training or dieting.
+L129: Indoor Sports Athletes (e.g., gymnasts, swimmers, basketball players):
+L130: Risk profile: High prevalence of vitamin D insufficiency due to limited sun exposure.
+L131: Screening triggers: Winter season, frequent indoor training, history of stress fractures or bone pain.
+L132: Practical note: Baseline and winter vitamin D status should be assessed; supplementation targeted only if serum 25(OH)D < 75 nmol/L.
+L133: Weight-Class and Combat Sports Athletes:
+L134: Risk profile: B-complex vitamin insufficiencies (B1, B2, B6) and vitamin C depletion during rapid weight loss or restrictive diets. Increased oxidative stress and immune suppression during weight cutting.
+L135: Screening triggers: Recurrent upper respiratory infections, prolonged recovery, and unexplained fatigue during training camps.
+L136: Practical note: Nutritional screening is recommended at the start of each competitive season and should be monitored closely during dieting/weight-cutting phases.
+L137: Vegetarian and Vegan Athletes:
+L138: Risk profile: At risk for vitamin B12 and D deficiency, and potentially low intakes of iron, zinc, and omega-3s. Folate is typically sufficient or high, but may mask B12 deficiency.
+L139: Screening triggers: Include neurological symptoms (such as tingling or impaired reaction speed), fatigue, poor recovery, low hemoglobin levels, and suboptimal endurance.
+L140: Practical note: Annual screening for B12 and vitamin D; consider methylcobalamin supplementation if levels are borderline or deficient.
+L141: Figure 1 Dose–response and function outcomes of vitamin E supplementation in athletes [ 43 , 52 , 138 , 139 , 140 ]. Panel ( A ): Cross-correlations between the levels of vitamin E and the levels of oxidative stress, muscular recovery, and training adaptation. Panel ( B ): Antioxidant action of vitamin E and its influence on inflammation processes and mitochondrial biogenesis.
+L142: Figure 2 Literature-derived mechanistic pathways of vitamin A as a function of sports activity [ 184 , 185 , 186 , 187 ].
+L143: Figure 3 The role of vitamin D in musculoskeletal performance and injury prevention [ 12 , 45 , 236 , 237 , 238 , 239 , 240 , 241 ].
+L144: Figure 4 Vitamin K’s emerging roles in athletic health [ 19 , 270 , 271 , 272 , 273 , 274 ].
+L145: 1. Koehler K. 
+L146:  Drenowatz C. 
+L147:  Integrated Role of Nutrition and Physical Activity for Lifelong Health Nutrients 2019 11 1437 10.3390/nu11071437 31247924
+L148: 2. Jovanov P. 
+L149:  Đorđić V. 
+L150:  Obradović B. 
+L151:  Barak O. 
+L152:  Pezo L. 
+L153:  Marić A. 
+L154:  Sakač M. 
+L155:  Prevalence, knowledge and attitudes towards using sports supplements among young athletes J. Int. Soc. Sports Nutr. 2019 16 27 10.1186/s12970-019-0294-7 31272457
+L156: 3. Parnell J.A. 
+L157:  Wiens K. 
+L158:  Erdman K.A. 
+L159:  Evaluation of congruence among dietary supplement use and motivation for supplementation in young, Canadian athletes J. Int. Soc. Sports Nutr. 2015 12 49 10.1186/s12970-015-0110-y 26677351
+L160: 4. Brancaccio M. 
+L161:  Mennitti C. 
+L162:  Cesaro A. 
+L163:  Fimiani F. 
+L164:  Vano M. 
+L165:  Gargiulo B. 
+L166:  Caiazza M. 
+L167:  Amodio F. 
+L168:  Coto I. 
+L169:  D’Alicandro G. 
+L170:  
+L171:  The Biological Role of Vitamins in Athletes’ Muscle, Heart and Microbiota Int. J.  Environ . Res. Public Health 2022 19 1249 10.3390/ijerph19031249 35162272
+L172: 5. Christensen S. 
+L173:  Gjelstad A. 
+L174:  Björnsdottir I. 
+L175:  Lauritzen F. 
+L176:  Motivations for Using Dietary Supplements in Elite Ice Hockey-Controlling Weight and Enhancing Performance Nutrients 2024 16 2667 10.3390/nu16162667 39203804
+L177: 6. Sousa-Rufino C. 
+L178:  Pareja-Galeano H. 
+L179:  Martínez-Ferrán M. 
+L180:  Dietary Supplement Use in Competitive Spanish Football Players and Differences According to Sex Nutrients 2025 17 602 10.3390/nu17040602 40004931
+L181: 7. Günalan E. 
+L182:  Çavak B.Y. 
+L183:  Turhan S. 
+L184:  Cebioğlu İ.K. 
+L185:  Domínguez R. 
+L186:  Sánchez-Oliver A.J. 
+L187:  Dietary Supplement Use of Turkish Footballers: Differences by Sex and Competition Level Nutrients 2022 14 3863 10.3390/nu14183863 36145239
+L188: 8. Hopper C. 
+L189:  Mooney E. 
+L190:  Mc Cloat A. 
+L191:  Nutritional Intake and Dietary Knowledge of Athletes: A Scoping Review Nutrients 2025 17 207 10.3390/nu17020207 39861338
+L192: 9. Jordan S.L. 
+L193:  Albracht-Schulte K. 
+L194:  Robert-McComb J.J. 
+L195:  Micronutrient deficiency in athletes and inefficiency of supplementation: Is low energy availability a culprit? PharmaNutrition 2020 14 100229 10.1016/j.phanu.2020.100229
+L196: 10. Menal-Puey S. 
+L197:  Marques-Lopes I. 
+L198:  Regulatory Framework of Fortified Foods and Dietary Supplements for Athletes: An Interpretive Approach Nutrients 2021 13 3858 10.3390/nu13113858 34836109
+L199: 11. Baranauskas M. 
+L200:  Jablonskienė V. 
+L201:  Abaravičius J.A. 
+L202:  Stukas R. 
+L203:  Actual Nutrition and Dietary Supplementation in Lithuanian Elite Athletes Medicina 2020 56 247 10.3390/medicina56050247 32443812
+L204: 12. Dominguez L.J. 
+L205:  Veronese N. 
+L206:  Ragusa F.S. 
+L207:  Baio S.M. 
+L208:  Sgrò F. 
+L209:  Russo A. 
+L210:  Battaglia G. 
+L211:  Bianco A. 
+L212:  Barbagallo M. 
+L213:  The Importance of Vitamin D and Magnesium in Athletes Nutrients 2025 17 1655 10.3390/nu17101655 40431395
+L214: 13. Amawi A. 
+L215:  AlKasasbeh W. 
+L216:  Jaradat M. 
+L217:  Almasri A. 
+L218:  Alobaidi S. 
+L219:  Hammad A.A. 
+L220:  Bishtawi T. 
+L221:  Fataftah B. 
+L222:  Turk N. 
+L223:  Saoud H.A. 
+L224:  
+L225:  Athletes’ nutritional demands: A narrative review of nutritional requirements Front. Nutr. 2024 10 1331854 10.3389/fnut.2023.1331854 38328685
+L226: 14. Ayaz A. 
+L227:  Zaman W. 
+L228:  Radák Z. 
+L229:  Gu Y. 
+L230:  Green strength: The role of micronutrients in plant-based diets for athletic performance enhancement Heliyon 2024 10 e32803 10.1016/j.heliyon.2024.e32803 38975163
+L231: 15. Fiorini S. 
+L232:  Guglielmetti M. 
+L233:  Neri L.d.C.L. 
+L234:  Correale L. 
+L235:  Tagliabue A. 
+L236:  Ferraris C. 
+L237:  Mediterranean Diet and athletic performance in elite and competitive athletes: A systematic review and meta-analysis Nutr. Metab. Cardiovasc. Dis. 2025 35 104165 10.1016/j.numecd.2025.104165 40451674
+L238: 16. De Zan D. 
+L239:  Eletti F. 
+L240:  Fiore G. 
+L241:  Di Girolamo E. 
+L242:  Bozzini G.G.M. 
+L243:  Perico V. 
+L244:  Tosi M. 
+L245:  Norsa L. 
+L246:  Zuccotti G. 
+L247:  Verduci E. 
+L248:  Use of Nutritional Strategies, Bioactive Compounds, and Dietary Supplements in Young Athletes: From Evidence to Potential Risks—A Narrative Review Nutrients 2025 17 2194 10.3390/nu17132194 40647297
+L249: 17. Junaidi 
+L250:  Apriyanto T. 
+L251:  Decreased Level of Fatigue in Aerobic Sports in the Use of Vitamin C Atlantis Press Dordrecht, The Netherlands 2020
+L252: 18. Webster J. 
+L253:  Dalla Via J. 
+L254:  Langley C. 
+L255:  Smith C. 
+L256:  Sale C. 
+L257:  Sim M. 
+L258:  Nutritional strategies to optimise musculoskeletal health for fall and fracture prevention: Looking beyond calcium, vitamin D and protein Bone Rep. 2023 19 101684 10.1016/j.bonr.2023.101684 38163013
+L259: 19. Allen B. 
+L260:  Saunders J. 
+L261:  Malnutrition and undernutrition: Causes, consequences, assessment and management Medicine 2023 51 461 468 10.1016/j.mpmed.2023.04.004
+L262: 20. Kiani A.K. 
+L263:  Dhuli K. 
+L264:  Donato K. 
+L265:  Aquilanti B. 
+L266:  Velluti V. 
+L267:  Matera G. 
+L268:  Iaconelli A. 
+L269:  Connelly S.T. 
+L270:  Bellinato F. 
+L271:  Gisondi P. 
+L272:  
+L273:  Main nutritional deficiencies J. Prev. Med. Hyg. 2022 63 E93 E101 10.15167/2421-4248/jpmh2022.63.2S3.2752 36479498
+L274: 21. Roberts C.J. 
+L275:  Gill N.D. 
+L276:  Baxter B.A. 
+L277:  Sims S.T. 
+L278:  Ecological Validation and Practical Challenges of Conducting Dietary Analysis in Athletic Individuals Using a Novel Remote Food Photography Method Mobile Phone Application J. Sci. Sport Exerc. 2024 6 90 96 10.1007/s42978-022-00213-w
+L279: 22. Ravelli M.N. 
+L280:  Schoeller D.A. 
+L281:  Traditional Self-Reported Dietary Instruments Are Prone to Inaccuracies and New Approaches Are Needed Front. Nutr. 2020 7 90 10.3389/fnut.2020.00090 32719809
+L282: 23. Capling L. 
+L283:  Beck K.L. 
+L284:  Gifford J.A. 
+L285:  Slater G. 
+L286:  Flood V.M. 
+L287:  O’Connor H. 
+L288:  Validity of Dietary Assessment in Athletes: A Systematic Review Nutrients 2017 9 1313 10.3390/nu9121313 29207495
+L289: 24. Burrows T.L. 
+L290:  Ho Y.Y. 
+L291:  Rollo M.E. 
+L292:  Collins C.E. 
+L293:  Validity of Dietary Assessment Methods When Compared to the Method of Doubly Labeled Water: A Systematic Review in Adults Front. Endocrinol. 2019 10 850 10.3389/fendo.2019.00850
+L294: 25. Wilson-Barnes S.L. 
+L295:  Hunt J.E.A. 
+L296:  Lanham-New S.A. 
+L297:  Manders R.J.F. 
+L298:  Effects of vitamin D on health outcomes and sporting performance: Implications for elite and recreational athletes Nutr. Bull. 2020 45 11 24 10.1111/nbu.12413
+L299: 26. Madigan S.M. 
+L300:  Sex and gender in sports nutrition research: Bridging the gap Proc. Nutr. Soc. 2024 83 229 235 10.1017/S002966512400466X 38948944
+L301: 27. Amawi A. 
+L302:  Khataybeh B. 
+L303:  Al Aqaili R. 
+L304:  Ababneh N. 
+L305:  Alnimer L. 
+L306:  Qoqazeh A. 
+L307:  Oukal F. 
+L308:  Jahrami H. 
+L309:  Mousa Ay K. 
+L310:  Al Saoud H. 
+L311:  
+L312:  Junior athletes’ nutritional demands: A narrative review of consumption and prevalence of eating disorders Front. Nutr. 2024 11 1390204 10.3389/fnut.2024.1390204 39381351
+L313: 28. Peeling P. 
+L314:  Sim M. 
+L315:  McKay A.K.A. 
+L316:  Considerations for the Consumption of Vitamin and Mineral Supplements in Athlete Populations Sports Med. 2023 53 15 24 10.1007/s40279-023-01875-4 37358750
+L317: 29. van der Beek E.J. 
+L318:  Vitamins and endurance training. Food for running or faddish claims? Sports Med. 1985 2 175 197 10.2165/00007256-198502030-00003 3892627
+L319: 30. Gerster H. 
+L320:  The role of vitamin C in athletic performance J. Am. Coll. Nutr. 1989 8 636 643 10.1080/07315724.1989.10720338 2695554
+L321: 31. Nieman D.C. 
+L322:  Exercise and resistance to infection Can. J. Physiol. Pharmacol. 1998 76 573 580 10.1139/y98-053 9839084
+L323: 32. Nieman D.C. 
+L324:  Pedersen B.K. 
+L325:  Exercise and immune function. Recent developments Sports Med. 1999 27 73 80 10.2165/00007256-199927020-00001 10091272
+L326: 33. Mackinnon L.T. 
+L327:  Chronic exercise training effects on immune function Med. Sci. Sports Exerc. 2000 32 S369 S376 10.1097/00005768-200007001-00001 10910293
+L328: 34. Nieman D.C. 
+L329:  Is infection risk linked to exercise workload? Med. Sci. Sports Exerc. 2000 32 S406 S411 10.1097/00005768-200007001-00005 10910297
+L330: 35. Nieman D.C. 
+L331:  Exercise immunology: Nutritional countermeasures Can. J. Appl. Physiol. 2001 26 S45 S55 10.1139/h2001-041 11897882
+L332: 36. Peters E.M. 
+L333:  Nutritional aspects in ultra-endurance exercise Curr. Opin. Clin. Nutr. Metab. Care 2003 6 427 434 10.1097/01.mco.0000078986.18774.90 12806217
+L334: 37. Hespel P. 
+L335:  Maughan R.J. 
+L336:  Greenhaff P.L. 
+L337:  Dietary supplements for football J. Sports Sci. 2006 24 749 761 10.1080/02640410500482974 16766503
+L338: 38. Venderley A.M. 
+L339:  Campbell W.W. 
+L340:  Vegetarian diets: Nutritional considerations for athletes Sports Med. 2006 36 293 305 10.2165/00007256-200636040-00002 16573356
+L341: 39. Clements W.T. 
+L342:  Lee S.R. 
+L343:  Bloomer R.J. 
+L344:  Nitrate ingestion: A review of the health and physical performance effects Nutrients 2014 6 5224 5264 10.3390/nu6115224 25412154
+L345: 40. Mason S.A. 
+L346:  Morrison D. 
+L347:  McConell G.K. 
+L348:  Wadley G.D. 
+L349:  Muscle redox signalling pathways in exercise. Role of antioxidants Free Radic. Biol. Med. 2016 98 29 45 10.1016/j.freeradbiomed.2016.02.022 26912034
+L350: 41. McLeay Y. 
+L351:  Stannard S. 
+L352:  Houltham S. 
+L353:  Starck C. 
+L354:  Dietary thiols in exercise: Oxidative stress defence, exercise performance, and adaptation J. Int. Soc. Sports Nutr. 2017 14 12 10.1186/s12970-017-0168-9 28465675
+L355: 42. Beck K.L. 
+L356:  von Hurst P.R. 
+L357:  O’Brien W.J. 
+L358:  Badenhorst C.E. 
+L359:  Micronutrients and athletic performance: A review Food Chem. Toxicol. 2021 158 112618 10.1016/j.fct.2021.112618 34662692
+L360: 43. Clemente-Suárez V.J. 
+L361:  Bustamante-Sanchez Á. 
+L362:  Mielgo-Ayuso J. 
+L363:  Martínez-Guardado I. 
+L364:  Martín-Rodríguez A. 
+L365:  Tornero-Aguilera J.F. 
+L366:  Antioxidants and Sports Performance Nutrients 2023 15 2371 10.3390/nu15102371 37242253
+L367: 44. Rogers D.R. 
+L368:  Lawlor D.J. 
+L369:  Moeller J.L. 
+L370:  Vitamin C Supplementation and Athletic Performance: A Review Curr. Sports Med. Rep. 2023 22 255 259 10.1249/JSR.0000000000001083 37417662
+L371: 45. Allahyari P. 
+L372:  Shekari S. 
+L373:  Aminnezhad Kavkani B. 
+L374:  Ahmadzadeh M. 
+L375:  Hassanpour Ardekanizadeh N. 
+L376:  Saeedirad Z. 
+L377:  Ghorbani Hesari M. 
+L378:  Bahar B. 
+L379:  Shafaei H. 
+L380:  Khalatbari Mohseni G. 
+L381:  
+L382:  The efficacy of dietary supplements on health status and performance of football players: A systematic review J. Basic. Clin. Physiol. Pharmacol. 2025 36 147 164 10.1515/jbcpp-2024-0077 39915258
+L383: 46. Mohd Sukri N. 
+L384:  Does vitamin C minimise exercise-induced oxidative stress? Sport Sci. Health 2021 17 505 533 10.1007/s11332-021-00756-5
+L385: 47. Quadros L.d. 
+L386:  Ascorbic Acid and Performance: A Review Vitam. Miner. 2016 5 136 10.4172/2376-1318.1000136
+L387: 48. Patlar S. 
+L388:  Baltacı A.K. 
+L389:  Moğulkoç R. 
+L390:  Günay M. 
+L391:  Effect of Vitamin C Supplementation on Lipid Peroxidation and Lactate Levels in Individuals Performing Exhaustion Exercise Ann. Appl. Sport Sci. 2017 5 21 27 10.18869/acadpub.aassjournal.5.2.21
+L392: 49. Popović L. 
+L393:  Mitić N. 
+L394:  Mirić D. 
+L395:  Biševac B. 
+L396:  Mirić M. 
+L397:  Popović B. 
+L398:  Influence of Vitamin C Supplementation on Oxidative Stress and Neutrophil Inflammatory Response in Acute and Regular Exercise Oxidative Med. Cell. Longev. 2015 2015 295497 10.1155/2015/295497 25802681
+L399: 50. Brun J.F. 
+L400:  Emmanuelle V.M. 
+L401:  Richou M. 
+L402:  Jacques M. 
+L403:  Éric Raynaud de M. 
+L404:  Blood Rheology as a Mirror of Endocrine and Metabolic Homeostasis in Health and Disease1 Clin. Hemorheol. Microcirc. 2018 69 239 265 10.3233/CH-189124 29660919
+L405: 51. Chmielewska A. 
+L406:  Regulska−Ilow B. 
+L407:  Evaluation of Supplement Use in Sport Climbers at Different Climbing Levels Nutrients 2022 15 100 10.3390/nu15010100 36615758
+L408: 52. Mason S.A. 
+L409:  Trewin A.J. 
+L410:  Parker L. 
+L411:  Wadley G.D. 
+L412:  Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights Redox Biol. 2020 35 101471 10.1016/j.redox.2020.101471 32127289
+L413: 53. Grandjean A.C. 
+L414:  Ruud J.S. 
+L415:  Nutrition for cyclists Clin. Sports Med. 1994 13 235 247 10.1016/S0278-5919(20)30366-5 8111855
+L416: 54. Vitale K. 
+L417:  Getzin A. 
+L418:  Nutrition and Supplement Update for the Endurance Athlete: Review and Recommendations Nutrients 2019 11 1289 10.3390/nu11061289 31181616
+L419: 55. Gómez-Cabrera M.C. 
+L420:  Carretero A. 
+L421:  Millán-Domingo F. 
+L422:  García-Domínguez E. 
+L423:  Correas Á.G. 
+L424:  Olaso-González G. 
+L425:  Viña J. 
+L426:  Redox-Related Biomarkers in Physical Exercise Redox Biol. 2021 42 101956 10.1016/j.redox.2021.101956 33811000
+L427: 56. Kim J. 
+L428:  Effect of High-Dose Vitamin C and E Supplementation on Muscle Recovery and Training Adaptation: A Mini Review Phys. Act. Nutr. 2023 27 8 12 10.20463/pan.2023.0012 37583066
+L429: 57. Hoxha I. 
+L430:  Bozo S. 
+L431:  Krasniqi M. 
+L432:  Bozo D. 
+L433:  The Effects of Vitamin D Deficiency on Physical Fitness and Sport Performance—A Review S. East. Eur. J. Public Health 2024 XXV 927 933 10.70135/seejph.vi.2214
+L434: 58. Cumming K.T. 
+L435:  Raastad T. 
+L436:  Sørstrøm A.N. 
+L437:  Paronetto M.P. 
+L438:  Mercatelli N. 
+L439:  Ugelstad I. 
+L440:  Caporossi D. 
+L441:  Paulsen G. 
+L442:  Vitamin C and E Supplementation Does Not Affect Heat Shock Proteins or Endogenous Antioxidants in Trained Skeletal Muscles During 12 Weeks of Strength Training BMC Nutr. 2017 3 70 10.1186/s40795-017-0185-8 32153849
+L443: 59. Calder P.C. 
+L444:  Kreider R.B. 
+L445:  McKay D.L. 
+L446:  Enhanced Vitamin C Delivery: A Systematic Literature Review Assessing the Efficacy and Safety of Alternative Supplement Forms in Healthy Adults Nutrients 2025 17 279 10.3390/nu17020279 39861409
+L447: 60. Carr A.C. 
+L448:  Vissers M.C. 
+L449:  Synthetic or food-derived vitamin C—Are they equally bioavailable? Nutrients 2013 5 4284 4304 10.3390/nu5114284 24169506
+L450: 61. Nikolaidis M.G. 
+L451:  Kerksick C.M. 
+L452:  Lamprecht M. 
+L453:  McAnulty S.R. 
+L454:  Does vitamin C and E supplementation impair the favorable adaptations of regular exercise? Oxid. Med. Cell Longev. 2012 2012 707941 10.1155/2012/707941 22928084
+L455: 62. Bryer S.C. 
+L456:  Goldfarb A.H. 
+L457:  Effect of high dose vitamin C supplementation on muscle soreness, damage, function, and oxidative stress to eccentric exercise Int. J. Sport Nutr. Exerc. Metab. 2006 16 270 280 10.1123/ijsnem.16.3.270 16948483
+L458: 63. Paulsen G. 
+L459:  Cumming K.T. 
+L460:  Holden G. 
+L461:  Hallén J. 
+L462:  Rønnestad B.R. 
+L463:  Sveen O. 
+L464:  Skaug A. 
+L465:  Paur I. 
+L466:  Bastani N.E. 
+L467:  Østgaard H.N. 
+L468:  
+L469:  Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: A double-blind, randomised, controlled trial J. Physiol. 2014 592 1887 1901 10.1113/jphysiol.2013.267419 24492839
+L470: 64. Powers S.K. 
+L471:  Nelson W.B. 
+L472:  Hudson M.B. 
+L473:  Exercise-induced oxidative stress in humans: Cause and consequences Free Radic. Biol. Med. 2011 51 942 950 10.1016/j.freeradbiomed.2010.12.009 21167935
+L474: 65. Levine M. 
+L475:  Rumsey S.C. 
+L476:  Daruwala R. 
+L477:  Park J.B. 
+L478:  Wang Y. 
+L479:  Criteria and recommendations for vitamin C intake JAMA 1999 281 1415 1423 10.1001/jama.281.15.1415 10217058
+L480: 66. Davison G. 
+L481:  Gleeson M. 
+L482:  Influence of acute vitamin C and/or carbohydrate ingestion on hormonal, cytokine, and immune responses to prolonged exercise Int. J. Sport. Nutr. Exerc. Metab. 2005 15 465 479 10.1123/ijsnem.15.5.465 16327030
+L483: 67. Thomas L.D. 
+L484:  Elinder C.G. 
+L485:  Tiselius H.G. 
+L486:  Wolk A. 
+L487:  Akesson A. 
+L488:  Ascorbic acid supplements and kidney stone incidence among men: A prospective study JAMA Intern. Med. 2013 173 386 388 10.1001/jamainternmed.2013.2296 23381591
+L489: 68. Nieman D. 
+L490:  Henson D. 
+L491:  Butterworth D. 
+L492:  Warren B. 
+L493:  Davis J. 
+L494:  Fagoaga O. 
+L495:  Nehlsen-Cannarella S. 
+L496:  Vitamin C Supplementation Does Not Alter the Immune Response to 2.5 Hours of Running Int. J. Sport Nutr. 1997 7 173 184 10.1123/ijsn.7.3.173 9286741
+L497: 69. Jacob R.A. 
+L498:  Sotoudeh G. 
+L499:  Vitamin C function and status in chronic disease Nutr. Clin. Care 2002 5 66 74 10.1046/j.1523-5408.2002.00005.x 12134712
+L500: 70. Hemilä H. 
+L501:  Chalker E. 
+L502:  Vitamin C for preventing and treating the common cold Cochrane Database Syst. Rev. 2013 2013 Cd000980 10.1002/14651858.CD000980.pub4 23440782
+L503: 71. Carr A. 
+L504:  Frei B. 
+L505:  Does vitamin C act as a pro-oxidant under physiological conditions? FASEB J. 1999 13 1007 1024 10.1096/fasebj.13.9.1007 10336883
+L506: 72. Nieman D.C. 
+L507:  Immunonutrition support for athletes Nutr. Rev. 2008 66 310 320 10.1111/j.1753-4887.2008.00038.x 18522619
+L508: 73. Ristow M. 
+L509:  Zarse K. 
+L510:  Oberbach A. 
+L511:  Klöting N. 
+L512:  Birringer M. 
+L513:  Kiehntopf M. 
+L514:  Stumvoll M. 
+L515:  Kahn C.R. 
+L516:  Blüher M. 
+L517:  Antioxidants prevent health-promoting effects of physical exercise in humans Proc. Natl. Acad. Sci. USA 2009 106 8665 8670 10.1073/pnas.0903485106 19433800
+L518: 74. Yanase F. 
+L519:  Fujii T. 
+L520:  Naorungroj T. 
+L521:  Belletti A. 
+L522:  Luethi N. 
+L523:  Carr A.C. 
+L524:  Young P.J. 
+L525:  Bellomo R. 
+L526:  Harm of IV High-Dose Vitamin C Therapy in Adult Patients: A Scoping Review Crit. Care Med. 2020 48 e620 e628 10.1097/CCM.0000000000004396 32404636
+L527: 75. McHugh G.J. 
+L528:  Graber M.L. 
+L529:  Freebairn R.C. 
+L530:  Fatal vitamin C-associated acute renal failure Anaesth. Intensive Care 2008 36 585 588 10.1177/0310057X0803600413 18714631
+L531: 76. Fijen L. 
+L532:  Weijmer M. 
+L533:  Acute oxalate nephropathy due to high vitamin C doses and exocrine pancreatic insufficiency BMJ Case Rep. 2019 12 e231504 10.1136/bcr-2019-231504
+L534: 77. Wang S.W. 
+L535:  Zhang X.W. 
+L536:  Qu J.X. 
+L537:  Rao Y.Z. 
+L538:  Lu S. 
+L539:  Wang B. 
+L540:  He J. 
+L541:  Zhao Y. 
+L542:  Rao B.Q. 
+L543:  Hemolysis attributed to high dose vitamin C: Two case reports World J. Clin. Cases 2024 12 3168 3176 10.12998/wjcc.v12.i17.3168 38898838
+L544: 78. Quinn J. 
+L545:  Gerber B. 
+L546:  Fouche R. 
+L547:  Kenyon K. 
+L548:  Blom Z. 
+L549:  Muthukanagaraj P. 
+L550:  Effect of High-Dose Vitamin C Infusion in a Glucose-6-Phosphate Dehydrogenase-Deficient Patient Case Rep. Med. 2017 2017 5202606 10.1155/2017/5202606 29317868
+L551: 79. Lo Y.H. 
+L552:  Mok K.L. 
+L553:  High dose vitamin C induced methemoglobinemia and hemolytic anemia in glucose-6-phosphate dehydrogenase deficiency Am. J. Emerg. Med. 2020 38 2488.e3 2488.e5 10.1016/j.ajem.2020.05.099 32561141
+L554: 80. Wu S. 
+L555:  Wu G. 
+L556:  Wu H. 
+L557:  Importance of rational use of vitamin C in G6PD deficiency patients Int. J. Vitam. Nutr. Res. 2023 93 1 3 10.1024/0300-9831/a000747 35045756
+L558: 81. Rowe S. 
+L559:  Alcheikh A. 
+L560:  Harm or Benefit of High-Dose Vitamin C in Adult Patients with Sepsis and Glucose-6-Phosphate Dehydrogenase Deficiency? Crit. Care Med. 2020 48 e1356 10.1097/CCM.0000000000004559 33255121
+L561: 82. Silva M.C.J.d. 
+L562:  Farmacologia e toxicologia do ácido ascórbico: Uma revisão Ciênc. Nat. 2000 22 103 128 10.5902/2179460X27114
+L563: 83. Mason S.A. 
+L564:  Parker L. 
+L565:  Trewin A.J. 
+L566:  Wadley G.D. 
+L567:  Antioxidant Supplements and Exercise Adaptations Oxidative Eustress in Exercise Physiology 
+L568:  James N.C. 
+L569:  Davison G.W. 
+L570:  CRC Press Boca Raton, FL, USA 2022
+L571: 84. Tardy A.-L. 
+L572:  Pouteau E. 
+L573:  Marquez D. 
+L574:  Yilmaz C. 
+L575:  Scholey A. 
+L576:  Vitamins and Minerals for Energy, Fatigue and Cognition: A Narrative Review of the Biochemical and Clinical Evidence Nutrients 2020 12 228 10.3390/nu12010228 31963141
+L577: 85. Koury M.J. 
+L578:  Ponka P. 
+L579:  New insights into erythropoiesis: The roles of folate, vitamin B12, and iron Annu. Rev. Nutr. 2004 24 105 131 10.1146/annurev.nutr.24.012003.132306 15189115
+L580: 86. Calderón-Ospina C.A. 
+L581:  Nava-Mesa M.O. 
+L582:  B Vitamins in the nervous system: Current knowledge of the biochemical modes of action and synergies of thiamine, pyridoxine, and cobalamin CNS Neurosci. Ther. 2020 26 5 13 10.1111/cns.13207 31490017
+L583: 87. Fissoun C. 
+L584:  Kovatcheva M. 
+L585:  Vitamin B12 in Cell Plasticity and Repair DNA Cell Biol. 2025 44 209 213 10.1089/dna.2025.0037 40106269
+L586: 88. Choi S.-M. 
+L587:  Chon J. 
+L588:  Lee S.A. 
+L589:  Yoo M.C. 
+L590:  Chung S.J. 
+L591:  Shim G.Y. 
+L592:  Soh Y. 
+L593:  Won C.W. 
+L594:  Impact of Vitamin B12 Insufficiency on the Incidence of Sarcopenia in Korean Community-Dwelling Older Adults: A Two-Year Longitudinal Study Nutrients 2023 15 936 10.3390/nu15040936 36839293
+L595: 89. Kato N. 
+L596:  Yang Y. 
+L597:  Bumrungkit C. 
+L598:  Kumrungsee T. 
+L599:  Does Vitamin B6 Act as an Exercise Mimetic in Skeletal Muscle? Int. J. Mol. Sci. 2024 25 9962 10.3390/ijms25189962 39337450
+L600: 90. Zhao Y. 
+L601:  Zhao T. 
+L602:  Liu X. 
+L603:  Li R. 
+L604:  Xiao H. 
+L605:  Vitamin B6 Nutrition, Metabolism, and the Relationship of Diseases: Current Concepts and Future Research J. Future Foods 2025 6 765 779 10.1016/j.jfutfo.2024.12.007
+L606: 91. Kacerova T. 
+L607:  Yates A.G. 
+L608:  Dai J. 
+L609:  Shepherd D. 
+L610:  Pires E. 
+L611:  de Jel S. 
+L612:  Gong Q. 
+L613:  Schiffer E. 
+L614:  Jernerén F. 
+L615:  Olsen T. 
+L616:  
+L617:  Role of B vitamins in modulating homocysteine and metabolic pathways linked to brain atrophy: Metabolomics insights from the VITACOG trial Alzheimers Dement. 2025 21 e70521 10.1002/alz.70521 40684250
+L618: 92. Hoffman M.D. 
+L619:  Valentino T.R. 
+L620:  Stuempfle K.J. 
+L621:  Hassid B.V. 
+L622:  A Placebo-Controlled Trial of Riboflavin for Enhancement of Ultramarathon Recovery Sports Med.—Open 2017 3 14 10.1186/s40798-017-0081-4 28349501
+L623: 93. Kent J.B. 
+L624:  Diduch B.K. 
+L625:  Statuta S.M. 
+L626:  Pugh K.F. 
+L627:  Macknight J.M. 
+L628:  The impact of riboflavin on the duration of sport-related concussion: A randomized placebo-controlled trial J. Concussion 2023 7 20597002231153707 10.1177/20597002231153707
+L629: 94. Moss K. 
+L630:  Kreutzer A. 
+L631:  Graybeal A.J. 
+L632:  Zhang Y. 
+L633:  Braun-Trocchio R. 
+L634:  Porter R.R. 
+L635:  Shah M. 
+L636:  Nutrient Adequacy in Endurance Athletes Int. J. Environ. Res. Public Health 2023 20 5469 10.3390/ijerph20085469 37107749
+L637: 95. Jędrejko K. 
+L638:  Catlin O. 
+L639:  Stewart T. 
+L640:  Muszyńska B. 
+L641:  Mexidol, Cytoflavin, and Succinic Acid Derivatives as Antihypoxic, Anti-ischemic Metabolic Modulators, and Ergogenic Aids in Athletes and Consideration of Their Potential as Performance Enhancing Drugs Drug Test. Anal. 2024 16 1436 1467 10.1002/dta.3655 38403950
+L642: 96. Miallot R. 
+L643:  Millet V. 
+L644:  Galland F. 
+L645:  Naquet P. 
+L646:  The vitamin B5/coenzyme A axis: A target for immunomodulation? Eur. J. Immunol. 2023 53 2350435 10.1002/eji.202350435
+L647: 97. Allendorf M. 
+L648:  From the President: The Essential and the Nonessential Electrochem. Soc. Interface 2006 15 7 10.1149/2.002062IF
+L649: 98. Spradley B.D. 
+L650:  Crowley K.R. 
+L651:  Tai C.-Y. 
+L652:  Kendall K.L. 
+L653:  Fukuda D.H. 
+L654:  Esposito E.N. 
+L655:  Moon S.E. 
+L656:  Moon J.R. 
+L657:  Ingesting a pre-workout supplement containing caffeine, B-vitamins, amino acids, creatine, and beta-alanine before exercise delays fatigue while improving reaction time and muscular endurance Nutr. Metab. 2012 9 28 10.1186/1743-7075-9-28
+L658: 99. Scott W.C. 
+L659:  Literature review of both classic and novel roles of biotin (vitamin B7) in cellular processes UTSC’s J. Nat. Sci. 2020 1 45 51
+L660: 100. Kaye A.D. 
+L661:  Jeha G.M. 
+L662:  Pham A.D. 
+L663:  Fuller M.C. 
+L664:  Lerner Z.I. 
+L665:  Sibley G.T. 
+L666:  Cornett E.M. 
+L667:  Urits I. 
+L668:  Viswanath O. 
+L669:  Kevil C.G. 
+L670:  Folic Acid Supplementation in Patients with Elevated Homocysteine Levels Adv. Ther. 2020 37 4149 4164 10.1007/s12325-020-01474-z 32845472
+L671: 101. Miranda-Vilela A.L. 
+L672:  Akimoto A.K. 
+L673:  Lordelo G.S. 
+L674:  Pereira L.C.S. 
+L675:  Grisólia C.K. 
+L676:  Klautau-Guimarães M.d.N. 
+L677:  Creatine Kinase MM TaqI and Methylenetetrahydrofolate Reductase C677T and A1298C Gene Polymorphisms Influence Exercise-Induced C-Reactive Protein Levels Eur. J. Appl. Physiol. 2011 112 941 950 10.1007/s00421-011-1961-9 21706313
+L678: 102. Krzywański J. 
+L679:  Mikulski T. 
+L680:  Pokrywka A. 
+L681:  Młyńczak M. 
+L682:  Krysztofiak H. 
+L683:  Frączek B. 
+L684:  Ziemba A. 
+L685:  Vitamin B12 Status and Optimal Range for Hemoglobin Formation in Elite Athletes Nutrients 2020 12 1038 10.3390/nu12041038 32283824
+L686: 103. Wirnitzer K. 
+L687:  Motevalli M. 
+L688:  Tanous D. 
+L689:  Gregori M. 
+L690:  Wirnitzer G. 
+L691:  Leitzmann C. 
+L692:  Hill L. 
+L693:  Rosemann T. 
+L694:  Knechtle B. 
+L695:  Supplement Intake in Recreational Vegan, Vegetarian, and Omnivorous Endurance Runners—Results from the NURMI Study (Step 2) Nutrients 2021 13 2741 10.3390/nu13082741 34444901
+L696: 104. Malara M. 
+L697:  Hübner-Woźniak E. 
+L698:  Lewandowska I. 
+L699:  Assessment of Intake and Nutritional Status of Vitamin B1, B2, and B6 in Men and Women with Different Physical Activity Levels Biol. Sport 2013 30 117 123 10.5604/20831862.1044430 24744477
+L700: 105. Choi S.-K. 
+L701:  Baek S.-H. 
+L702:  Choi S.-W. 
+L703:  The Effects of Endurance Training and Thiamine Supplementation on Anti-Fatigue During Exercise Phys. Act. Nutr. 2013 17 189 198 10.5717/jenb.2013.17.4.189 25566430
+L704: 106. Baranauskas M. 
+L705:  Tūbelis L. 
+L706:  Stukas R. 
+L707:  Švedas E. 
+L708:  Samsonienė L. 
+L709:  Karanauskienė D. 
+L710:  Nutritional Status and Physical Development of High-Performance Combat Athletes in Lithuania Balt. J. Sport Health Sci. 2018 3 2 9 10.33607/bjshs.v3i94.122
+L711: 107. Gromova O. 
+L712:  Torshin I. 
+L713:  Sorokina M. 
+L714:  Gromov A. 
+L715:  Magnesium and vitamin B2 supplementation is an important nutritional resource of sports medicine Med. Counc. 2019 21 216 230 10.21518/2079-701X-2018-21-216-230
+L716: 108. Rokitzki L. 
+L717:  Sagredos A. 
+L718:  Keck E. 
+L719:  Sauer B. 
+L720:  Keul J. 
+L721:  Assessment of vitamin B2 status in performance athletes of various types of sports J. Nutr. Sci. Vitaminol. 1994 40 11 22 10.3177/jnsv.40.11 8089768
+L722: 109. Ghazzawi H.A. 
+L723:  Hussain M.A. 
+L724:  Raziq K.M. 
+L725:  Alsendi K.K. 
+L726:  Alaamer R.O. 
+L727:  Jaradat M. 
+L728:  Alobaidi S. 
+L729:  Al Aqili R. 
+L730:  Trabelsi K. 
+L731:  Jahrami H. 
+L732:  Exploring the Relationship Between Micronutrients and Athletic Performance: A Comprehensive Scientific Systematic Review of the Literature in Sports Medicine Sports 2023 11 109 10.3390/sports11060109 37368559
+L733: 110. Boitard S. 
+L734:  Delouche M. 
+L735:  Karoui A. 
+L736:  Gressette M. 
+L737:  Momken I. 
+L738:  Bouchard B. 
+L739:  Mercier-Nomé F. 
+L740:  Imbard A. 
+L741:  Lemaire C. 
+L742:  Garnier A. 
+L743:  
+L744:  A Cocktail of B Vitamins with Nicotinamide Riboside, Folate and Cobalamin Preserves Cardiac Function and Mitochondrial Oxidative Capacities in a Mouse Model of Heart Failure bioRxiv 2025 10.1101/2025.02.18.638803
+L745: 111. Gonçalves A.C. 
+L746:  Portari G.V. 
+L747:  The B-complex vitamins related to energy metabolism and their role in exercise performance: A narrative review Sci. Sports 2021 36 433 440 10.1016/j.scispo.2020.11.007
+L748: 112. Mikkelsen K. 
+L749:  Apostolopoulos V. 
+L750:  B vitamins and ageing Biochemistry and Cell Biology of Ageing: Part I Biomedical Science Springer Berlin/Heidelberg, Germany 2019 451 470
+L751: 113. Venco P. 
+L752:  Dusi S. 
+L753:  Valletta L. 
+L754:  Tiranti V. 
+L755:  Alteration of the coenzyme A biosynthetic pathway in neurodegeneration with brain iron accumulation syndromes Biochem. Soc. Trans. 2014 42 1069 1074 10.1042/BST20140106 25110004
+L756: 114. Ahmadi M. 
+L757:  Gholami M. 
+L758:  Natanzi H. 
+L759:  The effectiveness of sports applications and vitamin B-complex on physical activity levels and body composition JMIR Prepr. 2022 10.2196/preprints.44095
+L760: 115. Jaago M. 
+L761:  Timmusk U.S. 
+L762:  Timmusk T. 
+L763:  Palm K. 
+L764:  Drastic Effects on the Microbiome of a Young Rower Engaged in High-Endurance Exercise After a Month Usage of a Dietary Fiber Supplement Front. Nutr. 2021 8 654008 10.3389/fnut.2021.654008 33996876
+L765: 116. Manore M.M. 
+L766:  Effect of physical activity on thiamine, riboflavin, and vitamin B-6 requirements Am. J. Clin. Nutr. 2000 72 598s 606s 10.1093/ajcn/72.2.598S 10919966
+L767: 117. Hasan Kadhim A. 
+L768:  Shamkhi Noor A. 
+L769:  Amer Ali M. 
+L770:  The effectiveness of biotin (vitamin b7) added to the diet in improving the efficiency of productivity, and some physiological traits for broiler chickens (ross-308) exposed to oxidative stress Arch. Razi Inst. 2022 77 1805 1811 10.22092/ARI.2022.358365.2210 37123153
+L771: 118. Lyon P. 
+L772:  Strippoli V. 
+L773:  Fang B. 
+L774:  Cimmino L. 
+L775:  B Vitamins and One-Carbon Metabolism: Implications in Human Health and Disease Nutrients 2020 12 2867 10.3390/nu12092867 32961717
+L776: 119. Homocysteine and risk of ischemic heart disease and stroke: A meta-analysis JAMA 2002 288 2015 2022 10.1001/jama.288.16.2015 12387654
+L777: 120. Nebl J. 
+L778:  Schuchardt J.P. 
+L779:  Ströhle A. 
+L780:  Wasserfurth P. 
+L781:  Haufe S. 
+L782:  Eigendorf J. 
+L783:  Tegtbur U. 
+L784:  Hahn A. 
+L785:  Micronutrient Status of Recreational Runners with Vegetarian or Non-Vegetarian Dietary Patterns Nutrients 2019 11 1146 10.3390/nu11051146 31121930
+L786: 121. Kim Y.N. 
+L787:  Hwang J.H. 
+L788:  Cho Y.-O. 
+L789:  The Effects of Exercise Training and Acute Exercise Duration on Plasma Folate and Vitamin B12 Nutr. Res. Pract. 2016 10 161 10.4162/nrp.2016.10.2.161 27087899
+L790: 122. Grams L. 
+L791:  Garrido G. 
+L792:  Villacieros J. 
+L793:  Ferro A. 
+L794:  Marginal Micronutrient Intake in High-Performance Male Wheelchair Basketball Players: A Dietary Evaluation and the Effects of Nutritional Advice PLoS ONE 2016 11 e0157931 10.1371/journal.pone.0157931 27383836
+L795: 123. Jiménez-Casquet M.J. 
+L796:  Conde-Pipó J. 
+L797:  Valenzuela-Barranco I. 
+L798:  Rienda-Contreras R. 
+L799:  Olea-Serrano F. 
+L800:  Monserrat-Mesquida M. 
+L801:  Tur J.A. 
+L802:  Bouzas C. 
+L803:  Mariscal-Arcas M. 
+L804:  Cross-Sectional Study of the Anthropometric Profile and Nutrient Status of Elite Female Ice Hockey Players: Differences by Play Position Nutrients 2024 16 471 10.3390/nu16040471 38398795
+L805: 124. Habte K. 
+L806:  Adish A. 
+L807:  Zerfu D. 
+L808:  Kebede A. 
+L809:  Moges T. 
+L810:  Tesfaye B. 
+L811:  Challa F. 
+L812:  Baye K. 
+L813:  Iron, Folate and Vitamin B12 Status of Ethiopian Professional Runners Nutr. Metab. 2015 12 62 10.1186/s12986-015-0056-8 26719754
+L814: 125. Woolf K. 
+L815:  Manore M.M. 
+L816:  B-vitamins and exercise: Does exercise alter requirements? Int. J. Sport Nutr. Exerc. Metab. 2006 16 453 484 10.1123/ijsnem.16.5.453 17240780
+L817: 126. Rosenbloom C. 
+L818:  Can Vitamins and Mineral Supplements Improve Sports Performance? Nutr. Today 2007 42 74 80 10.1097/01.NT.0000267119.73393.86
+L819: 127. Bojanic V. 
+L820:  Milenkovic J. 
+L821:  Bojanic Z. 
+L822:  Lazović M. 
+L823:  Hydrosoluble Vitamins and Sport Acta Medica Median. 2011 50 68 75 10.5633/amm.2011.0213
+L824: 128. Walzik D. 
+L825:  Jonas W. 
+L826:  Joisten N. 
+L827:  Belen S. 
+L828:  Wüst R.C.I. 
+L829:  Guillemin G. 
+L830:  Zimmer P. 
+L831:  Tissue-specific effects of exercise as NAD(+) -boosting strategy: Current knowledge and future perspectives Acta Physiol. 2023 237 e13921 10.1111/apha.13921
+L832: 129. Combs G.F. 
+L833:  McClung J.P. 
+L834:  The Vitamins: Fundamental Aspects in Nutrition and Health 5th ed. Academic Press Cambridge, MA, USA 2017
+L835: 130. Manore M.M. 
+L836:  Thompson J. 
+L837:  Sports Nutrition for Health and Performance Human Kinetics Champaign, IL, USA 2008
+L838: 131. Said H.M. 
+L839:  Biotin bioavailability and estimated average requirement: Why bother? Am. J. Clin. Nutr. 1999 69 352 353 10.1093/ajcn/69.3.352 10075316
+L840: 132. Williams M.H. 
+L841:  Dietary supplements and sports performance: Minerals J. Int. Soc. Sports Nutr. 2005 2 43 49 10.1186/1550-2783-2-1-43 18500950
+L842: 133. Erpenbach K. 
+L843:  Erpenbach M.C. 
+L844:  Maier D. 
+L845:  Seidl H. 
+L846:  Aksan A. 
+L847:  Mayer W. 
+L848:  Mücke S. 
+L849:  A-044 Using ID-Vit Test Systems to Assess the Effect of Vitamin B Supplementation on Fatigue Symptoms in Professional Athletes Clin. Chem. 2023 69 hvad097.042 10.1093/clinchem/hvad097.042
+L850: 134. Suter P.M. 
+L851:  Chapter 16—The B-vitamins Essential and Toxic Trace Elements and Vitamins in Human Health 
+L852:  Prasad A.S. 
+L853:  Brewer G.J. 
+L854:  Academic Press Cambridge, MA, USA 2020 217 239
+L855: 135. Larson-Meyer D.E. 
+L856:  Woolf K. 
+L857:  Burke L. 
+L858:  Assessment of Nutrient Status in Athletes and the Need for Supplementation Int. J. Sport Nutr. Exerc. Metab. 2018 28 139 158 10.1123/ijsnem.2017-0338 29252049
+L859: 136. Rahman S. 
+L860:  Baumgartner M. 
+L861:  B Vitamins: Small molecules, big effects J. Inherit. Metab. Dis. 2019 42 579 580 10.1002/jimd.12127 31215043
+L862: 137. Helgheim I. 
+L863:  Hetland Ø. 
+L864:  Nilsson S. 
+L865:  Ingjer F. 
+L866:  StrØmme S.B. 
+L867:  The effects of vitamin E on serum enzyme levels following heavy exercise Eur. J. Appl. Physiol. Occup. Physiol. 1979 40 283 289 10.1007/BF00421520 371960
+L868: 138. Kim M. 
+L869:  Eo H. 
+L870:  Lim J.G. 
+L871:  Lim H. 
+L872:  Lim Y. 
+L873:  Can Low-Dose of Dietary Vitamin E Supplementation Reduce Exercise-Induced Muscle Damage and Oxidative Stress? A Meta-Analysis of Randomized Controlled Trials Nutrients 2022 14 1599 10.3390/nu14081599 35458161
+L874: 139. Higgins M.R. 
+L875:  Izadi A. 
+L876:  Kaviani M. 
+L877:  Antioxidants and Exercise Performance: With a Focus on Vitamin E and C Supplementation Int. J. Environ. Res Public Health 2020 17 8452 10.3390/ijerph17228452 33203106
+L878: 140. Li S. 
+L879:  Fasipe B. 
+L880:  Laher I. 
+L881:  Potential harms of supplementation with high doses of antioxidants in athletes J. Exerc. Sci. Fit. 2022 20 269 275 10.1016/j.jesf.2022.06.001 35812825
+L882: 141. Chaki B. 
+L883:  Pal S. 
+L884:  Chattopadhyay S. 
+L885:  Bandyopadhyay A. 
+L886:  Influence of puberty on high intensity exercise induced skeletal muscle damage and inflammatory response in sedentary boys Sports Med. Health Sci. 2025 7 116 123 10.1016/j.smhs.2024.03.002 39811409
+L887: 142. Leite C. 
+L888:  Zovico P.V.C. 
+L889:  Rica R.L. 
+L890:  Barros B.M. 
+L891:  Machado A.F. 
+L892:  Evangelista A.L. 
+L893:  Leite R.D. 
+L894:  Barauna V.G. 
+L895:  Maia A.F. 
+L896:  Bocalini D.S. 
+L897:  Exercise-Induced Muscle Damage after a High-Intensity Interval Exercise Session: Systematic Review Int. J. Environ. Res. Public Health 2023 20 7082 10.3390/ijerph20227082 37998313
+L898: 143. Poprzecki S. 
+L899:  Staszkiewicz A. 
+L900:  Hübner-Woźniak E. 
+L901:  Effect of eccentric and concentric exercise on plasma creatine kinase (CK) and lactate dehydrogenase (LDH) activity in healthy adults Biol. Sport 2004 21 193 203
+L902: 144. de Lima K.S. 
+L903:  Schuch F. 
+L904:  Righi N.C. 
+L905:  Neto L.J.R. 
+L906:  Nunes G.S. 
+L907:  Puntel G. 
+L908:  Chagas P. 
+L909:  da Silva A.M.V. 
+L910:  Signori L.U. 
+L911:  Vitamin E Does not Favor Recovery After Exercises: Systematic Review and Meta-analysis Int. J. Sports Med. 2024 45 485 495 10.1055/a-2221-5688 38346687
+L912: 145. Larsen S. 
+L913:  Acute antioxidant supplementation and performance—Should this be considered Free Radic. Biol. Med. 2024 224 301 309 10.1016/j.freeradbiomed.2024.08.013 39147073
+L914: 146. Liu X. 
+L915:  Chen B. 
+L916:  Jin Y. 
+L917:  Zhong F. 
+L918:  Zhang Y. 
+L919:  Li Y. 
+L920:  Zhang Y. 
+L921:  Cui R. 
+L922:  Wu B. 
+L923:  Li C. 
+L924:  
+L925:  Effects of vitamins C and E supplementation combined with 12-week resistance training in older women with sarcopenia: A randomized, double-blind, placebo-controlled trial Medicine 2025 104 e43976 10.1097/MD.0000000000043976 40859523
+L926: 147. Son H.J. 
+L927:  Lee Y.H. 
+L928:  Chae J.H. 
+L929:  Kim C.K. 
+L930:  Creatine kinase isoenzyme activity during and after an ultra-distance (200 km) run Biol. Sport 2015 32 357 361 10.5604/20831862.1163384 28479667
+L931: 148. Page S. 
+L932:  Jackson M.J. 
+L933:  Coakley J. 
+L934:  Edwards R.H. 
+L935:  Isoforms of creatine kinase: MM in the study of skeletal muscle damage Eur. J. Clin. Investig. 1989 19 185 191 10.1111/j.1365-2362.1989.tb00216.x 2499478
+L936: 149. Kilicarslan You D. 
+L937:  Fuwad A. 
+L938:  Lee K.H. 
+L939:  Kim H.K. 
+L940:  Kang L. 
+L941:  Kim S.M. 
+L942:  Jeon T.J. 
+L943:  Evaluation of the Protective Role of Vitamin E against ROS-Driven Lipid Oxidation in Model Cell Membranes Antioxidants 2024 13 1135 10.3390/antiox13091135 39334794
+L944: 150. Meacci E. 
+L945:  Chirco A. 
+L946:  Garcia-Gil M. 
+L947:  Potential Vitamin E Signaling Mediators in Skeletal Muscle Antioxidants 2024 13 1383 10.3390/antiox13111383 39594525
+L948: 151. Chandimali N. 
+L949:  Bak S.G. 
+L950:  Park E.H. 
+L951:  Lim H.-J. 
+L952:  Won Y.-S. 
+L953:  Kim E.-K. 
+L954:  Park S.-I. 
+L955:  Lee S.J. 
+L956:  Free radicals and their impact on health and antioxidant defenses: A review Cell Death Discov. 2025 11 19 10.1038/s41420-024-02278-8 39856066
+L957: 152. Sureda A. 
+L958:  Tauler P. 
+L959:  Aguiló A. 
+L960:  Cases N. 
+L961:  Llompart I. 
+L962:  Tur J.A. 
+L963:  Pons A. 
+L964:  Influence of an Antioxidant Vitamin-Enriched Drink on Pre- and Post-Exercise Lymphocyte Antioxidant System Ann. Nutr. Metab. 2008 52 233 240 10.1159/000140515 18562790
+L965: 153. Bojanić N. 
+L966:  Radović J. 
+L967:  Jančić N. 
+L968:  Đinđić N. 
+L969:  Fatsoluble Vitamins and Sport Acta Medica Median. 2013 52 63 68 10.5633/amm.2013.0412
+L970: 154. Chou C.C. 
+L971:  Sung Y.C. 
+L972:  Davison G. 
+L973:  Chen C.Y. 
+L974:  Liao Y.H. 
+L975:  Short-Term High-Dose Vitamin C and E Supplementation Attenuates Muscle Damage and Inflammatory Responses to Repeated Taekwondo Competitions: A Randomized Placebo-Controlled Trial Int. J. Med. Sci. 2018 15 1217 1226 10.7150/ijms.26340 30123060
+L976: 155. de la Puente Yagüe M. 
+L977:  Collado Yurrita L. 
+L978:  Ciudad Cabañas M.J. 
+L979:  Cuadrado Cenzual M.A. 
+L980:  Role of Vitamin D in Athletes and Their Performance: Current Concepts and New Trends Nutrients 2020 12 579 10.3390/nu12020579 32102188
+L981: 156. Meng Q. 
+L982:  Su C.-H. 
+L983:  Antioxidant Defense and Redox Signaling in Elite Soccer Players: Insights into Muscle Function, Recovery, and Training Adaptations Antioxidants 2025 14 815 10.3390/antiox14070815 40722919
+L984: 157. Yusni Y. 
+L985:  Amiruddin A. 
+L986:  The Effect of Vitamin E Supplementation on Muscular Fatigue in Professional Men’s Athletics Folia Medica Indones. 2019 55 171 175 10.20473/fmi.v55i3.15493
+L987: 158. Bădău D. 
+L988:  Bădău A. 
+L989:  Paraschiv F. 
+L990:  Rogozea L. 
+L991:  Hussein H.A. 
+L992:  Brînzaniuc K. 
+L993:  Influences of Vitamin a and E Supplementation on Haematological, Functional and Oxidative Balance Parameters on Handball Players Rev. Chim. 2018 69 332 336 10.37358/RC.18.2.6101
+L994: 159. Chhavi G. 
+L995:  Pradeep H.G. 
+L996:  Balwant S. 
+L997:  Effect of Vitamin Supplementation on Exercise Induced Oxidative Stress in Trained Elite Indian Cyclists Am. J. Biomed. Sci. 2009 1 166 170 10.5099/aj090200166
+L998: 160. Rothschild J.A. 
+L999:  Bishop D.J. 
+L1000:  Effects of Dietary Supplements on Adaptations to Endurance Training Sports Med. 2019 50 25 53 10.1007/s40279-019-01185-8 31531769
+L1001: 161. Draeger C.L. 
+L1002:  Naves A. 
+L1003:  Marques N. 
+L1004:  Baptistella A.B. 
+L1005:  Carnauba R.A. 
+L1006:  Paschoal V. 
+L1007:  Nicastro H. 
+L1008:  Controversies of Antioxidant Vitamins Supplementation in Exercise: Ergogenic or Ergolytic Effects in Humans? J. Int. Soc. Sports Nutr. 2014 11 4 10.1186/1550-2783-11-4 24552143
+L1009: 162. Kruk J. 
+L1010:  Aboul-Enein B.H. 
+L1011:  Duchnik E. 
+L1012:  Marchlewicz M. 
+L1013:  Antioxidative Properties of Phenolic Compounds and Their Effect on Oxidative Stress Induced by Severe Physical Exercise J. Physiol. Sci. 2022 72 19 10.1186/s12576-022-00845-1 35931969
+L1014: 163. Kolar L. 
+L1015:  Šušnjara P. 
+L1016:  Stupin M. 
+L1017:  Stupin A. 
+L1018:  Jukić I. 
+L1019:  Mihaljević Z. 
+L1020:  Kolobarić N. 
+L1021:  Nejašmić D. 
+L1022:  Lovrić M. 
+L1023:  Drenjančević I. 
+L1024:  Enhanced Microvascular Adaptation to Acute Physical Stress and Reduced Oxidative Stress in Male Athletes Who Consumed Chicken Eggs Enriched with  n -3 Polyunsaturated Fatty Acids and Antioxidants—Randomized Clinical Trial Life 2023 13 2140 10.3390/life13112140 38004280
+L1025: 164. Gillam I. 
+L1026:  Cunningham R.B. 
+L1027:  Telford R.D. 
+L1028:  Antioxidant Supplementation Protects Elite Athlete Muscle Integrity During Submaximal Training Int. J. Sports Physiol. Perform. 2022 17 549 555 10.1123/ijspp.2021-0051 35008040
+L1029: 165. Martínez-Ferrán M. 
+L1030:  Cuadrado-Peñafiel V. 
+L1031:  Sánchez-Andreo J.M. 
+L1032:  Villar-Lucas M. 
+L1033:  Montealegre M.C. 
+L1034:  Rubio-Martín A. 
+L1035:  Romero-Morales C. 
+L1036:  Casla-Barrio S. 
+L1037:  Pareja-Galeano H. 
+L1038:  Effects of Acute Vitamin C Plus Vitamin E Supplementation on Exercise-Induced Muscle Damage in Runners: A Double-Blind Randomized Controlled Trial Nutrients 2022 14 4635 10.3390/nu14214635 36364898
+L1039: 166. Koohkan M. 
+L1040:  Vahidian-Rezazadeh M. 
+L1041:  Delavar R. 
+L1042:  The Effect of Short-Term Administration of High-Dose Vitamins E and C on Serum Creatine Kinase and Myoglobin in the Resting Phase of Elite Sanda Athletes: A Randomized Trial Asian J. Sports Med. 2023 14 e134047 10.5812/asjsm-134047
+L1043: 167. Wyckelsma V.L. 
+L1044:  Murgia M. 
+L1045:  Kamandulis S. 
+L1046:  Gastaldello S. 
+L1047:  Brazaitis M. 
+L1048:  Sniečkus A. 
+L1049:  Eimantas N. 
+L1050:  Pääsuke M. 
+L1051:  Edman S. 
+L1052:  Apró W. 
+L1053:  
+L1054:  Antioxidant Supplementation Blunts the Proteome Response to 3 weeks of Sprint Interval Training Preferentially in Human Type 2 Muscle Fibres J. Physiol. 2025 
+L1055:  Online Version of Record Before Inclusion in an Issue 
+L1056:  10.1113/JP288638
+L1057: 168. Wang L. 
+L1058:  Meng Q. 
+L1059:  Su C.-H. 
+L1060:  From Food Supplements to Functional Foods: Emerging Perspectives on Post-Exercise Recovery Nutrition Nutrients 2024 16 4081 10.3390/nu16234081 39683475
+L1061: 169. Hecht C. 
+L1062:  Bank N. 
+L1063:  Cook B. 
+L1064:  Mistovich R.J. 
+L1065:  Nutritional Recommendations for the Young Athlete J. Pediatr. Orthop. Soc. N. Am. 2023 5 599 10.55275/JPOSNA-2023-599 40433081
+L1066: 170. Zare M. 
+L1067:  Shoaei N. 
+L1068:  Karimian J. 
+L1069:  Nouri M. 
+L1070:  Zare S. 
+L1071:  Leilami K. 
+L1072:  Shateri Z. 
+L1073:  Sarbakhsh P. 
+L1074:  Eftekhari M.H. 
+L1075:  Pourghassem Gargari B. 
+L1076:  Effect of a plant-based diet on oxidative stress biomarkers in male footballers Sci. Rep. 2024 14 3700 10.1038/s41598-024-54198-3 38355662
+L1077: 171. Moabedi M. 
+L1078:  Milajerdi A. 
+L1079:  The effect of co-administration of vitamin E and C supplements on plasma oxidative stress biomarkers and antioxidant capacity: A GRADE-assessed systematic review and meta-analysis of randomized controlled trials with meta-regression Front. Immunol. 2025 16 1547888 10.3389/fimmu.2025.1547888 40740780
+L1080: 172. Dobrowolski H. 
+L1081:  Kopczyńska K. 
+L1082:  Kazimierczak R. 
+L1083:  Rembiałkowska E. 
+L1084:  Włodarek D. 
+L1085:  Organic Food in Athletes Diet—Narrative Review of Alternative Products in Sports Nutrition Nutrients 2024 16 2347 10.3390/nu16142347 39064790
+L1086: 173. Holloway C. 
+L1087:  Zhong G. 
+L1088:  Kim Y.K. 
+L1089:  Ye H. 
+L1090:  Sampath H. 
+L1091:  Hammerling U. 
+L1092:  Isoherranen N. 
+L1093:  Quadro L. 
+L1094:  Retinoic acid regulates pyruvate dehydrogenase kinase 4 (Pdk4) to modulate fuel utilization in the adult heart: Insights from wild-type and β-carotene 9′,10′ oxygenase knockout mice FASEB J. 2022 36 e22513 10.1096/fj.202101910RR 36004605
+L1095: 174. Paulsen G. 
+L1096:  Hamarsland H. 
+L1097:  Cumming K.T. 
+L1098:  Johansen R. 
+L1099:  Hulmi J.J. 
+L1100:  Børsheim E. 
+L1101:  Wiig H. 
+L1102:  Garthe I. 
+L1103:  Raastad T. 
+L1104:  Vitamin C and E Supplementation Alters Protein Signalling After a Strength Training Session, but Not Muscle Growth During 10 weeks of Training J. Physiol. 2014 592 5391 5408 10.1113/jphysiol.2014.279950 25384788
+L1105: 175. Wadley G.D. 
+L1106:  McConell G.K. 
+L1107:  High-Dose Antioxidant Vitamin C Supplementation Does Not Prevent Acute Exercise-Induced Increases in Markers of Skeletal Muscle Mitochondrial Biogenesis in Rats J. Appl. Physiol. 2010 108 1719 1726 10.1152/japplphysiol.00127.2010 20395544
+L1108: 176. Mankowski R.T. 
+L1109:  Anton S.D. 
+L1110:  Buford T.W. 
+L1111:  Leeuwenburgh C. 
+L1112:  Dietary Antioxidants as Modifiers of Physiologic Adaptations to Exercise Med. Sci. Sports Exerc. 2015 47 1857 1868 10.1249/mss.0000000000000620 25606815
+L1113: 177. Picklo M.J. 
+L1114:  Thyfault J.P. 
+L1115:  Vitamin E and Vitamin C Do Not Reduce Insulin Sensitivity but Inhibit Mitochondrial Protein Expression in Exercising Obese Rats Appl. Physiol. Nutr. Metab. 2015 40 343 352 10.1139/apnm-2014-0302 25761734
+L1116: 178. Maughan R.J. 
+L1117:  Burke L.M. 
+L1118:  Dvorak J. 
+L1119:  Larson-Meyer D.E. 
+L1120:  Peeling P. 
+L1121:  Phillips S.M. 
+L1122:  Rawson E.S. 
+L1123:  Walsh N.P. 
+L1124:  Garthe I. 
+L1125:  Geyer H. 
+L1126:  
+L1127:  IOC consensus statement: Dietary supplements and the high-performance athlete Br. J. Sports Med. 2018 52 439 455 10.1136/bjsports-2018-099027 29540367
+L1128: 179. Özdemir K. 
+L1129:  Demir Y. 
+L1130:  Phenolic Compounds in Exercise Physiology: Dual Role in Oxidative Stress and Recovery Adaptation Food Sci. Nutr. 2025 13 e70714 10.1002/fsn3.70714 40735406
+L1131: 180. Gómez-Cabrera M.C. 
+L1132:  Handschin C. 
+L1133:  Unlocking athletic potential: Exploring exercise physiology from mechanisms to performance Free Radic. Biol. Med. 2025 230 48 49 10.1016/j.freeradbiomed.2025.01.036 39889892
+L1134: 181. Pastor R. 
+L1135:  Tur J.A. 
+L1136:  Antioxidant Supplementation and Adaptive Response to Training: A Systematic Review Curr. Pharm. Des. 2019 25 1889 1912 10.2174/1381612825666190701164923 31267859
+L1137: 182. Clifford T. 
+L1138:  Jeffries O. 
+L1139:  Stevenson E.J. 
+L1140:  Davies K.A.B. 
+L1141:  The effects of vitamin C and E on exercise-induced physiological adaptations: A systematic review and Meta-analysis of randomized controlled trials Crit. Rev. Food Sci. Nutr. 2020 60 3669 3679 10.1080/10408398.2019.1703642 31851538
+L1142: 183. Wagner K.H. 
+L1143:  Antioxidants in Sport Nutrition: All the Same Effectiveness? Antioxidants in Sport Nutrition 
+L1144:  Lamprecht M. 
+L1145:  CRC Press Boca Raton, FL, USA. Taylor & Francis Oxfordshire, UK 2015
+L1146: 184. Biswajit S. 
+L1147:  Mukhopadhyay K. 
+L1148:  Emerging Trends in Sports Cardiology: The Role of Micronutrients in Cardiovascular Health and Performance J. Sports Med. Ther. 2024 9 073 082 10.29328/journal.jsmt.1001086
+L1149: 185. Song P. 
+L1150:  Zhao J. 
+L1151:  Li F. 
+L1152:  Zhao X. 
+L1153:  Feng J. 
+L1154:  Su Y. 
+L1155:  Wang B. 
+L1156:  Zhao J. 
+L1157:  Vitamin A regulates mitochondrial biogenesis and function through p38 MAPK-PGC-1α signaling pathway and alters the muscle fiber composition of sheep J. Anim. Sci. Biotechnol. 2024 15 18 10.1186/s40104-023-00968-4 38310300
+L1158: 186. Fraczek P.M. 
+L1159:  Duran P. 
+L1160:  Yang B.A. 
+L1161:  Ferre V. 
+L1162:  Alawieh L. 
+L1163:  Castor-Macias J.A. 
+L1164:  Wong V.T. 
+L1165:  Guzman S.D. 
+L1166:  Piotto C. 
+L1167:  Itsani K. 
+L1168:  
+L1169:  Vitamin A retinoic acid contributes to muscle stem cell and mitochondrial function loss in old age JCI Insight 2025 10 e183706 10.1172/jci.insight.183706 40131371
+L1170: 187. Song Y. 
+L1171:  Zhang J. 
+L1172:  Jiang C. 
+L1173:  Song X. 
+L1174:  Chen X. 
+L1175:  Raza S.H.A. 
+L1176:  Pant S.D. 
+L1177:  Ma Y. 
+L1178:  Zan L. 
+L1179:  Wei D. 
+L1180:  
+L1181:  Vitamin A mediates FABP4 to regulate intramuscular fat production: A new target and strategy for optimizing beef quality BMC Genom. 2025 26 397 10.1186/s12864-025-11544-7
+L1182: 188. Amimo J.O. 
+L1183:  Michael H. 
+L1184:  Chepngeno J. 
+L1185:  Raev S.A. 
+L1186:  Saif L.J. 
+L1187:  Vlasova A.N. 
+L1188:  Immune Impairment Associated with Vitamin A Deficiency: Insights from Clinical Studies and Animal Model Research Nutrients 2022 14 5038 10.3390/nu14235038 36501067
+L1189: 189. Ross A.C. 
+L1190:  Vitamin A and retinoic acid in T cell-related immunity Am. J. Clin. Nutr. 2012 96 1166S 1172S 10.3945/ajcn.112.034637 23053562
+L1191: 190. Bonet M.L. 
+L1192:  Ribot J. 
+L1193:  Palou A. 
+L1194:  Lipid metabolism in mammalian tissues and its control by retinoic acid Biochim. Biophys. Acta 2012 1821 177 189 10.1016/j.bbalip.2011.06.001 21669299
+L1195: 191. Maggini S. 
+L1196:  Wintergerst E.S. 
+L1197:  Beveridge S. 
+L1198:  Hornig D.H. 
+L1199:  Selected vitamins and trace elements support immune function by strengthening epithelial barriers and cellular and humoral immune responses Br. J. Nutr. 2007 98 S29 S35 10.1017/S0007114507832971 17922955
+L1200: 192. Ahmad S.M. 
+L1201:  Haskell M.J. 
+L1202:  Raqib R. 
+L1203:  Stephensen C.B. 
+L1204:  Markers of innate immune function are associated with vitamin a stores in men J. Nutr. 2009 139 377 385 10.3945/jn.108.100198 19091796
+L1205: 193. Bonet M.L. 
+L1206:  Ribot J. 
+L1207:  Felipe F. 
+L1208:  Palou A. 
+L1209:  Vitamin A and the regulation of fat reserves Cell Mol. Life Sci. 2003 60 1311 1321 10.1007/s00018-003-2290-x 12943220
+L1210: 194. Berry D.C. 
+L1211:  Noy N. 
+L1212:  All-trans-retinoic acid represses obesity and insulin resistance by activating both peroxisome proliferation-activated receptor beta/delta and retinoic acid receptor Mol. Cell Biol. 2009 29 3286 3296 10.1128/MCB.01742-08 19364826
+L1213: 195. Ziouzenkova O. 
+L1214:  Plutzky J. 
+L1215:  Retinoid metabolism and nuclear receptor responses: New insights into coordinated regulation of the PPAR–RXR complex FEBS Lett. 2008 582 32 38 10.1016/j.febslet.2007.11.081 18068127
+L1216: 196. Mangelsdorf D.J. 
+L1217:  Thummel C. 
+L1218:  Beato M. 
+L1219:  Herrlich P. 
+L1220:  Schütz G. 
+L1221:  Umesono K. 
+L1222:  Blumberg B. 
+L1223:  Kastner P. 
+L1224:  Mark M. 
+L1225:  Chambon P. 
+L1226:  
+L1227:  The nuclear receptor superfamily: The second decade Cell 1995 83 835 839 10.1016/0092-8674(95)90199-X 8521507
+L1228: 197. Zhang Y. 
+L1229:  Gao Y. 
+L1230:  Chen G. 
+L1231:  Effects of vitamin A deficiency on plasma glucose, insulin and leptin in rats FASEB J. 2009 23 541.6 10.1096/fasebj.23.1_supplement.541.6
+L1232: 198. Stephensen C.B. 
+L1233:  Vitamin A, infection, and immune function Annu. Rev. Nutr. 2001 21 167 192 10.1146/annurev.nutr.21.1.167 11375434
+L1234: 199. Joseph L.C. 
+L1235:  Morrow J.P. 
+L1236:  Paracardial fat and vitamin A: A mechanism for regulating exercise performance J. Clin. Investig. 2021 131 e145969 10.1172/JCI145969 33586686
+L1237: 200. Lerner U.H. 
+L1238:  Vitamin A—Discovery, metabolism, receptor signaling and effects on bone mass and fracture susceptibility Front. Endocrinol. 2024 15 1298851 10.3389/fendo.2024.1298851
+L1239: 201. Galan P. 
+L1240:  Viteri F.E. 
+L1241:  Bertrais S. 
+L1242:  Czernichow S. 
+L1243:  Faure H. 
+L1244:  Arnaud J. 
+L1245:  Ruffieux D. 
+L1246:  Chenal S. 
+L1247:  Arnault N. 
+L1248:  Favier A. 
+L1249:  
+L1250:  Serum concentrations of beta-carotene, vitamins C and E, zinc and selenium are influenced by sex, age, diet, smoking status, alcohol consumption and corpulence in a general French adult population Eur. J. Clin. Nutr. 2005 59 1181 1190 10.1038/sj.ejcn.1602230 16034362
+L1251: 202. Powers S.K. 
+L1252:  Duarte J. 
+L1253:  Kavazis A.N. 
+L1254:  Talbert E.E. 
+L1255:  Reactive oxygen species are signalling molecules for skeletal muscle adaptation Exp. Physiol. 2010 95 1 9 10.1113/expphysiol.2009.050526 19880534
+L1256: 203. Yu B. 
+L1257:  Chen J. 
+L1258:  Wang Y. 
+L1259:  Zhou J. 
+L1260:  Wang H. 
+L1261:  Li H. 
+L1262:  Cai T. 
+L1263:  Huang R. 
+L1264:  Zhou Y. 
+L1265:  Ma J. 
+L1266:  Vitamin A influences the incretin hormone profiles by activating the retinoic acid receptor β J. Diabetes Its Complicat. 2024 38 108806 10.1016/j.jdiacomp.2024.108806 38996583
+L1267: 204. Liu C. 
+L1268:  Sun X. 
+L1269:  Peng J. 
+L1270:  Yu H. 
+L1271:  Lu J. 
+L1272:  Feng Y. 
+L1273:  Association between dietary vitamin A intake from different sources and non-alcoholic fatty liver disease among adults Sci. Rep. 2024 14 1851 10.1038/s41598-024-52077-5 38253816
+L1274: 205. Chen G. 
+L1275:  The Interactions of Insulin and Vitamin A Signaling Systems for the Regulation of Hepatic Glucose and Lipid Metabolism Cells 2021 10 2160 10.3390/cells10082160 34440929
+L1276: 206. Trasino S.E. 
+L1277:  Gudas L.J. 
+L1278:  Vitamin A: A missing link in diabetes? Diabetes Manag. 2015 5 359 367 10.2217/dmt.15.30
+L1279: 207. Chadt A. 
+L1280:  Al-Hasani H. 
+L1281:  Glucose transporters in adipose tissue, liver, and skeletal muscle in metabolic health and disease Pflug. Arch. 2020 472 1273 1298 10.1007/s00424-020-02417-x
+L1282: 208. Yang H.Y. 
+L1283:  Liu M. 
+L1284:  Sheng Y. 
+L1285:  Zhu L. 
+L1286:  Jin M.M. 
+L1287:  Jiang T.X. 
+L1288:  Yang L. 
+L1289:  Liu P.H. 
+L1290:  Liu X.D. 
+L1291:  Liu L. 
+L1292:  All-trans retinoic acid impairs glucose-stimulated insulin secretion by activating the RXR/SREBP-1c/UCP2 pathway Acta Pharmacol. Sin. 2022 43 1441 1452 10.1038/s41401-021-00740-2 34417575
+L1293: 209. Tirla A. 
+L1294:  Islam F. 
+L1295:  Islam M.R. 
+L1296:  Vicaș S.I. 
+L1297:  Cavalu S. 
+L1298:  New Insight and Future Perspectives on Nutraceuticals for Improving Sports Performance of Combat Players: Focus on Natural Supplements, Importance and Advantages Over Synthetic Ones Appl. Sci. 2022 12 8611 10.3390/app12178611
+L1299: 210. Żychowska M. 
+L1300:  Jastrzębski Z. 
+L1301:  Chruściński G. 
+L1302:  Michałowska-Sawczyn M. 
+L1303:  Nowak-Zaleska A. 
+L1304:  Vitamin C, A and E supplementation decreases the expression of HSPA1A and HSPB1 genes in the leukocytes of young polish figure skaters during a 10-day training camp J. Int. Soc. Sports Nutr. 2015 12 9 10.1186/s12970-015-0069-8 25722659
+L1305: 211. Cassim Bawa F.N. 
+L1306:  Zhang Y. 
+L1307:  Retinoic acid signaling in fatty liver disease Liver Res. 2023 7 189 195 10.1016/j.livres.2023.07.002 37854944
+L1308: 212. İlhan A. 
+L1309:  Müniroğlu S. 
+L1310:  Rakıcıoğlu N. 
+L1311:  Effect of Body Composition on the Athletic Performance of Soccer Referees J. Nutr. Sci. 2023 12 e66 10.1017/jns.2023.47 37396457
+L1312: 213. Petiz L.L. 
+L1313:  Girardi C.S. 
+L1314:  Bortolin R.C. 
+L1315:  Kunzler A. 
+L1316:  Gasparotto J. 
+L1317:  Rabelo T.K. 
+L1318:  Matté C. 
+L1319:  Moreira J.C. 
+L1320:  Gelain D.P. 
+L1321:  Vitamin A Oral Supplementation Induces Oxidative Stress and Suppresses IL-10 and HSP70 in Skeletal Muscle of Trained Rats Nutrients 2017 9 353 10.3390/nu9040353 28368329
+L1322: 214. Nichols Q. 
+L1323:  Ramadoss R. 
+L1324:  Stanzione J.R. 
+L1325:  Volpe S.L. 
+L1326:  Micronutrient Supplement Intakes Among Collegiate and Masters Athletes: A Cross-Sectional Study Front. Sports Act. Living 2023 5 854442 10.3389/fspor.2023.854442 37090821
+L1327: 215. Cassim Bawa F.N. 
+L1328:  Xu Y. 
+L1329:  Gopoju R. 
+L1330:  Plonski N.M. 
+L1331:  Shiyab A. 
+L1332:  Hu S. 
+L1333:  Chen S. 
+L1334:  Zhu Y. 
+L1335:  Jadhav K. 
+L1336:  Kasumov T. 
+L1337:  
+L1338:  Hepatic retinoic acid receptor alpha mediates all-trans retinoic acid’s effect on diet-induced hepatosteatosis Hepatol. Commun. 2022 6 2665 2675 10.1002/hep4.2049 35852305
+L1339: 216. Cifre M. 
+L1340:  Palou A. 
+L1341:  Oliver P. 
+L1342:  Impaired CPT1A Gene Expression Response to Retinoic Acid Treatment in Human PBMC as Predictor of Metabolic Risk Nutrients 2020 12 2269 10.3390/nu12082269 32751185
+L1343: 217. Yang H. 
+L1344:  Su M. 
+L1345:  Liu M. 
+L1346:  Sheng Y. 
+L1347:  Zhu L. 
+L1348:  Yang L. 
+L1349:  Mu R. 
+L1350:  Zou J. 
+L1351:  Liu X. 
+L1352:  Liu L. 
+L1353:  Hepatic retinaldehyde deficiency is involved in diabetes deterioration by enhancing PCK1- and G6PC-mediated gluconeogenesis Acta Pharm. Sin. B 2023 13 3728 3743 10.1016/j.apsb.2023.06.014 37719384
+L1354: 218. Lee J.M. 
+L1355:  Kim H. 
+L1356:  Baek S.H. 
+L1357:  Unraveling the physiological roles of retinoic acid receptor-related orphan receptor α Exp. Mol. Med. 2021 53 1278 1286 10.1038/s12276-021-00679-8 34588606
+L1358: 219. Sleeman M.W. 
+L1359:  Zhou H. 
+L1360:  Rogers S. 
+L1361:  Ng K.W. 
+L1362:  Best J.D. 
+L1363:  Retinoic acid stimulates glucose transporter expression in L6 muscle cells Mol. Cell Endocrinol. 1995 108 161 167 10.1016/0303-7207(95)03473-K 7758830
+L1364: 220. Blaner W.S. 
+L1365:  Vitamin A signaling and homeostasis in obesity, diabetes, and metabolic disorders Pharmacol. Ther. 2019 197 153 178 10.1016/j.pharmthera.2019.01.006 30703416
+L1366: 221. Chen L. 
+L1367:  Qin Y. 
+L1368:  Liu B. 
+L1369:  Gao M. 
+L1370:  Li A. 
+L1371:  Li X. 
+L1372:  Gong G. 
+L1373:  PGC-1α-Mediated Mitochondrial Quality Control: Molecular Mechanisms and Implications for Heart Failure Front. Cell Dev. Biol. 2022 10 871357 10.3389/fcell.2022.871357 35721484
+L1374: 222. Blaner W.S. 
+L1375:  Shmarakov I.O. 
+L1376:  Traber M.G. 
+L1377:  Vitamin A and Vitamin E: Will the Real Antioxidant Please Stand Up? Annu. Rev. Nutr. 2021 41 105 131 10.1146/annurev-nutr-082018-124228 34115520
+L1378: 223. Vašková J. 
+L1379:  Stupák M. 
+L1380:  Vidová Ugurbaş M. 
+L1381:  Židzik J. 
+L1382:  Mičková H. 
+L1383:  Therapeutic Uses of Retinol and Retinoid-Related Antioxidants Molecules 2025 30 2191 10.3390/molecules30102191 40430363
+L1384: 224. Manful C.F. 
+L1385:  Fordjour E. 
+L1386:  Subramaniam D. 
+L1387:  Sey A.A. 
+L1388:  Abbey L. 
+L1389:  Thomas R. 
+L1390:  Antioxidants and Reactive Oxygen Species: Shaping Human Health and Disease Outcomes Int. J. Mol. Sci. 2025 26 7520 10.3390/ijms26157520 40806653
+L1391: 225. Brescia C. 
+L1392:  Audia S. 
+L1393:  Pugliano A. 
+L1394:  Scaglione F. 
+L1395:  Iuliano R. 
+L1396:  Trapasso F. 
+L1397:  Perrotti N. 
+L1398:  Chiarella E. 
+L1399:  Amato R. 
+L1400:  Metabolic drives affecting Th17/Treg gene expression changes and differentiation: Impact on immune-microenvironment regulation APMIS 2024 132 1026 1045 10.1111/apm.13378 38239016
+L1401: 226. Skawratananond S. 
+L1402:  McCrea G.E. 
+L1403:  Lie P. 
+L1404:  Buxton M.B. 
+L1405:  Daly S.P. 
+L1406:  Vojtkofsky N.A. 
+L1407:  Smith S.C. 
+L1408:  Zhang C. 
+L1409:  Hernandez M. 
+L1410:  Hindle A. 
+L1411:  
+L1412:  The synergistic interplay between vitamin A, dietary fiber, and the microbiota-gut-brain axis: A potential mechanism for preventing Alzheimer’s disease Am. J. Physiol.-Gastrointest. Liver Physiol. 2025 329 G484 G499 10.1152/ajpgi.00097.2025 40796226
+L1413: 227. Salehi Z. 
+L1414:  Askari M. 
+L1415:  Jafari A. 
+L1416:  Ghosn B. 
+L1417:  Surkan P.J. 
+L1418:  Hosseinzadeh-Attar M.J. 
+L1419:  Pouraram H. 
+L1420:  Azadbakht L. 
+L1421:  Dietary patterns and micronutrients in respiratory infections including COVID-19: A narrative review BMC Public Health 2024 24 1661 10.1186/s12889-024-18760-y 38907196
+L1422: 228. Jin X. 
+L1423:  Peng D. 
+L1424:  Kim W. 
+L1425:  Park J. 
+L1426:  Lee J. 
+L1427:  Kim Y.H. 
+L1428:  Smith S.B. 
+L1429:  Lee H. 
+L1430:  All-Trans Retinoic Acid Drives Development Phase- Specific Response to Adipogenic and Myogenic Processes in Bovine Skeletal Muscle-Derived Cells Meat Muscle Biol. 2024 8 1 13 10.22175/mmb.16978
+L1431: 229. Chen P. 
+L1432:  Liu L. 
+L1433:  Relationship Between Minerals, Vitamins and Sports Ability of Dance Athletes Mol. Cell. Biomech. 2024 21 155 10.62617/mcb.v21.155
+L1434: 230. Cruz G.S. 
+L1435:  Silva D.C.G.d. 
+L1436:  Cunha M.d.S.B.d. 
+L1437:  Dietary Intake of Recreational Cyclists: A Cross-Sectional Study Res. Sq. 2023 10.21203/rs.3.rs-2609366/v1
+L1438: 231. McCrink C.M. 
+L1439:  McSorley E.M. 
+L1440:  Grant K. 
+L1441:  McNeilly A. 
+L1442:  Magee P.J. 
+L1443:  An Investigation of Dietary Intake, Nutrition Knowledge and Hydration Status of Gaelic Football Players Eur. J. Nutr. 2020 60 1465 1473 10.1007/s00394-020-02341-x 32734346
+L1444: 232. Close G.L. 
+L1445:  Hamilton D.L. 
+L1446:  Philp A. 
+L1447:  Burke L.M. 
+L1448:  Morton J.P. 
+L1449:  New strategies in sport nutrition to increase exercise performance Free Radic. Biol. Med. 2016 98 144 158 10.1016/j.freeradbiomed.2016.01.016 26855422
+L1450: 233. Guest N.S. 
+L1451:  Horne J. 
+L1452:  Vanderhout S. 
+L1453:  El-Sohemy A. 
+L1454:  Sport Nutrigenomics: Personalized Nutrition for Athletic Performance Front. Nutr. 2019 6 8 10.3389/fnut.2019.00008 30838211
+L1455: 234. Gasparotto J. 
+L1456:  Petiz L.L. 
+L1457:  Girardi C.S. 
+L1458:  Bortolin R.C. 
+L1459:  de Vargas A.R. 
+L1460:  Henkin B.S. 
+L1461:  Chaves P.R. 
+L1462:  Roncato S. 
+L1463:  Matté C. 
+L1464:  Zanotto-Filho A. 
+L1465:  
+L1466:  Supplementation with vitamin A enhances oxidative stress in the lungs of rats submitted to aerobic exercise Appl. Physiol. Nutr. Metab. 2015 40 1253 1261 10.1139/apnm-2015-0218 26566243
+L1467: 235. Girgis C.M. 
+L1468:  Clifton-Bligh R.J. 
+L1469:  Hamrick M.W. 
+L1470:  Holick M.F. 
+L1471:  Gunton J.E. 
+L1472:  The Roles of Vitamin D in Skeletal Muscle: Form, Function, and Metabolism Endocr. Rev. 2013 34 33 83 10.1210/er.2012-1012 23169676
+L1473: 236. Anderson P.H. 
+L1474:  Atkins G.J. 
+L1475:  Turner A.G. 
+L1476:  Kogawa M. 
+L1477:  Findlay D.M. 
+L1478:  Morris H.A. 
+L1479:  Vitamin D metabolism within bone cells: Effects on bone structure and strength Mol. Cell. Endocrinol. 2011 347 42 47 10.1016/j.mce.2011.05.024 21664230
+L1480: 237. Wyatt P.B. 
+L1481:  Reiter C.R. 
+L1482:  Satalich J.R. 
+L1483:  O’Neill C.N. 
+L1484:  Edge C. 
+L1485:  Cyrus J.W. 
+L1486:  O’Connell R.S. 
+L1487:  Vap A.R. 
+L1488:  Effects of Vitamin D Supplementation in Elite Athletes: A Systematic Review Orthop. J. Sports Med. 2024 12 23259671231220371 10.1177/23259671231220371 38188620
+L1489: 238. Michalczyk M.M. 
+L1490:  Kałuża M. 
+L1491:  Zydek G. 
+L1492:  Roczniok R. 
+L1493:  Golas A. 
+L1494:  The relationships of serum vitamin D concentration with linear speed and change of direction performance in soccer players Front. Nutr. 2024 11 1501643 10.3389/fnut.2024.1501643 39650712
+L1495: 239. Atadja L. 
+L1496:  Beck J. 
+L1497:  Franklin C. 
+L1498:  The importance of bone health for pediatric athletes: From juvenile osteochondritis dissecans to relative energy deficiency in sports J. Pediatr. Soc. N. Am. 2024 7 100052 10.1016/j.jposna.2024.100052
+L1499: 240. Pegreffi F. 
+L1500:  Donati Zeppa S. 
+L1501:  Gervasi M. 
+L1502:  Fernández-Peña E. 
+L1503:  Annibalini G. 
+L1504:  Bartolacci A. 
+L1505:  Formiglio E. 
+L1506:  Agostini D. 
+L1507:  Barbato C. 
+L1508:  Sestili P. 
+L1509:  
+L1510:  A Snapshot of Vitamin D Status, Performance, Blood Markers, and Dietary Habits in Runners and Non-Runners Nutrients 2024 16 3912 10.3390/nu16223912 39599698
+L1511: 241. Langley C.K. 
+L1512:  Morse C.I. 
+L1513:  Buffey A.J. 
+L1514:  The Prevalence of Low Vitamin D in Elite Para-Athletes: A Systematic Review Sports Med. Open 2024 10 96 10.1186/s40798-024-00756-y 39230661
+L1515: 242. Tuma C. 
+L1516:  Schick A. 
+L1517:  Pommerening N. 
+L1518:  Braun H. 
+L1519:  Thevis M. 
+L1520:  Effects of an Individualized vs. Standardized Vitamin D Supplementation on the 25(OH)D Level in Athletes Nutrients 2023 15 4747 10.3390/nu15224747 38004144
+L1521: 243. Valtueña J. 
+L1522:  Aparicio-Ugarriza R. 
+L1523:  Medina D. 
+L1524:  Lizarraga A. 
+L1525:  Rodas G. 
+L1526:  González-Gross M. 
+L1527:  Drobnic F. 
+L1528:  Vitamin D Status in Spanish Elite Team Sport Players Nutrients 2021 13 1311 10.3390/nu13041311 33921150
+L1529: 244. Maai N. 
+L1530:  Frank F. 
+L1531:  Meuris A. 
+L1532:  Ferreira N. 
+L1533:  Effect of Vitamin D on athletic performance: A systematic review J. Hum. Sport Exerc. 2025 20 771 786 10.55860/r03ayc39
+L1534: 245. Lee K.M. 
+L1535:  Gallucci A.R. 
+L1536:  Forsse J.S. 
+L1537:  Chapman-Lopez T.J. 
+L1538:  Torres R. 
+L1539:  Souza L.C.d. 
+L1540:  Heileson J.L. 
+L1541:  Funderburk L. 
+L1542:  The Relationship Between Serum Vitamin D, Bone Mineral Density, and Injury in Collegiate Acrobatics and Tumbling Athletes Nutr. Health 2024 31 47 51 10.1177/02601060241292398 39469990
+L1543: 246. Williams K. 
+L1544:  Askew C. 
+L1545:  Hughes D. 
+L1546:  Guy J.A. 
+L1547:  Jackson J.B. 
+L1548:  Gauthier C. 
+L1549:  Supplemental Vitamin D3 for the Prevention of Bone Stress Injuries in Collegiate Athletes Cureus 2025 17 e83320 10.7759/cureus.83320 40452696
+L1550: 247. Forelli F. 
+L1551:  Moiroux-Sahraoui A. 
+L1552:  Roux M. 
+L1553:  Miraglia N. 
+L1554:  Gaspar M. 
+L1555:  Stergiou M. 
+L1556:  Bjerregaard A. 
+L1557:  Mazeas J. 
+L1558:  Maurice D.M. 
+L1559:  Stay in the Game: Comprehensive Approaches to Decrease the Risk of Sports Injuries Cureus 2024 16 e76461 10.7759/cureus.76461 39867048
+L1560: 248. Saju A. 
+L1561:  Swaminathan N. 
+L1562:  Gopalakrishnan J. 
+L1563:  Sivaraman A. 
+L1564:  Prevalence of Hypovitaminosis D among Athletes and its Impact on Athletic Performance: A Scoping Review J. Datta Meghe Inst. Med. Sci. Univ. 2023 18 871 881 10.4103/jdmimsu.jdmimsu_395_23
+L1565: 249. Yoon S. 
+L1566:  Kwon O. 
+L1567:  Kim J. 
+L1568:  Vitamin D in Athletes: Focus on Physical Performance and Musculoskeletal Injuries Phys. Act. Nutr. 2021 25 20 25 10.20463/pan.2021.0011 34315203
+L1569: 250. Ortega D.R. 
+L1570:  Rosa F.J.B.d.l. 
+L1571:  Effects of Vitamin D Supplementation on Muscle Function and Recovery After Exercise-induced Muscle Damage: A Systematic Review J. Hum. Nutr. Diet. 2022 36 1068 1078 10.1111/jhn.13084 36149089
+L1572: 251. Agoncillo M. 
+L1573:  Yu J. 
+L1574:  Gunton J.E. 
+L1575:  The Role of Vitamin D in Skeletal Muscle Repair and Regeneration in Animal Models and Humans: A Systematic Review Nutrients 2023 15 4377 10.3390/nu15204377 37892452
+L1576: 252. Hunt G. 
+L1577:  Sukumar D. 
+L1578:  Volpe S.L. 
+L1579:  Magnesium and Vitamin D Supplementation on Exercise Performance Transl. J. Am. Coll. Sports Med. 2021 6 e000179 10.1249/TJX.0000000000000179
+L1580: 253. Motavari M. 
+L1581:  Seifi-Skishahr F. 
+L1582:  Nabilpour M. 
+L1583:  Mayhew J.L. 
+L1584:  Mamshali E. 
+L1585:  Afroundeh R. 
+L1586:  The Effect of Vitamin D Supplementation After Resistance Training on Physiological Characteristics in Futsal Players with Vitamin D Deficiency Int. J. Sport Stud. Health 2022 5 e126610 10.5812/intjssh-126610
+L1587: 254. Dahlquist D.T. 
+L1588:  Dieter B.P. 
+L1589:  Koehle M.S. 
+L1590:  Plausible ergogenic effects of vitamin D on athletic performance and recovery J. Int. Soc. Sports Nutr. 2015 12 33 10.1186/s12970-015-0093-8 26288575
+L1591: 255. Frank A. 
+L1592:  Stiffler-Joachim M. 
+L1593:  Sanfilippo J. 
+L1594:  Call C. 
+L1595:  Dooley M. 
+L1596:  Hetzel S. 
+L1597:  Brooks M. 
+L1598:  Spiker A. 
+L1599:  Poster 127: Vitamin D levels and Musculoskeletal Injuries in Collegiate Athletes Orthop. J. Sports Med. 2022 10 2325967121S00688 10.1177/2325967121S00688
+L1600: 256. Frank A.M. 
+L1601:  Stiffler-Joachim M.R. 
+L1602:  Sanfilippo J.L. 
+L1603:  Call C.J. 
+L1604:  Dooley M.S. 
+L1605:  Hetzel S.J. 
+L1606:  Brooks M.A. 
+L1607:  Spiker A.M. 
+L1608:  Podium Presentation Title: Vitamin D Levels and Musculoskeletal Injuries in Collegiate Athletes Arthroscopy 2023 39 e23 e24 10.1016/j.arthro.2023.01.068
+L1609: 257. Maai N. 
+L1610:  Frank F.A. 
+L1611:  Meuris A. 
+L1612:  Ferreira N. 
+L1613:  Association Between Vitamin D and Musculoskeletal Injuries: A Systematic Review Cureus 2025 17 e82495 10.7759/cureus.82495 40385928
+L1614: 258. Jakobsen M.M. 
+L1615:  Nygaard R. 
+L1616:  Højbjerg J.A. 
+L1617:  Larsen J.B. 
+L1618:  The Association Between Vitamin D Status and Overuse Sport Injuries: A Systematic Review and Meta-analysis Transl. Sports Med. 2021 4 553 564 10.1002/tsm2.269
+L1619: 259. Griffis C.E. 
+L1620:  Pletta A.M. 
+L1621:  Mutschler C. 
+L1622:  Ahmed A. 
+L1623:  Lorimer S. 
+L1624:  Proportion of Navy Recruits Diagnosed with Symptomatic Stress Fractures During Training and Monetary Impact of These Injuries Clin. Orthop. Relat. Res. 2022 480 2111 2119 10.1097/CORR.0000000000002304 35901437
+L1625: 260. Araujo P. 
+L1626:  Méndez-Dávila C. 
+L1627:  Challenges Ahead for a Rational Analysis of Vitamin D in Athletes Front. Nutr. 2021 8 712335 10.3389/fnut.2021.712335 34820410
+L1628: 261. Khan S.R. 
+L1629:  Claeson M. 
+L1630:  Khan A. 
+L1631:  Neale R.E. 
+L1632:  The effect of physical activity on vitamin D: A systematic review and meta-analysis of intervention studies in humans Public Health Pract. 2024 7 100495 10.1016/j.puhip.2024.100495 38601179
+L1633: 262. Sist M. 
+L1634:  Zou L. 
+L1635:  Galloway S.D.R. 
+L1636:  Rodriguez-Sanchez N. 
+L1637:  Effects of vitamin D supplementation on maximal strength and power in athletes: A systematic review and meta-analysis of randomized controlled trials Front. Nutr. 2023 10 1163313 10.3389/fnut.2023.1163313 37841405
+L1638: 263. Houston D.K. 
+L1639:  Marsh A.P. 
+L1640:  Neiberg R.H. 
+L1641:  Demons J.L. 
+L1642:  Campos C.L. 
+L1643:  Kritchevsky S.B. 
+L1644:  Delbono O. 
+L1645:  Tooze J.A. 
+L1646:  Vitamin D Supplementation and Muscle Power, Strength and Physical Performance in Older Adults: A Randomized Controlled Trial Am. J. Clin. Nutr. 2023 117 1086 1095 10.1016/j.ajcnut.2023.04.021 37084814
+L1647: 264. Cui A. 
+L1648:  Zhang T. 
+L1649:  Xiao P. 
+L1650:  Fan Z. 
+L1651:  Wang H. 
+L1652:  Zhuang Y. 
+L1653:  Global and regional prevalence of vitamin D deficiency in population-based studies from 2000 to 2022: A pooled analysis of 7.9 million participants Front. Nutr. 2023 10 1070808 10.3389/fnut.2023.1070808 37006940
+L1654: 265. Giustina A. 
+L1655:  Bilezikian J.P. 
+L1656:  Adler R.A. 
+L1657:  Banfi G. 
+L1658:  Bikle D.D. 
+L1659:  Binkley N.C. 
+L1660:  Bollerslev J. 
+L1661:  Bouillon R. 
+L1662:  Brandi M.L. 
+L1663:  Casanueva F.F. 
+L1664:  
+L1665:  Consensus Statement on Vitamin D Status Assessment and Supplementation: Whys, Whens, and Hows Endocr. Rev. 2024 45 625 654 10.1210/endrev/bnae009 38676447
+L1666: 266. Wilson-Barnes S.L. 
+L1667:  Hunt J.E.A. 
+L1668:  Williams E.L. 
+L1669:  Allison S.J. 
+L1670:  Wild J.J. 
+L1671:  Wainwright J. 
+L1672:  Lanham-New S.A. 
+L1673:  Manders R.J.F. 
+L1674:  Seasonal variation in vitamin D status, bone health and athletic performance in competitive university student athletes: A longitudinal study J. Nutr. Sci. 2020 9 e8 10.1017/jns.2020.1 32166023
+L1675: 267. Lithgow H. 
+L1676:  Johnston L. 
+L1677:  Ho F.K. 
+L1678:  Celis-Morales C. 
+L1679:  Cobley J. 
+L1680:  Raastad T. 
+L1681:  Hunter A.M. 
+L1682:  Lees J.S. 
+L1683:  Mark P.B. 
+L1684:  Quinn T.J. 
+L1685:  
+L1686:  Protocol for a randomised controlled trial to investigate the effects of vitamin K2 on recovery from muscle-damaging resistance exercise in young and older adults—The TAKEOVER study Trials 2022 23 1026 10.1186/s13063-022-06937-y 36539791
+L1687: 268. Gundberg C.M. 
+L1688:  Lian J.B. 
+L1689:  Booth S.L. 
+L1690:  Vitamin K-dependent carboxylation of osteocalcin: Friend or foe? Adv. Nutr. 2012 3 149 157 10.3945/an.112.001834 22516722
+L1691: 269. Alonso N. 
+L1692:  Meinitzer A. 
+L1693:  Fritz-Petrin E. 
+L1694:  Enko D. 
+L1695:  Herrmann M. 
+L1696:  Role of Vitamin K in Bone and Muscle Metabolism Calcif. Tissue Int. 2022 112 178 196 10.1007/s00223-022-00955-3 35150288
+L1697: 270. Ishizu T. 
+L1698:  Torii S. 
+L1699:  Taguchi M. 
+L1700:  Association Between Serum Uncarboxylated Osteocalcin Levels and Nutritional Intake in Japanese Female Athletes Phys. Act. Nutr. 2022 26 1 5 10.20463/pan.2022.0012
+L1701: 271. Xie C. 
+L1702:  Gong J. 
+L1703:  Zheng C. 
+L1704:  Zhang J. 
+L1705:  Gao J. 
+L1706:  Tian C. 
+L1707:  Guo X. 
+L1708:  Dai S. 
+L1709:  Gao T. 
+L1710:  Effects of vitamin K supplementation on bone mineral density at different sites and bone metabolism in the middle-aged and elderly population Bone Jt. Res. 2024 13 750 763 10.1302/2046-3758.1312.BJR-2024-0053.R1
+L1711: 272. Aaseth J.O. 
+L1712:  Finnes T.E. 
+L1713:  Askim M. 
+L1714:  Alexander J. 
+L1715:  The Importance of Vitamin K and the Combination of Vitamins K and D for Calcium Metabolism and Bone Health: A Review Nutrients 2024 16 2420 10.3390/nu16152420 39125301
+L1716: 273. AlBlooshi S. 
+L1717:  Vitamin K and women’s health: A review Front. Glob. Womens Health 2025 6 1590414 10.3389/fgwh.2025.1590414 40718363
+L1718: 274. Han Q. 
+L1719:  Xiang M. 
+L1720:  An N. 
+L1721:  Tan Q. 
+L1722:  Shao J. 
+L1723:  Wang Q. 
+L1724:  Effects of vitamin D3 supplementation on strength of lower and upper extremities in athletes: An updated systematic review and meta-analysis of randomized controlled trials Front. Nutr. 2024 11 1381301 10.3389/fnut.2024.1381301 38860160
+L1725: 275. Zhang T. 
+L1726:  O’Connor C. 
+L1727:  Sheridan H. 
+L1728:  Barlow J.W. 
+L1729:  Vitamin K2 in Health and Disease: A Clinical Perspective Foods 2024 13 1646 10.3390/foods13111646 38890875
+L1730: 276. Hariri E. 
+L1731:  Kassis N. 
+L1732:  Iskandar J.-P. 
+L1733:  Schurgers L.J. 
+L1734:  Saad A. 
+L1735:  Abdelfattah O. 
+L1736:  Bansal A. 
+L1737:  Isogai T. 
+L1738:  Harb S.C. 
+L1739:  Kapadia S. 
+L1740:  Vitamin K2—A neglected player in cardiovascular health: A narrative review Open Heart 2021 8 e001715 10.1136/openhrt-2021-001715 34785587
+L1741: 277. Shea M.K. 
+L1742:  Loeser R.F. 
+L1743:  Hsu F.C. 
+L1744:  Booth S.L. 
+L1745:  Nevitt M.C. 
+L1746:  Simonsick E.M. 
+L1747:  Strotmeyer E.S. 
+L1748:  Vermeer C. 
+L1749:  Kritchevsky S.B. 
+L1750:  Vitamin K Status and Lower Extremity Function in Older Adults: The Health Aging and Body Composition Study J. Gerontol. Ser. A 2015 71 1348 1355 10.1093/gerona/glv209 26576842
+L1751: 278. Dahlquist D.T. 
+L1752:  Stellingwerff T. 
+L1753:  Dieter B.P. 
+L1754:  McKenzie D.C. 
+L1755:  Koehle M.S. 
+L1756:  Effects of Macro- and Micronutrients on Exercise-Induced Hepcidin Response in Highly Trained Endurance Athletes Appl. Physiol. Nutr. Metab. 2017 42 1036 1043 10.1139/apnm-2017-0207 28605609
+L1757: 279. Clark A. 
+L1758:  Mach N. 
+L1759:  Exercise-Induced Stress Behavior, Gut-Microbiota-Brain Axis and Diet: A Systematic Review for Athletes J. Int. Soc. Sports Nutr. 2016 13 43 10.1186/s12970-016-0155-6 27924137
+L1760: 280. Ballegooijen A.J.v. 
+L1761:  Beulens J.W.J. 
+L1762:  Kieneker L.M. 
+L1763:  Borst M.H.d. 
+L1764:  Gansevoort R.T. 
+L1765:  Kema I.P. 
+L1766:  Schurgers L.J. 
+L1767:  Vervloet M. 
+L1768:  Bakker S.J.L. 
+L1769:  Combined Low Vitamin D and K Status Amplifies Mortality Risk: A Prospective Study Eur. J. Nutr. 2020 60 1645 1654 10.1007/s00394-020-02352-8 32808059
+L1770: 281. Giri T.K. 
+L1771:  Newton D. 
+L1772:  Chaudhary O. 
+L1773:  Deych E. 
+L1774:  Napoli N. 
+L1775:  Villareal R. 
+L1776:  Diemer K. 
+L1777:  E Milligan P. 
+L1778:  Gage B.F. 
+L1779:  Maximal dose-response of vitamin-K2 (menaquinone-4) on undercarboxylated osteocalcin in women with osteoporosis Int. J. Vitam. Nutr. Res. 2020 90 42 48 10.1024/0300-9831/a000554 30816822
+L1780: 282. Ammerman B.M. 
+L1781:  Ling D. 
+L1782:  Callahan L.R. 
+L1783:  Hannafin J.A. 
+L1784:  Goolsby M.A. 
+L1785:  Prevalence of Vitamin D Insufficiency and Deficiency in Young, Female Patients with Lower Extremity Musculoskeletal Complaints Sports Health 2021 13 173 180 10.1177/1941738120953414 33301353
+L1786: 283. Fusaro M. 
+L1787:  Cianciolo G. 
+L1788:  Brandi M.L. 
+L1789:  Ferrari S. 
+L1790:  Nickolas T.L. 
+L1791:  Tripepi G. 
+L1792:  Plebani M. 
+L1793:  Zaninotto M. 
+L1794:  Iervasi G. 
+L1795:  La Manna G. 
+L1796:  
+L1797:  Vitamin K and Osteoporosis Nutrients 2020 12 3625 10.3390/nu12123625 33255760
+L1798: 284. Sato T. 
+L1799:  Inaba N. 
+L1800:  Yamashita T. 
+L1801:  MK-7 and Its Effects on Bone Quality and Strength Nutrients 2020 12 965 10.3390/nu12040965 32244313
+L1802: 285. Schwalfenberg G.K. 
+L1803:  Vitamins K1 and K2: The Emerging Group of Vitamins Required for Human Health J. Nutr. Metab. 2017 2017 6254836 10.1155/2017/6254836 28698808
+L1804: Acknowledgments
+L1805: During the preparation of this manuscript/study, the authors used ChatDTP-4o and the R package for the creation of the figures. The authors have reviewed and edited the output and take full responsibility for the content of this publication.
+[40ms]
+

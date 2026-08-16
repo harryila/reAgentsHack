@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "--repo",
+    "triage-a-probe-f6fb16685e",
+    "--repo-only",
+    "search",
+    "-s",
+    "pmc",
+    "-n",
+    "50",
+    "--all",
+    "Under which conditions does time-restricted eating change cardiometabolic outcomes relative to an unrestricted eating window?"
+  ],
+  "completed_at": "2026-08-16T02:57:49.930691+00:00",
+  "elapsed_seconds": 3.631732540903613,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:46.298979+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/repo-probe-search.attempt-01.stderr",
+  "stdout_bytes": 5755,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/repo-probe-search.attempt-01.stdout"
+}

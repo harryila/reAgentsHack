@@ -1,0 +1,2354 @@
+L1: Vitamin C‐Dependent Intergenerational Inheritance of Enhanced Endurance Performance Following Maternal Exercise
+L2: Advanced Science (2025)
+L3: Haiwang Shi, Jie Li, Fan Li, Haoyang Yu, Fulong Zhang, Tao Wu, Luodan Yang, Yuecheng Li, Rui Hu, Mengjie Chen, Nina SG, Xuhong Zhuang, Shu Feng, Ling Zhu, Rui Duan
+L4: 1 
+L5:  
+L6:  School of Physical Education and Sports Science 
+L7:  South China Normal University 
+L8:  Guangzhou 
+L9:  Guangdong 
+L10:  510006 
+L11:  China
+L12: Declining levels of physical activity and fitness in children and youth are linked to negative health outcomes. This study investigates whether maternal exercise can enhance offspring's physical fitness. Our results demonstrate that maternal exercise improves offspring's endurance by changing muscle fiber composition and promoting mitochondrial biogenesis, with benefits lasting across generations. This improvement is associated with changes in DNA methylation, specifically the demethylation of the  Slc23a2  gene, which codes for SVCT2, crucial for vitamin C (VC) transport, in F1 and F2 generations. Importantly, VC administration during pregnancy mimics the transgenerational benefits of exercise on offspring fitness, but these benefits are absent in genetic VC deficiency mice. VC supplementation increases TET2 expression in murine and human myogenic cells, regulating DNA methylation, promoting the development of oxidative fibers, and enhancing mitochondrial biogenesis. This study highlights the VC‐TET2‐SVCT2 pathway as a key mechanism for the transgenerational endurance benefits of maternal exercise, suggesting potential strategies to enhance maternal and child health.
+L13: Research Article; Research Article
+L14: epigenetics; exercise; maternal exercise; offspring health; skeletal muscle
+L15: Introduction
+L16: Physical fitness is a multidimensional construct encompassing elements such as muscle strength, muscular endurance, speed, flexibility, balance, and coordination. [ 
+L17:  
+L18:  1 
+L19:  ,  
+L20:  2 
+L21:  
+L22:  ]  Sufficient levels of physical fitness are robustly correlated with decreased risks of all‐cause mortality, cardiovascular disease, insulin resistance, and metabolic disorders. [ 
+L23:  
+L24:  3 
+L25:  ,  
+L26:  4 
+L27:  ,  
+L28:  5 
+L29:  ,  
+L30:  6 
+L31:  
+L32:  ]  However, there is growing concern over the global decline in physical fitness levels, particularly among children, with notable decreases in cardiorespiratory and muscular fitness. [ 
+L33:  
+L34:  7 
+L35:  ,  
+L36:  8 
+L37:  ,  
+L38:  9 
+L39:  ,  
+L40:  10 
+L41:  
+L42:  ]  The development of physical fitness is influenced by both genetic factors and regular exercise. [ 
+L43:  
+L44:  11 
+L45:  
+L46:  ]  While DNA provides the foundational blueprint for physical capabilities, gene expression can be significantly modulated by environmental factors and lifestyle choices, [ 
+L47:  
+L48:  12 
+L49:  
+L50:  ]  including parental physical activity. [ 
+L51:  
+L52:  13 
+L53:  
+L54:  ]  Recent studies have underscored the profound impact of parental, particularly maternal, exercise on offspring health outcomes. [ 
+L55:  
+L56:  14 
+L57:  ,  
+L58:  15 
+L59:  ,  
+L60:  16 
+L61:  
+L62:  ]  However, the specific effects of maternal exercise on offspring physical fitness remain underexplored. In this study, we demonstrate that maternal exercise enhances endurance performance in offspring by increasing the proportion of oxidative myofibers and promoting mitochondrial biogenesis in their skeletal muscles. Remarkably, these endurance improvements can be intergenerationally transmitted, suggesting a heritable mechanism beyond direct genetic inheritance.
+L63: Given that maternal exercise cannot alter the offspring's DNA sequence in general, we speculate that epigenetic modifications mediate the observed enhancements in endurance performance. Epigenetic alterations, including DNA methylation, histone modifications, and microRNA regulation during embryological development, have been proposed to influence offspring metabolism. [ 
+L64:  
+L65:  17 
+L66:  
+L67:  ]  Changes in DNA methylation play a pivotal role in the benefits of maternal exercise on offspring, such as enhanced DNA demethylation of the  Prdm16  promoter, which promotes brown adipose tissue development and prevents obesity in offspring challenged with a high‐energy diet. [ 
+L68:  
+L69:  13 
+L70:  
+L71:  ]  In addition, maternal exercise protects the fetus from hypermethylation of  Ppargc1α  in skeletal muscle induced by a maternal high‐fat diet. [ 
+L72:  
+L73:  18 
+L74:  
+L75:  ]  These findings highlight the significance of epigenetic mechanisms in translating maternal exercise into tangible health benefits for offspring.
+L76: Vitamin C (VC), also known as ascorbic acid, is an essential micronutrient pivotal for various biological functions, including antioxidant activity, regulation of HIF‐1 hydroxylation, metabolism, and collagen synthesis. [ 
+L77:  
+L78:  19 
+L79:  ,  
+L80:  20 
+L81:  ,  
+L82:  21 
+L83:  
+L84:  ]  Recent research has demonstrated that VC can stimulate the enzymatic function of ferrous iron‐ and α‐ketoglutarate‐dependent dioxygenase (αKGDDs), including Jumonji C domain‐containing histone demethylases (JmjC KDMs) and ten‐eleven translocation methylcytosine dioxygenases (TETs). [ 
+L85:  
+L86:  22 
+L87:  ,  
+L88:  23 
+L89:  ,  
+L90:  24 
+L91:  ,  
+L92:  25 
+L93:  
+L94:  ]  These epigenetic hydroxylases facilitate the conversion of 5‐methyl‐cytosine (5mC) to 5‐hydroxy‐methyl‐cytosine (5hmC), a process that generally supports chromatin opening and activation of gene expression. [ 
+L95:  
+L96:  26 
+L97:  ,  
+L98:  27 
+L99:  
+L100:  ]
+L101: To identify novel epigenetic targets through which maternal exercise may enhance offspring endurance performance, we perform methylation‐capture sequencing (MCC‐Seq) on skeletal muscle from F1 and F2 offspring. Our analysis reveals significant decreases in DNA methylation of the  Slc23a2  gene across both male and female F1 and F2 offspring. The  Slc23a2  gene encodes the SVCT2 protein, a sodium‐dependent VC transporter responsible for transporting VC from blood to tissues. [ 
+L102:  
+L103:  28 
+L104:  
+L105:  ]  Given the role of VC in epigenetic regulation and the observed demethylation of the  Slc23a2  gene in our MCC‐Seq analysis, we hypothesize that VC and its transporter SVCT2 are key mediators in the epigenetic modifications induced by maternal exercise, thereby enhancing offspring endurance performance.
+L106: In this study, we investigate whether VC supplementation could replicate the beneficial effects of maternal exercise on offspring endurance. Our findings demonstrate that exogenous VC supplementation during gestation mimics the effects of maternal exercise, enhancing endurance performance in offspring. In contrast, disrupting VC synthesis by knocking out the  L‐gulonolactone oxidase  ( Gluo ) gene abolishes these beneficial effects. Further  ex vivo  studies show that VC supplementation promotes oxidative myofiber generation and mitochondrial biogenesis in both murine and human myogenic cells. Importantly,  Tet2  knock‐down eliminates these effects, suggesting that maternal exercise improves offspring endurance performance through VC/TET2‐induced DNA methylation changes. These results indicate that maternal exogenous VC supplementation may serve as a novel intervention to mimic maternal exercise, offering a potential strategy to improve offspring physical fitness.
+L107: Results
+L108: Maternal Exercise Exerts Intergenerational Effects on the Endurance Performance of the Offspring
+L109: To elucidate the impact of maternal exercise on muscular endurance, muscular strength, and running speed of offspring, prepuberal female mice (5‐week‐old, F0 generation) were randomly assigned to either a maternal sedentary control group (M‐Con) or a maternal exercised group (M‐Ex) ( Figure 
+L110:  
+L111:  1 a ). The M‐Ex group underwent a treadmill training regimend, while the M‐Con group maintained a normal lifestyle. Following a 4‐week treadmill exercise protocol, exercised mothers exhibited significant increases in running time to exhaustion, total distance, and maximum running speed by 15.5%, 32.5%, and 17.1%, respectively (Figure  S1a–c , Supporting Information). Subsequent to the exercise performance test, Female F0 mice (10‐week‐old) were mated with age‐matched sedentary wild‐type male mice to produce F1 offspring (Figure  1a ). At weaning, F1 offspring from the M‐Ex group demonstrated enhanced exercise performance, evidenced by increased running time to exhaustion, total distance, and maximal running speed (Figure  1b–d ). No significant differences were observed in muscle strength, as measured by relative forelimb grip strength (Figure  S1d , Supporting Information). In addition, the physical activity propensity of F1 mice was assessed using a freewheel assay. F1 offspring from M‐Ex group exhibited a significant increase in running distance on the 6 th  and 7 th  days of testing (Figure  S1e , Supporting Information). Importantly, the positive influence of maternal exercise on offspring physical fitness could still be observed at the age of 12 months (Figure  S1f–i , Supporting Information).
+L112: Figure 1 Intergenerational genetic effects and physiological basis of maternal exercise improving endurance performance in offspring. a) A schematic diagram. Female C57BL/6J mice were randomly divided into the control group (M‐Con) and the exercise group (M‐Ex). Mice in the M‐Ex group underwent 4 weeks of treadmill exercise, while the M‐Con group remained sedentary, followed by an endurance exercise performance test. After the test, the animals were mated with age‐matched wild‐type male mice (10‐week‐old) to obtain F1 generation, among which the M‐Ex group received reduced‐load treadmill training during pregnancy until two to three days before delivery. F1 generation mice underwent exercise performance tests at weaning and then mated with age‐matched wild male mice at 8 weeks of age to obtain F2 generation. The same procedure was used to obtain F3 generation. b–j) Endurance performance tests at weaning of the F1, F2, and F3 generations. Running time (b,e,h), distance (c,f,i), and population were plotted against running speed to exhaustion (d,g,j) (Male: F1 Con  n  = 16, F1 Ex  n  = 13, F2 Con  n  = 20, F2 Ex  n  = 14, F3 Con  n  = 17, and F3 Ex  n  = 11. Female: F1 Con  n  = 15, F1 Ex  n  = 16, F2 Con  n  = 20, F2 Ex  n  = 19, F3 Con  n  = 11, and F3 Ex  n  = 8). k,l) Representative immunofluorescence staining for MyHC‐I, MyHC‐IIa, and MyHC‐IIb (k, the scale bar represents 200 µm) and fiber type composition (l) in skeletal muscles in F1 generation ( n  = 6). m,n) Representative TEM micrographs of skeletal muscle showing IMF mitochondria in sections from F1 generation (m, the scale bar represents 2 µm), and the percentage of mitochondrial area per muscle fiber area was quantified from the electron micrographs (n) ( n  = 3, three random statistical electron micrographs of each sample). o) Heatmap visualizing expression of genes related to mitochondrial biogenesis in F1 generation at weaning, detected by RT‐qPCR ( n  = 3). p,q) Representative images of Western blot analysis of PGC‐1α in F1 generation skeletal muscle at weaning ( n  = 3). Statistical analyses were performed using  t ‐test (b,c,e,f,h,i,l,n,o,q) and Log‐rank test (d,g,j). Data are presented as mean ± SEM.
+L113: To investigate the transgenerational effects of maternal exercise, female F1 offspring (10‐week‐old) were mated with age‐matched wild‐type male mice to produce the F2 offspring (Figure  1a ). Similar enhancements in endurance performance were detected in both male and female offspring from exercised grandmothers, as marked by increased running duration and total distance (Figure  1e,f ). An increase in maximal running speed was consistently observed in F2 male offspring, whereas this effect was not present in female F2 offspring (Figure  1g ). Moreover, physical activity propensity, characterized by increased velocity and distance moved in an open field, was also observed in F2 offspring (Figure  S1j–l , Supporting Information). Interestingly, the endurance performance of F3 generation mice derived from exercised great‐grandmothers remained notably higher than that of control offspring (Figure  1h,i ), while the improvements in maximal running speed were no longer observed (Figure  1j ). Same as F1 generation, the forelimb grip strength of F2 and F3 did not show significant difference between offspring of exercised and sedentary dams (Figure  S1m,n , Supporting Information).
+L114: To rule out strain‐specific effects, the experiment was replicated using Kunming mice, an outbred strain. Consistent with results obtained in C57BL/6J mice, F1 and F2 generation offspring from exercised F0 Kunming mothers showed comparable enhancements in endurance performance following maternal exercise training (Figure  S2 , Supporting Information). Collectively, these findings demonstrate that maternal exercise enhances offspring physical fitness, with improved endurance performance in the F1 generation being transmitted across multiple generations. Maternal exercise may also have intergenerational effects on the maximum running speed of mice, although this effect does not persist as long as the enhancement in endurance performance.
+L115: Maternal Exercise Alters Offspring's Skeletal Muscle Fiber Type Composition and Enhances Mitochondrial Biogenesis
+L116: In general, exercise performance is closely associated with skeletal muscle characteristics, including myofiber cross‐sectional area (CSA) and myofiber‐type composition. [ 
+L117:  
+L118:  29 
+L119:  ,  
+L120:  30 
+L121:  
+L122:  ]  To assess the impact of maternal exercise on these parameters, immunofluorescence staining of myosin heavy chain (MyHC) isoforms was performed on the skeletal muscles of F1 offspring. Maternal exercise significantly increased the proportion of oxidative fibers (type I and type IIa myofibers), while reducing the proportion of glycolytic fibers (type IIb myofibers) in the F1 skeletal muscle (Figure  1k,l ). These findings were corroborated by quantitative PCR analysis, which revealed elevated expression levels of  Myh7  and  Myh2 ‐markers of type I and type IIa myofibers, respectively, and decreased expression of  Myh4  (type IIb) and  Myh1  (type IIx) in F1 skeletal muscle (Figure  S3a , Supporting Information). Collectively, these data suggest that maternal exercise modulates myofiber‐type composition in F1 offspring, thereby contributing to enhanced endurance performance. Further, maternal exercise markedly increased the mean fiber CSA of the skeletal muscle in F1 offspring (Figure  S3b,c , Supporting Information). Specifically, the average fiber CSA was elevated by 41.9% in male offspring and by 24.1% in female offspring (Figure  S3c , Supporting Information). The frequency distribution of the CSA in the total muscle fiber population of F1 mice shifted to the right, indicating an overall enlargement of muscle fibers in offspring from exercised dams (Figure  S3d , Supporting Information).
+L123: An increased mitochondrial quantity in skeletal muscle is essential for enhancing endurance performance and exercise capacity. [ 
+L124:  
+L125:  31 
+L126:  ,  
+L127:  32 
+L128:  
+L129:  ]  To evaluate mitochondrial biogenesis, transmission electron microscopy (TEM) was utilized to measure mitochondrial volume density within the intermyofibrillar (IMF) compartments of F1 skeletal muscle at weaning. TEM analysis revealed a significant increase in mitochondrial volume density in the F1 Ex group compared to the F1 Con group (Figure  1m,n ). In addition, co‐staining of the mitochondrial membrane protein marker TOM20 with specific MyHC isoforms revealed that maternal exercise selectively increased the number of TOM20‐positive fibers in the offspring's skeletal muscle (Figure  S4 , Supporting Information). In male offspring, the proportion of TOM20‐positive type I and type IIa fibers was significantly higher compared to controls, whereas type IIb and type IIx fibers showed no changes. In female offspring, only the proportion of TOM20‐positive type I fibers increased, with no statistical differences observed in type IIa, IIb, or IIx fibers. However, immunofluorescence data cannot determine single‐fiber mitochondrial content changes within each oxidative fiber; instead, these findings indicate that maternal exercise elevates the fraction of oxidative fibers displaying robust TOM20 signals, without affecting the number of TOM20‐positive fibers in glycolytic fiber types. In line with these data, mitochondrial DNA (mtDNA) copy number and the expression of genes involved in mitochondrial biogenesis, such as  Ppargc1a ,  Tfam ,  Tfb1m , and  Tfb2m , were assessed. Maternal exercise significantly upregulated the expression of these mitochondrial biogenesis‐related genes and increased mtDNA content in both female and male F1 offspring at weaning (Figure  1o ; Figure  S3e , Supporting Information). Moreover, protein levels of PGC‐1α, a key regulator of mitochondrial biogenesis, were also enhanced in F1 offspring (Figure  1p,q ).
+L130: Notably, the expression levels of PGC‐1α and mitochondrial biogenesis‐related genes were also elevated in the skeletal muscle of F2 generation offspring (Figure  S5a–f , Supporting Information). Concurrently, succinate dehydrogenase (SDH) staining revealed a significantly higher number of SDH‐positive fibers (indicated by dark staining) in the F2 Ex group compared to the F2 Con group (Figure  S5g,h , Supporting Information). SDH is a mitochondrial enzyme that plays a vital role in the tricarboxylic acid cycle, catalyzing the oxidation of succinate to fumarate and transferring electrons from FADH to CoQ. [ 
+L131:  
+L132:  33 
+L133:  
+L134:  ]  Regions displaying higher levels of SDH activity and staining indicate a greater abundance of mitochondria and enhanced mitochondrial function. However, no significant differences were observed between the F2 Ex and F2 Con group in terms of average CSA and fiber frequency domain distribution (Figure  S5i,j , Supporting Information). In summary, maternal exercise in the F0 generation leads to an increased proportion of type I and type IIa myofibers and enhances mitochondrial number and function in the offspring's skeletal muscle, thereby contributing to improved endurance performance across multiple generations.
+L135: Interestingly, maternal exercise significantly inhibited the accumulation of abdominal fat and attenuated the increase in body weight in F1 offspring (Figure  S3f–h , Supporting Information). However, skeletal muscle mass was not significantly affected at weaning or at 12 months of age (Figure  S3i,j , Supporting Information). These findings may be explained by Speakman's Heat Dissipation Limit theory [ 
+L136:  
+L137:  34 
+L138:  
+L139:  ]  which posits that organisms have a finite capacity to dissipate metabolic heat. When maternal exercise raises overall energy expenditure, the system nears its thermal limit. Consequently, more energy is diverted toward heat dissipation and less is allocated to adipose storage, thereby restricting fat accumulation and overall body weight gain in developing offspring.
+L140: Maternal Exercise Reprograms DNA Methylation in the Offspring's Skeletal Muscle
+L141: Epigenetic modifications are a fundamental mechanism that exercises and regulates transcriptional changes, referring to phenotypic changes that are not rooted in DNA sequence. [ 
+L142:  
+L143:  35 
+L144:  
+L145:  ]  To investigate the potential reprogramming effects of maternal exercise on offspring DNA methylation, MCC‐Seq was performed on the skeletal muscle of F1 generation mice. Principal component analysis (PCA) ( Figure 
+L146:  
+L147:  2 a ) and the heatmap (Figure  2b ) distinctly separated the M‐Con (F1 Con) from the M‐Ex (F1 Ex) groups, implying that maternal exercise can reprogram offspring DNA methylation profiles. In the F1 Ex group, a total of 43641 and 39234 differential methylation sites (DMSs) were identified in males and females, respectively, compared to the F1 Con group (Figure  S6a , Supporting Information). Of these DMSs, 5788 in males and 5573 in females were found within CpG islands (CGIs) of the gene promoter region. Further, 3100 genes from males and 2934 genes from females were associated with promoter regions, with 1050 of these genes being shared between both genders (Tables  S1  and  S2 , Supporting Information).
+L148: Figure 2 Maternal exercise reprograms DNA methylation of  Slc23a2  and intergenerational inheritance during skeletal muscle development in offspring. a) PCA scores plot indicating discrimination among F1 Con, F1 Ex, and F2 Ex ( n  = 3). b) Clustered heatmap showing the methylation levels across all samples for the hyper and hypo methylated CpG sites ( n  = 3). c) The distribution of common differential methylation sites on different gene elements in the F1 and F2 generations of the M‐Ex compared with the F1 generation of M‐Con, respectively ( n  = 3). d) Volcano plot showing the log2 fold‐difference in methylation level of skeletal muscle (GAS) in male (left) and female (right) mice of F1 generation between M‐Con and M‐Ex groups, through the analysis of MCC‐seq data. Red and blue dots represent upregulated and downregulated DMSs with fold change > 2 and  p  ‐adjusted < 0.05, respectively. Yellow indicates the elements of the  Slc23a2  gene ( n  = 3). e) DNA methylation sequencing results of  Slc23a2 . The blue histogram is the degree of methylation, corresponding to the left ordinate. The gray line is the sequencing depth, corresponding to the right ordinate. The highlighted area on the light red background is the detected DMR, and the abscissa is the chromosome location. f) Methylation levels at the Chr2. 132143644 site in the differential methylation region of  Slc23a2  ( n  = 3). g,h) The expression of  Slc23a2  in skeletal muscle of F1 (g) and F2 (h) generation mice at weaning ( n  = 3). i–l) Western blot analysis of SVCT2 in F1 (i,j) and F2 (k,l) generation skeletal muscle at weaning ( n  = 3). m–p) The concentration of VC in plasma and skeletal muscle at weaning in the F1 (m,n) and F2 (o,p) generation ( n  = 3). q) Pearson correlation coefficient between VC content in the plasma and SVCT2 protein expression in skeletal muscle of F1 and F2 generations in the M‐Con group (gray) and M‐Ex group (blue) ( n  = 24). Statistical analyses were performed using  t ‐test (g–p) and one‐way ANOVA with Bonferroni's post hoc analysis (f). Data are presented as mean ± SEM.
+L149: Subsequently, MCC‐Seq was conducted on F2 generation offspring derived from F0 maternal exercise (F2 Ex). The DNA methylation patterns of F2 Ex offspring closely resembled those of F1 Ex mice and were significantly different from those of F1 Con mice (Figure  2a,b ). Specifically, the F2 Ex group exhibited 53712 DMSs in males and 39910 DMSs in females compared to the F1 Con group (Figure  S6b , Supporting Information). Among these, 7020 DMSs in males and 5790 DMSs in females were located within CGIs of gene promoter regions. In addition, 3410 genes in males and 3125 genes in females were associated with promoter regions, with 1113 genes shared between both genders (Tables  S3  and  S4 , Supporting Information).
+L150: To investigate the persistence of CGI methylation changes induced by maternal exercise, the overlap of DMSs between the F1 and F2 generations was examined. A total of 7703 common DMSs were identified in males and 7138 common DMSs in females (Figure  2c ). Within these overlapping DMSs, 1008 in males and 1061 in females were located in promoter regions, regulating the expression of 336 and 166 genes, respectively (Tables  S5  and  S6 , Supporting Information). Taken together, these data show that maternal exercise reprograms DNA methylation in offspring skeletal muscle, with a subset of DMSs being stably inherited across generations.
+L151: Maternal Exercise Facilitates the Intergenerational Inheritance of DNA Demethylation on the  Slc23a2  Gene in Offspring Skeletal Muscle
+L152: The  Slc23a2  gene, which encodes SVCT2 protein, [ 
+L153:  
+L154:  36 
+L155:  
+L156:  ]  was observed to be demethylated in both F1 and F2 generations as a result of F0 maternal exercise, as documented in the DMSs (Figure  2d–f ). Correspondingly, both the  Slc23a2  gene (Figure  2g,h ) and SVCT2 protein (Figure  2i–l ) expression were significantly elevated in F1 and F2 offspring skeletal muscle at weaning. In addition, maternal exercise was observed to enhance the expression of  Gulo  in the liver (Figure  S6c,d , Supporting Information) and to increase VC levels in the plasma of F1 and F2 offspring (Figure  2m,o ). A robust positive correlation was identified between plasma VC levels and SVCT2 protein in skeletal muscle (Figure  2q ). Given that SVCT2 is a high‐affinity VC transporter that regulates tissue accumulation of VC, it was noted that maternal exercise markedly increased the amount of VC in offspring skeletal muscle (Figure  2n,p ). Further, maternal exercise‐induced PGC‐1α protein expression in skeletal muscle was found to be positively correlated with VC concentration (Figure  S6e , Supporting Information). Taking together, these data demonstrate that maternal exercise upregulates the expression of SVCT2 and enhances VC uptake in offspring's skeletal muscle, suggesting that VC/SVCT2 may be potential mediators of the beneficial effects of maternal exercise on offspring endurance performance.
+L157: The Enhanced Endurance Performance Following Maternal Exercise is Dependent on VC
+L158: A significant increase in  Gulo  expression was observed in the maternal liver following maternal exercise ( Figure 
+L159:  
+L160:  3 a ), accompanied by elevated plasma VC concentrations in the exercised mothers (Figure  3b ). In parallel, an upregulation of  Slc23a2  gene expression was detected in the maternal placenta (Figure  S7a , Supporting Information), indicating that maternal exercise may facilitate placental VC translocation, thereby establishing an intrauterine environment rich in VC during fetal development. Given these findings and the heightened VC levels in the plasma and skeletal muscle of the offspring (Figure  2m,n ), it was investigated whether VC contributes to the enhancement of endurance performance through exogenous VC supplementation and endogenous VC deficiency ( Gulo  knockout mice) experiments. Specifically, wild‐type female mice received intraperitoneal injections of VC (4 mg g −1  body weight) every 2 days for 4 weeks prior to mating and were supplemented with VC through drinking water (18.75 mM) during pregnancy and lactation [ 
+L161:  
+L162:  37 
+L163:  ,  
+L164:  38 
+L165:  
+L166:  ]  (Figure  3c ). Maternal exogenous VC supplementation elevated the dam's plasma VC content (Figure  3d ) and placental  Slc23a2  gene expression (Figure  S7b , Supporting Information), while having no effect on liver  Gulo  gene expression (Figure  S7c , Supporting Information). Further investigation showed that exogenous VC administration elevated plasma VC concentration in offspring at weaning and enhanced the expression of SVCT2 in their skeletal muscle (Figure  3e–g ), leading to an increase of VC within the skeletal muscle (Figure  3h ). Excitingly but not unexpectedly, exogenous VC supplementation considerably enhanced F1 offspring physical fitness, as indicated by prolonged running time to exhaustion, increased total distance, and enhanced maximum running speed (Figure  3i–k ), without affecting forelimb grip strength (Figure  S7d , Supporting Information). Subsequent analysis revealed that the protein expression of PGC‐1α and genes associated with mitochondrial biogenesis, such as  Ppargc1a ,  Tfam ,  Tfb1 
+L167:  m , and  Tfb2 
+L168:  m , were highly upregulated in the skeletal muscle of offspring from mothers supplemented with VC (Figure  S7e–g , Supporting Information). In addition, immunostaining of skeletal muscle sections for SDH revealed a greater number of positive fibers of offspring (Figure  S7h,i   Supporting Information), coupled with an increase in mtDNA copy number (Figure  S7j , Supporting Information), resembling the pattern observed in maternal exercise. Strikingly, despite exogenous VC administration being conducted only on F0 mice, the running distance and running time of F2 and F3 females remained significantly higher than those of control mice (Figure  S8 , Supporting Information). These findings showed that exogenous VC supplementation during pregnancy mimics the beneficial impact of maternal exercise on offspring endurance performance.
+L169: Figure 3 The enhanced endurance performance following maternal exercise is dependent on VC. a,b) Exercise promoted  Gulo  gene expression (a) in the maternal liver and elevated plasma VC content (b) ( n  = 7). c) A schematic diagram of the experiment. Wild‐type female mice were supplemented with VC before and during pregnancy and then obtained F1 generation after mating with wild male mice of the same age. F1 generation mice underwent exercise performance tests at weaning and mated with wild male mice at 8 weeks of age to obtain F2 and F3 generation. d) The content of VC in dam's plasma ( n  = 5). e) The content of plasma VC at weaning in F1 generation ( n  = 4). f,g) Representative images of Western blot analysis of SVCT2 in skeletal muscles of F1 generation ( n  = 4). h) The concentration of VC in skeletal muscle at weaning in the F1 generation ( n  = 4). i–k) The effect of maternal exogenous supplementation of VC before and during pregnancy on the endurance performance of offspring. Running time (i), distance (j), and population plotted against running speed to exhaustion (k) (Male: F1 Con  n  = 10, F1 Vita C  n  = 9, and F1 Ex  n  = 11. Female: F1 Con  n  = 8, F1 Vita C  n  = 9, and F1 Ex  n  = 9). l) A schematic diagram of  Gulo −/− 
+L170:   mice maternal exercise. m) The representative diagram of the  Gulo  gene PCR amplification curve of  Gulo −/− 
+L171:   mice's liver. n) The content of VC in the Dam's plasma ( n  = 5). o) The content of plasma VC at weaning in F1 generation ( n  = 4). p,q) Representative images of Western blot analysis of SVCT2 in skeletal muscles of F1 generation ( n  = 3). r) The concentration of VC in skeletal muscle at weaning in the F1 generation ( n  = 4). s–u) Effects of maternal exercise in  Gulo −/− 
+L172:   mice (the same training protocol as wild‐type mice) on the endurance performance of their offspring at weaning. Running time (s), distance (t), and population plotted against running speed to exhaustion (u) (Male: Wild type  n  = 11,  Gulo −/− 
+L173:   Con  n  = 10, and  Gulo −/− 
+L174:   Ex  n  = 14. Female: Wild type  n  = 14,  Gulo −/− 
+L175:   Con  n  = 10, and  Gulo −/− 
+L176:   Ex  n  = 10). Statistical analyses were performed using  t ‐test (a,b), one‐way ANOVA with Bonferroni's post hoc analysis (d,e,g,h,i,j,n,o,q,r,s,t) and the Log‐rank test (k,u). Data are presented as mean ± SEM.
+L177: In most mammals, VC can be synthesized de novo from glucose in the liver, facilitated by the enzymatic action of  Gulo . To explore whether the enhancement of endurance performance in offspring following maternal exercise is indeed dependent on VC, the  Gulo −/− 
+L178:   mouse model was utilized (Figure  3l ). The  Gulo −/− 
+L179:   mice were maintained on dietary VC (2 mM) for long‐term survival. [ 
+L180:  
+L181:  37 
+L182:  
+L183:  ]  It was found that exercise did not increase plasma VC level in  Gulo −/− 
+L184:   mice due to the absence of  Gulo  enzymatic function (Figure  3m,n ). Importantly, although a 4‐week treadmill training remarkably enhanced the endurance performance and maximum running speed of maternal  Gulo −/− 
+L185:   mice (9‐week‐old) (Figure  S9 , Supporting Information), the restriction of VC synthesis resulted in maternal exercise failing to upregulate plasma VC levels in the offspring of  Gulo −/− 
+L186:   mice (Figure  3o ). Consequently, the SVCT2 expression and VC levels in the offspring's skeletal muscle did not exceed those in control mice (Figure  3p–r ). Not surprisingly, the effects of maternal exercise on offspring endurance performance were absent in  Gulo −/− 
+L187:   mice, including running time to exhaustion, total distance, and maximum running speed (Figure  3s–u ), as well as forelimb grip strength (Figure  S10a , Supporting Information). In addition, there was no influence on the mitochondria‐related biomarkers such as PGC‐1α in the skeletal muscle of  Gulo −/− 
+L188:   mice offspring at weaning (Figure  S10b–d , Supporting Information). Collectively, these data suggested that the improved offspring endurance capacity resulting from maternal exercise was dependent on VC.
+L189: Exogenous VC Supplementation May Exert its Effects on Offspring Endurance Performance During Fetal Development
+L190: The exogenous VC supplementation experiments, shown in Figure  3 , covered three periods: pre‐conception, gestation, and lactation. This comprehensive approach made it challenging to pinpoint the specific developmental stage during which VC influences offspring endurance performance, whether during gametogenesis, embryogenesis, or postnatal muscle growth. First, to evaluate the impact of exogenous VC supplementation on gametogenesis, VC was provided exclusively to the parents during the pre‐conception period. Maternal VC supplementation (MS) and paternal VC supplementation (PS) groups received VC supplementation (18.75 m m  in drinking water) for 4 weeks prior to conception preparation. This was followed by 2 weeks of VC deprivation, after which the VC concentration was restored to normal (Figure  S11a , Supporting Information). Subsequently, these mice were mated with age‐matched wild‐type mice and maintained VC withdrawal during pregnancy and lactation ( Figure 
+L191:  
+L192:  4 a ). It was observed that the mRNA expression of  Gulo  in the liver and the plasma VC content of dams did not change with VC supplementation during pre‐conception period (Figure  4b,c ). In addition, neither maternal nor paternal pre‐pregnancy VC supplementation affected the endurance performance of offspring, as evidenced by unchanged running time to exhaustion, total distance, maximum running speed, and forelimb grip strength (Figure  4d–g ). These findings show that VC did not enhance the endurance performance of offspring through gametogenesis.
+L193: Figure 4 Exogenous VC supplementation during pre‐conception and postnatal development does not affect offspring endurance performance. a) A schematic diagram of the experiment. Maternal (maternal VC supplementation, MS) and paternal (paternal VC supplementation, PS) mice received 4 weeks of exogenous VC supplementation prior to preparation for conception, followed by 2 weeks of VC deprivation. Subsequently, age‐matched wild‐type male mice were mated, and VC withdrawal was maintained during pregnancy and lactation. The exercise performance of the offspring would be measured during the weaning period after birth. b,c) Maternal liver  Gulo  gene expression (b) and plasma VC content (c) ( n  = 5). d–g) The treadmill endurance performance of offspring from parental exogenous VC supplementation during pre‐conception. Running time (d), distance (e), population plotted against running speed to exhaustion (f), and forelimb maximum grip strengths (g) (Male: Matched Control (3W)  n  = 7, PS = 12. MS = 12, Female: Matched Control (3W)  n  = 7, PS  n  = 12, and MS  n  = 12). h) A schematic diagram of the experiment. Postnatal wild‐type mice were supplemented exogenously with VC by drinking water before or after weaning, respectively, and then, their exercise capacity was measured at 8 weeks of age. i) Plasma VC concentrations in mice supplemented with VC before or after weaning ( n  = 4). j–l) Exercise performance testing of exogenous VC supplementation before or after weaning. Running time (j), distance (k), and population plotted against running speed to exhaustion (l) (Male: Matched Control (8W)  n  = 11, pre‐weaning group  n  = 8, and post‐weaning group  n  = 8. Female: Matched Control (8W)  n  = 13, pre‐weaning group  n  = 10, and post‐weaning group  n  = 11). m–o) Representative images of Western blot analysis of SVCT2 (n) and PGC‐1α (o) in skeletal muscle with VC supplementation before or after weaning ( n  = 4). p) The contents of VC in skeletal muscle with VC supplementation before or after weaning ( n  = 4). Statistical analyses were performed using one‐way ANOVA with Bonferroni's post hoc analysis (b–e,g,i–k,n–p) and the Log‐rank test (f,l). Data are presented as mean ± SEM.
+L194: Next, VC supplementation was administered during lactation (pre‐weaning), post‐weaning (from weaning to 8 weeks of age), and adulthood (from 9 to 12 weeks of age), with age‐matched wild type mice serving as controls (8 weeks of age or 12 weeks of age) (Figure  4h ; Figure  S12a , Supporting Information). Both pre‐ and post‐weaning VC supplementation failed to influence physical fitness, as demonstrated by unchanged running time to exhaustion, total distance, and maximal running speed (Figure  4j–l ). Similarly, no significant effects on physical fitness were observed when VC was administered during adulthood (Figure  S12c–e , Supporting Information). Despite increases in plasma VC content following both post‐weaning and adult VC supplementation (Figure  4i ; Figure  S12b , Supporting Information), the protein expression of SVCT2 and PGC‐1α, as well as the VC content in skeletal muscle, showed no significant alterations with either supplementation regimen (Figure  4m–p ; Figure  S12f–i , Supporting Information). These data showed that VC does not enhance endurance performance in offspring after birth. Collectively, the data presented so far suggest that the beneficial effects of VC on offspring endurance performance are exerted during fetal development rather than during gametogenesis or postnatal growth.
+L195: VC Treatment During Early Myogenesis Ex Vivo Upregulates Mitochondrial Biogenesis and Oxidative Fiber Differentiation
+L196: To confirm the specific role of VC on skeletal muscle development during fetal stages, a primary myogenic cell  ex vivo  differentiation model was employed to simulate the embryonic myogenesis process and examine the effect of VC on mitochondrial biogenesis and the tendency of  MyHC  genes expression. Myogenic cells were treated with VC (300 µM) during distinct phases: proliferation, early differentiation, and late differentiation, to identify the critical window for VC‐induced alternations in myofiber composition and mitochondrial biogenesis ( Figure 
+L197:  
+L198:  5 a ). The results demonstrated that VC supplementation during proliferation and early differentiation phases increased the expression of mitochondria biogenesis‐related genes, including  Ppargc1a ,  Tfam ,  Tfb1 
+L199:  m , and  Tfb2 
+L200:  m  (Figure  5b,d ). In contrast, VC treatment during the late differentiation stage did not affect the expression of these genes (Figure  5f ). Further, VC supplementation during proliferation or early differentiation promoted the differentiation trend toward oxidative fibers, as evidenced by the upregulation of  Myh7  and  Myh2  expressions (Figure  5c,e ). No significant changes in  MyHC  isoform expression were observed with VC supplementation at the late differentiation stage compared with the non‐supplemented group (Figure  5g ). To determine whether the effects of VC on myogenic cell differentiation are conserved in humans, similar in  ex vivo  experiments were conducted using human myogenic cells. The findings mirrored those observed in murine myogenic cells, with VC treatment during early myogenesis enhancing mitochondrial biogenesis and promoting oxidative fiber differentiation (Figure  5h–m ).
+L201: Figure 5 Exogenous VC treatment upregulates mitochondrial biogenesis and differentiation propensity of oxidized fibers in myogenic cells. a) Schematic showing exogenous VC supplementation during myogenic cell proliferation, early and late differentiation for 24 h, and then, cell samples were collected after 4 days of differentiation. b–g) Gene expression related to mitochondrial biogenesis (b,d,f) and myosin isoform (c,e,g) was detected in murine myogenic cells supplemented with VC during proliferation (b,c), early differentiation (d,e), and late differentiation (f,g) ( n  = 3). h–m) Genes expression related to mitochondrial biogenesis (h,j,l) and myosin isoform (i,k,m) were detected in human myogenic cells supplemented with VC in proliferation (h,i), early differentiation (j,k), and late differentiation (l,m) ( n  = 3). Statistical analyses were performed using  t ‐test (b–m). Data presented as means ± SEM.
+L202: Further, to explore whether observed effects of VC are contributable to its anti‐oxidative properties, other antioxidants were evaluated to determine if they could enhance mitochondrial biogenesis and oxidative fiber differentiation during the proliferation stage of myogenic cells in vitro. Three specific antioxidants were evaluated:  Ferulic acid  (50 µ m ),  Quercetin  (50 µM), and  Cyanidin  (10 µM) (Figure  S13a , Supporting Information). [ 
+L203:  
+L204:  39 
+L205:  ,  
+L206:  40 
+L207:  ,  
+L208:  41 
+L209:  
+L210:  ]  Although these antioxidants, particularly  Cyanidin , were capable of facilitating mitochondrial biogenesis in myogenic cells during proliferation (Figure  S13b , Supporting Information), they did not upregulate mitochondrial biogenesis in myotubes or promote oxidative fiber differentiation to the same extent as VC (Figure  S13c,d , Supporting Information). Collectively, these data indicate that VC treatment during the early stages of myogenesis is pivotal for elevating mitochondrial biogenesis and promoting the differentiation of oxidative fibers in myotubes, effects that are independent of VC's antioxidative properties. This underscores the critical window during fetal development when VC exerts its beneficial effects on skeletal muscle physiology, contributing to enhanced endurance performance observed in offspring.
+L211: Maternal Exercise May Enhance Offspring Endurance Performance Through VC‐TET2‐SVCT2 Pathway
+L212: It was observed that maternal exercise and exogenous VC supplementation significantly upregulated the expression of  Slc23a2  gene and SVCT2 protein in the skeletal muscles of offspring (Figures  2g,j  and  3f,g ). However, in  Gulo −/− 
+L213:   mice, maternal exercise did not elevate the SVCT2 level (Figure  3p,q ), suggesting that the upregulation of SVCT2 in the offspring of exercised mice is VC‐dependent. Meanwhile, in the  ex vivo  model, VC treatment upregulated the expression of  Slc23a2  in both murine and human myogenic cells during the proliferation and early differentiation stages ( Figure 
+L214:  
+L215:  6 a,c ), whereas no significant impact was observed when VC was applied during the later stage of differentiation (Figure  S14a,g , Supporting Information). This indicates that the enhancement of mitochondrial biogenesis in myogenic cells and the differentiation toward oxidative fibers by VC occurs during the early development stage of fetal skeletal muscle. Moreover, it was verified that the expression of  Slc23a1  remained unchanged at different stages of in vitro myogenic cell culture following VC treatment (Figure  S14b,h , Supporting Information). These results suggest that the improvement in skeletal muscle endurance performance of offspring mice induced by maternal exercise or exogenous VC supplementation is likely related to the reprogramming of the  Slc23a2  gene by VC.
+L216: Figure 6 Maternal exercise and exogenous VC supplementation enhance the endurance performance of offspring by upregulating the expression of TET2 during fetal development. a–d)  Slc23a2  and  Tet2  gene expression in murine (a,b) and human (c,d) myogenic cells supplemented with VC during proliferation or early differentiation stage ( n  = 3). e–m) Representative images of Western blot analysis of TET2 (f,i,l) and SVCT2 (g,j,m) in the fetal skeletal muscle of M‐Con and M‐Ex dams (e–g) ( n  = 3), M‐Con, M‐vita C, and M‐Ex dams (h–j) ( n  = 4),  Gluo 
+L217:  ‐/‐  Con, and  Gluo 
+L218:  ‐/‐  Ex mice (k–m) ( n  = 3). n) A schematic diagram of siRNA transfection experiment. The experiment consists of four groups: the Sham group with normal culture (Sham), the NC group with Negative control (NC), the siRNA group with  Tet2  knockdown using siRNA during the proliferation phase followed by normal differentiation (siRNA), and the siRNA+VC group with  Tet2  knockdown using siRNA during the proliferation phase followed by VC treatment during the early differentiation phase (siRNA+VC). o–q) The gene expression of  Tet2  (o) and representative images of Western blot analysis of TET2 (p,q) after siRNA transfection of myogenic cells ( n  = 4). r) Representative images of the effect after siRNA transfection on differentiation of myogenic cells; the scale bar represents 50 µm. s–u) The gene expression of  Slc23a2  (s) and representative images of Western blot analysis of SVCT2 (t,u) after siRNA transfection of myogenic cells ( n  = 4). v) The gene expression related to mitochondrial biogenesis after siRNA transfection of myogenic cells ( n  = 4). Statistical analyses were performed using  t ‐test (a–d and f–g) and one‐way ANOVA with Bonferroni's post hoc analysis (i,j,l,m,o,q,s,u,v). Data are presented as mean ± SEM.
+L219: Given that maternal exercise affects skeletal muscle DNA methylation patterns (Figure  2a–f ), specifically  Slc23a2  gene in this study (Figure  2f ), the expression levels of  Tets  and  Dnmts , the essential enzymes for DNA methylation regulation, [ 
+L220:  
+L221:  42 
+L222:  
+L223:  ]  were measured. It was found that the mRNA expression level of  Dnmts ,  Tet1 , and  Tet3  was not changed in myogenic cells with VC treatment (Figure  S14c–e,i–k , Supporting Information). However, VC treatment during proliferation and early differentiation stages highly upregulated the gene expression of  Tet2  in both murine and human myogenic cells (Figure  6b,d ), whereas VC treatment during the late differentiation stage had no effect on TET2 expression (Figure  S14f,l , Supporting Information). In addition, it was observed that other antioxidants, such as  Quercetin ,  Cyanidin , and  Ferulic acid , did not impact  Tet2  expression when applied during the proliferation period (Figure  S13e , Supporting Information).
+L224: Subsequently, the protein expression of TET2 in fetal skeletal muscle at embryonic day 18.5 (e18.5) was examined. In alignment with the results observed in myogenic cells, significantly elevated protein levels of TET2 and SVCT2 were detected in fetal skeletal muscle of the M‐Ex group compared to the M‐Con group (Figure  6e–g ). Moreover, the catalytic activity of TET dioxygenases for 5mC oxidation requires Fe 2+  and α‐KG as cofactors. [ 
+L225:  
+L226:  43 
+L227:  
+L228:  ]  A‐KG is a crucial intermediate metabolite produced by isocitrate dehydrogenases ( Idh1/2 ). [ 
+L229:  
+L230:  44 
+L231:  
+L232:  ]  Data revealed that maternal exercise increased the expression of  Idh1  and  Idh2  in fetal skeletal muscle (Figure  S15a , Supporting Information). Similarly, following maternal VC supplementation, elevated expression of TET2, SVCT2 (Figure  6h–j ) and  Idh1/2  (Figure  S15b , Supporting Information) were observed in e18.5 fetal muscle. In contrast, maternal exercise in  Gulo −/− 
+L233:   mice did not significantly affect the expression of TET2 and SVCT2 in fetal skeletal muscle at e18.5 (Figure  6k–m ). Further, the protein expression of TET2 and SVCT2 did not change in fetal skeletal muscle at e18.5 with parental VC supplementation during pre‐conception (Figure  S15c–e , Supporting Information). Taken together, these data indicate that exercise promotes the synthesis and secretion of VC by the maternal liver and promotes the expression of TET2 and SVCT2 during fetal skeletal muscle development.
+L234: To further dissect the interaction among VC, TET2, and SVCT2,  Tet2  was silenced in myogenic cells using siRNA, followed by treatment with exogenous VC during differentiation to assess the impact of VC treatment on  Slc23a2  expression and mitochondrial biogenesis in TET2‐deficient myogenic cells (Figure  6n ). Compared to the Sham and Negative Control (NC) group, siRNA (20 nM) treatment significantly attenuated both the gene and protein expression of TET2 in myogenic cells (Figure  6o–q ), concomitant with a marked decrease in expression of  Slc23a2  and SVCT2 (Figure  6s–u ), while not affecting myogenic cell differentiation (Figure  6r ). Moreover, the loss of TET2 expression rendered VC treatment ineffective in upregulating the protein expression of SVCT2 in myotubes (Figure  6s–u ), as well as the expression of mitochondrial biogenesis‐related genes in murine myogenic cells (Figure  6v ). Consistently, the effects of VC on the expression of  Slc23a2  and mitochondrial biogenesis‐related genes were blocked by TET2 silencing in human myogenic cells (Figure  S15f–j ). Collectively, these results indicate that VC upregulates SVCT2 expression via TET2 during skeletal muscle development, thereby enhancing VC uptake in myogenic cells, promoting mitochondrial biogenesis, and ultimately, improving endurance performance in the offspring.
+L235: Discussion
+L236: In this study, we identified that maternal exercise enhances offspring endurance performance through a VC‐dependent mechanism. We found that maternal exercise upregulates the expression of  Gulo  in the maternal liver, promoting VC synthesis and secretion. VC is subsequently transported through the placenta into the fetus, where it promotes the expression of TET2, which induces targeted DNA demethylation and gene expression during fetal skeletal muscle development. This results in elevated mitochondrial biogenesis and differentiation tendency of oxidative fibers in offspring skeletal muscle ( Figure 
+L237:  
+L238:  7 
+L239:  ). Interestingly, we observed that these benefits extend to the F2 and F3 generations, indicating stable, inter‐, and trans‐generational effects. Further, exogenous VC supplementation during pregnancy is found to mimic the beneficial effects of maternal exercise, significantly improving offspring endurance performance and skeletal muscle mitochondrial biogenesis. These findings suggest a potential health‐promoting strategy wherein sufficient maternal physical activity during pregnancy effectively improves skeletal muscle health and physical fitness in offspring.
+L240: Figure 7 Working model. Proposed regulatory model for intergenerational improvement of endurance performance in offspring by maternal exercise or exogenous VC supplementation in mice. Image created with BioRender. com, with permission.
+L241: VC is a water‐soluble antioxidant commonly used as an oral supplement to support the endogenous antioxidant defense system. It is widely believed to reduce oxidative stress, minimize muscle damage, and improve exercise performance. [ 
+L242:  
+L243:  45 
+L244:  
+L245:  ]  However, the effects of VC supplementation on physical performance remain inconsistent and context‐dependent. [ 
+L246:  
+L247:  46 
+L248:  
+L249:  ]  VC deficiency in skeletal muscles is known to cause muscle atrophy, accompanied by the upregulation of muscle atrophy‐related genes and decreased physical performance. [ 
+L250:  
+L251:  47 
+L252:  
+L253:  ]  In non‐exercising individuals, VC supplementation did not affect resting skeletal muscle antioxidant enzyme levels. [ 
+L254:  
+L255:  48 
+L256:  
+L257:  ]  In addition, daily oral consumption of 1 g of VC over a 4‐week high‐intensity interval training period did not hinder training‐induced improvements in exercise performance among recreationally active males. [ 
+L258:  
+L259:  49 
+L260:  
+L261:  ]  In contrast, long‐term supplementation with combined VC and vitamin E (VE) had been shown to negate the health‐promoting effects of physical exercise and oxidative stress adaptation in humans. [ 
+L262:  
+L263:  50 
+L264:  
+L265:  ]  Further, acute supplementation with VC and VE failed to attenuate skeletal muscle oxidative stress or enhance the expression of mitochondrial biogenesis markers. [ 
+L266:  
+L267:  51 
+L268:  
+L269:  ]  These findings suggest that the role of VC supplementation in skeletal muscle adaptations to exercise remains controversial, particularly when combined with other antioxidants. Studies examining the effects of VC supplementation alone on skeletal muscle adaptations to exercise training are still limited. [ 
+L270:  
+L271:  52 
+L272:  
+L273:  ]  In the present study, we observed that exogenous VC supplementation at different developmental stages postnatally had no effect on exercise performance. In contrast, maternal exogenous VC supplementation during pregnancy significantly improved offspring endurance performance, underscoring the critical prenatal period for VC to influence performance outcomes.
+L274: VC exists in two forms: its reduced state and its oxidized form. All known biological functions of VC are associated with its reduced state, which is absorbed from the intestine via the sodium‐dependent vitamin C transporter 1 (SVCT1). Tissue distribution of VC from the bloodstream is regulated by tissue‐specific SVCT2. [ 
+L275:  
+L276:  28 
+L277:  ,  
+L278:  53 
+L279:  
+L280:  ]  SVCT2 has a higher affinity for VC than SVCT1, being approximately half‐saturated at the low end of the normal range of plasma ascorbate concentrations. Upregulated SVCT2 increases the maximal rate of ascorbate uptake in cells. [ 
+L281:  
+L282:  28 
+L283:  
+L284:  ]  In this study, we identified demethylation of  Slc23a2  gene in offspring's skeletal muscle followed by maternal exercise (Figure  2e,f ), leading to the upregulation of SVCT2 expression and enhanced VC uptake in offspring skeletal muscle (Figure  2i–l ). Notably, this upregulation of SVCT2 was observed exclusively during fetus skeletal muscle development (Figure  6e,h ). Consequently, the intracellular concentration of VC was determined by the amount of SVCT2. Supplementation of VC at other developmental stages, although it increased plasma VC levels (Figure  4i ; Figure  S12b , Supporting Information), did not result in an increase in SVCT2 expression and VC content in skeletal muscle (Figure  4m,n ; Figure  S12f,g , Supporting Information), indicating that SVCT2 expression does not correspond directly to plasma VC concentration during postnatal development or in adulthood (Figure  4j–l ; Figure  S12c–e , Supporting Information). In addition, plasma VC concentration returned to normal levels 48 h after VC withdrawal (Figure  S11a , Supporting Information), implying that maternal exogenous VC supplementation should be maintained throughout the entire pregnancy period to achieve sustained benefits.
+L285: VC also serves as a co‐factor for many α‐KGDDs, including histone demethylases and the TET‐class of cytosine hydroxylases, making VC an epigenetic compound with broad significance in various pathophysiological contexts. [ 
+L286:  
+L287:  22 
+L288:  ,  
+L289:  24 
+L290:  ,  
+L291:  54 
+L292:  
+L293:  ]  Clinic trials have shown that VC prevents DNA methylation changes in the offspring of pregnant smokers and improves offspring lung function. [ 
+L294:  
+L295:  55 
+L296:  ,  
+L297:  56 
+L298:  
+L299:  ]  In our study, we speculated that certain α‐KGDDs could be regulated after VC treatment. Thus, we examined the gene expression of  Tets  and  Dnmts , which are essential enzyme families that regulate DNA methylation during fetal development in myogenic cells treated with VC at different differential stages. We identified that VC upregulated TET2 gene expression in murine and human myogenic cells during proliferation and early differentiation stages.
+L300: Next, we silenced TET2 in myogenic cells using siRNA and observed that loss of TET2 function inhibited exogenous VC treatment from upregulating mitochondrial biogenesis‐related gene expression (Figure  6v ; Figure  S15j , Supporting Information). In addition, siRNA inhibition of TET2 expression directly led to decreased SVCT2 gene and protein expression in both murine and human myogenic cells, with exogenous VC treatment unable to restore SVCT2 levels (Figure  6s–u ; Figure  S15g,i , Supporting Information), these data suggest that VC‐promoted myogenic mitochondrial biogenesis depends on TET2‐activated SVCT2 expression. This finding is consistent with our  ex vivo  results, where the maternal exercise or VC supplementation during pregnancy upregulated TET2 and SVCT2 expression in fetal skeletal muscle during intrauterine development, enhancing offspring endurance performance. Conversely, providing exogenous VC to the parent during the pre‐conception period or maternal exercise in the  Gulo −/− 
+L301:   mice had no effect on TET2 and SVCT2 expression in fetal skeletal muscle and offspring endurance performance. Together, these findings reveal the pivotal role of the TET2‐SVCT2 signaling in maternal exercise in improving offspring endurance performance and identify that SVCT2 expression in skeletal muscle cell is TET2‐dependent.
+L302: AMPK is a heterotrimeric complex with central roles in cellular energy sensing, metabolism, and exercise adaptations. [ 
+L303:  
+L304:  57 
+L305:  
+L306:  ]  Recent studies have shown that maternal exercise activates AMPK and increases α‐KG, [ 
+L307:  
+L308:  14 
+L309:  ,  
+L310:  15 
+L311:  
+L312:  ]  a rate‐limiting cofactor required for TET‐catalyzed DNA demethylation, thereby promoting gene demethylation in F1 offspring. Concurrently, VC enhances TET enzyme activity by maintaining Fe 2+  in its reduced state, an essential condition for TET‐mediated reactions. Consequently, VC and α‐KG are both critical to TET‐mediated DNA demethylation, particularly in the initial oxidation step where TET enzymes convert 5mC to 5hmC. Moreover, maternal exercise has been shown to regulate liver glycolipid metabolism homeostasis and skeletal muscle function in offspring via an AMPK – α‐KG pathway. [ 
+L313:  
+L314:  14 
+L315:  ,  
+L316:  15 
+L317:  
+L318:  ]  In our study, we found that maternal exercise or maternal VC supplementation during pregnancy can shape epigenetic reprogramming in fetal skeletal muscle development, highlighting VC as a key factor in the intergenerational transmission of exercise benefits. However, the precise mechanism by which VC and AMPK interact to modulate epigenetic changes remains unclear, and whether AMPK activation combined with VC supplementation can more effectively simulate maternal exercise benefits warrants further investigation.
+L319: While many studies have confirmed the impact of maternal exercise on the health of first‐generation offspring, [ 
+L320:  
+L321:  13 
+L322:  ,  
+L323:  17 
+L324:  ,  
+L325:  58 
+L326:  ,  
+L327:  59 
+L328:  
+L329:  ]  we demonstrate that maternal exercise has intergenerational genetic effects to improve the endurance performance of second and third generation male and female offspring. To the best of our knowledge, this is the first study to report the trans‐generational influence of maternal exercise, underscoring the significance of promoting physical activity during pregnancy for long‐term health benefits across multiple generations. However, despite the presence of some instances of heritable phenotypic variation, [ 
+L330:  
+L331:  60 
+L332:  ,  
+L333:  61 
+L334:  
+L335:  ]  transgenerational epigenetic inheritance in mammals remains a debated subject. Recently, a study demonstrated that DNA methylation of promoter associated CpG islands (CGIs) can be transmitted from parents to their offspring in mice, [ 
+L336:  
+L337:  62 
+L338:  
+L339:  ]  providing evidence supporting transgenerational epigenetic inheritance in mammals.
+L340: In conclusion, VC is an essential micronutrient for human health and acts as a cofactor for TET2 in regulating fetal skeletal muscle mitochondrial biogenesis and the differentiation of oxidative fibers, thereby improving the endurance performance of offspring. Moreover, maternal exercise‐induced heritable DNA demethylation of the  Slc23a2  gene may be a potential mechanism for transgenerational epigenetic inheritance related to endurance performance. Together, this study has uncovered the molecular and epigenetic mechanisms underlying the profound effects of maternal exercise on offspring physical fitness, providing insight into the development of intervention strategies for maternal and child health.
+L341: While this study preliminarily elucidated that VC and its transporters are the potential mechanisms mediating the intergenerational inheritance of endurance performance, several limitations warrant consideration. First, we investigated exercise effects on very young female mice (prepuberal) and did not investigate the potential influence of post‐puberal maternal exercise and paternal exercise on offspring fitness. Exploring the effects of prepuberal or post‐puberal parental exercise could provide a more comprehensive understanding of the intergenerational effects of physical activity. Second, we did not assess whether the transgenerational genetic effects of increased endurance performance in F2 generation could be linked to the altered DNA methylation in germ cells of F1 mice. Third, the detailed mechanism by which VC induces TET2 recruitment to fetal skeletal muscle  Slc23a2  and mitochondrial biogenesis related genes for DNA demethylation remains to be further studied. Fourth, the optimal dosage and timing of VC supplementation were not examined in this study. Further research is needed to determine the most effective therapeutic interventions based on VC supplementation. Last, our study focused specifically on the effects of aerobic exercise on offspring exercise capacity. The impact of other forms of exercise on offspring fitness remains an important area for future investigation.
+L342: Experimental Section
+L343: General Animal Information
+L344: All experimental procedures and animal care were approved by the Institutional Animal Care and Use Committee (IACUC) of the South China Normal University (Permit number SCNU‐SPT‐2022‐015). C57BL/6J mice and Kunming mice were purchased from the Guangdong Provincial Medical Laboratory Animal Center (Stock number SCXK2016‐0041).  Gulo  knockout mice were obtained from the Shanghai Model Organisms Center (Stock number N7‐4556). All mice were housed in a specific barrier‐protected humidity‐controlled facility under a 12‐h light–dark cycle at 23 °C (±1 °C) and were provided with food and water ad libitum.
+L345: Exercise Training
+L346: Four‐week‐old female C57BL/6J mice were randomly allocated to either the sedentary (M‐Con) or exercise (M‐Ex) group. Mice in the M‐Ex group underwent daily exercise following the principles of progressive loading in intensity and duration. During the adaptation period, mice were subjected to a flat degree of treadmill exercise at 10 m min −1  for 20 min, three times/week to acclimatize to the treadmill environment. Then, mice were subjected to treadmill training for 50 min daily, 6 days per week, over a four‐week period. The treadmill running commenced at a speed of 18 m min −1 , increasing by 2 m min −1  weekly, and reaching up to 24 m min −1  by the end of the training period. The exercise regimen was administered as follows: warming up at 5 m min −1  for 10 min, main exercise at 18–24 m min −1  for 40 min, and cooling down at 5 m min −1  for 10 min. After the 4‐week training period, exercised or sedentary female mice (9 weeks old) were sequentially paired with age‐matched wild‐type male mice (9 weeks old) to ensure consistent paternal influence across groups. To minimize potential paternal effects on offspring, bedding materials containing the scent of male mice were introduced to the cages of female mice in both the M‐Con and M‐Ex groups 1 day prior to mating. Initially, the wild‐type males were placed in the M‐Con female cages, and after mating was confirmed by the presence of a vaginal plug (designated as embryonic day 0.5, E0.5), males were transferred to the M‐Ex female cages. This procedure maintained controlled experimental conditions while reducing paternal confounding variables. The exercise protocol during pregnancy entailed a daily decrease in running speed by 1 m min −1  from 24 m min −1 , six times per week, for 50 min per session. Exercise training was terminated on E18.5. [ 
+L347:  
+L348:  13 
+L349:  ,  
+L350:  14 
+L351:  
+L352:  ]  All training sessions were conducted in the afternoon (between 16:00 and 17:00). M‐Con group mice were placed in the same treadmill environment. However, the treadmill was not operational, thereby excluding the influence of diet, water intake, and environmental factors caused by daily training on the experimental results. The exercise regimen of  Gulo  Knockout mice and Kunming mice was identical to that of the C57BL/6J mice. For the F2 and F3 generation mice, female mice within the F1 Con group and the F1 Ex group were raised under normal conditions until they reached 8 weeks of age. Subsequently, they were paired with age‐matched wild‐type male mice, and mating was verified by the presence of a vaginal smear. Normal feeding was sustained during pregnancy until the F2 generation mice were acquired. The method of obtaining the F3 generation mice was identical to that of the F2 generation mice.
+L353: Endurance Exercise Capacity Test
+L354: The treadmill exercise was initiated at 10 m min −1  for 40 min and was increased by 1 m min −1  every 10 min until it reached 13 m min −1 . Subsequently, the speed was increased by 1 m min −1  every 5 min until exhaustion. Exhaustion was defined as when a mouse remained on the treadmill’ s shock grid for over 30 s or displayed insensitivity to external stimuli. Running time and running distance were recorded. [ 
+L355:  
+L356:  63 
+L357:  ,  
+L358:  64 
+L359:  
+L360:  ]  The endurance exercise capacity test, maximal running speed test, and grip strength test were completed within 1 week.
+L361: Maximal Running Speed Test
+L362: The exercise began with a 5‐min warm‐up at a speed of 10 m min −1 . Thereafter, the running speed increased by 3 m min −1  every 3 min until it reached 28 m min −1 . Thereafter, the speed was further increased by 1 m min −1  each minute until the mice were unable to continue. [ 
+L363:  
+L364:  15 
+L365:  
+L366:  ]
+L367: Maximal Grip Strength Test
+L368: The grip strength test was performed to measure the forelimb grip strength with a digital grip‐strength meter. The grip strength test was repeated five times, and the maximal value was selected as the forelimb grip strength, then, normalized by body weight. [ 
+L369:  
+L370:  65 
+L371:  
+L372:  ]
+L373: Voluntary Exercise Study
+L374: At the weaning of offspring, male and female animals were individually housed in cages, each equipped with a running wheel (11 cm diameter) and an odometer for 1 week, measuring the daily running distance to indicate the physical activity tendency of the mice.
+L375: Open Field Test
+L376: On the day of the open field testing, mice were transported to the behavioral testing room and allowed to habituate for at least 30 min before testing. Mice were placed in the center of the open field (50 cm × 50 cm white acrylic board with an average of 25 independent square areas) and allowed to explore the open field for 5 min. ANY‐maze software (Stoelting Company, USA) was applied to track the animals and analyze the data. The total distance travel and speed were recorded and analyzed. [ 
+L377:  
+L378:  66 
+L379:  
+L380:  ]
+L381: VC Administration
+L382: VC administration was carried out using L‐Ascorbic acid (Sigma–Aldrich, A92902) or 0.9% NaCl as the control. Prior to mating, female mice in the VC‐supplemented group received intraperitoneal injections of VC every 2 days at a dosage of 4 mg g −1  body weight. Following mating, VC supplementation (18.75 mM) was provided via drinking water until birth. The drinking water containing the VC was replaced every other day with freshly prepared solutions to ensure consistent dosing. In addition, the daily water intake of C57BL/6J mice was monitored over a 7‐day period, and it was determined that VC supplementation did not affect water consumption (Figure  S11b , Supporting Information). For  Gulo −/− 
+L383:   mice, VC was administered through drinking water at a concentration of 2 m m  to maintain physiological activity. [ 
+L384:  
+L385:  22 
+L386:  
+L387:  ]  This supplementation was continued to ensure that  Gulo −/− 
+L388:   mice received adequate VC, compensating for their inability to synthesize VC endogenously.
+L389: Genotyping of Gulo‐KO Mice
+L390: Genotyping was carried out as follows: In brief, a portion of the mouse tail tips was removed using a sterile scalpel and incubated with a mixture of 500 µL of lysate and 50 µL of proteinase K solution at 56 °C in a hybridization furnace overnight. Upon reaching room temperature, samples were centrifuged for 10 min at 12 000 rpm, and the supernatant was collected. To this, 1 mL of absolute ethanol was added and gently shaken until flocculent precipitation was observed. Following centrifugation, the samples were left to dry at room temperature for 15 min to collect genomic DNA.
+L391: PCR amplification was executed using primers for the Gulo WT allele (forward, 5′‐ AATGGAAAGGGATGCCTGGG‐3′; mutant reverse, 5′‐TTCCCGCTCCACCAAGGTGAAG‐3′; and wild‐type reverse, 5′‐GCTACAGCAGGAGATGGGGAGATT‐3′). The PCR reaction was performed with Vazyme Taq Plus master mix (Vazyme, P212), 3 min at 94 °C, followed by cycles of 30 s at 94 °C, 30 s at 58 °C, and 30 s at 72 °C, culminating with a 5‐min phase at 72 °C, and eventually held at 12 °C. Both WT and KO primer PCRs consisted of 35 cycles.
+L392: PCR products were run on a 100 bp Plus DNA Ladder (TransGen Biotech, BM311‐01). Expected PCR products for WT alleles were 655 base pairs, whereas KO alleles were anticipated to yield PCR products of 266 base pairs in size.
+L393: Quantitative RT‐PCR Analysis
+L394: Total RNA was extracted from the offspring liver, skeletal muscle, and the placenta of E18.5 from Dams by using RNAiso Plus reagent (Takara, 9109). Total RNA (1 µg) was reverse transcribed with a PrimeScript TM RT reagent Kit with gDNA Eraser (Takara, RR047A). For human and murine myogenic cells, 1–5 × 10 5  cells were lysed in 1 mL RNAiso Plus reagent for 5 min at room temperature, then treated in the same way as tissue samples. Quantitative RT‐PCR reactions were conducted using TB‐Green Premix Ex Taq (Takara, RR420A). 18s rRNA was used for normalization, and relative mRNA was calculated by a comparative method (2 −ΔΔCt ). Primer sequences are listed in Table  S7 , Supporting Information.
+L395: Mitochondrial DNA Content
+L396: The copy number of mitochondrial DNA (mtDNA) was quantified by measuring NADH dehydrogenase subunit 1( Nd1 : forward, 5′‐ CACTATTCGGAGCTTTACG‐3′; reverse, 5′‐ TGTTTCTGCTAGGGTTGA‐3′) and normalized to the nuclear DNA lipoprotein lipase ( Lpl : forward, 5′‐ GAAAGGGCTCTGCCTGAGTT‐3′; reverse, 5′‐ TAGGGCATCTGAGAGCGAGT‐3′) gene (genomic DNA) using RT‐PCR. [ 
+L397:  
+L398:  15 
+L399:  
+L400:  ]
+L401: Transmission Electron Microscopy (TEM)
+L402: Mice were euthanized and perfused with sodium phosphate buffer (PB, 100 mM, pH 7.4), followed by a pre‐fixation solution consisting of 2.5% v/v glutaraldehyde and 1% paraformaldehyde in PB. The tibialis anterior (TA) muscle was dissected, sectioned into small pieces, and fixed in the same pre‐fixation solution overnight at 4 °C. After rinsing with PB, the tissue samples were immersed in 0.2 M imidazole in PB for 15 min, followed by post‐fixation with 1% osmium tetroxide in PB. Following another rinse with high‐purity water, the samples were stained with 1% aqueous lead acetate at 4 °C overnight. Gradient dehydration was performed by sequentially increasing the concentration of acetone, after which the samples were embedded in epoxy resin and polymerized at 60 °C for 24 h. Ultrathin sections were prepared using a Leica UC7 ultramicrotome and mounted on copper grids. TEM images were acquired using a Hitachi HT7800 TEM equipped with an Eagle 4k CCD digital camera. Imaging was conducted in a double‐blind manner to ensure unbiased data collection.
+L403: ELISA and Biochemical Assays
+L404: Serum concentrations of VC were determined using an ELISA kit (Jianglai Biotechnology, JL11730). All assays were performed according to the manufacturer's protocols. Data acquisition was performed with the i‐Mark Microplate Reader (Bio‐rad, 19684).
+L405: Western Blot Analysis
+L406: Protein was obtained from gastrocnemius muscles using RIPA buffer (50 m m  Tris, pH 7.4, 150 mM NaCl, 1% Triton X‐100, 1% sodium deoxycholate, 0.1% SDS) containing protease/phosphatase inhibitor. The protein concentration of lysates was determined using a BCA Protein Assay Kit II (Beyotime Biotechnology, P0010) and combined with 5 × SDS‐PAGE protein loading buffer (Beyotime Biotechnology, P0286). Samples were then boiled for 10 min. The prepared samples were run on a SDS‐PAGE 8–12% gel then transferred to a PVDF membrane. Ponceau S stain was performed to monitor equal protein loading between the samples. Membranes were then blocked in 5% skimmed milk in phosphate‐buffered saline (PBS) for 1 h at room temperature and further incubated with primary antibody overnight while shaking at 4 °C. The following primary antibodies were used in the current study: TET2 (Proteintech, 21207‐1‐AP, 1:500), SVCT2 (Proteintech, 27019‐1‐AP, 1:1000), PGC‐1α (Proteintech, 66369‐A‐lg, 1:4000), α‐Tubulin (Beyotime Biotechnology, AF2827), and Vinculin (Proteintech, 26520‐1‐AP, 1:4000). The next day, the membrane was washed three times with PBS‐Tween (Tween‐20, 0.1%) and incubated with anti‐rabbit/mouse horseradish peroxidase‐conjugated secondary antibody for 2 h at room temperature (Beyotime Biotechnology, A0208 and A0216, 1:10000). Proteins were visualized using enhanced chemiluminescence reagents (Cowin Biotechnology, CW0049) and exposed with a ChemiDoc Touch Imaging System (Bio‐rad, 732BR2244). Data acquisition and analysis were performed with the Image Lab software (Bio‐rad, Version 3.0) and Image J software. [ 
+L407:  
+L408:  67 
+L409:  
+L410:  ]
+L411: Myogenic Cells Isolation and Cell Culture
+L412: Hindlimb skeletal muscles from 8‐week‐old wild type C57BL/6J mice were dissected and washed with 70% ethanol and PBS, then minced. Thereafter, the tissue was digested with 1.5 U mL −1  collagenase D, 2.4 U mL −1  dispase, and 2.5 m m  CaCl 2  for 60 min at 37 °C in an incubator. The digestion was terminated by adding F10 (Sigma–Aldrich, N6635) medium with 20% FBS, and the resulting cell suspension was filtered and centrifuged. The cells were then resuspended in an F10 medium supplemented with F10 medium with 20% FBS, 5 ng mL −1  FGF‐Basic (Gibco, PHG0026), and 0.5% chicken embryo extract (US biological, c3999) (Growth medium), and plated onto non‐Matrigel‐coated plates for 2 h to remove fibroblasts. Finally, the cell suspension was transferred to fresh Matrigel‐coated plates and cultured in growth medium or cultured in differentiation medium (F10 medium with 2% horse serum and 1% penicillin/ streptomycin). [ 
+L413:  
+L414:  68 
+L415:  
+L416:  ]
+L417: Human Myogenic Cell
+L418: Human myogenic cells (HMCs) were obtained from Procell company (Procell Life Science and Technology, CP‐H095). HMCs were maintained in a DMEM medium (Gibco, C11330500BT) supplemented with FBS, EGF, and bFGF; plated onto polylysine‐coated plates; and cultured in DMEM supplemented with FBS, EGF, and bFGF (Procell Life Science and Technology, CMPH095), or cultured in differentiation medium (F10 medium with 2% horse serum and 1% penicillin/ streptomycin).
+L419: Small Interfering RNAs
+L420: Both human (Locus ID. 54790) and mouse (Locus ID. 214133) TET2 siRNA were purchased from OriGene Technologies. Prior to siRNA transfection, human and murine myogenic cells were seeded to 60% confluence on 6‐well plates and transfected using Lipofectamine 3000 (Thermo Fisher Scientific, L3000015) and Opti‐MEM serum‐free medium (Thermo Fisher Scientific, 31985070). Following the manufacturer's protocol, Opti‐MEM serum‐free medium was used to prepare Lipofectamine 3000 and siRNA (20 n m ) working solutions separately, then mixed and incubated at room temperature for 5 min before being added to the culture medium. After shaking to mix, the cells were transfected for 48 h. Subsequently, the culture medium was replaced with differentiation medium, and RNA and protein were harvested after vitamin C treatment according to the experimental design.
+L421: Histological Analysis
+L422: For immunocytochemical (ICC) staining, the anterior tibialis muscle was embedded in astragalus gel and rapidly frozen using isopropanol precooled with liquid nitrogen. Sections (10 µm thickness) of anterior tibialis muscles were prepared for H&E (Shanghai Yuanye Biotechnology, R24044) and SDH (Solarbio, G2000) staining, followed by calculation of CSA and SDH activity using image J.
+L423: To assess muscle fiber type, transverse sections of 10 µm were fixed in 4% paraformaldehyde at room temperature for 10 min, with heat‐induced epitope retrieval (HIER) (10 m m  of sodium citrate, 0.05% Tween‐20, pH 6.0, 95 °C for 10 min), and then, the samples were incubated with PBS containing 0.25% Triton X‐100 for 20 min. Afterward, the samples were incubated with 5% bovine serum albumin (BSA) and Fab fragment antibodies for 1 h to block the unspecific binding of the antibodies. Subsequently, the samples were stained overnight for anti‐myosin heavy chain (MHC) I (DSHB, BA‐D5, 1:100), anti‐MHC IIa (DSHB, SC‐71, 1:500), and anti‐MHC IIb (DSHB, BF‐F3, 1:100) mouse monoclonal antibodies at 4 °C. For the secondary antibodies, goat anti‐mouse IgG2b Alexa647 (Jackson ImmunoResearch, 115605003, 1:200), goat anti‐mouse IgG1 Alexa 594 (Jackson ImmunoResearch, 115587185, 1:200), goat anti‐mouse IgM Alexa 488 (Jackson ImmunoResearch, 115545003, 1:200), and TOM20 (CST, 42406, 1:500) antibodies were applied in the current study, DAPI was used to visualize nuclei.
+L424: Imaging was performed using a Zeiss laser confocal microscope (LSM 800, Germany) by scanning the cross‐section of the anterior tibialis muscle. The number and proportion of different MHC subtypes were quantified using Image J software.
+L425: MethylC‐Capture Sequencing and Data Analysis
+L426: Genomic DNA was extracted from quadriceps muscle using a gDNA extraction kit from Omega Bio‐Tek Research (USA) and fragmented into 150–200 bp fragments using Covaris E‐Series instruments (Australia). The DNA library was prepared using the SureSelect Methyl‐seq Library Prep Kit from Agilent Technologies (USA), and bisulfite conversion was performed using the EZ DNA Methylation‐Gold Kit from Zymo Research (USA). The resulting DNA was desulphonated, and its quality and quantity were assessed using an Agilent 2100 Bioanalyzer. The DNA samples were sequenced on the HiSeq X ten Platform (Illumina Technologies, USA) with 150 bp paired end reads at the Shanghai Biotechnology Corporation (China).
+L427: The quality of raw data was assessed by FastQC v0.11.5, and clean data were generated using Trim galore v0.4.1. The reference genome used was Mouse MM10, and genome alignment was conducted using Bismark V0.15.0. Deduplicate Bismark was employed to remove potential PCR redundancy. Information on cytosine (C), CpG C, and 5 mC was generated through genome alignment. The 5 mC methylation levels were compared between groups and annotated using the Bioconductor package. DMSs were identified with an average methylation level difference > 10% and 5 mC with a  p ‐adjust < 0.05. DMS showing the same trend in the F1 and F2 generations were selected. Based on the annotation, methylation changes in all DMSs within the promoter‐transcription start site (TSS) were analyzed.
+L428: Statistical Analysis
+L429: All data were statistically analyzed and graphed with GraphPad Prism 8.3 software (GraphPad Software, San Diego, CA, USA). Most experiment data were presented as the mean ± SEM for in vitro or ex vivo studies, respectively. Comparisons among multiple groups were performed using one‐way analysis of variance (ANOVA) followed by Bonferroni's post hoc test or two‐way ANOVA followed by Tukey's post hoc test, as appropriate. For correlation analysis involving four biological variables: protein expression (SVCT2, PGC‐1α) and VC concentration (plasma, skeletal muscle), Spearman correlation coefficient was calculated for each pair of variables in offspring from M‐Con or M‐Ex group at weaning. Maximal running speed data for F0, F1, F2, and F3 mice were analyzed using Kaplan–Meier survival curves, and the statistical difference was determined by the Log‐rank test. For MCC‐seq data, principal component analyses, identification of differentially expressed genes, and hierarchical cluster analyses were performed to assess global patterns. Differential methylation sites (DMSs) analysis was performed on the F1 Ex, F2 Ex group, and F1 Con group using R package methylKit, version 0.9.5, which applied Fisher's test, adjusted  p‐ value less than 0.05 to compare methylation frequencies at specific sites or regions between groups. For frequency‐based data, such as proportions of fiber types, Pearson's chi‐squared test was used to determine whether distributions differed significantly between experimental conditions. The number of samples and  p ‐values for each measurement are provided in the figures and figure legends. Statistical significance was set at  p < 0.05 .
+L430: Conflict of Interest
+L431: The authors declare no conflict of interest.
+L432: Author Contributions
+L433: The experimental plan was designed by H.S. and R.D. H.S., J.L., and H.Y. performed molecular, histological, and exercise performance test. H. S., F.L., T.W., Y.L., R.H., M.C., N.S.G., X.Z., and S.F. performed experiments and animal care. H.S. analyzed MCC‐Seq data. The manuscript was written by H.S., F.L., L. Y., and R.D. with help and comments from all authors.
+L434: Supporting information
+L435: Data Availability Statement
+L436: The data that support the findings of this study are openly available in the Sequence Read Archive of National Library of Medicine.  https://www.ncbi.nlm.nih.gov/sra/PRJNA1134620 , reference number PRJNA1134620.
+L437: Supplementary Material
+L438: Supporting Information
+L439: Supplemental Table 1
+L440: Supplemental Table 2
+L441: Supplemental Table 3
+L442: Supplemental Table 4
+L443: Supplemental Table 5
+L444: Supplemental Table 6
+L445: Supplemental Table 7
+L446: Supplemental Table 8
+L447: 1 Y. 
+L448:  Dong 
+L449:  ,  
+L450:  P. W. C. 
+L451:  Lau 
+L452:  ,  
+L453:  B. 
+L454:  Dong 
+L455:  ,  
+L456:  Z. 
+L457:  Zou 
+L458:  ,  
+L459:  Y. 
+L460:  Yang 
+L461:  ,  
+L462:  B.o 
+L463:  Wen 
+L464:  ,  
+L465:  Y. 
+L466:  Ma 
+L467:  ,  
+L468:  P. 
+L469:  Hu 
+L470:  ,  
+L471:  Y.i 
+L472:  Song 
+L473:  ,  
+L474:  J. 
+L475:  Ma 
+L476:  ,  
+L477:  S. M. 
+L478:  Sawyer 
+L479:  ,  
+L480:  G. C. 
+L481:  Patton 
+L482:  ,  Lancet Child Adolesc. Health 
+L483:  2019 ,  3 ,  871 . 31582349
+L484: 2 T. 
+L485:  Fuhner 
+L486:  ,  
+L487:  R. 
+L488:  Kliegl 
+L489:  ,  
+L490:  F. 
+L491:  Arntz 
+L492:  ,  
+L493:  S. 
+L494:  Kriemler 
+L495:  ,  
+L496:  U. 
+L497:  Granacher 
+L498:  ,  Sports Med. 
+L499:  2021 ,  51 ,  303 . 33159655
+L500: 3 S. 
+L501:  Kodama 
+L502:  ,  JAMA, J. Am. Med. Assoc. 
+L503:  2009 ,  301 ,  2024 .
+L504: 4 J. R. 
+L505:  Ruiz 
+L506:  ,  
+L507:  X. 
+L508:  Sui 
+L509:  ,  
+L510:  F. 
+L511:  Lobelo 
+L512:  ,  
+L513:  J. R. 
+L514:  Morrow 
+L515:  ,  
+L516:  A. W. 
+L517:  Jackson 
+L518:  ,  
+L519:  M. 
+L520:  Sjostrom 
+L521:  ,  
+L522:  S. N. 
+L523:  Blair 
+L524:  ,  BMJ 
+L525:  2008 ,  337 ,  a439 . 18595904
+L526: 5 J. J. 
+L527:  Smith 
+L528:  ,  
+L529:  N. 
+L530:  Eather 
+L531:  ,  
+L532:  P. J. 
+L533:  Morgan 
+L534:  ,  
+L535:  R. C. 
+L536:  Plotnikoff 
+L537:  ,  
+L538:  A. D. 
+L539:  Faigenbaum 
+L540:  ,  
+L541:  D. R. 
+L542:  Lubans 
+L543:  ,  Sports Med. 
+L544:  2014 ,  44 ,  1209 . 24788950
+L545: 6 S. 
+L546:  Timpka 
+L547:  ,  
+L548:  I. F. 
+L549:  Petersson 
+L550:  ,  
+L551:  C. 
+L552:  Zhou 
+L553:  ,  
+L554:  M. 
+L555:  Englund 
+L556:  ,  BMC Med. 
+L557:  2014 ,  12 ,  62 . 24731728
+L558: 7 S. 
+L559:  Duric 
+L560:  ,  
+L561:  V. 
+L562:  Sember 
+L563:  ,  
+L564:  G. 
+L565:  Starc 
+L566:  ,  
+L567:  M. 
+L568:  Soric 
+L569:  ,  
+L570:  M. 
+L571:  Kovac 
+L572:  ,  
+L573:  G. 
+L574:  Jurak 
+L575:  ,  Scand. J. Med. Sci. Sports 
+L576:  2021 ,  31 ,  1853 . 33910265
+L577: 8 A. 
+L578:  Garcia‐Hermoso 
+L579:  ,  
+L580:  R. 
+L581:  Ramirez‐Campillo 
+L582:  ,  
+L583:  M. 
+L584:  Izquierdo 
+L585:  ,  Sports Med. 
+L586:  2019 ,  49 ,  1079 . 30953308
+L587: 9 D. P. 
+L588:  Pozuelo‐Carrascosa 
+L589:  ,  
+L590:  A. 
+L591:  Garcia‐Hermoso 
+L592:  ,  
+L593:  C. 
+L594:  Alvarez‐Bueno 
+L595:  ,  
+L596:  M. 
+L597:  Sanchez‐Lopez 
+L598:  ,  
+L599:  V. 
+L600:  Martinez‐Vizcaino 
+L601:  ,  Br. J. Sports Med 
+L602:  2018 ,  52 ,  1234 . 29074475
+L603: 10 G. R. 
+L604:  Tomkinson 
+L605:  ,  
+L606:  J. J. 
+L607:  Lang 
+L608:  ,  
+L609:  M. S. 
+L610:  Tremblay 
+L611:  ,  Br. J. Sports Med. 
+L612:  2019 ,  53 ,  478 . 29084727
+L613: 11 E. 
+L614:  Tikkanen 
+L615:  ,  
+L616:  S. 
+L617:  Gustafsson 
+L618:  ,  
+L619:  E. 
+L620:  Ingelsson 
+L621:  ,  Circulation 
+L622:  2018 ,  137 ,  2583 . 29632216
+L623: 12 M. F. 
+L624:  Perez 
+L625:  ,  
+L626:  B. 
+L627:  Lehner 
+L628:  ,  Nat. Cell Biol. 
+L629:  2019 ,  21 ,  143 . 30602724
+L630: 13 J. S. 
+L631:  Son 
+L632:  ,  
+L633:  L. 
+L634:  Zhao 
+L635:  ,  
+L636:  Y. 
+L637:  Chen 
+L638:  ,  
+L639:  K.e 
+L640:  Chen 
+L641:  ,  
+L642:  S. A.h 
+L643:  Chae 
+L644:  ,  
+L645:  J. M. 
+L646:  de Avila 
+L647:  ,  
+L648:  H. 
+L649:  Wang 
+L650:  ,  
+L651:  M.‐J. 
+L652:  Zhu 
+L653:  ,  
+L654:  Z. 
+L655:  Jiang 
+L656:  ,  
+L657:  M. 
+L658:  Du 
+L659:  ,  Sci. Adv. 
+L660:  2020 ,  6 ,  eaaz0359 . 32494609
+L661: 14 J. 
+L662:  Kusuyama 
+L663:  ,  
+L664:  A. B. 
+L665:  Alves‐Wagner 
+L666:  ,  
+L667:  R. H. 
+L668:  Conlin 
+L669:  ,  
+L670:  N. S. 
+L671:  Makarewicz 
+L672:  ,  
+L673:  B. G. 
+L674:  Albertson 
+L675:  ,  
+L676:  N. B. 
+L677:  Prince 
+L678:  ,  
+L679:  S. 
+L680:  Kobayashi 
+L681:  ,  
+L682:  C. 
+L683:  Kozuka 
+L684:  ,  
+L685:  M. 
+L686:  Møller 
+L687:  ,  
+L688:  M. 
+L689:  Bjerre 
+L690:  ,  
+L691:  J. 
+L692:  Fuglsang 
+L693:  ,  
+L694:  E. 
+L695:  Miele 
+L696:  ,  
+L697:  R. J. W. 
+L698:  Middelbeek 
+L699:  ,  
+L700:  Y. 
+L701:  Xiudong 
+L702:  ,  
+L703:  Y. 
+L704:  Xia 
+L705:  ,  
+L706:  L. 
+L707:  Garneau 
+L708:  ,  
+L709:  J. 
+L710:  Bhattacharjee 
+L711:  ,  
+L712:  C. 
+L713:  Aguer 
+L714:  ,  
+L715:  M. E. 
+L716:  Patti 
+L717:  ,  
+L718:  M. F. 
+L719:  Hirshman 
+L720:  ,  
+L721:  N. 
+L722:  Jessen 
+L723:  ,  
+L724:  T. 
+L725:  Hatta 
+L726:  ,  
+L727:  P. G. 
+L728:  Ovesen 
+L729:  ,  
+L730:  K. B. 
+L731:  Adamo 
+L732:  ,  
+L733:  E. 
+L734:  Nozik‐Grayck 
+L735:  ,  
+L736:  L. J. 
+L737:  Goodyear 
+L738:  ,  Cell Metab. 
+L739:  2021 ,  33 ,  939 . 33770509
+L740: 15 J. S. 
+L741:  Son 
+L742:  ,  
+L743:  S. A.h 
+L744:  Chae 
+L745:  ,  
+L746:  H. 
+L747:  Wang 
+L748:  ,  
+L749:  Y. 
+L750:  Chen 
+L751:  ,  
+L752:  A. 
+L753:  Bravo Iniguez 
+L754:  ,  
+L755:  J. M. 
+L756:  de Avila 
+L757:  ,  
+L758:  Z. 
+L759:  Jiang 
+L760:  ,  
+L761:  M.‐J. 
+L762:  Zhu 
+L763:  ,  
+L764:  M. 
+L765:  Du 
+L766:  ,  Cell Rep. 
+L767:  2020 ,  33 ,  108461 . 33264618
+L768: 16 J. S. 
+L769:  Son 
+L770:  ,  
+L771:  S. A. 
+L772:  Chae 
+L773:  ,  
+L774:  L. 
+L775:  Zhao 
+L776:  ,  
+L777:  H. 
+L778:  Wang 
+L779:  ,  
+L780:  J. M. 
+L781:  de Avila 
+L782:  ,  
+L783:  M.‐J. 
+L784:  Zhu 
+L785:  ,  
+L786:  Z. 
+L787:  Jiang 
+L788:  ,  
+L789:  M. 
+L790:  Du 
+L791:  ,  EBioMedicine 
+L792:  2022 ,  76 ,  103842 . 35081489
+L793: 17 J. 
+L794:  Kusuyama 
+L795:  ,  
+L796:  A. B. 
+L797:  Alves‐Wagner 
+L798:  ,  
+L799:  N. S. 
+L800:  Makarewicz 
+L801:  ,  
+L802:  L. J. 
+L803:  Goodyear 
+L804:  ,  Nat. Metab. 
+L805:  2020 ,  2 ,  858 . 32929233
+L806: 18 R. C. 
+L807:  Laker 
+L808:  ,  
+L809:  T. S. 
+L810:  Lillard 
+L811:  ,  
+L812:  M. 
+L813:  Okutsu 
+L814:  ,  
+L815:  M. 
+L816:  Zhang 
+L817:  ,  
+L818:  K. L. 
+L819:  Hoehn 
+L820:  ,  
+L821:  J. J. 
+L822:  Connelly 
+L823:  ,  
+L824:  Z. 
+L825:  Yan 
+L826:  ,  Diabetes 
+L827:  2014 ,  63 ,  1605 . 24430439
+L828: 19 J. 
+L829:  Lykkesfeldt 
+L830:  ,  
+L831:  A. C. 
+L832:  Carr 
+L833:  ,  
+L834:  Vitamin 
+L835:  C. 
+L836:  ,  Adv. Nutr. 
+L837:  2024 ,  15 ,  100155 . 37992968
+L838: 20 H. E. 
+L839:  Sauberlich 
+L840:  ,  Annu. Rev. Nutr. 
+L841:  1994 ,  14 ,  371 . 7946525
+L842: 21 C. 
+L843:  Kuiper 
+L844:  ,  
+L845:  G. U. 
+L846:  Dachs 
+L847:  ,  
+L848:  M. J. 
+L849:  Currie 
+L850:  ,  
+L851:  M. C. 
+L852:  Vissers 
+L853:  ,  Free Radicals Biol. Med. 
+L854:  2014 ,  69 ,  308 .
+L855: 22 S. P. 
+L856:  DiTroia 
+L857:  ,  
+L858:  M. 
+L859:  Percharde 
+L860:  ,  
+L861:  M.‐J. 
+L862:  Guerquin 
+L863:  ,  
+L864:  E. 
+L865:  Wall 
+L866:  ,  
+L867:  E. 
+L868:  Collignon 
+L869:  ,  
+L870:  K. T. 
+L871:  Ebata 
+L872:  ,  
+L873:  K. 
+L874:  Mesh 
+L875:  ,  
+L876:  S. 
+L877:  Mahesula 
+L878:  ,  
+L879:  M. 
+L880:  Agathocleous 
+L881:  ,  
+L882:  D. J. 
+L883:  Laird 
+L884:  ,  
+L885:  G. 
+L886:  Livera 
+L887:  ,  
+L888:  M. 
+L889:  Ramalho‐Santos 
+L890:  ,  Nature 
+L891:  2019 ,  573 ,  271 . 31485074
+L892: 23 T. 
+L893:  Kietzmann 
+L894:  ,  Redox Biol. 
+L895:  2023 ,  63 ,  102753 . 37263060
+L896: 24 T. L. 
+L897:  Chong 
+L898:  ,  
+L899:  E. L. 
+L900:  Ahearn 
+L901:  ,  
+L902:  L. 
+L903:  Cimmino 
+L904:  ,  Front. Cell Dev. Biol. 
+L905:  2019 ,  7 ,  128 . 31380368
+L906: 25 M. F. 
+L907:  Pera 
+L908:  ,  Nat. Genet. 
+L909:  2013 ,  45 ,  1412 . 24270443
+L910: 26 T.‐L. 
+L911:  Chung 
+L912:  ,  
+L913:  R. M. 
+L914:  Brena 
+L915:  ,  
+L916:  G. 
+L917:  Kolle 
+L918:  ,  
+L919:  S. M. 
+L920:  Grimmond 
+L921:  ,  
+L922:  B. P. 
+L923:  Berman 
+L924:  ,  
+L925:  P. W. 
+L926:  Laird 
+L927:  ,  
+L928:  M. F. 
+L929:  Pera 
+L930:  ,  
+L931:  E. J. 
+L932:  Wolvetang 
+L933:  ,  Stem Cells 
+L934:  2010 ,  28 ,  1848 . 20687155
+L935: 27 L. 
+L936:  Cimmino 
+L937:  ,  
+L938:  I. 
+L939:  Dolgalev 
+L940:  ,  
+L941:  Y. 
+L942:  Wang 
+L943:  ,  
+L944:  A. 
+L945:  Yoshimi 
+L946:  ,  
+L947:  G. H. 
+L948:  Martin 
+L949:  ,  
+L950:  J. 
+L951:  Wang 
+L952:  ,  
+L953:  V. 
+L954:  Ng 
+L955:  ,  
+L956:  B.o 
+L957:  Xia 
+L958:  ,  
+L959:  M. T. 
+L960:  Witkowski 
+L961:  ,  
+L962:  M. 
+L963:  Mitchell‐Flack 
+L964:  ,  
+L965:  I. 
+L966:  Grillo 
+L967:  ,  
+L968:  S. 
+L969:  Bakogianni 
+L970:  ,  
+L971:  D. 
+L972:  Ndiaye‐Lobry 
+L973:  ,  
+L974:  M. T. 
+L975:  Martín 
+L976:  ,  
+L977:  M. 
+L978:  Guillamot 
+L979:  ,  
+L980:  R. S. 
+L981:  Banh 
+L982:  ,  
+L983:  M. 
+L984:  Xu 
+L985:  ,  
+L986:  M. E. 
+L987:  Figueroa 
+L988:  ,  
+L989:  R. A. 
+L990:  Dickins 
+L991:  ,  
+L992:  O. 
+L993:  Abdel‐Wahab 
+L994:  ,  
+L995:  C. Y. 
+L996:  Park 
+L997:  ,  
+L998:  A. 
+L999:  Tsirigos 
+L1000:  ,  
+L1001:  B. G. 
+L1002:  Neel 
+L1003:  ,  
+L1004:  I. 
+L1005:  Aifantis 
+L1006:  ,  Cell 
+L1007:  2017 ,  170 ,  1079 . 28823558
+L1008: 28 J. X. 
+L1009:  Wilson 
+L1010:  ,  Annu. Rev. Nutr. 
+L1011:  2005 ,  25 ,  105 . 16011461
+L1012: 29 S. 
+L1013:  Schiaffino 
+L1014:  ,  
+L1015:  C. 
+L1016:  Reggiani 
+L1017:  ,  Physiol. Rev. 
+L1018:  2011 ,  91 ,  1447 . 22013216
+L1019: 30 O. 
+L1020:  Vikmoen 
+L1021:  ,  
+L1022:  S. 
+L1023:  Ellefsen 
+L1024:  ,  
+L1025:  Ø. 
+L1026:  Trøen 
+L1027:  ,  
+L1028:  I. 
+L1029:  Hollan 
+L1030:  ,  
+L1031:  M. 
+L1032:  Hanestadhaugen 
+L1033:  ,  
+L1034:  T. 
+L1035:  Raastad 
+L1036:  ,  
+L1037:  B. R. 
+L1038:  Rønnestad 
+L1039:  ,  Scand. J. Med. Sci. Sports 
+L1040:  2016 ,  26 ,  384 . 25892654
+L1041: 31 M. 
+L1042:  Flockhart 
+L1043:  ,  
+L1044:  L. C. 
+L1045:  Nilsson 
+L1046:  ,  
+L1047:  S. 
+L1048:  Tais 
+L1049:  ,  
+L1050:  B. 
+L1051:  Ekblom 
+L1052:  ,  
+L1053:  W. 
+L1054:  Apró 
+L1055:  ,  
+L1056:  F. J. 
+L1057:  Larsen 
+L1058:  ,  Cell Metab. 
+L1059:  2021 ,  33 ,  957 . 33740420
+L1060: 32 P. M. 
+L1061:  Schaefer 
+L1062:  ,  
+L1063:  K. 
+L1064:  Rathi 
+L1065:  ,  
+L1066:  A. 
+L1067:  Butic 
+L1068:  ,  
+L1069:  W. 
+L1070:  Tan 
+L1071:  ,  
+L1072:  K. 
+L1073:  Mitchell 
+L1074:  ,  
+L1075:  D. C. 
+L1076:  Wallace 
+L1077:  ,  Proc. Natl. Acad. Sci. U. S. A. 
+L1078:  2022 ,  119 ,  e2200549119 . 35482926
+L1079: 33 R. G. 
+L1080:  Haller 
+L1081:  ,  
+L1082:  K. G. 
+L1083:  Henriksson 
+L1084:  ,  
+L1085:  L. 
+L1086:  Jorfeldt 
+L1087:  ,  
+L1088:  E. 
+L1089:  Hultman 
+L1090:  ,  
+L1091:  R. 
+L1092:  Wibom 
+L1093:  ,  
+L1094:  K. 
+L1095:  Sahlin 
+L1096:  ,  
+L1097:  N. H. 
+L1098:  Areskog 
+L1099:  ,  
+L1100:  M. 
+L1101:  Gunder 
+L1102:  ,  
+L1103:  K. 
+L1104:  Ayyad 
+L1105:  ,  
+L1106:  C. G. 
+L1107:  Blomqvist 
+L1108:  ,  J. Clin. Invest. 
+L1109:  1991 ,  88 ,  1197 . 1918374
+L1110: 34 J. R. 
+L1111:  Speakman 
+L1112:  ,  
+L1113:  E. 
+L1114:  Krol 
+L1115:  ,  J. Anim. Ecol. 
+L1116:  2010 ,  79 ,  726 . 20443992
+L1117: 35 Z. H. 
+L1118:  Harvey 
+L1119:  ,  
+L1120:  Y. 
+L1121:  Chen 
+L1122:  ,  
+L1123:  D. F. 
+L1124:  Jarosz 
+L1125:  ,  Mol. Cell 
+L1126:  2018 ,  69 ,  195 . 29153393
+L1127: 36 M. 
+L1128:  Bürzle 
+L1129:  ,  
+L1130:  Y. 
+L1131:  Suzuki 
+L1132:  ,  
+L1133:  D. 
+L1134:  Ackermann 
+L1135:  ,  
+L1136:  H. 
+L1137:  Miyazaki 
+L1138:  ,  
+L1139:  N. 
+L1140:  Maeda 
+L1141:  ,  
+L1142:  B. 
+L1143:  Clémençon 
+L1144:  ,  
+L1145:  R. 
+L1146:  Burrier 
+L1147:  ,  
+L1148:  M. A. 
+L1149:  Hediger 
+L1150:  ,  Mol. Aspects Med. 
+L1151:  2013 ,  34 ,  436 . 23506882
+L1152: 37 H. 
+L1153:  Kim 
+L1154:  ,  
+L1155:  S. 
+L1156:  Bae 
+L1157:  ,  
+L1158:  Y. 
+L1159:  Yu 
+L1160:  ,  
+L1161:  Y. 
+L1162:  Kim 
+L1163:  ,  
+L1164:  H.‐R. 
+L1165:  Kim 
+L1166:  ,  
+L1167:  Y.‐I.l 
+L1168:  Hwang 
+L1169:  ,  
+L1170:  J. S. 
+L1171:  Kang 
+L1172:  ,  
+L1173:  W. J. 
+L1174:  Lee 
+L1175:  ,  Immune Netw. 
+L1176:  2012 ,  12 ,  18 . 22536166
+L1177: 38 T. 
+L1178:  Qi 
+L1179:  ,  
+L1180:  M. 
+L1181:  Sun 
+L1182:  ,  
+L1183:  C. 
+L1184:  Zhang 
+L1185:  ,  
+L1186:  P. 
+L1187:  Chen 
+L1188:  ,  
+L1189:  C. 
+L1190:  Xiao 
+L1191:  ,  
+L1192:  X. 
+L1193:  Chang 
+L1194:  ,  Cell Rep. 
+L1195:  2020 ,  33 ,  108452 . 33264617
+L1196: 39 Y. 
+L1197:  Wang 
+L1198:  ,  
+L1199:  H. J. 
+L1200:  Kim 
+L1201:  ,  
+L1202:  J. R. 
+L1203:  Sparrow 
+L1204:  ,  Exp. Eye Res. 
+L1205:  2017 ,  160 ,  45 . 28461203
+L1206: 40 K. 
+L1207:  Koshinaka 
+L1208:  ,  
+L1209:  A. 
+L1210:  Honda 
+L1211:  ,  
+L1212:  H. 
+L1213:  Masuda 
+L1214:  ,  
+L1215:  A. 
+L1216:  Sato 
+L1217:  ,  Nutrients 
+L1218:  2020 ,  12 ,  729 . 32164219
+L1219: 41 T. 
+L1220:  Matsukawa 
+L1221:  ,  
+L1222:  H. 
+L1223:  Motojima 
+L1224:  ,  
+L1225:  Y. 
+L1226:  Sato 
+L1227:  ,  
+L1228:  S. 
+L1229:  Takahashi 
+L1230:  ,  
+L1231:  M. O. 
+L1232:  Villareal 
+L1233:  ,  
+L1234:  H. 
+L1235:  Isoda 
+L1236:  ,  Sci Rep 
+L1237:  2017 ,  7 ,  44799 . 28317895
+L1238: 42 A. 
+L1239:  Wei 
+L1240:  ,  
+L1241:  H. 
+L1242:  Wu 
+L1243:  ,  Development 
+L1244:  2022 ,  149 ,  dev182683 . 36519514
+L1245: 43 M. E. 
+L1246:  Figueroa 
+L1247:  ,  
+L1248:  O. 
+L1249:  Abdel‐Wahab 
+L1250:  ,  
+L1251:  C. 
+L1252:  Lu 
+L1253:  ,  
+L1254:  P. S. 
+L1255:  Ward 
+L1256:  ,  
+L1257:  J. 
+L1258:  Patel 
+L1259:  ,  
+L1260:  A. 
+L1261:  Shih 
+L1262:  ,  
+L1263:  Y. 
+L1264:  Li 
+L1265:  ,  
+L1266:  N. 
+L1267:  Bhagwat 
+L1268:  ,  
+L1269:  A. 
+L1270:  Vasanthakumar 
+L1271:  ,  
+L1272:  H. F. 
+L1273:  Fernandez 
+L1274:  ,  
+L1275:  M. S. 
+L1276:  Tallman 
+L1277:  ,  
+L1278:  Z. 
+L1279:  Sun 
+L1280:  ,  
+L1281:  K. 
+L1282:  Wolniak 
+L1283:  ,  
+L1284:  J. K. 
+L1285:  Peeters 
+L1286:  ,  
+L1287:  W. 
+L1288:  Liu 
+L1289:  ,  
+L1290:  S. E. 
+L1291:  Choe 
+L1292:  ,  
+L1293:  V. R. 
+L1294:  Fantin 
+L1295:  ,  
+L1296:  E. 
+L1297:  Paietta 
+L1298:  ,  
+L1299:  B. 
+L1300:  Löwenberg 
+L1301:  ,  
+L1302:  J. D. 
+L1303:  Licht 
+L1304:  ,  
+L1305:  L. A. 
+L1306:  Godley 
+L1307:  ,  
+L1308:  R. 
+L1309:  Delwel 
+L1310:  ,  
+L1311:  P. J. M. 
+L1312:  Valk 
+L1313:  ,  
+L1314:  C. B. 
+L1315:  Thompson 
+L1316:  ,  
+L1317:  R. L. 
+L1318:  Levine 
+L1319:  ,  
+L1320:  A. 
+L1321:  Melnick 
+L1322:  ,  Cancer Cell 
+L1323:  2010 ,  18 ,  553 . 21130701
+L1324: 44 C. 
+L1325:  Hartmann 
+L1326:  ,  
+L1327:  J. 
+L1328:  Meyer 
+L1329:  ,  
+L1330:  J. 
+L1331:  Balss 
+L1332:  ,  
+L1333:  D. 
+L1334:  Capper 
+L1335:  ,  
+L1336:  W. 
+L1337:  Mueller 
+L1338:  ,  
+L1339:  A. 
+L1340:  Christians 
+L1341:  ,  
+L1342:  J. 
+L1343:  Felsberg 
+L1344:  ,  
+L1345:  M. 
+L1346:  Wolter 
+L1347:  ,  
+L1348:  C. 
+L1349:  Mawrin 
+L1350:  ,  
+L1351:  W. 
+L1352:  Wick 
+L1353:  ,  
+L1354:  M. 
+L1355:  Weller 
+L1356:  ,  
+L1357:  C. 
+L1358:  Herold‐Mende 
+L1359:  ,  
+L1360:  A. 
+L1361:  Unterberg 
+L1362:  ,  
+L1363:  J. W. M. 
+L1364:  Jeuken 
+L1365:  ,  
+L1366:  P. 
+L1367:  Wesseling 
+L1368:  ,  
+L1369:  G. 
+L1370:  Reifenberger 
+L1371:  ,  
+L1372:  A. 
+L1373:  von Deimling 
+L1374:  ,  Acta Neuropathol. 
+L1375:  2009 ,  118 ,  469 . 19554337
+L1376: 45 M. G. 
+L1377:  Nikolaidis 
+L1378:  ,  
+L1379:  C. M. 
+L1380:  Kerksick 
+L1381:  ,  
+L1382:  M. 
+L1383:  Lamprecht 
+L1384:  ,  
+L1385:  S. R. 
+L1386:  McAnulty 
+L1387:  ,  Oxid. Med. Cell. Longevity 
+L1388:  2012 ,  2012 ,  70794 .
+L1389: 46 V. J. 
+L1390:  Clemente‐Suarez 
+L1391:  ,  
+L1392:  A. I. 
+L1393:  Beltrán‐Velasco 
+L1394:  ,  
+L1395:  V. J. 
+L1396:  Clemente‐Suárez 
+L1397:  ,  
+L1398:  A. I. 
+L1399:  Beltrán‐Velasco 
+L1400:  ,  
+L1401:  L. 
+L1402:  Redondo‐Flórez 
+L1403:  ,  
+L1404:  A. 
+L1405:  Martín‐Rodríguez 
+L1406:  ,  
+L1407:  J. F. 
+L1408:  Tornero‐Aguilera 
+L1409:  ,  Nutrients 
+L1410:  2023 ,  15 ,  2749 . 37375654
+L1411: 47 S. 
+L1412:  Takisawa 
+L1413:  ,  
+L1414:  T. 
+L1415:  Funakoshi 
+L1416:  ,  
+L1417:  T. 
+L1418:  Yatsu 
+L1419:  ,  
+L1420:  K. 
+L1421:  Nagata 
+L1422:  ,  
+L1423:  T. 
+L1424:  Aigaki 
+L1425:  ,  
+L1426:  S. 
+L1427:  Machida 
+L1428:  ,  
+L1429:  A. 
+L1430:  Ishigami 
+L1431:  ,  Sci. Rep. 
+L1432:  2019 ,  9 ,  4702 . 30894591
+L1433: 48 M. 
+L1434:  Khassaf 
+L1435:  ,  
+L1436:  A. 
+L1437:  McArdle 
+L1438:  ,  
+L1439:  C. 
+L1440:  Esanu 
+L1441:  ,  
+L1442:  A. 
+L1443:  Vasilaki 
+L1444:  ,  
+L1445:  F. 
+L1446:  McArdle 
+L1447:  ,  
+L1448:  R. D. 
+L1449:  Griffiths 
+L1450:  ,  
+L1451:  D. A. 
+L1452:  Brodie 
+L1453:  ,  
+L1454:  M. J. 
+L1455:  Jackson 
+L1456:  ,  J. Physiol. 
+L1457:  2003 ,  549 ,  645 . 12692182
+L1458: 49 L. A. 
+L1459:  Roberts 
+L1460:  ,  
+L1461:  K. 
+L1462:  Beattie 
+L1463:  ,  
+L1464:  G. L. 
+L1465:  Close 
+L1466:  ,  
+L1467:  J. P. 
+L1468:  Morton 
+L1469:  ,  Int. J. Sports Physiol. Perform. 
+L1470:  2011 ,  6 ,  58 . 21487150
+L1471: 50 M. 
+L1472:  Ristow 
+L1473:  ,  
+L1474:  K. 
+L1475:  Zarse 
+L1476:  ,  
+L1477:  A. 
+L1478:  Oberbach 
+L1479:  ,  
+L1480:  N. 
+L1481:  Klöting 
+L1482:  ,  
+L1483:  M. 
+L1484:  Birringer 
+L1485:  ,  
+L1486:  M. 
+L1487:  Kiehntopf 
+L1488:  ,  
+L1489:  M. 
+L1490:  Stumvoll 
+L1491:  ,  
+L1492:  C. R. 
+L1493:  Kahn 
+L1494:  ,  
+L1495:  M. 
+L1496:  Blüher 
+L1497:  ,  Proc. Natl. Acad. Sci. U. S. A. 
+L1498:  2009 ,  106 ,  8665 . 19433800
+L1499: 51 D. 
+L1500:  Morrison 
+L1501:  ,  
+L1502:  J. 
+L1503:  Hughes 
+L1504:  ,  
+L1505:  P. A. 
+L1506:  Della Gatta 
+L1507:  ,  
+L1508:  S. 
+L1509:  Mason 
+L1510:  ,  
+L1511:  S. 
+L1512:  Lamon 
+L1513:  ,  
+L1514:  A. P. 
+L1515:  Russell 
+L1516:  ,  
+L1517:  G. D. 
+L1518:  Wadley 
+L1519:  ,  Free Radicals Biol. Med. 
+L1520:  2015 ,  89 ,  852 .
+L1521: 52 S. A. 
+L1522:  Mason 
+L1523:  ,  
+L1524:  A. J. 
+L1525:  Trewin 
+L1526:  ,  
+L1527:  L. 
+L1528:  Parker 
+L1529:  ,  
+L1530:  G. D. 
+L1531:  Wadley 
+L1532:  ,  Redox Biol. 
+L1533:  2020 ,  35 ,  101471 . 32127289
+L1534: 53 H. 
+L1535:  Tsukaguchi 
+L1536:  ,  
+L1537:  T. 
+L1538:  Tokui 
+L1539:  ,  
+L1540:  B. 
+L1541:  Mackenzie 
+L1542:  ,  
+L1543:  U. V. 
+L1544:  Berger 
+L1545:  ,  
+L1546:  X.‐Z. 
+L1547:  Chen 
+L1548:  ,  
+L1549:  Y. 
+L1550:  Wang 
+L1551:  ,  
+L1552:  R. F. 
+L1553:  Brubaker 
+L1554:  ,  
+L1555:  M. A. 
+L1556:  Hediger 
+L1557:  ,  Nature 
+L1558:  1999 ,  399 ,  70 . 10331392
+L1559: 54 R. 
+L1560:  Thaler 
+L1561:  ,  
+L1562:  F. 
+L1563:  Khani 
+L1564:  ,  
+L1565:  I. 
+L1566:  Sturmlechner 
+L1567:  ,  
+L1568:  S. S. 
+L1569:  Dehghani 
+L1570:  ,  
+L1571:  J. M. 
+L1572:  Denbeigh 
+L1573:  ,  
+L1574:  X. 
+L1575:  Zhou 
+L1576:  ,  
+L1577:  O. 
+L1578:  Pichurin 
+L1579:  ,  
+L1580:  A. 
+L1581:  Dudakovic 
+L1582:  ,  
+L1583:  S. S. 
+L1584:  Jerez 
+L1585:  ,  
+L1586:  J. 
+L1587:  Zhong 
+L1588:  ,  
+L1589:  J.‐H. 
+L1590:  Lee 
+L1591:  ,  
+L1592:  R. 
+L1593:  Natarajan 
+L1594:  ,  
+L1595:  I. 
+L1596:  Kalajzic 
+L1597:  ,  
+L1598:  Y.‐H. 
+L1599:  Jiang 
+L1600:  ,  
+L1601:  D. R. 
+L1602:  Deyle 
+L1603:  ,  
+L1604:  E. P. 
+L1605:  Paschalis 
+L1606:  ,  
+L1607:  B. M. 
+L1608:  Misof 
+L1609:  ,  
+L1610:  T. 
+L1611:  Ordog 
+L1612:  ,  
+L1613:  A. J. 
+L1614:  van Wijnen 
+L1615:  ,  Nat. Commun. 
+L1616:  2022 ,  13 ,  5883 . 36202795
+L1617: 55 L. E. 
+L1618:  Shorey‐Kendrick 
+L1619:  ,  
+L1620:  C. T. 
+L1621:  McEvoy 
+L1622:  ,  
+L1623:  B. 
+L1624:  Ferguson 
+L1625:  ,  
+L1626:  J. 
+L1627:  Burchard 
+L1628:  ,  
+L1629:  B. S. 
+L1630:  Park 
+L1631:  ,  
+L1632:  L. 
+L1633:  Gao 
+L1634:  ,  
+L1635:  B. H. 
+L1636:  Vuylsteke 
+L1637:  ,  
+L1638:  K. F. 
+L1639:  Milner 
+L1640:  ,  
+L1641:  C. D. 
+L1642:  Morris 
+L1643:  ,  
+L1644:  E. R. 
+L1645:  Spindel 
+L1646:  ,  Am J. Respir. Crit. Care Med. 
+L1647:  2017 ,  196 ,  745 . 28422514
+L1648: 56 L. E. 
+L1649:  Shorey‐Kendrick 
+L1650:  ,  
+L1651:  C. T. 
+L1652:  McEvoy 
+L1653:  ,  
+L1654:  K. 
+L1655:  Milner 
+L1656:  ,  
+L1657:  J. 
+L1658:  Harris 
+L1659:  ,  
+L1660:  J. 
+L1661:  Brownsberger 
+L1662:  ,  
+L1663:  R. S. 
+L1664:  Tepper 
+L1665:  ,  
+L1666:  B. 
+L1667:  Park 
+L1668:  ,  
+L1669:  L. 
+L1670:  Gao 
+L1671:  ,  
+L1672:  A. 
+L1673:  Vu 
+L1674:  ,  
+L1675:  C. D. 
+L1676:  Morris 
+L1677:  ,  
+L1678:  E. R. 
+L1679:  Spindel 
+L1680:  ,  Clin. Epigenet. 
+L1681:  2024 ,  16 ,  35 .
+L1682: 57 H. R. 
+L1683:  Spaulding 
+L1684:  ,  
+L1685:  Z. 
+L1686:  Yan 
+L1687:  ,  Annu. Rev. Physiol. 
+L1688:  2022 ,  84 ,  209 . 35143330
+L1689: 58 J. E. 
+L1690:  Harris 
+L1691:  ,  
+L1692:  K. M. 
+L1693:  Pinckard 
+L1694:  ,  
+L1695:  K. R. 
+L1696:  Wright 
+L1697:  ,  
+L1698:  L. A. 
+L1699:  Baer 
+L1700:  ,  
+L1701:  P. J. 
+L1702:  Arts 
+L1703:  ,  
+L1704:  E. 
+L1705:  Abay 
+L1706:  ,  
+L1707:  V. K. 
+L1708:  Shettigar 
+L1709:  ,  
+L1710:  A. C. 
+L1711:  Lehnig 
+L1712:  ,  
+L1713:  B. 
+L1714:  Robertson 
+L1715:  ,  
+L1716:  K. 
+L1717:  Madaris 
+L1718:  ,  
+L1719:  T. J. 
+L1720:  Canova 
+L1721:  ,  
+L1722:  C. 
+L1723:  Sims 
+L1724:  ,  
+L1725:  L. J. 
+L1726:  Goodyear 
+L1727:  ,  
+L1728:  A. 
+L1729:  Andres 
+L1730:  ,  
+L1731:  M. T. 
+L1732:  Ziolo 
+L1733:  ,  
+L1734:  L. 
+L1735:  Bode 
+L1736:  ,  
+L1737:  K. I. 
+L1738:  Stanford 
+L1739:  ,  Nat. Metab. 
+L1740:  2020 ,  2 ,  678 . 32694823
+L1741: 59 Y. 
+L1742:  Yang 
+L1743:  ,  
+L1744:  M. 
+L1745:  Lagisz 
+L1746:  ,  
+L1747:  Y. Z. 
+L1748:  Foo 
+L1749:  ,  
+L1750:  D. W. A. 
+L1751:  Noble 
+L1752:  ,  
+L1753:  H. 
+L1754:  Anwer 
+L1755:  ,  
+L1756:  S. 
+L1757:  Nakagawa 
+L1758:  ,  Biol. Rev. Camb. Philos. Soc. 
+L1759:  2021 ,  96 ,  1504 . 33783115
+L1760: 60 J. 
+L1761:  Bohacek 
+L1762:  ,  
+L1763:  I. M. 
+L1764:  Mansuy 
+L1765:  ,  Nat. Rev. Genet. 
+L1766:  2015 ,  16 ,  641 . 26416311
+L1767: 61 K. 
+L1768:  Skvortsova 
+L1769:  ,  
+L1770:  N. 
+L1771:  Iovino 
+L1772:  ,  
+L1773:  O. 
+L1774:  Bogdanovic 
+L1775:  ,  Nat. Rev. Mol. Cell Biol. 
+L1776:  2018 ,  19 ,  774 . 30425324
+L1777: 62 Y. 
+L1778:  Takahashi 
+L1779:  ,  
+L1780:  M. 
+L1781:  Morales Valencia 
+L1782:  ,  
+L1783:  Y. 
+L1784:  Yu 
+L1785:  ,  
+L1786:  Y. 
+L1787:  Ouchi 
+L1788:  ,  
+L1789:  K. 
+L1790:  Takahashi 
+L1791:  ,  
+L1792:  M. N. 
+L1793:  Shokhirev 
+L1794:  ,  
+L1795:  K. 
+L1796:  Lande 
+L1797:  ,  
+L1798:  A. E. 
+L1799:  Williams 
+L1800:  ,  
+L1801:  C. 
+L1802:  Fresia 
+L1803:  ,  
+L1804:  M. 
+L1805:  Kurita 
+L1806:  ,  
+L1807:  T. 
+L1808:  Hishida 
+L1809:  ,  
+L1810:  K. 
+L1811:  Shojima 
+L1812:  ,  
+L1813:  F. 
+L1814:  Hatanaka 
+L1815:  ,  
+L1816:  E. 
+L1817:  Nuñez‐Delicado 
+L1818:  ,  
+L1819:  C. R. 
+L1820:  Esteban 
+L1821:  ,  
+L1822:  J. C. 
+L1823:  Izpisua Belmonte 
+L1824:  ,  Cell 
+L1825:  2023 ,  186 ,  715 . 36754048
+L1826: 63 Y. 
+L1827:  Liu 
+L1828:  ,  
+L1829:  P. T. 
+L1830:  Nguyen 
+L1831:  ,  
+L1832:  X. 
+L1833:  Wang 
+L1834:  ,  
+L1835:  Y. 
+L1836:  Zhao 
+L1837:  ,  
+L1838:  C. E. 
+L1839:  Meacham 
+L1840:  ,  
+L1841:  Z. 
+L1842:  Zou 
+L1843:  ,  
+L1844:  B. 
+L1845:  Bordieanu 
+L1846:  ,  
+L1847:  M. 
+L1848:  Johanns 
+L1849:  ,  
+L1850:  D. 
+L1851:  Vertommen 
+L1852:  ,  
+L1853:  T. 
+L1854:  Wijshake 
+L1855:  ,  
+L1856:  H. 
+L1857:  May 
+L1858:  ,  
+L1859:  G. 
+L1860:  Xiao 
+L1861:  ,  
+L1862:  S. 
+L1863:  Shoji‐Kawata 
+L1864:  ,  
+L1865:  M. H. 
+L1866:  Rider 
+L1867:  ,  
+L1868:  S. J. 
+L1869:  Morrison 
+L1870:  ,  
+L1871:  P. 
+L1872:  Mishra 
+L1873:  ,  
+L1874:  B. 
+L1875:  Levine 
+L1876:  ,  Nature 
+L1877:  2020 ,  578 ,  605 . 32051584
+L1878: 64 M.i‐Y. 
+L1879:  Song 
+L1880:  ,  
+L1881:  C. Y. 
+L1882:  Han 
+L1883:  ,  
+L1884:  Y. J. 
+L1885:  Moon 
+L1886:  ,  
+L1887:  J. H. 
+L1888:  Lee 
+L1889:  ,  
+L1890:  E. J.u 
+L1891:  Bae 
+L1892:  ,  
+L1893:  B.‐H. 
+L1894:  Park 
+L1895:  ,  Nat. Commun. 
+L1896:  2022 ,  13 ,  1808 . 35379817
+L1897: 65 M. 
+L1898:  Sinha 
+L1899:  ,  
+L1900:  Y. C. 
+L1901:  Jang 
+L1902:  ,  
+L1903:  J. 
+L1904:  Oh 
+L1905:  ,  
+L1906:  D. 
+L1907:  Khong 
+L1908:  ,  
+L1909:  E. Y. 
+L1910:  Wu 
+L1911:  ,  
+L1912:  R. 
+L1913:  Manohar 
+L1914:  ,  
+L1915:  C. 
+L1916:  Miller 
+L1917:  ,  
+L1918:  S. G. 
+L1919:  Regalado 
+L1920:  ,  
+L1921:  F. S. 
+L1922:  Loffredo 
+L1923:  ,  
+L1924:  J. R. 
+L1925:  Pancoast 
+L1926:  ,  
+L1927:  M. F. 
+L1928:  Hirshman 
+L1929:  ,  
+L1930:  J. 
+L1931:  Lebowitz 
+L1932:  ,  
+L1933:  J. L. 
+L1934:  Shadrach 
+L1935:  ,  
+L1936:  M. 
+L1937:  Cerletti 
+L1938:  ,  
+L1939:  M.i‐J. 
+L1940:  Kim 
+L1941:  ,  
+L1942:  T. 
+L1943:  Serwold 
+L1944:  ,  
+L1945:  L. J. 
+L1946:  Goodyear 
+L1947:  ,  
+L1948:  B. 
+L1949:  Rosner 
+L1950:  ,  
+L1951:  R. T. 
+L1952:  Lee 
+L1953:  ,  
+L1954:  A. J. 
+L1955:  Wagers 
+L1956:  ,  Science 
+L1957:  2014 ,  344 ,  649 . 24797481
+L1958: 66 C. 
+L1959:  Wu 
+L1960:  ,  
+L1961:  L. 
+L1962:  Yang 
+L1963:  ,  
+L1964:  Y. 
+L1965:  Li 
+L1966:  ,  
+L1967:  Y. 
+L1968:  Dong 
+L1969:  ,  
+L1970:  B. 
+L1971:  Yang 
+L1972:  ,  
+L1973:  L. D. 
+L1974:  Tucker 
+L1975:  ,  
+L1976:  X. 
+L1977:  Zong 
+L1978:  ,  
+L1979:  Q. 
+L1980:  Zhang 
+L1981:  ,  Med. Sci. Sports Exercise 
+L1982:  2020 ,  52 ,  1456 .
+L1983: 67 H. 
+L1984:  Shi 
+L1985:  ,  
+L1986:  F. 
+L1987:  Li 
+L1988:  ,  
+L1989:  F. 
+L1990:  Zhang 
+L1991:  ,  
+L1992:  X. 
+L1993:  Wei 
+L1994:  ,  
+L1995:  C. 
+L1996:  Liu 
+L1997:  ,  
+L1998:  R. 
+L1999:  Duan 
+L2000:  ,  J. Neuroeng. Rehabil. 
+L2001:  2023 ,  20 ,  84 . 37386493
+L2002: 68 X. 
+L2003:  Fu 
+L2004:  ,  
+L2005:  M. J. 
+L2006:  Zhu 
+L2007:  ,  
+L2008:  M. V. 
+L2009:  Dodson 
+L2010:  ,  
+L2011:  M. 
+L2012:  Du 
+L2013:  ,  J. Biol. Chem. 
+L2014:  2015 ,  290 ,  26445 . 26370082
+L2015: Acknowledgements
+L2016: The authors thank Dr. Chongyun Wu and Dr. Xiaocao Liu from their laboratory for their helpful advice and the technique support. This study was funded by the National Natural Science Foundation of China (31971096) and the Guangzhou Scientific Research Grant (SL2022B04J00013) to R.D.
+L2017: # Summary: ADVS-12-2408912-s001.xlsx
+L2018: - **Sheets**: 1
+L2019: - **Total tables**: 1
+L2020: ## Sheet: Sheet1
+L2021: - Tables found: 1
+L2022: ### Table 1: Table_1
+L2023: - **Rows**: 38
+L2024: - **Columns**: 6
+L2025: | Column | Dtype | Non-null | Sample values |
+L2026: |--------|-------|----------|---------------|
+L2027: | Gene | str | 19 | Myh7, Mth2, Myh4 |
+L2028: | For mice | str | 38 | Forward, Reverse, Forward |
+L2029: | col_2 | str | 38 | TGTGCCCGATGACAAAGAAGA, CCATTCTCCGTCTCAGCAGT, GGAGGCTGAGGA... |
+L2030: | Gene | str | 16 | MYH7, MYH2, MYH4 |
+L2031: | For human | str | 32 | Forward, Reverse, Forward |
+L2032: | col_6 | str | 32 | AGACACACTTGAGTAGCCCAG, TTGTCGAACTTGGGTGGGTT , CCAAGGTAAGT... |
+L2033: # ADVS-12-2408912-s002
+L2034: Supplementary Materials for
+L2035: Vitamin C-Dependent Intergenerational Inheritance of Enhanced Endurance Performance Following Maternal Exercise
+L2036: Haiwang Shi et al.
+L2037: *Corresponding author. Email: duanrui@m.scnu.edu.cn
+L2038: This PDF file includes:
+L2039: Supplementary Materials: Figures. S1 to S15
+L2040: Extended descriptions of results.
+L2041: Fig. S1
+L2042: a-c. Exercise performance test after four weeks of treadmill exercise training. Running time (a), distance (b), and population plotted against running speed to exhaustion (c) in female mice (n=20). d. Forelimb maximum grip strengths of F1 generation mice were measured 5 times successively and normalized against body mass (Male: F1 Con n=16, F1 Ex n=13. Female: F1 Con n=16, F1 Ex n=16). e. The distance of free wheel running in F1 mice within one week (n=10). f-h. Treadmill endurance performance of F1 generation mice at 12 months. Running time (f), distance (g), and population plotted against running speed to exhaustion (h) in F1 at 12 months (Male: F1 Con n=10, F1 Ex n=6. Female: F1 Con n=6, F1 Ex n=10). i. Forelimb maximum grip strengths of F1 at 12 months. j-l. An illustrative example of the travel pathway of mice in open field testing, with a red dot representing the start point and blue representing the stop point (j), moving distance (k) and movement speed (l) (n=7). m, n. Forelimb maximum grip strengths of F2 (m) and F3 (n) at weaning. Statistical analyses were performed using t-test (a, b, d, f, g, i, k-n), two-way ANOVA with Tukey’s post hoc analysis (e) and Log-rank test (c, h). Data presented as mean ± SEM.
+L2043: Fig. S2
+L2044: Kunming mice were randomly divided into a control group (KM-Con) and an exercise group (KM-Ex). The KM-Ex group underwent 4 weeks of treadmill exercise, while the KM-Con group remained sedentary. After this period, both groups mated with age-matched, non-trained wild-type (WT) mice to generate F1 and F2 offspring. a-c. Results of exercise performance test in F1 Kunming offspring. Running time (a), distance (b), and the population plotted against running speed to exhaustion (c) in F1 generation mice. d. Forelimb maximum grip strengths of F1 generation mice were measured 5 times successively and normalized against body mass (n=12 per group for panels a-d). e-g. Results of exercise performance test in F2 Kunming offspring. Running time (e), distance (f), and population plotted against running speed to exhaustion (g) in F2 generation mice (Male: F2 Con n=18, F2 Ex n=14. Female: F2 Con n=18, F2 Ex n=20 for panels e-h). h. Forelimb maximum grip strengths of F2 generation mice were measured 5 times successively and normalized against body mass. Statistical analyses were performed using t-test (a, b, d, e, f, h) and Log-rank test (c, g). Data presented as mean ± SEM.
+L2045: Fig. S3
+L2046: a. The gene expression of MyHc isoforms in skeletal muscle of the F1 generation at weaning (n=6). b. c. Representative H&E staining (b, the scale bar represents 100 μm) and the statistical analysis of average cross-section area (c) (n=6). d. Distribution of muscle fiber sizes in F1 generation skeletal muscle (n=6). e. Mitochondrial DNA (mtDNA, Ndl) was quantified by qPCR using nuclear DNA (gDNA, Lpl) as a standard (n=3). f, g. Effects of maternal exercise on inguinal fat index (f, n=6) and body weight (g, Male: F1 Con n=21, F1 Ex n=24. Female: F1 Con n=24, F1 Ex n=25;) in offspring mice. h. Effects of maternal exercise on weight gain during development in F1 offspring mice (Before weaning, Male: F1 Con n=19, F1 Ex n=16. Female: F1 Con n=18, F1 Ex n=19; After weaning, Male: F1 Con n=16, F1 Ex n=13. Female: F1 Con n=15, F1 Ex n=16). i, j. The skeletal muscle weight of F1 generation mice was normalized to body weight both at weaning (k, n=6) and at 12 months of age (l, n=10). Statistical analyses were performed using t-test (a, c, e, f, g, i, j) and two-way ANOVA with Tukey’s post hoc analysis (d, h). Data presented as mean ± SEM.
+L2047: Fig. S4
+L2048: a. Representative immunofluorescence staining images of the mitochondrial membrane protein marker TOM20 with specific MyHC isoforms in the tibial anterior muscle of F1 generation at weaning, the scale bar represents 100 μm (n=3). b. Quantitative analysis of Tom20 positive fiber percentage in different fiber types of offspring muscle (n=3). Statistical analyses were performed using two-way ANOVA with Tukey’s post hoc analysis (b). Data presented as mean ± SEM.
+L2049: Fig. S5
+L2050: a. Representative images of Western blot analysis of PGC-1α in gastrocnemius muscles of F2 generation (n=3). b-f. Analysis of genes related to mitochondrial biogenesis and mitochondrial copy number in F2 generation at weaning (n=3). g, h. Representative succinate dehydrogenase (SDH) staining (g) and quantification (h) of SDH-positive fibers in F2 generation (n=3). The scale bar represents 100 μm. i, j. The average cross-sectional area (i) and distribution of muscle fiber sizes (j) in F2 generation skeletal muscle (n=6). Statistical analyses were performed using t-test (a-f and h, i) and two-way ANOVA with Tukey’s post hoc analysis (j). Data presented as mean ± SEM.
+L2051: Fig. S6
+L2052: a, b. The distribution of differential methylation sites in different gene elements, F1 Con vs. F1 Ex (a), and F1 Con vs. F2 Ex (b) (n=3). c, d. The expression of Gulo in liver of F1 (e) and F2 (f) generation mice at weaning (n=3). e. Pearson correlation coefficient between VC concentration and PGC-1α protein expression in skeletal muscle of F1 and F2 generations in the M-Con group (black) and M-Ex group (purple) at weaning (n=24). Statistical analyses were performed using t-test (c, d). Data presented as mean ± SEM.
+L2053: Fig. S7
+L2054: a. The expression of Slc23a1/2 in placenta at e18.5 after maternal exercise (n=4). b. The expression of Slc23a1/2 in placenta at e18.5 following maternal exogenous VC supplementation during pregnancy (n=3). c. The expression of Gulo in dam’s liver following maternal exogenous VC supplementation during pregnancy (n=5). d. Forelimb maximum grip strengths of F1 generation mice were measured 5 times successively and normalized against body mass (Male: F1 Con n=10, F1 Vita C n=9, F1 Ex n=11. Female: F1 Con n=8, F1 Vita C n=9, F1 Ex n=9). e, f. Representative images of Western blot analysis of PGC-1α in skeletal muscles of F1 generation (n=4). g. Heatmap visualizing expression of genes related to mitochondrial biogenesis in F1 generation at weaning (n=4). h, i. Representative succinate dehydrogenase (SDH) staining (h) and quantification (i) of SDH-positive fibers (n=4). The scale bar represents 100 μm. j. Mitochondrial DNA (mtDNA, Ndl) was quantified by qPCR using nuclear DNA (gDNA, Lpl) as a standard (n=4). Statistical analyses were performed using t-test (a) and one-way ANOVA with Bonferroni’s post hoc analysis (b-d, f, g and i, j). Data presented as mean ± SEM.
+L2055: Fig. S8
+L2056: a-c. The effect of maternal exogenous VC supplementation before and during pregnancy on the endurance performance of F2 mice. Running time (a), distance (b), and population plotted against running speed to exhaustion (c) (Male: F2 Con n=11, F2 Vita C n=15, F2 Ex n=8. Female: F2 Con n=17, F2 Vita C n=14, F2 Ex n=19). d-f. The effect of maternal exogenous VC supplementation before and during pregnancy on the endurance performance of F3 generation. Running time (d), distance (e), and population plotted against running speed to exhaustion (f) (Male: F3 Con n=14, F3 Vita C n=10, F3 Ex n=14. Female: F3 Con n=14, F3 Vita C n=13, F3 Ex n=10). g, h. Forelimb maximum grip strengths of F2 (g) and F3 (h) generation mice were measured 5 times successively and normalized against body mass. Statistical analyses were performed using one-way ANOVA with Bonferroni’s post hoc analysis (a, b, d, e, g) and the Log-rank test (c, f). Data presented as mean ± SEM
+L2057: Fig. S9
+L2058: The effect of 4 weeks treadmill exercise on the endurance performance of Gulo-/- mice. Running time (a), distance (b), forelimb maximum grip strengths (c) and population plotted against running speed to exhaustion (d) (Male: pre-training n=8, after-training n=8. Female: pre-training n=8, after-training n=8). Statistical analyses were performed using t-test (a-c) and the Log-rank test (d). Data presented as mean ± SEM.
+L2059: Fig. S10
+L2060: a. Forelimb maximum grip strengths of offspring from Gulo-/- mice were measured 5 times successively and normalized against body mass (Male: Wild type n=11, Gulo-/- Con n=10, Gulo-/- Ex n=14. Female: Wild type n=14, Gulo-/- Con n=10, Gulo-/- Ex n=10). b, c. Representative images of Western blot analysis of PGC-1α in skeletal muscle of offspring at weaning after maternal exercise in Gulo-/- mice (n=3). d. Analysis of genes related to mitochondrial biogenesis in offspring at weaning after maternal exercise in Gulo-/- mice (n=3). Statistical analyses were performed using one-way ANOVA with Bonferroni’s post hoc analysis (a-d). Data presented as mean ± SEM.
+L2061: Fig. S11
+L2062: a. The change curve of plasma VC content during the VC withdrawal period after 4 weeks of exogenous VC supplementation (n=3). b. The curve of daily water intake in mice (n=5). Statistical analyses were performed using two-way ANOVA with Tukey’s post hoc analysis (a, b). Data presented as mean ± SEM.
+L2063: Fig. S12
+L2064: a. A schematic diagram of the experiment. The wild-type mice were supplemented exogenously with VC by drinking water for 9-12 weeks age. b. Plasma vitamin C concentrations in mice supplemented with VC at 9-12 weeks of age (n=4). c-e. Exercise capacity testing of exogenous VC supplementation before or after weaning. Running time (l), distance (m), and population plotted against running speed to exhaustion (n) (Male: Matched control n=12, adult supplement n=7. Female: Matched control n=13, adult supplement n=14). f-h. Representative images of Western blot analysis of SVCT2 (g) and PGC-1α (h) in skeletal muscle of mice supplemented with VC at 9-12 weeks of age (n=4). i. Skeletal muscle VC concentrations in mice supplemented with VC at 9-12 weeks of age (n=4). Statistical analyses were performed using t-test (b, c, d, g, h, i) and the Log-rank test (e). Data presented as mean ± SEM.
+L2065: Fig. S13
+L2066: a. Schematic showing exogenous Cyanidin, Quercetin and Ferulic acid supplementation during murine myogenic cell proliferation respectively, and cell samples were collected during both the proliferation stage and the differentiation stage. b, c. The effects of antioxidant treatment on the gene expression associated with mitochondrial biogenesis in murine myogenic cell at the proliferative stage (b) and the differentiated (c) stage respectively (n=3). d. The effects of antioxidant treatment on the gene expression of different MyHc isoforms in murine myogenic cells (n=3). e. The effects of antioxidant treatment on the gene expression of Tet2 in murine myogenic cells. Statistical analyses were performed using one-way ANOVA with Bonferroni’s post hoc analysis (b-e). Data presented as mean ± SEM.
+L2067: Fig. S14
+L2068: a, g. Effect of exogenous VC treatment on Slc23a2/SLC23A2 expression in murine (a) and human (g) myogenous cells at the late stage of differentiation (n=3). b, h. Effect of exogenous VC treatment on Slc23a1/SLC23A1 expression in murine (b) and human (h) myogenous cells during myogenic cell proliferation, early and late differentiation (n=3). c, d and i, j. Genes expression of Tet1/TET1 (c, i) and Tet3/TET3 (d, j) were detected in murine (c, d) and human (i, j) myogenic cells supplemented with VC during proliferation, early differentiation and late differentiation (n=3). e, k. Effect of exogenous VC treatment on Dnmts/DNMTs expression in murine (e) and human (k) myogenous cells during myogenic cell proliferation, early and late differentiation (n=3). f, l. Genes expression of Tet2/TET2 in murine (f) and human (l) myogenic cells at the late stage of differentiation (n=3). Statistical analyses were performed using t-test (a-l). Data presented as mean ± SEM.
+L2069: Fig. S15
+L2070: a, b. Expression of Idh1/2 in fetal skeletal muscle at e18.5 after maternal exercise (a) (n=3) or exogenous VC supplementation (b) (n=4) during pregnancy. c-e. Representative images of Western blot analysis of TET2 (d) and SVCT2 (e) in fetal skeletal muscle of MC, PS and MS dams (n=4). f. The gene expression of TET2 after siRNA transfection of human myogenic cells (n=3). g-i. Representative images of Western blot analysis of TET2 (h) and SVCT2 (i) after siRNA transfection of human myogenic cells (n=4). j. The gene expression of related to mitochondrial biogenesis after siRNA transfection of human myogenic cells (n=3). Statistical analyses were performed using t-test (a) and one-way ANOVA with Bonferroni’s post hoc analysis (b-j). Data presented as mean ± SEM.
+L2071: # Summary: ADVS-12-2408912-s003.xlsx
+L2072: - **Sheets**: 5
+L2073: - **Total tables**: 5
+L2074: ## Sheet: C57BL6J-maternal exercise
+L2075: - Tables found: 1
+L2076: ### Table 1: Dam’s (pre-mating)
+L2077: - **Rows**: 20
+L2078: - **Columns**: 18
+L2079: | Column | Dtype | Non-null | Sample values |
+L2080: |--------|-------|----------|---------------|
+L2081: | 35 | float64 | 19 | 38.0, 38.0, 38.0 |
+L2082: | 41 | float64 | 19 | 41.0, 44.0, 44.0 |
+L2083: | F1 Con | float64 | 16 | 22.0, 22.0, 25.0 |
+L2084: | F1 Ex | float64 | 13 | 25.0, 28.0, 31.0 |
+L2085: | F1 Con | float64 | 16 | 25.0, 25.0, 25.0 |
+L2086: | F1 Ex | float64 | 16 | 28.0, 28.0, 28.0 |
+L2087: | F1 Con | float64 | 10 | 16.0, 16.0, 16.0 |
+L2088: | F1 Ex | float64 | 6 | 22.0, 22.0, 25.0 |
+L2089: | F1 Con | float64 | 6 | 22.0, 22.0, 25.0 |
+L2090: | F1 Ex | float64 | 12 | 25.0, 25.0, 28.0 |
+L2091: | F1 Con | int64 | 20 | 19, 19, 19 |
+L2092: | F1 Ex | float64 | 14 | 19.0, 19.0, 22.0 |
+L2093: | F1 Con | int64 | 20 | 22, 22, 25 |
+L2094: | F1 Ex | float64 | 19 | 22.0, 22.0, 25.0 |
+L2095: | F1 Con | float64 | 17 | 19.0, 22.0, 22.0 |
+L2096: | F1 Ex | float64 | 10 | 22.0, 25.0, 25.0 |
+L2097: | F1 Con | float64 | 10 | 22.0, 25.0, 25.0 |
+L2098: | F1 Ex | float64 | 8 | 22.0, 25.0, 30.0 |
+L2099: ## Sheet: Kunming mice-maternal exercise
+L2100: - Tables found: 1
+L2101: ### Table 1: F1 generation (at weaing)
+L2102: - **Rows**: 20
+L2103: - **Columns**: 8
+L2104: | Column | Dtype | Non-null | Sample values |
+L2105: |--------|-------|----------|---------------|
+L2106: | KM-Con | float64 | 12 | 22.0, 22.0, 22.0 |
+L2107: | KM-Ex | float64 | 12 | 28.0, 31.0, 31.0 |
+L2108: | KM-Con | float64 | 12 | 22.0, 22.0, 30.0 |
+L2109: | KM-Ex | float64 | 12 | 25.0, 25.0, 29.0 |
+L2110: | F2 KM-Con | float64 | 18 | 22.0, 22.0, 25.0 |
+L2111: | F2 KM-Ex | float64 | 14 | 28.0, 29.0, 29.0 |
+L2112: | F2 KM-Con | float64 | 18 | 22.0, 22.0, 22.0 |
+L2113: | F2 KM-Ex | int64 | 20 | 25, 25, 25 |
+L2114: ## Sheet: C57BL6J-maternal VC Sup
+L2115: - Tables found: 1
+L2116: ### Table 1: F1 generation (at weaing)
+L2117: - **Rows**: 23
+L2118: - **Columns**: 18
+L2119: | Column | Dtype | Non-null | Sample values |
+L2120: |--------|-------|----------|---------------|
+L2121: | F1 Con | float64 | 10 | 22.0, 25.0, 29.0 |
+L2122: | F1 Vita C | float64 | 9 | 22.0, 35.0, 36.0 |
+L2123: | F1 Ex | float64 | 11 | 22.0, 28.0, 30.0 |
+L2124: | F1 Con | float64 | 8 | 22.0, 25.0, 30.0 |
+L2125: | F1 Vita C | float64 | 9 | 22.0, 28.0, 32.0 |
+L2126: | F1 Ex | float64 | 9 | 25.0, 31.0, 31.0 |
+L2127: | F1 Con | float64 | 11 | 22.0, 22.0, 22.0 |
+L2128: | F1 Vita C | float64 | 14 | 19.0, 19.0, 22.0 |
+L2129: | F1 Ex | float64 | 8 | 25.0, 25.0, 25.0 |
+L2130: | F1 Con | int64 | 23 | 19, 19, 19 |
+L2131: | F1 Vita C | float64 | 15 | 22.0, 22.0, 22.0 |
+L2132: | F1 Ex | float64 | 19 | 19.0, 22.0, 22.0 |
+L2133: | F1 Con | float64 | 14 | 19.0, 22.0, 22.0 |
+L2134: | F1 Vita C | float64 | 10 | 19.0, 19.0, 22.0 |
+L2135: | F1 Ex | float64 | 14 | 16.0, 25.0, 25.0 |
+L2136: | F1 Con | float64 | 14 | 22.0, 22.0, 25.0 |
+L2137: | F1 Vita C | float64 | 13 | 25.0, 25.0, 28.0 |
+L2138: | F1 Ex | float64 | 10 | 30.0, 30.0, 31.0 |
+L2139: ## Sheet: Gulo knockout mice
+L2140: - Tables found: 1
+L2141: ### Table 1: F1 generation (at weaing)
+L2142: - **Rows**: 14
+L2143: - **Columns**: 10
+L2144: | Column | Dtype | Non-null | Sample values |
+L2145: |--------|-------|----------|---------------|
+L2146: | Pre-training | float64 | 8 | 19.0, 22.0, 25.0 |
+L2147: | After-training | float64 | 8 | 30.0, 30.0, 30.0 |
+L2148: | Pre-training | float64 | 8 | 28.0, 30.0, 30.0 |
+L2149: | After-training | float64 | 8 | 30.0, 34.0, 35.0 |
+L2150: | Wild type | float64 | 13 | 28.0, 29.0, 31.0 |
+L2151: | Gulo-/-Con | float64 | 11 | 22.0, 22.0, 29.0 |
+L2152: | Gulo-/-Ex | float64 | 12 | 22.0, 28.0, 32.0 |
+L2153: | Wild type | float64 | 11 | 29.0, 30.0, 31.0 |
+L2154: | Gulo-/-Con | float64 | 10 | 25.0, 22.0, 25.0 |
+L2155: | Gulo-/-Ex | int64 | 14 | 22, 22, 22 |
+L2156: ## Sheet: C57BL6J-VC Sup at diff perid
+L2157: - Tables found: 1
+L2158: ### Table 1: F1 generation (at weaning)
+L2159: - **Rows**: 14
+L2160: - **Columns**: 16
+L2161: | Column | Dtype | Non-null | Sample values |
+L2162: |--------|-------|----------|---------------|
+L2163: | MC | float64 | 7 | 24.0, 28.0, 28.0 |
+L2164: | PS | float64 | 12 | 19.0, 25.0, 25.0 |
+L2165: | MS | float64 | 12 | 24.0, 24.0, 28.0 |
+L2166: | MC | float64 | 7 | 28.0, 29.0, 30.0 |
+L2167: | PS | float64 | 12 | 22.0, 25.0, 31.0 |
+L2168: | MS | float64 | 12 | 25.0, 25.0, 25.0 |
+L2169: | Matched control | float64 | 11 | 16.0, 19.0, 19.0 |
+L2170: | Pre-weaning | float64 | 8 | 19.0, 19.0, 19.0 |
+L2171: | Post-weaning | float64 | 8 | 19.0, 19.0, 19.0 |
+L2172: | Matched control | float64 | 13 | 22.0, 25.0, 25.0 |
+L2173: | Pre-weaning | float64 | 10 | 25.0, 29.0, 31.0 |
+L2174: | Post-weaning | float64 | 11 | 22.0, 29.0, 34.0 |
+L2175: | Matched control | float64 | 12 | 16.0, 16.0, 16.0 |
+L2176: | Adult supplement | float64 | 7 | 19.0, 19.0, 19.0 |
+L2177: | Matched control | float64 | 13 | 19.0, 19.0, 25.0 |
+L2178: | Adult supplement | int64 | 14 | 19, 19, 22 |
+L2179: # Summary: ADVS-12-2408912-s004.xlsx
+L2180: - **Sheets**: 1
+L2181: - **Total tables**: 1
+L2182: ## Sheet: Sheet1
+L2183: - Tables found: 1
+L2184: ### Table 1: Table_1
+L2185: - **Rows**: 53712
+L2186: - **Columns**: 19
+L2187: | Column | Dtype | Non-null | Sample values |
+L2188: |--------|-------|----------|---------------|
+L2189: | chr | str | 53712 | chr1, chr1, chr1 |
+L2190: | pos | int64 | 53712 | 3508673, 3508805, 3534405 |
+L2191: | male of F2 Ex | float64 | 53712 | 0.745026764486109, 0.512652744565364, 0.587367957755059 |
+L2192: | male of F1 Con | float64 | 53712 | 0.849068099822845, 0.735485017532771, 0.737673981985064 |
+L2193: | diff | float64 | 53712 | -0.104041335336736, -0.222832272967406, -0.150306024230005 |
+L2194: | diff.se | float64 | 53712 | 0.045682430310683, 0.0818806015880805, 0.0514052341970147 |
+L2195: | stat | float64 | 53712 | -2.27749125055646, -2.72142935744923, -2.92394396364279 |
+L2196: | phi1 | float64 | 53712 | 0.0105657467414524, 0.0239347392696024, 0.0111825750635314 |
+L2197: | phi2 | float64 | 53712 | 0.00940179033340673, 0.0106219443995323, 0.00674152043357192 |
+L2198: | pval | float64 | 53712 | 0.0227569065202102, 0.00650002761121526, 0.00345626960345502 |
+L2199: | fdr | float64 | 53712 | 0.999998632447612, 0.999998632447612, 0.999998632447612 |
+L2200: | Annotation | str | 53712 | intron (ENSMUST00000161581, intron 1 of 1), intron (ENSMU... |
+L2201: | Dist.to.TSS | int64 | 53712 | 42087, 42219, 67819 |
+L2202: | Nearest.PromoterID | str | 53712 | ENSMUST00000161581, ENSMUST00000161581, ENSMUST00000161581 |
+L2203: | Nearest.CGI | str | 53712 | chr1-3531624-3531843-CpG:_27-CGI, chr1-3531624-3531843-Cp... |
+L2204: | Dist.to.CGI | int64 | 53712 | 22951, 22819, -2563 |
+L2205: | gene_id | str | 38041 | ENSMUSG00000089699, ENSMUSG00000089699, ENSMUSG00000051951 |
+L2206: | gene_name | object | 26792 | Gm1992, Gm1992, Xkr4 |
+L2207: | description | str | 26785 | predicted gene 1992 [Source:MGI Symbol;Acc:MGI:3780162], ... |
+L2208: # Summary: ADVS-12-2408912-s005.xlsx
+L2209: - **Sheets**: 1
+L2210: - **Total tables**: 1
+L2211: ## Sheet: Sheet1
+L2212: - Tables found: 1
+L2213: ### Table 1: Table_1
+L2214: - **Rows**: 43641
+L2215: - **Columns**: 19
+L2216: | Column | Dtype | Non-null | Sample values |
+L2217: |--------|-------|----------|---------------|
+L2218: | chr | str | 43641 | chr1, chr1, chr1 |
+L2219: | pos | int64 | 43641 | 3145713, 3288323, 3339508 |
+L2220: | male of F1 Ex | float64 | 43641 | 0.765882150239832, 0.667547033656967, 0.761179047475725 |
+L2221: | male of F1 Con | float64 | 43641 | 0.614363838652095, 0.499614913644759, 0.910271671711388 |
+L2222: | diff | float64 | 43641 | 0.151518311587737, 0.167932120012208, -0.149092624235662 |
+L2223: | diff.se | float64 | 43641 | 0.0712366641744325, 0.079327987001127, 0.0675095510289024 |
+L2224: | stat | float64 | 43641 | 2.12697089825437, 2.11693409048463, -2.20846712744146 |
+L2225: | phi1 | float64 | 43641 | 0.0215947941610547, 0.0124164287324343, 0.0155507796988747 |
+L2226: | phi2 | float64 | 43641 | 0.0101901053575503, 0.0188444970887974, 0.0209944139330369 |
+L2227: | pval | float64 | 43641 | 0.0334225012718896, 0.0342654419172177, 0.0272117268850691 |
+L2228: | fdr | float64 | 43641 | 0.999999957611786, 0.999999957611786, 0.999999957611786 |
+L2229: | Annotation | str | 43641 | Intergenic, intron (ENSMUST00000070533, intron 2 of 2), i... |
+L2230: | Dist.to.TSS | int64 | 43641 | 43698, -71980, -123165 |
+L2231: | Nearest.PromoterID | str | 43641 | ENSMUST00000082908, ENSMUST00000162897, ENSMUST00000162897 |
+L2232: | Nearest.CGI | str | 43641 | chr1-3531624-3531843-CpG:_27-CGI, chr1-3531624-3531843-Cp... |
+L2233: | Dist.to.CGI | int64 | 43641 | 385911, 243301, 192116 |
+L2234: | gene_id | str | 30359 | ENSMUSG00000051951, ENSMUSG00000051951, ENSMUSG00000098104 |
+L2235: | gene_name | object | 21661 | Xkr4, Xkr4, Gm6085 |
+L2236: | description | str | 21657 | X Kell blood group precursor related family member 4 [Sou... |
+L2237: # Summary: ADVS-12-2408912-s006.xlsx
+L2238: - **Sheets**: 1
+L2239: - **Total tables**: 1
+L2240: ## Sheet: Sheet1
+L2241: - Tables found: 1
+L2242: ### Table 1: Table_1
+L2243: - **Rows**: 56858
+L2244: - **Columns**: 19
+L2245: | Column | Dtype | Non-null | Sample values |
+L2246: |--------|-------|----------|---------------|
+L2247: | chr | str | 56858 | chr1, chr1, chr1 |
+L2248: | pos | int64 | 56858 | 3534405, 4490397, 4522942 |
+L2249: | male of F2 Ex | float64 | 56858 | 0.587367957755059, 0.325525244713388, 0.838919016786561 |
+L2250: | male of F1 Ex | float64 | 56858 | 0.710390927416651, 0.446865078483101, 0.940757643256127 |
+L2251: | diff | float64 | 56858 | -0.123022969661592, -0.121339833769712, -0.101838626469566 |
+L2252: | diff.se | float64 | 56858 | 0.055577964718841, 0.0547002056551592, 0.0472206777942699 |
+L2253: | stat | float64 | 56858 | -2.21352059730764, -2.21827015669122, -2.1566532126721 |
+L2254: | phi1 | float64 | 56858 | 0.0111825750635314, 0.00779895591211001, 0.01222041503107 |
+L2255: | phi2 | float64 | 56858 | 0.00974209654422604, 0.0120245799535612, 0.0123850234050697 |
+L2256: | pval | float64 | 56858 | 0.0268617748005406, 0.0265364177185101, 0.0310326950522202 |
+L2257: | fdr | float64 | 56858 | 0.999999619440942, 0.999999619440942, 0.999999619440942 |
+L2258: | Annotation | str | 56858 | intron (ENSMUST00000070533, intron 1 of 2), TTS (ENSMUST0... |
+L2259: | Dist.to.TSS | int64 | 56858 | 67819, 5965, -6074 |
+L2260: | Nearest.PromoterID | str | 56858 | ENSMUST00000161581, ENSMUST00000116652, ENSMUST00000180019 |
+L2261: | Nearest.CGI | str | 56858 | chr1-3531624-3531843-CpG:_27-CGI, chr1-4491701-4493673-Cp... |
+L2262: | Dist.to.CGI | int64 | 56858 | -2563, 1304, -25335 |
+L2263: | gene_id | str | 39959 | ENSMUSG00000051951, ENSMUSG00000025902, ENSMUSG00000098104 |
+L2264: | gene_name | object | 28159 | Xkr4, Sox17, Gm6085 |
+L2265: | description | str | 28154 | X Kell blood group precursor related family member 4 [Sou... |
+L2266: # Summary: ADVS-12-2408912-s007.xlsx
+L2267: - **Sheets**: 1
+L2268: - **Total tables**: 1
+L2269: ## Sheet: Sheet1
+L2270: - Tables found: 1
+L2271: ### Table 1: Table_1
+L2272: - **Rows**: 39910
+L2273: - **Columns**: 19
+L2274: | Column | Dtype | Non-null | Sample values |
+L2275: |--------|-------|----------|---------------|
+L2276: | chr | str | 39910 | chr1, chr1, chr1 |
+L2277: | pos | int64 | 39910 | 3247474, 3288323, 3611266 |
+L2278: | female of F2 Ex | float64 | 39910 | 0.340740875972921, 0.680112449032884, 0.722589345639445 |
+L2279: | female of F1 Con | float64 | 39910 | 0.557334774887295, 0.504892252325345, 0.605649166148222 |
+L2280: | diff | float64 | 39910 | -0.216593898914374, 0.17522019670754, 0.116940179491222 |
+L2281: | diff.se | float64 | 39910 | 0.0926946082369635, 0.0892529661121167, 0.0586658454518659 |
+L2282: | stat | float64 | 39910 | -2.33663967121665, 1.96318625968614, 1.99332641659736 |
+L2283: | phi1 | float64 | 39910 | 0.0139359291953722, 0.0135559730704008, 0.00882508165087747 |
+L2284: | phi2 | float64 | 39910 | 0.0249413889588991, 0.0174408582252373, 0.0143346574991011 |
+L2285: | pval | float64 | 39910 | 0.0194579278641076, 0.0496245353387172, 0.0462257155579673 |
+L2286: | fdr | float64 | 39910 | 0.999999895271952, 0.999999895271952, 0.999999895271952 |
+L2287: | Annotation | str | 39910 | intron (ENSMUST00000070533, intron 2 of 2), intron (ENSMU... |
+L2288: | Dist.to.TSS | int64 | 39910 | -31131, -71980, 60231 |
+L2289: | Nearest.PromoterID | str | 39910 | ENSMUST00000162897, ENSMUST00000162897, ENSMUST00000070533 |
+L2290: | Nearest.CGI | str | 39910 | chr1-3531624-3531843-CpG:_27-CGI, chr1-3531624-3531843-Cp... |
+L2291: | Dist.to.CGI | int64 | 39910 | 284150, 243301, 59353 |
+L2292: | gene_id | str | 28016 | ENSMUSG00000051951, ENSMUSG00000051951, ENSMUSG00000051951 |
+L2293: | gene_name | object | 19829 | Xkr4, Xkr4, Xkr4 |
+L2294: | description | str | 19821 | X Kell blood group precursor related family member 4 [Sou... |
+L2295: # Summary: ADVS-12-2408912-s008.xlsx
+L2296: - **Sheets**: 1
+L2297: - **Total tables**: 1
+L2298: ## Sheet: Sheet1
+L2299: - Tables found: 1
+L2300: ### Table 1: Table_1
+L2301: - **Rows**: 39234
+L2302: - **Columns**: 19
+L2303: | Column | Dtype | Non-null | Sample values |
+L2304: |--------|-------|----------|---------------|
+L2305: | chr | str | 39234 | chr1, chr1, chr1 |
+L2306: | pos | int64 | 39234 | 3339508, 3339530, 3759856 |
+L2307: | female of F1 Ex | float64 | 39234 | 0.758856511507104, 0.377090958538607, 0.993616314679605 |
+L2308: | female of F1 Con | float64 | 39234 | 0.891335747685094, 0.585598843655371, 0.819981092229001 |
+L2309: | diff | float64 | 39234 | -0.13247923617799, -0.208507885116763, 0.173635222450605 |
+L2310: | diff.se | float64 | 39234 | 0.0668936827330368, 0.0978187251793455, 0.0461369591064173 |
+L2311: | stat | float64 | 39234 | -1.98044465135364, -2.13157434565289, 3.76347348879465 |
+L2312: | phi1 | float64 | 39234 | 0.0133421134691114, 0.0118282556690643, 0.0185297068380997 |
+L2313: | phi2 | float64 | 39234 | 0.017538668322589, 0.0306203295781925, 0.0145928362901806 |
+L2314: | pval | float64 | 39234 | 0.0476535868523265, 0.0330418546075655, 0.000167569498795039 |
+L2315: | fdr | float64 | 39234 | 0.999999880387561, 0.999999880387561, 0.923332620734986 |
+L2316: | Annotation | str | 39234 | intron (ENSMUST00000070533, intron 2 of 2), intron (ENSMU... |
+L2317: | Dist.to.TSS | int64 | 39234 | -123165, -123187, 24076 |
+L2318: | Nearest.PromoterID | str | 39234 | ENSMUST00000162897, ENSMUST00000162897, ENSMUST00000157708 |
+L2319: | Nearest.CGI | str | 39234 | chr1-3531624-3531843-CpG:_27-CGI, chr1-3531624-3531843-Cp... |
+L2320: | Dist.to.CGI | int64 | 39234 | 192116, 192094, -87701 |
+L2321: | gene_id | str | 27283 | ENSMUSG00000051951, ENSMUSG00000051951, ENSMUSG00000025902 |
+L2322: | gene_name | object | 19295 | Xkr4, Xkr4, Sox17 |
+L2323: | description | str | 19294 | X Kell blood group precursor related family member 4 [Sou... |
+L2324: # Summary: ADVS-12-2408912-s009.xlsx
+L2325: - **Sheets**: 1
+L2326: - **Total tables**: 1
+L2327: ## Sheet: Sheet1
+L2328: - Tables found: 1
+L2329: ### Table 1: Table_1
+L2330: - **Rows**: 45446
+L2331: - **Columns**: 19
+L2332: | Column | Dtype | Non-null | Sample values |
+L2333: |--------|-------|----------|---------------|
+L2334: | chr | str | 45446 | chr1, chr1, chr1 |
+L2335: | pos | int64 | 45446 | 3339508, 3532125, 3534625 |
+L2336: | female of F2 Ex | float64 | 45446 | 0.893411727, 0.654294262, 0.705446899 |
+L2337: | female of F1 Ex | float64 | 45446 | 0.758856512, 0.802711499, 0.842469096 |
+L2338: | diff | float64 | 45446 | 0.134555216, -0.148417237, -0.137022197 |
+L2339: | diff.se | float64 | 45446 | 0.066722333, 0.051646853, 0.06128139 |
+L2340: | stat | float64 | 45446 | 2.016644354, -2.873693736, -2.235951201 |
+L2341: | phi1 | float64 | 45446 | 0.015843353, 0.010350654, 0.015094781 |
+L2342: | phi2 | float64 | 45446 | 0.013342113, 0.007900382, 0.013475398 |
+L2343: | pval | float64 | 45446 | 0.043732641, 0.004057022, 0.025354968 |
+L2344: | fdr | float64 | 45446 | 0.999999866, 0.999999866, 0.999999866 |
+L2345: | Annotation | str | 45446 | intron (ENSMUST00000070533, intron 2 of 2), intron (ENSMU... |
+L2346: | Dist.to.TSS | int64 | 45446 | -123165, 65539, 68039 |
+L2347: | Nearest.PromoterID | str | 45446 | ENSMUST00000162897, ENSMUST00000161581, ENSMUST00000161581 |
+L2348: | Nearest.CGI | str | 45446 | chr1-3531624-3531843-CpG:_27-CGI, chr1-3531624-3531843-Cp... |
+L2349: | Dist.to.CGI | int64 | 45446 | 192116, -283, -2783 |
+L2350: | gene_id | str | 32034 | ENSMUSG00000051951, ENSMUSG00000051951, ENSMUSG00000051951 |
+L2351: | gene_name | object | 22722 | Xkr4, Xkr4, Xkr4 |
+L2352: | description | str | 22718 | X Kell blood group precursor related family member 4 [Sou... |
+[350ms]
+

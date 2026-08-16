@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_90ec03af",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/blunting-direction-02.results.csv"
+  ],
+  "completed_at": "2026-08-16T02:59:29.187565+00:00",
+  "elapsed_seconds": 0.3681590829510242,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:59:28.819393+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/blunting-direction-02.export.attempt-01.stderr",
+  "stdout_bytes": 123,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-c/blunting-direction-02.export.attempt-01.stdout"
+}

@@ -1,0 +1,530 @@
+L1: Mitochondria-Derived Vesicles and Inflammatory Profiles of Adults with Long COVID Supplemented with Red Beetroot Juice: Secondary Analysis of a Randomized Controlled Trial
+L2: International Journal of Molecular Sciences (2025)
+L3: Emanuele Marzetti, Hélio José Coelho-Júnior, Riccardo Calvani, Giulia Girolimetti, Riccardo Di Corato, Francesca Ciciarello, Vincenzo Galluzzo, Clara Di Mario, Barbara Tolusso, Luca Santoro, Ottavia Giampaoli, Alberta Tomassini, Walter Aureli, Matteo Tosato, Francesco Landi, Cecilia Bucci, Flora Guerra, Anna Picca
+L4: 1 Fondazione Policlinico Universitario “Agostino Gemelli” IRCCS, 00168 Rome, Italy;  emanuele.marzetti@policlinicogemelli.it  (E.M.);  coelhojunior@hotmail.com.br  (H.J.C.-J.);  francesca.cicciarello@policlinicogemelli.it  (F.C.);  vincenzo.galluzzo@policlinicogemelli.it  (V.G.);  clara.dimario@policlinicogemelli.it  (C.D.M.);  barbara.tolusso@policlinicogemelli.it  (B.T.);  luca.santoro@policlinicogemelli.it  (L.S.);  matteo.tosato@policlinigogemelli.it  (M.T.);  francesco.landi@unicatt.it  (F.L.);  picca@lum.it  (A.P.)
+L5: 2 Department of Geriatrics, Orthopedics and Rheumatology, Università Cattolica del Sacro Cuore, 00168 Rome, Italy
+L6: 3 Department of Experimental Medicine, University of Salento, Via Provinciale Lecce-Monteroni, 73100 Lecce, Italy;  giulia.girolimetti@unisalento.it  (G.G.);  cecilia.bucci@unisalento.it  (C.B.)
+L7: 4 Institute for Microelectronics and Microsystems (IMM), CNR, Via Provinciale Lecce-Monteroni, 73100 Lecce, Italy;  riccardo.dicorato@cnr.it
+L8: 5 Center for Biomolecular Nanotechnologies, Istituto Italiano di Tecnologia, 73010 Arnesano, Italy
+L9: 6 Department of Environmental Biology, Sapienza University of Rome, Piazzale Aldo Moro 5, 00185 Rome, Italy;  ottavia.giampaoli@uniroma1.it
+L10: 7 NMR-Based Metabolomics Laboratory (NMLab), Sapienza University of Rome, 00185 Rome, Italy
+L11: 8 R&D, Aureli Mario S.S. Agricola, Via Mario Aureli 7, 67050 Ortucchio, Italy;  tomassinialberta@gmail.com  (A.T.);  produzione@aurelimario.com  (W.A.)
+L12: 9 Department of Biological and Environmental Sciences and Technologies, Università del Salento, 73100 Lecce, Italy;  flora.guerra@unisalento.it
+L13: 10 Department of Medicine and Surgery, LUM University, Str. Statale 100 Km 18, 70010 Casamassima, Italy
+L14: In a recent clinical trial, beetroot juice supplementation for 14 days yielded positive effects on systemic inflammation in adults with long COVID. Here, we explored the relationship between circulating markers of mitochondrial quality and inflammation in adults with long COVID as well as the impact of beetroot administration on those markers. We conducted secondary analyses of a placebo-controlled randomized clinical trial testing beetroot juice supplementation as a remedy against long COVID. Analyses were conducted in 25 participants, 10 assigned to placebo (mean age: 40.2 ± 11.5 years, 60% women) and 15 allocated to beetroot juice (mean age: 38.3 ± 7.7 years, 53.3% women). Extracellular vesicles were purified from serum by ultracentrifugation and assayed for components of the electron transport chain and mitochondrial DNA (mtDNA) by Western blot and droplet digital polymerase chain reaction (ddPCR), respectively. Inflammatory markers and circulating cell-free mtDNA were quantified in serum through a multiplex immunoassay and ddPCR, respectively. Beetroot juice administration for 14 days decreased serum levels of interleukin (IL)-1β, IL-8, and tumor necrosis factor alpha, with no effects on circulating markers of mitochondrial quality control. Significant negative associations were observed between vesicular markers of mitochondrial quality control and the performance on the 6 min walk test and flow-mediated dilation irrespective of group allocation. These findings suggest that an amelioration of mitochondrial quality, possibly mediated by mitochondria-derived vesicle recycling, may be among the mechanisms supporting improvements in physical performance and endothelial function during the resolution of long COVID.
+L15: Article
+L16: cell quality; cytokine; extracellular vesicles; functional food; inflammation; mitochondrial DNA; muscle; physical performance
+L17: 1. Introduction
+L18: The recovery from COVID-19 is unpredictable and contingent upon the severity of acute disease, pre-existing comorbidities, and age [ 1 ]. As per the World Health Organization (WHO), full recovery from COVID-19 requires approximately two weeks in moderate cases and three to six weeks in more severe infections [ 2 ]. Nevertheless, a significant number of individuals experience COVID-19-related symptoms for weeks or months after viral clearance [ 3 , 4 ], a condition referred to as post-COVID condition or long COVID [ 5 ].
+L19: Cough, fever, dyspnea, fatigue, gastrointestinal and musculoskeletal complaints (e.g., myalgia, joint pain), and anosmia/dysgeusia are among the most prevalent long-term signs and symptoms of COVID-19 [ 3 , 4 ]. Furthermore, declines in muscle strength [ 6 ] and endothelial dysfunction [ 7 ] are frequent findings among adults with long COVID, with a negative impact on symptom persistence (e.g., fatigue) and overall quality of life [ 8 ]. Indeed, sarcopenia, identified according to international guidelines, is more frequent in individuals with long COVID than in the general population regardless of age [ 6 ]. This observation has led to hypothesizing that sarcopenia may be the biological substratum of long COVID-associated fatigue and weakness [ 6 ].
+L20: Nutraceuticals, bioactive foods, and dietary supplements have been tested for their effectiveness against long COVID [ 9 ]. Acute beetroot juice supplementation conveys beneficial effects on cardiovascular health, exercise performance, pulmonary function, metabolic homeostasis, and inflammation [ 10 , 11 , 12 , 13 ]. The health benefits conveyed by red beetroot juice have been mostly attributed to its high nitrate content. The ingestion of nitrate-rich foods increases nitric oxide (NO) availability via the nitrate–nitrite–NO pathway [ 14 ]. NO bioavailability positively modulates mitochondrial respiration, reduces the oxygen cost of exercise, and enhances muscular and brain perfusion [ 15 , 16 ]. Additional bioactive ingredients (e.g., polyphenols, carotenoids, betalains, organic acids) with antioxidant and anti-inflammatory properties are contained in beetroot juice [ 11 ]. Among these substances, betalains are a class of natural pigments including the red-violet betacyanins and the yellow-orange betaxanthins that can stimulate the activity of antioxidant enzymes and blunt inflammation [ 17 ].
+L21: Altogether, these properties make beetroot juice an ideal candidate for the management of long COVID. However, in a recent clinical trial, beetroot juice supplementation for 14 days failed to improve functional outcomes in adults with long COVID [ 18 ]. Yet, a positive effect on systemic inflammation was observed following beetroot juice supplementation. Previous studies have shown a relationship between circulating markers of cellular/mitochondrial quality and inflammation and physical performance [ 19 , 20 , 21 ]. Defective mitochondrial quality control (MQC) processes can incite systemic inflammation also through the unloading of molecules, including mitochondrial DNA (mtDNA), holding proinflammatory properties [ 22 ]. A persistent activation of the inflammatory response characterizes individuals with long COVID [ 23 ]. However, little is known about the molecular triggers of this response. In addition, whether a relationship exists between cell and MQC markers and inflammatory profiles in adults with long COVID is presently unknown. Neither is empirical evidence available on the possible impact of beetroot juice administration on those markers in individuals with long COVID.
+L22: To address these research questions, we conducted secondary analyses of a randomized controlled trial (RCT) to explore the associations between markers of MQC and inflammation and measures of physical performance and endothelial function in adults with long COVID supplemented with red beetroot juice or receiving placebo.
+L23: 2. Results
+L24: 2.1. Characteristics of Study Participants
+L25: Analyses were conducted in 25 participants, 10 assigned to placebo (four men and six women; mean age: 40.2 ± 11.5 years) and 15 allocated to red beetroot juice (seven men and eight women; mean age: 38.3 ± 7.7 years). The main baseline characteristics of study participants according to group assignment are listed in  Table 1 .
+L26: The two groups did not differ for any parameter. Two participants allocated to beetroot juice were hospitalized once during the acute COVID-19 episode. After 14 days of intervention, the 6 min walk test (6MWT) distance was 585.0 ± 81.7 m (delta vs. baseline: 25.7 ± 27.0 m) in the placebo group and 585.0 ± 52.0 m (delta vs. baseline: 13.4 ± 48.6 m) in the beetroot juice group. Flow-mediated dilation (FMD) after 14 days of intervention was 13.0 ± 5.1% (delta vs. baseline: 0.4 ± 7.8%) in the placebo group and 13.2 ± 2.8% (delta vs. baseline: 1.3 ± 3.4%) in the beetroot juice group.
+L27: 2.2. Effects of Interventions on Inflammatory and Vesicular/Mitochondrial Markers
+L28: Serum levels of the proinflammatory markers interleukin (IL)-1β, IL-8, and tumor necrosis factor alpha (TNF-α) were significantly reduced after 14 days of intervention in participants receiving red beetroot juice ( Figure 1 ). No other significant pre/post-intervention differences were observed in either intervention group.
+L29: Likewise, no significant changes were observed for any vesicular/mitochondrial markers in either intervention groups ( Figure 2 ).
+L30: The analysis of changes from baseline to day 14 of inflammatory and vesicular/mitochondrial markers adjusted for pre-intervention values showed significant differences in both intervention groups. Most inflammatory markers were different from baseline in participants who received placebo (IL-1β, IL-ra, IL-6, interferon gamma (IFN-γ), and tumor necrosis factor alpha (TNF-α);  p  < 0.05) ( Figure 3 A) and those assigned to beetroot juice (IL-1β, IL-ra, IL-6, IL-8, and TNF-α;  p  < 0.05) ( Figure 3 B).
+L31: As per the vesicular/mitochondrial markers, most of them were different from baseline in both participant groups (cluster of differentiation (CD) 9, CD63, ATP synthase F1 subunit alpha (ATP5A), mitochondrial cytochrome C oxidase I (MTCOI), NADH:ubiquinone oxidoreductase subunit B8 (NDUFB8), and succinate dehydrogenase [ubiquinone] iron–sulfur subunit (SDHB);  p  < 0.05) ( Figure 3 B). Results of two-way analysis of covariance (ANCOVA) showed no significant differences between placebo and beetroot juice groups for post-intervention values adjusted for baseline data ( Figure 3 A,B).
+L32: 2.3. Relationship Between Inflammatory and Vesicular/Mitochondrial Markers and Functional Measures
+L33: Results of correlation analyses between inflammatory and vesicular/mitochondrial markers and measures of physical and endothelial function in the whole study sample at baseline indicated a positive association between the performance on the 6MWT and circulating levels of vesicular CD9 ( p  = 0.028). A negative association was identified between the performance on the 6MWT and total EV levels ( p  = 0.004) ( Figure 4 ).
+L34: Results of correlation analyses of pre/post-intervention changes adjusted by groups indicated specific associations according to the intervention. In participants who received placebo, a positive association was observed between 6MWT at 14 days and TNF-α levels ( p  = 0.032), whereas CD63 showed a negative association ( p  = 0.021). Negative associations were also found between FMD and CD9 and vesicular levels of MTCOI ( p  = 0.034 and  p  = 0.048, respectively) ( Figure 5 A). Participants assigned to beetroot juice supplementation showed negative associations between FMD at 14 days and IFN-γ ( p  = 0.030) ( Figure 5 B).
+L35: Finally, results of correlation analyses between inflammatory and vesicular/mitochondrial markers and measures of physical and endothelial function independent of intervention group indicated a negative and significant association of vesicular levels of ATP5A ( p  = 0.038) and MTCOI ( p  = 0.032), with 6MWT performance at 14 days and MTCOI ( p  = 0.018), and of total EV content ( p  = 0.037) with FMD at 14 days ( Figure 6 ).
+L36: 3. Discussion
+L37: Through secondary analyses of an RCT, we found that the administration of red beetroot juice for 14 days was associated with a decrease in serum levels of IL-1β, IL-8, and TNF-α in adults with long COVID ( Figure 1 ), with no effects on circulating markers of MQC ( Figure 2 ). After adjustment for baseline values, no significant differences between the two intervention groups were observed for any assayed marker. However, group-specific relationships between circulating markers and measures of physical and endothelial function were identified. In participants assigned to beetroot juice supplementation, IFN-γ was negatively and significantly associated with FMD ( Figure 5 B). Irrespective of group allocation, significant negative associations were observed between circulating EV-associated ATP5A and MTCOI and the performance on the 6MWT and between EV-associated MTCOI and circulating levels of EVs and FMD ( Figure 6 ).
+L38: Long COVID has a complex pathophysiology encompassing inflammatory and autoimmune processes, perturbations in metabolic pathways, and alterations in endothelial function and redox homeostasis [ 24 ]. Several bioactive compounds, including flavonoids, and aromatic and sulfur compounds have been tested as possible remedies for long COVID [ 9 ]. Compounds that can feed the nitrate–nitrite–NO pathway have also been tested.
+L39: Bioactive NO in mammals is classically produced from  l -arginine and oxygen by a family of enzymes, known as NO synthases (NOSs). Inorganic nitrate from dietary sources, including beetroot juice, is rapidly absorbed in the small intestine and can also increase NO availability through the nitrate–nitrite–NO pathway [ 14 ]. While most circulating nitrate is excreted with urine, up to 25% is actively transported in salivary glands and concentrated in saliva [ 25 ]. Via the activity of nitrate reductase enzymes, commensal facultative anaerobic bacteria reduce nitrate to nitrite in the mouth. Nitrate conversion into nitrite is necessary for mammalian cells to metabolize this ion. Nitrite can be decomposed into NO and other bioactive nitrogen oxides in the acidic environment of the stomach [ 26 ], which regulates relevant physiological functions. Residual nitrate and nitrite are absorbed from the intestine and delivered into the circulation where they can be converted into bioactive NO via the activity of several enzymes (e.g., xanthine oxidoreductase, mitochondrial electron transport chain enzymes) and pathways in the setting of hypoxia and acidosis, such as that of exercising muscles [ 12 ].
+L40: Beetroot juice contains also betalains, bioactive ingredients with a dual role in inhibiting inflammation and stimulating antioxidant enzymes activity [ 11 , 27 ]. Betanin, the most abundant betalain contained in beetroots, may blunt inflammation via the inhibition of cyclooxygenase 2 [ 28 ] and lipoxygenase 1 activity [ 17 ], as well as nuclear factor κB (NF-κB) signaling [ 29 ]. Moreover, betanin is a reactive oxygen species (ROS) scavenger [ 30 ] able to enhance the expression of catalase, superoxide dismutase, and glutathione peroxidase via activation of the nuclear factor erythroid 2-related factor 2 (Nrf2)/antioxidant response element (ARE) pathway [ 31 ]. Altogether, these effects may support mitochondrial and cellular quality control processes that would otherwise fuel systemic inflammation via the unloading of proinflammatory molecules, including mtDNA [ 22 ].
+L41: ccf-mtDNA is released from dead cells/tissues as well as by mitochondria for signaling purposes. Increasing levels of ccf-mtDNA and/or mitochondria-derived vesicles have been described as a mechanism that may be modulated by the severity of mitochondrial damage and an alternative route to mitophagy [ 32 , 33 ]. This pathway of mitochondrial disposal is triggered in the setting of mild mitochondrial damage and ROS production [ 34 , 35 ]. Mitochondrial clearance via EVs along the endosomal pathway has also been reported in the setting of lysosomal pathway inhibition [ 36 ]. In both cases, cells can selectively guide the packaging of mitochondrial constituents into EVs to achieve MQC and avoid the release of EV-free, damaged mitochondrial constituents [ 37 ]. The latter incite innate immunity because of their nature of proinflammatory damage-associated molecular patterns (DAMPs) [ 37 ]. In line with this view, our findings of a negative correlation between vesicular ATP5A and MTCOI and the performance on the 6MWT and between vesicular MTCOI and circulating EVs and FMD measures irrespective of group allocation provide interesting clues on the mechanisms of long COVID resolution. Although a causal relationship cannot be inferred, these data, together with the observation of a general quenching of the inflammatory response, support a relationship between the amelioration of mitochondrial quality, possibly related to recycling through mitochondria-derived vesicles, and improvements in physical performance and endothelial function. This piece of information is in line with recent findings showing that an altered MQC and systemic inflammation are associated with declines in muscle power [ 38 ].
+L42: Although our investigation reports novel findings on the possible role of cell quality processes in long COVID, this study has limitations that deserve to be acknowledged. First, the small sample size and the pilot nature of this study did not allow performing analysis according to sex. Further to this, general linear models were only adjusted for pre-intervention values. Future studies controlling for other possible covariates are needed. Second, the short duration of the intervention (two weeks vs. the recommended four to six weeks) as well as the timing of data collection (assessment of beetroot juice effects in the non-acute phase) may have hampered a full appreciation of the intervention effects. Third, although participants were asked to refrain from consuming foods rich in inorganic nitrate for at least 12 h prior to each study visit, the nitrate intake could not be used as a confounder in the analysis. Similarly, differences in lifestyle habits, including physical activity levels, and the consumption of substances with vasoactive properties were not accounted for.
+L43: 4. Materials and Methods
+L44: 4.1. Study Design and Participants
+L45: The present study involves secondary analyses of a single-center, single-blinded, placebo-controlled randomized trial conducted at the post-acute COVID-19 outpatient clinic of the Fondazione Policlinico A. Gemelli IRCCS (Rome, Italy) from March 2021 to July 2021 [ 14 ]. The study protocol was approved by the Ethics Committee of the Università Cattolica del Sacro Cuore (Rome, Italy) (Prot. no. 0013008/20), and the trial was registered in ClinicalTrials.gov (NCT06535165). All participants provided written informed consent prior to enrolment.
+L46: Participant selection criteria are reported elsewhere [ 14 ]. Briefly, candidate participants were eligible for inclusion if they were 20 to 60 years old, had a previous SARS-CoV-2 infection, had a negative COVID-19 swab test at least four weeks prior to trial commencement, had a diagnosis of long COVID according to the WHO criteria [ 39 ], and reported persistent fatigue, operationalized as the response “most or all the time” to item seven of the Center for Epidemiological Studies Depression Scale (“I felt that everything I did was an effort”) [ 40 ]. Candidate participants were excluded if they were intolerant to beetroot juice, reported conditions and/or treatments potentially interfering with trial outcomes (e.g., pregnancy or breastfeeding, diabetes, regular use of steroids or non-steroidal anti-inflammatory drugs, immunosuppressants, nitrate supplementation), or were engaged in other intervention trials for long COVID.
+L47: Eligible participants were randomized to receive a daily supplementation of 200 mL beetroot juice (Aureli Mario S.S. Agricola, Ortucchio, Italy; batch #SBRRT140121) [ 41 ] or the same volume of placebo for 14 days. The active supplement and the placebo were indistinguishable in appearance and taste. Outcome assessors were blinded to group assignment. Details on the composition of beetroot juice are reported in  Supplementary Table S1 .
+L48: 4.2. Medical History, Anthropometry, and Functional Measures
+L49: Information on comorbid conditions, drug treatments, and time elapsed from COVID-19 diagnosis was collected by self-report and a review of medical charts whenever available. Body height and weight were measured with a standard stadiometer and an analogic medical scale, respectively. The body mass index (BMI, kg/m 2 ) was calculated as the ratio between body weight and the square of height.
+L50: Physical performance was evaluated by the 6MWT and isometric handgrip strength at baseline and after 14 days of intervention. Both tests were administered by trained personnel according to standardized protocols [ 42 , 43 ]. Briefly, for the 6MWT, participants were asked to walk up and down a 20 m hallway for six min to cover as much distance as possible at their preferred walking speed. The total distance walked (m) was recorded and included in the analysis. Isometric handgrip strength (kg) was measured on the dominant side using a handheld hydraulic dynamometer (North Coast Medical, Inc., Morgan Hill, CA, USA). The test was conducted with participants seated on a chair with the shoulder in a neutral position, the elbow near the trunk and flexed at 90°, and the wrist in a neutral position (thumbs up). The contralateral arm was kept relaxed under the thigh. Participants were instructed to squeeze the handle as strong as they could. A familiarization trial was allowed before the actual testing.
+L51: The FMD test was employed to measure endothelial function [ 44 ] using an iU22 2D ultrasound system (Philips Electronics, Amsterdam, The Netherlands) according to standard protocols [ 44 , 45 , 46 ]. Briefly, the diameter of the brachial artery was measured at baseline and after the abrupt release of a blood pressure cuff that halted the circulation of the forearm by applying a pressure of 250 mmHg for 5 min. FMD was quantified as the percentage increase in arterial diameter following cuff release relative to the baseline diameter.
+L52: 4.3. Blood Collection and Processing
+L53: Blood samples were collected at baseline and at 14 days after overnight fasting using standard collection tubes (BD Vacutainer ® ; Becton, Dickinson and Co., Franklin Lakes, NJ, USA). For serum separation, samples were left at room temperature for 30 min and were then centrifuged at 1000×  g  for 10 min at 4 °C. Serum aliquots were stored at −80 °C until analysis.
+L54: 4.4. Isolation and Characterization of Small Extracellular Vesicles
+L55: 4.4.1. Purification of Extracellular Vesicles
+L56: EVs were purified from the serum via ultracentrifugation [ 47 , 48 , 49 ]. Briefly, serum was diluted with an equal volume of phosphate buffer 1X (PBS1X) and centrifuged at 2000×  g  for 30 min at 4 °C to pellet cell debris. The supernatant was collected and centrifuged at 12,000×  g  for 45 min at 4 °C to eliminate apoptotic bodies and large vesicles. Afterward, the supernatant was ultracentrifuged at 110,000×  g  for 70 min at 4 °C and then filtered through 0.22 µm filters. The obtained pellet was further ultracentrifuged at 110,000×  g  for 70 min at 4 °C and finally resuspended in PBS1X [ 47 ].
+L57: 4.4.2. Western Immunoblot Analysis of Extracellular Vesicles
+L58: EVs were lysed in a Laemmli buffer (100 mM Tris–HCl pH 6.8, 4% sodium dodecyl sulfate (SDS), 20% glycerol, and 0.2% bromophenol blue) and quantified using the BCA assay (Thermo Fisher Scientific, Waltham, MA, USA) or by Stain-free gels (Bio-Rad, Hercules, CA, USA). Proteins were separated by 12% SDS–polyacrylamide gel electrophoresis and subsequently electroblotted onto polyvinylidene fluoride Immobilon-P membranes (Millipore, Billerica, MA, USA), as previously described [ 50 , 51 ]. Membranes were incubated overnight with primary antibodies and subsequently with anti-mouse and anti-rabbit peroxidase-conjugated secondary antibodies for 1 h at room temperature. The purity of EVs was ascertained according to the guidelines by the International Society for Extracellular Vesicles (ISEV) [ 48 , 49 ]. The presence of Alix, tumor susceptibility gene 101 (TSG101), and of tetraspanins CD9, CD63, and CD81 (positive controls) as well as the absence of the non-EV component ribosomal protein s6 (RPS6) (negative control) was verified. Images were acquired with the ChemiDoc MP Imaging System and analyzed by Image Lab TM software version 6.0.1 (Bio-Rad Laboratories). Protein expression levels were quantified by densitometry and normalized against total protein loadings.
+L59: 4.4.3. Analysis of Extracellular Vesicles by Transmission Electron Microscopy Imaging
+L60: According to ISEV guidelines [ 48 , 49 ], transmission electron microscopy (TEM) was carried out in randomly chosen purified vesicle suspensions to confirm enrichment in EVs. The TEM imaging analysis of isolated vesicles was performed with a JEOL JEM-1011 transmission electron microscope operating at 100 kV (JEOL, Tokyo, Japan) and equipped with a 7.1-megapixel CCD camera (Orius SC1000, Gatan, Pleasanton, CA, USA). TEM image analysis was performed with Gatan Digital Micrograph™ (DM) software. Samples were prepared according to the protocol proposed by Kreger et al. [ 52 ] with modifications. Briefly, 5 µL of a concentrated vesicle suspension was dropped on a Formvar-coated copper grid and then infiltrated with a carboxymethyl dextran solution. The resulting ultrathin polysaccharide layer prevented vesicle collapse on the dried grids. Finally, the grids were stained with UranyLess EM Stain (Electron Microscopy Sciences, Hatfield, PA, USA), following the standard protocol provided by the manufacturer.
+L61: 4.4.4. Measurement of Circulating Cell-Free Mitochondrial DNA by Droplet Digital Polymerase Chain Reaction
+L62: ccf-mtDNA was measured in serum by droplet digital polymerase chain reaction (ddPCR), as described by Podlesniy and Trullas [ 53 ]. All reagents, consumables, and instruments were purchased from Bio-Rad Laboratories. Twenty μL reaction mixtures were prepared containing 10 μL of 2× ddPCR Supermix for Probes (No-dUTP), 0.9 µM mtDNA forward primer (mtDNA-85F, 5′-CTCACTCCTTGGCGCCTGCC-3′), 0.9 µM mtDNA reverse primer (mtDNA-85R, 5′-GGCGGTTGAGGCGTCTGGTG-3′), and 0.1 µM hydrolysis probe (FAM-mtDNA-85P, 6-carboxyfluorescein (FAM)-50-CCTCCAAATCACCACAGGACTATTCCTAGCCATGCA-30-Black Hole Quencher-1(BHQ-1)). One μL of serum was used as a template source for the ddPCR reaction. The reaction mixture and the ddPCR Droplet Generation Oil for Probes were placed in a DG8 Cartridge for the Droplet Generator and partitioned into droplets using a QX200 Droplet Generator, according to the manufacturer’s instructions to partition samples into around 20,000 nL-sized droplets. The emulsified sample (∼40 µL) was transferred to a 96-well PCR plate and sealed with Pierceable Foil Heat Seal using a PX1 PCR plate sealer. PCR was performed on a T100 Thermal Cycler using standard cycling conditions as follows: 95 °C for 10 min, 40 cycles of 94 °C for 30 s, followed by 60 °C for 1 min, 98 °C for 10 min, then held at 4 °C. The ramp rate between all steps was 2 °C/s. Following the PCR amplification of target mtDNA, fluorescence was measured on a QX200 Droplet Reader detecting, on average, 10,000–20,000 droplets per sample. All assayed samples yielded more than 10,000 droplets. A detection system for FAM was used to analyze each droplet individually, providing a direct quantification of target DNA based on PCR-positive and PCR-negative droplets count. Analysis was performed with Bio-Rad QX Manager 1.2 Standard Edition. The software establishes a threshold for positive droplets based on droplet clustering across all samples that the user can confirm or modify by comparison with a negative, serum-free control. The primary output of the analysis is the concentration of mtDNA copies in starting template per µL.
+L63: 4.4.5. Quantification of Mitochondrial DNA Copy Number in Purified Extracellular Vesicles by Droplet Digital Polymerase Chain Reaction
+L64: To accurately quantify DNA within EVs, all DNA at the EV surface must be removed. To this aim, Baseline-ZERO DNase (Epicentre—Illumina, Madison, WN, USA) was used according to the manufacturer’s instructions. The reaction was scaled down to be adapted to purified EVs and ddPCR volumes. Briefly, EVs were resuspended in RNase-free water, 10× Baseline-ZERO DNase Reaction Buffer, and 1 MBU of Baseline-ZERO DNase, and incubated at 37 °C for 15 min. Afterward, Baseline-ZERO DNase was inactivated by adding 10× Baseline-ZERO DNase Stop Solution to the sample followed by incubation at 65 °C for 10 min. Then, 2 µg of purified EVs was used as a template source in ddPCR reactions. The mtDNA copy number was then measured as described in the previous section.
+L65: 4.5. Measurement of Circulating Inflammatory Markers
+L66: A panel of selected inflammatory markers including IL-1β, IL-ra, IL-8, IFN- γ, and TNF-α was measured in duplicate in serum samples as part of a larger panel of mediators of the Bio-Plex Pro Human Cytokine 27-plex Assay kit (#M500KCAF0Y, Bio-Rad) on a Bio-Plex ®  System with Luminex xMap Technology (Bio-Rad). Data acquisition was performed with the Bio-Plex Manager Software 6.1 (Bio-Rad) using instrument default settings. The optimization of standard curves across all the assayed analytes was carried out to remove outliers. IL-6 was assayed using a commercially available kit on an ELLA TM  automated immunoassay system (Bio-Techne, San Jose, CA, USA).
+L67: 4.6. Statistical Analysis
+L68: Data are shown as mean ± standard deviation (SD) for continuous variables and as absolute numbers and percentages for categorical variables. Data were tested for normality, and some variables exhibited a non-normal distribution. Comparisons of pre- post-intervention variables in the placebo and beetroot juice groups were performed by dependent  t -test or Wilcoxon test, according to Gaussian distribution. One-way and two-way ANCOVA followed by a Bonferroni post hoc test were used to examine the effects of interventions on the main outcomes, adjusting the analysis for baseline values, and to compare differences between the intervention groups, respectively. ANCOVA was conducted despite the presence of non-parametric data, as assumptions such as linearity, the homogeneity of regression slopes, and the independence of covariates were carefully evaluated and deemed suitable for the analysis. Delta values were determined by calculating the differences between baseline and post-intervention values. Pearson’s and Spearman’s correlation analysis was performed to determine the association between crude and delta values of physical performance, endothelial function, and biomarkers, adjusting according to group allocation. The level of significance was set at alpha 5% ( p  < 0.05), and all analyses were performed using GraphPad Prism 6.0 (San Diego, CA, USA).
+L69: 5. Conclusions
+L70: The administration of beetroot juice for 14 days was associated with a quenching of the inflammatory response in adults with long COVID. A negative correlation between vesicular markers of MQC and the performance on the 6MWT as well as FMD was also identified at 14 days independent of the intervention group. These findings suggest that an amelioration of mitochondrial quality, possibly mediated by mitochondria-derived vesicle recycling, may be among the mechanisms supporting improvements in physical performance and endothelial function during the recovery from long COVID.
+L71: Figure 1 Changes from baseline to day 14 in serum concentrations of inflammatory markers in the placebo ( n  = 10) and beetroot juice ( n  = 15) groups. Abbreviations: IFN-γ, interferon gamma; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; and TNF-α, tumor necrosis factor alpha. *  p  < 0.05 vs. baseline.
+L72: Figure 2 Changes from baseline to day 14 in vesicular/mitochondrial markers in the placebo ( n  = 10) and beetroot juice ( n  = 15) groups. The lower panels show representative Western blot bands and transmission electron microscope images of extracellular vesicles. Abbreviations: ATP5A, ATP synthase F1 subunit alpha; a.u., arbitrary unit; B, beetroot juice; ccf-mtDNA, circulating cell-free mitochondrial DNA; CD, cluster of differentiation; Ctrl, control; EVs, extracellular vesicles; MTCOI, mitochondrial cytochrome C oxidase I; OD, optical density; NDUFB8, NADH:ubiquinone oxidoreductase subunit B8; RPS6, ribosomal protein s6; and SDHB, succinate dehydrogenase [ubiquinone] iron–sulfur subunit.
+L73: Figure 3 Changes from baseline to day 14 in inflammatory and vesicular/mitochondrial markers adjusted for pre-intervention values in ( A ) placebo ( n  = 10) and ( B ) beetroot juice ( n  = 15) groups. Abbreviations: ATP5A, ATP synthase F1 subunit alpha; CD, cluster of differentiation; ccf-mtDNA, circulating cell-free mitochondrial DNA; EVs, extracellular vesicles; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; MTCOI, mitochondrial cytochrome C oxidase I; NDUFB8, NADH:ubiquinone oxidoreductase subunit B8; SDHB, succinate dehydrogenase [ubiquinone] iron–sulfur subunit; and vs-mtDNA, vesicular mitochondrial DNA. *  p  < 0.05 for comparisons between pre- and post-intervention adjusted for baseline values according to analysis of covariance (ANCOVA).
+L74: Figure 4 Correlation analyses between inflammatory and vesicular/mitochondrial markers and measures of physical and endothelial function at 14 days in the whole study sample ( n  = 25). Abbreviations: ATP5A, ATP synthase F1 subunit alpha; CD, cluster of differentiation; ccf-mtDNA, circulating cell-free mitochondrial DNA; EVs, extracellular vesicles; FMD, flow-mediated dilation; IFN-γ, interferon gamma; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; MTCOI, mitochondrial cytochrome C oxidase I; NDUFB8, NADH:ubiquinone oxidoreductase subunit B8; SDHB, succinate dehydrogenase [ubiquinone] iron–sulfur subunit; and vs-mtDNA, vesicular mitochondrial DNA. *  p  < 0.05.
+L75: Figure 5 Correlation analyses between pre/post-intervention differences in inflammatory and vesicular/mitochondrial markers and measures of physical and endothelial function at 14 days in ( A ) the placebo group ( n  = 10) and ( B ) participants assigned to beetroot juice ( n  = 15). Abbreviations: ATP5A, ATP synthase F1 subunit alpha; CD, cluster of differentiation; ccf-mtDNA, circulating cell-free mitochondrial DNA; EVs, extracellular vesicles; IFN-γ, interferon gamma; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; MTCOI, mitochondrial cytochrome C oxidase I; NDUFB8, NADH:ubiquinone oxidoreductase subunit B8; and SDHB, succinate dehydrogenase [ubiquinone] iron–sulfur subunit; vs-mtDNA, vesicular mitochondrial DNA. *  p  < 0.05.
+L76: Figure 6 Correlation analyses between pre/post-intervention differences in inflammatory and vesicular/mitochondrial markers and measures of physical and endothelial function at 14 days independent of intervention group ( n  = 25). Abbreviations: ATP5A, ATP synthase F1 subunit alpha; CD, cluster of differentiation; ccf-mtDNA, circulating cell-free mitochondrial DNA; EVs, extracellular vesicles; IFN-γ, interferon gamma; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; MTCOI, mitochondrial cytochrome C oxidase I; NDUFB8, NADH:ubiquinone oxidoreductase subunit B8; SDHB, succinate dehydrogenase [ubiquinone] iron–sulfur subunit; vs-mtDNA, vesicular mitochondrial DNA *  p  < 0.05.
+L77: Supplementary Material
+L78: 1. Shoukat M. 
+L79:  Khan H. 
+L80:  Munir W. 
+L81:  Nazish M. 
+L82:  Alrefaei A.F. 
+L83:  Albeshr M.F. 
+L84:  Ali A. 
+L85:  Ahmed S. 
+L86:  Mansoor A. 
+L87:  Umair M. 
+L88:  
+L89:  Unravelling the complex interplay of age, comorbidities, and multimorbidities in COVID-19 disease progression: Clinical implications and future perspectives Heliyon 2024 10 e35570 10.1016/j.heliyon.2024.e35570 39170247
+L90: 2. World Health Organization. Coronavirus Disease (COVID-19) 2023 Available online:  https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19) (accessed on 2 January 2025)
+L91: 3. Carfì A. 
+L92:  Bernabei R. 
+L93:  Landi F. 
+L94:  Persistent symptoms in patients after acute COVID-19 JAMA 2020 324 603 605 10.1001/jama.2020.12603 32644129
+L95: 4. Ballering A.V. 
+L96:  van Zon S.K.R. 
+L97:  olde Hartman T.C. 
+L98:  Rosmalen J.G.M. 
+L99:  Persistence of somatic symptoms after COVID-19 in the Netherlands: An observational cohort study Lancet 2022 400 452 461 10.1016/S0140-6736(22)01214-4 35934007
+L100: 5. World Health Organization. Post COVID-19 Condition (Long COVID) 2022 Available online:  https://www.who.int/europe/news-room/fact-sheets/item/post-covid-19-condition (accessed on 2 January 2025)
+L101: 6. Martone A.M. 
+L102:  Tosato M. 
+L103:  Ciciarello F. 
+L104:  Galluzzo V. 
+L105:  Zazzara M.B. 
+L106:  Pais C. 
+L107:  Savera G. 
+L108:  Calvani R. 
+L109:  Marzetti E. 
+L110:  Robles M.C. 
+L111:  
+L112:  Sarcopenia as potential biological substrate of long COVID-19 syndrome: Prevalence, clinical features, and risk factors J. Cachexia Sarcopenia Muscle 2022 13 1974 1982 10.1002/jcsm.12931 35698920
+L113: 7. Aljadah M. 
+L114:  Khan N. 
+L115:  Beyer A.M. 
+L116:  Chen Y. 
+L117:  Blanker A. 
+L118:  Widlansky M.E. 
+L119:  Clinical implications of COVID-19-related endothelial dysfunction JACC Adv. 2024 3 101070 10.1016/j.jacadv.2024.101070 39055276
+L120: 8. Tosato M. 
+L121:  Carfì A. 
+L122:  Martis I. 
+L123:  Pais C. 
+L124:  Ciciarello F. 
+L125:  Rota E. 
+L126:  Tritto M. 
+L127:  Salerno A. 
+L128:  Zazzara M.B. 
+L129:  Martone A.M. 
+L130:  
+L131:  Prevalence and predictors of persistence of COVID-19 symptoms in older adults: A single-center study J. Am. Med. Dir. Assoc. 2021 22 1840 1844 10.1016/j.jamda.2021.07.003 34352201
+L132: 9. Tosato M. 
+L133:  Ciciarello F. 
+L134:  Zazzara M.B. 
+L135:  Pais C. 
+L136:  Savera G. 
+L137:  Picca A. 
+L138:  Galluzzo V. 
+L139:  Coelho-Júnior H.J. 
+L140:  Calvani R. 
+L141:  Marzetti E. 
+L142:  
+L143:  Nutraceuticals and dietary supplements for older adults with long COVID-19 Clin. Geriatr. Med. 2022 38 565 591 10.1016/j.cger.2022.04.004 35868674
+L144: 10. Mirmiran P. 
+L145:  Houshialsadat Z. 
+L146:  Gaeini Z. 
+L147:  Bahadoran Z. 
+L148:  Azizi F. 
+L149:  Functional properties of beetroot ( Beta vulgaris ) in management of cardio-metabolic diseases Nutr. Metab. 2020 17 3 10.1186/s12986-019-0421-0
+L150: 11. Milton-Laskibar I. 
+L151:  Alfredo Martínez J. 
+L152:  Portillo M.P. 
+L153:  Current knowledge on beetroot bioactive compounds: Role of nitrate and betalains in health and disease Foods 2021 10 1314 10.3390/foods10061314 34200431
+L154: 12. Lundberg J.O. 
+L155:  Weitzberg E. 
+L156:  Gladwin M.T. 
+L157:  The nitrate-nitrite-nitric oxide pathway in physiology and therapeutics Nat. Rev. Drug Discov. 2008 7 156 167 10.1038/nrd2466 18167491
+L158: 13. Esen O. 
+L159:  Domínguez R. 
+L160:  Karayigit R. 
+L161:  Acute beetroot juice supplementation enhances intermittent running performance but does not reduce oxygen cost of exercise among recreational adults Nutrients 2022 14 2839 10.3390/nu14142839 35889796
+L162: 14. Kapil V. 
+L163:  Khambata R.S. 
+L164:  Jones D.A. 
+L165:  Rathod K. 
+L166:  Primus C. 
+L167:  Massimo G. 
+L168:  Fukuto J.M. 
+L169:  Ahluwalia A. 
+L170:  The noncanonical pathway for in vivo nitric oxide generation: The nitrate-nitrite-nitric oxide pathway Pharmacol. Rev. 2020 72 692 766 10.1124/pr.120.019240 32576603
+L171: 15. Larsen F.J. 
+L172:  Weitzberg E. 
+L173:  Lundberg J.O. 
+L174:  Ekblom B. 
+L175:  Effects of dietary nitrate on oxygen cost during exercise Acta Physiol. 2007 191 59 66 10.1111/j.1748-1716.2007.01713.x 17635415
+L176: 16. Arazi H. 
+L177:  Eghbali E. 
+L178:  Possible effects of beetroot supplementation on physical performance through metabolic, neuroendocrine, and antioxidant mechanisms: A narrative review of the literature Front. Nutr. 2021 8 660150 10.3389/fnut.2021.660150 34055855
+L179: 17. Vidal P.J. 
+L180:  López-Nicolás J.M. 
+L181:  Gandía-Herrero F. 
+L182:  García-Carmona F. 
+L183:  Inactivation of lipoxygenase and cyclooxygenase by natural betalains and semi-synthetic analogues Food Chem. 2014 154 246 254 10.1016/j.foodchem.2014.01.014 24518339
+L184: 18. Calvani R. 
+L185:  Giampaoli O. 
+L186:  Marini F. 
+L187:  Del Chierico F. 
+L188:  De Rosa M. 
+L189:  Conta G. 
+L190:  Sciubba F. 
+L191:  Tosato M. 
+L192:  Picca A. 
+L193:  Ciciarello F. 
+L194:  
+L195:  Beetroot juice intake positively influenced gut microbiota and inflammation but failed to improve functional outcomes in adults with long COVID: A pilot randomized controlled trial Clin. Nutr. 2024 43 344 358 10.1016/j.clnu.2024.11.023 39571342
+L196: 19. Marzetti E. 
+L197:  Guerra F. 
+L198:  Calvani R. 
+L199:  Marini F. 
+L200:  Biancolillo A. 
+L201:  Gervasoni J. 
+L202:  Primiano A. 
+L203:  Coelho-Júnior H.J. 
+L204:  Landi F. 
+L205:  Bernabei R. 
+L206:  
+L207:  Circulating mitochondrial-derived vesicles, inflammatory biomarkers and amino acids in older adults with physical frailty and sarcopenia: A preliminary BIOSPHERE multi-marker study using sequential and orthogonalized covariance selection–linear discriminant analysis Front. Cell Dev. Biol. 2020 8 564417 10.3389/fcell.2020.564417 33072749
+L208: 20. Calvani R. 
+L209:  Picca A. 
+L210:  Marini F. 
+L211:  Biancolillo A. 
+L212:  Gervasoni J. 
+L213:  Persichilli S. 
+L214:  Primiano A. 
+L215:  Coelho-Junior H.J. 
+L216:  Cesari M. 
+L217:  Bossola M. 
+L218:  
+L219:  Identification of biomarkers for physical frailty and sarcopenia through a new multi-marker approach: Results from the BIOSPHERE study Geroscience 2021 43 727 740 10.1007/s11357-020-00197-x 32488674
+L220: 21. Picca A. 
+L221:  Calvani R. 
+L222:  Coelho-Júnior H.J. 
+L223:  Marini F. 
+L224:  Landi F. 
+L225:  Marzetti E. 
+L226:  Circulating inflammatory, mitochondrial dysfunction, and senescence-related markers in older adults with physical frailty and sarcopenia: A BIOSPHERE exploratory study Int. J. Mol. Sci. 2022 23 14006 10.3390/ijms232214006 36430485
+L227: 22. Picca A. 
+L228:  Lezza A.M.S. 
+L229:  Leeuwenburgh C. 
+L230:  Pesce V. 
+L231:  Calvani R. 
+L232:  Landi F. 
+L233:  Bernabei R. 
+L234:  Marzetti E. 
+L235:  Fueling inflamm-aging through mitochondrial dysfunction: Mechanisms and molecular targets Int. J. Mol. Sci. 2017 18 933 10.3390/ijms18050933 28452964
+L236: 23. Cheong J.G. 
+L237:  Ravishankar A. 
+L238:  Sharma S. 
+L239:  Parkhurst C.N. 
+L240:  Grassmann S.A. 
+L241:  Wingert C.K. 
+L242:  Laurent P. 
+L243:  Ma S. 
+L244:  Paddock L. 
+L245:  Miranda I.C. 
+L246:  
+L247:  Epigenetic memory of coronavirus infection in innate immune cells and their progenitors Cell 2023 186 3882 3902.e24 10.1016/j.cell.2023.07.019 37597510
+L248: 24. Peluso M.J. 
+L249:  Deeks S.G. 
+L250:  Mechanisms of long COVID and the path toward therapeutics Cell 2024 187 5500 5529 10.1016/j.cell.2024.07.054 39326415
+L251: 25. Hezel M.P. 
+L252:  Weitzberg E. 
+L253:  The oral microbiome and nitric oxide homoeostasis Oral Dis. 2015 21 7 16 10.1111/odi.12157 23837897
+L254: 26. Weitzberg E. 
+L255:  Lundberg J.O.N. 
+L256:  Nonenzymatic nitric oxide production in humans Nitric Oxide 1998 2 1 7 10.1006/niox.1997.0162 9706737
+L257: 27. Clifford T. 
+L258:  Howatson G. 
+L259:  West D.J. 
+L260:  Stevenson E.J. 
+L261:  The potential benefits of red beetroot supplementation in health and disease Nutrients 2015 7 2801 2822 10.3390/nu7042801 25875121
+L262: 28. Reddy M.K. 
+L263:  Alexander-Lindo R.L. 
+L264:  Nair M.G. 
+L265:  Relative inhibition of lipid peroxidation, cyclooxygenase enzymes, and human tumor cell proliferation by natural food colors J. Agric. Food Chem. 2005 53 9268 9273 10.1021/jf051399j 16277432
+L266: 29. Silva D.V.T.D. 
+L267:  Baião D.D.S. 
+L268:  Ferreira V.F. 
+L269:  Paschoalin V.M.F. 
+L270:  Betanin as a multipath oxidative stress and inflammation modulator: A beetroot pigment with protective effects on cardiovascular disease pathogenesis Crit. Rev. Food Sci. Nutr. 2022 62 539 554 10.1080/10408398.2020.1822277 32997545
+L271: 30. Kanner J. 
+L272:  Harel S. 
+L273:  Granit R. 
+L274:  Betalains—A new class of dietary cationized antioxidants J. Agric. Food Chem. 2001 49 5178 5185 10.1021/jf010456f 11714300
+L275: 31. Krajka-Kuźniak V. 
+L276:  Paluszczak J. 
+L277:  Szaefer H. 
+L278:  Baer-Dubowska W. 
+L279:  Betanin, a beetroot component, induces nuclear factor erythroid-2-related factor 2-mediated expression of detoxifying/antioxidant enzymes in human liver cell lines Br. J. Nutr. 2013 110 2138 2149 10.1017/S0007114513001645 23769299
+L280: 32. Picca A. 
+L281:  Faitg J. 
+L282:  Auwerx J. 
+L283:  Ferrucci L. 
+L284:  D’Amico D. 
+L285:  Mitophagy in human health, ageing and disease Nat. Metab. 2023 5 2047 2061 10.1038/s42255-023-00930-8 38036770
+L286: 33. Ferrucci L. 
+L287:  Guerra F. 
+L288:  Bucci C. 
+L289:  Marzetti E. 
+L290:  Picca A. 
+L291:  Mitochondria break free: Mitochondria-derived vesicles in aging and associated conditions Ageing Res. Rev. 2024 102 102549 10.1016/j.arr.2024.102549 39427885
+L292: 34. Soubannier V. 
+L293:  McLelland G.-L. 
+L294:  Zunino R. 
+L295:  Braschi E. 
+L296:  Rippstein P. 
+L297:  Fon E.A. 
+L298:  McBride H.M. 
+L299:  A vesicular transport pathway shuttles cargo from mitochondria to lysosomes Curr. Biol. 2012 22 135 141 10.1016/j.cub.2011.11.057 22226745
+L300: 35. Soubannier V. 
+L301:  Rippstein P. 
+L302:  Kaufman B.A. 
+L303:  Shoubridge E.A. 
+L304:  McBride H.M. 
+L305:  Reconstitution of mitochondria derived vesicle formation demonstrates selective enrichment of oxidized cargo PLoS ONE 2012 7 e52830 10.1371/journal.pone.0052830 23300790
+L306: 36. Liang W. 
+L307:  Sagar S. 
+L308:  Ravindran R. 
+L309:  Najor R.H. 
+L310:  Quiles J.M. 
+L311:  Chi L. 
+L312:  Diao R.Y. 
+L313:  Woodall B.P. 
+L314:  Leon L.J. 
+L315:  Zumaya E. 
+L316:  
+L317:  Mitochondria are secreted in extracellular vesicles when lysosomal function is impaired Nat. Commun. 2023 14 5031 10.1038/s41467-023-40680-5 37596294
+L318: 37. Todkar K. 
+L319:  Chikhi L. 
+L320:  Desjardins V. 
+L321:  El-Mortada F. 
+L322:  Pépin G. 
+L323:  Germain M. 
+L324:  Selective packaging of mitochondrial proteins into extracellular vesicles prevents the release of mitochondrial DAMPs Nat. Commun. 2021 12 1971 10.1038/s41467-021-21984-w 33785738
+L325: 38. Coelho-Junior H.J. 
+L326:  Marzetti E. 
+L327:  Sexton C.L. 
+L328:  Wu K. 
+L329:  Mankowski R. 
+L330:  Anton S.D. 
+L331:  Leeuwenburgh C. 
+L332:  Picca A. 
+L333:  Mitochondrial quality control measures, systemic inflammation, and lower-limb muscle power in older adults: A PROMPT secondary analysis J. Nutr. Health Aging 2024 28 100408 10.1016/j.jnha.2024.100408 39504617
+L334: 39. World Health Organization 
+L335:  A Clinical Case Definition of Post COVID-19 Condition by a Delphi Consensus, 6 October 2021 2021 Available online:  https://www.who.int/publications/i/item/WHO-2019-nCoV-Post_COVID-19_condition-Clinical_case_definition-2021.1 (accessed on 2 January 2025)
+L336: 40. Radloff L.S. 
+L337:  The CES-D Scale: A self-report depression scale for research in the general population Appl. Psychol. Meas. 1977 1 385 401 10.1177/014662167700100306
+L338: 41. Giampaoli O. 
+L339:  Sciubba F. 
+L340:  Conta G. 
+L341:  Capuani G. 
+L342:  Tomassini A. 
+L343:  Giorgi G. 
+L344:  Brasili E. 
+L345:  Aureli W. 
+L346:  Miccheli A. 
+L347:  Red beetroot’s NMR-based metabolomics: Phytochemical profile related to development time and production year Foods 2021 10 1887 10.3390/foods10081887 34441664
+L348: 42. ATS Committee on Proficiency Standards for Clinical Pulmonary Function Laboratories 
+L349:  ATS statement: Guidelines for the six-minute walk test Am. J. Respir. Crit. Care Med. 2002 166 111 117 10.1164/ajrccm.166.1.at1102 12091180
+L350: 43. Cruz-Jentoft A.J. 
+L351:  Bahat G. 
+L352:  Bauer J. 
+L353:  Boirie Y. 
+L354:  Bruyère O. 
+L355:  Cederholm T. 
+L356:  Cooper C. 
+L357:  Landi F. 
+L358:  Rolland Y. 
+L359:  Sayer A.A. 
+L360:  
+L361:  Sarcopenia: Revised European consensus on definition and diagnosis Age Ageing 2019 48 16 31 10.1093/ageing/afy169 30312372
+L362: 44. Deanfield J. 
+L363:  Donald A. 
+L364:  Ferri C. 
+L365:  Giannattasio C. 
+L366:  Halcox J. 
+L367:  Halligan S. 
+L368:  Lerman A. 
+L369:  Mancia G. 
+L370:  Oliver J.J. 
+L371:  Pessina A.C. 
+L372:  
+L373:  Endothelial function and dysfunction. Part I: Methodological issues for assessment in the different vascular beds: A statement by the Working Group on Endothelin and Endothelial Factors of the European Society of Hypertension J. Hypertens. 2005 23 7 17 10.1097/00004872-200501000-00004 15643116
+L374: 45. Corretti M.C. 
+L375:  Anderson T.J. 
+L376:  Benjamin E.J. 
+L377:  Celermajer D. 
+L378:  Charbonneau F. 
+L379:  Creager M.A. 
+L380:  Deanfield J. 
+L381:  Drexler H. 
+L382:  Gerhard-Herman M. 
+L383:  Herrington D. 
+L384:  
+L385:  Guidelines for the ultrasound assessment of endothelial-dependent flow-mediated vasodilation of the brachial artery: A report of the International Brachial Artery Reactivity Task Force J. Am. Coll. Cardiol. 2002 39 257 265 10.1016/S0735-1097(01)01746-6 11788217
+L386: 46. Santoro L. 
+L387:  Falsetti L. 
+L388:  Zaccone V. 
+L389:  Nesci A. 
+L390:  Tosato M. 
+L391:  Giupponi B. 
+L392:  Savastano M.C. 
+L393:  Moroncini G. 
+L394:  Gasbarrini A. 
+L395:  Landi F. 
+L396:  
+L397:  Impaired endothelial function in convalescent phase of COVID-19: A 3 month follow up observational prospective study J. Clin. Med. 2022 11 1774 10.3390/jcm11071774 35407382
+L398: 47. Théry C. 
+L399:  Amigorena S. 
+L400:  Raposo G. 
+L401:  Clayton A. 
+L402:  Isolation and characterization of exosomes from cell culture supernatants and biological fluids Curr. Protoc. Cell Biol. 2006 30 3 22 10.1002/0471143030.cb0322s30
+L403: 48. Théry C. 
+L404:  Witwer K.W. 
+L405:  Aikawa E. 
+L406:  Alcaraz M.J. 
+L407:  Anderson J.D. 
+L408:  Andriantsitohaina R. 
+L409:  Antoniou A. 
+L410:  Arab T. 
+L411:  Archer F. 
+L412:  Atkin-Smith G.K. 
+L413:  
+L414:  Minimal information for studies of extracellular vesicles 2018 (MISEV2018): A position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines J. Extracell. Vesicles 2018 7 1535750 10.1080/20013078.2018.1535750 30637094
+L415: 49. Welsh J.A. 
+L416:  Goberdhan D.C.I. 
+L417:  O’Driscoll L. 
+L418:  Buzas E.I. 
+L419:  Blenkiron C. 
+L420:  Bussolati B. 
+L421:  Cai H. 
+L422:  Di Vizio D. 
+L423:  Driedonks T.A.P. 
+L424:  Erdbrügger U. 
+L425:  
+L426:  Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches J. Extracell. Vesicles 2024 13 e12404 10.1002/jev2.12404 38326288
+L427: 50. Picca A. 
+L428:  Guerra F. 
+L429:  Calvani R. 
+L430:  Marini F. 
+L431:  Biancolillo A. 
+L432:  Landi G. 
+L433:  Beli R. 
+L434:  Landi F. 
+L435:  Bernabei R. 
+L436:  Bentivoglio A.R. 
+L437:  
+L438:  Mitochondrial signatures in circulating extracellular vesicles of older adults with Parkinson’s disease: Results from the EXosomes in PArkiNson’s Disease (EXPAND) study J. Clin. Med. 2020 9 504 10.3390/jcm9020504 32059608
+L439: 51. Picca A. 
+L440:  Beli R. 
+L441:  Calvani R. 
+L442:  Coelho-Júnior H.J. 
+L443:  Landi F. 
+L444:  Bernabei R. 
+L445:  Bucci C. 
+L446:  Guerra F. 
+L447:  Marzetti E. 
+L448:  Older adults with physical frailty and sarcopenia show increased levels of circulating small extracellular vesicles with a specific mitochondrial signature Cells 2020 9 973 10.3390/cells9040973 32326435
+L449: 52. Kreger B.T. 
+L450:  Johansen E.R. 
+L451:  Cerione R.A. 
+L452:  Antonyak M.A. 
+L453:  The enrichment of survivin in exosomes from breast cancer cells treated with paclitaxel promotes cell survival and chemoresistance Cancers 2016 8 111 10.3390/cancers8120111 27941677
+L454: 53. Podlesniy P. 
+L455:  Trullas R. 
+L456:  Biomarkers in cerebrospinal fluid: Analysis of cell-free circulating mitochondrial DNA by digital PCR Methods Mol. Biol. 2018 1768 111 126 10.1007/978-1-4939-7778-9_7 29717440
+L457: Acknowledgments
+L458: We would like to thank Richard Marley for his help with data management.
+L459: **Table S1.** Concentrations of inflammatory markers at baseline and after 14 days of intervention in the placebo ( _n_ = 10) and red beetroot juice ( _n_ =
+L460: 15) groups.
+L461: **Participant**
+L462: **Baseline** **Post-intervention (14 days)**
+L463: **ID**
+L464: **IL-1β** **IL-1ra** **IL-6** **IL-8** **IFN-**  **TNF-**  **IL-1β** **IL-1ra** **IL-6** **IL-8** **IFN-**  **TNF-** 
+L465: Placebo2 0.30 350.8 3.31 5.27 2.53 42.8 0.30 351.8 1.76 4.19 1.92 36.0
+L466: Placebo6 0.88 493.5 0.34 6.04 3.14 45.9 0.51 492.5 0.65 2.97 2.53 39.9
+L467: Placebo9 0.88 425.2 2.47 4.49 2.53 46.1 0.30 350.8 2.14 2.67 1.92 36.5
+L468: Placebo16 1.22 493.5 0.66 12.36 3.44 47.3 0.51 267.0 2.21 2.37 1.92 39.4
+L469: Placebo18 0.88 557.1 2.86 4.49 3.44 44.7 0.88 493.5 1.41 4.80 3.14 44.4
+L470: Placebo20 0.69 350.8 1.16 6.04 2.53 35.7 0.51 425.2 0.79 5.42 1.61 30.9
+L471: Placebo22 0.51 425.2 1.43 3.42 2.53 50.6 0.69 493.5 1.49 5.73 3.75 40.5
+L472: Placebo24 1.17 433.9 4.31 2.78 3.63 62.9 1.17 372.2 2.76 4.92 3.63 63.3
+L473: Placebo25 1.04 431.5 0.78 7.70 2.29 63.3 0.52 384.2 0.68 3.85 1.95 56.3
+L474: Placebo31 1.72 430.4 1.84 8.04 4.61 67.4 1.04 383.2 0.79 5.97 1.95 57.6
+L475: Beetroot1 0.88 493.5 0.67 21.77 2.53 38.2 0.69 267.0 0.78 2.37 1.61 33.7
+L476: Beetroot4 0.69 425.2 0.69 6.35 2.53 41.6 0.51 425.2 0.63 3.58 3.14 40.5
+L477: Beetroot7 0.88 493.5 0.69 4.19 2.53 43.9 0.30 350.8 0.71 3.58 2.83 29.5
+L478: Beetroot10 1.05 557.1 1.25 9.50 3.44 46.1 0.60 425.2 0.89 1.77 2.53 39.9
+L479: Beetroot11 0.88 425.2 2.28 8.55 3.14 47.5 0.30 425.2 0.32 4.20 2.83 41.3
+L480: Beetroot13 1.22 425.2 1.15 6.51 3.44 46.1 0.79 350.8 0.73 2.97 2.53 31.4
+L481: Beetroot15 0.96 425.2 1.46 5.42 4.66 39.9 0.51 425.2 1.39 3.88 3.44 37.1
+L482: Beetroot17 0.88 350.8 1.75 4.34 2.53 41.1 0.69 350.8 1.18 3.58 2.68 34.0
+L483: Beetroot19 0.07 350.8 0.78 2.67 2.38 40.2 0.07 350.8 1.43 3.27 2.83 34.3
+L484: Beetroot26 0.88 425.2 0.88 5.42 1.92 41.9 0.07 350.8 0.53 4.19 2.83 32.6
+L485: Beetroot27 1.04 430.9 1.29 8.04 1.95 64.1 0.92 387.1 1.21 5.09 1.95 66.6
+L486: Beetroot28 1.54 423.8 0.68 10.78 3.96 73.0 1.23 388.4 1.43 5.62 1.95 62.5
+L487: Beetroot29 0.92 436.3 1.86 2.78 1.25 65.4 0.66 380.0 2.32 3.50 1.95 61.7
+L488: Beetroot30 0.92 433.8 1.80 6.31 0.89 67.4 0.59 376.9 0.93 5.27 1.25 58.5
+L489: Beetroot32 0.66 431.7 0.65 6.66 1.95 69.4 0.92 378.9 0.69 7.35 1.95 63.3
+L490: Values are pg/mL. Abbreviations: IFN- , interferon gamma; IL, interleukin; IL-1ra, interleukin 1 receptor antagonist; TNF- , tumor necrosis factor.
+L491: **Table S2** . Concentrations of metabolites contained in the red beetroot juice supplement
+L492: used in the study.
+L493: **Class** **Metabolites** **Concentration (mg/100mL)**
+L494: Amino acids
+L495: Organic acids
+L496: Carbohydrates
+L497: Miscellaneous
+L498: Alanine 90.70 ± 7.00
+L499: Asparagine 28.97 ± 2.25
+L500: Gamma-aminobutyric acid 11.95 ± 0.88
+L501: Glutamate 155.90 ± 6.80
+L502: Glutamine 80.20 ± 8.40
+L503: Isoleucine 15.9 ± 1.20
+L504: Leucine 7.81 ± 0.59
+L505: Phenylalanine 0.57 ± 0.05
+L506: Threonine 10.78 ± 0.86
+L507: Tryptophan 2.65 ± 0.19
+L508: Tyrosine 6.09 ± 0.47
+L509: Valine 15.40 ± 1.20
+L510: Betalamic acid 0.76 ± 0.07
+L511: Citrate 169 ± 14
+L512: Formate 1.42 ± 0.09
+L513: Fumarate 0.69 ± 0.05
+L514: Malate 84.56 ± 7.25
+L515: 4-hydroxybenzoate 0.39 ± 0.03
+L516: 4-hydroxycumarate 1.05 ± 0.05
+L517: Arabinose 9.56 ± 0.78
+L518: Fructose 161 ± 11
+L519: Glucose 393 ± 31
+L520: Sucrose 5610 ± 454
+L521: Betaine 245 ± 20
+L522: Betanin 12.55 ± 1.12
+L523: Choline 1.91 ± 0.18
+L524: Dopamine 7.26 ± 0.65
+L525: Myoinositol 147 ± 12
+L526: Trigonelline 1.13 ± 0.11
+L527: Values are mean  standard deviation. Metabolites were measured by nuclear magnetic
+L528: resonance spectroscopy.
+[24ms]
+

@@ -1,0 +1,1001 @@
+L1: KiwiC for Vitality: Results of a Placebo-Controlled Trial Testing the Effects of Kiwifruit or Vitamin C Tablets on Vitality in Adults with Low Vitamin C Levels
+L2: Nutrients (2022)
+L3: Tamlin S. Conner, Benjamin D. Fletcher, Jillian J. Haszard, Juliet M. Pullar, Emma Spencer, Louise A. Mainvil, Margreet C. M. Vissers
+L4: 1 Department of Psychology, University of Otago, Dunedin 9054, New Zealand;  ben.fletcher@postgrad.otago.ac.nz
+L5: 2 Centre for Free Radical Research, Department of Pathology and Biomedical Science, University of Otago, Christchurch 8140, New Zealand;  jill.haszard@otago.ac.nz  (J.J.H.);  juliet.pullar@otago.ac.nz  (J.M.P.);  margreet.vissers@otago.ac.nz  (M.C.M.V.)
+L6: 3 Department of Pathology and Biomedical Science, University of Otago, Christchurch 8140, New Zealand;  emma.spencer@otago.ac.nz
+L7: 4 Department of Human Nutrition, University of Otago, Dunedin 9054, New Zealand;  louise.mainvil@icloud.com
+L8: Consumption of vitamin C-rich fruits and vegetables has been associated with greater feelings of vitality. However, these associations have rarely been tested in experimental trials. The aim of the current study was to test the effects of eating a vitamin C-rich food (kiwifruit) on subjective vitality and whether effects are driven by vitamin C. Young adults ( n  = 167, 61.1% female, aged 18–35 years) with plasma vitamin C < 40 µmol/L were allocated to three intervention conditions: kiwifruit (2 SunGold™ kiwifruit/day), vitamin C (250 mg tablet/day), placebo (1 tablet/day). The trial consisted of a two-week lead-in, four-week intervention, and two-week washout. Plasma vitamin C and vitality questionnaires (total mood disturbance, fatigue, and well-being) were measured fortnightly. Self-reported sleep quality and physical activity were measured every second day through smartphone surveys. Nutritional confounds were assessed using a three-day food diary during each study phase. Plasma vitamin C reached saturation levels within two weeks for the kiwifruit and vitamin C groups. Participants consuming kiwifruit showed a trend of improvement in mood disturbance, significantly decreased fatigue, and significantly improved well-being after two weeks of the intervention. Improvements in well-being remained elevated through washout. Consumption of vitamin C tablets alone was associated with improved well-being after two weeks, and additionally improved mood and fatigue for participants with consistently low vitamin C levels during lead-in. Diet records showed that participants consuming kiwifruit reduced their fat intake during the intervention period. Intervention effects remained significant when adjusting for condition allocation groupings, age, and ethnicity, and were not explained by sleep quality, physical activity, BMI, or other dietary patterns, including fat intake. There were no changes in plasma vitamin C status or vitality in the placebo group. Whole-food consumption of kiwifruit was associated with improved subjective vitality in adults with low vitamin C status. Similar, but not identical changes were found for vitamin C tablets, suggesting that additional properties of kiwifruit may contribute to improved vitality.
+L9: Article
+L10: Vitamin C status; energy; well-being; kiwifruit; mood
+L11: 1. Introduction
+L12: There is growing evidence that increased consumption of fruit and vegetables is associated with subjective feelings of vitality, which constitutes feelings of less fatigue, improved mood, and a “zest for life” [ 1 , 2 , 3 ], in conjunction with decreased levels of depression, anxiety, and stress [ 2 , 4 , 5 ]. Fruit and vegetables are rich in numerous essential nutrients and are the main source of vitamin C for humans and other species that cannot synthesize this compound in the liver [ 6 , 7 ]. Vitamin C availability determines intracellular levels throughout the body and saturation in most organs is achieved when plasma concentrations are >60 µmol/L [ 8 , 9 , 10 ]. Tissue vitamin C content is variable and some organs such as the brain and adrenals preferentially accumulate high concentrations of the vitamin even when plasma levels are below saturation [ 10 , 11 ]. High intracellular concentrations inside these organs coincide with a demand for ascorbate as a cofactor to support Cu- and Fe-containing enzymes, including those responsible for the synthesis of adrenalin, peptide hormones and collagen [ 12 , 13 , 14 , 15 ].
+L13: Insufficient intake of vitamin C results in lowered plasma ascorbate status. Levels below 11 µmol/L are indicative of the deficiency disease, scurvy [ 16 , 17 ], which is accompanied by impaired collagen synthesis resulting in skin changes, bruising, bleeding gums, and poor wound healing [ 7 , 18 ]. Early symptoms of vitamin C deficiency, including fatigue, depression, mental weariness, social introversion, hysteria, hypochondriasis, and reduced motivation and arousal [ 18 , 19 , 20 , 21 , 22 ], become apparent when plasma levels are <23 µmol/L, a condition described as hypovitaminosis C [ 20 , 21 ].
+L14: Several studies have suggested that increasing vitamin C intake to ensure plasma and tissue saturation can decrease the fatigue-related symptoms of vitamin C insufficiency and improve physical activity levels [ 16 , 23 , 24 ]. We, and others, have reported improvements in positive mood and vitality in association with increased fruit and vegetable intake [ 3 , 25 , 26 , 27 , 28 ]. Improved vitamin C status is closely aligned with increased fruit and vegetable consumption [ 29 , 30 , 31 ] and, given the role of vitamin C in neurotransmitter, norepinephrine, and peptide hormone synthesis [ 12 , 13 , 14 , 15 ], it is possible that many of the beneficial effects of fruit and vegetables could be attributed to this component. To determine the contribution of vitamin C to a food-related health benefit requires a specifically targeted and well-controlled study and this was the primary aim of our placebo-controlled intervention study.
+L15: We have previously reported pilot evidence of vitality improvements in young men with low baseline plasma vitamin C levels following a six-week intervention with kiwifruit, a high vitamin C food [ 32 ]. Although kiwifruit consumption resulted in the expected plasma saturation, we could not determine the relative contributions of the whole fruit or the vitamin C component to the observed decreased fatigue and improved vigour scores [ 32 ]. The current study was designed as a placebo-controlled trial to investigate the effects of increased vitamin C consumption via a food (kiwifruit), or tablets, on vitality changes in a sample of healthy young adults with low baseline vitamin C levels. The primary vitality outcome measures were self-reported mood disturbance, fatigue, and well-being, which were measured fortnightly during the study. Smartphone surveys were also administered every second night during the study to track day-level changes in sleep and physical activity while also minimising retrospective recall. We hypothesised that participants who consumed kiwifruit or vitamin C tablets would show greater improvements in their mood, fatigue, and well-being over time, relative to those who consumed placebo tablets. As blood plasma vitamin C levels were monitored fortnightly throughout the study, we also hypothesised that changes in vitamin C levels would mirror the improved psychological outcomes reported from consumption of kiwifruit or vitamin C tablets, relative to placebo.
+L16: 2. Materials and Methods
+L17: 2.1. Trial Design
+L18: The study was preregistered with the Australian and New Zealand Clinical Trial Registry (Trial ID: ACTRN12617001031358) and approved by the New Zealand Health and Disability Ethics Committee (17/NTB/104). The study was a three-armed, randomized (1:1:1 ratio), parallel arm, placebo-controlled trial ( Figure 1 ). Participants were selected for the study following extensive screening that included measurement of plasma vitamin C status (see Screening section). The baseline plasma vitamin C status and vitality for enrolled participants was assessed before and after a two-week lead-in period. During a four-week intervention period the participants consumed, daily, either two SunGold™ kiwifruit, a chewable vitamin C tablet, or a chewable placebo tablet matched for appearance and flavour. A wash-out period established whether participants returned to baseline following the intervention. Plasma vitamin C levels and vitality outcomes were measured fortnightly across the study.
+L19: 2.2. Participant Recruitment and Screening
+L20: Participants were recruited and enrolled from university and polytechnic campuses in Dunedin, New Zealand, between July 2017 and April 2018. Eligibility criteria shown in  Table 1  were used to recruit a cohort of young adults with low baseline vitamin C status. Participants completed an online screening questionnaire that accessed all eligibility criteria (except for vitamin C levels) prior to being invited to a nutrition clinic at the University of Otago where a registered nurse took blood samples to determine participants’ vitamin C levels. The flow of participants is represented in  Figure 2 . We screened 726 eligible individuals, measuring plasma vitamin C levels from fasting blood samples. Participants with plasma vitamin C concentration of ≤40 µmol/L were invited into the study ( n  = 180) and subsequently enrolled ( n  = 170) and randomized to a treatment arm ( n  = 167).
+L21: 2.3. Condition Allocation
+L22: Our intention was to avoid participants being exposed to the other conditions during allocation of the intervention (e.g., participants seeing others receiving kiwifruit when they received tablets or vice versa). This was achieved by group randomisation based on scheduled clinic, either on separate days or across days, to ensure that everyone attending the same clinic would receive either kiwifruit or tablets. Participants receiving tablets at a given clinic were typically a random mix of the active and placebo groups. The allocation of clinics was determined by the lead author using a random number generator. As allocation occurred after participants were already enrolled into their clinic day (usually Mon–Thurs), the clinical study co-ordinator and prospective participants were unaware of their allocation when booking clinic appointments and did not learn of their allocation until they attended the clinic. A delay in the delivery of tablets meant that clinics in the first and second weeks were non-randomly allocated to the kiwifruit condition, and those in the third and fourth weeks, to the tablet conditions (randomised to placebo or vitamin C), with the remaining clinics randomised as intended. A randomisation schedule is shown in Supplementary Figure S1. Randomisation groups were accounted for in the statistical analyses (see Statistical Analyses, below). Tablets were bottled and labelled by the lead author (TSC) with the label including only the participant’s first and last name and tablet instructions to “chew one tablet daily, store in a dark dry place, and return bottle and unused tablets on next visit”. All research assistants and participants were double- blinded to their tablet condition. It was not possible to blind research assistants or participants to the kiwifruit condition. The separation of allocation clinics, however, meant that these participants were unaware of the nature of the other treatment conditions. Condition information was kept in an electronic password-protected document by the lead author (TSC) and unblinded following data collection and entry.
+L23: 2.4. Procedure
+L24: Participants enrolled in the study attended one clinic session every two weeks during the eight-week study (5 clinic visits). At clinic visit 1 of the study, height, and weight were recorded to calculate BMI (kg/m 2 ), a fasting blood sample was taken for vitamin C analysis, and the participants completed the vitality questionnaires. During clinic visits 2 and 3, participants were provided with a two-week supply of placebo tablets, vitamin C tablets, or kiwifruit. In addition, a comprehensive three-day food and beverage record was distributed during clinic visits 1, 3, and 4, and returned at the following clinic visits. Weight was also recorded following the intervention to calculate post-intervention BMI. See  Figure 1  for the study timeline.
+L25: Throughout the entire eight-week trial, participants were sent brief smartphone surveys every alternate night to measure secondary covariates of self-reported sleep and physical activity, plus other outcomes not discussed in this report. A total of 29 smartphone surveys were sent to participants every other night around 6 p.m. for the duration of the study, starting the day of their first clinic visit and ending on the day of their last clinic visit. They were asked to respond to the survey that night before going to bed. If participants missed a smartphone survey, they were sent an email the following evening, which included a link to complete a make-up smartphone survey for the following day. If another consecutive survey was missed, a research assistant called the participant to confirm that there were no technical issues, and to ensure that the participant was still happy to participate.
+L26: 2.5. Intervention
+L27: Participants were supplemented with either two SunGold™ kiwifruit per day, chewable vitamin C tablets, or chewable placebo tablets, for four weeks. SunGold™ kiwifruit contain 160 ± 31 mg of vitamin C per 100 g (Mean ± SD), and two SunGold™ kiwifruit (~150g combined weight) contain a total of approximately 250 mg of vitamin C [ 33 ]. To help preserve the SunGold™ kiwifruit, participants were instructed to store their kiwifruit in their refrigerator. Our independent analyses indicated that storage conditions did not affect the vitamin C content of the fruit. Each vitamin C tablet contained 250 mg of vitamin C and was identical in flavour and appearance with placebo tablets that contained no active vitamin C ingredients (both manufactured by Tishcon Corporation, Salisbury, MD, USA). Participants were instructed to store their tablets in a cool, dry place, such as in a cupboard.
+L28: 2.6. Demographic and Health Characteristics
+L29: Demographic measures collected at the onset of the study included age, gender (male, female, and gender diverse), ethnicity (New Zealand Census categories, multiple endorsements allowed), year at university (1 to 6), and current socioeconomic status (measured by three items (“I have enough money to buy things I want”, “I don’t need to worry too much about paying my bills”, and “I don’t think I’ll have to worry about money too much in the future”), answered from 1 (strongly disagree) to 7 (strongly agree) (averaged, α = 0.79) [ 34 ]). Health information collected at the onset of the study included past and current smoking status, typical weekly alcohol use, typical daily fruit and vegetable consumption (“How many days a week do you eat fruit/vegetables?” (0 to 7 days), “On days you eat fruit/vegetables, how many servings do you usually eat?” (0.5 to 6+ servings), multiplied and divided by 7).
+L30: 2.7. Primary Outcome Vitality Measures
+L31: The fortnightly survey consisted of three validated scales that measured experiences of vitality “during the past week, including today”. The Profile of Mood States questionnaire short form (POMS-SF) [ 35 ] is a 35-item measure where mood items are rated on a five-point Likert-type scale ranging from 0 (not at all) to 4 (extremely). The mood items reflect six factors of tension-anxiety, depression-dejection, anger-hostility, vigour-activity, fatigue-inertia, and confusion-bewilderment. Using these six factors, a total mood disturbance (TMD) was calculated (minimum to maximum score of −20 to 100) by summing the scores from the negative mood factors and subtracting the score from the vigor factor (Cronbach’s αs = 0.87–0.92). The Multidimensional Fatigue Symptom Inventory—short form (MFSI-SF) [ 36 ] is a 30-item measure that assesses general fatigue, physical fatigue, emotional fatigue, mental fatigue, and vigour (each with a maximum score of 24), rated on a five-point Likert-type scale ranging from 0 (not at all) to 4 (extremely). The vigour score was deducted from remaining sum scores to give a total fatigue score (minimum to maximum score of −24 to 96) (αs =0.89–0.96 across the 5 time points). The Warwick–Edinburgh Mental Well-being Scale (WEMWBS) [ 37 ] comprises 14 positive psychological well-being and vitality statements, which include feelings of cheerfulness, interest in new things, and spare energy levels, rated on a five-point Likert-type scale ranging from 1 (none of the time) to 5 (all of the time). All 14 items were summed to give a total well-being score (minimum to maximum score of 14 to 70) (αs = 0.91–0.93).
+L32: 2.8. Smartphone Surveys
+L33: Automated smartphone surveys asked participants questions about their sleep and physical activity as secondary covariates. Sleep duration was measured using the single question “Approximately how many hours did you sleep last night?”, participants answered using a pulldown menu on their smartphone, which ranged from 0 to 24 h, increasing in increments of 30 min. Sleep quality was assessed with a single question on a 10-point Likert scale, “Please rate the quality of your sleep last night: 0 (“worst possible sleep”) to 10 (“best possible sleep”)”. Physical activity was assessed with the single item activity questionnaire, “Today, have you done a total of 30 min or more of physical activity, enough to raise your breathing rate? (sport, exercise, brisk walking, or cycling)”, answered with a “yes” (1) or a “no” (0).
+L34: 2.9. Dietary Intake
+L35: Participants completed a diet and beverage record on three non-consecutive days, over a two-week period, at each phase of the study (lead-in, intervention, and washout). Diet records were used to calculate macronutrients to determine if dietary intake was equivalent between conditions over time. The food and beverage records were calculated using Diet Cruncher software (version 1.6, Way Down South Software, Dunedin, New Zealand) and the New Zealand FOODfiles Food Composition Database (2006).
+L36: 2.10. Vitamin C Analysis
+L37: Fasting blood samples were kept on ice and processed within 2 h of collection as previously described [ 38 ]. Briefly, blood samples were centrifuged at 1000×  g  for 10 min at 4 °C, 700 μL of plasma removed and mixed with 700 µL cold 0.54 mol/L perchloric acid/DTPA solution, vortexed, and placed on ice for ten minutes. Precipitated protein was removed by centrifugation at 13,000×  g  for two minutes, and two samples of 500 μL supernatant stored at −80 °C. Samples were incubated with the reducing agent tris(2-carboxyethyl)phosphine hydrochloride (TCEP) to convert any oxidised ascorbate to the reduced form and vitamin C content was determined by high performance liquid chromatography (HPLC) with electrochemical detection [ 38 , 39 ]. Vitamin C concentration was calculated relative to an ascorbic acid standard curve run on the same day.
+L38: 2.11. Missing Data Treatment and Statistical Analyses
+L39: Data were analysed with SPSS (version 26) and GraphPad Prism (version 8) with the alpha level set at 0.05 and two-tailed tests of significance. All participants randomized ( n  = 167) to a condition were included in the analyses following the “once randomized, always analysed principle” [ 40 ]. Specifically, participants from the randomized sample ( n  = 167) with any data at any point were included in the descriptive statistics, figures, and statistical analyses, reflecting an available cases approach, using all observed data with pairwise deletion only. We used this available cases approach with recommended sensitivity analysis comparisons because the amount of missing data was relatively small (3.36% missing data values) and below the 5% missingness rule-of-thumb [ 41 , 42 , 43 ]. Missing data were mainly due to drop out over the study duration, resulting in a monotone pattern, although this was broken by a general pattern of missingness for some data. Our data were determined to be not missing completely at random (Little’s MCAR test = χ 2  (490) = 597.57,  p  = 0.001). Due to mental health outcomes being the primary measure, there was some concern that individuals with poorer mental health may be more likely to drop out of the study resulting in data missing not at random (MNAR). There was no evidence for this concern because the baseline distributions in total mood disturbance, fatigue, and well-being between participants who completed washout and participants who dropped out were relatively similar. Thus, we proceeded under the missing at random assumption (MAR) and completed sensitivity analysis to test the robustness of assumptions.
+L40: Descriptive statistics for participant characteristics were computed and the study outcome measures were plotted over time for each condition (vitamin C, total mood disturbance, fatigue, and well-being across weeks 0, 2, 4, 6, and 8 for the three conditions). Differences between outcome measures at baseline and intervention within each condition were determined with paired  t -tests, comparing each intervention point at weeks 4 and 6, and the washout point at week 8, with the baseline measure at week 2 (second lead-in). Differences between conditions between baseline and intervention time points were investigated with ANOVA (mixed ANOVAs with condition (placebo, vitamin C, and kiwifruit) and time (Study Week 2, 4; Study Week 2, 6; or, Study Week 2, 4, 6) as factors) and ANCOVA (adding to the above analysis of variance models any covariates reflecting significant between-condition differences in demographic, health, or dietary factors). One-way ANOVA was used to determine any demographic, health, or dietary differences between conditions at each phase of the study. Post hoc analyses with Tukey’s HSD (α = 0.05) were used to determine differences between conditions. If the homogeneity of variance was violated, then Welch’s F test and post hoc analyses with Games-Howell were conducted. All ANOVA analyses were repeated for sensitivity analysis comparisons to assess the robustness of the sample due to missing data. Using pattern mixture models, different distributions between participants who dropped out and who remained in the study were analysed (see Online  Supplementary Material ).
+L41: 3. Results
+L42: As shown in  Figure 2 , a total of 170 participants enrolled in the study and attended the baseline session (Week 0). Three people withdrew or were excluded from the study prior to randomization, leaving 167 participants randomized into conditions and included in the primary available cases analysis. After randomization, five people never received their intervention (two for no contact/no show, both assigned to placebo condition; one withdrew/no longer available, assigned to vitamin C condition; two disliked assigned condition and were unwilling to adhere, one assigned to vitamin C condition and one assigned to kiwifruit condition). A further three people withdrew or were excluded for health or medical reasons prior to completing the four-week intervention period (two for health reasons, both in vitamin C condition; one started medication, in kiwifruit condition). Thus, a total of 159 participants completed the four-week intervention and 155 completed the full washout.
+L43: For more detail, see  Table 2 . These numbers reflect a post-randomization attrition rate of 4.79% for completing the four-week intervention (placebo = 3.70%; vitamin C = 7.14%; and kiwifruit = 3.51%), and 7.19% for completing the full study including washout (placebo = 5.56%; vitamin C = 8.93%; kiwifruit = 7.02%). Attrition rates did not differ by condition ( p s = 0.599 and 0.760).
+L44: Repeated measurement of plasma vitamin C status during the lead-in period showed considerable variation in a number of individuals, with many presenting above initial recruitment levels (40 µmol/L) and some increasing to well above saturation levels (60 µmol/L) prior to intervention ( Figure 3 ). This meant that some participants with adequate vitamin C levels were receiving the intervention. Therefore, we ran two additional subgroups analyses to try to address our original research hypothesis of testing the intervention on people with low vitamin C. We ran a per protocol (PP) analysis on 92 participants with plasma vitamin C level <40 µmol/L during the lead-in period, and a second analysis on 128 participants who maintained below saturation levels of vitamin C (<60 µmol/L) during the lead-in period, as this latter analysis achieved sufficient power and still assessed individuals with low vitamin C levels (a priori power analyses indicated that 120 participants (40 per condition) provided 80% power to detect an effect size of 0.7). Demographic characteristics for the PP subgroup ( n  = 92) and the below saturation vitamin C subgroup ( n  = 128) are reported in the Online  Supplementary Material . For all analysis, participants were analysed according to their originally assigned condition.
+L45: The participant baseline characteristics for the sample overall and by condition are detailed in  Table 3 , with additional descriptive statistics in  Supplemental Tables S1 and S2 . The recruited cohort was 40/60% men/women, was ethnically heterogeneous and of slightly above average socio-economic status. The average BMI was 24 ± 4.4 (Mean ± SD), with most participants falling within the healthy range; range was from 13 to 43. The sample was not especially distressed as shown by the mean scores on the vitality measures from the two lead-in clinic visits ( Supplemental Table S1 ). The average total mood disturbance reported at lead-in was relatively low (mean ( M ) = 5.68–5.38, SD = 14.12–16.63), with higher scores indicating worse mood on a scale from −20 to 100. Average fatigue was also relatively low ( M  = 2.45–1.18, SD = 14.24–15.57), with higher scores indicating higher fatigue on a scale from −24 to 96. Average well-being was moderate to high ( M  = 47.85–48.52, SD = 8.65–8.96), with higher scores indicating greater well-being on a scale from 14 to 70. The three conditions were mostly equivalent in demographic characteristics, baseline health characteristics, baseline vitality measures, and baseline vitamin C levels (ANOVAs or Chi-Squares not significant), except that the kiwifruit condition had younger participants (F(2.164) = 8.906,  p  < 0.001) with fewer years at university (F(2.164) = 3.305,  p  = 0.039) and a trend towards fewer Asian participants (χ 2  (2.167) = 5.230,  p  = 0.073) than the other conditions. Moreover, the placebo condition had lower lead-in sleep quality than the vitamin C condition (F(2.163) = 3.054,  p  = 0.050). Accordingly, these variables were controlled for in ANCOVA.
+L46: Plasma vitamin C levels were significantly affected by both the kiwifruit and vitamin C tablet interventions and reached saturation levels (>60 µmol/L) within two weeks ( Table 4  and  Figure 3 ). The vitamin C levels were mostly equivalent for the kiwifruit and vitamin C conditions during weeks 2 to 8, except that the vitamin C condition had a trend towards higher levels of vitamin C than the kiwifruit condition at week 6 (81 vs. 75 µmol/L, t(105) = 1.860,  p  = 0.066). Levels were maintained at saturation for the duration of the intervention in both conditions. In contrast, there was no change in vitamin C status throughout the study for those in the placebo condition. Vitamin C levels for the intervention conditions decreased significantly following a two-week washout (Week 8) but were still higher than the baseline levels and the placebo group (both different from Week 2 at  p  < 0.001) ( Figure 3 ).
+L47: The changes in the primary vitality outcomes by condition for the total sample ( n  = 167) are shown in  Figure 4  and  Supplemental Table S1 , which compares two weeks of intervention (Study Week 4), the end of the intervention (Study Week 6), and washout (Study Week 8), to the end of the lead-in period (Study Week 2). For the POMS total mood disturbance, only participants in the kiwifruit condition ( Figure 4 ) showed significantly reduced total mood disturbance after two weeks of intervention (Study Week 4), and at the end of the intervention (Study Week 6) which returned to baseline at washout (Study Week 8). Participants in the vitamin C condition showed non-significant reductions in their POMS total mood disturbance ( Figure 4 ) and those in the placebo condition were unchanged over time ( Figure 4 ). Participants in the kiwifruit condition showed a trend reduction in fatigue after two weeks of supplementation ( Figure 4 ) but not at four weeks of supplementation (Study Week 6). For participants in the vitamin C condition, fatigue increased significantly upon withdrawal of vitamin C during washout ( p  < 0.05). No changes in fatigue were seen in the placebo condition. For well-being, there was a significant increase in well-being after two weeks of kiwifruit supplementation, which remained elevated after four weeks of supplementation and did not decrease at washout ( Figure 4 ). Participants in the vitamin C group also showed a trend increase in well-being at the end of the intervention ( Figure 4 ), which was eliminated at washout. There was no change in well-being in the placebo group except for an increase between Study Week 4 and 6 of placebo supplementation, which was mainly due to well-being returning to baseline levels ( Supplemental Table S1 ). There was no reported or observed harm or adverse events as a result of any intervention arm in this study.
+L48: The analysis of variance results is presented in  Table 5 . The available cases analysis (far right columns) showed significant condition x time effects when comparing Study Week 2 (end of lead-in) with Study Week 4 (second week of intervention) for POMS total mood disturbance ( p  = 0.035, partial eta squared (η p 2 ) = 0.041) and well-being ( p  = 0.009, η p 2  = 0.058) and a trend for fatigue ( p  = 0.063, η p 2  = 0.034). These effects remained significant when controlling for the demographic and health covariates. However, there were no significant condition x time effects when comparing Study Week 2 (end of lead-in) with Study Week 6 (end of intervention; all ns), and there was only a trend for well-being when comparing all three time points together ( p  = 0.054, η p 2  = 0.029). Results were similar in the adjusted models.
+L49: The intervention effects were not due to differences between conditions in BMI (Welch’s F(2.99.036) = 0.104,  p  = 0.901), physical activity (intervention weeks 3–4, F(2.158) = 0.285,  p  = 0.752; intervention weeks 5–6, F(2.157) = 0.029,  p  = 0.972), sleep quality (intervention weeks 3–4, F(2.158) = 0.657,  p  = 0.520; intervention weeks 5–6, F(2.157) = 0.643,  p  = 0.527), sleep quantity (intervention weeks 3–4, F(2.158) = 0.370,  p  = 0.692), dietary factors such as total protein intake (F (2.156) = 0.556,  p  = 0.575), or total carbohydrate intake (F (2.156) = 2.198,  p  = 0.114). There was a trend difference between conditions for sleep quantity (intervention weeks 5–6, F(2.157) = 2.496,  p  = 0.086), which was driven by a trend for participants in the vitamin C condition to sleep for marginally longer compared to the placebo condition ( p  = 0.095), but not the kiwifruit condition ( p  = 0.194). There was also a trend difference between conditions for total energy intake (KJ) (F (2.156) = 2.706,  p  = 0.070). A post hoc Tukey HSD test indicated a trend for lower total energy intake (KJ) for the kiwifruit condition during the second half of the intervention (weeks 5–6) compared to the vitamin C condition ( p  = 0.073). This difference between conditions was driven by total fat intake (Welch’s F (2.96.204) = 4.016,  p  = 0.021). A post hoc Games-Howell test indicated significantly lower total fat intake (grams) for participants in the kiwifruit condition during the second half of the intervention (weeks 5–6) compared to participants in the vitamin C condition ( p  = 0.019;  Supplemental Table S2 ). Importantly, as shown in  Table 5 , adjusting for the difference in sleep quantity and fat intake did not change the condition × time effects.
+L50: Sensitivity analysis using pattern mixture models based on monotone missing data for the primary outcomes suggested that the observed cases analysis was mostly robust (see Online  Supplementary Material ). When looking at different patterns of missing data, the results maintained the same patterns ( Supplemental Table S12 ). Sensitivity analysis of total mood disturbance, fatigue, and well-being did not weaken results.
+L51: The changes in the vitality outcomes by condition for the below saturation vitamin C sample ( n  = 128) are shown in  Supplemental Table S5, Supplemental Figure S1 , and  Table 5 . When testing individuals with consistently below saturation levels of vitamin C during the lead-in phase, participants in the vitamin C arm showed reductions in fatigue after supplementing with vitamin C for two weeks ( p  = 0.065) and four weeks ( p  = 0.017), which returned to baseline levels at washout ( p  = 0.379). ANOVA results from  Table 5  also showed significant condition x time effects for fatigue in the low vitamin C group ( n  = 128). These patterns for fatigue were not observed when analysing the full sample suggesting that vitamin C benefits fatigue in those with low vitamin C levels. By contrast, the effects of kiwifruit were similar in the PP, below saturation vitamin C, and observed cases analyses and tended to occur early in the intervention at two weeks, whereas the effects from vitamin C alone tended to build up through the intervention. Results for the PP sample ( n  = 92) mostly mirrored results for the below saturation vitamin C sample and are shown in  Supplemental Table S9, Supplemental Figure S2 ,  Table 5  and  Table 6 .
+L52: 4. Discussion
+L53: Our randomised controlled trial aimed to investigate the extent to which vitamin C contributes to the mood improvements reported in association with increased fruit and vegetable intake [ 3 , 25 , 26 , 27 , 28 ]. We were able to compare the effects of increased vitamin C intake from a fruit source (SunGold™ kiwifruit) with the equivalent amount of vitamin C in tablet form and with a placebo tablet on subjective vitality in healthy young adults. Improvements in mood and well-being were apparent for the group consuming kiwifruit, whereas improvements in fatigue and well-being were apparent for the group consuming vitamin C but only if they had low levels of vitamin C as selected in the below saturation vitamin C or per protocol subgroups analyses. Importantly, there were no changes in any outcomes in the placebo group.
+L54: These results indicate that the vitamin C content of the fruit may be a significant component contributing to improvements in vitality. However, the kiwifruit-mediated effects were broader (affecting more outcomes for more people), and occurred earlier in the intervention at two weeks, whereas the effects from vitamin C alone were narrower (affecting fewer outcomes for specific types of people) and tended to occur throughout the intervention. These differences are notable, particularly given that the kiwifruit and tablet interventions resulted in a comparable increase in plasma vitamin C levels and there are no known differences in uptake and bioavailability of “synthetic” versus “natural” vitamin C [ 44 ]. In this regard, our study provides novel insight into the potential differences between single-nutrient supplementation with a vitamin C tablet versus provision of the same content of vitamin C from a whole fruit. It appears that additional and maybe extended benefits result from whole fruit consumption. This finding reinforces the potential health and well-being benefit from whole food rather than single-nutrient dietary supplementation, although neither intervention showed any harmful side-effects.
+L55: Other compounds in whole kiwifruit that could account for their broader effects include fibre, folate, or potassium, all of which are relatively high in SunGold™ kiwifruit [ 33 , 45 , 46 ]. Increased dietary fibre intake can benefit the gut microbiome, which has been linked to changes in mental health [ 47 , 48 , 49 ]. Low folate intake has been associated with negative mental health outcomes, such as depression [ 50 ], and a low sodium and high potassium diet is associated with greater vigour and lower levels of depression, tension, and POMS total mood disturbance [ 51 ]. However, the relationship between dietary factors and mental health is complex and is likely mediated by several micronutrient interactions. Further research is required to determine the full impact that dietary factors have on mental health in isolation. Interestingly, we found that supplementing with kiwifruit was associated with reductions in the intake of dietary fat. This may be due to participants substituting kiwifruit for high-fat snacks and/or reductions in appetite from consuming a nutrient-dense whole food. Controlling for fat intake did not attenuate or eliminate the intervention effect, suggesting that reduced fat intake is unlikely to be driving the differences in vitality between the kiwifruit and vitamin C or placebo tablet groups.
+L56: Our study design had numerous strengths. The use of placebo and control groups is frequently problematic for food intervention studies and determination of the active ingredient in any particular food is challenging [ 52 ]. By assigning control arms that included a matched vitamin C tablet and a placebo tablet, we were able to include a blinded intervention (tablets) that avoided the complexities associated with the assignment of a different control food that can introduce potentially confounding nutrients. Use of the vitamin C tablet and placebo arms therefore assessed potential benefits of vitamin C on mental health in isolation to other dietary components [ 53 ]. Additional strengths included the length of the eight-week trial with lead-in and washout periods, extensive screening to identify people with low vitamin C levels that ensured that the intervention was appropriately targeted towards individuals in whom vitamin C supplementation would improve baseline status, strict inclusion and exclusion criteria to omit people with conditions that might affect vitamin C processing, and objective measurement of blood vitamin C levels at five time points.
+L57: At below-saturation levels, plasma vitamin C concentrations are very sensitive to changes in dietary intake [ 16 ]. Our observation that a number of individuals with an initial plasma concentration <40 µmol/L subsequently showed saturation levels >60 µmol/L during lead-in is consistent with a variable dietary intake for occasional fruit and vegetable eaters. This is potentially a limitation of the study. Running a per protocol (PP) and below saturation vitamin C analysis of those individuals whose plasma vitamin C levels were consistently low or below saturation during the lead-in period ensured that we could still understand how our intervention affected this susceptible population. This enabled us to show that single-nutrient supplementation with a vitamin C tablet was mainly beneficial in those below saturation levels of vitamin C. Further analysis of those with below saturation levels of vitamin C during lead-in allowed us to also assess the intervention on an adequately powered group ( n  = 128) in whom increases in vitamin C status was possible. The consistent monitoring of vitamin C levels is therefore a strength of this study and has enabled us to avoid the pitfalls of many other vitamin supplementation studies that have not monitored vitamin status, which potentially confounds interpretation [ 21 , 54 ]. Lastly, we noted a trend ethnicity imbalance between the kiwifruit group and the other conditions. Controlling for this imbalance reduced but did not eliminate our intervention effects, which suggest potential ethnicity-linked differences in the effects of vitamin C on vitality worthy of follow up. However, this remains an exploratory question for future research adequately powered to test for differences.
+L58: The similarities between the effects of vitamin C and kiwifruit on vitality outcomes suggests that the vitamin contributes to the beneficial effects of fruit consumption. This has often been suggested, but not directly tested. Vitamin C supports numerous functions in vivo that could account for these effects. It is an essential cofactor for two enzymes that synthesise carnitine that is necessary for fatty acid metabolism and energy production [ 55 , 56 ]. Vitamin C availability affects carnitine production in animals and humans and has been shown to affect energy production via fat metabolism in healthy individuals [ 24 , 55 , 57 , 58 ].
+L59: Vitamin C is also essential for the synthesis of neurotransmitters and peptide hormones in the nervous system and adrenal glands. The Cu-containing enzyme dopamine β-hydroxylase catalyses the conversion of dopamine to norepinephrine [ 14 , 59 , 60 ] and vitamin C deficiency results in decreased norepinephrine production in animals [ 61 , 62 , 63 ]. In addition, vitamin C is required for the regeneration of tetrahydrobiopterin, the enzyme cofactor for the tyrosine hydroxylase that produces dopamine [ 64 ]. Dopamine is a neurotransmitter important for contributing “zest to life” [ 65 ], suggesting a possible linking between vitamin C and vitality. The biosynthesis of many amidated peptide-based hormones, including oxytocin, vasopressin, thyrotropin-releasing hormone, and substance P, is catalysed by the vitamin C-dependent peptidylglycine α-amidating monooxygenase (PAM) [ 13 , 66 , 67 , 68 , 69 ]. Many of these hormones affect neural processes and could influence both physical and emotional well-being. In particular, oxytocin release is associated with many positive mood enhancing effects [ 70 ]. Strikingly, tissues where these catecholamines and peptide hormones are synthesised contain the highest levels of vitamin C in the body, i.e., pituitary, neurons, ovaries, testes, eyes, adrenals, placenta, thymus, and pancreas [ 13 , 69 , 71 ]. Based on the above research, it is clear that vitamin C has the potential to influence the nervous system.
+L60: However, it is also clear from our study that there are differences in effects between vitamin C alone and whole fruit. This is in line with other studies that have shown vitality gains with fruit and vegetable consumption independently of vitamin C status [ 25 ]. Together with the results from the current study, it would appear that there are indeed additional health benefits that are measurable in a healthy population and that can be gained from ensuring that essential micronutrients such as vitamin C are delivered through whole food rather than a supplement. Future research should also consider the wider mechanisms linking consumption of whole fruits and vegetables to subjective vitality.
+L61: Figure 1 Timeline of study design. Key Consent-Consent form and study information; Dem-Demographic questionnaire; Blood-Blood sample; BMI-Body mass index; Survey–Survey measuring mood disturbance (POMS), fatigue (MFSI-SF), and well-being (WEMWBS); Smart-Smartphone survey, every second day during week; FBR–3-day Food and Beverage Record is returned; Intervent–Intervention provided with a two week supply of supplement (placebo, vitamin C, or kiwifruit).
+L62: Figure 2 Participant flow diagram illustrating recruitment processes, inclusions and reasons for exclusion, allocated intervention condition, and withdrawals/loss-to-follow up. Below sat. vitamin C = Below saturation vitamin C status [selecting participants with vitamin C levels <60 µmol/L].
+L63: Figure 3 Plasma vitamin C concentrations over the study period for the total sample ( n  = 167). ( A – C ): Individual results for all participants randomized to ( A ) placebo, ( B ) vitamin C tablet, and ( C ) kiwifruit conditions. Solid black lines are individuals in the per protocol (PP) analyses with lead-in plasma vitamin C levels <40 µmol/L ( n  = 92). Combined black lines (solid and dotted) are individuals in the below saturation analyses with lead-in plasma vitamin C levels <60 µmol/L ( n  = 128). Brown dotted lines are individuals with lead-in plasma vitamin C levels >60 µmol/L excluded from the below saturation analysis ( n  = 39). ( D ): Combined results of all plasma vitamin C levels for the total sample ( n  = 167). Black = placebo tablet,  n  = 54; orange = vitamin C tablet,  n  = 56; green = kiwifruit,  n  = 57. ( E ): Combined results of all plasma samples for the cohort sub-set with vitamin C concentrations <60 µmol/L at baseline and lead in ( n  = 128). Black = placebo tablet,  n  = 45; orange = vitamin C tablet,  n  = 40; green = kiwifruit,  n  = 43. Data are the raw unadjusted means ± SE.
+L64: Figure 4 Changes in fortnightly ( A ) total mood disturbance scores (POMS), ( B ) multidimensional fatigue score (MFS), and ( C ) well-being (WB) over the study period for the total sample ( n  = 167). Results are presented as means ± SE for participants allocated to placebo tablet (black lines), vitamin C tablet (orange lines) and kiwifruit (green lines) conditions. Lead-in Week 2 served as baseline, which was compared against Week 4 and Week 6 of the intervention.
+L65: Click here for additional data file.
+L66: 1. Blanchflower D.G. 
+L67:  Oswald A.J. 
+L68:  Stewart-Brown S. 
+L69:  Is psychological well-being linked to the consumption of fruit and vegetables? Soc. Indic. Res. 2012 114 785 801 10.1007/s11205-012-0173-y
+L70: 2. Piqueras J.A. 
+L71:  Kuhne W. 
+L72:  Vera-Villarroel P. 
+L73:  Van Straten A. 
+L74:  Cuijpers P. 
+L75:  Happiness and health behaviours in Chilean college students: A cross-sectional survey BMC Public Health 2011 11 443 10.1186/1471-2458-11-443 21649907
+L76: 3. White B.A. 
+L77:  Horwath C.C. 
+L78:  Conner T.S. 
+L79:  Many apples a day keep the blues away-daily experiences of negative and positive affect and food consumption in young adults Br. J. Health Psychol. 2013 18 782 798 10.1111/bjhp.12021 23347122
+L80: 4. Crichton G.E. 
+L81:  Bryan J. 
+L82:  Hodgson J.M. 
+L83:  Murphy K.J. 
+L84:  Mediterranean diet adherence and self-reported psychological functioning in an Australian sample Appetite 2013 70 53 59 10.1016/j.appet.2013.06.088 23831151
+L85: 5. Głąbska D. 
+L86:  Guzek D. 
+L87:  Groele B. 
+L88:  Gutkowska K. 
+L89:  Fruit and vegetable intake and mental health in adults: A systematic review Nutrients 2020 12 115 10.3390/nu12010115
+L90: 6. Block G. 
+L91:  Norkus E. 
+L92:  Hudes M. 
+L93:  Mandel S. 
+L94:  Helzlsouer K. 
+L95:  Which plasma antioxidants are most related to fruit and vegetable consumption? Am. J. Epidemiol. 2001 154 1113 1118 10.1093/aje/154.12.1113 11744516
+L96: 7. Granger M. 
+L97:  Eck P. 
+L98:  Dietary Vitamin C in human health Adv. Food Nutr. Res. 2018 83 281 310 29477224
+L99: 8. Levine M. 
+L100:  Rumsey S.C. 
+L101:  Wang Y. 
+L102:  Park J. 
+L103:  Kwon O. 
+L104:  Amano N. 
+L105:  In situ kinetics: An approach to recommended intake of vitamin C Methods Enzymol. 1997 281 425 437 9251006
+L106: 9. Rumsey S. 
+L107:  Levine M. 
+L108:  Absorption, transport, and disposition of ascorbic acid in humans Nutr. Biochem. 1998 9 116 130 10.1016/S0955-2863(98)00002-3
+L109: 10. Levine M. 
+L110:  Wang Y. 
+L111:  Padayatty S.J. 
+L112:  Morrow J. 
+L113:  A new recommended dietary allowance of vitamin C for healthy young women Proc. Natl. Acad. Sci. USA 2001 98 9842 9846 10.1073/pnas.171318198 11504949
+L114: 11. Hasselholt S. 
+L115:  Tveden-Nyborg P. 
+L116:  Lykkesfeldt J. 
+L117:  Distribution of vitamin C is tissue specific with early saturation of the brain and adrenal glands following differential oral dose regimens in guinea pigs Br. J. Nutr. 2015 113 1539 1549 10.1017/S0007114515000690 25865869
+L118: 12. Meredith M.E. 
+L119:  May J.M. 
+L120:  Regulation of embryonic neurotransmitter and tyrosine hydroxylase protein levels by ascorbic acid Brain Res. 2013 1539 7 14 10.1016/j.brainres.2013.09.040 24095796
+L121: 13. Prigge S.T. 
+L122:  Mains R.E. 
+L123:  Eipper B.A. 
+L124:  Amzel L.M. 
+L125:  New insights into copper monooxygenases and peptide amidation: Structure, mechanism and function Cell. Mol. Life Sci. 2000 57 1236 1259 10.1007/PL00000763 11028916
+L126: 14. Levine M. 
+L127:  Ascorbic acid specifically enhances dopamine beta-monooxygenase activity in resting and stimulated chromaffin cells J. Biol. Chem. 1986 261 7347 7356 3711090
+L128: 15. Pihlajaniemi T. 
+L129:  Myllyla R. 
+L130:  Kivirikko K.I. 
+L131:  Prolyl 4-hydroxylase and its role in collagen synthesis J. Hepatol. 1991 13 (Suppl. S3) S2 S7 10.1016/0168-8278(91)90002-S
+L132: 16. Levine M. 
+L133:  Conry-Cantilena C. 
+L134:  Wang Y. 
+L135:  Welch R.W. 
+L136:  Washko P.W. 
+L137:  Dhariwal K.R. 
+L138:  Park J.B. 
+L139:  Lazarev A. 
+L140:  Graumlich J.F. 
+L141:  King J. 
+L142:  
+L143:  Vitamin C pharmacokinetics in healthy volunteers: Evidence for a recommended dietary allowance Proc. Natl. Acad. Sci. USA 1996 93 3704 3709 10.1073/pnas.93.8.3704 8623000
+L144: 17. Carr A.C. 
+L145:  Frei B. 
+L146:  Toward a new recommended dietary allowance for vitamin C based on antioxidant and health effects in humans Am. Soc. Clin. Nutr. 1999 69 1086 1107 10.1093/ajcn/69.6.1086
+L147: 18. Agarwal A. 
+L148:  Shaharyar A. 
+L149:  Kumar A. 
+L150:  Bhat M.S. 
+L151:  Mishra M. 
+L152:  Scurvy in pediatric age group—A disease often forgotten? J. Clin. Orthop. Trauma 2015 6 101 107 10.1016/j.jcot.2014.12.003 25983516
+L153: 19. Harrison F.E. 
+L154:  May J.M. 
+L155:  Vitamin C function in the brain: Vital role of the ascorbate transporter SVCT2 Free Radic. Biol. Med. 2009 46 719 730 10.1016/j.freeradbiomed.2008.12.018 19162177
+L156: 20. Kinsman R.A. 
+L157:  Hood J. 
+L158:  Some behavioral effects of ascorbic acid deficiency Am. J. Clin. Nutr. 1971 24 455 464 10.1093/ajcn/24.4.455 4397430
+L159: 21. Lykkesfeldt J. 
+L160:  Poulsen H.E. 
+L161:  Is vitamin C supplementation beneficial? Lessons learned from randomised controlled trials Br. J. Nutr. 2010 103 1251 1259 10.1017/S0007114509993229 20003627
+L162: 22. Léger D. 
+L163:  Scurvy Can. Fam. Physician 2008 54 1403 1406 18854467
+L164: 23. Cheraskin E. 
+L165:  Ringsdorf W.M.J. 
+L166:  Medford F.H. 
+L167:  Daily vitamin C consumption and fatigability J. Am. Geriatr. Soc. 1976 24 136 137 10.1111/j.1532-5415.1976.tb04284.x 765389
+L168: 24. Johnston C.S. 
+L169:  Barkyoumb G.M. 
+L170:  Schumacher S.S. 
+L171:  Vitamin C supplementation slightly improves physical activity levels and reduces cold incidence in men with marginal vitamin C status: A randomized controlled trial Nutrients 2014 6 2572 2583 10.3390/nu6072572 25010554
+L172: 25. Conner T.S. 
+L173:  Brookie K.L. 
+L174:  Carr A.C. 
+L175:  Mainvil L.A. 
+L176:  Vissers M.C. 
+L177:  Let them eat fruit! The effect of fruit and vegetable consumption on psychological well-being in young adults: A randomized controlled trial PLoS ONE 2017 12 e0171206 10.1371/journal.pone.0171206 28158239
+L178: 26. Mujcic R. 
+L179:  Oswald A.J. 
+L180:  Evolution of well-being and happiness after increases in consumption of fruit and vegetables Am. J. Public Health 2016 106 1504 1510 10.2105/AJPH.2016.303260 27400354
+L181: 27. Rooney C. 
+L182:  McKinley M.C. 
+L183:  Woodside J.V. 
+L184:  The potential role of fruit and vegetables in aspects of psychological well-being: A review of the literature and future directions Proc. Nutr. Soc. 2013 72 420 432 10.1017/S0029665113003388 24020691
+L185: 28. Jacka F.N. 
+L186:  Pasco J.A. 
+L187:  Mykletun A. 
+L188:  Williams L.J. 
+L189:  Hodge A.M. 
+L190:  O’Reilly S.L. 
+L191:  Nicholson G.C. 
+L192:  Kotowicz M.A. 
+L193:  Berk M. 
+L194:  Association of western and traditional diets with depression and anxiety in women Am. J. Psychiatry 2010 211 55 68 10.1176/appi.ajp.2009.09060881
+L195: 29. Choi J.E. 
+L196:  Ainsworth B.E. 
+L197:  Associations of food consumption, serum vitamins and metabolic syndrome risk with physical activity level in middle-aged adults: The National Health and Nutrition Examination Survey (NHANES) 2005–2006 Public Health Nutr. 2016 19 1674 1683 10.1017/S1368980015003742 26883125
+L198: 30. Paschalis V. 
+L199:  Theodorou A.A. 
+L200:  Kyparos A. 
+L201:  Dipla K. 
+L202:  Zafeiridis A. 
+L203:  Panayiotou G. 
+L204:  Vrabas I.S. 
+L205:  Nikolaidis M.G. 
+L206:  Low vitamin C values are linked with decreased physical performance and increased oxidative stress: Reversal by vitamin C supplementation Eur. J. Nutr. 2016 55 45 53 10.1007/s00394-014-0821-x
+L207: 31. Harding A.H. 
+L208:  Wareham N.J. 
+L209:  Bingham S.A. 
+L210:  Khaw K. 
+L211:  Luben R. 
+L212:  Welch A. 
+L213:  Forouhi N.G. 
+L214:  Plasma vitamin C level, fruit and vegetable consumption, and the risk of new-onset type 2 diabetes mellitus: The European prospective investigation of cancer—Norfolk prospective study Arch. Intern. Med. 2008 168 1493 1499 10.1001/archinte.168.14.1493 18663161
+L215: 32. Carr A.C. 
+L216:  Bozonet S.M. 
+L217:  Pullar J.M. 
+L218:  Vissers M.C. 
+L219:  Mood improvement in young adult males following supplementation with gold kiwifruit, a high-vitamin C food J. Nutr. Sci. 2013 2 e24 10.1017/jns.2013.12 25191573
+L220: 33. Nishiyama I. 
+L221:  Yamashita Y. 
+L222:  Yamanaka M. 
+L223:  Shimohashi A. 
+L224:  Fukuda T. 
+L225:  Oota T. 
+L226:  Varietal difference in vitamin C content in the fruit of kiwifruit and other actinidia species J. Agric. Food Chem. 2004 52 5472 5475 10.1021/jf049398z 15315387
+L227: 34. Griskevicius V. 
+L228:  Delton A.W. 
+L229:  Robertson T.E. 
+L230:  Tybur J.M. 
+L231:  Environmental contingency in life history strategies: The influence of mortality and socioeconomic status on reproductive timing J. Personal. Soc. Psychol. 2011 100 241 254 10.1037/a0021082 20873933
+L232: 35. McNair D.M. 
+L233:  Heuchert J.W.P. 
+L234:  Profiles of Mood States—Technical Update Multi-Health Systems Inc. Toronto, ON, Canada 2005
+L235: 36. Stein K.D. 
+L236:  Jacobsen P.B. 
+L237:  Blanchard C.M. 
+L238:  Thors C. 
+L239:  Further Validation of the Multidimensional Fatigue Symptom Inventory-Short Form J. Pain Symptom Manag. 2004 27 14 23 10.1016/j.jpainsymman.2003.06.003 14711465
+L240: 37. Tennant R. 
+L241:  Hiller L. 
+L242:  Fishwick R. 
+L243:  Platt S. 
+L244:  Joseph S. 
+L245:  Weich S. 
+L246:  Parkinson J. 
+L247:  Secker J. 
+L248:  Stewart-Brown S. 
+L249:  The Warwick-Edinburgh Mental Well-being Scale (WEMWBS): Development and UK validation Health Qual. Life Outcomes 2007 5 63 10.1186/1477-7525-5-63 18042300
+L250: 38. Pullar J.M. 
+L251:  Bayer S. 
+L252:  Carr A.C. 
+L253:  Appropriate handling, processing and analysis of blood samples is essential to avoid oxidation of vitamin C to dehydroascorbic acid Antioxidants 2018 7 29 10.3390/antiox7020029
+L254: 39. Carr A.C. 
+L255:  Bozonet S.M. 
+L256:  Pullar J.M. 
+L257:  Simcock J.W. 
+L258:  Vissers M.C. 
+L259:  A randomized steady-state bioavailability study of synthetic versus natural (kiwifruit-derived) vitamin C Nutrients 2013 5 3684 3695 10.3390/nu5093684 24067392
+L260: 40. Kruse R.L. 
+L261:  Alper B.S. 
+L262:  Reust C. 
+L263:  Stevermer J.J. 
+L264:  Shannon S. 
+L265:  Williams R.H. 
+L266:  Intention-to-treat analysis: Who is in? Who is out? J. Fam. Pract. 2002 51 969 971 12485553
+L267: 41. Jakobsen J.C. 
+L268:  Gluud C. 
+L269:  Wetterslev J. 
+L270:  Winkel P. 
+L271:  When and how should multiple imputation be used for handling missing data in randomised clinical trials–a practical guide with flowcharts BMC Med Res. Methodol. 2017 17 162 10.1186/s12874-017-0442-1 29207961
+L272: 42. Dettori J.R. 
+L273:  Norvell D.C. 
+L274:  Chapman J.R. 
+L275:  The sin of missing data: Is all forgiven by way of imputation? Glob. Spine J. 2018 8 892 894 10.1177/2192568218811922 30560043
+L276: 43. National Research Council 
+L277:  The prevention and treatment of missing data in clinical trials Panel on Handling Missing Data in Clinical Trials National Academies Press Washington, DC, USA 2010
+L278: 44. Carr A.C. 
+L279:  Vissers M.C. 
+L280:  Synthetic or food-derived vitamin C-are they equally bioavailable? Nutrients 2013 5 4284 4304 10.3390/nu5114284 24169506
+L281: 45. Richardson D.P. 
+L282:  Ansell J. 
+L283:  Drummond L.N. 
+L284:  The nutritional and health attributes of kiwifruit: A review Eur. J. Nutr. 2018 57 2659 2676 10.1007/s00394-018-1627-z 29470689
+L285: 46. U.S. Department of Agriculture 
+L286:  National Nutrient Database for Standard Reference Legacy Release Agricultural Research Service Beltsville, MD, USA 2018
+L287: 47. Dash S. 
+L288:  Clarke G. 
+L289:  Berk M. 
+L290:  Jacka F.N. 
+L291:  The gut microbiome and diet in psychiatry: Focus on depression Curr. Opin. Psychiatry 2015 28 1 6 10.1097/YCO.0000000000000117 25415497
+L292: 48. Scott K.P. 
+L293:  Duncan S.H. 
+L294:  Flint H.J. 
+L295:  Dietary fibre and the gut microbiota Nutr. Bull. 2008 33 201 211 10.1111/j.1467-3010.2008.00706.x
+L296: 49. Tap J. 
+L297:  Furet J.-P. 
+L298:  Bensaada M. 
+L299:  Philippe C. 
+L300:  Roth H. 
+L301:  Rabot S. 
+L302:  Lakhdari O. 
+L303:  Lombard V. 
+L304:  Henrissat E. 
+L305:  Corthier G. 
+L306:  
+L307:  Gut microbiota richness promotes its stability upon increased dietary fibre intake in healthy adults Environ. Microbiol. 2015 17 4954 4964 10.1111/1462-2920.13006 26235304
+L308: 50. Morris M.S. 
+L309:  Fava M. 
+L310:  Jacques P.F. 
+L311:  Selhub J. 
+L312:  Rosenberg I.H. 
+L313:  Depression and folate status in the US population Psychother. Psychosom. 2003 72 80 87 10.1159/000068692 12601225
+L314: 51. Torres S.J. 
+L315:  Nowson C.A. 
+L316:  Worsley A. 
+L317:  Dietary electrolytes are related to mood Br. J. Nutr. 2008 100 1038 1045 10.1017/S0007114508959201 18466657
+L318: 52. Staudacher H.M. 
+L319:  Irving P.M. 
+L320:  Lomer M.C. 
+L321:  Whelan K. 
+L322:  The challenges of control groups, placebos and blinding in clinical trials of dietary interventions Proc. Nutr. Soc. 2017 76 203 212 10.1017/S0029665117000350 28629483
+L323: 53. Adan R.A. 
+L324:  van der Beek E.M. 
+L325:  Buitelaar J.K. 
+L326:  Cryan J.F. 
+L327:  Hebebrand J. 
+L328:  Higgs S. 
+L329:  Schellekens H. 
+L330:  Dickson S.L. 
+L331:  Nutritional psychiatry: Towards improving mental health by what you eat Eur. Neuropsychopharmacol. 2019 29 1321 1332 10.1016/j.euroneuro.2019.10.011 31735529
+L332: 54. Michels A.J. 
+L333:  Frei B. 
+L334:  Myths, artifacts, and fatal flaws: Identifying limitations and opportunities in vitamin C research Nutrients 2013 5 5161 5192 10.3390/nu5125161 24352093
+L335: 55. Dunn W.A. 
+L336:  Rettura G. 
+L337:  Seifter E. 
+L338:  Englard S. 
+L339:  Carnitine biosynthesis from gamma-butyrobetaine and from exogenous protein-bound 6-N-trimethyl-L-lysine by the perfused guinea pig liver. Effect of ascorbate deficiency on the in situ activity of gamma-butyrobetaine hydroxylase J. Biol. Chem. 1984 259 10764 10770 6432788
+L340: 56. Rebouche C.J. 
+L341:  Ascorbic acid and carnitine biosynthesis Am. J. Clin. Nutr. 1991 54 (Suppl. S6) 1147S 1152S 10.1093/ajcn/54.6.1147s 1962562
+L342: 57. Nelson P.J. 
+L343:  Pruitt R.E. 
+L344:  Henderson L.L. 
+L345:  Jenness R. 
+L346:  Henderson L.M. 
+L347:  Effect of ascorbic acid deficiency on the in vivo synthesis of carnitine Biochim. Biophys. Acta 1981 672 123 127 10.1016/0304-4165(81)90286-5 6783120
+L348: 58. Noland R.C. 
+L349:  Koves T.R. 
+L350:  Seiler S.E. 
+L351:  Lum H. 
+L352:  Lust R.M. 
+L353:  Ilkayeva O. 
+L354:  Stevens R.D. 
+L355:  Hegardt F.G. 
+L356:  Muoio D.M. 
+L357:  Carnitine insufficiency caused by aging and overnutrition compromises mitochondrial performance and metabolic control J. Biol. Chem. 2009 284 22840 22852 10.1074/jbc.M109.032888 19553674
+L358: 59. Rush R.A. 
+L359:  Geffen L.B. 
+L360:  Dopamine beta-hydroxylase in health and disease Crit. Rev. Clin. Lab. Sci. 1980 12 241 277 10.3109/10408368009108731 6998654
+L361: 60. May J.M. 
+L362:  Qu Z.C. 
+L363:  Nazarewicz R. 
+L364:  Dikalov S. 
+L365:  Ascorbic acid efficiently enhances neuronal synthesis of norepinephrine from dopamine Brain Res. Bull. 2013 90 35 42 10.1016/j.brainresbull.2012.09.009 23022576
+L366: 61. Hoehn S.K. 
+L367:  Kanfer J.N. 
+L368:  Effects of chronic ascorbic acid deficiency on guinea pig lysosomal hydrolase activities J. Nutr. 1980 110 2085 2094 10.1093/jn/110.10.2085 6448279
+L369: 62. Deana R. 
+L370:  Bharaj B.S. 
+L371:  Verjee Z.H. 
+L372:  Galzigna L. 
+L373:  Changes relevant to catecholamine metabolism in liver and brain of ascorbic acid deficient guinea-pigs Int. J. Vitam. Nutr. Res. 1975 45 175 182 809379
+L374: 63. Bornstein S.R. 
+L375:  Yoshida-Hiroi M. 
+L376:  Sotiriou S. 
+L377:  Levine M. 
+L378:  Hartwig H.G. 
+L379:  Nussbaum R.L. 
+L380:  Eisenhofer G. 
+L381:  Impaired adrenal catecholamine system function in mice with deficiency of the ascorbic acid transporter (SVCT2) FASEB J. 2003 17 1928 1930 10.1096/fj.02-1167fje 12897061
+L382: 64. May J.M. 
+L383:  Qu Z.C. 
+L384:  Meredith M.E. 
+L385:  Mechanisms of ascorbic acid stimulation of norepinephrine synthesis in neuronal cells Biochem. Biophys. Res. Commun. 2012 426 148 152 10.1016/j.bbrc.2012.08.054 22925890
+L386: 65. Kringelbach M.L. 
+L387:  Berridge K.C. 
+L388:  Toward a functional neuroanatomy of pleasure and happiness Trends Cogn. Sci. 2009 13 479 487 10.1016/j.tics.2009.08.006 19782634
+L389: 66. Englard S. 
+L390:  Seifter S. 
+L391:  The biochemical functions of ascorbic acid Annu. Rev. Nutr. 1986 6 365 406 10.1146/annurev.nu.06.070186.002053 3015170
+L392: 67. Eipper B.A. 
+L393:  Mains R.E. 
+L394:  The role of ascorbate in the biosynthesis of neuroendocrine peptides Am. J. Clin. Nutr. 1991 54 (Suppl. S6) 1153S 1156S 10.1093/ajcn/54.6.1153s 1962563
+L395: 68. Kukucka M.A. 
+L396:  Misra H.P. 
+L397:  HPLC determination of an oxytocin-like peptide produced by isolated guinea pig Leydig cells: Stimulation by ascorbate Arch. Androl. 1992 29 185 190 10.3109/01485019208987723 1456839
+L398: 69. Sheldrick E.L. 
+L399:  Flint A.P. 
+L400:  Post-translational processing of oxytocin-neurophysin prohormone in the ovine corpus luteum: Activity of peptidyl glycine alpha-amidating mono-oxygenase and concentrations of its cofactor, ascorbic acid J. Endocrinol. 1989 122 313 322 10.1677/joe.0.1220313 2769155
+L401: 70. Ishak W.W. 
+L402:  Kahloon M. 
+L403:  Fakhry H. 
+L404:  Oxytocin role in enhancing well-being: A literature review J. Affect. Disord. 2011 130 1 9 10.1016/j.jad.2010.06.001 20584551
+L405: 71. Luck M.R. 
+L406:  Jungclas B. 
+L407:  Catecholamines and ascorbic acid as stimulators of bovine ovarian oxytocin secretion J. Endocrinol. 1987 114 423 430 10.1677/joe.0.1140423 3668432
+L408: Acknowledgments
+L409: We thank Anitra C. Carr for input on the study design. We also thank Lauren Alessi, Jayde A. M. Flett, Nadia Norazizan, and Rosemary Stamm for their assistance as coordinators of the study, and Natasha Amarasekara, Jessica Barton, and Shay-Ruby Wickett for their assistance with data collection. We are grateful to our registered nurse Margi Bryant who collected all blood samples during clinic visits.
+L410: **ONLINE SUPPLEMENTARY MATERIAL**
+L411: **KiwiC for Vitality: Results of a randomized placebo-controlled trial testing the effects of kiwifruit**
+L412: **or vitamin C tablets on vitality in adults with low vitamin C levels**
+L413: TS Conner, BD Fletcher, JM Pullar, E Spencer, LA Mainvil, MCM Vissers
+L414: **CONTENTS**
+L415: **Available Cases Analysis Results (N = 167)**
+L416: **Below Saturation Vitamin C Analysis Results (N = 128)**
+L417: **Per Protocol Analysis Results (N = 92)**
+L418: **Sensitivity Analysis using Pattern Mixture Models**
+L419: **Supplemental Figure 1.** Below saturation vitamin C sample ( _n_ = 128) changes in fortnightly measures
+L420: of vitality (total mood disturbance, fatigue and well-being) over the study period.
+L421: **Supplemental Figure 2.** Per protocol (PP) sample ( _n_ = 92) changes in fortnightly measures of vitality
+L422: (total mood disturbance, fatigue, and well-being) over the study period.
+L423: **Supplemental Table 1.** Available cases sample ( _n_ = 167) raw mean scores (and standard deviations) of the
+L424: primary outcome measures and secondary covariates overall and by condition
+L425: **Supplemental Table 2.** Available cases sample ( _n_ = 167) macronutrient diet record data (kilojoules of intake
+L426: daily) for the placebo, vitamin C, and kiwifruit conditions
+L427: **Supplemental Table 3.** Below saturation vitamin C sample ( _n_ = 128) participant characteristics overall
+L428: and by condition
+L429: **Supplemental Table 4.** Below saturation vitamin C sample ( _n_ = 128) plasma vitamin C concentrations
+L430: (µmol/L) by condition during the study period
+L431: **Supplemental Table 5.** Below saturation vitamin C sample ( _n_ = 128) raw mean scores (and standard
+L432: deviations) of primary outcome measures and secondary covariates overall and by condition
+L433: **Supplemental Table 6.** Below saturation vitamin C sample ( _n_ = 128) macronutrient diet record data for
+L434: the placebo, vitamin C, and kiwifruit conditions
+L435: **Supplemental Table 7.** Per protocol sample ( _n_ = 92) participant characteristics overall and by condition
+L436: **Supplemental Table 8.** Per protocol sample ( _n_ = 92) plasma vitamin C concentrations (µmol/L) by
+L437: condition during the study period
+L438: **Supplemental Table 9.** Per protocol sample ( _n_ = 92) raw mean scores (and standard deviations) of the
+L439: primary outcome measures and secondary covariates overall and by condition
+L440: **Supplemental Table 10.** Per protocol sample ( _n_ = 92) macronutrient diet record data for the placebo,
+L441: vitamin C, and kiwifruit conditions
+L442: **Supplemental Table 11.** Discontinued participants (cumulative percentage ( _n_ ))
+L443: **Supplemental Table 12.** Sensitivity analysis using pattern mixture models
+L444: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L445: **Available Cases Analysis Results (** _**n**_ **= 167)**
+L446: **Supplemental Table 1.** Available cases sample ( _n_ = 167) raw mean scores (and standard deviations) of the primary
+L447: outcome measures and secondary covariates overall and by condition
+L448: Primary Outcomes
+L449: POMS TMD (range -20 to
+L450: 100)
+L451: Week 0 (Lead-in) 167 5.68 (14.12) 54 6.46 (12.18) 56 4.48 (15.17) 57 6.11 (14.92)
+L452: Week 2 (Lead-in) 164 5.38 (16.63) 52 3.73 (13.03) 55 4.05 (16.43) 57 8.16 (19.44)
+L453: Week 4 (Intervention) 161 4.38 (16.22) 52 5.48 (15.16) 53 2.77 (16.35) 56 4.88 (17.20) ** [ a]
+L454: Week 6 (Intervention) 159 3.69 (16.14) 52 4.15 (14.72) 52 3.12 (18.41) 55 3.80 (15.39) * [a]
+L455: Week 8 (Washout) 155 6.24 (17.61) * [b] ** [c] 51 6.55 (16.65) 51 4.94 (19.76) † [bc] 53 7.19 (16.55) † [b] - [c]
+L456: Fatigue (range -24 to 96)
+L457: Week 0 (Lead-in) 167 2.45 (14.24) 54 4.17 (13.34) 56 1.52 (15.19) 57 1.72 (14.20)
+L458: Week 2 (Lead-in) 164 1.18 (15.57) 52 0.98 (14.60) 55 0.28 (15.56) 57 2.23 (16.61)
+L459: Week 4 (Intervention) 161 0.39 (15.44) 52 2.54 (15.38) 53 -0.79 (16.55) 56 -0.49 (14.46) † [a]
+L460: Week 6 (Intervention) 159 0.21 (15.79) 52 1.88 (15.22) 52 -1.35 (17.19) 55 0.10 (15.05)
+L461: Week 8 (Washout) 155 1.48 (16.91) † [c] 51 2.76 (16.35) 51 0.69 (18.90) * [c] 53 1.01 (15.63)
+L462: Well-Being (range 14 to 70)
+L463: Week 0 (Lead-in) 167 47.85 (8.65) 54 46.94 (9.18) 56 48.77 (8.55) 57 47.81 (8.28)
+L464: Week 2 (Lead-in) 164 48.52 (8.96) 52 49.00 (7.90) 55 48.56 (9.64) 57 48.04 (9.31)
+L465: Week 4 (Intervention) 161 48.85 (9.63) 52 47.08 (8.89) 53 49.88 (10.74) 56 49.53 (9.11) * [a]
+L466: Week 6 (Intervention) 159 50.26 (9.10) * [ab] 52 49.17 (7.50) * [b] 52 51.06 (10.73) † [a] 55 50.55 (8.88) * [a]
+L467: Week 8 (Washout) 155 49.48 (9.16) * [c] 51 48.10 (8.47) 51 50.14 (10.31) 53 50.17 (8.64) * [a]
+L468: Secondary Covariates
+L469: Sleep Quantity (hours/night)
+L470: Weeks 1-2 (Lead-in) 166 7.18 (1.04) 54 7.07 (1.11) 55 7.35 (0.86) 57 7.11 (1.11)
+L471: Weeks 3-4 (Intervention) 161 7.20 (1.03) 52 7.13 (1.07) 53 7.17 (1.04) 56 7.29 (0.98)
+L472: Weeks 5-6 (Intervention) 160 7.26 (1.06) 52 7.09 (1.03) 52 7.53 (1.11) * [e] 56 7.17 (1.01)
+L473: Weeks 7-8 (Washout) 155 7.08 (0.98) † [f] 51 6.95 (0.89) 50 7.06 (1.03) * [d] - [f] 54 7.23 (1.01)
+L474: Sleep Quality
+L475: Weeks 1-2 (Lead-in) 166 6.54 (1.29) 54 6.21 (1.42) 55 6.80 (1.29) 57 6.61 (1.12)
+L476: Weeks 3-4 (Intervention) 161 6.61 (1.26) 52 6.53 (1.35) * [d] 53 6.78 (1.24) 56 6.54 (1.19)
+L477: Weeks 5-6 (Intervention) 160 6.78 (1.20) ** [d] - [e] 52 6.65 (1.27) ** [d] 52 6.92 (1.3) 56 6.76 (1.04) † [e]
+L478: Weeks 7-8 (Washout) 155 6.73 (1.27) * [d] 51 6.54 (1.35) ** [d] 50 6.84 (1.26) 54 6.81 (1.21) † [e]
+L479: Physical Activity (% days
+L480: active)
+L481: Weeks 1-2 (Lead-in) 166 46.1% 54 47.5% 55 45.5% 57 45.5%
+L482: Weeks 3-4 (Intervention) 161 46.3% 52 46.9% 53 48.4% 56 43.9%
+L483: Weeks 5-6 (Intervention) 160 43.8% 52 44.7% 52 43.0% 56 43.7%
+L484: Weeks 7-8 (Washout) 155 44.6% 51 42.4% 50 48.4% 54 43.2%
+L485: Note. TMD = Total Mood Disturbance from the Profile of Mood States – Short Form Questionnaire. [a ] Paired t-test comparison with
+L486: Week 2 (Lead-in). [ b ] Paired t-test comparison with Week 4 (Intervention). [ c ] Paired t-test comparison with Week 6 (Intervention). [d ]
+L487: Paired t-test comparison with average smartphone survey responses during Weeks 1-2 (Lead-in). [ e ] Paired t-test comparison with
+L488: average smartphone survey responses during Weeks 3-4 (Intervention). [f ] Paired t-test comparison with average smartphone survey
+L489: responses during Weeks 5-6 (Intervention). † _p_ < .10, * _p_ < .05, ** _p_ < .01.
+L490: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L491: **Supplemental Table 2.** Available cases sample ( _n_ = 167) macronutrient diet record data (kilojoules of intake daily) for the
+L492: placebo, vitamin C, and kiwifruit conditions
+L493: Energy Intake (KJ)
+L494: Weeks 1, Week 2 (Lead-in) 52 7818.00 (2634.58) 54 8135.51 (2739.36) 56 7717.35 (2304.98)
+L495: Week 5, Week 6 (Intervention) 52 7465.19 (3025.98) 52 8418.16 (3095.84) 55 7236.35 (2111.52)
+L496: Week 7, Week 8 (Washout) 50 6965.46 (2082.28) ** [a] - [b] 49 7743.00 (2543.03) † [b] 52 7191.44 (1834.84)
+L497: Protein intake (grams)
+L498: Week 1, Week 2 (Lead-in) 52 80.66 (32.15) 54 77.76 (42.24) 56 77.82 (34.12)
+L499: Week 5, Week 6 (Intervention) 52 76.87 (35.80) 52 86.57 (78.40) 55 77.37 (33.37)
+L500: Week 7, Week 8 (Washout) 50 70.07 (25.86) ** [a] - [b ] 49 78.05 (49.93) 52 73.54 (28.74)
+L501: Carbohydrate intake (grams)
+L502: Week 1, Week 2 (Lead-in) 52 205.81 (80.78) 54 217.15 (75.42) 56 202.67 (62.17)
+L503: Week 5, Week 6 (Intervention) 52 192.93 (77.91) 52 220.97 (80.07) 55 198.06 (59.32)
+L504: Week 7, Week 8 (Washout) 50 187.24 (56.62) † [a] 49 204.38 (66.26) 52 186.32 (59.48)
+L505: Fat intake (grams)
+L506: Week 1, Week 2 (Lead-in) 52 78.71 (30.84) 54 82.68 (37.42) 56 77.07 (30.46)
+L507: Week 5, Week 6 (Intervention) 52 77.03 (43.63) 52 84.19 (36.91) 55 67.31 (24.90) † [a]
+L508: Week 7, Week 8 (Washout) 50 68.91 (28.49) * [a] 49 78.49 (33.23) 52 73.03 (23.17)
+L509: Note. Results shown are means (standard deviations). KJ = kilojoules. [a ] Paired t-test comparison with Lead-in; [b ]
+L510: Paired t-test comparison with Intervention. † _p_ < .1, * _p_ < .05, ** _p_ < .01
+L511: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L512: **Below Saturation Vitamin C Analysis Results (** _**n**_ **= 128)**
+L513: Subgroup analyses were conducted on 128 people who maintained below saturation plasma vitamin C
+L514: levels (<60 µmol/L) across the two lead-in blood samples (Week 0 and Week 2). There were few
+L515: differences in demographic characteristics, baseline health characteristics, or baseline vitality measures
+L516: between those 128 participants included in the below saturation vitamin C analyses compared to the
+L517: 39 participants excluded from these analyses (using Chi-Square statistics or t-tests, all not significant),
+L518: except that included participants drank less alcohol (t(165) = -2.116, _p_ = .036) and were more likely to be
+L519: Asian (χ [2] (1, 167) = 6.152, p = .013) than excluded participants.
+L520: Participant characteristics for this subgroup are shown in **Supplemental Table 3.** Of the 128
+L521: participants, 45 were in the placebo condition, 40 were in the vitamin C condition, and 43 were in the
+L522: kiwifruit condition. The three conditions were mostly equivalent in demographic characteristics,
+L523: baseline health characteristics, baseline vitality measures, and baseline vitamin C levels (all ANOVAs
+L524: or Chi-Squares not significant), except that participants in the kiwifruit condition were younger (F
+L525: (2,125) = 6.815, _p_ = .002) than the other conditions. There were also three trends indicating that
+L526: participants in the kiwifruit condition completed fewer years of study (F(2,125) = 2.920, p =.054), had
+L527: lower sleep quality during the lead-in (F(2,125) = 2.631, p =.076), and were less likely to be Asian
+L528: (χ [2] (2,128) = 5.95, p = .051) than the other conditions. The changes in vitamin C levels for this subgroup
+L529: are shown in **Supplemental Table 4.**
+L530: The changes in the vitality outcomes by condition for the below saturation vitamin C analyses ( _n_ = 128)
+L531: are shown in **Supplemental Table 5** and **Supplemental Figure 1** . For the POMS total mood
+L532: disturbance, only participants in the kiwifruit condition ( **Supplemental Figure 1C** ) showed
+L533: significantly reduced total mood disturbance after two weeks of intervention (Study Week 4), but not
+L534: at the end of the intervention (Study Week 6) or Washout (Study Week 8). Participants in the vitamin
+L535: C condition showed non-significant reductions in their POMS total mood disturbance ( **Supplemental**
+L536: **Figure 1B** ) and those in the placebo condition were unchanged over time ( **Supplemental Figure 1A** ).
+L537: Participants in both the vitamin C and kiwifruit conditions showed a reduction in fatigue, either after
+L538: two weeks of supplementation ( **Supplemental Figure 1F** ), or four weeks of supplementation
+L539: ( **Supplemental Figure 1E** ). Fatigue scores returned to baseline levels at washout for both conditions.
+L540: No changes were seen in the placebo group. For well-being, there was a significant increase in well
+L541: being after a week of kiwifruit supplementation, which stayed elevated at washout ( **Supplemental**
+L542: **Figure 1I** ). Participants in the vitamin C group showed an increase in well-being after four weeks of
+L543: intervention ( **Supplemental Figure 1H** ), which was eliminated at washout. There was no change in
+L544: well-being throughout the study in the placebo group except for a trend decrease after two weeks of
+L545: placebo supplementation ( **Supplemental Figure 1G** ).
+L546: Analysis of variance ( **Table 5**, main manuscript) methods showed significant condition x time effects when
+L547: comparing Study Week 2 (end of lead-in) with Study Week 4 (second week of intervention) for POMS total
+L548: mood disturbance (F(2, 125) = 3.167, _p_ = .046, ηp [2] = 0.048), fatigue (F(2, 125) = 3.563, _p_ = .031, ηp [2 ] = 0.054), and
+L549: well-being (F(2, 125) = 6.177, _p_ = .003, ηp [2] = 0.090). When comparing Study Week 2 (end of lead-in) with
+L550: Study Week 6 (end of intervention), there was a trend condition x time effect for fatigue (F(2,125) = 2.993, p
+L551: =.054, ηp [2] = 0.046) but not for POMS total mood disturbance (F(2,125) = 1.919, _p_ =.151, ηp [2] = 0.030) or well
+L552: being (F(2,125) = 1.995, _p_ = .140, ηp [2] = 0.031). When comparing Study Week 2, Week 4, and Week 6, condition
+L553: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L554: x time effects were significant for fatigue (F(2,125) = 3.175, _p_ = .014, ηp [2] = 0.048) and well-being (F(2,125) =
+L555: 3.514, _p_ = .008, ηp [2] = 0.053) but not for POMS total mood disturbance (F(2,125) = 1.944, _p_ = .104, ηp [2] = 0.030).
+L556: The intervention effects in the below saturation vitamin C analyses ( _n_ = 128) were not due to differences
+L557: between conditions in sleep quantity (intervention weeks 3-4, F(2,125) = 0.086, _p_ = .918; intervention
+L558: weeks 5-6, F(2,125) = 0.677, _p_ = .510), sleep quality (intervention weeks 3-4, F(2,125) = 0.900, _p_ = .409;
+L559: intervention weeks 5-6, F(2,125) = 0.861, _p_ = .425), physical activity (intervention weeks 3-4, F(2,125) =
+L560: 0.655, _p_ = .521; intervention weeks 5-6, F(2,125) = 0.155, _p_ = .856), BMI at end of intervention ( _Welch’s_
+L561: _F_ (2,124) = 79.653, _p_ = .932), or dietary factors such as total energy intake (KJ) ( _Welch’s F_ (2,82.375) = 2.153,
+L562: _p_ = .123), or total protein intake ( _Welch’s F_ (2,78.609) = 0.030, _p_ = .970). There was a significant difference
+L563: between conditions for total fat intake ( _Welch’s F_ (2,80.868) = 4.326, _p_ = .016). A post-hoc Games-Howell
+L564: test indicated significantly lower total fat intake (grams) for the kiwifruit condition during the second
+L565: half of the intervention (weeks 5 – 6) compared to the vitamin C condition ( _p_ = .016; **Supplemental**
+L566: **Table 6** ). There was also a trend for total carbohydrate intake ( _F_ (2,125) = 2.370, _p_ = .098), driven by
+L567: participants in the vitamin C condition consuming slightly more carbohydrates than participants in the
+L568: placebo condition ( _p_ = .098).
+L569: As shown in the ANCOVA results in **Table 5** (main manuscript), most of the effects remained
+L570: significant when adjusting for age, Asian ethnicity, year at university or polytechnic, lead-in sleep
+L571: quality (weeks 1-2), fat intake during intervention (weeks 5-6), and carbohydrate intake during
+L572: intervention (weeks 5-6). The condition x time effects comparing Week 2 and Week 4 were still
+L573: significant for fatigue (F(2,119) = 3.514, _p_ = .033, ηp [2] = 0.056) and well-being (F(2,119) = 5.012, _p_ = .008, ηp [2]
+L574: = 0.078) and were attenuated for POMS total mood disturbance (F(2,119) = 2.729, _p_ = .069, ηp [2] = 0.044).
+L575: There were no significant condition x time effects when comparing Study Week 2 (end of lead-in) with
+L576: Study Week 6 (end of intervention) except for a trend for fatigue (fatigue F(2,119) = 2.842, _p_ = .062, ηp [2 ] =
+L577: 0.046; POMS total mood disturbance F(2, 119) = 1.830, _p_ = .165, ηp [2] = 0.030; well-being (F(2,119) = 1.989,
+L578: _p_ = .141, ηp [2] = 0.032). Condition x time effects comparing Week 2, Week 4, and Week 6 were still
+L579: significant for fatigue (F(2, 119) = 2.793, _p_ = .027, ηp [2] = 0.045) and well-being (F(2,119) = 2.834, _p_ = .025,
+L580: ηp [2] = 0.045) but not for POMS total mood disturbance (F(2, 119) = 1.634, _p_ = .166, ηp [2] = 0.027).
+L581: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L582: **Supplemental Table 3.** Participant characteristics for the below saturation vitamin C sample ( _n_ = 128) overall and
+L583: by condition
+L584: Age (years) 21.84 (3.56) 22.09 (3.15) 23.12 (4.66) 20.40 (2.01)
+L585: Gender:
+L586: Male 46 (35.9%) 14 (31.1%) 16 (40.0%) 16 (37.2%)
+L587: Female 81 (63.3%) 31 (68.9%) 24 (60.0%) 26 (60.5%)
+L588: Gender diverse 1 (0.8%) 0 (0.0%) 0 (0.0%) 1 (2.3%)
+L589: Ethnicity:
+L590: European 43 (33.6%) 12 (26.7%) 12 (30.0%) 19 (44.2%)
+L591: Asian 58 (45.3%) 25 (55.6%) 21 (52.2%) 12 (27.9%)
+L592: Indian 11 (8.6%) 3 (6.7%) 4 (10.0%) 4 (9.3%)
+L593: Māori & Pasifika 7 (5.5%) 2 (4.4%) 1 (2.5%) 4 (9.3%)
+L594: Other & multiple 9 (7.0%) 3 (6.7%) 2 (5.0%) 4 (9.3%)
+L595: Year of study at university 2.87 (1.54) 2.84 (1.51) 3.30 (1.80) 2.49 (1.20)
+L596: Socioeconomic status (1 to 7) [1] 4.64 (1.35) 4.78 (1.28) 4.51 (1.46) 4.60 (1.32)
+L597: Height (cm) 167.65 (10.13) 167.00 (10.86) 167.84 (9.45) 168.14 (10.17)
+L598: Weight (kg):
+L599: Pre-intervention 67.06 (15.69) 67.19 (19.79) 66.64 (14.45) 67.33 (11.83)
+L600: Post-intervention [2] 68.30 (15.75) 67.479 (19.90) 67.31 (14.72) 67.12 (11.56)
+L601: BMI (kg/m2):
+L602: Pre-intervention 23.77 (4.59) 23.99 (6.10) 23.51 (3.76) 23.77 (3.36)
+L603: Post-intervention [2] 23.85 (4.61) 24.09 (6.15) 23.74 (3.77) 23.70 (3.31)
+L604: No History of Smoking: 118 (92.2%) 42 (93.3%) 36 (90.0%) 40 (93.0%)
+L605: Vegetables servings/day 1.00 (0.71) 0.97 (0.84) 0.95 (0.67) 1.09 (0.79)
+L606: Fruit servings/day 0.36 (0.37) 0.35 (0.34) 0.35 (0.33) 0.39 (0.44)
+L607: Alcoholic standards /week 2.96 (4.84) 2.13 (3.89) 2.70 (5.09) 4.06 (5.37)
+L608: Sleep duration (hours) 7.16 (1.04) 7.10 (1.06) 7.36 (0.85) 7.06 (1.16)
+L609: Sleep quality (1 to 10) 6.56 (1.37) 6.20 (1.44) 6.83 (1.42) 6.69(1.18)
+L610: Physical activity (30 min/ day):
+L611: % of days 44.5% 44.7% 47.0% 42.1%
+L612: Note. Values shown are means (SD) or _n_ (%). [1] Based on participants who provided data (Total _n_ = 127; Placebo _n_
+L613: = 45; Vitamin C _n_ = 40; Kiwifruit _n_ = 42). [2] Based on participants who provided data (Total _n_ = 127; Placebo _n_ = 45;
+L614: Vitamin C _n_ = 39; Kiwifruit _n_ = 43).
+L615: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L616: **Supplemental Table 4.** Below saturation vitamin C sample ( _n_ = 128) plasma vitamin C concentrations (µmol/L) by
+L617: condition during the study period
+L618: Week 0 (Lead-in) 45 29.09 (14.09) 40 28.06 (14.79) 43 34.91 (13.46)
+L619: Week 2 (Lead-in) 45 32.48 (15.29) 40 30.90 (15.82) 43 32.78 (14.00)
+L620: Week 4 (Intervention) 45 34.02 (17.95) 40 76.41 (18.45) **** [a] 43 78.33 (21.45) **** [ a ]
+L621: Week 6 (Intervention) 45 36.98 (20.67) * [a] 40 80.60 (17.92) **** [a] 43 76.25 (17.06) **** [ a ]
+L622: Week 8 (Washout) 44 35.06 (16.75) 40 52.53 (15.29) **** [ abc] 41 47.78 (13.03) **** [ abc ]
+L623: Note. Results shown are means (SD). [ a ] Comparison with Week 2 (Lead-in); [b ] Comparison with Week 4
+L624: (Intervention); [c ] Comparison with Week 6 (Intervention). * _p_ < .05, **** _p_ < .0001.
+L625: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L626: **Supplemental Table 5.** Below saturation vitamin C sample ( _n_ = 128) raw mean scores (and standard deviations)
+L627: of primary outcome measures and secondary covariates overall and by condition
+L628: Primary Outcome Measures
+L629: POMS TMD (range -20 to 100)
+L630: Week 0 (Lead-in) 128 5.79 (14.48) 45 6.51 (12.65) 40 4.20 (15.49) 43 6.51 (15.49)
+L631: Week 2 (Lead-in) 128 5.27 (15.96) 45 3.33 (13.57) 40 5.05 (17.88) 43 7.49 (16.47)
+L632: Week 4 (Intervention) 128 4.23 (15.70) 45 5.78 (16.01) 40 2.42 (16.45) 43 4.28 (14.83) * [a]
+L633: Week 6 (Intervention) 128 3.98 (15.85) 45 4.53 (15.61) 40 1.68 (16.17) 43 5.53 (15.93)
+L634: Week 8 (Washout) 125 6.60 (17.57) 44 6.36 (17.45) 40 5.05 (19.33) * [c] 41 8.37 (16.12) * [bc]
+L635: Fatigue (range -24 to 96)
+L636: Week 0 (Lead-in) 128 2.49 (14.28) 45 3.60 (13.41) 40 1.12 (15.78) 43 2.61 (13.93)
+L637: Week 2 (Lead-in) 128 1.55 (16.06) 45 0.82 (15.43) 40 1.51 (17.21) 43 2.34 (15.93)
+L638: Week 4 (Intervention) 128 0.13 (15.11) 45 2.38 (16.12) 40 -1.15 (16.59) [†a] 43 -1.03 (12.44) * [a]
+L639: Week 6 (Intervention) 128 0.47 (15.43) 45 1.80 (15.86) 40 -2.65 (15.78) * [a] 43 1.99 (14.55) * [b]
+L640: Week 8 (Washout) 125 1.91 (16.74) 44 2.79 (17.06) 40 0.54 (18.37) * [c] 41 2.30 (14.95) [†b]
+L641: Well-Being (range 14 to 70)
+L642: Week 0 (Lead-in) 128 48.20 (8.49) 45 47.40 (8.38) 40 49.90 (8.94) 43 47.47 (8.14)
+L643: Week 2 (Lead-in) 128 48.48 (8.69) 45 49.24 (7.83) 40 48.78 (9.29) 43 47.42 (9.06)
+L644: Week 4 (Intervention) 128 48.43 (9.24) 45 46.69 (9.20) [†a] 40 49.14 (10.31) 43 49.60 (8.09) ** [a]
+L645: Week 6 (Intervention) 128 49.73 (8.99) 45 48.91 (7.56) * [b] 40 51.18 (10.51) * [ab] 43 49.26 (8.87) [†a]
+L646: Week 8 (Washout) 125 49.04 (9.12) 44 47.91 (8.58) 40 49.85 (10.38) 41 49.47 (8.45) * [a]
+L647: Secondary Covariates
+L648: Sleep Quantity (hours/night)
+L649: Weeks 1-2 (Lead-in) 128 7.16 (1.04) 45 7.10 (1.06) 40 7.36 (0.85) 43 7.06 (1.16)
+L650: Weeks 3-4 (Intervention) 128 7.15 (0.98) 45 7.17 (1.02) 40 7.10 (0.90) [†d] 43 7.18 (1.02)
+L651: Weeks 5-6 (Intervention) 128 7.17 (1.01) 45 7.13 (0.98) 40 7.32 (1.08) 43 7.07 (0.97)
+L652: Weeks 7-8 (Washout) 127 7.03 (0.99) 45 6.90 (0.91) 40 6.96 (1.03) * [d†f] 42 7.24 (1.01)
+L653: Sleep Quality
+L654: Weeks 1-2 (Lead-in) 128 6.56 (1.37) 45 6.20 (1.44) 40 6.83 (1.42) 43 6.69 (1.18)
+L655: Weeks 3-4 (Intervention) 128 6.61 (1.28) 45 6.45 (1.42) [†d] 40 6.82 (1.27) 43 6.58 (1.14)
+L656: Weeks 5-6 (Intervention) 128 6.72 (1.24) 45 6.56 (1.34) ** [d] 40 6.91 (1.43) 43 6.71 (0.90)
+L657: Weeks 7-8 (Washout) 127 6.67 (1.30) 45 6.48 (1.37) ** [d] 40 6.80 (1.35) 42 6.74 (1.18)
+L658: Physical Activity (% days active)
+L659: Weeks 1-2 (Lead-in) 128 44.5% 45 44.7% 40 47.0% 43 42.1%
+L660: Weeks 3-4 (Intervention) 128 45.9% 45 45.4% 40 50.3% 43 42.2%
+L661: Weeks 5-6 (Intervention) 128 43.2% 45 44.6% 40 44.2% [†e] 43 40.8%
+L662: Weeks 7-8 (Washout) 127 44.2% 45 43.5% 40 49.1% 42 40.4%
+L663: Note. TMD = Total Mood Disturbance from the Profile of Mood States – Short Form Questionnaire. [a ] Paired t-test
+L664: comparison with Week 2 (Lead-in). [ b ] Paired t-test comparison to Week 4 (Intervention). [ c ] Paired t-test comparison with
+L665: Week 6 (Intervention). [d ] Paired t-test comparison with average smartphone survey responses during lead-in (Weeks 1-2).
+L666: e Paired t-test comparison with average smartphone survey responses during intervention (Weeks 3-4). f Paired t-test
+L667: comparison with average smartphone survey responses during intervention (Weeks 5-6). [ † ] _p_ < .10, * _p_ < .05, ** _p_ < .01.
+L668: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L669: **Supplemental Figure 1.** Below saturation vitamin C sample ( _n_ = 128) changes in fortnightly measures of vitality
+L670: [total mood disturbance (POMS), multidimensional fatigue score (MFS) and well-being (WB)] over the study
+L671: period. Results are presented as raw unadjusted means ± SE for participants allocated to placebo tablet (black lines,
+L672: A, D, G), vitamin C tablet (orange lines, B, E, H) and kiwifruit (green lines, C, F, I) condition. P values shown are
+L673: derived from paired t-tests, comparing intervention points with the values at Lead-in Week 2 (end of lead-in).
+L674: Where no p value is shown, results were not significantly different from lead-in values.
+L675: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L676: **Supplemental Table 6.** Below saturation vitamin C sample ( _n_ = 128) macronutrient diet record data for the placebo,
+L677: vitamin C, and kiwifruit conditions
+L678: Energy Intake (KJ)
+L679: Week 1, Week 2 (Lead-in) 45 7880.04 (2734.68) 40 8350.63 (2751.51) 43 7945.32 (2421.31)
+L680: Week 5, Week 6 (Intervention) 45 7538.22 (3202.28) 40 8246.93 (2387.53) 43 7190.66 (2252.64) * [a]
+L681: Week 7, Week 8 (Washout) 44 6934.06 (2195.39) ** [a] 39 7793.56 (2324.37) 40 7212.68 (1966.48) [ †a]
+L682: Protein intake (grams)
+L683: Week 1, Week 2 (Lead-in) 45 82.88 (33.53) 40 77.01 (28.72) 43 79.94 (37.42)
+L684: Week 5, Week 6 (Intervention) 45 78.39 (37.70) 40 76.81 (20.10) 43 76.96 (35.77)
+L685: Week 7, Week 8 (Washout) 44 71.45 (27.09) ** [a†b] 39 73.71 (20.69) 40 73.52 (31.00)
+L686: Carbohydrate intake (grams)
+L687: Week 1, Week 2 (Lead-in) 45 206.57 (83.86) 40 225.34 (79.80) 43 204.09 (65.07)
+L688: Week 5, Week 6 (Intervention) 45 192.08 (81.28) 40 226.43 (82.13) 43 199.16 (63.16)
+L689: Week 7, Week 8 (Washout) 44 183.20 (58.15) * [a] 39 212.01 (67.81) 40 181.99 (63.05) [†ab]
+L690: Fat intake (grams)
+L691: Week 1, Week 2 (Lead-in) 45 78.86 (31.72) 40 86.11 (36.10) 43 81.54 (32.17)
+L692: Week 5, Week 6 (Intervention) 45 78.82 (45.76) 40 82.68 (29.55) 43 65.27 (26.15) ** [a]
+L693: Week 7, Week 8 (Washout) 44 69.13 (30.07) * [a] 39 78.13 (30.81) 40 75.02 (24.44) * [b]
+L694: Note. Results shown are means (SD). KJ = kilojoules. [a ] Comparison with Lead-in; [b ] Comparison with Intervention.
+L695:    - _p_ < .10, * _p_ < .05, ** _p_ < .01.
+L696: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L697: **Per Protocol Analysis Results (** _**n**_ **= 92)**
+L698: Subgroup per protocol (PP) analyses were conducted on 92 people who maintained a vitamin C level
+L699: <40 µmol/L from screening until the beginning of the study (Week 0). There were few differences in
+L700: demographic characteristics, baseline health characteristics, or baseline vitality measures between those
+L701: 92 participants included in the PP analyses compared to the 75 participants excluded from these
+L702: analyses (using Chi-Square statistics or t-tests, all not significant), except that the 92 included
+L703: participants had higher baseline sleep quality (t(164) = 2.151, _p_ = .033) and were more likely to be Asian
+L704: (trend only) (χ [2] (1, 167) = 3.736, _p_ = .053) than excluded participants.
+L705: Participant characteristics for this subgroup are shown in **Supplemental Table 7** . Of the 92 participants,
+L706: 36 were in the placebo condition, 29 were in the vitamin C condition, and 27 were in the kiwifruit
+L707: condition. The three conditions were mostly equivalent in demographic characteristics, baseline health
+L708: characteristics, baseline vitality measures, and baseline vitamin C levels (all ANOVAs or Chi-Squares
+L709: not significant). However, participants in the kiwifruit condition had younger participants (F(2,89) =
+L710: 5.757, _p_ = .004) who had completed fewer years of study (F(2,89) = 3.215, _p_ = .045) than the other
+L711: conditions. Plasma vitamin C concentrations during the study for PP participants are shown in
+L712: **Supplemental Table 8** . Participants in the vitamin C and kiwifruit conditions achieved saturation in
+L713: vitamin C after two weeks of supplementation (Week 4, Intervention).
+L714: The changes in the vitality outcomes by condition for the per protocol analyses ( _n_ = 92) are shown in
+L715: **Supplemental Table 9** and **Supplemental Figure 2** . For the POMS total mood disturbance, participants
+L716: in the vitamin C condition ( **Supplemental Figure 2B** ) showed significantly reduced total mood
+L717: disturbance after two weeks of intervention (Study Week 4), but not at the end of the intervention
+L718: (Study Week 6) or Washout (Study Week 8). Participants in the kiwifruit condition showed no
+L719: significant reduction in their POMS total mood disturbance ( **Supplemental Figure 2C** ) and those in the
+L720: placebo condition had a slight increase in total mood disturbance at washout in comparison to the end
+L721: of lead-in ( **Supplemental Figure 2A** ). Participants in the vitamin C condition showed a significant
+L722: reduction in fatigue after two weeks and a trend decrease in fatigue after four weeks of
+L723: supplementation ( **Supplemental Figure 2E** ). For the kiwifruit condition, there was a non-significant
+L724: reduction in fatigue after two weeks that returned to prior levels at four weeks ( **Supplemental Figure**
+L725: **2F).** In the placebo condition, there was a trend increase in fatigue at washout when compared to the
+L726: end of lead-in ( **Supplemental Figure 2D)** . For well-being, there was a significant increase in well-being
+L727: after two weeks of kiwifruit supplementation, which did not decrease at washout ( **Supplemental**
+L728: **Figure 2I** ). Participants in the vitamin C group also showed a trend increase in well-being at the end of
+L729: the intervention ( **Supplemental Figure 2H** ), which was eliminated at washout. There was no change
+L730: in well-being throughout the study in the placebo group ( **Supplemental Figure 2G** ).
+L731: Analysis of variance ( **Table 5**, main manuscript) showed significant condition x time effects when
+L732: comparing Study Week 2 (end of lead-in) with Study Week 4 (second week of intervention) for POMS
+L733: total mood disturbance (F(2, 89) = 3.841, _p_ = .025, ηp [2] = 0.079), fatigue (F(2, 89) = 3.621, _p_ = .031, ηp [2 ] =
+L734: 0.075), and well-being (F(2, 189) = 3.611, _p_ = .031, ηp [2] = 0.075). When comparing Study Week 2 (end of
+L735: lead-in) with Study Week 6 (end of intervention), there was a significant effect for fatigue (F(2,89) =
+L736: 3.113, _p_ = .049, ηp [2] = 0.065), but not POMS total mood disturbance (F(2,89) = 2.099, _p_ = .129, ηp [2] = 0.045)
+L737: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L738: or well-being (F(2,89) = 1.700, _p_ = .189, ηp [2] = 0.037). When comparing Study Week 2, Week 4, and Week
+L739: 6, the condition x time effects were significant for fatigue (F(2,89) = 3.021, _p_ = .019, ηp [2] = 0.064) and
+L740: showed trends for POMS total mood disturbance (F(2,89) = 2.262, _p_ = .064, ηp [2] = 0.048) and well-being
+L741: (F(2,89) = 2.088, _p_ = .084, ηp [2] = 0.045).
+L742: The intervention effects in the PP analyses were not due to differences between conditions in sleep
+L743: quantity (intervention weeks 3-4, F(2,89) = 0.061, _p_ = .941; intervention weeks 5-6, F(2,89) = 0.590, _p_ =
+L744: .557), sleep quality (intervention weeks 3-4, F(2,89) = 1.293, _p_ = .279; intervention weeks 5-6, F(2,89) =
+L745: 1.203, _p_ = .305), physical activity intervention weeks 5-6, F(2,89) = 0.315, _p_ = .731), BMI ( _Welch’s_
+L746: _F_ (2,58.479) = 0.484, _p_ = .619), or dietary factors such as total energy intake (KJ) (F(2,89) = 1.537, _p_ = .221),
+L747: total protein intake ( _Welch’s F_ (2,55.251) = 0.292, _p_ = .748), or total fat intake ( _F_ (2,89) = 1.115, _p_ = .332).
+L748: There was a significant difference between conditions for total carbohydrate intake ( _F_ (2,89) = 3.246, _p_ =
+L749: .044). A post-hoc Tukey test indicated significantly lower total carbohydrate intake (grams) for the
+L750: placebo condition during the second half of the intervention (weeks 5 – 6) compared to the vitamin C
+L751: condition ( _p_ = .034; **Supplemental Table 10** ). There was also a trend difference in physical activity levels
+L752: (intervention weeks 3-4, F(2,89) = 2.419, _p_ = .095) driving by a participants in the vitamin C condition
+L753: engaging in slightly more days with physical activity compared to the kiwifruit condition ( _p_ =.099;
+L754: **Supplemental Table 9** ).
+L755: When adjusting for age, year at university or polytechnic, physical activity during intervention (weeks
+L756: 3-4), and carbohydrate intake during intervention (weeks 5-6), condition x time effects comparing Week
+L757: 2 (Lead-in) and Week 4 (second week of intervention) remained significant for well-being (F(2,85)
+L758: =3.590, _p_ = .032, ηp [2] = 0.078) and were attenuated for POMS total mood disturbance (F(2,85) = 2.874, _p_ =
+L759: .062, ηp [2] = 0.063) and fatigue (F(2,85) = 2.992, _p_ = .056, ηp [2] = 0.066). Results were attenuated for condition
+L760: x time effects when comparing Study Week 2 (end of lead-in) with Study Week 6 (end of intervention)
+L761: for fatigue (fatigue F(2,85) = 2.554, _p_ = .084, ηp [2 ] = 0.057) and not significant for POMS total mood
+L762: disturbance (F(2,85) = 1.270, _p_ = .286, ηp [2] = 0.029) and well-being (F(2,85) = 1.463, _p_ = .237, ηp [2] = 0.033).
+L763: When comparing Week 2, Week 4, and Week 6, condition x time effects were significant for fatigue
+L764: (F(2,85) = 2.638, _p_ = .036, ηp [2] = 0.058) and attenuated for POMS total mood disturbance (F(2,85) = 1.635,
+L765: _p_ = .168, ηp [2] = 0.037) and well-being (F(2,85) = 1.981, _p_ = .100, ηp [2] = 0.045). See **Table 5** in the main
+L766: manuscript for full ANCOVA results.
+L767: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L768: **Supplemental Table 7.** Per protocol sample ( _n_ = 92) participant characteristics overall and by condition
+L769: Age (years) 21.85 (3.73) 22.19 (3.21) 23.14 (5.01) 20.00 (1.49)
+L770: Gender:
+L771: Male 30 (32.6%) 10 (27.8%) 11 (37.9%) 9 (33.3%)
+L772: Female 61 (66.3%) 26 (72.2%) 18 (62.1%) 17 (63.0%)
+L773: Gender diverse 1 (1.1%) 0 (0.0%) 0 (0.0%) 1 (3.7%)
+L774: Ethnicity:
+L775: European 31 (33.7%) 8 (22.2%) 9 (31.0%) 14 (51.9%)
+L776: Asian 43 (46.7%) 19 (52.8%) 16 (55.2%) 8 (29.6%)
+L777: Indian 7 (7.6%) 4 (11.1%) 2 (6.9%) 1 (3.7%)
+L778: Māori & Pasifika 5 (5.4%) 2 (5.6%) 0 (0.0%) 3 (11.1%)
+L779: Other & multiple 6 (6.5%) 3 (8.3%) 2 (6.9%) 1 (3.7%)
+L780: Year of study at university 2.93 (1.53) 3.11 (1.51) 3.28 (1.85) 2.33 (0.92)
+L781: Socioeconomic status (1 to 7) [1] 4.73 (1.31) 4.84 (1.25) 4.7 (1.43) 4.6 (1.29)
+L782: Height (cm) 166.90 (9.69) 166.14 (10.68) 166.82 (9.17) 167.98 (9.1)
+L783: Weight (kg):
+L784: Pre-intervention 66.66 (16.14) 66.15 (20.79) 67.63 (14.31) 66.28 (10.41)
+L785: Post-intervention [2] 66.86 (16.33) 66.38 (20.98) 68.27 (14.64) 66.03 (10.22)
+L786: BMI (kg/m2):
+L787: Pre-intervention 23.85 (4.92) 23.84 (6.42) 24.18 (3.9) 23.52 (3.53)
+L788: Post-intervention [2] 23.93 (4.96) 23.92 (6.49) 24.42 (3.94) 23.43 (3.45)
+L789: No History of Smoking: 85 (92.4%) 34 (94.4%) 36 (89.7%) 25 (92.6%)
+L790: Vegetables servings/day 1.02 (0.73) 0.93 (0.64) 0.97 (0.71) 1.18 (0.86)
+L791: Fruit servings/day 0.38 (0.40) 0.38 (0.35) 0.35 (0.35) 0.4 (0.51)
+L792: Alcoholic standards /week 2.90 (4.83) 1.99 (3.77) 2.66 (5.07) 4.37 (5.6)
+L793: Sleep duration (hours) 7.19 (0.92) 7.10 (0.65) 7.47 (0.95) 7.02 (1.15)
+L794: Sleep quality (1 to 10) 6.74 (1.18) 6.51 (1.10) 6.94 (1.45) 6.82 (0.91)
+L795: Physical activity (30 min/ day):
+L796: % of days 46.70% 44.30% 51.80% 44.40%
+L797: Notes. Values shown are means (standard deviations) or _n_ (%). [1] Based on participants who provided data (Total
+L798: _n_ = 91; Placebo _n_ = 36; Vitamin C _n_ = 29; Kiwifruit _n_ = 26). [2] Based on participants who provided data (Total _n_ =
+L799: 91; Placebo _n_ = 36; Vitamin C _n_ = 28; Kiwifruit _n_ = 27).
+L800: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L801: **Supplemental Table 8.** Per protocol sample ( _n_ = 92) plasma vitamin C concentrations (µmol/L) by condition during
+L802: the study period
+L803: Week 0 (Lead-in) 36 23.64 (9.47) 29 20.77 (9.50) 27 26.60 (8.70)
+L804: Week 2 (Lead-in) 36 28.71 (14.13) 29 25.03 (13.39) 27 27.67 (13.26)
+L805: Week 4 (Intervention) 36 29.70 (16.65) 29 78.43 (20.57) **** [a] 27 78.27 (23.09) **** [a]
+L806: Week 6 (Intervention) 36 33.94 (21.23) * [a†b] 29 80.83 (20.07) **** [a] 27 77.19 (17.98) **** [a]
+L807: Week 8 (Washout) 35 32.23 (16.40) 29 50.53 (15.61) **** [abc] 25 46.85 (14.09) **** [abc]
+L808: Note. Results shown are means and standard deviations (SD). [ a ] Comparison with Week 2 (Lead-in); [b ] Comparison
+L809: with Week 4 (Intervention); [c ] Comparison with Week 6 (Intervention). [†] _p_ < .10, * _p_ < .05, **** _p_ < .0001.
+L810: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L811: **Supplemental Table 9.** Per protocol sample ( _n_ = 92) raw mean scores (and standard deviations) of primary
+L812: outcome measures and secondary covariates overall and by condition
+L813: Primary Outcome Measures
+L814: POMS TMD (range -20 to
+L815: 100)
+L816: Week 0 (Lead-in) 92 4.85 (13.55) 36 5.42 (12.35) 29 2.21 (14.12) 27 6.93 (14.48)
+L817: Week 2 (Lead-in) 92 3.86 (15.34) 36 1.33 (11.42) 29 3.90 (18.19) 27 7.19 (16.48)
+L818: Week 4 (Intervention) 92 3.59 (15.85) 36 5.19 (16.17) 29 -0.24 (14.36) * [a] 27 5.56 (16.77)
+L819: Week 6 (Intervention) 92 3.46 (15.38) 36 3.58 (13.48) 29 0.48 (16.52) 27 6.48 (16.45)
+L820: Week 8 (Washout) 89 5.56 (17.23) * [c] 35 5.31 (16.26) * [a] 29 3.45 (19.65) [†b] 25 8.36 (15.79)
+L821: Fatigue (range -24 to 96)
+L822: Week 0 (Lead-in) 92 1.44 (13.98) 36 2.38 (13.58) 29 -1.10 (14.73) 27 2.91 (13.82)
+L823: Week 2 (Lead-in) 92 0.26 (14.89) 36 -1.08 (11.83) 29 0.18 (17.5) 27 2.15 (15.88)
+L824: Week 4 (Intervention) 92 -1.15 (14.48) 36 0.72 (15.09) 29 -3.83 (14.86) * [a] 27 -0.78 (13.27)
+L825: Week 6 (Intervention) 92 -0.17 (15.27) 36 0.33 (13.65) 29 -4.17 (16.22) † [a] 27 3.46 (15.81) * [b]
+L826: Week 8 (Washout) 89 1.15 (16.52) * [b] 35 1.56 (16.41) † [a] 29 -0.68 (18.04) † [bc] 25 2.68 (15.26)
+L827: Well-Being (range 14 to 70)
+L828: Week 0 (Lead-in) 92 48.83 (8.44) 36 48.08 (8.20) 29 51.38 (8.82) 27 47.07 (8.00)
+L829: Week 2 (Lead-in) 92 48.93 (8.06) 36 49.67 (7.58) 29 50.21 (9.01) 27 46.59 (7.38)
+L830: Week 4 (Intervention) 92 49.08 (8.84) 36 47.67 (9.16) 29 50.95 (9.94) 27 48.96 (6.90) * [a]
+L831: Week 6 (Intervention) 92 50.03 (8.66) 36 49.14 (6.93) 29 52.48 (10.66) [†a] 27 48.59 (8.10)
+L832: Week 8 (Washout) 89 49.33 (8.57) 35 48.31 (7.71) 29 51.00 (10.21) 25 48.81 (7.65) * [a]
+L833: Secondary Covariates
+L834: Sleep Quantity (hours/night)
+L835: Weeks 1-2 (Lead-in) 92 7.19 (0.92) 36 7.10 (0.65) 29 7.47 (0.95) 27 7.02 (1.15)
+L836: Weeks 3-4 (Intervention) 92 7.14 (0.92) 36 7.10 (0.91) 29 7.19 (1.00) 27 7.13 (0.88)
+L837: Weeks 5-6 (Intervention) 92 7.21 (0.97) 36 7.12 (0.92) 29 7.37 (1.19) 27 7.14 (0.74)
+L838: Weeks 7-8 (Washout) 91 7.04 (1.00) 36 6.94 (0.84) 29 6.96 (1.03) * [d†f] 26 7.28 (1.16)
+L839: Sleep Quality
+L840: Weeks 1-2 (Lead-in) 92 6.74 (1.18) 36 6.51 (1.10) 29 6.94 (1.45) 27 6.82 (0.91)
+L841: Weeks 3-4 (Intervention) 92 6.74 (1.15) 36 6.61 (1.04) 29 7.02 (1.32) 27 6.60 (1.07)
+L842: Weeks 5-6 (Intervention) 92 6.84 (1.09) 36 6.73 (0.97) 29 7.10 (1.36) 27 6.72 (0.90)
+L843: Weeks 7-8 (Washout) 91 6.87 (1.13) 36 6.81 (0.91) * [d] 29 6.91 (1.35) 26 6.92 (1.16)
+L844: Physical Activity (% days
+L845: active)
+L846: Weeks 1-2 (Lead-in) 92 46.7% 36 44.3% 29 51.8% 27 44.4%
+L847: Weeks 3-4 (Intervention) 92 46.7% 36 43.9% 29 56.7% 27 39.6%
+L848: Weeks 5-6 (Intervention) 92 43.0% 36 43.5% 29 46.2% * [e] 27 39.1%
+L849: Weeks 7-8 (Washout) 91 47.2% 36 42.9% 29 54.1% [†f] 26 45.4%
+L850: Note. TMD = Total Mood Disturbance from the Profile of Mood States – Short Form Questionnaire. [a ] Paired t-test
+L851: comparison with Week 2 (Lead-in). [ b ] Paired t-test comparison with Week 4 (Intervention). [ c ] Paired t-test comparison with
+L852: Week 6 (Intervention)). [d ] Paired t-test comparison with average smartphone survey responses during Weeks 1-2 (Lead-in).
+L853: e Paired t-test comparison with average smartphone survey responses during Weeks 3-4 (Intervention). f Paired t-test
+L854: comparison with average smartphone survey responses during Weeks 5-6 (Intervention). [†] _p_ < .10, * _p_ < .05, ** _p_ < .01.
+L855: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L856: **Supplemental Figure 2.** Per protocol sample ( _n_ = 92) changes in fortnightly measures of vitality [total mood
+L857: disturbance (POMS), multidimensional fatigue score (MFS) and well-being (WB)] over the study period. Results
+L858: are presented as raw unadjusted means ± SE for individuals allocated to the placebo tablet (black lines, A, D, G),
+L859: vitamin C tablet (orange lines, B, E, H) and kiwifruit (green lines, C, F, I) condition. P values shown are derived
+L860: from paired t-tests, comparing intervention points with the values at Lead-in Week 2 (end of lead-in). Where no p
+L861: value is shown, results were not significantly different from lead-in values.
+L862: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L863: **Supplemental Table 10.** Per protocol sample ( _n_ = 92) macronutrient diet record data for the placebo, vitamin C,
+L864: and kiwifruit conditions
+L865: Energy Intake (KJ)
+L866: Week 1, Week 2 (Lead-in) 36 7580.90 (2569.73) 29 8403.28 (3000.45) 27 8175.59 (2002.77)
+L867: Weeks 5-6 (Intervention) 36 7083.73 (2980.05) 29 8205.30 (2510.72) 27 7346.48 (2225.20) [†a]
+L868: Weeks 7-8 (Washout) 36 6666.06 (2071.07) * [a] 28 7971.27 (2526.62) 24 7602.07 (2134.94)
+L869: Protein intake (grams)
+L870: Weeks 0-2 (Lead-in) 36 78.63 (30.94) 29 75.69 (30.11) 27 79.88 (30.26)
+L871: Weeks 4-6 (Intervention) 36 73.11 (32.69) 29 75.88 (18.26) 27 79.21 (29.97)
+L872: Weeks 6-8 (Washout) 36 67.24 (21.90) * [a] 28 74.26 (23.09) 24 71.98 (24.06)
+L873: Carbohydrate intake (grams)
+L874: Weeks 0-2 (Lead-in) 36 198.38 (68.28) 29 224.15 (86.18) 27 216.20 (59.34)
+L875: Weeks 4-6 (Intervention) 36 182.82 (76.50) 29 231.34 (90.60) 27 207.63 (57.57)
+L876: Weeks 6-8 (Washout) 36 173.87 (54.79) * [a] 28 216.87 (72.93) 24 197.79 (69.10)
+L877: Fat intake (grams)
+L878: Weeks 0-2 (Lead-in) 36 76.37 (31.01) 29 88.58 (38.81) 27 81.04 (22.78)
+L879: Weeks 4-6 (Intervention) 36 73.04 (41.68) 29 80.09 (29.03) 27 66.46 (27.28) * [a]
+L880: Weeks 6-8 (Washout) 36 67.85 (29.38) † [a] 28 80.06 (33.56) 24 79.18 (26.77) [†b]
+L881: Note. Results shown are means (SD). KJ = kilojoules. [a ] Paired t-test comparison with Lead-in; [b ] Paired t-test
+L882: comparison with Intervention. [†] _p_ < .1, * _p_ < .05, ** _p_ < .01.
+L883: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L884: **Sensitivity Analysis using Pattern Mixture Models**
+L885: Pattern mixture models were used to test the robustness of assumptions for the primary analysis,
+L886: assessing the plausible impact of data missing not at random (MNAR). Patterns in a pattern mixture
+L887: model represent different groups of missing data. It is thought participants who drop out of a study
+L888: may have a different distribution from those who remain in the study and have observed data. Different
+L889: patterns of missing data can be classified by the time point in which participants dropped out, by
+L890: participant reasons for dropping out, or auxiliary variables collected at baseline. We do acknowledge
+L891: that this type of sensitivity analysis cannot assess all possibilities for missing data, as it is limited by
+L892: possible under-identification of subgroups that can explain the missing data, as data required to
+L893: determine these subgroups may be missing. However, by definition, these possible subgroups are
+L894: untestable. A strength of the current study is that at baseline we collected data on several auxiliary
+L895: variables, such as age, gender, ethnicity, smoking status, year of study, typical weekly alcohol
+L896: consumption, weight, fruit and vegetable consumption, and socioeconomic status, which were used to
+L897: determine differences between participants with observed and missing data on primary outcomes.
+L898: For the primary outcomes, missing data followed a monotone pattern. If data was missing at a time
+L899: point (k), then data would also be missing at the following time point(s) (k+1). As such, a pattern
+L900: mixture approach accounting for the probability of drop out over time was taken ( **Supplemental Table**
+L901: **11** ). Recommendations and equations were taken from the panel of handling missing data in clinical
+L902: trials for monotone missing data; National Research Council, 2010.
+L903: **Supplemental Table 11.** Discontinued participants (cumulative percentage ( _n_ ))
+L904: Visit 1 Week 0 (Lead-in) 0.0% (0) 0.0% (0) 0.0% (0)
+L905: Visit 2 Week 2 (Lead-in) 3.7% (2) 1.8% (1) 0.0% (0)
+L906: Visit 3 Week 4 (Intervention) 3.7% (2) 5.4% (3) 1.8% (1)
+L907: Visit 4 Week 6 (Intervention) 3.7% (2) 7.1% (4) 3.5% (2)
+L908: Visit 5 Week 8 (Washout) 5.6% (3) 8.9% (5) 7.0% (4)
+L909: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L910: 𝐸𝐸(𝑌𝑌0 | 𝐿𝐿 ≥ 1) = 𝜇𝜇0,
+L911: 𝐸𝐸(𝑌𝑌1 | 𝑌𝑌0, 𝐿𝐿≥2) = 𝜇𝜇1 + 𝛽𝛽1𝑌𝑌0,
+L912: 𝐸𝐸(𝑌𝑌2 | 𝑌𝑌0, 𝑌𝑌1, 𝐿𝐿≥3) = 𝜇𝜇2 + 𝛽𝛽2(𝑌𝑌0, 𝑌𝑌1) [𝑇𝑇],
+L913: 𝐸𝐸(𝑌𝑌3 | 𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝐿𝐿≥4) = 𝜇𝜇3 + 𝛽𝛽3(𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2) [𝑇𝑇],
+L914: 𝐸𝐸(𝑌𝑌4 | 𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝑌𝑌3, 𝐿𝐿= 5) = 𝜇𝜇4 + 𝛽𝛽4(𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝑌𝑌3) [𝑇𝑇] .
+L915: (1)
+L916: (2)
+L917: (3)
+L918: (4)
+L919: (5)
+L920: The above equations show the regression model estimates for observed data on the continuous primary
+L921: outcomes for each of the time points ((1) Week 0 (Lead-in), (2) Week 2 (Lead-in), (3) Week 4
+L922: (Intervention), (4) Week 6 (Intervention), (5) Week 8 (Washout) based on the relationship between Yk
+L923: and Yk-1 for all available cases, where Yk is the outcome (total mood disturbance, fatigue, or well-being)
+L924: at time point k (e.g. when assessing total mood disturbance (TMD), Y4, would correspond to TMD at
+L925: Week 8 (washout)). The last week in which as participant provided data is denoted as L. The outcome
+L926: mean at each week from observed data is denoted as µk, where µ = E(Yk) and β is the slope coefficient
+L927: from the given regression model. Similar regression equations are used to estimate missing data under
+L928: different patterns of missingness.
+L929: 𝐸𝐸(𝑌𝑌1 | 𝑌𝑌0, 𝐿𝐿= 1) = 𝜇𝜇1∗ + 𝛽𝛽1∗𝑌𝑌0,
+L930: 𝐸𝐸(𝑌𝑌2 | 𝑌𝑌0, 𝑌𝑌1, 𝐿𝐿≥3) = 𝜇𝜇2∗ + 𝛽𝛽2∗(𝑌𝑌0, 𝑌𝑌1)𝑇𝑇,
+L931: 𝐸𝐸(𝑌𝑌3 | 𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝐿𝐿≥4) = 𝜇𝜇3∗ + 𝛽𝛽3∗(𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2)𝑇𝑇,
+L932: 𝐸𝐸(𝑌𝑌4 | 𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝑌𝑌3, 𝐿𝐿= 5) = 𝜇𝜇4∗ + 𝛽𝛽4∗(𝑌𝑌0, 𝑌𝑌1, 𝑌𝑌2, 𝑌𝑌3)𝑇𝑇.
+L933: (6)
+L934: (7)
+L935: (8)
+L936: (9)
+L937: Where 𝜇𝜇𝑘𝑘∗ = 𝜇𝜇𝑘𝑘 + ∆𝜇 and 𝛽𝛽𝑘𝑘∗ = 𝛽𝛽𝑘𝑘 + ∆𝛽 . The ∆𝜇 being the difference between the mean of 𝑌𝑌𝑘𝑘 for
+L938: individuals who drop out at k-1 and individuals remained in the study at k-1. The same principle can
+L939: be used to determine ∆𝛽, however, to simplify the number of sensitivity parameters, ∆𝛽 = 0, assuming
+L940: that ∆𝜇 is similar between patterns.
+L941: There was no significant difference between participants who remained in the study and participants
+L942: who dropped out for age, gender, smoking status, typical weekly alcohol consumption, weight, fruit
+L943: and vegetable consumption, or socioeconomic status. However, there were differences in ethnicity, in
+L944: which more non-Asian participants dropped out than Asian participants and participants who had
+L945: completed fewer years of study were more likely to drop out. **Supplemental Table 12** shows the
+L946: ANOVA results for sensitivity analysis under different patterns of missingness. Pattern one assumes
+L947: that data is missing at random (MAR, Δ=0), considering drop out over time. Pattern two assumes that
+L948: ONLINE SUPPLEMENTARY MATERIAL: KiwiC for Vitality Trial
+L949: there are differences between conditions for participants who drop out over time. Pattern three grouped
+L950: participants who dropped out based on their vitamin C levels into four groups; unhealthy levels of
+L951: vitamin C (<23µmol/L), adequate vitamin C, (23-40µmol/L), healthy vitamin C (41-60µmol/L), and
+L952: saturated (>60µmol/L), conditional on condition and time of drop out. Pattern four grouped
+L953: participants based on their reason for withdrawal or dropout over time. Groupings based on reasons
+L954: for drop out included medical or health reasons, no contact / no show, and disliked assigned condition
+L955: and unwilling to adhere. Pattern five addresses the ethnicity discrepancies between conditions over
+L956: time. Pattern six addresses the year of study differences between participants who dropped out and
+L957: participants who completed the study.
+L958: Sensitivity analysis ( **Supplemental Table 12** ) overall indicated that missing data was mostly negligible,
+L959: and analyses were robust as the patterns of results remained the same or were marginally strengthened
+L960: with the increased power. Sensitivity analysis for patterns one, two, three, four, and six gave
+L961: comparable results to the primary analysis for all vitality outcomes, although they were slightly
+L962: strengthened. Pattern five results were strengthened for total mood disturbance, fatigue, and wellbeing, which may suggest that there is an ethnicity-linked difference between conditions. Ethnicitylinked differences between vitamin C levels and vitality outcomes have also been noted in the main
+L963: analysis and may require further investigation. However, our study was under-powered to fully
+L964: explore such effects.
+L965: **Reference**
+L966: National Research Council. _The prevention and treatment of missing data in clinical trials_ . Panel on
+L967: Handling Missing Data in Clinical Trials. Committee on National Statistics, Division of
+L968: Behavioral and Social Sciences and Education. Washington, DC: The National Academies
+L969: Press; 2010
+L970: **Online Supporting Material for KiwiC for Vitality Trial**
+L971: **Supplemental Table 12.** Sensitivity analysis using pattern mixture models
+L972: **Total Mood Disturbance**
+L973: **(** _**n**_ **= 167)**
+L974: **Fatigue**
+L975: **(** _**n**_ **= 167)**
+L976: **Well-being**
+L977: **(** _**n**_ **= 167)**
+L978: Pattern Time F p ηp [2] F p ηp [2] F p ηp [2]
+L979: Pattern One Week 2, Week 4 3.361 .037 0.039 2.897 .058 0.034 4.586 .012 0.053
+L980: Week 2, Week 6 1.805 .168 0.022 0.868 .422 0.010 2.467 .088 0.029
+L981: Week 2, Week 4, Week 6 1.789 .131 0.021 1.400 .234 0.017 2.496 .043 0.030
+L982: Pattern Two Week 2, Week 4 3.900 .022 0.045 2.945 .055 0.035 4.787 .010 0.055
+L983: Week 2, Week 6 1.334 .266 0.016 0.456 .634 0.006 2.302 .103 0.027
+L984: Week 2, Week 4, Week 6 1.805 .128 0.022 1.329 .259 0.016 2.724 .029 0.032
+L985: Pattern Three Week 2, Week 4 3.890 .022 0.045 3.269 .041 0.038 4.557 .012 0.053
+L986: Week 2, Week 6 1.420 .245 0.017 0.491 .613 0.006 1.996 .139 0.024
+L987: Week 2, Week 4, Week 6 1.887 .115 0.023 1.427 .225 0.017 2.624 .035 0.031
+L988: Pattern Four Week 2, Week 4 3.314 .039 0.039 2.750 .067 0.032 4.777 .010 0.056
+L989: Week 2, Week 6 1.295 .277 0.016 0.450 .638 0.005 2.441 .090 0.029
+L990: Week 2, Week 4, Week 6 1.639 .164 0.020 1.226 .300 0.015 2.727 .029 0.033
+L991: Pattern Five Week 2, Week 4 4.316 .015 0.050 3.406 .036 0.040 5.094 .007 0.058
+L992: Week 2, Week 6 2.927 .056 0.034 0.711 .493 0.009 2.860 .060 0.034
+L993: Week 2, Week 4, Week 6 2.449 .046 0.029 1.505 .200 0.018 2.934 .021 0.035
+L994: Pattern Six Week 2, Week 4 4.298 .015 0.050 2.819 .063 0.033 3.938 .021 0.046
+L995: Week 2, Week 6 1.771 .173 0.021 0.789 .456 0.010 1.826 .164 0.022
+L996: Week 2, Week 4, Week 6 2.075 .084 0.025 1.339 .255 0.016 2.178 .071 0.026
+L997: Note. Pattern one: Missing at random (MAR, Δ=0); Pattern two: Different distributions between conditions; Pattern three: Distributions based on vitamin C levels; Pattern four:
+L998: Distributions based on reason for withdrawal or dropout; Pattern five: Distributions based on ethnicity discrepancies between conditions; Pattern six: Distributions based on
+L999: year of study.
+[29ms]
+

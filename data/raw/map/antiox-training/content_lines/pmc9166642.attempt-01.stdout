@@ -1,0 +1,621 @@
+L1: Lessening Organ Dysfunction With Vitamin C (LOVIT) Trial: Statistical Analysis Plan
+L2: JMIR Research Protocols (2022)
+L3: Neill KJ Adhikari, Ruxandra Pinto, Andrew G Day, Marie-Hélène Masse, Julie Ménard, Sheila Sprague, Djillali Annane, Yaseen M Arabi, Marie-Claude Battista, Dian Cohen, Deborah J Cook, Gordon H Guyatt, Daren K Heyland, Salmaan Kanji, Shay P McGuinness, Rachael L Parke, Bharath Kumar Tirupakuzhi Vijayaraghavan, Emmanuel Charbonney, Michaël Chassé, Lorenzo Del Sorbo, Demetrios James Kutsogiannis, François Lauzier, Rémi Leblanc, David M Maslove, Sangeeta Mehta, Armand Mekontso Dessap, Tina S Mele, Bram Rochwerg, Oleksa G Rewa, Jason Shahin, Pawel Twardowski, Paul Jeffrey Young, François Lamontagne
+L4: 1 
+L5:  Department of Critical Care Medicine 
+L6:  Sunnybrook Health Sciences Centre 
+L7:  Toronto, ON 
+L8:  Canada
+L9: 2 
+L10:  Interdepartmental Division of Critical Care Medicine 
+L11:  University of Toronto 
+L12:  Toronto, ON 
+L13:  Canada
+L14: 3 
+L15:  Kingston Health Sciences Centre 
+L16:  Kingston, ON 
+L17:  Canada
+L18: 4 
+L19:  Department of Public Health Sciences 
+L20:  Queen's University 
+L21:  Kingston, ON 
+L22:  Canada
+L23: 5 
+L24:  Research Centre of the Centre Hospitalier Universitaire de Sherbrooke 
+L25:  Sherbrooke, QC 
+L26:  Canada
+L27: 6 
+L28:  Division of Orthopaedic Surgery 
+L29:  Department of Surgery 
+L30:  McMaster University 
+L31:  Hamilton, ON 
+L32:  Canada
+L33: 7 
+L34:  Department of Intensive Care Medicine 
+L35:  Raymond-Poincaré Hospital (Assistance Publique - Hôpitaux de Paris [AP-HP]) 
+L36:  Garches 
+L37:  France
+L38: 8 
+L39:  Institut National de la Santé et de la Recherche Médicale 
+L40:  Université Paris-Saclay Campus Université de Versailles Saint-Quentin-en-Yvelines 
+L41:  Versailles 
+L42:  France
+L43: 9 
+L44:  Fédération Hospitalo-Universitaire SEPSIS 
+L45:  Garches 
+L46:  France
+L47: 10 
+L48:  College of Medicine 
+L49:  King Saud Bin Abdulaziz University for Health Sciences 
+L50:  Riyadh 
+L51:  Saudi Arabia
+L52: 11 
+L53:  King Abdullah International Medical Research Center 
+L54:  Riyadh 
+L55:  Saudi Arabia
+L56: 12 
+L57:  Department of Intensive Care 
+L58:  King Abdulaziz Medical City 
+L59:  Ministry of National Guard Health Affairs 
+L60:  Riyadh 
+L61:  Saudi Arabia
+L62: 13 
+L63:  Department of Medicine 
+L64:  Université de Sherbrooke 
+L65:  Sherbrooke, QC 
+L66:  Canada
+L67: 14 
+L68:  Bishop's University 
+L69:  Sherbroooke, QC 
+L70:  Canada
+L71: 15 
+L72:  Massawippi Valley Foundation 
+L73:  Ayer's Cliff, QC 
+L74:  Canada
+L75: 16 
+L76:  Department of Medicine 
+L77:  McMaster University 
+L78:  Hamilton, ON 
+L79:  Canada
+L80: 17 
+L81:  Department of Critical Care 
+L82:  St. Joseph's Healthcare Hamilton 
+L83:  Hamilton, ON 
+L84:  Canada
+L85: 18 
+L86:  Department of Health Research Methods, Evidence, and Impact 
+L87:  McMaster University 
+L88:  Hamilton, ON 
+L89:  Canada
+L90: 19 
+L91:  Department of Critical Care Medicine 
+L92:  Queen's University 
+L93:  Kingston, ON 
+L94:  Canada
+L95: 20 
+L96:  Kingston General Health Research Institute 
+L97:  Kingston Health Sciences Centre 
+L98:  Kingston, ON 
+L99:  Canada
+L100: 21 
+L101:  Clinical Evaluation Research Unit 
+L102:  Kingston General Hospital 
+L103:  Kingston, ON 
+L104:  Canada
+L105: 22 
+L106:  The Ottawa Hospital Research Institute 
+L107:  Ottawa, ON 
+L108:  Canada
+L109: 23 
+L110:  Department of Pharmacy 
+L111:  The Ottawa Hospital 
+L112:  Ottawa, ON 
+L113:  Canada
+L114: 24 
+L115:  Cardiothoracic and Vascular Intensive Care Unit 
+L116:  Auckland City Hospital 
+L117:  Auckland 
+L118:  New Zealand
+L119: 25 
+L120:  Medical Research Institute of New Zealand 
+L121:  Newtown 
+L122:  New Zealand
+L123: 26 
+L124:  Australian and New Zealand Intensive Care Research Centre 
+L125:  Monash University 
+L126:  Melbourne 
+L127:  Australia
+L128: 27 
+L129:  School of Nursing 
+L130:  Faculty of Medical and Health Sciences 
+L131:  University of Auckland 
+L132:  Auckland 
+L133:  New Zealand
+L134: 28 
+L135:  Department of Critical Care Medicine 
+L136:  Apollo Hospitals 
+L137:  Chennai 
+L138:  India
+L139: 29 
+L140:  The George Institute for Global Health 
+L141:  New Delhi 
+L142:  India
+L143: 30 
+L144:  Centre Hospitalier de l'Université de Montréal 
+L145:  Montréal, QC 
+L146:  Canada
+L147: 31 
+L148:  Centre de Recherche de l'Hôpital du Sacré-Coeur de Montréal 
+L149:  Montréal, QC 
+L150:  Canada
+L151: 32 
+L152:  Department of Medicine 
+L153:  Université de Montréal 
+L154:  Montréal, QC 
+L155:  Canada
+L156: 33 
+L157:  Department of Medicine 
+L158:  University Health Network 
+L159:  Toronto, ON 
+L160:  Canada
+L161: 34 
+L162:  Department of Critical Care Medicine 
+L163:  University of Alberta 
+L164:  Edmonton, AB 
+L165:  Canada
+L166: 35 
+L167:  Department of Medicine 
+L168:  Université Laval 
+L169:  Québec, QC 
+L170:  Canada
+L171: 36 
+L172:  Department of Anesthesiology and Critical Care 
+L173:  Université Laval 
+L174:  Québec, QC 
+L175:  Canada
+L176: 37 
+L177:  Population Health and Optimal Health Practices Research Unit, Traumatology - Emergency - Critical Care Medicine 
+L178:  Centre Hospitalier Universitaire de Québec - Université Laval Research Center 
+L179:  Centre Hospitalier Universitaire de Québec - Université Laval 
+L180:  Québec, QC 
+L181:  Canada
+L182: 38 
+L183:  Critical Care Medicine Service 
+L184:  Centre Hospitalier Universitaire de Québec - Université Laval 
+L185:  Quebec, QC 
+L186:  Canada
+L187: 39 
+L188:  Department of Medicine 
+L189:  Centre Hospitalier Universitaire Dr Georges-L. Dumont 
+L190:  Moncton, NB 
+L191:  Canada
+L192: 40 
+L193:  Division of Intensive Care 
+L194:  Centre Hospitalier Universitaire Dr Georges-L. Dumont 
+L195:  Moncton, NB 
+L196:  Canada
+L197: 41 
+L198:  Department of Medicine 
+L199:  Queen's University 
+L200:  Kingston, ON 
+L201:  Canada
+L202: 42 
+L203:  Sinai Health System 
+L204:  Toronto, ON 
+L205:  Canada
+L206: 43 
+L207:  Service de Médecine Intensive Réanimation 
+L208:  Assistance Publique - Hôpitaux de Paris [AP-HP], Hôpitaux Universitaires Henri-Mondor 
+L209:  Créteil 
+L210:  France
+L211: 44 
+L212:  Groupe de Recherche Clinique CARMAS (Cardiovascular and Respiratory Manifestations of Acute lung injury and Sepsis) 
+L213:  Université de Paris Est Créteil 
+L214:  Créteil 
+L215:  France
+L216: 45 
+L217:  Institut Mondor de Recherche Biomédicale 
+L218:  Institut National de la Santé et de la Recherche Médicale 
+L219:  Université Paris Est Créteil 
+L220:  Créteil 
+L221:  France
+L222: 46 
+L223:  Department of Surgery 
+L224:  Schulich School of Medicine and Dentistry 
+L225:  Western University 
+L226:  London, ON 
+L227:  Canada
+L228: 47 
+L229:  Department of Medicine 
+L230:  McGill University Health Centre 
+L231:  Montréal, QC 
+L232:  Canada
+L233: 48 
+L234:  Department of Critical Care 
+L235:  McGill University Health Centre 
+L236:  Montréal, QC 
+L237:  Canada
+L238: 49 
+L239:  Department of Surgical Sciences 
+L240:  University of Otago 
+L241:  Dunedin 
+L242:  New Zealand
+L243: 50 
+L244:  Intensive Care Unit 
+L245:  Wellington Hospital 
+L246:  Newton 
+L247:  New Zealand
+L248: 51 
+L249:  See Acknowledgements
+L250: Background
+L251: The LOVIT (Lessening Organ Dysfunction with Vitamin C) trial is a blinded multicenter randomized clinical trial comparing high-dose intravenous vitamin C to placebo in patients admitted to the intensive care unit with proven or suspected infection as the main diagnosis and receiving a vasopressor.
+L252: Objective
+L253: We aim to describe a prespecified statistical analysis plan (SAP) for the LOVIT trial prior to unblinding and locking of the trial database.
+L254: Methods
+L255: The SAP was designed by the LOVIT principal investigators and statisticians, and approved by the steering committee and coinvestigators. The SAP defines the primary and secondary outcomes, and describes the planned primary, secondary, and subgroup analyses.
+L256: Results
+L257: The SAP includes a draft participant flow diagram, tables, and planned figures. The primary outcome is a composite of mortality and persistent organ dysfunction (receipt of mechanical ventilation, vasopressors, or new renal replacement therapy) at 28 days, where day 1 is the day of randomization. All analyses will use a frequentist statistical framework. The analysis of the primary outcome will estimate the risk ratio and 95% CI in a generalized linear mixed model with binomial distribution and log link, with site as a random effect. We will perform a secondary analysis adjusting for prespecified baseline clinical variables. Subgroup analyses will include age, sex, frailty, severity of illness, Sepsis-3 definition of septic shock, baseline ascorbic acid level, and COVID-19 status.
+L258: Conclusions
+L259: We have developed an SAP for the LOVIT trial and will adhere to it in the analysis phase.
+L260: International Registered Report Identifier (IRRID)
+L261: DERR1-10.2196/36261
+L262: Protocol; Protocol
+L263: sepsis; vitamin C; statistical analysis; organ; ascorbic acid; critical care; organ dysfunction; intensive care unit; intensive care; patient; vasopressor; infection; intravenous; health data; trial database; patient outcome; mortality; statistical framework; binomial distribution
+L264: Introduction
+L265: Sepsis, defined as a dysregulated host immune response to infection that leads to organ dysfunction and death [ 1 ], is a major global public health concern, causing up to 5.3 million deaths every year. Current sepsis management is focused on prompt antimicrobial therapy and organ-supportive care, and numerous trials of interventions for immune dysregulation have not demonstrated benefit [ 2 ]. Vitamin C is an endogenous antioxidant with multiple actions, including scavenging of oxygen radicals, restoration of endothelial function, and synthesis of norepinephrine and vasopressin as a cofactor. The findings of low vitamin C levels in critical illness and its association with poor outcomes have led to randomized clinical trials (RCTs) of intravenous vitamin C [ 3 ], including in sepsis [ 4 ], with variable results that do not exclude clinically meaningful improvements in patient outcomes.
+L266: The LOVIT (Lessening Organ Dysfunction with Vitamin C) trial is the largest trial to evaluate high-dose intravenous vitamin C in adults with sepsis. We aim to describe a prespecified statistical analysis plan (SAP) for the LOVIT trial. This SAP was written before data collection was complete for the last adult enrolled in the trial and prior to database lock and unblinding of the study team.
+L267: Methods
+L268: Design
+L269: The LOVIT trial is a multicenter, parallel-group, allocation-concealed, blinded (participants, clinicians, study personnel, members of the executive and steering committees, and data analysts) superiority RCT, which was registered on September 21, 2018 (ClinicalTrials.gov identifier: NCT03680274). The trial protocol has been published [ 5 ]; the final version (7.0) is dated February 15, 2021. The primary aim of the LOVIT trial is to determine whether intravenous vitamin C, administered to adults with sepsis receiving a vasopressor, reduces the composite outcome of mortality and persistent organ dysfunction [ 6 ] at day 28, when compared with placebo. Persistent organ dysfunction is defined as dependency on vasopressors, mechanical ventilation, or incident renal replacement therapy.
+L270: Sites
+L271: The trial involves 35 sites in Canada, New Zealand, and France.
+L272: Inclusion Criteria
+L273: Patients were eligible for inclusion if they were (1) at least 18 years old; (2) admitted to an intensive care unit (ICU) with proven or suspected infection as the main diagnosis; and (3) treated with a continuous intravenous vasopressor infusion (norepinephrine, epinephrine, vasopressin, dopamine, or phenylephrine [or metaraminol in New Zealand]) at the time of eligibility assessment and at randomization.
+L274: The LOVIT trial was designed before the COVID-19 pandemic, but patients with SARS-CoV-2 infection who otherwise met the eligibility criteria were eligible for the trial.
+L275: Exclusion Criteria
+L276: Patients were excluded for any of the following reasons: (1) more than 24 hours since ICU admission; (2) known glucose-6-phosphate dehydrogenase deficiency; (3) pregnancy; (4) known allergy to vitamin C; (5) known kidney stones within the past 1 year; (6) received any intravenous vitamin C during the current hospitalization, unless incorporated as part of parenteral nutrition; (7) expected death or withdrawal of life-sustaining treatments within 48 hours; (8) previously enrolled in this study (LOVIT trial); and (9) enrolled in a trial for which co-enrollment was not possible (determined on a case-by-case basis by discussion with the other trial’s principal investigators).
+L277: Randomization
+L278: Trial participants were randomized in a 1:1 ratio to vitamin C or matching placebo using permuted blocks of variable size, undisclosed to study personnel, and stratified by clinical site using a web-based randomization interface. Pharmacists and technicians preparing the study medication (vitamin C or placebo) at each participating site were unblinded.
+L279: Intervention
+L280: The experimental intervention was intravenous vitamin C, administered in bolus doses of 50 mg/kg actual body weight, given every 6 hours for 96 hours (ie, 200 mg/kg/day and 16 doses in total), as long as the patient remained in the ICU. For patients weighing ≥150 kg, the weight was considered as 150 kg to calculate the dose. Each dose was administered over 30-60 minutes, except for participants >120 kg, for whom the infusion time was prolonged so that the rate did not exceed 100 mg/min. Participants in the control arm received 5% dextrose or normal saline in a volume to match the vitamin C. Placebo was infused over the same period as per the instructions for vitamin C, and was identical in color and other physical properties to vitamin C. Administration of open-label vitamin C in either group was not permitted and constituted a protocol violation.
+L281: Primary Outcome
+L282: The primary outcome is a composite of mortality and persistent organ dysfunction (defined as dependency on vasopressors, mechanical ventilation, or new renal replacement therapy) at day 28 [ 6 ]. Mechanical ventilation refers to invasive ventilation only, and patients receiving chronic renal replacement therapy before the index hospitalization do not meet the criteria for persistent organ dysfunction on the basis of ongoing renal replacement therapy. Note that day 1 refers to the day of randomization.
+L283: Secondary Outcomes
+L284: Efficacy outcomes include the following:
+L285: Biomarker outcomes were measured only in patients enrolled in Canada. We included day 1 measurements of biomarkers in the outcome list above for completeness, although day 1 samples were taken before administration of the first dose of study medication, and these samples therefore provided baseline measurements. Biomarker analyses were conducted in a central study laboratory; due to delays in obtaining assays to measure procalcitonin and C-reactive protein, analyses of those secondary outcomes may be delayed and reported after the primary publication.
+L286: Safety outcomes include the following:
+L287: After trial registration and publication of the trial protocol [ 5 ], we added the secondary outcome of mortality at 28 days, which is a component of the primary outcome. The trial registration reports 3 other outcomes (vitamin C volume of distribution, clearance, and plasma concentration) that are only relevant for a pharmacokinetic substudy, whose analysis plan will be reported separately.
+L288: Adverse Events
+L289: Following Canadian recommendations for adverse event reporting in academic critical care trials [ 15 ], expected adverse events (death, stage 3 acute kidney injury, hemolysis, and hypoglycemia), whether severe or not, are prespecified trial outcomes and will not be reported separately as adverse events. Unexpected adverse events that are serious (ie, fatal, life-threatening, prolonging hospital stay, resulting in persistent or significant disability or incapacity, or constituting an important medical event according to the local principal investigator) and considered by the local principal investigator to be at least possibly related to trial procedures will be reported to the coordinating center within 24 hours of becoming aware of the event.
+L290: Sample Size
+L291: We determined a minimum sample size of 800 participants based on the following assumptions. We established that an absolute difference of 10% in the composite outcome of mortality and persistent organ dysfunction (15% to 25% relative risk reduction) would be plausible [ 16 , 17 ] and sufficiently large to change practice. Based on recent clinical trials in a similar population [ 18 ], the risk of 28-day persistent organ dysfunction or mortality in the control arm was expected to be approximately 50%. By enrolling 385 evaluable patients per arm, the study would have 80% power to detect a 10% absolute risk reduction (from 50% to 40%, which corresponds to a 20% relative risk reduction). To account for consent withdrawal and loss to follow-up, we planned to enroll 400 patients per arm. Because of the subsequent COVID-19 pandemic, which started after the LOVIT trial had commenced recruiting and constituted extenuating circumstances [ 19 ], the steering committee approved the inclusion of eligible patients in whom SARS-CoV-2 infection was the cause of sepsis. However, in view of the unclear responsiveness of sepsis in the context of COVID-19 to vitamin C, the total sample size was increased to ensure that the original planned sample size (n=800) of non–COVID-19 participants was reached. We have planned a subgroup analysis based on COVID-19 status (mentioned below).
+L292: Statistical Analysis
+L293: Interim Analyses
+L294: The independent Data and Safety Monitoring Committee (DSMC) reviewed data on all serious unexpected adverse events at least possibly related to the study medication, in addition to hemolysis, stage 3 acute kidney injury, and hypoglycemia, after enrollment of 250 and 530 patients. The statistical plan for the interim analyses was included in the DSMC charter, which was written before enrollment of the first patient in the trial, and included in the protocol [ 5 ]. In an unadjusted analysis using a chi-square or Fisher exact test as appropriate, if the 1-sided  P  value had been <.1 (in the direction of harm in the vitamin C arm) for any of the 3 safety outcomes, an interim 2-sided analysis of the primary outcome would have been conducted. The DSMC could also have requested an analysis of the primary outcome at any time. This analysis would have generated a conditional power for showing statistically significant efficacy (superiority of vitamin C) in the final analysis of the primary outcome, assuming that the group-specific event rates observed to date had remained the same in the total sample size. If the conditional power for efficacy had been <20%, in the context of a 1-sided  P  value <.1 for any of the safety outcomes, the DSMC could have recommended stopping the trial to the steering committee. The DSMC could have made a similar recommendation even if these exact thresholds had not been met, based on its interpretation of the balance between safety and efficacy. At the second interim analysis, the DSMC performed an analysis of 28-day mortality and could have recommended stopping the trial to the steering committee at a 2-sided  P  value <.001. This Haybittle-Peto stopping boundary only trivially inflates the overall type I error, so a  P  value <.05 will be used to declare statistical significance in the final analysis [ 20 ].
+L295: After both interim analyses, the DSMC recommended continuation of enrollment as planned.
+L296: Intention-to-Treat Principle
+L297: We will analyze data from participants in the group to which they were allocated irrespective of protocol adherence. If ineligible participants were randomized, we will allow postrandomization exclusions only if they meet all of the following conditions: (1) the information about ineligibility was available at randomization; (2) participants did not receive the assigned intervention; (3) blinding was maintained; and (4) 2 members of the steering committee blinded to allocation agree that the participant was mistakenly randomized after review of information from medical records available at the time of randomization [ 21 , 22 ]. Patients who withdraw consent for their follow-up data to be used will also be excluded from the analyses.
+L298: Other Principles
+L299: The RCT will be analyzed using a frequentist approach. All statistical tests will be 2-sided, and the overall type 1 error for the primary outcome will be 5% at a significance level of .05. We will not report  P  values for secondary outcomes and analyses. All estimates of treatment effect will be reported with 95% CIs.
+L300: Categorical variables will be summarized with counts and percentages (based on the number of patients with data), and continuous variables will be reported as mean (SD) or median (IQR) as appropriate.
+L301: The main LOVIT manuscript will include analyses of the primary outcome and all secondary efficacy and safety outcomes, except for procalcitonin and C-reactive protein, as noted above. Unadjusted and adjusted analyses of the primary outcome and of 28-day mortality will be reported (see below); analyses of all other secondary outcomes will be unadjusted for baseline covariates.
+L302: Secondary outcome analyses will be performed regardless of the result for the primary outcome and will be considered exploratory.
+L303: Subgroup analyses will be performed regardless of the result for the primary outcome.
+L304: Analyses will be conducted using SAS 9.4 (SAS Institute Inc) and R 4.0.3 (R Foundation for Statistical Computing).
+L305: Trial Profile
+L306: The flow of patients through the trial will be shown in a CONSORT (Consolidated Standards of Reporting Trials) figure ( Figure 1 ) [ 23 ]. The figure will show the number of patients who fulfilled eligibility criteria, the number randomized, and the number analyzed for the primary outcome. Reasons for eligible patients not randomized and for exclusion after randomization will be given.
+L307: Figure 1 Flow of patients through the trial. G6PD: glucose-6-phosphate dehydrogenase; IV: intravenous; LOVIT: Lessening Organ Dysfunction with Vitamin C; SDM: substitute decision-maker.
+L308: Baseline Characteristics
+L309: A table ( Figure 2 ) will be used to display baseline characteristics for the entire trial population and according to the allocated group. These characteristics will include demographics, comorbidities, location of suspected infection, severity of illness, organ support (mechanical ventilation and renal replacement therapy), and laboratory data.
+L310: Figure 2 Table 1 in the main manuscript (baseline characteristics).
+L311: Adherence to the Protocol
+L312: Protocol adherence will be defined by the administration of at least 90% of scheduled doses of the study medication (vitamin C or placebo), until completion of the treatment protocol or ICU discharge, whichever comes first, and off-protocol administration of intravenous vitamin C.
+L313: Analysis of the Primary Outcome
+L314: For the principal analysis, we will report the number and percentage of patients who die or have persistent organ dysfunction at day 28. We will estimate the risk ratio and 95% CI in a generalized linear mixed model with binomial distribution and log link, with site as a random effect [ 24 ]. If this model does not converge, we will estimate the risk ratio using modified Poisson regression with small sample correction [ 25 ], and if that model also does not converge, we will estimate the odds ratio with logistic regression; both models will consider site as a random effect. We will use the same approach for the secondary analyses of the primary outcome and for analyses of binary secondary outcomes.
+L315: In secondary analyses of the primary outcome, we will adjust for prespecified baseline characteristics (age, sex, Acute Physiology and Chronic Health Evaluation [APACHE] II score [ 26 ], baseline receipt of corticosteroids, and time from ICU admission to randomization). Continuous adjustment variables will be modeled using restricted cubic splines with 4 knots to account for nonlinear relationships with the log risk of the primary outcome. If more than 5% of the intention-to-treat population is excluded from this adjusted analysis because of missing baseline characteristics, we will impute missing data using multiple imputation with fully conditional specification to obtain 10 imputed data sets. The adjusted analysis will be performed on the imputed data sets, and the results will be pooled using Rubin rules so that both within- and between-imputation variances are counted. We will assume the APACHE II score is missing only if all its components are missing; otherwise, we will assume that a missing component has a normal value and calculate the APACHE II score accordingly.
+L316: For patients with missing data on the primary outcome or on the secondary outcome of 28-day mortality (eg, due to loss to follow-up), the principal and adjusted analyses will only include data on patients with outcome data. We will conduct a best case-worst case unadjusted sensitivity analysis, assuming first that all patients with missing data who received vitamin C did not have the outcome, whereas those in the placebo group did, and assuming second that the opposite states apply. If these analyses give discrepant results, namely statistically significant in one case but not the other or both statistically significant but in opposite directions, then we will use multiple imputation with fully conditional specification to explore the impact of missing data [ 27 ]. We acknowledge the limitations of this approach, given that outcome data may not be missing completely at random, and the importance of making all efforts to minimize the extent of missing outcome data.
+L317: Subgroup Analyses
+L318: We will evaluate the effect of vitamin C on the primary outcome in subgroups defined at baseline by age (<65 vs ≥65 years), sex (male vs female), frailty (Clinical Frailty Scale 1-4 vs ≥5 [ 28 ]), severity of illness (quartiles of predicted risk of death from the baseline APACHE II score), Sepsis-3 [ 1 ] definition of septic shock (vasopressor infusion required to maintain a mean arterial pressure of 65 mmHg and lactate ≥2 mmol/L vs vasopressor need alone), and baseline ascorbic acid level (as quartiles). We hypothesize that vitamin C is more beneficial in elderly patients, those with greater frailty and illness severity at baseline, those who meet strict criteria for septic shock, and those with lower baseline ascorbic acid levels. In addition to the 6 subgroups prespecified in our published protocol, we will assess for a subgroup effect based on COVID-19 status (positive result on polymerase chain reaction or a rapid antigen test at baseline vs negative), hypothesizing no evidence of a difference in treatment effect. We will report interaction terms from the generalized linear mixed model (as used in the principal analysis) with treatment group, subgroup, and their interaction, and display the results in a Forest plot. We will assess the credibility of any subgroup effect with interaction at  P <.05, using a published tool [ 29 ].
+L319: Analyses of Secondary Outcomes
+L320: Unless noted, analyses will not be adjusted for baseline characteristics or for site.
+L321: Analyses of clinical secondary outcomes will proceed as presented below.
+L322: Mortality at Day 28
+L323: We will conduct a principal unadjusted analysis and secondary analysis adjusted for baseline characteristics and site according to the analysis plan for the primary outcome outlined above. We will also conduct a best case-worst case unadjusted sensitivity analysis to account for missing data, with multiple imputation for missing outcome data if these 2 sensitivity analyses differ (as for the primary outcome).
+L324: Six-Month Mortality
+L325: We will conduct a principal analysis using a Cox proportional hazards model, with site as a random effect. We have chosen a Cox model because we record the data of death for decedents and because differences in duration of survival are plausibly important over a 6-month time horizon. Patients who are lost to follow-up or who withdraw consent for follow-up will be censored at the last follow-up time (expected to be at hospital discharge).
+L326: Six-Month HRQoL
+L327: In survivors with complete follow-up, we will report the mean or median for each dimension of the scale and for the self-reported overall health status in each group. Differences in means or medians will be reported, as appropriate.
+L328: Persistent Organ Dysfunction–Free Days in the ICU (up to Day 28)
+L329: Analysis will be rank-based, with death assigned as −1 (modified from a previous report [ 7 ]). We will display an empirical cumulative distribution function for each group and report the median, along with a difference in medians.
+L330: SOFA Scores at Prespecified Time Points
+L331: Results by randomized group at each time point will be summarized descriptively and displayed in a boxplot. For scores during the first 7 days, we will use a linear mixed model to account for repeated measures, with a random intercept and time for each subject and a random effect for site. Because day 1 SOFA may not be a true baseline value, it will not be used to model SOFA on subsequent days. For patients who die before day 7, we will impute the worst (highest) value, and for patients discharged alive before day 7, we will impute the value based on data available for these patients. We will conduct a likelihood ratio test between the empty model and the one with time, group, and their interaction, and will conduct additional testing of the terms in the model only if that test is statistically significant. For SOFA scores beyond day 7, we will report differences in means or medians because of the expected large proportion of patients with missing data due to death or discharge from the ICU.
+L332: For each biomarker outcome, results by randomized group at each time point will be summarized descriptively and displayed in boxplots. We will use constrained longitudinal data analysis [ 30 ] to analyze biomarker results. At day 3 and day 7, groups will be compared using a linear mixed model and adjusting for day 1 biomarker levels, with a random intercept for site and unstructured within-patient covariance. Biomarker data will be transformed, if necessary, to satisfy model assumptions.
+L333: For safety outcomes, we will report the number and percentage of each prespecified safety outcome, and the number of unexpected serious adverse events and number of patients with an unexpected serious adverse event, in each treatment group. Differences will be reported as risk ratios.
+L334: Tables and Figures
+L335: Draft tables ( Figures 2  and  3 ) and figures ( Figure 1 ;  Textbox 1 ) for the main manuscript are presented, and planned additional tables and figures are described in  Multimedia Appendix 1 .
+L336: Figure 3 Table 2 in the main manuscript (primary and secondary outcomes).
+L337: Funding, Registration, and Ethics Approval
+L338: The LOVIT trial is funded by a grant from the Lotte and John Hecht Memorial Foundation (grant 4318). The funder had no role in the design of the study, ongoing data collection, SAP or data interpretation, or writing of any associated manuscript.
+L339: The LOVIT trial was conducted with the support of the Canadian Critical Care Trials Group. The protocol has been approved by the Comité d’éthique de la recherche du Centre intégré universitaire de santé et de services sociaux de l’Estrie – Centre hospitalier universitaire de Sherbrooke (reference MP-31-2019-2945) and at each participating site. The LOVIT trial has been registered on ClinicalTrials.gov (NCT03680274; September 21, 2018).
+L340: Document History
+L341: Version 1 of the statistical analysis protocol, dated January 19, 2022, was posted to this trial’s listing on ClinicalTrials.gov on January 20, 2022. This version contains corrections and clarifications, but no changes to the proposed analysis methods.
+L342: Results
+L343: As of July 19, 2021, enrollment in the trial has been completed. Follow-up data at 6 months were available by January 24, 2022, with results to follow based on this SAP.
+L344: Discussion
+L345: The LOVIT trial is a methodologically rigorous RCT of intravenous vitamin C monotherapy in critically ill patients with sepsis. This SAP, drafted before data collection was complete for the last patient enrolled in the trial and prior to database lock and unblinding of the study team, will guide the analysis of data from this trial.
+L346: Multimedia Appendix 1
+L347: 1 Singer M Deutschman CS Seymour CW Shankar-Hari M Annane D Bauer M Bellomo R Bernard GR Chiche J Coopersmith CM Hotchkiss RS Levy MM Marshall JC Martin GS Opal SM Rubenfeld GD van der Poll T Vincent J Angus DC The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) JAMA 2016 02 23 315 8 801 10 
+L348:  
+L349:  10.1001/jama.2016.0287 26903338 2492881 26903338
+L350: 2 Marshall JC Why have clinical trials in sepsis failed? Trends Mol Med 2014 04 20 4 195 203 10.1016/j.molmed.2014.01.007 24581450 S1471-4914(14)00009-4 24581450
+L351: 3 Langlois PL Manzanares W Adhikari NKJ Lamontagne F Stoppe C Hill A Heyland DK Vitamin C Administration to the Critically Ill: A Systematic Review and Meta-Analysis JPEN J Parenter Enteral Nutr 2019 03 43 3 335 346 10.1002/jpen.1471 30452091 30452091
+L352: 4 Fujii T Salanti G Belletti A Bellomo R Carr A Furukawa TA Luethi N Luo Y Putzu A Sartini C Tsujimoto Y Udy AA Yanase F Young PJ Effect of adjunctive vitamin C, glucocorticoids, and vitamin B1 on longer-term mortality in adults with sepsis or septic shock: a systematic review and a component network meta-analysis Intensive Care Med 2022 01 48 1 16 24 
+L353:  
+L354:  10.1007/s00134-021-06558-0 34750650 10.1007/s00134-021-06558-0 34750650
+L355: 5 Masse M Ménard J Sprague S Battista M Cook DJ Guyatt GH Heyland DK Kanji S Pinto R Day AG Cohen D Annane D McGuinness S Parke R Carr A Arabi Y Vijayaraghavan BKT D'Aragon F Carbonneau Maslove D Hunt M Rochwerg B Millen T Chassé M Lebrasseur M Archambault P Deblois E Drouin C Lellouche F Lizotte P Watpool I Porteous R Clarke F Marinoff N Belley-Côté É Bolduc B Walker S Iazzetta J Adhikari NKJ Lamontagne F Canadian Critical Care Trials Group Lessening Organ dysfunction with VITamin C (LOVIT): protocol for a randomized controlled trial Trials 2020 01 08 21 1 42 
+L356:  
+L357:  10.1186/s13063-019-3834-1 31915072 10.1186/s13063-019-3834-1 31915072
+L358: 6 Heyland DK Muscedere J Drover J Jiang X Day AG Canadian Critical Care Trials Group Persistent organ dysfunction plus death: a novel, composite outcome measure for critical care trials Crit Care 2011 15 2 R98 
+L359:  
+L360:  10.1186/cc10110 21418560 cc10110 21418560
+L361: 7 REMAP-CAP Investigators ACTIV-4a Investigators ATTACC Investigators Goligher EC Bradbury CA McVerry BJ Lawler PR Berger JS Gong MN Carrier M Reynolds HR Kumar A Turgeon AF Kornblith LZ Kahn SR Marshall JC Kim KS Houston BL Derde LPG Cushman M Tritschler T Angus DC Godoy LC McQuilten Z Kirwan BA Farkouh ME Brooks MM Lewis RJ Berry LR Lorenzi E Gordon AC Ahuja T Al-Beidh F Annane D Arabi YM Aryal Di Baumann Kreuziger L Beane A Bhimani Z Bihari S Billett HH Bond L Bonten M Brunkhorst F Buxton M Buzgau A Castellucci LA Chekuri S Chen JT Cheng AC Chkhikvadze T Coiffard B Contreras A Costantini TW de Brouwer S Detry MA Duggal A Džavík V Effron MB Eng HF Escobedo J Estcourt LJ Everett BM Fergusson DA Fitzgerald M Fowler RA Froess JD Fu Z Galanaud JP Galen BT Gandotra S Girard TD Goodman AL Goossens H Green C Greenstein YY Gross PL Haniffa R Hegde SM Hendrickson CM Higgins AM Hindenburg AA Hope AA Horowitz JM Horvat CM Huang DT Hudock K Hunt BJ Husain M Hyzy RC Jacobson JR Jayakumar D Keller NM Khan A Kim Y Kindzelski A King AJ Knudson M Kornblith A Kutcher M Laffan M Lamontagne F Le Gal G Leeper C Leifer E Lim G Gallego Lima F Linstrum K Litton E Lopez-Sendon J Lother S Marten N Saud Marinez A Martinez M Mateos Garcia E Mavromichalis S McAuley D McDonald E McGlothlin A McGuinness S Middeldorp S Montgomery S Mouncey P Murthy S Nair G Nair R Nichol A Nicolau J Nunez-Garcia B Park J Park P Parke R Parker J Parnia S Paul J Pompilio M Quigley J Rosenson R Rost N Rowan K Santos F Santos M Santos M Satterwhite L Saunders C Schreiber J Schutgens R Seymour C Siegal D Silva D Singhal A Slutsky A Solvason D Stanworth S Turner A van Bentum-Puijk W van de Veerdonk F van Diepen S Vazquez-Grande G Wahid L Wareham V Widmer R Wilson J Yuriditsky E Zhong Y Berry S McArthur C Neal M Hochman J Webb S Zarychanski R Therapeutic Anticoagulation with Heparin in Critically Ill Patients with Covid-19 N Engl J Med 2021 08 26 385 9 777 789 
+L362:  
+L363:  10.1056/NEJMoa2103417 34351722 34351722
+L364: 8 Herdman M Gudex C Lloyd A Janssen M Kind P Parkin D Bonsel G Badia X Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L) Qual Life Res 2011 12 20 10 1727 36 
+L365:  
+L366:  10.1007/s11136-011-9903-x 21479777 21479777
+L367: 9 Gu W Zhang Z Bakker J Early lactate clearance-guided therapy in patients with sepsis: a meta-analysis with trial sequential analysis of randomized controlled trials Intensive Care Med 2015 10 41 10 1862 3 10.1007/s00134-015-3955-2 26154408 10.1007/s00134-015-3955-2 26154408
+L368: 10 Vincent JL Moreno R Takala J Willatts S De Mendonça A Bruining H Reinhart CK Suter PM Thijs LG The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine Intensive Care Med 1996 07 22 7 707 10 10.1007/BF01709751 8844239 8844239
+L369: 11 Fowler AA Syed AA Knowlson S Sculthorpe R Farthing D DeWilde C Farthing CA Larus TL Martin E Brophy DF Gupta S Medical Respiratory Intensive Care Unit Nursing Fisher BJ Natarajan R Phase I safety trial of intravenous ascorbic acid in patients with severe sepsis J Transl Med 2014 01 31 12 32 
+L370:  
+L371:  10.1186/1479-5876-12-32 24484547 1479-5876-12-32 24484547
+L372: 12 Yeo TW Lampah DA Gitawati R Tjitra E Kenangalem E Piera K Price RN Duffull SB Celermajer DS Anstey NM Angiopoietin-2 is associated with decreased endothelial nitric oxide and poor clinical outcome in severe falciparum malaria Proc Natl Acad Sci U S A 2008 11 04 105 44 17097 102 
+L373:  
+L374:  10.1073/pnas.0805782105 18957536 0805782105 18957536
+L375: 13 Kidney Disease: Improving Global Outcomes (KDIGO) Acute Kidney Injury Work Group KDIGO Clinical Practice Guideline for Acute Kidney Injury Kidney Int Suppl 2012 2 1 138
+L376: 14 Kahn SA Lentz CW Fictitious hyperglycemia: point-of-care glucose measurement is inaccurate during high-dose vitamin C infusion for burn shock resuscitation J Burn Care Res 2015 36 2 e67 71 10.1097/BCR.0000000000000141 25162951 25162951
+L377: 15 Cook D Lauzier F Rocha MG Sayles MJ Finfer S Serious adverse events in academic critical care research CMAJ 2008 04 22 178 9 1181 4 
+L378:  
+L379:  10.1503/cmaj.071366 18427095 178/9/1181 18427095
+L380: 16 Marik PE Khangoora V Rivera R Hooper MH Catravas J Hydrocortisone, Vitamin C, and Thiamine for the Treatment of Severe Sepsis and Septic Shock: A Retrospective Before-After Study Chest 2017 06 151 6 1229 1238 10.1016/j.chest.2016.11.036 27940189 S0012-3692(16)62564-3 27940189
+L381: 17 Zabet MH Mohammadi M Ramezani M Khalili H Effect of high-dose Ascorbic acid on vasopressor's requirement in septic shock J Res Pharm Pract 2016 5 2 94 100 
+L382:  
+L383:  10.4103/2279-042X.179569 27162802 JRPP-5-94 27162802
+L384: 18 Heyland D Muscedere J Wischmeyer PE Cook D Jones G Albert M Elke G Berger MM Day AG Canadian Critical Care Trials Group A randomized trial of glutamine and antioxidants in critically ill patients N Engl J Med 2013 04 18 368 16 1489 97 10.1056/NEJMoa1212722 23594003 23594003
+L385: 19 Orkin AM Gill PJ Ghersi D Campbell L Sugarman J Emsley R Steg PG Weijer C Simes J Rombey T Williams HC Wittes J Moher D Richards DP Kasamon Y Getz K Hopewell S Dickersin K Wu T Ayala AP Schulz KF Calleja S Boutron I Ross JS Golub RM Khan KM Mulrow C Siegfried N Heber J Lee N Kearney PR Wanyenze RK Hróbjartsson A Williams R Bhandari N Jüni P Chan A CONSERVE Group Guidelines for Reporting Trial Protocols and Completed Trials Modified Due to the COVID-19 Pandemic and Other Extenuating Circumstances: The CONSERVE 2021 Statement JAMA 2021 07 20 326 3 257 265 10.1001/jama.2021.9941 34152382 2781397 34152382
+L386: 20 Schulz KF Grimes DA Multiplicity in randomised trials II: subgroup and interim analyses The Lancet 2005 05 365 9471 1657 1661 10.1016/S0140-6736(05)66516-6 15885299 S0140-6736(05)66516-6
+L387: 21 Fergusson D Aaron SD Guyatt G Hébert P Post-randomisation exclusions: the intention to treat principle and excluding patients from analysis BMJ 2002 09 21 325 7365 652 4 
+L388:  
+L389:  10.1136/bmj.325.7365.652 12242181 12242181
+L390: 22 Akl EA Briel M You JJ Sun X Johnston BC Busse JW Mulla S Lamontagne F Bassler D Vera C Alshurafa M Katsios CM Zhou Q Cukierman-Yaffe T Gangji A Mills EJ Walter SD Cook DJ Schünemann HJ Altman DG Guyatt GH Potential impact on estimated treatment effects of information lost to follow-up in randomised controlled trials (LOST-IT): systematic review BMJ 2012 05 18 344 e2809 10.1136/bmj.e2809 22611167 22611167
+L391: 23 Schulz KF Altman DG Moher D CONSORT Group CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials BMJ 2010 03 23 340 c332 
+L392:  
+L393:  10.1136/bmj.c332 20332509 20332509
+L394: 24 Kahan BC Accounting for centre-effects in multicentre trials with a binary outcome - when, why, and how? BMC Med Res Methodol 2014 02 10 14 20 
+L395:  
+L396:  10.1186/1471-2288-14-20 24512175 1471-2288-14-20 24512175
+L397: 25 Yelland LN Salter AB Ryan P Performance of the modified Poisson regression approach for estimating relative risks from clustered prospective data Am J Epidemiol 2011 10 15 174 8 984 92 10.1093/aje/kwr183 21841157 kwr183 21841157
+L398: 26 Knaus WA Draper EA Wagner DP Zimmerman JE APACHE II: a severity of disease classification system Crit Care Med 1985 10 13 10 818 29 3928249 3928249
+L399: 27 van Buuren S Multiple imputation of discrete and continuous data by fully conditional specification Stat Methods Med Res 2007 06 16 3 219 42 10.1177/0962280206074463 17621469 16/3/219 17621469
+L400: 28 Rockwood K Song X MacKnight C Bergman H Hogan DB McDowell I Mitnitski A A global clinical measure of fitness and frailty in elderly people CMAJ 2005 08 30 173 5 489 95 
+L401:  
+L402:  10.1503/cmaj.050051 16129869 173/5/489 16129869
+L403: 29 Schandelmaier S Briel M Varadhan R Schmid CH Devasenapathy N Hayward RA Gagnier J Borenstein M van der Heijden GJMG Dahabreh IJ Sun X Sauerbrei W Walsh M Ioannidis JPA Thabane L Guyatt GH Development of the Instrument to assess the Credibility of Effect Modification Analyses (ICEMAN) in randomized controlled trials and meta-analyses CMAJ 2020 08 10 192 32 E901 E906 
+L404:  
+L405:  10.1503/cmaj.200077 32778601 192/32/E901 32778601
+L406: 30 Coffman CJ Edelman D Woolson RF To condition or not condition? Analysing 'change' in longitudinal randomised controlled trials BMJ Open 2016 12 30 6 12 e013096 
+L407:  
+L408:  10.1136/bmjopen-2016-013096 28039292 bmjopen-2016-013096
+L409: We acknowledge the contributions of the following additional site investigators to the LOVIT trial:
+L410: Patrick Archambault; Centre Intégré Universitaire de Santé et de Services Sociaux de Chaudière-Appalaches, Lévis, QC, Canada
+L411: Emilie P Belley-Côté; Hamilton General Hospital and McMaster University, Hamilton, ON, Canada
+L412: Marie-Josée Bériault; Centre Intégré Universitaire de Santé et de Services Sociaux de la Mauricie-et-du Centre-du Québec, Trois-Rivières, QC, Canada
+L413: Ulrike Buehner; Rotorua Hospital, Rotorua, New Zealand
+L414: Troy Browne; Tauranga Hospital, Tauranga, New Zealand
+L415: Jean-Nicolas Dubé; Centre Intégré Universitaire de Santé et de Services Sociaux de la Mauricie-et-du Centre-du Québec, Trois-Rivières, QC, Canada
+L416: Sandeep (Sonny) S Kohli; Oakville Trafalgar Memorial Hospital, Oakville, ON, Canada
+L417: François Lellouche; Institut Universitaire de Cardiologie et de Pneumologie de Québec, Québec, QC, Canada
+L418: Robert Martynoga; Waikato Hospital, Hamilton, New Zealand
+L419: Andrew JE Seely; The Ottawa Hospital and University of Ottawa, Ottawa, ON, Canada
+L420: Geoffrey Shaw; Christchurch Hospital, Christchurch, New Zealand
+L421: Andrew Van Der Poll; Department of Critical Care Medicine, Auckland City Hospital, Auckland, New Zealand
+L422: Gordon Wood; Vancouver Island Health Authority, Victoria, BC, Canada
+L423: Lessening Organ dysfunction with VITamin C (LOVIT) Trial: statistical analysis plan
+L424: _Supplement: planned additional figure and tables_
+L425: Neill KJ Adhikari*
+L426: Ruxandra Pinto
+L427: Andrew Day
+L428: Marie-Hélène Masse
+L429: Julie Ménard
+L430: Sheila Sprague
+L431: Djillali Annane
+L432: Yaseen Arabi
+L433: Marie-Claude Battista
+L434: Dian Cohen
+L435: Deborah Cook
+L436: Gordon Guyatt
+L437: Daren Heyland
+L438: Salmaan Kanji
+L439: Shay McGuinness
+L440: Rachael Parke
+L441: Bharath Kumar Tirupakuzhi Vijayaraghavan
+L442: Emmanuel Charbonney
+L443: Michaël Chassé
+L444: Lorenzo del Sorbo
+L445: Demetrios Kutsogiannis
+L446: François Lauzier
+L447: Rémi LeBlanc
+L448: David Maslove
+L449: Sangeeta Mehta
+L450: Armand Mekontso Dessap
+L451: Tina Mele
+L452: Bram Rochwerg
+L453: Oleksa Rewa
+L454: Jason Shahin
+L455: Pawel Twardowski
+L456: Paul Young
+L457: François Lamontagne*
+L458: *contributed equally and corresponding authors; neill.adhikari@utoronto.ca and
+L459: francois.lamontagne@usherbrooke.ca
+L460: Document history
+L461: Version 1: 19 January 2022
+L462: JMIR Res Protoc 2022;11(5):e36261
+L463: 1
+L464: **Planned supplementary figure**
+L465: Figure S1 Boxplot of SOFA scores over after day 7
+L466: 2
+L467: **Table S1 Baseline characteristics**
+L468: |Characteristic|All patients|Vitamin C<br>(n= )|Placebo<br>(n= )|
+L469: |---|---|---|---|
+L470: |Age, years; mean (SD)<br>|<br>|<br>|<br>|
+L471: |Sex; n (%)<br>  Male<br>  Female<br>|<br>|<br>|<br>|
+L472: |Height (cm); mean (SD)<br>|<br>|<br>|<br>|
+L473: |Weight (kg);1 mean (SD)<br>|<br>|<br>|<br>|
+L474: |Body mass index (kg/m2); mean (SD)<br>||<br>|<br>|
+L475: |Admission type, n (%)<br>Medical<br>   Emergency surgery<br>   Elective surgery<br>||<br>|<br>|
+L476: |APACHE II score; mean (SD)<br>||<br>|<br>|
+L477: |SOFA score; mean (SD)2 <br>|<br>|<br>|<br>|
+L478: |Clinical Frailty Scale; mean (SD)<br>|<br>|<br>|<br>|
+L479: |Primary site of infection; n (%)<br>  Pulmonary<br>  Gastrointestinal/ intra-abdominal<br>  Blood<br>  Skin or soft tissue<br>  Urinary<br>  Central nervous system<br>  Other<br>|<br>|<br>|<br>|
+L480: |<br>SARS-CoV-2 positive;3 n (%)<br>|<br>|<br>|<br>|
+L481: |Mean arterial pressure, mmHg; mean (SD)<br>|<br>|<br>|<br>|
+L482: |Lactate (mmol/L); mean (SD)<br>|<br>|<br>|<br>|
+L483: |Ascorbic acid level (µmol/L); mean (SD)<br>|<br>|<br>|<br>|
+L484: |Sepsis-3 definition met; n (%)4 <br>||<br>|<br>|
+L485: |Time from ICU admission to randomization, hours;<br>mean (SD)<br>||<br>|<br>|
+L486: |Time from hospital admission to randomization,<br>hours; mean (SD)<br>|<br>|<br>|<br>|
+L487: |Transferred from ICU of another hospital, n (%)<br>   Time in other hospital ICU before admission to<br>study ICU; mean (SD)||||
+L488: 3
+L489: |Characteristic|All patients|Vitamin C<br>(n= )|Placebo<br>(n= )|
+L490: |---|---|---|---|
+L491: |Comorbidities,5 n (%) <br>Cardiac <br> Supraventricular arrhythmia <br> Angina or previous MI, CABG or PCI <br>    CHF class 1-3<br>    CHF class 4<br>    Ventricular arrhythmia<br>    Left ventricular ejection fraction (%), mean (SD)<br>Vascular <br> Known hypertension <br>    Cerebrovascular disease (TIA or stroke)<br>    Peripheral vascular disease or claudication<br>Endocrine <br> Diabetes (type 1 or 2)<br>Renal<br>   Receiving chronic dialysis<br>   Baseline creatinine<br>Gastrointestinal<br>   Moderate-to-severe liver disease <br>Chronic lung disease <br>Immunosuppression <br>Neurologic<br>   Cognitive impairment/dementia<br>|<br>|<br>|<br>|
+L492: |<br>Treatments, n (%)<br>  Corticosteroids,6 n (%) <br>       Dexamethasone<br>       Prednisone<br>       Methylprednisolone<br>       Hydrocortisone<br>       Other<br>  Mechanical ventilation<br>  Renal replacement therapy<br>|<br>|<br>|<br>|
+L493: |Vasopressors (n, %) and dose (mean [SD])<br>    Norepinephrine (µg/kg/min)<br>    Phenylephrine (µg/min)<br>    Epinephrine (µg/kg/min)<br>    Vasopressin (units/hr)<br>    Dopamine (µg/kg/min)<br>    Norepinephrine equivalents7 (µg/kg/min)<br>    Metaraminol (mg/hr)||||
+L494: APACHE, acute physiology and chronic health evaluation; CABG, coronary artery bypass grafting; CHF,
+L495: congestive heart failure; ICU, intensive care unit; MI, myocardial infarction; PCI, percutaneous coronary
+L496: intervention; SOFA, sequential organ failure assessment; TIA, transient ischemic attack
+L497: 4
+L498: 1 Weight was measured when available and otherwise taken from the patient or family, or estimated.
+L499: 2 This SOFA score is recorded on day 1 (randomization) but may include components measured after the
+L500: first dose of study medication.
+L501: 3 In these patients, coronavirus disease 2019 was suspected at baseline and subsequently tested and
+L502: confirmed, or confirmed at baseline.
+L503: 4 The Sepsis-3 definition includes the requirement for a vasopressor infusion and lactate ≥2 mmol/L.
+L504: 5 Baseline creatinine refers to closest outpatient creatinine in the last 12 months, or lowest inpatient
+L505: creatinine from the current hospitalization if no outpatient value available. Moderate-to-severe liver
+L506: disease refers to Child’s B or C cirrhosis and documented portal hypertension; episodes of past upper
+L507: gastrointestinal bleeding attributed to portal hypertension; or prior episodes of hepatic
+L508: failure/encephalopathy/coma. Chronic lung disease refers to chronic restrictive, obstructive, or vascular
+L509: disease resulting in severe exercise restriction, i.e., unable to climb stairs or perform household duties;
+L510: or documented chronic hypoxia, hypercapnia, secondary polycythemia, severe pulmonary hypertension
+L511: (>40 mmHg), or respiratory dependency. Immunosuppression refers to malignancy requiring
+L512: chemotherapy treatment in last 3 months; or neutropenia (absolute neutrophil count <0.5 x 10 [9] /L); or
+L513: receiving chronic immunosuppressive medications (azathioprime, cyclosporine, cyclophosphamde,
+L514: tacrolimus, methotrexate, mycophenolate, anti-TNF agents, interleukin-2 agents) or transplantation
+L515: (including stem cell) at any time; or HIV positive.
+L516: 6 Systemic (oral or IV) corticosteroids in the intensive care unit before randomization.
+L517: 7 Calculated according to the method in NEJM 2017; 377: 419–430.
+L518: 5
+L519: **Table S2 Protocol deviations**
+L520: |Type of deviation|All patients<br>(n=)|Vitamin C<br>(n= )|Placebo<br>(n= )|
+L521: |---|---|---|---|
+L522: |**Type of deviation**<br>|**No. of deviations; No. (%) of patients with**<br>**deviation**|**No. of deviations; No. (%) of patients with**<br>**deviation**|**No. of deviations; No. (%) of patients with**<br>**deviation**|
+L523: |_Adherence_ <br> <br> <br> <br>|_Adherence_ <br> <br> <br> <br>|_Adherence_ <br> <br> <br> <br>|_Adherence_ <br> <br> <br> <br>|
+L524: |Open-label administration of vitamin C<br>|<br>|<br>|<br>|
+L525: |Administration of ≥90% of scheduled doses of<br>study medication<br>||||
+L526: |_Deviations_ <br> <br> <br>|_Deviations_ <br> <br> <br>|_Deviations_ <br> <br> <br>|_Deviations_ <br> <br> <br>|
+L527: |First dose of study medication given >4 hrs after<br>randomization<br>|<br>||<br>|
+L528: |≥1 dose of study medication missed<br>|<br>||<br>|
+L529: |Glucose monitoring to adjust insulin deviated from<br>protocol<br>||||
+L530: 6
+L531: **Table S3 Cointerventions during the intensive care unit stay, including the day of randomization**
+L532: |Cointervention|All patients<br>(n=)|Vitamin C<br>(n= )|Placebo<br>(n= )|
+L533: |---|---|---|---|
+L534: |Corticosteroids<br>  N (%)<br>  Days; mean (SD)<br>|<br>||<br>|
+L535: |Antimicrobials<br>  N (%)<br>  Days; mean (SD)<br>|<br>||<br>|
+L536: |Thiamine<br>  N (%)<br>  Days; mean (SD) <br>|<br>||<br>|
+L537: |Any sedation/analgesia infusion<br>  N (%)<br>  Days; mean (SD)<br>   Benzodiazepine infusion<br>      N (%)<br>      Days; mean (SD)<br>   Opioid infusion<br>      N (%)<br>      Days; mean (SD)<br>   Propofol infusion<br>      N (%)<br>      Days; mean (SD)<br>   Dexmedetomidine infusion<br>      N (%)<br>      Days; mean (SD)<br>|<br>||<br>|
+L538: |Any enteral or parenteral nutrition<br>  N (%)<br>  Days; mean (SD)<br>   Enteral nutrition<br>      N (%)<br>      Days; mean (SD)<br>   Parenteral nutrition<br>      N (%)<br>      Days; mean (SD)<br>   Oral intake<br>      N (%)<br>      Days; mean (SD)<br>|<br>|<br>|<br>|
+L539: |Insulin<br>  N (%)<br>  Days; mean (SD)||||
+L540: 7
+L541: Data were collected for the first 28 days, up to and including the day of discharge from the ICU. For each
+L542: co-intervention, N refers to the number of patients that ever received it.
+L543: 8
+L544: **Table S4 Fluid balance during the first 7 days in the intensive care unit stay, including the day of randomization**
+L545: |Col1|Day 1|Col3|Day 2|Col5|Day 3|Col7|Day 4|Col9|Day 5|Col11|Day 6|Col13|Day 7|Col15|
+L546: |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+L547: |<br>|Vit<br>C <br>|Placebo<br>|Vit<br>C|Placebo<br>|Vit<br>C <br>|Placebo<br>|Vit<br>C <br>|Placebo<br>|Vit<br>C <br>|Placebo<br>|Vit<br>C <br>|Placebo<br>|Vit<br>C <br>|Placebo <br>|
+L548: |Urine output, mL; mean<br>(SD); n<br>|<br>|<br>||<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|
+L549: |Fluid balance, mL; mean<br>(SD); n|||||||||||||||
+L550: Vit, vitamin
+L551: The mean hours of data on day 1, which included randomization to 23h59 on the same calendar day, was xx (SD xx).
+L552: 9
+L553: **Table S5 Life-sustaining therapies in the intensive care unit and additional outcomes**
+L554: |Col1|Total<br>(n= )|Vitamin C<br>(n= )|Placebo<br>(n = )|
+L555: |---|---|---|---|
+L556: |_Life-sustaining therapy1_ <br> <br> <br>|_Life-sustaining therapy1_ <br> <br> <br>|_Life-sustaining therapy1_ <br> <br> <br>|_Life-sustaining therapy1_ <br> <br> <br>|
+L557: |Vasopressor infusion<br>   N (%)<br>   Days in survivors; mean [SD]; n<br>   Days in non-survivors; mean [SD]; n<br>||<br>|<br>|
+L558: |Invasive mechanical ventilation<br>   N (%)<br>   Days in survivors; mean [SD]; n<br>   Days in non-survivors; mean [SD]; n <br>||<br>|<br>|
+L559: |Non-invasive mechanical ventilation<br>   N (%)<br>   Days in survivors; mean [SD]; n<br>   Days in non-survivors; mean [SD]; n<br>||<br>|<br>|
+L560: |Renal replacement therapy<br>   N (%)<br>   Days in survivors; mean [SD]; n<br>   Days in non-survivors; mean [SD]; n<br>||<br>|<br>|
+L561: |Extracorporeal life support; n (%)<br>||||
+L562: |_Additional outcome_ <br> <br> <br> <br>|_Additional outcome_ <br> <br> <br> <br>|_Additional outcome_ <br> <br> <br> <br>|_Additional outcome_ <br> <br> <br> <br>|
+L563: |Length of ICU stay, days (mean, SD; n)<br>   All patients<br>   ICU survivors<br>   ICU non-survivors<br>|<br>|<br>|<br>|
+L564: |Readmission to the ICU on or before<br>28 days, n (%)<br>|<br>|<br>|<br>|
+L565: |Length of hospital stay,2 days (mean,<br>SD; n)<br>   All patients<br>   Hospital survivors<br>   Hospital non-survivors||||
+L566: ICU, intensive care unit.
+L567: 1 Data were collected for the first 28 days, up to and including the day of discharge from the ICU. For
+L568: each life sustaining therapy, N refers to the number of patients that ever received it.
+L569: 2 Hospital stay is recorded for index stay in the study hospital only.
+L570: 10
+L571: **Table S6 Analyses of the primary outcome and of 28-day mortality**
+L572: |Model|Risk Ratio<br>(95% confidence<br>interval)|
+L573: |---|---|
+L574: |_Principal analysis of primary outcome_<br>(GLMM, binomial distribution, random effect for site)<br>||
+L575: |_Secondary analysis_<br>|_Secondary analysis_<br>|
+L576: |Adjusted for baseline characteristics<br>||
+L577: |Unadjusted, best case scenario<br>     Unadjusted, worst case scenario<br>||
+L578: |_Principal analysis of 28-day mortality_<br>(GLMM, binomial distribution, random effect for site)<br>||
+L579: |_Secondary analysis_ <br> <br>|_Secondary analysis_ <br> <br>|
+L580: |Adjusted for baseline characteristics||
+L581: GLMM, generalised linear mixed model
+L582: Best case-worst case unadjusted sensitivity analysis assumes first that all patients with missing data who
+L583: received vitamin C did not have the outcome, whereas those in the placebo group did (best case), and
+L584: assuming second that the opposite states apply (worst case)
+L585: 11
+L586: **Table S7 Credibility of subgroup assessments using ICEMAN tool**
+L587: |Subgroup|A<br>priori|Prior<br>evidence|Interaction<br>test|Small number of<br>effect modifiers|Cutpoint for<br>continuous variable|Other|Overall|
+L588: |---|---|---|---|---|---|---|---|
+L589: |Age (<65 vs. ≥65 yr)<br>||<br>|<br>|<br>|<br>|<br>|<br>|
+L590: |Sex (male vs female)<br>||<br>|<br>|<br>|<br>|<br>|<br>|
+L591: |Frailty (Clinical Frailty Scale 1-4<br>vs. ≥5)<br>||<br>|<br>|<br>|<br>|<br>|<br>|
+L592: |Severity of illness (quartiles of<br>predicted risk of death)<br>||<br>|<br>|<br>|<br>|<br>|<br>|
+L593: |Sepsis-3 criteria (vasopressor and<br>and lactate ≥2 mmol/L, vs<br>vasopressor alone)<br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|
+L594: |Baseline vitamin C level<br>(quartile)1 <br>|<br>|<br>|<br>|<br>|<br>|<br>|<br>|
+L595: |COVID-19 at baseline (present or<br>not)||||||||
+L596: The ICEMAN tool (Instrument to assess the Credibility of Effect Modification Analyses) is available at CMAJ 2020; 192: E901-6.
+L597: The questions are as follows:
+L598: 1: Was the direction of the effect modification correctly hypothesized a priori?
+L599: 2: Was the effect modification supported by prior evidence?
+L600: 3: Does a test for interaction suggest that chance is an unlikely explanation of the apparent effect modification?
+L601: 4: Did the authors test only a small number of effect modifiers or consider the number in their statistical analysis?
+L602: 5: If the effect modifier is a continuous variable, were arbitrary cut points avoided?
+L603: 6 Optional: Are there any additional considerations that may increase or decrease credibility?
+L604: 7: How would you rate the overall credibility of the proposed effect modification?
+L605: 1 The p-value for the interaction between baseline vitamin C and treatment group was 0.xx; results for quartiles of vitamin C level are shown in
+L606: Figure 3.
+L607: 12
+L608: **Table S8 Biomarker results**
+L609: |Biomarker|Day 1|Col3|Day 3|Col5|Day 7|Col7|
+L610: |---|---|---|---|---|---|---|
+L611: |<br>|Vitamin C<br>(n= )<br> <br>|Placebo<br>(n= )<br>|Vitamin C<br>(n= )<br>|Placebo<br>(n= )<br>|Vitamin C<br>(n= )<br>|Placebo<br>(n= )<br>|
+L612: |Global tissue dysoxia<br>   Lactate (mmol/L) <br>|<br> <br>|<br>||<br>|<br>|<br>|
+L613: |<br>Inflammation <br>     IL-1ß (pg/ml)<br>     TNF-α (pg/ml)<br>|<br>|<br>||<br>|<br>|<br>|
+L614: |Endothelial injury<br>   TM (ng/ml)<br>   ANG-2 (pg/ml)<br>|||||||
+L615: Day 1 samples were collected before administration of study medication. Due to delays in obtaining
+L616: assays to measure procalcitonin and C-reactive protein, analyses of these planned biomarkers may be
+L617: delayed and reported after the primary publication.
+L618: ANG-2, Angiopoietin-2; IL-1ß= Interleukin-1 beta; TM= Thrombomodulin; TNF-α= Tumor necrosis factoralpha.
+L619: 13
+[26ms]
+

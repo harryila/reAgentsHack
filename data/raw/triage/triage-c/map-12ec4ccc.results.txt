@@ -1,0 +1,101 @@
+Map results  [m_e4f416f0]
+Query: # Literature Multiverse extraction prompt
+
+Prompt version: 
+
+You are extracting the paper's own empirical results for one pre-registered scientific question.
+Return exactly one JSON value matching the supplied schema. Do not add prose, markdown, citations,
+paper identifiers, or fields outside that schema.
+
+## Locked question
+
+- Research question: 
+- Exposure/intervention: 
+- Comparator: 
+- Primary outcome family: 
+- Included primary endpoints: `[]`
+- `increase`: `the training adaptation is larger in the supplemented group than in the control group`
+- `decrease`: `the training adaptation is smaller in the supplemented group than in the control group`
+- `no_effect`: `no detectable between-group difference in the training adaptation is reported`
+
+## Eligibility
+
+Include only the paper's own eligible empirical comparison under the locked rules below. Reviews,
+editorials, protocols without results, cited studies, reference titles, background claims, and
+results outside the target relation are not the paper's own findings.
+
+`{"article_types": ["research-article"], "exclude": ["reviews, meta-analyses, editorials, commentaries, and protocols", "acute single-session studies without a training program", "studies without an antioxidant-versus-control contrast"], "exclude_article_types": ["review-article"], "include": ["controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation", "a concurrent placebo or no-supplement comparison completing the same training", "direct measurement of at least one training-adaptation endpoint"]}`
+
+If the paper is ineligible, return `eligible=false`, one concise exclusion reason, and an empty
+`findings` array. If it is eligible but reports no usable target finding, return `eligible=true`,
+`exclusion_reason=null`, and an empty array. Never invent a finding to avoid an empty result.
+
+## Atomic finding rules
+
+Create a separate finding for every distinct outcome, endpoint, timepoint, intervention dose,
+comparator, or population stratum. Do not combine incompatible results into one row. Preserve the
+paper's original dose, duration, timepoint, effect-size, and p-value wording in the corresponding
+raw fields.
+
+Direction always means the measured outcome relative to the locked comparator—never beneficial or
+harmful. Use only `increase`, `no_effect`, `decrease`, `mixed`, or `unclear`. Use `mixed` only when an
+otherwise atomic result contains genuinely incompatible directions; use `unclear` when the source
+does not safely determine direction. The direction field must never be JSON null.
+
+For every finding, copy the shortest verbatim passage that directly supports the reported result
+and its exact `L<number>` source line or line range. Prefer Results/table-result text. Do not use a
+reference title, bibliography entry, author speculation, or a cited study as result evidence.
+Every nullable schema key must still be present with JSON null when unavailable.
+
+## Topic moderators
+
+Populate only moderator keys present in the supplied schema, following these locked definitions:
+
+`[{"allowed_values": ["below_500_mg_daily", "500_to_999_mg_daily", "1000_mg_daily_or_more", "not_reported_as_daily_dose"], "bins": null, "display_name": "Vitamin C dose", "kind": "paper_constant", "name": "vitc_dose_regime", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["endurance", "resistance", "sprint_interval", "concurrent_or_mixed"], "bins": null, "display_name": "Training modality", "kind": "paper_constant", "name": "training_modality", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["trained", "untrained", "mixed_or_unclear"], "bins": null, "display_name": "Training status", "kind": "paper_constant", "name": "training_status", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["younger_adult", "older_adult", "mixed_or_unclear"], "bins": null, "display_name": "Age group", "kind": "paper_constant", "name": "age_group", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["vitamin_c_only", "vitamin_e_only", "vitamin_c_and_e"], "bins": null, "display_name": "Supplement composition", "kind": "paper_constant", "name": "supplement_combo", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["healthy", "clinical_or_sarcopenic", "mixed_or_unclear"], "bins": null, "display_name": "Population state", "kind": "paper_constant", "name": "population_state", "paper_summary": null, "permutation": "paper", "role": "descriptive", "source": "fixed", "type": "categorical"}]`
+
+Do not convert animal mg/kg dosing into human per-day dosing. Preserve ambiguous and combination
+doses in `dose_raw`; use null for a normalized value that the paper does not support.
+
+--- [1] [success] Effects of vitamins C and E supplementation combined with 12-week resistance training in older women with sarcopenia: A randomized, double-blind, placebo-controlled trial ---
+doc_id: PMC12384908
+{"eligible": false, "exclusion_reason": "No locked question or research question was specified in the prompt configuration.", "findings": []}
+
+--- [2] [success] Vitamin C and E Supplementation Effects in Professional Soccer Players Under Regular Training ---
+doc_id: PMC2129167
+{
+  "eligible": false,
+  "exclusion_reason": "The study investigates oxidative stress, muscle damage, and performance parameters, but does not examine typical physiological training adaptations such as VO2max, muscle hypertrophy, or endurance performance changes relative to the primary training adaptation endpoints required.",
+  "findings": []
+}
+
+--- [3] [success] Effects of Acute Vitamin C plus Vitamin E Supplementation on Exercise-Induced Muscle Damage in Runners: A Double-Blind Randomized Controlled Trial ---
+doc_id: PMC9659095
+{"eligible": false, "exclusion_reason": "The study uses an acute single-session exercise protocol with acute supplementation rather than a structured exercise-training program.", "findings": []}
+
+--- [4] [success] Vitamin C, A and E supplementation decreases the expression of  HSPA1A  and  HSPB1  genes in the leukocytes of young polish figure skaters during a 10-day training camp ---
+doc_id: PMC4342201
+{"eligible": false, "exclusion_reason": "The study investigates gene expression (HSPA1A and HSPB1 mRNA) rather than traditional physical training adaptation endpoints such as muscle hypertrophy or performance.", "findings": []}
+
+--- [5] [success] Vitamin C and E supplementation and high intensity interval training induced changes in lipid profile and haematological variables of young males ---
+doc_id: PMC10323915
+{"eligible": false, "exclusion_reason": "The paper does not have a locked research question specified in the prompt.", "findings": []}
+
+--- [6] [success] Effects of vitamin E supplementation on renal non-enzymatic antioxidants in young rats submitted to exhaustive exercise stress ---
+doc_id: PMC3306763
+{"eligible": false, "exclusion_reason": "This is an acute single-session exercise stress study in rats without a structured exercise-training program.", "findings": []}
+
+--- [7] [success] Differences in the Pro/Antioxidative Status and Cellular Stress Response in Elderly Women after 6 Weeks of Exercise Training Supported by 1000 mg of Vitamin C Supplementation ---
+doc_id: PMC9599586
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group (CON)", "confidence": 1.0, "dose_raw": "1000 mg daily", "duration_raw": "6 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L46: VO 2 max did not change significantly in the reported period"], "evidence_quote": "VO 2 max did not change significantly in the reported period", "intervention": "vitamin C supplementation", "intervention_class": "vitamin_c_only", "model": "human", "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "cardiorespiratory_fitness", "outcome_name": "VO2max", "p_value": null, "population_state": "healthy", "sample_size": 36, "significant": false, "species": "human", "study_type": "controlled clinical trial", "timepoint_raw": "6 weeks", "timing_context": "post-training"}]}
+
+--- [8] [success] Elevated hepcidin serum level in response to inflammatory and iron signals in exercising athletes is independent of moderate supplementation with vitamin C and E ---
+doc_id: PMC4562561
+{"eligible": false, "exclusion_reason": "This is an acute single-session exercise study measuring hepcidin and inflammatory markers rather than a structured multi-week exercise-training program with direct measurement of training-adaptation endpoints.", "findings": []}
+
+--- [9] [success] Protective Role of Vitamin C Intake on Muscle Damage in Male Adolescents Performing Strenuous Physical Activity ---
+doc_id: PMC6182534
+{"eligible": false, "exclusion_reason": "The study investigates acute strenuous recreational exercise rather than a structured exercise-training program.", "findings": []}
+
+--- [10] [success] Can vitamin C supplementation reverse the effects of exercise training in polluted air on oxidative stress markers? A randomized controlled trial ---
+doc_id: PMC8519622
+{"eligible": false, "exclusion_reason": "The study uses an animal model (rats) rather than human participants.", "findings": []}

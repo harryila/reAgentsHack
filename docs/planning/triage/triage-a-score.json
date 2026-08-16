@@ -1,0 +1,89 @@
+{
+  "distinct_papers_by_direction": {
+    "decrease": 1,
+    "increase": 0,
+    "no_effect": 2
+  },
+  "entropy_interval_90": [
+    -0.0,
+    -0.0
+  ],
+  "estimated_usable_primaries": 35.0,
+  "finding_direction_counts": {
+    "decrease": 3,
+    "no_effect": 12
+  },
+  "g2": {
+    "failure_codes": [
+      "g2_entropy_point_low",
+      "g2_entropy_upper_low",
+      "g2_direction_support_low",
+      "g2_usable_primaries_low"
+    ],
+    "gate": "G2",
+    "passed": false,
+    "rules": [
+      {
+        "failure_code": "g2_entropy_point_low",
+        "name": "entropy_point",
+        "observed": -0.0,
+        "passed": false,
+        "threshold": ">=0.30"
+      },
+      {
+        "failure_code": "g2_entropy_upper_low",
+        "name": "entropy_upper_90",
+        "observed": -0.0,
+        "passed": false,
+        "threshold": ">=0.40"
+      },
+      {
+        "failure_code": "g2_direction_support_low",
+        "name": "direction_support",
+        "observed": 1,
+        "passed": false,
+        "threshold": ">=2 directions with >=2 papers"
+      },
+      {
+        "failure_code": null,
+        "name": "relation_purity",
+        "observed": 1.0,
+        "passed": true,
+        "threshold": ">=0.70"
+      },
+      {
+        "failure_code": "g2_usable_primaries_low",
+        "name": "estimated_usable_primaries",
+        "observed": 35.0,
+        "passed": false,
+        "threshold": ">=40"
+      },
+      {
+        "failure_code": null,
+        "name": "topic_specific_support",
+        "observed": true,
+        "passed": true,
+        "threshold": "true"
+      }
+    ]
+  },
+  "outcome_family_concentration": {
+    "blood_pressure": 2,
+    "body_composition": 3,
+    "body_weight": 1,
+    "cardiovascular_marker": 1,
+    "energy_intake": 1,
+    "glycemic_control": 2,
+    "insulin_resistance": 1,
+    "lipid_panel": 3,
+    "liver fat": 1
+  },
+  "paper_modal_entropy": -0.0,
+  "probe_classifiable_findings": 15,
+  "probe_eligible_papers": 2,
+  "probe_papers": 10,
+  "question_id": "triage-a",
+  "relation_purity_operator_labeled": 1.0,
+  "score_version": "1",
+  "screened_included_papers": 175
+}

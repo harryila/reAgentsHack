@@ -1,0 +1,1030 @@
+L1: Lessening Organ dysfunction with VITamin C (LOVIT): protocol for a randomized controlled trial
+L2: Trials (2020)
+L3: Marie-Hélène Masse, Julie Ménard, Sheila Sprague, Marie-Claude Battista, Deborah J. Cook, Gordon H. Guyatt, Daren K. Heyland, Salmaan Kanji, Ruxandra Pinto, Andrew G. Day, Dian Cohen, Djillali Annane, Shay McGuinness, Rachael Parke, Anitra Carr, Yaseen Arabi, Bharath Kumar Tirupakuzhi Vijayaraghavan, Frédérick D’Aragon, Élaine Carbonneau, David Maslove, Miranda Hunt, Bram Rochwerg, Tina Millen, Michaël Chassé, Martine Lebrasseur, Patrick Archambault, Estel Deblois, Christine Drouin, François Lellouche, Patricia Lizotte, Irene Watpool, Rebecca Porteous, France Clarke, Nicole Marinoff, Émilie Belley-Côté, Brigitte Bolduc, Scott Walker, John Iazzetta, Neill K. J. Adhikari, François Lamontagne
+L4: 1 0000 0001 0081 2808 grid.411172.0 Centre de Recherche du Centre Hospitalier Universitaire de Sherbrooke,  Sherbrooke, QC Canada
+L5: 2 0000 0004 1936 8227 grid.25073.33 Division of Orthopaedic Surgery, Department of Surgery,  McMaster University,  Hamilton, ON Canada
+L6: 3 0000 0004 1936 8227 grid.25073.33 Department of Health Research Methods, Evidence, and Impact,  McMaster University,  Hamilton, ON Canada
+L7: 4 0000 0000 9064 6198 grid.86715.3d Centre de Recherche du Centre Hospitalier Universitaire de Sherbrooke Sherbrooke and Université de Sherbrooke,  Sherbrooke, QC Canada
+L8: 5 0000 0004 1936 8331 grid.410356.5 Department of Critical Care Medicine,  Queen’s University,  Kingston, ON Canada
+L9: 6 0000 0000 9606 5108 grid.412687.e Departments of Pharmacy and Critical Care,  The Ottawa Hospital and Clinical Epidemiology Program, The Ottawa Hospital Research Institute,  Ottawa, ON Canada
+L10: 7 0000 0000 9743 1587 grid.413104.3 Department of Critical Care Medicine,  Sunnybrook Health Sciences Centre,  Toronto, ON Canada
+L11: 8 Kingston General Health Research Institute, Kingston, ON Canada
+L12: 9 No institutional affiliation, No institutional affiliation, Sherbrooke, QC, Canada
+L13: 10 0000 0004 4910 6535 grid.460789.4 General Intensive Care Unit, Raymond Poincaré Hospital (AP-HP),  Lab Inflammation & Infection, U1173 University Paris Saclay-UVSQ/INSERM,  Garches, France
+L14: 11 0000 0000 9027 2851 grid.414055.1 Cardiothoracic and Vascular ICU, Auckland City Hospital,  Auckland, New Zealand
+L15: 12 0000 0004 0445 6830 grid.415117.7 Medical Research Institute of New Zealand,  Wellington, New Zealand
+L16: 13 0000 0004 0372 3343 grid.9654.e School of Nursing, The University of Auckland,  Auckland, New Zealand
+L17: 14 0000 0004 1936 7830 grid.29980.3a Department of Pathology and Biomedical Science,  University of Otago,  Christchurch, New Zealand
+L18: 15 0000 0004 0608 0662 grid.412149.b College of Medicine, King Saud Bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center,  Riyadh, Saudi Arabia
+L19: 16 0000 0004 1802 3550 grid.413839.4 Department of Critical Care Medicine,  Apollo Hospitals,  Chennai, India
+L20: 17 0000 0004 1936 8331 grid.410356.5 Department of Critical Care Medicine,  Queen’s University and Kingston Health Sciences Centre,  Kingston, ON Canada
+L21: 18 0000 0004 1936 8227 grid.25073.33 Department of Medicine and Department of Health Research Methods, Evidence, and Impact,  McMaster University,  Hamilton, ON Canada
+L22: 19 0000 0004 0459 4512 grid.414019.9 Juravinski Hospital,  Hamilton, ON Canada
+L23: 20 0000 0001 0743 2111 grid.410559.c Centre de Recherche du Centre Hospitalier Universitaire de Montréal,  Montréal, QC Canada
+L24: 21 0000 0004 1936 8390 grid.23856.3a Faculté de Médecine,  Université Laval,  Québec City, QC Canada
+L25: 22 Département des soins intensifs du Centre intégré de santé et des services sociaux de Chaudière-Appalaches (Secteur Alphonse-Desjardins), Lévis, QC Canada
+L26: 23 0000 0000 8521 1798 grid.421142.0 Department of Medecine,  Université Laval and Centre de recherche de l’Institut universitaire de cardiologie et de pneumologie de Québec,  Québec City, QC Canada
+L27: 24 0000 0000 8521 1798 grid.421142.0 Institut Universitaire de Cardiologie et de Pneumologie de Québec,  Québec City, QC Canada
+L28: 25 0000 0000 9606 5108 grid.412687.e Ottawa Hospital Research Institute,  Ottawa, ON Canada
+L29: 26 Department of Critical Care Research, St. Joseph’s Healthcare, Hamilton, ON Canada
+L30: 27 0000 0004 1936 8227 grid.25073.33 Division of Cardiology, Department of Medicine,  McMaster University, Population Health Research Institute,  Hamilton, ON Canada
+L31: 28 0000 0001 0081 2808 grid.411172.0 Centre Hospitalier Universitaire de Sherbrooke,  Sherbrooke, QC Canada
+L32: 29 0000 0001 2157 2938 grid.17063.33 Department of Pharmacy, Sunnybrook Health Sciences Centre, Toronto, Canada and Leslie Dan Faculty of Pharmacy,  University of Toronto,  Toronto, ON Canada
+L33: 30 0000 0000 9743 1587 grid.413104.3 Department of Pharmacy,  Sunnybrook Health Sciences Centre,  Toronto, ON Canada
+L34: 31 0000 0001 2157 2938 grid.17063.33 Interdepartmental Division of Critical Care Medicine and Institute for Health Policy, Management, and Evaluation,  University of Toronto,  Toronto, ON Canada
+L35: Background
+L36: Sepsis is a health problem of global importance; treatments focus on controlling infection and supporting failing organs. Recent clinical research suggests that intravenous vitamin C may decrease mortality in sepsis. We have designed a randomized controlled trial (RCT) to ascertain the effect of vitamin C on the composite endpoint of death or persistent organ dysfunction at 28 days in patients with sepsis.
+L37: Methods
+L38: LOVIT (Lessening Organ dysfunction with VITamin C) is a multicenter, parallel-group, blinded (participants, clinicians, study personnel, Steering Committee members, data analysts), superiority RCT (minimum  n  = 800). Eligible patients have sepsis as the diagnosis for admission to the intensive care unit (ICU) and are receiving vasopressors. Those admitted to the ICU for more than 24 h are excluded. Eligible patients are randomized to high-dose intravenous vitamin C (50 mg/kg every 6 h for 96 h) or placebo. The primary outcome is a composite of death or persistent organ dysfunction (need for vasopressors, invasive mechanical ventilation, or new and persisting renal replacement therapy) at day 28. Secondary outcomes include persistent organ dysfunction-free days to day 28, mortality and health-related quality of life at 6 months, biomarkers of dysoxia, inflammation, infection, endothelial function, and adverse effects (hemolysis, acute kidney injury, and hypoglycemia). Six subgroup analyses are planned.
+L39: Discussion
+L40: This RCT will provide evidence of the effect of high-dose intravenous vitamin C on patient-important outcomes in patients with sepsis.
+L41: Trial registration
+L42: clinicaltrials.gov,  NCT03680274 , first posted 21 September 2018.
+L43: Study Protocol
+L44: vitamin C; sepsis; septic shock; biomarkers; randomized controlled trial
+L45: Background
+L46: The burden of sepsis is increasing worldwide. Defined as a dysregulated host immune response to infection that leads to organ failure and death [ 1 ], sepsis is the cause of up to 5.3 million deaths each year globally [ 2 ]. Currently, treatment options are limited to antimicrobials and organ-supportive care such as intravenous fluids, vasopressors, mechanical ventilation, and renal replacement therapy (RRT). In the absence of effective therapies targeting the dysregulated immune response, prolonged use of life-sustaining therapies is associated with substantial morbidity and mortality [ 3 ,  4 ]. Furthermore, in resource-constrained settings, life-sustaining therapies may be unavailable, and the prognosis of septic patients is grim [ 5 ]. This global burden led the World Health Assembly to adopt a resolution urging Member States and the World Health Organization Director-General to take action to reduce the burden of sepsis through improved prevention, diagnosis, and management [ 6 ].
+L47: Inflammation and oxidative stress are among the main mechanisms underlying sepsis-induced organ injury and death [ 7 ]. During sepsis, leukocytes produce reactive oxygen species to facilitate killing of pathogens. Normally, endogenous antioxidants contain this response and protect cells from oxidative damage. Vitamin C, a key circulating antioxidant [ 8 ], cannot be synthesized by humans and therefore requires exogenous intake. Moreover, many critically ill patients are vitamin C deficient and, even when they are not, sepsis further exhausts vitamin C stores [ 9 ,  10 ]. Low serum levels of ascorbic acid are associated with sepsis-induced organ failure and death [ 11 ]. Numerous preclinical studies have shown that, in addition to direct scavenging of oxygen radicals, vitamin C limits their production and restores endothelial function [ 12 – 14 ]. Vitamin C is also a cofactor in the synthesis of norepinephrine and vasopressin, hormones that are crucial to maintain adequate vascular tone for organ perfusion [ 15 ].
+L48: A recent pre-post single-centre study ( n  = 94) treated septic shock patients with a combination of intravenous (IV) vitamin C, hydrocortisone, and thiamine and reported a dramatic reduction in vasopressor requirements, organ failure, and hospital mortality (mortality 8.5% [combination therapy] vs. 40.4% [control]; adjusted odds ratio [OR] 0.13, 95% confidence interval [CI] 0.04–0.48) [ 16 ]. In 2014, Fowler et al. compared high-dose (50 mg/kg IV every 6 h for 4 days) and low-dose vitamin C (12.5 mg/kg IV every 6 h for 4 days) to placebo in a randomized controlled trial (RCT) of 24 patients with sepsis [ 17 ]. High-dose vitamin C was associated with a significant improvement in the slope of Sequential Organ Failure Assessment (SOFA) scores [ 18 ] over 96 h, implying faster resolution of organ dysfunction. In 2016, Zabet et al. conducted a 28-patient RCT of vitamin C (25 mg/kg IV every 6 h for 72 h) vs. placebo [ 19 ] and demonstrated that vitamin C reduced the mean (± SD) dose of norepinephrine during the study period (7.44 ± 3.65 μg/min vs. 13.79 ± 6.48 μg/min,  P  = 0.004). A meta-analysis [ 20 ] of both trials suggested that intravenous vitamin C monotherapy may reduce mortality (OR 0.21, 95%CI 0.04–1.05;  P  = 0.06), although conclusions were limited by imprecision and risk of bias (unclear allocation concealment) of one of the included trials [ 19 ]. More recently, a RCT of high-dose vitamin C vs. placebo in 167 patients with sepsis and acute respiratory distress syndrome showed no difference in the primary outcomes of change in organ failure or plasma biomarkers of inflammation and vascular injury [ 21 ]. This trial also found an improvement in the secondary outcome of 28-day mortality (risk difference, − 15%, 95%CI − 2% to − 31%,  P  = 0.03), but the result had a very low fragility index of 1 and was one of 46 secondary outcomes [ 22 ].
+L49: Primary aim and hypothesis
+L50: The primary aim of the LOVIT (Lessening Organ dysfunction with VITamin C) RCT is to determine whether intravenous vitamin C, administered as an isolated intervention (not part of a combination of therapies) to patients with sepsis receiving a vasopressor, reduces a composite of mortality and persistent organ dysfunction [ 23 ] (defined as dependency on vasopressors, mechanical ventilation, or incident RRT) at 28 days after randomization, when compared to placebo.
+L51: Methods
+L52: LOVIT is a multicentre, parallel-group, allocation-concealed, blinded (participants, clinicians, study personnel, members of the Executive and Steering Committees, and data analysts), superiority RCT. Table  1  shows a timeline of trial activities. The SPIRIT checklist is available in Additional file  2 .
+L53:  Table 1 LOVIT trial timeline TIME POINTS Study Period Days Days Months Enrolment/Allocation Post-Allocation 1 2 3 4 5–6 7 8–9 10 11–13 14 15–27 28 6 months ENROLMENT:  Eligibility screen x  Informed consent x  Allocation x INTERVENTION:  Vitamin C or placebo x x x x ASSESSMENTS:  Baseline variables   Source of infection x   Severity of illness (APACHE II score) x   Pre-existing comorbidities (Charlson comorbidity index, Clinical Frailty Score) x   Vitamin C level a x  Primary outcome   Death or persistent organ dysfunction b x  Secondary outcomes   Persistent organ dysfunction-free days in ICU, up to day 28 b x x x x x x x x x x x x   Mortality at 6 months x   HRQoL (EQ-5D-5 L) x   Global tissue dysoxia (serum lactate concentration) x x x   Organ function including renal function (SOFA score) x x x x x x x x   Inflammation biomarkers (IL-1ß, TNF-α, CRP) x x x   Infection biomarkers (PCT) x x x   Endothelial injury biomarkers (TM, ANG-2) x x x  Occurrence of stage 3 AKI c x x x x x x x x x x x x   Acute hemolysis x x x x x x x x x x x x   Hypoglycemia d x x x x x x x x x  Other variables   Protocol adherence e x x x x   Co-interventions f x x x x x x x x x x x AKI  acute kidney injury,  ANG-2  angiopoietin-2,  APACHE II score  Acute Physiology and Chronic Health Evaluation II score,  CRP  C-reactive protein,  EQ-5D-5 L questionnaire  EuroQol-5D (EQ-5D),  HRQoL : health-related quality of life,  ICU  intensive care unit,  IL-1ß  interleukin-1 beta,  PCT  procalcitonin,  SOFA score  Sequential Organ Failure Assessment score,  TM  thrombomodulin,  TNF-α  tumor necrosis factor-alpha a Must be collected before the first dose of investigational product b Dependency on mechanical ventilation, RRT, or vasopressors c As defined by KDIGO (Kidney Disease: Improving Global Outcomes) criteria 22 d Assessed by core lab (during the time participants receive the 16 doses of the investigational product and the 7 days following the last dose) e Receipt of every planned dose according to schedule until completion of 96-h treatment protocol, samples collected per protocol instructions, vitamin C baseline collected before the first dose of investigational product f Administration of mechanical ventilation, RRT, vasopressors, corticosteroids, thiamine, intravenous fluids, blood products, sedatives, and antimicrobials. Daily data until ICU discharge or 28 days (whichever comes first)
+L54: Study setting
+L55: This trial is centrally coordinated by the Unité de Recherche Clinique et Épidémiologique (URCE) at the Centre de Recherche du Centre Hospitalier Universitaire de Sherbrooke, Sherbrooke, QC, Canada. The URCE also oversees the activities of the LOVIT core laboratory (i.e. storage and analysis of blood and urine samples). The CLARITY Research Group, Department of Health Research Methods, Evidence, and Impact, McMaster University, Hamilton, ON, Canada constructed and will maintain the randomization system and the iDataFax (DF/Net Research, Inc., Seattle, WA, USA) electronic data capture (EDC) system. The LOVIT trial will be conducted in up to 25 adult intensive care units (ICUs) in Canada and other countries.
+L56: Inclusion criteria
+L57: Patients will be included if they are:
+L58:  ≥18 years old; admitted to an ICU with proven or suspected infection as the main diagnosis; treated with a continuous intravenous vasopressor infusion (norepinephrine, epinephrine, vasopressin, dopamine, or phenylephrine) at the time of eligibility assessment and at randomization.
+L59: Exclusion criteria
+L60: Patients are excluded for the following reasons:
+L61:  > 24 h since ICU admission; known glucose-6-phosphate dehydrogenase (G6PD) deficiency; pregnancy; known allergy to vitamin C; known kidney stones within the past 1 year; received any intravenous vitamin C during current hospitalization, unless incorporated as part of parenteral nutrition; expected death or withdrawal of life-sustaining treatments within 48 h; previously enrolled in this study; enrolled in a trial for which co-enrolment is not possible (to be determined on a case-by-case basis by discussion with the other trial’s principal investigators).
+L62: Rationale for eligibility criteria
+L63: Eligibility criteria are broad and consider most patients admitted to the ICU with a primary diagnosis of sepsis and receiving vasopressor therapy. We decided not to mandate the Sepsis-3 definition of septic shock [ 1 ], which also includes an elevated lactate level, to facilitate enrollment in and enhance generalisability to settings where lactate measurements are not routinely available. By including patients admitted to the ICU for ≤24 h, we exclude patients admitted for another reason who develop sepsis secondarily and whose prognosis may thus be more related to the primary reason for ICU admission. By limiting eligibility to patients who are dependent on vasopressors, we are including those with the highest baseline risk of the primary outcome and therefore those with the most to gain from an intervention targeted to increase synthesis of or sensitivity to endogenous catecholamines [ 15 ]. The exclusion of patients with known G6PD deficiency is related to the risks of hemolysis [ 24 ]; reported cases have occurred with higher doses than used in LOVIT [ 25 ]. Patients with a previous history of kidney stones may be at increased risk of stone formation with vitamin C due to oxaluria [ 26 ].
+L64: Recruitment strategy and approach for consent
+L65: Local research personnel will screen for potentially eligible patients in ICUs and approach eligible patients directly if they are able to consent. If an eligible patient is not capable, research personnel will approach the surrogate decision-maker (SDM) to obtain consent in person, or by telephone if the SDM is unavailable. Alternatively, the patient will be randomized and consent will be obtained subsequently under a deferred consent model, where permitted by the site Research Ethics Board (REB) and as per individual country requirements concerning informed consent in medical research. The first dose of the study drug must be administered within 4 h of randomization and the blood samples drawn before giving the first dose of study drug.
+L66: Ethics
+L67: The Coordinating Centre and all participating clinical sites will receive local REB approval prior to commencing participant enrolment. Before initiating the trial, each clinical site will provide the Coordinating Centre with a copy of their local REB approval letter and approved informed consent form (sample in Additional file  3 ). Consent is requested for future laboratory analyses that may arise from this protocol. Any required protocol amendments will be submitted to each REB and disseminated to all investigators after approval from Health Canada, the regulatory agency for drug studies in Canada.
+L68: There is no compensation for harm suffered from trial participation; details on data collection for adverse events (AEs) are given below. Patients enrolled in this trial are critically ill and all care will be provided by intensive care clinicians. There is no provision for post-trial care other than usual clinical care for ICU patients.
+L69: Randomization
+L70: A web-based randomization service ( www.randomize.net ) will be available 24 h per day, 7 days per week. Trial participants will be randomized in a 1:1 ratio to vitamin C or matching placebo using permuted blocks of undisclosed and variable size stratified by clinical site.
+L71: Trial interventions
+L72: The experimental intervention is intravenous vitamin C administered in bolus doses of 50 mg/kg actual body weight mixed in a 50-mL solution of either dextrose 5% in water (D5W) or normal saline (0.9% NaCl), given every 6 h for 96 h (i.e. 200 mg/kg/day and 16 doses in total), as long as the patient remains in the ICU. For patients weighing ≥125 kg, 12 ml of D5W or 0.9% NaCl is added to the bag to keep the concentration of vitamin C in the range tested in a stability study [ 27 ]. For patients weighing ≥150 kg, the weight is considered as 150 kg to calculate the dose. Each dose is administered over 30–60 min, except for participants > 120 kg, for whom the infusion time is prolonged so that the rate does not exceed 100 mg/min. Once mixed in either solution, covered bags may be stored at 4 °C for a maximum of 9 days. This procedure was validated by a stability study, which found that at concentrations between 37 and 92 mg/mL, vitamin C is physically and chemically stable for at least 14 days at 4 °C, when protected from light [ 27 ]. Notwithstanding the results of the stability study, the 9-day maximum is derived from regulations concerning intravenous drug administration in Canada [ 28 ]. Because the infusion time is short, covering medication bags and tubing is not required during the infusion.
+L73: Participants in the control arm will receive D5W or 0.9% NaCl in a volume to match the vitamin C. Placebo will be infused over the same period as per the instructions for vitamin C and is identical in colour and other physical properties to vitamin C.
+L74: At each clinical site, the preparation of solutions administered to participants will be the responsibility of the unblinded study pharmacist, who is not involved in patient care. Both vitamin C and placebo (D5W or 0.9% NaCl) will be purchased by sites from their usual distributor. Alternative arrangements, such as shipping of vitamin C from Canada, may be considered for any international sites.
+L75: Rationale for interventions
+L76: We selected a high-dose vitamin C regimen since this may be associated with the highest likelihood of demonstrating an effect, if one exists [ 17 ]. We considered, but rejected, the idea of evaluating the effect of a combined experimental intervention consisting of vitamin C, corticosteroids, and thiamine. We believe that existing data do not mandate co-administration of vitamin C with other interventions and that a triple-dummy design would be overly complicated and may compromise equipoise given recent guidelines in favor of corticosteroid therapy for sepsis [ 29 ]. Although this trial will evaluate vitamin C monotherapy, we will collect information on clinicians’ use of co-interventions including thiamine and corticosteroids.
+L77: Co-interventions
+L78: All co-interventions are at the discretion of the treating physicians, who will be blinded to treatment assignment. However, we will record use of relevant co-interventions – ventilation, RRT, vasopressors, corticosteroids, thiamine, nutrition, blood products, analgesia and sedation, and antimicrobials – to detect and report any imbalances between treatment groups.
+L79: Unblinded administration of IV open-label vitamin C, except as part of parenteral nutrition, is discouraged and will constitute a protocol violation.
+L80: Blinding
+L81: Blinding will be achieved by using indistinguishable vitamin C and placebo products.
+L82: Pharmacists and technicians preparing the study drug (vitamin C or placebo) at each participating site will be unblinded. If a clinical situation calls for unblinding of other personnel, as assessed on a case-by-case basis, a designated unblinded Coordinating Centre research coordinator will apply the unblinding procedure (Table  2 ). Unblinded pharmacists will not be authorized to independently unblind additional personnel.
+L83:  Table 2 Unblinding of clinical site personnel for emergency medical management 1. In the event of a medical emergency that directly affects the health status of the participant, it may become necessary to unblind allocation status to determine the specific treatment the participant has received while enrolled in the study. A medical emergency is defined as an event which necessitates immediate attention regarding the treatment of a participant. 2. Clinical site personnel (e.g. local principal investigators, co-investigators, and research coordinators) will contact one of the LOVIT principal investigators if they believe that unblinding of a study participant is medically necessary. 3. The LOVIT principal investigator will discuss the participant’s medical event with the clinical site personnel and determine if it is necessary to unblind her/him to the participant’s treatment allocation. At no time will the participant’s health be compromised or medical treatment delayed. 4. Once approved, the principal investigator or coordinating centre project leader will contact the designated unblinded research coordinator at the coordinating centre, who will provide the clinical site personnel with the participant’s vitamin C or placebo allocation. This information should be provided by telephone to reduce the risk of unblinding additional team members. 5. The unblinded research coordinator will complete the LOVIT unblinding log. The unblinded research coordinator may contact the research coordinator at the clinical site to request any additional information required to complete this log. 6. The unblinded research coordinator is not to unblind the principal investigators or any blinded members of the LOVIT team unless deemed necessary by the principal investigator. Similarly, clinical site personnel are also not to unblind any other members of the LOVIT study team (including the Methods Centre research coordinator, principal investigators, or any clinical site research personnel who were not unblinded) unless deemed necessary by the principal investigator(s). 7. LOVIT personnel must keep all information related to the individual unblinding cases confidential. 8. All cases of unblinding must be documented, including clinical site ID, study ID, date of unblinding, parties unblinded, and reason for unblinding.
+L84: Primary outcome measure
+L85: The primary outcome will be a composite of death or persistent organ dysfunction (defined as dependency on vasopressors, mechanical ventilation, or new and persisting RRT) at day 28 after randomization [ 23 ]. Patients with pre-existing end-stage renal disease receiving RRT before the index hospitalization will not meet criteria for persistent organ dysfunction on the basis of ongoing RRT.
+L86: Secondary outcome measures
+L87: Note that day 1 refers to the day of randomization.
+L88: Efficacy outcomes will be:
+L89:  Persistent organ dysfunction-free days in ICU, defined as number of days alive and not dependent on vasopressors, mechanical ventilation, or RRT, up to day 28; Mortality at 6 months; Health-related quality of life (HRQoL) in 6-month survivors as assessed by the EuroQol-5D-5 L (EQ-5D-5 L) [ 30 ], a standardized questionnaire of health status developed to provide a simple, generic measure of health for clinical and economic appraisal. Health status is measured in terms of mobility, self-care, usual activities, pain/discomfort, and anxiety/depression. Respondents also evaluate their overall health status using a 100-point scale; Global tissue dysoxia assessed at days 3 and 7 of hospitalization by serum lactate concentration [ 31 ]. This will be assessed using liquid chromatography coupled with tandem mass spectrometry (LC-MS/MS); Organ function (including renal function) assessed by the SOFA score [ 18 ] at days 2, 3, 4, 7, 10, 14, and 28; Inflammation at days 3 and 7 of hospitalization, assessed by serum interleukin-1 beta, tumor necrosis factor-alpha, and C-reactive protein levels, measured by Luminex (Luminex Corp., Austin, TX, USA); An infection biomarker at days 3 and 7 of hospitalization, measured by serum procalcitonin [ 17 ] using an enzyme-linked immunosorbent assay; Endothelial injury assessed at days 3 and 7 of hospitalization by serum thrombomodulin [ 17 ] and angiopoietin-2 [ 32 ], measured by Luminex.
+L90: Safety outcomes will be:
+L91:  9) Stage 3 acute kidney injury (AKI) as defined by Kidney Disease-Improving Global Outcomes criteria [ 33 ] using either creatinine or urine output criteria, at any time during the ICU stay; 10) Acute hemolysis, ascertained until 12 h after the last dose of study medication, defined as clinician judgment of hemolysis, as recorded in the chart, or a hemoglobin drop of at least 25 g/L within 24 h of a dose of study drug and 2 of the following: reticulocyte count > 2 times upper limit of normal; haptoglobin less than lower limit of normal; indirect (unconjugated) bilirubin > 2 times upper limit of normal; or lactate dehydrogenase > 2 times upper limit of normal. Normal values are as defined at each participating centre’s laboratory. Severe hemolysis is defined as hemoglobin < 75 g/L, at least 2 of the above criteria and the requirement for transfusion of at least 2 units of packed red blood cells. 11) Hypoglycemia, defined as a blood glucose level measured in the hospital core laboratory of less than 3.8 mmol/L. Vitamin C therapy may be associated with false hyperglycemic readings when point-of-care glucometers are used to measure blood glucose [ 34 ]. Accordingly, blood glucose can only be measured by one of the following three methods: hospital core laboratory instruments; a point-of-care arterial blood gas machine whose glucose measurement has been validated in the setting of high blood concentration of ascorbic acid; and point-of-care StatStrip glucometers (Nova Biomedical, Waltham, MA, USA), whose measurements have been shown to be accurate in the presence of high blood concentration of ascorbic acid. Blood glucose measurements in patients receiving insulin or oral hypoglycemic agents will be monitored as described above up to 7 days after the last dose of the investigational product. Because hyperglycemic readings may prompt iatrogenic hypoglycemic episodes if insulin or oral hypoglycemic agents are administered, hypoglycemic events will be reported as a safety outcome.
+L92: Adverse events
+L93: In the context of critical illness, all patients eligible for the LOVIT trial are at risk of AEs. Following Canadian guidelines for AE reporting in academic critical care trials [ 35 ], expected AEs (death, stage 3 AKI, hemolysis, hypoglycemia), whether severe or not, are pre-specified trial outcomes and will not be reported separately as AEs.
+L94: In contrast, unexpected AEs that are serious (i.e. fatal, life-threatening, prolonging hospital stay, resulting in persistent or significant disability or incapacity, or constituting an important medical event according to the local principal investigator) and considered by the local principal investigator to be at least possibly related to trial procedures will be reported to the Coordinating Centre within 24 h of becoming aware of the event. The Coordinating Centre will inform applicable regulatory agencies of serious AEs possibly related to the trial procedures within 15 days of receiving the report if the AE was neither fatal nor life-threatening, or within 7 days if it was fatal or life-threatening.
+L95: Within 8 days of informing the regulatory agency of a serious unexpected AE, the Coordinating Centre will submit to the regulatory agency a report including an assessment of the importance and implication of findings. This information will be updated with the patient’s final status.
+L96: Additional analyses
+L97: Conditional upon obtaining the participants’ consent for future analyses, blood and urine specimens collected in the context of this trial will be stored for future analyses. These analyses will not include genetic testing.
+L98: Data collection
+L99: Clinical (non-biomarker) data will be obtained from participants’ medical records. Local research teams will be responsible for data collection while participants are still hospitalized. To ensure uniform use of the follow-up questionnaire and reduce burden on local research teams, telephone follow-up at 6 months will be conducted by the Coordinating Centre research team, or by a designated centre in each country for international sites.
+L100: We will collect the following data:
+L101:  Baseline (day 1): patient demographics, biomarkers (as listed in secondary outcomes), source of infection, severity of illness (APACHE II [Acute Physiology and Chronic Health Evaluation II] score [ 36 ]), organ function, including renal function (SOFA score [ 18 ]), pre-existing comorbidities as defined in the Charlson comorbidity index [ 37 ], and Clinical Frailty Scale estimated within 3 months of the current admission [ 38 – 40 ]. Baseline blood samples will be collected before the first dose of study product. We will use baseline ascorbic acid level for subgroup analysis, described below. Daily data until ICU discharge or 28 days (whichever comes first): protocol adherence (administration of every planned dose until completion of the treatment protocol or ICU discharge, whichever comes first), co-interventions (ventilation, RRT, vasopressors, corticosteroids, thiamine, nutrition, blood products, analgesia and sedation, and antimicrobials). Days 3 and 7 (if in ICU): blood samples for biomarkers (as listed in secondary outcomes); urine samples (for oxalate measurements if requested by the Data and Safety Monitoring Committee [DSMC]). Days 2, 3, 4, 7, 10, 14, and 28 (if in ICU): SOFA score [ 18 ]. 28 days: death or persistent organ dysfunction (defined as dependency on mechanical ventilation, new and persistent RRT, or vasopressors) [ 23 ]. 6 months: mortality and HRQoL [ 30 ]. We will determine the date of death for patients that have died by 6 months.
+L102: To minimize participant discomfort and bedside teams’ workload, study sample collection will coincide as much as possible with drawing of blood for clinical reasons.
+L103: The LOVIT core laboratory will measure the biomarkers listed as secondary outcomes. Individual sites will ship all blood samples to the LOVIT core laboratory for analysis. Treating teams will remain blinded to the results of the biomarker assays performed as part of the study but will have access to all blood tests obtained for clinical reasons. Local laboratory results will be used as required for the components of the SOFA score. In case of missing data, SOFA scores will be imputed as pre-specified in the statistical analysis plan before unblinding the trial.
+L104: Study follow-up and cohort retention
+L105: Once a patient is enrolled in the trial, the clinical site will make every reasonable effort to follow the participant for the entire duration of the study period. To minimize loss to follow-up at 6 months, consent forms will include permission to collect alternate contact information. If necessary, the Coordinating Centre will request the assistance of the local research team.
+L106: Participants may discontinue participation in the LOVIT trial at any time. If a participant wishes to withdraw consent, we will use the following strategies to minimize the impact on the trial, while respecting autonomy. We will seek a better understanding of the participant’s wishes and offer the following alternatives to complete withdrawal, which would include no further study drug exposure, data deletion, and sample destruction:
+L107:  Discontinue study drug but allow data collection (clinical data, sample collection, telephone follow-up); Discontinue study drug, in-person follow-up, and sample collection but allow telephone follow-up; Discontinue study drug, sample collection, and in-person and telephone follow-up, but allow access to medical records.
+L108: Intention to treat and ineligible participants
+L109: We will adhere to the intention-to-treat principle, and data from participants will be analyzed in the group to which they will have been allocated irrespective of protocol adherence. Reasons for protocol deviations, should they arise, will be recorded. If ineligible participants are randomized, we will allow post-randomization exclusions if 1) the information about ineligibility was available at randomization; 2) two members of the Steering Committee blinded to allocation agree that the participant was mistakenly randomized after review of information from medical records available at the time of randomization; 3) participants did not receive the assigned intervention; and 4) participants remain blinded to their allocation [ 41 ,  42 ]. Verification from the Coordinating Center is needed for official confirmation of participant withdrawal.
+L110: Reducing bias
+L111: Risk of bias will be reduced by concealed randomization using variable and undisclosed blocks. Due to blinding of all relevant parties, decisions to discontinue life-sustaining therapies and other outcomes that require subjective assessments (e.g. HRQoL) will not be affected by individually held beliefs regarding the effects of vitamin C. In addition, to ensure consistent measurement of biomarkers in this trial, samples will be collected, frozen on-site and then shipped to the LOVIT core laboratory in Sherbrooke, QC, Canada, where they will be stored, batched and processed at the end of the trial. Finally, we will record co-interventions to detect performance bias.
+L112: Statistical analyses
+L113: Sample size
+L114: We determined a minimum sample size of 800 participants based on the following assumptions. We established that an absolute difference of 10% in the composite outcome of death or persistent organ dysfunction (15 to 25% relative risk reduction) is plausible [ 16 ,  19 ] and sufficiently large to change practice. Based on recent clinical trials in a similar population [ 43 ], the risk of 28-day persistent organ dysfunction or mortality in the control arm is expected to be approximately 50%. By enrolling 385 evaluable patients per arm, the study will have 80% power to detect a 10% absolute risk reduction (from 50% to 40%, which corresponds to a 20% relative risk reduction). To account for consent withdrawal and loss to follow-up, we will enroll 400 patients per arm. If the control event rate were greater or lower than 50% and the absolute treatment effect remained 10%, statistical power would increase.
+L115: If international sites join the trial, the sample size and power to detect a difference in the primary outcome may increase (see section on International collaborations and sample size flexibility).
+L116: Data analysis
+L117: All analyses will be described in detail in a separately published statistical analysis plan. Statistical tests will be two-sided, and all analyses will be performed using SAS 9.4 (SAS Institute, Cary, NC, USA) or later.  P  < 0.05 will be interpreted as statistically significant.
+L118: For the primary analysis, we will compare the proportion of patients meeting the composite endpoint of persistent organ dysfunction or death at day 28 between groups using a model that accounts for the stratification variable [ 44 ]. The testing strategy for the primary outcome will maintain an overall two-sided type I error of 0.05. We will conduct sensitivity analyses adjusting for important pre-specified baseline clinical variables associated with the primary outcome [ 45 ]. Subgroup analyses will use models with terms for subgroup indicators and their interaction with treatment.
+L119: Pre-specified subgroup analyses
+L120: The LOVIT trial will evaluate the effect of vitamin C in the six subgroups defined at baseline by age (< 65 vs. ≥65 years), sex, frailty (Clinical Frailty Scale 1–4 vs. ≥5), severity of illness (quartiles of predicted risk of death from baseline APACHE II score), strict Sepsis-3 definition of septic shock (vasopressor therapy required to maintain a mean arterial pressure of 65 mmHg and lactate ≥2 mmol/L, vs. vasopressor need alone), and baseline ascorbic acid level (assuming sufficient variation). We hypothesize that vitamin C is more beneficial in elderly patients, in those with greater frailty and illness severity at baseline, those who meet strict criteria for septic shock, and in those with lower baseline ascorbic acid levels.
+L121: Interim analysis plan
+L122: The DSMC will review data on all possibly related serious AEs, hemolysis, stage 3 AKI, and hypoglycemia after the enrollment, 28-day follow-up, and data cleaning of 250 and 530 patients. If the one-sided  P  value is < 0.1 (in the direction of harm in the vitamin C arm) for any of the three safety outcomes, an interim two-sided analysis of the primary outcome will be conducted. The DSMC may also request an analysis of the primary outcome at any time. This analysis will generate a conditional power for showing statistically significant efficacy in the final analysis of the primary outcome, assuming that the group-specific event rates observed to date remain the same in the total sample size. If the conditional power for efficacy is < 20%, in the context of a one-sided  P  < 0.1 for any of the safety outcomes, then the DSMC may recommend stopping the trial to the Steering Committee. The DSMC may make a similar recommendation even if these exact thresholds are not met, based on its interpretation of the balance between safety and efficacy.
+L123: Following the recent RCT of high-dose vitamin C [ 21 ], the DSMC has requested an interim analysis of 28-day mortality after the enrollment of 530 patients, and may recommend stopping the trial to the Steering Committee if two-sided  P  < 0.001.
+L124: Registration
+L125: An initial ‘no objection’ letter was received from Health Canada on 5 September 2018 (HC6–24-c219212), and the trial was registered on  www.clinicaltrials.gov  on 21 September 2018 (NCT03680274).
+L126: Data management
+L127: The paper or electronic case report forms (CRFs) are the primary data collection tool for the study. All data requested on the CRF must be recorded either on paper CRFs or on the electronic CRFs within the secure iDataFax EDC system. If the data are first collected on paper CRFs, site research personnel will subsequently transfer all data into iDataFax by direct entry. CLARITY research staff are responsible for programming and maintaining the database. With support from CLARITY, Coordinating Centre staff are responsible for trial monitoring.
+L128: Monitoring
+L129: Quality control measures include 1) on-site training of research and clinical personnel; 2) standard operating procedures to guide storage, preparation and administration of the study drug as well as processing, storage, and shipping of blood and urine samples; 3) ongoing assessment of trial management metrics (monthly screening logs, weekly reports [site enrolment rate, protocol adherence regarding study drug administration and study samples, length of ICU stay, vasopressor treatment duration, in-ICU and in-hospital mortality, mortality and persistent organ dysfunction at day 28]) and periodic feedback to the clinical sites on performance (recruitment, protocol adherence), with benchmarking from other sites; 4) site monitoring visits (remotely or in person for two of the first five participants and 10% of the subsequent participants); 5) ongoing review of missing data and outliers; and 6) rapid dissemination of responses to frequently asked questions via our study website ( http://lovit.ccctg.ca/ ) and monthly newsletter. Coordinating Centre staff and the Principal Investigators are available at all times to answer study-related questions.
+L130: Trial oversight
+L131: Executive Committee
+L132: The Executive Committee is comprised of Neill KJ Adhikari and François Lamontagne (co-principal investigators), Marie-Claude Battista (core laboratory), Marie-Hélène Masse, Julie Ménard, and Sheila Sprague (co-project leaders). The Executive Committee is responsible for day-to-day management and is accountable to the Steering Committee.
+L133: Steering Committee
+L134: The Steering Committee consists of Executive Committee members and additional clinical, methodological, and statistical experts, in addition to a patient representative (listed in Additional file  1 ). It meets quarterly by teleconference. The Steering Committee provides guidance and direction to the trial.
+L135: Data Safety Monitoring Committee
+L136: The DSMC is independent of the study investigators and responsible for safeguarding the interests of study participants, assessing the safety and efficacy of study procedures, and monitoring the overall conduct of the study. The DSMC members have extensive trial experience and include a senior methodologist who has served as Chair on numerous DSMCs for international RCTs, a senior biostatistician, and a clinician-scientist in intensive care (Additional file  1 ). The DSMC will periodically review enrolment and demographic summaries, protocol deviations, and serious AEs. In accordance with a pre-specified DSMC Charter, the DSMC will advise the Executive and Steering Committees on any concerns related to participant safety and trial conduct. After each meeting, the DSMC will make a recommendation for the study to continue as designed, termination, continuation with major or minor modifications, or temporary suspension of enrolment until some uncertainty is resolved.
+L137: International collaborations and sample size flexibility
+L138: LOVIT is designed as a living umbrella RCT, a concept that permits the inflation of the overall sample size as international collaborations augment trial capacity. This model increases the efficiency of clinical trial research by increasing the probability that a single trial will be sufficiently powered to detect a minimally clinically important treatment effect. Because the same core data are collected in every country, the need to harmonize heterogeneous datasets is avoided. However, each national lead is free to seek additional funding and to add secondary objectives to the main protocol.
+L139: Following this model, the current protocol, CRFs, Operation Manual, and other trial-related documents were shared with collaborators from other countries who have agreed to join the LOVIT team of investigators, thus creating the International LOVIT Collaborative. Our collaborators have been invited to become the LOVIT national leads in their respective countries and recruit patients in the current protocol ( n  = 800), secure additional resources to enroll more patients, or both. Our terms of engagement stipulate that for participants in the current protocol ( n  = 800), specimens for baseline measurements of ascorbic acid and lactate must be collected and shipped to the LOVIT core laboratory. If our international collaborators secure resources to recruit additional patients, the clinical data described in this protocol will be stored in the Canadian database so that the primary analysis may include all participants ( n  > 800). Additional clinical data pertaining to any embedded studies may be kept in the country of origin. These add-on studies will focus on outcomes or subgroups not described herein and will be reported separately, coauthored by the co-principal investigators of this parent protocol.
+L140: Dissemination
+L141: Results of the LOVIT trial will be presented at international conferences, published in peer-reviewed journals, and disseminated via social media platforms and discussion fora managed by partner organizations.
+L142: The LOVIT protocol is freely accessible via this publication. The principal investigators, project leaders, and study statisticians will have access to the full trial dataset; there are no contractual limitations to such access. The LOVIT policy on authorship and sub-studies that would require access to the trial dataset is available in Additional file  4 . Other requests for access to the participant-level dataset and statistical code will be considered by the Steering Committee after publication of primary results and planned secondary studies by co-investigators.
+L143: Discussion
+L144: Vitamin C, an inexpensive and readily available intervention, may be a life-saving therapy in sepsis. If proven effective, vitamin C could be used worldwide to improve outcomes in high- and low-income settings alike.
+L145: The LOVIT protocol constitutes a rigorous assessment of the effect of vitamin C monotherapy on patient-important outcomes in critically ill patients with sepsis. We are working with site principal investigators to convince clinicians to enroll eligible patients in LOVIT rather than to prescribe this treatment to patients on the basis of current data, which constitutes low-certainty evidence. Once completed, the LOVIT International Collaborative is committed to harmonize data from LOVIT and other trials of intravenous vitamin C in an individual patient data meta-analysis.
+L146: Trial status
+L147: The current protocol is version 5, last updated 19 September 2019. Participant recruitment began on 14 November 2018 and is scheduled to continue for 36 months, until approximately 13 November 2021. The database will be locked after the last enrolled patient completes the 6-month follow-up, and 6 additional months will be required to address remaining data queries and to finalize the analyses.
+L148: Contact information for trial sponsor
+L149: François Lamontagne (francois.lamontagne@usherbrooke.ca)
+L150: Université de Sherbrooke
+L151: 3001 12 e  Avenue Nord
+L152: Sherbrooke QC J1H 5 N4 Canada
+L153: Supplementary information
+L154: Additional file 1.  LOVIT contributors. 
+L155:  Additional file 2.  SPIRIT checklist. 
+L156:  Additional file 3.  Model informed consent form. 
+L157:  Additional file 4.  Authorship and substudy guidelines.
+L158: Supplementary information
+L159: Supplementary information  accompanies this paper at 10.1186/s13063-019-3834-1.
+L160: Additional file 1.  LOVIT contributors.
+L161: Additional file 2.  SPIRIT checklist.
+L162: Additional file 3.  Model informed consent form.
+L163: Additional file 4.  Authorship and substudy guidelines.
+L164: 1. Singer M Deutschman CS Seymour CW Shankar-Hari M Annane D Bauer M Bellomo R Bernard GR Chiche JD Coopersmith CM The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) JAMA 2016 315 8 801 810 10.1001/jama.2016.0287 26903338
+L165: 2. Fleischmann C Scherag A Adhikari NK Hartog CS Tsaganos T Schlattmann P Angus DC Reinhart K International Forum of Acute Care Trialists: Assessment of Global Incidence and Mortality of Hospital-treated Sepsis. Current Estimates and Limitations Am J Respir Crit Care Med 2016 193 3 259 272 10.1164/rccm.201504-0781OC 26414292
+L166: 3. Herridge MS Chu LM Matte A Tomlinson G Chan L Thomas C Friedrich JO Mehta S Lamontagne F Levasseur M The RECOVER Program: disability risk groups and 1-year outcome after 7 or more days of mechanical ventilation Am J Respir Crit Care Med 2016 194 7 831 844 10.1164/rccm.201512-2343OC 26974173
+L167: 4. Garland A Olafson K Ramsey CD Yogendran M Fransoo R A population-based observational study of intensive care unit-related outcomes. With emphasis on post-hospital outcomes Ann Am Thorac Soc 2015 12 2 202 208 10.1513/AnnalsATS.201405-201CME 25706486
+L168: 5. Dugani S Veillard J Kissoon N Reducing the global burden of sepsis CMAJ 2017 189 1 E2 E3 10.1503/cmaj.160798 28246252
+L169: 6. Reinhart K Daniels R Kissoon N Machado FR Schachter RD Finfer S Recognizing sepsis as a global health priority - a WHO resolution N Engl J Med 2017 377 5 414 417 10.1056/NEJMp1707170 28658587
+L170: 7. Angus DC van der Poll T Severe sepsis and septic shock N Engl J Med 2013 369 9 840 851 10.1056/NEJMra1208623 23984731
+L171: 8. Frei B Stocker R England L Ames BN Ascorbate: the most effective antioxidant in human blood plasma Adv Exp Med Biol 1990 264 155 163 10.1007/978-1-4684-5730-8_24 2244489
+L172: 9. Amrein K Oudemans-van Straaten HM Berger MM Vitamin therapy in critically ill patients: focus on thiamine, vitamin C, and vitamin D Intensive Care Med 2018 44 11 1940 1944 10.1007/s00134-018-5107-y 29520660
+L173: 10. Carr AC Rosengrave PC Bayer S Chambers S Mehrtens J Shaw GM Hypovitaminosis C and vitamin C deficiency in critically ill patients despite recommended enteral and parenteral intakes Crit Care 2017 21 1 300 10.1186/s13054-017-1891-y 29228951
+L174: 11. de Grooth H Spoelstra-de Man A Oudemans-van Straaten H Early plasma vitamin C concentration, organ dysfunction and ICU mortality [abstract 0723] Intensive Care Med 2014 40 S199
+L175: 12. May JM Harrison FE Role of vitamin C in the function of the vascular endothelium Antioxid Redox Signal 2013 19 17 2068 2083 10.1089/ars.2013.5205 23581713
+L176: 13. Oudemans-van Straaten HM Spoelstra-de Man AM de Waard MC Vitamin C revisited Crit Care 2014 18 4 460 10.1186/s13054-014-0460-x 25185110
+L177: 14. Wilson JX Evaluation of vitamin C for adjuvant sepsis therapy Antioxid Redox Signal 2013 19 17 2129 2140 10.1089/ars.2013.5401 23682970
+L178: 15. Carr AC Shaw GM Fowler AA Natarajan R Ascorbate-dependent vasopressor synthesis: a rationale for vitamin C administration in severe sepsis and septic shock? Crit Care 2015 19 418 10.1186/s13054-015-1131-2 26612352
+L179: 16. Marik PE Khangoora V Rivera R Hooper MH Catravas J Hydrocortisone, vitamin C, and thiamine for the treatment of severe sepsis and septic shock: a retrospective before-after study Chest 2017 151 6 1229 1238 10.1016/j.chest.2016.11.036 27940189
+L180: 17. Fowler AA 3rd Syed AA Knowlson S Sculthorpe R Farthing D DeWilde C Farthing CA Larus TL Martin E Brophy DF Phase I safety trial of intravenous ascorbic acid in patients with severe sepsis J Transl Med 2014 12 32 10.1186/1479-5876-12-32 24484547
+L181: 18. Vincent JL Moreno R Takala J Willatts S De Mendonca A Bruining H Reinhart CK Suter PM Thijs LG The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine Intensive Care Med 1996 22 7 707 710 10.1007/BF01709751 8844239
+L182: 19. Zabet MH Mohammadi M Ramezani M Khalili H Effect of high-dose ascorbic acid on vasopressor's requirement in septic shock J Res Pharm Pract 2016 5 2 94 100 10.4103/2279-042X.179569 27162802
+L183: 20. Langlois PL Manzanares W Adhikari NKJ Lamontagne F Stoppe C Hill A Heyland DK Vitamin C administration to the critically ill: a systematic review and meta-analysis JPEN J Parenter Enteral Nutr 2019 43 3 335 346 10.1002/jpen.1471 30452091
+L184: 21. Fowler AA 3rd Truwit JD Hite RD Morris PE DeWilde C Priday A Fisher B Thacker LR 2nd Natarajan R Brophy DF Effect of Vitamin C infusion on organ failure and biomarkers of inflammation and vascular injury in patients with sepsis and severe acute respiratory failure: The CITRIS-ALI Randomized Clinical Trial JAMA 2019 322 13 1261 1270 10.1001/jama.2019.11825 31573637
+L185: 22. Walsh M Srinathan SK McAuley DF Mrkobrada M Levine O Ribic C Molnar AO Dattani ND Burke A Guyatt G The statistical significance of randomized controlled trial results is frequently fragile: a case for a Fragility Index J Clin Epidemiol 2014 67 6 622 628 10.1016/j.jclinepi.2013.10.019 24508144
+L186: 23. Heyland DK Muscedere J Drover J Jiang X Day AG Canadian Critical Care Trials G: Persistent organ dysfunction plus death: a novel, composite outcome measure for critical care trials Crit Care 2011 15 2 R98 10.1186/cc10110 21418560
+L187: 24. Cappellini MD Fiorelli G Glucose-6-phosphate dehydrogenase deficiency Lancet 2008 371 9606 64 74 10.1016/S0140-6736(08)60073-2 18177777
+L188: 25. Campbell GD Jr Steinberg MH Bower JD Letter: Ascorbic acid-induced hemolysis in G-6-PD deficiency Ann Intern Med 1975 82 6 810 10.7326/0003-4819-82-6-810_1 1138591
+L189: 26. de Grooth HJ Manubulu-Choo WP Zandvliet AS Spoelstra-de Man AME Girbes AR Swart EL Oudemans-van Straaten HM Vitamin C pharmacokinetics in critically ill patients: a randomized trial of four IV regimens Chest 2018 153 6 1368 1377 10.1016/j.chest.2018.02.025 29522710
+L190: 27. Walker Scott E. Iazzetta John Law Shirley Kanji Salmaan Bolduc Brigitte Lamontagne François Adhikari Neill K.J. Administration of Intravenous Ascorbic Acid—Practical Considerations for Clinicians Nutrients 2019 11 9 1994 10.3390/nu11091994 6769642
+L191: 28. National Association of Pharmacy Regulatory Authorities. Model standards for pharmacy compounding of non-hazardous sterile preparations (revision November 2016). Ottawa, Canada: National Association of Pharmacy Regulatory Authorities; 2015.
+L192: 29. Lamontagne F Rochwerg B Lytvyn L Guyatt GH Moller MH Annane D Kho ME Adhikari NKJ Machado F Vandvik PO Corticosteroid therapy for sepsis: a clinical practice guideline BMJ 2018 362 k3284 10.1136/bmj.k3284 30097460
+L193: 30. Herdman M Gudex C Lloyd A Janssen M Kind P Parkin D Bonsel G Badia X Development and preliminary testing of the new five-level version of EQ-5D (EQ-5D-5L) Qual Life Res 2011 20 10 1727 1736 10.1007/s11136-011-9903-x 21479777
+L194: 31. Gu WJ Zhang Z Bakker J Early lactate clearance-guided therapy in patients with sepsis: a meta-analysis with trial sequential analysis of randomized controlled trials Intensive Care Med 2015 41 10 1862 1863 10.1007/s00134-015-3955-2 26154408
+L195: 32. Yeo TW Lampah DA Gitawati R Tjitra E Kenangalem E Piera K Price RN Duffull SB Celermajer DS Anstey NM Angiopoietin-2 is associated with decreased endothelial nitric oxide and poor clinical outcome in severe falciparum malaria Proc Natl Acad Sci U S A 2008 105 44 17097 17102 10.1073/pnas.0805782105 18957536
+L196: 33. Kidney Disease: Improving Global Outcomes (KDIGO) Acute Kidney Injury Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2:1–138.
+L197: 34. Kahn SA Lentz CW Fictitious hyperglycemia: point-of-care glucose measurement is inaccurate during high-dose vitamin C infusion for burn shock resuscitation J Burn Care Res 2015 36 2 e67 e71 10.1097/BCR.0000000000000141 25162951
+L198: 35. Cook D Lauzier F Rocha MG Sayles MJ Finfer S Serious adverse events in academic critical care research CMAJ 2008 178 9 1181 1184 10.1503/cmaj.071366 18427095
+L199: 36. Knaus WA Draper EA Wagner DP Zimmerman JE APACHE II: a severity of disease classification system Crit Care Med 1985 13 10 818 829 10.1097/00003246-198510000-00009 3928249
+L200: 37. Charlson M Szatrowski TP Peterson J Gold J Validation of a combined comorbidity index J Clin Epidemiol 1994 47 11 1245 1251 10.1016/0895-4356(94)90129-5 7722560
+L201: 38. Rockwood K Song X MacKnight C Bergman H Hogan DB McDowell I Mitnitski A A global clinical measure of fitness and frailty in elderly people CMAJ 2005 173 5 489 495 10.1503/cmaj.050051 16129869
+L202: 39. Bagshaw SM Stelfox HT McDermid RC Rolfson DB Tsuyuki RT Baig N Artiuch B Ibrahim Q Stollery DE Rokosh E Association between frailty and short- and long-term outcomes among critically ill patients: a multicentre prospective cohort study CMAJ 2014 186 2 E95 102 10.1503/cmaj.130639 24277703
+L203: 40. Muscedere J Waters B Varambally A Bagshaw SM Boyd JG Maslove D Sibley S Rockwood K The impact of frailty on intensive care unit outcomes: a systematic review and meta-analysis Intensive Care Med 2017 43 8 1105 1122 10.1007/s00134-017-4867-0 28676896
+L204: 41. Akl EA Briel M You JJ Sun X Johnston BC Busse JW Mulla S Lamontagne F Bassler D Vera C Potential impact on estimated treatment effects of information lost to follow-up in randomised controlled trials (LOST-IT): systematic review BMJ 2012 344 e2809 10.1136/bmj.e2809 22611167
+L205: 42. Fergusson D Aaron SD Guyatt G Hebert P Post-randomisation exclusions: the intention to treat principle and excluding patients from analysis BMJ 2002 325 7365 652 654 10.1136/bmj.325.7365.652 12242181
+L206: 43. Heyland D Muscedere J Wischmeyer PE Cook D Jones G Albert M Elke G Berger MM Day AG Canadian Critical Care Trials Group: A randomized trial of glutamine and antioxidants in critically ill patients N Engl J Med 2013 368 16 1489 1497 10.1056/NEJMoa1212722 23594003
+L207: 44. Senn SJ Lewis RJ Treatment effects in multicenter randomized clinical trials JAMA 2019 321 12 1211 1212 10.1001/jama.2019.1480 30821808
+L208: 45. Committee for Proprietary Medicinal Products (CPMP). Committee for Proprietary Medicinal Products (CPMP): points to consider on adjustment for baseline covariates. Stat Med. 2004;23(5):701–9.
+L209: Acknowledgements
+L210: We thank the Unité de Recherche Clinique et Épidémiologique of the Centre de Recherche du Centre Hospitalier Universitaire de Sherbrooke for their commitment to the coordination of the study; Charles St-Arnaud, Michael Mayette, Joannie Marchand, Marie-Ève Thibault, Brian Beaudoin-Grondin, Marc-André Leclair, Dominique Bérard, Hector Quiroz Martinez and Yannick Poulin for their collaboration during the vanguard phase of the study; and Berry Fowler, Heleen Oudemans-van Straaten, Lounes Haroune and Éric Marsault for helpful discussion on various aspects of the protocol. We thank Michelle Kho for her careful review of an earlier version of this manuscript on behalf of the Canadian Critical Care Trials Group Grants and Manuscripts Committee.
+L211: LOVIT team members, including research personnel at clinical sites active at the time of submission of this manuscript, are listed in Additional file  1 .
+L212: Additional File 1 LOVIT team members, including research personnel at clinical sites active at
+L213: time of submission of this manuscript
+L214: Executive Committee
+L215: Neill KJ Adhikari (PI, co-chair), François Lamontagne (PI, co-chair), Marie-Hélène Masse (PL), Julie
+L216: Ménard (PL), Sheila Sprague (PL)
+L217: Steering Committee
+L218: Neill KJ Adhikari (co-chair), François Lamontagne (co-chair), Marie-Claude Battista, Dian Cohen,
+L219: Deborah Cook, Andrew Day, Gordon Guyatt, Daren Heyland, Salmaan Kanji, Marie-Hélène
+L220: Masse, Julie Ménard, Ruxandra Pinto, Sheila Sprague
+L221: Data and Safety Monitoring Committee
+L222: Andreas Laupacis (chair), Lauren Griffith, Scott Halpern
+L223: Coordinating Centre Personnel
+L224: Marie-Claude Battista, Francis Malenfant, Marie-Hélène Masse, Julie Ménard, Louise RobertPetit, Amélie Têtu, Marie-Ève Thibault, Sheila Sprague
+L225: Participating Clinical Sites Personnel
+L226: CIUSSS de l’Estrie – Centre Hospitalier Universitaire de Sherbrooke
+L227: François Lamontagne (PI), Frédérick D’Aragon (Co-I), Marc-André Leclair (Co-I), Michaël Mayette
+L228: (Co-I), Yannick Poulin (Co-I), Hector Quiroz-Martinez (Co-I), Charles St-Arnaud (Co-I), Élaine
+L229: Carbonneau (RC), Line Côté (RN), Marilène Ladouceur (RN), Joannie Marchand (RA), MarieHélène Masse (RC), Noémie Turcotte (RA)
+L230: CISSS - Chaudière-Appalaches
+L231: Patrick Archambault (PI), Christine Drouin (Co-I), Estel Deblois (RC), Krystel Gonthier (RN), Lise
+L232: Labrie (RN)
+L233: Centre Hospitalier de l’Université de Montréal
+L234: Michaël Chassé (PI), Pierre Aslanian (Co-I), François Martin Carrier (Co-I), Martin Girard (Co-I),
+L235: Antoine Halwagi (Co-I), Martine Lebrasseur (RC), Fatna Benettaib (RC), Dounia Boumahni (RC),
+L236: Marie-Ève Cantin (RA), Ali Ghamraoui (RC), Maya Salame (RC)
+L237: Institut Universitaire de Cardiologie et de Pneumologie de Québec
+L238: François Lellouche (PI), Ying Tung Sia (Co-I), Mathieu Simon (Co-I), Patricia Lizotte (RC), PierreAlexandre Bouchard (RC)
+L239: CIUSSS de l’Est-de-l’Île-de-Montréal – Installation Hôpital Maisonneuve-Rosemont
+L240: Han Ting Wang (PI), François Marquis (Co-I), Francis Toupin (Co-I), Marc Brosseau (Co-I), Danae
+L241: Tassy (RC), Lotthida Inthanavong (RA)
+L242: Centre hospitalier affilié universitaire régional - CIUSSS de la Mauricie-et-du-Centre-du-Québec
+L243: Jean-Nicolas Dubé (PI), Marie-Josée Bériault (Co-I), Marco Chacon (Co-I), David Claveau (Co-I),
+L244: Jean-François Naud (Co-I), Élise Rodrigue (Co-I), Emmanuel Charbonney (Co-I), Ying Tung Sia (CoI), Danielle Tapps (RC), Guylaine Toupin (RC)
+L245: McGill University Health Centre (Royal Victoria Hospital and Montreal General Hospital)
+L246: Jason Shahin (PI) Kosar Khwaja (Co-I), Josie Campisi (RC), Norine Alam (RC)
+L247: CIUSSS du Nord-de-l’Île-de-Montréal - Hôpital du Sacré-Coeur de Montréal
+L248: Emmanuel Charbonney (PI), Martin Albert (Co-I), Francis Bernard (Co-I), Alexandros Cavayas (CoI), Karim Serri (Co-I), Virginie Williams (RC), Julia Lainer Palacios (RA), Maxime St-Denis (RA)
+L249: Kingston General Hospital
+L250: David Maslove (PI), Gordon Boyd (Co-I), John Drover (Co-I), John Muscedere (Co-I), Stephanie
+L251: Sibley (Co-I), Miranda Hunt (RC), Tracy Boyd (RC), Danielle Muscedere (RA)
+L252: The Ottawa Hospital (General Campus and Civic Campus)
+L253: Andrew Seely (PI), Shane English (Co-I), Hilary Meggison (Co-I), Guiseppe Pagliorello (Co-I),
+L254: Rakesh Patel (Co-I), Irene Watpool (RC), Rebecca Porteous (RC), Sydney Miezitis (RA)
+L255: Hamilton Health Sciences - Juravinski Hospital
+L256: Bram Rochwerg (PI), Tina Millen (RC)
+L257: Hamilton Health Sciences - Hamilton General Hospital
+L258: Émilie Belley-Côté (PI), Maureen Meade (Co-I), Richard Whitlock (Co-I), Nevena Savija (RC)
+L259: St-Joseph’s Healthcare
+L260: Deborah Cook (PI), Waleed Al-Hazzani (Co-I), Erick Duan (Co-I), Mark Soth (Co-I), Tania Ligori
+L261: (Co-I), France Clarke (RC), Neala Hoad (RC)
+L262: Sunnybrook Health Sciences Centre
+L263: Neill KJ Adhikari (PI), Andre Carlos Amaral (Co-I), Brian Cuthbertson (Co-I), Robert Fowler (Co-I),
+L264: Damon Scales (Co-I), Nicole Marinoff (RC), Navjot Kaur (RC)
+L265: University of Alberta Hospital
+L266: Oleksa Rewa (PI), Sean Bagshaw (Co-I), Michael Meier (Co-I), Wendi Sligl (Co-I), Nadia Baig (RC),
+L267: Lorena McCoshen (RC)
+L268: Abbreviations:
+L269: Co-I – co-investigator
+L270: PI – principal investigator
+L271: PL – project leader
+L272: RA – research assistant
+L273: RC – research coordinator
+L274: SPIRIT 2013 Checklist: Recommended items to address in a clinical trial protocol and related documents*
+L275: **Section/item** **Item** **Description** **Addressed on**
+L276: **No** **page number (of**
+L277: **Word file)**
+L278: **Administrative information**
+L279: Title 1 Descriptive title identifying the study design, population, interventions, and, if applicable, trial acronym 1
+L280: Trial registration 2a Trial identifier and registry name. If not yet registered, name of intended registry 5, 26
+L281: 2b All items from the World Health Organization Trial Registration Data Set Refer to item 2a
+L282: and registration
+L283: information in
+L284: https://clinicaltrials.
+L285: gov/ct2/show/NCT
+L286: 03680274
+L287: Protocol version 3 Date and version identifier 31
+L288: Funding 4 Sources and types of financial, material, and other support 33
+L289: Roles and 5a Names, affiliations, and roles of protocol contributors 1, 33
+L290: responsibilities
+L291: 5b Name and contact information for the trial sponsor 33
+L292: 5c Role of study sponsor and funders, if any, in study design; collection, management, analysis, and
+L293: interpretation of data; writing of the report; and the decision to submit the report for publication, including
+L294: whether they will have ultimate authority over any of these activities
+L295: 33
+L296: 1
+L297: 5d Composition, roles, and responsibilities of the coordinating centre, steering committee, endpoint
+L298: adjudication committee, data management team, and other individuals or groups overseeing the trial, if
+L299: applicable (see Item 21a for data monitoring committee)
+L300: 8, 9, 27, 28
+L301: **Introduction**
+L302: Background and 6a Description of research question and justification for undertaking the trial, including summary of relevant
+L303: 6,7
+L304: rationale studies (published and unpublished) examining benefits and harms for each intervention
+L305: 6b Explanation for choice of comparators 13, 14
+L306: Objectives 7 Specific objectives or hypotheses 8
+L307: Trial design 8 Description of trial design including type of trial (eg, parallel group, crossover, factorial, single group),
+L308: allocation ratio, and framework (eg, superiority, equivalence, noninferiority, exploratory) 8, 12
+L309: **Methods: Participants, interventions, and outcomes**
+L310: Study setting 9 Description of study settings (eg, community clinic, academic hospital) and list of countries where data will 8, 9, 28, 29
+L311: be collected. Reference to where list of study sites can be obtained
+L312: Eligibility criteria 10 Inclusion and exclusion criteria for participants. If applicable, eligibility criteria for study centres and
+L313: individuals who will perform the interventions (eg, surgeons, psychotherapists)
+L314: Interventions 11a Interventions for each group with sufficient detail to allow replication, including how and when they will be
+L315: administered
+L316: 11b Criteria for discontinuing or modifying allocated interventions for a given trial participant (eg, drug dose
+L317: change in response to harms, participant request, or improving/worsening disease)
+L318: 11c Strategies to improve adherence to intervention protocols, and any procedures for monitoring adherence
+L319: (eg, drug tablet return, laboratory tests)
+L320: 9, 10
+L321: 12, 13
+L322: 21, 22
+L323: 26, 27
+L324: 11d Relevant concomitant care and interventions that are permitted or prohibited during the trial 14
+L325: 2
+L326: Outcomes 12 Primary, secondary, and other outcomes, including the specific measurement variable (eg, systolic blood
+L327: pressure), analysis metric (eg, change from baseline, final value, time to event), method of aggregation (eg,
+L328: median, proportion), and time point for each outcome. Explanation of the clinical relevance of chosen
+L329: efficacy and harm outcomes is strongly recommended
+L330: Participant timeline 13 Time schedule of enrolment, interventions (including any run-ins and washouts), assessments, and visits for
+L331: participants. A schematic diagram is highly recommended (see Figure)
+L332: Sample size 14 Estimated number of participants needed to achieve study objectives and how it was determined, including
+L333: clinical and statistical assumptions supporting any sample size calculations
+L334: 15-18
+L335: 39, 40
+L336: 23
+L337: Recruitment 15 Strategies for achieving adequate participant enrolment to reach target sample size 11, 26, 27
+L338: **Methods: Assignment of interventions (for controlled trials)**
+L339: Allocation:
+L340: Sequence
+L341: generation
+L342: Allocation
+L343: concealment
+L344: mechanism
+L345: 16a Method of generating the allocation sequence (eg, computer-generated random numbers), and list of any
+L346: factors for stratification. To reduce predictability of a random sequence, details of any planned restriction
+L347: (eg, blocking) should be provided in a separate document that is unavailable to those who enrol participants
+L348: or assign interventions
+L349: 16b Mechanism of implementing the allocation sequence (eg, central telephone; sequentially numbered,
+L350: opaque, sealed envelopes), describing any steps to conceal the sequence until interventions are assigned
+L351: 12
+L352: 8, 12
+L353: 12
+L354: 8, 13, 14, 15
+L355: 14, 15, 41
+L356: Implementation 16c Who will generate the allocation sequence, who will enrol participants, and who will assign participants to
+L357: interventions
+L358: Blinding (masking) 17a Who will be blinded after assignment to interventions (eg, trial participants, care providers, outcome
+L359: assessors, data analysts), and how
+L360: 17b If blinded, circumstances under which unblinding is permissible, and procedure for revealing a participant’s
+L361: allocated intervention during the trial
+L362: **Methods: Data collection, management, and analysis**
+L363: 3
+L364: Data collection
+L365: methods
+L366: 18a Plans for assessment and collection of outcome, baseline, and other trial data, including any related
+L367: processes to promote data quality (eg, duplicate measurements, training of assessors) and a description of
+L368: study instruments (eg, questionnaires, laboratory tests) along with their reliability and validity, if known.
+L369: Reference to where data collection forms can be found, if not in the protocol
+L370: 18b Plans to promote participant retention and complete follow-up, including list of any outcome data to be
+L371: collected for participants who discontinue or deviate from intervention protocols
+L372: 19, 20, 21
+L373: 21, 22
+L374: 26, 27
+L375: 24, 25
+L376: Data management 19 Plans for data entry, coding, security, and storage, including any related processes to promote data quality
+L377: (eg, double data entry; range checks for data values). Reference to where details of data management
+L378: procedures can be found, if not in the protocol
+L379: Statistical methods 20a Statistical methods for analysing primary and secondary outcomes. Reference to where other details of the
+L380: statistical analysis plan can be found, if not in the protocol
+L381: 20b Methods for any additional analyses (eg, subgroup and adjusted analyses) 24, 25
+L382: 20c Definition of analysis population relating to protocol non-adherence (eg, as randomised analysis), and any
+L383: statistical methods to handle missing data (eg, multiple imputation)
+L384: **Methods: Monitoring**
+L385: Data monitoring 21a Composition of data monitoring committee (DMC); summary of its role and reporting structure; statement of
+L386: whether it is independent from the sponsor and competing interests; and reference to where further details
+L387: about its charter can be found, if not in the protocol. Alternatively, an explanation of why a DMC is not
+L388: needed
+L389: 21b Description of any interim analyses and stopping guidelines, including who will have access to these interim
+L390: results and make the final decision to terminate the trial
+L391: Harms 22 Plans for collecting, assessing, reporting, and managing solicited and spontaneously reported adverse
+L392: events and other unintended effects of trial interventions or trial conduct
+L393: Auditing 23 Frequency and procedures for auditing trial conduct, if any, and whether the process will be independent
+L394: from investigators and the sponsor
+L395: **Ethics and dissemination**
+L396: 24, 25
+L397: 26, 27
+L398: 25
+L399: 18, 19
+L400: 28
+L401: 4
+L402: Research ethics 24 Plans for seeking research ethics committee/institutional review board (REC/IRB) approval 11
+L403: approval
+L404: Protocol 25 Plans for communicating important protocol modifications (eg, changes to eligibility criteria, outcomes,
+L405: amendments analyses) to relevant parties (eg, investigators, REC/IRBs, trial participants, trial registries, journals, 11
+L406: regulators)
+L407: Consent or assent 26a Who will obtain informed consent or assent from potential trial participants or authorised surrogates, and
+L408: 11
+L409: how (see Item 32)
+L410: 26b Additional consent provisions for collection and use of participant data and biological specimens in ancillary
+L411: 11, 19
+L412: studies, if applicable
+L413: Confidentiality 27 How personal information about potential and enrolled participants will be collected, shared, and maintained 33
+L414: in order to protect confidentiality before, during, and after the trial
+L415: Declaration of 28 Financial and other competing interests for principal investigators for the overall trial and each study site 33
+L416: interests
+L417: Access to data 29 Statement of who will have access to the final trial dataset, and disclosure of contractual agreements that
+L418: limit such access for investigators
+L419: Ancillary and posttrial care
+L420: 30 Provisions, if any, for ancillary and post-trial care, and for compensation to those who suffer harm from trial
+L421: participation
+L422: 28
+L423: 11
+L424: 30
+L425: Dissemination policy 31a Plans for investigators and sponsor to communicate trial results to participants, healthcare professionals,
+L426: the public, and other relevant groups (eg, via publication, reporting in results databases, or other data
+L427: sharing arrangements), including any publication restrictions
+L428: 31b Authorship eligibility guidelines and any intended use of professional writers 30, Additional file 4
+L429: 31c Plans, if any, for granting public access to the full protocol, participant-level dataset, and statistical code 30
+L430: **Appendices**
+L431: Informed consent 32 Model consent form and other related documentation given to participants and authorised surrogates 11, Additional file 3
+L432: materials
+L433: 5
+L434: Biological 33 Plans for collection, laboratory evaluation, and storage of biological specimens for genetic or molecular 19
+L435: specimens analysis in the current trial and for future use in ancillary studies, if applicable
+L436: *It is strongly recommended that this checklist be read in conjunction with the SPIRIT 2013 Explanation & Elaboration for important clarification on the items.
+L437: Amendments to the protocol should be tracked and dated. The SPIRIT checklist is copyrighted by the SPIRIT Group under the Creative Commons
+L438: “Attribution-NonCommercial-NoDerivs 3.0 Unported” license.
+L439: 6
+L440: **Study Title:** Lessening Organ Dysfunction with Vitamin C:
+L441: LOVIT Trial
+L442: **Study Number:** MP-31-2019-2945
+L443: **Funding Agency:** Lotte and John Hecht Memorial Foundation
+L444: **Principal Investigator:** Dr. François Lamontagne, Intensivist
+L445: **Co-Investigators:** Dr. Frédérick D’Aragon, Intensivist
+L446: Dr. Charles St-Arnaud, Intensivist
+L447: Dr. Michaël Mayette, Intensivist
+L448: Pr. Marie-Claude Battista, Scientific Director, Unité
+L449: de Recherche Clinique et Épidémiologique
+L450: **FOR INFORMATION**
+L451: **Monday through Friday, from 8 am and 4 pm, you can reach:**
+L452: Dr. François Lamontagne, Intensivist Tel: 819-346-1110 ext. 74974
+L453: Élaine Carbonneau, Research Nurse Tel: 819-346-1110 ext. 16208
+L454: Marilène Ladouceur, Research Auxiliary Nurse Tel: 819 346-1110 ext. 14169
+L455: Joannie Marchand, Research Assistant Tel: 819 346-1110 ext. 14171
+L456: Marie-Hélène Masse, Research Coordinator Tel: 819-346-1110 ext. 14173
+L457: **or dial “0” and ask the operator to call them on pager # 7125.**
+L458: We are seeking your participation (or that of your family member) in a research study
+L459: because you (or your family member) have been admitted to an intensive care unit and
+L460: are treated for a serious infection. However, before you agree to participate, please take
+L461: the time to read, understand and carefully consider the following information. If you
+L462: agree to take part in this research study, you will be asked to sign the consent form at
+L463: the end of this document and we will give you a signed copy for your own records.
+L464: This Information and Consent Form explains the goals, procedures, risks,
+L465: inconveniences and benefits of the study as well as providing the names of the people
+L466: to reach if needed. This document may contain information or words that you do not
+L467: understand. Please ask the study investigator or members of the study staff to answer
+L468: your questions and explain any word or information you do not understand.
+L469: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 1 of 10**
+L470: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L471: **NATURE AND GOALS OF THE RESEARCH STUDY**
+L472: This study aims to determine whether the administration of vitamin C in patients
+L473: admitted to an intensive care unit (ICU) with a serious infection improves their health
+L474: status. The current options to treat infections are limited to antibiotics and supportive
+L475: care for bodily functions (like hydration fluids in the veins, medication to maintain blood
+L476: pressure, mechanical ventilation and treatment to ensure kidney function). Recent
+L477: studies suggest that high doses of vitamin C given into veins may be the first therapy
+L478: helping the body to fight serious infections.
+L479: The goal of this study is to determine if the administration of vitamin C decreases the
+L480: harmful effects of the infection on organs and improves your health status more rapidly
+L481: than placebo. The specific objectives are to evaluate the effects of vitamin C on your
+L482: health status and quality of life at 6 months and on blood levels of biomarkers that
+L483: reflect cellular health. We wish to include approximately 100 participants at the _CIUSSS_
+L484: _de l’Estrie - CHUS_ to be among the 800 participants needed for this study that will be
+L485: carried out in 25 hospital centers in Canada. This study will be conducted over 4 years.
+L486: Our research team has determined that you are eligible to participate in our study, and
+L487: your treating physician agrees.
+L488: **RESEARCH STUDY PROCEDURES**
+L489: If you agree to participate in this study, you or your family member, will be assigned to
+L490: either the group to whom we administer vitamin C or to the group to whom we
+L491: administer a placebo (an inactive substance that has the same appearance that the
+L492: study product) in the veins. Your assignment to one of these two groups will be
+L493: determined randomly by a computer that will not retain information about you. The
+L494: probability of being assigned to either group is 50% (1 in 2 chances or half-and-half).
+L495: The treating team will not be aware of the group to which you have been assigned, but
+L496: the doctor in charge of this study can obtain this information rapidly in case of
+L497: emergency.
+L498: As a study participant, you will receive the study product (vitamin C or placebo) 4 times
+L499: per day during 96 hours or up to your discharge from the intensive care unit whichever
+L500: comes first. Also, on days 1, 3 and 7 of participation (or when you are discharged from
+L501: the intensive care unit if it happens before day 7), the nurse will collect 10 ml of urine (2
+L502: teaspoons) and 25 ml of blood (5 teaspoons) samples while taking the blood samples
+L503: required for your regular medical care. We will collect a little more volume than what is
+L504: needed to compensate for unexpected losses that may arise during laboratory testing.
+L505: These samples will enable us to measure certain biomarkers in your blood that help
+L506: assess the function of body’s cells and organ systems.
+L507: During your hospital stay, we will monitor your progress to see if your organs are
+L508: functioning well and if you develop other health problems, and to see how long you stay
+L509: in the ICU and hospital. Your medical chart will be reviewed by the investigator and the
+L510: research team as long as you remain in the study. Blood test results and procedures
+L511: present in your medical record will be collected for the study.
+L512: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 2 of 10**
+L513: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L514: After you are discharged from the hospital, you will be contacted by telephone 6 months
+L515: after the start of your participation in the study. Your contact information will be provided
+L516: to the Study Coordinating Centre located at the Centre de recherche du Centre
+L517: hospitalier universitaire de Sherbrooke.
+L518: **FUTURE ANALYSES**
+L519: Once the biomarker analyses have been performed as part of this study, it is possible
+L520: that parts of your samples haven’t been used. We wish to use the remainder of your
+L521: samples to answer additional questions concerning the impact of vitamin C that may
+L522: arise in future. For example, we may measure a new, as yet undefined, biomarker. Only
+L523: the remainder of your samples will be used and no other additional sample will be
+L524: collected.
+L525: **RISKS ASSOCIATED WITH PARTICIPATION IN THIS RESEARCH STUDY**
+L526: Vitamin C is generally not toxic. Risks associated to vitamin C are nausea, vomiting,
+L527: abdominal cramps, tiredness, hot flashes, headaches, insomnia, drowsiness and
+L528: diarrhea. When vitamin C is administered too rapidly, there is a risk of weakness and
+L529: dizziness. There is very little probability that these happen since vitamin C will be
+L530: administered on a 30 to 60 minutes period each time a dose is given. There is a
+L531: possibility of developing a clot in a deep vein but the simple fact of lying in bed for a
+L532: long time can cause a clot.
+L533: A potential risk is the formation of kidney stones. Vitamin C might increase, decrease or
+L534: not affect the risk of kidney stones. Whatever the effect on the risk of kidney stones, you
+L535: might not have symptom or a deterioration of your kidney function can occur, but be
+L536: counter balanced by a decrease of global mortality. We will nonetheless monitor
+L537: damage that could harm your kidneys.
+L538: Vitamin C may be associated with an exaggerated destruction of red blood cells
+L539: (hemolysis) in patients with G6PD enzyme deficiency. However, these patients are
+L540: excluded from participating in the trial. Patients affected by G6PD deficiency are very
+L541: rare in Canada comparatively to other countries in the world. If hemolysis happens to
+L542: you during the intervention period, we will stop the study drug and provide standard
+L543: supportive care.
+L544: Vitamin C can give falsely high blood sugar results when it is measured with certain
+L545: devices used at the bedside. This problem does not occur with equipment used in the
+L546: hospital laboratory. If a falsely high blood sugar result from a bedside device occurred,
+L547: your doctor may decide to use insulin to lower your blood sugar, which may cause low
+L548: blood sugar (hypoglycaemia). In this study, various measures are taken to minimize the
+L549: risk of false blood sugar levels, including the use of bedside devices that are more
+L550: reliable than others, and more frequent blood tests for blood sugar to be measured in
+L551: the hospital laboratory. Accordingly, this study may be associated with more frequent
+L552: blood tests.
+L553: **RISKS ASSOCIATED TO THE PROCEDURES**
+L554: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 3 of 10**
+L555: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L556: The risks associated to blood samples are the following: mild pain, dizziness, fainting,
+L557: bruising, bleeding and in rare cases blood clots and infection. However, you or your
+L558: family member will have already a catheter in place that allows for blood samples to be
+L559: drawn without a puncture (and then not exposed to the risks mentioned above).
+L560: **RISKS ASSOCIATED WITH PREGNANCY**
+L561: Taking part in this research study may include known or unknown risks to pregnant
+L562: women, embryos, foetuses, or breastfed infants. Therefore, pregnant or breastfeeding
+L563: women cannot participate in this research study.
+L564: **BENEFITS ASSOCIATED WITH YOUR PARTICIPATION IN THE RESEARCH STUDY**
+L565: You might have a personal benefit to participate in this research study, but we can’t
+L566: guarantee. However, the findings from this study may help increase our knowledge of
+L567: infections and vitamin C administration, which may benefit future patients.
+L568: **VOLUNTARY PARTICIPATION AND THE RIGHT TO WITHDRAW**
+L569: Your participation in this research study is voluntary. Therefore, you may refuse to
+L570: participate. You can also withdraw from the study at any time, without providing a
+L571: reason, by informing the study investigator or one of his assistants.
+L572: Your decision not to participate in the study or to withdraw from it will have no impact on
+L573: the quality of care and services you are entitled to or on your relationship with the
+L574: investigator and other stakeholders.
+L575: The study investigator, the funding agency or the research ethics board may end your
+L576: participation in the study. This may happen if new findings or information indicates that
+L577: participation is no longer in your interest; if the study investigator believes it is in your
+L578: best interest; or if there are administrative reasons to terminate the study.
+L579: If you withdraw or are withdrawn from the study, the information and material already
+L580: collected during the course of the study will be stored, analyzed or used to protect the
+L581: scientific integrity of the study.
+L582: Any new study findings that could influence your decision to stay in the research study
+L583: will be shared with you as soon as possible.
+L584: **CONFIDENTIALITY**
+L585: While you take part in this research project, the study investigator and study staff will
+L586: collect and record information about you in a study file. They will only collect information
+L587: required to meet the scientific goals of the study.
+L588: This study file may include information from your medical chart concerning your past
+L589: and present health status, your lifestyle as well as the test results, exams and
+L590: procedures you will undergo during the study.
+L591: Study samples will be sent to the Centre de recherche du Centre hospitalier
+L592: universitaire de Sherbrooke, under the responsibility of Dr. François Lamontagne, and
+L593: kept until the end of the study and the analyses for this study exclusively and then
+L594: destroyed.
+L595: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 4 of 10**
+L596: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L597: All the information collected during the study will remain strictly confidential to the extent
+L598: provided by law. You will be identified by an alphanumeric code. The key to the code
+L599: linking your name to your study file will be kept in a safe place by the doctor in charge of
+L600: this research study.
+L601: Your full name and your telephone number will be transmitted to a qualified person of
+L602: the Study Coordinating Centre to allow this person to contact you in 6 months by
+L603: telephone. We will also ask you (or your family member) the name and phone number
+L604: of alternative contacts to ensure we facilitate the telephone follow-up in 6 months. This
+L605: personal information will allow a direct identification. This information will be kept in
+L606: security and confidentiality will be preserved by the qualified person of the Study
+L607: Coordinating Centre and destroyed at the end of the follow-up.
+L608: To ensure your safety, a mention of your participation in this research study will be
+L609: included in your medical file. Therefore, any person or company to whom you will give
+L610: access to your medical file will have access to this information.
+L611: The doctor responsible of this study will send to the principal investigator of the study,
+L612: the coded data concerning your participation.
+L613: The research data will be stored by the study investigator for at least 25 years.
+L614: Study results may be published in medical journals or discussed at scientific meetings,
+L615: but it will be impossible to identify you.
+L616: For monitoring and control purposes, your study file and medical records may be
+L617: examined by a representative of the Research Ethics Board of the institution or by a
+L618: person mandated by a regulatory authority, for example, Health Canada. Data from your
+L619: study file will be sent to the Data Management Centre located within the Department of
+L620: Health Research Methods, Evidence, and Impact at McMaster University. All these
+L621: individuals and organizations adhere to confidentiality policies.
+L622: You have the right to consult your study file at any time to verify the information
+L623: gathered and to have it corrected, if necessary, for as long as this information is
+L624: available to the study investigator or the institution. However, some of this information
+L625: may be made available to you only once the study has ended, to protect the scientific
+L626: integrity of the study.
+L627: **COMPENSATION**
+L628: You will not receive any compensation for expenses and inconveniences incurred due
+L629: to your participation in this research study.
+L630: **SHOULD YOU SUFFER ANY HARM**
+L631: Should you suffer any harm due to your participation in this research study, you will be
+L632: provided with all the necessary care and services, at no cost to you.
+L633: By agreeing to take part in this study, you are not waiving any of your legal rights nor
+L634: discharging the study investigators, the sponsor or the institution where this research
+L635: study is being conducted of their civil liability and professional responsibilities.
+L636: **CONTACT PERSONS**
+L637: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 5 of 10**
+L638: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L639: If you have any questions or problems related to the research study or if you wish to
+L640: withdraw from it, you can contact the research team. Please refer to the box on page 1.
+L641: If you have any questions regarding your rights as a participant in this study or if you
+L642: have any complaints, you may contact the CIUSSS de l’Estrie-CHUS’ Office of
+L643: [Complaints and Quality of Services at plaintes.ciussse-chus@ssss.gouv.qc.ca](mailto:plaintes.ciussse-chus@ssss.gouv.qc.ca) or at the
+L644: following number: 1-866-917-7903.
+L645: **MONITORING OF ETHICAL ASPECTS OF THE STUDY**
+L646: The Research Ethics Board of the _CIUSSS de l’Estrie - CHUS_ approved this study and
+L647: is in charge of its monitoring for the participating institutions of the Québec Health and
+L648: Social Services Network.
+L649: If you wish to contact a member of that board, you can reach the Research Ethics
+L650: Support Services of the _CIUSSS de l’Estrie - CHUS_ at [ethique.recherche.ciussse-](mailto:ethique.recherche.ciussse-chus@ssss.gouv.qc.ca)
+L651: [chus@ssss.gouv.qc.ca](mailto:ethique.recherche.ciussse-chus@ssss.gouv.qc.ca) or at the following number: 819-346-1110, ext. 12856.
+L652: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 6 of 10**
+L653: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L654: **CONSENT**
+L655: I declare that I have read this Information and Consent Form. I declare that the research
+L656: study has been explained to me, that my questions were answered to my satisfaction
+L657: and that I was given sufficient time for consideration and to make a decision. Upon
+L658: reflection, I agree to participate in this research study under the conditions stated
+L659: therein.
+L660: I accept that the research team will have access to my medical record.
+L661: I agree that the remainder of the samples may be used for additional analyses that may
+L662: arise during the study (future analyses).  **YES**  **NO**
+L663: Name of participant Signature of participant Date
+L664: _(please print)_
+L665: I have explained the research study and this Information and Consent Form and I have
+L666: answered all of his/her questions.
+L667: Name of person Signature of person Date
+L668: obtaining consent obtaining consent
+L669: _(please print)_
+L670: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 7 of 10**
+L671: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L672: **CONSENT FROM REPRESENTATIVE (SUDDEN INCAPACITY)**
+L673: Because Mr./Mrs.______________________ has suddenly become incapable of giving
+L674: consent for the hereinafter mentioned reason, the Civil Code of Québec allows you to
+L675: give consent for him/her as his/her _______________________ (indicate your
+L676: relationship with the participant).
+L677: As soon as Mr./Mrs. ______________________has sufficiently recovered, he/she will
+L678: be asked to sign his/her own consent form to indicate whether he/she wants to continue
+L679: taking part in this study. I accept that the research team will have access to his/her
+L680: medical record
+L681: REASON WHY THE PARTICIPANT CAN NOT CONSENT:
+L682: _____________________________________________________________________
+L683: By signing this page, I confirm that I have read the information in this Consent Form. I
+L684: acknowledge that the study has been explained to me, that all of my questions have
+L685: been answered and that I was given enough time to make a decision. I voluntarily give
+L686: my consent so that ___________________ can participate in this study.
+L687: I accept that the research team will have access to his/her medical record.
+L688: I also agree that the remainder of the samples may be used for additional analyses that
+L689: may arise during the study (future analyses).  **YES**  **NO**
+L690: Name of representative Signature of representative Date
+L691: _(please print)_
+L692: I have explained the research study and this Consent Form to the participant’s legal
+L693: representative. I have answered all of his/her questions.
+L694: Name of person Signature of person Date
+L695: obtaining consent obtaining consent
+L696: _(please print)_
+L697: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 8 of 10**
+L698: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L699: **CONSENT FROM THE LEGAL REPRESENTATIVE OR CAREGIVER SUPPORTING**
+L700: **THE PARTICIPATION OF THE PERMANENTLY INCAPABLE PARTICIPANT**
+L701: **(PERMANENT INCAPACITY)**
+L702: I declare that I have read this Information and Consent Form. I declare that the research
+L703: study has been explained to me, that my questions were answered to my satisfaction
+L704: and that I was given sufficient time for consideration and to make a decision.
+L705: I agree that _________________ can participate in this research study under the
+L706: conditions stated therein. I will receive a signed and dated copy of this Information and
+L707: Consent Form.
+L708: I accept that the research team will have access to his/her medical record.
+L709: I also agree that the remainder of the samples may be used for additional analyses that
+L710: may arise during the study (future analyses).  **YES**  **NO**
+L711: If the incapacitated participant is represented:
+L712: Name and signature of the legal representative Date
+L713: (tutor, curator or mandatary)
+L714: If the incapacitated participant is not represented by a legal representative:
+L715: Name and signature of the spouse, Date
+L716: failing which, name of next-of-kin or
+L717: name of a significant person
+L718: I have explained the research study and this Consent Form to the participant’s legal
+L719: representative. I have answered all his/her questions.
+L720: Name of person Signature of person Date
+L721: obtaining consent obtaining consent
+L722: _(please print)_
+L723: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 9 of 10**
+L724: **Lessening organ dysfunction with vitamin C: LOVIT Trial**
+L725: **TELEPHONE CONSENT**
+L726: (For the participant who is suddenly or permanently incapacitated)
+L727: Because ______________________ is incapable of giving consent for the hereinafter
+L728: mentioned reason,
+L729: I have explained the research study and this Consent Form to the participant’s legal
+L730: representative. I have answered all his/her questions. I accept that the research team
+L731: will have access to his/her medical record.
+L732: The representative, Mr./Mrs. _______________________________________________
+L733: Name of the legal representative (tutor, curator or mandatary)
+L734: Name of the spouse or next-of-kin or
+L735: Name of the significant person
+L736: has given consent by telephone on ___________________ at_______________
+L737: Date Hour
+L738: The representative accepts that the research team will have access to his/her medical
+L739: record.
+L740: The representative also agrees that the remainder of the samples may be used for
+L741: additional analyses that may arise during the study (future analyses **).**  **YES**  **NO**
+L742: I have explained to the representative the research project and this information and consent
+L743: form and I have answered to his/her questions.
+L744: Name of person Signature of person Date
+L745: obtaining consent obtaining consent
+L746: _(please print)_
+L747: **Version 4: October 2** ~~**[nd]**~~ **, 2019** **Page 10 of 10**
+L748: LOVIT Authorship and Sub-Study Guidelines Confidential
+L749: # **LOVIT AUTHORSHIP AND SUB-STUDY GUIDELINES**
+L750: **Version:** 1.0
+L751: **Date:** 10-Oct-2018
+L752: The LOVIT Authorship and Sub-Study Guidelines are the confidential intellectual
+L753: property of the LOVIT Principal Investigators and LOVIT Steering Committee and
+L754: cannot be used in any form without the expressed permission of the Principal
+L755: Investigators.
+L756: 10-Oct-2018                    Page **1** of **11** Version 1.0
+L757: LOVIT Authorship and Sub-Study Guidelines Confidential
+L758: **DOCUMENT REVISION HISTORY**
+L759: |Date|Version<br>Number|Section(s)<br>Affected|Summary of<br>Change(s)|Author(s)|
+L760: |---|---|---|---|---|
+L761: |||Entire Document|Original Version||
+L762: 10-Oct-2018                    Page **2** of **11** Version 1.0
+L763: LOVIT Authorship and Sub-Study Guidelines Confidential
+L764: **1.0.** **INTRODUCTION**
+L765: This document describes the policies for the protocol and primary manuscripts, substudies, and secondary analyses and manuscripts. The LOVIT Principal Investigators
+L766: encourage co-investigators to develop ideas for sub-studies to be conducted alongside the
+L767: LOVIT trial and to submit proposals for secondary analyses and corresponding
+L768: manuscripts using the LOVIT data. Sub-studies are defined as studies that build on the
+L769: LOVIT trial infrastructure and require additional data collection. Secondary analyses and
+L770: manuscripts use data that are collected as part of the LOVIT trial to address a research
+L771: question that is not included in the LOVIT protocol.
+L772: **2.0 PROTOCOL MANUSCRIPT AND PRIMARY MANUSCRIPT**
+L773: We will use named authorship (as opposed to group authorship) for the LOVIT protocol
+L774: publication and primary LOVIT results publications ( **Figure 1** ). Under the direction of
+L775: the Principal Investigators, the named co-authors will be responsible for the preparation
+L776: of the manuscripts. The Executive Committee will collaboratively determine named coauthors based on the tool in **Table 1** . The Principal Investigators envision many named
+L777: co-authors for both the protocol manuscript and the primary manuscript. To be a named
+L778: co-author, individuals must also meet the ICMJE authorship requirements ( **Table 2** ).
+L779: The order of authorship will be based on the level of contribution to the LOVIT trial, as
+L780: determined by the Executive Committee, with support from the Steering Committee
+L781: membership as needed. The tool in **Table 1** may also be used to determine authorship
+L782: order.
+L783: **Table 1: Tool for Determining Named Co-Authors and Authorship Order**
+L784: |Item|Specify|Level of<br>Engagement or<br>Contribution|Comments|
+L785: |---|---|---|---|
+L786: |Leadership role(s) in trial|- Active member of the<br>Steering Committee<br>- Country lead<br>- Other committee<br>member role (specify)<br>- Coordinating Centre<br>role (specify)<br>- Other leadership role<br>(specify)|- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L787: |Clinical site leadership|- Patient enrolment<br>- Data quality<br>- Patient follow-up|- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L788: |Expertise provided|- Design<br>- Methodology<br>- Clinical<br>- Statistical<br>- Other (specify)|- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L789: 10-Oct-2018                    Page **3** of **11** Version 1.0
+L790: LOVIT Authorship and Sub-Study Guidelines Confidential
+L791: |Item|Specify|Level of<br>Engagement or<br>Contribution|Comments|
+L792: |---|---|---|---|
+L793: |Drafted sections of the<br>manuscript||- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L794: |Provided input on the<br>interpretation of the data||- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L795: |Critically reviewed and<br>edited the manuscript||- Very high<br>- High<br>- Moderate<br>- Low<br>- Very low||
+L796: **Table 2: ICMJE Authorship Requirements (available at http://icmje.org/)**
+L797: 1. Substantial contributions to the conception or design of the work; or the acquisition, analysis, or
+L798: interpretation of data for the work; AND
+L799: 2. Drafting the work or revising it critically for important intellectual content; AND
+L800: 3. Final approval of the version to be published; AND
+L801: 4. Agreement to be accountable for all aspects of the work in ensuring that questions related to the
+L802: accuracy or integrity of any part of the work are appropriately investigated and resolved.
+L803: In addition to being accountable for the parts of the work he or she has done, an author should be able to
+L804: identify which co-authors are responsible for specific other parts of the work. In addition, authors should
+L805: have confidence in the integrity of the contributions of their co-authors.
+L806: The Principal Investigators will take the lead on preparing the first drafts of both the
+L807: protocol manuscript and the primary manuscript. They will ask named co-authors to draft
+L808: sections of the manuscripts, provide clinical or methodological expertise, and critically
+L809: review the manuscripts in their entirety.
+L810: For the protocol manuscript and the primary manuscripts, all members of the LOVIT
+L811: team will be listed in the contributor appendix (see Section 5.0). Journal rules on listing
+L812: contributors will be followed in an effort to ensure that all contributors are searchable
+L813: through PubMed.
+L814: 10-Oct-2018                    Page **4** of **11** Version 1.0
+L815: LOVIT Authorship and Sub-Study Guidelines Confidential
+L816: **Manuscript Title**
+L817: Author A, Author B, Author C on behalf of the LOVIT Investigators
+L818: and the Canadian Critical Care Trials Group*
+L819: **Appendix**
+L820: Executive Committee
+L821: Steering Committee
+L822: Data and Safety Monitoring Board
+L823: Coordinating Centre
+L824: Participating Clinical Sites
+L825: **Figure 1: Authorship for the Protocol Manuscript and the Primary Manuscript**
+L826: **3.0 SUB-STUDIES**
+L827: LOVIT co-investigators may submit ideas for sub-studies that build on the existing
+L828: infrastructure and data collected within the LOVIT trial. LOVIT co-investigators should
+L829: submit proposals for sub-studies to the Principal Investigator(s) or Project Manager(s) at
+L830: the Coordinating Centre. All ideas for sub-studies will be archived.
+L831: The proposals should include:
+L832:   - Background and rationale
+L833:   - Research question(s)
+L834:   - Methods
+L835:   - Statistical analysis plan (if developed)
+L836:   - Timeline
+L837:   - Implementation plan
+L838:   - Impact on the LOVIT trial
+L839:   - Budget and sources of funding
+L840: The Principal Investigators and Project Managers, with input from the Steering
+L841: Committee and larger LOVIT team as needed, will determine which sub-studies will be
+L842: accepted. To do so, the Principal Investigators will complete the tool in **Table 3** to help
+L843: guide their decision. The Principal Investigators may also request members of the
+L844: Steering Committee review the proposals and complete the below tool, as needed. As a
+L845: general rule, sub-studies should not compromise the likelihood of successfully
+L846: completing the main trial within set timelines.
+L847: If multiple co-investigators submit the same (or similar) ideas for sub-studies, the
+L848: Principal Investigator(s), with support from the Steering Committee as needed, will select
+L849: 10-Oct-2018                    Page **5** of **11** Version 1.0
+L850: LOVIT Authorship and Sub-Study Guidelines Confidential
+L851: a co-investigator to take the lead on the sub-study. This selection will be based on
+L852: knowledge of the topic proposed, availability of the required resources (e.g. coinvestigator time) to devote to the sub-study, and contributions to the LOVIT trial (e.g.
+L853: Steering Committee member, volume of patients enrolled at clinical site, etc.). The
+L854: checklist tool in **Table 3** may be used to guide this decision. Co-investigators who
+L855: submitted similar ideas may be invited to contribute as co-investigators on the sub-study
+L856: at the discretion of the Principal Investigators and the lead co-investigator. If a lead coinvestigator is unable to devote sufficient time and resources to a sub-study, the Principal
+L857: Investigators, with guidance from the study team, may recommend that another coinvestigator lead the sub-study.
+L858: **Table 3: Tool for Determining Which Sub-Studies to Approve**
+L859: |Item|Strongly<br>Disagree|Disagree|Neutral|Agree|Strongly<br>Agree|Comments|
+L860: |---|---|---|---|---|---|---|
+L861: |Sub-study<br>addresses an<br>important,<br>clinically<br>relevant, and<br>timely research<br>question|||||||
+L862: |Sub-study is<br>feasible and can<br>be completed|||||||
+L863: |Sub-study will<br>have a positive<br>impact on the<br>LOVIT trial|||||||
+L864: |There are<br>adequate funding<br>and resources to<br>complete the sub-<br>study|||||||
+L865: |Co-investigator is<br>on the Steering<br>Committee<br>(Yes/No)|||||||
+L866: |Co-investigator is<br>from a high<br>enrolling clinical<br>site|||||||
+L867: |Data is of high<br>quality at the co-<br>investigator’s<br>clinical site|||||||
+L868: |Co-investigator<br>actively<br>participates in<br>LOVIT trial<br>meetings|||||||
+L869: 10-Oct-2018                    Page **6** of **11** Version 1.0
+L870: LOVIT Authorship and Sub-Study Guidelines Confidential
+L871: The Principal Investigators, and members of the Executive Committee (and Steering
+L872: Committee as needed), will meet and review the sub-study proposals and their responses
+L873: each of the above questions. They will collaboratively determine which proposals to
+L874: accept via consensus. Once a decision has been made, the Principal Investigators will
+L875: communicate the decision to the co-investigator who submitted the sub-study proposals.
+L876: If a proposal is not accepted, a Principal Investigator may telephone the co-investigator to
+L877: explain the rationale for not moving forward with the proposed sub-study.
+L878: The Principal Investigators, the Project Managers at the Coordinating Centre, and
+L879: members of the LOVIT team (as needed), will work with the co-investigators on accepted
+L880: sub-study proposals to develop the sub-study protocol and incorporate it into the LOVIT
+L881: trial infrastructure. They will also provide oversight and support, as needed, to the
+L882: conduct of the sub-study.
+L883: For sub-study LOVIT publications, we will typically credit authorship those who led and
+L884: participated in the sub-study, with acknowledgment to the rest of the group, i.e., on
+L885: behalf of the LOVIT Investigators ( **Figure 2)** . All named authors will be expected to
+L886: adhere to ICMJE authorship criteria; it is anticipated that the LOVIT Principal
+L887: Investigators will qualify for authorship. The tool found in **Table 1** may be used to for
+L888: determining guide authorship and all authors must meet the criteria in **Table 2** . All other
+L889: contributors will be listed in the contributor appendix and every effort will be made to
+L890: ensure that all contributors are searchable through PubMed.
+L891: **Sub-Study Manuscript Title**
+L892: Author A, Author B, and Author C on behalf of the LOVIT Investigators
+L893: **Appendix**
+L894: Executive Committee
+L895: Steering Committee
+L896: Data and Safety Monitoring Board
+L897: Coordinating Centre
+L898: Participating Clinical Sites
+L899: **Figure 2: Authorship for Sub-Study Manuscripts**
+L900: **4.0 SECONDARY ANALYSES AND MANUSCRIPTS**
+L901: We encourage LOVIT co-investigators to conduct/oversee secondary analyses and to
+L902: write the corresponding secondary manuscripts using the data that is collected within the
+L903: LOVIT trial. LOVIT co-investigators should submit proposals for secondary analyses
+L904: 10-Oct-2018                    Page **7** of **11** Version 1.0
+L905: LOVIT Authorship and Sub-Study Guidelines Confidential
+L906: and corresponding manuscripts to the Principal Investigators or Project Managers at the
+L907: Coordinating Centre.
+L908: The proposals should include:
+L909:   - Background and rationale
+L910:   - Research question(s)
+L911:   - Proposed methods
+L912:   - Statistical analysis plan (if developed)
+L913:   - Timeline
+L914:   - Requirement of Coordinating Centre resources (e.g. statistical analysis support)
+L915:   - Funding / resources
+L916: The Principal Investigators and Project Managers, with input from the Executive
+L917: Committee and Steering Committee as needed, will review the proposal and determine if
+L918: it is acceptable. They may use the checklist tool in **Table 4** to help make this
+L919: determination. They may request additional details and clarification from the coinvestigator if the any aspect of the proposal is unclear. They may also request revisions
+L920: to the proposal. The Principal Investigators may also deny a request for a secondary
+L921: analysis, and if so, they will provide a rationale to the co-investigator who submitted it.
+L922: If multiple co-investigators submit the same (or similar) ideas for secondary analyses and
+L923: corresponding manuscripts, the Principal Investigator(s), with support from the Executive
+L924: and Steering Committees as needed, will select a co-investigator to take the lead on the
+L925: analysis and manuscript preparation. This selection will be based on: knowledge of the
+L926: topic proposed, availability of the required resources (e.g. co-investigator time) to
+L927: complete the secondary analysis and corresponding manuscript in a timely fashion, and
+L928: contributions to the LOVIT trial (e.g. Steering Committee member, volume of patients
+L929: enrolled at clinical site, etc.). The checklist tool in **Table 4** may be used to guide this
+L930: decision. Co-investigators who submitted similar ideas may be invited to contribute as
+L931: co-authors at the discretion of the Principal Investigators and the lead co-investigator. If
+L932: a lead co-investigator is unable to complete the planned analyses and secondary paper in
+L933: a timely fashion, the Principal Investigators, with guidance from the study team, may
+L934: recommend that another co-investigator take the lead.
+L935: **Table 4: Tool for Determining Which Secondary Analyses and Manuscripts to Approve**
+L936: |Item|Strongly<br>Disagree|Disagree|Neutral|Agree|Strongly<br>Agree|Comments|
+L937: |---|---|---|---|---|---|---|
+L938: |Analyses<br>addresses an<br>important,<br>clinically<br>relevant, and<br>timely research<br>question|||||||
+L939: |Analysis is<br>feasible and can<br>be completed|||||||
+L940: 10-Oct-2018                    Page **8** of **11** Version 1.0
+L941: LOVIT Authorship and Sub-Study Guidelines Confidential
+L942: |Item|Strongly<br>Disagree|Disagree|Neutral|Agree|Strongly<br>Agree|Comments|
+L943: |---|---|---|---|---|---|---|
+L944: |Analysis will<br>have a positive<br>impact on the<br>LOVIT trial|||||||
+L945: |Analysis is<br>different enough<br>from other<br>proposed<br>secondary<br>analyses|||||||
+L946: |There are<br>adequate funding<br>and resources to<br>complete the<br>analysis|||||||
+L947: |Co-investigator is<br>on the Steering<br>Committee<br>(Yes/No)|||||||
+L948: |Co-investigator is<br>from a high<br>enrolling clinical<br>site|||||||
+L949: |Data is of high<br>quality at the co-<br>investigator’s<br>clinical site|||||||
+L950: |Co-investigator<br>actively<br>participates in<br>LOVIT trial<br>meetings|||||||
+L951: The LOVIT study statistician will work with the lead co-investigator and members of the
+L952: study team to develop the statistical analysis plan. In most situations, the statistical
+L953: analyses will be conducted by the LOVIT statistician. If the analysis is not conducted by
+L954: the LOVIT statistician, the LOVIT Principal Investigators and statistician will review the
+L955: statistical analysis plan. They will also determine which data fields to send to the coinvestigator for analysis.
+L956: The Principal Investigators will also review draft manuscripts and they will approve the
+L957: final manuscript prior to journal submission to ensure that the manuscript is of acceptable
+L958: quality.
+L959: The Principal Investigators may also ask members of the LOVIT co-investigators to lead
+L960: LOVIT secondary analyses and manuscripts. This selection will be based on the
+L961: knowledge and interest of a topic and contributions to LOVIT trial. The applicable
+L962: processes, as described above, will be followed.
+L963: 10-Oct-2018                    Page **9** of **11** Version 1.0
+L964: LOVIT Authorship and Sub-Study Guidelines Confidential
+L965: Coordinating Centre personnel may assist with the secondary analysis and manuscript
+L966: preparation, as needed. The LOVIT Coordinating Centre Project Managers will maintain
+L967: a listing of all secondary analyses and manuscripts including the lead co-investigator, coauthors, and the status of the analysis and manuscript. Additionally, the Principal
+L968: Investigators, with input from the Steering Committee and Project Managers, may
+L969: prioritize the order in which the secondary analyses are conducted. The Principal
+L970: Investigators are responsible for ensuring the quality of the secondary manuscripts and
+L971: that the messaging of the secondary manuscripts is not conflicting.
+L972: For secondary LOVIT publications, we will credit authorship to the individual coinvestigators who write the secondary manuscripts, with acknowledgment to the rest of
+L973: the group, i.e., on behalf of the LOVIT Investigators ( **Figure 3** ). The lead investigator for
+L974: each secondary paper, with support from the Principal Investigators, will determine
+L975: named co-authors. Named co-authors will include the Principal Investigators and
+L976: members of the LOVIT team who actively contribute to the publication per ICMJE
+L977: authorship criteria. The tool in **Table 1** may be used to for determining guide authorship
+L978: and all authors must meet the criteria in **Table 2** . All other contributors will be listed in
+L979: the contributor appendix and every effort will be made to ensure that all contributors are
+L980: searchable through PubMed.
+L981: **Secondary Manuscript Title**
+L982: Author A, Author B, and Author C on behalf of the LOVIT Investigators
+L983: **Appendix**
+L984: Executive Committee
+L985: Steering Committee
+L986: Data and Safety Monitoring Board
+L987: Coordinating Centre
+L988: Participating Clinical Sites
+L989: **Figure 3: Authorship for Secondary Manuscripts**
+L990: **5.0. DEVELOPMENT OF THE CONTRIBUTOR APPENDIX**
+L991: **Secondary Manuscript Title**
+L992: Author A, Author B, and Author C on behalf of the LOVIT Investigators
+L993: **Appendix**
+L994: Executive Committee
+L995: Steering Committee
+L996: Data and Safety Monitoring Board
+L997: Coordinating Centre
+L998: Participating Clinical Sites
+L999: The contributor appendix for the LOVIT manuscripts will acknowledge the:
+L1000:   - Executive Committee Members
+L1001:   - Steering Committee Members
+L1002:   - Data and Safety Monitoring Board Members
+L1003:   - Coordinating Centre Personnel
+L1004:   - Participating Clinical Sites Personnel
+L1005: Within each participating clinical site, the following individuals will be listed:
+L1006: 10-Oct-2018                    Page **10** of **11** Version 1.0
+L1007: LOVIT Authorship and Sub-Study Guidelines Confidential
+L1008:   - Site Principal Investigator
+L1009:   - Site Sub-Investigators
+L1010:   - Study Coordinators
+L1011: The order of clinical sites listed in the contributor appendix will be based upon
+L1012: geographic region. Within each geographical region, the order of the clinical sites will be
+L1013: based on participant enrollment, in the order of highest enrollment to the lowest
+L1014: enrollment.
+L1015: We will credit investigators for their contribution while they were at a LOVIT site if they
+L1016: relocate to a hospital that is not participating in LOVIT. If an investigator relocates to
+L1017: another LOVIT site or starts a new LOVIT site, we will acknowledge them for their
+L1018: contributions at both sites.
+L1019: Finally, we will include clinical sites who are initiated and did not enroll participants in
+L1020: the contributor appendix. These clinical sites will be listed under a sub-heading of
+L1021: initiated and did not enroll.
+L1022: The Coordinating Centre Project Manager(s) will be responsible preparing and
+L1023: maintaining the contributor appendix. To do so, they will contact each site to confirm the
+L1024: individuals who should be listed. The Project Managers will circulate the contributor list
+L1025: to each individual clinical site to ensure its accuracy. It is the site’s responsibility to
+L1026: ensure that all participating members at their site are listed and that spelling and
+L1027: credentials are correct.
+L1028: 10-Oct-2018                    Page **11** of **11** Version 1.0
+[39ms]
+

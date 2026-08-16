@@ -1,0 +1,1684 @@
+L1: Antioxidants and Sports Performance
+L2: Nutrients (2023)
+L3: Vicente Javier Clemente-Suárez, Álvaro Bustamante-Sanchez, Juan Mielgo-Ayuso, Ismael Martínez-Guardado, Alexandra Martín-Rodríguez, José Francisco Tornero-Aguilera
+L4: 1 Faculty of Sports Sciences, Universidad Europea de Madrid, Tajo Street, s/n, 28670 Madrid, Spain
+L5: 2 Department of Health Sciences, Faculty of Health Sciences, University of Burgos, 09001 Burgos, Spain
+L6: 3 BRABE Group, Department of Psychology, Faculty of Life and Natural Sciences, University of Nebrija, C/del Hostal, 28248 Madrid, Spain
+L7: The role of reactive oxygen species and antioxidant response in training adaptations and sports performance has been a large issue investigated in the last few years. The present review aims to analyze the role of reactive oxygen species and antioxidant response in sports performance. For this aim, the production of reactive oxygen species in physical activities, the effect of reactive oxygen species on sports performance, the relationship between reactive oxygen species and training adaptations, inflammation, and the microbiota, the effect of antioxidants on recovery and sports performance, and strategies to use antioxidants supplementations will be discussed. Finally, practical applications derived from this information are discussed. The reactive oxygen species (ROS) production during physical activity greatly influences sports performance. This review concludes that ROS play a critical role in the processes of training adaptation induced by resistance training through a reduction in inflammatory mediators and oxidative stress, as well as appropriate molecular signaling. Additionally, it has been established that micronutrients play an important role in counteracting free radicals, such as reactive oxygen species, which cause oxidative stress, and the effects of antioxidants on recovery, sports performance, and strategies for using antioxidant supplements, such as vitamin C, vitamin E, resveratrol, coenzyme Q10, selenium, and curcumin to enhance physical and mental well-being.
+L8: Review
+L9: inflammation; sports performance; antioxidant; reactive oxygen species; training; microbiota; nutrition; physical activity
+L10: 1. Introduction
+L11: A substance that can slow down the oxidation of proteins, carbohydrates, lipids, and DNA at low concentrations is called an antioxidant. There are three main categories of antioxidants [ 1 ]: the first line of defense includes substances such as superoxide dismutase, catalase, glutathione reductase, and minerals such as selenium, copper, and zinc. The second line of defense includes substances such as glutathione, vitamin C, albumin, vitamin E, carotenoids, and flavonoids. The third line of defense includes a complex group of enzymes that repair damaged DNA, proteins, oxidized lipids, and peroxides. Examples include lipase, protease, DNA repair enzymes, transferases, and methionine sulphoxide reductase.An imbalance between reactive oxygen species (ROS) and antioxidant defenses results in oxidative stress, which can disrupt cellular functions and lead to various pathological conditions such as AIDS, aging, arthritis, asthma, autoimmune diseases, carcinogenesis, cardiovascular dysfunction, cataracts, diabetes, and neurodegenerative diseases such as Alzheimer’s disease and Parkinson’s dementia, among others [ 2 ].
+L12: In relation to exercise, during exercise, the metabolism speeds up due to the increased need for oxygen. This causes the release of highly reactive oxygen species (ROS) from the mitochondria. Physical exertion itself also triggers the activation of enzymes, which in turn increases the number of ROS [ 3 ], which can harm cells and contribute to muscle damage, fatigue, and immune problems. However, they also have positive effects, such as aiding in glycogen resynthesis, reducing the risk of infection, and enhancing athletic performance through adaptive responses to training. Whether ROS are harmful or helpful depends on factors such as exercise duration, intensity, fitness level, and nutrition [ 4 ].
+L13: Thus, intense exercise can increase the production of free radicals or reactive oxygen species (ROS) and nitrogen species (RONS), which can hinder muscular contractile function and cause muscle fatigue and reduced performance [ 5 ]. To combat muscle damage and fatigue and enhance performance, athletes often consume antioxidant supplements. However, recent research suggests that the positive effects of antioxidants on health and sports performance may also produce harmful effects in high doses [ 6 ]. Indeed, the American College of Sports Medicine suggests that around half of athletes use vitamin supplements to maintain fitness and boost stamina [ 7 ]; yet, from this percentage, another 50% of elite endurance and male collegiate athletes consumed doses of antioxidant supplements daily that were higher than the recommended daily allowance (RDA) [ 6 ]. This consumption and such high doses are often based on the mistaken assumption that antioxidants are unlikely to be toxic and can prevent the harmful effects of reactive oxygen species (ROS) on cell structure and function. However, there is evidence that ROS play important roles in physiological signaling pathways that regulate the response to exercise, and oxidative stress induced by physical activity is essential for training adaptation. This means that the appropriate balance between antioxidants and free radicals is necessary for obtaining physiological adaptation, and the use of antioxidants in athletes may negate the beneficial effects of ROS in normal cell signaling [ 8 ].
+L14: In this line, reactive oxygen species generated during exercise are believed to stimulate molecular pathways, including PGC1-α and MAPK, which are critical to aerobic capacity and muscle hypertrophy [ 9 ]. Some authors suggest that a transient increase in ROS induced by exercise can have positive effects, such as regulating muscle contractile activity, stimulating muscle regeneration, and improving vasodilation during exercise. However, high levels of ROS and oxidative stress can cause inflammation and damage to cells and tissues. Despite their high training demands, many endurance athletes have diets that lack sufficient antioxidants to support their physical activity demands [ 10 ]. While it is often recommended that endurance athletes take antioxidant supplements, given the many proven health benefits of exercise, this approach may not be necessary.
+L15: In relation to sports performance, some of the most commonly used anti-redox supplements by athletes with the aim of improving performance may have a potentially negative effect on physical performance, depending on the dosage. This may be the case with vitamin C, as ROS may facilitate beneficial adaptations from training, but vitamin C can hinder these adaptations. Out of 12 studies, 4 showed substantial impairments in sports performance from vitamin C doses of 1 g or more daily, potentially by decreasing mitochondrial biogenesis. Another four studies showed impairments but not significant enough to be statistically relevant. Three out of four studies reported performance improvements but only when vitamin C was taken acutely or for a short period of up to 1 week. The conclusion drawn in this review was that consuming lower doses of vitamin C from fruits and vegetables (up to 250 mg daily) can reduce oxidative stress and offer health benefits without affecting training adaptations negatively [ 11 , 12 ].
+L16: Despite the potential negative effects of vitamin C on performance, previous studies have proposed ways in which other antioxidants could enhance either muscular or cardiovascular performance. In this line, vitamin E has been suggested by researchers as a helpful supplement to maintain the structure of red blood cells during exercise at high altitudes, which could be translated into training in hypoxia [ 13 ]. Furthermore, researchers also suggest that polyphenols, including quercetin, may induce mitochondrial adaptation and improve peripheral circulation, similar to exercise [ 14 ]. In this line, high doses of certain polyphenols, such as quercetin and resveratrol, may also promote mitochondrial biogenesis by activating peroxisome-proliferator-activated receptor gamma coactivator 1-alpha through adenosine-monophosphate-activated protein kinase, leading to improved endurance capacity [ 15 ], also increasing nitric oxide synthesis in the endothelium, improving blood flow.
+L17: Beetroot juice, which is rich in polyphenols and inorganic nitrate, can also impact oxygen utilization and blood flow [ 16 ]. Spirulina contains various antioxidants, such as tocopherol, β-carotene, polyphenols, and phytocyanins, all of which can reduce exercise-induced reactive oxygen species [ 17 ]. Another example would be N-acetyl cysteine (NAC), which can directly scavenge reactive species and provide cysteine for glutathione synthesis, an essential intracellular antioxidant [ 18 ].
+L18: In summary, physical exercise is a fundamental tool for health and physical performance. However, when the training load or volume is too high, ROS appear as a consequence. In this line, athletes seek ways to mitigate the negative effects of ROS at a physiological level; however, the lack of knowledge and scientific literature may lead the athletes to an inappropriate dose and intake of antioxidants, thus having a negative effect by inhibiting molecular signaling pathways in processes such as angiogenesis and muscle hypertrophy. ROS and RONS are essential in the processes of adaptation to training, through an attenuation of inflammatory factors and oxidative stress as well as correct molecular signaling; therefore, a balance is necessary.
+L19: Thus, the present narrative review provides a comprehensive overview of the complex interplay between ROS, antioxidants, and exercise and sheds light on the potential benefits and limitations of antioxidant interventions in the context of sports performance. The aim is to explore the effects of ROS production on sports performance, training adaptation, and recovery, as well as the role of antioxidants in mitigating the harmful effects of ROS [ 18 , 19 , 20 ]. Understanding performance from a holistic perspective, such as microbiology and the relationship between antioxidant capacity and the microbiota, shows the potential benefits of an antioxidant-rich diet and antioxidant supplementation for sports performance. Finally, practical applications and strategies for antioxidant supplementation in sports competitions, including the timing and dosage of antioxidant supplements, will be studied.
+L20: 2. Materials and Methods
+L21: A literature search was conducted for this study using both primary and secondary sources, including scientific articles, bibliographic indexes, and databases such as PubMed, Scopus, Embase, Science Direct, Sports Discuss, ResearchGate, and the Web of Science. MeSH-compliant keywords such as antioxidants, exercise, performance, adaptation, recovery, supplementation, and the gut microbiota were used to search for articles published from 1 January 2003 to 1 January 2023. To determine the inclusion criteria, a team of six review authors screened the titles and abstracts of all retrieved manuscripts. Exclusion criteria were then applied to studies that used old data outside the proposed timeline, had inappropriate topics that were not relevant to the study’s focused purpose, or were not written in English. The same team of nine review authors who conducted the study selection extracted the information from the selected studies. The studies were selected independently, and the results were discussed to produce the present narrative review.
+L22: 3. Physical Exercise and Reactive Oxygen Species Production
+L23: Frequent physical activity provides systemic benefits, including the enhancement of brain function. However, unaccustomed strenuous exercise can lead to muscle injury, inflammation, and oxidative stress. Reactive oxygen species (ROS) are produced during repeated muscular contraction, with mitochondria, NADPH oxidase enzymes (NOX/DUOX), and xanthine oxidase (XO) being the main sources of ROS during exercise ( Figure 1 ). While mitochondria and XO produce oxygen as by-products of oxidative phosphorylation and purine metabolism, respectively, NOX enzymes are responsible for producing superoxide (O• −2 ), hydrogen peroxide (H 2 O 2 ), and hydroxyl radical (•OH) [ 21 ] ( Figure 1 ).
+L24: Normal muscular force requires moderate levels of ROS, but excessive ROS can lead to muscle exhaustion and contractile failure. However, some studies have shown that oxidants at low concentrations may be crucial for enhancing muscle contraction, as exogenous antioxidant therapies have been shown to decrease muscular contractility, but this effect is reversed when hydrogen peroxide is added ( Figure 1 ). On the other hand, excessive ROS production combined with weakened antioxidant defenses due to strenuous exercise or other stresses may result in oxidative stress and tissue damage [ 22 ]. As a result, the adaptive response to regular exercise is characterized by the upregulation of the enzymatic antioxidant system and the control of oxidative damage ( Figure 1 ).
+L25: Under physiological circumstances, it is well established that mitochondrial cellular respiration results in the production of ROS. Exercise-induced ROS formation can occur through cytoplasmic glucose metabolism and NADH regeneration, as well as increased ATP hydrolysis rates and purine metabolism, which may be associated with the increased energy metabolism demand after physical activity. Fast-twitch fibers, which have high levels of glycogen and use glycolysis as their primary ATP source, are the main sources of lactate release, and lactate is generated in an intensity-dependent manner. Data suggest that NADPH oxidases could generate ROS from the elevated intramuscular NADH levels resulting from energy metabolism. Recent research has shown that the ability of intestinal cells to convert lactate into pyruvate results in the production of NADH, which can then activate NADPH oxidases. In this regard, the NOX4 enzyme may function as a metabolic sensor by connecting exercise-induced ROS generation to ATP metabolism due to the presence of an ATP-binding motif in its structure and its control by ATP [ 23 ]. Specifically, NOX and XO are the major endogenous ROS producers in skeletal muscle. While superoxide produced by mitochondria may be detected in both resting and active muscles, evidence has suggested that mitochondria may not be the primary generator of ROS in exercising muscles. On the contrary, NOX is a significant ROS producer during muscle contractions, contributing more to cytosolic superoxide than mitochondria. During exercise, NOX-induced ROS in T-tubules can dramatically affect ryanodine receptor type 1 to increase calcium (Ca 2+ ) release and muscular contractions [ 24 ]. Moreover, XO promotes the formation of extracellular superoxide during isometric contraction by being present in the endothelium and cytoplasm of the muscle. This XO-derived superoxide is essential for the production of muscular power [ 25 ]. Considering the quantity of exercise performed, untrained subjects are more susceptible to the negative consequences of increased oxidative stress, whereas trained individuals often have diminished effects due to higher oxidative tolerance ( Figure 1 ). According to an analysis of the cell signaling pathways controlling these skeletal muscle changes, a recent systematic review stated that redox signaling pathways play a critical role in the regulation of muscle remodeling during both exercise and extended periods of rest [ 26 , 27 , 28 ].
+L26: Normally, intracellular antioxidants such as bilirubin, vitamin E, or vitamin C are located within cells, the cytoplasm, and organelles (such as mitochondria) to protect muscle fibers from damage induced by reactive oxygen species (ROS). However, increased generation of ROS during vigorous and exhaustive exercise can counteract these protective processes [ 29 , 30 , 31 , 32 ]. Indeed, although most studies have focused on the harmful effects of exercise-induced oxidative stress on muscles, researchers have recently reported the importance of ROS in initiating and regulating the body’s adaptive responses to exercise [ 33 , 34 ]. Significant routes in the adaptive responses to training have been proposed. The activation of the primary signaling pathways involved in muscle adaptation is thought to depend on the generation of mitochondrial reactive oxygen species during routine exercise [ 35 ]. The main regulator of antioxidants as well as other cytoprotective cofactors is nuclear factor erythroid 2-related factor (Nrf2), a redox-sensing transcription factor that is responsible for the increased antioxidant defense mechanism [ 36 ]. Enhancing mitochondrial biogenesis through elevated peroxisome proliferator-activated receptor-gamma coactivator-1 alpha (PGC-1 alpha) gene expression is another adaptation to exercise. The redox-sensitive upstream signals that regulate PGC-1 alpha expression include mitogen-activated protein kinase (MAPK) and nuclear factor (NF)-kB [ 37 ]. Other cellular signaling pathways, such as 5-adenosine monophosphate-activated protein kinase (AMPK), p38 mitogen-activated protein kinases (p38 MAPK), and Ca 2+ /calmodulin-dependent protein kinase, are also triggered by muscle contraction and increased PGC-1 alpha mRNA levels (CaMK) [ 38 ]. Importantly, failure to trigger some of the aforementioned exercise effectors may result in a disruption in redox signaling caused by antioxidant supplementation. For instance, PGC-1 alpha was shown to be triggered in electrically stimulated myotubes by cAMP response element binding protein (CREB) signaling via superoxide produced by NOX2 [ 39 ]. Previously, PGC-1 alpha was believed to be the main player in adaptations to endurance exercise. However, resistance training was found to induce PGC-1 alpha 4, a shortened splice version of PGC-1 alpha, but not endurance training. The expression of PGC-1 alpha 4 was linked to the hypertrophic muscle response but was unable to enhance IGF-1 or the same group of oxidative genes, such as TFAM, PGC-1 alpha, and NRF2 [ 40 ]. Therefore, recent research has identified PGC-1 alpha as a key factor in coordinating both resistance (myogenic) and endurance (oxidative) adaptations to exercise.
+L27: In this line, endurance exercise increases metabolism, which often leads to induced oxidative stress and injuries. It is estimated that aerobic exercise causes a 1–3 times increase in O• −2  during muscle contraction. However, mitochondria only contribute a minor amount to the production of O• −2  during aerobic exercise [ 22 , 25 ]. Sprinting, on the other hand, primarily uses anaerobic energy pathways due to its high energy demands. Only a small amount (0.15%) of O• −2  is generated in the mitochondria during sprinting. The relatively reduced oxygen consumption and higher ADP (state 3) during sprints result in lower ROS generation in skeletal muscle mitochondria than typical [ 41 ]. NOX is one of the potential locations for O• −2  generation during rapid muscle contraction. Another significant factor for the generation of ROS is the activation of XO caused by an increase in hypoxanthine during and after sprints [ 42 ]. It is critical to emphasize that only a small number of studies have attempted to examine ROS-mediated cellular signaling after resistance training programs. For instance, greater research is required to determine whether PI3/Akt functions as a redox-sensitive cascade to promote hypertrophy [ 43 ]. Although physical activity associated with sports performance will be covered in detail in the following sections, it is necessary to mention that the formation of ROS during skeletal muscle contraction and physical activity has been the subject of intense discussion for the past four decades and still is. Reactive oxygen species (ROS) are still difficult to detect due to their instability and methodological challenges, but significant advancements have been made recently, particularly in the development of imaging techniques and the use of redox-active biosensor compounds to detect ROS produced in subcellular environments.
+L28: 4. The Effect of Reactive Oxygen Species on Sports Performance
+L29: The precise redox pathways causing exercise-induced oxidative stress and exercise-induced adaptability are still not fully understood. Our comprehension of muscle exhaustion and recovery after exercise, as well as the creation of prospective methods for ROS measurement in active muscles, may be improved by investigating ROS pathways. Although there is growing evidence linking exercise to an increase in oxidative stress, systematic research on how exercise-related activities (such as exercise type, intensity, and duration) affect ROS generation is still lacking [ 21 ]. Traditionally, exercise is separated into aerobic and resistance training components. Aerobic exercise strengthens the cardiovascular system and decreases reactive oxygen species and several ROS-related responses dramatically as exposed in  Figure 2 . As a direct consequence, it is critical to distinguish between training methods that call for a high level of athletic performance. The knowledge presented here is focused on endurance, strength, and high-intensity training, as well as mountain sports because of the distinctive properties of ROS at high altitudes ( Figure 2 ).
+L30: Exercise-induced oxidative stress is mitigated by aerobic exercise, which boosts antioxidant levels and antioxidant enzyme expression [ 44 ]. Conversely, resistance training promotes structural (i.e., muscle fiber) and neurological adaptations while also causing an increase in oxidative and inflammatory stress. Due to elevated levels of oxidative and inflammatory stresses brought on by resistance training, the recovery time reduces oxidative stress and allows for the repair of minor injuries. Indeed, in skeletal muscle, intense physical activity can generate high production of ROS and reactive nitrogen species (RNS). A large concentration of reactive species might be hazardous to the organism if it is not neutralized by the available antioxidant enzymes, depending on the activity level, duration, frequency, sex, age, and fitness [ 45 ]. For instance, locally generated IGF-1 made by muscle cells, which acts autocrine and paracrine, is thought to be the most important hypertrophic stimulation. Among the compounds produced by IGF-1 posttranscriptional regulation is mechano growth factor (MGF). Both proteins are regarded as crucial mediators of exercise-induced skeletal muscle growth, which can occur via ROS signaling. During exercise-mediated hypertrophy signaling, phosphatase and tensin homolog (PTEN) and protein phosphatase 2A (PP2A) regulate two essential steps in PI3K/Akt signaling and are susceptible to H2O2-mediated signaling. In addition to the temporary suppression of PTEN, H2O2-mediated signaling causes the phosphorylation of PTEN, leading to its destruction. Furthermore, isometric exercise is widespread in daily activities involving static positions, such as carrying heavy objects. Many biomarkers of oxidative stress have been investigated in response to isometric exercise, but the results have been inconsistent. Isometric contractions, for instance, result in elevated levels of hydroperoxide and blood protein carbonyls. Nevertheless, malondialdehyde levels in plasma remain unchanged [ 21 , 34 ]. Additionally, a small number of studies have also evaluated the oxidative stress caused by eccentric exercise, a physical activity that can cause sarcolemma inflammation and consequent ROS overproduction and muscle injury [ 46 ]. However, over time, the adaptations brought on by consistent, vigorous exercise diminish the overall oxidative stress [ 47 ].
+L31: Focusing on high-intensity exercise, a recent study assessing a variety of these activities in athletes deduced that it mainly results in the production of extra reactive oxygen species (ROS) in skeletal muscle. Therefore, athletes must preserve increased ROS scavenging activity in the body [ 48 ]. The active sympathetic nervous system can contribute to the generation of ROS in response to vigorous exercise. As a result, Bors et al. showed that administering adrenaline significantly raised H2O2 levels in vitro [ 49 ]. According to earlier studies, the body’s oxygen intake during intense activity is 10–15 times larger than at rest, and the oxygen uptake by active muscles is approximately 100 times greater [ 50 ]. Although it has been hypothesized that an increase in ROS and free radical production in the body may result in tissue damage, inflammation, and various oxidative diseases, extreme anaerobic exercise significantly boosted the scavenging activities of various serum reactive oxygen species and free radicals, according to recent findings [ 48 ]. In this regard, the alterations in these scavenging activities vary significantly for each reactive oxygen species and free radical in response to intense exercise stress. When Sawada et al. compared medium–high power groups with medium–low power groups, the rate of increase in OH was substantially larger in the medium-high power group compared to the medium-low power group. This suggests that the amount of antioxidant myokines released immediately following exercise varies between individuals. In other words, exercise performance may be connected with an athlete’s ability to release antioxidant myokines. The findings show that those with greater exercise performance are more susceptible to the oxidative stress induced by exercise interventions, suggesting that those who are able to respond to the rapid oxidative stress caused by high-intensity exercise are capable of achieving greater performance ( Figure 2 ) [ 48 , 51 ]. However, there is evidence that NOX2 is activated by high-intensity interval training and that functional NOX2 is necessary for long-term training adaptation. Examples of this data include enhanced muscle protein expression of antioxidant defense enzymes, mitochondrial enzymes, and hexokinase II, as well as increased mitochondrial network volume and decreased mitochondrial fragmentation [ 52 ]. In addition, XO activation induced by an increase in hypoxanthine during and after sprints is regarded as a major factor in ROS generation.
+L32: Although isolated bouts of intense aerobic exercise have the potential to induce oxidative damage to muscle fibers, regular aerobic exercise improves the cellular capacity to detoxify accumulated reactive oxygen species (ROS) [ 53 ]. Frequent or moderate exercise has been shown to enhance antioxidant defense by increasing the activity of endogenous antioxidant enzymes such as catalase, GPx, and superoxide dismutase (SOD) [ 54 ]. Exercise protects the body against ongoing mild or moderate ROS exposure through redox-associated preconditioning, including repair processes for oxidative damage. In fact, long-term resistance and endurance training promote muscle mitochondrial proliferation, and the combination of both training modalities results in a more pronounced reduction in oxidative damage to lipids and carbohydrates, as well as a higher increase in antioxidant enzyme activity, indicating that combining the two types of exercise is beneficial in preventing type 2 diabetes [ 47 ]. Additionally, a study focused on untrained men revealed that all three types of training, including endurance training, resistance training, and concurrent training (a combination of endurance and resistance), can reduce oxidative stress [ 55 ]. The adaptation is mediated by moderate exercise and involves an increase in myocellular antioxidant capacity, which helps to reduce ROS levels. Results from marathoners showed that ROS generation peaked in the middle of the race, but then returned to baseline levels at the finish line, suggesting that an antioxidant defense mechanism may be activated after the run to mitigate oxidative stress [ 56 ]. Furthermore, Sahlin et al. demonstrated in ultra-endurance exercises that exercise increases ROS generation in isolated mitochondria from human muscle in a reversible manner without showing any signs of a harmful vicious cycle [ 57 ]. Using electron spin resonance spectroscopy (ESR) and plasma malonaldehyde (MDA) concentrations, another study investigated the relationship between delayed onset muscle soreness (DOMS), muscle function, and ROS after downhill running in sports performance such as trail running. Although a 15% gradient increased ROS generation, the rise occurred after the peak in DOMS and decreased muscle function, indicating that there may be a temporal decoupling between ROS, the loss of muscle function, and DOMS [ 58 ].
+L33: Continuing from the previous paragraph and specifically related to mountain sports performance, physical training at high altitudes can exacerbate oxidative stress, thereby playing a significant role in ROS generation. Hypobaric hypoxia, in particular, leads to a high number of ROS, resulting in potential tissue damage for mountaineers in the future [ 59 ]. In fact, a recent review has shown that ROS generation not only affects athletes but also a growing number of people who live or work at high altitudes with hypobaric hypoxia. This causes various changes in the body’s physiology, biochemistry, and molecules, leading to the development of hypoxic pulmonary vasoconstriction (HPV), remodeling, and pulmonary hypertension (PH) [ 60 ]. Additionally, hypoxia can activate several sources that produce reactive oxygen species and RNS, resulting in oxidative damage that can affect cellular performance and significantly decrease organ function. Moreover, it appears that both the enzymatic and non-enzymatic antioxidant systems are weakened by high altitudes. Recent findings indicate that the expression of Mn-SOD in the skeletal muscle of mountaineers who spent more than 6 weeks at an altitude of 6000 m dropped considerably one week after leaving the altitude. Furthermore, exposure to high altitudes increased the expression of Ku70, a gene involved in DNA repair, indicating increased DNA damage [ 53 ]. To combat this oxidative stress and maintain the balance between pro-oxidants and antioxidants, the human body has an antioxidant system that may be overwhelmed by increasing ROS levels but can be reinforced with antioxidant supplements [ 61 ]. However, inconsistency in the findings of numerous studies persists, likely due to variations in exercise regimens and assessment techniques for ROS in skeletal muscle.
+L34: 5. Training Adaptation and Reactive Oxygen Species
+L35: 5.1. ROS in the Skeletal Muscle
+L36: Reactive oxygen species (ROS) have conventionally been viewed as harmful constituents; however, it is now recognized that they are compelling signaling molecules that control physiological processes. Mitochondria in skeletal muscle cells typically generate ROS. Various conditions, including instances of strenuous contractile activity, can result in heightened mitochondrial ROS production during exercise [ 62 ]. Specifically, superoxide production in skeletal muscles can rise up to 50–100 times during aerobic exercise contractions [ 63 ]. ROS generated by mitochondria are a constant by-product of cellular metabolism, and their control is crucial for maintaining proper cellular function. Studies have demonstrated an atypical regulation of AMPK by mitochondrial ROS, which preserves cellular metabolic balance by prompting a PGC-1a-mediated antioxidant reaction. This response restricts mitochondrial ROS production and regulates HIF-1a stabilization, thereby enhancing stress tolerance and sustaining metabolic homeostasis [ 64 ].
+L37: However, recent findings indicate that mitochondria may not be the primary source of ROS during exercise, and further investigation is necessary to fully comprehend the involvement of mitochondria in ROS production during skeletal muscle contractions [ 62 ]. The reduced rate of superoxide generation can be attributed to uncoupling proteins, particularly UCP3, in skeletal muscle, which function as regulators of mitochondrial ROS production to prevent oxidative harm to mitochondria [ 65 ]. Additionally, emerging data suggest that mitochondria produce more ROS during state 4 (basal respiration) than during state 3 (maximal ADP-stimulated respiration) [ 66 , 67 ]. As skeletal muscle mitochondria are primarily in state 3 during aerobic contractions, their capacity to produce ROS during contractions is limited [ 66 , 67 ].
+L38: Heat shock proteins (HSPs) are known to play a critical role in safeguarding cells from various stress conditions, with exercise being a primary trigger for HSP expression. This expression can be prompted by a combination of stressors, in which ROS may exert a significant influence, as moderate levels of ROS serve as regulatory mediators in signaling pathways that shield cells from oxidative stress response [ 68 ].
+L39: Several studies have shown that high-intensity physical activity can result in oxidative stress, irrespective of the type of exercise, while other research has observed no significant changes in oxidative stress markers [ 69 ]. Follow-up investigations have investigated the effects of acute exercise and training on the body’s inherent antioxidant defense mechanisms. The findings demonstrate that acute exercise reduces the antioxidant capacity in the immediate post-exercise period but enhances it during the subsequent recovery period. Furthermore, these studies have revealed that physical training reduces ROS production during rest while boosting the body’s inherent antioxidant defense mechanisms [ 69 ].
+L40: Regular exercise not only offers systemic advantages to brain function by altering the cellular redox state but also enhances neurogenesis and cytokine production and reduces the accumulation of oxidative damage [ 53 ].
+L41: 5.2. ROS in Endurance Training
+L42: The involvement of reactive oxygen species in the enhancement of performance- and health-related parameters induced by endurance training has a dual aspect. Endurance training performed regularly is advantageous and provides preventive effects against numerous diseases, delays symptoms of depression and neurodegeneration, and supports healthy aging by promoting mitochondrial biogenesis and oxidative metabolism. However, excessive exercise can hinder the adaptive process, leading to maladaptation and potentially an increased risk of developing diseases [ 70 ]. Investigations using cultured cells have demonstrated that ROS act as a trigger to induce mitochondrial biogenesis and increase the mRNA and protein expression of antioxidant enzymes [ 71 ].
+L43: On the other hand, the results of in vivo studies have been conflicting, and there is no consensus regarding the role of ROS as a trigger. Previous research suggests that ROS are involved in the stimulation of mitochondrial biogenesis induced by endurance training [ 72 ]. Other investigations have indicated that improved insulin sensitivity, as measured by the glucose infusion rate (GIR) and plasma levels of adiponectin, was only observed in the absence of antioxidants following endurance training [ 73 ].
+L44: Alternatively, a human-subject investigation was carried out to examine the impact of the administration of vitamins C and E on glycogen concentration, citrate synthase activity in skeletal muscle, maximal oxygen uptake, and endurance performance in response to endurance training [ 74 ]. The results showed that there was no effect on any of these parameters. Furthermore, the impact of antioxidant administration during rigorous endurance training on the enhancement of insulin-stimulated glucose uptake in healthy individuals was investigated [ 75 ]. The study revealed that the administration of antioxidants did not alter the improvement in glucose uptake induced by training.
+L45: Earlier research sought to examine the impact of training and/or antioxidant supplementation (vitamin E and alpha-lipoic acid) on skeletal muscle adaptations in rats [ 76 ]. Through an enhanced study design, it was discovered that antioxidant supplementation led to a reduction in the overall level of mitochondrial biogenesis, while still permitting the induction of mitochondrial biogenesis induced by endurance training. In essence, although antioxidant supplementation does not impede endurance training-induced mitochondrial biogenesis, it does result in a decrease in the overall level of mitochondrial biogenesis.
+L46: Endurance exercise triggers the activation of numerous intracellular signaling pathways, which promote mitochondrial biogenesis, angiogenesis, and heightened insulin sensitivity [ 77 ]. Earlier research has demonstrated that modifications in intracellular energy and calcium status during exercise function as the principal triggers. Contemporary investigations propose that ROS also serve as a stimulus during exercise. Additionally, the activation of the beta-adrenergic system and elevation of free fatty acid concentration have been identified as supplementary stimuli [ 78 ]. In this line, ultra-endurance exercise boosts the generation of mitochondrial ROS, which is linked to plasma-free fatty acid levels, yet it does not inevitably lead to oxidative harm to mitochondrial proteins [ 79 ].
+L47: To obtain a more comprehensive comprehension of the functions of ROS and antioxidants in exercise-induced adaptations, forthcoming investigations should consider the following suggestions. Initially, it is crucial to acknowledge that there are diverse sites of ROS production, which are reliant on the training conditions, such as intensity, duration, and environmental factors. Consequently, endeavors should be made to pinpoint the locations or compartments of ROS production and the repercussions of antioxidants on the redox status under each exercise condition [ 80 , 81 ]. To achieve this objective, it is advisable to evaluate multiple biomarkers of oxidative stress or redox status across various sites of ROS production. Secondly, it is essential to consider the redundancy of in vivo cellular signaling involved in adaptations induced by endurance training. Thus, forthcoming investigations should assess the relative importance and interconnections of signaling pathways emerging from distinct initial stimuli originating from exercise under every training condition [ 82 ].
+L48: 5.3. Role of Reactive Oxygen Species (ROS) in Resistance Training
+L49: Resistance training (RT) can stimulate an increase in reactive oxygen species (ROS), which may result in muscle damage and fatigue. Antioxidant supplements are commonly ingested to mitigate these adverse effects, but recent studies suggest that ROS also play a significant role in cellular adaptation. Traditionally, the role of ROS in muscle damage and fatigue has been explored in the context of endurance training [ 83 ].
+L50: Consensus holds that heightened production of ROS has detrimental outcomes, as they are known to cause harmful effects. However, it should be acknowledged that ROS also have the ability to stimulate beneficial stress, known as eustress [ 84 ]. Therefore, ROS serve as important signaling molecules in redox regulation [ 85 ]. Nevertheless, uncontrolled and excessive production of ROS can lead to the formation of peroxides and damage cellular components such as proteins, lipids, and DNA [ 84 , 86 ]. In fact, it is believed that an increase in ROS generation is a contributing factor to the onset of degenerative diseases, aging, and muscle wasting [ 87 , 88 ].
+L51: Regarding RT, an 8-week study investigating the impact of endurance training, RT, and concurrent training on antioxidant capacity and oxidative stress markers in untrained individuals concluded that all groups demonstrated significant improvements in superoxide dismutase activity and noteworthy reductions in malondialdehyde levels, indicating that RT (at intensities greater than 50% of 1RM) brings about comparable changes in redox status as endurance training [ 55 ].
+L52: Middle-aged men (aged 53.9 ± 2.3 years) who underwent 21 weeks of resistance training twice a week showed greater upregulation of messenger ribonucleic acid (mRNA) levels of antioxidant enzymes such as catalase, GPX, and SOD compared to those who underwent endurance training [ 89 ]. Chronic resistance training offers protection against oxidative stress independent of training intensity. Both hypertrophy-intensity and strength-intensity training have been found to result in similar reductions in malondialdehyde levels and increases in glutathione levels in young men (aged 22.8 ± 2.7 years) [ 90 ]. These results have also been demonstrated in young, trained individuals [ 91 ], older adults [ 92 ], obese adults [ 93 ], and obese older women [ 94 ]. Sarcopenia, the age-related loss of muscle mass, strength, and function, may be triggered by the accumulation of reactive oxygen species (ROS), which cause oxidative stress and damage to cellular components, while exercise can help to delay or prevent sarcopenia despite increasing mechanical damage and accumulation of free radicals [ 95 ].
+L53: As a result, increasing evidence suggests that reactive oxygen species (ROS) may function as crucial intracellular signaling molecules that promote adaptations induced by resistance training (RT) to enhance cellular tolerance to future stress.
+L54: 6. Reactive Oxygen Species, Antioxidants, and Inflammation
+L55: 6.1. The Effect of Antioxidants on Reactive Oxygen Species in Physical Activity
+L56: Reactive oxygen species (ROS) are natural byproducts of cellular processes, especially during aerobic metabolism, and play a significant role in cell signaling. However, an imbalance between ROS generation and antioxidant presence can result in oxidative stress, leading to cellular and tissue damage, and contributing to various pathological conditions, including inflammation [ 96 ]. In recent years, antioxidant supplements have gained significant attention as a non-invasive approach to mitigate muscle damage, enhance exercise performance, prevent oxidative stress, improve lifespan and performance, and reduce the risk of adverse health effects associated with intense exercise in athletes [ 97 ].
+L57: Achieving an optimal antioxidant status can be achieved by consuming sufficient amounts of minerals and vitamins through a balanced and comprehensive diet that includes antioxidant-rich foods such as fruits, vegetables, and fiber. This approach ensures that antioxidants are present in natural ratios and proportions that can synergistically enhance their antioxidant effect [ 41 , 98 , 99 , 100 ]. Moreover, research has shown that quercetin supplementation may have beneficial effects on inflammation, maximal aerobic capacity, and fatigue during prolonged exercise in untrained but healthy individuals. A seven-day course of quercetin supplementation led to a slight increase in VO2max and a significant increase in ride time to fatigue, suggesting that quercetin may enhance endurance even without exercise training, which could be advantageous for athletic and military performance. Furthermore, the improvement in fitness without exercise training could have broader implications for health promotion and disease prevention [ 101 ].
+L58: Multiple studies conducted worldwide have consistently shown that a diet rich in vegetables, fruits, and legumes, which are abundant sources of antioxidants, is inversely related to inflammatory markers in the blood, including CRP, IL-6, and adhesion factors [ 102 , 103 ]. These findings are supported by another study that investigated adolescents aged 13–17 years and found that a diet rich in fruits and vegetables, which provide antioxidants, folate, and flavonoids, was associated with reduced levels of inflammation markers such as CRP, IL-6, and TNF-α [ 104 ]. Furthermore, a study reported that a three-week intervention with a 300 mg/d anthocyanin extract from blueberries resulted in a significant decrease in plasma concentrations of pro-inflammatory cytokines and chemokines associated with NF-kB signaling pathway activation, including IL-4, IL-13, IL-8, and IFN-a [ 105 ].
+L59: 6.2. The Effect of Antioxidants on ROS and Inflammation in Sports
+L60: Altitude training is a common practice to enhance athletic performance by increasing oxygen-carrying capacity, but it is also associated with increased oxidative stress and inflammation. In a previous study, 31 elite endurance athletes were randomly divided into two groups during a three-week-long altitude training camp at 2320 m. One group consumed antioxidant-rich foods, while the control group consumed eucaloric foods. The results showed that the consumption of antioxidant-rich foods increased the athletes’ antioxidant capacity and partially reduced systemic inflammatory biomarkers associated with altitude training. However, the antioxidant intervention did not affect oxidative stress induced by altitude training or acute cytokine responses to exercise stress tests [ 106 ].
+L61: In contrast, a different study investigating the effects of consuming flavonoid-rich fresh fruit and vegetable juice on various biomarkers in elite sprint and middle-distance swimmers reported different findings. The results showed no significant effect of consuming juice for 10 days on chronic resting and post-exercise inflammation, oxidative stress, immune function, and metabolic profiles, and no significant benefits were observed other than an increase in nutrient intake [ 107 ].
+L62: The effects of different antioxidant supplements on exercise performance, antioxidant capacity, inflammation, and immune changes have been investigated in several studies. In one study, the influence of watermelon intake on exercise performance was studied in cyclists. The results showed that watermelon consumption supported the energy demands of exercise, increased post-exercise levels of nutritional components such as l-citrulline and l-arginine, and improved antioxidant capacity and total nitrate levels. However, it did not have a significant effect on post-exercise inflammation and innate immune function changes [ 108 ].
+L63: Another study investigated the effects of natural pomegranate juice (POMj) supplementation on performance and muscle soreness after weightlifting training sessions in elite weightlifters. The study found that consuming POMj supplementation reduced acute and delayed muscle soreness, inflammation, and damage, and improved the recovery kinetics of biological parameters, ultimately leading to improved weightlifting performance [ 109 ].
+L64: The impact of antioxidant supplements on inflammation was also assessed during intermittent shuttle running over a 6-week period in a study with 38 male participants. The study found that combined vitamin C and E supplementation did not reduce markers of oxidative stress or inflammation nor did it facilitate recovery of muscle function after exercise-induced muscle damage [ 110 ]. Furthermore, a study investigated the effectiveness of vitamin E and C supplementation in alleviating exercise-induced lipid peroxidation and inflammation in runners during a 50 km ultramarathon. The findings showed that markers of inflammation increased significantly in response to the run regardless of the treatment group, although antioxidant supplementation was found to prevent endurance-exercise-induced lipid peroxidation [ 111 ].
+L65: Finally, to assess the impact of a four-week course of antioxidant (AOX) supplementation on exercise-induced lipid peroxidation, muscle damage, and inflammation, kayakers were randomly allocated to receive either a placebo or an AOX capsule in a study with 20 participants. The results suggested that AOX supplementation did not confer protection against exercise-induced lipid peroxidation and inflammation and may impede muscle recovery [ 112 ].
+L66: In general, the efficacy of antioxidant supplements in mitigating inflammation and muscle damage and promoting recovery has yielded inconsistent outcomes due to discrepancies in exercise regimens, study methodologies, and analytical approaches. Further research is needed to better understand the role of antioxidants in exercise performance and recovery.
+L67: 7. Antioxidant Capacity and the Microbiota
+L68: The gut microbiota refers to a group of microorganisms that reside throughout the gastrointestinal tract of mammals from the stomach to the colon. Its capacity is estimated to hold 10^14 cells (10 times the total number of cells in the human body), and yet, authors describe it as a symbiotic super-organism made up of eukaryotic and prokaryotic cells [ 113 ]. Composed of 500–1000 different species, its composition is host-specific, evolving throughout an individual’s life and influenced by both exogenous and endogenous factors. In this line, its composition begins to form at birth and continues to evolve during lactation. Babies delivered vaginally tend to have a more diverse microbiota dominated by Lactobacillus, Prevotella, or Sneathia species, while those born by Cesarean have less diverse microbiota with a predominance of Staphylococcus, Corynebacterium, and Propionibacterium. In childhood, the microbiota adopts the composition of adulthood, in which only 7–9 phyla of the total phyla that make up the Bacteria domain are represented. In the adult microbiota, 90% of the phylotypes belong to the Firmicutes (60–80%) and Bacteroidetes (15–30%) phyla, while the other minority groups belong to Proteobacteria, Actinobacteria, Fusobacteria, and Verrucomicrobia phyla [ 113 ].
+L69: Despite this chronic conformation, there are exogenous factors that can alter its composition, especially in adulthood. For example, stress and imbalanced diets are just two factors that can modify the composition of the gut microbiota, leading to a state of dysbiosis that may have negative effects on overall health [ 114 ]. Therefore, a stable and well-balanced gut microbiota is necessary to be in a state of homeostasis, capable of maximizing the beneficial interactions among its various members and with the host, which will help resist external and internal influences [ 115 ].
+L70: Among the major factors shaping the composition of the gut microbiota, physical activity and nutrition are two of them, with them influencing various mechanisms, such as the release of hormones and the redirection of blood from the gut to the skeletal muscles. In this line, the type, intensity, and duration of physical activity as well as the dietary intake of micro and macronutrients have a potential effect on the gut microbial population, ultimately altering its enzymatic potential and affecting the host’s overall health [ 116 ]. Yet, nutrition is the most powerful modulator.
+L71: In this line, macronutrients would be related to the supply of energy and structural support to the body, while micronutrients, such as vitamins, minerals, and other bioactive compounds, regulate biochemical processes and safeguard against various illnesses. These micronutrients play an important role in counteracting free radicals such as ROS and RONS that cause oxidative stress [ 117 ]. Among them, carotenoids, polyphenols, ascorbic acid, tocopherols, zinc, and selenium are present in food [ 118 ]; yet, supplementation may be necessary, especially in athletes as seen before. In this line, recent studies have shown that the gut microbiota, the microbes present in the intestine, are involved in vital biological processes such as regulating the immune system, nutrient absorption, and protecting against pathogens [ 119 ]. Interestingly, dietary antioxidants have been observed to modulate gut microbes while these same microbes produce useful metabolites by metabolizing the antioxidants. Thus, highlighting the importance and understanding of the interactions between dietary substances and gut microbes to develop therapeutic and preventive strategies targeting the gut microbiota is essential.
+L72: One of the most studied micronutrients is carotenoids, essential for humans because they act as precursors to vitamin A. They can be found in carrots, spinach, corn, tomatoes, and bell peppers, comprising compounds such as β-carotene, α-carotene, β-cryptoxanthin, lutein, zeaxanthin, neoxanthin, capsanthin, bixin, and lycopene. The presence of conjugated double bonds in carotenoids makes them act as antioxidants, which are a significant target of free radicals. In this line, researchers have demonstrated that carotenoids have preventive properties for cancer and several eye disorders, especially lutein and zeaxanthin [ 120 ].
+L73: Studies have shown that the consumption of β-carotene with other antioxidants such as tocopherol and selenium can decrease mortality rates in stomach cancer [ 121 ]. Lycopene, a vital antioxidant compound found in tomatoes, might cut the chance of upper aero-digestive tract cancer [ 122 ]. Astaxanthin consumption could greatly improve the lipid profile, leading to reduced low-density lipoprotein (LDL), cholesterol, and triglyceride levels [ 123 ]. A few studies have explored the interaction of different types of carotenoids with the gut microbiome. A study with a β-carotene oxygenase knockout mouse (C57BL/6 mice) model demonstrated that astaxanthin treatment significantly increased the population of Mucispirillum schaedleri and Akkermansia muciniphila compared to wild-type mice [ 124 ]. Similarly, in another pilot study, the administration of astaxanthin in the diet of β-carotene oxygenase knockout mice altered the gut microbiota, which was different in both genders of mice [ 125 ]. Studies on β-Carotene-15, 15′-oxygenase (BCO1)/β-carotene-9′, 10′-oxygenase (BCO2) double knockout mice models revealed that a meal supplemented with tomato powder boosted the prevalence of helpful microorganisms such as Lactobacillus and Bifidobacterium [ 126 ].
+L74: Other antioxidants largely studied are polyphenols. These are aromatic molecules consisting of phenolic rings and are further classified into various subgroups, including flavonoids, phenolic acids, stilbenes, and lignans [ 127 ]. Major sources of polyphenols are blueberries, raspberries, oranges, onions, soybeans, and green tea leaves. Over the years, polyphenols have been the focus of several epidemiological cohort and case-control-based studies to determine their effects on human health. Researchers suggest that a polyphenol-rich diet may protect against chronic diseases such as cancer, cardiovascular diseases, and inflammatory diseases [ 128 ]. Furthermore, there is a subgroup of polyphenols called flavonoids, which can be classified into various types, including flavonols, flavones, isoflavones, flavanones, anthocyanidins, and flavanols. These molecules exhibit pleiotropic properties, including anti-inflammatory, antiallergenic, antiviral, neuroprotective, cardioprotective, and chemoprotective properties [ 129 ]. Researchers have found that flavonoids scavenge oxygen-free radicals or inhibit the enzyme responsible for producing ROS; thus, the catechol group of flavonoids plays a crucial role in free radical scavenging and antioxidant activity [ 130 ]. Furthermore, anthocyanins, another subgroup of flavonoids possess significant antioxidant activity. Some of the different anthocyanins include delphinidin, petunidin, malvidin, cyanidin, peonidin, and pelargonidin. Researchers attribute them to anticancer, antimicrobial, and protective properties against cardiovascular diseases [ 131 ]. In this line, studies have suggested the effectiveness of anthocyanin-rich diets in significantly reducing fat accumulation in the body, and this could be possible because anthocyanins attenuate the synthesis of lipids in adipose tissue and the liver [ 132 ]. Additionally, studies have shown that consuming antioxidant-rich bilberry extracts significantly reduces blood sugar and increases insulin sensitivity, which is crucial in diabetic conditions [ 133 ].
+L75: Polyphenols also interact with gut microbiomes, and gut microflora plays a vital role in the metabolism of dietary polyphenols. Dietary polyphenols undergo conjugation in the small intestine and are then sent to hepatocytes for phase I and II metabolisms. Water-soluble conjugates of polyphenol molecules travel through the small intestine and the systematic circulation to several organs and are finally excreted through urine. The unabsorbed molecules undergo several enzymatic alterations such as hydrolysis, reduction, dehydroxylation, decarboxylation, demethylation, and ring fission, mainly carried out by gut microbes in the lumen of the large intestine [ 134 ]. Thus, their pleiotropic attributes make them attractive agents for disease prevention and treatment. Their consumption in a diet or throw supplementation may be a useful protection against various chronic diseases. Yet, further research is necessary to determine the specific mechanisms of polyphenols in promoting human health.
+L76: Another largely studied micronutrient with antioxidant properties is vitamin C, also known as ascorbic acid. A water-soluble compound found in fruits such as oranges, lemons, grapefruit, and guava, it plays many roles, including acting as an antioxidant, a cofactor for enzymes, and supporting the immune system [ 135 ]. Indeed, it is essential since it regulates various transcription factors and signaling cascades, especially those related to the immune system and resistance against pathogens [ 136 ]. Its implication related to the gut microbiota is that vitamin C is absorbed from the intestine and stored in cells as ascorbic acid. In this line, pathogenic strains can decompose ascorbic acid, while some bacteria can reduce dehydroascorbic acid to ascorbic acid. Thus, vitamin C can positively modulate the gut microbiota and improve butyrate production, which contributes to restoring gut microbiota homeostasis and immune balance in ethanol-induced liver injury [ 135 ].
+L77: Vitamin E is a compound that includes tocopherols and tocotrienols, which are classified into subgroups based on the placement of methyl groups. Vitamin E is found in wheat germ oil, almonds, avocado, and various nuts [ 137 ]. Vitamin E has non-polar properties and acts as an antioxidant, protecting against free radical activity. Consuming vitamin E, along with vitamins C and carotene, can help protect against cardiovascular diseases. Vitamin E also helps protect against neurodegenerative disorders and cognitive impairment. Vitamin E facilitates the release of prostacyclin, which inhibits platelet aggregation and provides defense against viral infection [ 138 ]. Vitamin E improves immune system function and minimizes infection risk, especially in the elderly. Vitamin E interacts with gut microbes, which could be the reason for the health benefits exhibited by vitamin E. Vitamin E administration can modulate gut microbes and be helpful in colitis treatment. However, an excess amount of vitamin E amendment can increase the population of pathogenic bacteria, leading to various metabolic disorders [ 139 ].
+L78: Zinc is an essential mineral that plays a crucial role in human health. According to the World Health Organization, zinc deficiency affects around 2 billion people and can cause growth retardation, oxidative stress, and inflammation. Zinc is found in various food sources, such as lean meat, eggs, seafood, beans, nuts, and chickpeas. Additionally, zinc has been shown to be effective in treating diarrhea and reducing the duration of the common cold. Zinc’s role in human health is multifaceted [ 140 ]. It competes with iron and copper ions, restricting the development of free radicals that can damage cells. Zinc also promotes the synthesis of antioxidant proteins and enzymes while inhibiting oxidant-promoting enzymes, making it essential for maintaining a healthy immune system [ 141 ]. Supplementation of zinc in older adults has been found to reduce infections, and studies have shown that zinc supplementation can reduce various oxidative stress markers in plasma [ 142 ]. The interaction of zinc with the gut microbiome is an area of growing interest. Studies have shown that dietary zinc has a modulatory effect on gut microbial populations, with zinc-fortified diets increasing the population of beneficial microbes such as Lactobacillus reuteri, Dorea, Clostridiales, Ruminococcus, and Lachnospiraceae [ 143 ]. However, some studies have shown that exposure to zinc can reduce the population of beneficial gut microbes, such as Actinobacteria and Lactobacillus, and disturb the gut microbial community [ 144 ].
+L79: In line with these micronutrients, lastly, we can find selenium, an essential trace element required for the human body’s proper functioning [ 145 ]. This element is primarily found in seafood, cereals, and dairy products. Research studies have shown that seleno-proteins, which require selenium for their synthesis, are effective in reducing the oxidative stress generated by ROS and RONS. Selenium deficiency leads to congestive cardiomyopathy, also known as Keshan disease [ 146 ]. However, selenium is proven to improve the immune system, regulate thyroid hormones, and exhibit anticancer properties [ 147 ]. Apart from the role of selenium in maintaining human health, its interaction with the gut microbiome is an emerging area of research. A recent study has demonstrated that gut microbes play an active role in selenium metabolism [ 148 ]. Various microbes present in the human gut require selenium to express their selenoproteins, and dietary selenium is primarily found in two forms: Se-methionine and selenite [ 149 ]. The digestibility of Se-methionine is higher than selenite, and the absorption and metabolism of Se-methionine occur through the same pathways as methionine. Studies have shown that the gut microbiota-targeted therapeutic diets with polysaccharides are effective in treating obesity and diabetes [ 150 ]. Selenium-rich Cordyceps militaris polysaccharides (Se-CMP) have been shown to decrease serum LDL and increase beneficial gut bacteria such as Akkermansia [ 151 ]. Furthermore, a selenium-rich diet has been shown to increase the richness and diversity of gut microbes and increase beneficial microbial species such as Christensenellaceae, Ruminococcaceae, and Lactobacillus [ 152 ]. The authors of the study also elucidated that the increase in glutathione peroxidase and selenoalbumin after the administration of a selenium-rich diet could be related to the positive changes in gut microflora. These findings suggest that selenium and gut microbes have an active bi-directional interaction [ 153 ].
+L80: 8. Antioxidants and Recovery from Training
+L81: Antioxidants play a crucial role in aiding an athlete’s recovery after training. During exercise, there is increased release of free radicals and reactive oxygen species (ROS) by the body, which can damage cells and cause oxidative stress in tissues [ 154 ]. This rise in ROS has been established as a trigger for muscle damage (DOMS) and reduced performance [ 155 ]. However, ROS is produced in various biological processes and can signal the body’s response to physical activity for proper adaptations [ 156 ].
+L82: Despite the health benefits of physical activity, it can also lead to an increase in oxidative stress, resulting in higher production of free radicals and decreased antioxidant defenses in the body [ 25 ]. High-intensity and eccentric exercises, in particular, have been found to reduce antioxidant defenses and cause muscle damage, leading to DOMS [ 157 ]. However, recent studies have shown that ROS induced by physical exercise can also regulate enzymatic and non-enzymatic antioxidants in the body, protecting against cellular oxidative damage and optimizing signaling for proper muscle adaptation [ 158 ]. Nevertheless, intense physical exercise can also impact the immune and hormonal systems, leading to increased levels of interleukin 6 (IL-6), creatine kinase (CK), glutamic oxaloacetic transaminase (GOT), and glutamic-pyruvic transaminase (GPT) [ 159 ].
+L83: DOMS typically peaks between 24 to 72 h after a workout and gradually subsides within 5 to 7 days [ 160 ]. As a result, athletes have had to adopt strategies to reduce acute muscle damage and hasten recovery for subsequent training sessions. Among the various recovery strategies, antioxidant supplementation has become a common practice among athletes, as these molecules neutralize ROS and help prevent damage [ 161 ]. Ingesting supplements or foods with a high antioxidant content in doses higher than the recommended levels in the days leading up to sports competitions has been reported to prevent or reduce DOMS [ 162 ]. Antioxidants are generally classified as exogenous (such as vitamin C, vitamin E, polyphenols, glutathione, carotenoids, and coenzyme Q10) and endogenous (including plasma proteins, bilirubin, uric acid, and the enzymes superoxide dismutase, glutathione peroxidase, and catalase) [ 161 ]. Numerous studies have investigated the efficacy of antioxidants (from whole natural food sources, antioxidant extracts, or vitamin C and E supplements, among others) in alleviating muscle pain and soreness in various exercise modalities, yielding controversial results.
+L84: In the context of strength training, Ammar et al. [ 109 ] conducted a study that showed an improvement in recovery from oxidative stress with pomegranate juice compared to a placebo after two training sessions involving Olympic exercises (snatch, clean and jerk, and squat). The authors observed a reduction in malondialdehyde (MDA), which is known to have a significant effect on lipid peroxidation and antioxidant parameters. Similarly, Leonardo-Mendoça et al. [ 163 ] found that the supplementation of 100 mg of melatonin per day protected skeletal muscles against oxidative damage in well-trained athletes. This was evident through a reduction in CK, lactate dehydrogenase (LDH), creatinine, and total cholesterol levels after 4 weeks of consumption compared to the placebo.
+L85: In another study, melatonin supplementation of 20 mg per day during two weeks of high-intensity interval training (HIIT) and strength training showed improved antioxidant status in highly trained athletes. This was reflected in increased melatonin levels and glutathione peroxidase activity, as well as reduced muscle DNA damage [ 164 ]. Moreover, Stefan et al. [ 165 ] observed an improvement in perceived muscle recovery and a reduction in serum CK levels after 5 weeks of full-body training exercises in both males and females aged 21 to 65 years following L-carnitine supplementation. Regarding vitamin supplementation, Silva et al. [ 166 ] demonstrated that vitamin E supplementation at a dose of 800 IU of D-α-tocopherol acetate per day for 21 days resulted in significantly lower levels of muscular damage and oxidative stress compared to the control group. This was assessed after three sets of flexion and extension of the elbow on the Scott bench at 2 min intervals until exhaustion. However, there was no significant difference in the inflammatory response (TNF-α and IL-10) between the two groups. Furthermore, de Oliveira et al. [ 167 ] reported that antioxidant vitamin supplementation effectively prevented oxidative stress in soccer athletes through a reduction in malondialdehyde lipid peroxidation, total lipid peroxidation, and the ratio of glutathione to oxidized glutathione after consumption of VitC (500 mg) and VitE (400 IU of α-tocopherol) per day for 15 days. However, this vitamin supplementation did not significantly reduce the plasma CK concentration or DOMS during the recovery days after an acute bout of plyometric jump and strength resistance set to exhaustion. Despite this, a recent systematic review [ 159 ] established that adequate supplementation with antioxidants can help reduce the oxidative stress generated by resistance training.
+L86: In the context of aerobic training, Zhang et al. [ 168 ] conducted a study that showed the positive effects of oats on the body. They found that a daily dose of 20 mg of oats reduced circulatory inflammatory cytokines and CK levels after 8 weeks of downhill running (10% grade with an intensity equivalent to 75% of their maximal heart rate) in active participants. Similarly, Drobnic et al. [ 169 ] observed a decrease in interleukin 8 (IL-8) values, resulting in reduced muscular trauma and moderate pain in the posterior and medial thigh after a downhill run (test on a treadmill at grade -10% at a constant speed with an intensity of aerobic threshold for 45 min), following the consumption of 200 mg of curcumin twice a day for 5 days prior to the test. Another study by He et al. [ 170 ] showed that an antioxidant supplement (100 mg vitamin C and 400 IU vitamin E ingested daily for 2 weeks) reduced muscle soreness in the quadriceps and tibialis anterior, as well as CK levels, and increased activity and oxygen radical absorbance capacity after the first bout of exercise (40 min of downhill running at −10% grade at 65% to 70% VO2max). However, these parameters were not significantly different between the antioxidant and placebo groups in a second session, indicating that antioxidant supplementation did not prevent the adaptation that occurs with repeated sessions. On the other hand, Close et al. [ 171 ] found that ascorbic acid supplementation (1.5 g of ascorbic acid daily for three days before and two days after the trial) did not reduce muscle soreness compared to the placebo group after a bout of exercise designed to cause muscle damage (downhill running on a motorized treadmill for 30 min). However, elevated serum MDA levels were reported in the placebo group only after 72 and 96 h post exercise. Similarly, Kashef et al. [ 172 ] showed that vitamin E supplementation (400 IU per day for 30 days) had no significant effect on the development of DOMS in young men after 10 min of bench leg step ups with both legs. There were no significant differences between the vitamin E and placebo groups in terms of VAS scores and CK and CRP levels.
+L87: Despite the findings mentioned above, different reviews with meta-analyses have concluded that there is little evidence to support the use of antioxidants for preventing or reducing muscle soreness after exercise [ 161 , 173 , 174 ]. This is because the recovery process is a complex phenomenon that can be influenced by many variables, such as differences in the antioxidant dosage, the length of supplementation, the type of participants, or differences in size, body weight, and body composition, which may result in different responses to antioxidant supplementation. Therefore, further research is needed to confirm these findings and investigate the potential long-term effects of antioxidant supplementation on exercise recovery against acute effects.
+L88: 9. The Effect of an Antioxidant Diet on Sports Performance
+L89: Exercise-induced oxidative stress can lead to muscle damage, impaired performance, and fatigue. During exercise, there is an increase in oxygen consumption, resulting in the production of reactive oxygen species (ROS) [ 154 ]. These ROS can cause damage to cells and tissues, leading to oxidative stress. As a result, oxidative stress plays a role in the development of fatigue and may impair performance in athletes. However, antioxidants, which are compounds that can neutralize free radicals and reduce oxidative stress, can have a positive impact on athletic performance. Several studies have examined the impact of antioxidants on various aspects of sports performance, such as endurance, strength, and recovery [ 96 ]. Despite some suggestions in the scientific community that certain antioxidants may have a positive impact on athletic performance, the evidence is not strong enough to make specific recommendations for athletes [ 174 ]. Therefore, implementing an antioxidant-rich diet may reduce oxidative stress and improve exercise performance in this population. However, the optimal dose, duration, and timing of antioxidant supplementation remain unclear, and more research is needed to determine the potential benefits and risks of antioxidant supplementation for athletes [ 161 ].
+L90: One simple and effective way to maintain an antioxidant status that helps reduce the oxidative stress generated by physical exercise is through the addition of foods rich in antioxidants to a balanced diet, such as the Mediterranean diet [ 175 ]. Adhering to a Mediterranean-style diet has been shown to enhance antioxidant defenses, improve lipid profile, and reduce LDL oxidation more than a high-fat diet [ 11 ]. However, there have been limited studies conducted to specifically examine the antioxidant effects of a particular diet on sports performance.
+L91: Therefore, while some evidence suggests that an antioxidant-rich diet may positively impact athletic performance, further research is needed to establish clear recommendations for athletes. It is important to consider various factors such as the type of antioxidant, dosage, duration of supplementation, and timing in relation to exercise, as well as individual differences in size, body weight, and body composition that may influence the response to antioxidant supplementation. In conclusion, while antioxidants may have potential benefits for athletes, more research is needed to fully understand their effects on sports performance and recovery.
+L92: In the context of antioxidant-rich diets, various studies have investigated the effects of specific antioxidant compounds on athletic performance. For instance, Gómez-Cabrera et al. [ 72 ] found that vitamin C supplementation (1 g/day) led to a smaller increase in muscle mitochondrial biogenesis and a smaller improvement in endurance performance compared to placebo after an 8-week supervised resistance training program on a cycle ergometer. However, Braakhuis et al. [ 176 ] reported that blackcurrant (BC) juice (15 mg VC, 300 mg anthocyanins) slightly increased the maximum running speed in an incremental trial more than vitamin C (1 g) alone and the placebo after 3 weeks of high-intensity training. Similarly, Aguiló et al. [ 177 ] demonstrated that 90 days of supplementation with antioxidants (500 mg/day of vitamin E, 30 mg/day of β-carotene, and 1 g/day of vitamin C in the last 15 days) resulted in a significant improvement in aerobic performance (7.2% increase in VO 2  max) and a lower peak blood lactate concentration compared to the placebo group after a maximal exercise test on a cycle ergometer. However, Paulsen et al. [ 178 ] reported that vitamin C and E supplements (1000 mg and 235 mg for 11 weeks, respectively) had less improvement in endurance performance compared to the placebo, suggesting that high doses of vitamins may interfere with cellular adaptations that occur in response to endurance training, particularly in the muscles ( Table 1 ). Hence, athletes should be cautious about high doses of antioxidant supplements, as they may potentially decrease performance, as reported in various studies [ 96 ].
+L93: In the case of quercetin, Daneshvar et al. [ 179 ] showed that supplementation with 1000 mg of quercetin per day for eight weeks resulted in significant improvements in exercise performance (a 5.2% increase in cycle time in an incremental trial) compared to the placebo in male badminton players. Similarly, MacRae et al. [ 180 ] found that a combination of quercetin and antioxidant supplements led to a significant improvement in cycling time trial performance compared to the placebo, quercetin alone, or isolated antioxidants in elite male cyclists. However, Darvishi et al. [ 181 ] reported no significant difference in swim performance or body composition between the quercetin supplementation group (1000 mg) and the placebo group in female swimmers. Additionally, the supplementation of 1000 mg of quercetin per day for 1 week did not show significant differences in VO 2  max and race time relative to the placebo in the untrained participants [ 182 ].
+L94: In relation to resveratrol, there have been limited studies conducted in human models compared to animal models, and the effects of this supplement on performance parameters remain controversial [ 11 ]. For instance, Gliemann et al. [ 183 ] found that exercise training combined with resveratrol supplementation (250 mg per week for 8 weeks) did not result in the same magnitude of improvement in performance and health parameters (such as maximal oxygen uptake, blood pressure, and cholesterol levels) as exercise alone in elderly untrained males.
+L95: As for beetroot juice, Wylie et al. [ 184 ] reported that supplementation with 140 mL of beetroot juice resulted in significant increases in plasma nitrite levels compared to a placebo. Moreover, beetroot juice also led to a significant increase in power output during the last 10 min of an incremental cycle ergometer test in young men. Similarly, Lansley et al. [ 185 ] investigated the effect of beetroot juice consumed 2.5 h prior to completing a 4 km cycling time trial in elite male cyclists. The authors found that the cyclists completed the time trial significantly faster after consuming the beetroot juice supplement compared to the placebo supplement. The average power output during the time trial was also significantly higher after consuming the beetroot juice supplement. Furthermore, Wylie et al. [ 186 ] demonstrated that the group consuming nitrate-rich beetroot juice (280 mL per day for 2 days) had significantly improved performance compared to the placebo group. Specifically, the nitrate supplementation led to an increase in the distance covered in a Yo-Yo Intermittent Recovery Level 1 test in team sport players. However, Hoon et al. [ 187 ] reported in their meta-analysis that nitrate supplementation might have a beneficial effect in non-athletes but concluded that athletes do not respond to this supplementation.
+L96: 10. The Effect of Antioxidant Supplementation on Sports Performance
+L97: Antioxidant supplementation has been widely used in sports to improve performance and prevent cell and tissue damage caused by oxidative stress during intense exercise [ 13 ]. During intense exercise, there is an increase in free radical production, which can contribute to muscle damage and fatigue [ 188 ]. Antioxidant supplementation may help counteract this effect by neutralizing free radicals and protecting cells and tissues. However, the results of studies in this area are mixed and inconclusive, with some sports showing benefits in antioxidant capacity and a reduction in muscle damage and inflammation, while others do not [ 188 ].
+L98: One of the most extensively studied antioxidants is vitamin C. Vitamin C supplementation has been suggested to improve athletic performance due to its antioxidant effects, its ability to regenerate other antioxidants, and its potential to improve immune function [ 13 ]. Some studies have found that vitamin C supplementation may improve antioxidant capacity, reduce muscle damage, and reduce inflammation in athletes [ 12 ]. However, the results are mixed and further studies are needed to fully assess the effect of vitamin C supplementation on exercise performance. For example, one study concluded that vitamin C may have a positive antioxidant effect but does not directly improve athletic performance in marathon runners [ 176 ]. Similarly, it has been shown that vitamin C supplementation does not improve performance in terms of race time or speed in long-distance cyclists. However, cyclists who took vitamin C experienced a significant reduction in muscle damage and inflammation after exercise [ 189 ]. On the other hand, vitamin C supplementation has been found to significantly reduce muscle damage and inflammation after exercise and may help improve muscle recovery after intense exercise [ 12 ].
+L99: Vitamin E supplementation may also be an effective strategy for improving athletic performance and reducing the oxidative stress associated with intense exercise. Vitamin E acts as an antioxidant, reducing oxidative damage to muscle cells and improving immune function and the regulation of lipid metabolism [ 190 ]. Overall, vitamin E supplementation appears to have a beneficial effect on exercise performance by reducing oxidative stress and muscle damage after exercise [ 13 ]. However, the results are mixed and further studies are needed to determine the exact effects of vitamin E supplementation in different sports and populations. For example, a meta-analysis of 22 trials found that vitamin E supplementation significantly improved exercise performance compared to a placebo [ 191 ]. Vitamin E supplementation was also associated with a reduction in inflammation and soreness after exercise [ 191 ]. In a study of endurance athletes, vitamin E supplementation for 8 weeks significantly increased antioxidant capacity and reduced muscle damage after exercise [ 72 ]. Another study in cyclists found that vitamin E supplementation for 4 weeks improved performance in an endurance test [ 192 ]. However, some studies have found no significant benefit of vitamin E supplementation on exercise performance, such as a study of football players which found no significant differences in performance after 8 weeks of vitamin E supplementation [ 193 ].  Table 2  shows the content of vitamin E in some foods.
+L100: There are several polyphenolic compounds found in various foods that have been studied for their potential effects on athletic performance. Resveratrol, found in grapes, blueberries, and peanuts, acts as an antioxidant, reducing oxidative damage to muscle cells and improving mitochondrial function, which is crucial for energy production and muscle function [ 194 ]. Some studies suggest that resveratrol supplementation may have beneficial effects on athletic performance by improving antioxidant capacity and reducing muscle damage, although the results may not be consistent across all studies or sports [ 195 ]. For example, a study in rats found that resveratrol supplementation improved performance in a swimming test and reduced oxidative stress in muscles [ 196 ], while another study in humans found that resveratrol supplementation improved plasma antioxidant capacity and reduced muscle damage after high-intensity exercise [ 197 ]. However, other studies have found no significant effect of resveratrol supplementation on exercise performance, such as one study of elite cyclists that found no improvement in a long-duration endurance test [ 198 ] and another study in football players that found no significant effect on physical or cognitive performance [ 199 ].
+L101: CoQ10, another compound with potential performance-enhancing effects, may improve athletic performance due to its antioxidant and energetic properties. CoQ10 plays a role in the mitochondrial electron transport chain, and studies suggest that supplementation may improve exercise capacity, reduce oxidative stress, shorten running time, and improve muscle recovery in athletes [ 195 ]. For example, a study of marathon runners found that CoQ10 supplementation reduced muscle damage and improved plasma antioxidant capacity after the race [ 200 ], and another study of elite cyclists found that CoQ10 supplementation improved performance in a long-duration endurance test [ 201 ]. In addition to its antioxidant effects, CoQ10 has also been proposed to enhance athletic performance by improving mitochondrial function and energy production. A pilot study of swimmers showed that CoQ10 supplementation improved energy efficiency during exercise and reduced muscle fatigue [ 202 ]. However, other studies have found no significant effect of CoQ10 supplementation on exercise performance, such as one study of swimmers that found no significant difference in performance after 18 sessions of CoQ10 supplementation [ 203 ], and another study in cyclists that found no significant effect on performance during a short endurance event [ 204 , 205 ].
+L102: Selenium, as a cofactor for glutathione peroxidase and its role in protein synthesis and the immune response, has been studied for its potential effects on athletic performance. While there is evidence to suggest that selenium supplementation may have beneficial antioxidant effects in the body, which could help improve the antioxidant response and reduce muscle damage and inflammation after intense exercise, there is no conclusive evidence that selenium supplementation directly improves exercise performance [ 206 ]. For example, one study showed that selenium supplementation improved antioxidant response in endurance athletes but did not result in significant improvements in performance [ 174 ], while another study showed improved thyroid function and antioxidant response in endurance athletes, but no significant improvements in exercise performance [ 207 ]. A recent study demonstrated improved muscle recovery after intense exercise through reduced muscle damage and inflammation [ 206 ]. However, more research is needed to determine the long-term effects of selenium supplementation on exercise performance and overall health.
+L103: Curcumin, known for its antioxidant effects and its potential to improve mitochondrial function and ATP production, has also been studied for its effects on athletic performance. Studies suggest that curcumin supplementation may improve exercise capacity, reduce oxidative stress, and reduce exercise-induced muscle soreness in athletes [ 208 ]. For example, one study showed that curcumin supplementation significantly reduced levels of muscle damage and inflammation after endurance exercise in young men, suggesting an antioxidant and anti-inflammatory effect [ 209 ]. Another study demonstrated that curcumin supplementation improved performance in terms of the distance covered and time taken during endurance exercise in cyclists compared to a placebo [ 169 ]. Furthermore, another study showed that curcumin supplementation significantly reduced levels of muscle damage and inflammation after endurance exercise in young women, indicating its potential antioxidant and anti-inflammatory effects. Additionally, curcumin supplementation was found to significantly improve performance in terms of time spent during endurance exercise when compared to a placebo [ 210 ].
+L104: In general, antioxidants such as vitamin C, vitamin E, resveratrol, coenzyme Q10, selenium, and curcumin have been shown to have positive effects on health and exercise performance. These antioxidants can help reduce inflammation, protect cells from oxidative damage, and improve muscle recovery after intense exercise. However, the specific effects may vary depending on the type of exercise, the dose and duration of supplementation, and individual characteristics. It is important to note that antioxidant supplementation should not replace a balanced diet and adequate hydration. Additionally, antioxidant supplementation should be individualized and supervised by a health professional, especially in people with chronic diseases or who are taking other medications.
+L105: 11. Key Points and Strategies for Antioxidant Supplementation in Sports Competitions
+L106: 11.1. Vitamin C
+L107: Vitamin C supplementation is widely used among athletes due to its antioxidant effects and potential to improve muscle recovery after intense exercise. The recommended dose of vitamin C for athletes varies depending on the duration and intensity of exercise. Typically, a daily dose of 500 to 2000 mg of vitamin C is recommended for maintaining good health and reducing oxidative stress. However, some studies suggest that higher doses (up to 3 g/day) may be beneficial for athletes who engage in intense and prolonged exercise, such as marathons, to prevent muscle damage and improve recovery [ 178 ]. Research also suggests that the timing of vitamin C supplementation may play a role in its effectiveness. Pre-exercise vitamin C supplementation has been shown to reduce exercise-induced muscle damage and inflammation [ 72 ]. On the other hand, post-exercise vitamin C supplementation may improve muscle recovery and reduce soreness [ 171 ]. The duration of vitamin C treatment in athletes varies based on training goals and individual needs. Generally, it is recommended to take vitamin C continuously for several weeks prior to competition to reduce oxidative stress and improve muscle recovery. Some studies suggest that vitamin C supplementation for 4–6 weeks prior to competition may enhance performance in high-intensity, short-duration exercise [ 176 ].
+L108: In conclusion, vitamin C supplementation in athletes may be beneficial in reducing oxidative stress and improving muscle recovery after intense exercise. Recommended doses may vary depending on the duration and intensity of exercise, and the timing of supplementation, either before or after exercise, may influence its effectiveness. The duration of treatment should be tailored according to training goals and individual needs. It is important to consult with a healthcare professional for personalized recommendations and to closely monitor for any potential side effects.
+L109: 11.2. Vitamin E
+L110: Vitamin E supplementation in athletes has been studied for its potential effect in preventing exercise-induced muscle damage and improving athletic performance. The recommended dose of vitamin E supplementation for athletes varies depending on the duration and intensity of exercise and should not exceed 1000 IU per day to avoid possible adverse effects, such as reducing the body’s ability to clot blood. Vitamin E supplements can be taken before and after exercise. In one study, athletes were given 400 IU of vitamin E for 5 days before long-distance running, and supplementation was found to reduce the amount of DNA and protein oxidation products in skeletal muscle after exercise [ 211 ]. In another study, a single dose of 800 IU of vitamin E was given to subjects 30 min before endurance exercise, and a significant reduction in the levels of markers of muscle damage was observed compared with the placebo group [ 212 ]. The duration of vitamin E supplementation varies from study to study, with athletes receiving 400 IU of vitamin E for 5 days in one study [ 211 ], while in another study, a single dose of 800 IU of vitamin E was administered [ 212 ]. In conclusion, vitamin E supplementation may have beneficial effects in preventing exercise-induced muscle damage and improving athletic performance in athletes. However, the recommended dose of vitamin E supplementation varies according to the duration and intensity of exercise, and care should be taken not to exceed 1000 IU per day to avoid potential adverse effects. In addition, the duration of supplementation also varies from study to study, although it is generally recommended that vitamin E supplementation should be acute rather than chronic. More research is needed to better understand the role of vitamin E in health and exercise performance.
+L111: 11.3. Resveratrol
+L112: Resveratrol is a polyphenol found in certain foods such as grapes, blueberries, and walnuts and has been studied for its potential to improve athletic performance through its antioxidant and anti-inflammatory effects. The recommended dose of resveratrol for improving athletic performance varies from study to study, but a daily dose of 250–500 mg has generally been used [ 213 ]. Resveratrol supplementation has been used in both the pre-competition and recovery phases. The duration of supplementation with resveratrol to improve athletic performance varies from study to study, but generally a duration of four to eight weeks has been used [ 214 ]. In conclusion, resveratrol supplementation may improve athletic performance through its antioxidant and anti-inflammatory effects. A daily dose of 250–500 mg is recommended for four to eight weeks, both in the pre-competition and recovery phases. However, further studies are needed to confirm these effects and to determine the optimal dose and duration of resveratrol supplementation in athletes.
+L113: 11.4. Coenzyme Q10
+L114: CoQ10 supplementation has been shown to have positive effects on cardiovascular function, brain health, and antioxidant protection. Some studies have also investigated its potential effects on exercise performance in athletes. The recommended dose of CoQ10 varies from study to study, but a daily dose of 100–300 mg has generally been used to improve performance in athletes [ 215 ]. CoQ10 supplementation has been used in both the pre-competition and recovery phases and has been shown to be effective in both phases [ 215 ]. The duration of treatment also varies from study to study, but generally a duration of 4–12 weeks has been used [ 215 ]. A study investigated the effects of CoQ10 supplementation in elite Japanese kendo athletes. The participants were given 300 mg of CoQ10 daily for 20 days. Significant reductions in muscle damage and improvements in performance were observed compared to the control group [ 216 ]. Another study looked at the effects of CoQ10 supplementation in untrained males and females. The participants were given 100 mg of CoQ10 daily for 14 days before undergoing different tests [ 201 ]. Significant improvements in time to exhaustion and reductions in muscle damage were observed compared to the control group.
+L115: In conclusion, CoQ10 supplementation may improve athletic performance and reduce muscle damage. The recommended dose varies from study to study, but generally a daily dose of 100–300 mg for 4–12 weeks has been used, and supplementation can be taken in both the pre-competition and recovery phases.
+L116: 11.5. Selenium
+L117: Selenium is an essential trace element for human health and plays an important role in the body’s antioxidant function. Selenium supplementation has been shown to improve general health and may have specific benefits for athletes. The recommended dose of selenium for athletes varies from study to study, but a daily dose of 200–400 mcg has generally been used. A recent systematic review and meta-analysis concluded that selenium supplementation at doses between 100–400 mcg/day may improve athletic performance in terms of aerobic capacity and muscle strength [ 206 ]. Selenium supplementation has been administered at various times, including before exercise, during exercise, and after exercise. The duration of selenium treatment also varies from trial to trial, but generally 4–12 weeks has been used. In general, selenium supplementation can be beneficial for athletes, but it is important to note that excess selenium can be toxic. It is recommended that daily doses do not exceed 400 mcg to avoid potential adverse effects [ 217 ].
+L118: 11.6. Curcumin
+L119: Curcumin, a bioactive compound found in turmeric, has been extensively studied for its anti-inflammatory and antioxidant properties, making it a potential athletic-performance-enhancing supplement. The recommended dosage of curcumin for athletes varies depending on the purpose of supplementation. To reduce muscle soreness and improve recovery, doses of 400–500 mg of curcumin twice daily have been used. To improve athletic performance, doses of 90–500 mg of curcumin per day have been used [ 208 ]. Its supplementation can be taken either before or after exercise. Pre-exercise supplementation has been shown to reduce exercise-induced muscle inflammation and soreness [ 169 ]. Post-exercise supplementation may improve muscle recovery and reduce muscle soreness [ 218 ]. The duration of curcumin supplementation depends on the purpose of the supplementation. For reducing muscle soreness and improving recovery, treatments of 4–12 weeks have been used. Treatments of 2–8 weeks have been used to improve athletic performance [ 208 ]. In this line, a study investigated the effects of curcumin supplementation in women with moderate physical activity levels. The participants received 500 mg/day of curcumin for 8 weeks, and a significant reduction in muscle soreness and improved recovery was observed compared to the placebo group [ 219 ]. Another study investigated the effects of curcumin supplementation in healthy, moderately active men. The participants received 200 mg of curcumin twice daily for 2 days before and 1 day after an eccentric muscle injury protocol. A significant reduction in levels of inflammatory markers and muscle soreness was observed compared to the placebo group [ 169 ].
+L120: In conclusion, curcumin supplementation may be beneficial in reducing muscle soreness, improving recovery, and possibly improving athletic performance in athletes. Recommended doses vary depending on the purpose of supplementation, but doses of 400–500 mg twice daily have been used to reduce muscle soreness and improve recovery, and doses of 90–500 mg daily have been used to improve exercise performance. Supplementation can be taken either before or after exercise, and the duration of treatment varies depending on the purpose of supplementation, but 4–12-week courses have been used to reduce muscle soreness and improve recovery, and 2–8-week courses have been used to improve sports performance.
+L121: 11.7. Omega-3
+L122: Omega-3 fatty acids, particularly eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), are known for their anti-inflammatory and antioxidant properties, making them a potential supplement for athletes. Oxidative stress, which occurs when there is an imbalance between the production of reactive oxygen species (ROS) and the body’s ability to remove them, can negatively impact athletic performance and recovery. Omega-3s can help reduce oxidative stress in athletes, thereby improving their performance and recovery. The recommended dose of omega-3s for athletes varies between 1 and 5 g per day of EPA and DHA combined, with a daily dose of 3 g appearing to be effective in reducing inflammation and oxidative stress in athletes [ 220 ]. Omega-3 supplementation can be used both in the pre-competition phase and in the recovery phase. A study showed that omega-3 supplementation for 6 weeks prior to an endurance event improved performance and reduced inflammation [ 221 ]. The duration of omega-3 supplementation varies between 4 and 12 weeks, depending on the study and the purpose of the supplementation, with 4 weeks of supplementation generally being sufficient to improve recovery and reduce oxidative stress in athletes [ 220 ].
+L123: In general, omega-3 supplementation may be an effective strategy to reduce oxidative stress in athletes and improve their performance and recovery, with a daily dose of 3 g of EPA and DHA combined for 4 weeks appearing to be sufficient to provide significant benefits. However, it is important to note that, as with any supplement, consulting a health professional before starting omega-3 supplementation is recommended.
+L124: 11.8. Zinc
+L125: Zinc, an essential micronutrient, plays a crucial role in maintaining good health and athletic performance. It acts as an antioxidant by neutralizing free radicals and reducing oxidative stress. Zinc also regulates the immune system and protein synthesis, which can aid in muscle recovery after intense exercise. The recommended dose of zinc for athletes varies depending on the type of sport and the duration and intensity of exercise. Studies have shown that a daily dose of 15–30 mg of zinc can improve antioxidant status and reduce oxidative stress in athletes [ 222 ]. However, higher doses may not be beneficial and can have adverse health effects, such as immune system suppression and reduced nutrient absorption [ 223 ]. The timing of supplementation may also be important, with some studies suggesting that pre-exercise supplementation may be more effective in reducing oxidative stress compared to during or after exercise [ 222 ]. Additionally, the duration of treatment may play a role, as zinc supplementation for at least 4–6 weeks has been shown to improve antioxidant status in athletes [ 224 ].
+L126: In conclusion, zinc supplementation may have beneficial effects in reducing oxidative stress and improving exercise performance under certain conditions [ 222 ]. Effective doses vary among studies, but generally, daily doses of 15–30 mg of zinc have been used. Pre-exercise supplementation appears to be more effective, although the optimal duration of treatment is still being researched, with varying ranges of 4–12 weeks. It is important to note that excessive zinc supplementation can be toxic, and it is recommended not to exceed the recommended daily intake of 40 mg. Therefore, finding the balance between an effective dose and a toxic dose should be considered when supplementing zinc in athletes.
+L127: 11.9. Glutathione
+L128: Glutathione, an endogenous antioxidant produced by the body and found in various cells, including skeletal muscle cells, has been studied for its effects on oxidative stress and exercise performance. Interestingly, the effective dose of glutathione appears to depend on the method of administration. In one study, oral supplementation with 450 mg of glutathione per day for 3 weeks improved antioxidant status [ 225 ]. On the other hand, another study showed that intravenous administration of a single acute dose of 3000 mg/day of glutathione improved total antioxidant capacity [ 226 ]. Additionally, a study using a daily dose of 1000 mg for three weeks found a reduction in serum levels of oxidative stress markers [ 227 ]. However, more studies are needed to determine the optimal dose of glutathione to improve athletic performance and reduce oxidative stress.
+L129: The timing of glutathione supplementation may also be important, but evidence suggests that it can be taken acutely or chronically (up to 4–6 weeks) [ 225 ]. Further studies are needed to determine the optimal duration of glutathione supplementation. Moreover, more research is required to investigate the different types of glutathione and their absorption and bioavailability in the body.
+L130: In general, while glutathione supplementation has shown some beneficial effects in reducing oxidative stress and improving athletic performance, the results are inconsistent, and more research is needed to determine the effective dose, the timing of supplementation, and the duration of treatment. It is important to continue studying glutathione supplementation to better understand its potential benefits for athletes. Similarly, N-acetylcysteine (NAC) has been used as a precursor of glutathione to potentially enhance performance in elite sports, but concerns about its side effects with high doses have been raised [ 228 ]. The scientific literature suggests that NAC supplementation in the range of 1.2–20 g/day, whether taken acutely or over several weeks, can produce performance effects that vary from beneficial to trivial or even detrimental, and the true performance effect of NAC remains unclear. Additionally, the extent to which NAC may cause side effects is not fully understood, although doses greater than 5 g may be associated with more side effects than doses less than 2 g. Therefore, further research on NAC supplementation and its effects on athletic performance is needed before definitive conclusions can be made [ 228 ].
+L131: In general terms, it has been observed that supplementation with combinations of antioxidants can be effective in improving antioxidant protection and reducing oxidative stress in athletes and the general population, potentially leading to improved athletic performance [ 229 , 230 ]. However, it is important to note that the effects may vary depending on the type of sport and the level of training, and it is recommended to consult a healthcare professional before starting any type of supplementation [ 231 , 232 , 233 ].
+L132: 12. Practical Applications
+L133: This review provides valuable insights for the practical application of sports performance and understanding the actions of supplements that attenuate and regulate the effects of reactive oxygen species (ROS). Specifically, it helps to comprehend performance from a holistic perspective, including microbiology and the relationship between antioxidant capacity and the microbiota, as well as the potential benefits of an antioxidant-rich diet and antioxidant supplementation for sports performance. As such, this review may lead to the implementation of new working methods and dietary protocols in sports teams aiming to improve performance.
+L134: 13. Conclusions
+L135: There is growing evidence suggesting that ROS production during physical activity greatly influences sports performance. This review concludes that ROS plays a critical role in the processes of training adaptation induced by resistance training, through a reduction in inflammatory mediators and oxidative stress, as well as appropriate molecular signaling. Additionally, it has been established that micronutrients play an important role in counteracting free radicals, such as reactive oxygen species, which cause oxidative stress, and the effects of antioxidants on recovery, sports performance, and strategies for using antioxidant supplements, such as vitamin C, vitamin E, resveratrol, coenzyme Q10, selenium, and curcumin, to enhance physical and mental well-being.
+L136: Figure 1 Response against ROS in trained and untrained individuals.
+L137: Figure 2 ROS and antioxidant response in sports performance.
+L138: 1. Pisoschi A.M. 
+L139:  Pop A. 
+L140:  The Role of Antioxidants in the Chemistry of Oxidative Stress: A Review Eur. J. Med. Chem. 2015 97 55 74 10.1016/j.ejmech.2015.04.040 25942353
+L141: 2. Pan M. 
+L142:  Liu K. 
+L143:  Yang J. 
+L144:  Liu S. 
+L145:  Wang S. 
+L146:  Wang S. 
+L147:  Advances on Food-Derived Peptidic Antioxidants—A Review Antioxidants 2020 9 799 10.3390/antiox9090799 32867173
+L148: 3. Clarkson P.M. 
+L149:  Antioxidants and Physical Performance Crit. Rev. Food Sci. Nutr. 1995 35 131 141 10.1080/10408399509527692 7748472
+L150: 4. De Sousa C.V. 
+L151:  Sales M.M. 
+L152:  Rosa T.S. 
+L153:  Lewis J.E. 
+L154:  de Andrade R.V. 
+L155:  Simões H.G. 
+L156:  The Antioxidant Effect of Exercise: A Systematic Review and Meta-Analysis Sports Med. 2017 47 277 293 10.1007/s40279-016-0566-1 27260682
+L157: 5. McClean C. 
+L158:  Davison G.W. 
+L159:  Circadian Clocks, Redox Homeostasis, and Exercise: Time to Connect the Dots? Antioxidants 2022 11 256 10.3390/antiox11020256 35204138
+L160: 6. Li S. 
+L161:  Fasipe B. 
+L162:  Laher I. 
+L163:  Potential Harms of Supplementation with High Doses of Antioxidants in Athletes J. Exerc. Sci. Fit. 2022 20 269 275 10.1016/j.jesf.2022.06.001 35812825
+L164: 7. Novel Training and Other Strategies for Sport Performance at the 2011 ACSM Annual Meeting Available online:  http://www.sportsci.org/2011/wghACSM.htm (accessed on 3 April 2023)
+L165: 8. Bustamante-Sanchez A. 
+L166:  Villegas-Mora B.E. 
+L167:  Martínez-Guardado I. 
+L168:  Tornero-Aguilera J.F. 
+L169:  Ardigò L.P. 
+L170:  Nobari H. 
+L171:  Clemente-Suárez V.J. 
+L172:  Physical Activity and Nutritional Pattern Related to Maturation and Development Sustainability 2022 14 16958 10.3390/su142416958
+L173: 9. Margaritelis N.V. 
+L174:  Paschalis V. 
+L175:  Theodorou A.A. 
+L176:  Kyparos A. 
+L177:  Nikolaidis M.G. 
+L178:  Redox Basis of Exercise Physiology Redox Biol. 2020 35 101499 10.1016/j.redox.2020.101499 32192916
+L179: 10. Williamson J. 
+L180:  Davison G. 
+L181:  Targeted Antioxidants in Exercise-Induced Mitochondrial Oxidative Stress: Emphasis on DNA Damage Antioxidants 2020 9 1142 10.3390/antiox9111142 33213007
+L182: 11. Braakhuis A.J. 
+L183:  Hopkins W.G. 
+L184:  Impact of Dietary Antioxidants on Sport Performance: A Review Sports Med. 2015 45 939 955 10.1007/s40279-015-0323-x 25790792
+L185: 12. Righi N.C. 
+L186:  Schuch F.B. 
+L187:  De Nardi A.T. 
+L188:  Pippi C.M. 
+L189:  de Almeida Righi G. 
+L190:  Puntel G.O. 
+L191:  da Silva A.M.V. 
+L192:  Signori L.U. 
+L193:  Effects of Vitamin C on Oxidative Stress, Inflammation, Muscle Soreness, and Strength Following Acute Exercise: Meta-Analyses of Randomized Clinical Trials Eur. J. Nutr. 2020 59 2827 2839 10.1007/s00394-020-02215-2 32162041
+L194: 13. Higgins M.R. 
+L195:  Izadi A. 
+L196:  Kaviani M. 
+L197:  Antioxidants and Exercise Performance: With a Focus on Vitamin E and C Supplementation Int. J. Env. Res. Public. Health 2020 17 8452 10.3390/ijerph17228452 33203106
+L198: 14. Elejalde E. 
+L199:  Villarán M.C. 
+L200:  Alonso R.M. 
+L201:  Grape Polyphenols Supplementation for Exercise-Induced Oxidative Stress J. Int. Soc. Sports Nutr. 2021 18 3 10.1186/s12970-020-00395-0 33413451
+L202: 15. Harper S.A. 
+L203:  Bassler J.R. 
+L204:  Peramsetty S. 
+L205:  Yang Y. 
+L206:  Roberts L.M. 
+L207:  Drummer D. 
+L208:  Mankowski R.T. 
+L209:  Leeuwenburgh C. 
+L210:  Ricart K. 
+L211:  Patel R.P. 
+L212:  
+L213:  Resveratrol and Exercise Combined to Treat Functional Limitations in Late Life: A Pilot Randomized Controlled Trial Exp. Gerontol. 2021 143 111111 10.1016/j.exger.2020.111111 33068691
+L214: 16. Jones L. 
+L215:  Bailey S.J. 
+L216:  Rowland S.N. 
+L217:  Alsharif N. 
+L218:  Shannon O.M. 
+L219:  Clifford T. 
+L220:  The Effect of Nitrate-Rich Beetroot Juice on Markers of Exercise-Induced Muscle Damage: A Systematic Review and Meta-Analysis of Human Intervention Trials J. Diet. Suppl. 2022 19 749 771 10.1080/19390211.2021.1939472 34151694
+L221: 17. Antioxidant, Anti-Inflammatory and Immunomodulatory Effects of Spirulina in Exercise and Sport: A Systematic Review—PubMed Available online:  https://pubmed.ncbi.nlm.nih.gov/36590230/ (accessed on 3 April 2023)
+L222: 18. Mason S.A. 
+L223:  Trewin A.J. 
+L224:  Parker L. 
+L225:  Wadley G.D. 
+L226:  Antioxidant Supplements and Endurance Exercise: Current Evidence and Mechanistic Insights Redox Biol. 2020 35 101471 10.1016/j.redox.2020.101471 32127289
+L227: 19. Steinbacher P. 
+L228:  Eckl P. 
+L229:  Impact of Oxidative Stress on Exercising Skeletal Muscle Biomolecules 2015 5 356 377 10.3390/biom5020356 25866921
+L230: 20. Sakellariou G.K. 
+L231:  Vasilaki A. 
+L232:  Palomero J. 
+L233:  Kayani A. 
+L234:  Zibrik L. 
+L235:  McArdle A. 
+L236:  Jackson M.J. 
+L237:  Studies of Mitochondrial and Nonmitochondrial Sources Implicate Nicotinamide Adenine Dinucleotide Phosphate Oxidase(s) in the Increased Skeletal Muscle Superoxide Generation That Occurs during Contractile Activity Antioxid. Redox Signal. 2013 18 603 621 10.1089/ars.2012.4623 23050834
+L238: 21. He F. 
+L239:  Li J. 
+L240:  Liu Z. 
+L241:  Chuang C.-C. 
+L242:  Yang W. 
+L243:  Zuo L. 
+L244:  Redox Mechanism of Reactive Oxygen Species in Exercise Front. Physiol. 2016 7 486 10.3389/fphys.2016.00486 27872595
+L245: 22. Gomez-Cabrera M.C. 
+L246:  Close G.L. 
+L247:  Kayani A. 
+L248:  McArdle A. 
+L249:  Viña J. 
+L250:  Jackson M.J. 
+L251:  Effect of Xanthine Oxidase-Generated Extracellular Superoxide on Skeletal Muscle Force Generation Am. J. Physiol. Regul. Integr. Comp. Physiol. 2010 298 R2-8 10.1152/ajpregu.00142.2009 19828843
+L252: 23. Russell E.G. 
+L253:  Cotter T.G. 
+L254:  New Insight into the Role of Reactive Oxygen Species (ROS) in Cellular Signal-Transduction Processes Int. Rev. Cell Mol. Biol. 2015 319 221 254 10.1016/bs.ircmb.2015.07.004 26404470
+L255: 24. Alfadda A.A. 
+L256:  Sallam R.M. 
+L257:  Reactive Oxygen Species in Health and Disease J. Biomed. Biotechnol. 2012 2012 936486 10.1155/2012/936486 22927725
+L258: 25. Powers S.K. 
+L259:  Jackson M.J. 
+L260:  Exercise-Induced Oxidative Stress: Cellular Mechanisms and Impact on Muscle Force Production Physiol. Rev. 2008 88 1243 1276 10.1152/physrev.00031.2007 18923182
+L261: 26. Wiegman C.H. 
+L262:  Michaeloudes C. 
+L263:  Haji G. 
+L264:  Narang P. 
+L265:  Clarke C.J. 
+L266:  Russell K.E. 
+L267:  Bao W. 
+L268:  Pavlidis S. 
+L269:  Barnes P.J. 
+L270:  Kanerva J. 
+L271:  
+L272:  Oxidative Stress-Induced Mitochondrial Dysfunction Drives Inflammation and Airway Smooth Muscle Remodeling in Patients with Chronic Obstructive Pulmonary Disease J. Allergy Clin. Immunol. 2015 136 769 780 10.1016/j.jaci.2015.01.046 25828268
+L273: 27. Brooks G.A. 
+L274:  The Science and Translation of Lactate Shuttle Theory Cell Metab. 2018 27 757 785 10.1016/j.cmet.2018.03.008 29617642
+L275: 28. Iatsenko I. 
+L276:  Boquete J.-P. 
+L277:  Lemaitre B. 
+L278:  Microbiota-Derived Lactate Activates Production of Reactive Oxygen Species by the Intestinal NADPH Oxidase Nox and Shortens Drosophila Lifespan Immunity 2018 49 929 942.e5 10.1016/j.immuni.2018.09.017 30446385
+L279: 29. Specht K.S. 
+L280:  Kant S. 
+L281:  Addington A.K. 
+L282:  McMillan R.P. 
+L283:  Hulver M.W. 
+L284:  Learnard H. 
+L285:  Campbell M. 
+L286:  Donnelly S.R. 
+L287:  Caliz A.D. 
+L288:  Pei Y. 
+L289:  
+L290:  Nox4 Mediates Skeletal Muscle Metabolic Responses to Exercise Mol. Metab. 2021 45 101160 10.1016/j.molmet.2020.101160 33400973
+L291: 30. Zuo L. 
+L292:  Zhou T. 
+L293:  Pannell B.K. 
+L294:  Ziegler A.C. 
+L295:  Best T.M. 
+L296:  Biological and Physiological Role of Reactive Oxygen Species--the Good, the Bad and the Ugly Acta Physiol. 2015 214 329 348 10.1111/apha.12515
+L297: 31. Hidalgo C. 
+L298:  Sánchez G. 
+L299:  Barrientos G. 
+L300:  Aracena-Parks P. 
+L301:  A Transverse Tubule NADPH Oxidase Activity Stimulates Calcium Release from Isolated Triads via Ryanodine Receptor Type 1 S -Glutathionylation J. Biol. Chem. 2006 281 26473 26482 10.1074/jbc.M600451200 16762927
+L302: 32. Powers S.K. 
+L303:  Ji L.L. 
+L304:  Kavazis A.N. 
+L305:  Jackson M.J. 
+L306:  Reactive Oxygen Species: Impact on Skeletal Muscle Compr. Physiol. 2011 1 941 969 10.1002/cphy.c100054 23737208
+L307: 33. Powers S.K. 
+L308:  Schrager M. 
+L309:  Redox Signaling Regulates Skeletal Muscle Remodeling in Response to Exercise and Prolonged Inactivity Redox Biol. 2022 54 102374 10.1016/j.redox.2022.102374 35738088
+L310: 34. Bouviere J. 
+L311:  Fortunato R.S. 
+L312:  Dupuy C. 
+L313:  Werneck-de-Castro J.P. 
+L314:  Carvalho D.P. 
+L315:  Louzada R.A. 
+L316:  Exercise-Stimulated ROS Sensitive Signaling Pathways in Skeletal Muscle Antioxidants 2021 10 537 10.3390/antiox10040537 33808211
+L317: 35. Yavari A. 
+L318:  Javadi M. 
+L319:  Mirmiran P. 
+L320:  Bahadoran Z. 
+L321:  Exercise-Induced Oxidative Stress and Dietary Antioxidants Asian J. Sports Med. 2015 6 e24898 10.5812/asjsm.24898 25883776
+L322: 36. Muthusamy V.R. 
+L323:  Kannan S. 
+L324:  Sadhaasivam K. 
+L325:  Gounder S.S. 
+L326:  Davidson C.J. 
+L327:  Boeheme C. 
+L328:  Hoidal J.R. 
+L329:  Wang L. 
+L330:  Rajasekaran N.S. 
+L331:  Acute Exercise Stress Activates Nrf2/ARE Signaling and Promotes Antioxidant Mechanisms in the Myocardium Free Radic. Biol. Med. 2012 52 366 376 10.1016/j.freeradbiomed.2011.10.440 22051043
+L332: 37. Akimoto T. 
+L333:  Pohnert S.C. 
+L334:  Li P. 
+L335:  Zhang M. 
+L336:  Gumbs C. 
+L337:  Rosenberg P.B. 
+L338:  Williams R.S. 
+L339:  Yan Z. 
+L340:  Exercise Stimulates Pgc-1alpha Transcription in Skeletal Muscle through Activation of the P38 MAPK Pathway J. Biol. Chem. 2005 280 19587 19593 10.1074/jbc.M408862200 15767263
+L341: 38. Jäger S. 
+L342:  Handschin C. 
+L343:  St-Pierre J. 
+L344:  Spiegelman B.M. 
+L345:  AMP-Activated Protein Kinase (AMPK) Action in Skeletal Muscle via Direct Phosphorylation of PGC-1alpha Proc. Natl. Acad. Sci. USA 2007 104 12017 12022 10.1073/pnas.0705070104 17609368
+L346: 39. Espinosa A. 
+L347:  Leiva A. 
+L348:  Peña M. 
+L349:  Müller M. 
+L350:  Debandi A. 
+L351:  Hidalgo C. 
+L352:  Carrasco M.A. 
+L353:  Jaimovich E. 
+L354:  Myotube Depolarization Generates Reactive Oxygen Species through NAD(P)H Oxidase; ROS-Elicited Ca2+ Stimulates ERK, CREB, Early Genes J. Cell. Physiol. 2006 209 379 388 10.1002/jcp.20745 16897752
+L355: 40. Ruas J.L. 
+L356:  White J.P. 
+L357:  Rao R.R. 
+L358:  Kleiner S. 
+L359:  Brannan K.T. 
+L360:  Harrison B.C. 
+L361:  Greene N.P. 
+L362:  Wu J. 
+L363:  Estall J.L. 
+L364:  Irving B.A. 
+L365:  
+L366:  A PGC-1α Isoform Induced by Resistance Training Regulates Skeletal Muscle Hypertrophy Cell 2012 151 1319 1331 10.1016/j.cell.2012.10.050 23217713
+L367: 41. Morales-Alamo D. 
+L368:  Calbet J.A.L. 
+L369:  Free Radicals and Sprint Exercise in Humans Free Radic. Res. 2014 48 30 42 10.3109/10715762.2013.825043 23879691
+L370: 42. Kang C. 
+L371:  O’Moore K.M. 
+L372:  Dickman J.R. 
+L373:  Ji L.L. 
+L374:  Exercise Activation of Muscle Peroxisome Proliferator-Activated Receptor-Gamma Coactivator-1alpha Signaling Is Redox Sensitive Free Radic. Biol. Med. 2009 47 1394 1400 10.1016/j.freeradbiomed.2009.08.007 19686839
+L375: 43. Low I.C.C. 
+L376:  Loh T. 
+L377:  Huang Y. 
+L378:  Virshup D.M. 
+L379:  Pervaiz S. 
+L380:  Ser70 Phosphorylation of Bcl-2 by Selective Tyrosine Nitration of PP2A-B56δ Stabilizes Its Antiapoptotic Activity Blood 2014 124 2223 2234 10.1182/blood-2014-03-563296 25082878
+L381: 44. Thirupathi A. 
+L382:  Wang M. 
+L383:  Lin J.K. 
+L384:  Fekete G. 
+L385:  István B. 
+L386:  Baker J.S. 
+L387:  Gu Y. 
+L388:  Effect of Different Exercise Modalities on Oxidative Stress: A Systematic Review Biomed. Res. Int. 2021 2021 1947928 10.1155/2021/1947928 33628774
+L389: 45. Orlando P. 
+L390:  Silvestri S. 
+L391:  Galeazzi R. 
+L392:  Antonicelli R. 
+L393:  Marcheggiani F. 
+L394:  Cirilli I. 
+L395:  Bacchetti T. 
+L396:  Tiano L. 
+L397:  Effect of Ubiquinol Supplementation on Biochemical and Oxidative Stress Indexes after Intense Exercise in Young Athletes Redox Rep. 2018 23 136 145 10.1080/13510002.2018.1472924 29734881
+L398: 46. Nikolaidis M.G. 
+L399:  Jamurtas A.Z. 
+L400:  Paschalis V. 
+L401:  Fatouros I.G. 
+L402:  Koutedakis Y. 
+L403:  Kouretas D. 
+L404:  The Effect of Muscle-Damaging Exercise on Blood and Skeletal Muscle Oxidative Stress: Magnitude and Time-Course Considerations Sports Med. 2008 38 579 606 10.2165/00007256-200838070-00005 18557660
+L405: 47. Di Meo S. 
+L406:  Napolitano G. 
+L407:  Venditti P. 
+L408:  Mediators of Physical Activity Protection against ROS-Linked Skeletal Muscle Damage Int. J. Mol. Sci. 2019 20 3024 10.3390/ijms20123024 31226872
+L409: 48. Sawada Y. 
+L410:  Ichikawa H. 
+L411:  Ebine N. 
+L412:  Minamiyama Y. 
+L413:  Alharbi A.A.D. 
+L414:  Iwamoto N. 
+L415:  Fukuoka Y. 
+L416:  Effects of High-Intensity Anaerobic Exercise on the Scavenging Activity of Various Reactive Oxygen Species and Free Radicals in Athletes Nutrients 2023 15 222 10.3390/nu15010222 36615878
+L417: 49. Bors W. 
+L418:  Michel C. 
+L419:  Saran M. 
+L420:  Lengfelder E. 
+L421:  The Involvement of Oxygen Radicals during the Autoxidation of Adrenalin Biochim. Biophys. Acta 1978 540 162 172 10.1016/0304-4165(78)90445-2 25091
+L422: 50. Halliwell B. 
+L423:  Gutteridge J.M.C. 
+L424:  Oxidative Stress and Redox Regulation: Adaptation, Damage, Repair, Senescence, and Death Free Radicals in Biology and Medicine 
+L425:  Halliwell B. 
+L426:  Gutteridge J.M.C. 
+L427:  Oxford University Press Oxford, UK 2015 978-0-19-871747-8
+L428: 51. Powers S.K. 
+L429:  Deminice R. 
+L430:  Ozdemir M. 
+L431:  Yoshihara T. 
+L432:  Bomkamp M.P. 
+L433:  Hyatt H. 
+L434:  Exercise-Induced Oxidative Stress: Friend or Foe? J. Sport Health Sci. 2020 9 415 425 10.1016/j.jshs.2020.04.001 32380253
+L435: 52. Henríquez-Olguín C. 
+L436:  Renani L.B. 
+L437:  Arab-Ceschia L. 
+L438:  Raun S.H. 
+L439:  Bhatia A. 
+L440:  Li Z. 
+L441:  Knudsen J.R. 
+L442:  Holmdahl R. 
+L443:  Jensen T.E. 
+L444:  Adaptations to High-Intensity Interval Training in Skeletal Muscle Require NADPH Oxidase 2 Redox Biol. 2019 24 101188 10.1016/j.redox.2019.101188 30959461
+L445: 53. Radak Z. 
+L446:  Suzuki K. 
+L447:  Higuchi M. 
+L448:  Balogh L. 
+L449:  Boldogh I. 
+L450:  Koltai E. 
+L451:  Physical Exercise, Reactive Oxygen Species and Neuroprotection Free Radic. Biol. Med. 2016 98 187 196 10.1016/j.freeradbiomed.2016.01.024 26828019
+L452: 54. Miyata M. 
+L453:  Kasai H. 
+L454:  Kawai K. 
+L455:  Yamada N. 
+L456:  Tokudome M. 
+L457:  Ichikawa H. 
+L458:  Goto C. 
+L459:  Tokudome Y. 
+L460:  Kuriki K. 
+L461:  Hoshino H. 
+L462:  
+L463:  Changes of Urinary 8-Hydroxydeoxyguanosine Levels during a Two-Day Ultramarathon Race Period in Japanese Non-Professional Runners Int. J. Sports Med. 2008 29 27 33 10.1055/s-2007-965072 17614024
+L464: 55. Azizbeigi K. 
+L465:  Stannard S.R. 
+L466:  Atashak S. 
+L467:  Mosalman Haghighi M. 
+L468:  Antioxidant Enzymes and Oxidative Stress Adaptation to Exercise Training: Comparison of Endurance, Resistance, and Concurrent Training in Untrained Males J. Exerc. Sci. Fit. 2014 12 1 6 10.1016/j.jesf.2013.12.001
+L469: 56. Hattori N. 
+L470:  Hayashi T. 
+L471:  Nakachi K. 
+L472:  Ichikawa H. 
+L473:  Goto C. 
+L474:  Tokudome Y. 
+L475:  Kuriki K. 
+L476:  Hoshino H. 
+L477:  Shibata K. 
+L478:  Yamada N. 
+L479:  
+L480:  Changes of ROS during a Two-Day Ultra-Marathon Race Int. J. Sports Med. 2009 30 426 429 10.1055/s-0028-1112144 19199215
+L481: 57. Belinchón-Demiguel P. 
+L482:  Clemente-Suárez V.J. 
+L483:  Nutrition, hydration and ergogenic aids strategies in ultraendurance mountain events J. Sports Med. Phys. Fit. 2019 59 791 797 10.23736/S0022-4707.18.08920-X
+L484: 58. Close G.L. 
+L485:  Ashton T. 
+L486:  Cable T. 
+L487:  Doran D. 
+L488:  MacLaren D.P.M. 
+L489:  Eccentric Exercise, Isokinetic Muscle Torque and Delayed Onset Muscle Soreness: The Role of Reactive Oxygen Species Eur. J. Appl. Physiol. 2004 91 615 621 10.1007/s00421-003-1012-2 14685863
+L490: 59. Miller L.E. 
+L491:  McGinnis G.R. 
+L492:  Kliszczewicz B. 
+L493:  Slivka D. 
+L494:  Hailes W. 
+L495:  Cuddy J. 
+L496:  Dumke C. 
+L497:  Ruby B. 
+L498:  Quindry J.C. 
+L499:  Blood Oxidative-Stress Markers during a High-Altitude Trek Int. J. Sport Nutr. Exerc. Metab. 2013 23 65 72 10.1123/ijsnem.23.1.65 23006582
+L500: 60. Siques P. 
+L501:  Brito J. 
+L502:  Pena E. 
+L503:  Reactive Oxygen Species and Pulmonary Vasculature During Hypobaric Hypoxia Front. Physiol. 2018 9 865 10.3389/fphys.2018.00865 30050455
+L504: 61. Gaur P. 
+L505:  Prasad S. 
+L506:  Kumar B. 
+L507:  Sharma S.K. 
+L508:  Vats P. 
+L509:  High-Altitude Hypoxia Induced Reactive Oxygen Species Generation, Signaling, and Mitigation Approaches Int. J. Biometeorol. 2021 65 601 615 10.1007/s00484-020-02037-1 33156424
+L510: 62. Jackson M.J. 
+L511:  Pye D. 
+L512:  Palomero J. 
+L513:  The Production of Reactive Oxygen and Nitrogen Species by Skeletal Muscle J. Appl. Physiol. 2007 102 1664 1670 10.1152/japplphysiol.01102.2006 17082364
+L514: 63. Urso M.L. 
+L515:  Clarkson P.M. 
+L516:  Oxidative Stress, Exercise, and Antioxidant Supplementation Toxicology 2003 189 41 54 10.1016/S0300-483X(03)00151-3 12821281
+L517: 64. Rabinovitch R.C. 
+L518:  Samborska B. 
+L519:  Faubert B. 
+L520:  Ma E.H. 
+L521:  Gravel S.-P. 
+L522:  Andrzejewski S. 
+L523:  Raissi T.C. 
+L524:  Pause A. 
+L525:  St-Pierre J. 
+L526:  Jones R.G. 
+L527:  AMPK Maintains Cellular Metabolic Homeostasis through Regulation of Mitochondrial Reactive Oxygen Species Cell Rep. 2017 21 1 9 10.1016/j.celrep.2017.09.026 28978464
+L528: 65. Brand M.D. 
+L529:  Affourtit C. 
+L530:  Esteves T.C. 
+L531:  Green K. 
+L532:  Lambert A.J. 
+L533:  Miwa S. 
+L534:  Pakay J.L. 
+L535:  Parker N. 
+L536:  Mitochondrial Superoxide: Production, Biological Effects, and Activation of Uncoupling Proteins Free. Radic. Biol. Med. 2004 37 755 767 10.1016/j.freeradbiomed.2004.05.034 15304252
+L537: 66. Di Meo S. 
+L538:  Venditti P. 
+L539:  Mitochondria in Exercise-Induced Oxidative Stress Biol. Signals Recept. 2001 10 125 140 10.1159/000046880 11223645
+L540: 67. Kozlov A.V. 
+L541:  Szalay L. 
+L542:  Umar F. 
+L543:  Kropik K. 
+L544:  Staniek K. 
+L545:  Niedermüller H. 
+L546:  Bahrami S. 
+L547:  Nohl H. 
+L548:  Skeletal Muscles, Heart, and Lung Are the Main Sources of Oxygen Radicals in Old Rats Biochim. Biophys. Acta 2005 1740 382 389 10.1016/j.bbadis.2004.11.004 15949706
+L549: 68. Fittipaldi S. 
+L550:  Dimauro I. 
+L551:  Mercatelli N. 
+L552:  Caporossi D. 
+L553:  Role of Exercise-Induced Reactive Oxygen Species in the Modulation of Heat Shock Protein Response Free. Radic. Res. 2014 48 52 70 10.3109/10715762.2013.835047 23957557
+L554: 69. Fisher-Wellman K. 
+L555:  Bloomer R.J. 
+L556:  Acute Exercise and Oxidative Stress: A 30 Year History Dyn. Med. 2009 8 1 10.1186/1476-5918-8-1 19144121
+L557: 70. Powers S.K. 
+L558:  Nelson W.B. 
+L559:  Hudson M.B. 
+L560:  Exercise-Induced Oxidative Stress in Humans: Cause and Consequences Free Radic. Biol. Med. 2011 51 942 950 10.1016/j.freeradbiomed.2010.12.009 21167935
+L561: 71. St-Pierre J. 
+L562:  Drori S. 
+L563:  Uldry M. 
+L564:  Silvaggi J.M. 
+L565:  Rhee J. 
+L566:  Jäger S. 
+L567:  Handschin C. 
+L568:  Zheng K. 
+L569:  Lin J. 
+L570:  Yang W. 
+L571:  
+L572:  Suppression of Reactive Oxygen Species and Neurodegeneration by the PGC-1 Transcriptional Coactivators Cell 2006 127 397 408 10.1016/j.cell.2006.09.024 17055439
+L573: 72. Gomez-Cabrera M.-C. 
+L574:  Domenech E. 
+L575:  Romagnoli M. 
+L576:  Arduini A. 
+L577:  Borras C. 
+L578:  Pallardo F.V. 
+L579:  Sastre J. 
+L580:  Viña J. 
+L581:  Oral Administration of Vitamin C Decreases Muscle Mitochondrial Biogenesis and Hampers Training-Induced Adaptations in Endurance Performance Am. J. Clin. Nutr. 2008 87 142 149 10.1093/ajcn/87.1.142 18175748
+L582: 73. Ristow M. 
+L583:  Zarse K. 
+L584:  Oberbach A. 
+L585:  Klöting N. 
+L586:  Birringer M. 
+L587:  Kiehntopf M. 
+L588:  Stumvoll M. 
+L589:  Kahn C.R. 
+L590:  Blüher M. 
+L591:  Antioxidants Prevent Health-Promoting Effects of Physical Exercise in Humans Proc. Natl. Acad. Sci. USA 2009 106 8665 8670 10.1073/pnas.0903485106 19433800
+L592: 74. Yfanti C. 
+L593:  Akerström T. 
+L594:  Nielsen S. 
+L595:  Nielsen A.R. 
+L596:  Mounier R. 
+L597:  Mortensen O.H. 
+L598:  Lykkesfeldt J. 
+L599:  Rose A.J. 
+L600:  Fischer C.P. 
+L601:  Pedersen B.K. 
+L602:  Antioxidant Supplementation Does Not Alter Endurance Training Adaptation Med. Sci. Sports Exerc. 2010 42 1388 1395 10.1249/MSS.0b013e3181cd76be 20019626
+L603: 75. Effect of Antioxidant Supplementation on Insulin Sensitivity in Response to Endurance Exercise Training—PubMed Available online:  https://pubmed.ncbi.nlm.nih.gov/21325105/ (accessed on 3 April 2023)
+L604: 76. Strobel N.A. 
+L605:  Peake J.M. 
+L606:  Matsumoto A. 
+L607:  Marsh S.A. 
+L608:  Coombes J.S. 
+L609:  Wadley G.D. 
+L610:  Antioxidant Supplementation Reduces Skeletal Muscle Mitochondrial Biogenesis Med. Sci. Sports Exerc. 2011 43 1017 1024 10.1249/MSS.0b013e318203afa3 21085043
+L611: 77. Holloszy J.O. 
+L612:  Regulation by Exercise of Skeletal Muscle Content of Mitochondria and GLUT4 J. Physiol. Pharm. 2008 59 (Suppl. S7) 5 18
+L613: 78. Powers S.K. 
+L614:  Talbert E.E. 
+L615:  Adhihetty P.J. 
+L616:  Reactive Oxygen and Nitrogen Species as Intracellular Signals in Skeletal Muscle J. Physiol. 2011 589 2129 2138 10.1113/jphysiol.2010.201327 21224240
+L617: 79. Sahlin K. 
+L618:  Shabalina I.G. 
+L619:  Mattsson C.M. 
+L620:  Bakkman L. 
+L621:  Fernström M. 
+L622:  Rozhdestvenskaya Z. 
+L623:  Enqvist J.K. 
+L624:  Nedergaard J. 
+L625:  Ekblom B. 
+L626:  Tonkonogi M. 
+L627:  Ultraendurance Exercise Increases the Production of Reactive Oxygen Species in Isolated Mitochondria from Human Skeletal Muscle J. Appl. Physiol. 2010 108 780 787 10.1152/japplphysiol.00966.2009 20110545
+L628: 80. Powers S.K. 
+L629:  Smuder A.J. 
+L630:  Kavazis A.N. 
+L631:  Hudson M.B. 
+L632:  Experimental Guidelines for Studies Designed to Investigate the Impact of Antioxidant Supplementation on Exercise Performance Int. J. Sport Nutr. Exerc. Metab. 2010 20 2 14 10.1123/ijsnem.20.1.2 20190346
+L633: 81. Hood D.A. 
+L634:  Irrcher I. 
+L635:  Ljubicic V. 
+L636:  Joseph A.-M. 
+L637:  Coordination of Metabolic Plasticity in Skeletal Muscle J. Exp. Biol. 2006 209 2265 2275 10.1242/jeb.02182 16731803
+L638: 82. Murgia M. 
+L639:  Jensen T.E. 
+L640:  Cusinato M. 
+L641:  Garcia M. 
+L642:  Richter E.A. 
+L643:  Schiaffino S. 
+L644:  Multiple Signalling Pathways Redundantly Control Glucose Transporter GLUT4 Gene Transcription in Skeletal Muscle J. Physiol. 2009 587 4319 4327 10.1113/jphysiol.2009.174888 19596898
+L645: 83. Merry T.L. 
+L646:  Ristow M. 
+L647:  Do Antioxidant Supplements Interfere with Skeletal Muscle Adaptation to Exercise Training? J. Physiol. 2016 594 5135 5147 10.1113/JP270654 26638792
+L648: 84. Niki E. 
+L649:  Oxidative Stress and Antioxidants: Distress or Eustress? Arch. Biochem. Biophys. 2016 595 19 24 10.1016/j.abb.2015.11.017 27095209
+L650: 85. Trachootham D. 
+L651:  Lu W. 
+L652:  Ogasawara M.A. 
+L653:  Valle N.R.-D. 
+L654:  Huang P. 
+L655:  Redox Regulation of Cell Survival Antioxid. Redox Signal. 2008 10 1343 1374 10.1089/ars.2007.1957 18522489
+L656: 86. Sies H. 
+L657:  Oxidative Stress: A Concept in Redox Biology and Medicine Redox Biol. 2015 4 180 183 10.1016/j.redox.2015.01.002 25588755
+L658: 87. Moylan J.S. 
+L659:  Reid M.B. 
+L660:  Oxidative Stress, Chronic Disease, and Muscle Wasting Muscle Nerve 2007 35 411 429 10.1002/mus.20743 17266144
+L661: 88. Khansari N. 
+L662:  Shakiba Y. 
+L663:  Mahmoudi M. 
+L664:  Chronic Inflammation and Oxidative Stress as a Major Cause of Age-Related Diseases and Cancer Recent. Pat. Inflamm. Allergy Drug. Discov. 2009 3 73 80 10.2174/187221309787158371 19149749
+L665: 89. García-López D. 
+L666:  Häkkinen K. 
+L667:  Cuevas M.J. 
+L668:  Lima E. 
+L669:  Kauhanen A. 
+L670:  Mattila M. 
+L671:  Sillanpää E. 
+L672:  Ahtiainen J.P. 
+L673:  Karavirta L. 
+L674:  Almar M. 
+L675:  
+L676:  Effects of Strength and Endurance Training on Antioxidant Enzyme Gene Expression and Activity in Middle-Aged Men Scand. J. Med. Sci. Sports 2007 17 595 604 10.1111/j.1600-0838.2006.00620.x 17316373
+L677: 90. Cakir-Atabek H. 
+L678:  Demir S. 
+L679:  PinarbaŞili R.D. 
+L680:  Gündüz N. 
+L681:  Effects of Different Resistance Training Intensity on Indices of Oxidative Stress J. Strength. Cond. Res. 2010 24 2491 2497 10.1519/JSC.0b013e3181ddb111 20802287
+L682: 91. Park S.-Y. 
+L683:  Kwak Y.-S. 
+L684:  Impact of Aerobic and Anaerobic Exercise Training on Oxidative Stress and Antioxidant Defense in Athletes J. Exerc. Rehabil. 2016 12 113 117 10.12965/jer.1632598.299 27162773
+L685: 92. Parise G. 
+L686:  Phillips S.M. 
+L687:  Kaczor J.J. 
+L688:  Tarnopolsky M.A. 
+L689:  Antioxidant Enzyme Activity Is Up-Regulated after Unilateral Resistance Exercise Training in Older Adults Free Radic. Biol. Med. 2005 39 289 295 10.1016/j.freeradbiomed.2005.03.024 15964520
+L690: 93. Vincent K.R. 
+L691:  Vincent H.K. 
+L692:  Braith R.W. 
+L693:  Lennon S.L. 
+L694:  Lowenthal D.T. 
+L695:  Resistance Exercise Training Attenuates Exercise-Induced Lipid Peroxidation in the Elderly Eur. J. Appl. Physiol. 2002 87 416 423 10.1007/s00421-002-0640-2 12172882
+L696: 94. Padilha C.S. 
+L697:  Ribeiro A.S. 
+L698:  Fleck S.J. 
+L699:  Nascimento M.A. 
+L700:  Pina F.L.C. 
+L701:  Okino A.M. 
+L702:  Venturini D. 
+L703:  Barbosa D.S. 
+L704:  Mayhew J.L. 
+L705:  Cyrino E.S. 
+L706:  Effect of Resistance Training with Different Frequencies and Detraining on Muscular Strength and Oxidative Stress Biomarkers in Older Women Age 2015 37 104 10.1007/s11357-015-9841-6 26423425
+L707: 95. Giorgi C. 
+L708:  Marchi S. 
+L709:  Simoes I.C.M. 
+L710:  Ren Z. 
+L711:  Morciano G. 
+L712:  Perrone M. 
+L713:  Patalas-Krawczyk P. 
+L714:  Borchard S. 
+L715:  Jędrak P. 
+L716:  Pierzynowska K. 
+L717:  
+L718:  Mitochondria and Reactive Oxygen Species in Aging and Age-Related Diseases Int. Rev. Cell Mol. Biol. 2018 340 209 344 10.1016/bs.ircmb.2018.05.006 30072092
+L719: 96. Pingitore A. 
+L720:  Lima G.P.P. 
+L721:  Mastorci F. 
+L722:  Quinones A. 
+L723:  Iervasi G. 
+L724:  Vassalle C. 
+L725:  Exercise and Oxidative Stress: Potential Effects of Antioxidant Dietary Strategies in Sports Nutrition 2015 31 916 922 10.1016/j.nut.2015.02.005 26059364
+L726: 97. Brisswalter J. 
+L727:  Louis J. 
+L728:  Vitamin Supplementation Benefits in Master Athletes Sports Med. 2014 44 311 318 10.1007/s40279-013-0126-x 24323888
+L729: 98. Milan S.J. 
+L730:  Hart A. 
+L731:  Wilkinson M. 
+L732:  Vitamin C for Asthma and Exercise-Induced Bronchoconstriction Cochrane Database Syst. Rev. 2013 2013 CD010391 10.1002/14651858.CD010391.pub2 24154977
+L733: 99. Myburgh K.H. 
+L734:  Polyphenol Supplementation: Benefits for Exercise Performance or Oxidative Stress? Sports Med. 2014 44 S57 S70 10.1007/s40279-014-0151-4 24791917
+L735: 100. Dato S. 
+L736:  Crocco P. 
+L737:  D’Aquila P. 
+L738:  de Rango F. 
+L739:  Bellizzi D. 
+L740:  Rose G. 
+L741:  Passarino G. 
+L742:  Exploring the Role of Genetic Variability and Lifestyle in Oxidative Stress Response for Healthy Aging and Longevity Int. J. Mol. Sci. 2013 14 16443 16472 10.3390/ijms140816443 23965963
+L743: 101. Cureton K.J. 
+L744:  Tomporowski P.D. 
+L745:  Singhal A. 
+L746:  Pasley J.D. 
+L747:  Bigelman K.A. 
+L748:  Lambourne K. 
+L749:  Trilk J.L. 
+L750:  McCully K.K. 
+L751:  Arnaud M.J. 
+L752:  Zhao Q. 
+L753:  Dietary Quercetin Supplementation Is Not Ergogenic in Untrained Men J. Appl. Physiol. 2009 107 1095 1104 10.1152/japplphysiol.00234.2009 19679747
+L754: 102. Nanri A. 
+L755:  Yoshida D. 
+L756:  Yamaji T. 
+L757:  Mizoue T. 
+L758:  Takayanagi R. 
+L759:  Kono S. 
+L760:  Dietary Patterns and C-Reactive Protein in Japanese Men and Women Am. J. Clin. Nutr. 2008 87 1488 1496 10.1093/ajcn/87.5.1488 18469275
+L761: 103. Salas-Salvadó J. 
+L762:  Garcia-Arellano A. 
+L763:  Estruch R. 
+L764:  Marquez-Sandoval F. 
+L765:  Corella D. 
+L766:  Fiol M. 
+L767:  Gómez-Gracia E. 
+L768:  Viñoles E. 
+L769:  Arós F. 
+L770:  Herrera C. 
+L771:  
+L772:  Components of the Mediterranean-Type Food Pattern and Serum Inflammatory Markers among Patients at High Risk for Cardiovascular Disease Eur. J. Clin. Nutr. 2008 62 651 659 10.1038/sj.ejcn.1602762 17440519
+L773: 104. Holt E.M. 
+L774:  Steffen L.M. 
+L775:  Moran A. 
+L776:  Basu S. 
+L777:  Steinberger J. 
+L778:  Ross J.A. 
+L779:  Hong C.-P. 
+L780:  Sinaiko A.R. 
+L781:  Fruit and Vegetable Consumption and Its Relation to Markers of Inflammation and Oxidative Stress in Adolescents J. Am. Diet. Assoc. 2009 109 414 421 10.1016/j.jada.2008.11.036 19248856
+L782: 105. Karlsen A. 
+L783:  Retterstøl L. 
+L784:  Laake P. 
+L785:  Paur I. 
+L786:  Bøhn S.K. 
+L787:  Sandvik L. 
+L788:  Blomhoff R. 
+L789:  Anthocyanins Inhibit Nuclear Factor-KappaB Activation in Monocytes and Reduce Plasma Concentrations of pro-Inflammatory Mediators in Healthy Adults J. Nutr. 2007 137 1951 1954 10.1093/jn/137.8.1951 17634269
+L790: 106. Koivisto A.E. 
+L791:  Olsen T. 
+L792:  Paur I. 
+L793:  Paulsen G. 
+L794:  Bastani N.E. 
+L795:  Garthe I. 
+L796:  Raastad T. 
+L797:  Matthews J. 
+L798:  Blomhoff R. 
+L799:  Bøhn S.K. 
+L800:  Effects of Antioxidant-Rich Foods on Altitude-Induced Oxidative Stress and Inflammation in Elite Endurance Athletes: A Randomized Controlled Trial PLoS ONE 2019 14 e0217895 10.1371/journal.pone.0217895 31194785
+L801: 107. Knab A.M. 
+L802:  Nieman D.C. 
+L803:  Gillitt N.D. 
+L804:  Shanely R.A. 
+L805:  Cialdella-Kam L. 
+L806:  Henson D.A. 
+L807:  Sha W. 
+L808:  Effects of a Flavonoid-Rich Juice on Inflammation, Oxidative Stress, and Immunity in Elite Swimmers: A Metabolomics-Based Approach Int. J. Sport Nutr. Exerc. Metab. 2013 23 150 160 10.1123/ijsnem.23.2.150 23070789
+L809: 108. Shanely R.A. 
+L810:  Nieman D.C. 
+L811:  Perkins-Veazie P. 
+L812:  Henson D.A. 
+L813:  Meaney M.P. 
+L814:  Knab A.M. 
+L815:  Cialdell-Kam L. 
+L816:  Comparison of Watermelon and Carbohydrate Beverage on Exercise-Induced Alterations in Systemic Inflammation, Immune Dysfunction, and Plasma Antioxidant Capacity Nutrients 2016 8 518 10.3390/nu8080518 27556488
+L817: 109. Ammar A. 
+L818:  Turki M. 
+L819:  Chtourou H. 
+L820:  Hammouda O. 
+L821:  Trabelsi K. 
+L822:  Kallel C. 
+L823:  Abdelkarim O. 
+L824:  Hoekelmann A. 
+L825:  Bouaziz M. 
+L826:  Ayadi F. 
+L827:  
+L828:  Pomegranate Supplementation Accelerates Recovery of Muscle Damage and Soreness and Inflammatory Markers after a Weightlifting Training Session PLoS ONE 2016 11 e0160305 10.1371/journal.pone.0160305 27764091
+L829: 110. Bailey D.M. 
+L830:  Williams C. 
+L831:  Betts J.A. 
+L832:  Thompson D. 
+L833:  Hurst T.L. 
+L834:  Oxidative Stress, Inflammation and Recovery of Muscle Function after Damaging Exercise: Effect of 6-Week Mixed Antioxidant Supplementation Eur. J. Appl. Physiol. 2011 111 925 936 10.1007/s00421-010-1718-x 21069377
+L835: 111. Mastaloudis A. 
+L836:  Morrow J.D. 
+L837:  Hopkins D.W. 
+L838:  Devaraj S. 
+L839:  Traber M.G. 
+L840:  Antioxidant Supplementation Prevents Exercise-Induced Lipid Peroxidation, but Not Inflammation, in Ultramarathon Runners Free Radic. Biol. Med. 2004 36 1329 1341 10.1016/j.freeradbiomed.2004.02.069 15110397
+L841: 112. Teixeira V.H. 
+L842:  Valente H.F. 
+L843:  Casal S.I. 
+L844:  Marques A.F. 
+L845:  Moreira P.A. 
+L846:  Antioxidants Do Not Prevent Postexercise Peroxidation and May Delay Muscle Recovery Med. Sci. Sports Exerc. 2009 41 1752 1760 10.1249/MSS.0b013e31819fe8e3 19657294
+L847: 113. Cani P.D. 
+L848:  Van Hul M. 
+L849:  Lefort C. 
+L850:  Depommier C. 
+L851:  Rastelli M. 
+L852:  Everard A. 
+L853:  Microbial Regulation of Organismal Energy Homeostasis Nat. Metab. 2019 1 34 46 10.1038/s42255-018-0017-4 32694818
+L854: 114. Cataldi S. 
+L855:  Bonavolontà V. 
+L856:  Poli L. 
+L857:  Clemente F.M. 
+L858:  De Candia M. 
+L859:  Carvutto R. 
+L860:  Silva A.F. 
+L861:  Badicu G. 
+L862:  Greco G. 
+L863:  Fischetti F. 
+L864:  The Relationship between Physical Activity, Physical Exercise, and Human Gut Microbiota in Healthy and Unhealthy Subjects: A Systematic Review Biology 2022 11 479 10.3390/biology11030479 35336852
+L865: 115. Gazerani P. 
+L866:  Migraine and Diet Nutrients 2020 12 1658 10.3390/nu12061658 32503158
+L867: 116. Cerdá B. 
+L868:  Pérez M. 
+L869:  Pérez-Santiago J.D. 
+L870:  Tornero-Aguilera J.F. 
+L871:  González-Soltero R. 
+L872:  Larrosa M. 
+L873:  Gut Microbiota Modification: Another Piece in the Puzzle of the Benefits of Physical Exercise in Health? Front. Physiol. 2016 7 51 10.3389/fphys.2016.00051 26924990
+L874: 117. Kanter M.M. 
+L875:  Nutritional Antioxidants and Physical Activity Nutrition in Exercise and Sport 3rd ed. CRC Press Boca Raton, FL, USA 1997
+L876: 118. Arias Calvo A. 
+L877:  Feijoo Costa G. 
+L878:  Moreira Vilar M.T. 
+L879:  Exploring the Potential of Antioxidants from Fruits and Vegetables and Strategies for Their Recovery Innov. Food Sci. Emerg. Technol. 2022 77 102974 10.1016/j.ifset.2022.102974
+L880: 119. Álvarez J. 
+L881:  Fernández Real J.M. 
+L882:  Guarner F. 
+L883:  Gueimonde M. 
+L884:  Rodríguez J.M. 
+L885:  Saenz de Pipaon M. 
+L886:  Sanz Y. 
+L887:  Gut Microbes and Health Gastroenterol. Hepatol. 2021 44 519 535 10.1016/j.gastrohep.2021.01.009 33652061
+L888: 120. Fiedor J. 
+L889:  Burda K. 
+L890:  Potential Role of Carotenoids as Antioxidants in Human Health and Disease Nutrients 2014 6 466 488 10.3390/nu6020466 24473231
+L891: 121. Rao A.V. 
+L892:  Rao L.G. 
+L893:  Carotenoids and Human Health Pharm. Res. 2007 55 207 216 10.1016/j.phrs.2007.01.012
+L894: 122. Bin-Jumah M.N. 
+L895:  Nadeem M.S. 
+L896:  Gilani S.J. 
+L897:  Mubeen B. 
+L898:  Ullah I. 
+L899:  Alzarea S.I. 
+L900:  Ghoneim M.M. 
+L901:  Alshehri S. 
+L902:  Al-Abbasi F.A. 
+L903:  Kazmi I. 
+L904:  Lycopene: A Natural Arsenal in the War against Oxidative Stress and Cardiovascular Diseases Antioxidants 2022 11 232 10.3390/antiox11020232 35204115
+L905: 123. Ekpe L. 
+L906:  Inaku K. 
+L907:  Ekpe V. 
+L908:  Antioxidant Effects of Astaxanthin in Various Diseasesa Review J. Mol. Pathophysiol. 2018 7 1 10.5455/jmp.20180627120817
+L909: 124. Wu L. 
+L910:  Lu P. 
+L911:  Guo X. 
+L912:  Song K. 
+L913:  Lyu Y. 
+L914:  Bothwell J. 
+L915:  Wu J. 
+L916:  Hawkins O. 
+L917:  Clarke S.L. 
+L918:  Lucas E.A. 
+L919:  
+L920:  β-Carotene Oxygenase 2 Deficiency-Triggered Mitochondrial Oxidative Stress Promotes Low-Grade Inflammation and Metabolic Dysfunction Free Radic. Biol. Med. 2021 164 271 284 10.1016/j.freeradbiomed.2021.01.003 33453359
+L921: 125. Honarbakhsh M. 
+L922:  Malta K. 
+L923:  Ericsson A. 
+L924:  Holloway C. 
+L925:  Kim Y.-K. 
+L926:  Hammerling U. 
+L927:  Quadro L. 
+L928:  β-Carotene Improves Fecal Dysbiosis and Intestinal Dysfunctions in a Mouse Model of Vitamin A Deficiency Biochim. Biophys. Acta Mol. Cell. Biol. Lipids 2022 1867 159122 10.1016/j.bbalip.2022.159122 35158041
+L929: 126. Deis L. 
+L930:  Quiroga A.M. 
+L931:  De Rosas M.I. 
+L932:  Coloured Compounds in Fruits and Vegetables and Health Psychiatry and Neuroscience Update: From Epistemology to Clinical Psychiatry—Vol. IV. 
+L933:  Gargiulo P.Á. 
+L934:  Mesones Arroyo H.L. 
+L935:  Springer International Publishing Cham, Switzerland 2021 343 358 978-3-030-61721-9
+L936: 127. Hollman P.C.H. 
+L937:  Cassidy A. 
+L938:  Comte B. 
+L939:  Heinonen M. 
+L940:  Richelle M. 
+L941:  Richling E. 
+L942:  Serafini M. 
+L943:  Scalbert A. 
+L944:  Sies H. 
+L945:  Vidry S. 
+L946:  The Biological Relevance of Direct Antioxidant Effects of Polyphenols for Cardiovascular Health in Humans Is Not Established J. Nutr. 2011 141 989S 1009S 10.3945/jn.110.131490 21451125
+L947: 128. Pallauf K. 
+L948:  Giller K. 
+L949:  Huebbe P. 
+L950:  Rimbach G. 
+L951:  Nutrition and Healthy Ageing: Calorie Restriction or Polyphenol-Rich “MediterrAsian” Diet? Oxidative Med. Cell. Longev. 2013 2013 e707421 10.1155/2013/707421 24069505
+L952: 129. Barreca D. 
+L953:  Trombetta D. 
+L954:  Smeriglio A. 
+L955:  Mandalari G. 
+L956:  Romeo O. 
+L957:  Felice M.R. 
+L958:  Gattuso G. 
+L959:  Nabavi S. 
+L960:  Food Flavonols: Nutraceuticals with Complex Health Benefits and Functionalities Trends Food Sci. Technol. 2021 117 194 204 10.1016/j.tifs.2021.03.030
+L961: 130. Flavonoids: Biosynthesis, Metabolism, Mechanism of Antioxidation and Clinical Implications: A Review Available online:  https://arccjournals.com/journal/agricultural-reviews/R-1922 (accessed on 3 April 2023)
+L962: 131. Mattioli R. 
+L963:  Francioso A. 
+L964:  Mosca L. 
+L965:  Silva P. 
+L966:  Anthocyanins: A Comprehensive Review of Their Chemical Properties and Health Effects on Cardiovascular and Neurodegenerative Diseases Molecules 2020 25 3809 10.3390/molecules25173809 32825684
+L967: 132. Gomes J.V.P. 
+L968:  Rigolon T.C.B. 
+L969:  da Silveira Souza M.S. 
+L970:  Alvarez-Leite J.I. 
+L971:  Della Lucia C.M. 
+L972:  Martino H.S.D. 
+L973:  Rosa C.D.O.B. 
+L974:  Antiobesity Effects of Anthocyanins on Mitochondrial Biogenesis, Inflammation, and Oxidative Stress: A Systematic Review Nutrition 2019 66 192 202 10.1016/j.nut.2019.05.005 31310961
+L975: 133. Chan S.W. 
+L976:  Chu T.T.W. 
+L977:  Choi S.W. 
+L978:  Benzie I.F.F. 
+L979:  Tomlinson B. 
+L980:  Impact of Short-Term Bilberry Supplementation on Glycemic Control, Cardiovascular Disease Risk Factors, and Antioxidant Status in Chinese Patients with Type 2 Diabetes Phytother. Res. 2021 35 3236 3245 10.1002/ptr.7038 33599340
+L981: 134. Man A.W.C. 
+L982:  Zhou Y. 
+L983:  Xia N. 
+L984:  Li H. 
+L985:  Involvement of Gut Microbiota, Microbial Metabolites and Interaction with Polyphenol in Host Immunometabolism Nutrients 2020 12 3054 10.3390/nu12103054 33036205
+L986: 135. Otten A.T. 
+L987:  Bourgonje A.R. 
+L988:  Peters V. 
+L989:  Alizadeh B.Z. 
+L990:  Dijkstra G. 
+L991:  Harmsen H.J.M. 
+L992:  Vitamin C Supplementation in Healthy Individuals Leads to Shifts of Bacterial Populations in the Gut-A Pilot Study Antioxidants 2021 10 1278 10.3390/antiox10081278 34439526
+L993: 136. Pawlowska E. 
+L994:  Szczepanska J. 
+L995:  Blasiak J. 
+L996:  Pro- and Antioxidant Effects of Vitamin C in Cancer in Correspondence to Its Dietary and Pharmacological Concentrations Oxid. Med. Cell. Longev. 2019 2019 7286737 10.1155/2019/7286737 31934267
+L997: 137. Blaner W.S. 
+L998:  Shmarakov I.O. 
+L999:  Traber M.G. 
+L1000:  Vitamin A and Vitamin E: Will the Real Antioxidant Please Stand Up? Annu. Rev. Nutr. 2021 41 105 131 10.1146/annurev-nutr-082018-124228 34115520
+L1001: 138. Orsavová J. 
+L1002:  Hlaváčová I. 
+L1003:  Mlček J. 
+L1004:  Snopek L. 
+L1005:  Mišurcová L. 
+L1006:  Contribution of Phenolic Compounds, Ascorbic Acid and Vitamin E to Antioxidant Activity of Currant ( Ribes  L.) and Gooseberry ( Ribes Uva - Crispa  L.) Fruits Food Chem. 2019 284 323 333 10.1016/j.foodchem.2019.01.072 30744864
+L1007: 139. Choi Y. 
+L1008:  Lee S. 
+L1009:  Kim S. 
+L1010:  Lee J. 
+L1011:  Ha J. 
+L1012:  Oh H. 
+L1013:  Lee Y. 
+L1014:  Kim Y. 
+L1015:  Yoon Y. 
+L1016:  Vitamin E (α-Tocopherol) Consumption Influences Gut Microbiota Composition Int. J. Food Sci. Nutr. 2020 71 221 225 10.1080/09637486.2019.1639637 31298050
+L1017: 140. Prasad A.S. 
+L1018:  Bao B. 
+L1019:  Molecular Mechanisms of Zinc as a Pro-Antioxidant Mediator: Clinical Therapeutic Implications Antioxidants 2019 8 164 10.3390/antiox8060164 31174269
+L1020: 141. Barma M.D. 
+L1021:  Muthupandiyan I. 
+L1022:  Samuel S.R. 
+L1023:  Amaechi B.T. 
+L1024:  Inhibition of Streptococcus Mutans, Antioxidant Property and Cytotoxicity of Novel Nano-Zinc Oxide Varnish Arch. Oral. Biol. 2021 126 105132 10.1016/j.archoralbio.2021.105132 33895543
+L1025: 142. Chinni V. 
+L1026:  El-Khoury J. 
+L1027:  Perera M. 
+L1028:  Bellomo R. 
+L1029:  Jones D. 
+L1030:  Bolton D. 
+L1031:  Ischia J. 
+L1032:  Patel O. 
+L1033:  Zinc Supplementation as an Adjunct Therapy for COVID-19: Challenges and Opportunities Br. J. Clin. Pharm. 2021 87 3737 3746 10.1111/bcp.14826
+L1034: 143. Full Article: Use of Biological Nano Zinc as a Feed Additive in Quail Nutrition: Biosynthesis, Antimicrobial Activity and Its Effect on Growth, Feed Utilisation, Blood Metabolites and Intestinal Microbiota Available online:  https://www.tandfonline.com/doi/full/10.1080/1828051X.2021.1886001 (accessed on 3 April 2023)
+L1035: 144. Skalny A.V. 
+L1036:  Aschner M. 
+L1037:  Lei X.G. 
+L1038:  Gritsenko V.A. 
+L1039:  Santamaria A. 
+L1040:  Alekseenko S.I. 
+L1041:  Prakash N.T. 
+L1042:  Chang J.-S. 
+L1043:  Sizova E.A. 
+L1044:  Chao J.C.J. 
+L1045:  
+L1046:  Gut Microbiota as a Mediator of Essential and Toxic Effects of Zinc in the Intestines and Other Tissues Int. J. Mol. Sci. 2021 22 13074 10.3390/ijms222313074 34884881
+L1047: 145. Bjørklund G. 
+L1048:  Shanaida M. 
+L1049:  Lysiuk R. 
+L1050:  Antonyak H. 
+L1051:  Klishch I. 
+L1052:  Shanaida V. 
+L1053:  Peana M. 
+L1054:  Selenium: An Antioxidant with a Critical Role in Anti-Aging Molecules 2022 27 6613 10.3390/molecules27196613 36235150
+L1055: 146. Huang J. 
+L1056:  Zheng C. 
+L1057:  Luo R. 
+L1058:  Cao X. 
+L1059:  Liu M. 
+L1060:  Gu Q. 
+L1061:  Li F. 
+L1062:  Li J. 
+L1063:  Wu X. 
+L1064:  Yang Z. 
+L1065:  
+L1066:  Integrative Analysis of Multiomics Data Identifies Selenium-Related Gene ALAD Associating with Keshan Disease Free Radic. Biol. Med. 2022 193 702 719 10.1016/j.freeradbiomed.2022.11.014 36395956
+L1067: 147. Zhu K. 
+L1068:  Yang S. 
+L1069:  Li T. 
+L1070:  Huang X. 
+L1071:  Dong Y. 
+L1072:  Wang P. 
+L1073:  Huang J. 
+L1074:  Advances in the Study of the Mechanism by Which Selenium and Selenoproteins Boost Immunity to Prevent Food Allergies Nutrients 2022 14 3133 10.3390/nu14153133 35956310
+L1075: 148. Ferreira R.L.U. 
+L1076:  Sena-Evangelista K.C.M. 
+L1077:  de Azevedo E.P. 
+L1078:  Pinheiro F.I. 
+L1079:  Cobucci R.N. 
+L1080:  Pedrosa L.F.C. 
+L1081:  Selenium in Human Health and Gut Microflora: Bioavailability of Selenocompounds and Relationship with Diseases Front. Nutr. 2021 8 685317 10.3389/fnut.2021.685317 34150830
+L1082: 149. Mushtaq M. 
+L1083:  Fatima M. 
+L1084:  Hussain Shah S.Z. 
+L1085:  Khan N. 
+L1086:  Naveed S. 
+L1087:  Khan M. 
+L1088:  Effects of Sodium Selenite, Selenium Methionine, and Selenium Yeast on Growth Performance, Carcass Composition, Blood Biochemistry, and Antioxidant Status of Intensively Reared Hypophthalmichthys Molitrix Aquac. Rep. 2022 24 101182 10.1016/j.aqrep.2022.101182
+L1089: 150. Yu M. 
+L1090:  Yue J. 
+L1091:  Hui N. 
+L1092:  Zhi Y. 
+L1093:  Hayat K. 
+L1094:  Yang X. 
+L1095:  Zhang D. 
+L1096:  Chu S. 
+L1097:  Zhou P. 
+L1098:  Anti-Hyperlipidemia and Gut Microbiota Community Regulation Effects of Selenium-Rich Cordyceps Militaris Polysaccharides on the High-Fat Diet-Fed Mice Model Foods 2021 10 2252 10.3390/foods10102252 34681302
+L1099: 151. Naliyadhara N. 
+L1100:  Kumar A. 
+L1101:  Kumar Gangwar S. 
+L1102:  Nair Devanarayanan T. 
+L1103:  Hegde M. 
+L1104:  Alqahtani M.S. 
+L1105:  Abbas M. 
+L1106:  Sethi G. 
+L1107:  Kunnumakkara A. 
+L1108:  Interplay of Dietary Antioxidants and Gut Microbiome in Human Health: What Has Been Learnt Thus Far? J. Funct. Foods 2023 100 105365 10.1016/j.jff.2022.105365
+L1109: 152. Li Z. 
+L1110:  Dong Y. 
+L1111:  Chen S. 
+L1112:  Jia X. 
+L1113:  Jiang X. 
+L1114:  Che L. 
+L1115:  Lin Y. 
+L1116:  Li J. 
+L1117:  Feng B. 
+L1118:  Fang Z. 
+L1119:  
+L1120:  Organic Selenium Increased Gilts Antioxidant Capacity, Immune Function, and Changed Intestinal Microbiota Front. Microbiol. 2021 12 723190 10.3389/fmicb.2021.723190 34484164
+L1121: 153. Effect of Different Dietary Selenium Sources on Growth Performance, Antioxidant Capacity, Gut Microbiota, and Molecular Responses in Pacific White Shrimp Litopenaeus Vannamei Available online:  https://www.hindawi.com/journals/anu/2022/5738008/ (accessed on 3 April 2023)
+L1122: 154. Reid M.B. 
+L1123:  Redox Interventions to Increase Exercise Performance J. Physiol. 2016 594 5125 5133 10.1113/JP270653 26584644
+L1124: 155. Slattery K. 
+L1125:  Bentley D. 
+L1126:  Coutts A.J. 
+L1127:  The Role of Oxidative, Inflammatory and Neuroendocrinological Systems during Exercise Stress in Athletes: Implications of Antioxidant Supplementation on Physiological Adaptation during Intensified Physical Training Sports Med. 2015 45 453 471 10.1007/s40279-014-0282-7 25398224
+L1128: 156. Margaritelis N.V. 
+L1129:  Cobley J.N. 
+L1130:  Paschalis V. 
+L1131:  Veskoukis A.S. 
+L1132:  Theodorou A.A. 
+L1133:  Kyparos A. 
+L1134:  Nikolaidis M.G. 
+L1135:  Principles for Integrating Reactive Species into in Vivo Biological Processes: Examples from Exercise Physiology Cell. Signal. 2016 28 256 271 10.1016/j.cellsig.2015.12.011 26721187
+L1136: 157. Tsai K. 
+L1137:  Hsu T.G. 
+L1138:  Hsu K.M. 
+L1139:  Cheng H. 
+L1140:  Liu T.Y. 
+L1141:  Hsu C.F. 
+L1142:  Kong C.W. 
+L1143:  Oxidative DNA Damage in Human Peripheral Leukocytes Induced by Massive Aerobic Exercise Free Radic. Biol. Med. 2001 31 1465 1472 10.1016/S0891-5849(01)00729-8 11728819
+L1144: 158. Torre M.F. 
+L1145:  Martinez-Ferran M. 
+L1146:  Vallecillo N. 
+L1147:  Jiménez S.L. 
+L1148:  Romero-Morales C. 
+L1149:  Pareja-Galeano H. 
+L1150:  Supplementation with Vitamins C and E and Exercise-Induced Delayed-Onset Muscle Soreness: A Systematic Review Antioxidants 2021 10 279 10.3390/antiox10020279 33673055
+L1151: 159. Canals-Garzón C. 
+L1152:  Guisado-Barrilao R. 
+L1153:  Martínez-García D. 
+L1154:  Chirosa-Ríos I.J. 
+L1155:  Jerez-Mayorga D. 
+L1156:  Guisado-Requena I.M. 
+L1157:  Effect of Antioxidant Supplementation on Markers of Oxidative Stress and Muscle Damage after Strength Exercise: A Systematic Review Int. J. Env. Res. Public. Health 2022 19 1803 10.3390/ijerph19031803 35162826
+L1158: 160. Costello J.T. 
+L1159:  Baker P.R.A. 
+L1160:  Minett G.M. 
+L1161:  Bieuzen F. 
+L1162:  Stewart I.B. 
+L1163:  Bleakley C. 
+L1164:  Whole-Body Cryotherapy (Extreme Cold Air Exposure) for Preventing and Treating Muscle Soreness after Exercise in Adults Cochrane Database Syst. Rev. 2015 2015 CD010789 10.1002/14651858.CD010789.pub2 26383887
+L1165: 161. Ranchordas M.K. 
+L1166:  Rogerson D. 
+L1167:  Soltani H. 
+L1168:  Costello J.T. 
+L1169:  Antioxidants for Preventing and Reducing Muscle Soreness after Exercise: A Cochrane Systematic Review Br. J. Sports Med. 2020 54 74 78 10.1136/bjsports-2018-099599 30054340
+L1170: 162. Howatson G. 
+L1171:  McHugh M.P. 
+L1172:  Hill J.A. 
+L1173:  Brouner J. 
+L1174:  Jewell A.P. 
+L1175:  van Someren K.A. 
+L1176:  Shave R.E. 
+L1177:  Howatson S.A. 
+L1178:  Influence of Tart Cherry Juice on Indices of Recovery Following Marathon Running Scand. J. Med. Sci. Sports 2010 20 843 852 10.1111/j.1600-0838.2009.01005.x 19883392
+L1179: 163. Leonardo-Mendonça R.C. 
+L1180:  Ocaña-Wilhelmi J. 
+L1181:  de Haro T. 
+L1182:  de Teresa-Galván C. 
+L1183:  Guerra-Hernández E. 
+L1184:  Rusanova I. 
+L1185:  Fernández-Ortiz M. 
+L1186:  Sayed R.K.A. 
+L1187:  Escames G. 
+L1188:  Acuña-Castroviejo D. 
+L1189:  The Benefit of a Supplement with the Antioxidant Melatonin on Redox Status and Muscle Damage in Resistance-Trained Athletes Appl. Physiol. Nutr. Metab. 2017 42 700 707 10.1139/apnm-2016-0677 28192673
+L1190: 164. Ortiz-Franco M. 
+L1191:  Planells E. 
+L1192:  Quintero B. 
+L1193:  Acuña-Castroviejo D. 
+L1194:  Rusanova I. 
+L1195:  Escames G. 
+L1196:  Molina-López J. 
+L1197:  Effect of Melatonin Supplementation on Antioxidant Status and DNA Damage in High Intensity Trained Athletes Int. J. Sports Med. 2017 38 1117 1125 10.1055/s-0043-119881 29165732
+L1198: 165. Stefan M. 
+L1199:  Sharp M. 
+L1200:  Gheith R. 
+L1201:  Lowery R. 
+L1202:  Ottinger C. 
+L1203:  Wilson J. 
+L1204:  Durkee S. 
+L1205:  Bellamine A. 
+L1206:  L-Carnitine Tartrate Supplementation for 5 Weeks Improves Exercise Recovery in Men and Women: A Randomized, Double-Blind, Placebo-Controlled Trial Nutrients 2021 13 3432 10.3390/nu13103432 34684429
+L1207: 166. Silva L.A. 
+L1208:  Pinho C.A. 
+L1209:  Silveira P.C.L. 
+L1210:  Tuon T. 
+L1211:  De Souza C.T. 
+L1212:  Dal-Pizzol F. 
+L1213:  Pinho R.A. 
+L1214:  Vitamin E Supplementation Decreases Muscular and Oxidative Damage but Not Inflammatory Response Induced by Eccentric Contraction J. Physiol. Sci. 2010 60 51 57 10.1007/s12576-009-0065-3 19859781
+L1215: 167. De Oliveira D.C.X. 
+L1216:  Rosa F.T. 
+L1217:  Simões-Ambrósio L. 
+L1218:  Jordao A.A. 
+L1219:  Deminice R. 
+L1220:  Antioxidant Vitamin Supplementation Prevents Oxidative Stress but Does Not Enhance Performance in Young Football Athletes Nutrition 2019 63–64 29 35 10.1016/j.nut.2019.01.007
+L1221: 168. Zhang T. 
+L1222:  Zhao T. 
+L1223:  Zhang Y. 
+L1224:  Liu T. 
+L1225:  Gagnon G. 
+L1226:  Ebrahim J. 
+L1227:  Johnson J. 
+L1228:  Chu Y.-F. 
+L1229:  Ji L.L. 
+L1230:  Avenanthramide Supplementation Reduces Eccentric Exercise-Induced Inflammation in Young Men and Women J. Int. Soc. Sports Nutr. 2020 17 41 10.1186/s12970-020-00368-3 32711519
+L1231: 169. Drobnic F. 
+L1232:  Riera J. 
+L1233:  Appendino G. 
+L1234:  Togni S. 
+L1235:  Franceschi F. 
+L1236:  Valle X. 
+L1237:  Pons A. 
+L1238:  Tur J. 
+L1239:  Reduction of Delayed Onset Muscle Soreness by a Novel Curcumin Delivery System (Meriva®): A Randomised, Placebo-Controlled Trial J. Int. Soc. Sports Nutr. 2014 11 31 10.1186/1550-2783-11-31 24982601
+L1240: 170. He F. 
+L1241:  Hockemeyer J.A.K. 
+L1242:  Sedlock D. 
+L1243:  Does Combined Antioxidant Vitamin Supplementation Blunt Repeated Bout Effect? Int. J. Sports Med. 2015 36 407 413 10.1055/s-0034-1395630 25607519
+L1244: 171. Close G.L. 
+L1245:  Ashton T. 
+L1246:  Cable T. 
+L1247:  Doran D. 
+L1248:  Holloway C. 
+L1249:  McArdle F. 
+L1250:  MacLaren D.P.M. 
+L1251:  Ascorbic Acid Supplementation Does Not Attenuate Post-Exercise Muscle Soreness Following Muscle-Damaging Exercise but May Delay the Recovery Process Br. J. Nutr. 2006 95 976 981 10.1079/BJN20061732 16611389
+L1252: 172. Kashef M. 
+L1253:  Effect of Vitamin E Supplementation on Delayed Onset Muscle Soreness in Young Men J. Phys. Act. Horm. 2018 2 15 28
+L1254: 173. McGinley C. 
+L1255:  Shafat A. 
+L1256:  Donnelly A.E. 
+L1257:  Does Antioxidant Vitamin Supplementation Protect against Muscle Damage? Sports Med. 2009 39 1011 1032 10.2165/11317890-000000000-00000 19902983
+L1258: 174. Peternelj T.-T. 
+L1259:  Coombes J.S. 
+L1260:  Antioxidant Supplementation during Exercise Training: Beneficial or Detrimental? Sports Med. 2011 41 1043 1069 10.2165/11594400-000000000-00000 22060178
+L1261: 175. Fitó M. 
+L1262:  Guxens M. 
+L1263:  Corella D. 
+L1264:  Sáez G. 
+L1265:  Estruch R. 
+L1266:  de la Torre R. 
+L1267:  Francés F. 
+L1268:  Cabezas C. 
+L1269:  López-Sabater M.D.C. 
+L1270:  Marrugat J. 
+L1271:  
+L1272:  Effect of a Traditional Mediterranean Diet on Lipoprotein Oxidation: A Randomized Controlled Trial Arch. Intern. Med. 2007 167 1195 1203 10.1001/archinte.167.11.1195 17563030
+L1273: 176. Braakhuis A.J. 
+L1274:  Hopkins W.G. 
+L1275:  Lowe T.E. 
+L1276:  Effects of Dietary Antioxidants on Training and Performance in Female Runners Eur. J. Sport Sci. 2014 14 160 168 10.1080/17461391.2013.785597 23600891
+L1277: 177. Aguiló A. 
+L1278:  Tauler P. 
+L1279:  Sureda A. 
+L1280:  Cases N. 
+L1281:  Tur J. 
+L1282:  Pons A. 
+L1283:  Antioxidant Diet Supplementation Enhances Aerobic Performance in Amateur Sportsmen J. Sports Sci. 2007 25 1203 1210 10.1080/02640410600951597 17654232
+L1284: 178. Paulsen G. 
+L1285:  Cumming K.T. 
+L1286:  Holden G. 
+L1287:  Hallén J. 
+L1288:  Rønnestad B.R. 
+L1289:  Sveen O. 
+L1290:  Skaug A. 
+L1291:  Paur I. 
+L1292:  Bastani N.E. 
+L1293:  Østgaard H.N. 
+L1294:  
+L1295:  Vitamin C and E Supplementation Hampers Cellular Adaptation to Endurance Training in Humans: A Double-Blind, Randomised, Controlled Trial J. Physiol. 2014 592 1887 1901 10.1113/jphysiol.2013.267419 24492839
+L1296: 179. Daneshvar P. 
+L1297:  Hariri M. 
+L1298:  Ghiasvand R. 
+L1299:  Askari G. 
+L1300:  Darvishi L. 
+L1301:  Mashhadi N.S. 
+L1302:  Khosravi-Boroujeni H. 
+L1303:  Effect of Eight Weeks of Quercetin Supplementation on Exercise Performance, Muscle Damage and Body Muscle in Male Badminton Players Int. J. Prev. Med. 2013 4 S53 S57 23717771
+L1304: 180. MacRae H.S.H. 
+L1305:  Mefferd K.M. 
+L1306:  Dietary Antioxidant Supplementation Combined with Quercetin Improves Cycling Time Trial Performance Int. J. Sport Nutr. Exerc. Metab. 2006 16 405 419 10.1123/ijsnem.16.4.405 17136942
+L1307: 181. Darvishi L. 
+L1308:  Ghiasvand R. 
+L1309:  Hariri M. 
+L1310:  Askari G. 
+L1311:  Rezai P. 
+L1312:  Aghaie M. 
+L1313:  Iraj B. 
+L1314:  Khosravi-Boroujeni H. 
+L1315:  Mashhadi N.S. 
+L1316:  Quercetin Supplementation Does Not Attenuate Exercise Performance and Body Composition in Young Female Swimmers Int. J. Prev. Med. 2013 4 S43 S47 23717768
+L1317: 182. Ganio M.S. 
+L1318:  Armstrong L.E. 
+L1319:  Johnson E.C. 
+L1320:  Klau J.F. 
+L1321:  Ballard K.D. 
+L1322:  Michniak-Kohn B. 
+L1323:  Kaushik D. 
+L1324:  Maresh C.M. 
+L1325:  Effect of Quercetin Supplementation on Maximal Oxygen Uptake in Men and Women J. Sports Sci. 2010 28 201 208 10.1080/02640410903428558 20054739
+L1326: 183. Gliemann L. 
+L1327:  Schmidt J.F. 
+L1328:  Olesen J. 
+L1329:  Biensø R.S. 
+L1330:  Peronard S.L. 
+L1331:  Grandjean S.U. 
+L1332:  Mortensen S.P. 
+L1333:  Nyberg M. 
+L1334:  Bangsbo J. 
+L1335:  Pilegaard H. 
+L1336:  
+L1337:  Resveratrol Blunts the Positive Effects of Exercise Training on Cardiovascular Health in Aged Men J. Physiol. 2013 591 5047 5059 10.1113/jphysiol.2013.258061 23878368
+L1338: 184. Wylie L.J. 
+L1339:  Kelly J. 
+L1340:  Bailey S.J. 
+L1341:  Blackwell J.R. 
+L1342:  Skiba P.F. 
+L1343:  Winyard P.G. 
+L1344:  Jeukendrup A.E. 
+L1345:  Vanhatalo A. 
+L1346:  Jones A.M. 
+L1347:  Beetroot Juice and Exercise: Pharmacodynamic and Dose-Response Relationships J. Appl. Physiol. 2013 115 325 336 10.1152/japplphysiol.00372.2013 23640589
+L1348: 185. Lansley K.E. 
+L1349:  Winyard P.G. 
+L1350:  Bailey S.J. 
+L1351:  Vanhatalo A. 
+L1352:  Wilkerson D.P. 
+L1353:  Blackwell J.R. 
+L1354:  Gilchrist M. 
+L1355:  Benjamin N. 
+L1356:  Jones A.M. 
+L1357:  Acute Dietary Nitrate Supplementation Improves Cycling Time Trial Performance Med. Sci. Sports Exerc. 2011 43 1125 1131 10.1249/MSS.0b013e31821597b4 21471821
+L1358: 186. Wylie L.J. 
+L1359:  Mohr M. 
+L1360:  Krustrup P. 
+L1361:  Jackman S.R. 
+L1362:  Ermιdis G. 
+L1363:  Kelly J. 
+L1364:  Black M.I. 
+L1365:  Bailey S.J. 
+L1366:  Vanhatalo A. 
+L1367:  Jones A.M. 
+L1368:  Dietary Nitrate Supplementation Improves Team Sport-Specific Intense Intermittent Exercise Performance Eur. J. Appl. Physiol. 2013 113 1673 1684 10.1007/s00421-013-2589-8 23370859
+L1369: 187. Hoon M.W. 
+L1370:  Johnson N.A. 
+L1371:  Chapman P.G. 
+L1372:  Burke L.M. 
+L1373:  The Effect of Nitrate Supplementation on Exercise Performance in Healthy Individuals: A Systematic Review and Meta-Analysis Int. J. Sport Nutr. Exerc. Metab. 2013 23 522 532 10.1123/ijsnem.23.5.522 23580439
+L1374: 188. Simioni C. 
+L1375:  Zauli G. 
+L1376:  Martelli A.M. 
+L1377:  Vitale M. 
+L1378:  Sacchetti G. 
+L1379:  Gonelli A. 
+L1380:  Neri L.M. 
+L1381:  Oxidative Stress: Role of Physical Exercise and Antioxidant Nutraceuticals in Adulthood and Aging Oncotarget 2018 9 17181 17198 10.18632/oncotarget.24729 29682215
+L1382: 189. Shafat A. 
+L1383:  Butler P. 
+L1384:  Jensen R.L. 
+L1385:  Donnelly A.E. 
+L1386:  Effects of Dietary Supplementation with Vitamins C and E on Muscle Function during and after Eccentric Contractions in Humans Eur. J. Appl. Physiol. 2004 93 196 202 10.1007/s00421-004-1198-y 15309547
+L1387: 190. Xie D. 
+L1388:  Hu J. 
+L1389:  Yang Z. 
+L1390:  Wu T. 
+L1391:  Xu W. 
+L1392:  Meng Q. 
+L1393:  Cao K. 
+L1394:  Luo X. 
+L1395:  Vitamin Supplementation Protects against Nanomaterial-Induced Oxidative Stress and Inflammation Damages: A Meta-Analysis of In Vitro and In Vivo Studies Nutrients 2022 14 2214 10.3390/nu14112214 35684016
+L1396: 191. Santos S.A. 
+L1397:  Silva E.T. 
+L1398:  Caris A.V. 
+L1399:  Lira F.S. 
+L1400:  Tufik S. 
+L1401:  Dos Santos R.V.T. 
+L1402:  Vitamin E Supplementation Inhibits Muscle Damage and Inflammation after Moderate Exercise in Hypoxia J. Hum. Nutr. Diet. 2016 29 516 522 10.1111/jhn.12361 27062041
+L1403: 192. Sacheck J.M. 
+L1404:  Decker E.A. 
+L1405:  Clarkson P.M. 
+L1406:  The Effect of Diet on Vitamin E Intake and Oxidative Stress in Response to Acute Exercise in Female Athletes Eur. J. Appl. Physiol. 2000 83 40 46 10.1007/s004210000252 11072772
+L1407: 193. Takanami Y. 
+L1408:  Iwane H. 
+L1409:  Kawai Y. 
+L1410:  Shimomitsu T. 
+L1411:  Vitamin E Supplementation and Endurance Exercise Sports Med. 2000 29 73 83 10.2165/00007256-200029020-00001 10701711
+L1412: 194. Capozzi A. 
+L1413:  Saucier C. 
+L1414:  Bisbal C. 
+L1415:  Lambert K. 
+L1416:  Grape Polyphenols in the Treatment of Human Skeletal Muscle Damage Due to Inflammation and Oxidative Stress during Obesity and Aging: Early Outcomes and Promises Molecules 2022 27 6594 10.3390/molecules27196594 36235130
+L1417: 195. Pugh J. 
+L1418:  Close G. 
+L1419:  Nutritional Antioxidants for Sports Performance Oxidative Eustress in Exercise Physiology CRC Press Boca Raton, FL, USA 2022 115 122 978-1-00-305161-9
+L1420: 196. Kan N.-W. 
+L1421:  Ho C.-S. 
+L1422:  Chiu Y.-S. 
+L1423:  Huang W.-C. 
+L1424:  Chen P.-Y. 
+L1425:  Tung Y.-T. 
+L1426:  Huang C.-C. 
+L1427:  Effects of Resveratrol Supplementation and Exercise Training on Exercise Performance in Middle-Aged Mice Molecules 2016 21 661 10.3390/molecules21050661 27213310
+L1428: 197. Huang C.-C. 
+L1429:  Liu C.-C. 
+L1430:  Tsao J.-P. 
+L1431:  Hsu C.-L. 
+L1432:  Cheng I.-S. 
+L1433:  Effects of Oral Resveratrol Supplementation on Glycogen Replenishment and Mitochondria Biogenesis in Exercised Human Skeletal Muscle Nutrients 2020 12 3721 10.3390/nu12123721 33276518
+L1434: 198. Scribbans T.D. 
+L1435:  Ma J.K. 
+L1436:  Edgett B.A. 
+L1437:  Vorobej K.A. 
+L1438:  Mitchell A.S. 
+L1439:  Zelt J.G.E. 
+L1440:  Simpson C.A. 
+L1441:  Quadrilatero J. 
+L1442:  Gurd B.J. 
+L1443:  Resveratrol Supplementation Does Not Augment Performance Adaptations or Fibre-Type-Specific Responses to High-Intensity Interval Training in Humans Appl. Physiol. Nutr. Metab. 2014 39 1305 1313 10.1139/apnm-2014-0070 25211703
+L1444: 199. Marx W. 
+L1445:  Kelly J. 
+L1446:  Marshall S. 
+L1447:  Cutajar J. 
+L1448:  Annois B. 
+L1449:  Pipingas A. 
+L1450:  Tierney A. 
+L1451:  Itsiopoulos C. 
+L1452:  Effect of Resveratrol Supplementation on Cognitive Performance and Mood in Adults: A Systematic Literature Review and Meta-Analysis of Randomized Controlled Trials Nutr. Rev. 2018 76 432 443 10.1093/nutrit/nuy010 29596658
+L1453: 200. Ostman B. 
+L1454:  Sjödin A. 
+L1455:  Michaëlsson K. 
+L1456:  Byberg L. 
+L1457:  Coenzyme Q10 Supplementation and Exercise-Induced Oxidative Stress in Humans Nutrition 2012 28 403 417 10.1016/j.nut.2011.07.010 22079391
+L1458: 201. Cooke M. 
+L1459:  Iosia M. 
+L1460:  Buford T. 
+L1461:  Shelmadine B. 
+L1462:  Hudson G. 
+L1463:  Kerksick C. 
+L1464:  Rasmussen C. 
+L1465:  Greenwood M. 
+L1466:  Leutholtz B. 
+L1467:  Willoughby D. 
+L1468:  
+L1469:  Effects of Acute and 14-Day Coenzyme Q10 Supplementation on Exercise Performance in Both Trained and Untrained Individuals J. Int. Soc. Sports Nutr. 2008 5 8 10.1186/1550-2783-5-8 18318910
+L1470: 202. Leelarungrayub D. 
+L1471:  Sawattikanon N. 
+L1472:  Klaphajone J. 
+L1473:  Pothongsunan P. 
+L1474:  Bloomer R.J. 
+L1475:  Coenzyme Q10 Supplementation Decreases Oxidative Stress and Improves Physical Performance in Young Swimmers: A Pilot Study Open Sports Med. J. 2010 4 1 8 10.2174/1874387001004010001
+L1476: 203. Emami A. 
+L1477:  Tofighi A. 
+L1478:  Asri-Rezaei S. 
+L1479:  Bazargani-Gilani B. 
+L1480:  The Effect of Short-Term Coenzyme Q10 Supplementation and Pre-Cooling Strategy on Cardiac Damage Markers in Elite Swimmers Br. J. Nutr. 2018 119 381 390 10.1017/S0007114517003774 29498347
+L1481: 204. Astani K. 
+L1482:  Bashiri J. 
+L1483:  Pourrazi H. 
+L1484:  Nourazar M.A. 
+L1485:  Effect of High-Intensity Interval Training and Coenzyme Q10 Supplementation on Cardiac Apoptosis in Obese Male Rats ARYA Atheroscler. 2022 18 1 9 10.48305/arya.v18i0.2459
+L1486: 205. Ghiasi S. 
+L1487:  Bashiri J. 
+L1488:  Pourrazi H. 
+L1489:  Jadidi R. 
+L1490:  The Effect of High-Intensity Interval Training and CoQ10 Administration on Hepatic CEACAM1 and PDGFA Proteins in Diet-Induced Obese Rats Sport Sci. Health 2022 1 8 10.1007/s11332-022-00922-3
+L1491: 206. Fernández-Lázaro D. 
+L1492:  Fernandez-Lazaro C.I. 
+L1493:  Mielgo-Ayuso J. 
+L1494:  Navascués L.J. 
+L1495:  Córdova Martínez A. 
+L1496:  Seco-Calvo J. 
+L1497:  The Role of Selenium Mineral Trace Element in Exercise: Antioxidant Defense System, Muscle Performance, Hormone Response, and Athletic Performance. A Systematic Review Nutrients 2020 12 1790 10.3390/nu12061790 32560188
+L1498: 207. Rayman M.P. 
+L1499:  Stranges S. 
+L1500:  Griffin B.A. 
+L1501:  Pastor-Barriuso R. 
+L1502:  Guallar E. 
+L1503:  Effect of Supplementation with High-Selenium Yeast on Plasma Lipids: A Randomized Trial Ann. Intern. Med. 2011 154 656 665 10.7326/0003-4819-154-10-201105170-00005 21576533
+L1504: 208. Fernández-Lázaro D. 
+L1505:  Mielgo-Ayuso J. 
+L1506:  Seco Calvo J. 
+L1507:  Córdova Martínez A. 
+L1508:  Caballero García A. 
+L1509:  Fernandez-Lazaro C.I. 
+L1510:  Modulation of Exercise-Induced Muscle Damage, Inflammation, and Oxidative Markers by Curcumin Supplementation in a Physically Active Population: A Systematic Review Nutrients 2020 12 501 10.3390/nu12020501 32075287
+L1511: 209. Nicol L.M. 
+L1512:  Rowlands D.S. 
+L1513:  Fazakerly R. 
+L1514:  Kellett J. 
+L1515:  Curcumin Supplementation Likely Attenuates Delayed Onset Muscle Soreness (DOMS) Eur. J. Appl. Physiol. 2015 115 1769 1777 10.1007/s00421-015-3152-6 25795285
+L1516: 210. Tanabe Y. 
+L1517:  Maeda S. 
+L1518:  Akazawa N. 
+L1519:  Zempo-Miyaki A. 
+L1520:  Choi Y. 
+L1521:  Ra S.-G. 
+L1522:  Imaizumi A. 
+L1523:  Otsuka Y. 
+L1524:  Nosaka K. 
+L1525:  Attenuation of Indirect Markers of Eccentric Exercise-Induced Muscle Damage by Curcumin Eur. J. Appl. Physiol. 2015 115 1949 1957 10.1007/s00421-015-3170-4 25921600
+L1526: 211. Criswell D. 
+L1527:  Powers S. 
+L1528:  Dodd S. 
+L1529:  Lawler J. 
+L1530:  Edwards W. 
+L1531:  Renshler K. 
+L1532:  Grinton S. 
+L1533:  High Intensity Training-Induced Changes in Skeletal Muscle Antioxidant Enzyme Activity Med. Sci. Sports Exerc. 1993 25 1135 1140 10.1249/00005768-199310000-00009 8231758
+L1534: 212. Beaton L.J. 
+L1535:  Allan D.A. 
+L1536:  Tarnopolsky M.A. 
+L1537:  Tiidus P.M. 
+L1538:  Phillips S.M. 
+L1539:  Contraction-Induced Muscle Damage Is Unaffected by Vitamin E Supplementation Med. Sci. Sports Exerc. 2002 34 798 805 10.1097/00005768-200205000-00012 11984298
+L1540: 213. Tsao J.-P. 
+L1541:  Liu C.-C. 
+L1542:  Wang H.-F. 
+L1543:  Bernard J.R. 
+L1544:  Huang C.-C. 
+L1545:  Cheng I.-S. 
+L1546:  Oral Resveratrol Supplementation Attenuates Exercise-Induced Interleukin-6 but Not Oxidative Stress after a High Intensity Cycling Challenge in Adults Int. J. Med. Sci. 2021 18 2137 2145 10.7150/ijms.55633 33859520
+L1547: 214. Novelle M.G. 
+L1548:  Wahl D. 
+L1549:  Diéguez C. 
+L1550:  Bernier M. 
+L1551:  de Cabo R. 
+L1552:  Resveratrol Supplementation: Where Are We Now and Where Should We Go? Ageing Res. Rev. 2015 21 1 15 10.1016/j.arr.2015.01.002 25625901
+L1553: 215. Drobnic F. 
+L1554:  Lizarraga M.A. 
+L1555:  Caballero-García A. 
+L1556:  Cordova A. 
+L1557:  Coenzyme Q10 Supplementation and Its Impact on Exercise and Sport Performance in Humans: A Recovery or a Performance-Enhancing Molecule? Nutrients 2022 14 1811 10.3390/nu14091811 35565783
+L1558: 216. Kon M. 
+L1559:  Tanabe K. 
+L1560:  Akimoto T. 
+L1561:  Kimura F. 
+L1562:  Tanimura Y. 
+L1563:  Shimizu K. 
+L1564:  Okamoto T. 
+L1565:  Kono I. 
+L1566:  Reducing Exercise-Induced Muscular Injury in Kendo Athletes with Supplementation of Coenzyme Q10 Br. J. Nutr. 2008 100 903 909 10.1017/S0007114508926544 18284711
+L1567: 217. Wrobel J.K. 
+L1568:  Power R. 
+L1569:  Toborek M. 
+L1570:  Biological Activity of Selenium: Revisited IUBMB Life 2016 68 97 105 10.1002/iub.1466 26714931
+L1571: 218. Bai K.-Y. 
+L1572:  Liu G.-H. 
+L1573:  Fan C.-H. 
+L1574:  Kuo L.-T. 
+L1575:  Hsu W.-H. 
+L1576:  Yu P.-A. 
+L1577:  Chen C.-L. 
+L1578:  12-Week Curcumin Supplementation May Relieve Postexercise Muscle Fatigue in Adolescent Athletes Front. Nutr. 2022 9 1078108 10.3389/fnut.2022.1078108 36687718
+L1579: 219. Salehi M. 
+L1580:  Mashhadi N.S. 
+L1581:  Esfahani P.S. 
+L1582:  Feizi A. 
+L1583:  Hadi A. 
+L1584:  Askari G. 
+L1585:  The Effects of Curcumin Supplementation on Muscle Damage, Oxidative Stress, and Inflammatory Markers in Healthy Females with Moderate Physical Activity: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial Int. J. Prev. Med. 2021 12 94 10.4103/ijpvm.IJPVM_138_20 34584659
+L1586: 220. Gammone M.A. 
+L1587:  Riccioni G. 
+L1588:  Parrinello G. 
+L1589:  D’Orazio N. 
+L1590:  Omega-3 Polyunsaturated Fatty Acids: Benefits and Endpoints in Sport Nutrients 2018 11 46 10.3390/nu11010046 30591639
+L1591: 221. McGlory C. 
+L1592:  Wardle S.L. 
+L1593:  Macnaughton L.S. 
+L1594:  Witard O.C. 
+L1595:  Scott F. 
+L1596:  Dick J. 
+L1597:  Bell J.G. 
+L1598:  Phillips S.M. 
+L1599:  Galloway S.D.R. 
+L1600:  Hamilton D.L. 
+L1601:  
+L1602:  Fish Oil Supplementation Suppresses Resistance Exercise and Feeding-Induced Increases in Anabolic Signaling without Affecting Myofibrillar Protein Synthesis in Young Men Physiol. Rep. 2016 4 e12715 10.14814/phy2.12715 27009278
+L1603: 222. Kara E. 
+L1604:  Gunay M. 
+L1605:  Cicioglu I. 
+L1606:  Ozal M. 
+L1607:  Kilic M. 
+L1608:  Mogulkoc R. 
+L1609:  Baltaci A.K. 
+L1610:  Effect of Zinc Supplementation on Antioxidant Activity in Young Wrestlers Biol. Trace Elem. Res. 2010 134 55 63 10.1007/s12011-009-8457-z 19597720
+L1611: 223. Lukaski H.C. 
+L1612:  Vitamin and Mineral Status: Effects on Physical Performance Nutrition 2004 20 632 644 10.1016/j.nut.2004.04.001 15212745
+L1613: 224. Cinar V. 
+L1614:  Akbulut T. 
+L1615:  Kilic Y. 
+L1616:  Özdal M. 
+L1617:  Sarikaya M. 
+L1618:  The Effect of 6-Week Zinc Supplement and Weight Training on the Blood Lipids of the Sedentaries and Athletes Cell. Mol. Biol. 2018 64 1 5 10.14715/cmb/2018.64.11.1
+L1619: 225. Schmitt B. 
+L1620:  Vicenzi M. 
+L1621:  Garrel C. 
+L1622:  Denis F.M. 
+L1623:  Effects of N-Acetylcysteine, Oral Glutathione (GSH) and a Novel Sublingual Form of GSH on Oxidative Stress Markers: A Comparative Crossover Study Redox Biol. 2015 6 198 205 10.1016/j.redox.2015.07.012 26262996
+L1624: 226. Saitoh T. 
+L1625:  Satoh H. 
+L1626:  Nobuhara M. 
+L1627:  Machii M. 
+L1628:  Tanaka T. 
+L1629:  Ohtani H. 
+L1630:  Saotome M. 
+L1631:  Urushida T. 
+L1632:  Katoh H. 
+L1633:  Hayashi H. 
+L1634:  Intravenous Glutathione Prevents Renal Oxidative Stress after Coronary Angiography More Effectively than Oral N-Acetylcysteine Heart Vessel. 2011 26 465 472 10.1007/s00380-010-0078-0
+L1635: 227. Søndergård S.D. 
+L1636:  Cintin I. 
+L1637:  Kuhlman A.B. 
+L1638:  Morville T.H. 
+L1639:  Bergmann M.L. 
+L1640:  Kjær L.K. 
+L1641:  Poulsen H.E. 
+L1642:  Giustarini D. 
+L1643:  Rossi R. 
+L1644:  Dela F. 
+L1645:  
+L1646:  The Effects of 3 Weeks of Oral Glutathione Supplementation on Whole Body Insulin Sensitivity in Obese Males with and without Type 2 Diabetes: A Randomized Trial Appl. Physiol. Nutr. Metab. 2021 46 1133 1142 10.1139/apnm-2020-1099 33740389
+L1647: 228. Rhodes K. 
+L1648:  Braakhuis A. 
+L1649:  Performance and Side Effects of Supplementation with N-Acetylcysteine: A Systematic Review and Meta-Analysis Sports Med. 2017 47 1619 1636 10.1007/s40279-017-0677-3 28102488
+L1650: 229. Clemente-Suárez V.J. 
+L1651:  Mielgo-Ayuso J. 
+L1652:  Quiles J.L. 
+L1653:  Varela-Lopez A. 
+L1654:  Aranda P. 
+L1655:  Effect of α-tocopherol megadoses on hematologic parameters and antioxidant capacity of rats in an ultraendurance probe Physiol. Int. 2017 104 291 300 10.1556/2060.104.2017.4.2 29278023
+L1656: 230. Clemente-Suárez V.J. 
+L1657:  Martín-Rodríguez A. 
+L1658:  Redondo-Flórez L. 
+L1659:  Ruisoto P. 
+L1660:  Navarro-Jiménez E. 
+L1661:  Ramos-Campo D.J. 
+L1662:  Tornero-Aguilera J.F. 
+L1663:  Metabolic Health, Mitochondrial Fitness, Physical Activity, and Cancer Cancers 2023 15 814 10.3390/cancers15030814 36765772
+L1664: 231. Carreira-Míguez M. 
+L1665:  Ramos-Campo D.J. 
+L1666:  Clemente-Suárez V.J. 
+L1667:  Differences in Nutritional and Psychological Habits in Hypertension Patients BioMed Res. Int. 2022 2022 1920996 10.1155/2022/1920996 35845950
+L1668: 232. Clemente-Suárez V.J. 
+L1669:  Redondo-Flórez L. 
+L1670:  Rubio-Zarapuz A. 
+L1671:  Martínez-Guardado I. 
+L1672:  Navarro-Jiménez E. 
+L1673:  Tornero-Aguilera J.F. 
+L1674:  Nutritional and Exercise Interventions in Cancer-Related Cachexia: An Extensive Narrative Review Int. J. Environ. Res. Public Health 2022 19 4604 10.3390/ijerph19084604 35457471
+L1675: 233. Clemente-Suárez V.J. 
+L1676:  Ramos-Campo D.J. 
+L1677:  Mielgo-Ayuso J. 
+L1678:  Dalamitros A.A. 
+L1679:  Nikolaidis P.A. 
+L1680:  Hormeño-Holgado A. 
+L1681:  Tornero-Aguilera J.F. 
+L1682:  Nutrition in the Actual COVID-19 Pandemic. A Narrative Review Nutrients 2021 13 1924 10.3390/nu13061924 34205138
+[41ms]
+

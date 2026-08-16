@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_67a98d9b",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/corpus-set-b03.results.csv"
+  ],
+  "completed_at": "2026-08-16T05:27:06.848916+00:00",
+  "elapsed_seconds": 0.3288016659207642,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:27:06.520107+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/corpus-set-b03.export.attempt-01.stderr",
+  "stdout_bytes": 131,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/corpus_set/corpus-set-b03.export.attempt-01.stdout"
+}

@@ -1,0 +1,280 @@
+L1: Comparative Bioavailability of Vitamin C After Short-Term Consumption of Raw Fruits and Vegetables and Their Juices: A Randomized Crossover Study
+L2: Nutrients (2025)
+L3: Mijoo Choi, Juha Baek, Jung-Mi Yun, Young-Shick Hong, Eunju Park
+L4: 1 RISE Bio-Center, Kyungnam University, Changwon 51767, Republic of Korea;  mijjoo@kyungnam.ac.kr
+L5: 2 Department of Food and Nutrition, Kyungnam University, Changwon 51767, Republic of Korea;  kyungsoo0318@naver.com
+L6: 3 Department of Food and Nutrition, Chonnam National University, Gwangju 61186, Republic of Korea;  sosung75@jnu.ac.kr
+L7: Background/Objectives: Vitamin C plays a vital role in human health, functioning as a powerful antioxidant and enzymatic cofactor. Although vitamin C bioavailability from food versus supplements has been debated, few studies have examined how intake form affects absorption and physiological markers. Methods: This randomized, controlled, crossover trial aimed to compare the bioavailability of vitamin C consumed as a supplement, through raw fruits and vegetables, or through fruit and vegetable juice. Twelve healthy adults underwent three 1-day crossover trials, each separated by a 2-week washout. Participants consumed 101.7 mg of vitamin C via powder, raw fruits and vegetables (186.8 g), or juice (200 mL). Plasma and urinary vitamin C concentrations, urinary metabolites ( 1 H NMR), and antioxidant activity (ORAC and TRAP) were assessed over 24 h. Results: All interventions elevated plasma vitamin C levels, with juice yielding the highest AUC (25.3 ± 3.2 mg/dL·h). Urinary vitamin C increased in all groups. Metabolomics revealed increased urinary excretion of mannitol, glycine, taurine, dimethylglycine (DMG), and asparagine, and decreased choline and dimethylamine (DMA). Notably, urinary mannitol increased only in the morning. Choline significantly decreased after powder intake ( p  = 0.001), with similar trends observed in the other groups. DMG and glycine increased following raw and juiced vegetable intake. Antioxidant activity showed transient ORAC elevation post-powder but no sustained improvements. Conclusions: Vitamin C is bioavailable from all intake forms, with juice providing the most efficient absorption. Urinary metabolite changes suggest microbiota-related modulation, while antioxidant activity improvements were limited.
+L8: Article
+L9: ascorbic acid; fruit and vegetable juices; biological availability; absorption
+L10: 1. Introduction
+L11: L-ascorbic acid (vitamin C) is an indispensable water-soluble compound that supports essential physiological processes in humans. While most animals are able to synthesize vitamin C internally, humans and a few other mammals have lost this capacity because of a mutation in the  gulonolactone oxidase  gene, which encodes the key enzyme required for vitamin C biosynthesis [ 1 ]. Consequently, vitamin C must be obtained from dietary sources. Vitamin C plays an important role in maintaining normal physiological functions. It is required for the metabolism of tyrosine, folic acid, and tryptophan and participates in hydroxylation reactions involving glycine, proline, and catecholamines [ 2 ]. It also contributes to the conversion of cholesterol to bile acids, thereby lowering serum cholesterol levels, and enhances the intestinal absorption of iron.
+L12: In addition to these roles, vitamin C serves as a strong antioxidant, scavenging reactive oxygen species (ROS) in the body [ 3 , 4 ]. It also regenerates other antioxidants, including vitamin E, by reducing their radical forms [ 5 , 6 ]. Additionally, vitamin C is indispensable for collagen biosynthesis, an essential process for wound healing [ 7 ], and it helps regulate immune responses by promoting T cell differentiation and antibody production by B cells [ 2 ].
+L13: Deficiency of vitamin C can lead to clinical manifestations such as scurvy [ 8 ], anemia, poor wound healing, muscle weakness, and increased susceptibility to infections [ 2 ]. Vitamin C absorption occurs primarily through sodium-dependent vitamin C transporters (SVCTs) [ 9 ], while its oxidized form, dehydroascorbic acid (DHA), enters cells via glucose transporters (GLUTs) and is subsequently reduced to ascorbic acid [ 10 ]. The relative contribution of DHA intake to overall vitamin C homeostasis remains unclear.
+L14: Gastrointestinal absorption of vitamin C is regulated in a dose-dependent manner [ 11 ]. At intake amounts between 30 and 180 mg/day, absorption efficiency ranges from 70 to 90%, but it declines to below 50% when intake exceeds 1 g/day, with excess being excreted through urine [ 5 ]. Pharmacokinetic data indicate that an oral dose of 1.25 g ascorbic acid produces a mean plasma concentration of approximately 135 µmol/L—roughly twice that achieved by a dietary intake of 200–300 mg from vitamin C-rich foods [ 10 ]. Even repeated doses of 3 g every 4 h do not raise plasma concentrations beyond 220 µmol/L, and repeated doses of 2 g every 4 h do not raise plasma concentrations beyond 300 mg [ 5 ]. Within tissues, millimolar concentrations are found in leukocytes, the eyes, adrenal and pituitary gland, and the brain, while extracellular fluids such as plasma and saliva contain lower micromolar levels.
+L15: Plasma vitamin C concentrations increase rapidly with daily intakes above 30 mg, plateauing at approximately 70–80 µmol/L, indicating a renal threshold beyond which urinary excretion rises proportionally. Daily intakes of 50–90 mg are linearly correlated with plasma and neutrophil levels, whereas intakes above 100 mg lead to tissue saturation. At 200 mg/day, further increases in plasma concentration are minimal, indicating that a steady state has been achieved [ 12 , 13 ].
+L16: Inadequate consumption of fruits and vegetables remains a public health issue. Diets rich in these foods are associated with lower risks of chronic disease, including cardiovascular disorders and cancer. The World Health Organization (WHO) recommends consuming at least 500 g of fruits and vegetables per day, while the Korean Nutrition Society recommends 210–490 g of vegetables and 300–600 g of fruits daily. However, according to the 2022 Korea National Health and Nutrition Examination Survey (KNHANES), only 22.7% of individuals aged ≥ 6 years met the recommendation, representing a decrease from 35.6% in 2013; the 2023 survey reported a further drop to 22.1%. These data indicate that a majority of the population consistently fails to achieve adequate intake, potentially leading to insufficient vitamin C consumption.
+L17: The COVID-19 pandemic has heightened global awareness of the relationship between diet and health, encouraging increased consumption of fruits and vegetables in some populations and a growing interest in fresh juices [ 14 ]. Although juice products are often perceived as being nutrient-rich, few studies have directly compared the bioavailability of vitamin C between juiced forms of fruits and vegetables. Accordingly, the current study was designed to compare the bioavailability of vitamin C obtained from raw fruits and vegetables, their juices, and vitamin C supplements using equivalent doses and to evaluate whether these different intake forms affect antioxidant activity, thereby elucidating the physiological impact of vitamin C according to intake type.
+L18: The novelty of this study lies in its integrated and translational approach. Using a randomized, crossover design with equivalent vitamin C doses, we compared supplement, raw, and juiced forms within the same individuals while controlling for background diet. By simultaneously assessing plasma kinetics, urinary metabolites, and antioxidant markers, this study provides the first comprehensive insight into how food processing and matrix composition influence short-term vitamin C bioavailability in humans. We hypothesized that mechanical processing (juicing) would enhance short-term vitamin C absorption but not necessarily antioxidant capacity.
+L19: 2. Materials and Methods
+L20: 2.1. Materials
+L21: Vitamin C (ascorbic acid, ≥99%, food-grade, product number A92902), deuterium oxide (D 2 O, ≥99.9 atom % D, NMR grade), 3-(trimethylsilyl)propionic-2,2,3,3-D 4  acid sodium salt (TSP, ≥98%, NMR grade), sodium azide (NaN 3 , ≥99.5%), 2-methylpropionamidine dihydrochloride (≥98%), 2,2′-azobis(2-methylpropionamidine) dihydrochloride (AAPH, ≥97%), fluorescein sodium salt (≥97%), Trolox (≥97%, water-soluble vitamin E analog), and ABTS (2,2′-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid), ≥98%) were purchased from Sigma-Aldrich (St. Louis, MO, USA). Hydrogen peroxide (H 2 O 2 , 30%, analytical grade), metmyoglobin (from equine skeletal muscle), and Histopaque 1077 were also obtained from Sigma-Aldrich.
+L22: Phosphate-buffered saline (PBS, pH 7.4), butylated hydroxytoluene (BHT, ≥99%, HPLC grade), ammonium acetate (≥98%, HPLC grade), HPLC-grade water, and ammonium formate (≥99%, HPLC grade) were used for extraction and chromatographic analysis. All solvents and reagents used for LC-MS/MS analysis were of HPLC or LC-MS grade unless otherwise specified.
+L23: 2.2. Preparation of Equivalent Vitamin C Sources: Raw Fruits and Vegetables and Their Juice
+L24: Fresh mandarin oranges ( Citrus reticulata , Jeju origin), cherry tomatoes ( Solanum lycopersicum ), and orange bell peppers ( Capsicum annuum ) were purchased from a domestic online grocery store in April 2023. All items were produced in Korea; the mandarin oranges were confirmed to be of Jeju origin. Because the products were commercially distributed, the exact varieties and ripeness grades could not be verified, but all samples were selected in market-ready condition, judged by typical color and firmness at the time of purchase. The edible portions of each item were thoroughly washed, separated, and frozen at −80 °C. After freezing, the samples were freeze-dried and ground into powder. The powders were stored at −80 °C until vitamin C analysis.
+L25: To prepare the fruit and vegetable juice, washed mandarin oranges, cherry tomatoes, and orange bell pepper were blended using a low-speed blender juicer (H410; Hurom Co., Ltd., Seoul, Republic of Korea) in a ratio of 1.0:0.5:1.0 (mandarin orange/cherry tomato/orange bell pepper). The juice was freshly prepared using a juicer immediately before consumption under minimal light exposure to prevent oxidation. Each serving was provided to participants within approximately 5 min of juicing, without storage or freezing, to ensure the preservation of vitamin C content. The resulting juice was immediately frozen at −80 °C, freeze-dried, and ground into powder, which was also stored at −80 °C for vitamin C analysis.
+L26: 2.3. Vitamin C Concentration of Raw Fruits and Vegetables and Their Juice
+L27: For vitamin C quantification, 50 mg freeze-dried samples of mandarin orange, cherry tomato, and orange bell pepper were each mixed with 700 µL of 10 mM ammonium acetate, 650 µL of 70% methanol, and 50 µL of 0.1% butylated hydroxytoluene (BHT). The mixtures were vortexed for 5 min and sonicated at room temperature for an additional 5 min. After centrifugation at 3000 rpm for 5 min, the supernatants were filtered through a PTFE syringe filter (0.45 µm). The filtered extracts were analyzed using a Thermo Scientific Dionex Ultimate 3000 UHPLC system (Thermo Fisher Scientific, Bremen, Germany) coupled with a mass spectrometer. Vitamin C was quantified as ascorbic acid only, without chemical reduction for dehydroascorbic acid, and therefore represents the reduced form of vitamin C. Component separation was performed on an Eclipse Plus C18 column (4.6 mm × 150 mm, 5 µm; Agilent, Santa Clara, CA, USA). The mobile phases consisted of HPLC-grade water (A) and 20 mM ammonium formate (B). A linear gradient was applied, increasing B from 40% to 95% in the first minute, and held at 95% for 10 min. The total run time was 10 min, with a flow rate of 0.3 mL/min, a column temperature of 25 °C, and an injection volume of 10 µL [ 15 ].
+L28: 2.4. Subjects and Study Design
+L29: This study was designed as a randomized, controlled, crossover trial with three groups, namely A group (a vitamin C supplement with 101.7 mg of vitamin C), B group (raw fruits and vegetables (186.8 g), including mandarin orange (74.7 g), cherry tomato (37.4 g), and orange bell pepper (74.7 g)), or C group (fruit and vegetable juice (200 mL), equivalent to 202.5 g), with each group receiving an equivalent dose of 101.7 mg of vitamin C. This standardized dose was based on the measured vitamin C content of 200 mL of fresh juice, which contained 101.7 mg of vitamin C ( Table 1 ). Because 200 mL represents a typical single serving of fruit and vegetable juices, this volume was selected as a practical reference to evaluate vitamin C absorption and bioavailability under real-world dietary conditions. Participants were recruited in April 2023 and participated in three 1-day experimental trials, with each session separated by a 2-week interval. Twelve healthy adults, both male and female, were recruited. None of the participants were smokers, and they were instructed to refrain from consuming raw or processed fruits and vegetables rich in vitamin C, as well as any foods or supplements containing vitamin C, for one week prior to the experiment. To assess the participants’ physical characteristics, measurements were taken for height, weight, BMI, waist circumference, hip circumference, blood pressure, and blood glucose levels. During the experimental period, participants were provided with standardized meals, as shown in  Table 2 , and these meals did not contain vitamin C. Blood samples were collected from each participant before consumption (0 h) and 0.5, 1, 2, 4, 6, 8, 12, and 24 h after consumption. Urine samples were collected at the same time points as the blood samples: 0 h (baseline, before consumption), +2 h (2–3 h post-intake), +8 h (8–9 h post-intake), and +24 h (23–24 h post-intake) after consumption. The collected blood samples were used to analyze the bioavailability of vitamin C and to assess antioxidant capacity. This study was approved by the Institutional Review Board (IRB) of Kyungnam University (approval number: KUIRB 1040460-A-2023-005), and informed consent was obtained from participants who volunteered for the study.
+L30: 2.5. Blood and Urine Sample Collection
+L31: Blood and urine samples were collected from a total of 12 participants after obtaining written informed consent. The remaining blood was centrifuged at 1000 rpm for 15 min, and 1 mL of the supernatant from each tube was collected for the analysis of vitamin C content. To separate plasma and serum, the samples were further centrifuged at 3000 rpm for 30 min. The separated fractions were stored at −80 °C for subsequent antioxidant activity assays. Blood samples were processed into heparinized plasma and serum immediately after collection, aliquoted to minimize oxidation, and stored at −80 °C until analysis. Urine samples were collected for two different analyses: vitamin C quantification and nuclear magnetic resonance (NMR) spectroscopy. Plasma and urine samples were aliquoted and stored at −80 °C immediately after collection without the addition of any antioxidant or stabilizing agent. All urine samples were aliquoted immediately after collection and stored at −80 °C to prevent oxidation and metabolite degradation. For vitamin C analysis, urine samples were centrifuged at 1500 rpm for 10 min, and the resulting supernatant was collected and stored at −80 °C until further analysis. For NMR analysis, samples were thawed at 4 °C and centrifuged at 13,000 rpm for 10 min at the same temperature. Then, 540 μL of the supernatant was mixed with 60 μL of 0.15 M phosphate buffer (pH 7.4) prepared in deuterium oxide (D 2 O), containing 0.05% 3-(trimethylsilyl) propionic-2,2,3,3-D 4  acid sodium salt (TSP) and 0.04% sodium azide (NaN 3 ). TSP was used as a chemical shift reference at 0.00 ppm for proton detection, NaN 3  was added to prevent microbial spoilage of the sample, and D 2 O provided a lock signal for the NMR spectrometer.
+L32: 2.6. Quantitative Analysis of Vitamin C in Plasma and Urine
+L33: Vitamin C levels in plasma and urine were quantified using the same LC-MS/MS conditions described for the analysis of dried fruit and vegetable samples. Pre-treated plasma and urine samples were analyzed using a Thermo Scientific Dionex Ultimate 3000 UHPLC system (Thermo Fisher Scientific, Bremen, Germany). Component separation was carried out on an Eclipse Plus C18 column (4.6 mm × 150 mm, 5 µm; Agilent, USA). The mobile phases consisted of HPLC-grade water (A) and 20 mM ammonium formate (B). A linear gradient was applied to increase solvent B from 40% to 95% over 1 min, and then it was maintained at 95% for 10 min. The total run time was 10 min. The flow rate was set at 0.3 mL/min, the column temperature was maintained at 25 °C, and the injection volume was 10 µL.
+L34: 2.7.  1 H NMR Analysis
+L35: All one-dimensional (1D)  1 H NMR spectra of urine were acquired using a Bruker Advance 700 spectrometer (Bruker Biospin Gmbh, Rheinstetten, Germany) equipped with a cryogenic triple-resonance probe and a Bruker automatic injector, operating at a 700.40 MHz  1 H frequency and 298 K. Spectral data were accumulated by using a pulse sequence including presaturation of the water resonance (noesygppr1d), with an acquisition time of 1.95 s, a recycle delay of 2 s, 128 scans, and a sweep width of 8147.51 Hz, which led to 9.25 min of total acquisition for each sample. Tuning, matching, and shimming were automatically carried out on each sample during automatic acquisition. Zero-filling to 32 k points and line-broadening of 0.3 Hz were applied to each free induction decay before Fourier transformation. Phase correction of the spectra was manually carried out using Topspin (version 2.1, Bruker Biospin Gmbh). Signal assignment for representative urine sample was facilitated by two-dimensional (2D) total correlation spectroscopy (TOCSY) and heteronuclear single-quantum correlation (HSQC) experiments.
+L36: 2.8. Plasma Antioxidant Activity
+L37: 2.8.1. Oxygen Radical Absorbance Capacity (ORAC) Assay
+L38: The antioxidant capacity was evaluated using a fluorescein-based ORAC assay [ 16 ]. Peroxyl radicals were generated by adding 5 mM 2,2′-azobis(2-methylpropionamidine) dihydrochloride (AAPH). The fluorescein working solution (40 nM) was prepared following the procedure described by Ou et al. [ 17 ]. Fluorescence was monitored with a FLUOstar microplate reader (BMG Labtech, Ortenberg, Germany) at excitation and emission wavelengths of 485 nm and 535 nm, respectively. The antioxidant activity was expressed as micromoles of trolox equivalents (μM TE) per gram of sample based on the area under the fluorescence decay curve corresponding to 1 μM trolox, a water-soluble analog of vitamin E (6-hydroxy-2,5,7,8-tetramethylchroman-2-carbonyl acid).
+L39: 2.8.2. Total Radical-Trapping Antioxidant Parameter (TRAP) Assay
+L40: The TRAP of plasma was assessed using a modified inhibition assay as previously reported by Rice-Evans and Miller [ 18 ]. This method quantifies the degree of suppression of the ABTS radical cation, produced through the reaction between ferryl myoglobin intermediates and ABTS {2,2′-azinobis (3-ethylbenzothiazoline 6-sulfonate), 150 mM} and in the presence of metmyoglobin (25 mM) with hydrogen peroxide (75 mM). The inhibition of absorbance reflects the antioxidant capacity within the plasma sample (0.84%  v / v ). Samples were incubated at 30 °C for 8 min, and absorbance changes were measured at 740 nm using a UV/VIS spectrophotometer (Shimadzu Corporation, Kyoto, Japan). Total antioxidant capacity was calculated using a trolox calibration curve and expressed as trolox equivalent antioxidant capacity (TEAC, mM).
+L41: 2.9. Statistical Analysis
+L42: All data, except for NMR data, were entered using an MS Excel database system and analyzed using SPSS (version 25.0) for Windows (IBM Co., Armonk, NY, USA). Percentages and mean values ± standard error of the mean (SE) were calculated for each variable. Statistical analysis was performed using a repeated-measures one-way analysis of variance (ANOVA) to evaluate differences among interventions, with participant ID included as a random factor to account for within-subject variability inherent in the crossover design. When significant main effects were detected, post hoc pairwise comparisons were performed using the Bonferroni adjustment. A  p -value < 0.05 was considered statistically significant. NMR spectra corrected for phase and baseline were transformed to American Standard Code for Information Interchange (ASCII) format, calibrated to proton of glucose at 5.23 ppm, and aligned using the icoshift method in MATLAB (R2010b, Mathworks Inc., Natick, MA, USA). The regions corresponding to residual water were removed prior to integral normalization or constant sum normalization. Normalization is a common method of scaling each spectrum to the same virtual concentration in order to avoid the dilution effect of metabolites in any sample set. After normalization, the resulting data set was used for multivariate statistical analysis. In particular, the orthogonal projection to latent structures (OPLS) model, a supervised pattern recognition method, was used to elicit maximum information about discriminant compounds from the sample data in which MATLAB with scripts developed at Imperial College London, United Kingdom, were used for generation of OPLS models with a color-coded correlation coefficient [ 19 ].
+L43: 3. Results
+L44: 3.1. Vitamin C Concentration in Raw Fruits and Vegetables and Their Juices
+L45: To determine the vitamin C content per 100 g of fresh mandarin orange, cherry tomato, and orange bell pepper and their juices, each sample was analyzed using ascorbic acid as a standard compound ( Figure 1 ). The measured vitamin C content was 8.01 ± 0.38 mg/100 g for mandarin orange, 14.31 ± 1.21 mg/100 g for cherry tomato, 56.45 ± 2.48 mg/100 g for orange bell pepper, and 50.21 ± 8.90 mg/100 g for the mixed juice. Although the vitamin C contents in mandarin orange and cherry tomato were relatively low, the high vitamin C level in orange bell pepper contributed to a well-maintained overall vitamin C content in the mixed juice when blended in a 1.0:0.5:1.0 ratio. Based on these results, the vitamin C content in 200 mL of the juice used for the clinical trial was calculated to be 101.7 mg.
+L46: 3.2. Characteristics of Subjects
+L47: The study was conducted on 12 healthy adults (six males and six females) using a randomized, controlled, crossover trial design. When comparing the baseline characteristics of the participants by group ( Table 3 ), there were no significant differences in any of the variables, including age, sex, height, weight, BMI, blood pressure, waist circumference, and hip circumference.
+L48: 3.3. Plasma and Urine Vitamin C Concentration
+L49: Plasma vitamin C concentrations were measured using HPLC 0, 0.5, 1, 2, 4, 6, 8, 12, and 24 h after the intake of the vitamin C supplement (A group), raw fruits and vegetables (B group), and fruit and vegetable juice (C group). In all groups, plasma vitamin C levels began to increase at 1 h and reached peak levels 2 h post-intake. At 2, 4, 6, 8, and 12 h after intake, the C group exhibited significantly higher plasma vitamin C concentrations compared to the A and B groups ( Figure 2 A). The area under the curve (AUC) for plasma vitamin C concentrations further confirmed this trend, with the C group showing the highest value (23.5± 3.2 mg/dL·h), followed by the A group (11.9 ± 2.1 mg/dL·h) and B group (16.1 ± 2.0 mg/dL·h) ( Figure 2 B).
+L50: Urinary vitamin C concentrations were assessed to evaluate the excretion pattern following intake of the same interventions. Urine samples were collected at −2 h (baseline), +2 h (2–3 h post-intake), +8 h (8–9 h post-intake), and +24 h (23–24 h post-intake). In all groups, urinary vitamin C concentrations significantly increased from +8 h post-intake onward. However, no statistically significant differences were observed in urinary vitamin C levels among the three groups ( Table 4 ).
+L51: 3.4.  1 H NMR Analysis of Participants’ Urinary Metabolites
+L52: 1 H NMR-based metabolites identified in urine are shown in  Supplementary Figure S1 . STOCSY analysis accelerated the identifications of urinary metabolites perturbed following dietary intervention, showing increased levels of urinary mannitol, glycine, taurine, dimethylglycine (DMG), and asparagine and decreased levels of urinary choline and dimethylamine (DMA) after dietary intervention with vitamin C supplement, raw fruits and vegetables, and fruit and vegetable juices for 24 h ( Figure 3 ). It was not surprising that acute changes in urinary metabolites occurred with the 24 h dietary intervention in the present study as the influence of acute phytochemical intake on human urinary metabolomic profiles has been reported previously [ 20 ].
+L53: Increased amounts of urinary mannitol after intakes of vitamin C-rich raw vegetables and its juices, as well as vitamin C supplement, were observed in urine collected only in the morning following the dietary intervention ( Figure 3 C–F).
+L54: The levels of taurine in the urine of all subjects started to increase after the first dietary intervention and then significantly increased after the 24 h dietary intervention ( Figure 4 d,h,m). Dietary taurine possibly contributes to the increases in the levels of urinary taurine. In fact, all diets in the present study consisted of small pieces of chicken, which is food known to be rich in taurine. In particular, chicken was provided for a late-night snack to all subjects during the three interventions. However, taurine levels in the urine collected before dinner and the next morning were not significantly increased in each dietary intervention group.
+L55: Urinary choline levels started to decrease after the second dietary intervention with the vitamin C supplement, raw fruits and vegetables, and fruit and vegetable juices in the present study, even though the decreases were only statistically significant in the subjects who received vitamin C powder supplementation ( p  = 0.001). But the amounts of urinary choline showed a strong decreasing trend in the subjects who consumed raw fruits and vegetables and fruit and vegetable juices at the level of  p  = 0.100 ( Figure 4 ). TMA and TMAO were also identified in the urine of all subjects in the present study, but their levels were not changed. Moreover, the levels of urinary dimethylglycine (DMG) were significantly increased in subjects who consumed raw fruits and vegetables or fruit and vegetable juice following the second dietary intervention, but they showed an increasing trend in subjects with vitamin C supplement, maybe due to large variations among the subjects.
+L56: 3.5. Plasma Antioxidant Activity
+L57: ORAC.  Plasma antioxidant activity, as measured by ORAC values, was assessed 0, 0.5, 1, 2, 4, 6, 8, 12, and 24 h after the intake of the vitamin C supplement (A group), raw fruits and vegetables (B group), and fruit and vegetable juices (C group) ( Table 5 ). At 0.5 h post-intake, the A group showed significantly higher plasma ORAC values compared to the B and C groups. However, this increase was transient, and no significant differences were observed among the groups at later time points.
+L58: TRAP.  Plasma total antioxidant capacity was measured 0, 0.5, 1, 2, 4, 6, 8, 12, and 24 h after the intake of the vitamin C supplement (A group), raw fruits and vegetables (B group), and fruit and vegetable juices (C group) ( Table 5 ). No significant differences were observed over time within each group, and there were no significant differences among the groups at any time point.
+L59: 4. Discussion
+L60: This study provides an integrated comparison of equivalent vitamin C doses from supplements, raw fruits and vegetables, and blended juices in a randomized, controlled, crossover trial involving 12 healthy adults. Participants consumed either a vitamin C supplement, raw fruits and vegetables, or fruit and vegetable juice in a single dose, and their vitamin C absorption, urinary metabolites, and antioxidant effects were evaluated. Plasma vitamin C concentrations peaked 2 h post-consumption in all groups, with significantly higher concentrations observed in the fruit and vegetable juice group. Additionally, the area under the curve (AUC) for plasma vitamin C was the greatest in the juice group, suggesting that the bioavailability of vitamin C is not compromised when consumed in juice form compared to whole fruits and vegetables.
+L61: Our findings are consistent with previous studies indicating that vitamin C is rapidly absorbed within 1 to 3 h post-intake and returns to baseline within 24 h. Graumlich et al. [ 11 ] also demonstrated a rapid rise in plasma vitamin C concentrations following supplementation, followed by a decline to baseline levels within 24 h. Furthermore, a study by Vinson and Bose [ 21 ] reported that vitamin C consumed with a natural citrus extract containing flavonoids, proteins, and carbohydrates showed approximately 35% greater bioavailability—based on plasma concentrations—than synthetic ascorbic acid alone. However, a randomized crossover study comparing synthetic vitamin C tablets and natural kiwifruit-derived vitamin C showed similar absorption patterns, with plasma concentrations peaking between 0.5 and 1 h and no significant differences between the two forms [ 22 ]. Likewise, Carr and Vissers [ 23 ] reviewed ten clinical studies comparing the absorption of vitamin C alone versus in flavonoid-rich foods and found no significant differences in bioavailability.
+L62: Our integrated approach allowed for simultaneous assessment of plasma kinetics, urinary metabolites, and antioxidant capacity, providing a comprehensive understanding of how food processing and matrix composition influence short-term vitamin C bioavailability in humans. Collectively, these findings suggest that although food matrix components such as flavonoids or macronutrients may slightly affect absorption kinetics, the overall bioavailability of vitamin C remains comparable across supplement, whole food, and juice forms.
+L63: Regarding the compositions of diets provided during the dietary intervention in the current study, all subjects were given kimchi stew only for dinner during the three interventions. We compared the amounts of mannitol, which is commonly known to be produced during kimchi fermentation with  lactic acid bacteria  (LAB) of  Leuconostoc mesenteroides  [ 24 ], and found that mannitol was produced in large amounts in kimchi ( Figure 3 B). Therefore, the increased amounts of urinary mannitol observed in the morning after the 24 h dietary intervention might have been caused by the diet with mannitol-rich kimchi stew in the current study. Nevertheless, since mannitol is a precursor of butyrate and propionate and known to be a healthy beneficial compound in the gut lumen, kimchi consumption might be a potential reason for butyrate and propionate production in the gut [ 25 ]. However, fecal metabolite composition was not explored in the present study. Moreover, we believed that mannitol in kimchi stew did not affect urinary choline, dimethylamine (DMA), dimethylglycine (DMG), taurine, or glycine in all groups ( Figure 3  and  Figure 4 ), demonstrating that these urinary metabolites were changed by vitamin C supplementation.
+L64: Taurine is a sulfur-containing amino acid and an important signaling molecule in the intestine. It is well known that taurine regulates immune responses and enhances immunity. For example, taurine supplementation significantly regulated intestinal microflora and boosted intestinal immunity under gut microbiota dysbiosis in mice, which resulted in the reconstitution of intestinal flora homeostasis [ 26 ]. Daily supplementation of vitamin C showed microbiota-modulating effects in healthy individuals, with several beneficial shifts in bacterial populations [ 27 , 28 ]. Therefore, it was suggested that increased urinary taurine in all subjects undergoing dietary interventions in the present study might be a results of the modulation of gut microbiota by vitamin C supplement, raw fruit and vegetable, or fruit and vegetable juice intake.
+L65: Dietary choline is metabolized to trimethylamine (TMA) in the gut by intestinal microbiota and then converted into trimethylamine  N -oxide (TMAO) by hepatic oxidation through flavin monooxygenase 3 in the liver. Significant amounts of circulating TMAO cause atherosclerosis and increase risks for cardiovascular disease and cardiac events, such as myocardial infarction and stroke [ 29 , 30 ]. This metabolic status of urinary DMG was very similar to that of urinary glycine, likely because glycine is synthesized from DMG and sarcosine [ 31 ]. Indeed, vitamin C-modulated microbiota may lead to increased urinary glycine through deconjugation of glycine-bound BAs [ 32 ]. Therefore, dietary intervention with vitamin C supplement or vegetables rich in vitamin C might lead to the conversion of dietary choline to DMG and then glycine through modulations of gut microbial compositions, avoiding its metabolism to TMA, a precursor of TMAO. However, the associations between gut modulation and vitamin C supplements remain to be further investigated.
+L66: In parallel, this study also examined the effects of these dietary interventions on antioxidant capacity in plasma. Following the intake of vitamin C supplement, raw fruits and vegetables, or fruit and vegetable juices, plasma vitamin C concentrations increased rapidly and peaked 2 h post-intake. Among antioxidant markers, ORAC values exhibited a transient but significant increase after intake and were then maintained over time. However, TRAP values showed no significant changes over time or between groups. These findings suggest that while vitamin C intake may enhance certain aspects of peroxyl radical scavenging measured by ORAC, it may not significantly affect the broader spectrum of antioxidant defenses represented by TRAP.
+L67: 5. Conclusions
+L68: In conclusion, this randomized, controlled, crossover trial demonstrates that vitamin C from supplements, raw fruits and vegetables, or fruit and vegetable juices is efficiently absorbed, with peak plasma concentrations observed 2 h post-intake. Importantly, the juice group exhibited the highest plasma vitamin C levels and area under the curve (AUC), suggesting comparable or slightly enhanced bioavailability relative to the whole food form. Metabolomic analysis revealed favorable shifts in urinary biomarkers, such as increased excretion of glycine, taurine, and mannitol, potentially reflecting vitamin C-induced modulation of gut microbiota and associated metabolic pathways. While plasma antioxidant capacity, as measured by ORAC, showed a transient improvement after intake, TRAP values remained unchanged across groups. Collectively, these findings highlight the physiological significance of vitamin C intake, particularly when consumed in juice form, in promoting short-term bioavailability, influencing microbially associated metabolites, and contributing to antioxidant defense mechanisms.
+L69: Figure 1 Vitamin C content of the test ingredients (mg/100 g, fresh weight). A, mandarin orange; B, cherry tomato; C, orange bell pepper; D, fruit and vegetable juice. Data are presented as mean ± SE ( n  = 3). The blended juice was prepared from mandarin orange, cherry tomato, and orange bell pepper mixed in a 1.0:0.5:1.0 ratio. Different letters above the bars indicate significant differences according to a one-way ANOVA followed by Bonferroni’s post hoc test ( p  < 0.05).
+L70: Figure 2 Plasma vitamin C concentration and area under the curve (AUC) following vitamin C supplement, raw fruit and vegetable, and fruit and vegetable juice intake. ( A ) Time-dependent changes in plasma vitamin C levels after vitamin C supplement, raw fruit and vegetable, and fruit and vegetable juice intake. ( B ) Area under the curve (AUC) of plasma vitamin C concentrations calculated from the time-dependent changes shown in A. A group, vitamin C supplement; B group, raw fruit and vegetable; C group, fruit and vegetable juices. Mean ± S.E. *: significantly different at  p  < 0.05 compared to the A group at the same time point according to Student’s  t -test.  a,b : Different letters (a, b) above the bars indicate significant differences among groups according to Duncan’s multiple range test ( p  < 0.05).
+L71: Figure 3 Urinary metabolite profiles and changes 24 h after consumption of vitamin C supplement, raw fruits and vegetables, and fruit and vegetable juices. Statistical total correlation spectroscopy (STOCSY) generated from partial  1 H NMR urinary spectrum of all participants for identifications of urinary metabolites changed after dietary intervention for 24 h ( n  = 36) compared to before dietary intervention ( n  = 36) ( A ), and partial raw  1 H NMR spectrum of dietary kimchi obtained before fermentation with lactic acid bacteria of  Leuconsotoc mesenteroides , one of the major bacteria commonly used for kimchi fermentation (red,  n  = 10), and after fermentation for 10 days (blue,  n  = 10) ( B ). In panel ( A ), the upper section demonstrates higher amounts of metabolites in urine collected the morning following the dietary intervention compared to those collected in the morning before the dietary intervention. The relative amounts of urinary metabolites in panels ( C – K ) were determined by calculations of the integral area of  1 H NMR peaks corresponding to urinary metabolites following integral normalization. DMA, dimethylamine; DMG, dimethylglycine. *, **, and *** indicate the significance of differences at the levels of  p  < 0.05,  p  < 0.01, and  p  < 0.001, respectively, in comparison with the amounts before the dietary intervention. 3-HIB, 3-hydorxyisobutyrate; 2-HIB, 2-hydorxyisobutyrate; 3-HIV, 3-hydroxyisovalerate; 4-DEA, 4-deoxyerythronic acid; 4-DTA, 4-deoxythreonic acid; NAG,  N -acetyl glycoprotein; DMA, dimethylamine; DMG, dimethylglycine; TMAO, trimethylamine  N -oxide; MG, methylguanidine.
+L72: Figure 4 Changes in urinary metabolites and relative concentrations 24 h after consumption of vitamin C supplement, raw fruit and vegetables, and fruit and vegetable juices. Perturbations of urinary metabolites during the 24 h dietary interventions involving a vitamin C supplement (( A ),  n  = 12), raw fruits and vegetables (( B ),  n  = 12), and fruit and vegetable juices (( C ),  n  = 12). Panels ‘a’ to ‘n’ show changes in relative amounts of selected urinary metabolites at different collection times in the groups who received a vitamin C supplement ( a – e ), raw fruits and vegetables ( f – i ), and fruit and vegetable juices ( j – n ). *,  p  < 0.05; **,  p  < 0.01. DMA, dimethylamine; DMG, dimethylglycine.
+L73: Supplementary Material
+L74: 1. Nishikimi M. 
+L75:  Koshizaka T. 
+L76:  Ozawa T. 
+L77:  Yagi K. 
+L78:  Occurrence in Humans and Guinea Pigs of the Gene Related to Their Missing Enzyme L-Gulono-γ-Lactone Oxidase Arch. Biochem. Biophys. 1988 267 842 846 10.1016/0003-9861(88)90093-8 3214183
+L79: 2. Chambial S. 
+L80:  Dwivedi S. 
+L81:  Shukla K.K. 
+L82:  John P.J. 
+L83:  Sharma P. 
+L84:  Vitamin C in Disease Prevention and Cure: An Overview Indian J. Clin. Biochem. 2013 28 314 328 10.1007/s12291-013-0375-3 24426232
+L85: 3. Frei B. 
+L86:  England L. 
+L87:  Ames B.N. 
+L88:  Ascorbate Is an Outstanding Antioxidant in Human Blood Plasma Proc. Natl. Acad. Sci. USA 1989 86 6377 6381 10.1073/pnas.86.16.6377 2762330
+L89: 4. Buettner G.R. 
+L90:  The Pecking Order of Free Radicals and Antioxidants: Lipid Peroxidation, α-Tocopherol, and Ascorbate Arch. Biochem. Biophys. 1993 300 535 543 10.1006/abbi.1993.1074 8434935
+L91: 5. Jacob R.A. 
+L92:  Sotoudeh G. 
+L93:  Vitamin C Function and Status in Chronic Disease Nutr. Clin. Care 2002 5 66 74 10.1046/j.1523-5408.2002.00005.x 12134712
+L94: 6. Rozman B. 
+L95:  Gašperlin M. 
+L96:  Stability of Vitamins C and E in Topical Microemulsions for Combined Antioxidant Therapy Drug Deliv. 2007 14 235 245 10.1080/10717540601067786 17497356
+L97: 7. Li Y. 
+L98:  Schellhorn H.E. 
+L99:  New Developments and Novel Therapeutic Perspectives for Vitamin C J. Nutr. 2007 137 2171 2184 10.1093/jn/137.10.2171 17884994
+L100: 8. Carr A.C. 
+L101:  Frei B. 
+L102:  Toward a New Recommended Dietary Allowance for Vitamin C Based on Antioxidant and Health Effects in Humans Am. J. Clin. Nutr. 1999 69 1086 1107 10.1093/ajcn/69.6.1086 10357726
+L103: 9. Savini I. 
+L104:  Rossi A. 
+L105:  Pierro C. 
+L106:  Avigliano L. 
+L107:  Catani M. 
+L108:  SVCT1 and SVCT2: Key Proteins for Vitamin C Uptake Amino Acids 2008 34 347 355 10.1007/s00726-007-0555-7 17541511
+L109: 10. Vera J.C. 
+L110:  Rivas C.I. 
+L111:  Velásquez F.V. 
+L112:  Zhang R.H. 
+L113:  Concha I.I. 
+L114:  Golde D.W. 
+L115:  Resolution of the Facilitated Transport of Dehydroascorbic Acid from Its Intracellular Accumulation as Ascorbic Acid J. Biol. Chem. 1995 270 23706 23712 10.1074/jbc.270.40.23706 7559541
+L116: 11. Graumlich J.F. 
+L117:  Ludden T.M. 
+L118:  Conry-Cantilena C. 
+L119:  Cantilena L.R. 
+L120:  Wang Y. 
+L121:  Levine M. 
+L122:  Pharmacokinetic Model of Ascorbic Acid in Healthy Male Volunteers during Depletion and Repletion Pharm. Res. 1997 14 1133 1139 10.1023/A:1012186203165 9327438
+L123: 12. Padayatty S.J. 
+L124:  Sun H. 
+L125:  Wang Y. 
+L126:  Riordan H.D. 
+L127:  Hewitt S.M. 
+L128:  Katz A. 
+L129:  Wesley R.A. 
+L130:  Levine M. 
+L131:  Vitamin C Pharmacokinetics: Implications for Oral and Intravenous Use Ann. Intern. Med. 2004 140 533 537 10.7326/0003-4819-140-7-200404060-00010 15068981
+L132: 13. Levine M. 
+L133:  Conry-Cantilena C. 
+L134:  Wang Y. 
+L135:  Welch R.W. 
+L136:  Washko P.W. 
+L137:  Dhariwal K.R. 
+L138:  Park J.B. 
+L139:  Lazarev A. 
+L140:  Graumlich J.F. 
+L141:  King J. 
+L142:  
+L143:  Vitamin C Pharmacokinetics in Healthy Volunteers: Evidence for a Recommended Dietary Allowance Proc. Natl. Acad. Sci. USA 1996 93 3704 3709 10.1073/pnas.93.8.3704 8623000
+L144: 14. Shimpo M. 
+L145:  Akamatsu R. 
+L146:  Kojima Y. 
+L147:  Impact of the COVID-19 Pandemic on Food and Drink Consumption and Related Factors: A Scoping Review Nutr. Health 2022 28 177 188 10.1177/02601060221078161 35171054
+L148: 15. Santos J. 
+L149:  Mendiola J.A. 
+L150:  Oliveira M.B. 
+L151:  Ibáñez E. 
+L152:  Herrero M. 
+L153:  Sequential Determination of Fat- and Water-Soluble Vitamins in Green Leafy Vegetables during Storage J. Chromatogr. A 2012 1261 179 188 10.1016/j.chroma.2012.04.067 22608116
+L154: 16. Kurihara H. 
+L155:  Fukama H. 
+L156:  Asami S. 
+L157:  Totoda Y. 
+L158:  Nakai M. 
+L159:  Shibata H. 
+L160:  Yao X.S. 
+L161:  Effects of Oolong Tea on Plasma Antioxidative Capacity in Mice Loaded with Restraint Stress Assessed Using the Oxygen Radical Absorbance Capacity (ORAC) Assay Biol. Pharm. Bull. 2004 27 1093 1098 10.1248/bpb.27.1093 15256746
+L162: 17. Ou B. 
+L163:  Hampsch-Woodill M. 
+L164:  Prior R.L. 
+L165:  Development and Validation of an Improved Oxygen Radical Absorbance Capacity Assay Using Fluorescein as the Fluorescent Probe J. Agric. Food Chem. 2001 49 4619 4626 10.1021/jf010586o 11599998
+L166: 18. Rice-Evans C. 
+L167:  Miller N.J. 
+L168:  Total Antioxidant Status in Plasma and Body Fluids Methods Enzymol. 1994 234 279 293 10.1016/0076-6879(94)34095-1 7808295
+L169: 19. Cloarec O. 
+L170:  Dumas M.E. 
+L171:  Craig A. 
+L172:  Barton R.H. 
+L173:  Trygg J. 
+L174:  Hudson J. 
+L175:  Blancher C. 
+L176:  Gauguier D. 
+L177:  Lindon J.C. 
+L178:  Holmes E. 
+L179:  
+L180:  Statistical Total Correlation Spectroscopy: An Exploratory Approach for Latent Biomarker Identification from Metabolic 1H NMR Data Sets Anal. Chem. 2005 77 1282 1290 10.1021/ac048630x 15732908
+L181: 20. Walsh M.C. 
+L182:  Brennan L. 
+L183:  Pujos-Guillot E. 
+L184:  Sébédio J.-L. 
+L185:  Scalbert A. 
+L186:  Fagan A. 
+L187:  Higgins D.G. 
+L188:  Gibney M.J. 
+L189:  Influence of Acute Phytochemical Intake on Human Urinary Metabolomic Profiles Am. J. Clin. Nutr. 2007 86 1687 1693 10.1093/ajcn/86.5.1687 18065587
+L190: 21. Vinson J.A. 
+L191:  Bose P. 
+L192:  Comparative Bioavailability to Humans of Ascorbic Acid Alone or in a Citrus Extract Am. J. Clin. Nutr. 1988 48 501 504 10.1093/ajcn/48.3.601
+L193: 22. Carr A.C. 
+L194:  Bozonet S.M. 
+L195:  Pullar J.M. 
+L196:  Simcock J.W. 
+L197:  Vissers M.C.M. 
+L198:  A Randomized Steady-State Bioavailability Study of Synthetic versus Natural (Kiwifruit-Derived) Vitamin C Nutrients 2013 5 4451 4461 10.3390/nu5114451 24284610
+L199: 23. Carr A.C. 
+L200:  Vissers M.C.M. 
+L201:  Synthetic or Food-Derived Vitamin C—Are They Equally Bioavailable? Nutrients 2013 5 4284 4304 10.3390/nu5114284 24169506
+L202: 24. Jung J.Y. 
+L203:  Lee S.H. 
+L204:  Kim J.M. 
+L205:  Park M.S. 
+L206:  Bae J.W. 
+L207:  Hahn Y. 
+L208:  Madsen E.L. 
+L209:  Jeon C.O. 
+L210:  Metagenomic Analysis of Kimchi, a Traditional Korean Fermented Food Appl. Environ. Microbiol. 2011 77 2264 2274 10.1128/AEM.02157-10 21317261
+L211: 25. Louis P. 
+L212:  Flint H.J. 
+L213:  Formation of Propionate and Butyrate by the Human Colonic Microbiota Environ. Microbiol. 2017 19 29 41 10.1111/1462-2920.13589 27928878
+L214: 26. Qian W. 
+L215:  Li M. 
+L216:  Yu L. 
+L217:  Tian F. 
+L218:  Zhao J. 
+L219:  Zhai Q. 
+L220:  Effects of Taurine on Gut Microbiota Homeostasis: An Evaluation Based on Two Models of Gut Dysbiosis Biomedicines 2023 11 1048 10.3390/biomedicines11041048 37189666
+L221: 27. Otten A.T. 
+L222:  Bourgonje A.R. 
+L223:  Harmsen H.J.M. 
+L224:  Alizadeh B.Z. 
+L225:  Dijkstra G. 
+L226:  Faber K.N. 
+L227:  Vitamin C Supplementation in Healthy Individuals Leads to Shifts of Bacterial Populations in the Gut—A Pilot Study Antioxidants 2021 10 1278 10.3390/antiox10081278 34439526
+L228: 28. Hazan S. 
+L229:  Dave S. 
+L230:  Papoutsis A.J. 
+L231:  Deshpande N. 
+L232:  Howell M.C. 
+L233:  Martin L.M. 
+L234:  Vitamin C Improves Gut Bifidobacteria in Humans Future Microbiol. 2022 
+L235:  online ahead of print 
+L236:  10.2217/fmb-2022-0209
+L237: 29. Koeth R.A. 
+L238:  Wang Z. 
+L239:  Levison B.S. 
+L240:  Buffa J.A. 
+L241:  Org E. 
+L242:  Sheehy B.T. 
+L243:  Britt E.B. 
+L244:  Fu X. 
+L245:  Wu Y. 
+L246:  Li L. 
+L247:  
+L248:  Intestinal Microbiota Metabolism of L-Carnitine, a Nutrient in Red Meat, Promotes Atherosclerosis Nat. Med. 2013 19 576 585 10.1038/nm.3145 23563705
+L249: 30. Wang Z. 
+L250:  Klipfell E. 
+L251:  Bennett B.J. 
+L252:  Koeth R. 
+L253:  Levison B.S. 
+L254:  Dugar B. 
+L255:  Feldstein A.E. 
+L256:  Britt E.B. 
+L257:  Fu X. 
+L258:  Chung Y.M. 
+L259:  
+L260:  Gut Flora Metabolism of Phosphatidylcholine Promotes Cardiovascular Disease Nature 2011 472 57 63 10.1038/nature09922 21475195
+L261: 31. Moolenaar S.H. 
+L262:  Poggi-Bach J. 
+L263:  Engelke U.F. 
+L264:  Corstiaensen J.M. 
+L265:  Heerschap A. 
+L266:  de Jong J.G. 
+L267:  Binzak B.A. 
+L268:  Vockley J. 
+L269:  Wevers R.A. 
+L270:  Defect in Dimethylglycine Dehydrogenase, a New Inborn Error of Metabolism: NMR Spectroscopy Study Clin. Chem. 1999 45 459 464 10.1093/clinchem/45.4.459 10102904
+L271: 32. Guzior D.V. 
+L272:  Quinn R.A. 
+L273:  Review: Microbial Transformations of Human Bile Acids Microbiome 2021 9 140 10.1186/s40168-021-01101-1 34127070
+L274: **Supplementary Information**
+L275: **Figure S1.** Urinary metabolite profile on partial representative 700 MHz 1H NMR spectrum of human urine. DMA, dimethylamine;
+L276: DMG, dimethylglycine; MG, methylguanidine; TMAO, trimethylamine N-oxide; NAG, N-acetyl glycoprotein; 3-HIB, 3
+L277: hydroxyisobutyrate; 2-HIB, 2-hydroxyisobutyrate; 3-HIV, 3-hydroxyisovalerate; 4-DTA, 4-deoxythreonic acid; 4-DEA, 4
+L278: deoxyerythronic acid.
+[224ms]
+

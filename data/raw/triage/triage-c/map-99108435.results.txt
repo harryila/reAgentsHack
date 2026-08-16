@@ -1,0 +1,97 @@
+Map results  [m_b9934783]
+Query: # Literature Multiverse extraction prompt
+
+Prompt version: 
+
+You are extracting the paper's own empirical results for one pre-registered scientific question.
+Return exactly one JSON value matching the supplied schema. Do not add prose, markdown, citations,
+paper identifiers, or fields outside that schema.
+
+## Locked question
+
+- Research question: 
+- Exposure/intervention: 
+- Comparator: 
+- Primary outcome family: 
+- Included primary endpoints: `[]`
+- `increase`: `the training adaptation is larger in the supplemented group than in the control group`
+- `decrease`: `the training adaptation is smaller in the supplemented group than in the control group`
+- `no_effect`: `no detectable between-group difference in the training adaptation is reported`
+
+## Eligibility
+
+Include only the paper's own eligible empirical comparison under the locked rules below. Reviews,
+editorials, protocols without results, cited studies, reference titles, background claims, and
+results outside the target relation are not the paper's own findings.
+
+`{"article_types": ["research-article"], "exclude": ["reviews, meta-analyses, editorials, commentaries, and protocols", "acute single-session studies without a training program", "studies without an antioxidant-versus-control contrast"], "exclude_article_types": ["review-article"], "include": ["controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation", "a concurrent placebo or no-supplement comparison completing the same training", "direct measurement of at least one training-adaptation endpoint"]}`
+
+If the paper is ineligible, return `eligible=false`, one concise exclusion reason, and an empty
+`findings` array. If it is eligible but reports no usable target finding, return `eligible=true`,
+`exclusion_reason=null`, and an empty array. Never invent a finding to avoid an empty result.
+
+## Atomic finding rules
+
+Create a separate finding for every distinct outcome, endpoint, timepoint, intervention dose,
+comparator, or population stratum. Do not combine incompatible results into one row. Preserve the
+paper's original dose, duration, timepoint, effect-size, and p-value wording in the corresponding
+raw fields.
+
+Direction always means the measured outcome relative to the locked comparator—never beneficial or
+harmful. Use only `increase`, `no_effect`, `decrease`, `mixed`, or `unclear`. Use `mixed` only when an
+otherwise atomic result contains genuinely incompatible directions; use `unclear` when the source
+does not safely determine direction. The direction field must never be JSON null.
+
+For every finding, copy the shortest verbatim passage that directly supports the reported result
+and its exact `L<number>` source line or line range. Prefer Results/table-result text. Do not use a
+reference title, bibliography entry, author speculation, or a cited study as result evidence.
+Every nullable schema key must still be present with JSON null when unavailable.
+
+## Topic moderators
+
+Populate only moderator keys present in the supplied schema, following these locked definitions:
+
+`[{"allowed_values": ["below_500_mg_daily", "500_to_999_mg_daily", "1000_mg_daily_or_more", "not_reported_as_daily_dose"], "bins": null, "display_name": "Vitamin C dose", "kind": "paper_constant", "name": "vitc_dose_regime", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["endurance", "resistance", "sprint_interval", "concurrent_or_mixed"], "bins": null, "display_name": "Training modality", "kind": "paper_constant", "name": "training_modality", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["trained", "untrained", "mixed_or_unclear"], "bins": null, "display_name": "Training status", "kind": "paper_constant", "name": "training_status", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["younger_adult", "older_adult", "mixed_or_unclear"], "bins": null, "display_name": "Age group", "kind": "paper_constant", "name": "age_group", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["vitamin_c_only", "vitamin_e_only", "vitamin_c_and_e"], "bins": null, "display_name": "Supplement composition", "kind": "paper_constant", "name": "supplement_combo", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["healthy", "clinical_or_sarcopenic", "mixed_or_unclear"], "bins": null, "display_name": "Population state", "kind": "paper_constant", "name": "population_state", "paper_summary": null, "permutation": "paper", "role": "descriptive", "source": "fixed", "type": "categorical"}]`
+
+Do not convert animal mg/kg dosing into human per-day dosing. Preserve ambiguous and combination
+doses in `dose_raw`; use null for a normalized value that the paper does not support.
+
+--- [1] [success] Supplemental Oxygen during Exercise Training in Chronic Obstructive Pulmonary Disease ---
+doc_id: PMC12520020
+{"eligible": false, "exclusion_reason": "The paper is a narrative review regarding supplemental oxygen during exercise training in COPD, not an empirical study investigating vitamin C or E supplementation.", "findings": []}
+
+--- [2] [success] Effects of an Aqueous Extract of  Withania somnifera  on Strength Training Adaptations and Recovery: The STAR Trial ---
+doc_id: PMC6266766
+{"eligible": false, "exclusion_reason": "The paper studies Withania somnifera (Ashwagandha) extract supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [3] [success] Combined effect of high-dose vitamin A, vitamin E supplementation, and zinc on adult patients with diabetes: A randomized trial ---
+doc_id: PMC7753230
+{"eligible": false, "exclusion_reason": "The study does not combine a structured exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [4] [success] Antioxidant Supplementation Modulates Neutrophil Inflammatory Response to Exercise-Induced Stress ---
+doc_id: PMC7762299
+{"eligible": false, "exclusion_reason": "The study does not evaluate training adaptations, but rather investigates acute post-exercise oxidative and inflammatory responses after a single running test following a 21-day supplementation period.", "findings": []}
+
+--- [5] [success] Radioiodine-induced oxidative stress in patients with differentiated thyroid carcinoma and effect of supplementation with vitamins C and E and selenium (antioxidants) ---
+doc_id: PMC10118725
+{"eligible": false, "exclusion_reason": "The study does not involve an exercise-training program, but rather radioiodine therapy in thyroid cancer patients.", "findings": []}
+
+--- [6] [success] Polyphenol Supplementation: Benefits for Exercise Performance or Oxidative Stress? ---
+doc_id: PMC4008802
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature rather than an eligible primary empirical research study combining structured training with vitamin C/E supplementation.", "findings": []}
+
+--- [7] [success] Can Antioxidants Protect Against Disuse Muscle Atrophy? ---
+doc_id: PMC4213375
+{"eligible": false, "exclusion_reason": "The paper is a review article discussing disuse muscle atrophy and antioxidant supplementation, not a controlled exercise-training trial.", "findings": []}
+
+--- [8] [success] Effects of Royal Jelly Administration on Endurance Training-Induced Mitochondrial Adaptations in Skeletal Muscle ---
+doc_id: PMC6266893
+{"eligible": false, "exclusion_reason": "The paper investigates royal jelly supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [9] [success] The effects of resistance training with or without peanut protein supplementation on skeletal muscle and strength adaptations in older individuals ---
+doc_id: PMC7734909
+{"eligible": false, "exclusion_reason": "The paper studies peanut protein supplementation combined with resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [10] [success] Effects of training adaption in endurance athletes with atrial fibrillation: protocol for a multicentre randomised controlled trial ---
+doc_id: PMC10106028
+{"eligible": false, "exclusion_reason": "The paper is a study protocol for a randomized controlled trial investigating training adaption in endurance athletes with atrial fibrillation, not an antioxidant supplementation trial.", "findings": []}

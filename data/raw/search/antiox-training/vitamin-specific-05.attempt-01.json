@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin C exercise performance trial"
+  ],
+  "completed_at": "2026-08-16T05:24:35.121844+00:00",
+  "elapsed_seconds": 2.4505719169974327,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:32.671295+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-05.attempt-01.stderr",
+  "stdout_bytes": 50081,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-05.attempt-01.stdout"
+}

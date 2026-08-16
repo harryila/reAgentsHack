@@ -1,0 +1,369 @@
+L1: Association of vitamin E intake in diet and supplements with risk of dementia: A meta-analysis
+L2: Frontiers in Aging Neuroscience (2022)
+L3: Rangyin Zhao, Xiaoyong Han, Hongxia Zhang, Jia Liu, Min Zhang, Weijing Zhao, Shangrong Jiang, Ruilin Li, Hui Cai, Hong You
+L4: 1 Gansu University of Chinese Medicine, First Clinical Medical College ,  Lanzhou ,  China
+L5: 2 Sino-French Department of Neurological Rehabilitation, Gansu Provincial Hospital ,  Lanzhou ,  China
+L6: 3 Graduate School, Ning Xia Medical University ,  Yinchuan ,  China
+L7: 4 Lanzhou No.1 People's Hospital ,  Lanzhou ,  China
+L8: 5 General Surgery Clinical Medical Center, Gansu Provincial Hospital ,  Lanzhou ,  China
+L9: 6 Key Laboratory of Molecular Diagnostics and Precision Medicine for Surgical Oncology in Gansu Province, Gansu Provincial Hospital ,  Lanzhou ,  China
+L10: 7 First Clinical College of Medicine, Lanzhou University ,  Lanzhou ,  China
+L11: 8 NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital ,  Lanzhou ,  China
+L12: Background
+L13: Dementia is a chronic progressive neurodegenerative disease that can lead to disability and death in humans, but there is still no effective prevention and treatment. Due to the neuroprotective effects of vitamin E, a large number of researchers have explored whether vitamin E can reduce the risk of dementia. Some researchers believe that vitamin E can reduce the risk of dementia, while others hold the opposite conclusion. We therefore performed a meta-analysis to clarify the relationship between them.
+L14: Methods
+L15: We searched PubMed, Embase, and Web of Science databases for articles on the connection of dietary and supplementation vitamin E with dementia risk from inception through April 2022 using the main keywords “dementia,” “Alzheimer's disease,” “vitamin E,” and “tocopherol,” and used a random-utility model for pooled effect sizes. Odds ratios (OR) and 95% confidence intervals were derived using lower and higher doses as contrasts. Obtained data were shown and assessed using Stata12.0 free software.
+L16: Results
+L17: We included 15 articles in sum. Among them, there were nine articles containing AD. By comparing the highest intake with the lowest intake, Combined ORs for high intake were as follows: dementia (OR = 0.79, 95% CI 0.70–0.88  I 2  = 35.0%), Alzheimer's disease (OR = 0.78, 95% CI 0.64–0.94  I 2  = 36.9%). Subgroup analyses were also performed by study type, diet and supplementation, and NOS score.
+L18: Conclusions
+L19: High vitamin E intake from diet and supplements significantly reduces the risk of dementia and Alzheimer's disease.
+L20: Aging Neuroscience; Systematic Review; Systematic Review
+L21: vitamin E; diet; supplements; dementia; risk; meta-analysis
+L22: Introduction
+L23: Dementia is a condition that causes gradual cognitive decline (Chertkow et al.,  2013 ). With the aging of the population and the growth of the population, the prevalence of dementia is expected to increase, and it is estimated that the number of people with dementia worldwide will increase from 570,000 in 2019 to 1.58 million in 2050 ( GBD 2019 Dementia Forecationg Collaborators ,  2022 ). Dementia has emerged as a leading cause of disability, loss of independent living, and death in older adults, and places a heavy burden on patients, families, and society (Livingston et al.,  2020 ; Malik et al.,  2021 ), while there is still no clear cure for dementia in terms of treatment (Winblad et al.,  2016 ). Dementia includes Alzheimer's disease (AD), vascular dementia (VD), and other forms of dementia, with AD being the most common, followed by VD (Zhang et al.,  2021 ). Dementia is caused by both genetic and environmental factors. Age, smoking, diabetes, obesity, and hypertension are all variable risk factors for dementia (Sindi et al.,  2018 ), and diet has also been shown to have some effect on the development of dementia (Morris,  2016 ). Therefore, we can prevent the occurrence of dementia by changing the diet and lifestyle.
+L24: Fruits and vegetables are indispensable foods in life and provide the body with a large number of nutrients. Among them, vitamins are more common, and vitamin E has also been gradually found to prevent various diseases (Sharma et al.,  2021 ). Some studies have found that diet is considered one of the key factors in reducing the risk of dementia (Sindi et al.,  2018 ; Licher et al.,  2019 ). Vitamin is an organic substance that maintains the normal life activities of the human body and supports basic cellular functions and plays an essential role in various basic metabolic processes in the body (Tardy et al.,  2020 ). However, vitamin E is less abundant in the body and is mostly consumed through the diet (Del Mondo et al.,  2020 ). Vitamin E is widely present in various foods and belongs to fat-soluble vitamins, and its main active form in tissues is α-tocopherol (αT; Farina et al.,  2017 ). Vitamin E not only has a strong antioxidant capacity, but also has the properties of reducing cholesterol and neuroprotection, thus exerting a protective effect on the brain (Jiang,  2014 ; Browne et al.,  2019 ).
+L25: The association between diet and the risk of dementia has been extensively explored over the last few decades, with people who consume large amounts of vegetables and fruits having a markedly lower risk of developing dementia (Dai et al.,  2006 ; Barberger-Gateau et al.,  2007 ; Hughes et al.,  2010 ). Vegetables and fruits contain a large number of vitamins, minerals, cellulose, etc., which play an important role in human health (Wiseman,  2008 ). Vitamin E is an antioxidant that can reduce the risk of dementia onset (Giraldo et al.,  2014 ; Eshkoor et al.,  2015 ; Farina et al.,  2017 ; Lakhan et al.,  2021 ). However, other studies have demonstrated that vitamin E intake does not lower the risk of dementia (Kryscio et al.,  2017 ). Therefore, we determine whether dietary vitamin E or supplements can reduce the risk of dementia and provide more reliable evidence for the prevention of dementia by timely integrating the latest views and related evidence.
+L26: Materials and methods
+L27: Search strategy for literature
+L28: This meta-analysis was conducted and reported according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Two authors (Rangyin Zhao and Xiaoyong Han) conducted a paper search for the association of vitamin E and active ingredients with dementia risk using EMBASE, Web of Science and PubMed databases, respectively. The database was searched using keywords/titles/abstracts searching for the keywords: “vitamin E” or “alpha-tocopherol” or “α-tocopherol” or “nutrients” combined with “dementia” or “amentia” or “amentias” or “Alzheimer's Disease” or “Alzheimer Dementia” or “Alzheimer Dementias” or “Dementia, Alzheimer.” The search was conducted from inception to April 2022 for all relevant articles. In addition, we searched conference proceedings, meta-analyses, and references from other articles to avoid possibly missing research. We only included English literatures. Search disagreements between the two authors and a third author discuss decisions together.
+L29: Inclusion and exclusion criteria
+L30: We developed the inclusion criteria for our study using PICOS principles. P (Participants): middle-aged and elderly population without dementia and cognitive impairment; I (intervention): high intake of vitamin E from diet or supplements; C (control): low intake of vitamin E from diet or supplements; O (outcome): risk of dementia. S (study design): case-control study or cohort study. Studies that met the following criteria were included: (1) patients with a definite diagnosis of dementia; (2) the type of study was a cohort or case-control study; (3) the association between diet or supplement vitamin E or tocopherol and the risk of dementia was studied and compared between high and low dose; (4) the study contained the following relevant data: relative risk (RR) or odds ratio (or) and 95% confidence interval; (5) the study subjects were humans, excluding experiments such as cells and animals. The exclusion criteria used were as follows: (1) no valid data could be extracted from the text; (2) duplicate study populations; (3) small sample size; (4) reviews, conferences, meta-analyses, letters, etc.
+L31: Data extraction and quality evaluation
+L32: Two researchers independently performed quality assessment and extraction of relevant data for all included studies. Basic information for inclusion included: first author name, date of publication, country, sex, age, type of dementia, type of study, Sample Size of Study, RR or OR and 95% CI adjustment for covariates in multivariate analysis. Discrepancies between the two authors were resolved by discussion with the other authors. The Newcastle-Ottawa Scale (0–9) was used to evaluate the quality of the literature used.
+L33: Statistical analysis
+L34: Effect sizes for all studies were RR or OR and 95% confidence intervals to analyze the connection of high-dose vitamin E or tocopherol intake with the risk of dementia. The effect sizes for assessing dementia risk were RR, OR for the cohort study and case-control study, respectively. Since the difference between the two effect sizes is small, the OR value is uniformly used to represent it for the convenience of combining and calculating the study results. We used a random-effects model to count effect sizes. The results of meta-analysis were presented as forest plots, and publication bias was assessed by Begg's test and funnel plots. In addition, sensitivity analysis assessed the stability of the meta-analysis by eliminating each study one by one. All statistical analyses were calculated using Stata12.0, with  p  < 0.05 indicating a statistically significant difference.
+L35: Results
+L36: Screening process for eligible literatures
+L37: Three thousand and fifty-three literatures were retrieved through three English database retrieval systems, which were PubMed ( n  = 1,105), Embase ( n  = 980), and Web of Science ( n  = 968). Two useful original articles were obtained by searching the citations of articles such as reviews or meta-analyses. After removing duplicates, 1,320 articles remained. Reviews, case reports, conferences, comments, letters, and irrelevant articles were excluded by reading the titles or abstracts, for a total of 1,252. The additional 68 essays have been assessed by downloading the full text and articles with missing raw data were excluded. The remaining 15 studies that met the inclusion criteria and NOS score were included in the meta-analysis. The above retrieval process is shown in  Figure 1 .
+L38: Figure 1 Flow diagram of this meta-analysis.
+L39: Characteristics of included research
+L40: The features of the 15 papers included in the meta-analysis are shown in  Table 1 . We included 15 articles in overall, eight on diet, six on supplements, and one on a combination of diet and supplements. These included 13 cohort studies with 46,968 participants and 6,046 dementia patients after 4–23 years of follow-up; two case-control studies with 3,157 controls and 3,459 patients. We extracted studies on AD with a total of nine articles. Five of them were about diet, three were about supplements, and one was related to dietary combined supplements. Eight cohort studies with 28,530 participants followed for 4–23 years yielded 2,852 dementia patients; one case-control study with 2,999 controls and 3,385 patients. The studies included in this meta-analysis were published between 1983 and 2022. In addition, 11 studies were conducted in North America, 3 in Europe, and 1 in Asia. The main nutritional species investigated were vitamin E or tocopherol. Included with the articles were corrected for multivariate variables such as age, education, sex, smoking status, alcohol intake, body mass index, and a history of cardiovascular and cerebrovascular illness. The literary NOS quality score ranged from 6 to 8. Study characteristics for all included Mate analyses are presented in  Table 1 .
+L41: Table 1 Characteristics of included studies.
+L42: Dietary or supplemental vitamin E in relation to risk of dementia
+L43: Regarding diet and supplements, there were 15 research containing 18 pieces of data that were included in our study. A high intake of diet or vitamin E supplements decreased the risk of dementia by 21% (OR = 0.79, 95% CI 0.70–0.88,  Figure 2A ), with a statistically significant difference ( p t  = 0.000). The heterogeneity was low ( I 2  = 35.0%,  p  = 0.071). When subgroup analyzed by study type, cohort studies (OR = 0.79, 95% CI 0.69–0.89,  Figure 2B ) showed that high vitamin E intake dramatically decreased the risk of dementia. Case-control studies (OR = 0.76, 95% CI 0.47–1.24,  Figure 2B ) tended to reduce the risk of dementia, but this was not statistically significant. We also performed subgroup analyses according to diet and supplement, and we found that both diet (OR = 0.78, 95% CI 0.65–0.95,  Figure 2C ) and supplement (OR = 0.83, 95% CI 0.73–0.94,  Figure 2C ) high vitamin E intake reduced the risk of dementia. When we did subgroup analysis according to NOS score, studies with scores >7 (OR = 0.85, 95% CI 0.75–0.97,  Figure 2D ) and ≤ 7 (OR = 0.76, 95% CI 0.65–0.89,  Figure 2D ) significantly reduced the risk of dementia. We screened some studies on AD according to dementia classification and we found a significant inverse association between vitamin E intake and AD risk (OR = 0.78, 95% CI 0.64–0.94,  Figure 3A ), with a statistically significant difference ( p t  = 0.000). The heterogeneity was low ( I 2  = 36.9%,  p  = 0.123). Cohort studies (OR = 0.77, 95% CI 0.63–0.94,  Figure 3B ) showed a significant reduction in AD risk when subgroup analyses were performed according to study type. When subgroup analyses were performed by diet and supplement, both diet (OR = 0.83, 95% CI 0.64–1.09,  Figure 3C ) and supplement (OR = 0.67, 95% CI 0.47–0.96,  Figure 3C ) reduced the risk of AD and diet was not statistically significant. When performing subgroup analysis by NOS score, studies >7 (OR = 0.63, 95% CI 0.35–1.15,  Figure 3D ) and ≤ 7 (OR = 0.80, 95% CI 0.65–0.98,  Figure 3D ) both significantly reduced the risk of AD, but studies >7 were not statistically significant. Results of a meta-analysis of diet and supplements with risk of dementia are shown in  Table 2 .
+L44: Figure 2 Forest plots and subgroup analysis plots of high intake of dietary or supplemental vitamin E and risk of dementia.  (A)  Forest plot.  (B)  Subgroup analysis by study type.  (C)  Subgroup analysis by diet and supplements.  (D)  Subgroup analysis by NOS quality score.
+L45: Figure 3 Forest plots and subgroup analysis plots of high intake of dietary or supplemental vitamin E and risk of AD.  (A)  Forest plot.  (B)  Subgroup analysis by study type.  (C)  Subgroup analysis by diet and supplements.  (D)  Subgroup analysis by NOS quality score.
+L46: Table 2 Meta-analysis of diet and supplements with risk of dementia.
+L47: Publication bias and sensitivity analysis
+L48: We used Begg's funnel plot and Begg's test to detect whether there was a significant publication bias. The results of Begg test for dementia ( Figure 4A ): (Pr > | z | = 0.405), Begg test for AD ( Figure 4B ): (Pr > | z | = 0.348), and Begg's funnel plots of dementia and AD were evenly distributed on both sides (Pr > | z | > 0.05), showed no Significant publication bias. In addition, we evaluated the stability of the meta-analysis by deleting studies one by one and re-combining ORs for sensitivity analysis ( Figures 5A,B ), and the pooled ORs fluctuated within a certain range after deleting each study, indicating that the results of this meta-analysis were stable. In summary, the conclusions of our study are relatively reliable.
+L49: Figure 4 Publication bias begg's funnel plot.  (A)  Funnel plot for combined dietary and supplement outcomes with dementia risk.  (B)  Funnel plot for combined dietary and supplement outcomes with AD risk.
+L50: Figure 5 Sensitivity analysis.  (A)  Sensitivity analysis of combined dietary and supplement use and risk of dementia.  (B)  Sensitivity analysis of combined dietary and supplement use and risk of AD.
+L51: Discussion
+L52: Vitamin E is a fat-soluble antioxidant that plays an important role in human life activities (Lloret et al.,  2019 ). Due to its antioxidant and cerebral protective effects, vitamin E can be used to prevent and treat neurodegenerative diseases (Brigelius-Flohé and Traber,  1999 ; Reiter et al.,  2007 ; Jiang,  2014 ). Although some observational studies have reported that dietary intake or supplementation with vitamin E reduces the risk of dementia, there is also controversy between them, so we conducted a meta-analysis to comprehensively assess vitamin E and the risk of dementia. We included 15 clinical studies on dietary intake or supplementation with vitamin E and risk of dementia. We performed subgroup analysis based on dementia type, study category, NOS score.
+L53: The vast majority of studies included in our meta-analysis were prospective cohort studies, which greatly reduced recall excursions and were more credible, and the results showed that high dietary intake or vitamin E supplementation significantly reduced the risk of dementia and AD. Subsequently, we performed a subgroup analysis of diet and supplements and found that diet and supplements reduced the risk of dementia, but diet was superior, whereas for AD, supplements were superior. We also performed subgroup analysis according to NOS score and for dementia we found a more significant decrease in studies with ≤ 7 points; for AD, the decrease was more significant in studies with more than 7 points. We also performed subgroup analyses according to study type, and we found that case-control studies significantly reduced the risk of dementia than cohort studies; cohort studies reduced the risk of AD more significantly. In conclusion, we found that either high dietary intake or vitamin E supplementation reduced the risk of dementia. We recommend that older adults should eat more foods rich in vitamin E or oral vitamin E supplements to prevent the development of dementia.
+L54: Vitamins are essential elements in maintaining the physiological functions of the brain. Its antioxidant function, which can reduce oxidative stress in dementia pathology (Tadokoro et al.,  2020 ; Ali et al.,  2021 ), can also react with free radicals, thereby preventing hippocampal neuronal apoptosis caused by reperfusion after ischemia and playing a role in protecting the brain (Tagami et al.,  1999 ). Vitamin E has been found in animal studies to reduce the harmful effects of -amyloid and improve cognitive function in rodents (Rota et al.,  2005 ; Montiel et al.,  2006 ). Although the ideal timing of antioxidant effects is uncertain, research shows that antioxidants have an impact on dementia in its early stages (Berr et al.,  2000 ; Nunomura et al.,  2001 ; Praticò et al.,  2002 ). Vitamin E's neuroprotective effect was confirmed in several experimental studies, which found that it prevented amyloid-induced cell injury and death in rat hippocampal cells (Behl et al.,  1992 ), and slowed the progression of high-level amyloid-mediated neurological impairment in transgenic mice expressing human amyloid variants (Hsiao,  1995 ). Vitamin E intake increases the growth of natural killer cells in the elderly, And has been demonstrated in human dietary studies. Rotterdam's study of 5,395 people aged 55 years or older showed that participants with the highest dietary vitamin E content had a significantly reduced risk of dementia (De la Fuente et al.,  2008 ).
+L55: We found no significant heterogeneity in the pooled results for vitamin E and dementia risk. Heterogeneity plays an essential role in meta-analysis. First, our study was less heterogeneous. Second, we further subgroup analyzed by dementia type, study type, NOS score, making our conclusions more specific. Third, according to the sensitivity analysis, our findings are stable and have some credibility. We must acknowledge that studies included in the meta-analysis have more or less some publication bias. For prospective cohort studies, the main sources of bias are selection bias, lost to follow-up bias, confounding bias. The main sources of bias regarding case-control studies are recall bias, choice bias, and confounding bias. We performed an offset test of the included studies using the Begg's funnel plot and Begg's test, and the results showed that no significant publication offset was found.
+L56: For the first time, we show a link between vitamin E and dementia risk. In a previous meta-analysis, Wang et al. ( 2021 ) investigated the connection of vitamin E supplementation with the risk and progression of AD and did not conclude that vitamin E supplementation reduces the risk of AD. It may be due to the small number of articles included in this meta-analysis and the low quality of the studies, which makes the results of the studies possibly biased. Our meta-analysis included a large number of literatures, with high study quality and reliable results. Moreover, we investigated high intake of vitamin E in diet, supplements with risk of dementia, not limited to supplements or AD, so our study is more persuasive. The meta-analysis conducted by li et al investigated dietary vitamin E with AD risk and concluded that dietary vitamin E intake contributes to the risk reduction of dementia (Li et al.,  2012 ). This is consistent with the conclusions of our study. However, our study is of high quality, has a wide range of studies, and is more scientific. Therefore, we can reduce the prevalence of dementia by vitamin E supplementation.
+L57: The advantages of our study, first, we are the first to propose an effect of vitamin E on the risk of dementia. Secondly, we not only search the English database, but also search the references of reviews and meta-analyses, so that the retrieved literatures are more comprehensive. Third, the results of the prospective cohort study we included are reliable. Fourth, our study had a larger sample size and the findings were more representative. Finally, our study had no significant publication bias, and the heterogeneity was low and the results were stable.
+L58: Our research has its own limitations. About all, we included publications written in English, that could have resulted in selection bias. Next, our study was not subgroup analyzed by territory, ethnicity, and gender. Third, no specific vitamin E dose was provided and there was no dosages meta-analysis. Fourth, the dose conversion tool was inconsistent between meals and vitamin E that we included in the study. Fifth, even when the study results are adjusted for variables, other variable factors may also influence the reliability of the findings.
+L59: This paper shows that high doses of vitamin E have a role in reducing the risk of dementia. Therefore, people with a family history of dementia can be given high-dose vitamin E to prevent the occurrence of dementia. However, we should also pay attention to the side effects of vitamin E. Studies have shown that long-term daily administration of vitamin E more than 400–800 mg can cause headache, dizziness, blurred vision, elevated blood pressure, hormone metabolism disorders, etc., and significantly aggravate the symptoms of patients with diabetes and heart disease (Roberts,  1981 ; Satia-Abouta et al.,  2003 ). Due to the absorption and transformation of vitamin E in the liver and metabolism in the kidney, long-term massive administration of vitamin E can increase the liver and kidney load, leading to liver and kidney damage (Miller et al.,  2005 ; Ribeiro et al.,  2018 ). In summary, we should control the dose of vitamin E within a certain range to reduce its toxic side effects.
+L60: Conclusion
+L61: High intakes of diet or vitamin E supplements can significantly reduce the risk of dementia. Therefore, the elderly can reduce the risk of dementia by appropriately increasing foods rich in vitamin E, but also pay attention to the toxic side effects of vitamin E. Although our research results are reliable, they should be further validated by large RCTs.
+L62: Data availability statement
+L63: The original contributions presented in the study are included in the article/ Supplementary material , further inquiries can be directed to the corresponding author/s.
+L64: Author contributions
+L65: RZ and XH conceived the study and wrote a draft. HZ and JL performed the literature search. MZ and WZ extracted the required data. SJ and RL performed the statistical analyses. HY and HC reviewed the paper. All authors contributed to the article and approved the submitted version.
+L66: Funding
+L67: This work was supported by grants from the Task Letter of Science and Technology Plan Project of Gansu Province (21JR1RA020, 21JR11RA194, and 21JR7RA597).
+L68: Conflict of interest
+L69: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L70: Publisher's note
+L71: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L72: Supplementary material
+L73: The Supplementary Material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fnagi.2022.955878/full#supplementary-material
+L74: Table S1 We uploaded the data sheets of included studies in the attachment section.
+L75: Ali A. A. 
+L76:  Abd El-Fattah A. I. 
+L77:  Abu-Elfotuh K. 
+L78:  Elariny H. A.  ( 2021 ).  Natural antioxidants enhance the power of physical and mental activities versus risk factors inducing progression of Alzheimer's disease in rats .  Int. Immunopharmacol .  96 : 107729 .  10.1016/j.intimp.2021.107729 33971493
+L79: Aoki S. 
+L80:  Yamagishi K. 
+L81:  Maruyama K. 
+L82:  Kishida R. 
+L83:  Ikeda A. 
+L84:  Umesawa M. 
+L85:  . ( 2021 ).  Dietary intake of tocopherols and risk of incident disabling dementia .  Sci. Rep .  11 : 16429 .  10.1038/s41598-021-95671-7 34385499
+L86: Barberger-Gateau P. 
+L87:  Raffaitin C. 
+L88:  Letenneur L. 
+L89:  Berr C. 
+L90:  Tzourio C. 
+L91:  Dartigues J. F. 
+L92:  . ( 2007 ).  Dietary patterns and risk of dementia: the Three-City cohort study .  Neurology 
+L93:  69 ,  1921 – 1930 .  10.1212/01.wnl.0000278116.37320.52 17998483
+L94: Basambombo L. L. 
+L95:  Carmichael P. H. 
+L96:  Côt,é S. 
+L97:  Laurin D.  ( 2017 ).  Use of vitamin E, and C supplements for the prevention of cognitive decline .  Ann. Pharmacother .  51 ,  118 – 124 .  10.1177/1060028016673072 27708183
+L98: Behl C. 
+L99:  Davis J. 
+L100:  Cole G. M. 
+L101:  Schubert D.  ( 1992 ).  Vitamin E protects nerve cells from amyloid beta protein toxicity .  Biochem. Biophys. Res. Commun .  186 ,  944 – 950 .  10.1016/0006-291X(92)90837-B 1497677
+L102: Berr C. 
+L103:  Balansard B. 
+L104:  Arnaud J. 
+L105:  Roussel A. M. 
+L106:  Alpérovitch A.  ( 2000 ).  Cognitive decline is associated with systemic oxidative stress: the EVA study. Etude du Vieillissement Artériel .  J. Am. Geriatr. Soc .  48 ,  1285 – 1291 .  10.1111/j.1532-5415.2000.tb02603.x 11037017
+L107: Brigelius-Flohé R. 
+L108:  Traber M. G.  ( 1999 ).  Vitamin E: function and metabolism .  FASEB J .  13 ,  1145 – 1155 .  10.1096/fasebj.13.10.1145 10385606
+L109: Browne D. 
+L110:  McGuinness B. 
+L111:  Woodside J. V. 
+L112:  McKay G. J.  ( 2019 ).  Vitamin, E., and Alzheimer's disease: what do we know so far? 
+L113:  Clin. Interv. Aging 
+L114:  14 ,  1303 – 1317 .  10.2147/CIA.S186760 31409980
+L115: Chertkow H. 
+L116:  Feldman H. H. 
+L117:  Jacova C. 
+L118:  Massoud F.  ( 2013 ).  Definitions of dementia and predementia states in Alzheimer's disease and vascular cognitive impairment: consensus from the Canadian conference on diagnosis of dementia .  Alzheimer's Res. Ther. 
+L119:  5 ( Suppl. 1 ): S2 .  10.1186/alzrt198 24565215
+L120: Corrada M. M. 
+L121:  Kawas C. H. 
+L122:  Hallfrisch J. 
+L123:  Muller D. 
+L124:  Brookmeyer R.  ( 2005 ).  Reduced risk of Alzheimer's disease with high folate intake: the Baltimore Longitudinal Study of Aging .  Alzheimer's Dement .  1 ,  11 – 18 .  10.1016/j.jalz.2005.06.001 19595811
+L125: Dai Q. 
+L126:  Borenstein A. R. 
+L127:  Wu Y. 
+L128:  Jackson J. C. 
+L129:  Larson E. B.  ( 2006 ).  Fruit and vegetable juices and Alzheimer's disease: the Kame Project .  Am. J. Med .  119 ,  751 – 759 .  10.1016/j.amjmed.2006.03.045 16945610
+L130: De la Fuente M. 
+L131:  Hernanz A. 
+L132:  Guayerbas N. 
+L133:  Victor V. M. 
+L134:  Arnalich F.  ( 2008 ).  Vitamin E ingestion improves several immune functions in elderly men and women .  Free Radic. Res .  42 ,  272 – 280 .  10.1080/10715760801898838 18344122
+L135: Del Mondo A. 
+L136:  Smerilli A. 
+L137:  San,é E. 
+L138:  Sansone C. 
+L139:  Brunet C.  ( 2020 ).  Challenging microalgal vitamins for human health .  Microb. Cell Fact .  19 : 201 .  10.1186/s12934-020-01459-1 33138823
+L140: Devore E. E. 
+L141:  Grodstein F. 
+L142:  van Rooij F. J. 
+L143:  Hofman A. 
+L144:  Stampfer M. J. 
+L145:  Witteman J. C. 
+L146:  . ( 2010 ).  Dietary antioxidants and long-term risk of dementia .  Arch. Neurol .  67 ,  819 – 825 .  10.1001/archneurol.2010.144 20625087
+L147: Engelhart M. J. 
+L148:  Geerlings M. I. 
+L149:  Ruitenberg A. 
+L150:  van Swieten J. C. 
+L151:  Hofman A. 
+L152:  Witteman J. C. 
+L153:  . ( 2002 ).  Dietary intake of antioxidants and risk of Alzheimer disease .  JAMA 
+L154:  287 ,  3223 – 3229 .  10.1001/jama.287.24.3223 12076218
+L155: Eshkoor S. A. 
+L156:  Hamid T. A. 
+L157:  Mun C. Y. 
+L158:  Ng C. K.  ( 2015 ).  Mild cognitive impairment and its management in older people .  Clin. Interv. Aging .  10 ,  687 – 693 .  10.2147/CIA.S73922 25914527
+L159: Farina N. 
+L160:  Llewellyn D. 
+L161:  Isaac M. 
+L162:  Tabet N.  ( 2017 ).  Vitamin E for Alzheimer's dementia and mild cognitive impairment .  Cochrane Database Syst. Rev. 
+L163:  4 : Cd002854 .  10.1002/14651858.CD002854.pub4 28418065
+L164: GBD 2019 Dementia Forecationg Collaborators  ( 2022 ).  Estimation of the global prevalence of dementia in 2019 and forecasted prevalence in 2050: an analysis for the Global Burden of Disease Study 2019 .  Lancet Publ. Health 
+L165:  7 ,  e105 – e125 .  10.1016/S2468-2667(21)00249-8 34998485
+L166: Giraldo E. 
+L167:  Lloret A. 
+L168:  Fuchsberger T. 
+L169:  Viña J.  ( 2014 ).  Aβ and tau toxicities in Alzheimer's are linked  via  oxidative stress-induced p38 activation: protective role of vitamin E .  Redox Biol .  2 ,  873 – 877 .  10.1016/j.redox.2014.03.002 25061569
+L170: Gray S. L. 
+L171:  Anderson M. L. 
+L172:  Crane P. K. 
+L173:  Breitner J. C. 
+L174:  McCormick W. 
+L175:  Bowen J. D. 
+L176:  . ( 2008 ).  Antioxidant vitamin supplement use and risk of dementia or Alzheimer's disease in older adults .  J. Am. Geriatr. Soc .  56 ,  291 – 295 .  10.1111/j.1532-5415.2007.01531.x 18047492
+L177: Hsiao K. K.  ( 1995 ).  Understanding the biology of beta-amyloid precursor proteins in transgenic mice .  Neurobiol. Aging 
+L178:  16 ,  705 – 706 .  10.1016/0197-4580(95)00082-P 8544923
+L179: Hughes T. F. 
+L180:  Andel R. 
+L181:  Small B. J. 
+L182:  Borenstein A. R. 
+L183:  Mortimer J. A. 
+L184:  Wolk A. 
+L185:  . ( 2010 ).  Midlife fruit and vegetable consumption and risk of dementia in later life in Swedish twins .  Am. J. Geriatr. Psychiatry 
+L186:  18 ,  413 – 420 .  10.1097/JGP.0b013e3181c65250 19910881
+L187: Jiang Q.  ( 2014 ).  Natural forms of vitamin E: metabolism, antioxidant, and anti-inflammatory activities and their role in disease prevention and therapy .  Free Radic. Biol. Med .  72 ,  76 – 90 .  10.1016/j.freeradbiomed.2014.03.035 24704972
+L188: Kryscio R. J. 
+L189:  Abner E. L. 
+L190:  Caban-Holt A. 
+L191:  Lovell M. 
+L192:  Goodman P. 
+L193:  Darke A. K. 
+L194:  . ( 2017 ).  Association of antioxidant supplement use and dementia in the prevention of Alzheimer's disease by vitamin, E, and selenium trial (PREADViSE) .  JAMA Neurol .  74 ,  567 – 573 .  10.1001/jamaneurol.2016.5778 28319243
+L195: Lakhan R. 
+L196:  Sharma M. 
+L197:  Batra K. 
+L198:  Beatty F. B.  ( 2021 ).  the role of vitamin E in slowing down mild cognitive impairment: a narrative review .  Healthcare 
+L199:  9 : 1573 .  10.3390/healthcare9111573 34828619
+L200: Laurin D. 
+L201:  Masaki K. H. 
+L202:  Foley D. J. 
+L203:  White L. R. 
+L204:  Launer L. J.  ( 2004 ).  Midlife dietary intake of antioxidants and risk of late-life incident dementia: the Honolulu-Asia Aging Study .  Am. J. Epidemiol .  159 ,  959 – 967 .  10.1093/aje/kwh124 15128608
+L205: Li F. J. 
+L206:  Shen L. 
+L207:  Ji H. F.  ( 2012 ).  Dietary intakes of vitamin E, vitamin C, and β-carotene and risk of Alzheimer's disease: a meta-analysis .  J. Alzheimer's Dis .  31 ,  253 – 258 .  10.3233/JAD-2012-120349 22543848
+L208: Licher S. 
+L209:  Ahmad S. 
+L210:  Karamujić-Comi,ć H. 
+L211:  Voortman T. 
+L212:  Leening M. J. G. 
+L213:  Ikram M. A. 
+L214:  . ( 2019 ).  Genetic predisposition, modifiable-risk-factor profile and long-term dementia risk in the general population .  Nat. Med .  25 ,  1364 – 1369 .  10.1038/s41591-019-0547-7 31451782
+L215: Livingston G. 
+L216:  Huntley J. 
+L217:  Sommerlad A. 
+L218:  Ames D. 
+L219:  Ballard C. 
+L220:  Banerjee S. 
+L221:  . ( 2020 ).  Dementia prevention, intervention, and care: 2020 report of the Lancet Commission .  Lancet 
+L222:  396 ,  413 – 446 .  10.1016/S0140-6736(20)30367-6 32738937
+L223: Lloret A. 
+L224:  Esteve D. 
+L225:  Monllor P. 
+L226:  Cervera-Ferri A. 
+L227:  Lloret A.  ( 2019 ).  The effectiveness of vitamin E treatment in Alzheimer's disease .  Int. J. Mol. Sci .  20 : 879 .  10.3390/ijms20040879 30781638
+L228: Luchsinger J. A. 
+L229:  Tang M. X. 
+L230:  Shea S. 
+L231:  Mayeux R.  ( 2003 ).  Antioxidant vitamin intake and risk of Alzheimer disease .  Arch. Neurol .  60 ,  203 – 208 .  10.1001/archneur.60.2.203 12580704
+L232: Malik R. 
+L233:  Georgakis M. K. 
+L234:  Neitzel J. 
+L235:  Rannikmäe K. 
+L236:  Ewers M. 
+L237:  Seshadri S. 
+L238:  . ( 2021 ).  Midlife vascular risk factors and risk of incident dementia: longitudinal cohort and Mendelian randomization analyses in the UK Biobank .  Alzheimer's Dement .  17 ,  1422 – 1431 .  10.1002/alz.12320 33749976
+L239: Miller E. R. III 
+L240:  Pastor-Barriuso R. 
+L241:  Dalal D. 
+L242:  Riemersma R. A. 
+L243:  Appel L. J. 
+L244:  Guallar E.  ( 2005 ).  Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality .  Ann. Intern. Med .  142 ,  37 – 46 .  10.7326/0003-4819-142-1-200501040-00110 15537682
+L245: Montiel T. 
+L246:  Quiroz-Baez R. 
+L247:  Massieu L. 
+L248:  Arias C.  ( 2006 ).  Role of oxidative stress on beta-amyloid neurotoxicity elicited during impairment of energy metabolism in the hippocampus: protection by antioxidants .  Exp. Neurol .  200 ,  496 – 508 .  10.1016/j.expneurol.2006.02.126 16626708
+L249: Morris M. C.  ( 2016 ).  Nutrition and risk of dementia: overview and methodological issues .  Ann. N.Y. Acad. Sci .  1367 ,  31 – 37 .  10.1111/nyas.13047 27116239
+L250: Morris M. C. 
+L251:  Evans D. A. 
+L252:  Bienias J. L. 
+L253:  Tangney C. C. 
+L254:  Bennett D. A. 
+L255:  Aggarwal N. 
+L256:  . ( 2002 ).  Dietary intake of antioxidant nutrients and the risk of incident Alzheimer disease in a biracial community study .  JAMA 
+L257:  287 ,  3230 – 3237 .  10.1001/jama.287.24.3230 12076219
+L258: Morris M. C. 
+L259:  Evans D. A. 
+L260:  Tangney C. C. 
+L261:  Bienias J. L. 
+L262:  Wilson R. S. 
+L263:  Aggarwal N. T. 
+L264:  . ( 2005 ).  Relation of the tocopherol forms to incident Alzheimer disease and to cognitive change .  Am. J. Clin. Nutr .  81 ,  508 – 514 .  10.1093/ajcn.81.2.508 15699242
+L265: Nunomura A. 
+L266:  Perry G. 
+L267:  Aliev G. 
+L268:  Hirai K. 
+L269:  Takeda A. 
+L270:  Balraj E. K. 
+L271:  . ( 2001 ).  Oxidative damage is the earliest event in Alzheimer disease .  J. Neuropathol. Exp. Neurol .  60 ,  759 – 767 .  10.1093/jnen/60.8.759 11487050
+L272: Olson D. A.  ( 2000 ).  Association of vitamin E and C supplement use with cognitive function and dementia in elderly men .  Neurology 
+L273:  55 ,  901 – 902 .  10.1212/WNL.55.6.901-a 10994030
+L274: Paganini-Hill A. 
+L275:  Kawas C. H. 
+L276:  Corrada M. M.  ( 2016 ).  Lifestyle factors and dementia in the oldest-old: the 90+ study .  Alzheimer Dis. Assoc. Disord .  30 ,  21 – 26 .  10.1097/WAD.0000000000000087 25710250
+L277: Praticò D. 
+L278:  Clark C. M. 
+L279:  Liun F. 
+L280:  Rokach J. 
+L281:  Lee V. Y. 
+L282:  Trojanowski J. Q.  ( 2002 ).  Increase of brain oxidative stress in mild cognitive impairment: a possible predictor of Alzheimer disease .  Arch. Neurol .  59 ,  972 – 976 .  10.1001/archneur.59.6.972 12056933
+L283: Reiter E. 
+L284:  Jiang Q. 
+L285:  Christen S.  ( 2007 ).  Anti-inflammatory properties of alpha- and gamma-tocopherol .  Mol. Aspects Med .  28 ,  668 – 691 .  10.1016/j.mam.2007.01.003 17316780
+L286: Ribeiro V. S. 
+L287:  Cabral E. V. 
+L288:  Vieira L. D. 
+L289:  Aires R. S. 
+L290:  Farias J. S. 
+L291:  Muzi-Filho H. 
+L292:  . ( 2018 ).  Perinatal α-tocopherol overload programs alterations in kidney development and renal angiotensin II signaling pathways at birth and at juvenile age: mechanisms underlying the development of elevated blood pressure .  Biochim. Biophys. Acta Mol. Basis Dis .  1864 ,  2458 – 2471 .  10.1016/j.bbadis.2018.04.007 29654944
+L293: Roberts H. J.  ( 1981 ).  Perspective on vitamin E as therapy .  JAMA 
+L294:  246 ,  129 – 131 .  10.1001/jama.1981.03320020021015 7241744
+L295: Rota C. 
+L296:  Rimbach G. 
+L297:  Minihane A. M. 
+L298:  Stoecklin E. 
+L299:  Barella L.  ( 2005 ).  Dietary vitamin E modulates differential gene expression in the rat hippocampus: potential implications for its neuroprotective properties .  Nutr. Neurosci .  8 ,  21 – 29 .  10.1080/10284150400027123 15909764
+L300: Satia-Abouta J. 
+L301:  Kristal A. R. 
+L302:  Patterson R. E. 
+L303:  Littman A. J. 
+L304:  Stratton K. L. 
+L305:  White E.  ( 2003 ).  Dietary supplement use and medical conditions: the VITAL study .  Am. J. Prev. Med .  24 ,  43 – 51 .  10.1016/S0749-3797(02)00571-8 12554023
+L306: Sharma S. 
+L307:  Katoch V. 
+L308:  Kumar S. 
+L309:  Chatterjee S.  ( 2021 ).  Functional relationship of vegetable colors and bioactive compounds: Implications in human health .  J. Nutr. Biochem .  92 : 108615 .  10.1016/j.jnutbio.2021.108615 33705954
+L310: Sindi S. 
+L311:  Kåreholt I. 
+L312:  Eskelinen M. 
+L313:  Hooshmand B. 
+L314:  Lehtisalo J. 
+L315:  Soininen H. 
+L316:  . ( 2018 ).  Healthy dietary changes in midlife are associated with reduced dementia risk later in life .  Nutrients .  10 : 1649 .  10.3390/nu10111649 30400288
+L317: Tadokoro K. 
+L318:  Ohta Y. 
+L319:  Inufusa H. 
+L320:  Loon A. F. N. 
+L321:  Abe K.  ( 2020 ).  Prevention of cognitive decline in Alzheimer's disease by novel antioxidative supplements .  Int. J. Mol. Sci .  21 : 1974 .  10.3390/ijms21061974 32183152
+L322: Tagami M. 
+L323:  Ikeda K. 
+L324:  Yamagata K. 
+L325:  Nara Y. 
+L326:  Fujino H. 
+L327:  Kubota A. 
+L328:  . ( 1999 ).  Vitamin E prevents apoptosis in hippocampal neurons caused by cerebral ischemia and reperfusion in stroke-prone spontaneously hypertensive rats .  Lab. Invest .  79 ,  609 – 615 . 10334572
+L329: Tardy A. L. 
+L330:  Pouteau E. 
+L331:  Marquez D. 
+L332:  Yilmaz C. 
+L333:  Scholey A.  ( 2020 ).  Vitamins and minerals for energy, fatigue and cognition: a narrative review of the biochemical and clinical evidence .  Nutrients .  12 : 228 .  10.3390/nu12010228 31963141
+L334: von Arnim C. A. 
+L335:  Herbolsheimer F. 
+L336:  Nikolaus T. 
+L337:  Peter R. 
+L338:  Biesalski H. K. 
+L339:  Ludolph A. C. 
+L340:  . ( 2012 ).  Dietary antioxidants and dementia in a population-based case-control study among older people in South Germany .  J. Alzheimer's Dis .  31 ,  717 – 724 .  10.3233/JAD-2012-120634 22710913
+L341: Wang W. 
+L342:  Li J. 
+L343:  Zhang H. 
+L344:  Wang X. 
+L345:  Zhang X.  ( 2021 ).  Effects of vitamin E supplementation on the risk and progression of AD: a systematic review and meta-analysis .  Nutr. Neurosci .  24 ,  13 – 22 .  10.1080/1028415X.2019.1585506 30900960
+L346: Winblad B. 
+L347:  Amouyel P. 
+L348:  Andrieu S. 
+L349:  Ballard C. 
+L350:  Brayne C. 
+L351:  Brodaty H. 
+L352:  . ( 2016 ).  Defeating Alzheimer's disease and other dementias: a priority for European science and society .  Lancet Neurol .  15 ,  455 – 532 .  10.1016/S1474-4422(16)00062-4 26987701
+L353: Wiseman M.  ( 2008 ).  The second World Cancer Research Fund/American Institute for Cancer Research expert report. Food, nutrition, physical activity, and the prevention of cancer: a global perspective .  Proc. Nutr. Soc .  67 ,  253 – 256 .  10.1017/S002966510800712X 18452640
+L354: Zandi P. P. 
+L355:  Anthony J. C. 
+L356:  Khachaturian A. S. 
+L357:  Stone S. V. 
+L358:  Gustafson D. 
+L359:  Tschanz J. T. 
+L360:  . ( 2004 ).  Reduced risk of Alzheimer disease in users of antioxidant vitamin supplements: the Cache County Study .  Arch. Neurol .  61 ,  82 – 88 .  10.1001/archneur.61.1.82 14732624
+L361: Zhang H. 
+L362:  Greenwood D. C. 
+L363:  Risch H. A. 
+L364:  Bunce D. 
+L365:  Hardie L. J. 
+L366:  Cade J. E.  ( 2021 ).  Meat consumption and risk of incident dementia: cohort study of 493,888 UK Biobank participants .  Am. J. Clin. Nutr .  114 ,  175 – 184 .  10.1093/ajcn/nqab028 33748832
+L367: We would like to thank the researchers and study participants for their contributions.
+[23ms]
+

@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "repo",
+    "init",
+    "triage-a-probe-f6fb16685e",
+    "isolated triage probe set"
+  ],
+  "completed_at": "2026-08-16T02:57:37.381665+00:00",
+  "elapsed_seconds": 0.5976279170718044,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:36.784026+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/repo-init.attempt-01.stderr",
+  "stdout_bytes": 173,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-a/sample_searches/repo-init.attempt-01.stdout"
+}

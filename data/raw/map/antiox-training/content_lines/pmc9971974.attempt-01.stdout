@@ -1,0 +1,637 @@
+L1: Effect of exercise and antioxidant supplementation on cellular lipid peroxidation in elderly individuals: Systematic review and network meta-analysis
+L2: Frontiers in Physiology (2023)
+L3: Chunxia Ni, Yiyi Ji, Keke Hu, Kai Xing, Yining Xu, Yanan Gao
+L4: 1 
+L5:  Faculty of Sports Science ,  Ningbo University ,  Ningbo ,  China
+L6: 2 
+L7:  College of Music ,  Ningbo University ,  Ningbo ,  China
+L8: Background:  The viewpoints of previous studies on the correlation between exercise and cellular lipid peroxidation are contradictory from many perspectives and lack evidence for elder individuals. A new systematic review with network meta-analysis is necessary and will have significant practical value to provide high-quality evidence in the development of exercise protocols and an evidence-based guide for antioxidant supplementation for the elderly.
+L9: Aims:  To identify the cellular lipid peroxidation induced by different types of exercise, with or without antioxidant supplementation, in elderly individuals.
+L10: Methods:  Randomized controlled trials that recruited elderly participants and reported cellular lipid peroxidation indicators and were published in peer-reviewed journals in English were searched by a Boolean logic search strategy and screened in the databases PubMed, Medline, Embase, and Web of Science. The outcome measures were the biomarkers of oxidative stress in cell lipids in urine and blood, namely F2-isoprostanes, hydrogen peroxide (LOOH, PEROX, or LIPOX), malondialdehyde (MDA), and thiobarbituric acid reactive substances (TBARS).
+L11: Result:  7 trials were included. A combination program of aerobic exercise (AE), low-intensity resistance training (LIRT), and a placebo intake (Placebo) and a combination program of aerobic exercise, low-intensity resistance training, and antioxidant supplementation (S) had the most and sub-most potential to dampen cellular lipid peroxidation (AE + LIRT + Placebo: 0.31 in Rank 1 and 0.2 in Rank 2; AE + LIRT + S: 0.19 in Rank 1 and 0.20 in Rank 2); A placebo intake (Placebo) and a blank intervention without exercise (NE) had the most and sub-most potential to induce an enhancement of cellular lipid peroxidation (Placebo: 0.51 in Rank 9 and 0.16 in Rank 8; NE: 0.16 in Rank 9 and 0.28 in Rank 8). All included studies had an unclear risk of selecting reporting. There were no high confidence ratings in all the direct and indirect comparisons, 4 comparisons in the direct evidence structure and 7 comparisons in the indirect evidence structure had moderate confidence.
+L12: Conclusion:  A combined protocol consisting of aerobic exercise and low-intensity resistance training is recommended to dampen cellular lipid peroxidation. Extra antioxidant supplementation might be unnecessary if an elderly individual has enough aerobic and resistance exercise.
+L13: Systematic Review Registration:  CRD42022367430
+L14: Physiology; Systematic Review; Systematic Review
+L15: exercise; lipid peroxidation; network meta-analysis; elder; systematic reveiw
+L16: 1 Introduction
+L17: Oxidative stress continuously generates hydrogen peroxide (H 2 O 2 ), superoxide, hydroxyl free radicals, and singlet oxygen as one of the normal metabolic processes. These chemical reactive molecules containing oxygen are members of free radicals and non-radical derivatives of oxygen, and they could be called reactive oxygen species (ROS) ( Bergamini et al., 2004 ). Biologically, ROS are highly reactive chemicals with complicated production pathways that could induce cellular lipid peroxidation (LIPOX) ( Hayyan et al., 2016 ). The oxidation of the cell membrane induced by ROS in the process of LIPOX is the process in which the ROS reacts with macromolecular substances such as phospholipids, enzymes, and cell membrane receptors to form LIPOX by-products. The lipid peroxidation products produced by this process mainly include malondialdehyde (MDA) and 4-hydroxynonenal (HNE), which will change the fluidity and permeability of the cell membrane, destroying the lipid bilayers of the cell membrane, and then change the cell structure and function or even cell death ( Halliwell and Chirico, 1993 ). In recent decades, the impact of physical exercise on oxidative stress has attracted extensive attention, although the understanding of exercise and oxidative stress has advanced, questions remain about whether exercise-induced increases in ROS production are beneficial to health or not ( Powers et al., 2020 ). Several previous studies have given some methodological advice, as well as several pieces of evidence with high-quality, suggesting that whether the effect of exercise-induced oxidative stress is positive or negative depends on the health status of individuals and calling for an integrative approach of multi-markers to measure the oxidative stress in response to physical exercise instead of selecting only one biomarker to quantify physical exercise-induced oxidative stress in humans ( Lu et al., 2021 ;  Squillacioti et al., 2021 ).
+L18: Previous studies have also identified that during the oxygen refusion for anoxic tissues, the cellular lipid peroxidation, especially on biomembranes, induces a series of negative changes in cellular functions, which contain increased permeability of cellular membranes, a decreased transport rate of calcium of the sarcoplasmic reticulum, changes in the function of mitochondrial, and toxic metabolic by-products produced through other metabolic pathways ( Girotti, 1985 ;  Ronguist, 1992 ). Hypoxia of body tissue usually occurs during exercise due to blood redistribution, and lipid peroxidation might occur when oxygen is reinfusing into the body’s anoxic tissues ( Halliwell and Chirico, 1993 ). Previous studies have demonstrated that physical activity may be one of the key factors that change cell function induced by exercise ( Fogarty et al., 2011 ). These changes include the swelling of cell mitochondria, the decrease in cell membrane fluidity, and finally lead to edema, proteinuria, hemolysis, and even rhabdomyolysis ( Holt et al., 1999 ;  Qi et al., 1999 ;  Solin et al., 2001 ;  Vincent et al., 2002 ).
+L19: At present, the viewpoints of studies on the correlation between exercise and cellular lipid peroxidation are contradictory from many perspectives. Some previous studies reported an enhancement in cellular lipid peroxidation induced by exercise. For example, some research groups used ethane and pentane in the gas of expiration as indicators of lipid peroxidation, respectively, and found that exercise could result in an enhancement of lipid peroxidation in body cells ( Gee and Tappel, 1981 ;  Davies et al., 1982 ;  Dillard and Tappel, 1989 ). A study published in 1985 by Rhee’s team found that electrical stimulation could induce a decrease in the activity of catalase (CAT) in skeletal muscle ( Rhee et al., 1985 ). And a study by Teixeira’s team claimed that despite the enhanced levels of antioxidants, individuals undergoing regular strenuous exercise exhibited more oxidative stress than sedentary individuals ( Teixeira et al., 2009 ). Moreover, malondialdehyde (MDA), an important indicator of lipid peroxidation, has also been reported a significant increase after a maximum effort of exercise under an intensity of VO 2max  ( Lovlin et al., 1987 ) and a significant positive correlation with the blood lactic acid, which increases continually during high-intensity interval exercise ( Faruk Ugras, 2013 ). The potential mechanism of the cellular lipid peroxidation enhancement might come from the following perspectives. First, during intense exercise, the oxygen consumption of the body increases quickly and the capacity of the antioxidant enzyme system is limited, making the body unable to regulate and control cellular lipid peroxidation ( Alessio and Goldfarb, 1988 ;  Leaf et al., 1997 ). For example, the antioxidant enzymes in skeletal muscle cells include superoxide dismutase (SOD, Mn-SOD in mitochondria, Cu-SOD, and Zn-SOD in cytoplasm), whose main function is to convert the more active ROS to the less active ROS (H 2 O 2 ), catalase (CAT), whose main function is converting H 2 O 2  to H 2 O, and glutathione peroxidase (GPx), whose main function is to help CAT convert H 2 O 2  to H 2 O ( Quindry et al., 2013 ). SOD and GPx are hydrophilic, whereas CAT is lipoedes. Second, during strenuous exercise, the depletion of the body’s energy substrate and the disturbance of the intracellular oxidative mechanism, such as the change in the ratio of the free radical scavenging enzyme such as nicotinamide adenine dinucleotide (NADH) and nicotinamide adenine dinucleotide phosphate (NADPH), lead to the enhancement of lipid peroxidation ( Krotkiewski and Brzezinska, 1996 ;  Olek et al., 2004 ). Last, some enzymes in serum1, such as creatine kinase (CK), creatine kinase isoenzymes (CKMB), lactate dehydrogenase (LDH) and other isoenzymes, increase acutely after a single bout of exercise, leading to an enhancement of lipid peroxidation in the resting state after exercise, which could also be called “exercise-induced lipid peroxidation” ( Kanter et al., 1988 ;  Aslan et al., 1998 ;  Ghiasi et al., 2015 ).
+L20: Besides, some other previous studies have demonstrated that cellular lipid peroxidation would be dampened after exercise, especially long-term endurance exercise, the definition of which is an exercise with aerobic metabolism as the main energy source such as jogging, cycling, or swimming, more than 150 min per week, and last at least 12 weeks ( Alessio and Goldfarb, 1988 ;  Toskulkao and Glinsukon, 1996 ;  Aksoy et al., 2006 ). For example, Fukai’s team identified that there was no significant difference in liver lipid peroxidation indicators between the rats that conducted an endurance training protocol and those that conducted a control intervention with no exercise ( Fukai et al., 2005 ). The potential mechanism of cellular lipid peroxidation dampening induced by long-term endurance exercise could also come from different perspectives. On one hand, long-term endurance exercise increases the number or volume of mitochondria in body cells, giving these cells a stronger aerobic metabolic capacity, which could lead to the weakening of cellular lipid peroxidation or the enhancement of anti-lipid peroxidation ( Davies et al., 1981 ;  Salminen and Vihko, 1983 ;  Venditti and Di Meo, 1996 ;  Taysi et al., 2008 ). On the other hand, the activity of catalase (CAT) in skeletal muscle increases after long-term endurance exercise ( Miyazaki et al., 2001 ;  Sadegh Ghomi et al., 2022 ).
+L21: After considering the controversy within the present studies, as well as most of the existing evidence accumulated in studies whose subjects are athletes, adults, and animals, the cellular lipid oxidative stress induced by different types of exercise in elderly individuals with or without antioxidant supplementation remains unknown. Moreover, the existing evidence on the effect of antioxidant supplementation on exercising individuals is also contradictory. It seems logical, though, to dampen oxidative stress by taking antioxidant vitamins, such as vitamin C and vitamin E. However, studies have not found that this protocol can effectively reduce oxidative stress biomarkers in the human body ( Gleeson et al., 2004 ;  Nieman et al., 2004 ). Some previous studies found that taking these vitamins in RDA will increase oxidative stress, which is opposite to the effect expected, which is to achieve anti-oxidative stress ( Gomez-Cabrera et al., 2008 ). And some other previous studies have claimed that exercise-induced oxidative stress induced more anti-oxidant mechanisms to trigger the adaptive reaction of the body, which could enhance the endogenous ability of antioxidation. However, the enhancement of endogenous ability for antioxidation will be damped by antioxidation supplementation and then the potential benefit of exercise will be decreased ( Ristow et al., 2009 ).
+L22: To sum up, on one hand, for a comprehensive understanding of exercise-induced oxidative stress in the elder population, the information about exercise-induced lipid peroxidation is still insufficient. On the other hand, the effect of exercise on lipid peroxidation in the elderly depends on many factors, which included health status, exercise protocol, and the use of antioxidant supplements. Therefore, it is necessary to conduct a systematic review with meta-analysis to synthesize the existing evidence to determine whether exercise is a friend of the prevention of oxidative stress in elderly individuals and the possible influence of antioxidant supplementation. This systematic review aims to identify the cellular lipid peroxidation, which is induced by different types of exercise that with or without antioxidant supplementation, in elderly individuals. This is the first PROSPERO registered systematic review with network meta-analysis, which has a significant practical value. The results of this review could provide professionals with high-quality evidence to help them develop appropriate exercise protocols for elder individuals and give the elderly an evidence-based guide for the use of antioxidant supplements.
+L23: 2 Methods
+L24: 2.1 Protocol and registration
+L25: This systematic review was written based on the reporting systematic reviews incorporating network meta-analyses of healthcare intervention guidelines, which was an extension statement for the Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) ( Hutton et al., 2015 ). The eligibility criteria, exclusion criteria, and search strategy were proposed and agreed on by two authors (Chunxia Ni and Yanan Gao). The PROSPERO registration number was CRD42022367430.
+L26: 2.2 Eligibility criteria (PICOS)
+L27: 2.2.1 Population (P)
+L28: This systematic review included studies of trials with participants aged over 60 years old on average and without any musculoskeletal disease or clinical exercise contraindication. Elder individuals with obesity, metabolic syndrome, or chronic diseases such as chronic kidney diseases but not prohibited from exercise, were eligible for this systematic review.
+L29: 2.2.2 Interventions (I)
+L30: This systematic review included studies of trials with interventions of the following basic categories: 1) aerobic exercise under any intensity, with the abbreviation being “AE”; 2) anti-oxidative supplementation, with the abbreviation being “S”; 3) high-intensity resistance training, in which the Rating of Perceived was more than 8 (10 in total) or the relative load was equal or more than 80% 1 RM, with the abbreviation being “HIRT”; 4) low-intensity resistance training, in which the Rating of Perceived was equal or less than 8 (10 in total) or the relative load was less than 80% 1 RM, with the abbreviation being “LIRT”; 5) Placebo intake, with the abbreviation being “Placebo”. If an intervention combined more than one of the categories above, a plus sign was used to connect the abbreviations. For example, the abbreviation “S + AE + LIRT” referred to a combination of anti-oxidative supplementation, aerobic exercise, and low-intensity resistance training.
+L31: 2.2.3 Comparators (C)
+L32: Trials in whose control groups the participants were asked to maintain a current physical activity or to take some activities under very low intensity such as stretching or relaxation were included as the comparators of this systematic review, with the abbreviation being “NE”. All the interventions mentioned above could also be regarded as comparators.
+L33: 2.2.4 Outcomes (O)
+L34: The outcome measures were biomarkers of oxidative stress in cell lipids. The laboratory samples of the outcome measures could be urine or blood. The biomarkers of oxidative stress in cell lipids were F2-isoprostanes, hydrogen peroxide (also called LOOH, PEROX, or LIPOX), malondialdehyde (MDA), and thiobarbituric acid reactive substances (TBARS), which also can reflect the level of MDA in plasma ( Ohkawa et al., 1979 ).
+L35: 2.2.5 Study (S)
+L36: Only studies of randomized controlled trials (RCTs) were eligible for this systematic review, and all the eligible studies must be published in peer-reviewed journals with English as the publication language.
+L37: 2.2.6 Exclusion criteria
+L38: Trials were excluded if: 1) participants had musculoskeletal diseases or were clinically exercise contraindications; 2) the average age of participants below 60; 3) participants were asked to have anti-oxidative substance injections during the process of intervention; 4) just published abstracts or lack of original data; 5) outcome measures were ineligible; 6) not published in English.
+L39: 2.3 Information sources
+L40: A comprehensive, reproducible search was performed on the databases of PubMed, Medline, Embase, and Web of Science from January 1990 to October 2022. Reference lists were also searched for grey literature. If data were insufficient, the authors were contacted and the missing data were requested.
+L41: 2.4 Search
+L42: A Boolean logic search was conducted based on some principles: 1) have “exercise” or “training” in the title; 2) have “randomized” or “randomised” in the abstract; 3) have “F2-isoprostanes” or “hydrogen peroxide” or “LOOH” or “PEROX” or “LIPOX” or “malondialdehyde” or “malonaldehyde” or “MDA” or “TBARS” in the abstract or title; 4) without “review” or “design” or “protocol” or “meta-analysis” in the title; 5) without “rat(s)”, “mouse”, “mice”, “dog(s)” in the title.
+L43: In PubMed, the search term was “((exercise) OR (training) [Title]) AND ((randomized) OR (randomised) [Abstract]) AND ((F2-isoprostanes) OR (hydrogen peroxide) OR (LOOH) OR (PEROX) OR (LIPOX) OR (malondialdehyde) OR (malonaldehyde) OR (MDA) OR (TBARS) [Titile/Abstract]) NOT ((review) OR (design) OR (protocol) OR (meta-analysis) OR (rat) OR (mouse) OR (mice) OR (dog)[Title])”, while in Medline, Embase, and Web of Science, the search term was “(exercise OR training TI) AND (randomized OR randomised AB) AND (F2-isoprostanes OR hydrogen peroxide OR LOOH OR PEROX OR LIPOX OR malondialdehyde OR malonaldehyde OR MDA OR TBARS AB) NOT (review OR design OR protocol OR meta-analysis OR rat OR mouse OR mice OR dog TI)”.
+L44: Two independent authors (Chunxia Ni and Keke Hu) screened all the titles of the searched studies before the abstract screening. A third independent librarian (Yining Xu) was invited to check synonyms and terms to increase the sensitivity and specificity.
+L45: 2.5 Study selection
+L46: The screening of the eligible studies was conducted in the title, abstract, and full text to guarantee that all the potentially eligible studies could be included in this systematic review.
+L47: All searched studies were imported into EndNote 20 (Thomson Reuters, Carlsbad, CA, United States) to further screen and remove duplicates. In the first step, two independent authors (Chunxia Ni and Keke Hu) screened all the titles of the searched studies before the abstract screening. Then, in the second step, another two independent authors checked the abstracts of the studies screened out from the first step (Yining Xu and Kai Xin), while a third independent author (Yanan Gao) checked the full text of the studies screened out from the second step to identify the studies could be finally included in this systematic review.
+L48: 2.6 Data collection process
+L49: Two independent authors (Chunxia Ni and Kai Xin) extracted all the original data.
+L50: 2.7 Data items
+L51: To compare the pooled effects of different interventions, the details of trials in each included study, namely population, average age, and gender ratio, and intervention protocols with their classification were collected, summarized, and put into an extraction sheet. These outcomes were needed to analyze the heterogeneities within studies and the potential bias of each study as well as the pooled evidence.
+L52: To conduct the network meta-analysis, the data of each trial, which contained the sample size N), and mean value (Mean) with its standard deviation (SD) of each outcome in baseline and every recording point, was recorded in another extraction sheet for the data preprocessing. These outcomes were necessary for the identification of inconsistency.
+L53: 2.8 Geometry of the network
+L54: The network geometry was made by the Aggregate Data Drug Information System (Version 1.16.8,  http://drugis.org/software/addis/index , accessed on 1 October 2022) to display the evidence structure. Each intervention was represented by a node, the direct comparisons between each pair of interventions were represented by the edges, and the arms of each comparison were represented by the number on every edge.
+L55: 2.9 Risk of bias within individual studies
+L56: The risk of bias within individual studies was assessed according to the Cochrane Collaboration Risk of Bias Assessment Tool ( Armijo-Olivo et al., 2012 ) in the Cochrane Library Review Manager software (Version 5.3, Wiley, Chichester, United Kingdom) by two independent authors (Yining Xu and Chunxia Ni). An independent arbitrator (Yanan Gao) was invited to arbitrate each disagreement. Cohen’s kappa value was applied to represent the agreement between authors.
+L57: If a study had no items with high risk or had less than 3 (contain) items with unclear risk, it was regarded to have a low overall risk. If a study had no item with high risk but had more than 3 items with unclear risk, it was regarded to have a moderate overall risk. If a study had one item with high risk, it was also regarded to have a moderate overall risk. If a study had more than one item with high risk, it was regarded to have a high overall risk.
+L58: The reporting bias was also assessed by applying the Cochrane Collaboration Risk of Bias Assessment Tool. If the included study had a pre-registered protocol number and all the outcomes in the protocol were fully matched with those reported in the article, this study was regarded to have a low risk of selective reporting. Meanwhile, if the included study had a pre-registered protocol number but the outcomes reported in the article were not fully matched with those registered in the protocol, this study was regarded as having a high risk of selective reporting. At last, if the included study did not have a pre-registered protocol number, this study was regarded as having an unclear risk of selective reporting ( Armijo-Olivo et al., 2012 ).
+L59: 2.10 Summary measures
+L60: The units of f2-isoprostanes, hydrogen peroxide, and MDA in urine, serum, or plasma were different. Therefore, in this systematic review, the effect was presented in the form of standardized mean differences and their standard error (SMD ± SE). According to the criteria provided by Cohen, when SMD was larger than 0.8, the effect size was large, when the SMD was from 0.5 to 0.8, the effect size was moderate when the SMD was from 0.2 to 0.5, the effect size was small, and when the SMD was less than 0.2, the effect size was very small ( Gogtay and Thatte, 2017 ).
+L61: Under the consistency model, the results were shown in a rank probability plot, in which the sum of all rank probabilities was 1. In a rank probability plot, a lower rank number meant the induction of lower oxidative stress. Therefore, in the probability rank of interventions, the intervention in Rank N would induce a higher cellular lipid oxidative stress. A league table was provided after the model of data analysis had been determined and reported the results that showed the standard mean difference in the column-defining items compared with the row-defining items.
+L62: Under the inconsistency model, the results were shown only by a league table ( Catala-Lopez et al., 2014 ).
+L63: 2.11 Planned methods of analysis
+L64: Two independent authors (Yanan Gao and Chunxia Ni) conducted the data preprocessing and analysis. Microsoft Office Excel (Version 16.0, Microsoft Corporation, Redmond, WA, United States) was applied to transfer original outcomes to SMDs and their SE. The Aggregate Data Drug Information System (Version 1.16.8,  http://drugis.org/software/addis/index , accessed on 1 October 2022) was used to make the network meta-analysis.
+L65: 2.12 Assessment of inconsistency
+L66: If there are closed loops in the intervention structure, the inconsistency of the evidence must be assessed. The node-splitting analysis is an alternative method to assess inconsistency in network meta-analysis, which assesses whether direct and indirect evidence on a specific node (the split node) agree when the results are easier to interpret and require a separate model to be run for each node to be split ( Rouse et al., 2017 ).
+L67: The consistency model was applied if there were neither closed loops nor split nodes in the intervention structure, the respective Bayesian  p -value in every node-splitting analysis was larger than 0.05, or the random-effects standard deviations in the two models were identical. Otherwise, the inconsistency model should be applied ( Catala-Lopez et al., 2014 ).
+L68: 2.13 Risk of bias across studies
+L69: Two independent authors (Yining Xu and Keke Hu) applied the Cochrane Collaboration Risk of Bias Assessment Tool ( Armijo-Olivo et al., 2012 ) in the Cochrane Library Review Manager software (Version 5.3, Wiley, Chichester, United Kingdom) to assess the risk of bias across studies.
+L70: 2.14 Additional analyses
+L71: The confidence evaluation and the reporting bias assessment were conducted by applying The Confidence in Network Meta-Analysis (CINeMA  https://cinema.ispm.unibe.ch , assessed on 1 October 2022). The confidence should be downgraded by one level when the item “within-study bias” was a “Major concern” or the other items were “Some concern”. The confidence would be downgraded by two-level when other items were “Major concern” ( Nikolakopoulou et al., 2020 ;  Papakonstantinou et al., 2020 ).
+L72: The summarizing risk of bias assessments was conducted according to the “Average Risk of Bias” setting in CINeMA. The weighted average score for each relative effect was estimated according to the percentage contribution of studies at each bias level. Studies of a direct comparison, which had low (arbitrarily assigned a score of 1), moderate (score 2), and high (score 3) risk of bias, had 40%, 25%, and 35% percentage of contribution, and the total risk of bias score was 0.40 × 1 + 0.25 × 2 + 0.35 × 3 = 1.95, which rounded to 2 and would be regarded as “Some concerns” ( Nikolakopoulou et al., 2020 ;  Papakonstantinou et al., 2020 ).
+L73: 3 Results
+L74: 3.1 Study selection
+L75: The search yielded 2,871 titles and abstracts for screening. After removing 1,279 duplicated studies, 442 studies were included in the records screening process. In the records screening process, 9 studies that were not RCTs, 165 studies of animal trials, and 220 studies with wrong participants were excluded. The remaining 49 studies were included for full-text screening. Among the 49 studies, 2 studies were excluded due to their ineligible interventions, 1 study was excluded because of its ineligible language, and 27 studies were excluded because of their ineligible comparators. Eventually, 7 studies were included in the systematic review ( Alghadir et al., 2016 ;  Campbell et al., 2010 ;  da Silva et al., 2021 ;  Dani et al., 2020 ;  Fatouros et al., 2004 ;  Osali, 2020 ;  Vincent et al., 2002 ). The flow diagram was presented in  Figure 1 .
+L76: FIGURE 1 The PRISMA 2020 flow diagram for new systematic reviews which included searches of databases and registers only.
+L77: 3.2 Study characteristics
+L78: Two studies recruited unhealthy elders as participants, while 5 studies recruited healthy or healthy elders as participants. 1 study used F2-isoprostane as the outcome measure, 1 study used LIPOX as the outcome measure, and others used MDA as the outcome measure. Only 2 studies give their participants antioxidant supplementation during their trials. Detailed information on all included studies is provided in  Table 1 , and the results of the quality assessment was provided in  Figure 2 .
+L79: TABLE 1 The detailed information in included trials.
+L80: FIGURE 2 The result of the risk of bias assessment  (A)  Risk of bias summary  (B)  Risk of bias graph.
+L81: 3.3 Results of syntheses
+L82: 3.3.1 Evidence structure
+L83: In the evidence structure, which was represented by a network geometry ( Figure 3 ), the risk of bias distribution of each intervention was the color in every node (Red = high risk of bias, Yellow = unclear risk of bias, Green = low risk of bias), the sample size of each intervention was the size of the node, and the number of arms in each direct comparison was the width of the lines that connected two interventions and was also equal to the numbers on them.
+L84: FIGURE 3 The network geometry of the interventions.
+L85: 3.3.2 Network meta-analysis
+L86: The results of consistency tests and node splitting analysis were presented in  Table 2 . According to  Table 2 , the random-effects standard deviation of consistency was 1.47 (95%CI: 0.73 to 2.20), while that of the inconsistency model was 1.39 (95%CI: 0.74 to 2.20). Moreover, the result of the node splitting analysis showed that the direct and indirect effect of the comparison between intervention AE and S had no statistically significant difference ( p  = 1.00). Since the random-effects standard deviations calculated under consistency and inconsistency models were identified and then the  p -value of node splitting analysis was larger than 0.05, the consistency model was appropriate to conduct the network meta-analysis.
+L87: TABLE 2 The results of consistency tests and node splitting analysis.
+L88: Table 3  was the league table that showed the weighted standard mean difference calculated by the effect size of column-defining interventions minus that of the row-defining interventions. According to  Table 3 , the intervention categories, namely LIRT + AE + Placebo and LIRT + AE + S, both reduced cellular lipid peroxidation compared with all other intervention categories, since the values in the row cells, which represented the effects of the interventions in the row headers minus those of the interventions in the column headers for that cells, were all less than 0.
+L89: TABLE 3 The league tables of the network geometries.
+L90: Figure 4  and  Table 4  provided the probability rank of every intervention, in which a lower rank number meant a dampening of cellular lipid peroxidation, and a higher rank number indicated an enhancement of cellular peroxidation. According to  Table 4 , for elder adults, a combination program of aerobic exercise, low-intensity resistance training, and a placebo intake and a combination program of aerobic exercise, low-intensity resistance training, and an antioxidant supplementation had the most and sub-most potential to dampen cellular lipid peroxidation (AE + LIRT + Placebo: 0.31 in Rank 1 and 0.2 in Rank 2; AE + LIRT + S: 0.19 in Rank 1 and 0.20 in Rank 2). Besides, a placebo intake control intervention and a blank intervention without exercise had the most and sub-most potential to induce an enhancement of cellular lipid peroxidation (Placebo: 0.51 in Rank 9 and 0.16 in Rank 8; NE: 0.16 in Rank 9 and 0.28 in Rank 8).
+L91: FIGURE 4 Ranking of measures and probabilities.
+L92: TABLE 4 Ranking of measures and probabilities 
+L93:  a 
+L94:  .
+L95: 3.4 Reporting bias
+L96: The results of the reporting bias assessment were provided in the risk of bias assessment results in  Figure 2 . According to  Figure 2 , all included studies had an unclear risk of selecting reporting since all the trials in these included studies were not registered.
+L97: 3.5 Certainty of evidence
+L98: Table 5  provided the results of the confidence assessment made by CINeMA. In  Table 5 , the “MC” indicates the issue needs major concern, the “SC” indicates the issue needs some concern, and the “NC” indicates the issue needs no concern. According to  Table 5 , there were no high confidence ratings in all the direct and indirect comparisons, the comparisons between AE and Placebo, AE + S and Placebo, LIRT and NE, and Placebo and S in the direct evidence structure had moderate confidence ratings, whereas, the comparisons between AE and LIRT, A + S and LRT, LIRT and Placebo, LIRT and S, NE and Placebo, NE and Placebo + AE + LIRT, Placebo and S + AE + LIRT in the indirect evidence structure had moderate confidence.
+L99: TABLE 5 Results of the confidence rating.
+L100: 4 Discussion
+L101: The main findings of this systematic review and network meta-analysis can be concluded as follows. Firstly, a long-term combined training program that includes aerobic and resistance exercise and lasts more than 4 weeks, could induce a dampening of the cellular lipid peroxidation in the bodies of elder individuals, regardless of their intake of antioxidant supplementation. Second, a daily life routine without exercise might have an enhancing effect on cellular lipid peroxidation in the bodies of elderly individuals, since a placebo intake protocol intervention without exercise and a blank intervention without exercise had the most and sub-most potential to induce an enhancement of cellular lipid peroxidation, respectively.
+L102: Many previous studies have demonstrated the positive effect induced by resistance training and aerobic exercise on intercellular antioxidation, which correspondent with one of the main findings of this systematic review. Some of these studies were about animal trials. For example, a study published in 2016 by da Palma’s team, whose subjects were rats, claimed that both resistance and aerobic exercise could induce an improvement in cardiac oxidative stress ( da Palma et al., 2016 ), and another rat trial conducted by Quinteiro’s team in 2015 demonstrated that aerobic and resistance exercise training could bring a reduction in oxidative stress in an experimental model of diabetes and menopause ( Quinteiro et al., 2015 ). Regarding elderly human beings, in 2012, Cardoso’s team identified that, when compared with sedentary middle-aged women, trained middle-aged women show improved antioxidant capacity and lower oxidative damage, demonstrating the benefits of chronic regular physical activity ( Cardoso et al., 2012 ), and a pilot study conducted by Done’s team in 2016, whose subjects were older and middle-aged individuals from 50 to 63 years old, demonstrated that regular aerobic and resistance exercise can increase their resistance to oxidative stress ( Done and Traustadottir, 2016 ).
+L103: Additionally, these findings indicated that regular resistance exercise under a low intensity might bring more advantages in the antioxidation of cellular lipids. This finding also correspondent with some previous studies. A study published in 2016 found that, for hypertensive elderly women, a strength training program could reduce oxidative stress and correlate moderately with cardiovascular benefits ( Dantas et al., 2016 ). And a study published in 2022 by Rodziewicz-Flis’ team demonstrated that a 12-week training contained low-intensity resistance exercise improved physical performance and antioxidant protection in elderly women ( Rodziewicz-Flis et al., 2022 ).
+L104: Besides, several previous studies have identified that cellular lipid peroxidation would be gradually more intense with the body’s senility. For example, a cross-sectional study published in 2011 found that athletes had higher endogenous antioxidant protection than sedentary individuals and the potential mechanism might be that chronic exercise could protect against exercise-induced oxidative stress by upregulating endogenous antioxidant defense systems ( El Abed et al., 2011 ). At the same time, a study published in 2020, whose participants were obese men, identified that exercise can change the redox state and enhance the brain-derived neurotrophic factor production by lipopolysaccharide-stimulated oxidative stress markers of peripheral blood mononuclear cells in obese individuals ( Elsner et al., 2020 ). These physiological and biochemical mechanisms might partially explain the findings of this systematic review that if an elderly individual had daily life without any exercise, the cellular lipid peroxidation in his or her body would be enhanced more.
+L105: However, the results of the network meta-analysis in this systematic review seem not to support the positive effect of anti-oxidant supplementation for cellular lipid peroxidation in elderly individuals, since according to the rank probabilities of interventions, the interventions containing anti-oxidant supplementation did not have any obvious advantage in becoming the best intervention to dampen cellular lipid peroxidation when being compared with other protocols without anti-oxidant supplementation, and might even have disadvantages when being compared with protocols without scheme without anti-oxidant supplementation when elderly individuals have a regular aerobic and resistance exercise (AE + LIRT + Placebo: 0.31 in Rank 1 and 0.2 in Rank 2; AE + LIRT + S: 0.19 in Rank 1 and 0.20 in Rank 2). This finding correspondent with what has been mentioned by Ristow’s study, which is that the enhancement of antioxidation will be affected by anti-oxidation supplementation and then the potential benefit of exercise will be decreased ( Ristow et al., 2009 ). Therefore, this result indicates that the importance of exercise for preventing oxidative stress is similar in the elder and physically active individuals and further demonstrates the importance of keeping a high level of daily activity for the elderly, especially those physical activities that contain both aerobic and resistance exercise.
+L106: Nevertheless, this viewpoint that the intake of anti-oxidant supplementation has a negative effect on individuals with exercise still needs to be considered dialectically, and the reason might come from the following perspectives. First, at present, most evidence that supports the application of antioxidative supplements is still at a low level. Although several controlled trials with human or animal subjects have demonstrated the positive effects of antioxidant supplementation for oxidative stress ( Kooshki et al., 2020 ;  N'Guessan B et al., 2022 ;  Onaolapo et al., 2021 ;  Sharma et al., 2020 ), there is still no systematic review with meta-analysis to identify which antioxidant supplementation protocol would be the best choice for individuals in different ages. Second, generally, the antioxidant supplements given to subjects in studies are often composite components, making it difficult to identify the specific contribution of each component to the antioxidant physiological mechanism and whether they would interact with each other. At last, the publication bias of the studies on the antioxidant supplements cannot be ignored since the potential conflict of interest in the relevant studies and the absence of grey literature of trials with small effect sizes cannot be excluded.
+L107: There are some limitations to this systematic review and network meta-analysis. First, none of the included studies registered for clinical trials, making the reporting bias unclear, inducing a downgrading of the confidence rating for the results. Second, only 2 included studies reported the change in cellular lipid peroxidation indicators after an antioxidant supplementation. The antioxidant supplementation protocols of these 2 studies were different. Therefore, it was possible that the dampening effect of antioxidant supplementation on cellular lipid peroxidation did not show advantages in this systematic review due to the heterogeneity within supplementation protocols. Third, although there was no significant inconsistency found in the evidence structure, the intervention durations and exercise protocols of included studies were different that the heterogeneities within included studies could not be ignored. Lastly, 3 studies recruited elderly participants with obesity, metabolic syndrome, and chronic kidney disease, making it possible that there was a potential heterogeneity induced by the different participants of studies.
+L108: 5 Conclusion
+L109: To sum up, a long-term combined training program that includes aerobic and resistance exercise could induce a dampening of the cellular lipid peroxidation in the bodies of elder individuals, regardless of their intake of antioxidant supplementation, and a daily life routine without exercise might have an enhancing effect on cellular lipid peroxidation in the bodies of elderly individuals, being harmful to their health, respectively.
+L110: Data availability statement
+L111: The original contributions presented in the study are included in the article/ Supplementary Material , further inquiries can be directed to the corresponding author.
+L112: Author contributions
+L113: Conceptualization, CN and YG; Methodology, CN, YJ, and KH; Formal analysis, CN, YJ, YG, and YX; Investigation, CN, KH, and YG; Resources, KH, YJ, KX, and YG; Data curation, CN, KH, and YX; Project administration, YG; Funding acquisition, YX and YG. All authors have read and agreed to the published version of the manuscript.
+L114: Conflict of interest
+L115: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L116: The handling editor declared shared affiliation with the authors at the time of the review.
+L117: Publisher’s note
+L118: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L119: Supplementary material
+L120: The Supplementary Material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fphys.2023.1113270/full#supplementary-material
+L121: Click here for additional data file.
+L122: Aksoy Y. 
+L123:  Yapanoglu T. 
+L124:  Aksoy H. 
+L125:  Demircan B. 
+L126:  Oztasan N. 
+L127:  Canakci E. 
+L128:  
+L129:   ( 2006 ).  Effects of endurance training on antioxidant defense mechanisms and lipid peroxidation in testis of rats .  Arch. Androl. 
+L130:  52  ( 4 ),  319 – 323 .  10.1080/01485010500503587 
+L131:  16728348
+L132: Alessio H. M. 
+L133:  Goldfarb A. H. 
+L134:   ( 1988 ).  Lipid peroxidation and scavenger enzymes during exercise: Adaptive response to training .  J. Appl. Physiol. (1985) 
+L135:  64  ( 4 ),  1333 – 1336 .  10.1152/jappl.1988.64.4.1333 
+L136:  3378967
+L137: Alghadir A. H. 
+L138:  Gabr S. A. 
+L139:  Al-Eisa E. S. 
+L140:   ( 2016 ).  Effects of moderate aerobic exercise on cognitive abilities and redox state biomarkers in older adults .  Oxid. Med. Cell. Longev. 
+L141:  2016 ,  2545168 .  10.1155/2016/2545168 
+L142:  27195073
+L143: Armijo-Olivo S. 
+L144:  Stiles C. R. 
+L145:  Hagen N. A. 
+L146:  Biondo P. D. 
+L147:  Cummings G. G. 
+L148:   ( 2012 ).  Assessment of study quality for systematic reviews: A comparison of the Cochrane collaboration risk of bias Tool and the effective public health practice Project quality assessment Tool: Methodological research .  J. Eval. Clin. Pract. 
+L149:  18  ( 1 ),  12 – 18 .  10.1111/j.1365-2753.2010.01516.x 
+L150:  20698919
+L151: Aslan R. 
+L152:  Sekeroglu M. R. 
+L153:  Tarakcioglu M. 
+L154:  Bayiroglu F. 
+L155:  Meral I. 
+L156:   ( 1998 ).  Effect of acute and regular exercise onantioxidative enzymes, tissue damage markersand membran lipid peroxidation of erythrocytesin sedentary students .  Turkish J. Med. Sci. 
+L157:  28  ( 4 ),  411 – 414 .
+L158: Bergamini C. M. 
+L159:  Gambetti S. 
+L160:  Dondi A. 
+L161:  Cervellati C. 
+L162:   ( 2004 ).  Oxygen, reactive oxygen species and tissue damage .  Curr. Pharm. Des. 
+L163:  10  ( 14 ),  1611 – 1626 .  10.2174/1381612043384664 
+L164:  15134560
+L165: Campbell P. T. 
+L166:  Gross M. D. 
+L167:  Potter J. D. 
+L168:  Schmitz K. H. 
+L169:  Duggan C. 
+L170:  McTiernan A. 
+L171:  
+L172:   ( 2010 ).  Effect of exercise on oxidative stress: A 12-month randomized, controlled trial .  Med. Sci. Sports Exerc 
+L173:  42  ( 8 ),  1448 – 1453 .  10.1249/MSS.0b013e3181cfc908 
+L174:  20139793
+L175: Cardoso A. M. 
+L176:  Bagatini M. D. 
+L177:  Roth M. A. 
+L178:  Martins C. C. 
+L179:  Rezer J. F. 
+L180:  Mello F. F. 
+L181:  
+L182:   ( 2012 ).  Acute effects of resistance exercise and intermittent intense aerobic exercise on blood cell count and oxidative stress in trained middle-aged women .  Braz J. Med. Biol. Res. 
+L183:  45  ( 12 ),  1172 – 1182 .  10.1590/s0100-879x2012007500166 
+L184:  23090122
+L185: Catala-Lopez F. 
+L186:  Tobias A. 
+L187:  Cameron C. 
+L188:  Moher D. 
+L189:  Hutton B. 
+L190:   ( 2014 ).  Network meta-analysis for comparing treatment effects of multiple interventions: An introduction .  Rheumatol. Int. 
+L191:  34  ( 11 ),  1489 – 1496 .  10.1007/s00296-014-2994-2 
+L192:  24691560
+L193: da Palma R. K. 
+L194:  Moraes-Silva I. C. 
+L195:  da Silva Dias D. 
+L196:  Shimojo G. L. 
+L197:  Conti F. F. 
+L198:  Bernardes N. 
+L199:  
+L200:   ( 2016 ).  Resistance or aerobic training decreases blood pressure and improves cardiovascular autonomic control and oxidative stress in hypertensive menopausal rats .  J. Appl. Physiol. (1985) 
+L201:  121  ( 4 ),  1032 – 1038 .  10.1152/japplphysiol.00130.2016 
+L202:  27339182
+L203: da Silva V. 
+L204:  Correa H. 
+L205:  Neves R. 
+L206:  Deus L. 
+L207:  Reis A. 
+L208:  Souza M. 
+L209:  
+L210:   ( 2021 ).  Impact of low hemoglobin on body composition, strength, and redox status of older hemodialysis patients following resistance training .  Front. Physiol. 
+L211:  12 ,  619054 .  10.3389/fphys.2021.619054 
+L212:  33776788
+L213: Dani C. 
+L214:  Dias K. M. 
+L215:  Trevizol L. 
+L216:  Bassoa L. 
+L217:  Fraga I. 
+L218:  Proenca I. C. T. 
+L219:  
+L220:   ( 2020 ).  The impact of red grape juice (Vitis labrusca)consumption associated with physical training on oxidative stress, inflammatory and epigenetic modulation in healthy elderly women .  Physiol. Behav. 
+L221:  229 ,  113215 .  10.1016/j.physbeh.2020.113215 
+L222:  33096120
+L223: Dantas F. F. 
+L224:  Brasileiro-Santos Mdo S. 
+L225:  Batista R. M. 
+L226:  do Nascimento L. S. 
+L227:  Castellano L. R. 
+L228:  Ritti-Dias R. M. 
+L229:  
+L230:   ( 2016 ).  Effect of strength training on oxidative stress and the correlation of the same with forearm vasodilatation and blood pressure of hypertensive elderly women: A randomized clinical trial .  PLoS One 
+L231:  11  ( 8 ),  e0161178 .  10.1371/journal.pone.0161178 
+L232:  27529625
+L233: Davies K. J. A. 
+L234:  Packer L. 
+L235:  Brooks G. A. 
+L236:   ( 1981 ).  Biochemical adaptation of mitochondria, muscle, and whole-animal respiration to endurance training .  Archives Biochem. Biophysics 
+L237:  209  ( 2 ),  539 – 554 .  10.1016/0003-9861(81)90312-X
+L238: Davies K. J. A. 
+L239:  Quintanilha A. T. 
+L240:  Brooks G. A. 
+L241:  Packer L. 
+L242:   ( 1982 ).  Free radicals and tissue damage produced by exercise .  Biochem. Biophysical Res. Commun. 
+L243:  107  ( 4 ),  1198 – 1205 .  10.1016/S0006-291X(82)80124-1
+L244: Dillard C. J. 
+L245:  Tappel A. L. 
+L246:   ( 1989 ).  Lipid peroxidation products in biological tissues .  Free Radic. Biol. Med. 
+L247:  7  ( 2 ),  193 – 196 .  10.1016/0891-5849(89)90014-2 
+L248:  2680786
+L249: Done A. J. 
+L250:  Traustadottir T. 
+L251:   ( 2016 ).  Aerobic exercise increases resistance to oxidative stress in sedentary older middle-aged adults. A pilot study .  Age (Dordr) 
+L252:  38  ( 5-6 ),  505 – 512 .  10.1007/s11357-016-9942-x 
+L253:  27558118
+L254: El Abed K. 
+L255:  Rebai H. 
+L256:  Bloomer R. J. 
+L257:  Trabelsi K. 
+L258:  Masmoudi L. 
+L259:  Zbidi A. 
+L260:  
+L261:   ( 2011 ).  Antioxidant status and oxidative stress at rest and in response to acute exercise in judokas and sedentary men .  J. Strength Cond. Res. 
+L262:  25  ( 9 ),  2400 – 2409 .  10.1519/JSC.0b013e3181fc5c35 
+L263:  21869626
+L264: Elsner V. R. 
+L265:  Dorneles G. P. 
+L266:  Santos M. A. 
+L267:  da Silva I. M. 
+L268:  Romao P. 
+L269:  Peres A. 
+L270:   ( 2020 ).  Exercise-induced BDNF production by mononuclear cells of sedentary and physically active obese men .  J. Sports Med. Phys. Fit. 
+L271:  60  ( 3 ),  435 – 441 .  10.23736/S0022-4707.19.10113-2
+L272: Faruk Ugras A. 
+L273:   ( 2013 ).  Effect of high intensity interval training on elite athletes’ antioxidant status .  Sci. Sports 
+L274:  28  ( 5 ),  253 – 259 .  10.1016/j.scispo.2012.04.009
+L275: Fatouros I. G. 
+L276:  Jamurtas A. Z. 
+L277:  Villiotou V. 
+L278:  Pouliopoulou S. 
+L279:  Fotinakis P. 
+L280:  Taxildaris K. 
+L281:  
+L282:   ( 2004 ).  Oxidative stress responses in older men during endurance training and detraining .  Med. Sci. Sports Exerc 
+L283:  36  ( 12 ),  2065 – 2072 .  10.1249/01.mss.0000147632.17450.ff 
+L284:  15570141
+L285: Fogarty M. C. 
+L286:  Hughes C. M. 
+L287:  Burke G. 
+L288:  Brown J. C. 
+L289:  Trinick T. R. 
+L290:  Duly E. 
+L291:  
+L292:   ( 2011 ).  Exercise-induced lipid peroxidation: Implications for deoxyribonucleic acid damage and systemic free radical generation .  Environ. Mol. Mutagen 
+L293:  52  ( 1 ),  35 – 42 .  10.1002/em.20572 
+L294:  20839226
+L295: Fukai M. 
+L296:  Hayashi T. 
+L297:  Yokota R. 
+L298:  Shimamura T. 
+L299:  Suzuki T. 
+L300:  Taniguchi M. 
+L301:  
+L302:   ( 2005 ).  Lipid peroxidation during ischemia depends on ischemia time in warm ischemia and reperfusion of rat liver .  Free Radic. Biol. Med. 
+L303:  38  ( 10 ),  1372 – 1381 .  10.1016/j.freeradbiomed.2005.02.004 
+L304:  15855055
+L305: Gee D. L. 
+L306:  Tappel A. L. 
+L307:   ( 1981 ).  The effect of exhaustive exercise on expired pentane as a measure of  in vivo  lipid peroxidation in the rat .  Life Sci. 
+L308:  28  ( 21 ),  2425 – 2429 .  10.1016/0024-3205(81)90510-5 
+L309:  7253831
+L310: Ghiasi R. 
+L311:  Mohammadi M. 
+L312:  Ashrafi Helan J. 
+L313:  Jafari Jozani S. R. 
+L314:  Mohammadi S. 
+L315:  Ghiasi A. 
+L316:  
+L317:   ( 2015 ).  Influence of two various durations of resistance exercise on oxidative stress in the male rat's hearts .  J. Cardiovasc Thorac. Res. 
+L318:  7  ( 4 ),  149 – 153 .  10.15171/jcvtr.2015.32 
+L319:  26702343
+L320: Girotti A. W. 
+L321:   ( 1985 ).  Mechanisms of lipid peroxidation .  J. Free Radicals Biol. Med. 
+L322:  1  ( 2 ),  87 – 95 .  10.1016/0748-5514(85)90011-X
+L323: Gleeson M. 
+L324:  Nieman D. C. 
+L325:  Pedersen B. K. 
+L326:   ( 2004 ).  Exercise, nutrition and immune function .  J. Sports Sci. 
+L327:  22  ( 1 ),  115 – 125 .  10.1080/0264041031000140590 
+L328:  14971437
+L329: Gogtay N. 
+L330:  Thatte U. 
+L331:   ( 2017 ).  An introduction to meta-analysis .  J. Assoc. Physicians India 
+L332:  65 ,  78 – 85 .
+L333: Gomez-Cabrera M. C. 
+L334:  Domenech E. 
+L335:  Romagnoli M. 
+L336:  Arduini A. 
+L337:  Borras C. 
+L338:  Pallardo F. V. 
+L339:  
+L340:   ( 2008 ).  Oral administration of vitamin C decreases muscle mitochondrial biogenesis and hampers training-induced adaptations in endurance performance .  Am. J. Clin. Nutr. 
+L341:  87  ( 1 ),  142 – 149 .  10.1093/ajcn/87.1.142 
+L342:  18175748
+L343: Halliwell B. 
+L344:  Chirico S. 
+L345:   ( 1993 ).  Lipid peroxidation: Its mechanism, measurement, and significance .  Am. J. Clin. Nutr. 
+L346:  57  ( 5 ),  715S – 724S .  discussion 724S-725S .  10.1093/ajcn/57.5.715S 
+L347:  8475889
+L348: Hayyan M. 
+L349:  Hashim M. A. 
+L350:  AlNashef I. M. 
+L351:   ( 2016 ).  Superoxide ion: Generation and chemical implications .  Chem. Rev. 
+L352:  116  ( 5 ),  3029 – 3085 .  10.1021/acs.chemrev.5b00407 
+L353:  26875845
+L354: Holt S. 
+L355:  Reeder B. 
+L356:  Wilson M. 
+L357:  Harvey S. 
+L358:  Morrow J. D. 
+L359:  Roberts L. J. 
+L360:  
+L361:   ( 1999 ).  Increased lipid peroxidation in patients with rhabdomyolysis .  Lancet 
+L362:  353  ( 9160 ),  1241 .  10.1016/S0140-6736(98)05768-7
+L363: Hutton B. 
+L364:  Salanti G. 
+L365:  Caldwell D. M. 
+L366:  Chaimani A. 
+L367:  Schmid C. H. 
+L368:  Cameron C. 
+L369:  
+L370:   ( 2015 ).  The PRISMA extension statement for reporting of systematic reviews incorporating network meta-analyses of health care interventions: Checklist and explanations .  Ann. Intern Med. 
+L371:  162  ( 11 ),  777 – 784 .  10.7326/m14-2385 
+L372:  26030634
+L373: Kanter M. M. 
+L374:  Lesmes G. R. 
+L375:  Kaminsky L. A. 
+L376:  La Ham-Saeger J. 
+L377:  Nequin N. D. 
+L378:   ( 1988 ).  Serum creatine kinase and lactate dehydrogenase changes following an eighty kilometer race. Relationship to lipid peroxidation .  Eur. J. Appl. Physiology Occup. Physiology 
+L379:  57  ( 1 ),  60 – 63 .  10.1007/BF00691239
+L380: Kooshki A. 
+L381:  Tofighiyan T. 
+L382:  Rastgoo N. 
+L383:  Rakhshani M. H. 
+L384:  Miri M. 
+L385:   ( 2020 ).  Effect of Nigella sativa oil supplement on risk factors for cardiovascular diseases in patients with type 2 diabetes mellitus .  Phytother. Res. 
+L386:  34  ( 10 ),  2706 – 2711 .  10.1002/ptr.6707 
+L387:  32510754
+L388: Krotkiewski M. 
+L389:  Brzezinska Z. 
+L390:   ( 1996 ).  Lipid peroxides production after strenuous exercise and in relation to muscle morphology and capillarization .  Muscle & Nerve 
+L391:  19  ( 12 ),  1530 – 1537 .  10.1002/(SICI)1097-4598(199612)19:12<1530:AID-MUS2>3.0.CO;2-B 
+L392:  8941266
+L393: Leaf D. A. 
+L394:  Kleinman M. T. 
+L395:  Hamilton M. 
+L396:  Barstow T. J. 
+L397:   ( 1997 ).  The effect of exercise intensity on lipid peroxidation .  Med. Sci. Sports Exerc 
+L398:  29  ( 8 ),  1036 – 1039 .  10.1097/00005768-199708000-00008 
+L399:  9268960
+L400: Lovlin R. 
+L401:  Cottle W. 
+L402:  Pyke I. 
+L403:  Kavanagh M. 
+L404:  Belcastro A. N. 
+L405:   ( 1987 ).  Are indices of free radical damage related to exercise intensity .  Eur. J. Appl. Physiology Occup. Physiology 
+L406:  56  ( 3 ),  313 – 316 .  10.1007/BF00690898
+L407: Lu Z. 
+L408:  Xu Y. 
+L409:  Song Y. 
+L410:  Biro I. 
+L411:  Gu Y. 
+L412:   ( 2021 ).  A mixed comparisons of different intensities and types of physical exercise in patients with diseases related to oxidative stress: A systematic review and network meta-analysis .  Front. Physiol. 
+L413:  12 ,  700055 .  10.3389/fphys.2021.700055 
+L414:  34421637
+L415: Miyazaki H. 
+L416:  Oh-ishi S. 
+L417:  Ookawara T. 
+L418:  Kizaki T. 
+L419:  Toshinai K. 
+L420:  Ha S. 
+L421:  
+L422:   ( 2001 ).  Strenuous endurance training in humans reduces oxidative stress following exhausting exercise .  Eur. J. Appl. Physiol. 
+L423:  84  ( 1-2 ),  1 – 6 .  10.1007/s004210000342 
+L424:  11394236
+L425: N'Guessan B B. 
+L426:  Twumasi-Ankrah J. S. 
+L427:  Amponsah S. K. 
+L428:  Adams I. 
+L429:  Poakwah A. K. 
+L430:  Brown C. 
+L431:  
+L432:   ( 2022 ).  Effect of Metaswitch® dietary supplement on anthropometric parameters, serum lipids, glucose level, oxidative stress and  in vivo  antioxidant properties in high fat diet-induced overweight Sprague Dawley rats .  Biomed. Pharmacother. 
+L433:  149 ,  112892 .  10.1016/j.biopha.2022.112892 
+L434:  35358796
+L435: Nieman D. C. 
+L436:  Henson D. A. 
+L437:  McAnulty S. R. 
+L438:  McAnulty L. S. 
+L439:  Morrow J. D. 
+L440:  Ahmed A. 
+L441:  
+L442:   ( 2004 ).  Vitamin E and immunity after the kona triathlon world championship .  Med. Sci. Sports Exerc 
+L443:  36  ( 8 ),  1328 – 1335 .  10.1249/01.mss.0000135778.57355.ca 
+L444:  15292740
+L445: Nikolakopoulou A. 
+L446:  Higgins J. P. T. 
+L447:  Papakonstantinou T. 
+L448:  Chaimani A. 
+L449:  Del Giovane C. 
+L450:  Egger M. 
+L451:  
+L452:   ( 2020 ).  CINeMA: An approach for assessing confidence in the results of a network meta-analysis .  PLoS Med. 
+L453:  17  ( 4 ),  e1003082 .  10.1371/journal.pmed.1003082 
+L454:  32243458
+L455: Ohkawa H. 
+L456:  Ohishi N. 
+L457:  Yagi K. 
+L458:   ( 1979 ).  Assay for lipid peroxides in animal tissues by thiobarbituric acid reaction .  Anal. Biochem. 
+L459:  95  ( 2 ),  351 – 358 .  10.1016/0003-2697(79)90738-3 
+L460:  36810
+L461: Olek R. A. 
+L462:  Ziolkowski W. 
+L463:  Kaczor J. J. 
+L464:  Greci L. 
+L465:  Popinigis J. 
+L466:  Antosiewicz J. 
+L467:   ( 2004 ).  Antioxidant activity of NADH and its analogue--an  in vitro  study .  J. Biochem. Mol. Biol. 
+L468:  37  ( 4 ),  416 – 421 .  10.5483/bmbrep.2004.37.4.416 
+L469:  15469728
+L470: Onaolapo O. J. 
+L471:  Omotoso S. A. 
+L472:  Olofinnade A. T. 
+L473:  Onaolapo A. Y. 
+L474:   ( 2021 ).  Anti-Inflammatory, anti-oxidant, and anti-lipaemic effects of daily dietary coenzyme-Q10 supplement in a mouse model of metabolic syndrome .  Antiinflamm. Antiallergy Agents Med. Chem. 
+L475:  20  ( 4 ),  380 – 388 .  10.2174/1871523020666210427111328 
+L476:  33906592
+L477: Osali A. 
+L478:   ( 2020 ).  Aerobic exercise and nano-curcumin supplementation improve inflammation in elderly females with metabolic syndrome .  Diabetol. Metab. Syndr. 
+L479:  12 ,  26 .  10.1186/s13098-020-00532-4 
+L480:  32256716
+L481: Papakonstantinou T. 
+L482:  Nikolakopoulou A. 
+L483:  Higgins J. P. T. 
+L484:  Egger M. 
+L485:  Salanti G. 
+L486:   ( 2020 ).  CINeMA: Software for semiautomated assessment of the confidence in the results of network meta‐analysis .  Campbell Syst. Rev. 
+L487:  16  ( 1 ),  e1080 .  10.1002/cl2.1080
+L488: Powers S. K. 
+L489:  Deminice R. 
+L490:  Ozdemir M. 
+L491:  Yoshihara T. 
+L492:  Bomkamp M. P. 
+L493:  Hyatt H. 
+L494:   ( 2020 ).  Exercise-induced oxidative stress: Friend or foe? 
+L495:  J. Sport Health Sci. 
+L496:  9  ( 5 ),  415 – 425 .  10.1016/j.jshs.2020.04.001 
+L497:  32380253
+L498: Qi W. 
+L499:  Tan D. X. 
+L500:  Reiter R. J. 
+L501:  Kim S. J. 
+L502:  Manchester L. C. 
+L503:  Cabrera J. 
+L504:  
+L505:   ( 1999 ).  Melatonin reduces lipid peroxidation and tissue edema in cerulein-induced acute pancreatitis in rats .  Dig. Dis. Sci. 
+L506:  44  ( 11 ),  2257 – 2262 .  10.1023/a:1026656720868 
+L507:  10573371
+L508: Quindry J. 
+L509:  Miller L. 
+L510:  McGinnis G. 
+L511:  Kliszczewiscz B. 
+L512:  Slivka D. 
+L513:  Dumke C. 
+L514:  
+L515:   ( 2013 ).  Environmental temperature and exercise-induced blood oxidative stress .  Int. J. Sport Nutr. Exerc Metab. 
+L516:  23  ( 2 ),  128 – 136 .  10.1123/ijsnem.23.2.128 
+L517:  23532145
+L518: Quinteiro H. 
+L519:  Buzin M. 
+L520:  Conti F. F. 
+L521:  Dias Dda S. 
+L522:  Figueroa D. 
+L523:  Llesuy S. 
+L524:  
+L525:   ( 2015 ).  Aerobic exercise training promotes additional cardiac benefits better than resistance exercise training in postmenopausal rats with diabetes .  Menopause 
+L526:  22  ( 5 ),  534 – 541 .  10.1097/GME.0000000000000344 
+L527:  25314147
+L528: Rhee K. S. 
+L529:  Dutson T. R. 
+L530:  Savell J. W. 
+L531:   ( 1985 ).  Enzymic lipid peroxidation in beef muscle microsomes as affected by electrical stimulation and postmortem muscle excision time .  J. Food Biochem. 
+L532:  9  ( 1 ),  27 – 36 .  10.1111/j.1745-4514.1985.tb00336.x
+L533: Ristow M. 
+L534:  Zarse K. 
+L535:  Oberbach A. 
+L536:  Kloting N. 
+L537:  Birringer M. 
+L538:  Kiehntopf M. 
+L539:  
+L540:   ( 2009 ).  Antioxidants prevent health-promoting effects of physical exercise in humans .  Proc. Natl. Acad. Sci. U. S. A. 
+L541:  106  ( 21 ),  8665 – 8670 .  10.1073/pnas.0903485106 
+L542:  19433800
+L543: Rodziewicz-Flis E. A. 
+L544:  Kawa M. 
+L545:  Flis D. J. 
+L546:  Szaro-Truchan M. 
+L547:  Skrobot W. R. 
+L548:  Kaczor J. J. 
+L549:   ( 2022 ).  12 Weeks of physical exercise attenuates oxidative stress, improves functional tests performance, and reduces fall risk in elderly women independently on serum 25(OH)D concentration .  Front. Physiol. 
+L550:  13 ,  809363 .  10.3389/fphys.2022.809363 
+L551:  35514345
+L552: Ronguist H. 
+L553:   ( 1992 ).  A review of lipid peroxidation, metabolic factors in fatigue .  Int. J. Biochem. 
+L554:  19  ( 8 ),  863 – 869 .
+L555: Rouse B. 
+L556:  Chaimani A. 
+L557:  Li T. 
+L558:   ( 2017 ).  Network meta-analysis: An introduction for clinicians .  Intern Emerg. Med. 
+L559:  12  ( 1 ),  103 – 111 .  10.1007/s11739-016-1583-7 
+L560:  27913917
+L561: Sadegh Ghomi M. 
+L562:  Kashef M. 
+L563:  Shahidi F. 
+L564:  Salehpour M. 
+L565:  Javadieh M. 
+L566:  Noroozi Nia M. J. 
+L567:   ( 2022 ).  Comparison of the effect of eight-week training in water, resistance ladder and endurance running on catalase, malondialdehyde, vaspin and insulin resistance in male rats .  Daneshvar Med. 
+L568:  29  ( 6 ),  58 – 69 .  10.22070/daneshmed.2021.15238.1133
+L569: Salminen A. 
+L570:  Vihko V. 
+L571:   ( 1983 ).  Endurance training reduces the susceptibility of mouse skeletal muscle to lipid peroxidation  in vitro 
+L572:  .  Acta Physiol. Scand. 
+L573:  117  ( 1 ),  109 – 113 .  10.1111/j.1748-1716.1983.tb07184.x 
+L574:  6858698
+L575: Sharma S. 
+L576:  Raj K. 
+L577:  Singh S. 
+L578:   ( 2020 ).  Neuroprotective effect of quercetin in combination with piperine against rotenone- and iron supplement-induced Parkinson's disease in experimental rats .  Neurotox. Res. 
+L579:  37  ( 1 ),  198 – 209 .  10.1007/s12640-019-00120-z 
+L580:  31654381
+L581: Solin M. L. 
+L582:  Ahola H. 
+L583:  Haltia A. 
+L584:  Ursini F. 
+L585:  Montine T. 
+L586:  Roveri A. 
+L587:  
+L588:   ( 2001 ).  Lipid peroxidation in human proteinuric disease .  Kidney Int. 
+L589:  59  ( 2 ),  481 – 487 .  10.1046/j.1523-1755.2001.059002481.x 
+L590:  11168930
+L591: Squillacioti G. 
+L592:  Guglieri F. 
+L593:  Colombi N. 
+L594:  Ghelli F. 
+L595:  Berchialla P. 
+L596:  Gardois P. 
+L597:  
+L598:   ( 2021 ).  Non-invasive measurement of exercise-induced oxidative stress in response to physical activity. A systematic review and meta-analysis .  Antioxidants (Basel) 
+L599:  10  ( 12 ),  2008 .  10.3390/antiox10122008 
+L600:  34943111
+L601: Taysi S. 
+L602:  Oztasan N. 
+L603:  Efe H. 
+L604:  Polat M. F. 
+L605:  Gumustekin K. 
+L606:  Siktar E. 
+L607:  
+L608:   ( 2008 ).  Endurance training attenuates the oxidative stress due to acute exhaustive exercise in rat liver .  Acta Physiol. Hung 
+L609:  95  ( 4 ),  337 – 347 .  10.1556/APhysiol.95.2008.4.2 
+L610:  19009910
+L611: Teixeira V. 
+L612:  Valente H. 
+L613:  Casal S. 
+L614:  Marques F. 
+L615:  Moreira P. 
+L616:   ( 2009 ).  Antioxidant status, oxidative stress, and damage in elite trained kayakers and canoeists and sedentary controls .  Int. J. Sport Nutr. Exerc Metab. 
+L617:  19  ( 5 ),  443 – 456 .  10.1123/ijsnem.19.5.443 
+L618:  19910648
+L619: Toskulkao C. 
+L620:  Glinsukon T. 
+L621:   ( 1996 ).  Endurance exercise and muscle damage: Relationship to lipid peroxidation and scavenging enzymes in short and long distance runners .  Jpn. J. Phys. Fit. Sports Med. 
+L622:  45  ( 1 ),  63 – 70 .  10.7600/jspfsm1949.45.63
+L623: Venditti P. 
+L624:  Di Meo S. 
+L625:   ( 1996 ).  Antioxidants, tissue damage, and endurance in trained and untrained young male rats .  Arch. Biochem. Biophys. 
+L626:  331  ( 1 ),  63 – 68 .  10.1006/abbi.1996.0283 
+L627:  8660684
+L628: Vincent K. R. 
+L629:  Vincent H. K. 
+L630:  Braith R. W. 
+L631:  Lennon S. L. 
+L632:  Lowenthal D. T. 
+L633:   ( 2002 ).  Resistance exercise training attenuates exercise-induced lipid peroxidation in the elderly .  Eur. J. Appl. Physiol. 
+L634:  87  ( 4-5 ),  416 – 423 .  10.1007/s00421-002-0640-2 
+L635:  12172882
+[579ms]
+

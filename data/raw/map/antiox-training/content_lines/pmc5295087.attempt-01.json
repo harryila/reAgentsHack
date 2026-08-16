@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "head",
+    "-100000",
+    "/papers/PMC5295087/content.lines"
+  ],
+  "completed_at": "2026-08-16T06:13:23.550905+00:00",
+  "elapsed_seconds": 2.1021379160229117,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T06:13:21.448725+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/content_lines/pmc5295087.attempt-01.stderr",
+  "stdout_bytes": 54695,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/map/antiox-training/content_lines/pmc5295087.attempt-01.stdout"
+}

@@ -1,0 +1,444 @@
+L1: Vitamin 25(OH)D 3 , E, and C Supplementation Impact the Inflammatory and Antioxidant Responses in Piglets Fed a Deoxynivalenol-Contaminated Diet and Challenged with Lipopolysaccharides
+L2: Toxins (2024)
+L3: Béatrice Sauvé, Younes Chorfi, Marie-Pierre Létourneau-Montminy, Frédéric Guay
+L4: 1 Department of Animal Sciences, Laval University, Quebec, QC G1V 0A6, Canada
+L5: 2 Department of Veterinary Biomedicine, University of Montréal, Saint-Hyacinthe, QC J2S 2M2, Canada
+L6: Using alternative ingredients or low-quality grain grades to reduce feeding costs for pig diets can introduce mycotoxins such as deoxynivalenol (DON) into feed, which is known to induce anorexia, inflammation, and oxidative stress. Adding vitamin 25(OH)D 3  or vitamins E and C to the feed could increase piglets’ immune system to alleviate the effects of DON. This study used 54 pigs (7.8 ± 0.14 kg) in 27 pens (2 pigs/pen) with a vitamin 25(OH)D 3  or vitamin E-C supplementation, or their combination, in DON-contaminated (5.1 mg/kg) feed ingredients over 21 days followed by a lipopolysaccharide (LPS) challenge (20 µg/kg BW) 3 h prior to euthanasia for 1 piglet per pen. DON contamination induced anorexia, which reduced piglet growth. DON also induced immunomodulation, oxidative stress, and downregulated vitamin D status. The vitamin E and C supplementation and the combination of vitamins E, C, and 25(OH)D 3  provided protection against DON contamination by not only decreasing blood and liver oxidative stress markers, but also by increasing antioxidant enzymes and tocopherol levels in blood, indicating improved antioxidant defense mechanisms. The combination of vitamins also restored the vitamin D status. After LPS challenge, DON contamination decreased intestinal and liver antioxidant statuses and increased inflammation markers. The addition of vitamins E and C to DON-contaminated feed reduced markers of inflammation and improved the antioxidant status after the LPS immune stimulation. The combination of all these vitamins also reduced the oxidative stress markers and the inflammation in the intestine and mesenteric lymph nodes, suggesting an anti-inflammatory effect.
+L7: Article
+L8: piglets; deoxynivalenol; oxidation; inflammation; vitamin E; vitamin C; vitamin 25(OH)D 3; lipopolysaccharides
+L9: 1. Introduction
+L10: Mycotoxins can be a challenge for swine producers, as it is often found in feed at different concentrations. One of the most common mycotoxins is deoxynivalenol (DON) synthesized by  Fusarium  fungi. This secondary metabolite belongs to the trichothecene group and is a chemical agent part of the sesquiterpenoid group [ 1 ]. The Canadian Food Inspection Agency and the US Food and Drug Administration have established a recommendation for maximum level at 1.0 mg/kg of DON in finished wheat products to avoid any health problems in animals [ 2 , 3 ]. In pigs, DON-contaminated feed ingredients at higher doses (3.0 mg/kg to 8.0 mg/kg of DON) caused partial anorexia [ 4 , 5 ], reduced growth, altered immune function [ 6 ], and induced oxidative stress [ 7 ]. DON has also been reported to result in upregulation of the gene expression related to pro-inflammatory cytokines, chemokines, and apoptosis, an effect that depends on the dose and exposure time [ 2 ]. It was also observed by Lessard et al. (2015) that antioxidant and inflammatory oxidative enzymes including nitric oxide synthase-2 (NOS 2 ) were upregulated in jejunum of pigs with a DON contamination (3.5 mg/kg) in diets. Thus, this modulated immune and antioxidant responses, along with a reduced resistance toward pathogen-associated molecular patterns like lipopolysaccharides (LPS) [ 8 ]. As part of the outer membrane of Gram-negative bacteria, LPS are commonly found in the environment and intestinal microbiota of pigs [ 9 , 10 ]. Also, both DON and LPS have been shown to alter the intestinal barrier function, leading to an increased gut permeability and absorption of nutrients and toxins [ 11 ].
+L11: As DON modulates inflammatory response and oxidative stress, additives may be used in animal feed to control these metabolic pathways. Indeed, 25-hydroxyvitamin D 3  (25(OH)D 3 ), vitamin E, or vitamin C can be included in piglets feed to enhance their immune response and antioxidant status [ 12 , 13 , 14 ] during an immune challenge, such as DON exposure. Production of 25(OH)D 3  comes from the hydroxylation of the vitamin D 3  in the liver at the C-25 position by the 25-hydroxylase activity that is regulated by the CYP2R1 gene. Then, 25(OH)D 3  reaches the kidney to be cleaved by the 1α-hydroxylase that is controlled by the CYP27B1 gene, at C-1 position, to make 1,25(OH) 2 D 3 , also called calcitriol. The latter is the active hormonal form of vitamin D, responsible for most of its biological actions [ 15 , 16 ]. As CYP27B1 and the vitamin D receptor (VDR) are both expressed in cells involved in immune and antioxidant functions, calcitriol likely plays a role in modulating the inflammatory and antioxidant responses. In fact, calcitriol can downregulate the immune system by inhibiting the production of pro-inflammatory cytokines in humans [ 14 ]. Vitamin D can also minimize the oxidative changes by reducing the production of reactive oxygen species (ROS), such as H 2 O 2  and O 2 − , in diabetic rats and mice [ 17 ]. Finally, vitamin D, through VDR, has an important role in preserving the integrity of the gut membrane as a barrier and the tight junction complex [ 18 ]. Thus, the 25(OH)D 3  supplementation could prevent many detrimental effects of DON.
+L12: Vitamin E, in its α-tocopherol form, is considered a liposoluble antioxidant synthesized by plants and an important constituent of cell membranes [ 13 , 19 ]. In the biological membranes, vitamin E protects their components from oxidation by free radicals, and thus oxidative damages [ 19 ]. As a chain-breaking antioxidant, vitamin E has a significant role in preserving the integrity of cell membranes [ 13 ], including that of the intestinal barrier, a target of DON [ 20 ]. In pigs (11.1 kg) receiving 4 mg/kg of DON-contaminated diet, the addition of vitamin E partially prevented oxidative stress-induced DNA fragmentation [ 21 ]. On the other hand, vitamin C, in its major form as ascorbic acid, is a water-soluble vitamin absorbed through passive pathways [ 22 ]. Vitamin C is considered an antioxidant, as it protects biomolecules from oxidative damage by ROS during exposure to toxins or pollutants. It can enhance the epithelial barrier function in part by increasing the expression of tight junction proteins. It also plays a role in the regulation of the immune response, as it influences the functions of neutrophils during inflammation [ 12 ]. Additionally, the tocopheryl radical derived from vitamin E can return to its reduced state as tocopherol by oxidizing vitamin C. Therefore, the interaction of vitamins E and C continuously restores the antioxidant function of vitamin E, maintaining the status of the latter [ 23 ].
+L13: The aim of this experiment was to investigate the effect of vitamin 25(OH)D 3 , E, or C, or a combination of all three, observed on growth performance, blood parameters, antioxidant status, and gene expression related to the inflammatory response and oxidative stress during a DON contamination in diets in weaned piglets. In addition, this study evaluated the effectiveness of the supplementation on these vitamins when a challenge with LPS is also implemented.
+L14: 2. Results
+L15: 2.1. Growth Performance
+L16: After 21 days of repetitive exposure to DON, piglets showed reduced body weight (BW;  p  < 0.001;  Table 1 ), average daily gain (ADG;  p  < 0.001), and average daily feed intake (ADFI;  p  < 0.001). The vitamin 25(OH)D 3 , E, or C supplementation did not modify growth performance. Feed conversion ratio (FCR) was not impacted by DON contamination, regardless of the vitamin supplementation. Viscera weight relative to body weight did not differ between treatments while the value of the liver increased in piglets receiving DON_VitE-C ( p =  0.088) and DON_Vit+ ( p  < 0.05) compared to DON.
+L17: 2.2. LPS-Unchallenged Condition
+L18: 2.2.1. Blood Parameters
+L19: Under unchallenged conditions, DON ( p  < 0.001;  Table 2 ) and DOM-1 ( p  < 0.001) concentrations in serum increased in piglets receiving DON. Interestingly, DON_Vit25-OHD decreased the serum levels of DOM-1 compared to DON alone ( p  < 0.05), but it did not modify any other blood parameters. Serum 25(OH)D 3  concentrations were reduced for DON in comparison with CON (−62%;  p  < 0.05), and the addition of vitamins separately did not change this response. However, DON_Vit+ piglets had an increase in 25(OH)D 3  levels compared to DON (+215%,  p  < 0.01). Plasma tocopherol concentration was enhanced in DON_VitE-C and DON_Vit+ piglets in comparison with DON (+86%;  p  < 0.05 and +134%,  p  < 0.001). Levels of vitamin C and 1,25(OH) 2 D 3  were not impacted by any of the vitamin supplementation under the LPS-unchallenged condition. The DON contamination alone did not modify tocopherol.
+L20: The activity of GPx in plasma tended to be increased in DON piglets compared to CON (+49%;  p =  0.064;  Table 2 ), while total GSH in plasma had a tendency to be reduced in DON piglets compared to CON (−10%;  p =  0.096). The other oxidation-related parameters were not changed with the diet contaminated with DON alone. Piglets consuming DON_Vit25-OHD (−37%;  p  < 0.05) and DON_VitE-C (−51%;  p  < 0.01) diets separately showed a decreased GPx activity in comparison with DON. The plasma MDA concentration tended to be decreased by DON_VitE-C compared to DON (−18%;  p =  0.104). The activity of CAT has increased among DON_Vit+ piglets in comparison with DON (+62%,  p  < 0.05). The total GSH concentration had also a tendency to increase in piglets fed DON_Vit+ (+12%,  p =  0.096). However, serum levels of TNF-α increased for DON_Vit+ compared to DON (+149%,  p  < 0.01).
+L21: 2.2.2. Intestinal Tissues
+L22: Under unchallenged conditions, piglets receiving DON_Vit+ had a higher MDA concentration in jejunal mucosa compared to either DON (+44%,  p  < 0.05;  Table 3 ). The VDR gene expression was reduced for DON_Vit+ piglets in comparison with DON (−66%,  p  < 0.01). DON contamination alone and single-vitamin supplementation did not modify the other antioxidant concentrations (CAT, SOD, or GPx) in the intestine and the expression of genes (TNF-α and Nrf2) under the unchallenged LPS condition.
+L23: 2.2.3. Liver Tissues
+L24: Piglets receiving DON_VitE-C tended to have a decrease in MDA concentration in the liver compared to DON (−25%;  p  = 0.082;  Table 4 ), and so did those receiving DON_Vit+, in comparison with DON (−27%,  p =  0.063). The DON contamination alone did not modify the expression of any of the genes (IL-10, TLR4, VDR, TNF-α, Nrf2, or CYP2R1) or any other antioxidants (CAT, GPx, or SOD). Piglets receiving DON_Vit+ tended to have an increase in TNF-α gene expression compared to DON (+52%,  p =  0.073). The single-vitamin supplementation did not change the other liver parameters (CAT, GPx, or SOD) or expression of genes (TLR4, VDR, TNF-α, Nrf2, or CYP2R1) in the unchallenged group.
+L25: 2.2.4. Mesenteric Lymph Nodes and Kidney Gene Expression
+L26: Under the LPS unchallenged condition, the TLR4 gene expression in mesenteric lymph nodes tended to be increased by DON compared to CON (+116%;  p =  0.060;  Table 5 ). There were no other impacts of DON contamination, and the vitamin intake did not affect the expression of genes in the mesenteric lymph nodes (IL-10, TLR4, VDR, TNF-α, or Nrf2). In the kidney, the CYP27B1 gene expression had a tendency to decrease for DON_Vit25-OHD piglets in comparison with DON (+55%;  p =  0.091;  Table 5 ). There was no impact of DON contamination and no other effects of the vitamin supplementation on the expression of genes in the kidney (CYP27B1, VDR).
+L27: 2.3. LPS-Challenged Piglets
+L28: 2.3.1. Blood Parameters
+L29: After LPS challenge, piglets receiving DON had enhanced DON ( p  < 0.001;  Table 6 ) and DOM-1 ( p  < 0.001) concentrations in the serum compared to CON. Serum levels of DON also tended to be higher for animals fed DON_VitE-C in comparison with DON ( p =  0.059). Serum 25(OH)D 3  concentration was reduced by DON contamination compared to CON (−72%;  p  < 0.01), but the addition of 25(OH)D 3  increased it in comparison with DON in DON_Vit25-OHD piglets (255%;  p  < 0.05). Tocopherol level was increased with VitE-C supplementation (118%;  p  < 0.001) and DON_Vit+ (+128%,  p  < 0.001) compared to DON. Concentrations of 1,25(OH) 2 D 3 , vitamin C, calcium, and phosphorus were not impacted by any of the vitamin intake after the challenge. Tocopherol, vitamin C, and 1,25(OH) 2 D 3  levels were not changed with a diet contaminated with DON alone after a challenge with LPS.
+L30: TNF-α concentration was upregulated in DON piglets compared to CON (+21%;  p  < 0.05;  Table 6 ). Animals fed DON_Vit25-OHD tended to have an increase in GPx activity in comparison with DON (+39%;  p =  0.056). DON contamination alone and different vitamin supplements did not modify the other blood parameters that are related to oxidation after LPS stimulation (CAT, SOD, total GSH, MDA, or IL-10).
+L31: 2.3.2. Intestinal Tissues
+L32: After the piglets were challenged with LPS, SOD activity in the jejunum was decreased by DON compared to CON (−42%;  p  < 0.05;  Table 7 ). DON contamination alone did not modify any expression of genes. After LPS challenge, TNF-α gene expression was reduced for DON_VitE-C (−47%;  p  < 0.05) and for DON_Vit+ piglets in comparison with DON (−68%;  p  < 0.01). There was also a reduction in IL-10 gene expression among animals fed DON_Vit+ compared to DON (−68%;  p  < 0.05). Gene expression of Nrf2 tended to decrease in DON_VitE-C piglets in comparison with DON (−48%;  p =  0.095). Vitamin supplements did not change the other intestinal parameters (CAT, GPx, or MDA) or gene expressions (IL-10, TLR4, or VDR) after LPS stimulation.
+L33: 2.3.3. Liver Tissues
+L34: After LPS challenge, MDA concentration in liver was increased for DON_Vit25-OHD piglets compared to DON (+64%;  p  < 0.001;  Table 8 ). CAT activity tended to be decreased for DON_VitE-C piglets in comparison with DON (−31%;  p =  0.096). Levels of other antioxidants and oxidants (CAT, GPx, SOD, and MDA) were not changed with a diet contaminated with DON alone. Nrf2 gene expression in the liver had a tendency to be reduced by DON contamination compared to CON (−63%;  p =  0.066). Gene expression of IL-10 (+341%;  p  < 0.001) and VDR (+305%;  p  < 0.05) has increased with VitE-C supplementation in comparison to DON. There was also an increase in VDR (+274%;  p  < 0.05) and CYP2R1 (+55%;  p =  0.086) gene expression in animals receiving DON_Vit+. DON contamination alone did not modify the expression of other genes (IL-10, TLR4, VDR, TNF-α, or CYP2R1), and the 25(OH)D 3  supplementation did not impact any liver gene expression (IL-10, TLR4, VDR, TNF-α, Nrf2, or CYP2R1).
+L35: 2.3.4. Mesenteric Lymph Nodes and Kidney Gene Expression
+L36: After LPS challenge, piglets receiving DON-contaminated feed tended to have an increased IL-10 gene expression in the mesenteric lymph nodes compared to CON (+56%;  p =  0.063;  Table 9 ). Gene expression of IL-10 was then reduced by DON_VitE-C (−41%;  p  < 0.05) and had also a tendency to be reduced with DON_Vit25-OHD (−36%,  p =  0.069) and DON_Vit+ (−33%,  p =  0.100) in comparison with DON. There was a reduction in TNF-α gene expression in these nodes for piglets fed DON_Vit25-OHD (−43%;  p  < 0.05), DON_VitE-C (−55%;  p  < 0.01), and DON_Vit+ (−44%;  p  < 0.05) compared to DON. Gene expression of TLR4 in the lymph nodes also tended to be decreased by DON_VitE-C compared to DON (−44%;  p =  0.076). In the kidneys, there was a decrease in both CYP27B1 (−55%;  p  < 0.05) and VDR (−41%;  p  < 0.05) gene expression with DON contamination compared to CON. Expression of CYP27B1 also tended to increase with DON_VitE-C in comparison with DON (+95%;  p =  0.061). After LPS stimulation, there were no other effects of DON contamination and vitamin supplementation on the mesenteric lymph nodes and kidney gene expression.
+L37: 3. Discussion
+L38: In this study, DON was the only mycotoxin present in significant quantity (DON, 12.48 mg/kg from naturally contaminated wheat; aflatoxins < 1.0 ppb; zearalenone < 0.03 ppm; fumonisin < 0.1 ppm; ochratoxins < 0.003 ppm; T-2 < 0.06). This mycotoxin is constantly present in pigs feed and is very challenging to eliminate, as it withstands high temperatures and low pH levels [ 2 ]. Therefore, the objectives of this study were to investigate the potential of vitamin 25(OH)D 3 , E, and C supplements, either individually or in combination, to alleviate the effects of DON contamination of the diet on growth performance, inflammatory response, and antioxidant status of piglets. The current design makes it possible to evaluate the effect of vitamin supplements, but only in the presence of DON contamination. It is worth mentioning that the concentrations of DON in the experimental diets is approximately fivefold higher than the recommended level of 1.0 mg/kg in Canada corresponding to an acute response. Also, as the environment of livestock can be contaminated with various bacteria and intestine lumen is a natural reservoir of commensal Gram-negative bacteria, piglets are likely to be exposed to LPS. The latter can interfere with the immune system and cause inflammatory reaction [ 8 ]. Previous works have shown that acute LPS challenge with DON in feed had synergistic effects on the response of the innate immune system and systemic circulation [ 11 , 24 ]. However, this endpoint is not always observed in DON-contaminated diets for pigs with intravenous administration of LPS on inflammation parameters [ 8 , 25 ]. Another objective of the current study was to evaluate the effect of these supplements on the inflammatory response and the antioxidant status during acute inflammation induced by LPS.
+L39: 3.1. Impact of DON Contamination and Vitamin 25(OH)D 3 , E, and C Supplements on Growth Performance
+L40: The DON-contaminated diet reduced the ADFI and ADG by 39% and 36%, respectively, without modifying feed efficiency compared to CON after 21 days. The weight of piglets receiving DON was decreased after this period, but not the weight of the liver and intestinal viscera relative to body weight. This anorexic effect of DON has been described in previous studies [ 4 , 26 , 27 ], and led to reduced ADG due to a decrease in energy and nutrient intakes. One of the mechanisms that induce anorexia is linked to the neurotoxic effect of DON on serotonin secretion into the plasma, which was found to be increased by DON (0.25 mg/kg BW) in the plasma of minks [ 28 ] and in specific regions of the brain among piglets receiving DON-contaminated feed (2.2 mg/kg BW) [ 29 ]. However, there was no effect of a vitamin 25(OH)D 3 , E, or C supplementation on growth performance. Vitamin D is known to improve piglets’ growth and maintenance of functional skeleton, especially at a young age [ 30 , 31 ], while vitamin E has not been efficient to improve growth performance in other studies [ 21 , 32 ]. In this study, these vitamins alone and their combination did not have an impact on the mechanism associated with control of feed intake (serotonin secretion) in piglets receiving DON-contaminated diet. On the contrary, a combination of vitamins (D 3 , E, and C) has proven to be effective to improve growth performance when they were supplemented in a mixture of preservation components, including citric acid, potassium sorbate, sodium metabisulfite, vitamin A acetate, and amino acids, in piglets that were fed 4.0 mg/kg of DON for 14 days [ 5 ].
+L41: 3.2. Blood Vitamins in Response to DON and Vitamin Supplementation
+L42: DON contamination decreased serum 25(OH)D 3  concentrations after 21 days compared to CON in piglets both exposed to LPS or not. This was also reported in our previous study, where piglets receiving either vitamin D 3  (2200 IU per kg) or 25(OH)D 3  (2000 IU in the form of 25(OH)D 3 /per kg) supplementation still had a decrease in serum levels of 25(OH)D 3  and calcitriol with DON contamination (4.9 mg/kg) [ 27 ]. On the other hand, the combination of vitamin 25(OH)D 3  with vitamin E-C supplementation along with a DON-contaminated diet without LPS increased serum 25(OH)D 3  concentration in piglets in comparison with DON alone or individually providing these vitamins. This is maybe due to an interaction between vitamins; Sergeev et al. [ 33 ] showed that VitC plays a critical role in vitamin D metabolism by affecting vitamin D endocrine system at both level of 1,25(OH) 2 D 3  formation in kidneys and its binding receptor in target tissues in guinea pigs. Also, Bergstrom et al. [ 34 ] have shown that serum 1,25(OH) 2 D 3  and 24,25(OH) 2 D 3  were numerically greater for pigs fed vitamin C. But neither DON nor vitamin supplements modified calcitriol level. In this study, after a LPS challenge, concentration of 25(OH)D 3  in serum was still decreased in piglets receiving DON-contaminated diets. However, the supplementation of 25(OH)D 3  led to a significant increase in serum 25(OH)D 3  level, suggesting that this intake during immune challenge can enhance vitamin D status to fulfill its immunomodulatory role against pathogenic molecules like LPS [ 35 ].
+L43: Vitamin E plays a role in protecting the components of cellular membranes including intestinal membrane [ 13 ]. Tocopherol concentration was increased by vitamin E-C supplementation in piglets both challenged with LPS or not; this can be attributed to the vitamin C’s potential to recycle tocopheryl radical into antioxidant form [ 23 ]. This increase in α tocopherol level after 21 days of vitamin E and C supplementation can indicate that the vitamin E was properly absorbed by piglets even with the lower feed intake with DON [ 15 ]. Additionally, the levels of tocopherol in the blood of piglets challenged or not with LPS were elevated by the combination of all three vitamins, indicating that the antioxidant potency of vitamin C to recycle tocopherol radicals might be facilitated by vitamin 25(OH)D 3  supplements when piglets are exposed to DON.
+L44: 3.3. Oxidative Stress, Inflammatory, and Vitamin D Response to DON
+L45: The DON contamination alone without LPS reduced the total concentration of GSH, an oxygen-derived free radical scavenger [ 36 ], and increased the antioxidant GPx activity in the blood. GPx is responsible for regulating the oxidant status by removing hydroperoxides and by oxidizing GSH [ 37 ]. Therefore, DON appears to have induced systemic oxidative stress in piglets after 21 days of repetitive exposure, as it was previously documented in pigs [ 7 , 38 ] and pig intestinal explants [ 39 ]. However, MDA level, a product of lipid peroxidation [ 40 ] in the blood and tissues (liver and jejunal mucosa), was not modified by DON contamination. Previous studies found mixed results; for instance, plasma MDA concentration was unaffected by DON-contaminated diet (4 mg/kg) in pigs after 14 days [ 21 ], while higher plasma H 2 O 2  and MDA levels were reported in piglets fed this same diet (4 mg/kg) after 30 days [ 38 ]. The difference in MDA concentrations can be due to the time of exposure of 21 days and the different doses of DON used. Co-contamination with other mycotoxins can also induce lipid peroxidation, which was not the case in this study [ 41 ], as the other mycotoxins evaluated were below the level of detection. These findings were not observed under LPS-challenged conditions, but the antioxidant activity of SOD in the intestine and Nrf2 gene expression in the liver were decreased as a result of DON contamination. The antioxidant enzyme SOD can remove superoxide free radicals [ 42 ], while Nrf2 modulates target genes encoding detoxifying enzymes, like SOD, and antioxidant proteins in response to oxidative stress [ 43 ].
+L46: In the mesenteric lymph nodes, TLR4 gene expression, which plays a role in inflammatory signaling to protect against epithelial injury and bacterial invasion [ 44 ], tended to be increased by DON without the LPS stimulation, suggesting that DON exposure triggered inflammation. Piglets exposed to DON under an LPS challenge also had an increased IL-10 expression in mesenteric lymph nodes and an elevated serum TNF-α concentration. This implies that DON induced a markedly increased inflammatory response in piglets exposed to a challenge with LPS. In the kidneys, both CYP27B1 and VDR gene expression were decreased by DON contamination in piglets under LPS stimulation. This modification of expression for CYP27B1 was not associated with changes in calcitriol concentration, but it suggests that DON may alter the response associated with LPS challenge by reducing the conversion of 25(OH)D 3  into 1,25(OH) 2 D 3 . As for VDR, it is important in the inflammatory response, since it binds to calcitriol to mediate its biological effects in immune cells [ 45 ]. The effect of DON on the vitamin D metabolism has not been the subject of a lot of studies, and these effects are probably indirectly associated with inflammation and immunomodulatory effect of this vitamin [ 46 ].
+L47: 3.4. Effect of Vitamin E, C, and 25(OH)D 3  Supplementation during DON Contamination on Oxidative Stress and Inflammatory Response
+L48: The addition of either vitamin E, C, or 25(OH)D 3  in unchallenged piglets decreased GPx activity increased by DON. MDA concentration also tended to decrease in the blood and liver tissues when vitamins E and C were added, outlining the capacity of these two vitamins to reduce oxidative stress. Hepatic CAT activity and intestinal Nrf2 gene expression were decreased as well by the addition of both vitamins under LPS stimulation. CAT catalyzes the decomposition of hydrogen peroxide (H₂O₂), a ROS, into water and oxygen [ 47 ]. Thus, this reduction in CAT in LPS challenged piglets receiving vitamin E and C may be the result of reduced H₂O₂ production. However, H₂O₂ concentration was not evaluated in this study to confirm this theory. This study showed that vitamin E-C supplementation has a potentially protective effect against DON- and LPS-induced oxidative stress. This was observed in male weaner pigs under the stress of experimental  E. coli  infection, in part due to vitamin E’s role to prevent cellular oxidative damage [ 48 ]. However, liver MDA concentration and GPx blood levels were increased by DON_Vit25-OHD under a challenge with LPS. This indicates oxidative stress conditions. Vitamin 25-OH-D 3  is known to influence the immune system [ 46 ] and could interfere with the normal immune response during a challenge with DON and LPS. Indeed, DON_Vit25-OHD treatment under a challenge with LPS increased the 25-OH-D 3  status and decreased TNF-α and IL-10 genes expression in lymph nodes. Furthermore, the combination of vitamin 25(OH)D 3  with vitamins E-C was more effective in reducing the hepatic oxidation by MDA, and in upregulating the antioxidant activity of CAT and total GSH in plasma in unchallenged piglets. Thus, combining vitamin 25(OH)D 3  with vitamins E and C may confer protection against oxidative damage in hepatic tissues and improved the antioxidant response in piglets fed a diet contaminated with DON. Le Thanh et al. (2016) previously observed that only a combination of non-enzymatic antioxidants (vitamins A, E, and C; quercetin; organic selenium; and GSH) lowered DON- and ZEN-induced oxidation and systemic oxidative stress among piglets. Indeed, individually providing these antioxidants in the diet did not reduce the oxidative stress caused by DON and ZEN contamination. They also showed that a combination of vitamins A, E, and C reduced the hepatic MDA concentration in piglets [ 7 ]. On the other hand, the level of MDA in jejunum was increased with DON_Vit+. Again, this could be the result of an increased 25-OH-D 3  blood status, which could influence the immune cell function and cytokine production [ 46 ], potentially leading to enhanced ROS production associated with the inflammatory process [ 2 ]. Oxidative stress in the jejunal mucosae can lead to alteration of the epithelial barrier, and thus modification nutrient absorptions, especially ions like calcium and phosphorus [ 49 , 50 ].
+L49: Indeed, blood CAT activity and pro-inflammatory cytokine TNF-α level were also increased by DON_Vit+. TNF-α hepatic gene regulation was also increased by the combination of vitamins 25(OH)D 3 , E, and C with DON-contaminated feed. On the contrary, in the intestinal mucosa under an LPS challenge, expression of TNF-α and IL-10 genes were reduced in piglets fed DON_Vit+, as opposed to their numerical elevation by DON. Expression of TNF-α in the jejunum was also reduced by DON_VitE-C. The combination of vitamins 25(OH)D 3 , E, and C could have intestinal anti-inflammatory effect during the immune stimulation with LPS, but not with only DON contamination. Indeed, IL-10 is an anti-inflammatory cytokine [ 24 ] and TNF-α plays an important role in regulating cell survival, proliferation, and death [ 51 ]. Additionally, vitamin E-C supplementation increased the expression of IL-10 in the liver among piglets under LPS stimulation. Both of these vitamins could be efficient for decreasing liver inflammation, which was reported in porcine hepatocyte cells when exposed to LPS (1 μg/mL) and higher DON exposure (500 nM and 2000 nM), where TNF- α and IL-10 mRNA expressions were upregulated [ 24 ]. The supplementation of vitamins E and C also reduced IL-10, TNF-α, and TLR4 gene expression while the combination of all three vitamins reduced IL-10 and TNF-α in mesenteric lymph nodes of piglets exposed to DON and LPS. During inflammatory reaction induced by LPS, these nodes can expand the number of neutrophils, produced in response to various cytokines and TLR ligands that are then recruited to sites of inflammation to elicit an immune response [ 52 ]. Adding vitamin E-C and 25(OH)D 3  supplementation in combination prevented the increase in inflammatory markers with DON contamination and LPS stimulation.
+L50: Linked to the vitamin D metabolism, the VDR gene expression in the intestine was lowered in the DON_Vit+ group, possibly indicating reduced biological activity of calcitriol in the intestinal mucosa. On the contrary, among piglets under an LPS challenge, vitamin E-C supplementation and the combination of vitamins 25(OH)D 3 , E, and C increased the VDR gene expression in the liver compared to DON alone by at least 2.5-fold. VDR mediates the activity of many immune-related genes, including antimicrobial peptides cathelicidin and β-defensin, and biological action of calcitriol to stimulate the production of these molecules by epithelial cells [ 35 ]. Still in the liver, DON_Vit+ also had the tendency to increase gene expression of CYP2R1, responsible for hydroxylating vitamin D 3  into 25(OH)D 3  in LPS-challenged piglets. In the kidneys, the CYP27B1 gene expression tended to decrease in the DON_Vit25-OHD group compared to DON. Interestingly, vitamin E-C supplementation tended to increase the expression of CYP27B1 in the kidneys of piglets under a challenge with LPS. The vitamins thus have a potential anti-inflammatory role, probably linked to a decrease in ROS production [ 53 ], while increasing the regulation of genes in the kidneys associated with calcitriol during an inflammatory stimulation.
+L51: 4. Conclusions
+L52: In summary, chronic exposure to DON contamination (5.1 mg/kg) over 21 days induced anorexia, leading to the reduced growth of piglets. Vitamin E, C, and 25(OH)D 3  supplementation did not improve growth performance, indicating a limited effect on the mechanisms controlling the lower feed intake, including serotonin. DON contamination also induced oxidative stress and immune response in their circulatory and lymphatic systems along with a decrease in the vitamin D status. Supplementation with 25(OH)D 3  alone in DON-contaminated feed failed to restore the vitamin D status. In contrast, vitamin E-C supplementation reduced both circulating and hepatic oxidative stress. In piglets under LPS challenge, vitamins E and C supplementation reduced intestinal, hepatic, and lymphatic markers of inflammation and protected against increased oxidative stress induced by both DON and LPS. However, the combination of vitamins 25(OH)D 3 , E, and C turned out to be the most promising as it demonstrated a potential in modulating antioxidant status and inflammatory responses, suggesting a protective role against oxidative damage and inflammation induced by DON contamination and LPS challenge in piglets.
+L53: 5. Materials and Methods
+L54: 5.1. Animals and Feeding Trials
+L55: The experiment was performed at the Centre de recherche en sciences animales de Deschambault (Quebec, Canada) and followed the guidelines of the Canadian Council on Animal Care (2009), and the protocol (2018-057) was approved by the Institutional Animal Care and Use Committee of Université Laval. All diets fulfilled the NRC requirements ( Table 10 ) [ 54 ]. Fifty-four castrated male piglets ([Yorkshire x Landrace] × Duroc) weaned at 21 days of age (7.8 ± 0.14 kg) were distributed in 27 pens (two piglets/pen), depending on their weight at weaning after one week of acclimation with a commercial diet (Agri-Marché, St-Isidore, QC, Canada). Piglets then received one of the following 5 treatments: control treatments (CON) and DON-contaminated feed (DON, 5.1 mg/kg from naturally contaminated wheat; aflatoxins < 1.0 ppb; zearalenone < 0.03 ppm; fumonisin < 0.1 ppm; ochratoxin < 0.003 ppm; T-2 < 0.06). The DON treatments were supplemented with either 25-hydroxyvitamin D 3  (DON_Vit25-OHD, 2000 IU in the form of 25(OH)D 3 /kg [0.05 mg/kg, Hy-D ® , DSM)]), vitamins E and C (DON_VitE-C, 120 IU/kg in the form of α-tocopherol and 200 mg/kg in the form of ascorbic acid [Stay-C ® 50, DSM)]), or with all three vitamins (DON_Vit+, 25(OH)D 3 /kg with vitamin E and C) [ 55 ]. Piglets were distributed in those 5 treatments with either 5 or 6 repetitions (blocks) per treatment according to randomization method [ 55 ]. The CON and DON treatments had 6 repetitions while DON_Vit25-OH-D 3 , DON_VitE-C, and DON_Vit+ were repeated 5 times. Piglets received the experimental diets for 21 days and were fed ad libitum throughout the trial. Piglets were weighed at the beginning and the end of the trial and feed intake was evaluated after 7 days and 21 days per pen. At day 21, one piglet from each pen received intraperitoneal LPS injection (20 µg/kg BW, Sigma-Aldrich Canada, Oakville, ON, Canada) to induce acute inflammatory reaction 3 h prior to euthanasia. Blood samples were taken from each piglet just before euthanasia that was performed using a non-penetrating captive bolt stunner. Liver, intestinal jejunal mucosa, mesenteric lymph nodes, and left kidney tissue were collected, snap-frozen in liquid nitrogen, and kept at −80 °C until assessment.
+L56: 5.2. Laboratory Analysis
+L57: 5.2.1. Blood and Tissue Analysis
+L58: Blood samples were taken from all piglets by jugular venipuncture (serum and heparin plasma tubes; BD Canada, Mississauga, ON, Canada). Plasma and serum tubes were centrifuged at 2000×  g  at 4 °C for 15 min. Supernatants were collected and kept frozen at −20 °C until analysis. Serum levels of DON and DOM-1 were measured by HPLC method [ 5 ]. Concentrations of 25(OH)D 3  (Signalway Antibody, College Park, MD, USA) were determined in plasma by the sandwich ELISA method according to manufacturer instructions. Each well was treated with 40 μL of sample diluent and 10 μL of the sample. After incubation for 30 min at 37 °C, the plate was washed and HRP conjugate reagent (50 μL) was added to each well, except the blanks, and the plate was incubated again. After another wash, 50 μL of Chromogen Solution A and 50 μL of Chromogen Solution B were added to each well, and the plate was incubated for 10 min at 37 °C in the dark. The reaction was stopped by adding 50 μL of Stop Solution to each well, and absorbance was measured at 450 nm within 15 min. Concentrations of 1,25(OH) 2 D 3  (BioVendor, Brno, Czech Republic) were determined in serum as previously described [ 48 ].
+L59: Total glutathione (GSH) plasma concentrations were assessed using the Glutathione Fluorescent Detection Kit (Arbor Assays, Ann Arbor, USA), as described by Le Thanh et al. [ 7 ]. The activity of GPx (Glutathione Peroxidase Assay Kit; Cayman Chemical Company, Ann Arbor, USA), CAT (Catalase Assay Kit; Cayman Chemical Company), and SOD (Superoxide Dismutase Assay Kit; Cayman Chemical Company) was measured in plasma samples. The GPx, CAT, and SOD activity were also evaluated in the intestine and liver following the manufacturer recommendations, where 50 mg of frozen intestinal mucosa or liver were homogenized in cold buffer. Quantification of cytokines was performed in serum with an enzyme-linked immunosorbent assay (ELISA) in order to have an overview of the systemic immune response to the treatments. TNF-α was quantified using the specific RayBio ®  Porcine ELISA Kit (ELP-TNFalpha-001; RayBiotech, Peachtree Corners, USA). The samples (100 μL) were bound to the wells by the immobilized antibody on the microplate incubated for 2.5 h at room temperature with gentle shaking. Then, after washing, the biotinylated anti-porcine TNF-alpha antibody (100 μL) was added, and the plate was incubated again for 1 h. Finally, HRP-conjugated streptavidin (100 μL) and TMB substrate solution (100 μL) were added to the wells after properly washing the wells, followed by an incubation of 45 min and 30 min, respectively. Finally, 50 μL of Stop Solution was added to each well, and the absorbance was read immediately at 450 nm. As for IL-10, the ELISAs were conducted with the Quantikine ®  ELISA kit (P1000) (R&D Systems, Minneapolis, USA). Each well received 100 μL of Assay Diluent RD1W and 100 μL of standard, control, or sample, then the microplate was incubated for 2 h at room temperature on a shaker. After the washing steps, Porcine IL-10 Conjugate (200 μL) was added to the wells and incubated for another 2 h on the shaker. The substrate solution (120 μL) was added to the wells following a wash step, and incubated for 30 min at room temperature, protected from light. The reaction was stopped (120 μL of Stop Solution), and optical density was measured at 450 nm within 30 min.
+L60: Lipid peroxidation in the plasma, intestine, and liver was assessed via a 2-thiobarbituric acid (TBA) color reaction for malondialdehyde (MDA) according to the modified method of Ermis et al. (2005) [ 56 ]. Briefly, approximately 150 mg of intestinal or liver mucosa was homogenized in 1.5 mL of cold phosphate-buffered saline (pH 7.4) and centrifuged at 2000 ×  g  for 5 min at 4 °C. Then, 200 μL of plasma or liver or jejunum lysate was mixed with 25 μL of butylated hydroxytoluene and 500 μL of trichloroacetic acid. After being left on ice for 1 h, the samples were centrifuged at 2000×  g  for 15 min at 4 °C and approximately 500 μL of the supernatant was taken. Quantities of 125 μL of 1% TBA and 37.5 μL of EDTA were added to the samples. The samples were then boiled at 100 °C in water for 15 min and cooled to room temperature for a few minutes. They were then put on ice for 5 min and centrifuged at 2000×  g  for 30 s at 4 °C.
+L61: 5.2.2. Gene Expression Analysis
+L62: Tissues sensitive to DON-induced oxidative damages, such as the liver, kidney, mesenteric lymphoid organs, and intestine [ 57 ], were selected to evaluate gene expression related to inflammation, oxidative stress, and vitamin D metabolism. The samples (50 mg) were homogenized in 1 mL of TRIzol TM  (Thermo Fisher Scientific, Carlsbad, CA, USA). Then, 200 μL of chloroform were added and these were centrifuged for 15 min at 12,000×  g  at 4 °C. The aqueous phase was transferred in a new tube, with 500 μL of isopropanol. After centrifugation for 10 min 12,000×  g  at 4 °C, isopropanol was removed, and it was replaced by 75% ethanol for a 5 min centrifugation at 7500×  g  at 4 °C. Fifty μL of DNase-free water was added to dilute the pellet. The concentration and integrity of extracted RNAs were assessed with the NanoDrop 1000 Spectrophotometer (Thermo Fisher Scientific, Wilmington, DE, USA) and by nucleic acid electrophoresis with the Agilent 2100 Bioanalyzer instrument (Agilent, Santa Clara, CA, USA). Reverse transcription was performed with the qScript Flex cDNA Synthesis Kit (Qiagen Beverly, Inc., Cummings, MA, USA) with a 1 μg/μL mRNA concentration. The relative mRNA abundance of genes known to be involved in oxidative stress and inflammation was quantified using real-time qPCR analysis.  Table A1  provides the complete list of selected genes. The qPCR was carried out with 10 μL of PerfeCTa ®  SYBR ®  Green FastMix ®  (Quanta Biosciences, Inc., Gaithersburg, MD, USA), 1 μL of cDNAs, 1 μL of designed primers, and 8 μL of RNAse-free water on the Lightcycler 480 (Roche, Basel, Switzerland). The PCR cycling conditions were 10 min at 95 °C, followed by 50 cycles for 10 s at 57 °C or 58 °C (for primer annealing), depending on the gene, and 20 s at 72 °C (for primer extension), and a melt curve step was set up at 72 °C for 10 s at 94 °C for 5 measures. A relative standard curve was established by serial dilutions of a cDNA pool to determine the mRNA expression levels.
+L63: VDR gene expression was evaluated in all tissues. The hepatic gene expression of CYP2R1 (25-hydroxylase, catalyzes the conversion of vitamin D 3  into 25(OH)D 3 ) was assessed as well. In the liver, mesenteric lymph nodes, and jejunum mucosa, IL-10 (interleukin 10, an anti-inflammatory cytokine), TNF-α (tumor necrosis factor-alpha, a cytokine regulating the inflammatory response), TLR4 (Toll-like receptor 4, has a role in the activation of the innate immune system), and Nrf2 (nuclear factor erythroid 2-related factor 2, a regulator of cellular resistance to oxidants) gene expressions were also estimated. The CYP27B1 (1α-hydroxylase, hydroxylation of 25(OH)D 3  into 1-25(OH) 2 D 3 ) gene expression was assessed in the kidney. Values were then normalized with three housekeeping genes, GAPDH, β-actin, and HPRT.
+L64: 5.3. Statistical Analyses
+L65: All the results were evaluated using the Glimmix procedure on SAS (SAS studio 2021; SAS Inst., Inc. Cary, NC, USA) with the five different treatments as the fixed effect with the following contrasts to compare: CON versus DON (DON effect), DON versus DON_Vit25-OHD (vitamin D effect), DON versus DON_VitE-C (vitamin E and C effect), and DON versus DON_Vit+ (vitamin + effect). Growth performance including average daily feed intake (ADFI), average daily gain (ADG), and feed conversion ratio (FCR) were analyzed with a pen of 2 piglets as the experimental unit. Blood samples, tissue samples, and gene expression were analyzed for each piglet, receiving LPS stimulation or not, with the piglet as the experimental unit. Thus, the unchallenged LPS group was analyzed separately from the LPS-challenged group. A  p -value less than 0.05 indicates a significant difference, whereas a  p -value between 0.05 and 0.10 indicates a statistical trend.
+L66: 1. Döll S. 
+L67:  Dänicke S. 
+L68:  The Fusarium toxins deoxynivalenol (DON) and zearalenone (ZON) in animal feeding Prev. Vet. Med. 2011 102 132 145 10.1016/j.prevetmed.2011.04.008 21571381
+L69: 2. Mishra S. 
+L70:  Dwivedi P.D. 
+L71:  Pandey H.P. 
+L72:  Das M. 
+L73:  Role of oxidative stress in Deoxynivalenol induced toxicity Food Chem. Toxicol. 2014 72 20 29 10.1016/j.fct.2014.06.027 25010452
+L74: 3. Pasternak J.A. 
+L75:  Aiyer V.I.A. 
+L76:  Hamonic G. 
+L77:  Beaulieu A.D. 
+L78:  Columbus D.A. 
+L79:  Wilson H.L. 
+L80:  Molecular and Physiological Effects on the Small Intestine of Weaner Pigs Following Feeding with Deoxynivalenol-Contaminated Feed Toxins 2018 10 40 10.3390/toxins10010040 29329218
+L81: 4. Andretta I. 
+L82:  Kipper M. 
+L83:  Lehnen C.R. 
+L84:  Hauschild L. 
+L85:  Vale M.M. 
+L86:  Lovatto P.A. 
+L87:  Meta-analytical study of productive and nutritional interactions of mycotoxins in growing pigs Animal 2012 6 1476 1482 10.1017/S1751731111002278 23031521
+L88: 5. Le Thanh B.V. 
+L89:  Lessard M. 
+L90:  Chorfi Y. 
+L91:  Guay F. 
+L92:  The efficacy of anti-mycotoxin feed additives in preventing the adverse effects of wheat naturally contaminated with Fusarium mycotoxins on performance, intestinal barrier function and nutrient digestibility and retention in weanling pigs Can. J. Anim. Sci. 2015 95 197 209 10.4141/cjas-2014-126
+L93: 6. Reddy K.E. 
+L94:  Lee W. 
+L95:  Jeong J.Y. 
+L96:  Lee Y. 
+L97:  Lee H.-J. 
+L98:  Kim M.S. 
+L99:  Kim D.-W. 
+L100:  Yu D. 
+L101:  Cho A. 
+L102:  Oh Y.K. 
+L103:  
+L104:  Effects of deoxynivalenol- and zearalenone-contaminated feed on the gene expression profiles in the kidneys of piglets Asian-Australas. J. Anim. Sci. 2018 31 138 148 10.5713/ajas.17.0454 28920417
+L105: 7. Le Thanh B.V. 
+L106:  Lemay M. 
+L107:  Bastien A. 
+L108:  Lapointe J. 
+L109:  Lessard M. 
+L110:  Chorfi Y. 
+L111:  Guay F. 
+L112:  The potential effects of antioxidant feed additives in mitigating the adverse effects of corn naturally contaminated with Fusarium mycotoxins on antioxidant systems in the intestinal mucosa, plasma, and liver in weaned pigs Mycotoxin Res. 2016 32 99 116 10.1007/s12550-016-0245-y 27021614
+L113: 8. Kullik K. 
+L114:  Brosig B. 
+L115:  Kersten S. 
+L116:  Valenta H. 
+L117:  Diesing A.K. 
+L118:  Panther P. 
+L119:  Reinhardt N. 
+L120:  Kluess J. 
+L121:  Rothkötter H.J. 
+L122:  Breves G. 
+L123:  
+L124:  Interactions between the Fusarium toxin deoxynivalenol and lipopolysaccharides on the in vivo protein synthesis of acute phase proteins, cytokines and metabolic activity of peripheral blood mononuclear cells in pigs Food Chem. Toxicol. 2013 57 11 20 10.1016/j.fct.2013.02.050 23500770
+L125: 9. Renner L. 
+L126:  Kahlert S. 
+L127:  Tesch T. 
+L128:  Bannert E. 
+L129:  Frahm J. 
+L130:  Barta-Böszörményi A. 
+L131:  Kluess J. 
+L132:  Kersten S. 
+L133:  Schönfeld P. 
+L134:  Rothkötter H.-J. 
+L135:  
+L136:  Chronic DON exposure and acute LPS challenge: Effects on porcine liver morphology and function Mycotoxin Res. 2017 33 207 218 10.1007/s12550-017-0279-9 28474303
+L137: 10. Klunker L.R. 
+L138:  Kahlert S. 
+L139:  Panther P. 
+L140:  Diesing A.K. 
+L141:  Reinhardt N. 
+L142:  Brosig B. 
+L143:  Kersten S. 
+L144:  Dänicke S. 
+L145:  Rothkötter H.J. 
+L146:  Kluess J.W. 
+L147:  Deoxynivalenol and  E. coli  lipopolysaccharide alter epithelial proliferation and spatial distribution of apical junction proteins along the small intestinal axis J. Anim. Sci. 2013 91 276 285 10.2527/jas.2012-5453 23100596
+L148: 11. Dänicke S. 
+L149:  Valenta H. 
+L150:  Ganter M. 
+L151:  Brosig B. 
+L152:  Kersten S. 
+L153:  Diesing A.-K. 
+L154:  Kahlert S. 
+L155:  Panther P. 
+L156:  Kluess J. 
+L157:  Rothkötter H.-J. 
+L158:  Lipopolysaccharides (LPS) modulate the metabolism of deoxynivalenol (DON) in the pig Mycotoxin Res. 2014 30 161 170 10.1007/s12550-014-0201-7 24948114
+L159: 12. Carr A.C. 
+L160:  Maggini S. 
+L161:  Vitamin C and Immune Function Nutrients 2017 9 1211 10.3390/nu9111211 29099763
+L162: 13. Galli F. 
+L163:  Azzi A. 
+L164:  Birringer M. 
+L165:  Cook-Mills J.M. 
+L166:  Eggersdorfer M. 
+L167:  Frank J. 
+L168:  Cruciani G. 
+L169:  Lorkowski S. 
+L170:  Özer N.K. 
+L171:  Vitamin E: Emerging aspects and new directions Free Radic. Biol. Med. 2017 102 16 36 10.1016/j.freeradbiomed.2016.09.017 27816611
+L172: 14. Sassi F. 
+L173:  Tamone C. 
+L174:  D’Amelio P. 
+L175:  Vitamin D: Nutrient, Hormone, and Immunomodulator Nutrients 2018 10 1656 10.3390/nu10111656 30400332
+L176: 15. Combs G.F. 
+L177:  The Vitamins: Fundamental Aspects in Nutrition and Health 3rd ed. Elsevier Academic Press Amsterdam, The Netherlands 2008 xix 583p
+L178: 16. Christakos S. 
+L179:  Ajibade D.V. 
+L180:  Dhawan P. 
+L181:  Fechner A.J. 
+L182:  Mady L.J. 
+L183:  Vitamin D: Metabolism Endocrinol. Metab. Clin. N. Am. 2010 39 243 253 10.1016/j.ecl.2010.02.002 20511049
+L184: 17. Kim D.-H. 
+L185:  Meza C.A. 
+L186:  Clarke H. 
+L187:  Kim J.-S. 
+L188:  Hickner R.C. 
+L189:  Vitamin D and Endothelial Function Nutrients 2020 12 575 10.3390/nu12020575 32098418
+L190: 18. Kong J. 
+L191:  Zhang Z. 
+L192:  Musch M.W. 
+L193:  Ning G. 
+L194:  Sun J. 
+L195:  Hart J. 
+L196:  Bissonnette M. 
+L197:  Li Y.C. 
+L198:  Novel role of the vitamin D receptor in maintaining the integrity of the intestinal mucosal barrier Am. J. Physiol.-Gastrointest. Liver Physiol. 2008 294 G208 G216 10.1152/ajpgi.00398.2007 17962355
+L199: 19. Pinelli-Saavedra A. 
+L200:  Vitamin E in immunity and reproductive performance in pigs Reprod. Nutr. Dev. 2003 43 397 408 10.1051/rnd:2003034 15005369
+L201: 20. Pinton P. 
+L202:  Oswald I.P. 
+L203:  Effect of deoxynivalenol and other Type B trichothecenes on the intestine: A review Toxins 2014 6 1615 1643 10.3390/toxins6051615 24859243
+L204: 21. Frankič T. 
+L205:  Salobir J. 
+L206:  Rezar V. 
+L207:  The effect of vitamin E supplementation on reduction of lymphocyte DNA damage induced by T-2 toxin and deoxynivalenol in weaned pigs Anim. Feed Sci. Technol. 2008 141 274 286 10.1016/j.anifeedsci.2007.06.012
+L208: 22. Combs G.F. 
+L209:  Chapter 6—Vitamin D The Vitamins 4th ed. 
+L210:  Combs G.F. 
+L211:  Academic Press San Diego, CA, USA 2012 139 180
+L212: 23. Traber M.G. 
+L213:  Stevens J.F. 
+L214:  Vitamins C and E: Beneficial effects from a mechanistic perspective Free Radic. Biol. Med. 2011 51 1000 1013 10.1016/j.freeradbiomed.2011.05.017 21664268
+L215: 24. Döll S. 
+L216:  Schrickx J.A. 
+L217:  Dänicke S. 
+L218:  Fink-Gremmels J. 
+L219:  Interactions of deoxynivalenol and lipopolysaccharides on cytokine excretion and mRNA expression in porcine hepatocytes and Kupffer cell enriched hepatocyte cultures Toxicol. Lett. 2009 190 96 105 10.1016/j.toxlet.2009.07.007 19607891
+L220: 25. Stanek C. 
+L221:  Reinhardt N. 
+L222:  Diesing A.-K. 
+L223:  Nossol C. 
+L224:  Kahlert S. 
+L225:  Panther P. 
+L226:  Kluess J. 
+L227:  Rothkötter H.-J. 
+L228:  Kuester D. 
+L229:  Brosig B. 
+L230:  
+L231:  A chronic oral exposure of pigs with deoxynivalenol partially prevents the acute effects of lipopolysaccharides on hepatic histopathology and blood clinical chemistry Toxicol. Lett. 2012 215 193 200 10.1016/j.toxlet.2012.10.009 23123154
+L232: 26. Lessard M. 
+L233:  Savard C. 
+L234:  Deschene K. 
+L235:  Lauzon K. 
+L236:  Pinilla V.A. 
+L237:  Gagnon C.A. 
+L238:  Lapointe J. 
+L239:  Guay F. 
+L240:  Chorfi Y. 
+L241:  Impact of deoxynivalenol (DON) contaminated feed on intestinal integrity and immune response in swine Food Chem. Toxicol. 2015 80 7 16 10.1016/j.fct.2015.02.013 25701311
+L242: 27. Sauvé B. 
+L243:  Chorfi Y. 
+L244:  Létourneau-Montminy M.-P. 
+L245:  Guay F. 
+L246:  Vitamin D Supplementation Impacts Calcium and Phosphorus Metabolism in Piglets Fed a Diet Contaminated with Deoxynivalenol and Challenged with Lipopolysaccharides Toxins 2023 15 394 10.3390/toxins15060394 37368695
+L247: 28. Wu W. 
+L248:  Bates M.A. 
+L249:  Bursian S.J. 
+L250:  Flannery B. 
+L251:  Zhou H.-R. 
+L252:  Link J.E. 
+L253:  Zhang H. 
+L254:  Pestka J.J. 
+L255:  Peptide YY3–36 and 5-Hydroxytryptamine Mediate Emesis Induction by Trichothecene Deoxynivalenol (Vomitoxin) Toxicol. Sci. 2013 133 186 195 10.1093/toxsci/kft033 23457120
+L256: 29. Wang X. 
+L257:  Chen X. 
+L258:  Cao L. 
+L259:  Zhu L. 
+L260:  Zhang Y. 
+L261:  Chu X. 
+L262:  Zhu D. 
+L263:  Rahman S.U. 
+L264:  Peng C. 
+L265:  Feng S. 
+L266:  
+L267:  Mechanism of deoxynivalenol-induced neurotoxicity in weaned piglets is linked to lipid peroxidation, dampened neurotransmitter levels, and interference with calcium signaling Ecotoxicol. Environ. Saf. 2020 194 110382 10.1016/j.ecoenv.2020.110382 32146195
+L268: 30. Upadhaya S.D. 
+L269:  Chung T.K. 
+L270:  Jung Y.J. 
+L271:  Kim I.H. 
+L272:  Dietary 25(OH)D 3  supplementation to gestating and lactating sows and their progeny affects growth performance, carcass characteristics, blood profiles and myogenic regulatory factor-related gene expression in wean-finish pigs Anim. Biosci. 2022 35 461 474 10.5713/ab.21.0304 34727644
+L273: 31. Thayer M.T. 
+L274:  Nelssen J.L. 
+L275:  Langemeier A.J. 
+L276:  Morton J.M. 
+L277:  Gonzalez J.M. 
+L278:  Kruger S.R. 
+L279:  Ou Z. 
+L280:  Makowski A.J. 
+L281:  Bergstrom J.R. 
+L282:  The effects of maternal dietary supplementation of cholecalciferol (vitamin D3) and 25(OH)D 3  on sow and progeny performance1 Transl. Anim. Sci. 2019 3 692 708 10.1093/tas/txz029 32704837
+L283: 32. Lu T. 
+L284:  Harper A.F. 
+L285:  Zhao J. 
+L286:  Estienne M.J. 
+L287:  Dalloul R.A. 
+L288:  Supplementing antioxidants to pigs fed diets high in oxidants: I. Effects on growth performance, liver function, and oxidative status J. Anim. Sci. 2014 92 5455 5463 10.2527/jas.2013-7109 25367515
+L289: 33. Sergeev I.N. 
+L290:  Arkhapchev Y.P. 
+L291:  Spirichev V.B. 
+L292:  Ascorbic Acid Effects on Vitamin D Hormone Metabolism and Binding in Guinea Pigs J. Nutr. 1990 120 1185 1190 10.1093/jn/120.10.1185 2170601
+L293: 34. Bergstrom J. 
+L294:  Edmonds M. 
+L295:  The effects of dietary supplementation with a stabilized form of vitamin C (Rovimix ®  Stay-C ®  35) on the growth performance and concentrations of plasma ascorbate and serum vitamin D3 metabolites of nursery pigs J. Anim. Sci. 2014 92 189 (Abstr.) 24243891
+L296: 35. Lauridsen C. 
+L297:  Matte J.J. 
+L298:  Lessard M. 
+L299:  Celi P. 
+L300:  Litta G. 
+L301:  Role of vitamins for gastro-intestinal functionality and health of pigs Anim. Feed Sci. Technol. 2021 273 114823 10.1016/j.anifeedsci.2021.114823
+L302: 36. Nuhu F. 
+L303:  Gordon A. 
+L304:  Sturmey R. 
+L305:  Seymour A.M. 
+L306:  Bhandari S. 
+L307:  Measurement of Glutathione as a Tool for Oxidative Stress Studies by High Performance Liquid Chromatography Molecules 2020 25 4196 10.3390/molecules25184196 32933160
+L308: 37. Lubos E. 
+L309:  Loscalzo J. 
+L310:  Handy D.E. 
+L311:  Glutathione peroxidase-1 in health and disease: From molecular mechanisms to therapeutic opportunities Antioxid. Redox Signal. 2011 15 1957 1997 10.1089/ars.2010.3586 21087145
+L312: 38. Xiao H. 
+L313:  Wu M.M. 
+L314:  Tan B.E. 
+L315:  Yin Y.L. 
+L316:  Li T.J. 
+L317:  Xiao D.F. 
+L318:  Li L. 
+L319:  Effects of composite antimicrobial peptides in weanling piglets challenged with deoxynivalenol: I. Growth performance, immune function, and antioxidation capacity J. Anim. Sci. 2013 91 4772 4780 10.2527/jas.2013-6426 23965387
+L320: 39. Da Silva E.O. 
+L321:  Gerez J.R. 
+L322:  Hohmann M.S.N. 
+L323:  Verri W.A. 
+L324:  Bracarense A.P.F.R.L. 
+L325:  Phytic Acid Decreases Oxidative Stress and Intestinal Lesions Induced by Fumonisin B1 and Deoxynivalenol in Intestinal Explants of Pigs Toxins 2019 11 18 10.3390/toxins11010018 30621150
+L326: 40. Yin J. 
+L327:  Wu M.M. 
+L328:  Xiao H. 
+L329:  Ren W.K. 
+L330:  Duan J.L. 
+L331:  Yang G. 
+L332:  Li T.J. 
+L333:  Yin Y.L. 
+L334:  Development of an antioxidant system after early weaning in piglets2 J. Anim. Sci. 2014 92 612 619 10.2527/jas.2013-6986 24352957
+L335: 41. Weaver A.C. 
+L336:  See M.T. 
+L337:  Kim S.W. 
+L338:  Protective Effect of Two Yeast Based Feed Additives on Pigs Chronically Exposed to Deoxynivalenol and Zearalenone Toxins 2014 6 3336 3353 10.3390/toxins6123336 25533517
+L339: 42. Dinu D. 
+L340:  Bodea G.O. 
+L341:  Ceapa C.D. 
+L342:  Munteanu M.C. 
+L343:  Roming F.I. 
+L344:  Serban A.I. 
+L345:  Hermenean A. 
+L346:  Costache M. 
+L347:  Zarnescu O. 
+L348:  Dinischiotu A. 
+L349:  Adapted response of the antioxidant defense system to oxidative stress induced by deoxynivalenol in Hek-293 cells Toxicon 2011 57 1023 1032 10.1016/j.toxicon.2011.04.006 21549142
+L350: 43. Na H.-K. 
+L351:  Surh Y.-J. 
+L352:  Modulation of Nrf2-mediated antioxidant and detoxifying enzyme induction by the green tea polyphenol EGCG Food Chem. Toxicol. 2008 46 1271 1278 10.1016/j.fct.2007.10.006 18082923
+L353: 44. Dheer R. 
+L354:  Santaolalla R. 
+L355:  Davies J.M. 
+L356:  Lang J.K. 
+L357:  Phillips M.C. 
+L358:  Pastorini C. 
+L359:  Vazquez-Pertejo M.T. 
+L360:  Abreu M.T. 
+L361:  Intestinal Epithelial Toll-Like Receptor 4 Signaling Affects Epithelial Function and Colonic Microbiota and Promotes a Risk for Transmissible Colitis Infect. Immun. 2016 84 798 810 10.1128/IAI.01374-15 26755160
+L362: 45. Dong B. 
+L363:  Zhou Y. 
+L364:  Wang W. 
+L365:  Scott J. 
+L366:  Kim K. 
+L367:  Sun Z. 
+L368:  Guo Q. 
+L369:  Lu Y. 
+L370:  Gonzales N.M. 
+L371:  Wu H. 
+L372:  
+L373:  Vitamin D Receptor Activation in Liver Macrophages Ameliorates Hepatic Inflammation, Steatosis, and Insulin Resistance in Mice Hepatology 2020 71 1559 1574 10.1002/hep.30937 31506976
+L374: 46. Aranow C. 
+L375:  Vitamin D and the immune system J. Investig. Med. 2011 59 881 886 10.2310/JIM.0b013e31821b8755 21527855
+L376: 47. Barros D.O. 
+L377:  Xavier S.M.L. 
+L378:  Barbosa C.O. 
+L379:  Silva R.F. 
+L380:  Freitas R.L.M. 
+L381:  Maia F.D. 
+L382:  Oliveira A.A. 
+L383:  Freitas R.M. 
+L384:  Takahashi R.N. 
+L385:  Effects of the vitamin E in catalase activities in hippocampus after status epilepticus induced by pilocarpine in Wistar rats Neurosci. Lett. 2007 416 227 230 10.1016/j.neulet.2007.01.057 17383094
+L386: 48. Kim J.C. 
+L387:  Mullan B.P. 
+L388:  Black J.L. 
+L389:  Hewitt R.J.E. 
+L390:  van Barneveld R.J. 
+L391:  Pluske J.R. 
+L392:  Acetylsalicylic acid supplementation improves protein utilization efficiency while vitamin E supplementation reduces markers of the inflammatory response in weaned pigs challenged with enterotoxigenic E. coli J. Anim. Sci. Biotechnol. 2016 7 58 10.1186/s40104-016-0118-4 27729974
+L393: 49. Sauvé B. 
+L394:  Guay F. 
+L395:  Létourneau-Montminy M.-P. 
+L396:  Impact of deoxynivalenol in a calcium depletion and repletion nutritional strategy in piglets J. Anim. Sci. 2024 102 skae099 10.1093/jas/skae099 38613476
+L397: 50. Pinton P. 
+L398:  Braicu C. 
+L399:  Nougayrede J.-P. 
+L400:  Laffitte J. 
+L401:  Taranu I. 
+L402:  Oswald I.P. 
+L403:  Deoxynivalenol Impairs Porcine Intestinal Barrier Function and Decreases the Protein Expression of Claudin-4 through a Mitogen-Activated Protein Kinase-Dependent Mechanism J. Nutr. 2010 140 1956 1962 10.3945/jn.110.123919 20861219
+L404: 51. Ruder B. 
+L405:  Atreya R. 
+L406:  Becker C. 
+L407:  Tumour Necrosis Factor Alpha in Intestinal Homeostasis and Gut Related Diseases Int. J. Mol. Sci. 2019 20 1887 10.3390/ijms20081887 30995806
+L408: 52. Chakraborty S. 
+L409:  Zawieja S.D. 
+L410:  Wang W. 
+L411:  Lee Y. 
+L412:  Wang Y.J. 
+L413:  von der Weid P.Y. 
+L414:  Zawieja D.C. 
+L415:  Muthuchamy M. 
+L416:  Lipopolysaccharide modulates neutrophil recruitment and macrophage polarization on lymphatic vessels and impairs lymphatic function in rat mesentery Am. J. Physiol. Heart Circ. Physiol. 2015 309 H2042 H2057 10.1152/ajpheart.00467.2015 26453331
+L417: 53. Lira F.S. 
+L418:  Rosa J.C. 
+L419:  Cunha C.A. 
+L420:  Ribeiro E.B. 
+L421:  do Nascimento C.O. 
+L422:  Oyama L.M. 
+L423:  Mota J.F. 
+L424:  Supplementing alpha-tocopherol (vitamin E) and vitamin D3 in high fat diet decrease IL-6 production in murine epididymal adipose tissue and 3T3-L1 adipocytes following LPS stimulation Lipids Health Dis. 2011 10 37 10.1186/1476-511X-10-37 21352586
+L425: 54. National Research Council 
+L426:  Nutrient Requirements of Swine: Eleventh Revised Edition The National Academies Press Washington, DC, USA 2012 420
+L427: 55. Kim B.G. 
+L428:  Lindemann M.D. 
+L429:  A spreadsheet method for experimental animal allotment J. Anim. Sci. 2007 85 112
+L430: 56. Ermis B. 
+L431:  Yildirim A. 
+L432:  Örs R. 
+L433:  Tastekin A. 
+L434:  Ozkan B. 
+L435:  Akcay F. 
+L436:  Influence of smoking on serum and milk malondialdehyde, superoxide dismutase, glutathione peroxidase, and antioxidant potential levels in mothers at the postpartum seventh day Biol. Trace Elem. Res. 2005 105 27 36 10.1385/BTER:105:1-3:027 16034151
+L437: 57. Da Silva E.O. 
+L438:  Bracarense A.P.F.L. 
+L439:  Oswald I.P. 
+L440:  Mycotoxins and oxidative stress: Where are we? World Mycotoxin J. 2018 11 113 133 10.3920/WMJ2017.2267
+L441: Acknowledgments
+L442: We gratefully acknowledge technical support of Dominic Gagné, Isabelle Lachance, Annie Pelletier, Annick Rioux, Ferial Amira Slim, Isabelle Laflamme, Micheline Gingras and Isabelle Gilbert from the Department of Animal Sciences, Université Laval (Qc, Canada). We also recognize with gratitude the assistance of co-workers at the Centre de recherche en sciences animales de Deschambault.
+[28ms]
+

@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_e973955e",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-02.results.csv"
+  ],
+  "completed_at": "2026-08-16T05:24:41.269558+00:00",
+  "elapsed_seconds": 0.3754859168548137,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:40.894050+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-02.export.attempt-01.stderr",
+  "stdout_bytes": 124,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/coverage-gap-02.export.attempt-01.stdout"
+}

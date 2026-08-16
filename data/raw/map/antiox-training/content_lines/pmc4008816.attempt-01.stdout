@@ -1,0 +1,612 @@
+L1: Dietary Nitrate Supplementation and Exercise Performance
+L2: Sports Medicine (Auckland, N.z.) (2014)
+L3: Andrew M. Jones
+L4: Sport and Health Sciences, College of Life and Environmental Sciences, University of Exeter, St. Luke’s Campus, Exeter, EX1 2LU UK
+L5: Dietary nitrate is growing in popularity as a sports nutrition supplement. This article reviews the evidence base for the potential of inorganic nitrate to enhance sports and exercise performance. Inorganic nitrate is present in numerous foodstuffs and is abundant in green leafy vegetables and beetroot. Following ingestion, nitrate is converted in the body to nitrite and stored and circulated in the blood. In conditions of low oxygen availability, nitrite can be converted into nitric oxide, which is known to play a number of important roles in vascular and metabolic control. Dietary nitrate supplementation increases plasma nitrite concentration and reduces resting blood pressure. Intriguingly, nitrate supplementation also reduces the oxygen cost of submaximal exercise and can, in some circumstances, enhance exercise tolerance and performance. The mechanisms that may be responsible for these effects are reviewed and practical guidelines for safe and efficacious dietary nitrate supplementation are provided.
+L6: Review Article
+L7: Introduction
+L8: Fig. 1 Pathways of NO production. NO is produced from the substrates  l -arginine and oxygen in a reaction catalyzed by the NO synthases and is subsequently oxidized to nitrite and nitrate. Nitrate can be reduced to nitrite by xanthine oxidase and by anaerobic bacteria in the oral cavity, and nitrite can be further reduced to NO and other reactive nitrogen species, an effect that is accentuated when tissue oxygen availability is low. In this way, the products of NO production can be recycled. In addition to endogenous production, body stores of nitrate and nitrite can be increased through the consumption of foods that are rich in inorganic nitrate such as green leafy vegetables and some fruits. NO is important in several physiological processes that may support or enhance exercise performance. It is possible that the reliance on the nitrate–nitrite–NO pathway for NO production is increased during exercise.  Dashed arrows  show that NO can be oxidized to NO 2 
+L9:  −  and NO 3 
+L10:  − .  Ca 
+L11:  2+  calcium,  NO  nitric oxide,  NO 
+L12:  3 
+L13:  −  nitrate,  NO 
+L14:  2 
+L15:  −  nitrite,  NOS  nitric oxide synthase,  SR  sarcoplasmic reticulum
+L16: Until relatively recently, it was believed that the ubiquitous physiological signaling molecule, nitric oxide (NO), was generated solely through the oxidation of  l -arginine in a reaction catalyzed by a family of NO synthase (NOS) enzymes, resulting in the endogenous production of nitrate (NO 3 
+L17:  − ) and nitrite (NO 2 
+L18:  − ) [ 1 ] (Fig.  1 ). However, it is now known that nitrate and nitrite can be reduced back to NO and other bioactive nitrogen oxides in vivo, and there is growing scientific interest in the potential of this ‘nitrate–nitrite–NO’ pathway in physiology, dietetics, and medicine [ 2 – 5 ]. It has been suggested that this alternative pathway may complement the  l -arginine–NOS–NO pathway by enabling NO production in conditions of low oxygen availability in which NOS activity (which is oxygen dependent) may be reduced [ 6 ]. Fig. 1 Pathways of NO production. NO is produced from the substrates  l -arginine and oxygen in a reaction catalyzed by the NO synthases and is subsequently oxidized to nitrite and nitrate. Nitrate can be reduced to nitrite by xanthine oxidase and by anaerobic bacteria in the oral cavity, and nitrite can be further reduced to NO and other reactive nitrogen species, an effect that is accentuated when tissue oxygen availability is low. In this way, the products of NO production can be recycled. In addition to endogenous production, body stores of nitrate and nitrite can be increased through the consumption of foods that are rich in inorganic nitrate such as green leafy vegetables and some fruits. NO is important in several physiological processes that may support or enhance exercise performance. It is possible that the reliance on the nitrate–nitrite–NO pathway for NO production is increased during exercise.  Dashed arrows  show that NO can be oxidized to NO 2 
+L19:  −  and NO 3 
+L20:  − .  Ca 
+L21:  2+  calcium,  NO  nitric oxide,  NO 
+L22:  3 
+L23:  −  nitrate,  NO 
+L24:  2 
+L25:  −  nitrite,  NOS  nitric oxide synthase,  SR  sarcoplasmic reticulum
+L26: In addition to its generation by means of the NOS system, body stores of nitrate and nitrite may also be increased exogenously through the diet, particularly through the consumption of green leafy vegetables such as lettuce, spinach, rocket, celery, cress, and beetroot, which typically contain over 250 mg (>4 mmol) nitrate per 100 g fresh weight [ 2 ,  5 ,  7 ]. Ingested inorganic nitrate circulates in the plasma, and a portion (~25 %) is taken up by the salivary glands and concentrated in the saliva [ 8 ]. Commensal facultative anaerobic bacteria residing in the crypts on the surface of the tongue reduce nitrate to nitrite [ 9 ,  10 ]. Some of the swallowed nitrite is reduced to NO in the acidic environment of the stomach, but a substantial amount of nitrite enters the systemic circulation, elevating the plasma nitrite concentration ([nitrite]) [ 11 ,  12 ]. Following bolus nitrate ingestion, plasma nitrate concentration ([nitrate]) peaks after 1–2 h and plasma [nitrite] peaks after 2–3 h, after which both gradually fall, arriving back at baseline values after about 24 h [ 13 ]. A variety of enzymes and proteins, including deoxyhemoglobin, can subsequently catalyze the one-electron reduction of nitrite to NO in blood and other tissues [ 14 – 16 ]. This process is facilitated in conditions of low oxygen availability (ischemia and hypoxia) and low pH [ 17 ], enabling NO to be produced where it is most required. Interestingly, these conditions (low partial pressure oxygen and pH) may exist in skeletal muscle during exercise [ 18 ].
+L27: There is reason to believe that enhancing NO bioavailability by augmenting the nitrate–nitrite–NO pathway may influence muscle function and exercise performance. NO can modulate skeletal muscle function through its role in the regulation of blood flow, contractility, glucose and calcium homeostasis, and mitochondrial respiration and biogenesis [ 19 ]. In vivo, NOS inhibition, which would reduce endogenous NO production, increases oxygen consumption ( \documentclass[12pt]{minimal}
+L28: 				\usepackage{amsmath}
+L29: 				\usepackage{wasysym} 
+L30: 				\usepackage{amsfonts} 
+L31: 				\usepackage{amssymb} 
+L32: 				\usepackage{amsbsy}
+L33: 				\usepackage{mathrsfs}
+L34: 				\usepackage{upgreek}
+L35: 				\setlength{\oddsidemargin}{-69pt}
+L36: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2 ) in dogs [ 20 ] and rats [ 21 ] and also influences  \documentclass[12pt]{minimal}
+L37: 				\usepackage{amsmath}
+L38: 				\usepackage{wasysym} 
+L39: 				\usepackage{amsfonts} 
+L40: 				\usepackage{amssymb} 
+L41: 				\usepackage{amsbsy}
+L42: 				\usepackage{mathrsfs}
+L43: 				\usepackage{upgreek}
+L44: 				\setlength{\oddsidemargin}{-69pt}
+L45: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  dynamics in horses [ 22 ]. In humans, the influence of NOS blockade is more controversial, but there are indications that NO is involved in the regulation of blood flow and  \documentclass[12pt]{minimal}
+L46: 				\usepackage{amsmath}
+L47: 				\usepackage{wasysym} 
+L48: 				\usepackage{amsfonts} 
+L49: 				\usepackage{amssymb} 
+L50: 				\usepackage{amsbsy}
+L51: 				\usepackage{mathrsfs}
+L52: 				\usepackage{upgreek}
+L53: 				\setlength{\oddsidemargin}{-69pt}
+L54: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  [ 23 – 25 ]. This raises the possibility that augmenting NO bioavailability might positively influence exercise performance. Indeed, several studies have reported that plasma [nitrite] is positively associated with exercise capacity in humans [ 26 – 29 ]. Collectively, these findings raise the possibility that augmenting plasma [nitrite] through dietary nitrate supplementation might have ergogenic effects.
+L55: The purpose of this article is to provide an overview of the accumulating research evidence that points to a role for enhancing NO bioavailability, by dietary nitrate supplementation, in the physiological responses to exercise and exercise performance. Due to space restrictions, the focus of the article is entirely on the influence of nitrate on the responses of young, healthy, physically active individuals to exercise in normoxia. It is recognized that nitrate may also be beneficial for cardiovascular health in the general population due to reductions in blood pressure [ 13 ,  14 ,  30 ], during exercise in hypoxia [ 31 ,  32 ], and also in older and some clinical populations [ 33 ,  34 ].
+L56: Nitrate Reduces Oxygen Cost of Exercise and Improves Exercise Tolerance
+L57: The first study to show that nitrate supplementation may improve exercise efficiency was published in 2007 by Larsen et al. [ 35 ]. In that study, nine well trained subjects consumed 0.1 mmol/kg body mass (BM) per day of sodium nitrate or a placebo for 3 days before completing a continuous incremental cycle ergometer test. Nitrate supplementation significantly elevated resting plasma [nitrite] (by 82 %) and reduced resting systolic and diastolic blood pressure (by 8 and 6 mmHg). The oxygen cost of exercise over the first four stages of the test was significantly reduced after nitrate supplementation compared with placebo, with a mean reduction in  \documentclass[12pt]{minimal}
+L58: 				\usepackage{amsmath}
+L59: 				\usepackage{wasysym} 
+L60: 				\usepackage{amsfonts} 
+L61: 				\usepackage{amssymb} 
+L62: 				\usepackage{amsbsy}
+L63: 				\usepackage{mathrsfs}
+L64: 				\usepackage{upgreek}
+L65: 				\setlength{\oddsidemargin}{-69pt}
+L66: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  of 5 %, but there was no significant difference in  \documentclass[12pt]{minimal}
+L67: 				\usepackage{amsmath}
+L68: 				\usepackage{wasysym} 
+L69: 				\usepackage{amsfonts} 
+L70: 				\usepackage{amssymb} 
+L71: 				\usepackage{amsbsy}
+L72: 				\usepackage{mathrsfs}
+L73: 				\usepackage{upgreek}
+L74: 				\setlength{\oddsidemargin}{-69pt}
+L75: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max  between treatments. Over the four lowest work rates, there were significant improvements in gross efficiency (calculated as the work output per unit energy expended, from 19.7 ± 1.6 to 21.1 ± 1.3 %) and delta efficiency (calculated as the change in work output per unit change in energy expended, from 22.1 ± 1.6 to 22.9 ± 1.9 %) following nitrate supplementation. There was no difference in blood [lactate], heart rate, ventilation, or respiratory exchange ratio between nitrate and placebo for any of the submaximal work rates (corresponding to 45–80 %  \documentclass[12pt]{minimal}
+L76: 				\usepackage{amsmath}
+L77: 				\usepackage{wasysym} 
+L78: 				\usepackage{amsfonts} 
+L79: 				\usepackage{amssymb} 
+L80: 				\usepackage{amsbsy}
+L81: 				\usepackage{mathrsfs}
+L82: 				\usepackage{upgreek}
+L83: 				\setlength{\oddsidemargin}{-69pt}
+L84: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max ). Although indirect, these results indicate no change in non-oxidative energy supply, the energy cost of cardiopulmonary processes, or substrate utilization following nitrate supplementation, and suggest instead a real effect on the efficiency of muscle oxidative metabolism.
+L85: The findings of Larsen et al. [ 35 ] are remarkable because a basic tenet of human exercise physiology is that the oxygen cost of submaximal exercise at a given work rate is immutable, that is, essentially fixed, irrespective of age, health, and fitness status, and insensitive to known physical, nutritional, or pharmacological interventions [ 36 ]. It is well established that endurance exercise performance is a function of  \documentclass[12pt]{minimal}
+L86: 				\usepackage{amsmath}
+L87: 				\usepackage{wasysym} 
+L88: 				\usepackage{amsfonts} 
+L89: 				\usepackage{amssymb} 
+L90: 				\usepackage{amsbsy}
+L91: 				\usepackage{mathrsfs}
+L92: 				\usepackage{upgreek}
+L93: 				\setlength{\oddsidemargin}{-69pt}
+L94: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , the fractional utilization of  \documentclass[12pt]{minimal}
+L95: 				\usepackage{amsmath}
+L96: 				\usepackage{wasysym} 
+L97: 				\usepackage{amsfonts} 
+L98: 				\usepackage{amssymb} 
+L99: 				\usepackage{amsbsy}
+L100: 				\usepackage{mathrsfs}
+L101: 				\usepackage{upgreek}
+L102: 				\setlength{\oddsidemargin}{-69pt}
+L103: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , and exercise efficiency [ 37 ,  38 ]. Assuming that the other factors remain unchanged, an improvement in muscle efficiency would be expected to enable a greater work output for the same energy cost and translate into improved exercise performance [ 37 ,  38 ].
+L104: Recognizing the potential importance of the results of Larsen et al. [ 35 ] to the enhancement of performance, Bailey et al. [ 39 ] examined the influence of dietary nitrate supplementation on  \documentclass[12pt]{minimal}
+L105: 				\usepackage{amsmath}
+L106: 				\usepackage{wasysym} 
+L107: 				\usepackage{amsfonts} 
+L108: 				\usepackage{amssymb} 
+L109: 				\usepackage{amsbsy}
+L110: 				\usepackage{mathrsfs}
+L111: 				\usepackage{upgreek}
+L112: 				\setlength{\oddsidemargin}{-69pt}
+L113: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  dynamics during step exercise tests of moderate intensity (80 % of the gas exchange threshold [GET]) and high intensity (70 % of the difference between the GET and  \documentclass[12pt]{minimal}
+L114: 				\usepackage{amsmath}
+L115: 				\usepackage{wasysym} 
+L116: 				\usepackage{amsfonts} 
+L117: 				\usepackage{amssymb} 
+L118: 				\usepackage{amsbsy}
+L119: 				\usepackage{mathrsfs}
+L120: 				\usepackage{upgreek}
+L121: 				\setlength{\oddsidemargin}{-69pt}
+L122: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max ), with the latter tests continued to exhaustion as a measure of exercise tolerance. An important difference from the study of Larsen et al. [ 35 ] was that Bailey et al. [ 39 ] used a natural nitrate-rich dietary source, beetroot juice, as the nitrate supplement. Eight healthy men consumed 0.5 l/day of either beetroot juice (5.6 mmol nitrate) or blackcurrant cordial as a placebo for 6 consecutive days, with the exercise tests completed on the last 3 days. On days 4–6 of the supplementation periods, plasma [nitrite] was significantly elevated following nitrate intake compared with placebo (95 %), and systolic blood pressure was significantly reduced (by an average of 8 mmHg). During moderate-intensity exercise, steady-state  \documentclass[12pt]{minimal}
+L123: 				\usepackage{amsmath}
+L124: 				\usepackage{wasysym} 
+L125: 				\usepackage{amsfonts} 
+L126: 				\usepackage{amssymb} 
+L127: 				\usepackage{amsbsy}
+L128: 				\usepackage{mathrsfs}
+L129: 				\usepackage{upgreek}
+L130: 				\setlength{\oddsidemargin}{-69pt}
+L131: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  was reduced by 5 %. During high-intensity exercise, there was a significant 23 % reduction in the amplitude of the  \documentclass[12pt]{minimal}
+L132: 				\usepackage{amsmath}
+L133: 				\usepackage{wasysym} 
+L134: 				\usepackage{amsfonts} 
+L135: 				\usepackage{amssymb} 
+L136: 				\usepackage{amsbsy}
+L137: 				\usepackage{mathrsfs}
+L138: 				\usepackage{upgreek}
+L139: 				\setlength{\oddsidemargin}{-69pt}
+L140: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  ‘slow component,’ which is considered to reflect a progressive loss of muscle efficiency as high-intensity exercise proceeds [ 40 ]. The peak  \documentclass[12pt]{minimal}
+L141: 				\usepackage{amsmath}
+L142: 				\usepackage{wasysym} 
+L143: 				\usepackage{amsfonts} 
+L144: 				\usepackage{amssymb} 
+L145: 				\usepackage{amsbsy}
+L146: 				\usepackage{mathrsfs}
+L147: 				\usepackage{upgreek}
+L148: 				\setlength{\oddsidemargin}{-69pt}
+L149: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  attained during high-intensity exercise was not different between treatments, but attainment of the peak  \documentclass[12pt]{minimal}
+L150: 				\usepackage{amsmath}
+L151: 				\usepackage{wasysym} 
+L152: 				\usepackage{amsfonts} 
+L153: 				\usepackage{amssymb} 
+L154: 				\usepackage{amsbsy}
+L155: 				\usepackage{mathrsfs}
+L156: 				\usepackage{upgreek}
+L157: 				\setlength{\oddsidemargin}{-69pt}
+L158: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  was delayed with nitrate such that the time to exhaustion was significantly increased (by 16 %; from 9.7 ± 2.4 to 11.3 ± 3.4 min). Consistent with the study of Larsen et al. [ 35 ], nitrate did not alter blood [lactate], heart rate, ventilation, or respiratory exchange ratio for either moderate- or high-intensity exercise. In a subsequent study using knee extensor exercise, Bailey et al. [ 41 ] confirmed that, compared with placebo, beetroot juice consumption reduced submaximal  \documentclass[12pt]{minimal}
+L159: 				\usepackage{amsmath}
+L160: 				\usepackage{wasysym} 
+L161: 				\usepackage{amsfonts} 
+L162: 				\usepackage{amssymb} 
+L163: 				\usepackage{amsbsy}
+L164: 				\usepackage{mathrsfs}
+L165: 				\usepackage{upgreek}
+L166: 				\setlength{\oddsidemargin}{-69pt}
+L167: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  during low-intensity exercise, reduced the  \documentclass[12pt]{minimal}
+L168: 				\usepackage{amsmath}
+L169: 				\usepackage{wasysym} 
+L170: 				\usepackage{amsfonts} 
+L171: 				\usepackage{amssymb} 
+L172: 				\usepackage{amsbsy}
+L173: 				\usepackage{mathrsfs}
+L174: 				\usepackage{upgreek}
+L175: 				\setlength{\oddsidemargin}{-69pt}
+L176: 				\begin{document}$$\dot{V}{\sc{\text {O}}}_2$$\end{document} V ˙ O 2  slow component, and increased time to exhaustion by 25 % (from 9.8 ± 1.3 to 12.2 ± 1.8 min) during high-intensity exercise.
+L177: In a follow-up study, Larsen et al. [ 42 ] reported that dietary supplementation with sodium nitrate (0.1 mmol/kg BM/day) for 2 days significantly reduced  \documentclass[12pt]{minimal}
+L178: 				\usepackage{amsmath}
+L179: 				\usepackage{wasysym} 
+L180: 				\usepackage{amsfonts} 
+L181: 				\usepackage{amssymb} 
+L182: 				\usepackage{amsbsy}
+L183: 				\usepackage{mathrsfs}
+L184: 				\usepackage{upgreek}
+L185: 				\setlength{\oddsidemargin}{-69pt}
+L186: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max  (from 3.72 ± 0.33 to 3.62 ± 0.31 l/min, i.e. 2.7 %) during a maximal incremental exercise test involving combined arm and leg cranking. Despite this small reduction in  \documentclass[12pt]{minimal}
+L187: 				\usepackage{amsmath}
+L188: 				\usepackage{wasysym} 
+L189: 				\usepackage{amsfonts} 
+L190: 				\usepackage{amssymb} 
+L191: 				\usepackage{amsbsy}
+L192: 				\usepackage{mathrsfs}
+L193: 				\usepackage{upgreek}
+L194: 				\setlength{\oddsidemargin}{-69pt}
+L195: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , the time to exhaustion during the incremental test was 7 % longer after nitrate supplementation than with placebo (8.7 ± 0.5–9.4 ± 0.5 min,  p  = 0.13). The authors concluded that dietary nitrate reduces  \documentclass[12pt]{minimal}
+L196: 				\usepackage{amsmath}
+L197: 				\usepackage{wasysym} 
+L198: 				\usepackage{amsfonts} 
+L199: 				\usepackage{amssymb} 
+L200: 				\usepackage{amsbsy}
+L201: 				\usepackage{mathrsfs}
+L202: 				\usepackage{upgreek}
+L203: 				\setlength{\oddsidemargin}{-69pt}
+L204: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max  during maximal exercise using a large active muscle mass but with a trend towards improved performance due to enhanced muscle energetic function. This finding of a lower  \documentclass[12pt]{minimal}
+L205: 				\usepackage{amsmath}
+L206: 				\usepackage{wasysym} 
+L207: 				\usepackage{amsfonts} 
+L208: 				\usepackage{amssymb} 
+L209: 				\usepackage{amsbsy}
+L210: 				\usepackage{mathrsfs}
+L211: 				\usepackage{upgreek}
+L212: 				\setlength{\oddsidemargin}{-69pt}
+L213: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max  following nitrate supplementation, either with no change or with improved exercise performance, was also found by Bescós et al. [ 43 ], but is by no means a universal finding.
+L214: Fig. 2 Influence of acute and chronic dietary nitrate supplementation with 0.5 l/day of beetroot juice on  a  pulmonary oxygen uptake during submaximal exercise and  b  peak power output achieved during ramp incremental exercise. The nitrate condition is shown in  filled symbols , the placebo condition is shown in  open symbols , and the non-supplemented control condition is shown in  grey symbols . The steady-state  \documentclass[12pt]{minimal}
+L215: 				\usepackage{amsmath}
+L216: 				\usepackage{wasysym} 
+L217: 				\usepackage{amsfonts} 
+L218: 				\usepackage{amssymb} 
+L219: 				\usepackage{amsbsy}
+L220: 				\usepackage{mathrsfs}
+L221: 				\usepackage{upgreek}
+L222: 				\setlength{\oddsidemargin}{-69pt}
+L223: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during moderate-intensity exercise was reduced 2.5 h after nitrate ingestion and this was maintained after 5 and 15 days of continued supplementation. The peak power output was higher than the other conditions after 15 days of supplementation. Values are mean ± SD.  * Significantly different from the non-supplemented control condition ( p   <  0.05);  # significantly different from the placebo condition ( p   <  0.05).  BL  baseline,  \documentclass[12pt]{minimal}
+L224: 				\usepackage{amsmath}
+L225: 				\usepackage{wasysym} 
+L226: 				\usepackage{amsfonts} 
+L227: 				\usepackage{amssymb} 
+L228: 				\usepackage{amsbsy}
+L229: 				\usepackage{mathrsfs}
+L230: 				\usepackage{upgreek}
+L231: 				\setlength{\oddsidemargin}{-69pt}
+L232: 				\begin{document}$$\dot{V}{\sc {O_2}}$$\end{document} V ˙ O 2  oxygen uptake
+L233: The duration of the supplementation period in the early studies into the effects of nitrate supplementation on exercise efficiency and performance was typically 3 days followed by a maintenance dose over the remaining 1–3 days of experimentation [ 35 ,  39 ,  41 ,  42 ]. It was therefore not known whether shorter or longer periods of nitrate supplementation might be more, or less, effective in altering exercise efficiency and performance. Vanhatalo et al. [ 44 ] addressed this issue by asking eight healthy volunteers to consume 0.5 l/day of beetroot juice (5.2 mmol nitrate/day) or a placebo for 15 days. Another key difference compared with previous studies was that subjects were asked not to alter their normal diet during the supplementation period, that is, they were free to continue consuming nitrate-rich foodstuffs. The exercise protocol (two moderate-intensity step tests followed by a maximal ramp incremental test on a cycle ergometer) was completed acutely (2.5 h after beetroot juice or placebo ingestion) and after 5 and 15 days of supplementation. The steady-state  \documentclass[12pt]{minimal}
+L234: 				\usepackage{amsmath}
+L235: 				\usepackage{wasysym} 
+L236: 				\usepackage{amsfonts} 
+L237: 				\usepackage{amssymb} 
+L238: 				\usepackage{amsbsy}
+L239: 				\usepackage{mathrsfs}
+L240: 				\usepackage{upgreek}
+L241: 				\setlength{\oddsidemargin}{-69pt}
+L242: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during moderate-intensity exercise was significantly reduced (by approximately 4 %) 2.5 h after beetroot juice intake compared with pre-supplementation control, and it remained significantly reduced after 5 and 15 days of supplementation compared with placebo (Fig.  2 ). The results also showed that the effect of nitrate on efficiency is maintained (neither lost nor enhanced) for at least 2 weeks if supplementation is continued. Finally, the results indicate that the effects on efficiency are still manifest, albeit perhaps less impressively, when normal dietary nitrate intake is not restricted. Interestingly, there was no improvement in ramp test performance, relative to placebo, after 2.5 h or 5 days of beetroot juice intake. However, there were significant increases in the peak power output and the power output at the GET compared with placebo, after 15 days of beetroot juice supplementation (Fig.  2 ). Fig. 2 Influence of acute and chronic dietary nitrate supplementation with 0.5 l/day of beetroot juice on  a  pulmonary oxygen uptake during submaximal exercise and  b  peak power output achieved during ramp incremental exercise. The nitrate condition is shown in  filled symbols , the placebo condition is shown in  open symbols , and the non-supplemented control condition is shown in  grey symbols . The steady-state  \documentclass[12pt]{minimal}
+L243: 				\usepackage{amsmath}
+L244: 				\usepackage{wasysym} 
+L245: 				\usepackage{amsfonts} 
+L246: 				\usepackage{amssymb} 
+L247: 				\usepackage{amsbsy}
+L248: 				\usepackage{mathrsfs}
+L249: 				\usepackage{upgreek}
+L250: 				\setlength{\oddsidemargin}{-69pt}
+L251: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during moderate-intensity exercise was reduced 2.5 h after nitrate ingestion and this was maintained after 5 and 15 days of continued supplementation. The peak power output was higher than the other conditions after 15 days of supplementation. Values are mean ± SD.  * Significantly different from the non-supplemented control condition ( p   <  0.05);  # significantly different from the placebo condition ( p   <  0.05).  BL  baseline,  \documentclass[12pt]{minimal}
+L252: 				\usepackage{amsmath}
+L253: 				\usepackage{wasysym} 
+L254: 				\usepackage{amsfonts} 
+L255: 				\usepackage{amssymb} 
+L256: 				\usepackage{amsbsy}
+L257: 				\usepackage{mathrsfs}
+L258: 				\usepackage{upgreek}
+L259: 				\setlength{\oddsidemargin}{-69pt}
+L260: 				\begin{document}$$\dot{V}{\sc {O_2}}$$\end{document} V ˙ O 2  oxygen uptake
+L261: In addition to nitrate, beetroot juice also contains other compounds that may be independently bioactive or that may act synergistically with nitrate, including antioxidants (betaine and vitamins) and the polyphenols, resveratrol and quercetin [ 45 ]. An important scientific development was therefore the creation of a nitrate-depleted beetroot juice placebo that was used first in the study of Lansley et al. [ 46 ]. In that study, nine healthy subjects consumed 0.5 l of beetroot juice/day (6.2 mmol of nitrate) or the same volume of placebo (<0.005 mmol of nitrate) for 6 days and completed treadmill and knee-extension exercise tests on days 4–6. The oxygen cost of treadmill walking and moderate-intensity treadmill running were significantly reduced. During high-intensity running, beetroot juice supplementation resulted in an enhanced exercise tolerance of 15 % (7.5 ± 1.7, 7.6 ± 1.5, and 8.7 ± 1.8 min for pre-supplemented control, placebo, and beetroot juice conditions, respectively). The time to exhaustion during incremental knee-extension exercise was also significantly longer following nitrate supplementation (8.2 ± 0.9, 8.2 ± 0.9, and 8.5 ± 0.8 min for pre-supplemented control, placebo, and beetroot juice conditions, respectively). The lack of effect of nitrate-depleted beetroot juice consumption on plasma [nitrite], blood pressure, the oxygen cost of exercise, and exercise tolerance in this study point clearly to the nitrate content, per se, being chiefly responsible for the physiological effects of beetroot juice consumption.
+L262: Effects on Exercise Performance
+L263: It is important to recognize that, while valuable scientifically, the time to exhaustion or incremental tests used in the early nitrate supplementation studies [ 39 ,  41 ,  42 ,  44 ,  46 ] are tests of exercise capacity rather than exercise performance. ‘Real-world’ competitive sport typically requires that athletes complete a given distance in the shortest possible time. It is also important to note that the effect size in time to exhaustion tests is considerably greater than in time trials. For example, a 15 % improvement in time to exhaustion following a given intervention might be expected to translate into a 1 % improvement in time trial performance over an equivalent duration [ 47 ]. Although seemingly small, such an effect would be highly meaningful in performance terms to an elite athlete.
+L264: Recognizing the importance of evaluating the influence of dietary nitrate supplementation on exercise performance, Lansley et al. [ 48 ] asked nine club-level male cyclists (mean  \documentclass[12pt]{minimal}
+L265: 				\usepackage{amsmath}
+L266: 				\usepackage{wasysym} 
+L267: 				\usepackage{amsfonts} 
+L268: 				\usepackage{amssymb} 
+L269: 				\usepackage{amsbsy}
+L270: 				\usepackage{mathrsfs}
+L271: 				\usepackage{upgreek}
+L272: 				\setlength{\oddsidemargin}{-69pt}
+L273: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 56 ml/kg per minute) to complete both a 4-km and a 16.1-km time trial on a cycle ergometer following the acute consumption of 0.5 l of beetroot juice (6.2 mmol of nitrate) or nitrate-depleted beetroot juice as a placebo. Because acute nitrate ingestion had previously been shown to reduce steady-state  \documentclass[12pt]{minimal}
+L274: 				\usepackage{amsmath}
+L275: 				\usepackage{wasysym} 
+L276: 				\usepackage{amsfonts} 
+L277: 				\usepackage{amssymb} 
+L278: 				\usepackage{amsbsy}
+L279: 				\usepackage{mathrsfs}
+L280: 				\usepackage{upgreek}
+L281: 				\setlength{\oddsidemargin}{-69pt}
+L282: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  [ 44 ], the beverages were consumed 2.5 h before the commencement of the time trials. Given that nitrate supplementation reduces  \documentclass[12pt]{minimal}
+L283: 				\usepackage{amsmath}
+L284: 				\usepackage{wasysym} 
+L285: 				\usepackage{amsfonts} 
+L286: 				\usepackage{amssymb} 
+L287: 				\usepackage{amsbsy}
+L288: 				\usepackage{mathrsfs}
+L289: 				\usepackage{upgreek}
+L290: 				\setlength{\oddsidemargin}{-69pt}
+L291: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  for the same fixed power output [ 35 ,  39 ,  44 ], the authors hypothesized that, during a time trial, the cyclists would be able to produce a higher power output for the same  \documentclass[12pt]{minimal}
+L292: 				\usepackage{amsmath}
+L293: 				\usepackage{wasysym} 
+L294: 				\usepackage{amsfonts} 
+L295: 				\usepackage{amssymb} 
+L296: 				\usepackage{amsbsy}
+L297: 				\usepackage{mathrsfs}
+L298: 				\usepackage{upgreek}
+L299: 				\setlength{\oddsidemargin}{-69pt}
+L300: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  and thus complete the distance in less time. Consistent with the experimental hypothesis,  \documentclass[12pt]{minimal}
+L301: 				\usepackage{amsmath}
+L302: 				\usepackage{wasysym} 
+L303: 				\usepackage{amsfonts} 
+L304: 				\usepackage{amssymb} 
+L305: 				\usepackage{amsbsy}
+L306: 				\usepackage{mathrsfs}
+L307: 				\usepackage{upgreek}
+L308: 				\setlength{\oddsidemargin}{-69pt}
+L309: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during the time trials was not significantly different between the treatments, but beetroot juice significantly increased the mean power output during the 4- and 16.1-km time trials. Consequently, compared with placebo, beetroot juice significantly improved 4-km performance (2.8 %) and 16.1-km performance (2.7 %).
+L310: Cermak et al. [ 49 ] also examined the influence of nitrate supplementation on cycle time trial performance. These authors tested the effect of 6 days of concentrated beetroot juice ingestion (8 mmol nitrate/day) on 10-km cycle time trial performance in 12 trained male cyclists (mean  \documentclass[12pt]{minimal}
+L311: 				\usepackage{amsmath}
+L312: 				\usepackage{wasysym} 
+L313: 				\usepackage{amsfonts} 
+L314: 				\usepackage{amssymb} 
+L315: 				\usepackage{amsbsy}
+L316: 				\usepackage{mathrsfs}
+L317: 				\usepackage{upgreek}
+L318: 				\setlength{\oddsidemargin}{-69pt}
+L319: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 58 mL/kg per minute). After supplementation on the 6th day, the subjects completed 60 min of submaximal cycling (2 × 30 min at 45 and 65 % of peak power output), followed by a 10-km time trial. Time trial performance (15.9 ± 0.3 vs. 16.1 ± 0.3 min) and power output (294 ± 12 vs. 288 ± 12 W) were significantly improved after beetroot juice compared with placebo supplementation. Submaximal  \documentclass[12pt]{minimal}
+L320: 				\usepackage{amsmath}
+L321: 				\usepackage{wasysym} 
+L322: 				\usepackage{amsfonts} 
+L323: 				\usepackage{amssymb} 
+L324: 				\usepackage{amsbsy}
+L325: 				\usepackage{mathrsfs}
+L326: 				\usepackage{upgreek}
+L327: 				\setlength{\oddsidemargin}{-69pt}
+L328: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  was significantly lower (5 %) after beetroot juice than after placebo at both 45 and 65 % of peak power output. Whole-body fuel selection and plasma lactate, glucose, and insulin concentrations did not differ between treatments. Collectively, these studies suggest that both acute [ 48 ] and more chronic [ 49 ] dietary nitrate supplementation improves cycle efficiency and time trial performance, at least for events of approximately 5–30 min duration in trained but sub-elite cyclists ( \documentclass[12pt]{minimal}
+L329: 				\usepackage{amsmath}
+L330: 				\usepackage{wasysym} 
+L331: 				\usepackage{amsfonts} 
+L332: 				\usepackage{amssymb} 
+L333: 				\usepackage{amsbsy}
+L334: 				\usepackage{mathrsfs}
+L335: 				\usepackage{upgreek}
+L336: 				\setlength{\oddsidemargin}{-69pt}
+L337: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max  of approximately 53–63 ml/kg per minute).
+L338: Two other studies have reported positive effects of nitrate supplementation on exercise performance. Murphy et al. [ 50 ] reported that ‘recreationally fit’ adults completed a 5-km treadmill time trial faster ( p  = 0.06) following the consumption of 200 g baked beetroot (≥500 mg or ≥8 mmol nitrate) 75 min before exercise compared with consumption of cranberry relish as an eucaloric placebo. At 1.8 km into the 5-km run, the rating of perceived exertion was significantly lower and running speed over the last 1.8 km of the 5-km distance was 5 % faster in the beetroot trial. Bond et al. [ 51 ] tested the effect of 6 days of 0.5 l of beetroot juice or placebo consumption on six 500-m rowing ergometer performances in 14 well trained rowers. The authors concluded that beetroot juice supplementation conferred a likely benefit to mean repetition time compared with placebo (0.4 %, 95 % confidence limits ±1.0 %) and an almost certain benefit for repetitions 4–6 (1.7 %, 95 % confidence limits ±1.0 %).
+L339: Fig. 3 Influence of dietary nitrate ( black symbols ) and placebo ( white symbols ) supplementation on 50-mile cycling time trial performance. The  lines  in the  upper  part of the figure show the ratio of power output to  \documentclass[12pt]{minimal}
+L340: 				\usepackage{amsmath}
+L341: 				\usepackage{wasysym} 
+L342: 				\usepackage{amsfonts} 
+L343: 				\usepackage{amssymb} 
+L344: 				\usepackage{amsbsy}
+L345: 				\usepackage{mathrsfs}
+L346: 				\usepackage{upgreek}
+L347: 				\setlength{\oddsidemargin}{-69pt}
+L348: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  and the  bars  in the  lower  part of the figure show the split times taken to complete consecutive 10-mile splits. The power output to  \documentclass[12pt]{minimal}
+L349: 				\usepackage{amsmath}
+L350: 				\usepackage{wasysym} 
+L351: 				\usepackage{amsfonts} 
+L352: 				\usepackage{amssymb} 
+L353: 				\usepackage{amsbsy}
+L354: 				\usepackage{mathrsfs}
+L355: 				\usepackage{upgreek}
+L356: 				\setlength{\oddsidemargin}{-69pt}
+L357: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  ratio was higher for the 20- to 30-mile (* p  = 0.05) and 40- 50-mile (* p  < 0.05) splits, and the 40- to 50-mile split was completed in a faster time ( # 
+L358:  p  < 0.05) following nitrate supplementation compared with placebo. However, there was no significant difference in overall performance between treatments (beetroot juice 136.7 ± 5.6 vs. placebo 137.9 ± 6.4 min). Values are shown as mean ± SD.  \documentclass[12pt]{minimal}
+L359: 				\usepackage{amsmath}
+L360: 				\usepackage{wasysym} 
+L361: 				\usepackage{amsfonts} 
+L362: 				\usepackage{amssymb} 
+L363: 				\usepackage{amsbsy}
+L364: 				\usepackage{mathrsfs}
+L365: 				\usepackage{upgreek}
+L366: 				\setlength{\oddsidemargin}{-69pt}
+L367: 				\begin{document}$$\dot{V}{\sc {O_2}}$$\end{document} V ˙ O 2  oxygen uptake
+L368: More recently, several studies have reported no ergogenic effect of acute [ 52 – 54 ] or short-term [ 55 ] nitrate supplementation on exercise performance in highly trained endurance athletes ( \documentclass[12pt]{minimal}
+L369: 				\usepackage{amsmath}
+L370: 				\usepackage{wasysym} 
+L371: 				\usepackage{amsfonts} 
+L372: 				\usepackage{amssymb} 
+L373: 				\usepackage{amsbsy}
+L374: 				\usepackage{mathrsfs}
+L375: 				\usepackage{upgreek}
+L376: 				\setlength{\oddsidemargin}{-69pt}
+L377: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 60–70 ml/kg per minute). Wilkerson et al. [ 54 ] asked eight well trained cyclists to complete a 50-mile time trial 2.5 h following the consumption of 0.5 l of beetroot juice or placebo. There was no significant difference in time trial performance between treatments (beetroot juice 136.7 ± 5.6 vs. placebo 137.9 ± 6.4 min), although there was a tendency for the ratio of power output to  \documentclass[12pt]{minimal}
+L378: 				\usepackage{amsmath}
+L379: 				\usepackage{wasysym} 
+L380: 				\usepackage{amsfonts} 
+L381: 				\usepackage{amssymb} 
+L382: 				\usepackage{amsbsy}
+L383: 				\usepackage{mathrsfs}
+L384: 				\usepackage{upgreek}
+L385: 				\setlength{\oddsidemargin}{-69pt}
+L386: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  to be higher following nitrate supplementation (Fig.  3 ). An interesting feature of the study was the relatively small mean increase in plasma [nitrite] following nitrate ingestion compared with less well trained subjects and the suggestion of ‘responders’ and ‘non–responders’ to the treatment. There was a significant inverse correlation between the increased post-beverage plasma [nitrite] and the reduction in time trial completion time ( r  = −0.83,  p  = 0.01). The authors concluded that the high training status of the cyclists studied and/or the long duration and relatively low intensity of the 50-mile time trial might have reduced the potential for nitrate supplementation to improve performance. Fig. 3 Influence of dietary nitrate ( black symbols ) and placebo ( white symbols ) supplementation on 50-mile cycling time trial performance. The  lines  in the  upper  part of the figure show the ratio of power output to  \documentclass[12pt]{minimal}
+L387: 				\usepackage{amsmath}
+L388: 				\usepackage{wasysym} 
+L389: 				\usepackage{amsfonts} 
+L390: 				\usepackage{amssymb} 
+L391: 				\usepackage{amsbsy}
+L392: 				\usepackage{mathrsfs}
+L393: 				\usepackage{upgreek}
+L394: 				\setlength{\oddsidemargin}{-69pt}
+L395: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  and the  bars  in the  lower  part of the figure show the split times taken to complete consecutive 10-mile splits. The power output to  \documentclass[12pt]{minimal}
+L396: 				\usepackage{amsmath}
+L397: 				\usepackage{wasysym} 
+L398: 				\usepackage{amsfonts} 
+L399: 				\usepackage{amssymb} 
+L400: 				\usepackage{amsbsy}
+L401: 				\usepackage{mathrsfs}
+L402: 				\usepackage{upgreek}
+L403: 				\setlength{\oddsidemargin}{-69pt}
+L404: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  ratio was higher for the 20- to 30-mile (* p  = 0.05) and 40- 50-mile (* p  < 0.05) splits, and the 40- to 50-mile split was completed in a faster time ( # 
+L405:  p  < 0.05) following nitrate supplementation compared with placebo. However, there was no significant difference in overall performance between treatments (beetroot juice 136.7 ± 5.6 vs. placebo 137.9 ± 6.4 min). Values are shown as mean ± SD.  \documentclass[12pt]{minimal}
+L406: 				\usepackage{amsmath}
+L407: 				\usepackage{wasysym} 
+L408: 				\usepackage{amsfonts} 
+L409: 				\usepackage{amssymb} 
+L410: 				\usepackage{amsbsy}
+L411: 				\usepackage{mathrsfs}
+L412: 				\usepackage{upgreek}
+L413: 				\setlength{\oddsidemargin}{-69pt}
+L414: 				\begin{document}$$\dot{V}{\sc {O_2}}$$\end{document} V ˙ O 2  oxygen uptake
+L415: Consistent with these results, Cermak et al. [ 52 ] reported that trained cyclists (mean  \documentclass[12pt]{minimal}
+L416: 				\usepackage{amsmath}
+L417: 				\usepackage{wasysym} 
+L418: 				\usepackage{amsfonts} 
+L419: 				\usepackage{amssymb} 
+L420: 				\usepackage{amsbsy}
+L421: 				\usepackage{mathrsfs}
+L422: 				\usepackage{upgreek}
+L423: 				\setlength{\oddsidemargin}{-69pt}
+L424: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 60 ml/kg per minute,  n  = 20) did not cover more distance in a 1 h cycling time trial following the acute ingestion of concentrated beetroot juice (8.7 mmol nitrate) compared with placebo. Similarly, Peacock et al. [ 53 ] found that the consumption of 614 mg (~10 mmol) of potassium nitrate 2.5 h before exercise neither reduced submaximal  \documentclass[12pt]{minimal}
+L425: 				\usepackage{amsmath}
+L426: 				\usepackage{wasysym} 
+L427: 				\usepackage{amsfonts} 
+L428: 				\usepackage{amssymb} 
+L429: 				\usepackage{amsbsy}
+L430: 				\usepackage{mathrsfs}
+L431: 				\usepackage{upgreek}
+L432: 				\setlength{\oddsidemargin}{-69pt}
+L433: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during a low-intensity warm-up nor enhanced 5-km running performance compared with placebo in ten highly trained cross-country skiers ( \documentclass[12pt]{minimal}
+L434: 				\usepackage{amsmath}
+L435: 				\usepackage{wasysym} 
+L436: 				\usepackage{amsfonts} 
+L437: 				\usepackage{amssymb} 
+L438: 				\usepackage{amsbsy}
+L439: 				\usepackage{mathrsfs}
+L440: 				\usepackage{upgreek}
+L441: 				\setlength{\oddsidemargin}{-69pt}
+L442: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 70 ml/kg per minute). Using a 3-day nitrate supplementation protocol (10 mg/kg or 0.16 mmol/kg BM sodium nitrate/day), Bescós et al. [ 55 ] found no difference compared with placebo on 40-min cycle time trial performance in trained cyclists and triathletes (mean  \documentclass[12pt]{minimal}
+L443: 				\usepackage{amsmath}
+L444: 				\usepackage{wasysym} 
+L445: 				\usepackage{amsfonts} 
+L446: 				\usepackage{amssymb} 
+L447: 				\usepackage{amsbsy}
+L448: 				\usepackage{mathrsfs}
+L449: 				\usepackage{upgreek}
+L450: 				\setlength{\oddsidemargin}{-69pt}
+L451: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_{2{\text {max}}}$$\end{document} V ˙ O 2 max , 60 ml/kg per minute).
+L452: As noted by Wilkerson et al. [ 54 ], there are several reasons why both the training/aerobic fitness status of the subjects and the intensity of the exercise task might influence whether nitrate supplementation is ergogenic. Highly trained subjects are likely to have high NOS activity [ 56 ], which might render the nitrate–nitrite–NO pathway relatively less important for NO production. Moreover, highly trained subjects may have higher plasma [nitrite] values than sedentary or lesser trained subjects [ 57 ], such that the response to a standard dose of nitrate may be diminished. It should also be recalled that nitrite is reduced to NO in hypoxic (and acidic) conditions, in which NOS function is simultaneously compromised. Highly trained subjects would be expected to have greater skeletal muscle capillarization [ 58 ], perhaps minimizing any hypoperfusion of metabolically active tissue during exercise, and therefore reducing the requirement for NO production through the reduction of nitrite. For the same reason, low-intensity endurance exercise, in which skeletal muscle remains well oxygenated and pH does not fall significantly, would presumably not result in obligatory NO production from nitrite. Finally, recent evidence that nitrate supplementation may preferentially alter contractile function in type II fibers [ 59 ] would suggest that endurance athletes, who typically evince a low proportion of such fibers in the trained musculature [ 60 ], might experience a blunted physiological response to nitrate supplementation.
+L453: To date, the studies showing negligible effects of nitrate in elite athletes have used acute (2–3 h pre-performance [ 52 – 54 ]) or short-term (3 day [ 55 ]) supplementation protocols. In contrast, mechanistic studies (see Sect.  4 ), which have indicated that nitrate alters muscle contractile [ 59 ] and mitochondrial [ 61 ] proteins, employed longer (3–7 day) supplementation periods. This raises the possibility that longer-term supplementation and/or higher nitrate doses may be required to improve performance in elite athletes. Indeed, the results of Cermak et al. [ 49 ] and Vanhatalo et al. [ 44 ] suggest the possibility that longer-term supplementation may be more effective than acute supplementation for enhancing performance. There are anecdotal reports that beetroot juice supplementation was used extensively, and successfully, by members of several prominent national teams competing in a wide variety of sports at the 2012 London Olympic and Paralympic Games. Additional research is required into the ergogenic potential of nitrate supplementation in elite athletes.
+L454: Mechanisms
+L455: The mechanistic bases for the lower oxygen cost of exercise, implying improved muscle efficiency, and the enhanced exercise tolerance following dietary nitrate supplementation have been addressed in several recent studies [ 41 ,  59 ,  61 ]. Given the ubiquity and multifarious roles of NO in physiology, it is not surprising that there are several possible molecular explanations for the reported systemic effects of nitrate supplementation.
+L456: Bailey et al. [ 41 ] used  31 P-magnetic resonance spectroscopy to examine changes in skeletal muscle energetics following nitrate supplementation. Over the final 3 days of a 6-day supplementation period during which subjects consumed 0.5 l beetroot juice (5.1 mmol nitrate) or placebo/day, the subjects completed low- and high-intensity knee extensor exercise tests using a custom-built ergometer both in the exercise physiology laboratory (for measurement of pulmonary gas exchange) and within the bore of a superconducting magnet. During both low- and high-intensity exercise, pulmonary  \documentclass[12pt]{minimal}
+L457: 				\usepackage{amsmath}
+L458: 				\usepackage{wasysym} 
+L459: 				\usepackage{amsfonts} 
+L460: 				\usepackage{amssymb} 
+L461: 				\usepackage{amsbsy}
+L462: 				\usepackage{mathrsfs}
+L463: 				\usepackage{upgreek}
+L464: 				\setlength{\oddsidemargin}{-69pt}
+L465: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  was significantly reduced following nitrate supplementation, consistent with earlier reports [ 35 ,  39 ]. This reduction in  \documentclass[12pt]{minimal}
+L466: 				\usepackage{amsmath}
+L467: 				\usepackage{wasysym} 
+L468: 				\usepackage{amsfonts} 
+L469: 				\usepackage{amssymb} 
+L470: 				\usepackage{amsbsy}
+L471: 				\usepackage{mathrsfs}
+L472: 				\usepackage{upgreek}
+L473: 				\setlength{\oddsidemargin}{-69pt}
+L474: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  was associated with a sparing of intramuscular phosphocreatine concentration (PCr) and a blunting of the increases in adenosine diphosphate concentration (ADP) and inorganic phosphate (P i ) concentration. There was no difference in muscle pH between treatments at any time, indicating that there was no ‘compensatory’ increased contribution of anaerobic glycolysis to energy turnover as may be the case if, for example, nitrate supplementation had resulted in an inhibition of respiration [ 62 ,  63 ].
+L475: The results of Bailey et al. [ 41 ] were important in demonstrating that the reduction in the whole-body oxygen cost of exercise following nitrate supplementation is consequent to changes in muscle energy metabolism. The proportional sparing of  \documentclass[12pt]{minimal}
+L476: 				\usepackage{amsmath}
+L477: 				\usepackage{wasysym} 
+L478: 				\usepackage{amsfonts} 
+L479: 				\usepackage{amssymb} 
+L480: 				\usepackage{amsbsy}
+L481: 				\usepackage{mathrsfs}
+L482: 				\usepackage{upgreek}
+L483: 				\setlength{\oddsidemargin}{-69pt}
+L484: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  and PCr reported by Bailey et al. [ 41 ] indicated that nitrate supplementation may alter the energy (adenosine triphosphate [ATP]) cost of muscle power production. The authors suggested that this could occur by the possible effects of NO on the sarcoplasmic reticulum calcium (Ca 2+ ) ATPase or the actin-myosin ATPase [ 64 – 66 ]. A lower ATP cost of force production would blunt the changes in intramuscular substrates and metabolites that stimulate mitochondrial respiration (e.g. PCr, ADP, P i ) [ 67 ,  68 ], and could explain the lower oxygen cost of exercise. Interestingly, the depletion of muscle PCr and the accumulation of P i  and ADP have been linked with the process of muscle fatigue during high-intensity exercise [ 69 ]. The blunted changes in energy substrates and metabolites might therefore help to explain the improved exercise tolerance observed following nitrate supplementation. An alternative explanation for the coincident reductions in steady-state  \documentclass[12pt]{minimal}
+L485: 				\usepackage{amsmath}
+L486: 				\usepackage{wasysym} 
+L487: 				\usepackage{amsfonts} 
+L488: 				\usepackage{amssymb} 
+L489: 				\usepackage{amsbsy}
+L490: 				\usepackage{mathrsfs}
+L491: 				\usepackage{upgreek}
+L492: 				\setlength{\oddsidemargin}{-69pt}
+L493: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  and PCr is that nitrate supplementation simultaneously improves muscle oxygenation (thus sparing muscle PCr) [ 70 ] and improves mitochondrial efficiency (thus lowering  \documentclass[12pt]{minimal}
+L494: 				\usepackage{amsmath}
+L495: 				\usepackage{wasysym} 
+L496: 				\usepackage{amsfonts} 
+L497: 				\usepackage{amssymb} 
+L498: 				\usepackage{amsbsy}
+L499: 				\usepackage{mathrsfs}
+L500: 				\usepackage{upgreek}
+L501: 				\setlength{\oddsidemargin}{-69pt}
+L502: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2 ).
+L503: Evidence for positive effects of nitrate supplementation on both mitochondrial efficiency [ 61 ] and muscle contractile function [ 59 ] has recently been presented. Larsen et al. [ 61 ] asked 14 healthy volunteers to consume 0.1 mmol/kg BM/day of sodium nitrate or a placebo for 3 days, after which a muscle biopsy was taken and a submaximal exercise test was completed. Following nitrate supplementation, the expression of adenine nucleotide translocase (ANT), a protein involved in mitochondrial proton conductance, was reduced, thus reducing leak respiration and improving the efficiency of oxidative phosphorylation. Nitrate supplementation resulted in a 19 % increase in the mitochondrial P/O ratio (the amount of oxygen consumed per ATP produced), which was closely correlated ( r  = −0.80) with the reduction in whole-body  \documentclass[12pt]{minimal}
+L504: 				\usepackage{amsmath}
+L505: 				\usepackage{wasysym} 
+L506: 				\usepackage{amsfonts} 
+L507: 				\usepackage{amssymb} 
+L508: 				\usepackage{amsbsy}
+L509: 				\usepackage{mathrsfs}
+L510: 				\usepackage{upgreek}
+L511: 				\setlength{\oddsidemargin}{-69pt}
+L512: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during submaximal cycling. These results indicate that the reduced  \documentclass[12pt]{minimal}
+L513: 				\usepackage{amsmath}
+L514: 				\usepackage{wasysym} 
+L515: 				\usepackage{amsfonts} 
+L516: 				\usepackage{amssymb} 
+L517: 				\usepackage{amsbsy}
+L518: 				\usepackage{mathrsfs}
+L519: 				\usepackage{upgreek}
+L520: 				\setlength{\oddsidemargin}{-69pt}
+L521: 				\begin{document}$$\dot{V}{\sc{\text{O}}}_2$$\end{document} V ˙ O 2  during exercise following nitrate supplementation is related to a reduced leakage/slippage of protons across the inner mitochondrial membrane. The authors speculated that nitrate supplementation might result in an increased inhibition of cytochrome c oxidase by NO [ 62 ,  63 ], which might be sensed by the cell as mild hypoxia, initiating signaling mechanisms that result in a downregulation of ANT and improved mitochondrial efficiency. Interestingly, in contrast to 3 days of in vivo nitrate administration, the acute application of nitrite to isolated mitochondria in vitro had no acute effect on the P/O ratio. This finding suggests that several days of nitrate treatment may be required for the induction of changes in the expression of relevant mitochondrial proteins such as ANT.
+L522: However, the effects of nitrate supplementation on muscle function may not be confined to the mitochondria. Hernández et al. [ 59 ] have reported improvements in muscle Ca 2+  handling and contractile function in mice fed sodium nitrate in water for 7 days compared with age-matched controls that received water without added nitrate. In particular, in fast-twitch muscle fibers, nitrate supplementation increased myoplasmic free Ca 2+  concentration at stimulation frequencies from 20 to 150 Hz, effects that were related to the increased expression of calsequestrin 1 and the dihydropyridine receptor, proteins that are involved in Ca 2+  handling. These striking effects on intracellular Ca 2+  handling resulted in significantly increased contractile force at 50 Hz or less and a faster rate of force development at 100 Hz stimulation. There were no effects of nitrate supplementation on muscle proteins or contractile force in slow-twitch muscles. The authors concluded that dietary nitrate intake in humans may increase muscle function during normal movement. The results of Hernández et al. [ 59 ] are consistent with the suggestion of Bailey et al. [ 41 ] that the effects of nitrate on muscle efficiency may be explained, at least in part, by extramitochondrial mechanisms.
+L523: In addition to evoking these intracellular effects, there is recent evidence that nitrate supplementation might also enhance blood flow to contracting muscle. Ferguson et al. [ 71 ] fed beetroot juice (or a water placebo) to rats for 5 days, and then measured blood pressure and hind limb muscle blood flow during submaximal treadmill running. Exercising blood pressure and blood [lactate] were significantly lower following nitrate feeding, and there was a striking (38 %) increase in muscle blood flow between nitrate-fed and placebo-fed rats. The greater muscle blood flow was directed preferentially towards hind limb muscles expressing a high fraction of type II muscle fibers. Muscle oxygen delivery was therefore substantially elevated in the low oxidative, highly fatigable fibers, such that oxygen might be considered to be more appropriately distributed across and within the active muscles. This might be expected to reduce substrate-level phosphorylation, improve metabolic control and exercise efficiency, and be advantageous to performance [ 40 ]. In a subsequent study, the same authors reported that microvascular oxygen pressure fell less rapidly following the onset of electrically evoked contractions of the spinotrapezius muscle of rats fed beetroot juice compared with those fed water [ 72 ]. This is consistent with a greater oxygen driving pressure across the transition from rest to exercise. Those studies [ 71 ,  72 ] indicate that nitrate supplementation, which may reduce both the ATP and oxygen cost of muscle contraction [ 41 ,  59 ,  61 ], simultaneously increases muscle oxygen delivery. The net result is a higher ratio of oxygen delivery to oxygen utilization, which would be expected to reduce the muscle metabolic perturbation and be conducive to muscle fatigue resistance.
+L524: Practical Considerations
+L525: From the above review, it appears clear that dietary nitrate has the potential to reduce blood pressure, lower the oxygen cost of exercise, and, at least in some circumstances, enhance exercise capacity. However, very little is known about the nitrate intake that may optimize these positive effects while minimizing any potential risks to health. For example, while it is known that supplementation with approximately 5–9 mmol of nitrate/day for 1–15 days can elicit favorable effects on the physiological responses to exercise, the dose–response relationship has yet to be established. It should be emphasized that 5–9 mmol nitrate can readily be consumed within the normal diet and there is presently no evidence that additional nitrate intake produces greater benefits.
+L526: With regard to the effect of nitrate on indices of exercise performance in healthy volunteers, the literature appears consistent in showing that 2–6 days (or up to 15 days) of supplementation can increase indices of performance during high-intensity constant work-rate exercise and maximal incremental exercise [ 39 ,  41 ,  44 ,  46 ]. The effects of acute supplementation on performance are less consistent, with some studies showing a positive effect [ 33 ,  48 ,  50 ,  73 ] and others showing no effect [ 52 – 54 ,  74 ]. It is likely that the efficacy of acute nitrate supplementation will depend on several factors such as the age, health, diet, and fitness/training status (including muscle fiber type proportions, capillarization, and baseline plasma [nitrite]) of the subjects tested; the intensity, duration, and nature of the exercise task; and whether the exercise is performed in normoxia or hypoxia. Acute nitrate intake may rapidly influence vascular tone and peripheral tissue oxygenation [ 33 ,  44 ], but more time may be necessary to permit changes in mitochondrial and contractile proteins to influence exercise performance [ 59 ,  61 ]. Whether longer-term nitrate supplementation may support or augment (or even hinder) the physiological adaptations to training is presently unknown.
+L527: The duration of continuous maximal exercise for which nitrate appears to be ergogenic is in the range of 5–30 min [ 39 ,  41 ,  46 ,  48 – 51 ]. There is limited evidence that nitrate is beneficial for longer duration exercise (>40 min) performance, at least when administered acutely [ 52 ,  54 ,  55 ]. This may be related to the lower intensity of such exercise and the associated reduced likelihood of the development of local mismatching of perfusion to metabolic rate in muscle (i.e. loci that are relatively hypoxic and acidic). Whether nitrate supplementation may be ergogenic during very high-intensity continuous or intermittent exercise has not been systematically evaluated. However, two studies indicate that high-intensity intermittent exercise performance might be enhanced by nitrate supplementation [ 51 ,  73 ].
+L528: Nitrite and nitrate occur naturally in vegetables and are also added to cured and processed meats to ‘fix’ color and delay spoilage. The potential for the formation of nitrosamines in food has stimulated debate about the safety of ingested nitrite [ 75 ,  76 ]. There are only limited data on the effects of dietary nitrate supplementation by athletes on the production of nitrosamines. Larsen et al. [ 61 ] reported no difference in tyrosine nitration of skeletal muscle proteins between sodium nitrate (3 days at 0.1 mmol/kg BM/day) and placebo treatments, and Bescós et al. [ 55 ] found no difference in urinary nitrated protein levels between sodium nitrate (3 days at 10 mg/kg or 0.16 mmol/kg BM nitrate) and placebo treatments. It is pertinent to note that any possible harmful effect of nitrosation (which assumes the presence of secondary amines in the saliva or stomach) is very effectively inhibited [ 77 ] by the antioxidants that accompany nitrate in vegetables [ 45 ]. However, although nitrate itself is not toxic due to its limited and slow conversion to nitrite, there is the possibility of toxicity with the accidental or uncontrolled use of nitrite salts [ 78 ]. The expert consensus view is that nitrate supplementation with vegetable products such as beetroot juice is very unlikely to be harmful [ 78 ,  79 ]. Athletes wishing to explore the possible ergogenic properties of nitrate supplementation are therefore advised to use natural vegetable products for this purpose. Although unlikely, it is not known whether longer-term intake of high-nitrate vegetable products may be health damaging, and further longer-term studies are required before chronic supplementation can be recommended.
+L529: Conclusions
+L530: In summary, dietary nitrate supplementation appears to represent a promising new approach for enhancing aspects of the physiological response to exercise, such as muscle efficiency and oxygenation, which might augment performance. However, research is at an early stage and the precise conditions in which nitrate may be ergogenic have yet to be firmly established. For example, the efficacy of nitrate might well depend on factors such as the type of subject, including age, diet, and health and fitness status; the intensity, duration, and nature of the exercise challenge; and the dose applied and duration of the nitrate supplementation regimen. Time will tell.
+L531: 1. Moncada S Higgs A The  l -arginine–nitric oxide pathway N Engl J Med 1993 329 2002 2012 10.1056/NEJM199312303292706 7504210
+L532: 2. Bryan NS Nitrite in nitric oxide biology: cause or consequence? A systems-based review Free Radic Biol Med 2006 41 691 701 10.1016/j.freeradbiomed.2006.05.019 16895789
+L533: 3. Gladwin MT Schechter AN Kim-Shapiro DB The emerging biology of the nitrite anion Nat Chem Biol 2005 1 308 314 10.1038/nchembio1105-308 16408064
+L534: 4. Lundberg JO Carlström M Larsen FJ Roles of dietary inorganic nitrate in cardiovascular health and disease Cardiovasc Res 2011 89 525 532 10.1093/cvr/cvq325 20937740
+L535: 5. Lundberg JO Gladwin MT Ahluwalia A Nitrate and nitrite in biology, nutrition and therapeutics Nat Chem Biol 2009 5 865 869 10.1038/nchembio.260 19915529
+L536: 6. Lundberg JO Weitzberg E Gladwin MT The nitrate–nitrite–nitric oxide pathway in physiology and therapeutics Nat Rev Drug Discov 2008 7 156 167 10.1038/nrd2466 18167491
+L537: 7. Hord NG Tang Y Bryan NS Food sources of nitrates and nitrites: the physiologic contact for potential health benefits Am J Clin Nutr 2009 90 1 10 10.3945/ajcn.2008.27131 19439460
+L538: 8. Spiegelhalder B Eisenbrand G Preussmann R Influence of dietary nitrate on nitrite content of human saliva: possible relevance to in vivo formation of N-nitroso compounds Food Cosmet Toxicol 1976 14 545 548 10.1016/S0015-6264(76)80005-3 1017769
+L539: 9. Duncan C Dougall H Johnston P Chemical generation of nitric oxide in the mouth from the enterosalivary circulation of dietary nitrate Nat Med 1995 1 546 551 10.1038/nm0695-546 7585121
+L540: 10. Govoni M Jansson EA Weitzberg E The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash Nitric Oxide 2008 19 333 337 10.1016/j.niox.2008.08.003 18793740
+L541: 11. Dejam A Hunter CJ Schechter AN Emerging role of nitrite in human biology Blood Cells Mol Dis 2004 32 423 429 10.1016/j.bcmd.2004.02.002 15121102
+L542: 12. Lundberg JO Govoni M Inorganic nitrate is a possible source for systemic generation of nitric oxide Free Radic Biol Med 2004 37 395 400 10.1016/j.freeradbiomed.2004.04.027 15223073
+L543: 13. Webb AJ Patel N Loukogeorgakis S Acute blood pressure lowering, vasoprotective, and antiplatelet properties of dietary nitrate via bioconversion to nitrite Hypertension 2008 51 784 790 10.1161/HYPERTENSIONAHA.107.103523 18250365
+L544: 14. Cosby K Partovi KS Crawford JH Nitrite reduction to nitric oxide by deoxyhemoglobin vasodilates the human circulation Nat Med 2003 9 1498 1505 10.1038/nm954 14595407
+L545: 15. Shiva S Huang Z Grubina R Deoxymyoglobin is a nitrite reductase that generates nitric oxide and regulates mitochondrial respiration Circ Res 2007 100 654 661 10.1161/01.RES.0000260171.52224.6b 17293481
+L546: 16. Zhang Z Naughton D Winyard PG Generation of nitric oxide by a nitrite reductase activity of xanthine oxidase: a potential pathway for nitric oxide formation in the absence of nitric oxide synthase activity Biochem Biophys Res Commun 1998 249 767 772 10.1006/bbrc.1998.9226 9731211
+L547: 17. Modin A Björne H Herulf M Nitrite-derived nitric oxide: a possible mediator of ‘acidic-metabolic’ vasodilation Acta Physiol Scand 2001 171 9 16 11350258
+L548: 18. Richardson RS Noyszewski EA Kendrick KF Myoglobin O 2  desaturation during exercise. Evidence of limited O 2  transport J Clin Invest 1995 96 1916 1926 10.1172/JCI118237 7560083
+L549: 19. Stamler JS Meissner G Physiology of nitric oxide in skeletal muscle Physiol Rev 2001 81 209 237 11152758
+L550: 20. Shen W Xu X Ochoa M Role of NO in the regulation of oxygen consumption in conscious dogs Circ Res 1994 75 1086 1095 10.1161/01.RES.75.6.1086 7525103
+L551: 21. Lacerda ACR Marubayashi U Balthazar CH Evidence that brain nitric oxide inhibition increases metabolic cost of exercise, reducing running performance in rats Neurosci Lett 2006 393 260 263 10.1016/j.neulet.2005.09.076 16271831
+L552: 22. Kindig CA McDonough P Erickson HH Nitric oxide synthase inhibition speeds oxygen uptake kinetics in horses during moderate domain running Respir Physiol Neurobiol 2002 132 169 178 10.1016/S1569-9048(02)00068-X 12161330
+L553: 23. Boushel R Fuentes T Hellsten Y Opposing effects of nitric oxide and prostaglandin inhibition on muscle mitochondrial O 2  during exercise Am J Physiol 2012 303 R94 R100
+L554: 24. Heinonen I Saltin B Kemppainen J Skeletal muscle blood flow and oxygen uptake at rest and during exercise in humans: a pet study with nitric oxide and cyclooxygenase inhibition Am J Physiol 2011 300 H1510 H1517
+L555: 25. Jones AM Wilkerson DP Koppo K Inhibition of nitric oxide synthase by L-NAME speeds phase II pulmonary O 2  kinetics in the transition to moderate-intensity exercise in man J Physiol 2003 552 265 272 10.1113/jphysiol.2003.045799 12897178
+L556: 26. Allen JD Stabler T Kenjale A Plasma nitrite flux predicts exercise performance in peripheral arterial disease after 3 months of exercise training Free Radic Biol Med 2010 49 1138 1144 10.1016/j.freeradbiomed.2010.06.033 20620208
+L557: 27. Dreissigacker U Wendt M Wittke T Positive correlation between plasma nitrite and performance during high-intensive exercise but not oxidative stress in healthy men Nitric Oxide 2010 23 128 135 10.1016/j.niox.2010.05.003 20451646
+L558: 28. Rassaf T Lauer T Heiss C Nitric oxide synthase-derived plasma nitrite predicts exercise capacity Br J Sports Med 2007 41 669 673 10.1136/bjsm.2007.035758 17496072
+L559: 29. Totzeck M Hendgen-Cotta UB Rammos C Higher endogenous nitrite levels are associated with superior exercise capacity in highly trained athletes Nitric Oxide 2012 27 75 81 10.1016/j.niox.2012.05.003 22609879
+L560: 30. Larsen FJ Ekblom B Sahlin K Effects of dietary nitrate on blood pressure in healthy volunteers N Engl J Med 2006 355 2792 2793 10.1056/NEJMc062800 17192551
+L561: 31. Masschelein E Van Thienen R Wang X Dietary nitrate improves muscle but not cerebral oxygenation status during exercise in hypoxia J Appl Physiol 2012 113 736 745 10.1152/japplphysiol.01253.2011 22773768
+L562: 32. Vanhatalo A Fulford J Bailey SJ Dietary nitrate reduces muscle metabolic perturbation and improves exercise tolerance in hypoxia J Physiol 2011 589 5517 5528 21911616
+L563: 33. Kenjale AA Ham KL Stabler T Dietary nitrate supplementation enhances exercise performance in peripheral arterial disease J Appl Physiol 2011 110 1582 1591 10.1152/japplphysiol.00071.2011 21454745
+L564: 34. Presley TD Morgan AR Bechtold E Acute effect of a high nitrate diet on brain perfusion in older adults Nitric Oxide 2011 24 34 42 10.1016/j.niox.2010.10.002 20951824
+L565: 35. Larsen FJ Weitzberg E Lundberg JO Effects of dietary nitrate on oxygen cost during exercise Acta Physiol 2007 191 59 66 10.1111/j.1748-1716.2007.01713.x
+L566: 36. Poole DC Richardson RS Determinants of oxygen uptake. Implications for exercise testing Sports Med 1997 24 308 320 10.2165/00007256-199724050-00003 9368277
+L567: 37. Coyle EF Integration of the physiological factors determining endurance performance ability Exerc Sport Sci Rev 1995 23 25 63 10.1249/00003677-199500230-00004 7556353
+L568: 38. Jones AM Carter H The effect of endurance training on parameters of aerobic fitness Sports Med 2000 29 373 386 10.2165/00007256-200029060-00001 10870864
+L569: 39. Bailey SJ Winyard P Vanhatalo A Dietary nitrate supplementation reduces the O 2  cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans J Appl Physiol 2009 107 1144 1155 10.1152/japplphysiol.00722.2009 19661447
+L570: 40. Jones AM Grassi B Christensen PM Slow component of O 2  kinetics: mechanistic bases and practical applications Med Sci Sports Exerc 2011 43 2046 2062 10.1249/MSS.0b013e31821fcfc1 21552162
+L571: 41. Bailey SJ Fulford J Vanhatalo A Dietary nitrate supplementation enhances muscle contractile efficiency during knee-extensor exercise in humans J Appl Physiol 2010 109 135 148 10.1152/japplphysiol.00046.2010 20466802
+L572: 42. Larsen FJ Weitzberg E Lundberg JO Dietary nitrate reduces maximal oxygen consumption while maintaining work performance in maximal exercise Free Radic Biol Med 2010 48 342 347 10.1016/j.freeradbiomed.2009.11.006 19913611
+L573: 43. Bescós R Rodríguez FA Iglesias X Acute administration of inorganic nitrate reduces O 2peak  in endurance athletes Med Sci Sport Exerc 2011 43 10 1979 1986 10.1249/MSS.0b013e318217d439
+L574: 44. Vanhatalo A Bailey SJ Blackwell JR Acute and chronic effects of dietary nitrate supplementation on blood pressure and the physiological responses to moderate-intensity and incremental exercise Am J Physiol 2010 299 1121 1131
+L575: 45. Wootton-Beard PC Ryan L Combined use of multiple methodologies for the measurement of total antioxidant capacity in UK commercially available vegetable juices Plant Foods Hum Nutr 2012 67 142 147 10.1007/s11130-012-0287-z 22538528
+L576: 46. Lansley KE Winyard PG Fulford J Dietary nitrate supplementation reduces the O 2  cost of walking and running: a placebo-controlled study J Appl Physiol 2011 110 591 600 10.1152/japplphysiol.01070.2010 21071588
+L577: 47. Hopkins WG Hawley JA Burke LM Design and analysis of research on sport performance enhancement Med Sci Sports Exerc 1999 31 472 485 10.1097/00005768-199903000-00018 10188754
+L578: 48. Lansley KE Winyard PG Bailey SJ Acute dietary nitrate supplementation improves cycling time trial performance Med Sci Sports Exerc 2011 43 1125 1131 10.1249/MSS.0b013e31821597b4 21471821
+L579: 49. Cermak NM Gibala MJ van Loon LJ Nitrate supplementation’s improvement of 10-km time-trial performance in trained cyclists Int J Sport Nutr Exerc Metab 2012 22 64 71 22248502
+L580: 50. Murphy M Eliot K Heuertz RM Whole beetroot consumption acutely improves running performance J Acad Nutr Diet 2012 112 548 552 10.1016/j.jand.2011.12.002 22709704
+L581: 51. Bond H Morton L Braakhuis AJ Dietary nitrate supplementation improves rowing performance in well-trained rowers Int J Sport Nutr Exerc Metab 2012 22 251 256 22710356
+L582: 52. Cermak NM Res P Stinkens R No improvement in endurance performance following a single dose of beetroot juice Int J Sport Nutr Exerc Metab 2012 22 470 478 22805107
+L583: 53. Peacock O Tjonna AE James P Dietary nitrate does not enhance running performance in elite cross-country skiers Med Sci Sports Exerc 2012 44 2213 2219 10.1249/MSS.0b013e3182640f48 22874535
+L584: 54. Wilkerson DP Hayward GM Bailey SJ Influence of acute dietary nitrate supplementation on 50 mile time trial performance in well-trained cyclists Eur J Appl Physiol 2012 112 4127 4134 10.1007/s00421-012-2397-6 22526247
+L585: 55. Bescós R Ferrer-Roca V Galilea PA Sodium nitrate supplementation does not enhance performance of endurance athletes Med Sci Sports Exerc 2012 44 2400 2409 10.1249/MSS.0b013e3182687e5c 22811030
+L586: 56. McConell GK Bradley SJ Stephens TJ Skeletal muscle nNOS protein content is increased by exercise training in humans Am J Physiol 2007 293 R821 R828
+L587: 57. Poveda JJ Riestra A Salas E Contribution of nitric oxide to exercise-induced changes in healthy volunteers: effects of acute exercise and long-term physical training Eur J Clin Invest 1997 27 967 971 10.1046/j.1365-2362.1997.2220763.x 9395795
+L588: 58. Jensen L Bangsbo J Hellsten Y Effect of high intensity training on capillarization and presence of angiogenic factors in human skeletal muscle J Physiol 2004 557 571 582 10.1113/jphysiol.2003.057711 15020701
+L589: 59. Hernández A Schiffer TA Ivarsson N Dietary nitrate increases tetanic [Ca2+]i and contractile force in mouse fast-twitch muscle J Physiol 2012 590 3575 3583 10.1113/jphysiol.2012.232777 22687611
+L590: 60. Tesch PA Karlsson J Muscle fiber types and size in trained and untrained muscles of elite athletes J Appl Physiol 1985 59 1716 1720 4077779
+L591: 61. Larsen FJ Schiffer TA Borniquel S Dietary inorganic nitrate improves mitochondrial efficiency in humans Cell Metab 2011 13 149 159 10.1016/j.cmet.2011.01.004 21284982
+L592: 62. Brown GC Cooper CE Nanomolar concentrations of nitric oxide reversibly inhibit synaptosomal respiration by competing with oxygen at cytochrome oxidase FEBS Lett 1994 356 295 298 10.1016/0014-5793(94)01290-3 7805858
+L593: 63. Cleeter MW Cooper JM Darley-Usmar VM Reversible inhibition of cytochrome c oxidase, the terminal enzyme of the mitochondrial respiratory chain, by nitric oxide. Implications for neurodegenerative diseases FEBS Lett 1994 345 50 54 10.1016/0014-5793(94)00424-2 8194600
+L594: 64. Evangelista AM Rao VS Filo AR Direct regulation of striated muscle myosins by nitric oxide and endogenous nitrosothiols PLoS ONE 2010 5 e11209 10.1371/journal.pone.0011209 20585450
+L595: 65. Ishii T Sunami O Saitoh N Inhibition of skeletal muscle sarcoplasmic reticulum Ca 2+ -ATPase by nitric oxide FEBS Lett 1998 440 218 222 10.1016/S0014-5793(98)01460-4 9862458
+L596: 66. Viner RI Williams TD Schoneich C Nitric oxide-dependent modification of the sarcoplasmic reticulum Ca 2+ -ATPase: localization of cysteine target sites Free Radic Biol Med 2002 29 489 496 10.1016/S0891-5849(00)00325-7
+L597: 67. Mahler M First-order kinetics of muscle oxygen consumption, and equivalent proportionality between QO 2  and phosphorylcreatine level. Implications for the control of respiration J Gen Physiol 1985 86 135 165 10.1085/jgp.86.1.135 4031824
+L598: 68. Meyer RA Linear dependence of muscle phosphocreatine kinetics on total creatine content Am J Physiol 1989 257 C1149 C1157 2610252
+L599: 69. Allen DG Lamb GD Westerblad H Skeletal muscle fatigue: cellular mechanisms Physiol Rev 2008 88 287 332 10.1152/physrev.00015.2007 18195089
+L600: 70. Wilson DF Factors affecting the rate and energetics of mitochondrial oxidative phosphorylation Med Sci Sports Exerc 1994 26 37 43 10.1249/00005768-199405001-00213 8133736
+L601: 71. Ferguson SK Hirai DM Copp SW Impact of dietary nitrate supplementation via beetroot juice on exercising muscle vascular control in rats J Physiol 2013 591 547 557 10.1113/jphysiol.2012.243121 23070702
+L602: 72. Ferguson SK Hirai DM Copp SW Effects of nitrate supplementation via beetroot juice on contracting rat skeletal muscle microvascular oxygen pressure dynamics Respir Physiol Neurobiol 2013 187 250 255 10.1016/j.resp.2013.04.001 23584049
+L603: 73. Wylie LJ Mohr M Krustrup P Dietary nitrate supplementation improves team sport-specific intense intermittent exercise performance Eur J Appl Physiol 2013 113 1673 1684 10.1007/s00421-013-2589-8 23370859
+L604: 74. Christensen PM Nyberg M Bangsbo J Influence of nitrate supplementation on  V O 2  kinetics and endurance of elite cyclists Scand J Med Sci Sports 2013 23 e21 e31 10.1111/sms.12005 23020760
+L605: 75. Bryan NS Alexander DD Coughlin JR Ingested nitrate and nitrite and stomach cancer risk: an updated review Food Chem Toxicol 2012 50 3646 3665 10.1016/j.fct.2012.07.062 22889895
+L606: 76. Gilchrist M Winyard PG Benjamin N Dietary nitrate—good or bad? Nitric Oxide 2010 22 104 109 10.1016/j.niox.2009.10.005 19874908
+L607: 77. Mirvish SS Grandjean AC Reimers KJ Effect of ascorbic acid dose taken with a meal on nitrosoproline excretion in subjects ingesting nitrate and proline Nutr Cancer 1998 31 106 110 10.1080/01635589809514688 9770721
+L608: 78. Lundberg JO Larsen FJ Weitzberg E Supplementation with nitrate and nitrite salts in exercise: a word of caution J Appl Physiol 2011 111 616 617 10.1152/japplphysiol.00521.2011 21828255
+L609: 79. Jones AM Bailey SJ Vanhatalo A Reply to Lundberg, Larsen, and Weitzberg J Appl Physiol 2011 111 619 10.1152/japplphysiol.00614.2011 21828257
+L610: This article was published in a supplement supported by Gatorade Sports Science Institute. The supplement was guest edited by Lawrence L. Spriet who attended a meeting of the Gatorade Sports Science Institute (GSSI) expert panel in April 2012 and received honoraria from the GSSI, a division of PepsiCo, Inc., for his meeting participation and the writing of his manuscript. He has not received any honoraria for guest editing the supplement. L.L.S. selected peer reviewers for each paper and managed the process. Andrew Jones PhD attended a meeting of the Gatorade Sports Science Institute (GSSI) Expert Panel in April 2012 and received honoraria from the GSSI, a division of PepsiCo, Inc., for his meeting participation and the writing of this manuscript. The views expressed in this manuscript are those of the author and do not necessarily reflect the position or policy of PepsiCo, Inc. The author would like to thank James White Drinks Ltd. and Beet It Ltd. for supplying the beverages used in the studies conducted in his laboratory for free.
+[29ms]
+

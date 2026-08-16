@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_f9596f4b",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-02.results.csv"
+  ],
+  "completed_at": "2026-08-16T05:24:27.102536+00:00",
+  "elapsed_seconds": 0.3478779580909759,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:26.754637+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-02.export.attempt-01.stderr",
+  "stdout_bytes": 128,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-02.export.attempt-01.stdout"
+}

@@ -1,0 +1,183 @@
+{
+ "audit_decisions_version": "1",
+ "human_completion_required": false,
+ "operator": "Claude (agent operator) under standing autonomous-execution authorization; per-row verdicts from 13 independent adversarial audit agents (archived in scratchpad audit_v3_verdicts and the workflow journal), each failure re-verified by the operator against the authoritative source lines. PMC7923494 comparator check passes AFTER the s4 field patch recorded in data/patches/antiox-training-patches.json (source L56: control trained without supplementation; contrast eligible under the locked comparator definition). PMC3303472 was excluded at paper level (config audit_paper_exclusions) after operator verification of Methods L25.",
+ "decisions": [
+  {
+   "finding_id": "doc:PMC7923494:m_5ddb197d:0:eb485729",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC12384908:m_fa4362c0:3:d1d3884c",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC2129167:m_fa4362c0:1:97a033c7",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC6501222:m_fa4362c0:0:b090adb2",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC11373101:m_fa4362c0:0:6da86ff9",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": false,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": false
+   },
+   "error_codes": [
+    "comparator_wrong_arm",
+    "quote_lacks_stated_contrast"
+   ]
+  },
+  {
+   "finding_id": "doc:PMC12384908:m_fa4362c0:1:1455a07a",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC2129167:m_fa4362c0:2:7c0b1e65",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC6501222:m_fa4362c0:1:36100702",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC11373101:m_fa4362c0:1:6da86ff9",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC2129167:m_fa4362c0:0:5b2ec457",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC12384908:m_fa4362c0:0:1455a07a",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  },
+  {
+   "finding_id": "doc:PMC12384908:m_fa4362c0:2:d1d3884c",
+   "checks": {
+    "eligibility": true,
+    "atomicity": true,
+    "intervention": true,
+    "comparator": true,
+    "outcome": true,
+    "timepoint": true,
+    "direction": true,
+    "quote_support": true
+   },
+   "error_codes": []
+  }
+ ],
+ "anchor_results": {
+  "doc:PMC12384908": true,
+  "doc:PMC2129167": true
+ },
+ "anchor_notes": "Substance judgment per config: PMC12384908 pro-supplement functional increases captured (4 exact rows, between-group deltas quoted); PMC2129167 functional nulls captured (3 exact rows). Row-count drift traces to prompt version extraction-v3."
+}

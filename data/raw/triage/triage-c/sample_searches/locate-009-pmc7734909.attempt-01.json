@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "3",
+    "-e",
+    "The effects of resistance training with or without peanut protein supplementation on skeletal muscle and strength adaptations in older individuals"
+  ],
+  "completed_at": "2026-08-16T02:47:23.545878+00:00",
+  "elapsed_seconds": 1.2759586670435965,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:22.269916+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-009-pmc7734909.attempt-01.stderr",
+  "stdout_bytes": 794,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-009-pmc7734909.attempt-01.stdout"
+}

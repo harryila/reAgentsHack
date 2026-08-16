@@ -1,0 +1,823 @@
+L1: A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults
+L2: British Journal of Sports Medicine (2018)
+L3: Robert W Morton, Kevin T Murphy, Sean R McKellar, Brad J Schoenfeld, Menno Henselmans, Eric Helms, Alan A Aragon, Michaela C Devries, Laura Banfield, James W Krieger, Stuart M Phillips
+L4: 1 
+L5:  Department of Kinesiology ,  McMaster University ,  Hamilton ,  Canada
+L6: 2 
+L7:  Department of Health Sciences ,  Lehman College of CUNY ,  Bronx ,  New York ,  USA
+L8: 3 
+L9:  Bayesian Bodybuilding ,  Gorinchem ,  Netherlands
+L10: 4 
+L11:  Sport Performance Research Institute New Zealand, AUT University ,  Auckland ,  New Zealand
+L12: 5 
+L13:  California State University ,  Northridge ,  California ,  USA
+L14: 6 
+L15:  Department of Kinesiology ,  University of Waterloo ,  Waterloo ,  Canada
+L16: 7 
+L17:  Health Sciences Library ,  McMaster University ,  Hamilton ,  Canada
+L18: 8 
+L19:  Weightology, LLC ,  Issaquah ,  Washington ,  USA
+L20: Objective
+L21: We performed a systematic review, meta-analysis and meta-regression to determine if dietary protein supplementation augments resistance exercise training (RET)-induced gains in muscle mass and strength.
+L22: Data sources
+L23: A systematic search of Medline, Embase, CINAHL and SportDiscus.
+L24: Eligibility criteria
+L25: Only randomised controlled trials with RET ≥6 weeks in duration and dietary protein supplementation.
+L26: Design
+L27: Random-effects meta-analyses and meta-regressions with four a priori determined covariates. Two-phase break point analysis was used to determine the relationship between total protein intake and changes in fat-free mass (FFM).
+L28: Results
+L29: Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength—one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) and muscle size—muscle fibre cross-sectional area (CSA; 310 µm 2  (51, 570)) and mid-femur CSA (7.2 mm 2  (0.20, 14.30)) during periods of prolonged RET. The impact of protein supplementation on gains in FFM was reduced with increasing age (−0.01 kg (−0.02,–0.00), p=0.002) and was more effective in resistance-trained individuals (0.75 kg (0.09, 1.40), p=0.03). Protein supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains in FFM.
+L30: Summary/conclusion
+L31: Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults. Increasing age reduces and training experience increases the efficacy of protein supplementation during RET. With protein supplementation, protein intakes at amounts greater than ~1.6 g/kg/day do not further contribute RET-induced gains in FFM.
+L32: Review; 1506; 2314
+L33: hypertrophy; growth; supplement; whey; performance. leucine
+L34: Introduction
+L35: Resistance exercise training (RET) in combination with dietary protein supplementation is a common practice, in athletes and recreational exercisers alike, with the aim of enhancing RET-induced gains in muscle mass and strength. Recognised as a potent antisarcopenic stimulus, protein supplementation has also been advocated for ageing persons participating in RET. Despite a large volume of work in this area, narrative reviews 1–5  and even meta-analyses 6–12  yield conflicting results as to the actual effectiveness of protein supplementation to enhance RET-mediated gains in muscle mass and strength. This lack of agreement on the efficacy of protein supplementation 6–12  is likely due to the use of divergent study inclusion criteria and inclusion of subjects with differing: ages, training statuses, total protein intakes, protein sources and protein doses. Thus, an evidence-based answer to the main question of the efficacy of protein supplementation, while previously reported, 7  now appears to be controversial. 4
+L36: We conducted a meta-analysis that was more inclusive in nature than previous meta-analyses 6–12  to provide a broad, systematic and evidence-based assessment on whether protein supplementation can augment changes in relevant RET outcomes. We used meta-regression to evaluate the impact of important potentially mediating covariates that were decided a priori to the meta-analysis. The present meta-analysis includes more than double the number of studies and participants than the largest published comprehensive meta-analysis on protein supplementation during RET to date. 7ST1
+L37: We also undertook an additional rational, mechanism-based analysis that had the aim of answering the following question: is there a protein intake beyond which protein supplementation ceases to provide a measurable benefit in increasing muscle mass during RET? To answer this question, we recognised that the process of muscle protein synthesis (MPS), as the primary determinant of muscle hypertrophy, 13  shows a saturable dose-response relationship with increasing protein intake. 14  Since measures of MPS show good agreement with hypertrophy 13  we theorised that the effect of daily protein intake on RET-induced changes in muscle mass would show a dose-responsive relationship but that this would ultimately plateau.
+L38: Methods
+L39: Inclusion criteria
+L40: Any randomised controlled trials (RCTs) that combined a RET and protein supplement intervention were considered for this meta-analysis. Trials had to be at least six weeks in duration, participants had to be performing RET at least twice per week, and at least one group had to be given a protein supplement that was not co-ingested with other potentially hypertrophic agents (eg, creatine, β-HMB, or testosterone-enhancing compounds). Only trials with humans who were healthy and not energy-restricted were accepted. Manuscripts had to be original research (not a review or conference abstract) and be written in English.
+L41: Search strategy
+L42: A systematic search of the literature was conducted (LB) in Medline, Embase, CINAHL and SportDiscus, current to January 2017 (see online  supplementary appendix 1 ). As appropriate, a combination of keywords and subject headings was used for the following concepts: protein supplementation and resistance training or muscle strength. The original search yielded 3056 studies. Any overlooked trials were identified by consulting other reviews and meta-analyses on the subject and were added in manually (17 studies). After deduplication and screening for inclusion criteria, 155 articles were independently read/reviewed by three authors (RWM, KTM and SRM). A total of 49 RCTs were selected for inclusion in this meta-analysis ( figure 1 ).
+L43: Figure 1 PRISMA flow chart.
+L44: Data extraction
+L45: Predetermined relevant variables from each included study were gathered independently by three investigators (RWM, KTM and SRM). Relevant variables included those regarding the study design, details of the RET intervention, participant characteristics, protein supplement information, placebo/control information, performance outcomes, body composition outcomes and any other notable information (eg, sources of bias/conflict of interest). Where data were not presented in table or text and authors could not be reached, data were extracted using WebPlotDigitizer (Web Plot Digitizer, V.3.11. Texas, USA: Ankit Rohatgi, 2017) or calculated from baseline values and/or percentage change. Where there were any discrepancies between the three reviewers the manuscripts were revisited by all reviewers (RWM, KTM and SRM) and agreed on by discussion. We also conducted a post hoc reassessment of 10 randomly selected studies and compared the extracted results. 15  Coder drift was <10% in all cases for each investigator and inter-rater (RWM, KTM and SRM) reliability was excellent (>95%).
+L46: A total of 58 different body composition and 66 performance outcomes were extracted from the final 49 studies. 16–64  Primary outcomes were limited and amalgamated to include two different performance outcomes and four different body composition outcomes based on those most commonly reported in the 49 RCTs. Performance outcomes were: one-repetition-maximum strength (1RM; measured by any 1RM strength test) and maximum voluntary contraction (MVC; measured by both isokinetic and/or isometric contractions using a dynamometer with any muscle group/action). Body anthropometric and composition outcomes included: total body mass (TBM; measured by any scale); fat-free mass (FFM) and bone-free mass (or lean mass if FFM was not available; FFM; measured by dual-energy X-ray absorptiometry (DXA), hydrodensitometry,  or whole-body air plethysmography  (BodPod)); fat mass (FM; measured by DXA, hydrodensitometry and/or BodPod); muscle fibre cross-sectional area (CSA; measured in any fibre subtype (I, IIa, and/or IIx) obtained from either vastus lateralis and/or latissimus dorsi biopsies using microscopy); and mid-femur whole muscle CSA (mid-femur CSA, measured by MRI and/or CT).
+L47: Data syntheses
+L48: When data were reported in different units (eg, pounds vs kilograms) the data were converted to metric units. In all analyses the comparator group received an identical RET intervention but was non-supplemented or placebo-supplemented. If a study included a protein-supplemented group, a non-supplemented control group and a placebo-supplemented control group that were all part of the RET intervention, the protein-supplemented and placebo-supplemented groups were retrieved. If a study had multiple time points, only the preintervention and postintervention outcomes were retrieved. Where the change in SD (ΔSD) was available it was collected alongside the preintervention and postintervention SD. Where ΔSD was not reported, the correlation coefficient (corr) for each primary outcome was calculated according to the  Cochrane Handbook for Systematic Reviews of Interventions : 65
+L49: c o r r = ( S D p r e 2 + S D p o s t 2 − S D c h a n g e 2 ) / ( 2 × S D p r e × S D p o s t )
+L50: and the ΔSD was then calculated as:
+L51: Δ S D = ( S D p r e 2 + S D p o s t 2 − 2 × c o r r × S D p r e × S D p o s t ) .
+L52: The change in mean (ΔMean) and ΔSD were calculated for each condition and uploaded to RevMan (Review Manager (RevMan), V.5.3. Copenhagen: The Nordic Cochrane Centre, The Cochrane Collaboration, 2014). Where studies had more than one protein-supplemented group (eg, soy and whey), measure of MVC (eg, isokinetic and isometric) or measure of 1RM (eg, bench press and leg press) the ΔMean and ΔSD were independently calculated and later combined, unless otherwise stated, using the RevMan calculator (Review Manager (RevMan), V.5.3. Copenhagen: The Nordic Cochrane Centre, The Cochrane Collaboration, 2014).
+L53: Meta-analyses
+L54: Random-effects meta-analyses were performed in RevMan (Review Manager (RevMan), V.5.3. Copenhagen: The Nordic Cochrane Centre, The Cochrane Collaboration, 2014) on the change in each outcome. Effect sizes are presented as mean difference (MD) with means±SD and 95% CIs for 1RM, TBM, FFM, FM, fibre CSA and mid-femur CSA and as standardised mean difference (SMD) and 95% CIs for MVC because it had multiple outcomes presented on non-comparable scales (eg, N and Nm).
+L55: Heterogeneity and risk of bias
+L56: Heterogeneity was assessed by χ 2  and  I 
+L57:  2  and significance was set at p<0.05. The internal validity of each study was determined by domain-based evaluation to quantify risk of bias for each study 65  and was independently performed by three investigators (RWM, KTM and SRM). The data included in the meta-analyses were restricted to studies with less than three reported high or unclear risk domains (predominately due to reported conflicts of interest and lack of blinding investigators and/or participants; (see online  supplementary appendix 2 )). Funnel plots were visually inspected to determine publication bias. Multiple sensitivity analyses were performed to determine if any of the results were influenced by the studies that were removed.
+L58: Meta-regression
+L59: In an effort to understand the sources of heterogeneity meta-regressions were performed on 1RM, FFM and fibre CSA because they were statistically significant, had considerable unexplained heterogeneity ( I 2 ) and had a sufficient number of studies (≥10). Meta-regression was used instead of subgroup analyses to allow for the use of continuous covariates and to allow for the inclusion of more than one covariate at a time. Four covariates were chosen a priori to be included in our meta-regression: baseline protein intake (g/kg/day), postexercise protein dose (g), chronological age and training status because there is evidence that baseline protein intake, 66  protein dose, 14  age 67  and training status 68  could influence the efficacy of protein supplementation; summarised here. 4 5  These covariates were meta-regressed individually and together in a random-effects meta-regression model using Stata (StataCorp. 2011.  Stata Statistical Software: Release 12.  College Station, Texas, USA). The random-effects meta-regression used residual restricted maximum likelihood to measure between-study variance (τ 2 ) with a Knapp-Hartung modification as recommended. 69  When all four covariates were analysed together permutation tests were performed (n=1000) to address the issue of multiple testing by calculating adjusted p values. 70  Additional covariates were identified and individually analysed post hoc to further explore the unexplained variance of the effect of protein supplementation during RET on changes in 1RM and FFM. Continuous covariates were: MD in the change in protein intake (g/day), MD in the total relative protein intake (g/kg/day), number of repetitions/set, number of sets/exercise, number of exercises/session, number of sessions/week, number of weeks and total RET volume in kg: repetitions/set × sets/exercise × exercises/session × sessions/week × intervention duration in weeks. Categorical variables were: protein supplement source (whey vs soy), sex (male vs female), type (dietary-supplement vs RET-supplement), whole-body RET (whole-body RET vs not whole-body RET) and RET supervision (supervised vs not supervised). Protein supplement source was limited to soy and whey because there were few study groups that were provided either a casein (n=3 21 59 60 ) or pea (n=1 22 ) protein supplement exclusively.
+L60: Subgroup analyses
+L61: Subgroup analyses were performed in RevMan (Review Manager (RevMan), V.5.3. Copenhagen: The Nordic Cochrane Centre, The Cochrane Collaboration, 2014). Subgroup analyses were performed on changes in FFM and 1RM with training status (untrained vs trained) as the subgroup to generate forest plots and neatly present training status as a categorical variable. Subgroup analyses were also performed on changes in FFM with age categorised into subgroups (old (>45 years) and young (<45 years)) to be presented below for the interested reader.
+L62: Break point analysis
+L63: To investigate the influence of protein intake as a continuous variable on individual study arms (as opposed being limited to MDs between groups in a meta-regression) linear and segmental regressions on the change in FFM (measured by DXA) were plotted against daily and baseline protein intake. Linear and segmental regressions were performed using GraphPad Prism (V.6, GraphPad Software, La Jolla, California, USA) to determine models of best fit as has been previously done in acute tracer trials measuring MPS. 14  Where segmental regression was the preferred model the slope of the second line was set to zero to determine the break point (biphasic regression). Each group from each study that presented daily or baseline protein intake with changes in FFM from DXA was included. Significance was set at p<0.05 and data for the break point  is presented as mean (95% CI).
+L64: Results
+L65: Participant characteristics
+L66: Participant details and outcomes are presented elsewhere (see online  supplementary table 1 . A total of 49 studies from 17 countries met the inclusion criteria ( figure 1 ). There were 10 studies in resistance-trained participants and 14 study groups in exclusively female participants. Publications ranged from 1962 to 2016. There was a total of 1863 participants (mean±SD; 35±20 years).
+L67: RET characteristics
+L68: The RET characteristics are also presented elsewhere (see online  supplementary table 1) . The RET interventions lasted from 6 weeks to 52 weeks (13±8 weeks) performing RET between 2 days and 5 days per week (3±1 days/week) with between 1 to 14 exercises per session (7±3 exercises/session), 1 to 12 sets per exercise (4±2 sets/exercise) and anywhere between 3 to 25 repetitions per set (9±4 repetitions/set). Four studies used just lower-body RET, two studies used just knee extensor RET, one study used elbow flexor RET only, and two studies used one lower-body and one upper-body exercise only.
+L69: Protein supplementation
+L70: Details regarding the experimental (protein supplementation) and control (placebo- or no-supplement) groups are presented elsewhere (see online  supplementary table 2) . A range of 4 g to 106 g of protein was supplemented per day to the protein group (36±30 g/day; young: 42±32 g/day; old: 20±18 g/day) with a range of 5 g to 44 g of protein supplemented postexercise on training days (24±11 g; young: 24±12 g; old: 23±10 g). Twenty-three conditions supplemented with whey protein, 3 with casein protein, 6 with soy protein, 1 with pea protein, 10 with milk or milk protein, 7 with whole food (eg, beef, yogurt, between-meal snack) and 13 with non-specific protein blends or blends containing multiple protein sources (eg, whey, casein, soy and egg). In 40 studies the participants consumed part or all of their daily protein supplement after their RET sessions. In 36 studies with 48 different conditions authors reported either total (g/day) or relative (g/kg/day or %kcal/day) daily protein intake preintervention and/or postintervention. There was an increase in daily protein intake in the protein group (mean±SD; range: 23±41 g/day; −25 g/day to 158 g/day; p=0.004) and no change in the control group (1±14 g/day; −17 g/day to 40 g/day; p=0.83) such that the change in daily protein intake was significantly greater in the protein group (p=0.01). Relative daily protein intake (g/kg/day) increased in the protein group (pre: 1.4±0.4, post: 1.8±0.7, Δ: 0.3±0.5 g/kg/day, p=0.002) and did not change in the control group (pre: 1.4±0.3, post: 1.3±0.3, Δ: −0.02±0.1 g/kg/day, p=0.48) such that there was a greater change in the protein group (p<0.001). Daily energy intake (kcal/day) was gathered from 23 studies with 29 conditions and did not change with the prolonged RET and protein supplementation nor was it significantly different between the protein or control groups (Δ protein group: 50±293 kcal/day, Δ control group: 70±231 kcal/day, p=0.71).
+L71: Heterogeneity and risk of bias
+L72: Significant heterogeneity was found for changes in 1RM (χ 2 =53.49,  I 2 =33%, p=0.003) and fibre CSA (χ 2 =30.97,  I 2 =68%, p=0.0006). Nine studies were removed based on risk of bias 17 18 25 26 50 63  (see online  supplementary appendix 2 ) or publication bias assessment 24 32 64  (see online  supplementary figure 1 ). In particular, four studies were removed from 1RM, 17 26 32 50  four from TBM, 17 18 63 64  three from FM, 17 18 63  five from FFM, 17 18 24 63 64  three from MVC 25 26 50  and one from fibre CSA. 50
+L73: Sensitivity analyses
+L74: Sensitivity analysis was performed with the nine high-risk studies mentioned above included in the outcomes they were removed from to determine if their removal changed any of the results. The inclusion of those studies did not influence the difference in means or significance in 1RM, TBM, FFM or mid-femur CSA; however, when Mitchell  et al 
+L75:  50  was included in the fibre CSA assessment the effect of protein supplementation (310 µm 2  (51, 570), p=0.02) was eliminated (153 µm 2  (−137, 443), p=0.30). This is likely due to the small number of studies that included muscle biopsies but may warrant caution when interpreting the effect of protein supplementation on changes fibre CSA during RET. In no instance did fixed-effect meta-analysis deliver a different magnitude of effect or significance compared with random-effect meta-analysis.
+L76: Meta-analyses
+L77: Protein supplementation during prolonged RET significantly improved gains in 1RM strength (MD: 2.49 kg (0.64, 4.33), p=0.01;  figure 2 ) but had no effect on MVC (SMD: 0.04 (-0.09, 0.16), p=0.54). Protein supplementation did not have a significant effect on changes in TBM (MD: 0.11 kg (−0.23, 0.46), p=0.52) but improved changes in FFM (MD: 0.30 kg (0.09, 0.52), p=0.007;  figure 3 ), FM (MD: −0.41 kg (−0.70,–0.13), p=0.005), fibre CSA (MD: 310 µm 2  (51, 570), p=0.02; see online  supplementary figure 2 : panel A) and mid-femur CSA (MD: 7.2 mm 2  (0.20, 14.30), p=0.04; see online  supplementary figure 2 : panel B) during prolonged RET.
+L78: Figure 2 Forest plot of the results from a random-effects meta-analysis shown as mean difference with 95% CIs on one-repetition-maximum (1 RM; kg) in untrained and trained participants. For each study, the circle represents the mean difference of the intervention effect with the horizontal line intersecting it as the lower and upper limits of the 95% CI. The size of each circle is indicative of the relative weight that study carried in the meta-analysis. The rhombi represent the weighted untrained, trained and total group’s mean difference. Total: 2.49 kg (0.64, 4.33), p=0.01, untrained: 0.99 kg (−0.27, 2.25), p=0.12 and trained: 4.27 kg (0.61, 7.94), p=0.02.
+L79: Figure 3 Forest plot of the results from a random-effects meta-analysis shown as mean difference with 95% CIs on lean or fat-free mass (FFM; kg) in untrained and trained participants. For each study, the circle represents the mean difference of the intervention effect with the horizontal line intersecting it as the lower and upper limits of the 95% CI. The size of each circle represents the relative weight that study carried in the meta-analysis. The rhombi represent the weighted untrained, trained and total group’s mean difference. Total: 0.30 kg (0.09, 0.52) p=0.007, untrained: 0.15 kg (−0.02, 0.31), p=0.08 and trained: 1.05 kg (0.61, 1.50), p<0.0001.
+L80: Meta-regression.
+L81: The results from the full model meta-regressions are presented in  table 1 . When combined, baseline protein intake, protein dose, age and training status did not explain any of the variance in the changes in 1RM (15 studies, 1216 subjects, p=0.77) or FFM (15 studies, 642 participants, p=0.12). There were insufficient observations (<10) when all covariates were compared with the changes in fibre CSA.
+L82: Table 1 Meta-regression output
+L83: Univariate meta-regressions on changes in 1RM and FFM following prolonged RET are also presented in  table 1 . None of our covariates explained any of the heterogeneity of protein supplementation’s effect on changes in 1RM: baseline protein intake (21 studies, 814 participants, p=0.59), age (27 studies, 802 participants, p=0.78), training status (28 studies, 858 participants, p=0.40) and post-exercise protein dose (23 studies, 589 participants, p=0.13). In contrast, when the ability of protein supplementation to affect changes in FFM was evaluated with univariate meta-regressions, the postexercise protein dose was the only covariate that did not influence the efficacy of protein supplementation on changes in FFM (20 studies, 793 participants, p=0.25) whereas baseline protein intake (22 studies, 988 participants, p=0.045; see online  supplementary figure 3 : panel A), age (25 studies, 1033 participants, p=0.02;  figure 4 ) and training status (26 studies, 1089 participants, p=0.03) all influenced the effect of protein supplementation. When the effect of protein supplementation on changes in FFM was evaluated with age stratified into two subgroups the difference between old (>45; 67±7 years; MD: 0.06 (-0.14, 0.26)) and young (<45; 24±4 years; MD: 0.55 (0.30, 0.81)) participants remained significant (χ 2 =8.71,  I 2 =89%, p=0.003). There were no covariates that explained any of the variance in the change in fibre CSA following RET: age (10 studies, 474 participants,  I 2 =65%, Adj. R 2 =-3%, p=0.50), baseline protein intake (8studies, 384 participants,  I 2 =43%, Adj. R 2 =-44%, p=0.84), postexercise protein dose (10 studies, 270 participants,  I 2 =77%, Adj. R 2 =-38%, p=0.92) and training status (11 studies, 586 participants,  I 2 =71%, Adj. R 2 =-24%, p=0.94).
+L84: Figure 4 Random-effects univariate meta-regression between age and the mean difference in fat-free mass (FFM) between groups. Each circle represents a study and the size of the circle reflects the influence of that study on the model (inversely proportionate to the SE of that study). The regression prediction is represented by the solid line (−0.01 kg (−0.02,–0.00), p=0.02).
+L85: Additional univariate meta-regressions are presented in elsewhere (see online  supplementary table 3 ). Only whether the RET was whole-body (27 studies, including only 4 studies that were not whole-body RET,  I 2 =2%, Adj. R 2 =76%, p=0.01) or supervised (28 studies,  I 2 =5%, Adj. R 2 =58%, p=0.047) explained part of the variance in the effectiveness of protein supplementation on changes in 1RM. No other covariates explained any of the variance associated with the efficacy of protein supplementation on changes in 1RM or FFM.
+L86: Break point analysis
+L87: Biphasic regression (42 study arms, 723 participants) explained more variation than a linear regression between the change in FFM and daily protein intake (break point=1.62 (1.03, 2.20) g/kg/day, slope=1.75, R 2 =0.19, df=36) and is presented as a segmental regression despite not being statistically significant (p=0.079; figure 5 ) When plotting the change in FFM against baseline protein intake, linear regressions explained significantly more variance than biphasic regressions in both young (slope=−1.54 g/kg/day, R 2 =0.17, df=34) and old (slope=0.16 g/kg/day, R 2 =0.04, df=14) participants with a statistically significant difference between age groups (p=0.042; see online  supplementary figure 3 : panel D).
+L88: Figure 5 Segmental linear regression between relative total protein intake (g/kg body mass/day) and the change in fat-free mass (ΔFFM) measured by dual energy X-ray absorptiometry. Each circle represents a single group from a study. Dashed arrow indicates the break point=1.62 g protein/kg/day, p=0.079. Solid arrow indicates 95% CI, (1.03 to 2.20).
+L89: Discussion
+L90: This is the largest meta-analysis on interventions including dietary protein supplementation with muscle and strength-related outcomes during prolonged RET to date. Our main finding was that dietary protein supplementation augmented RET-induced increases in 1RM strength ( figure 2 ) and FFM ( figure 3 ). For changes in FFM, dietary protein supplementation was more effective in resistance-trained individuals ( table 1  and  figure 3 ), less effective with increasing chronological age ( table 1  and  figure 4 ) and did not increase beyond total protein intakes of ~1.6 g/kg/day ( figure 5 ). Our data show dietary protein supplementation is both sufficient and necessary to optimise RET adaptations in muscle mass and strength.
+L91: Previous meta-analyses 6–12  have reached varying conclusions when examining the impact of protein supplementation on changes in lean mass or FFM and 1RM strength during RET. The discrepancies are likely a consequence of differing study inclusion criteria. For example, previous meta-analyses have included only trained participants, 8  only older adults, 9 11  supplements containing more than just protein, 8 10  only one source of protein, 8 12  shorter RET interventions, 10 12  frail/sarcopenic participants 7 9 11  and/or participants who were energy-restricted. 6 7 12  Previously, the largest comprehensive meta-analysis to date on protein supplementation during RET included 22 studies and 680 participants 7  and did show a significant effect of protein supplementation on RET-stimulated gains in strength and FFM. In agreement with this previous report, 7  and strengthening the conclusion of that same report by including 49 studies and 1863 participants, we show that protein supplementation augmented gains in FFM and strength with RET.
+L92: Strength
+L93: The average RET-induced increase, with all measures of 1RM included, was 27 kg (mean±SD; 27±22 kg 22 32 ). Notably, dietary protein supplementation augmented the increase in 1RM strength by 2.49 kg (9%;  figure 2 ; see online  supplementary figure 4 ), which strongly suggests that the practice of RET is a far more potent stimulus for increasing muscle strength than the addition of dietary protein supplementation. None of our covariates (age, training status, postexercise protein dose or baseline protein intake) influenced the efficacy of protein supplementation on changes in 1RM strength. Improving performance of a specific task (eg, the 1RM of an exercise) is predominately determined by the practice of that task. 71  Though protein supplementation may slightly augment changes in 1RM (~9%), which may be important for those competing in powerlifting or weightlifting, it is pragmatic to advocate that if an increase in 1RM is the objective of an RET programme, a sufficient amount of work and practice at or around the 1RM is far more influential than protein supplementation.
+L94: Muscle mass
+L95: In addition to increasing changes in muscle strength, RET alone (≥6; 13±8 weeks) resulted in an increase in FFM (1.1±1.2 kg), an increase in fibre CSA (808±) and an increase in mid-femur CSA (52±30 mm 2 ). Dietary protein supplementation augmented the increase in FFM by 0.30 kg (27%;  figure 3 ; see online  supplementary figure 4 ), fibre CSA by 310 µm 2  (38%; see online  supplementary figure 2 : panel A) and mid-femur CSA by 7.2 mm 2  (14%; see online  supplementary figure 2 : panel B). The postexercise protein dose did not affect the efficacy of protein supplementation on RET-induced changes in FFM whereas training status (positive), age (negative) and baseline protein intake (positive) did. Relative to untrained participants, resistance-trained participants have a smaller potential for muscle growth 72  and an attenuated postexercise muscle protein turnover. 73  As a result, we speculate that trained persons may have less ‘degrees of freedom’ to change with RET and therefore have a greater need for protein supplementation to see increases in muscle mass. Our thesis is supported by the observation of a more consistent impact of protein supplementation on gains in FFM in resistance-trained individuals than in novice trainees ( figure 3 ).
+L96: Older individuals are anabolically resistant 74  and require higher per-meal protein doses to achieve similar rates of MPS, the primary variable regulating changes in skeletal muscle mass, 75  compared with younger participants. 14  The average supplemental daily protein dose given to older participants was surprisingly low (20±18 g/day); thus, it is perhaps not surprising that we did not find that older individuals were responsive to protein supplementation ( figure 4 ). Though age did not affect the RET-induced change in fibre CSA, the negative effect age had on changes in FFM leads us to speculate that even though exercise sensitises muscle to the effect of protein ingestion, 3  older persons have an increased need for higher protein intakes to optimally respond to this effect and see gains in FFM. 76
+L97: It has been theorised that the increased deviation from normal protein intake (g/kg/day) will positively affect the RET-induced gains in FFM. 77  Contrary to this thesis, we found that a higher prestudy protein intake actually resulted in a greater effect of protein supplementation on changes in FFM ( table 1 ); however, this was likely driven by the lower mean baseline protein intake (old: 1.2±0.2 g/kg/day, young: 1.5±0.4 g/kg/day) and daily protein dose (old: 20±18 g/day, young: 42±32 g/day) in the studies that included older participants (see online  supplementary figure 3 : panel B and D). Indeed, a sensitivity analysis that did not include older (>45; 65±14 years) versus younger (<45; 24±4 years) individuals found that baseline protein intake had no effect on the efficacy of protein supplementation in young individuals (see online  supplementary figure 3 , panel C). In an unadjusted meta-regression analysis, a higher baseline protein intake in young individuals actually attenuated the change in FFM (see online  supplementary figure 3 , panel D).
+L98: A goal of this meta-analysis was to deliver evidence-based recommendations that could be readily translated. A crucial point is that even though the mean baseline protein intake for the 1863 participants was ~1.4 g protein/kg/day, which is 75% greater than the current US/Canadian recommended dietary allowance (RDA), 78  an average supplementation of ~35 g protein/day still augmented RET-stimulated gain in FFM ( figure 3 ) and 1RM strength ( figure 2 ). Thus, consuming protein at the RDA of 0.8 g protein/kg/day appears insufficient for those who have the goal of gaining greater strength and FFM with RET. This conclusion is emphasised for older men 79  and women 80 81  wishing to obtain strength and gain lean mass with RET and protein supplementation.
+L99: A recent retrospective analysis showed a ‘breakpoint’ for the stimulation of MPS when ingesting an isolated protein source at 0.24 g protein/kg and 0.40 g protein/kg in younger and older participants, respectively. 14  Given the observation of a dose-responsive relationship between protein intake and MPS 82–85  and the fact that MPS is aligned with muscle hypertrophy, 13  we elected to use an identical two-segment regression approach between total daily protein intake and changes in FFM ( figure 5 ) as has been done for changes in protein dose and MPS. 14  Here we provide significant insight (using 42 study arms including 723 young and old participants with protein intakes ranging from 0.9 g protein/kg/day to 2.4 g protein/kg/day) by reporting an unadjusted plateau in RET-induced gains in FFM at 1.62 g protein/kg/day (95% CI: 1.03 to 2.20). These results are largely in congruence with previous narrative reviews that comment on the optimal nutritional strategies to augment skeletal muscle adaptation during RET. 3 86  Given that the CI of this estimate spanned from 1.03 to 2.20, it may be prudent to recommend ~2.2 g protein/kg/d for those seeking to maximise resistance training-induced gains in FFM. Though we acknowledge that there are limitations to this approach, we propose that these findings are based on reasonable evidence and theory and provide a pragmatic estimate with an incumbent error that the reader could take into consideration.
+L100: Although the present analysis provides important and novel data, there are limitations that we acknowledge. First, the lack of RET research in older individuals has led to inconclusive recommendations from previous meta-analyses specifically focusing on older individuals. 9 11  Indeed, in this manuscript there were only 13 studies that met our inclusion criteria in older (>45 years) individuals and only six of those studies reported baseline protein intakes with changes in FFM. In addition, only four studies 27 29 33 45  in older individuals had participants that consumed what we consider to be close to optimal total protein intake (~1.2 g/kg/day to 1.6 g/kg/day) in non-exercising adults 5 . Furthermore, only two studies 23 30  in older individuals provided a postexercise supplemental protein dose that we consider to be close to optimal (~35–40 g) to stimulate FFM accretion in elderly individuals. 76  Given that older adults require more protein per day, 79–81  consume less protein per day 87  and that dietary protein ingestion and RET are effective strategies to maintain muscle mass and function with age, 67  future RET research should focus on using higher protein doses (or potentially higher leucine), larger sample sizes and longer interventions in ageing populations. Second, we included a variety of additional covariates into univariate meta-regressions to elucidate the variables that may modify whether protein supplementation affects RET-induced changes in muscle mass and strength. Such an approach is generally considered to be hypothesis generating. The only significant findings we found were that if the RET sessions were whole-body (adjusted R 2 =76%, p=0.01) or supervised (adjusted R 2 =58%, p=0.047), protein supplementation was more effective at augmenting changes in 1RM. No variable affected changes in FFM (see online  supplementary table 3 ). Given the relatively small effect that protein supplementation has on changes in FFM and 1RM, clearly other variables as a component of RET programmes are of much greater importance. Our meta-analyses also only included studies with participants that were at or above their energy requirements, which may have omitted the significant impact protein has during periods of weight loss with RET. 88  Lastly, we found that the postexercise protein dose did not affect the efficacy of protein supplementation on RET-induced changes in FFM. Our analysis, and those from others, 6  leads us to conclude that the specifics of protein supplementation (eg, timing, postexercise protein dose or protein source) play a minor, if any, role in determining RET-induced gains in FFM and strength over a period of weeks. Instead, our results indicate that a daily protein intake of ~1.6 g/kg/day, separated into ~0.25 g/kg doses, 14  is more influential on adaptive changes with RET, at least for younger individuals.
+L101: Conclusion
+L102: Dietary protein supplementation augments changes in muscle mass and strength during prolonged RET. Protein supplementation is more effective at improving FFM in young or resistance-trained individuals than in older or untrained individuals. Protein supplementation is sufficient at ~1.6 g/kg/day in healthy adults during RET. Based on limited data we observed no overtly apparent sex-based differences but acknowledge that far less work has been done in women than men. This analysis shows that dietary protein supplementation can be, if protein intake is less than 1.6 g protein/kg/day, both sufficient and necessary to optimise RET-induced changes in FFM and 1RM strength. However, performance of RET alone is the much more potent stimulus, accounting, at least according to this meta-analysis, for a substantially greater portion of the variance in RET-induced gains in muscle mass and strength.
+L103: Background
+L104: Novel findings
+L105: Supplementary Appendix 1
+L106: Supplementary Appendix 2
+L107: Supplementary Table 1
+L108: Supplementary Table 2
+L109: Supplementary Figure 1
+L110: Supplementary Figure 2
+L111: Supplementary Figure 3
+L112: Supplementary Table 3
+L113: Supplementary Figure 4
+L114: 1 Dideriksen K ,  Reitelseder S ,  Holm L 
+L115:  Influence of amino acids, dietary protein, and physical activity on muscle mass development in humans .  Nutrients 
+L116:  2013 ; 5 : 852 – 76 .  10.3390/nu5030852 
+L117:  23486194
+L118: 2 Hulmi JJ ,  Lockwood CM ,  Stout JR 
+L119:  Effect of protein/essential amino acids and resistance training on skeletal muscle hypertrophy: a case for whey protein .  Nutr Metab 
+L120:  2010 ; 7 : 51 
+L121:  10.1186/1743-7075-7-51
+L122: 3 Morton RW ,  McGlory C ,  Phillips SM 
+L123:  Nutritional interventions to augment resistance training-induced skeletal muscle hypertrophy .  Front Physiol 
+L124:  2015 ; 6 : 245 
+L125:  10.3389/fphys.2015.00245 
+L126:  26388782
+L127: 4 Reidy PT ,  Rasmussen BB 
+L128:  Role of Ingested amino acids and protein in the Promotion of Resistance Exercise-Induced Muscle protein anabolism .  J Nutr 
+L129:  2016 ; 146 : 155 – 83 .  10.3945/jn.114.203208 
+L130:  26764320
+L131: 5 Phillips SM ,  Chevalier S ,  Leidy HJ 
+L132:  Protein "requirements" beyond the RDA: implications for optimizing health .  Appl Physiol Nutr Metab 
+L133:  2016 ; 41 : 565 – 72 .  10.1139/apnm-2015-0550 
+L134:  26960445
+L135: 6 Schoenfeld BJ ,  Aragon AA ,  Krieger JW 
+L136:  The effect of protein timing on muscle strength and hypertrophy: a meta-analysis .  J Int Soc Sports Nutr 
+L137:  2013 ; 10 : 53 
+L138:  10.1186/1550-2783-10-53 
+L139:  24299050
+L140: 7 Cermak NM ,  Res PT ,  de Groot LC ,  et al 
+L141:  Protein supplementation augments the adaptive response of skeletal muscle to resistance-type exercise training: a meta-analysis .  Am J Clin Nutr 
+L142:  2012 ; 96 : 1454 – 64 .  10.3945/ajcn.112.037556 
+L143:  23134885
+L144: 8 Naclerio F ,  Larumbe-Zabala E 
+L145:  Effects of Whey protein alone or as part of a Multi-ingredient Formulation on strength, Fat-Free Mass, or lean Body Mass in Resistance-Trained individuals: a Meta-analysis .  Sports Med 
+L146:  2016 ; 46 : 125 – 37 .  10.1007/s40279-015-0403-y 
+L147:  26403469
+L148: 9 Finger D ,  Goltz FR ,  Umpierre D ,  et al 
+L149:  Effects of protein supplementation in older adults undergoing resistance training: a systematic review and meta-analysis .  Sports Med 
+L150:  2015 ; 45 : 245 – 55 .  10.1007/s40279-014-0269-4 
+L151:  25355074
+L152: 10 Nissen SL ,  Sharp RL 
+L153:  Effect of dietary supplements on lean mass and strength gains with resistance exercise: a meta-analysis .  J Appl Physiol 
+L154:  2003 ; 94 : 651 – 9 .  10.1152/japplphysiol.00755.2002 
+L155:  12433852
+L156: 11 Thomas DK ,  Quinn MA ,  Saunders DH ,  et al 
+L157:  Protein supplementation does not significantly augment the effects of resistance exercise training in older adults: a systematic review .  J Am Med Dir Assoc 
+L158:  2016 ; 17 : 959.e1 – 959.e9 .  10.1016/j.jamda.2016.07.002
+L159: 12 Miller PE ,  Alexander DD ,  Perez V 
+L160:  Effects of whey protein and resistance exercise on body composition: a meta-analysis of randomized controlled trials .  J Am Coll Nutr 
+L161:  2014 ; 33 : 163 – 75 .  10.1080/07315724.2013.875365 
+L162:  24724774
+L163: 13 Damas F ,  Phillips SM ,  Libardi CA ,  et al 
+L164:  Resistance training-induced changes in integrated myofibrillar protein synthesis are related to hypertrophy only after attenuation of muscle damage .  J Physiol 
+L165:  2016 ; 594 : 5209 – 22 .  10.1113/JP272472 
+L166:  27219125
+L167: 14 Moore DR ,  Churchward-Venne TA ,  Witard O ,  et al 
+L168:  Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men .  J Gerontol A Biol Sci Med Sci 
+L169:  2015 ; 70 : 57 – 62 .  10.1093/gerona/glu103 
+L170:  25056502
+L171: 15 Cooper H ,  Hedges L ,  Valentine J 
+L172:  The handbook of research synthesis and meta-analysis .  New York :  Russell Sage Foundation ,  2009 .
+L173: 16 Andersen LL ,  Tufekovic G ,  Zebis MK ,  et al 
+L174:  The effect of resistance training combined with timed ingestion of protein on muscle fiber size and muscle strength .  Metabolism 
+L175:  2005 ; 54 : 151 – 6 .  10.1016/j.metabol.2004.07.012 
+L176:  15690307
+L177: 17 Antonio J ,  Ellerbroek A ,  Silver T ,  et al 
+L178:  A high protein diet (3.4 g/kg/d) combined with a heavy resistance training program improves body composition in healthy trained men and women--a follow-up investigation .  J Int Soc Sports Nutr 
+L179:  2015 ; 12 : 39 
+L180:  10.1186/s12970-015-0100-0 
+L181:  26500462
+L182: 18 Antonio J ,  Peacock CA ,  Ellerbroek A ,  et al 
+L183:  The effects of consuming a high protein diet (4.4 g/kg/d) on body composition in resistance-trained individuals .  J Int Soc Sports Nutr 
+L184:  2014 ; 11 : 19 
+L185:  10.1186/1550-2783-11-19 
+L186:  24834017
+L187: 19 Arazi H ,  Hakimi M ,  Hoseini K 
+L188:  The effects of Whey protein supplementation on Performance and hormonal adaptations following resistance training in Novice Men .  Balt J Health Phys Act 
+L189:  2011 ; 3 
+L190:  10.2478/v10131-011-0008-2
+L191: 20 Arnarson A ,  Gudny Geirsdottir O ,  Ramel A ,  et al 
+L192:  Effects of whey proteins and carbohydrates on the efficacy of resistance training in elderly people: double blind, randomised controlled trial .  Eur J Clin Nutr 
+L193:  2013 ; 67 : 821 – 6 .  10.1038/ejcn.2013.40 
+L194:  23486511
+L195: 21 Babault N ,  Deley G ,  Le Ruyet P ,  et al 
+L196:  Effects of soluble milk protein or casein supplementation on muscle fatigue following resistance training program: a randomized, double-blind, and placebo-controlled study .  J Int Soc Sports Nutr 
+L197:  2014 ; 11 : 36 
+L198:  10.1186/1550-2783-11-36 
+L199:  25057266
+L200: 22 Babault N ,  Païzis C ,  Deley G ,  et al 
+L201:  Pea proteins oral supplementation promotes muscle thickness gains during resistance training: a double-blind, randomized, Placebo-controlled clinical trial vs. whey protein .  J Int Soc Sports Nutr 
+L202:  2015 ; 12 : 3 
+L203:  10.1186/s12970-014-0064-5 
+L204:  25628520
+L205: 23 Bemben MG ,  Witten MS ,  Carter JM ,  et al 
+L206:  The effects of supplementation with creatine and protein on muscle strength following a traditional resistance training program in middle-aged and older men .  J Nutr Health Aging 
+L207:  2010 ; 14 : 155 – 9 .  10.1007/s12603-009-0124-8 
+L208:  20126965
+L209: 24 Brown EC ,  DiSilvestro RA ,  Babaknia A ,  et al 
+L210:  Soy versus whey protein bars: effects on exercise training impact on lean body mass and antioxidant status .  Nutr J 
+L211:  2004 ; 3 : 22 
+L212:  10.1186/1475-2891-3-22 
+L213:  15588291
+L214: 25 Bunout B ,  Barrera G ,  de la Maza P ,  et al 
+L215:  Effects of nutritional supplementation and resistance training on muscle strength in free living elders. results of one year follow .  J Nutr Health Aging 
+L216:  2004 ; 8 : 68 – 75 . 14978601
+L217: 26 Burke DG ,  Chilibeck PD ,  Davidson KS ,  et al 
+L218:  The effect of whey protein supplementation with and without creatine monohydrate combined with resistance training on lean tissue mass and muscle strength .  Int J Sport Nutr Exerc Metab 
+L219:  2001 ; 11 : 349 – 64 .  10.1123/ijsnem.11.3.349 
+L220:  11591884
+L221: 27 Campbell WW ,  Crim MC ,  Young VR ,  et al 
+L222:  Effects of resistance training and dietary protein intake on protein metabolism in older adults .  Am J Physiol 
+L223:  1995 ; 268 ( 6 Pt 1 ): E1143 – E53 . 7611390
+L224: 28 Candow DG ,  Burke NC ,  Smith-Palmer T ,  et al 
+L225:  Effect of whey and soy protein supplementation combined with resistance training in young adults .  Int J Sport Nutr Exerc Metab 
+L226:  2006 ; 16 : 233 – 44 .  10.1123/ijsnem.16.3.233 
+L227:  16948480
+L228: 29 Candow DG ,  Chilibeck PD ,  Facci M ,  et al 
+L229:  Protein supplementation before and after resistance training in older men .  Eur J Appl Physiol 
+L230:  2006 ; 97 : 548 – 56 .  10.1007/s00421-006-0223-8 
+L231:  16767436
+L232: 30 Carter JM ,  Bemben DA ,  Knehans AW ,  et al 
+L233:  Does nutritional supplementation influence adaptability of muscle to resistance training in men aged 48 to 72 years .  J Geriatr Phys Ther 
+L234:  2005 ; 28 : 40 – 7 .  10.1519/00139143-200508000-00002 
+L235:  16236227
+L236: 31 Coburn JW ,  Housh DJ ,  Housh TJ ,  et al 
+L237:  Effects of leucine and whey protein supplementation during eight weeks of unilateral resistance training .  J Strength Cond Res 
+L238:  2006 ; 20 : 284 – 91 .  10.1519/00124278-200605000-00009 
+L239:  16686554
+L240: 32 Cribb PJ ,  Williams AD ,  Stathis CG ,  et al 
+L241:  Effects of whey isolate, creatine, and resistance training on muscle hypertrophy .  Med Sci Sports Exerc 
+L242:  2007 ; 39 : 298 – 307 .  10.1249/01.mss.0000247002.32589.ef 
+L243:  17277594
+L244: 33 Daly RM ,  O’Connell SL ,  Mundell NL ,  et al 
+L245:  Protein-enriched diet, with the use of lean red meat, combined with progressive resistance training enhances lean tissue mass and muscle strength and reduces circulating IL-6 concentrations in elderly women: a cluster randomized controlled trial .  Am J Clin Nutr 
+L246:  2014 ; 99 : 899 – 910 .  10.3945/ajcn.113.064154 
+L247:  24477043
+L248: 34 Deibert P ,  Solleder F ,  König D ,  et al 
+L249:  Soy protein based supplementation supports metabolic effects of resistance training in previously untrained middle aged males .  Aging Male 
+L250:  2011 ; 14 : 273 – 9 .  10.3109/13685538.2011.565091 
+L251:  22066824
+L252: 35 Eliot KA ,  Knehans AW ,  Bemben DA ,  et al 
+L253:  The effects of creatine and whey protein supplementation on body composition in men aged 48 to 72 years during resistance training .  J Nutr Health Aging 
+L254:  2008 ; 12 : 208 – 12 .  10.1007/BF02982622 
+L255:  18309444
+L256: 36 Erskine RM ,  Fletcher G ,  Hanson B ,  et al 
+L257:  Whey protein does not enhance the adaptations to elbow flexor resistance training .  Med Sci Sports Exerc 
+L258:  2012 ; 44 : 1791 – 800 .  10.1249/MSS.0b013e318256c48d 
+L259:  22460474
+L260: 37 Farup J ,  Rahbek SK ,  Vendelbo MH ,  et al 
+L261:  Whey protein hydrolysate augments tendon and muscle hypertrophy independent of resistance exercise contraction mode .  Scand J Med Sci Sports 
+L262:  2014 ; 24 : 788 – 98 .  10.1111/sms.12083 
+L263:  23647357
+L264: 38 Hartman JW ,  Tang JE ,  Wilkinson SB ,  et al 
+L265:  Consumption of fat-free fluid milk after resistance exercise promotes greater lean mass accretion than does consumption of soy or carbohydrate in young, novice, male weightlifters .  Am J Clin Nutr 
+L266:  2007 ; 86 : 373 – 81 . 17684208
+L267: 39 Herda AA ,  Herda TJ ,  Costa PB ,  et al 
+L268:  Muscle performance, size, and safety responses after eight weeks of resistance training and protein supplementation: a randomized, double-blinded, placebo-controlled clinical trial .  J Strength Cond Res 
+L269:  2013 ; 27 : 3091-100 
+L270:  10.1519/JSC.0b013e31828c289f 
+L271:  23442287
+L272: 40 Hoffman JR ,  Ratamess NA ,  Kang J ,  et al 
+L273:  Effects of protein supplementation on muscular performance and resting hormonal changes in college football players .  J Sports Sci Med 
+L274:  2007 ; 6 : 85 – 92 . 24149229
+L275: 41 Hoffman JR ,  Ratamess NA ,  Tranchina CP ,  et al 
+L276:  Effect of protein-supplement timing on strength, power, and body-composition changes in resistance-trained men .  Int J Sport Nutr Exerc Metab 
+L277:  2009 ; 19 : 172 – 85 .  10.1123/ijsnem.19.2.172 
+L278:  19478342
+L279: 42 Hulmi JJ ,  Kovanen V ,  Selänne H ,  et al 
+L280:  Acute and long-term effects of resistance exercise with or without protein ingestion on muscle hypertrophy and gene expression .  Amino Acids 
+L281:  2009 ; 37 : 297 – 308 .  10.1007/s00726-008-0150-6 
+L282:  18661258
+L283: 43 Hulmi JJ ,  Laakso M ,  Mero AA ,  et al 
+L284:  The effects of whey protein with or without carbohydrates on resistance training adaptations .  J Int Soc Sports Nutr 
+L285:  2015 ; 12 : 48 
+L286:  10.1186/s12970-015-0109-4 
+L287:  26677350
+L288: 44 Hulmi JJ ,  Tannerstedt J ,  Selänne H ,  et al 
+L289:  Resistance exercise with whey protein ingestion affects mTOR signaling pathway and myostatin in men .  J Appl Physiol 
+L290:  2009 ; 106 : 1720 – 9 .  10.1152/japplphysiol.00087.2009 
+L291:  19299575
+L292: 45 Iglay HB ,  Apolzan JW ,  Gerrard DE ,  et al 
+L293:  Moderately increased protein intake predominately from egg sources does not influence whole body, regional, or muscle composition responses to resistance training in older people .  J Nutr Health Aging 
+L294:  2009 ; 13 : 108 – 14 .  10.1007/s12603-009-0016-y 
+L295:  19214338
+L296: 46 Josse AR ,  Tang JE ,  Tarnopolsky MA ,  et al 
+L297:  Body composition and strength changes in women with milk and resistance exercise .  Med Sci Sports Exerc 
+L298:  2010 ; 42 : 1122 – 30 .  10.1249/MSS.0b013e3181c854f6 
+L299:  19997019
+L300: 47 Kerksick CM ,  Rasmussen CJ ,  Lancaster SL ,  et al 
+L301:  The effects of protein and amino acid supplementation on performance and training adaptations during ten weeks of resistance training .  J Strength Cond Res 
+L302:  2006 ; 20 : 643 – 53 .  10.1519/00124278-200608000-00028 
+L303:  16937979
+L304: 48 Leenders M ,  Verdijk LB ,  Van der Hoeven L ,  et al 
+L305:  Protein supplementation during resistance-type exercise training in the elderly .  Med Sci Sports Exerc 
+L306:  2013 ; 45 : 542 – 52 .  10.1249/MSS.0b013e318272fcdb 
+L307:  22968306
+L308: 49 Mielke M ,  Housh TJ ,  Malek MH ,  et al 
+L309:  The effects of whey protein and leucine supplementation on strength, muscular endurance, and body composition during resistance training .  Journal of Exercise Physiology Online 
+L310:  2009 ; 12 : 39 – 50 .
+L311: 50 Mitchell CJ ,  Oikawa SY ,  Ogborn DI ,  et al 
+L312:  Daily chocolate milk consumption does not enhance the effect of resistance training in young and old men: a randomized controlled trial .  Appl Physiol Nutr Metab 
+L313:  2015 ; 40 : 199 – 202 .  10.1139/apnm-2014-0329 
+L314:  25610954
+L315: 51 Negro M ,  Vandoni M ,  Ottobrini S ,  et al 
+L316:  Protein supplementation with low fat meat after resistance training: effects on body composition and strength .  Nutrients 
+L317:  2014 ; 6 : 3040 – 9 .  10.3390/nu6083040 
+L318:  25093275
+L319: 52 Oesen S ,  Halper B ,  Hofmann M ,  et al 
+L320:  Effects of elastic band resistance training and nutritional supplementation on physical performance of institutionalised elderly--A randomized controlled trial .  Exp Gerontol 
+L321:  2015 ; 72 : 99 – 108 .  10.1016/j.exger.2015.08.013 
+L322:  26341720
+L323: 53 Olsen S ,  Aagaard P ,  Kadi F ,  et al 
+L324:  Creatine supplementation augments the increase in satellite cell and myonuclei number in human skeletal muscle induced by strength training .  J Physiol 
+L325:  2006 ; 573 ( Pt 2 ): 525 – 34 .  10.1113/jphysiol.2006.107359 
+L326:  16581862
+L327: 54 Paoli A ,  Pacelli Q ,  Cancellara P ,  et al 
+L328:  Protein supplementation does not further increase latissimus dorsi muscle fiber hypertrophy after eight weeks of resistance training in novice subjects, but partially counteracts the fast-to-slow muscle fiber transition .  Nutrients 
+L329:  2016 ; 8 : 331 
+L330:  10.3390/nu8060331
+L331: 55 Paoli A ,  Pacelli QF ,  Neri M ,  et al 
+L332:  Protein supplementation increases postexercise plasma myostatin concentration after 8 weeks of resistance training in young physically active subjects .  J Med Food 
+L333:  2015 ; 18 : 137 – 43 .  10.1089/jmf.2014.0004 
+L334:  25133710
+L335: 56 Rankin JW ,  Goldman LP ,  Puglisi MJ ,  et al 
+L336:  Effect of post-exercise supplement consumption on adaptations to resistance training .  J Am Coll Nutr 
+L337:  2004 ; 23 : 322 – 30 .  10.1080/07315724.2004.10719375 
+L338:  15310736
+L339: 57 Reidy PT ,  Borack MS ,  Markofski MM ,  et al 
+L340:  Protein supplementation has minimal effects on muscle adaptations during resistance exercise training in Young Men: a Double-Blind Randomized clinical trial .  J Nutr 
+L341:  2016 ; 146 : 1660 – 9 .  10.3945/jn.116.231803 
+L342:  27466602
+L343: 58 Rozenek R ,  Ward P ,  Long S ,  et al 
+L344:  Effects of high-calorie supplements on body composition and muscular strength following resistance training .  J Sports Med Phys Fitness 
+L345:  2002 ; 42 : 340 – 7 . 12094125
+L346: 59 Snijders T ,  Res PT ,  Smeets JS ,  et al 
+L347:  Protein ingestion before Sleep increases Muscle Mass and strength gains during prolonged Resistance-Type exercise training in healthy young men .  J Nutr 
+L348:  2015 ; 145 : 1178 – 84 .  10.3945/jn.114.208371 
+L349:  25926415
+L350: 60 Verdijk LB ,  Jonkers RA ,  Gleeson BG ,  et al 
+L351:  Protein supplementation before and after exercise does not further augment skeletal muscle hypertrophy after resistance training in elderly men .  Am J Clin Nutr 
+L352:  2009 ; 89 : 608 – 16 .  10.3945/ajcn.2008.26626 
+L353:  19106243
+L354: 61 Volek JS ,  Volk BM ,  Gómez AL ,  et al 
+L355:  Whey protein supplementation during resistance training augments lean body mass .  J Am Coll Nutr 
+L356:  2013 ; 32 : 122 – 35 .  10.1080/07315724.2013.793580 
+L357:  24015719
+L358: 62 Weisgarber KD ,  Candow DG ,  Vogt ES 
+L359:  Whey protein before and during resistance exercise has no effect on muscle mass and strength in untrained young adults .  Int J Sport Nutr Exerc Metab 
+L360:  2012 ; 22 : 463 – 9 .  10.1123/ijsnem.22.6.463 
+L361:  22806076
+L362: 63 White KM ,  Bauer SJ ,  Hartz KK ,  et al 
+L363:  Changes in body composition with yogurt consumption during resistance training in women .  Int J Sport Nutr Exerc Metab 
+L364:  2009 ; 19 : 18 – 33 .  10.1123/ijsnem.19.1.18 
+L365:  19403951
+L366: 64 Willoughby DS ,  Stout JR ,  Wilborn CD 
+L367:  Effects of resistance training and protein plus amino acid supplementation on muscle anabolism, mass, and strength .  Amino Acids 
+L368:  2007 ; 32 : 467 – 77 .  10.1007/s00726-006-0398-7 
+L369:  16988909
+L370: 65 Higgins JPT ,  Green S 
+L371:  Cochrane Handbook for Systematic Reviews of Interventions :  The Cochrane Collaboration ,  2011 
+L372:  http://www.handbook.cochrane.org/
+L373: 66 Gorissen SH ,  Horstman AM ,  Franssen R ,  et al 
+L374:  Habituation to low or high protein intake does not modulate basal or postprandial muscle protein synthesis rates: a randomized trial .  Am J Clin Nutr 
+L375:  2017 ; 105 
+L376:  10.3945/ajcn.115.129924
+L377: 67 Bauer J ,  Biolo G ,  Cederholm T ,  et al 
+L378:  Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group .  J Am Med Dir Assoc 
+L379:  2013 ; 14 : 542 – 59 .  10.1016/j.jamda.2013.05.021 
+L380:  23867520
+L381: 68 Pasiakos SM ,  McLellan TM ,  Lieberman HR 
+L382:  The effects of protein supplements on muscle mass, strength, and aerobic and anaerobic power in healthy adults: a systematic review .  Sports Med 
+L383:  2015 ; 45 : 111 – 31 .  10.1007/s40279-014-0242-2 
+L384:  25169440
+L385: 69 Higgins JP ,  Thompson SG 
+L386:  Controlling the risk of spurious findings from meta-regression .  Stat Med 
+L387:  2004 ; 23 : 1663 – 82 .  10.1002/sim.1752 
+L388:  15160401
+L389: 70 Harbord RM ,  Higgins JP 
+L390:  Meta-regression in Stata .  The Stata Journal 
+L391:  2008 ; 8 : 493 – 519 .
+L392: 71 Buckner SL ,  Jessee MB ,  Mattocks KT ,  et al 
+L393:  Determining strength: a case for multiple methods of measurement .  Sports Med 
+L394:  2016 .
+L395: 72 Brook MS ,  Wilkinson DJ ,  Mitchell WK ,  et al 
+L396:  Skeletal muscle hypertrophy adaptations predominate in the early stages of resistance exercise training, matching deuterium oxide-derived measures of muscle protein synthesis and mechanistic target of rapamycin complex 1 signaling .  FASEB J 
+L397:  2015 ; 29 : 4485 – 96 .  10.1096/fj.15-273755 
+L398:  26169934
+L399: 73 Kim PL ,  Staron RS ,  Phillips SM 
+L400:  Fasted-state skeletal muscle protein synthesis after resistance exercise is altered with training .  J Physiol 
+L401:  2005 ; 568 ( Pt 1 ): 283 – 90 .  10.1113/jphysiol.2005.093708 
+L402:  16051622
+L403: 74 Wall BT ,  Gorissen SH ,  Pennings B ,  et al 
+L404:  Aging is accompanied by a blunted muscle protein synthetic response to protein ingestion .  PLoS One 
+L405:  2015 ; 10 : e0140903 
+L406:  10.1371/journal.pone.0140903 
+L407:  26536130
+L408: 75 Rennie MJ ,  Wackerhage H ,  Spangenburg EE ,  et al 
+L409:  Control of the size of the human muscle mass .  Annu Rev Physiol 
+L410:  2004 ; 66 : 799 – 828 .  10.1146/annurev.physiol.66.052102.134444 
+L411:  14977422
+L412: 76 Churchward-Venne TA ,  Holwerda AM ,  Phillips SM ,  et al 
+L413:  What is the optimal amount of protein to support Post-Exercise skeletal muscle reconditioning in the older adult? 
+L414:  Sports Med 
+L415:  2016 ; 46 : 1205 – 12 .  10.1007/s40279-016-0504-2 
+L416:  26894275
+L417: 77 Bosse JD ,  Dixon BM 
+L418:  Dietary protein to maximize resistance training: a review and examination of protein spread and change theories .  J Int Soc Sports Nutr 
+L419:  2012 ; 9 : 42 
+L420:  10.1186/1550-2783-9-42 
+L421:  22958314
+L422: 78 Trumbo P ,  Schlicker S ,  Yates AA ,  et al 
+L423:  Dietary reference intakes for energy, carbohydrate, fiber, fat, fatty acids, cholesterol, protein and amino acids .  J Am Diet Assoc 
+L424:  2002 ; 102 : 1621 – 30 .  10.1016/S0002-8223(02)90346-9 
+L425:  12449285
+L426: 79 Rafii M ,  Chapman K ,  Elango R ,  et al 
+L427:  Dietary protein requirement of men >65 years old determined by the indicator amino acid oxidation technique is higher than the current estimated average requirement .  J Nutr 
+L428:  2016 ; 146 : 681 – 7 .  10.3945/jn.115.225631
+L429: 80 Tang M ,  McCabe GP ,  Elango R ,  et al 
+L430:  Assessment of protein requirement in octogenarian women with use of the indicator amino acid oxidation technique .  Am J Clin Nutr 
+L431:  2014 ; 99 : 891 – 8 .  10.3945/ajcn.112.042325 
+L432:  24429540
+L433: 81 Rafii M ,  Chapman K ,  Owens J ,  et al 
+L434:  Dietary protein requirement of female adults >65 years determined by the indicator amino acid oxidation technique is higher than current recommendations .  J Nutr 
+L435:  2015 ; 145 : 18 – 24 .  10.3945/jn.114.197517 
+L436:  25320185
+L437: 82 Moore DR ,  Robinson MJ ,  Fry JL ,  et al 
+L438:  Ingested protein dose response of muscle and albumin protein synthesis after resistance exercise in young men .  Am J Clin Nutr 
+L439:  2009 ; 89 : 161 – 8 .  10.3945/ajcn.2008.26401 
+L440:  19056590
+L441: 83 Yang Y ,  Breen L ,  Burd NA ,  et al 
+L442:  Resistance exercise enhances myofibrillar protein synthesis with graded intakes of whey protein in older men .  Br J Nutr 
+L443:  2012 ; 108 : 1780 – 8 .  10.1017/S0007114511007422 
+L444:  22313809
+L445: 84 Pennings B ,  Groen B ,  de Lange A ,  et al 
+L446:  Amino acid absorption and subsequent muscle protein accretion following graded intakes of whey protein in elderly men .  Am J Physiol Endocrinol Metab 
+L447:  2012 ; 302 : E992 – E999 .  10.1152/ajpendo.00517.2011 
+L448:  22338070
+L449: 85 Robinson MJ ,  Burd NA ,  Breen L ,  et al 
+L450:  Dose-dependent responses of myofibrillar protein synthesis with beef ingestion are enhanced with resistance exercise in middle-aged men .  Appl Physiol Nutr Metab 
+L451:  2013 ; 38 : 120 – 5 .  10.1139/apnm-2012-0092 
+L452:  23438221
+L453: 86 Phillips SM ,  Van Loon LJ 
+L454:  Dietary protein for athletes: from requirements to optimum adaptation .  J Sports Sci 
+L455:  2011 ; 29 Suppl 1 ( Suppl 1 ): S29 – S38 .  10.1080/02640414.2011.619204 
+L456:  22150425
+L457: 87 U.S. Department of Agriculture ARS .  Nutrient intakes from food and beverages: mean amounts consumed per individual, by gender and age 
+L458:  What We Eat In America 2014 :  NHANES ,  2011:12 .
+L459: 88 Longland TM ,  Oikawa SY ,  Mitchell CJ ,  et al 
+L460:  Higher compared with lower dietary protein during an energy deficit combined with intense exercise promotes greater lean mass gain and fat mass loss: a randomized trial .  Am J Clin Nutr 
+L461:  2016 ; 103 : 738 – 46 .  10.3945/ajcn.115.119339 
+L462:  26817506
+L463: SMP thanks the Canada Research Chairs, Canadian Institutes for Health Research, and the Natural Science and Engineering Research Council of Canada for their support during the completion of this work.
+L464: **APPENDIX 1. Search strategy for CINAHL, EMBASE, Medline and SportDiscus.**
+L465: **Database** : OVID Medline Epub Ahead of Print, In-Process & Other Non-Indexed
+L466: Citations, Ovid MEDLINE(R) Daily and Ovid MEDLINE(R) <1946 to Present> (982
+L467: citations)
+L468: Search performed: January 2, 2017. Total citations: 3056
+L469: 1   exp Dietary Proteins/
+L470: 2   (protein* adj3 (diet* or supplement* or intake* or consum*)).ti,ab,kf.
+L471: 3   (protein* adj3 ingest*).ti,ab,kf.
+L472: 4   or/1-3
+L473: 5   Resistance Training/
+L474: 6   Weight Lifting/
+L475: 7   Isometric Contraction/
+L476: 8   ((weight* or isometric or strength or resistance) adj3 (train* or lift* or
+L477: exercise*)).ti,ab,kf.
+L478: 9   exp muscle strength/
+L479: 10   ((muscle* or muscular) adj3 strength*).ti,ab,kf.
+L480: 11   or/5-10
+L481: 12   4 and 11
+L482: 13   animals/ not (humans/ and animals/)
+L483: 14   12 not 13
+L484: 15   limit 14 to english language
+L485: 16   remove duplicates from 15
+L486: **Database** : Embase <1974 to 2016 December 30> (1161 citations)
+L487: Search performed: January 2, 2017
+L488: 1   protein intake/
+L489: 2   (protein* adj3 (diet* or supplement* or intake* or consum* or ingest*)).ti,ab,kw.
+L490: 3   1 or 2
+L491: 4   resistance training/
+L492: 5   weight lifting/
+L493: 6   ((weight or isometric or strength or resistance) adj3 (train* or lift* or
+L494: exercise*)).ti,ab,kw.
+L495: 7   muscle strength/
+L496: 8   ((muscle* or muscular) adj3 strength*).ti,ab,kw.
+L497: 9   isometric contraction*.ti,ab,kw.
+L498: 10   or/4-9
+L499: 11   3 and 10
+L500: 12   exp animal/
+L501: 13   human/
+L502: 14   11 not (12 not (12 and 13))
+L503: 15   remove duplicates from 14
+L504: 16   limit 15 to english language
+L505: **Database:** CINAHL (406 citations)
+L506: Search performed: January 2, 2017
+L507: S15 S12 NOT S13 Limiters - English Language
+L508: S14 S12 NOT S13
+L509: S13 (MH "Animals+") NOT ((MH "Human") AND (MH "Animals+"))
+L510: S12 S4 and S11
+L511: S11 S5 OR S6 OR S7 OR S8 OR S9 OR S10
+L512: S10 (muscle* or muscular) N3 strength*
+L513: S9 (MH "Muscle Strength+")
+L514: S8 (weight* or isometric* or strength* or resistance) N3 (train* or lift* or exercise*)
+L515: S7 (MH "Weight Lifting")
+L516: S6 (MH "Muscle Strengthening+")
+L517: S5 (MH "Resistance Training")
+L518: S4 S1 OR S2 OR S3
+L519: S3 protein N3 (intake* or injest* or supplement* or diet* or consum)
+L520: S2 (MH "Dietary Proteins+")
+L521: S1 (MH "Diet, High Protein")
+L522: **Database:** SPORTDiscus (507 citations)
+L523: Search performed: January 2, 2017
+L524: S10 S4 AND S9 Limiters - Language: English
+L525: S9 S5 OR S6 OR S7 OR S8
+L526: S8 (muscle* or muscular) N3 (strength*)
+L527: S7 DE "MUSCLE strength" OR DE "GRIP strength" OR DE "KRAUS-Weber test"
+L528: S6 (weight* or isometric* or strength* or resistance) N3 (train* or lift* or exercise*)
+L529: S5 DE "RESISTANCE training (Physical training & conditioning)" OR DE
+L530: "ISOMETRIC exercise" OR DE "WEIGHT training"
+L531: S4 S1 OR S2 OR S3
+L532: S3 protein* N3 (injest* or diet* or supplement* or intake* or consum*)
+L533: S2 DE "HIGH-protein diet" OR DE "FOOD -- Protein content"
+L534: S1 DE "LOW protein diet
+L535: **Appendix 2. Risk of bias assessment.**
+L536: **Supplementary Table 1. Participant characteristics, resistance exercise training details and individual study outcomes.**
+L537: **Subject Details** **Resistance Exercise Training Details** **Performance** **Body Composition Outcomes**
+L538: **Author and Year** **Age** **Sex** **Training Status** **Length (wk)** **Frequency (d/wk)** **Sets x Reps or %RM** **1RM** **MVC** **Mass** **FFM** **FM** **Fibre CSA** **Mid-Femur CSA**
+L539: Andersen 2005 (16) 23 M UT 14 3 3-4 x 4-15 → ↑
+L540: Antonio 2014 (18) 24 M (29) F (11) T 8 ? ? → → →
+L541: Antonio 2015 (17) 24 M (37) F (11) T 8 5 3 x 5-15 → ↓ → ↓
+L542: Arazi 2011 (19) 22 M T 8 3 3 x 8 ↑ ↑
+L543: Arnason 2013 (20) 74 M (67) F (94) UT 12 3 3 x 6-8 → →
+L544: Babault 2015 (whey; 22) 22 M UT 12 3 2-5 x 5-15 → →
+L545: Babault 2015 (pea; 22) 22 M UT 12 3 2-5 x 5-15 → →
+L546: Babault 2014 (milk; 21) 22 M UT 10 3 3-5 x 6-20 → →
+L547: Babault 2014 (casein; 21) 22 M UT 10 3 3-5 x 6-20 → →
+L548: Bemben 2010 (23) 57 M UT 14 3 3 x 8 →
+L549: Brown 2004 (whey; 24) 21 M T 9 ? 3 x 4-6 ↑
+L550: Brown 2004 (soy; 24) 21 M T 9 ? 3 x 4-6 ↑
+L551: Bunout 2004 (25) 74 M (14) F (33) UT 52 2 3-10 x 10-15 → → →
+L552: Burke 2001 (26) ? M T 6 4 4-5 x 6-12 → ↑ ↑ ↑ →
+L553: Campbell 1995 (27) 65 M (8) F (4) UT 6 3 3 x 80% → → → → →
+L554: Candow 2006 (whey; 28) 24 M (9) F (18) UT 6 4 4-5 x 6-12 ↑ ↑ →
+L555: Candow 2006 (soy; 28) 23 M (9) F (18) UT 6 4 4-5 x 6-12 ↑ ↑ →
+L556: Candow 2006a (pre-ex; 29) 63 M UT 12 3 3 x 10 → →
+L557: Candow 2006a (post-ex; 29) 67 M UT 12 3 3 x 10 → →
+L558: Carter 2005 (30) 57 M UT 16 3 3 x 8 → → →
+L559: Coburn 2006 (31) 22 M UT 8 3 3-5 x 80% ↑ → → → →
+L560: Cribb 2007 (32) 24 M T 11 ? ? ↑ → → → ↑
+L561: Daly 2014 (33) 73 F UT 16 2 3 x 8-12 ↑ ↑ → →
+L562: Deibert 2011 (34) 56 M UT 12 2 ? x 10-25 ↑ → ↑ →
+L563: Eliot 2008 (35) ? M ? 14 3 3 x 8 → → →
+L564: Erksine 2012 (36) 23 M UT 12 3 2-3 x 8-10 → →
+L565: Farup 2014 (37) 24 M UT 12 3 6-12 x 6-15 →
+L566: Hartman 2007 (milk; 38) ? M UT 12 5 2-4 x 4-12 → → ↑ ↓ ↑
+L567: Hartman 2007 (soy; 38) ? M UT 12 5 2-4 x 4-12 → → → → ↑
+L568: Herda 2013 (39) 21 M UT 8 3 1-5 x 80% → → → →
+L569: Hoffman 2007 (40) 21 M T 12 4 2-5 x 3-10 ↑ → →
+L570: Hoffman 2009 (morning + night; 41) 20 M T 10 4 2-4 x 4-10 → → →
+L571: Hoffman 2009 (pre- + post-ex; 41) 20 M T 10 4 2-4 x 4-10 → → →
+L572: Hulmi 2009 (42) 26 M UT 21 2 2-5 x 5-20 → → → ↑
+L573: Hulmi 2009a (44) 25 M UT 21 2 2-5 x 5-20 → →
+L574: Hulmi 2015 (PRO; 43) 34 M UT 12 2 or 3 2-5 x 4-12 → → → ↓ →
+L575: Hulmi 2015 (PRO+CHO; 43) 34 M UT 12 2 or 3 2-5 x 4-12 → → → ↓ →
+L576: Iglay 2009 (45) 61 M (17) F (19) UT 12 3 2 x 8 → → →
+L577: **Supplementary Table 1 Continued.**
+L578: **Subject Details** **Resistance Exercise Training Details** **Performance** **Body Composition Outcomes**
+L579: **Author and Year** **Age** **Sex** **Training Status** **Length (wk)** **Frequency (d/wk)** **Sets x Reps or %RM** **1RM** **MVC** **Mass** **FFM** **FM** **Fibre CSA** **Mid-Femur CSA**
+L580: Josse 2010 (46) 23 F UT 12 5 2-4 x 4-12 → → ↑ ↓
+L581: Kerksick 2006 (whey + casein; 47) 31 M T 10 4 3 x 6-10 → → ↑ →
+L582: Kerksick 2006 (whey + EAA; 47) 31 M T 10 4 3 x 6-10 → → → →
+L583: Leenders 2013 (men; 48) 70 M UT 24 3 2-4 x 8-15 → → → → →
+L584: Leenders 2013 (women; 48) 72 F UT 24 3 2-4 x 8-15 → → → → →
+L585: Mielke 2009 (49) 23 M UT 8 3 1 or 2 x 6-8 → → → →
+L586: Mitchell 2015 (young; 50) 22 M UT 12 3 3-4 x 75-85% → → →
+L587: Mitchell 2015 (old; 50) 74 M UT 12 3 3-4 x 75-85% → → →
+L588: Negro 2014 (51) 24 M (19) F (7) UT 9 3 4 x 8 → ↑ (BIA) ↓ (BIA)
+L589: Oesen 2015 (52) 82 M (9) F (47) UT 24 2 1-2 x 15 →
+L590: Olsen 2006 (53) 24 M ? 16 3 3-5 x 6-12 → →
+L591: Paoli 2015 (55) 25 M UT 8 2 or 3 2-4 x 6-11 → → →
+L592: Paoli 2016 (54) 25 M UT 8 2 or 3 2-4 x 6-11 → → → →
+L593: Rankin 2004 (56) 21 M UT 10 3 3-5 x 3-12 → → → →
+L594: Reidy 2016 (whey; 57) 25 M UT 12 3 3-4 x 8-10 → → → → →
+L595: Reidy 2016 (soy; 57) 25 M UT 12 3 3-4 x 8-10 → → → → →
+L596: Rozenek 2002 (58) 23 M UT 8 4 4 x 8 → → → →
+L597: Snijders 2015 (59) 22 M UT 12 3 2-4 x 8-15 ↑ → → ↑ ↑
+L598: Verdijk 2009 (60) 72 M UT 12 3 4 x 8-15 → → → → →
+L599: Volek 2013 (whey; 61) 23 M (37) F (26) UT 36 2 or 3 3-5 x 3-15 → → ↑ →
+L600: Volek 2013 (soy; 61) 24 M (37) F (26) UT 36 2 or 3 3-5 x 3-15 → → → →
+L601: Weisgarber 2012 (62) 24 M (9) F (8) UT 8 4 3 x 6-10 → → → →
+L602: White 2009 (yogurt; 63) 21 F UT 8 3 ? → → → →
+L603: White 2009 (whey; 63) 19 F UT 8 3 ? → → → →
+L604: Willoughby 2007 (64) 19 M UT 10 4 3 x 6-8 ↑ ↑ ↑ →
+L605: **Note:** PRO = protein, CHO = carbohydrate, M = male, F = female, T = trained, UT = untrained, 1RM = one-repetition-maximum, MVC = maximum voluntary contraction, FFM = fat-free mass, FM = fat mass,
+L606: CSA = cross sectional area, → no difference between groups, ↑ protein group increased more than the control group, and ↓ protein group decreased more than the control group.
+L607: **Supplementary Table 2. Experiemental and control condition details**
+L608: **Supplement/Dietary Details** **Placebo/Control Details**
+L609: **Author and Year** **Composition** **Amount** **Timing** **N** **Amount** **N**
+L610: Andersen 2005 (16)
+L611: Antonio 2014 (18)
+L612: Antonio 2015 (17)
+L613: Arazi 2011 (19)
+L614: Arnason 2013 (20)
+L615: Babault 2015 (whey; 22)
+L616: Babault 2015 (pea; 22)
+L617: Babault 2014 (milk; 21)
+L618: Babault 2014 (casein; 2!)
+L619: Bemben 2010 (23)
+L620: Brown 2004 (whey; 24)
+L621: Brown 2004 (soy; 24)
+L622: Bunout 2004 (25)
+L623: Burke 2001 (26)
+L624: Campbell 1995 (27)
+L625: Candow 2006 (whey; 28)
+L626: Candow 2006 (soy; 28)
+L627: Candow 2006a (pre-ex; 29)
+L628: Candow 2006a (post-ex; 29)
+L629: Carter 2005 (30)
+L630: Coburn 2006 (31)
+L631: Cribb 2007 (32)
+L632: Daly 2014 (33)
+L633: Deibert 2011 (34)
+L634: Eliot 2008 (35)
+L635: Erksine 2012 (36)
+L636: Farup 2014 (37)
+L637: Hartman 2007 (milk; 38)
+L638: Hartman 2007 (soy; 38)
+L639: Herda 2013 (39)
+L640: Hoffman 2007 (40)
+L641: Hoffman 2009 (morning + night; 41)
+L642: Hoffman 2009 (pre- + post-ex; 41)
+L643: Hulmi 2009 (42)
+L644: Hulmi 2009a (44)
+L645: Hulmi 2015 (PRO; 43)
+L646: Hulmi 2015 (PRO+CHO; 43)
+L647: Protein blend (whey, casein, egg white Training days = pre- and post-exercise; non-training days =
+L648: 25 g 11 25 g CHO 11
+L649: protein and glutamine) morning
+L650: Instructed to consume high protein diet 4.4 g/kg/day PRO diet N/A 20 1.8 g/kg/day PRO diet 10
+L651: Instructed to consume high protein diet 3.4 g/kg/day PRO diet N/A 31 No instruction - 2.3 g/kg/day PRO 17
+L652: Whey protein provided to increase
+L653: dietary protein intake
+L654: 1.8 g/kg/day was supplemented to
+L655: increase PRO in diet
+L656: Training days = morning, post-exercise and night; non20 CHO (unknown g) 20
+L657: training days = morning and night
+L658: Whey protein beverage 20 g (+20 g CHO and 1 g fat) Training days = post-exercise 75 40 g CHO, 1 g fat 66
+L659: Training days = morning and post-exercise; non-training
+L660: Whey protein 25 g 54 37.125 g CHO (74.25 g/d) 54
+L661: days = morning and afternoon
+L662: Training days = morning and post-exercise; non-training
+L663: Pea protein 25 g 53 37.125 g CHO (74.25 g/d) 54
+L664: days = morning and afternoon
+L665: Training days = morning, pre- and post-exercise; nonMilk protein beverage 10 g (+20 g CHO) 22 30 g CHO 24
+L666: training days = morning and night
+L667: Training days = morning, pre- and post-exercise; nonCasein protein beverage 10 g (+20 g CHO) 22 30 g CHO 24
+L668: training days = morning and night
+L669: Whey protein + Gatorade 35 g (+480 mL Gatorade) Training days = post-exercise 11 480 mL Gatorade 10
+L670: Whey protein bar 11 g Three times daily 9 N/A 9
+L671: Soy protein bar 11 g Three times daily 9 N/A 9
+L672: Provided soup or porridge 6.5 g Two times daily 31 N/A 28
+L673: Whey protein additional 1.2 g/kg/day Four times daily 12 1.2 g/kg/day CHO 11
+L674: Milk beverage to increase dietary Milk with reduced additional PRO - 0.2
+L675: additional 1 g/kg/day ? 6 6
+L676: protein intake g/kg/day PRO
+L677: Training days = pre-exercise, post-exercise and pre-sleep;
+L678: Whey protein additional 1.2 g/kg/day 9 1.2 g/kg/day CHO 9
+L679: non-training days = three times spread throughout the day
+L680: Training days = pre-exercise, post-exercise and pre-sleep;
+L681: Soy protein additional 1.2 g/kg/day 9 1.2 g/kg/day CHO 9
+L682: non-training days = three times spread throughout the day
+L683: Whey protein + Myoplex + Cocoa additional 0.3 g/kg PRO Training days= pre-exercise with a placebo post-exercise 9 0.63 g/kg CHO 10
+L684: Whey protein + Myoplex + Cocoa additional 0.3 g/kg PRO Training days= post-exercise with a placebo pre-exercise 10 0.63 g/kg CHO 10
+L685: Whey protein + Gatorade 35 g (+480 mL Gatorade) Training days = post-exercise 11 480 mL Gatorade 10
+L686: Training days = morning, pre- and post-exercise; nonWhey and leucine beverage 20 g (+6.2 g leucine) 11 26.2 g CHO 12
+L687: training days = morning
+L688: Whey protein 1.29 g/kg/day Morning, post-exercise and pre-sleep 5 1.325 g/kg/day CHO 7
+L689: Provided red meat 45 g/day Food was supplied and consumed it in two different meals 48 25-35 g CHO 43
+L690: Soy protein 13.35 g (+7.65 g CHO) Post-exercise or evening 15 N/A 15
+L691: Whey protein 35 g (+480 mL Gatorade) Training days = post-exercise 11 480 mL Gatorade 10
+L692: Whey protein 20 g (+6.7 g lactose) Training days = pre- and post-exercise 17 6.8 g lactose 16
+L693: Whey protein beverage 19.5 g (+19.5 g CHO) Training days = half pre- and half post-exercise 11 39 g CHO 11
+L694: Milk protein beverage 17.5 g (+25.7 g CHO and 0.4 g fat) Training days = immediately and 1h post-exercise 18 9% CHO 19
+L695: Soy protein beverage 17.5 g (+25.7 g CHO and 0.4 g fat) Training days = immediately and 1h post-exercise 19 9% CHO 19
+L696: Training days = pre- and post-exercise; non-training days =
+L697: Whey protein 20 g 22 27 g CHO 21
+L698: once with no specific time
+L699: Protein blend (glutamine, whey, egg and Training days = morning and post-exercise; non-training
+L700: 42 g (+18 g CHO and 3 g fat) 11 63 g CHO, 2 g PRO and 2 g fat 10
+L701: milk protein) days = morning
+L702: Protein blend (collagen, whey and
+L703: 42 g (+2 g CHO) Morning and evening daily 13 N/A 7
+L704: casein)
+L705: Protein blend (collagen, whey and Training days = pre- and post-exercise; non-training days =
+L706: 42 g (+2 g CHO) 13 N/A 7
+L707: casein) taken at similar two similar times
+L708: Whey protein 15 g Training days = pre- and post-exercise 11 Nonenergetic placebo drink 10
+L709: Whey protein 15 g Training days = pre- and post-exercise 9 Nonenergetic placebo drink 9
+L710: Whey protein 30 g (+5 g lactose) Training days = post-exercise 22 34.5 g CHO 21
+L711: Whey protein beverage 30 g (+34.5 g CHO) Training days = post-exercise 25 34.5 g CHO 21
+L712: Instructed to consume high protein diet 1.6 g/kg/day PRO diet N/A 18 0.8 g/kg/day PRO 18
+L713: Iglay 2009 (45)
+L714: **Supplementary Table 2 Continued.**
+L715: **Supplement/Dietary Details** **Placebo/Control Details**
+L716: **Author and Year** **Composition** **Amount** **Timing** **N** **Amount** **N**
+L717: Josse 2010 (46)
+L718: Kerksick 2006 (whey + casein; 47)
+L719: Kerksick 2006 (whey + EAA; 47)
+L720: Leenders 2013 (men; 48)
+L721: Leenders 2013 (women; 48)
+L722: Mielke 2009 (49)
+L723: Mitchell 2015 (young; 50)
+L724: Mitchell 2015 (old; 50)
+L725: Negro 2014 (51)
+L726: Oesen 2015 (52)
+L727: Olsen 2006 (53)
+L728: Paoli 2015 (55)
+L729: Paoli 2016 (54)
+L730: Rankin 2004 (56)
+L731: Reidy 2016 (whey; 57)
+L732: Reidy 2016 (soy; 57)
+L733: Rozenek 2002 (58)
+L734: Snijders 2015 (59)
+L735: Verdijk 2009 (60)
+L736: Volek 2013 (whey; 61)
+L737: Volek 2013 (soy; 61)
+L738: Weisgarber 2012 (62)
+L739: White 2009 (yogurt; 63)
+L740: White 2009 (whey; 63)
+L741: Willoughby 2007 (64)
+L742: Fat-free milk 18 g (+24 g CHO) Training days = immediately and 1h post-exercise 10 CHO (unknown g) 10
+L743: Training days = post-workout; non-training days =
+L744: Whey and casein beverage 40 g (+8 g casein) 10 48 g CHO 11
+L745: morning
+L746: Training days = post-workout; non-training days =
+L747: Whey and AA beverage 40 g (+3 g BCAA and 5 g glutamine) 15 48 g CHO 11
+L748: morning
+L749: 15 g (+0.5 g fat, 7.13 g lactose and 0.42
+L750: Milk Morning daily 15 7.13 g lactose, 0.42g calcium 14
+L751: g calcium)
+L752: 15 g (+0.5 g fat, 7.13 g lactose and 0.42
+L753: Milk Morning daily 12 7.13 g lactose, 0.42g calcium 12
+L754: g calcium)
+L755: Training days = pre- and post-exercise; non-training days =
+L756: Whey and leucine beverage 20 g (+6.2 g leucine) 13 20 g CHO 13
+L757: morning and night
+L758: Training days = post-exercise; non-training days = taken
+L759: 500ml chocolate milk 14 g (+54 g CHO and 5 g fat) ? 0.4 g PRO, 5 g fat and 66 g CHO ?
+L760: after breakfast
+L761: Training days = post-exercise; non-training days = taken
+L762: 500ml chocolate milk 14 g (+54 g CHO and 5 g fat) ? 0.4 g PRO, 5 g fat and 66 g CHO ?
+L763: after breakfast
+L764: Daily 135 g serving of lean beef 20 g (+1.7 g fat) Training days = post-exercise 12 N/A 14
+L765: 20.7 g (+9.3 g CHO, 3 g fat, 800 IU Vit
+L766: Protein beverage
+L767: D, 2.9 mg Vit B6 and 3 ug Vit B12)
+L768: Training days = morning and post-exercise; non-training
+L769: 25 N/A 31
+L770: days = morning
+L771: Milk 20 g (+80 g CHO) Training days = half pre-exercise and half post-exercise 8 80 g CHO 8
+L772: Provided whey protein to increase
+L773: 1.8 g/kg/day PRO diet Training days = pre- and post-exercise 9 0.85 g/kg/day CHO 9
+L774: dietary protein intake
+L775: Provided whey protein to increase
+L776: 1.8 g/kg/day PRO diet Training days = pre- and post-exercise 9 0.85 g/kg/day CHO 9
+L777: dietary protein intake
+L778: 0.21 g/kg (+0.92 g/kg CHO and 0.06
+L779: Low fat chocolate milk Training days = post-exercise 10 1.25 g/kg CHO 9
+L780: g/kg fat)
+L781: Training days = post-exercise; non-training days = between
+L782: Whey protein 22 g 23 22 g CHO 23
+L783: meals
+L784: Training days = post-exercise; non-training days = between
+L785: Soy protein 22 g 22 22 g CHO 23
+L786: meals
+L787: Daily with half consumed between the morning and
+L788: Protein beverage 106 g (+356 g CHO and 18 g fat) 26 450 g CHO, 24 g PRO, 14 g fat 25
+L789: afternoon and half consumed pre-sleep
+L790: Casein protein 27.5 g (+15 g CHO) Daily pre-sleep 20 Nonenergetic placebo drink 19
+L791: Casein protein 10 g Training days = pre- and post-exercise 13 citric acid and CHO (unknown g) 13
+L792: Whey protein 21.6 g (+22.5 g CHO and 1.9 g fat) Training days = post-exercise; non-training days = morning 19 45.2 g CHO 22
+L793: Soy protein 20 g (+24.5 g CHO and 1.3 g fat) Training days = post-exercise; non-training days = morning 22 45.2 g CHO 22
+L794: Training days = half pre-exercise and the rest throughout
+L795: Whey protein 0.3 g/kg body mass 9 0.2 g/kg cornstarch and 0.1 g/kg sucrose 8
+L796: the training session
+L797: 5 g (+19 g CHO, 200 mg calcium and
+L798: Yogurt Three yogurts per day 12 25 g CHO 11
+L799: 80 IU Vit D)
+L800: Whey protein 5 g (+20 g CHO) Training days = post-exercise 12 25 g CHO 11
+L801: Protein blend (whey, milk, casein and Training days = pre- and post-exercise; non-training days =
+L802: 40 g 10 40 g CHO 9
+L803: AAs) morning
+L804: **Note:** EAA = essential amino acids, Vit = vitamin, CHO = carbohydrate, and PRO = protein,
+L805: **Supplementary Table 3. Additional univariate meta-regressions.**
+L806: 1RM Fat Free Mass
+L807: **Univariate** N Coeff. (95% CI) Adj. R [2] _I_ [2] p-value N Coeff. (95% CI) Adj. R [2] _I_ [2] p-value
+L808: Mean Diff - Total PRO intake (g/kg/d) 16 2.54 (-8.01, 13. 07) -2% 55% 0.61 18 -0.01 (-1.14, 1.13) -20% 17% 0.99
+L809: Mean Diff - △PRO intake (g/d) 13 -0.03 (-0.13, 0.08) 0% 0% 0.60 14 -0.01 (-0.02, 0.01) 0% 0% 0.70
+L810: Repetitions per set 28 -0.14 (-1.25, 0.98) -9% 34% 0.80 26 0.02 (-0.07, 0.10) -6% 0% 0.74
+L811: Sets per exercise 28 1.97 (-0.62, 4.57) 31% 16% 0.13 25 -0.01 (-0.51, 0.48) -18% 0% 0.96
+L812: Exercises per session 25 0.33 (-0.21, 0.87) 15% 29% 0.23 23 0.02 (-0.06, 0.09) -29% 2% 0.17
+L813: Frequency (sessions per week) 27 2.54 (-0.95, 6.03) 22% 28% 0.15 26 0.12 (-0.17, 0.41) 7% 0% 0.39
+L814: Length (number of weeks) 29 -0.21 (-0.51, 0.08) 9% 47% 0.15 27 -0.02 (-0.05, 0.01) 10% 2% 0.24
+L815: Total Volume 24 -0.00 (-0.00, 0.00) -14% 45% 0.69 23 -0.00 (-0.00, 0.00) -15% 3% -0.90
+L816: Source (whey or soy) 17 -1.95 (-10.98, 7.08) -12% 59% 0.65 14 -0.12 (-0.95, 0.71) -36% 31% 0.85
+L817: Sex (male or female) 24 -0.27 (-7.61, 7.06) -6% 36% 0.94 21 -0.04 (-0.72, 0.63) -23% 15% 0.90
+L818: Type (diet or exercise-supplement) 28 -2.12(-5.75, 1.52) 20% 21% 0.24 27 0.05 (-0.42, 0.52) -21% 10% 0.83
+L819: Whole-body (yes or no) 27 4.41 (1.14, 7.68) 76% 2% 0.01 25 -0.22 (-1.15, 0.71) -2% 1% 0.63
+L820: Supervision (yes or no) 28 -3.80 (-7.56, -0.06) 58% 5% 0.05 27 0.48 (-0.28, 1.24) 21% 0% 0.21
+L821: **Note:** Diff = difference, PRO = protein, and 1RM = one-repetition-maximum
+[28ms]
+

@@ -1,0 +1,1231 @@
+L1: Beet supplementation mitigates post-exercise inflammation
+L2: Frontiers in Nutrition (2024)
+L3: David C. Nieman, Camila A. Sakaguchi, James C. Williams, Fayaj A. Mulani, Patil Shivprasad Suresh, Ashraf M. Omar, Qibin Zhang
+L4: 1 Human Performance Laboratory, Appalachian State University, North Carolina Research Campus ,  Kannapolis, NC ,  United States
+L5: 2 UNCG Center for Translational Biomedical Research, University of North Carolina at Greensboro, North Carolina Research Campus ,  Kannapolis, NC ,  United States
+L6: Objectives
+L7: This study investigated the efficacy of a mixed beet-based supplement (BEET) versus placebo (PL) in countering inflammation during recovery from 2.25 h of intensive cycling in 20 male and female cyclists. A multi-omics approach was used that included untargeted proteomics and a targeted oxylipin panel.
+L8: Methods
+L9: A randomized, placebo-controlled, double-blind, crossover design was used with two 2-week supplementation periods and a 2-week washout period. Supplementation periods were followed by a 2.25 h cycling bout at close to 70%VO 2max . The BEET supplement provided 212 mg of nitrates per day, 200 mg caffeine from green tea extract, 44 mg vitamin C from Camu Camu berry, B-vitamins from quinoa sprouts (40% Daily Value for thiamin, riboflavin, niacin, and vitamin B6), and 2.5 g of a mushroom blend containing Cordyceps sinensis and Inonotus obliquus. Six blood samples were collected before and after supplementation (overnight fasted state), immediately post-exercise, and at 1.5 h-, 3 h-, and 24 h-post-exercise.
+L10: Results
+L11: The 2.25 h cycling bout increased plasma levels of 41 of 67 oxylipins detected. BEET supplementation significantly increased plasma nitrate (NO 3 − ) and nitrite (NO 2 − ) (sum, NO 3 −  + NO 2 − ) concentrations (interaction effect,  p  < 0.001) and two anti-inflammatory oxylipins [18-hydroxyeicosapentaenoic acid (18-HEPE) and 4-hydroxy-docosahexanoic acid (4-HDoHE)]. The untargeted proteomics analysis identified 616 proteins (458 across all times points), and 2-way ANOVA revealed a cluster of 45 proteins that were decreased and a cluster of 21 that were increased in the BEET versus PL trials. Functional enrichment supported significant BEET-related reductions in inflammation-related proteins including several proteins related to complement activation, the acute phase response, and immune cell adhesion, migration, and differentiation.
+L12: Discussion
+L13: Intake of a BEET-based supplement during a 2-week period was linked to higher plasma levels of NO 3 −  + NO 2 − , elevated post-exercise levels of two anti-inflammatory oxylipins, and a significant decrease in a cluster of proteins involved in complement activation and inflammation. These data support that 2-weeks intake of nitrate from a mixed beet-based supplement moderated protein biomarkers of exercise-induced inflammation in athletes.
+L14: Nutrition; Original Research; Original Research
+L15: beets; exercise; proteomics; oxylipins; inflammation
+L16: Introduction
+L17: Nitrate is found in some root vegetables such as beets and in green leafy vegetables such as spinach and lettuce. The typical Western diet provides about 110 mg/day nitrate ( 1 ,  2 ). After ingestion, nitrate is metabolized to nitric oxide and other bioactive nitrogen oxides through a complex pathway. Nitrate is absorbed in the small intestine and peak plasma levels can be measured 30–60 min post-intake with an effective half-life of about six hours ( 3 ). Nitrate is cleared by the kidneys, but about 25% of the nitrate is taken up and secreted by the salivary glands and is subsequently reduced to nitrite by commensal bacteria in the mouth ( 4 ). The nitrite is then swallowed, absorbed through the intestinal tract, and further reduced to nitric oxide and other nitrite intermediates by enzymatic and nonenzymatic mechanisms in the blood and tissues. The use of mouthwashes, antacids, and chewing gum can interfere with the microbiome in the mouth and the conversion of nitrate to nitrite.
+L18: Dietary nitrate has been linked to several health-related benefits including blood pressure reduction, improved vascular function, and modulation of inflammatory processes and immune cell function ( 3 ). Nitric oxide acts as a signaling molecule during exercise and has physiological effects including vasodilation to increase blood flow regulation of muscle contraction and glucose uptake regulation of cellular respiration. The primary performance benefit of nitrate supplementation appears to be a reduction in the energy cost of exercise and a corresponding modest improvement in endurance capacity ( 5–7 ). Studies reporting performance benefits used acute nitrate doses of 5–6 mmol (or about 300 mg), or chronic doses at about half that amount ( 8 ). Chronic nitrate supplementation has not been consistently linked to improvements in aerobic capacity or performance ( 9 ). Concerns have been raised about high nitrate intake by athletes and the formation of carcinogenic N-nitroso compounds, a process that may be inhibited by vitamin C ( 10–13 ). An acceptable daily intake (ADI) level of 3.7 mg nitrates per kg body weight has been recommended by the Joint FAO/WHO Expert Committee on Food Additives (JECFA) ( 14 ). This recommendation includes all nitrate sources including plant foods, drinking water, and cured and processed meats, although a different approach is recommended for nitrate from plant food sources ( 15 ). Co-supplementation of nitrate with caffeine, vitamin C, and other food components may enhance potential beneficial effects from moderate intake of nitrate and minimize risks from N-nitroso compounds ( 16 ).
+L19: Nitric oxide is considered a potent anti-inflammatory mediator and inhibitor of leukocyte recruitment, a key feature of inflammatory responses ( 3 ). However, most of the evidence comes from rodent-based studies. Human studies investigating the effects of nitrate or nitrate-rich beetroot juice on exercise-induced inflammation and muscle damage have produced mixed results ( 8 ,  17–19 ). Part of the problem is that only a few basic outcome measures related to inflammation (e.g., C-reactive protein, IL-6, IL-8) have been utilized in these studies. This study used a multi-omics approach centered on targeted oxylipins and untargeted proteomics analysis to investigate the influence of 2-weeks dietary nitrate ingestion from a beet-based mixed supplement on exercise-induced inflammation. Oxylipins are upstream regulators of inflammation, increase strongly after prolonged and vigorous exercise, and exert both pro- and anti-inflammatory effects depending on the fatty acid substrate and enzyme system ( 20–24 ). Untargeted proteomics studies indicate that long endurance cycling and running cause perturbations in numerous immune system and inflammatory proteins ( 25–27 ). Previous studies by our research group indicate that exercise-induced changes in inflammatory oxylipins and proteins can be moderated through nutrition-based interventions ( 21–24 ,  28 ,  29 ). We hypothesized that a multi-omics approach would reveal that 2-weeks ingestion of a beet-based supplement would mitigate exercise-induced inflammation.
+L20: Methods
+L21: Study participants
+L22: Male and female cyclists were invited to take part in this study if they met the inclusion criteria including 18 to 60 years of age, capable of cycling 2.25 h in a laboratory setting at 70% maximal oxygen consumption rate (VO 2max ), and a willingness to avoid supplements and medications such as non-steroidal anti-inflammatory drugs (NSAIDs) with a potential to influence inflammation. Participants also agreed to limit intake of nitrate-rich vegetables during the study to less than 1 cup per day. These vegetables included spinach, lettuce, beets, beetroot juice, celery, and cabbage. Participants also agreed to avoid the use of mouthwashes, antacids, and chewing gum during the entire 6-week study and the 2-week period prior to the study. During the 3-day period prior to the 2.25 h cycling session, subjects agreed to taper exercise training and ingest a moderate-carbohydrate diet using a food list restricting high fat foods and visible fats.
+L23: A total of 46 participants were assessed for eligibility and 25 were entered into the study, with 20 completing all aspects of the protocol ( Figure 1 ). The study participant number provided more than 80% power to detect a difference in pro-inflammatory oxylipins with an effect size 1.06 at alpha 0.05 using two-sample  t -tests ( 23 ). Participants voluntarily signed the informed consent, and procedures were approved by the university’s Institutional Review Board. Trial Registration:  ClinicalTrials.gov , U.S. National Institutes of Health, identifier: NCT05907135.
+L24: Figure 1 Study participant flow diagram.
+L25: Study design
+L26: This study employed a randomized, placebo controlled, double-blind, crossover design with two 2-week supplementation periods and a 2-week washout period. The study included seven lab visits at the Appalachian State University Human Performance Laboratory (HPL) at the North Carolina Research Campus, Kannapolis, NC.
+L27: During the first two lab visits prior to the 2-week supplementation period, study participants were given a complete orientation to the study protocol, signed the consent form, provided an overnight fasted blood sample, reported demographics and training histories using questionnaires, and recorded responses to the delayed onset of muscle soreness (DOMS) 1–10 scale questionnaire ( 30 ). Height and body weight were assessed, with body composition measured using the BodPod system (Cosmed, Rome, Italy). Study participants were tested for maximal aerobic capacity (VO 2max ) during a graded, cycling test with the Lode cycle ergometer (Lode B.V., Groningen, Netherlands) and the Cosmed CPET metabolic cart (Cosmed, Rome, Italy).
+L28: The beet-based (BEET) and placebo (PL) supplements (randomized order using double-blind procedures) for the first and second 2-week supplementation periods were supplied in coded packets. To facilitate compliance to the supplementation protocol, study participants were contacted via email on a regular basis and also returned the coded packets at the end of the supplementation period. Supplements ingested daily (two doses, early morning and mid-day, each mixed in 250 mL cold water) for 2-weeks prior to participation in the first 2.25 h cycling session. After a 2-week washout period, participants repeated all procedures using the counterbalanced supplement. The BEET and PL supplements were supplied by the sponsor (Standard Process, Palmyra, Wisconsin, USA). Each BEET packet (14 grams) included powder from beets and fermented beets to provide nitrates (106 mg of nitrates per serving), green tea extract with caffeine (100 mg), Camu Camu to provide vitamin C (22 mg), quinoa sprouts to provide B-vitamins (20% of the Daily Value for thiamin, riboflavin, niacin, and vitamin B6), and a mushroom blend of three common mushrooms (1.5 g of caterpillar fungus, lion’s mane, chaga). The PL supplement included excipients with none of the active ingredients. PL ingredients included a carbohydrate blend (monosaccharides, disaccharides, maltodextrin, corn starch), monk fruit extract, dietary fibers including cellulose and rice bran, rice silica, malic acid, beet flavor, cranberry flavor, and colorants. Participants reported no adverse events from ingesting the supplements over the 2-week periods and were 100% compliant with the supplementation regimen. After the study was completed, study participants responded to a questionnaire regarding “what supplement do you think you were taking during each of the 2-week supplementation periods?” A total of 22.5 and 60% correctly identified the use of PL and BEET supplements, respectively (Chi-square = 12.95,  p  = 0.0015). Study participants reported a red color in their urine and stool when using the BEET supplement.
+L29: After the 2-week supplementation period, study participants reported to the Human Performance Lab in an overnight fasted state, provided a blood sample, ingested one 14-gram packet of the BEET or PL supplement with 250 mL water, and then cycled for 2.25 h at high intensity (70% VO 2max ) while ingesting water alone (3 mL/kg every 15 min). Participants cycled on their own bicycles fitted to Saris H3 direct drive smart trainers (Madison, WI, USA) with monitoring by the Zwift online training platform (Long Beach, CA, USA). Heart rate, cycling speed, cadence, distance, power, breathing rate, ventilation, and oxygen intake were measured after 15 min and then every 30 min during the cycling session. To ensure performance consistency between trials and to focus on the effect of the BEET supplement on exercise-induced inflammation, performance data from the first trial were used to ensure a similar power and metabolic output during the second trial. Blood samples were collected at 0 h, 1.5 h, 3 h, and 24 h post-exercise. After each blood collection, participants provided a DOMS rating. Immediately after the 1.5 h post-exercise blood sample, all subjects consumed 7 kilocalories per kilogram of body weight of a fortified nutrient beverage (Boost, Nestlé S.A., Vevey, Switzerland). Blood samples were aliquoted and stored at-80°C prior to analysis for the outcome measures.
+L30: Sample analysis
+L31: Serum creatine kinase, myoglobin, and coritsol (from serum separator tubes), and complete blood counts (CBCs) with a white blood cell differential count (EDTA tubes) were analyzed using Labcorp services (Burlington, NC). Plasma aliquots were prepared from EDTA blood collection tubes and stored in a-80°C freezer until analysis for nitrate, nitrite, proteomics, and oxylipins after the study was completed.
+L32: Plasma nitrate and nitrite
+L33: The nitrate/nitrite fluorometric assay kit (item # 780051) from the Cayman Chemical Company (Ann Arbor, MI) was used to measure plasma concentrations of nitrate (NO 3 − ) and nitrite (NO 2 − ). This assay was performed in accordance with the instructions provided by the manufacturer with the plates read using the SpectraMax iD3 Multi-Mode Microplate Reader (Molecular Devices, LLC San Jose, CA, USA). Data were processed using BioTek Gen5 2.0 software (BioTek, Agilent, Santa Clara, CA, USA). Samples were analyzed in duplicate (mean coefficient of variation or CV of 9.8%). The sum of both NO 3 −  and nitrite NO 2 −  was used as an index of total nitric oxide production as recommended by Cayman (lower limit of detection 0.70 μM, intra-assay CV 2.7%). The process includes 2 steps: conversion of nitrate to nitrite using a nitrate reductase, followed by addition of an acidic solution (DAN) which isolates nitrate and yields the product 1(H)-naphthotriazole. Sodium hydroxide (NaOH) is then added to enhance fluorescence of the product. Sample concentrations were plotted along a standard curve, which was made using fresh standards provided in the assay kits.
+L34: Plasma oxylipins
+L35: Plasma arachidonic acid (ARA), eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA), and oxylipins were analyzed using a liquid chromatography-multiple reaction monitoring mass spectrometry (LC-MRM-MS) method as fully described elsewhere ( 31 ). Resultant data files were processed with Skyline, and the auto-integrated peaks were inspected manually. Concentrations of each oxylipin were determined from calibration curves of each analyte, which were constructed by normalizing to the selected deuterated internal standards followed by linear regression with 1/x weighting ( Supplement Data Sheet 1 ). The coefficient of variation for the quality control standards was <15% as reported in the method development paper ( 31 ). A total of 41 of 67 oxylipins detected increased significantly post-exercise, and these were grouped for statistical analysis. Seven oxylipins generated from arachidonic acid and cytochrome P-450 (ARA-CYP) were grouped and these included 5,6-, 8,9-, 11,12-, and 14,15-dihydroxy-eicosatetraenoic acid (diHETrEs), 16-, 17-hydroxy-eicosatetraenoic acids (HETEs), and the 20-HETE metabolite 20-carboxy-arachidonic acid (20-coohAA). Four abundant oxylipins generated from linoleic acid (LA) with CYP and lipoxygenease (LOX) were also grouped, including 9,10- dihydroxy-9Z-octadecenoic acid (DiHOME), 12,13-DiHOME, 9- hydroxy-octadecadienoic acid (HODE), and 13-HODE (LA-DiHOMES + HODES).
+L36: Plasma proteome and statistical procedures
+L37: Untargeted proteomics were conducted using methods previously described ( 22 ,  32 ). Briefly, after sample preparation, 200 ng peptides from the plasma samples were loaded onto disposable EvoTip trap-columns (EV-2003, EvoSep, Denmark) and separated on an EvoSep One ™ LC system (EV-1000, EvoSep, Denmark) using a 21 min gradient with 1 μL/min flow rate. Effluents were analyzed on a high resolution Orbitrap Exploris 240 (Thermo) mass spectrometer using the data independent acquisition (DIA) method. The plasma protein library was generated using the gas-phase fractionation DIA method from peptide samples with and without depletion of the top 14 high-abundance plasma proteins (14,120 precursors, 960 proteins). The obtained LC–MS/MS dataset was searched for protein identification and quantitation using DIA-NN ( 33 ). Data were normalized by referencing to the protein levels of the first time point from the same individual subject to effectively correct for inter-individual variations ( 34 ) ( Supplementary Data Sheet 2 ). The normalized values were statistically analyzed using the ANOVA test with two trials and six timepoints. To consider the protein as significantly changing between or within effects, the  p -value was set to less than 0.05. Maximum likelihood-based hierarchical clustering analysis was used to cluster proteins with similar level patterns, and the results were visualized as a heatmap with the averaged value of each time-point after normalization by z-score. The list of significantly changed proteins in the enriched clusters were functionally enriched using STRING (Ver.11.5). 1  The top enriched biological processes from STRING analysis were selected to represent the functions of the proteins.
+L38: Additional statistical procedures
+L39: The data are expressed as mean ± SE and were analyzed using the generalized linear model (GLM), repeated measures ANOVA module in SPSS (IBM SPSS Statistics, Version 28.0, IBM Corp, Armonk, NY, USA). The statistical model utilized the within-subjects approach: 2 (trials) x 6 (time points) repeated measures ANOVA and provided time (i.e., the collective effect of the cycling exercise bout) and interaction effects (i.e., whether the data pattern over time differed between trials). If the interaction effect was significant ( p  ≤ 0.05), then post-hoc analyses were conducted using paired  t -tests comparing time point contrasts between trials. An alpha level of  p  ≤ 0.01 was used after Bonferroni correction for 5 multiple tests. The positive false discovery rate (FDR or “q-value”) was calculated for multiple testing correction of the plasma oxylipin and plasma proteomics data. Cohen’s d effect size was calculated for the oxylipin data as the mean difference between the trials at the immediate post-exercise time point divided by the pooled standard deviation.
+L40: Results
+L41: Table 1  summarizes characteristics for the  n  = 20 study participants ( n  = 14 males,  n  = 6 females) who completed the study protocol. Age, percent body fat, aerobic capacity (VO2max), and training volume were similar between the male and female cyclists. The pattern of change over time did not differ between the male and female cyclists for a key outcome measurement (total plasma oxylipins, supplement x time x sex interaction effect,  p -value =0.835). Thus, outcome measures for this randomized, crossover study are presented for all participants combined.
+L42: Table 1 Subject characteristics ( n  = 20) for male ( n  = 14) and female ( n  = 6) cyclists.
+L43: Performance data for each trial are summarized in  Table 2 . As designed, the two trials were similar in all cycling performance measures including total distance cycled, and percent of maximal heart rates, watts, and oxygen consumption rates.
+L44: Table 2 Average 2.25 h cycling performance outcomes for  n  = 20 cyclists (mean ± SE).
+L45: Data for delayed onset of muscle soreness (DOMS), muscle damage biomarkers, the neutrophil/lymphocyte ratio, and serum cortisol are summarized in  Table 3 . Time effects for each of these variables were significant but the patterns of increase did not differ significantly between the BEET and PL trials (interaction effects,  p -values >0.05).
+L46: Table 3 Trial comparisons for  n  = 20 participants across all time points for muscle soreness* and damage markers (serum creatine kinase and myoglobin), the neutrophil/lymphocyte blood count ratio, and serum cortisol.
+L47: BEET compared to placebo intake was associated with a significant increase in the sum of plasma nitrate and nitrite (NA + NI) (time and interaction effects, both  p  < 0.001) ( Figure 2 ). The increase in NA + NI was significantly different between the BEET and PL trials after 2-weeks supplementation and throughout at least 3 h of recovery from the cycling bout. Trial differences for NA + NI at 24 h post-exercise tended to be different ( p  = 0.089).
+L48: Figure 2 Change in the sum of plasma nitrate and nitrite after 2-weeks BEET and placebo supplementation and during 24 h recovery from 2.25 h cycling in  n  = 20 cyclists. Time and interaction effects, both  p  < 0.001.
+L49: Plasma arachidonic acid (ARA), docosahexaenoic acid (DHA), and eicosapentaenoic acid (EPA) increased significantly post-exercise (time effects,  p  < 0.001) with no significant interaction effects (all  p  > 0.50) ( Supplementary Data Sheet 1 ). A total of 67 oxylipins were detected in study samples. Of these, 41 oxylipins increased significantly post-exercise ( Supplementary Data Sheet 1 ). These 41 oxylipins were summed for a composite variable and analysis showed significant post-exercise increases without trial differences between BEET and PL (interaction effect,  p  = 0.166) (Cohen’s  d  = 0.219, immediately post-exercise) ( Table 4 ). Three other composite variables were calculated including seven oxylipins generated from arachidonic acid and cytochrome P-450 (ARA-CYP), two abundant oxylipins generated from linoleic acid and CYP (9,10-DiHOME, 12,13-DiHOME), and two abundant oxylipins generated from lipoxygenase (LOX) (9-HODE, 13-HODE) ( Table 4 ). Significant time effects were shown for each of these composite oxylipin variables but without significant interaction effects ( Table 4 ) (Cohen’s  d  = 0.102, 0.221, 0.283, respectively, immediately post-exercise). Two anti-inflammatory oxylipins were significantly higher in the BEET versus PL trials ( Figures 3A , B ). These included the EPA-derived oxylipin 18-hydroxyeicosapentaenoic acid (18-HEPE) (time effect,  p  < 0.001, interaction effect,  p  = 0.016) and the DHA-derived oxylipin 4-hydroxydocosahexaenoic acid (4-HDoHE) (time effect  p  < 0.001, interaction effect,  p  = 0.010).
+L50: Table 4 Trial comparisons across all time points for total plasma oxylipins and oxylipin subgroups.
+L51: Figure 3 Change in  (A)  plasma HEPE-18 and  (B)  4-HDoHE in BEET and placebo trials during 24 h recovery from 2.25 h cycling in  n  = 20 cyclists. Interaction effect,  p  = 0.016 and 0.010, respectively.
+L52: A total of 616 plasma proteins were identified with no missing data for 458 proteins across all time points ( Supplementary Data Sheet 2 ). Two-way ANOVA analysis of the normalized data showed that 45 proteins were lower and 21 proteins were higher in the BEET versus PL trials (all  p  < 0.05). The heatmap and line graphs of the clustered proteins are shown in  Figure 4 , and the identity of the clustered proteins is summarized in  Table 5 . Functional enrichment and protein–protein interaction networks are depicted in  Figure 5  and supported a linkage of BEET supplementation with reduced complement activation and inflammatory responses, metabolic process and negative regulation of biological processes, and responses to stimulus, and an increased regulation of insulin-like growth factors (IGF) and uptake of IGF binding proteins, and symbiotic interactions.
+L53: Figure 4 Heatmap and line graphs of clustered proteins in the BEET and placebo trials. T1, pre-study; T2, 2-weeks supplementation, pre-exercise; T3, immediately post-exercise (2.25 h cycling bout); T4, 1.5 h post-exercise; T5, 3 h post-exercise; T6, 24 h post-exercise.
+L54: Table 5 List of 45 proteins that were lower and 21 proteins that were higher with BEET compared to placebo supplementation.
+L55: Figure 5 Protein–protein interaction networks and functional enrichments of  (A)  cluster 1 (45 proteins) that were lower and  (B)  cluster 2 (21 proteins) that were higher in the BEET compared to placebo trials.
+L56: Discussion
+L57: This study employed a strong research design to investigate the effects of 2-weeks intake of a mixed beet-based supplement (212 mg nitrates per day) on inflammation induced by a 2.25 h cycling bout with 20 cyclists. A multi-omics approach was used, and this included a comprehensive targeted oxylipins panel and the measurement of several hundred proteins using untargeted proteomics. BEET supplementation significantly increased plasma NO 3 −  + NO 2 −  1.6-fold after the 2-week supplementation period and 2.6-fold above placebo levels immediately after the cycling bout. The 2.25 h cycling bout caused significant inflammation with a composite variable of 41 oxylipins rising 3.4-fold immediately post-exercise above baseline plasma levels. Plasma oxylipins were still elevated 1.5-fold at the 3 h-post-exercise time point before falling to near baseline levels after 24 h recovery. BEET supplementation did not reduce post-exercise plasma concentrations of pro-inflammatory oxylipins but did have a modest effect in elevating two anti-inflammatory EPA- and DHA-derived oxylipins (18-HEPE and 4-HDoHE). Two-way ANOVA revealed 66 proteins that were increased or decreased with BEET supplementation, and functional enrichment supported significant BEET-related reductions in inflammation-related proteins including proteins related to complement activation, the acute phase response, and immune cell adhesion, migration, and differentiation.
+L58: This is the first exercise-based human clinical trial to investigate the influence of BEET supplementation on inflammation using a human systems biology approach. Other similar studies used a few targeted outcomes, had widely disparate research designs, and generally reported null or minor effects of increased plasma NO 3 −  + NO 2 −  from nitrate supplementation on post-exercise inflammation biomarkers including cytokines ( 8 ,  17–19 ). In one study with 34 runners, beetroot juice versus placebo supplementation for 3 days following a marathon race had no effect on muscle soreness, creatine kinase, interleukin (IL)-6, IL-8, tumor necrosis factor-α (TNFα), blood leukocyte cell counts, or C-reactive protein (CRP) ( 19 ). The major limitation was that beetroot juice supplementation was restricted to the 3-day period after running the marathon race when most of the inflammation biomarkers were similar to pre-marathon levels.
+L59: Nearly all inflammation regulatory oxylipins generated in response to exercise stress come from PUFA substrates that are released from cell membranes and subsequently oxidized from CYP, LOX, and COX enzyme systems ( 20 ). Oxylipin production during recovery from prolonged and intensive cycling is sensitive to nutritional interventions including carbohydrate and blueberry supplementation ( 20–24 ). Underlying mechanisms are still being explored but may include the influence of glucose and polyphenol metabolites on CYP, LOX, and COX enzyme activity and the subsequent generation of specific oxylipin subgroups ( 21–24 ). Nitric oxide in cell culture and rodent-based studies inhibits P450 and LOX enzymes through multiple pathways, and can inhibit or stimulate COX enzymes depending on the physiological context ( 35 ,  36 ). Nitric oxide and oxylipins are viewed as interdependent signaling systems that help regulate inflammation, immune, and metabolic responses ( 37 ). Human clinical trials focused on nitrate supplementation and inflammation regulation from nitric oxide and oxylipins, however, are lacking.
+L60: In our study, BEET supplementation had a modest effect in increasing post-exercise EPA-COX derived HEPE-18 and DHA-LOX derived 4-HDoHE but had no significant effects on the generation of pro-inflammatory linoleic acid (LA)-CYP, LA-LOX, or arachidonic (ARA)-CYP oxylipins. These results suggest that pro-inflammatory oxylipin generation after 2.25 h intensive cycling is relatively unaffected by increases in plasma NO 3 −  + NO 2 −  with 2-weeks BEET intake. Whether or not higher and/or longer duration BEET or nitrate dosing may alter these results remains to be determined. In two previous studies, we showed that 14–18 days supplementation with 1 cup equivalent of blueberries had significant effects on post-exercise plasma oxylipin concentrations ( 21 ,  23 ). In one of these studies, blueberry ingestion was linked to a sustained elevation in DHA- and EPA-derived anti-inflammatory oxylipins including 18-HEPE in response to a 90-min bout of unaccustomed exercise by untrained adults ( 21 ). 18-HEPE is a precursor for resolvins that are specialized pro-resolving lipid mediators (SPM) with well-defined roles in inflammation resolution ( 38 ). 4-HDoHE is a beneficial 5-LOX oxidation product from DHA. Limited data indicate that this oxylipin in cell culture exerts anti-oxidative and anti-inflammatory effects on brain and blood vessel tissues through nuclear factor erythroid 2–related factor 2 (Nrf2) activation ( 39 ,  40 ).
+L61: Previous studies using untargeted proteomics methods indicate that acute prolonged and intensive exercise bouts have a widespread effect on plasma concentrations of proteins involved in immune system and inflammation responses ( 22 ,  25–27 ,  41 ,  42 ). The use of untargeted proteomics in studies with a sports nutrition focus is an emerging research design approach ( 22 ,  43 ). In a recent untargeted proteomics-based study, our research group showed that 4-weeks supplementation with the keto-carotenoid astaxanthin (8 mg/day) countered post-exercise decreases in humoral immunity and plasma immunoglobulins in athletes engaging in a vigorous 2.25 h running bout ( 22 ). In the current study, untargeted proteomics revealed an extensive effect of BEET versus placebo supplementation on 66 proteins, with lower plasma levels for a cluster of 45 proteins and higher levels for a cluster of 21 proteins. Functional enrichment supported a significant reduction in exercise-induced complement activation and inflammatory and stimulus responses. Key inflammation-related proteins that were lower with BEET supplementation included complements C3, C5, and C9, properdin (a positive regulator of the alternate pathway of complement), ficolin-3 (innate immune activator through the lectin complement pathway), serum amyloids A1 and P (acute phase proteins), alpha-1-microglobulin (an inflammation biomarker with acute phase proteins), clusterin (diverse inflammation roles), fibulin-1 and fermitin family homolog 3 (both involved with cell adhesion, migration, and differentiation), hypoxia up-regulated protein 1 (heat shock protein), coronin-1C (plays an important role in immune cell motility and vesicle trafficking), peroxiredoxin-1 (anti-oxidant that can promote inflammation), peroxisome proliferator-activated receptor-delta (regulates cellular metabolic functions and can promote inflammation), reelin (pro-inflammatory and pro-thrombotic factor), and dipeptidyl peptidase 4 membrane form (regulator of T-cell proliferation and natural killer cell kappa B activation). The liver is the source of most complement and acute phase proteins, and complement activation after prolonged and intensive exercise is an acute phase response to physiological stress ( 44 ). Nitric oxide is a pleiotropic and pervasive signaling molecule and influences inflammation in multiple ways including the suppression of immune cell growth, cytokine production, and platelet activation, and regulation of NF-κB activation ( 45 ).
+L62: Table 5  lists 14 immunoglobulin proteins that were lower with BEET versus placebo supplementation. Functional enrichment through STRING does not include immunoglobulins. Although human data are limited, emerging results from animal-based studies indicate an inverse relationship between nitric oxide and immunoglobulin production ( 46–48 ). Elevated nitric oxide may have multiple negative influences on B cell function. Nitric oxide generated from inflammatory monocytes, for example, can decrease B cell survival and hence antibody production ( 47 ). Vaccine adjuvants are being developed to counter the negative effect of nitric oxide on antibody responses ( 48 ). Our finding that BEET intake was associated with lower immunoglobulin proteins in cyclists during recovery from vigorous exercise was unexpected and needs to be confirmed in future studies and then evaluated for clinical significance.
+L63: BEET supplementation was linked to an increase in proteins involved with regulation of insulin like growth factors (IGFs) and symbiotic interactions. The IGF-axis mediates many of the physiological effects of growth hormone and is involved in the regulation of cell growth, proliferation, and survival ( 49 ). IGF binding protein 2 (IGFBP2) modifies IGF-1 functions and this protein was elevated with BEET supplementation. Nitric oxide mediates some of the effects of IGF-1 on vasodilation, increased blood flow, and lowered blood pressure ( 50 ). Other proteins with symbiotic interactions were elevated with BEET supplementation including neural cell adhesion molecule 1 (NCAM1 or CD56), heat shock cognate 71 kDa protein (HSPA8), and annexin A5. These proteins contribute to many biological processes including cell growth and differentiation, signaling, protein homeostasis, and apoptosis ( 51–53 ). Alpha-2-HS-glycoprotein or fetuin-A is a multifunctional protein, has a complex involvement with inflammation depending on the physiological context, and can function as an anti-inflammatory acute phase protein ( 54 ). Intercellular adhesion molecule 1 (ICAM-1) is an adhesion receptor and was also elevated with BEET supplementation. ICAM-1 regulates inflammatory responses by controlling leukocyte recruitment from the blood compartment to sites of inflammation and also is involved in epithelial injury-resolution responses ( 55 ).
+L64: The strength of this study was the combination of a strong research design and multi-omics outcomes to determine if exercise-induced inflammation could be moderated with BEET supplementation. There are several research design features and limitations that should be considered when interpreting study results. This study included non-elite male and female cyclists who were generally middle-aged and cycled for 2 h 15 min at about 75% VO 2max . Thus, the results of this study may not apply to younger elite endurance athletes who exercise at higher intensities. The research design included a 2-week supplementation period of BEET or placebo (two doses per day) with intake continued the day of the exercise challenge. Thus, the changes in protein biomarkers reported in this study could be related to both acute and chronic BEET intake. This research design element is consistent with the practice of many athletes who consume supplements both during training and on the day of competition. Plant-based supplements undergo a complex metabolic process involving the oral and gut microbiomes, metabolite formation from substrates, and subsequent biochemical effects on various enzyme systems including those related to inflammation. Our blood samples were collected in an overnight fasted state (pre- and post-supplementation). On the exercise challenge day, the blood collection was followed by the normal BEET dose and then the cycling bout. Thus, subjects had not consumed the BEET or placebo supplement since the prior day (midday) and most likely explains the low pre-exercise plasma NO 3 −  + NO 2 −  levels. The primary purpose of this study was to investigate the effects of BEET supplementation on exercise-induced inflammation. For this reason, participants exercised in an overnight fasted state to avoid the interactive effects of carbohydrate intake on inflammation. The BEET supplement included a moderate amount of nitrate from beets and fermented beets with caffeine, vitamin C, and other food components that may minimize risks from N-nitroso compounds. Beetroot powder also contains other phytochemicals that may have bioactive effects. We cannot rule out the potential synergistic effects of these other ingredients with beetroot on inflammation.
+L65: Conclusion
+L66: This randomized crossover study used a 2.25 h cycling bout to induce inflammation. Using double blind, placebo-controlled methods, 2-weeks intake of a BEET-based supplement with a moderate amount of nitrate (212 mg/d) increased plasma levels of NO 3 −  + NO 2 − . BEET supplementation did not counter exercise-induced increases in pro-inflammatory oxylipins but did increase post-exercise levels of two anti-inflammatory EPA- and DHA-derived oxylipins. The strongest effect of BEET supplementation was related to a significant decrease in a cluster of proteins involved in complement activation and inflammation. These data support that 2-weeks intake of a mixed beet-based supplement with morning and midday doses moderates protein biomarkers of exercise-induced inflammation in athletes. Carbohydrate and blueberry ingestion also mitigate post-exercise inflammation, an effect that requires more investigation for biological and clinical significance, but is generally interpreted as beneficial to the athlete over the long term ( 21 ,  23 ,  24 ,  29 ). This study did not focus on testing different formulations or dosing approaches. Future research can establish whether higher beet-nitrate intake with various types of adjuvants over a longer time period can amplify the anti-inflammatory effects, especially on pro-inflammatory oxylipins.
+L67: Data availability statement
+L68: The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found in the article/ Supplementary material .
+L69: Ethics statement
+L70: The studies involving humans were approved by Appalachian State University Institutional Review Board, NIH. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study.
+L71: Author contributions
+L72: DN: Conceptualization, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Writing – original draft, Writing – review & editing. CS: Conceptualization, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Supervision, Writing – review & editing. JW: Formal analysis, Investigation, Methodology, Writing – review & editing. FM: Data curation, Formal analysis, Methodology, Writing – review & editing. PS: Data curation, Formal analysis, Investigation, Methodology, Writing – review & editing. AO: Data curation, Formal analysis, Investigation, Writing – review & editing. QZ: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Project administration, Supervision, Writing – review & editing.
+L73: Conflict of interest
+L74: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+L75: The author(s) declared that they were an editorial board member of Frontiers, at the time of submission. This had no impact on the peer review process and the final decision.
+L76: Publisher’s note
+L77: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+L78: Supplementary material
+L79: The Supplementary material for this article can be found online at:  https://www.frontiersin.org/articles/10.3389/fnut.2024.1408804/full#supplementary-material
+L80: Supplementary Material
+L81: Supplementary Material
+L82: 1. Babateen AM Fornelli G Donini LM Mathers JC Siervo M .  Assessment of dietary nitrate intake in humans: a systematic review .  Am J Clin Nutr . ( 2018 )  108 : 878 – 88 . doi:  10.1093/ajcn/nqy108 , PMID:  30321271
+L83: 2. Lundberg JO Weitzberg E Gladwin MT .  The nitrate-nitrite-nitric oxide pathway in physiology and therapeutics .  Nat Rev Drug Discov . ( 2008 )  7 : 156 – 67 . doi:  10.1038/nrd2466 18167491
+L84: 3. Kapil V Khambata RS Jones DA Rathod K Primus C Massimo G .  The noncanonical pathway for in vivo nitric oxide generation: the nitrate-nitrite-nitric oxide pathway .  Pharmacol Rev . ( 2020 )  72 : 692 – 766 . doi:  10.1124/pr.120.019240 32576603
+L85: 4. Raubenheimer K Bondonno C Blekkenhorst L Wagner K-H Peake JM Neubauer O .  Effects of dietary nitrate on inflammation and immune function, and implications for cardiovascular health .  Nutr Rev . ( 2019 )  77 : 584 – 99 . doi:  10.1093/nutrit/nuz025 , PMID:  31150091
+L86: 5. Lorenzo Calvo J Alorda-Capo F Pareja-Galeano H Jiménez SL .  Influence of nitrate supplementation on endurance cyclic sports performance: a systematic review .  Nutrients . ( 2020 )  12 : 1796 . doi:  10.3390/nu12061796 , PMID:  32560317
+L87: 6. McMahon NF Leveritt MD Pavey TG .  The effect of dietary nitrate supplementation on endurance exercise performance in healthy adults: a systematic review and meta-analysis .  Sports Med . ( 2017 )  47 : 735 – 56 . doi:  10.1007/s40279-016-0617-7 , PMID:  27600147
+L88: 7. Senefeld JW Wiggins CC Regimbal RJ Dominelli PB Baker SE Joyner MJ .  Ergogenic effect of nitrate supplementation: a systematic review and meta-analysis .  Med Sci Sports Exerc . ( 2020 )  52 : 2250 – 61 . doi:  10.1249/MSS.0000000000002363 , PMID:  32936597
+L89: 8. Gamonales JM Rojas-Valverde D Muñoz-Jiménez J Serrano-Moreno W Ibáñez SJ .  Effectiveness of nitrate intake on recovery from exercise-related fatigue: a systematic review .  Int J Environ Res Public Health . ( 2022 )  19 : 12021 . doi:  10.3390/ijerph191912021 , PMID:  36231323
+L90: 9. Hogwood AC Anderson KC Ortiz de Zevallos J Paterson C Weltman A Allen JD .  Limited effects of inorganic nitrate supplementation on exercise training responses: a systematic review and meta-analysis .  Sports Med Open . ( 2023 )  9 : 84 . doi:  10.1186/s40798-023-00632-1 , PMID:  37697072
+L91: 10. Berends JE van den Berg LMM Guggeis MA Henckens NFT Hossein IJ de Joode MEJR .  Consumption of nitrate-rich beetroot juice with or without vitamin C supplementation increases the excretion of urinary nitrate, nitrite, and n-nitroso compounds in humans .  Int J Mol Sci . ( 2019 )  20 : 2277 . doi:  10.3390/ijms20092277 , PMID:  31072023
+L92: 11. Said Abasse K Essien EE Abbas M Yu X Xie W Sun J .  Association between dietary nitrate, nitrite intake, and site-specific cancer risk: a systematic review and meta-analysis .  Nutrients . ( 2022 )  14 : 666 . doi:  10.3390/nu14030666 , PMID:  35277025
+L93: 12. Poortmans JR Gualano B Carpentier A .  Nitrate supplementation and human exercise performance: too much of a good thing? 
+L94:  Curr Opin Clin Nutr Metab Care . ( 2015 )  18 : 1 – 604 . doi:  10.1097/MCO.0000000000000222 25207791
+L95: 13. Zamani H de Joode MEJR Hossein IJ Henckens NFT Guggeis MA Berends JE .  The benefits and risks of beetroot juice consumption: a systematic review .  Crit Rev Food Sci Nutr . ( 2021 )  61 : 788 – 804 . doi:  10.1080/10408398.2020.1746629 32292042
+L96: 14. Inchem . Nitrate (JECFA food additives series 50). ( 2003 ). Available at:  https://inchem.org/documents/jecfa/jecmono/v50je06.htm  (Accessed March 25, 2024).
+L97: 15. Pinaffi-Langley ACDC Dajani RM Prater MC HVM N Vrancken K Hays FA .  Dietary nitrate from plant foods: a conditionally essential nutrient for cardiovascular health .  Adv Nutr . ( 2024 )  15 : 100158 . doi:  10.1016/j.advnut.2023.100158 , PMID:  38008359
+L98: 16. Ferrada-Contreras E Bonomini-Gnutzmann R Jorquera-Aguilera C MacmiIlan Kuthe N Peña-Jorquera H Rodríguez-Rodríguez F .  Does co-supplementation with beetroot juice and other nutritional supplements positively impact sports performance?: a systematic review .  Nutrients . ( 2023 )  15 : 4838 . doi:  10.3390/nu15224838 , PMID:  38004231
+L99: 17. Jones L Bailey SJ Rowland SN Alsharif N Shannon OM Clifford T .  The effect of nitrate-rich beetroot juice on markers of exercise-induced muscle damage: a systematic review and meta-analysis of human intervention trials .  J Diet Suppl . ( 2022 )  19 : 749 – 71 . doi:  10.1080/19390211.2021.1939472 , PMID:  34151694
+L100: 18. Rojano-Ortega D Peña Amaro J Berral-Aguilar AJ Berral-de la Rosa FJ .  Effects of beetroot supplementation on recovery after exercise-induced muscle damage: a systematic review. Sports .  Health . ( 2022 )  14 : 556 – 65 . doi:  10.1177/19417381211036412 , PMID:  34399653
+L101: 19. Clifford T Allerton DM Brown MA Harper L Horsburgh S Keane KM .  Minimal muscle damage after a marathon and no influence of beetroot juice on inflammation and recovery .  Appl Physiol Nutr Metab . ( 2017 )  42 : 263 – 70 . doi:  10.1139/apnm-2016-0525 , PMID:  28165768
+L102: 20. Signini ÉF Nieman DC Silva CD Sakaguchi CA Catai AM .  Oxylipin response to acute and chronic exercise: a systematic review .  Meta . ( 2020 )  10 : E264 . doi:  10.3390/metabo10060264 , PMID:  32630487
+L103: 21. Nieman DC Sakaguchi CA Omar AM Davis KL Shaffner CE Strauch RC .  Blueberry intake elevates post-exercise anti-inflammatory oxylipins: a randomized trial .  Sci Rep . ( 2023 )  13 : 11976 . doi:  10.1038/s41598-023-39269-1 , PMID:  37488250
+L104: 22. Nieman DC Woo J Sakaguchi CA Omar AM Tang Y Davis K .  Astaxanthin supplementation counters exercise-induced decreases in immune-related plasma proteins .  Front Nutr . ( 2023 )  10 : 1143385 . doi:  10.3389/fnut.2023.1143385 , PMID:  37025615
+L105: 23. Nieman DC Gillitt ND Chen G-Y Zhang Q Sha W Kay CD .  Blueberry and/or banana consumption mitigate arachidonic, cytochrome P450 oxylipin generation during recovery from 75-km cycling: a randomized trial .  Front Nutr . ( 2020 )  7 : 121 . doi:  10.3389/fnut.2020.00121 , PMID:  32850939
+L106: 24. Nieman DC Gillitt ND Chen G-Y Zhang Q Sakaguchi CA Stephan EH .  Carbohydrate intake attenuates post-exercise plasma levels of cytochrome P450-generated oxylipins .  PLoS One . ( 2019 )  14 : e0213676 . doi:  10.1371/journal.pone.0213676 , PMID:  30883596
+L107: 25. Nieman DC Groen AJ Pugachev A Vacca G .  Detection of functional overreaching in endurance athletes using proteomics .  Proteomes . ( 2018 )  6 : 33 . doi:  10.3390/proteomes6030033 , PMID:  30200480
+L108: 26. Nieman DC Groen AJ Pugachev A Simonson AJ Polley K James K .  Proteomics-based detection of immune dysfunction in an elite adventure athlete trekking across the Antarctica .  Proteomes . ( 2020 )  8 : 4 . doi:  10.3390/proteomes8010004 32138228
+L109: 27. Merritt EK Nieman DC Toone BR Groen A Pugachev A .  Proteomic markers of non-functional overreaching during the race across America (RAAM): a case study .  Front Physiol . ( 2019 )  10 : 1410 . doi:  10.3389/fphys.2019.01410 , PMID:  31798466
+L110: 28. Nieman DC Sakaguchi CA Pelleigrini M Thompson MJ Sumner S Zhang Q .  Healthy lifestyle linked to innate immunity and lipoprotein metabolism: a cross-sectional comparison using untargeted proteomics .  Sci Rep . ( 2023 )  13 : 16728 . doi:  10.1038/s41598-023-44068-9 , PMID:  37794065
+L111: 29. Nieman DC Lila MA Gillitt ND .  Immunometabolism: a multi-omics approach to interpreting the influence of exercise and diet on the immune system .  Annu Rev Food Sci Technol . ( 2019 )  10 : 341 – 63 . doi:  10.1146/annurev-food-032818-121316 , PMID:  30633566
+L112: 30. Smith LL Brunetz MH Chenier TC McCammon MR Houmard JA Franklin ME .  The effects of static and ballistic stretching on delayed onset muscle soreness and creatine kinase .  Res Q Exerc Sport . ( 1993 )  64 : 103 – 7 . doi:  10.1080/02701367.1993.10608784 , PMID:  8451526
+L113: 31. Chen G-Y Zhang Q .  Comprehensive analysis of oxylipins in human plasma using reversed-phase liquid chromatography-triple quadrupole mass spectrometry with heatmap-assisted selection of transitions .  Anal Bioanal Chem . ( 2019 )  411 : 367 – 85 . doi:  10.1007/s00216-018-1446-3 , PMID:  30406832
+L114: 32. Woo J Zhang Q .  A streamlined high-throughput plasma proteomics platform for clinical proteomics with improved proteome coverage, reproducibility, and robustness .  J Am Soc Mass Spectrom . ( 2023 )  34 : 754 – 62 . doi:  10.1021/jasms.3c00022 , PMID:  36975161
+L115: 33. Demichev V Messner CB Vernardis SI Lilley KS Ralser M .  DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput .  Nat Methods . ( 2020 )  17 : 41 – 4 . doi:  10.1038/s41592-019-0638-x , PMID:  31768060
+L116: 34. Geyer PE Arend FM Doll S Louiset M-L Virreira Winter S Müller-Reif JB .  High-resolution serum proteome trajectories in COVID-19 reveal patient-specific seroconversion .  EMBO Mol Med . ( 2021 )  13 : e14167 . doi:  10.15252/emmm.202114167 , PMID:  34232570
+L117: 35. Morgan ET Skubic C Lee C-M Cokan KB Rozman D .  Regulation of cytochrome P450 enzyme activity and expression by nitric oxide in the context of inflammatory disease .  Drug Metab Rev . ( 2020 )  52 : 455 – 71 . doi:  10.1080/03602532.2020.1817061 , PMID:  32898444
+L118: 36. Salvemini D Kim SF Mollace V .  Reciprocal regulation of the nitric oxide and cyclooxygenase pathway in pathophysiology: relevance and clinical implications .  Am J Physiol Regul Integr Comp Physiol . ( 2013 )  304 : R473 – 87 . doi:  10.1152/ajpregu.00355.2012 , PMID:  23389111
+L119: 37. Baker PRS Schopfer FJ O’Donnell VB Freeman BA .  Convergence of nitric oxide and lipid signaling: anti-inflammatory nitro-fatty acids .  Free Radic Biol Med . ( 2009 )  46 : 989 – 1003 . doi:  10.1016/j.freeradbiomed.2008.11.021 , PMID:  19200454
+L120: 38. Weylandt KH Chiu C-Y Gomolka B Waechter SF Wiedenmann B .  Omega-3 fatty acids and their lipid mediators: towards an understanding of resolvin and protectin formation .  Prostaglandins Other Lipid Mediat . ( 2012 )  97 : 73 – 82 . doi:  10.1016/j.prostaglandins.2012.01.005 , PMID:  22326554
+L121: 39. Ishikado A Morino K Nishio Y Nakagawa F Mukose A Sono Y .  4-Hydroxy hexenal derived from docosahexaenoic acid protects endothelial cells via Nrf2 activation .  PLoS One . ( 2013 )  8 : e69415 . doi:  10.1371/journal.pone.0069415 , PMID:  23936010
+L122: 40. Yang B Li R Michael Greenlief C Fritsche KL Gu Z Cui J .  Unveiling anti-oxidative and anti-inflammatory effects of docosahexaenoic acid and its lipid peroxidation product on lipopolysaccharide-stimulated BV-2 microglial cells .  J Neuroinflammation . ( 2018 )  15 : 202 . doi:  10.1186/s12974-018-1232-3 , PMID:  29986724
+L123: 41. Dalle Carbonare L Manfredi M Caviglia G Conte E Robotti E Marengo E .  Can half-marathon affect overall health? The yin-yang of sport .  J Proteomics . ( 2018 )  170 : 80 – 7 . doi:  10.1016/j.jprot.2017.09.004 28887210
+L124: 42. Balfoussia E Skenderi K Tsironi M Anagnostopoulos AK Parthimos N Vougas K .  A proteomic study of plasma protein changes under extreme physical stress .  J Proteome . ( 2014 )  98 : 1 – 14 . doi:  10.1016/j.jprot.2013.12.004 , PMID:  24345577
+L125: 43. Nieman DC .  Multiomics approach to precision sports nutrition: limits, challenges, and possibilities .  Front Nutr . ( 2021 )  8 : 796360 . doi:  10.3389/fnut.2021.796360 , PMID:  34970584
+L126: 44. Rothschild-Rodriguez D Causer AJ Brown FF Collier-Bain HD Moore S Murray J .  The effects of exercise on complement system proteins in humans: a systematic scoping review .  Exerc Immunol Rev . ( 2022 )  28 : 1 – 35 . PMID:  35452398
+L127: 45. Xiao S Yuan Z Huang Y .  The potential role of nitric oxide as a therapeutic agent against SARS-CoV-2 infection .  Int J Mol Sci . ( 2023 )  24 : 17162 . doi:  10.3390/ijms242417162 , PMID:  38138990
+L128: 46. Darling RJ Senapati S Kelly SM Kohut ML Narasimhan B Wannemuehler MJ .  STING pathway stimulation results in a differentially activated innate immune phenotype associated with low nitric oxide and enhanced antibody titers in young and aged mice .  Vaccine . ( 2019 )  37 : 2721 – 30 . doi:  10.1016/j.vaccine.2019.04.004 , PMID:  30987850
+L129: 47. Sala E Kuka M .  The suppressive attitude of inflammatory monocytes in antiviral antibody responses .  Viral Immunol . ( 2020 )  33 : 327 – 33 . doi:  10.1089/vim.2019.0132 , PMID:  32027238
+L130: 48. Senapati S Darling RJ Loh D Schneider IC Wannemuehler MJ Narasimhan B .  Pentablock copolymer micelle nanoadjuvants enhance cytosolic delivery of antigen and improve vaccine efficacy while inducing low inflammation .  ACS Biomater Sci Eng . ( 2019 )  5 : 1332 – 42 . doi:  10.1021/acsbiomaterials.8b01591 , PMID:  33405651
+L131: 49. Rajpathak SN Gunter MJ Wylie-Rosett J Ho GYF Kaplan RC Muzumdar R .  The role of insulin-like growth factor-I and its binding proteins in glucose homeostasis and type 2 diabetes .  Diabetes Metab Res Rev . ( 2009 )  25 : 3 – 12 . doi:  10.1002/dmrr.919 , PMID:  19145587
+L132: 50. Muniyappa R Walsh MF Rangi JS Zayas RM Standley PR Ram JL .  Insulin like growth factor 1 increases vascular smooth muscle nitric oxide production .  Life Sci . ( 1997 )  61 : 925 – 31 . doi:  10.1016/s0024-3205(97)00594-8 , PMID:  9284085
+L133: 51. Rutishauser U Acheson A Hall AK Mann DM Sunshine J .  The neural cell adhesion molecule (NCAM) as a regulator of cell-cell interactions .  Science . ( 1988 )  240 : 53 – 7 . doi:  10.1126/science.3281256 3281256
+L134: 52. Dores-Silva PR Cauvi DM Coto ALS Silva NSM Borges JC De Maio A .  Human heat shock cognate protein (HSC70/HSPA8) interacts with negatively charged phospholipids by a different mechanism than other HSP70s and brings HSP90 into membranes .  Cell Stress Chaperones . ( 2021 )  26 : 671 – 84 . doi:  10.1007/s12192-021-01210-8 , PMID:  34003451
+L135: 53. Jing J .  The relevance, predictability, and utility of annexin A5 for human physiopathology .  Int J Mol Sci . ( 2024 )  25 : 2865 . doi:  10.3390/ijms25052865 , PMID:  38474114
+L136: 54. Dogru T Kirik A Gurel H Rizvi AA Rizzo M Sonmez A .  The evolving role of fetuin-a in nonalcoholic fatty liver disease: an overview from liver to the heart .  Int J Mol Sci . ( 2021 )  22 : 6627 . doi:  10.3390/ijms22126627 34205674
+L137: 55. Bui TM Wiesolek HL Sumagin R .  ICAM-1: a master regulator of cellular responses in inflammation, injury resolution, and tumorigenesis .  J Leukoc Biol . ( 2020 )  108 : 787 – 99 . doi:  10.1002/JLB.2MR0220-549R , PMID:  32182390
+L138: The authors thank Standard Process for providing the supplements for this study.
+L139: # Summary: Table_1.XLSX
+L140: - **Sheets**: 2
+L141: - **Total tables**: 2
+L142: ## Sheet: Cover Sheet
+L143: - Tables found: 1
+L144: ### Table 1: Table_1
+L145: - **Rows**: 0
+L146: - **Columns**: 0
+L147: | Column | Dtype | Non-null | Sample values |
+L148: |--------|-------|----------|---------------|
+L149: ## Sheet: PROTEIN data
+L150: - Tables found: 1
+L151: ### Table 1: Table_1
+L152: - **Rows**: 616
+L153: - **Columns**: 245
+L154: | Column | Dtype | Non-null | Sample values |
+L155: |--------|-------|----------|---------------|
+L156: | Protein.Group | str | 616 | A0A075B6H7, A0A075B6H9, A0A075B6I0 |
+L157: | Protein.Ids | str | 616 | P01624;A0A075B6H7;A0A0C4DH55, A0A075B6H9, A0A075B6I0 |
+L158: | Protein.Names | str | 616 | KV37_HUMAN, LV469_HUMAN, LV861_HUMAN |
+L159: | Genes | str | 616 | IGKV3-7, IGLV4-69, IGLV8-61 |
+L160: | First.Protein.Description | str | 616 | Probable non-functional immunoglobulin kappa variable 3-7... |
+L161: | 1A_Beet_T1 | float64 | 596 | 18000000.0, 641613.0, 566970.0 |
+L162: | 1B_Beet_T2 | float64 | 597 | 18800000.0, 801184.0, 588866.0 |
+L163: | 1C_Beet_T3 | float64 | 593 | 24900000.0, 904576.0, 548410.0 |
+L164: | 1D_Beet_T4 | float64 | 593 | 22700000.0, 819895.0, 489808.0 |
+L165: | 1E_Beet_T5 | float64 | 594 | 24800000.0, 881920.0, 818987.0 |
+L166: | 1F_Beet_T6 | float64 | 595 | 21600000.0, 1320000.0, 470093.0 |
+L167: | 1G_Placebo_T1 | float64 | 597 | 20900000.0, 648351.0, 587301.0 |
+L168: | 1H_Placebo_T2 | float64 | 598 | 25600000.0, 657069.0, 227698.0 |
+L169: | 1I_Placebo_T3 | float64 | 593 | 21600000.0, 851805.0, 555869.0 |
+L170: | 1J_Placebo_T4 | float64 | 600 | 21200000.0, 893463.0, 449352.0 |
+L171: | 1K_Placebo_T5 | float64 | 591 | 22600000.0, 1010000.0, 503267.0 |
+L172: | 1L_Placebo_T6 | float64 | 596 | 19300000.0, 663980.0, 484577.0 |
+L173: | 2A_Beet_T1 | float64 | 593 | 37400000.0, 1120000.0, 1380000.0 |
+L174: | 2B_Beet_T2 | float64 | 607 | 41600000.0, 1040000.0, 1430000.0 |
+L175: | 2C_Beet_T3 | float64 | 602 | 36600000.0, 1090000.0, 1410000.0 |
+L176: | 2D_Beet_T4 | float64 | 605 | 43900000.0, 1070000.0, 1230000.0 |
+L177: | 2E_Beet_T5 | float64 | 599 | 36700000.0, 1180000.0, 1590000.0 |
+L178: | 2F_Beet_T6 | float64 | 600 | 40000000.0, 1180000.0, 1450000.0 |
+L179: | 2G_Placebo_T1 | float64 | 605 | 36600000.0, 969925.0, 1380000.0 |
+L180: | 2H_Placebo_T2 | float64 | 607 | 41200000.0, 940387.0, 1290000.0 |
+L181: | 2I_Placebo_T3 | float64 | 606 | 40800000.0, 1000000.0, 1220000.0 |
+L182: | 2J_Placebo_T4 | float64 | 606 | 40600000.0, 1090000.0, 1250000.0 |
+L183: | 2K_Placebo_T5 | float64 | 607 | 42500000.0, 1010000.0, 1240000.0 |
+L184: | 2L_Placebo_T6 | float64 | 601 | 34100000.0, 929734.0, 1160000.0 |
+L185: | 3A_Placebo_T1 | float64 | 603 | 26600000.0, 743864.0, 286088.0 |
+L186: | 3B_Placebo_T2 | float64 | 605 | 32000000.0, 601754.0, 320626.0 |
+L187: | 3C_Placebo_T3 | float64 | 606 | 31000000.0, 623608.0, 215114.0 |
+L188: | 3D_Placebo_T4 | float64 | 602 | 28700000.0, 672006.0, 280141.0 |
+L189: | 3E_Placebo_T5 | float64 | 604 | 31200000.0, 883438.0, 255877.0 |
+L190: | 3F_Placebo_T6 | float64 | 601 | 29100000.0, 541983.0, 279763.0 |
+L191: | 3G_Beet_T1 | float64 | 605 | 29700000.0, 619914.0, 233147.0 |
+L192: | 3H_Beet_T2 | float64 | 610 | 28500000.0, 651585.0, 268680.0 |
+L193: | 3I_Beet_T3 | float64 | 602 | 30000000.0, 618611.0, 263614.0 |
+L194: | 3J_Beet_T4 | float64 | 597 | 27900000.0, 643925.0, 257939.0 |
+L195: | 3K_Beet_T5 | float64 | 606 | 29500000.0, 651570.0, 325600.0 |
+L196: | 3L_Beet_T6 | float64 | 600 | 24700000.0, 576639.0, 231842.0 |
+L197: | 4A_Beet_T1 | float64 | 598 | 28600000.0, 749619.0, 483659.0 |
+L198: | 4B_Beet_T2 | float64 | 599 | 27400000.0, 820911.0, 482517.0 |
+L199: | 4C_Beet_T3 | float64 | 601 | 27300000.0, 935448.0, 532346.0 |
+L200: | 4D_Beet_T4 | float64 | 604 | 25900000.0, 963610.0, 542387.0 |
+L201: | 4E_Beet_T5 | float64 | 603 | 26100000.0, 998741.0, 507671.0 |
+L202: | 4F_Beet_T6 | float64 | 604 | 24300000.0, 940338.0, 558992.0 |
+L203: | 4G_Placebo_T1 | float64 | 601 | 29300000.0, 917711.0, 503507.0 |
+L204: | 4H_Placebo_T2 | float64 | 604 | 27600000.0, 945215.0, 546751.0 |
+L205: | 4I_Placebo_T3 | float64 | 607 | 24600000.0, 1100000.0, 686837.0 |
+L206: | 4J_Placebo_T4 | float64 | 604 | 24200000.0, 988482.0, 699112.0 |
+L207: | 4K_Placebo_T5 | float64 | 606 | 22700000.0, 1150000.0, 584131.0 |
+L208: | 4L_Placebo_T6 | float64 | 604 | 21400000.0, 1450000.0, 619678.0 |
+L209: | 5A_Beet_T1 | float64 | 596 | 25500000.0, 635246.0, 524443.0 |
+L210: | 5B_Beet_T2 | float64 | 603 | 26300000.0, 689750.0, 449449.0 |
+L211: | 5C_Beet_T3 | float64 | 601 | 26300000.0, 739558.0, 425206.0 |
+L212: | 5D_Beet_T4 | float64 | 604 | 29700000.0, 622687.0, 481439.0 |
+L213: | 5E_Beet_T5 | float64 | 608 | 29000000.0, 647487.0, 533457.0 |
+L214: | 5F_Beet_T6 | float64 | 603 | 31700000.0, 654653.0, 506372.0 |
+L215: | 5G_Placebo_T1 | float64 | 601 | 27700000.0, 619955.0, 454571.0 |
+L216: | 5H_Placebo_T2 | float64 | 599 | 25200000.0, 664069.0, 545454.0 |
+L217: | 5I_Placebo_T3 | float64 | 606 | 25600000.0, 866017.0, 909743.0 |
+L218: | 5J_Placebo_T4 | float64 | 603 | 24700000.0, 704381.0, 523348.0 |
+L219: | 5K_Placebo_T5 | float64 | 605 | 30200000.0, 691939.0, 673478.0 |
+L220: | 5L_Placebo_T6 | float64 | 600 | 29600000.0, 749757.0, 694070.0 |
+L221: | 6A_Placebo_T1 | float64 | 603 | 23100000.0, 661500.0, 347391.0 |
+L222: | 6B_Placebo_T2 | float64 | 601 | 27200000.0, 826804.0, 447324.0 |
+L223: | 6C_Placebo_T3 | float64 | 606 | 27500000.0, 692307.0, 532112.0 |
+L224: | 6D_Placebo_T4 | float64 | 599 | 31400000.0, 745242.0, 438548.0 |
+L225: | 6E_Placebo_T5 | float64 | 607 | 28200000.0, 692801.0, 588969.0 |
+L226: | 6F_Placebo_T6 | float64 | 597 | 28500000.0, 750141.0, 417118.0 |
+L227: | 6G_Beet_T1 | float64 | 604 | 26700000.0, 544524.0, 417318.0 |
+L228: | 6H_Beet_T2 | float64 | 608 | 24700000.0, 661186.0, 510827.0 |
+L229: | 6I_Beet_T3 | float64 | 607 | 34000000.0, 821406.0, 380983.0 |
+L230: | 6J_Beet_T4 | float64 | 603 | 29500000.0, 737552.0, 473835.0 |
+L231: | 6K_Beet_T5 | float64 | 603 | 27800000.0, 553014.0, 529525.0 |
+L232: | 6L_Beet_T6 | float64 | 599 | 20100000.0, 654256.0, 551468.0 |
+L233: | 7A_Beet_T1 | float64 | 600 | 52400000.0, 935452.0, 1120000.0 |
+L234: | 7B_Beet_T2 | float64 | 604 | 45200000.0, 904820.0, 1150000.0 |
+L235: | 7C_Beet_T3 | float64 | 601 | 47400000.0, 968379.0, 1100000.0 |
+L236: | 7D_Beet_T4 | float64 | 604 | 44900000.0, 882120.0, 1100000.0 |
+L237: | 7E_Beet_T5 | float64 | 608 | 47100000.0, 993548.0, 1040000.0 |
+L238: | 7F_Beet_T6 | float64 | 606 | 41700000.0, 947309.0, 1230000.0 |
+L239: | 7G_Placebo_T1 | float64 | 604 | 43800000.0, 874163.0, 1270000.0 |
+L240: | 7H_Placebo_T2 | float64 | 603 | 46000000.0, 734400.0, 1050000.0 |
+L241: | 7I_Placebo_T3 | float64 | 601 | 44100000.0, 847772.0, 1130000.0 |
+L242: | 7J_Placebo_T4 | float64 | 604 | 43300000.0, 707791.0, 1170000.0 |
+L243: | 7K_Placebo_T5 | float64 | 600 | 44100000.0, 910044.0, 1160000.0 |
+L244: | 7L_Placebo_T6 | float64 | 595 | 36600000.0, 777944.0, 832161.0 |
+L245: | 9A_Placebo_T1 | float64 | 595 | 21900000.0, 987867.0, 1040000.0 |
+L246: | 9B_Placebo_T2 | float64 | 591 | 11100000.0, 919277.0, 1870000.0 |
+L247: | 9C_Placebo_T3 | float64 | 593 | 21000000.0, 1160000.0, 2060000.0 |
+L248: | 9D_Placebo_T4 | float64 | 594 | 25700000.0, 898703.0, 1510000.0 |
+L249: | 9E_Placebo_T5 | float64 | 586 | 17700000.0, 813668.0, 1700000.0 |
+L250: | 9F_Placebo_T6 | float64 | 591 | 14500000.0, 840256.0, 1650000.0 |
+L251: | 9G_Beet_T1 | float64 | 591 | 26900000.0, 1430000.0, 788569.0 |
+L252: | 9H_Beet_T2 | float64 | 594 | 20900000.0, 1040000.0, 1890000.0 |
+L253: | 9I_Beet_T3 | float64 | 601 | 24300000.0, 1010000.0, 1160000.0 |
+L254: | 9J_Beet_T4 | float64 | 567 | 9860000.0, 801447.0, 1030000.0 |
+L255: | 9K_Beet_T5 | float64 | 576 | 7990000.0, 661499.0, 2080000.0 |
+L256: | 9L_Beet_T6 | float64 | 582 | 11200000.0, 730422.0, 1620000.0 |
+L257: | 10A_Beet_T1 | float64 | 602 | 33300000.0, 1180000.0, 1110000.0 |
+L258: | 10B_Beet_T2 | float64 | 594 | 29300000.0, 1040000.0, 765765.0 |
+L259: | 10C_Beet_T3 | float64 | 599 | 42800000.0, 919496.0, 886482.0 |
+L260: | 10D_Beet_T4 | float64 | 595 | 26800000.0, 1370000.0, 1520000.0 |
+L261: | 10E_Beet_T5 | float64 | 588 | 29100000.0, 996975.0, 941003.0 |
+L262: | 10F_Beet_T6 | float64 | 593 | 30100000.0, 1120000.0, 764746.0 |
+L263: | 10G_Placebo_T1 | float64 | 580 | 12400000.0, 745953.0, 754357.0 |
+L264: | 10H_Placebo_T2 | float64 | 591 | 27300000.0, 1140000.0, 733078.0 |
+L265: | 10I_Placebo_T3 | float64 | 593 | 19800000.0, 896107.0, 739382.0 |
+L266: | 10J_Placebo_T4 | float64 | 594 | 29100000.0, 952607.0, 807815.0 |
+L267: | 10K_Placebo_T5 | float64 | 591 | 29100000.0, 1090000.0, 804553.0 |
+L268: | 10L_Placebo_T6 | float64 | 585 | 12000000.0, 743864.0, 896051.0 |
+L269: | 11A_Placebo_T1 | float64 | 604 | 33700000.0, 703187.0, 661169.0 |
+L270: | 11B_Placebo_T2 | float64 | 603 | 35100000.0, 699342.0, 622501.0 |
+L271: | 11C_Placebo_T3 | float64 | 604 | 37000000.0, 702019.0, 771762.0 |
+L272: | 11D_Placebo_T4 | float64 | 598 | 36300000.0, 647312.0, 615013.0 |
+L273: | 11E_Placebo_T5 | float64 | 604 | 36200000.0, 809022.0, 790494.0 |
+L274: | 11F_Placebo_T6 | float64 | 599 | 35600000.0, 641339.0, 600609.0 |
+L275: | 11G_Beet_T1 | float64 | 604 | 43200000.0, 743294.0, 737605.0 |
+L276: | 11H_Beet_T2 | float64 | 595 | 34300000.0, 765283.0, 709721.0 |
+L277: | 11I_Beet_T3 | float64 | 602 | 40800000.0, 819540.0, 657900.0 |
+L278: | 11J_Beet_T4 | float64 | 601 | 37800000.0, 710491.0, 749173.0 |
+L279: | 11K_Beet_T5 | float64 | 598 | 40600000.0, 734136.0, 732399.0 |
+L280: | 11L_Beet_T6 | float64 | 603 | 38200000.0, 733847.0, 736594.0 |
+L281: | 13A_Beet_T1 | float64 | 601 | 36400000.0, 774649.0, 1350000.0 |
+L282: | 13B_Beet_T2 | float64 | 605 | 40900000.0, 760351.0, 1170000.0 |
+L283: | 13C_Beet_T3 | float64 | 601 | 36700000.0, 813041.0, 1270000.0 |
+L284: | 13D_Beet_T4 | float64 | 601 | 36300000.0, 940089.0, 1330000.0 |
+L285: | 13E_Beet_T5 | float64 | 603 | 41500000.0, 875076.0, 1300000.0 |
+L286: | 13F_Beet_T6 | float64 | 598 | 34800000.0, 853237.0, 1190000.0 |
+L287: | 13G_Placebo_T1 | float64 | 600 | 41800000.0, 901867.0, 1270000.0 |
+L288: | 13H_Placebo_T2 | float64 | 605 | 42300000.0, 906972.0, 1280000.0 |
+L289: | 13I_Placebo_T3 | float64 | 597 | 36100000.0, 837280.0, 1290000.0 |
+L290: | 13J_Placebo_T4 | float64 | 598 | 39000000.0, 948784.0, 1190000.0 |
+L291: | 13K_Placebo_T5 | float64 | 594 | 50500000.0, 1080000.0, 1480000.0 |
+L292: | 13L_Placebo_T6 | float64 | 599 | 37100000.0, 903993.0, 1210000.0 |
+L293: | 16A_Placebo_T1 | float64 | 604 | 22200000.0, 738271.0, 805188.0 |
+L294: | 16B_Placebo_T2 | float64 | 608 | 29500000.0, 457689.0, 680343.0 |
+L295: | 16C_Placebo_T3 | float64 | 602 | 27300000.0, 569485.0, 689511.0 |
+L296: | 16D_Placebo_T4 | float64 | 602 | 25800000.0, 512297.0, 599657.0 |
+L297: | 16E_Placebo_T5 | float64 | 601 | 27300000.0, 513328.0, 576390.0 |
+L298: | 16F_Placebo_T6 | float64 | 601 | 24900000.0, 476485.0, 472182.0 |
+L299: | 16G_Beet_T1 | float64 | 599 | 25700000.0, 414473.0, 638607.0 |
+L300: | 16H_Beet_T2 | float64 | 607 | 31600000.0, 546602.0, 543685.0 |
+L301: | 16I_Beet_T3 | float64 | 603 | 28100000.0, 541126.0, 535264.0 |
+L302: | 16J_Beet_T4 | float64 | 601 | 28700000.0, 460817.0, 485798.0 |
+L303: | 16K_Beet_T5 | float64 | 602 | 25900000.0, 464661.0, 500512.0 |
+L304: | 16L_Beet_T6 | float64 | 603 | 25700000.0, 300051.0, 516665.0 |
+L305: | 17A_Beet_T1 | float64 | 602 | 29800000.0, 699735.0, 1230000.0 |
+L306: | 17B_Beet_T2 | float64 | 600 | 35800000.0, 950072.0, 1150000.0 |
+L307: | 17C_Beet_T3 | float64 | 604 | 34300000.0, 849319.0, 1250000.0 |
+L308: | 17D_Beet_T4 | float64 | 602 | 30400000.0, 729284.0, 1110000.0 |
+L309: | 17E_Beet_T5 | float64 | 599 | 31200000.0, 776863.0, 1210000.0 |
+L310: | 17F_Beet_T6 | float64 | 600 | 32100000.0, 852474.0, 1150000.0 |
+L311: | 17G_Placebo_T1 | float64 | 603 | 32500000.0, 641706.0, 1240000.0 |
+L312: | 17H_Placebo_T2 | float64 | 600 | 31700000.0, 840472.0, 1090000.0 |
+L313: | 17I_Placebo_T3 | float64 | 603 | 29700000.0, 1000000.0, 1270000.0 |
+L314: | 17J_Placebo_T4 | float64 | 601 | 29900000.0, 783734.0, 1210000.0 |
+L315: | 17K_Placebo_T5 | float64 | 602 | 30900000.0, 679274.0, 1170000.0 |
+L316: | 17L_Placebo_T6 | float64 | 597 | 24800000.0, 828383.0, 1170000.0 |
+L317: | 18A_Placebo_T1 | float64 | 607 | 49600000.0, 655573.0, 939390.0 |
+L318: | 18B_Placebo_T2 | float64 | 603 | 53300000.0, 701797.0, 932961.0 |
+L319: | 18C_Placebo_T3 | float64 | 603 | 49900000.0, 810347.0, 933683.0 |
+L320: | 18D_Placebo_T4 | float64 | 605 | 47800000.0, 886853.0, 990255.0 |
+L321: | 18E_Placebo_T5 | float64 | 602 | 46700000.0, 683622.0, 1000000.0 |
+L322: | 18F_Placebo_T6 | float64 | 598 | 40900000.0, 898731.0, 935395.0 |
+L323: | 18G_Beet_T1 | float64 | 594 | 51000000.0, 725530.0, 983179.0 |
+L324: | 18H_Beet_T2 | float64 | 595 | 46400000.0, 720217.0, 817622.0 |
+L325: | 18I_Beet_T3 | float64 | 597 | 30500000.0, 1070000.0, 796811.0 |
+L326: | 18J_Beet_T4 | float64 | 604 | 50400000.0, 936007.0, 1000000.0 |
+L327: | 18K_Beet_T5 | float64 | 605 | 53200000.0, 936631.0, 936863.0 |
+L328: | 18L_Beet_T6 | float64 | 602 | 46500000.0, 844306.0, 1040000.0 |
+L329: | 20A_Beet_T1 | float64 | 571 | 9690000.0, 437521.0, 302526.0 |
+L330: | 20B_Beet_T2 | float64 | 578 | 4260000.0, 174097.0, 205983.0 |
+L331: | 20C_Beet_T3 | float64 | 601 | 26900000.0, 554838.0, 431877.0 |
+L332: | 20D_Beet_T4 | float64 | 597 | 27200000.0, 448969.0, 315130.0 |
+L333: | 20E_Beet_T5 | float64 | 601 | 24300000.0, 595997.0, 362031.0 |
+L334: | 20F_Beet_T6 | float64 | 599 | 23500000.0, 595312.0, 335575.0 |
+L335: | 20G_Placebo_T1 | float64 | 603 | 27400000.0, 581509.0, 347196.0 |
+L336: | 20H_Placebo_T2 | float64 | 597 | 25600000.0, 544001.0, 266095.0 |
+L337: | 20I_Placebo_T3 | float64 | 603 | 29900000.0, 411777.0, 332607.0 |
+L338: | 20J_Placebo_T4 | float64 | 594 | 26000000.0, 444648.0, 267790.0 |
+L339: | 20K_Placebo_T5 | float64 | 596 | 30300000.0, 359143.0, 320696.0 |
+L340: | 20L_Placebo_T6 | float64 | 603 | 26600000.0, 531832.0, 337808.0 |
+L341: | 21A_Beet_T1 | float64 | 591 | 25900000.0, 471679.0, 425439.0 |
+L342: | 21B_Beet_T2 | float64 | 577 | 16700000.0, 705843.0, 8750000.0 |
+L343: | 21C_Beet_T3 | float64 | 602 | 35300000.0, 460047.0, 380108.0 |
+L344: | 21D_Beet_T4 | float64 | 607 | 33900000.0, 312873.0, 463225.0 |
+L345: | 21E_Beet_T5 | float64 | 601 | 32400000.0, 452718.0, 449086.0 |
+L346: | 21F_Beet_T6 | float64 | 602 | 33400000.0, 254903.0, 394080.0 |
+L347: | 21G_Placebo_T1 | float64 | 603 | 32800000.0, 345398.0, 1560000.0 |
+L348: | 21H_Placebo_T2 | float64 | 602 | 33500000.0, 356448.0, 284537.0 |
+L349: | 21I_Placebo_T3 | float64 | 604 | 32600000.0, 414345.0, 392572.0 |
+L350: | 21J_Placebo_T4 | float64 | 601 | 32300000.0, 351265.0, 320421.0 |
+L351: | 21K_Placebo_T5 | float64 | 602 | 31300000.0, 433749.0, 363863.0 |
+L352: | 21L_Placebo_T6 | float64 | 598 | 32000000.0, 294870.0, 376937.0 |
+L353: | 22A_Beet_T1 | float64 | 603 | 18900000.0, 507953.0, 723633.0 |
+L354: | 22B_Beet_T2 | float64 | 600 | 22400000.0, 476950.0, 911313.0 |
+L355: | 22C_Beet_T3 | float64 | 600 | 18900000.0, 509418.0, 736397.0 |
+L356: | 22D_Beet_T4 | float64 | 602 | 18300000.0, 457949.0, 834764.0 |
+L357: | 22E_Beet_T5 | float64 | 600 | 15900000.0, 515285.0, 744088.0 |
+L358: | 22F_Beet_T6 | float64 | 602 | 18100000.0, 448656.0, 733067.0 |
+L359: | 22G_Placebo_T1 | float64 | 602 | 17600000.0, 492521.0, 788712.0 |
+L360: | 22H_Placebo_T2 | float64 | 603 | 14900000.0, 434317.0, 799442.0 |
+L361: | 22I_Placebo_T3 | float64 | 600 | 16300000.0, 471790.0, 1180000.0 |
+L362: | 22J_Placebo_T4 | float64 | 603 | 19400000.0, 533496.0, 2260000.0 |
+L363: | 22K_Placebo_T5 | float64 | 601 | 19600000.0, 504652.0, 763852.0 |
+L364: | 22L_Placebo_T6 | float64 | 606 | 18500000.0, 401919.0, 553504.0 |
+L365: | 23A_Placebo_T1 | float64 | 598 | 24700000.0, 948355.0, 986936.0 |
+L366: | 23B_Placebo_T2 | float64 | 564 | 13800000.0, 1080000.0, 1410000.0 |
+L367: | 23C_Placebo_T3 | float64 | 602 | 28100000.0, 770826.0, 980256.0 |
+L368: | 23D_Placebo_T4 | float64 | 602 | 29800000.0, 698353.0, 930847.0 |
+L369: | 23E_Placebo_T5 | float64 | 604 | 29700000.0, 670956.0, 977030.0 |
+L370: | 23F_Placebo_T6 | float64 | 600 | 27100000.0, 645994.0, 935580.0 |
+L371: | 23G_Beet_T1 | float64 | 606 | 27700000.0, 723666.0, 1170000.0 |
+L372: | 23H_Beet_T2 | float64 | 602 | 27500000.0, 752301.0, 935165.0 |
+L373: | 23I_Beet_T3 | float64 | 598 | 23400000.0, 595726.0, 888270.0 |
+L374: | 23J_Beet_T4 | float64 | 606 | 24200000.0, 735173.0, 873108.0 |
+L375: | 23K_Beet_T5 | float64 | 604 | 26700000.0, 646765.0, 953706.0 |
+L376: | 23L_Beet_T6 | float64 | 606 | 25400000.0, 731637.0, 882591.0 |
+L377: | 24A_Beet_T1 | float64 | 601 | 47600000.0, 920091.0, 260285.0 |
+L378: | 24B_Beet_T2 | float64 | 605 | 56600000.0, 886332.0, 211461.0 |
+L379: | 24C_Beet_T3 | float64 | 604 | 52500000.0, 1070000.0, 318640.0 |
+L380: | 24D_Beet_T4 | float64 | 595 | 52400000.0, 1050000.0, 267756.0 |
+L381: | 24E_Beet_T5 | float64 | 599 | 52800000.0, 1140000.0, 289805.0 |
+L382: | 24F_Beet_T6 | float64 | 599 | 58500000.0, 1210000.0, 247781.0 |
+L383: | 24G_Placebo_T1 | float64 | 602 | 58900000.0, 1090000.0, 265963.0 |
+L384: | 24H_Placebo_T2 | float64 | 599 | 52900000.0, 1080000.0, 212672.0 |
+L385: | 24I_Placebo_T3 | float64 | 604 | 58200000.0, 1080000.0, 268075.0 |
+L386: | 24J_Placebo_T4 | float64 | 602 | 55100000.0, 795106.0, 173921.0 |
+L387: | 24K_Placebo_T5 | float64 | 603 | 53400000.0, 963334.0, 251633.0 |
+L388: | 24L_Placebo_T6 | float64 | 605 | 55800000.0, 1620000.0, 239061.0 |
+L389: | 25A_Placebo_T1 | float64 | 593 | 39300000.0, 540657.0, 507708.0 |
+L390: | 25B_Placebo_T2 | float64 | 566 | 26900000.0, 1570000.0, 8020000.0 |
+L391: | 25C_Placebo_T3 | float64 | 602 | 43600000.0, 594356.0, 462647.0 |
+L392: | 25D_Placebo_T4 | float64 | 601 | 46900000.0, 471247.0, 487249.0 |
+L393: | 25E_Placebo_T5 | float64 | 599 | 47900000.0, 445474.0, 362361.0 |
+L394: | 25F_Placebo_T6 | float64 | 603 | 51500000.0, 458166.0, 403012.0 |
+L395: | 25G_Beet_T1 | float64 | 597 | 50100000.0, 534087.0, 564885.0 |
+L396: | 25H_Beet_T2 | float64 | 596 | 42500000.0, 465060.0, 551850.0 |
+L397: | 25I_Beet_T3 | float64 | 599 | 47800000.0, 481859.0, 380311.0 |
+L398: | 25J_Beet_T4 | float64 | 606 | 45200000.0, 437407.0, 394233.0 |
+L399: | 25K_Beet_T5 | float64 | 605 | 43500000.0, 352015.0, 575649.0 |
+L400: | 25L_Beet_T6 | float64 | 600 | 42100000.0, 591560.0, 447723.0 |
+L401: # Summary: Table_2.XLSX
+L402: - **Sheets**: 3
+L403: - **Total tables**: 3
+L404: ## Sheet: Cover Sheet
+L405: - Tables found: 1
+L406: ### Table 1: Table_1
+L407: - **Rows**: 0
+L408: - **Columns**: 0
+L409: | Column | Dtype | Non-null | Sample values |
+L410: |--------|-------|----------|---------------|
+L411: ## Sheet: Oxylipins
+L412: - Tables found: 1
+L413: ### Table 1: Table_1
+L414: - **Rows**: 20
+L415: - **Columns**: 805
+L416: | Column | Dtype | Non-null | Sample values |
+L417: |--------|-------|----------|---------------|
+L418: | IDNM | int64 | 20 | 1, 2, 3 |
+L419: | 10-HDoHE | float64 | 20 | 0.09584, 0.141245, 0.05393 |
+L420: | 10-HDoHE | float64 | 20 | 0.090945, 0.0921, 0.053315 |
+L421: | 10-HDoHE | float64 | 20 | 0.10066, 0.343555, 0.05415 |
+L422: | 10-HDoHE | float64 | 20 | 0.11177, 0.16138, 0.05281 |
+L423: | 10-HDoHE | float64 | 20 | 0.0384795, 0.084735, 0.079495 |
+L424: | 10-HDoHE | float64 | 20 | 0.0406545, 0.09876, 0.050295 |
+L425: | 10-HDoHE | float64 | 20 | 0.12853, 0.161935, 0.037219 |
+L426: | 10-HDoHE | float64 | 20 | 0.05961, 0.14475, 0.078515 |
+L427: | 10-HDoHE | float64 | 20 | 0.08676, 0.260725, 0.07011 |
+L428: | 10-HDoHE | float64 | 20 | 0.07686, 0.1845, 0.08396 |
+L429: | 10-HDoHE | float64 | 20 | 0.043034, 0.103215, 0.0473955 |
+L430: | 10-HDoHE | float64 | 20 | 0.1015, 0.13141, 0.133285 |
+L431: | 11,12-diHETrE | float64 | 20 | 0.17597, 0.18626, 0.20057 |
+L432: | 11,12-diHETrE | float64 | 20 | 0.28121, 0.12387, 0.097105 |
+L433: | 11,12-diHETrE | float64 | 20 | 0.253855, 0.268025, 0.203695 |
+L434: | 11,12-diHETrE | float64 | 20 | 0.281125, 0.19894, 0.24385 |
+L435: | 11,12-diHETrE | float64 | 20 | 0.124315, 0.14297, 0.275345 |
+L436: | 11,12-diHETrE | float64 | 20 | 0.266035, 0.17239, 0.24794 |
+L437: | 11,12-diHETrE | float64 | 20 | 0.131085, 0.28516, 0.19651 |
+L438: | 11,12-diHETrE | float64 | 20 | 0.14339, 0.101425, 0.181125 |
+L439: | 11,12-diHETrE | float64 | 20 | 0.155865, 0.213515, 0.209025 |
+L440: | 11,12-diHETrE | float64 | 20 | 0.172725, 0.245495, 0.492495 |
+L441: | 11,12-diHETrE | float64 | 20 | 0.20177, 0.064785, 0.16587 |
+L442: | 11,12-diHETrE | float64 | 20 | 0.202355, 0.171055, 0.25991 |
+L443: | 11-HDoHE | float64 | 20 | 0.106065, 0.201025, 0.136975 |
+L444: | 11-HDoHE | float64 | 20 | 0.199365, 0.164705, 0.0635 |
+L445: | 11-HDoHE | float64 | 20 | 0.180305, 0.416135, 0.129185 |
+L446: | 11-HDoHE | float64 | 20 | 0.11242, 0.21674, 0.184015 |
+L447: | 11-HDoHE | float64 | 20 | 0.08529, 0.17165, 0.060225 |
+L448: | 11-HDoHE | float64 | 20 | 0.113895, 0.137295, 0.07408 |
+L449: | 11-HDoHE | float64 | 20 | 0.25366, 0.38982, 0.0389215 |
+L450: | 11-HDoHE | float64 | 20 | 0.059115, 0.121105, 0.089875 |
+L451: | 11-HDoHE | float64 | 20 | 0.124075, 0.43389, 0.11992 |
+L452: | 11-HDoHE | float64 | 20 | 0.089355, 0.315255, 0.12077 |
+L453: | 11-HDoHE | float64 | 20 | 0.102055, 0.118975, 0.07156 |
+L454: | 11-HDoHE | float64 | 20 | 0.088485, 0.217085, 0.09415 |
+L455: | 11-HEPE | float64 | 20 | 0.0223975, 0.0425105, 0.0367665 |
+L456: | 11-HEPE | float64 | 20 | 0.08664, 0.074195, 0.046229 |
+L457: | 11-HEPE | float64 | 20 | 0.0291875, 0.06341, 0.0292885 |
+L458: | 11-HEPE | float64 | 20 | 0.041338, 0.09093, 0.015815 |
+L459: | 11-HEPE | float64 | 20 | 0.0462135, 0.015151, 0.019947 |
+L460: | 11-HEPE | float64 | 20 | 0.013657, 0.015688, 0.014828 |
+L461: | 11-HEPE | float64 | 20 | 0.00847, 0.058505, 0.0263945 |
+L462: | 11-HEPE | float64 | 20 | 0.0198065, 0.0374035, 0.040553 |
+L463: | 11-HEPE | float64 | 20 | 0.066545, 0.053375, 0.0432015 |
+L464: | 11-HEPE | float64 | 20 | 0.013782, 0.0804, 0.011561 |
+L465: | 11-HEPE | float64 | 20 | 0.0303525, 0.044673, 0.0421225 |
+L466: | 11-HEPE | float64 | 20 | 0.0339035, 0.041994, 0.0265335 |
+L467: | 11-HETE | float64 | 20 | 0.22855, 0.14803, 0.099595 |
+L468: | 11-HETE | float64 | 20 | 0.30082, 0.11585, 0.10339 |
+L469: | 11-HETE | float64 | 20 | 0.32783, 0.305085, 0.182385 |
+L470: | 11-HETE | float64 | 20 | 0.200365, 0.177515, 0.119635 |
+L471: | 11-HETE | float64 | 20 | 0.09452, 0.10067, 0.107645 |
+L472: | 11-HETE | float64 | 20 | 0.141165, 0.182365, 0.082635 |
+L473: | 11-HETE | float64 | 20 | 0.23229, 0.176655, 0.11642 |
+L474: | 11-HETE | float64 | 20 | 0.084835, 0.12573, 0.13901 |
+L475: | 11-HETE | float64 | 20 | 0.449945, 0.41256, 0.138155 |
+L476: | 11-HETE | float64 | 20 | 0.22532, 0.13972, 0.115855 |
+L477: | 11-HETE | float64 | 20 | 0.156465, 0.08539, 0.104705 |
+L478: | 11-HETE | float64 | 20 | 0.147575, 0.145105, 0.20686 |
+L479: | 12,13-diHOME | float64 | 20 | 6.6835, 2.28155, 2.62055 |
+L480: | 12,13-diHOME | float64 | 20 | 10.8315, 1.447, 1.17375 |
+L481: | 12,13-diHOME | float64 | 20 | 10.3625, 5.402, 2.64125 |
+L482: | 12,13-diHOME | float64 | 20 | 3.386, 1.7349, 1.0691 |
+L483: | 12,13-diHOME | float64 | 20 | 2.12565, 1.4912, 1.68225 |
+L484: | 12,13-diHOME | float64 | 20 | 3.199, 1.31855, 1.1539 |
+L485: | 12,13-diHOME | float64 | 20 | 6.322, 1.7443, 1.32635 |
+L486: | 12,13-diHOME | float64 | 20 | 1.78415, 1.63545, 1.197 |
+L487: | 12,13-diHOME | float64 | 20 | 6.576, 7.7575, 2.82185 |
+L488: | 12,13-diHOME | float64 | 20 | 2.40625, 2.17455, 1.4925 |
+L489: | 12,13-diHOME | float64 | 20 | 2.0861, 1.8223, 1.9794 |
+L490: | 12,13-diHOME | float64 | 20 | 2.0367, 2.28915, 0.692 |
+L491: | 12-HEPE | float64 | 20 | 0.149025, 0.122295, 0.137995 |
+L492: | 12-HEPE | float64 | 20 | 0.242935, 0.077165, 0.142025 |
+L493: | 12-HEPE | float64 | 20 | 0.28129, 0.127235, 0.07213 |
+L494: | 12-HEPE | float64 | 20 | 0.150995, 0.054095, 0.05968 |
+L495: | 12-HEPE | float64 | 20 | 0.163625, 0.07979, 0.076365 |
+L496: | 12-HEPE | float64 | 20 | 0.05169, 0.0796, 0.023797 |
+L497: | 12-HEPE | float64 | 20 | 0.164815, 0.0445765, 0.0228645 |
+L498: | 12-HEPE | float64 | 20 | 0.065045, 0.06636, 0.12602 |
+L499: | 12-HEPE | float64 | 20 | 0.299095, 0.165685, 0.12414 |
+L500: | 12-HEPE | float64 | 20 | 0.129665, 0.076355, 0.06788 |
+L501: | 12-HEPE | float64 | 20 | 0.10507, 0.0425465, 0.073355 |
+L502: | 12-HEPE | float64 | 20 | 0.1431, 0.09636, 0.14936 |
+L503: | 12-HETE | float64 | 20 | 1.737, 1.12795, 1.0273 |
+L504: | 12-HETE | float64 | 20 | 3.59275, 0.7345, 2.1535 |
+L505: | 12-HETE | float64 | 20 | 2.77265, 1.11915, 0.6225 |
+L506: | 12-HETE | float64 | 20 | 1.398, 0.74695, 0.7 |
+L507: | 12-HETE | float64 | 20 | 1.9668, 0.61765, 0.421245 |
+L508: | 12-HETE | float64 | 20 | 1.0012, 1.20895, 0.57415 |
+L509: | 12-HETE | float64 | 20 | 1.08975, 0.56735, 0.5538 |
+L510: | 12-HETE | float64 | 20 | 1.03415, 0.7732, 2.6778 |
+L511: | 12-HETE | float64 | 20 | 3.40875, 2.2232, 0.9422 |
+L512: | 12-HETE | float64 | 20 | 2.01175, 0.492855, 0.72825 |
+L513: | 12-HETE | float64 | 20 | 1.23085, 0.46564, 0.37862 |
+L514: | 12-HETE | float64 | 20 | 1.76545, 0.8199, 1.4741 |
+L515: | 13-HDoHE | float64 | 20 | 0.141235, 0.1425, 0.063155 |
+L516: | 13-HDoHE | float64 | 20 | 0.1651, 0.120855, 0.10681 |
+L517: | 13-HDoHE | float64 | 20 | 0.083505, 0.346875, 0.0242135 |
+L518: | 13-HDoHE | float64 | 20 | 0.089665, 0.2057, 0.077395 |
+L519: | 13-HDoHE | float64 | 20 | 0.100895, 0.134225, 0.052205 |
+L520: | 13-HDoHE | float64 | 20 | 0.111485, 0.173055, 0.027459 |
+L521: | 13-HDoHE | float64 | 20 | 0.164175, 0.317135, 0.050485 |
+L522: | 13-HDoHE | float64 | 20 | 0.05283, 0.08071, 0.11089 |
+L523: | 13-HDoHE | float64 | 20 | 0.14045, 0.38712, 0.064125 |
+L524: | 13-HDoHE | float64 | 20 | 0.09958, 0.194535, 0.13906 |
+L525: | 13-HDoHE | float64 | 20 | 0.070145, 0.09008, 0.06994 |
+L526: | 13-HDoHE | float64 | 20 | 0.083835, 0.138695, 0.08423 |
+L527: | 13-HODE | float64 | 20 | 9.4185, 3.2017, 4.92165 |
+L528: | 13-HODE | float64 | 20 | 17.4725, 2.6821, 2.2234 |
+L529: | 13-HODE | float64 | 20 | 15.9575, 11.9055, 4.7865 |
+L530: | 13-HODE | float64 | 20 | 5.257, 4.06775, 2.161 |
+L531: | 13-HODE | float64 | 20 | 2.04215, 2.15655, 2.2 |
+L532: | 13-HODE | float64 | 20 | 4.30075, 3.67795, 2.14925 |
+L533: | 13-HODE | float64 | 20 | 10.9205, 3.33195, 1.7841 |
+L534: | 13-HODE | float64 | 20 | 2.19535, 3.1287, 2.1139 |
+L535: | 13-HODE | float64 | 20 | 9.771, 18.04, 5.3985 |
+L536: | 13-HODE | float64 | 20 | 4.6767, 4.35125, 2.66835 |
+L537: | 13-HODE | float64 | 20 | 2.8505, 1.78715, 2.2506 |
+L538: | 13-HODE | float64 | 20 | 3.6473, 3.2942, 1.89155 |
+L539: | 13-HOTrE | float64 | 20 | 0.58275, 0.291185, 0.225545 |
+L540: | 13-HOTrE | float64 | 20 | 0.8405, 0.6043, 0.312335 |
+L541: | 13-HOTrE | float64 | 20 | 0.8217, 0.72375, 0.5331 |
+L542: | 13-HOTrE | float64 | 20 | 0.55835, 0.48522, 0.45075 |
+L543: | 13-HOTrE | float64 | 20 | 0.359825, 0.470265, 0.48921 |
+L544: | 13-HOTrE | float64 | 20 | 0.62315, 0.385005, 0.380265 |
+L545: | 13-HOTrE | float64 | 20 | 1.034, 0.54915, 0.319765 |
+L546: | 13-HOTrE | float64 | 20 | 0.38889, 0.23798, 0.33518 |
+L547: | 13-HOTrE | float64 | 20 | 0.65275, 1.08665, 0.6317 |
+L548: | 13-HOTrE | float64 | 20 | 0.199785, 0.457395, 0.449655 |
+L549: | 13-HOTrE | float64 | 20 | 0.59335, 0.403285, 0.7208 |
+L550: | 13-HOTrE | float64 | 20 | 0.45615, 0.441915, 0.239915 |
+L551: | 13-HOTrE(y) | float64 | 20 | 0.090735, 0.402315, 0.165565 |
+L552: | 13-HOTrE(y) | float64 | 20 | 0.234515, 0.23712, 0.303845 |
+L553: | 13-HOTrE(y) | float64 | 20 | 0.215985, 0.37819, 0.282485 |
+L554: | 13-HOTrE(y) | float64 | 20 | 0.14387, 0.378015, 0.211025 |
+L555: | 13-HOTrE(y) | float64 | 20 | 0.391545, 0.153055, 0.1086 |
+L556: | 13-HOTrE(y) | float64 | 20 | 0.103585, 0.15517, 0.21022 |
+L557: | 13-HOTrE(y) | float64 | 20 | 0.6548, 0.21954, 0.16218 |
+L558: | 13-HOTrE(y) | float64 | 20 | 0.3394, 0.17406, 0.34153 |
+L559: | 13-HOTrE(y) | float64 | 20 | 0.22205, 0.100565, 0.19318 |
+L560: | 13-HOTrE(y) | float64 | 20 | 0.385385, 0.203695, 0.5612 |
+L561: | 13-HOTrE(y) | float64 | 20 | 0.253245, 0.52065, 0.312535 |
+L562: | 13-HOTrE(y) | float64 | 20 | 0.286395, 0.2471, 0.267555 |
+L563: | 14,15-diHETrE | float64 | 20 | 0.20488, 0.182615, 0.191585 |
+L564: | 14,15-diHETrE | float64 | 20 | 0.376305, 0.19055, 0.166975 |
+L565: | 14,15-diHETrE | float64 | 20 | 0.371535, 0.27998, 0.24857 |
+L566: | 14,15-diHETrE | float64 | 20 | 0.2229, 0.25288, 0.284465 |
+L567: | 14,15-diHETrE | float64 | 20 | 0.098255, 0.1857, 0.212055 |
+L568: | 14,15-diHETrE | float64 | 20 | 0.242775, 0.19727, 0.19074 |
+L569: | 14,15-diHETrE | float64 | 20 | 0.166525, 0.22767, 0.20869 |
+L570: | 14,15-diHETrE | float64 | 20 | 0.10954, 0.19439, 0.170505 |
+L571: | 14,15-diHETrE | float64 | 20 | 0.21711, 0.313545, 0.2663 |
+L572: | 14,15-diHETrE | float64 | 20 | 0.188035, 0.22345, 0.326165 |
+L573: | 14,15-diHETrE | float64 | 20 | 0.144395, 0.1488, 0.16158 |
+L574: | 14,15-diHETrE | float64 | 20 | 0.176985, 0.206525, 0.294945 |
+L575: | 14-HDoHE | float64 | 20 | 0.65515, 0.91035, 0.270725 |
+L576: | 14-HDoHE | float64 | 20 | 0.7579, 0.469285, 0.377255 |
+L577: | 14-HDoHE | float64 | 20 | 0.8677, 0.8285, 0.0737 |
+L578: | 14-HDoHE | float64 | 20 | 0.5041, 0.5532, 0.12601 |
+L579: | 14-HDoHE | float64 | 20 | 0.54845, 0.40143, 0.093145 |
+L580: | 14-HDoHE | float64 | 20 | 0.30386, 0.79765, 0.15415 |
+L581: | 14-HDoHE | float64 | 20 | 0.41511, 0.6803, 0.053325 |
+L582: | 14-HDoHE | float64 | 20 | 0.256285, 0.5571, 0.50855 |
+L583: | 14-HDoHE | float64 | 20 | 1.30075, 1.42045, 0.21579 |
+L584: | 14-HDoHE | float64 | 20 | 0.6559, 0.31317, 0.175675 |
+L585: | 14-HDoHE | float64 | 20 | 0.35387, 0.32659, 0.09429 |
+L586: | 14-HDoHE | float64 | 20 | 0.63095, 0.77295, 0.537 |
+L587: | 15d PGD2 | float64 | 20 | 0.040879, 0.0449655, 0.025026 |
+L588: | 15d PGD2 | float64 | 20 | 0.112615, 0.05986, 0.020971 |
+L589: | 15d PGD2 | float64 | 20 | 0.052095, 0.07093, 0.045174 |
+L590: | 15d PGD2 | float64 | 20 | 0.027426, 0.087085, 0.0586 |
+L591: | 15d PGD2 | float64 | 20 | 0.027114, 0.116235, 0.05613 |
+L592: | 15d PGD2 | float64 | 20 | 0.06068, 0.06129, 0.018968 |
+L593: | 15d PGD2 | float64 | 20 | 0.0412855, 0.43756, 0.044548 |
+L594: | 15d PGD2 | float64 | 20 | 0.030856, 0.09391, 0.042193 |
+L595: | 15d PGD2 | float64 | 20 | 0.023083, 0.05241, 0.0359665 |
+L596: | 15d PGD2 | float64 | 20 | 0.06063, 0.0326135, 0.0255325 |
+L597: | 15d PGD2 | float64 | 20 | 0.045697, 0.0433275, 0.0401185 |
+L598: | 15d PGD2 | float64 | 20 | 0.0235475, 0.044402, 0.0137 |
+L599: | 15-HEPE | float64 | 20 | 0.101185, 0.118715, 0.06715 |
+L600: | 15-HEPE | float64 | 20 | 0.125695, 0.1279, 0.07675 |
+L601: | 15-HEPE | float64 | 20 | 0.13256, 0.222045, 0.058475 |
+L602: | 15-HEPE | float64 | 20 | 0.049706, 0.188345, 0.080015 |
+L603: | 15-HEPE | float64 | 20 | 0.21406, 0.07175, 0.10277 |
+L604: | 15-HEPE | float64 | 20 | 0.174815, 0.08741, 0.06198 |
+L605: | 15-HEPE | float64 | 20 | 0.094345, 0.144705, 0.185915 |
+L606: | 15-HEPE | float64 | 20 | 0.15445, 0.05579, 0.11984 |
+L607: | 15-HEPE | float64 | 20 | 0.185515, 0.066095, 0.18345 |
+L608: | 15-HEPE | float64 | 20 | 0.183595, 0.140855, 0.125535 |
+L609: | 15-HEPE | float64 | 20 | 0.076715, 0.086055, 0.140185 |
+L610: | 15-HEPE | float64 | 20 | 0.12674, 0.07127, 0.193635 |
+L611: | 15-HETE | float64 | 20 | 0.5715, 0.31474, 0.286385 |
+L612: | 15-HETE | float64 | 20 | 0.71095, 0.227365, 0.2745 |
+L613: | 15-HETE | float64 | 20 | 0.48693, 0.41526, 0.348095 |
+L614: | 15-HETE | float64 | 20 | 0.41897, 0.273405, 0.36049 |
+L615: | 15-HETE | float64 | 20 | 0.347185, 0.177095, 0.207425 |
+L616: | 15-HETE | float64 | 20 | 0.31773, 0.257835, 0.271065 |
+L617: | 15-HETE | float64 | 20 | 0.497225, 0.253995, 0.30379 |
+L618: | 15-HETE | float64 | 20 | 0.295405, 0.297925, 0.36782 |
+L619: | 15-HETE | float64 | 20 | 0.61995, 0.381145, 0.336755 |
+L620: | 15-HETE | float64 | 20 | 0.41146, 0.36218, 0.35774 |
+L621: | 15-HETE | float64 | 20 | 0.306885, 0.16333, 0.25354 |
+L622: | 15-HETE | float64 | 20 | 0.42717, 0.255905, 0.359915 |
+L623: | 15-HETrE | float64 | 20 | 0.210535, 0.139835, 0.18703 |
+L624: | 15-HETrE | float64 | 20 | 0.281615, 0.11858, 0.140035 |
+L625: | 15-HETrE | float64 | 20 | 0.262795, 0.186645, 0.182445 |
+L626: | 15-HETrE | float64 | 20 | 0.185955, 0.25359, 0.20449 |
+L627: | 15-HETrE | float64 | 20 | 0.08525, 0.0464225, 0.082735 |
+L628: | 15-HETrE | float64 | 20 | 0.16296, 0.12814, 0.091255 |
+L629: | 15-HETrE | float64 | 20 | 0.240085, 0.093325, 0.082525 |
+L630: | 15-HETrE | float64 | 20 | 0.09426, 0.131345, 0.20916 |
+L631: | 15-HETrE | float64 | 20 | 0.26599, 0.29154, 0.256625 |
+L632: | 15-HETrE | float64 | 20 | 0.098795, 0.11256, 0.21388 |
+L633: | 15-HETrE | float64 | 20 | 0.06668, 0.0390525, 0.142335 |
+L634: | 15-HETrE | float64 | 20 | 0.13685, 0.19304, 0.188045 |
+L635: | 15k PGE2 | float64 | 20 | 0.11769, 0.11741, 0.07995 |
+L636: | 15k PGE2 | float64 | 20 | 0.118945, 0.2323, 0.183815 |
+L637: | 15k PGE2 | float64 | 20 | 0.15271, 0.24645, 0.19247 |
+L638: | 15k PGE2 | float64 | 20 | 0.112415, 0.168395, 0.193245 |
+L639: | 15k PGE2 | float64 | 20 | 0.061005, 0.096185, 0.158955 |
+L640: | 15k PGE2 | float64 | 20 | 0.143045, 0.118545, 0.141335 |
+L641: | 15k PGE2 | float64 | 20 | 0.056955, 0.14593, 0.209435 |
+L642: | 15k PGE2 | float64 | 20 | 0.08823, 0.09294, 0.14643 |
+L643: | 15k PGE2 | float64 | 20 | 0.0802, 0.138725, 0.08295 |
+L644: | 15k PGE2 | float64 | 20 | 0.122545, 0.093885, 0.139035 |
+L645: | 15k PGE2 | float64 | 20 | 0.10315, 0.1471, 0.11989 |
+L646: | 15k PGE2 | float64 | 20 | 0.08622, 0.11527, 0.248085 |
+L647: | 15-oxoETE | float64 | 20 | 0.100555, 0.09654, 0.06921 |
+L648: | 15-oxoETE | float64 | 20 | 0.081185, 0.0427775, 0.06934 |
+L649: | 15-oxoETE | float64 | 20 | 0.10594, 0.068205, 0.067555 |
+L650: | 15-oxoETE | float64 | 20 | 0.071535, 0.0341385, 0.077225 |
+L651: | 15-oxoETE | float64 | 20 | 0.099715, 0.035485, 0.07617 |
+L652: | 15-oxoETE | float64 | 20 | 0.03722, 0.09343, 0.087215 |
+L653: | 15-oxoETE | float64 | 20 | 0.06726, 0.07197, 0.105795 |
+L654: | 15-oxoETE | float64 | 20 | 0.0229135, 0.032174, 0.08269 |
+L655: | 15-oxoETE | float64 | 20 | 0.0439725, 0.0727, 0.106435 |
+L656: | 15-oxoETE | float64 | 20 | 0.08697, 0.088705, 0.05776 |
+L657: | 15-oxoETE | float64 | 20 | 0.0348065, 0.024889, 0.111785 |
+L658: | 15-oxoETE | float64 | 20 | 0.1003, 0.063015, 0.052955 |
+L659: | 15R-LXA4 | float64 | 20 | 0.0214275, 0.052425, 0.095125 |
+L660: | 15R-LXA4 | float64 | 20 | 0.045236, 0.054775, 0.011812 |
+L661: | 15R-LXA4 | float64 | 20 | 0.065775, 0.0364915, 0.083355 |
+L662: | 15R-LXA4 | float64 | 20 | 0.006362, 0.014417, 0.0443225 |
+L663: | 15R-LXA4 | float64 | 20 | 0.016111, 0.067575, 0.033295 |
+L664: | 15R-LXA4 | float64 | 20 | 0.042939, 0.0271115, 0.0237875 |
+L665: | 15R-LXA4 | float64 | 20 | 0.060395, 0.06648, 0.05525 |
+L666: | 15R-LXA4 | float64 | 20 | 0.0218815, 0.0398665, 0.08167 |
+L667: | 15R-LXA4 | float64 | 20 | 0.054525, 0.091285, 0.068485 |
+L668: | 15R-LXA4 | float64 | 20 | 0.020249, 0.0356515, 0.0342555 |
+L669: | 15R-LXA4 | float64 | 20 | 0.0061065, 0.038433, 0.14209 |
+L670: | 15R-LXA4 | float64 | 20 | 0.0062585, 0.0121275, 0.056445 |
+L671: | 16-HDoHE | float64 | 20 | 0.100165, 0.145045, 0.040196 |
+L672: | 16-HDoHE | float64 | 20 | 0.059505, 0.060425, 0.07672 |
+L673: | 16-HDoHE | float64 | 20 | 0.06949, 0.270195, 0.0459555 |
+L674: | 16-HDoHE | float64 | 20 | 0.052005, 0.12722, 0.0384175 |
+L675: | 16-HDoHE | float64 | 20 | 0.0247805, 0.0513, 0.0434055 |
+L676: | 16-HDoHE | float64 | 20 | 0.052675, 0.107155, 0.049431 |
+L677: | 16-HDoHE | float64 | 20 | 0.08643, 0.1321, 0.0410285 |
+L678: | 16-HDoHE | float64 | 20 | 0.067495, 0.084805, 0.05141 |
+L679: | 16-HDoHE | float64 | 20 | 0.10296, 0.21356, 0.050675 |
+L680: | 16-HDoHE | float64 | 20 | 0.0395815, 0.18329, 0.0253895 |
+L681: | 16-HDoHE | float64 | 20 | 0.03313, 0.075835, 0.06679 |
+L682: | 16-HDoHE | float64 | 20 | 0.066325, 0.13548, 0.023911 |
+L683: | 16-HETE | float64 | 20 | 0.13322, 0.213505, 0.08505 |
+L684: | 16-HETE | float64 | 20 | 0.192805, 0.120495, 0.13951 |
+L685: | 16-HETE | float64 | 20 | 0.177945, 0.177315, 0.133025 |
+L686: | 16-HETE | float64 | 20 | 0.24579, 0.27787, 0.244815 |
+L687: | 16-HETE | float64 | 20 | 0.13153, 0.107995, 0.21659 |
+L688: | 16-HETE | float64 | 20 | 0.177465, 0.141255, 0.16175 |
+L689: | 16-HETE | float64 | 20 | 0.137135, 0.264375, 0.16196 |
+L690: | 16-HETE | float64 | 20 | 0.117255, 0.21054, 0.240765 |
+L691: | 16-HETE | float64 | 20 | 0.100055, 0.21677, 0.23604 |
+L692: | 16-HETE | float64 | 20 | 0.17263, 0.13217, 0.116745 |
+L693: | 16-HETE | float64 | 20 | 0.15521, 0.12926, 0.264285 |
+L694: | 16-HETE | float64 | 20 | 0.109695, 0.1621, 0.11487 |
+L695: | 17-HDoHE | float64 | 20 | 0.6161, 0.6118, 0.389295 |
+L696: | 17-HDoHE | float64 | 20 | 0.69495, 0.5651, 0.5077 |
+L697: | 17-HDoHE | float64 | 20 | 0.60295, 1.46245, 0.425305 |
+L698: | 17-HDoHE | float64 | 20 | 0.48352, 0.6259, 0.28337 |
+L699: | 17-HDoHE | float64 | 20 | 0.169295, 0.223105, 0.371855 |
+L700: | 17-HDoHE | float64 | 20 | 0.46648, 0.4849, 0.153845 |
+L701: | 17-HDoHE | float64 | 20 | 0.6745, 0.8669, 0.41788 |
+L702: | 17-HDoHE | float64 | 20 | 0.356745, 0.359445, 0.5482 |
+L703: | 17-HDoHE | float64 | 20 | 0.59865, 1.17355, 0.74275 |
+L704: | 17-HDoHE | float64 | 20 | 0.287105, 1.16985, 0.77265 |
+L705: | 17-HDoHE | float64 | 20 | 0.7998, 0.293395, 0.17239 |
+L706: | 17-HDoHE | float64 | 20 | 0.59905, 0.9698, 0.39247 |
+L707: | 17-HETE | float64 | 20 | 0.06894, 0.05297, 0.03599 |
+L708: | 17-HETE | float64 | 20 | 0.076185, 0.064705, 0.07531 |
+L709: | 17-HETE | float64 | 20 | 0.10713, 0.089735, 0.051745 |
+L710: | 17-HETE | float64 | 20 | 0.052825, 0.11789, 0.072815 |
+L711: | 17-HETE | float64 | 20 | 0.098285, 0.124685, 0.055455 |
+L712: | 17-HETE | float64 | 20 | 0.109285, 0.09413, 0.068835 |
+L713: | 17-HETE | float64 | 20 | 0.043613, 0.088355, 0.059825 |
+L714: | 17-HETE | float64 | 20 | 0.055855, 0.046678, 0.1245 |
+L715: | 17-HETE | float64 | 20 | 0.070605, 0.0406745, 0.093025 |
+L716: | 17-HETE | float64 | 20 | 0.053975, 0.102645, 0.111375 |
+L717: | 17-HETE | float64 | 20 | 0.0230225, 0.024979, 0.087075 |
+L718: | 17-HETE | float64 | 20 | 0.0311925, 0.0403865, 0.106905 |
+L719: | 18-HEPE | float64 | 20 | 0.07772, 0.1041, 0.10798 |
+L720: | 18-HEPE | float64 | 20 | 0.191255, 0.08914, 0.118145 |
+L721: | 18-HEPE | float64 | 20 | 0.112455, 0.21483, 0.09015 |
+L722: | 18-HEPE | float64 | 20 | 0.109475, 0.085575, 0.08117 |
+L723: | 18-HEPE | float64 | 20 | 0.10305, 0.14596, 0.087705 |
+L724: | 18-HEPE | float64 | 20 | 0.05186, 0.0782, 0.078185 |
+L725: | 18-HEPE | float64 | 20 | 0.121165, 0.15849, 0.10099 |
+L726: | 18-HEPE | float64 | 20 | 0.12192, 0.0735, 0.067835 |
+L727: | 18-HEPE | float64 | 20 | 0.1234, 0.217885, 0.12839 |
+L728: | 18-HEPE | float64 | 20 | 0.138955, 0.13008, 0.12133 |
+L729: | 18-HEPE | float64 | 20 | 0.126705, 0.18463, 0.121475 |
+L730: | 18-HEPE | float64 | 20 | 0.065315, 0.187885, 0.05446 |
+L731: | 19,20-DiHDPA | float64 | 20 | 0.45716, 1.0966, 0.36065 |
+L732: | 19,20-DiHDPA | float64 | 20 | 0.7233, 0.9056, 0.48967 |
+L733: | 19,20-DiHDPA | float64 | 20 | 0.8176, 1.71755, 0.50945 |
+L734: | 19,20-DiHDPA | float64 | 20 | 0.8131, 1.5721, 0.372115 |
+L735: | 19,20-DiHDPA | float64 | 20 | 0.79755, 1.59765, 0.6574 |
+L736: | 19,20-DiHDPA | float64 | 20 | 0.6567, 1.11405, 0.46036 |
+L737: | 19,20-DiHDPA | float64 | 20 | 0.397105, 1.24455, 0.461275 |
+L738: | 19,20-DiHDPA | float64 | 20 | 0.262555, 0.9999, 0.411495 |
+L739: | 19,20-DiHDPA | float64 | 20 | 0.641, 2.02075, 0.78245 |
+L740: | 19,20-DiHDPA | float64 | 20 | 0.7094, 1.52135, 0.74665 |
+L741: | 19,20-DiHDPA | float64 | 20 | 0.5757, 1.43295, 0.5426 |
+L742: | 19,20-DiHDPA | float64 | 20 | 0.4062, 1.01805, 0.6991 |
+L743: | 20cooh AA | float64 | 20 | 1.7504, 4.3261, 5.345 |
+L744: | 20cooh AA | float64 | 20 | 5.533, 3.064, 4.70075 |
+L745: | 20cooh AA | float64 | 20 | 5.2175, 5.051, 7.028 |
+L746: | 20cooh AA | float64 | 20 | 7.1575, 5.726, 9.72 |
+L747: | 20cooh AA | float64 | 20 | 6.4705, 5.8625, 9.7955 |
+L748: | 20cooh AA | float64 | 20 | 3.60765, 4.06525, 5.9385 |
+L749: | 20cooh AA | float64 | 20 | 1.50875, 3.79715, 5.741 |
+L750: | 20cooh AA | float64 | 20 | 2.32595, 3.56545, 4.6945 |
+L751: | 20cooh AA | float64 | 20 | 2.60965, 6.8455, 6.9505 |
+L752: | 20cooh AA | float64 | 20 | 2.9138, 6.826, 8.6165 |
+L753: | 20cooh AA | float64 | 20 | 2.6457, 6.378, 6.913 |
+L754: | 20cooh AA | float64 | 20 | 1.73385, 3.9233, 7.7475 |
+L755: | 20-HDoHE | float64 | 20 | 0.130435, 0.245725, 0.142835 |
+L756: | 20-HDoHE | float64 | 20 | 0.216515, 0.16286, 0.077085 |
+L757: | 20-HDoHE | float64 | 20 | 0.163295, 0.51425, 0.0827 |
+L758: | 20-HDoHE | float64 | 20 | 0.15351, 0.35584, 0.11528 |
+L759: | 20-HDoHE | float64 | 20 | 0.060795, 0.15597, 0.14859 |
+L760: | 20-HDoHE | float64 | 20 | 0.133535, 0.277795, 0.11815 |
+L761: | 20-HDoHE | float64 | 20 | 0.155965, 0.2962, 0.08639 |
+L762: | 20-HDoHE | float64 | 20 | 0.113665, 0.221045, 0.0462795 |
+L763: | 20-HDoHE | float64 | 20 | 0.2016, 0.61425, 0.119545 |
+L764: | 20-HDoHE | float64 | 20 | 0.08164, 0.32686, 0.11247 |
+L765: | 20-HDoHE | float64 | 20 | 0.0460585, 0.237045, 0.1145 |
+L766: | 20-HDoHE | float64 | 20 | 0.16675, 0.286135, 0.11566 |
+L767: | 4-HDoHE | float64 | 20 | 0.100755, 0.259115, 0.12344 |
+L768: | 4-HDoHE | float64 | 20 | 0.207635, 0.159505, 0.0253755 |
+L769: | 4-HDoHE | float64 | 20 | 0.109805, 0.6004, 0.044327 |
+L770: | 4-HDoHE | float64 | 20 | 0.059495, 0.281405, 0.130945 |
+L771: | 4-HDoHE | float64 | 20 | 0.07958, 0.083765, 0.037769 |
+L772: | 4-HDoHE | float64 | 20 | 0.100465, 0.222485, 0.0240215 |
+L773: | 4-HDoHE | float64 | 20 | 0.17484, 0.297365, 0.11599 |
+L774: | 4-HDoHE | float64 | 20 | 0.05236, 0.136105, 0.040496 |
+L775: | 4-HDoHE | float64 | 20 | 0.15556, 0.61915, 0.14511 |
+L776: | 4-HDoHE | float64 | 20 | 0.11007, 0.45326, 0.07819 |
+L777: | 4-HDoHE | float64 | 20 | 0.062845, 0.128115, 0.06985 |
+L778: | 4-HDoHE | float64 | 20 | 0.057025, 0.231385, 0.092175 |
+L779: | 5,15-diHETE | float64 | 20 | 0.016595, 0.0221955, 0.0090715 |
+L780: | 5,15-diHETE | float64 | 20 | 0.0233475, 0.0429235, 0.076395 |
+L781: | 5,15-diHETE | float64 | 20 | 0.036677, 0.0357525, 0.0178625 |
+L782: | 5,15-diHETE | float64 | 20 | 0.0345185, 0.0449355, 0.0329675 |
+L783: | 5,15-diHETE | float64 | 20 | 0.011162, 0.0129565, 0.021766 |
+L784: | 5,15-diHETE | float64 | 20 | 0.05057, 0.01988, 0.0228305 |
+L785: | 5,15-diHETE | float64 | 20 | 0.013642, 0.075575, 0.052725 |
+L786: | 5,15-diHETE | float64 | 20 | 0.0045214, 0.0266975, 0.0087835 |
+L787: | 5,15-diHETE | float64 | 20 | 0.00023283, 0.05208, 0.025472 |
+L788: | 5,15-diHETE | float64 | 20 | 0.0369735, 0.0080295, 0.00304895 |
+L789: | 5,15-diHETE | float64 | 20 | 0.059105, 0.029362, 0.0067675 |
+L790: | 5,15-diHETE | float64 | 20 | 5.103e-05, 0.0319705, 0.018839 |
+L791: | 5,6-diHETrE | float64 | 20 | 0.08102, 0.13403, 0.09422 |
+L792: | 5,6-diHETrE | float64 | 20 | 0.35093, 0.12414, 0.081275 |
+L793: | 5,6-diHETrE | float64 | 20 | 0.22863, 0.181025, 0.097195 |
+L794: | 5,6-diHETrE | float64 | 20 | 0.22894, 0.22443, 0.154765 |
+L795: | 5,6-diHETrE | float64 | 20 | 0.22373, 0.228115, 0.06526 |
+L796: | 5,6-diHETrE | float64 | 20 | 0.2025, 0.26481, 0.107235 |
+L797: | 5,6-diHETrE | float64 | 20 | 0.09079, 0.088365, 0.13406 |
+L798: | 5,6-diHETrE | float64 | 20 | 0.1365, 0.140815, 0.085575 |
+L799: | 5,6-diHETrE | float64 | 20 | 0.085485, 0.10192, 0.121495 |
+L800: | 5,6-diHETrE | float64 | 20 | 0.091395, 0.342825, 0.139265 |
+L801: | 5,6-diHETrE | float64 | 20 | 0.07379, 0.08612, 0.131995 |
+L802: | 5,6-diHETrE | float64 | 20 | 0.084155, 0.09573, 0.130255 |
+L803: | 5-HEPE | float64 | 20 | 0.112845, 0.081895, 0.0761 |
+L804: | 5-HEPE | float64 | 20 | 0.272985, 0.056525, 0.0272915 |
+L805: | 5-HEPE | float64 | 20 | 0.121955, 0.156885, 0.14133 |
+L806: | 5-HEPE | float64 | 20 | 0.104815, 0.10481, 0.07985 |
+L807: | 5-HEPE | float64 | 20 | 0.08372, 0.033859, 0.0445825 |
+L808: | 5-HEPE | float64 | 20 | 0.15966, 0.05868, 0.037905 |
+L809: | 5-HEPE | float64 | 20 | 0.120055, 0.08788, 0.0288765 |
+L810: | 5-HEPE | float64 | 20 | 0.042777, 0.05168, 0.063945 |
+L811: | 5-HEPE | float64 | 20 | 0.12977, 0.191605, 0.13383 |
+L812: | 5-HEPE | float64 | 20 | 0.0354945, 0.190285, 0.09843 |
+L813: | 5-HEPE | float64 | 20 | 0.0370485, 0.02481, 0.05745 |
+L814: | 5-HEPE | float64 | 20 | 0.048404, 0.0595, 0.07244 |
+L815: | 5-HETE | float64 | 20 | 0.49891, 0.50825, 0.47557 |
+L816: | 5-HETE | float64 | 20 | 1.9385, 0.366235, 0.36468 |
+L817: | 5-HETE | float64 | 20 | 0.8978, 1.16015, 0.6189 |
+L818: | 5-HETE | float64 | 20 | 0.5424, 0.76675, 0.45084 |
+L819: | 5-HETE | float64 | 20 | 0.35774, 0.39058, 0.400715 |
+L820: | 5-HETE | float64 | 20 | 0.46067, 0.5497, 0.49715 |
+L821: | 5-HETE | float64 | 20 | 0.57325, 0.6097, 0.362465 |
+L822: | 5-HETE | float64 | 20 | 0.35217, 0.42199, 0.37733 |
+L823: | 5-HETE | float64 | 20 | 0.67575, 1.4744, 0.6004 |
+L824: | 5-HETE | float64 | 20 | 0.37674, 1.23635, 0.6305 |
+L825: | 5-HETE | float64 | 20 | 0.27275, 0.32959, 0.347625 |
+L826: | 5-HETE | float64 | 20 | 0.30191, 0.4733, 0.55665 |
+L827: | 5-oxoETE | float64 | 20 | 0.51215, 0.6574, 0.67765 |
+L828: | 5-oxoETE | float64 | 20 | 0.9039, 1.6011, 0.305795 |
+L829: | 5-oxoETE | float64 | 20 | 1.27225, 0.8843, 0.5248 |
+L830: | 5-oxoETE | float64 | 20 | 1.57375, 1.098, 0.75075 |
+L831: | 5-oxoETE | float64 | 20 | 0.6557, 1.14355, 0.68375 |
+L832: | 5-oxoETE | float64 | 20 | 1.66095, 1.5842, 0.403645 |
+L833: | 5-oxoETE | float64 | 20 | 0.5177, 1.4667, 0.71115 |
+L834: | 5-oxoETE | float64 | 20 | 1.4423, 1.4637, 0.61705 |
+L835: | 5-oxoETE | float64 | 20 | 0.86735, 0.5057, 0.7532 |
+L836: | 5-oxoETE | float64 | 20 | 0.93565, 1.13135, 0.79245 |
+L837: | 5-oxoETE | float64 | 20 | 0.9101, 1.1794, 0.68495 |
+L838: | 5-oxoETE | float64 | 20 | 1.00575, 1.37945, 0.63675 |
+L839: | 6S-LXA4 | float64 | 20 | 0.0170485, 0.0457185, 0.053525 |
+L840: | 6S-LXA4 | float64 | 20 | 0.037213, 0.014011, 0.0162905 |
+L841: | 6S-LXA4 | float64 | 20 | 0.0285005, 0.067265, 0.060145 |
+L842: | 6S-LXA4 | float64 | 20 | 0.061235, 0.0512, 0.026794 |
+L843: | 6S-LXA4 | float64 | 20 | 0.0261925, 0.013669, 0.035782 |
+L844: | 6S-LXA4 | float64 | 20 | 0.026116, 0.0283065, 0.0421395 |
+L845: | 6S-LXA4 | float64 | 20 | 0.033643, 0.056175, 0.092135 |
+L846: | 6S-LXA4 | float64 | 20 | 0.05625, 0.05277, 0.06928 |
+L847: | 6S-LXA4 | float64 | 20 | 0.0280805, 0.0294545, 0.030709 |
+L848: | 6S-LXA4 | float64 | 20 | 0.017628, 0.0191385, 0.019535 |
+L849: | 6S-LXA4 | float64 | 20 | 0.047279, 0.049601, 0.014428 |
+L850: | 6S-LXA4 | float64 | 20 | 0.028346, 0.031162, 0.0168545 |
+L851: | 7(R) Maresin-1 | float64 | 20 | 0.162065, 0.267205, 0.0405455 |
+L852: | 7(R) Maresin-1 | float64 | 20 | 0.09168, 0.09293, 0.025128 |
+L853: | 7(R) Maresin-1 | float64 | 20 | 0.06761, 0.102955, 0.10516 |
+L854: | 7(R) Maresin-1 | float64 | 20 | 0.0071945, 0.0415005, 0.05159 |
+L855: | 7(R) Maresin-1 | float64 | 20 | 0.0464745, 0.0394435, 0.017342 |
+L856: | 7(R) Maresin-1 | float64 | 20 | 0.06043, 0.032211, 0.125155 |
+L857: | 7(R) Maresin-1 | float64 | 20 | 0.07715, 0.08384, 0.139195 |
+L858: | 7(R) Maresin-1 | float64 | 20 | 0.072855, 0.20135, 0.047374 |
+L859: | 7(R) Maresin-1 | float64 | 20 | 0.068535, 0.124285, 0.069245 |
+L860: | 7(R) Maresin-1 | float64 | 20 | 0.046331, 0.057065, 0.11956 |
+L861: | 7(R) Maresin-1 | float64 | 20 | 0.07579, 0.193915, 0.051795 |
+L862: | 7(R) Maresin-1 | float64 | 20 | 0.033117, 0.07115, 0.10992 |
+L863: | 7-HDoHE | float64 | 20 | 0.05526, 0.0402555, 0.0433565 |
+L864: | 7-HDoHE | float64 | 20 | 0.05978, 0.029665, 0.0298815 |
+L865: | 7-HDoHE | float64 | 20 | 0.062525, 0.108785, 0.06409 |
+L866: | 7-HDoHE | float64 | 20 | 0.06132, 0.101235, 0.067135 |
+L867: | 7-HDoHE | float64 | 20 | 0.046577, 0.038162, 0.0316735 |
+L868: | 7-HDoHE | float64 | 20 | 0.0356585, 0.033651, 0.028326 |
+L869: | 7-HDoHE | float64 | 20 | 0.081885, 0.12941, 0.06279 |
+L870: | 7-HDoHE | float64 | 20 | 0.039688, 0.0313305, 0.074425 |
+L871: | 7-HDoHE | float64 | 20 | 0.06616, 0.168705, 0.02449 |
+L872: | 7-HDoHE | float64 | 20 | 0.059955, 0.058835, 0.0409725 |
+L873: | 7-HDoHE | float64 | 20 | 0.087395, 0.0285545, 0.059835 |
+L874: | 7-HDoHE | float64 | 20 | 0.0424375, 0.05744, 0.0497945 |
+L875: | 8,15-diHETE | float64 | 20 | 0.0467305, 0.026561, 0.0169255 |
+L876: | 8,15-diHETE | float64 | 20 | 0.0242275, 0.0198265, 0.0444585 |
+L877: | 8,15-diHETE | float64 | 20 | 0.0340725, 0.0338465, 0.019827 |
+L878: | 8,15-diHETE | float64 | 20 | 0.0152095, 0.0117345, 0.048879 |
+L879: | 8,15-diHETE | float64 | 20 | 0.01042, 0.010983, 0.0031949 |
+L880: | 8,15-diHETE | float64 | 20 | 0.00845, 0.0103055, 0.026695 |
+L881: | 8,15-diHETE | float64 | 20 | 0.025843, 0.010084, 0.028275 |
+L882: | 8,15-diHETE | float64 | 20 | 0.0134185, 0.0414795, 0.008019 |
+L883: | 8,15-diHETE | float64 | 20 | 0.0496465, 0.10846, 0.05439 |
+L884: | 8,15-diHETE | float64 | 20 | 0.072735, 0.021574, 0.0305515 |
+L885: | 8,15-diHETE | float64 | 20 | 0.00470185, 0.075065, 0.043755 |
+L886: | 8,15-diHETE | float64 | 20 | 0.038824, 0.034998, 0.009875 |
+L887: | 8,9-diHETrE | float64 | 20 | 0.0322085, 0.05547, 0.05295 |
+L888: | 8,9-diHETrE | float64 | 20 | 0.13888, 0.058745, 0.06361 |
+L889: | 8,9-diHETrE | float64 | 20 | 0.124715, 0.06496, 0.0548 |
+L890: | 8,9-diHETrE | float64 | 20 | 0.077965, 0.036552, 0.115065 |
+L891: | 8,9-diHETrE | float64 | 20 | 0.054835, 0.06841, 0.065 |
+L892: | 8,9-diHETrE | float64 | 20 | 0.074885, 0.047411, 0.05575 |
+L893: | 8,9-diHETrE | float64 | 20 | 0.073865, 0.06933, 0.111475 |
+L894: | 8,9-diHETrE | float64 | 20 | 0.0322245, 0.057935, 0.05624 |
+L895: | 8,9-diHETrE | float64 | 20 | 0.06014, 0.05831, 0.066005 |
+L896: | 8,9-diHETrE | float64 | 20 | 0.081745, 0.077575, 0.11016 |
+L897: | 8,9-diHETrE | float64 | 20 | 0.034172, 0.054695, 0.08873 |
+L898: | 8,9-diHETrE | float64 | 20 | 0.05492, 0.0368275, 0.07078 |
+L899: | 8-HDoHE | float64 | 20 | 0.081935, 0.12511, 0.0310065 |
+L900: | 8-HDoHE | float64 | 20 | 0.12545, 0.069985, 0.0367235 |
+L901: | 8-HDoHE | float64 | 20 | 0.074335, 0.29197, 0.05566 |
+L902: | 8-HDoHE | float64 | 20 | 0.06545, 0.244155, 0.069045 |
+L903: | 8-HDoHE | float64 | 20 | 0.0200155, 0.058785, 0.042283 |
+L904: | 8-HDoHE | float64 | 20 | 0.035655, 0.101865, 0.0448485 |
+L905: | 8-HDoHE | float64 | 20 | 0.11412, 0.222245, 0.0421185 |
+L906: | 8-HDoHE | float64 | 20 | 0.0211335, 0.09818, 0.05134 |
+L907: | 8-HDoHE | float64 | 20 | 0.0226405, 0.310875, 0.05304 |
+L908: | 8-HDoHE | float64 | 20 | 0.04755, 0.140655, 0.05255 |
+L909: | 8-HDoHE | float64 | 20 | 0.0281475, 0.098965, 0.026417 |
+L910: | 8-HDoHE | float64 | 20 | 0.030653, 0.163155, 0.0363535 |
+L911: | 8-HEPE | float64 | 20 | 0.0671, 0.063795, 0.030709 |
+L912: | 8-HEPE | float64 | 20 | 0.0391515, 0.0170355, 0.047994 |
+L913: | 8-HEPE | float64 | 20 | 0.0794, 0.083515, 0.0361365 |
+L914: | 8-HEPE | float64 | 20 | 0.05322, 0.133715, 0.059955 |
+L915: | 8-HEPE | float64 | 20 | 0.06028, 0.055755, 0.0067805 |
+L916: | 8-HEPE | float64 | 20 | 0.0478105, 0.0443425, 0.0325655 |
+L917: | 8-HEPE | float64 | 20 | 0.059045, 0.07501, 0.017515 |
+L918: | 8-HEPE | float64 | 20 | 0.027035, 0.0330985, 0.04846 |
+L919: | 8-HEPE | float64 | 20 | 0.055435, 0.073775, 0.11059 |
+L920: | 8-HEPE | float64 | 20 | 0.041957, 0.0299595, 0.036571 |
+L921: | 8-HEPE | float64 | 20 | 0.019529, 0.03905, 0.06282 |
+L922: | 8-HEPE | float64 | 20 | 0.03775, 0.0423945, 0.042877 |
+L923: | 8-HETE | float64 | 20 | 0.1564, 0.14148, 0.026375 |
+L924: | 8-HETE | float64 | 20 | 0.13254, 0.055875, 0.06147 |
+L925: | 8-HETE | float64 | 20 | 0.157255, 0.125525, 0.131505 |
+L926: | 8-HETE | float64 | 20 | 0.105155, 0.069085, 0.106145 |
+L927: | 8-HETE | float64 | 20 | 0.065455, 0.053455, 0.0281875 |
+L928: | 8-HETE | float64 | 20 | 0.075745, 0.027808, 0.0390655 |
+L929: | 8-HETE | float64 | 20 | 0.11033, 0.09273, 0.0208335 |
+L930: | 8-HETE | float64 | 20 | 0.0429455, 0.08744, 0.04722 |
+L931: | 8-HETE | float64 | 20 | 0.11696, 0.14784, 0.127595 |
+L932: | 8-HETE | float64 | 20 | 0.139515, 0.13151, 0.09352 |
+L933: | 8-HETE | float64 | 20 | 0.07821, 0.08659, 0.094365 |
+L934: | 8-HETE | float64 | 20 | 0.132285, 0.06943, 0.069255 |
+L935: | 8-HETrE | float64 | 20 | 0.077795, 0.0192845, 0.115305 |
+L936: | 8-HETrE | float64 | 20 | 0.105575, 0.0070395, 0.063675 |
+L937: | 8-HETrE | float64 | 20 | 0.12249, 0.08293, 0.118055 |
+L938: | 8-HETrE | float64 | 20 | 0.0481825, 0.046711, 0.06354 |
+L939: | 8-HETrE | float64 | 20 | 0.106285, 0.05811, 0.072825 |
+L940: | 8-HETrE | float64 | 20 | 0.103605, 0.12702, 0.078215 |
+L941: | 8-HETrE | float64 | 20 | 0.124295, 0.071605, 0.026442 |
+L942: | 8-HETrE | float64 | 20 | 0.064045, 0.0529, 0.11552 |
+L943: | 8-HETrE | float64 | 20 | 0.095155, 0.123635, 0.12305 |
+L944: | 8-HETrE | float64 | 20 | 0.064075, 0.0418535, 0.061345 |
+L945: | 8-HETrE | float64 | 20 | 0.052915, 0.02541, 0.07768 |
+L946: | 8-HETrE | float64 | 20 | 0.07813, 0.120685, 0.04832 |
+L947: | 9,10-diHOME | float64 | 20 | 2.93925, 1.227, 3.3158 |
+L948: | 9,10-diHOME | float64 | 20 | 5.2265, 0.57765, 0.7677 |
+L949: | 9,10-diHOME | float64 | 20 | 4.8804, 3.3136, 1.46355 |
+L950: | 9,10-diHOME | float64 | 20 | 1.68145, 0.88905, 0.69775 |
+L951: | 9,10-diHOME | float64 | 20 | 1.0635, 0.76845, 1.00575 |
+L952: | 9,10-diHOME | float64 | 20 | 1.58245, 0.91305, 0.8329 |
+L953: | 9,10-diHOME | float64 | 20 | 2.78175, 1.22195, 1.4893 |
+L954: | 9,10-diHOME | float64 | 20 | 0.7156, 0.6054, 0.5843 |
+L955: | 9,10-diHOME | float64 | 20 | 2.74015, 6.2505, 1.43545 |
+L956: | 9,10-diHOME | float64 | 20 | 0.98615, 1.5792, 0.85755 |
+L957: | 9,10-diHOME | float64 | 20 | 1.08595, 0.94075, 1.1931 |
+L958: | 9,10-diHOME | float64 | 20 | 1.0319, 1.25715, 0.5406 |
+L959: | 9,10-EpOME | float64 | 20 | 2.16695, 0.90905, 1.0305 |
+L960: | 9,10-EpOME | float64 | 20 | 4.4288, 0.64245, 0.59405 |
+L961: | 9,10-EpOME | float64 | 20 | 4.24645, 3.2815, 1.39515 |
+L962: | 9,10-EpOME | float64 | 20 | 1.5394, 1.0794, 0.64815 |
+L963: | 9,10-EpOME | float64 | 20 | 0.30509, 0.39554, 0.53005 |
+L964: | 9,10-EpOME | float64 | 20 | 1.08285, 0.9673, 0.61225 |
+L965: | 9,10-EpOME | float64 | 20 | 2.65795, 0.86355, 0.58455 |
+L966: | 9,10-EpOME | float64 | 20 | 0.52405, 0.71035, 0.64285 |
+L967: | 9,10-EpOME | float64 | 20 | 3.3863, 5.4825, 1.42225 |
+L968: | 9,10-EpOME | float64 | 20 | 1.32925, 1.35755, 0.8351 |
+L969: | 9,10-EpOME | float64 | 20 | 0.36264, 0.2826, 0.379425 |
+L970: | 9,10-EpOME | float64 | 20 | 0.9079, 0.9835, 0.61385 |
+L971: | 9-HEPE | float64 | 20 | 0.0408775, 0.08286, 0.098555 |
+L972: | 9-HEPE | float64 | 20 | 0.043746, 0.077945, 0.021225 |
+L973: | 9-HEPE | float64 | 20 | 0.130575, 0.109885, 0.030625 |
+L974: | 9-HEPE | float64 | 20 | 0.14181, 0.05087, 0.067645 |
+L975: | 9-HEPE | float64 | 20 | 0.062745, 0.087355, 0.032152 |
+L976: | 9-HEPE | float64 | 20 | 0.0431175, 0.074765, 0.0340095 |
+L977: | 9-HEPE | float64 | 20 | 0.0392965, 0.0453125, 0.074565 |
+L978: | 9-HEPE | float64 | 20 | 0.060835, 0.096165, 0.07647 |
+L979: | 9-HEPE | float64 | 20 | 0.075125, 0.065925, 0.053545 |
+L980: | 9-HEPE | float64 | 20 | 0.10111, 0.186425, 0.0293065 |
+L981: | 9-HEPE | float64 | 20 | 0.0179545, 0.042011, 0.06968 |
+L982: | 9-HEPE | float64 | 20 | 0.060155, 0.0397175, 0.05704 |
+L983: | 9-HETE | float64 | 20 | 0.181255, 0.08749, 0.0376605 |
+L984: | 9-HETE | float64 | 20 | 0.151055, 0.07071, 0.079195 |
+L985: | 9-HETE | float64 | 20 | 0.11469, 0.188835, 0.09737 |
+L986: | 9-HETE | float64 | 20 | 0.064285, 0.15234, 0.0364665 |
+L987: | 9-HETE | float64 | 20 | 0.0364125, 0.116425, 0.12223 |
+L988: | 9-HETE | float64 | 20 | 0.086815, 0.10312, 0.07164 |
+L989: | 9-HETE | float64 | 20 | 0.099265, 0.11614, 0.10254 |
+L990: | 9-HETE | float64 | 20 | 0.08424, 0.029175, 0.09952 |
+L991: | 9-HETE | float64 | 20 | 0.118025, 0.15839, 0.080475 |
+L992: | 9-HETE | float64 | 20 | 0.061, 0.137865, 0.07004 |
+L993: | 9-HETE | float64 | 20 | 0.05073, 0.07028, 0.0410695 |
+L994: | 9-HETE | float64 | 20 | 0.10448, 0.13492, 0.073965 |
+L995: | 9-HODE | float64 | 20 | 8.093, 3.10545, 3.95155 |
+L996: | 9-HODE | float64 | 20 | 16.342, 2.4262, 2.0736 |
+L997: | 9-HODE | float64 | 20 | 15.2945, 11.62, 4.61745 |
+L998: | 9-HODE | float64 | 20 | 5.4825, 3.66025, 2.26165 |
+L999: | 9-HODE | float64 | 20 | 1.0672, 1.2864, 1.6563 |
+L1000: | 9-HODE | float64 | 20 | 3.503, 3.17155, 2.0448 |
+L1001: | 9-HODE | float64 | 20 | 9.9425, 3.0847, 1.9104 |
+L1002: | 9-HODE | float64 | 20 | 2.1522, 2.38365, 2.0161 |
+L1003: | 9-HODE | float64 | 20 | 11.231, 17.5055, 4.35085 |
+L1004: | 9-HODE | float64 | 20 | 5.0665, 4.80495, 2.7845 |
+L1005: | 9-HODE | float64 | 20 | 1.26245, 1.11935, 1.42755 |
+L1006: | 9-HODE | float64 | 20 | 3.27275, 3.62615, 2.1014 |
+L1007: | 9-HOTrE | float64 | 20 | 0.146895, 0.112475, 0.0828 |
+L1008: | 9-HOTrE | float64 | 20 | 0.453605, 0.048627, 0.056085 |
+L1009: | 9-HOTrE | float64 | 20 | 0.24775, 0.259815, 0.113715 |
+L1010: | 9-HOTrE | float64 | 20 | 0.129805, 0.080455, 0.059315 |
+L1011: | 9-HOTrE | float64 | 20 | 0.062455, 0.051225, 0.0425485 |
+L1012: | 9-HOTrE | float64 | 20 | 0.07366, 0.101855, 0.0466445 |
+L1013: | 9-HOTrE | float64 | 20 | 0.203645, 0.075835, 0.06149 |
+L1014: | 9-HOTrE | float64 | 20 | 0.0449135, 0.06177, 0.075115 |
+L1015: | 9-HOTrE | float64 | 20 | 0.183695, 0.256515, 0.14541 |
+L1016: | 9-HOTrE | float64 | 20 | 0.08661, 0.111185, 0.089525 |
+L1017: | 9-HOTrE | float64 | 20 | 0.027418, 0.0314225, 0.057945 |
+L1018: | 9-HOTrE | float64 | 20 | 0.057525, 0.086955, 0.0466 |
+L1019: | Arachidonic acid | float64 | 20 | 532.5, 379.36, 374.51 |
+L1020: | Arachidonic acid | float64 | 20 | 881.95, 295.305, 379.4 |
+L1021: | Arachidonic acid | float64 | 20 | 896.2, 624.0, 618.45 |
+L1022: | Arachidonic acid | float64 | 20 | 468.285, 500.4, 578.7 |
+L1023: | Arachidonic acid | float64 | 20 | 213.59, 268.095, 398.105 |
+L1024: | Arachidonic acid | float64 | 20 | 398.885, 499.62, 386.355 |
+L1025: | Arachidonic acid | float64 | 20 | 465.695, 347.845, 354.05 |
+L1026: | Arachidonic acid | float64 | 20 | 243.88, 272.085, 369.97 |
+L1027: | Arachidonic acid | float64 | 20 | 686.5, 1151.2, 545.35 |
+L1028: | Arachidonic acid | float64 | 20 | 321.515, 491.93, 615.4 |
+L1029: | Arachidonic acid | float64 | 20 | 186.72, 219.595, 305.975 |
+L1030: | Arachidonic acid | float64 | 20 | 312.82, 479.51, 617.2 |
+L1031: | bicyclo PGE2 | float64 | 20 | 0.339615, 0.00179175, 0.05391 |
+L1032: | bicyclo PGE2 | float64 | 20 | 0.088445, 0.005277, 0.021962 |
+L1033: | bicyclo PGE2 | float64 | 20 | 0.12503, 0.0051185, 0.083095 |
+L1034: | bicyclo PGE2 | float64 | 20 | 0.34847, 0.00109345, 0.02725 |
+L1035: | bicyclo PGE2 | float64 | 20 | 0.31416, 0.00379705, 0.09293 |
+L1036: | bicyclo PGE2 | float64 | 20 | 0.053655, 0.0010701, 0.18215 |
+L1037: | bicyclo PGE2 | float64 | 20 | 0.19272, 0.018842, 0.135145 |
+L1038: | bicyclo PGE2 | float64 | 20 | 0.12381, 0.00408565, 0.07504 |
+L1039: | bicyclo PGE2 | float64 | 20 | 0.191605, 0.0132395, 0.17135 |
+L1040: | bicyclo PGE2 | float64 | 20 | 0.12094, 0.00216675, 0.06116 |
+L1041: | bicyclo PGE2 | float64 | 20 | 0.329825, 0.0189245, 0.11332 |
+L1042: | bicyclo PGE2 | float64 | 20 | 0.18211, 0.009231, 0.22497 |
+L1043: | dh PGF2Î± | float64 | 20 | 0.00100555, 0.00028824, 0.00264225 |
+L1044: | dh PGF2Î± | float64 | 20 | 0.00177115, 0.0013021, 0.0021588 |
+L1045: | dh PGF2Î± | float64 | 20 | 0.00055175, 0.0014955, 0.00154245 |
+L1046: | dh PGF2Î± | float64 | 20 | 0.005986, 0.00263435, 0.0043463 |
+L1047: | dh PGF2Î± | float64 | 20 | 0.00273565, 0.00157315, 0.00144415 |
+L1048: | dh PGF2Î± | float64 | 20 | 0.00052325, 0.006218, 0.00142395 |
+L1049: | dh PGF2Î± | float64 | 20 | 0.0044323, 0.00246755, 0.00263485 |
+L1050: | dh PGF2Î± | float64 | 19 | 0.00178495, 0.00177, 0.00081115 |
+L1051: | dh PGF2Î± | float64 | 20 | 0.0013999, 0.00055185, 0.0029292 |
+L1052: | dh PGF2Î± | float64 | 20 | 0.00066215, 0.00190395, 0.0026963 |
+L1053: | dh PGF2Î± | float64 | 20 | 0.000499935, 0.0055685, 0.00041496 |
+L1054: | dh PGF2Î± | float64 | 20 | 0.0040066, 0.00095965, 0.00105315 |
+L1055: | dhk PGD2 | float64 | 20 | 0.0168035, 0.00621, 0.0416115 |
+L1056: | dhk PGD2 | float64 | 20 | 0.0071, 0.0232195, 0.041514 |
+L1057: | dhk PGD2 | float64 | 20 | 0.00703, 0.010914, 0.0160425 |
+L1058: | dhk PGD2 | float64 | 20 | 0.0179665, 0.009462, 0.0275355 |
+L1059: | dhk PGD2 | float64 | 20 | 0.038754, 0.017483, 0.0289725 |
+L1060: | dhk PGD2 | float64 | 20 | 0.0193025, 0.0191365, 0.012501 |
+L1061: | dhk PGD2 | float64 | 20 | 0.017665, 0.018103, 0.024601 |
+L1062: | dhk PGD2 | float64 | 20 | 0.0490105, 0.030556, 0.030345 |
+L1063: | dhk PGD2 | float64 | 20 | 0.009595, 0.018216, 0.03931 |
+L1064: | dhk PGD2 | float64 | 20 | 0.008485, 0.0287275, 0.0332225 |
+L1065: | dhk PGD2 | float64 | 20 | 0.019016, 0.0286365, 0.021218 |
+L1066: | dhk PGD2 | float64 | 20 | 0.009741, 0.0376055, 0.041245 |
+L1067: | dhk PGF2α | float64 | 20 | 0.11124, 0.13719, 0.099415 |
+L1068: | dhk PGF2α | float64 | 20 | 0.104595, 0.12416, 0.052235 |
+L1069: | dhk PGF2α | float64 | 20 | 0.08874, 0.136575, 0.135355 |
+L1070: | dhk PGF2α | float64 | 20 | 0.186145, 0.08336, 0.123995 |
+L1071: | dhk PGF2α | float64 | 20 | 0.088165, 0.183925, 0.20179 |
+L1072: | dhk PGF2α | float64 | 20 | 0.11443, 0.071965, 0.09162 |
+L1073: | dhk PGF2α | float64 | 20 | 0.07388, 0.0358925, 0.117795 |
+L1074: | dhk PGF2α | float64 | 20 | 0.113275, 0.05248, 0.195325 |
+L1075: | dhk PGF2α | float64 | 20 | 0.132385, 0.12578, 0.19391 |
+L1076: | dhk PGF2α | float64 | 20 | 0.101675, 0.111935, 0.1325 |
+L1077: | dhk PGF2α | float64 | 20 | 0.073025, 0.09064, 0.146155 |
+L1078: | dhk PGF2α | float64 | 20 | 0.11113, 0.088135, 0.15962 |
+L1079: | dihomo PGF2α | float64 | 20 | 0.0148475, 0.0272355, 0.014181 |
+L1080: | dihomo PGF2α | float64 | 20 | 0.0325395, 0.0240395, 0.0159515 |
+L1081: | dihomo PGF2α | float64 | 20 | 0.038439, 0.010999, 0.02311 |
+L1082: | dihomo PGF2α | float64 | 20 | 0.025339, 0.0014143, 0.018242 |
+L1083: | dihomo PGF2α | float64 | 20 | 0.0283295, 0.011406, 0.0118665 |
+L1084: | dihomo PGF2α | float64 | 20 | 0.0156665, 0.0161975, 0.020313 |
+L1085: | dihomo PGF2α | float64 | 20 | 0.0032326, 0.021757, 0.017556 |
+L1086: | dihomo PGF2α | float64 | 20 | 0.00163485, 0.012996, 0.008283 |
+L1087: | dihomo PGF2α | float64 | 20 | 0.000491065, 0.0097815, 0.0071485 |
+L1088: | dihomo PGF2α | float64 | 20 | 0.019607, 0.0056745, 0.0174325 |
+L1089: | dihomo PGF2α | float64 | 20 | 0.0086895, 0.00170805, 0.0135295 |
+L1090: | dihomo PGF2α | float64 | 20 | 0.0182415, 0.00346825, 0.036026 |
+L1091: | Docosahexaenoic acid | float64 | 20 | 112.27, 256.275, 62.835 |
+L1092: | Docosahexaenoic acid | float64 | 20 | 194.32, 153.545, 34.461 |
+L1093: | Docosahexaenoic acid | float64 | 20 | 189.185, 427.745, 70.075 |
+L1094: | Docosahexaenoic acid | float64 | 20 | 107.655, 364.85, 89.63 |
+L1095: | Docosahexaenoic acid | float64 | 20 | 32.091, 110.72, 53.62 |
+L1096: | Docosahexaenoic acid | float64 | 20 | 98.4, 295.425, 44.4685 |
+L1097: | Docosahexaenoic acid | float64 | 20 | 119.42, 274.165, 53.85 |
+L1098: | Docosahexaenoic acid | float64 | 20 | 43.217, 145.505, 32.4365 |
+L1099: | Docosahexaenoic acid | float64 | 20 | 158.945, 866.9, 56.86 |
+L1100: | Docosahexaenoic acid | float64 | 20 | 67.13, 378.095, 101.86 |
+L1101: | Docosahexaenoic acid | float64 | 20 | 34.6045, 120.325, 40.725 |
+L1102: | Docosahexaenoic acid | float64 | 20 | 66.545, 364.05, 79.085 |
+L1103: | Eicosapentaenoic acid | float64 | 20 | 98.32, 103.805, 50.2 |
+L1104: | Eicosapentaenoic acid | float64 | 20 | 202.945, 55.855, 47.015 |
+L1105: | Eicosapentaenoic acid | float64 | 20 | 190.275, 144.88, 93.775 |
+L1106: | Eicosapentaenoic acid | float64 | 20 | 97.005, 83.705, 71.605 |
+L1107: | Eicosapentaenoic acid | float64 | 20 | 44.7095, 33.859, 47.429 |
+L1108: | Eicosapentaenoic acid | float64 | 20 | 81.99, 85.03, 49.041 |
+L1109: | Eicosapentaenoic acid | float64 | 20 | 117.18, 93.165, 40.985 |
+L1110: | Eicosapentaenoic acid | float64 | 20 | 40.336, 53.305, 45.005 |
+L1111: | Eicosapentaenoic acid | float64 | 20 | 135.58, 382.635, 91.53 |
+L1112: | Eicosapentaenoic acid | float64 | 20 | 62.975, 151.495, 85.425 |
+L1113: | Eicosapentaenoic acid | float64 | 20 | 36.547, 47.949, 42.7575 |
+L1114: | Eicosapentaenoic acid | float64 | 20 | 51.805, 117.33, 71.44 |
+L1115: | LTB4 | float64 | 20 | 0.0372815, 0.051145, 0.032924 |
+L1116: | LTB4 | float64 | 20 | 0.075915, 0.058135, 0.032931 |
+L1117: | LTB4 | float64 | 20 | 0.07288, 0.045454, 0.027449 |
+L1118: | LTB4 | float64 | 20 | 0.08027, 0.054675, 0.0205305 |
+L1119: | LTB4 | float64 | 20 | 0.068995, 0.088805, 0.0470175 |
+L1120: | LTB4 | float64 | 20 | 0.053255, 0.0434, 0.0385405 |
+L1121: | LTB4 | float64 | 20 | 0.0480195, 0.05658, 0.039682 |
+L1122: | LTB4 | float64 | 20 | 0.06344, 0.062675, 0.029482 |
+L1123: | LTB4 | float64 | 20 | 0.05049, 0.058745, 0.0447715 |
+L1124: | LTB4 | float64 | 20 | 0.0346075, 0.041571, 0.047276 |
+L1125: | LTB4 | float64 | 20 | 0.077205, 0.062035, 0.052025 |
+L1126: | LTB4 | float64 | 20 | 0.05195, 0.048521, 0.06427 |
+L1127: | PGA2 | float64 | 20 | 0.0105315, 0.0104755, 0.024059 |
+L1128: | PGA2 | float64 | 20 | 0.017041, 0.0197725, 0.014571 |
+L1129: | PGA2 | float64 | 20 | 0.00724, 0.028098, 0.0087485 |
+L1130: | PGA2 | float64 | 20 | 0.0081115, 0.022119, 0.0236105 |
+L1131: | PGA2 | float64 | 20 | 0.009528, 0.024714, 0.023976 |
+L1132: | PGA2 | float64 | 20 | 0.006625, 0.0141095, 0.0170095 |
+L1133: | PGA2 | float64 | 20 | 0.014591, 0.0201545, 0.020849 |
+L1134: | PGA2 | float64 | 20 | 0.009199, 0.017433, 0.0156345 |
+L1135: | PGA2 | float64 | 20 | 0.0091105, 0.0238335, 0.021482 |
+L1136: | PGA2 | float64 | 20 | 0.0091415, 0.010064, 0.0139465 |
+L1137: | PGA2 | float64 | 20 | 0.009298, 0.0260345, 0.020209 |
+L1138: | PGA2 | float64 | 20 | 0.005722, 0.012737, 0.009969 |
+L1139: | PGB2 | float64 | 20 | 0.053745, 0.0107775, 0.019668 |
+L1140: | PGB2 | float64 | 20 | 0.0423045, 0.00688, 0.0373345 |
+L1141: | PGB2 | float64 | 20 | 0.0482415, 0.0013879, 0.0357225 |
+L1142: | PGB2 | float64 | 20 | 0.0467705, 0.0021605, 0.046255 |
+L1143: | PGB2 | float64 | 20 | 0.035671, 0.00175615, 0.0349755 |
+L1144: | PGB2 | float64 | 20 | 0.0165025, 0.010389, 0.024748 |
+L1145: | PGB2 | float64 | 20 | 0.08421, 0.0180395, 0.0344385 |
+L1146: | PGB2 | float64 | 20 | 0.05312, 0.0143855, 0.03309 |
+L1147: | PGB2 | float64 | 20 | 0.015779, 0.0135645, 0.0260055 |
+L1148: | PGB2 | float64 | 20 | 0.0445175, 0.005033, 0.0209505 |
+L1149: | PGB2 | float64 | 20 | 0.061005, 0.0029099, 0.0433885 |
+L1150: | PGB2 | float64 | 20 | 0.041633, 0.0102425, 0.0177035 |
+L1151: | PGD1 | float64 | 20 | 0.0316085, 0.025013, 0.0174395 |
+L1152: | PGD1 | float64 | 20 | 0.0092055, 0.0025324, 0.022978 |
+L1153: | PGD1 | float64 | 20 | 0.0127785, 0.01464, 0.0033916 |
+L1154: | PGD1 | float64 | 20 | 0.006841, 0.0230805, 0.06025 |
+L1155: | PGD1 | float64 | 20 | 0.040374, 0.0288935, 0.027899 |
+L1156: | PGD1 | float64 | 20 | 0.0122225, 0.0269345, 0.017748 |
+L1157: | PGD1 | float64 | 20 | 0.005825, 0.00138795, 0.0331005 |
+L1158: | PGD1 | float64 | 20 | 0.026611, 0.015833, 0.0118255 |
+L1159: | PGD1 | float64 | 20 | 0.023659, 0.030655, 0.01384 |
+L1160: | PGD1 | float64 | 20 | 0.033733, 0.0074615, 0.03034 |
+L1161: | PGD1 | float64 | 20 | 0.0077185, 0.078955, 0.01 |
+L1162: | PGD1 | float64 | 20 | 0.0156995, 0.000425985, 0.01136 |
+L1163: | PGD2 | float64 | 20 | 0.017266, 0.0054395, 0.00449305 |
+L1164: | PGD2 | float64 | 20 | 0.0167045, 0.0031262, 0.0177945 |
+L1165: | PGD2 | float64 | 20 | 0.02646, 0.0017539, 0.005517 |
+L1166: | PGD2 | float64 | 20 | 0.024528, 0.015449, 0.0056065 |
+L1167: | PGD2 | float64 | 20 | 0.009698, 0.00029785, 0.0098785 |
+L1168: | PGD2 | float64 | 20 | 0.0174315, 0.0119275, 0.00370165 |
+L1169: | PGD2 | float64 | 20 | 0.11158, 0.007108, 0.00163895 |
+L1170: | PGD2 | float64 | 20 | 0.062855, 0.0081025, 0.00191525 |
+L1171: | PGD2 | float64 | 20 | 0.05243, 0.008182, 0.0063575 |
+L1172: | PGD2 | float64 | 20 | 0.0373915, 0.006514, 0.0006768 |
+L1173: | PGD2 | float64 | 20 | 0.03272, 0.00134455, 0.009212 |
+L1174: | PGD2 | float64 | 20 | 0.0302445, 0.00237745, 0.0013038 |
+L1175: | PGJ2 | float64 | 20 | 0.019591, 0.012471, 0.005823 |
+L1176: | PGJ2 | float64 | 20 | 0.0123595, 0.015197, 0.0241665 |
+L1177: | PGJ2 | float64 | 20 | 0.0056445, 0.025238, 0.00384875 |
+L1178: | PGJ2 | float64 | 20 | 0.0159805, 0.042276, 0.0096255 |
+L1179: | PGJ2 | float64 | 20 | 0.0204125, 0.026299, 0.0086315 |
+L1180: | PGJ2 | float64 | 20 | 0.0262725, 0.0085835, 0.0091715 |
+L1181: | PGJ2 | float64 | 20 | 0.011789, 0.019373, 0.0176135 |
+L1182: | PGJ2 | float64 | 20 | 0.0173615, 0.009361, 0.0179765 |
+L1183: | PGJ2 | float64 | 20 | 0.0254865, 0.0113265, 0.011776 |
+L1184: | PGJ2 | float64 | 20 | 0.0124765, 0.026079, 0.012261 |
+L1185: | PGJ2 | float64 | 20 | 0.016988, 0.0077905, 0.0167235 |
+L1186: | PGJ2 | float64 | 20 | 0.011285, 0.028164, 0.0090865 |
+L1187: | Protectin D1 | float64 | 20 | 0.024352, 0.005159, 0.018597 |
+L1188: | Protectin D1 | float64 | 20 | 0.019731, 0.0065505, 0.034143 |
+L1189: | Protectin D1 | float64 | 20 | 0.0094835, 0.014651, 0.008534 |
+L1190: | Protectin D1 | float64 | 20 | 0.016595, 0.0029912, 0.01671 |
+L1191: | Protectin D1 | float64 | 20 | 0.012526, 0.0204075, 0.009226 |
+L1192: | Protectin D1 | float64 | 20 | 0.019573, 0.0175575, 0.0018696 |
+L1193: | Protectin D1 | float64 | 20 | 0.013862, 0.024122, 0.006287 |
+L1194: | Protectin D1 | float64 | 20 | 0.008073, 0.018166, 0.0123695 |
+L1195: | Protectin D1 | float64 | 20 | 0.028715, 0.0247965, 0.009826 |
+L1196: | Protectin D1 | float64 | 20 | 0.0109295, 0.023744, 0.018407 |
+L1197: | Protectin D1 | float64 | 20 | 0.0246835, 0.00068255, 0.011497 |
+L1198: | Protectin D1 | float64 | 20 | 0.0177625, 0.0128025, 0.0124055 |
+L1199: | tetranor 12-HETE | float64 | 20 | 0.060295, 0.06291, 0.034889 |
+L1200: | tetranor 12-HETE | float64 | 20 | 0.05825, 0.0349415, 0.038774 |
+L1201: | tetranor 12-HETE | float64 | 20 | 0.0627, 0.06205, 0.044756 |
+L1202: | tetranor 12-HETE | float64 | 20 | 0.048778, 0.07613, 0.07566 |
+L1203: | tetranor 12-HETE | float64 | 20 | 0.03414, 0.047422, 0.049089 |
+L1204: | tetranor 12-HETE | float64 | 20 | 0.045995, 0.0458645, 0.100385 |
+L1205: | tetranor 12-HETE | float64 | 20 | 0.0440135, 0.087795, 0.063695 |
+L1206: | tetranor 12-HETE | float64 | 20 | 0.05651, 0.0260175, 0.079645 |
+L1207: | tetranor 12-HETE | float64 | 20 | 0.047466, 0.075295, 0.069955 |
+L1208: | tetranor 12-HETE | float64 | 20 | 0.0206085, 0.07482, 0.057275 |
+L1209: | tetranor 12-HETE | float64 | 20 | 0.05311, 0.053685, 0.05302 |
+L1210: | tetranor 12-HETE | float64 | 20 | 0.068695, 0.068915, 0.06418 |
+L1211: | TxB2 | float64 | 20 | 7.4095, 6.0685, 2.07665 |
+L1212: | TxB2 | float64 | 20 | 7.0305, 4.1491, 4.15755 |
+L1213: | TxB2 | float64 | 20 | 9.42, 2.8008, 1.9498 |
+L1214: | TxB2 | float64 | 20 | 4.9121, 1.3107, 1.2663 |
+L1215: | TxB2 | float64 | 20 | 8.6285, 4.40615, 1.59195 |
+L1216: | TxB2 | float64 | 20 | 3.10215, 7.538, 2.1022 |
+L1217: | TxB2 | float64 | 20 | 5.4265, 1.8563, 0.386885 |
+L1218: | TxB2 | float64 | 20 | 3.47165, 3.8701, 3.35585 |
+L1219: | TxB2 | float64 | 20 | 17.428, 3.18115, 3.29515 |
+L1220: | TxB2 | float64 | 20 | 13.5835, 0.92155, 1.64655 |
+L1221: | TxB2 | float64 | 20 | 6.5025, 1.54155, 1.15535 |
+L1222: | TxB2 | float64 | 20 | 10.588, 5.6805, 4.1621 |
+L1223: ## Sheet: Abbreviations
+L1224: - Tables found: 1
+L1225: ### Table 1: Table_1
+L1226: - **Rows**: 0
+L1227: - **Columns**: 0
+L1228: | Column | Dtype | Non-null | Sample values |
+L1229: |--------|-------|----------|---------------|
+[28ms]
+

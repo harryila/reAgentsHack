@@ -1,0 +1,1426 @@
+Map results  [m_97980e0f]
+Query: # Literature Multiverse extraction prompt
+
+Prompt version: 
+
+You are extracting the paper's own empirical results for one pre-registered scientific question.
+Return exactly one JSON value matching the supplied schema. Do not add prose, markdown, citations,
+paper identifiers, or fields outside that schema.
+
+## Locked question
+
+- Research question: 
+- Exposure/intervention: 
+- Comparator: 
+- Primary outcome family: 
+- Included primary endpoints: `["muscle_strength", "muscle_mass", "aerobic_capacity", "endurance_performance", "sprint_or_power_performance"]`
+- `increase`: `the training adaptation is larger in the supplemented group than in the control group`
+- `decrease`: `the training adaptation is smaller in the supplemented group than in the control group`
+- `no_effect`: `no detectable between-group difference in the training adaptation is reported`
+
+## Eligibility
+
+Include only the paper's own eligible empirical comparison under the locked rules below. Reviews,
+editorials, protocols without results, cited studies, reference titles, background claims, and
+results outside the target relation are not the paper's own findings.
+
+`{"article_types": ["research-article"], "exclude": ["reviews, meta-analyses, editorials, commentaries, and protocols", "acute single-session studies without a training program", "studies without an antioxidant-versus-control contrast"], "exclude_article_types": ["review-article"], "include": ["human participants (animal and in-vitro studies are ineligible)", "controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation", "a concurrent placebo or no-supplement comparison completing the same training", "direct measurement of at least one training-adaptation endpoint"]}`
+
+If the paper is ineligible, return `eligible=false`, one concise exclusion reason, and an empty
+`findings` array. If it is eligible but reports no usable target finding, return `eligible=true`,
+`exclusion_reason=null`, and an empty array. Never invent a finding to avoid an empty result.
+
+## Atomic finding rules
+
+Create a separate finding for every distinct outcome, endpoint, timepoint, intervention dose,
+comparator, or population stratum. Do not combine incompatible results into one row. Preserve the
+paper's original dose, duration, timepoint, effect-size, and p-value wording in the corresponding
+raw fields.
+
+Direction always means the measured outcome relative to the locked comparator—never beneficial or
+harmful. Use only `increase`, `no_effect`, `decrease`, `mixed`, or `unclear`. Use `mixed` only when an
+otherwise atomic result contains genuinely incompatible directions; use `unclear` when the source
+does not safely determine direction. The direction field must never be JSON null.
+
+For every finding, copy the shortest verbatim passage that directly supports the reported result
+and its exact `L<number>` source line or line range. Prefer Results/table-result text. Do not use a
+reference title, bibliography entry, author speculation, or a cited study as result evidence.
+Every nullable schema key must still be present with JSON null when unavailable.
+
+## Topic moderators
+
+Populate only moderator keys present in the supplied schema, following these locked definitions:
+
+`[{"allowed_values": ["below_500_mg_daily", "500_to_999_mg_daily", "1000_mg_daily_or_more", "not_reported_as_daily_dose"], "bins": null, "display_name": "Vitamin C dose", "kind": "paper_constant", "name": "vitc_dose_regime", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["endurance", "resistance", "sprint_interval", "concurrent_or_mixed"], "bins": null, "display_name": "Training modality", "kind": "paper_constant", "name": "training_modality", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["trained", "untrained", "mixed_or_unclear"], "bins": null, "display_name": "Training status", "kind": "paper_constant", "name": "training_status", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["younger_adult", "older_adult", "mixed_or_unclear"], "bins": null, "display_name": "Age group", "kind": "paper_constant", "name": "age_group", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "fixed", "type": "categorical"}, {"allowed_values": ["vitamin_c_only", "vitamin_e_only", "vitamin_c_and_e"], "bins": null, "display_name": "Supplement composition", "kind": "paper_constant", "name": "supplement_combo", "paper_summary": null, "permutation": "paper", "role": "tested", "source": "topic", "type": "categorical"}, {"allowed_values": ["healthy", "clinical_or_sarcopenic", "mixed_or_unclear"], "bins": null, "display_name": "Population state", "kind": "paper_constant", "name": "population_state", "paper_summary": null, "permutation": "paper", "role": "descriptive", "source": "fixed", "type": "categorical"}]`
+
+Do not convert animal mg/kg dosing into human per-day dosing. Preserve ambiguous and combination
+doses in `dose_raw`; use null for a normalized value that the paper does not support.
+
+--- [1] [success] Does Vitamin C and E Supplementation Impair the Favorable Adaptations of Regular Exercise? ---
+doc_id: PMC3425865
+{"eligible": false, "exclusion_reason": "The paper is a review article analyzing previously published studies rather than an original primary research study.", "findings": []}
+
+--- [2] [success] Antioxidants and Exercise Performance: With a Focus on Vitamin E and C Supplementation ---
+doc_id: PMC7697466
+{"eligible": false, "exclusion_reason": "The paper is a review article rather than an original research study reporting empirical findings.", "findings": []}
+
+--- [3] [success] Can supplementation with vitamin C and E alter physiological adaptations to strength training? ---
+doc_id: PMC4114441
+{"eligible": false, "exclusion_reason": "The paper is a study protocol without empirical results.", "findings": []}
+
+--- [4] [success] Effects of vitamin C and E supplementation on endogenous antioxidant systems and heat shock proteins in response to endurance training ---
+doc_id: PMC4254089
+{"eligible": false, "exclusion_reason": "The paper does not report results for any of the included primary endpoints (muscle_strength, muscle_mass, aerobic_capacity, endurance_performance, or sprint_or_power_performance); it investigates antioxidant systems and heat shock proteins.", "findings": []}
+
+--- [5] [success] Vitamin C and E supplementation does not affect heat shock proteins or endogenous antioxidants in trained skeletal muscles during 12 weeks of strength training ---
+doc_id: PMC7050865
+{"eligible": false, "exclusion_reason": "The paper does not investigate or report results on muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance endpoints; it investigates heat shock proteins and endogenous antioxidants.", "findings": []}
+
+--- [6] [success] Effect of high-dose vitamin C and E supplementation on muscle recovery and training adaptation: a mini review ---
+doc_id: PMC10440181
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing previously published literature rather than a primary empirical research study.", "findings": []}
+
+--- [7] [success] Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights ---
+doc_id: PMC7284926
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing current evidence rather than an original empirical study with primary data.", "findings": []}
+
+--- [8] [success] The Effects of Strength Training Combined with Vitamin C and E Supplementation on Skeletal Muscle Mass and Strength: A Systematic Review and Meta-Analysis ---
+doc_id: PMC6973181
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis, not a primary controlled trial.", "findings": []}
+
+--- [9] [success] Controversies of antioxidant vitamins supplementation in exercise: ergogenic or ergolytic effects in humans? ---
+doc_id: PMC3975949
+{"eligible": false, "exclusion_reason": "The paper is a commentary/review article discussing previously published studies rather than an original primary research study with its own empirical findings.", "findings": []}
+
+--- [10] [success] Do Antioxidant Vitamins Prevent Exercise-Induced Muscle Damage? A Systematic Review ---
+doc_id: PMC7278664
+{"eligible": false, "exclusion_reason": "The paper is a systematic review, not an original empirical study with primary training intervention results.", "findings": []}
+
+--- [11] [success] The effects of antioxidant vitamin supplementation on resistance exercise induced lipid peroxidation in trained and untrained participants ---
+doc_id: PMC479696
+{"eligible": false, "exclusion_reason": "The study is an acute single-session exercise test rather than a structured exercise-training program with training-adaptation endpoints.", "findings": []}
+
+--- [12] [success] Vitamin C and E Treatment Blunts Sprint Interval Training–Induced Changes in Inflammatory Mediator-, Calcium-, and Mitochondria-Related Signaling in Recreationally Active Elderly Humans ---
+doc_id: PMC7555371
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo", "confidence": 1.0, "dose_raw": "1 g/day vitamin C and 235 mg/day vitamin E", "duration_raw": "3 weeks", "effect_direction": "no_effect", "effect_size_raw": "relative increase 4.3 \u00b1 4.0% in vitamin and 6.8 \u00b1 7.6% in placebo", "evidence_lines": ["L62"], "evidence_quote": "After the three weeks of SIT, there was a minor, but significant, improvement in power output at exhaustion, and the magnitude of this improvement was similar in the vitamin (4.3 \u00b1 4.0%) and the placebo (6.8 \u00b1 7.6%) groups", "intervention": "vitamin C and E", "intervention_class": "antioxidant vitamins", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "sprint_interval", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "sprint_or_power_performance", "outcome_name": "Power at exhaustion", "p_value": null, "population_state": "healthy", "sample_size": 18, "significant": false, "species": "human", "study_type": "controlled trial", "timepoint_raw": "after 3 weeks of training", "timing_context": "post-training"}, {"comparator": "placebo", "confidence": 1.0, "dose_raw": "1 g/day vitamin C and 235 mg/day vitamin E", "duration_raw": "3 weeks", "effect_direction": "no_effect", "effect_size_raw": "relative increase 2.5 \u00b1 7.7% in vitamin and 1.2 \u00b1 7.7% in placebo", "evidence_lines": ["L62"], "evidence_quote": "Still, we observed no significant increase in VO2max after the three weeks of SIT in individuals treated either with vitamins (relative increase 2.5 \u00b1 7.7%) or placebo (relative increase 1.2 \u00b1 7.7%)", "intervention": "vitamin C and E", "intervention_class": "antioxidant vitamins", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "sprint_interval", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "aerobic_capacity", "outcome_name": "VO2max", "p_value": null, "population_state": "healthy", "sample_size": 18, "significant": false, "species": "human", "study_type": "controlled trial", "timepoint_raw": "after 3 weeks of training", "timing_context": "post-training"}]}
+
+--- [13] [success] Vitamin C and E Supplementation Effects in Professional Soccer Players Under Regular Training ---
+doc_id: PMC2129167
+{
+  "eligible": true,
+  "exclusion_reason": null,
+  "findings": [
+    {
+      "study_type": "controlled clinical trial",
+      "species": "human",
+      "model": "professional soccer players",
+      "population_state": "healthy",
+      "intervention": "vitamins C and E supplementation daily (1000 mg ascorbic acid and 800 mg alpha-tocopherol per day)",
+      "intervention_class": "vitamin C and E",
+      "comparator": "placebo pill containing maltodextrin",
+      "dose_raw": "1000 mg of ascorbic acid and 800 mg of alpha-tocopherol daily",
+      "duration_raw": "three-month pre-season training period",
+      "timing_context": "post-intervention after three-month pre-season training",
+      "outcome_name": "anaerobic threshold",
+      "outcome_family": "aerobic_capacity",
+      "timepoint_raw": "after the end of the pre-competitive season (POST)",
+      "effect_direction": "no_effect",
+      "effect_size_raw": null,
+      "p_value": null,
+      "significant": false,
+      "sample_size": 10,
+      "evidence_quote": "As indicated on Table 3 our supplementation protocol did not induce any statistical difference in aerobic capacity, strength and speed between S and PL groups, at the end of the season",
+      "evidence_lines": [
+        "L31"
+      ],
+      "confidence": 0.9,
+      "moderators": {
+        "vitc_dose_regime": "1000_mg_daily_or_more",
+        "training_modality": "concurrent_or_mixed",
+        "training_status": "trained",
+        "age_group": "younger_adult",
+        "supplement_combo": "vitamin_c_and_e",
+        "population_state": "healthy"
+      }
+    },
+    {
+      "study_type": "controlled clinical trial",
+      "species": "human",
+      "model": "professional soccer players",
+      "population_state": "healthy",
+      "intervention": "vitamins C and E supplementation daily (1000 mg ascorbic acid and 800 mg alpha-tocopherol per day)",
+      "intervention_class": "vitamin C and E",
+      "comparator": "placebo pill containing maltodextrin",
+      "dose_raw": "1000 mg of ascorbic acid and 800 mg of alpha-tocopherol daily",
+      "duration_raw": "three-month pre-season training period",
+      "timing_context": "post-intervention after three-month pre-season training",
+      "outcome_name": "knee extension one maximal repetition (1 RM) strength",
+      "outcome_family": "muscle_strength",
+      "timepoint_raw": "after the end of the pre-competitive season (POST)",
+      "effect_direction": "no_effect",
+      "effect_size_raw": null,
+      "p_value": null,
+      "significant": false,
+      "sample_size": 10,
+      "evidence_quote": "As indicated on Table 3 our supplementation protocol did not induce any statistical difference in aerobic capacity, strength and speed between S and PL groups, at the end of the season",
+      "evidence_lines": [
+        "L31"
+      ],
+      "confidence": 0.9,
+      "moderators": {
+        "vitc_dose_regime": "1000_mg_daily_or_more",
+        "training_modality": "concurrent_or_mixed",
+        "training_status": "trained",
+        "age_group": "younger_adult",
+        "supplement_combo": "vitamin_c_and_e",
+        "population_state": "healthy"
+      }
+    },
+    {
+      "study_type": "controlled clinical trial",
+      "species": "human",
+      "model": "professional soccer players",
+      "population_state": "healthy",
+      "intervention": "vitamins C and E supplementation daily (1000 mg ascorbic acid and 800 mg alpha-tocopherol per day)",
+      "intervention_class": "vitamin C and E",
+      "comparator": "placebo pill containing maltodextrin",
+      "dose_raw": "1000 mg of ascorbic acid and 800 mg of alpha-tocopherol daily",
+      "duration_raw": "three-month pre-season training period",
+      "timing_context": "post-intervention after three-month pre-season training",
+      "outcome_name": "maximal speed (30-meter maximal sprint)",
+      "outcome_family": "sprint_or_power_performance",
+      "timepoint_raw": "after the end of the pre-competitive season (POST)",
+      "effect_direction": "no_effect",
+      "effect_size_raw": null,
+      "p_value": null,
+      "significant": false,
+      "sample_size": 10,
+      "evidence_quote": "As indicated on Table 3 our supplementation protocol did not induce any statistical difference in aerobic capacity, strength and speed between S and PL groups, at the end of the season",
+      "evidence_lines": [
+        "L31"
+      ],
+      "confidence": 0.9,
+      "moderators": {
+        "vitc_dose_regime": "1000_mg_daily_or_more",
+        "training_modality": "concurrent_or_mixed",
+        "training_status": "trained",
+        "age_group": "younger_adult",
+        "supplement_combo": "vitamin_c_and_e",
+        "population_state": "healthy"
+      }
+    }
+  ]
+}
+
+--- [14] [success] Effects of Acute Vitamin C plus Vitamin E Supplementation on Exercise-Induced Muscle Damage in Runners: A Double-Blind Randomized Controlled Trial ---
+doc_id: PMC9659095
+{"eligible": false, "exclusion_reason": "The study is an acute single-session exercise study rather than a structured exercise-training program.", "findings": []}
+
+--- [15] [success] Supplementation with Vitamins C and E and Exercise-Induced Delayed-Onset Muscle Soreness: A Systematic Review ---
+doc_id: PMC7918905
+{"eligible": false, "exclusion_reason": "The paper is a systematic review of delayed-onset muscle soreness and does not report a primary structured exercise-training intervention study.", "findings": []}
+
+--- [16] [success] Dietary thiols in exercise: oxidative stress defence, exercise performance, and adaptation ---
+doc_id: PMC5408473
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature on dietary thiols and antioxidants in exercise, not a primary research study evaluating vitamin C and/or E supplementation with a structured exercise training program.", "findings": []}
+
+--- [17] [success] Vitamin C and glutathione supplementation: a review of their additive effects on exercise performance ---
+doc_id: PMC10636510
+{"eligible": false, "exclusion_reason": "The paper is a literature review article, not an eligible primary empirical research study with a structured exercise-training program.", "findings": []}
+
+--- [18] [success] Antioxidant Supplementation Hinders the Role of Exercise Training as a Natural Activator of SIRT1 ---
+doc_id: PMC9146003
+{"eligible": false, "exclusion_reason": "The study does not evaluate muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance endpoints as training adaptations.", "findings": []}
+
+--- [19] [success] Differences in the Pro/Antioxidative Status and Cellular Stress Response in Elderly Women after 6 Weeks of Exercise Training Supported by 1000 mg of Vitamin C Supplementation ---
+doc_id: PMC9599586
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group", "confidence": 1.0, "dose_raw": "1000 mg daily", "duration_raw": "6 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L46"], "evidence_quote": "VO2 max did not change significantly in the reported period; however, 2-way ANOVA showed significant differences for interaction and row factor. This parameter was slightly increased only in the SUPP group.", "intervention": "1000 mg vitamin C supplementation", "intervention_class": "vitamin_c", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "aerobic_capacity", "outcome_name": "VO2 max", "p_value": null, "population_state": "healthy", "sample_size": 36, "significant": false, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "after 6 weeks of training", "timing_context": "post-training"}]}
+
+--- [20] [success] Prior exercise and antioxidant supplementation: effect on oxidative stress and muscle injury ---
+doc_id: PMC2131751
+{"eligible": false, "exclusion_reason": "Acute single-session study without an exercise-training program", "findings": []}
+
+--- [21] [success] Vitamin C and E Treatment Blocks Changes in Kynurenine Metabolism Triggered by Three Weeks of Sprint Interval Training in Recreationally Active Elderly Humans ---
+doc_id: PMC8465740
+{"eligible": false, "exclusion_reason": "The paper does not investigate any of the included primary endpoints (muscle_strength, muscle_mass, aerobic_capacity, endurance_performance, sprint_or_power_performance); it studies kynurenine pathway metabolism and metabolites.", "findings": []}
+
+--- [22] [success] The Effect of Vitamins C and E Supplementation on Muscle Damage, Performance, and Body Composition in Athlete Women: A Clinical Trial ---
+doc_id: PMC3665021
+{"eligible": true, "exclusion_reason": null, "findings": [{"study_type": "clinical trial", "species": "human", "model": null, "population_state": "healthy", "intervention": "vitamin C (250 mg/day)", "intervention_class": "vitamin_c", "comparator": "control (placebo)", "dose_raw": "250 mg/day", "duration_raw": "4 weeks", "timing_context": "daily with meals", "outcome_name": "VO2 max", "outcome_family": "aerobic_capacity", "timepoint_raw": "4 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "p_value": null, "significant": false, "sample_size": 64, "evidence_quote": "Comparing the result of the test in performance of sport, there was no significant difference between groups in VO 2 max.", "evidence_lines": ["L13"], "confidence": 1.0, "moderators": {"vitc_dose_regime": "below_500_mg_daily", "training_modality": "endurance", "training_status": "trained", "age_group": "younger_adult", "supplement_combo": "vitamin_c_only", "population_state": "healthy"}}]}
+
+--- [23] [success] A Vitamin E-Enriched Antioxidant Diet Interferes with the Acute Adaptation of the Liver to Physical Exercise in Mice ---
+doc_id: PMC5986427
+{"eligible": false, "exclusion_reason": "The study is performed in mice (animal study) and is an acute single-session exercise study rather than a structured exercise training program.", "findings": []}
+
+--- [24] [success] Effects of vitamins C and E supplementation combined with 12-week resistance training in older women with sarcopenia: A randomized, double-blind, placebo-controlled trial ---
+doc_id: PMC12384908
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group following the same resistance training program", "confidence": 1.0, "dose_raw": "1000 mg/d vitamin C and 335 mg/d vitamin E", "duration_raw": "12 weeks", "effect_direction": "increase", "effect_size_raw": "d=0.74", "evidence_lines": ["L18: However, the AS group had higher increases in arm lean mass (\u0394 = 0.96 vs 0.59 kg; P = .003, d = 0.74)"], "evidence_quote": "However, the AS group had higher increases in arm lean mass (\u0394 = 0.96 vs 0.59 kg; P = .003, d = 0.74)", "intervention": "vitamins C and E supplementation combined with resistance training", "intervention_class": "vitamin C and E supplementation", "model": null, "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "arm lean mass", "p_value": 0.003, "population_state": "clinical_or_sarcopenic", "sample_size": 60, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "12 weeks", "timing_context": "post-intervention"}, {"comparator": "placebo group following the same resistance training program", "confidence": 1.0, "dose_raw": "1000 mg/d vitamin C and 335 mg/d vitamin E", "duration_raw": "12 weeks", "effect_direction": "increase", "effect_size_raw": "d=0.71", "evidence_lines": ["L18: skeletal muscle mass index (\u0394 = 0.71 vs 0.42 kg/m\u00b2; P = .004, d = 0.71)"], "evidence_quote": "skeletal muscle mass index (\u0394 = 0.71 vs 0.42 kg/m\u00b2; P = .004, d = 0.71)", "intervention": "vitamins C and E supplementation combined with resistance training", "intervention_class": "vitamin C and E supplementation", "model": null, "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "skeletal muscle mass index", "p_value": 0.004, "population_state": "clinical_or_sarcopenic", "sample_size": 60, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "12 weeks", "timing_context": "post-intervention"}, {"comparator": "placebo group following the same resistance training program", "confidence": 1.0, "dose_raw": "1000 mg/d vitamin C and 335 mg/d vitamin E", "duration_raw": "12 weeks", "effect_direction": "increase", "effect_size_raw": "d=0.51", "evidence_lines": ["L18: handgrip strength (\u0394 = 3.66 vs 1.16 kg; P = .047, d = 0.51)"], "evidence_quote": "handgrip strength (\u0394 = 3.66 vs 1.16 kg; P = .047, d = 0.51)", "intervention": "vitamins C and E supplementation combined with resistance training", "intervention_class": "vitamin C and E supplementation", "model": null, "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_strength", "outcome_name": "handgrip strength", "p_value": 0.047, "population_state": "clinical_or_sarcopenic", "sample_size": 60, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "12 weeks", "timing_context": "post-intervention"}, {"comparator": "placebo group following the same resistance training program", "confidence": 1.0, "dose_raw": "1000 mg/d vitamin C and 335 mg/d vitamin E", "duration_raw": "12 weeks", "effect_direction": "increase", "effect_size_raw": "d=0.89", "evidence_lines": ["L18: knee extension strength (\u0394 = 2.28 vs 1.02 kg; P < .001, d = 0.89)"], "evidence_quote": "knee extension strength (\u0394 = 2.28 vs 1.02 kg; P < .001, d = 0.89)", "intervention": "vitamins C and E supplementation combined with resistance training", "intervention_class": "vitamin C and E supplementation", "model": null, "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_strength", "outcome_name": "knee extension strength", "p_value": 0.001, "population_state": "clinical_or_sarcopenic", "sample_size": 60, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "12 weeks", "timing_context": "post-intervention"}]}
+
+--- [25] [success] The Effect of Vitamin C and E Supplementation on Muscle Damage and Oxidative Stress in Female Athletes: A Clinical Trial ---
+doc_id: PMC3665020
+{"eligible": false, "exclusion_reason": "The study does not include a structured exercise-training program combined with supplementation; it examines trained female athletes maintaining their daily routine physical activity during a 4-week supplementation period without an exercise training intervention.", "findings": []}
+
+--- [26] [success] Antioxidant Supplementation Impairs Changes in Body Composition Induced by Strength Training in Young Women ---
+doc_id: PMC6413849
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group undergoing strength training", "confidence": 1.0, "dose_raw": "1000 mg/day vitamin C and 400 IU/day vitamin E", "duration_raw": "10 weeks", "effect_direction": "decrease", "effect_size_raw": "Partial eta 2 = 0.14 for vitamins vs 0.38 for placebo", "evidence_lines": ["L28: Only placebo presented a significantly greater FFM percent change from pre to post-intervention compared to control ( P < 0.05, Figure 1 ), with a larger effect size compared to vitamins and control (Partial η 2 = 0.38, 0.14, and 0.03 for placebo, vitamins and control, respectively)."], "evidence_quote": "Only placebo presented a significantly greater FFM percent change from pre to post-intervention compared to control", "intervention": "vitamin C (1g/day) and vitamin E (400 IU/day) supplementation during strength training", "intervention_class": "vitamins C and E", "model": null, "moderators": {"age_group": "younger_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "fat-free mass (FFM) percent change", "p_value": null, "population_state": "healthy", "sample_size": 23, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "10 weeks", "timing_context": "concurrent supplementation during training program"}, {"comparator": "placebo group undergoing strength training", "confidence": 1.0, "dose_raw": "1000 mg/day vitamin C and 400 IU/day vitamin E", "duration_raw": "10 weeks", "effect_direction": "decrease", "effect_size_raw": null, "evidence_lines": ["L28: However, the placebo group showed a significant increase in FFM (34.9 ± 4.9 to 36.3 ± 4.8 kg; P < .05) after the intervention, while vitamins (34.8 ± 2.4 to 35.5 ± 2.2 kg; P > .05) and control (35.3 ± 4.0 to 35.0 ± 3.5; P > 0.05) did not."], "evidence_quote": "the placebo group showed a significant increase in FFM ... after the intervention, while vitamins ... did not.", "intervention": "vitamin C (1g/day) and vitamin E (400 IU/day) supplementation during strength training", "intervention_class": "vitamins C and E", "model": null, "moderators": {"age_group": "younger_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "total fat-free mass (FFM)", "p_value": null, "population_state": "healthy", "sample_size": 23, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "10 weeks", "timing_context": "concurrent supplementation during training program"}]}
+
+--- [27] [success] Potential harms of supplementation with high doses of antioxidants in athletes ---
+doc_id: PMC9241084
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing findings from other published studies rather than an original research paper reporting new empirical trials.", "findings": []}
+
+--- [28] [success] Exercise Training and Vitamin C Supplementation Affects Ferritin mRNA in Leukocytes without Affecting Prooxidative/Antioxidative Balance in Elderly Women ---
+doc_id: PMC7554744
+{
+  "eligible": true,
+  "exclusion_reason": null,
+  "findings": []
+}
+
+--- [29] [success] Supplementation with α-Lipoic Acid, CoQ10, and Vitamin E Augments Running Performance and Mitochondrial Function in Female Mice ---
+doc_id: PMC3614986
+{"eligible": false, "exclusion_reason": "The study was conducted on mice (animal study) rather than human participants.", "findings": []}
+
+--- [30] [success] Antioxidants and Sports Performance ---
+doc_id: PMC10220679
+{"eligible": false, "exclusion_reason": "The paper is a narrative review article summarizing existing literature rather than an original empirical research study with primary trial results.", "findings": []}
+
+--- [31] [success] Elevated hepcidin serum level in response to inflammatory and iron signals in exercising athletes is independent of moderate supplementation with vitamin C and E ---
+doc_id: PMC4562561
+{"eligible": false, "exclusion_reason": "This is an acute single-session exercise study with a 28-day supplementation period, not a structured exercise-training adaptation study.", "findings": []}
+
+--- [32] [success] Influence of Vitamin C Supplementation on Oxidative Stress and Neutrophil Inflammatory Response in Acute and Regular Exercise ---
+doc_id: PMC4352897
+{"eligible": false, "exclusion_reason": "The paper does not evaluate any eligible training-adaptation endpoints (muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance) following a structured exercise-training program combined with vitamin C supplementation.", "findings": []}
+
+--- [33] [success] Vitamin C, A and E supplementation decreases the expression of  HSPA1A  and  HSPB1  genes in the leukocytes of young polish figure skaters during a 10-day training camp ---
+doc_id: PMC4342201
+{"eligible": false, "exclusion_reason": "The paper does not measure any of the included primary endpoints (muscle_strength, muscle_mass, aerobic_capacity, endurance_performance, sprint_or_power_performance); it evaluates leukocyte gene expression (HSPA1A and HSPB1 mRNA).", "findings": []}
+
+--- [34] [success] Antioxidants and Skeletal Muscle Performance: “Common Knowledge” vs. Experimental Evidence ---
+doc_id: PMC3298958
+{"eligible": false, "exclusion_reason": "The paper is a mini review article discussing experimental evidence on antioxidants and skeletal muscle performance, not an eligible primary empirical research study with a structured exercise-training program and vitamin C/E supplementation.", "findings": []}
+
+--- [35] [success] Effects of vitamin E supplementation on renal non-enzymatic antioxidants in young rats submitted to exhaustive exercise stress ---
+doc_id: PMC3306763
+{"eligible": false, "exclusion_reason": "The study is performed on animals (rats), whereas the eligibility criteria require human participants.", "findings": []}
+
+--- [36] [success] Exercise Training and Skeletal Muscle Antioxidant Enzymes: An Update ---
+doc_id: PMC9854578
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing the impact of exercise training on skeletal muscle antioxidant enzymes rather than an eligible primary empirical study combining exercise training with vitamin C/E supplementation.", "findings": []}
+
+--- [37] [success] Resistance-based training improves mitochondrial capacity and redox balance in aging adults, independent of polyphenol supplementation ---
+doc_id: PMC12808611
+{"eligible": false, "exclusion_reason": "The study uses a polyphenol supplement (derived from red- and blackcurrant) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [38] [success] Vitamin A Oral Supplementation Induces Oxidative Stress and Suppresses IL-10 and HSP70 in Skeletal Muscle of Trained Rats ---
+doc_id: PMC5409692
+{"eligible": false, "exclusion_reason": "The study involves animal subjects (Wistar rats) and vitamin A supplementation, whereas the inclusion criteria require human participants and vitamin C and/or E supplementation.", "findings": []}
+
+--- [39] [success] Vitamin C and E supplementation and high intensity interval training induced changes in lipid profile and haematological variables of young males ---
+doc_id: PMC10323915
+{"eligible": false, "exclusion_reason": "The study does not compare supplemented exercise groups against an unsupplemented exercise control group for training adaptations; it only compares supplemented exercise groups against a placebo HIIT group and a non-exercising control group.", "findings": []}
+
+--- [40] [success] Vitamin Supplementation in Sports: A Decade of Evidence-Based Insights ---
+doc_id: PMC12845069
+{"eligible": false, "exclusion_reason": "The paper is a narrative review synthesizing literature from the past decade rather than an original primary research article with an empirical trial.", "findings": []}
+
+--- [41] [success] An Overview of Physical Exercise and Antioxidant Supplementation Influences on Skeletal Muscle Oxidative Stress ---
+doc_id: PMC8532825
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature rather than an original empirical research study.", "findings": []}
+
+--- [42] [success] Can Low-Dose of Dietary Vitamin E Supplementation Reduce Exercise-Induced Muscle Damage and Oxidative Stress? A Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC9027756
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of randomized controlled trials examining acute exercise-induced muscle damage and oxidative stress markers, not a primary controlled trial combining a structured exercise-training program with vitamin C and/or E supplementation to measure training adaptations.", "findings": []}
+
+--- [43] [success] The effect of an acute antioxidant supplementation compared with placebo on performance and hormonal response during a high volume resistance training session ---
+doc_id: PMC4234291
+{"eligible": false, "exclusion_reason": "Acute single-session study without a training program or vitamin C/E supplementation", "findings": []}
+
+--- [44] [success] Exhaustive exercise and vitamins C and E modulate thyroid hormone levels at low and high altitudes ---
+doc_id: PMC4983714
+{"eligible": false, "exclusion_reason": "The paper is an animal (rat) study involving acute exhaustive exercise (forced swimming), not a human exercise-training program combined with vitamin supplementation.", "findings": []}
+
+--- [45] [success] Short-Term High-Dose Vitamin C and E Supplementation Attenuates Muscle Damage and Inflammatory Responses to Repeated Taekwondo Competitions: A Randomized Placebo-Controlled Trial ---
+doc_id: PMC6097262
+{"eligible": false, "exclusion_reason": "The study investigates simulated competitive Taekwondo matches rather than a structured exercise-training program.", "findings": []}
+
+--- [46] [success] Exercise-Induced Oxidative Stress and the Effects of Antioxidant Intake from a Physiological Viewpoint ---
+doc_id: PMC6162669
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing existing literature rather than an eligible primary empirical research study.", "findings": []}
+
+--- [47] [success] Exercise-Induced Oxidative Stress and Dietary Antioxidants ---
+doc_id: PMC4393546
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature rather than an original primary research study with empirical trial findings.", "findings": []}
+
+--- [48] [success] Creatine supplementation post-exercise does not enhance training-induced adaptations in middle to older aged males ---
+doc_id: PMC4019834
+{"eligible": false, "exclusion_reason": "The paper studies creatine monohydrate supplementation combined with resistance training, not vitamin C or E supplementation.", "findings": []}
+
+--- [49] [success] Enhanced Antioxidative Defense by Vitamins C and E Consumption Prevents 7-Day High-Salt Diet-Induced Microvascular Endothelial Function Impairment in Young Healthy Individuals ---
+doc_id: PMC7141509
+{"eligible": false, "exclusion_reason": "The study does not combine antioxidant supplementation with an exercise-training program; it investigates the effects of dietary salt loading and vitamin C and E supplementation without an exercise training intervention.", "findings": []}
+
+--- [50] [success] Antioxidants and Exercise: A Redox-Informed Framework for Training Adaptation, Performance, and Recovery ---
+doc_id: PMC13113188
+{"eligible": false, "exclusion_reason": "The provided text is a review article summarizing multiple studies rather than an original primary research paper presenting new empirical findings.", "findings": []}
+
+--- [51] [success] Antioxidative properties of phenolic compounds and their effect on oxidative stress induced by severe physical exercise ---
+doc_id: PMC10717775
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing the effects of phenolic compounds and other antioxidants on exercise-induced oxidative stress, and does not present original primary empirical data evaluating vitamin C and/or E supplementation combined with a structured exercise-training program against a control group.", "findings": []}
+
+--- [52] [success] Effect of vitamin E succinate on inflammatory cytokines induced by high-intensity interval training ---
+doc_id: PMC4766825
+{"eligible": false, "exclusion_reason": "The study is performed on animals (rats), whereas the eligibility criteria require human participants.", "findings": []}
+
+--- [53] [success] Vitamin D 3  supplementation does not enhance the effects of resistance training in older adults ---
+doc_id: PMC8200443
+{"eligible": false, "exclusion_reason": "The paper investigates vitamin D3 supplementation, whereas the eligibility criteria require vitamin C and/or E supplementation.", "findings": []}
+
+--- [54] [success] Exercise performance and physiological responses: the potential role of redox imbalance ---
+doc_id: PMC5392515
+{"eligible": false, "exclusion_reason": "Acute single-session study without an exercise-training program", "findings": []}
+
+--- [55] [success] Elastic resistance training is more effective than vitamin D3 supplementation in reducing oxidative stress and strengthen antioxidant enzymes in healthy men ---
+doc_id: PMC8431951
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D3 supplementation during elastic-band resistance training, not vitamin C or E supplementation.", "findings": []}
+
+--- [56] [success] Combination of vitamin E and vitamin C alleviates renal function in hyperoxaluric rats via antioxidant activity ---
+doc_id: PMC5447979
+{"eligible": false, "exclusion_reason": "The study is conducted on animals (rats), whereas human participants are required.", "findings": []}
+
+--- [57] [success] Training Enhances Immune Cells Mitochondrial Biosynthesis, Fission, Fusion, and Their Antioxidant Capabilities Synergistically with Dietary Docosahexaenoic Supplementation ---
+doc_id: PMC5028859
+{"eligible": false, "exclusion_reason": "The study investigates docosahexaenoic acid (DHA) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [58] [success] Oligomerized lychee fruit extract (OLFE) and a mixture of vitamin C and vitamin E for endurance capacity in a double blind randomized controlled trial ---
+doc_id: PMC3303472
+{"eligible":true,"exclusion_reason":null,"findings":[{"comparator":"placebo","confidence":1.0,"dose_raw":"vitamin C 800 mg and vitamin E 320 IU daily","duration_raw":"30 days","effect_direction":"decrease","effect_size_raw":"-3.11 ml/min/kg (95% CI; -5.35, -0.87)","evidence_lines":["L50"],"evidence_quote":"After 30 days, we observed that the maximal oxygen consumption rate significantly decreased in the vitamin group by −3.11 ml/min/kg (95% CI; −5.35, −0.87).","intervention":"mixture of vitamin C and vitamin E","intervention_class":"vitamin","model":null,"moderators":{"age_group":"younger_adult","population_state":"healthy","supplement_combo":"vitamin_c_and_e","training_modality":"endurance","training_status":"trained","vitc_dose_regime":"500_to_999_mg_daily"},"outcome_family":"aerobic_capacity","outcome_name":"VO2max / fat-free mass","p_value":0.009,"population_state":"healthy","sample_size":59,"significant":true,"species":"human","study_type":"double blind randomized controlled trial","timepoint_raw":"30 days","timing_context":"post-supplementation training adaptation"}]}
+
+--- [59] [success] Reactive oxygen species in exercise and insulin resistance: Working towards personalized antioxidant treatment ---
+doc_id: PMC8167146
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature rather than an eligible primary empirical research study with its own trial results.", "findings": []}
+
+--- [60] [success] Oxidative Stress, Mitochondrial Function and Adaptation to Exercise: New Perspectives in Nutrition ---
+doc_id: PMC8624755
+{"eligible": false, "exclusion_reason": "The paper is a review article discussing molecular mechanisms and nutrition insights, not an empirical primary study of vitamin C/E supplementation and exercise training adaptations.", "findings": []}
+
+--- [61] [success] Oxidants, Antioxidants, and the Beneficial Roles of Exercise-Induced Production of Reactive Species ---
+doc_id: PMC3372226
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing existing literature rather than an empirical study reporting original experimental data.", "findings": []}
+
+--- [62] [success] Antioxidant Effects and Insulin Resistance Improvement of Chromium Combined with Vitamin C and E Supplementation for Type 2 Diabetes Mellitus ---
+doc_id: PMC2581761
+{"eligible": false, "exclusion_reason": "The study investigates type 2 diabetes patients undergoing supplementation without a structured exercise-training program.", "findings": []}
+
+--- [63] [success] Exercise, oxidants, and antioxidants change the shape of the bell-shaped hormesis curve ---
+doc_id: PMC5345970
+{"eligible": false, "exclusion_reason": "The paper is a short review article discussing hormesis and the theoretical effects of antioxidants and exercise, not an eligible primary empirical research study.", "findings": []}
+
+--- [64] [success] (–)-Epicatechin Supplementation Inhibits Aerobic Adaptations to Cycling Exercise in Humans ---
+doc_id: PMC6308990
+{"eligible": false, "exclusion_reason": "The study investigates (-)-epicatechin (a flavanol/polyphenol) supplementation rather than vitamin C and/or vitamin E.", "findings": []}
+
+--- [65] [success] Cashew apple juice supplementation enhanced fat utilization during high-intensity exercise in trained and untrained men ---
+doc_id: PMC3610290
+{"eligible": false, "exclusion_reason": "The study investigates the acute effects of cashew apple juice supplementation (containing vitamin C and branched-chain amino acids) during a single exercise session rather than evaluating training adaptations from a structured exercise-training program combined with antioxidant supplementation.", "findings": []}
+
+--- [66] [success] Effect of Antioxidant Supplementation on Markers of Oxidative Stress and Muscle Damage after Strength Exercise: A Systematic Review ---
+doc_id: PMC8835002
+{"eligible": false, "exclusion_reason": "The paper is a systematic review of antioxidant supplementation effects on oxidative stress and muscle damage after strength exercise, not a primary controlled trial combining exercise-training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [67] [success] Polyphenol Supplementation: Benefits for Exercise Performance or Oxidative Stress? ---
+doc_id: PMC4008802
+{"eligible": false, "exclusion_reason": "The paper is a review article focusing on polyphenol supplementation rather than an eligible primary research study combining exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [68] [success] Effects of Vitamin E and Coenzyme Q 10  Supplementation on Oxidative Stress Parameters in Untrained Leisure Horses Subjected to Acute Moderate Exercise ---
+doc_id: PMC8227526
+{"eligible": false, "exclusion_reason": "The study involves animal participants (horses) rather than human participants.", "findings": []}
+
+--- [69] [success] Polyphenol Supplementation and Antioxidant Status in Athletes: A Narrative Review ---
+doc_id: PMC9823453
+{"eligible": false, "exclusion_reason": "The paper is a narrative review summarizing literature on polyphenol supplementation in athletes, not an eligible primary empirical training study combining exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [70] [success] The effect of combined resistance exercise training and vitamin D 3  supplementation on musculoskeletal health and function in older adults: a systematic review and meta-analysis ---
+doc_id: PMC5541589
+{"eligible": false, "exclusion_reason": "The paper studies vitamin D3 supplementation combined with resistance exercise training, not vitamin C or E supplementation.", "findings": []}
+
+--- [71] [success] Antioxidant Supplementation Modulates Neutrophil Inflammatory Response to Exercise-Induced Stress ---
+doc_id: PMC7762299
+{"eligible":false,"exclusion_reason":"The study does not measure any of the included primary endpoints (muscle strength, muscle mass, aerobic capacity, endurance performance, sprint or power performance); it focuses on oxidative stress, inflammation, and myeloperoxidase responses to an acute 2000-m running test.","findings":[]}
+
+--- [72] [success] Effect of Vitamins C and E Co-Supplementation on Serum C-Reactive Protein Level: A Systematic Review and Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC7143019
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis of randomized controlled trials examining C-reactive protein levels, not a controlled exercise-training primary study evaluating muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance.", "findings": []}
+
+--- [73] [success] Impact of pre‐exercise feeding status on metabolic adaptations to endurance‐type exercise training ---
+doc_id: PMC11497303
+{"eligible": false, "exclusion_reason": "The paper is a symposium review article discussing nutrient-exercise timing rather than a primary empirical study combining exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [74] [success] Vitamin 25(OH)D 3 , E, and C Supplementation Impact the Inflammatory and Antioxidant Responses in Piglets Fed a Deoxynivalenol-Contaminated Diet and Challenged with Lipopolysaccharides ---
+doc_id: PMC11281576
+{"eligible": false, "exclusion_reason": "The study uses an animal model (piglets) rather than human participants.", "findings": []}
+
+--- [75] [success] The effect of green tea extract supplementation on exercise-induced oxidative stress parameters in male sprinters ---
+doc_id: PMC4500852
+{"eligible": false, "exclusion_reason": "The study investigates green tea extract supplementation rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [76] [success] Supplementation with a Multi-ingredient Pre-workout Supplement does not Augment Resistance Training Adaptations in Females ---
+doc_id: PMC6355134
+{"eligible": false, "exclusion_reason": "The study investigates a multi-ingredient pre-workout supplement (MIPS) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [77] [success] Vitamin D Supplementation Does Not Enhance Gains in Muscle Strength and Lean Body Mass or Influence Cardiorespiratory Fitness in Vitamin D-Insufficient Middle-Aged Men Engaged in Resistance Training ---
+doc_id: PMC11478703
+{"eligible": false, "exclusion_reason": "The paper investigates vitamin D supplementation, whereas the eligibility criteria require vitamin C and/or E supplementation.", "findings": []}
+
+--- [78] [success] Aerobic Exercise Training Adaptations Are Increased by Postexercise Carbohydrate-Protein Supplementation ---
+doc_id: PMC3136187
+{"eligible": false, "exclusion_reason": "The study investigates postexercise carbohydrate-protein supplementation (chocolate milk) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [79] [success] Can vitamin C supplementation reverse the effects of exercise training in polluted air on oxidative stress markers? A randomized controlled trial ---
+doc_id: PMC8519622
+{"eligible": false, "exclusion_reason": "The study was conducted on rats (animal model) rather than human participants.", "findings": []}
+
+--- [80] [success] Effects of ascorbic acid supplementation on oxidative stress markers in healthy women following a single bout of exercise ---
+doc_id: PMC6341721
+{"eligible": false, "exclusion_reason": "The study is an acute single-session exercise study without an exercise training program.", "findings": []}
+
+--- [81] [success] Effect of Vitamins A, C, and E Supplementation in the Treatment of Metabolic Syndrome in Albino Rats ---
+doc_id: PMC3431076
+{"eligible": false, "exclusion_reason": "The study uses animal subjects (albino rats) and does not combine an exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [82] [success] Systematic review and meta-analysis of antioxidants with or without exercise training improving muscle condition in older adults ---
+doc_id: PMC12491480
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis, not an eligible primary randomized controlled trial.", "findings": []}
+
+--- [83] [success] The Effects of Antioxidant Supplementation on Soccer Performance and Recovery: A Critical Review of the Available Evidence ---
+doc_id: PMC11597853
+{"eligible": false, "exclusion_reason": "The paper is a critical review (review article) rather than an original research study evaluating a training program with vitamin C/E supplementation.", "findings": []}
+
+--- [84] [success] Effect of Antioxidant Supplementation on Exercise-Induced Cardiac Troponin Release in Cyclists: A Randomized Trial ---
+doc_id: PMC3834092
+{"eligible": false, "exclusion_reason": "The study investigates the effect of astaxanthin supplementation on exercise-induced cardiac troponin release and antioxidant capacity, but does not combine a structured exercise training program with vitamin C and/or E supplementation to measure training adaptations.", "findings": []}
+
+--- [85] [success] Modification of the Effect of Vitamin E Supplementation on the Mortality of Male Smokers by Age and Dietary Vitamin C ---
+doc_id: PMC2661323
+{"eligible": false, "exclusion_reason": "The study does not include an exercise-training program combined with antioxidant supplementation; it is an epidemiological analysis of mortality data from a cancer prevention trial (ATBC study) examining vitamin E supplementation and dietary variables.", "findings": []}
+
+--- [86] [success] Vitamin C and E antioxidant supplementation may significantly reduce pain symptoms in endometriosis: A systematic review and meta-analysis of randomized controlled trials ---
+doc_id: PMC11142610
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis of randomized controlled trials evaluating pain symptoms in endometriosis patients, not a controlled primary study combining an exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [87] [success] Radioiodine-induced oxidative stress in patients with differentiated thyroid carcinoma and effect of supplementation with vitamins C and E and selenium (antioxidants) ---
+doc_id: PMC10118725
+{"eligible": false, "exclusion_reason": "The paper studies radioiodine therapy in thyroid cancer patients rather than an exercise-training program combined with antioxidant supplementation.", "findings": []}
+
+--- [88] [success] Effect of Antioxidant Supplementation on NET Formation Induced by LPS In Vitro; the Roles of Vitamins E and C, Glutathione, and N-acetyl Cysteine ---
+doc_id: PMC10487622
+{"eligible": false, "exclusion_reason": "The study is an in vitro study on isolated human neutrophils rather than a controlled primary study combining a structured exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [89] [success] Astaxanthin supplementation enhances metabolic adaptation with aerobic training in the elderly ---
+doc_id: PMC8191397
+{"eligible": false, "exclusion_reason": "The study investigates astaxanthin supplementation rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [90] [success] The effects of physical training on antioxidative status under exercise-induced oxidative stress ---
+doc_id: PMC2882571
+{"eligible": false, "exclusion_reason": "The study is conducted on animal subjects (rats) rather than human participants, and does not involve vitamin C or E supplementation.", "findings": []}
+
+--- [91] [success] Acute exercise and oxidative stress: a 30 year history ---
+doc_id: PMC2642810
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature from the past 30 years rather than an original primary research study containing empirical training trial data.", "findings": []}
+
+--- [92] [success] The Effect of Combined Vitamin C and Vitamin E Supplementation on Oxidative Stress Markers in Women with Endometriosis: A Randomized, Triple-Blind Placebo-Controlled Clinical Trial ---
+doc_id: PMC8172324
+{"eligible": false, "exclusion_reason": "The study is a clinical trial investigating the effect of vitamin C and E supplementation on oxidative stress markers and pain in women with endometriosis, not an exercise-training intervention study.", "findings": []}
+
+--- [93] [success] Targeted Antioxidants in Exercise-Induced Mitochondrial Oxidative Stress: Emphasis on DNA Damage ---
+doc_id: PMC7698504
+{"eligible": false, "exclusion_reason": "The paper is a review article discussing targeted antioxidants and exercise-induced mitochondrial oxidative stress, not an original empirical study combining structured exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [94] [success] Astaxanthin Supplementation as a Potential Strategy for Enhancing Mitochondrial Adaptations in the Endurance Athlete: An Invited Review ---
+doc_id: PMC11175114
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing astaxanthin supplementation rather than an original empirical study combining a structured exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [95] [success] Supplementation of Underfed Twin-Bearing Ewes with Herbal Vitamins C and E: Impacts on Birth Weight, Postnatal Growth, and Pre-Weaning Survival of the Lambs ---
+doc_id: PMC7223360
+{"eligible": false, "exclusion_reason": "The study investigates sheep (non-human participants) rather than human participants.", "findings": []}
+
+--- [96] [success] Combined effect of antioxidant supplementation and resistance training on oxidative stress markers, muscle and body composition in an elderly population ---
+doc_id: PMC12878122
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "Resistance training alone or placebo", "confidence": 1.0, "dose_raw": "Vitamin C (1,000 mg/d) and Vitamin E (400 IU/d)", "duration_raw": "6 months", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L34"], "evidence_quote": "Finally, no differences were observed for nutritional characteristics of interest at baseline and after the intervention period (data not show)... Like we found no difference on strength gains between the 2 groups after the intervention, AS did not maximize strength gains during RT.", "intervention": "Resistance training combined with Vitamin C and E supplementation", "intervention_class": "antioxidant_supplementation_plus_exercise", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "resistance", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_strength", "outcome_name": "strength gain", "p_value": null, "population_state": "healthy", "sample_size": 31, "significant": false, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "6 months", "timing_context": "post-intervention"}]}
+
+--- [97] [success] The Effect of Antioxidant Supplementation on Fatigue during Exercise: Potential Role for NAD + (H) ---
+doc_id: PMC3257644
+{"eligible": false, "exclusion_reason": "The study is an acute single-session exercise study rather than a structured exercise-training program combined with vitamin C and/or E supplementation.", "findings": []}
+
+--- [98] [success] Can Antioxidants Protect Against Disuse Muscle Atrophy? ---
+doc_id: PMC4213375
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing animal and in-vitro studies on disuse muscle atrophy rather than an eligible primary human exercise-training study with vitamin C/E supplementation.", "findings": []}
+
+--- [99] [success] Endogenous and Exogenous Antioxidants in Skeletal Muscle Fatigue Development during Exercise ---
+doc_id: PMC9952836
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature rather than an original empirical research study with its own structured training trial.", "findings": []}
+
+--- [100] [success] International Society of Sports Nutrition position stand: effects of dietary antioxidants on exercise and sports performance ---
+doc_id: PMC12915426
+{"eligible": false, "exclusion_reason": "The paper is a position stand and review of dietary antioxidants rather than an eligible primary research study reporting new empirical training adaptation trials.", "findings": []}
+
+--- [101] [success] Complex Effects of Vitamin E and Vitamin C Supplementation on  in Vitro  Neonatal Mononuclear Cell Responses to Allergens ---
+doc_id: PMC3798907
+{"eligible": false, "exclusion_reason": "This is an in vitro study on neonatal and adult mononuclear cells, not a controlled primary study combining a structured exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [102] [success] Haptoglobin Phenotype, Preeclampsia Risk and the Efficacy of Vitamin C and E Supplementation to Prevent Preeclampsia in a Racially Diverse Population ---
+doc_id: PMC3616124
+{"eligible": false, "exclusion_reason": "The paper does not investigate an exercise-training program combined with vitamin C and/or E supplementation, but is instead a secondary analysis of a randomized controlled trial of vitamin C and E supplementation to prevent preeclampsia in pregnant women.", "findings": []}
+
+--- [103] [success] Oxidant Antioxidants and Adaptive Responses to Exercise ---
+doc_id: PMC4388022
+{"eligible": false, "exclusion_reason": "The paper is an editorial, not a primary research study.", "findings": []}
+
+--- [104] [success] How N-Acetylcysteine Supplementation Affects Redox Regulation, Especially at Mitohormesis and Sarcohormesis Level: Current Perspective ---
+doc_id: PMC7909817
+{"eligible": false, "exclusion_reason": "The paper is a narrative review article rather than an eligible primary empirical research study combining a structured exercise training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [105] [success] Redox Mechanism of Reactive Oxygen Species in Exercise ---
+doc_id: PMC5097959
+{"eligible": false, "exclusion_reason": "The paper is a review article rather than an eligible primary research study with empirical trial findings.", "findings": []}
+
+--- [106] [success] Effects of Quercetin and Citrulline on Nitric Oxide Metabolites and Antioxidant Biomarkers in Trained Cyclists ---
+doc_id: PMC11767657
+{"eligible": false, "exclusion_reason": "The study investigates quercetin and citrulline supplementation, not vitamin C and/or vitamin E.", "findings": []}
+
+--- [107] [success] Effect of six weeks 1000 mg/day vitamin C supplementation and healthy training in elderly women on genes expression associated with the immune response - a randomized controlled trial ---
+doc_id: PMC7923494
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo (cellulose) during health training", "confidence": 1.0, "dose_raw": "1000 mg of Vitamin C/day", "duration_raw": "6 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L30"], "evidence_quote": "VO 2 max. [ml/kg/min] SUP 21.4±3.6 22.1±3.4 0.2 row factor * 0.23 0.03 CON 22.2±3.5 22.00±3.5 0.3 p1 (SU PI vs CON I)=0.3; p2 (SUP II vs CON II)=0.4", "intervention": "1000 mg vitamin C supplementation during health training", "intervention_class": "vitamin_c", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "aerobic_capacity", "outcome_name": "VO2 max", "p_value": 0.4, "population_state": "healthy", "sample_size": 24, "significant": false, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "6 weeks", "timing_context": "post-intervention"}, {"comparator": "placebo (cellulose) during health training", "confidence": 1.0, "dose_raw": "1000 mg of Vitamin C/day", "duration_raw": "6 weeks", "effect_direction": "decrease", "effect_size_raw": "dCohen II 0.11 (SUP) vs 0.42 (CON)", "evidence_lines": ["L30"], "evidence_quote": "Body mass [kg] SUP 68.1±8.3 67.0±7.9 0.30 row factor, time * 0.05 0.42 CON 67.7±7.5 63.8±7.5 *# 0.01 p1 (SUP I vs CON I)=0.30; p2 (SUP II vs CON II)=0.02", "intervention": "1000 mg vitamin C supplementation during health training", "intervention_class": "vitamin_c", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "Body mass", "p_value": 0.02, "population_state": "healthy", "sample_size": 24, "significant": true, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "6 weeks", "timing_context": "post-intervention"}, {"comparator": "placebo (cellulose) during health training", "confidence": 1.0, "dose_raw": "1000 mg of Vitamin C/day", "duration_raw": "6 weeks", "effect_direction": "no_effect", "effect_size_raw": "dCohen II 0.11 (SUP) vs 0.11 (CON)", "evidence_lines": ["L30"], "evidence_quote": "Muscle mass [kg] SUP 22.4±2.3 23.3±2.6 # 0.79 row factor * 0.25 0.11 CON 23.0±2.5 23.6±2.7 0.33 p1 (SUP I vs CON I)=0.01; p2 (SUP II vs CON II)=0.36", "intervention": "1000 mg vitamin C supplementation during health training", "intervention_class": "vitamin_c", "model": null, "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "muscle_mass", "outcome_name": "Muscle mass", "p_value": 0.36, "population_state": "healthy", "sample_size": 24, "significant": false, "species": "human", "study_type": "randomized controlled trial", "timepoint_raw": "6 weeks", "timing_context": "post-intervention"}]}
+
+--- [108] [success] Tribbles 3 blunts exercise-induced skeletal muscle adaptation ---
+doc_id: PMC12338650
+{"eligible": false, "exclusion_reason": "The study investigates Tribbles 3 (TRB3) pseudokinase in transgenic and knockout mice, not vitamin C or E supplementation.", "findings": []}
+
+--- [109] [success] Resistance-Trained Individuals Are Less Susceptible to Oxidative Damage after Eccentric Exercise ---
+doc_id: PMC6079342
+{"eligible": false, "exclusion_reason": "The study is an acute single-session exercise study evaluating oxidative stress after eccentric exercise rather than a structured exercise training program combined with antioxidant supplementation.", "findings": []}
+
+--- [110] [success] A metabolomic investigation of the effects of vitamin E supplementation in humans ---
+doc_id: PMC3541165
+{"eligible": false, "exclusion_reason": "The study does not combine vitamin supplementation with a structured exercise-training program.", "findings": []}
+
+--- [111] [success] Well-Trained Elders Have Antioxidant Responses and an Equal Magnitude of EIMD as Young Adults ---
+doc_id: PMC9332484
+{"eligible": false, "exclusion_reason": "The study does not include vitamin C and/or E supplementation.", "findings": []}
+
+--- [112] [success] Skeletal Muscle Redox Signaling in Health and Disease: From Molecular Mechanisms to Therapeutic Exercise Strategies ---
+doc_id: PMC13295415
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing skeletal muscle redox signaling rather than an original empirical study reporting primary training intervention findings.", "findings": []}
+
+--- [113] [success] Additional Effects of Nutritional Antioxidant Supplementation on Peripheral Muscle during Pulmonary Rehabilitation in COPD Patients: A Randomized Controlled Trial ---
+doc_id: PMC6501222
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group undergoing pulmonary rehabilitation", "confidence": 1.0, "dose_raw": "ascorbate: 180 mg/day, alpha-tocopherol: 30 mg/day", "duration_raw": "28 days", "effect_direction": "increase", "effect_size_raw": "11 \u00b1 3%", "evidence_lines": ["L15: Nevertheless, supplementation increased the \u03b1-tocopherol/ \u03b3-tocopherol ratio and selenium (+58 \u00b1 20%, p < 0.001, and +16 \u00b1 5%, p < 0.01, respectively), muscle strength (+11 \u00b1 3%, p < 0.001), and serum total proteins (+7 \u00b1 2%, p < 0.001), and it tended to increase the type I fiber proportion (+32 \u00b1 17%, p = 0.07).", "L55: This resulted in a significant between-group difference in favor of antioxidant supplementation for QMVC ( p < 0.001), after adjustment on the baseline difference and on the interaction between group and baseline values."], "evidence_quote": "muscle strength (+11 \u00b1 3%, p < 0.001)", "intervention": "antioxidant supplementation (\u03b1-tocopherol: 30 mg/day, ascorbate: 180 mg/day, zinc gluconate: 15 mg/day, selenomethionine: 50 \u03bc g/day)", "intervention_class": "vitamin_c_and_e", "model": "human clinical trial", "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "below_500_mg_daily"}, "outcome_family": "muscle_strength", "outcome_name": "quadriceps maximal voluntary isometric contraction (QMVC)", "p_value": 0.001, "population_state": "clinical_or_sarcopenic", "sample_size": 57, "significant": true, "species": "Homo sapiens", "study_type": "randomized controlled trial", "timepoint_raw": "28 days", "timing_context": "concurrently with pulmonary rehabilitation exercise training"}, {"comparator": "placebo group undergoing pulmonary rehabilitation", "confidence": 1.0, "dose_raw": "ascorbate: 180 mg/day, alpha-tocopherol: 30 mg/day", "duration_raw": "28 days", "effect_direction": "no_effect", "effect_size_raw": "-6.6 \u00b1 11.3%", "evidence_lines": ["L15: Training improved muscle endurance in the PR placebo group (+37.4 \u00b1 45.1%, p < 0.001), without additional increase in the PR antioxidant group (-6.6 \u00b1 11.3%; p = 0.56).", "L53: The primary outcome Qend showed no additional increase in the PR antioxidant group (-6.6 \u00b1 11.3%; p = 0.56)."], "evidence_quote": "without additional increase in the PR antioxidant group (-6.6 \u00b1 11.3%; p = 0.56)", "intervention": "antioxidant supplementation (\u03b1-tocopherol: 30 mg/day, ascorbate: 180 mg/day, zinc gluconate: 15 mg/day, selenomethionine: 50 \u03bc g/day)", "intervention_class": "vitamin_c_and_e", "model": "human clinical trial", "moderators": {"age_group": "older_adult", "population_state": "clinical_or_sarcopenic", "supplement_combo": "vitamin_c_and_e", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "below_500_mg_daily"}, "outcome_family": "endurance_performance", "outcome_name": "quadriceps endurance time (Qend)", "p_value": 0.56, "population_state": "clinical_or_sarcopenic", "sample_size": 57, "significant": false, "species": "Homo sapiens", "study_type": "randomized controlled trial", "timepoint_raw": "28 days", "timing_context": "concurrently with pulmonary rehabilitation exercise training"}]}
+
+--- [114] [success] Effect of exercise and antioxidant supplementation on cellular lipid peroxidation in elderly individuals: Systematic review and network meta-analysis ---
+doc_id: PMC9971974
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and network meta-analysis of randomized controlled trials examining cellular lipid peroxidation biomarkers, not an eligible controlled primary trial evaluating vitamin C and/or E supplementation effects on muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance.", "findings": []}
+
+--- [115] [success] The Antioxidant Role of Glutathione and N-Acetyl-Cysteine Supplements and Exercise-Induced Oxidative Stress ---
+doc_id: PMC2129149
+{"eligible": false, "exclusion_reason": "The paper is a commentary discussing antioxidant supplementation (glutathione and N-acetyl-cysteine) and exercise-induced oxidative stress, rather than an eligible primary empirical research study combining an exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [116] [success] Comparison of the effects of two antioxidant diets on oxidative stress markers in triathletes ---
+doc_id: PMC6234303
+{"eligible": false, "exclusion_reason": "The study compares two dietary interventions (regular vs high antioxidant diet using food sources) on oxidative stress markers rather than evaluating a vitamin supplementation program against a control group to measure physical training adaptation endpoints.", "findings": []}
+
+--- [117] [success] Exercise Training Combined with  Bifidobacterium Longum  OLP-01 Supplementation Improves Exercise Physiological Adaption and Performance ---
+doc_id: PMC7231274
+{"eligible": false, "exclusion_reason": "The study investigates probiotic supplementation (Bifidobacterium longum OLP-01) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [118] [success] Low-Frequency Fatigue as an Indicator of Eccentric Exercise-Induced Muscle Injury: The Role of Vitamin E ---
+doc_id: PMC3400461
+{"eligible": false, "exclusion_reason": "The study uses animal subjects (Wistar rats) rather than human participants.", "findings": []}
+
+--- [119] [success] Effect of Antioxidant Vitamin Supplementation on Cardiovascular Outcomes: A Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC3577664
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of randomized controlled trials examining cardiovascular outcomes rather than an empirical study combining an exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [120] [success] Mitochondria-Targeted Antioxidants and Skeletal Muscle Function ---
+doc_id: PMC6116009
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature on mitochondria-targeted antioxidants rather than an eligible primary study combining structured exercise-training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [121] [success] High-Dose Astaxanthin Supplementation Suppresses Antioxidant Enzyme Activity during Moderate-Intensity Swimming Training in Mice ---
+doc_id: PMC6627865
+{"eligible": false, "exclusion_reason": "The study uses mice (animal model) and investigates astaxanthin supplementation rather than human participants supplemented with vitamin C and/or E.", "findings": []}
+
+--- [122] [success] Redox correlation in muscle lengthening and immune response in eccentric exercise ---
+doc_id: PMC6307742
+{"eligible": false, "exclusion_reason": "The study investigates acute downhill running trials rather than a structured exercise-training program with direct measurement of training-adaptation endpoints.", "findings": []}
+
+--- [123] [success] Pterostilbene Enhances Endurance Capacity via Promoting Skeletal Muscle Adaptations to Exercise Training in Rats ---
+doc_id: PMC6982856
+{"eligible": false, "exclusion_reason": "The study uses rat subjects and pterostilbene supplementation rather than human participants and vitamin C and/or E supplementation.", "findings": []}
+
+--- [124] [success] Mitigating the Growth, Biochemical Changes, Genotoxic and Pathological Effects of Copper Toxicity in Broiler Chickens by Supplementing Vitamins C and E ---
+doc_id: PMC8234185
+{"eligible": false, "exclusion_reason": "The study is conducted on broiler chickens (animals), not human participants.", "findings": []}
+
+--- [125] [success] The interaction effects of aerobic exercise training and vitamin D supplementation on plasma lipid profiles and insulin resistance in ovariectomized rats ---
+doc_id: PMC4624118
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D supplementation rather than vitamin C and/or E supplementation, and involves animal (rat) subjects rather than human participants.", "findings": []}
+
+--- [126] [success] Marginal vitamin C status is associated with reduced fat oxidation during submaximal exercise in young adults ---
+doc_id: PMC1564400
+{"eligible": false, "exclusion_reason": "The study does not evaluate a structured exercise-training program combined with supplementation; it tests the acute effects of vitamin C status and short-term depletion/repletion on fat oxidation during submaximal exercise.", "findings": []}
+
+--- [127] [success] Vitamin E Supplementation Delays Cellular Senescence  In Vitro ---
+doc_id: PMC4647025
+{"eligible": false, "exclusion_reason": "The paper is an in vitro cellular study using human primary cells and does not involve human participants completing an exercise-training program with supplementation.", "findings": []}
+
+--- [128] [success] Effects of Resistance Training Combined with Vitamin D Supplementation on Health-Related Variables in the Elderly: Muscle Strength, Body Composition, and Inflammatory Status ---
+doc_id: PMC12652358
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D supplementation combined with resistance training, not vitamin C or E.", "findings": []}
+
+--- [129] [success] Vitamin C may alleviate exercise-induced bronchoconstriction: a meta-analysis ---
+doc_id: PMC3686214
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of exercise-induced bronchoconstriction (EIB) and does not evaluate a structured exercise-training adaptation endpoint (such as muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance).", "findings": []}
+
+--- [130] [success] Supplementation of L-Arginine, L-Glutamine, Vitamin C, Vitamin E, Folic Acid, and Green Tea Extract Enhances Serum Nitric Oxide Content and Antifatigue Activity in Mice ---
+doc_id: PMC7171648
+{
+  "eligible": false,
+  "exclusion_reason": "The study uses animal subjects (mice) rather than human participants, and investigates a multi-ingredient complex rather than a structured exercise training program combined with vitamin C and/or E supplementation.",
+  "findings": []
+}
+
+--- [131] [success] Combined high-intensity interval training and green tea supplementation enhance metabolic and antioxidant status in response to acute exercise in overweight women ---
+doc_id: PMC10718018
+{"eligible": false, "exclusion_reason": "The study investigates green tea supplementation rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [132] [success] Individualised Exercise Training Enhances Antioxidant Buffering Capacity in Idiopathic Pulmonary Fibrosis ---
+doc_id: PMC10451244
+{"eligible": false, "exclusion_reason": "The study does not include vitamin C and/or E supplementation.", "findings": []}
+
+--- [133] [success] Effect of carbohydrate–protein supplementation on endurance training adaptations ---
+doc_id: PMC7502056
+{"eligible": false, "exclusion_reason": "The study investigates carbohydrate-protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [134] [success] Effect of endurance training and cinnamon supplementation on post-exercise oxidative responses in rats ---
+doc_id: PMC5019312
+{"eligible": false, "exclusion_reason": "The study uses animal subjects (rats) instead of human participants, and investigates cinnamon bark extract rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [135] [success] Impact of exercise training and supplemental oxygen on submaximal exercise performance in patients with COPD ---
+doc_id: PMC7984048
+{"eligible": false, "exclusion_reason": "The study investigates supplemental oxygen versus medical air during exercise training in COPD patients, not vitamin C or E supplementation.", "findings": []}
+
+--- [136] [success] Reactive oxygen species promote endurance exercise-induced adaptations in skeletal muscles ---
+doc_id: PMC11336304
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing existing literature rather than an eligible primary research study with its own empirical findings.", "findings": []}
+
+--- [137] [success] Prevention of Teratogenesis in Pregnancies of Obese Rats by Vitamin E Supplementation ---
+doc_id: PMC8389020
+{"eligible": false, "exclusion_reason": "The study uses animal models (rats) rather than human participants and does not combine an exercise-training program with vitamin supplementation.", "findings": []}
+
+--- [138] [success] The effects of multi mineral-vitamin D and vitamins (C+E) supplementation in the prevention of preeclampsia: An RCT ---
+doc_id: PMC5510580
+{"eligible": false, "exclusion_reason": "The study is a clinical trial investigating the prevention of preeclampsia in pregnant women via mineral and vitamin supplementation, not an exercise-training intervention study.", "findings": []}
+
+--- [139] [success] Diclofenac Administration after Physical Training Blunts Adaptations of Peripheral Systems and Leads to Losses in Exercise Performance: In Vivo and In Silico Analyses ---
+doc_id: PMC8389246
+{"eligible": false, "exclusion_reason": "The study uses animal models (rats) and investigates a non-steroidal anti-inflammatory drug (diclofenac) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [140] [success] Impact of Polyphenol Supplementation on Acute and Chronic Response to Resistance Training ---
+doc_id: PMC5662159
+{"eligible": false, "exclusion_reason": "The study investigates a proprietary polyphenol blend of tea extracts rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [141] [success] Effects of Dietary Vitamin C Supplementation on Vitamin C Synthesis, Transport, and Egg Deposition in Breeding Geese ---
+doc_id: PMC12785077
+{"eligible": false, "exclusion_reason": "The study is conducted on animal subjects (geese/breeding geese) rather than human participants, and does not evaluate exercise-training adaptation endpoints.", "findings": []}
+
+--- [142] [success] Effects of protein supplementation on body composition, physiological adaptations, and performance during endurance training: a systematic review and meta-analysis ---
+doc_id: PMC12369418
+{"eligible": false, "exclusion_reason": "The paper studies protein supplementation during endurance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [143] [success] Impact of Polyphenol Antioxidants on Cycling Performance and Cardiovascular Function ---
+doc_id: PMC3967193
+{"eligible": false, "exclusion_reason": "The study does not evaluate a structured exercise-training program combined with vitamin C and/or E supplementation; it investigates the acute effects of polyphenol antioxidant supplementation over 7 days.", "findings": []}
+
+--- [144] [success] Nordic Walking Training Causes a Decrease in Blood Cholesterol in Elderly Women Supplemented with Vitamin D ---
+doc_id: PMC5826219
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D supplementation and Nordic Walking training, whereas the extraction criteria require vitamin C and/or E supplementation.", "findings": []}
+
+--- [145] [success] Housing temperature influences exercise training adaptations in mice ---
+doc_id: PMC7096511
+{"eligible": false, "exclusion_reason": "The study uses animal participants (mice), whereas human participants are required.", "findings": []}
+
+--- [146] [success] Lower vascular conductance responses to handgrip exercise are improved following acute antioxidant supplementation in young individuals with post‐traumatic stress disorder ---
+doc_id: PMC11140166
+{"eligible": false, "exclusion_reason": "The study is an acute single-session supplementation trial rather than a structured exercise-training intervention program.", "findings": []}
+
+--- [147] [success] Effect of vitamin C and vitamin E on lung contusion: A randomized clinical trial study ---
+doc_id: PMC6240669
+{"eligible": false, "exclusion_reason": "The study is a clinical trial evaluating vitamin C and E on lung contusion patients following trauma, not a structured exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [148] [success] Supplemental Oxygen during Exercise Training in Chronic Obstructive Pulmonary Disease ---
+doc_id: PMC12520020
+{"eligible": false, "exclusion_reason": "The paper is a review article investigating supplemental oxygen during exercise training in chronic obstructive pulmonary disease, not an empirical study combining exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [149] [success] Laying performance, digestibility and plasma hormones in laying hens exposed to chronic heat stress as affected by betaine, vitamin C, and/or vitamin E supplementation ---
+doc_id: PMC5028346
+{"eligible": false, "exclusion_reason": "The study is conducted on laying hens (animals), which violates the human participants eligibility criterion.", "findings": []}
+
+--- [150] [success] Mitochondria-targeted antioxidant supplementation improves 8 km time trial performance in middle-aged trained male cyclists ---
+doc_id: PMC8379793
+{"eligible": false, "exclusion_reason": "The paper studies mitochondria-targeted antioxidant (MitoQ) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [151] [success] Physiological and Neural Adaptations to Eccentric Exercise: Mechanisms and Considerations for Training ---
+doc_id: PMC4620252
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing physiological and neural adaptations to eccentric exercise rather than an empirical study combining an exercise training program with vitamin C and/or E supplementation versus a control.", "findings": []}
+
+--- [152] [success] Effects of a combined protein and antioxidant supplement on recovery of muscle function and soreness following eccentric exercise ---
+doc_id: PMC5496333
+{"eligible": false, "exclusion_reason": "The study is an acute single-session eccentric exercise study rather than a structured exercise training program.", "findings": []}
+
+--- [153] [success] Efficacy of vitamin and antioxidant supplements in prevention of cardiovascular disease: systematic review and meta-analysis of randomised controlled trials ---
+doc_id: PMC3548618
+{
+  "eligible": false,
+  "exclusion_reason": "The paper is a systematic review and meta-analysis of randomised controlled trials examining the effects of vitamin and antioxidant supplements on cardiovascular disease, not a controlled primary study combining structured exercise training with vitamin C and/or E supplementation.",
+  "findings": []
+}
+
+--- [154] [success] Effects of vitamin E supplementation on sow gestation: a meta-analysis ---
+doc_id: PMC12483425
+{"eligible": false, "exclusion_reason": "The study is a meta-analysis on animal (pig) gestation rather than a primary human exercise-training study.", "findings": []}
+
+--- [155] [success] Long-term quercetin supplementation reduces lipid peroxidation but does not improve performance in endurance runners ---
+doc_id: PMC3871649
+{"eligible": false, "exclusion_reason": "The study investigates quercetin supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [156] [success] Effect of vitamin E supplementation on chicken sperm quality: A meta-analysis ---
+doc_id: PMC8980400
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis on animal (chicken) sperm quality rather than a human exercise-training study.", "findings": []}
+
+--- [157] [success] Cross-Sectional Associations Between Dietary Antioxidant Vitamins C, E and Carotenoid Intakes and Sarcopenic Indices in Women Aged 18–79 Years ---
+doc_id: PMC7072069
+{"eligible": false, "exclusion_reason": "This is a cross-sectional observational study without an exercise-training intervention program.", "findings": []}
+
+--- [158] [success] Food-Based Antioxidant Nutrition for Exercise Recovery and Training Adaptation: A Narrative Review and Conceptual Framework for Redox Signaling, Dietary Matrices, and Periodized Application ---
+doc_id: PMC13363514
+{"eligible": false, "exclusion_reason": "The paper is a narrative review article rather than an eligible primary empirical research study.", "findings": []}
+
+--- [159] [success] Excessive Vitamin E Supplementation: Implications for Ovarian Physiology and Reproductive Health ---
+doc_id: PMC12824594
+{"eligible": false, "exclusion_reason": "The paper is an animal study using mice, which violates the human participant inclusion criterion.", "findings": []}
+
+--- [160] [success] The role of resistance training and creatine supplementation on oxidative stress, antioxidant defense, muscle strength, and quality of life in older adults ---
+doc_id: PMC10189876
+{"eligible": false, "exclusion_reason": "The study investigates creatine monohydrate supplementation instead of vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [161] [success] Dietary and supplemental intake of vitamins C and E is associated with altered DNA methylation in an epigenome-wide association study meta-analysis ---
+doc_id: PMC10228397
+{"eligible": false, "exclusion_reason": "The study is an observational epigenome-wide association study (EWAS) meta-analysis of dietary and supplemental vitamin intake and DNA methylation, not an experimental trial combining a structured exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [162] [success] Effect of vitamins C or E supplementation to Tris diluent on the semen quality of Awassi rams preserved at 5 ˚C ---
+doc_id: PMC4312374
+{"eligible": false, "exclusion_reason": "The study uses an animal model (Awassi rams) and does not involve human participants or an exercise-training program.", "findings": []}
+
+--- [163] [success] Vitamin E (α-tocopherol) supplementation in diabetic rats: effects on the proximal colon ---
+doc_id: PMC2788574
+{"eligible": false, "exclusion_reason": "The study is performed on rats (animal model) rather than human participants, and it does not combine vitamin supplementation with an exercise-training program.", "findings": []}
+
+--- [164] [success] Update: Is exercise-induced oxidative stress a friend or foe? ---
+doc_id: PMC13159460
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing existing literature rather than an eligible primary empirical research study.", "findings": []}
+
+--- [165] [success] Tissue-Specific Effects of Vitamin E Supplementation ---
+doc_id: PMC4964537
+{"eligible": false, "exclusion_reason": "The study is conducted on mice (animal model) rather than human participants, and it does not combine vitamin supplementation with a structured exercise-training program.", "findings": []}
+
+--- [166] [success] Endurance Training Depletes Antioxidant System but Does Not Affect Endothelial Functions in Women with Abdominal Obesity: A Randomized Trial with a Comparison to Endurance-Strength Training ---
+doc_id: PMC8068807
+{"eligible": false, "exclusion_reason": "The study investigates exercise training interventions without vitamin C or E supplementation.", "findings": []}
+
+--- [167] [success] Protective Role of Vitamin C Intake on Muscle Damage in Male Adolescents Performing Strenuous Physical Activity ---
+doc_id: PMC6182534
+{"eligible": false, "exclusion_reason": "The study does not measure any of the included primary endpoints (muscle_strength, muscle_mass, aerobic_capacity, endurance_performance, sprint_or_power_performance); it assesses biomarkers of muscle damage, oxidative stress, inflammation, and kidney function.", "findings": []}
+
+--- [168] [success] Prevention of Mammary Tumorigenesis in Acatalasemic Mice by Vitamin E Supplementation ---
+doc_id: PMC5921155
+{"eligible": false, "exclusion_reason": "The study is conducted in animal subjects (mice) rather than human participants, and it investigates spontaneous mammary tumorigenesis rather than a physical training program.", "findings": []}
+
+--- [169] [success] Astaxanthin-, β-Carotene-, and Resveratrol-Rich Foods Support Resistance Training-Induced Adaptation ---
+doc_id: PMC7830030
+{"eligible": false, "exclusion_reason": "The study investigates astaxanthin, beta-carotene, and resveratrol rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [170] [success] Vitamin E supplementation and pneumonia risk in males who initiated smoking at an early age: effect modification by body weight and dietary vitamin C ---
+doc_id: PMC2603040
+{"eligible": false, "exclusion_reason": "The study is an epidemiological cohort study investigating disease risk (pneumonia) rather than a controlled exercise-training intervention study measuring training-adaptation endpoints.", "findings": []}
+
+--- [171] [success] Effects of creatine supplementation associated with resistance training on oxidative stress in different tissues of rats ---
+doc_id: PMC3994392
+{"eligible": false, "exclusion_reason": "The paper studies creatine supplementation in rats, whereas the inclusion criteria require human participants and vitamin C and/or E supplementation.", "findings": []}
+
+--- [172] [success] The effects of endogenously‐ and exogenously‐induced hyperketonemia on exercise performance and adaptation ---
+doc_id: PMC9133544
+{"eligible": false, "exclusion_reason": "The paper studies ketone supplementation and ketogenic diets rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [173] [success] Vitamin E Dietary Supplementation Improves Neurological Symptoms and Decreases c-Abl/p73 Activation in Niemann-Pick C Mice ---
+doc_id: PMC4145291
+{"eligible": false, "exclusion_reason": "The study uses animal (mouse) subjects rather than human participants.", "findings": []}
+
+--- [174] [success] Effects of vitamin D supplementation and circuit training on indices of obesity and insulin resistance in T2D and vitamin D deficient elderly women ---
+doc_id: PMC4241902
+{"eligible": false, "exclusion_reason": "The paper investigates vitamin D supplementation and circuit training, whereas the extraction rules require vitamin C and/or E supplementation.", "findings": []}
+
+--- [175] [success] Combined effects of vitamin D supplementation and endurance exercise training on insulin resistance in newly diagnosed type 2 diabetes mellitus patients with vitamin D deficiency: study protocol for a randomized controlled trial ---
+doc_id: PMC8647429
+{"eligible": false, "exclusion_reason": "The paper is a study protocol on vitamin D supplementation and endurance exercise training, not an antioxidant (vitamin C and/or E) supplementation study.", "findings": []}
+
+--- [176] [success] The combination of exercise training and  Zataria multiflora  supplementation increase serum irisin levels in postmenopausal women ---
+doc_id: PMC5884011
+{"eligible": false, "exclusion_reason": "The study uses Zataria multiflora supplementation rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [177] [success] Effects of antioxidant-rich  foods  on altitude-induced oxidative stress and inflammation in elite endurance athletes: A randomized controlled trial ---
+doc_id: PMC6563980
+{
+  "eligible": false,
+  "exclusion_reason": "The study investigates the effects of antioxidant-rich foods rather than vitamin C and/or E supplementation, and does not measure any of the required primary training adaptation endpoints (muscle strength, muscle mass, aerobic capacity, endurance performance, or sprint/power performance).",
+  "findings": []
+}
+
+--- [178] [success] Proteome-Driven Elucidation of Adaptive Responses
+to Combined Vitamin E and C Deficiency in Zebrafish ---
+doc_id: PMC3993953
+{"eligible": false, "exclusion_reason": "The study is performed on an animal model (zebrafish) rather than human participants.", "findings": []}
+
+--- [179] [success] Effects of Resveratrol Supplementation and Exercise Training on Exercise Performance in Middle-Aged Mice ---
+doc_id: PMC6273571
+{"eligible": false, "exclusion_reason": "The study involves animal subjects (mice) and resveratrol supplementation rather than human participants supplemented with vitamin C and/or E.", "findings": []}
+
+--- [180] [success] Carbon tetrachloride-induced liver disease in rats: the potential effect of supplement oils with vitamins E and C on the nutritional status ---
+doc_id: PMC2716554
+{"eligible": false, "exclusion_reason": "The study is conducted on an animal model (rats) rather than human participants, and it does not combine a structured exercise-training program with vitamin supplementation.", "findings": []}
+
+--- [181] [success] Effects of Methoxyisoflavone, Ecdysterone, and Sulfo-Polysaccharide Supplementation on Training Adaptations in Resistance-Trained Males ---
+doc_id: PMC2129166
+{"eligible": false, "exclusion_reason": "The study investigates methoxyisoflavone, ecdysterone, and sulfo-polysaccharide supplementation, not vitamin C and/or vitamin E.", "findings": []}
+
+--- [182] [success] The effect of aquatic training and vitamin D3 supplementation on bone metabolism in postmenopausal obese women ---
+doc_id: PMC10828811
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D3 supplementation and aquatic training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [183] [success] Reexamination of a Meta-Analysis of the Effect of Antioxidant Supplementation on Mortality and Health in Randomized Trials ---
+doc_id: PMC3257709
+{"eligible": false, "exclusion_reason": "The paper is a reexamination and meta-analysis of previously published randomized clinical trials regarding antioxidant supplementation and mortality, not an empirical study combining a structured exercise-training program with antioxidant supplementation.", "findings": []}
+
+--- [184] [success] Combined Effects of Spirulina Liquid Extract and Endurance Training on Aerobic Performance and Muscle Metabolism Adaptation in Wistar Rats ---
+doc_id: PMC11769088
+{"eligible": false, "exclusion_reason": "The study investigates animal subjects (Wistar rats) and Spirulina liquid extract rather than human participants supplemented with vitamin C and/or E.", "findings": []}
+
+--- [185] [success] Effects of Vitamin C Supplementation on Plasma and Urinary Vitamin C Concentration in Korean Women ---
+doc_id: PMC5539213
+{"eligible": false, "exclusion_reason": "The study does not combine a structured exercise-training program with vitamin C supplementation.", "findings": []}
+
+--- [186] [success] White tea modulates antioxidant defense of endurance-trained rats ---
+doc_id: PMC9253650
+{"eligible": false, "exclusion_reason": "The study uses an animal model (rats) instead of human participants and tests white tea extract rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [187] [success] The association of oxidative stress of neonatal hyperbilirubinemia and vitamin E supplementation ---
+doc_id: PMC11100342
+{"eligible": false, "exclusion_reason": "The study investigates neonatal hyperbilirubinemia and phototherapy with vitamin E supplementation in neonates, not an exercise-training program combined with antioxidant supplementation in human participants.", "findings": []}
+
+--- [188] [success] The Effects of Omega-3 Supplementation Combined with Strength Training on Neuro-Biomarkers, Inflammatory and Antioxidant Responses, and the Lipid Profile in Physically Healthy Adults ---
+doc_id: PMC12251297
+{"eligible": false, "exclusion_reason": "The study investigates omega-3 fatty acid supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [189] [success] Effect of Antioxidants Supplementation on Aging and Longevity ---
+doc_id: PMC3982418
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing literature on aging, longevity, and model organisms rather than a primary controlled study combining an exercise training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [190] [success] The Synergistic Effects of Resveratrol combined with Resistant Training on Exercise Performance and Physiological Adaption ---
+doc_id: PMC6212981
+{"eligible": false, "exclusion_reason": "The study uses animal subjects (mice) and resveratrol supplementation rather than human participants supplemented with vitamin C and/or E.", "findings": []}
+
+--- [191] [success] The Impact of Exercise Training and Supplemental Oxygen on Peripheral Muscles in Chronic Obstructive Pulmonary Disease: A Randomized Controlled Trial ---
+doc_id: PMC10662626
+{"eligible": false, "exclusion_reason": "The paper studies supplemental oxygen versus medical air during exercise training in COPD patients, not vitamin C or E supplementation.", "findings": []}
+
+--- [192] [success] Effects of antioxidant supplementation on oxidative stress balance in young footballers- a randomized double-blind trial ---
+doc_id: PMC8185910
+{"eligible": false, "exclusion_reason": "The study uses chokeberry juice supplementation (polyphenols/anthocyanins) rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [193] [success] Vitamins C and E alleviate the deleterious effects of electronic cigarettes on tongue muscles and nerves in rat model ---
+doc_id: PMC12269154
+{"eligible": false, "exclusion_reason": "The study is conducted on an animal model (rats) rather than human participants and does not combine a structured exercise-training program with vitamin supplementation.", "findings": []}
+
+--- [194] [success] 6-Week Supplementation with  Tribulus terrestris  L. to Trained Male CrossFit ®  Athletes on Muscle, Inflammation, and Antioxidant Biomarkers: A Randomized, Single-Blind, Placebo-Controlled Trial ---
+doc_id: PMC9736311
+{"eligible": false, "exclusion_reason": "The intervention investigated is Tribulus terrestris L., not vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [195] [success] Ketone ester supplementation blunts overreaching symptoms during endurance training overload ---
+doc_id: PMC6851819
+{"eligible": false, "exclusion_reason": "The paper studies ketone ester supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [196] [success] Combined effect of high-dose vitamin A, vitamin E supplementation, and zinc on adult patients with diabetes: A randomized trial ---
+doc_id: PMC7753230
+{"eligible": false, "exclusion_reason": "The study does not combine an exercise-training program with vitamin supplementation.", "findings": []}
+
+--- [197] [success] Rhodiola/Cordyceps -Based Herbal Supplement Promotes Endurance Training-Improved Body Composition But Not Oxidative Stress and Metabolic Biomarkers: A Preliminary Randomized Controlled Study ---
+doc_id: PMC6835767
+{"eligible": false, "exclusion_reason": "The study uses a Rhodiola/Cordyceps herbal supplement rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [198] [success] Resistance Training Diminishes Mitochondrial Adaptations to Subsequent Endurance Training ---
+doc_id: PMC10104141
+{"eligible": false, "exclusion_reason": "The study investigates resistance training followed by endurance training versus endurance training only, without any vitamin C or E supplementation.", "findings": []}
+
+--- [199] [success] Protein and the Adaptive Response With Endurance Training: Wishful Thinking or a Competitive Edge? ---
+doc_id: PMC5974122
+{"eligible": false, "exclusion_reason": "The paper is a perspective/review article discussing dietary protein and endurance training, not a study evaluating vitamin C and/or E supplementation with exercise training.", "findings": []}
+
+--- [200] [success] Effects of ingesting a pre-workout dietary supplement with and without synephrine for 8 weeks on training adaptations in resistance-trained males ---
+doc_id: PMC5234097
+{"eligible": false, "exclusion_reason": "The study investigates a multi-ingredient pre-workout supplement containing caffeine, creatine, beta-alanine, amino acids, and other ingredients (with or without synephrine) rather than an antioxidant-versus-control contrast involving vitamin C and/or E supplementation.", "findings": []}
+
+--- [201] [success] The effect of fish oil supplementation on resistance training-induced adaptations ---
+doc_id: PMC9970203
+{"eligible": false, "exclusion_reason": "The paper studies fish oil supplementation (omega-3 fatty acids) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [202] [success] Influence of combined vitamin D 3  supplementation and resistance exercise training on musculoskeletal health in older men and women (EXVITD): protocol for a randomised controlled trial ---
+doc_id: PMC7202733
+{"eligible": false, "exclusion_reason": "The paper is a study protocol for a randomized controlled trial investigating vitamin D3 supplementation and resistance exercise training, not an antioxidant (vitamin C or E) supplementation study reporting empirical results.", "findings": []}
+
+--- [203] [success] Chronic CaMKII inhibition blunts the cardiac contractile response to exercise training ---
+doc_id: PMC3258410
+{"eligible": false, "exclusion_reason": "The study investigates the CaMKII inhibitor KN-93 in mice rather than vitamin C or E supplementation in human participants.", "findings": []}
+
+--- [204] [success] Serum Oxidant and Antioxidant Status in Adolescents Undergoing Professional Endurance Sports Training ---
+doc_id: PMC3345234
+{"eligible": false, "exclusion_reason": "The study investigates professional endurance sports training and serum oxidant/antioxidant status without vitamin C or E supplementation.", "findings": []}
+
+--- [205] [success] Vitamin E in Sarcopenia: Current Evidences on Its Role in Prevention and Treatment ---
+doc_id: PMC4109111
+{"eligible": false, "exclusion_reason": "The paper is a review article summarizing current literature and does not report its own primary controlled exercise-training intervention study.", "findings": []}
+
+--- [206] [success] Editorial: Exercise-induced oxidative stress and the role of antioxidants in sport and exercise ---
+doc_id: PMC10466035
+{"eligible": false, "exclusion_reason": "The paper is an editorial review and does not report its own primary empirical training study with vitamin C/E supplementation.", "findings": []}
+
+--- [207] [success] Cornu cervi pantotrichum  supplementation improves physiological adaptions during intensive endurance training ---
+doc_id: PMC5383196
+{"eligible": false, "exclusion_reason": "The study uses animal subjects (mice) and evaluates Cornu cervi pantotrichum (deer antler extract) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [208] [success] Sex differences in the effect of fish-oil supplementation on the adaptive response to resistance exercise training in older people: a randomized controlled trial 1 2 ---
+doc_id: PMC5183731
+{"eligible": false, "exclusion_reason": "The study investigates fish-oil (long-chain n-3 PUFA) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [209] [success] Effects of multi-ingredient supplementation on resistance training in young males ---
+doc_id: PMC3588667
+{"eligible": false, "exclusion_reason": "The study investigates a multi-ingredient sports supplement (Cyclone containing creatine monohydrate, whey protein, glutamine, and HMB) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [210] [success] Association of vitamin C, vitamin D, vitamin E and risk of bladder cancer: a dose-response meta-analysis ---
+doc_id: PMC5386108
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis on bladder cancer risk rather than an experimental study combining a structured exercise training program with antioxidant supplementation.", "findings": []}
+
+--- [211] [success] Effects of Peanut Protein Supplementation on Resistance Training Adaptations in Younger Adults ---
+doc_id: PMC8621247
+{"eligible": false, "exclusion_reason": "The study investigates peanut protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [212] [success] A blinded, placebo‐controlled study on the clinical effects of vitamin E supplementation in dogs with osteoarthritis ---
+doc_id: PMC10472994
+{"eligible": false, "exclusion_reason": "The study does not evaluate an exercise training program combined with vitamin supplementation.", "findings": []}
+
+--- [213] [success] Effects of arachidonic acid supplementation on training adaptations in resistance-trained males ---
+doc_id: PMC2217562
+{"eligible": false, "exclusion_reason": "The intervention is arachidonic acid supplementation, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [214] [success] Effects of Vitamin D3 Supplementation and Resistance Training on 25-Hydroxyvitamin D Status and Functional Performance of Older Adults: A Randomized Placebo-Controlled Trial ---
+doc_id: PMC8746949
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D3 supplementation, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [215] [success] Effects of Endurance Training on Antioxidant and Hormonal Status in Peripheral Blood of Young Healthy Men ---
+doc_id: PMC11355762
+{"eligible": false, "exclusion_reason": "The study does not include an antioxidant supplementation intervention (vitamin C and/or E).", "findings": []}
+
+--- [216] [success] Adaptations to strength training differ between endurance-trained and untrained women ---
+doc_id: PMC7295735
+{"eligible": false, "exclusion_reason": "The study investigates the effects of strength training in endurance-trained versus untrained women without any antioxidant (vitamin C/E) supplementation contrast.", "findings": []}
+
+--- [217] [success] Cardioprotection conferred by exercise training is blunted by blockade of the opioid system ---
+doc_id: PMC3044560
+{"eligible": false, "exclusion_reason": "The study investigates opioid-mediated cardioprotection and exercise training in rats, rather than vitamin C and/or E supplementation combined with exercise training in humans.", "findings": []}
+
+--- [218] [success] Effect of thyme extract supplementation on lipid peroxidation, antioxidant capacity, PGC-1α content and endurance exercise performance in rats ---
+doc_id: PMC5401469
+{"eligible": false, "exclusion_reason": "The study uses animal (rat) subjects and thyme extract supplementation rather than human participants and vitamin C and/or E supplementation.", "findings": []}
+
+--- [219] [success] The effect of vitamin E supplementation on selected inflammatory biomarkers in adults: a systematic review and meta-analysis of randomized clinical trials ---
+doc_id: PMC7560744
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis of randomized clinical trials rather than a primary controlled exercise-training study.", "findings": []}
+
+--- [220] [success] Effect of vitamin D supplementation on upper and lower limb muscle strength and muscle power in athletes: A meta-analysis ---
+doc_id: PMC6490896
+{"eligible": false, "exclusion_reason": "The paper studies vitamin D supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [221] [success] Does vitamin-D intake during resistance training improve the skeletal muscle hypertrophic and strength response in young and elderly men? – a randomized controlled trial ---
+doc_id: PMC4589960
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D supplementation during resistance training, which does not meet the eligibility criterion of vitamin C and/or E supplementation.", "findings": []}
+
+--- [222] [success] Effects of Zinc Magnesium Aspartate (ZMA) Supplementation on Training Adaptations and Markers of Anabolism and Catabolism ---
+doc_id: PMC2129161
+{"eligible": false, "exclusion_reason": "The paper studies zinc magnesium aspartate (ZMA) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [223] [success] Efficacy of Vitamin and Antioxidant Supplements in Prevention of Esophageal Cancer: Meta-analysis of Randomized Controlled Trials ---
+doc_id: PMC4189455
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of randomized controlled trials on esophageal cancer incidence, not a primary exercise-training study measuring training adaptations.", "findings": []}
+
+--- [224] [success] Effects of Plyometric Training and Beta-Alanine Supplementation on Maximal-Intensity Exercise and Endurance in Female Soccer Players ---
+doc_id: PMC5548158
+{"eligible": false, "exclusion_reason": "The study investigates beta-alanine supplementation combined with plyometric training, whereas the eligibility criteria require vitamin C and/or E supplementation.", "findings": []}
+
+--- [225] [success] Metabolomic Analysis of Vitamin E Supplement Use in the Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial ---
+doc_id: PMC10343751
+{"eligible": false, "exclusion_reason": "The study is a cross-sectional metabolomic analysis of vitamin E supplement use within an observational/screening trial cohort, not a controlled exercise-training intervention study.", "findings": []}
+
+--- [226] [success] Iron Supplementation during Three Consecutive Days of Endurance Training Augmented Hepcidin Levels ---
+doc_id: PMC5579614
+{"eligible": false, "exclusion_reason": "The paper studies iron supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [227] [success] Effect of an 8-weeks aerobic training program in elderly on oxidative stress and Hsp72 expression in leukocytes during antioxidant supplementation ---
+doc_id: PMC12878004
+{"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "antioxidant supplemented sedentary group (AS)", "confidence": 1.0, "dose_raw": "500 mg vitamin C and 100 mg vitamin E daily", "duration_raw": "8 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L1", "L16"], "evidence_quote": "At the end of the intervention, the two groups showed a significant increase in resting plasma vitamin C and E (approximately 50 and 20% increase respectively) and a significant decrease in both resting and post GXT plasma TBARS and AOPP (approximately 25 and 20% decrease respectively). These changes were of similar magnitude in the two groups.", "intervention": "aerobic training + vitamin C and E supplementation", "intervention_class": "antioxidant supplementation + aerobic training", "model": "human", "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "endurance", "training_status": "untrained", "vitc_dose_regime": "500_to_999_mg_daily"}, "outcome_family": "aerobic_capacity", "outcome_name": "VO2max", "p_value": null, "population_state": "healthy", "sample_size": 16, "significant": false, "species": "human", "study_type": "controlled trial", "timepoint_raw": "8 weeks", "timing_context": "post-intervention"}, {"comparator": "antioxidant supplemented sedentary group (AS)", "confidence": 1.0, "dose_raw": "500 mg vitamin C and 100 mg vitamin E daily", "duration_raw": "8 weeks", "effect_direction": "increase", "effect_size_raw": null, "evidence_lines": ["L16"], "evidence_quote": "The aerobic training only increased VO2TVE (p < 0.05, Table 1) with no significant impact on VO2max.", "intervention": "aerobic training + vitamin C and E supplementation", "intervention_class": "antioxidant supplementation + aerobic training", "model": "human", "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_and_e", "training_modality": "endurance", "training_status": "untrained", "vitc_dose_regime": "500_to_999_mg_daily"}, "outcome_family": "aerobic_capacity", "outcome_name": "VO2TVE", "p_value": 0.05, "population_state": "healthy", "sample_size": 16, "significant": true, "species": "human", "study_type": "controlled trial", "timepoint_raw": "8 weeks", "timing_context": "post-intervention"}]}
+
+--- [228] [success] The effect of supplementation with vitamins A, B, C, D, and E on disease severity and inflammatory responses in patients with COVID-19: a randomized clinical trial ---
+doc_id: PMC8590866
+{"eligible": false, "exclusion_reason": "The study evaluates vitamin supplementation in COVID-19 intensive care patients rather than the effects of antioxidant supplementation combined with an exercise-training program on physical performance endpoints.", "findings": []}
+
+--- [229] [success] The effects of endurance training and thiamine supplementation on anti-fatigue during exercise ---
+doc_id: PMC4241913
+{"eligible": false, "exclusion_reason": "The paper investigates thiamine (vitamin B1) supplementation and endurance training, whereas the eligibility criteria require vitamin C and/or E supplementation.", "findings": []}
+
+--- [230] [success] Inter-Individual Variability in the Adaptive Responses to Endurance and Sprint Interval Training: A Randomized Crossover Study ---
+doc_id: PMC5147982
+{"eligible": false, "exclusion_reason": "The study does not involve vitamin C or E supplementation; it investigates endurance and sprint interval training without antioxidant supplementation.", "findings": []}
+
+--- [231] [success] Dietary Adjustments to Altitude Training in Elite Endurance Athletes; Impact of a Randomized Clinical Trial With Antioxidant-Rich Foods ---
+doc_id: PMC7739752
+{"eligible": false, "exclusion_reason": "The study investigates antioxidant-rich whole foods rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [232] [success] Training and Adaptation of Beef Calves to Precision Supplementation Technology for Individual Supplementation in Grazing Systems ---
+doc_id: PMC10525824
+{"eligible": false, "exclusion_reason": "The study evaluates beef cattle (animals) rather than human participants and does not test vitamin C or E supplementation.", "findings": []}
+
+--- [233] [success] Building strength, endurance, and mobility using an astaxanthin formulation with functional training in elderly ---
+doc_id: PMC6204600
+{"eligible": false, "exclusion_reason": "The study investigates astaxanthin, tocotrienol (vitamin E), and zinc supplementation rather than vitamin C and/or E alone according to the inclusion criteria.", "findings": []}
+
+--- [234] [success] Impact of protein supplementation during endurance training on changes in skeletal muscle transcriptome ---
+doc_id: PMC7285456
+{"eligible": false, "exclusion_reason": "The paper studies protein supplementation during endurance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [235] [success] Sake Protein Supplementation Affects Exercise Performance and Biochemical Profiles in Power-Exercise-Trained Mice ---
+doc_id: PMC4772068
+{"eligible": false, "exclusion_reason": "The study tests sake protein (plant protein-based nutritional supplement rich in branched-chain amino acids) rather than vitamin C and/or E supplementation, and uses an animal (mouse) model rather than human participants.", "findings": []}
+
+--- [236] [success] Effects of Vitamin and Antioxidant Supplements in Prevention of Bladder Cancer: a Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC5334161
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of randomized controlled trials on cancer prevention rather than a controlled primary exercise-training study.", "findings": []}
+
+--- [237] [success] Effects of 8 weeks of Xpand® 2X pre workout supplementation on skeletal muscle hypertrophy, lean body mass, and strength in resistance trained males ---
+doc_id: PMC3851572
+{"eligible": false, "exclusion_reason": "The study does not investigate vitamin C and/or E supplementation, but rather a multi-ingredient pre-workout supplement containing branched chain amino acids, creatine monohydrate, beta-alanine, quercetin, coenzymated B-vitamins, alanyl-glutamine, and nitrate sources.", "findings": []}
+
+--- [238] [success] Performance and Submaximal Adaptations to Additional Speed-Endurance Training Vs. Continuous Moderate-Intensity Aerobic Training in Male Endurance Athletes ---
+doc_id: PMC9465764
+{"eligible": false, "exclusion_reason": "The study investigates speed-endurance training versus moderate-intensity continuous aerobic training without any vitamin C or E supplementation intervention.", "findings": []}
+
+--- [239] [success] Shatavari supplementation during eight weeks of resistance training increases training load, enhances skeletal muscle contractility and alters the skeletal muscle proteome in older women ---
+doc_id: PMC11743497
+{"eligible": false, "exclusion_reason": "The study investigates shatavari (Asparagus racemosus) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [240] [success] Effects of Urolithin A supplementation on performance and antioxidant status in academy soccer players during preseason: a pilot randomised controlled trial ---
+doc_id: PMC12611738
+{"eligible": false, "exclusion_reason": "The paper investigates Urolithin A supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [241] [success] Effects of 𝛽-Hydroxy-𝛽-methylbutyrate-free Acid Supplementation on Strength, Power and Hormonal Adaptations Following Resistance Training ---
+doc_id: PMC5748766
+{"eligible": false, "exclusion_reason": "The study investigates beta-hydroxy-beta-methylbutyrate-free acid (HMB-FA) supplementation, not vitamin C or vitamin E.", "findings": []}
+
+--- [242] [success] Vitamin C Is Essential for the Maintenance of Skeletal Muscle Functions ---
+doc_id: PMC9312141
+{"eligible": false, "exclusion_reason": "The study uses an animal model (mice) rather than human participants.", "findings": []}
+
+--- [243] [success] High-dose testosterone supplementation disturbs liver pro-oxidant/antioxidant balance and function in adolescent male Wistar rats undergoing moderate-intensity endurance training ---
+doc_id: PMC7680624
+{"eligible": false, "exclusion_reason": "The study involves animal subjects (Wistar rats) and testosterone supplementation rather than human participants supplemented with vitamin C and/or E.", "findings": []}
+
+--- [244] [success] Does  Colostrum Bovinum  Supplementation Affect Swimming Performance in Endurance-Trained Males? A Randomized Placebo-Controlled Crossover Study ---
+doc_id: PMC11435245
+{"eligible": false, "exclusion_reason": "The study investigates Colostrum Bovinum supplementation versus a milk protein placebo rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [245] [success] Skeletal muscle BMAL1 is necessary for transcriptional adaptation of local and peripheral tissues in response to endurance exercise training ---
+doc_id: PMC11294728
+{"eligible": false, "exclusion_reason": "The study is an animal (mouse) study, which is ineligible according to the inclusion criteria requiring human participants.", "findings": []}
+
+--- [246] [success] Human skeletal muscle ascorbate is highly responsive to changes in vitamin C intake and plasma concentrations 1 2 3 ---
+doc_id: PMC3607654
+{"eligible": false, "exclusion_reason": "The study does not include a structured exercise-training program combined with vitamin C supplementation and a physical performance training-adaptation endpoint.", "findings": []}
+
+--- [247] [success] The Effect of Beta-Alanine versus Alkaline Agent Supplementation Combined with Branched-Chain Amino Acids and Creatine Malate in Highly-Trained Sprinters and Endurance Athletes: A Randomized Double-Blind Crossover Study ---
+doc_id: PMC6769605
+{"eligible": false, "exclusion_reason": "The study does not investigate vitamin C and/or E supplementation, but rather beta-alanine versus alkaline agents combined with branched-chain amino acids and creatine malate.", "findings": []}
+
+--- [248] [success] Effects of dietary vitamin E on muscle vitamin E and fatty acid content in Aohan fine-wool sheep ---
+doc_id: PMC3700886
+{"eligible": false, "exclusion_reason": "The study uses an animal model (sheep), whereas the inclusion criteria require human participants.", "findings": []}
+
+--- [249] [success] The effect of long term astaxanthin supplementation on the antioxidant status of racing Arabian horses – preliminary study ---
+doc_id: PMC11564757
+{"eligible": false, "exclusion_reason": "The study investigates astaxanthin supplementation in horses (animal participants), which violates the human participants eligibility requirement.", "findings": []}
+
+--- [250] [success] Protein Supplementation Has Minimal Effects on Muscle Adaptations during Resistance Exercise Training in Young Men: A Double-Blind Randomized Clinical Trial 1 2 3 ---
+doc_id: PMC4997282
+{"eligible": false, "exclusion_reason": "The study investigates protein supplementation (whey protein and soy-dairy protein blend) combined with resistance exercise training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [251] [success] Supplementation with  Lactiplantibacillus brevis  GKEX Combined with Resistance Exercise Training Improves Muscle Mass, Strength Performance, and Body Fat Condition in Healthy Humans ---
+doc_id: PMC11011920
+{"eligible": false, "exclusion_reason": "The study investigates Lactiplantibacillus brevis GKEX probiotic supplementation combined with resistance exercise training, not vitamin C or E supplementation.", "findings": []}
+
+--- [252] [success] Effect of an herbal/botanical supplement on strength, balance, and muscle function following 12-weeks of resistance training: a placebo controlled study ---
+doc_id: PMC4047772
+{"eligible": false, "exclusion_reason": "The study investigates a herbal/botanical antioxidant supplement containing Aphanizomenon flos-aquae, rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [253] [success] Effects of  Cistanche deserticola  Y.C. Ma Supplementation on Muscle Strength and Recovery: A Randomized Controlled Trial ---
+doc_id: PMC12472218
+{"eligible": false, "exclusion_reason": "The study investigates Cistanche deserticola supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [254] [success] The effects of nutritional supplementation on older sarcopenic individuals who engage in resistance training: a meta-analysis ---
+doc_id: PMC10167299
+{"eligible": false, "exclusion_reason": "The paper studies nutritional supplementation (such as protein, vitamin D, etc.) combined with resistance training in sarcopenic older adults, but it does not combine a structured training program specifically with vitamin C and/or E supplementation versus control.", "findings": []}
+
+--- [255] [success] Effects of Royal Jelly Administration on Endurance Training-Induced Mitochondrial Adaptations in Skeletal Muscle ---
+doc_id: PMC6266893
+{"eligible": false, "exclusion_reason": "The study investigates royal jelly administration in mice rather than vitamin C and/or E supplementation in human participants.", "findings": []}
+
+--- [256] [success] Low‐Dose Lemon Myrtle Supplementation Enhances Muscle Hypertrophy in Older Adults Undergoing Low‐Load Resistance Training: A Randomized Controlled Trial ---
+doc_id: PMC12862105
+{"eligible": false, "exclusion_reason": "The intervention studied is lemon myrtle extract (an antioxidant/plant extract), not vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [257] [success] Four months vitamin D supplementation to vitamin D insufficient individuals does not improve muscular strength: A randomized controlled trial ---
+doc_id: PMC6914329
+{
+  "eligible": false,
+  "exclusion_reason": "The study investigates vitamin D supplementation, not vitamin C and/or vitamin E supplementation.",
+  "findings": []
+}
+
+--- [258] [success] Vitamin C Protects from Impairment of Memory Induced by E-Cigarette Aerosol Exposure ---
+doc_id: PMC12645129
+{"eligible": false, "exclusion_reason": "The study is conducted on animal models (rats), whereas human participants are required for eligibility.", "findings": []}
+
+--- [259] [success] Early morning run-training results in enhanced endurance performance adaptations in mice ---
+doc_id: PMC10541096
+{"eligible": false, "exclusion_reason": "The study is conducted on animal models (mice) rather than human participants, and it investigates time-of-day exercise training without antioxidant (vitamin C/E) supplementation.", "findings": []}
+
+--- [260] [success] Twelve‐Week  Colostrum Bovinum  Supplementation Supports Aerobic Capacity but has No Effect on Body Composition in Endurance‐Trained Males: A Randomized Placebo‐Controlled Crossover Study ---
+doc_id: PMC12010043
+{"eligible": false, "exclusion_reason": "The study investigates Colostrum Bovinum supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [261] [success] Effects of Protein Supplementation During High-Intensity Functional Training on Physical Performance in Recreationally Trained Males and Females: A Randomized Controlled Trial ---
+doc_id: PMC12074003
+{"eligible": false, "exclusion_reason": "The study investigates protein supplementation (egg white and whey protein) rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [262] [success] The Effect of Nordic Walking Training Combined with Vitamin D Supplementation on Postural Control and Muscle Strength in Elderly People—A Randomized Controlled Trial ---
+doc_id: PMC6164155
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D supplementation combined with Nordic Walking training, not vitamin C or E supplementation.", "findings": []}
+
+--- [263] [success] Muscle-Related Effect of Whey Protein and Vitamin D 3  Supplementation Provided before or after Bedtime in Males Undergoing Resistance Training ---
+doc_id: PMC9183069
+{"eligible": false, "exclusion_reason": "The paper studies whey protein and vitamin D3 supplementation combined with resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [264] [success] Effects of low-dose ibuprofen supplementation and resistance training on bone and muscle in postmenopausal women: A randomized controlled trial ---
+doc_id: PMC4926836
+{"eligible": false, "exclusion_reason": "The study tests ibuprofen (an NSAID), not vitamin C and/or E supplementation.", "findings": []}
+
+--- [265] [success] Influence of endurance and endurance–strength training on mineral status in women with abdominal obesity: a randomized trial ---
+doc_id: PMC6709101
+{
+  "eligible": false,
+  "exclusion_reason": "The study investigates mineral status and exercise training without vitamin C or E supplementation.",
+  "findings": []
+}
+
+--- [266] [success] Effects of an Aqueous Extract of  Withania somnifera  on Strength Training Adaptations and Recovery: The STAR Trial ---
+doc_id: PMC6266766
+{"eligible": false, "exclusion_reason": "The paper investigates Withania somnifera (Ashwagandha) supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [267] [success] A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults ---
+doc_id: PMC5867436
+{"eligible": false, "exclusion_reason": "The paper investigates dietary protein supplementation rather than vitamin C and/or E supplementation combined with exercise training.", "findings": []}
+
+--- [268] [success] Effect of whey vs. soy protein supplementation on recovery kinetics following speed endurance training in competitive male soccer players: a randomized controlled trial ---
+doc_id: PMC7968192
+{"eligible": false, "exclusion_reason": "The study investigates whey and soy protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [269] [success] Effects of gamma oryzanol supplementation on anthropometric measurements & muscular strength in healthy males following chronic resistance training ---
+doc_id: PMC4164998
+{"eligible": false, "exclusion_reason": "The study investigates gamma oryzanol supplementation rather than vitamin C and/or vitamin E supplementation.", "findings": []}
+
+--- [270] [success] The effects of resistance training with or without peanut protein supplementation on skeletal muscle and strength adaptations in older individuals ---
+doc_id: PMC7734909
+{"eligible": false, "exclusion_reason": "The study investigates peanut protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [271] [success] Lung Function and Respiratory Muscle Adaptations of Endurance- and Strength-Trained Males ---
+doc_id: PMC7764033
+{"eligible": false, "exclusion_reason": "The paper does not investigate antioxidant supplementation versus control.", "findings": []}
+
+--- [272] [success] Sustained Endurance Training Leads to Metabolomic Adaptation ---
+doc_id: PMC9323347
+{
+  "eligible": false,
+  "exclusion_reason": "The study investigates metabolomic differences between endurance-trained and untrained human subjects using targeted metabolomics, but does not include a vitamin C and/or E supplementation intervention.",
+  "findings": []
+}
+
+--- [273] [success] The effects of d-aspartic acid supplementation in resistance-trained men over a three month training period: A randomised controlled trial ---
+doc_id: PMC5571970
+{"eligible": false, "exclusion_reason": "The paper studies d-aspartic acid supplementation rather than vitamin C and/or vitamin E.", "findings": []}
+
+--- [274] [success] Effect of milk fat globule membrane supplementation on motor unit adaptation following resistance training in older adults ---
+doc_id: PMC7322501
+{"eligible": false, "exclusion_reason": "The study investigates milk fat globule membrane (MFGM) supplementation, not vitamin C or E supplementation.", "findings": []}
+
+--- [275] [success] Right heart exercise-training-adaptation and remodelling in endurance athletes ---
+doc_id: PMC8602371
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis on right heart exercise-training adaptation and remodeling in endurance athletes, not an empirical study combining an exercise training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [276] [success] Antioxidants to Supplement or Not to Supplement That Is the Question ---
+doc_id: PMC4665397
+{"eligible": false, "exclusion_reason": "The paper is an editorial and review article, not an empirical primary study with exercise training and antioxidant supplementation.", "findings": []}
+
+--- [277] [success] Lower Dietary and Circulating Vitamin C in Middle- and Older-Aged Men and Women Are Associated with Lower Estimated Skeletal Muscle Mass ---
+doc_id: PMC7549302
+{"eligible": false, "exclusion_reason": "This is a cross-sectional observational study, not an exercise training intervention trial.", "findings": []}
+
+--- [278] [success] Effects of Endurance and Endurance–Strength Training on Endothelial Function in Women with Obesity: A Randomized Trial ---
+doc_id: PMC6862069
+{"eligible": false, "exclusion_reason": "The study does not involve vitamin C and/or E supplementation.", "findings": []}
+
+--- [279] [success] Benfotiamine Supplementation Increases Thiamine in Muscle of Endurance-Trained Mice and Affects the Energy Metabolism ---
+doc_id: PMC11449553
+{"eligible": false, "exclusion_reason": "The study evaluates benfotiamine (a thiamine analog) supplementation in mice rather than vitamin C and/or E supplementation in human participants.", "findings": []}
+
+--- [280] [success] Differences in Training Adaptations of Endurance Performance during Combined Strength and Endurance Training in a 6-Month Crisis Management Operation ---
+doc_id: PMC7084630
+{"eligible": false, "exclusion_reason": "The study investigates combined strength and endurance training during a military operation without antioxidant supplementation (vitamin C and/or E).", "findings": []}
+
+--- [281] [success] The Effects of Hyperhydrating Supplements Containing Creatine and Glucose on Plasma Lipids and Insulin Sensitivity in Endurance-Trained Athletes ---
+doc_id: PMC4488253
+{"eligible": false, "exclusion_reason": "The study investigates creatine, glycerol, glucose, and alpha lipoic acid supplementation rather than vitamin C and/or E supplementation combined with an exercise-training program.", "findings": []}
+
+--- [282] [success] Effects of protein supplementation during pilates training on body composition, core muscle endurance, and joint flexibility in trained women: a randomized controlled trial ---
+doc_id: PMC11869336
+{"eligible": false, "exclusion_reason": "The study investigates protein (whey protein) supplementation during Pilates training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [283] [success] Beneficial Effects of  Asparagus officinalis  Extract Supplementation on Muscle Mass and Strength following Resistance Training and Detraining in Healthy Males ---
+doc_id: PMC10537221
+{"eligible": false, "exclusion_reason": "The paper investigates Asparagus officinalis extract containing 20-hydroxyecdysone, not vitamin C or vitamin E supplementation.", "findings": []}
+
+--- [284] [success] Effects of Maltodextrin–Fructose Supplementation on Inflammatory Biomarkers and Lipidomic Profile Following Endurance Running: A Randomized Placebo-Controlled Cross-Over Trial ---
+doc_id: PMC11434986
+{"eligible": false, "exclusion_reason": "The study investigates maltodextrin-fructose carbohydrate supplementation rather than antioxidant vitamins C and/or E during exercise training.", "findings": []}
+
+--- [285] [success] Influence of vitamin D supplementation on muscle strength and exercise capacity in Mongolian schoolchildren: a randomised controlled trial ---
+doc_id: PMC10996754
+{"eligible": false, "exclusion_reason": "The paper investigates vitamin D supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [286] [success] Molecular control of endurance training adaptation in male mouse skeletal muscle ---
+doc_id: PMC10663156
+{"eligible": false, "exclusion_reason": "The study uses a mouse model (male mice) rather than human participants, making it ineligible according to the criteria.", "findings": []}
+
+--- [287] [success] Associations of serum levels of vitamins A, C, and E with the risk of cognitive impairment among elderly Koreans ---
+doc_id: PMC5886968
+{"eligible": false, "exclusion_reason": "The study is a cross-sectional observational study examining serum vitamin levels and cognitive impairment, not a controlled exercise-training intervention study with antioxidant supplementation.", "findings": []}
+
+--- [288] [success] Vitamin D supplementation and increased dairy protein intake do not affect muscle strength or physical function in healthy 6–8-year-old children: the  D-pro  randomized trial ---
+doc_id: PMC9146815
+{"eligible": false, "exclusion_reason": "The study investigates vitamin D and dairy protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [289] [success] Resistance Training Improves Muscle Strength and Function, Regardless of Protein Supplementation, in the Mid- to Long-Term Period after Gastric Bypass ---
+doc_id: PMC8746810
+{"eligible": false, "exclusion_reason": "The study investigates whey protein supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [290] [success] Effects of antioxidant supplement on immune health and physical wellbeing: A randomized, controlled trial ---
+doc_id: PMC9212968
+{"eligible": false, "exclusion_reason": "The study does not evaluate a structured exercise-training program combined with antioxidant supplementation.", "findings": []}
+
+--- [291] [success] The impact of nutritional intervention and resistance training on muscle strength and mass in healthy older adults—a comparative analysis ---
+doc_id: PMC12400859
+{"eligible": false, "exclusion_reason": "The study investigates protein, creatine, and HMB supplementation combined with resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [292] [success] Antioxidant trials—the need to test for stress ---
+doc_id: PMC7937419
+{"eligible": false, "exclusion_reason": "The paper is a letter to the editor/editorial discussing antioxidant trials and does not contain primary empirical exercise-training trial results.", "findings": []}
+
+--- [293] [success] Effects of free leucine supplementation and resistance training on muscle strength and functional status in older adults: a randomized controlled trial ---
+doc_id: PMC4403814
+{"eligible": false, "exclusion_reason": "The study investigates leucine supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [294] [success] Powdered tart cherry supplementation surrounding a single bout of intense resistance exercise demonstrates potential attenuation of recovery strength decrement with no definitive oxidative or inflammatory effect ---
+doc_id: PMC4594794
+{"eligible": false, "exclusion_reason": "The study investigates powdered tart cherry supplementation surrounding a single bout of intense resistance exercise rather than a structured exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [295] [success] A forced titration study of the antioxidant and immunomodulatory effects of Ambrotose AO supplement ---
+doc_id: PMC2888736
+{"eligible": false, "exclusion_reason": "The study is a forced titration supplement trial without an exercise-training program or exercise-adaptation endpoints.", "findings": []}
+
+--- [296] [success] Effects of daily vitamin D supplementation on respiratory muscle strength and physical performance in vitamin D-deficient COPD patients: a pilot trial ---
+doc_id: PMC5584776
+{"eligible": false, "exclusion_reason": "The paper investigates vitamin D supplementation rather than vitamin C and/or E supplementation.", "findings": []}
+
+--- [297] [success] Vitamin D Supplementation Improves Handgrip Strength in Postmenopausal Women: A Systematic Review and Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC9199366
+{"eligible": false, "exclusion_reason": "The paper is a systematic review and meta-analysis of randomized controlled trials examining vitamin D supplementation, not a primary study combining a structured exercise-training program with vitamin C and/or E supplementation.", "findings": []}
+
+--- [298] [success] Effect of  Nigella sativa  Supplementation on Oxidative Stress and Antioxidant Parameters: A Meta-Analysis of Randomized Controlled Trials ---
+doc_id: PMC7225850
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of randomized controlled trials examining the effect of Nigella sativa supplementation on oxidative stress and antioxidant parameters, not a controlled primary study combining structured exercise training with vitamin C and/or E supplementation.", "findings": []}
+
+--- [299] [success] Isolated Soy Protein Supplementation Combined With Resistance Training Improves Muscle Strength, Mass, and Physical Performance of Aging Female Mice ---
+doc_id: PMC9204525
+{"eligible": false, "exclusion_reason": "The study uses animal models (mice) and protein supplementation (isolated soy protein) rather than human participants and vitamin C and/or E supplementation.", "findings": []}
+
+--- [300] [success] VITADIAL “Does correction of 25 OH-VITAmin D with cholecalciferol supplementation increase muscle strength in hemoDIALysis patients?”: study protocol for a randomized controlled trial ---
+doc_id: PMC8146204
+{"eligible": false, "exclusion_reason": "This is a study protocol for a randomized controlled trial without empirical results.", "findings": []}
+
+--- [301] [success] Specific Collagen Peptides in Combination with Resistance Training Improve Body Composition and Regional Muscle Strength in Premenopausal Women: A Randomized Controlled Trial ---
+doc_id: PMC6521629
+{"eligible": false, "exclusion_reason": "The study investigates specific collagen peptide supplementation combined with resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [302] [success] Effects of Insect Protein Supplementation during Resistance Training on Changes in Muscle Mass and Strength in Young Men ---
+doc_id: PMC5872753
+{"eligible": false, "exclusion_reason": "The study investigates insect protein supplementation during resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [303] [success] Effects of training adaption in endurance athletes with atrial fibrillation: protocol for a multicentre randomised controlled trial ---
+doc_id: PMC10106028
+{"eligible": false, "exclusion_reason": "The paper is a study protocol for a randomised controlled trial without empirical results.", "findings": []}
+
+--- [304] [success] Antioxidant supplementation for the prevention of post-endoscopic retrograde cholangiopancreatography pancreatitis: a meta-analysis of randomized controlled trials ---
+doc_id: PMC3575286
+{"eligible": false, "exclusion_reason": "The paper is a meta-analysis of clinical trials evaluating antioxidant supplementation for the prevention of post-endoscopic retrograde cholangiopancreatography pancreatitis, not an exercise-training study.", "findings": []}
+
+--- [305] [success] Adaptation mechanism of the adult zebrafish respiratory organ to endurance training ---
+doc_id: PMC7001924
+{"eligible": false, "exclusion_reason": "The study uses an animal model (zebrafish) rather than human participants, and does not investigate vitamin C and/or E supplementation.", "findings": []}
+
+--- [306] [success] Reply: antioxidant trials—the need to test for stress ---
+doc_id: PMC7937421
+{"eligible": false, "exclusion_reason": "The paper is a Letter to the Editor discussing antioxidant trials rather than an eligible primary exercise intervention study.", "findings": []}
+
+--- [307] [success] No Significant Differences in Muscle Growth and Strength Development When Consuming Soy and Whey Protein Supplements Matched for Leucine Following a 12 Week Resistance Training Program in Men and Women: A Randomized Trial ---
+doc_id: PMC7312446
+{"eligible": false, "exclusion_reason": "The paper studies soy versus whey protein supplementation during resistance training, not antioxidant supplementation (vitamin C and/or E).", "findings": []}
+
+--- [308] [success] Collagen peptide supplementation in combination with resistance training improves body composition and increases muscle strength in elderly sarcopenic men: a randomised controlled trial ---
+doc_id: PMC4594048
+{"eligible": false, "exclusion_reason": "The study investigates collagen peptide supplementation combined with resistance training, not vitamin C and/or E supplementation.", "findings": []}
+
+--- [309] [success] Effect of vitamin e supplementation with exercise on cognitive functions and total antioxidant capacity in older people ---
+doc_id: PMC12880339
+{"eligible": false, "exclusion_reason": "The paper does not measure any of the included primary endpoints (muscle_strength, muscle_mass, aerobic_capacity, endurance_performance, sprint_or_power_performance); its measured outcomes are cognitive functions evaluated by event-related potentials and antioxidant capacity.", "findings": []}

@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "3",
+    "-e",
+    "Effects of an Aqueous Extract of  Withania somnifera  on Strength Training Adaptations and Recovery: The STAR Trial"
+  ],
+  "completed_at": "2026-08-16T02:47:21.952188+00:00",
+  "elapsed_seconds": 1.307687000138685,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:47:20.644488+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-008-pmc6266766.attempt-01.stderr",
+  "stdout_bytes": 612,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/locate-008-pmc6266766.attempt-01.stdout"
+}

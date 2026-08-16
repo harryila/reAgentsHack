@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "results",
+    "s_abe6d778",
+    "--save",
+    "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-02.results.csv"
+  ],
+  "completed_at": "2026-08-16T05:24:16.097938+00:00",
+  "elapsed_seconds": 0.3629142080899328,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:15.734995+00:00",
+  "stderr_bytes": 0,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-02.export.attempt-01.stderr",
+  "stdout_bytes": 130,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/blunting-direction-02.export.attempt-01.stdout"
+}

@@ -1,0 +1,49 @@
+Map complete: 10/10 papers
+Results ID: m_e4f416f0
+
+  ✓ Effects of vitamins C and E supplementation combined with 12-week resi
+    PMC12384908 · 2684ms
+    {"eligible": false, "exclusion_reason": "No locked question or research question was specified in the prompt configuration.", "findings": []}
+
+  ✓ Vitamin C and E Supplementation Effects in Professional Soccer Players
+    PMC2129167 · 2622ms
+    {
+      "eligible": false,
+      "exclusion_reason": "The study investigates oxidative stress, muscle damage, and performance parameters, but does not examine typical physiological training adaptations such as VO2max, muscle hypertrophy, or endurance performance changes relative to the primary training adaptation endpoints required.",
+      "findings": []
+    }
+
+  ✓ Effects of Acute Vitamin C plus Vitamin E Supplementation on Exercise-
+    PMC9659095 · 2543ms
+    {"eligible": false, "exclusion_reason": "The study uses an acute single-session exercise protocol with acute supplementation rather than a structured exercise-training program.", "findings": []}
+
+  ✓ Vitamin C, A and E supplementation decreases the expression of  HSPA1A
+    PMC4342201 · 2440ms
+    {"eligible": false, "exclusion_reason": "The study investigates gene expression (HSPA1A and HSPB1 mRNA) rather than traditional physical training adaptation endpoints such as muscle hypertrophy or performance.", "findings": []}
+
+  ✓ Vitamin C and E supplementation and high intensity interval training i
+    PMC10323915 · 2349ms
+    {"eligible": false, "exclusion_reason": "The paper does not have a locked research question specified in the prompt.", "findings": []}
+
+  ✓ Effects of vitamin E supplementation on renal non-enzymatic antioxidan
+    PMC3306763 · 2283ms
+    {"eligible": false, "exclusion_reason": "This is an acute single-session exercise stress study in rats without a structured exercise-training program.", "findings": []}
+
+  ✓ Differences in the Pro/Antioxidative Status and Cellular Stress Respon
+    PMC9599586 · 2163ms
+    {"eligible": true, "exclusion_reason": null, "findings": [{"comparator": "placebo group (CON)", "confidence": 1.0, "dose_raw": "1000 mg daily", "duration_raw": "6 weeks", "effect_direction": "no_effect", "effect_size_raw": null, "evidence_lines": ["L46: VO 2 max did not change significantly in the reported period"], "evidence_quote": "VO 2 max did not change significantly in the reported period", "intervention": "vitamin C supplementation", "intervention_class": "vitamin_c_only", "model": "human", "moderators": {"age_group": "older_adult", "population_state": "healthy", "supplement_combo": "vitamin_c_only", "training_modality": "concurrent_or_mixed", "training_status": "untrained", "vitc_dose_regime": "1000_mg_daily_or_more"}, "outcome_family": "cardiorespiratory_fitness", "outcome_name": "VO2max", "p_value": null, "population_state": "healthy", "sample_size": 36, "significant": false, "species": "human", "study_type": "controlled clinical trial", "timepoint_raw": "6 weeks", "timing_context": "post-training"}]}
+
+  ✓ Elevated hepcidin serum level in response to inflammatory and iron sig
+    PMC4562561 · 2081ms
+    {"eligible": false, "exclusion_reason": "This is an acute single-session exercise study measuring hepcidin and inflammatory markers rather than a structured multi-week exercise-training program with direct measurement of training-adaptation endpoints.", "findings": []}
+
+  ✓ Protective Role of Vitamin C Intake on Muscle Damage in Male Adolescen
+    PMC6182534 · 2003ms
+    {"eligible": false, "exclusion_reason": "The study investigates acute strenuous recreational exercise rather than a structured exercise-training program.", "findings": []}
+
+  ✓ Can vitamin C supplementation reverse the effects of exercise training
+    PMC8519622 · 1930ms
+    {"eligible": false, "exclusion_reason": "The study uses an animal model (rats) rather than human participants.", "findings": []}
+
+Tip: These per-paper answers are ready to use — synthesize them to respond.
+[6.1s, saved to m_e4f416f0]

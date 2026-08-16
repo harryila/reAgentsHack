@@ -1,0 +1,2 @@
+{"cluster_id":"dedupe:8cef38939b08","event":"auto_merge","identity_key":null,"member_doc_ids":["PMC10614785","PMC11294728"],"preferred_doc_id":null,"reason":"fuzzy_title_author_year","title_score":100.0}
+{"cluster_id":"dedupe:8cef38939b08","event":"cluster_finalized","identity_key":null,"member_doc_ids":["PMC10614785","PMC11294728"],"preferred_doc_id":"PMC10614785","reason":"published_preferred_then_content_identity","title_score":null}

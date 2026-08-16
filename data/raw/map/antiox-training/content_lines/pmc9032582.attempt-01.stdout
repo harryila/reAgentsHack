@@ -1,0 +1,596 @@
+L1: Multi-Fold Enhancement of Tocopherol Yields Employing High CO 2  Supplementation and Nitrate Limitation in Native Isolate  Monoraphidium  sp.
+L2: Cells (2022)
+L3: Rabinder Singh, Asha Arumugam Nesamma, Alka Narula, Pannaga Pavan Jutur
+L4: 1 Omics of Algae Group, International Centre for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi 110067, India;  rabinderbiotech@gmail.com  (R.S.);  asha22@gmail.com  (A.A.N.)
+L5: 2 Department of Biotechnology, School of Chemical and Life Sciences, Jamia Hamdard University, New Delhi 110062, India;  alka.narula@rediffmail.com
+L6: 3 DBT-ICGEB Centre for Advanced Bioenergy Research, International Centre for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi 110067, India
+L7: Tocopherols are the highly active form of the antioxidant molecules involved in scavenging of free radicals and protect the cell membranes from reactive oxygen species (ROS). In the present study, we focused on employing carbon supplementation with varying nitrate concentrations to enhance the total tocopherol yields in the native isolate  Monoraphidium  sp. CABeR41. The total tocopherol productivity of NR HC  (Nitrate replete + 3% CO 2 ) supplemented was (306.14 µg·L −1  d −1 ) which was nearly 2.5-fold higher compared to NR VLC  (Nitrate replete + 0.03% CO 2 ) (60.35 µg·L −1  d −1 ). The best tocopherol productivities were obtained in the NL HC  (Nitrate limited + 3% CO 2 ) supplemented cells (734.38 µg·L −1  d −1 ) accompanied by a significant increase in cell biomass (2.65-fold) and total lipids (6.25-fold). Further, global metabolomics using gas chromatography-mass spectrometry (GC-MS) was done in the defined conditions to elucidate the molecular mechanism during tocopherol accumulation. In the present study, the  Monoraphidium  sp. responded to nitrogen limitation by increase in nitrogen assimilation, with significant upregulation in gamma-Aminobutyric acid (GABA). Moreover, the tricarboxylic acid (TCA) cycle upregulation depicted increased availability of carbon skeletons and reducing power, which is leading to increased biomass yields along with the other biocommodities. In conclusion, our study depicts valorization of carbon dioxide as a cost-effective alternative for the enhancement of biomass along with tocopherols and other concomitant products like lipids and carotenoids in the indigenous strain  Monoraphidium  sp., as an industrial potential strain with relevance in nutraceuticals and pharmaceuticals.
+L8: Article
+L9: carbon dioxide; carotenoids; limitation; lipids; microalgae; Monoraphidium; nitrate; supplementation; tocopherols
+L10: 1. Introduction
+L11: The constant growth of the human population requires an increased supply of food and energy, which exacerbates environmental problems such as global climate change. Microalgal cell factories due to their higher growth rates, strong environmental adaptability and metabolic versatility play an essential role in capturing and recycling the global CO 2 , thus feasibly converting it into sustainable biofuels and high-value added biorenewables (HVABs) [ 1 , 2 , 3 , 4 , 5 ]. These photosynthetic organisms excite energy transfer and electron transport within photosystem II (PSII) during light-driven processes resulting in the generation of reactive oxygen species (ROS), which are ineludibly associated with PSII, when absorbed light by the chlorophyll antenna complexes outpaces the rate of energy utilization during CO 2  fixation [ 6 , 7 ]. Likewise, nitrogen stress and high light (HL) in microalgae leads to increased ROS formation such as singlet oxygen ( 1 O 2 ), superoxide (O 2 − ), hydrogen peroxide (H 2 O 2 ), and hydroxyl radicals [ 8 , 9 ]. Also, thylakoid membranes are more prone to oxidation due to their higher content of polyunsaturated fatty acids (PUFAs), resulting in the formation of lipid hydroperoxides (LOOHs) and initiating lipid peroxidation chain reactions, thus eventually destroying the chloroplast membrane integrity leading to cell death [ 10 ].
+L12: Henceforth, these cells have developed multiple mechanisms for treating the inevitable generation of ROS as a by-product of oxidative metabolism. Similarly, the increased accumulation of antioxidant enzymes (superoxide dismutase, glutathione peroxidase, catalase, and ascorbate peroxidase) [ 11 ] and other antioxidants like tocopherols and carotenoids tend to scavenge and/or quench ROS in response to oxidative stress [ 12 ]. Tocopherols and carotenoids are the major lipid-soluble antioxidants in chloroplast envelope and thylakoid membrane, where photosynthetic light-harvesting and electron transport occur. They play a significant role against photooxidative stress, exhibiting an active defense system contrary to O 2 −  and lipid peroxidation in thylakoid membranes [ 13 ]. Moreover, tocopherols compensate for the loss of xanthophyll cycle pigments (Zeaxanthin), exhibiting overlapping function during photooxidative stress [ 14 , 15 , 16 ]. Tocopherols are crucial in delaying the onset of various degenerative diseases in humans and are widely used in dietary supplementation and cosmetics [ 17 ]. Furthermore, tocopherols ensure the best utilization of food containing high-quality lipids namely eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) to preserve reserves of essential fatty acids [ 18 ]. Presently, the industrial applications use chemically synthesized racemic mixtures of tocopherols that are less active than natural molecules (or) directly extracted from vegetable oils that typically contain lower tocopherol yields [e.g., sunflower (900 ug·g −1 ), olive oil (211 ug·g −1 ) and soybean (1.16 mg·g −1 )] [ 19 , 20 , 21 , 22 , 23 ]. Number of algal strains are also identified as potential producers of tocopherols such as  Euglena gracilis  (2.6 mg·g −1 ),  Nannochloropsis oculata  (1.4 mg·g −1 ),  Coccomyxa  sp. (0.42 mg·g −1 ), and  Haematococcus pluvialis  (0.8 mg·g −1 ) [ 24 , 25 , 26 ]. In addition, previous studies involving strains such as  Coccomyxa  sp.,  Desmodesmus  sp., and  Muriella terrestris  supplemented with 5% CO 2  ( v / v ) demonstrated significant enhancement in the production of both α-tocopherols and total fatty acids [ 27 ]. Moreover, the exogenous supply of carbon sources like glucose and ethanol in  Euglena gracilis  have also been found to increase α-tocopherol production [ 28 , 29 ]. Furthermore, screening of nearly 130 strains of microalgae and cyanobacteria by Mudimu and co-workers showed significant α-tocopherol yields at different growth stages, especially under the influence of nitrate limited conditions [ 30 ].
+L13: In the present study, our focus was to improve tocopherol yields without compromising cell growth, i.e., biomass in response to varying nitrate concentrations subjected to very low (VLC, 0.03%  v / v ; 300 ppm) and high (HC, 3.0%  v / v ; 30,000 ppm) CO 2  supplementations in the newly isolated indigenous strain  Monoraphidium  sp. CABeR41. Based on the preliminary data analysis, the overall yield of tocopherols and lipids were induced during nutrient limited (NL) conditions in a well-correlated manner. Furthermore, CO 2  supplementation drastically enhanced biomass along with other biocommodities such as lipids, carotenoids, and tocopherols. To illustrate the changes in the metabolic profiles of this microalga, we employed qualitative (untargeted) metabolomics to unveil the carbon flux within the essential metabolic pathways. Such findings may provide us new insights on the growth parameters required for improving biomass yields along with the industrially relevant HVABs, a roadmap towards cost-effective and sustainable microalgal biorefineries.
+L14: 2. Materials and Methods
+L15: 2.1. Growth Conditions
+L16: Native isolate of freshwater microalgae  Monoraphidium  sp. CABeR41 was grown in minimal BG-11 medium, under 16:8 h light/dark photoperiods with light intensity of ~150 μE m −2  s −1  at constant shaking of 150 rpm. The final concentration of BG-11 medium used in culture conditions are represented in mg·mL −1 , mM: K 2 HPO 4 —40, 0.23; MgSO 4 ·7H 2 O—75, 0.305; CaCl 2 ·2H 2 O—36, 0.21; Citric acid—6, 0.031; FeC 6 H 5 O 7 NH 4 OH—6, 0.022; EDTA—1, 0.0035; Na 2 CO 3 —20, 0.19; NaNO 3 —1.5, 17.6 with trace metal solutions (in mg·mL −1 , mM): H 3 BO 3 —2.85, 0.045; MnCl 2 ·0.4H 2 O—1.81, 0.014; ZnSO 4 ·7H 2 O—0.22, 0.001; Na 2 MoO 4 ·0.2H 2 O—0.39, 0.001; CuSO 4 ·5H 2 O—0.08, 0.0008; Co(NO 3 ) 2 ·6H 2 O—0.05, 0.005. A total of ~10 6  cells mL −1  was inoculated at a logarithmic phase with an initial optical density at 750 nm wavelength (OD 750 ) of 0.1. Growth was monitored by cell count using hemocytometer [ 31 ]. The sampling was done at regular intervals of 0, 2, 4, 6, 8, and 10 days. The following equation was used to calculate growth rates [ 32 ].
+L17:  μ = ln (N 2 /N 1 )/(t 2  − t 1 ) (1) 
+L18: where μ is the specific growth rate and N 1  and N 2  are the biomass at times (t 1  and t 2 ), respectively. The following equation was used to compute doubling time: Doubling time = ln (2)/μ (2)
+L19: Further, these cells in BG-11 medium were subjected to supplementation of very low carbon [VLC, 0.03% ( v / v ) CO 2  or 300 ppm] and high carbon [HC, 3.0% ( v / v ) CO 2  or 30,000 ppm] with varying concentrations of nitrogen, i.e., nitrogen replete (NR), containing 1.5 g·L −1  of NaNO 3 , nitrogen limited (NL) with 0.5 g·L −1  of NaNO 3 , and nitrogen deplete (ND) with 0.0 g·L −1  of NaNO 3 , respectively. The cells were inoculated in BG-11 medium (as per conditions described earlier) within 500 mL Erlenmeyer flasks and cultivated for period of 10 days at 25 °C under 16:8 h light/dark photoperiods and light intensity of 150 µE m −2  s  −1  with constant shaking at 150 rpm and the sampling was carried at intervals of 0, 2, 4, 6, 8, and 10 days.
+L20: 2.2. Chlorophyll (Chl a ) Fluorescence Measurement
+L21: Non-invasive fluorescence measurements were acquired by using dual-pulse amplitude modulation (PAM) 100 chlorophyll fluorometer (Heinz Walz Gmbh, Effeltrich, Germany) to measure the photosynthetic efficiency of photosystem II (PSII). To ensure complete oxidation of all reaction centres, samples were kept in dark and incubated for 30 min. Maximum fluorescence ( F m ) was determined by directing a saturation pulse (6000 μmol photons m −2  s −1 ; λ = 660 nm) and quantum efficiency of PS II calculated by ( F v / F m  = ( F m  −  F o )/ F m ) [ 32 ]. Further, photosynthetic parameters like PSII operating efficiency ( F q ′ / F m ′ ) = ( F m ′  −  F′ )/ F m ′  [ 33 ] and electron transport in PSII (ETRII) were measured as described by Baker and co-workers [ 34 ].
+L22: 2.3. Biochemical Profiling
+L23: The total lipids were estimation employing the sulpho-phospho-vanillin (SPV) method, wherein 2 mL of cells were pelleted, followed by addition of 2 mL of concentrated H 2 SO 4  (98%) and incubated at 100 °C for 10 min. After cooling the reaction, 5 mL of freshly prepared phospho-vanillin reagent has been added and incubated at 37 °C for 15 min with continuous shaking at 200 rpm. The absorbance was measured at 530 nm in the SpectraMax M Series Multimode Microplate Reader (Molecular Devices, LLC., San Jose, CA, USA) and the quantification was done using canola oil (MilliporeSigma, Burlington, MA, USA) as the standard [ 35 ].
+L24: Total carbohydrates were estimated using a modified phenol-sulphuric acid method [ 36 ]. For 100 µL of cells, 98%  v / v  concentrated H 2 SO 4  was added and subsequently hydrolyzed at room temperature (RT) for 1 h. Further, 5% ( v / v ) phenol with H 2 SO 4  was added and incubated at RT for 20 min after vortexing. The absorbance was measured at 490 nm and the quantification was done with glucose as a standard.
+L25: The total proteins were quantified using a modified biuret method [ 37 ]. To, 1 mL of cell pellet, 1 mL of extraction buffer (25% 1 N NaOH in methanol) was added and the reaction was incubated at 80 °C for 15 min. Samples were cooled to RT and centrifuged to remove cell debris. The supernatant was treated with CuSO 4  solution (0.21% CuSO 4  in 30% NaOH) and incubated at RT for 10 min before optical density was measured at 310 nm. Quantification was carried by using bovine serum albumin (BSA) as a standard.
+L26: 2.4. Confocal Microscopy with BODIPY Dye
+L27: The localization of lipids were visualized using confocal microscopy by the fluorescent dye BODIPY 505/515 (4,4-difluoro-1,3,5,7-tetramethyl-4-bora-3a,4a-diaza-s-indacene; MilliporeSigma, Burlington, MA, USA) as described earlier by Xu et al. [ 38 ] with slight modifications. The strained algal cells were incubated in a stock solution of 1 mg mL −1  of BODIPY dissolved in dimethyl sulfoxide (DMSO) for 10 min at RT and visualized using Olympus FluoView TM  FV1000 Confocal Laser Scanning Microscope (Olympus Corporation, Tokyo, Japan) at an excitation/emission wavelength of 505/515 nm.
+L28: 2.5. Imaging of Superoxide Anion by Confocal Laser-Scanning Microscopy
+L29: The superoxide anion imaging was based on the reaction with fluorescent probes such as dihydroethidium (DHE) (MilliporeSigma, Burlington, MA, USA) for detecting the ROS formation and were visualized by the Olympus FluoView TM  FV1000 Confocal Laser Scanning Microscope (Olympus Corporation, Tokyo, Japan). To reduce the possibility of artifacts in the fluorescence measurements caused by photooxidation of DHE, the entire procedure was carried out in dark. The stock solution (30 mM) of DHE was prepared by dissolving in 100% ( v / v ) methanol and further, the working stock (30 µM) of DHE was diluted in 20% DMSO. Approximately, 10 6  cells were washed and resuspended 1 mL 1× PBS buffer. Later, 1 µL of 30 µm DHE working stock was added to cell suspension and incubated at RT for 10 min and measurements were done at the excitation/emission wavelength of 520/605 nm as described previously [ 39 ].
+L30: 2.6. Quantification of Tocopherols and Carotenoids by High-Performance Liquid Chromatography (HPLC)
+L31: The estimation of tocopherols was performed as described by Singh et al. [ 40 ] and analyzed in the Agilent HPLC 1260 Infinity II LC System (Agilent Technologies, Santa Clara, CA, USA) using Eclipse Plus C-18 Column (95 Å, 4.6 × 150 mm, 5 µm; Agilent Technologies, Santa Clara, CA, USA) with a two solvent system, i.e., acetonitrile:methanol (60:40,  v / v ), at a constant flow rate of 0.6 mL·min −1 . Further, the detection of tocopherols was done  via. , fluorescence detector (FLD) at an excitation/emission wavelength of 297/328 nm and quantification was performed using α- and δ-tocopherols as analytical standards obtained from MilleporeSigma (USA).
+L32: Extraction of carotenoids in the strain  Monoraphidium  sp. CABeR41 was carried out as reported by Singh et al. [ 40 ] with these modifications. After separation of the upper hexane layer, the supernatant was evaporated in presence of nitrogen and the dried extract was reconstituted in methanol. Analysis was carried out in the Agilent HPLC 1260 Infinity II LC System (Agilent Technologies, Santa Clara, CA, USA) coupled with UV detector using C-30 Acclaim column (4.6 × 250 mm, 5 µm) at 35 °C containing a binary solvent system (A plus B) as the mobile phase, with methanol as the primary solvent (A) and methyl tertbutyl ether (MTBE) as the secondary solvent (B). The following gradient conditions were applied (to separate the carotenoids) as follows: 2–20% B for the initial 10 min, followed by 20% B (10–12 min), 20–80% B (12–30 min), 80% B (30–32 min), 80–2% B (32–35 min). All the pigments were identified in UV detector at 437 nm and quantified by comparing the retention times of the each standard obtained from DHI, Denmark [ 41 ].
+L33: 2.7. Analysis of Total Antioxidant Activity
+L34: The total antioxidant activity were done to evaluate the efficiency of capturing free radicals within the cells in a time-course experiment employing the 2,2-diphenyl-1-picrylhydrazyl (DPPH) [ 42 , 43 ], Total Antioxidant Capacity (TAC) [ 44 ], and Ferrous Ion Reduction Power (FRAP) assays [ 45 ]. In DPPH assay, to 1 mL of 60 μM methanolic DPPH working stock solution (stock solution was prepared by dissolving 6 mM DPPH in 100% methanol), 10 μL of the extract was added and incubated for 10 min in dark. The absorbance was measured at 517 nm and total antioxidant capacity was calibrated with L-ascorbic acid in terms of ascorbic acid equivalent (mg·g −1 ) [ 42 , 43 ]. For TAC assay [ 44 ], 100 µL of the extract was mixed with phosphomolybdate reagent (stock solution containing the following: 1.1 M H 2 SO 4 , 30 mM NaH 2 PO 4 , and 4 mM ammonium heptamolybdate) was incubated at 95 °C for 60 min. The mixture is allowed to cool and absorbance was recorded at 695 nm and activity was measured as described earlier [ 44 ]. The reducing power of algal extracts was estimated using Ferrous Ion Reduction Power (FRAP) assay [ 45 ]. In this assay, 10 µL of the extract was added to the freshly prepared FRAP reagent containing 5 mL of the TPTZ (2,4,6-tripyridyl-S-triazine) solution (10 mmol·L −1 ) in HCl (40 mmol·L −1 ), 5 mL of FeCl 3  (20 mmol·L −1 ), and 50 mL of acetate buffer (0.3 mol·L −1 , pH 3.6), incubated at RT for 10 min. The absorbance was measured at 593 nm with L-ascorbic acid as a standard and represented in ascorbic acid equivalent (mg·g −1 ).
+L35: 2.8. Qualitative (Untargeted) Metabolomics
+L36: Approximately, 1 × 10 8  cells were centrifuged at 8000×  g  for 10 min at 4 °C and immediately quenched in liquid nitrogen; 1 mL of ice-cold methanol/ethanol/chloroform (2:6:2) was added to cells for resuspension, followed by sonication of 15 min in a sonication bath. Samples were centrifuged at 10,000×  g  for 15 min at 4 °C. The supernatant was filtered through a 0.2 µm filter and dried in presence of nitrogen. Further, ribitol (10 mg·mL −1 ) was added as the internal standard and the dried extract was dissolved in freshly prepared methoxyamine hydrochloride solution (4%  w / v  in pyridine) and incubated at 30 °C for 90 min. Later,  N -methyl-N-(trimethylsilyl) trifluoroacetamide was added to solution for derivatization and set for second incubation at 37 °C for 30 min. After centrifugation of the samples for 3 min at 14,000×  g  and the supernatant was further analyzed for different metabolites in the gas chromatography-mass spectrometry (GC–MS/MS). All the sample run conditions along with the instrument setup has been described in detail in our previous reports by Shaikh et al. and Mariam et al. [ 37 , 46 ]. Sample peaks were identified and aligned using the NIST library based on retention time and mass spectral similarity (those hits with R value > 750 were only selected in the study). Further, the final analysis was performed and visualized using MetaboAnalyst 4.0 ( https://www.metaboanalyst.ca , accessed on 10 February 2022).
+L37: 2.9. Statistical Analysis
+L38: All the experiments were carried out in biological triplicates and are represented as mean average ± SE. Statistical analysis such as two-way Analysis of Variance (ANOVA) with significance of  p -values < 0.05 and  post hoc  analysis by Tukey’s honestly significant difference (HSD) using agricole package (version 1.3-5).
+L39: 3. Results
+L40: 3.1. Effect of Carbon Supplementation with Varying Nitrate Concentrations on Their Growth Profiles in the Native Isolate Monoraphidium sp. CABeR41
+L41: The biomass yields (in g·L −1 ) of the native isolate  Monoraphidium  sp. CABeR41 supplemented with CO 2  i.e., VLC [0.03% ( v / v ) CO 2  or 300 ppm] and HC [3.0% ( v / v ) CO 2  or 30,000 ppm] in presence of varying nitrate concentrations [nitrogen replete (NR)—1.5 g·L −1  of NaNO 3 ; nitrogen limited (NL)—0.5 g·L −1  of NaNO 3 ; and nitrogen deplete (ND)—0.0 g·L −1  of NaNO 3 , respectively] is shown in  Figure 1  along with nitrate consumption (g·L −1 ) in inset. Our data analysis demonstrates that the biomass productivity of NR HC  supplemented cells was significantly higher ( p -value < 0.05) (336.35 mg·L −1  d −1 ), i.e., increased by 4.9-fold with doubling time of 1.60 days than the control (NR VLC —56.93 mg·L −1  d −1  and doubling time of 2.82 days). Similar productivities were observed even in NL Hc  supplemented cells (i.e., 316.63 mg·L −1  d −1  with doubling time of 1.54 days) ( p -value < 0.05) as on the 10th day of cultivation ( Table 1 ). However, in case of ND HC  supplemented cells, the growth was severely hampered (with biomass productivities of 48.19 mg·L −1  d −1  and doubling time of 6.50 days). In such context, we hypothesize that the presence of additional carbon is diverting the flux towards the cell biomass, i.e., growth along with other biocommodities.
+L42: Cellular growth is usually defined by the functioning of organelles such as chloroplast, the photosynthetic apparatus of green cell factories, known to be the primary physiological indicators to illustrate the cell’s perturbation under different environmental conditions [ 47 ]. To evaluate the efficiency of photosynthetic apparatus, we have analyzed the PSII reaction centres by measuring the chlorophyll  a  fluorescence.  Table 1  represents all the PSII activities when subjected to NR VLC , NL VLC , ND VLC , NR HC , NL HC , and ND HC  conditions in the native isolate  Monoraphidium  sp. CABeR41. Investigating chlorophyll ‘ a ’ fluorescence is a quick and simple indicator to measure stress response in microalgae. Further, the kinetics of chlorophyll fluorescence is useful for monitoring changes in the donor and acceptor sides of PSII reaction centers [ 48 ]. As indicated in  Table 1 , the maximum quantum efficiency of photosystem II ( F v / F m ) in NR HC  remained higher at 0.8 on the 10th day of cultivation, which represents intact photoreaction centers and quinone pools that seems to be having better photochemical efficiency in comparison with all other conditions ( Figure S1A,D ). Moreover, the ETRII represents the rate of non-cyclic electron transfer in the PSII, which was also higher in NR HC . However, the NL HC  cells recorded ( F v / F m ) 0.7 until the eighth day but a slight decrease was observed at 0.65 on the 10th day, and this may be due to the non-availability of nitrate in medium ( Figure S1D ), whereas in the ND HC  condition,  F v / F m  was drastically reduced to 0.24, demonstrating cellular stress with probable damage in the reaction centres ( Figure S1D ). Also, we could not measure photosynthetic activity on the 10th day in the ND HC  condition due to complete chlorosis of the cells.
+L43: 3.2. Changes in Biochemical Profiles under the Influence of Carbon Supplementation with Varying Nitrate Concentrations
+L44: To understand the effect of carbon supplementation with varying nitrate concentrations in the microalgae  Monoraphidium  sp., we measured the biochemical constituents such as total proteins, total carbohydrates, and total lipids in a time-course experiment for 10 days ( Figure S2A–F ).  Table 2  illustrates the changes in the biochemical profiles of all the macromolecules on the 10th day of cultivation. In the present study, the total protein productivity (197.88 ± 6.5 mg·L −1  d −1 ) seems to be highest in NR HC  supplemented cells whereas productivities of total carbohydrates (87.12 ± 7.0 mg·L −1  d −1 ) and total lipids (76.12 ± 13.4 mg·L −1  d −1 ) are highest in NL HC  supplemented cells ( Table 2 ), indicating the presence of additional carbon is resulting in diversion of carbon flux towards the enrichment of cellular macromolecules. Also, in the ND HC  supplemented cells ( Figure S2E,F ), the significant increase in the yields of total carbohydrates and total lipids on the 10th day of cultivation is a clear indicator of the stress response in the microalgae and also assumes that the carbon flux is diverting towards these macromolecules with severe compromise in the cellular growth.
+L45: 3.3. Visualization of Lipid Droplets by BODIPY Staining
+L46: BODIPY 505/515, a lipophilic bright green fluorescent dye (with several advantages like higher cofficient of molar extraction, strong photochemical ability, and more resistance to photobleaching) has been used to detect intracellular lipids in  Monoraphidium  sp. CABeR41 ( Figure 2 A). Cells grown in ND HC  condition were highly stained, showing the presence of multiple and larger lipid droplets than the other conditions. Also, we have measured the relative fluorescence intensity of the total lipids in the NR VLC , NL VLC , ND VLC , NR HC , NL HC , and ND HC  conditions on the 10th day of cultivation to illustrate the changes occurring within the cells ( Figure 2 B).
+L47: 3.4. Imaging of Superoxide Anion Acitivity Employing Scanning Microscopy
+L48: The dihydroxy ethidium (DHE) fluorescent probes were used to visualise free radical (O 2 − ) formation. In this reaction, the DHE (low fluorescent) will be first oxidised to DHEox (high fluorescent) in the presence of O 2 −  radical and the fluorescence was measured employing confocal laser scanning microscopy. During the non-cyclic electron transport chain (ETC), superoxide radical (O 2 − ) is formed primarily in the thylakoid-localized PSII, as well as other cellular compartments. Then the superoxide radical (O 2 − ) initiates lipid peroxidation chain reactions, which eventually destroy the chloroplast membrane integrity and cause cell death during the stress phenomenon. In the  Figure 3 A,B, the ND HC  supplemeted cells demostrated higher DHEox fluorescence followed by ND VLC  supplemented cells, which is due to drastic decrease in the quantum efficiency of photosystem II (Fv/Fm) along with the total chlorophyll content ( Table 1 ).
+L49: 3.5. Quantification of Tocopherols and Carotenoids in the Native Isolate Monoraphidium sp. Subjected to Carbon Supplementation with Varying Nitrate Concentrations
+L50: Tocopherols are the highly active form of antioxidant molecules involved in interacting with polyunsaturated acyl groups, scavenging of lipid peroxyl radicals, and quenching reactive oxygen species (ROS), thus protecting fatty acids from lipid peroxidation during the stress phenomenon. In the present study, we have quantified two major isoforms of tocopherols in the native isolate  Monoraphidium  sp. CABeR41 subjected to carbon supplementation with varying nitrate concentrations, namely α- and δ-tocopherols.  Table 3  demonstrates the significant changes in the total tocopherol productivities observed in NR HC  and NL HC  supplemented cells than the other conditions on the 10th day of cultivation. Also,  Figure S3A–F  shows the time-course experiment in the presence of carbon supplementation with varying nitrate concentrations for 10 days. Our data analysis illsutrates that the NL HC  supplemented cells resulted in enhancement of 4.06-fold and 8.15-fold in α-tocopherol (244.73 ± 7.44 µg·L −1  d −1 ) and δ-tocopherol (489.65 ± 4.53 µg·L −1  d −1 ) productivities, respectively, with the total tocopherol productivity at 734.38 ± 11.79 µg·L −1  d −1  ( Table 3 ,  Figure S3A–F ). A drastic increase in total tocopherol yields (2743.03 ± 7.21 µg·L −1  d −1 ) was observed in ND HC  supplemented cells but with impairment of the growth, the overall productivity was decreased.
+L51: The quantification of individual carotenoids were estimated when subjected with carbon supplementation with varying nitrate concentrations the native isolate  Monoraphidium  sp. Our data analysis ( Table 4 ) illustrates that NR HC  supplemented cells resulted in nearly 0.8-fold increase in total carotenoid yields (2.67 ± 0.15 mg·g −1  DCW) in comparison with the NR VLC  supplemented cells (1.54 ± 0.08 mg·g −1  DCW). However, the primary carotenoids such as α-carotene and β-carotene yields improved in NR HC  condition along with a significant increase in zeaxanthin content (1.43 ± 0.07 mg·g −1  DCW) ( Table 4 ) and the time-course quantitative analysis of all the carotenoids for 10 days is represented in the supplementary information ( Figure S4A–L ).
+L52: 3.6. Analysis of Total Antioxidant Activity
+L53: The estimation of antioxidant efficiency was performed employing three different methods such as DPPH, TAC, and FRAP assays.  Table 5  summarizes the overall activities of these antioxidant assays on the 10th day of cultivation subjected to carbon supplementation with varying nitrate concentrations and also the time-course patterns for 10 days in  Monoraphidium  sp. are illustrated as  Figure S5A–F . Our analysis predicts efficient activity was observed in NR HC  condition followed by NL HC  and other carbon supplemented cells ( Figure S5A–F ).
+L54: 3.7. Qualitative (Untargeted) Metabolomics
+L55: Figure 4 A,B and  Figure 5 , unveil the metabolomic changes occuring in the native isolate  Monoraphidium  sp. CABeR41 subjected to carbon supplementation with varying nitrate concentrations. In the present study, we have observed that the significant increase in biomass was accompanied by enhanced of other commodities such as total tocopherols and total lipids in NL HC  supplemented cells which was further subjected to untargeted metabolomics to evaluate the changes resulting in these algal cell factories that will provide new insights for production of industrially relevant molecules such as tocopherols. A total of number of nearly 50 metabolites were analyzed by gas chromtography-mass spectrometry (GC-MS) after filtering the raw data which includes major metabolites namely amino acids, sugars, organic acids, fatty acids, alcohols, antioxidants, and sterols.
+L56: Heat map, VIP score, and dot-plot graphs illustrate the overall changes in the metabolome profiles in the NL HC  in comparsion with other conditions ( Figure 4 A,B and  Figure 5 ). A decrease in the relative abundance of amino acids was observed in NL HC  condition such as L-alanine, glycine, L-aspartic acid, and L-proline. Whereas, the metabolites like glutamic acid, GABA, trehalose, mannose, and  myo -inositol were significantly upregulated. Simple sugars, i.e., glucose and galactose, remained unaffected, while sucrose was significantly downregulated. A significant decrease in lactic acid and acetic acid was also observed. Moreover, tricarboxylic acid cycle (TCA) metabolites like malic and fumaric acid are increased, while succinic acid and 2-ketoglutaric acid were decreased. Further, fatty acids like palmitoleic acid, α-linolenic acid, linoleic acid, and steric acid were increased significantly in NL HC  supplemented cells. In addition, the other essential metabolites namely phytol and tocopherols were also found to be upregulated ( Figure 4 A,B and  Figure 5 ). Also, in the  Figure S6  the linear regression analysis depicting the co-relation between total lipids vs. total tocopherols in native isolate  Monoraphidium  sp. was illustrated in (A) ND HC  and (B) NL HC .
+L57: 4. Discussion
+L58: It is now widely acknowledged that high-value added biorenewables accumulation in microalgae cannot occur without efficient carbon conversion within these major carbon sinks [ 49 ]. Harnessing cultivation conditions, efficient utilization of micro- and macronutrients is considered as an useful approach for the production value added bioproducts. Further, based on the specific strain, biomass productivities can be higher with an adequate supply of nutrients such as C, N, P, S, light and CO 2 , but content of lipids and HVABs appears to be lower than expected [ 50 , 51 , 52 ]. Moreover, there is always metabolic conflict between biomass and storage molecule assimilation during stress, which limits and directs carbon flux either towards biomass accumulation and/or towards lipid and carbohydrate biosynthesis, as a consequence of which one of the components is drastically decreased [ 53 ]. Additionally, the integrating of lipid biosynthesis with HVAB yields (i.e., tocopherols, carotenoids etc.) will provide significant additional revenue as a cost-effective recurring bonus for the algal biorefineries.
+L59: In the present work, growth and cellular physiology of fresh water microalgae  Monoraphidium  sp. CABeR41 was examined in very low carbon [VLC; 0.03% ( v / v ) CO 2 ] and high carbon [HC; 3% ( v / v ) CO 2 ] subjected to varying nitrate concentrations as nitrogen replete (NR; 1.5 g·L −1  of NaNO 3 ), nitrogen limited (NL; 0.5 g·L −1  of NaNO 3 ) and nitrate deplete (ND; 0.0 g·L −1  of NaNO 3 ). The biomass productivity of 3%CO 2  (NR HC ) supplemented cells was significantly higher (336.35 mg·L −1  d −1 ) with reduced doubling time (1.60 days) compared to the control (NR VLC ) on the 10th day of cultivation ( Table 1 ). Similarly, NL HC  supplemented cells demonstrated higher biomass productivity (316.63 mg·L −1  d −1 ) with reduced doubling time (1.54 days). Despite having 0.5 g·L −1  of the nitrate than the NR HC , the NL HC  displayed no apparent phenotypic changes under 3% CO 2  ( v / v ), showing that high CO 2  supplementation acts as a major contributor in the growth enhancement. Studies in  Chlorella saccharophila  and  Microchloropsis gaditana  also demonstrated that the growth was significantly elevated in 3% CO 2  supplementation with reduced doubling times [ 32 , 54 ]. Moreover, the growth arrest was observed in the ND HC  supplemented cells with lower biomass productivities of 48.19 mg·L −1  d −1 . Further, significant increase in lipid content was observed in ND HC  & ND VLC  supplemented cells ( Table 2 ), which was shown by BODIPY staining ( Figure 2 A,B). This might be attributed to the fact that under nitrogen deficiency, the carbon dioxide fixed is diverting its flux into carbohydrates and/or lipids rather than proteins owing to nitrogen deficiency [ 55 ]. Another possible reason is that during nitrogen stress, NADPH consumption decreases owing to lack of nitrogen, which inhibits the amino acid biosynthesis, notably the conversion from α-ketoglutarate to glutamate, which results in excess of NADPH within the cells [ 56 ]. Also, our data analysis showed a significant increase in carbohydrates and lipid productivities (8.7 and 6.3-fold increase) in NL HC  condition. Increase in carbohydrate and lipid productivities under NL HC  condition seems to be advantageous indicator for the native isolate  Monoraphidium  sp. CABeR41 as an ideal candidate for CO 2  sequestration and simultaneous production of energy molecules [ 57 ].
+L60: The activation of assimilatory pigments, which is centralized by the light gathering antenna complex, is the first committed step in photosynthesis which enables higher rate of CO 2  uptake and biomass concentration [ 58 ]. As shown in  Table 1 , NR HC  supplemented cells depicted increase in total chlorophyll content accompanied by an increase in  F v / F m ,  F q ′ / F m ′ , and ETRII. Moreover, higher  F v / F m  ratio is commonly regarded as increased photosynthetic efficacy, whereas a lower ratio implies PSII photoinhibition [ 59 ]. Similar results were reported in  M. gaditana  and  Botryococcus braunii  subjected to 3% CO 2  supplementation showed increased in the total chlorophyll content and  F v / F m  ratio [ 32 , 60 ]. Further, drastic decrease was found in total chlorophyll, along with reduced ( F v / F m ) and ETRII in ND HC  condition demonstrating cellular stress and damaged reaction centres, thus depicting drastic decline in photosynthetic activity. Zao et al. [ 61 ] reported similar results in the  Porphyridium cruentum  subjected to nitrogen deplete condition where the photochemical efficiency of PSII decreased along with photoinhibition, indicating the phenomenon of nutrient stress. Further, NL HC  supplemented cells depicted slight decrease in ( F v / F m ) and ETRII due to non-availability of nitrate in medium on the 10th day of cultivation ( Figure 1 ).
+L61: Furthermore, the DHE fluorescent probes were used to visualize superoxide (O 2 − ) formation, which is a major damaging ROS in green photosynthetic organisms [ 62 ]. ND HC  supplemented cells demonstrate higher DHEox fluorescence followed by ND VLC  and NL HC  conditions, suggesting higher accumulation of ROS radicals ( Figure 3 A,B). Additionally, only trace amounts of superoxide were accumulated in NR VLC  and NR HC , depicting lower oxidative stress. Reactive oxygen species (O 2 − ) are produced in the thylakoid membrane when the absorption of light by chlorophylls exceeds the capacity for energy consumption by photosynthetic apparatus. They play a key role in cell defense, cell signaling, and apoptosis [ 63 ]. However, the over accumulation may cause oxidative damage to cellular components i.e., proteins, lipids, and nucleic acids. Moreover, to prevent the harmful effects of ROS, antioxidant defense system like tocopherols and carotenoids play an significant role in scavenging these free radicals [ 64 ]. Similarly, ND HC  give rise to the highest level of total tocopherol content (2743.03 ± 7.21 µg.g −1  DCW) followed by NL HC  (1879.38 ± 137.51 µg.g −1  DCW) and ND VLC  (1393.16 ± 32.2 µg.g −1  DCW) conditions, respectively.
+L62: Our results show higher total tocopherol productivity in NL HC  (734.38 ± 11.79 µg. L −1  d −1 ) without compromising growth. Studies has demonstrated that the tocopherols help in protecting the oxidative modification of D1 protein in  Arabidopsis  sp. Further, the tocopherol-deficient mutant ( vte1 ) D1 protein was modified to either tyrosine hydroperoxide or dihydroxyphenylalanine, suggesting the role of tocopherols in protecting PSII from oxidative damage [ 39 , 65 ]. Moreover, tocopherols compensate for the loss of xanthophyll cycle pigments (zeaxanthin), exhibiting overlapping function during the photooxidative stress [ 14 ] and the  npq1  mutant of  A. thaliana , accumulates more α-tocopherol in early leaves when exposed to high light [ 15 ]. Increased zeaxanthin in  Arabidopsis vte1  mutant, which is tocopherol-deficient, suggests their functional interaction against lipid peroxidation and photooxidative stress [ 16 ]. Interestingly, we found similar findings in the stress conditions like ND VLC , ND HC , and NL HC  conditions wherein decrease of zeaxanthin content was observed with improved total tocopherol yields. Moreover, total antioxidant activity estimated by TAC, FRAP, and DPPH assays showed higher antioxidant efficiency in NR HC  followed by NL HC  and NR VLC  conditions, respectively ( Table 5 ). Further, N-limitation decreased the total antioxidant activity in  Phaeodactylum tricornutum ,  Tetraselmis suecica  and  C. vulgaris  suggesting the synergistic effect of different antioxidants to enhance the overall antioxidant activity within the cells [ 66 ].
+L63: In addition, both total tocopherols and lipids are induced to accumulate under stress conditions like ND HC  and NL HC  in  Monoraphidium  sp. CABeR41. Specifically, to depict the corelation between these two varaiables from different time points in the specific condition, a linear regression model with  R 2  > 0.90 ( Figure S6A,B ) was observed. Similar reports were illustrated by Chen et al. [ 67 ] and Liu et al. [ 68 ] depicting relationship between astaxanthin and lipid biosynthesis in  Haematococcus pluvialis  and  C. zofingiensis.  Qualitative (untargeted) metabolomics was done to identify molecular changes in the  Monoraphidium  sp. CABeR41 in excess carbon and nitrogen limitation conditions, utilizing a feedbackward omics approach to elucidate metabolic pathways involved in tocopherol biosynthesis. A total number of nearly 50 metabolites were analyzed and normalized with ribitol as an internal standard [ 69 , 70 ].
+L64: In NL HC  condition, the metabolites such as glycine was downregulated than the NR VLC  cells, which depicts lower photorespiration activity in presence of 3% CO 2  ( v / v ) supplementation. Glycine is components of the photorespiratory glycolate cycle in algae, and its overexpression is used to assess photorespiratory activity [ 71 ]. Competition between O 2  and CO 2  depicts the rate of carbon absorption, photosynthetic efficiency along with reduced quotient and net photosynthesis [ 72 ]. In addition, sugar molecules derived from polysaccharide breakdown are often, increased in nutrient limiting conditions, indicating a reduction in stored carbohydrates to supply a carbon skeleton for vital metabolic processes. Two metabolites, trehalose (1.5-fold) and mannose (3.47-fold) were shown to be elevated under NL HC  condition. Trehalose, a non-reducing disaccharide, recognized to be a stabilizing agent for membranes stability from damage aids in the preservation of cellular integrity [ 69 ]. Moreover, the accumulation of mannose acts as ROS scavenger during the initial oxidative stress [ 73 ]. Further, an increase in mannose has been observed through the breakdown of polysaccharides and glycoproteins in  Isochrysis galbana  during nutrient limited condition [ 74 ]. Glutamic acid, an amino acid was also found to upregulate and considered as a vital intermediate for protein synthesis [ 75 , 76 , 77 ]. It has been reported that glutamic acid accumulates in  P. tricornutum  and  Isochrysis zhangjiangensis  during early stages of nitrogen deficiency, ensuring nitrate assimilation, and providing required nitrogen for protein synthesis [ 78 , 79 ].
+L65: Also, significant increase in gamma-aminobutyric acid (GABA) (2.75-fold), a glutamate derivative was observed in the NL HC  supplemented cells. GABA, a non-protein amino acid, quickly accumulates in photosynthetic organisms in response to biotic and abiotic stress and governs endogenous signaling and cell development [ 80 ]. Increases in glutamate during the early stages of culture under nitrogen limitation may indicate amino acid catabolism, which may be converted to GABA by a decarboxylase process, resulting in nitrogen storage in the form of GABA. These findings suggest that under NL HC  conditions, protein and amino acid accumulation was triggered in order to maintain crucial metabolic activities for fast development. Interestingly, another metabolites  myo -inositol was upregulated (1.41-fold) in NL HC  condition, an important component of structural lipids, serves as a phosphate reserve and involved in cell development [ 81 ]. An exogenous supply of  myo -inositol (500 mg L −1 ) to  Dunaliella salina  increased biomass up to 1.34-fold with a rise in lipid productivity and similar comparable results were also reported in  Monoraphidium  sp. QLY-1 [ 82 , 83 ].
+L66: Meanwhile, malic acid an intermediate in tricarboxylic acid (TCA) cycle, was also significantly upregulated (1.24-fold), which catalyzes the oxidative decarboxylation of malate to pyruvate by converting NADP to NADPH, thus providing a supply of NADPH for fatty acid biosynthesis [ 84 ]. In a recent study, exogenous malic acid supplementation enhanced DHA by 47% in  Schizochytrium  sp. B4D1 [ 85 ]. Also, the biochemical profiles of  Monoraphidium  sp. CABeR41, revealed that lipid synthesis rises in NL HC , which strongly co-related with our metabolomic profiling. Another TCA cycle intermediate, fumaric acid was found to be upregulated (6.15-fold), involved in decarboxylation of metabolites acting as carbon sink similar to starch which metabolizes to release energy and carbon skeleton for the production of other compounds [ 86 , 87 ]. A study on  pgm1  mutant of  Arabidopsis  sp. which lacks starch, accumulated more fumarate which appears to act as both a transient carbon sink for photosynthate and a pH regulator in nitrate absorption [ 88 ]. Therefore, the upregulation of TCA processes may imply towards increased availability of carbon skeletons and reducing power for fatty acids and HVAB biosynthesis [ 89 ].
+L67: Moreover, downregulation of lactic acid (1.06-fold) signifies the shift of carbon flux towards HVABs. The phenomenon is also supported by elevated tocopherol by nearly 3.25-folds in NL HC  supplemented cells. Tocopherols are synthesized by the combination of two major pathways: the MEP (methylerytrithol phosphate pathway) route and the shikimate pathway. The primary structure of tocopherol incorporates polar chromanol head group attached with hydrophobic prenyl side chain synthesized from the farnesyl diphosphate (FPP). The chromanol ring is provided by the shikimate route, whereas the hydrophobic prenyl tail is provided by the MEP pathway [ 90 , 91 ]. Moreover, it competes with carotenoid and squalene biosynthesis in the MEP route because of same precursor, FPP ( Figure 6 ). Our data analysis depicts that total carotenoids as well as squalene accumulation was downregulated in NL HC , thus specifying the carbon flux towards tocopherol biosynthesis. Apart from de novo synthesis, tocopherols are synthesized from chlorophyll degradation, where released free phytol is phosphorylated to phytylmonophosphate (phytyl-P) and phytyl-PP by phytol kinase (VTE5) and is fed into biosynthesis of tocopherols, resulting in upregulation of tocopherol during cellular stress [ 92 ]. Thus, our schematic representing in  Figure 6 , depicts a crosstalk between essential metabolites such as glycine, threlose, mannose, malic acid, fumaric acid, GABA, and phytol for concomitant increase of biomass with other biocommodities, namely lipids and tocopherols, in the native isolate  Monoraphidium  sp. CABeR41.
+L68: 5. Conclusions
+L69: In conclusion, the new indigenous microalgae  Monoraphidium  sp. CABeR41 when subjected to NL HC  condition demonstrates a concomitant increase in cell biomass (316.63 ± 15.47 mg·L −1  d −1 ), total lipids (76.12 ± 13.39 mg·L −1  d −1 ) and total tocopherols (734.38 ± 11.79 µg L −1  d −1 ), respectively. Furthermore, such stratergy demonstrates the cost-effective method for accumulating increased levels of total tocopherols and lipids employing carbon supplementation with varying nitrate concentrations leading to multi-fold enhancement of biocommodities without compromising growth. Also, illustrates the relevance of carbon and nitrogen (C:N) ratio which plays a significant role in achieving higher biomass productivities. In near future, our focus is to employ multi-omics approach to unveil the regulatory metabolic pathways involved in the tocopherol biosynthesis in these photosynthetic cell factories. Perhaps the study is a pivotal laboratory model for scale-up using cost-effective substrates. Such an approach will aim towards fulfilment of sustainable development goals (SDGs) involved in the innovation and cost-effective industrial algal biorefineries providing a better sustainability process with biorenewables, paving a new perspective for the improvement of the bioeconomy.
+L70: Figure 1 Line diagram indicating biomass yields (in g·L −1 ) of the native isolate  Monoraphidium  sp. CABeR41 subjected to NR VLC , NL VLC , ND VLC , NR HC , NL HC , and ND HC  conditions with nitrate consumption rates (represented as inset in g·L −1 ). Values are the mean average ( n  = 3) ± S.E.; different lowercase letters indicate the statistical significance by two-way ANOVA with  p -value < 0.05 using  post hoc  analysis by Tukey’s honestly significant difference (HSD).
+L71: Figure 2 ( A ) BODIPY visualization of  Monoraphidium  cells on the 10th day of cultivation subjected to ( a ) NR VLC ; ( b ) NL VLC ; ( c ) ND VLC ; ( d ) NR HC ; ( e ) NL HC ; ( f ) ND HC  conditions using confocal microscopy. ( B ) Relative fluorescence intensity of the stained cells on the 10th day of cultivation in the NR VLC , NL VLC , ND VLC , NR HC , NL HC , and ND HC  conditions. Values indicated are mean average ( n  = 3) ± S.E.; different lowercase letters indicate the statistical significance by two-way ANOVA with  p -value < 0.05 using  post hoc  analysis by Tukey’s honestly significant difference (HSD).
+L72: Figure 3 ( A ) Imaging of the Superoxide anion radical activity in the native isolate  Monoraphidium  sp. CABeR41 on the 10th day of cultivation by laser confocal scanning microscopy with an excitation wavelength of 520 nm and emission wavelength of 570 nm subjected to ( a ) NR VLC ; ( b ) NL VLC ; ( c ) ND VLC ; ( d ) NR HC ; ( e ) NL HC ; ( f ) ND HC  conditions using DHE staining. ( B ) Relative fluorescence intensity of the DHE stained cells on the 10th day of cultivation in the NR VLC , NL VLC , ND VLC , NR HC , NL HC , and ND HC  conditions. Values indicated are mean average ( n  = 3) ± S.E.; different lowercase letters indicate the statistical significance by two-way ANOVA with  p -value < 0.05 using  post hoc  analysis by Tukey’s honestly significant difference (HSD).
+L73: Figure 4 ( A ) Heat map depicting the time-course qualitative (untargeted) metabolomics on the 4th and 8th days of the native isolate  Monoraphidium  sp. CABeR41 subjected to NR VLC  and NL HC  conditions. ( B ) Variable Importance in Projection (VIP) score plot representing the significant metabolites subjected to NR VLC  and NL HC  conditions.
+L74: Figure 5 Dot-plot representing metabolites upregulated and downregulated in the native isolate  Monoraphidium  sp. CABeR41 subjected to NR VLC  vs. NL HC  conditions on the 8th day of cultivation with a summary of table representing the identified metabolites (pink dots represent the metabolites that show >log 2-fold change and grey dots represents the one that show <log 2-fold change).
+L75: Figure 6 Schematic representation of essential pathways and their metabolites involved in the multi-fold enhancement of tocopherol yields in the native isolate  Monoraphidium  sp. CABeR41 subjected to effect of high CO 2  supplementation and nitrate limitation (NL HC ) condition. Upregulation represented in the red colour (↑); downregulation represented in the blue colour (↓).
+L76: Click here for additional data file.
+L77: 1. Cheng J. 
+L78:  Zhu Y. 
+L79:  Zhang Z. 
+L80:  Yang W. 
+L81:  Modification and improvement of microalgae strains for strengthening CO 2  fixation from coal-fired flue gas in power plants Bioresour. Technol. 2019 291 121850 10.1016/j.biortech.2019.121850 31358426
+L82: 2. Breuer G. 
+L83:  Lamers P.P. 
+L84:  Martens D.E. 
+L85:  Draaisma R.B. 
+L86:  Wijffels R.H. 
+L87:  The impact of nitrogen starvation on the dynamics of triacylglycerol accumulation in nine microalgae strains Bioresour. Technol. 2012 124 217 226 10.1016/j.biortech.2012.08.003 22995162
+L88: 3. Markou G. 
+L89:  Georgakakis D. 
+L90:  Cultivation of filamentous cyanobacteria (blue-green algae) in agro-industrial wastes and wastewaters: A review Appl. Energy 2011 88 3389 3401 10.1016/j.apenergy.2010.12.042
+L91: 4. Rawat I. 
+L92:  Ranjith Kumar R. 
+L93:  Mutanda T. 
+L94:  Bux F. 
+L95:  Dual role of microalgae: Phycoremediation of domestic wastewater and biomass production for sustainable biofuels production Appl. Energy 2011 88 3411 3424 10.1016/j.apenergy.2010.11.025
+L96: 5. Wu M. 
+L97:  Gao G. 
+L98:  Jian Y. 
+L99:  Xu J. 
+L100:  High CO 2  increases lipid and polyunsaturated fatty acid productivity of the marine diatom  Skeletonema costatum  in a two-stage model J. Appl. Phycol. 2022 34 43 50 10.1007/s10811-021-02619-5
+L101: 6. Pospíšil P. 
+L102:  Molecular mechanisms of production and scavenging of reactive oxygen species by photosystem II Biochim. Biophys. Acta-Bioenergy 2012 1817 218 231 10.1016/j.bbabio.2011.05.017
+L103: 7. Fischer B.B. 
+L104:  Hideg É. 
+L105:  Krieger-Liszkay A. 
+L106:  Production, detection, and signaling of singlet oxygen in photosynthetic organisms Antioxid. Redox Signal. 2013 18 2145 2162 10.1089/ars.2012.5124 23320833
+L107: 8. Kumari P. 
+L108:  Cna’ani A. 
+L109:  Didi-Cohen S. 
+L110:  Tzin V. 
+L111:  Khozin-Goldberg I. 
+L112:  Nitrogen deprivation-induced production of volatile organic compounds in the arachidonic-acid-accumulating microalga  Lobosphaera incisa  underpins their role as ros scavengers and chemical messengers Front. Mar. Sci. 2020 7 410 10.3389/fmars.2020.00410
+L113: 9. Sun H. 
+L114:  Ren Y. 
+L115:  Mao X. 
+L116:  Li X. 
+L117:  Zhang H. 
+L118:  Lao Y. 
+L119:  Chen F. 
+L120:  Harnessing C/N balance of  Chromochloris zofingiensis  to overcome the potential conflict in microalgal production Commun. Biol. 2020 3 186 10.1038/s42003-020-0900-x 32327698
+L121: 10. Niyogi K.K. 
+L122:  Photoprotection revisited: Genetic and molecular approaches Annu. Rev. Plant Physiol. Plant Mol. Biol. 1999 50 333 359 10.1146/annurev.arplant.50.1.333 15012213
+L123: 11. Rossel J.B. 
+L124:  Wilson I.W. 
+L125:  Pogson B.J. 
+L126:  Global changes in gene expression in response to high light in  Arabidopsis Plant Physiol. 2002 130 1109 1120 10.1104/pp.005595 12427978
+L127: 12. Müller-Moulé P. 
+L128:  Havaux M. 
+L129:  Niyogi K.K. 
+L130:  Zeaxanthin deficiency enhances the high light sensitivity of an ascorbate-deficient mutant of  Arabidopsis Plant Physiol. 2003 133 748 760 10.1104/pp.103.026252 12972657
+L131: 13. Dörmann P. 
+L132:  Functional diversity of tocochromanols in plants Planta 2007 225 269 276 10.1007/s00425-006-0438-2 17115182
+L133: 14. Li Z. 
+L134:  Keasling J.D. 
+L135:  Niyogi K.K. 
+L136:  Overlapping photoprotective function of vitamin e and carotenoids in  Chlamydomonas Plant Physiol. 2011 158 313 323 10.1104/pp.111.181230 22080601
+L137: 15. Havaux M. 
+L138:  Bonfils J.P. 
+L139:  Lütz C. 
+L140:  Niyogi K.K. 
+L141:  Photodamage of the photosynthetic apparatus and its dependence on the leaf developmental stage in the npq1  Arabidopsis  mutant deficient in the xanthophyll cycle enzyme violaxanthin de-epoxidase Plant Physiol. 2000 124 273 284 10.1104/pp.124.1.273 10982442
+L142: 16. Havaux M. 
+L143:  Eymery F.O. 
+L144:  Porfirova S. 
+L145:  Rey P. 
+L146:  Dörmann P. 
+L147:  Vitamin E protects against photoinhibition and photooxidative stress in  Arabidopsis thaliana Plant Cell 2005 17 3451 3469 10.1105/tpc.105.037036 16258032
+L148: 17. Srinivasan A. 
+L149:  Vijayakumar S. 
+L150:  Raman K. 
+L151:  Srivastava S. 
+L152:  Rational metabolic engineering for enhanced alpha-tocopherol production in  Helianthus annuus  cell culture Biochem. Eng. J. 2019 151 107256 10.1016/j.bej.2019.107256
+L153: 18. Lall S.P. 
+L154:  Lewis-McCrea L.M. 
+L155:  Role of nutrients in skeletal metabolism and pathology in fish—An overview Aquaculture 2007 267 3 19 10.1016/j.aquaculture.2007.02.053
+L156: 19. Brigelius-Flohé R. 
+L157:  Bioactivity of vitamin E Nutr. Res. Rev. 2006 19 174 186 10.1017/S0954422407202938 19079884
+L158: 20. Shintani D. 
+L159:  DellaPenna D. 
+L160:  Elevating the vitamin E content of plants through metabolic engineering Science 1998 282 2098 2100 10.1126/science.282.5396.2098 9851934
+L161: 21. Velasco L. 
+L162:  Fernández-Martínez J. 
+L163:  Garcia-Ruiz R. 
+L164:  Genetic and environmental variation for tocopherol content and composition in sunflower commercial hybrids J. Agric. Sci. 2002 139 425 429 10.1017/S0021859602002678
+L165: 22. Hassapidou M.N. 
+L166:  Balatsouras G.D. 
+L167:  Manoukas A.G. 
+L168:  Effect of processing upon the tocopherol and tocotrienol composition of table olives Food Chem. 1994 50 111 114 10.1016/0308-8146(94)90105-8
+L169: 23. Scherder C.W. 
+L170:  Fehr W.R. 
+L171:  Welke G.A. 
+L172:  Wang T. 
+L173:  Tocopherol content and agronomic performance of soybean lines with reduced palmitate Crop Sci. 2006 46 1286 1290 10.2135/cropsci2005.07-0227
+L174: 24. Durmaz Y. 
+L175:  Vitamin E (α-tocopherol) production by the marine microalgae  Nannochloropsis oculata  (Eustigmatophyceae) in nitrogen limitation Aquaculture 2007 272 717 722 10.1016/j.aquaculture.2007.07.213
+L176: 25. Ogbonna J.C. 
+L177:  Tomiyamal S. 
+L178:  Tanaka H. 
+L179:  Heterotrophic cultivation of  Euglena gracilis  Z for efficient production of α-tocopherol J. Appl. Phycol. 1998 10 67 74 10.1023/A:1008011201437
+L180: 26. Galasso C. 
+L181:  Gentile A. 
+L182:  Orefice I. 
+L183:  Ianora A. 
+L184:  Bruno A. 
+L185:  Noonan D.M. 
+L186:  Sansone C. 
+L187:  Albini A. 
+L188:  Brunet C. 
+L189:  Microalgal derivatives as potential nutraceutical and food supplements for human health: A focus on cancer prevention and interception Nutrients 2019 11 1226 10.3390/nu11061226
+L190: 27. Mudimu O. 
+L191:  Rybalka N. 
+L192:  Bauersachs T. 
+L193:  Friedl T. 
+L194:  Schulz R. 
+L195:  Influence of different CO 2  concentrations on microalgae growth, α-tocopherol content and fatty acid composition Geomicrobiol. J. 2015 32 291 303 10.1080/01490451.2014.889784
+L196: 28. Fujita T. 
+L197:  Aoyagi H. 
+L198:  Ogbonna J.C. 
+L199:  Tanaka H. 
+L200:  Effect of mixed organic substrate on alpha-tocopherol production by  Euglena gracilis  in photoheterotrophic culture Appl. Microbiol. Biotechnol. 2008 79 371 378 10.1007/s00253-008-1443-0 18389233
+L201: 29. Afiukwa C. 
+L202:  Ogbonna J. 
+L203:  Effects of mixed substrates on growth and vitamin production by  Euglena gracilis Afr. J. Biotechnol. 2007 6 2612 2615 10.5897/AJB2007.000-2417
+L204: 30. Mudimu O. 
+L205:  Koopmann I.K. 
+L206:  Rybalka N. 
+L207:  Friedl T. 
+L208:  Schulz R. 
+L209:  Bilger W. 
+L210:  Screening of microalgae and cyanobacteria strains for α-tocopherol content at different growth phases and the influence of nitrate reduction on α-tocopherol production J. Appl. Phycol. 2017 29 2867 2875 10.1007/s10811-017-1188-1
+L211: 31. Moheimani N.R. 
+L212:  Borowitzka M.A. 
+L213:  Isdepsky A. 
+L214:  Sing S.F. 
+L215:  Standard methods for measuring growth of algae and their composition Algae for Biofuels and Energy 
+L216:  Borowitzka M.A. 
+L217:  Moheimani N.R. 
+L218:  Springer Dordrecht, The Netherlands 2013 265 284
+L219: 32. Kareya M.S. 
+L220:  Mariam I. 
+L221:  Shaikh K.M. 
+L222:  Nesamma A.A. 
+L223:  Jutur P.P. 
+L224:  Photosynthetic carbon partitioning and metabolic regulation in response to very-low and high CO 2  in  Microchloropsis gaditana  NIES 2587 Front. Plant Sci. 2020 11 981 10.3389/fpls.2020.00981 32719702
+L225: 33. Baker N. 
+L226:  Harbinson J. 
+L227:  Kramer D. 
+L228:  Determining the limitations and regulation of photosynthetic energy transduction in leaves Plant Cell Environ. 2007 30 1107 1125 10.1111/j.1365-3040.2007.01680.x 17661750
+L229: 34. Suggett D. 
+L230:  Macintyre H. 
+L231:  Kana T. 
+L232:  Geider R. 
+L233:  Comparing electron transport with gas exchange: Parameterising exchange rates between alternative photosynthetic currencies for eukaryotic phytoplankton Aquat. Microb. Ecol. 2009 56 147 162 10.3354/ame01303
+L234: 35. Mishra S.K. 
+L235:  Suh W.I. 
+L236:  Farooq W. 
+L237:  Moon M. 
+L238:  Shrivastav A. 
+L239:  Park M.S. 
+L240:  Yang J.W. 
+L241:  Rapid quantification of microalgal lipids in aqueous medium by a simple colorimetric method Bioresour. Technol. 2014 155 330 333 10.1016/j.biortech.2013.12.077 24463407
+L242: 36. Paliwal C. 
+L243:  Pancha I. 
+L244:  Ghosh T. 
+L245:  Maurya R. 
+L246:  Chokshi K. 
+L247:  Vamsi Bharadwaj S.V. 
+L248:  Ram S. 
+L249:  Mishra S. 
+L250:  Selective carotenoid accumulation by varying nutrient media and salinity in  Synechocystis  sp. CCNM 2501 Bioresour. Technol. 2015 197 363 368 10.1016/j.biortech.2015.08.122 26344244
+L251: 37. Shaikh K.M. 
+L252:  Nesamma A.A. 
+L253:  Abdin M.Z. 
+L254:  Jutur P.P. 
+L255:  Molecular profiling of an oleaginous trebouxiophycean alga  Parachlorella kessleri  subjected to nutrient deprivation for enhanced biofuel production Biotechnol. Biofuels 2019 12 182 10.1186/s13068-019-1521-9 31338124
+L256: 38. Xu D. 
+L257:  Gao Z. 
+L258:  Li F. 
+L259:  Fan X. 
+L260:  Zhang X. 
+L261:  Ye N. 
+L262:  Mou S. 
+L263:  Liang C. 
+L264:  Li D. 
+L265:  Detection and quantitation of lipid in the microalga  Tetraselmis subcordiformis  (Wille) Butcher with BODIPY 505/515 staining Bioresour. Technol. 2013 127 386 390 10.1016/j.biortech.2012.09.068 23138061
+L266: 39. Kumar A. 
+L267:  Prasad A. 
+L268:  Sedlářová M. 
+L269:  Kale R. 
+L270:  Frankel L.K. 
+L271:  Sallans L. 
+L272:  Bricker T.M. 
+L273:  Pospíšil P. 
+L274:  Tocopherol controls D1 amino acid oxidation by oxygen radicals in photosystem II Proc. Natl. Acad. Sci. USA 2021 118 e2019246118 10.1073/pnas.2019246118 33479170
+L275: 40. Singh R. 
+L276:  Paliwal C. 
+L277:  Nesamma A.A. 
+L278:  Narula A. 
+L279:  Jutur P.P. 
+L280:  Nutrient deprivation mobilizes the production of unique tocopherols as a stress-promoting response in a new indigenous isolate  Monoraphidium  sp. Front. Mar. Sci. 2020 7 575817 10.3389/fmars.2020.575817
+L281: 41. Paliwal C. 
+L282:  Jutur P.P. 
+L283:  Dynamic allocation of carbon flux triggered by task-specific chemicals is an effective non-gene disruptive strategy for sustainable and cost-effective algal biorefineries Chem. Eng. J. 2021 418 129413 10.1016/j.cej.2021.129413
+L284: 42. Burits M. 
+L285:  Bucar F. 
+L286:  Antioxidant activity of  Nigella sativa  essential oil Phytother. Res. 2000 14 323 328 10.1002/1099-1573(200008)14:5<323::AID-PTR621>3.0.CO;2-Q 10925395
+L287: 43. Paliwal C. 
+L288:  Ghosh T. 
+L289:  Bhayani K. 
+L290:  Maurya R. 
+L291:  Mishra S. 
+L292:  Antioxidant, anti-nephrolithe activities and in vitro digestibility studies of three different cyanobacterial pigment extracts Mar. Drugs 2015 13 5384 5401 10.3390/md13085384 26308007
+L293: 44. Prieto P. 
+L294:  Pineda M. 
+L295:  Aguilar M. 
+L296:  Spectrophotometric quantitation of antioxidant capacity through the formation of a phosphomolybdenum complex: Specific application to the determination of vitamin E Anal. Biochem. 1999 269 337 341 10.1006/abio.1999.4019 10222007
+L297: 45. Benzie I.F. 
+L298:  Strain J.J. 
+L299:  The ferric reducing ability of plasma (FRAP) as a measure of “antioxidant power”: The FRAP assay Anal. Biochem. 1996 239 70 76 10.1006/abio.1996.0292 8660627
+L300: 46. Mariam I. 
+L301:  Kareya M. 
+L302:  Nesamma A. 
+L303:  Jutur P. 
+L304:  Delineating metabolomic changes in native isolate  Aurantiochytrium  for production of docosahexaenoic acid in presence of varying carbon substrates Algal Res. 2021 55 102285 10.1016/j.algal.2021.102285
+L305: 47. Minhas A.K. 
+L306:  Hodgson P. 
+L307:  Barrow C.J. 
+L308:  Adholeya A. 
+L309:  A Review on the assessment of stress conditions for simultaneous production of microalgal lipids and carotenoids Front. Microbiol. 2016 7 546 10.3389/fmicb.2016.00546 27199903
+L310: 48. Govindjee S.A. 
+L311:  On the relation between the Kautsky effect (chlorophyll a fluorescence induction) and photosystem II: Basics and applications of the OJIP fluorescence transient Photochem. Photobiol. 2011 104 236 257 10.1016/j.jphotobiol.2010.12.010
+L312: 49. Sarat Chandra T. 
+L313:  Deepak R.S. 
+L314:  Maneesh Kumar M. 
+L315:  Mukherji S. 
+L316:  Chauhan V.S. 
+L317:  Sarada R. 
+L318:  Mudliar S.N. 
+L319:  Evaluation of indigenous fresh water microalga  Scenedesmus obtusus  for feed and fuel applications: Effect of carbon dioxide, light and nutrient sources on growth and biochemical characteristics Bioresour. Technol. 2016 207 430 439 10.1016/j.biortech.2016.01.044 26923570
+L320: 50. Zhao Y. 
+L321:  Wang H.P. 
+L322:  Han B. 
+L323:  Yu X. 
+L324:  Coupling of abiotic stresses and phytohormones for the production of lipids and high-value by-products by microalgae: A review Bioresour. Technol. 2019 274 549 556 10.1016/j.biortech.2018.12.030 30558833
+L325: 51. Gao G. 
+L326:  Wu M. 
+L327:  Fu Q. 
+L328:  Li X. 
+L329:  Xu J. 
+L330:  A two-stage model with nitrogen and silicon limitation enhances lipid productivity and biodiesel features of the marine bloom-forming diatom  Skeletonema costatum Bioresour. Technol. 2019 289 121717 10.1016/j.biortech.2019.121717 31279322
+L331: 52. Jiang X. 
+L332:  Han Q. 
+L333:  Gao X. 
+L334:  Gao G. 
+L335:  Conditions optimising on the yield of biomass, total lipid, and valuable fatty acids in two strains of  Skeletonema menzelii Food Chem. 2016 194 723 732 10.1016/j.foodchem.2015.08.073 26471612
+L336: 53. Gordon J.M. 
+L337:  Polle J.E. 
+L338:  Ultrahigh bioproductivity from algae Appl. Microbiol. Biotechnol. 2007 76 969 975 10.1007/s00253-007-1102-x 17646982
+L339: 54. Schuhmann H. 
+L340:  Lim D.K.Y. 
+L341:  Schenk P.M. 
+L342:  Perspectives on metabolic engineering for increased lipid contents in microalgae Biofuels 2012 3 71 86 10.4155/bfs.11.147
+L343: 55. Kareya M.S. 
+L344:  Mariam I. 
+L345:  Rajacharya G.H. 
+L346:  Nesamma A.A. 
+L347:  Jutur P.P. 
+L348:  Valorization of carbon dioxide (CO 2 ) to enhance production of biomass, biofuels, and biorenewables (B 3 ) in  Chlorella saccharophila  UTEX247: A circular bioeconomy perspective Biofuels Bioprod. Biorefin. 2021 1 16 10.1002/bbb.2295
+L349: 56. Richardson B. 
+L350:  Orcutt D.M. 
+L351:  Schwertner H.A. 
+L352:  Martinez C.L. 
+L353:  Wickline H.E. 
+L354:  Effects of nitrogen limitation on the growth and composition of unicellular algae in continuous culture Appl. Microbiol. 1969 18 245 250 10.1128/am.18.2.245-250.1969 16349857
+L355: 57. Lee S.Y. 
+L356:  Hong S. 
+L357:  Park S.J. 
+L358:  Wegen R. 
+L359:  Middelberg A. 
+L360:  Metabolic and kinetic analysis of poly(3-hydroxybutyrate) production by recombinant  Escherichia coli Biotechnol. Bioeng. 2001 74 70 80 10.1002/bit.1096 11353412
+L361: 58. Sun H. 
+L362:  Zhao W. 
+L363:  Mao X. 
+L364:  Li Y. 
+L365:  Wu T. 
+L366:  Chen F. 
+L367:  High-value biomass from microalgae production platforms: Strategies and progress based on carbon metabolism and energy conversion Biotechnol. Biofuels 2018 11 227 10.1186/s13068-018-1225-6 30151055
+L368: 59. Murata N. 
+L369:  Takahashi S. 
+L370:  Nishiyama Y. 
+L371:  Allakhverdiev S.I. 
+L372:  Photoinhibition of photosystem II under environmental stress Biochim. Biophys. Acta-Bioenergy 2007 1767 414 421 10.1016/j.bbabio.2006.11.019
+L373: 60. Mariam I. 
+L374:  Kareya M.S. 
+L375:  Rehmanji M. 
+L376:  Nesamma A.A. 
+L377:  Jutur P.P. 
+L378:  Channeling of carbon flux towards carotenogenesis in  Botryococcus braunii : A media engineering perspective Front. Microbiol. 2021 12 693106 10.3389/fmicb.2021.693106 34394032
+L379: 61. Zhao L.-S. 
+L380:  Li K. 
+L381:  Wang Q.-M. 
+L382:  Song X.-Y. 
+L383:  Su H.-N. 
+L384:  Xie B.-B. 
+L385:  Zhang X.-Y. 
+L386:  Huang F. 
+L387:  Chen X.-L. 
+L388:  Zhou B.-C. 
+L389:  
+L390:  Nitrogen starvation impacts the photosynthetic performance of  Porphyridium cruentum  as revealed by chlorophyll a fluorescence Sci. Rep. 2017 7 8542 10.1038/s41598-017-08428-6 28819147
+L391: 62. Triantaphylidès C. 
+L392:  Krischke M. 
+L393:  Hoeberichts F.A. 
+L394:  Ksas B. 
+L395:  Gresser G. 
+L396:  Havaux M. 
+L397:  Van Breusegem F. 
+L398:  Mueller M.J. 
+L399:  Singlet oxygen is the major reactive oxygen species involved in photooxidative damage to plants Plant Physiol. 2008 148 960 968 10.1104/pp.108.125690 18676660
+L400: 63. Auten R.L. 
+L401:  Davis J.M. 
+L402:  Oxygen toxicity and reactive oxygen species: The devil is in the details Pediatr. Res. 2009 66 121 127 10.1203/PDR.0b013e3181a9eafb 19390491
+L403: 64. Pospíšil P. 
+L404:  Production of reactive oxygen species by photosystem II Biochim. Biophys. Acta 2009 1787 1151 1160 10.1016/j.bbabio.2009.05.005 19463778
+L405: 65. Trebst A. 
+L406:  Depka B. 
+L407:  Holländer-Czytko H. 
+L408:  A specific role for tocopherol and of chemical singlet oxygen quenchers in the maintenance of photosystem II structure and function in  Chlamydomonas reinhardtii FEBS Lett. 2002 516 156 160 10.1016/S0014-5793(02)02526-7 11959123
+L409: 66. Goiris K. 
+L410:  Van Colen W. 
+L411:  Wilches I. 
+L412:  León-Tamariz F. 
+L413:  De Cooman L. 
+L414:  Muylaert K. 
+L415:  Impact of nutrient stress on antioxidant production in three species of microalgae Algal Res. 2015 7 51 57 10.1016/j.algal.2014.12.002
+L416: 67. Chen G. 
+L417:  Wang B. 
+L418:  Han D. 
+L419:  Sommerfeld M. 
+L420:  Lu Y. 
+L421:  Chen F. 
+L422:  Hu Q. 
+L423:  Molecular mechanisms of the coordination between astaxanthin and fatty acid biosynthesis in  Haematococcus pluvialis  (Chlorophyceae) Plant Mol. Biol. 2015 81 95 107 10.1111/tpj.12713
+L424: 68. Liu J. 
+L425:  Mao X. 
+L426:  Zhou W. 
+L427:  Guarnieri M.T. 
+L428:  Simultaneous production of triacylglycerol and high-value carotenoids by the astaxanthin-producing oleaginous green microalga  Chlorella zofingiensis Bioresour. Technol. 2016 214 319 327 10.1016/j.biortech.2016.04.112 27152772
+L429: 69. Osorio S. 
+L430:  Alba R. 
+L431:  Damasceno C.M.B. 
+L432:  Lopez-Casado G. 
+L433:  Lohse M. 
+L434:  Zanor M.I. 
+L435:  Tohge T. 
+L436:  Usadel B. 
+L437:  Rose J.K.C. 
+L438:  Fei Z. 
+L439:  
+L440:  Systems biology of tomato fruit development: Combined transcript, protein, and metabolite analysis of tomato transcription factor (nor, rin) and ethylene receptor (Nr) mutants reveals novel regulatory interactions Plant Physiol. 2011 157 405 425 10.1104/pp.111.175463 21795583
+L441: 70. Wase N. 
+L442:  Black P.N. 
+L443:  Stanley B.A. 
+L444:  DiRusso C.C. 
+L445:  Integrated quantitative analysis of nitrogen stress response in  Chlamydomonas reinhardtii  using metabolite and protein profiling J. Proteome Res. 2014 13 1373 1396 10.1021/pr400952z 24528286
+L446: 71. Fiehn O. 
+L447:  Metabolomics by gas chromatography-mass spectrometry: Combined targeted and untargeted profiling Curr. Protoc. Mol. Biol. 2016 114 30.34.31 30.34.32 10.1002/0471142727.mb3004s114 27038389
+L448: 72. Timm S. 
+L449:  Florian A. 
+L450:  Wittmiß M. 
+L451:  Jahnke K. 
+L452:  Hagemann M. 
+L453:  Fernie A.R. 
+L454:  Bauwe H. 
+L455:  Serine acts as a metabolic signal for the transcriptional control of photorespiration-related genes in  Arabidopsis Plant Physiol. 2013 162 379 389 10.1104/pp.113.215970 23471132
+L456: 73. Dokulil M.T. 
+L457:  Phytoplankton productivity Reference Module in Earth Systems and Environmental Sciences Elsevier Inc. Amsterdam, The Netherlands 2021 10.1016/B978-0-12-819166-8.00015-3
+L458: 74. Arora N. 
+L459:  Dubey D. 
+L460:  Sharma M. 
+L461:  Patel A. 
+L462:  Guleria A. 
+L463:  Pruthi P.A. 
+L464:  Kumar D. 
+L465:  Pruthi V. 
+L466:  Poluri K.M. 
+L467:  NMR-based metabolomic approach to elucidate the differential cellular responses during mitigation of arsenic (III, V) in a green microalga ACS Omega 2018 3 11847 11856 10.1021/acsomega.8b01692 30320279
+L468: 75. Martel C.M. 
+L469:  Nitrogen-deficient microalgae are rich in cell-surface mannose: Potential implications for prey biorecognition by phagotrophic protozoa Braz. J. Microbiol. 2009 40 86 89 10.1590/S1517-83822009000100014 24031323
+L470: 76. Ubuka T. 
+L471:  Subchapter 132A—Glutamic acid Handbook of Hormones 2nd ed. 
+L472:  Ando H. 
+L473:  Ukena K. 
+L474:  Nagata S. 
+L475:  Academic Press San Diego, CA, USA 2021 1063 1065
+L476: 77. Liu J. 
+L477:  Sun Z. 
+L478:  Mao X. 
+L479:  Gerken H. 
+L480:  Wang X. 
+L481:  Yang W. 
+L482:  Multiomics analysis reveals a distinct mechanism of oleaginousness in the emerging model alga  Chromochloris zofingiensis Plant Mol. Biol. 2019 98 1060 1077 10.1111/tpj.14302
+L483: 78. Schmollinger S. 
+L484:  Mühlhaus T. 
+L485:  Boyle N.R. 
+L486:  Blaby I.K. 
+L487:  Casero D. 
+L488:  Mettler T. 
+L489:  Moseley J.L. 
+L490:  Kropat J. 
+L491:  Sommer F. 
+L492:  Strenkert D. 
+L493:  
+L494:  Nitrogen-sparing mechanisms in  Chlamydomonas  affect the transcriptome, the proteome, and photosynthetic metabolism Plant Cell 2014 26 1410 1435 10.1105/tpc.113.122523 24748044
+L495: 79. Guerra L.T. 
+L496:  Levitan O. 
+L497:  Frada M. 
+L498:  Sun J. 
+L499:  Falkowski P. 
+L500:  Dismukes G. 
+L501:  Regulatory branch points affecting protein and lipid biosynthesis in the diatom  Phaeodactylum tricornutum Biomass Bioenergy 2013 59 306 315 10.1016/j.biombioe.2013.10.007
+L502: 80. Zhang Y. 
+L503:  Liu Y. 
+L504:  Cao X. 
+L505:  Gao P. 
+L506:  Liu X. 
+L507:  Wang X. 
+L508:  Zhang J. 
+L509:  Zhou J. 
+L510:  Xue S. 
+L511:  Xu G. 
+L512:  
+L513:  Free amino acids and small molecular acids profiling of marine microalga  Isochrysis zhangjiangensis  under nitrogen deficiency Algal Res. 2016 13 207 217 10.1016/j.algal.2015.12.001
+L514: 81. Chen H. 
+L515:  Zheng Y. 
+L516:  Zhan J. 
+L517:  He C. 
+L518:  Wang Q. 
+L519:  Comparative metabolic profiling of the lipid-producing green microalga  Chlorella  reveals that nitrogen and carbon metabolic pathways contribute to lipid metabolism Biotechnol. Biofuels 2017 10 153 10.1186/s13068-017-0839-4 28630648
+L520: 82. Sharma N. 
+L521:  Chaudhary C. 
+L522:  Khurana P. 
+L523:  Role of myo-inositol during skotomorphogenesis in  Arabidopsis Sci. Rep. 2020 10 17329 10.1038/s41598-020-73677-x 33060662
+L524: 83. Cho K. 
+L525:  Kim K.-N. 
+L526:  Lim N.-L. 
+L527:  Kim M.-S. 
+L528:  Ha J.-C. 
+L529:  Shin H.H. 
+L530:  Kim M.-K. 
+L531:  Roh S.W. 
+L532:  Kim D. 
+L533:  Oda T. 
+L534:  Enhanced biomass and lipid production by supplement of myo-inositol with oceanic microalga  Dunaliella salina Biomass Bioenergy 2015 72 1 7 10.1016/j.biombioe.2014.11.014
+L535: 84. Qiao T. 
+L536:  Zhao Y. 
+L537:  Han B. 
+L538:  Li T. 
+L539:  Zhao P. 
+L540:  Xu J.-W. 
+L541:  Huang L. 
+L542:  Yu X. 
+L543:  Myo-inositol promotes lipid production and nutrients removal by microalga under molasses wastewater Renew. Energy 2021 172 327 335 10.1016/j.renene.2021.03.051
+L544: 85. Zhang Y. 
+L545:  Adams I.P. 
+L546:  Ratledge C. 
+L547:  Malic enzyme: The controlling activity for lipid production? Overexpression of malic enzyme in  Mucor circinelloides  leads to a 2.5-fold increase in lipid accumulation Microbiology 2007 153 2013 2025 10.1099/mic.0.2006/002683-0 17600047
+L548: 86. Zhang Y. 
+L549:  Min Q. 
+L550:  Xu J. 
+L551:  Zhang K. 
+L552:  Chen S. 
+L553:  Wang H. 
+L554:  Li D. 
+L555:  Effect of malate on docosahexaenoic acid production from  Schizochytrium  sp. B4D1 Electron. J. Biotechnol. 2016 19 56 60 10.1016/j.ejbt.2015.11.006
+L556: 87. Chia D.W. 
+L557:  Yoder T.J. 
+L558:  Reiter W.-D. 
+L559:  Gibson S.I. 
+L560:  Fumaric acid: An overlooked form of fixed carbon in  Arabidopsis  and other plant species Planta 2000 211 743 751 10.1007/s004250000345 11089689
+L561: 88. Tschoep H. 
+L562:  Gibon Y. 
+L563:  Carillo P. 
+L564:  Armengaud P. 
+L565:  Szecowka M. 
+L566:  Nunes-Nesi A. 
+L567:  Fernie A.R. 
+L568:  Koehl K. 
+L569:  Stitt M. 
+L570:  Adjustment of growth and central metabolism to a mild but sustained nitrogen-limitation in  Arabidopsis Plant Cell. Environ. 2009 32 300 318 10.1111/j.1365-3040.2008.01921.x 19054347
+L571: 89. Valenzuela J. 
+L572:  Mazurie A. 
+L573:  Carlson R.P. 
+L574:  Gerlach R. 
+L575:  Cooksey K.E. 
+L576:  Peyton B.M. 
+L577:  Fields M.W. 
+L578:  Potential role of multiple carbon fixation pathways during lipid accumulation in  Phaeodactylum tricornutum Biotechnol. Biofuels 2012 5 40 10.1186/1754-6834-5-40 22672912
+L579: 90. Frayer M.J. 
+L580:  The antioxidant effects of thylakoid Vitamin E (α-tocopherol) Plant Cell Environ. 1992 15 381 392 10.1111/j.1365-3040.1992.tb00988.x
+L581: 91. Munné-Bosch S. 
+L582:  Alegre L. 
+L583:  The function of tocopherols and tocotrienols in plants Crit. Rev. Plant Sci. 2002 21 31 57 10.1080/0735-260291044179
+L584: 92. Vom Dorp K. 
+L585:  Hölzl G. 
+L586:  Plohmann C. 
+L587:  Eisenhut M. 
+L588:  Abraham M. 
+L589:  Weber A.P.M. 
+L590:  Hanson A.D. 
+L591:  Dörmann P. 
+L592:  Remobilization of phytol from chlorophyll degradation is essential for tocopherol synthesis and growth of  Aarabidopsis Plant Cell 2015 27 2846 2859 10.1105/tpc.15.00395 26452599
+L593: Acknowledgments
+L594: We would like to thank Girish H. Rajacharya (Technical Manager, ICGEB) for providing support with analytical instrumentation.
+[29ms]
+

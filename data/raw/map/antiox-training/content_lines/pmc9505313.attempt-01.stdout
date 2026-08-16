@@ -1,0 +1,607 @@
+L1: α-Tocopherol Pharmacokinetics in Adults with Cystic Fibrosis: Benefits of Supplemental Vitamin C Administration
+L2: Nutrients (2022)
+L3: Maret G. Traber, Scott W. Leonard, Vihas T. Vasu, Brian M. Morrissey, Huangshu (John) Lei, Jeffrey Atkinson, Carroll E. Cross
+L4: 1 Linus Pauling Institute, Oregon State University, Corvallis, OR 97331, USA
+L5: 2 Department of Zoology, The Maharaja Sayajirao University of Baroda, Vadodara 390002, Gujarat, India
+L6: 3 Adult Cystic Fibrosis Program, Department of Internal Medicine, University of California, Davis, CA 95817, USA
+L7: 4 Department of Chemistry, Center for Biotechnology, Brock University, St. Catharines, ON L2S 3A1, Canada
+L8: 5 Department of Physiology and Membrane Biology, University of California, Davis, CA 95616, USA
+L9: Background: Numerous abnormalities in cystic fibrosis (CF) could influence tocopherol absorption, transportation, storage, metabolism and excretion. We hypothesized that the oxidative distress due to inflammation in CF increases vitamin E utilization, which could be positively influenced by supplemental vitamin C administration. Methods: Immediately before and after receiving vitamin C (500 mg) twice daily for 3.5 weeks, adult CF patients ( n  = 6) with moderately advanced respiratory tract (RT) disease consumed a standardized breakfast with 30% fat and a capsule containing 50 mg each hexadeuterium (d 6 )-α- and dideuterium (d 2 )-γ-tocopheryl acetates. Blood samples were taken frequently up to 72 h; plasma tocopherol pharmacokinetics were determined. During both trials, d 6 -α- and d 2 -γ-tocopherols were similarly absorbed and reached similar maximal plasma concentrations ~18–20 h. As predicted, during vitamin C supplementation, the rates of plasma d 6 -α-tocopherol decline were significantly slower. Conclusions: The vitamin C-induced decrease in the plasma disappearance rate of α-tocopherol suggests that vitamin C recycled α-tocopherol, thereby augmenting its concentrations. We conclude that some attention should be paid to plasma ascorbic acid concentrations in CF patients, particularly to those individuals with more advanced RT inflammatory disease and including those with severe exacerbations.
+L10: Article
+L11: vitamin E; carboxyethyl hydroxy chromanol (CEHC); stable isotope-labeled vitamin E
+L12: 1. Introduction
+L13: Cystic Fibrosis (CF) is a genetic disorder, affecting approximately 40,000 people in the US and more than 160,000 world-wide [ 1 , 2 ]. Mutations in the Cystic Fibrosis Conductance Regulator (CFTR) gene give rise to decreased functional CFTR in epithelial cells, leading to desiccated and hyperviscous respiratory tract (RT) and gastrointestinal tract secretions [ 3 ]. Hallmarks of the disease include compromised RT mucociliary clearance, microbial infection and an exaggerated inflammatory response mainly by a florid RT neutrophilia and activations of neutrophil proteolytic and oxidative processes [ 4 , 5 , 6 ]. These latter processes are believed to play a central role in the progressive lung tissue destruction seen in CF, as indicated by strong evidence of active proteolytic [ 6 , 7 , 8 ] and oxidative [ 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 ] processes seen in RT of CF patients.
+L14: Nutritional deficiencies, in large part secondary to abnormalities of bile acid homeostasis and exocrine pancreatic insufficiency [ 20 , 21 ], represent important contributors to the CF clinical manifestations. Although current CF managements (replacement pancreatic lipase and lipophilic vitamin supplements) address the resulting severe lipid malabsorption and fat-soluble vitamin deficiencies associated with pancreatic insufficiency, these are only partially effective. There remain uncertainties as to the magnitudes of the absorption and plasma kinetics of lipophilic nutrients. Vitamin E is particularly relevant in CF because α- and γ-tocopherols represent major dietary chain breaking, lipophilic antioxidants. α-Tocopherol deficiency, in particular, is known to have deleterious clinical consequences in CF [ 22 , 23 , 24 ].
+L15: Many in vitro experimental models have convincingly documented interactions between the important lipophilic antioxidant, vitamin E, and the major hydrophilic antioxidant, vitamin C (ascorbic acid) [ 25 , 26 , 27 , 28 , 29 ]. The primary mechanism for this interaction is that the lower reduction potential of vitamin C is capable of reducing the accessible oxidative free radical of vitamin E (tocopheroxyl radical) in membranes [ 30 ], thus regenerating vitamin E [ 27 ]. This “recycling” phenomenon becomes of clinical relevance under circumstances of severe inflammatory processes known to generate reactive oxidants. This phenomenon could compromise ascorbic acid concentrations [ 31 , 32 ] and impact the capability to regenerate the tocopheroxyl radical. As ascorbic acid concentrations relate inversely to biomarkers of inflammation in CF [ 33 ], interplays of vitamin C and vitamin E could be of potential importance in this disease, particularly during periods of acute, infective exacerbations.
+L16: Our group has previously studied tocopherol pharmacokinetics in smokers, another group of subjects under considerable RT oxidative stress from inhalation of free radicals contained in cigarette smoke (CS) and subsequent RT inflammation-related oxidative injury [ 34 , 35 , 36 , 37 ]. Using deuterium-labeled α-tocopherol biokinetics similar to those used in the present studies, we showed that smokers compared to non-smokers exhibit a significant 25% decrease in the plasma α-tocopherol half-life (t ½) [ 37 ]. We further showed in another group of smokers and non-smokers that the smokers t ½ clearance rates for α-tocopherol were 40% faster than non-smokers, that the accelerated vitamin E plasma disappearance rates in smokers were inversely correlated with their ascorbic acid concentrations, and that the administration of a vitamin C supplement could decrease smokers’ accelerated plasma disappearance rates so as to be not significantly different that those of non-smokers while also decreasing their markers of lipid peroxidation [ 35 , 36 , 37 ].
+L17: Considering this background, it seemed appropriate to further quantitate the pharmacokinetics and metabolism of α- and γ-tocopherols in a small, representative group of adults with CF and considerable inflammatory RT disease, using a repeated measures design where participants serve as their own controls. Our focus is on the interplay of vitamin C supplementation on α- and γ-tocopherols plasma pharmacokinetics.
+L18: 2. Materials and Methods
+L19: 2.1. Participant Characteristics
+L20: Participants with CF ( n  = 6, ages 23–31 years y, 3 females and 3 males) were recruited from the UC Davis Adult CF Clinic. All subjects met diagnostic criteria for CF. No other specific inclusion or exclusion criteria were specified. All participants were deemed to be compliant with their standard outpatient CF regimens and all appeared to be clinically stable. The study protocol was approved by the institutional review boards for the protection of human subjects at UC Davis (#200715896-3) and at Oregon State University (OSU IRB protocol #3988). All participants gave written, informed consent. Studies were conducted prior to patients receiving either CFTR potentiator or corrector therapy, as described below. The clinical trial was carried out in 2008–2009 prior to requirements for listing in Clinical Trials.gov.
+L21: 2.2. Deuterium-Labeled Vitamin E
+L22: α-5,7-(CD 3 ) 2  tocopheryl acetate (d 6 -α-tocopheryl acetate) and unlabeled α-tocopheryl acetate (d 0 -α-tocopheryl acetate) were kind gifts from Dr. James Clark of Cognis Nutrition and Health. γ-3,4-(D) tocopheryl acetate (d 2 -γ-tocopheryl acetate) was prepared from γ-tocopherol labeled with two deuterium atoms, as described [ 38 ]. The d 6 -α- to d 2 -γ-tocopherol molar ratio was determined by liquid chromatography/mass spectrometry (LC/MS) to be 0.98. The internal standard used for mass spectroscopy, α-5,7,8-(CD 3 ) 3  tocopheryl acetate (d 9 -α-tocopheryl acetate), was provided by Dr. Carolyn Good of The Bell Institute of Health and Nutrition, and was synthesized by Isotec, Inc. (Miamisburg, OH, USA).
+L23: 2.3. Study Design and Blood Sampling
+L24: In brief, the protocol included a preliminary screening visit with an initial plasma inflammatory “profile” and clinical exam. The protocol was explained in detail to the six volunteers, who gave written informed consent at the UC Davis Translational Research Clinical Center at the Mather VA Hospital, Sacramento, CA, USA. A blood sample was obtained, and the participants were instructed to maintain their ordinary and usual lifestyle, CF management regimens, habitual diets, including their pancreatic-lipase, and A, D, E, and K vitamin preparations (no record of specific formulations is available). They were asked to not partake of any additional non-conventional complimentary nutritional supplements beyond their prescribed high-calorie nutritional supplements. General demographic data, pulmonary function, and respiratory tract cultures of the participants were obtained within 90 days of the 3 study visits and routine clinic hospital clinical laboratory blood measurements ( Table 1 ). The clinical laboratory measured vitamin A as retinol and vitamin D as 25-hydroxyvitamin D by standard protocols.
+L25: Two weeks after the preliminary screening visit, the subjects returned to the Research Clinical Center and were provided with a standardized breakfast (600 Kcal with 30% of the calories from fat), took their standard pancrealipase preparation followed by oral administration of a capsule containing an equal molar mixture of approximately 50 mg each of d 6 -α- and d 2 -γ-tocopherol acetates. Blood samples ( n  = 9 per trial) were collected prior to breakfast and at 3, 6, 9, 12, 24, 36, 48 and 72 h after taking the vitamin E capsule. At the 72 h visit to the Clinical Center the subjects were given vitamin C (500 mg tablets) to be taken twice daily for 3 ½ weeks, at which time they returned to the Clinical Center to repeat the 72 h vitamin E pharmacokinetic study.
+L26: Blood samples were collected from the antecubital vein into evacuated tubes containing either 0.05 mL 15% (wt:vol) EDTA or sodium heparin (Becton Dickinson, Franklin Lakes, NJ, USA). Plasma was promptly separated by centrifugation at 4 °C for 15 min at 500×  g  and stored at −80 °C until analyzed. After heparinized plasma was separated, an aliquot was acidified (1:1) with 10% PCA (perchloric acid) containing 1 mM diethylenetriaminepentaacetic acid (DTPA). This sample was then centrifuged (5 min, 15,000×  g , 4 °C) the supernatant removed, frozen in liquid nitrogen, and stored at −80 °C until analysis.
+L27: 2.4. Laboratory Analyses
+L28: Labeled and unlabeled plasma α- and γ-tocopherols were extracted [ 39 ] and measured by liquid chromatography/mass spectrometry (LC/MS) using negative atmospheric pressure chemical ionization (-APCI) as previously described [ 34 , 40 ]. Plasma ascorbic acid, following plasma acidification, was measured by HPLC with amperometric detection as previously described [ 26 ]. Plasma triglycerides and total cholesterol were determined by standard clinical assays (Sigma, St. Louis, MO, USA). Plasma vitamin E catabolites (CEHCs) were extracted using a modified method [ 41 ] and analyzed by LC/MS using negative electrospray ionization (-ESI) as previously described [ 34 ]. For use as standards 2,5,7,8-tetramethyl-2-(2′-carboxyethyl)-6-hydroxychroman (α-CEHC) and 2,7,8-trimethyl-2-(β-carboxyethyl)-6-hydroxychroman (γ-CEHC) were obtained (Sigma-Aldrich, St Louis, MO, USA).
+L29: Plasma malondialdehyde (MDA) concentrations were measured as described [ 42 ]. Quantitation was done using an external standard of 1,1,3,3-tetraethoxypropane (Sigma) prepared using the same method. The MDA-TBA adduct was extracted with butanol and measured by HPLC with fluorometric detection (532 nm excitation and 553 nm excitation). The TBA-MDA adduct was quantified against the MDA standards.
+L30: 2.5. Mathematical and Statistical Analyeis
+L31: The maximum tocopherol and CEHC concentrations (Cmax) and the time of maximum concentration (Tmax) were determined by visual inspection of each participant’s data. Plasma exponential disappearance rates of d 6 -α-tocopherol, d 2 -γ-tocopherol and d 2 -γ-CEHC were estimated as previously described [ 34 ]. Half-lives of these compounds were calculated as t ½ = ln (2)/exponential disappearance rate constant. One-sided, paired t-tests were used to compare values from the baseline trial to the vitamin C supplemented trial (Excel, Microsoft). Two-factor analysis of variance with repeated measures was used to assess changes over time within subjects (Prism 6 for Macintosh, GraphPad). Data are shown as means ± standard deviation (SD),  n  = 6, unless as otherwise noted.
+L32: 3. Results
+L33: 3.1. Baseline CF Subject Characteristics
+L34: Demographic profiles of the six CF participants are as depicted in  Table 1 . Note that four persons were homozygous for the most frequent 508/508 genotype [ 43 ]. All had moderate to severe lung function abnormalities based on forced expiratory volume and all had suboptimal nutritional status as measured by BMIs. Although one subject was a diabetic requiring insulin administration, all had normal HbA1c values. All subjects had pancreatic insufficiency, and all were taking conventional doses of pancreatic enzymes and a standard ADEK lipophilic micronutrient supplement. Vitamins A and D micronutrient concentrations, as determined in the clinical laboratories within several months of the study protocol, were generally in the low normal range, whereas inflammatory parameters, as reflected by the latest C-reactive protein (CRP) in juxtaposition to the study itself, showed a significant degree of variation.  Table 2  depicts the average values of each of the subjects’ total cholesterol, triglycerides and lipid (sum of cholesterol and triglycerides) concentrations during the trials, as well as plasma α-tocopherol concentrations prior to each of the two kinetic studies. Also shown are the calculated ratios of α-tocopherol per total cholesterol and α-tocopherol per total lipids.
+L35: 3.2. Efficacy of Vitamin C Supplementation
+L36: The baseline pharmacokinetic trial (control) was carried out, followed by 3.5 weeks of vitamin C supplementation, then the pharmacokinetic trial was repeated. Vitamin C supplements were effective in increasing plasma ascorbic acid concentrations ( p  = 0.0023,  Figure 1 a). MDA was measured to assess oxidative stress; these values were not significantly changed between the two trials ( Figure 1 b), although they were somewhat lover after vitamin C supplementation.
+L37: 3.3. Vitamin E Pharmacokinetics
+L38: Plasma α- and γ-tocopherol concentrations measured during the trials were low ( Table 3 ) and on average are in the deficient range [ 44 ]. Only one participant (#3) had values of ~20 µmol/L; the others ranged from 5 to 16 µmol/L, suggesting that the vitamin E supplementation was inadequate.
+L39: Participants consumed the deuterated tocopherols with a standard breakfast, then blood samples were taken up to 72 h. A representative subject’s data illustrates that both deuterated α- and γ-tocopherols were similarly absorbed and appeared in the plasma with similar maximum concentrations ( Figure 2 ). Vitamin C supplementation had no impact on the time of maximum concentrations (Tmax and Cmax) for either of the tocopherols ( Table 3 ). Importantly, however, the exponential disappearance rates of α-tocopherol disappearance from the plasma were significantly slower ( p  < 0.05) during the vitamin C supplementation ( Table 3 ).
+L40: The half-lives, calculated from the exponential disappearance rates, show that α-tocopherol has a half-life that is nearly double that of γ-tocopherol ( Figure 3 ). Vitamin C supplementation prolonged the retention of α-tocopherol in the plasma, but not that of γ-tocopherol. Vitamin C supplementation had no effect on the rates of disappearance of either γ-tocopherol or its catabolite, γ-CEHC. It should be noted that not only were γ-tocopherol rates of disappearance rapid, they were also similar to those of γ-CEHC, suggesting the importance of vitamin E catabolism of γ-tocopherol, even in vitamin E deficient persons.
+L41: The entire data set were also calculated based on percentage labeled of either the total plasma α- or of γ-tocopherol concentrations, respectively. The purpose was to verify that the low plasma α-tocopherol concentrations observed in some participants did not affect the exponential rates of disappearance. The individual responses shown in  Figure 3 b,c illustrate the changes in response to vitamin C supplementation. Specifically, the exponential disappearance rates for d 6 -α-tocopherol were slower, but those for d 2 -γ-tocopherol were unchanged by vitamin C supplementation. These outcomes are similar to the responses to vitamin C supplementation that were observed when the rates were calculated based on plasma d 6 -α- and d 2 -γ-tocopherol concentrations.
+L42: 4. Discussion
+L43: Vitamin C and E, representing the major dietary hydrophilic and lipophilic antioxidant micronutrients, respectively, have long been known to interact as elegantly demonstrated in chemical in vitro studies [ 27 ] and in selected clinical studies [ 35 , 37 ]. The current study demonstrates that, similar to our previous findings in cigarette smokers [ 35 , 37 ], this interrelationship can be demonstrated in moderately severe stable chronic suppurative CF RT disease patients. Importantly, the plasma concentrations observed in CF in response to a 50 mg dose of each d 6 -α- and d 2 -γ-tocopheryl acetates were much lower than observed in healthy subjects in other studies. For example, Bruno et al. reported that healthy adults with plasma α-tocopherol of approximately 20 μmol/L, who consumed 22 mg d 6 -α-tocopheryl acetate with increasing levels of fat, showed a peak plasma d 6 -α-tocopherol concentration of 5.6 ± 1.2 μmol/L ( Table 2 , ref. [ 45 ]). The participants with CF reported herein ( Table 3 ) received a 50 mg dose of d 6 -α-tocopheryl acetate, but their maximum d 6 -α-tocopherol concentration was 10-times lower—approximately 0.5 μmol/L. Leonard et al. also tested a 50 mg dose of each d 6 -α-tocopheryl acetate and d 2 -γ-tocopherol in healthy adults. They reported that plasma d 2 -γ-tocopherol peaked at lower concentrations ( p  < 0.001; 2.2 ± 1.2 μmol/L than did d 6 -α-tocopherol (6.0 ± 2.6 μmol/L) [ 34 ]. Again, these concentrations are 10-times higher than those reported herein, suggesting that vitamin E absorption in participants with CF was impaired. Notably, the average plasma α-tocopherol concentrations in the present study ( Table 2 ) were at or near the deficient level, even when corrected for circulating lipid levels [ 44 ].
+L44: Vitamin E deficiency in humans can be devastating due to its neurologic consequences. Thus, supplemental vitamin E doses are larger than dietary recommendations for normal healthy persons [ 44 ]. Vitamin E deficiency symptoms were first described in children with fat malabsorption syndromes, principally abetalipoproteinemia, cystic fibrosis and cholestatic liver disease [ 46 ]. Subsequently, humans with severe vitamin E deficiency with no known defect in lipid or lipoprotein metabolism were found to have a defect in the gene for the α-tocopherol transfer protein (α-TTP). This syndrome is called “Ataxia with Vitamin E Deficiency” or AVED. The neurologic abnormalities due to vitamin E deficiency in AVED are described as a progressive sensory neuropathy that can be halted and in some cases reversed by vitamin E supplements. Enormous daily supplemental α-tocopherol amounts (>100 mg/kg body weight) given long-term can overcome the lack of apoB-lipoproteins in abetalipoproteinemia [ 47 ], to prevent neurologic disease progression [ 48 ] and to prevent oxidative damage [ 49 ]. Similarly, supplemental α-tocopherol (1000 mg/day) can prevent progression of neurologic defects in AVED [ 50 ]; one patient has been reported to be stable for over 30 years [ 51 ]. Persons with fat malabsorption due to impaired biliary secretion generally do not absorb orally administered vitamin E. They are treated with special forms of vitamin E, such as α-tocopheryl polyethylene glycol succinate, which spontaneously form micelles, obviating the need for bile acids [ 52 ]. Previous studies have suggested that vitamin E supplements needed to be 400 mg daily in order to raise CF plasma concentrations in adults to approximately 20 μmol/L [ 53 ].
+L45: Only one of the CF participants studied herein had plasma α-tocopherol concentrations at this normal level. Winklhofer-Roob et al. showed in children (average age 9.2 years) with CF that after an overnight fast, 100 mg α-tocopheryl acetate given with whole milk and an optimized dose of pancreatic enzymes (sufficient to correct fat maldigestion), showed a plasma α-tocopherol increase of nearly 10 μmol/L [ 54 ]. Despite the apparent low absorption in the present study, the fractional disappearance rates (0.5 pools/day) reported herein for CF post-vitamin C supplementation ( Table 3 ) are similar to those reported for healthy participants (0.49–0.56 pools per day [ 45 ]). Previously, doses as low as 1 to 2 mg have been used successfully for measuring vitamin E kinetics [ 55 , 56 ]. Thus, the absorbed dose size, based on previous studies, does not impact disappearance rates.
+L46: As shown in  Figure 2  and  Table 3 , we did indeed demonstrate significant synergism between α-tocopherol and vitamin C. It is particularly important to note that the stable CF patient group, prior to their vitamin C supplementation, had adequate plasma ascorbic acid concentrations (~60 μmol/L), which increased with supplementation to ~80 μmol/L. Moreover, none of the participants experienced clinical exacerbations during the study.
+L47: 4.1. Nuances for the CF Community
+L48: The CF care community has long been aggressively focused on the needs for antioxidant micronutrient supplements [ 12 , 13 , 14 , 16 , 17 , 57 , 58 , 59 ], and particularly for the needs for lipophilic antioxidants such as vitamin E [ 17 , 18 , 23 , 24 , 60 , 61 , 62 , 63 ]. Under strong inputs from the CF Foundation scientific community [ 14 , 16 ], a revised version of a micronutrient antioxidant cocktail was designed and is now marketed with this increased need in mind [ 58 ]. Although studies have shown CF patients [ 33 ]; like smokers [ 64 ], have low or low normal levels of vitamin C, no augmentations of vitamin C were included in the new formulation. The recent report of significant improvements in the endothelial dysfunction of CF patients, as reflected by increases in measured brachial artery flow mediated dilatation after ingestion of an antioxidant cocktail containing 1000 mg of vitamin C, suggests that present supplemented antioxidants may not be optimized [ 65 ].
+L49: Although it is known that CF exacerbations are associated with increases in their baseline levels of oxidative stress [ 66 , 67 ] accompanied by further decreases in their levels of antioxidant micronutrients, including vitamin E [ 33 , 66 , 68 ], the existing CF exacerbation treatment guidelines do not address needs for increased antioxidant supplements during exacerbations [ 58 , 69 , 70 , 71 ].
+L50: Of note, the CF community has already recognized the value of standard of care monitored measurements of the lipophilic vitamins A, D, and E and probably would measure vitamin C, if easily determinable in a clinic or hospital setting. The emerging data from both smokers and critically ill patients [ 72 , 73 , 74 , 75 ] suggest the probable value of including vitamin C measurements and augmentations in CF patients undergoing hospital care for severe exacerbations due to their acute effects on chronic airway septic exacerbations. These severe CF exacerbations are frequently accompanied by nutritional deficiencies. To date, such measurements are usually not done because of the technological challenges of accurate ascorbic acid determinations in clinical laboratories which have not been widely used to determine ascorbic acid concentrations [ 75 ].
+L51: A prospective study to determine whether vitamin C supplementation in CF would be beneficial, particularly in those CF patients with advanced and/or exacerbated RT disease, should be considered, much as has been proposed for anti-inflammatory agents [ 76 ] and done for the case of doxycycline [ 77 ].
+L52: 4.2. Limitations
+L53: Several limitations to the scope of the present study in a small number of CF participants should be mentioned. Most CF patients are now on revolutionary CFTR potentiator and/or corrector therapies and these are likely to exert impacts on vitamin E pharmacokinetic via potential effects on bile and pancreatic secretions, enterocyte functions and modulations of the intensity of RT inflammatory processes [ 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 ]. No attempts were made in the present study to relate plasma tocopherol kinetics to either parameters of RT or systemic inflammation/oxidative stress or to acute or chronic CF exacerbations. Finally, it should be recognized that interrelationships between vitamins E and C, as revealed by kinetics in the plasma compartment, are not likely to reflect the degrees of their interdependence in other extracellular sites. For example, considerable evidence supports the concept that oxidative processes are taking place in the RT of CF patients [ 10 , 16 ]. The goal of antioxidant micronutrient therapy in severe CF RT disease would seem more likely to restore proper levels in RT itself rather than plasma ascorbic acid concentrations. Caution needs to be exercised in extrapolations of their interdependence from blood to such complex redox milieu as exists in the inflamed CF RT.
+L54: 5. Conclusions
+L55: Our major finding was that vitamin C potentiates the biological availability of vitamin E in the plasma compartment of CF patients with advanced but stable RT inflammatory disease. This outcome supports previous observations made in cigarette smokers who are known to have CS-related RT inflammatory changes. It would seem to be clinically prudent for CF clinicians and nutritionists to recognize the importance of dietary and supplemental vitamin C levels and their possible impact on plasma α-tocopherol kinetics in their patients who are undernourished and/or experiencing severe exacerbations of their CF RT inflammatory disease.
+L56: Figure 1 The efficacy of vitamin C supplementation in CF participants. Plasma concentrations of ascorbic acid ( a ) and malondialdehyde ( b ) during pharmacokinetic trials. Shown are the means (±SD,  n  = 6) of the average concentrations measured from plasma samples collected at 0, 3, 6, 9, 12, 24, 48, 72 h from each participant.
+L57: Figure 2 The plasma d 6 -α- ( a ) and d 2 -γ-tocopherol ( b ) concentrations at baseline and after vitamin C supplementation (representative participant, #3). Plasma-labeled and unlabeled tocopherols were measured by LC/MS from blood samples periodically collected up to 72 h. Filled symbols denote baseline, open symbols denote vitamin C pharmacokinetics trial. Lines indicate post-peak exponential decay curves. The d 2 -γ-tocopherol rates of disappearance were so fast that the slopes were no longer linear after 36 h; thus, a second curve was fit to the data. Neither slope was altered by vitamin C status; only the slope from Tmax is reported.
+L58: Figure 3 The plasma half-lives in hours for d 6 -α- and d 2 -γ tocopherols and d 2 -γ CEHC. Half-lives indicate the length of time for half of the indicated compound to leave the plasma compartment ( a ). Individual data shows disappearance rates (pools per day) by person ( b ) d 6 -α tocopherol; ( c ) d 2 -γ tocopherols). The rates shown are based on the percentage labeled to demonstrate that the baseline tocopherol concentrations did not impact the outcomes.
+L59: 1. Cystic Fibrosis Foundation 
+L60:  2021 Cystic Fibrosis Foundation Patient Registry Highlights Available online:  https://www.cff.org/medical-professionals/patient-registry (accessed on 16 August 2022)
+L61: 2. Guo J. 
+L62:  Garratt A. 
+L63:  Hill A. 
+L64:  Worldwide rates of diagnosis and effective treatment for cystic fibrosis J. Cyst. Fibros. 2022 21 456 462 10.1016/j.jcf.2022.01.009 35125294
+L65: 3. Office of Science (OS) 
+L66:  Office of Genomics and Precision Public Health 
+L67:  Centers for Diesease Control and Prevention 
+L68:  Cystic Fibrosis Available online:  https://www.cdc.gov/genomics/disease/cystic_fibrosis.htm (accessed on 16 August 2022)
+L69: 4. Doring G. 
+L70:  Gulbins E. 
+L71:  Cystic fibrosis and innate immunity: How chloride channel mutations provoke lung disease Cell. Microbiol. 2009 11 208 216 10.1111/j.1462-5822.2008.01271.x 19068098
+L72: 5. Stoltz D.A. 
+L73:  Meyerholz D.K. 
+L74:  Welsh M.J. 
+L75:  Origins of cystic fibrosis lung disease N. Engl. J. Med. 2015 372 351 362 10.1056/NEJMra1300109 25607428
+L76: 6. Quinn R.A. 
+L77:  Adem S. 
+L78:  Mills R.H. 
+L79:  Comstock W. 
+L80:  DeRight Goldasich L. 
+L81:  Humphrey G. 
+L82:  Aksenov A.A. 
+L83:  Melnik A.V. 
+L84:  da Silva R. 
+L85:  Ackermann G. 
+L86:  
+L87:  Neutrophilic proteolysis in the cystic fibrosis lung correlates with a pathogenic microbiome Microbiome 2019 7 23 10.1186/s40168-019-0636-3 30760325
+L88: 7. Bruce M.C. 
+L89:  Poncz L. 
+L90:  Klinger J.D. 
+L91:  Stern R.C. 
+L92:  Tomashefski J.F. Jr. 
+L93:  Dearborn D.G. 
+L94:  Biochemical and pathologic evidence for proteolytic destruction of lung connective tissue in cystic fibrosis Am. Rev. Respir Dis. 1985 132 529 535 10.1164/arrd.1985.132.3.529 3898942
+L95: 8. Downey D.G. 
+L96:  Bell S.C. 
+L97:  Elborn J.S. 
+L98:  Neutrophils in cystic fibrosis Thorax 2009 64 81 88 10.1136/thx.2007.082388 19103874
+L99: 9. Brown A.J. 
+L100:  Acute effects of smoking cessation on antioxidant status Nutr. Biochem. 1996 7 29 39 10.1016/0955-2863(95)00164-6
+L101: 10. van der Vliet A. 
+L102:  Eiserich J.P. 
+L103:  Marelich G.P. 
+L104:  Halliwell B. 
+L105:  Cross C.E. 
+L106:  Oxidative stress in cystic fibrosis: Does it occur and does it matter? Adv. Pharmacol. 1997 38 491 513 10.1016/s1054-3589(08)60996-5 8895821
+L107: 11. Wood L.G. 
+L108:  Fitzgerald D.A. 
+L109:  Gibson P.G. 
+L110:  Cooper D.M. 
+L111:  Collins C.E. 
+L112:  Garg M.L. 
+L113:  Oxidative stress in cystic fibrosis: Dietary and metabolic factors J. Am. Coll. Nutr. 2001 20 157 165 10.1080/07315724.2001.10719028 11349939
+L114: 12. Back E.I. 
+L115:  Frindt C. 
+L116:  Nohr D. 
+L117:  Frank J. 
+L118:  Ziebach R. 
+L119:  Stern M. 
+L120:  Ranke M. 
+L121:  Biesalski H.K. 
+L122:  Antioxidant deficiency in cystic fibrosis: When is the right time to take action? Am. J. Clin. Nutr. 2004 80 374 384 10.1093/ajcn/80.2.374 15277158
+L123: 13. Cantin A.M. 
+L124:  Potential for antioxidant therapy of cystic fibrosis Curr. Opin. Pulm. Med. 2004 10 531 536 10.1097/01.mcp.0000138997.29276.a1 15510062
+L125: 14. Cantin A.M. 
+L126:  White T.B. 
+L127:  Cross C.E. 
+L128:  Forman H.J. 
+L129:  Sokol R.J. 
+L130:  Borowitz D. 
+L131:  Antioxidants in cystic fibrosis. Conclusions from the CF antioxidant workshop, Bethesda, Maryland, November 11–12, 2003 Free Radic. Biol. Med. 2007 42 15 31 10.1016/j.freeradbiomed.2006.09.022 17157190
+L132: 15. Lucidi V. 
+L133:  Ciabattoni G. 
+L134:  Bella S. 
+L135:  Barnes P.J. 
+L136:  Montuschi P. 
+L137:  Exhaled 8-isoprostane and prostaglandin E(2) in patients with stable and unstable cystic fibrosis Free Radic. Biol. Med. 2008 45 913 919 10.1016/j.freeradbiomed.2008.06.026 18634869
+L138: 16. Galli F. 
+L139:  Battistoni A. 
+L140:  Gambari R. 
+L141:  Pompella A. 
+L142:  Bragonzi A. 
+L143:  Pilolli F. 
+L144:  Iuliano L. 
+L145:  Piroddi M. 
+L146:  Dechecchi M.C. 
+L147:  Cabrini G. 
+L148:  
+L149:  Oxidative stress and antioxidant therapy in cystic fibrosis Biochim. Biophys. Acta 2012 1822 690 713 10.1016/j.bbadis.2011.12.012 22226887
+L150: 17. Lezo A. 
+L151:  Biasi F. 
+L152:  Massarenti P. 
+L153:  Calabrese R. 
+L154:  Poli G. 
+L155:  Santini B. 
+L156:  Bignamini E. 
+L157:  Oxidative stress in stable cystic fibrosis patients: Do we need higher antioxidant plasma levels? J. Cyst. Fibros. 2013 12 35 41 10.1016/j.jcf.2012.06.002 22781546
+L158: 18. Causer A.J. 
+L159:  Shute J.K. 
+L160:  Cummings M.H. 
+L161:  Shepherd A.I. 
+L162:  Gruet M. 
+L163:  Costello J.T. 
+L164:  Bailey S. 
+L165:  Lindley M. 
+L166:  Pearson C. 
+L167:  Connett G. 
+L168:  
+L169:  Circulating biomarkers of antioxidant status and oxidative stress in people with cystic fibrosis: A systematic review and meta-analysis Redox Biol. 2020 32 101436 10.1016/j.redox.2020.101436 32044291
+L170: 19. Galiniak S. 
+L171:  Molon M. 
+L172:  Rachel M. 
+L173:  Links between Disease Severity, Bacterial Infections and Oxidative Stress in Cystic Fibrosis Antioxidants 2022 11 887 10.3390/antiox11050887 35624751
+L174: 20. Singh V.K. 
+L175:  Schwarzenberg S.J. 
+L176:  Pancreatic insufficiency in Cystic Fibrosis J. Cyst. Fibros. 2017 16 (Suppl. S2) S70 S78 10.1016/j.jcf.2017.06.011 28986019
+L177: 21. van de Peppel I.P. 
+L178:  Bodewes F. 
+L179:  Verkade H.J. 
+L180:  Jonker J.W. 
+L181:  Bile acid homeostasis in gastrointestinal and metabolic complications of cystic fibrosis J. Cyst. Fibros. 2019 18 313 320 10.1016/j.jcf.2018.08.009 30201330
+L182: 22. Koscik R.L. 
+L183:  Farrell P.M. 
+L184:  Kosorok M.R. 
+L185:  Zaremba K.M. 
+L186:  Laxova A. 
+L187:  Lai H.C. 
+L188:  Douglas J.A. 
+L189:  Rock M.J. 
+L190:  Splaingard M.L. 
+L191:  Cognitive function of children with cystic fibrosis: Deleterious effect of early malnutrition Pediatrics 2004 113 1549 1558 10.1542/peds.113.6.1549 15173473
+L192: 23. Huang S.H. 
+L193:  Schall J.I. 
+L194:  Zemel B.S. 
+L195:  Stallings V.A. 
+L196:  Vitamin E status in children with cystic fibrosis and pancreatic insufficiency J. Pediatr. 2006 148 556 559 10.1016/j.jpeds.2005.11.016 16647424
+L197: 24. Okebukola P.O. 
+L198:  Kansra S. 
+L199:  Barrett J. 
+L200:  Vitamin E supplementation in people with cystic fibrosis Cochrane Database Syst. Rev. 2017 3 CD009422 10.1002/14651858.CD009422.pub3 28262916
+L201: 25. Packer J.E. 
+L202:  Slater T.F. 
+L203:  Willson R.L. 
+L204:  Direct observation of a free radical interaction between vitamin E and vitamin C Nature 1979 278 737 738 10.1038/278737a0 431730
+L205: 26. Frei B. 
+L206:  England L. 
+L207:  Ames B.N. 
+L208:  Ascorbate is an outstanding antioxidant in human blood plasma Proc. Natl. Acad. Sci. USA 1989 86 6377 6381 10.1073/pnas.86.16.6377 2762330
+L209: 27. Buettner G.R. 
+L210:  The pecking order of free radicals and antioxidants: Lipid peroxidation, alpha-tocopherol, and ascorbate Arch. Biochem. Biophys. 1993 300 535 543 10.1006/abbi.1993.1074 8434935
+L211: 28. Buettner C. 
+L212:  Phillips R.S. 
+L213:  Davis R.B. 
+L214:  Gardiner P. 
+L215:  Mittleman M.A. 
+L216:  Use of dietary supplements among United States adults with coronary artery disease and atherosclerotic risks Am. J. Cardiol. 2007 99 661 666 10.1016/j.amjcard.2006.09.116 17317368
+L217: 29. Sato A. 
+L218:  Takino Y. 
+L219:  Yano T. 
+L220:  Fukui K. 
+L221:  Ishigami A. 
+L222:  Determination of tissue-specific interaction between vitamin C and vitamin E in vivo using senescence marker protein-30 knockout mice as a vitamin C synthesis deficiency model Br. J. Nutr. 2022 128 993 1003 10.1017/S0007114521004384 34725010
+L223: 30. Atkinson J. 
+L224:  Marquardt D. 
+L225:  DiPasquale M. 
+L226:  Harroun T. 
+L227:  From fat to bilayers: Understanding where and how vitamin E works Free Radic. Biol. Med. 2021 176 73 79 10.1016/j.freeradbiomed.2021.09.015 34555454
+L228: 31. Ford E.S. 
+L229:  Liu S. 
+L230:  Mannino D.M. 
+L231:  Giles W.H. 
+L232:  Smith S.J. 
+L233:  C-reactive protein concentration and concentrations of blood vitamins, carotenoids, and selenium among United States adults Eur. J. Clin. Nutr. 2003 57 1157 1163 10.1038/sj.ejcn.1601667 12947436
+L234: 32. Wannamethee S.G. 
+L235:  Lowe G.D. 
+L236:  Rumley A. 
+L237:  Bruckdorfer K.R. 
+L238:  Whincup P.H. 
+L239:  Associations of vitamin C status, fruit and vegetable intakes, and markers of inflammation and hemostasis Am. J. Clin. Nutr. 2006 83 567 574 10.1093/ajcn.83.3.567 16522902
+L240: 33. Winklhofer-Roob B.M. 
+L241:  Ellemunter H. 
+L242:  Fruhwirth M. 
+L243:  Schlegel-Haueter S.E. 
+L244:  Khoschsorur G. 
+L245:  van’t Hof M.A. 
+L246:  Shmerling D.H. 
+L247:  Plasma vitamin C concentrations in patients with cystic fibrosis: Evidence of associations with lung inflammation Am. J. Clin. Nutr. 1997 65 1858 1866 10.1093/ajcn/65.6.1858 9174484
+L248: 34. Leonard S.W. 
+L249:  Paterson E. 
+L250:  Atkinson J.K. 
+L251:  Ramakrishnan R. 
+L252:  Cross C.E. 
+L253:  Traber M.G. 
+L254:  Studies in humans using deuterium-labeled alpha- and gamma-tocopherols demonstrate faster plasma gamma-tocopherol disappearance and greater gamma-metabolite production Free Radic. Biol. Med. 2005 38 857 866 10.1016/j.freeradbiomed.2004.12.001 15749381
+L255: 35. Bruno R.S. 
+L256:  Leonard S.W. 
+L257:  Atkinson J. 
+L258:  Montine T.J. 
+L259:  Ramakrishnan R. 
+L260:  Bray T.M. 
+L261:  Traber M.G. 
+L262:  Faster plasma vitamin E disappearance in smokers is normalized by vitamin C supplementation Free Radic. Biol. Med. 2006 40 689 697 10.1016/j.freeradbiomed.2005.10.051 16458200
+L263: 36. Bruno R.S. 
+L264:  Leonard S.W. 
+L265:  Li J. 
+L266:  Bray T.M. 
+L267:  Traber M.G. 
+L268:  Lower plasma alpha-carboxyethyl-hydroxychroman after deuterium-labeled alpha-tocopherol supplementation suggests decreased vitamin E metabolism in smokers Am. J. Clin. Nutr. 2005 81 1052 1059 10.1093/ajcn/81.5.1052 15883428
+L269: 37. Bruno R.S. 
+L270:  Ramakrishnan R. 
+L271:  Montine T.J. 
+L272:  Bray T.M. 
+L273:  Traber M.G. 
+L274:  {alpha}-Tocopherol disappearance is faster in cigarette smokers and is inversely related to their ascorbic acid status Am. J. Clin. Nutr. 2005 81 95 103 10.1093/ajcn/81.1.95 15640466
+L275: 38. Lei H. 
+L276:  Atkinson J. 
+L277:  Hydrogen-deuterium exchange during the reductive deuteration of alpha- and gamma-tocopherol chromenes J. Label. Compd. Radiopharm. 2001 44 215 223 10.1002/jlcr.449
+L278: 39. Podda M. 
+L279:  Weber C. 
+L280:  Traber M.G. 
+L281:  Packer L. 
+L282:  Simultaneous determination of tissue tocopherols, tocotrienols, ubiquinols, and ubiquinones J. Lipid Res. 1996 37 893 901 10.1016/S0022-2275(20)37587-8 8732789
+L283: 40. Vaule H. 
+L284:  Leonard S.W. 
+L285:  Traber M.G. 
+L286:  Vitamin E delivery to human skin: Studies using deuterated alpha-tocopherol measured by APCI LC-MS Free Radic. Biol. Med. 2004 36 456 463 10.1016/j.freeradbiomed.2003.11.020 14975448
+L287: 41. Lodge J.K. 
+L288:  Traber M.G. 
+L289:  Elsner A. 
+L290:  Brigelius-Flohe R. 
+L291:  A rapid method for the extraction and determination of vitamin E metabolites in human urine J. Lipid Res. 2000 41 148 154 10.1016/S0022-2275(20)32085-X 10627513
+L292: 42. Hong Y.L. 
+L293:  Yeh S.L. 
+L294:  Chang C.Y. 
+L295:  Hu M.L. 
+L296:  Total plasma malondialdehyde levels in 16 Taiwanese college students determined by various thiobarbituric acid tests and an improved high-performance liquid chromatography-based method Clin. Biochem. 2000 33 619 625 10.1016/S0009-9120(00)00177-6 11166008
+L297: 43. Ko Y.H. 
+L298:  Pedersen P.L. 
+L299:  Cystic fibrosis: A brief look at some highlights of a decade of research focused on elucidating and correcting the molecular basis of the disease J. Bioenerg. Biomembr. 2001 33 513 521 10.1023/A:1012831322753 11804193
+L300: 44. Food and Nutrition Board 
+L301:  Institute of Medicine 
+L302:  Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids National Academy Press Washington, DC, USA 2000 529
+L303: 45. Bruno R.S. 
+L304:  Leonard S.W. 
+L305:  Park S. 
+L306:  Zhao Y.Y. 
+L307:  Traber M.G. 
+L308:  Human vitamin E requirements assessed with the use of apples fortified with deuterium-labeled alpha-tocopheryl acetate Am. J. Clin. Nutr. 2006 83 299 304 10.1093/ajcn/83.2.299 16469987
+L309: 46. Traber M.G. 
+L310:  Head B. 
+L311:  Vitamin E: How much is enough, too much and why! Free Radic. Biol. Med. 2021 177 212 225 10.1016/j.freeradbiomed.2021.10.028 34699937
+L312: 47. Zamel R. 
+L313:  Khan R. 
+L314:  Pollex R.L. 
+L315:  Hegele R.A. 
+L316:  Abetalipoproteinemia: Two case reports and literature review Orphanet J. Rare Dis. 2008 3 19 10.1186/1750-1172-3-19 18611256
+L317: 48. Burnett J.R. 
+L318:  Hooper A.J. 
+L319:  Hegele R.A. 
+L320:  Abetalipoproteinemia. BTI—GeneReviews(®) GeneReviews® [Internet] 
+L321:  Adam M.P. 
+L322:  Everman D.B. 
+L323:  Mirzaa G.M. 
+L324:  Pagon R.A. 
+L325:  Wallace S.E. 
+L326:  Bean L.J.H. 
+L327:  Gripp K.W. 
+L328:  Amemiya A. 
+L329:  University of Washington Seattle, WA, USA 2018 [Updated 2022 May 19] Available online:  https://www.ncbi.nlm.nih.gov/books/NBK532447/ (accessed on 16 August 2022)
+L330: 49. Granot E. 
+L331:  Kohen R. 
+L332:  Oxidative stress in abetalipoproteinemia patients receiving long-term vitamin E and vitamin A supplementation Am. J. Clin. Nutr. 2004 79 226 230 10.1093/ajcn/79.2.226 14749227
+L333: 50. Di Donato I. 
+L334:  Bianchi S. 
+L335:  Federico A. 
+L336:  Ataxia with vitamin E deficiency: Update of molecular diagnosis Neurol. Sci. 2010 31 511 515 10.1007/s10072-010-0261-1 20464573
+L337: 51. Kohlschutter A. 
+L338:  Finckh B. 
+L339:  Nickel M. 
+L340:  Bley A. 
+L341:  Hubner C. 
+L342:  First recognized patient with genetic vitamin E deficiency stable after 36 years of controlled supplement therapy Neurodegener. Dis. 2020 20 35 38 10.1159/000508080 32623435
+L343: 52. Traber M.G. 
+L344:  Thellman C.A. 
+L345:  Rindler M.J. 
+L346:  Kayden H.J. 
+L347:  Uptake of intact TPGS (d-a-tocopheryl polyethylene glycol 1000 succinate) a water miscible form of vitamin E by human cells in vitro Am. J. Clin. Nutr. 1988 48 605 611 10.1093/ajcn/48.3.605 3414576
+L348: 53. Winklhofer-Roob B.M. 
+L349:  van’t Hof M.A. 
+L350:  Shmerling D.H. 
+L351:  Long-term oral vitamin E supplementation in cystic fibrosis patients: RRR-alpha-tocopherol compared with all-rac-alpha-tocopheryl acetate preparations Am. J. Clin. Nutr. 1996 63 722 728 10.1093/ajcn/63.5.722 8615355
+L352: 54. Winklhofer-Roob B.M. 
+L353:  Tuchschmid P.E. 
+L354:  Molinari L. 
+L355:  Shmerling D.H. 
+L356:  Response to a single oral dose of all-rac-alpha-tocopheryl acetate in patients with cystic fibrosis and in healthy individuals Am. J. Clin. Nutr. 1996 63 717 721 10.1093/ajcn/63.5.717 8615354
+L357: 55. Traber M.G. 
+L358:  Leonard S.W. 
+L359:  Bobe G. 
+L360:  Fu X. 
+L361:  Saltzman E. 
+L362:  Grusak M.A. 
+L363:  Booth S.L. 
+L364:  alpha-Tocopherol disappearance rates from plasma depend on lipid concentrations: Studies using deuterium-labeled collard greens in younger and older adults Am. J. Clin. Nutr. 2015 101 752 759 10.3945/ajcn.114.100966 25739929
+L365: 56. Violet P.C. 
+L366:  Ebenuwa I.C. 
+L367:  Wang Y. 
+L368:  Niyyati M. 
+L369:  Padayatty S.J. 
+L370:  Head B. 
+L371:  Wilkins K. 
+L372:  Chung S. 
+L373:  Thakur V. 
+L374:  Ulatowski L. 
+L375:  
+L376:  Vitamin E sequestration by liver fat in humans JCI Insight 2020 5 e133309 10.1172/jci.insight.133309 31821172
+L377: 57. Papas K. 
+L378:  Kalbfleisch J. 
+L379:  Mohon R. 
+L380:  Bioavailability of a novel, water-soluble vitamin E formulation in malabsorbing patients Dig. Dis. Sci. 2007 52 347 352 10.1007/s10620-006-9489-2 17216337
+L381: 58. Sagel S.D. 
+L382:  Khan U. 
+L383:  Jain R. 
+L384:  Graff G. 
+L385:  Daines C.L. 
+L386:  Dunitz J.M. 
+L387:  Borowitz D. 
+L388:  Orenstein D.M. 
+L389:  Abdulhamid I. 
+L390:  Noe J. 
+L391:  
+L392:  Effects of an Antioxidant-enriched Multivitamin in Cystic Fibrosis. A Randomized, Controlled, Multicenter Clinical Trial Am. J. Respir. Crit. Care Med. 2018 198 639 647 10.1164/rccm.201801-0105OC 29688760
+L393: 59. Ciofu O. 
+L394:  Smith S. 
+L395:  Lykkesfeldt J. 
+L396:  A systematic Cochrane Review of antioxidant supplementation lung disease for cystic fibrosis Paediatr. Respir. Rev. 2020 33 28 29 10.1016/j.prrv.2019.12.001 31956034
+L397: 60. Farrell P.M. 
+L398:  Bieri J.G. 
+L399:  Fratantoni J.F. 
+L400:  Wood R.E. 
+L401:  di Sant’Agnese P.A. 
+L402:  The occurrence and effects of human vitamin E deficiency. A study in patients with cystic fibrosis J. Clin. Investig. 1977 60 233 241 10.1172/JCI108760 874086
+L403: 61. Okebukola P.O. 
+L404:  Kansra S. 
+L405:  Barrett J. 
+L406:  Vitamin E supplementation in people with cystic fibrosis Cochrane Database Syst. Rev. 2020 9 CD009422 10.1002/14651858.CD009422.pub4 32892350
+L407: 62. Nowak J.K. 
+L408:  Sobkowiak P. 
+L409:  Drzymała-Czyż S. 
+L410:  Krzyżanowska-Jankowska P. 
+L411:  Sapiejka E. 
+L412:  Skorupa W. 
+L413:  Pogorzelski A. 
+L414:  Nowicka A. 
+L415:  Wojsyk-Banaszak I. 
+L416:  Kurek S. 
+L417:  
+L418:  Fat-Soluble Vitamin Supplementation Using Liposomes, Cyclodextrins, or Medium-Chain Triglycerides in Cystic Fibrosis: A Randomized Controlled Trial Nutrients 2021 13 4554 10.3390/nu13124554 34960106
+L419: 63. Wagener B.M. 
+L420:  Anjum N. 
+L421:  Evans C. 
+L422:  Brandon A. 
+L423:  Honavar J. 
+L424:  Creighton J. 
+L425:  Traber M.G. 
+L426:  Stuart R.L. 
+L427:  Stevens T. 
+L428:  Pittet J.F. 
+L429:  alpha-Tocopherol Attenuates the Severity of Pseudomonas aeruginosa-induced Pneumonia Am. J. Respir. Cell Mol. Biol. 2020 63 234 243 10.1165/rcmb.2019-0185OC 32243761
+L430: 64. Cross C.E. 
+L431:  Traber M. 
+L432:  Eiserich J. 
+L433:  van der Vliet A. 
+L434:  Micronutrient antioxidants and smoking Br. Med. Bull. 1999 55 691 704 10.1258/0007142991902565 10746357
+L435: 65. Tucker M.A. 
+L436:  Fox B.M. 
+L437:  Seigler N. 
+L438:  Rodriguez-Miguelez P. 
+L439:  Looney J. 
+L440:  Thomas J. 
+L441:  McKie K.T. 
+L442:  Forseen C. 
+L443:  Davison G.W. 
+L444:  Harris R.A. 
+L445:  Endothelial Dysfunction in Cystic Fibrosis: Role of Oxidative Stress Oxid. Med. Cell. Longev. 2019 2019 1629638 10.1155/2019/1629638 31320980
+L446: 66. Lagrange-Puget M. 
+L447:  Durieu I. 
+L448:  Ecochard R. 
+L449:  Abbas-Chorfa F. 
+L450:  Drai J. 
+L451:  Steghens J.P. 
+L452:  Pacheco Y. 
+L453:  Vital-Durand D. 
+L454:  Bellon G. 
+L455:  Longitudinal study of oxidative status in 312 cystic fibrosis patients in stable state and during bronchial exacerbation Pediatr. Pulmonol. 2004 38 43 49 10.1002/ppul.20041 15170872
+L456: 67. Horsley A.R. 
+L457:  Davies J.C. 
+L458:  Gray R.D. 
+L459:  Macleod K.A. 
+L460:  Donovan J. 
+L461:  Aziz Z.A. 
+L462:  Bell N.J. 
+L463:  Rainer M. 
+L464:  Mt-Isa S. 
+L465:  Voase N. 
+L466:  
+L467:  Changes in physiological, functional and structural markers of cystic fibrosis lung disease with treatment of a pulmonary exacerbation Thorax 2013 68 532 539 10.1136/thoraxjnl-2012-202538 23396354
+L468: 68. Hakim F. 
+L469:  Kerem E. 
+L470:  Rivlin J. 
+L471:  Bentur L. 
+L472:  Stankiewicz H. 
+L473:  Bdolach-Abram T. 
+L474:  Wilschanski M. 
+L475:  Vitamins A and E and pulmonary exacerbations in patients with cystic fibrosis J. Pediatr. Gastroenterol. Nutr. 2007 45 347 353 10.1097/MPG.0b013e31804069e5 17873748
+L476: 69. Heltshe S.L. 
+L477:  Goss C.H. 
+L478:  Optimising treatment of CF pulmonary exacerbation: A tough nut to crack Thorax 2016 71 101 102 10.1136/thoraxjnl-2015-208057 26769012
+L479: 70. Rowbotham N.J. 
+L480:  Palser S.C. 
+L481:  Smith S.J. 
+L482:  Smyth A.R. 
+L483:  Infection prevention and control in cystic fibrosis: A systematic review of interventions Expert Rev. Respir. Med. 2019 13 425 434 10.1080/17476348.2019.1595594 30892097
+L484: 71. Flume P.A. 
+L485:  Mogayzel P.J. Jr. 
+L486:  Robinson K.A. 
+L487:  Goss C.H. 
+L488:  Rosenblatt R.L. 
+L489:  Kuhn R.J. 
+L490:  Marshall B.C. 
+L491:  Clinical Practice Guidelines for Pulmonary Therapies Committee 
+L492:  Cystic fibrosis pulmonary guidelines: Treatment of pulmonary exacerbations Am. J. Respir. Crit. Care Med. 2009 180 802 808 10.1164/rccm.200812-1845PP 19729669
+L493: 72. Teng J. 
+L494:  Pourmand A. 
+L495:  Mazer-Amirshahi M. 
+L496:  Vitamin C: The next step in sepsis management? J. Crit. Care. 2018 43 230 234 10.1016/j.jcrc.2017.09.031 28934705
+L497: 73. Nabzdyk C.S. 
+L498:  Bittner E.A. 
+L499:  Vitamin C in the critically ill—Indications and controversies World J. Crit. Care Med. 2018 7 52 61 10.5492/wjccm.v7.i5.52 30370227
+L500: 74. Patel J.J. 
+L501:  Ortiz-Reyes A. 
+L502:  Dhaliwal R. 
+L503:  Clarke J. 
+L504:  Hill A. 
+L505:  Stoppe C. 
+L506:  Lee Z.Y. 
+L507:  Heyland D.K. 
+L508:  IV Vitamin C in Critically Ill Patients: A Systematic Review and Meta-Analysis Crit. Care Med. 2022 50 e304 e312 10.1097/CCM.0000000000005320 34637420
+L509: 75. Rozemeijer S. 
+L510:  van der Horst F.A.L. 
+L511:  de Man A.M.E. 
+L512:  Measuring vitamin C in critically ill patients: Clinical importance and practical difficulties-Is it time for a surrogate marker? Crit. Care 2021 25 310 10.1186/s13054-021-03670-x 34461968
+L513: 76. Torphy T.J. 
+L514:  Allen J. 
+L515:  Cantin A.M. 
+L516:  Konstan M.W. 
+L517:  Accurso F.J. 
+L518:  Joseloff E. 
+L519:  Ratjen F.A. 
+L520:  Chmiel J.F. 
+L521:  Antiinflammatory Therapy Working G. 
+L522:  Considerations for the Conduct of Clinical Trials with Antiinflammatory Agents in Cystic Fibrosis. A Cystic Fibrosis Foundation Workshop Report Ann. Am. Thorac Soc. 2015 12 1398 1406 10.1513/AnnalsATS.201506-361OT 26146892
+L523: 77. Xu X. 
+L524:  Abdalla T. 
+L525:  Bratcher P.E. 
+L526:  Jackson P.L. 
+L527:  Sabbatini G. 
+L528:  Wells J.M. 
+L529:  Lou X.Y. 
+L530:  Quinn R. 
+L531:  Blalock J.E. 
+L532:  Clancy J.P. 
+L533:  
+L534:  Doxycycline improves clinical outcomes during cystic fibrosis exacerbations Eur. Respir. J. 2017 49 1601102 10.1183/13993003.01102-2016 28381428
+L535: 78. Hisert K.B. 
+L536:  Heltshe S.L. 
+L537:  Pope C. 
+L538:  Jorth P. 
+L539:  Wu X. 
+L540:  Edwards R.M. 
+L541:  Radey M. 
+L542:  Accurso F.J. 
+L543:  Wolter D.J. 
+L544:  Cooke G. 
+L545:  
+L546:  Restoring Cystic Fibrosis Transmembrane Conductance Regulator Function Reduces Airway Bacteria and Inflammation in People with Cystic Fibrosis and Chronic Lung Infections Am. J. Respir Crit Care Med. 2017 195 1617 1628 10.1164/rccm.201609-1954OC 28222269
+L547: 79. Barry P.J. 
+L548:  Flume P.A. 
+L549:  Bronchodilators in cystic fibrosis: A critical analysis Expert Rev. Respir Med. 2017 11 13 20 10.1080/17476348.2017.1246358 27718752
+L550: 80. McCague A.F. 
+L551:  Raraigh K.S. 
+L552:  Pellicore M.J. 
+L553:  Davis-Marcisak E.F. 
+L554:  Evans T.A. 
+L555:  Han S.T. 
+L556:  Lu Z. 
+L557:  Joynt A.T. 
+L558:  Sharma N. 
+L559:  Castellani C. 
+L560:  
+L561:  Correlating Cystic Fibrosis Transmembrane Conductance Regulator Function with Clinical Features to Inform Precision Treatment of Cystic Fibrosis Am. J. Respir. Crit. Care Med. 2019 199 1116 1126 10.1164/rccm.201901-0145OC 30888834
+L562: 81. Sun T. 
+L563:  Sun Z. 
+L564:  Jiang Y. 
+L565:  Ferguson A.A. 
+L566:  Pilewski J.M. 
+L567:  Kolls J.K. 
+L568:  Chen W. 
+L569:  Chen K. 
+L570:  Transcriptomic Responses to Ivacaftor and Prediction of Ivacaftor Clinical Responsiveness Am. J. Respir. Cell Mol. Biol. 2019 61 643 652 10.1165/rcmb.2019-0032OC 30995102
+L571: 82. Shanthikumar S. 
+L572:  Ranganathan S. 
+L573:  Neeland M.R. 
+L574:  Ivacaftor, not ivacaftor/lumacaftor, associated with lower pulmonary inflammation in preschool cystic fibrosis Pediatr. Pulmonol. 2022 10.1002/ppul.26063
+L575: 83. Nichols D.P. 
+L576:  Paynter A.C. 
+L577:  Heltshe S.L. 
+L578:  Donaldson S.H. 
+L579:  Frederick C.A. 
+L580:  Freedman S.D. 
+L581:  Gelfond D. 
+L582:  Hoffman L.R. 
+L583:  Kelly A. 
+L584:  Narkewicz M.R. 
+L585:  
+L586:  Clinical Effectiveness of Elexacaftor/Tezacaftor/Ivacaftor in People with Cystic Fibrosis: A Clinical Trial Am. J. Respir. Crit. Care Med. 2022 205 529 539 10.1164/rccm.202108-1986OC 34784492
+L587: 84. Veltman M. 
+L588:  De Sanctis J.B. 
+L589:  Stolarczyk M. 
+L590:  Klymiuk N. 
+L591:  Bahr A. 
+L592:  Brouwer R.W. 
+L593:  Oole E. 
+L594:  Shah J. 
+L595:  Ozdian T. 
+L596:  Liao J. 
+L597:  
+L598:  CFTR Correctors and Antioxidants Partially Normalize Lipid Imbalance but not Abnormal Basal Inflammatory Cytokine Profile in CF Bronchial Epithelial Cells Front. Physiol. 2021 12 619442 10.3389/fphys.2021.619442 33613309
+L599: 85. Wang Y. 
+L600:  Ma B. 
+L601:  Li W. 
+L602:  Li P. 
+L603:  Efficacy and Safety of Triple Combination Cystic Fibrosis Transmembrane Conductance Regulator Modulators in Patients With Cystic Fibrosis: A Meta-Analysis of Randomized Controlled Trials Front. Pharmacol. 2022 13 863280 10.3389/fphar.2022.863280 35359862
+L604: Acknowledgments
+L605: We are grateful to the CF patients for their kind participation in these studies. We dedicate the study to the memory of one of the subjects and wife of another of the studied CF patients and to Vihas Vasu, who was intimately involved in collecting the patient plasma samples and interpreting data.
+[27ms]
+

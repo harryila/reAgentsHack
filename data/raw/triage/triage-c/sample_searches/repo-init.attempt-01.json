@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "repo",
+    "init",
+    "triage-c-probe-54e8e0d914",
+    "isolated triage probe set"
+  ],
+  "completed_at": "2026-08-16T02:59:35.921169+00:00",
+  "elapsed_seconds": 0.31088841590099037,
+  "failure_code": "PAPERCLIP_NONZERO_EXIT",
+  "retryable": false,
+  "returncode": 1,
+  "started_at": "2026-08-16T02:59:35.610265+00:00",
+  "stderr_bytes": 107,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-init.attempt-01.stderr",
+  "stdout_bytes": 0,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/triage/triage-c/sample_searches/repo-init.attempt-01.stdout"
+}

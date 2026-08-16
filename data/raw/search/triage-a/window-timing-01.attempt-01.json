@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "early time-restricted eating versus late time-restricted eating trial"
+  ],
+  "completed_at": "2026-08-16T02:57:30.483573+00:00",
+  "elapsed_seconds": 2.4808782080654055,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T02:57:28.002707+00:00",
+  "stderr_bytes": 34,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/window-timing-01.attempt-01.stderr",
+  "stdout_bytes": 54950,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/triage-a/window-timing-01.attempt-01.stdout"
+}

@@ -1,0 +1,1074 @@
+L1: Beetroot Juice and Exercise for Clinical Health and Athletic Performance: A Narrative Review
+L2: Nutrients (2026)
+L3: Eunjoo Lee, Hun-Young Park, Yerin Sun, Jae-Ho Choi, Seungyeon Woo, Sohyang Cho, Suyoung Kim, Yuanning Zheng, Sung-Woo Kim, Kiwon Lim
+L4: 1 Physical Activity and Performance Institute, Konkuk University, Seoul 05029, Republic of Korea;  eunjooo@konkuk.ac.kr  (E.L.);  parkhy1980@konkuk.ac.kr  (H.-Y.P.);  kswrha@konkuk.ac.kr  (S.-W.K.)
+L5: 2 Department of Sports Medicine and Science, Graduate School, Konkuk University, Seoul 05029, Republic of Korea;  edre82@konkuk.ac.kr  (Y.S.);  zas1135@konkuk.ac.kr  (J.-H.C.);  wsyzz92@konkuk.ac.kr  (S.W.);  whthgiddl123@konkuk.ac.kr  (S.C.);  syk6919@konkuk.ac.kr  (S.K.);  qw1204153841@konkuk.ac.kr  (Y.Z.)
+L6: 3 Department of Physical Education, Konkuk University, Seoul 05029, Republic of Korea
+L7: Beetroot juice (BRJ), a concentrated dietary source of nitrate alongside betalains and polyphenols, influences physiology through enhanced nitrate–nitrite–NO bioavailability, antioxidant activity, and interactions with oral and gut nitrate-reducing microbiota. The efficiency of these mechanisms depends on dose, timing, and preservation of oral bacteria, with antibacterial mouthwash or thiocyanate-rich foods potentially blunting NO 2 −  generation. Acute BRJ ingestion consistently elevates circulating nitrate and nitrite, yet its impact on glucose, insulin, and lipid regulation is modest; chronic intake may reinforce nitrate-reduction capacity, improve redox balance, and shift microbial composition, though long-term metabolic outcomes remain variable. Cardiovascular adaptations appear more coherent, with acute reductions in systolic blood pressure and improved endothelial function complemented in some cases by microvascular enhancements during multi-week supplementation. Neuromuscular and cognitive effects are less uniform; BRJ does not reliably increase maximal strength or global cognition but may support electrophysiological recovery after muscle-damaging exercise and improve executive performance under fatigue. In exercise settings, dose and timing are critical, as BRJ most consistently benefits endurance performance by reducing oxygen cost, improving exercise economy, and enhancing time-trial or time-to-exhaustion outcomes, whereas effects on sprint, power, and team-sport tasks are more sensitive to contraction duration, recovery intervals, and athlete training status. Overall, available evidence supports a role for NO-mediated vascular and metabolic pathways in the physiological effects of BRJ, although marked inter-individual variability highlights the need for responder-focused dosing strategies and further mechanistic investigation integrating metabolic, microbial, and performance-related outcomes.
+L8: Review
+L9: beetroot juice; dietary nitrate; nitric oxide; vascular function; metabolic health; neuromuscular function; cognitive performance; exercise performance
+L10: 1. Introduction
+L11: Beetroot juice (BRJ) has attracted growing interest across health and performance research due to its substantial content of inorganic nitrate (NO 3 − ) along with betalains, polyphenols, and other bioactive compounds [ 1 , 2 ]. The reduction of dietary NO 3 −  to nitrite and nitric oxide (NO) through the nitrate–nitrite–NO pathway is now well established, and this mechanism enables NO generation even under low-oxygen or acidic conditions typical of exercise [ 3 ]. Because NO influences vascular tone, oxidative balance, mitochondrial efficiency, and muscle contractile behavior, BRJ has become a promising nutritional strategy in several physiological domains [ 4 , 5 , 6 ]. Initial clinical research highlighted BRJ’s potential through observations of blood pressure reductions and improvements in endothelial function [ 7 , 8 ]. Subsequent studies broadened this perspective by reporting effects on mitochondrial efficiency [ 9 ], muscle performance characteristics [ 10 ], and changes in cerebral blood flow and cognitive responses [ 11 ]. In exercise science, BRJ has been explored for its ability to reduce the oxygen cost of submaximal work, delay fatigue in high-intensity tasks, and modify recovery dynamics [ 12 , 13 ]. At the same time, findings have not been uniform; the magnitude of response depends on exercise modality, supplementation dose and duration, and the individual’s training background [ 14 ]. More recently, researchers have emphasized that BRJ’s effects cannot be explained solely by nitrate intake. The timing of supplementation, the integrity of the oral microbiota, dietary habits, and factors such as age or cardiometabolic status all shape the degree to which NO 3 −  is converted to NO 2 −  and ultimately to NO [ 8 , 15 ]. These interactions underscore the need to interpret BRJ research within a broader physiological and behavioral context.
+L12: Therefore, the aim of this narrative review is to synthesize current evidence on the physiological actions of BRJ and to comprehensively examine human studies spanning metabolic, cardiovascular, neuromuscular, cognitive, and exercise-performance outcomes. By considering findings from both acute and chronic supplementation trials, this review explores how dosing strategies, timing, individual characteristics, and contextual factors shape the physiological and functional responses to BRJ. Through this broad evaluation, we summarize the potential applications, practical considerations, and known limitations of BRJ supplementation within both health-related and exercise settings.
+L13: This narrative review was designed to provide a broad overview of human evidence on the physiological and functional effects of beetroot juice across health- and exercise-related domains. Relevant literature was identified through searches of PubMed, Scopus, and Web of Science, including English-language studies available up to November 2025, using combinations of keywords related to beetroot juice, dietary nitrate, exercise performance, metabolic health, cardiovascular function, neuromuscular outcomes, immune responses, and cognitive function. Studies investigating the ingestion of isolated dietary nitrate or nitrate salts without beetroot juice were excluded. With the exception of the mechanistic section, which incorporates supporting in vivo and in vitro evidence, this narrative review primarily focuses on human intervention studies directly examining the effects of beetroot juice consumption. Meta-analyses and systematic reviews are cited only in the main text to provide contextual background and are not included in the tables, which summarize individual human intervention trials. As a narrative review, this work does not aim to systematically integrate or quantitatively synthesize findings; therefore, formal inclusion/exclusion criteria and risk-of-bias assessments were not applied. Instead, the review emphasizes broad coverage and descriptive synthesis of relevant studies across the topic.
+L14: 2. Physiological Mechanisms Underlying the Effects of Beetroot Juice
+L15: NO is known to be produced endogenously through the oxidation of L-arginine catalyzed by nitric oxide synthase (NOS) [ 16 , 17 , 18 ]. This oxygen-dependent enzymatic pathway involves three major NOS isoforms—neuronal NOS, inducible NOS, and endothelial NOS —each contributing to essential physiological functions such as vascular tone regulation, glucose uptake, and skeletal muscle blood flow [ 3 , 17 ]. However, recent evidence has identified an alternative, oxygen-independent nitrate–nitrite–NO pathway activated by dietary nitrate (NO 3 − ), such as that obtained from BRJ [ 1 , 2 ]. Following ingestion, NO 3 −  is absorbed in the small intestine and enters systemic circulation, where approximately 20–25% undergoes entero-salivary recirculation and is concentrated in the salivary glands. In the oral cavity, anaerobic bacteria (e.g.,  Neisseria ,  Veillonella ) reduce NO 3 −  to nitrite (NO 2 − ) [ 19 ]. The resulting NO 2 −  is further reduced to NO through non-enzymatic reactions in the highly acidic environment of the stomach (pH 1–3), where nitrous acid decomposes to NO and other reactive nitrogen species [ 2 ]. A portion of NO 2 −  enters systemic circulation and is enzymatically reduced to NO by deoxygenated hemoglobin (deoxy-Hb), deoxygenated myoglobin (deoxy-Mb), xanthine oxidoreductase (XOR), and mitochondrial respiratory chain enzymes—processes that are further enhanced under hypoxic or acidic conditions [ 20 ]. Thus, NO production can be maintained even when NOS activity is impaired.
+L16: Once produced, NO diffuses into vascular smooth muscle cells (SMCs) and activates soluble guanylate cyclase (sGC), leading to increased cyclic guanosine monophosphate (cGMP) concentrations, decreased intracellular Ca 2+ , and smooth muscle relaxation, ultimately inducing vasodilation [ 21 , 22 ]. Activation of this NO–sGC–cGMP signaling pathway supports endothelial function, enhances vascular compliance, lowers blood pressure, and promotes capillary recruitment and microvascular perfusion, thereby augmenting oxygen delivery and muscle oxygenation at the tissue level [ 23 , 24 ].
+L17: NO also exerts antiplatelet, antithrombotic, and endothelial-protective effects [ 8 , 25 ]. Furthermore, by inhibiting nicotinamide adenine dinucleotide phosphate oxidase and the nuclear factor-kappa B (NF-κB) signaling pathway, NO reduces oxidative stress and inflammatory responses, contributing to an overall improvement in cardiovascular function [ 4 , 26 , 27 ]. Beyond nitrate, BRJ contains several bioactive compounds—including betalains, betaine, and polyphenols—that provide complementary antioxidant and anti-inflammatory mechanisms [ 5 ]. Betalains (e.g., betanin, vulgaxanthin) act as potent antioxidants by directly scavenging reactive oxygen species (ROS), and by activating nuclear factor erythroid 2–related factor 2 (Nrf2). Through the antioxidant response element ARE, Nrf2 upregulates Phase II detoxification enzymes and endogenous antioxidant enzymes, thus attenuating oxidative stress [ 28 , 29 , 30 , 31 ]. Betalains and polyphenols further suppress inflammatory mediators—including NF-κB, cyclooxygenase-2, tumor necrosis factor-alpha, and interleukin-6 (IL-6)—thereby reinforcing endothelial protection [ 5 , 32 ].
+L18: Betaine acts as a methyl donor to reduce homocysteine concentrations and provides additional anti-inflammatory support to maintain cardiovascular stability [ 33 ]. At the skeletal muscle level, NO–cGMP signaling activates protein kinase G (PKG), which modulates intracellular Ca 2+  homeostasis, enhances sarcoplasmic reticulum Ca 2+  reuptake, and increases mitochondrial oxidative efficiency [ 10 , 34 ]. These adaptations improve contraction efficiency, reduce oxygen utilization, lower whole-body oxygen consumption (VO 2 ), and enhance fatigue resistance [ 9 , 35 ]. Notably, NO competes with oxygen at cytochrome c oxidase (Complex IV), reducing the oxygen cost of ATP production and improving energy efficiency [ 9 , 36 ]. Understanding these physiological pathways ( Figure 1 ) underscores the importance of factors such as nitrate dose, timing of ingestion, population characteristics, and oral microbiome integrity, all of which critically shape the magnitude of BRJ’s effects and are examined in the following section.
+L19: 3. Practical Considerations for Beetroot Juice Supplementation
+L20: 3.1. Timing Strategies for Exercise Settings
+L21: Most trials reporting benefits in vascular reactivity or exercise performance have aligned BRJ ingestion with the rise in circulating NO 3 −  and NO 2 − , which typically show their largest increases 2–3 h after intake [ 1 , 12 ]. This window corresponds to a period when NO formation is more strongly supported by the nitrate–nitrite pathway, and it is also when reductions in oxygen cost during submaximal work have most consistently been observed. Some studies have tested longer intervals, particularly in protocols involving prolonged exercise, yet the 2–3 h timing has remained sufficiently robust across different exercise modalities. When BRJ is consumed across several days or weeks, circulating nitrate gradually stabilizes at a higher baseline, and the exact timing becomes less sensitive; however, maintaining daily ingestion appears essential because the effect dissipates within 24–30 h without continued intake [ 37 ]. Testing schedules that diverge markedly from these pharmacokinetic patterns often show weaker results, suggesting that timing is an important contributor to variability in the literature.
+L22: 3.2. Dose–Response and Population-Specific Responsiveness
+L23: The nitrate content of commercially available BRJ varies widely, but doses approximating 5–9 mmol of NO 3 −  have repeatedly produced measurable changes in NO 2 −  levels and improvements in hemodynamic or exercise outcomes [ 38 , 39 ]. Larger doses may be necessary for individuals with higher body mass or reduced vascular or metabolic function due to differences in nitrate distribution volume or impaired conversion efficiency. Still, responses do not scale linearly with dose, and several studies suggest diminishing returns when nitrate intake exceeds the capacity of oral bacteria or systemic pathways to reduce it. Training status adds another layer of complexity. Recreationally active individuals tend to show clearer benefits in VO 2  kinetics, exercise economy, and blood pressure regulation, whereas highly trained endurance athletes often show minimal or inconsistent improvements, likely because their baseline physiological state already reflects high NO availability and efficient mitochondrial function [ 14 , 40 ]. Dietary background also matters; individuals habitually consuming nitrate-rich vegetables may exhibit blunted responses to supplementation because their baseline nitrite pool is already elevated. These population-specific factors help explain why responses to BRJ vary even when dosing protocols are similar.
+L24: 3.3. Considerations Related to Oral Microbiome Preservation
+L25: The reduction of NO 3 −  to NO 2 −  relies almost entirely on oral nitrate-reducing bacteria, making the composition and activity of the oral microbiome one of the most influential determinants of how effectively BRJ intake translates into physiological changes. The suppressive effect of antibacterial mouthwash is well documented; regular use can markedly lower bacterial nitrate reduction and blunt the expected rise in circulating NO 2 − , diminishing the improvements in blood pressure and vascular function reported in many supplementation studies [ 8 , 15 ]. Daily oral-hygiene habits, such as brushing immediately before ingestion or using certain toothpaste ingredients, can also transiently affect nitrate metabolism, although the magnitude of these effects varies. Dietary choices add another layer of nuance. Cruciferous vegetables such as broccoli, cauliflower, and red cabbage—along with related varieties like kale, Brussels sprouts, and Bok choy—contain appreciable amounts of thiocyanate, a compound that can compete with nitrate reduction under some conditions. While their influence is generally weaker than that of antimicrobial rinses, frequent or high intake may alter the oral environment enough to shift NO 2 −  formation in sensitive individuals. Because these microbial and dietary factors operate at the first step of nitrate metabolism, even small disruptions can propagate downstream and partly explain the heterogeneous responses often seen across BRJ trials. Preserving the typical activity of oral nitrate-reducing bacteria is therefore essential when interpreting findings or advising individuals on how to use BRJ for vascular, metabolic, or performance-related purposes.
+L26: 4. Effects of Beetroot Juice in Health and Exercise
+L27: The physiological actions of BRJ extend across multiple systems, and human studies have examined these effects in metabolic, cardiovascular, neuromuscular, immune, and cognitive domains. Although the magnitude of response varies across individuals and study designs, patterns in the literature suggest that changes in NO availability, microvascular function, mitochondrial efficiency, and redox balance are thought to contribute to several of the reported outcomes. However, the magnitude and consistency of these effects vary substantially across studies, reflecting heterogeneity in participant characteristics, supplementation protocols, and outcome measures.  Figure 2  provides an overview of acute and chronic responses across organ systems and illustrates how these physiological pathways align with the findings summarized in this section.
+L28: 4.1. Metabolic Health
+L29: Metabolic health encompasses glucose and insulin regulation, lipid profiles, oxidative balance, and contributions from the oral–gut microbiome. BRJ contains inorganic nitrate alongside betalains, polyphenols, and organic acids, allowing multiple routes of metabolic influence. Key findings from acute interventions are summarized in  Table 1 , while chronic adaptations are presented in  Table 2 .
+L30: Acute BRJ ingestion reliably raises circulating nitrate and nitrite [ 41 , 42 ]. Compared with sodium nitrate, beetroot juice uniquely increases betaine and choline [ 42 ], reflecting its broader composition. Despite clear biochemical changes, acute supplementation produces minimal effects on body composition or lipid markers [ 39 , 43 , 44 , 45 , 46 , 47 , 48 ]. Glucose-related outcomes remain stable in healthy adults [ 46 ], although reductions in total glucose exposure have been reported in type 2 diabetes (T2D) without concurrent changes in insulin [ 45 ]. Metabolomics analyses describe characteristic fingerprints—including dopamine-3-O-sulfate and 4-methylpyridine-2-carboxylic acid—that further increase during exercise [ 49 ].
+L31: Chronic BRJ ingestion yields patterns distinct from acute responses. Long-term intake preserves acute nitrite responsiveness and elevates fasting nitrate [ 39 ]. Four-week supplementation increased Neisseria and reduced Veillonella, correlating with higher plasma nitrate/nitrite [ 50 ]. Older adults show blunted nitrite responses, with greater ceruloplasmin-related NO scavenging [ 51 ]. Gut microbial shifts—including increased Akkermansia, decreased Bacteroides fragilis, and higher short-chain fatty acids (SCFAs) levels—have also been observed [ 52 ]. Chronic intake reduces oxidative stress and maintains NO availability even with impaired renal clearance [ 43 ]. In contrast, fasting glucose, insulin, homeostatic model assessment-insulin resistance (HOMA-IR), and postprandial responses largely remain unchanged [ 46 , 47 , 48 ]. These metabolic patterns vary with supplementation duration, dose, and individual microbial profiles, and the specific physiological relevance may differ across populations.
+L32: Table 1 Acute effects of beetroot juice supplementation on metabolic health outcomes.
+L33: Table 2 Chronic effects of beetroot juice supplementation on metabolic health outcomes.
+L34: 4.2. Cardiovascular Health
+L35: Cardiovascular health encompasses a broad set of physiological processes, including blood pressure regulation, endothelial function, macrovascular and microvascular responses, peripheral and cerebral hemodynamics, and autonomic reflex activity. Acute findings are summarized in  Table 3 , with longer-term adaptations detailed in  Table 4 .
+L36: Across this literature, BRJ consistently increases circulating nitrate and nitrite, yet the magnitude and expression of downstream vascular effects depend heavily on baseline vascular status, task context, and the heterogeneity of outcome measures used across studies. Acute ingestion produces rapid hemodynamic adjustments largely attributed to increased NO formation. Meta-analytic estimates report systolic blood pressure (SBP) reductions of approximately 5–10 mmHg following a single dose [ 55 ]. These findings are supported by trials in healthy younger adults showing comparable decreases [ 56 ]. Improvement in endothelial responsiveness represents another frequently observed acute outcome. Increases in flow-mediated dilation (FMD) have been reported in pregnant women [ 57 ], while trials examining postprandial vascular function documented reduced vascular resistance [ 44 ]. Exercise studies further demonstrate elevated skeletal muscle blood flow [ 58 ], implying that BRJ may facilitate nutrient and oxygen delivery during physiological stress. Several studies additionally describe more stable systemic and cerebral hemodynamics following acute ingestion [ 59 ], although the precise mechanisms underlying these responses remain incompletely defined. Acute effects on autonomic responses appear more selective. Cardiovagal baroreflex sensitivity and indices of cerebral autoregulation generally remain unchanged [ 60 , 61 ]. In contrast, reduced peripheral chemoreflex sensitivity has been documented [ 62 ], suggesting that BRJ may influence oxygen-sensing pathways more readily than central autonomic control. Heart rate and HRV typically show minimal changes [ 60 , 61 ], and acute supplementation rarely alters structural vascular indices such as arterial stiffness [ 59 ].
+L37: Chronic BRJ ingestion has been associated with broader and more sustained cardiovascular adaptations, particularly in individuals with elevated baseline risk. Several meta-analyses report reproducible SBP reductions among hypertensive adults, with interventions lasting ≥14 days yielding more consistent effects [ 63 , 64 ]. In contrast, normotensive adults or older adults taking antihypertensive medications tend to exhibit smaller or more variable blood pressure changes [ 54 , 56 ]. Improvements in endothelial function have been documented across multiple chronic trials. Older adults showed increased FMD after one to four weeks of supplementation [ 65 , 66 ], and studies combining BRJ with dietary modification demonstrated enhanced NO-dependent microvascular regulation [ 48 ]. In individuals with mild cognitive impairment, supplementation increased cerebral microvascular responsiveness [ 67 ], suggesting that BRJ may exert more pronounced effects in populations with impaired vascular control. Extended supplementation also appears to affect peripheral vascular and oxygenation responses. A 12-week high-nitrate BRJ intervention was associated with concurrent improvements in lower-limb FMD, skeletal muscle microvascular function, and angiogenic potential [ 68 ]. Similar patterns have been observed in studies examining exercising muscle perfusion and tissue oxygen delivery [ 58 , 59 , 69 ]. These effects suggest the possibility that microvascular adaptation may precede structural modifications in larger vessels, although direct longitudinal evidence remains limited. Chronic intake also contributes to sustained changes in NO metabolism. Plasma nitrate and nitrite reliably increase over time [ 70 ], accompanied by shifts in oral nitrate-reducing bacteria and reductions in oxidative stress markers [ 71 ]. Despite these biochemical modifications, metrics such as HR, HRV, and arterial stiffness generally remain unchanged [ 65 , 71 ]. Selective autonomic effects have been observed, including reduced peripheral chemoreflex sensitivity [ 62 ], though these do not appear to generalize across broader autonomic domains. Across studies, chronic BRJ supplementation shows variable effects on cardiovascular physiology. Substantial improvements are typically observed in groups with compromised endothelial function or elevated cardiometabolic risk, while responses in younger, healthy, or already normotensive individuals are more modest. Accordingly, these findings should be interpreted in light of population-specific baseline risk and differences in study design, rather than as uniform effects across all groups.
+L38: 4.3. Neuromuscular Function
+L39: Neuromuscular function includes strength, power, motor unit behavior, muscle excitability, fatigue resistance, and recovery capacity. Findings are summarized in  Table 5 .
+L40: Across studies, acute BRJ ingestion produces minimal changes in maximal voluntary contraction (MVC), rate of force development, or peak strength in sport climbers [ 72 ], tennis and basketball athletes [ 73 ], and female hockey players [ 74 ]. Similar patterns are reported in eccentric-exercise protocols, where MVC recovery and subjective soreness do not differ from placebo [ 26 ]. Power- and sprint-based performance outcomes also show limited responsiveness, although one study in semi-professional female rugby players documented an improvement in countermovement jump height [ 75 ]. Dose–response work adds nuance, suggesting that lower nitrate doses may influence the rate of torque development, whereas higher doses may affect peak torque [ 76 ]. Motor unit–level findings indicate that neural activation patterns remain largely unchanged following nitrate ingestion. Studies by Esen et al. show no alterations in motor unit firing rate, recruitment threshold, or motor unit potential area [ 77 , 78 ]. However, consistent reductions in motor unit potential duration suggest faster restoration of muscle fiber membrane conduction velocity, particularly during ischemic contractions, where BRJ improves the recovery of peripheral muscle excitability [ 77 ]. Functional indices of recovery—including MVC, countermovement jump, and pain thresholds—have improved in some studies even when biochemical markers of muscle damage (Creatine kinase (CK),  C -reactive protein (CRP), IL-6) do not change [ 26 , 79 ].
+L41: Longer-term supplementation has produced few measurable changes in neuromuscular performance. Extended nitrate ingestion improved exercise tolerance in one trial but did not modify MVC, electromyography (EMG) amplitude, or fatigability [ 53 ]. Other multi-week interventions similarly report no changes in muscle strength, power, EMG-based activation, or motor unit recruitment strategies [ 80 , 81 ]. Across chronic trials, contractile properties and central neural control appear largely unaffected, and performance outcomes remain stable regardless of dose or supplementation duration. Taken across studies, BRJ’s neuromuscular effects appear most evident in contexts involving fatigue or recovery, where improvements in functional performance and muscle fiber conduction properties are occasionally observed. The degree to which these responses occur varies by supplementation dose, muscle group tested, and the specific physiological demands of the task being evaluated. Nevertheless, the available evidence remains limited in scope, and conclusions are primarily based on a relatively small number of heterogeneous studies.
+L42: Table 3 Acute effects of beetroot juice supplementation on cardiovascular health.
+L43: Table 4 Chronic effects of beetroot juice supplementation on cardiovascular health.
+L44: Table 5 Effects of beetroot juice supplementation on neurological function.
+L45: 4.4. Brain Health and Cognitive Function
+L46: Neuromuscular outcomes reported in human trials (summarized in  Table 5 ) show that acute BRJ ingestion rarely alters maximal strength, rate of force development, or high-intensity neuromuscular output across diverse populations.
+L47: Studies in sport climbers [ 72 ], tennis athletes [ 73 ], and female hockey players [ 74 ] consistently show unchanged MVC, handgrip force, pull-up performance, and short-duration power tasks. Eccentric-exercise protocols likewise report no differences in soreness, MVC recovery, or inflammatory markers [ 26 ]. Power- and sprint-based measures also tend to remain stable, although an increase in Countermovement jump (CMJ) height was observed in semi-professional female rugby players following acute supplementation [ 75 ]. Dose–response evidence further suggests that lower nitrate doses may enhance the rate of torque development, whereas higher doses influence peak torque [ 76 ], indicating that specific neuromuscular parameters may respond differently to nitrate availability. At the electrophysiological level, studies by Esen et al. demonstrate that motor unit firing rate, recruitment threshold, and MUP area remain unchanged following nitrate ingestion [ 77 , 78 ], yet repeated reductions in MUP duration point toward faster restoration of muscle fiber membrane conduction velocity. This effect is especially apparent under ischemic conditions, where nitrate improves the recovery of MUP duration and peripheral excitability without altering central activation strategies [ 77 ]. Functional recovery outcomes—such as restored MVC, improved CMJ, and increased pain thresholds—have been observed in some trials even when biochemical markers of muscle damage (CK, CRP, IL-6) do not change, suggesting that BRJ may support neuromuscular recovery through mechanisms not captured by standard damage biomarkers [ 26 , 79 ].
+L48: Chronic supplementation produces fewer measurable neuromuscular adaptations. Multi-week interventions show improved exercise tolerance in one study but little change in MVC, EMG amplitude, fatigability, or muscle contractile properties [ 53 ]. Similar null findings have been reported for strength, power, EMG-based activation, and motor unit recruitment after prolonged ingestion across different nitrate doses [ 80 , 81 ]. The available chronic evidence therefore suggests limited effects on central neuromuscular mechanisms or structural muscle function, although peripheral electrophysiological responses—such as faster restoration of membrane conduction—seen in acute studies may still be relevant depending on task demands. Together, the current literature indicates that BRJ does not consistently enhance maximal neuromuscular performance but may influence peripheral muscle excitability or functional recovery under specific physiological conditions, with responses varying according to muscle group, supplementation dose, and the characteristics of the activity performed.
+L49: 5. Effects of Beetroot Juice and Exercise on Athletic Performance
+L50: The mechanisms through which beetroot juice (BRJ) influences physiological responses to exercise—illustrated in  Figure 3 —form the basis for understanding its potential effects on athletic performance. Building on these mechanistic pathways, this section synthesizes findings from studies that administered BRJ acutely or over periods of sustained supplementation and evaluates how performance responses differ across endurance- based exercise, short-duration sprint and power tasks, and the intermittent, multidirectional demands typical of team sports. Because outcomes vary considerably with factors such as training status, exercise modality, and supplementation timing, the following subsections outline these performance domains separately to clarify when and under what conditions BRJ intake translates into measurable ergogenic effects ( Table 6 ).
+L51: Table 6 Effects of beetroot juice supplementation on brain health and cognitive outcomes.
+L52: 5.1. Endurance Athletes
+L53: Research on endurance performance shows the most consistent improvements with BRJ supplementation, reflecting its influence on oxygen cost, exercise economy, and tolerance to prolonged or high-intensity exertion. Findings summarized in  Table 7  (acute) and  Table 8  (chronic) demonstrate that BRJ can enhance aerobic performance across cycling, running, rowing, swimming, and other endurance-based activities.
+L54: Meta-analytic evidence indicates reductions in the oxygen cost of submaximal exercise, improved mitochondrial and contractile efficiency, and enhanced NO-mediated vasodilation, which together contribute to better exercise economy [ 96 ]. In trained cyclists, acute supplementation shortened 4 km and 16.1 km time-trial performance by 2.7–2.8% and increased the ratio of power output to oxygen consumption (PO/VO 2 ) [ 14 ]. Similar benefits have been documented in rowing, where a single BRJ dose improved 2000 m time-trial performance and increased VO 2 max in master rowers [ 97 ], and in alpine skiing, where slalom completion time improved following supplementation [ 98 ]. Running performance also shows positive responses, with improvements of ~1.9% in 1500 m time trials following acute ingestion [ 99 ]. BRJ also demonstrates clear benefits for exercise economy and tolerance during sustained or intermittent efforts. In low-fitness individuals, four days of supplementation reduced submaximal oxygen consumption at 45% and 60% VO 2 max, whereas high-fitness individuals showed no change [ 100 ]. Competitive swimmers exhibited reduced aerobic energy cost and higher workloads at the anaerobic threshold after six days of BRJ ingestion [ 101 ]. During prolonged moderate-intensity cycling, BRJ preserved elevated plasma nitrite concentrations and attenuated the rise in oxygen uptake, reflecting improved submaximal economy when taken both before and during exercise [ 102 ]. Improvements in time to exhaustion (TTE) have been consistently reported across populations. Adolescents with obesity showed a ~23% increase in TTE after six days of supplementation, accompanied by reductions in the VO 2  slow component [ 103 ]. Intermittent endurance capacity responds similarly, with single-dose BRJ increasing Yo-Yo IR1 performance [ 13 ] and three-day supplementation increasing total work and number of bouts completed during supramaximal intermittent cycling [ 104 ]. Cardiorespiratory variables may also improve under certain conditions; in female endurance athletes, acute intake increased VO 2 max by ~4.8% and improved ventilatory efficiency [ 105 ], although other studies in rowers observed performance benefits without changes in ventilatory responses [ 97 ]. Performance gains are not universal, particularly among elite endurance athletes whose physiological systems may already operate near their maximal NO-related capacity [ 106 ]. In highly trained 1500 m runners, BRJ supplementation did not affect running economy or time-trial performance [ 107 ], and in competitive swimmers, acute ingestion did not enhance repeated interval performance [ 101 ]. These heterogeneous responses indicate that the ergogenic effects of BRJ are more likely to emerge in athletes whose oxygen cost, mitochondrial efficiency, or NO-mediated vasodilation retain greater capacity for improvement.
+L55: 5.2. Sprint and Power Athletes
+L56: The effects of BRJ supplementation on sprint and power performance are mixed and strongly context dependent, with improvements appearing in certain explosive tasks but not consistently expressed across protocols or athlete groups. In short-duration maximal efforts, several studies have reported clear benefits. A single dose of BRJ increased peak and mean power and shortened the time to reach peak power during a 30 s all-out Wingate sprint in resistance-trained men [ 108 ]. Maximal cycling sprints lasting 3–4 s have shown ~6% increases in peak power and higher optimal pedaling rates following BRJ ingestion [ 109 ]. In physically active women, supplementation improved CMJ height, power output, and barbell velocity during back squats, along with better repetition performance at 75% 1RM [ 110 ]. Similar improvements in explosive strength and Special Judo Fitness Test (SJFT) scores have been observed in elite adolescent judo athletes [ 111 ], suggesting that very brief, Type II fiber–dominant efforts may be particularly responsive to BRJ. Benefits have also been documented during repeated high-intensity resistance tasks. In healthy men, BRJ increased mean and peak power during sets performed at 60–80% 1RM, accompanied by higher barbell velocity and less power decline across repetitions [ 108 ]. Recovery-related outcomes demonstrate a similar pattern. After exercise-induced muscle damage, supplementation reduced muscle soreness and thigh swelling and helped restore static muscular endurance [ 112 ]. A systematic review has likewise shown improvements in muscle function recovery—especially MVC and CMJ—within 24–72 h [ 79 ]. These findings may reflect enhanced perfusion, improved metabolic efficiency, and NO-mediated support for excitation–contraction processes. At the same time, several well-controlled trials show minimal or no benefit. In some resistance-trained or sport-trained populations, BRJ has failed to meaningfully change peak force, movement velocity, repetition performance, or maximal isometric strength. These neutral outcomes are often observed in highly trained athletes whose neuromuscular systems are already operating near their mechanical and metabolic limits, leaving less opportunity for supplementation to influence contractile performance. BRJ appears to influence discrete components of sprint and power performance—particularly maximal power expression over very short durations, the maintenance of power during repeated efforts, and aspects of recovery from muscle-damaging activity—while showing limited effects on traditional strength measures or tasks requiring prolonged neuromuscular output. The available findings for acute and chronic protocols are summarized in  Table 9  and  Table 10 .
+L57: 5.3. Team-Sport Athletes
+L58: Team sports impose a distinct set of physiological and technical demands—continuous alternation between aerobic and anaerobic efforts, frequent changes in direction, contact situations, and decision-making under fatigue. These characteristics make the performance responses to BRJ supplementation different from those observed in isolated sprint or power protocols. Studies relevant to team sports from the current evidence base are summarized in  Table 11 , and their main findings are outlined below.
+L59: Across several investigations, repeated-sprint performance itself did not consistently improve, yet partial benefits appeared in recovery-related outcomes and in the preservation of function under fatigue. For example, in a study examining recovery between sprint bouts, BRJ ingestion facilitated better restoration of muscle function and reduced soreness, even though sprint performance per se remained unchanged [ 112 ]. In team-sport athletes such as basketball players, acute BRJ supplementation did not improve neuromuscular performance or match-play activity, supporting the notion that improvements in explosive actions may be context-dependent [ 91 ].
+L60: Some studies have reported performance enhancements under more specific conditions. In an intermittent-exercise model relevant to team sports, 7 days of BRJ supplementation increased total work performed during an 80 min protocol and helped maintain cognitive reaction speed in later stages, indicating protection of decision-making capacity under fatigue [ 113 ]. By contrast, protocols involving very high-intensity efforts with minimal recovery demonstrate a different response pattern. In an intermittent sprint task consisting of repeated 8 s all-out sprints with 30 s active recovery, a single dose of BRJ resulted in fewer completed sprints and lower total work, while mean and peak power, heart rate, blood lactate, and perceived exertion were unaffected [ 114 ]. BRJ supplementation in team-sport athletes appears to offer benefits in selected areas—such as recovery of muscle function, attenuation of soreness, maintenance of work output during prolonged intermittent exercise, and preservation of cognitive performance under fatigue—while showing inconsistent effects on key sport-specific outcomes including sprint speed, repeated-sprint ability, change-of-direction performance, and high-speed running. These variable responses likely reflect interactions among exercise structure, technical demands, recovery duration, athlete training status, and supplementation parameters, which together shape whether and how performance improvements emerge in team-sport environments.
+L61: Table 7 Acute effects of beetroot juice supplementation on endurance performance.
+L62: Table 8 Chronic effects of beetroot juice supplementation on endurance performance.
+L63: Table 9 Acute effects of beetroot juice supplementation on sprint and power performance.
+L64: Table 10 Chronic effects of beetroot juice supplementation on sprint and power performance.
+L65: Table 11 Effects of beetroot juice supplementation on team-sport performance and recovery.
+L66: 6. Conclusions and Future Directions
+L67: Beetroot juice exerts its most consistent physiological actions through marked enhancement of nitrate–nitrite–NO bioavailability, improvements in redox balance, and microbiome-related modulation of nitrate-reduction capacity. Acute ingestion reliably increases circulating NOx and triggers short-term biochemical responses, yet these changes translate only minimally into classical metabolic markers such as glucose, insulin, lipids, or endocrine hormones. Chronic supplementation produces more sustained adaptations—including elevated fasting nitrate, enhanced oral and gut microbial nitrate reduction, and reductions in oxidative stress—although long-term effects on glycemic or lipid regulation remain inconsistent across studies. With respect to exercise performance, BRJ appears to benefit submaximal endurance tasks that depend on oxygen efficiency, whereas findings in high-intensity intermittent or strength–power exercise are variable and task-specific. Taken together, current evidence suggests that BRJ influences metabolic health primarily through NO-mediated and antioxidant pathways rather than through consistent modulation of conventional metabolic indices or uniform improvements in performance. This review should be interpreted in light of its narrative design, which does not aim to provide a systematic or exhaustive synthesis of the literature. Variations in the depth of evidence across domains reflect the current availability and maturity of human studies, underscoring the need for further research in less-studied areas. Future research should aim to clarify the sources of variability in metabolic responses to BRJ, including age-related declines in nitrate responsiveness, individual differences in oral and gut nitrate-reducing microbiota, and baseline cardiometabolic status. Multi-omics approaches integrating metabolomics, metagenomics, and mitochondrial bioenergetics are needed to delineate the mechanistic links between BRJ’s bioactive components and downstream metabolic outcomes beyond NO production alone. In the exercise domain, task-specific and responder-focused study designs are warranted to identify which individuals and exercise modalities benefit most from BRJ, particularly in high-intensity or neuromuscular contexts where current findings are inconsistent. Dose–response relationships, optimal timing strategies, chronic versus acute stacking effects, and interactions with diet, oral hygiene, and habitual nitrate intake also require systematic evaluation. Finally, translating BRJ research to clinical populations—including individuals with hypertension, endothelial dysfunction, insulin resistance, or age-related metabolic decline—remains an important avenue for determining its therapeutic potential in cardiometabolic health.
+L68: Figure 1 Overview of the physiological mechanisms through which beetroot juice (BRJ) influences nitric oxide availability, vascular function, and skeletal muscle energetics. ( a ) Entero-salivary nitrate reduction and hypoxic/acidic conversion of NO 3 −  → NO 2 −  → NO, involving deoxygenated Hb/Mb, XOR, and mitochondrial pathways. ( b ) Endothelial NO signaling through the sGC–cGMP–PKG pathway promotes vasodilation, blood flow regulation, and improved vascular function. ( c ) NO effects on skeletal muscle energetics, including enhanced mitochondrial efficiency, faster PCr resynthesis, lower ATP cost, and modulation of Ca 2+  handling via RyR and SERCA. ↑ and ↓ indicate increases and decreases, respectively. The red cross denotes NO-mediated inhibition or competition of oxygen binding at cytochrome c oxidase (Complex IV).
+L69: Figure 2 Overview of acute and chronic health-related outcomes of beetroot juice supplementation across physiological systems. ↑ and ↓ indicate increases and decreases, respectively, while ↔ denotes no apparent change.
+L70: Figure 3 Nitrate-derived NO enhances vasodilation, mitochondrial efficiency, and Ca 2+  handling, supporting improved endurance, sprint, and power performance. ↑ and ↓ indicate increases and decreases, respectively.
+L71: 1. Jones A.M. 
+L72:  Dietary nitrate supplementation and exercise performance Sports Med. 2014 44 35 45 10.1007/s40279-014-0149-y
+L73: 2. Lundberg J.O. 
+L74:  Weitzberg E. 
+L75:  Gladwin M.T. 
+L76:  The nitrate-nitrite-nitric oxide pathway in physiology and therapeutics Nat. Rev. Drug Discov. 2008 7 156 167 10.1038/nrd2466 18167491
+L77: 3. Stamler J.S. 
+L78:  Meissner G. 
+L79:  Physiology of nitric oxide in skeletal muscle Physiol. Rev. 2001 81 209 237 10.1152/physrev.2001.81.1.209 11152758
+L80: 4. Zamani H. 
+L81:  De Joode M.E.J.R. 
+L82:  Hossein I.J. 
+L83:  Henckens N.F.T. 
+L84:  Guggeis M.A. 
+L85:  Berends J.E. 
+L86:  De Kok T.M.C.M. 
+L87:  Van Breda S.G.J. 
+L88:  The benefits and risks of beetroot juice consumption: A systematic review Crit. Rev. Food Sci. Nutr. 2021 61 788 804 10.1080/10408398.2020.1746629 32292042
+L89: 5. Hadipour E. 
+L90:  Taleghani A. 
+L91:  Tayarani-Najaran N. 
+L92:  Tayarani-Najaran Z. 
+L93:  Biological effects of red beetroot and betalains: A review Phytother. Res. 2020 34 1847 1867 10.1002/ptr.6653 32171042
+L94: 6. Lundberg J.O. 
+L95:  Carlstrom M. 
+L96:  Weitzberg E. 
+L97:  Metabolic Effects of Dietary Nitrate in Health and Di sease Cell Metab. 2018 28 9 22 10.1016/j.cmet.2018.06.007 29972800
+L98: 7. Webb A.J. 
+L99:  Patel N. 
+L100:  Loukogeorgakis S. 
+L101:  Okorie M. 
+L102:  Aboud Z. 
+L103:  Misra S. 
+L104:  Rashid R. 
+L105:  Miall P. 
+L106:  Deanfield J. 
+L107:  Benjamin N. 
+L108:  
+L109:  Acute blood pressure lowering, vasoprotective, and antiplatelet properties of dietary nitrate via bioconversion to nitrite Hypertension 2008 51 784 790 10.1161/HYPERTENSIONAHA.107.103523 18250365
+L110: 8. Kapil V. 
+L111:  Khambata R.S. 
+L112:  Robertson A. 
+L113:  Caulfield M.J. 
+L114:  Ahluwalia A. 
+L115:  Dietary nitrate provides sustained blood pressure lowering in hypertensive patients: A randomized, phase 2, double-blind, placebo-controlled study Hypertension 2015 65 320 327 10.1161/HYPERTENSIONAHA.114.04675 25421976
+L116: 9. Larsen F.J. 
+L117:  Schiffer T.A. 
+L118:  Borniquel S. 
+L119:  Sahlin K. 
+L120:  Ekblom B. 
+L121:  Lundberg J.O. 
+L122:  Weitzberg E. 
+L123:  Dietary inorganic nitrate improves mitochondrial efficiency in humans Cell Metab. 2011 13 149 159 10.1016/j.cmet.2011.01.004 21284982
+L124: 10. Hernandez A. 
+L125:  Schiffer T.A. 
+L126:  Ivarsson N. 
+L127:  Cheng A.J. 
+L128:  Bruton J.D. 
+L129:  Lundberg J.O. 
+L130:  Weitzberg E. 
+L131:  Westerblad H. 
+L132:  Dietary nitrate increases tetanic [Ca2+]i and contractile force in mouse fast-twitch muscle J. Physiol. 2012 590 3575 3583 10.1113/jphysiol.2012.232777 22687611
+L133: 11. Wightman E.L. 
+L134:  Haskell-Ramsay C.F. 
+L135:  Thompson K.G. 
+L136:  Blackwell J.R. 
+L137:  Winyard P.G. 
+L138:  Forster J. 
+L139:  Jones A.M. 
+L140:  Kennedy D.O. 
+L141:  Dietary nitrate modulates cerebral blood flow parameters and cognitive performance in humans: A double-blind, placebo-controlled, crossover investigation Physiol. Behav. 2015 149 149 158 10.1016/j.physbeh.2015.05.035 26037632
+L142: 12. Wylie L.J. 
+L143:  Mohr M. 
+L144:  Krustrup P. 
+L145:  Jackman S.R. 
+L146:  Ermiotadis G. 
+L147:  Kelly J. 
+L148:  Black M.I. 
+L149:  Bailey S.J. 
+L150:  Vanhatalo A. 
+L151:  Jones A.M. 
+L152:  Dietary nitrate supplementation improves team sport-specific intense intermittent exercise performance Eur. J. Appl. Physiol. 2013 113 1673 1684 10.1007/s00421-013-2589-8 23370859
+L153: 13. Thompson C. 
+L154:  Vanhatalo A. 
+L155:  Jell H. 
+L156:  Fulford J. 
+L157:  Carter J. 
+L158:  Nyman L. 
+L159:  Bailey S.J. 
+L160:  Jones A.M. 
+L161:  Dietary nitrate supplementation improves sprint and high-intensity intermittent running performance Nitric Oxide 2016 61 55 61 10.1016/j.niox.2016.10.006 27777094
+L162: 14. Lansley K.E. 
+L163:  Winyard P.G. 
+L164:  Bailey S.J. 
+L165:  Vanhatalo A. 
+L166:  Wilkerson D.P. 
+L167:  Blackwell J.R. 
+L168:  Gilchrist M. 
+L169:  Benjamin N. 
+L170:  Jones A.M. 
+L171:  Acute dietary nitrate supplementation improves cycling time trial performance Med. Sci. Sports Exerc. 2011 43 1125 1131 10.1249/MSS.0b013e31821597b4 21471821
+L172: 15. Govoni M. 
+L173:  Jansson E.Å. 
+L174:  Weitzberg E. 
+L175:  Lundberg J.O. 
+L176:  The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash Nitric Oxide 2008 19 333 337 10.1016/j.niox.2008.08.003 18793740
+L177: 16. Clements W.T. 
+L178:  Lee S.R. 
+L179:  Bloomer R.J. 
+L180:  Nitrate ingestion: A review of the health and physical performance effects Nutrients 2014 6 5224 5264 10.3390/nu6115224 25412154
+L181: 17. Forstermann U. 
+L182:  Sessa W.C. 
+L183:  Nitric oxide synthases: Regulation and function Eur. Heart J. 2012 33 829 837 10.1093/eurheartj/ehr304 21890489
+L184: 18. Lidder S. 
+L185:  Webb A.J. 
+L186:  Vascular effects of dietary nitrate (as found in green leafy vegetables and beetroot) via the nitrate-nitrite-nitric oxide pathway Br. J. Clin. Pharmacol. 2013 75 677 696 10.1111/j.1365-2125.2012.04420.x 22882425
+L187: 19. Hezel M.P. 
+L188:  Weitzberg E. 
+L189:  The oral microbiome and nitric oxide homoeostasis Oral Dis. 2015 21 7 16 10.1111/odi.12157 23837897
+L190: 20. Modin A. 
+L191:  Bjorne H. 
+L192:  Herulf M. 
+L193:  Alving K. 
+L194:  Weitzberg E. 
+L195:  Lundberg J.O. 
+L196:  Nitrite-derived nitric oxide: A possible mediator of ‘acidic-metabolic’ vasodilation Acta Physiol. Scand. 2001 171 9 16 10.1046/j.1365-201X.2001.00771.x 11350258
+L197: 21. Arnold W.P. 
+L198:  Mittal C.K. 
+L199:  Katsuki S. 
+L200:  Murad F. 
+L201:  Nitric oxide activates guanylate cyclase and increases guanosine 3′:5′-cyclic monophosphate levels in various tissue preparations Proc. Natl. Acad. Sci. USA 1977 74 3203 3207 10.1073/pnas.74.8.3203 20623
+L202: 22. Ignarro L.J. 
+L203:  Buga G.M. 
+L204:  Wood K.S. 
+L205:  Byrns R.E. 
+L206:  Chaudhuri G. 
+L207:  Endothelium-derived relaxing factor produced and released from artery and vein is nitric oxide Proc. Natl. Acad. Sci. USA 1987 84 9265 9269 10.1073/pnas.84.24.9265 2827174
+L208: 23. Ferguson S.K. 
+L209:  Hirai D.M. 
+L210:  Copp S.W. 
+L211:  Holdsworth C.T. 
+L212:  Allen J.D. 
+L213:  Jones A.M. 
+L214:  Musch T.I. 
+L215:  Poole D.C. 
+L216:  Impact of dietary nitrate supplementation via beetroot juice on exercising muscle vascular control in rats J. Physiol. 2013 591 547 557 10.1113/jphysiol.2012.243121 23070702
+L217: 24. Casey D.P. 
+L218:  Treichler D.P. 
+L219:  Ganger C.T.t. 
+L220:  Schneider A.C. 
+L221:  Ueda K. 
+L222:  Acute dietary nitrate supplementation enhances compensatory vasodilation during hypoxic exercise in older adults J. Appl. Physiol. 2015 118 178 186 10.1152/japplphysiol.00662.2014 25414241
+L223: 25. Velmurugan S. 
+L224:  Kapil V. 
+L225:  Ghosh S.M. 
+L226:  Davies S. 
+L227:  McKnight A. 
+L228:  Aboud Z. 
+L229:  Khambata R.S. 
+L230:  Webb A.J. 
+L231:  Poole A. 
+L232:  Ahluwalia A. 
+L233:  Antiplatelet effects of dietary nitrate in healthy volunteers: Involvement of cGMP and influence of sex Free Radic. Biol. Med. 2013 65 1521 1532 10.1016/j.freeradbiomed.2013.06.031 23806384
+L234: 26. Clifford T. 
+L235:  Bell O. 
+L236:  West D.J. 
+L237:  Howatson G. 
+L238:  Stevenson E.J. 
+L239:  Antioxidant-rich beetroot juice does not adversely affect acute neuromuscular adaptation following eccentric exercise J. Sports Sci. 2017 35 812 819 10.1080/02640414.2016.1192670 27267689
+L240: 27. McNally B. 
+L241:  Griffin J.L. 
+L242:  Roberts L.D. 
+L243:  Dietary inorganic nitrate: From villain to hero in metabolic disease? Mol. Nutr. Food Res. 2016 60 67 78 10.1002/mnfr.201500153 26227946
+L244: 28. Lee J.M. 
+L245:  Johnson J.A. 
+L246:  An important role of Nrf2-ARE pathway in the cellular defense mechanism J. Biochem. Mol. Biol. 2004 37 139 143 10.5483/BMBRep.2004.37.2.139 15469687
+L247: 29. Ma Q. 
+L248:  Role of nrf2 in oxidative stress and toxicity Annu. Rev. Pharmacol. Toxicol. 2013 53 401 426 10.1146/annurev-pharmtox-011112-140320 23294312
+L249: 30. Vidal P.J. 
+L250:  Lopez-Nicolas J.M. 
+L251:  Gandia-Herrero F. 
+L252:  Garcia-Carmona F. 
+L253:  Inactivation of lipoxygenase and cyclooxygenase by natural betalains and semi-synthetic analogues Food Chem. 2014 154 246 254 10.1016/j.foodchem.2014.01.014 24518339
+L254: 31. Vulic J.J. 
+L255:  Cebovic T.N. 
+L256:  Canadanovic V.M. 
+L257:  Cetkovic G.S. 
+L258:  Djilas S.M. 
+L259:  Canadanovic-Brunet J.M. 
+L260:  Velicanski A.S. 
+L261:  Cvetkovic D.D. 
+L262:  Tumbas V.T. 
+L263:  Antiradical, antimicrobial and cytotoxic activities of commercial beetroot pomace Food Funct. 2013 4 713 721 10.1039/c3fo30315b 23423147
+L264: 32. Raish M. 
+L265:  Ahmad A. 
+L266:  Ansari M.A. 
+L267:  Alkharfy K.M. 
+L268:  Ahad A. 
+L269:  Khan A. 
+L270:  Ali N. 
+L271:  Ganaie M.A. 
+L272:  Hamidaddin M.A.A. 
+L273:  Beetroot juice alleviates isoproterenol-induced myocardial damage by reducing oxidative stress, inflammation, and apoptosis in rats 3 Biotech 2019 9 147 10.1007/s13205-019-1677-9 30944794
+L274: 33. Detopoulou P. 
+L275:  Panagiotakos D.B. 
+L276:  Antonopoulou S. 
+L277:  Pitsavos C. 
+L278:  Stefanadis C. 
+L279:  Dietary choline and betaine intakes in relation to concentrations of inflammatory markers in healthy adults: The ATTICA study Am. J. Clin. Nutr. 2008 87 424 430 10.1093/ajcn/87.2.424 18258634
+L280: 34. Bailey S.J. 
+L281:  Wilkerson D.P. 
+L282:  Dimenna F.J. 
+L283:  Jones A.M. 
+L284:  Influence of repeated sprint training on pulmonary O 2  uptake and muscle deoxygenation kinetics in humans J. Appl. Physiol. 2009 106 1875 1887 10.1152/japplphysiol.00144.2009 19342439
+L285: 35. Wylie L.J. 
+L286:  Kelly J. 
+L287:  Bailey S.J. 
+L288:  Blackwell J.R. 
+L289:  Skiba P.F. 
+L290:  Winyard P.G. 
+L291:  Jeukendrup A.E. 
+L292:  Vanhatalo A. 
+L293:  Jones A.M. 
+L294:  Beetroot juice and exercise: Pharmacodynamic and dose-response relationships J. Appl. Physiol. 2013 115 325 336 10.1152/japplphysiol.00372.2013 23640589
+L295: 36. Bailey S.J. 
+L296:  Winyard P. 
+L297:  Vanhatalo A. 
+L298:  Blackwell J.R. 
+L299:  Dimenna F.J. 
+L300:  Wilkerson D.P. 
+L301:  Tarr J. 
+L302:  Benjamin N. 
+L303:  Jones A.M. 
+L304:  Dietary nitrate supplementation reduces the O 2  cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans J. Appl. Physiol. 2009 107 1144 1155 10.1152/japplphysiol.00722.2009 19661447
+L305: 37. Vanhatalo A. 
+L306:  Bailey S.J. 
+L307:  Blackwell J.R. 
+L308:  DiMenna F.J. 
+L309:  Pavey T.G. 
+L310:  Wilkerson D.P. 
+L311:  Benjamin N. 
+L312:  Winyard P.G. 
+L313:  Jones A.M. 
+L314:  Acute and chronic effects of dietary nitrate supplementation on blood pressure and the physiological responses to moderate-intensity and incremental exercise Am. J. Physiol.-Regul. Integr. Comp. Physiol. 2010 299 R1121 R1131 10.1152/ajpregu.00206.2010 20702806
+L315: 38. Wylie L.J. 
+L316:  Bailey S.J. 
+L317:  Kelly J. 
+L318:  Blackwell J.R. 
+L319:  Vanhatalo A. 
+L320:  Jones A.M. 
+L321:  Influence of beetroot juice supplementation on intermittent exercise performance Eur. J. Appl. Physiol. 2016 116 415 425 10.1007/s00421-015-3296-4 26614506
+L322: 39. Miller G.D. 
+L323:  Collins S. 
+L324:  Ives J. 
+L325:  Williams A. 
+L326:  Basu S. 
+L327:  Kim-Shapiro D.B. 
+L328:  Berry M.J. 
+L329:  Efficacy and Variability in Plasma Nitrite Levels during Long-Term Supplementation with Nitrate Containing Beetroot Juice J. Diet. Suppl. 2023 20 885 910 10.1080/19390211.2022.2137269 36310089
+L330: 40. Wilkerson D.P. 
+L331:  Hayward G.M. 
+L332:  Bailey S.J. 
+L333:  Vanhatalo A. 
+L334:  Blackwell J.R. 
+L335:  Jones A.M. 
+L336:  Influence of acute dietary nitrate supplementation on 50 mile time trial performance in well-trained cyclists Eur. J. Appl. Physiol. 2012 112 4127 4134 10.1007/s00421-012-2397-6 22526247
+L337: 41. Garnacho-Castano M.V. 
+L338:  Palau-Salva G. 
+L339:  Serra-Paya N. 
+L340:  Ruiz-Hermosel M. 
+L341:  Berbell M. 
+L342:  Vinals X. 
+L343:  Bataller M.G. 
+L344:  Carbonell T. 
+L345:  Vilches-Saez S. 
+L346:  Cobo E.P. 
+L347:  
+L348:  Understanding the effects of beetroot juice intake on CrossFit performance by assessing hormonal, metabolic and mechanical response: A randomized, double-blind, crossover design J. Int. Soc. Sports Nutr. 2020 17 56 10.1186/s12970-020-00388-z 33187518
+L349: 42. Jurga J. 
+L350:  Samborowska E. 
+L351:  Zielinski J. 
+L352:  Olek R.A. 
+L353:  Effects of Acute Beetroot Juice and Sodium Nitrate on Selected Blood Metabolites and Response to Transient Ischemia: A Crossover Randomized Clinical Trial J. Nutr. 2024 154 491 497 10.1016/j.tjnut.2023.12.018 38110180
+L354: 43. Heredia-Martinez A. 
+L355:  Rosa-Diez G. 
+L356:  Ferraris J.R. 
+L357:  Sohlenius-Sternbeck A.K. 
+L358:  Nihlen C. 
+L359:  Olsson A. 
+L360:  Lundberg J.O. 
+L361:  Weitzberg E. 
+L362:  Carlstrom M. 
+L363:  Krmar R.T. 
+L364:  Plasma Nitrate and Nitrite Kinetics after Single Intake of Beetroot Juice in Adult Patients on Chronic Hemodialysis and in Healthy Volunteers: A Randomized, Single-Blind, Placebo-Controlled, Crossover Study Nutrients 2022 14 2480 10.3390/nu14122480 35745210
+L365: 44. Fuchs D. 
+L366:  Nyakayiru J. 
+L367:  Draijer R. 
+L368:  Mulder T.P. 
+L369:  Hopman M.T. 
+L370:  Eijsvogels T.M. 
+L371:  Thijssen D.H. 
+L372:  Impact of flavonoid-rich black tea and beetroot juice on postprandial peripheral vascular resistance and glucose homeostasis in obese, insulin-resistant men: A randomized controlled trial Nutr. Metab. 2016 13 34 10.1186/s12986-016-0094-x
+L373: 45. Tyler A.P. 
+L374:  Linder B.A. 
+L375:  Ricart K. 
+L376:  Behrens C.E. 
+L377:  Ovalle F. 
+L378:  Patel R.P. 
+L379:  Fisher G. 
+L380:  The Effects of Acute Beetroot Juice Intake on Glycemic and Blood Pressure Responses When Controlling for Medication in Individuals with Type 2 Diabetes: A Pilot Study Nutrients 2024 16 2636 10.3390/nu16162636 39203773
+L381: 46. Shepherd A.I. 
+L382:  Wilkerson D.P. 
+L383:  Fulford J. 
+L384:  Winyard P.G. 
+L385:  Benjamin N. 
+L386:  Shore A.C. 
+L387:  Gilchrist M. 
+L388:  Effect of nitrate supplementation on hepatic blood flow and glucose homeostasis: A double-blind, placebo-controlled, randomized control trial Am. J. Physiol.-Gastrointest. Liver Physiol. 2016 311 G356 G364 10.1152/ajpgi.00203.2016 27418682
+L389: 47. Babateen A.M. 
+L390:  Shannon O.M. 
+L391:  O’Brien G.M. 
+L392:  Okello E. 
+L393:  Khan A.A. 
+L394:  Rubele S. 
+L395:  Wightman E. 
+L396:  Smith E. 
+L397:  McMahon N. 
+L398:  Olgacer D. 
+L399:  
+L400:  Acceptability and Feasibility of a 13-Week Pilot Randomised Controlled Trial Testing the Effects of Incremental Doses of Beetroot Juice in Overweight and Obese Older Adults Nutrients 2021 13 769 10.3390/nu13030769 33653009
+L401: 48. Alharbi M. 
+L402:  Chiurazzi M. 
+L403:  Nasti G. 
+L404:  Muscariello E. 
+L405:  Mastantuono T. 
+L406:  Koechl C. 
+L407:  Stephan B.C.M. 
+L408:  Shannon O.M. 
+L409:  Colantuoni A. 
+L410:  Siervo M. 
+L411:  Caloric Restriction (CR) Plus High-Nitrate Beetroot Juice Does Not Amplify CR-Induced Metabolic Adaptation and Improves Vascular and Cognitive Functions in Overweight Adults: A 14-Day Pilot Randomised Trial Nutrients 2023 15 890 10.3390/nu15040890 36839248
+L412: 49. Giampaoli O. 
+L413:  Ieno C. 
+L414:  Sciubba F. 
+L415:  Spagnoli M. 
+L416:  Miccheli A. 
+L417:  Tomassini A. 
+L418:  Aureli W. 
+L419:  Fattorini L. 
+L420:  Metabolic Biomarkers of Red Beetroot Juice Intake at Rest and after Physical Exercise Nutrients 2023 15 2026 10.3390/nu15092026 37432172
+L421: 50. Fejes R. 
+L422:  Seneca J. 
+L423:  Pjevac P. 
+L424:  Lutnik M. 
+L425:  Weisshaar S. 
+L426:  Pilat N. 
+L427:  Steiner R. 
+L428:  Wagner K.H. 
+L429:  Woodman R.J. 
+L430:  Bondonno C.P. 
+L431:  
+L432:  Increased Nitrate Intake from Beetroot Juice Over 4 Weeks Changes the Composition of the Oral, But Not the Intestinal Microbiome Mol. Nutr. Food Res. 2025 69 e70156 10.1002/mnfr.70156 40522148
+L433: 51. Vanhatalo A. 
+L434:  L’Heureux J.E. 
+L435:  Black M.I. 
+L436:  Blackwell J.R. 
+L437:  Aizawa K. 
+L438:  Thompson C. 
+L439:  Williams D.W. 
+L440:  van der Giezen M. 
+L441:  Winyard P.G. 
+L442:  Jones A.M. 
+L443:  Ageing modifies the oral microbiome, nitric oxide bioavailability and vascular responses to dietary nitrate supplementation Free Radic. Biol. Med. 2025 238 682 696 10.1016/j.freeradbiomed.2025.07.002 40615058
+L444: 52. Wang Y. 
+L445:  Do T. 
+L446:  Marshall L.J. 
+L447:  Boesch C. 
+L448:  Effect of two-week red beetroot juice consumption on modulation of gut microbiota in healthy human volunteers—A pilot study Food Chem. 2023 406 134989 10.1016/j.foodchem.2022.134989 36527987
+L449: 53. Rowland S.N. 
+L450:  James L.J. 
+L451:  O’Donnell E. 
+L452:  Bailey S.J. 
+L453:  Influence of acute dietary nitrate supplementation timing on nitrate metabolism, central and peripheral blood pressure and exercise tolerance in young men Eur. J. Appl. Physiol. 2023 124 1381 1396 10.1007/s00421-023-05369-z 38040982
+L454: 54. Fejes R. 
+L455:  Lutnik M. 
+L456:  Weisshaar S. 
+L457:  Pilat N. 
+L458:  Wagner K.H. 
+L459:  Stuger H.P. 
+L460:  Peake J.M. 
+L461:  Woodman R.J. 
+L462:  Croft K.D. 
+L463:  Bondonno C.P. 
+L464:  
+L465:  Increased nitrate intake from beetroot juice over 4 weeks affects nitrate metabolism, but not vascular function or blood pressure in older adults with hypertension Food Funct. 2024 15 4065 4078 10.1039/D3FO03749E 38546454
+L466: 55. Bonilla Ocampo D. 
+L467:  Paipilla A. 
+L468:  Marín E. 
+L469:  Vargas-Molina S. 
+L470:  Petro J. 
+L471:  Pérez-Idárraga A. 
+L472:  Dietary Nitrate from Beetroot Juice for Hypertension: A Systematic Review Biomolecules 2018 8 134 10.3390/biom8040134 30400267
+L473: 56. van der Avoort C.M.T. 
+L474:  Jonvik K.L. 
+L475:  Nyakayiru J. 
+L476:  van Loon L.J.C. 
+L477:  Hopman M.T.E. 
+L478:  Verdijk L.B. 
+L479:  A Nitrate-Rich Vegetable Intervention Elevates Plasma Nitrate and Nitrite Concentrations and Reduces Blood Pressure in Healthy Young Adults J. Acad. Nutr. Diet. 2020 120 1305 1317 10.1016/j.jand.2020.02.014 32386891
+L480: 57. Volino-Souza M. 
+L481:  de Oliveira G.V. 
+L482:  Alvares T.S. 
+L483:  A single dose of beetroot juice improves endothelial function but not tissue oxygenation in pregnant women: A randomised clinical trial Br. J. Nutr. 2018 120 1006 1013 10.1017/S0007114518002441 30229712
+L484: 58. Richards J.C. 
+L485:  Racine M.L. 
+L486:  Hearon C.M. Jr. 
+L487:  Kunkel M. 
+L488:  Luckasen G.J. 
+L489:  Larson D.G. 
+L490:  Allen J.D. 
+L491:  Dinenno F.A. 
+L492:  Acute ingestion of dietary nitrate increases muscle blood flow via local vasodilation during handgrip exercise in young adults Physiol. Rep. 2018 6 e13572 10.14814/phy2.13572 29380952
+L493: 59. Curry B.H. 
+L494:  Bond V. 
+L495:  Pemminati S. 
+L496:  Gorantla V.R. 
+L497:  Volkova Y.A. 
+L498:  Kadur K. 
+L499:  Millis R.M. 
+L500:  Effects of a Dietary Beetroot Juice Treatment on Systemic and Cerebral Haemodynamics- A Pilot Study J. Clin. Diagn. Res. 2016 10 CC01 CC05 10.7860/JCDR/2016/20049.8113
+L501: 60. Worley M.L. 
+L502:  Reed E.L. 
+L503:  Chapman C.L. 
+L504:  Kueck P. 
+L505:  Seymour L. 
+L506:  Fitts T. 
+L507:  Zazulak H. 
+L508:  Schlader Z.J. 
+L509:  Johnson B.D. 
+L510:  Acute beetroot juice consumption does not alter cerebral autoregulation or cardiovagal baroreflex sensitivity during lower-body negative pressure in healthy adults Front. Hum. Neurosci. 2023 17 1115355 10.3389/fnhum.2023.1115355 36742355
+L511: 61. Chapman C.L. 
+L512:  Schlader Z.J. 
+L513:  Reed E.L. 
+L514:  Worley M.L. 
+L515:  Johnson B.D. 
+L516:  Acute Beetroot Juice Ingestion Does Not Alter Renal Hemodynamics during Normoxia and Mild Hypercapnia in Healthy Young Adults Nutrients 2021 13 1986 10.3390/nu13061986 34207775
+L517: 62. Bock J.M. 
+L518:  Ueda K. 
+L519:  Schneider A.C. 
+L520:  Hughes W.E. 
+L521:  Limberg J.K. 
+L522:  Bryan N.S. 
+L523:  Casey D.P. 
+L524:  Inorganic nitrate supplementation attenuates peripheral chemoreflex sensitivity but does not improve cardiovagal baroreflex sensitivity in older adults Am. J. Physiol. Heart Circ. Physiol. 2018 314 H45 H51 10.1152/ajpheart.00389.2017 28971842
+L525: 63. Siervo M. 
+L526:  Lara J. 
+L527:  Jajja A. 
+L528:  Sutyarjoko A. 
+L529:  Ashor A.W. 
+L530:  Brandt K. 
+L531:  Qadir O. 
+L532:  Mathers J.C. 
+L533:  Benjamin N. 
+L534:  Winyard P.G. 
+L535:  
+L536:  Ageing modifies the effects of beetroot juice supplementation on 24-hour blood pressure variability: An individual participant meta-analysis Nitric Oxide 2015 47 97 105 10.1016/j.niox.2015.04.007 25937622
+L537: 64. Bahadoran Z. 
+L538:  Mirmiran P. 
+L539:  Kabir A. 
+L540:  Azizi F. 
+L541:  Ghasemi A. 
+L542:  The Nitrate-Independent Blood Pressure-Lowering Effect of Beetroot Juice: A Systematic Review and Meta-Analysis Adv. Nutr. 2017 8 830 838 10.3945/an.117.016717 29141968
+L543: 65. Jones T. 
+L544:  Dunn E.L. 
+L545:  Macdonald J.H. 
+L546:  Kubis H.-P. 
+L547:  McMahon N. 
+L548:  Sandoo A. 
+L549:  The effects of beetroot juice on blood pressure, microvascular function and large-vessel endothelial function: A randomized, double-blind, placebo-controlled pilot study in healthy older adults Nutrients 2019 11 1792 10.3390/nu11081792 31382524
+L550: 66. Delgado Spicuzza J.M. 
+L551:  Gosalia J. 
+L552:  Zhong L. 
+L553:  Bondonno C. 
+L554:  Petersen K.S. 
+L555:  De Souza M.J. 
+L556:  Alipour E. 
+L557:  Kim-Shapiro D.B. 
+L558:  Somani Y.B. 
+L559:  Proctor D.N. 
+L560:  Seven-day dietary nitrate supplementation clinically significantly improves basal macrovascular function in postmenopausal women: A randomized, placebo-controlled, double-blind, crossover clinical trial Front. Nutr. 2024 11 1359671 10.3389/fnut.2024.1359671 38915856
+L561: 67. Pedrinolla A. 
+L562:  Dorelli G. 
+L563:  Porcelli S. 
+L564:  Burleigh M. 
+L565:  Mendo M. 
+L566:  Martignon C. 
+L567:  Fonte C. 
+L568:  Dalle Carbonare L.G. 
+L569:  Easton C. 
+L570:  Muti E. 
+L571:  
+L572:  Increasing nitric oxide availability via ingestion of nitrate-rich beetroot juice improves vascular responsiveness in individuals with Alzheimer’s Disease Nitric Oxide 2025 156 50 56 10.1016/j.niox.2025.03.001 40089052
+L573: 68. Alvares T.S. 
+L574:  Pinheiro V. 
+L575:  Proctor D.N. 
+L576:  Junior C.A.C. 
+L577:  Soares R.N. 
+L578:  Twelve-week nitrate-rich beetroot extract supplementation improves lower limb vascular function and serum angiogenic potential in postmenopausal women Am. J. Physiol.-Hear. Circ. Physiol. 2025 329 H1047 H1054 10.1152/ajpheart.00592.2025
+L579: 69. Osman M.M.A. 
+L580:  Mullins E. 
+L581:  Kleprlikova H. 
+L582:  Wilkinson I.B. 
+L583:  Lees C. 
+L584:  Beetroot juice, exercise, and cardiovascular function in women planning to conceive J. Hypertens. 2023 42 101 108 10.1097/HJH.0000000000003562 37728100
+L585: 70. Stanaway L. 
+L586:  Rutherfurd-Markwick K. 
+L587:  Page R. 
+L588:  Wong M. 
+L589:  Jirangrat W. 
+L590:  Teh K.H. 
+L591:  Ali A. 
+L592:  Acute Supplementation with Nitrate-Rich Beetroot Juice Causes a Greater Increase in Plasma Nitrite and Reduction in Blood Pressure of Older Compared to Younger Adults Nutrients 2019 11 1683 10.3390/nu11071683 31336633
+L593: 71. Fejes R. 
+L594:  Pilat N. 
+L595:  Lutnik M. 
+L596:  Weisshaar S. 
+L597:  Weijler A.M. 
+L598:  Kruger K. 
+L599:  Draxler A. 
+L600:  Bragagna L. 
+L601:  Peake J.M. 
+L602:  Woodman R.J. 
+L603:  
+L604:  Effects of increased nitrate intake from beetroot juice on blood markers of oxidative stress and inflammation in older adults with hypertension Free Radic. Biol. Med. 2024 222 519 530 10.1016/j.freeradbiomed.2024.07.004 38972612
+L605: 72. Berlanga L.A. 
+L606:  Lopez-Samanes A. 
+L607:  Martin-Lopez J. 
+L608:  de la Cruz R.M. 
+L609:  Garces-Rimon M. 
+L610:  Roberts J. 
+L611:  Bertotti G. 
+L612:  Dietary Nitrate Ingestion Does Not Improve Neuromuscular Performance in Male Sport Climbers J. Hum. Kinet. 2023 87 47 57 10.5114/jhk/161812 37229410
+L613: 73. López-Samanes Á. 
+L614:  Pérez-López A. 
+L615:  Moreno-Pérez V. 
+L616:  Nakamura F.Y. 
+L617:  Acebes-Sánchez J. 
+L618:  Quintana-Milla I. 
+L619:  Sánchez-Oliver A.J. 
+L620:  Moreno-Pérez D. 
+L621:  Fernández-Elías V.E. 
+L622:  Domínguez R. 
+L623:  Effects of Beetroot Juice Ingestion on Physical Performance in Highly Competitive Tennis Players Nutrients 2020 12 584 10.3390/nu12020584 32102263
+L624: 74. López-Samanes Á. 
+L625:  Pérez-Lopez A. 
+L626:  Morencos E. 
+L627:  Muñoz A. 
+L628:  Kühn A. 
+L629:  Sánchez-Migallón V. 
+L630:  Moreno-Pérez V. 
+L631:  González-Frutos P. 
+L632:  Bach-Faig A. 
+L633:  Roberts J. 
+L634:  
+L635:  Beetroot juice ingestion does not improve neuromuscular performance and match-play demands in elite female hockey players: A randomized, double-blind, placebo-controlled study Eur. J. Nutr. 2023 62 1123 1130 10.1007/s00394-022-03052-1 36401662
+L636: 75. Lopez-Samanes A. 
+L637:  Ramos-Alvarez J.J. 
+L638:  Miguel-Tobal F. 
+L639:  Gaos S. 
+L640:  Jodra P. 
+L641:  Arranz-Munoz R. 
+L642:  Dominguez R. 
+L643:  Montoya J.J. 
+L644:  Influence of Beetroot Juice Ingestion on Neuromuscular Performance on Semi-Professional Female Rugby Players: A Randomized, Double-Blind, Placebo-Controlled Study Foods 2022 11 3614 10.3390/foods11223614 36429210
+L645: 76. Wei C. 
+L646:  Vanhatalo A. 
+L647:  Black M.I. 
+L648:  Rajaram R. 
+L649:  Massey G. 
+L650:  Jones A.M. 
+L651:  Dose-response relationship between dietary nitrate intake and nitric oxide congeners in various blood compartments and skeletal muscle: Differential effects on skeletal muscle torque and velocity Free Radic. Biol. Med. 2025 229 520 533 10.1016/j.freeradbiomed.2025.01.048 39864759
+L652: 77. Esen O. 
+L653:  Bailey S.J. 
+L654:  Stashuk D.W. 
+L655:  Howatson G. 
+L656:  Goodall S. 
+L657:  Influence of nitrate supplementation on motor unit activity during recovery following a sustained ischemic contraction in recreationally active young males Eur. J. Nutr. 2024 63 2379 2387 10.1007/s00394-024-03440-9 38809323
+L658: 78. Esen O. 
+L659:  Faisal A. 
+L660:  Zambolin F. 
+L661:  Bailey S.J. 
+L662:  Callaghan M.J. 
+L663:  Effect of nitrate supplementation on skeletal muscle motor unit activity during isometric blood flow restriction exercise Eur. J. Appl. Physiol. 2022 122 1683 1693 10.1007/s00421-022-04946-y 35460359
+L664: 79. Jones L. 
+L665:  Bailey S.J. 
+L666:  Rowland S.N. 
+L667:  Alsharif N. 
+L668:  Shannon O.M. 
+L669:  Clifford T. 
+L670:  The Effect of Nitrate-Rich Beetroot Juice on Markers of Exercise-Induced Muscle Damage: A Systematic Review and Meta-Analysis of Human Intervention Trials J. Diet. Suppl. 2022 19 749 771 10.1080/19390211.2021.1939472 34151694
+L671: 80. Munoz A. 
+L672:  de la Rubia A. 
+L673:  Lorenzo-Calvo J. 
+L674:  Karayigit R. 
+L675:  Garces-Rimon M. 
+L676:  Lopez-Moreno M. 
+L677:  Dominguez R. 
+L678:  Scanlan A.T. 
+L679:  Lopez-Samanes A. 
+L680:  Multiday Beetroot Juice Ingestion Improves Some Aspects of Neuromuscular Performance in Semi-Professional, Male Handball Players: A Randomized, Double-Blind, Placebo-Controlled, Crossover Study Int. J. Sport Nutr. Exerc. Metab. 2025 35 140 149 10.1123/ijsnem.2024-0113 39579758
+L681: 81. Tan R. 
+L682:  Lincoln I.G. 
+L683:  Paniagua K.K. 
+L684:  Foster J.M. 
+L685:  Wideen L.E. 
+L686:  Gerardo R.T. 
+L687:  Ornelas N.J. 
+L688:  Tchaprazian I. 
+L689:  Li J. 
+L690:  Egiazarian M. 
+L691:  
+L692:  The effect of dietary nitrate supplementation on resistance exercise performance: A dose–response investigation Eur. J. Appl. Physiol. 2025 125 2869 2883 10.1007/s00421-025-05779-1 40274664
+L693: 82. Benjamim C.J.R. 
+L694:  da Silva L.S.L. 
+L695:  Sousa Y.B.A. 
+L696:  Rodrigues G.D.S. 
+L697:  Pontes Y.M.M. 
+L698:  Rebelo M.A. 
+L699:  Goncalves L.D.S. 
+L700:  Tavares S.S. 
+L701:  Guimaraes C.S. 
+L702:  da Silva Sobrinho A.C. 
+L703:  
+L704:  Acute and short-term beetroot juice nitrate-rich ingestion enhances cardiovascular responses following aerobic exercise in postmenopausal women with arterial hypertension: A triple-blinded randomized controlled trial Free Radic. Biol. Med. 2024 211 12 23 10.1016/j.freeradbiomed.2023.11.039 38092272
+L705: 83. Engan H. 
+L706:  Patrician A. 
+L707:  Lodin-Sundstrom A. 
+L708:  Johansson H. 
+L709:  Melin M. 
+L710:  Schagatay E. 
+L711:  Spleen contraction and Hb elevation after dietary nitrate intake J. Appl. Physiol. 2020 129 1324 1329 10.1152/japplphysiol.00236.2020 33031018
+L712: 84. Hayes E. 
+L713:  Alhulaefi S. 
+L714:  Siervo M. 
+L715:  Whyte E. 
+L716:  Kimble R. 
+L717:  Matu J. 
+L718:  Griffiths A. 
+L719:  Sim M. 
+L720:  Burleigh M. 
+L721:  Easton C. 
+L722:  
+L723:  Inter-individual differences in the blood pressure lowering effects of dietary nitrate: A randomised double-blind placebo-controlled replicate crossover trial Eur. J. Nutr. 2025 64 101 10.1007/s00394-025-03616-x 39992469
+L724: 85. Horiuchi M. 
+L725:  Rossetti G.M. 
+L726:  Oliver S.J. 
+L727:  Dietary nitrate supplementation effect on dynamic cerebral autoregulation in normoxia and acute hypoxia J. Cereb. Blood Flow. Metab. 2022 42 486 494 10.1177/0271678X20910053 32151227
+L728: 86. Kelly J. 
+L729:  Fulford J. 
+L730:  Vanhatalo A. 
+L731:  Blackwell J.R. 
+L732:  French O. 
+L733:  Bailey S.J. 
+L734:  Gilchrist M. 
+L735:  Winyard P.G. 
+L736:  Jones A.M. 
+L737:  Effects of short-term dietary nitrate supplementation on blood pressure, O 2  uptake kinetics, and muscle and cognitive function in older adults Am. J. Physiol. Regul. Integr. Comp. Physiol. 2013 304 R73 R83 10.1152/ajpregu.00406.2012 23174856
+L738: 87. Londono-Hoyos F. 
+L739:  Zamani P. 
+L740:  Beraun M. 
+L741:  Vasim I. 
+L742:  Segers P. 
+L743:  Chirinos J.A. 
+L744:  Effect of organic and inorganic nitrates on cerebrovascular pulsatile power transmission in patients with heart failure and preserved ejection fraction Physiol. Meas. 2018 39 044001 10.1088/1361-6579/aab2ef 29488900
+L745: 88. Raubenheimer K. 
+L746:  Hickey D. 
+L747:  Leveritt M. 
+L748:  Fassett R. 
+L749:  Ortiz de Zevallos Munoz J. 
+L750:  Allen J.D. 
+L751:  Briskey D. 
+L752:  Parker T.J. 
+L753:  Kerr G. 
+L754:  Peake J.M. 
+L755:  
+L756:  Acute Effects of Nitrate-Rich Beetroot Juice on Blood Pressure, Hemostasis and Vascular Inflammation Markers in Healthy Older Adults: A Randomized, Placebo-Controlled Crossover Study Nutrients 2017 9 1270 10.3390/nu9111270 29165355
+L757: 89. Rogerson D. 
+L758:  Aguilar Mora F.A. 
+L759:  Young J.S. 
+L760:  Klonizakis M. 
+L761:  No effect of nitrate-rich beetroot juice on microvascular function and blood pressure in younger and older individuals: A randomised, placebo-controlled double-blind pilot study Eur. J. Clin. Nutr. 2022 76 1380 1386 10.1038/s41430-022-01115-4 35352014
+L762: 90. Babateen A.M. 
+L763:  Shannon O.M. 
+L764:  O’Brien G.M. 
+L765:  Olgacer D. 
+L766:  Koehl C. 
+L767:  Fostier W. 
+L768:  Mathers J.C. 
+L769:  Siervo M. 
+L770:  Moderate doses of dietary nitrate elicit greater effects on blood pressure and endothelial function than a high dose: A 13-week pilot study Nutr. Metab. Cardiovasc. Dis. 2023 33 1263 1267 10.1016/j.numecd.2023.02.024 36958967
+L771: 91. Lopez-Samanes A. 
+L772:  Gomez Parra A. 
+L773:  Moreno-Perez V. 
+L774:  Courel-Ibanez J. 
+L775:  Does Acute Beetroot Juice Supplementation Improve Neuromuscular Performance and Match Activity in Young Basketball Players? A Randomized, Placebo-Controlled Study Nutrients 2020 12 188 10.3390/nu12010188 31936621
+L776: 92. Daab W. 
+L777:  Zghal F. 
+L778:  Nassis G.P. 
+L779:  Rebai H. 
+L780:  Moalla W. 
+L781:  Bouzid M.A. 
+L782:  Chronic beetroot juice supplementation attenuates neuromuscular fatigue etiology during simulated soccer match play Appl. Physiol. Nutr. Metab. 2024 49 105 113 10.1139/apnm-2023-0179 37696044
+L783: 93. Miraftabi H. 
+L784:  Avazpoor Z. 
+L785:  Berjisian E. 
+L786:  Sarshin A. 
+L787:  Rezaei S. 
+L788:  Dominguez R. 
+L789:  Reale R. 
+L790:  Franchini E. 
+L791:  Samanipour M.H. 
+L792:  Koozehchian M.S. 
+L793:  
+L794:  Effects of Beetroot Juice Supplementation on Cognitive Function, Aerobic and Anaerobic Performances of Trained Male Taekwondo Athletes: A Pilot Study Int. J. Environ. Res. Public Health 2021 18 10202 10.3390/ijerph181910202 34639501
+L795: 94. Thompson K.G. 
+L796:  Turner L. 
+L797:  Prichard J. 
+L798:  Dodd F. 
+L799:  Kennedy D.O. 
+L800:  Haskell C. 
+L801:  Blackwell J.R. 
+L802:  Jones A.M. 
+L803:  Influence of dietary nitrate supplementation on physiological and cognitive responses to incremental cycle exercise Respir. Physiol. Neurobiol. 2014 193 11 20 10.1016/j.resp.2013.12.015 24389270
+L804: 95. Babateen A.M. 
+L805:  Shannon O.M. 
+L806:  O’Brien G.M. 
+L807:  Okello E. 
+L808:  Smith E. 
+L809:  Olgacer D. 
+L810:  Koehl C. 
+L811:  Fostier W. 
+L812:  Wightman E. 
+L813:  Kennedy D. 
+L814:  
+L815:  Incremental Doses of Nitrate-Rich Beetroot Juice Do Not Modify Cognitive Function and Cerebral Blood Flow in Overweight and Obese Older Adults: A 13-Week Pilot Randomised Clinical Trial Nutrients 2022 14 1052 10.3390/nu14051052 35268027
+L816: 96. Gao C. 
+L817:  Gupta S. 
+L818:  Adli T. 
+L819:  Hou W. 
+L820:  Coolsaet R. 
+L821:  Hayes A. 
+L822:  Kim K. 
+L823:  Pandey A. 
+L824:  Gordon J. 
+L825:  Chahil G. 
+L826:  
+L827:  The effects of dietary nitrate supplementation on endurance exercise performance and cardiorespiratory measures in healthy adults: A systematic review and meta-analysis J. Int. Soc. Sports Nutr. 2022 18 55 10.1186/s12970-021-00450-4 34243756
+L828: 97. Garnacho-Castaño M.V. 
+L829:  Pleguezuelos-Cobo E. 
+L830:  Berbel M. 
+L831:  Irurtia A. 
+L832:  Carrasco-Marginet M. 
+L833:  Castizo-Olier J. 
+L834:  Veiga-Herreros P. 
+L835:  Faundez-Zanuy M. 
+L836:  Serra-Payá N. 
+L837:  Effects of acute beetroot juice intake on performance, maximal oxygen uptake, and ventilatory efficiency in well-trained master rowers: A randomized, double-blinded crossover study J. Int. Soc. Sports Nutr. 2024 21 2373170 10.1080/15502783.2024.2373170 38953606
+L838: 98. Ahmadpour A. 
+L839:  Fashi M. 
+L840:  Hemmatinafar M. 
+L841:  Consuming Beetroot Juice Improves Slalom Performance and Reduces Muscle Soreness in Alpine Skiers under Hypoxic Conditions Curr. Dev. Nutr. 2024 8 104408 10.1016/j.cdnut.2024.104408 39224139
+L842: 99. Shannon O.M. 
+L843:  Barlow M.J. 
+L844:  Duckworth L. 
+L845:  Williams E. 
+L846:  Wort G. 
+L847:  Woods D. 
+L848:  Siervo M. 
+L849:  O’Hara J.P. 
+L850:  Dietary nitrate supplementation enhances short but not longer duration running time-trial performance Eur. J. Appl. Physiol. 2017 117 775 785 10.1007/s00421-017-3580-6 28251402
+L851: 100. Muggeridge D.J. 
+L852:  Howe C. 
+L853:  Spendiff O. 
+L854:  Pedlar C. 
+L855:  James P.E. 
+L856:  Easton C. 
+L857:  A single dose of beetroot juice enhances cycling performance in simulated altitude Med. Sci. Sports Exerc. 2014 46 143 150 10.1249/MSS.0b013e3182a1dc51 23846159
+L858: 101. Lowings S. 
+L859:  Shannon O.M. 
+L860:  Deighton K. 
+L861:  Matu J. 
+L862:  Barlow M.J. 
+L863:  Effect of dietary nitrate supplementation on swimming performance in trained swimmers Int. J. Sport Nutr. Exerc. Metab. 2017 27 377 384 10.1123/ijsnem.2016-0251 28182502
+L864: 102. Tan R. 
+L865:  Wylie L.J. 
+L866:  Thompson C. 
+L867:  Blackwell J.R. 
+L868:  Bailey S.J. 
+L869:  Vanhatalo A. 
+L870:  Jones A.M. 
+L871:  Beetroot juice ingestion during prolonged moderate-intensity exercise attenuates progressive rise in O 2  uptake J. Appl. Physiol. 2018 124 1254 1263 10.1152/japplphysiol.01006.2017 29357494
+L872: 103. Rasica L. 
+L873:  Porcelli S. 
+L874:  Marzorati M. 
+L875:  Salvadego D. 
+L876:  Vezzoli A. 
+L877:  Agosti F. 
+L878:  De Col A. 
+L879:  Tringali G. 
+L880:  Jones A.M. 
+L881:  Sartorio A. 
+L882:  
+L883:  Ergogenic effects of beetroot juice supplementation during severe-intensity exercise in obese adolescents Am. J. Physiol.-Regul. Integr. Comp. Physiol. 2018 315 R453 R460 10.1152/ajpregu.00017.2018 29693429
+L884: 104. Aucouturier J. 
+L885:  Boissiere J. 
+L886:  Pawlak-Chaouch M. 
+L887:  Cuvelier G. 
+L888:  Gamelin F.X. 
+L889:  Effect of dietary nitrate supplementation on tolerance to supramaximal intensity intermittent exercise Nitric Oxide 2015 49 16 25 10.1016/j.niox.2015.05.004 26028570
+L890: 105. Neteca J. 
+L891:  Veseta U. 
+L892:  Liepina I. 
+L893:  Volgemute K. 
+L894:  Dzintare M. 
+L895:  Babarykin D. 
+L896:  Effect of Beetroot Juice Supplementation on Aerobic Capacity in Female Athletes: A Randomized Controlled Study Nutrients 2024 17 63 10.3390/nu17010063 39796497
+L897: 106. Porcelli S. 
+L898:  Ramaglia M. 
+L899:  Bellistri G. 
+L900:  Pavei G. 
+L901:  Pugliese L. 
+L902:  Montorsi M. 
+L903:  Rasica L. 
+L904:  Marzorati M. 
+L905:  Aerobic Fitness Affects the Exercise Performance Responses to Nitrate Supplementation Med. Sci. Sports Exerc. 2015 47 1643 1651 10.1249/MSS.0000000000000577 25412295
+L906: 107. Boorsma R.K. 
+L907:  Whitfield J. 
+L908:  Spriet L.L. 
+L909:  Beetroot juice supplementation does not improve performance of elite 1500-m runners Med. Sci. Sports Exerc. 2014 46 2326 2334 10.1249/MSS.0000000000000364 24781895
+L910: 108. Cuenca E. 
+L911:  Jodra P. 
+L912:  Pérez-López A. 
+L913:  González-Rodríguez L.G. 
+L914:  Fernandes Da Silva S. 
+L915:  Veiga-Herreros P. 
+L916:  Domínguez R. 
+L917:  Effects of Beetroot Juice Supplementation on Performance and Fatigue in a 30-s All-Out Sprint Exercise: A Randomized, Double-Blind Cross-Over Study Nutrients 2018 10 1222 10.3390/nu10091222 30181436
+L918: 109. Rimer E.G. 
+L919:  Peterson L.R. 
+L920:  Coggan A.R. 
+L921:  Martin J.C. 
+L922:  Increase in Maximal Cycling Power with Acute Dietary Nitrate Supplementation Int. J. Sports Physiol. Perform. 2016 11 715 720 10.1123/ijspp.2015-0533 26641379
+L923: 110. Jurado-Castro J.M. 
+L924:  Campos-Perez J. 
+L925:  Ranchal-Sanchez A. 
+L926:  Duran-Lopez N. 
+L927:  Dominguez R. 
+L928:  Acute Effects of Beetroot Juice Supplements on Lower-Body Strength in Female Athletes: Double-Blind Crossover Randomized Trial Sports Health 2022 14 812 821 10.1177/19417381221083590 35603411
+L929: 111. Demirli A. 
+L930:  Gokcelik E. 
+L931:  Moghanlou A.E. 
+L932:  Ocak M.H. 
+L933:  Terzi M. 
+L934:  Yamaner E. 
+L935:  Atici M. 
+L936:  Akyuz O. 
+L937:  Toy A.B. 
+L938:  Acute beetroot juice supplementation enhances judo-specific performance, explosive power, and muscular strength in recreational adolescent judokas: A randomized crossover trial Front. Nutr. 2025 12 1669799 10.3389/fnut.2025.1669799 41112748
+L939: 112. Clifford T. 
+L940:  Berntzen B. 
+L941:  Davison G.W. 
+L942:  West D.J. 
+L943:  Howatson G. 
+L944:  Stevenson E.J. 
+L945:  Effects of Beetroot Juice on Recovery of Muscle Function and Performance between Bouts of Repeated Sprint Exercise Nutrients 2016 8 506 10.3390/nu8080506 27548212
+L946: 113. Thompson C. 
+L947:  Wylie L.J. 
+L948:  Fulford J. 
+L949:  Kelly J. 
+L950:  Black M.I. 
+L951:  McDonagh S.T.J. 
+L952:  Jeukendrup A.E. 
+L953:  Vanhatalo A. 
+L954:  Jones A.M. 
+L955:  Dietary nitrate improves sprint performance and cognitive function during prolonged intermittent exercise Eur. J. Appl. Physiol. 2015 115 1825 1834 10.1007/s00421-015-3166-0 25846114
+L956: 114. Martin K. 
+L957:  Smee D. 
+L958:  Thompson K.G. 
+L959:  Rattray B. 
+L960:  No improvement of repeated-sprint performance with dietary nitrate Int. J. Sports Physiol. Perform. 2014 9 845 850 10.1123/ijspp.2013-0384 24436354
+L961: 115. Moreno B. 
+L962:  Morencos E. 
+L963:  Vicente-Campos D. 
+L964:  Munoz A. 
+L965:  Gonzalez-Garcia J. 
+L966:  Veiga S. 
+L967:  Effects of beetroot juice intake on repeated performance of competitive swimmers Front. Physiol. 2022 13 1076295 10.3389/fphys.2022.1076295 36703935
+L968: 116. Moreno-Heredero B. 
+L969:  Morencos E. 
+L970:  Morais J. 
+L971:  Barbosa T.M. 
+L972:  Veiga S. 
+L973:  A Single Dose of Beetroot Juice not Enhance Performance during Intervallic Swimming Efforts J. Sports Sci. Med. 2024 23 228 235 10.52082/jssm.2024.228 38455435
+L974: 117. Zhang J. 
+L975:  Dai Z. 
+L976:  Heung-Sang Wong S. 
+L977:  Zheng C. 
+L978:  Tsz-Chun Poon E. 
+L979:  Acute effects of various doses of nitrate-rich beetroot juice on high-intensity interval exercise responses in women: A randomized, double-blinded, placebo-controlled, crossover trial J. Int. Soc. Sports Nutr. 2024 21 2334680 10.1080/15502783.2024.2334680 38535518
+L980: 118. Carriker C.R. 
+L981:  Vaughan R.A. 
+L982:  Vandusseldorp T.A. 
+L983:  Johnson K.E. 
+L984:  Beltz N.M. 
+L985:  McCormick J.J. 
+L986:  Cole N.H. 
+L987:  Gibson A.L. 
+L988:  Nitrate-Containing Beetroot Juice Reduces Oxygen Consumption During Submaximal Exercise in Low but Not High Aerobically Fit Male Runners J. Exerc. Nutr. Biochem. 2016 20 27 34 10.20463/jenb.2016.0029 28150476
+L989: 119. Pinna M. 
+L990:  Roberto S. 
+L991:  Milia R. 
+L992:  Marongiu E. 
+L993:  Olla S. 
+L994:  Loi A. 
+L995:  Migliaccio G.M. 
+L996:  Padulo J. 
+L997:  Orlandi C. 
+L998:  Tocco F. 
+L999:  
+L1000:  Effect of beetroot juice supplementation on aerobic response during swimming Nutrients 2014 6 605 615 10.3390/nu6020605 24481133
+L1001: 120. Esen O. 
+L1002:  Karayigit R. 
+L1003:  Peart D.J. 
+L1004:  Acute beetroot juice supplementation did not enhance intermittent running performance in trained rugby players Eur. J. Sport Sci. 2023 23 2321 2328 10.1080/17461391.2023.2230942 37394944
+L1005: 121. Montalvo-Alonso J.J. 
+L1006:  Del Val-Manzano M. 
+L1007:  Ferragut C. 
+L1008:  Valadés D. 
+L1009:  López-Samanes Á. 
+L1010:  Domínguez R. 
+L1011:  Pérez-López A. 
+L1012:  Single and combined effect of beetroot juice and caffeine intake on muscular strength, power and endurance performance in resistance-trained males Sci. Rep. 2025 15 16781 10.1038/s41598-025-02021-y 40369047
+L1013: 122. Wang L. 
+L1014:  Zhao R. 
+L1015:  Yan Y. 
+L1016:  Zhang H. 
+L1017:  Yan R. 
+L1018:  Zhu Y. 
+L1019:  Han Z. 
+L1020:  Qu Y. 
+L1021:  Wang R. 
+L1022:  Li Y. 
+L1023:  
+L1024:  Effects of dietary nitrate supplementation on isometric performance and physiological responses in college bodybuilders: A randomized, double-blind, crossover study Front. Nutr. 2025 12 1576712 10.3389/fnut.2025.1576712 40406159
+L1025: 123. Hemmatinafar M. 
+L1026:  Zaremoayedi L. 
+L1027:  Koushkie Jahromi M. 
+L1028:  Alvarez-Alvarado S. 
+L1029:  Wong A. 
+L1030:  Niknam A. 
+L1031:  Suzuki K. 
+L1032:  Imanian B. 
+L1033:  Bagheri R. 
+L1034:  Effect of Beetroot Juice Supplementation on Muscle Soreness and Performance Recovery after Exercise-Induced Muscle Damage in Female Volleyball Players Nutrients 2023 15 3763 10.3390/nu15173763 37686795
+L1035: 124. Jonvik K.L. 
+L1036:  Nyakayiru J. 
+L1037:  Van Dijk J.W. 
+L1038:  Maase K. 
+L1039:  Ballak S.B. 
+L1040:  Senden J.M.G. 
+L1041:  Van Loon L.J.C. 
+L1042:  Verdijk L.B. 
+L1043:  Repeated-sprint performance and plasma responses following beetroot juice supplementation do not differ between recreational, competitive and elite sprint athletes Eur. J. Sport Sci. 2018 18 524 533 10.1080/17461391.2018.1433722 29412076
+L1044: 125. Nyakayiru J. 
+L1045:  Jonvik K. 
+L1046:  Trommelen J. 
+L1047:  Pinckaers P. 
+L1048:  Senden J. 
+L1049:  Van Loon L. 
+L1050:  Verdijk L. 
+L1051:  Beetroot Juice Supplementation Improves High-Intensity Intermittent Type Exercise Performance in Trained Soccer Players Nutrients 2017 9 314 10.3390/nu9030314 28327503
+L1052: 126. Thompson C. 
+L1053:  Vanhatalo A. 
+L1054:  Kadach S. 
+L1055:  Wylie L.J. 
+L1056:  Fulford J. 
+L1057:  Ferguson S.K. 
+L1058:  Blackwell J.R. 
+L1059:  Bailey S.J. 
+L1060:  Jones A.M. 
+L1061:  Discrete physiological effects of beetroot juice and potassium nitrate supplementation following 4-wk sprint interval training J. Appl. Physiol. 2018 124 1519 1528 10.1152/japplphysiol.00047.2018 29494294
+L1062: 127. Yang X. 
+L1063:  Lu Y. 
+L1064:  Xu H. 
+L1065:  Liu Q. 
+L1066:  Yun D.H. 
+L1067:  Moon Y.J. 
+L1068:  Quan H. 
+L1069:  Lee S.K. 
+L1070:  Synergistic effects of blood flow restriction training and beetroot juice supplementation on knee extensor strength and fatigue resistance in college athletes Biol. Sport 2025 42 211 222 10.5114/biolsport.2025.150043 41048224
+L1071: Acknowledgments
+L1072: The authors thank the researchers whose work was included in this review and all colleagues who provided valuable feedback during the preparation of this manuscript.
+[32ms]
+

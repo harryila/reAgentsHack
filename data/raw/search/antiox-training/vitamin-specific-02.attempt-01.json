@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "/Users/harry/.local/bin/paperclip",
+    "search",
+    "-s",
+    "pmc",
+    "--all",
+    "-n",
+    "100",
+    "--exclude-article-type",
+    "review-article",
+    "vitamin E supplementation exercise training"
+  ],
+  "completed_at": "2026-08-16T05:24:26.749818+00:00",
+  "elapsed_seconds": 2.238525666994974,
+  "failure_code": null,
+  "retryable": false,
+  "returncode": 0,
+  "started_at": "2026-08-16T05:24:24.511311+00:00",
+  "stderr_bytes": 46,
+  "stderr_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-02.attempt-01.stderr",
+  "stdout_bytes": 46912,
+  "stdout_path": "/Users/harry/Desktop/temp/reAgentsHack/data/raw/search/antiox-training/vitamin-specific-02.attempt-01.stdout"
+}
