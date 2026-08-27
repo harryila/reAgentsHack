@@ -11,9 +11,11 @@ from literature_multiverse.budgeted_verification import (
     ReleaseGuardConfig,
     ReleaseGuardStatus,
     ScenarioKind,
+    SequentialAuditRefresh,
     assess_prospective_release_guard,
     evaluate_fixed_budgets,
     rank_candidates,
+    run_sequential_value_of_information,
     select_under_budget,
 )
 
@@ -318,3 +320,88 @@ def test_release_guard_all_resolved_is_only_eligible_for_downstream_gates() -> N
     assert decision.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES
     assert decision.reasons == ()
     assert decision.unresolved_item_ids == ()
+
+
+def test_union_bound_can_authorize_partial_audit_without_independence() -> None:
+    candidate = AuditCandidate(
+        item_id="low-bounded-risk",
+        baseline_contribution=0.0,
+        counterfactual_contribution=0.0,
+        error_probability=0.01,
+        probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+        probability_source="held-out-item-risk-upper-bound-v1",
+        verification_cost=5.0,
+        cost_unit="minutes",
+        disagreement_score=0.0,
+        scenario_kind=ScenarioKind.LEAVE_ONE_OUT,
+        scenario_source="actual-synthesis-rerun",
+        baseline_decision_score=0.99,
+        counterfactual_decision_score=0.1,
+        decision_score_source="frequentist-directional-evidence-score",
+        baseline_decision=True,
+        counterfactual_decision=False,
+    )
+
+    decision = assess_prospective_release_guard(
+        [candidate],
+        ClaimModel(intercept=0.0, decision_threshold=0.95),
+        resolved_item_ids=[],
+        config=ReleaseGuardConfig(block_counterfactual_conclusion_flips=False),
+    )
+
+    assert decision.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES
+    assert decision.unresolved_conclusion_flip_item_ids == ("low-bounded-risk",)
+    assert decision.residual_decision_risk_upper_bound == pytest.approx(0.01)
+    assert "union_bound_requires_no_item_error_independence" in (
+        decision.residual_risk_bound_assumptions
+    )
+
+
+def test_sequential_scheduler_refreshes_priorities_and_stops_on_residual_bound() -> None:
+    def candidate(item_id: str, counterfactual_score: float, risk: float) -> AuditCandidate:
+        return AuditCandidate(
+            item_id=item_id,
+            baseline_contribution=0.0,
+            counterfactual_contribution=0.0,
+            error_probability=risk,
+            probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+            probability_source="test-upper-bound",
+            verification_cost=1.0,
+            cost_unit="minutes",
+            disagreement_score=0.0,
+            scenario_kind=ScenarioKind.LEAVE_ONE_OUT,
+            scenario_source="actual-synthesis-rerun",
+            baseline_decision_score=0.99,
+            counterfactual_decision_score=counterfactual_score,
+            decision_score_source="test-synthesis-score",
+            baseline_decision=True,
+            counterfactual_decision=counterfactual_score >= 0.95,
+        )
+
+    initial = (candidate("a", 0.2, 0.6), candidate("b", 0.8, 0.6))
+    refreshed = (candidate("a", 0.99, 0.6), candidate("b", 0.99, 0.01))
+    calls: list[str] = []
+
+    def refresh(selected, resolved):
+        calls.append(selected.item_id)
+        assert resolved == ("a",)
+        return SequentialAuditRefresh(
+            candidates=refreshed,
+            claim_model=ClaimModel(intercept=0.0, decision_threshold=0.95),
+            state_id="synthesis-after-a",
+            resolution_source="blinded-adjudication",
+        )
+
+    run = run_sequential_value_of_information(
+        initial,
+        ClaimModel(intercept=0.0, decision_threshold=0.95),
+        budget=2.0,
+        refresh_after_audit=refresh,
+        guard_config=ReleaseGuardConfig(block_counterfactual_conclusion_flips=False),
+    )
+
+    assert calls == ["a"]
+    assert run.resolved_item_ids == ("a",)
+    assert run.spent == pytest.approx(1.0)
+    assert run.stop_reason == "residual_risk_guard_satisfied"
+    assert run.final_guard.residual_decision_risk_upper_bound == pytest.approx(0.01)

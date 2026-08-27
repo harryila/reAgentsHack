@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import hashlib
 import math
-from collections.abc import Mapping, Sequence
+from collections.abc import Callable, Mapping, Sequence
 from dataclasses import dataclass
 from enum import StrEnum
 
@@ -30,6 +30,7 @@ class ProbabilityBasis(StrEnum):
     """How an item's pre-audit error probability was obtained."""
 
     CALIBRATED = "calibrated"
+    CALIBRATED_UPPER_BOUND = "calibrated_upper_bound"
     HEURISTIC = "heuristic"
     PLANTED_SIMULATION = "planted_simulation"
 
@@ -125,6 +126,11 @@ class AuditCandidate:
     disagreement_score: float
     scenario_kind: ScenarioKind
     scenario_source: str
+    baseline_decision_score: float | None = None
+    counterfactual_decision_score: float | None = None
+    decision_score_source: str | None = None
+    baseline_decision: bool | None = None
+    counterfactual_decision: bool | None = None
 
     def __post_init__(self) -> None:
         if not self.item_id.strip():
@@ -161,6 +167,31 @@ class AuditCandidate:
             and self.counterfactual_contribution != 0.0
         ):
             raise ValueError("leave_one_out_contribution_must_be_zero")
+        direct_scores = (
+            self.baseline_decision_score,
+            self.counterfactual_decision_score,
+        )
+        if any(value is not None for value in direct_scores):
+            if any(value is None for value in direct_scores):
+                raise ValueError("audit_direct_decision_scores_require_both_values")
+            if self.decision_score_source is None or not self.decision_score_source.strip():
+                raise ValueError("audit_direct_decision_score_source_required")
+            if any(
+                value is None or not math.isfinite(value) or not 0 <= value <= 1
+                for value in direct_scores
+            ):
+                raise ValueError("audit_direct_decision_score_invalid")
+        elif self.decision_score_source is not None:
+            raise ValueError("audit_decision_score_source_without_scores")
+        decisions = (self.baseline_decision, self.counterfactual_decision)
+        if any(value is not None for value in decisions) and any(
+            value is None for value in decisions
+        ):
+            raise ValueError("audit_direct_decisions_require_both_values")
+        if any(value is not None and not isinstance(value, bool) for value in decisions):
+            raise ValueError("audit_direct_decision_invalid")
+        if self.baseline_decision is not None and direct_scores[0] is None:
+            raise ValueError("audit_direct_decision_requires_scores")
 
 
 @dataclass(frozen=True, slots=True)
@@ -199,6 +230,7 @@ class PriorityRecord:
     conclusion_flip: bool
     expected_claim_loss_reduction: float
     expected_claim_loss_reduction_per_cost: float
+    decision_score_source: str | None
 
 
 @dataclass(frozen=True, slots=True)
@@ -215,15 +247,18 @@ class BudgetSelection:
 class ReleaseGuardConfig:
     """Conservative thresholds for unresolved audit candidates.
 
-    The default requires calibrated item-error probabilities.  Setting that flag to
-    false permits a heuristic prioritization workflow, but cannot create a calibrated
-    release-risk guarantee.
+    A partial-audit release requires marginal error-probability *upper bounds*.  Their
+    clipped sum is a union bound on any unresolved evidence-item error, without an
+    independence assumption.  Plain calibrated probabilities and heuristic scores may
+    prioritize audits but cannot establish that residual-risk bound.
     """
 
     max_unresolved_item_influence: float = 0.05
     max_unresolved_expected_claim_loss: float = 0.05
     block_counterfactual_conclusion_flips: bool = True
     require_calibrated_error_probabilities: bool = True
+    require_error_probability_upper_bounds: bool = True
+    max_residual_decision_risk: float = 0.05
 
     def __post_init__(self) -> None:
         if not math.isfinite(self.max_unresolved_item_influence) or not (
@@ -234,6 +269,10 @@ class ReleaseGuardConfig:
             self.max_unresolved_expected_claim_loss < 0
         ):
             raise ValueError("release_guard_expected_loss_limit_invalid")
+        if not math.isfinite(self.max_residual_decision_risk) or not (
+            0 <= self.max_residual_decision_risk <= 1
+        ):
+            raise ValueError("release_guard_residual_risk_limit_invalid")
 
 
 @dataclass(frozen=True, slots=True)
@@ -248,7 +287,59 @@ class ReleaseGuardDecision:
     unresolved_high_influence_item_ids: tuple[str, ...]
     unresolved_noncalibrated_item_ids: tuple[str, ...]
     unresolved_expected_claim_loss: float
+    unresolved_without_probability_bound_item_ids: tuple[str, ...]
+    residual_decision_risk_upper_bound: float | None
+    residual_risk_bound_assumptions: tuple[str, ...]
     config: ReleaseGuardConfig
+
+
+@dataclass(frozen=True, slots=True)
+class SequentialAuditRefresh:
+    """State returned after one real audit has been applied upstream.
+
+    The callback constructing this object owns correction application and must rebuild
+    every candidate counterfactual against the updated scientific synthesis.  Candidate
+    identities must remain stable so the audit lineage cannot silently change scope.
+    """
+
+    candidates: tuple[AuditCandidate, ...]
+    claim_model: ClaimModel
+    state_id: str
+    resolution_source: str
+
+    def __post_init__(self) -> None:
+        if not self.state_id.strip():
+            raise ValueError("sequential_audit_state_id_empty")
+        if not self.resolution_source.strip():
+            raise ValueError("sequential_audit_resolution_source_empty")
+
+
+@dataclass(frozen=True, slots=True)
+class SequentialAuditStep:
+    step: int
+    item_id: str
+    rank_before_audit: int
+    priority_before_audit: float
+    cost: float
+    cumulative_spent: float
+    state_id_after_audit: str
+    resolution_source: str
+
+
+@dataclass(frozen=True, slots=True)
+class SequentialAuditRun:
+    """Sequential audit trace with priorities recomputed after every correction."""
+
+    policy: AllocationPolicy
+    budget: float
+    spent: float
+    cost_unit: str
+    resolved_item_ids: tuple[str, ...]
+    steps: tuple[SequentialAuditStep, ...]
+    final_candidates: tuple[AuditCandidate, ...]
+    final_claim_model: ClaimModel
+    final_guard: ReleaseGuardDecision
+    stop_reason: str
 
 
 def _validate_candidates(candidates: Sequence[AuditCandidate]) -> tuple[str, dict[str, int]]:
@@ -282,13 +373,46 @@ def rank_candidates(
 
     _, indices = _validate_candidates(candidates)
     baseline_contributions = [candidate.baseline_contribution for candidate in candidates]
-    baseline_probability = claim_model.probability(baseline_contributions)
-    baseline_conclusion = claim_model.conclusion(baseline_probability)
+    direct_baselines = {
+        candidate.baseline_decision_score
+        for candidate in candidates
+        if candidate.baseline_decision_score is not None
+    }
+    if direct_baselines and len(direct_baselines) != 1:
+        raise ValueError("audit_direct_baseline_decision_scores_mismatch")
+    if direct_baselines and len(direct_baselines) != len(
+        {
+            candidate.baseline_decision_score
+            for candidate in candidates
+        }
+    ):
+        raise ValueError("audit_direct_decision_scores_mixed_with_additive_candidates")
+    baseline_probability = (
+        next(iter(direct_baselines))
+        if direct_baselines
+        else claim_model.probability(baseline_contributions)
+    )
+    assert baseline_probability is not None  # narrowed from the optional dataclass field
+    direct_baseline_conclusions = {
+        candidate.baseline_decision
+        for candidate in candidates
+        if candidate.baseline_decision is not None
+    }
+    if len(direct_baseline_conclusions) > 1:
+        raise ValueError("audit_direct_baseline_decisions_mismatch")
+    baseline_conclusion = (
+        next(iter(direct_baseline_conclusions))
+        if direct_baseline_conclusions
+        else claim_model.conclusion(baseline_probability)
+    )
     pending: list[tuple[float, str, dict[str, object]]] = []
     for candidate in candidates:
-        counterfactual = list(baseline_contributions)
-        counterfactual[indices[candidate.item_id]] = candidate.counterfactual_contribution
-        counterfactual_probability = claim_model.probability(counterfactual)
+        if candidate.counterfactual_decision_score is not None:
+            counterfactual_probability = candidate.counterfactual_decision_score
+        else:
+            counterfactual = list(baseline_contributions)
+            counterfactual[indices[candidate.item_id]] = candidate.counterfactual_contribution
+            counterfactual_probability = claim_model.probability(counterfactual)
         influence = abs(baseline_probability - counterfactual_probability)
         expected_reduction = candidate.error_probability * influence
         expected_per_cost = expected_reduction / candidate.verification_cost
@@ -324,11 +448,16 @@ def rank_candidates(
                     "counterfactual_claim_probability": counterfactual_probability,
                     "probability_influence": influence,
                     "conclusion_flip": (
-                        claim_model.conclusion(counterfactual_probability)
+                        (
+                            candidate.counterfactual_decision
+                            if candidate.counterfactual_decision is not None
+                            else claim_model.conclusion(counterfactual_probability)
+                        )
                         != baseline_conclusion
                     ),
                     "expected_claim_loss_reduction": expected_reduction,
                     "expected_claim_loss_reduction_per_cost": expected_per_cost,
+                    "decision_score_source": candidate.decision_score_source,
                 },
             )
         )
@@ -355,6 +484,7 @@ def rank_candidates(
             expected_claim_loss_reduction_per_cost=float(
                 values["expected_claim_loss_reduction_per_cost"]
             ),
+            decision_score_source=values["decision_score_source"],  # type: ignore[arg-type]
         )
         for rank, (priority, item_id, values) in enumerate(pending, start=1)
     )
@@ -406,7 +536,9 @@ def assess_prospective_release_guard(
     resolve it.
 
     The summed scenario loss is a triage burden, not a joint probabilistic bound:
-    counterfactuals can interact and heuristic error scores are not probabilities.
+    counterfactuals can interact and heuristic error scores are not probabilities.  A
+    separately reported union bound is available only when every unresolved risk value
+    is explicitly contracted as a calibrated marginal upper bound.
     """
 
     _validate_candidates(candidates)
@@ -433,22 +565,55 @@ def assess_prospective_release_guard(
         for record in unresolved
         if record.probability_influence > config.max_unresolved_item_influence
     )
+    calibrated_bases = {
+        ProbabilityBasis.CALIBRATED,
+        ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+    }
     noncalibrated = tuple(
         record.item_id
         for record in unresolved
+        if candidate_by_id[record.item_id].probability_basis not in calibrated_bases
+    )
+    without_probability_bound = tuple(
+        record.item_id
+        for record in unresolved
         if candidate_by_id[record.item_id].probability_basis
-        is not ProbabilityBasis.CALIBRATED
+        is not ProbabilityBasis.CALIBRATED_UPPER_BOUND
     )
     expected_loss = math.fsum(
         record.expected_claim_loss_reduction for record in unresolved
     )
     reasons: list[str] = []
-    if config.block_counterfactual_conclusion_flips and flips:
-        reasons.append("unresolved_counterfactual_can_flip_conclusion")
-    if high_influence:
-        reasons.append("unresolved_item_influence_exceeds_limit")
-    if expected_loss > config.max_unresolved_expected_claim_loss:
-        reasons.append("unresolved_expected_claim_loss_exceeds_limit")
+    if config.require_error_probability_upper_bounds and without_probability_bound:
+        reasons.append("unresolved_error_probabilities_not_upper_bounds")
+        residual_risk_bound: float | None = None
+    else:
+        # Boole's inequality needs no independence assumption.  Under the declared
+        # itemwise upper-bound semantics, a wrong evidence-driven decision implies at
+        # least one unresolved extraction error, so the clipped sum is conservative.
+        residual_risk_bound = min(
+            1.0,
+            math.fsum(
+                candidate_by_id[record.item_id].error_probability
+                for record in unresolved
+            ),
+        )
+        if residual_risk_bound > config.max_residual_decision_risk:
+            reasons.append("residual_decision_risk_upper_bound_exceeds_limit")
+    residual_bound_controls_release = (
+        residual_risk_bound is not None
+        and residual_risk_bound <= config.max_residual_decision_risk
+    )
+    # Influence and expected-loss thresholds are conservative triage gates when no
+    # valid residual-risk bound exists.  A valid bound already controls the probability
+    # of any unresolved evidence error and therefore supersedes scenario magnitude.
+    if not residual_bound_controls_release:
+        if config.block_counterfactual_conclusion_flips and flips:
+            reasons.append("unresolved_counterfactual_can_flip_conclusion")
+        if high_influence:
+            reasons.append("unresolved_item_influence_exceeds_limit")
+        if expected_loss > config.max_unresolved_expected_claim_loss:
+            reasons.append("unresolved_expected_claim_loss_exceeds_limit")
     if config.require_calibrated_error_probabilities and noncalibrated:
         reasons.append("unresolved_error_probabilities_not_calibrated")
     return ReleaseGuardDecision(
@@ -464,7 +629,128 @@ def assess_prospective_release_guard(
         unresolved_high_influence_item_ids=high_influence,
         unresolved_noncalibrated_item_ids=noncalibrated,
         unresolved_expected_claim_loss=expected_loss,
+        unresolved_without_probability_bound_item_ids=without_probability_bound,
+        residual_decision_risk_upper_bound=residual_risk_bound,
+        residual_risk_bound_assumptions=(
+            "item_error_values_are_marginal_probability_upper_bounds",
+            "an_evidence_driven_decision_error_requires_at_least_one_unresolved_item_error",
+            "union_bound_requires_no_item_error_independence",
+            "bound_excludes_retrieval_model_and_population_shift_unless_encoded_as_items",
+        ),
         config=config,
+    )
+
+
+def run_sequential_value_of_information(
+    candidates: Sequence[AuditCandidate],
+    claim_model: ClaimModel,
+    *,
+    budget: float,
+    refresh_after_audit: Callable[
+        [AuditCandidate, tuple[str, ...]], SequentialAuditRefresh
+    ],
+    policy: AllocationPolicy = AllocationPolicy.EXPECTED_CLAIM_LOSS_PER_COST,
+    guard_config: ReleaseGuardConfig | None = None,
+    seed: int = 0,
+) -> SequentialAuditRun:
+    """Audit one item at a time and recompute VOI from the corrected synthesis.
+
+    ``refresh_after_audit`` is deliberately the only mutation boundary.  It must obtain
+    a completed adjudication, apply any correction to the upstream evidence graph,
+    rerun the actual synthesizer, and return freshly derived counterfactual candidates.
+    The scheduler never accepts hidden labels itself.  It stops as soon as the residual
+    risk guard permits downstream gates, the budget cannot fit another item, or every
+    item has been resolved.
+    """
+
+    if not math.isfinite(budget) or budget < 0:
+        raise ValueError("audit_budget_invalid")
+    cost_unit, _ = _validate_candidates(candidates)
+    guard_config = guard_config or ReleaseGuardConfig()
+    original_ids = {candidate.item_id for candidate in candidates}
+    current_candidates = tuple(candidates)
+    current_model = claim_model
+    resolved: list[str] = []
+    steps: list[SequentialAuditStep] = []
+    spent = 0.0
+    stop_reason = "all_candidates_resolved"
+
+    while len(resolved) < len(original_ids):
+        guard = assess_prospective_release_guard(
+            current_candidates,
+            current_model,
+            resolved_item_ids=resolved,
+            config=guard_config,
+        )
+        if guard.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES:
+            stop_reason = "residual_risk_guard_satisfied"
+            break
+        unresolved_candidates = [
+            candidate
+            for candidate in current_candidates
+            if candidate.item_id not in set(resolved)
+        ]
+        ranking = rank_candidates(
+            unresolved_candidates,
+            current_model,
+            policy,
+            seed=seed + len(steps),
+        )
+        by_id = {candidate.item_id: candidate for candidate in current_candidates}
+        selected_record = next(
+            (
+                record
+                for record in ranking
+                if spent + record.verification_cost <= budget + 1e-12
+            ),
+            None,
+        )
+        if selected_record is None:
+            stop_reason = "budget_exhausted_or_no_fitting_item"
+            break
+        selected = by_id[selected_record.item_id]
+        resolved_after = tuple(sorted([*resolved, selected.item_id]))
+        refresh = refresh_after_audit(selected, resolved_after)
+        refreshed_ids = {candidate.item_id for candidate in refresh.candidates}
+        if refreshed_ids != original_ids or len(refresh.candidates) != len(original_ids):
+            raise ValueError("sequential_audit_candidate_identity_changed")
+        refreshed_cost_units = {candidate.cost_unit for candidate in refresh.candidates}
+        if refreshed_cost_units != {cost_unit}:
+            raise ValueError("sequential_audit_cost_unit_changed")
+        spent += selected.verification_cost
+        resolved = list(resolved_after)
+        current_candidates = refresh.candidates
+        current_model = refresh.claim_model
+        steps.append(
+            SequentialAuditStep(
+                step=len(steps) + 1,
+                item_id=selected.item_id,
+                rank_before_audit=selected_record.rank,
+                priority_before_audit=selected_record.priority,
+                cost=selected.verification_cost,
+                cumulative_spent=spent,
+                state_id_after_audit=refresh.state_id,
+                resolution_source=refresh.resolution_source,
+            )
+        )
+
+    final_guard = assess_prospective_release_guard(
+        current_candidates,
+        current_model,
+        resolved_item_ids=resolved,
+        config=guard_config,
+    )
+    return SequentialAuditRun(
+        policy=policy,
+        budget=budget,
+        spent=spent,
+        cost_unit=cost_unit,
+        resolved_item_ids=tuple(sorted(resolved)),
+        steps=tuple(steps),
+        final_candidates=current_candidates,
+        final_claim_model=current_model,
+        final_guard=final_guard,
+        stop_reason=stop_reason,
     )
 
 
@@ -594,8 +880,12 @@ __all__ = [
     "ReleaseGuardDecision",
     "ReleaseGuardStatus",
     "ScenarioKind",
+    "SequentialAuditRefresh",
+    "SequentialAuditRun",
+    "SequentialAuditStep",
     "assess_prospective_release_guard",
     "evaluate_fixed_budgets",
     "rank_candidates",
+    "run_sequential_value_of_information",
     "select_under_budget",
 ]

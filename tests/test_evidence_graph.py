@@ -283,7 +283,7 @@ def test_selection_refuses_unresolved_placeholder_cohort_identity() -> None:
     assert selection.reason == "unresolved_cohort_identity"
 
 
-def test_selection_refuses_one_cohort_reported_by_multiple_publications() -> None:
+def test_synthesis_aggregates_one_cohort_reported_by_multiple_publications() -> None:
     first = adapt_effect_evidence(_evidence("a"), context=_context("a")).graph
     second = adapt_effect_evidence(_evidence("b"), context=_context("b")).graph
     payload = first.model_dump(mode="json")
@@ -304,14 +304,29 @@ def test_selection_refuses_one_cohort_reported_by_multiple_publications() -> Non
     payload["outcome_estimates"].append(second_estimate.model_dump(mode="json"))
     graph = EvidenceGraph.model_validate(payload)
 
+    independent = adapt_effect_evidence(
+        _evidence("c", estimate=0.3), context=_context("c")
+    ).graph
+    graph = _merge_graphs(graph, independent)
+
     selection = select_effect_evidence(graph)
-    assert selection.status == "insufficient"
-    assert selection.reason == (
-        "cohort_reported_by_multiple_publications_requires_cohort_aware_synthesis"
+    synthesis = synthesize_evidence_graph(graph)
+
+    assert selection.status == "ready"
+    assert selection.cohort_ids.count("cohort-a") == 2
+    assert "shared_cohort_across_publications_aggregated_as_one_unit" in selection.warnings
+    assert synthesis["quantitative"]["n_publications"] == 3
+    assert synthesis["quantitative"]["n_cohorts"] == 2
+    shared = next(
+        row
+        for row in synthesis["quantitative"]["cohort_effects"]
+        if row["cohort_id"] == "cohort-a"
     )
+    assert shared["paper_ids"] == ["paper-a", "paper-b"]
+    assert shared["variance"] == pytest.approx(0.1**2)
 
 
-def test_selection_refuses_one_publication_reporting_multiple_cohorts() -> None:
+def test_synthesis_allows_one_publication_reporting_multiple_cohorts() -> None:
     first = adapt_effect_evidence(_evidence("a"), context=_context("a")).graph
     second_evidence = _evidence("b").model_copy(update={"paper_id": "paper-a"})
     second = adapt_effect_evidence(
@@ -328,10 +343,20 @@ def test_selection_refuses_one_publication_reporting_multiple_cohorts() -> None:
     graph = EvidenceGraph.model_validate(payload)
 
     selection = select_effect_evidence(graph)
-    assert selection.status == "insufficient"
-    assert selection.reason == (
-        "publication_reports_multiple_cohorts_requires_cohort_aware_synthesis"
+    synthesis = synthesize_evidence_graph(graph)
+
+    assert selection.status == "ready"
+    assert set(selection.cohort_ids) == {"cohort-a", "cohort-b"}
+    assert (
+        "multiple_explicit_cohorts_in_publication_treated_as_distinct_units"
+        in selection.warnings
     )
+    assert synthesis["quantitative"]["n_publications"] == 1
+    assert synthesis["quantitative"]["n_cohorts"] == 2
+    assert {row["cohort_id"] for row in synthesis["quantitative"]["cohort_effects"]} == {
+        "cohort-a",
+        "cohort-b",
+    }
 
 
 def test_selection_refuses_incompatible_timepoints() -> None:

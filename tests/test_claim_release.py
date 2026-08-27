@@ -40,6 +40,7 @@ from literature_multiverse.evidence_graph import (
     adapt_effect_evidence,
 )
 from literature_multiverse.lineage import atomic_write_json, hash_canonical
+from literature_multiverse.meta_analysis import build_graph_counterfactual_audit_plan
 
 PIPELINE_SHA256 = "a" * 64
 
@@ -73,6 +74,7 @@ def _evidence(
     *,
     estimate: float | None = 0.8,
     standard_error: float | None = 0.05,
+    moderator: str | None = None,
 ) -> EffectEvidence:
     available = estimate is not None
     return EffectEvidence(
@@ -85,6 +87,7 @@ def _evidence(
         estimate=estimate,
         standard_error=standard_error if available else None,
         reported_significance="not_significant",
+        moderators={"population": moderator},
         provenance={
             "source_locator": f"paper-{suffix}.pdf#page=4",
             "source_quote": (
@@ -342,10 +345,60 @@ def test_zero_or_understated_influence_cannot_release_unresolved_estimates() -> 
     assert all(row.probability_influence == 0 for row in result.audit.ranking)
     assert result.audit.unresolved_item_ids == result.audit.expected_item_ids
     assert result.audit.status == "blocked"
-    assert "all_matching_estimates_require_completed_resolution_receipts" in (
-        result.audit.reasons
-    )
+    assert "unresolved_error_probabilities_not_upper_bounds" in result.audit.reasons
     assert result.status == "abstained"
+
+
+def test_bounded_residual_risk_allows_partial_audit_release() -> None:
+    graph = _graph()
+    candidates = [
+        replace(
+            candidate,
+            error_probability=0.005,
+            probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+        )
+        for candidate in _audit_candidates(graph)
+    ]
+
+    result = _assess(
+        graph,
+        candidates=candidates,
+        resolve_all=False,
+        bundle=_bundle(),
+        budget=0.0,
+    )
+
+    assert result.status == "released"
+    assert result.audit.status == "eligible"
+    assert result.audit.selected_item_ids == []
+    assert result.audit.resolved_item_ids == []
+    assert result.audit.unresolved_item_ids == result.audit.expected_item_ids
+    assert result.audit.residual_decision_risk_upper_bound == pytest.approx(0.015)
+
+
+def test_graph_counterfactual_plan_reruns_the_actual_synthesis() -> None:
+    graph = _graph()
+    item_ids = {estimate.estimate_id for estimate in graph.outcome_estimates}
+    plan = build_graph_counterfactual_audit_plan(
+        graph,
+        outcome_name="performance",
+        target_direction="increase",
+        error_probabilities=dict.fromkeys(item_ids, 0.01),
+        verification_costs=dict.fromkeys(item_ids, 1.0),
+        probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+        probability_source="held-out-upper-bound-v1",
+    )
+
+    assert plan.baseline_synthesis["quantitative"]["n_papers"] == 3
+    assert plan.baseline_decision.supported is True
+    assert {candidate.item_id for candidate in plan.candidates} == item_ids
+    for candidate in plan.candidates:
+        rerun = plan.counterfactual_syntheses[candidate.item_id]
+        assert rerun["quantitative"]["n_papers"] == 2
+        assert rerun["evidence_graph"]["excluded_estimate_ids"] == [candidate.item_id]
+        assert candidate.decision_score_source == (
+            "frequentist_directional_evidence_score_not_truth_probability"
+        )
 
 
 def test_supported_synthesis_rejects_inconsistent_claim_model_baseline() -> None:
@@ -475,7 +528,7 @@ def test_graph_insufficiency_is_not_evaluable_instead_of_manufacturing_claim() -
     result = _assess(graph, bundle=None)
 
     assert result.evidence.classification == "not_evaluable"
-    assert result.evidence.reason == "fewer_than_two_nonzero_paper_signs"
+    assert result.evidence.reason == "fewer_than_two_nonzero_cohort_signs"
     assert result.status == "abstained"
 
 
@@ -523,6 +576,46 @@ def test_directional_fallback_uses_exact_sign_interval_and_cannot_fake_precision
         "directional_fallback_cannot_satisfy_prediction_interval_requirement"
     )
     assert relaxed.evidence.classification == "supported"
+
+
+def test_prespecified_opposite_subgroups_produce_condition_dependent_outcome() -> None:
+    component_graphs = [
+        adapt_effect_evidence(
+            _evidence(
+                f"{level}-{index}",
+                estimate=0.8 if level == "high" else -0.8,
+                standard_error=0.08,
+                moderator=level,
+            ),
+            context=_context(f"{level}-{index}"),
+        ).graph
+        for level in ("low", "high")
+        for index in range(6)
+    ]
+    graph = EvidenceGraph(
+        publications=[item for part in component_graphs for item in part.publications],
+        studies=[item for part in component_graphs for item in part.studies],
+        cohorts=[item for part in component_graphs for item in part.cohorts],
+        arms=[item for part in component_graphs for item in part.arms],
+        contrasts=[item for part in component_graphs for item in part.contrasts],
+        outcome_estimates=[
+            item for part in component_graphs for item in part.outcome_estimates
+        ],
+        evidence_spans=[item for part in component_graphs for item in part.evidence_spans],
+    )
+
+    result = _assess(
+        graph,
+        bundle=None,
+        config=ClaimReleaseConfig(
+            prespecified_condition_moderators=["population"],
+        ),
+    )
+
+    assert result.evidence.classification == "condition_dependent"
+    assert result.evidence.condition_moderators == ["population"]
+    assert result.evidence.condition_interpretation == "predictive_association_not_causal"
+    assert result.status == "abstained"
 
 
 def test_calibration_feature_schema_mismatch_fails_closed() -> None:

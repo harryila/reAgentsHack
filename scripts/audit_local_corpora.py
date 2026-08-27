@@ -38,6 +38,10 @@ def main(argv: list[str] | None = None) -> int:
         evidence_inference_evaluation_summary_path=Path(
             "artifacts/paper/evidence-inference-gepa-pilot-summary.json"
         ),
+        metasyn_corpus_manifest_path=Path(
+            "configs/benchmarks/metasyn-corpus-c8fa07d.json"
+        ),
+        repository_root=Path("."),
         antiox_papers_path=Path("data/processed/antiox-training/papers.parquet"),
         antiox_findings_path=Path("data/processed/antiox-training/findings.parquet"),
         antiox_source_lines_path=Path("data/raw/map/antiox-training/source_lines.json"),

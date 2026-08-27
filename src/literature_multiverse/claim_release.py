@@ -63,6 +63,7 @@ class TargetDirection(StrEnum):
 class EvidenceClassification(StrEnum):
     SUPPORTED = "supported"
     CONTRADICTED = "contradicted"
+    CONDITION_DEPENDENT = "condition_dependent"
     INCONCLUSIVE = "inconclusive"
     NOT_EVALUABLE = "not_evaluable"
 
@@ -99,6 +100,18 @@ class ClaimReleaseConfig(ContractModel):
         AllocationPolicy.EXPECTED_CLAIM_LOSS_PER_COST
     )
     audit_seed: int = 0
+    prespecified_condition_moderators: list[str] = Field(default_factory=list)
+    condition_familywise_alpha: Annotated[float, Field(gt=0, lt=1)] = 0.05
+    condition_min_papers_per_level: Annotated[int, Field(ge=2)] = 2
+
+    @field_validator("prespecified_condition_moderators")
+    @classmethod
+    def validate_condition_moderators(cls, value: list[str]) -> list[str]:
+        if any(not item.strip() for item in value):
+            raise ValueError("condition_moderator_name_empty")
+        if value != sorted(set(value)):
+            raise ValueError("condition_moderators_must_be_sorted_unique")
+        return value
 
 
 class SynthesisEvidenceAssessment(ContractModel):
@@ -117,6 +130,8 @@ class SynthesisEvidenceAssessment(ContractModel):
     directional_increase_fraction: Annotated[float, Field(ge=0, le=1)] | None = None
     directional_ci_lower: Annotated[float, Field(ge=0, le=1)] | None = None
     directional_ci_upper: Annotated[float, Field(ge=0, le=1)] | None = None
+    condition_moderators: list[str] = Field(default_factory=list)
+    condition_interpretation: str | None = None
 
     @model_validator(mode="after")
     def validate_intervals(self) -> SynthesisEvidenceAssessment:
@@ -143,6 +158,13 @@ class SynthesisEvidenceAssessment(ContractModel):
         )
         if any(value is not None and not math.isfinite(value) for value in numeric):
             raise ValueError("claim_release_evidence_value_nonfinite")
+        if self.condition_moderators != sorted(set(self.condition_moderators)):
+            raise ValueError("claim_release_condition_moderators_not_sorted_unique")
+        if self.classification is EvidenceClassification.CONDITION_DEPENDENT:
+            if not self.condition_moderators or self.condition_interpretation is None:
+                raise ValueError("condition_dependent_requires_moderator_evidence")
+        elif self.condition_moderators or self.condition_interpretation is not None:
+            raise ValueError("condition_metadata_requires_condition_dependent_classification")
         return self
 
 
@@ -286,10 +308,11 @@ class AuditPrioritySummary(ContractModel):
     conclusion_flip: bool
     expected_claim_loss_reduction: Annotated[float, Field(ge=0)]
     expected_claim_loss_reduction_per_cost: Annotated[float, Field(ge=0)]
+    decision_score_source: str | None = None
 
 
 class AuditGateAssessment(ContractModel):
-    """Budget assignment and resolution state, kept deliberately distinct."""
+    """Budget, adjudication, and bounded residual-risk state kept distinct."""
 
     status: Literal["eligible", "blocked", "not_applicable"]
     reasons: list[str]
@@ -305,6 +328,9 @@ class AuditGateAssessment(ContractModel):
     unresolved_conclusion_flip_item_ids: list[str]
     unresolved_high_influence_item_ids: list[str]
     unresolved_noncalibrated_item_ids: list[str]
+    unresolved_without_probability_bound_item_ids: list[str]
+    residual_decision_risk_upper_bound: Annotated[float, Field(ge=0, le=1)] | None
+    residual_risk_bound_assumptions: list[str]
     ranking: list[AuditPrioritySummary]
     resolution_receipts: list[AuditResolutionReceipt]
     candidate_input_sha256: str
@@ -335,6 +361,7 @@ class AuditGateAssessment(ContractModel):
             "unresolved_conclusion_flip_item_ids",
             "unresolved_high_influence_item_ids",
             "unresolved_noncalibrated_item_ids",
+            "unresolved_without_probability_bound_item_ids",
         ):
             values = getattr(self, name)
             if values != sorted(set(values)):
@@ -510,6 +537,9 @@ CLAIM_RELEASE_RISK_FEATURE_NAMES = tuple(
             "audit_max_unresolved_influence",
             "audit_unresolved_flip_fraction",
             "audit_unresolved_noncalibrated_fraction",
+            "audit_unresolved_without_probability_bound_fraction",
+            "audit_residual_decision_risk_upper_bound_available",
+            "audit_residual_decision_risk_upper_bound",
         }
     )
 )
@@ -552,6 +582,24 @@ def _classify_synthesis(
             n_papers=0,
         )
 
+    condition = synthesis.get("condition_analysis")
+    qualifying_moderators: list[str] = []
+    condition_interpretation: str | None = None
+    if isinstance(condition, Mapping) and condition.get("status") == "condition_dependent":
+        raw_qualifying = condition.get("qualifying_moderators")
+        if not isinstance(raw_qualifying, list):
+            raise ClaimReleaseContractError("condition_analysis_qualifiers_invalid")
+        qualifying_moderators = sorted(
+            str(row["moderator"])
+            for row in raw_qualifying
+            if isinstance(row, Mapping) and row.get("moderator")
+        )
+        if not qualifying_moderators:
+            raise ClaimReleaseContractError("condition_analysis_qualifiers_empty")
+        condition_interpretation = str(
+            condition.get("interpretation", "predictive_association_not_causal")
+        )
+
     if mode == "random_effects_meta_analysis":
         quantitative = synthesis.get("quantitative")
         if not isinstance(quantitative, Mapping) or quantitative.get("status") != "ok":
@@ -568,7 +616,10 @@ def _classify_synthesis(
             prediction_lower = float(prediction["lower"])
             prediction_upper = float(prediction["upper"])
 
-        if _opposite_side(lower, upper, target.direction):
+        if qualifying_moderators:
+            classification = EvidenceClassification.CONDITION_DEPENDENT
+            reason = "prespecified_qualitative_condition_dependence_detected"
+        elif _opposite_side(lower, upper, target.direction):
             classification = EvidenceClassification.CONTRADICTED
             reason = "confidence_interval_supports_opposite_direction"
         elif not _target_side(lower, upper, target.direction):
@@ -600,6 +651,8 @@ def _classify_synthesis(
             ci_upper=upper,
             prediction_interval_lower=prediction_lower,
             prediction_interval_upper=prediction_upper,
+            condition_moderators=qualifying_moderators,
+            condition_interpretation=condition_interpretation,
         )
 
     if mode == "directional_sign_synthesis":
@@ -618,7 +671,10 @@ def _classify_synthesis(
         target_contradicted = (
             upper < 0.5 if target.direction is TargetDirection.INCREASE else lower > 0.5
         )
-        if target_contradicted:
+        if qualifying_moderators:
+            classification = EvidenceClassification.CONDITION_DEPENDENT
+            reason = "prespecified_qualitative_condition_dependence_detected"
+        elif target_contradicted:
             classification = EvidenceClassification.CONTRADICTED
             reason = "exact_sign_interval_supports_opposite_direction"
         elif not target_supported:
@@ -639,6 +695,8 @@ def _classify_synthesis(
             directional_increase_fraction=fraction,
             directional_ci_lower=lower,
             directional_ci_upper=upper,
+            condition_moderators=qualifying_moderators,
+            condition_interpretation=condition_interpretation,
         )
 
     raise ClaimReleaseContractError(f"unknown_successful_synthesis_mode:{mode}")
@@ -775,6 +833,11 @@ def _audit_gate(
             unresolved_conclusion_flip_item_ids=[],
             unresolved_high_influence_item_ids=[],
             unresolved_noncalibrated_item_ids=[],
+            unresolved_without_probability_bound_item_ids=[],
+            residual_decision_risk_upper_bound=0,
+            residual_risk_bound_assumptions=[
+                "no_unresolved_evidence_items",
+            ],
             ranking=[],
             resolution_receipts=[],
             candidate_input_sha256=candidate_hash,
@@ -811,6 +874,7 @@ def _audit_gate(
             expected_claim_loss_reduction_per_cost=(
                 row.expected_claim_loss_reduction_per_cost
             ),
+            decision_score_source=row.decision_score_source,
         )
         for row in selection.ranking
     ]
@@ -836,21 +900,23 @@ def _audit_gate(
         "unresolved_noncalibrated_item_ids": list(
             guard.unresolved_noncalibrated_item_ids
         ),
+        "unresolved_without_probability_bound_item_ids": list(
+            guard.unresolved_without_probability_bound_item_ids
+        ),
         "unresolved_expected_claim_loss": guard.unresolved_expected_claim_loss,
+        "residual_decision_risk_upper_bound": (
+            guard.residual_decision_risk_upper_bound
+        ),
+        "residual_risk_bound_assumptions": list(
+            guard.residual_risk_bound_assumptions
+        ),
         "config": asdict(guard.config),
     }
     joined_reasons = list(guard.reasons)
-    if unresolved:
-        joined_reasons.append(
-            "all_matching_estimates_require_completed_resolution_receipts"
-        )
     return AuditGateAssessment(
         status=(
             "eligible"
-            if (
-                guard.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES
-                and not unresolved
-            )
+            if guard.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES
             else "blocked"
         ),
         reasons=joined_reasons,
@@ -871,6 +937,15 @@ def _audit_gate(
         ),
         unresolved_noncalibrated_item_ids=sorted(
             guard.unresolved_noncalibrated_item_ids
+        ),
+        unresolved_without_probability_bound_item_ids=sorted(
+            guard.unresolved_without_probability_bound_item_ids
+        ),
+        residual_decision_risk_upper_bound=(
+            guard.residual_decision_risk_upper_bound
+        ),
+        residual_risk_bound_assumptions=list(
+            guard.residual_risk_bound_assumptions
         ),
         ranking=ranking,
         resolution_receipts=validated_receipts,
@@ -947,9 +1022,17 @@ def _risk_features(
         values["audit_unresolved_noncalibrated_fraction"] = (
             len(audit.unresolved_noncalibrated_item_ids) / count
         )
+        values["audit_unresolved_without_probability_bound_fraction"] = (
+            len(audit.unresolved_without_probability_bound_item_ids) / count
+        )
     values["audit_unresolved_expected_claim_loss"] = (
         audit.unresolved_expected_claim_loss
     )
+    if audit.residual_decision_risk_upper_bound is not None:
+        values["audit_residual_decision_risk_upper_bound_available"] = 1.0
+        values["audit_residual_decision_risk_upper_bound"] = (
+            audit.residual_decision_risk_upper_bound
+        )
     unresolved_rows = [
         row for row in audit.ranking if row.item_id in set(audit.unresolved_item_ids)
     ]
@@ -1045,10 +1128,11 @@ def assess_claim_release(
     """Assess a target claim without accepting oracle or correctness labels.
 
     Audit candidates must cover the matching graph outcome-estimate identities exactly.
-    The joined path releases only when every matching estimate has a completed external
-    :class:`AuditResolutionReceipt` bound to the current evidence, graph, synthesis, and
-    candidate snapshot.  Budget selection alone never resolves an item.  Receipts are
-    auditable declarations rather than proof of adjudicator competence.
+    Resolved items require external :class:`AuditResolutionReceipt` objects bound to the
+    current evidence, graph, synthesis, and candidate snapshot.  Unresolved items are
+    permitted only when their declared marginal error-probability upper bounds sum to no
+    more than the frozen residual-risk tolerance.  Budget selection alone never resolves
+    an item, and receipts remain auditable declarations rather than proof of competence.
     """
 
     if not question_id.strip() or not population_id.strip() or not domain.strip():
@@ -1060,11 +1144,15 @@ def assess_claim_release(
     if not isinstance(claim_model, ClaimModel):
         raise ClaimReleaseContractError("claim_model_contract_invalid")
     config = config or ClaimReleaseConfig()
-    audit_guard_config = audit_guard_config or ReleaseGuardConfig()
-    if not audit_guard_config.block_counterfactual_conclusion_flips:
-        raise ClaimReleaseContractError("release_guard_must_block_counterfactual_flips")
+    audit_guard_config = audit_guard_config or ReleaseGuardConfig(
+        block_counterfactual_conclusion_flips=False
+    )
     if not audit_guard_config.require_calibrated_error_probabilities:
         raise ClaimReleaseContractError("release_guard_must_block_noncalibrated_unresolved_items")
+    if not audit_guard_config.require_error_probability_upper_bounds:
+        raise ClaimReleaseContractError(
+            "release_guard_must_require_probability_upper_bounds_for_unresolved_items"
+        )
 
     matching_estimates = [
         estimate
@@ -1107,18 +1195,33 @@ def assess_claim_release(
         require_explicit_timepoint=config.require_explicit_timepoint,
         confidence_level=config.confidence_level,
         assumed_within_paper_correlation=config.assumed_within_paper_correlation,
+        prespecified_moderators=config.prespecified_condition_moderators,
+        condition_familywise_alpha=config.condition_familywise_alpha,
+        condition_min_papers_per_level=config.condition_min_papers_per_level,
     )
     synthesis_hash = hash_canonical(synthesis)
     evidence = _classify_synthesis(synthesis, target=target, config=config)
+    direct_baseline_decisions = {
+        candidate.baseline_decision
+        for candidate in audit_candidates
+        if candidate.baseline_decision is not None
+    }
+    if len(direct_baseline_decisions) > 1:
+        raise ClaimReleaseContractError("audit_candidate_baseline_decisions_mismatch")
     baseline_claim_probability = claim_model.probability(
         [
             candidate.baseline_contribution
             for candidate in sorted(audit_candidates, key=lambda item: item.item_id)
         ]
     )
+    baseline_claim_conclusion = (
+        next(iter(direct_baseline_decisions))
+        if direct_baseline_decisions
+        else claim_model.conclusion(baseline_claim_probability)
+    )
     if (
         evidence.classification is EvidenceClassification.SUPPORTED
-        and not claim_model.conclusion(baseline_claim_probability)
+        and not baseline_claim_conclusion
     ):
         raise ClaimReleaseContractError(
             "claim_model_baseline_conclusion_inconsistent_with_supported_target"

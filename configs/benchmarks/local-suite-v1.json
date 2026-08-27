@@ -1,0 +1,115 @@
+{
+  "benchmark_suite_version": "1",
+  "suite_id": "local-real-data-evaluation-v1",
+  "network_calls": 0,
+  "corpora": {
+    "metasyn": {
+      "dataset_version": "THUIR/MetaSyn@c8fa07d89c44093d623f9a213c6bf070f40ab960",
+      "corpus_manifest": "configs/benchmarks/metasyn-corpus-c8fa07d.json",
+      "benchmark_manifest": "artifacts/paper/metasyn-benchmark/manifest.json",
+      "review_cache_dir": "data/cache/metasyn",
+      "access_state": {
+        "development": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "retrospective_development_evaluation"
+        },
+        "calibration": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "retrospective_calibration_evaluation"
+        },
+        "test": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "diagnostic_only_not_run_by_primary_runner"
+        }
+      }
+    },
+    "evidence_inference_2": {
+      "dataset_version": "Evidence Inference 2.0",
+      "manifest": "data/cache/evidence-inference-gepa/manifest.json",
+      "conversion_report": "data/cache/evidence-inference-gepa/conversion_report.json",
+      "access_state": {
+        "train": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "training"
+        },
+        "dev": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "development"
+        },
+        "test": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "diagnostic_baseline_only"
+        }
+      },
+      "license_status": "local_only_redistribution_rights_unconfirmed"
+    },
+    "antiox_training": {
+      "dataset_version": "local-question-cache@input-hashes-below",
+      "access_state": {
+        "training": {
+          "labels_previously_opened": true,
+          "pristine_final_holdout_eligible": false,
+          "scientific_role": "single_question_training_and_prepared_human_audit"
+        }
+      }
+    }
+  },
+  "pinned_files": [
+    {
+      "path": "artifacts/paper/metasyn-benchmark/manifest.json",
+      "sha256": "8ba3eec664c161fe5fd30d79bb87db3f30b4721bf245effe9bd28426d3fbda2d",
+      "required_for": "metasyn_retrieval"
+    },
+    {
+      "path": "data/cache/metasyn/reviews-train.parquet",
+      "sha256": "9582b29191c52a4ebf695b976b42f900c9003728e3baac9fec38f19cf73d4e5b",
+      "required_for": "metasyn_retrieval"
+    },
+    {
+      "path": "data/cache/metasyn/reviews-test.parquet",
+      "sha256": "2822c4b6240f16fab2ccf65a4d29668d8e12eb45cefdbe09344cf8747bcc6d95",
+      "required_for": "metasyn_inventory"
+    },
+    {
+      "path": "data/cache/metasyn/LICENSE",
+      "sha256": "1845ad62b6889b83c829a0d058db426a183bf1831c5e8a48606a0df531f04bb8",
+      "required_for": "license_audit"
+    },
+    {
+      "path": "data/cache/evidence-inference-gepa/manifest.json",
+      "sha256": "77b145436e1c3902ebf87c0d0bf0e82475b8d3090057a7852e5c5fd9cfa63be2",
+      "required_for": "evidence_inference_diagnostic"
+    },
+    {
+      "path": "data/cache/evidence-inference-gepa/conversion_report.json",
+      "sha256": "e22d1038bb244fd83a4fcd4d1dc93fb89b050b4ac289b04d3c35a1e4136ad086",
+      "required_for": "evidence_inference_diagnostic"
+    },
+    {
+      "path": "data/processed/antiox-training/papers.parquet",
+      "sha256": "a5ac0466860a1719cc2b1f40ef05815531fba11d267f6a575a6dac5a51f6cd21",
+      "required_for": "antiox_inventory"
+    },
+    {
+      "path": "data/processed/antiox-training/findings.parquet",
+      "sha256": "61f603855a9195f2a4faa91dd1cbb3b4f9e9ee0d80db65eb621852db8822b3f9",
+      "required_for": "antiox_inventory"
+    },
+    {
+      "path": "data/raw/map/antiox-training/source_lines.json",
+      "sha256": "5e78d47a10cbc3673c77e009856b8006fc05dae963a871af6c6c48ed07874115",
+      "required_for": "antiox_inventory"
+    }
+  ],
+  "license_policy": {
+    "repository_license_required_for_public_release": true,
+    "metasyn_article_payloads_local_only": true,
+    "evidence_inference_text_bearing_artifacts_local_only": true
+  }
+}

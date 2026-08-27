@@ -13,6 +13,7 @@ from literature_multiverse.meta_analysis import (
     aggregate_one_effect_per_paper,
     categorical_meta_regression,
     directional_synthesis,
+    prespecified_condition_analysis,
     random_effects_meta_analysis,
     synthesize_with_directional_fallback,
 )
@@ -194,3 +195,47 @@ def test_end_to_end_wrapper_exposes_why_quantitative_synthesis_fell_back() -> No
     assert synthesis["mode"] == "directional_sign_synthesis"
     assert synthesis["quantitative"]["reason"] == "no_estimable_effects"
     assert synthesis["directional_fallback"]["paper_direction_counts"]["increase"] == 2
+
+
+def test_prespecified_condition_analysis_requires_adjusted_direction_reversal() -> None:
+    effects = _effects(
+        [
+            _result(
+                f"paper-{level}-{index}",
+                0.8 if level == "high" else -0.8,
+                0.08,
+                moderator=level,
+            )
+            for level in ("low", "high")
+            for index in range(6)
+        ]
+    )
+
+    analysis = prespecified_condition_analysis(effects, ["dose"])
+
+    assert analysis["status"] == "condition_dependent"
+    assert analysis["interpretation"] == "predictive_association_not_causal"
+    qualifier = analysis["qualifying_moderators"][0]
+    assert qualifier["moderator"] == "dose"
+    assert qualifier["positive_levels"] == ["high"]
+    assert qualifier["negative_levels"] == ["low"]
+
+
+def test_same_direction_moderator_difference_is_not_condition_dependent() -> None:
+    effects = _effects(
+        [
+            _result(
+                f"paper-{level}-{index}",
+                0.8 if level == "high" else 0.2,
+                0.08,
+                moderator=level,
+            )
+            for level in ("low", "high")
+            for index in range(6)
+        ]
+    )
+
+    analysis = prespecified_condition_analysis(effects, ["dose"])
+
+    assert analysis["status"] == "no_qualitative_condition_dependence_detected"
+    assert analysis["qualifying_moderators"] == []

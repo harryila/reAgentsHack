@@ -1,0 +1,45 @@
+{
+  "corpus_manifest_version": "1",
+  "dataset": "MetaSyn corpus",
+  "source_repository": "THUIR/MetaSyn",
+  "source_revision": "c8fa07d89c44093d623f9a213c6bf070f40ab960",
+  "local_root": "data/cache/metasyn/corpus",
+  "license_notice": {
+    "path": "data/cache/metasyn/LICENSE",
+    "sha256": "1845ad62b6889b83c829a0d058db426a183bf1831c5e8a48606a0df531f04bb8",
+    "status": "local_evaluation_only_third_party_terms_apply"
+  },
+  "shards": [
+    {
+      "path": "train-00000-of-00006.parquet",
+      "rows": 25000,
+      "sha256": "f4662bd17870b6c4e47bd1439f67c1cd96aa5c25c53db471928465b01bc8b3f8"
+    },
+    {
+      "path": "train-00001-of-00006.parquet",
+      "rows": 25000,
+      "sha256": "818acefad66e6a10d09e36e428b1476cc85f8aaece02f8bf3742d90c2181f512"
+    },
+    {
+      "path": "train-00002-of-00006.parquet",
+      "rows": 25000,
+      "sha256": "45ad8b9bee7f1031c41ed973b6c08745b36d4a0c31a7c763ade8501308230023"
+    },
+    {
+      "path": "train-00003-of-00006.parquet",
+      "rows": 25000,
+      "sha256": "fce658680b62bda2c12444b857d51a0eb80a129a0a28b32d6197fd9f66288fd5"
+    },
+    {
+      "path": "train-00004-of-00006.parquet",
+      "rows": 25000,
+      "sha256": "52ca5dea1d84032073ffaeb60130adc29f58abfa9d278789a034c749c26defe2"
+    },
+    {
+      "path": "train-00005-of-00006.parquet",
+      "rows": 15585,
+      "sha256": "c80521751469bc4938229e584c76263a4ef1ce3d65d0bc3a7f3393ee9b80e49d"
+    }
+  ],
+  "total_rows": 140585
+}

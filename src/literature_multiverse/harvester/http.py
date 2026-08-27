@@ -86,6 +86,11 @@ class PoliteHttpClient:
             headers={"User-Agent": agent},
             follow_redirects=False,
             transport=transport,
+            # Reproducible public harvesting must not silently inherit ALL_PROXY,
+            # HTTP_PROXY, or HTTPS_PROXY.  In particular, an ambient SOCKS URL makes
+            # httpx require the optional ``socksio`` package while constructing the
+            # client, before a bounded request can even be attempted.
+            trust_env=False,
         )
         self.max_attempts = max_attempts
         self.min_interval_seconds = min_interval_seconds

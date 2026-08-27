@@ -527,12 +527,13 @@ class EvidenceGraphAdapterResult(ContractModel):
 
 
 class GraphEffectSelection(ContractModel):
-    """Safe extraction result for the existing paper-clustered meta-analysis boundary."""
+    """Safe graph records aligned to explicit independent-cohort identities."""
 
     status: Literal["ready", "insufficient"]
     reason: str | None = None
     records: list[EffectEvidence] = Field(default_factory=list)
     estimate_ids: list[str] = Field(default_factory=list)
+    cohort_ids: list[str] = Field(default_factory=list)
     warnings: list[str] = Field(default_factory=list)
 
     @model_validator(mode="after")
@@ -541,7 +542,7 @@ class GraphEffectSelection(ContractModel):
             raise ValueError("ready_graph_selection_requires_records_only")
         if self.status == "insufficient" and (self.reason is None or self.records):
             raise ValueError("insufficient_graph_selection_requires_reason_only")
-        if len(self.records) != len(self.estimate_ids):
+        if not (len(self.records) == len(self.estimate_ids) == len(self.cohort_ids)):
             raise ValueError("graph_selection_record_count_mismatch")
         return self
 
@@ -860,12 +861,12 @@ def select_effect_evidence(
     contrast_id: str | None = None,
     require_explicit_timepoint: bool = True,
 ) -> GraphEffectSelection:
-    """Select graph effects for the legacy paper-clustered synthesis safely.
+    """Select compatible effects and their explicit independent-cohort identities.
 
-    The current numerical engine clusters by publication.  This adapter therefore
-    requires a one-to-one cohort/publication mapping among selected estimates and refuses
-    graphs where that fallback would misrepresent independence.  A future cohort-aware
-    hierarchical engine can remove this explicit limitation.
+    Shared cohorts across publications and multiple cohorts within one publication are
+    retained; the synthesis boundary reduces them to one conservative contribution per
+    cohort.  Placeholder cohort identities remain blocking because grouping them would
+    invent scientific independence.
     """
 
     selected = [
@@ -913,24 +914,18 @@ def select_effect_evidence(
         cohort_id = contrast_index[item.contrast_id].cohort_id
         cohort_to_papers.setdefault(cohort_id, set()).add(item.effect.paper_id)
         paper_to_cohorts.setdefault(item.effect.paper_id, set()).add(cohort_id)
-    if any(len(papers) != 1 for papers in cohort_to_papers.values()):
-        return GraphEffectSelection(
-            status="insufficient",
-            reason="cohort_reported_by_multiple_publications_requires_cohort_aware_synthesis",
-        )
-    if any(len(cohorts) != 1 for cohorts in paper_to_cohorts.values()):
-        return GraphEffectSelection(
-            status="insufficient",
-            reason="publication_reports_multiple_cohorts_requires_cohort_aware_synthesis",
-        )
-
     warnings: list[str] = []
+    if any(len(papers) > 1 for papers in cohort_to_papers.values()):
+        warnings.append("shared_cohort_across_publications_aggregated_as_one_unit")
+    if any(len(cohorts) > 1 for cohorts in paper_to_cohorts.values()):
+        warnings.append("multiple_explicit_cohorts_in_publication_treated_as_distinct_units")
     if any(item.risk_of_bias.overall is RiskOfBiasJudgement.NOT_ASSESSED for item in selected):
         warnings.append("risk_of_bias_not_assessed_for_one_or_more_estimates")
     return GraphEffectSelection(
         status="ready",
         records=[item.effect for item in selected],
         estimate_ids=[item.estimate_id for item in selected],
+        cohort_ids=[contrast_index[item.contrast_id].cohort_id for item in selected],
         warnings=warnings,
     )
 

@@ -47,6 +47,25 @@ def _mock_client(handler: httpx.MockTransport) -> PoliteHttpClient:
     )
 
 
+def test_http_client_ignores_ambient_proxy_configuration(monkeypatch: pytest.MonkeyPatch) -> None:
+    captured: dict[str, object] = {}
+
+    class DummyClient:
+        def close(self) -> None:
+            return None
+
+    def construct_client(**kwargs: object) -> DummyClient:
+        captured.update(kwargs)
+        return DummyClient()
+
+    monkeypatch.setenv("ALL_PROXY", "socks5://127.0.0.1:9")
+    monkeypatch.setattr(httpx, "Client", construct_client)
+    client = PoliteHttpClient()
+    client.close()
+
+    assert captured["trust_env"] is False
+
+
 def test_openalex_cross_domain_page_normalizes_identifiers_and_abstract() -> None:
     raw = (FIXTURES / "openalex_page.json").read_bytes()
 

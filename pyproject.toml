@@ -28,6 +28,9 @@ dependencies = [
   "uvicorn>=0.52.3",
 ]
 
+[project.scripts]
+lm = "literature_multiverse.cli:main"
+
 [project.optional-dependencies]
 gepa = [
   "gepa>=0.1.4,<0.2",

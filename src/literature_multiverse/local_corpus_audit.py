@@ -17,6 +17,11 @@ from literature_multiverse.metasyn_benchmark import (
     load_metasyn_manifest,
     load_metasyn_predictions,
 )
+from literature_multiverse.metasyn_retrieval import (
+    MetaSynCorpusError,
+    inspect_corpus_coverage,
+    verify_corpus_manifest,
+)
 from literature_multiverse.records import read_parquet_records
 
 
@@ -202,7 +207,13 @@ def _verified_metasyn_article_payloads(
     return len(seen_ids), seen_ids == gold_corpus_ids
 
 
-def _metasyn_inventory(manifest_path: Path, cache_dir: Path) -> tuple[dict[str, Any], list[Any]]:
+def _metasyn_inventory(
+    manifest_path: Path,
+    cache_dir: Path,
+    *,
+    corpus_manifest_path: Path | None = None,
+    repository_root: Path | None = None,
+) -> tuple[dict[str, Any], list[Any]]:
     manifest = load_metasyn_manifest(manifest_path)
     labels = load_metasyn_labels(manifest_path, manifest)
     paper_sets = {
@@ -215,9 +226,35 @@ def _metasyn_inventory(manifest_path: Path, cache_dir: Path) -> tuple[dict[str, 
         for split in ("development", "calibration", "test")
     }
     all_gold_corpus_ids = set().union(*paper_sets.values())
-    article_payload_count, article_corpus_complete = _verified_metasyn_article_payloads(
-        cache_dir, all_gold_corpus_ids
-    )
+    official_corpus: dict[str, Any] | None = None
+    if corpus_manifest_path is not None:
+        if repository_root is None:
+            raise LocalCorpusAuditError("metasyn_corpus_repository_root_required")
+        try:
+            corpus_manifest, shard_paths = verify_corpus_manifest(
+                corpus_manifest_path, repository_root=repository_root
+            )
+            coverage = inspect_corpus_coverage(
+                shard_paths, required_corpus_ids=all_gold_corpus_ids
+            )
+        except MetaSynCorpusError as exc:
+            raise LocalCorpusAuditError(f"metasyn_official_corpus_invalid:{exc}") from exc
+        article_payload_count = coverage["rows"]
+        article_corpus_complete = bool(coverage["required_gold_ids_complete"])
+        official_corpus = {
+            "source_repository": corpus_manifest.source_repository,
+            "source_revision": corpus_manifest.source_revision,
+            "manifest_sha256": sha256_file(corpus_manifest_path),
+            "shard_sha256s": {
+                shard.path: shard.sha256 for shard in corpus_manifest.shards
+            },
+            "coverage": coverage,
+            "license_status": corpus_manifest.license_notice.status,
+        }
+    else:
+        article_payload_count, article_corpus_complete = _verified_metasyn_article_payloads(
+            cache_dir, all_gold_corpus_ids
+        )
     return (
         {
             "scope": "review_level_questions_and_matched_identifiers",
@@ -231,12 +268,20 @@ def _metasyn_inventory(manifest_path: Path, cache_dir: Path) -> tuple[dict[str, 
                 split: len(paper_sets[split]) for split in sorted(paper_sets)
             },
             "gold_paper_overlap_across_splits": _overlap_counts(paper_sets),
-            "article_payload_convention": "matched-article-corpus/manifest.json@1",
+            "article_payload_convention": (
+                "revision_pinned_official_parquet_shards@1"
+                if official_corpus is not None
+                else "matched-article-corpus/manifest.json@1"
+            ),
             "local_article_payload_files": article_payload_count,
             "matched_article_corpus_available": article_payload_count > 0,
             "matched_article_corpus_complete": article_corpus_complete,
             "real_retrieval_runnable": article_corpus_complete,
-            "real_extraction_runnable": article_corpus_complete,
+            # Payload availability is necessary but not sufficient: the production
+            # extractor still emits legacy findings rather than typed numerical graph
+            # records for this benchmark.
+            "real_extraction_runnable": False,
+            "official_corpus": official_corpus,
             "input_hashes": {
                 "manifest": sha256_file(manifest_path),
                 "source_train": manifest.source_train.sha256,
@@ -379,10 +424,17 @@ def build_local_corpus_audit(
     antiox_source_lines_path: Path,
     antiox_packet_manifest_path: Path,
     evidence_inference_evaluation_summary_path: Path | None = None,
+    metasyn_corpus_manifest_path: Path | None = None,
+    repository_root: Path | None = None,
 ) -> dict[str, Any]:
     """Return a deterministic, metadata-only feasibility and leakage audit."""
 
-    metasyn, labels = _metasyn_inventory(metasyn_manifest_path, metasyn_cache_dir)
+    metasyn, labels = _metasyn_inventory(
+        metasyn_manifest_path,
+        metasyn_cache_dir,
+        corpus_manifest_path=metasyn_corpus_manifest_path,
+        repository_root=repository_root,
+    )
     evidence_inference = _evidence_inference_inventory(
         evidence_inference_root,
         evidence_inference_manifest_path,
@@ -437,13 +489,28 @@ def build_local_corpus_audit(
             "private_file_hashes": verified_private_hashes,
         },
         "external_blockers": [
+            *(
+                []
+                if metasyn["matched_article_corpus_complete"]
+                else [
+                    {
+                        "code": "metasyn_matched_article_corpus_absent",
+                        "blocks": [
+                            "real_retrieval",
+                            "real_extraction",
+                            "oracle_corpus_system_extraction",
+                            "oracle_extraction_system_synthesis",
+                        ],
+                    }
+                ]
+            ),
             {
-                "code": "metasyn_matched_article_corpus_absent",
+                "code": "metasyn_typed_extractor_not_connected",
                 "blocks": [
-                    "real_retrieval",
                     "real_extraction",
                     "oracle_corpus_system_extraction",
                     "oracle_extraction_system_synthesis",
+                    "closed_corpus_end_to_end_accuracy",
                 ],
             },
             {
@@ -456,11 +523,13 @@ def build_local_corpus_audit(
             },
         ],
         "claim_boundary": (
-            "The local cache supports a leakage audit, a 60-paper blinded review packet, "
+            "The local cache supports a leakage audit, a revision-pinned MetaSyn corpus, "
+            "a real lexical retrieval baseline, a 60-paper blinded review packet, "
             "a verified cached Evidence Inference extraction pilot when present, and a "
-            "trivial MetaSyn "
-            "question-only control. It does not support a real closed-corpus end-to-end "
-            "accuracy or retrieval-recall claim."
+            "trivial MetaSyn question-only control. MetaSyn Recall@k is identifiable only "
+            "against its released matched-paper subset; the cache does not support an "
+            "exhaustive-eligibility recall claim or closed-corpus end-to-end synthesis "
+            "accuracy claim."
         ),
     }
 
