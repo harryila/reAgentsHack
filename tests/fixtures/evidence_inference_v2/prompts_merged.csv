@@ -1,0 +1,6 @@
+PromptID,PMCID,Outcome,Intervention,Comparator
+1,1001,recovery score,treatment A,placebo
+4,1001,adverse events,treatment A,placebo
+2,1002,pain score,treatment B,usual care
+5,1002,mobility score,treatment B,usual care
+3,1003,blood pressure,treatment C,placebo

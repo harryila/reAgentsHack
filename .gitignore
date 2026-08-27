@@ -17,5 +17,23 @@ __pycache__/
 # Large local caches (raw API responses can be regenerated from result IDs / reruns;
 # extracted + processed datasets and demo artifacts stay trackable on purpose)
 data/cache/
+
+# Evaluator-only benchmark labels stay local. Public paper artifacts contain only
+# aggregate metrics and hash-locked manifests/model inputs.
+artifacts/paper/metasyn-benchmark/evaluator_labels.private.jsonl
+
+# LaTeX build intermediates; keep the reviewed paper/main.pdf.
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
 WHAT_WE_BUILT.md
 assets/slides/
+
+# Workshop manuscripts stay local and must never be committed.
+/paper/
+/Formatting_Instructions_For_NeurIPS_2026 (2)/
+
+# This generated archive embeds the manuscript and is local-only.
+/artifacts/submission/

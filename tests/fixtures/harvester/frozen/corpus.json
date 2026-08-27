@@ -1,0 +1,35 @@
+{
+  "format": "literature-multiverse-frozen-corpus-v1",
+  "documents": [
+    {
+      "document_id": "LOCAL-1",
+      "source": "frozen-fixture",
+      "title": "Training adaptation under heat",
+      "doi": "10.5555/local.1",
+      "first_author": "Example, Alice",
+      "pub_year": 2022,
+      "article_type": "research-article",
+      "publication_status": "peer_reviewed",
+      "abstract": "Training adaptation was measured under heat.",
+      "full_text_path": "article-1.xml",
+      "full_text_sha256": "e7d33933b7aa1e66e380b6e8539d143d2d835e7a7de416712f6d38f2a9a46060",
+      "full_text_media_type": "application/xml"
+    },
+    {
+      "document_id": "LOCAL-2",
+      "source": "frozen-fixture",
+      "title": "Training adaptation under cold",
+      "first_author": "Example, Bob",
+      "pub_year": 2021,
+      "article_type": "research-article",
+      "publication_status": "peer_reviewed",
+      "abstract": "Training adaptation was measured under cold."
+    }
+  ],
+  "search_results": {
+    "training adaptation": [
+      "LOCAL-1",
+      "LOCAL-2"
+    ]
+  }
+}

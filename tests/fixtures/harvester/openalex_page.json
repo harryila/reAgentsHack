@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "count": 2,
+    "next_cursor": null,
+    "per_page": 2
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1111111111",
+      "doi": "https://doi.org/10.1000/example.1",
+      "title": "Training adaptation across environmental conditions",
+      "publication_year": 2024,
+      "type": "article",
+      "ids": {
+        "openalex": "https://openalex.org/W1111111111",
+        "doi": "https://doi.org/10.1000/example.1",
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/12345678"
+      },
+      "authorships": [
+        {
+          "author": {
+            "display_name": "Ada Example"
+          }
+        }
+      ],
+      "abstract_inverted_index": {
+        "Conditions": [0],
+        "moderate": [1],
+        "adaptation": [2]
+      },
+      "primary_location": {
+        "is_oa": true,
+        "landing_page_url": "https://europepmc.org/articles/PMC1234567",
+        "pdf_url": null,
+        "source": {
+          "type": "journal"
+        }
+      },
+      "best_oa_location": {
+        "is_oa": true,
+        "landing_page_url": "https://example.org/articles/1",
+        "pdf_url": "https://example.org/articles/1.pdf",
+        "source": {
+          "type": "journal"
+        }
+      },
+      "locations": []
+    },
+    {
+      "id": "https://openalex.org/W2222222222",
+      "doi": "https://doi.org/10.48550/arXiv.2401.12345",
+      "title": "A cross-domain preprint",
+      "publication_year": 2024,
+      "type": "preprint",
+      "ids": {
+        "openalex": "https://openalex.org/W2222222222",
+        "doi": "https://doi.org/10.48550/arXiv.2401.12345"
+      },
+      "authorships": [
+        {
+          "author": {
+            "display_name": "Grace Example"
+          }
+        }
+      ],
+      "abstract_inverted_index": null,
+      "primary_location": {
+        "is_oa": true,
+        "landing_page_url": "https://arxiv.org/abs/2401.12345",
+        "pdf_url": "https://arxiv.org/pdf/2401.12345",
+        "source": {
+          "type": "repository"
+        }
+      },
+      "best_oa_location": null,
+      "locations": []
+    }
+  ]
+}

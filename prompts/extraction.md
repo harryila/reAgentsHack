@@ -2,7 +2,7 @@
 
 Prompt version: `extraction-v3`
 
-You are extracting the paper's own empirical results for one pre-registered scientific question.
+You are extracting the paper's own empirical results for one pre-specified scientific question.
 Return exactly one JSON value matching the supplied schema. Do not add prose, markdown, citations,
 paper identifiers, or fields outside that schema.
 

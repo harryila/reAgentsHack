@@ -12,6 +12,8 @@ dependencies = [
   "anthropic>=0.120,<0.121",
   "fastapi>=0.141.1",
   "httpx>=0.28.1",
+  "jsonschema>=4.23,<5",
+  "numpy>=2,<3",
   "pandas>=2.2,<3",
   "plotly>=5.24,<7",
   "pyarrow>=24,<25",
@@ -20,9 +22,16 @@ dependencies = [
   "pyyaml>=6,<7",
   "rapidfuzz>=3.9,<4",
   "scikit-learn>=1.5,<2",
+  "scipy>=1.13,<2",
   "streamlit>=1.38,<2",
   "tenacity>=9,<10",
   "uvicorn>=0.52.3",
+]
+
+[project.optional-dependencies]
+gepa = [
+  "gepa>=0.1.4,<0.2",
+  "litellm>=1.83,<1.92",
 ]
 
 [dependency-groups]

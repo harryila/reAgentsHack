@@ -1,6 +1,6 @@
 # Anthropic provider and credit policy
 
-Last verified: 2026-08-15
+Last verified: 2026-08-26
 
 The ordinary pipeline is offline. Unit tests, fixture generation, fixture analysis, export replay,
 and the Streamlit app use deterministic local data and must never instantiate an Anthropic client.
@@ -24,20 +24,44 @@ future live run. The Python client is locked to the current 0.120 release line, 
 [SDK changelog](https://github.com/anthropics/anthropic-sdk-python/blob/main/CHANGELOG.md) includes
 Messages API structured output through `output_config.format`.
 
+### Workshop GEPA experiment allocation
+
+For the NeurIPS workshop experiment, the unused remap allocation is suspended. One extraction-only
+GEPA run may use at most $8 for task rollouts and $3 for reflection. Task rollouts remain inside the
+archived `AnthropicProvider` ledger. GEPA 0.1.4 reflection uses LiteLLM with zero retries and a fixed
+output-token cap. Each active prompt kind receives a fresh tracked LM and a $2.50 cost stopper; the
+CLI's explicit per-kind batch-headroom reservation covers the final call that may cross a checked
+threshold. Before loading credentials, the CLI requires existing archived provider estimates plus
+the complete task ceiling plus every per-kind reflection stopper and headroom reservation to remain
+below the $50 planning ceiling. It reduces the task provider's global ledger limit by the reflection
+reservation. Claude Sonnet 5 must not receive a non-default temperature; Claude Sonnet 4.6 may be
+used as the reflection model when LiteLLM's bundled price map does not yet recognize Sonnet 5.
+
 ## Enforced boundaries
 
 - `FixtureProvider` is the only provider used by default tests.
 - `AnthropicProvider` refuses calls unless `live_enabled=True`.
 - Every request is archived before its result can be reused, and the same operation/request key is
   never attempted twice—even after malformed JSON or a non-terminal response.
-- Each operation has a local cost ceiling. A separate recursive ledger enforces a hard $50 ceiling
-  across every question and operation under `data/raw/providers/`.
+- Each operation has a local cost ceiling. Ordinary operations use a recursive ledger rooted at
+  `data/raw/providers/`; the GEPA CLI scans the repository root so its gitignored benchmark-text
+  receipts and ordinary receipts share one task-provider ledger. Reflection spend is tracked by
+  GEPA's LiteLLM wrapper, not that receipt scan. Therefore `$50` is a conservative combined planning
+  ceiling under the configured reflection batch headroom, not a mechanically hard cross-provider
+  ledger; the task-provider portion remains hard after reserving the planned reflection allowance.
 - Budget preflight charges the full configured output-token allowance; unknown failures are charged
-  at that conservative ceiling.
-- Structured operations use a closed JSON Schema and reconcile every requested ID. Missing,
-  duplicate, or unknown IDs fail; they never become agreement.
+  at that conservative ceiling. A confirmed HTTP 400 rejection before generation records zero
+  usage and zero cost, while retaining a sanitized error type, status, message, and request ID.
+- Structured operations retain their full local JSON Schema as the evaluator contract. Immediately
+  before `output_config.format`, the provider transforms a defensive copy with the official SDK's
+  [`anthropic.transform_schema`](https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/lib/_parse/_transform.py).
+  The archive records both schemas, both hashes, and the SDK version. Parsed output is then
+  validated locally against the original schema, so moving unsupported wire constraints into
+  descriptions does not weaken evaluation. Missing, duplicate, or unknown IDs still fail; they
+  never become agreement.
 - Provider archives contain prompt/model/usage/output metadata but never API keys. `.env` is ignored
-  and must remain mode `0600`.
+  and must remain mode `0600`. Archived API exception details are allowlisted and credential-like
+  strings are redacted.
 - The frozen app imports no provider, Paperclip, or HTTP client and reads only its validated demo
   directory.
 

@@ -1,0 +1,8 @@
+UserID,PromptID,PMCID,Valid Label,Valid Reasoning,Label,Annotations,Label Code,In Abstract,Evidence Start,Evidence End
+secret-reviewer-token,1,1001,True,True,significantly increased,Treatment A significantly increased recovery score compared with placebo (p = 0.01).,1,False,162,245
+secret-invalid-reviewer,1,1001,False,False,significantly decreased,DO-NOT-RENDER-ANNOTATION-METADATA,-1,False,-1,-1
+reviewer-2,4,1001,True,True,significantly decreased,Treatment A caused fewer adverse events than placebo (p = 0.04).,-1,False,247,310
+reviewer-3,2,1002,True,True,no significant difference,Pain score did not differ significantly between treatment B and usual care (p = 0.72).,0,False,151,236
+reviewer-4,5,1002,True,True,significantly increased,Mobility score was reported for both groups.,1,False,238,281
+reviewer-5,5,1002,True,True,significantly decreased,Mobility score was reported for both groups.,-1,False,238,281
+reviewer-6,3,1003,True,True,significantly decreased,Treatment C significantly decreased blood pressure relative to placebo (p = 0.02).,-1,False,118,199

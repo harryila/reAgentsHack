@@ -12,12 +12,17 @@ import hashlib
 import json
 import math
 import os
+import re
 import stat
 from collections.abc import Callable, Mapping
+from copy import deepcopy
 from dataclasses import asdict, dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Protocol
+
+from jsonschema.exceptions import SchemaError, ValidationError
+from jsonschema.validators import validator_for
 
 MODEL_RATES_USD_PER_MTOK: dict[str, tuple[float, float]] = {
     "claude-haiku-4-5": (1.0, 5.0),
@@ -27,6 +32,15 @@ MODEL_RATES_USD_PER_MTOK: dict[str, tuple[float, float]] = {
     "claude-fable-5": (10.0, 50.0),
 }
 ALLOWED_EFFORTS = frozenset({"low", "medium", "high", "xhigh", "max"})
+_ERROR_SECRET_PATTERNS = (
+    re.compile(r"\bsk-ant-[A-Za-z0-9_-]+\b"),
+    re.compile(r"(?i)\bBearer\s+[A-Za-z0-9._~+/=-]+"),
+    re.compile(
+        r"(?i)\b(api[_-]?key|authorization|token|secret)\b\s*[:=]\s*"
+        r"[^\s,;}]+"
+    ),
+)
+_MAX_ARCHIVED_ERROR_CHARS = 2000
 
 
 class ProviderError(RuntimeError):
@@ -111,6 +125,79 @@ def canonical_json_bytes(value: Any) -> bytes:
 
 def sha256_json(value: Any) -> str:
     return hashlib.sha256(canonical_json_bytes(value)).hexdigest()
+
+
+def _sanitize_error_text(value: str) -> str:
+    sanitized = value
+    for pattern in _ERROR_SECRET_PATTERNS:
+        if pattern.groups:
+            sanitized = pattern.sub(lambda match: f"{match.group(1)}=[REDACTED]", sanitized)
+        elif pattern.pattern.startswith("(?i)\\bBearer"):
+            sanitized = pattern.sub("Bearer [REDACTED]", sanitized)
+        else:
+            sanitized = pattern.sub("[REDACTED]", sanitized)
+    sanitized = "".join(
+        character if character.isprintable() or character in "\n\r\t" else "�"
+        for character in sanitized
+    )
+    if len(sanitized) > _MAX_ARCHIVED_ERROR_CHARS:
+        return sanitized[:_MAX_ARCHIVED_ERROR_CHARS] + "…[TRUNCATED]"
+    return sanitized
+
+
+def _sanitized_exception_detail(exc: Exception) -> dict[str, Any]:
+    detail: dict[str, Any] = {
+        "exception_type": type(exc).__name__,
+        "message": _sanitize_error_text(str(exc)),
+    }
+    status_code = getattr(exc, "status_code", None)
+    if isinstance(status_code, int):
+        detail["status_code"] = status_code
+    request_id = getattr(exc, "request_id", None)
+    if isinstance(request_id, str) and request_id:
+        detail["request_id"] = _sanitize_error_text(request_id)[:200]
+    return detail
+
+
+def _prepare_anthropic_schema(
+    output_schema: Mapping[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any], str]:
+    """Validate the local contract, then transform a copy for Anthropic's wire subset."""
+
+    original = deepcopy(dict(output_schema))
+    try:
+        schema_validator = validator_for(original)
+        schema_validator.check_schema(original)
+    except SchemaError as exc:
+        raise ProviderError("output schema is not valid JSON Schema") from exc
+    try:
+        import anthropic  # type: ignore[import-not-found]
+    except ImportError as exc:  # pragma: no cover - project pins the SDK
+        raise ProviderError("anthropic SDK is required for structured output") from exc
+    try:
+        transformed = anthropic.transform_schema(deepcopy(original))
+    except Exception as exc:
+        if isinstance(exc, (KeyboardInterrupt, SystemExit)):  # pragma: no cover
+            raise
+        raise ProviderError("Anthropic SDK could not transform the output schema") from exc
+    if not isinstance(transformed, dict):  # pragma: no cover - SDK contract guard
+        raise ProviderError("Anthropic SDK returned a non-object transformed schema")
+    sdk_version = str(getattr(anthropic, "__version__", "unknown"))
+    return original, transformed, sdk_version
+
+
+def _local_schema_validation_error(
+    value: Any, original_schema: Mapping[str, Any]
+) -> str | None:
+    validator = validator_for(original_schema)(original_schema)
+    try:
+        validator.validate(value)
+    except ValidationError as exc:
+        path = "/" + "/".join(str(part) for part in exc.absolute_path)
+        if path == "/":
+            path = "<root>"
+        return _sanitize_error_text(f"{path}: {exc.message}")
+    return None
 
 
 def _atomic_json(path: Path, value: Any) -> None:
@@ -300,10 +387,20 @@ class AnthropicProvider:
             raise ProviderAttemptExists(f"archived provider attempt already exists: {archive_path}")
 
         output_config: dict[str, Any] = {"effort": self.effort}
+        original_schema: dict[str, Any] | None = None
+        provider_schema: dict[str, Any] | None = None
+        schema_transform: dict[str, str] | None = None
         if output_schema is not None:
+            original_schema, provider_schema, sdk_version = _prepare_anthropic_schema(
+                output_schema
+            )
+            schema_transform = {
+                "name": "anthropic.transform_schema",
+                "anthropic_sdk_version": sdk_version,
+            }
             output_config["format"] = {
                 "type": "json_schema",
-                "schema": dict(output_schema),
+                "schema": provider_schema,
             }
         request_payload = {
             "operation": operation,
@@ -314,7 +411,17 @@ class AnthropicProvider:
             "max_tokens": self.max_tokens,
             "system": system,
             "prompt": prompt,
-            "output_schema": output_schema,
+            # ``output_schema`` remains the strict local/evaluator contract for archive
+            # compatibility. Only ``output_schema_provider`` is sent on the wire.
+            "output_schema": original_schema,
+            "output_schema_original_sha256": (
+                sha256_json(original_schema) if original_schema is not None else None
+            ),
+            "output_schema_provider": provider_schema,
+            "output_schema_provider_sha256": (
+                sha256_json(provider_schema) if provider_schema is not None else None
+            ),
+            "output_schema_transform": schema_transform,
         }
         request_sha = sha256_json(request_payload)
         conservative_ceiling = self._conservative_ceiling(prompt=prompt, system=system)
@@ -355,18 +462,28 @@ class AnthropicProvider:
             cost = estimate_cost_usd(self.model, usage)
             parsed: Any | None = None
             parse_failure = False
-            if output_schema is not None and text:
+            schema_validation_error: str | None = None
+            if original_schema is not None and text:
                 try:
                     parsed = json.loads(text)
                 except json.JSONDecodeError:
                     parse_failure = True
+                if not parse_failure:
+                    schema_validation_error = _local_schema_validation_error(
+                        parsed, original_schema
+                    )
             status = (
                 "complete"
-                if stop_reason == "end_turn" and text and not parse_failure
+                if stop_reason == "end_turn"
+                and text
+                and not parse_failure
+                and schema_validation_error is None
                 else "failed"
             )
             if parse_failure:
                 failure = "PROVIDER_INVALID_STRUCTURED_JSON"
+            elif schema_validation_error is not None:
+                failure = "PROVIDER_STRUCTURED_OUTPUT_SCHEMA_MISMATCH"
             elif status != "complete":
                 failure = "PROVIDER_NON_TERMINAL_RESPONSE"
             else:
@@ -384,6 +501,14 @@ class AnthropicProvider:
                 "estimated_cost_usd": cost,
                 "cost_basis": "reported_usage",
                 "failure": failure,
+                "failure_detail": (
+                    {
+                        "exception_type": "JSONSchemaValidationError",
+                        "message": schema_validation_error,
+                    }
+                    if schema_validation_error is not None
+                    else None
+                ),
             }
             _atomic_json(archive_path, archive)
             if status != "complete":
@@ -404,6 +529,8 @@ class AnthropicProvider:
             )
         except Exception as exc:
             if not archive_path.exists():
+                failure_detail = _sanitized_exception_detail(exc)
+                known_bad_request = failure_detail.get("status_code") == 400
                 _atomic_json(
                     archive_path,
                     {
@@ -416,9 +543,16 @@ class AnthropicProvider:
                         "response_text": None,
                         "parsed_json": None,
                         "usage": asdict(ProviderUsage(0, 0)),
-                        "estimated_cost_usd": conservative_ceiling,
-                        "cost_basis": "preflight_ceiling_after_unknown_failure",
+                        "estimated_cost_usd": (
+                            0.0 if known_bad_request else conservative_ceiling
+                        ),
+                        "cost_basis": (
+                            "known_bad_request_before_generation"
+                            if known_bad_request
+                            else "preflight_ceiling_after_unknown_failure"
+                        ),
                         "failure": type(exc).__name__,
+                        "failure_detail": failure_detail,
                     },
                 )
             if isinstance(exc, ProviderError):

@@ -5,7 +5,7 @@ appear to disagree, is there a reproducible conditional pattern—or is the hone
 available corpus does not explain the disagreement?
 
 It retrieves and reconciles papers, extracts atomic source-grounded findings, measures directional
-disagreement with paper-balanced statistics, tests a pre-registered moderator family, and freezes
+disagreement with paper-balanced statistics, tests a pre-specified moderator family, and freezes
 either:
 
 - **Variant A:** one moderator passed every inference, stability, support, sensitivity, and
@@ -59,7 +59,8 @@ Important guardrails:
 
 ## Local setup
 
-Requirements: Python 3.12, `uv`, and the Paperclip CLI for explicit live ingestion.
+Requirements: Python 3.12 and `uv`. The Paperclip CLI is needed only for the legacy Paperclip live
+ingestion adapter; the open harvester does not use it.
 
 ```bash
 uv sync --python 3.12
@@ -99,6 +100,43 @@ uv run pytest -q tests/test_pipeline_fixture.py tests/test_export.py tests/test_
 Individual stage CLIs all require `--question`; fixture configs additionally require the explicit
 `--fixture` flag. Scientific outputs refuse overwrite unless the relevant CLI explicitly supports
 `--force`.
+
+## Paperclip-free open literature harvest
+
+The source-agnostic s1 harvester can replace the Paperclip search step without changing s2 or the
+`PaperRecord` ledger. OpenAlex supplies cross-domain search; provider-declared open URLs, Europe
+PMC, and arXiv supply full text when available. Every response and local frozen-corpus input is
+stored in a content-addressed archive with a SHA-256 receipt before candidates are materialized.
+
+```bash
+uv run python scripts/s1_harvest.py \
+  --question selected-question --all --openalex --mailto researcher@example.org
+uv run python scripts/s2_screen.py --question selected-question --force
+```
+
+For a reproducible offline replay, replace `--openalex --mailto ...` with
+`--frozen-corpus path/to/corpus.json --frozen-sha256 <sha256>`. Full-text resolution is enabled by
+default and can be disabled explicitly with `--no-fetch-full-text`. `--force` may regenerate the
+derived candidate view and run record, but never replaces a content-addressed raw archive object.
+
+## Reflective optimization, synthesis, and release control
+
+The paper-oriented path assigns separate jobs to separate methods:
+
+- the optional official GEPA adapter optimizes extraction and quote-verification prompts on
+  paper/group-disjoint train and development sets, then freezes a hash-locked winner before opening
+  test;
+- compatible estimates are harmonized and synthesized with paper-level random-effects analysis or
+  categorical meta-regression; literal estimate-direction synthesis is an explicit fallback;
+- a question-level calibrated policy decides whether a claim can be released or whether the system
+  must abstain.
+
+Install the optional GEPA runtime with `uv sync --extra gepa`. Entry points are
+`scripts/optimize_prompts.py`, `scripts/calibrate_risk_gate.py`, and
+`scripts/simulate_risk_calibration.py`. See [meta-analysis](docs/meta-analysis.md),
+[calibration](docs/calibration.md), the
+[Evidence Inference benchmark adapter](docs/evidence-inference-benchmark.md), and the prospective
+[evaluation protocol](docs/paper/neurips26-evaluation-protocol.md) for the scientific contracts.
 
 ## Real-data workflow
 
