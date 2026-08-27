@@ -5,8 +5,12 @@ import json
 import pytest
 import scripts.calibrate_risk_gate as cli
 
-from literature_multiverse.calibration import CalibrationContractError, RiskExample
-from literature_multiverse.lineage import atomic_write_jsonl
+from literature_multiverse.calibration import (
+    CalibrationContractError,
+    ReleaseCandidate,
+    RiskExample,
+)
+from literature_multiverse.lineage import atomic_write_json, atomic_write_jsonl
 
 
 def _rows() -> list[RiskExample]:
@@ -123,6 +127,63 @@ def test_cli_checks_external_freeze_hash_before_opening_test(tmp_path, monkeypat
                 str(tmp_path / "must-not-write.json"),
             ]
         )
+
+
+def test_cli_assesses_unlabelled_candidate_after_freeze(tmp_path, capsys) -> None:
+    rows = _rows()
+    freeze_input = tmp_path / "development-calibration.jsonl"
+    bundle_path = tmp_path / "bundle.json"
+    candidate_path = tmp_path / "candidate.json"
+    assessment_path = tmp_path / "assessment.json"
+    atomic_write_jsonl(freeze_input, [row for row in rows if row.split != "test"])
+    cli.main(
+        [
+            "freeze",
+            "--input",
+            str(freeze_input),
+            "--output",
+            str(bundle_path),
+            "--alpha",
+            "0.5",
+            "--candidate-threshold",
+            "0.5",
+        ]
+    )
+    capsys.readouterr()
+    bundle = json.loads(bundle_path.read_text(encoding="utf-8"))
+    row = next(item for item in rows if item.split == "test" and not item.unsupported_claim)
+    candidate = ReleaseCandidate(
+        question_id=row.question_id,
+        population_id=row.population_id,
+        domain=row.domain,
+        pipeline_sha256=row.pipeline_sha256,
+        paper_ids=row.paper_ids,
+        features=row.features,
+    )
+    atomic_write_json(candidate_path, candidate)
+
+    assert (
+        cli.main(
+            [
+                "assess-release",
+                "--bundle",
+                str(bundle_path),
+                "--expected-freeze-sha256",
+                bundle["bundle_sha256"],
+                "--input",
+                str(candidate_path),
+                "--output",
+                str(assessment_path),
+            ]
+        )
+        == 0
+    )
+    summary = json.loads(capsys.readouterr().out)
+    assessment = json.loads(assessment_path.read_text(encoding="utf-8"))
+    assert summary["stage"] == "prospective_release_after_freeze"
+    assert summary["status"] == "released"
+    assert assessment["frozen_bundle_sha256"] == bundle["bundle_sha256"]
+    assert "unsupported_claim" not in json.loads(candidate_path.read_text(encoding="utf-8"))
 
 
 def test_one_shot_cli_is_restricted_to_simulation_labels(tmp_path) -> None:

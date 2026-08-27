@@ -8,7 +8,9 @@ from literature_multiverse.calibration import (
     CalibratedReleasePolicy,
     CalibrationContractError,
     FrozenCalibrationBundle,
+    ReleaseCandidate,
     RiskExample,
+    assess_release_candidate,
     calibrate_release_policy,
     calibration_artifact,
     clopper_pearson_interval,
@@ -59,6 +61,39 @@ def _examples() -> list[RiskExample]:
             )
             counter += 1
     return rows
+
+
+def _calibrated_bundle(rows: list[RiskExample]) -> FrozenCalibrationBundle:
+    development_calibration = [row for row in rows if row.split != "test"]
+    model = fit_logistic_risk_model(development_calibration, seed=7)
+    calibration_scores = score_examples(
+        [row for row in development_calibration if row.split == "calibration"], model
+    )
+    supported_scores = [
+        row.score for row in calibration_scores if not row.example.unsupported_claim
+    ]
+    unsupported_scores = [
+        row.score for row in calibration_scores if row.example.unsupported_claim
+    ]
+    threshold = (max(supported_scores) + min(unsupported_scores)) / 2.0
+    return freeze_calibration_bundle(
+        development_calibration,
+        alpha=0.20,
+        delta=0.05,
+        seed=7,
+        candidate_thresholds=[threshold],
+    )
+
+
+def _release_candidate(row: RiskExample) -> ReleaseCandidate:
+    return ReleaseCandidate(
+        question_id=row.question_id,
+        population_id=row.population_id,
+        domain=row.domain,
+        pipeline_sha256=row.pipeline_sha256,
+        paper_ids=row.paper_ids,
+        features=row.features,
+    )
 
 
 def test_clopper_pearson_known_zero_error_bound() -> None:
@@ -233,6 +268,62 @@ def test_staged_freeze_excludes_test_and_binds_later_evaluation() -> None:
     assert artifact["test_evaluation"]["accepted"] == 15
 
 
+def test_prospective_assessment_releases_or_abstains_without_labels() -> None:
+    rows = _examples()
+    bundle = _calibrated_bundle(rows)
+    supported = next(
+        row for row in rows if row.split == "test" and not row.unsupported_claim
+    )
+    unsupported = next(row for row in rows if row.split == "test" and row.unsupported_claim)
+
+    released = assess_release_candidate(_release_candidate(supported), bundle)
+    abstained = assess_release_candidate(_release_candidate(unsupported), bundle)
+
+    assert "unsupported_claim" not in ReleaseCandidate.model_fields
+    assert released.status == "released"
+    assert released.reason == "risk_within_frozen_policy"
+    assert released.scalar_risk_score <= float(released.threshold or 0.0)
+    assert abstained.status == "abstained"
+    assert abstained.reason == "risk_above_threshold"
+    assert abstained.scalar_risk_score > float(abstained.threshold or 1.0)
+    assert released.frozen_bundle_sha256 == bundle.bundle_sha256
+
+
+def test_prospective_assessment_rejects_drift_and_frozen_overlap() -> None:
+    rows = _examples()
+    bundle = _calibrated_bundle(rows)
+    candidate = _release_candidate(next(row for row in rows if row.split == "test"))
+    changes = (
+        ({"pipeline_sha256": "b" * 64}, "pipeline_mismatch"),
+        ({"population_id": "shifted-population"}, "population_mismatch"),
+        ({"features": {"different_feature": 0.1}}, "feature_schema_mismatch"),
+        ({"question_id": bundle.development.question_ids[0]}, "question_overlap"),
+        ({"paper_ids": [bundle.calibration.paper_ids[0]]}, "paper_overlap"),
+    )
+    for update, match in changes:
+        changed = candidate.model_copy(update=update)
+        with pytest.raises(CalibrationContractError, match=match):
+            assess_release_candidate(changed, bundle)
+
+
+def test_prospective_assessment_honors_abstain_all_policy() -> None:
+    rows = _examples()
+    bundle = freeze_calibration_bundle(
+        [row for row in rows if row.split != "test"],
+        alpha=0.05,
+        delta=0.05,
+        candidate_thresholds=[1.0],
+    )
+    candidate = _release_candidate(next(row for row in rows if row.split == "test"))
+
+    assessment = assess_release_candidate(candidate, bundle)
+
+    assert bundle.policy.status == "abstain_all"
+    assert assessment.status == "abstained"
+    assert assessment.reason == "policy_abstain_all"
+    assert assessment.threshold is None
+
+
 def test_staged_freeze_rejects_any_test_row() -> None:
     with pytest.raises(CalibrationContractError, match="exclude_test"):
         freeze_calibration_bundle(_examples(), alpha=0.20, delta=0.05)
@@ -301,6 +392,23 @@ def test_staged_test_rejects_schema_pipeline_population_and_bundle_tampering() -
     payload["policy"]["alpha"] = 0.19
     with pytest.raises(ValueError, match="hash_mismatch"):
         FrozenCalibrationBundle.model_validate(payload)
+
+
+def test_prospective_assessment_revalidates_nested_bundle_hashes_after_mutation() -> None:
+    rows = _examples()
+    bundle = _calibrated_bundle(rows)
+    unsupported = next(row for row in rows if row.split == "test" and row.unsupported_claim)
+    candidate = _release_candidate(unsupported)
+    assert assess_release_candidate(candidate, bundle).status == "abstained"
+
+    # In-place list mutation bypasses Pydantic assignment hooks.  The scoring boundary
+    # must nevertheless revalidate the stored model/policy/bundle hashes.
+    bundle.score_model.coefficients[:] = [
+        -1_000_000.0 for _ in bundle.score_model.coefficients
+    ]
+
+    with pytest.raises(CalibrationContractError, match="integrity_changed"):
+        assess_release_candidate(candidate, bundle)
 
 
 def test_policy_abstains_all_when_no_threshold_is_certified() -> None:

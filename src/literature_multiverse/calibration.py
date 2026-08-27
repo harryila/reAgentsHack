@@ -20,7 +20,7 @@ import math
 from collections import defaultdict
 from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass
-from typing import Any, Literal
+from typing import Annotated, Any, Literal
 
 import numpy as np
 from pydantic import Field, field_validator, model_validator
@@ -345,6 +345,112 @@ class FrozenCalibrationBundle(ContractModel):
         return self
 
 
+def validate_frozen_calibration_bundle_integrity(
+    bundle: FrozenCalibrationBundle,
+) -> FrozenCalibrationBundle:
+    """Return a freshly validated snapshot of a possibly mutable bundle object.
+
+    ``ContractModel`` validates attribute assignment, but nested Python lists and
+    dictionaries can still be mutated in place after model construction.  Re-parsing a
+    JSON snapshot reruns every model, policy, and bundle hash check and prevents a caller
+    from changing a score coefficient while retaining the previously recorded hashes.
+    The returned copy is the one that downstream scoring must use.
+    """
+
+    if not isinstance(bundle, FrozenCalibrationBundle):
+        raise CalibrationContractError("frozen_bundle_contract_invalid")
+    try:
+        return FrozenCalibrationBundle.model_validate(bundle.model_dump(mode="json"))
+    except ValueError as exc:
+        raise CalibrationContractError("frozen_bundle_integrity_changed") from exc
+
+
+class ReleaseCandidate(ContractModel):
+    """Unlabelled question--corpus candidate assessed after policy freeze.
+
+    This contract deliberately has no outcome label.  It is the deployment-side
+    boundary: a frozen score model and release policy may inspect predeclared
+    features, but they cannot observe whether the proposed claim is correct.
+    """
+
+    question_id: Annotated[str, Field(min_length=1)]
+    population_id: Annotated[str, Field(min_length=1)]
+    domain: Annotated[str, Field(min_length=1)]
+    pipeline_sha256: str
+    paper_ids: list[str]
+    features: dict[str, float]
+
+    @field_validator("pipeline_sha256")
+    @classmethod
+    def validate_pipeline_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("invalid_pipeline_sha256")
+        return value
+
+    @field_validator("paper_ids")
+    @classmethod
+    def validate_paper_ids(cls, value: list[str]) -> list[str]:
+        if not value or any(not item for item in value):
+            raise ValueError("paper_ids_must_be_nonempty")
+        if value != sorted(set(value)):
+            raise ValueError("paper_ids_must_be_sorted_unique")
+        return value
+
+    @field_validator("features")
+    @classmethod
+    def validate_features(cls, value: dict[str, float]) -> dict[str, float]:
+        if not value:
+            raise ValueError("risk_features_must_be_nonempty")
+        for name, number in value.items():
+            if not name or not math.isfinite(number):
+                raise ValueError("risk_features_must_be_named_and_finite")
+        return dict(sorted(value.items()))
+
+
+class ProspectiveReleaseAssessment(ContractModel):
+    """Auditable release/abstain decision made without an outcome label."""
+
+    assessment_version: Literal["prospective-release-v1"] = "prospective-release-v1"
+    question_id: str
+    candidate_sha256: str
+    frozen_bundle_sha256: str
+    score_model_sha256: str
+    policy_sha256: str
+    scalar_risk_score: Annotated[float, Field(ge=0, le=1)]
+    threshold: Annotated[float, Field(ge=0, le=1)] | None
+    status: Literal["released", "abstained"]
+    reason: Literal["risk_within_frozen_policy", "risk_above_threshold", "policy_abstain_all"]
+    guarantee_scope: Literal[
+        "frozen label-risk policy under the declared population and pipeline; not scientific truth"
+    ] = "frozen label-risk policy under the declared population and pipeline; not scientific truth"
+
+    @field_validator(
+        "candidate_sha256",
+        "frozen_bundle_sha256",
+        "score_model_sha256",
+        "policy_sha256",
+    )
+    @classmethod
+    def validate_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("invalid_release_assessment_sha256")
+        return value
+
+    @model_validator(mode="after")
+    def validate_decision(self) -> ProspectiveReleaseAssessment:
+        if self.reason == "policy_abstain_all":
+            if self.status != "abstained" or self.threshold is not None:
+                raise ValueError("abstain_all_assessment_inconsistent")
+        elif self.threshold is None:
+            raise ValueError("thresholded_assessment_requires_threshold")
+        elif self.reason == "risk_within_frozen_policy":
+            if self.status != "released" or self.scalar_risk_score > self.threshold:
+                raise ValueError("released_assessment_inconsistent")
+        elif self.status != "abstained" or self.scalar_risk_score <= self.threshold:
+            raise ValueError("risk_abstention_assessment_inconsistent")
+        return self
+
+
 @dataclass(frozen=True, slots=True)
 class ScoredExample:
     example: RiskExample
@@ -646,6 +752,7 @@ def validate_frozen_test_examples(
 ) -> list[RiskExample]:
     """Validate held-out rows against the identities and schema frozen earlier."""
 
+    bundle = validate_frozen_calibration_bundle_integrity(bundle)
     rows = sorted(examples, key=lambda row: row.question_id)
     if not rows:
         raise CalibrationContractError("test_split_empty")
@@ -741,6 +848,7 @@ def evaluate_frozen_calibration_bundle(
 ) -> dict[str, Any]:
     """Evaluate test-only input and bind the result to the prior freeze hash."""
 
+    bundle = validate_frozen_calibration_bundle_integrity(bundle)
     rows = validate_frozen_test_examples(examples, bundle)
     evaluation = evaluate_release_policy(rows, bundle.score_model, bundle.policy)
     return {
@@ -761,6 +869,60 @@ def evaluate_frozen_calibration_bundle(
         "test_evaluation": evaluation.model_dump(mode="json"),
         "test_risk_coverage_curve": risk_coverage_curve(rows, bundle.score_model, split="test"),
     }
+
+
+def assess_release_candidate(
+    candidate: ReleaseCandidate,
+    bundle: FrozenCalibrationBundle,
+) -> ProspectiveReleaseAssessment:
+    """Apply a frozen policy prospectively without opening any outcome label.
+
+    Question and paper overlap with development/calibration is rejected because
+    those units helped select the score model or release threshold.  The caller
+    must recalibrate instead of reusing a guarantee after a pipeline, feature
+    schema, or population change.
+    """
+
+    bundle = validate_frozen_calibration_bundle_integrity(bundle)
+    if candidate.pipeline_sha256 != bundle.pipeline_sha256:
+        raise CalibrationContractError("prospective_candidate_pipeline_mismatch")
+    if candidate.population_id != bundle.population_id:
+        raise CalibrationContractError("prospective_candidate_population_mismatch")
+    if list(candidate.features) != bundle.feature_names:
+        raise CalibrationContractError("prospective_candidate_feature_schema_mismatch")
+
+    frozen_questions = set(bundle.development.question_ids) | set(bundle.calibration.question_ids)
+    if candidate.question_id in frozen_questions:
+        raise CalibrationContractError("prospective_candidate_question_overlap")
+    frozen_papers = set(bundle.development.paper_ids) | set(bundle.calibration.paper_ids)
+    paper_overlap = sorted(frozen_papers & set(candidate.paper_ids))
+    if paper_overlap:
+        raise CalibrationContractError(f"prospective_candidate_paper_overlap:{paper_overlap}")
+
+    score = bundle.score_model.score_features(candidate.features)
+    threshold = bundle.policy.threshold
+    if threshold is None:
+        status: Literal["released", "abstained"] = "abstained"
+        reason: Literal[
+            "risk_within_frozen_policy", "risk_above_threshold", "policy_abstain_all"
+        ] = "policy_abstain_all"
+    elif score <= threshold:
+        status = "released"
+        reason = "risk_within_frozen_policy"
+    else:
+        status = "abstained"
+        reason = "risk_above_threshold"
+    return ProspectiveReleaseAssessment(
+        question_id=candidate.question_id,
+        candidate_sha256=hash_canonical(candidate),
+        frozen_bundle_sha256=bundle.bundle_sha256,
+        score_model_sha256=bundle.score_model_sha256,
+        policy_sha256=bundle.policy_sha256,
+        scalar_risk_score=score,
+        threshold=threshold,
+        status=status,
+        reason=reason,
+    )
 
 
 def risk_coverage_curve(
@@ -835,7 +997,10 @@ __all__ = [
     "FrozenSplitIdentity",
     "LogisticRiskModel",
     "PolicyEvaluation",
+    "ProspectiveReleaseAssessment",
+    "ReleaseCandidate",
     "RiskExample",
+    "assess_release_candidate",
     "calibrate_release_policy",
     "calibration_artifact",
     "clopper_pearson_interval",
@@ -846,6 +1011,7 @@ __all__ = [
     "freeze_calibration_bundle",
     "risk_coverage_curve",
     "score_examples",
+    "validate_frozen_calibration_bundle_integrity",
     "validate_frozen_test_examples",
     "validate_split_integrity",
 ]

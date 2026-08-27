@@ -27,11 +27,19 @@ scores. If no candidate is certified, the policy abstains on every question. A h
 is opened only after the model and policy are frozen, and only to produce a descriptive final
 risk/coverage estimate and per-domain summary.
 
-The calibration code is currently a standalone mechanism and two-stage CLI. The production
-s3--s7 workflow does not yet construct complete `RiskExample` records or invoke the frozen policy
-as its release gate; the MetaSyn adapter can construct benchmark-specific rows from completed
-predictions. Therefore the checked artifact below validates simulated mechanics only, not an
-end-to-end calibrated production release.
+The calibration code exposes both a two-stage empirical workflow and a label-free prospective
+deployment boundary. `ReleaseCandidate` deliberately contains no correctness label;
+`assess_release_candidate` checks pipeline, population, feature-schema, question, and paper
+identity against a frozen bundle before returning release or abstention. The production s3--s7
+workflow still does not construct complete `RiskExample`/`ReleaseCandidate` records, so this API
+is not itself an end-to-end calibrated production result. The checked artifact below validates
+simulated mechanics only.
+
+Every test or prospective scoring boundary first serializes and revalidates a fresh bundle
+snapshot. This is necessary because nested Python lists can otherwise be mutated in place after
+Pydantic assignment validation. A changed coefficient, threshold family, model hash, policy hash,
+or bundle hash now fails with `frozen_bundle_integrity_changed`; downstream scoring uses the newly
+validated copy rather than the caller's mutable object.
 
 The old one-file CLI was not an adequate operational boundary: although the fitting functions used
 only the intended rows, it deserialized test labels before freezing the decision rule. The empirical
@@ -93,6 +101,29 @@ uv run python scripts/calibrate_risk_gate.py \
 ```
 
 It must not be used for an empirical held-out result.
+
+## Prospective release after freeze
+
+After a real development/calibration bundle has been frozen, deployment code should construct an
+unlabelled `ReleaseCandidate` and call `assess_release_candidate`. The function refuses any
+question or paper used during fitting/calibration, any pipeline or population change, and any
+feature-schema mismatch. It never accepts a correctness label, so release cannot depend on an
+opened test or deployment outcome. A released result remains covered only by the frozen
+label-risk policy under its declared assumptions; it is not certified as scientific truth.
+The generic calibration boundary can be used inside a declared simulation study. The joined
+scientific `claim_release` boundary is stricter and refuses `label_source="simulation"` as release
+authority.
+
+The same boundary is available without importing Python:
+
+```bash
+uv run python scripts/calibrate_risk_gate.py \
+  assess-release \
+  --bundle artifacts/paper/real-risk-policy-freeze.json \
+  --expected-freeze-sha256 <recorded-64-lowercase-hex-hash> \
+  --input path/to/unlabelled-release-candidate.json \
+  --output artifacts/paper/prospective-release-assessment.json
+```
 
 ## Planted mechanism validation
 

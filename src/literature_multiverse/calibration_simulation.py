@@ -21,6 +21,18 @@ from literature_multiverse.calibration import (
 )
 from literature_multiverse.lineage import hash_canonical
 
+DEFAULT_CANDIDATE_THRESHOLDS: tuple[float, ...] = (
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.08,
+    0.10,
+    0.15,
+    0.20,
+    0.30,
+)
+
 
 @dataclass(frozen=True, slots=True)
 class SimulatedQuestion:
@@ -160,17 +172,7 @@ def simulate_replicate(
     development_count: int = 400,
     calibration_count: int = 2000,
     test_count: int = 2000,
-    candidate_thresholds: Sequence[float] = (
-        0.01,
-        0.02,
-        0.03,
-        0.05,
-        0.08,
-        0.10,
-        0.15,
-        0.20,
-        0.30,
-    ),
+    candidate_thresholds: Sequence[float] = DEFAULT_CANDIDATE_THRESHOLDS,
 ) -> dict[str, object]:
     """Run one complete development/calibration/test simulation replicate."""
 
@@ -286,6 +288,7 @@ def summarize_replicates(
 
 
 __all__ = [
+    "DEFAULT_CANDIDATE_THRESHOLDS",
     "SimulatedQuestion",
     "simulate_questions",
     "simulate_replicate",

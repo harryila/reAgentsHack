@@ -2,7 +2,24 @@
 
 **Frozen intent date:** 2026-08-26  
 **Target:** AI for Science workshop, Verifier Systems track  
-**Status:** prospective protocol for all experiments started after this file was written
+**Status:** historical v0 protocol; retained without rewriting its original claims
+
+> **2026-08-27 amendment (not preregistered).** The submission target changed to Original Research
+> and the central method changed to conclusion-influence allocation under a fixed verification
+> budget plus calibrated abstention. The exact current labels, independent units, audit baselines,
+> freeze rules, and reporting boundary are in
+> [`task-evaluation-contract.md`](task-evaluation-contract.md). This amendment postdates the v0
+> protocol and must not be described as externally timestamped or preregistered.
+
+The amended evaluation adds random, inverse-cost, risk-only, disagreement, influence-only,
+risk-times-influence, risk-per-cost, influence-per-cost, and expected
+claim-loss-reduction-per-cost audit policies at identical cost caps. It distinguishes policy-visible
+counterfactuals from audit-only correction labels and counts an item as resolved only after completed
+adjudication and incorporation of any correction. In the current joined boundary, every matching
+estimate must also have a self-hashed external resolution receipt; a partial audit always abstains.
+The v1 evidence model is a typed publication →
+study/cohort → arm → contrast → outcome-estimate → evidence-span graph. The current production
+extractor does not yet emit that graph.
 
 ## Central claim
 
@@ -51,8 +68,10 @@ Study-level records separate:
 - equivalence, which requires a predeclared equivalence margin;
 - exact source span and study conditions.
 
-Claim-level verdicts are `supports_claim`, `contradicts_claim`, `condition_dependent`,
-`insufficient_evidence`, or `not_evaluable`. A moderator proposed and tested on overlapping papers
+The task-level claim verdicts are `supported`, `contradicted`, `condition_dependent`,
+`inconclusive`, or `not_evaluable`. The current joined directional release boundary implements all
+but `condition_dependent`; that label requires a separate validated held-out moderator path. A
+moderator proposed and tested on overlapping papers
 is reported only as an `exploratory_condition_signal`.
 
 ## Primary metrics

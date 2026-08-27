@@ -24,6 +24,12 @@ from literature_multiverse.effects import (
     HarmonizedMeasure,
     PointDirection,
     ReportedSignificance,
+    harmonize_effects,
+)
+from literature_multiverse.evidence_graph import (
+    EvidenceGraph,
+    graph_risk_features,
+    select_effect_evidence,
 )
 from literature_multiverse.models import ContractModel
 
@@ -709,3 +715,61 @@ def synthesize_with_directional_fallback(
         "quantitative": quantitative,
         "directional_fallback": directional,
     }
+
+
+def synthesize_evidence_graph(
+    graph: EvidenceGraph,
+    *,
+    outcome_name: str | None = None,
+    contrast_id: str | None = None,
+    require_explicit_timepoint: bool = True,
+    confidence_level: float = 0.95,
+    assumed_within_paper_correlation: float = 1.0,
+) -> dict[str, Any]:
+    """Conservatively bridge the typed graph to the current synthesis engine.
+
+    The existing estimator clusters by publication, whereas scientific independence is
+    represented by cohort identity in :class:`EvidenceGraph`.  The bridge proceeds only
+    when the selected graph has a one-to-one cohort/publication mapping.  Multi-report or
+    multi-cohort publications return an explicit insufficiency result until a cohort-aware
+    hierarchical estimator is implemented.
+    """
+
+    risk_features = graph_risk_features(
+        graph,
+        outcome_name=outcome_name,
+        contrast_id=contrast_id,
+    ).model_dump(mode="json")
+    selection = select_effect_evidence(
+        graph,
+        outcome_name=outcome_name,
+        contrast_id=contrast_id,
+        require_explicit_timepoint=require_explicit_timepoint,
+    )
+    graph_contract = {
+        "graph_schema_version": graph.graph_schema_version,
+        "selection_status": selection.status,
+        "selection_reason": selection.reason,
+        "selected_estimate_ids": selection.estimate_ids,
+        "warnings": selection.warnings,
+        "risk_features": risk_features,
+        "risk_feature_interpretation": (
+            "prospective_label_free_inputs_not_a_calibrated_error_probability"
+        ),
+    }
+    if selection.status == "insufficient":
+        return {
+            "status": "insufficient",
+            "mode": "evidence_graph_contract",
+            "reason": selection.reason,
+            "quantitative": None,
+            "directional_fallback": None,
+            "evidence_graph": graph_contract,
+        }
+    results = harmonize_effects(selection.records)
+    synthesis = synthesize_with_directional_fallback(
+        results,
+        confidence_level=confidence_level,
+        assumed_within_paper_correlation=assumed_within_paper_correlation,
+    )
+    return {**synthesis, "evidence_graph": graph_contract}

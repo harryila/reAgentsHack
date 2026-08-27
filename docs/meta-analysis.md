@@ -28,12 +28,17 @@ harvester or structured-output model.
 
 ## Integration status
 
-The current quantitative implementation is a standalone, tested library path. It is not yet wired
-into the production s3/s5 pipeline: the legacy `FindingRow.effect_size_raw` string does not identify
-an estimand, scale, unit, or uncertainty source safely enough to convert automatically. A real
-pipeline run therefore needs an explicit, source-grounded adapter that emits `EffectEvidence`
-records and a frozen synthesis artifact. Until that adapter exists, only the constructed simulation
-exercises this quantitative path; legacy directional s5 output is not effect-size meta-analysis.
+The quantitative implementation now has a typed [evidence-graph](evidence-graph.md) boundary, but it
+is not yet wired into the production s3/s5 pipeline. `adapt_effect_evidence` preserves a genuinely
+typed numerical record. `adapt_finding_row` is intentionally non-numerical because the legacy
+`effect_size_raw` string does not identify an estimand, scale, unit, or uncertainty source safely
+enough to convert automatically. It retains the old categorical direction and raw text for review,
+never turns non-significance or `no_effect` into zero, and blocks quantitative use.
+
+`synthesize_evidence_graph` runs the existing estimator only for resolved, compatible graphs with a
+one-to-one cohort/publication mapping. It explicitly refuses multi-report cohorts and multi-cohort
+papers until the estimator is cohort-aware. Consequently, the constructed simulation still supplies
+the only frozen quantitative result; legacy directional s5 output is not effect-size meta-analysis.
 
 ## Synthesis APIs
 
@@ -41,6 +46,7 @@ exercises this quantitative path; legacy directional s5 output is not effect-siz
 from literature_multiverse.effects import EffectEvidence, harmonize_effects
 from literature_multiverse.meta_analysis import (
     categorical_meta_regression,
+    synthesize_evidence_graph,
     synthesize_with_directional_fallback,
 )
 
@@ -50,6 +56,9 @@ synthesis = synthesize_with_directional_fallback(harmonized)
 
 estimable = [item.effect for item in harmonized if item.effect is not None]
 dose_model = categorical_meta_regression(estimable, "dose", reference_level="low")
+
+# For a validated EvidenceGraph, the conservative integration boundary is:
+graph_synthesis = synthesize_evidence_graph(graph, outcome_name="named outcome")
 ```
 
 The random-effects implementation uses generalized Paule–Mandel tau-squared estimation, modified

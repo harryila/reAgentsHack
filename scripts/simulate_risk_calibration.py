@@ -8,10 +8,18 @@ import json
 from pathlib import Path
 
 from literature_multiverse.calibration_simulation import (
+    DEFAULT_CANDIDATE_THRESHOLDS,
     simulate_replicate,
     summarize_replicates,
 )
-from literature_multiverse.lineage import atomic_write_json, hash_canonical
+from literature_multiverse.lineage import atomic_write_json, hash_canonical, sha256_file
+
+_ROOT = Path(__file__).resolve().parents[1]
+_SOURCE_FILES = (
+    "scripts/simulate_risk_calibration.py",
+    "src/literature_multiverse/calibration_simulation.py",
+    "src/literature_multiverse/calibration.py",
+)
 
 
 def _parser() -> argparse.ArgumentParser:
@@ -24,6 +32,12 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--development-count", type=int, default=400)
     parser.add_argument("--calibration-count", type=int, default=2000)
     parser.add_argument("--test-count", type=int, default=2000)
+    parser.add_argument(
+        "--candidate-thresholds",
+        type=float,
+        nargs="+",
+        default=list(DEFAULT_CANDIDATE_THRESHOLDS),
+    )
     parser.add_argument("--force", action="store_true")
     return parser
 
@@ -40,6 +54,35 @@ def main(argv: list[str] | None = None) -> int:
         "development_count": args.development_count,
         "calibration_count": args.calibration_count,
         "test_count": args.test_count,
+        "candidate_thresholds": args.candidate_thresholds,
+        "generator_hyperparameters": {
+            "simulation_version": "risk-features-v2",
+            "paper_count": {"offset": 2, "poisson_rate": 9},
+            "extraction_error_beta": [1.4, 8.0],
+            "ungrounded_residual_beta": [1.2, 14.0],
+            "verifier_disagreement_residual_beta": [1.6, 7.0],
+            "retrieval_gap_beta": [1.5, 6.5],
+            "bootstrap_instability_beta": [1.7, 5.0],
+            "heterogeneity_beta": [2.0, 2.2],
+            "moderator_noise_normal": [0.0, 0.08],
+            "loss_logit": {
+                "intercept": -5.3,
+                "extraction_error": 3.7,
+                "ungrounded_fraction": 3.2,
+                "verifier_disagreement": 2.0,
+                "retrieval_gap": 1.7,
+                "bootstrap_instability": 2.2,
+                "moderator_instability": 1.4,
+                "heterogeneity": 0.8,
+                "inverse_sqrt_papers": 1.1,
+            },
+            "fixed_paper_gate": 5,
+            "bootstrap_instability_gate": 0.20,
+            "domains": ["medicine", "psychology", "ecology"],
+        },
+        "source_files_sha256": {
+            relative: sha256_file(_ROOT / relative) for relative in _SOURCE_FILES
+        },
     }
     replicates = [
         simulate_replicate(
@@ -49,11 +92,12 @@ def main(argv: list[str] | None = None) -> int:
             development_count=args.development_count,
             calibration_count=args.calibration_count,
             test_count=args.test_count,
+            candidate_thresholds=args.candidate_thresholds,
         )
         for index in range(args.replicates)
     ]
     artifact = {
-        "simulation_study_version": "1",
+        "simulation_study_version": "2",
         "run_config": run_config,
         "run_config_sha256": hash_canonical(run_config),
         "summary": summarize_replicates(replicates, alpha=args.alpha),

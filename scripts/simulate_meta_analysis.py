@@ -7,10 +7,17 @@ import argparse
 import json
 from pathlib import Path
 
-from literature_multiverse.lineage import atomic_write_json, hash_canonical
+from literature_multiverse.lineage import atomic_write_json, hash_canonical, sha256_file
 from literature_multiverse.meta_simulation import (
     simulate_meta_replicate,
     summarize_meta_simulations,
+)
+
+_ROOT = Path(__file__).resolve().parents[1]
+_SOURCE_FILES = (
+    "scripts/simulate_meta_analysis.py",
+    "src/literature_multiverse/meta_simulation.py",
+    "src/literature_multiverse/meta_analysis.py",
 )
 
 
@@ -38,6 +45,20 @@ def main(argv: list[str] | None = None) -> int:
         "moderator_effect": args.moderator_effect,
         "papers_per_level": args.papers_per_level,
         "heldout_papers_per_level": args.heldout_papers_per_level,
+        "generator_hyperparameters": {
+            "overall_effect": 0.25,
+            "between_paper_standard_deviation": 0.12,
+            "high_precision_standard_error_uniform": [0.08, 0.14],
+            "low_precision_standard_error_uniform": [0.25, 0.38],
+            "moderator_levels": ["high_precision", "low_precision"],
+            "reported_significance_two_sided_alpha": 0.05,
+            "vote_probability_smoothing": "add_one_beta_1_1",
+            "meta_regression_min_papers_per_level": 4,
+            "effect_measure": "mean_difference_standardized_units",
+        },
+        "source_files_sha256": {
+            relative: sha256_file(_ROOT / relative) for relative in _SOURCE_FILES
+        },
     }
     null_rows = [
         simulate_meta_replicate(
@@ -61,7 +82,7 @@ def main(argv: list[str] | None = None) -> int:
     ]
     summary = summarize_meta_simulations(null_rows, moderator_rows, alpha=args.alpha)
     artifact = {
-        "meta_simulation_study_version": "1",
+        "meta_simulation_study_version": "2",
         "run_config": config,
         "run_config_sha256": hash_canonical(config),
         "summary": summary,
@@ -75,4 +96,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

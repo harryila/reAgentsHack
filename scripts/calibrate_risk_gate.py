@@ -13,7 +13,9 @@ from pydantic import TypeAdapter, ValidationError
 from literature_multiverse.calibration import (
     CalibrationContractError,
     FrozenCalibrationBundle,
+    ReleaseCandidate,
     RiskExample,
+    assess_release_candidate,
     calibrate_release_policy,
     calibration_artifact,
     evaluate_frozen_calibration_bundle,
@@ -73,6 +75,19 @@ def _parser() -> argparse.ArgumentParser:
     )
     evaluate.add_argument("--force", action="store_true")
 
+    assess = subparsers.add_parser(
+        "assess-release",
+        help="Apply a frozen policy to one unlabelled prospective candidate.",
+    )
+    assess.add_argument("--bundle", type=Path, required=True)
+    assess.add_argument("--input", type=Path, required=True, help="ReleaseCandidate JSON.")
+    assess.add_argument("--output", type=Path, required=True)
+    assess.add_argument(
+        "--expected-freeze-sha256",
+        help="Optional externally recorded bundle hash; checked before candidate input opens.",
+    )
+    assess.add_argument("--force", action="store_true")
+
     diagnostic = subparsers.add_parser(
         "diagnostic-one-shot",
         help="Simulation-only compatibility path that loads all labels together.",
@@ -116,6 +131,19 @@ def _read_bundle(path: Path) -> FrozenCalibrationBundle:
         raise CalibrationContractError("frozen_bundle_contract_invalid") from exc
 
 
+def _read_candidate(path: Path) -> ReleaseCandidate:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except OSError as exc:
+        raise CalibrationContractError(f"release_candidate_unreadable:{path}") from exc
+    except json.JSONDecodeError as exc:
+        raise CalibrationContractError("release_candidate_invalid_json") from exc
+    try:
+        return ReleaseCandidate.model_validate(payload)
+    except ValidationError as exc:
+        raise CalibrationContractError("release_candidate_contract_invalid") from exc
+
+
 def _freeze(args: argparse.Namespace) -> dict[str, Any]:
     examples = _read_jsonl(args.input)
     bundle = freeze_calibration_bundle(
@@ -152,6 +180,29 @@ def _evaluate_test(args: argparse.Namespace) -> dict[str, Any]:
         "bundle_sha256": bundle.bundle_sha256,
         "test_coverage": evaluation["coverage"],
         "test_empirical_risk": evaluation["empirical_risk"],
+        "output": args.output.as_posix(),
+    }
+
+
+def _assess_release(args: argparse.Namespace) -> dict[str, Any]:
+    # Validate the frozen decision rule before opening even unlabelled deployment input.
+    bundle = _read_bundle(args.bundle)
+    if (
+        args.expected_freeze_sha256 is not None
+        and args.expected_freeze_sha256 != bundle.bundle_sha256
+    ):
+        raise CalibrationContractError("expected_freeze_sha256_mismatch")
+    candidate = _read_candidate(args.input)
+    assessment = assess_release_candidate(candidate, bundle)
+    atomic_write_json(args.output, assessment, force=args.force)
+    return {
+        "stage": "prospective_release_after_freeze",
+        "bundle_sha256": bundle.bundle_sha256,
+        "question_id": assessment.question_id,
+        "status": assessment.status,
+        "reason": assessment.reason,
+        "scalar_risk_score": assessment.scalar_risk_score,
+        "threshold": assessment.threshold,
         "output": args.output.as_posix(),
     }
 
@@ -193,8 +244,12 @@ def main(argv: list[str] | None = None) -> int:
         summary = _freeze(args)
     elif args.command == "evaluate-test":
         summary = _evaluate_test(args)
-    else:
+    elif args.command == "assess-release":
+        summary = _assess_release(args)
+    elif args.command == "diagnostic-one-shot":
         summary = _diagnostic_one_shot(args)
+    else:  # pragma: no cover - argparse enforces the closed command set
+        raise AssertionError(f"unhandled_command:{args.command}")
     print(json.dumps(summary, sort_keys=True))
     return 0
 

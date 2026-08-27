@@ -68,7 +68,7 @@ def _approval(proposal: dict[str, object], *, approved: bool = True) -> dict[str
         {
             "approved": approved,
             "approved_moderator": proposal["moderator"] if approved else None,
-            "reviewer": "Harry",
+            "reviewer": "Reviewer A",
             "reason": "Approved for the frozen exploratory protocol.",
         }
     )

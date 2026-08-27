@@ -110,7 +110,7 @@ stored in a content-addressed archive with a SHA-256 receipt before candidates a
 
 ```bash
 uv run python scripts/s1_harvest.py \
-  --question selected-question --all --openalex --mailto researcher@example.org
+  --question selected-question --all --openalex --mailto "$OPENALEX_MAILTO"
 uv run python scripts/s2_screen.py --question selected-question --force
 ```
 
@@ -126,15 +126,25 @@ The paper-oriented path assigns separate jobs to separate methods:
 - the optional official GEPA adapter optimizes extraction and quote-verification prompts on
   paper/group-disjoint train and development sets, then freezes a hash-locked winner before opening
   test;
-- compatible estimates are harmonized and synthesized with paper-level random-effects analysis or
-  categorical meta-regression; literal estimate-direction synthesis is an explicit fallback;
+- compatible estimates are represented in a typed publication -> study -> cohort -> arm ->
+  contrast -> outcome-estimate graph, then harmonized and synthesized with a conservative
+  random-effects boundary; literal estimate-direction synthesis is an explicit fallback;
 - a question-level calibrated policy decides whether a claim can be released or whether the system
-  must abstain.
+  must abstain;
+- a fixed-budget audit policy ranks evidence by declared error risk, conclusion influence, and
+  verification cost, while a prospective guard blocks unresolved material items; and
+- a hash-bound claim-release boundary requires synthesis, audit, and frozen calibration to pass
+  together.
 
 Install the optional GEPA runtime with `uv sync --extra gepa`. Entry points are
 `scripts/optimize_prompts.py`, `scripts/calibrate_risk_gate.py`, and
-`scripts/simulate_risk_calibration.py`. See [meta-analysis](docs/meta-analysis.md),
-[calibration](docs/calibration.md), the
+`scripts/simulate_risk_calibration.py`. Paper result transcriptions can be checked with
+`scripts/verify_paper_results.py`, and the scrubbed review artifact is built from an explicit
+allowlist by `scripts/build_anonymous_submission.py`. See the [evidence graph](docs/evidence-graph.md),
+[meta-analysis](docs/meta-analysis.md),
+[budgeted verification](docs/budgeted-verification.md),
+[calibration](docs/calibration.md), [prospective claim release](docs/claim-release.md), the
+[closed-corpus evaluator](docs/closed-corpus-evaluation.md), the
 [Evidence Inference benchmark adapter](docs/evidence-inference-benchmark.md), and the prospective
 [evaluation protocol](docs/paper/neurips26-evaluation-protocol.md) for the scientific contracts.
 
