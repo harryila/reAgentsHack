@@ -25,6 +25,12 @@ from literature_multiverse.lineage import hash_canonical, sha256_file
 READINESS_VERSION = "evidence-inference-gepa-scaled-readiness-v1"
 CONFIG_VERSION = "evidence-inference-gepa-scaled-readiness-config-v1"
 DEFAULT_CONFIG_PATH = Path("configs/benchmarks/evidence-inference-gepa-scaled-readiness-v1.json")
+_EXPECTED_CONFIG_SHA256 = (
+    "57d7671d8a9b2d361c19285efe726a22297b9293f3b52b73e763dcab97fe0d67"
+)
+_EXPECTED_CONFIG_FILE_SHA256 = (
+    "671068c0f9791b4e62802173eaccf23fac688f81d09fc0466868b1e3e3a390a0"
+)
 
 _SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 _SPLITS = ("train", "dev", "test")
@@ -85,6 +91,23 @@ _EXPECTED_VARIANTS = {
         "train": (30, 4),
         "dev": (30, 16),
         "test": (30, 7),
+    },
+}
+_EXPECTED_SPLIT_HASHES = {
+    "full": {
+        "train": "828688ee695ee64a979a362710e4186ce4148f7f22cd59a9aa5ffe3ab9de7268",
+        "dev": "be465b52776938700d426edef8d2017f0ca2032ce82dd6b40219d43ad4e1e001",
+        "test": "77143667614f58e049f746992cdf7440394a90bb22036037f07bacb1e10054cd",
+    },
+    "low_budget_12": {
+        "train": "cebfe1f5187aaf8d8f676b194c6e6f62fd86589590a9238003995df625922eee",
+        "dev": "4883ec45a1d02e870eed232959ebe02971f0e7f955ee068d5c92e0896fdea3d3",
+        "test": "2ac9f1101379817db8b0e1293fafb35a58143f443042ed224b45acd3a6d9f8fc",
+    },
+    "pilot30": {
+        "train": "c38b386d3114df9791e7ac0d8c5fc02dd3198fcaf038e17f92207c3377867e43",
+        "dev": "79bc8803a2c112979bc9e0b11cd87d55591d726cb78a1df6f5aa9a2a65cf1996",
+        "test": "732658dcb52873854454690b69c5a4775898e3a97a37fc61ffe2ff29c4e941b4",
     },
 }
 _EXPECTED_BLOCKERS = (
