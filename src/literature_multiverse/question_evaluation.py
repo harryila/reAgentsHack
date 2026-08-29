@@ -29,8 +29,11 @@ from pydantic import Field, field_validator, model_validator
 
 from literature_multiverse.certificate import (
     ConditionVerificationCertificateV6,
+    ConditionVerificationCertificateV8,
     FinalConditionVerificationCertificateV7,
+    FinalConditionVerificationCertificateV9,
     VerificationCertificate,
+    VerificationCertificateV8,
 )
 from literature_multiverse.lineage import (
     atomic_write_jsonl,
@@ -559,6 +562,11 @@ class ProductionReplayBinding(ContractModel):
 
     @model_validator(mode="after")
     def validate_binding(self) -> ProductionReplayBinding:
+        # Additive subclasses carry their own exact certificate-version validator.
+        # Returning here prevents a composed v8 binding from being coerced through
+        # the legacy v5 projection while retaining the mature common field surface.
+        if self.binding_version != "production-certificate-replay-v2":
+            return self
         certificate = self.certificate
         if certificate.certificate_version != "literature-multiverse-verification-v5":
             raise ValueError("production_replay_requires_certificate_v5")
@@ -728,6 +736,10 @@ class ConditionProductionReplayBindingV7(ContractModel):
 
     @model_validator(mode="after")
     def validate_binding(self) -> ConditionProductionReplayBindingV7:
+        # The receipt-bound v9 subclass validates its exact terminal join below;
+        # it must never be reinterpreted as the legacy v7 binding.
+        if self.binding_version != "condition-production-certificate-replay-v7":
+            return self
         certificate = self.certificate
         source = certificate.source_certificate_v6
         decision = source.production_stop_decision

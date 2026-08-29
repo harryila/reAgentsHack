@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from dataclasses import replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -26,6 +27,7 @@ from literature_multiverse.certificate import (
     ConditionCalibrationCollectionSourceV1,
     ConditionVerificationCertificateV6,
     FinalConditionVerificationCertificateV7,
+    FinalConditionVerificationCertificateV9,
     freeze_condition_calibration_assessment_receipt_v1,
     match_validated_condition_calibration_collection_source_membership_v1,
     write_certificate_artifacts,
@@ -35,6 +37,11 @@ from literature_multiverse.condition_confirmation import (
     ConditionConfirmationAssessmentV1,
     ConditionConfirmationFrozenModelV1,
     ConditionConfirmationPlanV1,
+)
+from literature_multiverse.corpus_pipeline_composition_runtime import (
+    load_corpus_pipeline_composition_external_replay_receipt_v1,
+    require_external_replay_receipt_matches_corpus_load_result_v1,
+    validate_corpus_pipeline_composition_external_replay_receipt_v1,
 )
 from literature_multiverse.evidence_graph import EvidenceGraph
 from literature_multiverse.item_risk_artifacts import ItemRiskScoringRunReceipt
@@ -57,6 +64,7 @@ from literature_multiverse.sequential_verification import (
     select_next_audit_candidate,
 )
 from literature_multiverse.verifier import (
+    LegacyAdapterConfig,
     build_offline_fixture,
     compute_candidate_runner_sha256,
     compute_synthesis_runner_sha256,
@@ -363,6 +371,20 @@ def _add_verify_parser(subparsers: Any) -> argparse.ArgumentParser:
         help="Repository root used to recompute the pipeline (default: installed project root)",
     )
     parser.add_argument(
+        "--composition-receipt",
+        type=Path,
+        help=(
+            "Externally replayed extraction/verifier composition receipt. Requires a "
+            "typed v4 --corpus and --composition-hosted-bridge-receipt; all source and "
+            "current repository bytes are rebuilt before ordinary v8 verification."
+        ),
+    )
+    parser.add_argument(
+        "--composition-hosted-bridge-receipt",
+        type=Path,
+        help="Hosted exact-once grounding bridge receipt paired with --composition-receipt.",
+    )
+    parser.add_argument(
         "--item-risk-scoring-receipt",
         type=Path,
         help=(
@@ -410,6 +432,21 @@ def _add_fingerprint_parser(subparsers: Any) -> argparse.ArgumentParser:
     )
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--pipeline-root", type=Path)
+    parser.add_argument(
+        "--corpus",
+        type=Path,
+        help="Typed v4 grounding package for composed-pipeline fingerprint replay.",
+    )
+    parser.add_argument(
+        "--composition-receipt",
+        type=Path,
+        help="Persisted external composition receipt to rebuild before output.",
+    )
+    parser.add_argument(
+        "--composition-hosted-bridge-receipt",
+        type=Path,
+        help="Hosted bridge receipt paired with the typed composition corpus.",
+    )
     parser.add_argument("--force", action="store_true")
     return parser
 
@@ -767,6 +804,33 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
             )
             corpus = acquisition_replay.corpus
 
+    composition_grounding_package_path: Path | None = None
+    composition_hosted_bridge_receipt_path: Path | None = None
+    if args.composition_receipt is not None:
+        if args.fixture or args.acquisition_manifest is not None or args.corpus is None:
+            parser.error(
+                "--composition-receipt currently requires a direct typed v4 --corpus"
+            )
+        if args.composition_hosted_bridge_receipt is None:
+            parser.error(
+                "--composition-receipt requires --composition-hosted-bridge-receipt"
+            )
+        receipt = load_corpus_pipeline_composition_external_replay_receipt_v1(
+            args.composition_receipt
+        )
+        corpus = replace(
+            corpus,
+            composition_external_replay_receipt=receipt,
+        )
+        composition_grounding_package_path = args.corpus
+        composition_hosted_bridge_receipt_path = (
+            args.composition_hosted_bridge_receipt
+        )
+    elif args.composition_hosted_bridge_receipt is not None:
+        parser.error(
+            "--composition-hosted-bridge-receipt requires --composition-receipt"
+        )
+
     condition_bundle = _condition_adaptive_calibration_bundle(args.condition_adaptive_calibration)
     condition_plan = _condition_plan(args.condition_plan)
     condition_development_graph = _condition_development_graph(args.condition_development_graph)
@@ -794,6 +858,12 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
         audit_resolution_receipts=audit_receipts,
         expected_pipeline_fingerprint=expected_fingerprint,
         pipeline_root=args.pipeline_root,
+        composition_grounding_package_path=(
+            composition_grounding_package_path
+        ),
+        composition_hosted_bridge_receipt_path=(
+            composition_hosted_bridge_receipt_path
+        ),
         item_risk_scoring_receipt=item_risk_receipt,
         item_risk_calibration_bundle=item_risk_bundle,
         item_risk_candidates=item_risk_candidates,
@@ -828,14 +898,21 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
                 condition_confirmation_assessment=assessment,
                 generated_at=generated_at,
             )
-            if not isinstance(certificate, FinalConditionVerificationCertificateV7):
-                raise ValueError("condition_terminal_join_did_not_produce_v7")
+            if not isinstance(
+                certificate,
+                (
+                    FinalConditionVerificationCertificateV7,
+                    FinalConditionVerificationCertificateV9,
+                ),
+            ):
+                raise ValueError("condition_terminal_join_version_invalid")
 
-    source_certificate = (
-        certificate.source_certificate_v6
-        if isinstance(certificate, FinalConditionVerificationCertificateV7)
-        else certificate
-    )
+    if isinstance(certificate, FinalConditionVerificationCertificateV9):
+        source_certificate = certificate.source_certificate_v8
+    elif isinstance(certificate, FinalConditionVerificationCertificateV7):
+        source_certificate = certificate.source_certificate_v6
+    else:
+        source_certificate = certificate
     sequential_state = source_certificate.sequential_audit_state
     output_dir = args.output_dir or (Path("artifacts") / "verification" / certificate.run_id)
     audit_state_path = output_dir / "sequential-audit-state.json"
@@ -881,6 +958,21 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
                 "complete_corpus_membership_sha256": (
                     source_certificate.complete_corpus_identity.membership_sha256
                 ),
+                "complete_corpus_membership_v3_sha256": getattr(
+                    source_certificate,
+                    "complete_corpus_membership_v3_sha256",
+                    None,
+                ),
+                "composition_external_replay_receipt_sha256": getattr(
+                    source_certificate,
+                    "composition_external_replay_receipt_sha256",
+                    None,
+                ),
+                "manifest_corpus_policy_binding_v3_sha256": getattr(
+                    source_certificate,
+                    "manifest_corpus_policy_binding_v3_sha256",
+                    None,
+                ),
                 "decision_sha256": certificate.release_assessment.decision_sha256,
                 "html_path": artifacts.html_path,
                 "html_sha256": artifacts.html_sha256,
@@ -915,13 +1007,54 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
 
 
 def _fingerprint(args: argparse.Namespace) -> int:
-    fingerprint = compute_verifier_pipeline_fingerprint(root=args.pipeline_root)
+    composition_inputs = (
+        args.corpus,
+        args.composition_receipt,
+        args.composition_hosted_bridge_receipt,
+    )
+    if any(value is not None for value in composition_inputs) and not all(
+        value is not None for value in composition_inputs
+    ):
+        raise ValueError(
+            "composed_fingerprint_requires_corpus_receipt_and_bridge"
+        )
+    receipt_sha256 = None
+    fingerprint_basis = "verifier-core"
+    if args.composition_receipt is None:
+        fingerprint = compute_verifier_pipeline_fingerprint(root=args.pipeline_root)
+    else:
+        assert args.corpus is not None
+        assert args.composition_hosted_bridge_receipt is not None
+        root = args.pipeline_root or Path(__file__).resolve().parents[2]
+        receipt = load_corpus_pipeline_composition_external_replay_receipt_v1(
+            args.composition_receipt
+        )
+        receipt = validate_corpus_pipeline_composition_external_replay_receipt_v1(
+            receipt=receipt,
+            repository_root=root,
+            grounding_package_path=args.corpus,
+            hosted_bridge_receipt_path=args.composition_hosted_bridge_receipt,
+        )
+        corpus = load_corpus(
+            args.corpus,
+            legacy_settings=LegacyAdapterConfig(),
+            repository_root=root,
+        )
+        require_external_replay_receipt_matches_corpus_load_result_v1(
+            receipt=receipt,
+            corpus=corpus,
+        )
+        fingerprint = receipt.composed_pipeline_fingerprint
+        receipt_sha256 = receipt.receipt_sha256
+        fingerprint_basis = "externally-replayed-composed-pipeline-v1"
     atomic_write_json(args.output, fingerprint, force=args.force)
     print(
         json.dumps(
             {
                 "output": args.output.as_posix(),
                 "pipeline_sha256": fingerprint.pipeline_sha256,
+                "pipeline_identity_basis": fingerprint_basis,
+                "composition_external_replay_receipt_sha256": receipt_sha256,
                 "status": "frozen",
             },
             sort_keys=True,

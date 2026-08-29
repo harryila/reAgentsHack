@@ -80,8 +80,11 @@ _EXPECTED_NATIVE_PYTHON_CLOSURE = {
     "src/literature_multiverse/claim_release.py",
     "src/literature_multiverse/claim_semantics.py",
     "src/literature_multiverse/cohort_reconciliation.py",
+    "src/literature_multiverse/composed_corpus_identity.py",
     "src/literature_multiverse/condition_confirmation.py",
     "src/literature_multiverse/config.py",
+    "src/literature_multiverse/corpus_pipeline_composition.py",
+    "src/literature_multiverse/corpus_pipeline_composition_runtime.py",
     "src/literature_multiverse/effects.py",
     "src/literature_multiverse/evidence_graph.py",
     "src/literature_multiverse/extract.py",
@@ -126,6 +129,7 @@ _EXPECTED_NATIVE_PYTHON_CLOSURE = {
 
 _EXPECTED_VERIFICATION_RELEASE_FILES = {
     "scripts/build_condition_calibration_trajectory.py",
+    "scripts/build_corpus_pipeline_composition.py",
     "scripts/build_question_replay_state.py",
     "scripts/calibrate_adaptive_release.py",
     "scripts/calibrate_item_risk.py",
@@ -137,7 +141,10 @@ _EXPECTED_VERIFICATION_RELEASE_FILES = {
     "src/literature_multiverse/certificate.py",
     "src/literature_multiverse/claim_release.py",
     "src/literature_multiverse/cli.py",
+    "src/literature_multiverse/composed_corpus_identity.py",
     "src/literature_multiverse/condition_trajectory_builder.py",
+    "src/literature_multiverse/corpus_pipeline_composition.py",
+    "src/literature_multiverse/corpus_pipeline_composition_runtime.py",
     "src/literature_multiverse/item_risk_artifacts.py",
     "src/literature_multiverse/item_risk_calibration.py",
     "src/literature_multiverse/pipeline_fingerprint.py",
@@ -542,7 +549,7 @@ def test_verification_release_component_binds_every_public_entrypoint() -> None:
         if component.component_id == "verification-release"
     )
 
-    assert release_spec.component_version == "9"
+    assert release_spec.component_version == "10"
     assert set(release_spec.file_paths) == _EXPECTED_VERIFICATION_RELEASE_FILES
     assert release_spec.settings["in_repository_dependency_closure_bound"] is True
     assert release_spec.settings["condition_calibration_outcome_opening"] == (

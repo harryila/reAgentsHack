@@ -75,15 +75,21 @@ from literature_multiverse.certificate import (
     CertificateLineageStage,
     ConditionCalibrationCollectionSourceV1,
     ConditionVerificationCertificateV6,
+    ConditionVerificationCertificateV8,
     FinalConditionVerificationCertificateV7,
+    FinalConditionVerificationCertificateV9,
     VerificationCertificate,
+    VerificationCertificateV8,
     freeze_condition_calibration_collection_decision_v1,
     freeze_condition_calibration_collection_source_v1,
     freeze_condition_production_stop_decision_v2,
     freeze_condition_verification_certificate_v6,
+    freeze_condition_verification_certificate_v8,
     freeze_final_condition_verification_certificate_v7,
+    freeze_final_condition_verification_certificate_v9,
     freeze_production_stop_decision,
     freeze_verification_certificate,
+    freeze_verification_certificate_v8,
 )
 from literature_multiverse.claim_release import (
     CLAIM_RELEASE_RISK_FEATURE_NAMES,
@@ -104,6 +110,11 @@ from literature_multiverse.claim_semantics import (
     GlobalConditionDependenceTargetV1,
     QualifiedClaimVerdict,
 )
+from literature_multiverse.composed_corpus_identity import (
+    CompleteCorpusIdentityV3,
+    ComposedCorpusIdentityError,
+    freeze_complete_corpus_identity_v3,
+)
 from literature_multiverse.condition_confirmation import (
     ConditionConfirmationAssessmentV1,
     ConditionConfirmationError,
@@ -115,6 +126,12 @@ from literature_multiverse.condition_confirmation import (
     partition_evidence_graph,
     prepare_condition_confirmation_plan,
     validate_condition_confirmation_model,
+)
+from literature_multiverse.corpus_pipeline_composition_runtime import (
+    CorpusPipelineCompositionExternalReplayReceiptV1,
+    CorpusPipelineCompositionRuntimeError,
+    require_external_replay_receipt_matches_corpus_load_result_v1,
+    validate_corpus_pipeline_composition_external_replay_receipt_v1,
 )
 from literature_multiverse.effects import EffectEvidence
 from literature_multiverse.evidence_graph import (
@@ -176,6 +193,10 @@ from literature_multiverse.sequential_verification import (
 from literature_multiverse.typed_extraction import (
     FragmentStatus,
     TypedEvidenceCorpus,
+)
+
+COMPOSITION_PIPELINE_IDENTITY_BASIS = (
+    "externally_replayed_extraction_verifier_composition-v1"
 )
 
 
@@ -434,6 +455,9 @@ class CorpusLoadResult:
     metadata: dict[str, Any]
     provenance_assurance: CorpusProvenanceAssurance
     extraction_context: NativeExtractionExecutionContext | None = None
+    composition_external_replay_receipt: (
+        CorpusPipelineCompositionExternalReplayReceiptV1 | None
+    ) = None
 
     def embedded_fixture_identity_valid(self) -> bool:
         """Recognize only the loader-owned deterministic integration fixture."""
@@ -1864,9 +1888,10 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
         ),
         PipelineComponentSpec(
             component_id="verification-release",
-            component_version="9",
+            component_version="10",
             file_paths=[
                 "scripts/build_condition_calibration_trajectory.py",
+                "scripts/build_corpus_pipeline_composition.py",
                 "scripts/build_question_replay_state.py",
                 "scripts/calibrate_adaptive_release.py",
                 "scripts/calibrate_item_risk.py",
@@ -1878,7 +1903,10 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "src/literature_multiverse/certificate.py",
                 "src/literature_multiverse/claim_release.py",
                 "src/literature_multiverse/cli.py",
+                "src/literature_multiverse/composed_corpus_identity.py",
                 "src/literature_multiverse/condition_trajectory_builder.py",
+                "src/literature_multiverse/corpus_pipeline_composition.py",
+                "src/literature_multiverse/corpus_pipeline_composition_runtime.py",
                 "src/literature_multiverse/item_risk_artifacts.py",
                 "src/literature_multiverse/item_risk_calibration.py",
                 "src/literature_multiverse/pipeline_fingerprint.py",
@@ -1893,8 +1921,11 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "adaptive_stopping_rule": "first_full_release_from_prefix_zero",
                 "audit_cost_unit": "total_person_minutes",
                 "certificate_contract": (
-                    "legacy-v5-or-prebundle-collection-source-receipt-then-"
-                    "immutable-production-v6-to-final-v7"
+                    "legacy-v5-v6-v7-replay-or-external-composition-ordinary-v8-"
+                    "and-immutable-condition-v8-to-terminal-v9"
+                ),
+                "complete_corpus_identity_contract": (
+                    "v1-membership-plus-v3-external-composition-receipt"
                 ),
                 "condition_calibration_contract": (
                     "prebundle-collection-source-external-replay-to-receipt-roster-"
@@ -1910,6 +1941,9 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "fixed_state_calibration_scope": "single_decision_only",
                 "item_risk_contract": "self-contained-scoring-receipt-v2",
                 "in_repository_dependency_closure_bound": True,
+                "pipeline_composition_contract": (
+                    "current-byte-package-bridge-loader-replay-v1"
+                ),
                 "release_contract": "adaptive-first-release-v5",
                 "corrected_item_risk_projection": ("source-receipt-to-unchanged-unresolved-items"),
                 "uncalibrated_selection_requires_analysis_opt_in": True,
@@ -1958,6 +1992,66 @@ def _pipeline_identity(
         else "computed_and_self_verified_at_run_start"
     )
     return verification, basis
+
+
+def _composition_pipeline_identity(
+    manifest: ClaimManifest,
+    *,
+    corpus: CorpusLoadResult,
+    expected: PipelineFingerprint | None,
+    root: Path | None,
+    grounding_package_path: Path | None,
+    hosted_bridge_receipt_path: Path | None,
+) -> tuple[
+    PipelineFingerprintVerification,
+    str,
+    CorpusPipelineCompositionExternalReplayReceiptV1,
+]:
+    """Externally replay and adopt the composed extraction/verifier identity."""
+
+    receipt = corpus.composition_external_replay_receipt
+    if receipt is None:
+        raise VerificationContractError("composition_external_replay_receipt_missing")
+    if grounding_package_path is None or hosted_bridge_receipt_path is None:
+        raise VerificationContractError(
+            "composition_external_replay_requires_package_and_bridge_paths"
+        )
+    repository_root = root or Path(__file__).resolve().parents[2]
+    try:
+        validated = validate_corpus_pipeline_composition_external_replay_receipt_v1(
+            receipt=receipt,
+            repository_root=repository_root,
+            grounding_package_path=grounding_package_path,
+            hosted_bridge_receipt_path=hosted_bridge_receipt_path,
+        )
+        validated = require_external_replay_receipt_matches_corpus_load_result_v1(
+            receipt=validated,
+            corpus=corpus,
+        )
+    except CorpusPipelineCompositionRuntimeError as exc:
+        raise VerificationContractError(
+            f"composition_external_replay_failed:{exc}"
+        ) from exc
+    if (
+        expected is not None
+        and expected.model_dump(mode="json")
+        != validated.composed_pipeline_fingerprint.model_dump(mode="json")
+    ):
+        raise VerificationContractError(
+            "expected_pipeline_fingerprint_not_composed_pipeline"
+        )
+    if (
+        manifest.pipeline_sha256 is not None
+        and manifest.pipeline_sha256 != validated.composed_pipeline_sha256
+    ):
+        raise VerificationContractError(
+            "claim_manifest_pipeline_sha256_does_not_match_composed_pipeline"
+        )
+    return (
+        validated.composed_pipeline_verification,
+        COMPOSITION_PIPELINE_IDENTITY_BASIS,
+        validated,
+    )
 
 
 def _audit_scope_ids(
@@ -2996,8 +3090,15 @@ def _condition_corpus_issues(
     manifest: ClaimManifest,
     corpus: CorpusLoadResult,
     pipeline_sha256: str,
+    composition_replayed: bool = False,
 ) -> list[CorpusAdapterIssue]:
     issues = list(corpus.adapter_issues)
+    if composition_replayed:
+        issues = [
+            issue
+            for issue in issues
+            if issue.code != "corpus_pipeline_identity_mismatch"
+        ]
     if not corpus.provenance_release_eligible():
         issues.append(
             CorpusAdapterIssue(
@@ -3009,7 +3110,10 @@ def _condition_corpus_issues(
                 ),
             )
         )
-    if corpus.metadata.get("pipeline_fingerprint_sha256") != pipeline_sha256:
+    if (
+        not composition_replayed
+        and corpus.metadata.get("pipeline_fingerprint_sha256") != pipeline_sha256
+    ):
         issues.append(
             CorpusAdapterIssue(
                 severity=AdapterIssueSeverity.BLOCKING,
@@ -3057,17 +3161,43 @@ def _run_condition_verification(
     condition_frozen_model: ConditionConfirmationFrozenModelV1,
     expected_pipeline_fingerprint: PipelineFingerprint | None,
     pipeline_root: Path | None,
+    composition_grounding_package_path: Path | None,
+    composition_hosted_bridge_receipt_path: Path | None,
     item_risk_scoring_receipt: ItemRiskScoringRunReceipt | None,
     sequential_audit_state: SequentialVerificationState | None,
     generated_at: datetime,
-) -> ConditionVerificationCertificateV6:
+) -> ConditionVerificationCertificateV6 | ConditionVerificationCertificateV8:
     """Execute manifest v3 without exposing confirmation outcomes to online policy."""
 
-    pipeline_verification, pipeline_basis = _pipeline_identity(
-        manifest,
-        expected=expected_pipeline_fingerprint,
-        root=pipeline_root,
-    )
+    composition_receipt: CorpusPipelineCompositionExternalReplayReceiptV1 | None = None
+    if corpus.composition_external_replay_receipt is None:
+        if (
+            composition_grounding_package_path is not None
+            or composition_hosted_bridge_receipt_path is not None
+        ):
+            raise VerificationContractError(
+                "composition_paths_forbidden_without_external_replay_receipt"
+            )
+        pipeline_verification, pipeline_basis = _pipeline_identity(
+            manifest,
+            expected=expected_pipeline_fingerprint,
+            root=pipeline_root,
+        )
+    else:
+        (
+            pipeline_verification,
+            pipeline_basis,
+            composition_receipt,
+        ) = _composition_pipeline_identity(
+            manifest,
+            corpus=corpus,
+            expected=expected_pipeline_fingerprint,
+            root=pipeline_root,
+            grounding_package_path=composition_grounding_package_path,
+            hosted_bridge_receipt_path=(
+                composition_hosted_bridge_receipt_path
+            ),
+        )
     pipeline_sha256 = pipeline_verification.computed_pipeline_sha256
     if pipeline_sha256 is None:
         raise VerificationContractError("computed_pipeline_identity_missing")
@@ -3083,6 +3213,18 @@ def _run_condition_verification(
         manifest=manifest,
         corpus=corpus,
     )
+    complete_identity_v3: CompleteCorpusIdentityV3 | None = None
+    if composition_receipt is not None:
+        try:
+            complete_identity_v3 = freeze_complete_corpus_identity_v3(
+                complete_corpus_membership_v1=complete_identity,
+                external_replay_receipt=composition_receipt,
+                loaded_corpus=corpus,
+            )
+        except ComposedCorpusIdentityError as exc:
+            raise VerificationContractError(
+                f"condition_composition_complete_corpus_identity_failed:{exc}"
+            ) from exc
     policy_context = _derive_verifier_adaptive_policy_context_v2(
         manifest=manifest,
         pipeline_sha256=pipeline_sha256,
@@ -3214,6 +3356,7 @@ def _run_condition_verification(
         manifest=manifest,
         corpus=corpus,
         pipeline_sha256=pipeline_sha256,
+        composition_replayed=composition_receipt is not None,
     )
     blocking_adapter_reasons = sorted(
         f"adapter:{issue.code}"
@@ -3468,6 +3611,46 @@ def _run_condition_verification(
     corpus_payload["declared_corpus_cutoff"] = manifest.protocol.corpus_cutoff
     corpus_payload["pipeline_identity_basis"] = pipeline_basis
     reasons = sorted(set(source_assessment.reasons) | set(blocking_adapter_reasons))
+    if composition_receipt is not None:
+        if complete_identity_v3 is None:
+            raise VerificationContractError(
+                "condition_composition_complete_corpus_identity_missing"
+            )
+        return freeze_condition_verification_certificate_v8(
+            generated_at=generated_at,
+            reasons=reasons,
+            claim_manifest=manifest.model_dump(mode="json"),
+            corpus=corpus_payload,
+            corpus_sha256=corpus.source_sha256,
+            source_evidence_graph=corpus.graph,
+            current_full_evidence_graph=current_full_graph,
+            development_evidence_graph=context.development_graph,
+            adapter_issues=[row.model_dump(mode="json") for row in corpus_issues],
+            synthesis=prepared.synthesis,
+            counterfactual_reruns=list(prepared.counterfactuals),
+            audit_candidates=candidate_payload,
+            release_assessment=source_assessment,
+            pipeline_verification=pipeline_verification,
+            complete_corpus_identity=complete_identity,
+            complete_corpus_identity_v3=complete_identity_v3,
+            composition_external_replay_receipt=composition_receipt,
+            item_risk_scoring_receipt=item_risk_scoring_receipt,
+            condition_plan=context.plan,
+            condition_frozen_model=context.frozen_model,
+            condition_calibration_projection=context.projection,
+            condition_confirmation_gate=gate,
+            condition_target_semantics=context.target_semantics,
+            condition_independence_identity=context.independence_identity,
+            condition_gate_invocation_proof=invocation,
+            release_qualification_proof=qualification,
+            adaptive_policy_context=policy_context,
+            adaptive_calibration_bundle_v2=bundle_v2,
+            adaptive_release_candidate_v2=candidate_v2,
+            adaptive_prospective_assessment_v2=adaptive_assessment_v2,
+            sequential_audit_state=state,
+            production_stop_decision=production_stop,
+            lineage=lineage,
+        )
     source_v6 = freeze_condition_verification_certificate_v6(
         generated_at=generated_at,
         reasons=reasons,
@@ -4538,10 +4721,12 @@ def validate_condition_calibration_assessment_receipt_external_replay(
 
 def finalize_condition_verification(
     *,
-    source_certificate: ConditionVerificationCertificateV6,
+    source_certificate: (
+        ConditionVerificationCertificateV6 | ConditionVerificationCertificateV8
+    ),
     condition_confirmation_assessment: ConditionConfirmationAssessmentV1,
     generated_at: datetime | None = None,
-) -> FinalConditionVerificationCertificateV7:
+) -> FinalConditionVerificationCertificateV7 | FinalConditionVerificationCertificateV9:
     """Join a gate-ready, outcome-free v6 to one exact held-out assessment.
 
     This boundary deliberately has no corpus, manifest, state, or calibration input:
@@ -4555,6 +4740,14 @@ def finalize_condition_verification(
     if generated_at.tzinfo is None or generated_at.utcoffset() is None:
         raise VerificationContractError("condition_finalizer_generated_at_requires_timezone")
     try:
+        if isinstance(source_certificate, ConditionVerificationCertificateV8):
+            return freeze_final_condition_verification_certificate_v9(
+                generated_at=generated_at,
+                source_certificate=source_certificate,
+                condition_confirmation_assessment=(
+                    condition_confirmation_assessment
+                ),
+            )
         return freeze_final_condition_verification_certificate_v7(
             generated_at=generated_at,
             source_certificate=source_certificate,
@@ -4579,13 +4772,20 @@ def run_verification(
     audit_resolution_receipts: list[AuditResolutionReceipt] | None = None,
     expected_pipeline_fingerprint: PipelineFingerprint | None = None,
     pipeline_root: Path | None = None,
+    composition_grounding_package_path: Path | None = None,
+    composition_hosted_bridge_receipt_path: Path | None = None,
     item_risk_scoring_receipt: ItemRiskScoringRunReceipt | None = None,
     item_risk_calibration_bundle: ItemRiskCalibrationBundle | None = None,
     item_risk_candidates: list[ItemRiskCandidate] | None = None,
     sequential_audit_state: SequentialVerificationState | None = None,
     allow_uncalibrated_sequential_analysis: bool = False,
     generated_at: datetime | None = None,
-) -> VerificationCertificate | ConditionVerificationCertificateV6:
+) -> (
+    VerificationCertificate
+    | VerificationCertificateV8
+    | ConditionVerificationCertificateV6
+    | ConditionVerificationCertificateV8
+):
     """Execute the complete frozen-corpus verifier and freeze its certificate."""
 
     if not math.isfinite(budget_minutes) or budget_minutes < 0:
@@ -4642,6 +4842,12 @@ def run_verification(
             condition_frozen_model=condition_frozen_model,
             expected_pipeline_fingerprint=expected_pipeline_fingerprint,
             pipeline_root=pipeline_root,
+            composition_grounding_package_path=(
+                composition_grounding_package_path
+            ),
+            composition_hosted_bridge_receipt_path=(
+                composition_hosted_bridge_receipt_path
+            ),
             item_risk_scoring_receipt=item_risk_scoring_receipt,
             sequential_audit_state=sequential_audit_state,
             generated_at=generated_at,
@@ -4655,11 +4861,35 @@ def run_verification(
         ),
         key=lambda receipt: receipt.item_id,
     )
-    pipeline_verification, pipeline_basis = _pipeline_identity(
-        manifest,
-        expected=expected_pipeline_fingerprint,
-        root=pipeline_root,
-    )
+    composition_receipt: CorpusPipelineCompositionExternalReplayReceiptV1 | None = None
+    if corpus.composition_external_replay_receipt is None:
+        if (
+            composition_grounding_package_path is not None
+            or composition_hosted_bridge_receipt_path is not None
+        ):
+            raise VerificationContractError(
+                "composition_paths_forbidden_without_external_replay_receipt"
+            )
+        pipeline_verification, pipeline_basis = _pipeline_identity(
+            manifest,
+            expected=expected_pipeline_fingerprint,
+            root=pipeline_root,
+        )
+    else:
+        (
+            pipeline_verification,
+            pipeline_basis,
+            composition_receipt,
+        ) = _composition_pipeline_identity(
+            manifest,
+            corpus=corpus,
+            expected=expected_pipeline_fingerprint,
+            root=pipeline_root,
+            grounding_package_path=composition_grounding_package_path,
+            hosted_bridge_receipt_path=(
+                composition_hosted_bridge_receipt_path
+            ),
+        )
     pipeline_sha256 = pipeline_verification.computed_pipeline_sha256
     if pipeline_sha256 is None:
         raise VerificationContractError("computed_pipeline_identity_missing")
@@ -4686,6 +4916,18 @@ def run_verification(
         manifest=manifest,
         corpus=corpus,
     )
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3 | None = None
+    if composition_receipt is not None:
+        try:
+            complete_corpus_identity_v3 = freeze_complete_corpus_identity_v3(
+                complete_corpus_membership_v1=complete_corpus_identity,
+                external_replay_receipt=composition_receipt,
+                loaded_corpus=corpus,
+            )
+        except ComposedCorpusIdentityError as exc:
+            raise VerificationContractError(
+                f"composition_complete_corpus_identity_failed:{exc}"
+            ) from exc
     if item_risk_scoring_receipt is not None:
         source_estimates = {
             estimate.estimate_id: estimate for estimate in corpus.graph.outcome_estimates
@@ -4723,6 +4965,14 @@ def run_verification(
     ):
         raise VerificationContractError("sequential_audit_state_claim_manifest_context_mismatch")
     corpus_issues = list(corpus.adapter_issues)
+    if composition_receipt is not None:
+        # Full current-byte/package/bridge/loader replay above may clear exactly
+        # the legacy direct-equality blocker.  Every other issue is preserved.
+        corpus_issues = [
+            issue
+            for issue in corpus_issues
+            if issue.code != "corpus_pipeline_identity_mismatch"
+        ]
     if corpus.provenance_assurance.status == "source_replayed_native_grounding" and not (
         corpus.metadata.get("grounding_package_version") == "typed-evidence-grounding-package-v4"
         and corpus.metadata.get("source_manifest_membership_bound") is True
@@ -4800,6 +5050,7 @@ def run_verification(
         )
     if (
         corpus.provenance_assurance.status == "source_replayed_native_grounding"
+        and composition_receipt is None
         and corpus.metadata.get("pipeline_fingerprint_sha256") != pipeline_sha256
     ):
         corpus_issues = [
@@ -5439,6 +5690,38 @@ def run_verification(
     corpus_payload = corpus.certificate_payload()
     corpus_payload["declared_corpus_cutoff"] = manifest.protocol.corpus_cutoff
     corpus_payload["pipeline_identity_basis"] = pipeline_basis
+    if composition_receipt is not None:
+        if complete_corpus_identity_v3 is None:
+            raise VerificationContractError(
+                "composition_complete_corpus_identity_missing"
+            )
+        return freeze_verification_certificate_v8(
+            generated_at=generated_at,
+            status=status,
+            reasons=reasons,
+            claim_manifest=manifest_payload,
+            corpus=corpus_payload,
+            corpus_sha256=corpus.source_sha256,
+            source_evidence_graph=corpus.graph,
+            evidence_graph=effective_graph,
+            adapter_issues=[
+                issue.model_dump(mode="json") for issue in corpus_issues
+            ],
+            synthesis=synthesis,
+            counterfactual_reruns=counterfactuals,
+            audit_candidates=candidate_payload,
+            release_assessment=assessment,
+            lineage=lineage,
+            pipeline_verification=pipeline_verification,
+            complete_corpus_identity=complete_corpus_identity,
+            complete_corpus_identity_v3=complete_corpus_identity_v3,
+            composition_external_replay_receipt=composition_receipt,
+            item_risk_scoring_receipt=item_risk_scoring_receipt,
+            adaptive_calibration_bundle=adaptive_calibration_bundle,
+            adaptive_release_candidate=adaptive_release_candidate,
+            sequential_audit_state=effective_sequential_state,
+            production_stop_decision=production_stop_decision,
+        )
     return freeze_verification_certificate(
         generated_at=generated_at,
         status=status,

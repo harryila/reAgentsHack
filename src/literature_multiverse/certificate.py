@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import html
 import json
+from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 from typing import Annotated, Any, Literal
@@ -56,6 +57,13 @@ from literature_multiverse.claim_release import (
     ConditionClaimReleaseAssessmentV1,
     QualifiedClaimReleaseAssessment,
 )
+from literature_multiverse.composed_corpus_identity import (
+    CompleteCorpusIdentityV3,
+    ManifestCorpusPolicyBindingV3,
+    freeze_manifest_corpus_policy_binding_v3,
+    validate_complete_corpus_identity_v3,
+    validate_manifest_corpus_policy_binding_v3,
+)
 from literature_multiverse.condition_confirmation import (
     ConditionConfirmationAssessmentV1,
     ConditionConfirmationError,
@@ -63,6 +71,9 @@ from literature_multiverse.condition_confirmation import (
     ConditionConfirmationPlanV1,
     validate_condition_confirmation_assessment,
     validate_condition_confirmation_model,
+)
+from literature_multiverse.corpus_pipeline_composition_runtime import (
+    CorpusPipelineCompositionExternalReplayReceiptV1,
 )
 from literature_multiverse.evidence_graph import EvidenceGraph
 from literature_multiverse.independence_identity import StrongIndependenceIdentityV1
@@ -1700,6 +1711,420 @@ def freeze_verification_certificate(
     )
 
 
+_V8_COMPOSITION_STAGE = "corpus_pipeline_composition_external_replay"
+_V8_PIPELINE_IDENTITY_BASIS = (
+    "externally_replayed_extraction_verifier_composition-v1"
+)
+
+
+def _verification_v8_shadow_corpus(
+    *,
+    corpus: dict[str, Any],
+    receipt: CorpusPipelineCompositionExternalReplayReceiptV1,
+) -> dict[str, Any]:
+    """Build the v5-validation view without overwriting normative v8 lineage."""
+
+    shadow = deepcopy(corpus)
+    metadata = shadow.get("metadata")
+    if not isinstance(metadata, dict):
+        raise ValueError("verification_v8_corpus_metadata_invalid")
+    extraction_pipeline_sha256 = receipt.composition_join.extraction_pipeline_sha256
+    if metadata.get("pipeline_fingerprint_sha256") != extraction_pipeline_sha256:
+        raise ValueError("verification_v8_corpus_extraction_pipeline_alias_mismatch")
+    metadata["pipeline_fingerprint_sha256"] = receipt.composed_pipeline_sha256
+    return shadow
+
+
+def _verification_v8_composition_stage(
+    *,
+    receipt: CorpusPipelineCompositionExternalReplayReceiptV1,
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3,
+    manifest_corpus_policy_binding_v3: ManifestCorpusPolicyBindingV3,
+) -> CertificateLineageStage:
+    return CertificateLineageStage(
+        stage=_V8_COMPOSITION_STAGE,
+        input_sha256s=dict(
+            sorted(
+                {
+                    "corpus_source": receipt.corpus_source_sha256,
+                    "extraction_pipeline_verification": (
+                        receipt.extraction_pipeline_verification_sha256
+                    ),
+                    "grounding_package": receipt.grounding_package_sha256,
+                    "hosted_bridge_receipt": receipt.hosted_bridge_receipt_sha256,
+                    "verifier_core_pipeline_verification": (
+                        receipt.verifier_core_pipeline_verification_sha256
+                    ),
+                }.items()
+            )
+        ),
+        output_sha256s=dict(
+            sorted(
+                {
+                    "complete_corpus_identity_v3": (
+                        complete_corpus_identity_v3.membership_composition_sha256
+                    ),
+                    "composed_pipeline_verification": (
+                        receipt.composed_pipeline_verification_sha256
+                    ),
+                    "external_replay_receipt": receipt.receipt_sha256,
+                    "manifest_corpus_policy_binding_v3": (
+                        manifest_corpus_policy_binding_v3
+                        .manifest_corpus_policy_binding_sha256
+                    ),
+                }.items()
+            )
+        ),
+        method="full-current-byte-package-bridge-loader-replay-v1",
+    )
+
+
+def _certificate_manifest_policy_sha256(claim_manifest: dict[str, Any]) -> str:
+    """Mirror the verifier's closed manifest-context policy identity."""
+
+    return hash_canonical(
+        {
+            "policy_context_version": "verification-manifest-context-v1",
+            "claim_manifest": claim_manifest,
+        }
+    )
+
+
+def _require_verification_v8_receipt_corpus_aliases(
+    *,
+    corpus: dict[str, Any],
+    source_evidence_graph: EvidenceGraph,
+    corpus_sha256: str,
+    receipt: CorpusPipelineCompositionExternalReplayReceiptV1,
+) -> None:
+    metadata = corpus.get("metadata")
+    ingress = receipt.composition_join.corpus_ingress
+    if not isinstance(metadata, dict):
+        raise ValueError("verification_v8_corpus_metadata_invalid")
+    aliases = {
+        "corpus_id": (corpus.get("corpus_id"), ingress.corpus_id),
+        "corpus_source_sha256": (corpus_sha256, receipt.corpus_source_sha256),
+        "source_payload_sha256": (corpus.get("source_sha256"), corpus_sha256),
+        "grounding_package_sha256": (
+            metadata.get("grounding_package_sha256"),
+            receipt.grounding_package_sha256,
+        ),
+        "typed_corpus_sha256": (
+            metadata.get("typed_evidence_corpus_sha256"),
+            receipt.typed_corpus_sha256,
+        ),
+        "extraction_pipeline_sha256": (
+            metadata.get("pipeline_fingerprint_sha256"),
+            ingress.extraction_pipeline_sha256,
+        ),
+        "source_manifest_sha256": (
+            metadata.get("source_manifest_sha256"),
+            ingress.source_manifest_sha256,
+        ),
+        "grounding_replay_sha256": (
+            metadata.get("grounding_replay_sha256"),
+            receipt.grounding_replay_sha256,
+        ),
+        "effective_graph_sha256": (
+            hash_canonical(source_evidence_graph),
+            receipt.effective_graph_sha256,
+        ),
+    }
+    for field, (observed, expected) in aliases.items():
+        if observed != expected:
+            raise ValueError(f"verification_v8_{field}_alias_mismatch")
+    if corpus.get("pipeline_identity_basis") != _V8_PIPELINE_IDENTITY_BASIS:
+        raise ValueError("verification_v8_pipeline_identity_basis_invalid")
+
+
+class VerificationCertificateV8(VerificationCertificate):
+    """Join-aware ordinary certificate using a composed calibration pipeline.
+
+    V8 retains all ordinary v5 scientific, audit, calibration, and stopping-rule
+    checks.  Its only semantic change is that a fully externally replayed
+    extraction/verifier composition may replace the legacy direct pipeline-equality
+    blocker.  No other adapter issue is removed or weakened.
+    """
+
+    certificate_version: Literal["literature-multiverse-verification-v8"] = (
+        "literature-multiverse-verification-v8"
+    )
+    run_id: Annotated[str, Field(pattern=r"^verify-v8-[0-9a-f]{16}$")]
+    composition_external_replay_receipt: (
+        CorpusPipelineCompositionExternalReplayReceiptV1
+    )
+    composition_external_replay_receipt_sha256: str
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3
+    complete_corpus_membership_v3_sha256: str
+    manifest_corpus_policy_binding_v3: ManifestCorpusPolicyBindingV3
+    manifest_corpus_policy_binding_v3_sha256: str
+    cleared_adapter_issue_code: Literal["corpus_pipeline_identity_mismatch"] = (
+        "corpus_pipeline_identity_mismatch"
+    )
+    v5_common_contract_replay_sha256: str
+
+    @field_validator(
+        "composition_external_replay_receipt_sha256",
+        "complete_corpus_membership_v3_sha256",
+        "manifest_corpus_policy_binding_v3_sha256",
+        "v5_common_contract_replay_sha256",
+    )
+    @classmethod
+    def validate_v8_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("verification_v8_sha256_invalid")
+        return value
+
+    @model_validator(mode="after")
+    def validate_integrity(self) -> VerificationCertificateV8:
+        try:
+            receipt = CorpusPipelineCompositionExternalReplayReceiptV1.model_validate(
+                self.composition_external_replay_receipt.model_dump(mode="json")
+            )
+            complete_v3 = validate_complete_corpus_identity_v3(
+                self.complete_corpus_identity_v3
+            )
+            binding_v3 = validate_manifest_corpus_policy_binding_v3(
+                self.manifest_corpus_policy_binding_v3
+            )
+        except (AttributeError, ValueError) as exc:
+            raise ValueError("verification_v8_composition_contract_invalid") from exc
+        if (
+            self.composition_external_replay_receipt_sha256
+            != receipt.receipt_sha256
+            or self.complete_corpus_membership_v3_sha256
+            != complete_v3.membership_composition_sha256
+            or self.manifest_corpus_policy_binding_v3_sha256
+            != binding_v3.manifest_corpus_policy_binding_sha256
+            or binding_v3.complete_corpus_identity_v3 != complete_v3
+            or binding_v3.claim_manifest_sha256 != self.claim_manifest_sha256
+            or binding_v3.policy_sha256
+            != _certificate_manifest_policy_sha256(self.claim_manifest)
+            or complete_v3.external_replay_receipt != receipt
+            or complete_v3.complete_corpus_identity_v2.complete_corpus_membership_v1
+            != self.complete_corpus_identity
+            or self.pipeline_verification != receipt.composed_pipeline_verification
+            or self.release_assessment.pipeline_sha256
+            != receipt.release_pipeline_sha256
+        ):
+            raise ValueError("verification_v8_composition_alias_mismatch")
+        _require_verification_v8_receipt_corpus_aliases(
+            corpus=self.corpus,
+            source_evidence_graph=self.source_evidence_graph,
+            corpus_sha256=self.corpus_sha256,
+            receipt=receipt,
+        )
+        mismatch_reason = "adapter:corpus_pipeline_identity_mismatch"
+        if mismatch_reason in self.reasons or any(
+            issue.get("code") == self.cleared_adapter_issue_code
+            for issue in self.adapter_issues
+        ):
+            raise ValueError("verification_v8_legacy_pipeline_blocker_not_cleared")
+        if len(self.lineage) != 9 or self.lineage[-1] != _verification_v8_composition_stage(
+            receipt=receipt,
+            complete_corpus_identity_v3=complete_v3,
+            manifest_corpus_policy_binding_v3=binding_v3,
+        ):
+            raise ValueError("verification_v8_composition_lineage_mismatch")
+
+        shadow_corpus = _verification_v8_shadow_corpus(
+            corpus=self.corpus,
+            receipt=receipt,
+        )
+        try:
+            shadow = freeze_verification_certificate(
+                generated_at=self.generated_at,
+                status=self.status,
+                reasons=self.reasons,
+                claim_manifest=self.claim_manifest,
+                corpus=shadow_corpus,
+                corpus_sha256=self.corpus_sha256,
+                source_evidence_graph=self.source_evidence_graph,
+                evidence_graph=self.evidence_graph,
+                adapter_issues=self.adapter_issues,
+                synthesis=self.synthesis,
+                counterfactual_reruns=self.counterfactual_reruns,
+                audit_candidates=self.audit_candidates,
+                release_assessment=self.release_assessment,
+                lineage=self.lineage[:-1],
+                pipeline_verification=self.pipeline_verification,
+                complete_corpus_identity=self.complete_corpus_identity,
+                item_risk_scoring_receipt=self.item_risk_scoring_receipt,
+                adaptive_calibration_bundle=self.adaptive_calibration_bundle,
+                adaptive_release_candidate=self.adaptive_release_candidate,
+                sequential_audit_state=self.sequential_audit_state,
+                production_stop_decision=self.production_stop_decision,
+            )
+        except ValueError as exc:
+            raise ValueError("verification_v8_v5_common_contract_replay_failed") from exc
+        if self.v5_common_contract_replay_sha256 != shadow.certificate_sha256:
+            raise ValueError("verification_v8_common_contract_replay_hash_mismatch")
+        v8_exclusions = {
+            "certificate_version",
+            "run_id",
+            "corpus",
+            "lineage",
+            "certificate_sha256",
+            "composition_external_replay_receipt",
+            "composition_external_replay_receipt_sha256",
+            "complete_corpus_identity_v3",
+            "complete_corpus_membership_v3_sha256",
+            "manifest_corpus_policy_binding_v3",
+            "manifest_corpus_policy_binding_v3_sha256",
+            "cleared_adapter_issue_code",
+            "v5_common_contract_replay_sha256",
+        }
+        shadow_exclusions = {
+            "certificate_version",
+            "run_id",
+            "corpus",
+            "lineage",
+            "certificate_sha256",
+        }
+        if self.model_dump(mode="json", exclude=v8_exclusions) != shadow.model_dump(
+            mode="json", exclude=shadow_exclusions
+        ):
+            raise ValueError("verification_v8_common_contract_projection_mismatch")
+        run_identity = hash_canonical(
+            {
+                "v5_common_contract_replay_sha256": shadow.certificate_sha256,
+                "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+                "complete_corpus_membership_v3_sha256": (
+                    complete_v3.membership_composition_sha256
+                ),
+                "manifest_corpus_policy_binding_v3_sha256": (
+                    binding_v3.manifest_corpus_policy_binding_sha256
+                ),
+            }
+        )
+        if self.run_id != f"verify-v8-{run_identity[:16]}":
+            raise ValueError("verification_v8_run_identity_mismatch")
+        payload = self.model_dump(mode="json", exclude={"certificate_sha256"})
+        if self.certificate_sha256 != hash_canonical(payload):
+            raise ValueError("verification_v8_certificate_hash_mismatch")
+        return self
+
+
+def freeze_verification_certificate_v8(
+    *,
+    generated_at: datetime,
+    status: Literal["released", "abstained"],
+    reasons: list[str],
+    claim_manifest: dict[str, Any],
+    corpus: dict[str, Any],
+    corpus_sha256: str,
+    source_evidence_graph: EvidenceGraph,
+    evidence_graph: EvidenceGraph,
+    adapter_issues: list[dict[str, Any]],
+    synthesis: dict[str, Any],
+    counterfactual_reruns: list[dict[str, Any]],
+    audit_candidates: list[dict[str, Any]],
+    release_assessment: ClaimReleaseAssessment | QualifiedClaimReleaseAssessment,
+    lineage: list[CertificateLineageStage],
+    pipeline_verification: PipelineFingerprintVerification,
+    complete_corpus_identity: CompleteCorpusIdentity,
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3,
+    composition_external_replay_receipt: (
+        CorpusPipelineCompositionExternalReplayReceiptV1
+    ),
+    item_risk_scoring_receipt: ItemRiskScoringRunReceipt | None,
+    adaptive_calibration_bundle: AdaptiveCalibrationBundle | None,
+    adaptive_release_candidate: ProspectiveAdaptiveReleaseCandidate | None,
+    sequential_audit_state: SequentialVerificationState | None,
+    production_stop_decision: ProductionStopDecision,
+) -> VerificationCertificateV8:
+    """Freeze v8 after replaying the complete ordinary v5 contract projection."""
+
+    receipt = CorpusPipelineCompositionExternalReplayReceiptV1.model_validate(
+        composition_external_replay_receipt.model_dump(mode="json")
+    )
+    complete_v3 = validate_complete_corpus_identity_v3(complete_corpus_identity_v3)
+    if (
+        complete_v3.external_replay_receipt != receipt
+        or complete_v3.complete_corpus_identity_v2.complete_corpus_membership_v1
+        != complete_corpus_identity
+    ):
+        raise ValueError("verification_v8_complete_corpus_input_mismatch")
+    binding_v3 = freeze_manifest_corpus_policy_binding_v3(
+        claim_manifest_sha256=hash_canonical(claim_manifest),
+        complete_corpus_identity_v3=complete_v3,
+        policy_sha256=_certificate_manifest_policy_sha256(claim_manifest),
+    )
+    if any(stage.stage == _V8_COMPOSITION_STAGE for stage in lineage):
+        raise ValueError("verification_v8_duplicate_composition_lineage_stage")
+    if any(
+        issue.get("code") == "corpus_pipeline_identity_mismatch"
+        for issue in adapter_issues
+    ) or "adapter:corpus_pipeline_identity_mismatch" in reasons:
+        raise ValueError("verification_v8_pipeline_mismatch_blocker_must_be_removed")
+    shadow = freeze_verification_certificate(
+        generated_at=generated_at,
+        status=status,
+        reasons=reasons,
+        claim_manifest=claim_manifest,
+        corpus=_verification_v8_shadow_corpus(corpus=corpus, receipt=receipt),
+        corpus_sha256=corpus_sha256,
+        source_evidence_graph=source_evidence_graph,
+        evidence_graph=evidence_graph,
+        adapter_issues=adapter_issues,
+        synthesis=synthesis,
+        counterfactual_reruns=counterfactual_reruns,
+        audit_candidates=audit_candidates,
+        release_assessment=release_assessment,
+        lineage=lineage,
+        pipeline_verification=pipeline_verification,
+        complete_corpus_identity=complete_corpus_identity,
+        item_risk_scoring_receipt=item_risk_scoring_receipt,
+        adaptive_calibration_bundle=adaptive_calibration_bundle,
+        adaptive_release_candidate=adaptive_release_candidate,
+        sequential_audit_state=sequential_audit_state,
+        production_stop_decision=production_stop_decision,
+    )
+    payload = shadow.model_dump(mode="json", exclude={"certificate_sha256"})
+    payload.update(
+        {
+            "certificate_version": "literature-multiverse-verification-v8",
+            "corpus": corpus,
+            "lineage": [
+                *lineage,
+                _verification_v8_composition_stage(
+                    receipt=receipt,
+                    complete_corpus_identity_v3=complete_v3,
+                    manifest_corpus_policy_binding_v3=binding_v3,
+                ),
+            ],
+            "composition_external_replay_receipt": receipt,
+            "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+            "complete_corpus_identity_v3": complete_v3,
+            "complete_corpus_membership_v3_sha256": (
+                complete_v3.membership_composition_sha256
+            ),
+            "manifest_corpus_policy_binding_v3": binding_v3,
+            "manifest_corpus_policy_binding_v3_sha256": (
+                binding_v3.manifest_corpus_policy_binding_sha256
+            ),
+            "cleared_adapter_issue_code": "corpus_pipeline_identity_mismatch",
+            "v5_common_contract_replay_sha256": shadow.certificate_sha256,
+        }
+    )
+    run_identity = hash_canonical(
+        {
+            "v5_common_contract_replay_sha256": shadow.certificate_sha256,
+            "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+            "complete_corpus_membership_v3_sha256": (
+                complete_v3.membership_composition_sha256
+            ),
+            "manifest_corpus_policy_binding_v3_sha256": (
+                binding_v3.manifest_corpus_policy_binding_sha256
+            ),
+        }
+    )
+    payload["run_id"] = f"verify-v8-{run_identity[:16]}"
+    return VerificationCertificateV8.model_validate(
+        {**payload, "certificate_sha256": hash_canonical(payload)}
+    )
+
+
 class ConditionProductionStopDecisionV2(ContractModel):
     """Outcome-free scheduler decision made before terminal outcomes are opened."""
 
@@ -2984,6 +3409,326 @@ def freeze_condition_verification_certificate_v6(
     )
 
 
+class ConditionVerificationCertificateV8(ConditionVerificationCertificateV6):
+    """Outcome-free condition source bound to an externally replayed composition."""
+
+    certificate_version: Literal[
+        "literature-multiverse-condition-verification-v8"
+    ] = "literature-multiverse-condition-verification-v8"
+    run_id: Annotated[str, Field(pattern=r"^verify-condition-v8-[0-9a-f]{16}$")]
+    composition_external_replay_receipt: (
+        CorpusPipelineCompositionExternalReplayReceiptV1
+    )
+    composition_external_replay_receipt_sha256: str
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3
+    complete_corpus_membership_v3_sha256: str
+    manifest_corpus_policy_binding_v3: ManifestCorpusPolicyBindingV3
+    manifest_corpus_policy_binding_v3_sha256: str
+    cleared_adapter_issue_code: Literal["corpus_pipeline_identity_mismatch"] = (
+        "corpus_pipeline_identity_mismatch"
+    )
+    v6_common_contract_replay_sha256: str
+
+    @field_validator(
+        "composition_external_replay_receipt_sha256",
+        "complete_corpus_membership_v3_sha256",
+        "manifest_corpus_policy_binding_v3_sha256",
+        "v6_common_contract_replay_sha256",
+    )
+    @classmethod
+    def validate_v8_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("condition_v8_sha256_invalid")
+        return value
+
+    @model_validator(mode="after")
+    def validate_certificate(self) -> ConditionVerificationCertificateV8:
+        try:
+            receipt = CorpusPipelineCompositionExternalReplayReceiptV1.model_validate(
+                self.composition_external_replay_receipt.model_dump(mode="json")
+            )
+            complete_v3 = validate_complete_corpus_identity_v3(
+                self.complete_corpus_identity_v3
+            )
+            binding_v3 = validate_manifest_corpus_policy_binding_v3(
+                self.manifest_corpus_policy_binding_v3
+            )
+        except (AttributeError, ValueError) as exc:
+            raise ValueError("condition_v8_composition_contract_invalid") from exc
+        if (
+            self.composition_external_replay_receipt_sha256
+            != receipt.receipt_sha256
+            or self.complete_corpus_membership_v3_sha256
+            != complete_v3.membership_composition_sha256
+            or self.manifest_corpus_policy_binding_v3_sha256
+            != binding_v3.manifest_corpus_policy_binding_sha256
+            or binding_v3.complete_corpus_identity_v3 != complete_v3
+            or binding_v3.claim_manifest_sha256 != self.claim_manifest_sha256
+            or binding_v3.policy_sha256
+            != _certificate_manifest_policy_sha256(self.claim_manifest)
+            or complete_v3.external_replay_receipt != receipt
+            or complete_v3.complete_corpus_identity_v2.complete_corpus_membership_v1
+            != self.complete_corpus_identity
+            or self.pipeline_verification != receipt.composed_pipeline_verification
+            or self.release_assessment.pipeline_sha256
+            != receipt.release_pipeline_sha256
+        ):
+            raise ValueError("condition_v8_composition_alias_mismatch")
+        _require_verification_v8_receipt_corpus_aliases(
+            corpus=self.corpus,
+            source_evidence_graph=self.source_evidence_graph,
+            corpus_sha256=self.corpus_sha256,
+            receipt=receipt,
+        )
+        mismatch_reason = "adapter:corpus_pipeline_identity_mismatch"
+        if mismatch_reason in self.reasons or any(
+            issue.get("code") == self.cleared_adapter_issue_code
+            for issue in self.adapter_issues
+        ):
+            raise ValueError("condition_v8_legacy_pipeline_blocker_not_cleared")
+        if len(self.lineage) != 4 or self.lineage[-1] != _verification_v8_composition_stage(
+            receipt=receipt,
+            complete_corpus_identity_v3=complete_v3,
+            manifest_corpus_policy_binding_v3=binding_v3,
+        ):
+            raise ValueError("condition_v8_composition_lineage_mismatch")
+        try:
+            shadow = freeze_condition_verification_certificate_v6(
+                generated_at=self.generated_at,
+                reasons=self.reasons,
+                claim_manifest=self.claim_manifest,
+                corpus=_verification_v8_shadow_corpus(
+                    corpus=self.corpus,
+                    receipt=receipt,
+                ),
+                corpus_sha256=self.corpus_sha256,
+                source_evidence_graph=self.source_evidence_graph,
+                current_full_evidence_graph=self.current_full_evidence_graph,
+                development_evidence_graph=self.development_evidence_graph,
+                adapter_issues=self.adapter_issues,
+                synthesis=self.synthesis,
+                counterfactual_reruns=self.counterfactual_reruns,
+                audit_candidates=self.audit_candidates,
+                release_assessment=self.release_assessment,
+                pipeline_verification=self.pipeline_verification,
+                complete_corpus_identity=self.complete_corpus_identity,
+                item_risk_scoring_receipt=self.item_risk_scoring_receipt,
+                condition_plan=self.condition_plan,
+                condition_frozen_model=self.condition_frozen_model,
+                condition_calibration_projection=(
+                    self.condition_calibration_projection
+                ),
+                condition_confirmation_gate=self.condition_confirmation_gate,
+                condition_target_semantics=self.condition_target_semantics,
+                condition_independence_identity=(
+                    self.condition_independence_identity
+                ),
+                condition_gate_invocation_proof=(
+                    self.condition_gate_invocation_proof
+                ),
+                release_qualification_proof=self.release_qualification_proof,
+                adaptive_policy_context=self.adaptive_policy_context,
+                adaptive_calibration_bundle_v2=self.adaptive_calibration_bundle_v2,
+                adaptive_release_candidate_v2=self.adaptive_release_candidate_v2,
+                adaptive_prospective_assessment_v2=(
+                    self.adaptive_prospective_assessment_v2
+                ),
+                sequential_audit_state=self.sequential_audit_state,
+                production_stop_decision=self.production_stop_decision,
+                lineage=self.lineage[:-1],
+            )
+        except ValueError as exc:
+            raise ValueError("condition_v8_v6_common_contract_replay_failed") from exc
+        if self.v6_common_contract_replay_sha256 != shadow.certificate_sha256:
+            raise ValueError("condition_v8_common_contract_replay_hash_mismatch")
+        v8_exclusions = {
+            "certificate_version",
+            "run_id",
+            "corpus",
+            "lineage",
+            "certificate_sha256",
+            "composition_external_replay_receipt",
+            "composition_external_replay_receipt_sha256",
+            "complete_corpus_identity_v3",
+            "complete_corpus_membership_v3_sha256",
+            "manifest_corpus_policy_binding_v3",
+            "manifest_corpus_policy_binding_v3_sha256",
+            "cleared_adapter_issue_code",
+            "v6_common_contract_replay_sha256",
+        }
+        shadow_exclusions = {
+            "certificate_version",
+            "run_id",
+            "corpus",
+            "lineage",
+            "certificate_sha256",
+        }
+        if self.model_dump(mode="json", exclude=v8_exclusions) != shadow.model_dump(
+            mode="json", exclude=shadow_exclusions
+        ):
+            raise ValueError("condition_v8_common_contract_projection_mismatch")
+        run_identity = hash_canonical(
+            {
+                "v6_common_contract_replay_sha256": shadow.certificate_sha256,
+                "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+                "complete_corpus_membership_v3_sha256": (
+                    complete_v3.membership_composition_sha256
+                ),
+                "manifest_corpus_policy_binding_v3_sha256": (
+                    binding_v3.manifest_corpus_policy_binding_sha256
+                ),
+            }
+        )
+        if self.run_id != f"verify-condition-v8-{run_identity[:16]}":
+            raise ValueError("condition_v8_run_identity_mismatch")
+        payload = self.model_dump(mode="json", exclude={"certificate_sha256"})
+        if self.certificate_sha256 != hash_canonical(payload):
+            raise ValueError("condition_v8_certificate_hash_mismatch")
+        return self
+
+
+def freeze_condition_verification_certificate_v8(
+    *,
+    generated_at: datetime,
+    reasons: list[str],
+    claim_manifest: dict[str, Any],
+    corpus: dict[str, Any],
+    corpus_sha256: str,
+    source_evidence_graph: EvidenceGraph,
+    current_full_evidence_graph: EvidenceGraph,
+    development_evidence_graph: EvidenceGraph,
+    adapter_issues: list[dict[str, Any]],
+    synthesis: dict[str, Any],
+    counterfactual_reruns: list[dict[str, Any]],
+    audit_candidates: list[dict[str, Any]],
+    release_assessment: ConditionClaimReleaseAssessmentV1,
+    pipeline_verification: PipelineFingerprintVerification,
+    complete_corpus_identity: CompleteCorpusIdentity,
+    complete_corpus_identity_v3: CompleteCorpusIdentityV3,
+    composition_external_replay_receipt: (
+        CorpusPipelineCompositionExternalReplayReceiptV1
+    ),
+    item_risk_scoring_receipt: ItemRiskScoringRunReceipt | None,
+    condition_plan: ConditionConfirmationPlanV1,
+    condition_frozen_model: ConditionConfirmationFrozenModelV1,
+    condition_calibration_projection: ConditionCalibrationProjectionV1,
+    condition_confirmation_gate: ConditionConfirmationGateAssessmentV1,
+    condition_target_semantics: AdaptiveTargetSemanticsBindingV2,
+    condition_independence_identity: AdaptiveIndependenceIdentityV2,
+    condition_gate_invocation_proof: ConditionGateInvocationProofV2 | None,
+    release_qualification_proof: ConfirmationAwareReleaseQualificationProofV2 | None,
+    adaptive_policy_context: AdaptivePolicyContext,
+    adaptive_calibration_bundle_v2: AdaptiveCalibrationBundleV2,
+    adaptive_release_candidate_v2: ProspectiveAdaptiveReleaseCandidateV2,
+    adaptive_prospective_assessment_v2: AdaptiveProspectiveAssessmentV2,
+    sequential_audit_state: SequentialVerificationState,
+    production_stop_decision: ConditionProductionStopDecisionV2,
+    lineage: list[CertificateLineageStage],
+) -> ConditionVerificationCertificateV8:
+    """Freeze outcome-free condition v8 via the exact v6 common projection."""
+
+    receipt = CorpusPipelineCompositionExternalReplayReceiptV1.model_validate(
+        composition_external_replay_receipt.model_dump(mode="json")
+    )
+    complete_v3 = validate_complete_corpus_identity_v3(complete_corpus_identity_v3)
+    if (
+        complete_v3.external_replay_receipt != receipt
+        or complete_v3.complete_corpus_identity_v2.complete_corpus_membership_v1
+        != complete_corpus_identity
+    ):
+        raise ValueError("condition_v8_complete_corpus_input_mismatch")
+    binding_v3 = freeze_manifest_corpus_policy_binding_v3(
+        claim_manifest_sha256=hash_canonical(claim_manifest),
+        complete_corpus_identity_v3=complete_v3,
+        policy_sha256=_certificate_manifest_policy_sha256(claim_manifest),
+    )
+    if any(stage.stage == _V8_COMPOSITION_STAGE for stage in lineage):
+        raise ValueError("condition_v8_duplicate_composition_lineage_stage")
+    if any(
+        issue.get("code") == "corpus_pipeline_identity_mismatch"
+        for issue in adapter_issues
+    ) or "adapter:corpus_pipeline_identity_mismatch" in reasons:
+        raise ValueError("condition_v8_pipeline_mismatch_blocker_must_be_removed")
+    shadow = freeze_condition_verification_certificate_v6(
+        generated_at=generated_at,
+        reasons=reasons,
+        claim_manifest=claim_manifest,
+        corpus=_verification_v8_shadow_corpus(corpus=corpus, receipt=receipt),
+        corpus_sha256=corpus_sha256,
+        source_evidence_graph=source_evidence_graph,
+        current_full_evidence_graph=current_full_evidence_graph,
+        development_evidence_graph=development_evidence_graph,
+        adapter_issues=adapter_issues,
+        synthesis=synthesis,
+        counterfactual_reruns=counterfactual_reruns,
+        audit_candidates=audit_candidates,
+        release_assessment=release_assessment,
+        pipeline_verification=pipeline_verification,
+        complete_corpus_identity=complete_corpus_identity,
+        item_risk_scoring_receipt=item_risk_scoring_receipt,
+        condition_plan=condition_plan,
+        condition_frozen_model=condition_frozen_model,
+        condition_calibration_projection=condition_calibration_projection,
+        condition_confirmation_gate=condition_confirmation_gate,
+        condition_target_semantics=condition_target_semantics,
+        condition_independence_identity=condition_independence_identity,
+        condition_gate_invocation_proof=condition_gate_invocation_proof,
+        release_qualification_proof=release_qualification_proof,
+        adaptive_policy_context=adaptive_policy_context,
+        adaptive_calibration_bundle_v2=adaptive_calibration_bundle_v2,
+        adaptive_release_candidate_v2=adaptive_release_candidate_v2,
+        adaptive_prospective_assessment_v2=adaptive_prospective_assessment_v2,
+        sequential_audit_state=sequential_audit_state,
+        production_stop_decision=production_stop_decision,
+        lineage=lineage,
+    )
+    payload = shadow.model_dump(mode="json", exclude={"certificate_sha256"})
+    payload.update(
+        {
+            "certificate_version": (
+                "literature-multiverse-condition-verification-v8"
+            ),
+            "corpus": corpus,
+            "lineage": [
+                *lineage,
+                _verification_v8_composition_stage(
+                    receipt=receipt,
+                    complete_corpus_identity_v3=complete_v3,
+                    manifest_corpus_policy_binding_v3=binding_v3,
+                ),
+            ],
+            "composition_external_replay_receipt": receipt,
+            "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+            "complete_corpus_identity_v3": complete_v3,
+            "complete_corpus_membership_v3_sha256": (
+                complete_v3.membership_composition_sha256
+            ),
+            "manifest_corpus_policy_binding_v3": binding_v3,
+            "manifest_corpus_policy_binding_v3_sha256": (
+                binding_v3.manifest_corpus_policy_binding_sha256
+            ),
+            "cleared_adapter_issue_code": "corpus_pipeline_identity_mismatch",
+            "v6_common_contract_replay_sha256": shadow.certificate_sha256,
+        }
+    )
+    run_identity = hash_canonical(
+        {
+            "v6_common_contract_replay_sha256": shadow.certificate_sha256,
+            "composition_external_replay_receipt_sha256": receipt.receipt_sha256,
+            "complete_corpus_membership_v3_sha256": (
+                complete_v3.membership_composition_sha256
+            ),
+            "manifest_corpus_policy_binding_v3_sha256": (
+                binding_v3.manifest_corpus_policy_binding_sha256
+            ),
+        }
+    )
+    payload["run_id"] = f"verify-condition-v8-{run_identity[:16]}"
+    return ConditionVerificationCertificateV8.model_validate(
+        {**payload, "certificate_sha256": hash_canonical(payload)}
+    )
+
+
 class FinalConditionReleaseAssessmentV1(ContractModel):
     """Exact final v7 join of immutable v6 science and v2 calibrated release."""
 
@@ -3380,6 +4125,339 @@ def freeze_final_condition_verification_certificate_v7(
     )
 
 
+def _condition_v8_shadow_v6(
+    source: ConditionVerificationCertificateV8,
+) -> ConditionVerificationCertificateV6:
+    """Replay the exact mature v6 projection embedded by a condition-v8 source."""
+
+    source = ConditionVerificationCertificateV8.model_validate(
+        source.model_dump(mode="json")
+    )
+    receipt = source.composition_external_replay_receipt
+    shadow = freeze_condition_verification_certificate_v6(
+        generated_at=source.generated_at,
+        reasons=source.reasons,
+        claim_manifest=source.claim_manifest,
+        corpus=_verification_v8_shadow_corpus(
+            corpus=source.corpus,
+            receipt=receipt,
+        ),
+        corpus_sha256=source.corpus_sha256,
+        source_evidence_graph=source.source_evidence_graph,
+        current_full_evidence_graph=source.current_full_evidence_graph,
+        development_evidence_graph=source.development_evidence_graph,
+        adapter_issues=source.adapter_issues,
+        synthesis=source.synthesis,
+        counterfactual_reruns=source.counterfactual_reruns,
+        audit_candidates=source.audit_candidates,
+        release_assessment=source.release_assessment,
+        pipeline_verification=source.pipeline_verification,
+        complete_corpus_identity=source.complete_corpus_identity,
+        item_risk_scoring_receipt=source.item_risk_scoring_receipt,
+        condition_plan=source.condition_plan,
+        condition_frozen_model=source.condition_frozen_model,
+        condition_calibration_projection=source.condition_calibration_projection,
+        condition_confirmation_gate=source.condition_confirmation_gate,
+        condition_target_semantics=source.condition_target_semantics,
+        condition_independence_identity=source.condition_independence_identity,
+        condition_gate_invocation_proof=source.condition_gate_invocation_proof,
+        release_qualification_proof=source.release_qualification_proof,
+        adaptive_policy_context=source.adaptive_policy_context,
+        adaptive_calibration_bundle_v2=source.adaptive_calibration_bundle_v2,
+        adaptive_release_candidate_v2=source.adaptive_release_candidate_v2,
+        adaptive_prospective_assessment_v2=(
+            source.adaptive_prospective_assessment_v2
+        ),
+        sequential_audit_state=source.sequential_audit_state,
+        production_stop_decision=source.production_stop_decision,
+        lineage=source.lineage[:-1],
+    )
+    if shadow.certificate_sha256 != source.v6_common_contract_replay_sha256:
+        raise ValueError("condition_v8_shadow_v6_hash_mismatch")
+    return shadow
+
+
+class ConditionCompositionTerminalJoinV1(ContractModel):
+    """Exact bridge from immutable condition v8 to its mature v7 replay witness."""
+
+    join_version: Literal["condition-composition-terminal-join-v1"] = (
+        "condition-composition-terminal-join-v1"
+    )
+    source_v8_certificate_sha256: str
+    source_v8_decision_sha256: str
+    source_v8_composition_receipt_sha256: str
+    source_v8_complete_corpus_membership_v3_sha256: str
+    v6_common_contract_replay_sha256: str
+    v7_common_contract_replay_sha256: str
+    terminal_gate_result_sha256: str
+    release_decision_sha256: str
+    join_sha256: str
+
+    @field_validator(
+        "source_v8_certificate_sha256",
+        "source_v8_decision_sha256",
+        "source_v8_composition_receipt_sha256",
+        "source_v8_complete_corpus_membership_v3_sha256",
+        "v6_common_contract_replay_sha256",
+        "v7_common_contract_replay_sha256",
+        "terminal_gate_result_sha256",
+        "release_decision_sha256",
+        "join_sha256",
+    )
+    @classmethod
+    def validate_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("condition_composition_terminal_join_sha256_invalid")
+        return value
+
+    @model_validator(mode="after")
+    def validate_join(self) -> ConditionCompositionTerminalJoinV1:
+        payload = self.model_dump(mode="json", exclude={"join_sha256"})
+        if self.join_sha256 != hash_canonical(payload):
+            raise ValueError("condition_composition_terminal_join_hash_mismatch")
+        return self
+
+
+def freeze_condition_composition_terminal_join_v1(
+    *,
+    source_v8: ConditionVerificationCertificateV8,
+    shadow_v6: ConditionVerificationCertificateV6,
+    shadow_v7: FinalConditionVerificationCertificateV7,
+) -> ConditionCompositionTerminalJoinV1:
+    payload: dict[str, Any] = {
+        "join_version": "condition-composition-terminal-join-v1",
+        "source_v8_certificate_sha256": source_v8.certificate_sha256,
+        "source_v8_decision_sha256": source_v8.release_assessment.decision_sha256,
+        "source_v8_composition_receipt_sha256": (
+            source_v8.composition_external_replay_receipt_sha256
+        ),
+        "source_v8_complete_corpus_membership_v3_sha256": (
+            source_v8.complete_corpus_membership_v3_sha256
+        ),
+        "v6_common_contract_replay_sha256": shadow_v6.certificate_sha256,
+        "v7_common_contract_replay_sha256": shadow_v7.certificate_sha256,
+        "terminal_gate_result_sha256": shadow_v7.terminal_gate_result_sha256,
+        "release_decision_sha256": shadow_v7.release_assessment.decision_sha256,
+    }
+    return ConditionCompositionTerminalJoinV1.model_validate(
+        {**payload, "join_sha256": hash_canonical(payload)}
+    )
+
+
+class FinalConditionVerificationCertificateV9(ContractModel):
+    """Terminal held-out join over an immutable receipt-bound condition-v8 source."""
+
+    certificate_version: Literal[
+        "literature-multiverse-condition-verification-v9"
+    ] = "literature-multiverse-condition-verification-v9"
+    run_id: Annotated[str, Field(pattern=r"^verify-condition-v9-[0-9a-f]{16}$")]
+    generated_at: datetime
+    status: Literal["released", "abstained"]
+    reasons: list[str]
+    source_certificate_v8: ConditionVerificationCertificateV8
+    source_v8_certificate_sha256: str
+    v6_common_contract_replay_sha256: str
+    v7_common_contract_replay_sha256: str
+    condition_confirmation_assessment: ConditionConfirmationAssessmentV1
+    condition_confirmation_gate: ConditionConfirmationGateAssessmentV1
+    terminal_gate_result: ConditionTerminalGateResultV2
+    terminal_gate_result_sha256: str
+    adaptive_release_candidate_v2: ProspectiveAdaptiveReleaseCandidateV2
+    adaptive_prospective_assessment_v2: AdaptiveProspectiveAssessmentV2
+    release_assessment: FinalConditionReleaseAssessmentV1
+    composition_terminal_join: ConditionCompositionTerminalJoinV1
+    composition_terminal_join_sha256: str
+    certificate_sha256: str
+    interpretation: Literal[
+        "risk-controlled literature-support decision for a predictive association "
+        "under an externally replayed composed pipeline; not causal proof, scientific "
+        "truth, or domain-shift robustness"
+    ] = (
+        "risk-controlled literature-support decision for a predictive association "
+        "under an externally replayed composed pipeline; not causal proof, scientific "
+        "truth, or domain-shift robustness"
+    )
+
+    @field_validator(
+        "source_v8_certificate_sha256",
+        "v6_common_contract_replay_sha256",
+        "v7_common_contract_replay_sha256",
+        "terminal_gate_result_sha256",
+        "composition_terminal_join_sha256",
+        "certificate_sha256",
+    )
+    @classmethod
+    def validate_hash(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("condition_v9_sha256_invalid")
+        return value
+
+    @field_validator("reasons")
+    @classmethod
+    def validate_reasons(cls, value: list[str]) -> list[str]:
+        if value != sorted(set(value)) or any(not item for item in value):
+            raise ValueError("condition_v9_reasons_invalid")
+        return value
+
+    @model_validator(mode="after")
+    def validate_certificate(self) -> FinalConditionVerificationCertificateV9:
+        try:
+            source = ConditionVerificationCertificateV8.model_validate(
+                self.source_certificate_v8.model_dump(mode="json")
+            )
+            shadow_v6 = _condition_v8_shadow_v6(source)
+            shadow_v7 = freeze_final_condition_verification_certificate_v7(
+                generated_at=self.generated_at,
+                source_certificate=shadow_v6,
+                condition_confirmation_assessment=(
+                    self.condition_confirmation_assessment
+                ),
+            )
+            join = freeze_condition_composition_terminal_join_v1(
+                source_v8=source,
+                shadow_v6=shadow_v6,
+                shadow_v7=shadow_v7,
+            )
+        except (AttributeError, ValueError) as exc:
+            raise ValueError("condition_v9_external_replay_failed") from exc
+        if self.generated_at < source.generated_at:
+            raise ValueError("condition_v9_generated_at_precedes_source_v8")
+        aliases: tuple[tuple[str, Any, Any], ...] = (
+            (
+                "source_v8_certificate_sha256",
+                self.source_v8_certificate_sha256,
+                source.certificate_sha256,
+            ),
+            (
+                "v6_common_contract_replay_sha256",
+                self.v6_common_contract_replay_sha256,
+                shadow_v6.certificate_sha256,
+            ),
+            (
+                "v7_common_contract_replay_sha256",
+                self.v7_common_contract_replay_sha256,
+                shadow_v7.certificate_sha256,
+            ),
+            (
+                "condition_confirmation_gate",
+                self.condition_confirmation_gate,
+                shadow_v7.condition_confirmation_gate,
+            ),
+            (
+                "terminal_gate_result",
+                self.terminal_gate_result,
+                shadow_v7.terminal_gate_result,
+            ),
+            (
+                "terminal_gate_result_sha256",
+                self.terminal_gate_result_sha256,
+                shadow_v7.terminal_gate_result_sha256,
+            ),
+            (
+                "adaptive_release_candidate_v2",
+                self.adaptive_release_candidate_v2,
+                shadow_v7.adaptive_release_candidate_v2,
+            ),
+            (
+                "adaptive_prospective_assessment_v2",
+                self.adaptive_prospective_assessment_v2,
+                shadow_v7.adaptive_prospective_assessment_v2,
+            ),
+            (
+                "release_assessment",
+                self.release_assessment,
+                shadow_v7.release_assessment,
+            ),
+            ("status", self.status, shadow_v7.status),
+            ("reasons", self.reasons, shadow_v7.reasons),
+            ("composition_terminal_join", self.composition_terminal_join, join),
+            (
+                "composition_terminal_join_sha256",
+                self.composition_terminal_join_sha256,
+                join.join_sha256,
+            ),
+        )
+        for field, observed, expected in aliases:
+            if observed != expected:
+                raise ValueError(f"condition_v9_{field}_alias_mismatch")
+        run_identity = hash_canonical(
+            {
+                "source_v8_certificate_sha256": source.certificate_sha256,
+                "v7_common_contract_replay_sha256": shadow_v7.certificate_sha256,
+                "composition_terminal_join_sha256": join.join_sha256,
+            }
+        )
+        if self.run_id != f"verify-condition-v9-{run_identity[:16]}":
+            raise ValueError("condition_v9_run_identity_mismatch")
+        payload = self.model_dump(mode="json", exclude={"certificate_sha256"})
+        if self.certificate_sha256 != hash_canonical(payload):
+            raise ValueError("condition_v9_certificate_hash_mismatch")
+        return self
+
+
+def freeze_final_condition_verification_certificate_v9(
+    *,
+    generated_at: datetime,
+    source_certificate: ConditionVerificationCertificateV8,
+    condition_confirmation_assessment: ConditionConfirmationAssessmentV1,
+) -> FinalConditionVerificationCertificateV9:
+    """Open one terminal outcome only after receipt-bound v8 is immutable."""
+
+    source = ConditionVerificationCertificateV8.model_validate(
+        source_certificate.model_dump(mode="json")
+    )
+    shadow_v6 = _condition_v8_shadow_v6(source)
+    shadow_v7 = freeze_final_condition_verification_certificate_v7(
+        generated_at=generated_at,
+        source_certificate=shadow_v6,
+        condition_confirmation_assessment=condition_confirmation_assessment,
+    )
+    join = freeze_condition_composition_terminal_join_v1(
+        source_v8=source,
+        shadow_v6=shadow_v6,
+        shadow_v7=shadow_v7,
+    )
+    payload: dict[str, Any] = {
+        "certificate_version": "literature-multiverse-condition-verification-v9",
+        "generated_at": generated_at.isoformat().replace("+00:00", "Z"),
+        "status": shadow_v7.status,
+        "reasons": shadow_v7.reasons,
+        "source_certificate_v8": source,
+        "source_v8_certificate_sha256": source.certificate_sha256,
+        "v6_common_contract_replay_sha256": shadow_v6.certificate_sha256,
+        "v7_common_contract_replay_sha256": shadow_v7.certificate_sha256,
+        "condition_confirmation_assessment": (
+            shadow_v7.condition_confirmation_assessment
+        ),
+        "condition_confirmation_gate": shadow_v7.condition_confirmation_gate,
+        "terminal_gate_result": shadow_v7.terminal_gate_result,
+        "terminal_gate_result_sha256": shadow_v7.terminal_gate_result_sha256,
+        "adaptive_release_candidate_v2": shadow_v7.adaptive_release_candidate_v2,
+        "adaptive_prospective_assessment_v2": (
+            shadow_v7.adaptive_prospective_assessment_v2
+        ),
+        "release_assessment": shadow_v7.release_assessment,
+        "composition_terminal_join": join,
+        "composition_terminal_join_sha256": join.join_sha256,
+        "interpretation": (
+            "risk-controlled literature-support decision for a predictive association "
+            "under an externally replayed composed pipeline; not causal proof, scientific "
+            "truth, or domain-shift robustness"
+        ),
+    }
+    run_identity = hash_canonical(
+        {
+            "source_v8_certificate_sha256": source.certificate_sha256,
+            "v7_common_contract_replay_sha256": shadow_v7.certificate_sha256,
+            "composition_terminal_join_sha256": join.join_sha256,
+        }
+    )
+    payload["run_id"] = f"verify-condition-v9-{run_identity[:16]}"
+    return FinalConditionVerificationCertificateV9.model_validate(
+        {**payload, "certificate_sha256": hash_canonical(payload)}
+    )
+
+
 def _cell(value: object) -> str:
     if value is None:
         return "—"
@@ -3446,15 +4524,18 @@ def _audit_rows(certificate: VerificationCertificate) -> str:
 
 def _render_condition_certificate_html(
     certificate: ConditionVerificationCertificateV6
-    | FinalConditionVerificationCertificateV7,
+    | ConditionVerificationCertificateV8
+    | FinalConditionVerificationCertificateV7
+    | FinalConditionVerificationCertificateV9,
 ) -> str:
     """Render the v6/v7 condition lineage without opening remote resources."""
 
-    source = (
-        certificate
-        if isinstance(certificate, ConditionVerificationCertificateV6)
-        else certificate.source_certificate_v6
-    )
+    if isinstance(certificate, ConditionVerificationCertificateV6):
+        source = certificate
+    elif isinstance(certificate, FinalConditionVerificationCertificateV9):
+        source = certificate.source_certificate_v8
+    else:
+        source = certificate.source_certificate_v6
     gate = (
         source.condition_confirmation_gate
         if isinstance(certificate, ConditionVerificationCertificateV6)
@@ -3508,7 +4589,8 @@ def _render_condition_certificate_html(
     <tr><th>Plan SHA-256</th><td class="hash">{_cell(source.condition_plan.plan_sha256)}</td></tr>
     <tr><th>Outcome-firewall receipt SHA-256</th><td class="hash">
       {_cell(source.condition_calibration_projection.firewall_receipt_sha256)}</td></tr>
-    <tr><th>Source v6 SHA-256</th><td class="hash">{_cell(source.certificate_sha256)}</td></tr>
+    <tr><th>Source certificate SHA-256</th><td class="hash">
+      {_cell(source.certificate_sha256)}</td></tr>
     <tr><th>Terminal gate-result SHA-256</th><td class="hash">
       {_cell(None if terminal_result is None else terminal_result.result_sha256)}</td></tr>
     <tr><th>Certificate SHA-256</th><td class="hash">
@@ -3524,14 +4606,22 @@ def _render_condition_certificate_html(
 
 def render_certificate_html(
     certificate: VerificationCertificate
+    | VerificationCertificateV8
     | ConditionVerificationCertificateV6
-    | FinalConditionVerificationCertificateV7,
+    | ConditionVerificationCertificateV8
+    | FinalConditionVerificationCertificateV7
+    | FinalConditionVerificationCertificateV9,
 ) -> str:
     """Render a static HTML view containing the complete canonical certificate JSON."""
 
     if isinstance(
         certificate,
-        (ConditionVerificationCertificateV6, FinalConditionVerificationCertificateV7),
+        (
+            ConditionVerificationCertificateV6,
+            ConditionVerificationCertificateV8,
+            FinalConditionVerificationCertificateV7,
+            FinalConditionVerificationCertificateV9,
+        ),
     ):
         return _render_condition_certificate_html(certificate)
 
@@ -3682,8 +4772,11 @@ def render_certificate_html(
 
 def write_certificate_artifacts(
     certificate: VerificationCertificate
+    | VerificationCertificateV8
     | ConditionVerificationCertificateV6
-    | FinalConditionVerificationCertificateV7,
+    | ConditionVerificationCertificateV8
+    | FinalConditionVerificationCertificateV7
+    | FinalConditionVerificationCertificateV9,
     output_dir: Path,
     *,
     force: bool = False,
@@ -3713,21 +4806,29 @@ __all__ = [
     "ConditionCalibrationAssessmentReceiptV1",
     "ConditionCalibrationCollectionDecisionV1",
     "ConditionCalibrationCollectionSourceV1",
+    "ConditionCompositionTerminalJoinV1",
     "ConditionProductionStopDecisionV2",
     "ConditionVerificationCertificateV6",
+    "ConditionVerificationCertificateV8",
     "FinalConditionReleaseAssessmentV1",
     "FinalConditionVerificationCertificateV7",
+    "FinalConditionVerificationCertificateV9",
     "ProductionStopDecision",
     "VerificationCertificate",
+    "VerificationCertificateV8",
     "freeze_condition_calibration_assessment_receipt_v1",
     "freeze_condition_calibration_collection_decision_v1",
     "freeze_condition_calibration_collection_source_v1",
+    "freeze_condition_composition_terminal_join_v1",
     "freeze_condition_production_stop_decision_v2",
     "freeze_condition_verification_certificate_v6",
+    "freeze_condition_verification_certificate_v8",
     "freeze_final_condition_release_assessment_v1",
     "freeze_final_condition_verification_certificate_v7",
+    "freeze_final_condition_verification_certificate_v9",
     "freeze_production_stop_decision",
     "freeze_verification_certificate",
+    "freeze_verification_certificate_v8",
     "match_validated_condition_calibration_collection_source_membership_v1",
     "render_certificate_html",
     "validate_condition_calibration_collection_source_anchor_v1",
