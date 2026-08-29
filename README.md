@@ -5,10 +5,12 @@ directional claim, proposed conditions, a frozen literature corpus, and a human-
 budget, it determines whether that corpus supports, contradicts, qualifies, or cannot evaluate the
 claim. It verifies **literature support under the declared corpus**, not scientific truth.
 
-The terminal verifier is one fail-closed command. Its `--corpus` input is a previously built,
-version-four native typed grounding package; literature acquisition, eligibility screening,
-native extraction, and grounding are independently replayable upstream stages rather than hidden
-work performed by this command:
+The terminal verifier is one fail-closed command with two mutually exclusive evidence inputs. Its
+A release-capable `--corpus` input is a previously built, version-four native typed grounding
+package. Its
+`--acquisition-manifest` input replays an exact frozen local query corpus, deterministic screening,
+and either a complete native-extraction ledger or an already built typed grounding package before
+entering the same verifier. Neither mode silently performs open-ended search or model extraction:
 
 ```bash
 lm verify \
@@ -45,7 +47,9 @@ For a manifest-v3 global condition claim, the verifier first freezes an immutabl
 always-abstained certificate v6. Only the dedicated terminal finalizer may join its exact held-out
 assessment and confirmation-aware v2 calibration lineage to create a distinct final certificate
 v7; same-corpus moderator analysis cannot authorize that transition.
-This is therefore one terminal verification command, not yet one raw-claim-to-literature command.
+This is therefore one terminal evidence-to-certificate command, not a raw-claim-to-open-web
+automation claim. Acquisition mode begins from a frozen manifest and complete extraction
+ledger/package rather than inventing missing search, screening, or extraction results.
 
 The exact fingerprint, sequential-audit, item-risk, native-extraction, human-review, and
 question-benchmark commands are in the
@@ -193,6 +197,54 @@ MetaSyn and Evidence Inference labels were historically opened, so this remains 
 local-model diagnostic rather than confirmatory evidence. See the
 [official-GEPA study](docs/evidence-inference-local-ollama-gepa.md).
 
+A subsequent stronger-model transfer evaluated the same frozen seed and GEPA-selected prompt on
+all 524 questions with `claude-fable-5` and an article-batched interface. The handwritten seed was
+again better: direction accuracy was **0.8359** versus **0.7653**, structured-output reliability
+was **0.8855** versus **0.8092**, and formal exact-grounding reliability was **0.8721** versus
+**0.7958**. Each 20,000-resample paired article-cluster interval for winner minus seed was entirely
+negative. This is an exploratory retrospective cross-model/interface transfer result—not a
+confirmatory GEPA claim—and the engineering choice for this runtime surface remains the seed. The
+run completed all 382
+logical request slots with no retries and $36.218770 in target accounting; its public aggregate
+also exposes arm-specific forced-zero response burden. See the
+[full Fable retrospective](docs/evidence-inference-fable-retrospective-full.md).
+
+A separate two-publication hosted native-numeric yield run exercised the complete public-source
+text -> exact-once provider ledger -> official typed extraction -> grounding package -> `lm verify`
+boundary. After two earlier terminal negative phases, the fresh v5 identity produced one fully
+postvalidated extraction: 20/152 persistent-positive patients in the eradication arm versus
+123/155 under placebo in PMC3104134. PMC2427034 ended in a provider refusal and was retained as a
+non-estimable terminal fragment. The public verifier replayed the complete two-publication source
+membership and correctly abstained because one estimate cannot meet its synthesis minimum, one
+publication is non-estimable, cohort reconciliation and pipeline joining remain incomplete, and no
+complete-question calibration or human audit exists. This is real source-grounded integration
+evidence, not an extraction-accuracy or claim-release result. Exact costs, hashes, and failure
+lineage are in the [hosted native-numeric pilot](docs/hosted-native-numeric-pilot.md).
+
+The frozen-acquisition option closes an executable orchestration gap, but that implementation fact
+is not retrieval-recall, protocol-screening, numerical-extraction, or end-to-end verifier evidence.
+Its version-one screening receipt is explicitly non-authoritative, and its provider-free extraction
+ledger remains analysis-only. The current acquisition contract therefore cannot by itself confer
+release authority. A future release-capable path would need an externally verifiable screening
+contract, a replayable version-four typed grounding package, complete-question calibration, and
+every other release gate.
+
+The checked-in decisive-evaluation readiness artifact at
+`artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json` is still blocked:
+it contains zero development, zero calibration, and zero evaluation complete questions, with
+`real_scored_run_candidate=false`.
+The transactional trajectory compiler and realized-cost/error-frontier evaluator now provide the
+fail-closed bridge needed to run that experiment; they are implementation and replay evidence, not
+evidence that adaptive verification improves release coverage or human efficiency. Real compiler
+inputs now require an exact adjudication replay package for each question: raw reviewer decisions,
+individual timing, resolution and correction files are joined to transaction receipts under a
+hash-bound operator roster and protocol. That registry does not externally prove reviewer identity
+or expertise, and the compiler receipt states this limitation explicitly. The decisive label
+lifecycle now also replays the exact compiler result, source roster/workspaces, and current compiler
+code before a real bundle becomes a candidate and again before opening labels; a bare bundle's
+self-declared `real_expert_adjudicated` value is insufficient. See the
+[decisive frontier contract](docs/decisive-frontiers-v2.md).
+
 A separate staged EvidenceBench diagnostic adds a real 293-question, 284-paper grounding result
 without publishing row data. The development-selected lexical fusion reached all-aspect
 Recall@10 **0.3751 [0.3417, 0.4092]** and Results-aspect Recall@5
@@ -308,6 +360,24 @@ For a reproducible offline replay, replace `--openalex --mailto ...` with
 default and can be disabled explicitly with `--no-fetch-full-text`. `--force` may regenerate the
 derived candidate view and run record, but never replaces a content-addressed raw archive object.
 
+The public verifier also has a single fail-closed acquisition path for a frozen claim run:
+
+```bash
+uv run lm verify \
+  --claim path/to/claim.yaml \
+  --acquisition-manifest path/to/frozen-acquisition.json \
+  --budget-minutes 60 \
+  --analysis-only-uncalibrated-audit \
+  --output-dir artifacts/verification/example
+```
+
+It replays exact frozen queries through the harvester, deterministic screen, native grounding,
+typed evidence loading, and the same graph/synthesis/audit/certificate implementation used by
+`--corpus`. Missing or truncated query membership, unresolved identity, missing full text, and
+missing native extraction all fail before synthesis. See the
+[frozen acquisition verifier](docs/acquisition-verification.md) for its manifest contract and the
+explicit protocol-screening/PDF limitations.
+
 ## Verifier components
 
 The unified verifier assigns separate jobs to separate methods:
@@ -340,10 +410,11 @@ checks, not effectiveness evidence. See the [evidence graph](docs/evidence-graph
 [meta-analysis](docs/meta-analysis.md),
 [budgeted verification](docs/budgeted-verification.md),
 [calibration](docs/calibration.md), [prospective claim release](docs/claim-release.md), the
+[frozen acquisition verifier](docs/acquisition-verification.md), the
 [verifier v2 reproducibility guide](docs/reproducibility-v2.md), the
 [closed-corpus evaluator](docs/closed-corpus-evaluation.md), the
-[Evidence Inference benchmark adapter](docs/evidence-inference-benchmark.md), and the prospective
-[evaluation protocol](docs/paper/neurips26-evaluation-protocol.md) for the scientific contracts.
+[Evidence Inference benchmark adapter](docs/evidence-inference-benchmark.md), and the
+[decisive evaluation frontiers](docs/decisive-frontiers-v2.md) for the scientific contracts.
 
 ## Legacy live-ingestion workflow
 

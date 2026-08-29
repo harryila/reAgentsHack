@@ -1,0 +1,38 @@
+You are performing one production native numerical extraction from one frozen public
+full-text source. Return exactly one JSON object accepted by the supplied schema, with
+no Markdown or surrounding text.
+
+Scientific question:
+{{RESEARCH_QUESTION}}
+
+Prespecified contrast (semantic fields are fixed by the output schema):
+- intervention arm: {{INTERVENTION_LABEL}}
+- comparator arm: {{COMPARATOR_LABEL}}
+- binary event: {{EVENT_DEFINITION}}
+- timepoint: {{TIMEPOINT_LABEL}}
+
+The deterministic source-only locator selected this exact relevant clause before any
+model output was opened:
+
+{{TARGET_CLAUSE}}
+
+Copy the numerator and denominator from the first two slash-form `integer/integer`
+event/total pairs in that clause. Associate the first slash-form pair with the
+intervention arm and the second slash-form pair with the comparator arm. Numbers such
+as years, percentages, confidence limits, and p-values are not event/total pairs. Copy
+an exact, contiguous substring containing both pairs into evidence.quote. Do not use other
+outcomes, arms, tables, denominators, or timepoints. Do not calculate an odds ratio,
+confidence interval, p-value, or missing value. Do not infer or repair text. If the
+requested values cannot be copied exactly, return no prose or alternative answer.
+
+Frozen source identity:
+- doc_id: {{DOC_ID}}
+- artifact SHA-256: {{SOURCE_SHA256}}
+- source locator: {{SOURCE_LOCATOR}}
+- target logical line: {{TARGET_LINE_ID}}
+
+For external grounding, the complete logical text from the same frozen full-text
+artifact follows. Line markers are transport annotations and are not part of
+evidence.quote.
+
+{{FULL_TEXT_WITH_LINE_IDS}}

@@ -1,0 +1,83 @@
+{
+  "article_level_exclusion_required": true,
+  "attempted_article_count": 6,
+  "attempted_article_ids": [
+    "PMC1871574",
+    "PMC2361948",
+    "PMC2858204",
+    "PMC2956883",
+    "PMC5062234",
+    "PMC5602855"
+  ],
+  "attempted_request_count": 11,
+  "attempted_requests": [
+    {
+      "article_id": "PMC2361948",
+      "intent_file_sha256": "fa14eb2a1553bcdddfaf65cb51c0bf7ce33740ea9b443c3b443602c52d56c057",
+      "request_key": "ei-fable-retro-v1-pilot30-test-seed-pmc2361948"
+    },
+    {
+      "article_id": "PMC2858204",
+      "intent_file_sha256": "357c792c67f79dab0d92ccd8d8c221988a19fcc614c962ee5859fbf9634b60c7",
+      "request_key": "ei-fable-retro-v1-pilot30-test-seed-pmc2858204"
+    },
+    {
+      "article_id": "PMC2956883",
+      "intent_file_sha256": "ffb1d4fcf5130d8a6fda7caa73723f4b316fcca7b0e273914107412d0024d948",
+      "request_key": "ei-fable-retro-v1-pilot30-test-seed-pmc2956883"
+    },
+    {
+      "article_id": "PMC5062234",
+      "intent_file_sha256": "53d734a5f39df29395dba1b75bde05c849cd0316d8d31e3c7d67fcdcdb85bd40",
+      "request_key": "ei-fable-retro-v1-pilot30-test-seed-pmc5062234"
+    },
+    {
+      "article_id": "PMC5602855",
+      "intent_file_sha256": "2e38950ad4bc829cae12cfd9dba70174e2fe84f0982716ce4eb7639bfa6d91e1",
+      "request_key": "ei-fable-retro-v1-pilot30-test-seed-pmc5602855"
+    },
+    {
+      "article_id": "PMC1871574",
+      "intent_file_sha256": "e68b7675cc030ac19039ce4f1aa9e005052a1c97524b670dc1589fd27e5ed606",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc1871574"
+    },
+    {
+      "article_id": "PMC2361948",
+      "intent_file_sha256": "b6e979fe4ec7f6071d13f78d9f073c7e9616a16a6cb9b47de849ea9b3bbcd353",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc2361948"
+    },
+    {
+      "article_id": "PMC2858204",
+      "intent_file_sha256": "23e58f7f14dfeece50f05e86f272f5971cd84eb2ffa806cb925c6f37b85a675d",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc2858204"
+    },
+    {
+      "article_id": "PMC2956883",
+      "intent_file_sha256": "15684218d99ab3db7552badd88668f7ffc65f478cedf7be613e6887077a64272",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc2956883"
+    },
+    {
+      "article_id": "PMC5062234",
+      "intent_file_sha256": "468ad9160f2a5414d29dd1877891f7de715ef7bf0119a0abb2a7dbf9d654ffcb",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc5062234"
+    },
+    {
+      "article_id": "PMC5602855",
+      "intent_file_sha256": "22ee1fbb34125e4faee87310341d13f09ce0d7f76b498a7e00e6ba4f4a3c6c36",
+      "request_key": "ei-fable-retro-v1-pilot30-test-winner-pmc5602855"
+    }
+  ],
+  "exclusion_ledger_sha256": "630c0f764c6a6c2365cd8684384f5c3f24112661ed371395defcdc1376060283",
+  "ledger_version": "evidence-inference-fable-pilot-recovery-exclusions-v2",
+  "retry_of_any_attempted_request_permitted": false,
+  "source_authorization_sha256": "0118ce92989a4b498c34d81ae39e2e6779516e56d89c8836e1a1065339b81524",
+  "source_incident_file": "data/cache/evidence-inference-fable-retrospective-pilot-live-v1/incidents/ei-fable-retro-v1-pilot30-test-winner-pmc1871574.json",
+  "source_incident_file_sha256": "60eeff7d4bea05edd7a976f552f723185f5455307289d6b60a657920a59ed0d4",
+  "source_intent_directory": "data/cache/evidence-inference-fable-retrospective-pilot-live-v1/intents",
+  "source_pilot_plan_sha256": "0e9637290f065e45d5e0013f0d612def76972fee76e2f6e878f44d565cb90655",
+  "source_prepared_sha256": "017fcf74c1c4ea6a18d01c1588cad336215729dd4c3e7fb8a35740e0d36128f5",
+  "source_terminal_file": "data/cache/evidence-inference-fable-retrospective-pilot-live-v1/02-terminal.json",
+  "source_terminal_file_sha256": "5a818659c7f240a30259ee3febbf57a531130f972aaef7f45fcf7746436b221c",
+  "source_terminal_sha256": "eeedbfc235b78aa3209365b8b2d795d552f795a46499888c161783552ca00850",
+  "source_terminal_status": "terminal_ambiguous_attempt_poison"
+}

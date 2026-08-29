@@ -1,0 +1,15 @@
+{
+  "application_retries_per_request": 0,
+  "claim_release_authority": false,
+  "confirmatory_claim_authority": false,
+  "failed_request_locked_question_score": "all_incorrect_intention_to_evaluate",
+  "mechanics_only_no_inferential_authority": true,
+  "mode": "pilot30_recovery_v2_paired",
+  "policy_sha256": "ed2e505212c82475f444ee6e3a1753d7d716910c9bd960438b22a61f49864a94",
+  "policy_version": "evidence-inference-fable-pilot-recovery-execution-policy-v2",
+  "provider_exception_semantics": "cost_bearing_terminal_failed_request",
+  "remaining_never_attempted_requests_continue": true,
+  "retry_of_failed_or_ambiguous_attempt_permitted": false,
+  "sdk_retries_per_request": 0,
+  "transport_attempts_per_request": 1
+}

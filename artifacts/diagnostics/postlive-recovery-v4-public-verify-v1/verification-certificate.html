@@ -1,0 +1,3669 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verification certificate — verify-a76aa9fbd836d16e</title>
+  <style>
+    :root { color-scheme: light dark; --ok:#0b6b42; --stop:#9b2c2c; --line:#8b8b8b55; }
+    body { font-family: ui-sans-serif, system-ui, sans-serif; line-height:1.45; margin:0 auto;
+            max-width:1200px; padding:2rem; }
+    .banner { border-left:.55rem solid var(--stop); padding:1rem 1.2rem; background:#9b2c2c12; }
+    .banner.released { border-color:var(--ok); background:#0b6b4212; }
+    h1,h2 { line-height:1.15; } h2 { margin-top:2rem; }
+    table { width:100%; border-collapse:collapse; font-size:.9rem; }
+    th,td { border:1px solid var(--line); padding:.5rem; text-align:left; vertical-align:top; }
+    th { background:#80808014; }
+    code,pre { font-family:ui-monospace, SFMono-Regular, monospace; }
+    pre { overflow:auto; max-height:42rem; border:1px solid var(--line); padding:1rem; }
+    .hash { overflow-wrap:anywhere; } .muted { opacity:.75; }
+  </style>
+</head>
+<body>
+  <div class="banner abstained">
+    <h1>ABSTAINED</h1>
+    <p><strong>In patients with primary or secondary myelofibrosis, fedratinib 500-mg versus placebo increases primary-endpoint spleen response at week 24.</strong></p>
+    <p>This decision verifies support in the declared literature corpus; it is not a claim of
+       scientific truth.</p>
+  </div>
+
+  <h2>Decision</h2>
+  <ul><li>adapter:complete_corpus_not_available</li><li>adapter:post_hoc_source_span_repair</li><li>adapter:source_v4_terminal_failed_closed</li><li>adapter:title_or_abstract_only_not_release_grade</li><li>adapter:uncalibrated_sequential_audit_analysis_only</li><li>adapter:unverified_source_provenance</li><li>audit:active_audit_action_unresolved</li><li>audit:unresolved_error_probabilities_not_calibrated</li><li>audit:unresolved_items_missing_calibrated_cell_rate_ucl</li><li>calibration:frozen_calibration_bundle_absent</li><li>evidence:not_evaluable:fewer_than_two_nonzero_cohort_signs</li></ul>
+  <table>
+    <tr><th>Certificate contract</th><td>literature-multiverse-verification-v5</td></tr>
+    <tr><th>Evidence classification</th><td>not_evaluable</td></tr>
+    <tr><th>Synthesis mode</th><td>insufficient</td></tr>
+    <tr><th>Papers synthesized</th><td>0</td></tr>
+    <tr><th>Audit budget / spent</th><td>5 /
+      0
+      person_minutes</td></tr>
+    <tr><th>Calibration</th><td>not_run —
+      frozen_calibration_bundle_absent</td></tr>
+    <tr><th>Adaptive simultaneous upper reference-loss bound</th><td>
+      —</td></tr>
+    <tr><th>Corpus provenance</th><td>unverified_source_provenance —
+      The verification_corpus_bundle_json input was not source-replayed through the native grounding-package boundary; analysis is allowed but release is blocked.</td></tr>
+    <tr><th>Provenance release-eligible</th><td>
+      no</td></tr>
+    <tr><th>Production stopping rule</th><td>stop_at_first_full_frozen_release_eligible_state</td></tr>
+    <tr><th>Preselection decision</th><td>selected_next_action;
+      full release-eligible: no</td></tr>
+    <tr><th>Action opened by this run</th><td>
+      estimate-7d0d387e23f2b8849ee2</td></tr>
+    <tr><th>Stop-decision SHA-256</th><td class="hash">
+      1d633bf8de6bda4969a89ff57754ff05e33ed463eb7fda43aa9dfcddb759626e</td></tr>
+    <tr><th>Complete-corpus membership SHA-256</th><td class="hash">
+      22770bdc4e4071c99bebb4da2d11d92e768bfdd9fc7eaa94aa147fe5355f4176</td></tr>
+    <tr><th>Item-risk scoring receipt SHA-256</th><td class="hash">
+      —</td></tr>
+    <tr><th>Adaptive bundle SHA-256</th><td class="hash">
+      —</td></tr>
+    <tr><th>Adaptive prospective assessment SHA-256</th><td class="hash">
+      —</td></tr>
+  </table>
+
+  <h2>Corpus eligibility</h2>
+  <table><thead><tr><th>Paper</th><th>Title</th><th>Status</th><th>Reason</th></tr></thead>
+    <tbody><tr><td>metasyn-corpus:20</td><td>Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.</td><td>included</td><td>Only publication present in the bounded diagnostic graph.</td></tr></tbody></table>
+
+  <h2>Evidence graph</h2>
+  <table><thead><tr><th>Estimate</th><th>Paper</th><th>Outcome</th><th>Value</th>
+    <th>Format</th><th>Source</th><th>Grounding</th></tr></thead>
+    <tbody><tr><td>estimate-7d0d387e23f2b8849ee2</td><td>metasyn-corpus:20</td><td>spleen response</td><td>—</td><td>odds_ratio</td><td>parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20</td><td>The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).</td></tr></tbody></table>
+
+  <h2>Ranked verification actions</h2>
+  <table><thead><tr><th>Rank</th><th>Evidence item</th><th>Selected</th><th>Resolved</th>
+    <th>Influence</th><th>Expected loss reduction / minute</th></tr></thead>
+    <tbody><tr><td>1</td><td>estimate-7d0d387e23f2b8849ee2</td><td>yes</td><td>no</td><td>0.000000</td><td>0.000000</td></tr></tbody></table>
+
+  <h2>Integrity</h2>
+  <p class="hash"><strong>Certificate SHA-256:</strong> 445abe9068e4472f4ab13d0de56e695e39ac90dee5c5f35fc316d4fd2d5991cc</p>
+  <p class="hash"><strong>Graph SHA-256:</strong> 28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7</p>
+  <p class="hash"><strong>Synthesis SHA-256:</strong> 80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c</p>
+
+  <details><summary><strong>Complete normative JSON payload</strong></summary>
+    <pre>{
+  &quot;adapter_issues&quot;: [
+    {
+      &quot;code&quot;: &quot;complete_corpus_not_available&quot;,
+      &quot;detail&quot;: &quot;The supplied graph contains one title/abstract publication and does not represent a protocol-complete or retrieval-saturated corpus.&quot;,
+      &quot;finding_id&quot;: null,
+      &quot;paper_id&quot;: null,
+      &quot;severity&quot;: &quot;blocking&quot;
+    },
+    {
+      &quot;code&quot;: &quot;uncalibrated_sequential_audit_analysis_only&quot;,
+      &quot;detail&quot;: &quot;This sequential audit was explicitly created without a frozen adaptive calibration commitment and can never become a release trajectory.&quot;,
+      &quot;finding_id&quot;: null,
+      &quot;paper_id&quot;: null,
+      &quot;severity&quot;: &quot;blocking&quot;
+    },
+    {
+      &quot;code&quot;: &quot;unverified_source_provenance&quot;,
+      &quot;detail&quot;: &quot;The verification_corpus_bundle_json input was not source-replayed through the native grounding-package boundary; analysis is allowed but release is blocked.&quot;,
+      &quot;finding_id&quot;: null,
+      &quot;paper_id&quot;: null,
+      &quot;severity&quot;: &quot;blocking&quot;
+    },
+    {
+      &quot;code&quot;: &quot;post_hoc_source_span_repair&quot;,
+      &quot;detail&quot;: &quot;The typed graph depends on a deterministic post-hoc source-span repair; this licenses mechanics inspection only.&quot;,
+      &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+      &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+      &quot;severity&quot;: &quot;blocking&quot;
+    },
+    {
+      &quot;code&quot;: &quot;source_v4_terminal_failed_closed&quot;,
+      &quot;detail&quot;: &quot;The original recovery-v4 runtime terminal failed contextual validation; the offline repair does not rewrite that terminal outcome.&quot;,
+      &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+      &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+      &quot;severity&quot;: &quot;blocking&quot;
+    },
+    {
+      &quot;code&quot;: &quot;title_or_abstract_only_not_release_grade&quot;,
+      &quot;detail&quot;: &quot;Evidence is grounded only in title/abstract source spans and is not release-grade full-text evidence.&quot;,
+      &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+      &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+      &quot;severity&quot;: &quot;blocking&quot;
+    }
+  ],
+  &quot;adaptive_calibration_bundle&quot;: null,
+  &quot;adaptive_policy_context&quot;: null,
+  &quot;adaptive_prospective_assessment&quot;: null,
+  &quot;adaptive_release_candidate&quot;: null,
+  &quot;audit_candidates&quot;: [
+    {
+      &quot;baseline_contribution&quot;: 0.0,
+      &quot;baseline_decision&quot;: false,
+      &quot;baseline_decision_score&quot;: 0.5,
+      &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+      &quot;counterfactual_contribution&quot;: 0.0,
+      &quot;counterfactual_decision&quot;: false,
+      &quot;counterfactual_decision_score&quot;: 0.5,
+      &quot;decision_score_source&quot;: &quot;frequentist_directional_evidence_score_not_truth_probability&quot;,
+      &quot;disagreement_score&quot;: 0.5,
+      &quot;error_probability&quot;: 0.5,
+      &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+      &quot;probability_basis&quot;: &quot;heuristic&quot;,
+      &quot;probability_source&quot;: &quot;uncalibrated-posthoc-diagnostic-only&quot;,
+      &quot;scenario_kind&quot;: &quot;leave_one_out&quot;,
+      &quot;scenario_source&quot;: &quot;actual_evidence_graph_leave_one_out_synthesis_rerun;sensitivity_scenario_not_oracle_correction&quot;,
+      &quot;verification_cost&quot;: 3.0
+    }
+  ],
+  &quot;certificate_sha256&quot;: &quot;445abe9068e4472f4ab13d0de56e695e39ac90dee5c5f35fc316d4fd2d5991cc&quot;,
+  &quot;certificate_version&quot;: &quot;literature-multiverse-verification-v5&quot;,
+  &quot;claim_manifest&quot;: {
+    &quot;audit&quot;: {
+      &quot;decision_threshold&quot;: 0.5,
+      &quot;error_probability&quot;: 0.5,
+      &quot;item_error_probabilities&quot;: {},
+      &quot;item_verification_minutes&quot;: {},
+      &quot;probability_basis&quot;: &quot;heuristic&quot;,
+      &quot;probability_source&quot;: &quot;uncalibrated-posthoc-diagnostic-only&quot;,
+      &quot;verification_minutes_per_item&quot;: 3.0
+    },
+    &quot;audit_guard&quot;: {
+      &quot;block_counterfactual_conclusion_flips&quot;: true,
+      &quot;max_unresolved_expected_claim_loss&quot;: 0.05,
+      &quot;max_unresolved_item_cell_ucl_sum&quot;: 0.05,
+      &quot;max_unresolved_item_influence&quot;: 0.05,
+      &quot;require_calibrated_item_scores&quot;: true,
+      &quot;require_item_cell_rate_ucls&quot;: true
+    },
+    &quot;claim&quot;: {
+      &quot;conditions&quot;: {},
+      &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+      &quot;direction&quot;: &quot;increase&quot;,
+      &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+      &quot;outcome_name&quot;: &quot;spleen response&quot;,
+      &quot;statement&quot;: &quot;In patients with primary or secondary myelofibrosis, fedratinib 500-mg versus placebo increases primary-endpoint spleen response at week 24.&quot;
+    },
+    &quot;claim_manifest_version&quot;: &quot;1&quot;,
+    &quot;domain&quot;: &quot;oncology&quot;,
+    &quot;global_condition_target&quot;: null,
+    &quot;legacy_adapter&quot;: {
+      &quot;comparator_label&quot;: &quot;comparator&quot;,
+      &quot;contrast_label&quot;: &quot;intervention_vs_comparator&quot;,
+      &quot;positive_direction_means&quot;: &quot;higher outcome under the intervention&quot;,
+      &quot;treatment_label&quot;: &quot;intervention&quot;
+    },
+    &quot;pipeline_sha256&quot;: null,
+    &quot;population_id&quot;: &quot;primary-or-secondary-myelofibrosis&quot;,
+    &quot;protocol&quot;: {
+      &quot;corpus_cutoff&quot;: &quot;diagnostic-metasyn-row17-candidate3-source-id20-title-abstract-snapshot&quot;,
+      &quot;exclusion_criteria&quot;: [],
+      &quot;inclusion_criteria&quot;: [
+        &quot;Patients with primary or secondary myelofibrosis&quot;,
+        &quot;Fedratinib 500-mg compared with placebo&quot;,
+        &quot;Primary-endpoint spleen response measured at week 24&quot;
+      ],
+      &quot;notes&quot;: &quot;Incomplete one-publication title/abstract diagnostic; not a frozen protocol-complete literature corpus.&quot;
+    },
+    &quot;qualified_target&quot;: null,
+    &quot;question_id&quot;: &quot;metasyn-row17-fedratinib-500mg-spleen-week24&quot;,
+    &quot;release&quot;: {
+      &quot;assumed_within_cohort_correlation&quot;: 1.0,
+      &quot;audit_allocation_policy&quot;: &quot;risk_x_influence_per_cost&quot;,
+      &quot;audit_seed&quot;: 0,
+      &quot;condition_confirmation_min_brier_improvement&quot;: 0.0,
+      &quot;condition_familywise_alpha&quot;: 0.05,
+      &quot;condition_min_cohorts_per_level&quot;: 2,
+      &quot;confidence_level&quot;: 0.95,
+      &quot;config_version&quot;: &quot;claim-release-v2&quot;,
+      &quot;prespecified_condition_moderators&quot;: [],
+      &quot;require_explicit_timepoint&quot;: true,
+      &quot;require_prediction_interval_stability&quot;: true
+    }
+  },
+  &quot;claim_manifest_sha256&quot;: &quot;0151e07cbba5e0cacf830d07e1e8772fb4b6b2be9a20cedf4949d23baa47eeae&quot;,
+  &quot;complete_corpus_identity&quot;: {
+    &quot;corpus_cutoff&quot;: &quot;diagnostic-metasyn-row17-candidate3-source-id20-title-abstract-snapshot&quot;,
+    &quot;corpus_id&quot;: &quot;metasyn-row17-fedratinib-500mg-spleen-week24-diagnostic&quot;,
+    &quot;corpus_source_sha256&quot;: &quot;d02790e32deb5bcbd0f5c22730b001752218002bedd5533dcc991de5a524c984&quot;,
+    &quot;identity_version&quot;: &quot;complete-corpus-membership-v1&quot;,
+    &quot;membership_basis&quot;: &quot;frozen_corpus_publications&quot;,
+    &quot;membership_sha256&quot;: &quot;22770bdc4e4071c99bebb4da2d11d92e768bfdd9fc7eaa94aa147fe5355f4176&quot;,
+    &quot;publication_ids&quot;: [
+      &quot;metasyn-publication:20&quot;
+    ],
+    &quot;source_manifest_sha256&quot;: null
+  },
+  &quot;corpus&quot;: {
+    &quot;corpus_id&quot;: &quot;metasyn-row17-fedratinib-500mg-spleen-week24-diagnostic&quot;,
+    &quot;declared_corpus_cutoff&quot;: &quot;diagnostic-metasyn-row17-candidate3-source-id20-title-abstract-snapshot&quot;,
+    &quot;eligibility&quot;: [
+      {
+        &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+        &quot;reason&quot;: &quot;Only publication present in the bounded diagnostic graph.&quot;,
+        &quot;source&quot;: &quot;postlive-recovery-v4-join-v1&quot;,
+        &quot;status&quot;: &quot;included&quot;,
+        &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+      }
+    ],
+    &quot;eligibility_counts&quot;: {
+      &quot;excluded&quot;: 0,
+      &quot;included&quot;: 1,
+      &quot;pending&quot;: 0
+    },
+    &quot;graph_counts&quot;: {
+      &quot;cohorts&quot;: 1,
+      &quot;estimates&quot;: 1,
+      &quot;publications&quot;: 1,
+      &quot;studies&quot;: 1
+    },
+    &quot;metadata&quot;: {
+      &quot;claim_release_authority&quot;: false,
+      &quot;declared_complete_corpus&quot;: false,
+      &quot;diagnostic_version&quot;: &quot;postlive-recovery-v4-public-verify-preparation-v1&quot;,
+      &quot;empirical_evidence_authority&quot;: false,
+      &quot;purpose&quot;: &quot;public_lm_verify_fail_closed_integration&quot;,
+      &quot;source_join_blockers&quot;: [
+        &quot;calibration_not_performed&quot;,
+        &quot;complete_corpus_not_available&quot;,
+        &quot;extraction_accuracy_not_evaluated&quot;,
+        &quot;human_adjudication_absent&quot;,
+        &quot;human_verification_cost_unmeasured&quot;,
+        &quot;item_error_probability_not_calibrated&quot;,
+        &quot;post_hoc_source_span_repair&quot;,
+        &quot;post_hoc_syntactic_canonicalization&quot;,
+        &quot;provider_execution_not_attested_by_contextual_grounding_v3&quot;,
+        &quot;release_risk_bound_unavailable&quot;,
+        &quot;same_graph_condition_analysis_not_confirmatory&quot;,
+        &quot;single_publication_mechanics_only&quot;,
+        &quot;source_v4_terminal_failed_closed&quot;,
+        &quot;title_or_abstract_only_not_release_grade&quot;
+      ],
+      &quot;source_lineage&quot;: {
+        &quot;canonicalization_pipeline_sha256&quot;: &quot;f686c439db2d322e7413554281cf68a7de982358d559246c989b6437bee6d3df&quot;,
+        &quot;evidence_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;join_artifact_file_sha256&quot;: &quot;8f644665108c7138e02495f7bbb8aa351351bd22f0b877f202a5361f6aa56613&quot;,
+        &quot;join_artifact_sha256&quot;: &quot;3fe8ecfa97fc654aadc6375f4050b98f342a5b3801a2c1e8094c6064e239e458&quot;,
+        &quot;join_external_replay_sha256&quot;: &quot;971ac67a15b1319c85de6892b969c5bf20e5d0572c807faa99eb43758c7d3271&quot;,
+        &quot;posthoc_artifact_file_sha256&quot;: &quot;4a347c5ae9040a9a018c9369543b68598bdf16f380e35e544f217b28c99b81d6&quot;,
+        &quot;posthoc_artifact_sha256&quot;: &quot;413db91f705bbfb6d8d10aebeb13cb5fc6b5caf2709c558b8d1010f9ca113625&quot;,
+        &quot;posthoc_external_replay_sha256&quot;: &quot;4f753237467cdcb6ad50016e9c99c61a9b4d657742fde6937903ada809dfe51a&quot;,
+        &quot;recovery_witness_identity&quot;: &quot;metasyn-row17-candidate3&quot;,
+        &quot;release_authorizing&quot;: false,
+        &quot;repair_change_membership_sha256&quot;: &quot;dba88f9c03181b1a0fefe45a511173f673711c5527e8a4bf5d8a9c0571a6b505&quot;,
+        &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+        &quot;source_record_identity&quot;: &quot;metasyn-source-id20&quot;,
+        &quot;source_scope&quot;: &quot;single_title_abstract_publication_incomplete_corpus&quot;,
+        &quot;v4_terminal_file_sha256&quot;: &quot;e9a87352f85b9aafa826abdc59ccc575dfe818f1adf5040d94b1111a01d47d3f&quot;,
+        &quot;v4_terminal_sha256&quot;: &quot;9c1bd812915afd5527585c389559f6716f868c02bbd8be1faf360cf8de158986&quot;
+      },
+      &quot;source_lineage_sha256&quot;: &quot;268eb8ec712d4af1683bf607ff1e33f9cb6aaf1b6b91f343bae5297c07a571bd&quot;
+    },
+    &quot;pipeline_identity_basis&quot;: &quot;computed_and_self_verified_at_run_start&quot;,
+    &quot;provenance_assurance&quot;: {
+      &quot;assurance_version&quot;: &quot;corpus-provenance-assurance-v1&quot;,
+      &quot;reason&quot;: &quot;The verification_corpus_bundle_json input was not source-replayed through the native grounding-package boundary; analysis is allowed but release is blocked.&quot;,
+      &quot;release_eligible&quot;: false,
+      &quot;replay_sha256&quot;: null,
+      &quot;status&quot;: &quot;unverified_source_provenance&quot;
+    },
+    &quot;source_format&quot;: &quot;verification_corpus_bundle_json&quot;,
+    &quot;source_label&quot;: &quot;data/cache/metasyn/postlive-recovery-v4-public-verify-v1/corpus-bundle.json&quot;,
+    &quot;source_sha256&quot;: &quot;d02790e32deb5bcbd0f5c22730b001752218002bedd5533dcc991de5a524c984&quot;
+  },
+  &quot;corpus_sha256&quot;: &quot;d02790e32deb5bcbd0f5c22730b001752218002bedd5533dcc991de5a524c984&quot;,
+  &quot;counterfactual_reruns&quot;: [
+    {
+      &quot;baseline_decision&quot;: {
+        &quot;classification&quot;: &quot;not_evaluable&quot;,
+        &quot;decision_margin&quot;: null,
+        &quot;decision_score&quot;: 0.5,
+        &quot;mode&quot;: &quot;insufficient&quot;,
+        &quot;reason&quot;: &quot;synthesis_insufficient&quot;,
+        &quot;supported&quot;: false,
+        &quot;target_direction&quot;: &quot;increase&quot;
+      },
+      &quot;baseline_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+      &quot;counterfactual_decision&quot;: {
+        &quot;classification&quot;: &quot;not_evaluable&quot;,
+        &quot;decision_margin&quot;: null,
+        &quot;decision_score&quot;: 0.5,
+        &quot;mode&quot;: &quot;evidence_graph_contract&quot;,
+        &quot;reason&quot;: &quot;no_matching_estimates&quot;,
+        &quot;supported&quot;: false,
+        &quot;target_direction&quot;: &quot;increase&quot;
+      },
+      &quot;counterfactual_synthesis&quot;: {
+        &quot;condition_analysis&quot;: null,
+        &quot;directional_fallback&quot;: null,
+        &quot;evidence_graph&quot;: {
+          &quot;excluded_estimate_ids&quot;: [
+            &quot;estimate-7d0d387e23f2b8849ee2&quot;
+          ],
+          &quot;graph_schema_version&quot;: &quot;1&quot;,
+          &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+          &quot;risk_features&quot;: {
+            &quot;feature_schema_version&quot;: &quot;1&quot;,
+            &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+            &quot;fraction_missing_source_quote&quot;: 0.0,
+            &quot;fraction_non_estimable&quot;: 0.0,
+            &quot;fraction_risk_of_bias_not_assessed&quot;: 0.0,
+            &quot;fraction_timepoint_not_reported&quot;: 0.0,
+            &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+            &quot;n_cohorts&quot;: 0,
+            &quot;n_estimates&quot;: 0,
+            &quot;n_publications&quot;: 0
+          },
+          &quot;selected_cohort_count&quot;: 0,
+          &quot;selected_cohort_ids&quot;: [],
+          &quot;selected_estimate_ids&quot;: [],
+          &quot;selection_reason&quot;: &quot;no_matching_estimates&quot;,
+          &quot;selection_status&quot;: &quot;insufficient&quot;,
+          &quot;warnings&quot;: []
+        },
+        &quot;mode&quot;: &quot;evidence_graph_contract&quot;,
+        &quot;quantitative&quot;: null,
+        &quot;reason&quot;: &quot;no_matching_estimates&quot;,
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+      &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+      &quot;scenario&quot;: &quot;leave_one_out_actual_synthesis_rerun&quot;
+    }
+  ],
+  &quot;evidence_graph&quot;: {
+    &quot;arms&quot;: [
+      {
+        &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;description&quot;: null,
+        &quot;label&quot;: &quot;500-mg&quot;,
+        &quot;role&quot;: &quot;intervention&quot;,
+        &quot;sample_size&quot;: 97
+      },
+      {
+        &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;description&quot;: null,
+        &quot;label&quot;: &quot;placebo group&quot;,
+        &quot;role&quot;: &quot;comparator&quot;,
+        &quot;sample_size&quot;: 96
+      }
+    ],
+    &quot;cohorts&quot;: [
+      {
+        &quot;identity&quot;: {
+          &quot;basis&quot;: &quot;reported_registry_id&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;dataset_ids&quot;: [],
+          &quot;rationale&quot;: null,
+          &quot;registry_ids&quot;: [
+            &quot;NCT01437787&quot;
+          ],
+          &quot;source_labels&quot;: [
+            &quot;NCT01437787&quot;
+          ]
+        },
+        &quot;population_description&quot;: null,
+        &quot;recruitment_period&quot;: null,
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+        &quot;total_sample_size&quot;: null
+      }
+    ],
+    &quot;contrasts&quot;: [
+      {
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+        &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+        &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+        &quot;label&quot;: &quot;vs&quot;,
+        &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+        &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+      }
+    ],
+    &quot;evidence_spans&quot;: [
+      {
+        &quot;char_end&quot;: 1586,
+        &quot;char_start&quot;: 1361,
+        &quot;line_ids&quot;: [
+          &quot;L6&quot;
+        ],
+        &quot;page&quot;: null,
+        &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+        &quot;roles&quot;: [
+          &quot;numerical_result&quot;
+        ],
+        &quot;section&quot;: &quot;Abstract&quot;,
+        &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+        &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+      }
+    ],
+    &quot;graph_schema_version&quot;: &quot;1&quot;,
+    &quot;outcome_estimates&quot;: [
+      {
+        &quot;analysis_population&quot;: null,
+        &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+        &quot;effect&quot;: {
+          &quot;availability&quot;: &quot;available&quot;,
+          &quot;ci_level&quot;: 0.95,
+          &quot;ci_lower&quot;: null,
+          &quot;ci_upper&quot;: null,
+          &quot;contrast&quot;: &quot;vs&quot;,
+          &quot;control_events&quot;: 1,
+          &quot;control_mean&quot;: null,
+          &quot;control_n&quot;: null,
+          &quot;control_sd&quot;: null,
+          &quot;control_total&quot;: 96,
+          &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+          &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+          &quot;equivalence_margin&quot;: null,
+          &quot;estimate&quot;: null,
+          &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+          &quot;moderators&quot;: {},
+          &quot;outcome&quot;: &quot;spleen response&quot;,
+          &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;provenance&quot;: {
+            &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+            &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+            &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+          },
+          &quot;reported_p_value&quot;: null,
+          &quot;reported_significance&quot;: &quot;not_reported&quot;,
+          &quot;standard_error&quot;: null,
+          &quot;treatment_events&quot;: 39,
+          &quot;treatment_mean&quot;: null,
+          &quot;treatment_n&quot;: null,
+          &quot;treatment_sd&quot;: null,
+          &quot;treatment_total&quot;: 97,
+          &quot;unit&quot;: null,
+          &quot;variance&quot;: null
+        },
+        &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;evidence_span_ids&quot;: [
+          &quot;span-a38f5bbb3ed30d9b6a76&quot;
+        ],
+        &quot;legacy_effect_size_raw&quot;: null,
+        &quot;legacy_reported_direction&quot;: null,
+        &quot;outcome_name&quot;: &quot;spleen response&quot;,
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;timepoint&quot;: {
+          &quot;anchor&quot;: &quot;week&quot;,
+          &quot;kind&quot;: &quot;exact&quot;,
+          &quot;lower&quot;: null,
+          &quot;raw_label&quot;: &quot;week 24&quot;,
+          &quot;unit&quot;: &quot;week&quot;,
+          &quot;upper&quot;: null,
+          &quot;value&quot;: 24.0
+        }
+      }
+    ],
+    &quot;publications&quot;: [
+      {
+        &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+        &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+        &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+        &quot;pmid&quot;: &quot;26181658&quot;,
+        &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;publication_year&quot;: 2015,
+        &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+      }
+    ],
+    &quot;studies&quot;: [
+      {
+        &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+        &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;publication_ids&quot;: [
+          &quot;metasyn-publication:20&quot;
+        ],
+        &quot;registration_ids&quot;: [
+          &quot;NCT01437787&quot;
+        ],
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+      }
+    ]
+  },
+  &quot;evidence_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+  &quot;generated_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+  &quot;interpretation&quot;: &quot;literature-support verification under the declared corpus; not scientific truth&quot;,
+  &quot;item_risk_scoring_receipt&quot;: null,
+  &quot;lineage&quot;: [
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;expected_pipeline&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;
+      },
+      &quot;method&quot;: &quot;recomputed-explicit-file-and-settings-fingerprint&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;pipeline_verification&quot;: &quot;69ad5a41b0be353efcb4be42743a2ee77aca4d934efc6cefe2ab0d6221dc4122&quot;
+      },
+      &quot;stage&quot;: &quot;pipeline_identity_verification&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;claim_manifest&quot;: &quot;0151e07cbba5e0cacf830d07e1e8772fb4b6b2be9a20cedf4949d23baa47eeae&quot;,
+        &quot;corpus_source&quot;: &quot;d02790e32deb5bcbd0f5c22730b001752218002bedd5533dcc991de5a524c984&quot;
+      },
+      &quot;method&quot;: &quot;verification_corpus_bundle_json:closed-corpus-adapter&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;source_evidence_graph&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;
+      },
+      &quot;stage&quot;: &quot;corpus_to_evidence_graph&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;source_evidence_graph&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;
+      },
+      &quot;method&quot;: &quot;hash-chained-sequential-audit-correction-replay-v1&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;audit_correction_receipts&quot;: &quot;4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945&quot;,
+        &quot;audit_transition_ledger&quot;: &quot;b415a7a78ff72e18226bd7b9501c5105b56de4166026a389846dfdd6661311d6&quot;,
+        &quot;evidence_graph&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;sequential_audit_state&quot;: &quot;0d722024ba717d4752c398fea5b3bf472572386aee8a4de88bab4e313a9fec9b&quot;
+      },
+      &quot;stage&quot;: &quot;audit_correction_replay&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;evidence_graph&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;
+      },
+      &quot;method&quot;: &quot;insufficient&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;synthesis&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+      },
+      &quot;stage&quot;: &quot;evidence_graph_to_synthesis&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;evidence_graph&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;synthesis&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+      },
+      &quot;method&quot;: &quot;actual-leave-one-out-synthesis-reruns&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;audit_candidates&quot;: &quot;ba4f279dd4cd1dff43664a66c8bb20d907558a4709125271787242c1c278909c&quot;,
+        &quot;counterfactual_reruns&quot;: &quot;bf1941e915dacb2d84224677123a9ee3eb639aeaa97f343f16bb0cd62c23445f&quot;
+      },
+      &quot;stage&quot;: &quot;counterfactual_verification_priority&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;audit_candidates&quot;: &quot;ba4f279dd4cd1dff43664a66c8bb20d907558a4709125271787242c1c278909c&quot;,
+        &quot;pipeline_verification&quot;: &quot;69ad5a41b0be353efcb4be42743a2ee77aca4d934efc6cefe2ab0d6221dc4122&quot;
+      },
+      &quot;method&quot;: &quot;not-supplied&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;item_risk_scoring_receipt&quot;: &quot;74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b&quot;
+      },
+      &quot;stage&quot;: &quot;item_risk_scoring&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;adaptive_calibration_bundle&quot;: &quot;74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b&quot;,
+        &quot;adaptive_policy_context&quot;: &quot;74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b&quot;,
+        &quot;adaptive_release_candidate&quot;: &quot;74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b&quot;,
+        &quot;complete_corpus_identity&quot;: &quot;22770bdc4e4071c99bebb4da2d11d92e768bfdd9fc7eaa94aa147fe5355f4176&quot;
+      },
+      &quot;method&quot;: &quot;not-supplied&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;adaptive_prospective_assessment&quot;: &quot;74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b&quot;
+      },
+      &quot;stage&quot;: &quot;adaptive_first_release_calibration&quot;
+    },
+    {
+      &quot;input_sha256s&quot;: {
+        &quot;release_inputs&quot;: &quot;aafdf85b5996d63315ba6d69677e6da5e20d3a22d75ec030425510c85b130dcb&quot;
+      },
+      &quot;method&quot;: &quot;prospective-claim-release-v2&quot;,
+      &quot;output_sha256s&quot;: {
+        &quot;release_decision&quot;: &quot;27793e54ce04b3e6ae9fc19d3fb0dc344953e294645611a9aed86d348fa2263d&quot;
+      },
+      &quot;stage&quot;: &quot;risk_controlled_release&quot;
+    }
+  ],
+  &quot;pipeline_verification&quot;: {
+    &quot;computed&quot;: {
+      &quot;components&quot;: [
+        {
+          &quot;component_id&quot;: &quot;native-extraction&quot;,
+          &quot;component_sha256&quot;: &quot;859c297834ca26e4cf62ba8f1c9e085f0f1c8961670bd81ecefda4c83bb55cde&quot;,
+          &quot;component_version&quot;: &quot;10&quot;,
+          &quot;files&quot;: [
+            {
+              &quot;bytes&quot;: 1704,
+              &quot;path&quot;: &quot;configs/benchmarks/native-antiox-bounded-v1.json&quot;,
+              &quot;sha256&quot;: &quot;26a86e5800ee8d727be3f374619fedd1c3e5c27be75d9a18973655c1b8b6344e&quot;
+            },
+            {
+              &quot;bytes&quot;: 1930,
+              &quot;path&quot;: &quot;prompts/native_candidate_inventory.md&quot;,
+              &quot;sha256&quot;: &quot;3d0f153182d2d12b7a29583305b3a488b09cf883b122286cee6bf63656485cfb&quot;
+            },
+            {
+              &quot;bytes&quot;: 3177,
+              &quot;path&quot;: &quot;prompts/native_candidate_packet.md&quot;,
+              &quot;sha256&quot;: &quot;8aeb09f72be021a8988dc8d9d4e10fc0c3ea39e14e14f4c25756aaf4bb0a4ed3&quot;
+            },
+            {
+              &quot;bytes&quot;: 5562,
+              &quot;path&quot;: &quot;prompts/native_extraction.md&quot;,
+              &quot;sha256&quot;: &quot;dfa93f9ad696b597c3e506d12bc7ae6e0425147a8c97b6a244b7330e560b0b3f&quot;
+            },
+            {
+              &quot;bytes&quot;: 8488,
+              &quot;path&quot;: &quot;scripts/build_native_source_manifest.py&quot;,
+              &quot;sha256&quot;: &quot;0d05815118eb4973294f39a24e44e8d7123872490097f56173b7b47238f68eec&quot;
+            },
+            {
+              &quot;bytes&quot;: 8231,
+              &quot;path&quot;: &quot;scripts/build_typed_evidence_corpus.py&quot;,
+              &quot;sha256&quot;: &quot;4ce37c2c165d2b6fb3914035746562595dfff63ff1c8d27ce2768e938bbc204d&quot;
+            },
+            {
+              &quot;bytes&quot;: 8846,
+              &quot;path&quot;: &quot;scripts/reconcile_native_cohorts.py&quot;,
+              &quot;sha256&quot;: &quot;58b2801640bca969d2dc4dfe58600cb02a77f06d63d2c86863bc6241f307ce05&quot;
+            },
+            {
+              &quot;bytes&quot;: 14417,
+              &quot;path&quot;: &quot;scripts/run_native_bounded_ollama_diagnostic.py&quot;,
+              &quot;sha256&quot;: &quot;ead378dcb5308df449eb968c55e037449ab6824317c1527780b25ae61563a024&quot;
+            },
+            {
+              &quot;bytes&quot;: 9779,
+              &quot;path&quot;: &quot;scripts/run_native_ollama_diagnostic.py&quot;,
+              &quot;sha256&quot;: &quot;3823a109a52c1eef8efcea6be5e9d7199a641b00997b5549374b4a83cd7be19a&quot;
+            },
+            {
+              &quot;bytes&quot;: 22240,
+              &quot;path&quot;: &quot;scripts/s3_extract_typed.py&quot;,
+              &quot;sha256&quot;: &quot;7a3d2af47b7c403835393e9970cbf4c660e308012b659717a23ce274fbdf8e33&quot;
+            },
+            {
+              &quot;bytes&quot;: 48630,
+              &quot;path&quot;: &quot;src/literature_multiverse/cohort_reconciliation.py&quot;,
+              &quot;sha256&quot;: &quot;e858d861bd004c92a84572b2f6b9b6bcd28097e1cd2c2b868ba6ddd7564dced4&quot;
+            },
+            {
+              &quot;bytes&quot;: 26174,
+              &quot;path&quot;: &quot;src/literature_multiverse/extract.py&quot;,
+              &quot;sha256&quot;: &quot;f464c1d2995405102b28f6c667eba2f66e4d5737620c2ea48c602bc95d83590b&quot;
+            },
+            {
+              &quot;bytes&quot;: 17438,
+              &quot;path&quot;: &quot;src/literature_multiverse/grounding.py&quot;,
+              &quot;sha256&quot;: &quot;68ce9a12772cc1cdb4b45ed4d258241b1c1b87fa5ce3a3ea2a91cef1df50b053&quot;
+            },
+            {
+              &quot;bytes&quot;: 7397,
+              &quot;path&quot;: &quot;src/literature_multiverse/live.py&quot;,
+              &quot;sha256&quot;: &quot;737a5e3663b47ce74d10569e3243acd7dd8cfe6b5ca694c4cf2c672d299875d6&quot;
+            },
+            {
+              &quot;bytes&quot;: 10932,
+              &quot;path&quot;: &quot;src/literature_multiverse/local_ollama.py&quot;,
+              &quot;sha256&quot;: &quot;dcef2961c8ff79c3feb813c9797b2f911ea6577b10c5bbd0d8dc3f07f92c900f&quot;
+            },
+            {
+              &quot;bytes&quot;: 52912,
+              &quot;path&quot;: &quot;src/literature_multiverse/metasyn_benchmark.py&quot;,
+              &quot;sha256&quot;: &quot;03ad774148551387bb644448a750e36215825fbfb6b84b50cc89d6f782d62977&quot;
+            },
+            {
+              &quot;bytes&quot;: 32521,
+              &quot;path&quot;: &quot;src/literature_multiverse/metasyn_retrieval.py&quot;,
+              &quot;sha256&quot;: &quot;0765ad1e628049a6ce7214207b822e6ee7dff20df0456571db4cd010844dd895&quot;
+            },
+            {
+              &quot;bytes&quot;: 60779,
+              &quot;path&quot;: &quot;src/literature_multiverse/native_bounded_generation.py&quot;,
+              &quot;sha256&quot;: &quot;b05d69f8eb6394088d368a75ba277bed4fb58b2a55c8da9c2396b236968e2951&quot;
+            },
+            {
+              &quot;bytes&quot;: 168972,
+              &quot;path&quot;: &quot;src/literature_multiverse/native_bounded_ollama_diagnostic.py&quot;,
+              &quot;sha256&quot;: &quot;f0cbfc14f92cea7b8652cc9d9e7b9f7b8b23a692f88ff7761e10ce424a55c2d6&quot;
+            },
+            {
+              &quot;bytes&quot;: 23858,
+              &quot;path&quot;: &quot;src/literature_multiverse/native_extraction.py&quot;,
+              &quot;sha256&quot;: &quot;5a93f78c16c7e2340d56922eb2d10c5a560cb00833a03667e4a0b813e450f763&quot;
+            },
+            {
+              &quot;bytes&quot;: 95103,
+              &quot;path&quot;: &quot;src/literature_multiverse/native_grounding.py&quot;,
+              &quot;sha256&quot;: &quot;faca00b05a3c9b76e9c5b15c347ed89c113bda4be17764f85454fe766fa9d7fb&quot;
+            },
+            {
+              &quot;bytes&quot;: 130064,
+              &quot;path&quot;: &quot;src/literature_multiverse/native_ollama_diagnostic.py&quot;,
+              &quot;sha256&quot;: &quot;dfa9ee59dfc2155a326e87865b2e85c3e9e794c09b1f16d84f96a249a643efe0&quot;
+            },
+            {
+              &quot;bytes&quot;: 39480,
+              &quot;path&quot;: &quot;src/literature_multiverse/normalize.py&quot;,
+              &quot;sha256&quot;: &quot;1b0ff8abd9395f51ab4c9064ecc99a5a646378e6f7427650463d3c5a1fa18cdd&quot;
+            },
+            {
+              &quot;bytes&quot;: 11508,
+              &quot;path&quot;: &quot;src/literature_multiverse/paperclip_cli.py&quot;,
+              &quot;sha256&quot;: &quot;1fb1c64ae8e3a86f40f02690e5e8a4fbee4276e2048bfe38dda8356d01e91ff3&quot;
+            },
+            {
+              &quot;bytes&quot;: 2072,
+              &quot;path&quot;: &quot;src/literature_multiverse/prompting.py&quot;,
+              &quot;sha256&quot;: &quot;1decd4cf7a6a3bb3569b8c069e2b21a99b248449e2af07cd3ce51343c20823b9&quot;
+            },
+            {
+              &quot;bytes&quot;: 36767,
+              &quot;path&quot;: &quot;src/literature_multiverse/source_manifest_bridge.py&quot;,
+              &quot;sha256&quot;: &quot;004b1c13be81290b5ab9420b941897c0299861c38ed47eceaffadccb2cf3e846&quot;
+            },
+            {
+              &quot;bytes&quot;: 20929,
+              &quot;path&quot;: &quot;src/literature_multiverse/typed_extraction.py&quot;,
+              &quot;sha256&quot;: &quot;98cb8088a41c56527c81f52876a19065fbd30fe78fc83cf80dd72eb9f24cece8&quot;
+            }
+          ],
+          &quot;fingerprint_version&quot;: &quot;pipeline-component-v1&quot;,
+          &quot;settings&quot;: {
+            &quot;bounded_exact_source_projection_quote_grounding_required&quot;: true,
+            &quot;bounded_generation_contract&quot;: &quot;native-bounded-two-stage-generation-v1&quot;,
+            &quot;bounded_pre_call_intent_required&quot;: true,
+            &quot;bounded_whole_publication_assembly&quot;: &quot;all_or_nothing&quot;,
+            &quot;complete_source_manifest_and_corpus_cutoff_required&quot;: true,
+            &quot;contract&quot;: &quot;publication-fragment-v3&quot;,
+            &quot;cross_publication_reconciliation_receipt_required&quot;: true,
+            &quot;estimable_requires_exact_grounding_receipt&quot;: true,
+            &quot;exact_extraction_execution_context_required&quot;: true,
+            &quot;free_text_identity_auto_merge&quot;: false,
+            &quot;grounding_package_contract&quot;: &quot;typed-evidence-grounding-package-v4&quot;,
+            &quot;in_repository_dependency_closure_bound&quot;: true,
+            &quot;native_extraction_entry_points&quot;: [
+              &quot;scripts/run_native_bounded_ollama_diagnostic.py&quot;,
+              &quot;scripts/run_native_ollama_diagnostic.py&quot;,
+              &quot;scripts/s3_extract_typed.py&quot;
+            ]
+          }
+        },
+        {
+          &quot;component_id&quot;: &quot;runtime-contract&quot;,
+          &quot;component_sha256&quot;: &quot;0462702cda7a504ef8f60c17b2e1623da9bd82128df4cf1f9cfcca5a381aefac&quot;,
+          &quot;component_version&quot;: &quot;3&quot;,
+          &quot;files&quot;: [
+            {
+              &quot;bytes&quot;: 1317,
+              &quot;path&quot;: &quot;pyproject.toml&quot;,
+              &quot;sha256&quot;: &quot;7267bd5a16b047accd8c88a7cf518bd4d29bcd960c4873c02d7a8955a5eb4038&quot;
+            },
+            {
+              &quot;bytes&quot;: 781,
+              &quot;path&quot;: &quot;src/literature_multiverse/__init__.py&quot;,
+              &quot;sha256&quot;: &quot;089c5a067b4de7db0cc05592c1af0fb8e7f8a50f4bde8978ca2263c5aa237fe9&quot;
+            },
+            {
+              &quot;bytes&quot;: 21005,
+              &quot;path&quot;: &quot;src/literature_multiverse/config.py&quot;,
+              &quot;sha256&quot;: &quot;bde2793dd95869679306a2ce7e91dd744f4bdbd09e3b9e00ce914406be4923a0&quot;
+            },
+            {
+              &quot;bytes&quot;: 13790,
+              &quot;path&quot;: &quot;src/literature_multiverse/lineage.py&quot;,
+              &quot;sha256&quot;: &quot;83fccc66eb398ab9e60cd67d871d459dfbf00ce8000c4e4646d54ec775abf758&quot;
+            },
+            {
+              &quot;bytes&quot;: 38880,
+              &quot;path&quot;: &quot;src/literature_multiverse/models.py&quot;,
+              &quot;sha256&quot;: &quot;2e5ea86361821fd623bf7a6a74f8a1c38dcec2aae47509d44653af6dd28d53d8&quot;
+            },
+            {
+              &quot;bytes&quot;: 5234,
+              &quot;path&quot;: &quot;src/literature_multiverse/paths.py&quot;,
+              &quot;sha256&quot;: &quot;649a003a642f402134407e985778c413d656fece0baf75d5769d9101cffdd2ff&quot;
+            },
+            {
+              &quot;bytes&quot;: 1214,
+              &quot;path&quot;: &quot;src/literature_multiverse/records.py&quot;,
+              &quot;sha256&quot;: &quot;8040ea4fb25a55131ff48be2daa2a7ab144a8bd15ebe11e6a2e3f263fea6225d&quot;
+            },
+            {
+              &quot;bytes&quot;: 6320,
+              &quot;path&quot;: &quot;src/literature_multiverse/schemas.py&quot;,
+              &quot;sha256&quot;: &quot;1ccf8d6221c95eb7a7d2d63be04cde28e5027dc62d2db7977844c74468687cb9&quot;
+            },
+            {
+              &quot;bytes&quot;: 181024,
+              &quot;path&quot;: &quot;uv.lock&quot;,
+              &quot;sha256&quot;: &quot;9b0f5d57a39190849476bb981ed90287981d0df64ae080759fb0142018f4ae5a&quot;
+            }
+          ],
+          &quot;fingerprint_version&quot;: &quot;pipeline-component-v1&quot;,
+          &quot;settings&quot;: {
+            &quot;dependency_lock_bound&quot;: true,
+            &quot;installed_dependency_versions&quot;: {
+              &quot;PyYAML&quot;: &quot;6.0.3&quot;,
+              &quot;jsonschema&quot;: &quot;4.26.0&quot;,
+              &quot;numpy&quot;: &quot;2.5.2&quot;,
+              &quot;pandas&quot;: &quot;2.3.3&quot;,
+              &quot;pyarrow&quot;: &quot;24.0.0&quot;,
+              &quot;pydantic&quot;: &quot;2.13.4&quot;,
+              &quot;scikit-learn&quot;: &quot;1.9.0&quot;,
+              &quot;scipy&quot;: &quot;1.18.0&quot;
+            },
+            &quot;platform_machine&quot;: &quot;arm64&quot;,
+            &quot;platform_system&quot;: &quot;Darwin&quot;,
+            &quot;python_implementation&quot;: &quot;CPython&quot;,
+            &quot;python_version&quot;: &quot;3.12.11&quot;,
+            &quot;shared_contract_helpers_bound&quot;: true
+          }
+        },
+        {
+          &quot;component_id&quot;: &quot;scientific-synthesis&quot;,
+          &quot;component_sha256&quot;: &quot;26482d39b37f128cf70d3c81fa4a1862494c8f2b7713d6edea8cab9a31ca8bb0&quot;,
+          &quot;component_version&quot;: &quot;3&quot;,
+          &quot;files&quot;: [
+            {
+              &quot;bytes&quot;: 28374,
+              &quot;path&quot;: &quot;scripts/confirm_condition_dependence.py&quot;,
+              &quot;sha256&quot;: &quot;e31455c1c1f4cfcb47586e598f2defb8cbfd8b15624550dd7cd458635d59c1ae&quot;
+            },
+            {
+              &quot;bytes&quot;: 32677,
+              &quot;path&quot;: &quot;src/literature_multiverse/claim_semantics.py&quot;,
+              &quot;sha256&quot;: &quot;4692ef41b3b0fe93e11b4b0d4d442c51146660f9a72236a1d798b820def85607&quot;
+            },
+            {
+              &quot;bytes&quot;: 144552,
+              &quot;path&quot;: &quot;src/literature_multiverse/condition_confirmation.py&quot;,
+              &quot;sha256&quot;: &quot;24212e0dc4bfffc8d6b0013fbca204cb4b2c7169bb8a770f2275a253d5fb2250&quot;
+            },
+            {
+              &quot;bytes&quot;: 29241,
+              &quot;path&quot;: &quot;src/literature_multiverse/effects.py&quot;,
+              &quot;sha256&quot;: &quot;945ea1ee9486846199810bc961c6bc89403de15a158bc8e7fd96725fa751a91a&quot;
+            },
+            {
+              &quot;bytes&quot;: 40595,
+              &quot;path&quot;: &quot;src/literature_multiverse/evidence_graph.py&quot;,
+              &quot;sha256&quot;: &quot;06647c85da20b3b7879fd1fbb78be43a8aee757805fe650632f30a56199242ff&quot;
+            },
+            {
+              &quot;bytes&quot;: 30600,
+              &quot;path&quot;: &quot;src/literature_multiverse/independence_identity.py&quot;,
+              &quot;sha256&quot;: &quot;7817cd934e2ecb04ae648ded50fbedf1563a014645ab792fe4fdb9bfadf41d91&quot;
+            },
+            {
+              &quot;bytes&quot;: 88424,
+              &quot;path&quot;: &quot;src/literature_multiverse/meta_analysis.py&quot;,
+              &quot;sha256&quot;: &quot;a293e11e24f791367ddc46a9d03e97dbd64621ec0c195c6b3f65ec4e7a4e25d5&quot;
+            }
+          ],
+          &quot;fingerprint_version&quot;: &quot;pipeline-component-v1&quot;,
+          &quot;settings&quot;: {
+            &quot;cohort_unit&quot;: &quot;explicit&quot;,
+            &quot;global_condition_dependence&quot;: &quot;prespecified-development-fit-plus-heldout-confirmation&quot;,
+            &quot;heldout_confirmation_unit&quot;: &quot;authority-linked-independence-component&quot;,
+            &quot;qualified_claims&quot;: true,
+            &quot;same_corpus_moderator_analysis&quot;: &quot;exploratory_only&quot;
+          }
+        },
+        {
+          &quot;component_id&quot;: &quot;verification-release&quot;,
+          &quot;component_sha256&quot;: &quot;13da07845311ab00338ceb6fcdb9bc67391924685c1e8ffacbea86f3699e9e87&quot;,
+          &quot;component_version&quot;: &quot;9&quot;,
+          &quot;files&quot;: [
+            {
+              &quot;bytes&quot;: 3505,
+              &quot;path&quot;: &quot;scripts/build_condition_calibration_trajectory.py&quot;,
+              &quot;sha256&quot;: &quot;31f61410fb52c8cc8dc81918b8238965ba893b1afa6d0dab8c855f4196a06e18&quot;
+            },
+            {
+              &quot;bytes&quot;: 2273,
+              &quot;path&quot;: &quot;scripts/build_question_replay_state.py&quot;,
+              &quot;sha256&quot;: &quot;68dc6d705ca49a66db1f795abad9c28b7768f76bd97da37babb162db91fadb06&quot;
+            },
+            {
+              &quot;bytes&quot;: 36023,
+              &quot;path&quot;: &quot;scripts/calibrate_adaptive_release.py&quot;,
+              &quot;sha256&quot;: &quot;35752ec570c238275c42ebed4d8cb517f78d0982b76e0a184d649e49d78c68eb&quot;
+            },
+            {
+              &quot;bytes&quot;: 22562,
+              &quot;path&quot;: &quot;scripts/calibrate_item_risk.py&quot;,
+              &quot;sha256&quot;: &quot;7f762fc4838989f12b17698ebf1d23590cf27341239e9cf83017c74877e3fa23&quot;
+            },
+            {
+              &quot;bytes&quot;: 4161,
+              &quot;path&quot;: &quot;scripts/evaluate_question_benchmark.py&quot;,
+              &quot;sha256&quot;: &quot;84fbc614e12d85045a77d789ff0a8d8967c0d711b64d3bdbe3619523994d589e&quot;
+            },
+            {
+              &quot;bytes&quot;: 302349,
+              &quot;path&quot;: &quot;src/literature_multiverse/adaptive_calibration.py&quot;,
+              &quot;sha256&quot;: &quot;3c593d5cbf62038ece970b2b3794124db25d61561b5de8a57ef1dcd56ccfeebe&quot;
+            },
+            {
+              &quot;bytes&quot;: 53123,
+              &quot;path&quot;: &quot;src/literature_multiverse/audit_session.py&quot;,
+              &quot;sha256&quot;: &quot;fc334db8f273c23160acc422bba61a5443967c00c1cb7b5532042dca2eca83ce&quot;
+            },
+            {
+              &quot;bytes&quot;: 37518,
+              &quot;path&quot;: &quot;src/literature_multiverse/budgeted_verification.py&quot;,
+              &quot;sha256&quot;: &quot;e35ae8d5f9c721b0c8c950977de820c6e95f810c39accab3da8d315ca74f6845&quot;
+            },
+            {
+              &quot;bytes&quot;: 44343,
+              &quot;path&quot;: &quot;src/literature_multiverse/calibration.py&quot;,
+              &quot;sha256&quot;: &quot;1e36f405709045fb2db98b91f8b98084d8b1492f3890d0d3d4a5a20f037d5934&quot;
+            },
+            {
+              &quot;bytes&quot;: 174858,
+              &quot;path&quot;: &quot;src/literature_multiverse/certificate.py&quot;,
+              &quot;sha256&quot;: &quot;3c45aeb99cd92f8211e95f76d724572717b64e1bb92aeb017ec70a362acb92f8&quot;
+            },
+            {
+              &quot;bytes&quot;: 116311,
+              &quot;path&quot;: &quot;src/literature_multiverse/claim_release.py&quot;,
+              &quot;sha256&quot;: &quot;4d7b3df1bc0cd460bcb874d17b608c3f4dac1219233b9bc6237d12486f742e13&quot;
+            },
+            {
+              &quot;bytes&quot;: 48568,
+              &quot;path&quot;: &quot;src/literature_multiverse/cli.py&quot;,
+              &quot;sha256&quot;: &quot;a9e3bca223feb2fdf6165bf2a7ea3f39c41b5ae92cc3a57d36384fb087688539&quot;
+            },
+            {
+              &quot;bytes&quot;: 15127,
+              &quot;path&quot;: &quot;src/literature_multiverse/condition_trajectory_builder.py&quot;,
+              &quot;sha256&quot;: &quot;35fda41e0be231111fd35d690ecf10b3273b50c20c08fa94a1aa3fbadf3aa954&quot;
+            },
+            {
+              &quot;bytes&quot;: 18449,
+              &quot;path&quot;: &quot;src/literature_multiverse/item_risk_artifacts.py&quot;,
+              &quot;sha256&quot;: &quot;ac0041d3590845045f4b74984e22113385801dbab91bdb6bb621e309faa2034a&quot;
+            },
+            {
+              &quot;bytes&quot;: 50581,
+              &quot;path&quot;: &quot;src/literature_multiverse/item_risk_calibration.py&quot;,
+              &quot;sha256&quot;: &quot;e15488955a67089f81dc922719a746dec939aa69a2a42edaa8b58a22a848da9c&quot;
+            },
+            {
+              &quot;bytes&quot;: 15909,
+              &quot;path&quot;: &quot;src/literature_multiverse/pipeline_fingerprint.py&quot;,
+              &quot;sha256&quot;: &quot;50d6b1ce3bd2894d6f791d328bd0569bb904decf2bafe14f3c6182d9f974aae4&quot;
+            },
+            {
+              &quot;bytes&quot;: 1491,
+              &quot;path&quot;: &quot;src/literature_multiverse/production_policy.py&quot;,
+              &quot;sha256&quot;: &quot;419427f08457176d1a93067e6acb6a05082cd994ef18ea4788d42645b602e839&quot;
+            },
+            {
+              &quot;bytes&quot;: 111083,
+              &quot;path&quot;: &quot;src/literature_multiverse/question_evaluation.py&quot;,
+              &quot;sha256&quot;: &quot;8a0129666c8414d47796edcddb28f0adace958e2676ae924201307b9313f766c&quot;
+            },
+            {
+              &quot;bytes&quot;: 84862,
+              &quot;path&quot;: &quot;src/literature_multiverse/sequential_verification.py&quot;,
+              &quot;sha256&quot;: &quot;d7a1b3c10b95a4a3a17cb68ca732a2ec73c4e9d06c091dad9acb105034842ebc&quot;
+            },
+            {
+              &quot;bytes&quot;: 252065,
+              &quot;path&quot;: &quot;src/literature_multiverse/verifier.py&quot;,
+              &quot;sha256&quot;: &quot;1701408e897c2ee5bdf7abe46d3bae216b31ff5e74ab22d81b82f4c5a0081e93&quot;
+            }
+          ],
+          &quot;fingerprint_version&quot;: &quot;pipeline-component-v1&quot;,
+          &quot;settings&quot;: {
+            &quot;adaptive_calibration_roster&quot;: &quot;preregistered_label_free_complete_questions&quot;,
+            &quot;adaptive_calibration_unit&quot;: &quot;independent_complete_question_trajectory&quot;,
+            &quot;adaptive_stopping_rule&quot;: &quot;first_full_release_from_prefix_zero&quot;,
+            &quot;audit_cost_unit&quot;: &quot;total_person_minutes&quot;,
+            &quot;certificate_contract&quot;: &quot;legacy-v5-or-prebundle-collection-source-receipt-then-immutable-production-v6-to-final-v7&quot;,
+            &quot;condition_calibration_contract&quot;: &quot;prebundle-collection-source-external-replay-to-receipt-roster-then-confirmation-aware-complete-question-trajectory-v2&quot;,
+            &quot;condition_calibration_outcome_opening&quot;: &quot;frozen-source-roster-membership-before-assessment&quot;,
+            &quot;condition_multi_arm_trajectory_construction&quot;: &quot;independent-single-arm-pass-then-canonical-builder-then-shared-trajectory-pass&quot;,
+            &quot;condition_outcome_firewall&quot;: &quot;development-only-online-policy&quot;,
+            &quot;corrected_item_risk_projection&quot;: &quot;source-receipt-to-unchanged-unresolved-items&quot;,
+            &quot;fixed_state_calibration_scope&quot;: &quot;single_decision_only&quot;,
+            &quot;in_repository_dependency_closure_bound&quot;: true,
+            &quot;item_risk_contract&quot;: &quot;self-contained-scoring-receipt-v2&quot;,
+            &quot;release_contract&quot;: &quot;adaptive-first-release-v5&quot;,
+            &quot;uncalibrated_selection_requires_analysis_opt_in&quot;: true
+          }
+        }
+      ],
+      &quot;fingerprint_version&quot;: &quot;computed-pipeline-v1&quot;,
+      &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;
+    },
+    &quot;computed_pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+    &quot;expected_pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+    &quot;issues&quot;: [],
+    &quot;status&quot;: &quot;matched&quot;,
+    &quot;verification_sha256&quot;: &quot;69ad5a41b0be353efcb4be42743a2ee77aca4d934efc6cefe2ab0d6221dc4122&quot;,
+    &quot;verification_version&quot;: &quot;pipeline-verification-v1&quot;
+  },
+  &quot;production_stop_decision&quot;: {
+    &quot;blocking_adapter_reasons&quot;: [
+      &quot;adapter:complete_corpus_not_available&quot;,
+      &quot;adapter:post_hoc_source_span_repair&quot;,
+      &quot;adapter:source_v4_terminal_failed_closed&quot;,
+      &quot;adapter:title_or_abstract_only_not_release_grade&quot;,
+      &quot;adapter:uncalibrated_sequential_audit_analysis_only&quot;,
+      &quot;adapter:unverified_source_provenance&quot;
+    ],
+    &quot;decision_sha256&quot;: &quot;1d633bf8de6bda4969a89ff57754ff05e33ed463eb7fda43aa9dfcddb759626e&quot;,
+    &quot;decision_version&quot;: &quot;production-stop-decision-v1&quot;,
+    &quot;evaluated_state&quot;: {
+      &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+      &quot;candidates&quot;: [
+        {
+          &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+          &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+          &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+          &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+          &quot;eligible&quot;: true,
+          &quot;estimated_cost&quot;: 3.0,
+          &quot;ineligibility_reasons&quot;: [],
+          &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;priority&quot;: 0.0,
+          &quot;risk_bound_sha256&quot;: null,
+          &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+        }
+      ],
+      &quot;graph&quot;: {
+        &quot;arms&quot;: [
+          {
+            &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;description&quot;: null,
+            &quot;label&quot;: &quot;500-mg&quot;,
+            &quot;role&quot;: &quot;intervention&quot;,
+            &quot;sample_size&quot;: 97
+          },
+          {
+            &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;description&quot;: null,
+            &quot;label&quot;: &quot;placebo group&quot;,
+            &quot;role&quot;: &quot;comparator&quot;,
+            &quot;sample_size&quot;: 96
+          }
+        ],
+        &quot;cohorts&quot;: [
+          {
+            &quot;identity&quot;: {
+              &quot;basis&quot;: &quot;reported_registry_id&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;dataset_ids&quot;: [],
+              &quot;rationale&quot;: null,
+              &quot;registry_ids&quot;: [
+                &quot;NCT01437787&quot;
+              ],
+              &quot;source_labels&quot;: [
+                &quot;NCT01437787&quot;
+              ]
+            },
+            &quot;population_description&quot;: null,
+            &quot;recruitment_period&quot;: null,
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+            &quot;total_sample_size&quot;: null
+          }
+        ],
+        &quot;contrasts&quot;: [
+          {
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+            &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+            &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+            &quot;label&quot;: &quot;vs&quot;,
+            &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+            &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+          }
+        ],
+        &quot;evidence_spans&quot;: [
+          {
+            &quot;char_end&quot;: 1586,
+            &quot;char_start&quot;: 1361,
+            &quot;line_ids&quot;: [
+              &quot;L6&quot;
+            ],
+            &quot;page&quot;: null,
+            &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+            &quot;roles&quot;: [
+              &quot;numerical_result&quot;
+            ],
+            &quot;section&quot;: &quot;Abstract&quot;,
+            &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+            &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+          }
+        ],
+        &quot;graph_schema_version&quot;: &quot;1&quot;,
+        &quot;outcome_estimates&quot;: [
+          {
+            &quot;analysis_population&quot;: null,
+            &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+            &quot;effect&quot;: {
+              &quot;availability&quot;: &quot;available&quot;,
+              &quot;ci_level&quot;: 0.95,
+              &quot;ci_lower&quot;: null,
+              &quot;ci_upper&quot;: null,
+              &quot;contrast&quot;: &quot;vs&quot;,
+              &quot;control_events&quot;: 1,
+              &quot;control_mean&quot;: null,
+              &quot;control_n&quot;: null,
+              &quot;control_sd&quot;: null,
+              &quot;control_total&quot;: 96,
+              &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+              &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+              &quot;equivalence_margin&quot;: null,
+              &quot;estimate&quot;: null,
+              &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+              &quot;moderators&quot;: {},
+              &quot;outcome&quot;: &quot;spleen response&quot;,
+              &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;provenance&quot;: {
+                &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+                &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+                &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+              },
+              &quot;reported_p_value&quot;: null,
+              &quot;reported_significance&quot;: &quot;not_reported&quot;,
+              &quot;standard_error&quot;: null,
+              &quot;treatment_events&quot;: 39,
+              &quot;treatment_mean&quot;: null,
+              &quot;treatment_n&quot;: null,
+              &quot;treatment_sd&quot;: null,
+              &quot;treatment_total&quot;: 97,
+              &quot;unit&quot;: null,
+              &quot;variance&quot;: null
+            },
+            &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;evidence_span_ids&quot;: [
+              &quot;span-a38f5bbb3ed30d9b6a76&quot;
+            ],
+            &quot;legacy_effect_size_raw&quot;: null,
+            &quot;legacy_reported_direction&quot;: null,
+            &quot;outcome_name&quot;: &quot;spleen response&quot;,
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;timepoint&quot;: {
+              &quot;anchor&quot;: &quot;week&quot;,
+              &quot;kind&quot;: &quot;exact&quot;,
+              &quot;lower&quot;: null,
+              &quot;raw_label&quot;: &quot;week 24&quot;,
+              &quot;unit&quot;: &quot;week&quot;,
+              &quot;upper&quot;: null,
+              &quot;value&quot;: 24.0
+            }
+          }
+        ],
+        &quot;publications&quot;: [
+          {
+            &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+            &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;pmid&quot;: &quot;26181658&quot;,
+            &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;publication_year&quot;: 2015,
+            &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+          }
+        ],
+        &quot;studies&quot;: [
+          {
+            &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+            &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;publication_ids&quot;: [
+              &quot;metasyn-publication:20&quot;
+            ],
+            &quot;registration_ids&quot;: [
+              &quot;NCT01437787&quot;
+            ],
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+          }
+        ]
+      },
+      &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+      &quot;initial_candidates&quot;: [
+        {
+          &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+          &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+          &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+          &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+          &quot;eligible&quot;: true,
+          &quot;estimated_cost&quot;: 3.0,
+          &quot;ineligibility_reasons&quot;: [],
+          &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;priority&quot;: 0.0,
+          &quot;risk_bound_sha256&quot;: null,
+          &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+        }
+      ],
+      &quot;initial_graph&quot;: {
+        &quot;arms&quot;: [
+          {
+            &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;description&quot;: null,
+            &quot;label&quot;: &quot;500-mg&quot;,
+            &quot;role&quot;: &quot;intervention&quot;,
+            &quot;sample_size&quot;: 97
+          },
+          {
+            &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;description&quot;: null,
+            &quot;label&quot;: &quot;placebo group&quot;,
+            &quot;role&quot;: &quot;comparator&quot;,
+            &quot;sample_size&quot;: 96
+          }
+        ],
+        &quot;cohorts&quot;: [
+          {
+            &quot;identity&quot;: {
+              &quot;basis&quot;: &quot;reported_registry_id&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;dataset_ids&quot;: [],
+              &quot;rationale&quot;: null,
+              &quot;registry_ids&quot;: [
+                &quot;NCT01437787&quot;
+              ],
+              &quot;source_labels&quot;: [
+                &quot;NCT01437787&quot;
+              ]
+            },
+            &quot;population_description&quot;: null,
+            &quot;recruitment_period&quot;: null,
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+            &quot;total_sample_size&quot;: null
+          }
+        ],
+        &quot;contrasts&quot;: [
+          {
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+            &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+            &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+            &quot;label&quot;: &quot;vs&quot;,
+            &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+            &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+          }
+        ],
+        &quot;evidence_spans&quot;: [
+          {
+            &quot;char_end&quot;: 1586,
+            &quot;char_start&quot;: 1361,
+            &quot;line_ids&quot;: [
+              &quot;L6&quot;
+            ],
+            &quot;page&quot;: null,
+            &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+            &quot;roles&quot;: [
+              &quot;numerical_result&quot;
+            ],
+            &quot;section&quot;: &quot;Abstract&quot;,
+            &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+            &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+          }
+        ],
+        &quot;graph_schema_version&quot;: &quot;1&quot;,
+        &quot;outcome_estimates&quot;: [
+          {
+            &quot;analysis_population&quot;: null,
+            &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+            &quot;effect&quot;: {
+              &quot;availability&quot;: &quot;available&quot;,
+              &quot;ci_level&quot;: 0.95,
+              &quot;ci_lower&quot;: null,
+              &quot;ci_upper&quot;: null,
+              &quot;contrast&quot;: &quot;vs&quot;,
+              &quot;control_events&quot;: 1,
+              &quot;control_mean&quot;: null,
+              &quot;control_n&quot;: null,
+              &quot;control_sd&quot;: null,
+              &quot;control_total&quot;: 96,
+              &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+              &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+              &quot;equivalence_margin&quot;: null,
+              &quot;estimate&quot;: null,
+              &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+              &quot;moderators&quot;: {},
+              &quot;outcome&quot;: &quot;spleen response&quot;,
+              &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;provenance&quot;: {
+                &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+                &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+                &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+              },
+              &quot;reported_p_value&quot;: null,
+              &quot;reported_significance&quot;: &quot;not_reported&quot;,
+              &quot;standard_error&quot;: null,
+              &quot;treatment_events&quot;: 39,
+              &quot;treatment_mean&quot;: null,
+              &quot;treatment_n&quot;: null,
+              &quot;treatment_sd&quot;: null,
+              &quot;treatment_total&quot;: 97,
+              &quot;unit&quot;: null,
+              &quot;variance&quot;: null
+            },
+            &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;evidence_span_ids&quot;: [
+              &quot;span-a38f5bbb3ed30d9b6a76&quot;
+            ],
+            &quot;legacy_effect_size_raw&quot;: null,
+            &quot;legacy_reported_direction&quot;: null,
+            &quot;outcome_name&quot;: &quot;spleen response&quot;,
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;timepoint&quot;: {
+              &quot;anchor&quot;: &quot;week&quot;,
+              &quot;kind&quot;: &quot;exact&quot;,
+              &quot;lower&quot;: null,
+              &quot;raw_label&quot;: &quot;week 24&quot;,
+              &quot;unit&quot;: &quot;week&quot;,
+              &quot;upper&quot;: null,
+              &quot;value&quot;: 24.0
+            }
+          }
+        ],
+        &quot;publications&quot;: [
+          {
+            &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+            &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;pmid&quot;: &quot;26181658&quot;,
+            &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;publication_year&quot;: 2015,
+            &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+          }
+        ],
+        &quot;studies&quot;: [
+          {
+            &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+            &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+            &quot;publication_ids&quot;: [
+              &quot;metasyn-publication:20&quot;
+            ],
+            &quot;registration_ids&quot;: [
+              &quot;NCT01437787&quot;
+            ],
+            &quot;risk_of_bias&quot;: {
+              &quot;assessor&quot;: null,
+              &quot;domains&quot;: [],
+              &quot;overall&quot;: &quot;not_assessed&quot;,
+              &quot;tool&quot;: null
+            },
+            &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+          }
+        ]
+      },
+      &quot;initial_synthesis&quot;: {
+        &quot;condition_analysis&quot;: null,
+        &quot;directional_fallback&quot;: {
+          &quot;cohort_direction_counts&quot;: {
+            &quot;decrease&quot;: 0,
+            &quot;exact_zero&quot;: 0,
+            &quot;increase&quot;: 1,
+            &quot;mixed&quot;: 0,
+            &quot;unavailable&quot;: 0
+          },
+          &quot;cohort_directions&quot;: {
+            &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+          },
+          &quot;contrast&quot;: &quot;vs&quot;,
+          &quot;limitations&quot;: [
+            &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+            &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+            &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+          ],
+          &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_effects_input&quot;: 1,
+          &quot;n_papers&quot;: 1,
+          &quot;n_publications&quot;: 1,
+          &quot;outcome&quot;: &quot;spleen response&quot;,
+          &quot;provenance&quot;: {
+            &quot;cohort-150fc65f0093b4861c9f&quot;: {
+              &quot;finding_ids&quot;: [
+                &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+              ],
+              &quot;paper_ids&quot;: [
+                &quot;metasyn-corpus:20&quot;
+              ],
+              &quot;source_locators&quot;: [
+                &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+              ]
+            }
+          },
+          &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;evidence_graph&quot;: {
+          &quot;excluded_estimate_ids&quot;: [],
+          &quot;graph_schema_version&quot;: &quot;1&quot;,
+          &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+          &quot;risk_features&quot;: {
+            &quot;feature_schema_version&quot;: &quot;1&quot;,
+            &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+            &quot;fraction_missing_source_quote&quot;: 0.0,
+            &quot;fraction_non_estimable&quot;: 0.0,
+            &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+            &quot;fraction_timepoint_not_reported&quot;: 0.0,
+            &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_estimates&quot;: 1,
+            &quot;n_publications&quot;: 1
+          },
+          &quot;selected_cohort_count&quot;: 1,
+          &quot;selected_cohort_ids&quot;: [
+            &quot;cohort-150fc65f0093b4861c9f&quot;
+          ],
+          &quot;selected_estimate_ids&quot;: [
+            &quot;estimate-7d0d387e23f2b8849ee2&quot;
+          ],
+          &quot;selection_reason&quot;: null,
+          &quot;selection_status&quot;: &quot;ready&quot;,
+          &quot;warnings&quot;: [
+            &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+          ]
+        },
+        &quot;mode&quot;: &quot;insufficient&quot;,
+        &quot;quantitative&quot;: {
+          &quot;input_provenance&quot;: {
+            &quot;metasyn-corpus:20&quot;: [
+              {
+                &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+              }
+            ]
+          },
+          &quot;method&quot;: {
+            &quot;assumed_within_cohort_correlation&quot;: 1.0,
+            &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+            &quot;confidence_level&quot;: 0.95,
+            &quot;model&quot;: &quot;random_effects&quot;,
+            &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+            &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+          },
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_effects_input&quot;: 1,
+          &quot;n_papers&quot;: 1,
+          &quot;n_publications&quot;: 1,
+          &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;session&quot;: {
+        &quot;active_action&quot;: null,
+        &quot;active_realized_cost&quot;: 0.0,
+        &quot;budget&quot;: 5.0,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;created_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+        &quot;current_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+        &quot;current_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;current_realized_cost&quot;: 0.0,
+        &quot;current_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+        &quot;final_assessment_sha256&quot;: null,
+        &quot;final_assessment_state_sha256&quot;: null,
+        &quot;final_reason&quot;: null,
+        &quot;finalized_at&quot;: null,
+        &quot;finalized_from_state_sha256&quot;: null,
+        &quot;historical_realized_cost&quot;: 0.0,
+        &quot;initial_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+        &quot;initial_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;initial_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+        &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+        &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+        &quot;previous_session_sha256&quot;: null,
+        &quot;remaining_budget&quot;: 5.0,
+        &quot;resolved_item_ids&quot;: [],
+        &quot;selected_item_ids&quot;: [],
+        &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+        &quot;session_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+        &quot;session_version&quot;: &quot;verification-session-v2&quot;,
+        &quot;state_history_sha256s&quot;: [],
+        &quot;status&quot;: &quot;active&quot;,
+        &quot;steps&quot;: [],
+        &quot;transition_index&quot;: 0
+      },
+      &quot;state_sha256&quot;: &quot;dcf2f26e0f09de94cd0fba38b08374627ab63b574bfd995247aeb4b4f2d890ab&quot;,
+      &quot;state_version&quot;: &quot;sequential-verification-state-v2&quot;,
+      &quot;synthesis&quot;: {
+        &quot;condition_analysis&quot;: null,
+        &quot;directional_fallback&quot;: {
+          &quot;cohort_direction_counts&quot;: {
+            &quot;decrease&quot;: 0,
+            &quot;exact_zero&quot;: 0,
+            &quot;increase&quot;: 1,
+            &quot;mixed&quot;: 0,
+            &quot;unavailable&quot;: 0
+          },
+          &quot;cohort_directions&quot;: {
+            &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+          },
+          &quot;contrast&quot;: &quot;vs&quot;,
+          &quot;limitations&quot;: [
+            &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+            &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+            &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+          ],
+          &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_effects_input&quot;: 1,
+          &quot;n_papers&quot;: 1,
+          &quot;n_publications&quot;: 1,
+          &quot;outcome&quot;: &quot;spleen response&quot;,
+          &quot;provenance&quot;: {
+            &quot;cohort-150fc65f0093b4861c9f&quot;: {
+              &quot;finding_ids&quot;: [
+                &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+              ],
+              &quot;paper_ids&quot;: [
+                &quot;metasyn-corpus:20&quot;
+              ],
+              &quot;source_locators&quot;: [
+                &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+              ]
+            }
+          },
+          &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;evidence_graph&quot;: {
+          &quot;excluded_estimate_ids&quot;: [],
+          &quot;graph_schema_version&quot;: &quot;1&quot;,
+          &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+          &quot;risk_features&quot;: {
+            &quot;feature_schema_version&quot;: &quot;1&quot;,
+            &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+            &quot;fraction_missing_source_quote&quot;: 0.0,
+            &quot;fraction_non_estimable&quot;: 0.0,
+            &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+            &quot;fraction_timepoint_not_reported&quot;: 0.0,
+            &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_estimates&quot;: 1,
+            &quot;n_publications&quot;: 1
+          },
+          &quot;selected_cohort_count&quot;: 1,
+          &quot;selected_cohort_ids&quot;: [
+            &quot;cohort-150fc65f0093b4861c9f&quot;
+          ],
+          &quot;selected_estimate_ids&quot;: [
+            &quot;estimate-7d0d387e23f2b8849ee2&quot;
+          ],
+          &quot;selection_reason&quot;: null,
+          &quot;selection_status&quot;: &quot;ready&quot;,
+          &quot;warnings&quot;: [
+            &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+          ]
+        },
+        &quot;mode&quot;: &quot;insufficient&quot;,
+        &quot;quantitative&quot;: {
+          &quot;input_provenance&quot;: {
+            &quot;metasyn-corpus:20&quot;: [
+              {
+                &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+              }
+            ]
+          },
+          &quot;method&quot;: {
+            &quot;assumed_within_cohort_correlation&quot;: 1.0,
+            &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+            &quot;confidence_level&quot;: 0.95,
+            &quot;model&quot;: &quot;random_effects&quot;,
+            &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+            &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+          },
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_effects_input&quot;: 1,
+          &quot;n_papers&quot;: 1,
+          &quot;n_publications&quot;: 1,
+          &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+      &quot;transitions&quot;: []
+    },
+    &quot;full_release_eligible&quot;: false,
+    &quot;outcome&quot;: &quot;selected_next_action&quot;,
+    &quot;release_assessment&quot;: {
+      &quot;assessment_version&quot;: &quot;prospective-claim-release-v2&quot;,
+      &quot;audit&quot;: {
+        &quot;budget&quot;: 5.0,
+        &quot;candidate_input_sha256&quot;: &quot;4f956ce61f5b227389851ffe120b1ca3cb3be6b60b01e356c6952ea013667834&quot;,
+        &quot;candidate_item_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;cost_basis&quot;: &quot;realized_session&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;expected_item_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;guard_sha256&quot;: &quot;3b8a9b24f6685a83ef32ee3ad84262d3b7ba6dab7cecf8f0b477cb79df1933fd&quot;,
+        &quot;historical_resolved_item_ids&quot;: [],
+        &quot;historical_selected_item_ids&quot;: [],
+        &quot;item_ucl_interpretation_limits&quot;: [
+          &quot;ucl_estimand_is_group_average_error_rate_within_domain_and_score_bin&quot;,
+          &quot;ucl_is_not_an_individual_item_marginal_or_conditional_error_probability&quot;,
+          &quot;ucl_sum_is_an_audit_triage_burden_not_a_union_or_claim_decision_risk_bound&quot;,
+          &quot;adaptive_selection_and_prior_audit_outcomes_can_change_unresolved_subset_risk&quot;,
+          &quot;familywise_delta_is_confidence_failure_probability_not_part_of_the_ucl_sum&quot;,
+          &quot;complete_question_policy_calibration_is_required_for_claim_level_risk_control&quot;
+        ],
+        &quot;ranking&quot;: [
+          {
+            &quot;conclusion_flip&quot;: false,
+            &quot;decision_score_source&quot;: &quot;frequentist_directional_evidence_score_not_truth_probability&quot;,
+            &quot;expected_claim_loss_reduction&quot;: 0.0,
+            &quot;expected_claim_loss_reduction_per_cost&quot;: 0.0,
+            &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;probability_basis&quot;: &quot;heuristic&quot;,
+            &quot;probability_influence&quot;: 0.0,
+            &quot;rank&quot;: 1,
+            &quot;resolved_before_release&quot;: false,
+            &quot;selected_for_audit&quot;: false
+          }
+        ],
+        &quot;reasons&quot;: [
+          &quot;unresolved_items_missing_calibrated_cell_rate_ucl&quot;,
+          &quot;unresolved_error_probabilities_not_calibrated&quot;
+        ],
+        &quot;resolution_ledger_sha256&quot;: null,
+        &quot;resolution_receipts&quot;: [],
+        &quot;resolution_receipts_v2&quot;: [],
+        &quot;resolved_item_ids&quot;: [],
+        &quot;selected_item_ids&quot;: [],
+        &quot;selection_sha256&quot;: &quot;796feb3e8012c582913213a59ebbe5c973fa4a2083a7460468a11f218c8df7c0&quot;,
+        &quot;sequential_state_sha256&quot;: &quot;dcf2f26e0f09de94cd0fba38b08374627ab63b574bfd995247aeb4b4f2d890ab&quot;,
+        &quot;spent&quot;: 0.0,
+        &quot;status&quot;: &quot;blocked&quot;,
+        &quot;unresolved_conclusion_flip_item_ids&quot;: [],
+        &quot;unresolved_expected_claim_loss&quot;: 0.0,
+        &quot;unresolved_high_influence_item_ids&quot;: [],
+        &quot;unresolved_item_cell_ucl_sum&quot;: null,
+        &quot;unresolved_item_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;unresolved_noncalibrated_item_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;unresolved_without_cell_rate_ucl_item_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ]
+      },
+      &quot;calibration&quot;: {
+        &quot;calibration_contract&quot;: &quot;none&quot;,
+        &quot;frozen_bundle_sha256&quot;: null,
+        &quot;guarantee_scope&quot;: &quot;no calibration guarantee&quot;,
+        &quot;label_source&quot;: null,
+        &quot;policy_context_sha256&quot;: null,
+        &quot;prospective_assessment_sha256&quot;: null,
+        &quot;reason&quot;: &quot;frozen_calibration_bundle_absent&quot;,
+        &quot;release_candidate_sha256&quot;: null,
+        &quot;scalar_risk_score&quot;: null,
+        &quot;status&quot;: &quot;not_run&quot;,
+        &quot;threshold&quot;: null
+      },
+      &quot;config_sha256&quot;: &quot;5800c43b56f4117c582c9c1ecf173002d521f2fa2eedd2feac708ed9f80ac914&quot;,
+      &quot;decision_sha256&quot;: &quot;834e6748d2f4ef181e275e0a6dda9afedb5884b36918561e886ef97033c9d266&quot;,
+      &quot;evidence&quot;: {
+        &quot;ci_lower&quot;: null,
+        &quot;ci_upper&quot;: null,
+        &quot;classification&quot;: &quot;not_evaluable&quot;,
+        &quot;condition_interpretation&quot;: null,
+        &quot;condition_moderators&quot;: [],
+        &quot;directional_ci_lower&quot;: null,
+        &quot;directional_ci_upper&quot;: null,
+        &quot;directional_increase_fraction&quot;: null,
+        &quot;estimate&quot;: null,
+        &quot;exploratory_condition_interpretation&quot;: null,
+        &quot;exploratory_condition_moderators&quot;: [],
+        &quot;mode&quot;: &quot;insufficient&quot;,
+        &quot;n_papers&quot;: 0,
+        &quot;prediction_interval_lower&quot;: null,
+        &quot;prediction_interval_upper&quot;: null,
+        &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+        &quot;target_direction&quot;: &quot;increase&quot;
+      },
+      &quot;evidence_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+      &quot;paper_ids&quot;: [
+        &quot;metasyn-corpus:20&quot;
+      ],
+      &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+      &quot;question_id&quot;: &quot;metasyn-row17-fedratinib-500mg-spleen-week24&quot;,
+      &quot;reasons&quot;: [
+        &quot;evidence:not_evaluable:fewer_than_two_nonzero_cohort_signs&quot;,
+        &quot;audit:unresolved_items_missing_calibrated_cell_rate_ucl&quot;,
+        &quot;audit:unresolved_error_probabilities_not_calibrated&quot;,
+        &quot;calibration:frozen_calibration_bundle_absent&quot;
+      ],
+      &quot;release_semantics&quot;: &quot;all declared prospective gates passed; not a guarantee of scientific truth&quot;,
+      &quot;risk_feature_schema_version&quot;: &quot;claim-release-risk-v1&quot;,
+      &quot;risk_features&quot;: {
+        &quot;audit_candidate_count&quot;: 1.0,
+        &quot;audit_item_cell_rate_ucl_sum&quot;: 0.0,
+        &quot;audit_item_cell_rate_ucl_sum_available&quot;: 0.0,
+        &quot;audit_max_unresolved_influence&quot;: 0.0,
+        &quot;audit_resolved_fraction&quot;: 0.0,
+        &quot;audit_selected_fraction&quot;: 0.0,
+        &quot;audit_unresolved_expected_claim_loss&quot;: 0.0,
+        &quot;audit_unresolved_flip_fraction&quot;: 0.0,
+        &quot;audit_unresolved_fraction&quot;: 1.0,
+        &quot;audit_unresolved_noncalibrated_fraction&quot;: 1.0,
+        &quot;audit_unresolved_without_cell_rate_ucl_fraction&quot;: 1.0,
+        &quot;graph_fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+        &quot;graph_fraction_missing_source_quote&quot;: 0.0,
+        &quot;graph_fraction_non_estimable&quot;: 0.0,
+        &quot;graph_fraction_risk_of_bias_not_assessed&quot;: 1.0,
+        &quot;graph_fraction_timepoint_not_reported&quot;: 0.0,
+        &quot;graph_fraction_unresolved_cohort_identity&quot;: 0.0,
+        &quot;graph_n_cohorts&quot;: 1.0,
+        &quot;graph_n_estimates&quot;: 1.0,
+        &quot;graph_n_publications&quot;: 1.0,
+        &quot;synthesis_ci_crosses_null&quot;: 0.0,
+        &quot;synthesis_ci_width&quot;: 0.0,
+        &quot;synthesis_directional_available&quot;: 0.0,
+        &quot;synthesis_directional_ci_crosses_half&quot;: 0.0,
+        &quot;synthesis_directional_ci_width&quot;: 0.0,
+        &quot;synthesis_i_squared&quot;: 0.0,
+        &quot;synthesis_n_papers&quot;: 0.0,
+        &quot;synthesis_prediction_interval_available&quot;: 0.0,
+        &quot;synthesis_prediction_interval_crosses_null&quot;: 0.0,
+        &quot;synthesis_prediction_interval_target_stable&quot;: 0.0,
+        &quot;synthesis_prediction_interval_width&quot;: 0.0,
+        &quot;synthesis_quantitative_available&quot;: 0.0
+      },
+      &quot;risk_features_sha256&quot;: &quot;ee705d4718605af7f338683153d90bad878ca20087a983f48e14692375adb913&quot;,
+      &quot;status&quot;: &quot;abstained&quot;,
+      &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+      &quot;target&quot;: {
+        &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+        &quot;direction&quot;: &quot;increase&quot;,
+        &quot;outcome_name&quot;: &quot;spleen response&quot;
+      }
+    },
+    &quot;selection_result&quot;: {
+      &quot;action&quot;: {
+        &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;estimated_cost&quot;: 3.0,
+        &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;packet_sha256&quot;: &quot;e74cb28d477c7412e2559518ce72a7853ec93d1ff8cc5b2a6422a3034745e1d1&quot;,
+        &quot;packet_version&quot;: &quot;audit-action-v2&quot;,
+        &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+        &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+        &quot;scheduler_artifact_sha256&quot;: &quot;fb6b1bd680feeb61e04611e7132e92b62906a273afe4db2af71ed79415dabcb5&quot;,
+        &quot;selected_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+        &quot;selection_rank&quot;: 1,
+        &quot;selection_score&quot;: 0.0,
+        &quot;selection_state_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+        &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+        &quot;step&quot;: 1,
+        &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+      },
+      &quot;candidate&quot;: {
+        &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+        &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+        &quot;eligible&quot;: true,
+        &quot;estimated_cost&quot;: 3.0,
+        &quot;ineligibility_reasons&quot;: [],
+        &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;priority&quot;: 0.0,
+        &quot;risk_bound_sha256&quot;: null,
+        &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+      },
+      &quot;previous_state_sha256&quot;: &quot;dcf2f26e0f09de94cd0fba38b08374627ab63b574bfd995247aeb4b4f2d890ab&quot;,
+      &quot;result_sha256&quot;: &quot;94c0b856fe489afcbc33dd4225601842f5535f53e246ec1ffcf5a9f33b2a775a&quot;,
+      &quot;result_version&quot;: &quot;sequential-selection-result-v1&quot;,
+      &quot;state&quot;: {
+        &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+        &quot;candidates&quot;: [
+          {
+            &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+            &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+            &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+            &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+            &quot;eligible&quot;: true,
+            &quot;estimated_cost&quot;: 3.0,
+            &quot;ineligibility_reasons&quot;: [],
+            &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;priority&quot;: 0.0,
+            &quot;risk_bound_sha256&quot;: null,
+            &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+          }
+        ],
+        &quot;graph&quot;: {
+          &quot;arms&quot;: [
+            {
+              &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;description&quot;: null,
+              &quot;label&quot;: &quot;500-mg&quot;,
+              &quot;role&quot;: &quot;intervention&quot;,
+              &quot;sample_size&quot;: 97
+            },
+            {
+              &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;description&quot;: null,
+              &quot;label&quot;: &quot;placebo group&quot;,
+              &quot;role&quot;: &quot;comparator&quot;,
+              &quot;sample_size&quot;: 96
+            }
+          ],
+          &quot;cohorts&quot;: [
+            {
+              &quot;identity&quot;: {
+                &quot;basis&quot;: &quot;reported_registry_id&quot;,
+                &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+                &quot;dataset_ids&quot;: [],
+                &quot;rationale&quot;: null,
+                &quot;registry_ids&quot;: [
+                  &quot;NCT01437787&quot;
+                ],
+                &quot;source_labels&quot;: [
+                  &quot;NCT01437787&quot;
+                ]
+              },
+              &quot;population_description&quot;: null,
+              &quot;recruitment_period&quot;: null,
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+              &quot;total_sample_size&quot;: null
+            }
+          ],
+          &quot;contrasts&quot;: [
+            {
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+              &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+              &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+              &quot;label&quot;: &quot;vs&quot;,
+              &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+              &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+            }
+          ],
+          &quot;evidence_spans&quot;: [
+            {
+              &quot;char_end&quot;: 1586,
+              &quot;char_start&quot;: 1361,
+              &quot;line_ids&quot;: [
+                &quot;L6&quot;
+              ],
+              &quot;page&quot;: null,
+              &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+              &quot;roles&quot;: [
+                &quot;numerical_result&quot;
+              ],
+              &quot;section&quot;: &quot;Abstract&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+              &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+            }
+          ],
+          &quot;graph_schema_version&quot;: &quot;1&quot;,
+          &quot;outcome_estimates&quot;: [
+            {
+              &quot;analysis_population&quot;: null,
+              &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+              &quot;effect&quot;: {
+                &quot;availability&quot;: &quot;available&quot;,
+                &quot;ci_level&quot;: 0.95,
+                &quot;ci_lower&quot;: null,
+                &quot;ci_upper&quot;: null,
+                &quot;contrast&quot;: &quot;vs&quot;,
+                &quot;control_events&quot;: 1,
+                &quot;control_mean&quot;: null,
+                &quot;control_n&quot;: null,
+                &quot;control_sd&quot;: null,
+                &quot;control_total&quot;: 96,
+                &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+                &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+                &quot;equivalence_margin&quot;: null,
+                &quot;estimate&quot;: null,
+                &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                &quot;moderators&quot;: {},
+                &quot;outcome&quot;: &quot;spleen response&quot;,
+                &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+                &quot;provenance&quot;: {
+                  &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+                  &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+                  &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+                },
+                &quot;reported_p_value&quot;: null,
+                &quot;reported_significance&quot;: &quot;not_reported&quot;,
+                &quot;standard_error&quot;: null,
+                &quot;treatment_events&quot;: 39,
+                &quot;treatment_mean&quot;: null,
+                &quot;treatment_n&quot;: null,
+                &quot;treatment_sd&quot;: null,
+                &quot;treatment_total&quot;: 97,
+                &quot;unit&quot;: null,
+                &quot;variance&quot;: null
+              },
+              &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+              &quot;evidence_span_ids&quot;: [
+                &quot;span-a38f5bbb3ed30d9b6a76&quot;
+              ],
+              &quot;legacy_effect_size_raw&quot;: null,
+              &quot;legacy_reported_direction&quot;: null,
+              &quot;outcome_name&quot;: &quot;spleen response&quot;,
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;timepoint&quot;: {
+                &quot;anchor&quot;: &quot;week&quot;,
+                &quot;kind&quot;: &quot;exact&quot;,
+                &quot;lower&quot;: null,
+                &quot;raw_label&quot;: &quot;week 24&quot;,
+                &quot;unit&quot;: &quot;week&quot;,
+                &quot;upper&quot;: null,
+                &quot;value&quot;: 24.0
+              }
+            }
+          ],
+          &quot;publications&quot;: [
+            {
+              &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+              &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;pmid&quot;: &quot;26181658&quot;,
+              &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;publication_year&quot;: 2015,
+              &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+            }
+          ],
+          &quot;studies&quot;: [
+            {
+              &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+              &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;publication_ids&quot;: [
+                &quot;metasyn-publication:20&quot;
+              ],
+              &quot;registration_ids&quot;: [
+                &quot;NCT01437787&quot;
+              ],
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+            }
+          ]
+        },
+        &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;initial_candidates&quot;: [
+          {
+            &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+            &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+            &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+            &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+            &quot;eligible&quot;: true,
+            &quot;estimated_cost&quot;: 3.0,
+            &quot;ineligibility_reasons&quot;: [],
+            &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;priority&quot;: 0.0,
+            &quot;risk_bound_sha256&quot;: null,
+            &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+          }
+        ],
+        &quot;initial_graph&quot;: {
+          &quot;arms&quot;: [
+            {
+              &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;description&quot;: null,
+              &quot;label&quot;: &quot;500-mg&quot;,
+              &quot;role&quot;: &quot;intervention&quot;,
+              &quot;sample_size&quot;: 97
+            },
+            {
+              &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;description&quot;: null,
+              &quot;label&quot;: &quot;placebo group&quot;,
+              &quot;role&quot;: &quot;comparator&quot;,
+              &quot;sample_size&quot;: 96
+            }
+          ],
+          &quot;cohorts&quot;: [
+            {
+              &quot;identity&quot;: {
+                &quot;basis&quot;: &quot;reported_registry_id&quot;,
+                &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+                &quot;dataset_ids&quot;: [],
+                &quot;rationale&quot;: null,
+                &quot;registry_ids&quot;: [
+                  &quot;NCT01437787&quot;
+                ],
+                &quot;source_labels&quot;: [
+                  &quot;NCT01437787&quot;
+                ]
+              },
+              &quot;population_description&quot;: null,
+              &quot;recruitment_period&quot;: null,
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+              &quot;total_sample_size&quot;: null
+            }
+          ],
+          &quot;contrasts&quot;: [
+            {
+              &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+              &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+              &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+              &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+              &quot;label&quot;: &quot;vs&quot;,
+              &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+              &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+            }
+          ],
+          &quot;evidence_spans&quot;: [
+            {
+              &quot;char_end&quot;: 1586,
+              &quot;char_start&quot;: 1361,
+              &quot;line_ids&quot;: [
+                &quot;L6&quot;
+              ],
+              &quot;page&quot;: null,
+              &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+              &quot;roles&quot;: [
+                &quot;numerical_result&quot;
+              ],
+              &quot;section&quot;: &quot;Abstract&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+              &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+            }
+          ],
+          &quot;graph_schema_version&quot;: &quot;1&quot;,
+          &quot;outcome_estimates&quot;: [
+            {
+              &quot;analysis_population&quot;: null,
+              &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+              &quot;effect&quot;: {
+                &quot;availability&quot;: &quot;available&quot;,
+                &quot;ci_level&quot;: 0.95,
+                &quot;ci_lower&quot;: null,
+                &quot;ci_upper&quot;: null,
+                &quot;contrast&quot;: &quot;vs&quot;,
+                &quot;control_events&quot;: 1,
+                &quot;control_mean&quot;: null,
+                &quot;control_n&quot;: null,
+                &quot;control_sd&quot;: null,
+                &quot;control_total&quot;: 96,
+                &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+                &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+                &quot;equivalence_margin&quot;: null,
+                &quot;estimate&quot;: null,
+                &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                &quot;moderators&quot;: {},
+                &quot;outcome&quot;: &quot;spleen response&quot;,
+                &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+                &quot;provenance&quot;: {
+                  &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+                  &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+                  &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+                },
+                &quot;reported_p_value&quot;: null,
+                &quot;reported_significance&quot;: &quot;not_reported&quot;,
+                &quot;standard_error&quot;: null,
+                &quot;treatment_events&quot;: 39,
+                &quot;treatment_mean&quot;: null,
+                &quot;treatment_n&quot;: null,
+                &quot;treatment_sd&quot;: null,
+                &quot;treatment_total&quot;: 97,
+                &quot;unit&quot;: null,
+                &quot;variance&quot;: null
+              },
+              &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+              &quot;evidence_span_ids&quot;: [
+                &quot;span-a38f5bbb3ed30d9b6a76&quot;
+              ],
+              &quot;legacy_effect_size_raw&quot;: null,
+              &quot;legacy_reported_direction&quot;: null,
+              &quot;outcome_name&quot;: &quot;spleen response&quot;,
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;timepoint&quot;: {
+                &quot;anchor&quot;: &quot;week&quot;,
+                &quot;kind&quot;: &quot;exact&quot;,
+                &quot;lower&quot;: null,
+                &quot;raw_label&quot;: &quot;week 24&quot;,
+                &quot;unit&quot;: &quot;week&quot;,
+                &quot;upper&quot;: null,
+                &quot;value&quot;: 24.0
+              }
+            }
+          ],
+          &quot;publications&quot;: [
+            {
+              &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+              &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+              &quot;pmid&quot;: &quot;26181658&quot;,
+              &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;publication_year&quot;: 2015,
+              &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+            }
+          ],
+          &quot;studies&quot;: [
+            {
+              &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+              &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+              &quot;publication_ids&quot;: [
+                &quot;metasyn-publication:20&quot;
+              ],
+              &quot;registration_ids&quot;: [
+                &quot;NCT01437787&quot;
+              ],
+              &quot;risk_of_bias&quot;: {
+                &quot;assessor&quot;: null,
+                &quot;domains&quot;: [],
+                &quot;overall&quot;: &quot;not_assessed&quot;,
+                &quot;tool&quot;: null
+              },
+              &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+            }
+          ]
+        },
+        &quot;initial_synthesis&quot;: {
+          &quot;condition_analysis&quot;: null,
+          &quot;directional_fallback&quot;: {
+            &quot;cohort_direction_counts&quot;: {
+              &quot;decrease&quot;: 0,
+              &quot;exact_zero&quot;: 0,
+              &quot;increase&quot;: 1,
+              &quot;mixed&quot;: 0,
+              &quot;unavailable&quot;: 0
+            },
+            &quot;cohort_directions&quot;: {
+              &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+            },
+            &quot;contrast&quot;: &quot;vs&quot;,
+            &quot;limitations&quot;: [
+              &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+              &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+              &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+            ],
+            &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_effects_input&quot;: 1,
+            &quot;n_papers&quot;: 1,
+            &quot;n_publications&quot;: 1,
+            &quot;outcome&quot;: &quot;spleen response&quot;,
+            &quot;provenance&quot;: {
+              &quot;cohort-150fc65f0093b4861c9f&quot;: {
+                &quot;finding_ids&quot;: [
+                  &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+                ],
+                &quot;paper_ids&quot;: [
+                  &quot;metasyn-corpus:20&quot;
+                ],
+                &quot;source_locators&quot;: [
+                  &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+                ]
+              }
+            },
+            &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+            &quot;status&quot;: &quot;insufficient&quot;
+          },
+          &quot;evidence_graph&quot;: {
+            &quot;excluded_estimate_ids&quot;: [],
+            &quot;graph_schema_version&quot;: &quot;1&quot;,
+            &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+            &quot;risk_features&quot;: {
+              &quot;feature_schema_version&quot;: &quot;1&quot;,
+              &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+              &quot;fraction_missing_source_quote&quot;: 0.0,
+              &quot;fraction_non_estimable&quot;: 0.0,
+              &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+              &quot;fraction_timepoint_not_reported&quot;: 0.0,
+              &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+              &quot;n_cohorts&quot;: 1,
+              &quot;n_estimates&quot;: 1,
+              &quot;n_publications&quot;: 1
+            },
+            &quot;selected_cohort_count&quot;: 1,
+            &quot;selected_cohort_ids&quot;: [
+              &quot;cohort-150fc65f0093b4861c9f&quot;
+            ],
+            &quot;selected_estimate_ids&quot;: [
+              &quot;estimate-7d0d387e23f2b8849ee2&quot;
+            ],
+            &quot;selection_reason&quot;: null,
+            &quot;selection_status&quot;: &quot;ready&quot;,
+            &quot;warnings&quot;: [
+              &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+            ]
+          },
+          &quot;mode&quot;: &quot;insufficient&quot;,
+          &quot;quantitative&quot;: {
+            &quot;input_provenance&quot;: {
+              &quot;metasyn-corpus:20&quot;: [
+                {
+                  &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                  &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+                }
+              ]
+            },
+            &quot;method&quot;: {
+              &quot;assumed_within_cohort_correlation&quot;: 1.0,
+              &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+              &quot;confidence_level&quot;: 0.95,
+              &quot;model&quot;: &quot;random_effects&quot;,
+              &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+              &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+            },
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_effects_input&quot;: 1,
+            &quot;n_papers&quot;: 1,
+            &quot;n_publications&quot;: 1,
+            &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+            &quot;status&quot;: &quot;insufficient&quot;
+          },
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;session&quot;: {
+          &quot;active_action&quot;: {
+            &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+            &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+            &quot;estimated_cost&quot;: 3.0,
+            &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+            &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+            &quot;packet_sha256&quot;: &quot;e74cb28d477c7412e2559518ce72a7853ec93d1ff8cc5b2a6422a3034745e1d1&quot;,
+            &quot;packet_version&quot;: &quot;audit-action-v2&quot;,
+            &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+            &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+            &quot;scheduler_artifact_sha256&quot;: &quot;fb6b1bd680feeb61e04611e7132e92b62906a273afe4db2af71ed79415dabcb5&quot;,
+            &quot;selected_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+            &quot;selection_rank&quot;: 1,
+            &quot;selection_score&quot;: 0.0,
+            &quot;selection_state_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+            &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+            &quot;step&quot;: 1,
+            &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+          },
+          &quot;active_realized_cost&quot;: 0.0,
+          &quot;budget&quot;: 5.0,
+          &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+          &quot;created_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+          &quot;current_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+          &quot;current_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+          &quot;current_realized_cost&quot;: 0.0,
+          &quot;current_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+          &quot;final_assessment_sha256&quot;: null,
+          &quot;final_assessment_state_sha256&quot;: null,
+          &quot;final_reason&quot;: null,
+          &quot;finalized_at&quot;: null,
+          &quot;finalized_from_state_sha256&quot;: null,
+          &quot;historical_realized_cost&quot;: 0.0,
+          &quot;initial_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+          &quot;initial_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+          &quot;initial_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+          &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+          &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+          &quot;previous_session_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+          &quot;remaining_budget&quot;: 5.0,
+          &quot;resolved_item_ids&quot;: [],
+          &quot;selected_item_ids&quot;: [
+            &quot;estimate-7d0d387e23f2b8849ee2&quot;
+          ],
+          &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+          &quot;session_sha256&quot;: &quot;a748ff258ce487e805c3bf062147a5257ecfbbcdc23a6ec981bf5f79ffdf1783&quot;,
+          &quot;session_version&quot;: &quot;verification-session-v2&quot;,
+          &quot;state_history_sha256s&quot;: [
+            &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;
+          ],
+          &quot;status&quot;: &quot;active&quot;,
+          &quot;steps&quot;: [],
+          &quot;transition_index&quot;: 1
+        },
+        &quot;state_sha256&quot;: &quot;0d722024ba717d4752c398fea5b3bf472572386aee8a4de88bab4e313a9fec9b&quot;,
+        &quot;state_version&quot;: &quot;sequential-verification-state-v2&quot;,
+        &quot;synthesis&quot;: {
+          &quot;condition_analysis&quot;: null,
+          &quot;directional_fallback&quot;: {
+            &quot;cohort_direction_counts&quot;: {
+              &quot;decrease&quot;: 0,
+              &quot;exact_zero&quot;: 0,
+              &quot;increase&quot;: 1,
+              &quot;mixed&quot;: 0,
+              &quot;unavailable&quot;: 0
+            },
+            &quot;cohort_directions&quot;: {
+              &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+            },
+            &quot;contrast&quot;: &quot;vs&quot;,
+            &quot;limitations&quot;: [
+              &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+              &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+              &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+            ],
+            &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_effects_input&quot;: 1,
+            &quot;n_papers&quot;: 1,
+            &quot;n_publications&quot;: 1,
+            &quot;outcome&quot;: &quot;spleen response&quot;,
+            &quot;provenance&quot;: {
+              &quot;cohort-150fc65f0093b4861c9f&quot;: {
+                &quot;finding_ids&quot;: [
+                  &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+                ],
+                &quot;paper_ids&quot;: [
+                  &quot;metasyn-corpus:20&quot;
+                ],
+                &quot;source_locators&quot;: [
+                  &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+                ]
+              }
+            },
+            &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+            &quot;status&quot;: &quot;insufficient&quot;
+          },
+          &quot;evidence_graph&quot;: {
+            &quot;excluded_estimate_ids&quot;: [],
+            &quot;graph_schema_version&quot;: &quot;1&quot;,
+            &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+            &quot;risk_features&quot;: {
+              &quot;feature_schema_version&quot;: &quot;1&quot;,
+              &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+              &quot;fraction_missing_source_quote&quot;: 0.0,
+              &quot;fraction_non_estimable&quot;: 0.0,
+              &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+              &quot;fraction_timepoint_not_reported&quot;: 0.0,
+              &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+              &quot;n_cohorts&quot;: 1,
+              &quot;n_estimates&quot;: 1,
+              &quot;n_publications&quot;: 1
+            },
+            &quot;selected_cohort_count&quot;: 1,
+            &quot;selected_cohort_ids&quot;: [
+              &quot;cohort-150fc65f0093b4861c9f&quot;
+            ],
+            &quot;selected_estimate_ids&quot;: [
+              &quot;estimate-7d0d387e23f2b8849ee2&quot;
+            ],
+            &quot;selection_reason&quot;: null,
+            &quot;selection_status&quot;: &quot;ready&quot;,
+            &quot;warnings&quot;: [
+              &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+            ]
+          },
+          &quot;mode&quot;: &quot;insufficient&quot;,
+          &quot;quantitative&quot;: {
+            &quot;input_provenance&quot;: {
+              &quot;metasyn-corpus:20&quot;: [
+                {
+                  &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+                  &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+                }
+              ]
+            },
+            &quot;method&quot;: {
+              &quot;assumed_within_cohort_correlation&quot;: 1.0,
+              &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+              &quot;confidence_level&quot;: 0.95,
+              &quot;model&quot;: &quot;random_effects&quot;,
+              &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+              &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+            },
+            &quot;n_cohorts&quot;: 1,
+            &quot;n_effects_input&quot;: 1,
+            &quot;n_papers&quot;: 1,
+            &quot;n_publications&quot;: 1,
+            &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+            &quot;status&quot;: &quot;insufficient&quot;
+          },
+          &quot;status&quot;: &quot;insufficient&quot;
+        },
+        &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+        &quot;transitions&quot;: [
+          {
+            &quot;action&quot;: {
+              &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+              &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+              &quot;estimated_cost&quot;: 3.0,
+              &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+              &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+              &quot;packet_sha256&quot;: &quot;e74cb28d477c7412e2559518ce72a7853ec93d1ff8cc5b2a6422a3034745e1d1&quot;,
+              &quot;packet_version&quot;: &quot;audit-action-v2&quot;,
+              &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+              &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+              &quot;scheduler_artifact_sha256&quot;: &quot;fb6b1bd680feeb61e04611e7132e92b62906a273afe4db2af71ed79415dabcb5&quot;,
+              &quot;selected_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+              &quot;selection_rank&quot;: 1,
+              &quot;selection_score&quot;: 0.0,
+              &quot;selection_state_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+              &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+              &quot;step&quot;: 1,
+              &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+            },
+            &quot;active_realized_cost&quot;: null,
+            &quot;adjudication&quot;: null,
+            &quot;candidate&quot;: {
+              &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+              &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+              &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+              &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+              &quot;eligible&quot;: true,
+              &quot;estimated_cost&quot;: 3.0,
+              &quot;ineligibility_reasons&quot;: [],
+              &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+              &quot;priority&quot;: 0.0,
+              &quot;risk_bound_sha256&quot;: null,
+              &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+            },
+            &quot;correction&quot;: null,
+            &quot;correction_provenance&quot;: null,
+            &quot;post_candidate_input_sha256&quot;: null,
+            &quot;post_candidates&quot;: null,
+            &quot;post_graph&quot;: null,
+            &quot;post_graph_sha256&quot;: null,
+            &quot;post_synthesis&quot;: null,
+            &quot;post_synthesis_sha256&quot;: null,
+            &quot;previous_state_sha256&quot;: &quot;dcf2f26e0f09de94cd0fba38b08374627ab63b574bfd995247aeb4b4f2d890ab&quot;,
+            &quot;previous_transition_sha256&quot;: null,
+            &quot;receipt&quot;: null,
+            &quot;transition_kind&quot;: &quot;selection&quot;,
+            &quot;transition_sha256&quot;: &quot;a58e7d5715c679649348a4b19aa04940e91ce62e513e1c1af663ac78c900a438&quot;,
+            &quot;transition_version&quot;: &quot;sequential-state-transition-v1&quot;
+          }
+        ]
+      }
+    },
+    &quot;stopping_rule&quot;: &quot;stop_at_first_full_frozen_release_eligible_state&quot;
+  },
+  &quot;reasons&quot;: [
+    &quot;adapter:complete_corpus_not_available&quot;,
+    &quot;adapter:post_hoc_source_span_repair&quot;,
+    &quot;adapter:source_v4_terminal_failed_closed&quot;,
+    &quot;adapter:title_or_abstract_only_not_release_grade&quot;,
+    &quot;adapter:uncalibrated_sequential_audit_analysis_only&quot;,
+    &quot;adapter:unverified_source_provenance&quot;,
+    &quot;audit:active_audit_action_unresolved&quot;,
+    &quot;audit:unresolved_error_probabilities_not_calibrated&quot;,
+    &quot;audit:unresolved_items_missing_calibrated_cell_rate_ucl&quot;,
+    &quot;calibration:frozen_calibration_bundle_absent&quot;,
+    &quot;evidence:not_evaluable:fewer_than_two_nonzero_cohort_signs&quot;
+  ],
+  &quot;release_assessment&quot;: {
+    &quot;assessment_version&quot;: &quot;prospective-claim-release-v2&quot;,
+    &quot;audit&quot;: {
+      &quot;budget&quot;: 5.0,
+      &quot;candidate_input_sha256&quot;: &quot;4f956ce61f5b227389851ffe120b1ca3cb3be6b60b01e356c6952ea013667834&quot;,
+      &quot;candidate_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;cost_basis&quot;: &quot;realized_session&quot;,
+      &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+      &quot;expected_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;guard_sha256&quot;: &quot;3b8a9b24f6685a83ef32ee3ad84262d3b7ba6dab7cecf8f0b477cb79df1933fd&quot;,
+      &quot;historical_resolved_item_ids&quot;: [],
+      &quot;historical_selected_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;item_ucl_interpretation_limits&quot;: [
+        &quot;ucl_estimand_is_group_average_error_rate_within_domain_and_score_bin&quot;,
+        &quot;ucl_is_not_an_individual_item_marginal_or_conditional_error_probability&quot;,
+        &quot;ucl_sum_is_an_audit_triage_burden_not_a_union_or_claim_decision_risk_bound&quot;,
+        &quot;adaptive_selection_and_prior_audit_outcomes_can_change_unresolved_subset_risk&quot;,
+        &quot;familywise_delta_is_confidence_failure_probability_not_part_of_the_ucl_sum&quot;,
+        &quot;complete_question_policy_calibration_is_required_for_claim_level_risk_control&quot;
+      ],
+      &quot;ranking&quot;: [
+        {
+          &quot;conclusion_flip&quot;: false,
+          &quot;decision_score_source&quot;: &quot;frequentist_directional_evidence_score_not_truth_probability&quot;,
+          &quot;expected_claim_loss_reduction&quot;: 0.0,
+          &quot;expected_claim_loss_reduction_per_cost&quot;: 0.0,
+          &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;probability_basis&quot;: &quot;heuristic&quot;,
+          &quot;probability_influence&quot;: 0.0,
+          &quot;rank&quot;: 1,
+          &quot;resolved_before_release&quot;: false,
+          &quot;selected_for_audit&quot;: true
+        }
+      ],
+      &quot;reasons&quot;: [
+        &quot;unresolved_items_missing_calibrated_cell_rate_ucl&quot;,
+        &quot;unresolved_error_probabilities_not_calibrated&quot;,
+        &quot;active_audit_action_unresolved&quot;
+      ],
+      &quot;resolution_ledger_sha256&quot;: null,
+      &quot;resolution_receipts&quot;: [],
+      &quot;resolution_receipts_v2&quot;: [],
+      &quot;resolved_item_ids&quot;: [],
+      &quot;selected_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;selection_sha256&quot;: &quot;14db61509bfd5840e06bf7f9a425e6952d753d45d5a96ba12e6933a1f13d6068&quot;,
+      &quot;sequential_state_sha256&quot;: &quot;0d722024ba717d4752c398fea5b3bf472572386aee8a4de88bab4e313a9fec9b&quot;,
+      &quot;spent&quot;: 0.0,
+      &quot;status&quot;: &quot;blocked&quot;,
+      &quot;unresolved_conclusion_flip_item_ids&quot;: [],
+      &quot;unresolved_expected_claim_loss&quot;: 0.0,
+      &quot;unresolved_high_influence_item_ids&quot;: [],
+      &quot;unresolved_item_cell_ucl_sum&quot;: null,
+      &quot;unresolved_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;unresolved_noncalibrated_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;unresolved_without_cell_rate_ucl_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ]
+    },
+    &quot;calibration&quot;: {
+      &quot;calibration_contract&quot;: &quot;none&quot;,
+      &quot;frozen_bundle_sha256&quot;: null,
+      &quot;guarantee_scope&quot;: &quot;no calibration guarantee&quot;,
+      &quot;label_source&quot;: null,
+      &quot;policy_context_sha256&quot;: null,
+      &quot;prospective_assessment_sha256&quot;: null,
+      &quot;reason&quot;: &quot;frozen_calibration_bundle_absent&quot;,
+      &quot;release_candidate_sha256&quot;: null,
+      &quot;scalar_risk_score&quot;: null,
+      &quot;status&quot;: &quot;not_run&quot;,
+      &quot;threshold&quot;: null
+    },
+    &quot;config_sha256&quot;: &quot;5800c43b56f4117c582c9c1ecf173002d521f2fa2eedd2feac708ed9f80ac914&quot;,
+    &quot;decision_sha256&quot;: &quot;27793e54ce04b3e6ae9fc19d3fb0dc344953e294645611a9aed86d348fa2263d&quot;,
+    &quot;evidence&quot;: {
+      &quot;ci_lower&quot;: null,
+      &quot;ci_upper&quot;: null,
+      &quot;classification&quot;: &quot;not_evaluable&quot;,
+      &quot;condition_interpretation&quot;: null,
+      &quot;condition_moderators&quot;: [],
+      &quot;directional_ci_lower&quot;: null,
+      &quot;directional_ci_upper&quot;: null,
+      &quot;directional_increase_fraction&quot;: null,
+      &quot;estimate&quot;: null,
+      &quot;exploratory_condition_interpretation&quot;: null,
+      &quot;exploratory_condition_moderators&quot;: [],
+      &quot;mode&quot;: &quot;insufficient&quot;,
+      &quot;n_papers&quot;: 0,
+      &quot;prediction_interval_lower&quot;: null,
+      &quot;prediction_interval_upper&quot;: null,
+      &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+      &quot;target_direction&quot;: &quot;increase&quot;
+    },
+    &quot;evidence_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+    &quot;paper_ids&quot;: [
+      &quot;metasyn-corpus:20&quot;
+    ],
+    &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+    &quot;question_id&quot;: &quot;metasyn-row17-fedratinib-500mg-spleen-week24&quot;,
+    &quot;reasons&quot;: [
+      &quot;evidence:not_evaluable:fewer_than_two_nonzero_cohort_signs&quot;,
+      &quot;audit:unresolved_items_missing_calibrated_cell_rate_ucl&quot;,
+      &quot;audit:unresolved_error_probabilities_not_calibrated&quot;,
+      &quot;audit:active_audit_action_unresolved&quot;,
+      &quot;calibration:frozen_calibration_bundle_absent&quot;
+    ],
+    &quot;release_semantics&quot;: &quot;all declared prospective gates passed; not a guarantee of scientific truth&quot;,
+    &quot;risk_feature_schema_version&quot;: &quot;claim-release-risk-v1&quot;,
+    &quot;risk_features&quot;: {
+      &quot;audit_candidate_count&quot;: 1.0,
+      &quot;audit_item_cell_rate_ucl_sum&quot;: 0.0,
+      &quot;audit_item_cell_rate_ucl_sum_available&quot;: 0.0,
+      &quot;audit_max_unresolved_influence&quot;: 0.0,
+      &quot;audit_resolved_fraction&quot;: 0.0,
+      &quot;audit_selected_fraction&quot;: 1.0,
+      &quot;audit_unresolved_expected_claim_loss&quot;: 0.0,
+      &quot;audit_unresolved_flip_fraction&quot;: 0.0,
+      &quot;audit_unresolved_fraction&quot;: 1.0,
+      &quot;audit_unresolved_noncalibrated_fraction&quot;: 1.0,
+      &quot;audit_unresolved_without_cell_rate_ucl_fraction&quot;: 1.0,
+      &quot;graph_fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+      &quot;graph_fraction_missing_source_quote&quot;: 0.0,
+      &quot;graph_fraction_non_estimable&quot;: 0.0,
+      &quot;graph_fraction_risk_of_bias_not_assessed&quot;: 1.0,
+      &quot;graph_fraction_timepoint_not_reported&quot;: 0.0,
+      &quot;graph_fraction_unresolved_cohort_identity&quot;: 0.0,
+      &quot;graph_n_cohorts&quot;: 1.0,
+      &quot;graph_n_estimates&quot;: 1.0,
+      &quot;graph_n_publications&quot;: 1.0,
+      &quot;synthesis_ci_crosses_null&quot;: 0.0,
+      &quot;synthesis_ci_width&quot;: 0.0,
+      &quot;synthesis_directional_available&quot;: 0.0,
+      &quot;synthesis_directional_ci_crosses_half&quot;: 0.0,
+      &quot;synthesis_directional_ci_width&quot;: 0.0,
+      &quot;synthesis_i_squared&quot;: 0.0,
+      &quot;synthesis_n_papers&quot;: 0.0,
+      &quot;synthesis_prediction_interval_available&quot;: 0.0,
+      &quot;synthesis_prediction_interval_crosses_null&quot;: 0.0,
+      &quot;synthesis_prediction_interval_target_stable&quot;: 0.0,
+      &quot;synthesis_prediction_interval_width&quot;: 0.0,
+      &quot;synthesis_quantitative_available&quot;: 0.0
+    },
+    &quot;risk_features_sha256&quot;: &quot;5ba48aec502610f4095a09c2d48dd5bea013fecf7dec559875f554c348b026af&quot;,
+    &quot;status&quot;: &quot;abstained&quot;,
+    &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+    &quot;target&quot;: {
+      &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+      &quot;direction&quot;: &quot;increase&quot;,
+      &quot;outcome_name&quot;: &quot;spleen response&quot;
+    }
+  },
+  &quot;run_id&quot;: &quot;verify-a76aa9fbd836d16e&quot;,
+  &quot;sequential_audit_state&quot;: {
+    &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+    &quot;candidates&quot;: [
+      {
+        &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+        &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+        &quot;eligible&quot;: true,
+        &quot;estimated_cost&quot;: 3.0,
+        &quot;ineligibility_reasons&quot;: [],
+        &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;priority&quot;: 0.0,
+        &quot;risk_bound_sha256&quot;: null,
+        &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+      }
+    ],
+    &quot;graph&quot;: {
+      &quot;arms&quot;: [
+        {
+          &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;description&quot;: null,
+          &quot;label&quot;: &quot;500-mg&quot;,
+          &quot;role&quot;: &quot;intervention&quot;,
+          &quot;sample_size&quot;: 97
+        },
+        {
+          &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;description&quot;: null,
+          &quot;label&quot;: &quot;placebo group&quot;,
+          &quot;role&quot;: &quot;comparator&quot;,
+          &quot;sample_size&quot;: 96
+        }
+      ],
+      &quot;cohorts&quot;: [
+        {
+          &quot;identity&quot;: {
+            &quot;basis&quot;: &quot;reported_registry_id&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;dataset_ids&quot;: [],
+            &quot;rationale&quot;: null,
+            &quot;registry_ids&quot;: [
+              &quot;NCT01437787&quot;
+            ],
+            &quot;source_labels&quot;: [
+              &quot;NCT01437787&quot;
+            ]
+          },
+          &quot;population_description&quot;: null,
+          &quot;recruitment_period&quot;: null,
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+          &quot;total_sample_size&quot;: null
+        }
+      ],
+      &quot;contrasts&quot;: [
+        {
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+          &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+          &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+          &quot;label&quot;: &quot;vs&quot;,
+          &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+          &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+        }
+      ],
+      &quot;evidence_spans&quot;: [
+        {
+          &quot;char_end&quot;: 1586,
+          &quot;char_start&quot;: 1361,
+          &quot;line_ids&quot;: [
+            &quot;L6&quot;
+          ],
+          &quot;page&quot;: null,
+          &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+          &quot;roles&quot;: [
+            &quot;numerical_result&quot;
+          ],
+          &quot;section&quot;: &quot;Abstract&quot;,
+          &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+          &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+        }
+      ],
+      &quot;graph_schema_version&quot;: &quot;1&quot;,
+      &quot;outcome_estimates&quot;: [
+        {
+          &quot;analysis_population&quot;: null,
+          &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+          &quot;effect&quot;: {
+            &quot;availability&quot;: &quot;available&quot;,
+            &quot;ci_level&quot;: 0.95,
+            &quot;ci_lower&quot;: null,
+            &quot;ci_upper&quot;: null,
+            &quot;contrast&quot;: &quot;vs&quot;,
+            &quot;control_events&quot;: 1,
+            &quot;control_mean&quot;: null,
+            &quot;control_n&quot;: null,
+            &quot;control_sd&quot;: null,
+            &quot;control_total&quot;: 96,
+            &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+            &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+            &quot;equivalence_margin&quot;: null,
+            &quot;estimate&quot;: null,
+            &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+            &quot;moderators&quot;: {},
+            &quot;outcome&quot;: &quot;spleen response&quot;,
+            &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;provenance&quot;: {
+              &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+              &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+            },
+            &quot;reported_p_value&quot;: null,
+            &quot;reported_significance&quot;: &quot;not_reported&quot;,
+            &quot;standard_error&quot;: null,
+            &quot;treatment_events&quot;: 39,
+            &quot;treatment_mean&quot;: null,
+            &quot;treatment_n&quot;: null,
+            &quot;treatment_sd&quot;: null,
+            &quot;treatment_total&quot;: 97,
+            &quot;unit&quot;: null,
+            &quot;variance&quot;: null
+          },
+          &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;evidence_span_ids&quot;: [
+            &quot;span-a38f5bbb3ed30d9b6a76&quot;
+          ],
+          &quot;legacy_effect_size_raw&quot;: null,
+          &quot;legacy_reported_direction&quot;: null,
+          &quot;outcome_name&quot;: &quot;spleen response&quot;,
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;timepoint&quot;: {
+            &quot;anchor&quot;: &quot;week&quot;,
+            &quot;kind&quot;: &quot;exact&quot;,
+            &quot;lower&quot;: null,
+            &quot;raw_label&quot;: &quot;week 24&quot;,
+            &quot;unit&quot;: &quot;week&quot;,
+            &quot;upper&quot;: null,
+            &quot;value&quot;: 24.0
+          }
+        }
+      ],
+      &quot;publications&quot;: [
+        {
+          &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+          &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;pmid&quot;: &quot;26181658&quot;,
+          &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;publication_year&quot;: 2015,
+          &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+        }
+      ],
+      &quot;studies&quot;: [
+        {
+          &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+          &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;publication_ids&quot;: [
+            &quot;metasyn-publication:20&quot;
+          ],
+          &quot;registration_ids&quot;: [
+            &quot;NCT01437787&quot;
+          ],
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+        }
+      ]
+    },
+    &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+    &quot;initial_candidates&quot;: [
+      {
+        &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+        &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+        &quot;eligible&quot;: true,
+        &quot;estimated_cost&quot;: 3.0,
+        &quot;ineligibility_reasons&quot;: [],
+        &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;priority&quot;: 0.0,
+        &quot;risk_bound_sha256&quot;: null,
+        &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+      }
+    ],
+    &quot;initial_graph&quot;: {
+      &quot;arms&quot;: [
+        {
+          &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;description&quot;: null,
+          &quot;label&quot;: &quot;500-mg&quot;,
+          &quot;role&quot;: &quot;intervention&quot;,
+          &quot;sample_size&quot;: 97
+        },
+        {
+          &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;description&quot;: null,
+          &quot;label&quot;: &quot;placebo group&quot;,
+          &quot;role&quot;: &quot;comparator&quot;,
+          &quot;sample_size&quot;: 96
+        }
+      ],
+      &quot;cohorts&quot;: [
+        {
+          &quot;identity&quot;: {
+            &quot;basis&quot;: &quot;reported_registry_id&quot;,
+            &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+            &quot;dataset_ids&quot;: [],
+            &quot;rationale&quot;: null,
+            &quot;registry_ids&quot;: [
+              &quot;NCT01437787&quot;
+            ],
+            &quot;source_labels&quot;: [
+              &quot;NCT01437787&quot;
+            ]
+          },
+          &quot;population_description&quot;: null,
+          &quot;recruitment_period&quot;: null,
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+          &quot;total_sample_size&quot;: null
+        }
+      ],
+      &quot;contrasts&quot;: [
+        {
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+          &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+          &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+          &quot;label&quot;: &quot;vs&quot;,
+          &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+          &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+        }
+      ],
+      &quot;evidence_spans&quot;: [
+        {
+          &quot;char_end&quot;: 1586,
+          &quot;char_start&quot;: 1361,
+          &quot;line_ids&quot;: [
+            &quot;L6&quot;
+          ],
+          &quot;page&quot;: null,
+          &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+          &quot;roles&quot;: [
+            &quot;numerical_result&quot;
+          ],
+          &quot;section&quot;: &quot;Abstract&quot;,
+          &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+          &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+        }
+      ],
+      &quot;graph_schema_version&quot;: &quot;1&quot;,
+      &quot;outcome_estimates&quot;: [
+        {
+          &quot;analysis_population&quot;: null,
+          &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+          &quot;effect&quot;: {
+            &quot;availability&quot;: &quot;available&quot;,
+            &quot;ci_level&quot;: 0.95,
+            &quot;ci_lower&quot;: null,
+            &quot;ci_upper&quot;: null,
+            &quot;contrast&quot;: &quot;vs&quot;,
+            &quot;control_events&quot;: 1,
+            &quot;control_mean&quot;: null,
+            &quot;control_n&quot;: null,
+            &quot;control_sd&quot;: null,
+            &quot;control_total&quot;: 96,
+            &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+            &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+            &quot;equivalence_margin&quot;: null,
+            &quot;estimate&quot;: null,
+            &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+            &quot;moderators&quot;: {},
+            &quot;outcome&quot;: &quot;spleen response&quot;,
+            &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+            &quot;provenance&quot;: {
+              &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+              &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+            },
+            &quot;reported_p_value&quot;: null,
+            &quot;reported_significance&quot;: &quot;not_reported&quot;,
+            &quot;standard_error&quot;: null,
+            &quot;treatment_events&quot;: 39,
+            &quot;treatment_mean&quot;: null,
+            &quot;treatment_n&quot;: null,
+            &quot;treatment_sd&quot;: null,
+            &quot;treatment_total&quot;: 97,
+            &quot;unit&quot;: null,
+            &quot;variance&quot;: null
+          },
+          &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;evidence_span_ids&quot;: [
+            &quot;span-a38f5bbb3ed30d9b6a76&quot;
+          ],
+          &quot;legacy_effect_size_raw&quot;: null,
+          &quot;legacy_reported_direction&quot;: null,
+          &quot;outcome_name&quot;: &quot;spleen response&quot;,
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;timepoint&quot;: {
+            &quot;anchor&quot;: &quot;week&quot;,
+            &quot;kind&quot;: &quot;exact&quot;,
+            &quot;lower&quot;: null,
+            &quot;raw_label&quot;: &quot;week 24&quot;,
+            &quot;unit&quot;: &quot;week&quot;,
+            &quot;upper&quot;: null,
+            &quot;value&quot;: 24.0
+          }
+        }
+      ],
+      &quot;publications&quot;: [
+        {
+          &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+          &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;pmid&quot;: &quot;26181658&quot;,
+          &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;publication_year&quot;: 2015,
+          &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+        }
+      ],
+      &quot;studies&quot;: [
+        {
+          &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+          &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+          &quot;publication_ids&quot;: [
+            &quot;metasyn-publication:20&quot;
+          ],
+          &quot;registration_ids&quot;: [
+            &quot;NCT01437787&quot;
+          ],
+          &quot;risk_of_bias&quot;: {
+            &quot;assessor&quot;: null,
+            &quot;domains&quot;: [],
+            &quot;overall&quot;: &quot;not_assessed&quot;,
+            &quot;tool&quot;: null
+          },
+          &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+        }
+      ]
+    },
+    &quot;initial_synthesis&quot;: {
+      &quot;condition_analysis&quot;: null,
+      &quot;directional_fallback&quot;: {
+        &quot;cohort_direction_counts&quot;: {
+          &quot;decrease&quot;: 0,
+          &quot;exact_zero&quot;: 0,
+          &quot;increase&quot;: 1,
+          &quot;mixed&quot;: 0,
+          &quot;unavailable&quot;: 0
+        },
+        &quot;cohort_directions&quot;: {
+          &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+        },
+        &quot;contrast&quot;: &quot;vs&quot;,
+        &quot;limitations&quot;: [
+          &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+          &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+          &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+        ],
+        &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+        &quot;n_cohorts&quot;: 1,
+        &quot;n_effects_input&quot;: 1,
+        &quot;n_papers&quot;: 1,
+        &quot;n_publications&quot;: 1,
+        &quot;outcome&quot;: &quot;spleen response&quot;,
+        &quot;provenance&quot;: {
+          &quot;cohort-150fc65f0093b4861c9f&quot;: {
+            &quot;finding_ids&quot;: [
+              &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+            ],
+            &quot;paper_ids&quot;: [
+              &quot;metasyn-corpus:20&quot;
+            ],
+            &quot;source_locators&quot;: [
+              &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+            ]
+          }
+        },
+        &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;evidence_graph&quot;: {
+        &quot;excluded_estimate_ids&quot;: [],
+        &quot;graph_schema_version&quot;: &quot;1&quot;,
+        &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+        &quot;risk_features&quot;: {
+          &quot;feature_schema_version&quot;: &quot;1&quot;,
+          &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+          &quot;fraction_missing_source_quote&quot;: 0.0,
+          &quot;fraction_non_estimable&quot;: 0.0,
+          &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+          &quot;fraction_timepoint_not_reported&quot;: 0.0,
+          &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_estimates&quot;: 1,
+          &quot;n_publications&quot;: 1
+        },
+        &quot;selected_cohort_count&quot;: 1,
+        &quot;selected_cohort_ids&quot;: [
+          &quot;cohort-150fc65f0093b4861c9f&quot;
+        ],
+        &quot;selected_estimate_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;selection_reason&quot;: null,
+        &quot;selection_status&quot;: &quot;ready&quot;,
+        &quot;warnings&quot;: [
+          &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+        ]
+      },
+      &quot;mode&quot;: &quot;insufficient&quot;,
+      &quot;quantitative&quot;: {
+        &quot;input_provenance&quot;: {
+          &quot;metasyn-corpus:20&quot;: [
+            {
+              &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+            }
+          ]
+        },
+        &quot;method&quot;: {
+          &quot;assumed_within_cohort_correlation&quot;: 1.0,
+          &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+          &quot;confidence_level&quot;: 0.95,
+          &quot;model&quot;: &quot;random_effects&quot;,
+          &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+          &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+        },
+        &quot;n_cohorts&quot;: 1,
+        &quot;n_effects_input&quot;: 1,
+        &quot;n_papers&quot;: 1,
+        &quot;n_publications&quot;: 1,
+        &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;status&quot;: &quot;insufficient&quot;
+    },
+    &quot;session&quot;: {
+      &quot;active_action&quot;: {
+        &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+        &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+        &quot;estimated_cost&quot;: 3.0,
+        &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+        &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;packet_sha256&quot;: &quot;e74cb28d477c7412e2559518ce72a7853ec93d1ff8cc5b2a6422a3034745e1d1&quot;,
+        &quot;packet_version&quot;: &quot;audit-action-v2&quot;,
+        &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+        &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+        &quot;scheduler_artifact_sha256&quot;: &quot;fb6b1bd680feeb61e04611e7132e92b62906a273afe4db2af71ed79415dabcb5&quot;,
+        &quot;selected_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+        &quot;selection_rank&quot;: 1,
+        &quot;selection_score&quot;: 0.0,
+        &quot;selection_state_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+        &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+        &quot;step&quot;: 1,
+        &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+      },
+      &quot;active_realized_cost&quot;: 0.0,
+      &quot;budget&quot;: 5.0,
+      &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+      &quot;created_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+      &quot;current_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+      &quot;current_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+      &quot;current_realized_cost&quot;: 0.0,
+      &quot;current_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+      &quot;final_assessment_sha256&quot;: null,
+      &quot;final_assessment_state_sha256&quot;: null,
+      &quot;final_reason&quot;: null,
+      &quot;finalized_at&quot;: null,
+      &quot;finalized_from_state_sha256&quot;: null,
+      &quot;historical_realized_cost&quot;: 0.0,
+      &quot;initial_candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+      &quot;initial_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+      &quot;initial_synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+      &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+      &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+      &quot;previous_session_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+      &quot;remaining_budget&quot;: 5.0,
+      &quot;resolved_item_ids&quot;: [],
+      &quot;selected_item_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+      &quot;session_sha256&quot;: &quot;a748ff258ce487e805c3bf062147a5257ecfbbcdc23a6ec981bf5f79ffdf1783&quot;,
+      &quot;session_version&quot;: &quot;verification-session-v2&quot;,
+      &quot;state_history_sha256s&quot;: [
+        &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;
+      ],
+      &quot;status&quot;: &quot;active&quot;,
+      &quot;steps&quot;: [],
+      &quot;transition_index&quot;: 1
+    },
+    &quot;state_sha256&quot;: &quot;0d722024ba717d4752c398fea5b3bf472572386aee8a4de88bab4e313a9fec9b&quot;,
+    &quot;state_version&quot;: &quot;sequential-verification-state-v2&quot;,
+    &quot;synthesis&quot;: {
+      &quot;condition_analysis&quot;: null,
+      &quot;directional_fallback&quot;: {
+        &quot;cohort_direction_counts&quot;: {
+          &quot;decrease&quot;: 0,
+          &quot;exact_zero&quot;: 0,
+          &quot;increase&quot;: 1,
+          &quot;mixed&quot;: 0,
+          &quot;unavailable&quot;: 0
+        },
+        &quot;cohort_directions&quot;: {
+          &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+        },
+        &quot;contrast&quot;: &quot;vs&quot;,
+        &quot;limitations&quot;: [
+          &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+          &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+          &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+        ],
+        &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+        &quot;n_cohorts&quot;: 1,
+        &quot;n_effects_input&quot;: 1,
+        &quot;n_papers&quot;: 1,
+        &quot;n_publications&quot;: 1,
+        &quot;outcome&quot;: &quot;spleen response&quot;,
+        &quot;provenance&quot;: {
+          &quot;cohort-150fc65f0093b4861c9f&quot;: {
+            &quot;finding_ids&quot;: [
+              &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+            ],
+            &quot;paper_ids&quot;: [
+              &quot;metasyn-corpus:20&quot;
+            ],
+            &quot;source_locators&quot;: [
+              &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+            ]
+          }
+        },
+        &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;evidence_graph&quot;: {
+        &quot;excluded_estimate_ids&quot;: [],
+        &quot;graph_schema_version&quot;: &quot;1&quot;,
+        &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+        &quot;risk_features&quot;: {
+          &quot;feature_schema_version&quot;: &quot;1&quot;,
+          &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+          &quot;fraction_missing_source_quote&quot;: 0.0,
+          &quot;fraction_non_estimable&quot;: 0.0,
+          &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+          &quot;fraction_timepoint_not_reported&quot;: 0.0,
+          &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+          &quot;n_cohorts&quot;: 1,
+          &quot;n_estimates&quot;: 1,
+          &quot;n_publications&quot;: 1
+        },
+        &quot;selected_cohort_count&quot;: 1,
+        &quot;selected_cohort_ids&quot;: [
+          &quot;cohort-150fc65f0093b4861c9f&quot;
+        ],
+        &quot;selected_estimate_ids&quot;: [
+          &quot;estimate-7d0d387e23f2b8849ee2&quot;
+        ],
+        &quot;selection_reason&quot;: null,
+        &quot;selection_status&quot;: &quot;ready&quot;,
+        &quot;warnings&quot;: [
+          &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+        ]
+      },
+      &quot;mode&quot;: &quot;insufficient&quot;,
+      &quot;quantitative&quot;: {
+        &quot;input_provenance&quot;: {
+          &quot;metasyn-corpus:20&quot;: [
+            {
+              &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+              &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+            }
+          ]
+        },
+        &quot;method&quot;: {
+          &quot;assumed_within_cohort_correlation&quot;: 1.0,
+          &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+          &quot;confidence_level&quot;: 0.95,
+          &quot;model&quot;: &quot;random_effects&quot;,
+          &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+          &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+        },
+        &quot;n_cohorts&quot;: 1,
+        &quot;n_effects_input&quot;: 1,
+        &quot;n_papers&quot;: 1,
+        &quot;n_publications&quot;: 1,
+        &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+        &quot;status&quot;: &quot;insufficient&quot;
+      },
+      &quot;status&quot;: &quot;insufficient&quot;
+    },
+    &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;,
+    &quot;transitions&quot;: [
+      {
+        &quot;action&quot;: {
+          &quot;candidate_input_sha256&quot;: &quot;3c5f7918db982c098cc0eb8da2d3236aa63962d5ac9ad39dd6146adaf42ee6cf&quot;,
+          &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+          &quot;estimated_cost&quot;: 3.0,
+          &quot;graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+          &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;packet_sha256&quot;: &quot;e74cb28d477c7412e2559518ce72a7853ec93d1ff8cc5b2a6422a3034745e1d1&quot;,
+          &quot;packet_version&quot;: &quot;audit-action-v2&quot;,
+          &quot;pipeline_sha256&quot;: &quot;1f332b803be247af6ee7c8e25e9eb0320dbe32203e3d36a0dc9e366a68dac475&quot;,
+          &quot;policy_sha256&quot;: &quot;9f5c9152d927cf0986d091ff076601cef27e9b91d31739450254fdd71b8052a7&quot;,
+          &quot;scheduler_artifact_sha256&quot;: &quot;fb6b1bd680feeb61e04611e7132e92b62906a273afe4db2af71ed79415dabcb5&quot;,
+          &quot;selected_at&quot;: &quot;2026-08-29T09:59:55.062941Z&quot;,
+          &quot;selection_rank&quot;: 1,
+          &quot;selection_score&quot;: 0.0,
+          &quot;selection_state_sha256&quot;: &quot;1166fc9e8e4070b57ca7ce0ec03b8db13c15a054f9fba0a486181b849295a084&quot;,
+          &quot;session_id&quot;: &quot;verify-session-dc39d4c4ee007895&quot;,
+          &quot;step&quot;: 1,
+          &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+        },
+        &quot;active_realized_cost&quot;: null,
+        &quot;adjudication&quot;: null,
+        &quot;candidate&quot;: {
+          &quot;candidate_sha256&quot;: &quot;2275925aa0042ec24fc03ffb3d32a32a1aa9af59506a6e0f0e2df316998a3965&quot;,
+          &quot;candidate_version&quot;: &quot;sequential-verifier-candidate-v1&quot;,
+          &quot;cost_unit&quot;: &quot;person_minutes&quot;,
+          &quot;counterfactual_synthesis_sha256&quot;: &quot;9eccc065a5a75e2af17fc2763b0ed42d01fe4290790c61ee3185a3baa8a9af5e&quot;,
+          &quot;eligible&quot;: true,
+          &quot;estimated_cost&quot;: 3.0,
+          &quot;ineligibility_reasons&quot;: [],
+          &quot;item_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+          &quot;priority&quot;: 0.0,
+          &quot;risk_bound_sha256&quot;: null,
+          &quot;scientific_candidate_sha256&quot;: &quot;817256689eae2f8bdaee9ee5ea9ea20cd5e999cae29a6dc659505a2ebf5ec9c1&quot;
+        },
+        &quot;correction&quot;: null,
+        &quot;correction_provenance&quot;: null,
+        &quot;post_candidate_input_sha256&quot;: null,
+        &quot;post_candidates&quot;: null,
+        &quot;post_graph&quot;: null,
+        &quot;post_graph_sha256&quot;: null,
+        &quot;post_synthesis&quot;: null,
+        &quot;post_synthesis_sha256&quot;: null,
+        &quot;previous_state_sha256&quot;: &quot;dcf2f26e0f09de94cd0fba38b08374627ab63b574bfd995247aeb4b4f2d890ab&quot;,
+        &quot;previous_transition_sha256&quot;: null,
+        &quot;receipt&quot;: null,
+        &quot;transition_kind&quot;: &quot;selection&quot;,
+        &quot;transition_sha256&quot;: &quot;a58e7d5715c679649348a4b19aa04940e91ce62e513e1c1af663ac78c900a438&quot;,
+        &quot;transition_version&quot;: &quot;sequential-state-transition-v1&quot;
+      }
+    ]
+  },
+  &quot;source_evidence_graph&quot;: {
+    &quot;arms&quot;: [
+      {
+        &quot;arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;,
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;description&quot;: null,
+        &quot;label&quot;: &quot;500-mg&quot;,
+        &quot;role&quot;: &quot;intervention&quot;,
+        &quot;sample_size&quot;: 97
+      },
+      {
+        &quot;arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;description&quot;: null,
+        &quot;label&quot;: &quot;placebo group&quot;,
+        &quot;role&quot;: &quot;comparator&quot;,
+        &quot;sample_size&quot;: 96
+      }
+    ],
+    &quot;cohorts&quot;: [
+      {
+        &quot;identity&quot;: {
+          &quot;basis&quot;: &quot;reported_registry_id&quot;,
+          &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+          &quot;dataset_ids&quot;: [],
+          &quot;rationale&quot;: null,
+          &quot;registry_ids&quot;: [
+            &quot;NCT01437787&quot;
+          ],
+          &quot;source_labels&quot;: [
+            &quot;NCT01437787&quot;
+          ]
+        },
+        &quot;population_description&quot;: null,
+        &quot;recruitment_period&quot;: null,
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;,
+        &quot;total_sample_size&quot;: null
+      }
+    ],
+    &quot;contrasts&quot;: [
+      {
+        &quot;cohort_id&quot;: &quot;cohort-150fc65f0093b4861c9f&quot;,
+        &quot;comparator_arm_id&quot;: &quot;arm-77ebd38d7cfdc2343ba7&quot;,
+        &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+        &quot;estimand&quot;: &quot;between_group_effect_intervention_or_exposure_vs_comparator_on_reported_measure&quot;,
+        &quot;label&quot;: &quot;vs&quot;,
+        &quot;positive_direction_means&quot;: &quot;higher_reported_outcome_value_or_event_frequency_in_intervention_or_exposure_than_comparator&quot;,
+        &quot;treatment_arm_id&quot;: &quot;arm-2247ed4c021614867440&quot;
+      }
+    ],
+    &quot;evidence_spans&quot;: [
+      {
+        &quot;char_end&quot;: 1586,
+        &quot;char_start&quot;: 1361,
+        &quot;line_ids&quot;: [
+          &quot;L6&quot;
+        ],
+        &quot;page&quot;: null,
+        &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;,
+        &quot;roles&quot;: [
+          &quot;numerical_result&quot;
+        ],
+        &quot;section&quot;: &quot;Abstract&quot;,
+        &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+        &quot;span_id&quot;: &quot;span-a38f5bbb3ed30d9b6a76&quot;
+      }
+    ],
+    &quot;graph_schema_version&quot;: &quot;1&quot;,
+    &quot;outcome_estimates&quot;: [
+      {
+        &quot;analysis_population&quot;: null,
+        &quot;contrast_id&quot;: &quot;contrast-89b255b187b09d90503f&quot;,
+        &quot;effect&quot;: {
+          &quot;availability&quot;: &quot;available&quot;,
+          &quot;ci_level&quot;: 0.95,
+          &quot;ci_lower&quot;: null,
+          &quot;ci_upper&quot;: null,
+          &quot;contrast&quot;: &quot;vs&quot;,
+          &quot;control_events&quot;: 1,
+          &quot;control_mean&quot;: null,
+          &quot;control_n&quot;: null,
+          &quot;control_sd&quot;: null,
+          &quot;control_total&quot;: 96,
+          &quot;effect_format&quot;: &quot;odds_ratio&quot;,
+          &quot;equivalence_conclusion&quot;: &quot;not_tested&quot;,
+          &quot;equivalence_margin&quot;: null,
+          &quot;estimate&quot;: null,
+          &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+          &quot;moderators&quot;: {},
+          &quot;outcome&quot;: &quot;spleen response&quot;,
+          &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+          &quot;provenance&quot;: {
+            &quot;extraction_method&quot;: &quot;computed_from_reported_statistics&quot;,
+            &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;,
+            &quot;source_quote&quot;: &quot;The primary end point was achieved by 35 of 96 (36% [95% CI, 27%-46%]) and 39 of 97 (40% [95% CI, 30%-50%]) patients in the fedratinib 400-mg and 500-mg groups, vs 1 of 96 (1% [95% CI, 0%-3%]) in the placebo group (P &lt; .001).&quot;
+          },
+          &quot;reported_p_value&quot;: null,
+          &quot;reported_significance&quot;: &quot;not_reported&quot;,
+          &quot;standard_error&quot;: null,
+          &quot;treatment_events&quot;: 39,
+          &quot;treatment_mean&quot;: null,
+          &quot;treatment_n&quot;: null,
+          &quot;treatment_sd&quot;: null,
+          &quot;treatment_total&quot;: 97,
+          &quot;unit&quot;: null,
+          &quot;variance&quot;: null
+        },
+        &quot;estimate_id&quot;: &quot;estimate-7d0d387e23f2b8849ee2&quot;,
+        &quot;evidence_span_ids&quot;: [
+          &quot;span-a38f5bbb3ed30d9b6a76&quot;
+        ],
+        &quot;legacy_effect_size_raw&quot;: null,
+        &quot;legacy_reported_direction&quot;: null,
+        &quot;outcome_name&quot;: &quot;spleen response&quot;,
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;timepoint&quot;: {
+          &quot;anchor&quot;: &quot;week&quot;,
+          &quot;kind&quot;: &quot;exact&quot;,
+          &quot;lower&quot;: null,
+          &quot;raw_label&quot;: &quot;week 24&quot;,
+          &quot;unit&quot;: &quot;week&quot;,
+          &quot;upper&quot;: null,
+          &quot;value&quot;: 24.0
+        }
+      }
+    ],
+    &quot;publications&quot;: [
+      {
+        &quot;doc_id&quot;: &quot;metasyn-corpus:20&quot;,
+        &quot;doi&quot;: &quot;10.1001/jamaoncol.2015.1590&quot;,
+        &quot;paper_id&quot;: &quot;metasyn-corpus:20&quot;,
+        &quot;pmid&quot;: &quot;26181658&quot;,
+        &quot;publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;publication_year&quot;: 2015,
+        &quot;title&quot;: &quot;Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial.&quot;
+      }
+    ],
+    &quot;studies&quot;: [
+      {
+        &quot;design&quot;: &quot;Randomized Clinical Trial&quot;,
+        &quot;primary_publication_id&quot;: &quot;metasyn-publication:20&quot;,
+        &quot;publication_ids&quot;: [
+          &quot;metasyn-publication:20&quot;
+        ],
+        &quot;registration_ids&quot;: [
+          &quot;NCT01437787&quot;
+        ],
+        &quot;risk_of_bias&quot;: {
+          &quot;assessor&quot;: null,
+          &quot;domains&quot;: [],
+          &quot;overall&quot;: &quot;not_assessed&quot;,
+          &quot;tool&quot;: null
+        },
+        &quot;study_id&quot;: &quot;study-5cad03984fe17dbcf585&quot;
+      }
+    ]
+  },
+  &quot;source_evidence_graph_sha256&quot;: &quot;28348aeeee66e26b97e930c650b550998590b332b758b533dcf15736c6cc4cc7&quot;,
+  &quot;status&quot;: &quot;abstained&quot;,
+  &quot;synthesis&quot;: {
+    &quot;condition_analysis&quot;: null,
+    &quot;directional_fallback&quot;: {
+      &quot;cohort_direction_counts&quot;: {
+        &quot;decrease&quot;: 0,
+        &quot;exact_zero&quot;: 0,
+        &quot;increase&quot;: 1,
+        &quot;mixed&quot;: 0,
+        &quot;unavailable&quot;: 0
+      },
+      &quot;cohort_directions&quot;: {
+        &quot;cohort-150fc65f0093b4861c9f&quot;: &quot;increase&quot;
+      },
+      &quot;contrast&quot;: &quot;vs&quot;,
+      &quot;limitations&quot;: [
+        &quot;effect_magnitudes_and_precision_are_not_combined&quot;,
+        &quot;reported_non_significance_is_not_evidence_of_zero_effect&quot;,
+        &quot;exact_zero_requires_a_literal_zero_point_estimate&quot;
+      ],
+      &quot;method&quot;: &quot;cohort_level_point_estimate_signs_only&quot;,
+      &quot;n_cohorts&quot;: 1,
+      &quot;n_effects_input&quot;: 1,
+      &quot;n_papers&quot;: 1,
+      &quot;n_publications&quot;: 1,
+      &quot;outcome&quot;: &quot;spleen response&quot;,
+      &quot;provenance&quot;: {
+        &quot;cohort-150fc65f0093b4861c9f&quot;: {
+          &quot;finding_ids&quot;: [
+            &quot;finding-db2ddaf9d5bacb9d7c0a&quot;
+          ],
+          &quot;paper_ids&quot;: [
+            &quot;metasyn-corpus:20&quot;
+          ],
+          &quot;source_locators&quot;: [
+            &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+          ]
+        }
+      },
+      &quot;reason&quot;: &quot;fewer_than_two_nonzero_cohort_signs&quot;,
+      &quot;status&quot;: &quot;insufficient&quot;
+    },
+    &quot;evidence_graph&quot;: {
+      &quot;excluded_estimate_ids&quot;: [],
+      &quot;graph_schema_version&quot;: &quot;1&quot;,
+      &quot;risk_feature_interpretation&quot;: &quot;prospective_label_free_inputs_not_a_calibrated_error_probability&quot;,
+      &quot;risk_features&quot;: {
+        &quot;feature_schema_version&quot;: &quot;1&quot;,
+        &quot;fraction_high_or_critical_risk_of_bias&quot;: 0.0,
+        &quot;fraction_missing_source_quote&quot;: 0.0,
+        &quot;fraction_non_estimable&quot;: 0.0,
+        &quot;fraction_risk_of_bias_not_assessed&quot;: 1.0,
+        &quot;fraction_timepoint_not_reported&quot;: 0.0,
+        &quot;fraction_unresolved_cohort_identity&quot;: 0.0,
+        &quot;n_cohorts&quot;: 1,
+        &quot;n_estimates&quot;: 1,
+        &quot;n_publications&quot;: 1
+      },
+      &quot;selected_cohort_count&quot;: 1,
+      &quot;selected_cohort_ids&quot;: [
+        &quot;cohort-150fc65f0093b4861c9f&quot;
+      ],
+      &quot;selected_estimate_ids&quot;: [
+        &quot;estimate-7d0d387e23f2b8849ee2&quot;
+      ],
+      &quot;selection_reason&quot;: null,
+      &quot;selection_status&quot;: &quot;ready&quot;,
+      &quot;warnings&quot;: [
+        &quot;risk_of_bias_not_assessed_for_one_or_more_estimates&quot;
+      ]
+    },
+    &quot;mode&quot;: &quot;insufficient&quot;,
+    &quot;quantitative&quot;: {
+      &quot;input_provenance&quot;: {
+        &quot;metasyn-corpus:20&quot;: [
+          {
+            &quot;finding_id&quot;: &quot;finding-db2ddaf9d5bacb9d7c0a&quot;,
+            &quot;source_locator&quot;: &quot;parquet:data/cache/metasyn/corpus/train-00000-of-00006.parquet#row_group=0&amp;row_in_group=20&amp;index_base=0&amp;ID=20&quot;
+          }
+        ]
+      },
+      &quot;method&quot;: {
+        &quot;assumed_within_cohort_correlation&quot;: 1.0,
+        &quot;cluster_handling&quot;: &quot;one_conservative_aggregate_per_explicit_cohort&quot;,
+        &quot;confidence_level&quot;: 0.95,
+        &quot;model&quot;: &quot;random_effects&quot;,
+        &quot;tau_squared&quot;: &quot;generalized_paule_mandel&quot;,
+        &quot;uncertainty&quot;: &quot;modified_knapp_hartung&quot;
+      },
+      &quot;n_cohorts&quot;: 1,
+      &quot;n_effects_input&quot;: 1,
+      &quot;n_papers&quot;: 1,
+      &quot;n_publications&quot;: 1,
+      &quot;reason&quot;: &quot;fewer_than_two_cohorts&quot;,
+      &quot;status&quot;: &quot;insufficient&quot;
+    },
+    &quot;status&quot;: &quot;insufficient&quot;
+  },
+  &quot;synthesis_sha256&quot;: &quot;80e9058ff090e4557ba40162194243c8cb568afbbbe4c83800468ef89ac7179c&quot;
+}</pre>
+  </details>
+  <p class="muted">Generated 2026-08-29T09:59:55.062941+00:00;
+    no remote assets.</p>
+</body>
+</html>

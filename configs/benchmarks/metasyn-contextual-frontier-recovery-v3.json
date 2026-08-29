@@ -1,0 +1,23 @@
+{
+  "accepted_compiled_schema_sha256": "4261b57af87674350eba3cbbc7205ee97d40b2741e1fd1ed0bcce52cb4b027cd",
+  "accepted_original_schema_sha256": "f7d086fa8f01945ac54a34c1e16b9a911417e1b3970bf67b73115844412242c0",
+  "accepted_wire_schema_sha256": "fe266be4e582688a8c841a3b4eea6763d6f889627f8ed4b46366d1dde8b7b370",
+  "application_retries_per_request": 0,
+  "calibration_authority": false,
+  "claim_release_authority": false,
+  "config_version": "metasyn-contextual-frontier-recovery-config-v3",
+  "effort": "high",
+  "extraction_accuracy_authority": false,
+  "fallback_requests_permitted": 0,
+  "graph_construction_mechanics_authority": false,
+  "immutable_v1_requests_retry_permitted": false,
+  "immutable_v2_request_retry_permitted": false,
+  "maximum_provider_calls": 1,
+  "model": "claude-fable-5",
+  "operator_authorized_source_transmission": true,
+  "post_hoc_target_conditioned": true,
+  "request_key": "row17-candidate3-fable5-high-recovery-v3",
+  "scientific_synthesis_authority": false,
+  "sdk_retries_per_request": 0,
+  "synthesis_input_authority": false
+}

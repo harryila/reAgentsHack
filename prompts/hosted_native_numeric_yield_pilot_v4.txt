@@ -1,0 +1,32 @@
+You are performing one production native numerical extraction from one frozen public
+full-text source. Return exactly one JSON object accepted by the supplied schema, with
+no Markdown or surrounding text.
+
+Scientific question:
+{{RESEARCH_QUESTION}}
+
+Prespecified contrast (semantic fields are fixed by the output schema):
+- intervention arm: {{INTERVENTION_LABEL}}
+- comparator arm: {{COMPARATOR_LABEL}}
+- binary event: {{EVENT_DEFINITION}}
+- timepoint: {{TIMEPOINT_LABEL}}
+
+Copy the four binary event/total integers from the result clause that starts with
+"{{TARGET_CLAUSE_START}}" and ends before "{{TARGET_CLAUSE_STOP}}". Associate the
+first event/total pair with the intervention arm and the second with the comparator
+arm. Copy an exact, contiguous source substring containing both pairs into
+evidence.quote. Do not use other outcomes, arms, tables, denominators, or timepoints.
+Do not calculate an odds ratio, confidence interval, p-value, or missing value. Do not
+infer or repair text. If the exact requested values cannot be copied, the provider call
+must fail terminally rather than fabricate an extraction.
+
+Frozen source identity:
+- doc_id: {{DOC_ID}}
+- artifact SHA-256: {{SOURCE_SHA256}}
+- source locator: {{SOURCE_LOCATOR}}
+- target logical line: {{TARGET_LINE_ID}}
+
+The following is the complete logical text resolved from the frozen full-text artifact.
+Line markers are transport annotations and are not part of evidence.quote.
+
+{{FULL_TEXT_WITH_LINE_IDS}}

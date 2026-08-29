@@ -25,12 +25,8 @@ from literature_multiverse.lineage import hash_canonical, sha256_file
 READINESS_VERSION = "evidence-inference-gepa-scaled-readiness-v1"
 CONFIG_VERSION = "evidence-inference-gepa-scaled-readiness-config-v1"
 DEFAULT_CONFIG_PATH = Path("configs/benchmarks/evidence-inference-gepa-scaled-readiness-v1.json")
-_EXPECTED_CONFIG_SHA256 = (
-    "57d7671d8a9b2d361c19285efe726a22297b9293f3b52b73e763dcab97fe0d67"
-)
-_EXPECTED_CONFIG_FILE_SHA256 = (
-    "671068c0f9791b4e62802173eaccf23fac688f81d09fc0466868b1e3e3a390a0"
-)
+_EXPECTED_CONFIG_SHA256 = "57d7671d8a9b2d361c19285efe726a22297b9293f3b52b73e763dcab97fe0d67"
+_EXPECTED_CONFIG_FILE_SHA256 = "671068c0f9791b4e62802173eaccf23fac688f81d09fc0466868b1e3e3a390a0"
 
 _SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 _SPLITS = ("train", "dev", "test")
@@ -269,7 +265,9 @@ class LocalVariantFactsV1(_FrozenModel):
             raise ValueError("ei_gepa_readiness_v1_split_order_invalid")
         expected = _EXPECTED_VARIANTS[self.variant]
         if any(
-            (item.rows, item.papers) != expected[item.split] or item.groups != item.papers
+            (item.rows, item.papers) != expected[item.split]
+            or item.groups != item.papers
+            or item.advertised_jsonl_sha256 != _EXPECTED_SPLIT_HASHES[self.variant][item.split]
             for item in self.splits
         ):
             raise ValueError("ei_gepa_readiness_v1_variant_count_mismatch")
@@ -342,18 +340,46 @@ class EvidenceInferenceGEPAScaledReadinessReceiptV1(_FrozenModel):
 
     @model_validator(mode="after")
     def validate_receipt(self) -> EvidenceInferenceGEPAScaledReadinessReceiptV1:
+        observed_artifacts = {
+            item.role: (item.relative_path, item.file_sha256) for item in self.metadata_artifacts
+        }
+        variant_hashes = {
+            item.variant: (
+                item.manifest_file_sha256,
+                item.conversion_report_file_sha256,
+            )
+            for item in self.local_variants
+        }
+        expected_variant_hashes = {
+            "full": (
+                _EXPECTED_ARTIFACTS["full_manifest"][1],
+                _EXPECTED_ARTIFACTS["full_conversion_report"][1],
+            ),
+            "low_budget_12": (
+                _EXPECTED_ARTIFACTS["low_budget_manifest"][1],
+                _EXPECTED_ARTIFACTS["low_budget_conversion_report"][1],
+            ),
+            "pilot30": (
+                _EXPECTED_ARTIFACTS["pilot30_manifest"][1],
+                _EXPECTED_ARTIFACTS["pilot30_conversion_report"][1],
+            ),
+        }
         if (
             self.metadata_artifacts != sorted(self.metadata_artifacts, key=lambda item: item.role)
+            or observed_artifacts != _EXPECTED_ARTIFACTS
             or self.metadata_artifact_membership_sha256
             != hash_canonical([item.model_dump(mode="json") for item in self.metadata_artifacts])
             or [item.variant for item in self.local_variants]
             != ["full", "low_budget_12", "pilot30"]
+            or variant_hashes != expected_variant_hashes
             or self.local_variant_membership_sha256
             != hash_canonical([item.model_dump(mode="json") for item in self.local_variants])
             or tuple(self.blocker_codes) != _EXPECTED_BLOCKERS
             or tuple(self.required_separate_evaluation_objectives)
             != _SEPARATE_EVALUATION_OBJECTIVES
             or tuple(self.external_evaluation_requirements) != _EXTERNAL_REQUIREMENTS
+            or self.config_sha256 != _EXPECTED_CONFIG_SHA256
+            or self.config_file_sha256 != _EXPECTED_CONFIG_FILE_SHA256
         ):
             raise ValueError("ei_gepa_readiness_v1_receipt_alias_mismatch")
         payload = self.model_dump(mode="json", exclude={"receipt_sha256"})

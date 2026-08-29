@@ -1,9 +1,10 @@
 """Fail-closed grounding of native extractions against immutable local sources.
 
-This module deliberately supports only the two source locators emitted by the native
-source-manifest bridge.  It does not search for relocated files or rows.  A source is
-usable only when its repository-relative path, exact file bytes, physical locator, and
-row/document identity all agree with the frozen :class:`SourceDocumentArtifact`.
+This module deliberately supports only locators emitted by the native source-manifest
+bridges: numbered JSON, physical Parquet rows, and hash-addressed harvester text/XML/HTML
+objects. It does not search for relocated files or rows. A source is usable only when
+its repository-relative path, exact file bytes, physical locator, and row/document
+identity all agree with the frozen :class:`SourceDocumentArtifact`.
 """
 
 from __future__ import annotations
@@ -14,7 +15,9 @@ import math
 import os
 import re
 import stat
+import xml.etree.ElementTree as ET
 from enum import StrEnum
+from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
 from typing import Annotated, Any, Literal
 from urllib.parse import parse_qsl
@@ -36,6 +39,9 @@ from literature_multiverse.grounding import (
     ground_evidence,
     normalize_evidence_text,
 )
+from literature_multiverse.hosted_native_extraction_contract import (
+    HostedNativeExtractionRunV1,
+)
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.models import SHA256_RE, ContractModel, GroundingStatus
 from literature_multiverse.native_extraction import (
@@ -44,6 +50,10 @@ from literature_multiverse.native_extraction import (
     freeze_native_publication_extraction,
     native_extraction_prompt_replacements,
     native_publication_extraction_json_schema,
+)
+from literature_multiverse.pipeline_fingerprint import (
+    PipelineFingerprintError,
+    require_pipeline_fingerprint_match,
 )
 from literature_multiverse.prompting import render_prompt_text
 from literature_multiverse.typed_extraction import (
@@ -58,6 +68,7 @@ from literature_multiverse.typed_extraction import (
 
 _JSON_LOCATOR = re.compile(r"^json:(?P<path>[^#]+)#/(?P<pointer>[^/]*)$")
 _PARQUET_LOCATOR = re.compile(r"^parquet:(?P<path>[^#]+)#(?P<query>.+)$")
+_HARVEST_LOCATOR = re.compile(r"^harvest-sha256:(?P<sha256>[0-9a-f]{64})$")
 _LINE_ID = re.compile(r"^L(?P<number>[1-9][0-9]*)$")
 _PARQUET_KEYS = frozenset({"row_group", "row_in_group", "index_base", "ID"})
 _FORBIDDEN_SECTIONS = frozenset(
@@ -78,6 +89,8 @@ class NativeExtractionArtifactDigest(ContractModel):
         "map_output",
         "provider_artifact",
         "provider_execution_receipt",
+        "hosted_execution_run",
+        "pipeline_fingerprint",
         "prediction_input_bundle",
         "prediction_ledger",
         "generation_receipt",
@@ -124,6 +137,7 @@ class NativeRenderedPromptArtifact(ContractModel):
     renderer_id: Literal[
         "repository-native-extraction-v1",
         "native-ollama-row-projection-v1",
+        "hosted-native-extraction-v1",
     ]
     prompt_version: Annotated[str, Field(min_length=1)]
     template_path: Annotated[str, Field(min_length=1)]
@@ -183,15 +197,18 @@ class NativeProviderExecutionReceipt(ContractModel):
         "native-provider-execution-receipt-v1"
     )
     execution_id: Annotated[str, Field(min_length=1)]
-    execution_mode: Literal["paperclip_archived", "paperclip_live", "ollama_local"]
+    execution_mode: Literal[
+        "paperclip_archived",
+        "paperclip_live",
+        "ollama_local",
+        "hosted_exact_once",
+    ]
     provider_id: Annotated[str, Field(min_length=1)]
     model_id: Annotated[str, Field(min_length=1)]
     model_revision: str | None = None
     runtime_id: Annotated[str, Field(min_length=1)]
     runtime_version: Annotated[str, Field(min_length=1)]
-    runtime_metadata: dict[str, str | int | float | bool | None] = Field(
-        default_factory=dict
-    )
+    runtime_metadata: dict[str, str | int | float | bool | None] = Field(default_factory=dict)
     execution_identity_sha256: str
     raw_call_ledger: dict[str, Any] | list[Any]
     raw_call_ledger_sha256: str
@@ -252,20 +269,17 @@ class NativeExtractionExecutionContext(ContractModel):
         "paperclip_archived",
         "paperclip_live",
         "ollama_local",
+        "hosted_exact_once",
     ]
     question_config: QuestionConfig
     question_config_sha256: str
     pipeline_fingerprint_sha256: str
     rendered_prompts: Annotated[list[NativeRenderedPromptArtifact], Field(min_length=1)]
-    evaluation_schemas: Annotated[
-        list[NativeEvaluationSchemaArtifact], Field(min_length=1)
-    ]
+    evaluation_schemas: Annotated[list[NativeEvaluationSchemaArtifact], Field(min_length=1)]
     provider_execution_receipts: Annotated[
         list[NativeProviderExecutionReceipt], Field(min_length=1)
     ]
-    input_artifacts: Annotated[
-        list[NativeExtractionArtifactDigest], Field(min_length=1)
-    ]
+    input_artifacts: Annotated[list[NativeExtractionArtifactDigest], Field(min_length=1)]
     source_manifest_content_sha256: str
     source_manifest_records: Annotated[int, Field(ge=1)]
     corpus_cutoff: Annotated[str, Field(min_length=1)]
@@ -302,9 +316,9 @@ class NativeExtractionExecutionContext(ContractModel):
             identities = [identity(item) for item in values]
             if identities != sorted(set(identities)):
                 raise ValueError(f"native_extraction_context_{label}_not_sorted_unique")
-        if {
-            receipt.execution_mode for receipt in self.provider_execution_receipts
-        } != {self.extraction_mode}:
+        if {receipt.execution_mode for receipt in self.provider_execution_receipts} != {
+            self.extraction_mode
+        }:
             raise ValueError("native_extraction_context_execution_mode_mismatch")
         receipt_execution_ids = {
             receipt.execution_id for receipt in self.provider_execution_receipts
@@ -316,20 +330,12 @@ class NativeExtractionExecutionContext(ContractModel):
         }
         if not artifact_execution_ids <= receipt_execution_ids:
             raise ValueError("native_extraction_context_artifact_execution_id_unbound")
-        if not any(
-            schema.role == "official_postvalidation"
-            for schema in self.evaluation_schemas
-        ):
+        if not any(schema.role == "official_postvalidation" for schema in self.evaluation_schemas):
             raise ValueError("native_extraction_context_official_schema_missing")
-        if sum(
-            artifact.role == "source_manifest_input"
-            for artifact in self.input_artifacts
-        ) != 1:
+        if sum(artifact.role == "source_manifest_input" for artifact in self.input_artifacts) != 1:
             raise ValueError("native_extraction_context_source_manifest_artifact_required")
         map_artifacts = [
-            artifact
-            for artifact in self.input_artifacts
-            if artifact.role == "map_output"
+            artifact for artifact in self.input_artifacts if artifact.role == "map_output"
         ]
         if self.extraction_mode.startswith("paperclip_") and not map_artifacts:
             raise ValueError("paperclip_extraction_context_requires_map_artifact")
@@ -354,9 +360,7 @@ class NativeExtractionExecutionContext(ContractModel):
         if self.extraction_mode == "ollama_local":
             if len(self.provider_execution_receipts) != 1:
                 raise ValueError("ollama_extraction_context_requires_one_execution_receipt")
-            prompt_hashes = {
-                prompt.rendered_prompt_sha256 for prompt in self.rendered_prompts
-            }
+            prompt_hashes = {prompt.rendered_prompt_sha256 for prompt in self.rendered_prompts}
             generation_schema_hashes = {
                 schema.schema_sha256
                 for schema in self.evaluation_schemas
@@ -380,9 +384,7 @@ class NativeExtractionExecutionContext(ContractModel):
                         raise ValueError("ollama_extraction_context_call_receipt_invalid")
                     prompt_sha256 = call.get("rendered_prompt_sha256")
                     schema_sha256 = call.get("generation_schema_sha256")
-                    if not isinstance(prompt_sha256, str) or not isinstance(
-                        schema_sha256, str
-                    ):
+                    if not isinstance(prompt_sha256, str) or not isinstance(schema_sha256, str):
                         raise ValueError("ollama_extraction_context_call_identity_missing")
                     ledger_prompt_hashes.add(prompt_sha256)
                     ledger_schema_hashes.add(schema_sha256)
@@ -431,6 +433,102 @@ class NativeExtractionExecutionContext(ContractModel):
                 or set(prediction_ledgers[0].execution_ids) != receipt_execution_ids
             ):
                 raise ValueError("ollama_extraction_context_prediction_artifact_mismatch")
+        if self.extraction_mode == "hosted_exact_once":
+            if map_artifacts:
+                raise ValueError("hosted_extraction_context_forbids_map_artifact")
+            if len(self.provider_execution_receipts) != 1:
+                raise ValueError("hosted_extraction_context_requires_one_execution_receipt")
+            receipt = self.provider_execution_receipts[0]
+            try:
+                run = HostedNativeExtractionRunV1.model_validate(receipt.raw_call_ledger)
+            except ValueError as exc:
+                raise ValueError("hosted_extraction_context_raw_ledger_invalid") from exc
+            if (
+                receipt.execution_id != run.run_id
+                or receipt.call_count != len(run.calls)
+                or receipt.provider_id != run.provider_identity.provider_id
+                or receipt.model_id != run.provider_identity.model_id
+                or receipt.model_revision != run.provider_identity.model_revision
+                or receipt.runtime_id != run.provider_identity.runtime_id
+                or receipt.runtime_version != run.provider_identity.runtime_version
+                or self.question_config != run.question_config
+                or self.question_config_sha256 != run.question_config_sha256
+                or self.pipeline_fingerprint_sha256 != run.pipeline_fingerprint_sha256
+                or self.source_manifest_content_sha256 != run.source_manifest_sha256
+                or self.source_manifest_records != run.source_manifest_records
+                or self.corpus_cutoff != run.corpus_cutoff
+            ):
+                raise ValueError("hosted_extraction_context_run_alias_mismatch")
+            prompt_aliases = {
+                (
+                    item.prompt_id,
+                    item.renderer_id,
+                    item.prompt_version,
+                    item.template_path,
+                    item.template_sha256,
+                    item.rendered_prompt,
+                    item.rendered_prompt_sha256,
+                )
+                for item in self.rendered_prompts
+            }
+            expected_prompt_aliases = {
+                (
+                    item.prompt_id,
+                    item.renderer_id,
+                    item.prompt_version,
+                    item.template_path,
+                    item.template_sha256,
+                    item.rendered_prompt,
+                    item.rendered_prompt_sha256,
+                )
+                for item in run.prompts
+            }
+            schema_aliases = {
+                (item.schema_id, item.role, item.schema_sha256) for item in self.evaluation_schemas
+            }
+            expected_schema_aliases = {
+                (item.schema_id, item.role, item.schema_sha256) for item in run.schemas
+            }
+            if (
+                prompt_aliases != expected_prompt_aliases
+                or schema_aliases != expected_schema_aliases
+            ):
+                raise ValueError("hosted_extraction_context_prompt_schema_mismatch")
+            artifacts_by_role = {
+                role: [item for item in self.input_artifacts if item.role == role]
+                for role in (
+                    "source_manifest_input",
+                    "hosted_execution_run",
+                    "pipeline_fingerprint",
+                    "provider_execution_receipt",
+                )
+            }
+            if set(item.role for item in self.input_artifacts) != set(artifacts_by_role) or any(
+                len(items) != 1 for items in artifacts_by_role.values()
+            ):
+                raise ValueError("hosted_extraction_context_artifact_set_incomplete")
+            if (
+                receipt.runtime_metadata
+                != {
+                    "hosted_run_sha256": run.run_sha256,
+                    "provider_identity_sha256": run.provider_identity_sha256,
+                }
+                or artifacts_by_role["source_manifest_input"][0].sha256
+                != hash_canonical(run.source_manifest)
+                or artifacts_by_role["hosted_execution_run"][0].sha256 != hash_canonical(run)
+                or artifacts_by_role["pipeline_fingerprint"][0].sha256
+                != hash_canonical(run.pipeline_fingerprint)
+                or artifacts_by_role["provider_execution_receipt"][0].sha256
+                != hash_canonical(receipt)
+            ):
+                raise ValueError("hosted_extraction_context_artifact_hash_mismatch")
+            for role in (
+                "hosted_execution_run",
+                "pipeline_fingerprint",
+                "provider_execution_receipt",
+            ):
+                if artifacts_by_role[role][0].execution_ids != [run.run_id]:
+                    raise ValueError("hosted_extraction_context_artifact_execution_mismatch")
         payload = self.model_dump(mode="json", exclude={"context_sha256"})
         if hash_canonical(payload) != self.context_sha256:
             raise ValueError("native_extraction_execution_context_hash_mismatch")
@@ -440,7 +538,12 @@ class NativeExtractionExecutionContext(ContractModel):
 def freeze_native_provider_execution_receipt(
     *,
     execution_id: str,
-    execution_mode: Literal["paperclip_archived", "paperclip_live", "ollama_local"],
+    execution_mode: Literal[
+        "paperclip_archived",
+        "paperclip_live",
+        "ollama_local",
+        "hosted_exact_once",
+    ],
     provider_id: str,
     model_id: str,
     runtime_id: str,
@@ -476,7 +579,12 @@ def freeze_native_provider_execution_receipt(
 
 def freeze_native_extraction_execution_context(
     *,
-    extraction_mode: Literal["paperclip_archived", "paperclip_live", "ollama_local"],
+    extraction_mode: Literal[
+        "paperclip_archived",
+        "paperclip_live",
+        "ollama_local",
+        "hosted_exact_once",
+    ],
     question_config: QuestionConfig,
     pipeline_fingerprint_sha256: str,
     rendered_prompts: list[NativeRenderedPromptArtifact],
@@ -494,9 +602,7 @@ def freeze_native_extraction_execution_context(
         "question_config_sha256": config_sha256(question_config),
         "pipeline_fingerprint_sha256": pipeline_fingerprint_sha256,
         "rendered_prompts": sorted(rendered_prompts, key=lambda item: item.prompt_id),
-        "evaluation_schemas": sorted(
-            evaluation_schemas, key=lambda item: item.schema_id
-        ),
+        "evaluation_schemas": sorted(evaluation_schemas, key=lambda item: item.schema_id),
         "provider_execution_receipts": sorted(
             provider_execution_receipts, key=lambda item: item.execution_id
         ),
@@ -552,7 +658,11 @@ class ResolvedNativeSource(ContractModel):
 
     model_config = ConfigDict(str_strip_whitespace=False)
 
-    source_kind: Literal["antiox_json_lines", "metasyn_parquet_row"]
+    source_kind: Literal[
+        "antiox_json_lines",
+        "metasyn_parquet_row",
+        "harvest_archive_text",
+    ]
     artifact_path: Annotated[str, Field(min_length=1)]
     artifact_sha256: str
     source_locator: Annotated[str, Field(min_length=1)]
@@ -582,10 +692,7 @@ class ResolvedNativeSource(ContractModel):
             expected_byte_end = byte_cursor + len(line.text.encode("utf-8"))
             if line.char_start != cursor or line.char_end != expected_end:
                 raise ValueError("resolved_native_source_line_offset_mismatch")
-            if (
-                line.utf8_byte_start != byte_cursor
-                or line.utf8_byte_end != expected_byte_end
-            ):
+            if line.utf8_byte_start != byte_cursor or line.utf8_byte_end != expected_byte_end:
                 raise ValueError("resolved_native_source_line_byte_offset_mismatch")
             cursor = expected_end + (1 if index < len(self.lines) - 1 else 0)
             byte_cursor = expected_byte_end + (1 if index < len(self.lines) - 1 else 0)
@@ -913,14 +1020,10 @@ class TypedEvidenceGroundingPackage(ContractModel):
             "typed-evidence-grounding-package-v2",
         }:
             if any(membership_fields_present):
-                raise ValueError(
-                    "typed_evidence_grounding_package_v1_v2_forbids_source_membership"
-                )
+                raise ValueError("typed_evidence_grounding_package_v1_v2_forbids_source_membership")
         else:
             if not all(membership_fields_present):
-                raise ValueError(
-                    "typed_evidence_grounding_package_v3_requires_source_membership"
-                )
+                raise ValueError("typed_evidence_grounding_package_v3_requires_source_membership")
             assert self.source_manifest is not None
             assert self.source_manifest_sha256 is not None
             if hash_canonical(self.source_manifest) != self.source_manifest_sha256:
@@ -928,12 +1031,9 @@ class TypedEvidenceGroundingPackage(ContractModel):
             if self.source_manifest.question_id != self.corpus.question_id:
                 raise ValueError("typed_evidence_grounding_package_source_question_mismatch")
             records = {
-                record.publication.publication_id: record
-                for record in self.source_manifest.records
+                record.publication.publication_id: record for record in self.source_manifest.records
             }
-            fragments = {
-                fragment.publication_id: fragment for fragment in self.corpus.fragments
-            }
+            fragments = {fragment.publication_id: fragment for fragment in self.corpus.fragments}
             if set(records) != set(fragments):
                 raise ValueError("typed_evidence_grounding_package_source_membership_mismatch")
             for publication_id in sorted(records):
@@ -942,15 +1042,11 @@ class TypedEvidenceGroundingPackage(ContractModel):
                 if record.publication.model_dump(mode="json") != fragment.publication.model_dump(
                     mode="json"
                 ):
-                    raise ValueError(
-                        "typed_evidence_grounding_package_source_publication_mismatch"
-                    )
+                    raise ValueError("typed_evidence_grounding_package_source_publication_mismatch")
                 if record.source_document.model_dump(
                     mode="json"
                 ) != fragment.source_document.model_dump(mode="json"):
-                    raise ValueError(
-                        "typed_evidence_grounding_package_source_document_mismatch"
-                    )
+                    raise ValueError("typed_evidence_grounding_package_source_document_mismatch")
         if self.package_version == "typed-evidence-grounding-package-v4":
             receipt = self.extraction_context_receipt
             if receipt is None:
@@ -968,9 +1064,7 @@ class TypedEvidenceGroundingPackage(ContractModel):
                 raise ValueError("typed_evidence_grounding_package_context_question_mismatch")
             if self.corpus.corpus_sha256 != receipt.corpus_sha256:
                 raise ValueError("typed_evidence_grounding_package_context_corpus_hash_mismatch")
-            if self.grounding_validation.validation_sha256 != (
-                receipt.grounding_validation_sha256
-            ):
+            if self.grounding_validation.validation_sha256 != (receipt.grounding_validation_sha256):
                 raise ValueError("typed_evidence_grounding_package_context_grounding_mismatch")
             assert self.cohort_reconciliation is not None
             if self.cohort_reconciliation.receipt_sha256 != (
@@ -1060,9 +1154,7 @@ class NativeGroundingReplayVerification(ContractModel):
     )
     @classmethod
     def validate_hash_list(cls, value: list[str]) -> list[str]:
-        if value != sorted(set(value)) or any(
-            SHA256_RE.fullmatch(item) is None for item in value
-        ):
+        if value != sorted(set(value)) or any(SHA256_RE.fullmatch(item) is None for item in value):
             raise ValueError("native_grounding_replay_hash_list_invalid")
         return value
 
@@ -1081,9 +1173,7 @@ def _reverify_native_extraction_execution_context(
 ) -> None:
     """Recompute every context link available from repository and embedded bytes."""
 
-    validated = NativeExtractionExecutionContext.model_validate(
-        context.model_dump(mode="json")
-    )
+    validated = NativeExtractionExecutionContext.model_validate(context.model_dump(mode="json"))
     root = repository_root.resolve(strict=True)
     official = native_publication_extraction_json_schema()
     official_hash = hash_canonical(official)
@@ -1115,10 +1205,30 @@ def _reverify_native_extraction_execution_context(
         if (
             version != prompt.prompt_version
             or rendered != prompt.rendered_prompt
-            or hashlib.sha256(rendered.encode("utf-8")).hexdigest()
-            != prompt.rendered_prompt_sha256
+            or hashlib.sha256(rendered.encode("utf-8")).hexdigest() != prompt.rendered_prompt_sha256
         ):
             raise NativeGroundingError("native_extraction_rendered_prompt_replay_mismatch")
+    if validated.extraction_mode == "hosted_exact_once":
+        receipt = validated.provider_execution_receipts[0]
+        try:
+            if Path(os.path.abspath(repository_root)).is_symlink():
+                raise NativeGroundingError("hosted_native_repository_root_symlink_forbidden")
+            run = HostedNativeExtractionRunV1.model_validate(receipt.raw_call_ledger)
+            verification = require_pipeline_fingerprint_match(
+                expected=run.pipeline_fingerprint,
+                root=root,
+            )
+        except (ValueError, PipelineFingerprintError) as exc:
+            raise NativeGroundingError(
+                f"hosted_native_execution_context_replay_failed:{exc}"
+            ) from exc
+        if verification.computed_pipeline_sha256 != validated.pipeline_fingerprint_sha256:
+            raise NativeGroundingError("hosted_native_pipeline_replay_alias_mismatch")
+        for record in run.source_manifest.records:
+            resolve_native_source_document(
+                repository_root=root,
+                source_document=record.source_document,
+            )
 
 
 class _ResolutionFailure(NativeGroundingError):
@@ -1437,6 +1547,177 @@ def _resolve_metasyn_parquet(
     )
 
 
+def _projected_text(value: str) -> str:
+    """Project markup text without pretending the projection is a byte offset map."""
+
+    return " ".join(value.split())
+
+
+def _xml_local_name(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1].casefold()
+
+
+def _xml_text_lines(root: ET.Element) -> list[tuple[int, str, str]]:
+    rows: list[tuple[int, str, str]] = []
+    block_tags = {"p", "list-item", "td", "th", "caption"}
+
+    def append(text: str, section: str) -> None:
+        projected = _projected_text(text)
+        if projected:
+            rows.append((len(rows) + 1, section, projected))
+
+    def visit(node: ET.Element, section: str) -> None:
+        tag = _xml_local_name(str(node.tag))
+        if tag in {"script", "style", "ref-list"}:
+            return
+        next_section = section
+        if tag == "body":
+            next_section = "Body"
+        elif tag == "abstract":
+            next_section = "Abstract"
+        elif tag in {"sec", "section"}:
+            title = next(
+                (
+                    _projected_text("".join(child.itertext()))
+                    for child in node
+                    if _xml_local_name(str(child.tag)) in {"title", "heading"}
+                    and _projected_text("".join(child.itertext()))
+                ),
+                None,
+            )
+            if title is not None:
+                next_section = title
+        elif tag in {"results", "methods", "materials", "discussion", "conclusion"}:
+            next_section = tag.title()
+        if tag in block_tags:
+            append("".join(node.itertext()), next_section or "Body")
+            return
+        for child in node:
+            if _xml_local_name(str(child.tag)) not in {"title", "heading"}:
+                visit(child, next_section)
+
+    visit(root, "Body")
+    if not rows:
+        append("".join(root.itertext()), "Body")
+    return rows
+
+
+class _HarvestHtmlTextParser(HTMLParser):
+    _BLOCKS = frozenset({"p", "li", "td", "th", "figcaption"})
+    _HEADINGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.section = "Body"
+        self.rows: list[tuple[int, str, str]] = []
+        self._skip_depth = 0
+        self._block_depth = 0
+        self._block_parts: list[str] = []
+        self._heading: str | None = None
+        self._heading_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        del attrs
+        tag = tag.casefold()
+        if tag in {"script", "style"}:
+            self._skip_depth += 1
+            return
+        if self._skip_depth:
+            return
+        if tag in self._HEADINGS:
+            self._heading = tag
+            self._heading_parts = []
+        if tag in self._BLOCKS:
+            if self._block_depth == 0:
+                self._block_parts = []
+            self._block_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.casefold()
+        if tag in {"script", "style"} and self._skip_depth:
+            self._skip_depth -= 1
+            return
+        if self._skip_depth:
+            return
+        if self._heading == tag:
+            heading = _projected_text("".join(self._heading_parts))
+            if heading:
+                self.section = heading
+            self._heading = None
+            self._heading_parts = []
+        if tag in self._BLOCKS and self._block_depth:
+            self._block_depth -= 1
+            if self._block_depth == 0:
+                projected = _projected_text("".join(self._block_parts))
+                if projected:
+                    self.rows.append((len(self.rows) + 1, self.section, projected))
+                self._block_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self._skip_depth:
+            return
+        if self._heading is not None:
+            self._heading_parts.append(data)
+        if self._block_depth:
+            self._block_parts.append(data)
+
+
+def _resolve_harvest_archive_text(
+    *,
+    path: Path,
+    observed_sha256: str,
+    source_document: SourceDocumentArtifact,
+    locator_match: re.Match[str],
+) -> ResolvedNativeSource:
+    if locator_match.group("sha256") != observed_sha256:
+        raise _ResolutionFailure(
+            "harvest_source_locator_hash_mismatch", observed_sha256=observed_sha256
+        )
+    media_type = source_document.media_type.partition(";")[0].strip().casefold()
+    try:
+        text = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise _ResolutionFailure(
+            "harvest_source_not_utf8_text", observed_sha256=observed_sha256
+        ) from exc
+    try:
+        if media_type in {"application/xml", "text/xml", "application/xhtml+xml"}:
+            if re.search(r"<!\s*(?:DOCTYPE|ENTITY)\b", text, re.IGNORECASE):
+                raise _ResolutionFailure(
+                    "harvest_xml_doctype_or_entity_forbidden",
+                    observed_sha256=observed_sha256,
+                )
+            root = ET.fromstring(text)
+            raw_lines = _xml_text_lines(root)
+        elif media_type == "text/html":
+            parser = _HarvestHtmlTextParser()
+            parser.feed(text)
+            parser.close()
+            raw_lines = parser.rows
+        elif media_type == "text/plain":
+            projected = [_projected_text(line) for line in text.splitlines()]
+            raw_lines = [
+                (index, "Body", line)
+                for index, line in enumerate((line for line in projected if line), start=1)
+            ]
+        else:
+            raise _ResolutionFailure(
+                "harvest_source_media_type_unsupported", observed_sha256=observed_sha256
+            )
+    except ET.ParseError as exc:
+        raise _ResolutionFailure("harvest_xml_invalid", observed_sha256=observed_sha256) from exc
+    return _build_resolved_source(
+        source_kind="harvest_archive_text",
+        source_document=source_document,
+        observed_sha256=observed_sha256,
+        source_payload=[
+            {"line_number": number, "section": section, "text": text}
+            for number, section, text in raw_lines
+        ],
+        raw_lines=raw_lines,
+    )
+
+
 def resolve_native_source_document(
     *,
     repository_root: Path,
@@ -1460,6 +1741,14 @@ def resolve_native_source_document(
             observed_sha256=observed,
             source_document=source_document,
             locator_match=parquet_match,
+        )
+    harvest_match = _HARVEST_LOCATOR.fullmatch(source_document.source_locator)
+    if harvest_match is not None:
+        return _resolve_harvest_archive_text(
+            path=path,
+            observed_sha256=observed,
+            source_document=source_document,
+            locator_match=harvest_match,
         )
     raise NativeGroundingError("native_source_locator_unsupported")
 
@@ -1903,13 +2192,9 @@ def freeze_typed_evidence_grounding_package(
     """Freeze the only native typed-corpus package accepted by the public verifier."""
 
     if (source_manifest is None) != (corpus_cutoff is None):
-        raise NativeGroundingError(
-            "source_manifest_and_corpus_cutoff_must_be_supplied_together"
-        )
+        raise NativeGroundingError("source_manifest_and_corpus_cutoff_must_be_supplied_together")
     if extraction_context is not None and source_manifest is None:
-        raise NativeGroundingError(
-            "native_extraction_context_requires_source_manifest_and_cutoff"
-        )
+        raise NativeGroundingError("native_extraction_context_requires_source_manifest_and_cutoff")
 
     validation = validate_typed_corpus_grounding(
         corpus=corpus,
@@ -1934,9 +2219,7 @@ def freeze_typed_evidence_grounding_package(
         )
     )
     payload: dict[str, Any] = {
-        "package_version": (
-            package_version
-        ),
+        "package_version": (package_version),
         "corpus": corpus,
         "grounding_receipts": grounding_receipts,
         "grounding_validation": validation,
@@ -1962,9 +2245,7 @@ def freeze_typed_evidence_grounding_package(
         assert corpus_cutoff is not None
         if validated_context.question_config.question_id != corpus.question_id:
             raise NativeGroundingError("native_extraction_context_question_mismatch")
-        if validated_context.pipeline_fingerprint_sha256 != (
-            corpus.pipeline_fingerprint_sha256
-        ):
+        if validated_context.pipeline_fingerprint_sha256 != (corpus.pipeline_fingerprint_sha256):
             raise NativeGroundingError("native_extraction_context_pipeline_mismatch")
         manifest_sha256 = hash_canonical(validated_manifest)
         if validated_context.source_manifest_content_sha256 != manifest_sha256:
@@ -1980,27 +2261,66 @@ def freeze_typed_evidence_grounding_package(
             "execution_context": validated_context,
             "corpus_sha256": corpus.corpus_sha256,
             "grounding_validation_sha256": validation.validation_sha256,
-            "cohort_reconciliation_receipt_sha256": (
-                cohort_reconciliation.receipt_sha256
-            ),
-            "reconciled_graph_sha256": (
-                cohort_reconciliation.reconciled_graph_sha256
-            ),
+            "cohort_reconciliation_receipt_sha256": (cohort_reconciliation.receipt_sha256),
+            "reconciled_graph_sha256": (cohort_reconciliation.reconciled_graph_sha256),
             "source_manifest_sha256": manifest_sha256,
             "corpus_cutoff": corpus_cutoff,
             "package_core_sha256": core_sha256,
         }
-        payload["extraction_context_receipt"] = (
-            NativeExtractionContextReceipt.model_validate(
-                {
-                    **receipt_payload,
-                    "receipt_sha256": hash_canonical(receipt_payload),
-                }
-            )
+        payload["extraction_context_receipt"] = NativeExtractionContextReceipt.model_validate(
+            {
+                **receipt_payload,
+                "receipt_sha256": hash_canonical(receipt_payload),
+            }
         )
     return TypedEvidenceGroundingPackage.model_validate(
         {**payload, "package_sha256": hash_canonical(payload)}
     )
+
+
+def _reverify_hosted_exact_once_projection(
+    *,
+    package: TypedEvidenceGroundingPackage,
+    run: HostedNativeExtractionRunV1,
+) -> None:
+    """Join every hosted terminal call to exactly one projected terminal fragment."""
+
+    records_by_doc = {item.doc_id: item for item in run.source_manifest.records}
+    fragments_by_publication = {item.publication_id: item for item in package.corpus.fragments}
+    receipts_by_source = {
+        hash_canonical(item.source_document): item for item in package.grounding_receipts
+    }
+    if len(receipts_by_source) != len(package.grounding_receipts):
+        raise NativeGroundingError("hosted_native_grounding_receipt_source_not_unique")
+    for call in run.calls:
+        record = records_by_doc[call.intent.doc_id]
+        fragment = fragments_by_publication.get(record.publication.publication_id)
+        if fragment is None:
+            raise NativeGroundingError("hosted_native_terminal_fragment_missing")
+        receipt = receipts_by_source.get(hash_canonical(record.source_document))
+        if call.terminal.outcome == "completed":
+            extraction = call.terminal.parsed_extraction
+            if (
+                extraction is None
+                or receipt is None
+                or receipt.extraction != extraction
+                or fragment.grounding_receipt_sha256 != receipt.receipt_sha256
+            ):
+                raise NativeGroundingError("hosted_native_completed_projection_receipt_mismatch")
+        else:
+            failure_code = call.terminal.failure_code
+            assert failure_code is not None
+            detail = f"hosted_exact_once_terminal:{call.terminal.outcome}:{failure_code}"
+            warning = f"hosted_exact_once:{call.terminal.outcome}:{failure_code}"
+            if (
+                receipt is not None
+                or fragment.grounding_receipt_sha256 is not None
+                or fragment.status is not FragmentStatus.NON_ESTIMABLE
+                or fragment.non_estimability_reason is not NonEstimabilityReason.OTHER
+                or fragment.non_estimability_detail != detail
+                or fragment.extractor_warnings != [warning]
+            ):
+                raise NativeGroundingError("hosted_native_failed_projection_mismatch")
 
 
 def reverify_typed_evidence_grounding_package(
@@ -2060,6 +2380,17 @@ def reverify_typed_evidence_grounding_package(
     reassembled = assemble_typed_evidence_corpus(replayed_fragments)
     if reassembled.model_dump(mode="json") != validated.corpus.model_dump(mode="json"):
         raise NativeGroundingError("typed_evidence_corpus_projection_mismatch")
+    if (
+        context_receipt is not None
+        and context_receipt.execution_context.extraction_mode == "hosted_exact_once"
+    ):
+        hosted_run = HostedNativeExtractionRunV1.model_validate(
+            context_receipt.execution_context.provider_execution_receipts[0].raw_call_ledger
+        )
+        _reverify_hosted_exact_once_projection(
+            package=validated,
+            run=hosted_run,
+        )
     reconciliation_receipt_sha256: str | None = None
     reconciled_graph_sha256: str | None = None
     if validated.cohort_reconciliation is not None:
@@ -2081,9 +2412,7 @@ def reverify_typed_evidence_grounding_package(
         "reconciled_graph_sha256": reconciled_graph_sha256,
         "source_manifest_sha256": validated.source_manifest_sha256,
         "source_manifest_records": (
-            len(validated.source_manifest.records)
-            if validated.source_manifest is not None
-            else 0
+            len(validated.source_manifest.records) if validated.source_manifest is not None else 0
         ),
         "corpus_cutoff": validated.corpus_cutoff,
         "extraction_context_sha256": (

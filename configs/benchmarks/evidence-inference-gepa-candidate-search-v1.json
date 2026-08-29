@@ -1,0 +1,78 @@
+{
+  "config_version": "evidence-inference-gepa-candidate-search-config-v1",
+  "manifest_path": "data/cache/evidence-inference-gepa/manifest.json",
+  "seed_prompt_path": "prompts/evidence_inference_gepa_seed.md",
+  "legacy_pilot_directory": "data/cache/gepa/evidence-inference-first-pass-v2",
+  "prior_scaled_directory": "data/cache/evidence-inference-ollama-gepa-v1-final-v3",
+  "prior_scaled_public_summary_path": "artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json",
+  "output_plan_path": "artifacts/diagnostics/evidence-inference/gepa-candidate-search-plan-v1.json",
+  "subset_seed": 20260829,
+  "provider": {
+    "provider": "anthropic_first_party_api",
+    "model": "claude-fable-5",
+    "effort": "high",
+    "service_tier": "standard_only",
+    "transport": "structured_json_schema",
+    "input_rate_usd_per_million_tokens": "10",
+    "output_rate_usd_per_million_tokens": "50",
+    "task_input_token_ceiling": 16384,
+    "task_output_token_ceiling": 1024,
+    "reflection_input_token_ceiling": 24576,
+    "reflection_output_token_ceiling": 4096,
+    "sdk_retries_per_request": 0,
+    "application_retries_per_request": 0,
+    "fallback_requests_permitted": 0
+  },
+  "mutation_templates": [
+    {
+      "candidate_id": "candidate-pico-lock",
+      "mutation_axis": "pico_identity_lock",
+      "instruction": "Before deciding eligibility, require the cited Results text to match the locked intervention, comparator, and outcome together. Do not substitute a related endpoint, dose, population, timepoint, or comparison."
+    },
+    {
+      "candidate_id": "candidate-significance-language",
+      "mutation_axis": "significance_language_hierarchy",
+      "instruction": "Determine direction from the article's explicit comparison and significance language. Numerical ordering alone is never sufficient. Treat an explicitly nonsignificant intervention-comparator difference as no_effect, but treat missing evidence for the locked comparison as ineligible."
+    },
+    {
+      "candidate_id": "candidate-grounding-first",
+      "mutation_axis": "grounding_before_classification",
+      "instruction": "First locate one shortest exact Results quote that answers the locked comparison; then classify direction only from that quote. Every cited line must contain the quote exactly, and the quote must support the same direction returned in JSON."
+    },
+    {
+      "candidate_id": "candidate-arm-orientation",
+      "mutation_axis": "intervention_comparator_orientation",
+      "instruction": "Recheck arm orientation immediately before returning JSON: increase and decrease always describe intervention relative to comparator, even when the article states the comparator first or uses respectively, versus, lower, or reduced wording."
+    },
+    {
+      "candidate_id": "candidate-null-boundary",
+      "mutation_axis": "null_vs_not_evaluable_boundary",
+      "instruction": "Keep the null boundary strict: use no_effect only when the article explicitly reports no significant difference for the locked comparison. If the relevant comparison is absent, ambiguous, indirect, or unsupported by the supplied Results lines, return eligible=false."
+    },
+    {
+      "candidate_id": "candidate-conflict-resolution",
+      "mutation_axis": "endpoint_timepoint_conflict_resolution",
+      "instruction": "When several outcomes, analyses, arms, or timepoints appear, ignore all nonmatching results and use only the result that exactly answers the locked question. If multiple matching statements conflict and cannot be resolved from the supplied lines, return eligible=false rather than guessing."
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "cheap_pilot",
+      "initial_mutation_count": 3,
+      "train_representative_articles": 4,
+      "reflection_call_ceiling": 2,
+      "accepted_reflection_candidates_required": 1,
+      "dev_search_representative_articles": 6,
+      "dev_confirmation_representative_articles": 6
+    },
+    {
+      "tier": "scaled",
+      "initial_mutation_count": 6,
+      "train_representative_articles": 16,
+      "reflection_call_ceiling": 6,
+      "accepted_reflection_candidates_required": 3,
+      "dev_search_representative_articles": 32,
+      "dev_confirmation_representative_articles": 32
+    }
+  ]
+}

@@ -9,15 +9,21 @@ Supported source locators are deliberately closed:
 
 - `json:<repository-relative-path>#/<escaped-doc-id>` for Antiox numbered source lines;
 - `parquet:<repository-relative-path>#row_group=<n>&row_in_group=<n>&index_base=0&ID=<id>`
-  for a MetaSyn physical Parquet row.
+  for a MetaSyn physical Parquet row; and
+- `harvest-sha256:<content-sha256>` for a hash-addressed UTF-8 text, XML, XHTML, or
+  HTML object produced by frozen acquisition replay.
 
 Resolution rejects absolute or escaping paths, symlinks, file-hash drift, malformed
 JSON/Parquet payloads, duplicate locator keys, physical-row drift, and ID mismatches.
-The artifact SHA-256 binds the exact physical JSON/Parquet bytes. Resolved logical text
-preserves decoded leading/trailing whitespace, tabs, embedded CRLF, and non-ASCII text.
+Harvester objects additionally reject a locator/content hash mismatch, invalid UTF-8 or XML,
+and unsupported media (including PDF in the text-only adapter).
+The artifact SHA-256 binds the exact physical source bytes. JSON/Parquet logical text preserves
+decoded leading/trailing whitespace, tabs, embedded CRLF, and non-ASCII text. The harvester
+text adapter deterministically projects markup blocks and collapses intra-block whitespace; its
+receipt identifies that projection and never describes logical offsets as raw XML/HTML offsets.
 Each resolved line records both Unicode-code-point offsets into the canonical joined
 `source_text` and UTF-8 byte offsets into that logical text; these are deliberately not
-presented as physical offsets into the surrounding JSON/Parquet container.
+presented as physical offsets into the surrounding container.
 Numerical findings authorize only when the authoritative source locator, exact quote,
 and at least one supplied line or character-offset coordinate all verify. Citation
 relocation, citation refinement, forbidden/unknown sections, missing coordinates, and
@@ -51,6 +57,14 @@ the computed code fingerprint. Every accessible repository file or artifact link
 rehashed during package replay. The public certificate deliberately includes only the context,
 config, prompt, schema, provider-receipt, and execution-identity hashes plus typed nonidentifying
 runtime metadata; it does not copy raw prompts, configurations, or call ledgers.
+
+The separate offline hosted path is documented in
+`docs/hosted-native-grounding-bridge.md`. It accepts only a complete
+`hosted-native-extraction-run-v1`, rejects the existing diagnostic/fixture hosted
+contracts, and projects every exact-once terminal call into the same version-four
+package. Hosted replay additionally recomputes the embedded pipeline fingerprint and
+rehashes every full-text source record, including a provider-failed or ambiguous call
+that becomes a terminal non-estimable fragment.
 
 Archived or live Paperclip ingestion therefore requires repeatable `--execution-receipt` inputs
 whose execution IDs exactly match the archived map batches. Omitting them still produces a

@@ -270,7 +270,7 @@ def test_schema_represents_optional_v3_pre_call_blocker_without_calling_it_execu
         "release_grade_estimable_publications": 0,
         "graph_estimates": 0,
     }
-    with pytest.raises(ValueError, match="pre_call_blocker_promoted_to_execution"):
+    with pytest.raises(ValueError, match="typed_status_class_mismatch"):
         EvidenceBoundaryRecord.model_validate({**invalid, "record_sha256": hash_canonical(invalid)})
 
 

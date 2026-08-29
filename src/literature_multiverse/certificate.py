@@ -733,7 +733,12 @@ class VerificationCertificate(ContractModel):
                 and isinstance(receipt.get("receipt_sha256"), str)
                 and SHA256_RE.fullmatch(receipt["receipt_sha256"]) is not None
                 and receipt.get("execution_mode")
-                in {"paperclip_archived", "paperclip_live", "ollama_local"}
+                in {
+                    "paperclip_archived",
+                    "paperclip_live",
+                    "ollama_local",
+                    "hosted_exact_once",
+                }
                 and all(
                     isinstance(receipt.get(field), str)
                     and bool(receipt[field].strip())

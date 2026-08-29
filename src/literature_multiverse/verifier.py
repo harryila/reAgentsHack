@@ -15,6 +15,7 @@ import math
 import platform
 from dataclasses import asdict, dataclass, replace
 from datetime import UTC, datetime
+from importlib.metadata import PackageNotFoundError
 from importlib.metadata import version as distribution_version
 from pathlib import Path
 from typing import Annotated, Any, Literal
@@ -153,6 +154,7 @@ from literature_multiverse.normalize import map_outcome_family
 from literature_multiverse.pipeline_fingerprint import (
     PipelineComponentSpec,
     PipelineFingerprint,
+    PipelineFingerprintError,
     PipelineFingerprintVerification,
     compute_pipeline_fingerprint,
     require_pipeline_fingerprint_match,
@@ -359,9 +361,7 @@ class ClaimManifest(ContractModel):
         ):
             raise ValueError("global_condition_target_claim_identity_mismatch")
         if self.release.prespecified_condition_moderators != target.moderator_names:
-            raise ValueError(
-                "global_condition_target_moderators_must_match_release_family"
-            )
+            raise ValueError("global_condition_target_moderators_must_match_release_family")
         return self
 
 
@@ -467,8 +467,7 @@ class CorpusLoadResult:
                 == self.metadata["source_manifest_sha256"]
                 and self.metadata.get("source_manifest_records") == len(self.eligibility)
                 and isinstance(terminal_membership, list)
-                and self.metadata.get("terminal_fragment_records")
-                == len(self.eligibility)
+                and self.metadata.get("terminal_fragment_records") == len(self.eligibility)
                 and hash_canonical(terminal_membership)
                 == self.metadata.get("terminal_fragment_membership_sha256")
                 and isinstance(self.metadata.get("native_corpus_cutoff"), str)
@@ -1045,24 +1044,14 @@ def load_corpus(
                     extraction_context = context_receipt.execution_context
                     bundle_metadata.update(
                         {
-                            "extraction_context_sha256": (
-                                extraction_context.context_sha256
-                            ),
-                            "extraction_context_receipt_sha256": (
-                                context_receipt.receipt_sha256
-                            ),
+                            "extraction_context_sha256": (extraction_context.context_sha256),
+                            "extraction_context_receipt_sha256": (context_receipt.receipt_sha256),
                             "replayed_extraction_context_receipt_sha256": (
                                 replay.extraction_context_receipt_sha256
                             ),
-                            "question_config_sha256": (
-                                extraction_context.question_config_sha256
-                            ),
-                            "rendered_prompt_sha256s": (
-                                replay.rendered_prompt_sha256s
-                            ),
-                            "evaluation_schema_sha256s": (
-                                replay.evaluation_schema_sha256s
-                            ),
+                            "question_config_sha256": (extraction_context.question_config_sha256),
+                            "rendered_prompt_sha256s": (replay.rendered_prompt_sha256s),
+                            "evaluation_schema_sha256s": (replay.evaluation_schema_sha256s),
                             "provider_execution_receipts": [
                                 {
                                     "call_count": receipt.call_count,
@@ -1097,9 +1086,7 @@ def load_corpus(
                             ),
                         ),
                     )
-                if grounding_package.package_version == (
-                    "typed-evidence-grounding-package-v3"
-                ):
+                if grounding_package.package_version == ("typed-evidence-grounding-package-v3"):
                     issues = (
                         *issues,
                         CorpusAdapterIssue(
@@ -1297,12 +1284,9 @@ def _native_claim_config_compatibility_issues(
     canonical_endpoint = map_outcome_family(outcome, config.outcomes.endpoint_map) or outcome
     primary_family = config.outcomes.primary_family
     configured_family = map_outcome_family(canonical_endpoint, config.outcomes.family_map)
-    outcome_allowed = (
-        outcome == primary_family
-        or (
-            canonical_endpoint in config.outcomes.included_primary_endpoints
-            and configured_family == primary_family
-        )
+    outcome_allowed = outcome == primary_family or (
+        canonical_endpoint in config.outcomes.included_primary_endpoints
+        and configured_family == primary_family
     )
     if not outcome_allowed:
         block(
@@ -1325,17 +1309,14 @@ def _native_claim_config_compatibility_issues(
                 or estimate.contrast_id == manifest.claim.contrast_id
             )
         ]
-        contrast_by_id = {
-            contrast.contrast_id: contrast for contrast in corpus.graph.contrasts
-        }
+        contrast_by_id = {contrast.contrast_id: contrast for contrast in corpus.graph.contrasts}
         targeted_contrasts = [
             contrast_by_id[estimate.contrast_id]
             for estimate in target_estimates
             if estimate.contrast_id in contrast_by_id
         ]
         if targeted_contrasts and any(
-            contrast.estimand != manifest.claim.estimand
-            for contrast in targeted_contrasts
+            contrast.estimand != manifest.claim.estimand for contrast in targeted_contrasts
         ):
             block(
                 "native_claim_estimand_graph_mismatch",
@@ -1611,14 +1592,10 @@ def build_graph_counterfactual_audits(
         def exploratory_decision(value: dict[str, Any]) -> bool:
             analysis = value.get("condition_analysis")
             if not isinstance(analysis, dict):
-                raise VerificationContractError(
-                    "global_condition_development_analysis_missing"
-                )
+                raise VerificationContractError("global_condition_development_analysis_missing")
             analyses = analysis.get("analyses")
             if not isinstance(analyses, list):
-                raise VerificationContractError(
-                    "global_condition_development_analysis_invalid"
-                )
+                raise VerificationContractError("global_condition_development_analysis_invalid")
             observed = sorted(
                 str(row.get("moderator"))
                 for row in analyses
@@ -1628,10 +1605,7 @@ def build_graph_counterfactual_audits(
                 raise VerificationContractError(
                     "global_condition_development_moderator_family_mismatch"
                 )
-            return (
-                analysis.get("status")
-                == "exploratory_qualitative_condition_signal"
-            )
+            return analysis.get("status") == "exploratory_qualitative_condition_signal"
 
         baseline_decision = exploratory_decision(baseline_synthesis)
         claim_model = ClaimModel(
@@ -1689,9 +1663,7 @@ def build_graph_counterfactual_audits(
                     "counterfactual_synthesis": counterfactual,
                     "counterfactual_synthesis_sha256": hash_canonical(counterfactual),
                     "item_id": item_id,
-                    "scenario": (
-                        "leave_one_out_actual_development_condition_synthesis_rerun"
-                    ),
+                    "scenario": ("leave_one_out_actual_development_condition_synthesis_rerun"),
                 }
             )
         return claim_model, candidates, counterfactual_rows, baseline_synthesis
@@ -1749,13 +1721,36 @@ def build_graph_counterfactual_audits(
     )
 
 
+_VERIFIER_RUNTIME_DISTRIBUTIONS = (
+    "httpx",
+    "jsonschema",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pydantic",
+    "PyYAML",
+    "scikit-learn",
+    "scipy",
+)
+
+
+def _installed_verifier_dependency_versions() -> dict[str, str]:
+    versions: dict[str, str] = {}
+    for name in _VERIFIER_RUNTIME_DISTRIBUTIONS:
+        try:
+            versions[name] = distribution_version(name)
+        except PackageNotFoundError as exc:
+            raise PipelineFingerprintError(f"pipeline_runtime_dependency_missing:{name}") from exc
+    return versions
+
+
 def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
     """Return the explicit code/prompt surface defining the supported verifier."""
 
     return (
         PipelineComponentSpec(
             component_id="runtime-contract",
-            component_version="3",
+            component_version="4",
             file_paths=[
                 "pyproject.toml",
                 "src/literature_multiverse/__init__.py",
@@ -1769,19 +1764,7 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
             ],
             settings={
                 "dependency_lock_bound": True,
-                "installed_dependency_versions": {
-                    name: distribution_version(name)
-                    for name in (
-                        "jsonschema",
-                        "numpy",
-                        "pandas",
-                        "pyarrow",
-                        "pydantic",
-                        "PyYAML",
-                        "scikit-learn",
-                        "scipy",
-                    )
-                },
+                "installed_dependency_versions": (_installed_verifier_dependency_versions()),
                 "platform_machine": platform.machine(),
                 "platform_system": platform.system(),
                 "python_implementation": platform.python_implementation(),
@@ -1791,21 +1774,30 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
         ),
         PipelineComponentSpec(
             component_id="native-extraction",
-            component_version="10",
+            component_version="13",
             file_paths=[
                 "configs/benchmarks/native-antiox-bounded-v1.json",
                 "prompts/native_candidate_inventory.md",
                 "prompts/native_candidate_packet.md",
                 "prompts/native_extraction.md",
+                "scripts/build_hosted_native_grounding_package.py",
                 "scripts/build_native_source_manifest.py",
                 "scripts/build_typed_evidence_corpus.py",
                 "scripts/reconcile_native_cohorts.py",
                 "scripts/run_native_bounded_ollama_diagnostic.py",
                 "scripts/run_native_ollama_diagnostic.py",
                 "scripts/s3_extract_typed.py",
+                "src/literature_multiverse/acquisition.py",
                 "src/literature_multiverse/cohort_reconciliation.py",
                 "src/literature_multiverse/extract.py",
                 "src/literature_multiverse/grounding.py",
+                "src/literature_multiverse/harvester/archive.py",
+                "src/literature_multiverse/harvester/contracts.py",
+                "src/literature_multiverse/harvester/http.py",
+                "src/literature_multiverse/harvester/pipeline.py",
+                "src/literature_multiverse/harvester/sources.py",
+                "src/literature_multiverse/hosted_native_extraction_contract.py",
+                "src/literature_multiverse/hosted_native_grounding_bridge.py",
                 "src/literature_multiverse/live.py",
                 "src/literature_multiverse/local_ollama.py",
                 "src/literature_multiverse/metasyn_benchmark.py",
@@ -1818,6 +1810,8 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "src/literature_multiverse/normalize.py",
                 "src/literature_multiverse/paperclip_cli.py",
                 "src/literature_multiverse/prompting.py",
+                "src/literature_multiverse/screen.py",
+                "src/literature_multiverse/search.py",
                 "src/literature_multiverse/source_manifest_bridge.py",
                 "src/literature_multiverse/typed_extraction.py",
             ],
@@ -1830,15 +1824,20 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "exact_extraction_execution_context_required": True,
                 "in_repository_dependency_closure_bound": True,
                 "native_extraction_entry_points": [
+                    "scripts/build_hosted_native_grounding_package.py",
                     "scripts/run_native_bounded_ollama_diagnostic.py",
                     "scripts/run_native_ollama_diagnostic.py",
                     "scripts/s3_extract_typed.py",
                 ],
+                "hosted_native_extraction_run_contract": ("hosted-native-extraction-run-v1"),
+                "hosted_native_execution_mode": "hosted_exact_once",
                 "bounded_generation_contract": "native-bounded-two-stage-generation-v1",
                 "bounded_pre_call_intent_required": True,
                 "bounded_exact_source_projection_quote_grounding_required": True,
                 "bounded_whole_publication_assembly": "all_or_nothing",
                 "free_text_identity_auto_merge": False,
+                "frozen_acquisition_replay": ("exact-query-membership-to-screen-to-native-package"),
+                "protocol_free_text_screening_without_external_authority": ("blocking"),
             },
         ),
         PipelineComponentSpec(
@@ -1912,9 +1911,7 @@ def verifier_pipeline_components() -> tuple[PipelineComponentSpec, ...]:
                 "item_risk_contract": "self-contained-scoring-receipt-v2",
                 "in_repository_dependency_closure_bound": True,
                 "release_contract": "adaptive-first-release-v5",
-                "corrected_item_risk_projection": (
-                    "source-receipt-to-unchanged-unresolved-items"
-                ),
+                "corrected_item_risk_projection": ("source-receipt-to-unchanged-unresolved-items"),
                 "uncalibrated_selection_requires_analysis_opt_in": True,
             },
         ),
@@ -1938,10 +1935,15 @@ def _pipeline_identity(
     root: Path | None,
 ) -> tuple[PipelineFingerprintVerification, str]:
     repository_root = root or Path(__file__).resolve().parents[2]
-    frozen = expected or compute_verifier_pipeline_fingerprint(root=repository_root)
+    current_components = verifier_pipeline_components()
+    frozen = expected or compute_pipeline_fingerprint(
+        root=repository_root,
+        components=list(current_components),
+    )
     verification = require_pipeline_fingerprint_match(
         expected=frozen,
         root=repository_root,
+        current_components=current_components,
     )
     if (
         manifest.pipeline_sha256 is not None
@@ -2050,9 +2052,8 @@ def _artifact_backed_item_probabilities(
             raise VerificationContractError(
                 f"item_risk_candidate_scope_mismatch:{candidate.item_id}"
             )
-        if (
-            candidate.item_id not in stale_ids
-            and candidate.score_input_sha256 != hash_canonical(estimate)
+        if candidate.item_id not in stale_ids and candidate.score_input_sha256 != hash_canonical(
+            estimate
         ):
             raise VerificationContractError(
                 f"item_risk_candidate_source_snapshot_mismatch:{candidate.item_id}"
@@ -2077,10 +2078,7 @@ def _artifact_backed_item_probabilities(
             overrides[candidate.item_id] = (
                 float(fields["item_cell_rate_ucl"]),
                 ProbabilityBasis.CALIBRATED_CELL_RATE_UCL,
-                (
-                    f"{fields['rate_source']}:scheduling-only:"
-                    f"{fields['estimand']}"
-                ),
+                (f"{fields['rate_source']}:scheduling-only:{fields['estimand']}"),
             )
         else:
             overrides[candidate.item_id] = (
@@ -2122,8 +2120,7 @@ def _project_item_risk_candidates_after_audit_corrections(
     removed_unresolved = sorted((candidate_ids - expected) - resolved_item_ids)
     if removed_unresolved:
         raise VerificationContractError(
-            "item_risk_projection_removed_unresolved_items:"
-            + ",".join(removed_unresolved)
+            "item_risk_projection_removed_unresolved_items:" + ",".join(removed_unresolved)
         )
     estimates = {estimate.estimate_id: estimate for estimate in graph.outcome_estimates}
     changed_unresolved = sorted(
@@ -2134,8 +2131,7 @@ def _project_item_risk_candidates_after_audit_corrections(
     )
     if changed_unresolved:
         raise VerificationContractError(
-            "item_risk_projection_changed_unresolved_items:"
-            + ",".join(changed_unresolved)
+            "item_risk_projection_changed_unresolved_items:" + ",".join(changed_unresolved)
         )
     return [by_id[item_id] for item_id in sorted(expected)]
 
@@ -2195,17 +2191,14 @@ def complete_corpus_identity_for_adaptive_calibration(
     if isinstance(native_manifest, dict):
         records = native_manifest.get("records")
         if not isinstance(records, list) or not isinstance(source_manifest_sha256, str):
-            raise VerificationContractError(
-                "adaptive_calibration_native_source_manifest_invalid"
-            )
+            raise VerificationContractError("adaptive_calibration_native_source_manifest_invalid")
         if hash_canonical(native_manifest) != source_manifest_sha256:
             raise VerificationContractError(
                 "adaptive_calibration_native_source_manifest_hash_mismatch"
             )
         try:
             publication_ids = sorted(
-                str(record["publication"]["publication_id"])
-                for record in records
+                str(record["publication"]["publication_id"]) for record in records
             )
         except (KeyError, TypeError) as exc:
             raise VerificationContractError(
@@ -2257,9 +2250,7 @@ def build_verifier_adaptive_policy_context(
             if manifest.global_condition_target is None
             else {
                 "target_sha256": manifest.global_condition_target.target_sha256,
-                "semantics": (
-                    "prospectively frozen global condition-dependence target"
-                ),
+                "semantics": ("prospectively frozen global condition-dependence target"),
             }
         ),
         "decision_loss": "released_claim_decision_differs_from_reference_verdict",
@@ -2317,14 +2308,10 @@ def _derive_verifier_adaptive_policy_context(
             context for context in matches if context.policy_arm_id == selected_arm_id
         ]
         if len(selected_matches) != 1:
-            raise VerificationContractError(
-                "adaptive_calibration_selected_policy_context_mismatch"
-            )
+            raise VerificationContractError("adaptive_calibration_selected_policy_context_mismatch")
         return selected_matches[0]
     if len(matches) != 1:
-        raise VerificationContractError(
-            "adaptive_calibration_abstain_all_policy_context_ambiguous"
-        )
+        raise VerificationContractError("adaptive_calibration_abstain_all_policy_context_ambiguous")
     return matches[0]
 
 
@@ -2359,15 +2346,11 @@ def _derive_verifier_adaptive_policy_context_v2(
         selected_arm = bundle.selected.candidate.policy_arm_id
         matches = [row for row in matches if row.policy_arm_id == selected_arm]
     if len(matches) != 1:
-        raise VerificationContractError(
-            "condition_adaptive_calibration_policy_context_mismatch"
-        )
+        raise VerificationContractError("condition_adaptive_calibration_policy_context_mismatch")
     return matches[0]
 
 
-def compute_synthesis_runner_sha256(
-    *, manifest: ClaimManifest, pipeline_sha256: str
-) -> str:
+def compute_synthesis_runner_sha256(*, manifest: ClaimManifest, pipeline_sha256: str) -> str:
     """Identity of the deterministic production synthesis rerun."""
 
     return hash_canonical(
@@ -2381,9 +2364,7 @@ def compute_synthesis_runner_sha256(
     )
 
 
-def compute_candidate_runner_sha256(
-    *, manifest: ClaimManifest, pipeline_sha256: str
-) -> str:
+def compute_candidate_runner_sha256(*, manifest: ClaimManifest, pipeline_sha256: str) -> str:
     """Identity of the deterministic production counterfactual rerun."""
 
     return hash_canonical(
@@ -2418,17 +2399,13 @@ def prepare_condition_verification_context(
     if manifest.claim_manifest_version != "3" or manifest.global_condition_target is None:
         raise VerificationContractError("condition_context_requires_manifest_v3")
     if corpus.extraction_context is None:
-        raise VerificationContractError(
-            "condition_context_requires_v4_native_extraction_context"
-        )
+        raise VerificationContractError("condition_context_requires_v4_native_extraction_context")
     try:
         plan = ConditionConfirmationPlanV1.model_validate(plan.model_dump(mode="json"))
         full_graph = EvidenceGraph.model_validate(
             (current_full_graph or corpus.graph).model_dump(mode="json")
         )
-        development_graph = EvidenceGraph.model_validate(
-            development_graph.model_dump(mode="json")
-        )
+        development_graph = EvidenceGraph.model_validate(development_graph.model_dump(mode="json"))
         frozen_model = ConditionConfirmationFrozenModelV1.model_validate(
             frozen_model.model_dump(mode="json")
         )
@@ -2438,9 +2415,7 @@ def prepare_condition_verification_context(
     expected_target = freeze_condition_confirmation_target(
         question_id=manifest.question_id,
         claim_spec_sha256=target.target_sha256,
-        question_config_sha256=(
-            corpus.extraction_context.question_config_sha256
-        ),
+        question_config_sha256=(corpus.extraction_context.question_config_sha256),
         corpus_snapshot_sha256=complete_corpus_identity.membership_sha256,
         corpus_cutoff=manifest.protocol.corpus_cutoff,
         outcome_name=target.outcome_name,
@@ -2468,18 +2443,14 @@ def prepare_condition_verification_context(
             )
         )
     except ConditionConfirmationError as exc:
-        raise VerificationContractError(
-            f"condition_materialization_replay_failed:{exc}"
-        ) from exc
+        raise VerificationContractError(f"condition_materialization_replay_failed:{exc}") from exc
     if (
         plan.roster != roster
         or plan.materialization_receipt != receipt
         or plan.development_graph_sha256 != hash_canonical(expected_development)
         or development_graph != expected_development
     ):
-        raise VerificationContractError(
-            "condition_materialization_or_development_graph_mismatch"
-        )
+        raise VerificationContractError("condition_materialization_or_development_graph_mismatch")
     try:
         frozen_model = validate_condition_confirmation_model(
             plan=plan,
@@ -2492,9 +2463,7 @@ def prepare_condition_verification_context(
             claim_spec_sha256=target.target_sha256,
             global_condition_target_sha256=target.target_sha256,
         )
-        independence_identity = adaptive_independence_identity_from_condition_plan_v1(
-            plan
-        )
+        independence_identity = adaptive_independence_identity_from_condition_plan_v1(plan)
         projection = freeze_condition_calibration_projection(
             question_id=manifest.question_id,
             target_semantics=target_semantics,
@@ -2507,12 +2476,8 @@ def prepare_condition_verification_context(
             full_graph_sha256=plan.full_graph_sha256,
             development_graph_sha256=plan.development_graph_sha256,
             confirmation_graph_sha256=plan.confirmation_graph_sha256,
-            development_partition_sha256=(
-                plan.development_partition.partition_sha256
-            ),
-            confirmation_partition_sha256=(
-                plan.confirmation_partition.partition_sha256
-            ),
+            development_partition_sha256=(plan.development_partition.partition_sha256),
+            confirmation_partition_sha256=(plan.confirmation_partition.partition_sha256),
             confirmation_config_sha256=plan.config_sha256,
             pipeline_sha256=pipeline_sha256,
             synthesis_runner_sha256=compute_synthesis_runner_sha256(
@@ -2526,9 +2491,7 @@ def prepare_condition_verification_context(
             prespecified_moderator_names=target.moderator_names,
         )
     except (AdaptiveCalibrationError, ConditionConfirmationError, ValueError) as exc:
-        raise VerificationContractError(
-            f"condition_context_projection_failed:{exc}"
-        ) from exc
+        raise VerificationContractError(f"condition_context_projection_failed:{exc}") from exc
     blockers: list[str] = []
     if plan.status != "ready":
         blockers.append("condition_confirmation_plan_insufficient")
@@ -2613,9 +2576,7 @@ def _rebuild_condition_context_from_graphs(
             )
         )
         if expected_development != development_graph:
-            raise VerificationContractError(
-                "condition_historical_development_partition_mismatch"
-            )
+            raise VerificationContractError("condition_historical_development_partition_mismatch")
         rebuilt_plan = prepare_condition_confirmation_plan(
             target=expected_target,
             config=template_plan.config,
@@ -2634,9 +2595,7 @@ def _rebuild_condition_context_from_graphs(
             claim_spec_sha256=target.target_sha256,
             global_condition_target_sha256=target.target_sha256,
         )
-        independence_identity = adaptive_independence_identity_from_condition_plan_v1(
-            rebuilt_plan
-        )
+        independence_identity = adaptive_independence_identity_from_condition_plan_v1(rebuilt_plan)
         projection = freeze_condition_calibration_projection(
             question_id=manifest.question_id,
             target_semantics=target_semantics,
@@ -2645,18 +2604,12 @@ def _rebuild_condition_context_from_graphs(
             corpus_snapshot_sha256=complete_corpus_identity.membership_sha256,
             corpus_cutoff=manifest.protocol.corpus_cutoff,
             plan_sha256=rebuilt_plan.plan_sha256,
-            materialization_receipt_sha256=(
-                rebuilt_plan.materialization_receipt_sha256
-            ),
+            materialization_receipt_sha256=(rebuilt_plan.materialization_receipt_sha256),
             full_graph_sha256=rebuilt_plan.full_graph_sha256,
             development_graph_sha256=rebuilt_plan.development_graph_sha256,
             confirmation_graph_sha256=rebuilt_plan.confirmation_graph_sha256,
-            development_partition_sha256=(
-                rebuilt_plan.development_partition.partition_sha256
-            ),
-            confirmation_partition_sha256=(
-                rebuilt_plan.confirmation_partition.partition_sha256
-            ),
+            development_partition_sha256=(rebuilt_plan.development_partition.partition_sha256),
+            confirmation_partition_sha256=(rebuilt_plan.confirmation_partition.partition_sha256),
             confirmation_config_sha256=rebuilt_plan.config_sha256,
             pipeline_sha256=pipeline_sha256,
             synthesis_runner_sha256=compute_synthesis_runner_sha256(
@@ -2767,18 +2720,14 @@ def _replay_corrected_sequential_science(
     try:
         current = resume_sequential_verification_state(state)
     except SequentialVerificationContractError as exc:
-        raise VerificationContractError(
-            f"sequential_audit_transition_replay_failed:{exc}"
-        ) from exc
+        raise VerificationContractError(f"sequential_audit_transition_replay_failed:{exc}") from exc
     pipeline_sha256 = pipeline_verification.computed_pipeline_sha256
     if pipeline_sha256 is None:
         raise VerificationContractError("computed_pipeline_identity_missing")
     if current.session.pipeline_sha256 != pipeline_sha256:
         raise VerificationContractError("sequential_audit_state_pipeline_mismatch")
     if current.session.policy_sha256 != compute_verification_policy_sha256(manifest):
-        raise VerificationContractError(
-            "sequential_audit_state_claim_manifest_context_mismatch"
-        )
+        raise VerificationContractError("sequential_audit_state_claim_manifest_context_mismatch")
     if not math.isclose(
         current.session.budget,
         float(budget_minutes),
@@ -2789,9 +2738,7 @@ def _replay_corrected_sequential_science(
     if current.session.cost_unit != "person_minutes":
         raise VerificationContractError("sequential_audit_state_cost_unit_mismatch")
     if current.initial_graph != corpus.graph:
-        raise VerificationContractError(
-            "sequential_audit_source_evidence_graph_mismatch"
-        )
+        raise VerificationContractError("sequential_audit_source_evidence_graph_mismatch")
 
     prepared = prepare_verification_scientific_state(
         manifest=manifest,
@@ -2833,8 +2780,7 @@ def _replay_corrected_sequential_science(
             or provenance.candidate_runner_sha256 != candidate_runner_sha256
         ):
             raise VerificationContractError(
-                "sequential_audit_correction_runner_identity_mismatch:"
-                f"{correction_index}"
+                f"sequential_audit_correction_runner_identity_mismatch:{correction_index}"
             )
         try:
             prepared = prepare_verification_scientific_state(
@@ -2847,8 +2793,7 @@ def _replay_corrected_sequential_science(
             )
         except VerificationContractError as exc:
             raise VerificationContractError(
-                "sequential_audit_correction_science_replay_failed:"
-                f"{correction_index}:{exc}"
+                f"sequential_audit_correction_science_replay_failed:{correction_index}:{exc}"
             ) from exc
         _require_exact_prepared_sequential_artifacts(
             label=f"correction_{correction_index}",
@@ -2886,31 +2831,22 @@ def recompute_verifier_adaptive_preselection_checkpoint(
     try:
         current = resume_sequential_verification_state(state)
     except SequentialVerificationContractError as exc:
-        raise VerificationContractError(
-            f"adaptive_checkpoint_state_replay_failed:{exc}"
-        ) from exc
+        raise VerificationContractError(f"adaptive_checkpoint_state_replay_failed:{exc}") from exc
     if current.session.active_action is not None:
-        raise VerificationContractError(
-            "adaptive_checkpoint_recompute_requires_preselection_state"
-        )
+        raise VerificationContractError("adaptive_checkpoint_recompute_requires_preselection_state")
     pipeline_sha256 = pipeline_verification.computed_pipeline_sha256
     if pipeline_sha256 is None:
         raise VerificationContractError("computed_pipeline_identity_missing")
     if (
         current.session.pipeline_sha256 != pipeline_sha256
-        or current.session.policy_sha256
-        != compute_verification_policy_sha256(manifest)
+        or current.session.policy_sha256 != compute_verification_policy_sha256(manifest)
     ):
-        raise VerificationContractError(
-            "adaptive_checkpoint_verifier_context_mismatch"
-        )
+        raise VerificationContractError("adaptive_checkpoint_verifier_context_mismatch")
     item_risk_bundle = None
     item_risk_candidates = None
     if item_risk_scoring_receipt is not None:
         if item_risk_scoring_receipt.pipeline_verification != pipeline_verification:
-            raise VerificationContractError(
-                "adaptive_checkpoint_item_risk_pipeline_mismatch"
-            )
+            raise VerificationContractError("adaptive_checkpoint_item_risk_pipeline_mismatch")
         item_risk_bundle = item_risk_scoring_receipt.calibration_bundle
         item_risk_candidates = list(item_risk_scoring_receipt.candidates)
     prepared = prepare_verification_scientific_state(
@@ -2919,9 +2855,7 @@ def recompute_verifier_adaptive_preselection_checkpoint(
         pipeline_verification=pipeline_verification,
         item_risk_calibration_bundle=item_risk_bundle,
         item_risk_candidates=item_risk_candidates,
-        resolved_item_ids_for_risk_projection=set(
-            current.session.resolved_item_ids
-        ),
+        resolved_item_ids_for_risk_projection=set(current.session.resolved_item_ids),
     )
     _require_exact_prepared_sequential_artifacts(
         label="adaptive_checkpoint",
@@ -2965,9 +2899,7 @@ def recompute_verifier_adaptive_preselection_checkpoint(
             blocking_adapter_reasons=blocking_adapter_reasons,
         )
     except AdaptiveCalibrationError as exc:
-        raise VerificationContractError(
-            f"adaptive_checkpoint_projection_failed:{exc}"
-        ) from exc
+        raise VerificationContractError(f"adaptive_checkpoint_projection_failed:{exc}") from exc
 
 
 def _create_initial_sequential_audit_state(
@@ -3110,10 +3042,7 @@ def _condition_corpus_issues(
                 detail="Every frozen corpus record requires a terminal inclusion decision.",
             )
         )
-    unique = {
-        (issue.finding_id or "", issue.paper_id or "", issue.code): issue
-        for issue in issues
-    }
+    unique = {(issue.finding_id or "", issue.paper_id or "", issue.code): issue for issue in issues}
     return [unique[key] for key in sorted(unique)]
 
 
@@ -3175,26 +3104,20 @@ def _run_condition_verification(
         try:
             state = resume_sequential_verification_state(sequential_audit_state)
         except SequentialVerificationContractError as exc:
-            raise VerificationContractError(
-                f"condition_sequential_state_invalid:{exc}"
-            ) from exc
+            raise VerificationContractError(f"condition_sequential_state_invalid:{exc}") from exc
         if (
             state.session.pipeline_sha256 != pipeline_sha256
-            or state.session.policy_sha256
-            != compute_verification_policy_sha256(manifest)
+            or state.session.policy_sha256 != compute_verification_policy_sha256(manifest)
             or not math.isclose(
                 state.session.budget,
                 budget_minutes,
                 rel_tol=0.0,
                 abs_tol=1e-9,
             )
-            or state.adaptive_policy_context_sha256
-            != policy_context.policy_context_sha256
+            or state.adaptive_policy_context_sha256 != policy_context.policy_context_sha256
             or state.adaptive_calibration_bundle_sha256 != bundle_v2.bundle_sha256
         ):
-            raise VerificationContractError(
-                "condition_sequential_state_context_mismatch"
-            )
+            raise VerificationContractError("condition_sequential_state_context_mismatch")
         if supplied_development != state.graph:
             raise VerificationContractError(
                 "condition_supplied_development_graph_not_current_state"
@@ -3233,13 +3156,9 @@ def _run_condition_verification(
                 item_risk_scoring_receipt.model_dump(mode="json")
             )
         except (AttributeError, ValueError) as exc:
-            raise VerificationContractError(
-                "condition_item_risk_scoring_receipt_invalid"
-            ) from exc
+            raise VerificationContractError("condition_item_risk_scoring_receipt_invalid") from exc
         if item_risk_scoring_receipt.pipeline_verification != pipeline_verification:
-            raise VerificationContractError(
-                "condition_item_risk_pipeline_mismatch"
-            )
+            raise VerificationContractError("condition_item_risk_pipeline_mismatch")
         source_estimates = {
             row.estimate_id: row
             for row in (
@@ -3250,13 +3169,10 @@ def _run_condition_verification(
             candidate.item_id
             for candidate in item_risk_scoring_receipt.candidates
             if candidate.item_id not in source_estimates
-            or candidate.score_input_sha256
-            != hash_canonical(source_estimates[candidate.item_id])
+            or candidate.score_input_sha256 != hash_canonical(source_estimates[candidate.item_id])
         )
         if stale:
-            raise VerificationContractError(
-                f"condition_item_risk_source_snapshot_mismatch:{stale}"
-            )
+            raise VerificationContractError(f"condition_item_risk_source_snapshot_mismatch:{stale}")
         item_risk_bundle = item_risk_scoring_receipt.calibration_bundle
         item_risk_candidates = list(item_risk_scoring_receipt.candidates)
 
@@ -3325,9 +3241,7 @@ def _run_condition_verification(
             claim_model=checkpoint_prepared.claim_model,
             audit_resolution_receipts=[],
             audit_budget=budget_minutes,
-            condition_noncalibration_reasons=(
-                checkpoint_context.ordinary_blocking_reasons
-            ),
+            condition_noncalibration_reasons=(checkpoint_context.ordinary_blocking_reasons),
             external_noncalibration_blocking_reasons=blocking_adapter_reasons,
             config=manifest.release,
             audit_guard_config=manifest.audit_guard.to_runtime(),
@@ -3335,14 +3249,12 @@ def _run_condition_verification(
         )
 
     try:
-        history, history_context_sha, history_bundle_sha = (
-            adaptive_preselection_history_from_state(state)
+        history, history_context_sha, history_bundle_sha = adaptive_preselection_history_from_state(
+            state
         )
         predecessor_states = selection_predecessor_states_from_state(state)
     except SequentialVerificationContractError as exc:
-        raise VerificationContractError(
-            f"condition_adaptive_history_invalid:{exc}"
-        ) from exc
+        raise VerificationContractError(f"condition_adaptive_history_invalid:{exc}") from exc
     if (
         history_context_sha != policy_context.policy_context_sha256
         or history_bundle_sha != bundle_v2.bundle_sha256
@@ -3352,15 +3264,13 @@ def _run_condition_verification(
     for index, (checkpoint, predecessor) in enumerate(
         zip(history, predecessor_states, strict=True)
     ):
-        historical_context, _historical_full = (
-            _rebuild_condition_context_for_development_state(
-                manifest=manifest,
-                corpus=corpus,
-                complete_corpus_identity=complete_identity,
-                development_graph=predecessor.graph,
-                template_plan=context.plan,
-                pipeline_sha256=pipeline_sha256,
-            )
+        historical_context, _historical_full = _rebuild_condition_context_for_development_state(
+            manifest=manifest,
+            corpus=corpus,
+            complete_corpus_identity=complete_identity,
+            development_graph=predecessor.graph,
+            template_plan=context.plan,
+            pipeline_sha256=pipeline_sha256,
         )
         historical_prepared = prepare_verification_scientific_state(
             manifest=manifest,
@@ -3368,9 +3278,7 @@ def _run_condition_verification(
             pipeline_verification=pipeline_verification,
             item_risk_calibration_bundle=item_risk_bundle,
             item_risk_candidates=item_risk_candidates,
-            resolved_item_ids_for_risk_projection=set(
-                predecessor.session.resolved_item_ids
-            ),
+            resolved_item_ids_for_risk_projection=set(predecessor.session.resolved_item_ids),
         )
         _require_exact_prepared_sequential_artifacts(
             label=f"condition_history_{index}",
@@ -3396,9 +3304,7 @@ def _run_condition_verification(
                 f"condition_history_projection_failed:{index}:{exc}"
             ) from exc
         if recomputed_checkpoint != checkpoint:
-            raise VerificationContractError(
-                f"condition_history_checkpoint_mismatch:{index}"
-            )
+            raise VerificationContractError(f"condition_history_checkpoint_mismatch:{index}")
 
     current_preselection = None
     if state.session.active_action is None:
@@ -3415,9 +3321,7 @@ def _run_condition_verification(
                 blocking_adapter_reasons=blocking_adapter_reasons,
             )
         except AdaptiveCalibrationError as exc:
-            raise VerificationContractError(
-                f"condition_current_projection_failed:{exc}"
-            ) from exc
+            raise VerificationContractError(f"condition_current_projection_failed:{exc}") from exc
         observed_states = [*history, current_preselection]
     else:
         preselection_assessment = assess_condition_state(
@@ -3427,9 +3331,7 @@ def _run_condition_verification(
             missing_gate,
         )
         if not history:
-            raise VerificationContractError(
-                "condition_active_action_missing_selection_checkpoint"
-            )
+            raise VerificationContractError("condition_active_action_missing_selection_checkpoint")
         observed_states = list(history)
     base_candidate = freeze_prospective_adaptive_candidate(
         question_id=manifest.question_id,
@@ -3445,9 +3347,7 @@ def _run_condition_verification(
     qualification: ConfirmationAwareReleaseQualificationProofV2 | None = None
     selection_result = None
     evaluated_state = state
-    hard_context_blockers = bool(
-        blocking_adapter_reasons or context.ordinary_blocking_reasons
-    )
+    hard_context_blockers = bool(blocking_adapter_reasons or context.ordinary_blocking_reasons)
     if state.session.active_action is not None:
         stop_outcome = "active_action_in_progress"
     elif current_preselection is not None and current_preselection.non_calibration_gates_passed:
@@ -3488,9 +3388,7 @@ def _run_condition_verification(
             )
         except SequentialVerificationContractError as exc:
             if str(exc) != "no_eligible_candidate_fits_remaining_budget":
-                raise VerificationContractError(
-                    f"condition_audit_selection_failed:{exc}"
-                ) from exc
+                raise VerificationContractError(f"condition_audit_selection_failed:{exc}") from exc
             stop_outcome = "no_feasible_action"
         else:
             stop_outcome = "selected_next_action"
@@ -3513,15 +3411,13 @@ def _run_condition_verification(
         selection_result=selection_result,
         condition_gate_invocation_proof=invocation,
     )
-    candidate_v2: ProspectiveAdaptiveReleaseCandidateV2 = (
-        freeze_prospective_adaptive_candidate_v2(
-            base_candidate=base_candidate,
-            target_semantics=context.target_semantics,
-            independence_identity=context.independence_identity,
-            condition_projection=context.projection,
-            condition_gate_invocation_proof=invocation,
-            release_qualification_proof=qualification,
-        )
+    candidate_v2: ProspectiveAdaptiveReleaseCandidateV2 = freeze_prospective_adaptive_candidate_v2(
+        base_candidate=base_candidate,
+        target_semantics=context.target_semantics,
+        independence_identity=context.independence_identity,
+        condition_projection=context.projection,
+        condition_gate_invocation_proof=invocation,
+        release_qualification_proof=qualification,
     )
     adaptive_assessment_v2: AdaptiveProspectiveAssessmentV2 = (
         assess_confirmation_aware_adaptive_release_candidate(candidate_v2, bundle_v2)
@@ -3534,9 +3430,7 @@ def _run_condition_verification(
                 sorted(
                     {
                         "full_graph": hash_canonical(current_full_graph),
-                        "materialization_receipt": (
-                            context.plan.materialization_receipt_sha256
-                        ),
+                        "materialization_receipt": (context.plan.materialization_receipt_sha256),
                     }.items()
                 )
             ),
@@ -3548,9 +3442,7 @@ def _run_condition_verification(
         ),
         CertificateLineageStage(
             stage="condition_online_synthesis_and_audit",
-            input_sha256s={
-                "development_graph": context.plan.development_graph_sha256
-            },
+            input_sha256s={"development_graph": context.plan.development_graph_sha256},
             output_sha256s=dict(
                 sorted(
                     {
@@ -3568,20 +3460,14 @@ def _run_condition_verification(
                     hash_canonical(None) if invocation is None else invocation.proof_sha256
                 )
             },
-            output_sha256s={
-                "gate_assessment": gate.gate_assessment_sha256
-            },
-            method=(
-                "deferred-unopened"
-            ),
+            output_sha256s={"gate_assessment": gate.gate_assessment_sha256},
+            method=("deferred-unopened"),
         ),
     ]
     corpus_payload = corpus.certificate_payload()
     corpus_payload["declared_corpus_cutoff"] = manifest.protocol.corpus_cutoff
     corpus_payload["pipeline_identity_basis"] = pipeline_basis
-    reasons = sorted(
-        set(source_assessment.reasons) | set(blocking_adapter_reasons)
-    )
+    reasons = sorted(set(source_assessment.reasons) | set(blocking_adapter_reasons))
     source_v6 = freeze_condition_verification_certificate_v6(
         generated_at=generated_at,
         reasons=reasons,
@@ -3646,18 +3532,12 @@ def run_condition_calibration_collection(
     """
 
     if manifest.claim_manifest_version != "3":
-        raise VerificationContractError(
-            "condition_collection_requires_manifest_v3"
-        )
+        raise VerificationContractError("condition_collection_requires_manifest_v3")
     if not math.isfinite(budget_minutes) or budget_minutes < 0:
-        raise VerificationContractError(
-            "condition_collection_budget_minutes_invalid"
-        )
+        raise VerificationContractError("condition_collection_budget_minutes_invalid")
     generated_at = generated_at or datetime.now(UTC)
     if generated_at.tzinfo is None or generated_at.utcoffset() is None:
-        raise VerificationContractError(
-            "condition_collection_generated_at_requires_timezone"
-        )
+        raise VerificationContractError("condition_collection_generated_at_requires_timezone")
     pipeline_verification, pipeline_basis = _pipeline_identity(
         manifest,
         expected=expected_pipeline_fingerprint,
@@ -3671,9 +3551,7 @@ def run_condition_calibration_collection(
             adaptive_policy_context.model_dump(mode="json")
         )
     except (AttributeError, ValueError) as exc:
-        raise VerificationContractError(
-            "condition_collection_policy_context_invalid"
-        ) from exc
+        raise VerificationContractError("condition_collection_policy_context_invalid") from exc
     expected_policy_context = build_verifier_adaptive_policy_context(
         manifest=manifest,
         pipeline_sha256=pipeline_sha256,
@@ -3681,9 +3559,7 @@ def run_condition_calibration_collection(
         policy_arm_id=policy_context.policy_arm_id,
     )
     if policy_context != expected_policy_context:
-        raise VerificationContractError(
-            "condition_collection_policy_context_mismatch"
-        )
+        raise VerificationContractError("condition_collection_policy_context_mismatch")
     complete_identity = complete_corpus_identity_for_adaptive_calibration(
         manifest=manifest,
         corpus=corpus,
@@ -3696,9 +3572,7 @@ def run_condition_calibration_collection(
             condition_development_graph.model_dump(mode="json")
         )
     except (AttributeError, ValueError) as exc:
-        raise VerificationContractError(
-            "condition_collection_runtime_input_tampered"
-        ) from exc
+        raise VerificationContractError("condition_collection_runtime_input_tampered") from exc
 
     state: SequentialVerificationState | None = None
     if sequential_audit_state is not None:
@@ -3710,8 +3584,7 @@ def run_condition_calibration_collection(
             ) from exc
         if (
             state.session.pipeline_sha256 != pipeline_sha256
-            or state.session.policy_sha256
-            != compute_verification_policy_sha256(manifest)
+            or state.session.policy_sha256 != compute_verification_policy_sha256(manifest)
             or not math.isclose(
                 state.session.budget,
                 float(budget_minutes),
@@ -3766,9 +3639,7 @@ def run_condition_calibration_collection(
                 "condition_collection_item_risk_receipt_invalid"
             ) from exc
         if item_risk_scoring_receipt.pipeline_verification != pipeline_verification:
-            raise VerificationContractError(
-                "condition_collection_item_risk_pipeline_mismatch"
-            )
+            raise VerificationContractError("condition_collection_item_risk_pipeline_mismatch")
         source_estimates = {
             row.estimate_id: row
             for row in (
@@ -3779,8 +3650,7 @@ def run_condition_calibration_collection(
             candidate.item_id
             for candidate in item_risk_scoring_receipt.candidates
             if candidate.item_id not in source_estimates
-            or candidate.score_input_sha256
-            != hash_canonical(source_estimates[candidate.item_id])
+            or candidate.score_input_sha256 != hash_canonical(source_estimates[candidate.item_id])
         )
         if stale:
             raise VerificationContractError(
@@ -3850,9 +3720,7 @@ def run_condition_calibration_collection(
             claim_model=checkpoint_prepared.claim_model,
             audit_resolution_receipts=[],
             audit_budget=float(budget_minutes),
-            condition_noncalibration_reasons=(
-                checkpoint_context.ordinary_blocking_reasons
-            ),
+            condition_noncalibration_reasons=(checkpoint_context.ordinary_blocking_reasons),
             external_noncalibration_blocking_reasons=blocking_adapter_reasons,
             config=manifest.release,
             audit_guard_config=manifest.audit_guard.to_runtime(),
@@ -3862,9 +3730,7 @@ def run_condition_calibration_collection(
     try:
         predecessor_states = selection_predecessor_states_from_state(state)
     except SequentialVerificationContractError as exc:
-        raise VerificationContractError(
-            f"condition_collection_history_invalid:{exc}"
-        ) from exc
+        raise VerificationContractError(f"condition_collection_history_invalid:{exc}") from exc
     online_states: list[AdaptivePreselectionState] = []
     for index, predecessor in enumerate(predecessor_states):
         historical_context, _ = _rebuild_condition_context_for_development_state(
@@ -3881,9 +3747,7 @@ def run_condition_calibration_collection(
             pipeline_verification=pipeline_verification,
             item_risk_calibration_bundle=item_risk_bundle,
             item_risk_candidates=item_risk_candidates,
-            resolved_item_ids_for_risk_projection=set(
-                predecessor.session.resolved_item_ids
-            ),
+            resolved_item_ids_for_risk_projection=set(predecessor.session.resolved_item_ids),
         )
         _require_exact_prepared_sequential_artifacts(
             label=f"condition_collection_history_{index}",
@@ -3924,16 +3788,12 @@ def run_condition_calibration_collection(
             ) from exc
         online_states.append(current_preselection)
     elif not online_states:
-        raise VerificationContractError(
-            "condition_collection_active_action_missing_predecessor"
-        )
+        raise VerificationContractError("condition_collection_active_action_missing_predecessor")
 
     invocation: ConditionGateInvocationProofV2 | None = None
     selection_result = None
     evaluated_state = state
-    hard_context_blockers = bool(
-        blocking_adapter_reasons or context.ordinary_blocking_reasons
-    )
+    hard_context_blockers = bool(blocking_adapter_reasons or context.ordinary_blocking_reasons)
     if state.session.active_action is not None:
         outcome: Literal[
             "selected_next_action",
@@ -4004,8 +3864,7 @@ def run_condition_calibration_collection(
             unresolved = [
                 action
                 for action in terminal_actions
-                if action.item_id
-                not in set(evaluated_state.session.resolved_item_ids)
+                if action.item_id not in set(evaluated_state.session.resolved_item_ids)
             ]
             if not unresolved:
                 terminal_reason = "all_items_resolved"
@@ -4024,12 +3883,8 @@ def run_condition_calibration_collection(
             states=online_states,
             terminal_reason=terminal_reason,
             terminal_candidates=terminal_actions,
-            terminal_source_candidate_input_sha256=(
-                evaluated_state.candidate_input_sha256
-            ),
-            terminal_remaining_budget_minutes=(
-                evaluated_state.session.remaining_budget
-            ),
+            terminal_source_candidate_input_sha256=(evaluated_state.candidate_input_sha256),
+            terminal_remaining_budget_minutes=(evaluated_state.session.remaining_budget),
             terminal_nonconfirmation_blocking_reasons=(
                 []
                 if outcome != "condition_context_blocked"
@@ -4038,9 +3893,7 @@ def run_condition_calibration_collection(
                 else []
             ),
             terminal_condition_projection=(
-                context.projection
-                if outcome == "condition_gate_ready"
-                else None
+                context.projection if outcome == "condition_gate_ready" else None
             ),
             terminal_condition_invocation_proof=invocation,
         )
@@ -4083,9 +3936,7 @@ def run_condition_calibration_collection(
             stage="condition_collection_outcome_firewall",
             input_sha256s={
                 "full_graph": hash_canonical(current_full_graph),
-                "materialization_receipt": (
-                    context.plan.materialization_receipt_sha256
-                ),
+                "materialization_receipt": (context.plan.materialization_receipt_sha256),
             },
             output_sha256s={
                 "development_graph": context.plan.development_graph_sha256,
@@ -4102,9 +3953,7 @@ def run_condition_calibration_collection(
             output_sha256s={
                 "collection_decision": collection_decision.decision_sha256,
                 "trajectory": (
-                    hash_canonical(None)
-                    if visible is None
-                    else visible.trajectory_sha256
+                    hash_canonical(None) if visible is None else visible.trajectory_sha256
                 ),
             },
             method="threshold-blind-prebundle-condition-collection-v1",
@@ -4163,9 +4012,7 @@ def validate_condition_calibration_collection_source_external_replay(
 
     computed = source.pipeline_verification.computed
     if computed is None:
-        raise VerificationContractError(
-            "condition_collection_external_pipeline_artifact_missing"
-        )
+        raise VerificationContractError("condition_collection_external_pipeline_artifact_missing")
     repository_root = pipeline_root or Path(__file__).resolve().parents[2]
     try:
         replayed_pipeline = require_pipeline_fingerprint_match(
@@ -4185,46 +4032,31 @@ def validate_condition_calibration_collection_source_external_replay(
     try:
         manifest = ClaimManifest.model_validate(source.claim_manifest)
     except ValueError as exc:
-        raise VerificationContractError(
-            "condition_collection_external_manifest_invalid"
-        ) from exc
+        raise VerificationContractError("condition_collection_external_manifest_invalid") from exc
     if manifest.claim_manifest_version != "3":
-        raise VerificationContractError(
-            "condition_collection_external_manifest_version_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_manifest_version_mismatch")
 
     metadata = source.corpus.get("metadata")
-    native_manifest = (
-        metadata.get("native_source_manifest")
-        if isinstance(metadata, dict)
-        else None
-    )
+    native_manifest = metadata.get("native_source_manifest") if isinstance(metadata, dict) else None
     source_manifest_sha256 = (
-        metadata.get("source_manifest_sha256")
-        if isinstance(metadata, dict)
-        else None
+        metadata.get("source_manifest_sha256") if isinstance(metadata, dict) else None
     )
     provenance = source.corpus.get("provenance_assurance")
     eligibility_payload = source.corpus.get("eligibility")
     terminal_membership = (
-        metadata.get("terminal_fragment_membership")
-        if isinstance(metadata, dict)
-        else None
+        metadata.get("terminal_fragment_membership") if isinstance(metadata, dict) else None
     )
     if (
         source.corpus.get("corpus_id") != manifest.question_id
         or source.corpus.get("source_sha256") != source.corpus_sha256
-        or source.corpus.get("source_format")
-        != "typed_evidence_grounding_package_json"
+        or source.corpus.get("source_format") != "typed_evidence_grounding_package_json"
         or not isinstance(provenance, dict)
         or provenance.get("status") != "source_replayed_native_grounding"
         or provenance.get("release_eligible") is not True
         or not isinstance(metadata, dict)
-        or metadata.get("grounding_package_version")
-        != "typed-evidence-grounding-package-v4"
+        or metadata.get("grounding_package_version") != "typed-evidence-grounding-package-v4"
         or metadata.get("pipeline_fingerprint_sha256") != pipeline_sha256
-        or metadata.get("native_corpus_cutoff")
-        != manifest.protocol.corpus_cutoff
+        or metadata.get("native_corpus_cutoff") != manifest.protocol.corpus_cutoff
         or metadata.get("grounding_replay_sha256") != provenance.get("replay_sha256")
         or metadata.get("source_manifest_membership_bound") is not True
         or metadata.get("question_config_sha256")
@@ -4252,13 +4084,10 @@ def validate_condition_calibration_collection_source_external_replay(
             or hash_canonical(native_manifest) != source_manifest_sha256
             or parsed_native_manifest.question_id != manifest.question_id
         ):
-            raise VerificationContractError(
-                "condition_collection_external_source_manifest_invalid"
-            )
+            raise VerificationContractError("condition_collection_external_source_manifest_invalid")
         try:
             publication_ids = sorted(
-                str(record["publication"]["publication_id"])
-                for record in records
+                str(record["publication"]["publication_id"]) for record in records
             )
         except (KeyError, TypeError) as exc:
             raise VerificationContractError(
@@ -4281,10 +4110,7 @@ def validate_condition_calibration_collection_source_external_replay(
             "condition_collection_external_native_source_manifest_missing"
         )
     try:
-        eligibility = [
-            CorpusEligibilityRecord.model_validate(row)
-            for row in eligibility_payload
-        ]
+        eligibility = [CorpusEligibilityRecord.model_validate(row) for row in eligibility_payload]
     except ValueError as exc:
         raise VerificationContractError(
             "condition_collection_external_eligibility_invalid"
@@ -4323,13 +4149,10 @@ def validate_condition_calibration_collection_source_external_replay(
         or row.get("status") not in {"estimable", "non_estimable"}
         for row in terminal_membership
     ):
-        raise VerificationContractError(
-            "condition_collection_external_terminal_membership_invalid"
-        )
+        raise VerificationContractError("condition_collection_external_terminal_membership_invalid")
     try:
         terminal_observed = sorted(
-            (str(row["paper_id"]), str(row["publication_id"]))
-            for row in terminal_membership
+            (str(row["paper_id"]), str(row["publication_id"])) for row in terminal_membership
         )
     except (KeyError, TypeError) as exc:
         raise VerificationContractError(
@@ -4341,8 +4164,7 @@ def validate_condition_calibration_collection_source_external_replay(
         or metadata.get("terminal_fragment_records") != len(terminal_membership)
         or hash_canonical(terminal_membership)
         != metadata.get("terminal_fragment_membership_sha256")
-        or metadata.get("source_manifest_records")
-        != len(parsed_native_manifest.records)
+        or metadata.get("source_manifest_records") != len(parsed_native_manifest.records)
     ):
         raise VerificationContractError(
             "condition_collection_external_terminal_membership_mismatch"
@@ -4362,9 +4184,7 @@ def validate_condition_calibration_collection_source_external_replay(
         source.corpus.get("graph_counts") != expected_graph_counts
         or source.corpus.get("eligibility_counts") != expected_eligibility_counts
     ):
-        raise VerificationContractError(
-            "condition_collection_external_corpus_count_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_corpus_count_mismatch")
     expected_identity = freeze_complete_corpus_identity(
         corpus_id=str(source.corpus.get("corpus_id") or ""),
         corpus_source_sha256=source.corpus_sha256,
@@ -4373,9 +4193,7 @@ def validate_condition_calibration_collection_source_external_replay(
         source_manifest_sha256=source_manifest_sha256,
     )
     if expected_identity != source.complete_corpus_identity:
-        raise VerificationContractError(
-            "condition_collection_external_complete_corpus_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_complete_corpus_mismatch")
     expected_policy = build_verifier_adaptive_policy_context(
         manifest=manifest,
         pipeline_sha256=pipeline_sha256,
@@ -4383,9 +4201,7 @@ def validate_condition_calibration_collection_source_external_replay(
         policy_arm_id=source.adaptive_policy_context.policy_arm_id,
     )
     if expected_policy != source.adaptive_policy_context:
-        raise VerificationContractError(
-            "condition_collection_external_policy_context_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_policy_context_mismatch")
     context, current_full = _rebuild_condition_context_from_graphs(
         manifest=manifest,
         complete_corpus_identity=expected_identity,
@@ -4403,9 +4219,7 @@ def validate_condition_calibration_collection_source_external_replay(
         or context.target_semantics != source.condition_target_semantics
         or context.independence_identity != source.condition_independence_identity
     ):
-        raise VerificationContractError(
-            "condition_collection_external_scientific_context_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_scientific_context_mismatch")
 
     item_risk_bundle = None
     item_risk_candidates = None
@@ -4426,13 +4240,11 @@ def validate_condition_calibration_collection_source_external_replay(
             candidate.item_id
             for candidate in receipt.candidates
             if candidate.item_id not in source_estimates
-            or candidate.score_input_sha256
-            != hash_canonical(source_estimates[candidate.item_id])
+            or candidate.score_input_sha256 != hash_canonical(source_estimates[candidate.item_id])
         )
         if stale:
             raise VerificationContractError(
-                "condition_collection_external_item_risk_snapshot_mismatch:"
-                + ",".join(stale)
+                "condition_collection_external_item_risk_snapshot_mismatch:" + ",".join(stale)
             )
         item_risk_bundle = receipt.calibration_bundle
         item_risk_candidates = list(receipt.candidates)
@@ -4440,8 +4252,7 @@ def validate_condition_calibration_collection_source_external_replay(
     state = resume_sequential_verification_state(source.sequential_audit_state)
     if (
         state.session.pipeline_sha256 != pipeline_sha256
-        or state.session.policy_sha256
-        != compute_verification_policy_sha256(manifest)
+        or state.session.policy_sha256 != compute_verification_policy_sha256(manifest)
         or state.adaptive_policy_context_sha256 is not None
         or state.adaptive_calibration_bundle_sha256 is not None
         or state.graph != source.development_evidence_graph
@@ -4451,9 +4262,7 @@ def validate_condition_calibration_collection_source_external_replay(
             source.condition_plan.development_partition,
         )
     ):
-        raise VerificationContractError(
-            "condition_collection_external_sequential_context_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_sequential_context_mismatch")
     prepared = prepare_verification_scientific_state(
         manifest=manifest,
         graph=source.development_evidence_graph,
@@ -4471,12 +4280,9 @@ def validate_condition_calibration_collection_source_external_replay(
     )
     if (
         prepared.synthesis != source.synthesis
-        or [asdict(row) for row in prepared.audit_candidates]
-        != source.audit_candidates
+        or [asdict(row) for row in prepared.audit_candidates] != source.audit_candidates
     ):
-        raise VerificationContractError(
-            "condition_collection_external_science_payload_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_science_payload_mismatch")
 
     blocking_adapter_reasons = sorted(
         f"adapter:{issue.get('code')!s}"
@@ -4502,9 +4308,7 @@ def validate_condition_calibration_collection_source_external_replay(
             claim_model=checkpoint_prepared.claim_model,
             audit_resolution_receipts=[],
             audit_budget=state.session.budget,
-            condition_noncalibration_reasons=(
-                checkpoint_context.ordinary_blocking_reasons
-            ),
+            condition_noncalibration_reasons=(checkpoint_context.ordinary_blocking_reasons),
             external_noncalibration_blocking_reasons=blocking_adapter_reasons,
             config=manifest.release,
             audit_guard_config=manifest.audit_guard.to_runtime(),
@@ -4522,9 +4326,7 @@ def validate_condition_calibration_collection_source_external_replay(
             template_plan=source.condition_plan,
             pipeline_sha256=pipeline_sha256,
             exact_current_full_graph=(
-                source.source_evidence_graph
-                if predecessor.graph == state.initial_graph
-                else None
+                source.source_evidence_graph if predecessor.graph == state.initial_graph else None
             ),
         )
         historical_prepared = prepare_verification_scientific_state(
@@ -4533,9 +4335,7 @@ def validate_condition_calibration_collection_source_external_replay(
             pipeline_verification=replayed_pipeline,
             item_risk_calibration_bundle=item_risk_bundle,
             item_risk_candidates=item_risk_candidates,
-            resolved_item_ids_for_risk_projection=set(
-                predecessor.session.resolved_item_ids
-            ),
+            resolved_item_ids_for_risk_projection=set(predecessor.session.resolved_item_ids),
         )
         _require_exact_prepared_sequential_artifacts(
             label=f"condition_collection_external_history_{index}",
@@ -4568,15 +4368,11 @@ def validate_condition_calibration_collection_source_external_replay(
         if not online_states or online_states[-1] != current_preselection:
             online_states.append(current_preselection)
     if online_states != source.online_preselection_states:
-        raise VerificationContractError(
-            "condition_collection_external_online_trajectory_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_online_trajectory_mismatch")
 
     invocation: ConditionGateInvocationProofV2 | None = None
     selection_result = None
-    hard_context_blockers = bool(
-        blocking_adapter_reasons or context.ordinary_blocking_reasons
-    )
+    hard_context_blockers = bool(blocking_adapter_reasons or context.ordinary_blocking_reasons)
     if evaluated.session.active_action is not None:
         expected_outcome = "active_action_in_progress"
     elif current_preselection is not None and current_preselection.non_calibration_gates_passed:
@@ -4623,35 +4419,27 @@ def validate_condition_calibration_collection_source_external_replay(
         reasons=[reason_by_outcome[expected_outcome]],
     )
     if expected_decision != decision:
-        raise VerificationContractError(
-            "condition_collection_external_decision_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_decision_mismatch")
     expected_final_state = (
         selection_result.state
         if expected_outcome == "selected_next_action" and selection_result is not None
         else evaluated
     )
     if expected_final_state != state:
-        raise VerificationContractError(
-            "condition_collection_external_final_state_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_final_state_mismatch")
     expected_reasons = sorted(
         set(current_assessment.reasons)
         | set(blocking_adapter_reasons)
         | {"condition_calibration_collection_source_never_release_eligible"}
     )
     if source.reasons != expected_reasons:
-        raise VerificationContractError(
-            "condition_collection_external_reason_ledger_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_reason_ledger_mismatch")
     expected_lineage = [
         CertificateLineageStage(
             stage="condition_collection_outcome_firewall",
             input_sha256s={
                 "full_graph": hash_canonical(source.current_full_evidence_graph),
-                "materialization_receipt": (
-                    context.plan.materialization_receipt_sha256
-                ),
+                "materialization_receipt": (context.plan.materialization_receipt_sha256),
             },
             output_sha256s={
                 "development_graph": context.plan.development_graph_sha256,
@@ -4677,9 +4465,7 @@ def validate_condition_calibration_collection_source_external_replay(
         ),
     ]
     if source.lineage != expected_lineage:
-        raise VerificationContractError(
-            "condition_collection_external_lineage_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_lineage_mismatch")
     expected_run_identity = hash_canonical(
         {
             "claim_manifest_sha256": source.claim_manifest_sha256,
@@ -4695,9 +4481,7 @@ def validate_condition_calibration_collection_source_external_replay(
         }
     )
     if source.run_id != f"condition-collection-{expected_run_identity[:16]}":
-        raise VerificationContractError(
-            "condition_collection_external_run_identity_mismatch"
-        )
+        raise VerificationContractError("condition_collection_external_run_identity_mismatch")
     return source
 
 
@@ -4718,9 +4502,7 @@ def validate_condition_calibration_assessment_receipt_external_replay(
 
     try:
         canonical = ConditionCalibrationAssessmentReceiptV1.model_validate(
-            receipt.model_dump(mode="json")
-            if hasattr(receipt, "model_dump")
-            else receipt
+            receipt.model_dump(mode="json") if hasattr(receipt, "model_dump") else receipt
         )
     except (AttributeError, ValueError) as exc:
         raise VerificationContractError(
@@ -4743,18 +4525,14 @@ def validate_condition_calibration_assessment_receipt_external_replay(
                 collection_source_roster=roster,
                 collection_source=canonical.collection_source,
                 expected_source_roster_sha256=canonical.source_roster_sha256,
-                expected_source_membership_sha256=(
-                    canonical.source_membership_sha256
-                ),
+                expected_source_membership_sha256=(canonical.source_membership_sha256),
             )
         except (AttributeError, ValueError) as exc:
             raise VerificationContractError(
                 "condition_collection_receipt_external_roster_mismatch"
             ) from exc
         if anchor != canonical.source_anchor:
-            raise VerificationContractError(
-                "condition_collection_receipt_external_anchor_mismatch"
-            )
+            raise VerificationContractError("condition_collection_receipt_external_anchor_mismatch")
     return canonical
 
 
@@ -4775,21 +4553,15 @@ def finalize_condition_verification(
 
     generated_at = generated_at or datetime.now(UTC)
     if generated_at.tzinfo is None or generated_at.utcoffset() is None:
-        raise VerificationContractError(
-            "condition_finalizer_generated_at_requires_timezone"
-        )
+        raise VerificationContractError("condition_finalizer_generated_at_requires_timezone")
     try:
         return freeze_final_condition_verification_certificate_v7(
             generated_at=generated_at,
             source_certificate=source_certificate,
-            condition_confirmation_assessment=(
-                condition_confirmation_assessment
-            ),
+            condition_confirmation_assessment=(condition_confirmation_assessment),
         )
     except (AttributeError, ValueError) as exc:
-        raise VerificationContractError(
-            f"condition_finalizer_rejected:{exc}"
-        ) from exc
+        raise VerificationContractError(f"condition_finalizer_rejected:{exc}") from exc
 
 
 def run_verification(
@@ -4813,18 +4585,13 @@ def run_verification(
     sequential_audit_state: SequentialVerificationState | None = None,
     allow_uncalibrated_sequential_analysis: bool = False,
     generated_at: datetime | None = None,
-) -> (
-    VerificationCertificate
-    | ConditionVerificationCertificateV6
-):
+) -> VerificationCertificate | ConditionVerificationCertificateV6:
     """Execute the complete frozen-corpus verifier and freeze its certificate."""
 
     if not math.isfinite(budget_minutes) or budget_minutes < 0:
         raise VerificationContractError("verification_budget_minutes_invalid")
     if type(allow_uncalibrated_sequential_analysis) is not bool:
-        raise VerificationContractError(
-            "allow_uncalibrated_sequential_analysis_must_be_boolean"
-        )
+        raise VerificationContractError("allow_uncalibrated_sequential_analysis_must_be_boolean")
     if allow_uncalibrated_sequential_analysis and (
         adaptive_calibration_bundle is not None or audit_resolution_receipts
     ):
@@ -4864,9 +4631,7 @@ def run_verification(
             or item_risk_calibration_bundle is not None
             or item_risk_candidates is not None
         ):
-            raise VerificationContractError(
-                "manifest_v3_forbids_legacy_or_detached_release_inputs"
-            )
+            raise VerificationContractError("manifest_v3_forbids_legacy_or_detached_release_inputs")
         return _run_condition_verification(
             manifest=manifest,
             corpus=corpus,
@@ -4882,9 +4647,7 @@ def run_verification(
             generated_at=generated_at,
         )
     if any(value is not None for value in condition_inputs):
-        raise VerificationContractError(
-            "condition_verification_inputs_require_manifest_v3"
-        )
+        raise VerificationContractError("condition_verification_inputs_require_manifest_v3")
     receipts = sorted(
         (
             AuditResolutionReceipt.model_validate(receipt)
@@ -4901,10 +4664,7 @@ def run_verification(
     if pipeline_sha256 is None:
         raise VerificationContractError("computed_pipeline_identity_missing")
     if item_risk_scoring_receipt is not None:
-        if (
-            item_risk_calibration_bundle is not None
-            or item_risk_candidates is not None
-        ):
+        if item_risk_calibration_bundle is not None or item_risk_candidates is not None:
             raise VerificationContractError(
                 "item_risk_scoring_receipt_conflicts_with_detached_inputs"
             )
@@ -4913,20 +4673,12 @@ def run_verification(
                 item_risk_scoring_receipt.model_dump(mode="json")
             )
         except (AttributeError, ValueError) as exc:
-            raise VerificationContractError(
-                "item_risk_scoring_receipt_invalid"
-            ) from exc
+            raise VerificationContractError("item_risk_scoring_receipt_invalid") from exc
         if item_risk_scoring_receipt.pipeline_verification != pipeline_verification:
-            raise VerificationContractError(
-                "item_risk_scoring_receipt_pipeline_mismatch"
-            )
-        item_risk_calibration_bundle = (
-            item_risk_scoring_receipt.calibration_bundle
-        )
+            raise VerificationContractError("item_risk_scoring_receipt_pipeline_mismatch")
+        item_risk_calibration_bundle = item_risk_scoring_receipt.calibration_bundle
         item_risk_candidates = list(item_risk_scoring_receipt.candidates)
-    elif (
-        item_risk_calibration_bundle is not None or item_risk_candidates is not None
-    ):
+    elif item_risk_calibration_bundle is not None or item_risk_candidates is not None:
         raise VerificationContractError(
             "detached_item_risk_inputs_forbidden_use_scoring_receipt_v2"
         )
@@ -4936,55 +4688,43 @@ def run_verification(
     )
     if item_risk_scoring_receipt is not None:
         source_estimates = {
-            estimate.estimate_id: estimate
-            for estimate in corpus.graph.outcome_estimates
+            estimate.estimate_id: estimate for estimate in corpus.graph.outcome_estimates
         }
         stale_item_ids = sorted(
             candidate.item_id
             for candidate in item_risk_scoring_receipt.candidates
             if candidate.item_id not in source_estimates
-            or candidate.score_input_sha256
-            != hash_canonical(source_estimates[candidate.item_id])
+            or candidate.score_input_sha256 != hash_canonical(source_estimates[candidate.item_id])
         )
         if stale_item_ids:
             raise VerificationContractError(
-                "item_risk_scoring_receipt_source_snapshot_mismatch:"
-                f"{stale_item_ids}"
+                f"item_risk_scoring_receipt_source_snapshot_mismatch:{stale_item_ids}"
             )
     adaptive_policy_context_for_certificate: AdaptivePolicyContext | None = None
     if frozen_calibration_bundle is not None and adaptive_calibration_bundle is not None:
         raise VerificationContractError("multiple_claim_calibration_bundles_supplied")
     if adaptive_calibration_bundle is not None:
         try:
-            adaptive_calibration_bundle = (
-                validate_adaptive_calibration_bundle_integrity(
-                    adaptive_calibration_bundle
-                )
+            adaptive_calibration_bundle = validate_adaptive_calibration_bundle_integrity(
+                adaptive_calibration_bundle
             )
         except AdaptiveCalibrationError as exc:
-            raise VerificationContractError(
-                f"adaptive_calibration_bundle_invalid:{exc}"
-            ) from exc
-        adaptive_policy_context_for_certificate = (
-            _derive_verifier_adaptive_policy_context(
-                manifest=manifest,
-                pipeline_sha256=pipeline_sha256,
-                budget_minutes=budget_minutes,
-                bundle=adaptive_calibration_bundle,
-            )
+            raise VerificationContractError(f"adaptive_calibration_bundle_invalid:{exc}") from exc
+        adaptive_policy_context_for_certificate = _derive_verifier_adaptive_policy_context(
+            manifest=manifest,
+            pipeline_sha256=pipeline_sha256,
+            budget_minutes=budget_minutes,
+            bundle=adaptive_calibration_bundle,
         )
     if (
         sequential_audit_state is not None
         and sequential_audit_state.session.policy_sha256
         != compute_verification_policy_sha256(manifest)
     ):
-        raise VerificationContractError(
-            "sequential_audit_state_claim_manifest_context_mismatch"
-        )
+        raise VerificationContractError("sequential_audit_state_claim_manifest_context_mismatch")
     corpus_issues = list(corpus.adapter_issues)
     if corpus.provenance_assurance.status == "source_replayed_native_grounding" and not (
-        corpus.metadata.get("grounding_package_version")
-        == "typed-evidence-grounding-package-v4"
+        corpus.metadata.get("grounding_package_version") == "typed-evidence-grounding-package-v4"
         and corpus.metadata.get("source_manifest_membership_bound") is True
         and isinstance(corpus.metadata.get("source_manifest_sha256"), str)
         and SHA256_RE.fullmatch(corpus.metadata["source_manifest_sha256"]) is not None
@@ -5095,8 +4835,7 @@ def run_verification(
     if (
         corpus.provenance_assurance.status == "source_replayed_native_grounding"
         and corpus.metadata.get("source_manifest_membership_bound") is True
-        and corpus.metadata.get("native_corpus_cutoff")
-        != manifest.protocol.corpus_cutoff
+        and corpus.metadata.get("native_corpus_cutoff") != manifest.protocol.corpus_cutoff
     ):
         corpus_issues = [
             issue for issue in corpus_issues if issue.code != "corpus_cutoff_identity_mismatch"
@@ -5167,12 +4906,9 @@ def run_verification(
     )
     if (
         item_risk_scoring_receipt is not None
-        and list(source_prepared.item_risk_bounds)
-        != item_risk_scoring_receipt.bounds
+        and list(source_prepared.item_risk_bounds) != item_risk_scoring_receipt.bounds
     ):
-        raise VerificationContractError(
-            "item_risk_scoring_receipt_bound_replay_mismatch"
-        )
+        raise VerificationContractError("item_risk_scoring_receipt_bound_replay_mismatch")
     if sequential_audit_state is not None and receipts:
         raise VerificationContractError(
             "sequential_audit_state_conflicts_with_v1_resolution_receipts"
@@ -5197,9 +4933,10 @@ def run_verification(
     synthesis = prepared.synthesis
     item_risk_bounds = list(prepared.item_risk_bounds)
     effective_sequential_state = sequential_audit_state
-    if effective_sequential_state is None and not receipts and (
-        adaptive_calibration_bundle is not None
-        or allow_uncalibrated_sequential_analysis
+    if (
+        effective_sequential_state is None
+        and not receipts
+        and (adaptive_calibration_bundle is not None or allow_uncalibrated_sequential_analysis)
     ):
         effective_sequential_state = _create_initial_sequential_audit_state(
             manifest=manifest,
@@ -5302,18 +5039,12 @@ def run_verification(
                 adaptive_history,
                 adaptive_history_context_sha256,
                 adaptive_history_bundle_sha256,
-            ) = adaptive_preselection_history_from_state(
+            ) = adaptive_preselection_history_from_state(effective_sequential_state)
+            selection_predecessor_states = selection_predecessor_states_from_state(
                 effective_sequential_state
             )
-            selection_predecessor_states = (
-                selection_predecessor_states_from_state(
-                    effective_sequential_state
-                )
-            )
         except SequentialVerificationContractError as exc:
-            raise VerificationContractError(
-                f"adaptive_selection_history_invalid:{exc}"
-            ) from exc
+            raise VerificationContractError(f"adaptive_selection_history_invalid:{exc}") from exc
     selection_transitions_exist = bool(
         effective_sequential_state is not None
         and any(
@@ -5322,8 +5053,7 @@ def run_verification(
         )
     )
     state_has_adaptive_commitment = (
-        adaptive_history_context_sha256 is not None
-        or adaptive_history_bundle_sha256 is not None
+        adaptive_history_context_sha256 is not None or adaptive_history_bundle_sha256 is not None
     )
     if adaptive_calibration_bundle is None:
         if state_has_adaptive_commitment:
@@ -5347,16 +5077,13 @@ def run_verification(
         if (
             adaptive_history_context_sha256
             != adaptive_policy_context_for_certificate.policy_context_sha256
-            or adaptive_history_bundle_sha256
-            != adaptive_calibration_bundle.bundle_sha256
+            or adaptive_history_bundle_sha256 != adaptive_calibration_bundle.bundle_sha256
         ):
             raise VerificationContractError(
                 "adaptive_selection_history_calibration_identity_mismatch"
             )
         if len(selection_predecessor_states) != len(adaptive_history):
-            raise VerificationContractError(
-                "adaptive_selection_history_snapshot_count_mismatch"
-            )
+            raise VerificationContractError("adaptive_selection_history_snapshot_count_mismatch")
         for index, (checkpoint, historical_state) in enumerate(
             zip(
                 adaptive_history,
@@ -5365,24 +5092,20 @@ def run_verification(
             )
         ):
             try:
-                recomputed_checkpoint = (
-                    recompute_verifier_adaptive_preselection_checkpoint(
-                        manifest=manifest,
-                        state=historical_state,
-                        pipeline_verification=pipeline_verification,
-                        item_risk_scoring_receipt=item_risk_scoring_receipt,
-                        blocking_adapter_reasons=blocking_adapter_reasons,
-                    )
+                recomputed_checkpoint = recompute_verifier_adaptive_preselection_checkpoint(
+                    manifest=manifest,
+                    state=historical_state,
+                    pipeline_verification=pipeline_verification,
+                    item_risk_scoring_receipt=item_risk_scoring_receipt,
+                    blocking_adapter_reasons=blocking_adapter_reasons,
                 )
             except VerificationContractError as exc:
                 raise VerificationContractError(
-                    "adaptive_selection_checkpoint_scientific_replay_failed:"
-                    f"{index}:{exc}"
+                    f"adaptive_selection_checkpoint_scientific_replay_failed:{index}:{exc}"
                 ) from exc
             if recomputed_checkpoint != checkpoint:
                 raise VerificationContractError(
-                    "adaptive_selection_checkpoint_assessment_mismatch:"
-                    f"{index}"
+                    f"adaptive_selection_checkpoint_assessment_mismatch:{index}"
                 )
         if effective_sequential_state.session.active_action is None:
             shadow_assessment = assess_current_frozen_state(
@@ -5482,9 +5205,7 @@ def run_verification(
         production_stop_outcome = "stopped_released"
     elif effective_sequential_state.session.active_action is not None:
         production_stop_outcome = "active_action_in_progress"
-    elif adaptive_calibration_bundle is None and not (
-        allow_uncalibrated_sequential_analysis
-    ):
+    elif adaptive_calibration_bundle is None and not (allow_uncalibrated_sequential_analysis):
         production_stop_outcome = "adaptive_calibration_required_before_selection"
     elif (
         effective_sequential_state.session.status.value == "active"
@@ -5509,9 +5230,7 @@ def run_verification(
             )
         except SequentialVerificationContractError as exc:
             if str(exc) != "no_eligible_candidate_fits_remaining_budget":
-                raise VerificationContractError(
-                    f"sequential_audit_selection_failed:{exc}"
-                ) from exc
+                raise VerificationContractError(f"sequential_audit_selection_failed:{exc}") from exc
             production_stop_outcome = "no_feasible_action"
         else:
             production_stop_outcome = "selected_next_action"
@@ -5585,9 +5304,7 @@ def run_verification(
             "adaptive_release_candidate": adaptive_release_candidate,
             "adaptive_prospective_assessment": adaptive_prospective_assessment,
             "pipeline_sha256": pipeline_sha256,
-            "production_stop_decision_sha256": (
-                production_stop_decision.decision_sha256
-            ),
+            "production_stop_decision_sha256": (production_stop_decision.decision_sha256),
             "target": manifest.qualified_target or target,
         }
     )
@@ -5621,11 +5338,7 @@ def run_verification(
                         "audit_transition_ledger": audit_transition_hash,
                         "evidence_graph": graph_hash,
                         **(
-                            {
-                                "sequential_audit_state": (
-                                    effective_sequential_state.state_sha256
-                                )
-                            }
+                            {"sequential_audit_state": (effective_sequential_state.state_sha256)}
                             if effective_sequential_state is not None
                             else {}
                         ),
@@ -5695,9 +5408,7 @@ def run_verification(
                             if adaptive_release_candidate is None
                             else adaptive_release_candidate.candidate_sha256
                         ),
-                        "complete_corpus_identity": (
-                            complete_corpus_identity.membership_sha256
-                        ),
+                        "complete_corpus_identity": (complete_corpus_identity.membership_sha256),
                     }.items()
                 )
             ),

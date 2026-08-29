@@ -156,6 +156,8 @@ The result establishes these boundaries:
 No closed-corpus end-to-end accuracy, exhaustive-eligibility retrieval recall,
 human-accuracy, or real calibration claim follows from this artifact. MetaSyn now supports
 retrospective retrieval agreement with its released matched-paper subset, but its typed
-extractor and end-to-end synthesis arms are not connected. Antiox retrieval recall requires
+extraction and synthesis arms have not been run in this closed-corpus evaluation. The generic
+frozen-acquisition verifier is an executable orchestration path, not a completed MetaSyn
+prediction arm. Antiox retrieval recall requires
 an external gold included-study set; accuracy and calibration require completed independent
 human adjudication.

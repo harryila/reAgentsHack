@@ -124,3 +124,8 @@ non-pristine, non-confirmatory, and specific to the pinned local `llama3.2:1b` r
 The study evaluates structured direction extraction and formal quote/line containment. It does
 not evaluate retrieval, semantic entailment, clinical truth, numerical effect extraction,
 meta-analysis, or the full claim-release verifier.
+
+A later full-population `claude-fable-5` transfer also favored the seed on all three prespecified
+metrics. That separate result changes the engineering choice for its runtime surface, not this
+study's non-pristine or non-confirmatory authority. See
+[the full Fable retrospective](evidence-inference-fable-retrospective-full.md).

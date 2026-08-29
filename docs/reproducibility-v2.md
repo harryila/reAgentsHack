@@ -69,6 +69,9 @@ uv run lm fingerprint \
 The artifact contains a computed `pipeline_sha256` and the file-level component manifest. Later
 commands reread and rehash those files. Supplying a hash in a claim manifest is not proof of
 pipeline identity, and any covered code or prompt edit invalidates the frozen artifact.
+The current `native-extraction` component is version 12; it closes over the frozen-acquisition and
+harvester implementation as well as native extraction and grounding. This version number is an
+integrity-contract identifier, not model-validity evidence.
 
 ## Verify a real claim and run the sequential audit
 
@@ -84,6 +87,12 @@ uv run lm verify \
   --pipeline-root . \
   --output-dir /tmp/lm-v2/verify-00
 ```
+
+To start instead from an exact frozen local acquisition, replace `--corpus` with
+`--acquisition-manifest`. The modes are mutually exclusive. Acquisition replay makes no open-web or
+model call and requires a complete pre-existing extraction ledger or typed package; see
+[the acquisition contract](acquisition-verification.md). It validates orchestration and membership,
+not retrieval, screening, or extraction accuracy.
 
 Every action-selecting, release-capable run must supply the adaptive bundle at state genesis.
 Omitting it produces a no-selection, no-state fail-closed diagnostic. To study an uncalibrated
@@ -634,6 +643,43 @@ Simulation or diagnostic input is rejected unless `--allow-non-real` is explicit
 not upgrade the result: the artifact remains marked ineligible for a real scientific or
 human-efficiency claim. The evaluator also rejects overlap in evaluation question, claim, corpus,
 paper, cohort, or policy-fitting identities, as well as mixed production-pipeline hashes.
+
+For the stricter decisive lifecycle, do not hand-author production replay rows. Compile the exact
+policy-visited prefix union from transactional verifier workspaces before any evaluation reference
+verdict is opened:
+
+```bash
+uv run python scripts/run_decisive_trajectory_compiler_v1.py freeze-roster --help
+uv run python scripts/run_decisive_trajectory_compiler_v1.py compile --help
+uv run python scripts/run_decisive_trajectory_compiler_v1.py validate --help
+uv run python scripts/run_decisive_claim_evaluation_v1.py --help
+uv run python scripts/run_decisive_claim_evaluation_v2.py --help
+```
+
+The compiler requires complete real-source, calibrated, certificate-bound trajectories with
+completed adjudications and measured total-person-minutes. Every evaluation question must also
+provide `--adjudication-package QUESTION_ID=RELATIVE_PATH`. That exact package binds a frozen
+operator reviewer/role registry and protocol to raw independent decisions, per-person timing,
+resolution, and correction files; the compiler replays their question/item membership and exact
+transaction-receipt payload hashes. Missing packages, symlinks, unbound files, simulations,
+diagnostics, benchmark replay, and missing policy-visited prefixes are rejected. The operator
+registry is hash-bound provenance, not cryptographic proof of identity, independence, licensure, or
+expertise. The compiler records that limitation explicitly, remains label-blind, and confers no
+scientific or release authority. Decisive v1 separately freezes the policy population before
+opening its sealed evaluation verdicts; v2 then derives common realized-cost and fixed-error
+frontiers from that already-scored v1 result. The exact v2 contract is in
+[decisive-frontiers-v2.md](decisive-frontiers-v2.md).
+
+For a real bundle, pass `--trajectory-compilation-result`,
+`--trajectory-compilation-source-roster`, and `--trajectory-compilation-source-root` to every v1
+`readiness`, `freeze`, `score`, or corresponding `validate` command. V1 replays those exact
+compiler sources and current compiler code before marking readiness real, then repeats the replay
+before opening any label bytes. A self-hashed bundle without this replay remains blocked even if it
+declares `evidence_kind=real_expert_adjudicated`. Simulation mechanics runs must omit these inputs.
+
+The checked-in public readiness receipt remains blocked with zero development, calibration, and
+evaluation complete questions. Therefore these executable bridges are not yet a real result for
+adaptive policy effectiveness, released-claim risk, or human efficiency.
 
 ## Claim boundary checklist
 

@@ -1,0 +1,23 @@
+{
+  "application_retries_per_request": 0,
+  "calibration_authority": false,
+  "claim_release_authority": false,
+  "config_version": "metasyn-contextual-frontier-recovery-config-v2",
+  "effort": "high",
+  "explicit_estimand": "fedratinib 500-mg group versus placebo group for the primary end point spleen response at week 24",
+  "extraction_accuracy_authority": false,
+  "hard_liability_policy": "single_request_full_model_input_context_plus_max_output",
+  "maximum_provider_calls": 1,
+  "model": "claude-fable-5",
+  "operator_authorized_source_transmission": true,
+  "orphan_or_ambiguous_attempt_retry_permitted": false,
+  "predecessor_v1_retry_permitted": false,
+  "predecessor_workspace_mutation_permitted": false,
+  "request_key": "row17-candidate3-fable5-high-recovery-v2",
+  "scientific_synthesis_authority": false,
+  "sdk_retries_per_request": 0,
+  "service_tier": "standard_only",
+  "synthesis_input_authority": false,
+  "target_witness": "metasyn-row17-candidate3-binary-primary-endpoint",
+  "transport_mode": "structured_json_schema"
+}

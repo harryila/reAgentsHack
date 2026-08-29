@@ -8,6 +8,10 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from literature_multiverse.acquisition import (
+    load_acquisition_manifest,
+    replay_frozen_acquisition,
+)
 from literature_multiverse.adaptive_calibration import (
     AdaptiveCalibrationBundle,
     AdaptiveCalibrationBundleV2,
@@ -261,13 +265,19 @@ def _add_verify_parser(subparsers: Any) -> argparse.ArgumentParser:
         ),
     )
     parser.add_argument(
+        "--acquisition-manifest",
+        type=Path,
+        help=(
+            "Self-hashed frozen acquisition manifest. Replays its exact local search, "
+            "screening, and native extraction/package inputs before invoking the same "
+            "verifier used by --corpus. Mutually exclusive with --corpus."
+        ),
+    )
+    parser.add_argument(
         "--budget-minutes",
         type=float,
         required=True,
-        help=(
-            "Maximum prospective person-minutes summed across reviewers and final "
-            "adjudication"
-        ),
+        help=("Maximum prospective person-minutes summed across reviewers and final adjudication"),
     )
     parser.add_argument(
         "--calibration",
@@ -407,9 +417,7 @@ def _add_fingerprint_parser(subparsers: Any) -> argparse.ArgumentParser:
 def _add_condition_collect_parser(subparsers: Any) -> argparse.ArgumentParser:
     parser = subparsers.add_parser(
         "condition-collect",
-        help=(
-            "Run one always-abstained pre-bundle condition-calibration policy arm."
-        ),
+        help=("Run one always-abstained pre-bundle condition-calibration policy arm."),
         description=(
             "Freeze an outcome-free collection source before confirmation outcomes, "
             "reference labels, or confirmation-aware calibration are opened."
@@ -449,9 +457,7 @@ def _add_condition_finalize_calibration_parser(
 ) -> argparse.ArgumentParser:
     parser = subparsers.add_parser(
         "condition-finalize-calibration",
-        help=(
-            "Join a gate-ready collection source to one held-out assessment receipt."
-        ),
+        help=("Join a gate-ready collection source to one held-out assessment receipt."),
         description=(
             "The pre-outcome source roster and its externally recorded hashes are "
             "validated first. The selected source must be an exact roster member and "
@@ -495,8 +501,7 @@ def _add_audit_checkpoint_parser(subparsers: Any) -> argparse.ArgumentParser:
     parser = subparsers.add_parser(
         "audit-checkpoint",
         help=(
-            "Charge cumulative measured time to the active action without resolving "
-            "or applying it."
+            "Charge cumulative measured time to the active action without resolving or applying it."
         ),
         description=(
             "Checkpoint partial work on the selected audit action. The value is the "
@@ -558,9 +563,7 @@ def _add_audit_resolve_parser(subparsers: Any) -> argparse.ArgumentParser:
         "--realized-minutes",
         type=float,
         required=True,
-        help=(
-            "Total measured person-minutes across every reviewer and final adjudication"
-        ),
+        help=("Total measured person-minutes across every reviewer and final adjudication"),
     )
     parser.add_argument("--completed-at", help="Timezone-aware ISO-8601 timestamp")
     parser.add_argument("--pipeline-fingerprint", type=Path)
@@ -610,37 +613,27 @@ def _condition_collect(args: argparse.Namespace) -> int:
         policy_visible_question_trajectory=_condition_visible_trajectory(
             args.policy_visible_trajectory
         ),
-        expected_pipeline_fingerprint=_pipeline_fingerprint(
-            args.pipeline_fingerprint
-        ),
+        expected_pipeline_fingerprint=_pipeline_fingerprint(args.pipeline_fingerprint),
         pipeline_root=args.pipeline_root,
-        item_risk_scoring_receipt=_item_risk_scoring_receipt(
-            args.item_risk_scoring_receipt
-        ),
+        item_risk_scoring_receipt=_item_risk_scoring_receipt(args.item_risk_scoring_receipt),
         sequential_audit_state=_sequential_audit_state(args.audit_state),
         generated_at=datetime.now(UTC),
     )
     outputs: dict[Path, Any] = {
         args.output_dir / "condition-calibration-collection-source.json": source,
-        args.output_dir / "sequential-audit-state.json": (
-            source.sequential_audit_state
-        ),
+        args.output_dir / "sequential-audit-state.json": (source.sequential_audit_state),
     }
     if source.policy_visible_question_trajectory is not None:
-        outputs[
-            args.output_dir / "policy-visible-question-trajectory-v2.json"
-        ] = source.policy_visible_question_trajectory
+        outputs[args.output_dir / "policy-visible-question-trajectory-v2.json"] = (
+            source.policy_visible_question_trajectory
+        )
     _write_json_outputs(outputs, force=args.force)
     print(
         json.dumps(
             {
-                "collection_decision_sha256": (
-                    source.collection_decision.decision_sha256
-                ),
+                "collection_decision_sha256": (source.collection_decision.decision_sha256),
                 "collection_source_sha256": source.collection_source_sha256,
-                "gate_ready": (
-                    source.collection_decision.outcome == "condition_gate_ready"
-                ),
+                "gate_ready": (source.collection_decision.outcome == "condition_gate_ready"),
                 "outcome": source.collection_decision.outcome,
                 "policy_arm_id": source.policy_arm_id,
                 "question_id": source.question_id,
@@ -650,8 +643,7 @@ def _condition_collect(args: argparse.Namespace) -> int:
                     else source.sequential_audit_state.session.active_action.item_id
                 ),
                 "source_path": (
-                    args.output_dir
-                    / "condition-calibration-collection-source.json"
+                    args.output_dir / "condition-calibration-collection-source.json"
                 ).as_posix(),
                 "state_sha256": source.sequential_audit_state.state_sha256,
             },
@@ -663,17 +655,14 @@ def _condition_collect(args: argparse.Namespace) -> int:
 
 def _condition_finalize_calibration(args: argparse.Namespace) -> int:
     if args.output.exists() and not args.force:
-        raise FileExistsError(
-            f"condition_calibration_receipt_output_exists:{args.output}"
-        )
+        raise FileExistsError(f"condition_calibration_receipt_output_exists:{args.output}")
     # Validate the already-frozen, outcome-free roster and its external anchor
     # before even opening the source selected from it, much less the held-out
     # assessment.  The final atomic write retains its own race-safe preflight.
     roster = _condition_collection_source_roster(args.source_roster)
     if (
         roster.source_roster_sha256 != args.expected_source_roster_sha256
-        or roster.source_membership_sha256
-        != args.expected_source_membership_sha256
+        or roster.source_membership_sha256 != args.expected_source_membership_sha256
     ):
         raise ValueError("condition_collection_source_roster_external_anchor_mismatch")
     source = _condition_collection_source(args.source)
@@ -703,9 +692,7 @@ def _condition_finalize_calibration(args: argparse.Namespace) -> int:
     print(
         json.dumps(
             {
-                "calibration_gate_result_sha256": (
-                    receipt.calibration_gate_result.result_sha256
-                ),
+                "calibration_gate_result_sha256": (receipt.calibration_gate_result.result_sha256),
                 "collection_source_sha256": receipt.collection_source_sha256,
                 "output": args.output.as_posix(),
                 "question_id": receipt.question_id,
@@ -720,47 +707,76 @@ def _condition_finalize_calibration(args: argparse.Namespace) -> int:
 
 def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
     repository_root = args.pipeline_root or Path(__file__).resolve().parents[2]
+    expected_fingerprint = _pipeline_fingerprint(args.pipeline_fingerprint)
+    acquisition_replay = None
     if args.fixture:
-        if args.claim is not None or args.corpus is not None:
-            parser.error("--fixture cannot be combined with --claim or --corpus")
+        if (
+            args.claim is not None
+            or args.corpus is not None
+            or args.acquisition_manifest is not None
+        ):
+            parser.error(
+                "--fixture cannot be combined with --claim, --corpus, or --acquisition-manifest"
+            )
         manifest, corpus = build_offline_fixture()
     else:
-        missing = [
-            option
-            for option, value in (("--claim", args.claim), ("--corpus", args.corpus))
-            if value is None
-        ]
-        if missing:
-            parser.error(f"verify requires {' and '.join(missing)} unless --fixture is used")
+        if args.claim is None:
+            parser.error("verify requires --claim unless --fixture is used")
+        if (args.corpus is None) == (args.acquisition_manifest is None):
+            parser.error(
+                "verify requires exactly one of --corpus or --acquisition-manifest "
+                "unless --fixture is used"
+            )
         manifest = load_claim_manifest(args.claim)
-        corpus = load_corpus(
-            args.corpus,
-            legacy_settings=manifest.legacy_adapter,
-            repository_root=repository_root,
-        )
+        if args.acquisition_manifest is None:
+            corpus = load_corpus(
+                args.corpus,
+                legacy_settings=manifest.legacy_adapter,
+                repository_root=repository_root,
+            )
+        else:
+            if args.output_dir is None:
+                parser.error("--acquisition-manifest requires explicit --output-dir")
+            if not args.force:
+                existing = sorted(
+                    path.as_posix()
+                    for path in (
+                        args.output_dir / "acquisition-replay-receipt.json",
+                        args.output_dir / "verification-certificate.json",
+                        args.output_dir / "verification-certificate.html",
+                    )
+                    if path.exists()
+                )
+                if existing:
+                    raise FileExistsError(f"verification_acquisition_outputs_exist:{existing}")
+            frozen_pipeline = expected_fingerprint or compute_verifier_pipeline_fingerprint(
+                root=repository_root
+            )
+            pipeline_verification = require_pipeline_fingerprint_match(
+                expected=frozen_pipeline,
+                root=repository_root,
+            )
+            assert pipeline_verification.computed_pipeline_sha256 is not None
+            acquisition_replay = replay_frozen_acquisition(
+                manifest=load_acquisition_manifest(args.acquisition_manifest),
+                claim_manifest=manifest,
+                repository_root=repository_root,
+                pipeline_sha256=pipeline_verification.computed_pipeline_sha256,
+                output_dir=args.output_dir,
+                force=args.force,
+            )
+            corpus = acquisition_replay.corpus
 
-    condition_bundle = _condition_adaptive_calibration_bundle(
-        args.condition_adaptive_calibration
-    )
+    condition_bundle = _condition_adaptive_calibration_bundle(args.condition_adaptive_calibration)
     condition_plan = _condition_plan(args.condition_plan)
-    condition_development_graph = _condition_development_graph(
-        args.condition_development_graph
-    )
+    condition_development_graph = _condition_development_graph(args.condition_development_graph)
     condition_model = _condition_frozen_model(args.condition_model)
-    if (
-        args.condition_assessment is not None
-        and manifest.claim_manifest_version != "3"
-    ):
+    if args.condition_assessment is not None and manifest.claim_manifest_version != "3":
         raise ValueError("condition_assessment_requires_manifest_v3")
     fixed_calibration = _calibration_bundle(args.calibration)
-    adaptive_calibration = _adaptive_calibration_bundle(
-        args.adaptive_calibration
-    )
+    adaptive_calibration = _adaptive_calibration_bundle(args.adaptive_calibration)
     audit_receipts = _audit_receipts(args.receipts)
-    expected_fingerprint = _pipeline_fingerprint(args.pipeline_fingerprint)
-    item_risk_receipt = _item_risk_scoring_receipt(
-        args.item_risk_scoring_receipt
-    )
+    item_risk_receipt = _item_risk_scoring_receipt(args.item_risk_scoring_receipt)
     item_risk_bundle = _item_risk_bundle(args.item_risk_calibration)
     item_risk_candidates = _item_risk_candidates(args.item_risk_candidates)
     sequential_state_input = _sequential_audit_state(args.audit_state)
@@ -782,9 +798,7 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
         item_risk_calibration_bundle=item_risk_bundle,
         item_risk_candidates=item_risk_candidates,
         sequential_audit_state=sequential_state_input,
-        allow_uncalibrated_sequential_analysis=(
-            args.analysis_only_uncalibrated_audit
-        ),
+        allow_uncalibrated_sequential_analysis=(args.analysis_only_uncalibrated_audit),
         generated_at=generated_at,
     )
     # The terminal assessment is an outcome-bearing artifact.  Its path is carried
@@ -794,8 +808,7 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
     if args.condition_assessment is not None:
         gate_ready = (
             isinstance(certificate, ConditionVerificationCertificateV6)
-            and certificate.production_stop_decision.outcome
-            == "condition_gate_ready"
+            and certificate.production_stop_decision.outcome == "condition_gate_ready"
             and certificate.condition_gate_invocation_proof is not None
         )
         if gate_ready:
@@ -805,19 +818,11 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
                     args.output_dir / "verification-certificate.html",
                 ]
                 if certificate.sequential_audit_state is not None:
-                    prospective_paths.append(
-                        args.output_dir / "sequential-audit-state.json"
-                    )
-                existing = [
-                    path.as_posix() for path in prospective_paths if path.exists()
-                ]
+                    prospective_paths.append(args.output_dir / "sequential-audit-state.json")
+                existing = [path.as_posix() for path in prospective_paths if path.exists()]
                 if existing:
-                    raise FileExistsError(
-                        f"verification_certificate_outputs_exist:{existing}"
-                    )
-            assessment = _condition_confirmation_assessment(
-                args.condition_assessment
-            )
+                    raise FileExistsError(f"verification_certificate_outputs_exist:{existing}")
+            assessment = _condition_confirmation_assessment(args.condition_assessment)
             certificate = finalize_condition_verification(
                 source_certificate=certificate,
                 condition_confirmation_assessment=assessment,
@@ -834,15 +839,18 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
     sequential_state = source_certificate.sequential_audit_state
     output_dir = args.output_dir or (Path("artifacts") / "verification" / certificate.run_id)
     audit_state_path = output_dir / "sequential-audit-state.json"
-    if (
-        sequential_state is not None
-        and audit_state_path.exists()
-        and not args.force
-    ):
+    if sequential_state is not None and audit_state_path.exists() and not args.force:
         raise FileExistsError(
             f"verification_certificate_outputs_exist:{[audit_state_path.as_posix()]}"
         )
     artifacts = write_certificate_artifacts(certificate, output_dir, force=args.force)
+    acquisition_receipt_path = output_dir / "acquisition-replay-receipt.json"
+    if acquisition_replay is not None:
+        atomic_write_json(
+            acquisition_receipt_path,
+            acquisition_replay.receipt,
+            force=args.force,
+        )
     if sequential_state is not None:
         atomic_write_json(
             audit_state_path,
@@ -858,9 +866,15 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
         json.dumps(
             {
                 "adaptive_assessment_sha256": (
-                    None
-                    if adaptive_assessment is None
-                    else adaptive_assessment.assessment_sha256
+                    None if adaptive_assessment is None else adaptive_assessment.assessment_sha256
+                ),
+                "acquisition_replay_receipt_path": (
+                    acquisition_receipt_path.as_posix() if acquisition_replay is not None else None
+                ),
+                "acquisition_replay_receipt_sha256": (
+                    acquisition_replay.receipt.receipt_sha256
+                    if acquisition_replay is not None
+                    else None
                 ),
                 "certificate_sha256": certificate.certificate_sha256,
                 "certificate_version": certificate.certificate_version,
@@ -887,14 +901,10 @@ def _verify(args: argparse.Namespace, parser: argparse.ArgumentParser) -> int:
                     else None
                 ),
                 "sequential_audit_state_path": (
-                    audit_state_path.as_posix()
-                    if sequential_state is not None
-                    else None
+                    audit_state_path.as_posix() if sequential_state is not None else None
                 ),
                 "sequential_audit_state_sha256": (
-                    sequential_state.state_sha256
-                    if sequential_state is not None
-                    else None
+                    sequential_state.state_sha256 if sequential_state is not None else None
                 ),
                 "status": certificate.status,
             },
@@ -969,13 +979,9 @@ def _audit_select(args: argparse.Namespace) -> int:
     assert state is not None
     _require_current_pipeline_for_audit_state(args, state)
     if state.adaptive_policy_context_sha256 is not None:
-        raise ValueError(
-            "adaptive_audit_selection_requires_verify_with_calibration_bundle"
-        )
+        raise ValueError("adaptive_audit_selection_requires_verify_with_calibration_bundle")
     if not args.analysis_only_uncalibrated_audit:
-        raise ValueError(
-            "uncalibrated_audit_selection_requires_analysis_only_opt_in"
-        )
+        raise ValueError("uncalibrated_audit_selection_requires_analysis_only_opt_in")
     result = select_next_audit_candidate(
         state,
         expected=freeze_state_expectation(state),
@@ -1025,15 +1031,11 @@ def _audit_checkpoint(args: argparse.Namespace) -> int:
                 "action_packet_sha256": action.packet_sha256,
                 "active_realized_minutes": result.state.session.active_realized_cost,
                 "cumulative_realized_minutes": result.state.session.current_realized_cost,
-                "historical_realized_minutes": (
-                    result.state.session.historical_realized_cost
-                ),
+                "historical_realized_minutes": (result.state.session.historical_realized_cost),
                 "item_id": action.item_id,
                 "release_blocked_by_active_action": True,
                 "remaining_budget": result.state.session.remaining_budget,
-                "state_path": (
-                    args.output_dir / "sequential-audit-state.json"
-                ).as_posix(),
+                "state_path": (args.output_dir / "sequential-audit-state.json").as_posix(),
                 "state_sha256": result.state.state_sha256,
             },
             sort_keys=True,
@@ -1075,13 +1077,8 @@ def _audit_resolve(args: argparse.Namespace) -> int:
         corrected_graph = corrected.graph
     item_receipt = _item_risk_scoring_receipt(args.item_risk_scoring_receipt)
     if args.item_risk_calibration is not None or args.item_risk_candidates is not None:
-        raise ValueError(
-            "detached_item_risk_inputs_forbidden_use_scoring_receipt_v2"
-        )
-    if (
-        item_receipt is not None
-        and item_receipt.pipeline_verification != pipeline_verification
-    ):
+        raise ValueError("detached_item_risk_inputs_forbidden_use_scoring_receipt_v2")
+    if item_receipt is not None and item_receipt.pipeline_verification != pipeline_verification:
         raise ValueError("item_risk_scoring_receipt_pipeline_mismatch")
     item_bundle = None if item_receipt is None else item_receipt.calibration_bundle
     item_candidates = None if item_receipt is None else list(item_receipt.candidates)

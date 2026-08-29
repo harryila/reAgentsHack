@@ -1,0 +1,20 @@
+{
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20260831,
+  "common_realized_person_minutes_per_question_cutoffs": [
+    15.0,
+    30.0,
+    60.0
+  ],
+  "config_sha256": "3a665f21a5b09b7b8de38fb27aad6321f38f9c3d1f7b4712e7be3656b46e553d",
+  "config_version": "decisive-frontier-config-v2",
+  "fixed_error_selection_rule": "typed_calibration_max_nominal_budget_else_descriptive_max_coverage_then_correct_then_min_cost",
+  "minimum_complete_evaluation_questions": 20,
+  "minimum_questions_per_domain": 2,
+  "point_selection_rule": "largest_observed_realized_spend_not_exceeding_common_ceiling_then_largest_nominal_budget",
+  "primary_policy_arm_id": "risk_x_influence_per_cost_adaptive",
+  "released_error_ceiling": 0.05,
+  "require_identical_question_population_and_pipeline": true,
+  "require_real_expert_adjudicated_complete_questions": true,
+  "require_typed_calibration_for_claim_authority": true
+}

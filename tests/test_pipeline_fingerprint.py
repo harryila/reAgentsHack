@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import ast
 import shutil
+from importlib.metadata import PackageNotFoundError
 from pathlib import Path
 
 import pytest
 
+import literature_multiverse.verifier as verifier_module
 from literature_multiverse.pipeline_fingerprint import (
     PipelineComponentSpec,
     PipelineFingerprintError,
@@ -14,22 +16,34 @@ from literature_multiverse.pipeline_fingerprint import (
     validate_pipeline_fingerprint_integrity,
     verify_pipeline_fingerprint,
 )
-from literature_multiverse.verifier import verifier_pipeline_components
+from literature_multiverse.verifier import (
+    compute_verifier_pipeline_fingerprint,
+    verifier_pipeline_components,
+)
 
 _EXPECTED_NATIVE_COMPONENT_FILES = {
     "configs/benchmarks/native-antiox-bounded-v1.json",
     "prompts/native_candidate_inventory.md",
     "prompts/native_candidate_packet.md",
     "prompts/native_extraction.md",
+    "scripts/build_hosted_native_grounding_package.py",
     "scripts/build_native_source_manifest.py",
     "scripts/build_typed_evidence_corpus.py",
     "scripts/reconcile_native_cohorts.py",
     "scripts/run_native_ollama_diagnostic.py",
     "scripts/run_native_bounded_ollama_diagnostic.py",
     "scripts/s3_extract_typed.py",
+    "src/literature_multiverse/acquisition.py",
     "src/literature_multiverse/cohort_reconciliation.py",
     "src/literature_multiverse/extract.py",
     "src/literature_multiverse/grounding.py",
+    "src/literature_multiverse/harvester/archive.py",
+    "src/literature_multiverse/harvester/contracts.py",
+    "src/literature_multiverse/harvester/http.py",
+    "src/literature_multiverse/harvester/pipeline.py",
+    "src/literature_multiverse/harvester/sources.py",
+    "src/literature_multiverse/hosted_native_extraction_contract.py",
+    "src/literature_multiverse/hosted_native_grounding_bridge.py",
     "src/literature_multiverse/live.py",
     "src/literature_multiverse/local_ollama.py",
     "src/literature_multiverse/metasyn_benchmark.py",
@@ -42,11 +56,14 @@ _EXPECTED_NATIVE_COMPONENT_FILES = {
     "src/literature_multiverse/normalize.py",
     "src/literature_multiverse/paperclip_cli.py",
     "src/literature_multiverse/prompting.py",
+    "src/literature_multiverse/screen.py",
+    "src/literature_multiverse/search.py",
     "src/literature_multiverse/source_manifest_bridge.py",
     "src/literature_multiverse/typed_extraction.py",
 }
 
 _EXPECTED_NATIVE_PYTHON_CLOSURE = {
+    "scripts/build_hosted_native_grounding_package.py",
     "scripts/build_native_source_manifest.py",
     "scripts/build_typed_evidence_corpus.py",
     "scripts/reconcile_native_cohorts.py",
@@ -54,6 +71,7 @@ _EXPECTED_NATIVE_PYTHON_CLOSURE = {
     "scripts/run_native_bounded_ollama_diagnostic.py",
     "scripts/s3_extract_typed.py",
     "src/literature_multiverse/__init__.py",
+    "src/literature_multiverse/acquisition.py",
     "src/literature_multiverse/adaptive_calibration.py",
     "src/literature_multiverse/audit_session.py",
     "src/literature_multiverse/budgeted_verification.py",
@@ -68,6 +86,13 @@ _EXPECTED_NATIVE_PYTHON_CLOSURE = {
     "src/literature_multiverse/evidence_graph.py",
     "src/literature_multiverse/extract.py",
     "src/literature_multiverse/grounding.py",
+    "src/literature_multiverse/harvester/archive.py",
+    "src/literature_multiverse/harvester/contracts.py",
+    "src/literature_multiverse/harvester/http.py",
+    "src/literature_multiverse/harvester/pipeline.py",
+    "src/literature_multiverse/harvester/sources.py",
+    "src/literature_multiverse/hosted_native_extraction_contract.py",
+    "src/literature_multiverse/hosted_native_grounding_bridge.py",
     "src/literature_multiverse/independence_identity.py",
     "src/literature_multiverse/item_risk_artifacts.py",
     "src/literature_multiverse/item_risk_calibration.py",
@@ -91,6 +116,8 @@ _EXPECTED_NATIVE_PYTHON_CLOSURE = {
     "src/literature_multiverse/prompting.py",
     "src/literature_multiverse/records.py",
     "src/literature_multiverse/schemas.py",
+    "src/literature_multiverse/screen.py",
+    "src/literature_multiverse/search.py",
     "src/literature_multiverse/sequential_verification.py",
     "src/literature_multiverse/source_manifest_bridge.py",
     "src/literature_multiverse/typed_extraction.py",
@@ -157,9 +184,7 @@ def _resolve_local_module(
 def _native_python_dependency_closure(repository_root: Path) -> set[str]:
     """Mechanically walk imports from every executable native pipeline entry point."""
 
-    pending = [
-        path for path in _EXPECTED_NATIVE_COMPONENT_FILES if path.endswith(".py")
-    ]
+    pending = [path for path in _EXPECTED_NATIVE_COMPONENT_FILES if path.endswith(".py")]
     observed = {"src/literature_multiverse/__init__.py"}
     while pending:
         relative = pending.pop()
@@ -326,24 +351,32 @@ def test_native_dependency_bytes_are_bound_to_verifier_fingerprint(
         for component in verifier_pipeline_components()
         if component.component_id == "native-extraction"
     )
-    assert native_spec.component_version == "10"
+    assert native_spec.component_version == "13"
     assert set(native_spec.file_paths) == _EXPECTED_NATIVE_COMPONENT_FILES
     assert changed_path in native_spec.file_paths
     assert native_spec.settings["cross_publication_reconciliation_receipt_required"] is True
     assert native_spec.settings["exact_extraction_execution_context_required"] is True
     assert native_spec.settings["contract"] == "publication-fragment-v3"
     assert (
-        native_spec.settings["grounding_package_contract"]
-        == "typed-evidence-grounding-package-v4"
+        native_spec.settings["grounding_package_contract"] == "typed-evidence-grounding-package-v4"
     )
     assert native_spec.settings["in_repository_dependency_closure_bound"] is True
     assert native_spec.settings["bounded_pre_call_intent_required"] is True
-    assert (
-        native_spec.settings[
-            "bounded_exact_source_projection_quote_grounding_required"
-        ]
-        is True
+    assert native_spec.settings["hosted_native_extraction_run_contract"] == (
+        "hosted-native-extraction-run-v1"
     )
+    assert native_spec.settings["hosted_native_execution_mode"] == "hosted_exact_once"
+    assert (
+        "scripts/build_hosted_native_grounding_package.py"
+        in native_spec.settings["native_extraction_entry_points"]
+    )
+    assert native_spec.settings["frozen_acquisition_replay"] == (
+        "exact-query-membership-to-screen-to-native-package"
+    )
+    assert native_spec.settings["protocol_free_text_screening_without_external_authority"] == (
+        "blocking"
+    )
+    assert native_spec.settings["bounded_exact_source_projection_quote_grounding_required"] is True
     for relative in native_spec.file_paths:
         destination = tmp_path / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -359,13 +392,59 @@ def test_native_dependency_bytes_are_bound_to_verifier_fingerprint(
     assert "component_sha256_mismatch:native-extraction" in verification.issues
 
 
+def test_stale_native_v12_manifest_cannot_match_current_v13_component(
+    tmp_path: Path,
+) -> None:
+    repository_root = Path(__file__).resolve().parents[1]
+    current = next(
+        component
+        for component in verifier_pipeline_components()
+        if component.component_id == "native-extraction"
+    )
+    hosted_v13_paths = {
+        "scripts/build_hosted_native_grounding_package.py",
+        "src/literature_multiverse/hosted_native_extraction_contract.py",
+        "src/literature_multiverse/hosted_native_grounding_bridge.py",
+    }
+    for relative in current.file_paths:
+        destination = tmp_path / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(repository_root / relative, destination)
+    stale_settings = dict(current.settings)
+    stale_settings.pop("hosted_native_extraction_run_contract")
+    stale_settings.pop("hosted_native_execution_mode")
+    stale_settings["native_extraction_entry_points"] = [
+        path
+        for path in current.settings["native_extraction_entry_points"]
+        if path != "scripts/build_hosted_native_grounding_package.py"
+    ]
+    stale = PipelineComponentSpec(
+        component_id="native-extraction",
+        component_version="12",
+        file_paths=sorted(set(current.file_paths) - hosted_v13_paths),
+        settings=stale_settings,
+    )
+    expected = compute_pipeline_fingerprint(root=tmp_path, components=[stale])
+
+    verification = verify_pipeline_fingerprint(
+        expected=expected,
+        root=tmp_path,
+        current_components=[current],
+    )
+
+    assert verification.status == "mismatch"
+    assert "component_version_mismatch:native-extraction" in verification.issues
+    assert "component_settings_mismatch:native-extraction" in verification.issues
+    for path in hosted_v13_paths:
+        assert f"file_added_to_current_manifest:{path}" in verification.issues
+    assert "pipeline_sha256_mismatch" in verification.issues
+
+
 def test_native_pipeline_python_dependency_closure_is_exact_and_fingerprinted() -> None:
     repository_root = Path(__file__).resolve().parents[1]
     components = verifier_pipeline_components()
     observed_closure = _native_python_dependency_closure(repository_root)
-    fingerprinted_paths = {
-        path for component in components for path in component.file_paths
-    }
+    fingerprinted_paths = {path for component in components for path in component.file_paths}
 
     assert observed_closure == _EXPECTED_NATIVE_PYTHON_CLOSURE
     assert observed_closure <= fingerprinted_paths
@@ -375,9 +454,7 @@ def test_full_verifier_python_dependency_closure_is_fingerprinted() -> None:
     repository_root = Path(__file__).resolve().parents[1]
     components = verifier_pipeline_components()
     observed_closure = _verifier_python_dependency_closure(repository_root)
-    fingerprinted_paths = {
-        path for component in components for path in component.file_paths
-    }
+    fingerprinted_paths = {path for component in components for path in component.file_paths}
 
     assert observed_closure <= fingerprinted_paths
 
@@ -397,11 +474,12 @@ def test_verifier_fingerprint_binds_runtime_and_shared_contract_dependencies() -
         "src/literature_multiverse/models.py",
         "src/literature_multiverse/records.py",
     } <= set(runtime_spec.file_paths)
-    assert runtime_spec.component_version == "3"
+    assert runtime_spec.component_version == "4"
     assert runtime_spec.settings["dependency_lock_bound"] is True
     assert runtime_spec.settings["shared_contract_helpers_bound"] is True
     assert set(runtime_spec.settings["installed_dependency_versions"]) == {
         "PyYAML",
+        "httpx",
         "jsonschema",
         "numpy",
         "pandas",
@@ -412,6 +490,49 @@ def test_verifier_fingerprint_binds_runtime_and_shared_contract_dependencies() -
     }
     assert runtime_spec.settings["python_version"]
     assert runtime_spec.settings["platform_machine"]
+
+
+def test_verifier_fingerprint_detects_installed_httpx_version_drift(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    repository_root = Path(__file__).resolve().parents[1]
+    expected = compute_verifier_pipeline_fingerprint(root=repository_root)
+    installed_version = verifier_module.distribution_version
+
+    def drifted_version(name: str) -> str:
+        if name == "httpx":
+            return "999.0-test-drift"
+        return installed_version(name)
+
+    monkeypatch.setattr(verifier_module, "distribution_version", drifted_version)
+    verification = verify_pipeline_fingerprint(
+        expected=expected,
+        root=repository_root,
+        current_components=verifier_pipeline_components(),
+    )
+
+    assert verification.status == "mismatch"
+    assert "component_settings_mismatch:runtime-contract" in verification.issues
+    assert "component_sha256_mismatch:runtime-contract" in verification.issues
+    assert "pipeline_sha256_mismatch" in verification.issues
+
+
+def test_verifier_fingerprint_fails_closed_when_httpx_is_absent(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    installed_version = verifier_module.distribution_version
+
+    def missing_version(name: str) -> str:
+        if name == "httpx":
+            raise PackageNotFoundError(name)
+        return installed_version(name)
+
+    monkeypatch.setattr(verifier_module, "distribution_version", missing_version)
+    with pytest.raises(
+        PipelineFingerprintError,
+        match="pipeline_runtime_dependency_missing:httpx",
+    ):
+        verifier_pipeline_components()
 
 
 def test_verification_release_component_binds_every_public_entrypoint() -> None:
@@ -427,9 +548,10 @@ def test_verification_release_component_binds_every_public_entrypoint() -> None:
     assert release_spec.settings["condition_calibration_outcome_opening"] == (
         "frozen-source-roster-membership-before-assessment"
     )
-    assert "prebundle-collection-source-external-replay" in release_spec.settings[
-        "condition_calibration_contract"
-    ]
+    assert (
+        "prebundle-collection-source-external-replay"
+        in release_spec.settings["condition_calibration_contract"]
+    )
     assert release_spec.settings["condition_multi_arm_trajectory_construction"] == (
         "independent-single-arm-pass-then-canonical-builder-then-shared-trajectory-pass"
     )

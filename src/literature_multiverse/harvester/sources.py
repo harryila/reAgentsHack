@@ -302,7 +302,13 @@ class FrozenCorpusSource:
 
     name = "frozen"
 
-    def __init__(self, path: Path, *, expected_sha256: str | None = None) -> None:
+    def __init__(
+        self,
+        path: Path,
+        *,
+        expected_sha256: str | None = None,
+        retrieved_at: datetime | None = None,
+    ) -> None:
         self.path = path.resolve()
         raw = self.path.read_bytes()
         self.sha256 = hashlib.sha256(raw).hexdigest()
@@ -310,7 +316,9 @@ class FrozenCorpusSource:
             raise ValueError(
                 f"frozen_corpus_hash_mismatch:expected={expected_sha256}:observed={self.sha256}"
             )
-        self._retrieved_at = datetime.now(UTC)
+        self._retrieved_at = retrieved_at or datetime.now(UTC)
+        if self._retrieved_at.tzinfo is None or self._retrieved_at.utcoffset() is None:
+            raise ValueError("frozen_corpus_retrieved_at_requires_timezone")
         self._source_payload = RetrievedPayload(
             url=self.path.as_uri(),
             retrieved_at=self._retrieved_at,
@@ -340,6 +348,11 @@ class FrozenCorpusSource:
         self._documents = documents
         self._by_id = by_id
         self._search_results = search_results
+
+    def exact_search_result_ids(self, query: str) -> tuple[str, ...] | None:
+        """Return the frozen exhaustive membership for ``query``, when declared."""
+
+        return self._search_results.get(query)
 
     @staticmethod
     def _decode(raw: bytes) -> tuple[list[Mapping[str, Any]], dict[str, tuple[str, ...]]]:
@@ -435,7 +448,7 @@ class FrozenCorpusSource:
         )
         response = RetrievedPayload(
             url=f"{self.path.as_uri()}#search-offset-{offset}",
-            retrieved_at=datetime.now(UTC),
+            retrieved_at=self._retrieved_at,
             status_code=200,
             media_type="application/json",
             body=response_body,
@@ -610,8 +623,16 @@ class FrozenFullTextSource:
 
     name = "frozen_full_text"
 
-    def __init__(self, corpus_path: Path) -> None:
+    def __init__(
+        self,
+        corpus_path: Path,
+        *,
+        retrieved_at: datetime | None = None,
+    ) -> None:
         self.root = corpus_path.resolve().parent
+        self.retrieved_at = retrieved_at or datetime.now(UTC)
+        if self.retrieved_at.tzinfo is None or self.retrieved_at.utcoffset() is None:
+            raise ValueError("frozen_full_text_retrieved_at_requires_timezone")
 
     def fetch(self, document: HarvestDocument) -> FullTextFetch:
         raw_path = document.raw_metadata.get("full_text_path")
@@ -645,7 +666,7 @@ class FrozenFullTextSource:
             media_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
         content = RetrievedPayload(
             url=path.as_uri(),
-            retrieved_at=datetime.now(UTC),
+            retrieved_at=self.retrieved_at,
             status_code=200,
             media_type=media_type,
             body=body,

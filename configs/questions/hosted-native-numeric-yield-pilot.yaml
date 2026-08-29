@@ -1,0 +1,92 @@
+schema_version: "1"
+status: locked
+question_id: hosted-native-numeric-yield-pilot
+research_question: >-
+  Among H. pylori-positive patients, do eradication regimens containing omeprazole
+  plus amoxicillin reduce persistent H. pylori detection compared with placebo?
+target_relation:
+  exposure: an H. pylori eradication regimen containing omeprazole plus amoxicillin
+  comparator: placebo
+  outcome: persistent H. pylori detection after treatment
+  increase_definition: persistent H. pylori detection is more frequent after eradication therapy than after placebo
+  decrease_definition: persistent H. pylori detection is less frequent after eradication therapy than after placebo
+  no_effect_definition: persistent H. pylori detection does not differ detectably between eradication therapy and placebo
+  desirability_claims_allowed: false
+  exposure_terms: [amoxicillin, eradication, OA, omeprazole]
+eligibility:
+  include:
+    - primary randomized comparisons of an eligible eradication regimen with placebo
+    - participants with evidence of H. pylori infection before randomized treatment
+    - binary persistent H. pylori detection measured after treatment
+  exclude:
+    - reviews, editorials, protocols, and non-primary reports
+    - comparisons without a concurrent placebo arm
+    - outcomes that report antibiotic resistance rather than persistent infection
+  article_types: [research-article]
+search:
+  sources: [pmc]
+  query_families:
+    - id: eradication-placebo
+      queries:
+        - Helicobacter pylori omeprazole amoxicillin eradication placebo randomized persistent infection
+  use_all: true
+  per_query_limit: 100
+outcomes:
+  primary_family: persistent_infection
+  family_map:
+    persistent_h_pylori_detection: persistent_infection
+  included_primary_endpoints: [persistent_h_pylori_detection]
+  endpoint_direction_overrides: {}
+  endpoint_map:
+    "re:(?:persistent|positive|presence).*(?:h\\.? pylori|23s rrna)": persistent_h_pylori_detection
+moderators:
+  - name: follow-up-duration
+    type: categorical
+    source: topic
+    role: descriptive
+    kind: paper_constant
+    permutation: paper
+    paper_summary: null
+    display_name: Follow-up duration
+    allowed_values: [three-months, seven-point-three-years]
+    bins: null
+analysis:
+  seed: 20260829
+  labels: [increase, no_effect, decrease]
+  max_missingness_headline: 1.0
+  min_papers_per_level: 1
+  cv_max_folds: 2
+  permutation_count: 100
+  bootstrap_count: 200
+variant_b:
+  axes: [follow-up-duration]
+  primary_endpoints: [persistent_h_pylori_detection]
+triage:
+  candidate_topic: h-pylori-eradication-placebo
+  score_record: configs/benchmarks/hosted-native-numeric-yield-pilot-v1.json
+  probe_keyword_groups:
+    - [h. pylori, helicobacter pylori]
+    - [amoxicillin, eradication, omeprazole]
+    - [placebo]
+  probe_exclude_terms: [review, meta-analysis, protocol]
+anchor_papers:
+  - paper_id: structural-anchor-not-an-evaluation-label
+    expected_eligible: false
+    expected_finding_count: 0
+    expected_directions: []
+    notes: >-
+      Structural config anchor only. This yield-only pilot does not use empirical anchor
+      labels, reference fields, or outcome labels for roster selection or evaluation.
+recovery_check:
+  kind: none
+  statement: >-
+    Moderator recovery is outside this two-publication numeric-yield pilot; the duration
+    axis is descriptive and is not tested.
+  source: null
+demo:
+  hook: Can two public trials survive the complete native numeric grounding boundary?
+  spoken_question: Does omeprazole plus amoxicillin reduce persistent H. pylori versus placebo?
+  moderator_display_names:
+    follow-up-duration: Follow-up duration
+  corpus_qualifier: our retrieved corpus
+  fixture_mode: false

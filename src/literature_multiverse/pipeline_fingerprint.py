@@ -8,6 +8,7 @@ downstream calibration artifact may rely on it.
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from pathlib import Path, PurePosixPath
 from typing import Annotated, Literal
 
@@ -294,9 +295,7 @@ def validate_pipeline_verification_integrity(
     if not isinstance(verification, PipelineFingerprintVerification):
         raise PipelineFingerprintError("pipeline_verification_contract_invalid")
     try:
-        return PipelineFingerprintVerification.model_validate(
-            verification.model_dump(mode="json")
-        )
+        return PipelineFingerprintVerification.model_validate(verification.model_dump(mode="json"))
     except ValueError as exc:
         raise PipelineFingerprintError("pipeline_verification_integrity_changed") from exc
 
@@ -322,20 +321,34 @@ def _verification_result(
 
 
 def verify_pipeline_fingerprint(
-    *, expected: PipelineFingerprint, root: Path
+    *,
+    expected: PipelineFingerprint,
+    root: Path,
+    current_components: Sequence[PipelineComponentSpec] | None = None,
 ) -> PipelineFingerprintVerification:
-    """Recompute every expected file and report exact expected-versus-current identity."""
+    """Recompute files and optionally enforce the current component manifest.
+
+    Generic callers may omit ``current_components`` to replay the manifest embedded in
+    ``expected``.  Production pipelines whose settings are computed from the current
+    runtime should pass their live component specs as well; this makes component-version,
+    file-membership, and runtime-setting drift observable instead of trusting a stale
+    but internally valid expected artifact.
+    """
 
     expected = validate_pipeline_fingerprint_integrity(expected)
-    specs = [
-        PipelineComponentSpec(
-            component_id=component.component_id,
-            component_version=component.component_version,
-            file_paths=[file.path for file in component.files],
-            settings=component.settings,
-        )
-        for component in expected.components
-    ]
+    specs = (
+        [
+            PipelineComponentSpec(
+                component_id=component.component_id,
+                component_version=component.component_version,
+                file_paths=[file.path for file in component.files],
+                settings=component.settings,
+            )
+            for component in expected.components
+        ]
+        if current_components is None
+        else list(current_components)
+    )
     try:
         computed = compute_pipeline_fingerprint(root=root, components=specs)
     except (OSError, ValueError) as exc:
@@ -348,17 +361,33 @@ def verify_pipeline_fingerprint(
 
     issues: list[str] = []
     expected_components = {item.component_id: item for item in expected.components}
-    for observed_component in computed.components:
-        expected_component = expected_components[observed_component.component_id]
+    observed_components = {item.component_id: item for item in computed.components}
+    for component_id in sorted(expected_components.keys() - observed_components.keys()):
+        issues.append(f"component_missing_from_current_manifest:{component_id}")
+    for component_id in sorted(observed_components.keys() - expected_components.keys()):
+        issues.append(f"component_added_to_current_manifest:{component_id}")
+    for component_id in sorted(expected_components.keys() & observed_components.keys()):
+        expected_component = expected_components[component_id]
+        observed_component = observed_components[component_id]
+        if observed_component.component_version != expected_component.component_version:
+            issues.append(f"component_version_mismatch:{component_id}")
+        if observed_component.settings != expected_component.settings:
+            issues.append(f"component_settings_mismatch:{component_id}")
         expected_files = {item.path: item for item in expected_component.files}
-        for observed_file in observed_component.files:
-            expected_file = expected_files[observed_file.path]
+        observed_files = {item.path: item for item in observed_component.files}
+        for path in sorted(expected_files.keys() - observed_files.keys()):
+            issues.append(f"file_missing_from_current_manifest:{path}")
+        for path in sorted(observed_files.keys() - expected_files.keys()):
+            issues.append(f"file_added_to_current_manifest:{path}")
+        for path in sorted(expected_files.keys() & observed_files.keys()):
+            expected_file = expected_files[path]
+            observed_file = observed_files[path]
             if observed_file.sha256 != expected_file.sha256:
-                issues.append(f"file_sha256_mismatch:{observed_file.path}")
+                issues.append(f"file_sha256_mismatch:{path}")
             if observed_file.bytes != expected_file.bytes:
-                issues.append(f"file_bytes_mismatch:{observed_file.path}")
+                issues.append(f"file_bytes_mismatch:{path}")
         if observed_component.component_sha256 != expected_component.component_sha256:
-            issues.append(f"component_sha256_mismatch:{observed_component.component_id}")
+            issues.append(f"component_sha256_mismatch:{component_id}")
     if computed.pipeline_sha256 != expected.pipeline_sha256:
         issues.append("pipeline_sha256_mismatch")
     return _verification_result(
@@ -370,11 +399,18 @@ def verify_pipeline_fingerprint(
 
 
 def require_pipeline_fingerprint_match(
-    *, expected: PipelineFingerprint, root: Path
+    *,
+    expected: PipelineFingerprint,
+    root: Path,
+    current_components: Sequence[PipelineComponentSpec] | None = None,
 ) -> PipelineFingerprintVerification:
     """Return a matched proof or fail closed on missing, stale, or changed inputs."""
 
-    verification = verify_pipeline_fingerprint(expected=expected, root=root)
+    verification = verify_pipeline_fingerprint(
+        expected=expected,
+        root=root,
+        current_components=current_components,
+    )
     if verification.status != "matched":
         raise PipelineFingerprintError(
             f"pipeline_fingerprint_not_matched:{verification.status}:{','.join(verification.issues)}"

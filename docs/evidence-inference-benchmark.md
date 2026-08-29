@@ -123,6 +123,15 @@ and private-receipt replay validation. This is a useful negative local-model res
 confirmatory evidence. Reproduce and audit it with `scripts/run_ollama_gepa_study.py` and
 the contract in `docs/evidence-inference-local-ollama-gepa.md`.
 
+The same frozen seed and selected prompt were subsequently compared on the complete 524-question
+test population with `claude-fable-5` and a frozen article-batched interface. The seed had higher
+direction accuracy (0.8359 versus 0.7653), structured-output reliability (0.8855 versus 0.8092),
+and formal exact-grounding reliability (0.8721 versus 0.7958); all three paired article-cluster
+intervals for winner minus seed were negative. This remains an exploratory retrospective transfer on
+historically opened labels, not a confirmatory GEPA or generalization result. The aggregate-only
+contract, failure burden, and exact lineage hashes are in
+[the full Fable retrospective](evidence-inference-fable-retrospective-full.md).
+
 ## Leakage boundary
 
 Each `OptimizationExample` has three model-facing replacements—`OUTCOME`, `INTERVENTION`, and

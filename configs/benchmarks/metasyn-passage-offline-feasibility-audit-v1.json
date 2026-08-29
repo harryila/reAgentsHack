@@ -1,0 +1,62 @@
+{
+  "application_retries_permitted": 0,
+  "audit_scope": "label_blind_exhaustive_previously_unattempted_packet_roster_full_quote_feasibility",
+  "binary_core_or_contrast_incomplete": [
+    "14:01",
+    "15:01",
+    "15:02",
+    "15:03",
+    "15:04",
+    "16:03",
+    "16:04",
+    "16:05",
+    "17:01"
+  ],
+  "claim_release_authority": false,
+  "config_sha256": "63931e993515f07b49f9f4a8156e03f9844ac3ee62e34a8278dd1118b0cec9e1",
+  "config_version": "metasyn-passage-offline-feasibility-audit-config-v1",
+  "continuous_core_incomplete": [
+    "03:02",
+    "03:03",
+    "03:04",
+    "10:01",
+    "16:02"
+  ],
+  "direct_ci_contract_unreachable": [
+    "16:01",
+    "20:01",
+    "20:02",
+    "20:03",
+    "20:04",
+    "22:01",
+    "23:01"
+  ],
+  "expected_unattempted_candidate_count": 26,
+  "expected_v2_attempted_packet_count": 3,
+  "expected_v2_execution_bundle_sha256": "f87eddcbcbafc778f18ff85c92c0f914a763d242311a859d9d979ded229b4972",
+  "expected_v2_failed_smoke_sha256": "63bd3b15b5ba1139a98b9d1590fbb9064f433f7b7a5790ad640aa78c78186a41",
+  "expected_v2_inventory_ledger_sha256": "aeb824df26b2f9efe4677af85f54fc217f41fe1fe043e1f7ebc9ba68de0b6e2f",
+  "expected_v2_packet_roster_sha256": "97adae1f1a36da26b462fa1b2bec229dd568449870d8a7ae1b5f3418db2c842f",
+  "expected_v2_provider_receipt_count": 43,
+  "extraction_accuracy_authority": false,
+  "full_quote_policy": "entire_exact_candidate_passage_no_substring_truncation_or_cross_passage_join",
+  "inventory_normalization_permitted": false,
+  "misrouted_non_ci": [
+    "28:01",
+    "28:02",
+    "28:03"
+  ],
+  "numeric_token_ambiguity": [
+    "17:02",
+    "17:03"
+  ],
+  "official_test_labels_opened": false,
+  "parser_relaxation_permitted": false,
+  "provider_calls_permitted": false,
+  "quote_truncation_permitted": false,
+  "reference_fields_unopened": true,
+  "sdk_retries_permitted": 0,
+  "synthesis_input_authority": false,
+  "zero_reachable_implies_zero_extractable_in_general": false,
+  "zero_yield_scope": "unchanged_v2_grounder_and_assembler_with_one_entire_exact_candidate_passage"
+}

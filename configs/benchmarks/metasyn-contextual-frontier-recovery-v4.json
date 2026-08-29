@@ -1,0 +1,19 @@
+{
+  "application_retries_per_request": 0,
+  "calibration_authority": false,
+  "claim_release_authority": false,
+  "config_version": "metasyn-contextual-frontier-recovery-config-v4",
+  "effort": "high",
+  "extraction_accuracy_authority": false,
+  "fallback_requests_permitted": 0,
+  "maximum_provider_calls": 1,
+  "model": "claude-fable-5",
+  "operator_authorized_source_transmission": true,
+  "post_hoc_completed_only_grammar_recovery": true,
+  "predecessor_requests_retry_permitted": false,
+  "provider_grammar": "completed_branch_only_shared_claims_array",
+  "request_key": "row17-candidate3-fable5-high-recovery-v4",
+  "scientific_synthesis_authority": false,
+  "sdk_retries_per_request": 0,
+  "synthesis_input_authority": false
+}
