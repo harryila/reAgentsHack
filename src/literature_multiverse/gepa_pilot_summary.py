@@ -577,6 +577,11 @@ def write_gepa_pilot_metadata_summary(
     )
     summary = {
         "gepa_pilot_summary_version": "1",
+        "status": "superseded_non_citable_pending_receipt_bounded_reconstruction",
+        "scientific_claims_allowed": False,
+        "superseded_by": (
+            "artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json"
+        ),
         "benchmark": "Evidence Inference 2.0",
         "contains_pico_text": False,
         "contains_source_text": False,

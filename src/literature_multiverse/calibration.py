@@ -266,6 +266,7 @@ class FrozenSplitIdentity(ContractModel):
     split: Literal["development", "calibration"]
     question_ids: list[str]
     paper_ids: list[str]
+    domains: list[str]
 
     @model_validator(mode="after")
     def validate_identities(self) -> FrozenSplitIdentity:
@@ -273,13 +274,19 @@ class FrozenSplitIdentity(ContractModel):
             raise ValueError("frozen_question_ids_must_be_nonempty_sorted_unique")
         if not self.paper_ids or self.paper_ids != sorted(set(self.paper_ids)):
             raise ValueError("frozen_paper_ids_must_be_nonempty_sorted_unique")
+        if (
+            not self.domains
+            or any(not domain.strip() for domain in self.domains)
+            or self.domains != sorted(set(self.domains))
+        ):
+            raise ValueError("frozen_domains_must_be_nonempty_sorted_unique")
         return self
 
 
 class FrozenCalibrationBundle(ContractModel):
     """Self-hashed development/calibration state frozen before test access."""
 
-    bundle_version: Literal["question-risk-freeze-v1"] = "question-risk-freeze-v1"
+    bundle_version: Literal["question-risk-freeze-v2"] = "question-risk-freeze-v2"
     freeze_state: Literal["test_labels_unopened"] = "test_labels_unopened"
     population_id: str
     pipeline_sha256: str
@@ -363,6 +370,27 @@ def validate_frozen_calibration_bundle_integrity(
         return FrozenCalibrationBundle.model_validate(bundle.model_dump(mode="json"))
     except ValueError as exc:
         raise CalibrationContractError("frozen_bundle_integrity_changed") from exc
+
+
+def validate_frozen_calibration_bundle_for_deployment(
+    bundle: FrozenCalibrationBundle,
+    *,
+    deployment_mode: Literal["single_decision", "adaptive_first_release_trajectory"],
+) -> FrozenCalibrationBundle:
+    """Validate v2 only for the one decision it actually calibrated.
+
+    ``FrozenCalibrationBundle`` v2 calibrates one fixed state per question. Reusing it
+    after each state of a sequential audit creates an uncalibrated repeated-look policy.
+    Stateful production must use ``AdaptiveCalibrationBundle`` from
+    :mod:`literature_multiverse.adaptive_calibration` instead.
+    """
+
+    validated = validate_frozen_calibration_bundle_integrity(bundle)
+    if deployment_mode == "adaptive_first_release_trajectory":
+        raise CalibrationContractError(
+            "fixed_state_calibration_invalid_for_adaptive_trajectory"
+        )
+    return validated
 
 
 class ReleaseCandidate(ContractModel):
@@ -721,14 +749,16 @@ def freeze_calibration_bundle(
         split="development",
         question_ids=[row.question_id for row in development],
         paper_ids=sorted({paper_id for row in development for paper_id in row.paper_ids}),
+        domains=sorted({row.domain for row in development}),
     )
     calibration_identity = FrozenSplitIdentity(
         split="calibration",
         question_ids=[row.question_id for row in calibration],
         paper_ids=sorted({paper_id for row in calibration for paper_id in row.paper_ids}),
+        domains=sorted({row.domain for row in calibration}),
     )
     payload: dict[str, Any] = {
-        "bundle_version": "question-risk-freeze-v1",
+        "bundle_version": "question-risk-freeze-v2",
         "freeze_state": "test_labels_unopened",
         "population_id": rows[0].population_id,
         "pipeline_sha256": rows[0].pipeline_sha256,
@@ -888,6 +918,8 @@ def assess_release_candidate(
         raise CalibrationContractError("prospective_candidate_pipeline_mismatch")
     if candidate.population_id != bundle.population_id:
         raise CalibrationContractError("prospective_candidate_population_mismatch")
+    if candidate.domain not in bundle.calibration.domains:
+        raise CalibrationContractError("prospective_candidate_domain_shift")
     if list(candidate.features) != bundle.feature_names:
         raise CalibrationContractError("prospective_candidate_feature_schema_mismatch")
 
@@ -1011,6 +1043,7 @@ __all__ = [
     "freeze_calibration_bundle",
     "risk_coverage_curve",
     "score_examples",
+    "validate_frozen_calibration_bundle_for_deployment",
     "validate_frozen_calibration_bundle_integrity",
     "validate_frozen_test_examples",
     "validate_split_integrity",

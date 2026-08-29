@@ -41,6 +41,8 @@ _ERROR_SECRET_PATTERNS = (
     ),
 )
 _MAX_ARCHIVED_ERROR_CHARS = 2000
+_ANTHROPIC_LITERAL_TYPE_COMPILER_VERSION = "anthropic-literal-type-compiler-v1"
+_CONSERVATIVE_WIRE_FRAMING_TOKENS = 1024
 
 
 class ProviderError(RuntimeError):
@@ -175,7 +177,8 @@ def _prepare_anthropic_schema(
     except ImportError as exc:  # pragma: no cover - project pins the SDK
         raise ProviderError("anthropic SDK is required for structured output") from exc
     try:
-        transformed = anthropic.transform_schema(deepcopy(original))
+        provider_input = _annotate_anthropic_literal_types(original)
+        transformed = anthropic.transform_schema(provider_input)
     except Exception as exc:
         if isinstance(exc, (KeyboardInterrupt, SystemExit)):  # pragma: no cover
             raise
@@ -184,6 +187,89 @@ def _prepare_anthropic_schema(
         raise ProviderError("Anthropic SDK returned a non-object transformed schema")
     sdk_version = str(getattr(anthropic, "__version__", "unknown"))
     return original, transformed, sdk_version
+
+
+def _json_literal_type(value: Any) -> str | None:
+    if value is None:
+        return "null"
+    if isinstance(value, bool):
+        return "boolean"
+    if isinstance(value, int):
+        return "integer"
+    if isinstance(value, float):
+        return "number"
+    if isinstance(value, str):
+        return "string"
+    if isinstance(value, list):
+        return "array"
+    if isinstance(value, Mapping):
+        return "object"
+    return None
+
+
+def _annotate_anthropic_literal_types(
+    schema: Mapping[str, Any],
+) -> dict[str, Any]:
+    """Add only JSON types already implied by enum/const values.
+
+    Anthropic's schema transformer requires an explicit ``type`` on literal-only
+    branches. JSON Schema does not: an enum or const already fixes the admissible
+    value and therefore its type. This compiler makes that redundant type explicit
+    without weakening or narrowing the strict local acceptance contract.
+    """
+
+    def visit(raw: Mapping[str, Any]) -> dict[str, Any]:
+        node = deepcopy(dict(raw))
+        if "type" not in node:
+            inferred: str | None = None
+            if "const" in node:
+                inferred = _json_literal_type(node["const"])
+            elif isinstance(node.get("enum"), list) and node["enum"]:
+                observed = {_json_literal_type(value) for value in node["enum"]}
+                if observed <= {"integer", "number"}:
+                    inferred = "number" if "number" in observed else "integer"
+                elif len(observed) == 1:
+                    inferred = next(iter(observed))
+            if inferred is not None:
+                node["type"] = inferred
+
+        for keyword in (
+            "properties",
+            "patternProperties",
+            "$defs",
+            "definitions",
+            "dependentSchemas",
+        ):
+            children = node.get(keyword)
+            if isinstance(children, Mapping):
+                node[keyword] = {
+                    key: visit(child) if isinstance(child, Mapping) else deepcopy(child)
+                    for key, child in children.items()
+                }
+        for keyword in (
+            "items",
+            "additionalProperties",
+            "unevaluatedProperties",
+            "contains",
+            "propertyNames",
+            "if",
+            "then",
+            "else",
+            "not",
+        ):
+            child = node.get(keyword)
+            if isinstance(child, Mapping):
+                node[keyword] = visit(child)
+        for keyword in ("allOf", "anyOf", "oneOf", "prefixItems"):
+            children = node.get(keyword)
+            if isinstance(children, list):
+                node[keyword] = [
+                    visit(child) if isinstance(child, Mapping) else deepcopy(child)
+                    for child in children
+                ]
+        return node
+
+    return visit(schema)
 
 
 def _local_schema_validation_error(
@@ -353,14 +439,17 @@ class AnthropicProvider:
                 import anthropic  # type: ignore[import-not-found]
             except ImportError as exc:
                 raise ProviderError("install the anthropic SDK for explicit live calls") from exc
-            self._client = anthropic.Anthropic()
+            # The SDK defaults to automatic retries. The scientific attempt ledger
+            # requires exactly one transport attempt for every archived request.
+            self._client = anthropic.Anthropic(max_retries=0)
         return self._client
 
-    def _conservative_ceiling(self, *, prompt: str, system: str | None) -> float:
-        # Four UTF-8 bytes per token is intentionally conservative for ordinary English.
-        estimated_input = math.ceil(
-            (len(prompt.encode("utf-8")) + len((system or "").encode("utf-8"))) / 4
-        )
+    def _conservative_ceiling(self, *, wire_request: Mapping[str, Any]) -> float:
+        # A tokenizer cannot emit more ordinary text tokens than there are UTF-8
+        # bytes. Add a fixed allowance for provider framing/special tokens rather
+        # than relying on the common but non-conservative four-bytes-per-token rule.
+        estimated_input = len(canonical_json_bytes(wire_request))
+        estimated_input += _CONSERVATIVE_WIRE_FRAMING_TOKENS
         return estimate_cost_usd(
             self.model,
             ProviderUsage(input_tokens=estimated_input, output_tokens=self.max_tokens),
@@ -395,13 +484,25 @@ class AnthropicProvider:
                 output_schema
             )
             schema_transform = {
-                "name": "anthropic.transform_schema",
+                "name": (
+                    f"{_ANTHROPIC_LITERAL_TYPE_COMPILER_VERSION}"
+                    "+anthropic.transform_schema"
+                ),
                 "anthropic_sdk_version": sdk_version,
             }
             output_config["format"] = {
                 "type": "json_schema",
                 "schema": provider_schema,
             }
+        kwargs: dict[str, Any] = {
+            "model": self.model,
+            "max_tokens": self.max_tokens,
+            "messages": [{"role": "user", "content": prompt}],
+            "output_config": output_config,
+        }
+        if system is not None:
+            kwargs["system"] = system
+        conservative_ceiling = self._conservative_ceiling(wire_request=kwargs)
         request_payload = {
             "operation": operation,
             "request_key": request_key,
@@ -422,22 +523,21 @@ class AnthropicProvider:
                 sha256_json(provider_schema) if provider_schema is not None else None
             ),
             "output_schema_transform": schema_transform,
+            "wire_request_sha256": sha256_json(kwargs),
+            "conservative_request_ceiling_usd": conservative_ceiling,
+            "conservative_ceiling_basis": {
+                "input_token_upper_bound": (
+                    "canonical_wire_request_utf8_bytes_plus_fixed_framing"
+                ),
+                "fixed_framing_tokens": _CONSERVATIVE_WIRE_FRAMING_TOKENS,
+                "output_tokens": self.max_tokens,
+            },
         }
         request_sha = sha256_json(request_payload)
-        conservative_ceiling = self._conservative_ceiling(prompt=prompt, system=system)
         self.budget.require_room(conservative_ceiling)
         if self.global_budget is not None:
             self.global_budget.require_room(conservative_ceiling)
         attempted_at = self._clock().astimezone(UTC).isoformat()
-
-        kwargs: dict[str, Any] = {
-            "model": self.model,
-            "max_tokens": self.max_tokens,
-            "messages": [{"role": "user", "content": prompt}],
-            "output_config": output_config,
-        }
-        if system is not None:
-            kwargs["system"] = system
 
         try:
             response = self._client_or_create().messages.create(**kwargs)

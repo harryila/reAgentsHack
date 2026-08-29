@@ -288,10 +288,14 @@ class EffectEvidence(ContractModel):
                 raise ValueError("mean_difference_requires_unit")
         elif self.effect_format is not EffectFormat.MEAN_DIFFERENCE and self.unit is not None:
             raise ValueError("only_mean_difference_accepts_unit")
-        if self.equivalence_conclusion in {
-            EquivalenceConclusion.EQUIVALENT,
-            EquivalenceConclusion.NOT_EQUIVALENT,
-        } and self.equivalence_margin is None:
+        if (
+            self.equivalence_conclusion
+            in {
+                EquivalenceConclusion.EQUIVALENT,
+                EquivalenceConclusion.NOT_EQUIVALENT,
+            }
+            and self.equivalence_margin is None
+        ):
             raise ValueError("equivalence_conclusion_requires_prespecified_margin")
         return self
 
@@ -501,11 +505,9 @@ def _continuous_from_groups(evidence: EffectEvidence) -> tuple[float, float, str
     cohens_d = difference / math.sqrt(pooled_variance)
     correction = _hedges_correction(degrees_freedom)
     hedges_g = correction * cohens_d
-    variance_d = (
-        (evidence.treatment_n + evidence.control_n)
-        / (evidence.treatment_n * evidence.control_n)
-        + cohens_d**2 / (2 * degrees_freedom)
-    )
+    variance_d = (evidence.treatment_n + evidence.control_n) / (
+        evidence.treatment_n * evidence.control_n
+    ) + cohens_d**2 / (2 * degrees_freedom)
     return hedges_g, correction**2 * variance_d, "hedges_g_from_group_summaries"
 
 
@@ -521,10 +523,25 @@ def _binary_from_counts(
     b = float(evidence.treatment_total - evidence.treatment_events)
     c = float(evidence.control_events)
     d = float(evidence.control_total - evidence.control_events)
-    correction = 0.5 if min(a, b, c, d) == 0 else 0.0
+    is_odds_ratio = evidence.effect_format in {
+        EffectFormat.ODDS_RATIO,
+        EffectFormat.LOG_ODDS_RATIO,
+    }
+    is_risk_ratio = evidence.effect_format in {
+        EffectFormat.RISK_RATIO,
+        EffectFormat.LOG_RISK_RATIO,
+    }
+    # Odds require all four cells to be positive. Risks require only the two event
+    # counts to be positive; correcting a zero *non-event* cell changes an otherwise
+    # estimable risk ratio (for example, 10/10 versus 5/10).
+    correction = (
+        0.5
+        if (is_odds_ratio and min(a, b, c, d) == 0) or (is_risk_ratio and min(a, c) == 0)
+        else 0.0
+    )
     if correction:
         a, b, c, d = (cell + correction for cell in (a, b, c, d))
-    if evidence.effect_format in {EffectFormat.ODDS_RATIO, EffectFormat.LOG_ODDS_RATIO}:
+    if is_odds_ratio:
         estimate = math.log((a * d) / (b * c))
         variance = 1 / a + 1 / b + 1 / c + 1 / d
         return (
@@ -534,7 +551,7 @@ def _binary_from_counts(
             "log_odds_ratio_from_2x2_counts",
             correction or None,
         )
-    if evidence.effect_format in {EffectFormat.RISK_RATIO, EffectFormat.LOG_RISK_RATIO}:
+    if is_risk_ratio:
         treatment_total = a + b
         control_total = c + d
         estimate = math.log((a / treatment_total) / (c / control_total))
@@ -602,9 +619,9 @@ def _harmonize_direct(evidence: EffectEvidence) -> HarmonizationResult:
             )
             if evidence.ci_lower is not None and evidence.ci_upper is not None:
                 critical = NormalDist().inv_cdf(0.5 + evidence.ci_level / 2)
-                log_standard_error = (
-                    math.log(evidence.ci_upper) - math.log(evidence.ci_lower)
-                ) / (2 * critical)
+                log_standard_error = (math.log(evidence.ci_upper) - math.log(evidence.ci_lower)) / (
+                    2 * critical
+                )
                 log_variance = log_standard_error**2
                 log_derivation = f"log_se_from_reported_{evidence.ci_level:g}_ratio_ci"
             else:
@@ -650,6 +667,24 @@ def harmonize_effect(evidence: EffectEvidence) -> HarmonizationResult:
         return _insufficient(evidence, reason="effect_not_reported")
     if evidence.availability is EffectAvailability.INCONCLUSIVE:
         return _insufficient(evidence, reason="effect_report_inconclusive")
+
+    if evidence.treatment_events is not None:
+        assert evidence.treatment_total is not None
+        assert evidence.control_events is not None
+        assert evidence.control_total is not None
+        if evidence.treatment_events == 0 and evidence.control_events == 0:
+            return _insufficient(
+                evidence,
+                reason="binary_double_zero_event_study_noninformative",
+            )
+        if (
+            evidence.treatment_events == evidence.treatment_total
+            and evidence.control_events == evidence.control_total
+        ):
+            return _insufficient(
+                evidence,
+                reason="binary_double_all_event_study_noninformative",
+            )
 
     binary = _binary_from_counts(evidence)
     if binary is not None:

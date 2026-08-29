@@ -1,0 +1,255 @@
+{
+  "bridge_run_path": "data/cache/native-source-v1/antiox-eligible/source_manifest_bridge_run.json",
+  "bridge_run_sha256": "62d87d08b116d2af95da3e8646a293f9cdaf3507fd8b3e84319b2007367f26b3",
+  "claim_manifest": {
+    "claim_manifest_version": "1",
+    "question_id": "antiox-training",
+    "population_id": "humans-completing-structured-exercise-training",
+    "domain": "exercise-physiology",
+    "claim": {
+      "statement": "Vitamin C and/or E supplementation during structured exercise training blunts aerobic-capacity adaptation relative to placebo or no supplement.",
+      "direction": "decrease",
+      "outcome_name": "aerobic_capacity",
+      "contrast_id": null,
+      "estimand": "between-group difference in training adaptation",
+      "conditions": {}
+    },
+    "protocol": {
+      "corpus_cutoff": "antiox-legacy-eligible-diagnostic-2026-08-27",
+      "inclusion_criteria": [
+        "human participants (animal and in-vitro studies are ineligible)",
+        "controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation",
+        "a concurrent placebo or no-supplement comparison completing the same training",
+        "direct measurement of at least one training-adaptation endpoint"
+      ],
+      "exclusion_criteria": [
+        "reviews, meta-analyses, editorials, commentaries, and protocols",
+        "acute single-session studies without a training program",
+        "studies without an antioxidant-versus-control contrast"
+      ],
+      "notes": "Diagnostic subset selected by historically opened legacy eligibility decisions; not a retrieval-complete corpus."
+    }
+  },
+  "config_version": "native-antiox-ollama-config-v1",
+  "corpus_cutoff": "antiox-legacy-eligible-diagnostic-2026-08-27",
+  "projection": {
+    "algorithm": "label-blind-source-line-priority-v1",
+    "allowed_sections": [
+      "FigureTable",
+      "Methods",
+      "Results"
+    ],
+    "max_passage_characters": 1800,
+    "max_projected_characters": 14000,
+    "max_projected_passages": 24,
+    "reserved_methods_passages": 3,
+    "endpoint_terms": [
+      "1-rm",
+      "aerobic",
+      "endurance",
+      "fat-free mass",
+      "hypertrophy",
+      "lean mass",
+      "maximal oxygen",
+      "mitochond",
+      "muscle mass",
+      "performance",
+      "power",
+      "sprint",
+      "strength",
+      "time trial",
+      "vo2"
+    ],
+    "exposure_terms": [
+      "antioxidant",
+      "ascorb",
+      "supplement",
+      "tocopherol",
+      "vitamin c",
+      "vitamin e"
+    ],
+    "comparator_terms": [
+      "control",
+      "placebo"
+    ]
+  },
+  "prompt_file_sha256": "dfa93f9ad696b597c3e506d12bc7ae6e0425147a8c97b6a244b7330e560b0b3f",
+  "prompt_path": "prompts/native_extraction.md",
+  "question_config_file_sha256": "adb2097006d203f8817ab849ad85a6be295d0a4d33731a42fdaf1cf7fb0dfb50",
+  "question_config_path": "configs/questions/antiox-training.yaml",
+  "question_id": "antiox-training",
+  "question_spec": {
+    "eligibility": {
+      "article_types": [
+        "research-article"
+      ],
+      "exclude": [
+        "reviews, meta-analyses, editorials, commentaries, and protocols",
+        "acute single-session studies without a training program",
+        "studies without an antioxidant-versus-control contrast"
+      ],
+      "exclude_article_types": [
+        "review-article"
+      ],
+      "include": [
+        "human participants (animal and in-vitro studies are ineligible)",
+        "controlled primary studies combining a structured exercise-training program with vitamin C and/or E supplementation",
+        "a concurrent placebo or no-supplement comparison completing the same training",
+        "direct measurement of at least one training-adaptation endpoint"
+      ]
+    },
+    "moderators": [
+      {
+        "allowed_values": [
+          "below_500_mg_daily",
+          "500_to_999_mg_daily",
+          "1000_mg_daily_or_more",
+          "not_reported_as_daily_dose"
+        ],
+        "bins": null,
+        "display_name": "Vitamin C dose",
+        "kind": "paper_constant",
+        "name": "vitc_dose_regime",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "tested",
+        "source": "topic",
+        "type": "categorical"
+      },
+      {
+        "allowed_values": [
+          "endurance",
+          "resistance",
+          "sprint_interval",
+          "concurrent_or_mixed"
+        ],
+        "bins": null,
+        "display_name": "Training modality",
+        "kind": "paper_constant",
+        "name": "training_modality",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "tested",
+        "source": "topic",
+        "type": "categorical"
+      },
+      {
+        "allowed_values": [
+          "trained",
+          "untrained",
+          "mixed_or_unclear"
+        ],
+        "bins": null,
+        "display_name": "Training status",
+        "kind": "paper_constant",
+        "name": "training_status",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "tested",
+        "source": "fixed",
+        "type": "categorical"
+      },
+      {
+        "allowed_values": [
+          "younger_adult",
+          "older_adult",
+          "mixed_or_unclear"
+        ],
+        "bins": null,
+        "display_name": "Age group",
+        "kind": "paper_constant",
+        "name": "age_group",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "tested",
+        "source": "fixed",
+        "type": "categorical"
+      },
+      {
+        "allowed_values": [
+          "vitamin_c_only",
+          "vitamin_e_only",
+          "vitamin_c_and_e"
+        ],
+        "bins": null,
+        "display_name": "Supplement composition",
+        "kind": "paper_constant",
+        "name": "supplement_combo",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "tested",
+        "source": "topic",
+        "type": "categorical"
+      },
+      {
+        "allowed_values": [
+          "healthy",
+          "clinical_or_sarcopenic",
+          "mixed_or_unclear"
+        ],
+        "bins": null,
+        "display_name": "Population state",
+        "kind": "paper_constant",
+        "name": "population_state",
+        "paper_summary": null,
+        "permutation": "paper",
+        "role": "descriptive",
+        "source": "fixed",
+        "type": "categorical"
+      }
+    ],
+    "outcomes": {
+      "endpoint_direction_overrides": {},
+      "endpoint_map": {
+        "re:(?:endurance performance|endurance time|time.?to.?exhaustion|time to task failure|\\btlim\\b|time.?trial|running economy|shuttle run|yo-?yo)": "endurance_performance",
+        "re:(?:lean mass|muscle mass|hypertroph|fat-?free mass|muscle thickness|cross-?sectional area|muscle volume|skeletal muscle (?:mass|index))": "muscle_mass",
+        "re:(?:sprint|\\bspeed\\b|peak power|mean power|power output|jump|wingate|repeated.?sprint)": "sprint_or_power_performance",
+        "re:(?:strength|1\\s?-?RM|one-repetition|handgrip|knee extension|leg press|isokinetic|isometric (?:force|torque|contraction)|maximal voluntary (?:isometric )?contraction|\\bq?mvc\\b)": "muscle_strength",
+        "re:(?:vo2|aerobic capacity|maximal oxygen|anaerobic threshold|lactate threshold|maximal aerobic|power at exhaustion|\\bw ?max\\b)": "aerobic_capacity"
+      },
+      "family_map": {
+        "aerobic_capacity": "functional_adaptation",
+        "endurance_performance": "functional_adaptation",
+        "muscle_mass": "functional_adaptation",
+        "muscle_strength": "functional_adaptation",
+        "re:(?:\\bhsp\\d*\\b|hspa|hspb|crystallin|heat shock|mrna|gene expression|protein expression|signal|pgc-?1|cox4|mitochondrial (?:content|protein|biogenesis|enzyme|respiration))": "molecular_signaling",
+        "re:(?:creatine kinase|\\bck\\b|lactate dehydrogenase|\\bldh\\b|muscle damage|soreness|\\bdoms\\b|myoglobin)": "muscle_damage",
+        "re:(?:gsh|gssg|glutathione|malondialdehyde|\\bmda\\b|tbars|catalase|superoxide|\\btos\\b|\\btas\\b|\\btoc\\b|\\btac\\b|oxidative|antioxidant|antioxidat|redox|carbonyl|8-ohdg|f2-isoprostane|\\bgpx\\d*\\b|\\bsod\\b|mnsod)": "redox_molecular",
+        "re:(?:interleukin|il-?[0-9]|\\bcrp\\b|c-reactive|tnf|inflammat|neutrophil|leukocyte|cortisol|testosterone)": "inflammation_endocrine",
+        "re:(?:urea|uric acid|kidney|renal|glucose|insulin|lipid|cholesterol|body (?:weight|mass|fat)|fat mass|\\bbmi\\b|hepcidin|iron|ferritin)": "metabolic_other",
+        "sprint_or_power_performance": "functional_adaptation"
+      },
+      "included_primary_endpoints": [
+        "muscle_strength",
+        "muscle_mass",
+        "aerobic_capacity",
+        "endurance_performance",
+        "sprint_or_power_performance"
+      ],
+      "primary_family": "functional_adaptation"
+    },
+    "research_question": "Under which experimental conditions does antioxidant supplementation (vitamin C and/or E) blunt, enhance, or leave unchanged adaptations to exercise training?",
+    "target_relation": {
+      "comparator": "placebo or no-supplement control completing the same training program",
+      "decrease_definition": "the training adaptation is smaller in the supplemented group than in the control group",
+      "desirability_claims_allowed": false,
+      "exposure": "vitamin C and/or vitamin E supplementation taken during a structured exercise-training program",
+      "exposure_terms": [
+        "vitamin",
+        "ascorb",
+        "tocopherol",
+        "antioxidant",
+        "VES",
+        "C+E",
+        "AS group"
+      ],
+      "increase_definition": "the training adaptation is larger in the supplemented group than in the control group",
+      "no_effect_definition": "no detectable between-group difference in the training adaptation is reported",
+      "outcome": "exercise-training adaptation endpoints (strength, muscle mass, VO2max, mitochondrial or performance measures)"
+    }
+  },
+  "question_spec_sha256": "0892af72f3f4f7b0ccedca140a4de5ffeeaee265ed7ae4bd4eb76a0044dcbcad",
+  "selection_scope": "legacy_eligible",
+  "source_manifest_path": "data/cache/native-source-v1/antiox-eligible/native_source_manifest.json",
+  "source_manifest_records": 19
+}

@@ -36,7 +36,7 @@ def main(argv: list[str] | None = None) -> int:
         evidence_inference_root=Path("data/cache/evidence-inference-2.0"),
         evidence_inference_manifest_path=Path("data/cache/evidence-inference-gepa/manifest.json"),
         evidence_inference_evaluation_summary_path=Path(
-            "artifacts/paper/evidence-inference-gepa-pilot-summary.json"
+            "artifacts/diagnostics/evidence-inference/summary.json"
         ),
         metasyn_corpus_manifest_path=Path(
             "configs/benchmarks/metasyn-corpus-c8fa07d.json"
@@ -45,7 +45,9 @@ def main(argv: list[str] | None = None) -> int:
         antiox_papers_path=Path("data/processed/antiox-training/papers.parquet"),
         antiox_findings_path=Path("data/processed/antiox-training/findings.parquet"),
         antiox_source_lines_path=Path("data/raw/map/antiox-training/source_lines.json"),
-        antiox_packet_manifest_path=Path("data/cache/human-audit/antiox-training-60/manifest.json"),
+        antiox_packet_manifest_path=Path(
+            "data/cache/human-audit/antiox-training-60-v2/manifest.json"
+        ),
     )
     write_local_corpus_audit(args.output, report, force=args.force)
     print(

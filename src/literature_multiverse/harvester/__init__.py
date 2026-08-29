@@ -24,15 +24,20 @@ from .sources import (
 from .validation import (
     FIXED_OPENALEX_QUERY,
     FIXED_RESULT_LIMIT,
+    HARVESTER_VALIDATION_SOURCE_PATHS,
     HarvesterValidationRunFailed,
     HarvesterValidationSummary,
+    harvester_validation_source_hashes,
     load_harvester_validation_summary,
+    reseal_pinned_public_harvester_validation_summary,
     run_harvester_validation_cycle,
+    validate_harvester_validation_summary,
 )
 
 __all__ = [
     "FIXED_OPENALEX_QUERY",
     "FIXED_RESULT_LIMIT",
+    "HARVESTER_VALIDATION_SOURCE_PATHS",
     "ArchiveIntegrityError",
     "ArchivedPayload",
     "ArxivFullTextSource",
@@ -59,6 +64,9 @@ __all__ = [
     "UnsafeHarvestUrl",
     "document_from_openalex",
     "document_to_occurrence",
+    "harvester_validation_source_hashes",
     "load_harvester_validation_summary",
+    "reseal_pinned_public_harvester_validation_summary",
     "run_harvester_validation_cycle",
+    "validate_harvester_validation_summary",
 ]

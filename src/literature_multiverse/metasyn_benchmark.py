@@ -790,6 +790,18 @@ def _parse_metasyn_manifest(path: Path) -> MetaSynBenchmarkManifest:
         raise MetaSynBenchmarkError(f"benchmark_manifest_invalid:{path}") from exc
 
 
+def load_metasyn_manifest_metadata(path: Path) -> MetaSynBenchmarkManifest:
+    """Validate only inline manifest metadata without opening any referenced artifact.
+
+    This loader exists for prediction-freeze paths that must inspect split hashes and
+    source filenames while retaining a mechanically testable no-label-access boundary.
+    Evaluators should use :func:`load_metasyn_manifest`, which additionally verifies
+    every referenced artifact, including the evaluator-only label file.
+    """
+
+    return _parse_metasyn_manifest(path)
+
+
 def load_metasyn_manifest(path: Path) -> MetaSynBenchmarkManifest:
     """Load and verify the complete evaluator-side benchmark bundle."""
 
@@ -1194,14 +1206,19 @@ def build_metasyn_risk_examples(
     population_id: str = "metasyn-review-direction-v1",
     label_source: LabelSource = "benchmark_annotation",
 ) -> list[RiskExample]:
-    """Convert answered, feature-bearing predictions into real benchmark losses.
+    """Convert every eligible review into a complete-denominator risk row.
 
-    No system output is imputed.  Rows with a missing/NR benchmark label, missing
-    direction, explicit abstention/NR, an empty or missing retrieved corpus, or missing
-    features are omitted.  ``paper_ids`` are the system's actual retrieved corpus—not
-    gold papers—and split integrity is checked before return.  The binary loss is
-    disagreement with the frozen review-level direction annotation, not a claim about
-    scientific truth.
+    Gold-NR reviews have no evaluable reference direction and remain out of scope.  Every
+    other review is retained.  Missing predictions, missing/NR/abstained directions,
+    empty or missing retrieval, and missing feature payloads are encoded as explicit
+    forced-abstention indicators instead of being dropped.  The compatibility
+    ``unsupported_claim`` bit is conservatively true for those rows; trajectory-aware
+    calibration consumes the forced-abstention gates directly and counts them as zero
+    release coverage.  A unique sentinel paper identity represents an empty corpus so
+    the legacy nonempty identity contract cannot erase the question from the denominator.
+
+    For answered rows, the binary loss is disagreement with the frozen review-level
+    direction annotation, not a claim about scientific truth.
     """
 
     if not SHA256_RE.fullmatch(pipeline_sha256):
@@ -1209,17 +1226,63 @@ def build_metasyn_risk_examples(
     manifest = load_metasyn_manifest(manifest_path)
     labels = load_metasyn_labels(manifest_path, manifest)
     prediction_by_id = _validate_prediction_universe(labels, predictions)
+    feature_names = sorted(
+        {
+            name
+            for prediction in predictions
+            for name in (prediction.risk_features or {})
+        }
+    )
+    reserved_feature_names = {
+        "metasyn_status__forced_abstention",
+        "metasyn_status__prediction_missing",
+        "metasyn_status__direction_missing",
+        "metasyn_status__direction_nr",
+        "metasyn_status__direction_abstained",
+        "metasyn_status__retrieval_missing",
+        "metasyn_status__retrieval_empty",
+        "metasyn_status__risk_features_missing",
+    }
+    collisions = sorted(reserved_feature_names & set(feature_names))
+    if collisions:
+        raise MetaSynBenchmarkError(f"risk_feature_name_reserved:{collisions}")
     examples: list[RiskExample] = []
     for label in sorted(labels, key=lambda row: row.question_id):
-        prediction = prediction_by_id.get(label.review_id)
-        if (
-            label.gold_direction not in DIRECTION_CLASSES
-            or prediction is None
-            or prediction.predicted_direction not in DIRECTION_CLASSES
-            or not prediction.retrieved_corpus_ids
-            or prediction.risk_features is None
-        ):
+        if label.gold_direction not in DIRECTION_CLASSES:
             continue
+        prediction = prediction_by_id.get(label.review_id)
+        direction = None if prediction is None else prediction.predicted_direction
+        retrieved = None if prediction is None else prediction.retrieved_corpus_ids
+        supplied_features = None if prediction is None else prediction.risk_features
+        status_features = {
+            "metasyn_status__prediction_missing": float(prediction is None),
+            "metasyn_status__direction_missing": float(direction is None),
+            "metasyn_status__direction_nr": float(direction == "NR"),
+            "metasyn_status__direction_abstained": float(direction == "Abstain"),
+            "metasyn_status__retrieval_missing": float(retrieved is None),
+            "metasyn_status__retrieval_empty": float(retrieved == []),
+            "metasyn_status__risk_features_missing": float(supplied_features is None),
+        }
+        forced_abstention = any(value == 1.0 for value in status_features.values())
+        features = {
+            name: float((supplied_features or {}).get(name, 0.0))
+            for name in feature_names
+        }
+        features.update(
+            {
+                f"metasyn_feature_missing__{name}": float(
+                    supplied_features is None or name not in supplied_features
+                )
+                for name in feature_names
+            }
+        )
+        features.update(status_features)
+        features["metasyn_status__forced_abstention"] = float(forced_abstention)
+        paper_ids = (
+            sorted({f"metasyn-corpus:{paper_id}" for paper_id in (retrieved or [])})
+            if retrieved
+            else [f"metasyn-empty-corpus:{label.review_id:06d}"]
+        )
         examples.append(
             RiskExample(
                 question_id=label.question_id,
@@ -1227,11 +1290,11 @@ def build_metasyn_risk_examples(
                 population_id=population_id,
                 domain="metasyn_systematic_reviews",
                 pipeline_sha256=pipeline_sha256,
-                paper_ids=sorted(
-                    {f"metasyn-corpus:{paper_id}" for paper_id in prediction.retrieved_corpus_ids}
+                paper_ids=paper_ids,
+                features=features,
+                unsupported_claim=(
+                    forced_abstention or direction != label.gold_direction
                 ),
-                features=prediction.risk_features,
-                unsupported_claim=prediction.predicted_direction != label.gold_direction,
                 label_source=label_source,
             )
         )
@@ -1255,6 +1318,7 @@ __all__ = [
     "load_metasyn_inputs",
     "load_metasyn_labels",
     "load_metasyn_manifest",
+    "load_metasyn_manifest_metadata",
     "load_metasyn_predictions",
     "prepare_metasyn_benchmark",
 ]

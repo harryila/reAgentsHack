@@ -23,7 +23,10 @@ from literature_multiverse.evidence_graph import (
     graph_risk_features,
     select_effect_evidence,
 )
-from literature_multiverse.meta_analysis import synthesize_evidence_graph
+from literature_multiverse.meta_analysis import (
+    synthesis_decision_snapshot,
+    synthesize_evidence_graph,
+)
 from literature_multiverse.models import FindingRow, make_finding_id
 
 
@@ -59,7 +62,12 @@ def _context(
     )
 
 
-def _evidence(suffix: str, *, estimate: float = 0.2) -> EffectEvidence:
+def _evidence(
+    suffix: str,
+    *,
+    estimate: float = 0.2,
+    moderator: str | None = None,
+) -> EffectEvidence:
     return EffectEvidence(
         paper_id=f"paper-{suffix}",
         finding_id=f"finding-{suffix}",
@@ -69,6 +77,7 @@ def _evidence(suffix: str, *, estimate: float = 0.2) -> EffectEvidence:
         estimate=estimate,
         standard_error=0.1,
         reported_significance="not_significant",
+        moderators={} if moderator is None else {"population": moderator},
         provenance={
             "source_locator": f"paper-{suffix}.pdf#page=4",
             "source_quote": f"The standardized estimate was {estimate}.",
@@ -357,6 +366,66 @@ def test_synthesis_allows_one_publication_reporting_multiple_cohorts() -> None:
         "cohort-a",
         "cohort-b",
     }
+
+
+def test_graph_condition_analysis_uses_cohorts_for_nonunique_publication_mapping() -> None:
+    first = adapt_effect_evidence(
+        _evidence("a", estimate=-0.8, moderator="low"), context=_context("a")
+    ).graph
+    second = adapt_effect_evidence(
+        _evidence("b", estimate=-0.8, moderator="low"), context=_context("b")
+    ).graph
+    payload = first.model_dump(mode="json")
+    payload["publications"].extend(second.model_dump(mode="json")["publications"])
+    payload["studies"][0]["publication_ids"].append("publication-b")
+    payload["studies"][0]["publication_ids"].sort()
+    second_span = second.evidence_spans[0].model_copy(
+        update={"span_id": "span-shared-cohort-second-report"}
+    )
+    payload["evidence_spans"].append(second_span.model_dump(mode="json"))
+    second_estimate = second.outcome_estimates[0].model_copy(
+        update={
+            "estimate_id": "estimate-shared-cohort-second-report",
+            "contrast_id": first.contrasts[0].contrast_id,
+            "evidence_span_ids": [second_span.span_id],
+        }
+    )
+    payload["outcome_estimates"].append(second_estimate.model_dump(mode="json"))
+    shared = EvidenceGraph.model_validate(payload)
+    independent = [
+        adapt_effect_evidence(
+            _evidence(suffix, estimate=estimate, moderator=level),
+            context=_context(suffix),
+        ).graph
+        for suffix, level, estimate in (
+            ("c", "low", -0.7),
+            ("d", "high", 0.8),
+            ("e", "high", 0.7),
+        )
+    ]
+    graph = _merge_graphs(shared, *independent)
+
+    synthesis = synthesize_evidence_graph(
+        graph,
+        prespecified_moderators=["population"],
+    )
+
+    condition = synthesis["condition_analysis"]
+    assert condition["status"] == "exploratory_qualitative_condition_signal"
+    assert (
+        synthesis_decision_snapshot(synthesis, target_direction="increase").classification
+        != "condition_dependent"
+    )
+    assert condition["analysis_unit"] == "explicit_cohort"
+    assert condition["n_effects_input"] == 5
+    assert condition["n_publications"] == 5
+    assert condition["n_cohorts"] == 4
+    regression = condition["analyses"][0]["regression"]
+    assert regression["support_by_level"] == {"high": 2, "low": 2}
+    assert regression["provenance"]["cohort-a"]["paper_ids"] == [
+        "paper-a",
+        "paper-b",
+    ]
 
 
 def test_selection_refuses_incompatible_timepoints() -> None:

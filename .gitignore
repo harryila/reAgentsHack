@@ -22,7 +22,11 @@ data/cache/
 # aggregate metrics and hash-locked manifests/model inputs.
 artifacts/paper/metasyn-benchmark/evaluator_labels.private.jsonl
 
-# LaTeX build intermediates; keep the reviewed paper/main.pdf.
+# Identifier-bearing local-suite stage outputs are private. Only benchmark-report.json is public.
+/artifacts/benchmarks/local-suite-v1/predictions.jsonl
+/artifacts/benchmarks/local-suite-v1/freeze_receipt.json
+
+# Legacy LaTeX intermediates. The manuscript directory itself is ignored below.
 paper/*.aux
 paper/*.bbl
 paper/*.blg

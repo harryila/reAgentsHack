@@ -28,17 +28,20 @@ harvester or structured-output model.
 
 ## Integration status
 
-The quantitative implementation now has a typed [evidence-graph](evidence-graph.md) boundary, but it
-is not yet wired into the production s3/s5 pipeline. `adapt_effect_evidence` preserves a genuinely
-typed numerical record. `adapt_finding_row` is intentionally non-numerical because the legacy
+The public native extraction path now emits a typed [evidence graph](evidence-graph.md) joined to
+replayable source-grounding receipts. `adapt_effect_evidence` preserves a genuinely typed numerical
+record. `adapt_finding_row` remains intentionally non-numerical because the legacy
 `effect_size_raw` string does not identify an estimand, scale, unit, or uncertainty source safely
 enough to convert automatically. It retains the old categorical direction and raw text for review,
 never turns non-significance or `no_effect` into zero, and blocks quantitative use.
 
-`synthesize_evidence_graph` runs the existing estimator only for resolved, compatible graphs with a
-one-to-one cohort/publication mapping. It explicitly refuses multi-report cohorts and multi-cohort
-papers until the estimator is cohort-aware. Consequently, the constructed simulation still supplies
-the only frozen quantitative result; legacy directional s5 output is not effect-size meta-analysis.
+`synthesize_evidence_graph` uses explicit cohort identity as its analysis unit. Repeated
+publications of one cohort are conservatively aggregated to one contribution; distinct cohorts
+reported in one paper remain distinct. Missing or conflicting cohort/moderator identity fails
+closed. This completes the executable extraction-to-synthesis join, but it does not create an
+empirical accuracy result: locally available quantitative effects are still insufficient for a
+real end-to-end effectiveness claim, and legacy directional s5 output is not effect-size
+meta-analysis.
 
 ## Synthesis APIs
 
@@ -46,6 +49,7 @@ the only frozen quantitative result; legacy directional s5 output is not effect-
 from literature_multiverse.effects import EffectEvidence, harmonize_effects
 from literature_multiverse.meta_analysis import (
     categorical_meta_regression,
+    cohort_categorical_meta_regression,
     synthesize_evidence_graph,
     synthesize_with_directional_fallback,
 )
@@ -57,26 +61,36 @@ synthesis = synthesize_with_directional_fallback(harmonized)
 estimable = [item.effect for item in harmonized if item.effect is not None]
 dose_model = categorical_meta_regression(estimable, "dose", reference_level="low")
 
+# The typed-graph path uses explicit cohort IDs and the cohort-aware estimator.
+cohort_dose_model = cohort_categorical_meta_regression(
+    estimable,
+    cohort_ids,
+    "dose",
+    reference_level="low",
+)
+
 # For a validated EvidenceGraph, the conservative integration boundary is:
 graph_synthesis = synthesize_evidence_graph(graph, outcome_name="named outcome")
 ```
 
-The random-effects implementation uses generalized Paule–Mandel tau-squared estimation, modified
-Knapp–Hartung uncertainty, Cochran's Q/I-squared heterogeneity summaries, and a prediction interval
-when at least three papers are available. Multiple compatible rows from one paper are first reduced
-to one equally weighted paper effect. The default assumes within-paper correlation `rho=1`, so
-duplicate outcomes do not create artificial precision; a smaller value must be prespecified and
-justified.
+The typed-graph random-effects implementation uses generalized Paule–Mandel tau-squared estimation,
+modified Knapp–Hartung uncertainty, Cochran's Q/I-squared heterogeneity summaries, and a prediction
+interval when at least three cohorts are available. Multiple compatible reports from one cohort are
+first reduced to one equally weighted cohort effect. The default assumes within-cohort correlation
+`rho=1`, so duplicate reports do not create artificial precision; a smaller value must be
+prespecified and justified.
 
-Categorical meta-regression uses the same one-effect-per-paper reduction and requires a moderator to
-be constant within each paper. It reports predictive corpus associations only. Sparse levels,
-within-paper conflicts, incompatible scales, and inadequate residual degrees of freedom return
-stable `status="insufficient"` reason codes.
+Cohort-aware categorical meta-regression uses the same one-effect-per-cohort reduction and requires
+a moderator to be constant within each cohort. It reports predictive corpus associations only.
+Sparse levels, within-cohort conflicts, incompatible scales, and inadequate residual degrees of
+freedom return stable `status="insufficient"` reason codes. The older paper-unit estimators remain
+available only as explicit lower-level compatibility APIs; they are not used by the public typed
+graph verifier.
 
-If magnitude synthesis is unavailable, `directional_synthesis` uses paper-level point-estimate signs
-only. Conflicting signs within one paper become `mixed`; missing estimates remain `unavailable`; and
-reported non-significance or equivalence never becomes `exact_zero`. The result explicitly states
-that magnitudes and precision were not combined.
+If magnitude synthesis is unavailable, the typed-graph directional fallback uses cohort-level
+point-estimate signs only. Conflicting reports within one cohort become `mixed`; missing estimates
+remain `unavailable`; and reported non-significance or equivalence never becomes `exact_zero`. The
+result explicitly states that magnitudes and precision were not combined.
 
 ## Planted method check
 
@@ -90,7 +104,8 @@ uv run python scripts/simulate_meta_analysis.py \
   --output artifacts/paper/meta-simulation-200.json \
   --replicates 200 --seed 20260826 \
   --alpha 0.05 --moderator-effect 0.35 \
-  --papers-per-level 30 --heldout-papers-per-level 30
+  --papers-per-level 30 --heldout-papers-per-level 30 \
+  --force
 ```
 
 With no planted moderator, meta-regression selected one in 0.050 of replicates, versus 0.955 for

@@ -1,0 +1,50 @@
+{
+  "study_version": "evidence-inference-local-ollama-gepa-study-v1",
+  "manifest_path": "data/cache/evidence-inference-gepa/manifest.json",
+  "seed_prompt_path": "prompts/evidence_inference_gepa_seed.md",
+  "private_run_dir": "data/cache/evidence-inference-ollama-gepa-v1-final-v3",
+  "public_summary_path": "artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json",
+  "generation": {
+    "config_version": "ollama-deterministic-json-generation-v1",
+    "model": "llama3.2:1b",
+    "model_digest": "baf6a787fdffd633537aa2eb51cfd54cb93ff08e28040095462bb63daf552878",
+    "expected_ollama_version": "0.15.1",
+    "seed": 20260827,
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0,
+    "num_ctx": 8192,
+    "num_predict": 384,
+    "keep_alive": "30m"
+  },
+  "optimization": {
+    "subset_seed": 20260827,
+    "train_target_rows": 256,
+    "dev_target_rows": 96,
+    "max_metric_calls": 800,
+    "reflection_minibatch_size": 12,
+    "candidate_selection_strategy": "pareto",
+    "frontier_type": "hybrid",
+    "batch_sampler": "epoch_shuffled",
+    "module_selector": "round_robin",
+    "acceptance_criterion": "improvement_or_equal",
+    "skip_perfect_score": false,
+    "use_merge": false,
+    "cache_evaluation": false,
+    "track_best_outputs": false,
+    "gepa_seed": 20260827,
+    "minimum_reflection_proposals": 3
+  },
+  "metrics": {
+    "direction_accuracy_weight": 0.55,
+    "direction_distribution_fidelity_weight": 0.0,
+    "formal_grounding_validity_weight": 0.2,
+    "structured_output_validity_weight": 0.1,
+    "generation_success_weight": 0.1,
+    "token_efficiency_weight": 0.025,
+    "latency_sla_success_weight": 0.025,
+    "latency_sla_seconds": 300.0,
+    "bootstrap_seed": 20260827,
+    "bootstrap_replicates": 20000
+  }
+}

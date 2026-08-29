@@ -236,8 +236,7 @@ def _validate_evaluation_inputs(
             and prediction.retrieved_paper_ids != question.gold_paper_ids
         ):
             raise ClosedCorpusContractError(
-                f"oracle_retrieval_not_exact_gold:{prediction.question_id}:"
-                f"{prediction.arm}"
+                f"oracle_retrieval_not_exact_gold:{prediction.question_id}:{prediction.arm}"
             )
         if (
             prediction.arm == "oracle_extraction"
@@ -562,8 +561,7 @@ def select_paper_audit_candidates(
     mandatory = [row for row in rows if row.get("pipeline_eligible") is True]
     if len(mandatory) > sample_size:
         raise ClosedCorpusContractError(
-            f"pipeline_eligible_papers_exceed_sample:required={len(mandatory)}:"
-            f"sample={sample_size}"
+            f"pipeline_eligible_papers_exceed_sample:required={len(mandatory)}:sample={sample_size}"
         )
     mandatory_ids = {str(row["paper_id"]) for row in mandatory}
     remaining = [row for row in rows if str(row["paper_id"]) not in mandatory_ids]
@@ -667,6 +665,9 @@ def prepare_blinded_human_review_packet(
             ],
             "error_codes": [],
             "notes": None,
+            # Measured after the decision is complete.  This is a realized review
+            # duration, not a model-side cost estimate or scheduling signal.
+            "review_minutes": None,
         }
         item = BlindedPaperAuditItem(
             audit_unit_id=audit_unit_id,
@@ -682,9 +683,7 @@ def prepare_blinded_human_review_packet(
         )
         forbidden = _forbidden_keys(item.model_dump(mode="json"))
         if forbidden:
-            raise ClosedCorpusContractError(
-                f"forbidden_reviewer_packet_keys:{sorted(forbidden)}"
-            )
+            raise ClosedCorpusContractError(f"forbidden_reviewer_packet_keys:{sorted(forbidden)}")
         packet_rows.append(item)
         stratum = str(candidate["selection_stratum"])
         selected_strata[stratum] += 1
@@ -700,7 +699,7 @@ def prepare_blinded_human_review_packet(
         for reviewer in forms:
             forms[reviewer].append(
                 {
-                    "human_review_decision_version": "1",
+                    "human_review_decision_version": "2",
                     "audit_unit_id": audit_unit_id,
                     "reviewer_slot": reviewer,
                     **review_form,
@@ -723,19 +722,15 @@ def prepare_blinded_human_review_packet(
     atomic_write_jsonl(reviewer_b_path, forms["reviewer_b"], force=force)
     all_strata = Counter(str(row["selection_stratum"]) for row in candidates)
     manifest = {
-        "human_review_packet_manifest_version": "1",
+        "human_review_packet_manifest_version": "2",
         "question_id": question_id,
         "seed": seed,
         "sample_size": sample_size,
         "candidate_papers": len(candidates),
         "candidate_strata": dict(sorted(all_strata.items())),
         "selected_strata": dict(sorted(selected_strata.items())),
-        "eligible_zero_finding_papers_required": all_strata[
-            "pipeline_eligible_zero_findings"
-        ],
-        "eligible_zero_finding_papers_selected": selected_strata[
-            "pipeline_eligible_zero_findings"
-        ],
+        "eligible_zero_finding_papers_required": all_strata["pipeline_eligible_zero_findings"],
+        "eligible_zero_finding_papers_selected": selected_strata["pipeline_eligible_zero_findings"],
         "all_eligible_zero_finding_papers_included": (
             all_strata["pipeline_eligible_zero_findings"]
             == selected_strata["pipeline_eligible_zero_findings"]

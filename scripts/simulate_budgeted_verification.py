@@ -21,8 +21,14 @@ from literature_multiverse.lineage import atomic_write_json, hash_canonical, sha
 _ROOT = Path(__file__).resolve().parents[1]
 _SOURCE_FILES = (
     "scripts/simulate_budgeted_verification.py",
+    "src/literature_multiverse/__init__.py",
     "src/literature_multiverse/budgeted_verification_simulation.py",
     "src/literature_multiverse/budgeted_verification.py",
+    "src/literature_multiverse/lineage.py",
+    "src/literature_multiverse/models.py",
+    "src/literature_multiverse/paths.py",
+    "pyproject.toml",
+    "uv.lock",
 )
 
 
@@ -101,7 +107,7 @@ def main(argv: list[str] | None = None) -> int:
         budgets=args.budgets,
     )
     artifact = {
-        "budgeted_verification_simulation_study_version": "4",
+        "budgeted_verification_simulation_study_version": "5",
         "evidence_scope": {
             "artifact_kind": "planted_simulation",
             "real_world_evidence": False,
@@ -114,6 +120,7 @@ def main(argv: list[str] | None = None) -> int:
         "summary": summary,
         "replicates": replicates,
     }
+    artifact["artifact_payload_sha256"] = hash_canonical(artifact)
     atomic_write_json(args.output, artifact, force=args.force)
     print(json.dumps({"output": args.output.as_posix(), "summary": summary}, sort_keys=True))
     return 0

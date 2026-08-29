@@ -5,12 +5,15 @@ from pathlib import Path
 
 import pytest
 
-from literature_multiverse.lineage import sha256_file
+from literature_multiverse.lineage import hash_canonical, sha256_file
 from literature_multiverse.local_corpus_audit import (
+    LOCAL_CORPUS_AUDIT_VERSION,
     LocalCorpusAuditError,
+    _source_code_hashes,
     _verified_evidence_inference_evaluation,
     _verified_metasyn_article_payloads,
     _verified_private_packet_hashes,
+    validate_local_corpus_audit,
 )
 
 
@@ -56,33 +59,32 @@ def test_evidence_inference_evaluation_is_absent_without_artifact(tmp_path: Path
     }
 
 
-def test_evidence_inference_evaluation_verifies_referenced_report(
-    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+def test_evidence_inference_evaluation_verifies_fail_closed_receipt_audit(
+    tmp_path: Path,
 ) -> None:
-    monkeypatch.chdir(tmp_path)
-    heldout = tmp_path / "private" / "heldout.json"
-    _write_json(heldout, {"n": 1})
     summary = tmp_path / "summary.json"
-    _write_json(
-        summary,
-        {
-            "gepa_pilot_summary_version": "1",
-            "benchmark": "Evidence Inference 2.0",
-            "successful_pilot": {
-                "status": "valid_frozen_heldout_evaluation",
-                "artifacts": {
-                    "heldout_test_report": {
-                        "path": "private/heldout.json",
-                        "sha256": sha256_file(heldout),
-                    }
-                },
-            },
-        },
-    )
+    payload = {
+        "public_summary_version": "evidence-inference-diagnostic-public-summary-v1",
+        "status": "metadata_only_diagnostic_non_pristine",
+        "full_report_sha256": "a" * 64,
+        "cache_integrity_findings": [
+            {
+                "status": "fail_closed_trace_score_excluded",
+                "archived_trace_score_citation_allowed": False,
+                "expected_dev_rows": 12,
+                "clean_common_dev_receipts": 10,
+                "missing_mutation_dev_receipts": 2,
+            }
+        ],
+    }
+    _write_json(summary, {**payload, "public_summary_sha256": hash_canonical(payload)})
     result = _verified_evidence_inference_evaluation(summary)
     assert result["available"] is True
-    heldout.write_text("tampered", encoding="utf-8")
-    with pytest.raises(LocalCorpusAuditError, match="heldout_artifact_invalid"):
+    assert result["archived_trace_score_citation_allowed"] is False
+    tampered = json.loads(summary.read_text(encoding="utf-8"))
+    tampered["cache_integrity_findings"][0]["clean_common_dev_receipts"] = 12
+    _write_json(summary, tampered)
+    with pytest.raises(LocalCorpusAuditError, match="evaluation_contract_invalid"):
         _verified_evidence_inference_evaluation(summary)
 
 
@@ -141,3 +143,22 @@ def test_private_packet_rejects_missing_out_of_root_and_symlink_files(tmp_path: 
     }
     with pytest.raises(LocalCorpusAuditError, match="path_unsafe"):
         _verified_private_packet_hashes(manifest, symlink_packet)
+
+
+def test_local_corpus_audit_full_payload_and_source_lineage_fail_closed() -> None:
+    payload = {
+        "local_corpus_audit_version": LOCAL_CORPUS_AUDIT_VERSION,
+        "contains_article_text": False,
+        "contains_question_text": False,
+        "contains_titles": False,
+        "contains_per_question_labels": False,
+        "network_or_api_calls": 0,
+        "source_code_sha256s": _source_code_hashes(),
+    }
+    report = {**payload, "audit_payload_sha256": hash_canonical(payload)}
+    assert validate_local_corpus_audit(report, require_current_sources=True) == report
+
+    tampered = json.loads(json.dumps(report))
+    tampered["network_or_api_calls"] = 1
+    with pytest.raises(LocalCorpusAuditError, match="integrity_invalid"):
+        validate_local_corpus_audit(tampered)

@@ -18,6 +18,10 @@ The access boundary is represented by two separate stages:
 2. `evaluation.json` was produced afterward by a single, separate private-evaluator
    invocation. It records the complete per-review results and evaluator-side labels.
 
+This is a retrospective, non-pristine control: the MetaSyn official-test labels were
+historically opened elsewhere in this repository, and the staged boundary above does
+not restore pristine-holdout status.
+
 The direction result is 42/86 correct (`0.4883720930` accuracy; `0.21875` macro F1).
 All 86 retrieval outputs are missing by design, so retrieval coverage and strict
 recall are zero.

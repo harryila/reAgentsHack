@@ -4,9 +4,14 @@ import json
 from copy import deepcopy
 from datetime import UTC, datetime
 from types import SimpleNamespace
+from unittest.mock import patch
 
 import pytest
+from jsonschema.validators import validator_for
 
+from literature_multiverse.native_bounded_schema_v2 import (
+    synthetic_schema_v2_preflight_specs,
+)
 from literature_multiverse.providers import (
     AnthropicProvider,
     FixtureProvider,
@@ -15,6 +20,7 @@ from literature_multiverse.providers import (
     ProviderBudgetExceeded,
     ProviderError,
     ProviderUsage,
+    _prepare_anthropic_schema,
     estimate_cost_usd,
     load_live_environment,
     sha256_json,
@@ -123,7 +129,19 @@ def test_live_provider_archives_once_and_forwards_structured_output(tmp_path) ->
     assert archive["output_schema_original_sha256"] == sha256_json(schema)
     assert archive["output_schema_provider"] == schema
     assert archive["output_schema_provider_sha256"] == sha256_json(schema)
-    assert archive["output_schema_transform"]["name"] == "anthropic.transform_schema"
+    assert archive["output_schema_transform"]["name"] == (
+        "anthropic-literal-type-compiler-v1+anthropic.transform_schema"
+    )
+    assert archive["conservative_request_ceiling_usd"] > (
+        archive["estimated_cost_usd"]
+    )
+    assert archive["conservative_ceiling_basis"] == {
+        "input_token_upper_bound": (
+            "canonical_wire_request_utf8_bytes_plus_fixed_framing"
+        ),
+        "fixed_framing_tokens": 1024,
+        "output_tokens": 100,
+    }
     assert "api" not in json.dumps(archive).casefold()
     with pytest.raises(ProviderAttemptExists):
         provider.generate(operation="smoke", request_key="one", prompt="hello")
@@ -156,7 +174,7 @@ def test_global_budget_spans_nested_operation_archives(tmp_path) -> None:
         max_budget_usd=1,
         live_enabled=True,
         global_budget_dir=tmp_path,
-        global_max_budget_usd=0.0013,
+        global_max_budget_usd=0.0035,
         client=first_client,
     )
     first.generate(operation="baseline", request_key="one", prompt="hello")
@@ -171,7 +189,7 @@ def test_global_budget_spans_nested_operation_archives(tmp_path) -> None:
         max_budget_usd=1,
         live_enabled=True,
         global_budget_dir=tmp_path,
-        global_max_budget_usd=0.0013,
+        global_max_budget_usd=0.0035,
         client=second_client,
     )
     with pytest.raises(ProviderBudgetExceeded):
@@ -356,3 +374,32 @@ def test_bad_request_error_detail_is_sanitized_and_not_charged(tmp_path) -> None
 def test_cost_estimate_uses_pinned_rates() -> None:
     usage = ProviderUsage(input_tokens=1_000_000, output_tokens=1_000_000)
     assert estimate_cost_usd("claude-sonnet-5", usage) == pytest.approx(12.0)
+
+
+def test_default_anthropic_client_disables_sdk_retries(tmp_path) -> None:
+    provider = AnthropicProvider(
+        model="claude-sonnet-5",
+        effort="low",
+        max_tokens=100,
+        archive_dir=tmp_path,
+        max_budget_usd=1,
+        live_enabled=True,
+    )
+    sentinel = object()
+    with patch("anthropic.Anthropic", return_value=sentinel) as constructor:
+        assert provider._client_or_create() is sentinel
+    constructor.assert_called_once_with(max_retries=0)
+
+
+def test_all_v2_preflight_provider_schemas_transform_for_anthropic() -> None:
+    specs = synthetic_schema_v2_preflight_specs()
+    assert len(specs) == 8
+    for spec in specs:
+        original, transformed, sdk_version = _prepare_anthropic_schema(
+            spec["provider_schema"]
+        )
+        assert original == spec["provider_schema"]
+        validator = validator_for(transformed)
+        validator.check_schema(transformed)
+        validator(transformed).validate(spec["valid_example"])
+        assert sdk_version == "0.120.2"

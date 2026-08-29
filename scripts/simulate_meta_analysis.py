@@ -16,8 +16,18 @@ from literature_multiverse.meta_simulation import (
 _ROOT = Path(__file__).resolve().parents[1]
 _SOURCE_FILES = (
     "scripts/simulate_meta_analysis.py",
+    "src/literature_multiverse/__init__.py",
     "src/literature_multiverse/meta_simulation.py",
     "src/literature_multiverse/meta_analysis.py",
+    "src/literature_multiverse/budgeted_verification.py",
+    "src/literature_multiverse/claim_semantics.py",
+    "src/literature_multiverse/effects.py",
+    "src/literature_multiverse/evidence_graph.py",
+    "src/literature_multiverse/lineage.py",
+    "src/literature_multiverse/models.py",
+    "src/literature_multiverse/paths.py",
+    "pyproject.toml",
+    "uv.lock",
 )
 
 
@@ -82,13 +92,14 @@ def main(argv: list[str] | None = None) -> int:
     ]
     summary = summarize_meta_simulations(null_rows, moderator_rows, alpha=args.alpha)
     artifact = {
-        "meta_simulation_study_version": "2",
+        "meta_simulation_study_version": "3",
         "run_config": config,
         "run_config_sha256": hash_canonical(config),
         "summary": summary,
         "null_replicates": null_rows,
         "moderator_replicates": moderator_rows,
     }
+    artifact["artifact_payload_sha256"] = hash_canonical(artifact)
     atomic_write_json(args.output, artifact, force=args.force)
     print(json.dumps({"output": args.output.as_posix(), "summary": summary}, sort_keys=True))
     return 0

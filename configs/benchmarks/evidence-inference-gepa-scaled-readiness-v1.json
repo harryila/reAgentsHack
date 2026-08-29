@@ -1,0 +1,96 @@
+{
+  "config_version": "evidence-inference-gepa-scaled-readiness-config-v1",
+  "artifact_bindings": [
+    {
+      "role": "converter_source",
+      "relative_path": "src/literature_multiverse/evidence_inference.py",
+      "file_sha256": "90bc352a055ee2a48e31b215559df57ca4273f8321472ecf8fa77e60e09f9040"
+    },
+    {
+      "role": "full_conversion_report",
+      "relative_path": "data/cache/evidence-inference-gepa/conversion_report.json",
+      "file_sha256": "e22d1038bb244fd83a4fcd4d1dc93fb89b050b4ac289b04d3c35a1e4136ad086"
+    },
+    {
+      "role": "full_manifest",
+      "relative_path": "data/cache/evidence-inference-gepa/manifest.json",
+      "file_sha256": "77b145436e1c3902ebf87c0d0bf0e82475b8d3090057a7852e5c5fd9cfa63be2"
+    },
+    {
+      "role": "legacy_ollama_config",
+      "relative_path": "configs/benchmarks/evidence-inference-ollama-gepa-v1.json",
+      "file_sha256": "4d2ca82d12682cad3a2967e70a158a00731af0e347d4e7b61085b430ab4178c2"
+    },
+    {
+      "role": "low_budget_conversion_report",
+      "relative_path": "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+      "file_sha256": "a58c6a8b1674d5409a6d2b774225b48f2f7b172c57dfbbfeab7167e36cdc3ef5"
+    },
+    {
+      "role": "low_budget_manifest",
+      "relative_path": "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+      "file_sha256": "ad85e50afe44ddee9f033a5a5d27dddd34daaf1b27dfa28e7901725146e8a199"
+    },
+    {
+      "role": "opened_diagnostic_summary",
+      "relative_path": "artifacts/diagnostics/evidence-inference/summary.json",
+      "file_sha256": "4ff447c91a4742a33fc95c3dff6bc3a02b492227df849074cc8ea784fa423282"
+    },
+    {
+      "role": "pilot30_conversion_report",
+      "relative_path": "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+      "file_sha256": "5fdcf78f7b60e9519f6429746c2aa0afb09e134a8ad27a7bb89f7e3c64bc667c"
+    },
+    {
+      "role": "pilot30_manifest",
+      "relative_path": "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+      "file_sha256": "4868e76d0e6e5466ad824856f8a2715fcff294b0df5aeeb4938a3aefaeafd52b"
+    },
+    {
+      "role": "public_ollama_gepa_summary",
+      "relative_path": "artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json",
+      "file_sha256": "2b7843ec918c874b61db6281457e965b5ae0aec32c32ca76c7777f63ccb67bf5"
+    }
+  ],
+  "expected_variants": {
+    "full": {
+      "train": {"rows": 4371, "papers": 1477},
+      "dev": {"rows": 522, "papers": 192},
+      "test": {"rows": 524, "papers": 191}
+    },
+    "low_budget_12": {
+      "train": {"rows": 12, "papers": 12},
+      "dev": {"rows": 12, "papers": 12},
+      "test": {"rows": 12, "papers": 12}
+    },
+    "pilot30": {
+      "train": {"rows": 30, "papers": 4},
+      "dev": {"rows": 30, "papers": 16},
+      "test": {"rows": 30, "papers": 7}
+    }
+  },
+  "expected_public_gepa_summary_sha256": "1039156083798863e85761ecf94b76578c74066af2ef7b7691fd4d724f4967ce",
+  "expected_opened_diagnostic_summary_sha256": "fe989ba03c606e6cacbcd4bea3517a08d5a0ac05b40b751ed4533dbceccef7d9",
+  "separate_evaluation_objectives": [
+    "eligibility_screening_recall_and_specificity",
+    "extraction_target_correctness",
+    "formal_exact_source_grounding_validity",
+    "structured_output_reliability",
+    "provider_usage_and_cost"
+  ],
+  "external_evaluation_requirements": [
+    "calibration_units_are_complete_independent_review_questions",
+    "development_calibration_and_evaluation_questions_are_disjoint",
+    "development_calibration_and_evaluation_papers_are_disjoint",
+    "eligibility_positive_and_negative_examples_are_prespecified",
+    "evaluation_labels_are_held_by_an_external_evaluator_and_unavailable_locally",
+    "exact_source_spans_and_extraction_targets_are_expert_adjudicated",
+    "gepa_candidate_budget_and_handwritten_seed_are_frozen_before_evaluation",
+    "hidden_evaluation_is_scored_once_after_winner_and_threshold_freeze",
+    "provider_identity_generation_contract_and_price_table_are_frozen",
+    "seed_and_gepa_winner_receive_equal_paired_evaluation_call_budgets",
+    "structured_output_failures_grounding_failures_and_task_errors_are_separate",
+    "usage_and_cost_receipts_are_complete_for_every_attempt"
+  ],
+  "config_sha256": "57d7671d8a9b2d361c19285efe726a22297b9293f3b52b73e763dcab97fe0d67"
+}

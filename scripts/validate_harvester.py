@@ -14,6 +14,7 @@ from literature_multiverse.harvester import (
     DirectOpenAccessSource,
     EuropePmcFullTextSource,
     HarvesterValidationRunFailed,
+    HarvesterValidationSummary,
     OpenAlexSearchSource,
     PoliteHttpClient,
 )
@@ -23,6 +24,8 @@ from literature_multiverse.harvester.validation import (
     FIXED_QUERY_FAMILY,
     FIXED_REPLAY_PAGE_SIZE,
     FIXED_RESULT_LIMIT,
+    load_harvester_validation_summary,
+    reseal_pinned_public_harvester_validation_summary,
     run_harvester_validation_cycle,
 )
 from literature_multiverse.paths import PATHS
@@ -46,6 +49,20 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--timeout-seconds", type=float, default=20.0)
     parser.add_argument("--max-attempts", type=int, default=2)
     parser.add_argument("--min-interval-seconds", type=float, default=0.1)
+    action = parser.add_mutually_exclusive_group()
+    action.add_argument(
+        "--validate-existing",
+        action="store_true",
+        help="Strictly validate self-integrity and current source lineage without network access.",
+    )
+    action.add_argument(
+        "--reseal-pinned-existing",
+        action="store_true",
+        help=(
+            "Deterministically reseal only the exact pinned historical v1 public result, "
+            "then validate current source lineage without network access."
+        ),
+    )
     return parser
 
 
@@ -63,9 +80,36 @@ def _validate_destinations(cache_dir: Path, summary_path: Path) -> tuple[Path, P
     return cache, summary
 
 
+def _summary_console_payload(
+    summary: HarvesterValidationSummary, summary_path: Path
+) -> dict[str, object]:
+    counts = summary.counts
+    identity = summary.identity
+    reproducibility = summary.reproducibility
+    return {
+        "status": summary.status,
+        "validation_passed": summary.validation_passed,
+        "summary": summary_path.as_posix(),
+        "live_documents": counts.live_documents,
+        "documents_with_archived_full_text": counts.documents_with_archived_full_text,
+        "exact_identity_equivalence": (identity.exact_identity_equivalence if identity else False),
+        "retrieval_recall_evidence": summary.retrieval_recall_evidence,
+        "artifact_payload_sha256": summary.artifact_payload_sha256,
+        "source_bundle_sha256": reproducibility.source_bundle_sha256,
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     cache_dir, summary_path = _validate_destinations(args.cache_dir, args.summary)
+    if args.validate_existing or args.reseal_pinned_existing:
+        summary = (
+            reseal_pinned_public_harvester_validation_summary(summary_path)
+            if args.reseal_pinned_existing
+            else load_harvester_validation_summary(summary_path)
+        )
+        print(json.dumps(_summary_console_payload(summary, summary_path), sort_keys=True))
+        return 0 if summary.validation_passed else 2
     with PoliteHttpClient(
         timeout_seconds=args.timeout_seconds,
         max_attempts=args.max_attempts,
@@ -109,24 +153,7 @@ def main(argv: list[str] | None = None) -> int:
                 file=sys.stderr,
             )
             return 1
-    print(
-        json.dumps(
-            {
-                "status": summary.status,
-                "validation_passed": summary.validation_passed,
-                "summary": summary_path.as_posix(),
-                "live_documents": summary.counts.live_documents,
-                "documents_with_archived_full_text": (
-                    summary.counts.documents_with_archived_full_text
-                ),
-                "exact_identity_equivalence": (
-                    summary.identity.exact_identity_equivalence if summary.identity else False
-                ),
-                "retrieval_recall_evidence": summary.retrieval_recall_evidence,
-            },
-            sort_keys=True,
-        )
-    )
+    print(json.dumps(_summary_console_payload(summary, summary_path), sort_keys=True))
     return 0 if summary.validation_passed else 2
 
 

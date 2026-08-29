@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import re
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -11,7 +13,7 @@ from literature_multiverse.closed_corpus import (
     ClosedCorpusPrediction,
     evaluate_closed_corpus,
 )
-from literature_multiverse.lineage import atomic_write_json, sha256_file
+from literature_multiverse.lineage import atomic_write_json, hash_canonical, sha256_file
 from literature_multiverse.metasyn_benchmark import (
     load_metasyn_labels,
     load_metasyn_manifest,
@@ -27,6 +29,40 @@ from literature_multiverse.records import read_parquet_records
 
 class LocalCorpusAuditError(ValueError):
     """Local cache metadata or a frozen control cannot be reconciled."""
+
+
+LOCAL_CORPUS_AUDIT_VERSION = "3"
+_SOURCE_CODE_PATHS = (
+    "pyproject.toml",
+    "scripts/audit_local_corpora.py",
+    "src/literature_multiverse/__init__.py",
+    "src/literature_multiverse/calibration.py",
+    "src/literature_multiverse/closed_corpus.py",
+    "src/literature_multiverse/lineage.py",
+    "src/literature_multiverse/local_corpus_audit.py",
+    "src/literature_multiverse/metasyn_benchmark.py",
+    "src/literature_multiverse/metasyn_retrieval.py",
+    "src/literature_multiverse/models.py",
+    "src/literature_multiverse/paths.py",
+    "src/literature_multiverse/records.py",
+    "uv.lock",
+)
+_SHA256 = re.compile(r"[0-9a-f]{64}")
+
+
+def _source_code_hashes() -> dict[str, str]:
+    repository_root = Path(__file__).resolve().parents[2]
+    missing = [
+        relative
+        for relative in _SOURCE_CODE_PATHS
+        if not (repository_root / relative).is_file()
+    ]
+    if missing:
+        raise LocalCorpusAuditError(f"local_corpus_audit_source_missing:{missing}")
+    return {
+        relative: sha256_file(repository_root / relative)
+        for relative in _SOURCE_CODE_PATHS
+    }
 
 
 def _json_object(path: Path) -> dict[str, Any]:
@@ -91,33 +127,38 @@ def _verified_evidence_inference_evaluation(path: Path | None) -> dict[str, Any]
     if path is None or not path.exists():
         return {"available": False, "status": "absent"}
     summary = _json_object(path)
-    pilot = summary.get("successful_pilot")
+    observed_hash = summary.get("public_summary_sha256")
+    unhashed = {
+        key: value for key, value in summary.items() if key != "public_summary_sha256"
+    }
+    findings = summary.get("cache_integrity_findings")
     if (
-        summary.get("gepa_pilot_summary_version") != "1"
-        or summary.get("benchmark") != "Evidence Inference 2.0"
-        or not isinstance(pilot, dict)
-        or pilot.get("status") != "valid_frozen_heldout_evaluation"
+        summary.get("public_summary_version")
+        != "evidence-inference-diagnostic-public-summary-v1"
+        or summary.get("status") != "metadata_only_diagnostic_non_pristine"
+        or not isinstance(observed_hash, str)
+        or observed_hash != hash_canonical(unhashed)
+        or not isinstance(findings, list)
+        or len(findings) != 1
     ):
         raise LocalCorpusAuditError("evidence_inference_evaluation_contract_invalid")
-    try:
-        heldout = pilot["artifacts"]["heldout_test_report"]
-        heldout_path = Path(heldout["path"])
-        expected_hash = heldout["sha256"]
-    except (KeyError, TypeError) as exc:
-        raise LocalCorpusAuditError("evidence_inference_evaluation_contract_invalid") from exc
+    finding = findings[0]
     if (
-        heldout_path.is_absolute()
-        or not isinstance(expected_hash, str)
-        or len(expected_hash) != 64
-        or not heldout_path.is_file()
-        or sha256_file(heldout_path) != expected_hash
+        not isinstance(finding, dict)
+        or finding.get("status") != "fail_closed_trace_score_excluded"
+        or finding.get("archived_trace_score_citation_allowed") is not False
+        or finding.get("expected_dev_rows") != 12
+        or finding.get("clean_common_dev_receipts") != 10
+        or finding.get("missing_mutation_dev_receipts") != 2
     ):
-        raise LocalCorpusAuditError("evidence_inference_heldout_artifact_invalid")
+        raise LocalCorpusAuditError("evidence_inference_evaluation_contract_invalid")
     return {
         "available": True,
-        "status": "verified_frozen_heldout_evaluation",
+        "status": "verified_nonpristine_receipt_audit_trace_score_excluded",
         "summary_sha256": sha256_file(path),
-        "heldout_report_sha256": expected_hash,
+        "public_summary_payload_sha256": observed_hash,
+        "full_private_report_sha256": summary.get("full_report_sha256"),
+        "archived_trace_score_citation_allowed": False,
     }
 
 
@@ -448,7 +489,7 @@ def build_local_corpus_audit(
     )
     packet = _json_object(antiox_packet_manifest_path)
     if (
-        packet.get("human_review_packet_manifest_version") != "1"
+        packet.get("human_review_packet_manifest_version") not in {"1", "2"}
         or packet.get("sample_size") != 60
         or packet.get("manifest_contains_article_text") is not False
         or packet.get("review_packet_contains_article_text") is not True
@@ -457,13 +498,18 @@ def build_local_corpus_audit(
     ):
         raise LocalCorpusAuditError("antiox_human_packet_contract_invalid")
     verified_private_hashes = _verified_private_packet_hashes(antiox_packet_manifest_path, packet)
-    return {
-        "local_corpus_audit_version": "2",
+    payload = {
+        "local_corpus_audit_version": LOCAL_CORPUS_AUDIT_VERSION,
         "contains_article_text": False,
         "contains_question_text": False,
         "contains_titles": False,
         "contains_per_question_labels": False,
         "network_or_api_calls": 0,
+        "source_code_sha256s": _source_code_hashes(),
+        "hash_security_boundary": (
+            "unkeyed reproducibility and tamper-evidence hashes; not signatures, "
+            "authorship proof, freshness proof, or rollback protection"
+        ),
         "corpora": {
             "metasyn": metasyn,
             "evidence_inference_2": evidence_inference,
@@ -472,6 +518,7 @@ def build_local_corpus_audit(
         "cached_local_baseline": baseline,
         "human_review_packet": {
             "status": "prepared_not_adjudicated",
+            "packet_manifest_version": packet["human_review_packet_manifest_version"],
             "question_id": packet["question_id"],
             "sample_size": packet["sample_size"],
             "reviewers": packet["reviewers"],
@@ -525,21 +572,54 @@ def build_local_corpus_audit(
         "claim_boundary": (
             "The local cache supports a leakage audit, a revision-pinned MetaSyn corpus, "
             "a real lexical retrieval baseline, a 60-paper blinded review packet, "
-            "a verified cached Evidence Inference extraction pilot when present, and a "
+            "a receipt-audited non-pristine Evidence Inference diagnostic, and a "
             "trivial MetaSyn question-only control. MetaSyn Recall@k is identifiable only "
             "against its released matched-paper subset; the cache does not support an "
             "exhaustive-eligibility recall claim or closed-corpus end-to-end synthesis "
             "accuracy claim."
         ),
     }
+    return {**payload, "audit_payload_sha256": hash_canonical(payload)}
+
+
+def validate_local_corpus_audit(
+    report: dict[str, Any], *, require_current_sources: bool = False
+) -> dict[str, Any]:
+    """Validate the metadata-only scope, full payload hash, and source inventory."""
+
+    snapshot = deepcopy(report)
+    observed = snapshot.pop("audit_payload_sha256", None)
+    sources = snapshot.get("source_code_sha256s")
+    if (
+        snapshot.get("local_corpus_audit_version") != LOCAL_CORPUS_AUDIT_VERSION
+        or snapshot.get("contains_article_text") is not False
+        or snapshot.get("contains_question_text") is not False
+        or snapshot.get("contains_titles") is not False
+        or snapshot.get("contains_per_question_labels") is not False
+        or snapshot.get("network_or_api_calls") != 0
+        or not isinstance(observed, str)
+        or observed != hash_canonical(snapshot)
+        or not isinstance(sources, dict)
+        or set(sources) != set(_SOURCE_CODE_PATHS)
+        or any(
+            not isinstance(value, str) or _SHA256.fullmatch(value) is None
+            for value in sources.values()
+        )
+    ):
+        raise LocalCorpusAuditError("local_corpus_audit_integrity_invalid")
+    if require_current_sources and sources != _source_code_hashes():
+        raise LocalCorpusAuditError("local_corpus_audit_source_lineage_stale")
+    return report
 
 
 def write_local_corpus_audit(path: Path, report: dict[str, Any], *, force: bool = False) -> None:
-    atomic_write_json(path, report, force=force)
+    validated = validate_local_corpus_audit(report, require_current_sources=True)
+    atomic_write_json(path, validated, force=force)
 
 
 __all__ = [
     "LocalCorpusAuditError",
     "build_local_corpus_audit",
+    "validate_local_corpus_audit",
     "write_local_corpus_audit",
 ]

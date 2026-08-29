@@ -93,10 +93,12 @@ verification before evaluation.
 ## Frozen fixed-direction control
 
 The paper artifact includes a deliberately trivial constant-direction control. Its
-class was selected from the development labels before the official test split was
-opened: `Positive` is the most frequent labeled development class (68/157). This is
-the usual "majority-class baseline" convention, although 68/157 is technically a
-plurality rather than an absolute majority.
+class was selected from the development labels before this control's staged evaluator
+invocation opened the official-test labels: `Positive` is the most frequent labeled
+development class (68/157). This is the usual "majority-class baseline" convention,
+although 68/157 is technically a plurality rather than an absolute majority. The
+control is retrospective and non-pristine because those test labels had been opened
+historically elsewhere in the repository; staging does not restore holdout status.
 
 Prediction generation is label-blind and split-scoped. It calls only
 `load_metasyn_inputs` for the explicitly named split, uses `review_id` solely as an
@@ -112,8 +114,9 @@ uv run python scripts/metasyn_benchmark.py freeze-fixed-direction \
 ```
 
 The immutable freeze receipt records the manifest and named-input hashes, selected
-class, config and prediction hashes, and `labels_opened=false`. The private labels
-were opened only afterward, by a separate invocation of the existing evaluator:
+class, config and prediction hashes, and `labels_opened=false` for that prediction
+stage. This control's evaluator invocation opened the private labels only afterward,
+in a separate process:
 
 ```bash
 uv run python scripts/metasyn_benchmark.py evaluate \

@@ -17,8 +17,14 @@ from literature_multiverse.lineage import atomic_write_json, hash_canonical, sha
 _ROOT = Path(__file__).resolve().parents[1]
 _SOURCE_FILES = (
     "scripts/simulate_risk_calibration.py",
+    "src/literature_multiverse/__init__.py",
     "src/literature_multiverse/calibration_simulation.py",
     "src/literature_multiverse/calibration.py",
+    "src/literature_multiverse/lineage.py",
+    "src/literature_multiverse/models.py",
+    "src/literature_multiverse/paths.py",
+    "pyproject.toml",
+    "uv.lock",
 )
 
 
@@ -97,12 +103,13 @@ def main(argv: list[str] | None = None) -> int:
         for index in range(args.replicates)
     ]
     artifact = {
-        "simulation_study_version": "2",
+        "simulation_study_version": "3",
         "run_config": run_config,
         "run_config_sha256": hash_canonical(run_config),
         "summary": summarize_replicates(replicates, alpha=args.alpha),
         "replicates": replicates,
     }
+    artifact["artifact_payload_sha256"] = hash_canonical(artifact)
     atomic_write_json(args.output, artifact, force=args.force)
     print(
         json.dumps(

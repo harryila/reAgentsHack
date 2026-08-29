@@ -1,0 +1,260 @@
+{
+  "public_data_rights_policy_version": "1",
+  "policy_id": "literature-multiverse-public-data-rights-v1",
+  "monitored_path_prefixes": [
+    "artifacts/antiox-training",
+    "artifacts/benchmarks/local-suite-v1",
+    "artifacts/diagnostics/evidencebench-grounding-v1",
+    "artifacts/diagnostics/metasyn-synthesis-yield-v1",
+    "artifacts/paper/metasyn-benchmark",
+    "artifacts/paper/metasyn-fixed-positive-test",
+    "data"
+  ],
+  "deny_by_default_suffixes": [
+    ".csv",
+    ".jsonl",
+    ".parquet",
+    ".pdf",
+    ".stderr",
+    ".stdout",
+    ".tsv",
+    ".txt",
+    ".xml"
+  ],
+  "deny_by_default_path_tokens": [
+    "abstract",
+    "article_text",
+    "content_lines",
+    "evidence_quote",
+    "full_text",
+    "model_inputs",
+    "source_lines"
+  ],
+  "established_rights_forbidden_field_names": [
+    "abstract",
+    "article_text",
+    "body",
+    "content",
+    "evidence_quote",
+    "full_text",
+    "passage",
+    "quote",
+    "source_excerpt",
+    "source_text"
+  ],
+  "collections": [
+    {
+      "collection_id": "antiox_derived_public_artifacts",
+      "path_globs": [
+        "artifacts/antiox-training/**"
+      ],
+      "content_class": "derived_identifiers_metadata_and_source_quotes",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Legacy Antiox exports include publication metadata and findings with source-quote fields; upstream rights have not been audited item by item."
+    },
+    {
+      "collection_id": "antiox_extracted_records",
+      "path_globs": [
+        "data/extracted/**"
+      ],
+      "content_class": "derived_identifiers_metadata_and_source_quotes",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Extracted records may reproduce article metadata and source passages; no redistribution grant has been established."
+    },
+    {
+      "collection_id": "antiox_manual_patches",
+      "path_globs": [
+        "data/patches/**"
+      ],
+      "content_class": "manual_corpus_corrections_and_potential_source_text",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Legacy correction records have not been classified field by field for third-party text."
+    },
+    {
+      "collection_id": "antiox_processed_records",
+      "path_globs": [
+        "data/processed/**"
+      ],
+      "content_class": "derived_tables_identifiers_and_source_quotes",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Processed findings include evidence-quote fields and publication metadata whose upstream terms have not been audited."
+    },
+    {
+      "collection_id": "antiox_provider_payloads",
+      "path_globs": [
+        "data/raw/providers/**"
+      ],
+      "content_class": "provider_responses_and_potential_third_party_source_text",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Archived provider responses can contain derived or quoted source material; redistribution rights are not established."
+    },
+    {
+      "collection_id": "antiox_raw_map_payloads",
+      "path_globs": [
+        "data/raw/map/**"
+      ],
+      "content_class": "third_party_article_text_metadata_and_execution_receipts",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "This legacy tree contains PMC-derived numbered source lines and raw command outputs with article text; article-level terms have not been audited."
+    },
+    {
+      "collection_id": "antiox_raw_screening_records",
+      "path_globs": [
+        "data/raw/screen/**"
+      ],
+      "content_class": "third_party_publication_metadata_and_screening_records",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Publication metadata and screening outputs have not been classified against each upstream source's terms."
+    },
+    {
+      "collection_id": "antiox_raw_search_records",
+      "path_globs": [
+        "data/raw/search/**"
+      ],
+      "content_class": "third_party_publication_metadata_and_abstracts",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Legacy search records include third-party abstracts and metadata with source-specific terms."
+    },
+    {
+      "collection_id": "antiox_smoke_payloads",
+      "path_globs": [
+        "data/raw/smoke/**"
+      ],
+      "content_class": "provider_payloads_execution_logs_and_potential_source_text",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Live and smoke-test payloads have not been audited for quoted or vendor-controlled content."
+    },
+    {
+      "collection_id": "antiox_triage_payloads",
+      "path_globs": [
+        "data/raw/triage/**"
+      ],
+      "content_class": "third_party_metadata_provider_outputs_and_potential_source_text",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Triage artifacts include external metadata and model outputs whose redistribution basis is not established."
+    },
+    {
+      "collection_id": "evidencebench_grounding_aggregate_and_audit",
+      "path_globs": [
+        "artifacts/diagnostics/evidencebench-grounding-v1/audit-receipt.json",
+        "artifacts/diagnostics/evidencebench-grounding-v1/summary.json"
+      ],
+      "content_class": "project_authored_aggregate_metrics_hashes_and_replay_receipt",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "The two public files contain aggregate metrics, method identifiers, hashes, counts, caveats, and a replay receipt; no EvidenceBench question text, sentences, paper or question IDs, aspect IDs, rankings, labels, or row metrics are present. The pinned upstream test license is CC-BY, while upstream rows remain untracked.",
+      "allow_empty": true
+    },
+    {
+      "collection_id": "local_suite_aggregate_report",
+      "path_globs": [
+        "artifacts/benchmarks/local-suite-v1/benchmark-report.json"
+      ],
+      "content_class": "project_authored_aggregate_metrics_and_hashes",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "The aggregate report contains counts, metrics, and hashes rather than article or question payloads."
+    },
+    {
+      "collection_id": "local_suite_identifier_receipts",
+      "path_globs": [
+        "artifacts/benchmarks/local-suite-v1/freeze_receipt.json",
+        "artifacts/benchmarks/local-suite-v1/predictions.jsonl"
+      ],
+      "content_class": "identifier_bearing_predictions_and_execution_receipts",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Legacy tracked copies contain review or corpus identifiers and are declared non-public pending a rights and privacy decision.",
+      "allow_empty": true
+    },
+    {
+      "collection_id": "metasyn_benchmark_license",
+      "path_globs": [
+        "artifacts/paper/metasyn-benchmark/METASYN_LICENSE.txt"
+      ],
+      "content_class": "upstream_license_notice",
+      "rights_status": "redistribution_established",
+      "public_release_allowed": true,
+      "rationale": "This is the bundled upstream license notice itself.",
+      "license_evidence": [
+        {
+          "path": "artifacts/paper/metasyn-benchmark/METASYN_LICENSE.txt",
+          "sha256": "1845ad62b6889b83c829a0d058db426a183bf1831c5e8a48606a0df531f04bb8"
+        }
+      ]
+    },
+    {
+      "collection_id": "metasyn_benchmark_manifest",
+      "path_globs": [
+        "artifacts/paper/metasyn-benchmark/manifest.json"
+      ],
+      "content_class": "project_authored_split_and_hash_manifest",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "The manifest contains project-authored split declarations, relative paths, and hashes."
+    },
+    {
+      "collection_id": "metasyn_benchmark_model_inputs",
+      "path_globs": [
+        "artifacts/paper/metasyn-benchmark/model_inputs/**"
+      ],
+      "content_class": "licensed_metasyn_question_annotations",
+      "rights_status": "redistribution_established",
+      "public_release_allowed": true,
+      "rationale": "These PI/ECO and research-question fields are MetaSyn project-authored annotations covered by the bundled annotation license; article payloads are excluded.",
+      "license_evidence": [
+        {
+          "path": "artifacts/paper/metasyn-benchmark/METASYN_LICENSE.txt",
+          "sha256": "1845ad62b6889b83c829a0d058db426a183bf1831c5e8a48606a0df531f04bb8"
+        }
+      ]
+    },
+    {
+      "collection_id": "metasyn_fixed_positive_bundle",
+      "path_globs": [
+        "artifacts/paper/metasyn-fixed-positive-test/**"
+      ],
+      "content_class": "licensed_metasyn_annotations_and_project_authored_predictions",
+      "rights_status": "redistribution_established",
+      "public_release_allowed": true,
+      "rationale": "The bundle contains MetaSyn annotation-derived labels and project-authored constant predictions under the bundled annotation license; it contains no article text.",
+      "license_evidence": [
+        {
+          "path": "artifacts/paper/metasyn-benchmark/METASYN_LICENSE.txt",
+          "sha256": "1845ad62b6889b83c829a0d058db426a183bf1831c5e8a48606a0df531f04bb8"
+        }
+      ]
+    },
+    {
+      "collection_id": "metasyn_synthesis_yield_aggregate",
+      "path_globs": [
+        "artifacts/diagnostics/metasyn-synthesis-yield-v1/summary.json"
+      ],
+      "content_class": "project_authored_aggregate_yield_counts_hashes_and_caveats",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "The exact aggregate summary contains only project-authored yield counts, hashes, statuses, and caveats; it contains no source text or question, publication, study, cohort, or estimate identifiers. This declaration makes no claim about rights in the private source corpus. The collection is mandatory and must contain its single declared JSON artifact in the Git index."
+    },
+    {
+      "collection_id": "synthetic_test_fixtures",
+      "path_globs": [
+        "tests/fixtures/evidence_inference_v2/**",
+        "tests/fixtures/harvester/**"
+      ],
+      "content_class": "project_authored_synthetic_test_payloads",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "These are small repository-authored fixtures with fictional identifiers used only for deterministic unit tests."
+    }
+  ]
+}

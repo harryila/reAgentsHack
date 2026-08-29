@@ -13,30 +13,83 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Set up uv 9.0.0
+      - name: Set up uv 0.7.20
         uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9
         with:
           enable-cache: true
+          version: "0.7.20"
 
-      - name: Install frozen development environment
-        run: uv sync --frozen --group dev
+      - name: Install frozen development and GEPA environment
+        run: uv sync --frozen --group dev --extra gepa
 
       - name: Lint
         run: uv run ruff check .
+
+      - name: Smoke supported public CLI contracts
+        run: |
+          uv run lm --help
+          uv run lm fingerprint --help
+          uv run lm verify --help
+          uv run lm condition-collect --help
+          uv run lm condition-finalize-calibration --help
+          uv run lm audit-select --help
+          uv run lm audit-checkpoint --help
+          uv run lm audit-resolve --help
+          uv run python scripts/build_condition_calibration_trajectory.py --help
+          uv run python scripts/calibrate_risk_gate.py --help
+          uv run python scripts/calibrate_item_risk.py --help
+          uv run python scripts/calibrate_adaptive_release.py --help
+          uv run python scripts/build_native_source_manifest.py --help
+          uv run python scripts/s3_extract_typed.py --help
+          uv run python scripts/build_typed_evidence_corpus.py --help
+          uv run python scripts/evaluate_question_benchmark.py --help
+          uv run python scripts/evaluate_human_review.py --help
+          uv run python scripts/evaluate_evidence_inference_diagnostic.py --help
+          uv run python scripts/evaluate_evidence_inference_ollama.py --help
+          uv run python scripts/run_native_ollama_diagnostic.py --help
+          uv run python scripts/run_native_bounded_ollama_diagnostic.py --help
+          uv run python scripts/run_metasyn_retrieval_study.py --help
+          uv run python scripts/run_metasyn_screening_study.py --help
+          uv run python scripts/run_ollama_gepa_study.py --help
+          uv run python scripts/run_adaptive_stress_study.py --help
+          uv run python scripts/run_local_benchmarks.py --contract-only
+          uv run python scripts/validate_public_artifacts.py --help
+          uv run python scripts/audit_public_data_rights.py --help
+
+      - name: Validate registered public scientific artifacts
+        run: uv run python scripts/validate_public_artifacts.py
+
+      - name: Audit tracked research-data rights policy coverage
+        run: uv run python scripts/audit_public_data_rights.py
 
       - name: Run offline tests
         run: uv run pytest -q -m "not live"
 
       - name: Check whitespace errors
-        run: git diff --check
+        run: git show --check --format= HEAD
 
-      - name: Reject tracked private manuscript and submission files
+      - name: Enforce aggregate-only public benchmark artifacts
+        shell: bash
+        run: |
+          unexpected="$(
+            git ls-files artifacts/benchmarks/local-suite-v1 |
+              grep -Ev '^artifacts/benchmarks/local-suite-v1/benchmark-report\.json$' || true
+          )"
+          if [[ -n "$unexpected" ]]; then
+            echo "Identifier-bearing or staged local-suite artifacts must remain private:"
+            echo "$unexpected"
+            exit 1
+          fi
+
+      - name: Reject reachable private manuscript and submission files
         shell: bash
         run: |
           forbidden_tracked="$({
@@ -48,5 +101,15 @@ jobs:
           if [[ -n "$forbidden_tracked" ]]; then
             echo "Private manuscript/template/submission files must remain untracked:"
             echo "$forbidden_tracked"
+            exit 1
+          fi
+          forbidden_history="$(
+            git rev-list --objects --all |
+              sed -E 's/^[0-9a-f]+ //' |
+              grep -E '^(paper/|Formatting_Instructions_For_NeurIPS_2026 \(2\)/|artifacts/submission/)' || true
+          )"
+          if [[ -n "$forbidden_history" ]]; then
+            echo "Private manuscript/template/submission files must not appear in reachable history:"
+            echo "$forbidden_history"
             exit 1
           fi

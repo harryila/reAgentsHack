@@ -179,7 +179,7 @@ def test_evaluator_flags_missing_nr_abstention_and_retrieval_states(
     assert "not an error label for scientific truth" in evaluation["loss_interpretation"]
 
 
-def test_real_predictions_emit_only_observed_benchmark_risk_rows(tmp_path: Path) -> None:
+def test_real_predictions_emit_every_eligible_benchmark_risk_row(tmp_path: Path) -> None:
     manifest_path, _ = _prepared(tmp_path)
     labels = load_metasyn_labels(manifest_path)
     predictions = [
@@ -216,6 +216,54 @@ def test_real_predictions_emit_only_observed_benchmark_risk_rows(tmp_path: Path)
     first = next(row for row in examples if row.question_id.endswith(f"{modified_review_id:06d}"))
     assert first.paper_ids == ["metasyn-corpus:987654"]
     validate_split_integrity(examples)
+
+
+def test_missing_outputs_are_explicit_forced_abstentions_in_complete_denominator(
+    tmp_path: Path,
+) -> None:
+    manifest_path, _ = _prepared(tmp_path)
+    labels = load_metasyn_labels(manifest_path)
+    eligible = [label for label in labels if label.gold_direction != "NR"]
+    answered = eligible[0]
+    predictions = [
+        MetaSynPrediction(
+            review_id=answered.review_id,
+            predicted_direction=answered.gold_direction,
+            retrieved_corpus_ids=answered.gold_matched_corpus_ids,
+            risk_features={"instability": 0.2},
+        ),
+        MetaSynPrediction(
+            review_id=eligible[1].review_id,
+            predicted_direction="NR",
+            retrieved_corpus_ids=[],
+            risk_features=None,
+        ),
+    ]
+
+    examples = build_metasyn_risk_examples(
+        manifest_path=manifest_path,
+        predictions=predictions,
+        pipeline_sha256="a" * 64,
+    )
+
+    assert len(examples) == len(eligible)
+    assert len({tuple(row.features) for row in examples}) == 1
+    answered_row = next(row for row in examples if row.question_id == answered.question_id)
+    assert answered_row.features["metasyn_status__forced_abstention"] == 0.0
+    forced = [
+        row
+        for row in examples
+        if row.features["metasyn_status__forced_abstention"] == 1.0
+    ]
+    assert len(forced) == len(eligible) - 1
+    assert all(row.unsupported_claim for row in forced)
+    assert all(row.paper_ids[0].startswith("metasyn-empty-corpus:") for row in forced)
+    predicted_nr = next(
+        row for row in forced if row.question_id == eligible[1].question_id
+    )
+    assert predicted_nr.features["metasyn_status__direction_nr"] == 1.0
+    assert predicted_nr.features["metasyn_status__retrieval_empty"] == 1.0
+    assert predicted_nr.features["metasyn_status__risk_features_missing"] == 1.0
 
 
 def test_risk_rows_reject_actual_retrieval_crossover(tmp_path: Path) -> None:
@@ -402,6 +450,17 @@ def test_cli_evaluates_and_emits_observed_risk_example(tmp_path: Path) -> None:
     evaluation = json.loads(evaluation_path.read_text(encoding="utf-8"))
     assert evaluation["evaluated_split"] == "test"
     assert evaluation["direction"]["eligible_gold"] == len(test_labels)
-    risk = json.loads(risks_path.read_text(encoding="utf-8"))
+    risks = [
+        json.loads(line)
+        for line in risks_path.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    all_labels = load_metasyn_labels(manifest_path)
+    assert len(risks) == sum(row.gold_direction != "NR" for row in all_labels)
+    risk = next(row for row in risks if row["question_id"] == label.question_id)
     assert risk["label_source"] == "benchmark_annotation"
     assert risk["domain"] == "metasyn_systematic_reviews"
+    assert risk["features"]["metasyn_status__forced_abstention"] == 0.0
+    assert sum(
+        row["features"]["metasyn_status__forced_abstention"] for row in risks
+    ) == len(risks) - 1

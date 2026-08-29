@@ -11,16 +11,68 @@ from literature_multiverse.lineage import hash_canonical, sha256_file
 
 _ROOT = Path(__file__).resolve().parents[1]
 
+_REQUIRED_LINEAGE_BY_ARTIFACT = {
+    "artifacts/paper/budgeted-verification-simulation-200.json": {
+        "scripts/simulate_budgeted_verification.py",
+        "src/literature_multiverse/__init__.py",
+        "src/literature_multiverse/budgeted_verification_simulation.py",
+        "src/literature_multiverse/budgeted_verification.py",
+        "src/literature_multiverse/lineage.py",
+        "src/literature_multiverse/models.py",
+        "src/literature_multiverse/paths.py",
+        "pyproject.toml",
+        "uv.lock",
+    },
+    "artifacts/paper/calibration-simulation-100.json": {
+        "scripts/simulate_risk_calibration.py",
+        "src/literature_multiverse/__init__.py",
+        "src/literature_multiverse/calibration_simulation.py",
+        "src/literature_multiverse/calibration.py",
+        "src/literature_multiverse/lineage.py",
+        "src/literature_multiverse/models.py",
+        "src/literature_multiverse/paths.py",
+        "pyproject.toml",
+        "uv.lock",
+    },
+    "artifacts/paper/meta-simulation-200.json": {
+        "scripts/simulate_meta_analysis.py",
+        "src/literature_multiverse/__init__.py",
+        "src/literature_multiverse/meta_simulation.py",
+        "src/literature_multiverse/meta_analysis.py",
+        "src/literature_multiverse/budgeted_verification.py",
+        "src/literature_multiverse/claim_semantics.py",
+        "src/literature_multiverse/effects.py",
+        "src/literature_multiverse/evidence_graph.py",
+        "src/literature_multiverse/lineage.py",
+        "src/literature_multiverse/models.py",
+        "src/literature_multiverse/paths.py",
+        "pyproject.toml",
+        "uv.lock",
+    },
+}
 
-def _load_json(relative: str) -> dict[str, Any]:
-    value = json.loads((_ROOT / relative).read_text(encoding="utf-8"))
+
+def _validate_json_artifact(relative: str, value: dict[str, Any]) -> None:
     if not isinstance(value, dict):
         raise ValueError(f"paper_result_artifact_root_not_object:{relative}")
     if value.get("run_config_sha256") != hash_canonical(value.get("run_config")):
         raise ValueError(f"paper_result_run_config_hash_mismatch:{relative}")
-    for source, expected in value["run_config"]["source_files_sha256"].items():
+    payload = {
+        key: item for key, item in value.items() if key != "artifact_payload_sha256"
+    }
+    if value.get("artifact_payload_sha256") != hash_canonical(payload):
+        raise ValueError(f"paper_result_payload_hash_mismatch:{relative}")
+    source_hashes = value["run_config"]["source_files_sha256"]
+    if set(source_hashes) != _REQUIRED_LINEAGE_BY_ARTIFACT[relative]:
+        raise ValueError(f"paper_result_source_lineage_incomplete:{relative}")
+    for source, expected in source_hashes.items():
         if sha256_file(_ROOT / source) != expected:
             raise ValueError(f"paper_result_source_hash_mismatch:{relative}:{source}")
+
+
+def _load_json(relative: str) -> dict[str, Any]:
+    value = json.loads((_ROOT / relative).read_text(encoding="utf-8"))
+    _validate_json_artifact(relative, value)
     return value
 
 

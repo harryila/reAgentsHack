@@ -111,18 +111,20 @@ random-effects or explicit sign-only fallback path only if all of these conditio
 - selected timepoints are explicit and compatible (unless the caller deliberately relaxes the
   missing-timepoint check); and
 - selected contrast nodes agree on both their contrast label and the plain-language meaning of a
-  positive estimate; and
-- the selected cohort-to-publication mapping is one-to-one.
+  positive estimate.
 
-The last requirement is conservative. The current estimator clusters by publication, so the
-bridge refuses a cohort reported in several publications or a publication reporting several
-cohorts. It returns a stable `status="insufficient"` reason instead of silently applying the wrong
-dependence model.
+The current estimator uses the explicit cohort as its analysis unit. Compatible reports from one
+cohort are reduced to one equally weighted cohort contribution with a prespecified common
+within-cohort correlation (conservatively `rho=1` by default). A cohort reported in several
+publications is therefore counted once, while distinct explicit cohorts reported by one
+publication remain distinct. The output records warnings for both mappings. This is a conservative
+cohort reduction, not a fitted multilevel covariance model; unresolved cohort identity still
+returns a stable `status="insufficient"` reason.
 
 ## Prospective risk features
 
-`graph_risk_features()` emits deterministic, label-free diagnostics for a future claim-release
-model:
+`graph_risk_features()` emits deterministic, label-free diagnostics for the claim-release
+calibration and audit-policy boundaries:
 
 - number of estimates, publications, and cohorts;
 - fraction of non-estimable effects;
@@ -137,17 +139,25 @@ construction. `EvidenceGraphRiskFeatures.as_calibration_features()` returns the 
 numeric mapping expected by the prospective `ReleaseCandidate.features` boundary; the version tag
 remains separate from the learned feature vector.
 
-## Exact unresolved live-pipeline gaps
+## Current empirical and production boundaries
 
-1. Production s3 still emits `FindingRow`; it does not extract typed estimates, arm-level sample
-   sizes, uncertainty, equivalence analyses, or structured risk of bias.
-2. No production resolver creates study/cohort identities across publications. The adapter requires
-   caller-supplied identity evidence and blocks placeholders.
-3. The numerical engine is publication-clustered. Multi-report cohorts and multi-cohort papers need
-   a cohort-aware hierarchical dependence model; the current graph bridge refuses them.
-4. There is no frozen real-review graph artifact or end-to-end closed-corpus run yet.
+1. The legacy `s3_extract.py` path still emits `FindingRow` and remains analysis-only. The separate
+   native extractor can emit typed publication/study/cohort/arm/contrast/effect records and a
+   version-four source-grounded package, but this executable join is not evidence that its extracted
+   values are scientifically accurate.
+2. Cross-publication reconciliation is now an explicit hash-bound stage. Exact normalized registry
+   or dataset identifiers can reconcile unambiguous candidates; missing, conflicting, or free-text
+   identity evidence remains reviewer work and blocks release.
+3. Multi-report cohorts and multi-cohort publications now pass through the conservative cohort-unit
+   reduction above. The implementation does not estimate a full multilevel covariance structure;
+   its equal-report aggregation and prespecified common correlation remain modeling assumptions.
+4. The checked-in 19-publication native Antiox run is an abstaining engineering diagnostic: it
+   produced no numerical effects and has no independent extraction gold labels. It cannot support
+   extraction-accuracy, retrieval-recall, calibrated-release, or end-to-end effectiveness claims.
 5. Risk-of-bias judgements and graph fields have contract tests, not human inter-rater validation.
-6. The graph risk features have not been fitted or calibrated against real claim-level errors.
+6. Graph features and item-cell calibration do not by themselves establish claim-level risk. A
+   complete-question calibration over the exact deployed adaptive and terminal-gate policy remains
+   required.
 
 Those are scientific integration tasks, not schema-validation failures. The current contract makes
 them explicit and prevents the legacy path from manufacturing quantitative evidence while they are

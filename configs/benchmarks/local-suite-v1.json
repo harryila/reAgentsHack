@@ -8,6 +8,32 @@
       "corpus_manifest": "configs/benchmarks/metasyn-corpus-c8fa07d.json",
       "benchmark_manifest": "artifacts/paper/metasyn-benchmark/manifest.json",
       "review_cache_dir": "data/cache/metasyn",
+      "retrieval_study": {
+        "protocol_version": "1",
+        "candidate_ids": [
+          "bm25-fixed-v1",
+          "rrf-tfidf-bm25-fixed-v1",
+          "tfidf-fixed-v1"
+        ],
+        "selection_split": "development",
+        "single_evaluation_split": "calibration",
+        "official_test_evaluated": false,
+        "primary_metric": "question_weighted_macro_matched_subset_recall_at_200"
+      },
+      "screening_study": {
+        "protocol_version": "1",
+        "candidate_ids": [
+          "logistic-l2-balanced-v1",
+          "monotonic-hist-gradient-balanced-v1",
+          "rrf-passthrough-v1"
+        ],
+        "selection_split": "development",
+        "single_evaluation_split": "calibration",
+        "retrieval_source_candidate_id": "rrf-tfidf-bm25-fixed-v1",
+        "retrieval_candidate_depth": 200,
+        "official_test_evaluated": false,
+        "primary_metric": "unweighted_mean_question_macro_absolute_recall_at_10_20_50_100"
+      },
       "access_state": {
         "development": {
           "labels_previously_opened": true,
@@ -61,6 +87,11 @@
     }
   },
   "pinned_files": [
+    {
+      "path": "configs/benchmarks/metasyn-corpus-c8fa07d.json",
+      "sha256": "5bc75c16ca7e67c48d5e165284ca19946bc2e6451b48885d6946595bb50cbcae",
+      "required_for": "metasyn_retrieval_and_screening"
+    },
     {
       "path": "artifacts/paper/metasyn-benchmark/manifest.json",
       "sha256": "8ba3eec664c161fe5fd30d79bb87db3f30b4721bf245effe9bd28426d3fbda2d",

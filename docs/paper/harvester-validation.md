@@ -40,8 +40,21 @@ The archived open PDF is 2,215,244 bytes with SHA-256
 All four archive receipts verified. One provider-declared direct-OA location failed;
 that warning was retained, and a subsequent declared OA location returned the PDF.
 
-The summary SHA-256 is
-`5d127f1979b71acbd8f400d7892609792dc17f65615d0e33a99d7b1c5f6e6381`.
+The hardened summary file SHA-256 is
+`7f669fa674c0f7656c6c66230b9d041a35dee59237f8472ddd356edd0c3c8d60`;
+its canonical payload hash is
+`44a3c4b04243ca47ff463b31ee47927f0a9900e1e7cc65c6003523b826487397`,
+and its current source/runtime bundle hash is
+`b663b0ea80c9cfd1c11d1ad59f90e94d6227ba65232e69e72eee972b2824bacd`.
+This is a deterministic v2 reseal of the exact pinned 2026-08-26 live payload, not a
+new OpenAlex contact. Validate its full self-hash and current source lineage offline:
+
+```bash
+uv run python scripts/validate_harvester.py \
+  --summary artifacts/paper/harvester/validation_summary.json \
+  --validate-existing
+```
+
 The ignored frozen corpus SHA-256 is
 `d862ebf91d941bc4d91efab2dbea7b72ca1b1f9eb388e711fa903bd635e64697`.
 The corpus and raw archive are local reproducibility inputs, not redistributable paper

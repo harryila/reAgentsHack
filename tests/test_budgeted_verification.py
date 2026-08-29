@@ -322,7 +322,7 @@ def test_release_guard_all_resolved_is_only_eligible_for_downstream_gates() -> N
     assert decision.unresolved_item_ids == ()
 
 
-def test_union_bound_can_authorize_partial_audit_without_independence() -> None:
+def test_legacy_manual_upper_bound_cannot_cross_guard() -> None:
     candidate = AuditCandidate(
         item_id="low-bounded-risk",
         baseline_contribution=0.0,
@@ -349,23 +349,51 @@ def test_union_bound_can_authorize_partial_audit_without_independence() -> None:
         config=ReleaseGuardConfig(block_counterfactual_conclusion_flips=False),
     )
 
-    assert decision.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES
+    assert decision.status is ReleaseGuardStatus.BLOCKED
     assert decision.unresolved_conclusion_flip_item_ids == ("low-bounded-risk",)
-    assert decision.residual_decision_risk_upper_bound == pytest.approx(0.01)
-    assert "union_bound_requires_no_item_error_independence" in (
-        decision.residual_risk_bound_assumptions
+    assert decision.unresolved_item_cell_ucl_sum is None
+    assert decision.unresolved_without_cell_rate_ucl_item_ids == ("low-bounded-risk",)
+    assert "unresolved_items_missing_calibrated_cell_rate_ucl" in decision.reasons
+    assert "unresolved_error_probabilities_not_calibrated" in decision.reasons
+
+    permissive_diagnostic_config = ReleaseGuardConfig(
+        block_counterfactual_conclusion_flips=False,
+        require_calibrated_item_scores=False,
+        require_item_cell_rate_ucls=False,
+    )
+    permissive_decision = assess_prospective_release_guard(
+        [candidate],
+        ClaimModel(intercept=0.0, decision_threshold=0.95),
+        resolved_item_ids=[],
+        config=permissive_diagnostic_config,
+    )
+    assert permissive_decision.status is ReleaseGuardStatus.BLOCKED
+    assert permissive_decision.unresolved_item_cell_ucl_sum is None
+    assert (
+        "unresolved_legacy_calibrated_upper_bound_not_accepted"
+        in permissive_decision.reasons
     )
 
 
-def test_sequential_scheduler_refreshes_priorities_and_stops_on_residual_bound() -> None:
+def test_release_guard_rejects_ambiguous_legacy_risk_aliases() -> None:
+    with pytest.raises(TypeError, match="max_residual_decision_risk"):
+        ReleaseGuardConfig(max_residual_decision_risk=0.05)  # type: ignore[call-arg]
+
+    with pytest.raises(TypeError, match="require_calibrated_error_probabilities"):
+        ReleaseGuardConfig(  # type: ignore[call-arg]
+            require_calibrated_error_probabilities=True
+        )
+
+
+def test_sequential_scheduler_refreshes_priorities_and_stops_when_guard_eligible() -> None:
     def candidate(item_id: str, counterfactual_score: float, risk: float) -> AuditCandidate:
         return AuditCandidate(
             item_id=item_id,
             baseline_contribution=0.0,
             counterfactual_contribution=0.0,
             error_probability=risk,
-            probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
-            probability_source="test-upper-bound",
+            probability_basis=ProbabilityBasis.CALIBRATED_CELL_RATE_UCL,
+            probability_source="test-group-average-cell-rate-ucl",
             verification_cost=1.0,
             cost_unit="minutes",
             disagreement_score=0.0,
@@ -403,5 +431,40 @@ def test_sequential_scheduler_refreshes_priorities_and_stops_on_residual_bound()
     assert calls == ["a"]
     assert run.resolved_item_ids == ("a",)
     assert run.spent == pytest.approx(1.0)
-    assert run.stop_reason == "residual_risk_guard_satisfied"
-    assert run.final_guard.residual_decision_risk_upper_bound == pytest.approx(0.01)
+    assert run.stop_reason == "audit_guard_eligible_for_downstream_gates"
+    assert run.final_guard.unresolved_item_cell_ucl_sum == pytest.approx(0.01)
+
+
+def test_small_cell_rate_ucl_never_supersedes_counterfactual_flip_gate() -> None:
+    candidate = AuditCandidate(
+        item_id="small-cell-ucl-high-influence",
+        baseline_contribution=0.0,
+        counterfactual_contribution=0.0,
+        error_probability=0.001,
+        probability_basis=ProbabilityBasis.CALIBRATED_CELL_RATE_UCL,
+        probability_source="artifact-backed-group-average-cell-rate-ucl",
+        verification_cost=5.0,
+        cost_unit="minutes",
+        disagreement_score=0.0,
+        scenario_kind=ScenarioKind.LEAVE_ONE_OUT,
+        scenario_source="actual-synthesis-rerun",
+        baseline_decision_score=0.99,
+        counterfactual_decision_score=0.1,
+        decision_score_source="frequentist-directional-evidence-score",
+        baseline_decision=True,
+        counterfactual_decision=False,
+    )
+
+    decision = assess_prospective_release_guard(
+        [candidate],
+        ClaimModel(intercept=0.0, decision_threshold=0.95),
+        resolved_item_ids=[],
+    )
+
+    assert decision.unresolved_item_cell_ucl_sum == pytest.approx(0.001)
+    assert "unresolved_counterfactual_can_flip_conclusion" in decision.reasons
+    assert "unresolved_item_influence_exceeds_limit" in decision.reasons
+    assert decision.status is ReleaseGuardStatus.BLOCKED
+    assert "ucl_sum_is_an_audit_triage_burden_not_a_union_or_claim_decision_risk_bound" in (
+        decision.item_ucl_interpretation_limits
+    )

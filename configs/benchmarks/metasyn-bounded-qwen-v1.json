@@ -1,0 +1,48 @@
+{
+  "config_version": "metasyn-bounded-local-ollama-config-v1",
+  "diagnostic_scope": "label_blind_calibration_oracle_corpus_yield_only",
+  "expected_model_identity": {
+    "client_version": "strict-localhost-ollama-client-v1",
+    "identity_version": "ollama-local-runtime-identity-v1",
+    "model": "qwen2.5:3b-instruct",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "model_family": "qwen2",
+    "model_format": "gguf",
+    "ollama_version": "0.15.1",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M"
+  },
+  "inventory_generation_config": {
+    "config_version": "ollama-deterministic-json-generation-v1",
+    "expected_ollama_version": "0.15.1",
+    "keep_alive": "30m",
+    "model": "qwen2.5:3b-instruct",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "seed": 20260827,
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0
+  },
+  "packet_generation_config": {
+    "config_version": "ollama-deterministic-json-generation-v1",
+    "expected_ollama_version": "0.15.1",
+    "keep_alive": "30m",
+    "model": "qwen2.5:3b-instruct",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 20260827,
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0
+  },
+  "model_calls_per_request": 1,
+  "publication_count": 32,
+  "question_count": 10,
+  "reference_fields_opened": false,
+  "retries_per_request": 0,
+  "runtime_provider": "local_ollama",
+  "config_sha256": "5a59d6a9842db5ec9723e0c1c4a0d55ec52905fee9e302996dcc473aefa13af7"
+}

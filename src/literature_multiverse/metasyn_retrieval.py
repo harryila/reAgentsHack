@@ -35,7 +35,7 @@ from literature_multiverse.metasyn_benchmark import (
     MetaSynPrediction,
     MetaSynQuestionInput,
     load_metasyn_inputs,
-    load_metasyn_manifest,
+    load_metasyn_manifest_metadata,
 )
 
 _SHA256 = re.compile(r"^[0-9a-f]{64}$")
@@ -345,6 +345,84 @@ def _stable_top_k(
     return [int(value) for value in corpus_ids[selected[order]]]
 
 
+def tfidf_config(*, top_k: int) -> dict[str, Any]:
+    """Return the complete fixed TF-IDF configuration used by the baseline."""
+
+    return {
+        "algorithm": "sklearn_tfidf_title_abstract_v1",
+        "document_join": "title + one ASCII space + abstract",
+        "dtype": "float32",
+        "fit_population": "corpus_documents_only",
+        "lowercase": True,
+        "max_features": 200_000,
+        "min_df": 2,
+        "ngram_range": [1, 2],
+        "norm": "l2",
+        "query_field_order": list(_QUERY_FIELDS),
+        "query_join": "one ASCII space with null mapped to empty string",
+        "stable_tie_break": "descending_score_then_ascending_corpus_id",
+        "stop_words": "sklearn_english",
+        "sublinear_tf": True,
+        "top_k": top_k,
+    }
+
+
+def tfidf_rank(
+    *,
+    questions: Sequence[MetaSynQuestionInput],
+    shard_paths: Sequence[Path],
+    exclusions: Mapping[int, set[int]],
+    top_k: int = 200,
+) -> tuple[dict[int, list[int]], dict[str, Any]]:
+    """Rank corpus IDs with a fixed corpus-only-fit sparse TF-IDF model."""
+
+    if top_k < 1:
+        raise ValueError("retrieval_top_k_must_be_positive")
+    if not questions:
+        raise MetaSynCorpusError("retrieval_questions_empty")
+    question_ids = [question.review_id for question in questions]
+    if len(question_ids) != len(set(question_ids)):
+        raise MetaSynCorpusError("retrieval_question_ids_not_unique")
+    if set(exclusions) != set(question_ids):
+        raise MetaSynCorpusError("retrieval_exclusion_ids_do_not_match_questions")
+
+    corpus_ids, documents = _load_tfidf_documents(shard_paths)
+    query_texts = [_question_text(question) for question in questions]
+    vectorizer = TfidfVectorizer(
+        lowercase=True,
+        stop_words="english",
+        ngram_range=(1, 2),
+        min_df=2,
+        max_features=200_000,
+        sublinear_tf=True,
+        norm="l2",
+        dtype=np.float32,
+    )
+    document_matrix = vectorizer.fit_transform(documents)
+    query_matrix = vectorizer.transform(query_texts)
+    rankings: dict[int, list[int]] = {}
+    for index, question in enumerate(questions):
+        scores = (query_matrix[index] @ document_matrix.T).toarray().ravel()
+        rankings[question.review_id] = _stable_top_k(
+            scores,
+            corpus_ids=corpus_ids,
+            excluded_ids=exclusions[question.review_id],
+            top_k=top_k,
+        )
+
+    vocabulary = {term: int(index) for term, index in sorted(vectorizer.vocabulary_.items())}
+    diagnostics = {
+        "documents": len(corpus_ids),
+        "document_fields": ["title", "abstract"],
+        "vocabulary_terms": len(vocabulary),
+        "vocabulary_sha256": hash_canonical(vocabulary),
+        "idf_float64_bytes_sha256": sha256_bytes(
+            np.asarray(vectorizer.idf_, dtype=np.float64).tobytes(order="C")
+        ),
+    }
+    return rankings, diagnostics
+
+
 def freeze_tfidf_retrieval_baseline(
     *,
     benchmark_manifest_path: Path,
@@ -373,7 +451,7 @@ def freeze_tfidf_retrieval_baseline(
     development = load_metasyn_inputs(benchmark_manifest_path, split="development")
     calibration = load_metasyn_inputs(benchmark_manifest_path, split="calibration")
     questions = [*development, *calibration]
-    benchmark = load_metasyn_manifest(benchmark_manifest_path)
+    benchmark = load_metasyn_manifest_metadata(benchmark_manifest_path)
     corpus, shard_paths = verify_corpus_manifest(
         corpus_manifest_path, repository_root=repository_root
     )
@@ -383,33 +461,12 @@ def freeze_tfidf_retrieval_baseline(
         review_cache_dir=review_cache_dir,
         expected_review_ids={question.review_id for question in questions},
     )
-    corpus_ids, documents = _load_tfidf_documents(shard_paths)
-    query_texts = [_question_text(question) for question in questions]
-
-    vectorizer = TfidfVectorizer(
-        lowercase=True,
-        stop_words="english",
-        ngram_range=(1, 2),
-        min_df=2,
-        max_features=200_000,
-        sublinear_tf=True,
-        norm="l2",
-        dtype=np.float32,
+    rankings, diagnostics = tfidf_rank(
+        questions=questions,
+        shard_paths=shard_paths,
+        exclusions=exclusions,
+        top_k=top_k,
     )
-    # Fit only on corpus documents.  The exploratory prototype fit on documents plus
-    # all unlabeled queries; that transductive variant is deliberately not reproduced
-    # as the primary frozen baseline.
-    document_matrix = vectorizer.fit_transform(documents)
-    query_matrix = vectorizer.transform(query_texts)
-    rankings: dict[int, list[int]] = {}
-    for index, question in enumerate(questions):
-        scores = (query_matrix[index] @ document_matrix.T).toarray().ravel()
-        rankings[question.review_id] = _stable_top_k(
-            scores,
-            corpus_ids=corpus_ids,
-            excluded_ids=exclusions[question.review_id],
-            top_k=top_k,
-        )
 
     predictions = [
         MetaSynPrediction(
@@ -420,27 +477,8 @@ def freeze_tfidf_retrieval_baseline(
         ).model_dump(mode="json", exclude_none=True)
         for question in sorted(questions, key=lambda item: item.review_id)
     ]
-    config = {
-        "algorithm": "sklearn_tfidf_title_abstract_v1",
-        "document_join": "title + one ASCII space + abstract",
-        "dtype": "float32",
-        "fit_population": "corpus_documents_only",
-        "lowercase": True,
-        "max_features": 200_000,
-        "min_df": 2,
-        "ngram_range": [1, 2],
-        "norm": "l2",
-        "query_field_order": list(_QUERY_FIELDS),
-        "query_join": "one ASCII space with null mapped to empty string",
-        "stable_tie_break": "descending_score_then_ascending_corpus_id",
-        "stop_words": "sklearn_english",
-        "sublinear_tf": True,
-        "top_k": top_k,
-    }
+    config = tfidf_config(top_k=top_k)
     atomic_write_jsonl(predictions_path, predictions, force=force)
-    vocabulary = {
-        term: int(index) for term, index in sorted(vectorizer.vocabulary_.items())
-    }
     receipt = {
         "metasyn_retrieval_freeze_version": "1",
         "scientific_role": "retrospective_local_baseline_not_pristine_holdout",
@@ -472,12 +510,10 @@ def freeze_tfidf_retrieval_baseline(
             "numpy": np.__version__,
             "scikit_learn": sklearn.__version__,
         },
-        "corpus_rows": len(corpus_ids),
-        "vocabulary_terms": len(vocabulary),
-        "vocabulary_sha256": hash_canonical(vocabulary),
-        "idf_float64_bytes_sha256": sha256_bytes(
-            np.asarray(vectorizer.idf_, dtype=np.float64).tobytes(order="C")
-        ),
+        "corpus_rows": diagnostics["documents"],
+        "vocabulary_terms": diagnostics["vocabulary_terms"],
+        "vocabulary_sha256": diagnostics["vocabulary_sha256"],
+        "idf_float64_bytes_sha256": diagnostics["idf_float64_bytes_sha256"],
         "source_review_exclusions": sum(len(values) for values in exclusions.values()),
         "ranking_sha256": hash_canonical(rankings),
         "predictions_sha256": sha256_file(predictions_path),
@@ -511,7 +547,7 @@ def load_source_review_exclusions(
 ) -> tuple[dict[int, set[int]], dict[str, str]]:
     """Read only review identity and source-review exclusions, never outcome labels."""
 
-    benchmark = load_metasyn_manifest(benchmark_manifest_path)
+    benchmark = load_metasyn_manifest_metadata(benchmark_manifest_path)
     source = benchmark.source_test if split == "test" else benchmark.source_train
     source_path = review_cache_dir / source.filename
     if not source_path.is_file():
@@ -571,6 +607,11 @@ def bm25_rank(
         raise ValueError("invalid_bm25_query_saturation")
     if not questions:
         raise MetaSynCorpusError("retrieval_questions_empty")
+    question_ids = [question.review_id for question in questions]
+    if len(question_ids) != len(set(question_ids)):
+        raise MetaSynCorpusError("retrieval_question_ids_not_unique")
+    if set(exclusions) != set(question_ids):
+        raise MetaSynCorpusError("retrieval_exclusion_ids_do_not_match_questions")
 
     query_counters = [_query_counter(question) for question in questions]
     if any(not counter for counter in query_counters):
@@ -683,7 +724,7 @@ def freeze_bm25_retrieval_baseline(
         raise MetaSynCorpusError(f"retrieval_outputs_exist:{existing}")
 
     questions = load_metasyn_inputs(benchmark_manifest_path, split=split)
-    benchmark = load_metasyn_manifest(benchmark_manifest_path)
+    benchmark = load_metasyn_manifest_metadata(benchmark_manifest_path)
     corpus, shard_paths = verify_corpus_manifest(
         corpus_manifest_path, repository_root=repository_root
     )
@@ -756,5 +797,7 @@ __all__ = [
     "inspect_corpus_coverage",
     "load_corpus_manifest",
     "load_source_review_exclusions",
+    "tfidf_config",
+    "tfidf_rank",
     "verify_corpus_manifest",
 ]

@@ -8,11 +8,12 @@ from __future__ import annotations
 
 import json
 from collections.abc import Callable, Mapping, Sequence
+from copy import deepcopy
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Literal
 
-from pydantic import Field, field_validator, model_validator
+from pydantic import Field, ValidationError, ValidationInfo, field_validator, model_validator
 
 from literature_multiverse.lineage import (
     OutputExistsError,
@@ -34,6 +35,33 @@ FIXED_RESULT_LIMIT = 1
 FIXED_LIVE_PAGE_SIZE = 1
 FIXED_REPLAY_PAGE_SIZE = 1
 VALIDATION_SCOPE = "invariant_and_transport_validation_only"
+HARVESTER_VALIDATION_VERSION = "2"
+HARVESTER_VALIDATION_ENTRYPOINT = "scripts/validate_harvester.py"
+HARVESTER_VALIDATION_SOURCE_PATHS = (
+    "pyproject.toml",
+    HARVESTER_VALIDATION_ENTRYPOINT,
+    "src/literature_multiverse/__init__.py",
+    "src/literature_multiverse/harvester/__init__.py",
+    "src/literature_multiverse/harvester/archive.py",
+    "src/literature_multiverse/harvester/contracts.py",
+    "src/literature_multiverse/harvester/http.py",
+    "src/literature_multiverse/harvester/pipeline.py",
+    "src/literature_multiverse/harvester/sources.py",
+    "src/literature_multiverse/harvester/validation.py",
+    "src/literature_multiverse/lineage.py",
+    "src/literature_multiverse/models.py",
+    "src/literature_multiverse/paths.py",
+    "src/literature_multiverse/search.py",
+    "uv.lock",
+)
+HARVESTER_VALIDATION_HASH_SECURITY_BOUNDARY = (
+    "unkeyed reproducibility and tamper-evidence hashes; not signatures, "
+    "authorship proof, freshness proof, or rollback protection"
+)
+# The public result predates the v2 envelope.  Its complete canonical v1 payload is
+# pinned so the deterministic migration below cannot bless a modified historical
+# scientific result with current source hashes.
+PINNED_PUBLIC_V1_PAYLOAD_SHA256 = "77555f925f2b7dd3f8f9345375066b8ea75ea1fc37003dd795cdb5185526b552"
 
 
 class HarvesterValidationError(RuntimeError):
@@ -193,8 +221,60 @@ class ValidationFailure(ContractModel):
     cache_failure_path: str
 
 
+class ValidationReproducibility(ContractModel):
+    construction: Literal["live_run", "pinned_public_v1_reseal"]
+    generator_entrypoint: Literal["scripts/validate_harvester.py"] = HARVESTER_VALIDATION_ENTRYPOINT
+    generator_entrypoint_sha256: str
+    source_files_sha256: dict[str, str]
+    source_bundle_sha256: str
+    legacy_payload_sha256: str | None = None
+    hash_security_boundary: Literal[
+        "unkeyed reproducibility and tamper-evidence hashes; not signatures, "
+        "authorship proof, freshness proof, or rollback protection"
+    ] = HARVESTER_VALIDATION_HASH_SECURITY_BOUNDARY
+
+    @field_validator(
+        "generator_entrypoint_sha256",
+        "source_bundle_sha256",
+        "legacy_payload_sha256",
+    )
+    @classmethod
+    def validate_reproducibility_hash(cls, value: str | None) -> str | None:
+        if value is not None and not SHA256_RE.fullmatch(value):
+            raise ValueError("harvester_validation_reproducibility_sha256_invalid")
+        return value
+
+    @field_validator("source_files_sha256")
+    @classmethod
+    def validate_source_files(cls, value: dict[str, str]) -> dict[str, str]:
+        if tuple(value) != HARVESTER_VALIDATION_SOURCE_PATHS:
+            raise ValueError("harvester_validation_source_inventory_mismatch")
+        if any(not SHA256_RE.fullmatch(digest) for digest in value.values()):
+            raise ValueError("harvester_validation_source_sha256_invalid")
+        return value
+
+    @model_validator(mode="after")
+    def validate_reproducibility_contract(self) -> ValidationReproducibility:
+        if self.generator_entrypoint_sha256 != self.source_files_sha256.get(
+            self.generator_entrypoint
+        ):
+            raise ValueError("harvester_validation_entrypoint_hash_mismatch")
+        if self.source_bundle_sha256 != hash_canonical(self.source_files_sha256):
+            raise ValueError("harvester_validation_source_bundle_hash_mismatch")
+        if (self.construction == "pinned_public_v1_reseal") != (
+            self.legacy_payload_sha256 is not None
+        ):
+            raise ValueError("harvester_validation_legacy_lineage_mismatch")
+        if (
+            self.legacy_payload_sha256 is not None
+            and self.legacy_payload_sha256 != PINNED_PUBLIC_V1_PAYLOAD_SHA256
+        ):
+            raise ValueError("harvester_validation_legacy_payload_hash_mismatch")
+        return self
+
+
 class HarvesterValidationSummary(ContractModel):
-    harvester_validation_version: Literal["1"] = "1"
+    harvester_validation_version: Literal["2"] = HARVESTER_VALIDATION_VERSION
     status: Literal["complete", "failed"]
     validation_passed: bool
     validation_scope: Literal["invariant_and_transport_validation_only"] = VALIDATION_SCOPE
@@ -208,9 +288,18 @@ class HarvesterValidationSummary(ContractModel):
     documents: list[ValidationDocument]
     warnings: list[str]
     failure: ValidationFailure | None = None
+    reproducibility: ValidationReproducibility
+    artifact_payload_sha256: str
+
+    @field_validator("artifact_payload_sha256")
+    @classmethod
+    def validate_artifact_payload_sha256(cls, value: str) -> str:
+        if not SHA256_RE.fullmatch(value):
+            raise ValueError("harvester_validation_artifact_payload_sha256_invalid")
+        return value
 
     @model_validator(mode="after")
-    def validate_status(self) -> HarvesterValidationSummary:
+    def validate_status(self, info: ValidationInfo) -> HarvesterValidationSummary:
         if self.status == "complete" and self.failure is not None:
             raise ValueError("complete_harvester_validation_forbids_failure")
         if self.status == "failed" and self.failure is None:
@@ -222,6 +311,11 @@ class HarvesterValidationSummary(ContractModel):
             or not self.archive.all_receipts_verified
         ):
             raise ValueError("harvester_validation_passed_invariants_not_met")
+        if not (info.context or {}).get("skip_harvester_validation_self_hash", False):
+            payload = self.model_dump(mode="json")
+            observed = payload.pop("artifact_payload_sha256")
+            if observed != hash_canonical(payload):
+                raise ValueError("harvester_validation_artifact_payload_hash_mismatch")
         return self
 
 
@@ -287,6 +381,72 @@ def normalized_document_sha256(document: HarvestDocument) -> str:
     """Hash all normalized fields, including text omitted from the paper summary."""
 
     return hash_canonical(_normalized_document_payload(document))
+
+
+def harvester_validation_source_hashes(
+    repository_root: Path | None = None,
+) -> dict[str, str]:
+    """Hash the exact CLI and complete direct/transitive local runtime surface."""
+
+    root = (
+        repository_root.resolve()
+        if repository_root is not None
+        else Path(__file__).resolve().parents[3]
+    )
+    missing = [
+        relative
+        for relative in HARVESTER_VALIDATION_SOURCE_PATHS
+        if not (root / relative).is_file()
+    ]
+    if missing:
+        raise HarvesterValidationError(
+            f"harvester_validation_source_files_missing:{','.join(missing)}"
+        )
+    return {
+        relative: sha256_file(root / relative) for relative in HARVESTER_VALIDATION_SOURCE_PATHS
+    }
+
+
+def _reproducibility_record(
+    *,
+    construction: Literal["live_run", "pinned_public_v1_reseal"],
+    repository_root: Path | None = None,
+    legacy_payload_sha256: str | None = None,
+) -> ValidationReproducibility:
+    sources = harvester_validation_source_hashes(repository_root)
+    return ValidationReproducibility(
+        construction=construction,
+        generator_entrypoint_sha256=sources[HARVESTER_VALIDATION_ENTRYPOINT],
+        source_files_sha256=sources,
+        source_bundle_sha256=hash_canonical(sources),
+        legacy_payload_sha256=legacy_payload_sha256,
+    )
+
+
+def _seal_summary_payload(
+    payload: Mapping[str, Any],
+    *,
+    construction: Literal["live_run", "pinned_public_v1_reseal"] = "live_run",
+    repository_root: Path | None = None,
+    legacy_payload_sha256: str | None = None,
+) -> HarvesterValidationSummary:
+    sealed = deepcopy(dict(payload))
+    if "reproducibility" in sealed or "artifact_payload_sha256" in sealed:
+        raise HarvesterValidationError("harvester_validation_payload_already_sealed")
+    sealed["harvester_validation_version"] = HARVESTER_VALIDATION_VERSION
+    sealed["reproducibility"] = _reproducibility_record(
+        construction=construction,
+        repository_root=repository_root,
+        legacy_payload_sha256=legacy_payload_sha256,
+    ).model_dump(mode="json")
+    sealed["artifact_payload_sha256"] = "0" * 64
+    normalized = HarvesterValidationSummary.model_validate(
+        sealed,
+        context={"skip_harvester_validation_self_hash": True},
+    ).model_dump(mode="json")
+    normalized.pop("artifact_payload_sha256")
+    normalized["artifact_payload_sha256"] = hash_canonical(normalized)
+    return HarvesterValidationSummary.model_validate(normalized)
 
 
 def _path_label(path: Path, *, path_base: Path) -> str:
@@ -474,35 +634,37 @@ def build_harvester_validation_summary(
     if not any(document.full_text.status == "archived" for document in documents):
         warnings.add("no_open_full_text_archived")
     passed = bool(live_ids) and identity.exact_identity_equivalence
-    return HarvesterValidationSummary(
-        status="complete",
-        validation_passed=passed,
-        query=query_spec,
-        timestamps=ValidationTimestamps(
-            started_at=started_at,
-            live_search_retrieved_at=live_capture.search_retrieved_at,
-            frozen_corpus_written_at=frozen_corpus_written_at,
-            replay_search_retrieved_at=replay_capture.search_retrieved_at,
-            completed_at=completed_at,
-        ),
-        counts=_summary_counts(
-            live_result=live_result,
-            replay_result=replay_result,
-            live_documents=len(live_capture.documents),
-            replay_documents=len(replay_capture.documents),
-            archive_objects=len(unique_entries),
-            receipts_verified=receipts_verified,
-        ),
-        archive=_archive_summary(
-            archive=archive,
-            corpus_path=corpus_path,
-            path_base=path_base,
-            all_receipts_verified=True,
-        ),
-        identity=identity,
-        documents=documents,
-        warnings=sorted(warnings),
-        failure=None,
+    return _seal_summary_payload(
+        {
+            "status": "complete",
+            "validation_passed": passed,
+            "query": query_spec,
+            "timestamps": ValidationTimestamps(
+                started_at=started_at,
+                live_search_retrieved_at=live_capture.search_retrieved_at,
+                frozen_corpus_written_at=frozen_corpus_written_at,
+                replay_search_retrieved_at=replay_capture.search_retrieved_at,
+                completed_at=completed_at,
+            ),
+            "counts": _summary_counts(
+                live_result=live_result,
+                replay_result=replay_result,
+                live_documents=len(live_capture.documents),
+                replay_documents=len(replay_capture.documents),
+                archive_objects=len(unique_entries),
+                receipts_verified=receipts_verified,
+            ),
+            "archive": _archive_summary(
+                archive=archive,
+                corpus_path=corpus_path,
+                path_base=path_base,
+                all_receipts_verified=True,
+            ),
+            "identity": identity,
+            "documents": documents,
+            "warnings": sorted(warnings),
+            "failure": None,
+        }
     )
 
 
@@ -523,44 +685,46 @@ def _failure_summary(
     path_base: Path,
 ) -> HarvesterValidationSummary:
     receipt_count = len(list(archive.root.joinpath("receipts").rglob("*.json")))
-    return HarvesterValidationSummary(
-        status="failed",
-        validation_passed=False,
-        query=query_spec,
-        timestamps=ValidationTimestamps(
-            started_at=started_at,
-            live_search_retrieved_at=live_capture.search_retrieved_at,
-            frozen_corpus_written_at=frozen_corpus_written_at,
-            replay_search_retrieved_at=(
-                replay_capture.search_retrieved_at if replay_capture else []
+    return _seal_summary_payload(
+        {
+            "status": "failed",
+            "validation_passed": False,
+            "query": query_spec,
+            "timestamps": ValidationTimestamps(
+                started_at=started_at,
+                live_search_retrieved_at=live_capture.search_retrieved_at,
+                frozen_corpus_written_at=frozen_corpus_written_at,
+                replay_search_retrieved_at=(
+                    replay_capture.search_retrieved_at if replay_capture else []
+                ),
+                completed_at=completed_at,
             ),
-            completed_at=completed_at,
-        ),
-        counts=_summary_counts(
-            live_result=live_result,
-            replay_result=replay_result,
-            live_documents=len(live_capture.documents),
-            replay_documents=len(replay_capture.documents) if replay_capture else 0,
-            archive_objects=receipt_count,
-            receipts_verified=0,
-        ),
-        archive=_archive_summary(
-            archive=archive,
-            corpus_path=corpus_path,
-            path_base=path_base,
-            all_receipts_verified=False,
-        ),
-        identity=None,
-        documents=[],
-        warnings=[
-            "invariant_transport_validation_only_not_retrieval_recall_evidence",
-            "live_validation_failed_partial_cache_preserved",
-        ],
-        failure=ValidationFailure(
-            error_type=type(error).__name__,
-            error_message=redact_text(str(error))[:2000],
-            cache_failure_path=_path_label(failure_path, path_base=path_base),
-        ),
+            "counts": _summary_counts(
+                live_result=live_result,
+                replay_result=replay_result,
+                live_documents=len(live_capture.documents),
+                replay_documents=len(replay_capture.documents) if replay_capture else 0,
+                archive_objects=receipt_count,
+                receipts_verified=0,
+            ),
+            "archive": _archive_summary(
+                archive=archive,
+                corpus_path=corpus_path,
+                path_base=path_base,
+                all_receipts_verified=False,
+            ),
+            "identity": None,
+            "documents": [],
+            "warnings": [
+                "invariant_transport_validation_only_not_retrieval_recall_evidence",
+                "live_validation_failed_partial_cache_preserved",
+            ],
+            "failure": ValidationFailure(
+                error_type=type(error).__name__,
+                error_message=redact_text(str(error))[:2000],
+                cache_failure_path=_path_label(failure_path, path_base=path_base),
+            ),
+        }
     )
 
 
@@ -684,8 +848,92 @@ def run_harvester_validation_cycle(
         raise HarvesterValidationRunFailed(summary) from error
 
 
-def load_harvester_validation_summary(path: Path) -> HarvesterValidationSummary:
-    return HarvesterValidationSummary.model_validate_json(path.read_text(encoding="utf-8"))
+def validate_harvester_validation_summary(
+    value: Mapping[str, Any],
+    *,
+    repository_root: Path | None = None,
+    require_current_sources: bool = True,
+) -> HarvesterValidationSummary:
+    """Validate structure/self-integrity and, by default, exact current source bytes."""
+
+    try:
+        summary = HarvesterValidationSummary.model_validate(value)
+    except ValidationError as exc:
+        raise HarvesterValidationError("harvester_validation_summary_contract_invalid") from exc
+    if summary_contains_forbidden_text_fields(summary):
+        raise HarvesterValidationError("paper_summary_contains_forbidden_text_field")
+    if require_current_sources:
+        current = harvester_validation_source_hashes(repository_root)
+        if summary.reproducibility.source_files_sha256 != current:
+            raise HarvesterValidationError("harvester_validation_source_lineage_stale")
+    return summary
+
+
+def load_harvester_validation_summary(
+    path: Path,
+    *,
+    repository_root: Path | None = None,
+    require_current_sources: bool = True,
+) -> HarvesterValidationSummary:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise HarvesterValidationError(
+            f"harvester_validation_summary_unreadable:{path.as_posix()}"
+        ) from exc
+    if not isinstance(value, Mapping):
+        raise HarvesterValidationError("harvester_validation_summary_root_not_object")
+    return validate_harvester_validation_summary(
+        value,
+        repository_root=repository_root,
+        require_current_sources=require_current_sources,
+    )
+
+
+def reseal_pinned_public_harvester_validation_summary(
+    path: Path,
+    *,
+    repository_root: Path | None = None,
+) -> HarvesterValidationSummary:
+    """Deterministically add current v2 envelope to the exact pinned public v1 result.
+
+    A previously sealed v2 artifact may be resealed after source-only hardening.  Its
+    self-hash must validate first, and stripping the v2 envelope must recover the exact
+    pinned v1 payload.  Therefore this operation cannot legitimize modified scientific
+    fields or a different live capture.
+    """
+
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise HarvesterValidationError(
+            f"harvester_validation_summary_unreadable:{path.as_posix()}"
+        ) from exc
+    if not isinstance(raw, Mapping):
+        raise HarvesterValidationError("harvester_validation_summary_root_not_object")
+    legacy = deepcopy(dict(raw))
+    version = legacy.get("harvester_validation_version")
+    if version == HARVESTER_VALIDATION_VERSION:
+        # Validate self-integrity and the closed v2 structure without requiring the
+        # old source hashes to match files that this reseal is intentionally updating.
+        HarvesterValidationSummary.model_validate(legacy)
+        legacy.pop("artifact_payload_sha256")
+        legacy.pop("reproducibility")
+        legacy["harvester_validation_version"] = "1"
+    elif version != "1":
+        raise HarvesterValidationError("harvester_validation_reseal_version_unsupported")
+    observed_legacy_hash = hash_canonical(legacy)
+    if observed_legacy_hash != PINNED_PUBLIC_V1_PAYLOAD_SHA256:
+        raise HarvesterValidationError("harvester_validation_reseal_legacy_payload_mismatch")
+    legacy["harvester_validation_version"] = HARVESTER_VALIDATION_VERSION
+    summary = _seal_summary_payload(
+        legacy,
+        construction="pinned_public_v1_reseal",
+        repository_root=repository_root,
+        legacy_payload_sha256=observed_legacy_hash,
+    )
+    atomic_write_json(path, summary, force=True)
+    return load_harvester_validation_summary(path, repository_root=repository_root)
 
 
 def summary_contains_forbidden_text_fields(summary: HarvesterValidationSummary) -> bool:
@@ -702,6 +950,9 @@ __all__ = [
     "FIXED_QUERY_FAMILY",
     "FIXED_REPLAY_PAGE_SIZE",
     "FIXED_RESULT_LIMIT",
+    "HARVESTER_VALIDATION_ENTRYPOINT",
+    "HARVESTER_VALIDATION_SOURCE_PATHS",
+    "HARVESTER_VALIDATION_VERSION",
     "HarvesterValidationError",
     "HarvesterValidationRunFailed",
     "HarvesterValidationSummary",
@@ -709,9 +960,13 @@ __all__ = [
     "ValidationFullText",
     "ValidationIdentity",
     "ValidationQuery",
+    "ValidationReproducibility",
     "build_harvester_validation_summary",
+    "harvester_validation_source_hashes",
     "load_harvester_validation_summary",
     "normalized_document_sha256",
+    "reseal_pinned_public_harvester_validation_summary",
     "run_harvester_validation_cycle",
     "summary_contains_forbidden_text_fields",
+    "validate_harvester_validation_summary",
 ]

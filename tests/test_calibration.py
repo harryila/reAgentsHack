@@ -296,6 +296,7 @@ def test_prospective_assessment_rejects_drift_and_frozen_overlap() -> None:
     changes = (
         ({"pipeline_sha256": "b" * 64}, "pipeline_mismatch"),
         ({"population_id": "shifted-population"}, "population_mismatch"),
+        ({"domain": "unseen-domain"}, "domain_shift"),
         ({"features": {"different_feature": 0.1}}, "feature_schema_mismatch"),
         ({"question_id": bundle.development.question_ids[0]}, "question_overlap"),
         ({"paper_ids": [bundle.calibration.paper_ids[0]]}, "paper_overlap"),

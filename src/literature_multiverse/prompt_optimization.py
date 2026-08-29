@@ -186,9 +186,9 @@ class OptimizationSplitManifest(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
 
     split_manifest_version: Literal["1"] = "1"
-    algorithm: Literal[
-        "paper-group-components-v1", "official-paper-groups-v1"
-    ] = "paper-group-components-v1"
+    algorithm: Literal["paper-group-components-v1", "official-paper-groups-v1"] = (
+        "paper-group-components-v1"
+    )
     seed: int
     train_fraction: float = Field(gt=0, lt=1)
     dev_fraction: float = Field(gt=0, lt=1)
@@ -504,24 +504,18 @@ class GEPAPromptAdapter:
             )
             return self._failed_evaluation(failed, f"parse: {exc}")
 
-        correctness = _correctness_score(
-            example.expected_output, parsed, example.label_paths
-        )
+        correctness = _correctness_score(example.expected_output, parsed, example.label_paths)
         schema_error = _validate_output_schema(parsed, example.output_schema)
         grounding, grounding_results = _grounding_score(example, parsed)
         schema_score = float(schema_error is None)
         grounding_schema = schema_score * (0.5 + 0.5 * grounding)
-        cost_efficiency = max(
-            0.0, 1.0 - float(result.estimated_cost_usd) / self.cost_cap_usd
-        )
+        cost_efficiency = max(0.0, 1.0 - float(result.estimated_cost_usd) / self.cost_cap_usd)
         objective = {
             "extraction_correctness": correctness,
             "grounding_schema_validity": grounding_schema,
             "cost_efficiency": cost_efficiency,
         }
-        scalar_score = (
-            0.70 * correctness + 0.25 * grounding_schema + 0.05 * cost_efficiency
-        )
+        scalar_score = 0.70 * correctness + 0.25 * grounding_schema + 0.05 * cost_efficiency
         output = {
             "example_id": example.example_id,
             "parsed_output": deepcopy(parsed),
@@ -674,8 +668,7 @@ def _assert_manifest_disjoint(manifest: OptimizationSplitManifest) -> None:
             )
             if overlap:
                 raise ValueError(
-                    f"split leakage: {field_name} overlap between {left}/{right}: "
-                    f"{sorted(overlap)}"
+                    f"split leakage: {field_name} overlap between {left}/{right}: {sorted(overlap)}"
                 )
 
 
@@ -1124,8 +1117,10 @@ def _result_trace(result: Any, component: str) -> tuple[str, dict[str, Any]]:
     candidates = getattr(result, "candidates", None)
     parents = getattr(result, "parents", None)
     val_scores = getattr(result, "val_aggregate_scores", None)
-    if not isinstance(candidates, list) or not isinstance(parents, list) or not isinstance(
-        val_scores, list
+    if (
+        not isinstance(candidates, list)
+        or not isinstance(parents, list)
+        or not isinstance(val_scores, list)
     ):
         raise OptimizationContractError("GEPA result is missing immutable candidate trace fields")
     best_idx = int(result.best_idx)
@@ -1138,15 +1133,11 @@ def _result_trace(result: Any, component: str) -> tuple[str, dict[str, Any]]:
         "candidate_sha256s": [hash_canonical(dict(candidate)) for candidate in candidates],
         "parents": deepcopy(parents),
         "val_aggregate_scores": deepcopy(val_scores),
-        "val_aggregate_subscores": deepcopy(
-            getattr(result, "val_aggregate_subscores", None)
-        ),
+        "val_aggregate_subscores": deepcopy(getattr(result, "val_aggregate_subscores", None)),
         "per_objective_best_candidates": _json_safe(
             getattr(result, "per_objective_best_candidates", None)
         ),
-        "objective_pareto_front": _json_safe(
-            getattr(result, "objective_pareto_front", None)
-        ),
+        "objective_pareto_front": _json_safe(getattr(result, "objective_pareto_front", None)),
         "total_metric_calls": getattr(result, "total_metric_calls", None),
         "seed": getattr(result, "seed", None),
     }
@@ -1228,9 +1219,7 @@ def optimize_prompts(
         raise OptimizationContractError(f"seed templates are missing: {missing_templates}")
     template_texts: dict[PromptKind, str] = {}
     for prompt_kind in active_kinds:
-        template_texts[prompt_kind] = Path(seed_templates[prompt_kind]).read_text(
-            encoding="utf-8"
-        )
+        template_texts[prompt_kind] = Path(seed_templates[prompt_kind]).read_text(encoding="utf-8")
     seed_prompt_hashes = {
         kind: hashlib.sha256(text.encode("utf-8")).hexdigest()
         for kind, text in template_texts.items()
@@ -1258,9 +1247,7 @@ def optimize_prompts(
         cost_cap_usd=cost_cap_usd,
     )
     task_provider_identity_sha256 = hash_canonical(normalized_task_provider_identity)
-    normalized_budget_preflight = _combined_budget_preflight(
-        combined_budget_preflight
-    )
+    normalized_budget_preflight = _combined_budget_preflight(combined_budget_preflight)
     retained_reflection_lms: dict[PromptKind, Any] = {}
     reflection_usage_by_kind: dict[PromptKind, dict[str, Any]] = {}
     if optimize_fn is None:
@@ -1304,14 +1291,17 @@ def optimize_prompts(
             seed=seed + index,
             run_dir=str(destination / prompt_kind),
             use_merge=True,
-            cache_evaluation=True,
+            # GEPA 0.1.4 assigns independent integer IDs starting at zero to train
+            # and validation loaders, while its cache key omits the split.  Enabling
+            # the library cache can therefore reuse a train score as a validation
+            # score.  The adapter already caches safely by candidate hash plus the
+            # globally unique example_id, so the GEPA-level cache must stay disabled.
+            cache_evaluation=False,
             track_best_outputs=True,
             display_progress_bar=False,
         )
         if uses_official_runtime:
-            reflection_usage_by_kind[prompt_kind] = _reflection_lm_usage(
-                reflection_lm_for_gepa
-            )
+            reflection_usage_by_kind[prompt_kind] = _reflection_lm_usage(reflection_lm_for_gepa)
         winner, result_trace = _result_trace(result, component)
         winning_prompts[prompt_kind] = winner
         component_traces[prompt_kind] = result_trace
@@ -1347,6 +1337,7 @@ def optimize_prompts(
             "reflection_lm_identity": reflection_identity,
             "task_provider_identity_sha256": task_provider_identity_sha256,
             "cost_cap_usd": cost_cap_usd,
+            "gepa_cache_evaluation": False,
         }
     )
     trace = {
@@ -1367,6 +1358,8 @@ def optimize_prompts(
             "cost_efficiency": 0.05,
         },
         "cost_cap_usd": cost_cap_usd,
+        "gepa_cache_evaluation": False,
+        "evaluation_cache_key_basis": "adapter_candidate_sha256_plus_example_id",
         "max_metric_calls_per_prompt": max_metric_calls_per_prompt,
         "max_reflection_cost_usd_per_prompt": max_reflection_cost_usd_per_prompt,
         "reflection_minibatch_size": reflection_minibatch_size,
@@ -1379,9 +1372,7 @@ def optimize_prompts(
         "task_provider_identity": normalized_task_provider_identity,
         "task_provider_identity_sha256": task_provider_identity_sha256,
         "combined_budget_preflight": normalized_budget_preflight,
-        "reflection_lm_usage": _aggregate_reflection_lm_usage(
-            reflection_usage_by_kind
-        ),
+        "reflection_lm_usage": _aggregate_reflection_lm_usage(reflection_usage_by_kind),
         "train_example_ids": manifest.train.example_ids,
         "dev_example_ids": manifest.dev.example_ids,
         "component_traces": component_traces,
@@ -1472,9 +1463,7 @@ def evaluate_frozen_test(
     try:
         winner = json.loads(winner_source.read_text(encoding="utf-8"))
     except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise OptimizationContractError(
-            f"invalid frozen prompt bundle: {winner_source}"
-        ) from exc
+        raise OptimizationContractError(f"invalid frozen prompt bundle: {winner_source}") from exc
     if not isinstance(winner, Mapping):
         raise OptimizationContractError(f"invalid frozen prompt bundle: {winner_source}")
     if winner.get("manifest_sha256") != manifest_sha:
@@ -1621,22 +1610,13 @@ def _summarize_paired_rows(rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
     count = len(rows)
     winner_scalars = [float(row["winner"]["scalar_score"]) for row in rows]
     seed_scalars = [float(row["seed"]["scalar_score"]) for row in rows]
-    scalar_deltas = [
-        float(row["paired_delta_winner_minus_seed"]["scalar_score"])
-        for row in rows
-    ]
+    scalar_deltas = [float(row["paired_delta_winner_minus_seed"]["scalar_score"]) for row in rows]
     objectives: dict[str, dict[str, float]] = {}
     for objective in _OBJECTIVE_NAMES:
-        winner_values = [
-            float(row["winner"]["objective_scores"][objective]) for row in rows
-        ]
-        seed_values = [
-            float(row["seed"]["objective_scores"][objective]) for row in rows
-        ]
+        winner_values = [float(row["winner"]["objective_scores"][objective]) for row in rows]
+        seed_values = [float(row["seed"]["objective_scores"][objective]) for row in rows]
         deltas = [
-            float(
-                row["paired_delta_winner_minus_seed"]["objective_scores"][objective]
-            )
+            float(row["paired_delta_winner_minus_seed"]["objective_scores"][objective])
             for row in rows
         ]
         objectives[objective] = {
@@ -1687,9 +1667,7 @@ def compare_frozen_test_to_seed(
     try:
         winner_metadata = json.loads(winner_source.read_text(encoding="utf-8"))
     except (OSError, UnicodeDecodeError, json.JSONDecodeError) as exc:
-        raise OptimizationContractError(
-            f"invalid frozen prompt bundle: {winner_source}"
-        ) from exc
+        raise OptimizationContractError(f"invalid frozen prompt bundle: {winner_source}") from exc
     if not isinstance(winner_metadata, Mapping):
         raise OptimizationContractError(f"invalid frozen prompt bundle: {winner_source}")
     if winner_metadata.get("manifest_sha256") != manifest_sha:
@@ -1700,9 +1678,7 @@ def compare_frozen_test_to_seed(
         )
     raw_seed_hashes = winner_metadata.get("seed_prompt_sha256s")
     if not isinstance(raw_seed_hashes, Mapping) or not raw_seed_hashes:
-        raise OptimizationContractError(
-            "frozen winner does not record original seed prompt hashes"
-        )
+        raise OptimizationContractError("frozen winner does not record original seed prompt hashes")
     winner_prompts = load_frozen_prompts(winner_source)
     seed_prompts, seed_metadata = _load_explicit_seed_templates(
         seed_templates,
@@ -1741,17 +1717,14 @@ def compare_frozen_test_to_seed(
                 render_prompt_text(template, example.replacements)
             except PromptContractError as exc:
                 raise OptimizationContractError(
-                    f"{arm} template does not render for test example "
-                    f"{example.example_id}: {exc}"
+                    f"{arm} template does not render for test example {example.example_id}: {exc}"
                 ) from exc
 
     rows_by_kind: dict[str, list[dict[str, Any]]] = {}
     all_rows: list[dict[str, Any]] = []
     for prompt_kind in active_kinds:
         component = PROMPT_COMPONENTS[prompt_kind]
-        batch = [
-            example for example in test_examples if example.prompt_kind == prompt_kind
-        ]
+        batch = [example for example in test_examples if example.prompt_kind == prompt_kind]
         winner_evaluation = winner_adapter.evaluate(
             batch,
             {component: winner_prompts[prompt_kind]},

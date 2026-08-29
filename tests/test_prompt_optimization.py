@@ -93,9 +93,7 @@ def extraction_example(
         },
         label_paths=["/eligible", "/findings/0/direction"],
         output_schema=EXTRACTION_SCHEMA,
-        content_lines={
-            "1": {"text": "Training increased VO2max.", "section": "Results"}
-        },
+        content_lines={"1": {"text": "Training increased VO2max.", "section": "Results"}},
     )
 
 
@@ -162,9 +160,7 @@ def _frozen_extraction_winner(
             "prompts": {
                 "extraction": {
                     "path": prompt_path.name,
-                    "sha256": hashlib.sha256(
-                        winner_text.encode("utf-8")
-                    ).hexdigest(),
+                    "sha256": hashlib.sha256(winner_text.encode("utf-8")).hexdigest(),
                 }
             },
         },
@@ -221,9 +217,7 @@ def test_adapter_renders_existing_extraction_template_and_attaches_paper(
         {("gepa-extraction", key): example.model_dump(mode="json")["expected_output"]}
     )
 
-    result = GEPAPromptAdapter(provider).evaluate(
-        [example], candidate, capture_traces=True
-    )
+    result = GEPAPromptAdapter(provider).evaluate([example], candidate, capture_traces=True)
 
     assert result.scores == [1.0]
     assert result.trajectories is not None
@@ -235,22 +229,16 @@ def test_adapter_renders_existing_extraction_template_and_attaches_paper(
 def test_adapter_renders_existing_quote_verification_template(repo_root: Path) -> None:
     example = verification_example("verification-template")
     candidate = {
-        "quote_verification_prompt": (
-            repo_root / "prompts/quote_verification.md"
-        ).read_text(encoding="utf-8")
+        "quote_verification_prompt": (repo_root / "prompts/quote_verification.md").read_text(
+            encoding="utf-8"
+        )
     }
     key = provider_request_key(example, candidate)
     provider = FixtureProvider(
-        {
-            ("gepa-quote_verification", key): example.model_dump(mode="json")[
-                "expected_output"
-            ]
-        }
+        {("gepa-quote_verification", key): example.model_dump(mode="json")["expected_output"]}
     )
 
-    result = GEPAPromptAdapter(provider).evaluate(
-        [example], candidate, capture_traces=True
-    )
+    result = GEPAPromptAdapter(provider).evaluate([example], candidate, capture_traces=True)
 
     assert result.scores == [1.0]
     assert result.trajectories is not None
@@ -285,9 +273,7 @@ def test_invalid_candidate_prompt_scores_zero_without_provider_call() -> None:
 
 def test_reflective_dataset_contains_prespecified_labels_and_diagnostics() -> None:
     example = extraction_example("ex-3")
-    candidate = {
-        "extraction_prompt": "Prompt version: `gepa-fixture-v1`\n[[SOURCE_TEXT]]\n"
-    }
+    candidate = {"extraction_prompt": "Prompt version: `gepa-fixture-v1`\n[[SOURCE_TEXT]]\n"}
     key = provider_request_key(example, candidate)
     wrong = deepcopy(example.expected_output)
     wrong["findings"][0]["direction"] = "decrease"
@@ -295,9 +281,7 @@ def test_reflective_dataset_contains_prespecified_labels_and_diagnostics() -> No
     adapter = GEPAPromptAdapter(provider)
     evaluated = adapter.evaluate([example], candidate, capture_traces=True)
 
-    reflective = adapter.make_reflective_dataset(
-        candidate, evaluated, ["extraction_prompt"]
-    )
+    reflective = adapter.make_reflective_dataset(candidate, evaluated, ["extraction_prompt"])
 
     assert list(reflective) == ["extraction_prompt"]
     feedback = json.loads(reflective["extraction_prompt"][0]["Feedback"])
@@ -333,8 +317,7 @@ def test_split_bundle_keeps_linked_papers_and_groups_disjoint(tmp_path: Path) ->
         assert set(left.example_ids).isdisjoint(right.example_ids)
     linked = {"a", "b", "c"}
     assert any(
-        linked <= set(split.example_ids)
-        for split in (manifest.train, manifest.dev, manifest.test)
+        linked <= set(split.example_ids) for split in (manifest.train, manifest.dev, manifest.test)
     )
 
 
@@ -477,9 +460,7 @@ def test_paired_heldout_report_scores_same_examples_and_reports_deltas(
 
     report = json.loads(report_path.read_text(encoding="utf-8"))
     rows = report["by_prompt_kind"]["extraction"]["per_example"]
-    assert [row["example_id"] for row in rows] == [
-        example.example_id for example in test_examples
-    ]
+    assert [row["example_id"] for row in rows] == [example.example_id for example in test_examples]
     assert [row["winner_outcome"] for row in rows] == expected_outcomes
     assert all("objective_scores" in row["winner"] for row in rows)
     assert all("objective_scores" in row["seed"] for row in rows)
@@ -494,12 +475,14 @@ def test_paired_heldout_report_scores_same_examples_and_reports_deltas(
         outcome: expected_outcomes.count(outcome) for outcome in ("win", "tie", "loss")
     }
     assert report["manifest_sha256"] == sha256_file(manifest_path)
-    assert report["winner_prompt_sha256s"]["extraction"] == hashlib.sha256(
-        winner_text.encode("utf-8")
-    ).hexdigest()
-    assert report["seed_templates"]["extraction"]["sha256"] == hashlib.sha256(
-        seed_text.encode("utf-8")
-    ).hexdigest()
+    assert (
+        report["winner_prompt_sha256s"]["extraction"]
+        == hashlib.sha256(winner_text.encode("utf-8")).hexdigest()
+    )
+    assert (
+        report["seed_templates"]["extraction"]["sha256"]
+        == hashlib.sha256(seed_text.encode("utf-8")).hexdigest()
+    )
     assert len(provider.calls) == 2 * len(test_examples)
     assert len(set(provider.calls)) == len(provider.calls)
 
@@ -526,9 +509,7 @@ def test_paired_arms_have_distinct_request_keys_when_prompts_are_identical(
         ("gepa-extraction", key): example.expected_output
         for example in test_examples
         for key in (
-            provider_request_key(
-                example, candidate, request_namespace="heldout-winner"
-            ),
+            provider_request_key(example, candidate, request_namespace="heldout-winner"),
             provider_request_key(example, candidate, request_namespace="heldout-seed"),
         )
     }
@@ -759,9 +740,7 @@ def test_optimize_cli_preflight_reserves_task_and_per_kind_reflection_budgets(
         ]
     )
 
-    preflight = optimization_cli._optimization_budget_preflight(
-        args, archive_root=archive_root
-    )
+    preflight = optimization_cli._optimization_budget_preflight(args, archive_root=archive_root)
 
     assert preflight == {
         "planning_ceiling_usd": 50.0,
@@ -776,9 +755,7 @@ def test_optimize_cli_preflight_reserves_task_and_per_kind_reflection_budgets(
 
     args.max_budget_usd = 46.0
     with pytest.raises(ProviderBudgetExceeded, match="combined optimization preflight"):
-        optimization_cli._optimization_budget_preflight(
-            args, archive_root=archive_root
-        )
+        optimization_cli._optimization_budget_preflight(args, archive_root=archive_root)
 
 
 def test_two_prompt_kinds_get_isolated_reflection_lms_and_aggregate_usage(
@@ -886,22 +863,22 @@ def test_two_prompt_kinds_get_isolated_reflection_lms_and_aggregate_usage(
     assert len(FakeLM.instances) == 2
     assert FakeLM.instances[0] is not FakeLM.instances[1]
     assert [call["max_reflection_cost"] for call in optimizer_calls] == [1.0, 1.0]
+    assert [call["cache_evaluation"] for call in optimizer_calls] == [False, False]
+    assert trace["gepa_cache_evaluation"] is False
+    assert trace["evaluation_cache_key_basis"] == "adapter_candidate_sha256_plus_example_id"
     assert trace["reflection_lm_usage"]["total_cost_usd"] == 0.75
     assert trace["reflection_lm_usage"]["total_input_tokens"] == 300
     assert trace["reflection_lm_usage"]["total_output_tokens"] == 30
-    assert trace["reflection_lm_usage"]["by_prompt_kind"]["extraction"][
-        "total_cost_usd"
-    ] == 0.25
-    assert trace["reflection_lm_usage"]["by_prompt_kind"]["quote_verification"][
-        "total_cost_usd"
-    ] == 0.5
+    assert trace["reflection_lm_usage"]["by_prompt_kind"]["extraction"]["total_cost_usd"] == 0.25
+    assert (
+        trace["reflection_lm_usage"]["by_prompt_kind"]["quote_verification"]["total_cost_usd"]
+        == 0.5
+    )
     assert trace["reflection_lm_identity"] == {
         "kind": "model",
         "model": "anthropic/reflection-a",
     }
-    assert trace["task_provider_identity_sha256"] == hash_canonical(
-        trace["task_provider_identity"]
-    )
+    assert trace["task_provider_identity_sha256"] == hash_canonical(trace["task_provider_identity"])
 
     other_reflection = optimize_prompts(
         manifest_path=manifest_path,
@@ -1039,18 +1016,14 @@ def test_cli_wires_separate_task_and_reflection_cost_budgets() -> None:
         ]
     )
     assert compare_args.command == "compare-test"
-    assert compare_args.seed_extraction_template == Path(
-        "prompts/original-extraction.md"
-    )
+    assert compare_args.seed_extraction_template == Path("prompts/original-extraction.md")
     assert compare_args.seed_verification_template is None
 
 
 def test_official_gepa_014_adapter_contract_when_extra_is_installed(tmp_path: Path) -> None:
     gepa = pytest.importorskip("gepa")
     example = extraction_example("official-api")
-    candidate = {
-        "extraction_prompt": "Prompt version: `gepa-official-v1`\n[[SOURCE_TEXT]]\n"
-    }
+    candidate = {"extraction_prompt": "Prompt version: `gepa-official-v1`\n[[SOURCE_TEXT]]\n"}
     key = provider_request_key(example, candidate)
     provider = FixtureProvider(
         {("gepa-extraction", key): example.model_dump(mode="json")["expected_output"]}

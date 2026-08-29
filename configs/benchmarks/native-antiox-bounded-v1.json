@@ -1,0 +1,41 @@
+{
+  "base_config_file_sha256": "61c50df6651c23e7ee603cd5a36349dd6c20cab810e69e7831389ab0f1aec524",
+  "base_config_path": "configs/benchmarks/native-antiox-ollama-v1.json",
+  "config_sha256": "f42384e399602e4cd42a0cf9f07f56b0220560c61acfdf32c6e5b1e8d4fea746",
+  "config_version": "native-antiox-bounded-config-v1",
+  "diagnostic_scope": "historically_opened_development_only",
+  "inventory_generation_config": {
+    "config_version": "ollama-deterministic-json-generation-v1",
+    "expected_ollama_version": "0.15.1",
+    "keep_alive": "30m",
+    "model": "qwen2.5:3b-instruct",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "num_ctx": 8192,
+    "num_predict": 768,
+    "seed": 20260827,
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0
+  },
+  "inventory_prompt_file_sha256": "3d0f153182d2d12b7a29583305b3a488b09cf883b122286cee6bf63656485cfb",
+  "inventory_prompt_path": "prompts/native_candidate_inventory.md",
+  "model_parameter_size": "3.1B",
+  "model_quantization_level": "Q4_K_M",
+  "packet_generation_config": {
+    "config_version": "ollama-deterministic-json-generation-v1",
+    "expected_ollama_version": "0.15.1",
+    "keep_alive": "30m",
+    "model": "qwen2.5:3b-instruct",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 20260827,
+    "temperature": 0.0,
+    "top_k": 1,
+    "top_p": 1.0
+  },
+  "packet_prompt_file_sha256": "8aeb09f72be021a8988dc8d9d4e10fc0c3ea39e14e14f4c25756aaf4bb0a4ed3",
+  "packet_prompt_path": "prompts/native_candidate_packet.md",
+  "retrospective_model_schema_selection": true,
+  "selection_population_records": 19
+}

@@ -27,9 +27,17 @@ from enum import StrEnum
 
 
 class ProbabilityBasis(StrEnum):
-    """How an item's pre-audit error probability was obtained."""
+    """How an item's pre-audit scheduling score was obtained.
+
+    ``CALIBRATED_CELL_RATE_UCL`` is a simultaneous upper confidence limit for the
+    *group-average* error rate in a frozen domain-by-score-bin cell.  It is not an
+    individual item's marginal error probability and is never a claim-decision-risk
+    bound.  ``CALIBRATED_UPPER_BOUND`` is retained solely so legacy artifacts parse;
+    release guards treat it as unproved and fail closed.
+    """
 
     CALIBRATED = "calibrated"
+    CALIBRATED_CELL_RATE_UCL = "calibrated_cell_rate_ucl"
     CALIBRATED_UPPER_BOUND = "calibrated_upper_bound"
     HEURISTIC = "heuristic"
     PLANTED_SIMULATION = "planted_simulation"
@@ -245,20 +253,24 @@ class BudgetSelection:
 
 @dataclass(frozen=True, slots=True)
 class ReleaseGuardConfig:
-    """Conservative thresholds for unresolved audit candidates.
+    """Conservative *audit-triage* thresholds for unresolved candidates.
 
-    A partial-audit release requires marginal error-probability *upper bounds*.  Their
-    clipped sum is a union bound on any unresolved evidence-item error, without an
-    independence assumption.  Plain calibrated probabilities and heuristic scores may
-    prioritize audits but cannot establish that residual-risk bound.
+    The cell-UCL sum is a blocking burden score only.  Cell-average rate limits do not
+    become itemwise probabilities after influence/cost-based selection, and this guard
+    never provides claim-level risk control.  A complete-question calibrated policy is
+    a separate mandatory downstream release gate.
+
+    Deliberately do not accept legacy fields named ``error_probability`` or
+    ``residual_decision_risk`` here: silently mapping either name onto a cell-average
+    upper confidence limit would overstate what the calibration artifact establishes.
     """
 
     max_unresolved_item_influence: float = 0.05
     max_unresolved_expected_claim_loss: float = 0.05
     block_counterfactual_conclusion_flips: bool = True
-    require_calibrated_error_probabilities: bool = True
-    require_error_probability_upper_bounds: bool = True
-    max_residual_decision_risk: float = 0.05
+    require_calibrated_item_scores: bool = True
+    require_item_cell_rate_ucls: bool = True
+    max_unresolved_item_cell_ucl_sum: float = 0.05
 
     def __post_init__(self) -> None:
         if not math.isfinite(self.max_unresolved_item_influence) or not (
@@ -269,10 +281,10 @@ class ReleaseGuardConfig:
             self.max_unresolved_expected_claim_loss < 0
         ):
             raise ValueError("release_guard_expected_loss_limit_invalid")
-        if not math.isfinite(self.max_residual_decision_risk) or not (
-            0 <= self.max_residual_decision_risk <= 1
+        if not math.isfinite(self.max_unresolved_item_cell_ucl_sum) or not (
+            0 <= self.max_unresolved_item_cell_ucl_sum <= 1
         ):
-            raise ValueError("release_guard_residual_risk_limit_invalid")
+            raise ValueError("release_guard_item_cell_ucl_sum_limit_invalid")
 
 
 @dataclass(frozen=True, slots=True)
@@ -287,9 +299,9 @@ class ReleaseGuardDecision:
     unresolved_high_influence_item_ids: tuple[str, ...]
     unresolved_noncalibrated_item_ids: tuple[str, ...]
     unresolved_expected_claim_loss: float
-    unresolved_without_probability_bound_item_ids: tuple[str, ...]
-    residual_decision_risk_upper_bound: float | None
-    residual_risk_bound_assumptions: tuple[str, ...]
+    unresolved_without_cell_rate_ucl_item_ids: tuple[str, ...]
+    unresolved_item_cell_ucl_sum: float | None
+    item_ucl_interpretation_limits: tuple[str, ...]
     config: ReleaseGuardConfig
 
 
@@ -535,10 +547,10 @@ def assess_prospective_release_guard(
     snapshot and rerun this function.  Merely allocating or assigning an item does not
     resolve it.
 
-    The summed scenario loss is a triage burden, not a joint probabilistic bound:
-    counterfactuals can interact and heuristic error scores are not probabilities.  A
-    separately reported union bound is available only when every unresolved risk value
-    is explicitly contracted as a calibrated marginal upper bound.
+    The summed scenario loss and summed cell-rate UCLs are triage burdens, not joint
+    probabilistic bounds.  Counterfactuals can interact, a group-average cell rate is
+    not an itemwise probability, and adaptive audit outcomes change the conditional
+    distribution of the unresolved set.
     """
 
     _validate_candidates(candidates)
@@ -567,54 +579,59 @@ def assess_prospective_release_guard(
     )
     calibrated_bases = {
         ProbabilityBasis.CALIBRATED,
-        ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+        ProbabilityBasis.CALIBRATED_CELL_RATE_UCL,
     }
     noncalibrated = tuple(
         record.item_id
         for record in unresolved
         if candidate_by_id[record.item_id].probability_basis not in calibrated_bases
     )
-    without_probability_bound = tuple(
+    without_cell_rate_ucl = tuple(
         record.item_id
         for record in unresolved
         if candidate_by_id[record.item_id].probability_basis
-        is not ProbabilityBasis.CALIBRATED_UPPER_BOUND
+        is not ProbabilityBasis.CALIBRATED_CELL_RATE_UCL
+    )
+    legacy_upper_bound_declarations = tuple(
+        record.item_id
+        for record in unresolved
+        if candidate_by_id[record.item_id].probability_basis
+        is ProbabilityBasis.CALIBRATED_UPPER_BOUND
     )
     expected_loss = math.fsum(
         record.expected_claim_loss_reduction for record in unresolved
     )
     reasons: list[str] = []
-    if config.require_error_probability_upper_bounds and without_probability_bound:
-        reasons.append("unresolved_error_probabilities_not_upper_bounds")
-        residual_risk_bound: float | None = None
+    if without_cell_rate_ucl:
+        if config.require_item_cell_rate_ucls:
+            reasons.append("unresolved_items_missing_calibrated_cell_rate_ucl")
+        item_cell_ucl_sum: float | None = None
     else:
-        # Boole's inequality needs no independence assumption.  Under the declared
-        # itemwise upper-bound semantics, a wrong evidence-driven decision implies at
-        # least one unresolved extraction error, so the clipped sum is conservative.
-        residual_risk_bound = min(
+        # This sum deliberately has no union-bound or individual-risk semantics.  It
+        # aggregates simultaneous group-average cell-rate UCLs as a conservative audit
+        # burden score.  Adaptive selection can make the unresolved subset differ from
+        # the cell calibration population.
+        item_cell_ucl_sum = min(
             1.0,
             math.fsum(
                 candidate_by_id[record.item_id].error_probability
                 for record in unresolved
             ),
         )
-        if residual_risk_bound > config.max_residual_decision_risk:
-            reasons.append("residual_decision_risk_upper_bound_exceeds_limit")
-    residual_bound_controls_release = (
-        residual_risk_bound is not None
-        and residual_risk_bound <= config.max_residual_decision_risk
-    )
-    # Influence and expected-loss thresholds are conservative triage gates when no
-    # valid residual-risk bound exists.  A valid bound already controls the probability
-    # of any unresolved evidence error and therefore supersedes scenario magnitude.
-    if not residual_bound_controls_release:
-        if config.block_counterfactual_conclusion_flips and flips:
-            reasons.append("unresolved_counterfactual_can_flip_conclusion")
-        if high_influence:
-            reasons.append("unresolved_item_influence_exceeds_limit")
-        if expected_loss > config.max_unresolved_expected_claim_loss:
-            reasons.append("unresolved_expected_claim_loss_exceeds_limit")
-    if config.require_calibrated_error_probabilities and noncalibrated:
+        if item_cell_ucl_sum > config.max_unresolved_item_cell_ucl_sum:
+            reasons.append("unresolved_item_cell_ucl_sum_exceeds_limit")
+    # Legacy/manual declarations are never accepted as formal authority, even when a
+    # diagnostic caller disables the general score/UCL requirements.
+    if legacy_upper_bound_declarations:
+        reasons.append("unresolved_legacy_calibrated_upper_bound_not_accepted")
+    # A small cell-UCL burden never supersedes counterfactual stability gates.
+    if config.block_counterfactual_conclusion_flips and flips:
+        reasons.append("unresolved_counterfactual_can_flip_conclusion")
+    if high_influence:
+        reasons.append("unresolved_item_influence_exceeds_limit")
+    if expected_loss > config.max_unresolved_expected_claim_loss:
+        reasons.append("unresolved_expected_claim_loss_exceeds_limit")
+    if config.require_calibrated_item_scores and noncalibrated:
         reasons.append("unresolved_error_probabilities_not_calibrated")
     return ReleaseGuardDecision(
         status=(
@@ -629,13 +646,15 @@ def assess_prospective_release_guard(
         unresolved_high_influence_item_ids=high_influence,
         unresolved_noncalibrated_item_ids=noncalibrated,
         unresolved_expected_claim_loss=expected_loss,
-        unresolved_without_probability_bound_item_ids=without_probability_bound,
-        residual_decision_risk_upper_bound=residual_risk_bound,
-        residual_risk_bound_assumptions=(
-            "item_error_values_are_marginal_probability_upper_bounds",
-            "an_evidence_driven_decision_error_requires_at_least_one_unresolved_item_error",
-            "union_bound_requires_no_item_error_independence",
-            "bound_excludes_retrieval_model_and_population_shift_unless_encoded_as_items",
+        unresolved_without_cell_rate_ucl_item_ids=without_cell_rate_ucl,
+        unresolved_item_cell_ucl_sum=item_cell_ucl_sum,
+        item_ucl_interpretation_limits=(
+            "ucl_estimand_is_group_average_error_rate_within_domain_and_score_bin",
+            "ucl_is_not_an_individual_item_marginal_or_conditional_error_probability",
+            "ucl_sum_is_an_audit_triage_burden_not_a_union_or_claim_decision_risk_bound",
+            "adaptive_selection_and_prior_audit_outcomes_can_change_unresolved_subset_risk",
+            "familywise_delta_is_confidence_failure_probability_not_part_of_the_ucl_sum",
+            "complete_question_policy_calibration_is_required_for_claim_level_risk_control",
         ),
         config=config,
     )
@@ -658,8 +677,8 @@ def run_sequential_value_of_information(
     ``refresh_after_audit`` is deliberately the only mutation boundary.  It must obtain
     a completed adjudication, apply any correction to the upstream evidence graph,
     rerun the actual synthesizer, and return freshly derived counterfactual candidates.
-    The scheduler never accepts hidden labels itself.  It stops as soon as the residual
-    risk guard permits downstream gates, the budget cannot fit another item, or every
+    The scheduler never accepts hidden labels itself.  It stops as soon as the audit
+    triage guard permits downstream gates, the budget cannot fit another item, or every
     item has been resolved.
     """
 
@@ -683,7 +702,7 @@ def run_sequential_value_of_information(
             config=guard_config,
         )
         if guard.status is ReleaseGuardStatus.ELIGIBLE_FOR_DOWNSTREAM_GATES:
-            stop_reason = "residual_risk_guard_satisfied"
+            stop_reason = "audit_guard_eligible_for_downstream_gates"
             break
         unresolved_candidates = [
             candidate

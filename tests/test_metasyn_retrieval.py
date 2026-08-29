@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import pytest
-from scripts.run_local_benchmarks import BenchmarkSuiteError, load_suite
+from scripts.run_local_benchmarks import BenchmarkSuiteError, license_audit, load_suite
 
 from literature_multiverse.lineage import sha256_file
 from literature_multiverse.metasyn_retrieval import (
@@ -94,6 +94,7 @@ def test_stable_top_k_excludes_source_review_and_breaks_ties_by_corpus_id() -> N
 def test_suite_contract_forbids_opened_labels_from_pristine_holdout(tmp_path: Path) -> None:
     suite = {
         "benchmark_suite_version": "1",
+        "suite_id": "local-real-data-evaluation-v1",
         "network_calls": 0,
         "corpora": {
             "metasyn": {
@@ -111,3 +112,62 @@ def test_suite_contract_forbids_opened_labels_from_pristine_holdout(tmp_path: Pa
 
     with pytest.raises(BenchmarkSuiteError, match="opened_labels_cannot_be_pristine"):
         load_suite(path)
+
+
+def test_license_audit_requires_nonempty_file_and_matching_project_declaration(
+    tmp_path: Path,
+) -> None:
+    (tmp_path / "LICENSE").write_text("", encoding="utf-8")
+    (tmp_path / "pyproject.toml").write_text(
+        '[project]\nname = "fixture"\nlicense = "MIT"\n', encoding="utf-8"
+    )
+    assert license_audit(repository_root=tmp_path)[
+        "repository_public_release_ready"
+    ] is False
+
+    (tmp_path / "LICENSE").write_text("fixture license\n", encoding="utf-8")
+    audit = license_audit(repository_root=tmp_path)
+    assert audit["repository_public_release_ready"] is True
+    assert audit["repository_declared_license"] == "MIT"
+    assert audit["repository_code_license_files"][0]["bytes"] > 0
+
+
+def test_checked_in_suite_freezes_development_selection_and_one_calibration() -> None:
+    suite = load_suite(Path("configs/benchmarks/local-suite-v1.json"))
+
+    assert suite["corpora"]["metasyn"]["retrieval_study"] == {
+        "protocol_version": "1",
+        "candidate_ids": [
+            "bm25-fixed-v1",
+            "rrf-tfidf-bm25-fixed-v1",
+            "tfidf-fixed-v1",
+        ],
+        "selection_split": "development",
+        "single_evaluation_split": "calibration",
+        "official_test_evaluated": False,
+        "primary_metric": "question_weighted_macro_matched_subset_recall_at_200",
+    }
+    assert suite["corpora"]["metasyn"]["screening_study"] == {
+        "protocol_version": "1",
+        "candidate_ids": [
+            "logistic-l2-balanced-v1",
+            "monotonic-hist-gradient-balanced-v1",
+            "rrf-passthrough-v1",
+        ],
+        "selection_split": "development",
+        "single_evaluation_split": "calibration",
+        "retrieval_source_candidate_id": "rrf-tfidf-bm25-fixed-v1",
+        "retrieval_candidate_depth": 200,
+        "official_test_evaluated": False,
+        "primary_metric": (
+            "unweighted_mean_question_macro_absolute_recall_at_10_20_50_100"
+        ),
+    }
+    corpus_manifest_pin = next(
+        record
+        for record in suite["pinned_files"]
+        if record["path"] == "configs/benchmarks/metasyn-corpus-c8fa07d.json"
+    )
+    assert corpus_manifest_pin["sha256"] == sha256_file(
+        Path("configs/benchmarks/metasyn-corpus-c8fa07d.json")
+    )

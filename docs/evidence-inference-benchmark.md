@@ -5,6 +5,9 @@ extraction-and-grounding benchmark for the optional GEPA prompt optimizer. It pr
 upstream article-level train/validation/test split and uses exact PMC article identifiers as both
 `paper_id` and `group_id`, preventing prompts from the same paper from crossing splits.
 
+The staged provider-free official-GEPA protocol is documented separately in
+[Local-Ollama official-GEPA Evidence Inference study](evidence-inference-local-ollama-gepa.md).
+
 ## Official sources and scope
 
 - Data and format documentation: <https://evidence-inference.ebm-nlp.com/download/>
@@ -37,7 +40,7 @@ tar -xzf data/cache/evidence-inference-2.0/v2.0.tar.gz \
 
 uv run python scripts/convert_evidence_inference.py \
   --output-dir data/cache/evidence-inference-gepa \
-  --metadata-summary artifacts/paper/evidence-inference-benchmark-summary.json
+  --metadata-summary data/cache/evidence-inference-gepa/metadata-summary.private.json
 ```
 
 For a cheap structural smoke test, append `--max-examples-per-split 3`. The cap uses a
@@ -50,7 +53,8 @@ The checked first-pass configuration uses 12 examples from 12 distinct papers pe
 uv run python scripts/convert_evidence_inference.py \
   --output-dir data/cache/evidence-inference-gepa-low-budget \
   --max-examples-per-split 12 \
-  --metadata-summary artifacts/paper/evidence-inference-low-budget-summary.json
+  --metadata-summary \
+    data/cache/evidence-inference-gepa-low-budget/metadata-summary.private.json
 ```
 
 Validate the generated split contract without opening the test JSONL:
@@ -95,50 +99,29 @@ through LiteLLM rather than the archived task-provider ledger, so the combined `
 conservative preflight policy under the stated headroom, not a mechanically hard cross-provider
 ledger.
 
-## Frozen corrected pilot
+## Superseded 12-example archive
 
-The corrected official-GEPA run is archived locally at
-`data/cache/gepa/evidence-inference-first-pass-v2`. It evaluated the seed on development at
-0.7781675 and one full mutation at 0.51258, then retained candidate 0. The frozen prompt and
-original seed have the same SHA-256, so a second paired test arm would have sent the exact same
-prompt and was intentionally not run. The byte-identical frozen seed was evaluated once on the
-12-example split held out from optimization. Public schemas and aggregate benchmark statistics
-had already been inspected, so this split is not described as pristine or untouched.
+The first provider-backed archive under
+`data/cache/gepa/evidence-inference-first-pass-v2` is retained locally for forensic
+replay, but it is no longer a citable optimization result. A receipt-level audit found
+only 10 clean common development responses and two missing mutation responses. The
+archived trace scalar near `0.51258` is therefore excluded fail closed. The public,
+self-hashed audit at `artifacts/diagnostics/evidence-inference/summary.json` exposes the
+receipt counts and missing-response bounds without publishing text, identifiers,
+predictions, or labels.
 
-The frozen test scalar score is 0.6341775: direction correctness 0.6666667,
-grounding/schema validity 0.5833333, and cost efficiency 0.43355. Nine of 12 task calls completed;
-three returned invalid structured JSON and received the evaluator's failure score. Test task-call
-cost was `$0.172042`. Optimization made 46 task calls (41 complete and 5 failed) costing
-`$0.64265`. The six calls beyond the nominal 40-call cap are a completed GEPA batch at the stopper
-boundary, not an assertion that the cap is hard per request.
-
-The historical optimization trace did not retain the GEPA reflection-LM instance. Reflection cost,
-input tokens, and output tokens are therefore unavailable (`null`), not zero, and total pilot cost
-must not be claimed. Future optimizer runs construct and retain a separate official tracked LM for
-each prompt kind, preserving each kind's independent reflection stopper. Their traces record
-per-kind and aggregate cost/input/output telemetry and bind both the reflection-LM identity and a
-safe task-provider configuration fingerprint into the run identity. This is a small first-pass
-benchmark result, not evidence of an optimization improvement: the only mutation was worse and the
-seed won.
-
-Regenerate the trackable, metadata-only paper receipt without opening an API connection:
-
-```bash
-uv run python scripts/summarize_gepa_pilot.py \
-  --run-dir data/cache/gepa/evidence-inference-first-pass-v2 \
-  --manifest data/cache/evidence-inference-gepa-low-budget/manifest.json \
-  --seed-prompt prompts/evidence_inference_extraction.md \
-  --failed-run-summary \
-    artifacts/paper/evidence-inference-2/failed-raw-schema-pilot30-summary.json \
-  --failed-run-dir data/cache/gepa-failed-runs/raw-schema-pilot30-20260826 \
-  --output artifacts/paper/evidence-inference-gepa-pilot-summary.json \
-  --force
-```
-
-The summarizer validates the trace, winner, report, manifest, prompt hashes, and archived provider
-receipt aggregates. Its output contains no PICO/source/evidence text, model outputs, per-example
-labels, or per-example scores. The failed raw-schema run is recorded in a separate excluded section
-and contributes no experimental measurement.
+The provider-free official-GEPA study replaces that pilot with a frozen development
+selection and one paired evaluation on all 524 non-pristine test examples from 191
+articles. The clean `final-v3` run completed 540 optimization task calls, 8 reflection
+calls, and 524 seed plus 524 winner test calls; all 1,596 receipts validate. GEPA chose a
+changed prompt, but direction accuracy was **0.322519** versus **0.326336** for the seed,
+a paired article-clustered difference of **-0.003817 [-0.024905, 0.015152]**. The frozen
+improvement rule is false and the status is `no_improvement_claim`. The aggregate at
+`artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json` has self-hash
+`1039156083798863e85761ecf94b76578c74066af2ef7b7691fd4d724f4967ce` and passes current-source
+and private-receipt replay validation. This is a useful negative local-model result, not
+confirmatory evidence. Reproduce and audit it with `scripts/run_ollama_gepa_study.py` and
+the contract in `docs/evidence-inference-local-ollama-gepa.md`.
 
 ## Leakage boundary
 
@@ -149,8 +132,9 @@ text, and evidence offsets are confined to evaluator-only output construction. T
 renders replacements and source lines, not `expected_output`.
 
 The bundle contains separately hash-locked `train.jsonl`, `dev.jsonl`, and `test.jsonl` files.
-Optimization opens train and dev only. Held-out evaluation opens test only after the winner is
-frozen.
+Optimization for this run opens train and dev only; staged test evaluation opens test only after
+the winner is frozen. That sequencing prevents within-run test optimization but does not restore
+pristine-holdout status to the historically opened 524-example test split.
 
 ## Provider schema boundary and failed pilot
 

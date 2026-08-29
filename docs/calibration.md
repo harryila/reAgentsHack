@@ -1,8 +1,15 @@
 # Question-level release calibration
 
-The release gate treats one complete question--corpus run as one calibration unit. Papers,
-findings, bootstrap draws, and model samples are features or dependent observations; they are not
-counted as independent calibration examples.
+This page documents the legacy one-shot question-risk primitive and its physically separated
+freeze/evaluate workflow. It remains useful for mechanism checks and diagnostics, but it cannot
+authorize a stateful sequential release. The deployed generic verifier instead uses the exact
+complete-trajectory contract in
+[adaptive-calibration-contract.md](adaptive-calibration-contract.md); a global manifest-v3
+`condition_dependent` verdict requires that contract's confirmation-aware v2 path.
+
+In every question-level contract, one complete question--corpus run is one calibration unit.
+Papers, findings, bootstrap draws, and model samples are features or dependent observations; they
+are not counted as independent calibration examples.
 
 ## Contract
 
@@ -134,7 +141,8 @@ uv run python scripts/simulate_risk_calibration.py \
   --output artifacts/paper/calibration-simulation-100.json \
   --replicates 100 --seed 20260826 \
   --alpha 0.10 --delta 0.05 \
-  --development-count 400 --calibration-count 2000 --test-count 2000
+  --development-count 400 --calibration-count 2000 --test-count 2000 \
+  --force
 ```
 
 The committed 100-replicate planted study reports mean coverage 0.252 and mean planted selective

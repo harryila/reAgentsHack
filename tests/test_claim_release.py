@@ -230,6 +230,7 @@ def _assess(
     budget: float = 10.0,
     config: ClaimReleaseConfig | None = None,
     claim_model: ClaimModel | None = None,
+    domain: str = "biomedicine",
 ):
     candidates = list(candidates if candidates is not None else _audit_candidates(graph))
     selected_claim_model = claim_model or ClaimModel(
@@ -241,7 +242,7 @@ def _assess(
             graph=graph,
             question_id="prospective-question",
             population_id="prospective-population-v1",
-            domain="biomedicine",
+            domain=domain,
             pipeline_sha256=PIPELINE_SHA256,
             target=ClaimTarget(direction="increase", outcome_name="performance"),
             audit_candidates=candidates,
@@ -345,17 +346,17 @@ def test_zero_or_understated_influence_cannot_release_unresolved_estimates() -> 
     assert all(row.probability_influence == 0 for row in result.audit.ranking)
     assert result.audit.unresolved_item_ids == result.audit.expected_item_ids
     assert result.audit.status == "blocked"
-    assert "unresolved_error_probabilities_not_upper_bounds" in result.audit.reasons
+    assert "unresolved_items_missing_calibrated_cell_rate_ucl" in result.audit.reasons
     assert result.status == "abstained"
 
 
-def test_bounded_residual_risk_allows_partial_audit_release() -> None:
+def test_small_item_cell_rate_ucl_never_authorizes_partial_audit_release() -> None:
     graph = _graph()
     candidates = [
         replace(
             candidate,
             error_probability=0.005,
-            probability_basis=ProbabilityBasis.CALIBRATED_UPPER_BOUND,
+            probability_basis=ProbabilityBasis.CALIBRATED_CELL_RATE_UCL,
         )
         for candidate in _audit_candidates(graph)
     ]
@@ -368,12 +369,21 @@ def test_bounded_residual_risk_allows_partial_audit_release() -> None:
         budget=0.0,
     )
 
-    assert result.status == "released"
-    assert result.audit.status == "eligible"
+    assert result.status == "abstained"
+    assert result.audit.status == "blocked"
     assert result.audit.selected_item_ids == []
     assert result.audit.resolved_item_ids == []
     assert result.audit.unresolved_item_ids == result.audit.expected_item_ids
-    assert result.audit.residual_decision_risk_upper_bound == pytest.approx(0.015)
+    assert result.audit.unresolved_item_cell_ucl_sum == pytest.approx(0.015)
+    assert any(
+        reason
+        in {
+            "unresolved_counterfactual_can_flip_conclusion",
+            "unresolved_item_influence_exceeds_limit",
+            "unresolved_expected_claim_loss_exceeds_limit",
+        }
+        for reason in result.audit.reasons
+    )
 
 
 def test_graph_counterfactual_plan_reruns_the_actual_synthesis() -> None:
@@ -578,7 +588,7 @@ def test_directional_fallback_uses_exact_sign_interval_and_cannot_fake_precision
     assert relaxed.evidence.classification == "supported"
 
 
-def test_prespecified_opposite_subgroups_produce_condition_dependent_outcome() -> None:
+def test_same_corpus_opposite_subgroups_remain_exploratory() -> None:
     component_graphs = [
         adapt_effect_evidence(
             _evidence(
@@ -612,9 +622,13 @@ def test_prespecified_opposite_subgroups_produce_condition_dependent_outcome() -
         ),
     )
 
-    assert result.evidence.classification == "condition_dependent"
-    assert result.evidence.condition_moderators == ["population"]
-    assert result.evidence.condition_interpretation == "predictive_association_not_causal"
+    assert result.evidence.classification == "inconclusive"
+    assert result.evidence.condition_moderators == []
+    assert result.evidence.exploratory_condition_moderators == ["population"]
+    assert (
+        result.evidence.exploratory_condition_interpretation
+        == "predictive_association_not_causal"
+    )
     assert result.status == "abstained"
 
 
@@ -652,6 +666,20 @@ def test_calibration_feature_schema_mismatch_fails_closed() -> None:
     )
     with pytest.raises(ClaimReleaseContractError, match="feature_schema_mismatch"):
         _assess(graph, bundle=different_bundle)
+
+
+def test_unseen_domain_invalidates_question_level_release_calibration() -> None:
+    assessment = _assess(_graph(), bundle=_bundle(), domain="unseen-domain")
+
+    assert assessment.status == "abstained"
+    assert assessment.calibration.status == "abstained"
+    assert assessment.calibration.reason == (
+        "domain_shift_outside_frozen_calibration_support"
+    )
+    assert (
+        "calibration:domain_shift_outside_frozen_calibration_support"
+        in assessment.reasons
+    )
 
 
 def test_closed_request_cli_writes_the_same_hash_bound_release(tmp_path, capsys) -> None:

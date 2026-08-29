@@ -24,6 +24,11 @@ from literature_multiverse.budgeted_verification import (
     ProbabilityBasis,
     ScenarioKind,
 )
+from literature_multiverse.claim_semantics import (
+    ClaimTargetV2,
+    ConditionSetStatus,
+    evaluate_condition_predicates,
+)
 from literature_multiverse.effects import (
     EquivalenceConclusion,
     HarmonizationResult,
@@ -206,6 +211,58 @@ def _point_direction(estimate: float) -> PointDirection:
     return PointDirection.EXACT_ZERO
 
 
+def _moderator_value_identity(
+    value: str | int | float | bool,
+) -> tuple[str, str]:
+    """Preserve moderator types when grouping categorical levels.
+
+    Python equality aliases ``True``, ``1``, and ``1.0``. Scientific condition
+    contracts do not, so neither within-unit conflict detection nor between-unit
+    categorical regression may use an untyped ``set`` or plain ``str(value)``.
+    """
+
+    if isinstance(value, str):
+        return "str", value.strip()
+    if isinstance(value, bool):
+        return "bool", "true" if value else "false"
+    if isinstance(value, int):
+        return "int", str(value)
+    return "float", repr(value)
+
+
+def _moderator_level_label(value: str | int | float | bool) -> str:
+    kind, normalized = _moderator_value_identity(value)
+    return normalized if kind == "str" else f"{kind}:{normalized}"
+
+
+def _moderator_value_is_present(value: object) -> bool:
+    return value is not None and (not isinstance(value, str) or bool(value.strip()))
+
+
+def _aggregate_moderators(
+    rows: Sequence[HarmonizedEffect],
+) -> tuple[dict[str, str | int | float | bool | None], list[str]]:
+    names = sorted({name for row in rows for name in row.moderators})
+    moderators: dict[str, str | int | float | bool | None] = {}
+    conflicts: list[str] = []
+    for name in names:
+        observed: dict[tuple[str, str], str | int | float | bool] = {}
+        for row in rows:
+            value = row.moderators.get(name)
+            if value is None:
+                continue
+            normalized = value.strip() if isinstance(value, str) else value
+            observed[_moderator_value_identity(normalized)] = normalized
+        if len(observed) > 1:
+            conflicts.append(name)
+            moderators[name] = None
+        elif observed:
+            moderators[name] = next(iter(observed.values()))
+        else:
+            moderators[name] = None
+    return moderators, conflicts
+
+
 def _insufficient_aggregation(
     effects: Sequence[HarmonizedEffect], reason: str
 ) -> PaperAggregationResult:
@@ -268,29 +325,18 @@ def aggregate_one_effect_per_paper(
         estimate = sum(row.estimate for row in rows) / count
         variances = [row.variance for row in rows]
         covariance_sum = sum(variances)
-        covariance_sum += 2 * assumed_within_paper_correlation * sum(
-            math.sqrt(variances[left] * variances[right])
-            for left in range(count)
-            for right in range(left + 1, count)
+        covariance_sum += (
+            2
+            * assumed_within_paper_correlation
+            * sum(
+                math.sqrt(variances[left] * variances[right])
+                for left in range(count)
+                for right in range(left + 1, count)
+            )
         )
         variance = covariance_sum / count**2
 
-        moderator_names = sorted({name for row in rows for name in row.moderators})
-        moderators: dict[str, str | int | float | bool | None] = {}
-        conflicts: list[str] = []
-        for name in moderator_names:
-            observed = {
-                row.moderators.get(name)
-                for row in rows
-                if row.moderators.get(name) is not None
-            }
-            if len(observed) > 1:
-                conflicts.append(name)
-                moderators[name] = None
-            elif observed:
-                moderators[name] = next(iter(observed))
-            else:
-                moderators[name] = None
+        moderators, conflicts = _aggregate_moderators(rows)
 
         paper_effects.append(
             PaperEffect(
@@ -306,9 +352,7 @@ def aggregate_one_effect_per_paper(
                 source_locators=sorted({row.provenance.source_locator for row in rows}),
                 moderators=moderators,
                 moderator_conflicts=conflicts,
-                reported_significance=sorted(
-                    {row.reported_significance for row in rows}, key=str
-                ),
+                reported_significance=sorted({row.reported_significance for row in rows}, key=str),
                 equivalence_conclusions=sorted(
                     {row.equivalence_conclusion for row in rows}, key=str
                 ),
@@ -399,22 +443,7 @@ def aggregate_one_effect_per_cohort(
             )
         )
         variance = covariance_sum / count**2
-        moderator_names = sorted({name for row in rows for name in row.moderators})
-        moderators: dict[str, str | int | float | bool | None] = {}
-        conflicts: list[str] = []
-        for name in moderator_names:
-            observed = {
-                row.moderators.get(name)
-                for row in rows
-                if row.moderators.get(name) is not None
-            }
-            if len(observed) > 1:
-                conflicts.append(name)
-                moderators[name] = None
-            elif observed:
-                moderators[name] = next(iter(observed))
-            else:
-                moderators[name] = None
+        moderators, conflicts = _aggregate_moderators(rows)
         cohort_effects.append(
             CohortEffect(
                 cohort_id=cohort_id,
@@ -427,14 +456,10 @@ def aggregate_one_effect_per_cohort(
                 variance=variance,
                 point_direction=_point_direction(estimate),
                 source_finding_ids=sorted({row.finding_id for row in rows}),
-                source_locators=sorted(
-                    {row.provenance.source_locator for row in rows}
-                ),
+                source_locators=sorted({row.provenance.source_locator for row in rows}),
                 moderators=moderators,
                 moderator_conflicts=conflicts,
-                reported_significance=sorted(
-                    {row.reported_significance for row in rows}, key=str
-                ),
+                reported_significance=sorted({row.reported_significance for row in rows}, key=str),
                 equivalence_conclusions=sorted(
                     {row.equivalence_conclusion for row in rows}, key=str
                 ),
@@ -468,9 +493,7 @@ def _weighted_fit(
     return beta, covariance, weights, q_value
 
 
-def _paule_mandel_tau_squared(
-    y: np.ndarray, variances: np.ndarray, design: np.ndarray
-) -> float:
+def _paule_mandel_tau_squared(y: np.ndarray, variances: np.ndarray, design: np.ndarray) -> float:
     """Generalized Paule-Mandel tau²: solve weighted residual Q(tau²)=df."""
 
     degrees_freedom = len(y) - design.shape[1]
@@ -587,9 +610,7 @@ def random_effects_meta_analysis(
             "lower": prediction_lower,
             "upper": prediction_upper,
             "degrees_freedom": len(y) - 2,
-            "ratio_scale": _ratio_scale(
-                measure, estimate, prediction_lower, prediction_upper
-            ),
+            "ratio_scale": _ratio_scale(measure, estimate, prediction_lower, prediction_upper),
         }
     else:
         prediction_interval = {
@@ -699,9 +720,7 @@ def cohort_random_effects_meta_analysis(
             "lower": prediction_lower,
             "upper": prediction_upper,
             "degrees_freedom": len(y) - 2,
-            "ratio_scale": _ratio_scale(
-                measure, estimate, prediction_lower, prediction_upper
-            ),
+            "ratio_scale": _ratio_scale(measure, estimate, prediction_lower, prediction_upper),
         }
     else:
         prediction_interval = {
@@ -727,9 +746,7 @@ def cohort_random_effects_meta_analysis(
         "ci_lower": lower,
         "ci_upper": upper,
         "point_direction": _point_direction(estimate).value,
-        "two_sided_p_value": float(
-            2 * t.sf(abs(estimate / standard_error), degrees_freedom)
-        ),
+        "two_sided_p_value": float(2 * t.sf(abs(estimate / standard_error), degrees_freedom)),
         "ratio_scale": _ratio_scale(measure, estimate, lower, upper),
         "prediction_interval": prediction_interval,
         "heterogeneity": {
@@ -810,8 +827,7 @@ def categorical_meta_regression(
     included = [
         effect
         for effect in aggregation.effects
-        if effect.moderators.get(moderator_name) is not None
-        and str(effect.moderators[moderator_name]).strip()
+        if _moderator_value_is_present(effect.moderators.get(moderator_name))
     ]
     included_paper_ids = {effect.paper_id for effect in included}
     missing = sorted(
@@ -820,7 +836,8 @@ def categorical_meta_regression(
         if effect.paper_id not in included_paper_ids
     )
     level_by_paper = {
-        effect.paper_id: str(effect.moderators[moderator_name]) for effect in included
+        effect.paper_id: _moderator_level_label(effect.moderators[moderator_name])
+        for effect in included
     }
     support = Counter(level_by_paper.values())
     common_base = {
@@ -950,6 +967,232 @@ def categorical_meta_regression(
     }
 
 
+def cohort_categorical_meta_regression(
+    effects: Sequence[HarmonizedEffect],
+    cohort_ids: Sequence[str],
+    moderator_name: str,
+    *,
+    reference_level: str | None = None,
+    confidence_level: float = 0.95,
+    min_cohorts_per_level: int = 2,
+    assumed_within_cohort_correlation: float = 1.0,
+) -> dict[str, Any]:
+    """Fit a categorical random-effects meta-regression at the cohort unit.
+
+    Every explicit cohort contributes exactly once, even when several publications
+    report it. Conversely, distinct cohorts reported by one publication remain
+    distinct analysis units. Moderator disagreement or absence within any cohort
+    fails closed rather than silently discarding or duplicating that cohort.
+
+    The fitted coefficients are predictive associations in the frozen literature
+    corpus. They are not causal subgroup effects.
+    """
+
+    if not moderator_name.strip():
+        raise MetaAnalysisContractError("moderator_name_must_be_nonempty")
+    if min_cohorts_per_level < 2:
+        raise MetaAnalysisContractError("min_cohorts_per_level_must_be_at_least_two")
+    if not 0 < confidence_level < 1:
+        raise MetaAnalysisContractError("confidence_level_must_be_between_zero_and_one")
+    aggregation = aggregate_one_effect_per_cohort(
+        effects,
+        cohort_ids,
+        assumed_within_cohort_correlation=assumed_within_cohort_correlation,
+    )
+    base: dict[str, Any] = {
+        "moderator": moderator_name,
+        "analysis_unit": "explicit_cohort",
+        "interpretation": "predictive_association_not_causal",
+        "method": {
+            "model": "categorical_random_effects_meta_regression",
+            "tau_squared": "generalized_paule_mandel",
+            "uncertainty": "modified_knapp_hartung",
+            "cluster_handling": "one_conservative_aggregate_per_explicit_cohort",
+            "confidence_level": confidence_level,
+            "assumed_within_cohort_correlation": assumed_within_cohort_correlation,
+        },
+        "n_effects_input": len(effects),
+        "n_publications": aggregation.n_publications,
+        "n_cohorts_before_moderator_check": aggregation.n_cohorts,
+        "input_provenance": _input_provenance(effects),
+    }
+    if aggregation.status == "insufficient":
+        return {**base, "status": "insufficient", "reason": aggregation.reason}
+
+    conflicted = sorted(
+        effect.cohort_id
+        for effect in aggregation.effects
+        if moderator_name in effect.moderator_conflicts
+    )
+    if conflicted:
+        return {
+            **base,
+            "status": "insufficient",
+            "reason": "moderator_varies_within_cohort",
+            "conflicted_cohort_ids": conflicted,
+        }
+
+    missing = sorted(
+        effect.cohort_id
+        for effect in aggregation.effects
+        if not _moderator_value_is_present(effect.moderators.get(moderator_name))
+    )
+    if missing:
+        return {
+            **base,
+            "status": "insufficient",
+            "reason": "moderator_missing_for_cohort",
+            "missing_moderator_cohort_ids": missing,
+        }
+
+    included = aggregation.effects
+    level_by_cohort = {
+        effect.cohort_id: _moderator_level_label(effect.moderators[moderator_name])
+        for effect in included
+    }
+    support = Counter(level_by_cohort.values())
+    publication_support = {
+        level: len(
+            {
+                paper_id
+                for effect in included
+                if level_by_cohort[effect.cohort_id] == level
+                for paper_id in effect.paper_ids
+            }
+        )
+        for level in support
+    }
+    common_base = {
+        **base,
+        "n_cohorts": len(included),
+        "support_by_level": dict(sorted(support.items())),
+        "publication_support_by_level": dict(sorted(publication_support.items())),
+    }
+    if len(support) < 2:
+        return {
+            **common_base,
+            "status": "insufficient",
+            "reason": "fewer_than_two_moderator_levels",
+        }
+    sparse = sorted(level for level, count in support.items() if count < min_cohorts_per_level)
+    if sparse:
+        return {
+            **common_base,
+            "status": "insufficient",
+            "reason": "level_has_too_few_cohorts",
+            "sparse_levels": sparse,
+        }
+    levels = sorted(support)
+    reference = reference_level or levels[0]
+    if reference not in support:
+        return {
+            **common_base,
+            "status": "insufficient",
+            "reason": "reference_level_not_observed",
+            "requested_reference_level": reference,
+        }
+    comparison_levels = [level for level in levels if level != reference]
+    design = np.asarray(
+        [
+            [
+                1.0,
+                *(float(level_by_cohort[effect.cohort_id] == level) for level in comparison_levels),
+            ]
+            for effect in included
+        ],
+        dtype=float,
+    )
+    residual_degrees_freedom = len(included) - design.shape[1]
+    if residual_degrees_freedom < 2:
+        return {
+            **common_base,
+            "status": "insufficient",
+            "reason": "fewer_than_two_residual_degrees_of_freedom",
+        }
+
+    y = np.asarray([effect.estimate for effect in included], dtype=float)
+    variances = np.asarray([effect.variance for effect in included], dtype=float)
+    tau_squared = _paule_mandel_tau_squared(y, variances, design)
+    beta, model_covariance, _, residual_q = _weighted_fit(y, variances, design, tau_squared)
+    scale = max(1.0, residual_q / residual_degrees_freedom)
+    covariance = model_covariance * scale
+    critical = float(t.ppf(0.5 + confidence_level / 2, residual_degrees_freedom))
+
+    coefficients: list[dict[str, Any]] = []
+    for index, level in enumerate(comparison_levels, start=1):
+        standard_error = math.sqrt(float(covariance[index, index]))
+        estimate = float(beta[index])
+        coefficients.append(
+            {
+                "level": level,
+                "reference_level": reference,
+                "estimate_difference": estimate,
+                "standard_error": standard_error,
+                "ci_lower": estimate - critical * standard_error,
+                "ci_upper": estimate + critical * standard_error,
+                "two_sided_p_value": float(
+                    2 * t.sf(abs(estimate / standard_error), residual_degrees_freedom)
+                ),
+            }
+        )
+
+    level_estimates: list[dict[str, Any]] = []
+    for level in levels:
+        contrast = np.asarray(
+            [1.0, *(float(level == item) for item in comparison_levels)], dtype=float
+        )
+        estimate = float(contrast @ beta)
+        standard_error = math.sqrt(float(contrast @ covariance @ contrast))
+        level_estimates.append(
+            {
+                "level": level,
+                "estimate": estimate,
+                "standard_error": standard_error,
+                "ci_lower": estimate - critical * standard_error,
+                "ci_upper": estimate + critical * standard_error,
+            }
+        )
+
+    moderator_beta = beta[1:]
+    moderator_covariance = covariance[1:, 1:]
+    omnibus_wald = float(moderator_beta @ np.linalg.inv(moderator_covariance) @ moderator_beta)
+    numerator_df = len(comparison_levels)
+    omnibus_f = omnibus_wald / numerator_df
+    return {
+        **common_base,
+        "status": "ok",
+        "reason": None,
+        "outcome": included[0].outcome,
+        "contrast": included[0].contrast,
+        "measure": included[0].measure.value,
+        "unit": included[0].unit,
+        "reference_level": reference,
+        "coefficients": coefficients,
+        "level_estimates": level_estimates,
+        "omnibus": {
+            "f_statistic": omnibus_f,
+            "numerator_degrees_freedom": numerator_df,
+            "denominator_degrees_freedom": residual_degrees_freedom,
+            "p_value": float(f.sf(omnibus_f, numerator_df, residual_degrees_freedom)),
+        },
+        "heterogeneity": {
+            "residual_tau_squared": tau_squared,
+            "residual_q": residual_q,
+            "residual_degrees_freedom": residual_degrees_freedom,
+        },
+        "cohort_effects": [effect.model_dump(mode="json") for effect in included],
+        "provenance": {
+            effect.cohort_id: {
+                "paper_ids": effect.paper_ids,
+                "finding_ids": effect.source_finding_ids,
+                "source_locators": effect.source_locators,
+                "moderator_level": level_by_cohort[effect.cohort_id],
+            }
+            for effect in included
+        },
+    }
+
+
 def prespecified_condition_analysis(
     effects: Sequence[HarmonizedEffect],
     moderator_names: Sequence[str],
@@ -986,10 +1229,9 @@ def prespecified_condition_analysis(
 
     observed_levels = {
         name: {
-            str(effect.moderators[name])
+            _moderator_level_label(effect.moderators[name])
             for effect in effects
-            if effect.moderators.get(name) is not None
-            and str(effect.moderators[name]).strip()
+            if _moderator_value_is_present(effect.moderators.get(name))
         }
         for name in normalized
     }
@@ -1020,14 +1262,10 @@ def prespecified_condition_analysis(
         if regression.get("status") == "ok":
             level_estimates = regression["level_estimates"]
             positive_levels = sorted(
-                str(level["level"])
-                for level in level_estimates
-                if float(level["ci_lower"]) > 0
+                str(level["level"]) for level in level_estimates if float(level["ci_lower"]) > 0
             )
             negative_levels = sorted(
-                str(level["level"])
-                for level in level_estimates
-                if float(level["ci_upper"]) < 0
+                str(level["level"]) for level in level_estimates if float(level["ci_upper"]) < 0
             )
             omnibus = regression["omnibus"]
             qualifies = (
@@ -1055,7 +1293,7 @@ def prespecified_condition_analysis(
 
     return {
         "status": (
-            "condition_dependent"
+            "exploratory_qualitative_condition_signal"
             if qualifying
             else "no_qualitative_condition_dependence_detected"
         ),
@@ -1069,6 +1307,156 @@ def prespecified_condition_analysis(
         "familywise_alpha": familywise_alpha,
         "multiplicity_test_count": multiplicity_tests,
         "adjusted_alpha_per_test": adjusted_alpha,
+        "analyses": analyses,
+        "qualifying_moderators": qualifying,
+    }
+
+
+def prespecified_cohort_condition_analysis(
+    effects: Sequence[HarmonizedEffect],
+    cohort_ids: Sequence[str],
+    moderator_names: Sequence[str],
+    *,
+    familywise_alpha: float = 0.05,
+    min_cohorts_per_level: int = 2,
+    assumed_within_cohort_correlation: float = 1.0,
+) -> dict[str, Any]:
+    """Detect qualitative effect modification using explicit cohorts as units.
+
+    The Bonferroni family covers every prespecified omnibus test and every observed
+    cohort-level moderator interval. A moderator qualifies only if its adjusted
+    omnibus test passes *and* adjusted level intervals occur strictly on both sides
+    of the null. Missing or conflicting cohort-level moderator values make the
+    prespecified family incomplete and therefore fail closed.
+    """
+
+    base: dict[str, Any] = {
+        "analysis_unit": "explicit_cohort",
+        "interpretation": "predictive_association_not_causal",
+    }
+    if not moderator_names:
+        return {
+            **base,
+            "status": "not_requested",
+            "reason": "no_prespecified_moderators",
+            "analyses": [],
+            "qualifying_moderators": [],
+        }
+    if not 0 < familywise_alpha < 1:
+        raise MetaAnalysisContractError("condition_familywise_alpha_invalid")
+    if min_cohorts_per_level < 2:
+        raise MetaAnalysisContractError("min_cohorts_per_level_must_be_at_least_two")
+    normalized = [name.strip() for name in moderator_names]
+    if any(not name for name in normalized):
+        raise MetaAnalysisContractError("condition_moderator_name_empty")
+    if len(normalized) != len(set(normalized)):
+        raise MetaAnalysisContractError("condition_moderator_names_duplicate")
+
+    aggregation = aggregate_one_effect_per_cohort(
+        effects,
+        cohort_ids,
+        assumed_within_cohort_correlation=assumed_within_cohort_correlation,
+    )
+    observed_levels = {
+        name: (
+            {
+                _moderator_level_label(effect.moderators[name])
+                for effect in aggregation.effects
+                if name not in effect.moderator_conflicts
+                and _moderator_value_is_present(effect.moderators.get(name))
+            }
+            if aggregation.status == "ok"
+            else set()
+        )
+        for name in normalized
+    }
+    multiplicity_tests = len(normalized) + sum(
+        max(1, len(levels)) for levels in observed_levels.values()
+    )
+    adjusted_alpha = familywise_alpha / multiplicity_tests
+    confidence_level = 1.0 - adjusted_alpha
+    analyses: list[dict[str, Any]] = []
+    qualifying: list[dict[str, Any]] = []
+    insufficient_moderators: list[dict[str, str]] = []
+    for name in normalized:
+        regression = cohort_categorical_meta_regression(
+            effects,
+            cohort_ids,
+            name,
+            confidence_level=confidence_level,
+            min_cohorts_per_level=min_cohorts_per_level,
+            assumed_within_cohort_correlation=assumed_within_cohort_correlation,
+        )
+        row: dict[str, Any] = {
+            "moderator": name,
+            "adjusted_alpha": adjusted_alpha,
+            "adjusted_confidence_level": confidence_level,
+            "regression": regression,
+            "qualifies": False,
+            "positive_levels": [],
+            "negative_levels": [],
+        }
+        if regression.get("status") != "ok":
+            insufficient_moderators.append(
+                {
+                    "moderator": name,
+                    "reason": str(regression.get("reason") or "unknown_insufficiency"),
+                }
+            )
+        else:
+            level_estimates = regression["level_estimates"]
+            positive_levels = sorted(
+                str(level["level"]) for level in level_estimates if float(level["ci_lower"]) > 0
+            )
+            negative_levels = sorted(
+                str(level["level"]) for level in level_estimates if float(level["ci_upper"]) < 0
+            )
+            omnibus = regression["omnibus"]
+            qualifies = (
+                float(omnibus["p_value"]) <= adjusted_alpha
+                and bool(positive_levels)
+                and bool(negative_levels)
+            )
+            row.update(
+                {
+                    "qualifies": qualifies,
+                    "positive_levels": positive_levels,
+                    "negative_levels": negative_levels,
+                }
+            )
+            if qualifies:
+                qualifying.append(
+                    {
+                        "moderator": name,
+                        "positive_levels": positive_levels,
+                        "negative_levels": negative_levels,
+                        "omnibus_p_value": float(omnibus["p_value"]),
+                    }
+                )
+        analyses.append(row)
+
+    if insufficient_moderators:
+        status = "insufficient"
+        reason = "prespecified_cohort_moderator_family_incomplete"
+    elif qualifying:
+        status = "exploratory_qualitative_condition_signal"
+        reason = "prespecified_moderator_has_adjusted_opposite_direction_level_intervals"
+    else:
+        status = "no_qualitative_condition_dependence_detected"
+        reason = "no_prespecified_moderator_met_adjusted_qualitative_interaction_rule"
+    return {
+        **base,
+        "status": status,
+        "reason": reason,
+        "multiplicity_control": "bonferroni_familywise",
+        "familywise_alpha": familywise_alpha,
+        "multiplicity_test_count": multiplicity_tests,
+        "adjusted_alpha_per_test": adjusted_alpha,
+        "n_effects_input": len(effects),
+        "n_publications": aggregation.n_publications,
+        "n_cohorts": aggregation.n_cohorts,
+        "assumed_within_cohort_correlation": assumed_within_cohort_correlation,
+        "insufficient_moderators": insufficient_moderators,
         "analyses": analyses,
         "qualifying_moderators": qualifying,
     }
@@ -1104,12 +1492,8 @@ def directional_synthesis(results: Sequence[HarmonizationResult]) -> dict[str, A
         provenance[paper_id] = {
             "finding_ids": sorted({row.finding_id for row in rows}),
             "source_locators": sorted({row.provenance.source_locator for row in rows}),
-            "reported_significance": sorted(
-                {row.reported_significance.value for row in rows}
-            ),
-            "equivalence_conclusions": sorted(
-                {row.equivalence_conclusion.value for row in rows}
-            ),
+            "reported_significance": sorted({row.reported_significance.value for row in rows}),
+            "equivalence_conclusions": sorted({row.equivalence_conclusion.value for row in rows}),
         }
     categories = ("increase", "decrease", "exact_zero", "mixed", "unavailable")
     counts = Counter(paper_directions.values())
@@ -1135,8 +1519,7 @@ def directional_synthesis(results: Sequence[HarmonizationResult]) -> dict[str, A
             "status": "insufficient",
             "reason": "incompatible_directional_targets",
             "observed_targets": [
-                {"outcome": outcome, "contrast": contrast}
-                for outcome, contrast in sorted(targets)
+                {"outcome": outcome, "contrast": contrast} for outcome, contrast in sorted(targets)
             ],
         }
     if targets:
@@ -1311,30 +1694,111 @@ def synthesize_evidence_graph(
     contrast_id: str | None = None,
     require_explicit_timepoint: bool = True,
     confidence_level: float = 0.95,
-    assumed_within_paper_correlation: float = 1.0,
     assumed_within_cohort_correlation: float = 1.0,
     excluded_estimate_ids: Sequence[str] = (),
     prespecified_moderators: Sequence[str] = (),
     condition_familywise_alpha: float = 0.05,
-    condition_min_papers_per_level: int = 2,
+    condition_min_cohorts_per_level: int = 2,
+    qualified_target: ClaimTargetV2 | None = None,
 ) -> dict[str, Any]:
-    """Bridge the typed graph to conservative explicit-cohort-unit synthesis."""
+    """Bridge the typed graph to conservative explicit-cohort-unit synthesis.
+
+    ``qualified_target`` is a version-two opt-in. Its exact condition predicates are
+    applied before harmonization, and its target hash plus every inclusion/exclusion
+    identity is carried in the synthesis artifact. A missing or type-incompatible
+    moderator blocks the whole qualified synthesis; it is never silently dropped.
+    Omitting the argument preserves the version-one output contract.
+    """
 
     if len(excluded_estimate_ids) != len(set(excluded_estimate_ids)):
         raise MetaAnalysisContractError("excluded_estimate_ids_duplicate")
     known_estimate_ids = {estimate.estimate_id for estimate in graph.outcome_estimates}
     unknown_exclusions = sorted(set(excluded_estimate_ids) - known_estimate_ids)
     if unknown_exclusions:
-        raise MetaAnalysisContractError(
-            f"excluded_estimate_ids_unknown:{unknown_exclusions}"
-        )
+        raise MetaAnalysisContractError(f"excluded_estimate_ids_unknown:{unknown_exclusions}")
+    if qualified_target is not None:
+        if outcome_name is not None and outcome_name != qualified_target.outcome_name:
+            raise MetaAnalysisContractError("qualified_target_outcome_mismatch")
+        if contrast_id is not None and contrast_id != qualified_target.contrast_id:
+            raise MetaAnalysisContractError("qualified_target_contrast_mismatch")
+        outcome_name = qualified_target.outcome_name
+        contrast_id = qualified_target.contrast_id
     excluded = set(excluded_estimate_ids)
+    qualification: dict[str, Any] | None = None
+    condition_excluded: set[str] = set()
+    condition_missing: set[str] = set()
+    condition_type_mismatch: set[str] = set()
+    condition_matched: set[str] = set()
+    condition_candidate_ids: set[str] = set()
+    if qualified_target is not None:
+        for estimate in graph.outcome_estimates:
+            if estimate.estimate_id in excluded:
+                continue
+            if estimate.outcome_name != qualified_target.outcome_name:
+                continue
+            if (
+                qualified_target.contrast_id is not None
+                and estimate.contrast_id != qualified_target.contrast_id
+            ):
+                continue
+            condition_candidate_ids.add(estimate.estimate_id)
+            evaluation = evaluate_condition_predicates(
+                estimate.effect.moderators,
+                qualified_target.conditions,
+            )
+            if evaluation.status is ConditionSetStatus.MATCHED:
+                condition_matched.add(estimate.estimate_id)
+            elif evaluation.status is ConditionSetStatus.NOT_MATCHED:
+                condition_excluded.add(estimate.estimate_id)
+            elif evaluation.status is ConditionSetStatus.MISSING:
+                condition_missing.add(estimate.estimate_id)
+            else:
+                condition_type_mismatch.add(estimate.estimate_id)
+
+        if condition_type_mismatch:
+            qualification_status = "insufficient"
+            qualification_reason = "condition_value_type_mismatch"
+        elif condition_missing:
+            qualification_status = "insufficient"
+            qualification_reason = "condition_moderator_missing"
+        elif not condition_matched:
+            qualification_status = "insufficient"
+            qualification_reason = "no_estimates_match_prespecified_conditions"
+        else:
+            qualification_status = "ready"
+            qualification_reason = None
+        qualification = {
+            "contract_version": "qualified-evidence-selection-v1",
+            "target_sha256": qualified_target.claim_sha256,
+            "specification_status": qualified_target.specification_status.value,
+            "conditions": [
+                condition.model_dump(mode="json") for condition in qualified_target.conditions
+            ],
+            "meaningful_effect_threshold": (
+                qualified_target.meaningful_effect_threshold.model_dump(mode="json")
+            ),
+            "status": qualification_status,
+            "reason": qualification_reason,
+            "candidate_estimate_ids": sorted(condition_candidate_ids),
+            "matched_estimate_ids": sorted(condition_matched),
+            "condition_excluded_estimate_ids": sorted(condition_excluded),
+            "missing_condition_estimate_ids": sorted(condition_missing),
+            "type_mismatch_estimate_ids": sorted(condition_type_mismatch),
+            "matching_semantics": (
+                "exact_typed_conjunction; missing_or_type_mismatch_fails_closed"
+            ),
+        }
     active_graph = graph.model_copy(
         update={
             "outcome_estimates": [
                 estimate
                 for estimate in graph.outcome_estimates
                 if estimate.estimate_id not in excluded
+                and (
+                    qualified_target is None
+                    or estimate.estimate_id not in condition_candidate_ids
+                    or estimate.estimate_id in condition_matched
+                )
             ]
         }
     )
@@ -1343,36 +1807,50 @@ def synthesize_evidence_graph(
         outcome_name=outcome_name,
         contrast_id=contrast_id,
     ).model_dump(mode="json")
-    selection = select_effect_evidence(
-        active_graph,
-        outcome_name=outcome_name,
-        contrast_id=contrast_id,
-        require_explicit_timepoint=require_explicit_timepoint,
+    qualification_blocked = qualification is not None and qualification["status"] == "insufficient"
+    selection = (
+        None
+        if qualification_blocked
+        else select_effect_evidence(
+            active_graph,
+            outcome_name=outcome_name,
+            contrast_id=contrast_id,
+            require_explicit_timepoint=require_explicit_timepoint,
+        )
     )
-    graph_contract = {
+    graph_contract: dict[str, Any] = {
         "graph_schema_version": graph.graph_schema_version,
-        "selection_status": selection.status,
-        "selection_reason": selection.reason,
-        "selected_estimate_ids": selection.estimate_ids,
-        "selected_cohort_ids": selection.cohort_ids,
-        "selected_cohort_count": len(set(selection.cohort_ids)),
+        "selection_status": ("insufficient" if qualification_blocked else selection.status),
+        "selection_reason": (
+            qualification["reason"] if qualification_blocked else selection.reason
+        ),
+        "selected_estimate_ids": [] if qualification_blocked else selection.estimate_ids,
+        "selected_cohort_ids": [] if qualification_blocked else selection.cohort_ids,
+        "selected_cohort_count": (0 if qualification_blocked else len(set(selection.cohort_ids))),
         "excluded_estimate_ids": sorted(excluded),
-        "warnings": selection.warnings,
+        "warnings": [] if qualification_blocked else selection.warnings,
         "risk_features": risk_features,
         "risk_feature_interpretation": (
             "prospective_label_free_inputs_not_a_calibrated_error_probability"
         ),
     }
-    if selection.status == "insufficient":
-        return {
+    if qualification is not None:
+        graph_contract["condition_excluded_estimate_ids"] = sorted(condition_excluded)
+    if qualification_blocked or selection.status == "insufficient":
+        reason = qualification["reason"] if qualification_blocked else selection.reason
+        insufficient: dict[str, Any] = {
             "status": "insufficient",
             "mode": "evidence_graph_contract",
-            "reason": selection.reason,
+            "reason": reason,
             "quantitative": None,
             "directional_fallback": None,
             "condition_analysis": None,
             "evidence_graph": graph_contract,
         }
+        if qualification is not None:
+            insufficient["qualified_claim"] = qualification
+        return insufficient
+    assert selection is not None
     results = harmonize_effects(selection.records)
     synthesis = synthesize_with_cohort_directional_fallback(
         results,
@@ -1380,38 +1858,32 @@ def synthesize_evidence_graph(
         confidence_level=confidence_level,
         assumed_within_cohort_correlation=assumed_within_cohort_correlation,
     )
-    estimable = [result.effect for result in results if result.effect is not None]
-    cohort_to_papers: dict[str, set[str]] = defaultdict(set)
-    paper_to_cohorts: dict[str, set[str]] = defaultdict(set)
-    for cohort_id, record in zip(selection.cohort_ids, selection.records, strict=True):
-        cohort_to_papers[cohort_id].add(record.paper_id)
-        paper_to_cohorts[record.paper_id].add(cohort_id)
-    condition_mapping_is_one_to_one = all(
-        len(values) == 1 for values in (*cohort_to_papers.values(), *paper_to_cohorts.values())
-    )
+    estimable_pairs = [
+        (result.effect, cohort_id)
+        for result, cohort_id in zip(results, selection.cohort_ids, strict=True)
+        if result.effect is not None
+    ]
+    estimable = [effect for effect, _ in estimable_pairs]
+    estimable_cohort_ids = [cohort_id for _, cohort_id in estimable_pairs]
     if not prespecified_moderators:
         condition_analysis = None
-    elif condition_mapping_is_one_to_one:
-        condition_analysis = prespecified_condition_analysis(
+    else:
+        condition_analysis = prespecified_cohort_condition_analysis(
             estimable,
+            estimable_cohort_ids,
             prespecified_moderators,
             familywise_alpha=condition_familywise_alpha,
-            min_papers_per_level=condition_min_papers_per_level,
-            assumed_within_paper_correlation=assumed_within_paper_correlation,
+            min_cohorts_per_level=condition_min_cohorts_per_level,
+            assumed_within_cohort_correlation=assumed_within_cohort_correlation,
         )
-    else:
-        condition_analysis = {
-            "status": "insufficient",
-            "reason": "cohort_aware_condition_analysis_not_implemented_for_nonunique_mapping",
-            "interpretation": "predictive_association_not_causal",
-            "analyses": [],
-            "qualifying_moderators": [],
-        }
-    return {
+    output: dict[str, Any] = {
         **synthesis,
         "condition_analysis": condition_analysis,
         "evidence_graph": graph_contract,
     }
+    if qualification is not None:
+        output["qualified_claim"] = qualification
+    return output
 
 
 def synthesis_decision_snapshot(
@@ -1438,10 +1910,19 @@ def synthesis_decision_snapshot(
         )
 
     condition = synthesis.get("condition_analysis")
-    condition_dependent = (
-        isinstance(condition, Mapping)
-        and condition.get("status") == "condition_dependent"
-    )
+    if isinstance(condition, Mapping) and condition.get("status") == "insufficient":
+        return SynthesisDecisionSnapshot(
+            target_direction=target_direction,
+            classification="not_evaluable",
+            supported=False,
+            decision_score=0.5,
+            decision_margin=None,
+            mode=mode,
+            reason=str(condition.get("reason") or "prespecified_condition_analysis_insufficient"),
+        )
+    # A same-corpus moderator analysis is an exploratory signal only.  It may
+    # prioritize verification or nominate a prospectively frozen held-out target,
+    # but it cannot change this final synthesis classification by itself.
     if mode == "random_effects_meta_analysis":
         quantitative = synthesis.get("quantitative")
         if not isinstance(quantitative, Mapping) or quantitative.get("status") != "ok":
@@ -1468,10 +1949,7 @@ def synthesis_decision_snapshot(
             else ci_margin
         )
         opposite = upper < 0 if target_direction == "increase" else lower > 0
-        if condition_dependent:
-            classification = "condition_dependent"
-            reason = "prespecified_qualitative_condition_dependence_detected"
-        elif opposite:
+        if opposite:
             classification = "contradicted"
             reason = "confidence_interval_supports_opposite_direction"
         elif ci_margin <= 0:
@@ -1480,8 +1958,10 @@ def synthesis_decision_snapshot(
         elif require_prediction_interval_stability and not prediction_ok:
             classification = "inconclusive"
             reason = "prediction_interval_required_but_unavailable"
-        elif require_prediction_interval_stability and prediction_margin is not None and (
-            prediction_margin <= 0
+        elif (
+            require_prediction_interval_stability
+            and prediction_margin is not None
+            and (prediction_margin <= 0)
         ):
             classification = "inconclusive"
             reason = "prediction_interval_not_stable_in_target_direction"
@@ -1508,10 +1988,7 @@ def synthesis_decision_snapshot(
         score = increase_fraction if target_direction == "increase" else 1 - increase_fraction
         margin = lower - 0.5 if target_direction == "increase" else 0.5 - upper
         opposite = upper < 0.5 if target_direction == "increase" else lower > 0.5
-        if condition_dependent:
-            classification = "condition_dependent"
-            reason = "prespecified_qualitative_condition_dependence_detected"
-        elif opposite:
+        if opposite:
             classification = "contradicted"
             reason = "exact_sign_interval_supports_opposite_direction"
         elif margin <= 0:
@@ -1562,11 +2039,11 @@ def build_graph_counterfactual_audit_plan(
     require_explicit_timepoint: bool = True,
     require_prediction_interval_stability: bool = True,
     confidence_level: float = 0.95,
-    assumed_within_paper_correlation: float = 1.0,
+    assumed_within_cohort_correlation: float = 1.0,
     excluded_estimate_ids: Sequence[str] = (),
     prespecified_moderators: Sequence[str] = (),
     condition_familywise_alpha: float = 0.05,
-    condition_min_papers_per_level: int = 2,
+    condition_min_cohorts_per_level: int = 2,
     claim_id: str = "graph-derived-directional-claim",
 ) -> GraphCounterfactualAuditPlan:
     """Create audit candidates from actual leave-one-out synthesis reruns.
@@ -1599,10 +2076,10 @@ def build_graph_counterfactual_audit_plan(
         "contrast_id": contrast_id,
         "require_explicit_timepoint": require_explicit_timepoint,
         "confidence_level": confidence_level,
-        "assumed_within_paper_correlation": assumed_within_paper_correlation,
+        "assumed_within_cohort_correlation": assumed_within_cohort_correlation,
         "prespecified_moderators": prespecified_moderators,
         "condition_familywise_alpha": condition_familywise_alpha,
-        "condition_min_papers_per_level": condition_min_papers_per_level,
+        "condition_min_cohorts_per_level": condition_min_cohorts_per_level,
     }
     baseline_synthesis = synthesize_evidence_graph(
         graph,
@@ -1646,9 +2123,7 @@ def build_graph_counterfactual_audit_plan(
                 verification_cost=float(verification_costs[item_id]),
                 cost_unit=cost_unit,
                 disagreement_score=(
-                    float(disagreement_scores[item_id])
-                    if disagreement_scores is not None
-                    else 0.0
+                    float(disagreement_scores[item_id]) if disagreement_scores is not None else 0.0
                 ),
                 scenario_kind=ScenarioKind.LEAVE_ONE_OUT,
                 scenario_source=(

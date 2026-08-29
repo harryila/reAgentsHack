@@ -109,6 +109,72 @@ def test_binary_counts_use_a_disclosed_continuity_correction() -> None:
     assert result.effect.derivation == "log_odds_ratio_from_2x2_counts"
 
 
+@pytest.mark.parametrize(
+    (
+        "effect_format",
+        "treatment_events",
+        "treatment_total",
+        "control_events",
+        "control_total",
+        "reason",
+    ),
+    [
+        ("odds_ratio", 0, 10, 0, 20, "binary_double_zero_event_study_noninformative"),
+        ("risk_ratio", 0, 10, 0, 20, "binary_double_zero_event_study_noninformative"),
+        ("odds_ratio", 10, 10, 20, 20, "binary_double_all_event_study_noninformative"),
+        ("risk_ratio", 10, 10, 20, 20, "binary_double_all_event_study_noninformative"),
+    ],
+)
+def test_binary_double_zero_or_all_event_studies_do_not_create_spurious_direction(
+    effect_format: str,
+    treatment_events: int,
+    treatment_total: int,
+    control_events: int,
+    control_total: int,
+    reason: str,
+) -> None:
+    result = harmonize_effect(
+        _evidence(
+            outcome="event",
+            effect_format=effect_format,
+            unit=None,
+            estimate=None,
+            standard_error=None,
+            treatment_events=treatment_events,
+            treatment_total=treatment_total,
+            control_events=control_events,
+            control_total=control_total,
+        )
+    )
+
+    assert result.status == "insufficient"
+    assert result.reason == reason
+    assert result.point_direction is PointDirection.NOT_AVAILABLE
+    assert result.effect is None
+
+
+def test_risk_ratio_does_not_correct_an_estimable_zero_nonevent_cell() -> None:
+    result = harmonize_effect(
+        _evidence(
+            outcome="event",
+            effect_format="risk_ratio",
+            unit=None,
+            estimate=None,
+            standard_error=None,
+            treatment_events=10,
+            treatment_total=10,
+            control_events=5,
+            control_total=10,
+        )
+    )
+
+    assert result.status == "estimable"
+    assert result.effect is not None
+    assert result.effect.estimate == pytest.approx(math.log(2.0))
+    assert result.effect.variance == pytest.approx(0.1)
+    assert result.effect.continuity_correction is None
+
+
 def test_binary_and_continuous_group_statistics_are_mutually_exclusive() -> None:
     with pytest.raises(ValidationError, match="choose_continuous_or_binary_group_statistics"):
         _evidence(

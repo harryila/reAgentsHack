@@ -385,16 +385,23 @@ class OutcomeEstimateNode(ContractModel):
 
 
 class EvidenceGraph(ContractModel):
-    """A closed, referentially valid evidence graph."""
+    """A closed, referentially valid evidence graph.
+
+    A frozen corpus can legitimately contain publications but no safely extractable
+    effects.  The publication ledger therefore remains non-empty while downstream
+    node collections may be empty.  This represents ``not evaluable`` evidence; it
+    must never be replaced with a fabricated study, arm, or estimate merely to satisfy
+    a storage schema.
+    """
 
     graph_schema_version: Literal["1"] = "1"
     publications: Annotated[list[PublicationIdentity], Field(min_length=1)]
-    studies: Annotated[list[StudyNode], Field(min_length=1)]
-    cohorts: Annotated[list[CohortNode], Field(min_length=1)]
-    arms: Annotated[list[ArmNode], Field(min_length=2)]
-    contrasts: Annotated[list[ContrastNode], Field(min_length=1)]
-    outcome_estimates: Annotated[list[OutcomeEstimateNode], Field(min_length=1)]
-    evidence_spans: Annotated[list[EvidenceSpan], Field(min_length=1)]
+    studies: list[StudyNode]
+    cohorts: list[CohortNode]
+    arms: list[ArmNode]
+    contrasts: list[ContrastNode]
+    outcome_estimates: list[OutcomeEstimateNode]
+    evidence_spans: list[EvidenceSpan]
 
     @model_validator(mode="after")
     def validate_graph(self) -> EvidenceGraph:

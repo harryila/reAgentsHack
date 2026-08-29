@@ -1,0 +1,78 @@
+{
+  "benchmark_id": "evidencebench-original-grounding-v1",
+  "benchmark_scope": "hypothesis-conditioned sentence evidence retrieval only",
+  "upstream_repository": "EvidenceBench/EvidenceBench",
+  "upstream_commit": "bf1d9633c694381c7b016fd56ee9f95f48593cc3",
+  "upstream_commit_date_utc": "2025-08-08T03:05:55Z",
+  "files": {
+    "train": {
+      "path": "datasets/evidencebench_train_set.json",
+      "rows": 96,
+      "sha256": "a89bb2db83cbe68f5df7af6a430899bdb63af0da731268746d89a2f54c059865",
+      "license": "CC-BY-NC-SA"
+    },
+    "development": {
+      "path": "datasets/evidencebench_dev_set.json",
+      "rows": 37,
+      "sha256": "0bd63b7f1156d509abe8757ce27f38d31c08059f750c51a6756ec076b3d96a59",
+      "license": "CC-BY-NC-SA"
+    },
+    "test": {
+      "path": "datasets/evidencebench_test_set.json",
+      "rows": 293,
+      "sha256": "771cc068e3e79764c2eb523e7d0d9fb276d00254a99212c73c1137674b49d18b",
+      "license": "CC-BY"
+    },
+    "license": {
+      "path": "LICENSE.md",
+      "sha256": "b11bcca41ee81d5835d0f4004543a44f6e0f3e2951a83e2ed2e588854401f259"
+    },
+    "readme": {
+      "path": "README.md",
+      "sha256": "0bbcd1ceb856987846584d6944abbd41c74917ad9411c4facda0e6d37d5e9926"
+    }
+  },
+  "test_access": {
+    "publicly_accessible": true,
+    "secret_holdout": false,
+    "project_test_labels_opened_before_plan": false,
+    "claim": "method roster and development selection frozen before semantic test access in this project"
+  },
+  "selectable_methods": [
+    "bm25-v1",
+    "rrf-word-char-v1",
+    "tfidf-char-v1",
+    "tfidf-word-v1"
+  ],
+  "controls": [
+    "deterministic-random-control-v1",
+    "first-sentences-control-v1"
+  ],
+  "selection_rule": "maximize development mean all-aspect recall@10; then results-aspect recall@5; then ascending method id",
+  "primary_metric": "mean all-aspect recall@10 over all questions",
+  "secondary_metric": "mean results-aspect recall@5 over questions with at least one Results aspect",
+  "uncertainty": {
+    "unit": "upstream paper_id cluster",
+    "method": "percentile cluster bootstrap",
+    "seed": 20260828,
+    "replicates": 5000,
+    "interval": 0.95
+  },
+  "stages": [
+    "prepare-development-plan-without-test-path",
+    "materialize-visible-test-and-private-gold",
+    "predict-from-visible-test-only",
+    "score-after-prediction-receipt-freeze",
+    "exact-replay-audit"
+  ],
+  "public_output": "aggregate-only; no hypotheses, sentences, paper ids, question ids, aspect ids, rankings, or row metrics",
+  "scope_limitations": [
+    "chronology_not_externally_preregistered",
+    "does_not_validate_claim_correctness",
+    "does_not_validate_effect_extraction",
+    "does_not_validate_meta_analysis",
+    "does_not_validate_release_calibration",
+    "public_test_accessible_not_secret",
+    "retrospective_public_test_diagnostic"
+  ]
+}

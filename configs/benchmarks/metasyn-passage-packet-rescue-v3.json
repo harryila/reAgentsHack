@@ -1,0 +1,32 @@
+{
+  "accuracy_authority": false,
+  "application_retries_per_request": 0,
+  "claim_release_authority": false,
+  "compact_normalizable_invariant_fields": [
+    "outcome_version",
+    "packet_status"
+  ],
+  "configured_cost_cap_usd_micros": 2200000,
+  "config_sha256": "b2d792a6e4312bca9a49d9ca552eec44dec97bedd8cc61497b9228021be6ac3e",
+  "config_version": "metasyn-passage-packet-rescue-config-v3",
+  "diagnostic_scope": "post_hoc_label_blind_exploratory_typed_effect_yield_only",
+  "expected_v2_execution_bundle_sha256": "f87eddcbcbafc778f18ff85c92c0f914a763d242311a859d9d979ded229b4972",
+  "expected_v2_failed_smoke_sha256": "63bd3b15b5ba1139a98b9d1590fbb9064f433f7b7a5790ad640aa78c78186a41",
+  "expected_v2_inventory_ledger_sha256": "aeb824df26b2f9efe4677af85f54fc217f41fe1fe043e1f7ebc9ba68de0b6e2f",
+  "expected_v2_packet_roster_sha256": "97adae1f1a36da26b462fa1b2bec229dd568449870d8a7ae1b5f3418db2c842f",
+  "expected_v2_provider_receipt_count": 43,
+  "inventory_normalization_permitted": false,
+  "maximum_smoke_calls": 3,
+  "official_test_labels_opened": false,
+  "operation": "metasyn-passage-packet-rescue-v3",
+  "orphan_or_ambiguous_attempt_retry_permitted": false,
+  "pre_call_zero_yield_blocker_required": true,
+  "provider_calls_permitted": false,
+  "authorization_created": false,
+  "packet_phase": "smoke_packet",
+  "reference_fields_unopened": true,
+  "request_key_prefix": "rescue-v3",
+  "sdk_retries_per_request": 0,
+  "selection_rule": "unattempted_then_release_grade_full_text_then_direct_confidence_interval_then_literal_ci_and_ratio_then_prompt_rank_row_candidate",
+  "synthesis_input_authority": false
+}
