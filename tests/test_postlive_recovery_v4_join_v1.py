@@ -10,6 +10,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.lineage import hash_canonical, sha256_file
 from literature_multiverse.postlive_recovery_v4_join_v1 import (
@@ -19,10 +20,11 @@ from literature_multiverse.postlive_recovery_v4_join_v1 import (
     freeze_postlive_recovery_v4_join_artifact_v1,
 )
 
+pytestmark = pytest.mark.private_cache
+
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = (
-    ROOT / "data/cache/metasyn/contextual-frontier-recovery-v4-posthoc-v1/artifact.json"
-)
+SOURCE_RELATIVE = "data/cache/metasyn/contextual-frontier-recovery-v4-posthoc-v1/artifact.json"
+SOURCE = ROOT / SOURCE_RELATIVE
 NOW = datetime(2026, 8, 29, 12, 0, tzinfo=UTC)
 
 
@@ -67,6 +69,7 @@ def _authority_values(value: Any) -> list[bool]:
 
 
 def test_actual_posthoc_projection_joins_without_runtime_success_or_authority() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     artifact = _join()
 
     assert artifact.status == "composed_offline_mechanics_completed_non_authorizing"
@@ -94,6 +97,7 @@ def test_actual_posthoc_projection_joins_without_runtime_success_or_authority() 
 
 
 def test_join_binds_actual_native_projection_and_replays_synthesis() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     source = _source()
     artifact = _join(source=source)
     projection = source["evaluation"]["native_projection"]
@@ -105,12 +109,11 @@ def test_join_binds_actual_native_projection_and_replays_synthesis() -> None:
     assert artifact.audit_mechanics.sequential_state.graph_sha256 == (
         artifact.evidence_graph_sha256
     )
-    assert artifact.audit_mechanics.sequential_state.synthesis_sha256 == (
-        artifact.synthesis_sha256
-    )
+    assert artifact.audit_mechanics.sequential_state.synthesis_sha256 == (artifact.synthesis_sha256)
 
 
 def test_source_span_repair_ledger_tamper_fails_closed() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     source = deepcopy(_source())
     source["canonicalization_changes"][0]["json_pointer"] += "/tampered"
     source["artifact_sha256"] = hash_canonical(
@@ -122,6 +125,7 @@ def test_source_span_repair_ledger_tamper_fails_closed() -> None:
 
 
 def test_failed_v4_terminal_lineage_cannot_be_substituted() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     source = deepcopy(_source())
     source["immutable_v4_terminal_sha256"] = "f" * 64
     source["artifact_sha256"] = hash_canonical(
@@ -133,6 +137,7 @@ def test_failed_v4_terminal_lineage_cannot_be_substituted() -> None:
 
 
 def test_missing_posthoc_repair_blocker_fails_closed() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     source = deepcopy(_source())
     source["blockers"] = []
     source["artifact_sha256"] = hash_canonical(
@@ -144,6 +149,7 @@ def test_missing_posthoc_repair_blocker_fails_closed() -> None:
 
 
 def test_join_authority_tamper_fails_even_with_recomputed_hash() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     raw = _join().model_dump(mode="json")
     raw["scientific_synthesis_authority"] = True
     raw["artifact_sha256"] = hash_canonical(
@@ -155,6 +161,7 @@ def test_join_authority_tamper_fails_even_with_recomputed_hash() -> None:
 
 
 def test_join_schema_has_no_v1_runtime_success_aliases() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     raw = _join().model_dump(mode="json")
 
     assert "runtime_workspace_validation_sha256" not in raw
@@ -165,6 +172,7 @@ def test_join_schema_has_no_v1_runtime_success_aliases() -> None:
 
 
 def test_explicit_moderator_is_exploratory_and_insufficient() -> None:
+    require_private_cache(SOURCE_RELATIVE)
     artifact = _join(prespecified_moderators=["dose"])
 
     assert artifact.condition_mechanics.analysis_executed
@@ -175,6 +183,7 @@ def test_explicit_moderator_is_exploratory_and_insufficient() -> None:
 def test_status_cli_preserves_failed_source_and_non_authorizing_boundary(
     tmp_path: Path,
 ) -> None:
+    require_private_cache(SOURCE_RELATIVE)
     artifact_path = tmp_path / "join.json"
     artifact_path.write_text(
         json.dumps(_join().model_dump(mode="json")),
@@ -210,6 +219,7 @@ def test_status_cli_preserves_failed_source_and_non_authorizing_boundary(
 
 
 def test_cli_build_and_validate_externally_replay_posthoc_source(tmp_path: Path) -> None:
+    require_private_cache(SOURCE_RELATIVE)
     output = tmp_path / "join.json"
     script = str(ROOT / "scripts/run_postlive_recovery_v4_join_v1.py")
     built = subprocess.run(
@@ -254,6 +264,4 @@ def test_cli_build_and_validate_externally_replay_posthoc_source(tmp_path: Path)
         capture_output=True,
         text=True,
     )
-    assert json.loads(validated.stdout)["artifact_sha256"] == (
-        built_status["artifact_sha256"]
-    )
+    assert json.loads(validated.stdout)["artifact_sha256"] == (built_status["artifact_sha256"])

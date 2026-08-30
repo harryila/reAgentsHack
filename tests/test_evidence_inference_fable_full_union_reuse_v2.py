@@ -7,6 +7,7 @@ from typing import Any
 
 import pytest
 import scripts.run_evidence_inference_fable_full_union_reuse_v2 as harness
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_full_reuse_v1 import (
     EvidenceInferenceFableReuseSourceV1,
@@ -79,6 +80,12 @@ def _context() -> tuple[
     EvidenceInferenceFableBudgetAuthorizationV2,
     list[EvidenceInferenceFableUnionSourceV2],
 ]:
+    require_private_cache(
+        "data/cache/evidence-inference-fable-retrospective-full-live-v2",
+        "data/cache/evidence-inference-fable-retrospective-pilot-live-v1",
+        "data/cache/evidence-inference-fable-retrospective-pilot-recovery-v2-live",
+        "data/cache/evidence-inference-fable-retrospective-full-token-count-live-v1/terminal.json",
+    )
     full_plan = EvidenceInferenceFableRetrospectivePlanV1.model_validate(
         _read(FULL_PLAN_PATH)
     )
@@ -127,6 +134,7 @@ def _source_file_hashes() -> dict[str, str]:
     return result
 
 
+@pytest.mark.private_cache
 def test_real_priority_union_is_exactly_22_plus_2_plus_358_and_read_only() -> None:
     full_plan, prepared, authorization, sources = _context()
     source_before = _source_file_hashes()
@@ -204,6 +212,7 @@ def test_cli_defaults_target_fresh_v4_and_full_v2_as_first_source() -> None:
     assert args.full_v2_source_workspace == harness.DEFAULT_FULL_V2_SOURCE_WORKSPACE
 
 
+@pytest.mark.private_cache
 def test_offline_completed_union_replays_and_binds_scoring_lineage(
     tmp_path: Path,
 ) -> None:

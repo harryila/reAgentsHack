@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_paired_runtime_v1 import (
     EvidenceInferenceFablePairedRuntimeError,
@@ -20,6 +21,23 @@ from literature_multiverse.lineage import hash_canonical
 
 ROOT = Path(__file__).resolve().parents[1]
 
+pytestmark = pytest.mark.private_cache
+
+_REQUIRED_PRIVATE_CACHE_PATHS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/evidence-inference-gepa/conversion_report.json",
+    "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+    "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+    "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+    "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+    "data/cache/evidence-inference-2.0/prompts_merged.csv",
+    "data/cache/evidence-inference-2.0/txt_files",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+)
+
 
 class FakeCounter:
     def __init__(self, *, raises: bool = False) -> None:
@@ -34,8 +52,9 @@ class FakeCounter:
 
 
 def _prepared():
+    root = require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     return reconstruct_evidence_inference_fable_prepared_runtime_v1(
-        repository_root=ROOT, mode="pilot30_paired"
+        repository_root=root, mode="pilot30_paired"
     )[1]
 
 

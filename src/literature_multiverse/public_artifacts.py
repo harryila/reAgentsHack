@@ -37,6 +37,7 @@ from literature_multiverse.evidencebench_diagnostic import (
     validate_evidencebench_public_bundle,
 )
 from literature_multiverse.harvester.validation import (
+    HarvesterValidationError,
     validate_harvester_validation_summary,
 )
 from literature_multiverse.lineage import (
@@ -69,20 +70,27 @@ from literature_multiverse.native_ollama_diagnostic import (
 from literature_multiverse.ollama_gepa_study import (
     validate_public_summary as validate_gepa_public_summary,
 )
+from literature_multiverse.pipeline_fingerprint import PipelineFingerprint
 
 SemanticValidator = Literal[
     "adaptive_stress",
     "closed_corpus",
+    "decisive_readiness_blocked",
+    "evidence_boundary_ledger",
     "evidence_inference_provider_free",
     "evidence_inference_local_ollama",
     "evidence_inference_ollama_gepa",
     "evidence_inference_item_risk",
     "evidencebench_grounding",
+    "fable_public_paired_summary",
+    "fable_public_union_evaluation_v2",
     "generic",
     "harvester",
+    "historical_verification_certificate_v5",
     "legacy_antiox_bundles",
     "local_suite",
     "metasyn_fixed_positive",
+    "metasyn_offline_audit_model_only",
     "metasyn_retrieval",
     "metasyn_screening",
     "metasyn_synthesis_yield",
@@ -174,9 +182,14 @@ PUBLIC_RESULT_REGISTRY = (
         "artifacts/diagnostics/evidence-inference/item-risk-calibration-v1.json",
         "public_summary_sha256",
         "evidence_inference_item_risk",
-        "public CI recomputes the standalone diagnostic pipeline and aggregate semantics; "
-        "ignored row-level paired predictions/labels are unavailable for metric replay, "
-        "and this historically opened diagnostic has no claim-release authority",
+        "historical diagnostic: its frozen 23-file pipeline fingerprint (2949fde1...) is "
+        "bound by the tracked companion manifest and no longer equals the current tree "
+        "(pipeline_fingerprint.py changed 2026-08-29). Before 2026-08-29 public CI recomputed "
+        "this fingerprint from current bytes and required equality; it no longer does, and "
+        "checks only manifest self-consistency, the closure definition, aggregate semantics, "
+        "and public GEPA lineage. Ignored row-level paired predictions/labels are unavailable "
+        "for metric replay, and this historically opened diagnostic has no claim-release "
+        "authority",
         False,
         (
             PublicSourceMapBinding(
@@ -308,7 +321,18 @@ PUBLIC_RESULT_REGISTRY = (
         "artifacts/paper/harvester/validation_summary.json",
         "artifact_payload_sha256",
         "harvester",
-        "pinned reseal of the 2026-08-26 live transport/invariant capture",
+        "historical single-record OpenAlex live/replay transport probe of "
+        "2026-08-26; harvester/sources.py changed on 2026-08-29 and the probe was "
+        "not re-run; the frozen source map is hash-pinned, not recomputed; "
+        "transport/provenance validation only, never retrieval-recall evidence",
+        False,
+        (
+            PublicSourceMapBinding(
+                "$.reproducibility.source_files_sha256",
+                "historical_execution",
+                "b663b0ea80c9cfd1c11d1ad59f90e94d6227ba65232e69e72eee972b2824bacd",
+            ),
+        ),
     ),
     PublicArtifactSpec(
         "artifacts/paper/meta-simulation-200.json",
@@ -323,6 +347,193 @@ PUBLIC_RESULT_REGISTRY = (
         "three-file fixed-direction control bundle has no aggregate self-hash; "
         "every file and recomputed metric is cross-bound instead",
         True,
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "verification-certificate.json",
+        "certificate_sha256",
+        "historical_verification_certificate_v5",
+        "historical abstained v5 certificate from the single-row MetaSyn post-live "
+        "recovery diagnostic; its embedded pipeline identity predates the "
+        "2026-08-29 fingerprint bump and is not recomputed; embeds MetaSyn source "
+        "quotes and titles (rights policy: release-blocking); no release or "
+        "effectiveness authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "sequential-audit-state.json",
+        "state_sha256",
+        "generic",
+        "historical sequential state bound byte-for-byte inside the sibling v5 "
+        "certificate; embeds MetaSyn quotes/titles; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "external-validation.json",
+        "validation_sha256",
+        "generic",
+        "hash/flag-only validation receipt that byte-binds the three sibling "
+        "files; embeds no source text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-boundary-ledger-v1.json",
+        "ledger_sha256",
+        "evidence_boundary_ledger",
+        "implementation identity current (checked against the tree); embedded "
+        "question-evaluation pipeline identity historical (drifted after "
+        "2026-08-29); every authority boundary in the ledger is false; no "
+        "authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json",
+        "readiness_sha256",
+        "decisive_readiness_blocked",
+        "current blocked readiness receipt with zero development/calibration/"
+        "evaluation questions; no run, no pipeline identity; "
+        "`real_scored_run_candidate=false`",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-plan-v1.json",
+        "plan_sha256",
+        "generic",
+        "frozen plan/roster; no execution identity; embeds public Evidence "
+        "Inference PMC article and benchmark example identifiers, no article "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-plan-v1.json",
+        "plan_sha256",
+        "generic",
+        "frozen plan/roster; no execution identity; embeds public Evidence "
+        "Inference PMC article and benchmark example identifiers, no article "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-plan-v1.json",
+        "plan_sha256",
+        "generic",
+        "frozen plan/roster; no execution identity; embeds public Evidence "
+        "Inference PMC article and benchmark example identifiers, no article "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-exclusions.json",
+        "exclusion_ledger_sha256",
+        "generic",
+        "frozen plan/roster; no execution identity; embeds public Evidence "
+        "Inference PMC article and benchmark example identifiers, no article "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/gepa-candidate-search-plan-v1.json",
+        "plan_sha256",
+        "generic",
+        "frozen plan/roster; no execution identity; embeds public Evidence "
+        "Inference PMC article and benchmark example identifiers, no article "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-execution-policy.json",
+        "policy_sha256",
+        "generic",
+        "frozen execution policy; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-summary-v1.json",
+        "public_summary_sha256",
+        "fable_public_paired_summary",
+        "public aggregate of a retrospective cross-model transfer on "
+        "historically opened labels; every authority flag typed False; "
+        "exploratory only",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-summary-v1.json",
+        "public_summary_sha256",
+        "fable_public_paired_summary",
+        "public aggregate of a retrospective cross-model transfer on "
+        "historically opened labels; every authority flag typed False; "
+        "exploratory only",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-full-union-evaluation-v2.json",
+        "evaluation_sha256",
+        "fable_public_union_evaluation_v2",
+        "public aggregate of a retrospective cross-model transfer on "
+        "historically opened labels; every authority flag typed False; "
+        "exploratory only",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/contextual-grounding-offline-feasibility-suite-v3.json",
+        "suite_sha256",
+        "generic",
+        "historical offline diagnostic; embedded pipeline identity drifted "
+        "after 2026-08-29 and is not recomputed; embeds MetaSyn quotes/titles; "
+        "no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/metasyn-passage-offline-feasibility-audit-v1.json",
+        "audit_sha256",
+        "metasyn_offline_audit_model_only",
+        "historical offline diagnostic; embedded pipeline identity drifted "
+        "after 2026-08-29 and is not recomputed; embeds MetaSyn quotes; "
+        "no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/metasyn-contextual-frontier-v1-failure-audit-v1.json",
+        "audit_sha256",
+        "metasyn_offline_audit_model_only",
+        "historical offline diagnostic; embedded pipeline identity drifted "
+        "after 2026-08-29 and is not recomputed; no embedded MetaSyn source "
+        "text; no authority",
+        False,
+        (),
+    ),
+    PublicArtifactSpec(
+        "artifacts/diagnostics/postlive-recovery-v4-join-v1.json",
+        "artifact_sha256",
+        "generic",
+        "historical offline diagnostic; embedded pipeline identity drifted "
+        "after 2026-08-29 and is not recomputed; embeds MetaSyn quotes/titles; "
+        "no authority",
+        False,
+        (),
     ),
 )
 
@@ -421,6 +632,13 @@ _EVIDENCEBENCH_AUDIT_RECEIPT = (
 )
 _EVIDENCE_INFERENCE_ITEM_RISK_CONFIG = (
     "configs/benchmarks/evidence-inference-item-risk-v1.json"
+)
+_EVIDENCE_INFERENCE_ITEM_RISK_HISTORICAL_FINGERPRINT = (
+    "artifacts/diagnostics/evidence-inference/"
+    "item-risk-calibration-v1-pipeline-fingerprint.json"
+)
+_EVIDENCE_INFERENCE_ITEM_RISK_HISTORICAL_PIPELINE_SHA256 = (
+    "2949fde1ce2f3df25f57d968a075352aa7f36b7f77f0af62ef24cf06e5680f15"
 )
 _EVIDENCE_INFERENCE_ITEM_RISK_REGISTERED_POPULATION = {
     "source_paired_examples": 524,
@@ -1207,7 +1425,10 @@ def _validate_evidence_inference_ollama_gepa(value: Mapping[str, Any]) -> None:
 def _validate_evidence_inference_item_risk(
     value: Mapping[str, Any], *, root: Path
 ) -> None:
-    """Validate the public aggregate and current standalone projector without caches."""
+    """Validate the public aggregate against its frozen historical pipeline manifest and
+    the public GEPA lineage. Before 2026-08-29 this recomputed the diagnostic fingerprint
+    from current bytes and required equality; it now consults the current tree only for
+    the closure definition."""
 
     try:
         validated = validate_ei_item_risk_summary(value)
@@ -1226,6 +1447,25 @@ def _validate_evidence_inference_item_risk(
         raise PublicArtifactValidationError(
             "evidence_inference_item_risk_public_replay_invalid"
         ) from exc
+    try:
+        historical = PipelineFingerprint.model_validate(
+            _load_json_object(root / _EVIDENCE_INFERENCE_ITEM_RISK_HISTORICAL_FINGERPRINT)
+        )
+    except (OSError, ValueError) as exc:
+        raise PublicArtifactValidationError(
+            "evidence_inference_item_risk_historical_fingerprint_invalid"
+        ) from exc
+    current_component = fingerprint.components[0]
+    if (
+        len(historical.components) != 1
+        or historical.components[0].component_id != current_component.component_id
+        or historical.components[0].component_version != current_component.component_version
+        or [record.path for record in historical.components[0].files]
+        != [record.path for record in current_component.files]
+    ):
+        raise PublicArtifactValidationError(
+            "evidence_inference_item_risk_historical_closure_definition_mismatch"
+        )
     lineage = validated.get("lineage")
     population = validated.get("population")
     calibration = validated.get("calibration")
@@ -1268,9 +1508,9 @@ def _validate_evidence_inference_item_risk(
         != "d1c7191d68cc7fb40ed92bddd25bfb9a1d8f625306d10850afde9a96cd9aebe1"
         or lineage.get("config_file_sha256") != sha256_file(config_path)
         or lineage.get("config_sha256") != config.config_sha256
-        or lineage.get("diagnostic_pipeline_sha256") != fingerprint.pipeline_sha256
-        or lineage.get("diagnostic_pipeline_sha256")
-        != "2949fde1ce2f3df25f57d968a075352aa7f36b7f77f0af62ef24cf06e5680f15"
+        or lineage.get("diagnostic_pipeline_sha256") != historical.pipeline_sha256
+        or historical.pipeline_sha256
+        != _EVIDENCE_INFERENCE_ITEM_RISK_HISTORICAL_PIPELINE_SHA256
         or lineage.get("prediction_source_lineage_sha256")
         != recomputed_prediction_source["prediction_source_lineage_sha256"]
         or validated.get("prediction_source") != recomputed_prediction_source
@@ -2397,6 +2637,134 @@ def _validate_native_bounded_ollama_v1_historical(
         raise PublicArtifactValidationError("native_bounded_v1_authority_mismatch")
 
 
+_HARVESTER_VALIDATION_HISTORICAL_SOURCE_BUNDLE_SHA256 = (
+    "b663b0ea80c9cfd1c11d1ad59f90e94d6227ba65232e69e72eee972b2824bacd"
+)
+
+
+def _validate_harvester(value: Mapping[str, Any], *, root: Path) -> None:
+    """Validate the pinned historical harvester validation summary.
+
+    Before 2026-08-29 this required the artifact's embedded source map to equal a
+    live rehash of the current checkout. `harvester/sources.py` changed on
+    2026-08-29 without a probe re-run, so currency is now a pinned historical-bundle
+    equality check instead of a live rehash; every receipt/identity/self-hash
+    structural check performed by `validate_harvester_validation_summary` is
+    unchanged.
+    """
+
+    try:
+        summary = validate_harvester_validation_summary(
+            value,
+            repository_root=root,
+            require_current_sources=False,
+        )
+    except HarvesterValidationError as exc:
+        raise PublicArtifactValidationError(f"harvester_validation_invalid:{exc}") from exc
+    if (
+        hash_canonical(dict(summary.reproducibility.source_files_sha256))
+        != _HARVESTER_VALIDATION_HISTORICAL_SOURCE_BUNDLE_SHA256
+    ):
+        raise PublicArtifactValidationError(
+            "harvester_validation_source_lineage_historical_mismatch"
+        )
+
+
+def _validate_historical_verification_certificate_v5(value: Mapping[str, Any]) -> None:
+    from literature_multiverse.certificate import VerificationCertificate
+
+    try:
+        certificate = VerificationCertificate.model_validate(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError(
+            "historical_verification_certificate_v5_invalid"
+        ) from exc
+    if certificate.certificate_version != "literature-multiverse-verification-v5":
+        raise PublicArtifactValidationError(
+            "historical_verification_certificate_version_mismatch"
+        )
+    if certificate.status != "abstained":
+        raise PublicArtifactValidationError(
+            "historical_verification_certificate_status_mismatch"
+        )
+
+
+def _validate_evidence_boundary_ledger_public(
+    value: Mapping[str, Any], *, root: Path
+) -> None:
+    from literature_multiverse.evidence_boundary_ledger_v1 import (
+        _implementation_hashes,
+        validate_evidence_boundary_ledger,
+    )
+
+    try:
+        ledger = validate_evidence_boundary_ledger(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError("evidence_boundary_ledger_invalid") from exc
+    if ledger.ledger_implementation_file_sha256s != _implementation_hashes(root):
+        raise PublicArtifactValidationError("evidence_boundary_ledger_implementation_stale")
+
+
+def _validate_decisive_readiness_blocked(value: Mapping[str, Any]) -> None:
+    from literature_multiverse.decisive_claim_evaluation_v1 import (
+        DecisiveEvaluationReadinessV1,
+    )
+
+    try:
+        readiness = DecisiveEvaluationReadinessV1.model_validate(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError("decisive_readiness_invalid") from exc
+    if readiness.status != "blocked" or readiness.real_scored_run_candidate is not False:
+        raise PublicArtifactValidationError("decisive_readiness_registered_state_mismatch")
+
+
+def _validate_metasyn_offline_audit_model_only(
+    value: Mapping[str, Any], *, artifact_path: str
+) -> None:
+    if artifact_path.endswith("metasyn-passage-offline-feasibility-audit-v1.json"):
+        from literature_multiverse.metasyn_passage_offline_feasibility_audit_v1 import (
+            MetaSynPassageOfflineFeasibilityAuditV1 as model,
+        )
+    elif artifact_path.endswith("metasyn-contextual-frontier-v1-failure-audit-v1.json"):
+        from literature_multiverse.metasyn_contextual_frontier_v1_failure_audit import (
+            MetaSynContextualFrontierV1FailureAudit as model,
+        )
+    else:
+        raise PublicArtifactValidationError(
+            f"metasyn_offline_audit_unknown_artifact:{artifact_path}"
+        )
+    try:
+        model.model_validate(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError("metasyn_offline_audit_invalid") from exc
+
+
+def _validate_fable_public_paired_summary(value: Mapping[str, Any]) -> None:
+    from literature_multiverse.evidence_inference_fable_retrospective_scoring_v1 import (
+        PublicPairedSummaryV1,
+    )
+
+    try:
+        PublicPairedSummaryV1.model_validate(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError("fable_public_paired_summary_invalid") from exc
+    if value.get("public_summary_version") != "evidence-inference-fable-public-paired-summary-v1":
+        raise PublicArtifactValidationError("fable_public_paired_summary_version_mismatch")
+
+
+def _validate_fable_public_union_evaluation_v2(value: Mapping[str, Any]) -> None:
+    from literature_multiverse.evidence_inference_fable_full_union_reuse_v2 import (
+        EvidenceInferenceFableFullUnionPublicEvaluationV2,
+    )
+
+    try:
+        EvidenceInferenceFableFullUnionPublicEvaluationV2.model_validate(value)
+    except ValueError as exc:
+        raise PublicArtifactValidationError(
+            "fable_public_union_evaluation_v2_invalid"
+        ) from exc
+
+
 def _semantic_validate(
     kind: SemanticValidator,
     value: Mapping[str, Any],
@@ -2419,11 +2787,7 @@ def _semantic_validate(
     elif kind == "evidencebench_grounding":
         _validate_evidencebench_grounding(value, root=root)
     elif kind == "harvester":
-        validate_harvester_validation_summary(
-            value,
-            repository_root=root,
-            require_current_sources=True,
-        )
+        _validate_harvester(value, root=root)
     elif kind == "local_suite":
         _validate_local_suite(value, root=root)
     elif kind == "legacy_antiox_bundles":
@@ -2456,6 +2820,18 @@ def _semantic_validate(
             root=root,
             artifact_path=artifact_path,
         )
+    elif kind == "historical_verification_certificate_v5":
+        _validate_historical_verification_certificate_v5(value)
+    elif kind == "evidence_boundary_ledger":
+        _validate_evidence_boundary_ledger_public(value, root=root)
+    elif kind == "decisive_readiness_blocked":
+        _validate_decisive_readiness_blocked(value)
+    elif kind == "metasyn_offline_audit_model_only":
+        _validate_metasyn_offline_audit_model_only(value, artifact_path=artifact_path)
+    elif kind == "fable_public_paired_summary":
+        _validate_fable_public_paired_summary(value)
+    elif kind == "fable_public_union_evaluation_v2":
+        _validate_fable_public_union_evaluation_v2(value)
     elif kind == "generic":
         pass
     else:

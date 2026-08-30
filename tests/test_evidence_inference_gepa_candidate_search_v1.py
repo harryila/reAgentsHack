@@ -9,6 +9,7 @@ from unittest.mock import patch
 import pytest
 from pydantic import ValidationError
 from scripts import prepare_evidence_inference_gepa_candidate_search_v1 as cli
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.evidence_inference_gepa_candidate_search_v1 as gepa_plan
 from literature_multiverse.evidence_inference_gepa_candidate_search_v1 import (
@@ -20,11 +21,20 @@ from literature_multiverse.lineage import atomic_write_json
 ROOT = Path(__file__).resolve().parents[1]
 FROZEN_AT = datetime(2026, 8, 29, tzinfo=UTC)
 
+pytestmark = pytest.mark.private_cache
+
+_PRIVATE_CANDIDATE_SEARCH_INPUTS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/gepa/evidence-inference-first-pass-v2",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3",
+)
+
 
 @pytest.fixture(scope="module")
 def frozen_plan_with_split_calls() -> tuple[
     EvidenceInferenceGEPACandidateSearchPlanV1, tuple[str, ...]
 ]:
+    require_private_cache(*_PRIVATE_CANDIDATE_SEARCH_INPUTS)
     calls: list[str] = []
     original = gepa_plan.load_manifest_split
 
@@ -272,6 +282,7 @@ def test_cli_validate_external_replays_exact_plan(
     capsys: pytest.CaptureFixture[str],
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CANDIDATE_SEARCH_INPUTS)
     plan_path = tmp_path / "plan.json"
     atomic_write_json(plan_path, frozen_plan)
     monkeypatch.setattr(cli, "_safe_plan_path", lambda **_kwargs: plan_path)

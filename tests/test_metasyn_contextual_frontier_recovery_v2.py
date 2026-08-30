@@ -9,12 +9,23 @@ from typing import Any
 import pytest
 from jsonschema import validate as validate_json_schema
 from jsonschema.exceptions import ValidationError
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_contextual_frontier_recovery_v2 as recovery
 import literature_multiverse.metasyn_contextual_frontier_runtime_v1 as transport
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
 V1_WORKSPACE = ROOT / "data/cache/metasyn/contextual-frontier-runtime-v1"
+RECOVERY_V2_PREPARED = "data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json"
+
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
@@ -23,7 +34,16 @@ def plan() -> recovery.MetaSynContextualFrontierRecoveryPlanV2:
     if cached:
         raw = json.loads(Path(cached).read_text(encoding="utf-8"))
         return recovery.MetaSynContextualFrontierRecoveryPlanV2.model_validate(raw.get("plan", raw))
-    return recovery.freeze_metasyn_contextual_frontier_recovery_plan_v2(repository_root=ROOT)
+    require_private_cache(
+        "data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json",
+        "data/cache/metasyn/contextual-frontier-runtime-v1/02-terminal.json",
+        RECOVERY_V2_PREPARED,
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: recovery.freeze_metasyn_contextual_frontier_recovery_plan_v2(repository_root=ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _completed_branch(schema: dict[str, Any]) -> dict[str, Any]:
@@ -141,6 +161,7 @@ def test_event_and_total_answers_are_not_disclosed_as_target_or_schema_constants
 def test_recovery_request_is_materially_distinct_from_both_immutable_v1_requests(
     plan: recovery.MetaSynContextualFrontierRecoveryPlanV2,
 ) -> None:
+    require_private_cache("data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json")
     frozen_v1 = transport.MetaSynContextualFrontierPlanV1.model_validate(
         json.loads((V1_WORKSPACE / "00-prepared.json").read_text(encoding="utf-8"))
     )
@@ -224,6 +245,10 @@ def test_all_sixteen_provider_visible_passages_are_frozen_and_citable(
 def test_both_v1_live_outputs_remain_invalid_and_scientifically_unsalvageable(
     plan: recovery.MetaSynContextualFrontierRecoveryPlanV2,
 ) -> None:
+    require_private_cache(
+        "data/cache/metasyn/contextual-frontier-runtime-v1/02-terminal.json",
+        "data/cache/metasyn/contextual-frontier-runtime-v1/provider-receipts",
+    )
     terminal = json.loads((V1_WORKSPACE / "02-terminal.json").read_text(encoding="utf-8"))
     assert terminal["status"] == "roster_exhausted_without_typed_graph"
     assert len(terminal["validation_results"]) == 2

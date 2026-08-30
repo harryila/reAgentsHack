@@ -5,6 +5,7 @@ from typing import Any
 
 import pytest
 from scripts.run_evidence_inference_fable_retrospective_v1 import main as harness_main
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.evidence_inference_fable_retrospective_inference_v1 as inference
 import literature_multiverse.evidence_inference_fable_retrospective_v1 as retrospective
@@ -40,10 +41,16 @@ ATTEMPTED_REQUESTS = {
     "ei-fable-retro-v1-pilot30-test-winner-pmc5602855",
 }
 
+pytestmark = pytest.mark.private_cache
+
 
 def test_recovery_v2_is_label_blind_exact_30_and_article_disjoint(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     opened: list[Path] = []
     original_read_text = Path.read_text
     original_read_bytes = Path.read_bytes
@@ -84,6 +91,10 @@ def test_recovery_v2_is_label_blind_exact_30_and_article_disjoint(
 
 
 def test_recovery_v2_reconstructs_exact_runtime_surface_roster() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     plan, prepared = reconstruct_evidence_inference_fable_prepared_runtime_v1(
         repository_root=ROOT,
         mode="pilot30_recovery_v2_paired",
@@ -99,6 +110,10 @@ def test_recovery_v2_reconstructs_exact_runtime_surface_roster() -> None:
 
 
 def test_recovery_derivation_does_not_change_predeclared_source_plans() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     pilot = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="pilot30_paired",
@@ -113,6 +128,10 @@ def test_recovery_derivation_does_not_change_predeclared_source_plans() -> None:
 
 
 def test_recovery_v2_mode_is_accepted_by_internal_full_preflight_mechanics() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     recovery = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="pilot30_recovery_v2_paired",
@@ -146,6 +165,10 @@ def test_recovery_v2_mode_is_accepted_by_internal_full_preflight_mechanics() -> 
 
 
 def test_recovery_v2_bootstrap_accepts_recovery_population() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     recovery = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="pilot30_recovery_v2_paired",
@@ -166,8 +189,7 @@ def test_recovery_v2_bootstrap_accepts_recovery_population() -> None:
             article_id=article_id,
             example_ids=example_ids,
             metric_success_counts={
-                metric: (len(example_ids), len(example_ids))
-                for metric in inference.METRICS
+                metric: (len(example_ids), len(example_ids)) for metric in inference.METRICS
             },
         )
         for article_id, example_ids in sorted(membership.items())
@@ -189,6 +211,10 @@ def test_recovery_v2_harness_prepares_default_frozen_plan(
     tmp_path: Path,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     workspace = tmp_path / "recovery-v2-runtime"
     assert (
         harness_main(

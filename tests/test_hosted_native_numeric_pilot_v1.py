@@ -10,6 +10,7 @@ from pathlib import Path
 
 import pytest
 import scripts.run_hosted_native_numeric_pilot_v1 as pilot_cli
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.hosted_native_numeric_pilot_v1 as pilot_runtime
 from literature_multiverse.hosted_native_grounding_bridge import (
@@ -285,7 +286,12 @@ def _prepare_authorized(tmp_path: Path) -> tuple[Path, object, object, object]:
     return workspace, plan, certificate, authorization
 
 
+@pytest.mark.private_cache
 def test_plan_is_source_only_tiny_and_bounded() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     assert plan.maximum_provider_calls == MAXIMUM_PROVIDER_CALLS == 2
     assert DEFAULT_CONFIG_PATH.name == "hosted-native-numeric-yield-pilot-v5.json"
@@ -346,7 +352,12 @@ def test_plan_requires_exact_successful_canary_before_source_resolution(
         )
 
 
+@pytest.mark.private_cache
 def test_original_schema_is_delivered_once_without_provider_grammar() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     for surface in plan.surfaces:
         request = json.loads(surface.intent.wire_request_utf8)
@@ -391,7 +402,12 @@ def test_original_schema_is_delivered_once_without_provider_grammar() -> None:
         assert canonical_schema not in surface.prompt.rendered_prompt
 
 
+@pytest.mark.private_cache
 def test_count_surface_is_exact_generation_input_surface() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     for surface in plan.surfaces:
         generation = json.loads(surface.intent.wire_request_utf8)
@@ -404,7 +420,12 @@ def test_count_surface_is_exact_generation_input_surface() -> None:
         assert set(count) == {"messages", "model", "output_config", "system"}
 
 
+@pytest.mark.private_cache
 def test_delivered_schema_guard_rejects_compiled_or_structurally_drifted_schema() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     original = plan.surfaces[0].compiled_schema.original_schema
     compiled = plan.surfaces[0].compiled_schema.wire_schema
@@ -434,7 +455,12 @@ def test_delivered_schema_guard_rejects_compiled_or_structurally_drifted_schema(
         require_hosted_native_prompt_json_schema_guard_v1(without_max_items)
 
 
+@pytest.mark.private_cache
 def test_coherently_rehashed_provider_grammar_drift_is_rejected() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     raw = plan.surfaces[0].model_dump(mode="json")
     intent = raw["intent"]
@@ -456,7 +482,12 @@ def test_coherently_rehashed_provider_grammar_drift_is_rejected() -> None:
         HostedNativeNumericPreparedSurfaceV1.model_validate(raw)
 
 
+@pytest.mark.private_cache
 def test_coherently_rehashed_provider_identity_and_intent_drift_is_rejected() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     raw = plan.model_dump(mode="json")
     identity = raw["provider_identity"]
@@ -483,9 +514,14 @@ def test_coherently_rehashed_provider_identity_and_intent_drift_is_rejected() ->
         HostedNativeNumericPilotPlanV1.model_validate(raw)
 
 
+@pytest.mark.private_cache
 def test_v3_prepared_artifact_is_rejected_before_credentials_or_contact(
     repo_cache_sandbox: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     workspace = repo_cache_sandbox / "stale-v3-workspace"
     workspace.mkdir(mode=0o700)
@@ -529,7 +565,12 @@ def test_v3_prepared_artifact_is_rejected_before_credentials_or_contact(
     assert not (workspace / "count-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_project_liability_receipt_precedes_network_and_is_below_100_dollars() -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     plan = _freeze_plan()
     reservation = freeze_hosted_native_numeric_reservation_v1(plan=plan)
     prior = reservation.prior_accounting_receipt
@@ -688,10 +729,15 @@ def test_generation_adapter_accepts_one_text_block_with_reasoning_block() -> Non
     assert raw.content_text == '{"ok":true}'
 
 
+@pytest.mark.private_cache
 def test_count_adapter_initialization_failure_precedes_intent(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = repo_cache_sandbox / "count-init-failure"
     env_file = repo_cache_sandbox / ".env"
     _write_env(env_file)
@@ -726,10 +772,15 @@ def test_count_adapter_initialization_failure_precedes_intent(
     assert not (workspace / "count-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_generation_adapter_initialization_failure_precedes_intent(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(repo_cache_sandbox)
     env_file = repo_cache_sandbox / ".env"
     _write_env(env_file)
@@ -760,11 +811,16 @@ def test_generation_adapter_initialization_failure_precedes_intent(
     assert not (workspace / "call-authorizations").exists()
 
 
+@pytest.mark.private_cache
 def test_count_cli_loads_key_after_preflight_without_persisting_it(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = repo_cache_sandbox / "count-workspace"
     env_file = repo_cache_sandbox / ".env"
     _write_env(env_file)
@@ -816,12 +872,17 @@ def test_count_cli_loads_key_after_preflight_without_persisting_it(
         ),
     ],
 )
+@pytest.mark.private_cache
 def test_count_env_failure_precedes_intent_and_transport(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
     env_case: str,
     failure_code: str,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = repo_cache_sandbox / "count-workspace"
     env_file = repo_cache_sandbox / ".env"
     if env_case == "unsafe_mode":
@@ -867,7 +928,12 @@ def test_count_env_failure_precedes_intent_and_transport(
     assert not (workspace / "count-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_count_anchor_gate_precedes_env_validation(repo_cache_sandbox: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = repo_cache_sandbox / "count-workspace"
     missing_env = repo_cache_sandbox / "missing.env"
     plan = _prepare_plan(workspace)
@@ -906,11 +972,16 @@ def test_count_anchor_gate_precedes_env_validation(repo_cache_sandbox: Path) -> 
         ("lock", "hosted_numeric_workspace_lock_mode_invalid"),
     ],
 )
+@pytest.mark.private_cache
 def test_count_path_and_mode_gates_precede_env_opening(
     repo_cache_sandbox: Path,
     unsafe_target: str,
     failure_code: str,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = repo_cache_sandbox / "count-workspace"
     missing_env = repo_cache_sandbox / "missing.env"
     plan = _prepare_plan(workspace)
@@ -944,7 +1015,12 @@ def test_count_path_and_mode_gates_precede_env_opening(
     assert not (workspace / "count-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_count_intent_is_durable_before_each_transport_call(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace = tmp_path / "fresh-pilot"
     plan = _prepare_plan(workspace)
     reservation = reserve_hosted_native_numeric_pilot_v1(
@@ -962,9 +1038,14 @@ def test_count_intent_is_durable_before_each_transport_call(tmp_path: Path) -> N
     assert len(counter.calls) == 2
 
 
+@pytest.mark.private_cache
 def test_canary_artifact_drift_blocks_direct_and_cli_count_before_contact(
     repo_cache_sandbox: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     canary_workspace, terminal_sha256 = _prepare_successful_canary(repo_cache_sandbox)
     workspace = repo_cache_sandbox / "science"
     plan = prepare_hosted_native_numeric_pilot_v1(
@@ -1029,9 +1110,14 @@ def test_canary_artifact_drift_blocks_direct_and_cli_count_before_contact(
     assert not (workspace / "count-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_canary_drift_blocks_authorization_after_count(
     repo_cache_sandbox: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     canary_workspace, terminal_sha256 = _prepare_successful_canary(repo_cache_sandbox)
     workspace = repo_cache_sandbox / "science"
     plan = prepare_hosted_native_numeric_pilot_v1(
@@ -1069,9 +1155,14 @@ def test_canary_drift_blocks_authorization_after_count(
     assert not (workspace / "03-generation-authorization.json").exists()
 
 
+@pytest.mark.private_cache
 def test_scientific_cost_boundary_accepts_exact_cap_and_rejects_one_token_over(
     tmp_path: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     accepted_workspace = tmp_path / "accepted"
     accepted_plan = _prepare_plan(accepted_workspace)
     accepted_reservation = reserve_hosted_native_numeric_pilot_v1(
@@ -1132,7 +1223,12 @@ def test_scientific_cost_boundary_accepts_exact_cap_and_rejects_one_token_over(
     assert not (rejected_workspace / "02-token-count-certificate.json").exists()
 
 
+@pytest.mark.private_cache
 def test_two_valid_calls_build_bridge_v4_without_reinterpretation(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, certificate, authorization = _prepare_authorized(tmp_path)
     client = _GenerationClient(plan)
     output = execute_hosted_native_numeric_pilot_v1(
@@ -1167,7 +1263,12 @@ def test_two_valid_calls_build_bridge_v4_without_reinterpretation(tmp_path: Path
     assert bridged.package.package_version == "typed-evidence-grounding-package-v4"
 
 
+@pytest.mark.private_cache
 def test_completed_run_repairs_missing_summary_terminal_without_transport(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     client = _GenerationClient(plan)
     completed = execute_hosted_native_numeric_pilot_v1(
@@ -1204,11 +1305,16 @@ def test_completed_run_repairs_missing_summary_terminal_without_transport(tmp_pa
     assert recovered == completed
 
 
+@pytest.mark.private_cache
 def test_execute_cli_loads_key_after_preflight_without_persisting_it(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(repo_cache_sandbox)
     env_file = repo_cache_sandbox / ".env"
     _write_env(env_file)
@@ -1257,12 +1363,17 @@ def test_execute_cli_loads_key_after_preflight_without_persisting_it(
         ),
     ],
 )
+@pytest.mark.private_cache
 def test_execute_env_failure_precedes_intent_and_transport(
     repo_cache_sandbox: Path,
     monkeypatch: pytest.MonkeyPatch,
     env_case: str,
     failure_code: str,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(repo_cache_sandbox)
     env_file = repo_cache_sandbox / ".env"
     if env_case == "unsafe_mode":
@@ -1304,7 +1415,12 @@ def test_execute_env_failure_precedes_intent_and_transport(
     assert not (workspace / "call-authorizations").exists()
 
 
+@pytest.mark.private_cache
 def test_execute_anchor_gate_precedes_env_validation(repo_cache_sandbox: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, _, _, authorization = _prepare_authorized(repo_cache_sandbox)
     missing_env = repo_cache_sandbox / "missing.env"
     with pytest.raises(
@@ -1331,9 +1447,14 @@ def test_execute_anchor_gate_precedes_env_validation(repo_cache_sandbox: Path) -
     assert not (workspace / "call-authorizations").exists()
 
 
+@pytest.mark.private_cache
 def test_execute_workspace_mode_gate_precedes_env_opening(
     repo_cache_sandbox: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(repo_cache_sandbox)
     missing_env = repo_cache_sandbox / "missing.env"
     workspace.chmod(0o755)
@@ -1361,7 +1482,12 @@ def test_execute_workspace_mode_gate_precedes_env_opening(
     assert not (workspace / "call-authorizations").exists()
 
 
+@pytest.mark.private_cache
 def test_wrong_source_association_fails_terminally_without_retry(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     client = _GenerationClient(plan, corrupt_first=True)
     output = execute_hosted_native_numeric_pilot_v1(
@@ -1396,12 +1522,17 @@ def test_wrong_source_association_fails_terminally_without_retry(tmp_path: Path)
         ),
     ],
 )
+@pytest.mark.private_cache
 def test_terminal_provider_failures_are_durable_bridgeable_and_never_retried(
     tmp_path: Path,
     behavior: str,
     outcome: str,
     failure_code: str,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     client = _TerminalGenerationClient(plan, workspace=workspace, behavior=behavior)
     output = execute_hosted_native_numeric_pilot_v1(
@@ -1442,7 +1573,12 @@ def test_terminal_provider_failures_are_durable_bridgeable_and_never_retried(
     assert bridged.receipt.claim_release_authority is False
 
 
+@pytest.mark.private_cache
 def test_direct_executor_rejects_downstream_state_without_intent(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     key = plan.surfaces[0].intent.request_key
     receipt_dir = workspace / "provider-receipts"
@@ -1466,7 +1602,12 @@ def test_direct_executor_rejects_downstream_state_without_intent(tmp_path: Path)
     assert client.calls == 0
 
 
+@pytest.mark.private_cache
 def test_preflight_rejects_terminal_without_hosted_run(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     terminal = workspace / "05-terminal.json"
     terminal.write_text("{}\n", encoding="utf-8")
@@ -1484,10 +1625,15 @@ def test_preflight_rejects_terminal_without_hosted_run(tmp_path: Path) -> None:
         )
 
 
+@pytest.mark.private_cache
 def test_preflight_revalidates_source_before_transport(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
 
     def reject_source(**_: object) -> object:
@@ -1504,7 +1650,12 @@ def test_preflight_revalidates_source_before_transport(
     assert not (workspace / "generation-intents").exists()
 
 
+@pytest.mark.private_cache
 def test_provider_secret_key_shape_is_redacted_before_persistence(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
 
     class SecretShapeClient(_GenerationClient):
@@ -1530,7 +1681,12 @@ def test_provider_secret_key_shape_is_redacted_before_persistence(tmp_path: Path
             assert b"not-a-real-secret" not in path.read_bytes()
 
 
+@pytest.mark.private_cache
 def test_observed_request_budget_breach_invalidates_yield(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, certificate, authorization = _prepare_authorized(tmp_path)
 
     class OverBudgetClient(_GenerationClient):
@@ -1560,7 +1716,12 @@ def test_observed_request_budget_breach_invalidates_yield(tmp_path: Path) -> Non
     assert terminal.certified_budget_claim_valid is False
 
 
+@pytest.mark.private_cache
 def test_old_or_foreign_request_identity_is_not_ignored(tmp_path: Path) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-2.0/txt_files/PMC2427034.txt",
+        "data/cache/evidence-inference-2.0/txt_files/PMC3104134.txt",
+    )
     workspace, plan, _, authorization = _prepare_authorized(tmp_path)
     intent_dir = workspace / "generation-intents"
     intent_dir.mkdir(mode=0o700)

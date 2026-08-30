@@ -3,6 +3,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+from tests.private_cache_support import require_private_cache
+
 from literature_multiverse.cli import main as cli_main
 from literature_multiverse.postlive_recovery_v4_public_verify_v1 import (
     REQUIRED_ADAPTER_ISSUE_CODES,
@@ -13,10 +16,16 @@ from literature_multiverse.postlive_recovery_v4_public_verify_v1 import (
 )
 from literature_multiverse.verifier import load_claim_manifest, load_corpus
 
+pytestmark = pytest.mark.private_cache
+
 ROOT = Path(__file__).resolve().parents[1]
+POSTHOC_ARTIFACT_RELATIVE = (
+    "data/cache/metasyn/contextual-frontier-recovery-v4-posthoc-v1/artifact.json"
+)
 
 
 def test_inputs_bind_actual_joined_claim_and_blocking_issues() -> None:
+    require_private_cache(POSTHOC_ARTIFACT_RELATIVE)
     preparation, claim, bundle = freeze_postlive_recovery_v4_public_verify_inputs_v1(
         repository_root=ROOT
     )
@@ -47,6 +56,7 @@ def test_inputs_bind_actual_joined_claim_and_blocking_issues() -> None:
 
 
 def test_public_loader_preserves_every_required_blocker(tmp_path: Path) -> None:
+    require_private_cache(POSTHOC_ARTIFACT_RELATIVE)
     workspace = tmp_path / "inputs"
     write_postlive_recovery_v4_public_verify_inputs_v1(
         repository_root=ROOT, workspace=workspace
@@ -67,6 +77,7 @@ def test_public_loader_preserves_every_required_blocker(tmp_path: Path) -> None:
 def test_public_cli_abstains_and_external_replay_validates(
     tmp_path: Path, capsys
 ) -> None:
+    require_private_cache(POSTHOC_ARTIFACT_RELATIVE)
     workspace = tmp_path / "inputs"
     output = tmp_path / "output"
     write_postlive_recovery_v4_public_verify_inputs_v1(

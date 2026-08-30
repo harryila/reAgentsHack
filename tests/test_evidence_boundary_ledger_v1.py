@@ -6,6 +6,12 @@ from pathlib import Path
 
 import pytest
 from scripts import run_evidence_boundary_ledger_v1 as runner
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.evidence_boundary_ledger_v1 as ledger_module
 from literature_multiverse.evidence_boundary_ledger_v1 import (
@@ -18,21 +24,44 @@ from literature_multiverse.evidence_boundary_ledger_v1 import (
     LabelState,
     SourcePayloadState,
     TypedEffectStatus,
-    build_evidence_boundary_ledger,
     validate_evidence_boundary_ledger,
 )
 from literature_multiverse.lineage import OutputExistsError, hash_canonical, sha256_file
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-V3_PLAN = Path("data/cache/metasyn/passage-packet-rescue-v3/rescue-plan.json")
+LEDGER_ARTIFACT = REPOSITORY_ROOT / "artifacts/diagnostics/evidence-boundary-ledger-v1.json"
 
 
 @pytest.fixture(scope="module")
 def ledger() -> EvidenceBoundaryLedgerV1:
-    return build_evidence_boundary_ledger(
-        repository_root=REPOSITORY_ROOT,
-        v3_pre_call_blocker_plan=V3_PLAN,
+    return EvidenceBoundaryLedgerV1.model_validate(
+        json.loads(LEDGER_ARTIFACT.read_text(encoding="utf-8"))
     )
+
+
+@pytest.mark.private_cache
+def test_live_build_evidence_boundary_ledger_replays_tracked_artifact_or_is_stale(
+    ledger: EvidenceBoundaryLedgerV1,
+) -> None:
+    require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/synthesis-yield-v1/private-report.json",
+        "data/cache/metasyn/synthesis-yield-v2/private-report.json",
+        "data/cache/metasyn/passage-packet-rescue-v3/rescue-plan.json",
+    )
+    rebuilt = skip_when_historical_replay_is_stale(
+        lambda: ledger_module.build_evidence_boundary_ledger(
+            repository_root=REPOSITORY_ROOT,
+            v3_pre_call_blocker_plan=Path(
+                "data/cache/metasyn/passage-packet-rescue-v3/rescue-plan.json"
+            ),
+        ),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
+    assert rebuilt.ledger_sha256 == ledger.ledger_sha256
 
 
 def test_ledger_separates_evidence_classes_and_keeps_every_authority_fail_closed(

@@ -7,10 +7,17 @@ from typing import Any
 import pytest
 from pydantic import ValidationError
 from scripts.run_metasyn_grounded_analysis_v2 import _reviewers
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_grounded_analysis_v2 as analysis_module
 from literature_multiverse.evidence_graph import PublicationIdentity
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_candidate_inventory_v2 import (
     MetaSynCandidateInventoryReceiptV2,
     freeze_metasyn_candidate_inventory_receipt_v2,
@@ -32,6 +39,7 @@ from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     MetaSynPassageHostedExecutionBundleV2,
     freeze_metasyn_passage_hosted_execution_bundle_v2,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 from literature_multiverse.native_extraction import (
     NativePublicationExtraction,
     freeze_native_publication_extraction,
@@ -300,7 +308,16 @@ def test_empty_effect_question_preserves_publication_and_reason() -> None:
 
 @pytest.fixture(scope="module")
 def execution_bundle() -> MetaSynPassageHostedExecutionBundleV2:
-    return freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=ROOT)
+    root = require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=root),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 @pytest.fixture(scope="module")
@@ -332,6 +349,7 @@ def zero_yield_bridge(
     )
 
 
+@pytest.mark.private_cache
 def test_real_bridge_join_preserves_all_ten_questions_and_32_publications(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
     monkeypatch: pytest.MonkeyPatch,

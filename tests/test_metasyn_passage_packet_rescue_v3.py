@@ -8,6 +8,12 @@ from types import SimpleNamespace
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_passage_packet_rescue_v3 as rescue
 from literature_multiverse.anthropic_bounded_generation import (
@@ -20,6 +26,7 @@ from literature_multiverse.anthropic_bounded_generation import (
 )
 from literature_multiverse.hosted_exact_once import execute_hosted_exactly_once
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     MetaSynPassageHostedExecutionBundleV2,
 )
@@ -30,6 +37,7 @@ from literature_multiverse.metasyn_passage_packet_rescue_v3 import (
     MetaSynPassageRescueResultV3,
     MetaSynPassageRescueSmokeReceiptV3,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
 V2_WORKSPACE = ROOT / "data/cache/metasyn/passage-hosted-yield-v2"
@@ -37,14 +45,27 @@ V2_WORKSPACE = ROOT / "data/cache/metasyn/passage-hosted-yield-v2"
 
 @pytest.fixture(scope="module")
 def plan() -> MetaSynPassagePacketRescuePlanV3:
-    return rescue.freeze_metasyn_passage_packet_rescue_plan_v3(
-        repository_root=ROOT,
-        v2_workspace=V2_WORKSPACE,
+    # The real replay reaches, transitively, the private bounded-anthropic-yield-v5
+    # bundle and (through its adapter/typed-pilot rebuild) typed-oracle-pilot-v2;
+    # all three must be present or this fixture skips rather than erroring.
+    require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: rescue.freeze_metasyn_passage_packet_rescue_plan_v3(
+            repository_root=ROOT,
+            v2_workspace=V2_WORKSPACE,
+        ),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
     )
 
 
 @pytest.fixture(scope="module")
 def bundle() -> MetaSynPassageHostedExecutionBundleV2:
+    require_private_cache("data/cache/metasyn/passage-hosted-yield-v2")
     return MetaSynPassageHostedExecutionBundleV2.model_validate(
         json.loads((V2_WORKSPACE / "execution-bundle.json").read_text(encoding="utf-8"))
     )
@@ -196,6 +217,7 @@ def _local_contract_result(
     )
 
 
+@pytest.mark.private_cache
 def test_real_v2_replay_forensics_selection_and_zero_yield_blocker_are_exact(
     plan: MetaSynPassagePacketRescuePlanV3,
 ) -> None:
@@ -277,6 +299,7 @@ def test_real_v2_replay_forensics_selection_and_zero_yield_blocker_are_exact(
     assert plan.claim_release_authority is False
 
 
+@pytest.mark.private_cache
 def test_selector_rejects_attempted_scientific_signature_even_under_fresh_key(
     plan: MetaSynPassagePacketRescuePlanV3,
 ) -> None:
@@ -298,6 +321,7 @@ def test_selector_rejects_attempted_scientific_signature_even_under_fresh_key(
     )
 
 
+@pytest.mark.private_cache
 def test_coherent_plan_and_blocker_tamper_fail_closed(
     monkeypatch: pytest.MonkeyPatch,
     plan: MetaSynPassagePacketRescuePlanV3,
@@ -330,6 +354,7 @@ def test_coherent_plan_and_blocker_tamper_fail_closed(
         MetaSynPassageRescuePreCallBlockerItemV3.model_validate(item_payload)
 
 
+@pytest.mark.private_cache
 def test_prepare_persists_blocker_and_authorize_and_smoke_make_zero_calls(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
@@ -377,6 +402,7 @@ def test_prepare_persists_blocker_and_authorize_and_smoke_make_zero_calls(
     assert status["provider_cost_liability_usd_micros"] == 0
 
 
+@pytest.mark.private_cache
 def test_result_and_smoke_intrinsic_shapes_reject_coherent_authority_forgery(
     tmp_path: Path,
     plan: MetaSynPassagePacketRescuePlanV3,
@@ -416,6 +442,7 @@ def test_result_and_smoke_intrinsic_shapes_reject_coherent_authority_forgery(
         invalid_smoke.validate_smoke()
 
 
+@pytest.mark.private_cache
 def test_incident_followed_by_a_later_result_is_rejected_intrinsically(
     tmp_path: Path,
     plan: MetaSynPassagePacketRescuePlanV3,
@@ -475,6 +502,7 @@ def test_incident_followed_by_a_later_result_is_rejected_intrinsically(
     assert second_client.calls == [plan.requests[1].request.request_key]
 
 
+@pytest.mark.private_cache
 def test_prepared_blocker_artifact_tamper_fails_closed(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,

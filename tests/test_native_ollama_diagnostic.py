@@ -7,6 +7,7 @@ from typing import Any
 
 import pytest
 from jsonschema import Draft202012Validator
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.config import load_question_config
 from literature_multiverse.lineage import hash_canonical
@@ -124,6 +125,11 @@ class _RequestOutageClient(_FakeOllamaClient):
 
 @pytest.fixture(scope="module")
 def native_bundle() -> dict[str, Any]:
+    require_private_cache(
+        "data/cache/native-source-v1/antiox-eligible/native_source_manifest.json",
+        "data/cache/native-source-v1/antiox-eligible/source_manifest_bridge_run.json",
+        "data/cache/native-source-v1/antiox-eligible/diagnostic_source_ledger.json",
+    )
     return prepare_input_bundle(config_path=CONFIG, repository_root=ROOT)
 
 
@@ -264,6 +270,7 @@ def _rehash(value: dict[str, Any], field: str) -> dict[str, Any]:
     return payload
 
 
+@pytest.mark.private_cache
 def test_prepare_is_exact_19_member_label_blind_bundle_and_schema_is_regex_free(
     native_bundle: dict[str, Any],
 ) -> None:
@@ -421,6 +428,7 @@ def test_prepare_rejects_claim_protocol_drift_before_source_materialization(
         prepare_input_bundle(config_path=config_path, repository_root=ROOT)
 
 
+@pytest.mark.private_cache
 def test_current_execution_context_is_rechecked_before_any_generation(
     native_bundle: dict[str, Any],
 ) -> None:
@@ -443,6 +451,7 @@ def test_current_execution_context_is_rechecked_before_any_generation(
         validate_current_diagnostic_context(tampered, repository_root=ROOT)
 
 
+@pytest.mark.private_cache
 def test_projection_scope_accepts_multiple_projected_chunks_from_one_cited_line(
     native_bundle: dict[str, Any],
 ) -> None:
@@ -468,6 +477,7 @@ def test_projection_scope_accepts_multiple_projected_chunks_from_one_cited_line(
     assert _projection_scope_issues(extraction=extraction, row=row) == []
 
 
+@pytest.mark.private_cache
 def test_official_postvalidation_rejects_json_type_coercion(
     native_bundle: dict[str, Any],
 ) -> None:
@@ -482,6 +492,7 @@ def test_official_postvalidation_rejects_json_type_coercion(
     assert error.startswith("official_json_schema_validation_error:")
 
 
+@pytest.mark.private_cache
 def test_expanded_schema_compatibility_preflight_is_source_and_label_free(
     native_bundle: dict[str, Any],
 ) -> None:
@@ -528,6 +539,7 @@ def test_expanded_schema_compatibility_failure_precedes_scientific_rows() -> Non
     assert client.generate_calls == 1
 
 
+@pytest.mark.private_cache
 def test_prediction_freezes_official_postvalidation_and_never_retries_terminal_rows(
     native_bundle: dict[str, Any],
     tmp_path: Path,
@@ -675,6 +687,7 @@ def test_prediction_freezes_official_postvalidation_and_never_retries_terminal_r
         validate_public_summary(sensitive_reason)
 
 
+@pytest.mark.private_cache
 def test_runtime_outage_stops_without_freezing_paper_failure_and_resume_is_exact(
     native_bundle: dict[str, Any],
     tmp_path: Path,
@@ -722,6 +735,7 @@ def test_runtime_outage_stops_without_freezing_paper_failure_and_resume_is_exact
     )
 
 
+@pytest.mark.private_cache
 def test_request_transport_failure_is_not_frozen_as_scientific_row_outcome(
     native_bundle: dict[str, Any],
     tmp_path: Path,
@@ -746,6 +760,7 @@ def test_request_transport_failure_is_not_frozen_as_scientific_row_outcome(
     assert not ledger_path.exists()
 
 
+@pytest.mark.private_cache
 def test_prediction_rejects_unexpected_receipt_files_before_generation(
     native_bundle: dict[str, Any],
     tmp_path: Path,
@@ -766,6 +781,7 @@ def test_prediction_rejects_unexpected_receipt_files_before_generation(
     assert client.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_all_19_terminal_non_estimable_outputs_still_form_complete_v4_package(
     native_bundle: dict[str, Any],
     tmp_path: Path,

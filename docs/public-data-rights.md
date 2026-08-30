@@ -46,9 +46,11 @@ them and emits:
 - policy and release blockers; and
 - a canonical full-payload self-hash.
 
-It never emits article text, question text, source quotes, abstracts, labels, predictions,
-individual corpus identifiers, or a per-file path list. Undeclared and ambiguous path samples are
-represented only by SHA-256 hashes of their relative paths.
+It never emits article text, question text, source quotes, abstracts, labels, predictions, or
+individual corpus identifiers. It emits declared path patterns verbatim — including collections
+whose declarations enumerate individual project-authored artifact paths — never a
+filesystem-derived inventory or any value. Undeclared and ambiguous path samples are represented
+only by SHA-256 hashes of their relative paths.
 
 An optional one-shot report can be written outside the repository:
 
@@ -74,6 +76,28 @@ metadata, abstracts, identifiers, review excerpts, and PMC-derived text subject 
 The policy therefore covers only the checked annotation inputs and derived constant-prediction
 bundle under that notice. Cached MetaSyn article payloads and Evidence Inference article text remain
 local and ignored. The legacy tracked Antiox trees are a separate, unresolved boundary.
+
+## Diagnostics and prompt collections
+
+`monitored_path_prefixes` includes `artifacts/diagnostics` (in addition to the two narrower
+sub-prefixes it already contained), so every tracked file under that tree is a monitored candidate
+regardless of extension. Four collections classify it and the project's prompt templates:
+
+- `project_authored_prompt_templates` (`prompts/**`, `project_authored`, public) — prompt
+  templates authored for this project. Only the hosted numeric-yield pilot `.txt` prompts are
+  monitored by the deny-by-default suffix list; the Markdown prompts are unmonitored by design.
+- `metasyn_derived_diagnostics_with_source_text` (six files, `redistribution_not_established`,
+  blocks release) — diagnostics that embed verbatim MetaSyn-linked article quotes, titles, or
+  passages (including one HTML verification certificate) under fields such as `quote`,
+  `evidence_quote`, or `title`.
+- `project_authored_evidence_inference_rosters_with_pmc_identifiers` (five files,
+  `redistribution_not_established`, blocks release) — frozen request rosters and exclusion ledgers
+  naming public PMC and Evidence Inference example identifiers, with no article text or labels.
+  Evidence Inference 2.0 ships no dataset license (see `docs/evidence-inference-benchmark.md`); this
+  is a conservative operator classification pending a redistribution review of identifier lists.
+- `project_authored_diagnostic_aggregates` (an explicit sorted path list, `project_authored`,
+  public) — the remaining project-authored aggregate metrics, hashes, receipts, and pipeline
+  fingerprints under `artifacts/diagnostics`, each also validated by the public-artifact registry.
 
 ## Existing-metadata feasibility check
 

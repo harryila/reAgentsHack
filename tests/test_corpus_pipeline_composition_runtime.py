@@ -5,6 +5,7 @@ from pathlib import Path
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.corpus_pipeline_composition_runtime import (
     CorpusPipelineCompositionExternalReplayReceiptV1,
@@ -26,13 +27,18 @@ BRIDGE = (
     / "data/cache/hosted-native-numeric-yield-pilot-v5-grounding"
     / "hosted_native_grounding_bridge_receipt.json"
 )
-HAS_REAL_V5 = PACKAGE.is_file() and BRIDGE.is_file()
+# Every test in this module reaches the private local hosted-v5 cache, either
+# transitively through `replayed_receipt` or directly (the certificate test), so the
+# whole module is marked rather than repeating the marker on each test.
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
 def replayed_receipt() -> CorpusPipelineCompositionExternalReplayReceiptV1:
-    if not HAS_REAL_V5:
-        pytest.skip("local immutable hosted-v5 grounding artifacts are unavailable")
+    require_private_cache(
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/typed_evidence_grounding_package.json",
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/hosted_native_grounding_bridge_receipt.json",
+    )
     return build_corpus_pipeline_composition_external_replay_receipt_v1(
         repository_root=ROOT,
         grounding_package_path=PACKAGE,
@@ -51,9 +57,7 @@ def test_real_v5_package_builds_and_replays_non_authorizing_composition(
     )
     assert receipt.composed_pipeline_sha256 == receipt.calibration_pipeline_sha256
     assert receipt.composed_pipeline_sha256 == receipt.release_pipeline_sha256
-    assert receipt.composed_pipeline_sha256 != (
-        receipt.composition_join.extraction_pipeline_sha256
-    )
+    assert receipt.composed_pipeline_sha256 != (receipt.composition_join.extraction_pipeline_sha256)
     assert receipt.scientific_authority is False
     assert receipt.calibration_authority is False
     assert receipt.claim_release_authority is False
@@ -99,7 +103,8 @@ def test_legacy_v5_certificate_bytes_remain_unchanged() -> None:
         / "data/cache/hosted-native-numeric-yield-pilot-v5-verifier/output-v4"
         / "verification-certificate.json"
     )
-    if not certificate_path.is_file():
-        pytest.skip("local immutable hosted-v5 certificate is unavailable")
+    require_private_cache(
+        "data/cache/hosted-native-numeric-yield-pilot-v5-verifier/output-v4/verification-certificate.json"
+    )
     observed = hashlib.sha256(certificate_path.read_bytes()).hexdigest()
     assert observed == "2766057c480ddec7bf0ff4cd7f991d9ead3ad409cfbb2d6d0a1b3a92e43beae9"

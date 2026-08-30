@@ -10,6 +10,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.local_ollama import (
@@ -289,6 +290,11 @@ def _find_candidate_packet(
 
 @pytest.fixture(scope="module")
 def bundle() -> dict[str, Any]:
+    require_private_cache(
+        "data/cache/native-source-v1/antiox-eligible/native_source_manifest.json",
+        "data/cache/native-source-v1/antiox-eligible/source_manifest_bridge_run.json",
+        "data/cache/native-source-v1/antiox-eligible/diagnostic_source_ledger.json",
+    )
     return prepare_bounded_input_bundle(
         config_path=ROOT / DEFAULT_CONFIG_PATH,
         repository_root=ROOT,
@@ -349,6 +355,7 @@ def _rehash(value: dict[str, Any], field: str) -> dict[str, Any]:
     return payload
 
 
+@pytest.mark.private_cache
 def test_prepare_freezes_exact_source_only_bundle_and_current_context(
     bundle: dict[str, Any],
 ) -> None:
@@ -365,6 +372,7 @@ def test_prepare_freezes_exact_source_only_bundle_and_current_context(
     assert len(validated["diagnostic_execution_identity"]["files"]) >= 47
 
 
+@pytest.mark.private_cache
 def test_input_bundle_exact_fields_forbid_coherently_rehashed_label_smuggling(
     bundle: dict[str, Any],
 ) -> None:
@@ -379,6 +387,7 @@ def test_input_bundle_exact_fields_forbid_coherently_rehashed_label_smuggling(
         validate_bounded_input_bundle(tampered)
 
 
+@pytest.mark.private_cache
 def test_current_context_rederives_positive_direction_and_prompt(
     bundle: dict[str, Any],
 ) -> None:
@@ -398,6 +407,7 @@ def test_current_context_rederives_positive_direction_and_prompt(
         )
 
 
+@pytest.mark.private_cache
 def test_coherent_source_row_rehash_cannot_cross_original_freeze_anchor(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -445,6 +455,7 @@ def test_coherent_source_row_rehash_cannot_cross_original_freeze_anchor(
     assert client.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_preflight_is_six_call_bundle_bound_and_idempotent(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -470,6 +481,7 @@ def test_preflight_is_six_call_bundle_bound_and_idempotent(
     assert client.generate_calls == 6
 
 
+@pytest.mark.private_cache
 def test_ambiguous_preflight_execution_poison_prevents_retry(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -502,6 +514,7 @@ def test_ambiguous_preflight_execution_poison_prevents_retry(
     assert second.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_preflight_directory_rejects_unregistered_artifact_membership(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -532,6 +545,7 @@ def test_preflight_directory_rejects_unregistered_artifact_membership(
     assert client.generate_calls == 6
 
 
+@pytest.mark.private_cache
 def test_prediction_requires_completed_current_preflight_before_paper_call(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -555,6 +569,7 @@ def test_prediction_requires_completed_current_preflight_before_paper_call(
     assert client.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_prediction_partial_complete_and_noop_resume_use_one_call_per_row(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -609,6 +624,7 @@ def test_prediction_partial_complete_and_noop_resume_use_one_call_per_row(
     assert client.generate_calls == 6 + 19
 
 
+@pytest.mark.private_cache
 def test_ambiguous_paper_execution_poison_prevents_retry(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -658,6 +674,7 @@ def test_ambiguous_paper_execution_poison_prevents_retry(
     assert retry.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_canonical_workspace_layout_rejects_alternate_lock_domains_before_calls(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -686,6 +703,7 @@ def test_canonical_workspace_layout_rejects_alternate_lock_domains_before_calls(
     assert client.generate_calls == 0
 
 
+@pytest.mark.private_cache
 def test_concurrent_predictor_is_rejected_and_cannot_double_post(
     tmp_path: Path,
     bundle: dict[str, Any],
@@ -887,6 +905,7 @@ def test_packet_quote_must_match_exactly_one_cited_frozen_passage(
         assert grounding is None
 
 
+@pytest.mark.private_cache
 def test_ledger_constructor_rejects_extra_receipt_keys(
     bundle: dict[str, Any],
     completed_run: dict[str, Any],
@@ -904,6 +923,7 @@ def test_ledger_constructor_rejects_extra_receipt_keys(
         )
 
 
+@pytest.mark.private_cache
 def test_public_summary_is_strict_content_silent_and_truthful(
     completed_run: dict[str, Any],
 ) -> None:
@@ -920,6 +940,7 @@ def test_public_summary_is_strict_content_silent_and_truthful(
     assert validated["empirical_counts_require_private_receipt_replay"] is True
 
 
+@pytest.mark.private_cache
 @pytest.mark.parametrize("attack", ["extra_field", "float_count", "identity_smuggle"])
 def test_public_summary_rejects_coherently_rehashed_attacks(
     completed_run: dict[str, Any],
@@ -944,6 +965,7 @@ def test_public_summary_rejects_coherently_rehashed_attacks(
         validate_bounded_public_summary(tampered, repository_root=ROOT)
 
 
+@pytest.mark.private_cache
 def test_private_replay_recomputes_every_empirical_aggregate(
     bundle: dict[str, Any],
     completed_run: dict[str, Any],
@@ -967,6 +989,7 @@ def test_private_replay_recomputes_every_empirical_aggregate(
     assert public == completed_run["public"]
 
 
+@pytest.mark.private_cache
 def test_private_replay_rejects_coherently_rehashed_private_report(
     bundle: dict[str, Any],
     completed_run: dict[str, Any],
@@ -995,6 +1018,7 @@ def test_private_replay_rejects_coherently_rehashed_private_report(
         )
 
 
+@pytest.mark.private_cache
 @pytest.mark.parametrize(
     ("unable_packet", "expected_promoted"),
     [(False, 1), (True, 0)],

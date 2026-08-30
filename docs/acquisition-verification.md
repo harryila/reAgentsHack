@@ -42,7 +42,7 @@ should use `freeze_acquisition_manifest`; an offline extraction ledger should us
 the content hash.
 
 The computed verifier fingerprint covers this path. Its current `native-extraction`
-component is version 12 and includes the acquisition and harvester modules as well as the
+component is version 13 and includes the acquisition and harvester modules as well as the
 native extraction/grounding surface. Any covered byte drift changes the computed pipeline
 identity. The component version is an integrity boundary, not evidence that a retrieval or
 extraction model is scientifically valid.

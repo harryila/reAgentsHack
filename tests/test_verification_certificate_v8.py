@@ -9,6 +9,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.certificate import (
     VerificationCertificate,
@@ -45,13 +46,20 @@ LEGACY_CERTIFICATE = (
     / "data/cache/hosted-native-numeric-yield-pilot-v5-verifier/output-v4"
     / "verification-certificate.json"
 )
-HAS_REAL_V5 = PACKAGE.is_file() and BRIDGE.is_file() and CLAIM.is_file()
+
+# Every test in this module reaches the private local hosted-v5 cache transitively
+# through `v8_inputs` (or `v8_certificate`, which depends on it), so the whole module
+# is marked rather than repeating the marker on each test.
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
 def v8_inputs() -> tuple[Any, Any, CorpusPipelineCompositionExternalReplayReceiptV1]:
-    if not HAS_REAL_V5:
-        pytest.skip("local immutable hosted-v5 grounding artifacts are unavailable")
+    require_private_cache(
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/typed_evidence_grounding_package.json",
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/hosted_native_grounding_bridge_receipt.json",
+        "data/cache/hosted-native-numeric-yield-pilot-v5-verifier/claim.yaml",
+    )
     manifest = load_claim_manifest(CLAIM)
     corpus = load_corpus(
         PACKAGE,
@@ -115,8 +123,9 @@ def test_real_v5_corpus_runs_through_join_aware_ordinary_v8(
 def test_v8_clears_only_legacy_pipeline_blocker(
     v8_certificate: VerificationCertificateV8,
 ) -> None:
-    if not LEGACY_CERTIFICATE.is_file():
-        pytest.skip("local immutable hosted-v5 certificate is unavailable")
+    require_private_cache(
+        "data/cache/hosted-native-numeric-yield-pilot-v5-verifier/output-v4/verification-certificate.json"
+    )
     legacy = VerificationCertificate.model_validate_json(
         LEGACY_CERTIFICATE.read_bytes()
     )

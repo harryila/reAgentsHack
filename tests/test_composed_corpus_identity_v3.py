@@ -5,6 +5,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.adaptive_calibration import freeze_complete_corpus_identity
 from literature_multiverse.composed_corpus_identity import (
@@ -36,13 +37,15 @@ BRIDGE = (
     / "data/cache/hosted-native-numeric-yield-pilot-v5-grounding"
     / "hosted_native_grounding_bridge_receipt.json"
 )
-HAS_REAL_V5 = PACKAGE.is_file() and BRIDGE.is_file()
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
 def real_inputs() -> tuple[Any, CorpusPipelineCompositionExternalReplayReceiptV1]:
-    if not HAS_REAL_V5:
-        pytest.skip("local immutable hosted-v5 grounding artifacts are unavailable")
+    require_private_cache(
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/typed_evidence_grounding_package.json",
+        "data/cache/hosted-native-numeric-yield-pilot-v5-grounding/hosted_native_grounding_bridge_receipt.json",
+    )
     corpus = load_corpus(
         PACKAGE,
         legacy_settings=LegacyAdapterConfig(),
@@ -158,10 +161,7 @@ def test_v3_manifest_policy_binding_carries_exact_receipt(
     assert binding.binding_version == MANIFEST_CORPUS_POLICY_BINDING_V3_VERSION
     assert binding.complete_corpus_identity_v3 == identity
     assert binding.external_replay_receipt_sha256 == receipt.receipt_sha256
-    assert (
-        binding.complete_corpus_membership_v3_sha256
-        == identity.membership_composition_sha256
-    )
+    assert binding.complete_corpus_membership_v3_sha256 == identity.membership_composition_sha256
     assert binding.release_authorizing is False
     assert validate_manifest_corpus_policy_binding_v3(binding) == binding
 

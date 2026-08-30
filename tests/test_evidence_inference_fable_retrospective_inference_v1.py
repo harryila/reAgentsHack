@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_paired_runtime_v1 import (
     EvidenceInferenceFableProviderResultV1,
@@ -41,6 +42,23 @@ FAKE_SCORED_ROWS_SHA = "2" * 64
 FAKE_SCORING_ARTIFACT_SHA = "3" * 64
 FAKE_RECEIPT_MEMBERSHIP_SHA = "4" * 64
 
+pytestmark = pytest.mark.private_cache
+
+_REQUIRED_PRIVATE_CACHE_PATHS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/evidence-inference-gepa/conversion_report.json",
+    "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+    "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+    "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+    "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+    "data/cache/evidence-inference-2.0/prompts_merged.csv",
+    "data/cache/evidence-inference-2.0/txt_files",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+)
+
 
 class _OfflineFakeClient:
     """In-process transport double with no provider or network path."""
@@ -75,14 +93,15 @@ def plans_and_surfaces() -> tuple[
     EvidenceInferenceFableRetrospectivePlanV1,
     list[dict[str, Any]],
 ]:
+    root = require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     surfaces: list[dict[str, Any]] = []
     pilot = freeze_evidence_inference_fable_retrospective_plan_v1(
-        repository_root=ROOT,
+        repository_root=root,
         mode="pilot30_paired",
         _model_surface_sink=surfaces,
     )
     full = freeze_evidence_inference_fable_retrospective_plan_v1(
-        repository_root=ROOT,
+        repository_root=root,
         mode="full_paired",
     )
     return pilot, full, surfaces

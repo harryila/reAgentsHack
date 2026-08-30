@@ -106,3 +106,5 @@ The component settings and native entry-point list should also name the
 `hosted-native-extraction-run-v1` / `hosted_exact_once` boundary. A run prepared against
 the old component or before those bytes are included must fail fingerprint replay and
 must be regenerated, not patched post hoc.
+
+This bump is now in place: the current native-extraction component version is 13.

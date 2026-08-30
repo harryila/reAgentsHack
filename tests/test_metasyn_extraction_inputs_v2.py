@@ -5,9 +5,16 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_extraction_inputs_v2 as inputs_module
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_candidate_inventory_v2 import (
     MetaSynCandidateInventoryReceiptV2,
     MetaSynCandidateInventoryV2,
@@ -26,6 +33,7 @@ from literature_multiverse.metasyn_extraction_inputs_v2 import (
     validate_metasyn_extraction_inputs_v2,
     validate_metasyn_packet_candidate_input_v2,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
@@ -34,7 +42,18 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 def extraction_inputs() -> MetaSynExtractionInputsV2:
     # Normative integration path: this performs the real immutable-v5 external replay,
     # rehashes source bytes, and freezes all 32 successor rows without provider calls.
-    return freeze_metasyn_extraction_inputs_v2(repository_root=REPOSITORY_ROOT)
+    # The external replay transitively re-validates the private typed-oracle pilot
+    # prepare bundle, so it needs both private caches even though it never opens
+    # `data/cache/metasyn/typed-oracle-pilot-v2` directly itself.
+    require_private_cache(
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_extraction_inputs_v2(repository_root=REPOSITORY_ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _candidate_fixture(
@@ -123,6 +142,7 @@ def _model_facing_keys(value: Any) -> set[str]:
     return set()
 
 
+@pytest.mark.private_cache
 def test_real_external_replay_freezes_all_32_provider_neutral_rows(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -149,6 +169,7 @@ def test_real_external_replay_freezes_all_32_provider_neutral_rows(
     assert bundle.claim_release_authority is False
 
 
+@pytest.mark.private_cache
 def test_question_surface_is_the_exact_closed_extraction_protocol_whitelist(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -175,6 +196,7 @@ def test_question_surface_is_the_exact_closed_extraction_protocol_whitelist(
         assert "clinical_benefit_direction_by_outcome_id" not in model_keys
 
 
+@pytest.mark.private_cache
 def test_every_row_has_projection_v2_source_strength_prompt_and_schema(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -198,6 +220,7 @@ def test_every_row_has_projection_v2_source_strength_prompt_and_schema(
         assert context["passage_ids"] == sorted(row.projection_surface.passage_ids)
 
 
+@pytest.mark.private_cache
 def test_full_projection_passages_preserve_contiguous_prompt_order(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -212,6 +235,7 @@ def test_full_projection_passages_preserve_contiguous_prompt_order(
     assert at_least_one_hash_order_differs
 
 
+@pytest.mark.private_cache
 def test_pipeline_fingerprint_is_ast_closed_and_binds_prompts_and_dependencies(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -235,6 +259,7 @@ def test_pipeline_fingerprint_is_ast_closed_and_binds_prompts_and_dependencies(
     }
 
 
+@pytest.mark.private_cache
 def test_packet_binder_uses_authorized_candidate_full_projection_and_subset(
     extraction_inputs: MetaSynExtractionInputsV2,
     candidate_receipt: tuple[int, MetaSynCandidateInventoryReceiptV2],
@@ -269,6 +294,7 @@ def test_packet_binder_uses_authorized_candidate_full_projection_and_subset(
     assert "full exposed projection" in packet.rendered_prompt.casefold()
 
 
+@pytest.mark.private_cache
 def test_packet_input_replays_exactly(
     extraction_inputs: MetaSynExtractionInputsV2,
     candidate_receipt: tuple[int, MetaSynCandidateInventoryReceiptV2],
@@ -285,6 +311,7 @@ def test_packet_input_replays_exactly(
     )
 
 
+@pytest.mark.private_cache
 def test_non_authorizing_inventory_cannot_create_packet(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -315,6 +342,7 @@ def test_non_authorizing_inventory_cannot_create_packet(
         )
 
 
+@pytest.mark.private_cache
 def test_packet_prompt_coherent_tamper_is_caught_by_replay(
     extraction_inputs: MetaSynExtractionInputsV2,
     candidate_receipt: tuple[int, MetaSynCandidateInventoryReceiptV2],
@@ -338,6 +366,7 @@ def test_packet_prompt_coherent_tamper_is_caught_by_replay(
         )
 
 
+@pytest.mark.private_cache
 def test_bundle_hash_and_membership_tamper_fail_closed(
     extraction_inputs: MetaSynExtractionInputsV2,
 ) -> None:
@@ -354,6 +383,7 @@ def test_bundle_hash_and_membership_tamper_fail_closed(
         MetaSynExtractionInputsV2.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_coherently_rehashed_upstream_lineage_tamper_fails_external_replay(
     extraction_inputs: MetaSynExtractionInputsV2,
     monkeypatch: pytest.MonkeyPatch,

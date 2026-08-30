@@ -10,9 +10,20 @@ from scripts.audit_public_data_rights import main
 
 from literature_multiverse.public_data_rights import (
     PublicDataRightsAuditError,
+    _is_monitored,
+    _load_policy,
+    _matches,
     audit_public_data_rights,
     verify_audit_self_hash,
 )
+from literature_multiverse.public_data_rights import (
+    _structured_field_names as _scan_structured_field_names,
+)
+
+
+def _structured_field_names(path: Path) -> set[str]:
+    # Test-local adapter: the real helper takes (path: str, content: bytes), not a Path.
+    return _scan_structured_field_names(path.as_posix(), path.read_bytes()) or set()
 
 
 def _git(root: Path, *args: str) -> None:
@@ -270,56 +281,27 @@ def test_repository_policy_covers_current_tracked_data_without_values(
     assert "source_lines.prior-run.json" not in serialized
 
 
-def test_repository_rights_report_surfaces_indexed_local_suite_receipts_as_content_silent_blocker(
-    repo_root: Path,
-) -> None:
+def test_local_suite_identifier_receipts_stay_declared_but_unindexed(repo_root: Path) -> None:
     report = audit_public_data_rights(repository_root=repo_root)
+    assert report["release_ready"] is False
     local_suite = next(
-        item
-        for item in report["collection_summaries"]
+        item for item in report["collection_summaries"]
         if item["collection_id"] == "local_suite_identifier_receipts"
     )
-
-    assert report["release_ready"] is False
     assert local_suite["path_globs"] == [
         "artifacts/benchmarks/local-suite-v1/freeze_receipt.json",
         "artifacts/benchmarks/local-suite-v1/predictions.jsonl",
     ]
     assert local_suite["rights_status"] == "redistribution_not_established"
     assert local_suite["public_release_allowed"] is False
-    assert local_suite["file_count"] == 2
-    assert local_suite["extension_counts"] == {".json": 1, ".jsonl": 1}
-    assert local_suite["worktree_difference_count"] == 2
-    assert local_suite["path_identifier_counts"] == {
-        "distinct_pmc_identifiers": 0,
-        "distinct_sha256_like_identifiers": 0,
-    }
+    # .gitignore and the CI aggregate-only step forbid indexing these receipts; the
+    # declaration stays (allow_empty) so that indexing them can never be silent.
+    assert local_suite["file_count"] == 0
+    assert local_suite["extension_counts"] == {}
     assert [
-        item
-        for item in report["release_blockers"]
-        if item["collection_id"] == "local_suite_identifier_receipts"
-    ] == [
-        {
-            "code": "redistribution_not_established",
-            "collection_id": "local_suite_identifier_receipts",
-            "file_count": 2,
-        }
-    ]
-    assert set(local_suite) == {
-        "collection_id",
-        "content_class",
-        "extension_counts",
-        "file_count",
-        "index_inventory_sha256",
-        "path_globs",
-        "path_identifier_counts",
-        "public_release_allowed",
-        "rights_status",
-        "structured_field_count",
-        "structured_field_inventory_sha256",
-        "total_bytes",
-        "worktree_difference_count",
-    }
+        item for item in report["policy_blockers"]
+        if item.get("collection_id") == "local_suite_identifier_receipts"
+    ] == []
     serialized = json.dumps(report)
     assert "git_object_id" not in serialized
     assert "ARTICLE SENTENCE" not in serialized
@@ -400,3 +382,93 @@ def test_metasyn_synthesis_yield_rights_scope_requires_exact_indexed_aggregate(
         assert summary["file_count"] == 1
         assert summary["extension_counts"] == {".json": 1}
         assert relevant_blockers == []
+
+
+def _tracked_paths_from_index(repo_root: Path) -> set[str]:
+    # Parse .git/index (v2) directly; the worker never runs git.
+    import struct
+
+    data = (repo_root / ".git/index").read_bytes()
+    signature, version, count = struct.unpack(">4sII", data[:12])
+    if signature != b"DIRC" or version != 2:
+        pytest.skip(f"unsupported git index format: {signature!r} v{version}")
+    position, paths = 12, set()
+    for _ in range(count):
+        flags = struct.unpack(">H", data[position + 60 : position + 62])[0]
+        if flags & 0x4000:
+            pytest.skip(
+                "git index entry uses extended flags; parser supports v2 basic entries only"
+            )
+        name_length = flags & 0x0FFF
+        assert name_length < 0x0FFF
+        paths.add(data[position + 62 : position + 62 + name_length].decode("utf-8"))
+        position += ((62 + name_length + 8) // 8) * 8
+    return paths
+
+
+def test_project_authored_prompt_templates_are_declared(repo_root: Path) -> None:
+    policy = json.loads(
+        (repo_root / "configs/public-data-rights-v1.json").read_text(encoding="utf-8")
+    )
+    collection = next(
+        item for item in policy["collections"]
+        if item["collection_id"] == "project_authored_prompt_templates"
+    )
+    assert collection["path_globs"] == ["prompts/**"]
+    assert collection["rights_status"] == "project_authored"
+    assert collection["public_release_allowed"] is True
+    assert "license_evidence" not in collection
+    report = audit_public_data_rights(repository_root=repo_root)
+    summary = next(
+        item for item in report["collection_summaries"]
+        if item["collection_id"] == "project_authored_prompt_templates"
+    )
+    assert summary["file_count"] >= 3
+    assert set(summary["extension_counts"]) <= {".txt"}
+    assert report["undeclared_file_count"] == 0
+
+
+def test_every_monitored_diagnostic_and_prompt_on_disk_matches_exactly_one_collection(
+    repo_root: Path,
+) -> None:
+    policy = _load_policy(repo_root / "configs/public-data-rights-v1.json")
+    candidates = [
+        path.relative_to(repo_root).as_posix()
+        for base in ("artifacts/diagnostics", "prompts")
+        for path in (repo_root / base).rglob("*")
+        if path.is_file() and not path.is_symlink()
+    ]
+    monitored = [rel for rel in candidates if _is_monitored(rel, policy)]
+    assert monitored
+    for rel in monitored:
+        matches = [c["collection_id"] for c in policy["collections"] if _matches(rel, c)]
+        assert len(matches) == 1, (rel, matches)
+
+
+def test_diagnostic_rights_split_matches_structured_field_content(repo_root: Path) -> None:
+    policy = _load_policy(repo_root / "configs/public-data-rights-v1.json")
+    forbidden = set(policy["established_rights_forbidden_field_names"])
+    by_id = {c["collection_id"]: c for c in policy["collections"]}
+    tracked = _tracked_paths_from_index(repo_root)
+    text_free = by_id["project_authored_diagnostic_aggregates"]["path_globs"] + by_id[
+        "project_authored_evidence_inference_rosters_with_pmc_identifiers"
+    ]["path_globs"]
+    text_bearing = by_id["metasyn_derived_diagnostics_with_source_text"]["path_globs"]
+    for rel in text_free:
+        if rel.endswith(".json") and (repo_root / rel).is_file():
+            assert not (_structured_field_names(repo_root / rel) & forbidden), rel
+    for rel in text_bearing:
+        if rel.endswith(".json"):
+            assert _structured_field_names(repo_root / rel) & forbidden, rel
+    declared_tracked = {rel for rel in text_free + text_bearing if rel in tracked}
+    monitored_tracked = {
+        rel
+        for rel in tracked
+        if rel.startswith("artifacts/diagnostics/") and _is_monitored(rel, policy)
+    }
+    already_declared = {
+        "artifacts/diagnostics/evidencebench-grounding-v1/audit-receipt.json",
+        "artifacts/diagnostics/evidencebench-grounding-v1/summary.json",
+        "artifacts/diagnostics/metasyn-synthesis-yield-v1/summary.json",
+    }
+    assert declared_tracked | already_declared == monitored_tracked

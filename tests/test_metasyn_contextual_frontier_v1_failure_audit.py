@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.metasyn_contextual_frontier_v1_failure_audit as failure
 from literature_multiverse.lineage import hash_canonical
@@ -12,9 +13,12 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE = ROOT / failure.DEFAULT_V1_WORKSPACE
 OUTPUT = ROOT / failure.DEFAULT_OUTPUT_PATH
 
+pytestmark = pytest.mark.private_cache
+
 
 @pytest.fixture(scope="module")
 def audit() -> failure.MetaSynContextualFrontierV1FailureAudit:
+    require_private_cache("data/cache/metasyn/contextual-frontier-runtime-v1")
     return failure.freeze_metasyn_contextual_frontier_v1_failure_audit(
         repository_root=ROOT,
         v1_workspace=WORKSPACE,

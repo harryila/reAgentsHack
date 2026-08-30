@@ -9,6 +9,12 @@ from threading import Lock
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_passage_hosted_runtime_v2 as runtime
 from literature_multiverse.anthropic_bounded_generation import (
@@ -24,17 +30,37 @@ from literature_multiverse.hosted_exact_once import (
     HostedExactOnceCostAuthorizationV1,
 )
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     MetaSynPassageHostedExecutionBundleV2,
     freeze_metasyn_passage_hosted_execution_bundle_v2,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# Every test in this module reaches the private local cache transitively through the
+# module-scoped `bundle` fixture (the real v5-backed source-free execution identity),
+# so the whole module is marked rather than repeating the marker on each test.
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
 def bundle() -> MetaSynPassageHostedExecutionBundleV2:
-    return freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=ROOT)
+    # Normative integration path: `freeze_metasyn_passage_hosted_execution_bundle_v2`
+    # performs the real immutable-v5 external replay (transitively re-validating the
+    # private typed-oracle pilot prepare bundle), so it needs both private caches even
+    # though it never opens `data/cache/metasyn/typed-oracle-pilot-v2` directly itself.
+    root = require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=root),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _patch_bundle_replay(

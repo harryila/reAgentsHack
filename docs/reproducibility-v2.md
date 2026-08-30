@@ -69,7 +69,7 @@ uv run lm fingerprint \
 The artifact contains a computed `pipeline_sha256` and the file-level component manifest. Later
 commands reread and rehash those files. Supplying a hash in a claim manifest is not proof of
 pipeline identity, and any covered code or prompt edit invalidates the frozen artifact.
-The current `native-extraction` component is version 12; it closes over the frozen-acquisition and
+The current `native-extraction` component is version 13; it closes over the frozen-acquisition and
 harvester implementation as well as native extraction and grounding. This version number is an
 integrity-contract identifier, not model-validity evidence.
 
@@ -374,6 +374,11 @@ a residual claim-decision-risk or union bound. They do not cover retrieval omiss
 bias, synthesis misspecification, reviewer mistakes, or claim-level error. A separate calibration
 over complete, independent review-question trajectories under the exact stopping policy is still
 required for claim release.
+
+The tracked `item-risk-calibration-v1.json` diagnostic (a retrospective use of this same UCL
+machinery, not the v2 receipt flow above) is historically bound to a frozen companion pipeline
+manifest as of 2026-08-29 and no longer recomputed from current bytes; see
+`docs/evidence-inference-item-risk-diagnostic.md` for its lineage status.
 
 ## Native source manifests and typed extraction
 
@@ -701,3 +706,10 @@ The locally cached MetaSyn and Evidence Inference test labels have already been 
 valuable diagnostics but are not pristine final holdouts. No simulation, fixture, opened-label
 diagnostic, source-manifest bridge, or incomplete human-review packet may authorize release or a
 main scientific effectiveness claim.
+
+The tracked `artifacts/paper/harvester/validation_summary.json` (produced by
+`scripts/validate_harvester.py`) is a historical single-record OpenAlex live/replay transport probe
+of 2026-08-26: `src/literature_multiverse/harvester/sources.py` changed on 2026-08-29 and the probe
+was not re-run, so its embedded source map is now validated as a hash-pinned historical bundle
+rather than rehashed against the current checkout; it remains transport/provenance validation only,
+never retrieval-recall evidence.

@@ -5,6 +5,7 @@ from pathlib import Path
 
 import pytest
 from scripts.prepare_evidence_inference_fable_retrospective_v1 import main
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_retrospective_v1 import (
     EvidenceInferenceFableRetrospectiveError,
@@ -14,11 +15,30 @@ from literature_multiverse.evidence_inference_fable_retrospective_v1 import (
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Every test in this module builds a fable-retrospective plan, which reads the
+# evidence-inference-gepa manifests/reports, the evidence-inference-2.0 question
+# table and article text corpus, and the frozen ollama-gepa-v1-final-v3 winner
+# bundle -- all under the private, untracked data/cache/ tree.
+pytestmark = pytest.mark.private_cache
+
+_PRIVATE_CACHE_PATHS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/evidence-inference-gepa/conversion_report.json",
+    "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+    "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+    "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+    "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+    "data/cache/evidence-inference-2.0/prompts_merged.csv",
+    "data/cache/evidence-inference-2.0/txt_files",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+)
+
 
 def _workspace_test_path(tmp_path: Path, name: str) -> Path:
-    return Path("artifacts/diagnostics/evidence-inference") / (
-        f".test-{tmp_path.name}-{name}.json"
-    )
+    return Path("artifacts/diagnostics/evidence-inference") / (f".test-{tmp_path.name}-{name}.json")
 
 
 @pytest.mark.parametrize(
@@ -26,6 +46,7 @@ def _workspace_test_path(tmp_path: Path, name: str) -> Path:
     ["pilot30_paired", "pilot30_recovery_v2_paired", "full_paired"],
 )
 def test_write_and_external_replay_are_exact(tmp_path: Path, mode: str) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     relative = _workspace_test_path(tmp_path, mode)
     try:
         plan = write_evidence_inference_fable_retrospective_plan_v1(
@@ -44,6 +65,7 @@ def test_write_and_external_replay_are_exact(tmp_path: Path, mode: str) -> None:
 
 
 def test_cli_build_validate_and_status(tmp_path: Path, capsys: pytest.CaptureFixture[str]) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     relative = _workspace_test_path(tmp_path, "pilot")
     shared = [
         "--repository-root",
@@ -70,6 +92,7 @@ def test_cli_build_validate_and_status(tmp_path: Path, capsys: pytest.CaptureFix
 
 
 def test_replay_rejects_semantic_rehash(tmp_path: Path) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     relative = _workspace_test_path(tmp_path, "pilot-rehash")
     try:
         plan = write_evidence_inference_fable_retrospective_plan_v1(

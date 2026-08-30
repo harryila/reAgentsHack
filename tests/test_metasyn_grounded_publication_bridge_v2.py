@@ -6,8 +6,15 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_candidate_inventory_v2 import (
     MetaSynCandidateInventoryReceiptV2,
     freeze_metasyn_candidate_inventory_receipt_v2,
@@ -27,6 +34,7 @@ from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     MetaSynPassageHostedExecutionBundleV2,
     freeze_metasyn_passage_hosted_execution_bundle_v2,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 from literature_multiverse.native_packet_assembly_v2 import (
     assemble_native_packet_v2,
     freeze_packet_assembly_protocol_orientation_v2,
@@ -41,7 +49,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 @pytest.fixture(scope="module")
 def execution_bundle() -> MetaSynPassageHostedExecutionBundleV2:
-    return freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=ROOT)
+    root = require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=root),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _no_candidate_receipts(
@@ -91,6 +108,7 @@ def _rehash(payload: dict[str, Any], field: str) -> None:
     payload[field] = hash_canonical({key: value for key, value in payload.items() if key != field})
 
 
+@pytest.mark.private_cache
 def test_all_32_publications_are_retained_in_ten_question_scoped_corpora(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -126,6 +144,7 @@ def test_bridge_fingerprint_rejects_symlink_repository_root(tmp_path: Path) -> N
         )
 
 
+@pytest.mark.private_cache
 def test_zero_yield_is_preserved_as_non_authorizing_not_numeric_absence(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -160,6 +179,7 @@ def test_zero_yield_is_preserved_as_non_authorizing_not_numeric_absence(
     )
 
 
+@pytest.mark.private_cache
 def test_bridge_authority_is_explicitly_fail_closed(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -180,6 +200,7 @@ def test_bridge_authority_is_explicitly_fail_closed(
     )
 
 
+@pytest.mark.private_cache
 def test_every_publication_join_preserves_exact_protocol_source_and_artifact_aliases(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -204,6 +225,7 @@ def test_every_publication_join_preserves_exact_protocol_source_and_artifact_ali
         )
 
 
+@pytest.mark.private_cache
 def test_bridge_pipeline_fingerprint_binds_additive_file_and_runtime_inputs(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -225,6 +247,7 @@ def test_bridge_pipeline_fingerprint_binds_additive_file_and_runtime_inputs(
     assert component.settings["claim_release_authority"] is False
 
 
+@pytest.mark.private_cache
 def test_saved_bridge_externally_replays_every_join_and_source_byte(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:
@@ -245,6 +268,7 @@ def test_saved_bridge_externally_replays_every_join_and_source_byte(
         ("legacy_v4_grounding_package_emitted", True),
     ],
 )
+@pytest.mark.private_cache
 def test_coherent_outer_rehash_cannot_escalate_authority(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
     field: str,
@@ -257,6 +281,7 @@ def test_coherent_outer_rehash_cannot_escalate_authority(
         MetaSynGroundedPublicationCorpusBridgeV2.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_missing_row_from_inventory_or_terminal_roster_fails_closed(
     execution_bundle: MetaSynPassageHostedExecutionBundleV2,
     no_candidate_receipts: dict[str, MetaSynCandidateInventoryReceiptV2],
@@ -277,6 +302,7 @@ def test_missing_row_from_inventory_or_terminal_roster_fails_closed(
         )
 
 
+@pytest.mark.private_cache
 def test_authorized_candidate_requires_one_exact_terminal_and_abstention_is_retained(
     execution_bundle: MetaSynPassageHostedExecutionBundleV2,
     no_candidate_receipts: dict[str, MetaSynCandidateInventoryReceiptV2],
@@ -374,6 +400,7 @@ def test_authorized_candidate_requires_one_exact_terminal_and_abstention_is_reta
     assert joined.compatibility_fragment.status == "non_estimable"
 
 
+@pytest.mark.private_cache
 def test_terminal_adapter_rejects_extra_runtime_fields_before_join(
     execution_bundle: MetaSynPassageHostedExecutionBundleV2,
     no_candidate_receipts: dict[str, MetaSynCandidateInventoryReceiptV2],
@@ -402,6 +429,7 @@ def test_terminal_adapter_rejects_extra_runtime_fields_before_join(
         )
 
 
+@pytest.mark.private_cache
 def test_dropped_publication_fails_even_after_coherent_outer_rehash(
     zero_yield_bridge: MetaSynGroundedPublicationCorpusBridgeV2,
 ) -> None:

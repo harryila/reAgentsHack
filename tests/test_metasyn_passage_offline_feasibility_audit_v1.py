@@ -1,15 +1,27 @@
 from __future__ import annotations
 
 import hashlib
+import json
 from pathlib import Path
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_passage_offline_feasibility_audit_v1 as offline
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
 V2_WORKSPACE = ROOT / "data/cache/metasyn/passage-hosted-yield-v2"
+AUDIT_ARTIFACT_PATH = (
+    ROOT / "artifacts/diagnostics/metasyn-passage-offline-feasibility-audit-v1.json"
+)
 
 EXPECTED_COORDINATES = [
     "03:02",
@@ -43,10 +55,22 @@ EXPECTED_COORDINATES = [
 
 @pytest.fixture(scope="module")
 def audit() -> offline.MetaSynPassageOfflineFeasibilityAuditV1:
-    return offline.freeze_metasyn_passage_offline_feasibility_audit_v1(
-        repository_root=ROOT,
-        v2_workspace=V2_WORKSPACE,
+    return offline.MetaSynPassageOfflineFeasibilityAuditV1.model_validate(
+        json.loads(AUDIT_ARTIFACT_PATH.read_text(encoding="utf-8"))
     )
+
+
+@pytest.mark.private_cache
+def test_live_freeze_metasyn_passage_offline_feasibility_audit_v1_replays_tracked_artifact_or_is_stale(  # noqa: E501
+    audit: offline.MetaSynPassageOfflineFeasibilityAuditV1,
+) -> None:
+    require_private_cache("data/cache/metasyn/passage-hosted-yield-v2")
+    rebuilt = skip_when_historical_replay_is_stale(
+        lambda: offline.freeze_metasyn_passage_offline_feasibility_audit_v1(repository_root=ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
+    assert rebuilt.audit_sha256 == audit.audit_sha256
 
 
 def test_real_external_v2_replay_covers_the_exact_unattempted_roster(

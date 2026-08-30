@@ -13,7 +13,14 @@ from typing import Any
 import pytest
 import scripts.run_metasyn_bounded_hosted_runtime as hosted_cli
 from jsonschema import Draft202012Validator
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
+import literature_multiverse.metasyn_bounded_hosted_runtime as runtime
 from literature_multiverse.anthropic_bounded_generation import (
     ANTHROPIC_INPUT_RATE_USD_PER_MTOK,
     ANTHROPIC_OUTPUT_RATE_USD_PER_MTOK,
@@ -59,31 +66,53 @@ from literature_multiverse.metasyn_bounded_hosted_runtime import (
     validate_finalized_metasyn_hosted_runtime,
     write_metasyn_hosted_execution_bundle,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 from literature_multiverse.native_bounded_schema_v2 import (
     synthetic_schema_v2_preflight_specs,
 )
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
+# Every test in this module reaches the private local cache transitively through
+# `hosted_bundle` (directly, or via `runtime_workspace`), so the whole module is
+# marked rather than repeating the marker on each test.
+pytestmark = pytest.mark.private_cache
+
 
 @pytest.fixture(scope="session")
 def hosted_bundle() -> MetaSynHostedExecutionBundleV1:
+    root = require_private_cache(
+        "data/cache/metasyn/bounded-qwen-yield-v2-attempt-06/execution-bundle.private.json",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
     frozen_local_runtime = json.loads(
         (
-            REPOSITORY_ROOT / "data/cache/metasyn/bounded-qwen-yield-v2-attempt-06/"
+            root / "data/cache/metasyn/bounded-qwen-yield-v2-attempt-06/"
             "execution-bundle.private.json"
         ).read_text(encoding="utf-8")
     )
     adapter_bundle = MetaSynBoundedAdapterBundleV1.model_validate(
         frozen_local_runtime["adapter_bundle"]
     )
-    config, config_file_sha = load_metasyn_hosted_runtime_config(repository_root=REPOSITORY_ROOT)
-    return freeze_metasyn_hosted_execution_bundle(
-        adapter_bundle=adapter_bundle,
-        runtime_config=config,
-        config_file_sha256=config_file_sha,
-        pilot_workspace_relative="data/cache/metasyn/typed-oracle-pilot-v2",
-        repository_root=REPOSITORY_ROOT,
+    config, config_file_sha = load_metasyn_hosted_runtime_config(repository_root=root)
+    # E16 (restoring this frozen v2 attempt against the current typed-oracle pilot
+    # identity) is declined by the operator: `_pilot_downstream_sha` is never
+    # patched here. The historical adapter is expected to be stale against the
+    # current pilot pipeline identity; that expectation is pinned explicitly by
+    # `test_historical_qwen_attempt06_adapter_is_stale_only_in_upstream_pilot_identity`
+    # below. Here, the documented stale code is converted into a skip so the rest
+    # of this module's tests (which only care about hosted-runtime mechanics, not
+    # pilot-identity staleness) can still exercise a frozen bundle when available.
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_hosted_execution_bundle(
+            adapter_bundle=adapter_bundle,
+            runtime_config=config,
+            config_file_sha256=config_file_sha,
+            pilot_workspace_relative="data/cache/metasyn/typed-oracle-pilot-v2",
+            repository_root=root,
+        ),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
     )
 
 
@@ -1123,3 +1152,28 @@ def test_all_preflight_and_inventory_requests_are_credential_free(
     assert "api_key" not in serialized
     assert "authorization" not in serialized
     assert "sk-ant-" not in serialized
+
+
+def test_historical_qwen_attempt06_adapter_is_stale_only_in_upstream_pilot_identity() -> None:
+    root = require_private_cache(
+        "data/cache/metasyn/bounded-qwen-yield-v2-attempt-06/execution-bundle.private.json",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    frozen = json.loads(
+        (
+            root / "data/cache/metasyn/bounded-qwen-yield-v2-attempt-06/"
+            "execution-bundle.private.json"
+        ).read_text(encoding="utf-8")
+    )
+    adapter = MetaSynBoundedAdapterBundleV1.model_validate(frozen["adapter_bundle"])
+    current_pilot_sha, _downstream = runtime._pilot_downstream_sha(root)
+    assert current_pilot_sha != adapter.upstream_pilot_pipeline_sha256
+    config, config_sha = load_metasyn_hosted_runtime_config(repository_root=root)
+    with pytest.raises(MetaSynHostedRuntimeError, match="metasyn_hosted_adapter_upstream_stale"):
+        freeze_metasyn_hosted_execution_bundle(
+            adapter_bundle=adapter,
+            runtime_config=config,
+            config_file_sha256=config_sha,
+            pilot_workspace_relative="data/cache/metasyn/typed-oracle-pilot-v2",
+            repository_root=root,
+        )

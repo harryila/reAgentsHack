@@ -1,13 +1,16 @@
 from __future__ import annotations
 
 import ast
+import json
 from pathlib import Path
 from typing import Any
 
 import pyarrow as pa
 import pytest
 from scripts.run_metasyn_typed_pilot import main as pilot_cli_main
+from tests.private_cache_support import require_private_cache
 
+import literature_multiverse.metasyn_typed_pilot as metasyn_typed_pilot
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.metasyn_typed_pilot import (
     _PILOT_DEPENDENCY_ENTRYPOINTS,
@@ -17,7 +20,9 @@ from literature_multiverse.metasyn_typed_pilot import (
     EXPECTED_SELECTED_QUESTIONS,
     FORBIDDEN_REFERENCE_COLUMNS,
     MATERIALIZED_REVIEW_COLUMNS,
+    PREPARE_BUNDLE_FILENAME,
     MetaSynTypedPilotError,
+    MetaSynTypedPilotPrepareBundleV1,
     _build_prepare_bundle,
     _component_assignments,
     _load_protocol_rows,
@@ -25,6 +30,7 @@ from literature_multiverse.metasyn_typed_pilot import (
     _select_rows,
     compute_metasyn_typed_pilot_pipeline_fingerprint,
     freeze_metasyn_pilot_selection_config,
+    validate_metasyn_typed_pilot_prepare,
 )
 from literature_multiverse.native_extraction import (
     native_publication_extraction_json_schema,
@@ -33,12 +39,19 @@ from literature_multiverse.source_manifest_bridge import SourceContentScope
 from literature_multiverse.verifier import compute_verifier_pipeline_fingerprint
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-REAL_INPUTS = (
-    REPOSITORY_ROOT / "data/cache/metasyn/reviews-train.parquet",
-    REPOSITORY_ROOT
-    / "data/cache/metasyn/screening-study-v1-final-v2/fit_receipt.json",
-    REPOSITORY_ROOT / "configs/benchmarks/metasyn-corpus-c8fa07d.json",
-)
+
+# Four-field identity/fingerprint surface that a rebuild is allowed to move on
+# without that movement counting as a real regression (see
+# `test_historical_typed_oracle_pilot_v2_diverges_from_current_pipeline_only_in_identity`
+# below). Confirmed against `MetaSynTypedPilotPrepareBundleV1`: today the frozen
+# `typed-oracle-pilot-v2` bundle and a live rebuild differ in exactly 7 leaves,
+# all nested under these 4 top-level fields.
+_IDENTITY_FIELDS = {
+    "pilot_pipeline_fingerprint",
+    "pilot_pipeline_sha256",
+    "downstream_verifier_pipeline_sha256",
+    "prepare_bundle_sha256",
+}
 
 
 def _row(review_id: int, matched: list[int], **updates: Any) -> dict[str, Any]:
@@ -202,23 +215,15 @@ def test_protocol_loader_materializes_only_allowlist_and_rejects_test_table(
         captured.update(path=path, columns=columns, filters=filters)
         return pa.Table.from_pylist([raw])
 
-    monkeypatch.setattr(
-        "literature_multiverse.metasyn_typed_pilot.pq.read_table", fake_read_table
-    )
-    rows = _load_protocol_rows(
-        reviews_train_path=Path("reviews-train.parquet"), review_ids=[1]
-    )
+    monkeypatch.setattr("literature_multiverse.metasyn_typed_pilot.pq.read_table", fake_read_table)
+    rows = _load_protocol_rows(reviews_train_path=Path("reviews-train.parquet"), review_ids=[1])
 
     assert rows[0]["ID"] == 1
     assert captured["columns"] == list(MATERIALIZED_REVIEW_COLUMNS)
     assert not set(captured["columns"]).intersection(FORBIDDEN_REFERENCE_COLUMNS)
     assert captured["filters"] == [("ID", "in", [1])]
-    with pytest.raises(
-        MetaSynTypedPilotError, match="nontraining_review_table_forbidden"
-    ):
-        _load_protocol_rows(
-            reviews_train_path=Path("reviews-test.parquet"), review_ids=[1]
-        )
+    with pytest.raises(MetaSynTypedPilotError, match="nontraining_review_table_forbidden"):
+        _load_protocol_rows(reviews_train_path=Path("reviews-test.parquet"), review_ids=[1])
 
 
 def test_pilot_pipeline_fingerprint_binds_exact_local_closure_and_downstream() -> None:
@@ -262,19 +267,17 @@ def test_public_cli_help_exposes_only_prepare_and_external_replay(
     assert "reference-label" not in output.casefold()
 
 
-@pytest.mark.skipif(
-    not all(path.is_file() for path in REAL_INPUTS),
-    reason="private frozen MetaSyn calibration inputs are unavailable",
-)
+@pytest.mark.private_cache
 def test_real_label_blind_calibration_census_is_exact_10_questions_32_papers() -> None:
+    root = require_private_cache(
+        "data/cache/metasyn/reviews-train.parquet",
+        "data/cache/metasyn/screening-study-v1-final-v2/fit_receipt.json",
+    )
     bundle = _build_prepare_bundle(
-        repository_root=REPOSITORY_ROOT,
-        screening_work_dir=REPOSITORY_ROOT
-        / "data/cache/metasyn/screening-study-v1-final-v2",
-        reviews_train_path=REPOSITORY_ROOT
-        / "data/cache/metasyn/reviews-train.parquet",
-        corpus_manifest_path=REPOSITORY_ROOT
-        / "configs/benchmarks/metasyn-corpus-c8fa07d.json",
+        repository_root=root,
+        screening_work_dir=root / "data/cache/metasyn/screening-study-v1-final-v2",
+        reviews_train_path=root / "data/cache/metasyn/reviews-train.parquet",
+        corpus_manifest_path=root / "configs/benchmarks/metasyn-corpus-c8fa07d.json",
     )
 
     assert bundle.selected_question_count == EXPECTED_SELECTED_QUESTIONS == 10
@@ -290,16 +293,43 @@ def test_real_label_blind_calibration_census_is_exact_10_questions_32_papers() -
     }
     assert bundle.release_grade_source_grounding_count == 22
     assert len({row.independence_component_id for row in bundle.questions}) == 10
-    assert len(
-        {
-            corpus_id
-            for question in bundle.questions
-            for corpus_id in question.oracle_corpus_ids
-        }
-    ) == 32
+    assert (
+        len(
+            {corpus_id for question in bundle.questions for corpus_id in question.oracle_corpus_ids}
+        )
+        == 32
+    )
     assert bundle.access_state.reference_fields_unopened is True
     assert bundle.access_state.official_test_labels_opened is False
     assert all(
-        not question.question_spec.directional_evaluation_eligible
-        for question in bundle.questions
+        not question.question_spec.directional_evaluation_eligible for question in bundle.questions
     )
+
+
+@pytest.mark.private_cache
+def test_historical_typed_oracle_pilot_v2_diverges_from_current_pipeline_only_in_identity() -> None:
+    root = require_private_cache(
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+        "data/cache/metasyn/screening-study-v1-final-v2/fit_receipt.json",
+        "data/cache/metasyn/reviews-train.parquet",
+    )
+    workspace = root / "data/cache/metasyn/typed-oracle-pilot-v2"
+    with pytest.raises(
+        MetaSynTypedPilotError, match="metasyn_pilot_prepare_external_replay_mismatch"
+    ):
+        validate_metasyn_typed_pilot_prepare(repository_root=root, workspace=workspace)
+    private = metasyn_typed_pilot._private_workspace(workspace, repository_root=root)
+    bundle = MetaSynTypedPilotPrepareBundleV1.model_validate(
+        json.loads((private / PREPARE_BUNDLE_FILENAME).read_text(encoding="utf-8"))
+    )
+    inputs = bundle.repository_inputs
+    rebuilt = _build_prepare_bundle(
+        repository_root=root,
+        screening_work_dir=(root / inputs["screening_fit_receipt"]).parent,
+        reviews_train_path=root / inputs["reviews_train"],
+        corpus_manifest_path=root / inputs["corpus_manifest"],
+    )
+    assert rebuilt.model_dump(mode="json", exclude=_IDENTITY_FIELDS) == bundle.model_dump(
+        mode="json", exclude=_IDENTITY_FIELDS
+    )
+    assert rebuilt.pilot_pipeline_sha256 != bundle.pilot_pipeline_sha256

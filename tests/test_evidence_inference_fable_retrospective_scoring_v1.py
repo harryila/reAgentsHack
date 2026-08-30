@@ -7,6 +7,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_paired_runtime_v1 import (
     MODEL,
@@ -36,6 +37,8 @@ from literature_multiverse.lineage import hash_canonical
 
 ROOT = Path(__file__).resolve().parents[1]
 DIRECTIONS = ("increase", "no_effect", "decrease")
+
+pytestmark = pytest.mark.private_cache
 
 
 class _FixtureClient:
@@ -117,6 +120,20 @@ def pilot_runtime_contract() -> tuple[
     EvidenceInferenceFableRetrospectivePlanV1,
     EvidenceInferenceFablePreparedRuntimeV1,
 ]:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+        "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+        "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+        "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+        "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+        "data/cache/evidence-inference-2.0/prompts_merged.csv",
+        "data/cache/evidence-inference-2.0/txt_files",
+        "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+        "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+        "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+        "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+    )
     return reconstruct_evidence_inference_fable_prepared_runtime_v1(
         repository_root=ROOT,
         mode="pilot30_paired",

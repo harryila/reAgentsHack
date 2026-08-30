@@ -5,13 +5,21 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_v5_source_surface as source_surface_module
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.metasyn_bounded_hosted_runtime import (
     MetaSynHostedExecutionBundleV1,
+    MetaSynHostedRuntimeError,
     load_current_metasyn_hosted_execution_bundle,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 from literature_multiverse.metasyn_v5_source_surface import (
     CONSUMED_V5_RUNTIME_ARTIFACT_KINDS,
     EXPECTED_V5_ADAPTER_BUNDLE_SHA256,
@@ -44,20 +52,43 @@ V5_WORKSPACE = REPOSITORY_ROOT / "data/cache/metasyn/bounded-anthropic-yield-v5"
 @pytest.fixture(scope="session")
 def v5_source_surface() -> MetaSynV5SourceSurfaceV1:
     # This is the normative integration exercise: it invokes the real v5 loader with
-    # external_replay=True and rehashes the actual source artifacts.
-    return freeze_metasyn_v5_source_surface(repository_root=REPOSITORY_ROOT)
+    # external_replay=True and rehashes the actual source artifacts. The historical
+    # typed-pilot identity is expected to be stale against the current pipeline
+    # fingerprint (pinned explicitly in test_metasyn_typed_pilot.py and
+    # test_metasyn_bounded_hosted_runtime.py); here the two documented stale codes are
+    # converted into a skip so this module's structural/tamper assertions can still
+    # exercise a frozen v5 bundle when the private cache is present but stale.
+    root = require_private_cache(
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_v5_source_surface(repository_root=root),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 @pytest.fixture(scope="session")
 def v5_execution_bundle() -> MetaSynHostedExecutionBundleV1:
     # The session's real external replay is performed by v5_source_surface.  This cheap
     # load supplies the already self-hashed row contexts for exact projection assertions.
-    _, bundle = load_current_metasyn_hosted_execution_bundle(
-        workspace=V5_WORKSPACE,
-        repository_root=REPOSITORY_ROOT,
-        external_replay=False,
+    # It still recomputes the upstream-pilot-identity fingerprint (external_replay=False
+    # skips only the adapter-bundle replay, not that check), so the same documented
+    # stale code is converted into a skip here too.
+    root = require_private_cache(
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
     )
-    return bundle
+    return skip_when_historical_replay_is_stale(
+        lambda: load_current_metasyn_hosted_execution_bundle(
+            workspace=V5_WORKSPACE,
+            repository_root=root,
+            external_replay=False,
+        )[1],
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _rehash_surface_payload(payload: dict[str, Any]) -> None:
@@ -81,6 +112,7 @@ def _self_consistent_tampered_fingerprint(
     return PipelineFingerprint.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_real_v5_replay_retains_exact_full_roster_and_fixed_anchors(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -107,6 +139,7 @@ def test_real_v5_replay_retains_exact_full_roster_and_fixed_anchors(
     assert surface.claim_release_authority is False
 
 
+@pytest.mark.private_cache
 def test_projection_is_exactly_the_whitelisted_question_source_row_lineage(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
     v5_execution_bundle: MetaSynHostedExecutionBundleV1,
@@ -154,6 +187,7 @@ def test_projection_is_exactly_the_whitelisted_question_source_row_lineage(
         )
 
 
+@pytest.mark.private_cache
 def test_v5_receipts_results_and_provider_outputs_are_explicitly_not_consumed(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -172,6 +206,7 @@ def test_v5_receipts_results_and_provider_outputs_are_explicitly_not_consumed(
     assert "provider_outputs" in surface.forbidden_v5_runtime_artifact_kinds
 
 
+@pytest.mark.private_cache
 def test_external_replay_flag_is_mandatory_for_projection(
     monkeypatch: pytest.MonkeyPatch,
     v5_execution_bundle: MetaSynHostedExecutionBundleV1,
@@ -193,6 +228,7 @@ def test_external_replay_flag_is_mandatory_for_projection(
     assert replayed.v5_execution_bundle_sha256 == EXPECTED_V5_EXECUTION_BUNDLE_SHA256
 
 
+@pytest.mark.private_cache
 def test_every_row_binds_rehashed_actual_source_artifact_bytes(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -217,6 +253,7 @@ def test_every_row_binds_rehashed_actual_source_artifact_bytes(
     assert len(unique_paths) == 3
 
 
+@pytest.mark.private_cache
 def test_ast_dependency_closure_is_computed_and_verifies_current_bytes(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -236,6 +273,7 @@ def test_ast_dependency_closure_is_computed_and_verifies_current_bytes(
     assert verification.issues == []
 
 
+@pytest.mark.private_cache
 def test_self_consistent_pipeline_file_hash_tamper_fails_byte_verification(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -247,6 +285,7 @@ def test_self_consistent_pipeline_file_hash_tamper_fails_byte_verification(
     assert any(issue.startswith("file_sha256_mismatch:") for issue in verification.issues)
 
 
+@pytest.mark.private_cache
 def test_fixed_v5_anchor_tamper_fails_even_with_rehashed_surface(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -257,6 +296,7 @@ def test_fixed_v5_anchor_tamper_fails_even_with_rehashed_surface(
         MetaSynV5SourceSurfaceV1.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_per_row_projection_hash_tamper_fails_even_with_rehashed_row_and_surface(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -277,6 +317,7 @@ def test_per_row_projection_hash_tamper_fails_even_with_rehashed_row_and_surface
         MetaSynV5SourceSurfaceV1.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_non_consumption_and_label_declarations_cannot_be_flipped(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -299,6 +340,7 @@ def test_non_consumption_and_label_declarations_cannot_be_flipped(
         MetaSynV5SourceSurfaceV1.model_validate(payload)
 
 
+@pytest.mark.private_cache
 def test_missing_row_fails_full_roster_contract(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:
@@ -373,15 +415,19 @@ def test_source_artifact_byte_tamper_fails_closed(tmp_path: Path) -> None:
         )
 
 
+@pytest.mark.private_cache
 def test_alternate_or_symlinked_v5_workspace_fails_before_replay(
     tmp_path: Path,
 ) -> None:
+    # `_pinned_v5_workspace` first confirms the real pinned v5 workspace exists under
+    # REPOSITORY_ROOT (no typed-pilot replay involved), so this still needs the guard.
+    root = require_private_cache("data/cache/metasyn/bounded-anthropic-yield-v5")
     with pytest.raises(
         MetaSynV5SourceSurfaceError,
         match="metasyn_v5_source_surface_execution_workspace_not_pinned_v5",
     ):
         _pinned_v5_workspace(
-            repository_root=REPOSITORY_ROOT,
+            repository_root=root,
             execution_workspace=tmp_path,
         )
 
@@ -400,6 +446,7 @@ def test_alternate_or_symlinked_v5_workspace_fails_before_replay(
         )
 
 
+@pytest.mark.private_cache
 def test_surface_validation_can_reparse_without_runtime_artifact_access(
     v5_source_surface: MetaSynV5SourceSurfaceV1,
 ) -> None:

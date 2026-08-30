@@ -169,3 +169,11 @@ def clone(value: dict[str, Any]) -> dict[str, Any]:
     """Small explicit helper for tests that mutate nested contract payloads."""
 
     return deepcopy(value)
+
+
+def pytest_configure(config: pytest.Config) -> None:
+    config.addinivalue_line(
+        "markers",
+        "private_cache: reads ignored local data/cache artifacts; "
+        "skipped in checkouts that lack them",
+    )

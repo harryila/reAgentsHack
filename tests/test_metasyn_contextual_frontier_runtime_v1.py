@@ -7,16 +7,26 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_contextual_frontier_runtime_v1 as runtime
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_contextual_frontier_runtime_v1 import (
     MetaSynContextualFrontierPlanV1,
     MetaSynContextualFrontierProviderResultV1,
     MetaSynContextualFrontierRuntimeV1Error,
     MetaSynContextualFrontierUsageV1,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
+
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
@@ -26,7 +36,15 @@ def plan() -> MetaSynContextualFrontierPlanV1:
         return MetaSynContextualFrontierPlanV1.model_validate(
             json.loads(Path(cached).read_text(encoding="utf-8"))
         )
-    return runtime.freeze_metasyn_contextual_frontier_plan_v1(repository_root=ROOT)
+    require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: runtime.freeze_metasyn_contextual_frontier_plan_v1(repository_root=ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _completed(

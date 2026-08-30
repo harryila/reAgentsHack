@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.evidence_inference_gepa_scaled_readiness_v1 as readiness
 from literature_multiverse.evidence_inference_gepa_scaled_readiness_v1 import (
@@ -19,12 +20,21 @@ ROOT = Path(__file__).resolve().parents[1]
 
 @pytest.fixture(scope="module")
 def receipt() -> EvidenceInferenceGEPAScaledReadinessReceiptV1:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     return readiness.freeze_evidence_inference_gepa_scaled_readiness_v1(repository_root=ROOT)
 
 
+@pytest.mark.private_cache
 def test_real_metadata_only_readiness_is_blocked_and_externally_replayable(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     opened: list[Path] = []
     original = Path.read_text
 
@@ -58,6 +68,7 @@ def test_real_metadata_only_readiness_is_blocked_and_externally_replayable(
     assert not any(path.suffix == ".jsonl" for path in opened)
 
 
+@pytest.mark.private_cache
 def test_exact_local_population_and_prior_exposure_are_frozen(
     receipt: EvidenceInferenceGEPAScaledReadinessReceiptV1,
 ) -> None:
@@ -97,6 +108,7 @@ def test_exact_local_population_and_prior_exposure_are_frozen(
     assert receipt.eligibility_negative_example_count == 0
 
 
+@pytest.mark.private_cache
 def test_external_data_contract_is_exact_and_separates_objectives(
     receipt: EvidenceInferenceGEPAScaledReadinessReceiptV1,
 ) -> None:
@@ -121,6 +133,7 @@ def test_external_data_contract_is_exact_and_separates_objectives(
     assert "calibration_units_are_complete_independent_review_questions" in requirements
 
 
+@pytest.mark.private_cache
 def test_coherently_rehashed_blocker_or_authority_forgery_fails_intrinsically(
     receipt: EvidenceInferenceGEPAScaledReadinessReceiptV1,
 ) -> None:
@@ -168,9 +181,14 @@ def test_converter_task_shape_proof_rejects_eligibility_negative_claim(
         readiness._prove_all_qualified_examples_expected_eligible(source)
 
 
+@pytest.mark.private_cache
 def test_manifest_paper_leakage_fails_closed_before_any_row_payload_read(
     tmp_path: Path,
 ) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa/manifest.json",
+        "data/cache/evidence-inference-gepa/conversion_report.json",
+    )
     source_manifest = ROOT / "data/cache/evidence-inference-gepa/manifest.json"
     source_report = ROOT / "data/cache/evidence-inference-gepa/conversion_report.json"
     manifest = json.loads(source_manifest.read_text(encoding="utf-8"))
@@ -196,6 +214,7 @@ def test_manifest_paper_leakage_fails_closed_before_any_row_payload_read(
         )
 
 
+@pytest.mark.private_cache
 def test_external_replay_rejects_coherent_receipt_substitution(
     receipt: EvidenceInferenceGEPAScaledReadinessReceiptV1,
 ) -> None:

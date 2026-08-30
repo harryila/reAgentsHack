@@ -13,6 +13,7 @@ from scripts.run_evidence_inference_fable_retrospective_v1 import (
     _safe_public_target,
     main,
 )
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_paired_runtime_v1 import (
     EvidenceInferenceFablePreparedRuntimeV1,
@@ -29,6 +30,28 @@ from literature_multiverse.evidence_inference_fable_retrospective_v1 import (
 from literature_multiverse.lineage import atomic_write_json, hash_canonical
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# `_frozen_plan` (via `validate_evidence_inference_fable_retrospective_plan_v1` and
+# `reconstruct_evidence_inference_fable_prepared_runtime_v1`) always freezes the
+# GEPA scaled-readiness receipt plus the full fable-retrospective plan inputs --
+# the evidence-inference-gepa manifests/reports (full, low-budget, pilot30), the
+# evidence-inference-2.0 question table and article text corpus, and the frozen
+# ollama-gepa-v1-final-v3 winner bundle -- all under the private, untracked
+# data/cache/ tree, regardless of which CLI mode or subcommand is invoked.
+_PRIVATE_CACHE_PATHS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/evidence-inference-gepa/conversion_report.json",
+    "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+    "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+    "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+    "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+    "data/cache/evidence-inference-2.0/prompts_merged.csv",
+    "data/cache/evidence-inference-2.0/txt_files",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+)
 
 
 class _NoCallClient:
@@ -56,9 +79,11 @@ def _shared(workspace: Path, mode: str = "pilot30_paired") -> list[str]:
     ]
 
 
+@pytest.mark.private_cache
 def test_prepare_authorize_budget_terminal_and_validate(
     tmp_path: Path, capsys: pytest.CaptureFixture[str]
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     assert main(["prepare", *shared]) == 0
@@ -88,11 +113,13 @@ def test_prepare_authorize_budget_terminal_and_validate(
     assert validated["full_population_score_permitted"] is False
 
 
+@pytest.mark.private_cache
 def test_incomplete_runtime_stops_before_private_label_loader(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     main(["prepare", *shared])
@@ -123,11 +150,13 @@ def test_incomplete_runtime_stops_before_private_label_loader(
         main(["score", *shared])
 
 
+@pytest.mark.private_cache
 def test_full_authorization_and_run_each_require_pilot_gate(
     tmp_path: Path,
     capsys: pytest.CaptureFixture[str],
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "full-runtime"
     shared = _shared(workspace, mode="full_paired")
     assert main(["prepare", *shared]) == 0
@@ -177,7 +206,9 @@ def test_full_authorization_and_run_each_require_pilot_gate(
     assert gate_calls == ["gate", "gate"]
 
 
+@pytest.mark.private_cache
 def test_live_command_requires_explicit_flag_before_environment_access(tmp_path: Path) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     main(["prepare", *shared])
@@ -195,10 +226,12 @@ def test_live_command_requires_explicit_flag_before_environment_access(tmp_path:
         )
 
 
+@pytest.mark.private_cache
 def test_full_score_requires_reuse_guard_before_private_label_loader(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "full-runtime"
     workspace.mkdir()
     plan = EvidenceInferenceFableRetrospectivePlanV1.model_validate(
@@ -222,11 +255,13 @@ def test_full_score_requires_reuse_guard_before_private_label_loader(
         main(["score", *_shared(workspace, mode="full_paired")])
 
 
+@pytest.mark.private_cache
 def test_token_count_cli_certifies_validates_and_authorizes_sequential_budget(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     count_workspace = tmp_path / "pilot-token-counts"
     shared = _shared(workspace)
@@ -335,10 +370,12 @@ def test_token_count_cli_certifies_validates_and_authorizes_sequential_budget(
     )
 
 
+@pytest.mark.private_cache
 def test_token_count_requires_live_flag_before_environment_access(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     main(["prepare", *shared])
@@ -367,10 +404,12 @@ def test_token_count_requires_live_flag_before_environment_access(
         )
 
 
+@pytest.mark.private_cache
 def test_token_count_rejects_prepared_identity_tamper_before_environment(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     main(["prepare", *shared])
@@ -408,11 +447,13 @@ def test_token_count_rejects_prepared_identity_tamper_before_environment(
     assert not (tmp_path / "counts").exists()
 
 
+@pytest.mark.private_cache
 def test_live_identity_rejects_coherent_prepared_tamper_before_environment(
     tmp_path: Path,
     capsys: pytest.CaptureFixture[str],
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "pilot-runtime"
     shared = _shared(workspace)
     main(["prepare", *shared])
@@ -462,6 +503,15 @@ def test_live_identity_rejects_coherent_prepared_tamper_before_environment(
     ],
 )
 def test_public_target_rejects_manuscript_and_control_namespaces(relative: Path) -> None:
+    # paper/, "Formatting_Instructions_For_NeurIPS_2026 (2)/", and artifacts/submission/
+    # are gitignored purge-listed namespaces (see .gitignore) that exist only in this
+    # local checkout; .git always exists. `_safe_public_target` strictly resolves the
+    # candidate's parent, so a checkout lacking the gitignored namespace cannot reach
+    # the sensitive-namespace rejection this test is verifying.
+    if not (ROOT / relative.parent).exists():
+        pytest.skip(
+            f"local-only manuscript/control namespace {relative.parent} is absent in this checkout"
+        )
     with pytest.raises(
         EvidenceInferenceFableHarnessError,
         match="sensitive_namespace_output_forbidden",
@@ -483,9 +533,11 @@ def test_private_outputs_cannot_contaminate_runtime_ledger(tmp_path: Path) -> No
     )
 
 
+@pytest.mark.private_cache
 def test_score_rejects_preexisting_private_namespace_symlink(
     tmp_path: Path,
 ) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     workspace = tmp_path / "runtime"
     escape = tmp_path / "escape"
     workspace.mkdir()

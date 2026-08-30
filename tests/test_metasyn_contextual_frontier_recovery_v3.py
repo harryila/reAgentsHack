@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.lineage import canonical_json_bytes
 from literature_multiverse.metasyn_contextual_frontier_recovery_v2 import (
@@ -53,19 +54,26 @@ def _load_v2() -> MetaSynContextualFrontierRecoveryPlanV2:
 
 @pytest.fixture(scope="module")
 def v1_plan() -> MetaSynContextualFrontierPlanV1:
+    require_private_cache("data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json")
     return _load_v1()
 
 
 @pytest.fixture(scope="module")
 def v2_plan() -> MetaSynContextualFrontierRecoveryPlanV2:
+    require_private_cache("data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json")
     return _load_v2()
 
 
 @pytest.fixture(scope="module")
 def plan():
+    require_private_cache(
+        "data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json",
+        "data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json",
+    )
     return freeze_metasyn_contextual_frontier_recovery_plan_v3(repository_root=ROOT)
 
 
+@pytest.mark.private_cache
 def test_reuses_exact_provider_accepted_v1_array_grammar_byte_for_byte(
     plan: Any, v1_plan: MetaSynContextualFrontierPlanV1
 ) -> None:
@@ -82,6 +90,7 @@ def test_reuses_exact_provider_accepted_v1_array_grammar_byte_for_byte(
     assert claims_schema["items"]["properties"]["field_path"]["enum"]
 
 
+@pytest.mark.private_cache
 def test_fresh_prompt_fixes_estimand_and_hides_four_numeric_targets(
     plan: Any, v1_plan: MetaSynContextualFrontierPlanV1, v2_plan: Any
 ) -> None:
@@ -129,6 +138,7 @@ def test_request_builder_has_no_evaluator_or_numeric_answer_parameter() -> None:
     assert all("evaluator" not in name and "answer" not in name for name in parameters)
 
 
+@pytest.mark.private_cache
 def test_local_adapter_sorts_then_requires_exact_roster_and_semantics(
     plan: Any, v2_plan: MetaSynContextualFrontierRecoveryPlanV2
 ) -> None:
@@ -205,9 +215,14 @@ class _FakeClient:
         )
 
 
+@pytest.mark.private_cache
 def test_mock_execution_is_exactly_once_and_replays_terminal(
     tmp_path: Path, v2_plan: MetaSynContextualFrontierRecoveryPlanV2
 ) -> None:
+    require_private_cache(
+        "data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json",
+        "data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json",
+    )
     workspace = tmp_path / "recovery-v3"
     plan = prepare_metasyn_contextual_frontier_recovery_v3(
         repository_root=ROOT, workspace=workspace

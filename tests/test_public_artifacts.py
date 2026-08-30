@@ -5,6 +5,7 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+from typing import Any
 
 import pytest
 
@@ -55,7 +56,39 @@ def test_public_validator_cli_runs_outside_repository_working_directory(
     result = json.loads(completed.stdout)
     assert result["status"] == "public_artifact_integrity_valid_with_scoped_semantics"
     assert result["registered_artifacts"] == len(PUBLIC_RESULT_REGISTRY)
+    assert result["registered_artifacts"] == 41
     records = {item["path"]: item for item in result["artifacts"]}
+    newly_registered_diagnostics = (
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "verification-certificate.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "sequential-audit-state.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "external-validation.json",
+        "artifacts/diagnostics/evidence-boundary-ledger-v1.json",
+        "artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-exclusions.json",
+        "artifacts/diagnostics/evidence-inference/gepa-candidate-search-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-execution-policy.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-full-union-evaluation-v2.json",
+        "artifacts/diagnostics/contextual-grounding-offline-feasibility-suite-v3.json",
+        "artifacts/diagnostics/metasyn-passage-offline-feasibility-audit-v1.json",
+        "artifacts/diagnostics/metasyn-contextual-frontier-v1-failure-audit-v1.json",
+        "artifacts/diagnostics/postlive-recovery-v4-join-v1.json",
+    )
+    assert len(newly_registered_diagnostics) == 18
+    for path in newly_registered_diagnostics:
+        assert records[path]["result_recomputed_from_public_inputs"] is False, path
     bounded = records[
         "artifacts/diagnostics/native-antiox-bounded-ollama/summary.json"
     ]
@@ -88,6 +121,8 @@ def test_every_public_diagnostic_json_is_registered_or_a_bound_companion(
     }
     bound_companions = {
         "artifacts/diagnostics/evidencebench-grounding-v1/audit-receipt.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "item-risk-calibration-v1-pipeline-fingerprint.json",
     }
 
     assert observed - registered == bound_companions
@@ -964,3 +999,135 @@ def test_all_legacy_antiox_bundles_load_through_offline_app_boundary(
     repo_root: Path,
 ) -> None:
     _validate_legacy_antiox_bundles(root=repo_root)
+
+
+def test_registered_diagnostics_that_are_not_recomputed_are_pinned_non_current(
+    repo_root: Path,
+) -> None:
+    # Scoped to the 18 diagnostics newly registered by this task, not every
+    # "artifacts/diagnostics/" entry: several pre-existing entries (for example
+    # adaptive-stress-study-v1.json and metasyn-retrieval-study-v1.json) legitimately
+    # rely on source_map_bindings=None for live current-checkout source-map
+    # auto-detection, and forcing source_map_bindings=() on them would silently
+    # weaken an out-of-scope currency check rather than test this task's entries.
+    newly_registered_diagnostics = {
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "verification-certificate.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "sequential-audit-state.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/"
+        "external-validation.json",
+        "artifacts/diagnostics/evidence-boundary-ledger-v1.json",
+        "artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-exclusions.json",
+        "artifacts/diagnostics/evidence-inference/gepa-candidate-search-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot-recovery-v2-execution-policy.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-pilot30-recovery-v2-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/"
+        "fable-retrospective-full-union-evaluation-v2.json",
+        "artifacts/diagnostics/contextual-grounding-offline-feasibility-suite-v3.json",
+        "artifacts/diagnostics/metasyn-passage-offline-feasibility-audit-v1.json",
+        "artifacts/diagnostics/metasyn-contextual-frontier-v1-failure-audit-v1.json",
+        "artifacts/diagnostics/postlive-recovery-v4-join-v1.json",
+    }
+    assert len(newly_registered_diagnostics) == 18
+    checked = 0
+    for spec in PUBLIC_RESULT_REGISTRY:
+        if not spec.path.startswith("artifacts/diagnostics/"):
+            continue
+        if spec.path not in newly_registered_diagnostics:
+            continue
+        if spec.result_recomputed_from_public_inputs:
+            continue
+        assert spec.source_map_bindings is not None, spec.path
+        assert spec.limitation, spec.path
+        value = _load_json_object(repo_root / spec.path)
+        if spec.self_hash_field is not None:
+            _validate_self_hash(value, field=spec.self_hash_field, artifact_path=spec.path)
+        _semantic_validate(spec.semantic_validator, value, root=repo_root, artifact_path=spec.path)
+        checked += 1
+    assert checked >= 18
+
+
+@pytest.mark.parametrize(
+    ("path", "field", "replacement", "error"),
+    [
+        (
+            "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/verification-certificate.json",
+            "status",
+            "released",
+            "historical_verification_certificate_v5_invalid",
+        ),
+        (
+            "artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json",
+            "real_scored_run_candidate",
+            True,
+            "decisive_readiness_invalid",
+        ),
+        (
+            "artifacts/diagnostics/evidence-inference/fable-retrospective-full-summary-v1.json",
+            "claim_release_authority",
+            True,
+            "fable_public_paired_summary_invalid",
+        ),
+        (
+            "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-recovery-v2-summary-v1.json",
+            "scientific_effectiveness_authority",
+            True,
+            "fable_public_paired_summary_invalid",
+        ),
+    ],
+)
+def test_historical_diagnostic_validators_reject_authority_escalation(
+    repo_root: Path, path: str, field: str, replacement: Any, error: str
+) -> None:
+    # The producer contracts fail closed before the registry's secondary status checks;
+    # those secondary checks are defense-in-depth and are not independently reachable
+    # by mutation (verified 2026-08-29).
+    spec = next(item for item in PUBLIC_RESULT_REGISTRY if item.path == path)
+    value = json.loads(json.dumps(_load_json_object(repo_root / path)))
+    value[field] = replacement
+    with pytest.raises(PublicArtifactValidationError, match=error):
+        _semantic_validate(spec.semantic_validator, value, root=repo_root, artifact_path=path)
+
+
+def test_harvester_validation_summary_rejects_coherently_tampered_source_pin(
+    repo_root: Path,
+) -> None:
+    """After 2026-08-29 the harvester entry's currency check is a pinned historical
+    bundle equality, not a live rehash (harvester/sources.py changed that day without
+    a probe re-run). A tamper that keeps every internal cross-hash coherent (so it is
+    not caught by structural/self-hash checks) must still fail closed against the
+    pinned bundle."""
+
+    relative = "artifacts/paper/harvester/validation_summary.json"
+    value = _load_json_object(repo_root / relative)
+    tampered = json.loads(json.dumps(value))
+    reproducibility = tampered["reproducibility"]
+    reproducibility["source_files_sha256"][
+        "src/literature_multiverse/harvester/sources.py"
+    ] = "0" * 64
+    reproducibility["source_bundle_sha256"] = hash_canonical(
+        reproducibility["source_files_sha256"]
+    )
+    payload = {
+        key: item for key, item in tampered.items() if key != "artifact_payload_sha256"
+    }
+    tampered["artifact_payload_sha256"] = hash_canonical(payload)
+    _validate_self_hash(
+        tampered, field="artifact_payload_sha256", artifact_path=relative
+    )
+
+    with pytest.raises(
+        PublicArtifactValidationError,
+        match="harvester_validation_source_lineage_historical_mismatch",
+    ):
+        _semantic_validate("harvester", tampered, root=repo_root, artifact_path=relative)

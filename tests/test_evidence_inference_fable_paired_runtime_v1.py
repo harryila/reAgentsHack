@@ -11,6 +11,7 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.evidence_inference_fable_paired_runtime_v1 import (
     AnthropicFablePairedClientV1,
@@ -682,7 +683,15 @@ def test_external_replay_rejects_unknown_artifact(tmp_path: Path) -> None:
         validate_evidence_inference_fable_workspace_v1(workspace=workspace, plan=plan)
 
 
+@pytest.mark.private_cache
 def test_exact_surface_reconstruction_is_label_safe(monkeypatch: Any) -> None:
+    require_private_cache(
+        "data/cache/evidence-inference-gepa",
+        "data/cache/evidence-inference-gepa-low-budget",
+        "data/cache/evidence-inference-gepa-pilot30",
+        "data/cache/evidence-inference-2.0",
+        "data/cache/evidence-inference-ollama-gepa-v1-final-v3",
+    )
     original_text = Path.read_text
     original_bytes = Path.read_bytes
 

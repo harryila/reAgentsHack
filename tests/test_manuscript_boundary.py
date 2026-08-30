@@ -17,10 +17,7 @@ EVALUATION_ASSETS = {
     "artifacts/paper/budgeted-verification-simulation-200.json",
     "artifacts/paper/calibration-simulation-100.json",
     "artifacts/paper/closed-corpus-local-audit.json",
-    "artifacts/paper/evidence-inference-2/failed-raw-schema-pilot30-summary.json",
-    "artifacts/paper/evidence-inference-benchmark-summary.json",
-    "artifacts/paper/evidence-inference-gepa-pilot-summary.json",
-    "artifacts/paper/evidence-inference-low-budget-summary.json",
+    # 2026-08-28: the four evidence-inference-* paper summaries were removed from the index.
     "artifacts/paper/harvester/validation_summary.json",
     "artifacts/paper/meta-simulation-200.json",
     "artifacts/paper/metasyn-benchmark/METASYN_LICENSE.txt",

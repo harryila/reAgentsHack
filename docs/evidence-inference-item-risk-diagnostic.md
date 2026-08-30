@@ -37,6 +37,17 @@ item-scheduling UCL contract without fabricating model confidence, human adjudic
 a distribution-shift result. The bundle remains
 `release_probability_authority=false`.
 
+Lineage status (2026-08-29): historical. The fingerprint above is frozen in the companion
+`item-risk-calibration-v1-pipeline-fingerprint.json`; the same 23-file closure under the
+current tree hashes differently because `pipeline_fingerprint.py` changed on 2026-08-29
+(interpreter and library versions unchanged). Before 2026-08-29 public CI recomputed the
+fingerprint from current bytes and required equality; it now validates the companion's
+self-consistency, the closure definition, the public GEPA lineage, and the aggregate cells
+only. Reproducing the diagnostic under a new pipeline would produce a new, separately
+versioned artifact. The artifact's own `protocol.materialization_access_order` entry
+`standalone_diagnostic_pipeline_recomputed_and_matched` describes the original 2026
+production run, not a check public CI still performs.
+
 ## Frozen score and independence rule
 
 The risk score is the mean of five binary, label-free flags:
@@ -66,8 +77,9 @@ report hashes. The prediction-source lineage hash is
 `d4fa141b5b767a78943460a9e1eb2e41854d2667f518e9dd542e761d1bbc6808`.
 
 The predictions came from local `llama3.2:1b`, reported by the frozen runtime as a 1.2B
-parameter model. The standalone diagnostic pipeline hash is
-`bf1c5c585cead5c2a3b9521d1d4b89f405e15aa3e22f201fa11a598ede0bc95a`.
+parameter model. The standalone diagnostic pipeline hash frozen with the tracked artifact
+is 2949fde1ce2f3df25f57d968a075352aa7f36b7f77f0af62ef24cf06e5680f15 (an earlier superseded
+rerun hashed bf1c5c58…; that run is not the public artifact).
 The public artifact explicitly declares `current_verifier_pipeline_compatible=false`.
 
 ## Access order and its limit

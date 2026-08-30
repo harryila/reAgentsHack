@@ -5,6 +5,7 @@ from copy import deepcopy
 from pathlib import Path
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.lineage import sha256_file
 from literature_multiverse.metasyn_contextual_frontier_recovery_v3 import _load_v2_plan
@@ -22,6 +23,13 @@ from literature_multiverse.metasyn_contextual_frontier_recovery_v4_posthoc_v1 im
 ROOT = Path(__file__).resolve().parents[1]
 IMMUTABLE = ROOT / DEFAULT_IMMUTABLE_WORKSPACE
 
+pytestmark = pytest.mark.private_cache
+
+_PRIVATE_CACHE_PATHS = (
+    "data/cache/metasyn/contextual-frontier-recovery-v4",
+    "data/cache/metasyn/contextual-frontier-recovery-v4-posthoc-v1",
+)
+
 
 def _immutable_hashes() -> tuple[str, str, str]:
     return (
@@ -37,6 +45,7 @@ def _raw_response() -> dict[str, object]:
 
 
 def test_actual_posthoc_artifact_is_deterministic_and_mechanics_only(tmp_path: Path) -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     before = _immutable_hashes()
     first = freeze_metasyn_contextual_frontier_recovery_v4_posthoc_artifact_v1(
         repository_root=ROOT
@@ -104,6 +113,7 @@ def test_actual_posthoc_artifact_is_deterministic_and_mechanics_only(tmp_path: P
 
 
 def test_contexts_are_exact_deterministic_local_windows() -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     artifact = freeze_metasyn_contextual_frontier_recovery_v4_posthoc_artifact_v1(
         repository_root=ROOT
     )
@@ -127,6 +137,7 @@ def test_contexts_are_exact_deterministic_local_windows() -> None:
 
 
 def test_endpoint_repair_requires_strict_whitespace_only_equivalence() -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     raw = deepcopy(_raw_response())
     raw["endpoint_quote"] += " changed"
     passages = {
@@ -140,6 +151,7 @@ def test_endpoint_repair_requires_strict_whitespace_only_equivalence() -> None:
 
 
 def test_artifact_validator_rejects_reordered_or_forged_transform_ledger() -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     artifact = freeze_metasyn_contextual_frontier_recovery_v4_posthoc_artifact_v1(
         repository_root=ROOT
     )
@@ -154,6 +166,7 @@ def test_artifact_validator_rejects_reordered_or_forged_transform_ledger() -> No
 
 
 def test_canonicalizer_does_not_consult_hidden_numeric_target() -> None:
+    require_private_cache(*_PRIVATE_CACHE_PATHS)
     raw = deepcopy(_raw_response())
     for claim in raw["claims"]:
         if claim["field_path"] == "effect.treatment_events":

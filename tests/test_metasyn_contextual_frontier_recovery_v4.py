@@ -4,6 +4,9 @@ import json
 from pathlib import Path
 from typing import Any
 
+import pytest
+from tests.private_cache_support import require_private_cache
+
 from literature_multiverse.metasyn_contextual_frontier_recovery_v2 import (
     MetaSynContextualFrontierRecoveryPlanV2,
 )
@@ -23,6 +26,18 @@ from literature_multiverse.metasyn_contextual_frontier_runtime_v1 import (
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# freeze_metasyn_contextual_frontier_recovery_plan_v4 replays the immutable v1
+# roster, the v2 recovery plan, and the v3 recovery plan/terminal to bind the
+# recovery-v4 request; every test in this module reaches that call path.
+_V4_REPLAY_PATHS = (
+    "data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json",
+    "data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json",
+    "data/cache/metasyn/contextual-frontier-recovery-v3/00-prepared.json",
+    "data/cache/metasyn/contextual-frontier-recovery-v3/02-terminal.json",
+)
+
+pytestmark = pytest.mark.private_cache
+
 
 def _v2() -> MetaSynContextualFrontierRecoveryPlanV2:
     raw = json.loads(
@@ -34,6 +49,7 @@ def _v2() -> MetaSynContextualFrontierRecoveryPlanV2:
 
 
 def test_plan_is_completed_only_compiled_shared_array_and_binds_v3_failure() -> None:
+    require_private_cache(*_V4_REPLAY_PATHS)
     plan = freeze_metasyn_contextual_frontier_recovery_plan_v4(repository_root=ROOT)
     schema = plan.request.compiled_schema.original_schema
     assert not any(key in schema for key in ("oneOf", "anyOf", "allOf"))
@@ -74,6 +90,7 @@ class _FakeClient:
 def test_mock_exact_once_rebinds_evaluation_and_projection_to_v4(
     tmp_path: Path,
 ) -> None:
+    require_private_cache(*_V4_REPLAY_PATHS)
     v2 = _v2()
     workspace = tmp_path / "recovery-v4"
     plan = prepare_metasyn_contextual_frontier_recovery_v4(

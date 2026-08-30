@@ -1,11 +1,18 @@
 from __future__ import annotations
 
 import hashlib
+import json
 from copy import deepcopy
 from pathlib import Path
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 from literature_multiverse.contextual_numeric_grounding_v3 import (
     ContextualClaimV3,
@@ -22,13 +29,36 @@ from literature_multiverse.contextual_numeric_grounding_v3 import (
     validate_contextual_grounding_offline_feasibility_suite_v3,
 )
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
+SUITE_ARTIFACT = (
+    ROOT / "artifacts/diagnostics/contextual-grounding-offline-feasibility-suite-v3.json"
+)
 
 
 @pytest.fixture(scope="module")
 def suite() -> ContextualGroundingOfflineFeasibilitySuiteV3:
-    return freeze_contextual_grounding_offline_feasibility_suite_v3(repository_root=ROOT)
+    return ContextualGroundingOfflineFeasibilitySuiteV3.model_validate(
+        json.loads(SUITE_ARTIFACT.read_text(encoding="utf-8"))
+    )
+
+
+@pytest.mark.private_cache
+def test_live_freeze_contextual_grounding_offline_feasibility_suite_v3_replays_tracked_artifact_or_is_stale(  # noqa: E501
+    suite: ContextualGroundingOfflineFeasibilitySuiteV3,
+) -> None:
+    require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+    )
+    rebuilt = skip_when_historical_replay_is_stale(
+        lambda: freeze_contextual_grounding_offline_feasibility_suite_v3(repository_root=ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
+    assert rebuilt.suite_sha256 == suite.suite_sha256
 
 
 def _receipt(

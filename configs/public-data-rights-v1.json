@@ -4,6 +4,7 @@
   "monitored_path_prefixes": [
     "artifacts/antiox-training",
     "artifacts/benchmarks/local-suite-v1",
+    "artifacts/diagnostics",
     "artifacts/diagnostics/evidencebench-grounding-v1",
     "artifacts/diagnostics/metasyn-synthesis-yield-v1",
     "artifacts/paper/metasyn-benchmark",
@@ -220,6 +221,21 @@
       ]
     },
     {
+      "collection_id": "metasyn_derived_diagnostics_with_source_text",
+      "path_globs": [
+        "artifacts/diagnostics/contextual-grounding-offline-feasibility-suite-v3.json",
+        "artifacts/diagnostics/metasyn-passage-offline-feasibility-audit-v1.json",
+        "artifacts/diagnostics/postlive-recovery-v4-join-v1.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/sequential-audit-state.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/verification-certificate.html",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/verification-certificate.json"
+      ],
+      "content_class": "project_authored_diagnostics_embedding_metasyn_article_quotes_and_titles",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "These diagnostics embed verbatim quotes, titles, and passages from MetaSyn-linked articles under quote/evidence_quote/title fields. METASYN_LICENSE.txt covers the benchmark annotations (see metasyn_benchmark_license) and reserves article metadata and excerpts; the redistribution basis for derived article text has not been established, so they block public release until reviewed or regenerated without source text."
+    },
+    {
       "collection_id": "metasyn_fixed_positive_bundle",
       "path_globs": [
         "artifacts/paper/metasyn-fixed-positive-test/**"
@@ -244,6 +260,61 @@
       "rights_status": "project_authored",
       "public_release_allowed": true,
       "rationale": "The exact aggregate summary contains only project-authored yield counts, hashes, statuses, and caveats; it contains no source text or question, publication, study, cohort, or estimate identifiers. This declaration makes no claim about rights in the private source corpus. The collection is mandatory and must contain its single declared JSON artifact in the Git index."
+    },
+    {
+      "collection_id": "project_authored_diagnostic_aggregates",
+      "path_globs": [
+        "artifacts/diagnostics/adaptive-stress-study-v1.json",
+        "artifacts/diagnostics/decisive-claim-evaluation-v1-real-readiness-blocked.json",
+        "artifacts/diagnostics/evidence-boundary-ledger-v1.json",
+        "artifacts/diagnostics/evidence-inference-ollama/summary.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-union-evaluation-v2.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot-recovery-v2-execution-policy.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-recovery-v2-summary-v1.json",
+        "artifacts/diagnostics/evidence-inference/item-risk-calibration-v1-pipeline-fingerprint.json",
+        "artifacts/diagnostics/evidence-inference/item-risk-calibration-v1.json",
+        "artifacts/diagnostics/evidence-inference/ollama-gepa-study-v1.json",
+        "artifacts/diagnostics/evidence-inference/summary.json",
+        "artifacts/diagnostics/metasyn-contextual-frontier-v1-failure-audit-v1.json",
+        "artifacts/diagnostics/metasyn-retrieval-study-v1.json",
+        "artifacts/diagnostics/metasyn-screening-study-v1.json",
+        "artifacts/diagnostics/metasyn-synthesis-yield-v2/summary.json",
+        "artifacts/diagnostics/native-antiox-bounded-ollama/summary.json",
+        "artifacts/diagnostics/native-antiox-ollama/summary.json",
+        "artifacts/diagnostics/native-source/antiox-eligible-source-bridge.json",
+        "artifacts/diagnostics/native-source/antiox-source-bridge.json",
+        "artifacts/diagnostics/native-source/metasyn-boundary-source-bridge.json",
+        "artifacts/diagnostics/postlive-recovery-v4-public-verify-v1/external-validation.json"
+      ],
+      "content_class": "project_authored_aggregate_metrics_hashes_receipts_and_fingerprints",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "aggregate counts, hashes, plans without identifiers, receipts, and pipeline fingerprints authored by this project; no article text, labels, per-row predictions, or per-row identifiers (each JSON file is also validated by the public-artifact registry)"
+    },
+    {
+      "collection_id": "project_authored_evidence_inference_rosters_with_pmc_identifiers",
+      "path_globs": [
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-full-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot-recovery-v2-exclusions.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/fable-retrospective-pilot30-recovery-v2-plan-v1.json",
+        "artifacts/diagnostics/evidence-inference/gepa-candidate-search-plan-v1.json"
+      ],
+      "content_class": "project_authored_rosters_of_public_evidence_inference_pmc_and_example_identifiers_no_text",
+      "rights_status": "redistribution_not_established",
+      "public_release_allowed": false,
+      "rationale": "Frozen request rosters and exclusion ledgers naming public PMC article identifiers (191/90/7/7/6 distinct) and Evidence Inference example identifiers; no article text, labels, or predictions. Evidence Inference 2.0 ships no dataset license (docs/evidence-inference-benchmark.md); the operator's classification is recorded here."
+    },
+    {
+      "collection_id": "project_authored_prompt_templates",
+      "path_globs": [
+        "prompts/**"
+      ],
+      "content_class": "project_authored_prompt_templates_without_third_party_text",
+      "rights_status": "project_authored",
+      "public_release_allowed": true,
+      "rationale": "Prompt templates written for this project: placeholders and instructions only; no article text, abstracts, labels, or benchmark rows. Only the three hosted numeric-yield pilot .txt prompts are monitored by suffix; the Markdown prompts are unmonitored."
     },
     {
       "collection_id": "synthetic_test_fixtures",

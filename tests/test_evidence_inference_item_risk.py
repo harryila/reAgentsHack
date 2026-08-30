@@ -4,6 +4,7 @@ import ast
 import json
 from copy import deepcopy
 from pathlib import Path
+from types import SimpleNamespace
 from typing import Any
 
 import pytest
@@ -24,6 +25,7 @@ from literature_multiverse.item_risk_calibration import (
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.public_artifacts import (
     PUBLIC_RESULT_REGISTRY,
+    PublicArtifactValidationError,
     _validate_evidence_inference_item_risk,
 )
 
@@ -325,3 +327,116 @@ def test_public_summary_contains_no_row_identifiers_or_absolute_paths(
     assert '"question_id"' not in serialized
     assert '"expected_direction"' not in serialized
     assert '"predicted_direction"' not in serialized
+
+
+_HISTORICAL_FINGERPRINT = Path(
+    "artifacts/diagnostics/evidence-inference/item-risk-calibration-v1-pipeline-fingerprint.json"
+)
+
+
+def _stand_in_fingerprint(**overrides: Any):
+    def factory(**kwargs: Any) -> tuple[Any, dict[str, Any]]:
+        fingerprint, source = _REAL_COMPUTE(**kwargs)
+        component = fingerprint.components[0]
+        return (
+            SimpleNamespace(
+                pipeline_sha256=overrides.get("pipeline_sha256", fingerprint.pipeline_sha256),
+                components=[
+                    SimpleNamespace(
+                        component_id=component.component_id,
+                        component_version=component.component_version,
+                        files=overrides.get("files", component.files),
+                    )
+                ],
+            ),
+            source,
+        )
+
+    return factory
+
+
+_REAL_COMPUTE = public_artifacts_module.compute_ei_item_risk_pipeline_fingerprint
+
+
+def test_item_risk_public_validation_binds_historical_fingerprint_not_current_tree(
+    repo_root: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(
+        public_artifacts_module,
+        "compute_ei_item_risk_pipeline_fingerprint",
+        _stand_in_fingerprint(pipeline_sha256="0" * 64),
+    )
+    _validate_evidence_inference_item_risk(_load_summary(repo_root), root=repo_root)
+
+
+def test_item_risk_closure_definition_drift_fails_closed(
+    repo_root: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    real, _ = _REAL_COMPUTE(
+        repository_root=repo_root,
+        config=load_config(repo_root / _CONFIG),
+        gepa_public_summary=json.loads(
+            (repo_root / load_config(repo_root / _CONFIG).gepa_public_summary_path).read_text(
+                encoding="utf-8"
+            )
+        ),
+    )
+    monkeypatch.setattr(
+        public_artifacts_module,
+        "compute_ei_item_risk_pipeline_fingerprint",
+        _stand_in_fingerprint(files=list(reversed(real.components[0].files))),
+    )
+    with pytest.raises(
+        PublicArtifactValidationError,
+        match="evidence_inference_item_risk_historical_closure_definition_mismatch",
+    ):
+        _validate_evidence_inference_item_risk(_load_summary(repo_root), root=repo_root)
+
+
+def test_item_risk_historical_fingerprint_manifest_tamper_fails_closed(
+    repo_root: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original = public_artifacts_module._load_json_object
+    target = (repo_root / _HISTORICAL_FINGERPRINT).resolve()
+
+    def tampered(path: Path) -> dict[str, Any]:
+        value = original(path)
+        if Path(path).resolve() == target:
+            value = json.loads(json.dumps(value))
+            value["components"][0]["files"][0]["sha256"] = "0" * 64
+        return value
+
+    monkeypatch.setattr(public_artifacts_module, "_load_json_object", tampered)
+    with pytest.raises(
+        PublicArtifactValidationError,
+        match="evidence_inference_item_risk_historical_fingerprint_invalid",
+    ):
+        _validate_evidence_inference_item_risk(_load_summary(repo_root), root=repo_root)
+
+
+def test_item_risk_coherently_rehashed_manifest_cannot_replace_the_pin(
+    repo_root: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original = public_artifacts_module._load_json_object
+    target = (repo_root / _HISTORICAL_FINGERPRINT).resolve()
+
+    def rehashed(path: Path) -> dict[str, Any]:
+        value = original(path)
+        if Path(path).resolve() == target:
+            value = json.loads(json.dumps(value))
+            component = value["components"][0]
+            component["files"][0]["sha256"] = "1" * 64
+            component["component_sha256"] = hash_canonical(
+                {k: v for k, v in component.items() if k != "component_sha256"}
+            )
+            value["pipeline_sha256"] = hash_canonical(
+                {k: v for k, v in value.items() if k != "pipeline_sha256"}
+            )
+        return value
+
+    monkeypatch.setattr(public_artifacts_module, "_load_json_object", rehashed)
+    with pytest.raises(
+        PublicArtifactValidationError,
+        match="evidence_inference_item_risk_current_lineage_mismatch",
+    ):
+        _validate_evidence_inference_item_risk(_load_summary(repo_root), root=repo_root)

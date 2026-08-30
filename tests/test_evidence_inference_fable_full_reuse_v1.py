@@ -5,6 +5,9 @@ import json
 from pathlib import Path
 from typing import Any
 
+import pytest
+from tests.private_cache_support import require_private_cache
+
 from literature_multiverse.evidence_inference_fable_full_reuse_v1 import (
     EvidenceInferenceFableReuseSourceV1,
     execute_evidence_inference_fable_full_reuse_v1,
@@ -45,6 +48,8 @@ RECOVERY_WORKSPACE = (
     ROOT / "data/cache/evidence-inference-fable-retrospective-pilot-recovery-v2-live"
 )
 
+pytestmark = pytest.mark.private_cache
+
 
 def _read(path: Path) -> dict[str, Any]:
     value = json.loads(path.read_text(encoding="utf-8"))
@@ -58,6 +63,11 @@ def _context() -> tuple[
     EvidenceInferenceFableBudgetAuthorizationV1,
     list[EvidenceInferenceFableReuseSourceV1],
 ]:
+    require_private_cache(
+        "data/cache/evidence-inference-fable-retrospective-full-live-v1",
+        "data/cache/evidence-inference-fable-retrospective-pilot-live-v1",
+        "data/cache/evidence-inference-fable-retrospective-pilot-recovery-v2-live",
+    )
     full_plan = EvidenceInferenceFableRetrospectivePlanV1.model_validate(
         _read(FULL_PLAN_PATH)
     )

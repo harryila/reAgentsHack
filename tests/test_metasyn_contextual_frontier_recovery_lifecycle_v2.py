@@ -6,17 +6,28 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 import literature_multiverse.metasyn_contextual_frontier_recovery_lifecycle_v2 as lifecycle
 import literature_multiverse.metasyn_contextual_frontier_recovery_v2 as core
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_contextual_frontier_runtime_v1 import (
     MODEL,
     MetaSynContextualFrontierUsageV1,
     _persist_json,
     freeze_metasyn_contextual_frontier_provider_result_v1,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
+RECOVERY_V2_PREPARED = "data/cache/metasyn/contextual-frontier-recovery-v2/00-prepared.json"
+
+pytestmark = pytest.mark.private_cache
 
 
 @pytest.fixture(scope="module")
@@ -27,7 +38,16 @@ def plan() -> core.MetaSynContextualFrontierRecoveryPlanV2:
         if "plan" in raw:
             raw = raw["plan"]
         return core.MetaSynContextualFrontierRecoveryPlanV2.model_validate(raw)
-    return core.freeze_metasyn_contextual_frontier_recovery_plan_v2(repository_root=ROOT)
+    require_private_cache(
+        "data/cache/metasyn/contextual-frontier-runtime-v1/00-prepared.json",
+        "data/cache/metasyn/contextual-frontier-runtime-v1/02-terminal.json",
+        RECOVERY_V2_PREPARED,
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: core.freeze_metasyn_contextual_frontier_recovery_plan_v2(repository_root=ROOT),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _workspace(

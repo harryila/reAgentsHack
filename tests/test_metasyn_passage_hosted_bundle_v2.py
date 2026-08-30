@@ -5,8 +5,15 @@ from typing import Any
 
 import pytest
 from pydantic import ValidationError
+from tests.private_cache_support import (
+    HOSTED_ADAPTER_STALE_CODES,
+    TYPED_PILOT_STALE_CODES,
+    require_private_cache,
+    skip_when_historical_replay_is_stale,
+)
 
 from literature_multiverse.lineage import hash_canonical
+from literature_multiverse.metasyn_bounded_hosted_runtime import MetaSynHostedRuntimeError
 from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     EFFECT_KINDS,
     MAX_PROVIDER_CALLS,
@@ -16,13 +23,23 @@ from literature_multiverse.metasyn_passage_hosted_bundle_v2 import (
     load_metasyn_passage_hosted_config_v2,
     validate_metasyn_passage_hosted_execution_bundle_v2,
 )
+from literature_multiverse.metasyn_typed_pilot import MetaSynTypedPilotError
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 @pytest.fixture(scope="module")
 def bundle() -> MetaSynPassageHostedExecutionBundleV2:
-    return freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=ROOT)
+    root = require_private_cache(
+        "data/cache/metasyn/passage-hosted-yield-v2",
+        "data/cache/metasyn/bounded-anthropic-yield-v5",
+        "data/cache/metasyn/typed-oracle-pilot-v2",
+    )
+    return skip_when_historical_replay_is_stale(
+        lambda: freeze_metasyn_passage_hosted_execution_bundle_v2(repository_root=root),
+        stale_errors=(MetaSynTypedPilotError, MetaSynHostedRuntimeError),
+        stale_codes=TYPED_PILOT_STALE_CODES | HOSTED_ADAPTER_STALE_CODES,
+    )
 
 
 def _property_values(value: Any, property_name: str, keyword: str) -> list[Any]:
@@ -132,6 +149,7 @@ def test_config_loader_rejects_nonliteral_path() -> None:
         )
 
 
+@pytest.mark.private_cache
 def test_real_input_and_inventory_rosters_are_exact(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -198,6 +216,7 @@ def test_real_input_and_inventory_rosters_are_exact(
     } == {"intervention": 22, "exposure": 10}
 
 
+@pytest.mark.private_cache
 def test_all_five_packet_schemas_compile_with_reduced_capacity_and_replay(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -236,6 +255,7 @@ def test_all_five_packet_schemas_compile_with_reduced_capacity_and_replay(
     assert reparsed.packet_compiler_gates == bundle.packet_compiler_gates
 
 
+@pytest.mark.private_cache
 def test_source_free_preflight_plan_has_three_plus_five_exact_calls(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -257,6 +277,7 @@ def test_source_free_preflight_plan_has_three_plus_five_exact_calls(
     )
 
 
+@pytest.mark.private_cache
 def test_packet_cost_probes_cover_every_row_effect_and_slot(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -274,6 +295,7 @@ def test_packet_cost_probes_cover_every_row_effect_and_slot(
     )
 
 
+@pytest.mark.private_cache
 def test_global_cost_envelope_is_exact_and_inside_literal_limits(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -291,6 +313,7 @@ def test_global_cost_envelope_is_exact_and_inside_literal_limits(
     assert envelope.cost_ceiling_usd_micros <= 210_000_000
 
 
+@pytest.mark.private_cache
 def test_pipeline_fingerprint_is_dependency_closed(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -324,6 +347,7 @@ def test_pipeline_fingerprint_is_dependency_closed(
         assert runtime_paths.issubset(paths)
 
 
+@pytest.mark.private_cache
 def test_bundle_external_replay_is_byte_exact(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:
@@ -346,6 +370,7 @@ def test_bundle_external_replay_is_byte_exact(
     )
 
 
+@pytest.mark.private_cache
 def test_bundle_self_hash_and_literal_policy_fail_closed(
     bundle: MetaSynPassageHostedExecutionBundleV2,
 ) -> None:

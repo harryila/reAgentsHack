@@ -29,11 +29,8 @@ from pydantic import Field, field_validator, model_validator
 
 from literature_multiverse.certificate import (
     ConditionVerificationCertificateV6,
-    ConditionVerificationCertificateV8,
     FinalConditionVerificationCertificateV7,
-    FinalConditionVerificationCertificateV9,
     VerificationCertificate,
-    VerificationCertificateV8,
 )
 from literature_multiverse.lineage import (
     atomic_write_jsonl,

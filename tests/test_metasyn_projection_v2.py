@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 from literature_multiverse.lineage import hash_canonical
 from literature_multiverse.metasyn_projection_v2 import (
@@ -108,8 +109,7 @@ def _binding(projection: FrozenSourceProjectionV1) -> ProjectionV2LineageBinding
 
 
 def _load_frozen_failure_bundle() -> dict[str, Any]:
-    if not FROZEN_FAILURE_BUNDLE.is_file():
-        pytest.skip("private frozen failure bundle is not present")
+    require_private_cache("data/cache/metasyn/bounded-anthropic-yield-v5/execution-bundle.json")
     value = json.loads(FROZEN_FAILURE_BUNDLE.read_text(encoding="utf-8"))
     assert isinstance(value, dict)
     return value
@@ -255,13 +255,11 @@ def test_coherently_rehashed_origin_coverage_gap_fails_closed() -> None:
         FrozenMetaSynProjectionV2.model_validate(raw)
 
 
+@pytest.mark.private_cache
 def test_failure_stratified_frozen_diagnostic_is_label_blind_and_replayable() -> None:
-    first = load_and_diagnose_execution_bundle_projection_v2(
-        FROZEN_FAILURE_BUNDLE
-    )
-    second = load_and_diagnose_execution_bundle_projection_v2(
-        FROZEN_FAILURE_BUNDLE
-    )
+    require_private_cache("data/cache/metasyn/bounded-anthropic-yield-v5/execution-bundle.json")
+    first = load_and_diagnose_execution_bundle_projection_v2(FROZEN_FAILURE_BUNDLE)
+    second = load_and_diagnose_execution_bundle_projection_v2(FROZEN_FAILURE_BUNDLE)
 
     assert first == second
     assert first.row_ordinals == list(DEFAULT_FAILURE_STRATIFIED_ROWS)
@@ -294,6 +292,7 @@ def test_failure_stratified_frozen_diagnostic_is_label_blind_and_replayable() ->
     assert "ground_truth" not in serialized
 
 
+@pytest.mark.private_cache
 def test_diagnostic_fails_closed_when_label_boundary_is_rehashed_open() -> None:
     bundle = deepcopy(_load_frozen_failure_bundle())
     bundle["official_test_labels_opened"] = True

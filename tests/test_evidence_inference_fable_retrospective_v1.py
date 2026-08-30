@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from tests.private_cache_support import require_private_cache
 
 import literature_multiverse.evidence_inference_fable_retrospective_v1 as retrospective
 from literature_multiverse.evidence_inference_fable_retrospective_v1 import (
@@ -12,10 +13,35 @@ from literature_multiverse.evidence_inference_fable_retrospective_v1 import (
 
 ROOT = Path(__file__).resolve().parents[1]
 
+pytestmark = pytest.mark.private_cache
+
+# Every test in this module drives freeze_evidence_inference_fable_retrospective_plan_v1
+# (mode="pilot30_paired" or "full_paired"), which unconditionally reads these data/cache
+# inputs: via freeze_evidence_inference_gepa_scaled_readiness_v1's _EXPECTED_ARTIFACTS
+# (the three gepa manifest/conversion_report pairs) and directly via
+# configs/benchmarks/evidence-inference-fable-retrospective-v1.json's
+# question_table_path, article_text_root, and scaled_winner_*/scaled_gepa_result_path/
+# scaled_optimization_plan_path fields.
+_REQUIRED_PRIVATE_CACHE_PATHS = (
+    "data/cache/evidence-inference-gepa/manifest.json",
+    "data/cache/evidence-inference-gepa/conversion_report.json",
+    "data/cache/evidence-inference-gepa-pilot30/manifest.json",
+    "data/cache/evidence-inference-gepa-pilot30/conversion_report.json",
+    "data/cache/evidence-inference-gepa-low-budget/manifest.json",
+    "data/cache/evidence-inference-gepa-low-budget/conversion_report.json",
+    "data/cache/evidence-inference-2.0/prompts_merged.csv",
+    "data/cache/evidence-inference-2.0/txt_files",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/frozen-winner.md",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/gepa-result.json",
+    "data/cache/evidence-inference-ollama-gepa-v1-final-v3/optimization-plan.json",
+)
+
 
 def test_pilot_plan_is_label_safe_article_batched_and_budget_bounded(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     opened: list[Path] = []
     original_read_text = Path.read_text
     original_read_bytes = Path.read_bytes
@@ -54,6 +80,7 @@ def test_pilot_plan_is_label_safe_article_batched_and_budget_bounded(
 
 
 def test_full_paired_is_exactly_382_article_arm_calls_for_524_questions() -> None:
+    require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     plan = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="full_paired",
@@ -81,6 +108,7 @@ def test_full_paired_is_exactly_382_article_arm_calls_for_524_questions() -> Non
 
 
 def test_scaled_seed_and_winner_are_distinct_fair_paired_arms() -> None:
+    require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     plan = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="full_paired",
@@ -107,6 +135,7 @@ def test_scaled_seed_and_winner_are_distinct_fair_paired_arms() -> None:
 
 
 def test_output_cap_scales_by_article_question_count() -> None:
+    require_private_cache(*_REQUIRED_PRIVATE_CACHE_PATHS)
     plan = retrospective.freeze_evidence_inference_fable_retrospective_plan_v1(
         repository_root=ROOT,
         mode="full_paired",
